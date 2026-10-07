@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Facture {{numero}}</title>
+<style>
+  body { font-family: 'Helvetica', sans-serif; color: #1a1a1a; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+  h1 { font-size: 28px; letter-spacing: -0.02em; }
+  .header { display: flex; justify-content: space-between; }
+  .company, .client { font-size: 13px; line-height: 1.5; }
+  table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 14px; }
+  th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
+  th { background: #f6f6f6; font-weight: 600; }
+  .totals { width: 300px; margin-left: auto; }
+  .totals td { border: none; padding: 6px 10px; }
+  .totals .total { font-weight: 700; border-top: 2px solid #000; }
+  .mentions { font-size: 11px; color: #555; margin-top: 30px; line-height: 1.4; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="company">
+    <strong>{{emetteurNom}}</strong><br>
+    {{emetteurAdresse}}<br>
+    L-{{emetteurCP}} {{emetteurVille}}<br>
+    RCS: {{emetteurRCS}} · TVA: {{emetteurTVA}}
+  </div>
+  <div class="client">
+    <strong>Facturé à:</strong><br>
+    {{clientNom}}<br>
+    {{clientAdresse}}<br>
+    {{clientCP}} {{clientVille}}<br>
+    {{#if clientTVA}}TVA: {{clientTVA}}{{/if}}
+  </div>
+</div>
+
+<h1>Facture {{numero}}</h1>
+<p style="font-size: 13px;">Date d'émission: {{dateEmission}} · Date d'opération: {{dateOperation}} · Échéance: {{dateEcheance}}</p>
+
+<table>
+<thead>
+<tr><th>Désignation</th><th>Quantité</th><th>Prix HT</th><th>Taux TVA</th><th>Total HT</th></tr>
+</thead>
+<tbody>
+{{#each lignes}}
+<tr>
+  <td>{{designation}}</td>
+  <td>{{quantite}}</td>
+  <td>{{prixHT}} €</td>
+  <td>{{tauxTVA}} %</td>
+  <td>{{totalHT}} €</td>
+</tr>
+{{/each}}
+</tbody>
+</table>
+
+<table class="totals">
+<tr><td>Total HT</td><td style="text-align:right;">{{totalHT}} €</td></tr>
+<tr><td>TVA ({{tauxTVAGlobal}} %)</td><td style="text-align:right;">{{tva}} €</td></tr>
+<tr class="total"><td>Total TTC</td><td style="text-align:right;">{{totalTTC}} €</td></tr>
+</table>
+
+<div class="mentions">
+{{#if autoliquidation}}<p><strong>Autoliquidation</strong> — TVA due par le preneur (art. 196 directive 2006/112/CE).</p>{{/if}}
+{{#if intracom}}<p>Livraison intracommunautaire exonérée — art. 43 loi TVA modifiée du 12 février 1979.</p>{{/if}}
+{{#if export}}<p>Exportation hors UE exonérée — art. 43 loi TVA modifiée du 12 février 1979.</p>{{/if}}
+<p>Conditions de paiement: {{conditionsPaiement}}<br>
+IBAN: {{iban}} · BIC: {{bic}}</p>
+<p>En cas de retard de paiement, des intérêts moratoires au taux légal commercial seront dus de plein droit, ainsi qu'une indemnité forfaitaire de 40 € pour frais de recouvrement (loi du 18 avril 2004 modifiée).</p>
+</div>
+
+</body>
+</html>

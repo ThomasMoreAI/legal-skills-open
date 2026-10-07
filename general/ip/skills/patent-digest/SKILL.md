@@ -5,7 +5,7 @@ description: 专利文档智能解析与结构化摘要生成。支持提取基�
 author: TaohongMaxwell
 author_url: https://github.com/TaohongMaxwell/PatentDigest/tree/main/skills/patent-digest
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

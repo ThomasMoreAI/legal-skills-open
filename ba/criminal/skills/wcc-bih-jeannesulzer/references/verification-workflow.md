@@ -93,3 +93,40 @@ Proceedings conducted in **BCS** (Bosnian/Croatian/Serbian) — the languages ar
 ## Partial verification is acceptable if disclosed
 
 If you can confirm the case name, date, and disposition but not a specific paragraph number, say so. Partial verification disclosed is acceptable; silent overstatement is not.
+
+---
+
+## Reading the source document directly (the top of the ladder)
+
+The most reliable verification is reading the **actual document**, not a
+website's search snippet. Put this above everything else:
+
+**Rung 0 — work from the document itself when it is available.** Official
+tribunal sites frequently block automated fetching (HTTP 403), so a judgment
+can be public yet still unreachable by a direct fetch. Two ways to reach the
+text anyway:
+
+- **The user supplies it** — an uploaded PDF or pasted pages can be read
+  directly, reaching paragraph-level verification. A practitioner working on a
+  matter usually already holds the document; ask for it.
+- **A retrieval tool reads it** — where a document-retrieval tool or MCP server
+  is available (one that fetches and extracts PDF text, with a fallback
+  ladder), prefer it over a raw fetch.
+
+Only when the document cannot be obtained do you fall back to the search ladder
+above — and then you state the ceiling honestly.
+
+## Site-search results are leads, not content
+
+A result from a site-search index — or a "synthesis" of search snippets —
+establishes at most that something **exists**. It is **never** content- or
+paragraph-level verification. Treat it as a lead to confirm against the
+document, and label it as such. Two recurring traps:
+
+- **Transliteration / OCR garbling.** Names and acronyms get corrupted (for
+  example, an Arabic acronym surfacing as "KARA" where the source has
+  "RADA/RADAA"). A name or acronym that appears only once in a snippet is a red
+  flag — do not assert it.
+- **Relational claims.** Who is whose subordinate, associate, superior, or
+  co-perpetrator is the detail a synthesis most often gets inverted. Never
+  assert a relationship from a snippet; it requires the document.

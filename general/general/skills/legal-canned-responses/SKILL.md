@@ -5,7 +5,7 @@ description: Generate templated responses for common legal inquiries with escala
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/legal-canned-responses
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

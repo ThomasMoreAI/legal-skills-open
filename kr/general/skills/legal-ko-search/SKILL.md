@@ -5,7 +5,7 @@ description: 'Find Korean laws and articles by title search via legal-ko-cli. US
 author: pastel-sketchbook
 author_url: https://github.com/pastel-sketchbook/legal-ko/tree/main/.agents/skills/legal-ko-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: general

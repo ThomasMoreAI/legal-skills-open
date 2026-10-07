@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Local Services"
+  short_description: "Poland Local Services: run focused tasks"
+policy:
+  allow_implicit_invocation: false

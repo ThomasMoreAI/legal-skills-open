@@ -5,12 +5,16 @@ description: 'Use when auditing how an AI/ML personnel assessment is described a
 author: OpenMatter-Network
 author_url: https://github.com/OpenMatter-Network/agent-io-skills/tree/main/ai-personnel-assessment/skills/ai-claims-and-stakeholder-audit
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment
 language: en
-tags: [community, io-psychology, ai-assessment, auditing]
+tags:
+- community
+- io-psychology
+- ai-assessment
+- auditing
 ---
 
 # AI claims & stakeholder audit (Components 7–9)

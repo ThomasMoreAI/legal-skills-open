@@ -5,7 +5,7 @@ description: 'Scan local workspace folders by client or case name and assemble a
 author: KirKruglov
 author_url: https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/business-ops/legal-matter-tracker
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

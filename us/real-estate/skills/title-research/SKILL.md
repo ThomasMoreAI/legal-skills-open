@@ -5,7 +5,7 @@ description: Title and due diligence agent. Verifies clear title and researches 
 author: Dbillionaer
 author_url: https://github.com/Dbillionaer/wholesaile/tree/main/workspace/skills/title-research
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: real-estate

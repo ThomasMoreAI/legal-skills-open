@@ -1,0 +1,42 @@
+{
+  "standard": [
+    {
+      "threshold": 125000,
+      "rate": 0
+    },
+    {
+      "threshold": 250000,
+      "rate": 2
+    },
+    {
+      "threshold": 925000,
+      "rate": 5
+    },
+    {
+      "threshold": 1500000,
+      "rate": 10
+    },
+    {
+      "threshold": -1,
+      "rate": 12
+    }
+  ],
+  "firstTimeBuyer": {
+    "maxPrice": 500000,
+    "bands": [
+      {
+        "threshold": 300000,
+        "rate": 0
+      },
+      {
+        "threshold": 500000,
+        "rate": 5
+      }
+    ]
+  },
+  "additionalSurcharge": 5,
+  "nonResidentSurcharge": 2,
+  "effectiveFrom": "2026-04-02",
+  "source": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+  "lastVerified": "2026-04-02"
+}

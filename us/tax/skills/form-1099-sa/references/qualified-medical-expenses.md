@@ -18,8 +18,9 @@ The HSA-specific QME definition (IRC §223(d)(2)(A)) cross-references §213(d) b
 - **Health insurance premiums are GENERALLY NOT QME**, except:
   - COBRA continuation coverage premiums
   - Health insurance while receiving unemployment compensation
-  - Medicare premiums (Parts A, B, D — and Medicare Advantage plans, but NOT Medigap supplemental policies)
-  - Long-term care insurance premiums (subject to age-based caps in IRC §213(d)(10))
+  - Medicare and other health care coverage premiums if the account holder is 65 or older (Parts A, B, D and Medicare Advantage; NOT Medigap supplemental policies)
+  - Long-term care insurance premiums (subject to age-based caps in IRC §213(d)(10): 2025 $480 / $900 / $1,800 / $4,810 / $6,020 by age band ≤40 / 41–50 / 51–60 / 61–70 / 71+, Rev. Proc. 2024-40; 2026 $500 / $930 / $1,860 / $4,960 / $6,200, Rev. Proc. 2025-32)
+  - For months after December 31, 2025: direct primary care fees up to $150 a month ($300 if more than one person) (IRC §223(d)(2)(C); Notice 2026-5)
 
 This is a frequent source of confusion. Most insurance premiums are NOT QME, even though they would be deductible as medical expenses on Schedule A.
 
@@ -52,7 +53,7 @@ This is a frequent source of confusion. Most insurance premiums are NOT QME, eve
 - CPAP machines and supplies
 - Blood glucose monitors, test strips, lancets
 - Hearing aids and batteries
-- Bandages, first aid supplies (qualified per CARES Act)
+- Bandages, first aid supplies
 
 ### Specific situations
 
@@ -63,7 +64,7 @@ This is a frequent source of confusion. Most insurance premiums are NOT QME, eve
 - **Medical aids for special-needs children**: yes (many such items qualify)
 - **Smoking cessation programs**: yes (counseling, nicotine patches OTC)
 - **Weight loss programs**: yes IF directed by a physician for a specific disease (not general weight loss)
-- **Lactation consultants and breast pumps**: yes (post-IRS Notice 2011-14)
+- **Lactation consultants and breast pumps**: yes (IRS Announcement 2011-14)
 
 ---
 
@@ -110,13 +111,13 @@ This is a frequent source of confusion. Most insurance premiums are NOT QME, eve
 
 ### Travel and lodging for medical care
 
-- **Transportation to medical care**: QME (mileage at the medical mileage rate — for 2025: 21¢/mile per Notice 2025-5; verify 2026)
+- **Transportation to medical care**: QME (mileage at the medical mileage rate — 2025: 21¢/mile; 2026: 20.5¢ January–June and 23.5¢ July–December, per https://www.irs.gov/tax-professionals/standard-mileage-rates)
 - **Lodging while away from home for medical care**: QME up to **$50/night per person** (IRC §213(d)(2)) — only if for medical care of the patient and not "lavish or extravagant"
 - **Meals while traveling for medical care**: NOT QME (per IRS Pub 502)
 
 ### Dependent care vs. medical care
 
-- **Adult day care for a chronically ill dependent**: typically NOT QME (use Dependent Care FSA / Schedule 2 child and dependent care credit instead)
+- **Adult day care for a chronically ill dependent**: typically NOT QME (use Dependent Care FSA / Form 2441 child and dependent care credit instead)
 - **Memory care / dementia-specific facility**: QME (qualified long-term care)
 
 ### Dental orthodontics
@@ -136,7 +137,7 @@ This is a frequent source of confusion. Most insurance premiums are NOT QME, eve
 
 ### When can the QME be incurred?
 
-QME must be incurred **after the HSA was established** (the date the HSA account was opened, not when the user first contributed). The IRS in Notice 2004-50 Q&A 39 confirmed:
+QME must be incurred **after the HSA was established**. State trust law sets that date; most states require the account to hold an asset, so the HSA is usually established when first funded, not when the paperwork was signed (Notice 2008-59 Q&A-38). An HSA funded by a rollover or transfer from another HSA or an Archer MSA keeps the earlier account's establishment date (Q&A-40). The IRS in Notice 2004-50 Q&A 39 confirmed:
 - **No time limit on reimbursement**: a user can pay a QME in 2025 and reimburse themselves from the HSA in 2030 (with receipts retained)
 - **But the QME must be after HSA establishment**: a 2020 medical bill cannot be reimbursed from an HSA opened in 2022
 
@@ -172,14 +173,14 @@ QME from the HSA can cover:
 
 - The HSA holder
 - The HSA holder's **spouse** (married filing jointly OR married filing separately — does NOT require joint filing)
-- The HSA holder's **tax dependents** (claimed on Form 1040 as dependents)
-- A **child of divorced parents** can be a dependent for HSA purposes even if claimed by the other parent (special rule)
+- The HSA holder's **dependents**, plus anyone who would be a dependent except that they filed a joint return, had gross income above the limit, or the holder (or spouse) can be claimed as someone else's dependent (2025 Instructions for Form 8889, Line 15)
+- A **child of divorced, separated, or living-apart parents** (last 6 months of the year) is treated as the dependent of both parents (same instructions)
 
 NOT covered:
-- Domestic partners (unless tax dependent)
-- Adult children over age 24 not claimed as dependents (note: this differs from the Affordable Care Act rule allowing children up to age 26 on a parent's HDHP — the HSA QME rule is stricter)
+- Domestic partners (unless a dependent or would-be dependent under the rule above)
+- Adult children who are neither (note: the Affordable Care Act rule allowing children up to age 26 on a parent's HDHP does not decide this)
 
-**Common error**: a parent uses their HSA to pay for their 25-year-old's medical bills. The 25-year-old is not a tax dependent (over age 24 and not disabled). The parent's distribution is NON-QME, taxable + 20% penalty.
+**Common error**: a parent uses their HSA to pay for their self-supporting 25-year-old's medical bills. A non-student 25-year-old who is not permanently disabled is not a qualifying child, and if the parent did not provide over half of the child's support, the child is not a would-be qualifying relative either. The parent's distribution is NON-QME, taxable + 20% penalty. ASK about support before deciding.
 
 ---
 
@@ -193,12 +194,14 @@ NOT covered:
 - IRS Pub 502 — Medical and Dental Expenses (https://www.irs.gov/publications/p502)
 - IRS Pub 969 — HSAs and Other Tax-Favored Health Plans (https://www.irs.gov/publications/p969)
 - IRS Notice 2004-50 — HSA Q&A guidance (Q&A 39: no reimbursement time limit)
-- IRS Notice 2011-14 — breast pumps and lactation supplies as QME
+- IRS Announcement 2011-14 — breast pumps and lactation supplies as QME
 - CARES Act 2020 — added OTC and menstrual products to QME
-- Notice 2025-5 — 2025 medical mileage rate (21¢/mile)
+- IRS standard mileage rates page — 2025 medical rate 21¢ (IR-2024-312); 2026 20.5¢ Jan–Jun (IR-2025-128) and 23.5¢ Jul–Dec (IR-2026-29)
+- Notice 2008-59 Q&A-38 / Q&A-40 — HSA establishment date
+- Notice 2026-5 — direct primary care fees (2026+)
 
 ## Verify before filing
 
 - Recent IRS guidance on emerging items (telehealth, GLP-1 weight loss drugs, fertility treatments, gender-affirming care) — these areas evolve
 - Whether the user's specific item has a Letter of Medical Necessity if it's gray-area
-- 2026 medical mileage rate (announced late 2025)
+- Medical mileage rate for the year being filed (2026 changed mid-year)

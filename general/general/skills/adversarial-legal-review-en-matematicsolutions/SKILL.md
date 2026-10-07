@@ -5,7 +5,7 @@ description: 'A red team for a high-stakes deliverable - takes a finished, high-
 author: matematicsolutions
 author_url: https://github.com/matematicsolutions/awesome-matematic-skills-en/tree/main/verification-foundation/skills/adversarial-legal-review-en
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -208,3 +208,35 @@ An expert panel = a multi-perspective analysis of a business decision by 5-7 per
 ## Attribution
 
 The pattern (debate + 3-layer verification) is inspired by AnttiHero/lavern (Apache 2.0). Roles, prompts and the 10-point check are written from scratch. Three further lavern patterns arrived in v1.1.0, each adapted from scratch and ported from the Polish twin to close a twin divergence: UNCERTAIN as a first-class verdict (section 3/4b), the deterministic verdict function with explicit weights (4b), and the dissent panel (4c; multiple-choice question to independent votes, a split shown verbatim as a FINDING, a resolve loop authority -> re-vote -> escalation, adapted from lavern's `src/mcp/tools/dissent.ts` with jurisdiction-neutral sources and a one-round re-vote cap). Bounded self-revision (the exit tree with regression-revert), reviewer access tiers (isolated/augmented), mediator conflict-priority and the always-deliver invariant are adapted clean-room from gregmos/memoforge (MIT) - concepts of loop control and roles, not prompts or code. Polish counterpart: adversarial-legal-review-pl.
+
+<!-- shared-rules:begin (generated from ../../SHARED-RULES.md by scripts/shared-rules-sync.py - do not edit here) -->
+## Shared rules of the verification-foundation plugin
+
+These rules apply to every skill in this plugin, including where the skill itself is silent. They are copied into each skill, so they hold whether you install the whole plugin or a single skill.
+
+### Five layers of protection (before any disclaimer)
+
+1. **Source verification** - provisions and case law from databases, not the model's memory.
+2. **Confidence class** - every legal claim marked: verified / check / do not use.
+3. **Premise check** - facts from the user are tested before analysis.
+4. **Explicit negative scope** - each skill states what it does NOT do.
+5. **Human gate** - a qualified person reviews and approves the output.
+
+If an error would pass without being stopped by layers 1-5, the fault is in the skill. Fix the tool, do not add a note. "This is not legal advice" stops no error and transfers no responsibility.
+
+### Confidence tags
+
+- **Verified** - source checked in this session, with a full identifier: `(GDPR Art. 6)`, `(Case C-311/18, CJEU)`.
+- **Check** - plausible, unverified: `[check on EUR-Lex]`.
+- **Do not use** - an invented case number or provision. Omit it, never fabricate.
+
+The tag sits next to the line it concerns. A case number that exists is not enough - check the content.
+
+### Human gate
+
+Nothing is sent, filed, signed or published before a qualified person checks and approves it. A skill output is a draft, not a finished document.
+
+### Scope
+
+The verification foundation is jurisdiction-neutral - the method, not the substance of any one legal system. It connects to no external source (no MCP connectors) and makes no outbound calls of its own; what you type still goes to your configured model (see https://github.com/matematicsolutions/awesome-matematic-skills-en/blob/main/TRUST.md). Substance comes from separate plugins (eu-law-sources). Deep national law (e.g. Polish case law) lives in the Polish marketplace, by design.
+<!-- shared-rules:end -->

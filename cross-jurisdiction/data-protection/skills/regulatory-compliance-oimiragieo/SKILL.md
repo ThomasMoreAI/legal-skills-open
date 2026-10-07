@@ -5,12 +5,24 @@ description: Validate systems and processes against GDPR/CCPA privacy regulation
 author: oimiragieo
 author_url: https://github.com/oimiragieo/agent-studio/tree/main/.claude/skills/regulatory-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
 language: en
-tags: [gdpr, ccpa, privacy, wcag, ada, accessibility, dpa, compliance, regulatory]
+tags:
+- gdpr
+- ccpa
+- privacy
+- wcag
+- ada
+- accessibility
+- dpa
+- compliance
+- regulatory
+sources:
+- title: Research requirements
+  path: references/research-requirements.md
 ---
 
 # Regulatory Compliance Skill

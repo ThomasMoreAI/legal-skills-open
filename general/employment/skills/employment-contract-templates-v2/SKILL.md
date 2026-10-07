@@ -5,12 +5,20 @@ description: Employment Contract Templates workflow skill. Use this skill when t
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/employment-contract-templates-v2
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment
 language: en
-tags: [employment-contract-templates-v2, employment-contract-templates, templates, and, patterns, for, creating, legally]
+tags:
+- employment-contract-templates-v2
+- employment-contract-templates
+- templates
+- and
+- patterns
+- for
+- creating
+- legally
 ---
 
 # Employment Contract Templates

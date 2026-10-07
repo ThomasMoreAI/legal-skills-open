@@ -1,0 +1,10 @@
+name: Redline Emailer
+practice_area: Contracts
+jurisdiction: Multi
+version: "1.0"
+author: HeyCounsel Community
+description: >
+  Translates contract redlines into client-ready or opposing-counsel
+  emails. Accepts tracked-changes .docx, redlined PDFs, or verbal
+  descriptions of changes and produces tone-matched, copy-paste-ready
+  cover emails.

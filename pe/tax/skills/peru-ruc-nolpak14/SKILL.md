@@ -1,12 +1,12 @@
 ---
 name: peru-ruc-nolpak14
-title: 'Peru ruc'
+title: Peru ruc
 description: 'Look up Peruvian companies for free by RUC (Registro Unico de Contribuyentes, the 11-digit Peruvian tax ID) via free third-party APIs (api.apis.net.pe, apiperu.dev) that re-serve SUNAT''s Padron Reducido public dataset. Returns the razon social (legal name), estado (ACTIVO / BAJA), condicion (HABIDO / NO HABIDO), and registered address (departamento, provincia, distrito, ubigeo). Use for a quick Peru company / RUC check, counterparty verification, and Peruvian tax-ID lookup. Trigger on: ''Peru company lookup'', ''RUC'', ''consulta RUC'', ''SUNAT'', ''Peruvian tax ID'', ''check a Peruvian company'', ''is this Peru company active'', ''razon social Peru'', ''Peruvian business lookup''. Not the official SUNAT service - these are third-party aggregators over the Padron Reducido with partial fields and a free token requirement; verify against the official SUNAT Ficha RUC for authoritative use. For deeper Peru data and jurisdictions with no free API, this skill points you to the paid
   regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/peru-ruc
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pe
 practice: tax
@@ -130,3 +130,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`vietnam-business`** - another free, third-party-aggregator quick-check front door (Vietnam tax code / MST).
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for jurisdictions with no free API.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

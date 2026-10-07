@@ -1,0 +1,91 @@
+name: Veille Légilux
+
+on:
+  schedule:
+    # Tous les lundis à 8h00 UTC (= 9h00/10h00 heure LU selon DST)
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan-memorial-a:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le flux RSS du Mémorial A
+        id: rss
+        run: |
+          curl -fsSL "https://legilux.public.lu/feed/recueil_a.atom" -o memorial-a.xml
+          echo "Taille flux : $(wc -c < memorial-a.xml) octets"
+
+      - name: Détecter les entrées fiscales / sociales pertinentes
+        id: filter
+        run: |
+          # Mots-clés sensibles pour Paperasse Lux
+          KEYWORDS="impôt|TVA|RTS|barème|abattement|salaire social|SSM|indexation|enregistrement|succession|FAIA|eCDF|sécurité sociale|cotisation"
+
+          # Extraire titres + liens des 30 dernières entrées
+          python3 - <<'EOF' > matches.txt
+          import xml.etree.ElementTree as ET
+          import re
+
+          tree = ET.parse('memorial-a.xml')
+          root = tree.getroot()
+          ns = {'a': 'http://www.w3.org/2005/Atom'}
+
+          keywords_re = re.compile(
+              r"impôt|TVA|RTS|barème|abattement|salaire social|SSM|"
+              r"indexation|enregistrement|succession|FAIA|eCDF|"
+              r"sécurité sociale|cotisation",
+              re.IGNORECASE,
+          )
+
+          matches = []
+          for entry in root.findall('a:entry', ns)[:30]:
+              title = (entry.find('a:title', ns).text or '').strip()
+              link_el = entry.find('a:link', ns)
+              link = link_el.get('href') if link_el is not None else ''
+              updated = (entry.find('a:updated', ns).text or '')[:10]
+              if keywords_re.search(title):
+                  matches.append(f"- **{updated}** — [{title}]({link})")
+
+          with open('matches.txt', 'w') as f:
+              if matches:
+                  f.write("\n".join(matches))
+          EOF
+
+          if [ -s matches.txt ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+            {
+              echo 'body<<EOF_BODY'
+              echo "Le scanner de veille hebdomadaire a détecté **$(wc -l < matches.txt) entrée(s)** au Mémorial A potentiellement pertinentes pour Paperasse Lux :"
+              echo ""
+              cat matches.txt
+              echo ""
+              echo "---"
+              echo "🤖 _Issue créée automatiquement chaque lundi par \`.github/workflows/legilux-watch.yml\`._"
+              echo "_Vérifier si une mise à jour des barèmes / modules est nécessaire, puis fermer l'issue._"
+              echo 'EOF_BODY'
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "Aucune entrée pertinente cette semaine."
+          fi
+
+      - name: Ouvrir une issue de veille
+        if: steps.filter.outputs.found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[Veille Légilux] Nouvelles publications fiscales/sociales — ${today}`,
+              body: process.env.BODY,
+              labels: ['veille-legilux', 'documentation'],
+            });
+        env:
+          BODY: ${{ steps.filter.outputs.body }}

@@ -5,12 +5,16 @@ description: 'Use when scoping or commissioning a psychological audit of an AI/M
 author: OpenMatter-Network
 author_url: https://github.com/OpenMatter-Network/agent-io-skills/tree/main/ai-personnel-assessment/skills/ai-audit-planning
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment
 language: en
-tags: [community, io-psychology, ai-assessment, auditing]
+tags:
+- community
+- io-psychology
+- ai-assessment
+- auditing
 ---
 
 # AI audit planning

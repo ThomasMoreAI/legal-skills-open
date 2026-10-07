@@ -1,11 +1,11 @@
 ---
 name: switzerland-zefix-nolpak14
-title: 'Switzerland zefix'
+title: Switzerland zefix
 description: 'Look up Swiss companies for free via the official Zefix (ZefixPublicREST) API from the Swiss Federal Commercial Registry - company profile, UID (CHE number), CHID/EHRAID, legal form, legal seat and canton, purpose, nominal capital, status (active / being cancelled / cancelled), and SOGC/SHAB commercial-gazette publications. Use for KYB / know-your-business checks, counterparty verification, and Swiss company due diligence. Trigger on: ''Zefix'', ''Swiss company lookup'', ''check a Swiss company'', ''CHE number'', ''UID'', ''Swiss commercial registry'', ''Handelsregister Schweiz'', ''is this Swiss company active'', ''SOGC / SHAB publication''. The Zefix API is free (needs a free credential by email); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/switzerland-zefix
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ch
 practice: corporate
@@ -146,3 +146,8 @@ To turn a Swiss UID into a global identity, resolve it to an LEI with **`gleif-l
 - **`vies-vat-validation`** - validate EU VAT numbers for the cross-border counterparties around a Swiss entity.
 - **`sanctions-pep-screening`** - screen the entity and its officers against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Swiss jurisdictions.
+
+## More on getregdata.com
+
+- Full guide to this skill: https://getregdata.com/skills/switzerland-zefix/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

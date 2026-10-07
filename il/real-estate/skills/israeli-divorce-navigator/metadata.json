@@ -1,0 +1,119 @@
+{
+  "display_name": {
+    "he": "מנווט הגירושין בישראל",
+    "en": "Israeli Divorce Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מלווה אתכם צעד אחר צעד בתהליך הגירושין בישראל: איפה מגישים (בית דין רבני מול בית משפט לענייני משפחה) ואיך נושאים נכרכים לתביעה, השלב המקדים החובה של יישוב הסכסוך ופגישות מהו\"ת (כולל החריג לסעד דחוף ולצו הגנה), איזון משאבים וברירת המחדל של חצי-חצי לפי חוק יחסי ממון, מזונות אישה מול מזונות ילדים והלכת בע\"מ 919/15, משמורת, הכתובה, והגט כולל סנקציות על סרבנות. מקבלים מפת דרכים, גיליון איזון משאבים ורשימת נושאים שההסכם צריך לכסות. משתמשים בזה כשמתחילים או מתמודדים עם גירושין וצריכים להבין מה קורה ובאיזה סדר. לא לחישוב חלוקת פנסיה (לזה יש israeli-pension-advisor), ותמיד כדאי עורך דין משפחה להגשה עצמה.",
+    "en": "Not legal advice. Walks you step by step through the Israeli divorce process: where to file (rabbinical court vs. family court) and how matters get joined (kricha), the mandatory dispute-resolution intake and MAHUT meetings (including the urgent-relief and protective-order carve-out), property balancing and the default 50/50 split under the marital-property law, spousal maintenance vs. child support and the Bagatz 919/15 ruling, custody, the ketubah, and the get including refusal sanctions. You get a roadmap, a property-balancing worksheet, and a checklist of what the agreement must cover. Use it when you are starting or facing a divorce and need to understand what happens and in what order. Do NOT use it for pension-split math (use israeli-pension-advisor), and always get a family lawyer for the actual filing."
+  },
+  "tags": {
+    "he": [
+      "גירושין",
+      "דיני משפחה",
+      "איזון משאבים",
+      "מזונות",
+      "ישראל"
+    ],
+    "en": [
+      "divorce",
+      "family-law",
+      "property-division",
+      "child-support",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.2.0",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/72138.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/501_151.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/98460.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/73178.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/73181.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/70325.htm",
+      "type": "primary-law",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/מזונות_ילדים",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/מזונות_אישה",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/כריכת_עניינים_נלווים_לתביעת_גירושין_בבית_הדין_הרבני",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הסדר_איזון_משאבים",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הטלת_סנקציות_על_סרבני_וסרבניות_גט",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/חזקת_השיתוף_בין_בני_זוג",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/בקשה_ליישוב_סכסוך_במשפחה",
+      "type": "aggregator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

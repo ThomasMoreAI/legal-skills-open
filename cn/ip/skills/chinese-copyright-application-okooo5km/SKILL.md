@@ -5,7 +5,7 @@ description: 中国软件著作权申请材料生成工具。申请表直接输�
 author: okooo5km
 author_url: https://github.com/okooo5km/Skills4U/tree/main/skills/chinese-copyright-application
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: ip

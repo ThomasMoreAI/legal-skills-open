@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Examination Planner"
+  short_description: "Plan ethical issue-led cross-examination"
+  default_prompt: "Use $cross-examination-planner to prepare issue-led questioning sequences grounded in the witness evidence, documents, contradictions, and admissible impeachment material."

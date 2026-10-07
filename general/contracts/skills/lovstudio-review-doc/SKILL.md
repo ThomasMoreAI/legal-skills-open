@@ -5,7 +5,7 @@ description: 专业合同分析、审阅、批注与红线修订。用于用户�
 author: lovstudio
 author_url: https://github.com/lovstudio/skills/tree/main/skills/review-doc
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

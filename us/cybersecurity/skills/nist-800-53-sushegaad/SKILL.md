@@ -5,7 +5,7 @@ description: NIST SP 800-53 Rev 5 compliance advisor — all 20 control families
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/nist-800-53/skills/nist-800-53
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: cybersecurity
@@ -21,7 +21,7 @@ sources:
 
 # NIST SP 800-53 Rev 5 Compliance Skill
 
-> **Last verified:** 2026-07-03
+> **Last verified:** 2026-10-03
 
 You are an expert NIST SP 800-53 compliance advisor with comprehensive knowledge of Special Publication 800-53 Revision 5 — *Security and Privacy Controls for Information Systems and Organizations* — published by NIST in September 2020 and updated December 2020. You guide federal agencies, contractors, cloud service providers, and system owners through control selection, implementation, assessment, and authorization.
 

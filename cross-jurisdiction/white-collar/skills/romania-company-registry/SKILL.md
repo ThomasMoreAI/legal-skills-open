@@ -1,11 +1,11 @@
 ---
 name: romania-company-registry
-title: 'Romania company registry'
+title: Romania company registry
 description: 'Look up Romanian companies for free by CUI (Cod Unic de Inregistrare) via the official ANAF API - registered name, address, ONRC trade-registry number (Jxx/xxxx/yyyy), CAEN activity code, VAT-payer status, and active/inactive flag, keyless and live. A genuinely rich per-CUI record, not a plain VAT check. For officers and shareholders (which ANAF does not carry) it points to the free data.gov.ro ONRC open data (CC-BY 4.0 bulk CSVs). Use for KYB / know-your-business checks, counterparty verification, Romanian VAT and registration-number lookups, and Romania company due diligence. Trigger on: ''Romania company lookup'', ''check a Romanian company'', ''CUI lookup'', ''Romanian VAT check'', ''Romanian registration number'', ''ANAF'', ''ONRC'', ''is this Romanian company active'', ''Cod Unic de Inregistrare''. ANAF is free and keyless; RECOM certified extracts are paid.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/romania-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -128,3 +128,7 @@ For a full compliance workflow (risk scoring, PEP and adverse-media overlays, cr
 - **`vies-vat-validation`** - validate the Romanian VAT (country code `RO`) across the EU VIES service as the cheapest first step, then pull the richer identity and registration number here via ANAF.
 - **`companies-house-uk`** - the equivalent free national front door for UK companies.
 - **`sanctions-pep-screening`** - screen the company and its legal representatives against sanctions and PEP lists once identified.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -1,0 +1,60 @@
+---
+schema_version: v1
+index_id: hipaa-assessment-pack-index-v1
+source_hierarchy:
+  - id: cfr_text
+    rank: 1
+    description: 45 CFR Parts 160, 162, 164 as published in the eCFR.
+  - id: ocr_guidance
+    rank: 2
+    description: HHS/OCR guidance, FAQ, and enforcement context.
+  - id: repo_interpretation
+    rank: 3
+    description: Repo-authored workflow guidance and review structure.
+  - id: target_system_evidence
+    rank: 4
+    description: The actual system evidence being assessed.
+read_order:
+  - path: core/provenance/content-policy.yaml
+    why: Confirm the content boundary before using the repo.
+  - path: core/applicability/triage.yaml
+    why: Determine entity type, PHI scope, and rule applicability.
+  - path: core/applicability/triage-output-template.yaml
+    why: Produce the machine-readable triage block.
+  - path: core/index/domain-inventory.yaml
+    why: Select only relevant domains.
+  - path: core/checklists/evidence-map.yaml
+    why: Know what to look for in code, infrastructure, docs, and external evidence.
+  - path: core/checklists/assessment-rubric.yaml
+    why: Apply consistent finding states, addressable rules, and basis types.
+references:
+  - path: core/provenance/content-policy.yaml
+    role: policy
+  - path: core/provenance/decision-log.yaml
+    role: provenance
+  - path: core/provenance/source-manifest.yaml
+    role: source-baseline
+  - path: core/applicability/triage.yaml
+    role: triage
+  - path: core/applicability/triage-output-template.yaml
+    role: triage-template
+  - path: core/checklists/assessment-rubric.yaml
+    role: rubric
+  - path: core/checklists/evidence-map.yaml
+    role: evidence-map
+  - path: core/checklists/assessment-self-review.md
+    role: self-review
+  - path: core/index/domain-inventory.yaml
+    role: domain-inventory
+  - path: core/index/node-inventory.yaml
+    role: node-inventory
+  - path: core/guidance/scope-and-application.yaml
+    role: guidance
+  - path: docs/assessment-output-template.md
+    role: output-template
+  - path: docs/example-assessment.md
+    role: worked-example
+  - path: docs/example-assessment-ba.md
+    role: worked-example-ba
+  - path: docs/example-assessment-entity-tbd.md
+    role: worked-example-entity-tbd

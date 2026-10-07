@@ -1,12 +1,12 @@
 ---
 name: dominican-republic-rnc-nolpak14
-title: 'Dominican republic rnc'
+title: Dominican republic rnc
 description: 'Look up Dominican Republic companies for free by downloading the full national taxpayer registry (RNC padron) that DGII publishes as a public ZIP - no key, no login, no captcha. One ~22.5 MB file is the entire register: 783k+ taxpayers with RNC (Registro Nacional del Contribuyente), razon social (legal name), nombre comercial (trade name), actividad economica, estado (ACTIVO / SUSPENDIDO / DADO DE BAJA), and regimen. Download once, query locally by RNC number or by name. Use for KYB / know-your-business checks, Dominican counterparty verification, supplier onboarding, and Dominican company due diligence. Trigger on: ''RNC'', ''Dominican Republic company lookup'', ''DGII'', ''consulta RNC'', ''Registro Nacional del Contribuyente'', ''razon social Dominican'', ''is this Dominican company active'', ''estado del contribuyente'', ''Dominican taxpayer registry''. The RNC padron is free and keyless; for jurisdictions with no free bulk file this skill points you to the paid regdata
   registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/dominican-republic-rnc
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: do
 practice: white-collar
@@ -128,3 +128,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`peru-ruc`** - free Peruvian RUC taxpayer lookup (SUNAT), the closest analogue to this padron.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for jurisdictions with no free file.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

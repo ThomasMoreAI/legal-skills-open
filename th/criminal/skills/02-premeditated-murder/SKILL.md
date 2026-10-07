@@ -5,11 +5,14 @@ description: ผู้กระทำวางแผนฆ่าล่วงห�
 author: charoensakn
 author_url: https://github.com/charoensakn/bluescope/tree/main/packages/skills/src/02-premeditated-murder
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: th
 practice: criminal
 language: th
+sources:
+- title: Doc
+  path: references/doc.md
 ---
 
 # Instructions

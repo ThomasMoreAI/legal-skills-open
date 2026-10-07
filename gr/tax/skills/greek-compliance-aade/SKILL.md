@@ -5,12 +5,19 @@ description: Greek tax compliance with AADE/TAXIS integration — VAT, payroll, 
 author: LeoYeAI
 author_url: https://github.com/LeoYeAI/openclaw-master-skills/tree/main/skills/greek-compliance-aade
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gr
 practice: tax
 language: en
-tags: [greek, accounting, compliance, aade, vat, taxis, mydata]
+tags:
+- greek
+- accounting
+- compliance
+- aade
+- vat
+- taxis
+- mydata
 ---
 
 # Greek Compliance & AADE Integration

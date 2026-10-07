@@ -5,7 +5,7 @@ description: Use when the user asks about GDPR — lawful bases for processing, 
 author: scytale-labs
 author_url: https://github.com/scytale-labs/GRC-Claude-Skills/tree/main/skills/gdpr
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: data-protection

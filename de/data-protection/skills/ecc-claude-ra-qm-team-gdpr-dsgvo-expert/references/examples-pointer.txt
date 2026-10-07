@@ -1,0 +1,1 @@
+examples/bridge-skills/claude-bridges.md

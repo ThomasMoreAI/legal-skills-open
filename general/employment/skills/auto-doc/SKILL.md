@@ -5,7 +5,7 @@ description: Thư ký Pháp lý AI. Tự động trích xuất 8 trường thôn
 author: Nongcode
 author_url: https://github.com/Nongcode/TPE_OpenClaw/tree/main/skills/auto-doc
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: employment

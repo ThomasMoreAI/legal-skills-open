@@ -1,0 +1,50 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "2026 model-lease regulation draft (טיוטת תקנות חוזה שכירות) out for public comment; check next cycle if enacted.",
+        "CPI table in rent-index-calculator.py ends 2026-03; top up next cycle.",
+        "Deferred MINOR: 2024 broker ethics regulations תקנות המתווכים תשפ\"ד-2024 (bans דמי רצינות); add next cycle."
+      ]
+    },
+    {
+      "version": "1.2.0-fix",
+      "date": "2026-06-25",
+      "lessons": [
+        "Expert FAIL fix-round: corrected the §25ב written-form rule from 'strongly recommended' to the affirmative statutory norm (in writing, signed by both parties, each receiving a copy); kept 'oral lease not automatically void' as a secondary nuance only. Fixed SKILL.md, SKILL_HE.md, and references/fair-rental-law-summary.md §5.",
+        "Added the §25ב landlord pre-contract disclosure duty as a named landlord obligation (known non-minor defect + anything in apartment/surroundings causing material disruption, hafra'a shel mamash) plus a 'landlord concealed a known defect' red flag.",
+        "Anchored the deposit cap to §25י explicitly in the body (Step 1 + Step 3 tables).",
+        "Added a scope note that the 90/60 notice periods, deposit cap, and repair duties are part of the §25 chapter and subject to the §25טו exclusions.",
+        "Evidence sourced from kolzchut חוזה_שכירות_למגורים (the חוק_השכירות_והשאילה slug 404s; gov.il/he/pages/rent_law returns 403 to WebFetch) — verbatim Hebrew snippets copied for both new claims.",
+        "Should-cover items still DEFERRED to next cycle: (1) the precise §25ב statutory wording verbatim in the reference body; (2) guarantor (ערב) protections under the Guarantee Law 1967 (חוק הערבות, התשכ\"ז-1967), esp. ערב יחיד / ערב מוגן distinctions; (3) contents-vs-structure insurance (ביטוח תכולה מול ביטוח מבנה) — who insures what in a rental."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-08-29",
+      "lessons": [
+        "Root cause of the reported defects: the previous cycle sourced statutory claims to Kol Zchut rather than the statute, believing the wikisource slug 404s and gov.il 403s. The consolidated text IS reachable at he.wikisource.org/wiki/חוק_השכירות_והשאילה and every snippet verifies against it.",
+        "The evidence gate cannot catch a wrong PROSE claim: '(not indexed)' carried no numeral, so nothing flagged that its own snippet did not support it. A prose qualifier attached to a figure needs its own evidence entry.",
+        "HELD FOR NEXT CYCLE (branch v2-rental-rewrite, commit 974edfe): a full remediation addressing 8 further CRITICAL findings from an expert legal review, written and passing every mechanical gate but never independently reviewed because the review agents failed to return. Those findings are: the fabricated habitability list vs the closed First Schedule; 25ט reduced to the broker fee, missing the bars on fixed-installation and building-insurance charges; missing 25ד, 25ז(ג), 25יא, 25יב, 25יג and 25טו(ג); 'landlord needs it for personal use' listed as an eviction ground; the wrong eviction track and no self-help warning; חוק הערבות s.27 exhaustion; and the 25יד derogation direction. Do NOT re-derive these from scratch, start from that branch.",
+        "OPEN QUESTION: on a lease with an option, 25י(ב)(1) measures 'one third of תקופת השכירות' and it is unsettled whether that is the initial or extended term. The held branch states the ambiguity explicitly; this release does not mention it."
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-29",
+      "lessons": [
+        "Root cause of this cycle's defects: the previous cycle sourced statutory claims to Kol Zchut rather than the statute, because the wikisource slug was thought to 404 and gov.il returned 403. The consolidated text IS reachable at he.wikisource.org/wiki/חוק_השכירות_והשאילה and every snippet verifies against it. Cite the statute.",
+        "The evidence gate cannot catch a wrong PROSE claim: '(not indexed)' had no numeral, so nothing flagged that its own snippet did not support it. Prose qualifiers attached to a figure need their own evidence entry.",
+        "DEFERRED: no current-year value for the 25טו(4) threshold, and no pointer to the Yalkut HaPirsumim notice where the Minister publishes it. Find and add next cycle.",
+        "DEFERRED (major): index-linkage FLOOR clauses are noted in Gotchas but not in the checklist or the calculator, which still implies indexation can reduce rent.",
+        "DEFERRED (major): whether a security cheque is 'הכרוכה בהוצאה כספית' is unsettled; the skill now flags the uncertainty rather than resolving it. Revisit if case law appears.",
+        "DEFERRED (major): 25ד gap-filling is stated conditionally because it is not established whether a חוזה מצוי has actually been prescribed. Confirm and state definitively.",
+        "CARRY resolved: the CPI table is now the real CBS series through 2026-07 (was flagged 2026-06-25 as ending 2026-03).",
+        "CARRY still open from 2026-06-25: the 2026 model-lease regulation is still a draft (טיוטת צו) and the 2024 broker ethics regulations are still unaddressed.",
+        "Shipped 2026-08-30 on top of v1.4.0. The v1.4.0 release carried 7 of the 12 corrections; this cycle adds the remaining 8 CRITICAL findings from the expert review. Neither release was seen by an independent reviewer: the review subagents failed to return on 11 of 11 dispatches that session. Every statutory claim was verified by the author against primary text instead."
+      ]
+    }
+  ]
+}

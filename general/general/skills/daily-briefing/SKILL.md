@@ -1,11 +1,11 @@
 ---
 name: daily-briefing
-title: 'Daily briefing'
+title: Daily briefing
 description: Produces a portfolio-level morning briefing for an LPM running two or more active matters. Reads email, call notes and matter state across the portfolio and produces a triage surface structured around meetings (today and this week), deliverables (what is due, when, to whom), issues (current problems requiring action), and risks (plausible future problems requiring monitoring). Also reads Outlook Calendar to surface upcoming matter-relevant meetings and to flag past meetings where no follow-up correspondence has been identified. Use when the user asks "run my daily briefing", "portfolio briefing", "what do I need to know today", "what's landed overnight", "Monday sweep", "pre-09:00 briefing", "weekend catchup", or pastes correspondence spanning two or more matters. Not for single-matter briefings (use matter-drill-down) or for audience-facing status reports (use status-report-drafter). Produces a .docx working surface for the LPM's own consumption, not distribution.
 author: legalopsconsulting
 author_url: https://github.com/legalopsconsulting/lpm-skills/tree/main/skills/daily-briefing
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

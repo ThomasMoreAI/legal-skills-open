@@ -1,0 +1,10 @@
+{
+  "measures": [
+    {"issue": "未签书面合同", "risk": "高", "action": "立即补签+核算双倍工资成本", "prevention": "入职当天签署合同"},
+    {"issue": "超时加班", "risk": "中", "action": "调整排班+补发加班费", "prevention": "电子考勤+月度预警"},
+    {"issue": "社保未足额缴纳", "risk": "高", "action": "补缴差额+滞纳金评估", "prevention": "每年社保基数调整核查"},
+    {"issue": "试用期违规", "risk": "中", "action": "补偿差额工资", "prevention": "HR系统设置试用期上限提醒"},
+    {"issue": "违法解除合同", "risk": "高", "action": "协商和解或准备仲裁", "prevention": "解除前法律合规审查流程"},
+    {"issue": "年假未休", "risk": "低", "action": "安排补休或支付300%工资", "prevention": "年假余额定期提醒"}
+  ]
+}

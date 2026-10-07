@@ -1,11 +1,11 @@
 ---
 name: uk-court-of-appeal-judicial-preference-check
-title: 'UK court of appeal judicial preference check'
+title: UK court of appeal judicial preference check
 description: Use when users say "check this Court of Appeal skeleton", "judicial preference check", "CoA style", "is this too factual", "commercial vs black letter", or need England and Wales appellate drafts tested against public-source Court of Appeal drafting and judicial preference signals.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-court-of-appeal-judicial-preference-check
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: gb
 practice: litigation

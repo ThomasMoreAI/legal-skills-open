@@ -1,0 +1,988 @@
+{
+  "as_of": "2026-06-15",
+  "description": "Catalogue d'obligations administratives, fiscales et sociales luxembourgeoises. Chaque entrée est sourcée (source + dateVerification + niveauConfiance) — le moteur de diagnostic n'invente jamais une obligation. Amorce Milestone 1 : à enrichir domaine par domaine (M4 TVA, M5 sociétés, M6 particuliers, M7 résidence...).",
+  "url_source": "https://guichet.public.lu",
+  "obligations": [
+    {
+      "id": "obl_tva_declaration_mensuelle",
+      "nom": "Déclaration TVA mensuelle",
+      "categorie": "tva",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "regimeTVA",
+          "operateur": "different",
+          "valeur": "non_assujetti"
+        },
+        {
+          "champ": "frequenceTVA",
+          "operateur": "egal",
+          "valeur": "mensuelle"
+        }
+      ],
+      "frequence": "mensuelle",
+      "dateLimite": "jour:15",
+      "autoriteCompetente": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)",
+      "piecesRequises": [
+        "Chiffre d'affaires de la période",
+        "TVA collectée",
+        "TVA déductible",
+        "Acquisitions intracommunautaires"
+      ],
+      "penalites": "Amende pour dépôt tardif et intérêts de retard ; taxation d'office possible en l'absence de déclaration.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/fiscalite/tva/declaration-paiement/declaration-tva.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Déclaration à déposer via eCDF pour le 15 du mois suivant la période."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_tva_declaration_trimestrielle",
+      "nom": "Déclaration TVA trimestrielle",
+      "categorie": "tva",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "regimeTVA",
+          "operateur": "different",
+          "valeur": "non_assujetti"
+        },
+        {
+          "champ": "frequenceTVA",
+          "operateur": "egal",
+          "valeur": "trimestrielle"
+        }
+      ],
+      "frequence": "trimestrielle",
+      "dateLimite": "jour:15",
+      "autoriteCompetente": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)",
+      "piecesRequises": [
+        "Chiffre d'affaires du trimestre",
+        "TVA collectée",
+        "TVA déductible"
+      ],
+      "penalites": "Amende pour dépôt tardif et intérêts de retard ; taxation d'office possible.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/fiscalite/tva/declaration-paiement/declaration-tva.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel"
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_tva_declaration_annuelle",
+      "nom": "Déclaration TVA annuelle récapitulative",
+      "categorie": "tva",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "regimeTVA",
+          "operateur": "different",
+          "valeur": "non_assujetti"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "05-01",
+      "autoriteCompetente": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)",
+      "piecesRequises": [
+        "Récapitulatif annuel du chiffre d'affaires",
+        "Régularisations TVA de l'exercice"
+      ],
+      "penalites": "Amende et intérêts de retard en cas de dépôt tardif.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/fiscalite/tva/declaration-paiement/declaration-tva.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Échéance indicative du 1er mai à confirmer selon le régime ; à revérifier avant usage."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_rcs_depot_comptes_annuels",
+      "nom": "Dépôt des comptes annuels au RCS",
+      "categorie": "societe",
+      "populationConcernee": [
+        "societe"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "egal",
+          "valeur": "actif"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "08-31",
+      "autoriteCompetente": "Luxembourg Business Registers (RCS)",
+      "piecesRequises": [
+        "Comptes annuels approuvés (bilan, compte de profits et pertes, annexe)",
+        "Rapport de gestion le cas échéant",
+        "Procès-verbal de l'assemblée générale approuvant les comptes"
+      ],
+      "penalites": "Dépôt tardif majoré ; injonction et amende administrative possibles.",
+      "provenance": {
+        "source": "https://www.lbr.lu",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Dépôt dans le mois de l'AG, elle-même dans les 6 mois de la clôture (≈ 7 mois). Échéance 31/08 valable pour un exercice clôturé au 31/12 — à revérifier avant usage."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_rbe_mise_a_jour",
+      "nom": "Mise à jour du Registre des Bénéficiaires Effectifs (RBE)",
+      "categorie": "societe",
+      "populationConcernee": [
+        "societe"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "egal",
+          "valeur": "actif"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Luxembourg Business Registers (RBE)",
+      "piecesRequises": [
+        "Identité des bénéficiaires effectifs",
+        "Justificatif de la nature et de l'étendue des intérêts détenus"
+      ],
+      "penalites": "Amende pénale en cas de défaut ou d'inscription de données inexactes.",
+      "provenance": {
+        "source": "https://www.lbr.lu/mjrcs-rbe",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Inscription/mise à jour dans le mois suivant tout changement de bénéficiaire effectif."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_commune_declaration_arrivee",
+      "nom": "Déclaration d'arrivée à la commune",
+      "categorie": "residence",
+      "populationConcernee": [
+        "particulier",
+        "nouvel_arrivant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "dateArriveeLux",
+          "operateur": "present"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Administration communale du lieu de résidence",
+      "piecesRequises": [
+        "Pièce d'identité ou passeport en cours de validité",
+        "Justificatif de logement (bail, acte, attestation d'hébergement)"
+      ],
+      "penalites": "Régularisation exigée ; démarches ultérieures (sécurité sociale, impôts) bloquées sans inscription communale.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/immigration/citoyen-ue-plus-3-mois/enregistrement-communal.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Déclaration à effectuer à la commune dans les jours suivant l'arrivée (délai variable selon la commune et la nationalité)."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_irpp_declaration_modele100",
+      "nom": "Déclaration d'impôt sur le revenu (modèle 100)",
+      "categorie": "fiscalite_personnelle",
+      "populationConcernee": [
+        "particulier",
+        "salarie",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statutProfessionnel",
+          "operateur": "present"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "12-31",
+      "autoriteCompetente": "Administration des Contributions Directes (ACD)",
+      "piecesRequises": [
+        "Certificat de rémunération / fiche de retenue d'impôt",
+        "Justificatifs de déductions (intérêts, assurances, garde d'enfants)",
+        "Revenus étrangers le cas échéant"
+      ],
+      "penalites": "Majoration pour dépôt tardif ; taxation d'office possible.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/impots-taxes/activite-salariee-resident/declaration-impot/declaration-impot.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Obligation de déclarer non systématique : dépend des revenus et de la situation. Date limite du 31/12 de l'année suivante — à revérifier avant usage."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_autorisation_etablissement",
+      "nom": "Autorisation d'établissement",
+      "categorie": "creation",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "egal",
+          "valeur": "actif"
+        },
+        {
+          "champ": "formeJuridique",
+          "operateur": "different",
+          "valeur": "ASBL"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Ministère de l'Économie — Direction générale des classes moyennes",
+      "piecesRequises": [
+        "Preuve de qualification / diplôme le cas échéant",
+        "Extrait de casier judiciaire du dirigeant",
+        "Justificatif d'un établissement fixe au Luxembourg"
+      ],
+      "penalites": "Exercice illégal d'une activité commerciale ; sanctions et fermeture possibles.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/creation-developpement/autorisation-etablissement.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Préalable à l'immatriculation pour toute activité commerciale, artisanale ou libérale réglementée."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_affiliation_ccss_independant",
+      "nom": "Affiliation à la sécurité sociale (indépendant)",
+      "categorie": "social",
+      "populationConcernee": [
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statutProfessionnel",
+          "operateur": "egal",
+          "valeur": "independant"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Centre commun de la sécurité sociale (CCSS)",
+      "piecesRequises": [
+        "Autorisation d'établissement ou preuve de l'activité",
+        "Pièce d'identité",
+        "Date de début d'activité"
+      ],
+      "penalites": "Régularisation rétroactive des cotisations ; majorations possibles.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/ressources-humaines/obligations-employeur/affiliation-securite-sociale.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Déclaration d'affiliation à effectuer dès le début de l'activité indépendante."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_irc_declaration",
+      "nom": "Déclaration d'impôt des collectivités (IRC / ICC / IF — modèle 500)",
+      "categorie": "fiscalite_entreprise",
+      "populationConcernee": [
+        "societe"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "egal",
+          "valeur": "actif"
+        },
+        {
+          "champ": "formeJuridique",
+          "operateur": "different",
+          "valeur": "entreprise_individuelle"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "12-31",
+      "autoriteCompetente": "Administration des Contributions Directes (ACD)",
+      "piecesRequises": [
+        "Comptes annuels de l'exercice",
+        "Bilan fiscal et tableau de passage",
+        "Détail des réintégrations / déductions extra-comptables"
+      ],
+      "penalites": "Majoration pour dépôt tardif ; taxation d'office ; intérêts de retard.",
+      "provenance": {
+        "source": "https://impotsdirects.public.lu",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Concerne les sociétés opaques soumises à l'IRC (SARL, SA…). Les sociétés fiscalement transparentes relèvent d'un autre régime. Date limite indicative — à revérifier."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_acomptes_irc_icc",
+      "nom": "Acomptes trimestriels IRC / ICC",
+      "categorie": "fiscalite_entreprise",
+      "populationConcernee": [
+        "societe"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "egal",
+          "valeur": "actif"
+        },
+        {
+          "champ": "formeJuridique",
+          "operateur": "different",
+          "valeur": "entreprise_individuelle"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Administration des Contributions Directes (ACD)",
+      "piecesRequises": [
+        "Avis d'acompte de l'ACD",
+        "Estimation du bénéfice imposable"
+      ],
+      "penalites": "Intérêts de retard sur acomptes non versés.",
+      "provenance": {
+        "source": "https://impotsdirects.public.lu",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Acomptes fixés par l'ACD, généralement exigibles les 10 mars, 10 juin, 10 septembre et 10 décembre — à confirmer sur l'avis reçu."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_employeur_declaration_entree",
+      "nom": "Déclaration d'entrée d'un salarié (CCSS)",
+      "categorie": "employeur",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "nbSalaries",
+          "operateur": "superieur",
+          "valeur": 0
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Centre commun de la sécurité sociale (CCSS)",
+      "piecesRequises": [
+        "Contrat de travail ou date d'embauche",
+        "Matricule / identité du salarié",
+        "Matricule employeur"
+      ],
+      "penalites": "Amende pour déclaration tardive ou absente.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/ressources-humaines/obligations-employeur/affiliation-securite-sociale.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Déclaration d'entrée à effectuer sans délai auprès du CCSS lors de toute embauche."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_cessation_radiation",
+      "nom": "Cessation d'activité et radiation (RCS / TVA / CCSS)",
+      "categorie": "cessation",
+      "populationConcernee": [
+        "societe",
+        "independant"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "statut",
+          "operateur": "different",
+          "valeur": "actif"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "LBR / AED / CCSS",
+      "piecesRequises": [
+        "Décision de cessation / dissolution",
+        "Dernière déclaration TVA et clôture du compte TVA",
+        "Radiation CCSS des salariés et de l'employeur",
+        "Réquisition de radiation au RCS"
+      ],
+      "penalites": "Maintien des obligations déclaratives tant que la radiation n'est pas effective.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/entreprises/cessation-activite.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Enchaînement des radiations (TVA, CCSS, RCS) — ordre et pièces à confirmer selon la forme juridique."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_fiche_retenue_maj",
+      "nom": "Mise à jour de la fiche de retenue d'impôt (classe d'impôt)",
+      "categorie": "fiscalite_personnelle",
+      "populationConcernee": [
+        "particulier",
+        "salarie"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "situationFamiliale",
+          "operateur": "present"
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Administration des Contributions Directes (ACD)",
+      "piecesRequises": [
+        "Nouvelle situation familiale (mariage, partenariat, divorce, décès)",
+        "Certificat de résidence le cas échéant"
+      ],
+      "penalites": "Retenue d'impôt inadaptée ; régularisation lors du décompte annuel.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/impots-taxes/activite-salariee-resident/fixation-imposition/fiche-retenue-impot.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "À demander/mettre à jour lors de tout changement de situation influant sur la classe d'impôt."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_allocations_familiales",
+      "nom": "Demande d'allocations familiales",
+      "categorie": "famille",
+      "populationConcernee": [
+        "particulier",
+        "famille"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "nombreEnfants",
+          "operateur": "superieur",
+          "valeur": 0
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Zukunftskeess (Caisse pour l'avenir des enfants — CAE)",
+      "piecesRequises": [
+        "Acte de naissance de l'enfant",
+        "Certificat de résidence",
+        "Coordonnées bancaires"
+      ],
+      "penalites": null,
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/famille/naissance-adoption/aides-financieres/allocation-familiale.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "officiel",
+        "note": "Prestation versée par la CAE (Zukunftskeess) ; demande à l'arrivée d'un enfant ou lors de l'installation au Luxembourg."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_conge_parental",
+      "nom": "Demande de congé parental",
+      "categorie": "famille",
+      "populationConcernee": [
+        "particulier",
+        "salarie",
+        "famille"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "nombreEnfants",
+          "operateur": "superieur",
+          "valeur": 0
+        }
+      ],
+      "frequence": "ponctuelle",
+      "dateLimite": null,
+      "autoriteCompetente": "Zukunftskeess (CAE)",
+      "piecesRequises": [
+        "Demande de congé parental",
+        "Accord ou information de l'employeur",
+        "Justificatif d'affiliation continue"
+      ],
+      "penalites": null,
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/famille/conge-parental/beneficier-conge-parental/conge-parental.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Conditions d'ancienneté et délais de demande à vérifier selon le type de congé (1er/2e parent)."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_frontalier_declaration_residence",
+      "nom": "Déclaration des revenus luxembourgeois dans le pays de résidence",
+      "categorie": "frontalier",
+      "populationConcernee": [
+        "frontalier"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "frontalier",
+          "operateur": "vrai"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "05-31",
+      "autoriteCompetente": "Administration fiscale du pays de résidence (FR/BE/DE)",
+      "piecesRequises": [
+        "Certificat de rémunération luxembourgeois",
+        "Justificatif de l'impôt retenu au Luxembourg",
+        "Décompte des jours travaillés hors Luxembourg"
+      ],
+      "penalites": "Sanctions du pays de résidence en cas de non-déclaration des revenus étrangers.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/impots-taxes/activite-salariee-non-resident.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Méthode d'exonération avec réserve de progressivité selon les conventions LU-FR/BE/DE. Date limite variable selon le pays — à revérifier."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    },
+    {
+      "id": "obl_frontalier_seuil_teletravail",
+      "nom": "Surveillance du seuil de télétravail (fiscalité et sécurité sociale)",
+      "categorie": "frontalier",
+      "populationConcernee": [
+        "frontalier"
+      ],
+      "conditionsApplicabilite": [
+        {
+          "champ": "frontalier",
+          "operateur": "vrai"
+        }
+      ],
+      "frequence": "annuelle",
+      "dateLimite": "12-31",
+      "autoriteCompetente": "Conventions fiscales bilatérales + règlement (CE) 883/2004 (sécurité sociale)",
+      "piecesRequises": [
+        "Relevé des jours de télétravail et de déplacement hors Luxembourg"
+      ],
+      "penalites": "Au-delà des seuils, imposition partielle dans le pays de résidence et/ou basculement de l'affiliation sécurité sociale.",
+      "provenance": {
+        "source": "https://guichet.public.lu/fr/citoyens/impots-taxes/activite-salariee-non-resident.html",
+        "dateVerification": "2026-06-15",
+        "niveauConfiance": "derive",
+        "note": "Seuils de tolérance fiscale (34 jours pour FR/BE/DE) et seuil sécurité sociale (< 25 % du temps de travail dans le pays de résidence). À revérifier — évolutif."
+      },
+      "statut": "actif",
+      "validite": {
+        "validFrom": "2025-01-01",
+        "validUntil": null,
+        "juridiction": "LU",
+        "langue": "fr",
+        "version": "2026.1",
+        "lastVerified": "2026-06-15"
+      },
+      "gouvernance": {
+        "owner": "Paperasse Lux",
+        "status": "verified",
+        "reviewFrequency": "6 months",
+        "lastVerified": "2026-06-15",
+        "nextReview": "2026-12-15",
+        "changeLog": [
+          {
+            "date": "2026-06-15",
+            "reason": "Création de la fiche de règle",
+            "author": "Paperasse Lux"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -5,11 +5,16 @@ description: 'Guides compliance with Australia''s Privacy Act 1988 including the
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/australia-privacy-act
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: au
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Australia Privacy Act Compliance (2024 Amendments)

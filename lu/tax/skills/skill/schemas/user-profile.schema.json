@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "user-profile.schema.json",
+  "title": "ProfilUtilisateur (UserProfile) — moteur de diagnostic administratif",
+  "type": "object",
+  "required": ["type", "langue", "dateMiseAJour"],
+  "properties": {
+    "type": { "const": "ProfilUtilisateur" },
+    "id": { "type": ["string", "null"] },
+    "prenom": { "type": ["string", "null"] },
+    "nom": { "type": ["string", "null"] },
+    "email": { "type": ["string", "null"] },
+    "langue": { "type": "string", "enum": ["fr", "en", "de", "lb"] },
+    "nationalite": { "type": ["string", "null"] },
+    "paysResidence": { "type": ["string", "null"] },
+    "communeResidence": { "type": ["string", "null"] },
+    "situationFamiliale": { "type": ["string", "null"], "enum": ["celibataire", "marie", "partenariat", "divorce", "separe", "veuf", null] },
+    "nombreEnfants": { "type": "integer", "minimum": 0 },
+    "statutProfessionnel": { "type": ["string", "null"], "enum": ["salarie", "independant", "dirigeant", "sans_emploi", "retraite", "etudiant", null] },
+    "employeur": { "type": ["string", "null"] },
+    "paysEmployeur": { "type": ["string", "null"] },
+    "frontalier": { "type": "boolean" },
+    "revenusApprox": { "type": ["number", "null"] },
+    "statutLogement": { "type": ["string", "null"], "enum": ["proprietaire", "locataire", "heberge", "autre", null] },
+    "vehicules": { "type": "array" },
+    "societesLiees": { "type": "array", "items": { "type": "string" } },
+    "dateArriveeLux": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "consentementRGPD": { "type": "boolean" },
+    "dateMiseAJour": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

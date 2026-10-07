@@ -1,0 +1,4 @@
+interface:
+  display_name: "Procedural Order Drafter"
+  short_description: "Draft tribunal procedure and case timetables"
+  default_prompt: "Use $procedural-order-drafter to turn these directions and party positions into a clear procedural order."

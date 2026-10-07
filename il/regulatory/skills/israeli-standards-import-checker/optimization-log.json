@@ -1,0 +1,33 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-24",
+      "holdout_before": 0.67,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "אני קונה מזגן באמזון לשימוש אישי, מותר?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "Can I use US standards to import children's products to Israel now?",
+          "How much customs duty and VAT will I pay on a 300 dollar package?"
+        ]
+      },
+      "lessons": [
+        "CARRY: whether a separate trader/holding licence under the Wireless Telegraph Ordinance [New Version] 5732-1972 is required IN ADDITION to the reg. 2(a) compliance certificate. Raised by the Expert twice, could not be closed against a primary source in this cycle. Do not write it until the provision is read.",
+        "CARRY: Amendment 21 creates an Eighth Appendix (תוספת שמינית) and a new chapter on adopted US regulation, updated under s.9a8. The skill describes the American route narratively but never tells the reader to read the Eighth Appendix entry by entry the way it now does for the Fifth. Add before the route goes live at the start of 2027.",
+        "CARRY: routes 9(a)(1)(b) and (c) and the Fourth Appendix are only named in one sentence in Step 3. The Third Appendix carve-out is now flagged, but the skill still has no worked treatment of filing on an international standard adopted into an official standard, which is the everyday basis for an IEC 60335 or EN file.",
+        "CARRY: section 10e vocabulary (הצהרת יצרן, תיק מסמכים טכניים), the Sixth Appendix of European-route breaches, and the עיצום כספי schedule in ss.16a-16b are named but not explained. Users have no idea what the failure costs.",
+        "CARRY (unverifiable this cycle): the 2026 European-route wave dates published by chamber.org.il (1.7.26 phase 6, 1.10.26, 1.1.27, 1.7.27), the 26 May 2026 withdrawal of fire extinguishers from the route, the reported ~55,000 NIS penalty cap, and the 1.10.26 Importers' Portal shutdown. chamber.org.il and gov.il both 403 curl and WebFetch; the Fifth Appendix on nevo was used instead and does not carry the operational-notice material.",
+        "CARRY: the personal-import ceiling history (USD 150 in December 2025, Knesset revocation on 24 February 2026) is stated in the Gotchas but no reachable source carries those two facts; Kol Zchut supports only 75 / 130 and the 25.02-01.06.2026 window.",
+        "CARRY: 'roughly 444 of 573 mandatory standards' was removed as unsourceable. Published counts contradict each other. If an authoritative figure surfaces, restore it with a date.",
+        "CARRY: references/approval-routes.md still publishes a named individual's SII email as the Maslol Plus contact. Replace with a role mailbox.",
+        "Discretionary edits deferred over the Phase 4.1 batch cap: SII published fee schedule (מחירון) instead of routing users to a phone number; approved private ISO/IEC 17025 labs as an alternative to SII; importer prerequisites (Israeli entity, Tax Authority customs file, broker power of attorney); practical levers for a held shipment (bank guarantee release, re-export or destruction election, demurrage clock, objection to the Commissioner); GPSR and RoHS entries in the Fifth Appendix.",
+        "Method note: the biggest defect this cycle (the false 'AC mains 50-1000 V is excluded from the EU route' rule, repeated in ~10 places plus two script branches) had survived every prior gate because every gate verified the values the skill stated rather than reading the governing provision. It was caught only by opening s.9(a)(1) and the Fifth Appendix on nevo directly. nevo.co.il serves full statute text to curl with a browser User-Agent; gov.il and chamber.org.il do not."
+      ]
+    }
+  ]
+}

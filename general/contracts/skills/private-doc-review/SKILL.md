@@ -5,7 +5,7 @@ description: Review a private document (contract, lease, NDA, vendor agreement, 
 author: Pratiikpy
 author_url: https://github.com/Pratiikpy/ivaronix/tree/main/seed-skills/private-doc-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

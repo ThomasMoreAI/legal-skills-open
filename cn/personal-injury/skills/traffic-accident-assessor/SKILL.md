@@ -5,7 +5,7 @@ description: 交通事故责任评估与判定专业技能。当用户需要交�
 author: wonderslife
 author_url: https://github.com/wonderslife/pdd-skills-v3/tree/main/skills/core/traffic-accident-assessor
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: personal-injury

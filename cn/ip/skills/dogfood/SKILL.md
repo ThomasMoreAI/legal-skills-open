@@ -5,7 +5,7 @@ description: 'Exploratory QA of web apps: find bugs, evidence, reports.'
 author: kevinnft
 author_url: https://github.com/kevinnft/ai-agent-skills/tree/main/skills/dogfood
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: ip

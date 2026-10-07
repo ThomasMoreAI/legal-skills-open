@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.1",
+      "date": "2026-06-28",
+      "lessons": [
+        "WRONG framing fixed: the skill called the Apropim change a 'doctrine reversal (2025-2026)'. It is Amendment 3 to the Contracts Law (General Part), rewriting Section 25(a), third reading 2026-01-05, and it narrows Apropim for COMMERCIAL contracts only (non-commercial, standard-form, employment contracts stay under the prior rule). Fixed in SKILL.md, SKILL_HE.md, references/legislation-index.md. A statute, not a case-law reversal.",
+        "STALE: the 11-justice HCJ hearing on the Judicial Selection Committee was written future-tense ('scheduled for June 21, 2026'); the hearing has occurred and an order nisi (צו על תנאי) was issued, ruling pending. Re-tensed in 3 files. Re-check the ruling status each cycle (date-sensitive).",
+        "STALE: Supreme Court deep path /sites/he/Pages/home.aspx was retired; repointed legal-databases-guide.md to the domain root https://supreme.court.gov.il/ (WAF-blocked to bots, opens in a browser).",
+        "Judge FAIL fixed: the claimed 'first enforcement: HOT, 70k shekel' was wrong on BOTH the entity and the amount. The documented early Amendment-13 action was a 75k-shekel fine on an INDIVIDUAL for unauthorized retrieval from National Insurance (Bituach Leumi) databases. Fixed in 3 files. CARRY: israeli-privacy-shield (skill #9, same batch) likely carries the same HOT/70k error, fix it there too.",
+        "VERIFIED OK (no change): VAT 18%, legal DB classifications (Nevo/Takdin/Psakdin paid no public API; Knesset/kolzchut/btl free), citation formats (ע\"א/בג\"ץ case-number), Severance Sec 14 (1 month/year), all statute names/years. No dead URLs (all bot-blocked sites render for humans).",
+        "Evidence gate over-extracts on this legal skill: markdown bold-wrapped dates (**2024-01-01**) trip the phone-star *NNNN regex, and the retired Supreme-Court code path is mentioned only to flag it as retired. Documented under internal-formatting-and-codepaths. Expect the same next cycle."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-06-29",
+      "lessons": [
+        "User report 'invents laws that don't exist' (ממציא חוקים) was investigated: independent verification of every dated claim found NO fabricated law in the v1.3.1 content (Apropim/Amendment-3, the judicial-committee order nisi, Amendment 13, the 75k NII fine all real). The complaint was most likely pre-fix. Durable fix shipped anyway: broadened the anti-hallucination rule from CITATIONS-only to ALL legal claims (invented statute names, saif numbers, what a law says, holdings), and reconciled Step 4 which had ordered unconditional 'state section numbers (saifim)' on every response, the exact instruction that licenses inventing a saif.",
+        "STALE fixed (Expert/Judge MISSTATED): the 2026 'judicial-overhaul-redux' set was blanket-labeled 'all mid-process'. The Mahash (Police Internal Investigations) subordination bill was ENACTED on 2026-06-11 (final 2nd/3rd reading, 43-39). Split the set by stage in 3 files (Mahash enacted; AG-split first-reading; ministerial-advisers preliminary-reading; Civil Service Commissioner reported-but-unconfirmed). CARRY: re-check whether Mahash drew HCJ petitions; re-check AG-split / ministerial-advisers stage each cycle (date-sensitive).",
+        "FIXED (Amendment-13 damages precision): §29A statutory damages are up to NIS 50,000 without proof of harm, up to NIS 100,000 ONLY with intent to harm; Amendment 13's own new no-proof head is NIS 10,000. The prior 'up to NIS 100,000 without proof of harm' was unconditional. Re-sourced (Judge SNIPPET_NOT_FOUND on iapp/ebnlaw): §29A -> aluk-firm.com, 10k -> ebnlaw, 75k NII fine -> law.co.il/2025/08/24.",
+        "DECISION (anti-fabrication over completeness): the exact administrative-fine tariff (the per-offense range, the doubling for severe cases, the percentage-of-turnover cap) was SOFTENED to a qualitative description + 'consult the PPA Amendment-13 guide', because no clean HTML source states the full tariff (the gov.il professional guide is a binary PDF WebFetch can't read). CARRY: if a citable HTML tariff page surfaces, restore the exact figures with that source.",
+        "COVERAGE added (Expert CRITICAL, must-cover items were absent): Small Claims Court (Courts Law 1984 ss.59-63; lawyer only with court permission per s.63(a); ceiling 39,900 NIS as of Jan 2026, index-linked - TIME-SENSITIVE, re-verify each cycle), Limitation Law 1958 (s.5: 7y general / 25y registered land), Civil Procedure Regulations 2018 (in force 2021; good-faith + proportionality), and Basic Law: The Judiciary (s.15 HCJ jurisdiction, s.20 precedent). Added a 'Courts, Civil Procedure and Limitations' section to legislation-index + two rows to the Step-2 area table in both languages.",
+        "DEFERRED to next cycle (learning-rate cap + Expert MAJOR/MINOR): add to legislation-index the 'should cover' statutes still absent - Class Actions Law 2006, Succession Law 1965, Agency Law 1965, Unjust Enrichment Law 1979, Execution Law 1967, the Evidence Ordinance (new version), Interpretation Law 1981, Arbitration Law 1968, Legal Aid Law 1972; flesh out the appeal-as-of-right vs leave-to-appeal (רע\"א) distinction and jurisdiction-objection-at-first-opportunity; add Protection of Wages Law 1958 + the mandatory-pension extension order to the employment list. MINOR: note Freedom of Occupation 1992-vs-1994 re-enactment; cite Bank HaMizrahi (CA 6821/93); fix the script glossary's precedent-doctrine oversimplification (Supreme Court binds lower courts, not itself) and add non-binding document-structure templates."
+      ]
+    }
+  ]
+}

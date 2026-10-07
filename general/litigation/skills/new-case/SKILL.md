@@ -5,7 +5,7 @@ description: 将案件/咨询/商标/专利材料整理成标准化目录结构�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/new-case
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: litigation

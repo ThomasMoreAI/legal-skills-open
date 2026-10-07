@@ -1,11 +1,11 @@
 ---
 name: collating-reviewer-feedback
-title: 'Collating reviewer feedback'
+title: Collating reviewer feedback
 description: Use when users say "collate comments", "combine reviewer markups", "compile tracked changes", "make a resolution checklist", or have multiple DOCX drafts, Word comments, redlines, partner/client markups, or external feedback to review without auto-merging.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/collating-reviewer-feedback
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

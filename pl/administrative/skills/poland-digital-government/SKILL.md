@@ -5,7 +5,7 @@ description: Digital government. Use for public Polish portal guidance and safe 
 author: Xopoko
 author_url: https://github.com/Xopoko/poland/tree/main/skills/poland-digital-government
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: administrative

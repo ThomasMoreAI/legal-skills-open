@@ -5,7 +5,7 @@ description: Track legal and administrative obligations including IDs, permits, 
 author: YaRepo
 author_url: https://github.com/YaRepo/yaswarm-agency/tree/main/skills/legal-admin-tracker
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

@@ -1,0 +1,384 @@
+# Compliance frameworks lookup table
+# Used by compliance-check/SKILL.md to map scoping answers to applicable frameworks.
+#
+# Schema per framework:
+#   id:                stable identifier (use in finding output)
+#   full_name:         human-readable name
+#   jurisdiction:      where it applies
+#   trigger:           conditions under which it applies (free text, for human reasoning)
+#   industries:        [list] — if present, limits applicability to these sectors
+#   data_types:        [list] — if present, limits applicability to these data types
+#   key_authority:     regulator / certifying body
+#   enforcement_risk:  low | medium | high | very-high
+#   key_controls:      short list of the top technical/operational controls to check
+#   references:        official links
+
+frameworks:
+
+  # =========================================================================
+  # EU — general
+  # =========================================================================
+
+  - id: GDPR
+    full_name: General Data Protection Regulation (Regulation (EU) 2016/679)
+    jurisdiction: EU / EEA + extraterritorial if offering goods/services to EU data subjects or monitoring their behavior
+    trigger: processing personal data of individuals in the EU/EEA
+    data_types: [PII]
+    key_authority: National DPAs (coordinated via EDPB)
+    enforcement_risk: very-high
+    key_controls:
+      - lawful basis documented per processing activity
+      - consent mechanisms (granular, withdrawable, recorded)
+      - data subject rights endpoints (access, erasure, rectification, portability, objection, restriction)
+      - retention policies enforced programmatically
+      - records of processing activities (Art. 30)
+      - DPIA for high-risk processing (Art. 35)
+      - breach detection + 72h notification capability (Art. 33)
+      - international transfer mechanisms (SCCs, adequacy, BCR)
+      - technical + organizational measures proportionate to risk (Art. 32)
+      - data protection by design and by default (Art. 25)
+      - processor/sub-processor register + DPAs (Art. 28)
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2016/679/oj
+      - https://edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en
+
+  - id: EPRIVACY
+    full_name: ePrivacy Directive (2002/58/EC as amended)
+    jurisdiction: EU / EEA
+    trigger: use of cookies, similar tracking technologies, electronic communications
+    key_authority: National DPAs
+    enforcement_risk: high
+    key_controls:
+      - prior informed consent for non-essential cookies
+      - clear information about purposes
+      - withdrawal as easy as giving
+      - no pre-ticked boxes
+    references:
+      - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02002L0058-20091219
+
+  - id: EU_AI_ACT
+    full_name: EU AI Act (Regulation (EU) 2024/1689)
+    jurisdiction: EU + extraterritorial if output used in EU
+    trigger: placing on market, putting into service, or using an AI system targeting EU
+    key_authority: National market surveillance authorities + AI Office
+    enforcement_risk: very-high
+    key_controls:
+      - classification: prohibited / high-risk / limited / minimal
+      - for high-risk (Annex III): risk management, data governance, technical documentation, logging, transparency, human oversight, accuracy/robustness/security, post-market monitoring, conformity assessment
+      - GPAI model obligations (Chapter V) if applicable
+      - transparency to users (Art. 50) for chatbots, deepfakes, emotion recognition, biometric categorization
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+
+  - id: NIS2
+    full_name: Directive (EU) 2022/2555 (NIS2)
+    jurisdiction: EU member states (via national transpositions)
+    trigger: entity is "essential" or "important" per Annex I/II (energy, transport, banking, health, digital infra, cloud, DCs, etc.)
+    industries: [energy, transport, banking, finance, health, water, digital-infrastructure, ict-service-management, public-administration, space, postal, waste, chemicals, food, manufacturing, digital-providers]
+    key_authority: National CSIRTs + competent authorities
+    enforcement_risk: high
+    key_controls:
+      - cybersecurity risk management (Art. 21)
+      - incident reporting (24h/72h/1mo, Art. 23)
+      - supply chain security
+      - MFA, access control, encryption, training
+      - management body oversight and liability
+    references:
+      - https://eur-lex.europa.eu/eli/dir/2022/2555/oj
+
+  - id: DORA
+    full_name: Digital Operational Resilience Act (Regulation (EU) 2022/2554)
+    jurisdiction: EU
+    trigger: financial entity (bank, payment institution, e-money, investment firm, insurer, crypto-asset service provider, etc.) or critical ICT third-party provider
+    industries: [finance, fintech, banking, insurance, crypto]
+    key_authority: ESAs (EBA, ESMA, EIOPA) + national competent authorities
+    enforcement_risk: very-high
+    key_controls:
+      - ICT risk management framework
+      - ICT incident classification + reporting
+      - Digital Operational Resilience Testing (annual; TLPT every 3y for significant entities)
+      - ICT third-party risk management (register, exit strategy, concentration)
+      - information sharing arrangements
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2022/2554/oj
+
+  - id: DSA
+    full_name: Digital Services Act (Regulation (EU) 2022/2065)
+    jurisdiction: EU
+    trigger: intermediary service, hosting, online platform, VLOP (>45M EU MAU)
+    key_authority: European Commission (for VLOPs) + national DSC
+    enforcement_risk: high
+    key_controls:
+      - notice-and-action mechanism
+      - statement-of-reasons for moderation
+      - transparency reports
+      - trusted-flagger prioritization
+      - illegal content takedown
+      - for VLOPs: systemic risk assessments, data access for researchers, crisis protocols
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2022/2065/oj
+
+  - id: DMA
+    full_name: Digital Markets Act (Regulation (EU) 2022/1925)
+    jurisdiction: EU
+    trigger: designated gatekeeper (large platform meeting quantitative thresholds)
+    key_authority: European Commission
+    enforcement_risk: very-high
+    key_controls: [interoperability, anti-self-preferencing, data portability, sideloading, no unfair T&Cs]
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2022/1925/oj
+
+  - id: CRA
+    full_name: Cyber Resilience Act (Regulation (EU) 2024/2847)
+    jurisdiction: EU
+    trigger: products with digital elements placed on EU market
+    key_authority: National market surveillance
+    enforcement_risk: high
+    key_controls:
+      - security by design
+      - vulnerability handling for 5 years or product lifetime
+      - SBOM
+      - 24h notification of actively exploited vulnerabilities to ENISA
+      - CE marking + conformity assessment
+    references:
+      - https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+
+  # =========================================================================
+  # UK
+  # =========================================================================
+
+  - id: UK_GDPR
+    full_name: UK GDPR + Data Protection Act 2018
+    jurisdiction: UK
+    trigger: processing personal data of UK data subjects
+    data_types: [PII]
+    key_authority: ICO
+    enforcement_risk: high
+    key_controls: "Substantially the same as GDPR with UK-specific adequacy and transfers. See ICO guidance."
+    references:
+      - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/
+
+  # =========================================================================
+  # US — federal
+  # =========================================================================
+
+  - id: HIPAA
+    full_name: Health Insurance Portability and Accountability Act
+    jurisdiction: US
+    trigger: covered entity or business associate processing PHI
+    industries: [health]
+    data_types: [health]
+    key_authority: HHS OCR
+    enforcement_risk: high
+    key_controls:
+      - Privacy Rule — minimum necessary, patient rights
+      - Security Rule — administrative, physical, technical safeguards
+      - Breach Notification Rule — 60d, HHS + individuals + media for >500
+    references:
+      - https://www.hhs.gov/hipaa/
+
+  - id: COPPA
+    full_name: Children's Online Privacy Protection Act
+    jurisdiction: US
+    trigger: directed to children under 13, or actual knowledge of processing under-13 PII
+    data_types: [children]
+    key_authority: FTC
+    enforcement_risk: high
+    key_controls: [verifiable parental consent, parental access/deletion rights, no behavioral advertising to under-13, data minimization]
+    references:
+      - https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa
+
+  - id: GLBA
+    full_name: Gramm-Leach-Bliley Act
+    jurisdiction: US
+    trigger: financial institution processing consumer financial info
+    industries: [finance]
+    key_authority: FTC + banking regulators
+    enforcement_risk: high
+    key_controls: [privacy notice, safeguards rule (incident response program, risk assessment, MFA, encryption), pretexting protections]
+    references:
+      - https://www.ftc.gov/legal-library/browse/statutes/gramm-leach-bliley-act
+
+  # =========================================================================
+  # US — state privacy (selected)
+  # =========================================================================
+
+  - id: CCPA
+    full_name: California Consumer Privacy Act (as amended by CPRA)
+    jurisdiction: US-CA
+    trigger: doing business in CA + threshold (revenue $25M+, or 100k+ consumers, or 50%+ revenue from selling/sharing PI)
+    data_types: [PII]
+    key_authority: California Privacy Protection Agency + AG
+    enforcement_risk: high
+    key_controls:
+      - right to know, delete, correct, opt out of sale/sharing, limit use of sensitive PI
+      - honor Global Privacy Control signal
+      - '"Do Not Sell or Share My Personal Information" link'
+      - reasonable security
+    references:
+      - https://cppa.ca.gov/
+
+  - id: VCDPA
+    full_name: Virginia Consumer Data Protection Act
+    jurisdiction: US-VA
+    trigger: controller/processor meeting VA thresholds
+    key_controls: [consumer rights, DPAs, DPIAs for high-risk, opt-out of sale/targeted advertising]
+    references: [https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/]
+
+  - id: CPA
+    full_name: Colorado Privacy Act
+    jurisdiction: US-CO
+    trigger: controller meeting CO thresholds
+    key_controls: [consumer rights, universal opt-out mechanism recognition, DPAs, assessments]
+    references: [https://coag.gov/resources/colorado-privacy-act/]
+
+  - id: OTHER_US_STATE_PRIVACY
+    full_name: Other US state privacy laws (CT, UT, TX, OR, MT, DE, IA, TN, IN, NJ, NH, KY, MD, MN, RI, etc.)
+    jurisdiction: US-states
+    trigger: varies by state; generally revenue + number of consumers thresholds
+    note: "Laws are broadly similar to VCDPA/CPA template. Check the specific state if users are resident there."
+
+  # =========================================================================
+  # Payment + security frameworks
+  # =========================================================================
+
+  - id: PCI_DSS
+    full_name: Payment Card Industry Data Security Standard v4.0
+    jurisdiction: contractual (card brand mandate)
+    trigger: storing, processing, or transmitting cardholder data
+    data_types: [payment]
+    key_authority: PCI SSC + card brands + acquiring banks
+    enforcement_risk: high
+    key_controls:
+      - 12 requirements across 6 goals
+      - minimize scope via tokenization / HPP
+      - no storage of sensitive auth data (track, CVV, PIN) post-auth
+      - strong crypto at rest + in transit
+      - MFA for admin + remote access
+      - logging + monitoring of all CHD access
+      - vulnerability scanning (ASV) + penetration testing
+    references:
+      - https://www.pcisecuritystandards.org/
+
+  - id: SOC2
+    full_name: SOC 2 Type II
+    jurisdiction: none (market requirement)
+    trigger: enterprise customers demand it
+    key_authority: AICPA (framework) + independent auditor
+    enforcement_risk: low (not a law; contractual consequences)
+    key_controls:
+      - Trust Services Criteria: Security (required), Availability, Processing Integrity, Confidentiality, Privacy
+      - access control, change management, logical + physical security, monitoring, incident response
+    references:
+      - https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+
+  - id: ISO_27001
+    full_name: ISO/IEC 27001:2022 Information Security Management
+    jurisdiction: none (market requirement)
+    trigger: claimed certification or RFP requirement
+    key_authority: accredited certification body
+    enforcement_risk: low
+    key_controls:
+      - Annex A controls (93 controls across 4 themes: organizational, people, physical, technological)
+      - Risk-based ISMS with continual improvement
+    references:
+      - https://www.iso.org/standard/27001
+
+  - id: FEDRAMP
+    full_name: Federal Risk and Authorization Management Program
+    jurisdiction: US federal
+    trigger: selling cloud services to US federal government
+    key_controls: "NIST SP 800-53 controls baseline (Low/Moderate/High/JAB High). Extensive continuous monitoring."
+    references: [https://www.fedramp.gov/]
+
+  # =========================================================================
+  # International — other
+  # =========================================================================
+
+  - id: LGPD
+    full_name: Lei Geral de Proteção de Dados (Brazil)
+    jurisdiction: Brazil
+    trigger: processing personal data of individuals in Brazil
+    key_authority: ANPD
+    key_controls: "Modeled on GDPR — lawful basis, data subject rights, breach notification, DPO for certain categories."
+    references: [https://www.gov.br/anpd/]
+
+  - id: PIPEDA
+    full_name: Personal Information Protection and Electronic Documents Act (Canada)
+    jurisdiction: Canada (federal)
+    trigger: commercial activities involving personal info
+    key_authority: OPC
+    key_controls: "10 fair information principles; breach notification."
+    references: [https://www.priv.gc.ca/]
+
+  - id: AU_PRIVACY
+    full_name: Australian Privacy Act 1988 + APPs
+    jurisdiction: Australia
+    trigger: APP entities (most businesses with turnover over threshold)
+    key_authority: OAIC
+    key_controls: "13 Australian Privacy Principles; notifiable data breaches scheme."
+    references: [https://www.oaic.gov.au/]
+
+  - id: PDPA_SG
+    full_name: Personal Data Protection Act (Singapore)
+    jurisdiction: Singapore
+    trigger: handling personal data in Singapore
+    key_authority: PDPC
+    references: [https://www.pdpc.gov.sg/]
+
+  - id: POPIA
+    full_name: Protection of Personal Information Act (South Africa)
+    jurisdiction: South Africa
+    trigger: processing personal information in SA
+    key_authority: Information Regulator
+    references: [https://popia.co.za/]
+
+
+# =========================================================================
+# Framework applicability rules (used by the skill to auto-suggest)
+# =========================================================================
+#
+# These are human-readable heuristics, not a strict decision tree.
+# The skill uses them as a starting point and then confirms with the user.
+
+applicability_rules:
+  - if_any_user_in: [EU, EEA]
+    suggest: [GDPR, EPRIVACY]
+  - if_any_user_in: [UK]
+    suggest: [UK_GDPR]
+  - if_any_user_in: [US-CA]
+    suggest: [CCPA]
+  - if_any_user_in: [US-VA, US-CO, US-CT, US-UT, US-TX, US-OR, US-MT, US-DE, US-IA, US-TN, US-IN, US-NJ, US-NH, US-KY, US-MD, US-MN, US-RI]
+    suggest: [OTHER_US_STATE_PRIVACY]
+  - if_data_includes: [payment]
+    suggest: [PCI_DSS]
+  - if_data_includes: [health]
+    and_jurisdiction: US
+    suggest: [HIPAA]
+  - if_data_includes: [children]
+    and_jurisdiction: US
+    suggest: [COPPA]
+  - if_industry_in: [finance, banking, insurance, fintech, crypto]
+    and_jurisdiction: EU
+    suggest: [DORA]
+  - if_industry_in: [finance, banking]
+    and_jurisdiction: US
+    suggest: [GLBA]
+  - if_industry_in: [energy, transport, health, water, digital-infrastructure, cloud, dc, managed-services]
+    and_jurisdiction: EU
+    suggest: [NIS2]
+  - if_uses_ai: true
+    and_jurisdiction: EU
+    suggest: [EU_AI_ACT]
+  - if_is_intermediary_or_platform: true
+    and_jurisdiction: EU
+    suggest: [DSA]
+  - if_claimed_cert_in: [SOC2]
+    suggest: [SOC2]
+  - if_claimed_cert_in: [ISO27001, ISO-27001]
+    suggest: [ISO_27001]
+  - if_sells_to: [US-federal]
+    suggest: [FEDRAMP]
+  - if_product_has_digital_elements: true
+    and_jurisdiction: EU
+    suggest: [CRA]

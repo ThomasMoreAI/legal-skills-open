@@ -5,7 +5,7 @@ description: Plan, draft, and review U.S. federal civil preservation and documen
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-plugin-oss/tree/main/plugins/legalquants-litigation/skills/document-discovery
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation

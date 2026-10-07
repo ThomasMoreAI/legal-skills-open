@@ -5,7 +5,7 @@ description: 'Hauptworkflow für gerichtliche Anlagenproduktion: liest Schriftsa
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anlagen-zu-schriftsaetzen/skills/anlagen-zu-schriftsaetzen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: litigation

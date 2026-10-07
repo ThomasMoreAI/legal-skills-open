@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-06-15",
+  "description": "Parcours chronologique « Je m'installe au Luxembourg », étapes ventilées par phase (avant l'arrivée → première semaine → premier mois → trois mois → annuel) et par public (ressortissant UE/EEE/CH vs hors UE). Chaque étape est sourcée.",
+  "url_source": "https://guichet.public.lu/fr/citoyens/immigration.html",
+  "etapes": [
+    {
+      "id": "verifier_droit_sejour",
+      "phase": "avant_arrivee",
+      "titre": "Vérifier le droit d'entrée et de séjour",
+      "description": "Déterminer si un visa ou une autorisation de séjour est nécessaire avant l'arrivée.",
+      "public": ["hors_ue"],
+      "administration": "Direction de l'immigration (Ministère des Affaires étrangères)",
+      "delai": "Avant le départ",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration/ressortissant-pays-tiers.html"
+    },
+    {
+      "id": "rassembler_etat_civil",
+      "phase": "avant_arrivee",
+      "titre": "Rassembler les documents d'état civil",
+      "description": "Actes de naissance, de mariage, diplômes — traduits et légalisés/apostillés si nécessaire.",
+      "public": ["tous"],
+      "administration": "—",
+      "delai": "Avant le départ",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration.html"
+    },
+    {
+      "id": "declaration_arrivee_commune",
+      "phase": "premiere_semaine",
+      "titre": "Déclaration d'arrivée à la commune",
+      "description": "Se présenter au Bierger-Center / à l'administration communale du lieu de résidence.",
+      "public": ["tous"],
+      "administration": "Administration communale",
+      "delai": "Dans les jours suivant l'arrivée",
+      "obligationId": "obl_commune_declaration_arrivee",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration/citoyen-ue-plus-3-mois/enregistrement-communal.html"
+    },
+    {
+      "id": "enregistrement_ue",
+      "phase": "premier_mois",
+      "titre": "Attestation d'enregistrement (séjour > 3 mois)",
+      "description": "Demander l'attestation d'enregistrement pour un séjour de plus de 3 mois.",
+      "public": ["ue"],
+      "administration": "Administration communale",
+      "delai": "Dans les 3 mois",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration/citoyen-ue-plus-3-mois/enregistrement-communal.html"
+    },
+    {
+      "id": "titre_sejour",
+      "phase": "premier_mois",
+      "titre": "Demande de titre de séjour",
+      "description": "Effectuer le contrôle médical et demander la carte de séjour auprès de la Direction de l'immigration.",
+      "public": ["hors_ue"],
+      "administration": "Direction de l'immigration",
+      "delai": "Dans les 3 mois suivant l'arrivée",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration/ressortissant-pays-tiers/salarie/titre-sejour-salarie.html"
+    },
+    {
+      "id": "compte_bancaire",
+      "phase": "premier_mois",
+      "titre": "Ouvrir un compte bancaire",
+      "description": "Nécessaire pour le salaire, le loyer et les prélèvements.",
+      "public": ["tous"],
+      "administration": "—",
+      "delai": "Premier mois",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration.html"
+    },
+    {
+      "id": "immatriculation_vehicule",
+      "phase": "trois_mois",
+      "titre": "Immatriculation d'un véhicule importé",
+      "description": "Immatriculer au Luxembourg un véhicule importé et souscrire l'assurance.",
+      "public": ["tous"],
+      "condition": { "champ": "vehicules", "operateur": "present" },
+      "administration": "Société Nationale de Circulation Automobile (SNCA)",
+      "delai": "Dans les 6 mois (à confirmer)",
+      "source": "https://guichet.public.lu/fr/citoyens/transports-mobilite/vehicules/immatriculation.html"
+    },
+    {
+      "id": "echange_permis",
+      "phase": "trois_mois",
+      "titre": "Échange / enregistrement du permis de conduire",
+      "description": "Selon le pays d'origine, échanger ou faire reconnaître le permis de conduire.",
+      "public": ["tous"],
+      "administration": "SNCA",
+      "delai": "Selon le pays d'origine",
+      "source": "https://guichet.public.lu/fr/citoyens/transports-mobilite/permis-conduire.html"
+    },
+    {
+      "id": "renouvellement_titre",
+      "phase": "annuel",
+      "titre": "Renouvellement du titre de séjour",
+      "description": "Surveiller la date d'expiration et anticiper le renouvellement.",
+      "public": ["hors_ue"],
+      "administration": "Direction de l'immigration",
+      "delai": "Avant expiration",
+      "source": "https://guichet.public.lu/fr/citoyens/immigration/ressortissant-pays-tiers.html"
+    },
+    {
+      "id": "inscription_electorale",
+      "phase": "annuel",
+      "titre": "Inscription sur les listes électorales (communales)",
+      "description": "Les résidents non luxembourgeois peuvent s'inscrire pour voter aux élections communales.",
+      "public": ["tous"],
+      "administration": "Administration communale",
+      "delai": "Avant la clôture des listes",
+      "source": "https://guichet.public.lu/fr/citoyens/citoyennete/elections.html"
+    }
+  ]
+}

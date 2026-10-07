@@ -5,7 +5,7 @@ description: 劳动合规风险检查：用于用工、劳动合同、解除终�
 author: grant-ge
 author_url: https://github.com/grant-ge/aiminjia/tree/main/docs/skills-migration/labor-compliance
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: employment

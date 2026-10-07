@@ -1,0 +1,64 @@
+% =====================================================================
+% 源程序文档 LaTeX 模板
+% 使用说明：将 {{变量名}} 替换为实际内容，将代码粘贴到 Verbatim 环境中
+% 编译：xelatex -interaction=nonstopmode 文件名.tex （运行两遍）
+%
+% 关键点：
+% - 10pt + \small + 窄边距 → 每页自然约 50 行
+% - 代码连续排列，LaTeX 自然分页，不要手动插入分页符
+% - 前30页 + 后30页 = 正好60页
+% - \parindent = 0（代码文档不缩进）
+% =====================================================================
+\documentclass[a4paper,10pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\usepackage{fancyvrb}
+
+\hypersetup{hidelinks}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{{{软件全称}}V{{版本号}}\quad 源程序}
+\fancyfoot[C]{第 \thepage\ 页\quad 共 \pageref{LastPage} 页}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\setlength{\parindent}{0em}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries {{软件全称}}\quad 源程序}
+
+  \vspace{0.5em}
+  {\large 著作权人：{{著作权人名称}}}
+
+  \vspace{0.3em}
+  软件名称：{{软件全称}}\qquad 版本号：V{{版本号}}\qquad 生成日期：{{生成日期}}
+
+  \vspace{0.3em}
+  源程序量：{{源程序量}}行\qquad 本文档含前30页 + 后30页
+\end{center}
+
+\vspace{0.3em}
+
+\begin{center}\large\bfseries —— 前30页（第1--{{前30页末行}}行）——\end{center}
+
+\begin{Verbatim}[fontsize=\small]
+% === 在此粘贴前30页的代码 ===
+% 每个文件开头用注释标记：
+% // ========== path/to/file.js ==========
+% 代码连续排列，不要手动分页
+\end{Verbatim}
+
+\begin{center}\large\bfseries —— 后30页（第{{后30页起始行}}--{{最末行}}行）——\end{center}
+
+\begin{Verbatim}[fontsize=\small]
+% === 在此粘贴后30页的代码 ===
+\end{Verbatim}
+
+\end{document}

@@ -2,21 +2,25 @@
 
 How an agent equipped with browser tooling (Playwright, Puppeteer, Selenium, or a hosted browser like Browserbase) can take a completed Form 8300 draft and actually file it through FinCEN's BSA E-Filing System. This file describes deterministic flows the agent can follow; it is complementary to `SKILL.md`, which produces the draft.
 
-The agent must produce a complete `SKILL.md`-format draft *first*, then execute the BSA E-Filing flow below. **Electronic filing has been mandatory since January 1, 2024** under 26 CFR §301.6011-2. Paper filing is permitted only for filers with an active hardship waiver from FinCEN.
+The agent must produce a complete `SKILL.md`-format draft *first*, then execute the BSA E-Filing flow below. **Since January 1, 2024, electronic filing is mandatory for a business required to file 10 or more information returns other than Form 8300 in the calendar year** (26 CFR §301.6011-2; Instructions for Form 8300, Rev. December 2023). A business under that threshold may file on paper (e-filing is optional and encouraged). A required e-filer may file on paper only with an IRS waiver granted on Form 8508 or under the religious exemption.
 
 ---
 
 ## Channel decision tree
 
 ```
-Has the user filed an 8300 before from this business?
-  - Yes, account exists → Section 1 (BSA E-Filing — return user)
-  - No, never filed → Section 2 (BSA E-Filing — first-time registration), then Section 1
-  - Yes, but credentials lost → Section 3 (account recovery), then Section 1
+How many information returns OTHER than Form 8300 (W-2, 1099 series, etc.)
+must the business file this calendar year?
+  - 10 or more → e-filing required, unless:
+      - Form 8508 waiver granted for this year → Section 4 (paper, write "WAIVER")
+      - religious exemption → Section 4 (paper, write "RELIGIOUS EXEMPTION")
+  - Fewer than 10 → paper allowed (Section 4) or e-file voluntarily (below)
+  - Unknown → ASK; do not pick a channel
 
-Does the user have an active hardship waiver under 31 CFR §1010.306(e)?
-  - Yes → Section 4 (paper filing fallback — only with waiver in hand)
-  - No → e-filing is mandatory. Refer the user to register before filing.
+E-filing:
+  - Account exists → Section 1 (BSA E-Filing — returning filer)
+  - Never filed → Section 2 (BSA E-Filing — first-time registration), then Section 1
+  - Credentials lost → Section 3 (account recovery), then Section 1
 ```
 
 ---
@@ -55,41 +59,39 @@ The agent navigates and interacts deterministically. Stable selectors are listed
    - "Amended filing" if correcting a previously filed 8300 (will require the original BSA tracking ID)
 8. **Fill the e-form** field-by-field from the draft:
 
-| Form 8300 field | BSA E-Filing field label | Source (in draft) |
-|-----------------|---------------------------|-------------------|
-| Box 1a multiple parties | "Multiple parties" checkbox | Header |
-| Box 1b suspicious | "Suspicious transaction" checkbox | Header |
-| Amendment box | "Amends prior report" checkbox + prior tracking ID | Header |
-| Part I — Last name | "Individual's last name" | Part I |
-| Part I — First name | "Individual's first name" | Part I |
-| Part I — M.I. | "Middle initial" | Part I |
-| Part I — TIN | "Taxpayer Identification Number" | Part I |
-| Part I — Address | "Address (number, street)" | Part I |
-| Part I — City/state/ZIP | "City", "State", "ZIP" | Part I |
-| Part I — Country (if non-US) | "Country" | Part I |
-| Part I — DOB | "Date of birth" (MM/DD/YYYY) | Part I |
-| Part I — Occupation | "Occupation, profession, or business" | Part I |
-| Part I — ID type | "Document used to verify identity" radio/dropdown | Part I |
-| Part I — ID number | "Identification document number" | Part I |
-| Part I — Issuing authority | "Issued by" | Part I |
-| Part II (if applicable) | "Person on whose behalf — [field]" — same as Part I | Part II |
-| Part III — Line 27 | "Date cash received" | Part III |
-| Part III — Line 28 | "Total cash received in U.S. dollars" | Part III |
-| Part III — Line 29 | "Amount in $100 bills or higher denomination" | Part III |
-| Part III — Line 30 | "Was this transaction conducted in more than one cash payment?" Yes/No | Part III |
-| Part III — Line 31 | "Method of payment" — checkboxes for currency / foreign currency / cashier's check / money order / bank draft / traveler's check, with issuer + serial number sub-fields | Part III |
-| Part III — Line 32 | "Type of transaction" radio | Part III |
-| Part III — Line 33 | "Specific description of property or service" text | Part III |
-| Part IV — Line 34 | "Business name" | Part IV |
-| Part IV — Line 35 | "Employer Identification Number" | Part IV |
-| Part IV — Line 36 | "Business address" | Part IV |
-| Part IV — Line 37 | "Nature of business" | Part IV |
-| Part IV — Line 38 | "Individual who handled the transaction" | Part IV |
-| Part IV — Line 39 | "Title of individual" | Part IV |
-| Part IV — Line 40 | "Date signed" — auto-populated to current date | Part IV |
-| Part IV — Line 41 | "Phone" | Part IV |
+   Item numbers are from Form 8300 (Rev. December 2023). E-form labels change; match on the item caption printed on the paper form and treat the e-form layout as the variable part.
 
-   The agent fills each labeled field from the draft. After each field, capture a screenshot for the user's records. The user may want to verify visually before submission.
+| Form 8300 item | Caption on the form | Source (in draft) |
+|-----------------|---------------------------|-------------------|
+| 1a | Amends prior report (plus prior BSA ID on the e-form) | Item 1 |
+| 1b | Suspicious transaction | Item 1 |
+| 2 | More than one individual involved (adds Part I entries, up to 99 when e-filed) | Part I |
+| 3–5 | Last name, first name, M.I. | Part I |
+| 6 | Taxpayer identification number | Part I |
+| 7 | Address (number, street, and apt. or suite no.) | Part I |
+| 8 | Date of birth (MM/DD/YYYY) | Part I |
+| 9–12 | City, state, ZIP code, country (if not U.S.) | Part I |
+| 13 | Occupation, profession, or business (25 characters max when e-filed) | Part I |
+| 14a–c | Identifying document: describe ID, issued by, number | Part I |
+| 15 | Conducted on behalf of more than one person | Part II |
+| 16–27 | Person on whose behalf: name, TIN, DBA/EIN, address, occupation, alien ID (item 27 only if no TIN required) | Part II |
+| 28 | Date cash received | Part III |
+| 29 | Total cash received | Part III |
+| 30 | Cash received in more than one payment | Part III |
+| 31 | Total price if different from item 29 | Part III |
+| 32a–f | Amount of cash by form (U.S. currency with $100-bill amount, foreign currency with country, cashier's checks, money orders, bank drafts, traveler's checks) plus issuer names and serial numbers | Part III |
+| 33 | Type of transaction (up to three of boxes a–j) | Part III |
+| 34 | Specific description of property or service | Part III |
+| 35 | Name of business that received cash | Part IV |
+| 36 | Employer identification number (sole proprietor: also SSN) | Part IV |
+| 37–40 | Address, city, state, ZIP code | Part IV |
+| 41 | Nature of your business | Part IV |
+| 42 | Signature, authorized official, title | Part IV |
+| 43 | Date of signature | Part IV |
+| 44–45 | Contact person name and telephone number | Part IV |
+| Comments | Up to 720 characters; "LATE" here for a late e-filed report | Page 2 |
+
+   The agent fills each field from the draft. After each field, capture a screenshot for the user's records. The user may want to verify visually before submission.
 
 9. **Run the system's "Validate" or "Check Form" function.** BSA E-Filing flags missing required fields and basic format errors (e.g., TIN not 9 digits, DOB in the future). Resolve every flag before submission.
 
@@ -104,7 +106,7 @@ The agent navigates and interacts deterministically. Stable selectors are listed
 
 13. **Download the submitted form** as PDF from the confirmation page. Save to the user's records folder. This is the audit-trail document.
 
-14. **Schedule the customer notification follow-up** for January 31 of the year following filing — see [`references/customer-notification.md`](./references/customer-notification.md).
+14. **Schedule the customer statement follow-up** for January 31 of the year following the year the cash was received — see [`references/customer-notification.md`](./references/customer-notification.md).
 
 ### What the agent should NOT do
 
@@ -120,10 +122,10 @@ The agent navigates and interacts deterministically. Stable selectors are listed
 |---------|--------------|-----|
 | "Account not authorized for this form" | Sub-user lacks Form 8300 permission | Have Supervisory User grant permission |
 | "Invalid TIN format" | TIN entered with dashes when system expects no dashes (or vice versa) | Strip/add dashes per the field's format hint |
-| "Date in the future" on Line 27 | Typo in transaction date | Re-confirm with user; the date is when cash was received, not today |
+| "Date in the future" on item 28 | Typo in transaction date | Re-confirm with user; the date is when cash was received, not today |
 | Session timeout | Idle > 20 min on most BSA pages | Re-authenticate; system saves draft if you used "Save" before timeout |
 | MFA / CAPTCHA | Routine | Pause for user input |
-| "Duplicate report detected" | A prior filing with the same Part I + Line 27 already exists | This is an amendment — go back to step 7 and choose Amended |
+| "Duplicate report detected" | A prior filing with the same Part I + item 28 already exists | This is an amendment — go back to step 7 and choose Amended |
 
 ---
 
@@ -167,31 +169,29 @@ The agent should NOT register a BSA E-Filing account without the business owner'
 If credentials were lost:
 
 - "Forgot username" / "Forgot password" flows on https://bsaefiling.fincen.treas.gov/
-- If both lost AND the email of record is also lost: contact the BSA E-Filing Help Desk at 1-866-346-9478 (verify number on the site each year)
+- If both lost AND the email of record is also lost: contact the BSA E-Filing Help Desk at 1-866-346-9478 (option 1) or BSAEFilingHelp@fincen.gov, or open a help ticket at https://bsaefiling.fincen.gov/help-ticket (verify on fincen.gov each year)
 - Recovery can take 1-3 business days; if the 15-day filing deadline is closer than that, surface the timing risk loudly
 
 ---
 
-## Section 4 — Paper filing (waiver-only fallback)
-
-Effective January 1, 2024, paper Form 8300 filing is permitted **only** for filers with an active hardship waiver under 31 CFR §1010.306(e). Without a waiver, a paper-only filing is itself a non-compliance event subject to penalty.
+## Section 4 — Paper filing
 
 ### When paper is allowed
 
-The hardship waiver is granted by FinCEN on a per-filer basis when:
+Per the Instructions for Form 8300 (Rev. December 2023):
 
-- The filer demonstrates lack of reliable internet access
-- E-filing imposes undue hardship (e.g., a very small business with no electronic recordkeeping at all)
-- The filer has applied via FinCEN's published waiver process and received written approval
+- The business is required to file fewer than 10 information returns (of any type other than Form 8300) during the calendar year — no waiver needed; or
+- The IRS granted an undue-hardship waiver on Form 8508 for the business's information returns for this calendar year (it covers Forms 8300 automatically; a waiver for Form 8300 alone cannot be requested). Write "WAIVER" at the center top of page 1; or
+- Using the required technology conflicts with the filer's religious beliefs (automatic exemption). Write "RELIGIOUS EXEMPTION" at the center top of page 1.
 
-The waiver is specific to a filing period and must be renewed.
+A required e-filer that files on paper without a waiver or exemption has not filed in the required manner; the form is treated as late.
 
-### Paper filing flow (with waiver)
+### Paper filing flow
 
 1. **Download** the latest Form 8300 PDF: https://www.irs.gov/pub/irs-pdf/f8300.pdf
 2. **Print** at full size on letter paper, single-sided
 3. **Fill** Parts I–IV by hand or via PDF form fields
-4. **Sign** the bottom of Part IV
+4. **Sign** item 42 (authorized official, title) and date item 43; write "LATE" at the center top of page 1 if the form is late, and "WAIVER" or "RELIGIOUS EXEMPTION" there if that is the basis for paper filing
 5. **Mail** to the IRS at:
 
 ```
@@ -204,7 +204,7 @@ Detroit, MI 48232
    Verify the address each year against the current Form 8300 instructions — the IRS occasionally updates filing addresses.
 
 6. **Send via USPS Certified Mail with Return Receipt** for proof of timely filing under the IRC §7502 timely-mailing-as-timely-filing rule
-7. **Postmark within 15 days** of the date cash was received (or threshold crossed)
+7. **Postmark by the 15th day** after the date cash was received (or threshold crossed); if that day is a Saturday, Sunday, or legal holiday, the next business day
 8. **Keep a complete photocopy** of the filed form along with the certified-mail receipt
 
 ### Producing the printable PDF (deterministic)
@@ -227,15 +227,15 @@ After filing (any channel), the report moves through:
 3. **Processed** — FinCEN and IRS have ingested the data
 4. **Possible follow-ups:**
    - IRS audit referral if filing pattern raises questions
-   - FinCEN inquiry if Box 1b (suspicious) was checked or the report appears on a SAR-related lookup
-   - Customer notification deadline (Jan 31) approaching → send the notification
+   - FinCEN inquiry if item 1b (suspicious) was checked or the report appears on a SAR-related lookup
+   - Statement deadline (Jan 31 of the year after the cash was received) approaching → send the statement
 
 Status checks:
 
 - E-filing tracking ID: visible immediately on the confirmation page; also retrievable from the BSA E-Filing dashboard's "View History"
 - Paper filing: no positive acknowledgment; the certified-mail return receipt is the only proof of filing
 
-The agent should set a follow-up reminder for the customer notification due by January 31 of the year following filing.
+The agent should set a follow-up reminder for the customer statement due by January 31 of the year following the year the cash was received.
 
 ---
 

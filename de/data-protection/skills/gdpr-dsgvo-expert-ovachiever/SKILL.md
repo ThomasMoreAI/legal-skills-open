@@ -5,7 +5,7 @@ description: Senior GDPR/DSGVO expert and internal/external auditor for data pro
 author: ovachiever
 author_url: https://github.com/ovachiever/droid-tings/tree/master/skills/gdpr-dsgvo-expert
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: data-protection

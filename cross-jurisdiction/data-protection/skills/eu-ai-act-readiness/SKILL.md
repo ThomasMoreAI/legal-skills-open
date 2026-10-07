@@ -5,7 +5,7 @@ description: Build a preliminary, evidence-based EU AI Act readiness assessment 
 author: seb1n
 author_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main/legal-and-compliance/eu-ai-act-readiness
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

@@ -5,7 +5,7 @@ description: Manages client matter journals — persistent case files that give 
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/matter-journal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

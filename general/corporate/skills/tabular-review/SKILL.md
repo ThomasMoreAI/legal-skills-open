@@ -1,11 +1,11 @@
 ---
 name: tabular-review
-title: 'Tabular review'
+title: Tabular review
 description: Tabular review — one row per document, one column per data point, every cell cited to source. Built for M&A diligence ("review these 200 target contracts for change-of-control, assignment, and MAC clauses") but works for any batch review that needs a spreadsheet out the other end. Use when user says "tabular review", "review grid", "build a grid", "extract these fields from these contracts", "review these documents for X, Y, Z", "give me a spreadsheet of", "batch review", or points at a folder of documents and asks to compare them.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/tabular-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: corporate

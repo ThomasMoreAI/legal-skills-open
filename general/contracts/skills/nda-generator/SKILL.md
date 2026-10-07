@@ -5,12 +5,16 @@ description: Generates customizable one-way or mutual NDAs for business contexts
 author: claude-office-skills
 author_url: https://github.com/claude-office-skills/skills/tree/main/nda-generator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [nda, contract, generator, legal]
+tags:
+- nda
+- contract
+- generator
+- legal
 ---
 
 # NDA Generator Skill

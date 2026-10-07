@@ -5,7 +5,7 @@ description: 用于信托领域合同与法务中的法规匹配助手-信托监
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/regulation-match-trust-regulatory
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

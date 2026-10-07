@@ -1,11 +1,11 @@
 ---
 name: eu-transparency-register-nolpak14
-title: 'EU transparency register'
+title: EU transparency register
 description: 'Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the official EU Transparency Register. Find registered interest representatives (lobbyists), which EU legislative files an organisation lobbies on, how much it declares spending on EU lobbying, how many lobbyists it fields, and whether it holds European Parliament access badges. This is an influence / reputational / ESG due-diligence lane, NOT a company registry. Trigger on: ''EU lobbying'', ''transparency register'', ''interest representatives'', ''EU lobby register'', ''influence due diligence'', ''does this company lobby the EU'', ''EU lobbying spend'', ''interest representative check'', ''European Parliament access badge'', ''who lobbies Brussels''. The register is a bulk daily XML dump - download once, then filter and match locally by name, country, and category.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/eu-transparency-register
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -163,3 +163,7 @@ https://apify.com?fpr=getregdata.
   reputational dimension alongside sanctions, PEP, and adverse media.
 - **`sanctions-pep-screening`** - screen the organisation and its owners/officers
   against the official sanctions lists, using the same download-and-match pattern.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

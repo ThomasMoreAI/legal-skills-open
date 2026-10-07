@@ -5,12 +5,22 @@ description: Automates GDPR Data Subject Access Request (DSAR) workflows includi
 author: AgentFlocks
 author_url: https://github.com/AgentFlocks/flocks/tree/main/.flocks/flockshub/plugins/skills/Anthropic-Cybersecurity-Skills/implementing-gdpr-data-subject-access-request
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
 language: en
-tags: [gdpr, dsar, privacy, pii-discovery, data-subject-rights, compliance, article-15]
+tags:
+- gdpr
+- dsar
+- privacy
+- pii-discovery
+- data-subject-rights
+- compliance
+- article-15
+sources:
+- title: Api reference
+  path: references/api-reference.md
 ---
 
 # Implementing GDPR Data Subject Access Request (DSAR) Workflow

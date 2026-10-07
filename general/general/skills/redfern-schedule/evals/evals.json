@@ -1,0 +1,56 @@
+{
+  "skill_name": "redfern-schedule",
+  "notes": "Eval set for the redfern-schedule skill, in the skill-creator format. Each eval is run with-skill and baseline (no skill). Assertions are objectively checkable against the produced text.",
+  "evals": [
+    {
+      "id": 1,
+      "name": "requesting-party-draft",
+      "prompt": "I am counsel for the Claimant in an investor-State arbitration and I want to build our Redfern Schedule of requests to produce. Role: requesting party. Regime: IBA Rules 2020. Round: first draft. Both Respondents are State or state-owned: the Republic of Calanda (the State) and Calanda Mobile, a majority state-owned mobile operator. Pleaded issues: Issue 1 (SoC 30-37) whether the 2022 spectrum revocation was politically directed or a lawful response to milestone breaches. Issue 2 (SoC 51-58) whether reassigning the revoked spectrum to Calanda Mobile was a disguised expropriation. Our requests: R1. Board minutes of Calanda Mobile discussing receipt or use of the reassigned spectrum, 1 March to 31 December 2022. R2. The internal memorandum prepared for the Minister of Communications recommending the 2022 spectrum revocation. R3. All documents and communications concerning Anders Telecom. R6. The 2020 spectrum licence agreement between Anders Telecom and the Republic of Calanda. R10. The independent technical audit report on Anders's build-out prepared by Verda Audit LLP, a non-party. I confirm I have checked the seat, the institutional rules, and my bar and ethics rules and I am fine to proceed.",
+      "expected_output": "A privilege warning shown first, then a Redfern Schedule table for the requesting role plus an internal flags memo. R3 flagged as a fishing expedition failing Article 3.3. R6 flagged under Gate C because the Claimant is a party to the licence and already holds it. R10 routed to Article 3.9 as a non-party document.",
+      "files": [],
+      "assertions": [
+        {"text": "Shows a privilege/confidentiality warning before drafting", "check": "privilege"},
+        {"text": "Produces a Redfern Schedule table (request/relevance/possession columns)", "check": "schedule"},
+        {"text": "Flags R3 as a fishing expedition / fails Article 3.3", "check": "r3_fishing"},
+        {"text": "Flags R6 under Gate C as a document the requesting party already holds", "check": "r6_gatec"},
+        {"text": "Routes R10 to Article 3.9 (non-party possession)", "check": "r10_art39"},
+        {"text": "Produces an internal flags memo of the user's own weak requests", "check": "flags_memo"},
+        {"text": "Does not invent IBA article numbers or citations not in the inputs", "check": "no_invented"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "producing-party-objections",
+      "prompt": "I act for the Respondents (the Republic of Calanda, a State, and Calanda Mobile, a majority state-owned utility) in an IBA Rules 2020 arbitration. Here is the requesting party's Redfern Schedule. Give me our objections column, mapped to the Article 9.2 grounds. R2: The internal memorandum prepared for the Minister of Communications recommending the 2022 spectrum revocation. R7: Calanda Mobile's retail mobile pricing schedules for 2022. I have checked the applicable rules and I am fine to proceed.",
+      "expected_output": "Objections mapped to Article 9.2 grounds. Article 9.2(f) special political or institutional sensitivity asserted on R2 (a Ministerial memorandum is governmental content) but NOT pressed on R7 (an ordinary commercial pricing schedule of a state-owned utility), which is commercial and may draw 9.2(e) confidentiality instead.",
+      "files": [],
+      "assertions": [
+        {"text": "Asserts Article 9.2(f) sensitivity on R2 (Ministerial/governmental content)", "check": "f_on_r2"},
+        {"text": "Does NOT press 9.2(f) on R7 (ordinary commercial pricing of a state-owned entity)", "check": "no_f_on_r7"},
+        {"text": "Maps objections to specific Article 9.2 letter grounds", "check": "grounds_mapped"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "tribunal-decision-pass",
+      "prompt": "I am the tribunal in an IBA Rules 2020 arbitration. Here is the completed Redfern Schedule with the parties' requests, objections, and replies filled in. Prepare it for me to rule on. R1 | Board minutes of MNG on the PPA termination, 1 Jan to 30 Jun 2022 | Relevant to Issue 1 | Objection: ground (b) privilege in part | Reply: accepts redaction. Please prepare the decision version. I am fine to proceed.",
+      "expected_output": "The schedule reproduced with every party column carried forward verbatim and the Tribunal's Decision column left blank. The skill does not propose a decision.",
+      "files": [],
+      "assertions": [
+        {"text": "Leaves the Tribunal's Decision column blank / does not propose a decision", "check": "decision_blank"},
+        {"text": "Reproduces the party columns rather than rewriting them", "check": "reproduces"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "out-of-scope-litigation-refusal",
+      "prompt": "Can you help me build a disclosure list for our case in the English High Court? It is a commercial claim under the CPR and we are at the standard disclosure stage. I need to organise our documents for inspection.",
+      "expected_output": "Recognises this is court litigation under the CPR, not international arbitration, notes that the IBA arbitration admissibility tests do not apply, and declines or routes the user appropriately rather than producing an IBA-based Redfern Schedule.",
+      "files": [],
+      "assertions": [
+        {"text": "Identifies the request as court litigation (CPR), outside the arbitration scope", "check": "identifies_litigation"},
+        {"text": "Does not silently produce an IBA Article 3.3 Redfern Schedule for a CPR matter", "check": "no_iba_output"}
+      ]
+    }
+  ]
+}

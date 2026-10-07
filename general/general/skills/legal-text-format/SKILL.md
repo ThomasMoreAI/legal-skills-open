@@ -5,7 +5,7 @@ description: 将法律文本（法律条文或法律案例）转换为规范的 
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-text-format
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -151,6 +151,18 @@ archive/20250122_153400_个人信息保护检察公益诉讼典型案例/
 - 文件位置：`archive/{YYYYMMDD_HHMMSS}_{主题}/`
 - 文件命名：`{YYYYMMDD}_{主题}_formatted.md`
 - 与 `raw.md` 保存在同一归档目录下
+
+## 确定性脚本的保守边界
+
+使用 `python3 scripts/format_legal_cases.py 输入.md 输出.md 法院名称 原文URL 文档标题` 处理案例文本。脚本仅需 Python 3 标准库；不联网、不调用模型，也不负责法条结构识别或语义核验。
+
+- 先按工作流程保存原始内容；完成后将结果与原文比对。
+- 不按日期、首个案例词、空段位置或固定字数裁切正文。函数调用方只有显式传入 `keep_from_marker` 才可指定前缀裁切点；CLI 默认保留前缀，含糊的介绍与推广文本留待人工确认。
+- 只清理已识别的完整文末来源/结束标记及紧随其后的已知推广行；正文中的来源、联系等词、引用行和证据图片保留。无法判断是否属于页脚时保留，不能将脚本输出当作已完成语义清理的证明。
+- 保留案例序号、小数、千分位、URL、邮箱、Markdown 链接与行内代码语法；围栏代码/证据块按原文保留；普通正文标点仍按中文排版规则调整，普通正文数字仍按既有规则转半角。
+- 不保证解析任意嵌套 Markdown 或识别所有推广版式。对有歧义的边界及证据引文人工复核，不补写、摘要或省略案例内容。
+
+回归检查：`python3 -m unittest discover -s scripts/tests -v`。测试只使用虚构案例，不能替代真实文书的完整性核验。
 
 ## 参考文档
 

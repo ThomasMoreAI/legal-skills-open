@@ -1,0 +1,195 @@
+# 变更日志
+
+本项目的所有重要变更都将记录在此文件。
+
+## [1.5.3] - 2026-09-30
+
+### 修复
+- 撤销 v1.5.2 将二维码生成时间/普通短信时间自动作为送达日期的指引，逐文书、逐受送达人核验送达证据；未知或冲突不输出确定期限和倒计时。
+- 将发送/收到线索与法律送达分字段记录，补充旧记录复核和失效期限撤下规则；同步归档示例与报告模板。
+- 上诉期限先核对救济告知、审级、可上诉性及特殊期间，避免只读首页、按“裁定书”一律套10日；补行政裁定候选期间，修正民诉法末日顺延引用为第85条第3款。
+
+### 新增
+- 标准库送达证据检查器及合成正反例测试，检查证据类型、文书/受送达人绑定和日期冲突；不鉴定原件真伪、不计算期限。
+- 送达与期限参考规则，记录法律来源、2026调休示例及验证边界。真实平台/PDF端到端、跨模型稳定性仍为 NOT_VERIFIED。
+
+## [1.5.2] - 2026-09-30
+
+### 修复
+- **送达时间来源改为实测可用字段**：原文档写「优先来源：zxfw API 响应的 `dt_cjsj`（送达记录创建时间）」，但 `getWsListBySdbhNew` 实测不返回该字段（只返回 `c_sdbh / c_stbh / wjlj / c_wjgs / c_wsbh / c_wsmc / c_fybh / c_fymc`），首选来源必然落空，导致每条判决/裁定送达都退回"送达时间待确认"，上诉期限无法计算。现改为首选解析送达文书内可解析的时间戳（如缴费通知书的「二维码生成时间」，当天即签发日），次选短信网关时间，并在归档 JSON 新增 `document.sent_at_source` 写明实际来源；同时明确裁定书落款日只是文书制作日，不得冒充送达日
+- **上诉期限顺延规则补全**：原文档只给出「送达日期 + 天数」的算术公式，未提顺延，容易在届满日遇休息日时漏算或误算。现补明顺延依据民事诉讼法第85条第4款，并写清**调休上班日属工作日、不顺延**——按普通周末粗算会多算天数。举例：2026-09-30 送达的民事裁定（10 日）届满 10-10（周六），但 10-10 依当年国务院节假日安排为调休上班日，依法不顺延，届满日即 10-10；顺延须依据当年法定休假日与调休上班日两个清单，而非只看工作日/周末
+
+### 改进
+- 下载期避免 `python3 <<'PY'` / `python3 -c` 内联写法：这两种形状命中危险命令规则（pattern key `script execution via heredoc` / `script execution via -e/-c flag`），逐次触发审批弹窗；优先写临时 `.py` 文件或改用 `execute_code`
+
+## [1.5.1] - 2026-08-08
+
+### 改进
+- 新增「隐私与合规说明」章节：透明告知本技能会落盘敏感诉讼数据（案件目录 + 内部 `archive/`），并说明凭证步骤在用户粘贴短信后默认自动代入，归档与建目录默认自动执行（授权即同意，无感优先）
+- `archive/` 写入处补充透明告知：留存 `sms_raw`、案号、当事人、法院编号、下载参数与 API 响应等敏感信息，默认不纳入版本库
+- frontmatter description 补充落盘敏感数据提示
+
+### 文档完善
+- DEC-007 维持原"验证码双模式自动代入"决策不变（用户授权即同意，不做强制确认打断）
+
+## [1.5.0] - 2026-04-15
+
+### 新增
+
+- **司法送达网平台支持**：新增 `sfpt.cdfy12368.gov.cn`（司法送达网）的链接识别和文书下载
+  - 纯 Playwright 下载流程：所有 POST 请求使用 TDHCryptoUtil 加密，无法通过 HTTP API 下载
+  - 验证码双模式：优先手机尾号后6位（从案件分配中获取律师手机号），其次从短信正文提取验证码（`验证码[：:]\s*(\w{4,6})`）
+  - 广西实例支持：`171.106.48.55:28083` 域名路由到同一 SFDW 平台
+  - `sms-patterns.json` 新增 sfdw 平台配置段（含 verification、browser_flow 字段）
+- **同构异域名支持**：所有平台链接正则从硬编码域名改为通用主机匹配（`[^\s/]+`），通过 URL 路径特征识别平台而非域名
+  - zxfw: `https?://[^\s/]+/zxfw/#/pagesAjkj/app/wssd/index?...`
+  - gdems: `https?://[^\s/]+/v3/dzsd/[a-zA-Z0-9]+`
+  - jysd: `https?://[^\s/]+/sd?key=[a-zA-Z0-9_\-]+`
+  - hbfy: `https?://[^\s/]+/(?:hb/msg=[a-zA-Z0-9]+|sfsddz\b)`
+  - 新增 `canonical_domain` 字段保留已知主域名用于 API 调用
+- **平台支持扩展至 5 个**：全国法院统一送达（zxfw）、广东电子送达（gdems）、集约送达（jysd）、湖北电子送达（hbfy）、司法送达网（sfdw）
+- SKILL.md 新增 SFDW 下载流程说明（纯 Playwright + 验证码双模式 + 广西实例）
+- SKILL.md 新增 SFDW 短信格式示例
+
+### 改进
+
+- **文书重命名回退**：当文书标题无法识别时，优先使用原始文件名（去除扩展名），而非直接默认为"未知文书"
+- `sms-patterns.json` 新增 `rename_fallback` 顶层配置段
+
+### 引用
+
+- 上游参考：[FachuanHybridSystem][fachuan-repo] → `sfdw_scraper.py`（司法送达网纯 Playwright 下载逻辑）、`sms_parser_service.py`（同构异域名正则更新）、`jysd_scraper.py`（手机号验证策略参考）
+
+## [1.4.0] - 2026-04-10
+
+### 新增
+
+- **湖北电子送达平台支持**：新增 `dzsd.hbfy.gov.cn`（湖北法院）的链接识别和文书下载
+  - 免账号模式：识别 `/hb/msg=xxx` 链接，支持 HTTP API 直连下载（`POST /delimobile/tDeliSms/findSmsInfo`），需验证码时降级到浏览器
+  - 账号模式：识别 `/sfsddz` 入口链接，从短信正文提取账号（`账号\s*(\d{15,20})`）和默认密码（`默认密码[：:]\s*([0-9A-Za-z]+)`）
+  - 新增 `sms-patterns.json` 中的 hbfy 平台配置段（含免账号/账号两种模式的 API 信息和凭证提取正则）
+- **平台支持扩展至 4 个**：全国法院统一送达（zxfw）、广东电子送达（gdems）、集约送达（jysd）、湖北电子送达（hbfy）
+- SKILL.md 新增湖北平台下载流程说明（免账号 HTTP API + 账号模式浏览器自动化）
+- SKILL.md 新增湖北短信格式示例（免账号模式和账号模式两种）
+
+### 引用
+
+- 上游参考：[FachuanHybridSystem][fachuan-repo] → `sms_parser_service.py`（短信解析新增 hbfy 正则）、`hbfy_scraper.py`（湖北平台完整下载逻辑）
+
+[fachuan-repo]: https://github.com/Lawyer-ray/FachuanHybridSystem
+
+### 新增
+
+- **送达时间检测（P0）**：从 zxfw API 响应的 `dt_cjsj` 字段提取送达记录创建时间，作为 sent_at 使用，无需从 PDF 解析
+- **上诉期限自动计算（P1）**：识别判决书/裁定书时，根据送达时间自动计算上诉截止日期
+  - 民事一审判决：送达后15天
+  - 民事裁定：送达后10天
+  - 行政判决：送达后15天
+  - 刑事判决：送达后10日
+  - 刑事裁定：送达后5日
+- **归档 JSON 新增字段**：`document.type`、`document.sent_at`、`document.appeal_deadline`、`document.appeal_days_remaining`
+- **归档 JSON 完整保存 API 响应**：将 zxfw API 的完整响应（c_fymc、c_fybh、dt_cjsj、documents 数组）存入 `download.api_response`
+- **汇报格式新增**：上诉期限展示区块（第四部分），格式为 `⏰ 上诉期限提醒`
+- **sms-patterns.json 新增**：`sent_time_extraction`（送达时间提取规则）、`appeal_calculation`（上诉期限计算规则）
+
+### 引用
+
+对应 GitHub Issue：https://github.com/cat-xierluo/legal-skills/issues/10
+
+## [1.2.1] - 2026-04-05
+
+### 新增
+
+- 两种合并策略可切换：`per_evidence`（按编号分别合并，默认）和 `unified`（统一合并为原告证据.pdf + PDF 书签）
+- 页面尺寸标准化：合并 PDF 时自动将所有页面统一为 A4，保持原始方向（纵向→A4 纵向，横向→A4 横向），等比缩放居中放置
+- PDF 书签：unified 策略下自动添加书签，格式为「证据N：标题」，支持点击跳转
+- 重命名规则：精简文件名，去除括号内当事人信息、日期后缀、平台标记等冗余内容
+
+## [1.2.0] - 2026-04-05
+
+### 新增
+
+- PDF 后处理功能（第五步，可选）：归档完成后自动检测拆分文件，提示用户是否合并 + 重命名
+- 触发条件：扫描归档目录，按文书类型分组，任一组文件数 > 3 时弹出提示
+- 用户偏好系统：新增 `config/user-preferences.json`（含 `config/user-preferences.example.json` 模板），支持自定义合并策略和重命名规则
+- 偏好文件按项目约定放入 `config/` 目录（`.example` 入 git，实际配置被 gitignore 忽略），与 `clawhub-sync` 等 skill 保持一致
+- `references/sms-patterns.json` 新增 `post_processing` 配置段（触发阈值、偏好文件路径指向 `config/`）
+- 用户确认交互：AskUserQuestion 三选一（合并所有 / 逐个选择 / 跳过）
+
+## [1.1.2] - 2026-04-05
+
+### 新增
+
+- 归档汇报格式拆分到 `references/report-format.md`：三段式结构（归档确认 → 文书清单 → 传票特别提醒），SKILL.md 只保留引用
+- 当事人提取优先级明确：文书内容（起诉状/传票）> API 返回 > 短信文本；短信中的称呼仅为接收人，不作为当事人
+
+### 改进
+
+- 归档目录策略改为自动创建：未找到匹配案件时直接在当前项目下新建 `{案号} {当事人与案由}/08 - 🏛️ 法院送达/`，不再询问用户
+- 传票提醒在汇报末尾以 ⚠️ 高亮，包含开庭时间（追加星期几）、地点、审理程序
+
+## [1.1.1] - 2026-04-05
+
+### 改进
+
+- 基础文书解析：下载后提取 PDF 首页文本，快速识别传票（开庭时间/地点）、通知书（缴费期限）、起诉状（案由/当事人）等关键信息并告知用户
+- 归档格式拆分到 `references/archive-format.md`，SKILL.md 只保留引用
+- 收紧功能描述至实际范围：移除案件信息更新、复杂案件匹配、日程提醒等未实现功能
+- frontmatter description 去除 Playwright 硆名实现细节
+- CHANGELOG 措辞修正：去除"Claude NLP"和"替代正则解析"的说法，正则规则仍在 `sms-patterns.json` 中配合使用
+- 新增 Playwright 安装指引（CLI 和 MCP 两种方式）
+- 短信类型分类表简化，仅保留展示解析结果
+
+## [1.1.0] - 2026-04-04
+
+### 改进
+
+- 下载策略改为三层回退：curl API 直连（优先）→ Playwright CLI → Playwright MCP
+- 实测确认 zxfw 后端 API（`getWsListBySdbhNew`）可无头调用，无需浏览器即可下载全部文书
+- 将 API 端点、请求格式、响应字段写入 `references/sms-patterns.json`，后续同类型短信直接走 curl
+- 去除 SKILL.md 中"执行者"写法，保持 agent 无关性
+- frontmatter 规范化：description 改为第三人称，新增 license 字段（MIT），去除关键词堆砌
+- 触发方式从独立章节合并到功能概述，用示例替代关键词列表
+- 归档机制从 Markdown 改为结构化 JSON（`archive/YYYYMMDD_HHMMSS_{案号后4位}.json`），记录短信原文、解析结果、下载参数、归档路径
+- 目录结构规范化：`config/sms-patterns.json` 移入 `references/`，新增 `archive/.gitkeep`
+- 补充 CHANGELOG 1.0.0 的设计缘由和思路演进
+- 新增 LICENSE.txt（MIT）
+
+### 新增
+
+- 多平台送达链接支持：除 zxfw 外，新增 `sd.gdems.com`（广东电子送达）和 `jysd.10102368.com`（集约送达）的链接识别
+- 平台分级下载策略：zxfw 走 curl API 直连，gdems/jysd 无公开 API，直接回退到浏览器自动化
+- `sms-patterns.json` 新增 `download_strategy` 字段，区分 `api_first`（有 API）和 `browser_only`（需浏览器）
+- 基础文书解析：下载后提取 PDF 首页文本，快速识别传票（开庭时间/地点）、通知书（缴费期限）、起诉状（案由/当事人）等关键信息
+- 归档格式拆分到 `references/archive-format.md`，SKILL.md 只保留引用
+- 收紧功能描述至实际范围：移除案件信息更新、复杂案件匹配等未实现功能
+
+## [1.0.0] - 2026-04-04
+
+### 设计缘由
+
+- 律师日常频繁收到法院送达短信（传票、通知书等），需要手动从全国法院送达平台下载文书并归档到案件目录
+- 手动操作流程繁琐：复制链接 → 打开网页 → 下载 PDF → 重命名 → 移入目录 → 更新案件记录
+- 参考 FachuanHybridSystem 的短信解析设计思路，将其核心逻辑转化为 Skill 格式，结合 agent 的自然语言理解能力与结构化正则规则（`references/sms-patterns.json`）进行短信解析
+
+### 思路演进
+
+1. 调研阶段：发现 FachuanHybridSystem 已实现短信解析 → 下载 → 归档的完整流水线
+2. 适配阶段：将 Python/Django 服务架构映射为 Skill 工作流（agent 自然语言理解 + 结构化规则），无需部署额外服务
+3. 当前阶段：以 JSON 配置参考文件替代硬编码规则，保持技能的可维护性和可扩展性
+
+### 新增
+
+- 法院短信智能分类（文书送达 / 信息通知 / 立案通知）
+- 案号自动提取，支持多种标准格式（圆括号、方括号、六角括号）
+- 当事人名称提取（公司名、诉讼对峙模式、角色前缀）
+- 从 zxfw.court.gov.cn 链接中提取下载参数（qdbh、sdbh、sdsin）
+- 三级案件匹配策略（案号精确 → 当事人双向 → 特征筛选）
+- Playwright 两级回退下载（API 拦截 → 页面点击）
+- 文书自动重命名并归档到案件目录
+- 短信原文归档到 archive/
+- 解析规则可配置化（`references/sms-patterns.json`）
+
+### 致谢
+
+本技能参考了 [FachuanHybridSystem（法穿）](https://github.com/Lawyer-ray/FachuanHybridSystem) 中短信解析模块的设计思路和解析规则（非直接复制代码）。详见 [`references/ATTRIBUTION.md`](references/ATTRIBUTION.md)。

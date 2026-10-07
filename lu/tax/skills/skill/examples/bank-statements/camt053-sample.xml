@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02">
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>MSG-2025-001</MsgId>
+      <CreDtTm>2025-03-31T18:00:00</CreDtTm>
+    </GrpHdr>
+    <Stmt>
+      <Id>STMT-LU000123</Id>
+      <Acct>
+        <Id><IBAN>LU280019400644750000</IBAN></Id>
+      </Acct>
+      <Ntry>
+        <Amt Ccy="EUR">1234.56</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <BookgDt><Dt>2025-03-12</Dt></BookgDt>
+        <ValDt><Dt>2025-03-12</Dt></ValDt>
+        <NtryRef>NREF-001</NtryRef>
+        <AddtlNtryInf>Virement reçu CLIENT ACME Facture INV-2025-001</AddtlNtryInf>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">850.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt><Dt>2025-03-13</Dt></BookgDt>
+        <ValDt><Dt>2025-03-13</Dt></ValDt>
+        <NtryRef>NREF-002</NtryRef>
+        <AddtlNtryInf>Loyer bureau mars 2025</AddtlNtryInf>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="EUR">25.50</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt><Dt>2025-03-20</Dt></BookgDt>
+        <ValDt><Dt>2025-03-20</Dt></ValDt>
+        <AddtlNtryInf>Frais bancaires mensuels</AddtlNtryInf>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

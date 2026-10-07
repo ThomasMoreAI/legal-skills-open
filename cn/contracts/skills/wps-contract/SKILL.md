@@ -5,7 +5,7 @@ description: 合同协议生成。生成劳动合同、租赁合同、买卖合�
 author: Bwkyd
 author_url: https://github.com/Bwkyd/wps-skills/tree/main/skills/wps-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: contracts

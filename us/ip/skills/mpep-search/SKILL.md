@@ -5,7 +5,7 @@ description: Expert system for searching USPTO MPEP, 35 USC statutes, 37 CFR reg
 author: RobThePCGuy
 author_url: https://github.com/RobThePCGuy/Claude-Patent-Creator/tree/main/skills/mpep-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip

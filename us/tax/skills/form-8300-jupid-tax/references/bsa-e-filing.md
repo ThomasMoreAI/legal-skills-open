@@ -1,12 +1,12 @@
 # FinCEN BSA E-Filing System
 
-Form 8300 has been required to be filed electronically through FinCEN's BSA E-Filing System since **January 1, 2024**, under the broader information-return e-filing mandate at 26 CFR §301.6011-2. This reference covers what the system is, how an account is structured, and what to expect when filing.
+Since **January 1, 2024**, a business that is required to file 10 or more information returns of any type other than Form 8300 in a calendar year must file its Forms 8300 electronically through FinCEN's BSA E-Filing System (26 CFR §301.6011-2; Instructions for Form 8300, Rev. December 2023, "What's New" and "Who must file"). Businesses below that threshold may still e-file and are encouraged to. This reference covers what the system is, how an account is structured, and what to expect when filing.
 
 ## What is the BSA E-Filing System?
 
-URL: https://bsaefiling.fincen.treas.gov/
+URL: https://bsaefiling.fincen.treas.gov/ (the URL printed in the Form 8300 instructions; as of 2026-10-06 it redirects to https://bsaefiling.fincen.gov/)
 
-The BSA E-Filing System is FinCEN's free secure portal for filing Bank Secrecy Act reports — the same channel used for SARs (Suspicious Activity Reports), CTRs (Currency Transaction Reports), FBARs (Reports of Foreign Bank and Financial Accounts), and Form 8300. The system has been operational since 2002 for banks; Form 8300 was added in 2012, when IRS and FinCEN consolidated the joint reporting onto a single submission.
+The BSA E-Filing System is FinCEN's free secure portal for filing Bank Secrecy Act reports — the same channel used for SARs (Suspicious Activity Reports), CTRs (Currency Transaction Reports), FBARs (Reports of Foreign Bank and Financial Accounts), and Form 8300. One Form 8300 filing satisfies both the IRS (IRC §6050I) and FinCEN (31 U.S.C. §5331).
 
 The portal accepts:
 
@@ -15,11 +15,16 @@ The portal accepts:
 
 For Form 8300, the discrete web UI is sufficient unless the business files dozens of reports per year.
 
-## Why e-filing is mandatory
+## When e-filing is mandatory
 
-26 CFR §301.6011-2, as amended in February 2023, lowered the threshold for mandatory e-filing of information returns from 250 returns to **10 returns** in aggregate across all information-return types. For Form 8300 specifically, the IRS clarified that the 10-return aggregate threshold applies, AND that a separate FinCEN regulation effectively makes e-filing mandatory for nearly all 8300 filers regardless of count.
+26 CFR §301.6011-2, as amended in February 2023 (T.D. 9972), lowered the threshold for mandatory e-filing of information returns from 250 returns to **10 returns** in aggregate across information-return types. The Form 8300 instructions apply it this way:
 
-In practice: unless the business has an active hardship waiver, paper Form 8300 is non-compliant.
+- Count the information returns of every type **other than Form 8300** (Forms W-2, 1099 series, etc.) the business is required to file during the calendar year.
+- 10 or more → every Form 8300 that year must be e-filed. Example from the instructions: 5 Forms W-2 + 5 Forms 1099-INT = 10 → e-file.
+- Fewer than 10 → paper Form 8300 is allowed without a waiver; e-filing is optional. Example: 3 Forms 1099-MISC + 4 Forms 1099-DIV = 7 → paper allowed.
+- The number of Forms 8300 filed never counts toward the 10. The test is re-run every calendar year.
+
+A business required to e-file that files on paper has failed to file in the required manner; the form is treated as late and is subject to penalty.
 
 ## Account structure
 
@@ -104,16 +109,13 @@ If a filed Form 8300 contains an error, file an amendment:
 
 Amendments do not extend the original 15-day deadline. The original timely filing still controls; an amendment is just a correction.
 
-## Hardship waiver path
+## Waiver and exemption paths (paper filing for required e-filers)
 
-Under 31 CFR §1010.306(e), FinCEN can grant a hardship waiver to a filer who can demonstrate that e-filing imposes undue hardship — typically due to lack of reliable internet, very small operation with no electronic recordkeeping, or comparable circumstances.
+Per the Form 8300 instructions ("Waivers" and "Exemptions"):
 
-Process:
-
-1. Submit a written waiver request to FinCEN before the filing deadline
-2. Include: filer identification, basis for hardship, period requested
-3. Wait for FinCEN approval (timing varies, usually weeks)
-4. With an approved waiver, paper filing is permitted to:
+1. **Undue-hardship waiver.** Request it from the IRS on Form 8508, Application for a Waiver from Electronic Filing of Information Returns. A waiver granted for the business's information returns automatically covers its Forms 8300 for that calendar year. A waiver for Form 8300 alone cannot be requested. Paper Forms 8300 filed under a waiver carry the word "WAIVER" at the center top of page 1.
+2. **Religious exemption.** If using the required technology conflicts with the filer's religious beliefs, the filer is automatically exempt and writes "RELIGIOUS EXEMPTION" at the center top of page 1.
+3. **Paper filing address** (filers under the 10-return threshold, with a waiver, or exempt):
 
    ```
    Internal Revenue Service
@@ -124,7 +126,7 @@ Process:
 
    (Verify the address each year against the current Form 8300 instructions.)
 
-A waiver is specific to a filer and a period; it must be renewed.
+A Form 8508 waiver covers a calendar year; request a new one for each year it is needed.
 
 ## Common system issues
 
@@ -138,7 +140,7 @@ A waiver is specific to a filer and a period; it must be renewed.
 
 ## Help Desk
 
-BSA E-Filing Help Desk: 1-866-346-9478 (verify on the site each year). Hours typically 8 AM – 6 PM Eastern, Monday–Friday. The Help Desk handles registration issues, login recovery, and technical questions. They do NOT provide tax or legal advice — content questions go to a CPA or attorney.
+BSA E-Filing Help Desk: 1-866-346-9478 (option 1) or BSAEFilingHelp@fincen.gov (per FinCEN notices; verify on fincen.gov each year). The current support page also offers a help-ticket form at https://bsaefiling.fincen.gov/help-ticket. The Help Desk handles registration issues, login recovery, and technical questions. They do NOT provide tax or legal advice — content questions go to a CPA or attorney.
 
 ## Security best practices
 
@@ -151,4 +153,4 @@ BSA E-Filing Help Desk: 1-866-346-9478 (verify on the site each year). Hours typ
 
 ## Record retention
 
-Independent of BSA E-Filing's own retention, the business must retain its own copies of every filed Form 8300 for **5 years from the date of filing**. The BSA tracking ID, the PDF copy, and supporting documents (ID copies, bill of sale) constitute the audit-defense package.
+Independent of BSA E-Filing's own retention, the business must retain its own copy of every filed Form 8300 for **5 years from the date of filing**. When e-filing, save a copy of the completed form before submission; the instructions say a filing confirmation is not a substitute for the form and recommend associating the confirmation number with the saved copy. The BSA tracking ID, the saved copy, and supporting documents (ID copies, bill of sale) constitute the audit-defense package.

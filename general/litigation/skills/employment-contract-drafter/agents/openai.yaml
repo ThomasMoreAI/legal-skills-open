@@ -1,0 +1,4 @@
+interface:
+  display_name: "Employment Contract Drafter"
+  short_description: "Draft clear, compliant employment agreements"
+  default_prompt: "Use $employment-contract-drafter to draft a jurisdiction-specific employment agreement from these role and compensation terms."

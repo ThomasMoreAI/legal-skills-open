@@ -1,0 +1,4 @@
+interface:
+  display_name: "Restructuring Documenter"
+  short_description: "Build restructuring steps and document trails"
+  default_prompt: "Use $restructuring-documenter to create the approval, filing, document, and closing sequence for this restructuring."

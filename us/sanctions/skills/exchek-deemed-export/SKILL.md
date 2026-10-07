@@ -5,7 +5,7 @@ description: Walk through 15 CFR 734.2(b) to determine if a release of technolog
 author: exchekinc
 author_url: https://github.com/exchekinc/exchekskills/tree/main/skills/exchek-skill-deemed-export
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: sanctions

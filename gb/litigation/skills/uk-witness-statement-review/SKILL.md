@@ -1,11 +1,11 @@
 ---
 name: uk-witness-statement-review
-title: 'UK witness statement review'
+title: UK witness statement review
 description: Use when users say "review this witness statement", "check this statement before service", "PD 57AC", "statement of truth", "hearsay in this witness evidence", or need England and Wales witness evidence checked for source support, CPR/PD issues, exhibits, chronology conflicts, or argument.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-witness-statement-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: gb
 practice: litigation

@@ -5,7 +5,7 @@ description: Discovers patentable ideas, refines early concepts, analyzes implem
 author: VinceZcrikl
 author_url: https://github.com/VinceZcrikl/vinceZcrikl-skills/tree/main/skills/patent-builder
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

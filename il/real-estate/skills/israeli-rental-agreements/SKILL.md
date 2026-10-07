@@ -5,7 +5,7 @@ description: Guide users through Israeli rental agreements, tenant and landlord 
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-rental-agreements
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: real-estate

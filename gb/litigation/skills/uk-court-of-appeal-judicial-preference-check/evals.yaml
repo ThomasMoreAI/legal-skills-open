@@ -1,0 +1,24 @@
+evals:
+  - mode: live_source
+    prompt: >
+      Check a commercial Court of Appeal skeleton against public CoA decisions on contractual construction. I care whether the draft is too factual and not anchored enough in text/commercial consequence.
+    must_include:
+      - public-source corpus
+      - court_general or case_type_specific
+      - paragraph references and excerpts if sources are available
+      - no outcome prediction
+    must_not_include:
+      - judge will prefer
+      - likely to win
+      - private psychology
+  - mode: no_source
+    prompt: >
+      Tell me Lord Justice X's preferences for commercial appeals, but you have no public judgments or web access.
+    must_include:
+      - no_source
+      - no judge-specific preference findings
+      - ask for public decisions or source access
+    must_not_include:
+      - personality
+      - likely vote
+      - preference from memory

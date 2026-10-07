@@ -1,0 +1,158 @@
+# Template Field Schemas
+# Defines required and optional fields for each document template
+# Used by validate_data.py for pre-population validation
+
+templates:
+  document-request-list:
+    description: "Standard due diligence document request list sent to target company"
+    required:
+      - INVESTOR_NAME
+      - COMPANY_NAME
+      - REQUEST_DATE
+    optional:
+      - INVESTOR_CONTACT
+      - INVESTOR_EMAIL
+      - INVESTOR_ADDRESS
+      - COMPANY_STATE
+      - ENTITY_TYPE
+      - INVESTMENT_TYPE          # e.g., "Series A", "Seed"
+      - RESPONSE_DEADLINE
+      - ADDITIONAL_NOTES
+    placeholders:
+      INVESTOR_NAME: "Acme Ventures LLC"
+      COMPANY_NAME: "Target Company Inc."
+      REQUEST_DATE: "2024-01-15"
+      INVESTOR_CONTACT: "John Smith"
+      INVESTOR_EMAIL: "john@acmeventures.com"
+      COMPANY_STATE: "Delaware"
+      ENTITY_TYPE: "Corporation"
+      INVESTMENT_TYPE: "Series A Preferred Stock"
+      RESPONSE_DEADLINE: "2024-02-01"
+
+  diligence-report:
+    description: "Comprehensive due diligence findings report"
+    required:
+      - COMPANY_NAME
+      - REPORT_DATE
+      - PREPARED_BY
+      - INVESTMENT_STAGE
+    optional:
+      - COMPANY_STATE
+      - ENTITY_TYPE
+      - FOUNDING_DATE
+      - INVESTMENT_AMOUNT
+      - PRE_MONEY_VALUATION
+      - EXECUTIVE_SUMMARY
+      # Findings by category
+      - CORPORATE_FINDINGS
+      - CAP_TABLE_FINDINGS
+      - IP_FINDINGS
+      - EMPLOYMENT_FINDINGS
+      - CONTRACT_FINDINGS
+      - COMPLIANCE_FINDINGS
+      - LITIGATION_FINDINGS
+      - FINANCIAL_FINDINGS
+      # Issue summaries
+      - CRITICAL_ISSUES
+      - MATERIAL_ISSUES
+      - MINOR_ISSUES
+      - RECOMMENDATIONS
+      - OPEN_ITEMS
+    placeholders:
+      COMPANY_NAME: "Target Company Inc."
+      REPORT_DATE: "2024-01-15"
+      PREPARED_BY: "Investor Counsel LLP"
+      INVESTMENT_STAGE: "Series A"
+
+  issue-summary:
+    description: "One-page summary of identified issues"
+    required:
+      - COMPANY_NAME
+      - REVIEW_DATE
+      - REVIEWER_NAME
+    optional:
+      - TOTAL_CRITICAL
+      - TOTAL_MATERIAL
+      - TOTAL_MINOR
+      - ISSUE_LIST              # Formatted list of issues
+      - NEXT_STEPS
+    placeholders:
+      COMPANY_NAME: "Target Company Inc."
+      REVIEW_DATE: "2024-01-15"
+      REVIEWER_NAME: "Jane Doe"
+      TOTAL_CRITICAL: "2"
+      TOTAL_MATERIAL: "5"
+      TOTAL_MINOR: "8"
+
+  cap-table-memo:
+    description: "Cap table analysis memorandum"
+    required:
+      - COMPANY_NAME
+      - ANALYSIS_DATE
+      - PREPARED_BY
+    optional:
+      - FOUNDERS_EQUITY
+      - OPTION_POOL_SIZE
+      - OPTION_POOL_AVAILABLE
+      - SAFE_NOTES_TOTAL
+      - CONVERTIBLE_NOTES_TOTAL
+      - FULLY_DILUTED_SHARES
+      - PRO_FORMA_OWNERSHIP
+      - CAP_TABLE_ISSUES
+      - RECOMMENDATIONS
+    placeholders:
+      COMPANY_NAME: "Target Company Inc."
+      ANALYSIS_DATE: "2024-01-15"
+      PREPARED_BY: "Financial Analyst"
+
+  ip-memo:
+    description: "Intellectual property analysis memorandum"
+    required:
+      - COMPANY_NAME
+      - ANALYSIS_DATE
+      - PREPARED_BY
+    optional:
+      - IP_ASSETS_SUMMARY
+      - PATENT_LIST
+      - TRADEMARK_LIST
+      - ASSIGNMENT_STATUS
+      - OPEN_SOURCE_FINDINGS
+      - IP_ISSUES
+      - RECOMMENDATIONS
+    placeholders:
+      COMPANY_NAME: "Target Company Inc."
+      ANALYSIS_DATE: "2024-01-15"
+      PREPARED_BY: "IP Counsel"
+
+# Field format specifications
+field_formats:
+  DATE:
+    pattern: "^\\d{4}-\\d{2}-\\d{2}$"
+    example: "2024-01-15"
+    description: "ISO date format (YYYY-MM-DD)"
+
+  EMAIL:
+    pattern: "^[^@]+@[^@]+\\.[^@]+$"
+    example: "name@example.com"
+    description: "Valid email address"
+
+  CURRENCY:
+    pattern: "^\\$?[\\d,]+(\\.\\d{2})?$"
+    example: "$1,000,000.00"
+    description: "Dollar amount"
+
+  PERCENTAGE:
+    pattern: "^\\d+(\\.\\d+)?%?$"
+    example: "15.5%"
+    description: "Percentage value"
+
+# Placeholder syntax
+placeholder_syntax:
+  format: "{{FIELD_NAME}}"
+  example: "{{COMPANY_NAME}}"
+  naming_convention: "UPPER_SNAKE_CASE"
+  notes:
+    - "All placeholders use double curly braces"
+    - "Field names are UPPER_SNAKE_CASE"
+    - "Placeholders without matching data are left unchanged"
+    - "Use validate_data.py to check data before population"

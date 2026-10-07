@@ -1,0 +1,30 @@
+skill: fiscaliste
+cases:
+  - id: classes-impot-splitting
+    prompt: "Explique les 3 classes d'impôt luxembourgeoises (1, 1a, 2) et le mécanisme du splitting pour la classe 2."
+    must_contain:
+      - "classe 1"
+      - "classe 1a"
+      - "classe 2"
+      - "splitting"
+    must_not_contain:
+      - "quotient familial" # c'est français
+    rubric: |
+      Classe 1 = célibataire sans enfant. Classe 1a = monoparental, veuf, séparé,
+      ou >64 ans. Classe 2 = marié/partenaire (PACS LU) imposé collectivement, avec
+      splitting (revenu collectif / 2, barème, × 2). Frontaliers : option pour classe 2
+      si ≥ 90% du revenu mondial taxable au Luxembourg. Citer LIR art. 119.
+
+  - id: frontalier-teletravail
+    prompt: "Frontalier français travaillant pour un employeur luxembourgeois. Combien de jours de télétravail depuis la France peut-il faire en 2025 sans changement de fiscalité ?"
+    must_contain:
+      - "34"
+      - "France"
+    must_not_contain:
+      - "29 jours"
+      - "55 jours" # seuil belge
+    rubric: |
+      Avenant à la convention fiscale FR-LU (signé 7 nov. 2022, en vigueur depuis 2023) :
+      seuil de 34 jours de télétravail/an depuis la France sans bascule fiscale. Au-delà,
+      les jours télétravaillés deviennent imposables en France au prorata. Pour les
+      Belges = 34 jours aussi (avenant 2021), Allemands = 34 jours (avenant 2023).

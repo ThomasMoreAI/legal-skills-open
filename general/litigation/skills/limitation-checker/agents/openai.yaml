@@ -1,0 +1,4 @@
+interface:
+  display_name: "Limitation Checker"
+  short_description: "Calculate and stress-test filing deadlines"
+  default_prompt: "Use $limitation-checker to identify possible limitation periods, compute competing deadline scenarios, and flag accrual, exclusion, suspension, extension, and forum issues."

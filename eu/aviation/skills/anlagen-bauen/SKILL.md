@@ -5,7 +5,7 @@ description: 'Für Fluggastrechte — Anlagen bauen: ordnet Norm, Beweislast und
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/anlagen-bauen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: aviation

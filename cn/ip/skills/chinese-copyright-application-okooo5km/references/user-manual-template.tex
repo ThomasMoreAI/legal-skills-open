@@ -1,0 +1,177 @@
+% =====================================================================
+% 用户手册 LaTeX 模板
+% 使用说明：将 {{变量名}} 替换为实际内容
+% 截图：使用 \screenshot{文件名}{标题} 宏
+% 编译：xelatex -interaction=nonstopmode 文件名.tex （运行两遍）
+% =====================================================================
+\documentclass[a4paper,12pt]{article}
+\usepackage[UTF8,heading=true]{ctex}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{float}
+
+\hypersetup{hidelinks}
+\graphicspath{{images/}}
+
+\ctexset{
+  section/format = \Large\bfseries,
+  subsection/format = \large\bfseries,
+  subsubsection/format = \normalsize\bfseries,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{{{软件全称}}V{{版本号}}\quad 用户手册}
+\fancyfoot[C]{第 \thepage\ 页\quad 共 \pageref{LastPage} 页}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.3em}
+\renewcommand{\baselinestretch}{1.3}
+
+\newcommand{\screenshot}[2]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{#1}
+    \caption{#2}
+  \end{figure}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries {{软件全称}}\quad 用户手册}
+
+  \vspace{0.8em}
+  {\large 著作权人：{{著作权人名称}}}
+
+  \vspace{0.3em}
+  软件版本：V{{版本号}}\qquad 发布日期：{{首次发表日期}}
+\end{center}
+
+\vspace{1.5em}
+
+% =================================================================
+\section{软件简介}
+% =================================================================
+
+{{软件简介描述，1-2段话介绍软件是什么、面向谁、核心能力}}
+
+\subsection{软件概述}
+
+{{软件概述，描述运行平台、如何进入使用}}
+
+% \screenshot{图1-首页.png}{首页}
+
+\subsection{主要特点}
+
+\begin{itemize}[leftmargin=2em]
+  \item {{特点1}}
+  \item {{特点2}}
+  \item {{特点3}}
+\end{itemize}
+
+
+% =================================================================
+\section{功能概述}
+% =================================================================
+
+本软件包含以下核心功能：
+
+\begin{enumerate}[leftmargin=2em]
+  \item \textbf{{{功能1名称}}}：{{功能1简述}}。
+  \item \textbf{{{功能2名称}}}：{{功能2简述}}。
+  \item \textbf{{{功能3名称}}}：{{功能3简述}}。
+\end{enumerate}
+
+
+% =================================================================
+\section{安装与使用说明}
+% =================================================================
+
+\subsection{系统要求}
+
+\begin{itemize}[leftmargin=2em]
+  \item \textbf{平台}：{{运行平台}}。
+  \item \textbf{客户端}：{{客户端要求}}。
+\end{itemize}
+
+\subsection{进入方式}
+
+\begin{enumerate}[leftmargin=2em]
+  \item {{步骤1}}。
+  \item {{步骤2}}。
+  \item {{步骤3}}。
+\end{enumerate}
+
+\subsection{登录说明}
+
+{{登录相关说明}}
+
+% \screenshot{图-登录页.png}{登录页面}
+
+
+% =================================================================
+\section{主要功能说明}
+% =================================================================
+
+% --- 为每个功能重复以下模式 ---
+
+\subsection{{{功能名称}}}
+
+{{功能描述}}
+
+\textbf{操作步骤：}
+
+\textbf{第一步}：{{描述}}
+
+% \screenshot{图-步骤1.png}{步骤1说明}
+
+\textbf{第二步}：{{描述}}
+
+% \screenshot{图-步骤2.png}{步骤2说明}
+
+% --- 重复以上模式 ---
+
+
+% =================================================================
+\section{注意事项}
+% =================================================================
+
+\subsection{网络要求}
+
+{{网络相关注意事项}}
+
+\subsection{登录要求}
+
+{{登录相关注意事项}}
+
+\subsection{数据管理}
+
+{{数据管理相关注意事项}}
+
+
+% =================================================================
+\section{技术支持}
+% =================================================================
+
+\subsection{联系方式}
+
+{{联系方式说明}}
+
+\subsection{版本信息}
+
+\begin{itemize}[leftmargin=2em]
+  \item 软件版本：V{{版本号}}
+  \item 更新日期：{{首次发表日期}}
+\end{itemize}
+
+\end{document}

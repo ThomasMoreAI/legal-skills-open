@@ -1,0 +1,12 @@
+name: Conflicts Check
+practice_area: Ethics & Compliance
+jurisdiction: New York / New Jersey
+version: "1.0"
+author: HeyCounsel Community
+description: >
+  Two-tier conflicts check for solo and small-firm practices, run against the
+  firm's conflicts-check workbook as the RPC 1.10(e) written system of record.
+  Sweeps client, party, counterparty, and prospect records deterministically,
+  then outputs a RED/YELLOW/GREEN read, the rule analysis under RPC 1.7 / 1.9 /
+  1.18 and personal-interest conflicts, and a ready-to-log Conflict Checks Log
+  row for attorney review.

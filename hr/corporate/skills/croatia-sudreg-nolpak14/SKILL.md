@@ -1,11 +1,11 @@
 ---
 name: croatia-sudreg-nolpak14
-title: 'Croatia sudreg'
+title: Croatia sudreg
 description: 'Look up Croatian companies for free via the official Sudski registar OPEN API (sudreg-data.gov.hr, Ministry of Justice court register) - company profile, OIB (tax ID), MBS (court register number), tvrtka (legal name), pravni oblik (legal form), status, sjediste (registered seat), temeljni kapital (share capital), datum osnivanja, and osobe (board / authorized persons). Use for KYB / know-your-business checks, counterparty verification, director discovery, and Croatian company due diligence. Trigger on: ''Croatia company'', ''Croatian company lookup'', ''sudski registar'', ''sudreg'', ''court register'', ''check a Croatian company'', ''OIB lookup'', ''MBS lookup'', ''is this Croatian company active''. The sudski registar OPEN API is free (after a one-time free registration); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/croatia-sudreg
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: hr
 practice: corporate
@@ -130,3 +130,7 @@ There is no Croatian regdata actor - the free sudski registar OPEN API above is 
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`vies-vat-validation`** - confirm the Croatian `HR`-prefixed VAT number is valid and active for EU cross-border trade.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Croatian jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

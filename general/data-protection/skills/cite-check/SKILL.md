@@ -5,7 +5,7 @@ description: 'Verifiable legal-citation tooling for product counsel reviews. Two
 author: nkasuku
 author_url: https://github.com/nkasuku/cite-check/tree/main/skills/cite-check
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

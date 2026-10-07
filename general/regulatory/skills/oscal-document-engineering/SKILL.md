@@ -5,12 +5,17 @@ description: Convert, validate, and maintain OSCAL documents from legacy SSP/PDF
 author: ethanolivertroy
 author_url: https://github.com/ethanolivertroy/compliance-trestle-skills/tree/main/agent-skills/oscal-document-engineering
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
-tags: [oscal, ssp, compliance-trestle, document-transformation, grc]
+tags:
+- oscal
+- ssp
+- compliance-trestle
+- document-transformation
+- grc
 sources:
 - title: Legacy doc ingestion
   path: references/legacy-doc-ingestion.md

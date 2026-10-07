@@ -1,0 +1,6 @@
+{
+    "API_BASE_URL": "https://api.wkinfo.com.cn/v1",
+    "API_KEY": "YOUR_API_KEY_HERE",
+    "API_SECRET": "YOUR_API_SECRET_HERE",
+    "AUTH_TYPE": "Bearer"
+}

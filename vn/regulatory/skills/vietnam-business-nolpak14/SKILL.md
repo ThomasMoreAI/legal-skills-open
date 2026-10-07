@@ -1,11 +1,11 @@
 ---
 name: vietnam-business-nolpak14
-title: 'Vietnam business'
+title: Vietnam business
 description: 'Look up Vietnamese companies for free by tax code (MST / ma so thue) via the VietQR business API (api.vietqr.io) - a keyless, third-party aggregator of Vietnam General Department of Taxation (GDT) public records. Returns the Vietnamese legal name, international name, short name, registered address, and tax status (e.g. ''NNT dang hoat dong'' = active). Use for a quick Vietnam company / tax-code check, counterparty verification, and Vietnamese business lookup. Trigger on: ''Vietnam company lookup'', ''tax code'', ''MST'', ''ma so thue'', ''check a Vietnamese company'', ''is this Vietnam company active'', ''Vietnamese business lookup'', ''Vietnam MST lookup''. Not an official government API - it is a CASSO-operated aggregator with partial fields and ~monthly lag; verify against the official portal for authoritative use. For deeper Vietnam data and jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/vietnam-business
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: vn
 practice: regulatory
@@ -123,3 +123,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`companies-house-uk`** - free, official UK company data: profile, officers, and PSC beneficial owners.
 - **`singapore-acra`** - the regional neighbour: Singapore ACRA company lookup.
 - **`brazil-cnpj`** - another free, keyless national lookup front door (Receita Federal CNPJ open data).
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -5,7 +5,7 @@ description: 'Translates contract redlines into client-ready or opposing-counsel
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/redline-emailer
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

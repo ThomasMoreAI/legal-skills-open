@@ -1,11 +1,11 @@
 ---
 name: australia-abn-lookup-nolpak14
-title: 'Australia abn lookup'
+title: Australia abn lookup
 description: 'Look up Australian businesses for free via the official ABN Lookup web services (Australian Business Register) - ABN, ACN, entity name, entity type, ABN status (active/cancelled), GST registration, main business location (state + postcode), business/trading names, and name-match search. Use for KYB / know-your-business checks, counterparty verification, and Australian company due diligence. Trigger on: ''ABN Lookup'', ''ABN'', ''ACN'', ''check an Australian company'', ''Australian Business Register'', ''ABR'', ''is this ABN active'', ''GST registered'', ''Australian business number'', ''Australian company number''. The ABN Lookup API is free (you register your own free GUID); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/australia-abn-lookup
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: au
 practice: corporate
@@ -139,3 +139,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`vies-vat-validation`** - validate an EU VAT number when the counterparty is European rather than Australian.
 - **`sanctions-pep-screening`** - screen the entities and names you found here against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Australian jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

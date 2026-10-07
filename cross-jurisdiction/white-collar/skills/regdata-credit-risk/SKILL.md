@@ -1,11 +1,11 @@
 ---
 name: regdata-credit-risk
-title: 'Regdata credit risk'
+title: Regdata credit risk
 description: 'Insolvency monitoring and credit-risk assessment across official registries: Poland''s KRZ debtor registry, MSiG court gazette, and KRS financial statements; Austria''s Ediktsdatei; Germany''s Insolvenzbekanntmachungen; Czechia''s ISIR; Spain''s BORME corporate acts and Registro Publico Concursal; and California UCC liens. Covers bankruptcy, restructuring, insolvency, financial-statement and secured-lien data across PL, AT, DE, CZ, ES, and US (California). Use when the user mentions KRZ, MSiG, KRS financials, Ediktsdatei, German insolvency, ISIR, BORME, Spanish concursal, UCC liens, debtor registry, court gazette, or company financial health / insolvency screening.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-credit-risk
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -403,3 +403,8 @@ A NOT SCREENED registry must be visible in the summary and must hold the overall
 
 - **regdata-kyc-aml** - Use alongside credit risk checks when you also need to verify beneficial ownership (CRBR), check for sanctioned entities (KNF), or confirm board composition (KRS Board). Ownership concentration is itself a credit risk factor.
 - **regdata-lead-gen** - If a credit check reveals an unreliable supplier or client, use lead-gen to find alternative companies in the same sector via KRS Board, WKO, Spain Company Directory, or Societe.com.
+
+## More on getregdata.com
+
+- Insolvency and credit-risk use case: https://getregdata.com/use-cases/insolvency-credit-risk/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -5,7 +5,7 @@ description: Assess a target system against HIPAA Privacy Rule, Security Rule, a
 author: nickzren
 author_url: https://github.com/nickzren/hipaa-foundation/tree/main/skills/hipaa-assessor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: healthcare

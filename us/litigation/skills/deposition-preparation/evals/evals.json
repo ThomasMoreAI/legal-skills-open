@@ -1,0 +1,23 @@
+{
+  "skill_name": "deposition-preparation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a depo next Tuesday of the plaintiff in a wrongful termination case. She was fired for alleged attendance issues but we think it was retaliation for her EEOC complaint. I'm taking the depo. We're in SDNY, judge gave us 6 hours. I have her personnel file, the EEOC charge, and about 40 emails between her and her manager. Can you help me build a prep package?",
+      "expected_output": "Full deposition prep package with issue map tying to retaliation elements, time allocation within 6 hours, funnel-technique outline, exhibit integration for the 40 emails and personnel file, impeachment table, and at-the-table one-pager",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We're defending our client's 30(b)(6) deposition in a products liability case. The notice has 12 topics covering design, testing, manufacturing, complaints history, and post-incident investigation. Our designee is the VP of Engineering. The depo is in Texas state court, Level 2 discovery. What should our prep look like?",
+      "expected_output": "Defending pack with 30(b)(6)-specific structure organized by noticed topics, vulnerabilities mapping, ethics-safe prep session agenda, Texas jurisdiction adaptations flagged, privilege framework, and rehabilitation plan",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to depose the opposing party's damages expert in a patent infringement case. He submitted a 45-page report calculating $12M in lost profits using a market share analysis. We think his methodology is flawed because he didn't account for non-infringing alternatives. Federal court, Northern District of California. How should I structure the examination to set up our Daubert challenge?",
+      "expected_output": "Expert deposition outline focused on FRE 702 reliability challenges, concession targets around non-infringing alternatives gap, methodology lock-in sequences, compensation/bias exploration, with exhibit integration for the expert report and relevant market data",
+      "files": []
+    }
+  ]
+}

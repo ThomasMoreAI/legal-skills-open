@@ -5,7 +5,7 @@ description: Ensure data privacy compliance covering GDPR obligations, user cons
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skill/tree/main/skills/data-ai/data-privacy
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

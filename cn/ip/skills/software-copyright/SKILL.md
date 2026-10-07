@@ -5,11 +5,22 @@ description: Generate guided Chinese software copyright application materials fr
 author: kevinnft
 author_url: https://github.com/kevinnft/ai-agent-skills/tree/main/skills/software-copyright
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: ip
 language: zh
+sources:
+- title: Application fields
+  path: references/application_fields.md
+- title: Business understanding rules
+  path: references/business_understanding_rules.md
+- title: Code selection rules
+  path: references/code_selection_rules.md
+- title: Copyright material rules
+  path: references/copyright_material_rules.md
+- title: Manual structure
+  path: references/manual_structure.md
 ---
 
 # 软著申请资料生成

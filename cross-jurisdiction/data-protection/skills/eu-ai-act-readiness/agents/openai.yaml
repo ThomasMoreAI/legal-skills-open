@@ -1,0 +1,4 @@
+interface:
+  display_name: "EU AI Act Readiness"
+  short_description: "Assess EU AI Act readiness and evidence gaps"
+  default_prompt: "Use $eu-ai-act-readiness to triage this AI use case and build a counsel-ready readiness plan."

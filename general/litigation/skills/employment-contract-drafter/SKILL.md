@@ -5,7 +5,7 @@ description: Drafts jurisdiction-specific employment agreements and offer terms 
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/employment-contract-drafter
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

@@ -1,11 +1,11 @@
 ---
 name: south-korea-dart-nolpak14
-title: 'South korea dart'
+title: South korea dart
 description: 'Look up South Korea companies for free via the official DART OpenAPI (opendart.fss.or.kr, Financial Supervisory Service) - company overview (CEO, corporate/business registration numbers, KOSPI/KOSDAQ/KONEX class), disclosure filing lists, and audited financial statements (balance sheet, income statement) straight from the source. DART is Korea''s SEC EDGAR equivalent. Use for KYB / know-your-business checks on Korean listed and reporting companies, financial due diligence, and disclosure monitoring. Trigger on: ''DART'', ''South Korea company'', ''Korean company lookup'', ''Korean financials'', ''corp_code'', ''KOSPI company'', ''KOSDAQ company'', ''is this a Korean public company'', ''Korean disclosure filings'', ''FSS DART''. DART is free and covers listed/reporting filers only; for private Korean companies and non-Korean jurisdictions it hands off to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/south-korea-dart
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: kr
 practice: corporate
@@ -137,3 +137,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`gleif-lei-lookup`** - resolve a Korean company to its global LEI and its parent/child structure across borders before or after the DART pull.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for private and non-Korean entities.
 - **`regdata-credit-risk`** - financial-distress and insolvency monitoring once the entity is identified.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

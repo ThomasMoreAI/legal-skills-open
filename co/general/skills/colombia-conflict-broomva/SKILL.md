@@ -6,7 +6,7 @@ description: Knowledge engine over the Colombian Truth Commission (CEV) final re
 author: broomva
 author_url: https://github.com/broomva/skills/tree/main/skills/knowledge/colombia-conflict
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: co
 practice: general

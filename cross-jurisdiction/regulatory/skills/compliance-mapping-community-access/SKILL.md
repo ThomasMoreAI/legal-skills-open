@@ -5,7 +5,7 @@ description: Map findings to Section 508, EN 301 549, EAA, ADA, AODA; build a VP
 author: Community-Access
 author_url: https://github.com/Community-Access/accessibility-agents/tree/main/skills/compliance-mapping
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

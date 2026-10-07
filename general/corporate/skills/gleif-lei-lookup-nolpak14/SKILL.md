@@ -1,11 +1,11 @@
 ---
 name: gleif-lei-lookup-nolpak14
-title: 'Gleif lei lookup'
+title: Gleif lei lookup
 description: 'Resolve any legal entity to its global LEI (Legal Entity Identifier) for free via the official GLEIF API - legal name, registered address, status, the entity''s local registry ID, and its parent/child corporate structure (who-owns-whom at the legal-consolidation level). Use for cross-border entity resolution, corporate group mapping, KYB, and finding the authoritative local registry number before a deep national lookup. Trigger on: ''LEI lookup'', ''legal entity identifier'', ''GLEIF'', ''find the LEI for'', ''corporate structure'', ''ultimate parent company'', ''who owns this entity across borders'', ''entity resolution''. GLEIF is free and global; for beneficial owners, financials, directors and insolvency it hands off to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/gleif-lei-lookup
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: corporate
@@ -106,3 +106,8 @@ For UK and Norway the local record is itself free - route to **`companies-house-
 - **`regdata-kyc-aml`** - full KYC/AML/KYB framework with beneficial-owner, PEP and adverse-media overlays.
 - **`sanctions-pep-screening`** - screen the entity and its parents/children against sanctions lists.
 - **`regdata-credit-risk`** - financial-distress and insolvency monitoring for the resolved entity.
+
+## More on getregdata.com
+
+- Full guide to this skill: https://getregdata.com/skills/gleif-lei-lookup/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -5,7 +5,8 @@ The $10,000 threshold is not always a single payment. The aggregation rules comb
 ## Statutory and regulatory basis
 
 - **IRC §6050I(a)** — applies to "any person engaged in a trade or business … who, in the course of such trade or business, receives more than $10,000 in cash in 1 transaction (or 2 or more related transactions)."
-- **26 CFR §1.6050I-1(b)(2)** — defines "related transactions" as "any transactions conducted between a payer (or its agent) and a recipient of cash in a 24-hour period," AND any transactions conducted within a longer period (typically up to 12 months) "if the recipient knows or has reason to know that each transaction is one of a series of connected transactions."
+- **26 CFR §1.6050I-1(c)(7)(ii)** — defines "related transactions" as "any transaction conducted between a payer (or its agent) and a recipient of cash in a 24-hour period," and transactions over a longer period "if the recipient knows or has reason to know that each transaction is one of a series of connected transactions."
+- **26 CFR §1.6050I-1(b)** — multiple payments for one transaction or related transactions: an initial payment over $10,000 is reported within 15 days; otherwise payments made within one year of the initial payment are aggregated until the total exceeds $10,000 ((b)(2)); after that, previously unreportable payments within a 12-month period are aggregated again ((b)(3)).
 
 ## The four aggregation scenarios
 
@@ -29,7 +30,7 @@ If a fourth payment then comes in within the 12 months following the third — s
 
 ### Scenario 3 — Series of connected transactions (24-hour rule)
 
-A buyer makes multiple separate cash payments to the same recipient within a 24-hour period. Treasury Regulation §1.6050I-1(b)(2)(i) treats these as related transactions automatically — the recipient is presumed to know they're connected.
+A buyer makes multiple separate cash payments to the same recipient within a 24-hour period. 26 CFR §1.6050I-1(c)(7)(ii) treats these as related transactions automatically, whether or not the recipient knows they are connected.
 
 **Example.** A jewelry buyer pays $6,000 cash for a watch at 10am, then returns at 4pm and pays $5,500 cash for earrings. Both purchases are within 24 hours, both from the same recipient. Combined: $11,500. **File Form 8300.** The 15-day clock starts at the second payment.
 
@@ -41,7 +42,7 @@ For payments more than 24 hours apart, aggregation requires that the recipient "
 
 ## The 12-month look-back
 
-The IRS uses 12 months as a working window for "series of connected transactions" that aren't a single contractual project. Within 12 months, prior cash payments from the same buyer should be reviewed each time new cash comes in.
+For installment and other multiple payments, the regulation aggregates payments made within one year of the initial payment (26 CFR §1.6050I-1(b)(2)), and Pub 1544 describes "other previously unreportable payments that cause the total cash received within a 12-month period to total more than $10,000." Review prior cash payments from the same buyer within 12 months each time new cash comes in.
 
 **Practical rule:** keep a per-buyer rolling sum of cash payments. When the rolling sum within 12 months exceeds $10,000, the threshold is crossed.
 
@@ -67,11 +68,11 @@ Aggregation does not apply across these boundaries:
 
 - **Different recipients.** Two different LLCs owned by the same person are separate recipients (unless they're a single legal entity); each tracks its own threshold.
 - **Different payers.** If Maria pays $6,000 cash and her separate friend John (acting independently) pays $5,000 cash, these are not aggregated even if for related items.
-- **Refunded transactions.** A cash payment that was fully refunded to the buyer in good faith is treated as not received for §6050I purposes — but document the refund carefully.
+- **Refunded transactions.** Neither the Form 8300 instructions nor Pub 1544 contains an exception for cash that is later refunded. If cash was refunded, ask the user for the dates and amounts and refer the question to a CPA before excluding it from the total.
 
 ## Edge case: Part II (third-party payer)
 
-If an employee, agent, or relative pays cash on behalf of someone else, aggregation runs against the **principal in Part II**, not the person handing over the cash. The recipient business should track totals against the principal whose name appears on Part II.
+If an employee, agent, or relative pays cash on behalf of someone else, the related-transaction definition counts transactions between "a payer (or its agent)" and the recipient (26 CFR §1.6050I-1(c)(7)(ii)), so cash delivered by the agent counts toward the **principal's** total. The recipient business should track totals against the principal whose name appears on Part II, and also check the deliverer's own cash payments.
 
 ## Documentation requirements for aggregation
 
@@ -79,7 +80,7 @@ Whenever aggregation is the basis of the filing, retain:
 
 - Receipts or records of every individual payment that was aggregated
 - Notes connecting the payments (matter file, project name, vehicle VIN, customer ID)
-- The date and amount when cumulative cash crossed $10,000 — this is the date you write on Line 27 of Form 8300
+- The date and amount when cumulative cash crossed $10,000 — this is the date you write in item 28 of Form 8300 (Rev. December 2023)
 
 ## When to ask the user
 

@@ -1,0 +1,12 @@
+name: Word Contract Formatting
+practice_area: Contracts
+jurisdiction: Multi
+version: "1.0"
+author: Ryan Juliano — Hackathon 2026
+description: >
+  Applies Darwin Legal formatting conventions when drafting or
+  generating any contract, agreement, amendment, or legal document
+  as a Word (.docx) file. Use whenever drafting RSPAs, consulting
+  agreements, amendments, board consents, side letters, or any other
+  legal document — even if formatting isn't explicitly mentioned.
+  Ships with a base .dotx template under assets/.

@@ -5,12 +5,18 @@ description: Translates English legal text into colloquial Farsi, presenting the
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skill/tree/main/skills/tools/side_by_side_legal_translation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [translation, farsi, legal, legal_terminology, side-by-side-table, colloquial]
+tags:
+- translation
+- farsi
+- legal
+- legal_terminology
+- side-by-side-table
+- colloquial
 ---
 
 # side_by_side_legal_translation

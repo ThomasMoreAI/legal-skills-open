@@ -1,15 +1,18 @@
 ---
 name: launch-review
-title: 'Launch review'
+title: Launch review
 description: Full launch review against your framework and risk calibration. Use when the user says "review this launch", "legal review for [feature]", "can we ship this", "what are the legal issues with [product]", or references a launch tracker ticket or PRD that needs a category-by-category review memo.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/product-legal/skills/launch-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
+sources:
+- title: Seven category framework
+  path: references/seven-category-framework.md
 ---
 
 # /launch-review

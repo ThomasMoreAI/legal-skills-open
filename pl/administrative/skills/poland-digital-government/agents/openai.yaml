@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Digital Government"
+  short_description: "Poland Digital Government: run focused tasks"
+policy:
+  allow_implicit_invocation: false

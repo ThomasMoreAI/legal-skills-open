@@ -1,0 +1,182 @@
+schema_version: 2
+template: meeting_notes.md
+template_path: templates/_examples/meeting_notes/meeting_notes.md
+format: markdown
+analyzed_at: '2026-02-27T23:33:22Z'
+variable_count: 19
+meta:
+  display_name: Meeting Notes
+  description: Structured meeting notes with action items, optional sections, and
+    meeting-type-specific content
+variables:
+- name: meeting_title
+  label: Meeting Title
+  type: text
+  question: What is the title of this meeting?
+  required: true
+- name: meeting_date
+  label: Meeting Date
+  type: date
+  question: When was the meeting held?
+  default: today
+  format_hint: DD/MM/YYYY
+- name: facilitator_name
+  label: Facilitator
+  type: text
+  question: Who facilitated the meeting?
+  required: true
+- name: meeting_location
+  label: Location
+  type: text
+  question: Where was the meeting held?
+  format_hint: Room name, building, or virtual meeting link
+- name: meeting_type
+  label: Meeting Type
+  type: choice
+  question: What type of meeting was this?
+  default: standup
+  choices:
+  - standup
+  - workshop
+  - review
+- name: attendees
+  label: Attendees
+  type: text
+  question: Who attended the meeting?
+  description: List the attendees, one per line or comma-separated
+  required: true
+- name: agenda
+  label: Agenda
+  type: text
+  question: What was the agenda?
+  required: true
+- name: discussion_summary
+  label: Discussion Summary
+  type: text
+  question: Summarize the key discussion points.
+  required: true
+- name: recorder_name
+  label: Recorder
+  type: text
+  question: Who recorded these notes?
+  required: true
+- name: decisions_made
+  label: Decisions Made
+  type: boolean
+  question: Were any decisions made during this meeting?
+  default: false
+- name: include_next_meeting
+  label: Include Next Meeting
+  type: boolean
+  question: Is a follow-up meeting scheduled?
+  default: false
+conditionals:
+- condition: meeting_type == 'workshop'
+  gate_type: equality
+  gate_variable: meeting_type
+  gate_value: workshop
+  if_variables:
+  - name: workshop_materials
+    label: Workshop Materials
+    type: text
+    question: What materials were used or distributed during the workshop?
+  else_variables: []
+- condition: meeting_type == 'review'
+  gate_type: equality
+  gate_variable: meeting_type
+  gate_value: review
+  if_variables:
+  - name: items_reviewed
+    label: Items Reviewed
+    type: text
+    question: What items or topics were reviewed?
+  else_variables: []
+- condition: decisions_made
+  gate_type: boolean
+  if_variables:
+  - name: decisions
+    label: Decisions
+    type: text
+    question: What decisions were made?
+  else_variables: []
+- condition: include_next_meeting
+  gate_type: boolean
+  if_variables:
+  - name: next_meeting_date
+    label: Next Meeting Date
+    type: date
+    question: When is the next meeting?
+    format_hint: DD/MM/YYYY
+  - name: next_meeting_topic
+    label: Next Meeting Topic
+    type: text
+    question: What will the next meeting cover?
+  else_variables: []
+loops:
+- loop_var: item
+  collection: action_items
+  variables:
+  - name: description
+    label: Description
+    type: text
+  - name: assignee
+    label: Assignee
+    type: text
+  - name: due_date
+    label: Due Date
+    type: date
+  label: Action Item
+  min_items: 1
+dependencies:
+  meeting_type:
+  - workshop_materials
+  - items_reviewed
+  decisions_made:
+  - decisions
+  include_next_meeting:
+  - next_meeting_date
+  - next_meeting_topic
+groups:
+- name: Meeting Details
+  variables:
+  - meeting_title
+  - meeting_date
+  - meeting_type
+  - facilitator_name
+  - meeting_location
+- name: Attendees & Agenda
+  variables:
+  - attendees
+  - agenda
+- name: Discussion
+  variables:
+  - discussion_summary
+- name: Workshop Materials
+  condition: meeting_type == 'workshop'
+  variables:
+  - workshop_materials
+- name: Review Items
+  condition: meeting_type == 'review'
+  variables:
+  - items_reviewed
+- name: Action Items
+  loop: action_items
+  variables:
+  - description
+  - assignee
+  - due_date
+- name: Decisions
+  condition: decisions_made
+  variables:
+  - decisions
+- name: Next Meeting
+  condition: include_next_meeting
+  variables:
+  - next_meeting_date
+  - next_meeting_topic
+- name: Recording
+  variables:
+  - recorder_name
+validation:
+- rule: next_meeting_date > meeting_date
+  message: The next meeting date must be after this meeting's date

@@ -1,0 +1,16 @@
+{
+  "name": "auto-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docxtemplater": "^3.68.3",
+    "pizzip": "^3.2.0"
+  }
+}

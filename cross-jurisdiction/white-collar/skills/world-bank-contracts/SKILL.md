@@ -1,11 +1,11 @@
 ---
 name: world-bank-contracts
-title: 'World bank contracts'
+title: World bank contracts
 description: 'Search World Bank-financed contracts and projects for free via the official World Bank Search API - find which World Bank contracts a company has won, who won World Bank contracts, contract-award amounts and winning suppliers, development-finance projects by country/sector, and awards by supplier country. Use for KYB / due-diligence credibility signals (which World Bank contracts has this company won) and for development-finance supplier lead generation. Trigger on: ''World Bank contracts'', ''World Bank projects'', ''development finance'', ''contract awards'', ''who won World Bank contracts'', ''World Bank supplier lookup'', ''World Bank-financed contract'', ''which World Bank contracts did this company win'', ''World Bank procurement'', ''IBRD/IDA contract''. The World Bank Search API is free and keyless; to resolve the winning company it routes to the free registry skills and the paid regdata actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/world-bank-contracts
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -124,3 +124,7 @@ For the EU and U.S. sides of a company's government exposure, route to **`eu-ted
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors that resolve the supplier.
 - **`regdata-lead-gen`** - turn the development-finance supplier / project lane into a qualified outreach list.
 - **`gleif-lei-lookup`** - resolve a winning supplier to its global LEI and parent/child structure across borders.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

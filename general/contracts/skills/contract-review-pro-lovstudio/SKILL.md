@@ -5,7 +5,7 @@ description: Professional-grade contract review skill that adds comment-based is
 author: lovstudio
 author_url: https://github.com/lovstudio/skills/tree/main/skills/contract-review-pro
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

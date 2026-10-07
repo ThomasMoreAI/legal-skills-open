@@ -13,7 +13,7 @@ Jurisdiction: `cn` · Practice: `ip` · Skill language: zh
 | [`Software Copyright Documentation Skill`](skills/copyright-docs/) | Generate software copyright design specification documents compliant with China Copyright Protection… |
 | [`Dogfood: Systematic Web Application QA Testing`](skills/dogfood/) | Exploratory QA of web apps: find bugs, evidence, reports. |
 | [`Paper to CN Patent`](skills/paper-to-cn-patent/) | Convert finished research papers, figures, and author notes into Chinese invention patent application… |
-| [`Paper2Patent`](skills/paper2patent/) | Convert academic papers into complete Chinese invention patent application deliverables, including… |
+| [`Paper2Patent`](skills/paper2patent/) | Turn an academic paper (PDF, LaTeX, pasted text, thesis chapter or technical disclosure) into a Chinese… |
 | [`Patent Architect`](skills/patent-architect/) | Automatically searches prior art via SerpAPI and generates Chinese patent application forms. This skill… |
 | [`软著申请资料生成`](skills/software-copyright/) | Generate guided Chinese software copyright application materials from a real project. Use this skill… |
 | [`商标助手`](skills/trademark-assistant/) | 面向中国商标申请的类别规划、可注册性初筛及申请材料准备技能。基于尼斯分类（国际商标分类），引用中国法律法规。本技能应在接到商标咨询、需要结构化输出建议与风险分级、或需要准备申请材料时使用。不要用于：替代正式法律… |

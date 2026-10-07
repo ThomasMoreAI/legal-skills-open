@@ -1,11 +1,11 @@
 ---
 name: korean-patent-search
-title: 'Korean patent search'
+title: Korean patent search
 description: Search Korean patent and utility-model publications through the official KIPRIS Plus Open API with keyword search plus application-number detail lookup.
 author: NomaDamas
 author_url: https://github.com/NomaDamas/k-skill/tree/main/korean-patent-search
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: kr
 practice: ip

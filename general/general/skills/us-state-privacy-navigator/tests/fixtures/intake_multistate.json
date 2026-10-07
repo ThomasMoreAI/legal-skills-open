@@ -1,0 +1,45 @@
+{
+  "_description": "National enterprise: $500M revenue, 200k+ consumers in each major state, 30% sale revenue. APPLIES in CA, VA, CO, CT, UT, TX, OR, MT, IA, IN, TN, DE, NJ, NH, NE, KY, RI, MD, MN, FL.",
+  "entity": {
+    "legal_name": "National Retail Co.",
+    "for_profit": true,
+    "naics_code": "452210"
+  },
+  "revenue": {
+    "annual_gross": 500000000,
+    "calendar_year": 2025
+  },
+  "consumers": {
+    "us_total": 5000000,
+    "by_state": {
+      "CA": 1500000,
+      "TX": 600000,
+      "NY": 500000,
+      "FL": 400000,
+      "VA": 250000,
+      "CO": 200000,
+      "CT": 150000,
+      "UT": 130000,
+      "OR": 180000,
+      "MT": 80000,
+      "IA": 110000,
+      "IN": 220000,
+      "TN": 200000,
+      "DE": 60000,
+      "NJ": 280000,
+      "NH": 75000,
+      "NE": 90000,
+      "KY": 130000,
+      "RI": 50000,
+      "MD": 220000,
+      "MN": 200000
+    }
+  },
+  "sale_practices": {
+    "sells_pd": true,
+    "shares_for_cross_context_advertising": true,
+    "percent_revenue_from_sale": 30,
+    "any_revenue_from_sale": true,
+    "sells_sensitive_data_without_consent": false
+  }
+}

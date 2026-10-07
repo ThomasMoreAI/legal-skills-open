@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[案件/合同名称] · 法律结构图</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f8fafc;
+      color: #1e293b;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .header { margin-bottom: 20px; }
+    .header-row { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+    /* Status dot color options: blue (#2563eb), red (#b91c1c), green (#047857), amber (#b45309), violet (#6d28d9) */
+    .status-dot { width: 10px; height: 10px; border-radius: 50%; background: #b91c1c; flex-shrink: 0; }
+    h1 { font-size: 18px; font-weight: 700; color: #0f172a; }
+    .subtitle { font-size: 12px; color: #64748b; padding-left: 20px; }
+    .diagram-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    svg { display: block; width: 100%; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px; }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .card-dot.blue   { background: #2563eb; }
+    .card-dot.amber  { background: #b45309; }
+    .card-dot.green  { background: #047857; }
+    .card-dot.red    { background: #b91c1c; }
+    .card-dot.violet { background: #6d28d9; }
+    .card h3 { font-size: 12px; font-weight: 600; color: #334155; }
+    .card ul { list-style: none; }
+    .card li { font-size: 11px; color: #64748b; margin-bottom: 5px; line-height: 1.5; }
+    .card li span { color: #1e293b; font-weight: 500; }
+    .footer { text-align: center; font-size: 11px; color: #94a3b8; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="header-row">
+        <div class="status-dot"></div>
+        <h1>[标题] · 法律结构图</h1>
+      </div>
+      <p class="subtitle">[案号/法规编号] &nbsp;·&nbsp; [法院/当事人] &nbsp;·&nbsp; [日期]</p>
+    </div>
+
+    <!-- Main Diagram -->
+    <div class="diagram-card">
+      <!--
+        SVG viewBox 规则：
+        - 宽度固定 1000，高度按内容计算
+        - 每个推理阶段用一个虚线分组框
+        - 分组框之间留 30px 间距，放单条垂直箭头
+        - 最后一条箭头（→判决）用红色
+      -->
+      <svg viewBox="0 0 1000 [总高度]" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- 标准灰色箭头 -->
+          <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#94a3b8"/>
+          </marker>
+          <!-- 红色箭头（判决连接用） -->
+          <marker id="arr-red" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#b91c1c"/>
+          </marker>
+          <!-- 网格背景 -->
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#f1f5f9" stroke-width="0.8"/>
+          </pattern>
+        </defs>
+
+        <!-- 背景 -->
+        <rect width="1000" height="[总高度]" fill="#fafafa"/>
+        <rect width="1000" height="[总高度]" fill="url(#grid)"/>
+
+        <!-- ================================================================
+             第一步：画所有箭头（在盒子之前，确保箭头在盒子下层）
+
+             箭头规则：
+             - 所有箭头 x1=x2=500（纯垂直）
+             - y1 = 上一个分组框 bottom + 2
+             - y2 = 下一个分组框 top - 2
+             - 最后一条箭头（→判决）：stroke="#b91c1c" stroke-width="2" marker-end="url(#arr-red)"
+             ================================================================ -->
+
+        <!-- 组1 → 组2 -->
+        <line x1="500" y1="[g1_bottom+2]" x2="500" y2="[g2_top-2]"
+              stroke="#64748b" stroke-width="1.5" marker-end="url(#arr)"/>
+
+        <!-- 组N → 判决（红色） -->
+        <line x1="500" y1="[gN_bottom+2]" x2="500" y2="[gJ_top-2]"
+              stroke="#b91c1c" stroke-width="2" marker-end="url(#arr-red)"/>
+
+        <!-- ================================================================
+             第二步：画分组框和内容盒子
+
+             分组框规则：
+             - x=8  width=984（左右各留8px边距）
+             - 徽章：x=14  y=组框top-8  height=16  rx=4
+             - 徽章文字：y=组框top+4
+
+             坐标计算模板（viewBox宽1000，内容区域984）：
+             ┌ 2-box行：x=60/530  width=410  center=265/735
+             ├ 3-box行：x=43/355/667  width=290  center=188/500/812
+             └ 4-box行：x=34/272/510/748  width=218  center=143/381/619/857
+
+             组框高度 = 上边距(12) + 内容行高 + 下边距(12)
+             行间距（组框内）= 16px
+             ================================================================ -->
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 1：当事人  y=15  h=72  bottom=87     -->
+        <!-- 颜色：blue  fill=rgba(219,234,254,0.15)  stroke=#2563eb -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="15" width="984" height="72" rx="8"
+              fill="rgba(219,234,254,0.15)" stroke="#2563eb"
+              stroke-width="1.2" stroke-dasharray="6,4"/>
+        <!-- 徽章 -->
+        <rect x="14" y="7" width="52" height="16" rx="4"
+              fill="rgba(219,234,254,0.95)" stroke="#2563eb" stroke-width="0.8"/>
+        <text x="40" y="19" fill="#1d4ed8" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">当事人</text>
+
+        <!-- 原告（蓝色盒子）：先画白底遮挡箭头，再画颜色盒子 -->
+        <rect x="120" y="27" width="220" height="52" rx="6" fill="white"/>
+        <rect x="120" y="27" width="220" height="52" rx="6"
+              fill="rgba(219,234,254,0.9)" stroke="#2563eb" stroke-width="1.5"/>
+        <text x="230" y="48" fill="#1d4ed8" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">原告</text>
+        <text x="230" y="67" fill="#1e40af" font-size="13" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[姓名]</text>
+
+        <text x="500" y="58" fill="#94a3b8" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">VS</text>
+
+        <!-- 被告 -->
+        <rect x="660" y="27" width="220" height="52" rx="6" fill="white"/>
+        <rect x="660" y="27" width="220" height="52" rx="6"
+              fill="rgba(219,234,254,0.9)" stroke="#2563eb" stroke-width="1.5"/>
+        <text x="770" y="48" fill="#1d4ed8" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">被告</text>
+        <text x="770" y="67" fill="#1e40af" font-size="13" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[姓名]</text>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 2：争议焦点  y=119  h=76  bottom=195 -->
+        <!-- 颜色：orange  fill=rgba(255,237,213,0.15)  stroke=#c2410c -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="119" width="984" height="76" rx="8"
+              fill="rgba(255,237,213,0.15)" stroke="#c2410c"
+              stroke-width="1.2" stroke-dasharray="6,4"/>
+        <rect x="14" y="111" width="64" height="16" rx="4"
+              fill="rgba(255,237,213,0.95)" stroke="#c2410c" stroke-width="0.8"/>
+        <text x="46" y="123" fill="#9a3412" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">争议焦点</text>
+
+        <!-- 焦点一（2-box行） -->
+        <rect x="60" y="131" width="390" height="52" rx="6" fill="white"/>
+        <rect x="60" y="131" width="390" height="52" rx="6"
+              fill="rgba(255,237,213,0.9)" stroke="#c2410c" stroke-width="1.5"/>
+        <text x="255" y="151" fill="#9a3412" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">焦点一</text>
+        <text x="255" y="170" fill="#7c2d12" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[争议内容]</text>
+
+        <!-- 焦点二 -->
+        <rect x="550" y="131" width="390" height="52" rx="6" fill="white"/>
+        <rect x="550" y="131" width="390" height="52" rx="6"
+              fill="rgba(255,237,213,0.9)" stroke="#c2410c" stroke-width="1.5"/>
+        <text x="745" y="151" fill="#9a3412" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">焦点二</text>
+        <text x="745" y="170" fill="#7c2d12" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[争议内容]</text>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 3：证据  y=227  h=84  bottom=311     -->
+        <!-- 颜色：amber  fill=rgba(254,243,199,0.15)  stroke=#b45309 -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="227" width="984" height="84" rx="8"
+              fill="rgba(254,243,199,0.15)" stroke="#b45309"
+              stroke-width="1.2" stroke-dasharray="6,4"/>
+        <rect x="14" y="219" width="40" height="16" rx="4"
+              fill="rgba(254,243,199,0.95)" stroke="#b45309" stroke-width="0.8"/>
+        <text x="34" y="231" fill="#92400e" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">证据</text>
+
+        <!-- 4-box行：x=34/272/510/748  width=218  center=143/381/619/857 -->
+        <rect x="34"  y="239" width="218" height="62" rx="6" fill="white"/>
+        <rect x="34"  y="239" width="218" height="62" rx="6"
+              fill="rgba(254,243,199,0.9)" stroke="#b45309" stroke-width="1.5"/>
+        <text x="143" y="258" fill="#92400e" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">[证据名称]</text>
+        <text x="143" y="275" fill="#78350f" font-size="11" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[来源]</text>
+        <text x="143" y="292" fill="#92400e" font-size="8.5"
+              text-anchor="middle" font-family="Inter,system-ui">[证明事项]</text>
+
+        <!-- 其余证据盒子同上，依次替换 x 坐标 -->
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 4：事实认定  y=343  h=72  bottom=415 -->
+        <!-- 颜色：slate  fill=rgba(241,245,249,0.3)  stroke=#475569 -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="343" width="984" height="72" rx="8"
+              fill="rgba(241,245,249,0.3)" stroke="#475569"
+              stroke-width="1.2" stroke-dasharray="6,4"/>
+        <rect x="14" y="335" width="64" height="16" rx="4"
+              fill="rgba(241,245,249,0.95)" stroke="#475569" stroke-width="0.8"/>
+        <text x="46" y="347" fill="#334155" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">事实认定</text>
+
+        <rect x="60" y="355" width="390" height="48" rx="6" fill="white"/>
+        <rect x="60" y="355" width="390" height="48" rx="6"
+              fill="rgba(241,245,249,0.9)" stroke="#475569" stroke-width="1.5"/>
+        <text x="255" y="374" fill="#334155" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">事实认定一</text>
+        <text x="255" y="392" fill="#1e293b" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[认定结论]</text>
+
+        <rect x="550" y="355" width="390" height="48" rx="6" fill="white"/>
+        <rect x="550" y="355" width="390" height="48" rx="6"
+              fill="rgba(241,245,249,0.9)" stroke="#475569" stroke-width="1.5"/>
+        <text x="745" y="374" fill="#334155" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">事实认定二</text>
+        <text x="745" y="392" fill="#1e293b" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[认定结论]</text>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 5：法律适用  y=447  h=72  bottom=519 -->
+        <!-- 颜色：green  fill=rgba(209,250,229,0.15)  stroke=#047857 -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="447" width="984" height="72" rx="8"
+              fill="rgba(209,250,229,0.15)" stroke="#047857"
+              stroke-width="1.2" stroke-dasharray="6,4"/>
+        <rect x="14" y="439" width="64" height="16" rx="4"
+              fill="rgba(209,250,229,0.95)" stroke="#047857" stroke-width="0.8"/>
+        <text x="46" y="451" fill="#065f46" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">法律适用</text>
+
+        <rect x="60" y="459" width="390" height="48" rx="6" fill="white"/>
+        <rect x="60" y="459" width="390" height="48" rx="6"
+              fill="rgba(209,250,229,0.9)" stroke="#047857" stroke-width="1.5"/>
+        <text x="255" y="478" fill="#065f46" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">[法条名称]</text>
+        <text x="255" y="496" fill="#064e3b" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[法条内容]</text>
+
+        <rect x="550" y="459" width="390" height="48" rx="6" fill="white"/>
+        <rect x="550" y="459" width="390" height="48" rx="6"
+              fill="rgba(209,250,229,0.9)" stroke="#047857" stroke-width="1.5"/>
+        <text x="745" y="478" fill="#065f46" font-size="10" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">[法条名称]</text>
+        <text x="745" y="496" fill="#064e3b" font-size="12" font-weight="700"
+              text-anchor="middle" font-family="Inter,system-ui">[法条内容]</text>
+
+        <!-- ════════════════════════════════════════════ -->
+        <!-- 分组框 6：判决结果  y=551  h=72  bottom=623 -->
+        <!-- 颜色：red  fill=rgba(254,226,226,0.2)  stroke=#b91c1c  stroke-width=1.5 -->
+        <!-- ════════════════════════════════════════════ -->
+        <rect x="8" y="551" width="984" height="72" rx="8"
+              fill="rgba(254,226,226,0.2)" stroke="#b91c1c"
+              stroke-width="1.5" stroke-dasharray="6,4"/>
+        <rect x="14" y="543" width="64" height="16" rx="4"
+              fill="rgba(254,226,226,0.95)" stroke="#b91c1c" stroke-width="0.8"/>
+        <text x="46" y="555" fill="#991b1b" font-size="9" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">判决结果</text>
+
+        <!-- 判决主文（居中大盒子） -->
+        <rect x="200" y="563" width="600" height="52" rx="6" fill="white"/>
+        <rect x="200" y="563" width="600" height="52" rx="6"
+              fill="rgba(254,226,226,0.9)" stroke="#b91c1c" stroke-width="2"/>
+        <text x="500" y="583" fill="#991b1b" font-size="11" font-weight="600"
+              text-anchor="middle" font-family="Inter,system-ui">[判决主文摘要]</text>
+        <text x="500" y="602" fill="#7f1d1d" font-size="10" font-weight="500"
+              text-anchor="middle" font-family="Inter,system-ui">[责任认定 · 赔偿金额 · 法律依据]</text>
+
+        <!-- ================================================================
+             图例（放在所有内容下方，至少留20px间距）
+             ================================================================ -->
+        <rect x="20" y="638" width="960" height="34" rx="6"
+              fill="rgba(248,250,252,0.9)" stroke="#e2e8f0" stroke-width="1"/>
+        <text x="36" y="660" fill="#64748b" font-size="9" font-weight="600"
+              font-family="Inter,system-ui">图例</text>
+        <rect x="72"  y="649" width="14" height="10" rx="2" fill="rgba(219,234,254,0.9)" stroke="#2563eb" stroke-width="1"/>
+        <text x="91"  y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">当事人</text>
+        <rect x="148" y="649" width="14" height="10" rx="2" fill="rgba(255,237,213,0.9)" stroke="#c2410c" stroke-width="1"/>
+        <text x="167" y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">争议焦点</text>
+        <rect x="240" y="649" width="14" height="10" rx="2" fill="rgba(254,243,199,0.9)" stroke="#b45309" stroke-width="1"/>
+        <text x="259" y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">证据</text>
+        <rect x="300" y="649" width="14" height="10" rx="2" fill="rgba(241,245,249,0.9)" stroke="#475569" stroke-width="1"/>
+        <text x="319" y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">事实认定</text>
+        <rect x="388" y="649" width="14" height="10" rx="2" fill="rgba(209,250,229,0.9)" stroke="#047857" stroke-width="1"/>
+        <text x="407" y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">法律适用</text>
+        <rect x="464" y="649" width="14" height="10" rx="2" fill="rgba(254,226,226,0.9)" stroke="#b91c1c" stroke-width="1"/>
+        <text x="483" y="658" fill="#64748b" font-size="9" font-family="Inter,system-ui">判决结果</text>
+      </svg>
+    </div>
+
+    <!-- Info Cards（3列元数据卡片） -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot blue"></div>
+          <h3>当事人信息</h3>
+        </div>
+        <ul>
+          <li>原告：<span>[姓名]</span></li>
+          <li>被告：<span>[姓名]</span></li>
+          <li>案由：<span>[案由]</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot amber"></div>
+          <h3>证据与事实</h3>
+        </div>
+        <ul>
+          <li>关键证据：<span>[证据名称]</span></li>
+          <li>核心事实：<span>[事实内容]</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot red"></div>
+          <h3>判决要点</h3>
+        </div>
+        <ul>
+          <li>责任认定：<span>[结论]</span></li>
+          <li>赔偿金额：<span>[金额]</span></li>
+          <li>法律依据：<span>[法条]</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer">[案号] &nbsp;·&nbsp; [法院] &nbsp;·&nbsp; legal-diagram skill</p>
+  </div>
+</body>
+</html>

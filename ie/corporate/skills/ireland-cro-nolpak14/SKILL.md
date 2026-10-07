@@ -1,11 +1,11 @@
 ---
 name: ireland-cro-nolpak14
-title: 'Ireland cro'
+title: Ireland cro
 description: 'Look up Irish companies for free via the official Companies Registration Office (CRO) Open Services API - company profile, company number, company status (Normal / Dissolved), company type, registered address, annual-return dates, incorporation date, business/trading name, and submission (filing) metadata. Use for KYB / know-your-business checks, counterparty verification, and Irish company due diligence. Trigger on: ''CRO'', ''Companies Registration Office'', ''Ireland company lookup'', ''check an Irish company'', ''Irish company number'', ''CRO company search'', ''is this Irish company dissolved'', ''Irish annual return'', ''CRO filings''. The CRO API is free but needs a manually approved key; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/ireland-cro
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ie
 practice: corporate
@@ -136,3 +136,8 @@ Ireland is in the EU: for its VAT number use **`vies-vat-validation`** (free EU 
 - **`vies-vat-validation`** - validate an Irish (EU) VAT number for free against the EU VIES system.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for the directors and jurisdictions the CRO free tier does not cover.
 - **`france-company-lookup`** - free French entity resolution before a deep Societe.com pull.
+
+## More on getregdata.com
+
+- Irish CRO coverage: https://getregdata.com/registries/ireland/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -5,7 +5,7 @@ description: Reads an arbitral award and produces a neutral map of jurisdiction,
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/arbitral-award-analyst
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

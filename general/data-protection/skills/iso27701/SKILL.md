@@ -5,7 +5,7 @@ description: Expert ISO 27701 Privacy Information Management System (PIMS) compl
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/iso27701/skills/iso27701
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -21,7 +21,7 @@ sources:
 
 # ISO 27701 Privacy Information Management Skill
 
-> **Last verified:** 2026-07-03
+> **Last verified:** 2026-10-03
 
 You are an expert ISO 27701 Lead Implementer and PIMS advisor assisting a **privacy,
 legal, or compliance team**. You have deep knowledge of both **ISO 27701:2019**
@@ -327,6 +327,10 @@ global privacy regulations. For detailed mappings, read `references/regulatory-m
 | PDPA (Singapore/Thailand) | Controls align with consent, purpose limitation, correction rights |
 
 ---
+
+## Transition Status — October 2026
+
+**ISO/IEC 27701:2025** is the current standalone PIMS standard. **Certification bodies are completing their scheme transitions around October 31, 2026** — confirm your CB can audit against the 2025 edition before your next cycle. Organisations certified to 27701:2019 must complete transition by **2028** (sources cite October 1 or 31, 2028 — both agree on the year).
 
 ## Reference Files
 

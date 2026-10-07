@@ -2,7 +2,7 @@
 
 The four tests a person must meet to be a "qualifying relative" for purposes of the $500 Credit for Other Dependents (ODC) on Schedule 8812. Authority: IRC §24(h)(4) (which references IRC §152(d)).
 
-A "qualifying relative" can be claimed as a dependent on Form 1040, but doesn't have to meet the stricter "qualifying child" tests. The ODC at $500 is significantly less generous than the CTC at $2,000, but it's still a credit worth claiming.
+A "qualifying relative" can be claimed as a dependent on Form 1040, but doesn't have to meet the stricter "qualifying child" tests. The ODC at $500 is significantly less generous than the CTC at $2,200 (2025 and 2026), but it's still a credit worth claiming. The Form 1040 instructions walk through these tests in "Who Qualifies as Your Dependent," Steps 4–5 (2025 Instructions for Form 1040, pp.18–19); Pub 501 (2025) covers them in detail.
 
 If the dependent is a qualifying child for CTC (see [`qualifying-child-test.md`](./qualifying-child-test.md)), the agent should classify them as CTC instead — they don't double-count for both.
 
@@ -14,7 +14,7 @@ The person must NOT be a qualifying child of the filer or any other taxpayer for
 
 **Common case**: a 17-year-old child who lived with the filer all year. Fails the qualifying-child age test (Test 2 in the qualifying-child reference) but can still be a qualifying relative.
 
-**Edge case**: a child who is a qualifying child of someone else (e.g., the filer's grandchild who is the qualifying child of the grandchild's parent). The person CAN'T be a qualifying relative of the filer if they're already a qualifying child of someone else, even if that other person doesn't claim them.
+**Edge case**: a child who is a qualifying child of someone else (e.g., the filer's grandchild who is the qualifying child of the grandchild's parent). The person CAN'T be a qualifying relative of the filer if they're already a qualifying child of another taxpayer, even if that other person doesn't claim them. Exception: a child is not treated as the qualifying child of a person who isn't required to file and doesn't file, or files only to get a refund of withheld income tax and claims no credits (Pub 501 (2025), Not a Qualifying Child Test, Examples 1–3).
 
 The "tiebreaker" rules under IRC §152(c)(4) apply if multiple people could claim the child.
 
@@ -48,10 +48,10 @@ The person must EITHER:
 
 ## Test 3 — Gross income limit
 
-The person's gross income for the year must be less than the **exemption amount** (which became $0 under TCJA but, for §152(d) purposes, the IRS has continued to publish an inflation-adjusted figure).
+The person's gross income for the year must be less than the **exemption amount** referred to in IRC §152(d)(1)(B) (the deduction itself is $0, but the IRS still publishes an inflation-adjusted figure for this test).
 
-For tax year 2025: $5,200 (Rev. Proc. 2024-40, table 22).
-For tax year 2026: verify against the latest Revenue Procedure (typically issued in October-November of the prior year).
+For tax year 2025: less than $5,200 (Rev. Proc. 2024-40 §2.24; Pub 501 (2025), Gross Income Test, p.19).
+For tax year 2026: less than $5,300 (Rev. Proc. 2025-32 §4.23).
 
 **Gross income** includes:
 - Wages, salaries, tips (after pre-tax deductions)
@@ -61,15 +61,16 @@ For tax year 2026: verify against the latest Revenue Procedure (typically issued
 - Gambling winnings
 - Unemployment benefits
 
-**Gross income does NOT include**:
-- Social Security benefits (typically — though some Social Security may be taxable depending on overall income)
-- Tax-free scholarships used for tuition
-- Tax-exempt interest (usually)
+**Gross income does NOT include** (Pub 501: gross income is income "that isn't exempt from tax"):
+- The nontaxable part of social security benefits (taxable social security benefits ARE gross income — Pub 501 p.19; taxability under IRC §86)
+- Scholarships received by degree candidates and used for tuition, fees, supplies, books and required equipment
+- Tax-exempt interest
 - Most veterans' benefits
+- Income of a permanently and totally disabled person for services at a sheltered workshop (Pub 501 p.19)
 
-**Common scenario**: claiming an elderly parent. If the parent receives only Social Security ($25,000/year), their gross income for §152(d) purposes is $0 (Social Security excluded). They can be claimed as a qualifying relative if other tests are met.
+**Common scenario**: claiming an elderly parent. If the parent receives only Social Security ($25,000/year) and none of it is taxable under §86, their gross income for §152(d) purposes is $0. They can be claimed as a qualifying relative if other tests are met.
 
-**Common scenario**: claiming an adult child. If the adult child works and earned $7,000 of wages in the year, they exceed the $5,200 limit and are NOT a qualifying relative. The filer cannot claim them at all.
+**Common scenario**: claiming an adult child who is not a qualifying child (e.g., age 25, not disabled). If the adult child works and earned $7,000 of wages in the year, they exceed the $5,200 limit (2025) and are NOT a qualifying relative. The filer cannot claim them at all.
 
 ---
 
@@ -90,7 +91,7 @@ Sum the total support, then determine what fraction the filer paid. If filer pai
 
 **Multiple support agreements** (Form 2120, IRC §152(d)(3)): if no one person provided > 50% support, but a group of two or more taxpayers together provided > 50%, the group can agree that one of them claims the dependent. The other group members must file Form 2120 declaring they will not claim. Common case: siblings supporting an elderly parent — typically the sibling with the highest tax liability claims, while others sign Form 2120.
 
-**Support that doesn't count**: scholarships received by a student (IRC §152(f)(5)), TANF and other welfare payments, food stamps. These reduce the total support amount but are not attributed to the recipient.
+**Special support rules**: a scholarship received by a student child is not taken into account in the support test (IRC §152(f)(5); Pub 501). Benefits a state provides to a needy person (welfare, food benefits, housing) are generally support provided by the state — they count in total support but not as support the filer provided (Pub 501 (2025), "Support provided by the state," p.20). The person's own funds count only if actually spent on support.
 
 The agent must ASK: "Did you (and your spouse if MFJ) provide more than half of [name]'s support during the year?"
 
@@ -105,7 +106,7 @@ Is the person a qualifying child of the filer or anyone else?
     Is the person related to the filer (per IRC §152(d)(2) list) OR a full-year household member?
     ├── No → Not a qualifying relative; cannot be claimed as dependent.
     └── Yes
-        Is the person's gross income < $5,200 (2025; verify 2026)?
+        Is the person's gross income < $5,200 (2025) / $5,300 (2026)?
         ├── No → Not a qualifying relative.
         └── Yes
             Did the filer (and spouse if MFJ) provide > 50% of total support?
@@ -121,17 +122,16 @@ Is the person a qualifying child of the filer or anyone else?
 
 ### Adult child, age 22, full-time student living at home, earning $4,000
 
-- Test 1 (not qualifying child): test fails for the qualifying-child relationship test if 22+ unless full-time student under 24 — *might be qualifying child* under §152(c)(3) (student exception extends to age 24). Verify before classifying as relative.
-- If qualifying child (full-time student under 24), they go on CTC line **only if they're under 17 with SSN** — they're not, so ODC at $500.
-- Wait — qualifying-child status for §24(c) requires under-17, regardless of student status. The student exception extends the qualifying-child *general* dependency to age 24, but for CTC specifically, the age cap is 17. So:
+- A full-time student under age 24 at the end of the year (and younger than the filer) is a qualifying child for general dependency under §152(c)(3), so Test 1 of this file fails — but that does not matter for the ODC: the ODC is $500 for any dependent who is not a CTC qualifying child (IRC §24(h)(4)(A)).
+- For CTC, §24(c) requires under 17, regardless of student status. So:
   - Adult full-time student under 24 = qualifying child for general dependency / EITC, but not for CTC
-  - Eligible for ODC ($500) if all other tests met (gross income < $5,200, etc.)
+  - Eligible for ODC ($500) as a qualifying-child dependent; the gross income test does NOT apply to a qualifying child, so the $4,000 of earnings does not matter here
 
 ### Elderly parent, age 71, lives alone, receives $25,000 Social Security
 
 - Test 1 (not qualifying child): pass (parents are never qualifying children of their kids)
 - Test 2 (relationship): pass (parent is in the §152(d)(2) list)
-- Test 3 (gross income): Social Security typically excluded → gross income $0 < $5,200 → pass
+- Test 3 (gross income): nontaxable Social Security is excluded → gross income $0 < $5,200 → pass (if part of the benefits is taxable under §86, that part counts)
 - Test 4 (support): Did the filer pay > 50% of parent's total support? Including rent, food, utilities, medical, etc. Often yes if filer pays a major nursing home bill or assisted living. Verify with user.
 
 If all 4 tests pass: Claim parent as ODC.
@@ -148,7 +148,7 @@ If all 4 tests pass and the relationship doesn't violate local law: Claim domest
 ### Niece, age 14, lives with filer all year, parent unable to care
 
 - Test 1 (qualifying child): niece IS in the qualifying-child relationship list (descendant of sibling). Age 14 < 17 → potentially qualifying child if all 7 tests pass.
-- If niece is a qualifying child of the filer, she goes on CTC at $2,000 — not ODC.
+- If niece is a qualifying child of the filer, she goes on CTC at $2,200 — not ODC.
 - Watch the SSN-by-due-date test (Test 7 of qualifying child) — if niece has SSN, she's CTC. If she has ITIN, she's ODC ($500).
 
 ---
@@ -171,13 +171,13 @@ Without these answers, ODC eligibility is a guess.
 
 ## Special: ODC SSN/ITIN/ATIN requirement
 
-ODC under IRC §24(h)(4)(B) requires the dependent to have a **Taxpayer Identification Number (TIN)** issued by the due date of the return. Unlike CTC, ODC accepts:
+ODC requires the dependent to have a **Taxpayer Identification Number (TIN)** issued on or before the due date of the return, including extensions (IRC §24(e)(1); 2025 Instructions for Schedule 8812, p.1). An ITIN or ATIN applied for by the due date and later issued counts as issued on time. The filer (and spouse if MFJ) must also have an SSN or ITIN issued on or before the due date. The dependent must be a U.S. citizen, U.S. national, or U.S. resident alien (IRC §24(h)(4)(B); an adopted child who lived with a U.S. citizen or national filer all year meets this). Unlike CTC, ODC accepts:
 
 - SSN
 - ITIN
 - ATIN
 
-So a dependent with an ITIN qualifies for ODC ($500) even though they don't qualify for CTC ($2,000).
+So a dependent with an ITIN qualifies for ODC ($500) even though they don't qualify for CTC ($2,200).
 
 Without ANY taxpayer identification number, the dependent cannot be claimed for ODC. The agent must confirm each ODC dependent has a TIN.
 
@@ -186,12 +186,13 @@ Without ANY taxpayer identification number, the dependent cannot be claimed for 
 ## Authority
 
 - IRC §24(h)(4) — Credit for Other Dependents (added by TCJA 2017)
-- IRC §24(h)(4)(B) — TIN requirement for ODC
+- IRC §24(h)(4)(B) — citizenship/nationality/residence requirement for ODC
+- IRC §24(e) — TIN issued by the due date
 - IRC §152(d) — Qualifying relative general definition
 - IRC §152(d)(1)(B) — Gross income limit
 - IRC §152(d)(2) — Relationship list
 - IRC §152(d)(3) — Multiple support agreements (Form 2120)
 - IRC §152(f)(5) — Scholarships not "provided by recipient"
 - Form 2120 — Multiple Support Declaration
-- Rev. Proc. 2024-40 — 2025 inflation adjustments (gross income limit $5,200)
-- Pub 501 — Dependents, Standard Deduction, and Filing Information
+- Rev. Proc. 2024-40 §2.24 — 2025 gross income limit $5,200; Rev. Proc. 2025-32 §4.23 — 2026 limit $5,300
+- Pub 501 (2025) — Dependents, Standard Deduction, and Filing Information

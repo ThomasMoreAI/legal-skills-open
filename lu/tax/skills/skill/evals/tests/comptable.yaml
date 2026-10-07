@@ -1,0 +1,55 @@
+skill: comptable
+cases:
+  - id: tva-taux-2025
+    prompt: "Quels sont les taux de TVA applicables au Luxembourg en 2025 ? Indique le taux normal, intermédiaire, réduit et super-réduit avec un exemple de bien/service pour chacun."
+    must_contain:
+      - "17"
+      - "14"
+      - "8"
+      - "3"
+    must_not_contain:
+      - "20 %"
+      - "5,5 %"
+      - "10 %"
+      - "16 %" # taux temporaire 2023 abandonné
+    rubric: |
+      La réponse doit indiquer les 4 taux LU 2025 (17 / 14 / 8 / 3 %) après le retour
+      au taux normal de 17 % depuis le 1er janvier 2024 (les taux temporaires de
+      16 / 13 / 7 / 2 % en 2023 sont obsolètes). Exemples typiques attendus :
+      17 % standard, 14 % vins/combustibles solides/imprimés publicitaires,
+      8 % gaz et électricité/coiffeurs/restauration sur place,
+      3 % alimentation/livres/médicaments/restauration à emporter/résidence principale.
+      Citer la loi modifiée du 12 février 1979 sur la TVA.
+
+  - id: irc-icc-if-calcul-2025
+    prompt: "Ma SARL luxembourgeoise basée à Luxembourg-Ville a un bénéfice imposable de 500 000 € en 2025. Calcule l'IRC, la contribution au fonds pour l'emploi, l'ICC et donne l'ordre de grandeur de la charge fiscale globale."
+    must_contain:
+      - "16"
+      - "7"
+      - "ICC"
+      - "Luxembourg-Ville"
+      - "17 500" # abattement PM en ICC
+    must_not_contain:
+      - "33,33"
+      - "25 %"
+      - "15 %" # ancien taux IRC avant 2025
+    rubric: |
+      Réforme entrée en vigueur le 1er janvier 2025 (loi du 20 décembre 2024) :
+        - IRC 16 % sur bénéfice > 200 000 € (avant : 17 %) -> 500 000 × 16 % = 80 000 €
+        - Contribution fonds chômage 7 % de l'IRC = 5 600 €
+        - ICC Lux-Ville : (bénéfice - abattement PM 17 500) × 3 % × multiplicateur 225 %
+          = 482 500 × 6,75 % = 32 568,75 €
+        - Charge totale ≈ 118 168 € soit ~23,87 % (avant 2025 : ~24,94 %)
+      Doit citer LIR (art. 174) et loi modifiée du 1er décembre 1936 sur l'ICC.
+
+  - id: depot-rcs-delai
+    prompt: "Quel est le délai légal pour déposer les comptes annuels d'une SARL luxembourgeoise au RCS ? Et quelles sont les sanctions en cas de retard ?"
+    must_contain:
+      - "7 mois"
+      - "RCS"
+      - "approbation"
+    rubric: |
+      Délai = 7 mois après clôture pour approbation par AG, puis dépôt au RCS dans
+      le mois suivant l'approbation. Sanctions = amendes administratives, taxe
+      forfaitaire de 250 € à 2 500 € selon retard, possible dissolution. Citer
+      la loi du 19 décembre 2002 et le règlement grand-ducal du 14 décembre 2011.

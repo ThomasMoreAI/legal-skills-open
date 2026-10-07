@@ -1,0 +1,525 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/tx-title-analysis/v1/schema.json",
+  "title": "Texas Title Analysis Record",
+  "description": "Schema for Texas title examination analysis data. All outputs are DRAFT and require attorney review.",
+  "type": "object",
+  "required": ["metadata", "matter", "property", "commitment"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["schemaVersion", "recordId", "createdAt", "updatedAt", "createdBy", "status"],
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "description": "Schema version number",
+          "default": "1.0"
+        },
+        "recordId": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Unique record identifier"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Record creation timestamp (ISO 8601)"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp (ISO 8601)"
+        },
+        "createdBy": {
+          "type": "string",
+          "description": "User or system that created the record"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "pending_review", "reviewed", "approved", "closed"],
+          "description": "Record status"
+        }
+      }
+    },
+    "matter": {
+      "type": "object",
+      "required": ["fileNumber", "transactionType"],
+      "properties": {
+        "fileNumber": {
+          "type": "string",
+          "description": "Internal file/matter number"
+        },
+        "clientFileNumber": {
+          "type": "string",
+          "description": "Client's reference number"
+        },
+        "transactionType": {
+          "type": "string",
+          "enum": ["purchase", "refinance", "equity", "construction", "commercial"],
+          "description": "Type of transaction"
+        },
+        "estimatedClosingDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Expected closing date"
+        },
+        "actualClosingDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Actual closing date"
+        },
+        "underwriter": {
+          "type": "string",
+          "description": "Title insurance underwriter"
+        },
+        "commitmentNumber": {
+          "type": "string",
+          "description": "Commitment/policy number"
+        }
+      }
+    },
+    "property": {
+      "type": "object",
+      "required": ["propertyId", "county", "state", "legalDescription", "propertyType"],
+      "properties": {
+        "propertyId": {
+          "type": "string",
+          "description": "Unique property identifier"
+        },
+        "streetAddress": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "county": {
+          "type": "string",
+          "description": "Texas county name"
+        },
+        "state": {
+          "type": "string",
+          "const": "TX",
+          "default": "TX"
+        },
+        "zip": {
+          "type": "string",
+          "pattern": "^[0-9]{5}(-[0-9]{4})?$"
+        },
+        "legalDescription": {
+          "type": "string",
+          "description": "Full legal description"
+        },
+        "parcelId": {
+          "type": "string",
+          "description": "Tax parcel/account number"
+        },
+        "subdivision": {
+          "type": "string"
+        },
+        "lot": {
+          "type": "string"
+        },
+        "block": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "abstract": {
+          "type": "string"
+        },
+        "survey": {
+          "type": "string"
+        },
+        "acreage": {
+          "type": "number",
+          "minimum": 0
+        },
+        "propertyType": {
+          "type": "string",
+          "enum": ["residential", "commercial", "agricultural", "industrial", "mixed"]
+        },
+        "improvements": {
+          "type": "string"
+        }
+      }
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["partyId", "role", "entityType", "name"],
+        "properties": {
+          "partyId": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": ["buyer", "seller", "lender", "borrower", "title_company", "escrow", "attorney", "agent"]
+          },
+          "entityType": {
+            "type": "string",
+            "enum": ["individual", "married_couple", "llc", "corporation", "lp", "gp", "trust", "estate"]
+          },
+          "name": {
+            "type": "string",
+            "description": "Full legal name"
+          },
+          "dba": {
+            "type": "string"
+          },
+          "entityState": {
+            "type": "string",
+            "description": "State of organization for entities"
+          },
+          "entityFileNumber": {
+            "type": "string",
+            "description": "Secretary of State file number"
+          },
+          "address": {
+            "$ref": "#/$defs/address"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "maritalStatus": {
+            "type": "string",
+            "enum": ["single", "married", "divorced", "widowed"]
+          },
+          "spouseName": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "commitment": {
+      "type": "object",
+      "required": ["scheduleA"],
+      "properties": {
+        "scheduleA": {
+          "type": "object",
+          "required": ["effectiveDate", "commitmentNumber", "currentVesting"],
+          "properties": {
+            "effectiveDate": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "commitmentNumber": {
+              "type": "string"
+            },
+            "proposedInsured": {
+              "type": "object",
+              "properties": {
+                "owner": { "type": "string" },
+                "lender": { "type": "string" }
+              }
+            },
+            "ownerPolicyAmount": {
+              "type": "number",
+              "minimum": 0
+            },
+            "loanPolicyAmount": {
+              "type": "number",
+              "minimum": 0
+            },
+            "currentVesting": {
+              "type": "string",
+              "description": "Current record title holder"
+            },
+            "vestingDocument": {
+              "$ref": "#/$defs/recordingInfo"
+            },
+            "legalDescription": {
+              "type": "string"
+            }
+          }
+        },
+        "requirementsBOne": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        },
+        "exceptionsBTwo": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/exception"
+          }
+        }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "properties": {
+        "chainOfTitle": {
+          "type": "object",
+          "properties": {
+            "chainComplete": {
+              "type": "boolean"
+            },
+            "searchPeriod": {
+              "type": "object",
+              "properties": {
+                "startDate": { "type": "string", "format": "date" },
+                "endDate": { "type": "string", "format": "date" }
+              }
+            },
+            "gapsIdentified": {
+              "type": "boolean"
+            },
+            "gapDetails": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "outstandingInterests": {
+              "type": "array",
+              "items": { "type": "object" }
+            },
+            "chainNotes": {
+              "type": "string"
+            }
+          }
+        },
+        "texasSpecific": {
+          "type": "object",
+          "properties": {
+            "homesteadAnalysis": {
+              "type": "object",
+              "properties": {
+                "isHomestead": { "type": "boolean" },
+                "homesteadType": {
+                  "type": "string",
+                  "enum": ["urban", "rural", "none"]
+                },
+                "bothSpousesRequired": { "type": "boolean" },
+                "notes": { "type": "string" }
+              }
+            },
+            "communityPropertyAnalysis": {
+              "type": "object",
+              "properties": {
+                "isCommunityProperty": { "type": "boolean" },
+                "separatePropertyClaimed": { "type": "boolean" },
+                "joinderRequired": { "type": "boolean" },
+                "notes": { "type": "string" }
+              }
+            },
+            "mineralAnalysis": {
+              "type": "object",
+              "properties": {
+                "mineralsSevered": { "type": "boolean" },
+                "surfaceOwnershipPct": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "activeLeases": { "type": "boolean" },
+                "notes": { "type": "string" }
+              }
+            },
+            "waterRightsAnalysis": {
+              "type": "object",
+              "properties": {
+                "surfaceWaterRights": { "type": "boolean" },
+                "groundwaterSevered": { "type": "boolean" },
+                "inGCD": { "type": "boolean" },
+                "gcdName": { "type": "string" },
+                "edwardsAquifer": { "type": "boolean" },
+                "notes": { "type": "string" }
+              }
+            },
+            "probateIssues": {
+              "type": "object",
+              "properties": {
+                "probateRequired": { "type": "boolean" },
+                "probateType": { "type": "string" },
+                "notes": { "type": "string" }
+              }
+            },
+            "entityAuthorityVerified": {
+              "type": "boolean"
+            }
+          }
+        },
+        "riskAssessment": {
+          "type": "object",
+          "required": ["overallRisk", "recommendedAction"],
+          "properties": {
+            "overallRisk": {
+              "type": "string",
+              "enum": ["low", "medium", "high", "critical"]
+            },
+            "riskFactors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "factor": { "type": "string" },
+                  "severity": {
+                    "type": "string",
+                    "enum": ["low", "medium", "high", "critical"]
+                  },
+                  "mitigation": { "type": "string" }
+                }
+              }
+            },
+            "recommendedAction": {
+              "type": "string",
+              "enum": ["proceed", "proceed_with_conditions", "hold", "decline"]
+            },
+            "conditions": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["outputId", "outputType", "filename", "format", "generatedAt", "generatedBy", "reviewStatus"],
+        "properties": {
+          "outputId": { "type": "string" },
+          "outputType": {
+            "type": "string",
+            "enum": ["title_opinion", "requirements_checklist", "exception_analysis", "cure_letter", "other"]
+          },
+          "filename": { "type": "string" },
+          "format": {
+            "type": "string",
+            "enum": ["docx", "pdf", "md", "xlsx"]
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "generatedBy": { "type": "string" },
+          "version": { "type": "string" },
+          "reviewStatus": {
+            "type": "string",
+            "enum": ["draft", "pending_review", "reviewed", "approved"]
+          },
+          "reviewedBy": { "type": "string" },
+          "reviewedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "filePath": { "type": "string" }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["noteId", "noteType", "content", "createdAt", "createdBy"],
+        "properties": {
+          "noteId": { "type": "string" },
+          "noteType": {
+            "type": "string",
+            "enum": ["general", "examiner", "attorney", "client", "system"]
+          },
+          "content": { "type": "string" },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "createdBy": { "type": "string" },
+          "isPrivate": { "type": "boolean" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "address": {
+      "type": "object",
+      "properties": {
+        "street1": { "type": "string" },
+        "street2": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zip": { "type": "string" },
+        "country": { "type": "string", "default": "USA" }
+      }
+    },
+    "recordingInfo": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "recordedDate": { "type": "string", "format": "date" },
+        "volume": { "type": "string" },
+        "page": { "type": "string" },
+        "documentNumber": { "type": "string" },
+        "county": { "type": "string" }
+      }
+    },
+    "requirement": {
+      "type": "object",
+      "required": ["requirementId", "itemNumber", "category", "description", "status"],
+      "properties": {
+        "requirementId": { "type": "string" },
+        "itemNumber": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": ["taxes", "lien_release", "document_execution", "hoa", "survey", "entity_docs", "affidavit", "probate", "other"]
+        },
+        "description": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["open", "in_progress", "satisfied", "waived", "not_applicable"]
+        },
+        "responsibleParty": {
+          "type": "string",
+          "enum": ["buyer", "seller", "lender", "title_company", "other"]
+        },
+        "dueDate": { "type": "string", "format": "date" },
+        "satisfactionMethod": { "type": "string" },
+        "satisfactionDocument": { "$ref": "#/$defs/recordingInfo" },
+        "satisfiedDate": { "type": "string", "format": "date" },
+        "notes": { "type": "string" }
+      }
+    },
+    "exception": {
+      "type": "object",
+      "required": ["exceptionId", "itemNumber", "exceptionType", "description", "affectsProperty", "impactLevel", "curable"],
+      "properties": {
+        "exceptionId": { "type": "string" },
+        "itemNumber": { "type": "string" },
+        "exceptionType": {
+          "type": "string",
+          "enum": ["standard", "special", "survey", "taxes", "restrictions", "easement", "lien", "mineral", "hoa", "water_rights", "other"]
+        },
+        "description": { "type": "string" },
+        "recordingInfo": { "$ref": "#/$defs/recordingInfo" },
+        "affectsProperty": { "type": "boolean" },
+        "impactLevel": {
+          "type": "string",
+          "enum": ["none", "low", "medium", "high", "critical"]
+        },
+        "impactDescription": { "type": "string" },
+        "curable": { "type": "boolean" },
+        "cureMethod": { "type": "string" },
+        "cureDocuments": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "cureResponsibleParty": {
+          "type": "string",
+          "enum": ["buyer", "seller", "lender", "title_company"]
+        },
+        "cureStatus": {
+          "type": "string",
+          "enum": ["not_started", "in_progress", "cured", "will_remain", "insured_over"]
+        },
+        "willRemainAsException": { "type": "boolean" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

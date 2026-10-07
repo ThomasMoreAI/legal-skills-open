@@ -5,11 +5,16 @@ description: 'Manages HIPAA Business Associate Agreements under 45 CFR §164.502
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/hipaa-baa-management
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: healthcare
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # HIPAA Business Associate Agreement Management — §164.502(e), §164.504(e)

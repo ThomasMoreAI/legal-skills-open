@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recovery Strategy Planner"
+  short_description: "Plan sequenced debt recovery routes and costs"
+  default_prompt: "Use $recovery-strategy-planner to compare and sequence lawful recovery routes for this defaulted exposure, collateral, and obligor group."

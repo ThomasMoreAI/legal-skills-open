@@ -1,0 +1,25 @@
+skill: commissaire-aux-comptes
+cases:
+  - id: seuils-audit-obligatoire
+    prompt: "Quels sont les seuils qui rendent obligatoire la nomination d'un réviseur d'entreprises agréé pour une SARL luxembourgeoise ?"
+    must_contain:
+      - "réviseur"
+      - "bilan"
+    must_not_contain:
+      - "commissaire aux comptes" # terme français — au Lux c'est "réviseur d'entreprises agréé"
+    rubric: |
+      Seuils LCC (loi du 19 décembre 2002, art. 35) — dépassement de 2 critères sur 3
+      pendant 2 exercices consécutifs : total bilan > 4,4 M€, CA > 8,8 M€, effectif > 50.
+      Au-dessus, audit obligatoire par un réviseur d'entreprises agréé inscrit à l'IRE.
+
+  - id: opinion-audit-types
+    prompt: "Quels sont les 4 types d'opinion que peut formuler un réviseur d'entreprises agréé luxembourgeois en clôture d'audit ?"
+    must_contain:
+      - "sans réserve"
+      - "réserve"
+      - "défavorable"
+      - "impossibilité"
+    rubric: |
+      4 opinions ISA-LUX : opinion sans réserve (unqualified), avec réserve
+      (qualified), défavorable (adverse), impossibilité d'exprimer une opinion
+      (disclaimer). Conformes aux normes ISA 700/705/706 transposées par CSSF/IRE.

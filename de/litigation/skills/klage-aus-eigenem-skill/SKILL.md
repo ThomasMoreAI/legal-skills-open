@@ -5,7 +5,7 @@ description: 'Für Klagewerkstatt — Laufzeit aus eigenem Skill: erstellt Entwu
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forderungsmanagement-klagewerkstatt/skills/klage-aus-eigenem-skill
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: litigation

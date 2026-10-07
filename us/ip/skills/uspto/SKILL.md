@@ -5,7 +5,7 @@ description: Access USPTO APIs for patent/trademark searches, examination histor
 author: LUNARTECH-X
 author_url: https://github.com/LUNARTECH-X/superpowers/tree/main/skills/academy-skills/uspto
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: ip

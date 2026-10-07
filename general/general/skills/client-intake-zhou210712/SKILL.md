@@ -1,15 +1,18 @@
 ---
 name: client-intake-zhou210712
-title: 'Client intake'
+title: Client intake
 description: 结构化接待——实践领域模板、跨领域考点识别、利益冲突标记、分流分类。 生成学生分析、指导老师审查的格式化案件摘要。不决定是否受理案件。 当开始新当事人接待、进行接待访谈或记录新当事人情况时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-clinic/skills/client-intake
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Readme
+  path: references/intake-templates/README.md
 ---
 
 # /client-intake

@@ -5,7 +5,7 @@ description: 'Kích hoạt khi người dùng muốn: Kiểm tra tính tuân th�
 author: viethahong
 author_url: https://github.com/viethahong/business-skills/tree/main/skills/legal/compliance-checklists
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: vn
 practice: data-protection

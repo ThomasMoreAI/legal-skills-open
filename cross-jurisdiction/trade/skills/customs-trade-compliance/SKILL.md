@@ -5,7 +5,7 @@ description: Customs & Trade Compliance workflow skill. Use this skill when the 
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/customs-trade-compliance
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: trade

@@ -5,7 +5,7 @@ description: Generate software copyright design specification documents complian
 author: Prorise-cool
 author_url: https://github.com/Prorise-cool/prorise-claude-skills/tree/master/.claude/skills/documentation-specialist/references/domains/compliance-copyright
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: ip

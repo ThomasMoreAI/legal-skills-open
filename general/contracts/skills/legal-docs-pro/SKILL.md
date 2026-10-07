@@ -5,7 +5,7 @@ description: 'Your landlord just sent a 12-page lease renewal and you have no id
 author: LeoYeAI
 author_url: https://github.com/LeoYeAI/openclaw-master-skills/tree/main/skills/normieclaw-legal-docs-pro
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

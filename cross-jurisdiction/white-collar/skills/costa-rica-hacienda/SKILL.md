@@ -1,12 +1,12 @@
 ---
 name: costa-rica-hacienda
-title: 'Costa rica hacienda'
+title: Costa rica hacienda
 description: 'Look up Costa Rican companies and taxpayers for free by cedula juridica via the Ministerio de Hacienda public JSON endpoint (api.hacienda.go.cr) - the same keyless API that Costa Rican e-invoicing (factura electronica) systems call. Returns the registered nombre (legal name), regimen tributario, tax standing (moroso / omiso / estado), administracion tributaria, and the actividades[] economic-activity list with CIIU-derived codes. Data is Costa Rica Ministry of Finance public government data, keyless and free. Use for KYB / know-your-business checks, counterparty verification, tax-status screening, and Costa Rican company due diligence. Trigger on: ''cedula juridica'', ''Costa Rica company lookup'', ''check a Costa Rican company'', ''Hacienda'', ''situacion tributaria'', ''is this Costa Rica company active'', ''moroso'', ''omiso'', ''Costa Rican taxpayer'', ''consulta cedula juridica''. The Hacienda endpoint is free and keyless; directors/shareholders (personeria) live in the
   separate paid Registro Nacional. For jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/costa-rica-hacienda
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -124,3 +124,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`peru-ruc`** - free Peruvian company lookup by RUC, another Latin American keyless front door.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for jurisdictions with no free API.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

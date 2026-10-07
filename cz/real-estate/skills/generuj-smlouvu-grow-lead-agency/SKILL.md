@@ -5,7 +5,7 @@ description: Vygeneruje smlouvy z vlastních vzorů kanceláře — kupní smlou
 author: grow-lead-agency
 author_url: https://github.com/grow-lead-agency/ak-sladek/tree/master/skills/generuj-smlouvu
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cz
 practice: real-estate

@@ -1,0 +1,297 @@
+{
+  "download_link_patterns": [
+    {
+      "domain": "zxfw.court.gov.cn",
+      "canonical_domain": "zxfw.court.gov.cn",
+      "description": "全国法院统一送达平台（最常见）",
+      "pattern": "https?://[^\\s/]+/zxfw/#/pagesAjkj/app/wssd/index\\?[^\\s]*",
+      "required_params": ["qdbh", "sdbh", "sdsin"],
+      "param_extract": "从 URL query string 中提取 qdbh、sdbh、sdsin 三个参数值",
+      "download_strategy": "api_first",
+      "api": {
+        "endpoint": "https://zxfw.court.gov.cn/yzw/yzw-zxfw-sdfw/api/v1/sdfw/getWsListBySdbhNew",
+        "method": "POST",
+        "content_type": "application/json",
+        "request_body": { "qdbh": "{全局编号}", "sdbh": "{送达编号}", "sdsin": "{送达签名}" },
+        "response_fields": {
+          "court_name": "data[].c_fymc",
+          "court_id": "data[].c_fybh",
+          "document_name": "data[].c_wsmc",
+          "document_id": "data[].c_wsbh",
+          "download_url": "data[].wjlj",
+          "file_format": "data[].c_wjgs"
+        },
+        "download_method": "curl -sL -o \"{filename}\" \"{wjlj}\"",
+        "notes": "OSS 签名 URL 有过期时间（约1小时），获取后应尽快下载。无需浏览器，直接 curl 即可。实测该响应不含任何送达时间字段（曾记录的 dt_cjsj 并不存在），须核对与目标文书及受送达人绑定的送达凭证，不能用文书生成时间替代，见 sent_time_extraction。"
+      }
+    },
+    {
+      "domain": "sd.gdems.com",
+      "canonical_domain": "sd.gdems.com",
+      "description": "广东法院电子送达平台（限广东地区）",
+      "pattern": "https?://[^\\s/]+/v3/dzsd/[a-zA-Z0-9]+",
+      "required_params": [],
+      "param_extract": "从 URL 路径末尾提取送达标识码",
+      "download_strategy": "browser_only",
+      "api": null,
+      "notes": "无公开 API，需通过浏览器打开页面后手动或 Playwright 自动化下载。页面可能需要输入验证码或手机号验证。"
+    },
+    {
+      "domain": "jysd.10102368.com",
+      "canonical_domain": "jysd.10102368.com",
+      "description": "集约送达平台（邮政集约送达服务）",
+      "pattern": "https?://[^\\s/]+/sd\\?key=[a-zA-Z0-9_\\-]+",
+      "required_params": ["key"],
+      "param_extract": "从 URL query string 中提取 key 参数值",
+      "download_strategy": "browser_only",
+      "api": null,
+      "notes": "无公开 API，需通过浏览器打开页面后下载。部分链接可能需要短信验证码验证身份。"
+    },
+    {
+      "domain": "dzsd.hbfy.gov.cn",
+      "canonical_domain": "dzsd.hbfy.gov.cn",
+      "description": "湖北电子送达平台（限湖北地区法院）",
+      "pattern": "https?://[^\\s/]+/(?:hb/msg=[a-zA-Z0-9]+|sfsddz\\b)",
+      "required_params": [],
+      "param_extract": "免账号模式：从 URL 路径提取 msg 参数值；账号模式：从短信正文提取账号和默认密码",
+      "download_strategy": "browser_only",
+      "api": {
+        "public_mode": {
+          "endpoint": "http://dzsd.hbfy.gov.cn/delimobile/tDeliSms/findSmsInfo",
+          "method": "POST",
+          "content_type": "application/json",
+          "request_body": { "msg": "{msg参数值}", "code": "{验证码（如需）}", "uuid": "{验证码UUID（如需）}" },
+          "response_fields": {
+            "need_captcha": "data.isNeedCaptcha",
+            "doc_list": "data.docList",
+            "doc_name": "data.docList[].docName",
+            "download_path": "data.docList[].downloadPath",
+            "pdf_path": "data.docList[].pdfPath"
+          },
+          "captcha_endpoint": "http://dzsd.hbfy.gov.cn/delimobile/loginCaptcha",
+          "notes": "免账号模式有 HTTP API，但可能需要验证码（OCR）。验证码获取：POST loginCaptcha，返回 data.uuid + data.img（base64）。"
+        },
+        "account_mode": {
+          "credential_patterns": {
+            "account": "账号\\s*([0-9]{15,20})",
+            "password": "默认密码[：:]\\s*([0-9A-Za-z]+)"
+          },
+          "notes": "账号模式需从短信正文提取账号和默认密码，登录需要验证码 OCR，建议使用 Playwright MCP 浏览器自动化。"
+        }
+      },
+      "notes": "湖北电子送达平台支持两种模式：1）免账号模式（短信含 /hb/msg= 链接）可直接通过 HTTP API 查询文书；2）账号模式（短信含 /sfsddz 入口）需登录后下载。两种模式都可能需要验证码。建议优先尝试免账号 HTTP API，失败后降级到 Playwright MCP。"
+    },
+    {
+      "domain": "sfpt.cdfy12368.gov.cn",
+      "alias_domains": ["171.106.48.55:28083"],
+      "description": "司法送达网（全国法院司法送达平台）",
+      "pattern": "https?://[^\\s/]+/sfsdw//r/[a-zA-Z0-9]+",
+      "required_params": [],
+      "param_extract": "从短信正文提取验证码（验证码[：:]\\s*(\\w{4,6})），或使用案件关联律师手机号后6位作为验证码。无 URL 参数。",
+      "download_strategy": "browser_only",
+      "api": null,
+      "verification": {
+        "modes": [
+          {
+            "type": "phone_tail",
+            "description": "手机尾号后6位验证（优先）",
+            "source": "从案件分配信息中获取律师手机号，取后6位"
+          },
+          {
+            "type": "sms_code",
+            "pattern": "验证码[：:]\\s*(\\w{4,6})",
+            "description": "从短信正文中提取验证码"
+          }
+        ]
+      },
+      "browser_flow": {
+        "description": "纯 Playwright 流程（无 API 可用，所有 POST 请求经 TDHCryptoUtil 加密）",
+        "steps": [
+          "browser_navigate → 打开短信中的 SFDW 链接",
+          "页面自动重定向到 pc.html?tdhParams=xxx",
+          "browser_snapshot → 查看验证码输入页面（input#checkCode）",
+          "输入验证码（优先手机尾号后6位，其次短信验证码）",
+          "browser_evaluate → 调用 Vue app.checkYzm() 触发验证",
+          "验证通过后 browser_evaluate → 获取 app.$data.wsList（文书列表）",
+          "遍历 wsList，逐个调用 downloadFile(app, ws) 下载文书",
+          "保存到 /tmp/court-sms-staging/"
+        ]
+      },
+      "notes": "司法送达网所有 POST 请求使用 TDHCryptoUtil 加密，无法通过 HTTP API 下载，只能使用纯 Playwright 流程。广西实例（171.106.48.55:28083）路由到同一平台，下载流程相同。wsList 每项包含 wjmc（文件名）、wjgs（格式）、sdjzwjid（文件ID）。"
+    }
+  ],
+  "case_number_pattern": "[（(〔\\[]\\d{4}[）)\\]〕]\\s*[\\u4e00-\\u9fa5]{1,10}\\d+[\\u4e00-\\u9fa5]{1,5}\\d+号?",
+  "case_number_examples": [
+    "（2025）苏0981民初1234号",
+    "(2024)粤0604执保5678号",
+    "〔2025〕京0105民初901号"
+  ],
+  "sms_type_keywords": {
+    "document_delivery": ["文书送达", "请查收", "查收文书", "下载文书", "送达文书", "案件文书", "受理通知书", "缴费通知书", "告知书", "廉政监督卡"],
+    "filing_notification": ["已立案", "立案通知", "受理案件", "案件受理"],
+    "info_notification": ["开庭时间", "延期", "取消", "变更", "提醒"]
+  },
+  "document_titles": {
+    "受理案件通知书": "受理案件通知书",
+    "应诉通知书": "应诉通知书",
+    "传票": "传票",
+    "开庭传票": "传票",
+    "举证通知书": "举证通知书",
+    "判决书": "判决书",
+    "民事判决书": "民事判决书",
+    "裁定书": "裁定书",
+    "调解书": "调解书",
+    "执行通知书": "执行通知书",
+    "诉讼权利义务告知书": "诉讼权利义务告知书",
+    "诉讼费用交费通知书": "诉讼费用交费通知书",
+    "廉政监督卡": "廉政监督卡",
+    "诉讼材料提交告知书": "诉讼材料提交告知书",
+    "出庭通知书": "出庭通知书",
+    "合议庭组成人员通知书": "合议庭组成人员通知书",
+    "举证期限通知书": "举证期限通知书",
+    "转换程序通知书": "转换程序通知书",
+    "参加诉讼通知书": "参加诉讼通知书"
+  },
+  "sent_time_extraction": {
+    "_doc": "发送/收到/生成时间的线索提取；不等同法律送达日期。送达证据按 references/service-and-deadlines.md 核对。",
+    "api_field": null,
+    "api_field_description": "不适用：实测 getWsListBySdbhNew 响应字段全集为 code/msg/data/exp/expId/totalRows/success 与 c_sdbh/c_stbh/wjlj/c_wjgs/c_wsbh/c_wsmc/c_fybh/c_fymc，无任何送达时间字段",
+    "preferred_source": "对应文书和受送达人的已核对送达凭证/法院系统发送成功或到达记录",
+    "patterns": [
+      {
+        "type": "document_qrcode_time",
+        "description": "二维码生成时间，仅记为线索，不能据此认定该文书或同批其他文书已送达",
+        "regex": "二维码生成时间[：:]?\\s*(\\d{4}-\\d{2}-\\d{2}\\s+\\d{2}:\\d{2}(:\\d{2})?)",
+        "format": "yyyy-MM-dd HH:mm:ss",
+        "establishes_service": false,
+        "target": "time_clues"
+      },
+      {
+        "type": "sms_gateway",
+        "description": "短信网关时间（部分手机短信显示）",
+        "regex": "(?:发送|时间)[：:]?\\s*(\\d{4}[-/年]\\d{1,2}[-/月]\\d{1,2}[日]?\\s+\\d{1,2}[时:]?\\d{0,2})",
+        "format": "yyyy-MM-dd HH:mm",
+        "establishes_service": false,
+        "target": "time_clues"
+      }
+    ],
+    "pitfall": "生成日、签发日、下载日、普通短信时间不得自动写入 service.served_on。必须逐文书/受送达人核验，证据不足或冲突保持 pending。",
+    "confirmation_required": true,
+    "unknown_status": "pending"
+  },
+  "appeal_calculation": {
+    "_doc": "普通一审可上诉文书的候选期间；标题匹配不确认审级、可上诉性或特殊规则。先核对完整救济告知。",
+    "_counting_rule": "仅以已核对的 service.served_on 起算。按日通常不计起算日，期间内节假日照计；末日顺延按适用程序法和当年官方放假调休安排核对，调休上班日不按普通周末处理。民事诉讼法第85条第3款规定末日顺延。特殊程序、期间或日历不明时不得给出确定期限。详见 service-and-deadlines.md。",
+    "first_instance_civil_judgment": {
+      "deadline_days": 15,
+      "description": "民事一审判决：送达后15天",
+      "document_types": [
+        "一审判决书",
+        "民事判决书"
+      ],
+      "requires_applicability_review": true
+    },
+    "first_instance_civil_ruling": {
+      "deadline_days": 10,
+      "description": "依法可上诉的民事一审裁定：送达后10天",
+      "document_types": [
+        "民事裁定书"
+      ],
+      "requires_applicability_review": true
+    },
+    "first_instance_administrative": {
+      "deadline_days": 15,
+      "description": "可上诉的行政一审判决：送达后15天",
+      "document_types": [
+        "行政判决书"
+      ],
+      "requires_applicability_review": true
+    },
+    "first_instance_criminal_judgment": {
+      "deadline_days": 10,
+      "description": "可上诉的刑事一审判决：送达后10天",
+      "document_types": [
+        "刑事判决书"
+      ],
+      "requires_applicability_review": true
+    },
+    "first_instance_criminal_ruling": {
+      "deadline_days": 5,
+      "description": "可上诉的刑事一审裁定：送达后5天",
+      "document_types": [
+        "刑事裁定书"
+      ],
+      "requires_applicability_review": true
+    },
+    "_requires": [
+      "confirmed_service",
+      "confirmed_appeal_applicability",
+      "verified_current_law",
+      "verified_official_calendar"
+    ],
+    "_unknown_action": "deadline_status=pending; appeal_deadline=null; appeal_days_remaining=null; 展示缺口，不隐去提醒",
+    "first_instance_administrative_ruling": {
+      "deadline_days": 10,
+      "description": "依法可上诉的行政一审裁定：送达后10天",
+      "document_types": [
+        "行政裁定书"
+      ],
+      "requires_applicability_review": true
+    }
+  },
+  "party_extraction": {
+    "company_patterns": [
+      "[\\u4e00-\\u9fa5]{2,30}(?:有限责任公司|股份有限公司)",
+      "[\\u4e00-\\u9fa5]{2,20}有限公司",
+      "[\\u4e00-\\u9fa5]{2,20}(?:集团|企业)"
+    ],
+    "versus_patterns": [
+      "{company}与{company}",
+      "{company}与{person}",
+      "{person}与{company}",
+      "{person}与{person}",
+      "{person}诉{person}",
+      "{person}诉{company}"
+    ],
+    "role_prefixes": ["原告", "被告", "申请人", "被申请人", "上诉人", "被上诉人", "申请执行人", "被执行人", "第三人"],
+    "exclude_keywords": [
+      "法院", "人民法院", "书记员", "法官", "审判员", "执行员",
+      "系统", "平台", "服务", "通知", "短信", "案件", "纠纷", "争议",
+      "你好", "收到", "查收", "下载", "链接", "请于", "联系"
+    ]
+  },
+  "rename_fallback": {
+    "_doc": "当文书标题无法识别时的回退策略",
+    "strategy": "use_original_filename",
+    "description": "优先使用下载时的原始文件名（去除扩展名），而非默认为'未知文书'",
+    "fallback_title": "未知文书"
+  },
+  "file_naming": {
+    "format": "{title}（{case_name}）_{YYYYMMDD}收.pdf",
+    "example": "受理通知书（张三与李四合同纠纷）_20260404收.pdf",
+    "target_directory": null,
+    "conflict_suffix": "_2"
+  },
+  "post_processing": {
+    "_doc": "PDF 后处理：检测拆分文件并合并 + 精简文件名。不默认启用，仅在检测到拆分时提示用户。合并偏好见 user-preferences.json。",
+    "trigger": {
+      "description": "扫描归档目录中的 PDF 文件名，按文书类型分组。任一组文件数 > 3 时触发提示。",
+      "group_rules": [
+        "证据类：文件名以'证据'开头，按编号分组（证据1、证据2、证据3…）",
+        "其他文书：按文书类型分组（传票、起诉状、应诉通知书…）"
+      ],
+      "threshold": 3
+    },
+    "preferences_file": "config/user-preferences.json",
+    "preferences_example": "config/user-preferences.example.json",
+    "default_merge_strategy": "per_evidence",
+    "user_prompt": {
+      "description": "检测到拆分文件时，使用 AskUserQuestion 提示用户",
+      "options": [
+        "是，合并所有 — 按偏好设置合并并重命名",
+        "让我选择 — 逐个确认哪些需要合并",
+        "跳过 — 不处理"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "verkaeufer": {
+    "name": "ACME SARL",
+    "adresse": "12, rue de la Paix · L-1234 Luxembourg",
+    "rcs": "B999999",
+    "ust_id": "LU99999999",
+    "autorisation": "10012345/0",
+    "bank": "BCEE",
+    "iban": "LU28 0019 4006 4475 0000",
+    "bic": "BCEELULL"
+  },
+  "kaeufer": {
+    "name": "Beispiel GmbH",
+    "adresse": "Musterstraße 5 · D-54290 Trier",
+    "ust_id": "DE123456789"
+  },
+  "rechnung": {
+    "nummer": "INV-2026-001",
+    "datum": "2026-05-09",
+    "leistungsdatum": "2026-04-01 bis 2026-04-30",
+    "faellig_am": "2026-06-08"
+  },
+  "positionen": [
+    { "bezeichnung": "Beratungsleistung April 2026", "menge": "10 Std.", "einzelpreis": "150.00", "mwst_satz": "17", "gesamt_ht": "1500.00" },
+    { "bezeichnung": "Reisekostenpauschale", "menge": "1", "einzelpreis": "120.00", "mwst_satz": "17", "gesamt_ht": "120.00" }
+  ],
+  "summe": {
+    "netto": "1620.00",
+    "mwst_satz_dominant": "17",
+    "mwst_betrag": "275.40",
+    "brutto": "1895.40"
+  },
+  "reverse_charge": false,
+  "mwst_befreit": false
+}

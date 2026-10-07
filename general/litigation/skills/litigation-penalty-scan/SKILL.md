@@ -5,7 +5,7 @@ description: 用于信托领域项目尽调中的诉讼处罚扫描助手场景�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/litigation-penalty-scan
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

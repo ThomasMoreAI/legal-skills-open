@@ -5,7 +5,7 @@ description: Draft and fill Y Combinator SAFE contract templates — valuation c
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/safe
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: corporate

@@ -5,7 +5,7 @@ description: Run a NY/NJ RPC conflicts check for a solo or small-firm practice a
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/conflicts-check
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

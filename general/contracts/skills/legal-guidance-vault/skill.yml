@@ -1,0 +1,12 @@
+name: Legal Guidance Vault
+practice_area: Knowledge Management / In-house
+jurisdiction: Multi
+version: "1.0"
+author: Michael Cremata — Hackathon 2026
+description: >
+  Builds and operates a personalized Legal Guidance Vault — a local
+  folder of structured, privilege-marked entries capturing legal
+  guidance the lawyer has given. Interviews the user about their tool
+  stack (meeting notes, calendar, email, docs, messaging) and produces
+  a custom vault prompt for archiving and retrieving guidance across
+  Claude sessions.

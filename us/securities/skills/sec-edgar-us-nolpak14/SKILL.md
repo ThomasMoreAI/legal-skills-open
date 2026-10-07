@@ -1,11 +1,11 @@
 ---
 name: sec-edgar-us-nolpak14
-title: 'SEC edgar us'
+title: SEC edgar us
 description: 'Look up U.S. public companies for free via the official SEC EDGAR APIs - company submissions and filing history (10-K, 10-Q, 8-K, Form 4), XBRL financial facts (assets, revenue, net income), ticker-to-CIK resolution, and full-text search across filings 2001-present. Use for KYB / know-your-business checks on SEC-registered issuers, financial due diligence, filing monitoring, and reading audited financials straight from the source. Trigger on: ''SEC EDGAR'', ''SEC filings'', ''find a 10-K'', ''10-Q'', ''8-K'', ''CIK lookup'', ''ticker to CIK'', ''company financials from SEC'', ''XBRL facts'', ''is this a public company'', ''US public company lookup''. EDGAR is free and covers SEC filers only; for private US and non-US companies it hands off to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/sec-edgar-us
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: securities
@@ -123,3 +123,8 @@ To resolve a public company to its global LEI and corporate structure, route to 
 - **`sanctions-pep-screening`** - screen the officers, insiders (Form 4), and beneficial owners you found against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for private and non-US entities.
 - **`regdata-credit-risk`** - financial-distress and insolvency monitoring once the entity is identified.
+
+## More on getregdata.com
+
+- Full guide to this skill: https://getregdata.com/skills/sec-edgar-us/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

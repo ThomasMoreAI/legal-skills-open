@@ -5,12 +5,25 @@ description: California property tax research workflow using BOE Property Tax Ru
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/california-property-tax
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: tax
 language: en
-tags: [california, property-tax, change-in-ownership, boe, ptlg, prop-13, prop-19, legal-entities]
+tags:
+- california
+- property-tax
+- change-in-ownership
+- boe
+- ptlg
+- prop-13
+- prop-19
+- legal-entities
+sources:
+- title: Boe navigation cheatsheet
+  path: references/boe-navigation-cheatsheet.md
+- title: Output template
+  path: references/output-template.md
 ---
 
 # California Property Tax Research (BOE Rules + PTLG Annotations)

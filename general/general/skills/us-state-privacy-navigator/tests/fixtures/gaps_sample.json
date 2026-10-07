@@ -1,0 +1,20 @@
+[
+  {
+    "gap_id": "G-1",
+    "description": "GPC signals not honored on California pages; processor contracts lack § 7051 terms",
+    "tags": ["gpc_not_honored", "processor_contract_inadequate"],
+    "states": ["CA"]
+  },
+  {
+    "gap_id": "G-2",
+    "description": "Pixel deployed on healthcare patient portal without consent",
+    "tags": ["pixel_health_data_disclosure", "wiretap_chat_pixel"],
+    "states": ["CA"]
+  },
+  {
+    "gap_id": "G-3",
+    "description": "Connected vehicle telematics data sold to insurance partners",
+    "tags": ["sensitive_data_no_consent", "sale_not_disclosed"],
+    "states": ["TX"]
+  }
+]

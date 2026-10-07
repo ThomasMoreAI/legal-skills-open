@@ -5,12 +5,17 @@ description: 'Use whenever the user is working on document production in interna
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/redfern-schedule
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [arbitration, document-production, redfern, iba-rules, procedure]
+tags:
+- arbitration
+- document-production
+- redfern
+- iba-rules
+- procedure
 ---
 
 > **YOU ARE ABOUT TO DO HIGHLY PRIVILEGED WORK. PLEASE CHECK THE RULES OF YOUR JURISDICTION, AS YOU MAY NEED TO SWITCH TO A LOCAL MODEL. BEFORE YOU PROCEED, CONFIRM THAT YOU ARE FINE WITH PROCEEDING.**

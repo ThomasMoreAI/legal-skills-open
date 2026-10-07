@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question d'utilisation
+    url: https://github.com/gregherbe76/Luxembourg-Paperasse/discussions
+    about: Pour toute question sur l'utilisation des skills, ouvrez plutôt une discussion.
+  - name: Profil AgentSkill.sh
+    url: https://agentskill.sh/@gregherbe76
+    about: Retrouvez tous les skills publiés et leur documentation.
+  - name: Faille de sécurité
+    url: https://github.com/gregherbe76/Luxembourg-Paperasse/security/advisories/new
+    about: Pour signaler une vulnérabilité, utilisez les Security Advisories (privé).

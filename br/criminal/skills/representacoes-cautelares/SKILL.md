@@ -5,7 +5,7 @@ description: Redacao de representacoes cautelares policiais e pedidos judiciais 
 author: diegocamara89
 author_url: https://github.com/diegocamara89/ai-skills-hub/tree/main/all-skills/representacoes-cautelares
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: br
 practice: criminal

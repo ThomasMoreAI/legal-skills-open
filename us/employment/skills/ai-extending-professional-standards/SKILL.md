@@ -5,12 +5,16 @@ description: 'Use when framing the profession-level response to AI selection too
 author: OpenMatter-Network
 author_url: https://github.com/OpenMatter-Network/agent-io-skills/tree/main/ai-selection-legal-ethical/skills/ai-extending-professional-standards
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment
 language: en
-tags: [community, io-psychology, ai-assessment, legal-ethical]
+tags:
+- community
+- io-psychology
+- ai-assessment
+- legal-ethical
 ---
 
 # Extending professional standards (Call to Action)

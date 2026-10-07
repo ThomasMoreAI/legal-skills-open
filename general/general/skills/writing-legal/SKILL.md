@@ -6,7 +6,7 @@ description: 'ALWAYS load BEFORE drafting, revising or grading LAW REVIEW prose 
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/writing-legal
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -80,7 +80,7 @@ halves, and a boundary missing either half has no transition:
    freezeouts`. Bebchuk's `as we now explain` and `the question to which we now turn` are his
    idiolect, at 0.00/M and 0.18/M in the law corpus. Use the form, not the phrase.
 
-**Measured** with `ai-tic`'s `fp-check.sh` triage (line-level, so absolute rates undercount phrases
+**Measured** with `ai-tic/scripts/fp-check.sh` triage (line-level, so absolute rates undercount phrases
 that wrap across lines; the law/finance ratio is like for like). The law corpus averages about 850
 sentences per article.
 

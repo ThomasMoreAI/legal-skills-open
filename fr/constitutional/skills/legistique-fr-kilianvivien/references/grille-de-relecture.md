@@ -41,7 +41,7 @@ sanctionnée).
 | Visas : présents pour les textes fondant la compétence, appliqués, dérogés, modifiés (jamais un texte abrogé en entier, jamais un texte modificatif, « modifié » ajouté au texte d'origine) | R | 3.1.5 |
 | Visas : ordre hiérarchique puis chronologique (Constitution, conventions, règlements puis directives UE, lois organiques, codes par ordre alphabétique, lois et ordonnances, décrets) ; consultations après les textes ; Conseil constitutionnel ; Conseil d'Etat ; conseil des ministres ; « Vu l'urgence, » en dernier | R | 3.1.5 |
 | Visas : rédaction (numéro, date, intitulé exact ; « notamment son article … » ; code par son seul intitulé ; point-virgule final, virgule avant « Décrète ») | S | 3.1.5 |
-| Consultations obligatoires visées avec leur date ; lettre de saisine si pas d'avis ; formule Conseil d'Etat adaptée (entendu / section / après avis / avis conforme) | R (B si consultation obligatoire omise) | 3.1.5, 2.1.3 |
+| Consultations obligatoires visées avec leur date ; lettre de saisine si pas d'avis ; formule Conseil d'Etat adaptée (entendu / section / après avis / avis conforme) ; repérage des consultations selon `procedure-et-documents.md`, section 2 | R (B si consultation obligatoire omise) | 3.1.5, 2.1.3 |
 | Ministres rapporteurs : ceux qui ont piloté, trois au plus, titre exact | R | 3.1.4 |
 | Entrée en vigueur immédiate : visa du code civil, « Vu l'urgence, », article d'exécution complété | R | 3.8.1 |
 
@@ -104,6 +104,17 @@ sanctionnée).
 | Nombres : durées, âges, quantités en lettres ; sommes, mesures, populations, dates en chiffres ; « % » | S | annexe typo |
 | Majuscules des organismes uniques ; pas d'accent sur les majuscules isolées ; intitulés de divisions sans point | S | annexe typo |
 | Articles de code : « L. 121-3 » avec point (sauf LO) ; « n° » ; traits d'union des collectivités | S | annexe typo |
+
+## 8. Amendement (si le texte relu est un amendement)
+
+| Contrôle | Gravité | Fiche |
+|---|---|---|
+| Un seul article du texte en discussion par amendement | B | 2.2.4 |
+| Chapeau à l'infinitif, formule de l'assemblée concernée, alinéas désignés par leur numéro de pastille | R | 2.2.4 |
+| Recevabilité : pas de charge publique créée ou aggravée ni de ressource diminuée sans gage (amendement parlementaire, art. 40) ; lien avec le texte (art. 45) ; pas d'habilitation (art. 38) | B | 2.2.4 |
+| Exposé sommaire présent, qui explique sans paraphraser | R | 2.2.4 |
+
+Détail : `references/amendements.md`.
 
 ## Sortie attendue
 

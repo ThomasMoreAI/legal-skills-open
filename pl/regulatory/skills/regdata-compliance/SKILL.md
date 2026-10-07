@@ -5,7 +5,7 @@ description: Extract data from Poland's UOKiK abusive clauses registry (court-ru
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-compliance
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: pl
 practice: regulatory
@@ -372,3 +372,8 @@ User: "Full compliance review of this waste management service contract"
 - **`/regdata-credit-risk`** - Insolvency monitoring, financial statement analysis. Use when you need to assess whether a contractor is financially stable enough to fulfill environmental obligations.
 - **`/regdata-property`** - Property due diligence, land registry checks. Use for real estate contract reviews where EKW data complements UOKiK clause analysis.
 - **`/regdata-lead-gen`** - B2B prospecting and market research. Use when searching for compliant waste management contractors across regions.
+
+## More on getregdata.com
+
+- Compliance audit use case: https://getregdata.com/use-cases/compliance-audit/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

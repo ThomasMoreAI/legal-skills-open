@@ -1,11 +1,11 @@
 ---
 name: citation-format
-title: 'Citation format'
+title: Citation format
 description: Normalize messy citation strings ("CVC 23152a", "California Vehicle Code Section 23152(a)") into canonical form ("Cal. Veh. Code § 23152(a)") before passing to harvester-query.
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/citation_format
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: general

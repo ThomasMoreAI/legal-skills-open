@@ -5,7 +5,7 @@ description: 广告合规审核技能，用于审核广告素材是否符合中�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/ad-compliance-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: regulatory

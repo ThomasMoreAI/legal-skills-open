@@ -5,7 +5,7 @@ description: 'Für Verlängerungstracker: ordnet Norm, Beweislast und Gegenargum
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsrecht/skills/vertragsverlaengerungs-monitor
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: contracts

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arbitral Award Analyst"
+  short_description: "Analyse awards, findings, and enforceability"
+  default_prompt: "Use $arbitral-award-analyst to analyse this award's findings, reasoning, relief, and enforcement risks."

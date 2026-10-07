@@ -5,7 +5,7 @@ description: 合同起草与审查助手。基于分层分析与四步流程，�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/contract-copilot
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

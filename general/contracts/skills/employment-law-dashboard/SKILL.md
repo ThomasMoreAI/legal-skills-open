@@ -6,7 +6,7 @@ description: Build a single-file HTML dashboard for any area of US employment la
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/employment-law-dashboard
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

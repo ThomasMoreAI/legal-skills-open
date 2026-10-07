@@ -1,0 +1,162 @@
+{
+  "_comment": "Risk taxonomy for cite-check. Maps a risk category to candidate provisions in the cached legal corpus and on public regulator sites. Filenames here have been reconciled with the actual contents of github/ppl-legal-reference (run `cite.py refresh-corpus` to verify). Anchors have been chosen to match the structural patterns recognized by _index_document: markdown headings, regulation articles ('Article 6'), CCPA-style code sections ('1798.105.'), and DPA-style numbered sections ('9. Subprocessors.'). Each candidate has: id, label, source_type (public-law | public-guidance | github-public | github-internal | verify-required), location (cached filename or canonical URL), anchor, classification.",
+  "version": 2,
+  "categories": {
+    "lawful-basis-for-processing": {
+      "summary": "Personal data is collected or processed without an identified lawful basis (consent, contract, legal obligation, vital interest, public task, or legitimate interest).",
+      "candidates": [
+        {"id": "gdpr-art-6", "label": "GDPR Art. 6 (Lawfulness of processing)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 6", "classification": "public-law"},
+        {"id": "gdpr-art-7", "label": "GDPR Art. 7 (Conditions for consent)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 7", "classification": "public-law"},
+        {"id": "uk-gdpr-art-6", "label": "UK GDPR Art. 6 (Lawfulness of processing)", "source_type": "public-law", "location": "03-reg-uk-gdpr.md", "anchor": "Article 6", "classification": "public-law"},
+        {"id": "ccpa-1798-100", "label": "CCPA \u00a71798.100 (General Duties)", "source_type": "public-law", "location": "03-reg-ccpa.md", "anchor": "1798.100.", "classification": "public-law"},
+        {"id": "edpb-consent", "label": "EDPB Guidelines on Consent", "source_type": "public-guidance", "location": "05-guidance-edpb-consent-guidelines.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "github-privacy-statement", "label": "GitHub Privacy Statement", "source_type": "github-public", "location": "01-github-github-privacy-statement.md", "anchor": null, "classification": "github-public"}
+      ]
+    },
+    "cross-border-transfer": {
+      "summary": "Personal data of EU/UK/EEA data subjects is transferred to a third country without an Art. 46 mechanism (SCCs, BCRs, adequacy decision).",
+      "candidates": [
+        {"id": "gdpr-art-44", "label": "GDPR Art. 44 (General principle for transfers)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 44", "classification": "public-law"},
+        {"id": "gdpr-art-46", "label": "GDPR Art. 46 (Transfers subject to appropriate safeguards)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 46", "classification": "public-law"},
+        {"id": "uk-gdpr-art-46", "label": "UK GDPR Art. 46 (Transfers subject to appropriate safeguards)", "source_type": "public-law", "location": "03-reg-uk-gdpr.md", "anchor": "Article 46", "classification": "public-law"},
+        {"id": "scc-module-1", "label": "Standard Contractual Clauses Module 1 (Controller-to-Controller)", "source_type": "public-law", "location": "03-reg-sccs-module-1.md", "anchor": null, "classification": "public-law"},
+        {"id": "scc-module-2", "label": "Standard Contractual Clauses Module 2 (Controller-to-Processor)", "source_type": "public-law", "location": "03-reg-sccs-module-2.md", "anchor": null, "classification": "public-law"},
+        {"id": "schrems-ii", "label": "Schrems II Judgment (CJEU C-311/18)", "source_type": "public-guidance", "location": "05-guidance-schrems-ii-judgment.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "github-dpa-transfers", "label": "GitHub DPA \u00a77 Data Transfers and Location", "source_type": "github-public", "location": "01-github-github-dpa.md", "anchor": "7. Data Transfers and Location.", "classification": "github-public"}
+      ]
+    },
+    "subprocessor-engagement": {
+      "summary": "A new third party will process personal data on GitHub's behalf without DPA flow-down terms or notice to controllers.",
+      "candidates": [
+        {"id": "gdpr-art-28", "label": "GDPR Art. 28 (Processor)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 28", "classification": "public-law"},
+        {"id": "github-dpa-subprocessors", "label": "GitHub DPA \u00a79 Subprocessors", "source_type": "github-public", "location": "01-github-github-dpa.md", "anchor": "9. Subprocessors.", "classification": "github-public"},
+        {"id": "msft-dpa", "label": "Microsoft Data Protection Addendum", "source_type": "public-guidance", "location": "04-msft-microsoft-dpa.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "msft-minimum-bar", "label": "Microsoft Minimum Bar Standards", "source_type": "public-guidance", "location": "04-msft-minimum-bar-standards.md", "anchor": null, "classification": "public-guidance"}
+      ]
+    },
+    "childrens-data": {
+      "summary": "Product is reasonably likely to be used by, or knowingly collects personal information from, children under 13 (US) or 16 (EU).",
+      "candidates": [
+        {"id": "coppa-312", "label": "COPPA 16 CFR Part 312", "source_type": "public-law", "location": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312", "anchor": null, "classification": "verify-required"},
+        {"id": "ftc-coppa-faq", "label": "FTC COPPA FAQ", "source_type": "public-guidance", "location": "05-guidance-ftc-coppa-faq.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "gdpr-art-8", "label": "GDPR Art. 8 (Conditions applicable to child's consent)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 8", "classification": "public-law"},
+        {"id": "github-tos", "label": "GitHub Terms of Service", "source_type": "github-public", "location": "01-github-github-terms-of-service.md", "anchor": null, "classification": "github-public"}
+      ]
+    },
+    "ai-high-risk-classification": {
+      "summary": "AI feature may fall within an EU AI Act high-risk category (Annex III) \u2014 e.g., employment, credit, biometric, education, critical infrastructure.",
+      "candidates": [
+        {"id": "ai-act-art-6", "label": "EU AI Act Art. 6 (Classification rules for high-risk AI systems)", "source_type": "public-law", "location": "03-reg-eu-ai-act-text.md", "anchor": "Article 6", "classification": "public-law"},
+        {"id": "ai-act-annex-iii", "label": "EU AI Act Annex III (High-risk AI systems list)", "source_type": "public-law", "location": "03-reg-eu-ai-act-text.md", "anchor": "ANNEX III", "classification": "public-law"},
+        {"id": "ai-act-signed", "label": "EU AI Act (signed final text)", "source_type": "public-law", "location": "03-reg-eu-ai-act-signed.md", "anchor": null, "classification": "public-law"},
+        {"id": "nist-ai-rmf", "label": "NIST AI Risk Management Framework", "source_type": "public-guidance", "location": "05-guidance-nist-ai-framework.md", "anchor": null, "classification": "public-guidance"}
+      ]
+    },
+    "ai-transparency-disclosure": {
+      "summary": "AI-generated content or AI-driven interaction is not clearly disclosed to the end user; or marketing claims about AI capabilities risk being unsubstantiated.",
+      "candidates": [
+        {"id": "ai-act-art-50", "label": "EU AI Act Art. 50 (Transparency obligations for providers)", "source_type": "public-law", "location": "03-reg-eu-ai-act-text.md", "anchor": "Article 50", "classification": "public-law"},
+        {"id": "ftc-ai-claims", "label": "FTC guidance on AI marketing claims (Keep your AI claims in check)", "source_type": "public-guidance", "location": "05-guidance-ftc-ai-claims.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "ftc-act-section-5", "label": "FTC Act \u00a75 (Unfair or deceptive acts)", "source_type": "public-law", "location": "https://www.law.cornell.edu/uscode/text/15/45", "anchor": null, "classification": "verify-required"}
+      ]
+    },
+    "open-source-license-compatibility": {
+      "summary": "Inbound or outbound code includes a license that is incompatible with the intended distribution model (e.g., AGPL contamination of a proprietary SaaS, GPL in a permissive distribution).",
+      "candidates": [
+        {"id": "license-agpl", "label": "GNU Affero General Public License v3", "source_type": "public-law", "location": "06-ip-agpl.md", "anchor": null, "classification": "public-law"},
+        {"id": "license-gpl-v3", "label": "GNU General Public License v3", "source_type": "public-law", "location": "06-ip-gpl-v3.md", "anchor": null, "classification": "public-law"},
+        {"id": "license-lgpl-v3", "label": "GNU Lesser General Public License v3", "source_type": "public-law", "location": "06-ip-lgpl-v3.md", "anchor": null, "classification": "public-law"},
+        {"id": "license-apache-2", "label": "Apache License 2.0", "source_type": "public-law", "location": "06-ip-apache-license-2.md", "anchor": null, "classification": "public-law"},
+        {"id": "license-mit", "label": "MIT License", "source_type": "public-law", "location": "06-ip-mit-license.md", "anchor": null, "classification": "public-law"},
+        {"id": "license-bsd-2", "label": "BSD 2-Clause License", "source_type": "public-law", "location": "06-ip-bsd-2-clause.md", "anchor": null, "classification": "public-law"},
+        {"id": "spdx-list", "label": "SPDX License List", "source_type": "public-guidance", "location": "06-ip-spdx-license-list.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "open-source-definition", "label": "Open Source Definition (OSI)", "source_type": "public-guidance", "location": "06-ip-open-source-definition.md", "anchor": null, "classification": "public-guidance"}
+      ]
+    },
+    "copyright-training-data": {
+      "summary": "AI model is trained on or fine-tuned with content whose copyright status or license terms have not been verified.",
+      "candidates": [
+        {"id": "us-copyright-act-107", "label": "US Copyright Act \u00a7107 (Fair use)", "source_type": "public-law", "location": "06-ip-us-copyright-act-title17.md", "anchor": "\u00a7107", "classification": "public-law"},
+        {"id": "us-copyright-act-106", "label": "US Copyright Act \u00a7106 (Exclusive rights in copyrighted works)", "source_type": "public-law", "location": "06-ip-us-copyright-act-title17.md", "anchor": "\u00a7106 \u00b7 Exclusive rights", "classification": "public-law"},
+        {"id": "andersen-stability", "label": "Andersen et al v. Stability AI Ltd. (N.D. Cal.)", "source_type": "public-guidance", "location": "08-caselaw-andersen-v-stability-ai.md", "anchor": null, "classification": "public-guidance"}
+      ]
+    },
+    "data-retention-deletion": {
+      "summary": "Data retention period is undefined, exceeds purpose limitation, or product cannot honor a deletion request within required timelines.",
+      "candidates": [
+        {"id": "gdpr-art-5", "label": "GDPR Art. 5 (Principles relating to processing of personal data, incl. storage limitation)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 5", "classification": "public-law"},
+        {"id": "gdpr-art-17", "label": "GDPR Art. 17 (Right to erasure)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 17", "classification": "public-law"},
+        {"id": "ccpa-1798-105", "label": "CCPA \u00a71798.105 (Right to Delete)", "source_type": "public-law", "location": "03-reg-ccpa.md", "anchor": "1798.105.", "classification": "public-law"},
+        {"id": "github-dpa-retention", "label": "GitHub DPA \u00a78 Retention and Deletion", "source_type": "github-public", "location": "01-github-github-dpa.md", "anchor": "8. Retention and Deletion.", "classification": "github-public"}
+      ]
+    },
+    "notice-and-disclosure": {
+      "summary": "Privacy notice or in-product disclosure does not clearly inform users about a new collection, use, or third-party share at the point of collection.",
+      "candidates": [
+        {"id": "gdpr-art-13", "label": "GDPR Art. 13 (Information to be provided where data is collected from the data subject)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 13", "classification": "public-law"},
+        {"id": "gdpr-art-14", "label": "GDPR Art. 14 (Information to be provided where data not obtained from the data subject)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 14", "classification": "public-law"},
+        {"id": "ccpa-1798-100", "label": "CCPA \u00a71798.100 (General Duties incl. Notice at Collection)", "source_type": "public-law", "location": "03-reg-ccpa.md", "anchor": "1798.100.", "classification": "public-law"},
+        {"id": "eprivacy-directive", "label": "ePrivacy Directive 2002/58/EC", "source_type": "public-law", "location": "03-reg-eprivacy-directive.md", "anchor": null, "classification": "public-law"},
+        {"id": "github-privacy-statement", "label": "GitHub Privacy Statement", "source_type": "github-public", "location": "01-github-github-privacy-statement.md", "anchor": null, "classification": "github-public"}
+      ]
+    },
+    "security-breach-notification": {
+      "summary": "Product processes personal data and lacks a clear breach notification path consistent with applicable regulations.",
+      "candidates": [
+        {"id": "gdpr-art-33", "label": "GDPR Art. 33 (Notification of personal data breach to supervisory authority)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 33", "classification": "public-law"},
+        {"id": "gdpr-art-34", "label": "GDPR Art. 34 (Communication of personal data breach to data subject)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 34", "classification": "public-law"},
+        {"id": "edpb-breach", "label": "EDPB Breach Notification Guidelines", "source_type": "public-guidance", "location": "05-guidance-edpb-breach-notification.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "ccpa-1798-150", "label": "CCPA \u00a71798.150 (Personal Information Security Breaches)", "source_type": "public-law", "location": "03-reg-ccpa.md", "anchor": "1798.150.", "classification": "public-law"},
+        {"id": "github-dpa-incidents", "label": "GitHub DPA \u00a76 Security Incidents", "source_type": "github-public", "location": "01-github-github-dpa.md", "anchor": "6. Security Incidents.", "classification": "github-public"}
+      ]
+    },
+    "data-portability": {
+      "summary": "Product collects personal data and lacks a mechanism to export that data on request in a structured, machine-readable format.",
+      "candidates": [
+        {"id": "gdpr-art-20", "label": "GDPR Art. 20 (Right to data portability)", "source_type": "public-law", "location": "03-reg-gdpr.md", "anchor": "Article 20", "classification": "public-law"},
+        {"id": "wp29-portability", "label": "WP29 Guidelines on Data Portability", "source_type": "public-guidance", "location": "05-guidance-wp29-data-portability.md", "anchor": null, "classification": "public-guidance"},
+        {"id": "ccpa-1798-110", "label": "CCPA \u00a71798.110 (Right to Know / Access)", "source_type": "public-law", "location": "03-reg-ccpa.md", "anchor": "1798.110.", "classification": "public-law"}
+      ]
+    }
+  },
+  "cached_corpus_allowlist": [
+    {"filename": "01-github-github-acceptable-use.md", "authoritative_url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-additional-terms.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-additional-product-terms", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-additional-terms-v2.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-additional-product-terms", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-code-of-conduct.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-event-code-of-conduct", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-community-guidelines.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-community-guidelines", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-corporate-tos.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-corporate-terms-of-service", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-dpa.md", "authoritative_url": "https://docs.github.com/en/site-policy/privacy-policies/github-data-protection-agreement", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-privacy-statement.md", "authoritative_url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "01-github-github-terms-of-service.md", "authoritative_url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service", "authoritative_format": "html", "extractor": "github_docs"},
+    {"filename": "03-reg-ccpa.md", "authoritative_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5", "authoritative_format": "html", "extractor": "leginfo"},
+    {"filename": "03-reg-eprivacy-directive.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0058", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-eu-ai-act-signed.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-eu-ai-act-text.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1689", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-gdpr.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-sccs-module-1.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-sccs-module-2.md", "authoritative_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914", "authoritative_format": "html", "extractor": "eur_lex"},
+    {"filename": "03-reg-uk-gdpr.md", "authoritative_url": "https://www.legislation.gov.uk/eur/2016/679/contents", "authoritative_format": "html", "extractor": "legislation_uk"},
+    {"filename": "04-msft-microsoft-dpa.md", "authoritative_url": null, "authoritative_format": null, "extractor": null, "_note": "Internal Microsoft document; no public-facing authoritative source. Use as background context only."},
+    {"filename": "04-msft-minimum-bar-standards.md", "authoritative_url": null, "authoritative_format": null, "extractor": null, "_note": "Internal Microsoft document; no public-facing authoritative source. Use as background context only."},
+    {"filename": "05-guidance-edpb-breach-notification.md", "authoritative_url": "https://www.edpb.europa.eu/system/files/2023-04/edpb_guidelines_202209_personal_data_breach_notification_v2.0_en.pdf", "authoritative_format": "pdf", "extractor": "pdf"},
+    {"filename": "05-guidance-edpb-consent-guidelines.md", "authoritative_url": "https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_202005_consent_en.pdf", "authoritative_format": "pdf", "extractor": "pdf"},
+    {"filename": "05-guidance-edpb-privacy-by-design.md", "authoritative_url": "https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf", "authoritative_format": "pdf", "extractor": "pdf"},
+    {"filename": "05-guidance-ftc-ai-claims.md", "authoritative_url": "https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check", "authoritative_format": "html", "extractor": "ftc"},
+    {"filename": "05-guidance-ftc-coppa-faq.md", "authoritative_url": "https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions", "authoritative_format": "html", "extractor": "ftc"},
+    {"filename": "05-guidance-nist-ai-framework.md", "authoritative_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf", "authoritative_format": "pdf", "extractor": "pdf"},
+    {"filename": "05-guidance-schrems-ii-judgment.md", "authoritative_url": "https://curia.europa.eu/juris/document/document.jsf?text=&docid=228677&pageIndex=0&doclang=EN&mode=lst&dir=&occ=first&part=1&cid=0", "authoritative_format": "html", "extractor": "curia"},
+    {"filename": "05-guidance-schrems-judgment.md", "authoritative_url": "https://curia.europa.eu/juris/document/document.jsf?text=&docid=169195&pageIndex=0&doclang=EN&mode=lst&dir=&occ=first&part=1&cid=0", "authoritative_format": "html", "extractor": "curia"},
+    {"filename": "05-guidance-wp29-data-portability.md", "authoritative_url": "https://ec.europa.eu/newsroom/article29/items/611233", "authoritative_format": "html", "extractor": "wp29"},
+    {"filename": "06-ip-agpl.md", "authoritative_url": "https://www.gnu.org/licenses/agpl-3.0.txt", "authoritative_format": "text", "extractor": "text"},
+    {"filename": "06-ip-apache-license-2.md", "authoritative_url": "https://www.apache.org/licenses/LICENSE-2.0.txt", "authoritative_format": "text", "extractor": "text"},
+    {"filename": "06-ip-bsd-2-clause.md", "authoritative_url": "https://opensource.org/license/bsd-2-clause/", "authoritative_format": "html", "extractor": "opensource_org"},
+    {"filename": "06-ip-gpl-v3.md", "authoritative_url": "https://www.gnu.org/licenses/gpl-3.0.txt", "authoritative_format": "text", "extractor": "text"},
+    {"filename": "06-ip-lgpl-v3.md", "authoritative_url": "https://www.gnu.org/licenses/lgpl-3.0.txt", "authoritative_format": "text", "extractor": "text"},
+    {"filename": "06-ip-mit-license.md", "authoritative_url": "https://opensource.org/license/mit/", "authoritative_format": "html", "extractor": "opensource_org"},
+    {"filename": "06-ip-open-source-definition.md", "authoritative_url": "https://opensource.org/osd/", "authoritative_format": "html", "extractor": "opensource_org"},
+    {"filename": "06-ip-spdx-license-list.md", "authoritative_url": "https://spdx.org/licenses/", "authoritative_format": "html", "extractor": "spdx"},
+    {"filename": "06-ip-us-copyright-act-title17.md", "authoritative_url": "https://www.law.cornell.edu/uscode/text/17", "authoritative_format": "html", "extractor": "cornell_lii"},
+    {"filename": "08-caselaw-andersen-v-stability-ai.md", "authoritative_url": null, "authoritative_format": null, "extractor": null, "_note": "Court documents from N.D. Cal. case 3:23-cv-00201 (Andersen v Stability AI). Authoritative source is PACER (paywalled). Free secondary source: courtlistener.com/docket/66732129/andersen-v-stability-ai-ltd/. cite-check treats this file as background only — not authoritatively verifiable from a free public source."}
+  ]
+}

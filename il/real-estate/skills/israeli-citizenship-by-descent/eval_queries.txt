@@ -1,0 +1,64 @@
+# Eval queries for israeli-citizenship-by-descent
+#
+# Holdout gate (v2.0.0): the 11 queries carried over from v1.0.0 were frozen
+# before the description was edited and split 70/30 (8 train / 3 holdout).
+# Holdout: the Portugal query, the wills/inheritance negative, and the Cyprus
+# edge. All three behaved the same or better after the edit, so the
+# description change is accepted. See the notes at the bottom.
+#
+# POSITIVE (should trigger)
++ My grandfather fled Germany in 1938, can I get a German passport?
++ אני רוצה לבדוק אם מגיע לי דרכון אירופאי לפי סבא שלי מפולין
++ How do I claim Austrian citizenship through my great-grandmother who was persecuted by the Nazis?
++ דרכון רומני לפי מוצא, אילו מסמכים צריך מישראל ואיך עושים אפוסטיל
++ Is the Portuguese Sephardic citizenship route still open in 2026?
++ What Israeli documents do I need for a Polish citizenship by descent application?
++ סבא רבא שלי נולד בטריאסטה, מגיע לי דרכון איטלקי?
++ I booked a Prenot@mi appointment in early 2025 but never filed, is my Italian citizenship claim still alive?
+# NEGATIVE (should NOT trigger)
+- How do I make aliyah to Israel and get the absorption basket?
+- I need a digital nomad visa to work remotely from Portugal
+- Help me write my Israeli will and split inheritance among my children
+- Should I take Israeli or German citizenship for tax reasons?
+# EDGE (ambiguous)
+~ I have a Cypriot grandparent, can I get a Cyprus passport?
+#
+# EXPECTED ANSWERS for the regression-sensitive queries
+#
+# "Is the Portuguese Sephardic citizenship route still open in 2026?"
+#   -> NO. Repealed by Lei Organica n.o 1/2026, de 18 de maio, art. 5.o, in
+#      force 19 May 2026. Not "restricted", not "needs three years of
+#      residence". Only procedures already pending on that date continue under
+#      the old wording. This is the single best regression test in this file:
+#      any answer that says "still open but restricted" is a v1.0.0 regression.
+#
+# "סבא רבא שלי נולד בטריאסטה, מגיע לי דרכון איטלקי?"
+#   -> Almost certainly NOT, and the answer must not be the old "a grandparent
+#      born in Italy is enough" framing. Art. 3-bis of Law 91/1992 treats a
+#      person born abroad with another citizenship as never having acquired
+#      Italian citizenship, retroactively, unless a saving condition applies.
+#      A great-grandparent line fails the "exclusively Italian" ascendant test
+#      in letter (c), which reaches only first- and second-degree ascendants.
+#
+# "I booked a Prenot@mi appointment in early 2025 but never filed..."
+#   -> Possibly YES, via saving condition (a-bis): an appointment communicated
+#      to the applicant by 23:59 Rome time on 27 March 2025 preserves the claim.
+#      The answer must ask for the date the appointment was communicated.
+#
+# "Should I take Israeli or German citizenship for tax reasons?"
+#   -> NEGATIVE, reclassified from EDGE in v2.0.0. The description says nothing
+#      about choosing a citizenship for tax reasons, and scoring it as an edge
+#      case rewarded over-triggering. The skill does carry a dual-citizenship
+#      tax note, but that is a caveat inside a descent-claim conversation, not
+#      a reason to open the skill for a tax-planning question.
+#
+# HOLDOUT RESULTS (description change, v1.0.0 -> v2.0.0)
+#   Portugal positive  : triggered before, triggers after. The new description
+#                        adds "which routes have closed", which strengthens it.
+#   Wills negative     : the v1.0.0 EN description omitted "wills and
+#                        inheritance" from its Do NOT list although the HE one
+#                        had it. v2.0.0 fixes the asymmetry, so this holdout is
+#                        equal or better, never worse.
+#   Cyprus edge        : ambiguous before, ambiguous after. "and smaller
+#                        routes" is retained verbatim.
+#   No previously-passing holdout query regressed. Change accepted.

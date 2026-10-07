@@ -5,7 +5,7 @@ description: Apply the NIST AI Risk Management Framework (NIST AI 100-1 + the NI
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/nist-ai-rmf
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

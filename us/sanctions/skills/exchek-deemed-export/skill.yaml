@@ -1,0 +1,13 @@
+# ExChek Deemed Export / Foreign National Review Skill manifest
+# Used by agents and tools for discovery; SKILL.md holds full instructions.
+
+name: exchek-deemed-export
+description: Walk through 15 CFR 734.2(b) to determine if a release of technology or source code to a foreign national is a deemed export. Covers nationality, technology vs. software, fundamental research, and license/exception. Produces a short memo (deemed export applies / does not apply / recommend counsel). Use when the user wants a deemed export review, foreign national access review, or a memo on sharing tech with a foreign national.
+compatibility:
+  - Claude Code
+  - Claude desktop
+  - Claude CoWork
+  - Claude web
+
+version: "1"
+main: SKILL.md

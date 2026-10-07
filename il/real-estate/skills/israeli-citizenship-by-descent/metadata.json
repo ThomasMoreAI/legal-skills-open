@@ -1,0 +1,149 @@
+{
+  "display_name": {
+    "he": "דרכון אירופאי לפי מוצא",
+    "en": "European Passport by Descent Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. בודקים אם מגיע לכם דרכון אירופאי לפי מוצא המשפחה, ובונים מסלול בקשה שאפשר להגיש לבד מישראל. הסקיל מכסה את מסלולי השבת האזרחות לצאצאי נרדפי הנאצים (גרמניה, אוסטריה) ואת האזרחות לפי מוצא באיטליה, פולין, רומניה, הונגריה ועוד, אילו מסלולים כבר נסגרו, כולל בדיוק אילו מסמכים ישראליים, אפוסטיל ותרגום נדרשים בכל קונסוליה. שימושי כשמישהו במשפחה הגיע מאירופה ואתם רוצים לדעת אם דרכון בהישג יד ואיך מגישים את הבקשה לבד במקום לשלם לחברה אלפי שקלים. אל תשתמשו בו לעלייה לישראל, לוויזות עבודה או רילוקיישן, או כתחליף לעורך דין הגירה במקרה מורכב או שנוי במחלוקת.",
+    "en": "Not legal advice. Check whether you can claim a European passport through your family's ancestry and build the do-it-yourself application path, from Israel. Covers the Jewish restitution routes (Germany, Austria), citizenship by descent for Italy, Poland, Romania, Hungary and more, which routes have closed, plus exactly which Israeli documents, apostille, and translations each consulate wants. Use it when someone in your family came from Europe and you want to know if a passport is within reach and how to file it yourself instead of paying an agency thousands of shekels. Do NOT use for immigrating to Israel, work or relocation visas, wills and inheritance, or as a substitute for a licensed immigration lawyer on a complex or contested case."
+  },
+  "tags": {
+    "he": [
+      "אזרחות לפי מוצא",
+      "דרכון אירופאי",
+      "אזרחות כפולה",
+      "דרכון גרמני",
+      "דרכון אוסטרי",
+      "אפוסטיל",
+      "הגירה"
+    ],
+    "en": [
+      "citizenship-by-descent",
+      "european-passport",
+      "dual-citizenship",
+      "german-citizenship",
+      "austrian-citizenship",
+      "apostille",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "2.2.2",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "type": "statute",
+      "language": "pt"
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
+      "type": "statute",
+      "language": "it"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+      "type": "statute",
+      "language": "it"
+    },
+    {
+      "url": "https://www.econsulat.ro/AcordareCetatenie/DescriereServiciu/101000005",
+      "type": "regulator",
+      "language": "ro"
+    },
+    {
+      "url": "https://cetatenie.just.ro/category/anunturi/",
+      "type": "regulator",
+      "language": "ro"
+    },
+    {
+      "url": "https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie",
+      "type": "regulator",
+      "language": "pl"
+    },
+    {
+      "url": "https://www.gov.pl/web/mswia/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego",
+      "type": "regulator",
+      "language": "pl"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stag/__5.html",
+      "type": "statute",
+      "language": "de"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "type": "statute",
+      "language": "de"
+    },
+    {
+      "url": "https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+      "type": "statute",
+      "language": "de"
+    },
+    {
+      "url": "https://likumi.lv/ta/en/en/id/57512",
+      "type": "statute",
+      "language": "en"
+    },
+    {
+      "url": "https://id.mitos.gov.gr/338062",
+      "type": "regulator",
+      "language": "el"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-7045",
+      "type": "statute",
+      "language": "es"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/summary_info_procedure",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://embassies.gov.il/atlanta/en/announcements/aug26en",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.gov.il/en/service/summaryinfofromthepopulationregistrylisting",
+      "type": "regulator",
+      "language": "en"
+    },
+    {
+      "url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf",
+      "type": "court",
+      "language": "it"
+    },
+    {
+      "url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "type": "regulator",
+      "language": "de"
+    }
+  ],
+  "domain_checklist_version": 2
+}

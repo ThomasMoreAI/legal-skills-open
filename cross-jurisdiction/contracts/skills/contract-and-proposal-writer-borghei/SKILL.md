@@ -5,7 +5,7 @@ description: Generate business documents — contracts, proposals, SOWs, NDAs, M
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/business-growth/contract-and-proposal-writer
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: contracts

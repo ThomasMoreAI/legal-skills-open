@@ -11,7 +11,7 @@ description: 'Semantic comparison between two document versions. Goes beyond tex
 author: doculent
 author_url: https://github.com/doculent/community/tree/main/skills/doc-compare
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

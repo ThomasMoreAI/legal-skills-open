@@ -5,7 +5,7 @@ description: GDPR and German DSGVO compliance. Use for GDPR compliance assessmen
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/gdpr-dsgvo-expert
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: data-protection

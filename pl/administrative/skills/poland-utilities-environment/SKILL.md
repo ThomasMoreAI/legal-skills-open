@@ -5,7 +5,7 @@ description: 'Utilities and environment: route electricity, gas, heating, water,
 author: Xopoko
 author_url: https://github.com/Xopoko/poland/tree/main/skills/poland-utilities-environment
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: administrative

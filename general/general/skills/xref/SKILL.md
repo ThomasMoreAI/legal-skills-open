@@ -5,7 +5,7 @@ description: Cross-reference and defined term resolver for legal documents. Prod
 author: dvelton
 author_url: https://github.com/dvelton/xref/tree/main/skills/xref
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

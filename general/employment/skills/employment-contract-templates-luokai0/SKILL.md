@@ -5,7 +5,7 @@ description: Templates and patterns for creating legally sound employment docume
 author: luokai0
 author_url: https://github.com/luokai0/ai-agent-skills-by-luo-kai/tree/main/ai-agent-skills/21-external-registries/07-antigravity-awesome/employment-contract-templates
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment

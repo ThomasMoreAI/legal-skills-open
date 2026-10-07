@@ -5,7 +5,7 @@ description: Proposes bounded questions about a fictional vendor agreement and s
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-ai/tree/main/skills/orchestration-chat-demo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

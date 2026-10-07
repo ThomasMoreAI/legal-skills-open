@@ -1,0 +1,82 @@
+# patent-analysis
+
+面向中国发明和实用新型专利的结构化初步分析 Skill。围绕选定权利要求、证据分级和可回溯法源，支持从技术要点提取到侵权、无效、FTO 和规避设计等工作底稿。
+
+> v2.2.0 的核心原则：不默认只看权利要求 1；`推定/待核实` 不计入全面覆盖；保护范围、全面覆盖、等同、无效和FTO按多条款组合核验；公开报告不附法院或行政机关核验网址；第八十四号令23项修改逐一映射到十个场景，FTO旧基线触发更新后必须停止评级并先行刷新。
+
+## 适用人群
+
+- 律师、专利代理师和企业知识产权人员
+- 研发、产品、法务和合规团队
+- 争议解决、交易尽调和专利运营团队
+
+## 十个场景
+
+| 场景 | 主要产出 | 模板 |
+|---|---|---|
+| 单专利技术要点提取 | 独立权利要求、从属引用链和关键术语 | `references/01-single-patent-summary.md` |
+| 多专利比对 | 技术特征与保护范围结构矩阵 | `references/02-multi-patent-comparison.md` |
+| 产品—专利侵权比对 | 分权利要求、逐特征证据表 | `references/03-infringement-comparison.md` |
+| 稳定性/无效风险 | 分理由证据矩阵和检索计划 | `references/04-validity-analysis.md` |
+| FTO | 指定法域和截止日内的候选权利要求清单 | `references/05-fto-analysis.md` |
+| 规避设计 | 技术替代方案及重新比对要求 | `references/06-design-around.md` |
+| 专利价值评估 | 有证据约束的尽调与估值框架 | `references/07-patent-valuation.md` |
+| 等同原则 | 差异特征逐项分析和限制因素 | `references/08-doctrine-of-equivalents.md` |
+| 无效宣告应对 | 期限、理由、证据和修改方案表 | `references/09-invalidation-defense.md` |
+| 可视化输出 | 权利要求关系、证据门禁和时间线图表 | `references/10-visualization.md` |
+
+所有专业判断同时适用 `references/00-legal-basis.md` 中的共用法源与门禁，并按 `references/11-2026-guideline-impact.md` 核对2026年指南影响。`config/legal-source-register.json` 是法源版本、条款组、23项修改、十场景影响和FTO更新触发的机器可读基线；复杂问题不得压缩为单一条款。
+
+## 使用示例
+
+- “请拆解这些专利中与连接结构相关的全部独立权利要求。”
+- “请逐项比对权利人主张的权利要求 2、5 与产品 V3.2，推定特征不要计入覆盖。”
+- “请对中国市场、制造和销售行为开展 FTO，检索截止日为 2026-07-30。”
+- “请核对无效请求的答复期限，并整理逐项证据矩阵。”
+
+## 证据状态
+
+| 状态 | 含义 | 可否计入已覆盖 |
+|---|---|---|
+| `A-已证实` | 直接、可回查的证据支持 | 可以 |
+| `B-初步支持` | 间接材料提供线索，仍需核验 | 不可以 |
+| `C-不相同/缺失` | 证据显示不存在或实质不同 | 不可以 |
+| `D-无法判断` | 材料不足或存在关键分歧 | 不可以 |
+
+出现 `C` 时，无论是否同时存在 `B/D`，均不支持字面全面覆盖，并应同时披露其他证据缺口；仅在不存在 `C` 而存在 `B/D` 时，结论为证据不足。只有全部必要特征均为 `A`，才可表述“现有证据初步支持字面落入”。
+
+## 使用边界
+
+本 Skill 不用于：
+
+- 替代专利律师或专利代理师出具正式法律意见
+- 仅凭摘要、宣传图或未核验法律状态作确定性结论
+- 对外观设计近似、外国法或跨国诉讼直接套用中国发明/实用新型规则
+- 输出无来源的侵权概率、无效成功率、案件周期或专利价值指数
+- 对 FTO 作“不存在其他专利风险”的保证
+
+诉讼、无效、产品上市、交易、许可和对外文书应由专业人员结合完整材料复核。
+
+## 安装与维护
+
+将 `patent-analysis/` 目录放入支持 `SKILL.md` 的 Skill 目录即可。本 Skill 的文本流程无第三方依赖；下载、OCR、法律检索和高保真可视化可分别配合仓库内相关 Skill。
+
+维护者可在本目录运行：
+
+```bash
+python3 scripts/check_legal_sources.py --expected-version 2.2.0
+python3 scripts/validate_skill.py --repo-root ../..
+python3 scripts/check_evals.py --self-test
+```
+
+`check_legal_sources.py` 阻断公开URL、未知效力状态、无效日期、缺失修改/场景、单条款退化和FTO基线缺口；`validate_skill.py` 复用该门禁并检查元数据、相对引用、危险旧规则、评测契约和发布版本同步；`check_evals.py` 还可通过 `--outputs-dir` 检查按 `01.md` 至 `10.md` 保存的外部回答。这些静态与代表性检查均不构成具体案件法律正确性、跨模型一致性或长期指令稳定性证明。
+
+## 许可证
+
+本作品采用 [CC BY-NC 4.0](LICENSE.txt) 许可证。商用授权联系方式以 `LICENSE.txt` 为准。
+
+## 作者
+
+杨卫薪律师（微信 ywxlaw）
+
+关联项目：[Legal Skills](https://github.com/cat-xierluo/legal-skills)

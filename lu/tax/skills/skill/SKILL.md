@@ -5,7 +5,7 @@ description: Assistant administratif luxembourgeois — comprend une situation o
 author: gregherbe76
 author_url: https://github.com/gregherbe76/Luxembourg-Paperasse/tree/main/
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: lu
 practice: tax

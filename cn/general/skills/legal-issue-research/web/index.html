@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>法律检索工具</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #FAF8F4; color: #1F1B16; }
+  .container { max-width: 960px; margin: 0 auto; padding: 32px 20px; }
+  h1 { font-size: 24px; margin-bottom: 6px; color: #3D55E8; }
+  .sub { color: #5C534A; margin-bottom: 24px; font-size: 14px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .tab { padding: 8px 16px; border-radius: 18px; border: 1px solid #e2dccf; background: #fff; cursor: pointer; font-size: 13px; color: #1F1B16; }
+  .tab.active { background: #4F6BFF; color: #fff; border-color: #4F6BFF; }
+  .card { background: #fff; border: 1px solid #e2dccf; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  label { display: block; font-size: 13px; color: #5C534A; margin: 10px 0 6px; }
+  textarea, input[type=text] { width: 100%; border: 1px solid #d8d2c6; border-radius: 8px; padding: 10px 12px; font-size: 14px; }
+  textarea { min-height: 90px; resize: vertical; }
+  button { background: #4F6BFF; color: #fff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; cursor: pointer; margin-top: 10px; }
+  button:hover { background: #3D55E8; }
+  .result { margin-top: 12px; background: #F5F2EC; border-radius: 8px; padding: 14px; font-size: 14px; line-height: 1.7; white-space: pre-wrap; display: none; }
+  .result.show { display: block; }
+  .result .ok { color: #2e7d32; font-weight: 600; }
+  .result .bad { color: #c0392b; font-weight: 600; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>法律检索工具</h1>
+  <p class="sub">法源校验 · 时效检查 · 引用规范 · 案例检索 · 法律推理 —— 中国法律全领域检索助手</p>
+
+  <div class="tabs">
+    <button class="tab active" data-panel="citation">引用校验</button>
+    <button class="tab" data-panel="timeliness">时效校验</button>
+    <button class="tab" data-panel="report">报告校验</button>
+    <button class="tab" data-panel="case">案例检索</button>
+    <button class="tab" data-panel="reasoning">法律推理</button>
+    <button class="tab" data-panel="compare">效力比较</button>
+  </div>
+
+  <div class="panel active" id="panel-citation">
+    <div class="card">
+      <label>法条引用（如《民法典》第1065条）</label>
+      <input type="text" id="citation-input" placeholder="《中华人民共和国民法典》第一千零六十五条">
+      <button onclick="checkCitation()">校验引用</button>
+      <div class="result" id="citation-result"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-timeliness">
+    <div class="card">
+      <label>法源清单（JSON 数组：name/year/status）</label>
+      <textarea id="timeliness-input">[{"name": "民法通则", "year": 1986, "status": "已废止"}, {"name": "民法典", "year": 2020, "status": "现行有效"}]</textarea>
+      <button onclick="checkTimeliness()">时效校验</button>
+      <div class="result" id="timeliness-result"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-report">
+    <div class="card">
+      <label>检索报告（JSON：sources + citations）</label>
+      <textarea id="report-input">{"sources": [{"name": "民法通则", "type": "法律", "year": 1986, "status": "已废止"}], "citations": ["《民法通则》第1条"]}</textarea>
+      <button onclick="checkReport()">综合校验</button>
+      <div class="result" id="report-result"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-case">
+    <div class="card">
+      <label>案情描述（提取案由/争点/事实检索关键词）</label>
+      <textarea id="case-input" placeholder="张三与李四签订房屋买卖合同，后李四拒不交付房屋，张三起诉要求继续履行合同。"></textarea>
+      <button onclick="caseKeywords()">提取关键词</button>
+      <div class="result" id="case-result"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-reasoning">
+    <div class="card">
+      <label>推理方法</label>
+      <select id="reasoning-method" style="width:100%;padding:8px;border:1px solid #d8d2c6;border-radius:8px;font-size:14px">
+        <option value="deductive">演绎推理（大前提→小前提→结论）</option>
+        <option value="inductive">归纳推理（个案→规则）</option>
+        <option value="analogical">类比推理（类案参照）</option>
+        <option value="abductive">溯因推理（事实→原因假设）</option>
+      </select>
+      <label>参数（JSON）</label>
+      <textarea id="reasoning-input">{"major": "合同依法成立后受法律保护", "minor": "本案合同已依法成立", "conclusion": "本案合同受法律保护"}</textarea>
+      <button onclick="doReasoning()">推理分析</button>
+      <div class="result" id="reasoning-result"></div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-compare">
+    <div class="card">
+      <label>法源类型 A</label>
+      <input type="text" id="compare-a" value="法律">
+      <label>法源类型 B</label>
+      <input type="text" id="compare-b" value="行政法规">
+      <button onclick="compareLevels()">效力比较</button>
+      <div class="result" id="compare-result"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+async function post(url, body) {
+  const r = await fetch(url, { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body) });
+  return r.json();
+}
+function showResult(id, data, okField) {
+  const el = document.getElementById(id);
+  el.classList.add('show');
+  const isOk = data[okField] === undefined ? data.ok !== false : data[okField];
+  const badge = isOk ? '<span class="ok">✓ 通过</span>' : '<span class="bad">⚠ 需注意</span>';
+  el.innerHTML = badge + '\n' + JSON.stringify(data, null, 2);
+}
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('panel-' + t.dataset.panel).classList.add('active');
+  });
+});
+async function checkCitation() { showResult('citation-result', await post('/api/citation', {citation: document.getElementById('citation-input').value}), 'ok'); }
+async function checkTimeliness() { let s = []; try { s = JSON.parse(document.getElementById('timeliness-input').value); } catch(e) {} const d = await post('/api/timeliness', {sources: s}); showResult('timeliness-result', d, 'has_outdated'); document.getElementById('timeliness-result').innerHTML = (d.has_outdated ? '<span class="bad">⚠ 含过期法源</span>' : '<span class="ok">✓ 全部现行有效</span>') + '\n' + JSON.stringify(d, null, 2); }
+async function checkReport() { let rp = {}; try { rp = JSON.parse(document.getElementById('report-input').value); } catch(e) {} showResult('report-result', await post('/api/report', rp), 'ok'); }
+async function caseKeywords() { showResult('case-result', await post('/api/case-keywords', {case_text: document.getElementById('case-input').value}), 'ok'); }
+async function doReasoning() { let p = {}; try { p = JSON.parse(document.getElementById('reasoning-input').value); } catch(e) {} showResult('reasoning-result', await post('/api/reasoning', {method: document.getElementById('reasoning-method').value, params: p}), 'ok'); }
+async function compareLevels() { showResult('compare-result', await post('/api/compare', {type_a: document.getElementById('compare-a').value, type_b: document.getElementById('compare-b').value}), 'ok'); }
+</script>
+</body>
+</html>

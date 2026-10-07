@@ -5,7 +5,7 @@ description: Draft and fill NDA contract templates — mutual NDA, one-way NDA, 
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/nda
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

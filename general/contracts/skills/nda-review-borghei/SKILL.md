@@ -5,7 +5,7 @@ description: Deep clause-by-clause NDA review from Recipient or Discloser perspe
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/nda-review
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

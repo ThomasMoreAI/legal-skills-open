@@ -1,11 +1,11 @@
 ---
 name: ecc-claude-ra-qm-team-gdpr-dsgvo-expert
-title: 'Ecc claude ra qm team GDPR dsgvo expert'
+title: Ecc claude ra qm team GDPR dsgvo expert
 description: OpenClaw bridge skill for ra qm team gdpr dsgvo expert. Use when tasks match this specialized claude-skills capability and need OpenClaw-native execution with explicit verification.
 author: oabdelmaksoud
 author_url: https://github.com/oabdelmaksoud/Agention/tree/main/skills/ecc-claude-ra-qm-team-gdpr-dsgvo-expert
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: data-protection

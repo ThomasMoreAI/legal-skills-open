@@ -5,7 +5,7 @@ description: 法律AI求职助手 - 帮助法律人（法务/律师）使用AI�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/legal-job-search
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

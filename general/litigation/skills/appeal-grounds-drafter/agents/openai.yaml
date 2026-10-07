@@ -1,0 +1,4 @@
+interface:
+  display_name: "Appeal Grounds Drafter"
+  short_description: "Draft record-linked grounds of appeal"
+  default_prompt: "Use $appeal-grounds-drafter to draft concise grounds tied to the challenged findings, preserved errors, standard of review, record, and relief."

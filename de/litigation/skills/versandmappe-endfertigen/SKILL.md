@@ -5,7 +5,7 @@ description: 'Macht einen fertigen Schriftsatz mit gemischten Anlagen technisch 
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftsatz-versandwerkstatt/skills/versandmappe-endfertigen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation

@@ -1,0 +1,29 @@
+# Configuration des évaluations Paperasse Lux
+
+subject_model: claude-sonnet-4-5
+judge_model: claude-haiku-4-5
+
+# Température : on veut des réponses fiscales/comptables déterministes
+subject_temperature: 0.0
+judge_temperature: 0.0
+
+# Tokens
+subject_max_tokens: 4096
+judge_max_tokens: 1024
+
+# Système prompt commun ajouté à tous les runs
+system_prompt: |
+  Tu es un assistant expert de la bureaucratie luxembourgeoise (comptabilité,
+  fiscalité, droit notarial, copropriété). Tu réponds en français. Tu cites
+  précisément les textes (loi du XX, règlement grand-ducal du XX, article XX),
+  les seuils en euros, les taux. Tu ne confonds pas Luxembourg et France.
+  Si tu n'es pas sûr d'un chiffre, tu le dis.
+
+# Skills évalués (slugs des dossiers)
+skills:
+  - comptable
+  - controleur-fiscal
+  - commissaire-aux-comptes
+  - fiscaliste
+  - notaire
+  - syndic

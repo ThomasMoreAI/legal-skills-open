@@ -5,7 +5,7 @@ description: 'Civil status and life events: route birth, marriage, name, death, 
 author: Xopoko
 author_url: https://github.com/Xopoko/poland/tree/main/skills/poland-civil-life-events
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: administrative

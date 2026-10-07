@@ -5,11 +5,14 @@ description: 用于审查证据真实性的执行技能。真实性是证据"三
 author: sungaoxiang-backend
 author_url: https://github.com/sungaoxiang-backend/intelligent-evidence-platform/tree/main/skills/evidence-authenticity-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: litigation
 language: zh
+sources:
+- title: Api reference
+  path: references/api_reference.md
 ---
 
 # 证据真实性审查技能

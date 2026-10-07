@@ -5,7 +5,7 @@ description: Reviewing legal documents for Terms of Service, Privacy Policy, and
 author: simota
 author_url: https://github.com/simota/agent-skills/tree/main/.archive/clause
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

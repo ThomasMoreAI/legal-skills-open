@@ -1,0 +1,44 @@
+{
+  "_description": "Small bootstrapped startup, $500k revenue, 2,000 CA consumers, no sale of PD. Should be DOES_NOT_APPLY in all comprehensive-privacy-law states. All non-CA state counts explicitly zero so the deterministic engine can rule them out without flagging Insufficient.",
+  "entity": {
+    "legal_name": "Tiny SaaS Inc.",
+    "for_profit": true,
+    "naics_code": "541511"
+  },
+  "revenue": {
+    "annual_gross": 500000,
+    "calendar_year": 2025
+  },
+  "consumers": {
+    "us_total": 2000,
+    "by_state": {
+      "CA": 2000,
+      "TX": 0,
+      "VA": 0,
+      "CO": 0,
+      "CT": 0,
+      "UT": 0,
+      "OR": 0,
+      "MT": 0,
+      "IA": 0,
+      "IN": 0,
+      "TN": 0,
+      "DE": 0,
+      "NJ": 0,
+      "NH": 0,
+      "NE": 0,
+      "KY": 0,
+      "RI": 0,
+      "MD": 0,
+      "MN": 0,
+      "FL": 0
+    }
+  },
+  "sale_practices": {
+    "sells_pd": false,
+    "shares_for_cross_context_advertising": false,
+    "percent_revenue_from_sale": 0,
+    "any_revenue_from_sale": false,
+    "sells_sensitive_data_without_consent": false
+  }
+}

@@ -5,7 +5,7 @@ description: 'General Counsel advisory for startups: contract review (MSA, SaaS,
 author: alirezarezvani
 author_url: https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/general-counsel-advisor
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: corporate

@@ -1,0 +1,49 @@
+schema_version: 2
+template: Bonterms-Mutual-NDA.docx
+template_path: templates/_examples/Bonterms_Mutual_NDA/Bonterms-Mutual-NDA.docx
+format: docx
+analyzed_at: '2026-02-28T16:37:51Z'
+variable_count: 13
+variables:
+- name: purpose
+  label: Purpose
+  type: text
+- name: effective_date
+  label: Effective Date
+  type: date
+- name: term_of_nda
+  label: Term Of Nda
+  type: text
+- name: confidentiality_period
+  label: Confidentiality Period
+  type: text
+- name: governing_law
+  label: Governing Law
+  type: text
+- name: courts
+  label: Courts
+  type: text
+- name: additional_terms
+  label: Additional Terms
+  type: text
+- name: party1_name
+  label: Party1 Name
+  type: text
+- name: party1_signatory_name_and_title
+  label: Party1 Signatory Name And Title
+  type: text
+- name: party1_signing_date
+  label: Party1 Signing Date
+  type: date
+- name: party2_name
+  label: Party2 Name
+  type: text
+- name: party2_signatory_name_and_title
+  label: Party2 Signatory Name And Title
+  type: text
+- name: party2_signing_date
+  label: Party2 Signing Date
+  type: date
+conditionals: []
+loops: []
+dependencies: {}

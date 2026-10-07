@@ -1,0 +1,51 @@
+{
+  "_comment": "Exemple d'entrée FAIA pour Paperasse Lux. Voir lib/faia/ pour la doc.",
+  "company": {
+    "rcs": "B12345",
+    "matriculeTVA": "LU12345678",
+    "raisonSociale": "ACME S.à r.l.",
+    "siegeSocial": {
+      "rue": "1 rue de la Démonstration",
+      "ville": "Luxembourg",
+      "codePostal": "L-1234",
+      "pays": "LU"
+    }
+  },
+  "period": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "fiscalYear": "2025"
+  },
+  "currency": "EUR",
+  "taxAccountingBasis": "A",
+  "accounts": [
+    { "id": "411", "label": "Clients",                 "openingDebit": 0,    "openingCredit": 0, "closingDebit": 1170, "closingCredit": 0 },
+    { "id": "4457","label": "TVA collectée 17%",       "openingDebit": 0,    "openingCredit": 0, "closingDebit": 0,    "closingCredit": 170 },
+    { "id": "601", "label": "Achats de marchandises",  "openingDebit": 0,    "openingCredit": 0, "closingDebit": 500,  "closingCredit": 0 },
+    { "id": "707", "label": "Ventes de marchandises",  "openingDebit": 0,    "openingCredit": 0, "closingDebit": 0,    "closingCredit": 1000 }
+  ],
+  "customers": [
+    { "id": "C001", "name": "Société Cliente Lux S.A.", "tva": "LU87654321", "country": "LU" }
+  ],
+  "suppliers": [
+    { "id": "S001", "name": "Fournisseur DE GmbH",     "tva": "DE123456789", "country": "DE" }
+  ],
+  "entries": [
+    {
+      "id": "TX001", "date": "2025-03-15", "journalId": "VEN", "description": "Facture vente F2025-001",
+      "lines": [
+        { "id": "L1", "accountId": "411",  "debit": 1170,  "description": "Client C001" },
+        { "id": "L2", "accountId": "707",  "credit": 1000, "description": "CA HT" },
+        { "id": "L3", "accountId": "4457", "credit": 170,  "description": "TVA 17%", "taxCode": "STD" }
+      ]
+    }
+  ],
+  "salesInvoices": [
+    { "invoiceNo": "F2025-001", "date": "2025-03-15", "customerId": "C001",
+      "totalHT": 1000, "tva": 170, "totalTTC": 1170 }
+  ],
+  "purchaseInvoices": [
+    { "invoiceNo": "ACH-2025-007", "date": "2025-04-02", "supplierId": "S001",
+      "totalHT": 500, "tva": 0, "totalTTC": 500 }
+  ]
+}

@@ -5,7 +5,7 @@ description: Clerk for Crown fiduciary breaches, fund mismanagement, conflicts o
 author: aiskillstore
 author_url: https://github.com/aiskillstore/marketplace/tree/main/skills/acskamloops/fiduciary-duty-negligence
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ca
 practice: litigation

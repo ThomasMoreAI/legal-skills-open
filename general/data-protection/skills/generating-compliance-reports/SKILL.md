@@ -5,12 +5,18 @@ description: Generate comprehensive compliance reports for security standards. U
 author: flight505
 author_url: https://github.com/flight505/skill-forge/tree/main/plugins/security/compliance-report-generator/skills/generating-compliance-reports
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
-tags: [security, compliance, audit]
+tags:
+- security
+- compliance
+- audit
+sources:
+- title: Readme
+  path: references/README.md
 ---
 
 # Generating Compliance Reports

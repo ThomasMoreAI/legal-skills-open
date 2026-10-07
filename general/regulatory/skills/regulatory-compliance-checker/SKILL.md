@@ -5,12 +5,16 @@ description: Checks business operations against regulatory requirements and gene
 author: Eli-yu-first
 author_url: https://github.com/Eli-yu-first/skillshub/tree/main/skills-repository/complianceai/Regulatory-Compliance-Checker
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
-tags: [agent, legal-domain, ai, automation]
+tags:
+- agent
+- legal-domain
+- ai
+- automation
 ---
 
 # Regulatory Compliance Checker

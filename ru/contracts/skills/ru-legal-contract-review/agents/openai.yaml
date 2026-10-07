@@ -1,0 +1,8 @@
+interface:
+  display_name: "Russian Legal Contract Review"
+  short_description: "Review Russian contracts and RKN/PDn risks"
+  brand_color: "#1F6FEB"
+  default_prompt: "Use $ru-legal-contract-review to review this Russian-law contract for signing risks and concrete rewrite suggestions."
+
+policy:
+  allow_implicit_invocation: true

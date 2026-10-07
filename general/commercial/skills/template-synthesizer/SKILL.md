@@ -5,7 +5,7 @@ description: Guides the full lifecycle of drafting any commercial contract — f
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/template-synthesizer
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: commercial

@@ -1,0 +1,35 @@
+{
+  "raisonSociale": "Example SARL",
+  "formeJuridique": "SARL",
+  "rcs": "B123456",
+  "matriculeNational": "20231234567",
+  "matriculeTVA": "LU12345678",
+  "siegeSocial": {
+    "rue": "1, rue de l'Exemple",
+    "codePostal": "L-1234",
+    "ville": "Luxembourg",
+    "pays": "Luxembourg"
+  },
+  "regimeTVA": "trimestriel",
+  "exerciceComptable": {
+    "debut": "01-01",
+    "fin": "12-31"
+  },
+  "tailleEntreprise": "petite",
+  "activitePrincipale": {
+    "code": "62.01",
+    "libelle": "Programmation informatique"
+  },
+  "communeICC": "Luxembourg",
+  "tauxICC": 6.75,
+  "comptesBancaires": [
+    {
+      "iban": "LU00 0000 0000 0000 0000",
+      "banque": "BGL BNP Paribas",
+      "intitule": "Compte courant"
+    }
+  ],
+  "regimeRetraite": null,
+  "obligationAudit": false,
+  "consolidation": false
+}

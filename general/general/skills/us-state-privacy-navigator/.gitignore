@@ -1,0 +1,12 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
+
+# Test artifacts (transient)
+tests/fixtures/_test_output_*.json

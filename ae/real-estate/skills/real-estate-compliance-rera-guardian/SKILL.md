@@ -5,7 +5,7 @@ description: Expert UAE real estate compliance agent ensuring all brokerage oper
 author: sahiixx
 author_url: https://github.com/sahiixx/agency-agents/tree/main/skills/real-estate-compliance-rera-guardian
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ae
 practice: real-estate

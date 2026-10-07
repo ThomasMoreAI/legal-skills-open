@@ -1,11 +1,11 @@
 ---
 name: renewal-tracker-zhou210712
-title: 'Renewal tracker'
+title: Renewal tracker
 description: 展示具有即将到来的取消截止日期的合同，在通知窗口关闭前发出预警， 基于维护的续约登记册运行。当用户询问"什么即将续约""哪些续约即将到期" "我们是否错过了取消窗口""将此添加到续约追踪器"时使用，或按计划运行。 接收来自 saas-msa-review 的交接数据。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/commercial-legal/skills/renewal-tracker
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: commercial

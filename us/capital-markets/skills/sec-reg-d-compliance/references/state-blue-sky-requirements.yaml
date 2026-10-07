@@ -1,0 +1,794 @@
+# State Blue Sky Filing Requirements for Regulation D Offerings
+# Reference data for sec-reg-d-compliance skill
+# Last updated: 2024-2025 data
+# IMPORTANT: State requirements change periodically. Always verify current
+# requirements on NASAA (https://www.nasaa.org/) or individual state securities
+# regulator websites before filing. This reference provides a planning baseline.
+#
+# Filing method key:
+#   EFD  = Electronic Filing Depository (https://www.efd.nasaa.org/)
+#   PAPER = Paper filing required (mail to state regulator)
+#   STATE_PORTAL = State-specific electronic filing system
+#   EFD_OR_PAPER = Either method accepted
+
+---
+
+# ============================================================
+# ALL 50 STATES + DISTRICT OF COLUMBIA
+# Organized alphabetically
+# ============================================================
+
+states:
+
+  AL:
+    name: Alabama
+    regulator: Alabama Securities Commission
+    filing_required: true
+    form: Form D (copy of federal filing)
+    deadline: "Within 15 days of first sale to AL resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Consent to service of process required with initial filing"
+
+  AK:
+    name: Alaska
+    regulator: Alaska Division of Banking and Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to AK resident"
+    fee: $600
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  AZ:
+    name: Arizona
+    regulator: Arizona Corporation Commission - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to AZ resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  AR:
+    name: Arkansas
+    regulator: Arkansas Securities Department
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to AR resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  CA:
+    name: California
+    regulator: California Department of Financial Protection and Innovation (DFPI)
+    filing_required: true
+    form: "Form D + Filing Fee Transmittal Form"
+    deadline: "Within 15 days of first sale to CA resident"
+    fee_schedule:
+      - range: "$0 - $499,999"
+        fee: $300
+      - range: "$500,000 - $999,999"
+        fee: $500
+      - range: "$1,000,000 - $4,999,999"
+        fee: $1,200
+      - range: "$5,000,000 - $9,999,999"
+        fee: $2,500
+      - range: "$10,000,000+"
+        fee: "$2,500 + $500 per additional $1M (capped)"
+    fee_basis: offering_amount
+    filing_method: EFD
+    annual_renewal: false
+    notes: >
+      California has historically been one of the more active state regulators.
+      Filing fee is based on aggregate offering amount, not amount sold to CA residents.
+      Consent to service of process required.
+
+  CO:
+    name: Colorado
+    regulator: Colorado Division of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to CO resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  CT:
+    name: Connecticut
+    regulator: Connecticut Department of Banking - Securities Division
+    filing_required: true
+    form: "Form D + Form U-2 (Consent to Service of Process)"
+    deadline: "Within 15 days of first sale to CT resident"
+    fee: $150
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Consent to service of process (Form U-2) required with initial filing"
+
+  DE:
+    name: Delaware
+    regulator: Delaware Division of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to DE resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Delaware is the most common state of organization for LLCs but filing is based on investor residence, not entity formation state"
+
+  DC:
+    name: District of Columbia
+    regulator: DC Department of Insurance, Securities and Banking
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to DC resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  FL:
+    name: Florida
+    regulator: Florida Office of Financial Regulation
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to FL resident"
+    fee_schedule:
+      - range: "$0 - $499,999"
+        fee: $100
+      - range: "$500,000 - $999,999"
+        fee: $300
+      - range: "$1,000,000+"
+        fee: $500
+    fee_basis: offering_amount
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Relatively streamlined requirements for covered securities"
+
+  GA:
+    name: Georgia
+    regulator: Georgia Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to GA resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  HI:
+    name: Hawaii
+    regulator: Hawaii Department of Commerce and Consumer Affairs
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to HI resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  ID:
+    name: Idaho
+    regulator: Idaho Department of Finance
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to ID resident"
+    fee: $0
+    fee_basis: none
+    filing_method: EFD
+    annual_renewal: false
+    notes: "No filing fee for covered securities (Reg D offerings)"
+
+  IL:
+    name: Illinois
+    regulator: Illinois Secretary of State - Securities Department
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to IL resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  IN:
+    name: Indiana
+    regulator: Indiana Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to IN resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Consent to service of process required"
+
+  IA:
+    name: Iowa
+    regulator: Iowa Insurance Division - Securities Bureau
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to IA resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  KS:
+    name: Kansas
+    regulator: Kansas Office of the Securities Commissioner
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to KS resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  KY:
+    name: Kentucky
+    regulator: Kentucky Department of Financial Institutions
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to KY resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  LA:
+    name: Louisiana
+    regulator: Louisiana Office of Financial Institutions
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to LA resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  ME:
+    name: Maine
+    regulator: Maine Office of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to ME resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Consent to service of process required"
+
+  MD:
+    name: Maryland
+    regulator: Maryland Office of the Attorney General - Securities Division
+    filing_required: true
+    form: "Form D + Maryland Form D Supplement"
+    deadline: "Within 15 days of first sale to MD resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Maryland requires a state supplement form in addition to federal Form D"
+
+  MA:
+    name: Massachusetts
+    regulator: Massachusetts Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MA resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: >
+      Massachusetts is one of the most active state regulators for enforcement.
+      Has historically taken aggressive positions on Reg D compliance.
+
+  MI:
+    name: Michigan
+    regulator: Michigan Department of Licensing and Regulatory Affairs
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MI resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  MN:
+    name: Minnesota
+    regulator: Minnesota Department of Commerce
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MN resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  MS:
+    name: Mississippi
+    regulator: Mississippi Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MS resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  MO:
+    name: Missouri
+    regulator: Missouri Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MO resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  MT:
+    name: Montana
+    regulator: Montana State Auditor - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to MT resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  NE:
+    name: Nebraska
+    regulator: Nebraska Department of Banking and Finance
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to NE resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  NV:
+    name: Nevada
+    regulator: Nevada Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to NV resident"
+    fee: $500
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Higher fee than many states"
+
+  NH:
+    name: New Hampshire
+    regulator: New Hampshire Bureau of Securities Regulation
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to NH resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  NJ:
+    name: New Jersey
+    regulator: New Jersey Bureau of Securities
+    filing_required: true
+    form: "Form D + Form U-2 (Consent to Service of Process)"
+    deadline: "Within 15 days of first sale to NJ resident"
+    fee_schedule:
+      - range: "$0 - $499,999"
+        fee: $100
+      - range: "$500,000 - $4,999,999"
+        fee: $500
+      - range: "$5,000,000+"
+        fee: $750
+    fee_basis: offering_amount
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Requires Form U-2 consent to service of process in addition to Form D"
+
+  NM:
+    name: New Mexico
+    regulator: New Mexico Regulation and Licensing Department - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to NM resident"
+    fee: $350
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  NY:
+    name: New York
+    regulator: New York Attorney General - Investor Protection Bureau
+    filing_required: true
+    form: "Form 99 (NY-specific) + Form D + Consent to Service of Process"
+    deadline: "Within 15 days of first sale to NY resident"
+    fee_schedule:
+      - range: "$0 - $499,999"
+        fee: $1,200
+      - range: "$500,000 - $4,999,999"
+        fee: $1,800
+      - range: "$5,000,000 - $24,999,999"
+        fee: $3,600
+      - range: "$25,000,000+"
+        fee: "$3,600 + additional amounts"
+    fee_basis: offering_amount
+    filing_method: STATE_PORTAL
+    annual_renewal: true
+    renewal_notes: "Annual amendment filing required for ongoing offerings"
+    notes: >
+      New York has its own Form 99 (Further State Notice Filing) which must be
+      filed in addition to the federal Form D. NY uses its own electronic filing
+      system, not the national EFD. Filing fees are among the highest in the country.
+      New York takes late filings seriously and may issue cease-and-desist orders.
+      Consent to service of process is required.
+
+  NC:
+    name: North Carolina
+    regulator: North Carolina Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to NC resident"
+    fee: $350
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  ND:
+    name: North Dakota
+    regulator: North Dakota Securities Department
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to ND resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  OH:
+    name: Ohio
+    regulator: Ohio Division of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to OH resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  OK:
+    name: Oklahoma
+    regulator: Oklahoma Department of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to OK resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  OR:
+    name: Oregon
+    regulator: Oregon Division of Financial Regulation
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to OR resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  PA:
+    name: Pennsylvania
+    regulator: Pennsylvania Department of Banking and Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to PA resident"
+    fee: $500
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  RI:
+    name: Rhode Island
+    regulator: Rhode Island Department of Business Regulation
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to RI resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  SC:
+    name: South Carolina
+    regulator: South Carolina Office of the Attorney General - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to SC resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  SD:
+    name: South Dakota
+    regulator: South Dakota Division of Insurance - Securities Regulation
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to SD resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  TN:
+    name: Tennessee
+    regulator: Tennessee Department of Commerce and Insurance - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to TN resident"
+    fee: $500
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  TX:
+    name: Texas
+    regulator: Texas State Securities Board
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to TX resident"
+    fee_schedule:
+      - range: "$0 - $499,999"
+        fee: "$100 + 0.1% of offering (min $100, max $500)"
+      - range: "$500,000+"
+        fee: $500
+    fee_basis: offering_amount
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Fee is 1/10 of 1% of the aggregate offering price, minimum $100, maximum $500"
+
+  UT:
+    name: Utah
+    regulator: Utah Division of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to UT resident"
+    fee: $100
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  VT:
+    name: Vermont
+    regulator: Vermont Department of Financial Regulation
+    filing_required: true
+    form: "Form D + Consent to Service of Process"
+    deadline: "Within 15 days of first sale to VT resident"
+    fee: $600
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: "Higher fee. Consent to service of process required."
+
+  VA:
+    name: Virginia
+    regulator: Virginia State Corporation Commission - Division of Securities
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to VA resident"
+    fee: $250
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  WA:
+    name: Washington
+    regulator: Washington Department of Financial Institutions - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to WA resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  WV:
+    name: West Virginia
+    regulator: West Virginia Auditor's Office - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to WV resident"
+    fee: $300
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  WI:
+    name: Wisconsin
+    regulator: Wisconsin Department of Financial Institutions
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to WI resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+  WY:
+    name: Wyoming
+    regulator: Wyoming Secretary of State - Securities Division
+    filing_required: true
+    form: Form D
+    deadline: "Within 15 days of first sale to WY resident"
+    fee: $200
+    fee_basis: flat
+    filing_method: EFD
+    annual_renewal: false
+    notes: ""
+
+# ============================================================
+# SUMMARY STATISTICS
+# ============================================================
+
+summary:
+  total_jurisdictions: 51
+  filing_required_count: 51
+  filing_not_required_count: 0
+  fee_range: "$0 (Idaho) to $3,600+ (New York)"
+  most_common_deadline: "Within 15 days of first sale to state resident"
+  most_common_filing_method: EFD
+  states_requiring_consent_to_service: ["AL", "CT", "IN", "ME", "NJ", "NY", "VT"]
+  states_with_supplemental_forms: ["CA", "CT", "MD", "NJ", "NY", "VT"]
+  states_with_annual_renewal: ["NY"]
+  states_with_sliding_scale_fees: ["CA", "FL", "NJ", "NY", "TX"]
+  zero_fee_states: ["ID"]
+  high_fee_states: ["NY", "CA", "AK", "NV", "PA", "TN", "VT"]
+
+# ============================================================
+# HIGH-VOLUME CRE SYNDICATION STATES
+# Quick reference for states with the most CRE syndication investors
+# ============================================================
+
+high_volume_states:
+  tier_1_most_investors:
+    - state: NY
+      typical_fee: "$1,200 - $3,600+"
+      complexity: HIGH
+      notes: "Own form (Form 99), own portal, high fees, annual renewal, active enforcement"
+    - state: CA
+      typical_fee: "$300 - $2,500+"
+      complexity: MODERATE
+      notes: "Sliding scale fee, supplement form, active regulator"
+    - state: TX
+      typical_fee: "$100 - $500"
+      complexity: LOW
+      notes: "Straightforward, capped fee, EFD filing"
+    - state: FL
+      typical_fee: "$100 - $500"
+      complexity: LOW
+      notes: "Simplified requirements for covered securities"
+
+  tier_2_common:
+    - state: NJ
+      typical_fee: "$100 - $750"
+      complexity: MODERATE
+      notes: "Requires Form U-2, sliding scale"
+    - state: IL
+      typical_fee: "$100"
+      complexity: LOW
+      notes: "Flat fee, simple filing"
+    - state: CT
+      typical_fee: "$150"
+      complexity: LOW
+      notes: "Requires Form U-2"
+    - state: PA
+      typical_fee: "$500"
+      complexity: LOW
+      notes: "Higher flat fee but simple process"
+    - state: VA
+      typical_fee: "$250"
+      complexity: LOW
+      notes: "Straightforward"
+    - state: MA
+      typical_fee: "$300"
+      complexity: MODERATE
+      notes: "Active enforcement state"
+    - state: GA
+      typical_fee: "$250"
+      complexity: LOW
+      notes: ""
+    - state: NC
+      typical_fee: "$350"
+      complexity: LOW
+      notes: ""
+
+# ============================================================
+# FILING COST ESTIMATOR
+# For a typical CRE syndication with investors in 8-12 states
+# ============================================================
+
+cost_estimates:
+  scenario_small:
+    description: "50 investors across 5 states (NY, NJ, CT, FL, TX)"
+    offering_amount: "$2,000,000"
+    estimated_filing_fees: "$2,350 - $3,050"
+    breakdown:
+      NY: "$1,200 (Form 99)"
+      NJ: "$500"
+      CT: "$150"
+      FL: "$300"
+      TX: "$200"
+
+  scenario_medium:
+    description: "100 investors across 10 states (NY, NJ, CT, CA, FL, TX, PA, MA, VA, IL)"
+    offering_amount: "$5,000,000"
+    estimated_filing_fees: "$5,100 - $7,700"
+    breakdown:
+      NY: "$3,600"
+      CA: "$1,200"
+      NJ: "$500"
+      PA: "$500"
+      TX: "$500"
+      FL: "$500"
+      MA: "$300"
+      NC: "$350"
+      VA: "$250"
+      CT: "$150"
+      IL: "$100"
+
+  scenario_large:
+    description: "200 investors across 20 states"
+    offering_amount: "$10,000,000"
+    estimated_filing_fees: "$8,000 - $12,000"
+    notes: "Fees scale primarily with NY and CA; other states are generally $100-$500 each"

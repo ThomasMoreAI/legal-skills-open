@@ -351,3 +351,6 @@ Obligatoire (loi organique du 15 avril 2009). Il indique simplement les raisons 
 ses objectifs et les modifications apportées au droit existant, sans paraphraser le dispositif. Deux
 parties : contexte général et objectifs ; puis présentation article par article (ou par division pour
 les textes longs). Le juge peut s'y référer en cas de doute sur l'intention du législateur.
+
+Trames de l'exposé des motifs, de l'étude d'impact et de la fiche d'impact, et repérage des
+consultations : `references/procedure-et-documents.md`.

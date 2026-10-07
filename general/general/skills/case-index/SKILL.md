@@ -5,7 +5,7 @@ description: JuriSupport CSV 사건 인덱스 - JuriSupport MCP를 쓰지 않는
 author: jurisupport
 author_url: https://github.com/jurisupport/jurisupport-plugins/tree/main/plugins/jurisupport/skills/case-index
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

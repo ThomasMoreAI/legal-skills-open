@@ -5,7 +5,7 @@ description: 'Use this skill when a UK seed-stage founder needs first-cut legal 
 author: kerberosmansour
 author_url: https://github.com/kerberosmansour/SunLitOrchestra/tree/main/skills/slo-legal
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: gb
 practice: contracts

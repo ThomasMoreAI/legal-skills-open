@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arbitrator Appointment Advisor"
+  short_description: "Analyse appointment, eligibility, and independence"
+  default_prompt: "Use $arbitrator-appointment-advisor to map the appointment process and assess candidate eligibility and conflicts."

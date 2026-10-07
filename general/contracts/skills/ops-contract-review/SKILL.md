@@ -5,7 +5,7 @@ description: Review business contracts for risk identification including liabili
 author: asgard-ai-platform
 author_url: https://github.com/asgard-ai-platform/skills/tree/main/ops-contract-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

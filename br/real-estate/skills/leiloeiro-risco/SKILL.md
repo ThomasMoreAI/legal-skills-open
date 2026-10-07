@@ -5,12 +5,19 @@ description: Analise de risco em leiloes de imoveis. Score 36 pontos, riscos jur
 author: LongLeo287
 author_url: https://github.com/LongLeo287/OmniClaw/tree/main/ecosystem/skills/leiloeiro_risco
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: real-estate
 language: pt
-tags: [risk-analysis, scoring, stress-test, brazilian]
+tags:
+- risk-analysis
+- scoring
+- stress-test
+- brazilian
+sources:
+- title: Fontes
+  path: references/fontes.md
 ---
 
 # SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES

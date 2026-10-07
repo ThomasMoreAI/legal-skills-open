@@ -1,11 +1,11 @@
 ---
 name: denmark-cvr-nolpak14
-title: 'Denmark cvr'
+title: Denmark cvr
 description: 'Look up Danish companies for free via the official Erhvervsstyrelsen CVR distribution (Det Centrale Virksomhedsregister) - company profile, CVR number (= VAT number), registered address, DB07 industry code, company form (ApS / A/S), status, founding date, and participants/management (board and owners) via the deltager data. Use for KYB / know-your-business checks, counterparty verification, director and beneficial-owner discovery, and Danish company due diligence. Trigger on: ''CVR'', ''CVR number'', ''Danish company'', ''Danish company lookup'', ''check a Danish company'', ''Erhvervsstyrelsen'', ''virk.dk'', ''CVR-nummer'', ''Danish VAT number'', ''is this Danish company active''. The CVR distribution is free (after a one-time free registration); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/denmark-cvr
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: dk
 practice: regulatory
@@ -148,3 +148,8 @@ There is no Danish regdata actor - the free CVR distribution above is the whole 
 - **`vies-vat-validation`** - confirm the `DK`-prefixed CVR/VAT number is valid and active for EU cross-border trade.
 - **`sanctions-pep-screening`** - screen the participants and management you found here against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Danish jurisdictions.
+
+## More on getregdata.com
+
+- Full guide to this skill: https://getregdata.com/skills/denmark-cvr/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

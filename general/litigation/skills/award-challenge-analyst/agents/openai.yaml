@@ -1,0 +1,4 @@
+interface:
+  display_name: "Award Challenge Analyst"
+  short_description: "Assess challenge and enforcement-resistance grounds"
+  default_prompt: "Use $award-challenge-analyst to assess possible grounds to challenge or resist enforcement of this award."

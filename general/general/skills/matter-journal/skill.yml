@@ -1,0 +1,10 @@
+name: Matter Journal
+practice_area: Practice Management
+jurisdiction: Multi
+version: "1.0"
+author: HeyCounsel Community
+description: >
+  Manages client matter journals — persistent case files that give
+  AI full context on every client and matter. Creates, loads, and
+  logs to per-matter markdown journals for seamless context across
+  sessions.

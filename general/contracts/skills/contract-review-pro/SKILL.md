@@ -5,12 +5,16 @@ description: 专业合同审核 Skill，基于《合同审核方法论体系》�
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skill/tree/main/skills/data-ai/contract-review-pro-neversight
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: zh
-tags: [合同审核, 法律, 风险管理, 三观四步法]
+tags:
+- 合同审核
+- 法律
+- 风险管理
+- 三观四步法
 ---
 
 # Contract Review Pro - 专业合同审核 Skill

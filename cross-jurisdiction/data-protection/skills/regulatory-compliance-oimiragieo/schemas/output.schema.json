@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "RegulatoryCompliance Output",
+  "description": "Structured output from the regulatory-compliance skill assessment",
+  "type": "object",
+  "required": ["decision", "regulationsAssessed", "assessmentDate", "findings"],
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": ["PASS", "CONDITIONAL", "FAIL"],
+      "description": "Overall compliance decision: PASS (all items verified), CONDITIONAL (minor/medium findings with remediation plan), FAIL (critical/high findings requiring remediation before deployment)"
+    },
+    "regulationsAssessed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of regulations assessed (e.g., GDPR, CCPA, WCAG 2.1 AA, DPA)"
+    },
+    "assessmentDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the assessment was performed (YYYY-MM-DD)"
+    },
+    "subject": {
+      "type": "string",
+      "description": "The system or artifact that was assessed"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "regulation", "severity", "category", "description", "status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Finding identifier (e.g., RC-001)"
+          },
+          "regulation": {
+            "type": "string",
+            "description": "Regulation this finding relates to (e.g., GDPR, CCPA, WCAG)"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["CRITICAL", "HIGH", "MEDIUM", "LOW"],
+            "description": "Severity level of the finding"
+          },
+          "category": {
+            "type": "string",
+            "description": "Compliance category (e.g., Consent Management, Data Inventory, Accessibility)"
+          },
+          "description": {
+            "type": "string",
+            "description": "Specific description of the compliance gap found"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["PASS", "FAIL", "CONDITIONAL", "NOT_APPLICABLE"],
+            "description": "Status of this specific finding"
+          },
+          "remediation": {
+            "type": "string",
+            "description": "Specific actionable remediation step"
+          },
+          "owner": {
+            "type": "string",
+            "description": "Agent or role responsible for remediation (e.g., developer, devops, compliance-checker)"
+          },
+          "deadline": {
+            "type": "string",
+            "description": "Remediation deadline (e.g., Before next deployment, 30 days, YYYY-MM-DD)"
+          }
+        }
+      },
+      "description": "Individual compliance findings"
+    },
+    "requiredMitigations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Mitigations required before deployment (for CONDITIONAL decisions)"
+    },
+    "evidencePaths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "File paths to evidence or report files generated"
+    },
+    "regulatoryLinks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": "Links to authoritative regulatory sources consulted"
+    },
+    "nextReviewDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Recommended date for the next compliance assessment"
+    },
+    "recommendedNextStep": {
+      "type": "string",
+      "description": "Single recommended next action after this assessment"
+    }
+  },
+  "additionalProperties": false
+}

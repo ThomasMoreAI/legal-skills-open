@@ -1,0 +1,340 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "generated_at": "2026-07-06T06:25:36.698Z",
+    "slug": "cesareth-kvkk-denetim",
+    "source_url": "https://github.com/cesareth/hermes-turkce-skills/tree/main/kvkk-denetim",
+    "source_ref": "main",
+    "model": "codex",
+    "analysis_version": "3.0.0",
+    "source_type": "community",
+    "content_hash": "d673f65c4d751117032de6d9b270b360625a04741a8850ffa3d1af1a692c3440",
+    "tree_hash": "ced03c94f5e5ff3356ad98c758161bf9b35717f8a8e7f246cc6403c650252764",
+    "provenance": {
+      "model_requested": "gpt-5.5:high",
+      "model_effective": "codex:gpt-5.5:high",
+      "fallback_chain": [
+        {
+          "agent": "codex",
+          "model": "gpt-5.5",
+          "effort": "high",
+          "outcome": "success"
+        }
+      ],
+      "analysis_version": "3.0.0"
+    }
+  },
+  "skill": {
+    "name": "kvkk-denetim",
+    "description": "Reviews Turkish KVKK privacy notices, consent text, and data practices for common compliance gaps. Includes templates, checklist guidance, and a local Python quick-check script.",
+    "summary": "Audit Turkish KVKK privacy notices, consent forms, and data practices.",
+    "icon": "📦",
+    "version": "1.0.0",
+    "author": "cesareth",
+    "license": "MIT",
+    "category": "legal",
+    "tags": [
+      "kvkk",
+      "privacy",
+      "compliance",
+      "turkey",
+      "legal-review"
+    ],
+    "supported_tools": [
+      "claude",
+      "codex",
+      "claude-code"
+    ],
+    "risk_factors": [
+      "external_commands"
+    ]
+  },
+  "security_audit": {
+    "risk_level": "safe",
+    "is_blocked": false,
+    "safe_to_publish": true,
+    "analysis_status": "ok",
+    "summary": "All five static findings are false positives caused by Markdown fenced examples in SKILL.md. I found no prompt injection, data exfiltration intent, or business-logic abuse. The bundled Python script performs local text and file analysis only.",
+    "remediation": [],
+    "risk_factor_evidence": [
+      {
+        "factor": "external_commands",
+        "evidence": [
+          {
+            "file": "SKILL.md",
+            "line_start": 75,
+            "line_end": 102
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 102,
+            "line_end": 106
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 106,
+            "line_end": 117
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 117,
+            "line_end": 143
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 143,
+            "line_end": 161
+          }
+        ]
+      }
+    ],
+    "static_findings": [
+      {
+        "id": "external_commands:SKILL.md:75:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 75,
+        "line_end": 102,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:102:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 102,
+        "line_end": 106,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:106:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 106,
+        "line_end": 117,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:117:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 117,
+        "line_end": 143,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:143:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 143,
+        "line_end": 161,
+        "snippet": "```"
+      }
+    ],
+    "finding_verdicts": [
+      {
+        "id": "external_commands:SKILL.md:75:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.98,
+        "reason": "SKILL.md lines 75-102 are a Markdown fenced privacy notice template. The backticks delimit sample legal text and are not executable Ruby or shell code."
+      },
+      {
+        "id": "external_commands:SKILL.md:102:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.97,
+        "reason": "SKILL.md lines 102-106 only close one Markdown template and open another. There is no command interpreter, shell invocation, or user-controlled execution path."
+      },
+      {
+        "id": "external_commands:SKILL.md:106:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.98,
+        "reason": "SKILL.md lines 106-117 are a Markdown fenced explicit consent template. The fenced content contains legal prose placeholders, not shell commands."
+      },
+      {
+        "id": "external_commands:SKILL.md:117:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.96,
+        "reason": "SKILL.md lines 117-143 contain a closing Markdown fence and explanatory compliance text. No executable command or Ruby backtick expression is present."
+      },
+      {
+        "id": "external_commands:SKILL.md:143:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.98,
+        "reason": "SKILL.md lines 143-161 are a fenced report output example. It is a documentation template, not shell or Ruby execution."
+      }
+    ],
+    "semantic_findings": [],
+    "critical_findings": [],
+    "high_findings": [],
+    "medium_findings": [],
+    "low_findings": [],
+    "dangerous_patterns": [],
+    "files_scanned": 3,
+    "total_lines": 461,
+    "audit_model": "codex",
+    "audited_at": "2026-07-06T06:25:36.698Z",
+    "agent_auto_install_policy": "allowed",
+    "manual_install_policy": "allowed"
+  },
+  "content": {
+    "user_title": "Audit KVKK Privacy Compliance",
+    "value_statement": "Turkish teams need fast checks for KVKK notices, consent forms, and privacy policies. This skill reviews required elements, flags gaps, and drafts practical compliance text.",
+    "seo_keywords": [
+      "Claude",
+      "Codex",
+      "Claude Code",
+      "KVKK audit",
+      "Turkish privacy law",
+      "data protection compliance",
+      "consent form review",
+      "privacy notice template",
+      "legal AI skill",
+      "Kişisel Verilerin Korunması"
+    ],
+    "actual_capabilities": [
+      "Guides KVKK audits with checklists for data inventory, legal basis, notices, rights, and security.",
+      "Drafts Turkish aydınlatma metni and explicit consent templates using provided placeholders.",
+      "Reviews privacy text for missing controller, purpose, transfer, retention, contact, and Article 11 rights.",
+      "Uses the included Python script to score text or file inputs against keyword-based KVKK checks.",
+      "References core KVKK articles and common violations from bundled reference material."
+    ],
+    "limitations": [
+      "It is informational and does not replace licensed legal advice.",
+      "Penalty amounts and legal thresholds may become outdated without manual updates.",
+      "The quick-check script is keyword-based and can miss nuanced legal issues.",
+      "It focuses on Turkish KVKK requirements, not full GDPR compliance."
+    ],
+    "use_cases": [
+      {
+        "title": "Review Product Data Flows",
+        "description": "Check app signup, support, and analytics data flows before publishing a privacy notice.",
+        "target_user": "Product managers"
+      },
+      {
+        "title": "Find Notice Gaps",
+        "description": "Identify missing KVKK Article 10 and Article 11 elements in existing customer notices.",
+        "target_user": "Legal and compliance teams"
+      },
+      {
+        "title": "Draft First Policies",
+        "description": "Create a first draft of an aydınlatma metni and explicit consent statement.",
+        "target_user": "Startup founders"
+      }
+    ],
+    "prompt_templates": [
+      {
+        "title": "Check a Privacy Notice",
+        "scenario": "Beginner review of one document",
+        "prompt": "Review this Turkish privacy notice for KVKK Article 10 completeness. List missing elements, risk level, and plain-language fixes: [paste text]"
+      },
+      {
+        "title": "Draft Consent Text",
+        "scenario": "Intermediate drafting for a clear purpose",
+        "prompt": "Draft a Turkish explicit consent statement for this processing activity. Include data type, purpose, withdrawal right, date, name, and signature fields: [describe activity]"
+      },
+      {
+        "title": "Audit a Service Workflow",
+        "scenario": "Detailed review of product operations",
+        "prompt": "Audit this service workflow for KVKK compliance. Check data inventory, legal basis, transfers, retention, Article 11 rights, and security controls: [describe workflow]"
+      },
+      {
+        "title": "Prepare Remediation Plan",
+        "scenario": "Advanced compliance planning",
+        "prompt": "Use the KVKK checklist and reference articles to produce a prioritized remediation plan. Group findings by critical, important, and recommended actions: [paste audit notes]"
+      }
+    ],
+    "output_examples": [
+      {
+        "input": "A privacy notice has no retention period and does not mention Article 11 rights.",
+        "output": "Critical gaps: Article 11 rights are missing. Important gaps: retention details are missing. Suggested fix: add rights, contact method, and retention schedule."
+      },
+      {
+        "input": "A consent form says users accept data processing by using the service.",
+        "output": "Finding: consent is likely invalid because passive use is not explicit consent. Suggested fix: request separate, informed, and withdrawable consent."
+      },
+      {
+        "input": "A service uses Stripe and Google Cloud for Turkish customer data.",
+        "output": "Important issue: possible international transfer. Review KVKK Article 9 requirements, transfer notices, legal basis, and provider safeguards."
+      }
+    ],
+    "best_practices": [
+      "Provide the full Turkish text and describe the real data flow before asking for review.",
+      "Validate generated legal text with a qualified Turkish privacy lawyer before publication.",
+      "Keep KVKK penalty amounts, VERBİS thresholds, and regulatory guidance current."
+    ],
+    "anti_patterns": [
+      "Do not treat the generated report as binding legal advice.",
+      "Do not use generic GDPR wording without adapting it to KVKK requirements.",
+      "Do not rely only on keyword checks for high-risk or special-category data processing."
+    ],
+    "faq": [
+      {
+        "question": "Does this skill provide legal advice?",
+        "answer": "No. It provides informational review and drafting support. A qualified lawyer should approve final compliance decisions."
+      },
+      {
+        "question": "Can it create a KVKK aydınlatma metni?",
+        "answer": "Yes. It includes a template and can draft text from your company, purpose, data, transfer, and contact details."
+      },
+      {
+        "question": "Can it review existing privacy policies?",
+        "answer": "Yes. It checks for common KVKK elements, missing rights, unclear transfers, retention gaps, and risky consent language."
+      },
+      {
+        "question": "Does it work for GDPR compliance?",
+        "answer": "No. It may compare KVKK and GDPR at a high level, but it focuses on Turkish KVKK requirements."
+      },
+      {
+        "question": "Does the script send data to external services?",
+        "answer": "No evidence found. The included Python script reads local text or file input and prints a local report."
+      },
+      {
+        "question": "What information should I provide?",
+        "answer": "Provide the notice text, processed data types, processing purposes, recipients, retention period, transfer details, and contact method."
+      }
+    ]
+  },
+  "file_structure": [
+    {
+      "name": "references",
+      "type": "dir",
+      "path": "references",
+      "children": [
+        {
+          "name": "kvkk-maddeler.md",
+          "type": "file",
+          "path": "references/kvkk-maddeler.md",
+          "lines": 87
+        }
+      ]
+    },
+    {
+      "name": "scripts",
+      "type": "dir",
+      "path": "scripts",
+      "children": [
+        {
+          "name": "kvkk_check.py",
+          "type": "file",
+          "path": "scripts/kvkk_check.py",
+          "lines": 210
+        }
+      ]
+    },
+    {
+      "name": "SKILL.md",
+      "type": "file",
+      "path": "SKILL.md",
+      "lines": 164
+    }
+  ]
+}

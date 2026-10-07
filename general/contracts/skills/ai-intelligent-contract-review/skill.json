@@ -1,0 +1,11 @@
+{
+  "name": "ai-intelligent-contract-review",
+  "version": "1.0.0",
+  "description": "自动化合同审查，风险识别 + 条款分析",
+  "author": "yang1002378395-cmyk",
+  "tags": ["contract", "legal", "review", "chinese", "ai"],
+  "category": "legal",
+  "license": "MIT",
+  "price": 0,
+  "currency": "USD"
+}

@@ -1,11 +1,11 @@
 ---
 name: web-fallback
-title: 'Web fallback'
+title: Web fallback
 description: When the Harvester misses a citation, fetch the statute live from an authoritative government source, verify the section number actually appears on the page, then summarize ONLY the fetched text. Refuse cleanly if no verified source.
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/web_fallback
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ca
 practice: personal-injury

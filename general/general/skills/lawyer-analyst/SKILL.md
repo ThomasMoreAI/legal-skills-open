@@ -13,7 +13,7 @@ description: 'Analyzes events through legal lens using statutory interpretation,
 author: rysweet
 author_url: https://github.com/rysweet/amplihack-rs/tree/main/docs/claude/skills/lawyer-analyst
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

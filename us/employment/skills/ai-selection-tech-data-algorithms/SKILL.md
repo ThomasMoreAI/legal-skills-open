@@ -5,12 +5,16 @@ description: 'Use FIRST when evaluating, classifying, or comparing any AI-based 
 author: OpenMatter-Network
 author_url: https://github.com/OpenMatter-Network/agent-io-skills/tree/main/ai-selection-legal-ethical/skills/ai-selection-tech-data-algorithms
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment
 language: en
-tags: [community, io-psychology, ai-assessment, legal-ethical]
+tags:
+- community
+- io-psychology
+- ai-assessment
+- legal-ethical
 ---
 
 # AI selection: technologies, data, algorithms

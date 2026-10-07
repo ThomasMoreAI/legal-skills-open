@@ -5,7 +5,7 @@ description: 'Reference skill: /regulatory-legal:gaps ve /regulatory-legal:comme
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/gap-surfacer
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: regulatory

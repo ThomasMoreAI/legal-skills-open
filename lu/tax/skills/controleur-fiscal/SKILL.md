@@ -5,11 +5,18 @@ description: Simule un contrôle fiscal luxembourgeois (ACD pour impôts directs
 author: gregherbe76
 author_url: https://github.com/gregherbe76/Luxembourg-Paperasse/tree/main/controleur-fiscal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: lu
 practice: tax
 language: fr
+sources:
+- title: Procedure controle
+  path: references/procedure-controle.md
+- title: Sanctions bareme
+  path: references/sanctions-bareme.md
+- title: Textes fiscaux
+  path: references/textes-fiscaux.md
 ---
 
 # Skill : Contrôleur Fiscal Luxembourg

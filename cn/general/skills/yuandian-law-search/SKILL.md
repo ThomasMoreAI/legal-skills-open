@@ -5,7 +5,7 @@ description: 元典法律检索与精选报告。查询中国法律法规、案�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/yuandian-law-search
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: general

@@ -1,11 +1,11 @@
 ---
 name: renewal-tracker
-title: 'Renewal tracker'
+title: Renewal tracker
 description: Show contracts with cancel-by deadlines coming up and warn before notice windows close, working from a maintained renewal register. Use when the user asks "what's renewing soon", "what renewals are due", "did we miss a cancellation window", "add this to the renewal tracker", or on a scheduled basis. Receives handoffs from saas-msa-review.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/commercial-legal/skills/renewal-tracker
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: commercial

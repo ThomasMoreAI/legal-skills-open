@@ -5,7 +5,7 @@ description: Apply China contract drafting review with San Guan Si Bu Fa. Trigge
 author: simbajigege
 author_url: https://github.com/simbajigege/book2skills/tree/main/skills/contract-drafting-and-review-guidance-china-law
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: contracts

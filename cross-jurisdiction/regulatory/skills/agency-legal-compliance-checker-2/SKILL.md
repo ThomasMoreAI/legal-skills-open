@@ -5,7 +5,7 @@ description: Expert legal and compliance specialist ensuring business operations
 author: mk-knight23
 author_url: https://github.com/mk-knight23/AGENTS-COLLECTION/tree/main/SKILLS/NANOCLAW/AGENCY-LEGAL-COMPLIANCE-CHECKER
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

@@ -1,0 +1,698 @@
+{
+  "schemaVersion": "1.0",
+  "skill_slug": "israeli-standards-import-checker",
+  "version": "1.3.0",
+  "generated_at": "2026-08-24T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "eu-directives-phasing",
+      "claim": "The European Directives track allows import, manufacture or marketing of products subject to official Israeli standards where they meet the corresponding European regulations; implementation began in stages on 1 January 2025 and is scheduled to continue through 1 January 2028.",
+      "source_url": "https://www.complianceandrisks.com/blog/whats-good-for-europe-is-good-for-israel-qa-reviewing-the-import-reform-one-year-in/",
+      "raw_snippet": "Implementation of these directives began in stages on 1 January 2025 and is scheduled to continue through 1 January 2028.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The Israel Tax Authority operates a Certificate of Origin query service at shaarolami-query.customs.mof.gov.il, which lets a user view a certificate by certificate number and date of issue, showing the certified details as reported on the preferential document submitted to Israeli Customs.",
+      "where": "SKILL.md Step 4, SKILL_HE.md Step 4, Reference Links table",
+      "source_url": "https://shaarolami-query.customs.mof.gov.il/CustomsPilotWeb/CertificateOfOrigin",
+      "source_title": "Sha'ar Olami - Israel Customs electronic clearance portal",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "Certificate of Origin query The query gives the possibility to view the certificate by certificate number and date of issue.",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim": "Under Amendment 19, enforcement for the first five years focuses only on compliance with adopted-directive requirements that correspond to parallel sections of the official Israeli standards.",
+      "where": "SKILL.md Step 3 route 5, SKILL_HE.md Step 3 route 5, references/approval-routes.md section 5, references/fast-track-options.md section 3",
+      "source_url": "https://www.complianceandrisks.com/blog/whats-good-for-europe-is-good-for-israel-qa-reviewing-the-import-reform-one-year-in/",
+      "source_title": "What's Good for Europe Is Good for Israel: Q&A Reviewing the Import Reform One Year In",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "a critical point applies during the first five years: enforcement will focus only on compliance with the adopted Directive requirements to the extent that they correspond to parallel sections of the official Israeli standards."
+    },
+    {
+      "claim_id": "maslol-green",
+      "claim": "Green Plan: test 50% of the commercial shipments per year of the same samples whose product file is classified as green.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "Easements under the Green Plan: test 50% of the commercial shipments per year of the same samples whose product file is classified as green, as set forth in the applicable Shin annex.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-gold",
+      "claim": "Gold Plan: test 33% per year; switching to Gold is possible after twelve continuous months on Green.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "Easements under the Gold Plan: test 33% of the commercial shipments per year of the same samples whose product file is classified as green, as set forth in the applicable Shin annex.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-gold-switch",
+      "claim": "Switching to the Gold Plan is possible after twelve continuous months on the Green Plan.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "It is possible to switch to the Gold Plan after twelve continuous months on the Green Plan.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-diamond",
+      "claim": "Diamond Plan: a sale permit is granted before the Shin test, for the importer's green files only.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "Easements under the Diamond Plan: granting of a sale permit before conducting the Shin test for the importer's green files only. The conditions for joining this plan are set forth in the Commissioner of Standardization guidelines for the import of goods, p. 35.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-plus-group1",
+      "claim": "Maslol Plus easement plans apply to goods in Group 1 for importers with a history of proper imports.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "At the instructions of the Commissioner of Standardization, Chapter 8, easement plans for goods in Group 1 have been set for importers with a history of proper imports.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-plus-iso9001",
+      "claim": "Eligibility requires the manufacturing plant to hold an approved quality assurance system per the valid version of ISO 9001.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "The manufacturing plant has an approved quality assurance system pursuant to the specifications of the valid version of ISO 9001.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "maslol-plus-three-shipments",
+      "claim": "A form must be filed per sample or family of samples stating three shipments for partial tests in the past year with the appropriate conclusion.",
+      "source_url": "https://www.sii.org.il/en/tracks",
+      "raw_snippet": "It is necessary to file a form for each sample or family of samples, stating three shipments for partial tests for the family in the past year and the appropriate conclusion.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "SI 562 part 1 (safety of toys, mechanical and physical properties) was published in the Israel Official Gazette on 17 November 2022 and entered into force immediately, with a transition period until 16 April 2023.",
+      "where": "SKILL.md Step 2 categories table, SKILL_HE.md Step 2 categories table, references/common-official-standards.md",
+      "source_url": "https://chemycal.com/news/edb94a90-fadb-49a8-9bf5-82219e6db602/Israel__Revision_of_SI_562_part_1_-_Safety_of_toys_Mechanical_and_physical_properties",
+      "source_title": "Israel | Revision of SI 562 part 1 - Safety of toys: Mechanical and physical properties (Chemycal)",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "The revision of the Mandatory Standard SI 562 part 1 was published in the Israel Official Gazette Section of Government Notice no. 10401 on 17 November 2022 and entered into force immediately, allowing for a transition period until 16 April 2023."
+    },
+    {
+      "claim": "SI 562 (toy safety) is based on European Standard EN 71.",
+      "where": "SKILL.md Step 2 table, references/common-official-standards.md",
+      "source_url": "https://www.sii.org.il/en/baby-products",
+      "source_title": "Toys, Furniture, and Infant Products - Standards Institution of Israel",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "Israeli Standard SI 562 and all its parts, which is based on European Standard EN 71"
+    },
+    {
+      "claim": "Imports into Israel must carry a Hebrew label including country of origin, the producer's name and address, the Israeli importer's name and address, contents, and metric weight/volume.",
+      "where": "SKILL.md Step 7 labeling, SKILL_HE.md Step 7 labeling",
+      "source_url": "https://www.trade.gov/country-commercial-guides/israel-labelingmarking-requirements",
+      "source_title": "Israel - Labeling/Marking Requirements - US ITA Country Commercial Guide",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "All imports into Israel must have a label indicating the country of origin, the name and address of the producer, the name and address of the Israeli importer, the contents, and the weight or volume in metric units."
+    },
+    {
+      "claim_id": "import-group-1",
+      "claim": "Group 1: highest inherent risk, requiring both model approval and shipment approval by an accredited testing laboratory.",
+      "source_url": "https://fgx.com/blog/israel-moc-and-sii-certification-compliance-approval",
+      "raw_snippet": "Products with the highest inherent risk, requiring both model approval and shipment approval by an accredited testing laboratory",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "import-group-2",
+      "claim": "Group 2: moderate-risk products needing a model certificate plus an importer declaration.",
+      "source_url": "https://fgx.com/blog/israel-moc-and-sii-certification-compliance-approval",
+      "raw_snippet": "Moderate-risk products that need a model certificate and a declaration signed by the importer, confirming compliance with official standards",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "import-group-3",
+      "claim": "Group 3: low-risk products requiring only an importer declaration of conformity.",
+      "source_url": "https://fgx.com/blog/israel-moc-and-sii-certification-compliance-approval",
+      "raw_snippet": "Low-risk products, which only require a declaration of conformity signed by the importer to confirm that the product meets the necessary standards",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "From 1 July 2024, importers can declare compliance using ILAC-accredited foreign lab reports; from 7 July 2024 the Ministry of Economy stopped processing exemptions and switched to a random-surveillance programme.",
+      "where": "SKILL.md Step 3 route 4 + Step 7, SKILL_HE.md Step 3 route 4, references/fast-track-options.md section 2",
+      "source_url": "https://haifachamber.org.il/%D7%A2%D7%93%D7%9B%D7%95%D7%9F-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A0%D7%9B%D7%9C-2-6-%D7%9E%D7%AA%D7%9F-%D7%A4%D7%98%D7%95%D7%A8-%D7%9E%D7%94%D7%A6%D7%92%D7%AA-%D7%90%D7%99%D7%A9%D7%95%D7%A8/",
+      "source_title": "עדכון הוראת מנכ\"ל 2.6 - מתן פטור מהצגת אישור תקן רשמי לטובין המיובאים ביבוא מסחרי - לשכת המסחר והתעשייה חיפה והצפון",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "ב-1 ביולי 2024 נכנס לתוקפו החלק הראשון ברפורמת \"מה שטוב באירופה – טוב בישראל\", המוכר בשם \"לא עוצרים בנמל\" , המסיר נטל רגולטורי משמעותי בהליך יבוא טובין הנדרשים באישור עמידה בתקן רשמי, ומשויכים לקבוצות יבוא 2 ו-3.",
+      "source_note": "This source carries the 1 July 2024 commencement of the declaration-based ('No stopping at the port') phase for import groups 2 and 3. The narrower details in the claim (ILAC-accredited foreign lab reports as the declaration basis, and the 7 July 2024 switch from exemption processing to random surveillance) are NOT carried verbatim by any reachable page found on 2026-08-24."
+    },
+    {
+      "claim": "Standards Law s.9(a)(1) excludes only food (as defined in the Public Health Protection (Food) Law 5776-2015), motor vehicles and goods under an official fire-safety standard from the alternative-conformity routes in sub-paragraphs (b) to (d), including the adopted-European-regulation route. The Fifth Appendix DOES adopt LVD Directive 2014/35/EU (electrical equipment within certain voltage limits, glossed in the Hebrew text as 'up to 1,000 volt'), so the skill's statement that AC mains electrical equipment 50-1000 V AC / 75-1500 V DC is excluded from the Amendment 19 EU-recognition catalogue is NOT supported by the statute and appears to be wrong.",
+      "where": "SKILL.md Step 3 route 5 + Step 2 table, SKILL_HE.md Step 3 route 5, references/approval-routes.md section 5, references/fast-track-options.md section 3",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "source_title": "חוק התקנים, תשי\"ג-1953 (נוסח מלא, נבו)",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "ואולם, הוראות פסקאות משנה (ב) עד (ד) לא יחולו על מצרכים אלה: מזון כהגדרתו בחוק הגנה על בריאות הציבור (מזון), התשע\"ו-2015, רכב מנועי כהגדרתו בפקודת התעבורה, וכל מצרך או תהליך עבודה שחל עליו תקן רשמי שעניינו בטיחות אש, למעט ציוד כיבוי מיטלטל שאינו מחובר חיבור של קבע למקרקעין או לבניין, חומרי כיבוי וגלאי עשן עצמאי",
+      "claim_id": "standards-law-9a1-exclusions"
+    },
+    {
+      "claim": "SI 5113 is the Israeli standard for plastic materials and plastic articles in contact with food and beverages; it has official status and was published in Reshumot on 10/02/2019.",
+      "where": "SKILL.md Step 2 table, references/common-official-standards.md food-contact section",
+      "source_url": "https://www.sii.org.il/he/%D7%93%D7%A4%D7%99-%D7%9C%D7%95%D7%91%D7%99/%D7%9B%D7%9C%D7%9C%D7%99/%D7%AA%D7%A7%D7%99%D7%A0%D7%94/%D7%93%D7%A3-%D7%AA%D7%A7%D7%9F/?id=218344ba-c8f6-46c5-959c-17df10e0ea3b_HE",
+      "source_title": "ת\"י 5113 חומרי פלסטיק ומוצרי פלסטיק הבאים במגע עם מזון ומשקאות - מכון התקנים הישראלי",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "ת\"י 5113 חומרי פלסטיק ומוצרי פלסטיק הבאים במגע עם מזון ומשקאות PLASTIC MATERIALS AND PLASTIC ARTICLES IN CONTACT WITH FOOD AND BEVERAGES",
+      "source_note": "The SII standard page confirms the number, title, scope and official status. The skill's further statement that SI 5113 permits fallback to US FDA regulations and, in their absence, to the current EU directive, is not carried verbatim by any reachable page (the standard text itself is paywalled)."
+    },
+    {
+      "claim": "SII importer service centres: Electrical 03-6465160, Electronics 03-6465050, Chemistry/Health/Environment 03-6465138, Mechanics/Hydraulics 03-6465141, Building products 03-6465225.",
+      "where": "SKILL.md Step 5 + Troubleshooting, SKILL_HE.md Step 5 + Troubleshooting",
+      "source_url": "https://www.sii.org.il/he/importers/",
+      "source_title": "יבואנים - מכון התקנים הישראלי",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "מרכז שירות ליבואן בנושא חשמל ב-WhatsApp 0506599800 בטלפון 03-6465160 במייל importer_hsml@sii.org.il מרכז שירות ליבואן בנושא אלקטרוניקה ב-WhatsApp 0506599800 בטלפון 03-6465050 במייל importer_el@sii.org.il מרכז שירות ליבואן בנושא כימיה בריאות וסביבה ב-WhatsApp 0506599800 בטלפון 03-6465138 במייל importer_chm@sii.org.il מרכז שירות ליבואן בנושא מכניקה והידרוליקה ב-WhatsApp 0506599800 בטלפון 03-6465141 במייל Importer_mhd@sii.org.il מרכז שירות ליבואן מוצרי הבניין + זיהוי ונטילה בטלפון 03-6465225 במייל Importer_build@sii.org.il"
+    },
+    {
+      "claim": "Cosmetic imports are governed by the Pharmacists' Regulations (Cosmetics); the published regulations are תקנות הרוקחים (תמרוקים), תשפ\"ג-2023 (the skill cites them as 'Pharmacists' Regulations (Cosmetics) 5783-2022', which is the draft year, not the published year). The regulations define a European import track for cosmetics and a 'notice of marketing' mechanism under s.55A11 of the Pharmacists Ordinance.",
+      "where": "SKILL.md Step 2 table + Example 3, SKILL_HE.md table + Example 3, references/common-official-standards.md cosmetics section",
+      "source_url": "https://www.nevo.co.il/law_html/law00/215688.htm",
+      "source_title": "תקנות הרוקחים (תמרוקים), תשפ\"ג-2023 (נבו)",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "raw_snippet": "\" יבוא תמרוק במסלול האירופי \", \" מוצר \", \" נושא משרה בתאגיד \", \" עוסק בתמרוקים \", \" צו פיקוח \", \" רכיב ננו \", \" תמרוק \" ו\" תמרוק ייחוס \" – כהגדרתם בסעיף 55א לפקודה; \" הודעה בדבר שיווק \" – כמשמעותה בסעיף 55א11 לפקודה",
+      "source_note": "The cancellation of the registration fee is not carried verbatim by any reachable page found on 2026-08-24."
+    },
+    {
+      "claim_id": "url-gov-search-official-standards",
+      "claim": "The Ministry of Economy publishes an Official Mandatory Standards Search Engine at this URL.",
+      "source_url": "https://www.gov.il/en/service/search_official_standards",
+      "raw_snippet": "A standard is a document specifying technical requirements for a product or technical rules for a work process, including technical definitions, to ensure they are fit for their intended purpose.",
+      "verified_via": "gov.il mandatory-standards search page rendered in a browser",
+      "verified_at": "2026-08-19",
+      "source_note": "gov.il returns 403 to plain fetches; loaded in Playwright and asserted location.href before reading the title.",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "url-gov-cosmetic-import-permits",
+      "claim": "The Ministry of Health publishes the cosmetics import-permit application service at this URL.",
+      "source_url": "https://www.gov.il/en/service/application-for-cosmetic-import-permits",
+      "raw_snippet": "Application for Import Permits (Cosmetics)",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "source_note": "gov.il 403s to curl; loaded in Playwright and asserted location.href.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "url-gov-vehicle-division",
+      "claim": "The Ministry of Transport and Road Safety publishes the Division of motor vehicles page at this URL.",
+      "source_url": "https://www.gov.il/en/departments/units/vehicle_division_maintenance_services",
+      "raw_snippet": "Division of motor vehicles",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "source_note": "gov.il 403s to curl; loaded in Playwright and asserted location.href.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "url-sii-root",
+      "claim": "The Standards Institution of Israel operates sii.org.il.",
+      "source_url": "https://www.sii.org.il",
+      "raw_snippet": "מכון התקנים הישראלי",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "url-sii-en",
+      "claim": "The SII English site is at sii.org.il/en.",
+      "source_url": "https://www.sii.org.il/en",
+      "raw_snippet": "Standards Institution of Israel",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-sii-tracks",
+      "claim": "The SII publishes its easement plans (tracks) page at sii.org.il/en/tracks/.",
+      "source_url": "https://www.sii.org.il/en/tracks/",
+      "raw_snippet": "Easement Plans - Standards Institution of Israel",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-root",
+      "claim": "Kol-Zchut operates kolzchut.org.il.",
+      "source_url": "https://www.kolzchut.org.il",
+      "raw_snippet": "כל-זכות",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-21-passed-2026",
+      "claim": "The Knesset passed the Standards Law (Amendment 21) 5786-2026 in second and third reading on 16 July 2026, and the law starts six months after publication, i.e. at the beginning of 2027.",
+      "source_url": "https://barlaw.co.il/he/%D7%AA%D7%97%D7%95%D7%9E%D7%99_%D7%A2%D7%99%D7%A1%D7%95%D7%A7/%D7%A8%D7%92%D7%95%D7%9C%D7%A6%D7%99%D7%94/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%AA-%D7%9E%D7%94-%D7%A9%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%94-%D7%98%D7%95%D7%91-%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%90%D7%95%D7%A9/",
+      "raw_snippet": "ביום 16.7.2026 אושרה בכנסת, בקריאה שנייה ושלישית, רפורמת 'מה שטוב לאמריקה טוב לישראל'",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "amendment-21-us-manufacture",
+      "claim": "Under the American route the product must actually be manufactured in the United States or in Israel.",
+      "source_url": "https://barlaw.co.il/he/%D7%AA%D7%97%D7%95%D7%9E%D7%99_%D7%A2%D7%99%D7%A1%D7%95%D7%A7/%D7%A8%D7%92%D7%95%D7%9C%D7%A6%D7%99%D7%94/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%AA-%D7%9E%D7%94-%D7%A9%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%94-%D7%98%D7%95%D7%91-%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%90%D7%95%D7%A9/",
+      "raw_snippet": "נדרש שייוצר בפועל בארצות הברית או בישראל",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-21-exclusions",
+      "claim": "The American route does not apply to food, motor vehicles, cosmetics, or products subject to fire-safety standards.",
+      "source_url": "https://barlaw.co.il/he/%D7%AA%D7%97%D7%95%D7%9E%D7%99_%D7%A2%D7%99%D7%A1%D7%95%D7%A7/%D7%A8%D7%92%D7%95%D7%9C%D7%A6%D7%99%D7%94/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%AA-%D7%9E%D7%94-%D7%A9%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%94-%D7%98%D7%95%D7%91-%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%90%D7%95%D7%A9/",
+      "raw_snippet": "המסלול האמריקאי לא יחול על מוצרי מזון, רכב מנועי, תמרוקים ומוצרים הכפופים לדרישות תקינה בתחום בטיחות האש",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-21-recall-duty",
+      "claim": "An importer using the American route must follow US recall notices and manufacturer notices and report to the Commissioner of Standardization.",
+      "source_url": "https://barlaw.co.il/he/%D7%AA%D7%97%D7%95%D7%9E%D7%99_%D7%A2%D7%99%D7%A1%D7%95%D7%A7/%D7%A8%D7%92%D7%95%D7%9C%D7%A6%D7%99%D7%94/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%AA-%D7%9E%D7%94-%D7%A9%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%94-%D7%98%D7%95%D7%91-%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%90%D7%95%D7%A9/",
+      "raw_snippet": "וכן לעקוב אחר הודעות Recall והודעות היצרן ולדווח לממונה על התקינה",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-21-first-wave",
+      "claim": "The first wave of the American route covers baby and children's goods, toys, bottles, drinking accessories, feeding utensils, beds, cribs, strollers, swings, bouncers, bicycles and detergents.",
+      "source_url": "http://www.jpost.com/business-and-innovation/banking-and-finance/article-902979",
+      "raw_snippet": "The products covered under the first phase include baby and children's goods, toys, bottles, drinking accessories, feeding utensils, beds, cribs, strollers, swings, bouncers, bicycles, detergents, laundry powders, dishwasher detergents, and various other consumer goods.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "personal-import-exemption-75-2026",
+      "claim": "As of August 2026 the personal-import tax exemption ceiling is USD 75; the USD 130 ceiling applied only between 25.02.2026 and 01.06.2026. Between USD 75 and USD 500 the package carries VAT only, at 18%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%91%D7%A0%D7%95%D7%A9%D7%90_%D7%99%D7%91%D7%95%D7%90_%D7%90%D7%99%D7%A9%D7%99_%28%D7%97%D7%91%D7%99%D7%9C%D7%95%D7%AA_%D7%9E%D7%97%D7%95%22%D7%9C%29",
+      "raw_snippet": "מוצרים שעלו עד 75 דולר פטורים מכל מס (בין 25.02.2026 ל-01.06.2026 הפטור ניתן עד 130 דולר). מוצרים שעלו בין 75 דולר ל-500 דולר חייבים ב מע\"מ בלבד - 18%.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "free-import-order-second-appendix",
+      "claim": "Under the Free Import Order 5774-2014, goods listed in the Second Appendix are permitted for import only if the approval named in column ג was produced and the importer attached it to the import declaration.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_970.htm",
+      "raw_snippet": "הטובין המפורטים בתוספת השנייה מותרים בייבוא אם הומצא אישור או התקיימו התנאים כמפורט בטור ג' בטבלה שבתוספת השנייה",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "free-import-order-first-appendix",
+      "claim": "Goods listed in the First Appendix to the Free Import Order require an import licence.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/500_970.htm",
+      "raw_snippet": "ואלה המפורטים בתוספת הראשונה, שלגביהם חלה חובת הצגתו של רישיון יבוא",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "moc-compliance-certificate-required",
+      "claim": "Import or manufacture of a wireless device requires a compliance certificate under regulation 2(a) of the Wireless Telegraph (Compliance Certificates) Regulations 5781-2021. בעברית: ייבוא מכשיר אלחוטי טעון אישור התאמה לפי תקנה 2(א) לתקנות הטלגרף האלחוטי (אישורי התאמה), התשפ\"א-2021.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/502_483.htm",
+      "raw_snippet": "מכשיר אלחוטי שמתקיימים לגביו או לגבי הייבוא או הייצור שלו התנאים המפורטים בחלק ב' של התוספת הראשונה, פטור מחובת רישיון לפי סעיף 4א לפקודה, ייבואו או ייצורו טעון אישור התאמה",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "references/common-official-standards.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "moc-eu-documentation-easement-2022",
+      "claim": "Regulation 5a, added 7 July 2022, lets an applicant importing an EU-conforming wireless device attach an EU conformity document and a specification of the radio characteristics instead of the documents listed in regulation 5. בעברית: תקנה 5א לתקנות הטלגרף האלחוטי (אישורי התאמה) מאפשרת לצרף מסמך תאימות אירופי חלף המסמכים שבתקנה 5.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/502_483.htm",
+      "raw_snippet": "על אף האמור בתקנה 5, המבקש לייבא מכשיר אלחוטי שתואם את האסדרה הנהוגה באיחוד האירופי, רשאי לצרף, חלף המסמכים המפורטים בתקנה 5, את כל אלה: (1) מסמך תאימות לאסדרה אירופית",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "references/common-official-standards.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "weee-recognised-body-section-8",
+      "claim": "Section 8 of the Environmental Treatment of Electrical and Electronic Equipment and Batteries Law 5772-2012 obliges a producer or importer to contract with a recognised implementation body. בעברית: סעיף 8 לחוק לטיפול סביבתי בציוד חשמלי ואלקטרוני ובסוללות, התשע\"ב-2012 מחייב יצרן ויבואן להתקשר עם גוף יישום מוכר.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/120269.htm",
+      "raw_snippet": "על יצרן ועל יבואן להתקשר בחוזה התקשרות עם גוף יישום מוכר, שקיבל הכרה לפי סעיף 14 לטפל בסוג הציוד והסוללות שאותו יצרן או יבואן מייצר או מייבא",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "packaging-law-recognised-body-section-9",
+      "claim": "Section 9 of the Packaging Regulation Law 5771-2011 obliges a producer or importer to contract with a recognised body. בעברית: סעיף 9 לחוק להסדרת הטיפול באריזות, התשע\"א-2011 מחייב יצרן ויבואן להתקשר עם גוף מוכר.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/75777.htm",
+      "raw_snippet": "על יצרן ועל יבואן להתקשר בחוזה התקשרות עם גוף מוכר; התקשר יצרן או יבואן עם גוף מוכר, יהיה הגוף המוכר אחראי לקיום חובות היצרן או היבואן כאמור",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "si-32-plugs-title",
+      "claim": "SI 32 part 1.1 covers plugs and socket-outlets for household and similar purposes for currents not exceeding 16 A, general requirements.",
+      "source_url": "https://www.sii.org.il/%D7%93%D7%A4%D7%99-%D7%9C%D7%95%D7%91%D7%99/%D7%9B%D7%9C%D7%9C%D7%99/%D7%AA%D7%A7%D7%99%D7%A0%D7%94/%D7%93%D7%A3-%D7%AA%D7%A7%D7%9F/?id=b4daea3b-c6a0-4be2-a49a-3d2af1b67179_EN",
+      "raw_snippet": "ת\"י 32 חלק 1.1 תקעים ובתי-תקע לשימוש ביתי ולשימושים דומים: תקעים ובתי-תקע לזרם שאינו גדול מ-16 אמפר - דרישות כלליות",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-official-standards.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "si-32-official-type-h",
+      "claim": "SI 32 is an official and legally binding standard on all its parts, and the Israeli plug and socket are known internationally as Type H.",
+      "source_url": "https://shlomi-atun.co.il/%D7%AA%D7%A7%D7%9F-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99-32-%D7%97%D7%9C%D7%A7%D7%99%D7%9D-1-3-%D7%AA%D7%A7%D7%A2%D7%99%D7%9D-%D7%95%D7%91%D7%AA%D7%99-%D7%AA%D7%A7%D7%A2-%D7%9C%D7%A9/",
+      "raw_snippet": "תקן ישראלי ת\"י 32, על כל חלקיו, הוא תקן רשמי ומחייב על פי חוק",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-official-standards.md"
+      ]
+    },
+    {
+      "claim_id": "ilac-successor-gac",
+      "claim": "IAF and ILAC have launched a successor organisation, Global Accreditation Cooperation Incorporated.",
+      "source_url": "https://ilac.org/",
+      "raw_snippet": "Launch of the Global Accreditation Cooperation Incorporated",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-adoption-dates",
+      "claim": "Fifth Appendix Part B of the Standards Law sets the commencement date of each adopted European instrument: Toy Safety Directive 2009/48/EC and GPSR 2023/988 from 1 February 2025; REACH 1907/2006, LVD 2014/35/EU, EMC 2014/30/EU, the Aerosol Directive 75/324/EEC and PPE 2016/425 from the commencement of Amendment 19; plastic food-contact Regulation 10/2011 and the Detergents Regulation 648/2004 from 1 March 2025; CLP 1272/2008 from 1 July 2025.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "source_title": "חוק התקנים, תשי\"ג-1953, תוספת חמישית (נבו)",
+      "raw_snippet": "4. ההוראה המחייבת – Commission Regulation (EU) No 10/2011 of 14 January 2011 on plastic materials and articles intended to come into contact with food – רגולציה לחומרי פלסטיק הבאים במגע עם מזון – (א) תחילתה – א' באדר התשפ\"ה (1 במרץ 2025);",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 3 route 5",
+        "SKILL_HE.md Step 3 route 5",
+        "references/approval-routes.md",
+        "references/fast-track-options.md"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-lvd-adopted",
+      "claim": "LVD Directive 2014/35/EU (electrical equipment designed for use within certain voltage limits) IS one of the adopted European instruments in the Fifth Appendix, in force from the commencement of Amendment 19, with low-voltage electrical cables deferred to 1 January 2027.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "source_title": "חוק התקנים, תשי\"ג-1953, תוספת חמישית סעיף 5 (נבו)",
+      "raw_snippet": "5. ההוראה המחייבת – Directive 2014/35/EU of the European Parliament and of the Council of 26 February 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of electrical equipment designed for use within certain voltage limits (LVD) – דירקטיבה לבטיחות מכשירי חשמל המוזנים ממתח נמוך (עד 1,000 וולט)",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 3 route 5",
+        "references/fast-track-options.md",
+        "references/approval-routes.md"
+      ]
+    },
+    {
+      "claim_id": "url-sii-importers-en",
+      "claim": "The Standards Institution of Israel maintains an English Importers section describing its services and easements for importers.",
+      "source_url": "https://www.sii.org.il/en/importers/",
+      "source_title": "Importers - Standards Institution of Israel",
+      "raw_snippet": "Services and easements for importers The Standard Institution of Israel wishes to help you, the importers, with your operations vis-à-vis the laboratories for the release of imported goods and obtaining certificates of conforming to the standard.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Reference Links",
+        "SKILL_HE.md Reference Links"
+      ]
+    },
+    {
+      "claim_id": "url-sii-israelistandards",
+      "claim": "The Standards Institution of Israel's Israeli Standardization page explains what an Israeli Standard is and that SII alone is authorised to determine technical rules as Israeli Standards.",
+      "source_url": "https://www.sii.org.il/en/israelistandards",
+      "source_title": "Israeli Standardization - Standards Institution of Israel",
+      "raw_snippet": "The Standards Institution of Israel, and it alone, is authorized to determine specifications or technical rules for a work process, including technical definitions, as Israeli Standards",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Reference Links",
+        "references/common-official-standards.md"
+      ]
+    },
+    {
+      "claim_id": "url-trade-gov-standards-reform",
+      "claim": "The US ITA market-intelligence page on Israel's standards reform describes the import-group system, including that a technical file must be submitted to the Standards Institution of Israel for goods in Groups 1, 2 and 3.",
+      "source_url": "https://www.trade.gov/market-intelligence/israel-standards-reform",
+      "source_title": "Israel Standards Reform - US ITA",
+      "raw_snippet": "Submitting a technical file to the Standards Institute of Israel is required for goods in Groups 1, 2 and 3.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Reference Links",
+        "references/approval-routes.md"
+      ]
+    },
+    {
+      "claim_id": "standards-law-electrical-israeli-mains",
+      "claim": "Section 9(a)(1)(d) of the Standards Law requires, for an electrical device using the adopted-European-regulation route, that it match the electricity network in use in Israel. בעברית: ואם הוא מכשיר חשמלי, הוא תואם לרשת החשמל הנוהגת בישראל.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "ובכלל זה דרישות סימון המוצר הקבועות באותה אסדרה, נוסף על הסימון הנדרש לפי הדין הישראלי, אם נדרש, ואם הוא מכשיר חשמלי – הוא תואם לרשת החשמל הנוהגת בישראל",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/common-official-standards.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-toy-under3",
+      "claim": "Fifth Appendix entry 1 (Toy Safety Directive 2009/48/EC) commences 1 February 2025 and does not apply to toys for children under 3 unless the trader holds a manufacturer declaration and a technical file as defined in section 10e, or a conformity approval under section 12.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "ההוראה המחייבת – Directive 2009/48/EC of the European Parliament and of the Council of 18 June 2009 on the safety of toys (TSD) – דירקטיבה לבטיחות צעצועים – (א) תחילתה – ג' בשבט התשפ\"ה (1 בפברואר 2025); (ב) תנאים להחלה: (1) ההוראה לא תחול לעניין צעצועים לילדים מתחת לגיל 3, אלא אם כן החזיק העוסק בהצהרת יצרן ובתיק מסמכים טכניים כהגדרתם בסעיף 10ה או באישור התאמה לאסדרה אירופית מאומצת לפי סעיף 12",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-late-entries",
+      "claim": "Fifth Appendix commencement dates for the later entries: lifts 2014/33/EU on 1 July 2027, construction products 305/2011 two years from Amendment 19 commencement, batteries 2023/1542 eighteen months, cosmetics 1223/2009 three years.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "דירקטיבה למעליות, מעלונים ורכיביהם – צו (מס' 2) תשפ\"ו-2026 (א) תחילתה – ביום כ\"ו בסיוון התשפ\"ז (1 ביולי 2027). 16. ההוראה המחייבת – Regulation (EU) No 305/2011 of the European Parliament and of the Council of 9 March 2011 laying down harmonised conditions for the marketing of construction products (CPR) – רגולציה לחומרי בנייה – (א) תחילתה – שנתיים מיום תחילתו של תיקון מס' 19. 17. ההוראה המחייבת – Regulation (EU) 2023/1542 of the European Parliament and of the Council of 12 July 2023 concerning batteries and waste batteries – רגולציה לסוללות – (א) תחילתה – 18 חודשים מיום תחילתו של תיקון מס' 19.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-cosmetics-three-years",
+      "claim": "Fifth Appendix entry 27 adopts Regulation (EC) No 1223/2009 on cosmetic products with commencement three years from Amendment 19 commencement.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "ההוראה המחייבת – Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products – רגולציה למוצרי קוסמטיקה – (א) תחילתה – שלוש שנים מיום תחילתו של תיקון מס' 19.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-energy-carveout",
+      "claim": "Fifth Appendix entries 21 (ecodesign 2009/125/EC) and 23 (energy labelling 2017/1369) commence with Amendment 19 but expressly do not apply to an energy-consuming appliance in any field regulated under the Energy Sources Law 5750-1989, including energy efficiency, the energy rating and efficiency marking.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "ההוראה לא תחול על מכשיר צורך אנרגיה כמשמעותו בחוק מקורות אנרגיה, התש\"ן-1989 (להלן – חוק מקורות האנרגיה) (להלן – מכשיר צורך אנרגיה), לעניין תחום שהוסדר לפי חוק מקורות אנרגיה, ובכלל זה לעניין דרישת הנצילות האנרגטית, המדרג האנרגטי, או סימון המכשירים לעניין הנצילות האנרגטית.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "standards-law-9a1-four-bases",
+      "claim": "Section 9(a)(1) of the Standards Law offers four compliance bases: (a) the official standard itself; (b) an international standard or foreign regulation adopted wholly or partly into the official standard, except an official standard listed in the Third Appendix; (c) a foreign regulation where the official standard is listed in the Fourth Appendix; (d) the adopted European regulation. Bases (b) to (d) require Israeli marking and, for an electrical device, conformity to the electricity network in use in Israel.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "המצרך או תהליך העבודה מתאים לדרישות תקן בין-לאומי על עדכוניו ובכלל זה אסדרה זרה, שאומצו, במלואן או בחלקן, בתקן רשמי, למעט תקן רשמי המפורט בתוספת השלישית, ובלבד שהמצרך סומן כנדרש לפי הדין הישראלי ואם הוא מכשיר חשמלי – הוא תואם לרשת החשמל הנוהגת בישראל",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "standards-law-personal-import-conditions",
+      "claim": "Section 9(a)(2)(a) exempts personal or family import only where no licensed professional is required by law for installation, operation or maintenance, and section 9(a)(3) removes the exemption for food, motor vehicles including pedal-assist bicycles, and products intended for medical use.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "הוראות פסקה (1) לא יחולו על ייבוא של מצרך כאמור באותה פסקה, אם לשם התקנתו, הפעלתו או תחזוקתו לא נדרש לפי דין בעל מקצוע, והמצרך מיובא לשימוש אישי או משפחתי, בהתאם להוראות לעניין ייבוא אישי הקבועות לפי סעיף 2 לפקודת הייבוא והייצוא",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-recognised-state",
+      "claim": "The Fifth Appendix defines a recognised state as the EU member states plus Australia, Iceland, the United States, the United Kingdom, Japan, Norway, New Zealand, Canada and Switzerland.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "\"מדינה מוכרת\" – מדינות החברות באיחוד האירופי, אוסטרליה, איסלנד, ארצות הברית, בריטניה, יפן, נורבגיה, ניו זילנד, קנדה ושוויץ",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    },
+    {
+      "claim_id": "fifth-appendix-red-adopted",
+      "claim": "Fifth Appendix entry 20 adopts the Radio Equipment Directive 2014/53/EU from the commencement of Amendment 19.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/232_001.htm",
+      "raw_snippet": "ההוראה המחייבת – Directive 2014/53/EU of the European Parliament and of the Council of 16 April 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment (RED) – דירקטיבה לציוד רדיו – (א) תחילתה – יום תחילתו של תיקון מס' 19.",
+      "fetched_at": "2026-08-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/approval-routes.md",
+        "references/fast-track-options.md",
+        "scripts/check_standard.py"
+      ]
+    }
+  ]
+}
