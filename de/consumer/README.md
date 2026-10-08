@@ -4,7 +4,7 @@ Consumer protection and fair-trading law — unfair commercial practices, mislea
 
 Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 
-## Skills (142)
+## Skills (156)
 
 | Skill | What it does |
 |---|---|
@@ -46,6 +46,10 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Baubehörde und Nachbarbrief`](skills/baubehoerde-nachbarbrief/) | Erstellt einen belastbaren Nachbarbrief an die Baubehörde: liest Baugenehmigung, Bekanntgabe, Pläne… |
 | [`Behördenformular verstehen`](skills/behoerdenformular-verstehen-bescheid/) | Für Behördenformular verstehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`VDG 103 Bestellbutton UKlaG UWG Abmahnung`](skills/bestellbutton-uklag-uwg-abmahnung/) | Für VDG 103 Bestellbutton UKlaG UWG Abmahnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/barrierefreiheit-bfsg:bfsg-anwendungsbereich`](skills/bfsg-anwendungsbereich-borghei/) | Anwendungsbereich des Barrierefreiheitsstärkungsgesetzes – abschließender Produktkatalog § 1 Abs. 2 BFSG… |
+| [`/barrierefreiheit-bfsg:bfsg-dienstleistung-ecommerce`](skills/bfsg-dienstleistung-ecommerce-borghei/) | Barrierefreiheit von Dienstleistungen im elektronischen Geschäftsverkehr – Pflichten des… |
+| [`/barrierefreiheit-bfsg:bfsg-produktkonformitaet`](skills/bfsg-produktkonformitaet-borghei/) | Produktkonformität nach dem BFSG – Herstellerpflichten § 6 mit technischer Dokumentation nach Anlage 2… |
+| [`/barrierefreiheit-bfsg:bitv-oeffentliche-stellen`](skills/bitv-oeffentliche-stellen-borghei/) | Digitale Barrierefreiheit öffentlicher Stellen – Gestaltungspflicht § 12a BGG für Websites, mobile… |
 | [`Button-Lösung § 312j BGB`](skills/button-loesung-312j-bgb/) | Für Button-Lösung Paragraf 312j BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Datenschutz Auskunft und Löschung`](skills/datenschutz-auskunft-loeschung/) | Für Datenschutz Auskunft und Löschung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Diesel-Differenzschaden im Serienfall`](skills/diesel-differenzschaden-serienfall/) | Prüft Diesel-Differenzschäden als individualisierbaren Serienfall nach EuGH und BGH: trennt großen… |
@@ -53,17 +57,20 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`/it-recht:e-commerce-pflichten`](skills/e-commerce-pflichten-borghei/) | Prüfung der Pflichten eines Online-Shops im elektronischen Geschäftsverkehr: allgemeine Pflichten (§… |
 | [`Juristischer Argumentationskern - Ecommerce Recht`](skills/ecommerce-recht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Ecommerce Recht ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`E-Commerce-Recht — Allgemein`](skills/ecommerce-recht-kaltstart-triage/) | Für E-Commerce-Recht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`/wettbewerbsrecht:einstweilige-verfuegung-uwg`](skills/einstweilige-verfuegung-uwg-borghei/) | Einstweiliger Rechtsschutz nach §§ 12 ff. UWG iVm §§ 935, 940 ZPO – Verfügungsanspruch (UWG-Verstoß… |
 | [`Fahrradreparatur und kleine Dienstleistungen`](skills/fahrradreparatur-dienstleistung/) | Für Fahrradreparatur und kleine Dienstleistungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fahrradreparatur und Nachbesserung`](skills/fahrradreparatur-nachbesserung-fake-shop/) | Für Fahrradreparatur und Nachbesserung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Fake-Shop und Chargeback`](skills/fake-shop-und-chargeback/) | Für Fake-Shop und Chargeback: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fernabsatzvertrag § 312c BGB`](skills/fernabsatzvertrag-312c-bgb/) | Für Fernabsatzvertrag Paragraf 312c BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fitnessstudio Rückzahlung Schließung`](skills/fitnessstudio-rueckzahlung-schliessung/) | Für Fitnessstudio Rückzahlung Schließung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/reise-fluggastrecht:fluggastrechte-vo-261`](skills/fluggastrechte-vo-261-borghei/) | Ansprüche des Fluggastes nach der VO (EG) 261/2004 – Anwendungsbereich Art. 3, Ausgleichszahlung Art. 7… |
 | [`Fristkalender für Laien`](skills/fristkalender-laie/) | Für Fristkalender für Laien: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Garantie versus Gewährleistung`](skills/garantie-vs-gebrauchtkauf-privat/) | Für Garantie versus Gewährleistung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Gebrauchtkauf privat mit Mängeln`](skills/gebrauchtkauf-privat-maengel/) | Für Gebrauchtkauf privat mit Mängeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Gerichtlicher Mahnbescheid für Laien`](skills/gerichtlicher-mahnbescheid-laie/) | Für Gerichtlicher Mahnbescheid für Laien: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gerichtspost Familiengericht verstehen`](skills/gerichtspost-familiengericht-laiencheck/) | Für Gerichtspost Familiengericht verstehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gewährleistung digitale Produkte Warenkauf §§ 327 ff 434 ff BGB`](skills/gewaehrleistung-digitale-produkte-warenkauf-327-ff-434-f/) | Für Gewährleistung digitale Produkte Warenkauf Paragrafen 327 ff 434 ff BGB: ordnet Norm, Beweislast und… |
+| [`/produktrecht:gpsr-sicherheitspruefung`](skills/gpsr-sicherheitspruefung-borghei/) | Pflichtenkatalog für Hersteller, Importeur, Fulfillment-Dienstleister und Online-Marktplätze nach GPSR… |
 | [`Handwerkerrechnung zu hoch`](skills/handwerkerrechnung-zu-hoch/) | Für Handwerkerrechnung zu hoch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Hotelmängel und Bewertung`](skills/hotel-maengel-inkasso-erste-mahnung/) | Für Hotelmängel und Bewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Impressum / Anbieterkennzeichnung nach DDG`](skills/impressum-ddg-influencer-affiliate/) | Für Impressum / Anbieterkennzeichnung nach DDG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -71,6 +78,7 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Inkasso-Brief erste Hilfe`](skills/inkasso-brief-erste-hilfe/) | Für Inkasso-Brief erste Hilfe: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Inkassokosten Konzerninkasso Verzug`](skills/inkassokosten-konzerninkasso-jugendamt/) | Für Inkassokosten Konzerninkasso Verzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`International EU Verbraucherrecht Intake`](skills/international-eu-verbraucherrecht-intake/) | Für International EU Verbraucherrecht Intake: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/wettbewerbsrecht:irrefuehrende-werbung-pruefung`](skills/irrefuehrende-werbung-pruefung-borghei/) | Prüfung einer Werbeaussage auf Irreführung nach §§ 5, 5a, 5b UWG und vergleichende Werbung nach § 6 UWG… |
 | [`Jugendamt-Schreiben verstehen`](skills/jugendamt-schreiben-verstehen/) | Für Jugendamt-Schreiben verstehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kaltstart E-Commerce Mandat`](skills/kaltstart-e-commerce-mandat/) | Für Kaltstart E-Commerce Mandat: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Kaltstart Verbandsfall Aufnehmen`](skills/kaltstart-verbandsfall-aufnehmen/) | Für Kaltstart Verbandsfall Aufnehmen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
@@ -91,8 +99,11 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`OSS und IOSS im E-Commerce`](skills/oss-ioss-umsatzsteuer-e-commerce/) | Prüft Union-OSS und Import-One-Stop-Shop für grenzüberschreitende B2C-Umsätze, ordnet Lieferort… |
 | [`Output Rechtstexte Risikoampel Tickets`](skills/output-rechtstexte-risikoampel-tickets/) | Für Output Rechtstexte Risikoampel Tickets: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Paket verloren oder beim Nachbarn`](skills/paket-verloren-plattformkonto-sperre-probeabo/) | Für Paket verloren oder beim Nachbarn: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/reise-fluggastrecht:pauschalreise-maengel`](skills/pauschalreise-maengel-borghei/) | Mängelrechte des Reisenden bei einer Pauschalreise – Pauschalreisevertrag § 651a BGB, Reisemangel § 651i… |
 | [`Probeabo Widerruf Kündigung`](skills/probeabo-widerruf-kuendigung/) | Für Probeabo Widerruf Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`VDG 104 Probeabo Widerruf Verbandsstrategie`](skills/probeabo-widerruf-verbandsstrategie/) | Für VDG 104 Probeabo Widerruf Verbandsstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/produktrecht:prodhaftg-herstellerhaftung`](skills/prodhaftg-herstellerhaftung-borghei/) | Parallele Anspruchsprüfung verschuldensunabhängige Herstellerhaftung nach §§ 1, 3 ProdHaftG und… |
+| [`/produktrecht:produkt-rueckruf-anordnung`](skills/produkt-rueckruf-anordnung-borghei/) | Zivilrechtliche Rückrufpflicht des Herstellers aus § 823 I BGB (Produktbeobachtung, BGH „Pflegebetten")… |
 | [`Quellen- und Rechtsprechungscheck`](skills/quellen-rspr-fristen/) | Für Quellen- und Rechtsprechungscheck: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Rechnung ohne Auftrag`](skills/rechnung-ohne-auftrag/) | Für Rechnung ohne Auftrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht`](skills/rechtsabteilung-cross-border-shop-eu-verbraucherrecht/) | Für Rechtsabteilung: Cross-Border-Shop EU-Verbraucherrecht: ordnet Norm, Beweislast und Gegenargument… |
@@ -103,6 +114,8 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Rechtstexte-Versionierung Deployment`](skills/rechtstexte-versionierung-retourenmanagement/) | Für Rechtstexte-Versionierung Deployment: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Red-Team Shop vor Launch`](skills/red-team-shop-vor-launch/) | Für Red-Team Shop vor Launch: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Reise, Flug und Zug Problem`](skills/reise-flug-reparatur-statt-vermerk-mustertext/) | Für Reise, Flug und Zug Problem: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/reise-fluggastrecht:reiseruecktritt-insolvenzschutz`](skills/reiseruecktritt-insolvenzschutz-borghei/) | Rücktritt vor Reisebeginn und Absicherung der Vorauszahlungen – Rücktrittsrecht des Reisenden § 651h… |
+| [`/reise-fluggastrecht:reisevermittlung-informationspflichten`](skills/reisevermittlung-informationspflichten-borghei/) | Rollenabgrenzung und Informationspflichten im Reisevertrieb – Reiseveranstalter § 651a BGB… |
 | [`Reparatur statt Neukauf und Right to Repair`](skills/reparatur-statt-neukauf-right-to-repair/) | Für Reparatur statt Neukauf und Right to Repair: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`SCHUFA-Eintrag prüfen`](skills/schufa-eintrag-scoring-negativeintrag/) | Für SCHUFA-Eintrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`VDG 105 SCHUFA Scoring DSGVO Verbandsfall`](skills/schufa-scoring-dsgvo-verbandsfall/) | Für VDG 105 SCHUFA Scoring DSGVO Verbandsfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -114,6 +127,7 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Telekommunikation Und Laufzeit`](skills/telekommunikation/) | Für Telekommunikation und Laufzeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Telekommunikationsklausel Registertext`](skills/telekommunikationsklausel-registertext/) | Für Telekommunikationsklausel Registertext: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kleiner Unfall Fahrrad und Auto`](skills/unfall-fahrrad-verbraucherschlichtung/) | Für Kleiner Unfall Fahrrad und Auto: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/wettbewerbsrecht:uwg-abmahnung-pruefung`](skills/uwg-abmahnung-pruefung-borghei/) | Prüfung einer wettbewerbsrechtlichen Abmahnung nach § 13 UWG aus Abmahner- und Abgemahnten-Perspektive –… |
 | [`Saas Fuer Verbraucher Beschwerde Schre`](skills/vbr-086-saas-fuer-verbraucher-beschwerde-schre/) | Für Saas für Verbraucher Beschwerde Schre: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Saas Fuer Verbraucher Klagepfad Skizzi`](skills/vbr-088-saas-fuer-verbraucher-klagepfad-skizzi/) | Für Saas für Verbraucher Klagepfad Skizzi: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Klageberechtigung Der Stelle Pruefen`](skills/vdg-002-klageberechtigung-der-stelle-pruefen/) | Für Klageberechtigung der Stelle Prüfen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |

@@ -4,7 +4,7 @@ Criminal law and procedure — offences, defence, prosecution, and appeals.
 
 Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 
-## Skills (703)
+## Skills (714)
 
 | Skill | What it does |
 |---|---|
@@ -83,6 +83,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Strukturierte Auswertung der Strafakte nach Akteneinsicht § 147 StPO`](skills/akteneinsicht-strafrecht-auswerten/) | Für Strukturierte Auswertung der Strafakte nach Akteneinsicht Paragraf 147 StPO: ordnet Akte, Belege und… |
 | [`Akteneinsicht-Uebersicht`](skills/akteneinsicht-uebersicht/) | Für Akteneinsicht-Übersicht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Akteneinsicht Verletzter § 406e StPO`](skills/akteneinsicht-verletzter-406e/) | Für Akteneinsicht Verletzter Paragraf 406e StPO: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
+| [`/strafrecht:akteneinsicht-verteidiger`](skills/akteneinsicht-verteidiger-borghei/) | Prüfung des Akteneinsichtsrechts des Verteidigers nach § 147 StPO – Umfang, Versagung bei Gefährdung des… |
 | [`Aktenlektuere: Fristennotiz und nächster Schritt`](skills/aktenlektuere-fristennotiz-und-naechster-schritt/) | Für Aktenlektüre: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Aktenvorblatt: Schriftsatz-, Brief- und Memo-Bausteine`](skills/aktenvorblatt-schriftsatz-brief-und-memo-bausteine/) | Für Aktenvorblatt: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Alkohol: Compliance-Dokumentation und Aktenvermerk`](skills/alkohol-compliance-dokumentation-und-akte/) | Für Alkohol: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -101,6 +102,8 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Bedrohung § 241 StGB`](skills/bedrohung-241/) | Für Bedrohung Paragraf 241 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Beleidigung §§ 185, 194 StGB`](skills/beleidigung-betrug/) | Für Beleidigung Paragrafen 185. 194 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berufung der Staatsanwaltschaft einlegen und begrenzen`](skills/berufung-sta-beweisantraege-stpo/) | Für Berufung der Staatsanwaltschaft einlegen und begrenzen: ordnet Norm, Beweislast und Gegenargument… |
+| [`/strafrecht:berufung-strafsachen`](skills/berufung-strafsachen-borghei/) | Prüfung und Strategie der Berufung in Strafsachen – Statthaftigkeit § 312 StPO, Einlegungsfrist § 314… |
+| [`/strafrecht:beschuldigtenvernehmung`](skills/beschuldigtenvernehmung-borghei/) | Prüfung der Beschuldigtenvernehmung – Belehrung über Schweigerecht und Verteidigerkonsultation § 136… |
 | [`Besonders: Formular, Portal und Einreichungslogik`](skills/besonders-formular-portal-und-einreichung/) | Für Besonders: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Betäubungsmittelrecht`](skills/betaeubungsmittelrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Betäubungsmittelrecht ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`1 Betäubungsmittelrechtlichen Vorgang bearbeiten`](skills/betaeubungsmittelrecht-kaltstart-triage/) | Für Betäubungsmittelrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
@@ -109,6 +112,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Auflagen und Weisungen — §§ 56b, 56c StGB`](skills/bewaehrung-auflagen-bewaehrungswiderruf-56f/) | Für Auflagen und Weisungen — Paragrafen 56b, 56c StGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bewaehrungswiderruf — § 56f StGB`](skills/bewaehrungswiderruf-56f-stgb/) | Für Bewährungswiderruf — Paragraf 56f StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beweismatrix: Tatsache, Meinung, Vermutung`](skills/beweismatrix-chatverlaeufe/) | Für Beweismatrix: Tatsache, Meinung, Vermutung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/strafrecht:beweisverwertungsverbot`](skills/beweisverwertungsverbot-borghei/) | Prüfung von Beweisverwertungsverboten im Strafprozess – verbotene Vernehmungsmethoden § 136a Abs. 3… |
 | [`Beweisverwertungsverbote prüfen`](skills/beweisverwertungsverbote-pruefen/) | Für Beweisverwertungsverbote prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast… |
 | [`Beziehungen: Zahlen, Schwellenwerte und Berechnung`](skills/beziehungen-spezial-chronologie-ergaenzbar/) | Für Beziehungen: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Beziehungsmatrix Personen/Taten`](skills/beziehungsmatrix-personen-taten/) | Für Beziehungsmatrix Personen/Taten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -136,6 +140,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Drogen: Mehrparteienkonflikt und Interessenmatrix`](skills/drogen-mehrparteien-konflikt-und-interessen/) | Für Drogen: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anzeige als Druckmittel vermeiden`](skills/druckmittel-falsche/) | Für Anzeige als Druckmittel vermeiden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Durchsuchung und Beschlagnahme`](skills/durchsuchung-beschlagnahme-antrag/) | Für Durchsuchung und Beschlagnahme: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
+| [`/strafrecht:durchsuchung-beschlagnahme`](skills/durchsuchung-beschlagnahme-borghei/) | Prüfung von Durchsuchung und Beschlagnahme – Durchsuchung beim Beschuldigten § 102 StPO und bei Dritten… |
 | [`Durchsuchung und Beschlagnahme`](skills/durchsuchung-beschlagnahme-kanzlei-arzt/) | Für Durchsuchung und Beschlagnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schriftliche Einlassung des Beschuldigten vorbereiten oder Schweigen § 136 StPO`](skills/einlassung-vorbereiten/) | Für Schriftliche Einlassung des Beschuldigten vorbereiten oder Schweigen Paragraf 136 StPO: ordnet Norm… |
 | [`Einspruch: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/einspruch-dokumentenmatrix-und-lueckenliste/) | Für Einspruch: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
@@ -275,11 +280,13 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Nötigung § 240 StGB`](skills/noetigung-240/) | Für Nötigung Paragraf 240 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Akute Gefahr: Notruf statt Plugin`](skills/notruf-online/) | Für Akute Gefahr: Notruf statt Plugin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Notwehr § 32 StGB`](skills/notwehr-paragraf-32-stgb/) | Für Notwehr Paragraf 32 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/strafrecht:notwendige-verteidigung`](skills/notwendige-verteidigung-borghei/) | Prüfung der notwendigen Verteidigung – Fälle des § 140 StPO, Zeitpunkt der Pflichtverteidigerbestellung… |
 | [`Online-Beweise und Plattform-Screenshots`](skills/online-plattform-screenshots/) | Für Online-Beweise und Plattform-Screenshots: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Onlinewache oder Staatsanwaltschaft?`](skills/onlinewache-opferschutz/) | Für Onlinewache oder Staatsanwaltschaft?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Opferschutz, Nebenklage, Adhäsion`](skills/opferschutz-nebenklage/) | Für Opferschutz, Nebenklage, Adhäsion: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Opfervertretung: Mehrparteienkonflikt und Interessenmatrix`](skills/opfervertretung-mehrparteien-konflikt-und-interessen/) | Für Opfervertretung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`Opferzeugen-Sonderfaelle`](skills/opferzeugen-besondere-faelle/) | Für Opferzeugen-Sonderfälle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
+| [`/strafrecht:opportunitaetseinstellung`](skills/opportunitaetseinstellung-borghei/) | Prüfung der Opportunitätseinstellung im Ermittlungs- und Hauptverfahren – Einstellung wegen… |
 | [`Juristischer Argumentationskern - Ordnungswidrigkeitenrecht`](skills/ordnungswidrigkeitenrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Ordnungswidrigkeitenrecht ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Bußgeldrechtlichen Auftrag bearbeiten`](skills/ordnungswidrigkeitenrecht-kaltstart-triage/) | Für Ordnungswidrigkeitenrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Orientierung: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/orientierung-fristen-form-und-zustaendigkeit/) | Für Orientierung: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
@@ -328,6 +335,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Chronologie und Belegmatrix`](skills/regelbeispiele-strafrahmenwahl/) | Für Chronologie und Belegmatrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mandant hat Verkehrsunfall und fordert Schadensersatz vom Haftpflichtversicherer des Unfallverursachers`](skills/regulierungsanforderung/) | Für Regulierungsanforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Revision: Rechtsfehler-Katalog`](skills/revision-rechtsfehler-aktenaufbereiter/) | Für Revision: Rechtsfehler-Katalog: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/strafrecht:revision-strafsachen`](skills/revision-strafsachen-borghei/) | Prüfung und Begründung der Revision in Strafsachen – Statthaftigkeit § 333 StPO, Sprungrevision § 335… |
 | [`Revision: Zahlen, Schwellenwerte und Berechnung`](skills/revision-zahlen-schwellen-und-berechnung/) | Für Revision: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Revisionsbegruendung § 344 StPO`](skills/revisionsbegruendung-paragraf-344-stpo/) | Für Revisionsbegründung Paragraf 344 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Finale Entscheidung als Volltext (Urteil Strafrichter oder Strafbefehl)`](skills/richter-amtsgericht-straf-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Urteil Strafrichter oder Strafbefehl): ordnet Norm, Beweislast und… |
@@ -394,6 +402,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Strafbefehlsinhalt prüfen — § 409 StPO`](skills/strafbefehl-inhalt-409-pruefung/) | Für Strafbefehlsinhalt prüfen — Paragraf 409 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Pflichtverteidiger im Strafbefehlsverfahren`](skills/strafbefehl-pflichtverteidiger/) | Für Pflichtverteidiger im Strafbefehlsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Strafbefehl Nach Polizeifilmerei`](skills/strafbefehl-polizeifilmerei-201-kug/) | Für Strafbefehl nach Polizeifilmerei: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/strafrecht:strafbefehl-pruefung`](skills/strafbefehl-pruefung-borghei/) | Prüfung eines erhaltenen Strafbefehls auf Einspruchswert – 2-Wochen-Frist nach § 410 StPO, formale… |
 | [`Quality Gate — Strafbefehl-Mandat`](skills/strafbefehl-quality-gate/) | Für Quality Gate — Strafbefehl-Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Strafbefehl-Verteidiger — Kommandocenter`](skills/strafbefehl-quality-gate-akteneinsicht/) | Für Strafbefehl-Verteidiger — Kommandocenter: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Rechtsprechungsrecherche im Strafbefehlsverfahren`](skills/strafbefehl-rechtsprechungsrecherche/) | Für Rechtsprechungsrecherche im Strafbefehlsverfahren: ordnet Norm, Beweislast und Gegenargument… |
@@ -627,6 +636,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Unfallregulierung: Beweislast, Darlegungslast und Substantiierung`](skills/unfallregulierung-beweislast-und-darlegungslast/) | Für Unfallregulierung: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und… |
 | [`Mandant hat Unfall mit Mitverschulden und fragt welche Schadensposten zu welcher Quote durchsetzbar sind`](skills/unfallregulierung-quoten/) | Für Unfallregulierung Quoten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Unternehmen und Internal Investigation`](skills/unternehmen-internal-investigation/) | Für Unternehmen und Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/strafrecht:untersuchungshaft`](skills/untersuchungshaft-borghei/) | Prüfung der Untersuchungshaft – dringender Tatverdacht und Haftgründe § 112 StPO (Flucht, Fluchtgefahr… |
 | [`Untersuchungshaft und Haftprüfung nach §§ 112 ff`](skills/untersuchungshaft-haftpruefung/) | Für Untersuchungshaft und Haftprüfung nach Paragrafen 112 ff: ordnet Norm, Beweislast und Gegenargument… |
 | [`Untreue nach Paragraf 266 StGB prüfen`](skills/untreue-paragraf-266-stgb-bverfg-2-bvr-105-09/) | Prüft Untreuevorwürfe gegen Vorstände, Geschäftsführer, Amtsträger und Vermögensbetreuer. |
 | [`Untreue § 266 StGB`](skills/untreue-urheberrecht/) | Für Untreue Paragraf 266 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
@@ -703,6 +713,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und…`](skills/werkstattrechnung-kuerzung-zahlungswege/) | Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und bestimmt für jede… |
 | [`Hinweisgeber und Strafanzeige`](skills/whistleblower-computerbetrug/) | Für Hinweisgeber und Strafanzeige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Widersprueche: Beweislast, Darlegungslast und Substantiierung`](skills/widersprueche-beweislast-strafakte-gate/) | Für Widersprüche: Beweislast, Darlegungslast und Substantiierung: ordnet Akte, Belege und Lücken… |
+| [`/strafrecht:wiederaufnahme`](skills/wiederaufnahme-borghei/) | Prüfung der Wiederaufnahme eines rechtskräftig abgeschlossenen Strafverfahrens – zugunsten des… |
 | [`Wiedereinsetzung: Zahlen, Schwellenwerte und Berechnung`](skills/wiedereinsetzung-zahlen-schwellen-und-berechnung/) | Für Wiedereinsetzung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Wohnungsdurchsuchung und Gefahr im Verzug`](skills/wohnungsdurchsuchung-gefahr-im-verzug/) | Für Wohnungsdurchsuchung und Gefahr im Verzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zeugen-Befragungsstrategie in der Hauptverhandlung`](skills/zeugen-befragungsstrategie-strafbefehl/) | Für Zeugen-Befragungsstrategie in der Hauptverhandlung: ordnet Norm, Beweislast und Gegenargument… |

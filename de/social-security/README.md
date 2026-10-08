@@ -4,7 +4,7 @@ German social-security law (Sozialrecht) — Erwerbsminderungsrente, SGB II (Bü
 
 Jurisdiction: `de` · Practice: `social-security` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (505)
+## Skills (508)
 
 | Skill | What it does |
 |---|---|
@@ -425,6 +425,8 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Juristischer Argumentationskern - Selbstvertreter Sozialgericht`](skills/selbstvertreter-sozialgericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Selbstvertreter Sozialgericht ein juristisches Arbeitsprodukt tragfähig… |
 | [`Eigenen Sozialleistungsfall bearbeiten`](skills/selbstvertreter-sozialgericht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Fachanwalt Sozialrecht Sgb Ii Bescheid: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu`](skills/sgb-ii-bescheid/) | Für SGB Ii Bescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/sozialrecht:sgb-ii-leistungsanspruch`](skills/sgb-ii-leistungsanspruch-borghei/) | Vollprüfung des Bürgergeld-Anspruchs nach SGB II – Erwerbsfähigkeit § 8, Hilfebedürftigkeit § 9… |
+| [`/sozialrecht:sgb-vi-rentenanspruch`](skills/sgb-vi-rentenanspruch-borghei/) | Prüfung des Rentenanspruchs nach SGB VI – Altersrenten §§ 35–38 (Regelaltersrente, langjährig /… |
 | [`Sozialgerichtliche Klage`](skills/sozialgericht-klage/) | Für Sozialgerichtliche Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Welche Streitigkeiten gehoeren vor das Sozialgericht?`](skills/sozialgericht-zustaendigkeit-51-sgg/) | Für Welche Streitigkeiten gehören vor das Sozialgericht?: prüft Frist, Form, Zuständigkeit und… |
 | [`Sozialgerichtliche Versandmappe endfertigen`](skills/sozialgerichtliche-versandmappe-endfertigen/) | Endfertigt sozialgerichtliche Klage, Eilantrag, Klagebegründung, Berufung oder Beschwerde: liest… |
@@ -498,6 +500,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`So begruenden Sie Ihren Widerspruch — für Laien`](skills/widerspruch-begruendung-laienleitfaden/) | Für So begründen Sie Ihren Widerspruch — für Laien: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sich gegen ein negatives Gutachten wehren`](skills/widerspruch-gegen-gutachten-laien/) | Für Sich gegen ein negatives Gutachten wehren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Widerspruch und Sozialgericht`](skills/widerspruch-klage-sozialgericht/) | Für Widerspruch und Sozialgericht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
+| [`/sozialrecht:widerspruch-leistungsbescheid`](skills/widerspruch-leistungsbescheid-borghei/) | Bescheidanalyse und Entwurf einer Widerspruchsschrift gegen einen sozialrechtlichen Leistungsbescheid –… |
 | [`Widerspruch einreichen — die sicheren Wege`](skills/widerspruch-ohne-anwalt-einreichen/) | Für Widerspruch einreichen — die sicheren Wege: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Widerspruch schreiben`](skills/widerspruch-schreiben/) | Entwirft einen Widerspruch gegen einen Sozialbescheid mit klarer Änderung, konkreten Tatsachen und… |
 | [`Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch`](skills/widerspruch-sozialleistung/) | Für Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch: ordnet Norm… |

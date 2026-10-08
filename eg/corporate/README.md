@@ -4,10 +4,11 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `eg` · Practice: `corporate` · Skill language: ar
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Knowledge Pack — Egyptian Corporate Law`](skills/kb-corporate-law-eg-sboghossian/) | Use when advising on Egyptian corporate law, including SAE (joint stock company) and LLC entity… |
 | [`البذرة المعرفية — المرشد القانوني للشركات المصرية`](skills/legal-egypt/) | الإرشاد القانوني للشركات الناشئة المصرية — عقود التأسيس، قانون العمل، حماية البيانات، والامتثال التنظيمي… |
 
 ## Cold-start context

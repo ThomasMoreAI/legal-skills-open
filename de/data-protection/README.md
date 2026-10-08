@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (465)
+## Skills (468)
 
 | Skill | What it does |
 |---|---|
@@ -25,6 +25,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Auftragsverarbeitungsvertrag prüfen`](skills/auftragsverarbeitungsvertrag-pruefen/) | Für Auftragsverarbeitungsvertrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Auskunft: Behörden-, Gerichts- oder Registerweg`](skills/auskunft-behoerden-gericht-und-registerweg/) | Für Auskunft: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Auskunft: Behörden-, Gerichts- oder Registerweg`](skills/auskunft-behoerden-gerichts-registerweg/) | Für Auskunft: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
+| [`/datenschutzrecht:auskunftsersuchen-art-15`](skills/auskunftsersuchen-art-15-borghei/) | Bearbeitung eines DSGVO-Auskunftsersuchens nach Art. 15 DSGVO – Identitätsprüfung, Umfang der Auskunft… |
 | [`Ausländische Mutter und deutsche Tochter`](skills/auslaendische-mutter-und-deutsche-tochter/) | Für Ausländische Mutter und deutsche Tochter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Automatisierte Entscheidungen Art. 22 DSGVO`](skills/automatisierte-entscheidungen-art-22-dsgvo/) | Für Automatisierte Entscheidungen Art. 22 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Joint-Controller-Vereinbarung Art. 26 DSGVO – deutsche Vertragsfassung`](skills/avv-art-26-joint-controllership-deutsch/) | Für Joint-Controller-Vereinbarung Art. 26 DSGVO – deutsche Vertragsfassung: ordnet Norm, Beweislast und… |
@@ -41,6 +42,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Loeschung und Rueckgabe nach Vertragsende – Art. 28 Abs. 3 lit. g DSGVO`](skills/avv-loeschung-rueckgabe-nach-vertragsende/) | Für Löschung und Rückgabe nach Vertragsende – Art. 28 Abs. 3 lit. g DSGVO: ordnet Norm, Beweislast und… |
 | [`AVV-Review – Auftragsverarbeitungsvertrag Art. 28 DSGVO`](skills/avv-pruefung/) | Für AVV-Review – Auftragsverarbeitungsvertrag Art. 28 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`AVV-Audit – Prüfung bestehender Verträge`](skills/avv-pruefung-bestehender-vertraege-audit/) | Für AVV-Audit – Prüfung bestehender Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/datenschutzrecht:avv-pruefung`](skills/avv-pruefung-borghei/) | Prüfung eines Auftragsverarbeitungsvertrags (AVV) nach Art. 28 DSGVO – Pflichtklauseln Art. 28 Abs. 3… |
 | [`Rollenmix – Getrennt versus gemeinsam versus Auftragsverarbeitung`](skills/avv-rolemix-getrennt-vs-gemeinsam/) | Für Rollenmix – Getrennt versus gemeinsam versus Auftragsverarbeitung: ordnet Norm, Beweislast und… |
 | [`Verantwortlichkeit in mehrstufigen Datenwegen bestimmen`](skills/avv-rolemix-getrennt-vs-gemeinsam-verantwortlich/) | Klärt Datenschutzrollen je Verarbeitungsschritt bei Cloud-Diensten, Agenten und verbundenen Unternehmen.… |
 | [`TOM-Anlage Art. 32 DSGVO`](skills/avv-tom-art-32-dsgvo-anlage/) | Für TOM-Anlage Art. 32 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -89,6 +91,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-vs-43e-dienstleister/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack`](skills/cyber-vorfall-sofortmassnahmen/) | Für Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack: ordnet Norm, Beweislast und Gegenargument… |
 | [`Datenpannen-Meldung (Art. 33/34 DSGVO)`](skills/datenpanne-meldung/) | Für Datenpannen-Meldung (Art. 33/34 DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/datenschutzrecht:datenpanne-meldung`](skills/datenpanne-meldung-borghei/) | Meldung einer Verletzung des Schutzes personenbezogener Daten nach Art. 33 und Art. 34 DSGVO –… |
 | [`Datenpanne: Schriftsatz-, Brief- und Memo-Bausteine`](skills/datenpanne-schriftsatz-brief-memo-bausteine/) | Für Datenpanne: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Datenpanne: Schriftsatz-, Brief- und Memo-Bausteine`](skills/datenpanne-schriftsatz-brief-und-memo-bausteine/) | Für Datenpanne: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Datenpanne vor Bußgeld Selbstmeldung taktisch nutzen`](skills/datenpanne-vor-bussgeld-selbstmeldung/) | Für Datenpanne vor Bußgeld Selbstmeldung taktisch nutzen: ordnet Norm, Beweislast und Gegenargument… |

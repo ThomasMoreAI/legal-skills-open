@@ -1,0 +1,16 @@
+{
+  "name": "de-capital-markets",
+  "displayName": "Capital Markets — DE",
+  "version": "0.1.0",
+  "description": "Capital Markets skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "capital-markets",
+  "language": "de",
+  "skills": [
+    "skills/prospektpflicht-pruefung-borghei",
+    "skills/wphg-marktmissbrauch-borghei",
+    "skills/wpueg-uebernahmeangebot-borghei"
+  ]
+}

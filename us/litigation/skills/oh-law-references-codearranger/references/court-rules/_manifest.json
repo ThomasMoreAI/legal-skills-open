@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-14",
+  "source": "https://www.supremecourt.ohio.gov/docs/LegalResources/Rules/",
+  "notes": "Pulled by scripts/pull_ohio_court_rules.py. Supreme Court of Ohio publishes all rules of court as consolidated PDFs; no API key or proxy required."
+}

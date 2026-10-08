@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `general` · Practice: `ip` · Skill language: en
 
-## Skills (69)
+## Skills (94)
 
 | Skill | What it does |
 |---|---|
@@ -16,11 +16,20 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`Claims Drafting: The Core Patent Skill`](skills/claims-drafting/) | Draft patent claims for an invention. Use when user says "撰写权利要求", "draft claims", "写权利要求书", "claim… |
 | [`$ip-legal:cold-start-interview`](skills/cold-start-interview-18/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first… |
 | [`Cold start interview`](skills/cold-start-interview-zhou210712/) | 运行冷启动面谈以了解你的知识产权实务并撰写实务画像。 用于首次安装、实务画像缺失或仍含占位符时，使用 --redo 重新设置、 或在连接或断开 MCP 后使用 --check-integrations… |
+| [`Connector — WIPO Trademark (Global Brand Database)`](skills/connector-wipo-trademark-sboghossian/) | Use when a lawyer or IP professional needs to search the WIPO Global Brand Database for existing… |
+| [`Intake — Trademark Filing`](skills/conversation-intake-trademark-filing-sboghossian/) | Use when a user wants to file a trademark application and Claude must gather the mark description… |
 | [`Copyright Holder Finder`](skills/copyright-holder-finder-ur-grue/) | Produces a step-by-step research plan for identifying the copyright holder of a specific piece of… |
 | [`Creative Commons Explainer`](skills/creative-commons-explainer-ur-grue/) | Explains a specific Creative Commons licence in plain language, telling a media professional exactly… |
 | [`$ip-legal:customize`](skills/customize-19/) | Guided customization of your IP practice profile — change one thing without re-running the whole… |
 | [`/customize`](skills/customize-7/) | Guided customization of your IP practice profile — change one thing without re-running the whole… |
 | [`Dependency Compliance (license & SBOM mechanics)`](skills/dependency-compliance-kabaka/) | Use when checking a dependency's license, license compatibility, copyleft obligations, generating or… |
+| [`Copyright Assignment Agreement`](skills/draft-copyright-assignment-sboghossian/) | Use when a user needs to draft a copyright assignment agreement transferring ownership of authored works… |
+| [`IP Assignment Agreement`](skills/draft-ip-assignment-sboghossian/) | Use when drafting an Intellectual Property Assignment Agreement transferring ownership of a portfolio of… |
+| [`IP Licensing Agreement`](skills/draft-ip-licensing-sboghossian/) | Use when drafting an intellectual property licensing agreement that grants rights to use a patent… |
+| [`Licensing Agreement (General IP & Commercial)`](skills/draft-licensing-agreement-sboghossian/) | Use when drafting a general IP or commercial licensing agreement covering patents, trademarks… |
+| [`Software License Agreement`](skills/draft-licensing-agreement-software-sboghossian/) | Use when drafting a software license agreement for a commercial software product — covering license… |
+| [`Patent Application Cover Letter`](skills/draft-patent-cover-letter-sboghossian/) | Use when drafting a cover letter for a patent application submission to a national or regional patent… |
+| [`Trademark Application Drafting`](skills/draft-trademark-application-sboghossian/) | Use when drafting a trademark application — preparing the applicant details, mark representation, Nice… |
 | [`Embodiment Description`](skills/embodiment-description/) | Write detailed embodiment descriptions for patent specifications. Use when user says "撰写实施例", "write… |
 | [`Exclusive Patent License Agreement`](skills/exclusive-patent-license/) | Drafts an Exclusive Patent License Agreement granting a Licensee exclusive rights to commercialize… |
 | [`Field of Use Restriction Clause`](skills/field-of-use-restriction/) | Drafts field-of-use restriction clauses for IP licensing agreements. Covers grant language, prohibited… |
@@ -33,12 +42,17 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`IP clause review`](skills/ip-clause-review-anthropics/) | Review the IP clauses in an agreement — assignment, ownership, license grants, warranties, indemnities.… |
 | [`IP Research`](skills/ip-research/) | IP data research tools for patents, trademarks, and related USPTO/EPO/JPO records. Use when: - Looking… |
 | [`IPC/CPC 국제특허분류 가이드`](skills/ipc-classification-guide/) | IPC/CPC 국제특허분류 체계 가이드. 특허 검색 시 IPC 코드 구조 이해, 기술 분야별 코드 탐색, 검색 전략 수립에 활용. Use when: (1) IPC 코드의 의미나 구조를… |
+| [`Knowledge Pack — WIPO and International IP Filing Systems`](skills/kb-ip-wipo-sboghossian/) | Use when a matter involves international IP filing systems, WIPO treaties, the Madrid System for… |
 | [`Know-How License Agreement`](skills/know-how-license/) | Drafts Know-How License Agreements for licensing trade secrets, confidential processes, and proprietary… |
 | [`License Analysis`](skills/license-analysis/) | Analyze open-source license compatibility, obligations, and compliance risks across project… |
 | [`Matter workspace`](skills/matter-workspace-22/) | Manage matter workspaces — create, list, switch, close, or detach the active matter. Use in multi-client… |
 | [`$ip-legal:matter-workspace`](skills/matter-workspace-7/) | Manage matter workspaces — create, list, switch, close, or detach the active matter. Use in multi-client… |
 | [`Open Source License Skill`](skills/open-source-license/) | Open Source License guidance, selection, compliance review, and drafting. Use this skill when users ask… |
 | [`OSS review`](skills/oss-review-anthropics/) | Open source license compliance check for a dependency list, a single library, or outbound code. Use when… |
+| [`IP — Claim Drafting from Inventor Disclosure`](skills/pa-workflow-ip-claim-drafting-from-disclosure-sboghossian/) | Use when a patent attorney or IP team needs to draft patent claims from an inventor disclosure document.… |
+| [`IP — Office Action Response Drafter`](skills/pa-workflow-ip-office-action-response-drafter-sboghossian/) | Use when a patent attorney needs to draft a response to a patent office action — addressing examiner… |
+| [`IP — Patent Prioritization`](skills/pa-workflow-ip-patent-prioritization-sboghossian/) | Use when an IP team or lawyer needs to systematically prioritize which inventor disclosures to file as… |
+| [`IP — Prior Art Search Orchestrator`](skills/pa-workflow-ip-prior-art-search-orchestrator-sboghossian/) | Use when an IP attorney or patent agent needs a systematic prior-art search to assess novelty and… |
 | [`Patent — Prior-Art + Landscape Intelligence`](skills/patent/) | Patent prior-art and landscape intelligence skill — not generic patent help. Commits to one of five… |
 | [`When to Trigger`](skills/patent-analysis/) | Conducts patent landscape analysis including prior art searches, patent claim interpretation… |
 | [`专利分析`](skills/patent-analysis-cat-xierluo/) | 面向中国发明和实用新型专利的结构化初步分析工具。本技能应在用户需要拆解或解释权利要求、比较专利保护范围、进行产品侵权比对、等同分析、稳定性与无效风险分析、FTO、规避设计、专利价值评估或制作专利分析图表时使用。… |
@@ -64,7 +78,15 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`Prior Art Search Skill`](skills/prior-art-search/) | Systematic 7-step methodology for comprehensive patent prior art searches and patentability assessments… |
 | [`Prior Art Search`](skills/prior-art-search-wanshuiyin/) | Search patent databases and academic literature for prior art relevant to an invention. Use when user… |
 | [`Prior Art Summary`](skills/prior-art-summary/) | Generates structured summaries of prior art references for patent prosecution, validity analysis, and… |
+| [`IP Assignment Agreement`](skills/prompt-pack-ip-assignment-agreement-sboghossian/) | Use when a user needs to draft an IP assignment agreement transferring ownership of patents, trademarks… |
+| [`IP Due Diligence Checklist`](skills/prompt-pack-ip-due-diligence-checklist-sboghossian/) | Use when conducting IP due diligence in connection with an M&A transaction, investment, or licensing… |
+| [`Patent License Agreement`](skills/prompt-pack-patent-license-agreement-sboghossian/) | Use when drafting a patent licence agreement granting exclusive or non-exclusive rights to specified… |
+| [`Technology Licensing Agreement`](skills/prompt-pack-technology-licensing-agreement-sboghossian/) | Use when a licensor needs to grant a licensee rights to use technology (patents, software, know-how… |
+| [`Trade Secret Protection Policy`](skills/prompt-pack-trade-secret-protection-policy-sboghossian/) | Use when a company needs to draft or overhaul an internal trade secret protection policy — the… |
+| [`Trademark Coexistence Agreement`](skills/prompt-pack-trademark-coexistence-agreement-sboghossian/) | Use when two trademark owners holding similar or identical marks need a binding agreement defining how… |
+| [`Trademark License Agreement`](skills/prompt-pack-trademark-license-agreement-sboghossian/) | Use when a trademark owner (licensor) wants to authorize another party (licensee) to use one or more… |
 | [`Recherchebericht erstellen`](skills/recherchebericht-erstellen/) | Für recherchebericht-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`IP Ownership Clarity Review`](skills/review-ip-ownership-clarity-sboghossian/) | Use when reviewing contract clauses governing intellectual property ownership, assignment, and licensing… |
 | [`Review Open Source License`](skills/review-open-source-license-jeffreytse/) | Use when evaluating open source software licenses for commercial use, distribution, or modification rights |
 | [`Royalty Report Form`](skills/royalty-report/) | Drafts auditable royalty report forms for IP licensing agreements, calculating tiered royalties, minimum… |
 | [`Search Prior Art`](skills/search-prior-art/) | Search for prior art relevant to a specific invention or patent claim. Covers patent literature… |
@@ -76,4 +98,7 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`Specification Writing: Section-by-Section Patent Description`](skills/specification-writing/) | Write the full patent specification from claims and invention disclosure. Use when user says "撰写说明书"… |
 | [`Sublicense Agreement`](skills/sublicense-agreement/) | Drafts Sublicense Agreements for IP licensing transactions, ensuring compliance with the underlying… |
 | [`Technology Transfer Agreement`](skills/technology-transfer-agreement/) | Drafts Technology Transfer Agreements governing IP rights, license grants, royalties, and… |
+| [`MENA Local Trademark Registers`](skills/tool-local-trademark-registers-sboghossian/) | Use when performing trademark clearance, conflict checks, or portfolio monitoring in MENA jurisdictions… |
+| [`WIPO Trademark Search — Global Brand Database`](skills/tool-wipo-trademark-search-sboghossian/) | Use when searching for trademarks registered under the Madrid System (international registrations) or in… |
 | [`überwachung-konkurrenten`](skills/ueberwachung-konkurrenten/) | Für überwachung-konkurrenten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Brand Protection Pack`](skills/workflow-brand-protection-pack-sboghossian/) | Use when a user needs a complete, end-to-end brand protection program — from trademark registration… |

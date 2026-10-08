@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-14",
+  "source": "https://legislation.nysenate.gov/api/3/laws",
+  "mode": "api",
+  "notes": "Pulled by scripts/pull_ny_statutes.py. When run with NYSENATE_API_KEY set, the puller writes verbatim statutory text from the Open Legislation API. Without the key, it writes pointer stubs that document the gap."
+}

@@ -4,7 +4,7 @@ German constitutional-law analysis — Grundrechtsprüfung (Schutzbereich/Eingri
 
 Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (383)
+## Skills (386)
 
 | Skill | What it does |
 |---|---|
@@ -133,6 +133,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Grundrechte Fehlerkatalog`](skills/grundrechte-fehlerkatalog/) | Für Grundrechte Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Grundrechte prüfen — GG und GRCh`](skills/grundrechte-pruefung-de-und-grch/) | Für Grundrechte prüfen — GG und GRCh: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Grundrechtsprüfung`](skills/grundrechtspruefung-acht-formelle-interessen/) | Für Grundrechtsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`/verfassungsrecht:grundrechtspruefung`](skills/grundrechtspruefung-borghei/) | 3-Stufen-Grundrechtsprüfung nach Schutzbereich, Eingriff und verfassungsrechtlicher Rechtfertigung inkl.… |
 | [`Grundrechtsprüfung und Verhältnismäßigkeit`](skills/grundrechtspruefung-und-verhaeltnismaessigkeit/) | Für Grundrechtsprüfung und Verhältnismäßigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und…`](skills/grundstueck-rechte-und-beteiligte-klaeren/) | Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und Nebenrechte aus… |
 | [`Hartz Iv BVerfGE 125 175`](skills/hartz-iv-bverfge-125-175/) | Für Hartz Iv BVerfGE 125 175: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -203,6 +204,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Ordner Und Sicherheit`](skills/ordner-sicherheit-parteieigenschaft/) | Für Ordner und Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`So viel wie nötig, so wenig wie möglich`](skills/ordnerliste-mitteilung-partei-gewerkschaft/) | Für So viel wie nötig, so wenig wie möglich: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ordnungsmaßnahmen`](skills/ordnungsmassnahmen-parteiausschluss/) | Für Ordnungsmaßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/verfassungsrecht:organstreit-bund-laender`](skills/organstreit-bund-laender-borghei/) | Abgrenzung Organstreit (Art. 93 I Nr. 1 GG, §§ 63 ff. BVerfGG), Bund-Länder-Streit (Art. 93 I Nr. 3 GG… |
 | [`Organstreit: Bundestag, Fraktion und Opposition`](skills/organstreit-bundestag-fraktion-opposition/) | Für Organstreit: Bundestag, Fraktion und Opposition: ordnet Norm, Beweislast und Gegenargument… |
 | [`Output: Memo und Prüfvermerk`](skills/output-memo-pruefvermerk/) | Für Output: Memo und Prüfvermerk: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Echte Padlet-Tafel anlegen, nicht nur vorschlagen`](skills/padlet-vier-stufen-tafel/) | Für Echte Padlet-Tafel anlegen, nicht nur vorschlagen: ordnet Norm, Beweislast und Gegenargument… |
@@ -316,6 +318,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Organstreitverfahren`](skills/verfassung-organstreitverfahren/) | Für Organstreitverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Parteiverbot und Finanzierungsausschluss`](skills/verfassung-parteiverbot/) | Für Parteiverbot und Finanzierungsausschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Staatsorganisation GG`](skills/verfassung-staatsorganisation/) | Für Staatsorganisation GG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/verfassungsrecht:verfassungsbeschwerde`](skills/verfassungsbeschwerde-borghei/) | Zulässigkeits- und Begründetheitsprüfung einer Verfassungsbeschwerde nach Art. 93 I Nr. 4a GG, §§ 90 ff.… |
 | [`Verfassungsbeschwerde-Entwurf`](skills/verfassungsbeschwerde-entwurf-formelle/) | Für Verfassungsbeschwerde-Entwurf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verfassungsbeschwerde: Mandantenkommunikation und Entscheidungsvorlage`](skills/verfassungsbeschwerde-mandantenentscheidung/) | Übersetzt die Prüfung einer Verfassungsbeschwerde in eine verständliche Mandantenentscheidung… |
 | [`Verfassungsbeschwerde: Subsidiarität und Substantiierung`](skills/verfassungsbeschwerde-subsidiaritaet-substantiierung/) | Für Verfassungsbeschwerde: Subsidiarität und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |

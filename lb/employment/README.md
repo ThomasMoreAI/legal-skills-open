@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `lb` · Practice: `employment` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Employment Contract — Lebanon (LB)`](skills/draft-employment-contract-lb-sboghossian/) | Use when drafting a Lebanese employment contract under the Labor Code (Decree No. 207/1946 as amended)… |
 | [`Knowledge Pack — Lebanon Employment Law`](skills/kb-employment-law-lb-sboghossian/) | Use when a matter involves employment law obligations, contracts, termination indemnity, NSSF… |
 
 ## Cold-start context

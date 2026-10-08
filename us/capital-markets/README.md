@@ -4,7 +4,7 @@ Capital markets — public and private securities offerings: prospectuses and re
 
 Jurisdiction: `us` · Practice: `capital-markets` · Skill language varies per skill.
 
-## Skills (20)
+## Skills (22)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `us` · Practice: `capital-markets` · Skill language varies per s
 | [`Bad Actor Disqualification Review (Rule 506(d))`](skills/bad-actor-disqualification-review/) | Produces a Rule 506(d) bad actor disqualification review for private securities offerings, including a… |
 | [`Blue Sky Filings Compliance Workflow`](skills/blue-sky-filings/) | Produces a practitioner-grade Blue Sky compliance memorandum and execution plan for U.S. securities… |
 | [`Comfort Letter from Auditors`](skills/comfort-letter-from-auditors/) | Drafts PCAOB AS 6101-compliant auditor comfort letters (cold comfort letters) providing negative… |
+| [`Connector — SEC EDGAR`](skills/connector-sec-edgar-sboghossian/) | Use when a lawyer, compliance professional, or due-diligence analyst needs to retrieve US public-company… |
 | [`Directed Share Program`](skills/directed-share-program/) | Drafts a Directed Share Program (DSP) agreement governing share allocation and purchase by designated… |
 | [`Director and Officer Questionnaire`](skills/director-officer-questionnaire/) | Drafts Director and Officer (D&O) questionnaires for SEC disclosure compliance under Reg S-K Items 401… |
 | [`Form 10-Q Quarterly Report`](skills/form-10-q/) | Drafts SEC-compliant Form 10-Q quarterly reports covering Part I financials, MD&A, market risk… |
@@ -27,6 +28,7 @@ Jurisdiction: `us` · Practice: `capital-markets` · Skill language varies per s
 | [`Opinion of Counsel for SEC Filing`](skills/sec-opinion-letter/) | Drafts Opinion of Counsel letters for SEC registration statements, covering due incorporation, valid… |
 | [`SEC Regulation D Compliance`](skills/sec-reg-d-compliance/) | SEC Regulation D compliance for CRE syndications: 506(b) vs 506(c) offering selection, accredited… |
 | [`Shelf Registration Statement (Form S-3)`](skills/shelf-registration-s3/) | Drafts SEC Form S-3 shelf registration statements for eligible U.S. public companies under the… |
+| [`SEC EDGAR — US Public Company Filings`](skills/tool-sec-edgar-us-sboghossian/) | Use when due diligence or research requires reviewing US public company filings — annual reports (10-K)… |
 | [`Underwriting Agreement`](skills/underwriting-agreement/) | Drafts a firm-commitment underwriting agreement for SEC-registered U.S. public offerings, covering… |
 
 ## Cold-start context

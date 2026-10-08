@@ -4,13 +4,15 @@ Construction contracts, payment and lien rights, project delivery, and defect cl
 
 Jurisdiction: `general` · Practice: `construction` · Skill language: en
 
-## Skills (4)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
 | [`Claims Documentation`](skills/claims-documentation/) | Document construction claims for disputes and recovery. Compile evidence, calculate damages, track… |
 | [`Contract Clause Analyzer`](skills/contract-clause-analyzer/) | Analyze construction contract clauses. Identify risks, obligations, and key terms using NLP. |
 | [`The Counsel`](skills/counsel-datajinipk/) | Senior Contract Administrator & FIDIC / EPC contract specialist for oil, gas, refining, petrochemical… |
+| [`Draft — Construction Contract (Non-FIDIC)`](skills/draft-construction-contract-sboghossian/) | Use when asked to draft a construction contract for small to medium projects where the full FIDIC suite… |
+| [`FIDIC Contract Amendment — Particular Conditions`](skills/draft-fidic-amendment-sboghossian/) | Use when drafting FIDIC contract amendments (Particular Conditions) to override or supplement the… |
 | [`EPC Contract`](skills/epc-contract/) | Drafts turnkey Engineering, Procurement, and Construction (EPC) contracts for industrial facility… |
 
 ## Cold-start context

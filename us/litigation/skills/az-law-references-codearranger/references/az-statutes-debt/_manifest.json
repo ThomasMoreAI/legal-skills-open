@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-31",
+  "mode": "verbatim",
+  "source": "https://www.azleg.gov/ars",
+  "notes": "Pulled by scripts/pull_arizona_statutes.py. The Arizona Legislature publishes the Arizona Revised Statutes section by section as plain HTML fragments at azleg.gov/ars/<title>/<NNNNN>.htm (integer part zero-padded to five digits; decimal suffix rendered with a hyphen) \u2014 no Cloudflare bot-fight gate, so stdlib urllib with a browser User-Agent retrieves it. Each fragment carries the catchline in <TITLE> and a green/purple catchline <p> followed by the body <p> run. This is a curated, topic-grouped, BOUNDED corpus (one MD file per topic, 5-15 representative sections each) rather than a full enumeration of the A.R.S. Failed sections are recorded inline; a topic file becomes a well-formed pointer stub only if every section in it fails. A _file_is_stub regression guard prevents a failed run from clobbering committed verbatim content."
+}

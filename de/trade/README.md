@@ -4,12 +4,13 @@ German/EU foreign-trade law (Außenwirtschaftsrecht) — export control and dual
 
 Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (99)
+## Skills (102)
 
 | Skill | What it does |
 |---|---|
 | [`Allgemeine Genehmigungen: Finder und Nutzungsbedingungen für Exportkontrolle`](skills/allgemeingenehmigung-agg-antidumping/) | Für Allgemeine Genehmigungen: Finder und Nutzungsbedingungen für Exportkontrolle: ordnet Norm… |
 | [`Asset Freeze: Sofortmassnahmen beim Einfrieren sanktionierten Vermögens`](skills/asset-freeze-atlas-ausfuhranmeldung-audit/) | Für Asset Freeze: Sofortmassnahmen beim Einfrieren sanktionierten Vermögens: ordnet Norm, Beweislast und… |
+| [`/aussenwirtschaft-zoll-sanktionen:ausfuhr-dual-use-pruefung`](skills/ausfuhr-dual-use-pruefung-borghei/) | 4-Stufen-Prüfung der Ausfuhrgenehmigungspflicht nach VO (EU) 2021/821 – Güterklassifikation Anhang I… |
 | [`Abfallverbringung: Grenzueberschreitende Entsorgung und Notifizierungsverfahren`](skills/aussenwirtschaft-abfallverbringung/) | Für Abfallverbringung: Grenzüberschreitende Entsorgung und Notifizierungsverfahren: ordnet Norm… |
 | [`AEO-Bewilligung: Monitoring laufender Bedingungen und Meldepflichten`](skills/aussenwirtschaft-aeo-bewilligung-monitoring/) | Für AEO-Bewilligung: Monitoring laufender Bedingungen und Meldepflichten: ordnet Norm, Beweislast und… |
 | [`Aktive Veredelung: Bewilligung, Mengenueberwachung und Abschlussabrechnung`](skills/aussenwirtschaft-aktive-veredelung/) | Für Aktive Veredelung: Bewilligung, Mengenüberwachung und Abschlussabrechnung: ordnet Norm, Beweislast… |
@@ -102,10 +103,12 @@ Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see 
 | [`Nichtpraeferenzieller Ursprung und Made-in-Bezeichnung: Berechnung und Nachweis`](skills/nichtpraeferenzieller-ursprung-ofac-sdn-post/) | Für Nichtpräferenzieller Ursprung und Made-in-Bezeichnung: Berechnung und Nachweis: ordnet Norm… |
 | [`Passive Veredelung: Bewilligung, Warenidentitaet und Zollwertberechnung`](skills/passive-veredelung-rueckwaren-erlass/) | Für Passive Veredelung: Bewilligung, Warenidentität und Zollwertberechnung: ordnet Norm, Beweislast und… |
 | [`Sammelgenehmigungen und AGG für Dual-Use-Exporte: Beantragung und Nutzung`](skills/sammelgenehmigung-export-schulung/) | Für Sammelgenehmigungen und AGG für Dual-Use-Exporte: Beantragung und Nutzung: ordnet Norm, Beweislast… |
+| [`/aussenwirtschaft-zoll-sanktionen:sanktionslisten-screening`](skills/sanktionslisten-screening-borghei/) | Treffer-Workflow zum Sanktionslisten-Screening nach EU-Sanktions-VOen (konsolidierte EU-Liste auf Basis… |
 | [`Exportkontrolle für Verschluesselungssoftware: Kryptografie und Dual-Use-Kategorie 5`](skills/software-verschluesselung-swiss-sanctions/) | Für Exportkontrolle für Verschlüsselungssoftware: Kryptografie und Dual-Use-Kategorie 5: ordnet Norm… |
 | [`Zollstrafrecht und Selbstkorrektur: Strafbarkeit Bussgeld und Selbstanzeige`](skills/straf-bussgeld-selbstkorrektur/) | Für Zollstrafrecht und Selbstkorrektur: Strafbarkeit Bussgeld und Selbstanzeige: ordnet Norm, Beweislast… |
 | [`vZTA-Antrag: Qualitaetsgate für verbindliche Zolltarifauskuenfte`](skills/vzta-antrag-warennummer-hs-wto-handelspolitik/) | Für vZTA-Antrag: Qualitätsgate für verbindliche Zolltarifauskünfte: erstellt Entwurf mit Antrag, Beweis… |
 | [`Zolllager und Freilager: Bewilligung Lagerhalterpflichten und Bestandskontrolle`](skills/zolllager-freilager-aussenwirtschaft/) | Für Zolllager und Freilager: Bewilligung Lagerhalterpflichten und Bestandskontrolle: ordnet Norm… |
+| [`/aussenwirtschaft-zoll-sanktionen:zolltarif-vzta-antrag`](skills/zolltarif-vzta-antrag-borghei/) | Tarifierung einer Ware in TARIC nach den Allgemeinen Vorschriften AV 1–6 und Entwurf eines Antrags auf… |
 | [`Zolltarifrecht und vZTA: Systematik APS und Zolloptimierung`](skills/zolltarif-vzta-zollwert-royalties-ursprung/) | Für Zolltarifrecht und vZTA: Systematik APS und Zolloptimierung: ordnet Norm, Beweislast und… |
 
 ## Cold-start context

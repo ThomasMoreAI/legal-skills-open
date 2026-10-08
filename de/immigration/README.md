@@ -4,13 +4,14 @@ Immigration and nationality — visas, status, work authorisation, and citizensh
 
 Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 
-## Skills (151)
+## Skills (154)
 
 | Skill | What it does |
 |---|---|
 | [`Abschiebehaft § 62 AufenthG`](skills/abschiebehaft-paragraf-62-aufenthg/) | Für Abschiebehaft Paragraf 62 AufenthG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Abschiebung abwehren — Duldung § 60a AufenthG Abschiebungsverbote § 60 Abs`](skills/abschiebungsabwehr/) | Für Abschiebung abwehren — Duldung Paragraf 60a AufenthG Abschiebungsverbote Paragraf 60 Abs: ordnet… |
 | [`Abschiebungshaft: Fachmodul im Migrationsrecht`](skills/abschiebungshaft/) | Für Abschiebungshaft: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/migrationsrecht:abschiebungsschutz`](skills/abschiebungsschutz-borghei/) | Eilrechtsschutz gegen drohende Abschiebung und Duldungsantrag – § 80 V VwGO (insb. § 36 III AsylG… |
 | [`Abschiebungsverbot § 60 Abs`](skills/abschiebungsverbot-60-5-7/) | Für Abschiebungsverbot Paragraf 60 Abs: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Akteneinsicht Migration: Fachmodul im Migrationsrecht`](skills/akteneinsicht-migration/) | Für Akteneinsicht Migration: Fachmodul im Migrationsrecht: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Anerkennung Berufsabschluss: Fachmodul im Migrationsrecht`](skills/anerkennung-berufsabschluss/) | Für Anerkennung Berufsabschluss: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und… |
@@ -19,10 +20,12 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Asylsuchender muss zum BAMF zur Anhörung und Anwalt bereitet die Schilderung der Fluchtgründe vor`](skills/asyl-anhoerung-vorbereiten/) | Für Asyl Anhörung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Asylantrag wurde abgelehnt und Mandant will neuen Antrag stellen oder hat neue Beweise oder Lage hat sich geaendert`](skills/asyl-folgeantrag-71/) | Für Asyl Folgeantrag 71: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Asylantrag Folgeverfahren § 71 AsylG`](skills/asylantrag-folgeverfahren-paragraf-71-asylg/) | Für Asylantrag Folgeverfahren Paragraf 71 AsylG: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
+| [`/migrationsrecht:asylantrag-vorbereitung`](skills/asylantrag-vorbereitung-borghei/) | Vorbereitung des Asylantrags und der BAMF-Anhörung § 25 AsylG – Triage Dublin-VO 604/2013… |
 | [`Aufenthalt § 25a AufenthG`](skills/aufenthalt-paragraf-25a-aufenthg/) | Für Aufenthalt Paragraf 25a AufenthG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Aufenthaltsstatus, Frist und Rechtsmittel als Erstweiche: führt schnell durch Sachverhalt, Rechtsgrundlagen, Belege, Ris`](skills/aufenthaltsstatus-frist-und-rechtsmittel/) | Für Aufenthaltsstatus Frist und Rechtsmittel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Antrag auf Erteilung oder Verlaengerung eines Aufenthaltstitels nach AufenthG bei der Ausländerbehoerde`](skills/aufenthaltstitel-antrag/) | Für Aufenthaltstitel Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten`](skills/aufenthaltstitel-pruefung/) | Für Aufenthaltstitel Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`/migrationsrecht:aufenthaltstitel-pruefung`](skills/aufenthaltstitel-pruefung-borghei/) | Prüfung der einschlägigen Aufenthaltstitel-Art nach AufenthG (Visum § 6, Aufenthaltserlaubnis § 7… |
 | [`Aufenthg: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/aufenthg-fristen-form-und-zustaendigkeit/) | Für Aufenthg: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Ausbildungsduldung: Fachmodul im Migrationsrecht`](skills/ausbildungsduldung/) | Für Ausbildungsduldung: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ausweisung abwägen`](skills/ausweisung-abwaegung/) | Prüft eine Ausweisung nach den Paragrafen 53 bis 55 AufenthG mit Gefahrenprognose, besonderem Schutz… |

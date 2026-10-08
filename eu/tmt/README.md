@@ -4,7 +4,7 @@ Technology, Media & Telecommunications practice.
 
 Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 
-## Skills (50)
+## Skills (54)
 
 | Skill | What it does |
 |---|---|
@@ -15,11 +15,13 @@ Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 | [`Digitalregulierung: Erstprüfung, Rollenklärung und Mandatsziel`](skills/digitalregulierung-erstpruefung-und-mandatsziel/) | Für Digitalregulierung: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Schnittstellen — DSA, DMA, DSGVO, P2B-VO und § 19a GWB`](skills/digitalregulierung-schnittstellen-dsgvo-p2b-19a-gwb/) | Für Schnittstellen — DSA, DMA, DSGVO, P2B-VO und Paragraf 19a GWB: ordnet Norm, Beweislast und… |
 | [`DMA: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/dma-fristen-form-und-zustaendigkeit/) | Für DMA: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
+| [`/dsa-dma:dma-gatekeeper-pflichten`](skills/dma-gatekeeper-pflichten-borghei/) | Prüfung der Torwächter-Benennung Art. 3 DMA und des Pflichtenkatalogs Art. 5 DMA und Art. 6 DMA (Verbot… |
 | [`DMA — Gatekeeper-Schwellen und Kernplattformdienste`](skills/dma-gatekeeper-schwellen-und-kernplattformdienste/) | Für DMA — Gatekeeper-Schwellen und Kernplattformdienste: rechnet Beträge, Schwellen und Varianten… |
 | [`DMA: Pflichtenuebersicht`](skills/dma-pflichten-dsa-art-forschungsdatenzugang/) | Für DMA: Pflichtenübersicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dora: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/dora-risikoampel-und-gegenargumente/) | Für Dora: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`DSA — Systemische Risikobewertung nach Art. 34`](skills/dsa-art-34-systemische-risikobewertung/) | Für DSA — Systemische Risikobewertung nach Art. 34: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`DSA — Art. 40 Forschungsdatenzugang`](skills/dsa-art-40-forschungsdatenzugang-algorithmen/) | Für DSA — Art. 40 Forschungsdatenzugang: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/dsa-dma:dsa-beschwerde-streitbeilegung`](skills/dsa-beschwerde-streitbeilegung-borghei/) | Rechtsbehelfe gegen Inhaltsmoderation nach DSA – internes Beschwerdemanagementsystem Art. 20 DSA… |
 | [`Mandantenkommunikation`](skills/dsa-dma-digitalregulier-mandantenkommunikation-redteam-qualityga/) | Für Mandantenkommunikation: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Anschluss-Routing`](skills/dsa-dma-digitalregulierung-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/dsa-dma-digitalregulierung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
@@ -34,7 +36,9 @@ Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 | [`DSA: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/dsa-eidas-einordnung/) | Für DSA: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSA: Internes Beschwerdesystem`](skills/dsa-internes-beschwerdesystem-aufbau/) | Für DSA: Internes Beschwerdesystem: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DSA: Krisenreaktion Art. 36`](skills/dsa-krisenreaktionsmechanismus-art-36/) | Für DSA: Krisenreaktion Art. 36: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/dsa-dma:dsa-notice-action`](skills/dsa-notice-action-borghei/) | Prüfung und Gestaltung des Melde- und Abhilfeverfahrens (Notice-and-Action) nach Art. 16 DSA samt… |
 | [`DSA Platform`](skills/dsa-platform-arttuan/) | Work out which DSA layer you are (intermediary, hosting, platform, marketplace) and build the… |
+| [`/dsa-dma:dsa-statement-of-reasons`](skills/dsa-statement-of-reasons-borghei/) | Erstellung eines DSA-konformen 'Statement of Reasons' nach Art. 17 DSA bei… |
 | [`DSA — VLOP/VLOSE-Einordnung und Pflichten`](skills/dsa-vlop-vlose-einordnung-und-pflichten/) | Für DSA — VLOP/VLOSE-Einordnung und Pflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eidas: Behörden-, Gerichts- oder Registerweg`](skills/eidas-behoerden-gericht-und-registerweg/) | Für Eidas: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einordnung: Zahlen, Schwellenwerte und Berechnung`](skills/einordnung-zahlen-schwellen-und-berechnung/) | Für Einordnung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |

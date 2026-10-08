@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-06-24",
+  "mode": "verbatim",
+  "source": "https://www.txcourts.gov/rules-forms/rules-standards/",
+  "puller": "scripts/pull_texas_rules.py",
+  "notes": "Verbatim, BOUNDED corpus of the Texas court rules a Texas civil-practice / consumer-debt / family-law / justice-court drafter actually cites, extracted by scripts/pull_texas_rules.py from the consolidated rule PDFs the Office of Court Administration publishes at txcourts.gov. Each set file carries the verbatim rule text under '## Rule N. Title' headings. The TRCP PDF feeds two files: the main civil-procedure set and the Part V (Justice Court, Rules 500-510) set. The OCA re-issues amended editions at new /media/ paths, so the 'pdf' field records the current edition; update it when an amendment lands. Widen a set by adding rule numbers to its 'rules' list. pypdf is an optional dependency: without it (or on a failed download / no-rule-found), the set file is written as an honest pointer stub carrying the canonical PDF URL — never fabricated text. A _file_is_stub guard preserves committed verbatim content on a failed run (pass --force to overwrite).",
+  "targets": [
+    {
+      "set": "TRCP",
+      "name": "Texas Rules of Civil Procedure",
+      "file": "TRCP-civil-procedure.md",
+      "pdf": "/media/1462465/texas-rules-of-civil-procedure-march-1-2026.pdf",
+      "rules": ["4", "21", "21a", "45", "47", "57", "78a", "79", "90", "91", "91a", "92", "93", "94", "97", "99", "145", "166a", "169", "185", "190", "193", "193.7", "194", "196", "197", "198", "199", "215", "296", "320", "329b"]
+    },
+    {
+      "set": "TRCP Part V (Justice Court)",
+      "name": "Texas Rules of Civil Procedure — Part V (Justice Court)",
+      "file": "TRCP-justice-court.md",
+      "pdf": "/media/1462465/texas-rules-of-civil-procedure-march-1-2026.pdf",
+      "rules": ["500.3", "502", "502.5", "503", "506", "508", "510"]
+    },
+    {
+      "set": "Tex. R. Evid.",
+      "name": "Texas Rules of Evidence",
+      "file": "TRE-evidence.md",
+      "pdf": "/media/1456691/texas-rules-of-evidence-effective-912025.pdf",
+      "rules": ["401", "402", "403", "801", "802", "803", "804", "901", "902"]
+    },
+    {
+      "set": "Tex. R. App. P.",
+      "name": "Texas Rules of Appellate Procedure",
+      "file": "TRAP-appellate.md",
+      "pdf": "/media/1461885/texas-rules-of-appellate-procedure.pdf",
+      "rules": ["9", "26.1", "30"]
+    }
+  ]
+}

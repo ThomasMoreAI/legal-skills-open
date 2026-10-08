@@ -6,11 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): sanctions an
 
 Jurisdiction: `general` · Practice: `sanctions` · Skill language: en
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`Sanctions Screening`](skills/research-sanctions-screening-sboghossian/) | Use when a compliance officer, lawyer, or KYC analyst needs to check whether a person, entity, vessel… |
 | [`Sanctions Screening Documenter`](skills/sanctions-screening-documenter-rohasnagpal/) | Document sanctions screening of customers, counterparties, beneficial owners, controllers, vessels… |
+| [`UN Consolidated Sanctions List`](skills/tool-un-sanctions-sboghossian/) | Use as the baseline layer in any sanctions screening workflow. The UN Security Council Consolidated List… |
 
 ## Cold-start context
 

@@ -4,7 +4,7 @@ Arbitration agreements, arbitral proceedings, awards, and their enforcement or v
 
 Jurisdiction: `general` · Practice: `arbitration` · Skill language: en
 
-## Skills (15)
+## Skills (20)
 
 | Skill | What it does |
 |---|---|
@@ -23,6 +23,11 @@ Jurisdiction: `general` · Practice: `arbitration` · Skill language: en
 | [`Negotiation and Conflict Resolution: Conflict Analysis and Escalation, Mediation, the Dispute Resolution Spectrum, Facil`](skills/negot-conflict-analysis-mediation-adr-workplace-and-ethics-the/) | Use for conflict resolution rather than deal-making: conflict analysis and escalation dynamics… |
 | [`Party Interest Analyst`](skills/party-interest-analyst-rohasnagpal/) | Separates each party's stated position from their actual underlying interests, for both sides of a… |
 | [`People's Mediator`](skills/people-mediator/) | Professional people's mediator with 10+ years of experience in community dispute resolution, civil… |
+| [`Arbitration Agreement Clause`](skills/prompt-pack-arbitration-agreement-clause-sboghossian/) | Use when drafting an arbitration clause for insertion into a contract, selecting an arbitration… |
+| [`Award Enforcement Application`](skills/prompt-pack-award-enforcement-application-sboghossian/) | Use when drafting an application to enforce a foreign or domestic arbitral award in a specific… |
+| [`Emergency Arbitrator Application`](skills/prompt-pack-emergency-arbitrator-application-sboghossian/) | Use when drafting an application for emergency arbitrator relief under institutional arbitration rules… |
+| [`Request for Arbitration`](skills/prompt-pack-request-for-arbitration-sboghossian/) | Use when counsel needs to draft a Request for Arbitration (RfA) to be filed with an arbitral institution… |
+| [`Witness Statement (Arbitration)`](skills/prompt-pack-witness-statement-arbitration-sboghossian/) | Use when a legal team needs to draft a witness statement for international arbitration proceedings… |
 
 ## Cold-start context
 

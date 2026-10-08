@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `us` · Practice: `ip` · Skill language: en
 
-## Skills (165)
+## Skills (166)
 
 | Skill | What it does |
 |---|---|
@@ -58,6 +58,7 @@ Jurisdiction: `us` · Practice: `ip` · Skill language: en
 | [`Distribution Right und First Sale`](skills/distribution-first-sale-109/) | Für Distribution Right und First Sale: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`DMCA Safe Harbor § 512 Notice`](skills/dmca-safe-harbor-512-notice/) | Für DMCA Safe Harbor Paragraf 512 Notice: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`DMCA Takedown Notice`](skills/dmca-takedown-notice/) | Drafts a DMCA takedown notice compliant with 17 U.S.C. § 512(c)(3) for removing infringing content from… |
+| [`DMCA Takedown Notice`](skills/draft-takedown-dmca-sboghossian/) | Use when drafting a DMCA takedown notice (US 17 USC 512) or an equivalent notice-and-action request… |
 | [`Duration und Term`](skills/duration-term-302-305/) | Für Duration und Term: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`eCO Account und Organisationskonto`](skills/eco-account-edition-isbn-education-distance/) | Für eCO Account und Organisationskonto: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Edition, ISBN und Titelvarianten`](skills/edition-isbn-title-variants/) | Für Edition, ISBN und Titelvarianten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

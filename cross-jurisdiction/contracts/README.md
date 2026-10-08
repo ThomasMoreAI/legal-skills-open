@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: de
 
-## Skills (48)
+## Skills (49)
 
 | Skill | What it does |
 |---|---|
@@ -37,6 +37,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: d
 | [`Contract Formation und Consideration`](skills/contract-formation-false-friends-governing/) | Für Contract Formation und Consideration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Design Joint Development Agreement`](skills/design-joint-development-agreement-jeffreytse/) | Use when two parties have an unresolved dispute over an underlying claim, ownership, or title question… |
 | [`Design Vendor Agreement Template`](skills/design-vendor-agreement-template-jeffreytse/) | Use when creating a reusable vendor agreement template that covers SLAs, liability, data handling… |
+| [`MENA Distribution Agreement — Jurisdiction Variants`](skills/draft-distribution-agreement-mena-extension-sboghossian/) | Use as a companion to draft-distribution-agreement when the distribution arrangement involves MENA… |
 | [`Legal Opinion`](skills/draft-legal-opinion-sboghossian/) | Use when drafting a formal legal opinion — a written analysis by counsel on a specific legal question… |
 | [`Mandantenkommunikation`](skills/false-friends/) | Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`False-Friends-Scanner`](skills/false-friends-scanner/) | Für False-Friends-Scanner: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

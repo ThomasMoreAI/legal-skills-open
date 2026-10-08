@@ -6,11 +6,14 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): personal dat
 
 Jurisdiction: `sa` · Practice: `data-protection` · Skill language: en
 
-## Skills (1)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
+| [`Data Processing Agreement — KSA Personal Data Protection Law (PDPL)`](skills/draft-dpa-ksa-pdpl-sboghossian/) | Use when drafting a Data Processing Agreement (DPA) compliant with the KSA Personal Data Protection Law… |
+| [`Knowledge Pack — KSA Personal Data Protection Law (PDPL)`](skills/kb-data-privacy-ksa-pdpl-sboghossian/) | Use when a matter involves personal data processing, privacy obligations, or data-breach response in… |
 | [`تقرير امتثال PDPL`](skills/pdpl-compliance-salmandev/) | Check compliance with Saudi Personal Data Protection Law (PDPL) |
+| [`KSA PDPL Readiness Review`](skills/review-ksa-pdpl-readiness-sboghossian/) | Use when assessing a contract, data-processing agreement, DPIA, or organizational practice for… |
 
 ## Cold-start context
 

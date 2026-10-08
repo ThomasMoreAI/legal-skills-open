@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `de` · Practice: `general` · Skill language: de
 
-## Skills (1375)
+## Skills (1382)
 
 | Skill | What it does |
 |---|---|
@@ -139,6 +139,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Boilerplate-Klauseln: Katalog mit Mustertexten`](skills/boilerplate-klauseln-definitionen/) | Für Boilerplate-Klauseln: Katalog mit Mustertexten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`1 Pro-bono-Anliegen prüfen und Beratung ausarbeiten`](skills/bono-erstpruefung-und-mandatsziel/) | Für Bono: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`BORA-Konformitätsprüfung`](skills/bora-konformitaetspruefung-brao-email/) | Für BORA-Konformitätsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`/berufsrecht-anwaltschaft:brao-pflichtenpruefung`](skills/brao-pflichtenpruefung-borghei/) | Checkliste anwaltlicher Grundpflichten vor Mandatsannahme und im laufenden Mandat – Verschwiegenheit §… |
 | [`Kanzlei-Buchhaltung, Konten und Zahlungsabgleich`](skills/buchhaltung-konten-kanzlei-erechnung/) | Für Kanzlei-Buchhaltung, Konten und Zahlungsabgleich: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verl: Buchprojekt Bauleiter`](skills/buchprojekt-bauleiter/) | Für Verl: Buchprojekt Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Buchprojekt- und Kapitelkoordination`](skills/buchprojekt-kapitelkoordination/) | Für Buchprojekt- und Kapitelkoordination: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -360,6 +361,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`ELS-J Familienrecht-Erstgespraech`](skills/familienrecht-erstgespraech-juristische/) | Für ELS-J Familienrecht-Erstgespräch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Familienrecht und Gleichberechtigung`](skills/familienrecht-und-gleichberechtigung/) | Für Familienrecht und Gleichberechtigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Familienrecht Warnwoerter`](skills/familienrecht-warnwoerter/) | Für Familienrecht Warnwörter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/berufsrecht-anwaltschaft:fao-fortbildungsnachweis`](skills/fao-fortbildungsnachweis-borghei/) | Nachweis der Fortbildungspflicht nach § 15 FAO (15 Zeitstunden pro Jahr je Fachgebiet, kumulativ bei… |
 | [`FAQ und Explainer Rechtsfrage`](skills/faq-explainer-rechtsfrage/) | Für FAQ und Explainer Rechtsfrage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fee Model Selector`](skills/fee-model-selector/) | Für Fee Model Selector: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Fehlerklassen im BGB-AT-Training`](skills/fehlerklasse-bgb-at-training/) | Für Fehlerklassen im BGB-AT-Training: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -398,6 +400,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Geheimhaltung, NDA und Vertraulichkeit`](skills/geheimhaltung-nda-vertraulichkeit/) | Für Geheimhaltung, NDA und Vertraulichkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beteiligung und Immobilienzahlung nachvollziehen`](skills/geldwaeschepruefung-immobilien/) | Bereitet im Notariat die Geldwäscheprüfung von Grundstücks- und Gesellschaftsvorgängen vor. Klärt… |
 | [`Gemeines Recht und Partikularrecht`](skills/gemeines-recht-und-partikularrecht/) | Für Gemeines Recht und Partikularrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/vereins-stiftungs-gemeinnuetzigkeitsrecht:gemeinnuetzigkeit-ao`](skills/gemeinnuetzigkeit-ao-borghei/) | Prüfung und Sicherung der Steuerbegünstigung nach §§ 51–68 AO – steuerbegünstigte Zwecke § 52 AO… |
 | [`Generalklauseln als Abwägungslenker im Zivilrecht`](skills/generalklauseln-abwaegungslenkung/) | Für Generalklauseln als Abwägungslenker im Zivilrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Generalklauseln als Einbruchstelle des Zeitgeists`](skills/generalklauseln-als-einbruchstelle-zeitgeist/) | Für Generalklauseln als Einbruchstelle des Zeitgeists: ordnet Norm, Beweislast und Gegenargument… |
 | [`Generalklauseln prüfen`](skills/generalklauseln-pruefen/) | Für Generalklauseln prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -960,6 +963,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Rate Card Review`](skills/rate-card-review/) | Für Rate Card Review: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rbs: Themen-Map`](skills/rbs-einfuehrung-rdg-rbst-anlaufstellen/) | Für Rbs: Themen-Map: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rbst: Mandantenkommunikation und Entscheidungsvorlage`](skills/rbst-mandantenkommunikation-entscheidungsvorlage/) | Für Rbst: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
+| [`/berufsrecht-anwaltschaft:rdg-abgrenzung`](skills/rdg-abgrenzung-borghei/) | Abgrenzung erlaubter Rechtsdienstleistungen Nicht-Anwälte nach RDG – Anwaltsmonopol §§ 1, 3 RDG… |
 | [`Recherchefahrplan: Orientierung, keine Recherche`](skills/recherche-start-rechtsberatungsstelle/) | Für Recherchefahrplan: Orientierung, keine Recherche: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rechnungsvorbereitung und Abschluss`](skills/rechnung/) | Für Rechnungsvorbereitung und Abschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rechnungsstreit deeskalieren`](skills/rechnung-streit-deeskalation/) | Für Rechnungsstreit deeskalieren: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
@@ -1095,6 +1099,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`ELS-J Sozialgerichtsverfahren`](skills/sozialgerichtsverfahren-strafverfahren/) | Für ELS-J Sozialgerichtsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sozialrecht Warnwoerter`](skills/sozialrecht-warnwoerter/) | Für Sozialrecht Warnwörter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Spam-und-Massen-Anfrage-Filter`](skills/spam-und-massen-anfrage-filter/) | Für Spam-und-Massen-Anfrage-Filter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/vereins-stiftungs-gemeinnuetzigkeitsrecht:spendenrecht-haftung`](skills/spendenrecht-haftung-borghei/) | Zuwendungen an steuerbegünstigte Körperschaften und die Haftung des Zuwendungsempfängers –… |
 | [`Annaeherung: Livequellen- und Rechtsprechungscheck`](skills/spezial-annaeherung-livequellen-und-rechtsprechungscheck/) | Für Annäherung: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwenden: Livequellen- und Rechtsprechungscheck`](skills/spezial-anwenden-livequellen-und-rechtsprechungscheck/) | Für Anwenden: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bietet: Red-Team und Qualitätskontrolle`](skills/spezial-bietet-red-team-und-qualitaetskontrolle/) | Für Bietet: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
@@ -1130,6 +1135,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Steuerberater-Modus (StBerG/BOStB)`](skills/steuerberater-stberg-allgemeine-berufliche/) | Für Steuerberater-Modus (StBerG/BOStB): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuerberater-Modus (StBerG/BOStB)`](skills/steuerberater-stberg-modus/) | Für Steuerberater-Modus (StBerG/BOStB): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuerstaat und Haushaltsgeschichte`](skills/steuerstaat-und-haushaltsgeschichte/) | Für Steuerstaat und Haushaltsgeschichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/vereins-stiftungs-gemeinnuetzigkeitsrecht:stiftungsrecht-2023`](skills/stiftungsrecht-2023-borghei/) | Errichtung, Verwaltung und Umstrukturierung der rechtsfähigen Stiftung nach dem seit 01.01.2023… |
 | [`Stil und Ton juristischer Texte`](skills/stil-und-ton-juristische-texte/) | Für Stil und Ton juristischer Texte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Stilbruch- und Stilcheck Fachzeitschrift`](skills/stilbruch-stilcheck-fachzeitschrift/) | Für Stilbruch- und Stilcheck Fachzeitschrift: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Strafprozessgeschichte`](skills/strafprozessgeschichte/) | Für Strafprozessgeschichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -1233,6 +1239,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Verbraucherschutzgeschichte`](skills/verbraucherschutzgeschichte/) | Für Verbraucherschutzgeschichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verdachtsberichterstattung Prüfung`](skills/verdachtsberichterstattung-pruefung/) | Für Verdachtsberichterstattung Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vereins- und Parteienrecht`](skills/vereins-und-parteienrecht/) | Für Vereins- und Parteienrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/vereins-stiftungs-gemeinnuetzigkeitsrecht:vereinsgruendung-satzung`](skills/vereinsgruendung-satzung-borghei/) | Gründung des eingetragenen Vereins und Gestaltung der Satzung – Abgrenzung Idealverein § 21 BGB zum… |
 | [`Verexcelung Prinzip`](skills/verexcelung-prinzip/) | Für Verexcelung Prinzip: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Verfahrensart bestimmen`](skills/verfahrensart-bestimmen-verjaehrung/) | Für Verfahrensart bestimmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dieses Skill strukturiert die Kommunikation von verfassungsrechtlich relevanten Rechtsfragen an Mandanten und erstellt d`](skills/verfassungs-mandantenkommunikation-entscheidungsvorlage/) | Für Verfassungs Mandantenkommunikation Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |

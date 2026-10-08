@@ -1,0 +1,820 @@
+{
+  "skill_slug": "israeli-consumer-claim-kit",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-10-07",
+  "claims": [
+    {
+      "id": "tech-window-2h",
+      "claim": "Consumer Protection Law s.18A(c)(2): waiting time for a service provider may not exceed two hours beyond the coordinated time; a phone-call alternative is allowed only if the consumer was told they may refuse it",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "זמן ההמתנה לנותן שירות לא יעלה על שעתיים מעבר לשעה שתואמה, ואולם נותן השירות רשאי להציע לצרכן להמתין לקריאה טלפונית כתחליף לתיאום האמור, ובלבד שזמן ההמתנה של הצרכן במענו לא יעלה על שעתיים והובהר לצרכן שהוא רשאי לסרב להצעה כאמור אם אין בה כדי להקל עליו.",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-comp-300-600",
+      "claim": "s.18A(d)(1): compensation without proof of damage is NIS 300 once two hours have passed BEYOND the two-hour waiting window, and NIS 600 once three hours have passed beyond it (i.e. 4h and 5h after the coordinated time) (סעיף 18א)",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "תואם מועד לביקור בהתאם להוראות סעיף קטן (ג) וחלפו שעתיים מעבר לזמן ההמתנה כאמור בסעיף קטן (ג)(2) – פיצוי בסכום של 300 שקלים חדשים; חלפו שלוש שעות מעבר לזמן ההמתנה האמור – פיצוי בסכום של 600 שקלים חדשים;",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-comp-phone-300",
+      "claim": "s.18A(d)(2): breach of the phone-call alternative rules gives NIS 300 compensation",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "פעל נותן השירות בניגוד להוראות סעיף קטן (ג)(2) לעניין הקריאה הטלפונית – פיצוי בסכום של 300 שקלים חדשים.",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-hours",
+      "claim": "s.18A(c)(1a): for warranty, device-conditioned service contracts, installation/removal and periodic gas checks, visits are between 8:00 and 19:00 on weekdays and 8:00 to 13:00 on Fridays and holiday eves",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "ביקור במענו של צרכן יהיה בין השעות 8:00 ו־19:00 בימי חול, ובין השעות 8:00 ו־13:00 בימי שישי וערבי חג",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-postpone-2000",
+      "claim": "CPL s.18A(c)(3): the provider may postpone by notice no later than 20:00 the evening before and set a new date and hour, provided the postponement does not push the service past its legal deadline",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "נותן השירות רשאי להודיע לצרכן, לא יאוחר משעה 20:00 בערב שקדם למועד הביקור שתואם, על דחיית הביקור, ולתאם עמו מועד ושעה חדשים לביקור, ובלבד שאין בדחיה כאמור כדי לדחות את מתן השירות מעבר לפרק הזמן שנקבע לכך לפי דין",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-scope-delivery",
+      "claim": "s.18A(c)(1)(e): the technician-visit rule also covers delivery of goods the dealer sold",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לשם הובלה של טובין שהעוסק מכר;",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-scope-gas",
+      "claim": "s.18A(c)(1)(d): covers periodic inspections of home gas installations",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לשם בדיקות תקופתיות במיתקני גז ביתיים;",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-exception-unforeseeable",
+      "claim": "s.18A(f): no statutory compensation if the delay stemmed from circumstances the provider did not and could not know or foresee and could not prevent",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "נבע האיחור מנסיבות שנותן השירות לא ידע עליהן בעת קביעת המועד ושעת הביקור ולא היה עליו לדעת עליהן, או שלא ראה ולא היה עליו לראותן מראש, ולא יכול היה למנען, לא יהיה הצרכן זכאי לפיצוי לפי סעיף זה.",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-in-kind-consent",
+      "claim": "s.18A(e): provider may offer compensation in goods or services only if it told the consumer they may choose cash and the consumer agreed; burden of proof on the provider",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "נטל ההוכחה כי הצרכן הסכים לפיצוי לפי סעיף קטן זה הוא על נותן השירות.",
+      "confidence": "high"
+    },
+    {
+      "id": "tech-kz-insurers-excluded",
+      "claim": "Kol Zchut: the technician rule does not apply to services at the consumer's address on behalf of insurance companies (aggregator statement, not located in statute text)",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%91%D7%92%D7%99%D7%9F_%D7%90%D7%99%D7%97%D7%95%D7%A8_%D7%98%D7%9B%D7%A0%D7%90%D7%99_%D7%90%D7%95_%D7%90%D7%99%D7%A9_%D7%A9%D7%99%D7%A8%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "החוק אינו חל על שירותים הניתנים במענו של הצרכן מטעם חברות ביטוח.",
+      "confidence": "medium",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "dist-14-days-goods",
+      "claim": "s.14C(c)(1): distance sale of goods may be cancelled from the transaction until 14 days from receipt of the goods or of the disclosure document, whichever is later",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "בנכס – מיום עשיית העסקה ועד ארבעה עשר ימים מיום קבלת הנכס או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף קטן (ב), לפי המאוחר מביניהם;",
+      "confidence": "high"
+    },
+    {
+      "id": "dist-service-2-days",
+      "claim": "s.14C(c)(2): for a non-continuing service bought at a distance, cancellation within 14 days and at least two non-rest days before the service",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "בתנאי שביטול כאמור ייעשה לפחות שני ימים, שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן.",
+      "confidence": "high"
+    },
+    {
+      "id": "dist-exclusion-travel-7",
+      "claim": "s.14C(d)(2): no distance-sale cancellation right for lodging/travel/vacation/leisure if cancellation falls within seven non-rest days before the service",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "שירותי הארחה, נסיעה, חופש או בילוי, אם מועד ביטול העסקה חל בתוך שבעה ימים שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן;",
+      "confidence": "high"
+    },
+    {
+      "id": "dist-exclusion-custom",
+      "claim": "s.14C(d)(4): no distance-sale cancellation for goods made specially for the consumer",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "טובין שיוצרו במיוחד בעבור הצרכן בעקבות העסקה;",
+      "confidence": "high"
+    },
+    {
+      "id": "peddler-14-days",
+      "claim": "s.14(a)(1): door-to-door (peddling) sale of goods may be cancelled until 14 days from delivery or receipt of the required details, whichever later",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "במכר – מיום עשיית ההסכם עד ארבעה־עשר ימים מיום מסירת הנכס או מיום קבלת הפרטים שנקבעו בתקנות לפי סעיף קטן (ד), לפי המאוחר מביניהם;",
+      "confidence": "high"
+    },
+    {
+      "id": "senior-age-65",
+      "claim": "s.14C1(a): senior citizen means a person aged 65",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "”אזרח ותיק“ – מי שמלאו לו 65 שנים;",
+      "confidence": "high"
+    },
+    {
+      "id": "oleh-5-years",
+      "claim": "s.14C1(a): new immigrant means someone for whom five years have not passed since the oleh certificate or eligibility certificate was issued",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "”עולה חדש“ – מי שטרם חלפו חמש שנים מיום שניתנה לו תעודת עולה או תעודת זכאות כעולה ממשרד העלייה והקליטה;",
+      "confidence": "high"
+    },
+    {
+      "id": "vuln-peddler-4-months",
+      "claim": "s.14C1(b): a person with a disability, senior or new immigrant may cancel a peddling transaction within four months",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "בעסקה ברוכלות שנערכה עם צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, רשאי הצרכן לבטל את העסקה בתוך ארבעה חודשים מיום עשיית ההסכם",
+      "confidence": "high"
+    },
+    {
+      "id": "vuln-distance-4-months-conversation",
+      "claim": "s.14C1(c): the same groups may cancel a distance sale within four months, ONLY if the transaction included a conversation between the dealer and consumer (including via electronic communication)",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "רשאי הצרכן לבטל את העסקה בתוך ארבעה חודשים מיום עשיית העסקה, מיום קבלת הנכס או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף 14ג(ב), לפי העניין, לפי המאוחר, ובלבד שההתקשרות בעסקה כללה שיחה בין העוסק לצרכן, ובכלל זה שיחה באמצעות תקשורת אלקטרונית.",
+      "confidence": "high"
+    },
+    {
+      "id": "cancel-defect-no-fee-14",
+      "claim": "s.14E(a)(1): on cancellation due to defect, non-conformity, non-delivery on time or other breach, the dealer refunds within 14 days and may not charge any cancellation fee",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "יחזיר העוסק לצרכן בתוך 14 ימים מיום קבלת ההודעה על הביטול, את אותו חלק ממחיר העסקה ששולם על ידי הצרכן, יבטל את חיובו של הצרכן בשל העסקה וימסור לו עותק מהודעת ביטול החיוב כאמור ולא יגבה מהצרכן דמי ביטול כלשהם;",
+      "confidence": "high"
+    },
+    {
+      "id": "cancel-fee-5pct-100",
+      "claim": "s.14E(b)(1): on a no-reason distance/timeshare cancellation, refund within 14 days, cancellation fee capped at 5% of price or NIS 100, whichever is lower (סעיף 14ה)",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "זולת דמי ביטול בשיעור שלא יעלה על 5% ממחיר הנכס נושא החוזה או העסקה, או 100 שקלים חדשים, לפי הנמוך מביניהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "continuing-3-6-business-days",
+      "claim": "s.13D(c): a continuing transaction ends within three business days of the cancellation notice, or six business days if sent by registered mail",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "חוזה בעסקה מתמשכת יסתיים בתוך שלושה ימי עסקים מיום שנמסרה הודעת ביטול לפי הוראות סעיף 14ט, ואם נמסרה הודעת הביטול באמצעות דואר רשום – בתוך שישה ימי עסקים מיום מסירתה למשלוח",
+      "confidence": "high"
+    },
+    {
+      "id": "cancel-methods-email",
+      "claim": "s.14I(a): a dealer must accept a cancellation notice by phone/orally, registered mail, email, fax (if it has one), or internet where the deal can be made online",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "בעל פה – בטלפון או בהודעה בעל פה במקום העסק, למעט אם נקבע לפי החוק כי ביטול העסקה ייעשה בדרך של הודעה בכתב; בדואר רשום; בדואר אלקטרוני",
+      "confidence": "medium"
+    },
+    {
+      "id": "exemplary-10000",
+      "claim": "s.31A(a): exemplary damages without proof of damage up to NIS 10,000 per breach, for the listed breaches only (סעיף 31א)",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "רשאי בית המשפט לפסוק, בשל אותה הפרה, פיצויים שאינם תלויים בנזק (בסעיף זה – פיצויים לדוגמה), בסכום שלא יעלה על 10,000 שקלים חדשים:",
+      "confidence": "high"
+    },
+    {
+      "id": "exemplary-50000",
+      "claim": "s.31A(c)(1): up to NIS 50,000 for a repeat breach, continuing breach or aggravated circumstances",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "פיצויים לדוגמה בסכום העולה על 10,000 שקלים חדשים ובלבד שאינו עולה על 50,000 שקלים חדשים, אם מצא כי ההפרה היא הפרה חוזרת או הפרה נמשכת או שהיא נעשתה בנסיבות מחמירות",
+      "confidence": "high"
+    },
+    {
+      "id": "exemplary-prior-written-request",
+      "claim": "s.31A(b): no exemplary-damages suit unless the consumer first sent a written request (email counts); for a continuing-transaction cancellation a s.14T(a) cancellation notice suffices except an oral one; for distance-sale cancellation the cancellation itself suffices",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לא תוגש נגד עוסק תביעה לפיצויים לדוגמה לפי סעיף קטן (א), אלא לאחר שהצרכן שלח או מסר בקשה לפי אותו סעיף קטן, בכתב, לרבות באמצעות תקשורת אלקטרונית;",
+      "confidence": "high"
+    },
+    {
+      "id": "exemplary-list-continuing",
+      "claim": "s.31A(a)(2B): qualifying breach, dealer kept charging after a continuing-transaction cancellation notice",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "ביקש צרכן לבטל עסקה מתמשכת באמצעות הודעת ביטול לפי הוראות סעיף 14ט – והעוסק המשיך לחייב את הצרכן בתשלומים בשל העסקה, בניגוד להוראות סעיף 13ד(ג);",
+      "confidence": "high"
+    },
+    {
+      "id": "exemplary-list-warranty-repair",
+      "claim": "s.31A(a)(8): qualifying breach, failure to repair under warranty or supply spare parts within the regulated period",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "והיצרן או העוסק, לפי העניין, לא תיקן כל קלקול כאמור במהלך תקופת האחריות בלא תמורה או לא סיפק חלקי חילוף כאמור עד תום תקופת האחריות",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-goods-over-50",
+      "claim": "Cancellation Regulations 2010 reg.1: 'goods' for in-store cancellation means goods whose price exceeds NIS 50",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "”טובין“ – טובין שהמחיר ששולם בעדם עולה על 50 שקלים חדשים.",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-14-days",
+      "claim": "Reg.2(1): furniture, home and garden equipment, electrical/electronic devices, unopened goods, ordered-not-supplied goods, water purifiers and watches may be cancelled within 14 days of receipt; connecting to electricity, gas or water counts as use (תקנה 2 לתקנות ביטול עסקה)",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לרכישת טובין או סוגי טובין כאמור בפרטים (1) עד (6) ו־(23) לתוספת – בתוך 14 ימים מיום שקיבל את הטובין;",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-clothing-2-days",
+      "claim": "Reg.2(2): clothing and footwear, until two non-rest days after purchase, provided the price tag was not removed",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "מיום הרכישה ועד תום שני ימים שלאחריו שאינם ימי מנוחה ובלבד שתווית המחיר על הטובין, אם ישנה, לא הוסרה;",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-refund-7-business-days",
+      "claim": "Reg.4(a): refund at cancellation time if possible, and not later than seven business days, by the same payment method",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "תהיה במועד ביטול העסקה, ככל שניתן או במועד הקרוב ביותר לכך ולא מאוחר משבעה ימי עסקים ותיעשה באותו אופן שנעשה בו התשלום",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-fee-5pct-100",
+      "claim": "Reg.5(a): in-store cancellation fee 5% of price or NIS 100, whichever lower",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "רשאי העוסק לגבות מהצרכן דמי ביטול בשיעור של 5% ממחיר הטובין או מערך השירות או 100 שקלים חדשים לפי הנמוך מביניהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-exclusion-jewel-3000",
+      "claim": "Reg.6(a)(11): no cancellation right for jewelry above NIS 3,000 (except watches)",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "תכשיט שהמחיר ששולם בעדו גבוה מ־3,000 שקלים חדשים, למעט שעונים;",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-exclusion-food",
+      "claim": "Reg.6(a)(4): no cancellation right for food products",
+      "claim_type": "feature",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "טובין שעל פי דין אין להחזירם; מוצרי מזון;",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-goods-150",
+      "claim": "Warranty Regulations 2006 reg.1: apply to new electrical, electronic and gas products (incl. mechanisms in furniture) priced above NIS 150",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "”טובין“ – מוצרי חשמל, אלקטרוניקה וגז חדשים, לרבות מנגנונים מכניים וחשמליים ברהיטים, ובלבד שמחיר הטובין לצרכן גבוה מ־150 שקלים חדשים;",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-1-year",
+      "claim": "Warranty Regulations reg.1: minimum warranty period is one year from delivery",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "”תקופת האחריות“ – תקופה של שנה מיום מסירת הטובין לצרכן, בכפוף להוראות תקנה 5;",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-repair-deadlines",
+      "claim": "Reg.10(a): repair within one week of the call, or ten days from delivery to a service station, or two weeks if left at the point of sale (תקנה 10 לתקנות האחריות)",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לא יאוחר מתום שבוע ימים מהיום שבו נקרא לעשות כן או מתום עשרה ימים מהיום שבו נמסרו הטובין לתחנת השירות",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-dealer-3-weeks",
+      "claim": "Reg.10(b): a dealer liable under reg.19 must repair within three weeks",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "ימלא את חובתו בתוך תקופה של שלושה שבועות מיום שנקרא לעשות כן",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-dealer-400",
+      "claim": "Reg.19: a dealer that sold goods above NIS 400 bears the manufacturer's duties when the manufacturer cannot be located (תקנה 19 לתקנות האחריות)",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "יחולו על עוסק שמכר לצרכן טובין במחיר העולה על 400 שקלים חדשים, כל החיובים המוטלים בתקנות אלה על יצרן טובין, כאשר אין אפשרות לאתר את היצרן.",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-spare-parts-300",
+      "claim": "Reg.3(b): goods above NIS 300 get spare parts until one year after the warranty ends",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "יצרן של טובין אשר מחירם במועד הרכישה עולה על 300 שקלים חדשים יספק, על פי דרישת הצרכן שרכשם, חלקי חילוף לשם תיקון הטובין עד תום שנה לאחר תום תקופת האחריות",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-failed-repair-replace",
+      "claim": "Reg.6(c): if the repair does not restore the goods with new original parts, the manufacturer supplies new equivalent goods or refunds, at the manufacturer's choice (תקנה 6 לתקנות האחריות)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "יספק לצרכן טובין חדשים, זהים או מסוג ואיכות דומים ושווי ערך, או ישיב לו את התמורה ששילם בעדם, לפי בחירת היצרן.",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-tech-late-twice",
+      "claim": "Reg.11(c): a technician late more than twice in a row within the repair period means the manufacturer breached its duties (תקנה 11 לתקנות האחריות)",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "איחר הטכנאי למעלה מפעמיים ברציפות בתוך פרק הזמן שנקבע לתיקון הטובין, יראו את היצרן כמי שהפר את חיוביו לפי תקנות אלה.",
+      "confidence": "high"
+    },
+    {
+      "id": "small-claims-39900",
+      "claim": "Courts Law s.60(1): small-claims ceiling NIS 30,000 base (August 2008 index), NIS 39,900 in 2026",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לתשלום סכום שאינו עולה על 30,000 שקלים חדשים (מתואם לאוגוסט 2008;בשנת 2026, 39,900 ש״ח);",
+      "confidence": "high"
+    },
+    {
+      "id": "small-claims-39900-kz",
+      "claim": "Kol Zchut: small-claims ceiling 39,900 as of January 2026",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "cpa-complaint-url",
+      "claim": "Consumer Protection and Fair Trade Authority public-inquiries service page (online complaint form)",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "שירות זה מאפשר להגיש פנייה למחלקת פניות הציבור של הרשות להגנת הצרכן ולסחר הוגן.",
+      "confidence": "high"
+    },
+    {
+      "id": "cpa-use-for-enforcement",
+      "claim": "Information given to the Authority is used for investigation, supervision and enforcement",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "ובכלל זה פעילויות חקירה, פיקוח ואכיפה של הרשות",
+      "confidence": "high"
+    },
+    {
+      "id": "cpa-enforcement-arm",
+      "claim": "Kol Zchut: the Authority is an independent enforcement arm; consumer-to-consumer and business-to-business deals are outside its remit",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%D7%95%D7%9C%D7%A1%D7%97%D7%A8_%D7%94%D7%95%D7%92%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "הרשות להגנת הצרכן ולסחר הוגן היא זרוע אכיפה עצמאית",
+      "confidence": "medium",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "council-complaint-url",
+      "claim": "Israel Consumer Council complaint lobby page with online, accessible and Word complaint options",
+      "claim_type": "url",
+      "source_url": "https://www.consumers.org.il/category/complaint-form",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "להגשת תלונה מקוונת לחצו כאן",
+      "confidence": "high"
+    },
+    {
+      "id": "council-prior-written-approach",
+      "claim": "Kol Zchut: the Consumer Council handles a complaint only after the consumer approached the business in writing",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%A0%D7%99%D7%99%D7%94_%D7%9C%D7%9E%D7%95%D7%A2%D7%A6%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%A6%D7%A8%D7%9B%D7%A0%D7%95%D7%AA",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "המועצה הישראלית לצרכנות תטפל בתלונות שיוגשו אליה רק לאחר שנעשתה פנייה בכתב מצד הצרכן לבית העסק.",
+      "confidence": "medium",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "aggravated-chapter",
+      "claim": "Chapter E2 of the Consumer Protection Law (added by the 2024 law on protecting consumers from dealers committing violations in aggravated circumstances) lets the Commissioner declare a dealer an aggravated violator",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "פרק ה׳2: קביעה כי עוסק הוא מפר בנסיבות מחמירות",
+      "confidence": "high"
+    },
+    {
+      "id": "aggravated-payment-stop",
+      "claim": "s.22LB (22לב, notice of determination) [Chapter E2]: notice of determination goes to regulated payment-service providers to stop payments to the dealer, return funds to payers and restrict contracting",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לנותן שירותי תשלום שהוא גוף פיננסי מפוקח לשם הפסקת ביצוע פעולות תשלום לטובת מוטב שהוא עוסק מפר בנסיבות מחמירות, לשם השבת כספים למשלם",
+      "confidence": "high"
+    },
+    {
+      "id": "aggravated-effective-oct-4",
+      "claim": "Israel Hayom (published 2024-08-11): the aggravated-violator law enters into force on 4 October (2024), not 2026",
+      "claim_type": "date",
+      "source_url": "https://www.israelhayom.co.il/news/welfare/article/16238303",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "החוק להגנת הצרכן ייכנס לתוקף ב-4 באוקטובר",
+      "confidence": "medium"
+    },
+    {
+      "id": "aggravated-vulnerable-groups",
+      "claim": "Israel Hayom: the aggravated-violator definition covers persons with special characteristics incl. disability, seniors, olim, minors, helpless persons and those not knowing the transaction language",
+      "claim_type": "feature",
+      "source_url": "https://www.israelhayom.co.il/news/welfare/article/16238303",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "הגדרת עוסק מפר נקבעה ביחס למי שמוגדר כאדם עם מאפיינים מיוחדים, ובכללו אדם עם מוגבלות, אזרח ותיק, עולה חדש, קטין, חסר ישע, אדם שאינו יודע את השפה בה נעשתה העסקה ועוד.",
+      "confidence": "high"
+    },
+    {
+      "id": "kz-dist-refusal-10000",
+      "claim": "Kol Zchut: if the dealer refuses a distance-sale cancellation, the consumer can sue for the refund plus up to NIS 10,000 without proof of damage",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94_%D7%A9%D7%A0%D7%A2%D7%A9%D7%AA%D7%94_%D7%91%D7%90%D7%99%D7%A0%D7%98%D7%A8%D7%A0%D7%98_%D7%90%D7%95_%D7%91%D7%98%D7%9C%D7%A4%D7%95%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "אפשר להגיש לבית המשפט תביעה לקבלת ההחזר ובנוסף לתבוע פיצוי כספי בסכום של עד 10,000 ₪.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "kz-instore-fine-2025",
+      "claim": "Kol Zchut: administrative fine for refusing an in-store cancellation NIS 25,350 (corporation) / 8,065 (non-corporation), as of 2025",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A8%D7%9B%D7%99%D7%A9%D7%94_%D7%A9%D7%A0%D7%A2%D7%A9%D7%AA%D7%94_%D7%91%D7%91%D7%99%D7%AA_%D7%94%D7%A2%D7%A1%D7%A7_%D7%95%D7%94%D7%97%D7%96%D7%A8%D7%AA_%D7%94%D7%9E%D7%95%D7%A6%D7%A8",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "עיצום כספי בגובה 25,350 ₪ אם העסק הוא תאגיד או 8,065 ₪ אם העסק אינו תאגיד (נכון לשנת 2025)",
+      "confidence": "medium",
+      "verified_via": "browser",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "returnpolicy-7-days",
+      "claim": "CPL s.4C(b): if a shop does not honour its own posted return policy, the consumer may return the goods within seven days of the refusal for the full price in the original payment method (סעיף 4ג)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "ביקש הצרכן להחזיר לעוסק טובין שלא עקב פגם, בהתאם למדיניות החזרת טובין המפורטת במודעה, והעוסק לא פעל בהתאם לאותה מדיניות, רשאי הצרכן להחזירם לעוסק בתוך שבעה ימים מיום שסורב, והעוסק יהיה חייב להשיב לו את מלוא התמורה שקיבל באופן שבו שילם הצרכן",
+      "confidence": "high"
+    },
+    {
+      "id": "returnpolicy-no-notice",
+      "claim": "CPL s.4C(c): if the shop posted no return-policy notice, it is presumed to allow returns",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "לא הציג עוסק מודעה כאמור בסעיף קטן (א), חזקה כי מדיניותו לגבי החזרת טובין שלא עקב פגם היא מתן אפשרות לצרכן להחזיר לו את הטובין",
+      "confidence": "high"
+    },
+    {
+      "id": "vuln-proof-one-certificate",
+      "claim": "CPL s.14C1(d): the dealer may ask for one certificate proving status (senior certificate, oleh certificate, disability certificate for more than six months) and may not demand further proof",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "רשאי העוסק לדרוש ממנו להציג לפניו תעודה המוכיחה שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, ובלבד שלא ידרוש ממנו הוכחה נוספת לשם מימוש זכות הביטול כאמור",
+      "confidence": "high"
+    },
+    {
+      "id": "install-fee-100",
+      "claim": "CPL s.14E(b2): installation charge on cancellation capped at NIS 100",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T12:00:00Z",
+      "raw_snippet": "התקין העוסק טובין בבית הצרכן לצורך מתן שירות לפי העסקה, יהיה רשאי לגבות מהצרכן תשלום בשל הוצאות ההתקנה, בסכום שלא יעלה על 100 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "peddler-definition-phone-then-visit",
+      "claim": "CPL s.1 definition of peddling (רוכלות) includes a dealer's unsolicited approach by any means after which the dealer came to the consumer's place to close the deal",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "או פניה יזומה של עוסק לצרכן בכל דרך שהיא, שבעקבותיה הגיע העוסק, או מי מטעמו, למקום הצרכן כדי לקשור עסקה",
+      "confidence": "high"
+    },
+    {
+      "id": "peddler-refund-no-fee",
+      "claim": "CPL s.14(b)(2) (סעיף 14): on a door-to-door cancellation the only charge the dealer may collect is installation of up to NIS 100; s.14(b)(1) requires returning the price paid, and no cancellation fee is provided for",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "התקין העוסק טובין בבית הצרכן לצורך מתן שירות לפי ההסכם, יהיה רשאי לגבות מהצרכן תשלום בשל הוצאות ההתקנה, בסכום שלא יעלה על 100 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "s3-exploit-disability-language",
+      "claim": "CPL s.3(b)(5)-(6) (סעיף 3): exploiting a consumer's mental, cognitive or physical limitation, or the consumer's insufficient knowledge of the language of the deal, is unfair influence",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ניצל את העובדה שצרכן אינו יודע את השפה שבה נקשרת העסקה במידה מספקת לשם הבנת העסקה",
+      "confidence": "high"
+    },
+    {
+      "id": "s3-exploit-disability",
+      "claim": "CPL s.3(b)(5): exploiting a mental, cognitive or physical limitation",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ניצל מוגבלות נפשית, שכלית או גופנית של צרכן",
+      "confidence": "high"
+    },
+    {
+      "id": "s32-cancel-reasonable-time",
+      "claim": "CPL s.32(a) (סעיף 32): a deal tainted by material deception or unfair influence may be cancelled within a reasonable time from when the consumer learned of the deception or the exploitation ended",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "רשאי הצרכן לבטל את העסקה בתוך זמן סביר מהמועד שבו נודע לו על ההטעיה או מהמועד שבו נודע לו שפסק ניצול המצוקה",
+      "confidence": "high"
+    },
+    {
+      "id": "s32-refund-7-days",
+      "claim": "CPL s.32(b): refund within seven days of the cancellation notice, in the way the consumer paid",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ישיב העוסק לצרכן, בתוך שבעה ימים מיום שקיבל הודעה על הביטול, את התמורה ששילם הצרכן בעד העסקה, באותו אופן שבו שילם הצרכן",
+      "confidence": "high"
+    },
+    {
+      "id": "cancel-fee-def-shipping",
+      "claim": "CPL s.14E: 'cancellation fee' includes shipping, packaging and any other expense the dealer claims it incurred",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "לרבות הוצאות או התחייבות בשל משלוח, אריזה או כל הוצאה או התחייבות אחרת",
+      "confidence": "high"
+    },
+    {
+      "id": "charge-cancel-copy",
+      "claim": "CPL s.14E(a)(1): the dealer must cancel the consumer's charge and hand over a copy of the charge-cancellation notice",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "יבטל את חיובו של הצרכן בשל העסקה וימסור לו עותק מהודעת ביטול החיוב כאמור",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-condition-unused",
+      "claim": "Cancellation Regs reg.2 (תקנה 2): in-store cancellation of goods is conditional on returning them undamaged and unused; return in original packaging is sufficient evidence of non-use",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ובלבד שביטול הסכם לרכישת טובין יהיה בתנאי שהצרכן יחזירם לעוסק והטובין לא נפגמו ולא נעשה בהם שימוש בידי הצרכן הרוכש",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-power-is-use",
+      "claim": "Cancellation Regs reg.2(1): opening the original packaging is not by itself use for items 1-3, 6 and 23, but connecting to electricity, gas or water counts as use",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "חיבור הטובין לחשמל, גז או מים ייחשב לעניין זה שימוש בטובין",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-services-14",
+      "claim": "Cancellation Regs reg.2(4): services in schedule items 10 to 19 (incl. cosmetics, telecom licensees, gyms) may be cancelled within 14 days of the deal or written contract, whichever later, even if the service started",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "בין אם הוחל במתן השירות ובין אם לא ואף אם העסקה היא לתקופה קצובה",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-gym-item17",
+      "claim": "Cancellation Regs schedule item 17: gym or health club membership",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "חברות או מינוי במועדון כושר או מועדון בריאות",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-sales-event-item20",
+      "claim": "Cancellation Regs schedule item 20: goods and services sold at a demonstration/sales event the dealer invited consumers to, including with lures like a gift",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "טובין ושירותים הנמכרים במסגרת אירוע הצגה",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-jewelry-item22",
+      "claim": "Cancellation Regs schedule item 22 and reg.2(7): jewelry whose price did not exceed NIS 3,000, until two non-rest days after purchase",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "תכשיט שהמחיר ששולם בעדו אינו עולה על 3,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-furniture-assembled-home",
+      "claim": "Cancellation Regs reg.6(a)(1): the exclusion covers furniture assembled in the consumer's home",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ריהוט שהורכב בבית הצרכן",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-proof-of-purchase",
+      "claim": "Cancellation Regs reg.3(a): the refund requires an invoice, till slip, exchange note or other proof of the deal (תקנה 3 לתקנות ביטול עסקה)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ובלבד שהצרכן הציג חשבונית או סרט קופה או פתק החלפה המעידים על עצם ביצוע העסקה",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-franchisee",
+      "claim": "Cancellation Regs reg.3(e): refund at any branch, except a franchisee that displays a prominent notice to that effect",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "הוראות אלה לא יחולו על זכיין של העוסק ובלבד שהזכיין הציג, במקום בולט בעסקו הודעה על כך",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-home-repair-list",
+      "claim": "Warranty Regs reg.7(a): goods in column A of the Second Schedule are repaired at the consumer's address (תקנה 7 לתקנות האחריות)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "יתוקנו במענו של הצרכן",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-schedule-deadlines",
+      "claim": "Warranty Regs reg.10(c) (תקנה 10): items in the Second Schedule are repaired within the period in column B when the fault prevents their main use",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "ובלבד שהקלקול מונע את השימוש העיקרי שלשמו מיועדים אותם טובין",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-fridge-1-day",
+      "claim": "Warranty Regs Second Schedule: refrigerator and freezer, one day; cooking stove, two days; washing machine, air conditioner, oven, TV above 20 inch, dishwasher and dryer, 3 days (rendered table text: adjacent cells run together, e.g. 'מקרריום' = מקרר | יום)",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "מקרריום\n\nמקפיאיום\n\nכיריים לבישול, מגז ומחשמליומיים\n\nמכונת כביסה3 ימים",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-sabbath-excluded",
+      "claim": "Warranty Regs reg.10(d): Sabbaths and holidays are not counted in the repair periods",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "שבתות וחגים לא יבואו במנין התקופות שנקבעו בסעיף זה",
+      "confidence": "high"
+    },
+    {
+      "id": "psl-17-stop-guaranteed-payment",
+      "claim": "Payment Services Law 2019 s.17: where goods or service were not supplied by the agreed date and the payer notified the payee of cancellation, the payment-service provider stops a guaranteed payment from the payer's notice (סעיף 17 לחוק שירותי תשלום)",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99_%D7%AA%D7%A9%D7%9C%D7%95%D7%9D",
+      "source_fetched_at": "2026-10-07T13:00:00Z",
+      "raw_snippet": "יפסיק נותן שירותי התשלום למשלם את ביצוע הוראת התשלום ואת חיוב המשלם מכוחה החל ממועד מסירת ההודעה על ידי המשלם",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-reg8-charge-conditions",
+      "claim": "Warranty Regs reg.8 (תקנה 8): the manufacturer may charge for a repair only if it proved, before repairing, that the fault came from force majeure after delivery, consumer malice or negligence, or an unauthorised repair",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T14:00:00Z",
+      "raw_snippet": "אם הוכיח, לפני ביצוע התיקון, שהקלקול בהם נגרם כתוצאה מאחת הסיבות שלהלן",
+      "confidence": "high"
+    },
+    {
+      "id": "warranty-spare-first-schedule",
+      "claim": "Warranty Regs reg.3(c): goods in the First Schedule get spare parts for the period listed beside them",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "source_fetched_at": "2026-10-07T14:00:00Z",
+      "raw_snippet": "חלקי חילוף לשם תיקון הטובין, עד תום התקופה הקבועה לצדם",
+      "confidence": "high"
+    },
+    {
+      "id": "peddler-refund-price",
+      "claim": "CPL s.14(b)(1): after a door-to-door cancellation the dealer returns the price paid",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T15:00:00Z",
+      "raw_snippet": "ישיב העוסק לצרכן את התמורה ששילם; לעניין ביטול לפי סעיף קטן (א)(1) – הצרכן ישיב לעוסק את הנכס נושא העסקה",
+      "confidence": "high"
+    },
+    {
+      "id": "aggravated-execution-office",
+      "claim": "CPL s.22LB(b)(2) (סעיף 22לב): the determination notice goes to the Execution Office to prevent new files, close existing files and return the money collected to the debtors",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T15:00:00Z",
+      "raw_snippet": "לשם מניעת פתיחתם של תיקים חדשים לטובת זוכה שהוא עוסק מפר בנסיבות מחמירות",
+      "confidence": "high"
+    },
+    {
+      "id": "aggravated-execution-close-return",
+      "claim": "CPL s.22LB(b)(2): closing existing files and returning the money received in them to the debtors",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "source_fetched_at": "2026-10-07T15:00:00Z",
+      "raw_snippet": "לשם סגירת תיקים קיימים כאמור ולשם השבת הכספים שהתקבלו בהם לחייבים",
+      "confidence": "high"
+    },
+    {
+      "id": "instore-clearing-fee",
+      "claim": "Cancellation Regs reg.5(b): if the shop proves the card-clearing company charged it for the cancelled deal, it may also charge the consumer that amount",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T15:00:00Z",
+      "raw_snippet": "רשאי העוסק לחייב את הצרכן גם בתשלום שנגבה ממנו",
+      "confidence": "high"
+    },
+    {
+      "id": "sales-event-service-2-days",
+      "claim": "Cancellation Regs reg.2(5): a non-continuing service bought at a sales event must be cancelled within 14 days and up to two non-rest days before the service starts",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "source_fetched_at": "2026-10-07T15:00:00Z",
+      "raw_snippet": "בתוך 14 ימים מיום עשיית העסקה ועד יומיים, שאינם ימי מנוחה, קודם למועד תחילת השירות",
+      "confidence": "high"
+    }
+  ]
+}

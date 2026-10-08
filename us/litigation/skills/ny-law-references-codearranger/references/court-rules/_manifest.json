@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-14",
+  "source": "https://www.nycourts.gov/rules/trialcourts/",
+  "notes": "Pulled by scripts/pull_ny_court_rules.py. Files marked '_(stub' are pointer-stubs rendered when the upstream returns a Cloudflare interstitial \u2014 they will be replaced with verbatim content on the next successful refresh."
+}

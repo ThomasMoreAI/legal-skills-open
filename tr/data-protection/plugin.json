@@ -9,9 +9,16 @@
   "practice": "data-protection",
   "language": "tr",
   "skills": [
+    "skills/cold-start-interview-privacy-legal-zekaisuni",
+    "skills/customize-privacy-legal-zekaisuni",
     "skills/dpa-review-zekaisuni",
+    "skills/dsar-response-zekaisuni",
     "skills/kvkk-denetim",
     "skills/matter-workspace-23",
-    "skills/turkey-kvkk"
+    "skills/pia-generation-zekaisuni",
+    "skills/policy-monitor-zekaisuni",
+    "skills/reg-gap-analysis-zekaisuni",
+    "skills/turkey-kvkk",
+    "skills/use-case-triage-privacy-legal-zekaisuni"
   ]
 }

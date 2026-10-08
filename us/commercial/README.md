@@ -4,12 +4,13 @@ Business-to-business commercial agreements, sales of goods, distribution, and se
 
 Jurisdiction: `us` · Practice: `commercial` · Skill language: en
 
-## Skills (26)
+## Skills (32)
 
 | Skill | What it does |
 |---|---|
 | [`Advertising Fund Contribution Agreement`](skills/ad-fund-agreement/) | Drafts franchise advertising fund contribution agreements or addenda governing franchisee obligations to… |
 | [`Area Development Agreement`](skills/area-development-agreement/) | Drafts Area Development Agreements granting exclusive multi-unit franchise territory rights with phased… |
+| [`Arizona Commercial Disputes`](skills/az-commercial-disputes-codearranger/) | Subject-matter bundle for Arizona commercial / business-to-business civil litigation — contract… |
 | [`Bulk Sales Compliance`](skills/bulk-sales-compliance/) | Drafts U.S. bulk sales compliance packages for asset purchase transactions outside the ordinary course… |
 | [`Consulting Services Agreement`](skills/consulting-services-agreement/) | Drafts a U.S. Consulting Services Agreement covering scope, compensation (hourly, fixed, retainer… |
 | [`Contract Dispute Analysis`](skills/contract-dispute-analysis/) | Produces a structured contract dispute analysis for U.S. commercial litigation. Use when asked to… |
@@ -28,12 +29,17 @@ Jurisdiction: `us` · Practice: `commercial` · Skill language: en
 | [`First Right of Refusal Agreement (Franchise)`](skills/franchise-rofr/) | Drafts a First Right of Refusal Agreement for franchise relationships, granting the franchisor priority… |
 | [`Franchise Transfer Agreement`](skills/franchise-transfer-agreement/) | Drafts a tripartite U.S. Franchise Transfer Agreement allocating rights, liabilities, and closing… |
 | [`Guaranty Agreement`](skills/guaranty-agreement/) | Drafts U.S. commercial guaranty agreements securing a debtor's obligations to a creditor. Covers… |
+| [`Michigan Commercial Disputes`](skills/mi-commercial-disputes-codearranger/) | Subject-matter bundle for Michigan commercial and business-to-business civil litigation. Triggers… |
+| [`New York Commercial Litigation`](skills/ny-commercial-disputes-codearranger/) | Use when drafting or filing a commercial-litigation action — breach of contract, fiduciary duty… |
+| [`Ohio Commercial Disputes — Substantive Framework`](skills/oh-commercial-disputes-codearranger/) | Use when handling an Ohio commercial / business litigation matter — trade secrets under the **Ohio… |
 | [`Settlement Agreement Summary`](skills/settlement-agreement-summary/) | Generates executive-ready summaries of multi-party U.S. commercial settlement agreements. Extracts… |
 | [`Site Selection Addendum`](skills/site-selection-addendum/) | Drafts a Site Selection Addendum for franchise real estate transactions, establishing objective site… |
 | [`Subscription Agreement`](skills/subscription-agreement/) | Drafts U.S. corporate subscription agreements for SaaS and service relationships. Extracts deal terms… |
+| [`Tennessee Commercial Disputes`](skills/tn-commercial-disputes-codearranger/) | Subject-matter bundle for Tennessee commercial / business-to-business litigation. Covers Chancery Court… |
 | [`US-EAR und China: Berührungspunkte für deutsche Exporteure`](skills/us-ear-china-touchpoints/) | Für US-EAR und China: Berührungspunkte für deutsche Exporteure: ordnet Norm, Beweislast und… |
 | [`Franchiserecht: USA-Franchise-Disclosure im Vergleich`](skills/usa-franchise-eu-vertikal/) | Für Franchiserecht: USA-Franchise-Disclosure im Vergleich: ordnet Norm, Beweislast und Gegenargument… |
 | [`Output Requirements`](skills/victor-wang-yc-saas-drafter/) | Drafts a customized Customer Agreement starting from the Y Combinator standard form SaaS template.… |
+| [`Washington Commercial Disputes — Subject-Matter Bundle`](skills/wa-commercial-disputes-codearranger/) | Use when handling a Washington commercial-disputes matter — breach of contract (common law + UCC sales)… |
 
 ## Cold-start context
 

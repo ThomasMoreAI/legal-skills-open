@@ -1,0 +1,50 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-06-20",
+  "mode": "verbatim",
+  "source": "https://legislature.idaho.gov/statutesrules/idstat/",
+  "puller": "scripts/pull_idaho_statutes.py",
+  "notes": "Topic-grouped, BOUNDED corpus of verbatim Idaho Code sections for civil + family practice, fetched by scripts/pull_idaho_statutes.py from legislature.idaho.gov at /statutesrules/idstat/title<t>/t<t>ch<c>/sect<s>/. Each file carries the verbatim section text (catchline + body + History) under '## Idaho Code §' headings. This is a representative set (the sections a drafter reaches for), not a full enumeration of the Idaho Code; statutes are updated to the website July 1 following the legislative session, so verify currency before filing. A _file_is_stub guard and a curated-content guard keep an offline run from clobbering committed text (pass --overwrite-curated / --force to replace).",
+  "topics": [
+    {
+      "file": "Title5-limitations.md",
+      "title": "Statutes of limitation",
+      "sections": ["I.C. 5-201", "I.C. 5-214A", "I.C. 5-215", "I.C. 5-216", "I.C. 5-217", "I.C. 5-218", "I.C. 5-219", "I.C. 5-222"]
+    },
+    {
+      "file": "Title11-exemptions-garnishment.md",
+      "title": "Exemptions and wage garnishment",
+      "sections": ["I.C. 11-201", "I.C. 11-207", "I.C. 11-605", "I.C. 11-705", "I.C. 11-712"]
+    },
+    {
+      "file": "homestead-Title55.md",
+      "title": "Homestead exemption",
+      "sections": ["I.C. 55-1001", "I.C. 55-1003", "I.C. 55-1011"]
+    },
+    {
+      "file": "consumer-protection-collection.md",
+      "title": "Consumer protection, collection agencies, credit code",
+      "sections": ["I.C. 48-601", "I.C. 48-608", "I.C. 26-2222", "I.C. 26-2223", "I.C. 28-41-101"]
+    },
+    {
+      "file": "attorney-fees-costs-Title12.md",
+      "title": "Attorney fees and costs",
+      "sections": ["I.C. 12-120", "I.C. 12-121", "I.C. 12-123", "I.C. 12-301"]
+    },
+    {
+      "file": "family-Title32.md",
+      "title": "Domestic relations / community property",
+      "sections": ["I.C. 32-201", "I.C. 32-603", "I.C. 32-610", "I.C. 32-705", "I.C. 32-706", "I.C. 32-716", "I.C. 32-717", "I.C. 32-903", "I.C. 32-906", "I.C. 32-11-101"]
+    },
+    {
+      "file": "holidays-Title73.md",
+      "title": "Legal holidays",
+      "sections": ["I.C. 73-108", "I.C. 73-109"]
+    },
+    {
+      "file": "ucc-article9-Title28.md",
+      "title": "Idaho UCC Article 9 secured transactions",
+      "sections": ["I.C. 28-9-109", "I.C. 28-9-203", "I.C. 28-9-317", "I.C. 28-9-322", "I.C. 28-9-609", "I.C. 28-9-610"]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "corpus": "or-court-rules",
+  "version": "0.2.0",
+  "last_pulled": "2026-05-14",
+  "source": "OJD courts.oregon.gov + Council on Court Procedures",
+  "rules": [
+    {
+      "code": "ORCP",
+      "name": "Oregon Rules of Civil Procedure",
+      "url": "https://counciloncourtprocedures.org/",
+      "format": "PDF",
+      "cycle": "biennial-jan-1-odd-years",
+      "file": "ORCP.md"
+    },
+    {
+      "code": "UTCR",
+      "name": "Uniform Trial Court Rules",
+      "url": "https://www.courts.oregon.gov/rules/UTCR/Pages/default.aspx",
+      "format": "PDF",
+      "cycle": "annual-aug-1",
+      "file": "UTCR.md"
+    },
+    {
+      "code": "ORAP",
+      "name": "Oregon Rules of Appellate Procedure",
+      "url": "https://www.courts.oregon.gov/rules/Pages/orap.aspx",
+      "format": "PDF",
+      "cycle": "periodic",
+      "file": "ORAP.md"
+    },
+    {
+      "code": "OEC",
+      "name": "Oregon Evidence Code (ORS 40)",
+      "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors040.html",
+      "format": "HTML",
+      "cycle": "per-legislative-session",
+      "file": "OEC.md"
+    },
+    {
+      "code": "ORPC",
+      "name": "Oregon Rules of Professional Conduct",
+      "url": "https://www.osbar.org/_docs/rulesregs/orpc.pdf",
+      "format": "PDF",
+      "cycle": "periodic",
+      "file": "ORPC.md"
+    },
+    {
+      "code": "Multnomah-SLR",
+      "name": "Multnomah County Supplemental Local Rules",
+      "url": "https://www.courts.oregon.gov/courts/multnomah/rules",
+      "format": "PDF",
+      "cycle": "annual",
+      "file": "Multnomah-SLR.md"
+    },
+    {
+      "code": "Washington-SLR",
+      "name": "Washington County (Oregon) Supplemental Local Rules",
+      "url": "https://www.courts.oregon.gov/courts/washington/rules",
+      "format": "PDF",
+      "cycle": "periodic",
+      "file": "Washington-SLR.md"
+    }
+  ]
+}

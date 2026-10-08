@@ -4,7 +4,7 @@ Tax advice and compliance — direct and indirect taxes, planning, and disputes.
 
 Jurisdiction: `de` · Practice: `tax` · Skill language: de
 
-## Skills (342)
+## Skills (345)
 
 | Skill | What it does |
 |---|---|
@@ -31,6 +31,7 @@ Jurisdiction: `de` · Practice: `tax` · Skill language: de
 | [`Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/antragstellung-auszahlung-beihilfen/) | Für Antragstellung: Tatbestandsmerkmale, Beweisfragen und Beleglage: erstellt Entwurf mit Antrag, Beweis… |
 | [`FZ: Auftragsforschung gestalten`](skills/auftragsforschung-vertragsgestaltung/) | Für FZ: Auftragsforschung gestalten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Aussenpruefung — Prüfungsanordnung Prüfungserweiterung und Mitwirkung`](skills/aussenpruefung-anordnung-pruefung/) | Für Außenprüfung — Prüfungsanordnung Prüfungserweiterung und Mitwirkung: ordnet Norm, Beweislast und… |
+| [`/steuerrecht:aussenpruefung-betriebspruefung`](skills/aussenpruefung-betriebspruefung-borghei/) | Begleitung einer Außenprüfung (Betriebsprüfung) durch die Finanzbehörde nach §§ 193 ff. AO. Anordnung… |
 | [`Außenprüfung — Strategien und Begleitung`](skills/aussenpruefung-strategien/) | Für Außenprüfung — Strategien und Begleitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verbrauchsteuer im Aussenhandel: Steueraussetzung EMCS und Erstattung`](skills/aussenwirtschaft-verbrauchsteuer/) | Für Verbrauchsteuer im Außenhandel: Steueraussetzung EMCS und Erstattung: ordnet Norm, Beweislast und… |
 | [`Aussenwirtschaftsrecht — AWG und Sanktionen`](skills/aussenwirtschaftsembargo/) | Für Außenwirtschaftsrecht — AWG und Sanktionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -94,6 +95,7 @@ Jurisdiction: `de` · Practice: `tax` · Skill language: de
 | [`eAU — Elektronische Arbeitsunfaehigkeitsbescheinigung`](skills/eau-elektronische-arbeitsunfaehigkeit/) | Für eAU — Elektronische Arbeitsunfähigkeitsbescheinigung: ordnet Norm, Beweislast und Gegenargument… |
 | [`eAU — Elektronische Arbeitsunfaehigkeitsbescheinigung`](skills/eau-elektronische-arbeitsunfaehigkeit-2023/) | Für eAU — Elektronische Arbeitsunfähigkeitsbescheinigung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Einspruch beim Finanzamt`](skills/einspruch-finanzamt/) | Für Einspruch beim Finanzamt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/steuerrecht:einspruch-finanzamt`](skills/einspruch-finanzamt-borghei/) | Prüfung und Einlegung des Einspruchs gegen einen Steuerbescheid – Statthaftigkeit § 347 AO… |
 | [`Einspruch: Sonderfall und Edge-Case-Prüfung`](skills/einspruch-sonderfall-edge-case/) | Für Einspruch: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einspruch: Sonderfall und Edge-Case-Prüfung`](skills/einspruch-sonderfall-und-edge-case/) | Für Einspruch: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einspruch und Änderungsantrag entwerfen`](skills/einspruch-und-aenderungsantrag-entwerfen/) | Entwirft einen bescheidgenauen Einspruch oder begründeten Änderungsantrag zur Grundsteuer. Ordnet… |
@@ -275,6 +277,7 @@ Jurisdiction: `de` · Practice: `tax` · Skill language: de
 | [`Schenkungen und Zehnjahresfrist — § 14 ErbStG Strategie der Generationenfolge`](skills/schenkung-zehnjahresfrist/) | Für Schenkungen und Zehnjahresfrist — Paragraf 14 ErbStG Strategie der Generationenfolge: prüft Frist… |
 | [`Selbstanzeige nach § 371 AO`](skills/selbstanzeige-371/) | Für Selbstanzeige nach Paragraf 371 AO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Selbstanzeige — § 371 AO Wirksamkeit Sperrgruende und Strafmilderung`](skills/selbstanzeige-371-ao/) | Für Selbstanzeige — Paragraf 371 AO Wirksamkeit Sperrgründe und Strafmilderung: ordnet Norm, Beweislast… |
+| [`/steuerrecht:selbstanzeige`](skills/selbstanzeige-borghei/) | Prüfung der strafbefreienden Selbstanzeige bei Steuerhinterziehung – Wirksamkeitsvoraussetzungen und… |
 | [`Finanzamt: Livequellen- und Rechtsprechungscheck`](skills/spezial-finanzamt-livequellen-und-rechtsprechungscheck/) | Für Finanzamt: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`FZ: Start-up und Personenges.`](skills/start-up-und-personengesellschaft/) | Für FZ: Start-up und Personenges: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Belegtransfer ueber DATEV Unternehmen Online`](skills/stb-belegtransfer-datev-unternehmen-online/) | Für Belegtransfer über DATEV Unternehmen Online: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |

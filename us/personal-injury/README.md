@@ -4,11 +4,12 @@ Tort claims for personal injury: negligence, liability, causation, and damages.
 
 Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 
-## Skills (26)
+## Skills (32)
 
 | Skill | What it does |
 |---|---|
 | [`Authorization Packet Summary`](skills/auth-packet-summary/) | Validates and summarizes the four required authorization forms in a personal injury matter (retainer… |
+| [`Arizona Personal-Injury Practice`](skills/az-personal-injury-codearranger/) | Subject-matter bundle for Arizona personal-injury and tort actions. Triggers: "Arizona personal injury"… |
 | [`Case Viability & Conflict Check Report`](skills/case-viability-report/) | Produces internal case viability and conflict check memos for personal injury litigation intake. Screens… |
 | [`Complaint for Negligence`](skills/complaint-for-negligence/) | Drafts a court-ready Complaint for Negligence establishing duty, breach, causation, and damages with… |
 | [`Personal Injury Damages Calculator`](skills/damages-calculator/) | Builds auditable personal injury damages calculations separating special damages (medical, wage loss… |
@@ -25,6 +26,9 @@ Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 | [`Medical Malpractice Summary`](skills/med-mal-summary/) | Produces structured medical malpractice case summaries from medical records for personal injury… |
 | [`Medical Billing Analysis`](skills/medical-billing-analysis/) | Produces a litigation-ready analysis of medical bills and supporting records for personal injury… |
 | [`Medical Record Chronology`](skills/medical-record-chronology/) | Creates verified, Bates-cited chronological summaries of medical records for litigation. Extracts… |
+| [`Michigan Personal-Injury Practice`](skills/mi-personal-injury-codearranger/) | Subject-matter bundle for Michigan personal-injury and tort actions. Triggers include "Michigan personal… |
+| [`New York Personal-Injury Practice`](skills/ny-personal-injury-codearranger/) | Use when drafting or filing a personal-injury action — motor vehicle accident, slip and fall, medical… |
+| [`Ohio Personal Injury — Substantive Framework`](skills/oh-personal-injury-codearranger/) | Use for Ohio personal-injury / tort matters — negligence, auto, product liability, med-mal, wrongful… |
 | [`PFS Analyzer`](skills/pfs-analyzer/) | Extracts and reconciles medical provider, wage-loss, and insurance/lien data from personal injury… |
 | [`Personal Injury Demand Summary`](skills/pi-demand-summary/) | Generates structured personal injury demand summaries covering liability analysis, chronological injury… |
 | [`Personal Injury Client Intake Form`](skills/pi-intake-form/) | Drafts a structured personal injury client intake form for initial consultations covering client… |
@@ -34,6 +38,8 @@ Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 | [`Settlement Distribution Statement`](skills/settlement-distribution/) | Drafts settlement distribution statements for personal injury cases with itemized accounting of gross… |
 | [`Spoliation Letter (Evidence Preservation Demand)`](skills/spoliation-letter/) | Drafts spoliation and evidence preservation demand letters for personal injury litigation. Generates… |
 | [`Summons and Service Packet`](skills/summons-service-packet/) | Drafts court-ready summons and service packets for civil personal injury litigation. Produces civil… |
+| [`Tennessee Personal-Injury Practice`](skills/tn-personal-injury-codearranger/) | Subject-matter bundle for Tennessee personal-injury and tort actions. Covers McIntyre v. Balentine… |
+| [`Washington Personal Injury — Subject-Matter Bundle`](skills/wa-personal-injury-codearranger/) | Use when handling a Washington personal-injury matter — negligence (pure comparative fault, no… |
 
 ## Cold-start context
 

@@ -4,7 +4,7 @@ Competition law — agreements, abuse of dominance, merger control, and enforcem
 
 Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 
-## Skills (62)
+## Skills (65)
 
 | Skill | What it does |
 |---|---|
@@ -24,6 +24,7 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Fusionskontrolle Anmeldung Routing`](skills/fusionskontrolle-anmeldung-routing/) | Für Fusionskontrolle Anmeldung Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Fusionskontrolle — Modus`](skills/fusionskontrolle-modus-geoblocking/) | Für Fusionskontrolle — Modus: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`§ 19 GWB Behinderungs Ausbeutungsmissbrauch`](skills/gwb-behinderungs-ausbeutungsmissbrauch/) | Für Paragraf 19 GWB Behinderungs Ausbeutungsmissbrauch: ordnet Norm, Beweislast und Gegenargument… |
+| [`/kartellrecht:gwb-zusammenschluss-anmeldung`](skills/gwb-zusammenschluss-anmeldung-borghei/) | Prüfung der Anmeldepflicht eines Zusammenschlusses beim Bundeskartellamt nach §§ 35 ff. GWB inkl.… |
 | [`Innovations- und Technologiemärkte`](skills/innovations-und-technologiemaerkte/) | Für Innovations- und Technologiemärkte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Internationale Kartellrechtsjurisdiktionen`](skills/internationale-kartellrechts-jurisdiktionen/) | Für internationale Fusionskontrolle, Kartellverfahren und Competition-Authority-Fragen: wählt Staat und… |
 | [`Joint Venture Full Function`](skills/joint-venture-full-function/) | Für Joint Venture Full Function: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -41,11 +42,13 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Unterlagen und Lücken`](skills/kartellrecht-marktabgrenzung-pruefung-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Kartellrechtliche: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/kartellrechtliche-tatbestand-beweis-und-belege/) | Für Kartellrechtliche: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Kartellverbot — Modus`](skills/kartellverbot-modus/) | Für Kartellverbot — Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/kartellrecht:kartellverbot-pruefung`](skills/kartellverbot-pruefung-borghei/) | Subsumtion einer Vereinbarung, eines Beschlusses oder einer abgestimmten Verhaltensweise unter das… |
 | [`Konsistenz: Formular, Portal und Einreichungslogik`](skills/konsistenz-formular-portal-und-einreichung/) | Für Konsistenz: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Konsistenzprüfung der Marktdefinition`](skills/konsistenzpruefung-marktdefinition/) | Für Konsistenzprüfung der Marktdefinition: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kritische: Erstprüfung, Rollenklärung und Mandatsziel`](skills/kritische-markt-interessen-marktabgrenzungen/) | Für Kritische: Erstprüfung, Rollenklärung und Mandatsziel: ordnet Norm, Beweislast und Gegenargument… |
 | [`Marktabgrenzung — Kontextanalyse`](skills/marktabgrenzung-kontextanalyse-mehrseitige/) | Für Marktabgrenzung — Kontextanalyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Marktabgrenzungen: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/marktabgrenzungen-dokumentenmatrix-und-lueckenliste/) | Für Marktabgrenzungen: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
+| [`/kartellrecht:marktbeherrschung-bewertung`](skills/marktbeherrschung-bewertung-borghei/) | Prüfung einer Marktbeherrschung und eines Missbrauchs nach §§ 18, 19, 19a, 20 GWB / Art. 102 AEUV –… |
 | [`Marktbeherrschung: Mandantenkommunikation und Entscheidungsvorlage`](skills/marktbeherrschung-mandantenentscheidung/) | Für Marktbeherrschung: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Missbrauchsverbot — Modus`](skills/missbrauchsverbot-modus/) | Für Missbrauchsverbot — Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Nachfrage Quellenkarte`](skills/nachfrage-quellenkarte/) | Für Nachfrage Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

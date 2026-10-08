@@ -1,0 +1,15 @@
+{
+  "name": "sa-corporate",
+  "displayName": "Corporate — SA",
+  "version": "0.1.0",
+  "description": "Corporate skills for SA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/kb-corporate-law-ksa-sboghossian",
+    "skills/tool-ksa-moc-sboghossian"
+  ]
+}

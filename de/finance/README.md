@@ -4,7 +4,7 @@ Banking and finance — lending, secured transactions, and financial-services re
 
 Jurisdiction: `de` · Practice: `finance` · Skill language: de
 
-## Skills (301)
+## Skills (308)
 
 | Skill | What it does |
 |---|---|
@@ -67,6 +67,7 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Spezialfall PRIIPs-KID fehlerhaft: PRIIPs-VO, Inhalt Basisinformationsblatt, Haftung Hersteller und Vertrieb bei irrefue`](skills/bk-prip-kid-fehlerhaft-spezial/) | Für Bk Prip Kid Fehlerhaft Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bürgschaft auf erste Anforderung`](skills/buergschaft-auf-erste-anforderung-bank/) | Für Bürgschaft auf erste Anforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Buergschaft Privatperson Gesellschafter Ehegatte`](skills/buergschaft-privatperson-gesellschafter-ehegatte/) | Für Bürgschaft Privatperson Gesellschafter Ehegatte: ordnet Norm, Beweislast und Gegenargument… |
+| [`/bankrecht:buergschaft-pruefung`](skills/buergschaft-pruefung-borghei/) | Prüfung einer Bürgschaft § 765 BGB auf Wirksamkeit. Schriftform § 766 BGB, Akzessorietät § 767 BGB… |
 | [`Call: Mehrparteienkonflikt und Interessenmatrix`](skills/call-interessen-faelle-freistehender/) | Für Call: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Checkliste Forderungsdatenraum Factoring`](skills/checkliste-forderungsdatenraum-datenschutz/) | Für Checkliste Forderungsdatenraum Factoring: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`CNC-Maschinen-Leasing: Abnahme, Mängel und Wartung`](skills/cnc-maschine-abnahme-maengel/) | Für CNC-Maschinen-Leasing: Abnahme, Mängel und Wartung: ordnet Norm, Beweislast und Gegenargument… |
@@ -146,6 +147,7 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Grenzüberschreitendes Leasing: UNIDROIT und Rechtswahl`](skills/grenzueberschreitendes-leasing-unidroit-und-rechtswahl/) | Für Grenzüberschreitendes Leasing: UNIDROIT und Rechtswahl: ordnet Norm, Beweislast und Gegenargument… |
 | [`Grobe: Formular, Portal und Einreichungslogik`](skills/grobe-online-phishing/) | Für Grobe: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`GwG AML KYC`](skills/gwg-aml-kyc-verdachtsmeldung/) | Für GwG AML KYC: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/geldwaesche-aml-kyc:gwg-risikoanalyse`](skills/gwg-risikoanalyse-borghei/) | Aufbau und Aktualisierung der institutsspezifischen Risikoanalyse nach § 5 GwG – Risikokategorien (Kunde… |
 | [`Haftung: Beweislast, Darlegungslast und Substantiierung`](skills/haftung-beweislast-und-darlegungslast/) | Für Haftung: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`IBAN-Name-Check`](skills/iban-name-check-verification-payee/) | Für IBAN-Name-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Widerruf eines älteren Immobiliardarlehens prüfen`](skills/immobiliardarlehen-widerruf-altvertrag-pruefen/) | Prüft den Widerruf eines älteren Immobilien- oder Immobiliar-Verbraucherdarlehens strikt nach… |
@@ -168,10 +170,12 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Konzerninternes Leasing: Transfer Pricing und Verrechnungspreise`](skills/konzernleasing-transfer-franchise/) | Für Konzerninternes Leasing: Transfer Pricing und Verrechnungspreise: ordnet Norm, Beweislast und… |
 | [`Fachanwalt Bank Kapitalmarktrecht Kreditkuendigung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Recht`](skills/kreditkuendigung/) | Für Kreditkündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Bank kündigt Kredit nach § 490 BGB wegen wesentlicher Vermögensverschlechterung und Mandant braucht Sofort-Strategie`](skills/kreditkuendigung-490-bgb/) | Für Kreditkündigung 490 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/bankrecht:kreditvertragspruefung`](skills/kreditvertragspruefung-borghei/) | Prüfung von Verbraucherdarlehensverträgen nach §§ 491 ff. BGB. Informationspflichten und Pflichtangaben… |
 | [`KWG-Erlaubnis und Inhaberkontrolle`](skills/kreditwesengesetz-erlaubnis-inhaberkontrolle/) | Für KWG-Erlaubnis und Inhaberkontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Kündigung, Rückholung und Verwertung`](skills/kuendigung-zahlungsverzug-insolvenz/) | Für Kündigung, Rückholung und Verwertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beschwerdemanagement`](skills/kundenbeschwerde-ombudsmann-bafin/) | Für Beschwerdemanagement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`KWG-Erlaubnispflicht Factoring nach § 1 Abs. 1a Satz 2 Nr. 9 KWG`](skills/kwg-erlaubnispflicht-factoring-1-abs-1a-satz-2-nr-9-kwg/) | Für KWG-Erlaubnispflicht Factoring nach Paragraf 1 Abs. 1a Satz 2 Nr. 9 KWG: ordnet Norm, Beweislast und… |
+| [`/geldwaesche-aml-kyc:kyc-identifikationspflicht`](skills/kyc-identifikationspflicht-borghei/) | Identifizierung des Vertragspartners (§§ 10, 11 GwG) und des wirtschaftlich Berechtigten (§§ 3 ff. GwG)… |
 | [`Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe`](skills/lease-005-fahrzeugleasing-km-vertrag-restwert-rueckgabe/) | Für Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe: ordnet Norm, Beweislast und… |
 | [`Leasingrecht: IT-Leasing Hardware Software Cloud Bundle`](skills/lease-008-it-leasing-hardware-software-cloud-bundle/) | Für Leasingrecht: IT-Leasing Hardware Software Cloud Bundle: ordnet Norm, Beweislast und Gegenargument… |
 | [`Leasingrecht: Sale-and-lease-back Liquidität und Insolvenzanfechtung`](skills/lease-010-sale-and-lease-back-liquiditaet-insolvenzanfec/) | Für Leasingrecht: Sale-and-lease-back Liquidität und Insolvenzanfechtung: ordnet Norm, Beweislast und… |
@@ -288,12 +292,14 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Verbraucherleasing beweglicher Sachen: Pflichten und Widerruf`](skills/verbraucherbeweglich/) | Für Verbraucherleasing beweglicher Sachen: Pflichten und Widerruf: ordnet Norm, Beweislast und… |
 | [`Verbraucherkredit: Verhandlung, Vergleich und Eskalation`](skills/verbraucherkredit-verhandlung-vergleich-und-eskalation/) | Für Verbraucherkredit: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Verbraucherleasing: Pflichtangaben und Widerruf`](skills/verbraucherleasing-widerruf-und-pflichtangaben/) | Für Verbraucherleasing: Pflichtangaben und Widerruf: ordnet Norm, Beweislast und Gegenargument… |
+| [`/geldwaesche-aml-kyc:verdachtsmeldung-fiu`](skills/verdachtsmeldung-fiu-borghei/) | Prüfung und Entwurf einer Verdachtsmeldung an die FIU nach § 43 GwG – niedrige Meldeschwelle ('Tatsachen… |
 | [`Vermögensanlage Quellenkarte`](skills/vermoegensanlage-quellenkarte/) | Für Vermögensanlage Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Versicherung im Leasingrecht: Untergang und Ersatz`](skills/versicherung-objekt-untergang-und-ersatz/) | Für Versicherung im Leasingrecht: Untergang und Ersatz: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verwertung nach Kündigung: Prozess und Schadensminderung`](skills/verwertung-nach-kuendigung/) | Für Verwertung nach Kündigung: Prozess und Schadensminderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vorfall: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vorfall-fristen-form-und-zustaendigkeit/) | Für Vorfall: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Wandelereignis – Eingang Wandlungserklärung`](skills/wandelereignis-eingang/) | Für Wandelereignis – Eingang Wandlungserklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wandlungsprüfung – Trigger Qualified Financing`](skills/wandlungspruefung-trigger-qualified-financing/) | Für Wandlungsprüfung – Trigger Qualified Financing: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/bankrecht:widerruf-verbraucherdarlehen`](skills/widerruf-verbraucherdarlehen-borghei/) | Prüfung des Widerrufs eines Verbraucherdarlehensvertrags § 491 BGB. Pflichtangaben § 492 BGB i.V.m. Art.… |
 | [`Widerrufsjoker: Formular, Portal und Einreichungslogik`](skills/widerrufsjoker-formular-portal-und-einreichung/) | Für Widerrufsjoker: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Immobiliardarlehen: Widerruf und Vorfälligkeitsentschädigung`](skills/widerrufsjoker-immobiliendarlehen/) | Prüft Widerruf und Vorfälligkeitsentschädigung bei Immobiliar-Verbraucherdarlehen stichtagsgenau… |
 | [`Wphg: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/wphg-dokumentenmatrix-und-lueckenliste/) | Für Wphg: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -309,6 +315,7 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`ZAG Payment-Flow Red-Team`](skills/zag-payment-flow-red-team/) | Für ZAG Payment-Flow Red-Team: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Zahlungsauslösedienst (PIS) nach ZAG und PSD2`](skills/zag-zahlungsausloesedienst-pis/) | Für Zahlungsauslösedienst (PIS) nach ZAG und PSD2: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zahlungsdienste nach ZAG, PSD2-Folgefragen, PSD3- und PSR-Entwicklungen prüfen: Rollen, Erlaubnis, starke Kundenauthenti`](skills/zahlungsdienste-zag-psd3-psr/) | Für Zahlungsdienste Zag Psd3 Psr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/bankrecht:zahlungsdiensthaftung`](skills/zahlungsdiensthaftung-borghei/) | Haftungsverteilung bei nicht autorisierten Zahlungsvorgängen. Zahlungsdiensterahmen § 675c BGB… |
 
 ## Cold-start context
 

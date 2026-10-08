@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "last_pulled": "2026-05-31",
+  "source": "courtrules.net (mirror); canonical courts.michigan.gov",
+  "mode": "verbatim",
+  "notes": "Pulled by scripts/pull_michigan_rules.py. Verbatim MCR (ch. 1-4) + MRE text mirrored from courtrules.net (the official courts.michigan.gov rules library is bot-gated with hash-rotated asset URLs). Falls back to canonical-URL pointer stubs when the mirror is unreachable; the _file_is_stub guard preserves committed verbatim content."
+}

@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 
-## Skills (56)
+## Skills (70)
 
 | Skill | What it does |
 |---|---|
@@ -29,6 +29,7 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`$regulatory-legal:customize`](skills/customize-4/) | Guided customization of your regulatory practice profile — change one thing without re-running the whole… |
 | [`/customize`](skills/customize-anthropics/) | Guided customization of your AI governance practice profile — change one thing without re-running the… |
 | [`Design Compliance Risk Assessment`](skills/design-compliance-risk-assessment-jeffreytse/) | Use when an organization needs to identify and prioritize its regulatory and compliance risk exposure on… |
+| [`Draft — Compliance Manual`](skills/draft-compliance-manual-sboghossian/) | Use when asked to draft a compliance manual for a regulated business — a comprehensive internal policy… |
 | [`Evaluate AI Compliance Engine`](skills/evaluate-ai-compliance-engine-frootai/) | Evaluate AI Compliance Engine — measure check accuracy, evidence quality, framework coverage, risk… |
 | [`Regulatory Examination Response Drafter`](skills/examination-response-drafter-rohasnagpal/) | Analyse and draft responses to regulatory examinations, inspection findings, deficiency letters… |
 | [`Feature Risk Assessment`](skills/feature-risk-assessment/) | Deeper risk assessment for a single feature or product area when the launch review found something that… |
@@ -45,9 +46,18 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`$regulatory-legal:matter-workspace`](skills/matter-workspace-9/) | Manage matter workspaces — create, list, switch, close, or detach the active matter (practice-level).… |
 | [`/matter-workspace`](skills/matter-workspace-regulatory-legal-bossmann007/) | Manage matter workspaces — create, list, switch, close, or detach the active matter (practice-level).… |
 | [`NIST AI Risk Management Framework (AI RMF 1.0) Skill`](skills/nist-ai-rmf/) | Expert NIST AI Risk Management Framework (AI RMF 1.0) advisor covering all four functions: GOVERN, MAP… |
+| [`Regulatory — Client Alert Drafter (Firm Voice)`](skills/pa-workflow-regulatory-client-alert-drafter-firm-voice/) | Use when a law firm or legal team needs to draft a client-facing regulatory alert in the firm's… |
+| [`Regulatory — Compliance Gap Matrix`](skills/pa-workflow-regulatory-compliance-gap-matrix-sboghossian/) | Use when counsel or a compliance team needs to map a client's current compliance posture against… |
+| [`Regulatory — Cross-Jurisdiction Tracker`](skills/pa-workflow-regulatory-cross-jurisdiction-tracker-sboghossian/) | Use when a multinational client or law firm practice group needs to monitor and compare regulatory… |
+| [`Regulatory — Enforcement Likelihood Scorer`](skills/pa-workflow-regulatory-enforcement-likelihood-scorer-sboghossian/) | Use when counsel or a compliance team needs to assess and score the likelihood that a specific… |
 | [`Policy Brief`](skills/policy-brief/) | Generates structured public policy briefs analyzing legislation across economic, social, legal, and… |
 | [`Policy diff`](skills/policy-diff-anthropics/) | Diff a specific regulatory change against the indexed policy library. Use when a reg has changed and you… |
 | [`Policy redraft`](skills/policy-redraft-anthropics/) | Produce a proposed marked-up policy redraft that closes a gap found by /regulatory-legal:gaps or… |
+| [`AI Governance Policy`](skills/prompt-pack-ai-governance-policy-sboghossian/) | Use when drafting an AI governance policy for an organization addressing responsible AI use, risk… |
+| [`ESG Policy Framework`](skills/prompt-pack-esg-policy-framework-sboghossian/) | Use when drafting an ESG (Environmental, Social, and Governance) policy framework for a company… |
+| [`Open Source Compliance Review`](skills/prompt-pack-open-source-compliance-review-sboghossian/) | Use when conducting an open source licence compliance review for a software product or codebase.… |
+| [`Regulatory Change Impact Assessment`](skills/prompt-pack-regulatory-change-impact-assessment-sboghossian/) | Use when a lawyer or compliance officer needs to analyze the operational and legal impact of a new… |
+| [`Statute Explainer (Public Tool)`](skills/public-tool-statute-explainer-public-sboghossian/) | Use when a user provides a statute or regulation reference (e.g., "UAE FDL 33/2021 Article 42") and… |
 | [`$regulatory-legal:reg-feed-watcher`](skills/reg-feed-watcher/) | Check regulatory feeds now and report what's new since the last check, filtered by your materiality… |
 | [`Reg feed watcher`](skills/reg-feed-watcher-anthropics/) | Check regulatory feeds now and report what's new since the last check, filtered by your materiality… |
 | [`法规匹配助手-信托监管版（T819）`](skills/regulation-match-trust-regulatory/) | 用于信托领域合同与法务中的法规匹配助手-信托监管版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
@@ -59,8 +69,12 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`/regulatory`](skills/regulatory-legalquants/) | Regulatory research, refreshing earlier research, jurisdiction comparison and legality checks built on… |
 | [`Regulatory Review Skill`](skills/regulatory-review/) | Use to assess regulatory applicability for products that may fall under AI regulation (EU AI Act… |
 | [`Regulatory Document Summarization`](skills/regulatory-summary/) | Generates structured, citation-grounded summaries of regulatory documents (agency rules, guidance… |
+| [`Licensing Requirements Lookup`](skills/research-licensing-requirements-lookup-sboghossian/) | Use when a business or its advisors need to identify every license required to operate a specific… |
+| [`Regulator Guidance Lookup`](skills/research-regulator-guidance-lookup-sboghossian/) | Use when a user needs not the statute itself but the regulatory body's official interpretation — FAQs… |
+| [`Compliance Gap Analysis`](skills/review-compliance-gap-analysis-sboghossian/) | Use when a compliance officer, legal team, or external adviser needs to map an organization's current… |
 | [`Screening Alert Adjudication`](skills/screening-alert-adjudication-amir-fadavi/) | Adjudicates whether a hit generated by sanctions, PEP, or adverse-media screening is a true positive… |
 | [`SWIFT Customer Security Programme (CSP) — CSCF v2026`](skills/swift-csp/) | Expert SWIFT Customer Security Programme (CSP) advisor covering the Customer Security Controls Framework… |
+| [`Template — Firm AI Use Policy`](skills/template-firm-ai-policy-sboghossian/) | Use when a law firm needs a ready-to-adopt AI use policy governing how associates, paralegals, and staff… |
 | [`TPRM Issue Summarization`](skills/tprm-issue-summarization/) | Summarize Third-Party Risk Management issues including vendor risk exposure, assessment gaps… |
 | [`Transaction screening workflow (concepts)`](skills/transaction-screening-workflow-concepts/) | Educational map of transaction-centric compliance screening—transfer as the atomic unit, deposit vs… |
 | [`Use case triage`](skills/use-case-triage-anthropics/) | Classify a proposed AI use case against your registry — approved, conditional, or not approved — and… |

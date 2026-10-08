@@ -4,7 +4,7 @@ Family law — marriage, divorce, children, maintenance, and (where relevant) pe
 
 Jurisdiction: `de` · Practice: `family` · Skill language: de
 
-## Skills (222)
+## Skills (229)
 
 | Skill | What it does |
 |---|---|
@@ -34,6 +34,7 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Betreuer als Erbe und Beschenkter`](skills/betreuer-registrierung-betreuung/) | Für Betreuer als Erbe und Beschenkter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betreuer: Zahlen, Schwellenwerte und Berechnung`](skills/betreuer-zahlen-schwellen-und-berechnung/) | Für Betreuer: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Betreuer: Zahlen, Schwellenwerte und Berechnung`](skills/betreuer-zahlen-schwellenwerte-berechnung/) | Für Betreuer: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
+| [`/betreuungsrecht:betreuerbestellung`](skills/betreuerbestellung-borghei/) | Prüfung der Voraussetzungen einer rechtlichen Betreuung nach der Reform 2023. Erforderlichkeit und… |
 | [`Betreuerpflichten: Formular, Portal und Einreichungslogik`](skills/betreuerpflichten-alltag/) | Für Betreuerpflichten: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
 | [`Betreuerpflichten: Formular, Portal und Einreichungslogik`](skills/betreuerpflichten-formular-portal-und-einreichung/) | Für Betreuerpflichten: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
 | [`Betreuerpflichten, Genehmigung und Berichtswesen`](skills/betreuerpflichten-genehmigung-bericht/) | Für Betreuerpflichten, Genehmigung und Berichtswesen: ordnet Norm, Beweislast und Gegenargument… |
@@ -81,12 +82,14 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Dokumentenscan, Aktenablage und Belegmappe`](skills/dokumentenscan-aktenablage-und-belegmappe/) | Für Dokumentenscan, Aktenablage und Belegmappe: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Duesseldorfer: Abschlussprodukt und Übergabe im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/Vers`](skills/duesseldorfer-abschlussprodukt-und-uebergabe/) | Für Düsseldorfer Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Internationale Eheschließung`](skills/ehegattenrecht-internationales-art-13-egbgb/) | Prüft Zustandekommen, Form und Anerkennung einer Ehe mit Auslandsbezug nach Artikel 13 EGBGB und grenzt… |
+| [`/familienrecht:ehegattenunterhalt`](skills/ehegattenunterhalt-borghei/) | Prüfung und Berechnung des Ehegattenunterhalts – Trennungsunterhalt § 1361 BGB, nachehelicher Unterhalt… |
 | [`§ 1358 BGB Ehegattenvertretung`](skills/ehegattenvertretung-1358-bgb/) | Für Paragraf 1358 BGB Ehegattenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ehevertrag kontrollieren`](skills/ehevertrag-inhalts-und-ausuebungskontrolle/) | Prüft Eheverträge zweistufig auf Sittenwidrigkeit bei Vertragsschluss und missbräuchliche Berufung im… |
 | [`Ehevertrag: Red-Team und Qualitätskontrolle im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/VersA`](skills/ehevertrag-red-team-und-qualitaetskontrolle/) | Für Ehevertrag Red Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Ehevertrag und Scheidungsfolgenkontrolle: Wirksamkeit, Ausübungskontrolle, Kernbereichslehre und Verhandlungsdokumentati`](skills/ehevertrag-scheidungsfolgenkontrolle/) | Für Ehevertrag Scheidungsfolgenkontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Ehrenamtlicher Betreuer: erster Monat`](skills/ehrenamtlicher-betreuer-erster-monat/) | Für Ehrenamtlicher Betreuer: erster Monat: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eingetragene: Mandantenkommunikation und Entscheidungsvorlage im Familienrecht: fachlich vertieftes Modul mit Normenrada`](skills/eingetragene-mandantenkommunikation-entscheidungsvorlage/) | Für Eingetragene Mandantenkommunikation Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
+| [`/betreuungsrecht:einwilligungsvorbehalt`](skills/einwilligungsvorbehalt-borghei/) | Prüfung der Anordnung eines Einwilligungsvorbehalts § 1825 BGB (Reform 2023): Abwehr einer erheblichen… |
 | [`Erbe: Compliance-Dokumentation und Aktenvermerk`](skills/erbe-compliance-dokumentation-aktenvermerk/) | Für Erbe: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Erbe: Compliance-Dokumentation und Aktenvermerk`](skills/erbe-genehmigung-red-genehmigungspflichten/) | Für Erbe: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Erbschaft, Schenkung und Nießbrauch`](skills/erbschaft-schenkung-und-niessbrauch/) | Prüft privilegierte Erwerbe aus Erbschaft und Schenkung mit Nettoerwerbswert, Indexierung und Nießbrauch… |
@@ -151,11 +154,13 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Gewaltschutz und Umgang: Schutzanordnung, Näherungsverbot, Umgangsausschluss, begleiteter Umgang und Beweisführung.`](skills/gewaltschutz-und-umgang-schnittstelle/) | Für Gewaltschutz und Umgang Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Großelternumgang nach Paragraf 1685 BGB prüfen`](skills/grosselternumgang-kindeswohldienlichkeit/) | Für Großelternumgang nach Paragraf 1685 BGB prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Immobilienwert und Darlehen zuordnen`](skills/immobilienwert-und-darlehen-zuordnen/) | Ermittelt Immobilienansätze zum maßgeblichen Stichtag, trennt Eigentumsanteile, Rechte und… |
+| [`/betreuungsrecht:jahresbericht-1863-bgb`](skills/jahresbericht-1863-bgb-borghei/) | Jahresbericht des Betreuers an das Betreuungsgericht nach § 1863 BGB (Reform 2023). Pflichtinhalt… |
 | [`Jahresbericht des Betreuers ans Betreuungsgericht (§ 1863 BGB)`](skills/jahresbericht-betreuungsgericht/) | Für Jahresbericht des Betreuers ans Betreuungsgericht (Paragraf 1863 BGB): ordnet Norm, Beweislast und… |
 | [`Jahresbericht: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/jahresbericht-kontoanalyse-verdachtsvertraege/) | Für Jahresbericht: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und… |
 | [`Jahresbericht: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/jahresbericht-tatbestandsmerkmale-beweisfragen/) | Für Jahresbericht: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und… |
 | [`Kalender, Reminder und Fristenmanagement`](skills/kalender-reminder-und-fristenmanagement/) | Für Kalender, Reminder und Fristenmanagement: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Kanzlei: Fristennotiz und nächster Schritt im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/VersAu`](skills/kanzlei-fristennotiz-und-naechster-schritt/) | Für Kanzlei Fristennotiz und Nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
+| [`/familienrecht:kindesunterhalt`](skills/kindesunterhalt-borghei/) | Prüfung und Berechnung des Kindesunterhalts – Verwandtenunterhalt §§ 1601 ff. BGB, gesteigerte… |
 | [`Mindestunterhalt eines minderjährigen Kindes berechnen`](skills/kindesunterhalt-mindestsatz-paragraf-1612a-bgb/) | Für Mindestunterhalt eines minderjährigen Kindes berechnen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Hochkonflikt und Wechselmodell: Kindeswohl, Bindungstoleranz, Kontinuität, Anhörung, Verfahrensbeistand und Beweis.`](skills/kindeswohl-hochkonflikt-wechselmodell/) | Für Kindeswohl Hochkonflikt Wechselmodell: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kindeswohlgefaehrdung nach Paragraf 1666 BGB: Eilantrag auf Sorgerechtsentzug oder Schutzanordnung stellen oder dagegen `](skills/kindeswohlgefaehrdung-eilantrag/) | Für Kindeswohlgefährdung Eilantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
@@ -183,6 +188,7 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Prozessuale Kniffe und Rechtsprechungsanker`](skills/richter-familiengericht-prozessuale-kniffe-und-rechtsprechungsan/) | Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fachanwalt Familienrecht Sbgg Personenstandswechsel Folgen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizier`](skills/sbgg-personenstandswechsel-folgen/) | Für Sbgg Personenstandswechsel Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Scheidung: Zahlen, Schwellenwerte und Berechnung im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/`](skills/scheidung-zahlen-schwellen-und-berechnung/) | Für Scheidung Zahlen Schwellen und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
+| [`/familienrecht:scheidung-zugewinnausgleich`](skills/scheidung-zugewinnausgleich-borghei/) | Scheidung im Zugewinngemeinschafts-Güterstand mit Berechnung des Zugewinnausgleichsanspruchs §§ 1372 ff.… |
 | [`Fachanwalt Familienrecht Scheidungsantrag Stellen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechts`](skills/scheidungsantrag-stellen/) | Für Scheidungsantrag Stellen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Schutzplan und Risikoampel`](skills/schutzplan-betreute-person-risikoampel/) | Für Schutzplan und Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Fristen- und Risikoampel. |
 | [`Soldatenversorgung Bundeswehr Schnittstelle: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/soldatenversorgung-bundeswehr-schnittstelle/) | Für Soldatenversorgung Bundeswehr Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -220,6 +226,7 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Tod eines Ehegatten im Versorgungsausgleich`](skills/versorgungsausgleich-verstorbener-paragraf-31-versausglg/) | Prüft die Folgen des Todes eines Ehegatten für Scheidung, Wertausgleich und Ausgleichsansprüche nach der… |
 | [`Versorgungsauskünfte und Anrechtswerte prüfen`](skills/versorgungsauskuenfte-und-anrechtswerte-pruefen/) | Gleicht Fragebogen und Versorgungsträgerauskünfte mit der Erwerbsbiografie ab, prüft Ehezeitanteile… |
 | [`Versorgungsteilung und Zielversorgung prüfen`](skills/versorgungsteilung-und-zielversorgung-pruefen/) | Prüft interne und externe Versorgungsteilung, Teilungskosten und Transferverluste. Klärt das Wahlrecht… |
+| [`/betreuungsrecht:vorsorgevollmacht-patientenverfuegung`](skills/vorsorgevollmacht-patientenverfuegung-borghei/) | Prüfung der Vorsorgeinstrumente nach der Reform 2023: Vorsorgevollmacht § 1820 BGB, Patientenverfügung §… |
 | [`Vorsorgevollmacht prüfen`](skills/vorsorgevollmacht-pruefen/) | Für Vorsorgevollmacht prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorsorgevollmacht prüfen`](skills/vorsorgevollmacht-wunschermittlung/) | Für Vorsorgevollmacht prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wunschermittlung und unterstützte Entscheidung`](skills/wunschermittlung-unterstuetzte-entscheidung/) | Für Wunschermittlung und unterstützte Entscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

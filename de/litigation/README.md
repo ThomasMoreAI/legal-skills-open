@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (781)
+## Skills (803)
 
 | Skill | What it does |
 |---|---|
@@ -50,6 +50,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`20 Urteilsentwurf Finalisieren`](skills/20-urteilsentwurf-finalisieren/) | Für 20 Urteilsentwurf Finalisieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`765a Fehlerkatalog`](skills/765a-fehlerkatalog/) | Für 765a Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`802L: Verhandlung, Vergleich und Eskalation`](skills/802l-verhandlung-vergleich-und-eskalation/) | Für 802L: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
+| [`/verbandsklage-vdug:abhilfeklage-vdug`](skills/abhilfeklage-vdug-borghei/) | Abhilfeklage nach §§ 14 ff. VDuG – Leistung an die betroffenen Verbraucher oder Zahlung eines… |
 | [`Gegenanwalt — Fachanwalt (Verteidigung & Anspruchsabwehr)`](skills/abwehr/) | Dieser Skill wird verwendet wenn der Nutzer "Gegenseite simulieren", "Gegenanwalt", "Schreiben… |
 | [`Schuldnerabwehr in der Zwangsvollstreckung`](skills/abwehr-schuldner/) | Für Schuldnerabwehr in der Zwangsvollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Akten: Mandantenkommunikation und Entscheidungsvorlage`](skills/akten-mandantenkommunikation-entscheidungsvorlage/) | Für Akten: Mandantenkommunikation und Entscheidungsvorlage: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -137,6 +138,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Anlagenverzeichnis-Extrakt`](skills/anlagenverzeichnis-extrakt/) | Für Anlagenverzeichnis-Extrakt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Anlagenverzeichnis für Gericht, Kanzlei und intern`](skills/anlagenverzeichnis-gericht-kanzlei-und-intern/) | Für Anlagenverzeichnis für Gericht, Kanzlei und intern: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anlagenverzeichnis für Gericht, Kanzlei und intern`](skills/anlagenverzeichnis-kanzlei-grundaufbau-bea/) | Für Anlagenverzeichnis für Gericht, Kanzlei und intern: ordnet Norm, Beweislast und Gegenargument… |
+| [`/verbandsklage-vdug:anmeldung-umsetzungsverfahren`](skills/anmeldung-umsetzungsverfahren-borghei/) | Anmeldung zum Verbandsklageregister und Umsetzungsverfahren nach dem VDuG – Anmeldung § 46 binnen drei… |
 | [`Anordnung Quellenkarte`](skills/anordnung-quellenkarte/) | Für Anordnung Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`JVEG-Anspruchsberechtigung`](skills/anspruchsberechtigung-antragsgenerator/) | Für JVEG-Anspruchsberechtigung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Welche Norm traegt Ihren Anspruch?`](skills/anspruchsgrundlage-finden-laienhilfe/) | Für Welche Norm trägt Ihren Anspruch?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
@@ -155,6 +157,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Arbeitsgerichtsverfahren-Modus (ArbGG)`](skills/arbeitsgerichtsverfahren-modus-terminkalender/) | Für Arbeitsgerichtsverfahren-Modus (ArbGG): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbitration Clause Conflict`](skills/arbitration-clause-bea-erv/) | Für Arbitration Clause Conflict: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Argumentationsverbesserung und Red Team`](skills/argumentationsverbesserung-red-team/) | Für Argumentationsverbesserung und Red Team: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
+| [`/prozessrecht:arrest`](skills/arrest-borghei/) | Antrag auf Arrest zur Sicherung von Geldforderungen – dinglicher Arrest § 916 ZPO, Arrestgrund § 917… |
 | [`Augenscheinsbeweis: Wenn das Gericht selbst sehen muss`](skills/augenscheinsbeweis-371-zpo/) | Für Augenscheinsbeweis: Wenn das Gericht selbst sehen muss: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wann ist das Amtsgericht **immer** zuständig (egal wie hoch der Streitwert)?`](skills/ausnahmen-streitwertgrenze-23-nr-2-gvg/) | Für Wann ist das Amtsgericht **immer** zuständig (egal wie hoch der Streitwert)?: ordnet Norm… |
 | [`Ausschluss nach § 817 BGB — Gesetzes- und Sittenverstoß`](skills/ausschluss-817-bgb-gesetzes-und-sittenverstoss/) | Für Ausschluss nach Paragraf 817 BGB — Gesetzes- und Sittenverstoß: ordnet Norm, Beweislast und… |
@@ -182,6 +185,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Bereits: Abschlussprodukt und Übergabe`](skills/bereits-abschlussprodukt-und-uebergabe/) | Für Bereits: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berufung gegen AG-Urteil: Was geht und was nicht`](skills/berufung-amtsgericht-511-zpo/) | Für Berufung gegen AG-Urteil: Was geht und was nicht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Berufung, Beschwerde und neue Anlagen`](skills/berufung-beschwerde-und-neue-anlagen/) | Für Berufung, Beschwerde und neue Anlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/prozessrecht:berufung-zpo`](skills/berufung-zpo-borghei/) | Berufung im Zivilprozess nach §§ 511 ff. ZPO. Statthaftigkeit und Berufungssumme — Beschwer über 600 EUR… |
 | [`Berufungs-Zulassung bei Beschwer bis 1.000 EUR`](skills/berufungs-zulassung-niedrig-streitwert/) | Für Berufungs-Zulassung bei Beschwer bis 1.000 EUR: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berufungsfestigkeit prüfen`](skills/berufungsfest-beschluss-bauen-beweisbeschluss/) | Für Berufungsfestigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
 | [`Berufungsfestigkeit prüfen`](skills/berufungsfest-pruefen/) | Für Berufungsfestigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -192,6 +196,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Beweisangebot über Anlagen (Zeugen)`](skills/beweisangebot-anlage-zeugen/) | Für Beweisangebot über Anlagen (Zeugen): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beweisbedarf und Belege erfassen`](skills/beweisbedarf-und-belege-erfassen/) | Für Beweisbedarf und Belege erfassen: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und… |
 | [`Beweisbeschluss vorbereiten`](skills/beweisbeschluss-vorbereiten/) | Für Beweisbeschluss vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
+| [`/prozessrecht:beweislast`](skills/beweislast-borghei/) | Darlegungs- und Beweislast im Zivilprozess nach §§ 138, 286 ff. ZPO. Freie Beweiswürdigung (§ 286 ZPO)… |
 | [`Wer beweist was? Die Beweislast im Zivilprozess`](skills/beweislast-grundregel-wer-was/) | Für Wer beweist was? die Beweislast im Zivilprozess: ordnet Norm, Beweislast und Gegenargument… |
 | [`Beweismittel — Gegenüberstellung`](skills/beweismittel-gegenueberstellung/) | Für Beweismittel — Gegenüberstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast… |
 | [`Beweismittel: Mehrparteienkonflikt und Interessenmatrix`](skills/beweismittel-mehrparteien-konflikt-und-interessen/) | Für Beweismittel: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
@@ -247,6 +252,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Die Rechtsantragsstelle als Hilfe für Buerger`](skills/einreichung-rechtsantragsstelle-selbst/) | Für Die Rechtsantragsstelle als Hilfe für Bürger: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Einstweilige Anordnung § 47 Abs. 6 VwGO`](skills/einstweilige-anordnung-47-abs-6-vwgo/) | Für Einstweilige Anordnung Paragraf 47 Abs. 6 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einstweilige Verfügung – Paragrafen 935, 940 ZPO`](skills/einstweilige-verfuegung/) | Für Einstweilige Verfügung – Paragrafen 935. 940 ZPO: ordnet Norm, Beweislast und Gegenargument… |
+| [`/prozessrecht:einstweilige-verfuegung`](skills/einstweilige-verfuegung-borghei/) | Antrag auf einstweilige Verfügung im einstweiligen Rechtsschutz – Sicherungsverfügung § 935 ZPO… |
 | [`Einstweilige: Verhandlung, Vergleich und Eskalation`](skills/einstweilige-verhandlung-vergleich-und-eskalation/) | Für Einstweilige: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Einstweiligen Rechtsschutz nach § 80 Abs`](skills/einstweiliger-rechtsschutz/) | Für Einstweiligen Rechtsschutz nach Paragraf 80 Abs: ordnet Norm, Beweislast und Gegenargument… |
 | [`Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG`](skills/elektronische-zustellung-eu/) | Für Elektronische Zustellung in der Zwangsvollstreckung – ZVollstrDigitG: ordnet Norm, Beweislast und… |
@@ -330,6 +336,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Output waehlen`](skills/forderungsmanagement-klagewerkstatt-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Quellenkarte`](skills/forderungsmanagement-klagewerkstatt-quellenkarte/) | Für Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Redteam Qualitygate`](skills/forderungsmanagement-klagewerkstatt-redteam-qualitygate/) | Für Redteam Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
+| [`/zwangsvollstreckung:forderungspfaendung`](skills/forderungspfaendung-borghei/) | Pfändung und Überweisung von Geldforderungen – Pfändungs- und Überweisungsbeschluss §§ 829, 835 ZPO… |
 | [`Erstes Forderungsschreiben bei Fluggastrechten`](skills/forderungsschreiben-erste-stufe/) | Erstellt das erste belastbare Forderungsschreiben nach der Fluggastrechteverordnung; ordnet… |
 | [`Forderungsschreiben — Mahnung (zweite Stufe)`](skills/forderungsschreiben-mahnung/) | Für Forderungsschreiben — Mahnung (zweite Stufe): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Forumwahl gegenüber Schiedsgericht`](skills/forumwahl-court-glossary/) | Für Forumwahl gegenüber Schiedsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -367,6 +374,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Handelsrichter in der Kammer für Handelssachen: Sitzungspraxis`](skills/handelsrichter-kfh-rolle-sitzung/) | Für Handelsrichter in der Kammer für Handelssachen: Sitzungspraxis: ordnet Norm, Beweislast und… |
 | [`Handelsrichter Vertriebsstreit: Sitzungspraxis`](skills/handelsrichter-vertriebsstreit-sitzung/) | Für Handelsrichter Vertriebsstreit: Sitzungspraxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Hauptdokument als PDF endfertigen`](skills/hauptdokument-pdf-endfertigen/) | Endfertigt den bereits freigegebenen Schriftsatz technisch als separates PDF: sichert die maßgebliche… |
+| [`/zwangsvollstreckung:immobiliarvollstreckung-zvg`](skills/immobiliarvollstreckung-zvg-borghei/) | Zwangsvollstreckung in das unbewegliche Vermögen nach dem ZVG – Anordnung der Zwangsversteigerung § 15… |
 | [`Inkasso-Risikoampel`](skills/inkasso-risikoampel/) | Für Inkasso-Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Fristen- und Risikoampel. |
 | [`Inkasso-Zahlungsklage-Ersteller`](skills/inkasso-zahlungsklage-ersteller/) | Für Inkasso-Zahlungsklage-Ersteller: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Compliance-Dokumentation und Aktenvermerk (Urteilsbauer)`](skills/input-compliance-dokumentation/) | Für Compliance-Dokumentation und Aktenvermerk (Urteilsbauer): ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -416,6 +424,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Beweisantraege richtig in die Klage einbauen`](skills/klageschrift-beweisangebote-einbauen-373-zpo/) | Für Beweisanträge richtig in die Klage einbauen: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`So bauen Sie eine Klageschrift auf`](skills/klageschrift-pflichtbestandteile-253-zpo/) | Für So bauen Sie eine Klageschrift auf: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Den Sachverhalt richtig in die Klage schreiben`](skills/klageschrift-tatsachenvortrag-strukturieren/) | Für Den Sachverhalt richtig in die Klage schreiben: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
+| [`/prozessrecht:klageschrift-zivilprozess`](skills/klageschrift-zivilprozess-borghei/) | Entwurf einer prozessual sauberen Klageschrift im Zivilprozess nach §§ 253 ff. ZPO. Streitgegenstand… |
 | [`Klagewerkstatt — Lernlauf aus eigenen Mustern`](skills/klagevorlage-aus-eigenen-mustern/) | Für Klagewerkstatt — Lernlauf aus eigenen Mustern: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Fachanwalt Verwaltungsrecht Klimaklage Bundeslaender Ksg BVerfG: ordnet Normen, Nutzerangaben, Fristen, Belege und verif`](skills/klimaklage-bundeslaender-ksg-bverfg/) | Für Klimaklage Bundesländer Ksg BVerfG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Kommunalrecht § 2 go`](skills/kommunalrecht-paragraf-2-go/) | Für Kommunalrecht Paragraf 2 go: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -429,6 +438,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Kostenentscheidung`](skills/kostenentscheidung-bauen/) | Für Kostenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Kostenfestsetzung: Bei Erfolg Geld zurueckholen`](skills/kostenfestsetzung-103-104-zpo/) | Für Kostenfestsetzung: bei Erfolg Geld zurückholen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kostenfestsetzung mit Belegen, Fristen und Erinnerung`](skills/kostenfestsetzung-belege-und-fristen/) | Für Kostenfestsetzung mit Belegen, Fristen und Erinnerung: prüft Frist, Form, Zuständigkeit und… |
+| [`/kostenrecht-rvg:kostenfestsetzung-erstattung`](skills/kostenfestsetzung-erstattung-borghei/) | Kostenerstattung im Zivilprozess – Kostengrundentscheidung §§ 91 bis 101 ZPO einschließlich Erledigung §… |
 | [`Fristen: Compliance-Dokumentation und Aktenvermerk`](skills/kostenfestsetzung-kostenpruefer/) | Für Fristen: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kostenfeststellungsklage bei erledigter Hauptsache als Verzugsschaden`](skills/kostenfeststellungsklage-verzugsschaden-erledigung/) | Für Kostenfeststellungsklage bei erledigter Hauptsache als Verzugsschaden: erstellt Entwurf mit Antrag… |
 | [`Kostenpruefer: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/kostenpruefer-fristen-form-und-zustaendigkeit/) | Für Kostenprüfer: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
@@ -453,6 +463,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Mahnbescheid statt Klage: schnell und billig`](skills/mahnverfahren-688-ff-zpo-vor-klage/) | Für Mahnbescheid statt Klage: schnell und billig: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Mahnverfahren bei Bauforderungen`](skills/mahnverfahren-bauleiter/) | Für Mahnverfahren bei Bauforderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Beweislast und Darlegungslast`](skills/mahnverfahren-beweislast-darlegungslast/) | Für Beweislast und Darlegungslast: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
+| [`/prozessrecht:mahnverfahren`](skills/mahnverfahren-borghei/) | Durchführung des gerichtlichen Mahnverfahrens – Zulässigkeit § 688 ZPO, Mahnantrag und Mahnbescheid §… |
 | [`Mahnvorlauf Dokumentenmatrix`](skills/mahnvorlauf-dokumentenmatrix/) | Für Mahnvorlauf Dokumentenmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Mandantenkommunikation`](skills/mandantenkommunikation-redteam-qualitygate/) | Für Mandantenkommunikation: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Mandats-Aktualisierung`](skills/mandat-aktualisierung/) | Für Mandats-Aktualisierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -468,6 +479,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Mobiliarvollstreckung durch den Gerichtsvollzieher`](skills/mobiliar-gv-auftrag/) | Für Mobiliarvollstreckung durch den Gerichtsvollzieher: ordnet Norm, Beweislast und Gegenargument… |
 | [`In den Termin gehen — Akten griffbereit, Notizen parat`](skills/muendliche-verhandlung-akten-griffbereit/) | Für In den Termin gehen — Akten griffbereit, Notizen parat: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Mündliche Verhandlung BayVGH/OVG`](skills/muendliche-verhandlung-vgh-strategie/) | Für Mündliche Verhandlung BayVGH/OVG: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
+| [`/verbandsklage-vdug:musterfeststellungsklage-vdug`](skills/musterfeststellungsklage-vdug-borghei/) | Musterfeststellungsklage nach § 41 VDuG – Feststellung des Vorliegens oder Nichtvorliegens tatsächlicher… |
 | [`Nachgereichter Schriftsatz nach Schluss der Verhandlung`](skills/nachgereichter-schriftsatz-296a-zpo/) | Für Nachgereichter Schriftsatz nach Schluss der Verhandlung: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Nachreichung, Berichtigung und gerichtlicher Hinweis`](skills/nachreichung-berichtigung-ocr-scan-original/) | Für Nachreichung, Berichtigung und gerichtlicher Hinweis: ordnet Norm, Beweislast und Gegenargument… |
 | [`Nachreichung, Berichtigung und gerichtlicher Hinweis`](skills/nachreichung-berichtigung-und-gerichtshinweis/) | Für Nachreichung, Berichtigung und gerichtlicher Hinweis: ordnet Norm, Beweislast und Gegenargument… |
@@ -513,6 +525,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Proz: Mediation Gueteverfahren`](skills/proz-mediationsklage-guete-spezial/) | Für Proz: Mediation Güteverfahren: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Proz Quellenkarte`](skills/proz-quellenkarte/) | Für Proz Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Prozessablauf — Papier vs. Elektronisch`](skills/prozessablauf-papier-vs-elektronisch/) | Für Prozessablauf — Papier vs. Elektronisch: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/prozessrecht:prozesskostenhilfe`](skills/prozesskostenhilfe-borghei/) | Prüfung und Antrag auf Prozesskostenhilfe (PKH) – die drei Voraussetzungen Bedürftigkeit, hinreichende… |
 | [`Prozesskostenhilfe (PKH): Klage trotz Geldknappheit`](skills/prozesskostenhilfe-pkh-114-zpo/) | Für Prozesskostenhilfe (PKH): Klage trotz Geldknappheit: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mandatsworkspace, Kontexttrennung und Fristensteuerung`](skills/prozessmandat-dokumente-fristen-aufgaben-workspace/) | Für Mandatsworkspace, Kontexttrennung und Fristensteuerung: prüft Frist, Form, Zuständigkeit und… |
 | [`Anschluss-Routing`](skills/prozessrecht-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
@@ -560,7 +573,9 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Richterlicher Hinweis nach § 139 ZPO: Was tun?`](skills/richterlicher-hinweis-139-zpo-reaktion/) | Für Richterlicher Hinweis nach Paragraf 139 ZPO: Was tun?: ordnet Norm, Beweislast und Gegenargument… |
 | [`Richterlicher Hinweis, Aufklärung und Parteivortrag in die Relation einbauen`](skills/richterlicher-hinweis-aufklaerung/) | Für Richterlicher Hinweis, Aufklärung und Parteivortrag in die Relation einbauen: ordnet Norm… |
 | [`Ruecknahme Rest § 48 VwVfG`](skills/ruecknahme-rest-paragraf-48-vwvfg/) | Für Rücknahme Rest Paragraf 48 VwVfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/kostenrecht-rvg:rvg-gebuehrenberechnung`](skills/rvg-gebuehrenberechnung-borghei/) | Berechnung der gesetzlichen Anwaltsvergütung nach dem RVG – Gegenstandswert §§ 22, 23 RVG i.V.m. §§ 3… |
 | [`Ist das Amtsgericht für Ihren Fall sachlich zuständig?`](skills/sachliche-zustaendigkeit-amtsgericht-23-gvg/) | Für Ist das Amtsgericht für Ihren Fall sachlich zuständig?: prüft Frist, Form, Zuständigkeit und… |
+| [`/zwangsvollstreckung:sachpfaendung-vermoegensauskunft`](skills/sachpfaendung-vermoegensauskunft-borghei/) | Zugriff auf bewegliche Sachen und Aufklärung der Vermögenslage – Sachpfändung §§ 803 ff. ZPO mit… |
 | [`Sachverhaltschronologie`](skills/sachverhaltschronologie/) | Für Sachverhaltschronologie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg… |
 | [`Sachverhaltschronologie: Schriftsatz-, Brief- und Memo-Bausteine`](skills/sachverhaltschronologie-textbausteine/) | Für Sachverhaltschronologie: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag… |
 | [`Sachverstaendigen Quellenkarte`](skills/sachverstaendigen-quellenkarte/) | Für Sachverständigen Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -593,6 +608,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Trainer-Leitfaden Schulung Urteilsbauer`](skills/schulung-urteilsbauer-aktenintake-beschluss/) | Für Trainer-Leitfaden Schulung Urteilsbauer: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Schutzschrift gegen Eilverfügung`](skills/schutzschrift-eilverfuegung/) | Für Schutzschrift gegen Eilverfügung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Schwerpunktthemen-Identifikation`](skills/schwerpunktthemen-identifikation-akten/) | Für Schwerpunktthemen-Identifikation: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/prozessrecht:selbststaendiges-beweisverfahren`](skills/selbststaendiges-beweisverfahren-borghei/) | Selbständiges Beweisverfahren zur Beweissicherung vor oder außerhalb des Prozesses nach §§ 485 ff. ZPO.… |
 | [`Juristischer Argumentationskern - Selbstvertreter Amtsgericht`](skills/selbstvertreter-amtsgericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Selbstvertreter Amtsgericht ein juristisches Arbeitsprodukt tragfähig… |
 | [`Eigenen Zivilprozess und nächsten Verfahrensschritt einordnen`](skills/selbstvertreter-amtsgericht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Shareholder and Board Disputes`](skills/shareholder-board-dispute/) | Für Shareholder and Board Disputes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -684,6 +700,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Urteilsverkuendung: So endet das Verfahren`](skills/urteilsverkuendung-310-zpo/) | Für Urteilsverkündung: So endet das Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Praxisraster Amtsgericht Zivil`](skills/v392-praxisraster-richter-amtsgericht-zivil/) | Für Praxisraster Amtsgericht Zivil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Praxisraster Landgericht Zivilkammer`](skills/v392-praxisraster-richter-landgericht-zivilkammer/) | Für Praxisraster Landgericht Zivilkammer: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/verbandsklage-vdug:verbandsklage-zulaessigkeit`](skills/verbandsklage-zulaessigkeit-borghei/) | Zulässigkeit der Verbandsklage nach dem VDuG – Klagearten § 1 Abs. 1 (Abhilfeklage und… |
 | [`Verbandsstrafe Anfechten: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastb`](skills/verbandsstrafe-anfechten/) | Für Verbandsstrafe Anfechten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verbatim Transcript`](skills/verbatim-transcript-video-hearing/) | Für Verbatim Transcript: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Verbrauchergerichtsstand: Klagen am eigenen Wohnsitz`](skills/verbrauchergerichtsstand-29c-zpo/) | Für Verbrauchergerichtsstand: Klagen am eigenen Wohnsitz: ordnet Norm, Beweislast und Gegenargument… |
@@ -700,6 +717,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Verfügung eines Nichtberechtigten — § 816 BGB`](skills/verfuegung-eines-nichtberechtigten-816-bgb/) | Für Verfügung eines Nichtberechtigten — Paragraf 816 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verwaltungsrechts-Vergleich nach § 106 VwGO und öffentlich-rechtlicher Vertrag nach § 55 VwVfG: Mandant will Streit mit `](skills/vergleich-106-vwgo-behoerde/) | Für Vergleich 106 VwGO Behörde: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Vergleich: Das Gericht schlaegt einen Vergleich vor — annehmen oder nicht?`](skills/vergleich-richtervorschlag-278-ii-zpo/) | Für Vergleich: das Gericht schlägt einen Vergleich vor — annehmen oder nicht?: entwickelt Ziel… |
+| [`/kostenrecht-rvg:verguetungsvereinbarung`](skills/verguetungsvereinbarung-borghei/) | Gestaltung und Prüfung anwaltlicher Vergütungsvereinbarungen – Form- und Belehrungserfordernisse § 3a… |
 | [`Verhalten im Gerichtssaal: Praktischer Leitfaden`](skills/verhalten-gerichtssaal-laienleitfaden/) | Für Verhalten im Gerichtssaal: Praktischer Leitfaden: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verjährung und Fristen prüfen`](skills/verjaehrung-fristen-pruefen/) | Für Verjährung und Fristen prüfen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Verjährung prüfen`](skills/verjaehrung-pruefen/) | Für Verjährung prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -707,6 +725,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Vermögensauskunft`](skills/vermoegensauskunft-gv/) | Für Vermögensauskunft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung`](skills/vermoegensauskunft-vollstreckungsbescheid/) | Für Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verpflichtungsklage: Behörden-, Gerichts- oder Registerweg`](skills/verpflichtungsklage-behoerden-gericht-und-registerweg/) | Für Verpflichtungsklage: Behörden-, Gerichts- oder Registerweg: erstellt Entwurf mit Antrag, Beweis und… |
+| [`/prozessrecht:versaeumnisurteil`](skills/versaeumnisurteil-borghei/) | Versäumnisurteil und Einspruch im Zivilprozess nach §§ 330 ff. ZPO. VU gegen Kläger (§ 330 ZPO) und… |
 | [`Versandfreigabe und Eingang sichern`](skills/versandfreigabe-und-eingang-sichern/) | Führt die letzte technische und organisatorische Freigabe der Versandmappe durch: öffnet jede Enddatei… |
 | [`Versandmappe endfertigen`](skills/versandmappe-endfertigen/) | Macht einen fertigen Schriftsatz mit gemischten Anlagen technisch versandbereit: PDF-Konvertierung… |
 | [`Verwaltungsakt § 35 VwVfG`](skills/verwaltungsakt-paragraf-35-vwvfg/) | Für Verwaltungsakt Paragraf 35 VwVfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -724,6 +743,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Vollrelation Langfassung - Schulstandard für Prüfung`](skills/vollrelation-langfassung-vorlaeufige/) | Für Vollrelation Langfassung - Schulstandard für Prüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Zwangsvollstreckung – Überblick und Praxis`](skills/vollstreckung/) | Für Zwangsvollstreckung – Überblick und Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vollstreckung: Behörden-, Gerichts- oder Registerweg`](skills/vollstreckung-stpo-biometrischer/) | Für Vollstreckung: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
+| [`/prozessrecht:vollstreckungsabwehrklage`](skills/vollstreckungsabwehrklage-borghei/) | Rechtsbehelfe des Schuldners und Dritter gegen die Zwangsvollstreckung nach §§ 767, 771 ZPO. Materielle… |
 | [`Vollstreckungsbescheid: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/vollstreckungsbescheid-dokumentenmatrix-und-lueckenliste/) | Für Vollstreckungsbescheid: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und… |
 | [`Vollstreckungsbescheid und Folgen`](skills/vollstreckungsbescheid-folgen/) | Für Vollstreckungsbescheid und Folgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vollstreckungsbescheid`](skills/vollstreckungsbescheid-und-folgen/) | Für Vollstreckungsbescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -731,6 +751,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Vollstreckungsklausel: Damit das Urteil vollstreckbar wird`](skills/vollstreckungsklausel-724-zpo/) | Für Vollstreckungsklausel: Damit das Urteil vollstreckbar wird: ordnet Norm, Beweislast und… |
 | [`Vollstreckungsschutz § 765a ZPO — Härtefall`](skills/vollstreckungsschutz-haertefall-765a/) | Für Vollstreckungsschutz Paragraf 765a ZPO — Härtefall: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vollstreckungstitel: Sonderfall und Edge-Case-Prüfung`](skills/vollstreckungstitel-sonderfall-und-edge-case/) | Für Vollstreckungstitel: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
+| [`/zwangsvollstreckung:vollstreckungsvoraussetzungen`](skills/vollstreckungsvoraussetzungen-borghei/) | Die allgemeinen Voraussetzungen jeder Zwangsvollstreckung – Titel §§ 704, 794 ZPO, Vollstreckungsklausel… |
 | [`Sollten Sie wirklich klagen? Ein ehrlicher Selbstcheck`](skills/vorabklaerung-erfolgsaussichten-selbstcheck/) | Für Sollten Sie wirklich klagen? Ein ehrlicher Selbstcheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vorläufige Vollstreckbarkeit`](skills/vorlaeufige-vollstreckbarkeit/) | Für Vorläufige Vollstreckbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vorlaeufiger: Mandantenkommunikation und Entscheidungsvorlage`](skills/vorlaeufiger-mandantenkommunikation-entscheidungsvorlage/) | Für Vorläufiger: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
@@ -777,6 +798,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Dokumentenintake`](skills/zwangsvollstreckung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/zwangsvollstreckung-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Zwangsvollstreckung: Erstprüfung, Rollenklärung und Mandatsziel`](skills/zwangsvollstreckung-erstpruefung-und-mandatsziel/) | Für Zwangsvollstreckung: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
+| [`/prozessrecht:zwangsvollstreckung-grundlagen`](skills/zwangsvollstreckung-grundlagen-borghei/) | Prüfung der Zwangsvollstreckung im Zivilrecht – die drei Vollstreckungsvoraussetzungen Titel, Klausel… |
 | [`Juristischer Argumentationskern - Zwangsvollstreckung`](skills/zwangsvollstreckung-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Zwangsvollstreckung ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Zwangsvollstreckung – Kommandocenter`](skills/zwangsvollstreckung-kommandocenter/) | Für Zwangsvollstreckung – Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Output wählen`](skills/zwangsvollstreckung-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

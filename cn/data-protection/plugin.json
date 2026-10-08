@@ -9,6 +9,13 @@
   "practice": "data-protection",
   "language": "en",
   "skills": [
-    "skills/china-pipl"
+    "skills/china-pipl",
+    "skills/cold-start-interview-privacy-legal-zhou210712",
+    "skills/dsar-response-zhou210712",
+    "skills/matter-workspace-privacy-legal-zhou210712",
+    "skills/pia-generation-zhou210712",
+    "skills/policy-monitor-privacy-legal-zhou210712",
+    "skills/reg-gap-analysis-privacy-legal-zhou210712",
+    "skills/use-case-triage-privacy-legal-zhou210712"
   ]
 }

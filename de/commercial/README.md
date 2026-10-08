@@ -4,7 +4,7 @@ Commercial and trade transactions between businesses — sale of goods, distribu
 
 Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 
-## Skills (235)
+## Skills (238)
 
 | Skill | What it does |
 |---|---|
@@ -99,6 +99,7 @@ Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 | [`Franchise: Ghost Kitchens und Lieferplattform-Franchise`](skills/ghost-kitchens-und-lieferplattform-franchise/) | Für Franchise: Ghost Kitchens und Lieferplattform-Franchise: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Handelsrecht Hgb`](skills/handelsrecht-hgb-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Handelsrecht Hgb ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`HGB Kommandocenter`](skills/handelsrecht-hgb-kaltstart-triage/) | Für HGB Kommandocenter: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`/handelsrecht:handelsregister-eintragungspflicht`](skills/handelsregister-eintragungspflicht-borghei/) | Prüfung der Kaufmannseigenschaft nach §§ 1–6 HGB, daraus folgender Eintragungspflicht im Handelsregister… |
 | [`Handelsregister- und Gewerbeanmeldung des Handelsvertreters nach HGB und GewO`](skills/handelsregister-gewerbe-handelsvertreter-gmbh/) | Für Handelsregister- und Gewerbeanmeldung des Handelsvertreters nach HGB und GewO: ordnet Norm… |
 | [`Handelsregister Und Gewerbe`](skills/handelsregister-und-gewerbe/) | Für Handelsregister und Gewerbe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`Handelsvertreter-GmbH — Rechtsformwahl und Ausgleichsanspruch nach § 89b HGB`](skills/handelsvertreter-gmbh/) | Für Handelsvertreter-GmbH — Rechtsformwahl und Ausgleichsanspruch nach Paragraf 89b HGB: ordnet Norm… |
@@ -109,8 +110,10 @@ Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 | [`Handelsvertretermandat bearbeiten`](skills/handelsvertreterrecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Red-Team Qualitätssicherung für Handelsvertreter-Rechtsdokumente`](skills/handelsvertreterrecht-redteam-qualitygate/) | Für Red-Team Qualitätssicherung für Handelsvertreter-Rechtsdokumente: prüft Ergebnis, Beweislast und… |
 | [`Side Letter und Nebenabreden im Handelsvertretervertrag — Wirksamkeit und Risiken`](skills/handelsvertreterrecht-side-letter/) | Für Side Letter und Nebenabreden im Handelsvertretervertrag — Wirksamkeit und Risiken: ordnet Norm… |
+| [`/handelsrecht:handelsvertretervertrag`](skills/handelsvertretervertrag-borghei/) | Entwurf und Prüfung eines Handelsvertretervertrags nach §§ 84 ff. HGB inkl. Abgrenzung zu… |
 | [`Handelsvertretervertrag — Entwurf und Verhandlung nach §§ 84 bis 92c HGB`](skills/handelsvertretervertrag-entwurf/) | Für Handelsvertretervertrag — Entwurf und Verhandlung nach Paragrafen 84 bis 92c HGB: ordnet Norm… |
 | [`Franchise: Health- und Pflege-Franchise mit HWG-Risiko`](skills/health-insolvenz-irrefuehrende/) | Für Franchise: Health- und Pflege-Franchise mit HWG-Risiko: ordnet Norm, Beweislast und Gegenargument… |
+| [`/handelsrecht:hgb-handelsgeschaeft-besonderheiten`](skills/hgb-handelsgeschaeft-besonderheiten-borghei/) | Praxischeck der Besonderheiten des Vierten Buches HGB im Vergleich zum BGB-Schuldrecht – Handelsbrauch §… |
 | [`Franchiserecht: Hotel-Franchise und Managementvertrag – Abgrenzung`](skills/hotel-franchise-tankstellen/) | Für Franchiserecht: Hotel-Franchise und Managementvertrag – Abgrenzung: ordnet Norm, Beweislast und… |
 | [`Franchiserecht: Influencer-Werbung im Franchisesystem`](skills/influencer-werbung-im-franchisesystem/) | Für Franchiserecht: Influencer-Werbung im Franchisesystem: ordnet Norm, Beweislast und Gegenargument… |
 | [`Franchise: Insolvenz eines Franchisenehmers im Filialnetz`](skills/insolvenz-eines-franchisenehmers-im-filialnetz/) | Für Franchise: Insolvenz eines Franchisenehmers im Filialnetz: ordnet Norm, Beweislast und… |

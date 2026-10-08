@@ -4,7 +4,7 @@ German public procurement (Vergaberecht) — bidder eligibility, Rüge before aw
 
 Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (120)
+## Skills (123)
 
 | Skill | What it does |
 |---|---|
@@ -14,6 +14,7 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Auftrag und Sektorenbezug klären`](skills/auftrag-und-sektorenbezug-klaeren/) | Erstellt den Beschaffungs- und Verfahrensvermerk für eine Sektorenvergabe. Prüft Auftraggeber… |
 | [`Auftragswert, Lose, Optionen, Verlaengerungen, Rahmenvereinbarungen und Umgehungsrisiken berechnen und dokumentieren.`](skills/auftragswert-losbildung-rechner/) | Für Auftragswert Losbildung Rechner: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Ausschluss Bieter § 124 GWB`](skills/ausschluss-bieter-paragraf-124-gwb/) | Für Ausschluss Bieter Paragraf 124 GWB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/vergaberecht:ausschreibungspruefung`](skills/ausschreibungspruefung-borghei/) | Prüfung der Vergabeunterlagen einer EU-weiten Ausschreibung auf Vergaberechtskonformität… |
 | [`Bekanntmachung und Fristen vorbereiten`](skills/bekanntmachung-und-fristen-vorbereiten/) | Bereitet SektVO-Bekanntmachung, eForms-Daten und Fristenplan aus freigegebenen Vergabeunterlagen vor.… |
 | [`Bieterfragen, Antworten und Klarstellungen managen: Fristen, Gleichbehandlung, Transparenz, Änderung der Unterlagen, Fri`](skills/bieterfragen-antworten-management/) | Für Bieterfragen Antworten Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Bieterfragen, Rügen und Änderungen bearbeiten`](skills/bieterfragen-ruegen-und-aenderungen-bearbeiten/) | Bearbeitet Bieterfragen, anwaltliche Rügen und Änderungen laufender Sektorenvergaben. Erstellt Antwort… |
@@ -77,6 +78,7 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Nachpruefungsantrag als Powerdraft erstellen: Zulassung, Antragsbefugnis, Ruge, Fristen, Sachantraege, Akteneinsicht, Be`](skills/nachpruefungsantrag-powerdraft/) | Für Nachprüfungsantrag Powerdraft: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Nachprüfungsantrag bei der Vergabekammer nach §§ 160 ff`](skills/nachpruefungsantrag-vk/) | Für Nachprüfungsantrag bei der Vergabekammer nach Paragrafen 160 ff: erstellt Entwurf mit Antrag, Beweis… |
 | [`Nachpruefungsverfahren: Schriftsatz-, Brief- und Memo-Bausteine`](skills/nachpruefungsverfahren-textbausteine/) | Für Nachprüfungsverfahren: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis… |
+| [`/vergaberecht:nachpruefungsverfahren-vergabekammer`](skills/nachpruefungsverfahren-vergabekammer-borghei/) | Nachprüfungsverfahren vor der Vergabekammer §§ 155 ff. GWB – Antragsbefugnis § 160 Abs. 2 GWB… |
 | [`Vergabekammerverfahren operativ führen`](skills/nachpruefungsverfahren-vk/) | Für Vergabekammerverfahren operativ führen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Nebenabrede § 58 VgV`](skills/nebenabrede-paragraf-58-vgv/) | Für Nebenabrede Paragraf 58 VgV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Öffentlich Privat Partnerschaft`](skills/oeffentlich-privat-partnerschaft/) | Für Öffentlich Privat Partnerschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -104,6 +106,7 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Leitfaden Eignungspruefung § 122 GWB: Selbstreinigung, Referenzen, technische und wirtschaftliche Leistungsfaehigkeit`](skills/verg-eignungspruefung-leitfaden/) | Für Verg Eignungsprüfung Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Spezialfall Nachpruefungsverfahren §§ 155 ff`](skills/verg-nachpruefungsverfahren-spezial/) | Für Verg Nachprüfungsverfahren Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bauleiter Vergabeverfahren GWB / VgV: offen, beschraenkt, Verhandlungsverfahren, wettbewerblicher Dialog, Innovationspar`](skills/verg-vergabeverfahren-bauleiter/) | Für Verg Vergabeverfahren Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/vergaberecht:vergabe-eu-schwellenwert-pruefung`](skills/vergabe-eu-schwellenwert-pruefung-borghei/) | Schwellenwert- und Verfahrensprüfung im deutschen Vergaberecht – geschätzter Auftragswert nach § 3 VgV… |
 | [`Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetz`](skills/vergabe-nachpruefung-aussicht/) | Für Vergabe Nachprüfung Aussicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Vergabe-OS für Anfaenger und Profis: erkennt Rolle, Schwellenwert, Verfahrensstand, Fristen, Rechtsweg, Dokumentenlage u`](skills/vergabe-os-master-orchestrator/) | Für Vergabe Os Master Orchestrator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vergabeakte und Dokumentationsvermerk für Auftraggeber aufbauen: Beschaffungsbedarf, Markterkundung, Verfahrenswahl, Eig`](skills/vergabeakte-dokumentationsvermerk-builder/) | Für Vergabeakte Dokumentationsvermerk Builder: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |

@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `us` · Practice: `employment` · Skill language: en
 
-## Skills (76)
+## Skills (81)
 
 | Skill | What it does |
 |---|---|
@@ -32,6 +32,7 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`AI validity evidence (Concern 5)`](skills/ai-validity-evidence-openmatter-network/) | Use when determining what validity evidence an AI/ML selection tool needs and whether it has it… |
 | [`Answer to Harassment Complaint`](skills/answer-to-harassment-complaint/) | Drafts a defendant employer's Answer to a workplace harassment complaint. Responds… |
 | [`At-Will Employment Offer Letter`](skills/at-will-employment-offer-letter/) | Drafts a U.S. at-will employment offer letter with unambiguous at-will language, FLSA-compliant… |
+| [`Arizona Employment Law`](skills/az-employment-codearranger/) | Subject-matter bundle for Arizona employment matters — wrongful termination, workplace discrimination… |
 | [`Confidentiality and Invention Assignment Agreement (CIIA)`](skills/ciia-agreement/) | Drafts Confidentiality and Invention Assignment Agreements (CIIAs) for U.S. companies with… |
 | [`Cold start interview`](skills/cold-start-interview-5/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
 | [`Commission Plan Agreement`](skills/commission-plan-agreement/) | Drafts U.S. commission plan agreements establishing compensation terms for agents, salespeople, or… |
@@ -66,7 +67,10 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Labor Violation Summary`](skills/labor-violation-summary/) | Produces structured summaries of labor law violation investigations with categorized findings, evidence… |
 | [`Leave tracker`](skills/leave-tracker/) | Check open leaves for deadline alerts and required decisions. Surfaces only the leaves that require an… |
 | [`Employment And Subcontractor Counsel`](skills/legal-employment-everyone-needs-a-copilot/) | Employment and Subcontractor Counsel for ENAC. Use for employee or contractor onboarding, subcontractor… |
+| [`Michigan Employment Law`](skills/mi-employment-codearranger/) | Subject-matter bundle for Michigan employment matters: discrimination, harassment, retaliation… |
 | [`Non-Compete Agreement`](skills/non-compete-agreement/) | Drafts enforceable non-compete, non-solicitation, and confidentiality agreements tailored to U.S. state… |
+| [`New York Employment Law`](skills/ny-employment-codearranger/) | Use when drafting or filing a New York employment action — workplace discrimination, harassment… |
+| [`Ohio Employment Law — Substantive Framework`](skills/oh-employment-codearranger/) | Use for Ohio employment-law matters — discrimination, wrongful termination, wage/hour, whistleblower… |
 | [`Operations Manual Acknowledgement`](skills/ops-manual-acknowledgement/) | Drafts an enforceable Operations Manual Acknowledgement form recording an employee's or franchisee's… |
 | [`Physician Employment Agreement`](skills/physician-employment-agreement/) | Drafts regulatory-compliant Physician Employment Agreements between healthcare employers and licensed… |
 | [`Proprietary Information and Inventions Agreement (PIIA)`](skills/piia/) | Drafts a Proprietary Information and Inventions Agreement (PIIA) for employment or consulting… |
@@ -76,6 +80,7 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Notice of Right to Sue Letter`](skills/right-to-sue-letter/) | Drafts EEOC Notice of Right to Sue letters that close the administrative process and authorize… |
 | [`Employee Separation and Release Agreement`](skills/separation-agreement/) | Drafts employer-side Employee Separation and Release Agreements with severance terms, general releases… |
 | [`Confidentiality and Severance Agreement`](skills/severance-agreement/) | Drafts a U.S. Confidentiality and Severance Agreement for employment separations with… |
+| [`Tennessee Employment Law`](skills/tn-employment-codearranger/) | Subject-matter bundle for Tennessee employment matters — discrimination, harassment, retaliation… |
 | [`US Employment-Law Applicability Checker`](skills/us-employment-law-applicability-checker-rohasnagpal/) | Determines which US federal, State and local employment regimes may apply to a worker, employer and… |
 | [`Us Sox Doddfrank Abgrenzung`](skills/us-sox-doddfrank-abgrenzung/) | Für Us Sox Doddfrank Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wage hour qa`](skills/wage-hour-qa/) | Jurisdiction-aware wage/hour and employment Q&A — classification, overtime, meal/rest breaks, leave… |

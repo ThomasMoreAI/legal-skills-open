@@ -4,7 +4,7 @@ White-collar and investigations — Geldwäscheprävention (GwG/AML, KYC, Verdac
 
 Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (128)
+## Skills (132)
 
 | Skill | What it does |
 |---|---|
@@ -53,6 +53,7 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`Honeypot-Risiko in Internal Investigations`](skills/honeypot-legal/) | Für Honeypot-Risiko in Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`HR Misconduct und Arbeitsrechtliche Maßnahmen`](skills/hr-misconduct/) | Für HR Misconduct und Arbeitsrechtliche Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versicherungsmeldung bei Internal Investigations`](skills/insurance-press/) | Für Versicherungsmeldung bei Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |
+| [`/wirtschafts-steuerstrafrecht:internal-investigation`](skills/internal-investigation-borghei/) | Durchführung einer unternehmensinternen Untersuchung (Internal Investigation) – Anlass und… |
 | [`Kaltstart Internal Investigation`](skills/internal-investigations-praxis-allgemein/) | Für Kaltstart Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Internal Investigations Praxis`](skills/internal-investigations-praxis-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Internal Investigations Praxis ein juristisches Arbeitsprodukt tragfähig… |
 | [`Interne Untersuchung auftragsbezogen bearbeiten`](skills/internal-investigations-praxis-kaltstart-triage/) | Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
@@ -129,10 +130,13 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`Sanktionstreffer – Sofortmaßnahmen und Behördenstrategie`](skills/sanctions-cartel/) | Für Sanktionstreffer – Sofortmaßnahmen und Behördenstrategie: ordnet Norm, Beweislast und Gegenargument… |
 | [`Settlement-Narrativ und Verfahrensabschluss`](skills/settlement-narrative/) | Für Settlement-Narrativ und Verfahrensabschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sexuelle Belästigung am Arbeitsplatz – Untersuchung und Maßnahmen`](skills/sexual-bribery/) | Für Sexuelle Belästigung am Arbeitsplatz – Untersuchung und Maßnahmen: ordnet Norm, Beweislast und… |
+| [`/wirtschafts-steuerstrafrecht:steuerhinterziehung-370-ao`](skills/steuerhinterziehung-370-ao-borghei/) | Prüfung der Steuerhinterziehung nach § 370 AO – Tathandlungen des Abs. 1 (unrichtige oder unvollständige… |
 | [`StPO-Beschlagnahme und Durchsuchung`](skills/stpo-beschlagnahme/) | Für StPO-Beschlagnahme und Durchsuchung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kündigungsstrategie nach Internal Investigations`](skills/termination-remediation/) | Für Kündigungsstrategie nach Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |
 | [`Third-Party-Due-Diligence und Agenten-Untersuchung`](skills/third-vendor/) | Für Third-Party-Due-Diligence und Agenten-Untersuchung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Trade-Secret-Leak und Geheimnisverrat`](skills/trade-conflict/) | Für Trade-Secret-Leak und Geheimnisverrat: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/wirtschafts-steuerstrafrecht:unternehmenssanktion-130-owig`](skills/unternehmenssanktion-130-owig-borghei/) | Sanktionierung von Unternehmen nach dem OWiG – Aufsichtspflichtverletzung § 130 OWiG mit… |
+| [`/wirtschafts-steuerstrafrecht:untreue-betrug-wirtschaftsstrafrecht`](skills/untreue-betrug-wirtschaftsstrafrecht-borghei/) | Prüfung der zentralen Vermögensdelikte des Wirtschaftsstrafrechts – Untreue § 266 StGB mit Missbrauchs… |
 | [`Lieferanten-Kickback-Untersuchung`](skills/vendor-kickback/) | Für Lieferanten-Kickback-Untersuchung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Whistleblower-Schutz und -Management`](skills/whistleblower-forensic/) | Für Whistleblower-Schutz und -Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betriebsrats-Konflikte in Internal Investigations`](skills/works-disciplinary/) | Für Betriebsrats-Konflikte in Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |

@@ -7,7 +7,7 @@ Plugin `cross-jurisdiction-general`. Skills live under `skills/<slug>/SKILL.md`.
 - [`multi-jurisdictional-research-zacharie-laik`](skills/multi-jurisdictional-research-zacharie-laik/) —
   multi-jurisdiction legal-research workflow.
 
-## Skills (33)
+## Skills (34)
 
 | Skill | What it does |
 |---|---|
@@ -40,6 +40,7 @@ Plugin `cross-jurisdiction-general`. Skills live under `skills/<slug>/SKILL.md`.
 | [`Client Intake Form`](skills/prompt-pack-client-intake-form-sboghossian/) | Use when a law firm or in-house legal department needs to create or customise a client intake form for… |
 | [`Legal Translator — Arabic ↔ English (Public Tool)`](skills/public-tool-legal-translator-ar-en-public-sboghossian/) | Use when a user needs to translate legal text between Arabic and English with legal-fidelity… |
 | [`Reference — Verification Checklist`](skills/ref-verification-sboghossian/) | Use as a mandatory quality-control checklist before any AI-generated legal output is sent to a client… |
+| [`Jurisdiction Comparison`](skills/research-jurisdiction-comparison-sboghossian/) | Use when a user needs to compare how a specific legal issue is handled across multiple jurisdictions… |
 | [`Thomson Reuters Westlaw`](skills/tool-thomson-reuters-westlaw-sboghossian/) | Use when a user needs premium legal research across US, UK, Australian, or Canadian jurisdictions… |
 | [`Web Search Source Allowlist`](skills/tool-web-search-source-allowlist-sboghossian/) | Use when configuring or consulting the per-tenant list of trusted web sources that the web search… |
 | [`Lawyer Career Growth`](skills/wiki-career-growth-sboghossian/) | Use when a user asks about lawyer career progression — tracks from associate to partner, the in-house… |

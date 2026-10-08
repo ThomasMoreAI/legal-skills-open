@@ -10,9 +10,22 @@
   "language": "zh",
   "skills": [
     "skills/ad-compliance-review",
+    "skills/ai-inventory-zhou210712",
+    "skills/aia-generation-zhou210712",
     "skills/asset-review",
+    "skills/cold-start-interview-ai-governance-legal-zhou210712",
     "skills/compliance-review-jack4world",
     "skills/food-label-review",
-    "skills/legal-compliance-search"
+    "skills/gap-surfacer-zhou210712",
+    "skills/legal-compliance-search",
+    "skills/matter-workspace-regulatory-legal-zhou210712",
+    "skills/policy-diff-zhou210712",
+    "skills/policy-monitor-ai-governance-legal-zhou210712",
+    "skills/policy-redraft-zhou210712",
+    "skills/policy-starter-zhou210712",
+    "skills/reg-feed-watcher-zhou210712",
+    "skills/reg-gap-analysis-ai-governance-legal-zhou210712",
+    "skills/use-case-triage-ai-governance-legal-zhou210712",
+    "skills/vendor-ai-review-zhou210712"
   ]
 }

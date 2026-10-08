@@ -4,10 +4,11 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `sa` · Practice: `real-estate` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Knowledge Pack — KSA Real Estate Law`](skills/kb-real-estate-ksa-sboghossian/) | Use when a matter involves real estate ownership, leasing, transactions, off-plan purchases, REIT… |
 | [`Rega check`](skills/rega-check/) | Verify a listing form, deal, or property route satisfies Saudi REGA compliance — FAL license, ad… |
 
 ## Cold-start context

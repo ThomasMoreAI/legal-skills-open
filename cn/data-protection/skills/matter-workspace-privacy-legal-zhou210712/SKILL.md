@@ -1,0 +1,190 @@
+---
+name: matter-workspace-privacy-legal-zhou210712
+title: /matter-workspace
+description: 管理事项工作区——新建、列出、切换、关闭或脱离（实践级）。使一个客户或委托的上下文 与其他所有客户或委托分开，适用于多客户执业者。当用户想打开新事项、切换事项、列出事项、 关闭/归档事项或仅在实践级工作时使用。
+author: zhou210712
+author_url: https://github.com/zhou210712/claude-for-legal-zh/tree/main/privacy-legal/skills/matter-workspace
+license: Apache-2.0
+version: 0.1.1
+execution_mode: open
+jurisdiction: cn
+practice: data-protection
+language: zh
+---
+
+# /matter-workspace
+
+执业者跨多个客户和委托工作。事项工作区使一个客户或委托的上下文与其他所有分开。本技能管理这些工作区。
+
+## 子命令
+
+- `/privacy-legal:matter-workspace new <代号>` — 创建新事项工作区，运行简短录入，写入 `matter.md`
+- `/privacy-legal:matter-workspace list` — 列出事项并显示状态和活动标记
+- `/privacy-legal:matter-workspace switch <代号>` — 设置活动事项
+- `/privacy-legal:matter-workspace close <代号>` — 归档事项（移至 `~/.claude/plugins/config/claude-for-legal/privacy-legal/matters/_archived/`，绝不删除）
+- `/privacy-legal:matter-workspace none` — 脱离任何活动事项，仅以实践级工作
+
+## 指令
+
+1. 读取 `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md` — 确认 `## 事项工作区` 节已填充。如果 `已启用` 为 `✗`，告诉用户："事项工作区关闭——你被配置为法务实践，单一客户，因此插件自动使用实践级上下文。如果你实际跨多个客户工作，重新运行 `/privacy-legal:cold-start-interview --redo` 并选择非单一客户设置。否则，你完全不需要 `/matter-workspace`。"不要报错——关闭状态是法务用户的预期状态。
+2. 使用以下子命令逻辑。
+3. 根据 `$ARGUMENTS` 的第一个 token 分发：
+   - `new` → 运行录入访谈，写入 `~/.claude/plugins/config/claude-for-legal/privacy-legal/matters/<代号>/matter.md`，种子化 `history.md` 和 `notes.md`。
+   - `list` → 枚举 `~/.claude/plugins/config/claude-for-legal/privacy-legal/matters/*/matter.md`，打印表格，标记活动事项。
+   - `switch` → 更新实践级 CLAUDE.md 中的 `活动事项：` 行。
+   - `close` → 移动 `~/.claude/plugins/config/claude-for-legal/privacy-legal/matters/<代号>/` 至 `~/.claude/plugins/config/claude-for-legal/privacy-legal/matters/_archived/<代号>/`，在 `history.md` 中记录关闭日期。
+   - `none` → 将 `活动事项：` 设为 `无 — 仅实践级上下文`。
+4. 展示变更内容并在写入前请用户确认。
+
+## 备注
+
+- 除非实践级 CLAUDE.md 中 `跨事项上下文` 为 `开启`，否则技能绝不跨事项读取。
+- 归档非删除——已关闭的事项仍可被读取，供保留记录/利益冲突检查目的。
+- 代号为小写字母加连字符。如果代号在已归档和活动事项之间重复使用，已归档的以 `_archived/<代号>/` 保存。
+
+---
+
+# 事项工作区
+
+跨客户执业者（非单一客户——独立执业、小所、大所）跨多个委托工作。一个委托的上下文不得泄露到另一个中。本技能是实现这一点的薄文件管理层。
+
+**默认状态是关闭。** 法务用户永远看不到这个——他们仅以实践级运行。事项工作区在冷启动时对非单一客户用户启用，或通过编辑实践级 CLAUDE.md 中的 `## 事项工作区` 启用。如果 `已启用` 为 `✗`，本技能不运行；上述工作流解释了关闭状态，并建议确实需要事项隔离的用户运行 `/privacy-legal:cold-start-interview --redo`。
+
+## 存储布局
+
+所有事项数据存放于：
+
+```
+~/.claude/plugins/config/claude-for-legal/privacy-legal/
+├── CLAUDE.md                       # 实践级实践档案
+└── matters/
+    ├── <代号>/
+    │   ├── matter.md               # 客户、对方当事人、事项类型、关键事实、覆盖项
+    │   ├── history.md              # 事件、决定、草稿、审查的日期日志
+    │   ├── notes.md                # 自由格式工作笔记
+    │   └── outputs/                # 本事项的技能输出（可选子文件夹）
+    └── _archived/
+        └── <代号>/                 # 已关闭事项 — 可读但非活动
+```
+
+代号为小写字母加连字符。示例：`acme-msa-2026`、`zenith-renewal`、`vendor-xyz-nda`。
+
+## 活动事项在实践 CLAUDE.md 中
+
+实践级 CLAUDE.md 中 `## 事项工作区` 下的 `活动事项：` 行是唯一真相来源。切换事项编辑该行。无单独状态文件。
+
+## 子命令逻辑
+
+### `new <代号>`
+
+1. 确认代号在 `matters/<代号>/` 或 `matters/_archived/<代号>/` 中尚不存在。如已被使用，请用户选择不同代号。
+2. 运行录入访谈：
+   - **客户**（我们代表的当事人，或如为法务则为内部业务部门）
+   - **对方当事人**（另一方——可能多个）
+   - **事项类型**（读取插件的实践档案获取典型类别；隐私领域：PIA（处理活动）| DPA 审查 | 个人信息主体权利请求 | 监管调查 | 数据出境机制审查 | 安全事件 | 其他）
+   - **保密级别**（标准 | 增高 | 隔离团队 — 增高在跨事项环境下提示额外谨慎）
+   - **关键事实**（2-5句：本事项是关于什么的，谁是利益相关方，什么是利害攸关的）
+   - **本事项对实践操作手册的特定覆盖项**（如"客户要求24个月责任上限而非标准的12个月""对方当事人是战略合作伙伴——保持关系维护语气""管辖法律：必须是中国法律而非通用法"）
+   - **关联事项**（任何关联事项的代号）
+3. 使用以下模板写入 `matters/<代号>/matter.md`。
+4. 种子化 `matters/<代号>/history.md` 为单条"已开启"记录。
+5. 创建空 `matters/<代号>/notes.md`。
+6. **不**自动切换至新事项。询问："是否要现在切换到 `<代号>`？（`/privacy-legal:matter-workspace switch <代号>`）"
+
+### `list`
+
+枚举 `matters/*/matter.md`。读取每个文件的前几行以提取状态。打印表格：
+
+| 代号 | 客户 | 事项类型 | 状态 | 开启日期 | 活动 |
+|---|---|---|---|---|---|
+
+用 `*` 标记当前活动事项。如有任何归档事项，在单独的"已归档"标题下包含 `_archived/*`。
+
+### `switch <代号>`
+
+1. 确认 `matters/<代号>/matter.md` 存在。如果不存在，提供 `/privacy-legal:matter-workspace new <代号>`。
+2. 编辑实践级 CLAUDE.md 中的 `活动事项：` 行为 `活动事项：<代号>`。
+3. 向用户展示 matter.md 摘要，以便用户确认在正确的事项上。
+
+### `close <代号>`
+
+1. 确认 `matters/<代号>/` 存在。
+2. 向 `matters/<代号>/history.md` 追加一条带今天日期的"已关闭"记录。
+3. 移动 `matters/<代号>/` → `matters/_archived/<代号>/`。
+4. 如果已关闭的事项是活动事项，将 `活动事项：` 设为 `无 — 仅实践级上下文`。
+
+### `none`
+
+将实践级 CLAUDE.md 中的 `活动事项：` 设为 `无 — 仅实践级上下文`。与用户确认。
+
+## `matter.md` 模板
+
+```markdown
+[工作成果抬头 — 按插件配置 ## 输出 — 因角色不同而异；见实践级 CLAUDE.md 中的 `## 谁在使用`]
+
+# 事项：[客户] — [简短描述]
+
+**代号：** [代号]
+**开启日期：** [YYYY-MM-DD]
+**状态：** 活动
+**保密级别：** [标准 / 增高 / 隔离团队]
+
+---
+
+## 当事人
+
+**客户：** [名称]
+**对方当事人：** [名称]
+
+## 事项类型
+
+[供应商主协议 | 客户协议 | 保密协议 | SaaS订阅 | 修订 | 续约 | 其他 — 附一行理由]
+
+## 关键事实
+
+[2-5句。本事项是关于什么的。谁是利益相关方。什么是利害攸关的。什么使它区别于默认操作手册。]
+
+## 事项特定覆盖项
+
+*任何偏离实践级操作手册且仅适用于本事项的内容。*
+
+- [如："责任上限：客户要求24个月，非内部标准12个月。"]
+- [如："语气：保持关系维护——对方当事人是战略合作伙伴。"]
+- [如："管辖法律：必须是中国法律，非其他。"]
+
+## 关联事项
+
+- [代号 — 一行说明为何关联]
+
+## 保密说明
+
+[如为增高或隔离团队，说明原因。谁可以访问事项文件。即使全局为开启，是否允许跨事项上下文。]
+```
+
+## `history.md` 种子
+
+```markdown
+# 历史：[客户] — [简短描述]
+
+仅追加的事件日志。最新在最上。
+
+---
+
+## [YYYY-MM-DD] — 事项开启
+
+录入完成。代号：`[代号]`。状态：活动。
+[任何超出 matter.md 值得保留的初始上下文——如"因应[对方当事人]发来的主协议草案而开启。" ]
+```
+
+## 跨事项上下文
+
+实践级 CLAUDE.md 有一个 `跨事项上下文：` 标记。当它为 `关闭` 时（默认），在事项 A 中工作的技能**绝不**读取 `matters/B/` 中任何其他 `B` 的文件。绝对不。这是该设置存在旨在提供的保密保证。
+
+当它为 `开启` 时，技能可以跨事项文件夹读取文件，但仅在用户明确要求时（如"比较我们在过去五个供应商事项中的责任上限立场"）。即使为 `开启`，默认也是仅加载活动事项，除非用户要求跨事项视图。
+
+## 本技能不做的事
+
+- **运行利益冲突检查。** 冲突是执业者/律所的工作；录入捕获用户声明的内容。
+- **强制保留。** 关闭归档事项；不删除。保留政策不在范围内。
+- **自动路由输出。** 实体技能决定写到哪里；本技能告诉它*哪个文件夹*是活动的，不放什么进去。
+- **决定跨事项是否合适。** 它读取标记并遵守。

@@ -1,0 +1,72 @@
+{
+  "author": "skills-il",
+  "version": "1.0.1",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "זכויות-צרכן",
+      "ביטול-עסקה",
+      "חוק-הטכנאים",
+      "מכתב-דרישה",
+      "אחריות-מוצר",
+      "ישראל"
+    ],
+    "en": [
+      "consumer-rights",
+      "cancel-transaction",
+      "technician-law",
+      "demand-letter",
+      "warranty",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מכתבי דרישה לצרכנים",
+    "en": "Israeli Consumer Claim Kit"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מנסח מכתבי דרישה, הודעות ביטול עסקה ותלונות צרכניות, שאתם חותמים עליהם ושולחים בעצמכם. מתאים כשטכנאי, משלוח או בודק גז איחרו בכמה שעות או לא הגיעו (חוק הטכנאים), כשרוצים לבטל עסקה שנעשתה באינטרנט, בטלפון, ברוכלות, באירוע מכירה או בחנות, או לבטל מנוי, כולל ארבעה חודשים לאזרחים ותיקים, עולים חדשים ואנשים עם מוגבלות, כשמעבדה לא מתקנת מוצר באחריות, או כשמתלוננים לרשות להגנת הצרכן או למועצה לצרכנות. הסקיל מחשב קודם את הסכום והמועד שבחוק (300 או 600 ש\"ח, המועד האחרון לביטול, תקרת דמי הביטול), כי במדריכים הנפוצים יש בזה הרבה טעויות. לא מתאים להגשת התביעה עצמה (לזה יש את israeli-small-claims-court), לחובות של בעל העסק (israeli-ecommerce-compliance), לפיצוי על טיסות (israeli-flight-compensation) או לעמלות בנק ואשראי (israeli-consumer-fee-fighter).",
+    "en": "Not legal advice. Drafts Israeli consumer demand letters, cancellation notices and complaints that the user signs and sends. Use when a technician, delivery or gas inspection was hours late or never came (chok hatechnaim), when cancelling a purchase made online, by phone, at the door, at a sales event or in a shop, or a subscription (bitul iska), including the 4-month right for seniors, olim and people with disabilities, when a warranty repair is refused or overdue, or when complaining to the Consumer Protection Authority or the Consumer Council. It works out the statutory figure first (300 or 600 NIS, the cancellation deadline, the fee cap) because guides often get these wrong. Do NOT use for filing the court claim itself (use israeli-small-claims-court), for seller-side compliance (use israeli-ecommerce-compliance), for flight compensation (use israeli-flight-compensation), or for bank and card fees (use israeli-consumer-fee-fighter)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

@@ -4,7 +4,7 @@ Real property: conveyancing, leasing, title, financing, and land use.
 
 Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 
-## Skills (87)
+## Skills (92)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Adverse Possession Claim`](skills/adverse-possession-claim/) | Drafts adverse possession complaints and quiet title pleadings. Structures jurisdictional foundations… |
 | [`ALTA Settlement Statement`](skills/alta-settlement-statement/) | Drafts a mathematically balanced ALTA Settlement Statement for U.S. real estate closings, allocating… |
 | [`Assignment and Assumption of Leases`](skills/assignment-and-assumption-of-leases/) | Drafts an Assignment and Assumption of Leases transferring tenant leases from seller (Assignor) to buyer… |
+| [`Arizona Landlord-Tenant`](skills/az-landlord-tenant-codearranger/) | Subject-matter bundle for Arizona residential landlord-tenant disputes — evictions ("special detainer"… |
 | [`Personal Property Bill of Sale (CRE)`](skills/bill-of-sale-personal-property/) | Drafts a U.S. CRE personal property Bill of Sale transferring equipment, fixtures, FF&E, inventory, and… |
 | [`Boundary Dispute Complaint`](skills/boundary-dispute-complaint/) | Drafts a U.S. state-court complaint to establish the true boundary line between adjoining properties… |
 | [`Complaint for Breach of Purchase Agreement`](skills/breach-purchase-complaint/) | Drafts a state-court complaint for breach of a real property purchase agreement. Triggers when the user… |
@@ -53,10 +54,12 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Lease Termination Agreement`](skills/lease-termination-agreement/) | Drafts a mutual early lease termination agreement for U.S. commercial and residential properties. Covers… |
 | [`Lis Pendens (Notice of Pending Action)`](skills/lis-pendens/) | Drafts a U.S. Lis Pendens (Notice of Pending Action) for recording against real property. Covers intake… |
 | [`Irrevocable Standby Letter of Credit — Security Deposit`](skills/loc-security-deposit/) | Drafts irrevocable standby letters of credit serving as security deposits in commercial lease… |
+| [`Michigan Landlord-Tenant`](skills/mi-landlord-tenant-codearranger/) | Subject-matter bundle for Michigan landlord-tenant disputes: residential evictions, notice requirements… |
 | [`Mortgage / Deed of Trust`](skills/mortgage-deed-of-trust/) | Drafts recording-ready residential Mortgages or Deeds of Trust with jurisdiction-appropriate instrument… |
 | [`Negotiate Lease`](skills/negotiate-lease-jeffreytse/) | Use when reviewing or negotiating a residential or commercial lease before signing — identifying risky… |
 | [`Notice to Perform`](skills/notice-to-perform/) | Drafts a U.S. residential real estate Notice to Perform (cure notice) identifying contractual defaults… |
 | [`Notice to Perform — Residential Real Estate`](skills/notice-to-perform-real-estate/) | Drafts jurisdiction-aware residential real-estate notices to perform (cure demands) for lease, purchase… |
+| [`New York Landlord-Tenant Practice`](skills/ny-landlord-tenant-codearranger/) | Subject-matter bundle for New York landlord-tenant defense and prosecution — particularly residential… |
 | [`Oil and Gas Lease`](skills/oil-gas-lease/) | Drafts enforceable U.S. Oil and Gas Leases conveying subsurface mineral rights from lessor to lessee… |
 | [`Option to Purchase Real Estate`](skills/option-to-purchase/) | Drafts Option to Purchase Real Estate agreements granting an optionee the exclusive right to buy… |
 | [`Parking License Agreement`](skills/parking-license-agreement/) | Drafts a revocable Parking License Agreement for commercial office tenancies that avoids creating a… |
@@ -90,11 +93,13 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Tenant Improvement Work Letter`](skills/ti-work-letter/) | Drafts a Tenant Improvement Work Letter exhibit for commercial leases. Trigger when the user needs a… |
 | [`Title Commitment and Policy`](skills/title-commitment/) | Drafts ALTA-compliant Title Commitment documents for commercial real estate transactions including… |
 | [`Title Researcher Agent`](skills/title-research/) | Title and due diligence agent. Verifies clear title and researches liens. |
+| [`Tennessee Landlord-Tenant`](skills/tn-landlord-tenant-codearranger/) | Subject-matter bundle for Tennessee residential landlord-tenant disputes. Covers URLTA (§ 66-28) for… |
 | [`Transfer Document Preparer`](skills/transfer-document-preparer/) | Prepare entity transfer documents, closing document packages, and assignment agreements for CRE… |
 | [`Triple Net Lease (NNN)`](skills/triple-net-lease/) | Drafts U.S. triple net (NNN) commercial lease agreements allocating taxes, insurance, and maintenance to… |
 | [`Commercial Triple Net Lease Agreement`](skills/triple-net-lease-agreement/) | Drafts U.S. commercial triple-net (NNN) lease agreements from deal materials. Triggers on term sheets… |
 | [`Texas Title Analysis Skill`](skills/tx-title-analysis/) | Texas title examination for residential and commercial real estate. Analyzes commitments, recorded… |
 | [`Urban Planning Law Summary`](skills/urban-planning-summary/) | Summarizes legal issues in urban development projects covering zoning, land use disputes, and… |
+| [`Washington Landlord-Tenant — Subject-Matter Bundle`](skills/wa-landlord-tenant-codearranger/) | Use when handling a Washington landlord-tenant matter — residential evictions, unlawful-detainer summary… |
 
 ## Cold-start context
 

@@ -1,0 +1,14 @@
+{
+  "name": "eu-sanctions",
+  "displayName": "Sanctions & Export Controls — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Sanctions & Export Controls skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "sanctions",
+  "language": "en",
+  "skills": [
+    "skills/tool-eu-sanctions-sboghossian"
+  ]
+}

@@ -4,7 +4,7 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 
-## Skills (875)
+## Skills (882)
 
 | Skill | What it does |
 |---|---|
@@ -46,6 +46,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Anti-Dilution Protection`](skills/anti-dilution-articles-association/) | Für Anti-Dilution Protection: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Arbeitsbereich: Mandantenkommunikation und Entscheidungsvorlage`](skills/arbeitsbereich-mandantenentscheidung/) | Für Arbeitsbereich: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Articles of Association und Satzung`](skills/articles-association-satzung/) | Für Articles of Association und Satzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/m-a-transaktionsrecht:asset-deal-betriebsuebergang`](skills/asset-deal-betriebsuebergang-borghei/) | Strukturierung des Asset Deals (Unternehmenskauf durch Einzelrechtsnachfolge) – sachenrechtlicher… |
 | [`Auction Bid Grid und Issues List`](skills/auction-bid-grid-issues-list/) | Für Auction Bid Grid und Issues List: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Auction Process Letter`](skills/auction-process/) | Für Auction Process Letter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Auction Process Letter Generator: erstellt und prüft Prozessbriefe für strukturierte Verkaufs- und Bieterverfahren mit D`](skills/auction-process-letter/) | Für Auction Process Letter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -208,6 +209,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Drag, Tag und Piggyback`](skills/drag-tag-piggyback/) | Für Drag, Tag und Piggyback: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Kommerzielle Vertrags-DD`](skills/due-diligence/) | Für Kommerzielle Vertrags-DD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Due-Diligence-Bericht mit Vertragsfolgen erstellen`](skills/due-diligence-bericht/) | Verdichtet belegte Due-Diligence-Befunde zum Red-Flag-Bericht, Legal Fact Book oder Management-Memo.… |
+| [`/m-a-transaktionsrecht:due-diligence`](skills/due-diligence-borghei/) | Steuerung der rechtlichen Due Diligence beim Unternehmenskauf – Aufbau der DD-Request List, Abgrenzung… |
 | [`Due Diligence — Commercial Contracts`](skills/due-diligence-commercial/) | Für Due Diligence — Commercial Contracts: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Commercial Contracts Due Diligence im M&A-Datenraum: Anwendungsfall Kaeufer-Anwalt prüft wesentliche Kundenvertraege, Li`](skills/due-diligence-commercial-contracts/) | Für Due Diligence Commercial Contracts: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Kommerzielle Vertrags-DD`](skills/due-diligence-commercial-contracts-2/) | Für Kommerzielle Vertrags-DD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -299,6 +301,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Fully Diluted, ESOP und Option Pool`](skills/fully-diluted-esop-option-pool/) | Für Fully Diluted, ESOP und Option Pool: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Funds Flow und Closing Payments`](skills/funds-flow-closing-payments/) | Für Funds Flow und Closing Payments: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Fusionskontrolle: Vollzugsverbot und Clean Team`](skills/fusionskontrolle-vollzugsverbot-clean-team/) | Prüft vor Signing und Closing, ob Vetorechte, Integrationsmaßnahmen oder Datenzugriffe einen… |
+| [`/m-a-transaktionsrecht:garantien-freistellungen`](skills/garantien-freistellungen-borghei/) | Aufbau und Verhandlung des Garantie- und Freistellungsregimes im Unternehmenskaufvertrag – selbständige… |
 | [`Gbr Mopeg Treuepflicht`](skills/gbr-mopeg-treuepflicht/) | Für Gbr Mopeg Treuepflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Genehmigtes Kapital (Paragraf 55a GmbHG)`](skills/genehmigtes-kapital/) | Für Genehmigtes Kapital (Paragraf 55a GmbHG): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Geschäftsführer-Haftung Paragraf 43 GmbHG prüfen`](skills/geschaeftsfuehrer-haftung-43-gmbhg/) | Für Geschäftsführer-Haftung Paragraf 43 GmbHG prüfen: ordnet Norm, Beweislast und Gegenargument… |
@@ -314,6 +317,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Gesellschaften: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/gesellschaften-tatbestand-beweis-und-belege/) | Für Gesellschaften: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Gesellschafterbeschluesse: Schriftsatz-, Brief- und Memo-Bausteine`](skills/gesellschafterbeschluesse-textbausteine/) | Für Gesellschafterbeschlüsse: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag… |
 | [`Gesellschafterbeschluss – GmbH und AG`](skills/gesellschafterbeschluss/) | Für Gesellschafterbeschluss – GmbH und AG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/gesellschaftsrecht:gesellschafterbeschluss-anfechtung`](skills/gesellschafterbeschluss-anfechtung-borghei/) | Prüfung der Anfechtung und Nichtigkeit von GmbH-Gesellschafterbeschlüssen – Beschlussfassung § 47 GmbHG… |
 | [`Gesellschafterbeschluss – Kapitalerhöhung gegen Sacheinlage`](skills/gesellschafterbeschluss-kapitalerhoehung/) | Für Gesellschafterbeschluss – Kapitalerhöhung gegen Sacheinlage: ordnet Norm, Beweislast und… |
 | [`Gesellschafterbeschluss vorbereiten (vor Unterzeichnung)`](skills/gesellschafterbeschluss-vorbereiten/) | Für Gesellschafterbeschluss vorbereiten (vor Unterzeichnung): ordnet Norm, Beweislast und Gegenargument… |
 | [`Gesellschafterdarlehen — qualifizierter Rangrücktritt`](skills/gesellschafterdarlehen-rangruecktritt/) | Für Gesellschafterdarlehen — qualifizierter Rangrücktritt: ordnet Norm, Beweislast und Gegenargument… |
@@ -395,6 +399,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Gesellschafterdarlehen und Cash-Flow GmbH: § 39 Abs`](skills/gmbh-cash-flow-und-darlehen-gesellschafter/) | Für Gesellschafterdarlehen und Cash-Flow GmbH: Paragraf 39 Abs: ordnet Norm, Beweislast und… |
 | [`Prüft bei der Einziehung eines GmbH-Anteils Abfindung, freies Vermögen und…`](skills/gmbh-einziehung-abfindung-finanzierbarkeit/) | Prüft bei der Einziehung eines GmbH-Anteils Abfindung, freies Vermögen und Zahlungsfähigkeit zu… |
 | [`GmbH: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/gmbh-fristen-form-und-zustaendigkeit/) | Für GmbH: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
+| [`/gesellschaftsrecht:gmbh-geschaeftsfuehrerhaftung`](skills/gmbh-geschaeftsfuehrerhaftung-borghei/) | Prüfung der zivilrechtlichen Geschäftsführerhaftung gegenüber der GmbH (§ 43 GmbHG), der Außenhaftung in… |
 | [`Fristen- und Risikoampel`](skills/gmbh-gesellschaftsgruender/) | Für Fristen- und Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Gmbh gf Haftung § 43 GmbHG`](skills/gmbh-gf-haftung-paragraf-43-gmbhg/) | Für GmbH gf Haftung Paragraf 43 GmbHG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`GmbH-Gründung – Von der Satzung bis zum Handelsregistereintrag`](skills/gmbh-gruendung/) | Für GmbH-Gründung – von der Satzung bis zum Handelsregistereintrag: ordnet Norm, Beweislast und… |
@@ -473,6 +478,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Kaltstart Corporate-Kanzlei`](skills/kaltstart-2/) | Für Kaltstart Corporate-Kanzlei: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Unternehmenskauf aus den vorhandenen Unterlagen bearbeiten`](skills/kaltstart-3/) | Für Deal-Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Ersteinrichtungs-Interview`](skills/kaltstart-interview/) | Für Ersteinrichtungs-Interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`/gesellschaftsrecht:kapitalerhaltung`](skills/kapitalerhaltung-borghei/) | Prüfung der GmbH-Kapitalerhaltung – Verbot der Auszahlung des zur Erhaltung des Stammkapitals… |
 | [`Kapitalerhaltung nach Paragraf 30 GmbHG prüfen`](skills/kapitalerhaltung-paragraf-30-gmbhg-pruefen/) | Prüft Auszahlungen und gleichwertige Vermögensverschiebungen an GmbH-Gesellschafter nach den… |
 | [`Kapitalerhaltung und verdeckte Ausschüttung`](skills/kapitalerhaltung-verdeckte-ausschuettung/) | Für Kapitalerhaltung und verdeckte Ausschüttung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kapitalerhöhung und Bezugsrecht`](skills/kapitalerhoehung-bezugsrecht/) | Für Kapitalerhöhung und Bezugsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -725,6 +731,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Stimmverpflichtung SHA <-> Satzung`](skills/sha-satzung-stimmverpflichtung/) | Für Stimmverpflichtung SHA gegenüber Satzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anteilsklassen A / B / C / Common`](skills/share-classes-a-b-c/) | Für Anteilsklassen A / B / C / Common: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Share Classes und Vorzugsrechte`](skills/share-classes-anfaenger/) | Für Share Classes und Vorzugsrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/m-a-transaktionsrecht:share-deal-spa`](skills/share-deal-spa-borghei/) | Gestaltung und Prüfung des Anteilskaufvertrags über GmbH-Geschäftsanteile (Share Deal / SPA) –… |
 | [`Shareholder Loans Subordination`](skills/shareholder-loan-02/) | Für Shareholder Loans Subordination: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Shareholder Loan und Debt Pushdown`](skills/shareholder-loan-debt-pushdown/) | Für Shareholder Loan und Debt Pushdown: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Shareholder Loans, Rangrücktritt und Gesellschafterfinanzierung im M&A: prüft Darlehen, Nachrang, Insolvenznahe, Debt Pu`](skills/shareholder-loans-subordination/) | Für Shareholder Loans Subordination: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

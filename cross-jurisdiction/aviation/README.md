@@ -4,11 +4,12 @@ Comparative and international aviation-law summaries — regulatory frameworks, 
 
 Jurisdiction: `cross-jurisdiction` · Practice: `aviation` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. and international… |
+| [`Knowledge Pack — Aviation Law in MENA`](skills/kb-aviation-mena-sboghossian/) | Use when advising on aviation law matters in MENA, including aircraft financing and leasing (Cape Town… |
 
 ## Cold-start context
 

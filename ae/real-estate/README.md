@@ -4,10 +4,11 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `ae` · Practice: `real-estate` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Knowledge Pack — UAE Real Estate Law`](skills/kb-real-estate-uae-sboghossian/) | Use when a matter involves real estate ownership, leasing, off-plan purchases, RERA regulation, Ejari or… |
 | [`Compliance & RERA Guardian Agent`](skills/real-estate-compliance-rera-guardian/) | Expert UAE real estate compliance agent ensuring all brokerage operations, outreach campaigns, property… |
 
 ## Cold-start context

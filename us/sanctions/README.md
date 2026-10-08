@@ -4,11 +4,12 @@ Sanctions and export controls — sanctions/embargo screening, export licensing,
 
 Jurisdiction: `us` · Practice: `sanctions` · Skill language varies per skill.
 
-## Skills (12)
+## Skills (14)
 
 | Skill | What it does |
 |---|---|
 | [`US-Exportkontrolle EAR und ITAR als Touchpoint im EU-Mandat`](skills/aussenwirtschaft-us-ear-itar/) | Für US-Exportkontrolle EAR und ITAR als Touchpoint im EU-Mandat: ordnet Norm, Beweislast und… |
+| [`Connector — OFAC Sanctions`](skills/connector-ofac-sanctions-sboghossian/) | Use when a legal or compliance workflow requires screening an individual, entity, vessel, or aircraft… |
 | [`Design Export Control Compliance Program`](skills/design-export-control-compliance-program-jeffreytse/) | Use when a company exports goods, software, or technology internationally and needs a compliance program… |
 | [`Design Sanctions Compliance Program`](skills/design-sanctions-compliance-program-jeffreytse/) | Use when a company doing business internationally needs a sanctions compliance program addressing OFAC… |
 | [`Export Administration Regulations (EAR) Compliance Skill`](skills/ear/) | Export Administration Regulations (EAR, 15 CFR Parts 730-774) compliance advisor — ECCN classification… |
@@ -19,6 +20,7 @@ Jurisdiction: `us` · Practice: `sanctions` · Skill language varies per skill.
 | [`ITAR Technology Control Plan (TCP)`](skills/itar-tcp/) | Drafts ITAR Technology Control Plans (TCPs) for managing USML defense articles and technical data under… |
 | [`ITAR Technology Control Plan`](skills/itar-technology-control-plan/) | Drafts an ITAR Technology Control Plan (TCP) for U.S. export control compliance under 22 CFR 120-130.… |
 | [`Shipper's Letter of Instruction (SLI)`](skills/shippers-letter-of-instruction/) | Drafts a U.S.-focused Shipper's Letter of Instruction (SLI) authorizing a freight forwarder, capturing… |
+| [`OFAC Sanctions Screening`](skills/tool-ofac-sanctions-sboghossian/) | Use when screening a counterparty, individual, vessel, or aircraft against the US Treasury OFAC… |
 | [`US Export Controls Expert`](skills/us-export-expert/) | US Export Controls expert covering ITAR and EAR. Provides comprehensive guidance on defense articles… |
 
 ## Cold-start context

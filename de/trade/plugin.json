@@ -11,6 +11,7 @@
   "skills": [
     "skills/allgemeingenehmigung-agg-antidumping",
     "skills/asset-freeze-atlas-ausfuhranmeldung-audit",
+    "skills/ausfuhr-dual-use-pruefung-borghei",
     "skills/aussenwirtschaft-abfallverbringung",
     "skills/aussenwirtschaft-aeo-bewilligung-monitoring",
     "skills/aussenwirtschaft-aktive-veredelung",
@@ -103,10 +104,12 @@
     "skills/nichtpraeferenzieller-ursprung-ofac-sdn-post",
     "skills/passive-veredelung-rueckwaren-erlass",
     "skills/sammelgenehmigung-export-schulung",
+    "skills/sanktionslisten-screening-borghei",
     "skills/software-verschluesselung-swiss-sanctions",
     "skills/straf-bussgeld-selbstkorrektur",
     "skills/vzta-antrag-warennummer-hs-wto-handelspolitik",
     "skills/zolllager-freilager-aussenwirtschaft",
+    "skills/zolltarif-vzta-antrag-borghei",
     "skills/zolltarif-vzta-zollwert-royalties-ursprung"
   ]
 }

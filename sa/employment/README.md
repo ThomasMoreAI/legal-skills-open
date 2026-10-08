@@ -6,11 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `sa` · Practice: `employment` · Skill language: ar
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`الهدف`](skills/arabic-labor-law-salmandev/) | يقدم هذا المهارة شرحاً شاملاً لأحكام نظام العمل السعودي باللغة العربية، ويغطي عقود العمل وساعات العمل… |
+| [`Employment Contract — Saudi Arabia (KSA)`](skills/draft-employment-contract-ksa-sboghossian/) | Use when drafting a Saudi Arabia employment contract under the KSA Labor Law (Royal Decree M/51, as… |
+| [`Knowledge Pack — KSA Labor Law`](skills/kb-employment-law-ksa-sboghossian/) | Use when a matter involves employment law obligations, contracts, termination, end-of-service award… |
 
 ## Cold-start context
 
