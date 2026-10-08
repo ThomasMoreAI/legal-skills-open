@@ -1,0 +1,2617 @@
+                                                                            I
+
+                                                                           SECCIÓN
+
+             LEYES, REGLAMENTOS, DECRETOS Y RESOLUCIONES DE ORDEN GENERAL
+
+Núm. 44.023  Viernes 13 de Diciembre de 2024      Página 1 de 34
+
+             Normas Generales
+
+             CVE 2583630
+
+                 MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA
+
+                                                 LEY NÚM. 21.719
+
+REGULA LA PROTECCIÓN Y EL TRATAMIENTO DE LOS DATOS PERSONALES Y CREA
+                   LA AGENCIA DE PROTECCIÓN DE DATOS PERSONALES
+
+      Teniendo presente que el H. Congreso Nacional ha dado su aprobación al siguiente proyecto de
+ley que tuvo su origen en Mensaje de Su Excelencia la ex Presidenta de la República, señora Michelle
+Bachelet Jeria, y en Moción de los Honorables Senadores señores Pedro Araya Guerrero y Alfonso
+De Urresti Longton, y de los exsenadores señores Felipe Harboe Bascuñán, Alberto Espina Otero y
+Hernán Larraín Fernández,
+
+      Proyecto de ley:
+
+      “Artículo primero.- Introdúcense las siguientes modificaciones en la ley N° 19.628, sobre
+protección de la vida privada:
+
+      1) Sustitúyese, en el nombre de la ley, la frase “LA VIDA PRIVADA” por “LOS DATOS
+PERSONALES”.
+
+      2) Reemplázase el artículo 1° por el siguiente:
+
+      “Artículo 1°.- Objeto y ámbito de aplicación. La presente ley tiene por objeto regular la forma
+y condiciones en la cual se efectúa el tratamiento y protección de los datos personales de las personas
+naturales, en conformidad al artículo 19, N° 4, de la Constitución Política de la República.
+
+      Todo tratamiento de datos personales que realice una persona natural o jurídica, incluidos los
+órganos públicos, debe respetar los derechos y libertades de las personas y quedará sujeto a las
+disposiciones de esta ley.
+
+      El régimen de tratamiento y protección de datos establecido en esta ley no se aplicará al tratamiento
+de datos que se realice en el ejercicio de las libertades de emitir opinión y de informar reguladas por
+las leyes a que se refiere el artículo 19, N° 12, de la Constitución Política de la República. Los medios
+de comunicación social quedarán sujetos a las disposiciones de esta ley en lo relativo al tratamiento
+de datos que efectúen con una finalidad distinta a la de opinar e informar.
+
+      Tampoco serán aplicables las normas de la presente ley al tratamiento de datos que efectúen las
+personas naturales en relación con sus actividades personales.”.
+
+      3) Incorpórase el siguiente artículo 1° bis:
+
+      “Artículo 1° bis.- Ámbito de aplicación territorial. Las disposiciones de la presente ley
+se aplicarán al tratamiento de datos personales que se realice bajo cualquiera de las siguientes
+circunstancias:
+
+      a) Cuando el responsable o mandatario estén establecidos o constituidos en el territorio nacional.
+      b) Cuando el mandatario, con independencia de su lugar de establecimiento o constitución,
+realice las operaciones de tratamiento de datos personales a nombre de un responsable establecido o
+constituido en el territorio nacional.
+      c) Cuando el responsable o mandatario no se encuentren establecidos en el territorio nacional
+pero sus operaciones de tratamiento de datos personales estén destinadas a ofrecer bienes o servicios
+a titulares que se encuentren en Chile, independientemente de si a éstos se les requiere un pago, o a
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 2 de 34
+                      Viernes 13 de Diciembre de 2024
+
+monitorear el comportamiento de titulares que se encuentran en el territorio nacional, incluyendo su
+análisis, rastreo, perfilamiento o predicción de comportamiento.
+
+      La presente ley también se aplicará al tratamiento de datos personales que sea realizado por un
+responsable al que, sin estar establecido en el territorio nacional, le resulte aplicable la legislación
+nacional a causa de un contrato o del derecho internacional.”.
+
+      4) Agrégase, en el encabezamiento del artículo 2°, el siguiente epígrafe: “Definiciones.”.
+      5) Introdúcense las siguientes modificaciones en los literales del artículo 2°:
+
+      uno) Reemplázanse los literales a), c), f), g) e i) por los siguientes:
+
+      “a) Almacenamiento de datos: la conservación o custodia de datos en un registro o base de datos.
+      c) Comunicación de datos personales: dar a conocer por el responsable de datos, de cualquier
+forma, datos personales a personas distintas del titular a quien conciernen los datos, sin llegar a cederlos
+o transferirlos.
+      f) Dato personal: cualquier información vinculada o referida a una persona natural identificada
+o identificable. Se considerará identificable toda persona cuya identidad pueda determinarse, directa
+o indirectamente, en particular mediante uno o más identificadores, tales como el nombre, el número
+de cédula de identidad, el análisis de elementos propios de la identidad física, fisiológica, genética,
+psíquica, económica, cultural o social de dicha persona.
+      Para determinar si una persona es identificable deberán considerarse todos los medios y factores
+objetivos que razonablemente se podrían usar para dicha identificación en el momento del tratamiento.
+      g) Datos personales sensibles: tendrán esta condición aquellos datos personales que se refieren
+a las características físicas o morales de las personas o a hechos o circunstancias de su vida privada o
+intimidad, que revelen el origen étnico o racial, la afiliación política, sindical o gremial, la situación
+socioeconómica, las convicciones ideológicas o filosóficas, las creencias religiosas, los datos relativos
+a la salud, al perfil biológico humano, los datos biométricos, y la información relativa a la vida sexual,
+a la orientación sexual y a la identidad de género de una persona natural.
+      i) Fuentes de acceso público: todas aquellas bases de datos o conjuntos de datos personales, cuyo
+acceso o consulta puede ser efectuada en forma lícita por cualquier persona, tales como el Diario
+Oficial, medios de comunicación o los registros públicos que disponga la ley. El tratamiento de datos
+personales provenientes de fuentes de acceso público se someterá a las disposiciones de esta ley.”.
+
+      dos) Elimínase el literal j), pasando el actual literal k) a ser literal j) y así sucesivamente.
+      tres) Sustitúyense los actuales literales l), m), n), ñ) y o) por los siguientes literales k), l), m), n),
+ñ) y o):
+
+      “k) Anonimización: procedimiento irreversible en virtud del cual un dato personal no puede
+vincularse o asociarse a una persona determinada, ni permitir su identificación, por haberse destruido o
+eliminado el nexo con la información que vincula, asocia o identifica a esa persona. Un dato anonimizado
+deja de ser un dato personal.
+
+      l) Seudonimización: tratamiento de datos personales que se efectúa de manera tal que ya no puedan
+atribuirse a un titular sin utilizar información adicional, siempre que dicha información adicional figure
+por separado y esté sujeta a medidas técnicas y organizativas destinadas a garantizar que los datos
+personales no se atribuyan a una persona natural identificada o identificable.
+
+      m) Base de datos personales: conjunto organizado de datos personales, cualquiera sea la finalidad,
+forma o modalidad de su creación, almacenamiento, organización y acceso, que permita relacionar los
+datos entre sí, así como realizar su tratamiento.
+
+      n) Responsable de datos o responsable: toda persona natural o jurídica, pública o privada, que
+decide acerca de los fines y medios del tratamiento de datos personales, con independencia de si los
+datos son tratados directamente por ella o a través de un tercero mandatario o encargado.
+
+      ñ) Titular de datos o titular: persona natural, identificada o identificable, a quien conciernen o se
+refieren los datos personales.
+
+      o) Tratamiento de datos: cualquier operación o conjunto de operaciones o procedimientos técnicos,
+de carácter automatizado o no, que permitan de cualquier forma recolectar, procesar, almacenar,
+comunicar, transmitir o utilizar datos personales o conjuntos de datos personales.”.
+
+      cuatro) Agréganse los siguientes literales p), q), r), s), t) y u), nuevos:
+
+      “p) Consentimiento: toda manifestación de voluntad libre, específica, inequívoca e informada,
+otorgada a través de una declaración o una clara acción afirmativa, mediante la cual el titular de datos,
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 3 de 34
+                      Viernes 13 de Diciembre de 2024
+
+su representante legal o mandatario, según corresponda, autoriza el tratamiento de los datos personales
+que le conciernen.
+
+      q) Derecho de acceso: derecho del titular de datos a solicitar y obtener del responsable, confirmación
+acerca de si sus datos personales están siendo tratados por él, acceder a ellos en su caso, y a la
+información prevista en esta ley.
+
+      r) Derecho de rectificación: derecho del titular de datos a solicitar y obtener del responsable,
+que modifique o complete sus datos personales, cuando están siendo tratados por él, y sean inexactos,
+desactualizados o incompletos.
+
+      s) Derecho de supresión: derecho del titular de datos a solicitar y obtener del responsable, que
+suprima o elimine sus datos personales, de acuerdo a las causales previstas en la ley.
+
+      t) Derecho de oposición: derecho del titular de datos a solicitar y obtener del responsable, que no
+se lleve a cabo un tratamiento de datos determinado, de conformidad a las causales previstas en la ley.
+
+      u) Derecho a la portabilidad de los datos personales: derecho del titular de datos a solicitar y
+obtener del responsable, una copia de sus datos personales en un formato electrónico estructurado,
+genérico y de uso común, que permita ser operado por distintos sistemas, y poder comunicarlos o
+transferirlos a otro responsable de datos.
+
+      El titular tendrá derecho a que sus datos personales se transmitan directamente de responsable a
+responsable cuando sea técnicamente posible.”.
+
+      cinco) Incorpóranse los siguientes literales v), w), x), y) y z), nuevos:
+
+      “v) Cesión de datos personales: transferencia de datos personales por parte del responsable de
+datos a otro responsable de datos.
+
+      w) Elaboración de perfiles: toda forma de tratamiento automatizado de datos personales que consista
+en utilizar esos datos para evaluar, analizar o predecir aspectos relativos al rendimiento profesional,
+situación económica, de salud, preferencias personales, intereses, fiabilidad, comportamiento, ubicación
+o movimientos de una persona natural.
+
+      x) Tercero mandatario o encargado: la persona natural o jurídica que trate datos personales, por
+cuenta del responsable de datos.
+
+      y) Agencia: la Agencia de Protección de Datos Personales.
+      z) Registro Nacional de Sanciones y Cumplimiento: es un registro nacional de carácter público
+administrado por la Agencia, que consigna los modelos certificados de prevención, los responsables
+de datos que los hayan adoptado y las sanciones que se hayan impuesto a los responsables de datos
+que hayan infringido la ley.”.
+
+      6) Sustitúyese el artículo 3º por el siguiente:
+
+      “Artículo 3°.- Principios. El tratamiento de los datos personales se rige por los siguientes principios:
+
+      a) Principios de licitud y lealtad. Los datos personales sólo pueden tratarse de manera lícita y leal.
+      El responsable deberá ser capaz de acreditar la licitud del tratamiento de datos personales que
+realiza.
+      b) Principio de finalidad. Los datos personales deben ser recolectados con fines específicos,
+explícitos y lícitos. El tratamiento de los datos personales debe limitarse al cumplimiento de estos fines.
+      En aplicación de este principio, no se pueden tratar los datos personales con fines distintos a los
+informados al momento de la recolección, salvo que el tratamiento sea para fines compatibles con
+los autorizados originalmente; que exista una relación contractual o precontractual entre el titular y
+el responsable que justifique el tratamiento de los datos con una finalidad distinta, siempre que se
+enmarque dentro de los fines del contrato o sea coherente con las tratativas o negociaciones previas a
+la celebración del mismo; que el titular otorgue nuevamente su consentimiento, y cuando lo disponga
+la ley.
+      c) Principio de proporcionalidad. Los datos personales que se traten deben limitarse estrictamente
+a aquéllos que resulten necesarios, adecuados y pertinentes en relación con los fines del tratamiento.
+      Los datos personales pueden ser conservados sólo por el período de tiempo que sea necesario
+para cumplir con los fines del tratamiento, luego de lo cual deben ser suprimidos o anonimizados, sin
+perjuicio de las excepciones que establezca la ley. Un período de tiempo mayor requiere autorización
+legal o consentimiento del titular.
+      d) Principio de calidad. Los datos personales deben ser exactos, completos, actuales y pertinentes
+en relación con su proveniencia y los fines del tratamiento.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 4 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      e) Principio de responsabilidad. Quienes realicen tratamiento de los datos personales serán
+legalmente responsables del cumplimiento de los principios contenidos en este artículo y de las
+obligaciones y deberes de conformidad a la ley.
+
+      f) Principio de seguridad. En el tratamiento de los datos personales, el responsable debe garantizar
+estándares adecuados de seguridad, protegiéndolos contra el tratamiento no autorizado o ilícito, y contra
+su pérdida, filtración, daño accidental o destrucción. Las medidas de seguridad deben ser apropiadas
+y acordes con el tratamiento que se vaya a efectuar y con la naturaleza de los datos.
+
+      g) Principio de transparencia e información. El responsable debe entregar al titular toda la
+información que sea necesaria para el ejercicio de los derechos que establece esta ley, incluyendo
+las políticas y las prácticas sobre el tratamiento de los datos personales, las que además deberán
+encontrarse permanentemente accesibles y a disposición de cualquier interesado de manera precisa,
+clara, inequívoca y gratuita.
+
+      El responsable debe adoptar las medidas adecuadas y oportunas para facilitar al titular el acceso
+a toda la información que señala esta ley, así como cualquier otra comunicación relativa al tratamiento
+que realiza.
+
+      h) Principio de confidencialidad. El responsable de datos personales y quienes tengan acceso
+a ellos deberán guardar secreto o confidencialidad acerca de los mismos. El responsable establecerá
+controles y medidas adecuadas para preservar el secreto o confidencialidad. Este deber subsiste aún
+después de concluida la relación con el titular.”.
+
+      7) Reemplázase el Título I por el siguiente:
+
+                                                       “Título I
+                                De los derechos del titular de datos personales
+
+      Artículo 4º.- Derechos del titular de datos. Toda persona, actuando por sí o a través de su
+representante legal o mandatario, según corresponda, tiene derecho de acceso, rectificación, supresión,
+oposición, portabilidad y bloqueo de sus datos personales, de conformidad a la presente ley.
+
+      Tales derechos son personales, intransferibles e irrenunciables y no pueden limitarse por ningún
+acto o convención.
+
+      En caso de fallecimiento del titular de datos, los derechos que reconoce esta ley pueden ser
+ejercidos por sus herederos.
+
+      Con todo, los herederos no podrán acceder a los datos del causante, ni solicitar su rectificación
+o supresión, cuando la persona fallecida lo hubiese prohibido expresamente o así lo establezca
+una ley.
+
+      Artículo 5º.- Derecho de acceso. El titular de datos tiene derecho a solicitar y obtener del
+responsable, confirmación acerca de si los datos personales que le conciernen están siendo tratados
+por él, y en tal caso, acceder a dichos datos y a la siguiente información:
+
+      a) Los datos tratados y su origen.
+      b) La finalidad o finalidades del tratamiento.
+      c) Las categorías, clases o tipos de destinatarios, o bien, la identidad de cada destinatario, en caso
+de solicitarlo así el titular, a los que se les hayan comunicado o cedido los datos o se prevea hacerlo.
+      d) El período de tiempo durante el cual los datos serán tratados.
+      e) Los intereses legítimos del responsable, cuando el tratamiento se base en lo dispuesto en el
+artículo 13, letra d).
+      f) La información significativa sobre la lógica aplicada en el caso de que el responsable realice
+tratamiento de datos de conformidad con el artículo 8° bis.
+
+      El responsable siempre estará obligado a entregar información y a dar acceso a los datos solicitados
+excepto cuando una ley disponga expresamente lo contrario.
+
+      Artículo 6º.- Derecho de rectificación. El titular de datos tiene derecho a solicitar y obtener del
+responsable, la rectificación de los datos personales que le conciernen y que están siendo tratados por
+él, cuando sean inexactos, desactualizados o incompletos.
+
+      Los datos rectificados deberán ser comunicados a las personas, entidades u organismos a los
+cuales el responsable haya comunicado o cedido los referidos datos, salvo en los casos en que dicha
+comunicación sea imposible o exija un esfuerzo desproporcionado.
+
+      Efectuada la rectificación, no se podrán volver a tratar los datos sin rectificar.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 5 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      Artículo 7°.- Derecho de supresión. El titular de datos tiene derecho a solicitar y obtener del
+responsable, la eliminación de los datos personales que le conciernen, en los siguientes casos:
+
+      a) Cuando los datos no resulten necesarios en relación con los fines del tratamiento para el cual
+fueron recogidos.
+
+      b) Cuando el titular haya revocado su consentimiento para el tratamiento y éste no tenga otro
+fundamento legal.
+
+      c) Cuando los datos hayan sido obtenidos o tratados ilícitamente por el responsable.
+      d) Cuando se trate de datos caducos.
+      e) Cuando los datos deban suprimirse para el cumplimiento de una sentencia judicial, de una
+resolución de la autoridad de protección de datos o de una obligación legal.
+      f) Cuando el titular haya ejercido su derecho de oposición de conformidad al artículo siguiente
+y no exista otro fundamento legal para su tratamiento.
+
+      No procede la supresión cuando el tratamiento sea necesario:
+
+      i. Para ejercer el derecho a las libertades de emitir opinión y de informar.
+      ii. Para el cumplimiento de una obligación legal o la ejecución de un contrato suscrito entre el
+titular y el responsable.
+      iii. Para el cumplimiento de una función pública o para el ejercicio de una actividad de interés
+público.
+      iv. Por razones de interés público en el área de la salud pública, de conformidad con las condiciones
+y garantías establecidas en la ley.
+      v. Para tratamientos con fines históricos, estadísticos o científicos y para estudios o investigaciones
+que atiendan fines de interés público.
+      vi. Para la formulación, ejercicio o defensa de una reclamación administrativa o judicial.
+
+      Artículo 8°.- Derecho de Oposición. El titular de datos tiene derecho a oponerse ante el responsable
+a que se realice un tratamiento específico o determinado de los datos personales que le conciernan,
+en los siguientes casos:
+
+      a) Cuando la base de licitud del tratamiento sea la satisfacción de intereses legítimos del responsable.
+En dicho caso podrá ejercer su derecho de oposición en cualquier momento. El responsable del
+tratamiento deberá dejar de tratar los datos personales, salvo que acredite motivos legítimos imperiosos
+para el tratamiento que prevalezcan sobre los intereses, los derechos y las libertades del titular, o para
+la formulación, el ejercicio o la defensa de reclamaciones.
+
+      b) Si el tratamiento se realiza exclusivamente con fines de mercadotecnia o marketing directo de
+bienes, productos o servicios, incluida la elaboración de perfiles, de conformidad con el artículo 8° bis.
+
+      c) Si el tratamiento se realiza respecto de datos obtenidos de una fuente de acceso público y no
+existe otro fundamento legal para su tratamiento.
+
+      No procederá la oposición al tratamiento cuando éste se realice con fines de investigación científica
+o histórica o fines estadísticos, y siempre que fueran necesarios para el cumplimiento de una función
+pública o para el ejercicio de una actividad de interés público.
+
+      Artículo 8° bis.- Decisiones individuales automatizadas, incluida la elaboración de perfiles.
+El titular de datos tiene derecho a oponerse y a no ser objeto de decisiones basadas en el tratamiento
+automatizado de sus datos personales, incluida la elaboración de perfiles, que produzca efectos jurídicos
+en él o le afecte significativamente.
+
+      El inciso anterior no se aplicará en los siguientes casos:
+
+      a) Cuando la decisión sea necesaria para la celebración o ejecución de un contrato entre el titular
+y el responsable.
+
+      b) Cuando exista consentimiento previo y expreso del titular en la forma prescrita en el artículo 12.
+      c) Cuando lo señale la ley, en la medida en que ésta disponga el empleo de salvaguardas a los
+derechos y libertades del titular.
+
+      En todos los casos de decisiones basadas en el tratamiento automatizado de datos personales,
+inclusive aquéllos señalados en las letras a), b) y c) precedentes, el responsable deberá adoptar las
+medidas necesarias para asegurar los derechos y libertades del titular, su derecho a la información y
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 6 de 34
+                      Viernes 13 de Diciembre de 2024
+
+transparencia, el derecho a obtener una explicación, a la intervención humana, a expresar su punto de
+vista y a solicitar la revisión de la decisión.
+
+      Artículo 8° ter.- Derecho de bloqueo del tratamiento. El titular de datos tiene derecho a solicitar
+la suspensión temporal de cualquier operación de tratamiento de sus datos personales cuando formule
+una solicitud de rectificación, supresión u oposición, de conformidad con el artículo 11 de la presente
+ley, mientras dicha solicitud no se resuelva.
+
+      Asimismo, el titular podrá ejercer este derecho alternativamente al de supresión en los casos del
+artículo 7°.
+
+      El ejercicio de este derecho no afectará el almacenamiento de los datos por parte del responsable.
+
+      Artículo 9º.- Derecho a la portabilidad de los datos personales. El titular de datos tiene
+derecho a solicitar y recibir una copia de los datos personales que le conciernen, que haya facilitado
+al responsable, en un formato electrónico estructurado, genérico y de uso común, que permita ser
+operado por distintos sistemas, y a comunicarlos o transferirlos a otro responsable de datos, cuando
+concurran las siguientes circunstancias:
+
+      a) El tratamiento se realice en forma automatizada, y
+      b) El tratamiento esté basado en el consentimiento del titular.
+
+      El responsable debe utilizar los medios más expeditos, menos onerosos y sin poner trabas u
+obstáculos para el ejercicio de este derecho.
+
+      El responsable también debe comunicar al titular de manera clara y precisa las medidas necesarias para
+obtener sus datos personales y especificar las características técnicas para llevar a cabo estas operaciones.
+
+      El titular tendrá derecho a que sus datos personales se transmitan directamente de responsable a
+responsable cuando sea técnicamente posible.
+
+      Con todo, el ejercicio del derecho de portabilidad no supondrá la supresión de los datos ante el
+responsable cedente, a menos que el titular de ellos así lo pida conjuntamente en la solicitud.
+
+      Artículo 10.- Forma y medios de ejercer los derechos del titular de datos. Los derechos reconocidos
+en esta ley se ejercen por el titular ante el responsable de datos. Si los datos personales del titular son
+tratados por diversos responsables, el titular puede ejercer sus derechos ante cualquiera de ellos.
+
+      En el caso de las personas jurídicas no constituidas en Chile, el responsable deberá señalar por
+escrito, ante la Agencia, un correo electrónico o un medio de comunicación electrónico equivalente
+válido y operativo de una persona natural o jurídica capaz de actuar en su nombre, para los efectos de
+que el titular pueda ejercer sus derechos y comunicarse con el responsable, y donde se le practiquen
+válidamente las comunicaciones y notificaciones administrativas que disponga la ley. El responsable
+deberá mantener actualizada esta información.
+
+      Los responsables de datos deberán implementar mecanismos y herramientas tecnológicas que
+permitan que el titular ejerza sus derechos en forma expedita, ágil y eficaz. Los medios dispuestos por
+el responsable deben ser sencillos en su operación.
+
+      El ejercicio de los derechos de rectificación, supresión y oposición siempre serán gratuitos para
+el titular. El derecho de acceso también se ejercerá en forma gratuita, al menos trimestralmente.
+
+      El responsable de datos sólo puede exigir el pago de los costos directos en que incurra, cuando
+el titular ejerza su derecho de acceso y derecho a la portabilidad más de una vez en el trimestre. El
+responsable no podrá exigir este pago en los casos del inciso cuarto del artículo 28.
+
+      Los parámetros y mecanismos para determinar los costos derivados del ejercicio de los derechos
+señalados en el inciso anterior serán determinados por la Agencia, a través de una instrucción general
+que considerará, entre otros antecedentes, el volumen de los datos a ser entregados, la naturaleza
+jurídica y el tamaño de la entidad o empresa que tenga la calidad de responsable.
+
+      La Agencia velará por el efectivo ejercicio y cumplimiento de los derechos que esta ley reconoce
+al titular de datos, en conformidad a lo dispuesto en esta ley.
+
+      Artículo 11.- Procedimiento ante el responsable de datos. Para ejercer los derechos que le
+reconoce esta ley, el titular deberá presentar una solicitud o requerimiento escrito ante el responsable,
+dirigido a la dirección de correo electrónico establecida para este fin, un formulario de contacto o un
+medio electrónico equivalente. La solicitud deberá contener, a lo menos, las siguientes menciones:
+
+      a) Individualización del titular y de su representante legal o mandatario, según corresponda, y
+autenticación de su identidad de acuerdo con los procedimientos, formas y modalidades que establezca
+la Agencia.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE                                          Página 7 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      b) Indicación de un domicilio o una dirección de correo electrónico o de otro medio equivalente
+para comunicar la respuesta.
+
+      c) Identificación de los datos personales o del tratamiento determinado, respecto de los cuales se
+ejerce el derecho correspondiente.
+
+      d) En las solicitudes de rectificación, el titular deberá indicar las modificaciones o actualizaciones
+precisas a realizar y acompañar, en su caso, los antecedentes que las sustenten. Cuando se trate de
+solicitudes de supresión, el titular deberá indicar la causal invocada y acompañar los antecedentes que
+la sustenten, si correspondiere. Para las solicitudes de oposición, el titular deberá indicar la causal
+invocada y en el caso de la letra a) del artículo 8°, deberá fundamentar brevemente su petición y podrá,
+igualmente, acompañar los antecedentes que estime procedentes. En el caso del derecho de acceso,
+bastará con la individualización del titular.
+
+      Recibida la solicitud el responsable deberá acusar recibo de ella y pronunciarse a más tardar
+dentro de los treinta días corridos siguientes a la fecha de ingreso de la solicitud. Este plazo podrá ser
+prorrogado, por una sola vez, hasta por treinta días corridos.
+
+      El responsable deberá responder por escrito al titular a su domicilio o la dirección de correo
+electrónico fijada por éste. El responsable debe almacenar los respaldos que le permitan demostrar la
+remisión de la respuesta a la dirección física o electrónica que corresponda, su fecha y el contenido
+íntegro de ella.
+
+      En caso de denegación total o parcial de la solicitud, el responsable deberá fundar su decisión
+indicando la causa invocada y los antecedentes que la justifican. En esta misma oportunidad el responsable
+debe señalar al titular que dispone de un plazo de treinta días hábiles para formular una reclamación
+ante la Agencia, de acuerdo con el procedimiento establecido en el artículo 41.
+
+      Transcurrido el plazo al que hace referencia el inciso segundo anterior, sin que haya respuesta del
+responsable, el titular podrá formular directamente una reclamación ante la Agencia, en los mismos
+términos del inciso anterior.
+
+      Cuando se formule una solicitud de rectificación, supresión u oposición, el titular tendrá derecho a
+solicitar y obtener del responsable el bloqueo temporal de sus datos o del tratamiento que realice, según
+corresponda. La solicitud de bloqueo temporal deberá ser fundada y el responsable deberá responder
+al requerimiento dentro de los dos días hábiles siguientes a su recepción. En tanto no resuelva esta
+solicitud, el responsable no podrá tratar los datos del titular que forman parte del requerimiento. El
+bloqueo temporal de los datos no afectará su almacenamiento por parte del responsable. En caso de
+rechazo el responsable deberá fundar su respuesta y comunicar en forma electrónica su decisión a la
+Agencia. El titular podrá reclamar de esta decisión ante la Agencia, aplicándose lo dispuesto en la letra
+a) del inciso segundo del artículo 41.
+
+      La rectificación, supresión u oposición al tratamiento de los datos se aplicará sólo respecto de
+los responsables a quienes se les haya formulado la solicitud. Con todo, cuando el responsable haya
+comunicado dichos datos a otras personas, deberá comunicar a éstas los cambios realizados en virtud
+de la rectificación, supresión u oposición.
+
+      El titular podrá aportar cualquier otro antecedente que facilite la localización de los datos
+personales.”.
+
+             8) Reemplázase el Título II por el siguiente:
+
+                                                      “Título II
+             Del tratamiento de los datos personales y de las categorías especiales de datos
+
+                                                Párrafo Primero
+Del consentimiento del titular, de las obligaciones y deberes del responsable y del tratamiento de
+
+                                                datos en general
+
+      Artículo 12.- Regla general del tratamiento de datos. Es lícito el tratamiento de los datos
+personales que le conciernen al titular, cuando otorgue su consentimiento para ello.
+
+      El consentimiento del titular debe ser libre, informado y específico en cuanto a su finalidad o
+finalidades. El consentimiento debe manifestarse, además, en forma previa y de manera inequívoca,
+mediante una declaración verbal, escrita o expresada a través de un medio electrónico equivalente, o
+mediante un acto afirmativo que dé cuenta con claridad de la voluntad del titular.
+
+      Cuando el consentimiento lo otorgue un mandatario, éste deberá encontrarse expresamente
+premunido de esta facultad.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz            Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl                 Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 8 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      El titular puede revocar el consentimiento otorgado en cualquier momento y sin expresión de
+causa, utilizando medios similares o equivalentes a los empleados para su otorgamiento. La revocación
+del consentimiento no tendrá efectos retroactivos.
+
+      Los medios utilizados para el otorgamiento o la revocación del consentimiento deben ser expeditos,
+fidedignos, gratuitos y estar permanentemente disponibles para el titular.
+
+      Se presume que el consentimiento para tratar datos no ha sido libremente otorgado cuando el
+responsable lo recaba en el marco de la ejecución de un contrato o la prestación de un servicio en que
+no es necesario efectuar esa recolección.
+
+      Con todo, lo dispuesto en el inciso anterior no se aplicará cuando quien ofrezca bienes, servicios
+o beneficios, requiera como única contraprestación el consentimiento para tratar datos.
+
+      Corresponde al responsable probar que contó con el consentimiento del titular y que el tratamiento
+de datos fue realizado en forma lícita, leal y transparente.
+
+      Artículo 13.- Otras fuentes de licitud del tratamiento de datos. Es lícito el tratamiento de
+datos personales, sin el consentimiento del titular, en los siguientes casos:
+
+      a) Cuando el tratamiento esté referido a datos relativos a obligaciones de carácter económico,
+financiero, bancario o comercial y se realice de conformidad con las normas del Título III de esta ley,
+incluidos los datos referidos a la situación socioeconómica del titular.
+
+      b) Cuando el tratamiento sea necesario para la ejecución o el cumplimiento de una obligación
+legal o lo disponga la ley.
+
+      c) Cuando el tratamiento de datos sea necesario para la celebración o ejecución de un contrato
+entre el titular y el responsable, o para la ejecución de medidas precontractuales adoptadas a solicitud
+del titular.
+
+      d) Cuando el tratamiento sea necesario para la satisfacción de intereses legítimos del responsable
+o de un tercero, siempre que con ello no se afecten los derechos y libertades del titular. En todo caso,
+el titular podrá exigir siempre ser informado sobre el tratamiento que lo afecta y el interés legítimo en
+base al cual se efectúa dicho tratamiento.
+
+      e) Cuando el tratamiento de datos sea necesario para la formulación, ejercicio o defensa de un
+derecho ante los tribunales de justicia u órganos públicos.
+
+      El responsable deberá acreditar la licitud del tratamiento de datos.
+
+      Artículo 14.- Obligaciones del responsable de datos. El responsable de datos, sin perjuicio de
+las demás disposiciones previstas en esta ley, tiene las siguientes obligaciones:
+
+      a) Informar y poner a disposición del titular los antecedentes que acrediten la licitud del tratamiento
+de datos que realiza. Asimismo, deberá entregar de manera expedita dicha información cuando le sea
+requerida.
+
+      b) Asegurar que los datos personales se recojan de fuentes de acceso lícitas con fines específicos,
+explícitos y lícitos, y que su tratamiento se limite al cumplimiento de estos fines.
+
+      c) Comunicar o ceder, en conformidad a las disposiciones de esta ley, información exacta,
+completa y actual.
+
+      d) Suprimir o anonimizar los datos personales del titular cuando fueron obtenidos para la ejecución
+de medidas precontractuales.
+
+      e) Cumplir con los demás deberes, principios y obligaciones que rigen el tratamiento de los datos
+personales previstos en esta ley.
+
+      El responsable de datos que no tenga domicilio en Chile y que realice tratamiento de datos de
+personas que residan en el territorio nacional, deberá señalar y mantener actualizado y operativo, un
+correo electrónico u otro medio de contacto idóneo para recibir comunicaciones de los titulares de
+datos y de la Agencia.
+
+      Artículo 14 bis.- Deber de secreto o confidencialidad. El responsable de datos está obligado a
+mantener secreto o confidencialidad acerca de los datos personales que conciernan a un titular, salvo
+cuando el titular los hubiere hecho manifiestamente públicos. Este deber subsiste aún después de
+concluida la relación con el titular. En caso de que el responsable haya realizado alguna acción sobre
+datos personales obtenidos de fuentes de acceso público, tales como organizarlos o clasificarlos bajo
+algún criterio, o combinarlos o complementarlos con otros datos, los datos personales que resulten de
+dicha acción se encontrarán protegidos bajo el presente deber de secreto o confidencialidad.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 9 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      El deber de secreto o confidencialidad no obsta a las comunicaciones o cesiones de datos que
+deba realizar el responsable en conformidad a la ley, y al cumplimiento de la obligación de dar acceso
+al titular e informar el origen de los datos, cuando esta información le sea requerida por el titular o
+por un órgano público dentro del ámbito de sus competencias legales.
+
+      El responsable debe adoptar las medidas necesarias con el objeto que sus dependientes o las
+personas naturales o jurídicas que ejecuten operaciones de tratamiento de datos bajo su responsabilidad,
+cumplan el deber de secreto o confidencialidad establecidos en este artículo.
+
+      Quedan sujetas a la obligación de confidencialidad las personas e instituciones y sus dependientes
+a que se refiere el artículo 24, en cuanto al requerimiento y al hecho de haber remitido dicha
+información.
+
+      Artículo 14 ter.- Deber de información y transparencia. El responsable de datos debe facilitar
+y mantener permanentemente a disposición del público, en su sitio web o en cualquier otro medio de
+información equivalente, al menos, la siguiente información:
+
+      a) La política de tratamiento de datos personales que haya adoptado, la fecha y versión de la misma.
+      b) La individualización del responsable de datos y su representante legal y la identificación del
+encargado de prevención, si existiere.
+      c) El domicilio postal, la dirección de correo electrónico, el formulario de contacto o la identificación
+del medio tecnológico equivalente de uso común y fácil acceso mediante el cual se le notifican las
+solicitudes que realicen los titulares.
+      d) Las categorías, clases o tipos de datos que trata; la descripción genérica del universo de personas
+que comprenden sus bases de datos; los destinatarios a los que se prevé comunicar o ceder los datos;
+las finalidades de los tratamientos que realiza; la base de legitimidad del tratamiento; y en caso de
+tratamientos que se basan en la satisfacción de intereses legítimos, cuáles serían éstos.
+      e) La política y las medidas de seguridad adoptadas para proteger las bases de datos personales
+que administra.
+      f) El derecho que le asiste al titular para solicitar ante el responsable, acceso, rectificación,
+supresión, oposición y portabilidad de sus datos personales, de conformidad a la ley.
+      g) El derecho que le asiste al titular de recurrir ante la Agencia, en caso de que el responsable
+rechace o no responda oportunamente las solicitudes que le formule.
+      h) En su caso, la transferencia de datos personales a un tercer país u organización internacional y
+si éstos ofrecen o no un nivel adecuado de protección. En caso de que no cuenten con un nivel adecuado
+de protección, se deberá informar si existen garantías que justifiquen tal transferencia.
+      i) El periodo durante el que se conservarán los datos personales.
+      j) La fuente de la cual provienen los datos personales y, en su caso, si proceden de fuentes de
+acceso público.
+      k) Cuando el tratamiento está basado en el consentimiento del titular, la existencia del derecho a
+retirarlo en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento
+previo a su retirada.
+      l) La existencia de decisiones automatizadas, incluida la elaboración de perfiles. En tales casos,
+información significativa sobre la lógica aplicada, así como las consecuencias previstas de dicho
+tratamiento para el titular.
+
+      Artículo 14 quáter.- Deber de protección desde el diseño y por defecto. Con la finalidad de
+cumplir los principios y los derechos de los titulares establecidos en esta ley, el responsable debe aplicar
+medidas técnicas y organizativas adecuadas desde el diseño con anterioridad y durante el tratamiento
+de los datos personales. Las medidas a aplicar deberán tener en consideración el estado de la técnica;
+los costos de implementación; la naturaleza, ámbito, contexto y fines del tratamiento de datos; así
+como los riesgos asociados a dicha actividad.
+
+      Asimismo, el responsable de datos deberá aplicar medidas técnicas y organizativas para garantizar
+que, por defecto, sólo sean objeto de tratamiento los datos personales específicos y estrictamente
+necesarios para dicha actividad. Para ello, se tendrá en consideración el número de datos recogidos,
+la extensión del tratamiento, el plazo de conservación y su accesibilidad.
+
+      Artículo 14 quinquies.- Deber de adoptar medidas de seguridad. El responsable de datos debe
+adoptar las medidas necesarias para resguardar el cumplimiento del principio de seguridad establecido
+en esta ley, considerando el estado actual de la técnica y los costos de aplicación, junto con la naturaleza,
+alcance, contexto y fines del tratamiento, así como la probabilidad de los riesgos y la gravedad de
+sus efectos en relación con el tipo de datos tratados. Las medidas aplicadas por el responsable deben
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 10 de 34
+                      Viernes 13 de Diciembre de 2024
+
+asegurar la confidencialidad, integridad, disponibilidad y resiliencia de los sistemas de tratamiento de
+datos. Asimismo, deberán evitar la alteración, destrucción, pérdida, tratamiento o acceso no autorizado.
+
+      En consideración al estado de la técnica, los costos de aplicación, y la naturaleza, el alcance, el
+contexto y los fines del tratamiento, así como los riesgos de probabilidad y gravedad variables para los
+derechos y libertades de los titulares, el responsable y el encargado del tratamiento aplicarán medidas
+técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, que en
+su caso incluya, entre otros:
+
+      a) La seudonimización y el cifrado de datos personales.
+      b) La capacidad de garantizar la confidencialidad, integridad, disponibilidad y resiliencia permanentes
+de los sistemas y servicios de tratamiento.
+      c) La capacidad de restaurar la disponibilidad y el acceso a los datos personales de forma rápida
+en caso de incidente físico o técnico.
+      d) Un proceso de verificación, evaluación y valoración regulares de la eficacia de las medidas
+técnicas y organizativas para garantizar la seguridad del tratamiento.
+
+      Ante la ocurrencia de un incidente de seguridad, y en caso de controversia judicial o administrativa,
+corresponderá al responsable acreditar la existencia y el funcionamiento de las medidas de seguridad
+adoptadas en base a los niveles de riesgo y a la tecnología disponible.
+
+      Artículo 14 sexies.- Deber de reportar las vulneraciones a las medidas de seguridad. El
+responsable deberá reportar a la Agencia, por los medios más expeditos posibles y sin dilaciones
+indebidas, las vulneraciones a las medidas de seguridad que ocasionen la destrucción, filtración,
+pérdida o alteración accidental o ilícita de los datos personales que trate o la comunicación o acceso
+no autorizados a dichos datos, cuando exista un riesgo razonable para los derechos y libertades de los
+titulares.
+
+      El responsable deberá registrar estas comunicaciones, describiendo la naturaleza de las vulneraciones
+sufridas, sus efectos, las categorías de datos y el número aproximado de titulares afectados y las medidas
+adoptadas para gestionarlas y precaver incidentes futuros.
+
+      Cuando dichas vulneraciones se refieran a datos personales sensibles, datos relativos a niños y niñas
+menores de catorce años o datos relativos a obligaciones de carácter económico, financiero, bancario
+o comercial, el responsable deberá también efectuar esta comunicación a los titulares de estos datos, a
+través de sus representantes, cuando corresponda. Esta comunicación deberá realizarse en un lenguaje
+claro y sencillo, singularizando los datos afectados, las posibles consecuencias de las vulneraciones de
+seguridad y las medidas de solución o resguardo adoptadas. La notificación se deberá realizar a cada
+titular afectado y si ello no fuere posible, se realizará mediante la difusión o publicación de un aviso
+en un medio de comunicación social masivo y de alcance nacional.
+
+      Los deberes de información señalados en este artículo no obstan a los demás deberes de información
+que establezcan otras leyes.
+
+      Artículo 14 septies.- Diferenciación de estándares de cumplimiento. Los estándares o condiciones
+mínimas que se impongan al responsable de datos para el cumplimiento de los deberes de información
+y de seguridad establecidos en los artículos 14 ter y 14 quinquies, respectivamente, serán determinados
+considerando el tipo de dato del que se trata, si el responsable es una persona natural o jurídica, el
+tamaño de la entidad o empresa de acuerdo a las categorías establecidas en el artículo segundo de la ley
+N° 20.416, que fija normas especiales para las empresas de menor tamaño, la actividad que desarrolla
+y el volumen, naturaleza y las finalidades de los datos personales que trata.
+
+      Los estándares o condiciones mínimas de cumplimiento y las medidas diferenciadas a que alude
+el inciso anterior, serán determinados por la Agencia mediante instrucción general.
+
+      Artículo 15.- Cesión de datos personales. Los datos personales podrán ser cedidos con el
+consentimiento del titular y para el cumplimiento de los fines del tratamiento. También se podrán
+ceder los datos personales cuando la cesión sea necesaria para el cumplimiento y la ejecución de un
+contrato en que es parte el titular; cuando exista un interés legítimo del cedente o del cesionario, en
+los términos previstos en la letra d) del artículo 13, y cuando lo disponga la ley.
+
+      En caso de que el consentimiento otorgado por el titular al momento de realizarse la recolección
+de los datos personales no haya considerado la cesión de los mismos, éste debe recabarse antes que
+se produzca, considerándose para todos los efectos legales como una nueva operación de tratamiento.
+
+      La cesión de datos deberá constar por escrito o a través de cualquier medio electrónico idóneo.
+En ella se deberá individualizar a las partes, los datos que son objeto de la cesión, las finalidades
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 11 de 34
+                      Viernes 13 de Diciembre de 2024
+
+previstas para el tratamiento y los demás antecedentes o estipulaciones que acuerden el cedente y
+el cesionario.
+
+      El tratamiento de los datos personales cedidos deberá realizarse por el cesionario de conformidad
+a las finalidades establecidas en el contrato de cesión.
+
+      Una vez perfeccionada la cesión, el cesionario adquiere la condición de responsable de datos
+para todos los efectos legales. El cedente, por su parte, también mantiene la calidad de responsable de
+datos, respecto de las operaciones de tratamiento que continúe realizando.
+
+      Si se verifica una cesión de datos sin contar con el consentimiento del titular, siendo éste necesario,
+la cesión será nula, debiendo el cesionario suprimir todos los datos recibidos, sin perjuicio de las
+responsabilidades legales que correspondan.
+
+      Artículo 15 bis.- Tratamiento de datos a través de un tercero mandatario o encargado. El
+responsable puede efectuar el tratamiento de datos en forma directa o a través de un tercero mandatario
+o encargado. En este último caso, el tercero mandatario o encargado realiza el tratamiento de datos
+personales conforme al encargo y a las instrucciones que le imparta el responsable, quedándole prohibido
+su tratamiento para un objeto distinto del convenido con el responsable, así como su cesión o entrega
+en los casos en que el responsable no lo haya autorizado de manera expresa y específicamente para
+cumplir con el objeto del encargo.
+
+      Si el tercero mandatario o encargado trata los datos con un objeto distinto del encargo convenido
+o los cede o entrega sin haber sido autorizado en los términos dispuestos en el inciso anterior,
+se le considerará como responsable de datos para todos los efectos legales, debiendo responder
+personalmente por las infracciones en que incurra y solidariamente con el responsable de datos por
+los daños ocasionados, sin perjuicio de las responsabilidades contractuales que le correspondan frente
+al mandante o responsable de datos.
+
+      El tratamiento de datos a través de un tercero mandatario o encargado se regirá por el contrato
+celebrado entre el responsable y el encargado, con arreglo a la legislación vigente. En el contrato se
+deberá establecer el objeto del encargo, la duración del mismo, la finalidad del tratamiento, el tipo de
+datos personales tratados, las categorías de titulares a quienes conciernen los datos, y los derechos y
+obligaciones de las partes. El encargado no podrá delegar parte o la totalidad del encargo, salvo que
+conste una autorización específica y por escrito del responsable. El encargado que delegue a otro
+encargado parte o la totalidad del encargo, continuará siendo solidariamente responsable sobre dicho
+encargo y no podrá eximirse de responsabilidad argumentando que ha delegado el tratamiento. La
+Agencia pondrá a disposición del público modelos tipo de contratos en su página web.
+
+      El tercero mandatario o encargado deberá cumplir con lo dispuesto en los artículos 14 bis y 14
+quinquies. La diferenciación de estándares de cumplimiento establecida en el inciso primero del artículo
+14 septies también será aplicable al tercero mandatario o encargado. Tratándose de una vulneración a
+las medidas de seguridad, el tercero o mandatario deberá reportar este hecho al responsable.
+
+      Cumplida la prestación del servicio de tratamiento por parte del tercero mandatario o encargado,
+los datos que obran en su poder deben ser suprimidos o devueltos al responsable de datos, según
+corresponda.
+
+      Artículo 15 ter.- Evaluación de impacto en protección de datos personales. Cuando sea
+probable que un tipo de tratamiento, por su naturaleza, alcance, contexto, tecnología utilizada o fines,
+pueda producir un alto riesgo para los derechos de las personas titulares de los datos personales, el
+responsable del tratamiento deberá realizar, previo al inicio de las operaciones del tratamiento, una
+evaluación del impacto en protección de datos personales.
+
+      La evaluación de impacto se requerirá siempre en casos de:
+
+      a) Evaluación sistemática y exhaustiva de aspectos personales de los titulares de datos, basadas
+en tratamiento o decisiones automatizadas, como la elaboración de perfiles, y que produzcan en ellos
+efectos jurídicos significativos.
+
+      b) Tratamiento masivo de datos o a gran escala.
+      c) Tratamiento que implique observación o monitoreo sistemático de una zona de acceso público.
+      d) Tratamiento de datos sensibles y especialmente protegidos, en las hipótesis de excepción del
+consentimiento.
+
+      La Agencia de Protección de Datos Personales establecerá y publicará una lista orientativa de
+los tipos de operaciones de tratamiento que requieran o no una evaluación de impacto relativa a la
+protección de datos personales. La Agencia también establecerá las orientaciones mínimas para realizar
+esta evaluación, considerando a lo menos en dichos criterios, la descripción de las operaciones de
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 12 de 34
+                      Viernes 13 de Diciembre de 2024
+
+tratamiento, su finalidad, la evaluación de la necesidad y la proporcionalidad con respecto a su finalidad,
+la evaluación de los riesgos y medidas de mitigación.
+
+      Los responsables podrán consultar a la Agencia de Protección de Datos Personales, cuando en
+virtud del resultado de la evaluación, el tratamiento demuestre ser de alto riesgo a efectos de obtener
+recomendaciones de parte de dicha entidad.
+
+                                                  Párrafo Segundo
+                               Del tratamiento de los datos personales sensibles
+
+      Artículo 16.- Regla general para el tratamiento de datos personales sensibles. El tratamiento
+de los datos personales sensibles sólo puede realizarse cuando el titular a quien conciernen estos datos
+manifiesta su consentimiento en forma expresa, otorgado a través de una declaración escrita, verbal o
+por un medio tecnológico equivalente.
+
+      Sin perjuicio de lo anterior, es lícito el tratamiento de datos personales sensibles, sin el consentimiento
+del titular, en los siguientes casos:
+
+      a) Cuando el tratamiento se refiere a datos personales sensibles que el titular ha hecho manifiestamente
+públicos y su tratamiento esté relacionado con los fines para los cuales fueron publicados.
+
+      b) Cuando el tratamiento se basa en un interés legítimo realizado por una persona jurídica de derecho
+público o de derecho privado que no persiga fines de lucro y se cumplan las siguientes condiciones:
+
+      i. Su finalidad sea política, filosófica, religiosa, cultural, sindical o gremial;
+      ii. El tratamiento que realice se refiera exclusivamente a sus miembros o afiliados;
+      iii. El tratamiento de datos tenga por objeto cumplir las finalidades específicas de la institución;
+      iv. La persona jurídica otorgue las garantías necesarias para evitar filtraciones, sustracciones o
+un uso o tratamiento no autorizado de los datos, y
+      v. Los datos personales no se comuniquen o cedan a terceros.
+
+      Cumpliéndose estas condiciones, la persona jurídica no requerirá el consentimiento del titular para
+tratar sus datos, incluidos los datos personales sensibles. En caso de duda o controversia administrativa
+o judicial, el responsable de datos deberá acreditar su concurrencia.
+
+      Cuando un integrante de la persona jurídica deje de pertenecer a ella, sus datos deberán ser
+anonimizados o suprimidos.
+
+      c) Cuando el tratamiento de los datos personales del titular resulte indispensable para salvaguardar
+la vida, salud o integridad física o psíquica del titular o de otra persona o, cuando el titular se encuentre
+física o jurídicamente impedido de otorgar su consentimiento. Una vez que cese el impedimento, el
+responsable debe informar detalladamente al titular los datos que fueron tratados y las operaciones
+específicas de tratamiento que fueron realizadas.
+
+      d) Cuando el tratamiento de los datos sea necesario para la formulación, ejercicio o defensa de
+un derecho ante los tribunales de justicia o un órgano administrativo.
+
+      e) Cuando el tratamiento de datos sea necesario para el ejercicio de derechos y el cumplimiento
+de obligaciones del responsable o del titular de datos, en el ámbito laboral o de seguridad social, y se
+realice en el marco de la ley.
+
+      f) Cuando el tratamiento de datos personales sensibles lo autorice o mandate expresamente la ley.
+
+      Las excepciones para tratar datos sin consentimiento, mencionadas en este artículo, se entienden
+aplicables al tratamiento de datos que no revisten el carácter de datos sensibles.
+
+      Artículo 16 bis.- Datos personales sensibles relativos a la salud y al perfil biológico humano.
+Si se cumple lo dispuesto en el inciso primero del artículo 16, los datos personales relativos a la salud
+del titular, así como aquéllos relativos al perfil biológico del titular, tales como los datos genéticos,
+proteómicos o metabólicos, sólo podrán ser tratados para los fines previstos por las leyes especiales
+en materia sanitaria.
+
+      Sólo se podrán tratar los datos personales sensibles relativos a la salud del titular y a su perfil
+biológico, sin contar con su consentimiento, respetando los principios y reglas establecidos en la
+presente ley, en los siguientes casos:
+
+      a) Cuando éste resulte indispensable para salvaguardar la vida o integridad física o psíquica del
+titular o de otra persona o, cuando el titular se encuentre física o jurídicamente impedido de otorgar
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 13 de 34
+                      Viernes 13 de Diciembre de 2024
+
+su consentimiento. Una vez que cese el impedimento, el responsable debe informar detalladamente al
+titular los datos que fueron tratados y las operaciones específicas de tratamiento que fueron realizadas.
+
+      b) En casos de alerta sanitaria legalmente decretada.
+      c) Cuando sean utilizados con fines históricos, estadísticos o científicos, para estudios o
+investigaciones que atiendan fines de interés público o vayan en beneficio de la salud humana, o
+para el desarrollo de productos o insumos médicos que no podrían desarrollarse de otra manera. Los
+resultados de los estudios e investigaciones científicas que utilicen datos personales relativos a la salud
+o al perfil biológico pueden ser publicados o difundidos libremente. Para ello deberán previamente
+anonimizarse los datos que se publiquen.
+      d) Cuando el tratamiento de los datos sea necesario para la formulación, ejercicio o defensa de
+un derecho ante los tribunales de justicia o ante un órgano administrativo.
+      e) Cuando el tratamiento sea necesario para fines de medicina preventiva o laboral, evaluación
+de la capacidad laboral del trabajador, diagnóstico médico, prestación de asistencia o tratamiento de
+tipo sanitario o social, o gestión de sistemas y servicios de asistencia sanitaria y social.
+      f) Cuando la ley así lo permita e indique expresamente la finalidad que deberá tener dicho tratamiento.
+
+      Se prohíbe el tratamiento y la cesión de los datos relativos a la salud y al perfil biológico de
+un titular y las muestras biológicas asociadas a una persona identificada o identificable, incluido
+el almacenamiento del material biológico, cuando los datos o muestras han sido recolectados en el
+ámbito laboral, educativo, deportivo, social, de seguros, de seguridad o identificación, salvo que la
+ley expresamente autorice su tratamiento en casos calificados y que se refiera a alguno de los casos
+mencionados en este artículo.
+
+      Las excepciones para tratar datos sin el consentimiento mencionado en este artículo se entienden
+aplicables al tratamiento de datos que no revisten el carácter especial a que se refiere este precepto.
+
+      Artículo 16 ter.- Datos personales biométricos. Son datos personales biométricos aquellos
+obtenidos a partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas
+o conductuales de una persona que permitan o confirmen la identificación única de ella, tales como la
+huella digital, el iris, los rasgos de la mano o faciales y la voz.
+
+      Sólo podrán tratarse estos datos cuando se cumpliere con lo dispuesto en el inciso primero del
+artículo 16 y siempre que el responsable proporcione al titular la siguiente información específica:
+
+      a) La identificación del sistema biométrico usado;
+      b) La finalidad específica para la cual los datos recolectados por el sistema biométrico serán
+utilizados;
+      c) El período durante el cual los datos biométricos serán utilizados, y
+      d) La forma en que el titular puede ejercer sus derechos.
+
+      Los datos personales biométricos podrán tratarse sin consentimiento sólo en los casos señalados
+en el inciso segundo del artículo 16 bis.
+
+                                                   Párrafo Tercero
+                        Del tratamiento de categorías especiales de datos personales
+
+      Artículo 16 quáter.- Datos personales relativos a los niños, niñas y adolescentes. El tratamiento
+de los datos personales que conciernen a los niños, niñas y adolescentes, sólo puede realizarse atendiendo
+al interés superior de éstos y al respeto de su autonomía progresiva.
+
+      Cumpliéndose la exigencia establecida en el inciso anterior, para tratar los datos personales de
+los niños y niñas se requiere el consentimiento otorgado por sus padres o representantes legales o
+por quien tiene a su cargo el cuidado personal del niño o niña, salvo que expresamente lo autorice o
+mandate la ley.
+
+      Los datos personales de los adolescentes se podrán tratar de acuerdo a las normas de autorización
+previstas en esta ley para los adultos, salvo lo dispuesto en el inciso siguiente.
+
+      Los datos personales sensibles de los adolescentes menores de dieciséis años sólo se podrán
+tratar con el consentimiento otorgado por sus padres o representantes legales o quien tiene a su cargo
+el cuidado personal del menor, salvo que expresamente lo autorice o mandate la ley.
+
+      Para los efectos de esta ley, se consideran niños o niñas a los menores de catorce años, y adolescentes,
+a los mayores de catorce y menores de dieciocho años.
+
+      Constituye una obligación especial de los establecimientos educacionales y de todas las personas o
+entidades públicas o privadas que traten o administren datos personales de niños, niñas y adolescentes,
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE                                            Página 14 de 34
+                      Viernes 13 de Diciembre de 2024
+
+incluidos quienes ejercen su cuidado personal, velar por el uso lícito y la protección de la información
+personal que concierne a los niños, niñas y adolescentes.
+
+      Artículo 16 quinquies.- Datos personales con fines históricos, estadísticos, científicos
+y de estudios o investigaciones. Se entiende que existe un interés legítimo en el tratamiento de
+datos personales que realicen las personas naturales o jurídicas, públicas o privadas, incluidos
+los organismos públicos, cuando el tratamiento se realiza exclusivamente con fines históricos,
+estadísticos, científicos y para estudios o investigaciones, todos los cuales deben atender fines de
+interés público.
+
+      Los responsables de datos deberán adoptar y acreditar que han cumplido con todas las medidas
+de calidad y seguridad necesarias para resguardar que los datos se utilicen exclusivamente para
+tales fines. En el caso de los datos personales sensibles, el responsable debe identificar los riesgos
+posibles e implementar las medidas tendientes a su reducción o mitigación. Cumplidas estas
+condiciones, el responsable podrá almacenar y utilizar los datos por un período indeterminado
+de tiempo.
+
+      Los responsables que hayan tratado datos personales exclusivamente con estas finalidades podrán
+efectuar publicaciones con los resultados y análisis obtenidos, debiendo previamente adoptar las
+medidas necesarias para anonimizar los datos que se publiquen.
+
+      Artículo 16 sexies.- Datos de geolocalización. El tratamiento de los datos personales de
+geolocalización del titular se podrá realizar bajo las mismas fuentes de licitud establecidas en los
+artículos 12 y 13.
+
+      El titular de datos deberá ser informado de manera clara, suficiente y oportuna, del tipo de datos
+de geolocalización que serán tratados, de la finalidad y duración del tratamiento y si los datos se
+comunicarán o cederán a un tercero para la prestación de un servicio con valor añadido.”.
+
+      9) En el artículo 17:
+
+      a) Reemplázase la frase “bancos de datos” por la expresión “bases de datos”, todas las veces que
+aparece en su texto.
+
+      b) En el inciso primero:
+
+             i. Agrégase, en su encabezamiento, el siguiente epígrafe:
+
+      “Regla general del tratamiento de datos relativos a obligaciones de carácter financiero, bancario
+o comercial.”.
+
+             ii. Intercálase, entre el artículo “el” y la palabra “incumplimiento”, la expresión “cumplimiento o”.
+
+             c) Incorpórase el siguiente inciso octavo, pasando el actual a ser inciso noveno:
+
+      “Los responsables deberán suprimir de sus registros o bases de datos, toda aquella información
+personal relativa a obligaciones prescritas, sin necesidad de mediar solicitud, orden judicial, ni instrucción
+de la autoridad de protección de datos.”.
+
+      10) Agrégase el siguiente epígrafe, nuevo, en el inciso primero del artículo 18: “Limitación del
+tratamiento de datos para obligaciones financieras, bancarias o comerciales.”.
+
+      11) En el artículo 19:
+
+             a) En el inciso primero:
+
+      i. Agrégase el siguiente epígrafe, nuevo: “Efectos de la extinción de la obligación económica,
+bancaria o comercial.”.
+
+      ii. Reemplázase la referencia al “artículo 12” por otra al “artículo 4°”.
+
+      b) Reemplázanse, en el inciso segundo, la frase “o banco de datos”, por la expresión “o base de
+datos”, y la frase “al banco de datos” por “a la base de datos”.
+
+      c) Sustitúyese, en el inciso final, la frase “de acuerdo a lo previsto en el artículo 16”, por la
+siguiente: “de conformidad a lo dispuesto en el Título VII de esta ley”.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 15 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      12) Reemplázase el Título IV por el siguiente:
+
+                                                      “Título IV
+                        Del tratamiento de datos personales por los órganos públicos
+
+      Artículo 20.- Regla general del tratamiento de datos por órganos públicos. Es lícito el
+tratamiento de los datos personales que efectúan los órganos públicos cuando se realiza para el
+cumplimiento de sus funciones legales, dentro del ámbito de sus competencias, de conformidad a las
+normas establecidas en la ley, y a las disposiciones previstas en este Título. En esas condiciones, los
+órganos públicos actúan como responsables de datos y no requieren el consentimiento del titular para
+tratar sus datos personales.
+
+      Artículo 21.- Principios y normas aplicables al tratamiento de datos de los órganos públicos.
+El tratamiento de los datos personales que realicen los órganos públicos se rige por los principios
+establecidos en el artículo 3° de esta ley y los principios generales que rigen la Administración del
+Estado, especialmente los principios de coordinación, probidad y eficiencia.
+
+      En virtud del principio de coordinación los organismos públicos deben alcanzar un alto grado
+de interoperabilidad y coherencia, de modo de evitar contradicciones en la información almacenada
+y reiteración de requerimientos de información o documentos a los titulares de datos. Conforme al
+principio de eficiencia se debe evitar la duplicación de procedimientos y trámites entre los organismos
+públicos y entre éstos y los titulares de la información.
+
+      Sin perjuicio de las demás normas establecidas en el presente Título, son aplicables al tratamiento
+de datos que efectúen los órganos públicos, las disposiciones establecidas en los artículos 2°, 14, 14
+bis, 14 ter, 14 quáter, 14 quinquies, 14 sexies y 15 bis, los artículos de los Párrafos Segundo y Tercero
+del Título II y los artículos del Título V y del Título VII de esta ley. Asimismo, le son aplicables los
+artículos 4°, 5°, 6°, 7° y 8°, en conformidad a lo dispuesto en el artículo 23.
+
+      Artículo 22.- Comunicación o cesión de datos por un órgano público. Los órganos públicos
+están facultados para comunicar o ceder datos personales específicos, o todo o parte de sus bases de
+datos o conjuntos de datos, a otros órganos públicos, siempre que la comunicación o cesión de los datos
+resulte necesaria para el cumplimiento de sus funciones legales y ambos órganos actúen dentro del
+ámbito de sus competencias. La comunicación o cesión de los datos se debe realizar para un tratamiento
+específico y el órgano público receptor no los podrá utilizar para otros fines.
+
+      Asimismo, se podrá comunicar o ceder datos o bases de datos personales entre organismos
+públicos, exclusivamente cuando ellos se requieran para un tratamiento que tenga por finalidad otorgar
+beneficios al titular, evitar duplicidad de trámites para los ciudadanos o reiteración de requerimientos
+de información o documentos para los mismos titulares.
+
+      El órgano público receptor de los datos sólo puede conservarlos por el tiempo necesario para
+efectuar el tratamiento específico para el cual fueron requeridos, luego de lo cual deberán ser suprimidos
+o anonimizados. Estos datos se podrán almacenar por un tiempo mayor cuando el órgano público
+requiera atender reclamaciones o impugnaciones, realizar actividades de control o seguimiento, o
+sirvan para dar garantía de las decisiones adoptadas.
+
+      Para los efectos de poder comunicar o ceder datos personales a personas o entidades privadas,
+los organismos públicos deberán contar con el consentimiento del titular, salvo que la comunicación
+o cesión de datos sea necesaria para cumplir las funciones del organismo público en materia de
+fiscalización o inspección.
+
+      Cuando se trate de comunicar o ceder datos personales en virtud de una solicitud de acceso a la
+información formulada con arreglo a lo establecido en el artículo 10 de la ley N° 20.285, los organismos
+públicos deberán contar con el consentimiento del titular obtenido en la oportunidad prevista en el
+artículo 20 de dicha ley.
+
+      Respecto de la comunicación de los datos relativos a infracciones penales, civiles, administrativas
+y disciplinarias, se aplicará lo dispuesto en el artículo 25.
+
+      Los organismos públicos deberán informar mensualmente a través de su página web institucional
+los convenios suscritos con otros organismos públicos y con entidades privadas relativos a cesión o
+transferencia de datos personales. Esta obligación será fiscalizada por la Agencia.
+
+      Artículo 23.- Ejercicio de los derechos del titular, procedimiento administrativo de tutela y
+reclamo de ilegalidad. El titular de datos podrá ejercer ante el órgano público los derechos de acceso,
+rectificación y oposición que le reconoce esta ley. El titular también podrá oponerse a un tratamiento
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 16 de 34
+                      Viernes 13 de Diciembre de 2024
+
+específico cuando éste sea contrario a las disposiciones de este Título. El titular podrá ejercer el derecho
+de supresión en los casos previstos en el inciso tercero del artículo anterior.
+
+      Los organismos públicos no acogerán las solicitudes de acceso, rectificación, oposición, supresión
+o bloqueo temporal de los datos personales en los siguientes casos:
+
+      a) Cuando con ello se impida o entorpezca el cumplimiento de las funciones fiscalizadoras,
+investigativas, de protección a víctimas y testigos o sancionatorias del organismo público, y
+
+      b) Cuando con ello se afecte el carácter secreto de la información establecido por la ley.
+
+      El ejercicio de los derechos del titular se deberá realizar de acuerdo al procedimiento establecido
+en el artículo 11 de esta ley, dirigiéndose al jefe superior del servicio.
+
+      El titular podrá reclamar ante la Agencia cuando el organismo público le haya denegado, en
+forma expresa o tácita, una solicitud en que ejerce cualquiera de los derechos que le reconoce esta
+ley. La reclamación se sujetará a las normas previstas en el procedimiento administrativo de tutela de
+derechos establecido en el artículo 41.
+
+      Artículo 24.- Regímenes especiales. El tratamiento, comunicación o cesión de datos personales
+sensibles, realizado por órganos públicos competentes en las materias que a continuación se indican,
+estarán sujetos exclusivamente al régimen de regulación especial establecido en este artículo:
+
+      a) Aquellos que se realicen con fines de prevención, investigación, detección o enjuiciamiento
+de infracciones penales o de ejecución de sanciones penales, incluidas las actividades de protección y
+prevención frente a las amenazas y riesgos contra la seguridad pública, protección a víctimas y testigos,
+análisis criminal y reportabilidad de la información criminal. Respecto de los datos que se realicen
+con esta finalidad, no será aplicable lo dispuesto en el artículo 25.
+
+      b) Aquellos en materias relacionadas directamente con la seguridad de la Nación, la defensa
+nacional y la política exterior del país.
+
+      c) Aquellos realizados con el objeto exclusivo de atender una situación de emergencia o catástrofe,
+declarada de conformidad a la ley y sólo mientras permanezca vigente esta declaración.
+
+      d) Aquellos que se encuentren protegidos por normas de secreto, reserva o confidencialidad,
+establecidas en sus respectivas leyes. Dentro de esta excepción se entienden también comprendidos los
+datos que, en cumplimiento de una obligación legal, los órganos públicos deban ceder a otro órgano
+público o a terceros, debiendo en tal caso el receptor tratarlos manteniendo la misma obligación de
+secreto, reserva o confidencialidad.
+
+      Los órganos públicos correspondientes podrán tratar, ceder y comunicar datos personales de forma
+lícita, siempre y cuando se realice para el cumplimiento de sus funciones legales, dentro del ámbito
+de sus competencias y respetando las garantías fundamentales establecidas en el artículo 19, N° 4, de
+la Constitución Política de la República y los principios establecidos en el artículo 3°.
+
+      Con el objeto de realizar los tratamientos, cesiones y comunicaciones de datos para la finalidad
+prevista en las letras a), b) y c) anteriores, los órganos públicos y sus autoridades estarán obligadas a
+intercambiar información y proporcionar los datos personales que les sean requeridos para estos fines,
+siempre que se refieran a tratamientos que se realicen con una finalidad específica autorizada por ley
+o, cuando esto no sea posible, el requerimiento sea una medida necesaria y proporcional.
+
+      La Agencia de Protección de Datos Personales podrá, oyendo previamente a los órganos competentes,
+dictar instrucciones para especificar la forma de aplicar las referidas garantías y principios a los casos
+mencionados, de manera de asegurar su resguardo y permitir el debido cumplimiento de las funciones
+legales de los órganos correspondientes.
+
+      Artículo 25.- Datos relativos a infracciones penales, civiles, administrativas y disciplinarias.
+Los datos personales relativos a la comisión y sanción de infracciones penales, civiles, administrativas
+y disciplinarias sólo pueden ser tratados por los organismos públicos para el cumplimiento de sus
+funciones legales, dentro del ámbito de sus competencias y en los casos expresamente previstos en la ley.
+
+      En las comunicaciones que realicen los organismos públicos, con ocasión del tratamiento de estos
+datos personales, deberán velar en todo momento por que la información comunicada o hecha pública
+sea exacta, suficiente, actual y completa.
+
+      No podrán comunicarse o hacerse públicos los datos personales relativos a la comisión y condena
+de infracciones penales, civiles, administrativas o disciplinarias, una vez prescrita la acción penal,
+civil, administrativa o disciplinaria respectiva, o una vez que se haya cumplido o prescrito la pena o
+la sanción impuesta, lo que deberá ser declarado o constatado por la autoridad pública competente.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 17 de 34
+                      Viernes 13 de Diciembre de 2024
+
+Lo anterior es sin perjuicio de la incorporación, mantenimiento y consulta de esta información en
+los registros que llevan los órganos públicos por expresa disposición de la ley, en la forma y por el
+tiempo previsto en la ley que establece la obligación específica correspondiente. Las personas que se
+desempeñen en los órganos públicos están obligadas a guardar secreto respecto de esta información,
+la que deberá ser mantenida como información reservada.
+
+      Cuando la ley disponga que la información relativa a la comisión y sanción de infracciones
+penales, civiles, administrativas y disciplinarias deba hacerse pública a través de su incorporación en
+un registro de sanciones, o su publicación en el sitio web de un órgano público o en cualquier otro
+medio de comunicación o difusión, sin fijar un período de tiempo durante el cual deba permanecer
+disponible esta información, se seguirán las siguientes reglas:
+
+      a) Respecto de las infracciones penales, los plazos de publicidad se regirán por las normas
+particulares que rigen para este tipo de infracciones.
+
+      b) Respecto de las infracciones civiles, administrativas y disciplinarias, permanecerán accesibles
+al público por el período de cinco años.
+
+      Se prohíbe el tratamiento masivo de los datos personales contenidos en los registros electrónicos
+de infracciones penales, civiles, administrativas y disciplinarias que lleven los organismos públicos.
+El incumplimiento de esta prohibición constituye una infracción gravísima de conformidad a esta ley.
+
+      Exceptúanse de la prohibición de comunicación los casos en que la información sea solicitada
+por los tribunales de justicia u otro organismo público para el cumplimiento de sus funciones legales
+y dentro del ámbito de su competencia, quienes deberán mantener la debida reserva.
+
+      No obstante lo dispuesto en el inciso tercero del presente artículo, los datos personales relativos
+a la comisión y sanción de infracciones penales revisten carácter reservado y, salvo las disposiciones
+legales que autorizan su tratamiento, no podrán ser comunicados o cedidos a terceras personas por los
+organismos públicos que los posean.
+
+      Artículo 26.- Reglamento. Las condiciones, modalidades e instrumentos para la comunicación
+o cesión de datos personales entre organismos públicos y con personas u organismos privados, se
+regularán a través de un reglamento expedido por el Ministerio Secretaría General de la Presidencia
+y suscrito por el Ministro de Hacienda y por el Ministro de Economía, Fomento y Turismo, previo
+informe de la Agencia. En este mismo reglamento se regularán los procedimientos de anonimización
+de los datos personales, especialmente los datos personales sensibles.
+
+      Con todo, este reglamento no será aplicable a aquellas cesiones en las que tenga participación
+alguno de los órganos a los que se refiere el Título VIII de esta ley.”.
+
+      13) Reemplázase el Título V por el siguiente:
+
+                                                       “Título V
+                            De la transferencia internacional de datos personales
+
+      Artículo 27.- Regla general de autorización. Cumpliéndose los requisitos que, de conformidad
+a esta ley, autorizan al tratamiento de datos, son lícitas las operaciones de transferencia internacional
+de datos en cualquiera de los siguientes casos:
+
+      a) Cuando la transferencia se realice a una persona, entidad u organización pública o privada,
+sujeta al ordenamiento jurídico de un país que proporcione niveles adecuados de protección de datos
+personales, de conformidad a lo dispuesto en el artículo 28.
+
+      b) Cuando la transferencia de datos quede amparada por cláusulas contractuales, normas corporativas
+vinculantes, u otros instrumentos jurídicos suscritos entre el responsable que efectúa la transferencia
+y el responsable o tercero mandatario que la reciba, y en ellas se establezcan garantías adecuadas, de
+conformidad a lo dispuesto en el artículo 28.
+
+      c) Cuando el responsable que efectúa la transferencia y el responsable o tercero mandatario que
+la recibe, adopten un modelo de cumplimiento o mecanismo de certificación y en ellos se establezcan
+garantías adecuadas, de conformidad con el artículo 28.
+
+      En ausencia de una decisión de adecuación o de garantías adecuadas, se podrá realizar una
+transferencia específica y que no sea habitual, si se cumple alguno de los siguientes supuestos:
+
+      a) Cuando exista consentimiento expreso del titular de datos para realizar una transferencia
+internacional de datos específica y determinada.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 18 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      b) Cuando se refiera a transferencias bancarias, financieras o bursátiles específicas y que se realicen
+conforme a las leyes que regulan estas transferencias.
+
+      c) Cuando se deban transferir datos para dar cumplimiento a obligaciones adquiridas en tratados
+o convenios internacionales que hayan sido ratificados por el Estado chileno y se encuentren vigentes.
+
+      d) Cuando la transferencia resulte necesaria por aplicación de convenios de cooperación, intercambio
+de información o supervisión que hayan sido suscritos por órganos públicos para el cumplimiento de
+sus funciones y en el ejercicio de sus competencias.
+
+      e) Cuando la transferencia de datos realizada por una persona natural o jurídica, pública o privada,
+haya sido autorizada expresamente por la ley y para una finalidad determinada.
+
+      f) Cuando la transferencia sea efectuada con el objeto de prestar o solicitar colaboración judicial
+internacional.
+
+      g) Cuando la transferencia sea necesaria para la celebración o ejecución de un contrato entre el
+titular y el responsable, o para la ejecución de medidas precontractuales adoptadas a solicitud del titular.
+
+      h) Cuando sea necesario adoptar medidas urgentes en materia médica o sanitaria, para la prevención
+o diagnóstico de enfermedades, para tratamientos médicos o para la gestión de servicios sanitarios o
+de salud.
+
+      Artículo 28.- Regla de determinación de países adecuados y demás normas aplicables a la
+transferencia internacional de datos. Se entiende que el ordenamiento jurídico de un país posee
+niveles adecuados de protección de datos, cuando cumple con estándares similares o superiores a los
+fijados en esta ley. La Agencia determinará fundadamente los países que poseen niveles adecuados de
+protección de datos considerando, a lo menos, los siguientes:
+
+      a) El establecimiento de principios que rigen el tratamiento de los datos personales.
+      b) La existencia de normas que reconozcan y garanticen los derechos de los titulares de datos y
+la existencia de una autoridad pública jurisdiccional o administrativa de control o tutela.
+      c) La imposición de obligaciones de información y seguridad a los responsables del tratamiento
+de los datos y terceros mandatarios.
+      d) La determinación de responsabilidades en caso de infracciones.
+
+      Se considerarán garantías adecuadas aquellos instrumentos, mecanismos, cláusulas que contengan
+similares o mayores principios, derechos y garantías a aquellas que ofrece la presente ley, y en particular,
+que otorguen derechos exigibles y acciones legales efectivas a los titulares de los datos. La Agencia
+podrá aprobar cláusulas modelo y otros instrumentos jurídicos, sólo si contienen dichas garantías
+para el flujo transfronterizo de datos, las que estarán a disposición de los responsables. Las cláusulas
+modelo y otros instrumentos jurídicos que establezcan garantías adecuadas aprobados por la Agencia,
+no requerirán ninguna otra garantía adicional ni autorización.
+
+      La Agencia pondrá en su página web a disposición de los interesados un listado de países
+adecuados y modelos tipo de cláusulas contractuales y otros instrumentos jurídicos para la transferencia
+internacional de datos.
+
+      Cuando la transferencia se efectúe entre sociedades o entidades que pertenezcan a un mismo
+grupo empresarial, empresas relacionadas o sujetas a un mismo controlador en los términos previstos
+en la Ley de Mercado de Valores, siempre que todas ellas operen bajo los mismos estándares y
+políticas en materia de tratamiento de datos personales, las transferencias podrán quedar amparadas en
+normas corporativas vinculantes previamente aprobadas por la Agencia. El responsable que efectúe la
+transferencia de datos asumirá la responsabilidad por cualquier infracción a los estándares y políticas
+corporativas vinculantes en que incurra algunos de los miembros del grupo empresarial. El responsable
+sólo podrá exonerarse de esta responsabilidad cuando acredite que la infracción no fue imputable al
+miembro del grupo empresarial correspondiente.
+
+      Cuando no se verifique ninguna de las circunstancias señaladas en el artículo anterior, la Agencia
+podrá autorizar, mediante resolución fundada, la transferencia internacional de datos para un caso
+particular, siempre que el transmisor y el receptor de los datos otorguen las garantías adecuadas en
+relación con la protección de los derechos de las personas que son titulares de estos datos y la seguridad
+de la información transferida, de conformidad con la presente ley.
+
+      Corresponderá al responsable de datos que efectuó la transferencia internacional de datos, acreditar
+ante la Agencia que ésta se practicó de conformidad a las reglas establecidas en esta ley.
+
+      Artículo 29.- Fiscalización. La Agencia fiscalizará las operaciones de transferencia internacional
+de datos, pudiendo formular recomendaciones, adoptar medidas conservativas y en casos calificados,
+suspender temporalmente el envío de los datos.”.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 19 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      14) Intercálanse los siguientes Títulos VI, VII y VIII, nuevos:
+
+                                                      “Título VI
+                   Autoridad de Control en materia de Protección de Datos Personales
+
+      Artículo 30.- Agencia de Protección de Datos Personales. Créase la Agencia de Protección
+de Datos Personales, corporación autónoma de derecho público, de carácter técnico, descentralizado,
+con personalidad jurídica y patrimonio propio, que se relacionará con el Presidente de la República a
+través del Ministerio de Economía, Fomento y Turismo.
+
+      La Agencia tendrá por objeto velar por la efectiva protección de los derechos que garantizan la
+vida privada de las personas y sus datos personales, de conformidad a lo establecido en la presente
+ley, y fiscalizar el cumplimiento de sus disposiciones.
+
+      El domicilio de la Agencia será fijado en el reglamento, sin perjuicio de los domicilios que pueda
+establecer en otros puntos del país.
+
+      Artículo 30 bis.- Funciones y atribuciones de la Agencia. La Agencia tendrá las siguientes
+funciones y atribuciones:
+
+      a) Dictar instrucciones y normas generales y obligatorias con el objeto de regular las operaciones
+de tratamiento de datos personales conforme a los principios establecidos en esta ley. Las instrucciones
+y normas generales que dicte la Agencia deberán ser emitidas previa consulta pública efectuada a través
+de la página web institucional y deberán estar relacionadas estrictamente con la regulación de tratamiento
+de datos personales y que sea necesaria para el fiel cumplimiento de la presente ley, disponiéndose los
+mecanismos necesarios para que los interesados puedan formular observaciones a ésta.
+
+      b) Aplicar e interpretar administrativamente las disposiciones legales y reglamentarias en materia
+de protección de los datos personales y las instrucciones y normas generales que dicte la Agencia.
+
+      c) Fiscalizar el cumplimiento de las disposiciones de esta ley, sus reglamentos y las instrucciones
+y normas generales que se dicten respecto de los tratamientos de datos personales. Para ello, podrá
+requerir a quienes realicen tratamiento de datos personales la entrega de cualquier documento, libro o
+antecedente y toda la información que fuere necesaria para el cumplimiento de su función fiscalizadora.
+
+      d) Determinar las infracciones e incumplimientos en que incurran quienes realicen tratamiento de
+datos personales, en sus operaciones de tratamiento de datos, respecto de los principios y obligaciones
+establecidos en esta ley, sus reglamentos y las instrucciones y normas generales que emita la Agencia.
+Para tales efectos, y de manera fundada, podrá citar a declarar, entre otros, al titular, a los representantes
+legales, administradores, asesores y dependientes de quien trate datos personales, así como a toda
+persona que haya tenido participación o conocimiento respecto de algún hecho que sea relevante para
+resolver un procedimiento sancionatorio. Asimismo, podrá tomar las declaraciones respectivas por
+otros medios que aseguren su fidelidad.
+
+      e) Ejercer la potestad sancionadora sobre las personas naturales o jurídicas que traten datos
+personales con infracción a esta ley, sus reglamentos y a instrucciones y normas generales dictadas
+por la Agencia, aplicando las sanciones establecidas en la presente ley.
+
+      f) Resolver las solicitudes y reclamos que formulen los titulares de datos en contra de quienes
+traten datos personales con infracción a esta ley, sus reglamentos o las instrucciones y normas generales
+dictadas por la Agencia.
+
+      g) Desarrollar programas, proyectos y acciones de difusión, promoción e información a la
+ciudadanía, en relación al respeto a la protección de sus datos personales.
+
+      h) Proponer al Presidente de la República y al Congreso Nacional, en su caso, las normas legales y
+reglamentarias para asegurar a las personas la debida protección de sus datos personales y perfeccionar
+la regulación sobre el tratamiento y uso de esta información.
+
+      i) Prestar asistencia técnica, cuando le sea requerida, al Congreso Nacional, al Poder Judicial,
+a la Contraloría General de la República, al Ministerio Público, al Tribunal Constitucional, al Banco
+Central, al Servicio Electoral, a la Justicia Electoral y los demás tribunales especiales creados por ley,
+en la dictación y ejecución de las políticas y normas internas de estos organismos, con el objeto que
+sus operaciones y actividades de tratamiento de datos personales se realicen conforme a los principios
+y obligaciones establecidos en esta ley.
+
+      j) Relacionarse y colaborar con los órganos públicos en el diseño e implementación de políticas
+y acciones destinadas a velar por la protección de los datos personales y su correcto tratamiento.
+
+      k) Suscribir convenios de cooperación y colaboración con entidades públicas o privadas, nacionales,
+extranjeras o internacionales, que tengan competencia o estén relacionadas al ámbito de los datos
+personales. En los casos de suscribir convenios con entidades públicas internacionales se requerirá
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 20 de 34
+                      Viernes 13 de Diciembre de 2024
+
+consultar previamente al Ministerio de Relaciones Exteriores, de conformidad a lo establecido en el
+artículo 35 de la ley N° 21.080.
+
+      l) Participar, recibir cooperación y colaborar con organismos internacionales en materias de
+protección de datos personales.
+
+      m) Certificar, registrar y supervisar los modelos de prevención de infracciones y los programas
+de cumplimiento y administrar el Registro Nacional de Sanciones y Cumplimiento.
+
+      n) Ejercer las demás funciones y atribuciones que la ley le encomiende.
+
+      Requerido un organismo de la Administración para el ejercicio de las funciones o atribuciones
+que esta ley le entrega a la Agencia, deberá dar cumplimiento a lo dispuesto en el inciso segundo del
+artículo 14 de la ley N° 19.880.
+
+      Artículo 30 ter.- Dirección de la Agencia. La dirección superior de la Agencia le corresponderá
+al Consejo Directivo de la Agencia, el cual tendrá las siguientes funciones y atribuciones:
+
+      a) Ejercer las atribuciones y cumplir las funciones que la ley le encomiende a la Agencia.
+      b) Establecer normativa interna de funcionamiento de la Agencia para el cumplimiento de las
+funciones encomendadas por la ley.
+      c) Establecer políticas de planificación, organización, dirección, supervisión, coordinación y
+control de funcionamiento de la Agencia, así como las de administración, adquisición y enajenación
+de bienes.
+      d) Dictar normas de carácter general, circulares, oficios circulares y otras resoluciones que se
+requieran.
+      e) Formular al Presidente de la República o al Congreso Nacional las propuestas de reforma a
+normas legales y reglamentarias.
+      f) Elaborar, dentro del primer cuatrimestre de cada año, una cuenta pública anual en que se detalle
+el trabajo efectuado por la Agencia en el año inmediatamente anterior.
+
+      Artículo 30 quáter.- Miembros del Consejo Directivo de la Agencia. El Consejo Directivo
+de la Agencia estará integrado por tres consejeros, designados por el Presidente de la República, con
+acuerdo del Senado, adoptado por los dos tercios de sus miembros en ejercicio.
+
+      Para efectos de su designación, el Presidente de la República hará la proposición de la nómina
+que corresponda y el Senado deberá pronunciarse respecto de la propuesta.
+
+      Los candidatos a consejero deberán ser personas de reconocido prestigio profesional o académico
+en materias de protección de datos personales.
+
+      El Consejo Directivo de la Agencia designará a su presidente y vicepresidente, de entre sus
+miembros, de conformidad con lo establecido en los estatutos de la Agencia. Los cargos de presidente
+y vicepresidente durarán tres años o el tiempo que les reste como consejeros en cada caso.
+
+      Los consejeros durarán seis años en sus cargos, no podrán ser designados para un nuevo periodo
+y se renovarán de forma individual, cada dos años.
+
+      El cargo de consejero del Consejo Directivo de la Agencia exige dedicación exclusiva.
+      El Consejo Directivo de la Agencia adoptará sus decisiones por la mayoría de sus miembros y,
+en caso de empate, resolverá su presidente, o su vicepresidente en caso de ausencia del presidente. El
+quorum mínimo para sesionar será de dos consejeros. El reglamento establecerá las demás normas
+necesarias para su funcionamiento.
+      El Consejo Directivo de la Agencia deberá celebrar sesiones ordinarias a lo menos una vez por
+semana, y sesiones extraordinarias cuando las cite especialmente su presidente por sí o a requerimiento
+escrito de dos consejeros, en la forma y condiciones que determine su normativa interna de funcionamiento.
+El presidente no podrá negarse a realizar la citación indicada, debiendo la respectiva sesión tener lugar
+dentro de los dos días hábiles siguientes al requerimiento señalado.
+
+      Artículo 30 quinquies.- Inhabilidades e incompatibilidades. El cargo de consejero es incompatible
+con el desempeño de todo cargo o servicio, sea o no remunerado, que se preste en el sector privado. De
+igual forma, es incompatible con la calidad de integrante de los órganos de dirección de los partidos
+políticos, funcionarios de la Administración del Estado, y de todo empleo o servicio retribuido con
+fondos fiscales o municipales, y con las funciones, remuneradas o no, de consejero, director o trabajador
+de instituciones, organismos autónomos nacionales o extranjeros, empresas del Estado y, en general,
+de todo servicio público creado por ley, como asimismo, de empresas, sociedades o entidades públicas
+o privadas en que el Estado, sus empresas, sociedades o instituciones centralizadas o descentralizadas,
+tengan aportes de capital mayoritario o en igual proporción o, en las mismas condiciones, representación
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 21 de 34
+                      Viernes 13 de Diciembre de 2024
+
+o participación. Asimismo, es incompatible con cualquier otro servicio o empleo remunerado o gratuito
+en cualquier poder del Estado.
+
+      El cargo de consejero es compatible con el desempeño de cargos docentes en instituciones públicas
+o privadas reconocidas por el Estado, hasta un máximo de doce horas semanales.
+
+      El cónyuge o conviviente civil de cualquiera de los consejeros y sus parientes hasta el segundo
+grado de consanguinidad inclusive, no podrán ser director ni tener participación en la propiedad de
+una empresa cuyo objeto o giro comercial verse sobre recolección, tratamiento o comunicación de
+datos personales.
+
+      Adicionalmente, no podrá ser designado consejero:
+
+      a) La persona que hubiere sido condenada por delito que merezca pena aflictiva o inhabilitación
+perpetua para desempeñar cargos u oficios públicos, por delitos de prevaricación, cohecho y aquéllos
+cometidos en el ejercicio de la función pública, delitos tributarios y los delitos contra la fe pública.
+
+      b) La persona que tuviere dependencia de sustancias o drogas estupefacientes o sicotrópicas
+ilegales, a menos que justifique su consumo por tratamiento médico.
+
+      c) La persona que haya sido sancionada, dentro de los últimos cinco años, por infracción grave
+o gravísima a las normas que regulan el tratamiento de los datos personales y su protección.
+
+      d) Quienes, dentro del último año, hayan sido gerentes, delegados de datos, directores o hayan
+tenido participación en la propiedad de una empresa cuyo objeto o giro comercial verse sobre el
+tratamiento de datos personales.
+
+      En todo lo no expresamente regulado en este artículo, regirán las normas del Párrafo 2° del
+Título III del decreto con fuerza de ley N° 1-19.653, de 2000, del Ministerio Secretaría General de
+la Presidencia, que fija el texto refundido, coordinado y sistematizado de la ley N° 18.575, Orgánica
+Constitucional de Bases Generales de la Administración del Estado.
+
+      Artículo 30 sexies.- Remoción de consejeros y causales de cesación. Los consejeros serán
+removidos por la Corte Suprema, a requerimiento del Presidente de la República o de la Cámara de
+Diputados mediante acuerdo adoptado por simple mayoría, o a petición de quince diputados, por
+incapacidad, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones. La Corte
+Suprema conocerá del asunto en pleno especialmente convocado al efecto y para acordar la remoción
+deberá reunir el voto conforme de la mayoría de sus miembros en ejercicio.
+
+      Además de la remoción, serán causales de cesación en el cargo de consejero, las siguientes:
+
+      a) Expiración del plazo por el que fue designado.
+      b) Renuncia ante el Presidente de la República.
+      c) Postulación a un cargo de elección popular.
+      d) Inhabilidad o incompatibilidad sobreviniente, circunstancia que será calificada por la mayoría
+de los consejeros con exclusión del afectado.
+
+      En caso de que uno o más consejeros cesare por cualquier causa, procederá la designación
+de un nuevo consejero, mediante una proposición del Presidente de la República, sujeto al mismo
+procedimiento dispuesto en el artículo 30 quáter, por el período que restare.
+
+      Si el consejero que cesare en el cargo en virtud del presente artículo invistiere la condición de
+presidente o vicepresidente del Consejo Directivo de la Agencia, su reemplazante será designado en
+la forma prevista en el artículo 30 quáter, por el tiempo que faltare al que produjo la vacante.
+
+      Artículo 30 septies.- Remuneración. El presidente del Consejo Directivo de la Agencia percibirá
+una remuneración bruta mensualizada equivalente a la de un Subsecretario de Estado, y le corresponderá
+ejercer las funciones señaladas en el artículo 30 nonies y en las demás disposiciones legales pertinentes.
+
+      Los demás consejeros percibirán una remuneración equivalente al 85% de la remuneración que
+corresponda al presidente del Consejo Directivo de la Agencia.
+
+      Artículo 30 octies.- Estatutos Agencia. Los estatutos de la Agencia establecerán sus normas de
+funcionamiento. Los estatutos y sus modificaciones serán propuestos por la Agencia al Presidente de
+la República y su aprobación se dispondrá mediante decreto supremo expedido a través del Ministerio
+de Economía, Fomento y Turismo.
+
+      Artículo 30 nonies.- Funciones y atribuciones del presidente del Consejo Directivo de la
+Agencia. El presidente del Consejo Directivo de la Agencia será el jefe de servicio de la Agencia y tendrá
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 22 de 34
+                      Viernes 13 de Diciembre de 2024
+
+la representación judicial y extrajudicial de ésta. Tendrá a su cargo la organización y administración
+de la Agencia, y le corresponderá ejercer la vigilancia y control jerárquico de la actuación del personal
+de la Agencia.
+
+      Al presidente del Consejo Directivo de la Agencia le corresponderán especialmente las siguientes
+funciones y atribuciones:
+
+      a) Ejercer el rol de jefe de servicio.
+      b) Ejecutar y dar cumplimiento a las normas y acuerdos adoptados por el Consejo Directivo de
+la Agencia.
+      c) Citar y presidir las sesiones del Consejo Directivo de la Agencia, así como establecer la tabla
+de materias a ser tratadas en cada sesión.
+      d) Representar legal, judicial y extrajudicialmente a la Agencia.
+      e) Dictar los reglamentos internos necesarios para el buen funcionamiento del Consejo Directivo
+de la Agencia, previo acuerdo del Consejo Directivo de la Agencia, velando por el cumplimiento de
+las normas aplicables a la Agencia.
+      f) Contratar al personal de la Agencia y poner término a sus servicios, de conformidad a la ley.
+      g) Ejecutar los actos y celebrar las convenciones necesarias para el cumplimiento de los fines del
+Consejo Directivo de la Agencia.
+      h) Delegar atribuciones o facultades específicas en funcionarios de la Agencia.
+      i) Conducir las relaciones de la Agencia con los organismos públicos y demás órganos del Estado
+y con las personas o entidades sujetas a la fiscalización de ésta, como también con las entidades
+reguladoras internacionales de datos personales.
+      j) Ejercer las demás funciones que le sean delegadas por el Consejo Directivo de la Agencia.
+
+      El vicepresidente del Consejo Directivo de la Agencia asumirá las funciones y atribuciones del
+presidente del Consejo Directivo de la Agencia en caso de ausencia de éste.
+
+      Artículo 31.- Coordinación regulatoria con el Consejo para la Transparencia. Cuando
+la Agencia deba dictar una instrucción o norma de carácter general y obligatoria que pueda tener
+efectos en los ámbitos de competencia del Consejo para la Transparencia, de acuerdo a las funciones
+y atribuciones señaladas en la ley N° 20.285, le remitirá todos los antecedentes y requerirá de éste un
+informe para efectos de evitar o precaver potenciales conflictos de normas y asegurar la coordinación,
+cooperación y colaboración entre ambos órganos.
+
+      El Consejo para la Transparencia deberá evacuar el informe solicitado dentro del plazo de treinta
+días corridos, contado desde la fecha en que hubiere recibido el requerimiento a que se refiere el inciso
+precedente.
+
+      La Agencia considerará el contenido de la opinión del Consejo para la Transparencia expresándolo
+en la motivación de la instrucción o norma que dicte. Transcurrido el plazo sin que se hubiere recibido
+el informe, se procederá conforme al inciso segundo del artículo 38 de la ley N° 19.880.
+
+      A su vez, cuando el Consejo para la Transparencia deba dictar una instrucción general que tenga
+claros efectos en los ámbitos de competencia de la Agencia, de acuerdo a las funciones y atribuciones
+señaladas en esta ley, el Consejo para la Transparencia remitirá los antecedentes y requerirá informe
+a la Agencia, la cual deberá evacuarlo en el plazo de treinta días corridos, contado desde la fecha en
+que hubiere recibido el requerimiento. El Consejo para la Transparencia considerará el contenido de
+la opinión de la Agencia expresándolo en la motivación de la instrucción general que dicte al efecto.
+Transcurrido el plazo sin que se hubiere recibido el informe, se procederá conforme al inciso segundo
+del artículo 38 de la ley N° 19.880.
+
+      Artículo 32.- Personal de la Agencia y fiscalización. Las personas que presten servicios a la
+Agencia se regirán por el Código del Trabajo.
+
+      Sin perjuicio de lo anterior, serán aplicables a este personal las normas de probidad establecidas
+en la ley N° 20.880, sobre probidad en la función pública y prevención de los conflictos de intereses y
+en el Título III del decreto con fuerza de ley N° 1-19.653, de 2000, del Ministerio Secretaría General
+de la Presidencia, que fija el texto refundido, coordinado y sistematizado de la ley N° 18.575, Orgánica
+Constitucional de Bases Generales de la Administración del Estado, debiendo dejarse constancia en
+los contratos respectivos de una cláusula que así lo disponga.
+
+      Las personas que desempeñen funciones directivas en la Agencia serán seleccionadas mediante
+concurso público efectuado por la Dirección Nacional del Servicio Civil, sobre la base de una terna
+conformada por el Consejo de Alta Dirección Pública para cada caso, de acuerdo con las normas que
+regulan los procesos de selección de la Alta Dirección Pública según la ley N° 19.882.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 23 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      En caso de que terceros ejerzan, en contra de los consejeros o del personal de la Agencia, acciones
+judiciales por actos formales o por acciones u omisiones producidas en el ejercicio de sus cargos, la
+Agencia deberá proporcionarles defensa jurídica. Esta defensa se extenderá a todas aquellas acciones
+que se inicien en su contra incluso después de haber cesado en el cargo.
+
+      No procederá la defensa a que se refiere el inciso anterior en los casos en que los actos formales,
+acciones u omisiones en cuestión hayan configurado una causal de cesación imputable a la conducta
+del respectivo funcionario.
+
+      La Agencia deberá cumplir con las normas establecidas en el decreto ley N° 1.263, de 1975, sobre
+Administración Financiera del Estado.
+
+      Asimismo, la Agencia estará sometida a la fiscalización de la Contraloría General de la República,
+en lo que concierne a su personal y al examen y juzgamiento de sus cuentas.
+
+      Las resoluciones de la Agencia estarán exentas del trámite de toma de razón por la Contraloría
+General de la República.
+
+      Artículo 32 bis.- Del patrimonio. El patrimonio de la Agencia estará formado por:
+
+      a) El aporte que se contemple anualmente en la Ley de Presupuestos del Sector Público.
+      b) Los bienes muebles e inmuebles que se le transfieran o que adquieran a cualquier título y por
+los frutos que de ellos se perciban.
+      c) Las donaciones que la Agencia acepte. Las donaciones no requerirán del trámite de insinuación
+judicial a que se refiere el artículo 1401 del Código Civil.
+      d) Las herencias y legados que la Agencia acepte, lo que deberá hacer siempre con beneficio
+de inventario. Dichas asignaciones estarán exentas de toda clase de impuestos y de todo gravamen o
+pago que les afecten.
+      e) Los aportes de la cooperación internacional.
+
+                                                      Título VII
+         De las infracciones y sus sanciones, de los procedimientos y de las responsabilidades
+
+      Artículo 33.- Régimen general de responsabilidad. El responsable de datos, sea una persona
+natural o jurídica, de derecho público o privado, que en sus operaciones de tratamiento de datos
+personales infrinja los principios señalados en el artículo 3° y los derechos y obligaciones establecidos
+en esta ley, será sancionado de conformidad con las normas del presente Título.
+
+                                                  Párrafo Primero
+De la responsabilidad, las infracciones y las sanciones aplicables a las personas naturales o jurídicas
+
+                                                 de derecho privado
+
+      Artículo 34.- Infracciones leves, graves y gravísimas. Las infracciones cometidas por los
+responsables de datos a los principios señalados en el artículo 3° y a los derechos y obligaciones
+establecidos en esta ley se califican, atendida su gravedad, en leves, graves y gravísimas.
+
+      Las responsabilidades en que incurra una persona natural o jurídica por las infracciones establecidas
+en esta ley, se entienden sin perjuicio de las demás responsabilidades legales, civiles o penales, que
+pudieran corresponderle.
+
+      Artículo 34 bis.- Infracciones leves. Se consideran infracciones leves, las siguientes:
+
+      a) Incumplir total o parcialmente el deber de información y transparencia, establecido en el
+artículo 14 ter.
+
+      b) Carecer de la individualización del domicilio postal, correo electrónico o medio electrónico
+equivalente que permita comunicarse con el responsable de datos o su representante legal, actualizado
+y operativo, a través del cual los titulares de datos puedan dirigir sus comunicaciones o ejercer sus
+derechos.
+
+      c) Omitir la respuesta, responder en forma incompleta o fuera de plazo, las solicitudes formuladas
+por el titular de datos en conformidad a esta ley.
+
+      d) Omitir el envío a la Agencia de las comunicaciones previstas obligatoriamente en esta ley o
+sus reglamentos.
+
+      e) Incumplir las instrucciones generales impartidas por la Agencia en los casos que no esté
+sancionado como infracción grave o gravísima.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 24 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      f) Cometer cualquier otra infracción a los derechos y obligaciones establecidos en esta ley, que
+no sea calificada como una infracción grave o gravísima.
+
+      Artículo 34 ter.- Infracciones graves. Se consideran infracciones graves, las siguientes:
+
+      a) Tratar los datos personales sin contar con el consentimiento del titular de datos o sin un
+antecedente o fundamento legal que otorgue licitud al tratamiento, o tratarlos con una finalidad distinta
+de aquélla para la cual fueron recolectados.
+
+      b) Comunicar o ceder datos personales, sin el consentimiento del titular, en los casos en que
+dicho consentimiento sea necesario, o comunicar o ceder los datos para un fin distinto del autorizado.
+
+      c) Efectuar tratamiento de datos personales innecesarios en relación con los fines del tratamiento
+vulnerando lo dispuesto en el literal c) del artículo 3°.
+
+      d) Tratar datos personales inexactos, incompletos o desactualizados en relación con los fines del
+tratamiento, salvo que la actualización de estos datos corresponda al titular en virtud de la ley o el
+contrato.
+
+      e) Impedir u obstaculizar el ejercicio legítimo de los derechos de acceso, rectificación, supresión,
+oposición o portabilidad del titular.
+
+      f) Omitir la respuesta, responder tardíamente o denegar la petición sin causa justificada, en los
+casos de solicitudes fundadas de bloqueo temporal del tratamiento de datos personales de un titular.
+
+      g) Realizar tratamiento de datos personales de niños, niñas y adolescentes con infracción a las
+normas previstas en esta ley.
+
+      h) Realizar tratamiento de datos personales sin cumplir los requisitos establecidos para las personas
+jurídicas de derecho privado sin fines de lucro y cuya finalidad sea política, filosófica, religiosa, cultural,
+sindical o gremial, respecto de los datos de sus asociados.
+
+      i) Vulnerar el deber de secreto o confidencialidad establecido en el artículo 14 bis.
+      j) Vulnerar o infringir las obligaciones de seguridad en el tratamiento de los datos personales
+establecidas en el artículo 14 quinquies.
+      k) Omitir las comunicaciones o los registros en los casos de vulneración de las medidas de
+seguridad establecidas en el artículo 14 quinquies.
+      l) Adoptar medidas de calidad y seguridad insuficientes o no idóneas para el tratamiento de datos
+personales con fines históricos, estadísticos o científicos y para estudios o investigaciones que atiendan
+fines de interés público.
+      m) Realizar operaciones de transferencia internacional de datos en contravención a las normas
+previstas en esta ley.
+      n) Incumplir una resolución o un requerimiento específico y directo que haya impartido la Agencia.
+
+      Artículo 34 quáter.- Infracciones gravísimas. Se consideran infracciones gravísimas, las siguientes:
+
+      a) Efectuar tratamiento de datos personales en forma fraudulenta.
+      b) Destinar maliciosamente los datos personales a una finalidad distinta de la consentida por el
+titular o prevista en la ley que autoriza su tratamiento.
+      c) Comunicar o ceder, a sabiendas, información no veraz, incompleta, inexacta o desactualizada
+sobre el titular de datos.
+      d) Vulnerar el deber de secreto o confidencialidad sobre los datos personales sensibles y datos
+personales relativos a la comisión y sanción de infracciones penales, civiles, administrativas y
+disciplinarias.
+      e) Tratar, comunicar o ceder, a sabiendas, datos personales sensibles o datos personales de niños,
+niñas y adolescentes, en contravención a las normas de esta ley.
+      f) Omitir en forma deliberada la comunicación de las vulneraciones a las medidas de seguridad
+que puedan afectar la confidencialidad, disponibilidad o integridad de los datos personales.
+      g) Efectuar tratamiento masivo de datos personales contenidos en registros electrónicos de
+infracciones penales, civiles, administrativas y disciplinarias, que llevan los organismos públicos, sin
+contar con autorización legal para ello.
+      h) Realizar, a sabiendas, operaciones de transferencia internacional de datos en contravención a
+las normas previstas en esta ley.
+      i) Incumplir una resolución de la Agencia que resuelve la reclamación de un titular sobre el
+ejercicio de sus derechos de acceso, rectificación, supresión, oposición, portabilidad o bloqueo temporal.
+      j) Entregar, a sabiendas, información falsa, incompleta o manifiestamente errónea en el proceso
+de registro o certificación del modelo de prevención de infracciones.
+      k) Incumplir la obligación establecida en el artículo 15 ter, en los casos que corresponda.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 25 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      Artículo 35.- Sanciones. Las sanciones a las infracciones en que incurran los responsables de
+datos serán las siguientes:
+
+      a) Las infracciones leves serán sancionadas con amonestación escrita o multa de hasta 5.000
+unidades tributarias mensuales.
+
+      b) Las infracciones graves serán sancionadas con multa de hasta 10.000 unidades tributarias
+mensuales.
+
+      c) Las infracciones gravísimas serán sancionadas con multa de hasta 20.000 unidades tributarias
+mensuales.
+
+      En cada caso, la Agencia señalará las medidas tendientes a subsanar las causales que dieron
+motivo a la sanción, las que deberán ser adoptadas en un plazo no mayor a sesenta días, de lo contrario
+se impondrá un recargo de 50% a la multa cursada, sin perjuicio de lo establecido en el artículo 49.
+
+      En caso de que exista reincidencia, de conformidad al literal a) del inciso segundo del artículo
+36, la Agencia podrá aplicar una multa de hasta tres veces el monto asignado a la infracción cometida.
+
+      En caso de que el infractor corresponda a una empresa distinta de aquéllas definidas como
+empresas de menor tamaño en el artículo segundo de la ley N° 20.416, que reincida en infracción de
+carácter grave o gravísima en los términos del literal a) del inciso segundo del artículo 36, la multa
+podrá alcanzar a la más gravosa entre la señalada en el inciso anterior o hasta el monto correspondiente
+al 2% o 4% de los ingresos anuales por ventas y servicios y otras actividades del giro en el último año
+calendario, según se trate de infracciones graves o gravísimas, respectivamente.
+
+      Artículo 36.- Circunstancias atenuantes y agravantes de responsabilidad. Se considerarán
+circunstancias atenuantes:
+
+      1. Las acciones unilaterales de reparación que realice el responsable y los acuerdos reparatorios
+convenidos con los titulares de datos que fueron afectados.
+
+      2. La colaboración que el infractor preste en la investigación administrativa practicada por la
+Agencia.
+
+      3. La ausencia de sanciones previas del responsable de datos.
+      4. La autodenuncia ante la Agencia. Junto con la autodenuncia, el infractor deberá comunicar las
+medidas adoptadas para el cese de los hechos que originaron la infracción o las medidas de mitigación
+implementadas, según corresponda.
+      5. El haber cumplido diligentemente sus deberes de dirección y supervisión para la protección de
+los datos personales sujetos a tratamiento, lo que se verificará con el certificado expedido de acuerdo
+a lo dispuesto en el artículo 51.
+
+      Se considerarán circunstancias agravantes:
+
+      a) La reincidencia. Existe reincidencia cuando el responsable ha sido sancionado en dos o más
+ocasiones, en los últimos treinta meses, por infracción a esta ley. Las resoluciones que aplican las
+sanciones respectivas deberán encontrarse firmes o ejecutoriadas.
+
+      b) El carácter continuado de la infracción.
+      c) El haber puesto en riesgo la seguridad de los derechos y libertades de los titulares en relación
+a sus datos personales.
+
+      Artículo 37.- Determinación del monto de las multas. Para la determinación del monto de las
+multas señaladas en esta ley, la Agencia deberá aplicar prudencialmente los siguientes criterios:
+
+      1. La gravedad de la conducta.
+      2. Si la conducta fue realizada con falta de diligencia o cuidado en aquellos casos que no se
+consideran estos elementos en la configuración de la infracción.
+      3. El perjuicio producido con motivo de la infracción, especialmente el número de titulares de
+datos que se vieron afectados.
+      4. El beneficio económico obtenido con motivo de la infracción, en caso de que lo hubiese.
+      5. Si el tratamiento realizado incluye datos personales sensibles o datos personales de niños,
+niñas y adolescentes.
+      6. La capacidad económica del infractor.
+      7. Las sanciones aplicadas con anterioridad por la Agencia en las mismas circunstancias.
+      8. Las circunstancias atenuantes y agravantes que concurran.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 26 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      En caso de que una conducta dé origen a dos o más infracciones, o cuando una infracción sea
+medio para cometer otra, se impondrá una sola multa, considerando siempre la sanción de la infracción
+más grave. En caso de que se verifiquen dos o más conductas infraccionales, independientes entre sí,
+se acumularán las sanciones correspondientes a cada una de ellas.
+
+      Las multas deberán ser pagadas en la Tesorería General de la República, a través de los medios
+presenciales o digitales que ella disponga, dentro del plazo de diez días hábiles contado desde que
+la resolución de la Agencia se encuentre firme. El comprobante de pago correspondiente deberá ser
+presentado a la Agencia dentro del plazo de diez días hábiles contado desde que se hubiere efectuado
+el pago.
+
+      Cuando por unos mismos hechos y fundamentos jurídicos, el infractor pudiese ser sancionado con
+arreglo a esta ley y a otra u otras leyes, de las sanciones posibles, se le impondrá la de mayor gravedad.
+
+      Artículo 38.- Sanciones accesorias. En caso que se impongan multas por infracciones gravísimas
+reiteradas, en un período de veinticuatro meses, la Agencia podrá disponer la suspensión de las operaciones
+y actividades de tratamiento de datos que realiza el responsable de datos, hasta por un término de treinta
+días. Esta suspensión no afectará el almacenamiento de datos por parte del responsable.
+
+      La suspensión que disponga la Agencia como sanción accesoria podrá ser parcial o total, y no
+podrá decretarse cuando con ello se afecten los derechos de los titulares.
+
+      Durante este período el responsable deberá adoptar las medidas necesarias con el objeto de adecuar
+sus operaciones y actividades a las exigencias dispuestas en la resolución que ordenó la suspensión.
+
+      Si el responsable no da cumplimiento a lo dispuesto en la resolución de suspensión temporal,
+esta medida se podrá prorrogar indefinidamente, por períodos sucesivos de máximo treinta días, hasta
+que el responsable cumpla con lo ordenado.
+
+      Cuando la suspensión afecte a una entidad sujeta a supervisión por parte de un organismo público
+de carácter fiscalizador, la Agencia deberá previamente poner los antecedentes en conocimiento de
+la autoridad regulatoria correspondiente, para los efectos de cautelar los derechos de los usuarios de
+dicha entidad.
+
+      Artículo 39.- Registro Nacional de Sanciones y Cumplimiento. Créase el Registro Nacional de
+Sanciones y Cumplimiento, administrado por la Agencia. El registro será público y su acceso gratuito.
+Se consultará y llevará en forma electrónica.
+
+      En él se deberán consignar a los responsables de datos que hayan sido sancionados por infringir
+los derechos y obligaciones establecidos en esta ley. Deberá distinguirse según la gravedad de la
+infracción. Adicionalmente, se deberá consignar la conducta infraccionada, las circunstancias atenuantes
+y agravantes de responsabilidad y la sanción impuesta. También se deberán consignar los responsables
+que adopten modelos certificados de prevención de infracciones, con carácter vigente.
+
+      Las anotaciones en el registro serán de acceso público por el período de cinco años, a contar de
+la fecha en que se practicó la anotación.
+
+      Artículo 40.- Prescripción. Las acciones para perseguir la responsabilidad por las infracciones
+previstas en esta ley prescriben en el plazo de cuatro años, contado desde la ocurrencia del hecho que
+originó la infracción.
+
+      En caso de infracciones continuadas, el plazo de prescripción de las referidas acciones se contará
+desde el día en que la infracción haya cesado.
+
+      Se interrumpe la prescripción con la notificación del inicio del procedimiento administrativo
+correspondiente.
+
+      Las sanciones que se impongan por una infracción a la presente ley prescriben en el plazo de tres
+años, contado desde la fecha en que la resolución que impone la sanción quede ejecutoriada.
+
+                                                  Párrafo Segundo
+                                     De los procedimientos administrativos
+
+      Artículo 41.- Procedimiento administrativo de tutela de derechos. El titular de datos podrá
+reclamar ante la Agencia cuando el responsable le haya denegado una solicitud realizada de conformidad
+al artículo 11 de la presente ley, o no hubiere dado respuesta a dicha solicitud dentro del plazo legal
+establecido en ese artículo.
+
+      La reclamación presentada se tramitará conforme a las siguientes reglas:
+
+      a) Deberá ser presentada por escrito, en formato físico o electrónico dentro del plazo de treinta días
+hábiles contado desde que reciba la respuesta negativa del responsable de datos o haya vencido el plazo
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 27 de 34
+                      Viernes 13 de Diciembre de 2024
+
+que disponía el responsable para responder el requerimiento formulado por el titular. La reclamación
+deberá señalar la decisión impugnada en caso de rechazo u omisión de respuesta y acompañar todos los
+antecedentes en que aquélla se funda e indicar un domicilio postal o una dirección de correo electrónico
+u otro medio electrónico equivalente donde se practicarán las notificaciones.
+
+      b) Junto con la interposición del reclamo, a petición fundada del titular y sólo en casos justificados,
+la Agencia podrá suspender el tratamiento de los datos personales que conciernen al titular y que son
+objeto de la reclamación, debiendo previamente oír al responsable de datos.
+
+      c) Recibido el reclamo, la Agencia, dentro de los diez días hábiles siguientes, deberá determinar
+si éste cumple con los requisitos establecidos en la letra a) para ser acogido a tramitación. En caso de
+que no se acoja a trámite la reclamación, la resolución de la Agencia debe ser fundada y se notificará
+al titular. En todo caso, se entenderá acogido a tramitación el reclamo si la Agencia no se pronuncia
+en el término indicado precedentemente.
+
+      d) Acogido el reclamo a tramitación, la Agencia notificará al responsable de datos, quien dispondrá
+de un plazo de treinta días corridos, prorrogables hasta por el mismo plazo, para responder la reclamación,
+acompañando todos los antecedentes que estime pertinentes. Las notificaciones que se practiquen al
+responsable se realizarán a su domicilio postal, dirección de correo electrónico u otro medio electrónico
+equivalente a que alude la letra c) del artículo 14 ter.
+
+      e) Vencido este plazo, haya o no contestado el responsable de los datos y, sólo si existen hechos
+sustanciales, pertinentes y controvertidos, la Agencia podrá abrir un término probatorio de diez días
+hábiles en el cual las partes pueden hacer valer todos los medios de prueba que estimen convenientes.
+
+      f) El responsable de datos en su respuesta podrá allanarse a la reclamación, en cuyo caso deberá
+acompañar los antecedentes o testimonios que acrediten esta circunstancia. Verificado lo anterior, será
+notificado el titular de datos quien tendrá diez días para hacer valer sus derechos. Cumplido el plazo,
+la Agencia procederá al archivo de los antecedentes, previa aplicación de la sanción o instrucción al
+responsable de datos, cuando corresponda.
+
+      g) La Agencia tendrá amplias facultades para solicitar antecedentes o informes que contribuyan
+a su resolución. Podrá convocar a las partes a una audiencia e instarlas a alcanzar un acuerdo. Las
+opiniones que puedan expresar los funcionarios de la Agencia en esta audiencia, no los inhabilitará
+para seguir conociendo del asunto en caso de que no se alcance un acuerdo. Logrado el acuerdo se
+archivarán los antecedentes.
+
+      h) La resolución del reclamo deberá dictarse por la Agencia y deberá ser fundada. El procedimiento
+administrativo de tutela de derechos no podrá superar los seis meses.
+
+      i) La resolución de la Agencia que no acoge a tramitación un reclamo y la resolución que resuelve
+la reclamación, podrán ser impugnadas judicialmente dentro del plazo de quince días hábiles contado
+desde su notificación, a través del procedimiento establecido en el artículo 43.
+
+      Las reclamaciones y las solicitudes de suspensión del tratamiento formuladas en caso de rechazo
+de una solicitud de bloqueo temporal, deberán ser resueltas por la Agencia en el plazo máximo de tres
+días hábiles, sin necesidad de oír previamente a las partes.
+
+      Artículo 42.- Procedimiento administrativo por infracción de ley. La determinación de las
+infracciones que cometan los responsables de datos por incumplimiento o vulneración de los principios
+establecidos en el artículo 3°, de los derechos y obligaciones establecidos en esta ley y la aplicación
+de las sanciones correspondientes, se sujetará a las siguientes reglas especiales:
+
+      a) El procedimiento sancionatorio será instruido por la Agencia.
+      b) La Agencia podrá iniciar un procedimiento sancionatorio, de oficio o a petición de parte, como
+resultado de un proceso de fiscalización o a consecuencia de una reclamación presentada por un titular
+de datos, en virtud del procedimiento establecido en los artículos 23 y 41 de esta ley. En este último
+caso, se deberá certificar la recepción del reclamo. Junto con la apertura del expediente, la Agencia
+deberá designar un funcionario responsable de la instrucción del procedimiento.
+      c) La Agencia deberá presentar una formulación de cargos en contra del responsable de datos
+en que describa los hechos que configuran la infracción, los principios y obligaciones incumplidos o
+vulnerados por el responsable, las normas legales infringidas y cualquier otro antecedente que sirva
+para sustentar la formulación.
+      d) La formulación de cargos debe notificarse al responsable de datos a su domicilio postal, dirección
+de correo electrónico u otro medio electrónico equivalente señalado en la letra c) del artículo 14 ter.
+      e) El responsable de datos tendrá un plazo de quince días hábiles para presentar sus descargos.
+En esa oportunidad, el responsable de datos puede acompañar todos los antecedentes que estime
+pertinentes para desacreditar los hechos imputados. Junto con los descargos, el responsable deberá fijar
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 28 de 34
+                      Viernes 13 de Diciembre de 2024
+
+una dirección de correo electrónico a través de la cual se realizarán todas las demás comunicaciones
+y notificaciones.
+
+      f) Recibidos los descargos o transcurrido el plazo otorgado para ello, la Agencia podrá abrir un
+término probatorio de diez días en el caso que existan hechos sustanciales, pertinentes y controvertidos.
+
+      g) La Agencia dará lugar a las medidas o diligencias probatorias que solicite el responsable en sus
+descargos, siempre que sean pertinentes y necesarias. En caso de rechazo, deberá fundar su resolución.
+
+      h) Los hechos investigados y las responsabilidades de los presuntos infractores pueden acreditarse
+mediante cualquier medio de prueba admisible en derecho, los que se apreciarán de acuerdo a las
+reglas de la sana crítica.
+
+      i) La Agencia tendrá amplias facultades para solicitar antecedentes o informes que contribuyan
+a su resolución.
+
+      j) La resolución que ponga fin al procedimiento sancionatorio debe ser fundada y resolver
+todas las cuestiones planteadas en el expediente, pronunciándose sobre cada una de las alegaciones
+y defensas formuladas por el responsable de datos y contendrá la declaración de haberse configurado
+el incumplimiento o vulneración de los principios, derechos y obligaciones establecidos en la ley
+por el responsable o su absolución, según corresponda. En caso que la Agencia considere que se ha
+verificado la infracción, en la misma resolución ponderará las circunstancias que agravan o atenúan
+la responsabilidad del infractor e impondrá la sanción, de acuerdo a la gravedad de la infracción
+cometida.
+
+      k) La resolución que establezca el incumplimiento o vulneración a los principios, derechos y
+obligaciones de esta ley y aplique la sanción correspondiente deberá ser fundada. Esta resolución
+debe indicar los recursos administrativos y judiciales que procedan contra ella en conformidad a esta
+ley, los órganos ante los que deben presentarse y los plazos para su interposición. La resolución de la
+Agencia que resuelve el procedimiento por infracción de ley será reclamable judicialmente conforme
+al artículo siguiente.
+
+      l) El procedimiento administrativo de infracción de ley no podrá superar los seis meses. Cuando
+hayan transcurrido más de seis meses desde la fecha de la certificación indicada en la letra b) de este
+artículo sin que la Agencia haya resuelto la reclamación, el interesado podrá presentar un reclamo de
+ilegalidad en los términos previstos en el siguiente artículo.
+
+                                                   Párrafo Tercero
+                                   Del procedimiento de reclamación judicial
+
+      Artículo 43.- Procedimiento de reclamación judicial. Las personas naturales o jurídicas
+interesadas que estimen que un acto administrativo que paraliza el procedimiento, o una resolución
+final o de término emanado de la Agencia, sea ilegal, podrán deducir un reclamo de ilegalidad ante
+la Corte de Apelaciones de Santiago o la del lugar donde se encuentre domiciliado el reclamante, a
+elección de este último. El reclamo deberá interponerse dentro de los quince días hábiles siguientes a
+la notificación de la resolución impugnada, según las siguientes reglas:
+
+      a) El reclamante señalará en su escrito, con precisión, la resolución objeto del reclamo, la o las
+normas legales que se suponen infringidas, la forma en que se ha producido la infracción, y cuando
+procediere, las razones por las cuales el acto le causa agravio.
+
+      b) La Corte podrá declarar inadmisible la reclamación si el escrito no cumple con las condiciones
+señaladas en la letra a) anterior. Asimismo, podrá decretar orden de no innovar cuando la ejecución
+del acto impugnado le produzca un daño irreparable al recurrente.
+
+      c) Recibida la reclamación, la Corte requerirá de informe de la Agencia, concediéndole un plazo
+de diez días al efecto.
+
+      d) Evacuado el traslado o teniéndosele por evacuado en rebeldía, la Corte puede abrir un término
+de prueba, si así lo estima necesario, el que se regirá por las reglas de los incidentes que contempla
+el Código de Procedimiento Civil.
+
+      e) Vencido el término de prueba, se ordenará traer los autos en relación. La vista de esta causa
+gozará de preferencia para su inclusión en la tabla.
+
+      f) Si la Corte da lugar al reclamo, en su sentencia decidirá si existió agravio y ordenará, según
+sea procedente, la rectificación del acto impugnado y la dictación de la respectiva resolución, según
+corresponda.
+
+      g) Tratándose de reclamaciones en contra de una resolución que resuelve un procedimiento
+sancionatorio, la Corte podrá confirmar o revocar la resolución impugnada, establecer o desechar
+la comisión de la infracción, según corresponda y, mantener, dejar sin efecto o modificar la sanción
+impuesta al responsable o su absolución, según sea el caso.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 29 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      h) En todo aquello no regulado por el presente artículo, regirán las normas establecidas en el
+Código Orgánico de Tribunales y en el Código de Procedimiento Civil, según corresponda.
+
+                                                   Párrafo Cuarto
+  De la responsabilidad de los órganos públicos, de la autoridad o jefe superior del órgano y de sus
+
+                                                     funcionarios
+
+      Artículo 44.- Responsabilidad administrativa del jefe superior del órgano público. El jefe
+superior de un órgano público deberá velar por que el órgano respectivo realice sus operaciones y
+actividades de tratamiento de los datos personales con arreglo a los principios, derechos y obligaciones
+establecidos en el Título IV de esta ley.
+
+      Asimismo, los órganos públicos deberán someterse a las medidas tendientes a subsanar o prevenir
+infracciones que indique la Agencia o a los programas de cumplimiento o de prevención de infracciones
+del artículo 49.
+
+      Las infracciones a los principios establecidos en el artículo 3°, y a los derechos y obligaciones
+en que puedan incurrir los órganos públicos se tipifican en los artículos 34 bis, 34 ter y 34 quáter y
+serán sancionadas con multa de veinte por ciento a cincuenta por ciento de la remuneración mensual
+del jefe superior del órgano público infractor. La cuantía de la multa se determinará considerando
+la gravedad de la infracción, la naturaleza de los datos tratados y el número de titulares afectados.
+En la determinación de la sanción se deberán considerar también las circunstancias que atenúan la
+responsabilidad del infractor.
+
+      Si el órgano público persiste en la infracción, se le aplicará al jefe superior del órgano público
+el duplo de la sanción originalmente impuesta y la suspensión en el cargo por un lapso de cinco días.
+
+      Tratándose de datos personales sensibles, la multa será del cincuenta por ciento de la remuneración
+mensual del jefe superior del órgano público y procederá la suspensión en el cargo de hasta treinta días.
+
+      Las infracciones en que incurra un órgano público en el tratamiento de los datos personales serán
+determinadas por la Agencia de acuerdo al procedimiento establecido en el artículo 42.
+
+      Habiéndose configurado la infracción, las sanciones administrativas señaladas en este artículo
+serán aplicadas por la Agencia. Con todo, la Contraloría General de la República, a petición de la
+Agencia podrá, de acuerdo a las normas de su ley orgánica, incoar los procedimientos administrativos
+y proponer las sanciones que correspondan.
+
+      En contra de las resoluciones de la Agencia se podrá deducir el reclamo de ilegalidad establecido
+en el artículo 43.
+
+      Las sanciones previstas en este artículo deberán ser publicadas en el sitio web de la Agencia y
+del respectivo órgano o servicio dentro del plazo de cinco días hábiles contado desde que la respectiva
+resolución quede firme.
+
+      Artículo 45.- Responsabilidad del funcionario infractor. Sin perjuicio de lo dispuesto en
+el artículo anterior, si en el procedimiento administrativo correspondiente se determina que existen
+responsabilidades individuales de uno o más funcionarios del órgano público, la Contraloría General
+de la República, a petición de la Agencia, iniciará una investigación sumaria para determinar las
+responsabilidades de dichos funcionarios o lo hará en el procedimiento administrativo ya iniciado, en
+su caso. Las sanciones a los funcionarios infractores serán determinadas de conformidad a lo dispuesto
+en el Estatuto Administrativo.
+
+      En caso de que el procedimiento administrativo correspondiente determine que cualquiera de
+los funcionarios involucrados es responsable de alguna de las infracciones gravísimas señaladas en
+el artículo 34 quáter de esta ley, esta conducta se considerará una contravención grave a la probidad
+administrativa.
+
+      Artículo 46.- Deber de los funcionarios de reserva y confidencialidad. Los funcionarios de los
+órganos públicos que traten datos personales y especialmente, cuando se refieran a datos personales
+sensibles o datos relativos a la comisión y sanción de infracciones penales, civiles, administrativas
+y disciplinarias, deben guardar secreto o confidencialidad respecto de la información que tomen
+conocimiento en el ejercicio de sus cargos y abstenerse de usar dicha información con una finalidad
+distinta de la que corresponda a las funciones legales del órgano público respectivo o utilizarla en
+beneficio propio o de terceros. Para efectos de lo dispuesto en el inciso segundo del artículo 125 del
+Estatuto Administrativo, se estimará que los hechos que configuren infracciones a esta disposición
+vulneran gravemente el principio de probidad administrativa, sin perjuicio de las demás sanciones y
+responsabilidades que procedan.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 30 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      Cuando, en cumplimiento de una obligación legal, un órgano público comunica o cede a otro
+órgano público datos protegidos por normas de secreto o confidencialidad, el organismo público receptor
+y sus funcionarios deberán tratarlos manteniendo la misma obligación de secreto o confidencialidad.
+
+                                                   Párrafo Quinto
+                                            De la responsabilidad civil
+
+      Artículo 47.- Norma general. El responsable de datos deberá indemnizar el daño patrimonial
+y extrapatrimonial que cause al o los titulares, cuando en sus operaciones de tratamiento de datos
+infrinja los principios establecidos en el artículo 3°, los derechos y obligaciones establecidos en esta
+ley y les cause perjuicio. Lo anterior no obsta al ejercicio de los demás derechos que concede esta ley
+al o los titulares de datos.
+
+      La acción indemnizatoria señalada en el inciso anterior podrá interponerse una vez ejecutoriada
+la resolución que resolvió favorablemente el reclamo interpuesto ante la Agencia o la sentencia se
+encuentre firme y ejecutoriada, en caso de haber presentado un reclamo de ilegalidad, y se tramitará
+de conformidad a las normas del procedimiento sumario establecidas en los artículos 680 y siguientes
+del Código de Procedimiento Civil.
+
+      Las acciones civiles que deriven de una infracción a la presente ley prescribirán en el plazo de
+cinco años, contado desde que se encuentre ejecutoriada la resolución administrativa o la sentencia
+judicial, según sea el caso, que imponga la multa respectiva.
+
+      Artículo 48.- Prevención de infracciones. Los responsables de datos, sean personas naturales
+o jurídicas, públicas o privadas, deberán adoptar acciones destinadas a prevenir la comisión de las
+infracciones establecidas en los artículos 34 bis, 34 ter y 34 quáter.
+
+      Artículo 49.- Modelo de prevención de infracciones. Los responsables de datos podrán
+voluntariamente adoptar un modelo de prevención de infracciones consistente en un programa de
+cumplimiento.
+
+      El programa de cumplimiento deberá contener, al menos, los siguientes elementos:
+
+      a) La designación de un delegado de protección de datos personales.
+      b) La definición de medios y facultades del delegado de protección de datos.
+      c) La identificación del tipo de información que la entidad trata, el ámbito territorial en que
+opera, la categoría, clase o tipos de datos o bases de datos que administra, y la caracterización de los
+titulares de datos.
+      d) La identificación de las actividades o procesos de la entidad, sean habituales o esporádicos,
+en cuyo contexto se genere o incremente el riesgo de comisión de las infracciones señaladas en los
+artículos 34 bis, 34 ter y 34 quáter.
+      e) El establecimiento de protocolos, reglas y procedimientos específicos que permitan a las personas
+que intervengan en las actividades o procesos indicados en la letra anterior, programar y ejecutar sus
+tareas o labores de una manera que prevenga la comisión de las referidas infracciones.
+      f) Los mecanismos de reporte interno sobre el cumplimiento de lo dispuesto en la presente ley
+y los mecanismos de reporte a la autoridad de protección de datos para el caso del artículo 14 sexies.
+      g) La existencia de sanciones administrativas internas, así como de procedimientos de denuncia o
+castigo de responsabilidades de las personas que incumplan el sistema de prevención de infracciones.
+
+      La regulación interna a que dé lugar la implementación del programa, en su caso, deberá ser
+incorporada expresamente como una obligación en los contratos de trabajo o de prestación de servicios
+de todos los trabajadores, empleados y prestadores de servicios de las entidades que actúen como
+responsables de datos o los terceros que efectúen el tratamiento, incluidos los máximos ejecutivos de
+ellas, o bien, como una obligación del reglamento interno del que tratan los artículos 153 y siguientes
+del Código del Trabajo. En este último caso, se deben realizar las medidas de publicidad establecidas
+en el artículo 156 del mismo Código.
+
+      Artículo 50.- Atribuciones del delegado. El responsable de datos podrá designar un delegado
+de protección de datos personales.
+
+      El delegado de protección de datos deberá ser designado por la máxima autoridad directiva
+o administrativa del responsable de datos. Se considerará como la máxima autoridad directiva o
+administrativa al directorio, un socio administrador o a la máxima autoridad de la empresa o servicio,
+según corresponda.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 31 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      El delegado de protección de datos deberá contar con autonomía respecto de la administración,
+en las materias relacionadas con esta ley. En las micro, pequeñas y medianas empresas, el dueño o
+sus máximas autoridades podrán asumir personalmente las tareas de delegado de protección de datos.
+
+      El delegado de protección de datos podrá desempeñar otras funciones y cometidos, procurando
+mantener la independencia en su función. El responsable garantizará que dichas funciones y cometidos
+no den lugar a conflicto de intereses.
+
+      Las sociedades o entidades que pertenezcan a un mismo grupo empresarial, empresas relacionadas
+o sujetas a un mismo controlador en los términos previstos en la Ley de Mercado de Valores, podrán
+designar un único delegado de protección de datos, siempre que todas ellas operen bajo los mismos
+estándares y políticas en materia de tratamiento de datos personales, y el delegado sea accesible para
+todas las entidades y establecimientos.
+
+      La designación del delegado de protección de datos debe recaer en una persona que reúna los
+requisitos de idoneidad, capacidad y conocimientos específicos para el ejercicio de sus funciones.
+
+      Los titulares de datos podrán ponerse en contacto con el delegado de protección de datos en lo
+que respecta a todas las cuestiones relativas al tratamiento de sus datos personales y al ejercicio de
+sus derechos al amparo de esta ley.
+
+      El delegado de protección de datos estará obligado a mantener estricto secreto o confidencialidad de
+los datos personales que conociere en ejercicio de su cargo. Los funcionarios públicos que desempeñen
+estas funciones e infrinjan este deber de secreto o confidencialidad, serán sancionados de conformidad
+a lo que se prescribe en los artículos 246 a 247 bis del Código Penal. El responsable se hará cargo por
+las infracciones al deber de secreto o confidencialidad que debía cumplir su encargado de prevención
+o delegado de protección, sin perjuicio de las acciones de repetición que pueda ejercer contra éste.
+
+      El responsable de datos deberá disponer que el delegado cuente con los medios y facultades
+suficientes para el desempeño de sus funciones, debiendo otorgarle los recursos materiales necesarios
+para realizar adecuadamente sus labores, en consideración al tamaño y capacidad económica de la
+entidad.
+
+      Sin perjuicio de las demás funciones que se le puedan asignar, el delegado de protección de datos
+tendrá las siguientes funciones:
+
+      a) Informar y asesorar al responsable de datos, a los terceros encargados o mandatarios y a los
+dependientes del responsable, respecto de las disposiciones legales y reglamentarias relativas al derecho
+a la protección de los datos personales y a la regulación de su tratamiento.
+
+      b) Promover y participar en la política que dicte el responsable de datos respecto de la protección
+y el tratamiento de los datos personales.
+
+      c) Supervisar el cumplimiento de la presente ley y de la política que dicte el responsable, dentro
+del ámbito de su competencia.
+
+      d) Preocuparse de la formación permanente de las personas que participan en las operaciones de
+tratamiento de datos.
+
+      e) Asistir a los miembros de la organización en la identificación de los riesgos asociados a la
+actividad de tratamiento y las medidas a adoptar para resguardar los derechos de los titulares de datos
+personales.
+
+      f) Desarrollar un plan anual de trabajo y rendir cuenta de sus resultados.
+      g) Absolver las consultas y solicitudes de los titulares de datos.
+      h) Cooperar y actuar como punto de contacto de la Agencia.
+
+      Artículo 51.- Certificación, registro, supervisión del modelo de prevención de infracciones
+y reglamento. La Agencia será la entidad encargada de certificar que el modelo de prevención de
+infracciones reúna los requisitos y elementos establecidos en la ley y su reglamento y supervisarlos.
+
+      La Agencia incorporará en el Registro Nacional de Sanciones y Cumplimiento a las entidades
+que posean una certificación vigente.
+
+      Un reglamento expedido a través del Ministerio de Hacienda y suscrito por el Ministro Secretario
+General de la Presidencia y por el Ministro de Economía, Fomento y Turismo establecerá los requisitos,
+modalidades y procedimientos para la implementación, certificación, registro y supervisión de los
+modelos de prevención de infracciones.
+
+      Artículo 52.- Vigencia de los certificados. Los certificados expedidos por la Agencia tendrán
+una vigencia de tres años. Sin perjuicio de lo anterior, quedarán sin efecto en los siguientes casos:
+
+      a) Por revocación efectuada por la Agencia.
+      b) Por fallecimiento del responsable de datos en los casos de personas naturales.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 32 de 34
+                      Viernes 13 de Diciembre de 2024
+
+      c) Por disolución de la persona jurídica.
+      d) Por resolución judicial ejecutoriada.
+      e) Por cese voluntario de la actividad del responsable de datos.
+
+      El término de vigencia de un certificado por alguna de las causales señaladas precedentemente
+será inoponible a terceros, mientras no sea eliminado del registro.
+
+      Artículo 53.- Revocación de la certificación. La Agencia puede revocar la certificación indicada
+en los artículos precedentes, si el responsable no da cumplimiento a lo establecido en este Párrafo. Con
+este objeto, la Agencia podrá requerir toda aquella información que fuere necesaria para el ejercicio
+de sus funciones.
+
+      Los responsables pueden exceptuarse de entregar la información solicitada cuando la misma esté
+amparada por una obligación de secreto o confidencialidad, debiendo acreditar dicha circunstancia.
+
+      El incumplimiento en la entrega de la información requerida, así como la entrega de información
+falsa, incompleta o manifiestamente errónea, será sancionado en conformidad con esta ley.
+
+      Cuando un certificado ha sido revocado por la Agencia, para volver a solicitarlo el responsable
+de datos debe acreditar fehacientemente que la causal que dio origen a su revocación ha sido
+subsanada.
+
+                                                      Título VIII
+    Del tratamiento de datos personales por el Congreso Nacional, el Poder Judicial y organismos
+
+                                 públicos dotados de autonomía constitucional
+
+      Artículo 54.- Regla general del tratamiento de datos personales. Es lícito el tratamiento de
+los datos personales que efectúan el Congreso Nacional, el Poder Judicial, la Contraloría General de
+la República, el Ministerio Público, el Tribunal Constitucional, el Banco Central, el Servicio Electoral
+y la Justicia Electoral, y los demás tribunales especiales creados por ley, cuando se realiza para el
+cumplimiento de sus funciones legales, dentro del ámbito de sus competencias y, de conformidad a
+las normas especiales que se establecen en sus respectivas leyes orgánicas y a las disposiciones del
+Título IV de esta ley aplicables a los órganos públicos, con excepción de lo dispuesto en el artículo
+14 quinquies y en los artículos 44 a 46, en lo referido a la intervención de la Contraloría General de la
+República en la determinación de la responsabilidad administrativa y la aplicación de la ley N° 18.834.
+Los funcionarios de estos organismos deberán guardar secreto de tales datos. En esas condiciones estas
+instituciones y organismos tienen la calidad de responsables de datos y no requieren el consentimiento
+del titular para efectuar el tratamiento de sus datos personales.
+
+      Las autoridades superiores de los órganos internos de estas instituciones deberán dictar las
+políticas, normas e instrucciones necesarias para dar cumplimiento a los principios y obligaciones
+establecidos en esta ley, especialmente aquellas que permitan el ejercicio de los derechos que se
+reconocen a los titulares de datos y las que fijan los estándares o condiciones mínimas de control,
+seguridad y resguardo que se deben observar en el tratamiento de los datos personales, pudiendo
+requerir para ello la asistencia técnica de la Agencia. Asimismo, las autoridades de estos órganos
+ejercerán la potestad disciplinaria respecto de sus funcionarios, en relación a las infracciones que
+se produzcan en el tratamiento de los datos personales, particularmente las infracciones señaladas
+en los artículos 34 bis, 34 ter y 34 quáter.
+
+      Artículo 55.- Ejercicio de los derechos y reclamaciones. Los titulares de datos ejercerán los
+derechos que les reconoce esta ley ante el Congreso Nacional, el Poder Judicial, la Contraloría General
+de la República, el Ministerio Público, el Tribunal Constitucional, el Banco Central, el Servicio Electoral
+y la Justicia Electoral, y los demás tribunales especiales creados por ley, de acuerdo a procedimientos
+racionales y justos, y ante los organismos que dispongan estas instituciones, de conformidad a lo
+señalado en el artículo anterior.
+
+      En caso que la Contraloría General de la República, el Ministerio Público, el Banco Central o
+el Servicio Electoral denieguen injustificada o arbitrariamente el ejercicio de un derecho reconocido
+por esta ley a un titular de datos, o bien infrinjan algún principio establecido en el artículo 3°, deber
+u obligación establecida en ella, causándole perjuicio, el titular que se vea agraviado o afectado por
+la decisión del organismo, podrá reclamar ante la Corte de Apelaciones, de acuerdo al procedimiento
+dispuesto en el artículo 43 de esta ley.
+
+      Las autoridades superiores del Congreso Nacional, del Poder Judicial, del Tribunal Constitucional,
+de la Justicia Electoral y de los demás tribunales especiales creados por ley, deberán asegurarse que
+en el tratamiento de los datos personales que realizan estas instituciones se cumplen estrictamente con
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 33 de 34
+                      Viernes 13 de Diciembre de 2024
+
+los principios establecidos en el artículo 3° y los deberes, y se respeten los derechos de los titulares
+establecidos en esta ley, adoptando las medidas de fiscalización y control interno que resulten necesarias
+y adecuadas para esta finalidad.”.
+
+      15) Derógase el Título Final.
+      16) Elimínanse los incisos segundo y tercero del artículo 1° transitorio.
+
+      Artículo segundo.- Suprímese el literal m) del artículo 33 del artículo primero de la ley N° 20.285,
+sobre acceso a la información pública.
+
+      Artículo tercero.- Suprímese el artículo 15 bis de la ley N° 19.496, que establece normas sobre
+protección de los derechos de los consumidores.
+
+                                      DISPOSICIONES TRANSITORIAS
+
+      Artículo primero.- Las modificaciones a las leyes N° 19.628, sobre protección de la vida
+privada; N° 20.285, sobre acceso a la información pública, y N° 19.496, que establece normas sobre
+protección de los derechos de los consumidores, contenidas en los artículos primero, segundo y tercero
+permanentes de la presente ley, respectivamente, entrarán en vigencia el día primero del mes vigésimo
+cuarto posterior a la publicación de esta ley en el Diario Oficial.
+
+      Artículo segundo.- Los reglamentos referidos en la presente ley deberán dictarse dentro de los
+seis meses siguientes a la publicación de esta ley en el Diario Oficial.
+
+      Artículo tercero.- Dentro de los sesenta días anteriores a la entrada en vigencia de las modificaciones
+a la ley N° 19.628, contenidas en el artículo primero de la presente ley, el Servicio de Registro Civil e
+Identificación deberá eliminar el registro de los bancos de datos personales contemplado en el actual
+artículo 22 de la ley N° 19.628.
+
+      Artículo cuarto.- La primera designación de los consejeros del Consejo Directivo de la Agencia
+de Protección de Datos Personales y del presidente y vicepresidente del Consejo Directivo de la Agencia
+se hará dentro de los sesenta días anteriores a la entrada en vigencia de la presente ley.
+
+      En la propuesta que se haga al Senado para la primera designación, se identificará a un consejero
+que durará dos años en su cargo, a un consejero que durará cuatro años en su cargo y a un consejero
+que durará seis años en su cargo. La mencionada propuesta se hará en un solo acto y el Senado deberá
+pronunciarse respecto de la propuesta como una unidad.
+
+      Con todo, los consejeros solo asumirán sus cargos una vez que la presente ley entre en vigencia,
+en conformidad a lo dispuesto en el artículo primero transitorio.
+
+      Los estatutos de la Agencia deberán ser propuestos al Presidente de la República, de conformidad
+al artículo 30 octies de la presente ley, dentro de los noventa días siguientes a la entrada en vigencia
+de la presente ley.
+
+      Artículo quinto.- Los órganos públicos que establezcan un encargado de prevención o delegado
+de protección de datos personales deberán designar para ello a un funcionario de la dotación vigente
+del respectivo organismo.
+
+      Artículo sexto.- Durante los primeros doce meses luego de la entrada en vigencia de esta ley, en
+los casos en que proceda alguna sanción para empresas calificadas como de menor tamaño, de acuerdo
+a las categorías establecidas en el artículo segundo de la ley N° 20.416, que fija normas especiales
+para aquéllas, la Agencia podrá aplicar como sanción una amonestación por escrito, señalando a los
+responsables de datos la gravedad de la infracción, la conducta infractora, y las circunstancias atenuantes
+y agravantes de responsabilidad, si proceden. A esta amonestación será aplicable el deber de registro
+según lo dispone el artículo 39 de la presente ley.
+
+      Artículo séptimo.- Las instituciones y organismos señalados en el artículo 54 deberán dictar las
+políticas, normas e instrucciones a las que se refiere su inciso segundo, dentro de los dieciocho meses
+siguientes a la publicación de la presente ley en el Diario Oficial.
+
+      Artículo octavo.- El mayor gasto fiscal que represente la aplicación de esta ley, durante su primer
+año presupuestario de vigencia, se financiará con los recursos que se contemplen en el presupuesto del
+Ministerio de Economía, Fomento y Turismo y, en lo que faltare, con cargo a la Partida Presupuestaria
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.023  DIARIO OFICIAL DE LA REPUBLICA DE CHILE   Página 34 de 34
+                      Viernes 13 de Diciembre de 2024
+
+del Tesoro Público del año presupuestario correspondiente. En los años siguientes estará considerado
+en la Ley de Presupuestos del Sector Público.”.
+
+      Habiéndose cumplido con lo establecido en el N° 1 del Artículo 93 de la Constitución Política de
+la República y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto promúlguese y llévese
+a efecto como Ley de la República.
+
+      Santiago, 25 de noviembre de 2024.- GABRIEL BORIC FONT, Presidente de la República.-
+Álvaro Elizalde Soto, Ministro Secretario General de la Presidencia.- Mario Marcel Cullell, Ministro de
+Hacienda.- Nicolás Grau Veloso, Ministro de Economía, Fomento y Turismo.- Jaime Gajardo Falcón,
+Ministro de Justicia y Derechos Humanos.
+
+      Lo que transcribo a Ud. para su conocimiento.- Saluda Atte. a Ud., Macarena Lobos Palacio,
+Subsecretaria General de la Presidencia.
+
+                                             Tribunal Constitucional
+
+            Proyecto que regula la protección y el tratamiento de los datos personales y
+              crea la Agencia de Protección de Datos Personales, correspondiente a los
+                              Boletines N°s. 11.092-07 y 11.144-07, refundidos
+
+      La Secretaria del Tribunal Constitucional, quien suscribe, certifica que el Honorable Senado
+envió el proyecto de ley enunciado en el rubro, aprobado por el Congreso Nacional, a fin de que este
+Tribunal, ejerciera el control de constitucionalidad respecto de las disposiciones contenidas en el inciso
+primero del artículo 30 sexies; en el artículo 43; en el inciso sexto del artículo 44; en el inciso primero
+del artículo 45 y en los artículos 54 y 55, todos contenidos en el numeral 14 del artículo primero del
+proyecto remitido; y por sentencia de 14 de noviembre de 2024, en los autos Rol N° 15.733-24-CPR.
+
+      Se resuelve:
+
+      1) Que las disposiciones contenidas en el artículo 30; en las letras a), b), c) y d) del artículo 30
+ter; en la primera parte del inciso primero del artículo 30 sexies; en los incisos primero y segundo del
+artículo 32; en la primera parte del artículo 43, hasta la frase “a elección de este último”; en el artículo
+54, sólo en cuanto menciona al Tribunal Constitucional, al Tribunal Calificador de Elecciones y a la
+Contraloría General de la República, y en el inciso segundo del artículo 55, con exclusión de la frase
+final “, de acuerdo al procedimiento dispuesto en el artículo 43 de esta ley.”, todos contenidos en el
+numeral 14 del artículo primero, y la disposición contenida en el artículo segundo del proyecto de
+ley remitido por el Congreso Nacional, son propias de Ley Orgánica Constitucional y se encuentran
+ajustadas a la Constitución Política de la República.
+
+      2) Que la disposición contenida en el inciso séptimo del artículo 32, contenido en el numeral
+14 del artículo primero del proyecto de ley remitido, es propia de Ley Orgánica Constitucional en el
+entendido que la limitación a las facultades que se confieren a la Contraloría General de la República,
+deja a salvo el control amplio de legalidad que confiere a este órgano el artículo 98 inciso primero de
+la Carta Fundamental, en lo que fuere procedente.
+
+      3) Que este Tribunal Constitucional no emite pronunciamiento, en examen preventivo de
+constitucionalidad, respecto de las disposiciones contenidas en las letras e) y f) del artículo 30 ter; en
+la segunda parte del inciso primero del artículo 30 sexies; en la segunda parte del artículo 43, desde la
+frase “a elección de este último”; en el inciso sexto del artículo 44; en el inciso primero del artículo 45;
+en el artículo 54, en cuanto se refiere al Congreso Nacional, al Poder Judicial, al Ministerio Público,
+al Banco Central, al Servicio Electoral, a la Justicia Electoral -en cuanto comprende a los Tribunales
+Electorales Regionales- y a los demás tribunales creados por leyes especiales; y en los incisos primero,
+frase final del inciso segundo y tercero del artículo 55, todos contenidos en el numeral 14 del artículo
+primero del proyecto de ley remitido a control, por no versar sobre materias propias de Ley Orgánica
+Constitucional.
+
+      Santiago, de 14 noviembre de 2024.- María Angélica Barriga Meza, Tribunal Constitucional.
+
+CVE 2583630  Director: Felipe Andrés Peroti Díaz  Mesa Central: 600 712 0001 E-mail: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl       Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+

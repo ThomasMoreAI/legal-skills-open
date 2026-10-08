@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Designated Services"
+  short_description: "Map legal services to AML/CTF table 6 designated services"
+  default_prompt: "Use $map-designated-services to map whether the services this legal practice provides are designated services under table 6 of the AML/CTF Act."

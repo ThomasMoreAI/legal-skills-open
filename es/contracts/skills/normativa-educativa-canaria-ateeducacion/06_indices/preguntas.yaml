@@ -1,0 +1,110 @@
+PREG-001:
+  titulo: "Fuente oficial final del decreto autonómico de currículo ESO/Bachillerato"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  relacionadas: [FTE-002, FTE-003, FTE-004, FTE-009]
+  ruta: "08_tareas/preguntas/PREG-001-fuente-oficial-final-decreto-curriculo-eso-bachillerato.md"
+
+PREG-002:
+  titulo: "Nivel de detalle que se extraerá de cada currículo"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  fecha_resolucion: 2026-04-26
+  relacionadas: [CUR-001, CUR-023, DEC-0004]
+  ruta: "08_tareas/preguntas/PREG-002-nivel-detalle-extraccion-curriculos.md"
+
+PREG-003:
+  titulo: "Tratamiento de orientaciones y recursos no normativos"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  fecha_resolucion: 2026-04-26
+  relacionadas: [FTE-001, AN-003, DEC-0005]
+  ruta: "08_tareas/preguntas/PREG-003-tratamiento-orientaciones-recursos-no-normativos.md"
+
+PREG-004:
+  titulo: "Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-26
+  fecha_resolucion: 2026-04-26
+  relacionadas: [NOR-007, NOR-059, FTE-055]
+  ruta: "08_tareas/preguntas/PREG-004-verificacion-resoluciones-fp-2024-2025.md"
+
+PREG-005:
+  titulo: "Discrepancia en números de RD de ciclos de Sanidad (NOR-051 y NOR-052)"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-26
+  fecha_resolucion: 2026-04-26
+  relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, TAREA-038, TAREA-042]
+  ruta: "08_tareas/preguntas/PREG-005-discrepancia-rd-sanidad-nor-051-nor-052.md"
+
+PREG-006:
+  titulo: "Catalogación de la Resolución de 25 de febrero de 2026 sobre módulos optativos de FP"
+  estado: "Resuelta"
+  fecha_registro: 2026-06-01
+  fecha_resolucion: 2026-08-05
+  relacionadas: [NOR-062, NOR-063, NOR-078, FTE-069, FTE-070, FTE-085, REL-063, TAREA-058, TAREA-059]
+  ruta: "08_tareas/preguntas/PREG-006-catalogar-resolucion-optativos-fp-febrero-2026.md"
+
+PREG-007:
+  titulo: "Convergencia de las dos formas de ficha curricular y del valor de etapa para FP"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [DEC-0007, TAREA-063, TAREA-065]
+  ruta: "08_tareas/preguntas/PREG-007-convergencia-formas-ficha-curricular.md"
+
+PREG-008:
+  titulo: "Los descriptores operativos varían por curso y el modelo de ficha curricular no lo representa"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [CUR-001, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071]
+  ruta: "08_tareas/preguntas/PREG-008-descriptores-operativos-por-curso.md"
+
+PREG-009:
+  titulo: "FTE-051 declara una resolución que no existe como norma diferenciada"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [FTE-049, FTE-051, NOR-046, NOR-044, TAREA-070, TAREA-076]
+  ruta: "08_tareas/preguntas/PREG-009-identidad-de-fte-051.md"
+
+PREG-010:
+  titulo: "NOR-017 describe una Orden de 28 de julio de 2014 sobre Escuelas Infantiles que no aparece en el BOC"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [NOR-017, FTE-013, TAREA-084, TAREA-085, PREG-011, PREG-012]
+  ruta: "08_tareas/preguntas/PREG-010-nor-017-escuelas-infantiles-no-localizada.md"
+
+PREG-011:
+  titulo: "NOR-018 parece confundir dos normas reales: la Orden de EOEP de 2010 y la Orden de desarrollo del ROC de 2013"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [NOR-018, NOR-009, FTE-013, TAREA-084, TAREA-085, PREG-010, PREG-012]
+  ruta: "08_tareas/preguntas/PREG-011-nor-018-desarrollo-roc-no-localizada.md"
+
+PREG-012:
+  titulo: "NOR-050 describe una Orden NEAE de 2023 que no aparece en el BOC, y de ella depende la derogación declarada de NOR-025"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-05
+  fecha_resolucion: 2026-08-05
+  relacionadas: [NOR-050, NOR-024, NOR-025, NOR-026, FTE-053, REL-047, REL-048, TAREA-084, TAREA-085, PREG-010, PREG-011]
+  ruta: "08_tareas/preguntas/PREG-012-nor-050-orden-neae-2023-no-localizada.md"
+
+PREG-013:
+  titulo: "El BOC no publica permalink ELI en las disposiciones autonómicas consultadas"
+  estado: "Resuelta"
+  fecha_registro: 2026-08-22
+  relacionadas: [NOR-005, NOR-043, NOR-047, TAREA-087]
+  ruta: "08_tareas/preguntas/PREG-013-eli-en-el-boc.md"
+
+PREG-014:
+  titulo: Publicación BOC y efectos de la Resolución 1141/2026 de rúbricas de Infantil y PDC
+  estado: Abierta
+  fecha_registro: '2026-10-07'
+  relacionadas:
+  - NOR-126
+  - FTE-133
+  ruta: 08_tareas/preguntas/PREG-014-publicacion-boc-rubricas-1141-2026.md

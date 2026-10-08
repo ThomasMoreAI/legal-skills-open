@@ -1,0 +1,25 @@
+id: CHUNK-00003
+origen_tipo: "norma"
+origen_id: NOR-003
+titulo: "RD 217/2022 — enseñanzas mínimas ESO"
+texto: >
+  El RD 217/2022 establece la ordenación y las enseñanzas mínimas de la ESO. Es la referencia estatal inmediata para analizar currículos de ESO en Canarias.
+metadatos:
+  ambito: "estatal"
+  etapa: [eso]
+  temas: [curriculo, ordenacion, evaluacion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-007
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975"
+  fecha_consulta: 2026-04-25
+  fecha_analisis: 2026-04-25
+  localizacion: "Título y anexos"
+relaciones:
+  normas: [NOR-001, NOR-002]
+  curriculos: [CUR-001, CUR-023]
+  chunks_relacionados: [CHUNK-00002, CHUNK-00005]
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+nivel_evidencia: "confirmado-fuente-primaria"

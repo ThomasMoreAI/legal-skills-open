@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "extrae_sts_basica",
+      "input": "El presente recurso se funda, entre otros argumentos, en la STS 1234/2024, de 15 de marzo, Sala Primera.",
+      "expected": {
+        "citas_extraidas_min": 1,
+        "tipos_detectados": ["STS"]
+      }
+    },
+    {
+      "name": "extrae_stc_y_ley",
+      "input": "Conforme a la STC 124/2023 y al artículo 14 de la Ley 40/2015, procede...",
+      "expected": {
+        "citas_extraidas_min": 2,
+        "tipos_detectados": ["STC", "LEY"]
+      }
+    },
+    {
+      "name": "detecta_fecha_imposible",
+      "input": "La STS 8745/2024, de 31 de febrero de 2024, establece doctrina sobre...",
+      "expected": {
+        "citas_extraidas_min": 1,
+        "fecha_imposible": true
+      }
+    },
+    {
+      "name": "detecta_normativa_europea",
+      "input": "Bajo el Reglamento (UE) 2016/679 y la Directiva 2019/770/UE...",
+      "expected": {
+        "citas_extraidas_min": 2,
+        "tipos_detectados": ["REGLAMENTO_UE", "DIRECTIVA"]
+      }
+    },
+    {
+      "name": "detecta_stjue_schrems",
+      "input": "La STJUE de 16 de julio de 2020, asunto C-311/18 (Schrems II), declaró...",
+      "expected": {
+        "citas_extraidas_min": 1,
+        "tipos_detectados": ["STJUE"]
+      }
+    }
+  ]
+}

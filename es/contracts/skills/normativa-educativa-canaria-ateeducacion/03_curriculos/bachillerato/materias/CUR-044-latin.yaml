@@ -1,0 +1,264 @@
+id: CUR-044
+titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
+etapa: "bachillerato"
+materia: "Latín"
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Traducir y comprender textos latinos de dificultad creciente y justificar la traducción, identificando y analizando los aspectos básicos de la lengua latina y sus unidades lingüísticas y reflexionando sobre ellas mediante la comparación con las lenguas de enseñanza y con otras lenguas del repertorio individual del alumnado, para realizar una lectura comprensiva, directa y eficaz y una interpretación razonada de su contenido."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1]
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1]
+    - codigo: "C2"
+      enunciado_oficial: "Distinguir los formantes latinos y explicar los cambios que hayan tenido lugar a lo largo del tiempo, comparándolos con los de las lenguas de enseñanza y otras lenguas del repertorio individual del alumnado, para deducir el significado etimológico del léxico conocido y los significados de léxico nuevo o especializado."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CP2, CP3, STEM1, CPSAA4, CPSAA5]
+        "2.º Bachillerato": [CCL5, CP2, CP3, STEM1, CPSAA4, CPSAA5]
+    - codigo: "C3"
+      enunciado_oficial: "Leer, interpretar y comentar textos latinos de diferentes géneros y épocas, asumiendo el proceso creativo como complejo e inseparable del contexto histórico, social y político y de sus influencias artísticas, para identificar su genealogía y su aportación a la literatura europea."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL4, CP3, CD1, CD2, CCEC1, CCEC2, CCEC3.2]
+        "2.º Bachillerato": [CCL2, CCL4, CP3, CD1, CD2, CCEC1, CCEC2, CCEC3.2]
+    - codigo: "C4"
+      enunciado_oficial: "Analizar las características de la civilización latina en el ámbito personal, religioso y sociopolítico, adquiriendo conocimientos sobre el mundo romano y comparando críticamente el presente y el pasado, para valorar las aportaciones del mundo clásico latino a nuestro entorno como base de una ciudadanía democrática y comprometida."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, CP3, CD1, CD2, CPSAA3.1, CC1, CC2, CC3, CCEC1]
+        "2.º Bachillerato": [CCL1, CCL3, CCL5, CP3, CD1, CD2, CPSAA3.1, CC1, CC2, CC3, CCEC1]
+    - codigo: "C5"
+      enunciado_oficial: "Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado de la civilización latina, interesándose por su sostenibilidad y reconociéndolo como producto de la creación humana y como testimonio de la historia, para explicar el legado material e inmaterial latino como transmisor de conocimiento y fuente de inspiración de creaciones modernas y contemporáneas."
+      descriptores:
+        "1.º Bachillerato": [CCL3, CP3, CD2, CC1, CC2, CC4, CE1, CCEC1, CCEC2]
+        "2.º Bachillerato": [CCL3, CP3, CD2, CC1, CC2, CC4, CE1, CCEC1, CCEC2]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "CP2", "CP3", "STEM1", "STEM2", "CD1", "CD2", "CPSAA3.1", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE1", "CCEC1", "CCEC2", "CCEC3.2"]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - id: "1.1"
+          texto: "Distinguir los diferentes sistemas de escritura y alfabetos teniendo en cuenta el contexto en que surgieron y prestando especial atención al alfabeto latino y a sus características fonéticas, gráficas y prosódicas, con la finalidad de leer textos en esta lengua con una pronunciación adecuada. Reconocer el origen común de las lenguas indoeuropeas y la procedencia latina de las lenguas romances, comparando palabras o expresiones comunes y localizándolas geográficamente en mapas. Todo ello con la finalidad de valorar la lengua como una herramienta comunicativa y cultural, y apreciar la diversidad lingüística que está inmersa en la sociedad actual."
+        - id: "1.2"
+          texto: "Comprender el concepto de lengua flexiva del latín, reconociendo la flexión nominal y verbal de las distintas palabras, de manera que sepan clasificarlas mediante su enunciado y declinándolas o conjugándolas según corresponda. A su vez, distinguir las funciones sintácticas de cada caso y su relación con la morfología para una correcta traducción de las palabras y los sintagmas."
+        - id: "1.3"
+          texto: "Realizar lecturas o traducciones directas o inversas de oraciones simples y textos originales o adaptados de dificultad adecuada y progresiva, y preferentemente narrativos, con corrección ortográfica y expresiva, identificando y analizando unidades lingüísticas regulares de la lengua e iniciándose en el uso adecuado del diccionario bilingüe latín-español, de glosarios o de listas de vocabulario…, con la intención de ir desarrollando destrezas y habilidades propias de los procesos de análisis textual y de la traducción."
+        - id: "1.4"
+          texto: "Revisar y subsanar de manera progresivamente autónoma las traducciones propias y la de los compañeros y las compañeras, a partir de los procesos de autoevaluación y coevaluación, realizando propuestas de mejora y adoptando estrategias adecuadas y eficaces para ello."
+        - id: "2.1"
+          texto: "Identificar distintos formantes latinos, deduciendo su significado a partir de los procedimientos de derivación y composición de palabras; y reconocer expresiones latinas de uso actual y distinguir familias etimológicas o semánticas, para obtener así un mayor conocimiento y mejor manejo de las lenguas y los lenguajes que conforman el repertorio de alumnado y propiciar el aprendizaje de otras."
+        - id: "2.2"
+          texto: "Aplicar las normas básicas de evolución fonética, morfológica o semántica de complejidad creciente del latín a las lenguas romances, especialmente a las lenguas y modalidades de España, sirviéndose de la comparación con otras lenguas y distinguiendo entre cultismos, semicultismos y patrimoniales, con el objetivo de que se valore la lengua como una herramienta de comunicación que se transforma con el uso del hablante."
+        - id: "3.1"
+          texto: "Leer y comentar textos y fragmentos literarios básicos o adaptados y en diferentes soportes de información y comunicación, identificando conceptos fundamentales para la comprensión de la civilización latina y aplicando estrategias de aprendizaje, que impliquen analizar y reflexionar sobre la propia experiencia, con el objetivo de comprender el mundo y la condición humana, e iniciar al alumnado en la lectura de fragmentos y textos clásicos traducidos."
+        - id: "3.2"
+          texto: "Reconocer e identificar los principales géneros, temas, tópicos y valores éticos o estéticos de la civilización y cultura latinas, partiendo de la lectura de fragmentos significativos de diferentes autores clásicos, con el propósito de producir textos individuales o colectivos con intención literaria en distintos soportes, como fuente de desarrollo creativo, y de identificar su pervivencia en obras o fragmentos literarios posteriores de la cultura europea y occidental."
+        - id: "4.1"
+          texto: "Identificar los principales hitos históricos, políticos y sociales de Roma, comparándolos con los de las sociedades actuales, con la intención de favorecer el desarrollo de una cultura y una ciudadanía comprometidas con la memoria colectiva y los valores democráticos, y de fomentar la educación de valores cívicos y normas que impliquen la igualdad de todas las personas como instrumentos válidos en la resolución de conflictos."
+        - id: "4.2"
+          texto: "Elaborar trabajos de investigación de manera progresivamente autónoma en distintos soportes de información y comunicación del ámbito educativo, sobre aspectos del legado de la civilización latina en el ámbito personal, religioso y sociopolítico; y reflexionar acerca de su importancia, tratando de forma correcta la información procedente de diferentes fuentes bibliográficas y digitales, calibrando su fiabilidad y pertinencia, aprendiendo a respetar los principios de rigor y propiedad intelectual, y haciendo uso responsable de soportes tecnológicos para la realización de producciones. Todo esto para obtener una visión global de la pervivencia romana y la tradición clásica, que posibilite el contraste y la empatía de opiniones y el respeto de las argumentaciones ajenas."
+        - id: "5.1"
+          texto: "Investigar e identificar, de manera guiada, el legado material e inmaterial de la civilización latina, analizando sus producciones culturales y la influencia que han tenido estas en el mundo occidental, para lograr una actitud cívica que asegure el reconocimiento y la sostenibilidad del patrimonio y el desarrollo de una actitud respetuosa, igualitaria y libre de prejuicios hacia ese legado cultural que constituye el fundamento de nuestra sociedad actual."
+        - id: "5.2"
+          texto: "Reconocer las huellas de la romanización y el legado romano, aplicando los conocimientos adquiridos en los que el alumnado reflexione sobre la cultura de los pueblos y su forma de vida y sociedad, con el fin de observar la pervivencia de la Antigüedad clásica, en especial, de la civilización latina en su vida cotidiana y en el patrimonio cultural de Canarias, y presentar sus resultados a través de diferentes soportes de información y comunicación del ámbito educativo."
+    - curso: "2.º Bachillerato"
+      criterios:
+        - id: "1.1"
+          texto: "Conocer las flexiones nominal, pronominal y verbal, en sus formas regulares e irregulares, y distinguir las categorías gramaticales y las construcciones sintácticas de la lengua latina, identificando y analizando todas estas unidades lingüísticas en textos latinos de diversa índole, para traducirlos y consolidar las estructuras de la propia lengua y otras del repertorio individual del alumnado."
+        - id: "1.2"
+          texto: "Realizar lecturas o traducciones directas o inversas de textos originales o adaptados, de dificultad adecuada y progresiva, sirviéndose del diccionario bilingüe latín-español o de herramientas de apoyo en distintos soportes digitales o no, para seleccionar los términos más apropiados en la lengua propia y teniendo en cuenta la información cotextual o contextual, con la intención de mejorar las destrezas y habilidades propias de los procesos del análisis textual y de la traducción."
+        - id: "1.3"
+          texto: "Revisar y subsanar las traducciones propias y la de los compañeros y las compañeras, a partir de procesos de autoevaluación y coevaluación, registrando los progresos y las dificultades en el conocimiento de la lengua latina y adoptando estrategias adecuadas y eficaces para ello, con la finalidad de mejorar la planificación y organización del trabajo, y de consolidar y desarrollar los aprendizajes adquiridos."
+        - id: "2.1"
+          texto: "Inferir el significado etimológico de términos de uso común, de nueva aparición o del léxico científico-técnico, y reconocer expresiones latinas, aplicando estrategias de reconocimiento de formantes latinos según los cambios fonéticos, morfológicos o semánticos que hayan tenido lugar y distinguiendo familias etimológicas o semánticas, para comprender los procedimientos de creación léxica, ampliar el vocabulario, obtener un mayor conocimiento y mejor manejo de las lenguas y lenguajes que conforman el repertorio del alumnado, y propiciar futuros aprendizajes autónomos de otras."
+        - id: "2.2"
+          texto: "Explicar cambios fonéticos, morfológicos o semánticos desde la lengua latina a las lenguas romances, especialmente a las lenguas y modalidades de España, analizando prejuicios y estereotipos lingüísticos, y valorando la diversidad lingüística como fuente de conocimiento y de riqueza, con el objetivo de entender la lengua como un ente vivo y cambiante propio del ser humano, y que depende en su funcionamiento del contexto comunicativo diastrático, diafásico o diatópico."
+        - id: "3.1"
+          texto: "Leer, interpretar y comentar textos y fragmentos literarios de creciente complejidad, de diversa índole y en diferentes soportes de información y comunicación, definiendo conceptos fundamentales para la comprensión de la civilización latina y aplicando estrategias de aprendizaje, que impliquen movilizar los conocimientos previos, con el objetivo de comprender el mundo y la condición humana, y de desarrollar la sensibilidad estética y el hábito lector, analizando y reflexionando sobre la propia experiencia."
+        - id: "3.2"
+          texto: "Analizar y explicar los géneros, temas, tópicos y valores éticos o estéticos de la civilización y cultura latinas, partiendo de la lectura de sus autores y obras más relevantes, considerando sus características principales y estableciendo relaciones y paralelismos entre la literatura latina y la posterior, con el propósito de producir textos individuales o colectivos con intención literaria en distintos soportes, como fuente de enriquecimiento personal y de desarrollo creativo, y de valorar su pervivencia en obras o fragmentos literarios posteriores de la cultura europea y occidental."
+        - id: "4.1"
+          texto: "Explicar los procesos históricos y políticos, las instituciones, las clases sociales, los modos de vida y las costumbres de la sociedad romana, comparándolos con los de las sociedades actuales, valorando las adaptaciones y los cambios experimentados a la luz de la evolución de las sociedades y los derechos humanos, con la intención de favorecer el desarrollo de una cultura y una ciudadanía comprometidas con la memoria colectiva y los valores democráticos, y de fomentar la educación de valores cívicos y normas que impliquen la igualdad de todas las personas como instrumentos válidos en la resolución de conflictos."
+        - id: "4.2"
+          texto: "Elaborar trabajos de investigación en distintos soportes de información y comunicación del ámbito educativo, sobre aspectos del legado de la civilización latina en el ámbito personal, religioso y sociopolítico; y debatir acerca de su importancia, localizando, seleccionando, contrastando y reelaborando la información procedente de diferentes fuentes bibliográficas y digitales, calibrando su fiabilidad y pertinencia, respetando los principios de rigor y propiedad intelectual, y haciendo uso responsable de soportes tecnológicos para la realización de producciones. Todo esto para obtener una visión integradora de la pervivencia romana y la tradición clásica, que posibilite el contraste y la empatía de opiniones y el respeto de las argumentaciones ajenas."
+        - id: "5.1"
+          texto: "Identificar, investigar y explicar el legado material e inmaterial de la civilización latina, analizando sus producciones culturales y la influencia que han tenido estas en el mundo occidental, e interesándose por los procesos de construcción, preservación, conservación y restauración de los monumentos clásicos más importantes reconocidos universalmente, para lograr una actitud cívica que asegure el reconocimiento y la sostenibilidad del patrimonio y el desarrollo de una actitud respetuosa, igualitaria y libre de prejuicios hacia ese legado cultural que constituye el fundamento de nuestra sociedad actual."
+        - id: "5.2"
+          texto: "Explorar las huellas de la romanización y el legado romano, aplicando los conocimientos adquiridos en los que el alumnado reflexione sobre la cultura de los pueblos y entendiendo su forma de vida y sociedad, con el fin de investigar y valorar la pervivencia de la Antigüedad clásica, en especial, de la civilización latina en su vida cotidiana y en el patrimonio cultural de Canarias, y de realizar productos en los que presente sus resultados a través de diferentes soportes de información y comunicación del ámbito educativo."
+  saberes_basicos:
+    - curso: "1.º Bachillerato"
+      bloque: "I. El texto: comprensión y traducción"
+      contenido: |
+        1. Unidades lingüísticas de la lengua latina
+        1.1. Conocimiento del abecedario, la pronunciación y la acentuación del latín para su correcta escritura, lectura y entonación.
+        1.2. Distinción de las clases de palabras (sustantivos, verbos, adjetivos…) y su correcta clasificación.
+        1.3. Comprensión del concepto de lengua flexiva: flexión nominal y pronominal (sistema casual y declinaciones) y flexión verbal (sistema de conjugaciones).
+        1.4. Reconocimiento de las funciones sintácticas de los casos.
+        1.5. Manejo y análisis de estructuras oracionales simples y compuestas más frecuentes.
+        1.5.1. Establecimiento de relaciones básicas de concordancia: sustantivo + adjetivo y sustantivo/pronombre + verbo.
+        1.5.2. Conocimiento de la disposición de las palabras latinas en una frase.
+        1.6. Clasificación de las formas nominales del verbo.
+        1.7. Reconocimiento general de las estructuras lingüísticas en castellano.
+        2. La traducción: técnicas, procesos y herramientas
+        2.1. Análisis morfosintáctico como herramienta de traducción.
+        2.2. Aplicación de estrategias de traducción:
+        2.2.1. Formulación de expectativas a partir del entorno textual (título, obra…) y del propio texto (campos temáticos, familias de palabras…), así como a partir del contexto.
+        2.2.2. Identificación del tema y breve descripción de la estructura y género.
+        2.2.3. Acercamiento a las peculiaridades lingüísticas de los textos traducidos (discurso directo/indirecto, uso de tiempos verbales, géneros verbales, pregunta retórica…).
+        2.2.4. Identificación de errores frecuentes de traducción y técnicas para evitarlos (comprobación de si la traducción está completa, control de acuerdo a criterios dados, delimitación de construcciones sintácticas…).
+        2.3. Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o correctores ortográficos en soporte analógico o digital…
+        2.4. Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir de terminología metalingüística.
+        2.5. Recursos estilísticos frecuentes y su relación con el contenido del texto.
+        2.6. Uso de estrategias básicas de retroversión de oraciones y textos breves, de manera que se trabaje la morfosintaxis casual de manera activa.
+        2.7. Uso de la traducción como instrumento que favorece el razonamiento lógico, la constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.
+        2.8. Aceptación del error como parte del proceso de aprendizaje y actitud positiva de superación.
+        2.9. Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas, para la autoevaluación, la coevaluación y la autorreparación.
+    - curso: "1.º Bachillerato"
+      bloque: "II. Plurilingüismo"
+      contenido: |
+        1. Identificación de los diferentes sistemas de escritura a lo largo de la historia.
+        2. Reconocimiento del origen del latín a partir de las lenguas indoeuropeas.
+        3. Identificación de las etapas de la lengua latina: acercamiento al latín vulgar y latín culto.
+        4. Valoración de la influencia del latín en la evolución del castellano y del resto de lenguas que conforman el repertorio lingüístico individual del alumnado.
+        5. Localización y distinción de las diferentes lenguas habladas en España, romances o no romances, así como de las distintas variedades dialectales como el español de Canarias.
+        6. Identificación de las reglas fonéticas sencillas en la evolución del latín al castellano, distinguiendo entre cultismos y palabras patrimoniales.
+        7. Acercamiento a los procedimientos de derivación y composición de palabras españolas con componentes léxicos latinos.
+        8. Identificación de lexemas, sufijos y prefijos de origen latino presentes en el léxico de uso común y en el específico de las ciencias y la técnica, infiriendo el significado y la definición de palabras de uso común en las lenguas de enseñanza a partir de sus étimos de origen latino.
+        9. Empleo de expresiones latinas integradas en las lenguas modernas, en la lengua coloquial y en diferentes tipos de textos (literarios, periodísticos, publicitarios…), así como en los medios de comunicación y las redes sociales.
+        10. Interés por conocer el significado etimológico de las palabras: importancia del uso adecuado del vocabulario como instrumento básico en la comunicación.
+        11. Reconocimiento del latín como instrumento que permite un mejor conocimiento de las lenguas de estudio y un más fácil acercamiento a otras lenguas modernas, romances y no romances.
+        12. Respeto por todas las lenguas y aceptación de las diferencias culturales de las personas que las hablan.
+        13. Reconocimiento de herramientas analógicas y digitales para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de latín a nivel transnacional.
+        14. Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).
+    - curso: "1.º Bachillerato"
+      bloque: "III. Educación literaria"
+      contenido: |
+        1. Acercamiento a la lengua latina como principal vía de transmisión de los conocimientos del mundo clásico (historia, arte, literatura, ingeniería…).
+        2. Identificación de las diferentes etapas y vías de transmisión de la literatura latina, para contextualizar adecuadamente los autores y géneros en el momento correcto.
+        3. Aproximación a los principales géneros de la literatura latina: origen, tipología, cronología, temas, motivos, tradición, características y principales autores.
+        4. Aprendizaje y uso de técnicas básicas para el comentario y análisis lingüístico y literario de los textos literarios latinos.
+        5. Recepción de la literatura latina:
+        5.1. Valoración de la influencia de la literatura latina en la producción cultural europea.
+        5.2. Aprendizaje de nociones básicas de intertextualidad: imitatio y aemulatio.
+        6. Identificación de las analogías y diferencias entre los géneros literarios latinos y los de la literatura actual.
+        7. Breve iniciación a la crítica literaria: análisis y valoración de la literatura latina.
+        8. Interés hacia la literatura de autores clásicos como fuente de placer y de conocimiento del mundo.
+        9. Respeto de la propiedad intelectual y de los derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.
+    - curso: "1.º Bachillerato"
+      bloque: "IV. La antigua Roma"
+      contenido: |
+        1. Identificación de los aspectos más relevantes de la geografía en el proceso de expansión de Roma desde su nacimiento hasta la desaparición del Imperio romano.
+        2. Reconocimiento de las ciudades y los lugares más relevantes de la antigua Roma y la función de de cada uno de estos (foros, basílicas, anfiteatros, circos…).
+        3. Estudio de las etapas y de los periodos históricos de Roma:
+        3.1. Reconocimiento de los principales sistemas políticos de Roma: Monarquía, República e Imperio.
+        3.2. Ubicación en ejes o frisos cronológicos de los hitos y episodios más representativos de la historia del mundo romano entre los siglos VIII a. C. y V d. C.
+        3.3. Identificación de las principales leyendas de la historia de Roma.
+        3.4. Identificación de las personalidades históricas más representativas de Roma: biografía en contexto e importancia para Europa.
+        4. Aproximación a la organización política y social de Roma como parte esencial de la historia y cultura de la sociedad actual.
+        5. Comparación de las instituciones, creencias y formas de vida de la civilización latina con la perspectiva sociocultural actual, prestando especial atención al papel desempeñado por la mujer en aquel momento histórico.
+        6. Valoración de las influencias de la cultura griega en la civilización latina: Graecia capta ferum victorem cepit.
+        7. Aportación de Roma a la cultura y al pensamiento de la sociedad occidental como base del desarrollo posterior en las distintas civilizaciones.
+        8. Relación de Roma con culturas y religiones extranjeras (Grecia, el cristianismo…), de manera que el alumnado reflexione, y sea tolerante y respetuoso con las culturas y religiones actuales ajenas a él.
+        9. Estudio del mar Mediterráneo como encrucijada de culturas del ayer y hoy y paso del conocimiento científico, literario, histórico, artístico y tecnológico entre Asia, Europa y África.
+        10. Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como locus amoenus.
+    - curso: "1.º Bachillerato"
+      bloque: "V. Legado y patrimonio"
+      contenido: |
+        1. Reconocimiento del legado, de la herencia y del patrimonio romano en el mundo actual.
+        2. Apreciación de la transmisión textual latina como patrimonio cultural y fuente de conocimiento a través de diferentes culturas y épocas. Reconocimiento de soportes de escritura: tipos y preservación.
+        3. Identificación de la mitología clásica en las manifestaciones artísticas (literatura, artes plásticas y visuales, música…) de la cultura occidental, en general, y de Canarias, en particular.
+        4. Valoración de la huella de Roma en la Península Ibérica: la romanización de Hispania.
+        5. Reconocimiento de las obras públicas y urbanismo: construcción, conservación, preservación y restauración.
+        6. Valoración del legado inmaterial del mundo romano: el derecho, las instituciones políticas, la retórica…
+        7. Iniciación a las técnicas básicas de debate y de exposición oral.
+        8. Localización de las principales obras artísticas de la Antigüedad romana y sitios arqueológicos, museos o festivales relacionados con la Antigüedad clásica.
+        9. Identificación del patrimonio cultural romano en la arquitectura y el urbanismo de Canarias.
+    - curso: "2.º Bachillerato"
+      bloque: "I. El texto: comprensión y traducción"
+      contenido: |
+        1. Unidades lingüísticas de la lengua latina
+        1.1. Comprensión e interpretación del concepto de lengua flexiva: flexión nominal y pronominal (sistema casual y declinaciones) y flexión verbal (sistema de conjugaciones).
+        1.2. Reconocimiento y uso adecuado de las funciones sintácticas de los casos.
+        1.3. Manejo y análisis de estructuras oracionales simples y compuestas más frecuentes. La concordancia y el orden de palabras.
+        1.3.1. Establecimiento de relaciones de concordancia: sustantivo + adjetivo y sustantivo/pronombre + verbo.
+        1.3.2. Conocimiento de la disposición de las palabras latinas en una frase.
+        1.4. Clasificación y análisis morfosintáctico de las formas nominales del verbo.
+        1.5. Consolidación de las estructuras lingüísticas en castellano.
+        2. La traducción: técnicas, procesos y herramientas
+        2.1. Análisis morfosintáctico como herramienta de traducción.
+        2.2. Aplicación de estrategias de traducción:
+        2.2.1. Formulación de expectativas a partir del entorno textual (título, obra…) y del propio texto (campos temáticos, familias de palabras…), así como a partir del contexto.
+        2.2.2. Conocimiento del tema y descripción de la estructura y género.
+        2.2.3. Identificación de peculiaridades lingüísticas de los textos traducidos (discurso directo/indirecto, uso de tiempos verbales, géneros verbales, pregunta retórica…).
+        2.2.4. Identificación de errores frecuentes de traducción y técnicas para evitarlos (comprobación de si la traducción está completa, control de acuerdo a criterios dados, delimitación de construcciones sintácticas…).
+        2.3. Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o correctores ortográficos en soporte analógico o digital…
+        2.4. Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir de terminología metalingüística.
+        2.5. Reconocimiento de recursos estilísticos frecuentes y su relación con el contenido del texto.
+        2.6. Uso de estrategias básicas de retroversión de textos, de manera que se trabaje la morfosintaxis casual de manera activa.
+        2.7. Uso de la traducción como instrumento que favorece el razonamiento lógico, la constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.
+        2.8. Aceptación del error como parte del proceso de aprendizaje, actitud positiva de superación y desarrollo de la autoconfianza, autonomía e iniciativa.
+        2.9. Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas, para la autoevaluación, la coevaluación y la autorreparación.
+    - curso: "2.º Bachillerato"
+      bloque: "II. Plurilingüismo"
+      contenido: |
+        1. Reflexión acerca de la influencia del latín en la evolución del castellano y del resto de lenguas que conforman el repertorio lingüístico individual del alumnado, valorando especialmente el español de Canarias.
+        2. Explicación y desarrollo de la evolución fonética del latín al castellano, razonando la diferencia entre cultismos y palabras patrimoniales, además de los semicultismos y los dobletes.
+        3. Identificación de lexemas, sufijos y prefijos de origen latino presentes en el léxico de uso común y en el específico de las ciencias y la técnica, infiriendo el significado y la definición de palabras de uso común en las lenguas de enseñanza a partir de su descomposición y derivación, tomando conciencia de cómo se implementan estos mecanismos de las lenguas para formar palabras.
+        4. Agrupación en familias léxicas o semánticas de palabras a partir de las raíces latinas.
+        5. Explicación correcta de las expresiones latinas, clasificándolas según los campos a los que pertenecen, integradas en las lenguas modernas y su empleo en la lengua coloquial y en diferentes tipos de textos (literarios, periodísticos, publicitarios…), así como en los medios de comunicación y las redes sociales.
+        6. Interés por conocer el significado etimológico de las palabras: la importancia del uso adecuado del vocabulario como instrumento básico en la comunicación.
+        7. El latín como instrumento que permite un mejor conocimiento de las lenguas de estudio y un más fácil acercamiento a otras lenguas modernas, romances y no romances.
+        8. Respeto por todas las lenguas y aceptación de las diferencias culturales de las personas que las hablan.
+        9. Reconocimiento y empleo de herramientas analógicas y digitales para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de latín a nivel transnacional.
+        10. Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje): intercambio de puntos de vista en trabajos grupales o colaborativos.
+    - curso: "2.º Bachillerato"
+      bloque: "III. Educación literaria"
+      contenido: |
+        1. Estudio de la lengua latina como principal vía de transmisión de los conocimientos del mundo clásico (historia, arte, literatura, ingeniería…).
+        2. Distinción de las etapas y vías de transmisión de la literatura latina, para contextualizar adecuadamente los autores y géneros literarios.
+        3. Reconocimiento de los principales géneros de la literatura latina: origen, tipología, cronología, temas, motivos, tradición, características y principales autores.
+        4. Uso de técnicas básicas para el comentario y análisis lingüístico y literario de los textos literarios latinos.
+        5. Recepción de la literatura latina:
+        5.1. Valoración de la influencia de la literatura latina en la producción cultural europea.
+        5.2. Aprendizaje de nociones básicas de intertextualidad: imitatio, aemulatio, interpretatio y allusio.
+        6. Identificación y comentario de las analogías y diferencias entre los géneros literarios latinos y los de la literatura actual.
+        7. Introducción a la crítica literaria: análisis y valoración de la literatura latina en sus contenidos, aspectos lingüísticos y estilísticos.
+        8. Reconocimiento de las islas Canarias en los textos literarios, analizando sus características más representativas e identificándolas como parte del imaginario de la literatura latina y de la literatura occidental en todos los tiempos.
+        9. Interés hacia la literatura de autores clásicos como fuente de deleite, placer y de conocimiento del mundo.
+        10. Respeto de la propiedad intelectual y de los derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.
+    - curso: "2.º Bachillerato"
+      bloque: "IV. La antigua Roma"
+      contenido: |
+        1. Identificación y descripción de los aspectos más relevantes de la geografía en el proceso de expansión de Roma desde su nacimiento hasta la desaparición del Imperio romano.
+        2. Reconocimiento y valoración patrimonial de las ciudades y los lugares más relevantes de la antigua Roma y la función de de cada uno de estos (Foro Romano, basílicas, Coliseo, Circo Máximo…), a través de los textos latinos.
+        3. Estudio de las etapas y de los periodos históricos de Roma:
+        3.1. Identificación de los principales sistemas políticos de Roma: Monarquía, República e Imperio, y explicación de sus instituciones más representativas: el senado, la asamblea popular, la magistratura de la Roma republicana…
+        3.2. Repercusión de los hitos y episodios de la historia del mundo romano entre los siglos VIII a. C. y V d. C. en la ciudadanía romana y en el proceso de romanización.
+        3.3. Reconocimiento de las principales leyendas y su conexión con otras civilizaciones.
+        3.4. Influencia de las personalidades históricas más representativas de Roma en el pensamiento político y social de Europa.
+        4. Descripción de la organización política y social de Roma como parte esencial de la historia y cultura de la sociedad contemporánea.
+        5. Comparación de las instituciones, creencias y formas de vida de la civilización latina con la perspectiva sociocultural de nuestros días, enjuiciando cómo somos y actuamos de forma habitual en nuestro contexto familiar o social más cercano, y prestando especial atención al papel desempeñado por la mujer en aquel momento histórico.
+        6. Valoración de las influencias de la cultura griega en la civilización latina en la literatura: Graecia capta ferum victorem cepit.
+        7. Aportación de Roma a la cultura y al pensamiento de la sociedad occidental como base del desarrollo posterior en las distintas civilizaciones, mediante traducciones y comentarios de textos originales o adaptados.
+        8. Relación de Roma con culturas y religiones extranjeras (Grecia, el cristianismo…), de manera que el alumnado reflexione, y sea tolerante y respetuoso con las culturas y religiones actuales ajenas a él.
+        9. Estudio y valoración del mar Mediterráneo como punto de encuentro para los pueblos y como encrucijada de culturas del ayer y hoy y paso del conocimiento científico, literario, histórico, artístico y tecnológico entre Asia, Europa y África.
+        10. Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como locus amoenus.
+    - curso: "2.º Bachillerato"
+      bloque: "V. Legado y patrimonio"
+      contenido: |
+        1. Reconocimiento y valoración del legado, de la herencia y del patrimonio romano en el mundo actual.
+        2. Apreciación de la transmisión textual latina como patrimonio cultural y fuente de conocimiento a través de diferentes culturas y épocas. Reconocimiento de soportes de escritura: tipos y preservación.
+        3. Reflexión sobre la pervivencia de referentes míticos en las manifestaciones artísticas (literatura, artes plásticas y visuales, música…) de la cultura occidental, en general, y de Canarias, en particular.
+        4. Valoración del proceso de la romanización de Hispania y las huellas de su pervivencia.
+        5. Investigación y reflexión de la pervivencia del urbanismo romano: construcción, conservación, preservación y restauración.
+        6. Investigación del legado inmaterial del mundo romano: el derecho, las instituciones políticas, la retórica…
+        7. Aplicación de las técnicas de debate y de exposición oral, partiendo de los preceptos de la oratoria romana para la construcción de discursos.
+        8. Localización y descripción de las principales obras artísticas de la Antigüedad romana y sitios arqueológicos, museos o festivales relacionados con la Antigüedad clásica.
+        9. Identificación y valoración del patrimonio cultural romano en la arquitectura y el urbanismo de Canarias.
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Extracción completada el 2026-08-05 a partir de 07_corpus_ia/textos-completos/texto-oficial-CUR-044-latin.txt (texto plano oficial del PDF curricular Latín I y II, FTE-012/FTE-009). Las 5 competencias específicas llevan enunciado_oficial literal y descriptores operativos por curso (DEC-0008), idénticos en 1.º y 2.º de Bachillerato. criterios_evaluacion recoge los 12 criterios de 1.º Bachillerato (4+2+2+2+2) y los 11 de 2.º Bachillerato (3+2+2+2+2), agrupados por curso con id y texto literal completo. saberes_basicos recoge íntegros los cinco bloques oficiales (I. El texto: comprensión y traducción; II. Plurilingüismo; III. Educación literaria; IV. La antigua Roma; V. Legado y patrimonio) para cada uno de los dos cursos, preservando la numeración original del decreto, incluida la errata literal 'la función de de cada uno' del Bloque IV. Los cuatro elementos de DEC-0004 quedan completos."

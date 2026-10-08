@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoie o JuriScan</title>
+  <meta name="description" content="Apoie o JuriScan — análise forense de processos judiciais brasileiros. Open-source, feito para advogados.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      background: #0a0e1a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #111827, #1a2332);
+      border: 1px solid #1e3a5f;
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.25rem;
+    }
+
+    .logo span { color: #3b82f6; }
+
+    .subtitle {
+      color: #64748b;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
+
+    .qr-container {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 1rem;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+
+    .qr-container img {
+      display: block;
+      width: 220px;
+      height: 220px;
+    }
+
+    .description {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .pix-label {
+      color: #64748b;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+    }
+
+    .copy-btn {
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 0.875rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+
+    .copy-btn:hover { opacity: 0.9; }
+    .copy-btn:active { transform: scale(0.98); }
+
+    .copy-btn.copied {
+      background: linear-gradient(135deg, #059669, #10b981);
+    }
+
+    .company {
+      color: #475569;
+      font-size: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .footer a {
+      color: #64748b;
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: color 0.2s;
+    }
+
+    .footer a:hover { color: #3b82f6; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="logo"><span>Juri</span>Scan</div>
+    <div class="subtitle">Análise forense de processos judiciais</div>
+
+    <div class="qr-container">
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=00020126660014br.gov.bcb.pix0114437732940001050226Apoio%20JuriScan%20open-source5204000053039865802BR5925BRACAIOLI%20TECNOLOGIA%20EMPR6002NA62290525174b2a17ad5f4844bjuriscan6304B50C"
+        alt="QR Code Pix"
+        width="220"
+        height="220"
+      />
+    </div>
+
+    <p class="description">
+      O JuriScan é open-source e gratuito.<br>
+      Se ele economizou seu tempo, considere apoiar o desenvolvimento.
+    </p>
+
+    <div class="pix-label">Pix Copia e Cola</div>
+
+    <button class="copy-btn" id="copyBtn" onclick="copyPix()">
+      Copiar chave Pix
+    </button>
+
+    <div class="company">Bracaioli Tecnologia Empresarial LTDA</div>
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/brunobracaioli/juriscan">GitHub</a>
+    <a href="https://github.com/brunobracaioli/juriscan#instalação">Instalar skill</a>
+  </div>
+
+  <script>
+    var PIX_PAYLOAD = '00020126660014br.gov.bcb.pix0114437732940001050226Apoio JuriScan open-source5204000053039865802BR5925BRACAIOLI TECNOLOGIA EMPR6002NA62290525174b2a17ad5f4844bjuriscan6304B50C';
+
+    function copyPix() {
+      navigator.clipboard.writeText(PIX_PAYLOAD).then(function() {
+        var btn = document.getElementById('copyBtn');
+        btn.textContent = 'Copiado!';
+        btn.classList.add('copied');
+        setTimeout(function() {
+          btn.textContent = 'Copiar chave Pix';
+          btn.classList.remove('copied');
+        }, 2500);
+      });
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "uy-general",
+  "displayName": "General — UY",
+  "version": "0.1.0",
+  "description": "General skills for UY (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "uy",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-uruguay-orwel",
+    "skills/analisis-jurisprudencial-uruguay-orwel",
+    "skills/due-diligence-general-uruguay-orwel",
+    "skills/elaboracion-concepto-juridico-uruguay-orwel",
+    "skills/investigacion-juridica-uruguay-orwel"
+  ]
+}

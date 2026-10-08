@@ -1,0 +1,80 @@
+{
+  "skill": "au-tax-research",
+  "sources": [
+    {
+      "title": "Federal Register of Legislation",
+      "url": "https://www.legislation.gov.au/",
+      "checked_at": "2026-09-30",
+      "reverify_by": "2027-09-27",
+      "fact": "Reviewed on 27 September 2026 at Ryan Duguid's direction: the home page describes the Register as the authorised whole-of-government website for Commonwealth legislation and related documents, holding the full text and lifecycle of each law. Portal record only: no rule is adopted from it.",
+      "volatile": true,
+      "limitations": "Open the compilation in force for the work's period and record its number and date.",
+      "final_url": "https://www.legislation.gov.au/",
+      "http_status": 200,
+      "fetched_at": "2026-09-30",
+      "content_hash": "08ce2490203315f29e4aa1a4420333ce2e9e6ab72053948e4f1aabf78f805d97",
+      "content_hash_covers": "html",
+      "source_last_modified": "",
+      "content_url": "https://www.legislation.gov.au/"
+    },
+    {
+      "title": "TR 2006/10 Public rulings",
+      "url": "https://www.ato.gov.au/law/view/document?DocID=TXR/TR200610/NAT/ATO/00001",
+      "checked_at": "2026-09-27",
+      "fact": "Reviewed on 27 September 2026 at Ryan Duguid's direction: issued 4 October 2006, review date 25 February 2031. Paragraph 1 says the Ruling outlines the system of public rulings under Divisions 357 and 358 of Schedule 1 to the Taxation Administration Act 1953; it explains when a public ruling binds the Commissioner and cites subsection 357-60(1).",
+      "volatile": false,
+      "limitations": "Check the ruling's history for amendments before relying on a specific paragraph.",
+      "final_url": "https://www.ato.gov.au/law/view/document?DocID=TXR/TR200610/NAT/ATO/00001",
+      "http_status": 200,
+      "fetched_at": "2026-09-27",
+      "content_hash": "dbb031fcf02bac3efcdea0c7cc7d02cc57dde21c19e2642569999733e58509b9",
+      "content_hash_covers": "html",
+      "source_last_modified": ""
+    },
+    {
+      "title": "PS LA 2008/4 Publication of edited versions of written binding advice",
+      "url": "https://www.ato.gov.au/law/view/document?DocID=PSR/PS20084/NAT/ATO/00001",
+      "checked_at": "2026-09-27",
+      "reverify_by": "2027-09-27",
+      "fact": "Reviewed on 27 September 2026 at Ryan Duguid's direction: issued 9 August 2013, review date 22 May 2028. Section 2 states that taxpayers cannot rely on edited versions of written binding advice and that the ATO is not bound by an edited version in relation to any taxpayer. Its history records that edited versions over 15 years old are removed from the Legal Database.",
+      "volatile": true,
+      "limitations": "An edited version shows how advice was once given on other facts; it is not authority for the work.",
+      "final_url": "https://www.ato.gov.au/law/view/document?DocID=PSR/PS20084/NAT/ATO/00001",
+      "http_status": 200,
+      "fetched_at": "2026-09-27",
+      "content_hash": "c396b0b27d4d95774a10c82cbcc76ae9e17bc661194e6a30b5b00641f7963de0",
+      "content_hash_covers": "html",
+      "source_last_modified": ""
+    },
+    {
+      "title": "TPB: Reasonable care",
+      "url": "https://www.tpb.gov.au/reasonable-care",
+      "checked_at": "2026-09-27",
+      "reverify_by": "2027-09-27",
+      "fact": "Reviewed on 27 September 2026 at Ryan Duguid's direction: last modified 30 April 2026. The Code of Professional Conduct requires reasonable care in ascertaining a client's state of affairs (Code item 9) and in ensuring taxation laws are applied correctly (Code item 10). There is no set formula; professional judgement applies.",
+      "volatile": true,
+      "limitations": "Guidance on the Code, not the Code itself. Read the Tax Agent Services Act 2009 for the obligation.",
+      "final_url": "https://www.tpb.gov.au/reasonable-care",
+      "http_status": 0,
+      "fetched_at": "2026-09-27",
+      "content_hash": "",
+      "content_hash_covers": "",
+      "source_last_modified": ""
+    },
+    {
+      "title": "TPB(GS) 55/2026 The use of Artificial Intelligence and the Code of Professional Conduct",
+      "url": "https://www.tpb.gov.au/tpbgs-552026-use-artificial-intelligence-and-code-professional-conduct",
+      "checked_at": "2026-09-27",
+      "reverify_by": "2027-09-27",
+      "fact": "Reviewed on 27 September 2026 at Ryan Duguid's direction: issued and last modified 22 July 2026. Practitioners remain ultimately responsible for services provided with AI tools, should verify and review AI-generated content for accuracy at each step of the workflow and document those steps, and must meet the Code item 6 confidentiality obligation when using AI.",
+      "volatile": true,
+      "limitations": "A guidance statement; it does not create obligations beyond the Tax Agent Services Act 2009.",
+      "final_url": "https://www.tpb.gov.au/tpbgs-552026-use-artificial-intelligence-and-code-professional-conduct",
+      "http_status": 0,
+      "fetched_at": "2026-09-27",
+      "content_hash": "",
+      "content_hash_covers": "",
+      "source_last_modified": ""
+    }
+  ]
+}

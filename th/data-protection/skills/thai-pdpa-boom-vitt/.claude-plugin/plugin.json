@@ -1,0 +1,12 @@
+{
+  "name": "thai-pdpa",
+  "description": "Use this skill for tasks involving Thailand's PDPA (พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vittawat (Boom-Vitt)",
+    "url": "https://github.com/Boom-Vitt"
+  },
+  "homepage": "https://github.com/Boom-Vitt/claude-thai-skills",
+  "license": "MIT",
+  "skills": ["."]
+}

@@ -1,0 +1,10 @@
+id: REL-083
+tipo_relacion: "modifica"
+origen: NOR-083
+destino: NOR-097
+descripcion: "La Resolución de 26 de marzo de 2026 amplía la Resolución de 21 de febrero de 2025 añadiendo el itinerario de Formación Profesional Adaptada «Actividades auxiliares en agricultura»."
+evidencia:
+  fuente: FTE-090
+  localizacion: "Resuelvo tercero y Anexo III de la Resolución de 26 de marzo de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

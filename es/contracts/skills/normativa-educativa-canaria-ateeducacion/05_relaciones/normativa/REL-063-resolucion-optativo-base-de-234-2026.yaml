@@ -1,0 +1,11 @@
+id: REL-063
+tipo_relacion: "desarrolla"
+origen: NOR-062
+destino: NOR-078
+descripcion: "La Resolución n.º 234/2026 aplica y desarrolla las instrucciones de la Resolución de 25 de febrero de 2026 sobre el módulo profesional optativo en los Grados D."
+evidencia:
+  fuente: FTE-085
+  localizacion: "Antecedentes de la Resolución n.º 234/2026, que citan la Resolución de 25 de febrero de 2026 como norma base."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Registrada al cerrar PREG-006: NOR-062 y NOR-063 se apoyaban en una resolución que el corpus no tenía catalogada."

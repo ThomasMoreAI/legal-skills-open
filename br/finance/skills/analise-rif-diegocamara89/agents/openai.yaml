@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analise RIF COAF"
+  short_description: "Analisa RIF do COAF e gera RAF tecnico em docx"
+  default_prompt: "Use esta skill para validar os CSVs do RIF, cruzar dados por Indexador, identificar indicios e tipologias de lavagem, e gerar um RAF tecnico em .docx com base exclusiva nos dados."

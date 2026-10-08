@@ -1,0 +1,18 @@
+{
+  "name": "ni-general",
+  "displayName": "General — NI",
+  "version": "0.1.0",
+  "description": "General skills for NI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ni",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-nicaragua-orwel",
+    "skills/analisis-jurisprudencial-nicaragua-orwel",
+    "skills/due-diligence-general-nicaragua-orwel",
+    "skills/elaboracion-concepto-juridico-nicaragua-orwel",
+    "skills/investigacion-juridica-nicaragua-orwel"
+  ]
+}

@@ -1,0 +1,1908 @@
+NOR-001:
+  titulo: "Ley Orgánica 2/2006, de 3 de mayo, de Educación"
+  nombre_corto: "LOE"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente (consolidada)"
+  fecha_disposicion: 2006-05-03
+  fecha_publicacion: 2006-05-04
+  fecha_entrada_vigor: 2006-05-24
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-005
+  uri_eli: "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-001-loe.md"
+  temas: [marco-general, ordenacion, evaluacion]
+  etapas_afectadas: [todas]
+
+NOR-002:
+  titulo: "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación"
+  nombre_corto: "LOMLOE"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2020-12-29
+  fecha_publicacion: 2020-12-30
+  fecha_entrada_vigor: 2021-01-19
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-006
+  uri_eli: "https://www.boe.es/eli/es/lo/2020/12/29/3"
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md"
+  temas: [reforma-educativa, marco-general]
+  etapas_afectadas: [todas]
+
+NOR-003:
+  titulo: "Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria"
+  nombre_corto: "RD 217/2022 (ESO)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-29
+  fecha_publicacion: 2022-03-30
+  fecha_entrada_vigor: 2022-03-31
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-007
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/03/29/217/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md"
+  temas: [eso, curriculo, ordenacion]
+  etapas_afectadas: [eso]
+
+NOR-004:
+  titulo: "Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria"
+  nombre_corto: "Ley Canaria de Educación"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2014-07-25
+  fecha_publicacion: 2014-07-28
+  fecha_entrada_vigor: 2014-07-29
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-008
+  uri_eli: "https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"
+  ruta: "02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md"
+  temas: [marco-autonomico, derechos, profesorado, centros]
+  etapas_afectadas: [todas]
+
+NOR-005:
+  titulo: "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto 30/2023 (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-03-16
+  fecha_publicacion: 2023-03-23
+  fecha_entrada_vigor: 2023-03-24
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-009
+  ruta: "02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md"
+  temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
+  etapas_afectadas: [eso, bachillerato]
+
+NOR-006:
+  titulo: "Real Decreto 243/2022, de 5 de abril, por el que se establece la ordenación y las enseñanzas mínimas del Bachillerato"
+  nombre_corto: "RD 243/2022 (Bachillerato)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-04-05
+  fecha_publicacion: 2022-04-06
+  fecha_entrada_vigor: 2022-04-07
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-011
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/04/05/243/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md"
+  temas: [bachillerato, curriculo, ordenacion]
+  etapas_afectadas: [bachillerato]
+
+NOR-007:
+  titulo: "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional"
+  nombre_corto: "LOFP"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-31
+  fecha_publicacion: 2022-04-01
+  fecha_entrada_vigor: 2022-04-21
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-016
+  uri_eli: "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-007-lofp.md"
+  temas: [formacion-profesional, integracion, sistema-unico]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-008:
+  titulo: "Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto 156/1996 (Canarias FP)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente (supletorio/histórico)"
+  fecha_disposicion: 1996-06-20
+  fecha_publicacion: 1996-07-10
+  fecha_entrada_vigor: 1996-07-11
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md"
+  temas: [formacion-profesional, ordenacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-009:
+  titulo: "Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "ROC (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-07-08
+  fecha_publicacion: 2010-07-22
+  fecha_entrada_vigor: 2010-07-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-017
+  ruta: "02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md"
+  temas: [centros, organizacion, funcionamiento]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-010:
+  titulo: "Decreto 114/2011, de 11 de mayo, por el que se regula la convivencia en el ámbito educativo de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Convivencia (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-11
+  fecha_publicacion: 2011-06-02
+  fecha_entrada_vigor: 2011-06-22
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-018
+  ruta: "02_normativa/canarias/decretos/NOR-010-decreto-114-2011-convivencia.md"
+  temas: [convivencia, resolucion-conflictos, disciplina-escolar]
+  etapas_afectadas: [todas]
+
+NOR-011:
+  titulo: "Decreto 52/2009, de 12 de mayo, por el que se aprueba el Reglamento de la Inspección de Educación de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Reglamento Inspección (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-05-12
+  fecha_publicacion: 2009-05-20
+  fecha_entrada_vigor: 2009-05-21
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-013
+  ruta: "02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md"
+  temas: [inspeccion, organizacion, centros]
+  etapas_afectadas: [todas]
+
+NOR-012:
+  titulo: "Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación Profesional"
+  nombre_corto: "ROC CIFP (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-11
+  fecha_publicacion: 2011-05-30
+  fecha_entrada_vigor: 2011-05-31
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-020
+  ruta: "02_normativa/canarias/decretos/NOR-012-decreto-112-2011-roc-cifp.md"
+  temas: [formacion-profesional, organizacion, centros]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-013:
+  titulo: "Orden de 22 de mayo de 2011, por la que se desarrolla la organización y el funcionamiento de la Inspección de Educación de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden Inspección (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-22
+  fecha_publicacion: 2011-06-01
+  fecha_entrada_vigor: 2011-06-02
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-021
+  ruta: "02_normativa/canarias/ordenes/NOR-013-orden-22-mayo-2011-inspeccion.md"
+  temas: [inspeccion, organizacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-014:
+  titulo: "Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo y a las enseñanzas deportivas de régimen especial"
+  nombre_corto: "Orden 22-02-2008 (acceso FP Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente (con aplicaciones anuales)"
+  fecha_disposicion: 2008-02-22
+  fecha_publicacion: 2008-03-17
+  fecha_entrada_vigor: 2008-03-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md"
+  temas: [formacion-profesional, acceso, ensenanzas-deportivas]
+  etapas_afectadas: [formacion-profesional, ensenanzas-deportivas]
+
+NOR-015:
+  titulo: "Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden 20-10-2000 (evaluación FP Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente (supletoria)"
+  fecha_disposicion: 2000-10-20
+  fecha_publicacion: 2000-11-10
+  fecha_entrada_vigor: 2000-11-11
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-015-orden-20-10-2000-evaluacion-fp.md"
+  temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-016:
+  titulo: "Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden 03-12-2003 (modifica orden evaluación FP)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2003-12-03
+  fecha_publicacion: 2003-12-22
+  fecha_entrada_vigor: 2003-12-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-016-orden-03-12-2003-evaluacion-fp.md"
+  temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-017:
+  titulo: "Orden de 28 de julio de 2014, por la que se regula la organización y funcionamiento de las Escuelas Infantiles"
+  nombre_corto: "ROC Escuelas Infantiles (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+  fecha_disposicion: 2014-07-28
+  fecha_publicacion: 2014-08-05
+  fecha_entrada_vigor: 2014-08-06
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-013
+  ruta: "02_normativa/canarias/ordenes/NOR-017-orden-28-julio-2014-infantil.md"
+  temas: [infantil, organizacion, centros]
+  etapas_afectadas: [infantil]
+
+NOR-018:
+  titulo: "Orden de 1 de septiembre de 2010, por la que se regula la organización y funcionamiento de los Institutos de Educación Secundaria"
+  nombre_corto: "Funcionamiento IES (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+  fecha_disposicion: 2010-09-01
+  fecha_publicacion: 2010-09-10
+  fecha_entrada_vigor: 2010-09-11
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-013
+  ruta: "02_normativa/canarias/ordenes/NOR-018-orden-1-sept-2010-ies.md"
+  temas: [secundaria, organizacion, centros]
+  etapas_afectadas: [eso, bachillerato, formacion-profesional]
+
+NOR-019:
+  titulo: "Ley 2/1987, de 30 de marzo, de la Función Pública Canaria"
+  nombre_corto: "Ley Función Pública (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 1987-03-30
+  fecha_publicacion: 1987-04-03
+  fecha_entrada_vigor: 1987-04-04
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-022
+  uri_eli: "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
+  ruta: "02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md"
+  temas: [funcion-publica, regimen-juridico]
+  etapas_afectadas: [todas]
+
+NOR-020:
+  titulo: "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público"
+  nombre_corto: "TREBEP"
+  tipo_norma: "real-decreto-legislativo"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2015-10-30
+  fecha_publicacion: 2015-10-31
+  fecha_entrada_vigor: 2015-11-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-023
+  uri_eli: "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-020-trebep.md"
+  temas: [funcion-publica, regimen-juridico]
+  etapas_afectadas: [todas]
+
+NOR-021:
+  titulo: "Decreto 74/2010, de 1 de julio, por el que se establece el procedimiento de constitución de listas de empleo para el nombramiento de funcionarios interinos en los cuerpos docentes no universitarios"
+  nombre_corto: "Decreto de Interinos (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-07-01
+  fecha_publicacion: 2010-07-13
+  fecha_entrada_vigor: 2010-07-14
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-024
+  ruta: "02_normativa/canarias/decretos/NOR-021-decreto-74-2010-interinos.md"
+  temas: [personal-interino, seleccion, nombramiento, listas-empleo]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-022:
+  titulo: "Decreto 106/2009, de 28 de julio, por el que se regula la función directiva en los centros docentes públicos no universitarios dependientes de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Función Directiva (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-07-28
+  fecha_publicacion: 2009-08-11
+  fecha_entrada_vigor: 2009-08-12
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-025
+  ruta: "02_normativa/canarias/decretos/NOR-022-decreto-106-2009-direccion.md"
+  temas: [funcion-directiva, directores]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-023:
+  titulo: "Resolución de 16 de junio de 2020, por la que se regula el periodo vacacional y el régimen de permisos y licencias del personal docente no universitario"
+  nombre_corto: "Permisos y Licencias 2020 (Canarias)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Superada"
+  fecha_disposicion: 2020-06-16
+  fecha_publicacion: 2020-07-02
+  fecha_entrada_vigor: 2020-07-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-026
+  ruta: "02_normativa/canarias/resoluciones/NOR-023-resolucion-2020-permisos.md"
+  temas: [permisos, licencias, vacaciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-024:
+  titulo: "Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Atención a la diversidad (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2018-02-26
+  fecha_publicacion: 2018-03-06
+  fecha_entrada_vigor: 2018-03-07
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-027
+  ruta: "02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md"
+  temas: [diversidad, inclusion, neae]
+  etapas_afectadas: [todas]
+
+NOR-025:
+  titulo: "Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden NEAE (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente (rectificado: la norma que se decía que la superaba no existe, PREG-012)"
+  fecha_disposicion: 2010-12-13
+  fecha_publicacion: 2010-12-22
+  fecha_entrada_vigor: 2010-12-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-028
+  ruta: "02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md"
+  temas: [neae, nee, adaptaciones-curriculares]
+  etapas_afectadas: [todas]
+
+NOR-026:
+  titulo: "Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Instrucciones NEAE 2011"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Superada parcialmente"
+  fecha_disposicion: 2011-02-09
+  fecha_publicacion: 2011-02-21
+  fecha_entrada_vigor: 2011-02-22
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-029
+  ruta: "02_normativa/canarias/resoluciones/NOR-026-resolucion-2011-procedimientos-neae.md"
+  temas: [neae, procedimientos, plazos]
+  etapas_afectadas: [todas]
+
+NOR-027:
+  titulo: "Ley 12/2019, de 25 de abril, por la que se regula la atención temprana en Canarias"
+  nombre_corto: "Atención temprana (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2019-04-25
+  fecha_publicacion: 2019-05-13
+  fecha_entrada_vigor: 2019-06-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-030
+  ruta: "02_normativa/canarias/leyes/NOR-027-ley-12-2019-atencion-temprana.md"
+  temas: [atencion-temprana, infancia, sanidad-educacion]
+  etapas_afectadas: [infantil]
+
+NOR-028:
+  titulo: "Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Concreciones curriculares adaptadas (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2016-02-10
+  fecha_publicacion: 2016-02-18
+  fecha_entrada_vigor: 2016-02-19
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-031
+  ruta: "02_normativa/canarias/ordenes/NOR-028-orden-10-02-2016-aulas-enclave.md"
+  temas: [nee, aulas-enclave, centros-educacion-especial]
+  etapas_afectadas: [infantil, primaria, eso]
+
+NOR-029:
+  titulo: "Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes públicos y privados concertados que imparten enseñanzas no universitarias en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto de Admisión (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-01-20
+  fecha_publicacion: 2022-01-28
+  fecha_entrada_vigor: 2022-01-29
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-032
+  ruta: "02_normativa/canarias/decretos/NOR-029-decreto-9-2022-admision.md"
+  temas: [admision, escolarizacion, matricula]
+  etapas_afectadas: [todas]
+
+NOR-030:
+  titulo: "Orden de 3 de marzo de 2022, por la que se desarrolla el procedimiento de admisión del alumnado en centros docentes públicos y privados concertados de Canarias"
+  nombre_corto: "Orden de Admisión (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-03
+  fecha_publicacion: 2022-03-11
+  fecha_entrada_vigor: 2022-03-12
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-033
+  ruta: "02_normativa/canarias/ordenes/NOR-030-orden-03-03-2022-admision.md"
+  temas: [admision, procedimientos, documentacion]
+  etapas_afectadas: [todas]
+
+NOR-031:
+  titulo: "Ley 1/1997, de 7 de febrero, de Atención Integral a los Menores"
+  nombre_corto: "Atención Integral a los Menores (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 1997-02-07
+  fecha_publicacion: 1997-02-19
+  fecha_entrada_vigor: 1997-03-11
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-034
+  ruta: "02_normativa/canarias/leyes/NOR-031-ley-1-1997-atencion-integral-menores.md"
+  temas: [proteccion-menores, derechos, bienestar]
+  etapas_afectadas: [todas]
+
+NOR-032:
+  titulo: "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales"
+  nombre_corto: "Igualdad LGTBI (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2021-06-07
+  fecha_publicacion: 2021-06-17
+  fecha_entrada_vigor: 2021-06-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-035
+  uri_eli: "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
+  ruta: "02_normativa/canarias/leyes/NOR-032-ley-2-2021-igualdad-identidad-genero.md"
+  temas: [igualdad, identidad-genero, diversidad-sexual]
+  etapas_afectadas: [todas]
+
+NOR-033:
+  titulo: "Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  nombre_corto: "Reglamento Orgánico Consejería"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-06-10
+  fecha_publicacion: 2024-06-18
+  fecha_entrada_vigor: 2024-06-19
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-036
+  ruta: "02_normativa/canarias/decretos/NOR-033-decreto-84-2024-reglamento-organico-consejeria.md"
+  temas: [administracion, organizacion, consejeria]
+  etapas_afectadas: [todas]
+
+NOR-034:
+  titulo: "Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las bases de concesión de subvenciones para comedores escolares en centros públicos"
+  nombre_corto: "Comedores Escolares (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-04-24
+  fecha_publicacion: 2009-05-05
+  fecha_entrada_vigor: 2009-05-06
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-037
+  ruta: "02_normativa/canarias/ordenes/NOR-034-orden-24-04-2009-comedores-escolares.md"
+  temas: [comedores, subvenciones, servicios-complementarios]
+  etapas_afectadas: [infantil, primaria, eso]
+
+NOR-035:
+  titulo: "Orden de 2 de agosto de 2006, por la que se regula el servicio de transporte escolar en los centros docentes públicos no universitarios y residencias escolares"
+  nombre_corto: "Transporte Escolar (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2006-08-02
+  fecha_publicacion: 2006-08-24
+  fecha_entrada_vigor: 2006-08-25
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-038
+  ruta: "02_normativa/canarias/ordenes/NOR-035-orden-02-08-2006-transporte-escolar.md"
+  temas: [transporte-escolar, servicios-complementarios]
+  etapas_afectadas: [primaria, eso]
+
+NOR-036:
+  titulo: "Decreto 40/2005, de 16 de marzo, de ordenación de las Residencias Escolares en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Residencias Escolares (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2005-03-16
+  fecha_publicacion: 2005-03-29
+  fecha_entrada_vigor: 2005-03-30
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-039
+  ruta: "02_normativa/canarias/decretos/NOR-036-decreto-40-2005-residencias-escolares.md"
+  temas: [centros, residencias, servicios-complementarios]
+  etapas_afectadas: [todas]
+
+NOR-037:
+  titulo: "Orden de 7 de junio de 2007, por la que se regulan las medidas de atención a la diversidad en la enseñanza básica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Medidas Diversidad Básica (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2007-06-07
+  fecha_publicacion: 2007-06-21
+  fecha_entrada_vigor: 2007-06-22
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-040
+  ruta: "02_normativa/canarias/ordenes/NOR-037-orden-7-junio-2007-diversidad.md"
+  temas: [diversidad, inclusion, eso, primaria]
+  etapas_afectadas: [primaria, eso]
+
+NOR-038:
+  titulo: "Resolución de 5 de febrero de 2026, por la que se dictan instrucciones sobre el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados para el curso escolar 2026-2027"
+  nombre_corto: "Instrucciones Admisión 26/27"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-05
+  fecha_publicacion: 2026-02-12
+  fecha_entrada_vigor: 2026-02-13
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-041
+  ruta: "02_normativa/canarias/resoluciones/NOR-038-resolucion-admision-26-27.md"
+  temas: [admision, matricula, curso-26-27]
+  etapas_afectadas: [todas]
+
+NOR-039:
+  titulo: "Resolución n.º 318/2024, instrucciones atención diversidad 2024-2025"
+  nombre_corto: "Instrucciones Diversidad 24/25"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Superada"
+  fecha_disposicion: 2024-04-18
+  fecha_publicacion: null
+  fecha_entrada_vigor: 2024-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-042
+  ruta: "02_normativa/canarias/resoluciones/NOR-039-resolucion-instrucciones-diversidad-24-25.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-040:
+  titulo: "Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026"
+  nombre_corto: "Instrucciones Diversidad 25/26"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-04-15
+  fecha_publicacion: null
+  fecha_entrada_vigor: 2025-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-043
+  ruta: "02_normativa/canarias/resoluciones/NOR-040-resolucion-instrucciones-diversidad-25-26.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-041:
+  titulo: "Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027"
+  nombre_corto: "Instrucciones Diversidad 26/27"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-04-24
+  fecha_publicacion: null
+  fecha_entrada_vigor: 2026-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-044
+  ruta: "02_normativa/canarias/resoluciones/NOR-041-resolucion-instrucciones-diversidad-26-27.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-042:
+  titulo: "Resolución de 24 de febrero de 2026, por la que se actualiza y adecua el régimen de vacaciones, permisos y licencias del personal docente no universitario"
+  nombre_corto: "Permisos y Licencias 2026 (Canarias)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-24
+  fecha_publicacion: 2026-03-09
+  fecha_entrada_vigor: 2026-03-10
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-045
+  ruta: "02_normativa/canarias/resoluciones/NOR-042-resolucion-2026-permisos.md"
+  temas: [permisos, licencias, vacaciones, conciliacion]
+  etapas_afectadas: [todas]
+
+NOR-043:
+  titulo: "Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Currículo Primaria (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-11-10
+  fecha_publicacion: 2022-11-23
+  fecha_entrada_vigor: 2022-11-24
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-046
+  ruta: "02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md"
+  temas: [primaria, curriculo, ordenacion]
+  etapas_afectadas: [primaria]
+
+NOR-044:
+  titulo: "Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado que cursa las etapas de la Educación Infantil, la Educación Primaria, la Educación Secundaria Obligatoria y el Bachillerato"
+  nombre_corto: "Evaluación y Promoción (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-05-31
+  fecha_publicacion: 2023-06-08
+  fecha_entrada_vigor: 2023-06-09
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-047
+  ruta: "02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-31-mayo-2023.md"
+  temas: [evaluacion, promocion, titulacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-045:
+  titulo: "Resolución de 15 de mayo de 2025, por la que se establecen las rúbricas de los criterios de evaluación de la etapa de Educación Primaria"
+  nombre_corto: "Rúbricas Primaria (Canarias)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-05-15
+  fecha_publicacion: 2025-06-02
+  fecha_entrada_vigor: 2025-06-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-048
+  ruta: "02_normativa/canarias/resoluciones/NOR-045-resolucion-rubricas-primaria.md"
+  temas: [evaluacion, rubricas]
+  etapas_afectadas: [primaria]
+
+NOR-046:
+  titulo: "Resolución conjunta n.º 73/2025, de 20 de junio, por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos no universitarios de Canarias para el curso 2025-2026"
+  nombre_corto: "Instrucciones IOF 2025-2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Histórica — aplicación al curso 2025-2026; referencia anual 2026-2027 en NOR-127"
+  fecha_disposicion: 2025-06-20
+  fecha_publicacion: null
+  fecha_entrada_vigor: 2025-09-01
+  fecha_consulta: 2026-10-07
+  fuente_principal: FTE-049
+  ruta: "02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-25-26.md"
+  temas: [organizacion, funcionamiento, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
+
+NOR-047:
+  titulo: "Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Currículo Infantil (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-10-13
+  fecha_publicacion: 2022-10-26
+  fecha_entrada_vigor: 2022-10-27
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-050
+  ruta: "02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md"
+  temas: [infantil, curriculo, ordenacion]
+  etapas_afectadas: [infantil]
+
+NOR-050:
+  titulo: "Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo en Canarias"
+  nombre_corto: "Procedimientos NEAE (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+  fecha_disposicion: 2023-05-29
+  fecha_publicacion: 2023-06-01
+  fecha_entrada_vigor: 2023-06-02
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-053
+  ruta: "02_normativa/canarias/ordenes/NOR-050-orden-procedimientos-neae-2023.md"
+  temas: [neae, inclusion, procedimientos, evaluacion-psicopedagogica]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-051:
+  titulo: "Real Decreto 546/1995, de 7 de abril, título de Técnico en Cuidados Auxiliares de Enfermería"
+  nombre_corto: "RD Cuidados Auxiliares Enfermería"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 1995-04-07
+  fecha_publicacion: 1995-06-05
+  fecha_entrada_vigor: 1995-06-06
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/1995/04/07/546"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md"
+  temas: [sanidad, tecnico]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-052:
+  titulo: "Real Decreto 770/2014, de 12 de septiembre, título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear"
+  nombre_corto: "RD Imagen para el Diagnóstico"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2014-09-12
+  fecha_publicacion: 2014-10-04
+  fecha_entrada_vigor: 2014-10-05
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2014/09/12/770"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.md"
+  temas: [sanidad, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-053:
+  titulo: "Real Decreto 1631/2009, de 30 de octubre, título de Técnico en Gestión Administrativa"
+  nombre_corto: "RD Gestión Administrativa"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-10-30
+  fecha_publicacion: 2009-12-01
+  fecha_entrada_vigor: 2009-12-02
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2009/10/30/1631"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md"
+  temas: [administracion, tecnico]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-054:
+  titulo: "Real Decreto 1584/2011, de 4 de noviembre, título de Técnico Superior en Administración y Finanzas"
+  nombre_corto: "RD Administración y Finanzas"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-11-04
+  fecha_publicacion: 2011-12-15
+  fecha_entrada_vigor: 2011-12-16
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2011/11/04/1584"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md"
+  temas: [administracion, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-055:
+  titulo: "Real Decreto 450/2010, de 16 de abril, título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma"
+  nombre_corto: "RD DAM"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-04-16
+  fecha_publicacion: 2010-05-20
+  fecha_entrada_vigor: 2010-05-21
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2010/04/16/450"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md"
+  temas: [informatica, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-056:
+  titulo: "Real Decreto 686/2010, de 20 de mayo, título de Técnico Superior en Desarrollo de Aplicaciones Web"
+  nombre_corto: "RD DAW"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-05-20
+  fecha_publicacion: 2010-06-12
+  fecha_entrada_vigor: 2010-06-13
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2010/05/20/686"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md"
+  temas: [informatica, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-057:
+  titulo: "Real Decreto 1394/2007, de 29 de octubre, título de Técnico Superior en Educación Infantil"
+  nombre_corto: "RD T.S. Educación Infantil"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2007-10-29
+  fecha_publicacion: 2007-11-24
+  fecha_entrada_vigor: 2007-11-25
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2007/10/29/1394"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md"
+  temas: [servicios-socioculturales, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-058:
+  titulo: "Real Decreto 289/2023, de 18 de abril, actualización título de Técnico Superior en Integración Social"
+  nombre_corto: "RD Integración Social"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-04-18
+  fecha_publicacion: 2023-05-01
+  fecha_entrada_vigor: 2023-05-21
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2023/04/18/289"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md"
+  temas: [servicios-socioculturales, tecnico-superior]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-059:
+  titulo: "Resolución de 3 de diciembre de 2025, por la que se modifica la Resolución de 9 de junio de 2025 (instrucciones evaluación FP)"
+  nombre_corto: "Modificación Evaluación FP 25-26"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-12-03
+  fecha_publicacion: 2025-12-17
+  fecha_entrada_vigor: 2025-12-18
+  fecha_consulta: 2026-06-01
+  fuente_principal: FTE-055
+  ruta: "02_normativa/canarias/resoluciones/NOR-059-resolucion-modificacion-evaluacion-fp-2025.md"
+  temas: [formacion-profesional, evaluacion, calificaciones, dual]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-060:
+  titulo: "Real Decreto 1074/2012, de 13 de julio, por el que se establece el título de Técnico Superior en Integración Social y se fijan sus enseñanzas mínimas"
+  nombre_corto: "RD 1074/2012 — Título base T.S. Integración Social"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Parcialmente derogado (7 módulos modificados por RD 289/2023)"
+  fecha_disposicion: 2012-07-13
+  fecha_publicacion: 2012-08-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2012/07/13/1074"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-060-rd-1074-2012-integracion-social.md"
+  temas: [formacion-profesional, titulo, curriculo-basico, servicios-socioculturales]
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "GS"
+  etapas_afectadas: [formacion-profesional]
+
+NOR-061:
+  titulo: "Resolución de 9 de junio de 2025, por la que se dictan instrucciones respecto al proceso de evaluación en los Ciclos Formativos (Grados C y D) y Cursos de Especialización (Grado E)"
+  nombre_corto: "Evaluación FP Grados C-D-E 2024/2025"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente, modificada por NOR-059"
+  fecha_disposicion: 2025-06-09
+  fecha_publicacion: 2025-06-17
+  fecha_entrada_vigor: 2025-06-18
+  fecha_consulta: 2026-06-01
+  fuente_principal: FTE-068
+  ruta: "02_normativa/canarias/resoluciones/NOR-061-resolucion-evaluacion-fp-2025.md"
+  temas: [formacion-profesional, evaluacion, promocion, titulacion, dual, grados-c-d-e]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-062:
+  titulo: "Resolución n.º 234/2026 por la que se establece el listado provisional de módulos optativos de diseño propio y aquellos que necesitan subsanación para FP en Canarias 2026/2027"
+  nombre_corto: "Listado provisional optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Superada por el listado definitivo (NOR-063, Resolución n.º 254/2026) tras el plazo de subsanación"
+  fecha_disposicion: 2026-05-18
+  fecha_publicacion: 2026-05-18
+  fecha_entrada_vigor: 2026-05-19
+  fecha_consulta: 2026-06-01
+  fuente_principal: FTE-069
+  ruta: "02_normativa/canarias/resoluciones/NOR-062-resolucion-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-063:
+  titulo: "Resolución n.º 254/2026 por la que se establece el listado definitivo de módulos optativos de diseño propio solicitados por los centros de FP en Canarias para el curso 2026-2027"
+  nombre_corto: "Listado definitivo optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente como listado definitivo del procedimiento 2026/2027, corregido por NOR-064 y NOR-066"
+  fecha_disposicion: 2026-06-02
+  fecha_publicacion: 2026-06-02
+  fecha_entrada_vigor: 2026-06-02
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-070
+  ruta: "02_normativa/canarias/resoluciones/NOR-063-resolucion-listado-definitivo-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-064:
+  titulo: "Resolución n.º 256/2026 por la que se corrigen errores materiales y de hecho en el listado definitivo de módulos optativos de diseño propio de FP en Canarias 2026/2027"
+  nombre_corto: "Corrección 256/2026 optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; corrige el listado definitivo NOR-063"
+  fecha_disposicion: 2026-06-08
+  fecha_publicacion: 2026-06-08
+  fecha_entrada_vigor: 2026-06-08
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-071
+  ruta: "02_normativa/canarias/resoluciones/NOR-064-resolucion-correccion-256-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027, correccion-errores]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-065:
+  titulo: "Resolución n.º 268/2026 por la que se regulan las funciones de prospección en FP y se convoca concurso de méritos para el nombramiento de docentes en Canarias 2026/2027"
+  nombre_corto: "Prospección y concurso de méritos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente para el curso 2026/2027"
+  fecha_disposicion: 2026-06-19
+  fecha_publicacion: 2026-06-19
+  fecha_entrada_vigor: 2026-06-19
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-072
+  ruta: "02_normativa/canarias/resoluciones/NOR-065-resolucion-prospeccion-concurso-meritos-fp-2026-2027.md"
+  temas: [formacion-profesional, prospeccion, concurso-meritos, profesorado, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-066:
+  titulo: "Resolución n.º 272/2026 por la que se corrige un error material en el listado definitivo de módulos optativos de diseño propio de FP en Canarias 2026/2027"
+  nombre_corto: "Corrección 272/2026 optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; corrige el listado definitivo NOR-063"
+  fecha_disposicion: 2026-06-23
+  fecha_publicacion: 2026-06-23
+  fecha_entrada_vigor: 2026-06-23
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-073
+  ruta: "02_normativa/canarias/resoluciones/NOR-066-resolucion-correccion-272-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027, correccion-errores]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-067:
+  titulo: "Resolución de 16 de junio de 2026, por la que se ordena la publicación del Protocolo General de Actuación entre la Consejería de Educación, Formación Profesional, Actividad Física y Deportes y la FECAM para la formación en empresa en FP"
+  nombre_corto: "Publicación protocolo FP CEFPAFD-FECAM 2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; ordena la publicación del protocolo suscrito el 2026-06-15"
+  fecha_disposicion: 2026-06-16
+  fecha_publicacion: 2026-06-29
+  fecha_entrada_vigor: 2026-06-29
+  fecha_consulta: 2026-07-07
+  fuente_principal: FTE-074
+  ruta: "02_normativa/canarias/resoluciones/NOR-067-resolucion-publicacion-protocolo-fp-fecam.md"
+  temas: [formacion-profesional, formacion-en-empresa, colaboracion-institucional, fecam, centros-publicos]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-068:
+  titulo: "Decreto 120/2026, de 13 de julio, por el que se regulan los procedimientos para la certificación, acreditación y reconocimiento de la competencia digital docente en el ámbito de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto 120/2026 — Competencia digital docente"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-07-13
+  fecha_publicacion: 2026-07-20
+  fecha_entrada_vigor: 2026-07-21
+  fecha_consulta: 2026-07-20
+  fuente_principal: FTE-075
+  ruta: "02_normativa/canarias/decretos/NOR-068-decreto-120-2026-competencia-digital-docente.md"
+  temas: [competencia-digital-docente, acreditacion, certificacion, reconocimiento, formacion-permanente, profesorado]
+  etapas_afectadas: [todas]
+
+NOR-069:
+  titulo: "Resolución de 10 de diciembre de 2024, por la que se dictan instrucciones y orientaciones para la implantación y desarrollo de la oferta semipresencial y virtual de los Grados C, D y E de Formación Profesional en Canarias"
+  nombre_corto: "FP semipresencial y virtual Canarias 2024"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente con modificaciones; instrucción sexta modificada por NOR-070 con efectos desde el curso 2026/2027"
+  fecha_disposicion: 2024-12-10
+  fecha_publicacion: 2024-12-18
+  fecha_entrada_vigor: 2024-12-18
+  fecha_consulta: 2026-07-27
+  fuente_principal: FTE-076
+  ruta: "02_normativa/canarias/resoluciones/NOR-069-resolucion-fp-semipresencial-virtual-2024.md"
+  temas: [formacion-profesional, modalidad-semipresencial, modalidad-virtual, grado-c, grado-d, grado-e, organizacion-docente]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-070:
+  titulo: "Resolución de 8 de julio de 2026, por la que se modifica la Resolución de 10 de diciembre de 2024 sobre la oferta semipresencial y virtual de los Grados C, D y E de Formación Profesional en Canarias"
+  nombre_corto: "Modificación FP semipresencial y virtual 2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; aplicable desde el curso 2026/2027"
+  fecha_disposicion: 2026-07-08
+  fecha_publicacion: 2026-07-20
+  fecha_entrada_vigor: 2026-07-20
+  fecha_consulta: 2026-07-27
+  fuente_principal: FTE-077
+  ruta: "02_normativa/canarias/resoluciones/NOR-070-modificacion-fp-semipresencial-virtual-2026.md"
+  temas: [formacion-profesional, modalidad-semipresencial, grado-d, organizacion-horaria, tutorias, desdobles]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-071:
+  titulo: "Resolución conjunta n.º 24/2024, de 16 de julio, por la que se dictan instrucciones específicas dirigidas a los centros educativos dependientes de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes en los que se ha autorizado la implantación del primer ciclo de Educación Infantil"
+  nombre_corto: "Instrucciones primer ciclo de Infantil (2024)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-07-16
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-078
+  ruta: "02_normativa/canarias/resoluciones/NOR-071-resolucion-24-2024-primer-ciclo-infantil.md"
+  temas: [infantil, primer-ciclo, organizacion, funcionamiento, instrucciones, experiencia-piloto]
+  etapas_afectadas: [infantil]
+
+NOR-072:
+  titulo: "Resolución de 21 de junio de 2022, de la Secretaría de Estado de Educación, por la que se publican los currículos de las enseñanzas de religión católica correspondientes a Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato"
+  nombre_corto: "Currículos de Religión Católica 2022 (BOE)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-06-21
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-079
+  uri_eli: "https://www.boe.es/eli/es/res/2022/06/21/"
+  ruta: "02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md"
+  temas: [curriculo, religion-catolica, competencias-especificas, criterios-evaluacion, saberes-basicos]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-073:
+  titulo: "Resolución de 25 de junio de 2026, por la que se dictan instrucciones para la organización y el funcionamiento de los cursos de acceso directo a ciclos formativos CAD2 y CAD3 (cursos de formación preparatorios para acceder a ciclos formativos de grado medio y superior) en Canarias"
+  nombre_corto: "Cursos de acceso directo CAD2 y CAD3 (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-06-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-080
+  ruta: "02_normativa/canarias/resoluciones/NOR-073-resolucion-25-junio-2026-cursos-acceso-directo-cad2-cad3.md"
+  temas: [formacion-profesional, acceso-ciclos-formativos, personas-adultas, cepa, cead, educacion-a-distancia, competencias-basicas]
+  etapas_afectadas: [formacion-profesional, educacion-adultos]
+
+NOR-074:
+  titulo: "Resolución de 25 de junio de 2026, por la que se modifican determinadas Resoluciones que establecen la distribución horaria y estructura modular de los currículos del Ciclo Formativo de Grado Básico en Cocina y Restauración y del Ciclo Formativo de Grado Superior en Prevención de Riesgos Profesionales, en el ámbito de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Horarios de Cocina y Restauración y de Prevención de Riesgos (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-06-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-081
+  ruta: "02_normativa/canarias/resoluciones/NOR-074-resolucion-25-junio-2026-horarios-cocina-prevencion-riesgos.md"
+  temas: [formacion-profesional, distribucion-horaria, estructura-modular, curriculo-fp, cocina-y-restauracion, prevencion-de-riesgos]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-075:
+  titulo: "Resolución de 2 de julio de 2026, por la que se modifican cuadros horarios establecidos en las Resoluciones de 26 de noviembre de 2025 y de 27 de enero de 2026, por las que se dictan instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027"
+  nombre_corto: "Cuadros horarios de dobles titulaciones de Grado D (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; aplicable desde el curso 2026/2027"
+  fecha_disposicion: 2026-07-02
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-082
+  ruta: "02_normativa/canarias/resoluciones/NOR-075-resolucion-2-julio-2026-cuadros-horarios-dobles-titulaciones.md"
+  temas: [formacion-profesional, dobles-titulaciones, grado-d, distribucion-horaria, estructura-modular]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-076:
+  titulo: "ORDEN de 9 de octubre de 2013, por la que se desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias, en lo referente a su organización y funcionamiento."
+  nombre_corto: "Desarrollo del ROC de centros (Canarias, 2013)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2013-10-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-083
+  ruta: "02_normativa/canarias/ordenes/NOR-076-orden-9-octubre-2013-desarrollo-roc.md"
+  temas: [organizacion-centros, organos-coordinacion-docente, horarios, jornada-profesorado, absentismo-escolar, tutorias, reglamento-organico]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, ensenanzas-deportivas]
+
+NOR-077:
+  titulo: "ORDEN de 1 de septiembre de 2010, por la que se desarrolla la organización y funcionamiento de los equipos de orientación educativa y psicopedagógicos de zona y específicos de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Organización y funcionamiento de los EOEP (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-09-01
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-084
+  ruta: "02_normativa/canarias/ordenes/NOR-077-orden-1-septiembre-2010-eoep.md"
+  temas: [orientacion-educativa, eoep, neae, evaluacion-psicopedagogica, informe-psicopedagogico, atencion-a-la-diversidad]
+  etapas_afectadas: [infantil, primaria, eso, transversal]
+
+NOR-078:
+  titulo: "Resolución de 25 de febrero de 2026, por la que se dictan instrucciones para la implantación y desarrollo del módulo profesional optativo en las ofertas formativas de Grados D, niveles 2 (ciclos formativos de grado medio) y 3 (ciclos formativos de grado superior), a partir del curso escolar 2026/2027, en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Módulo profesional optativo en Grados D (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; aplicable desde el curso 2026/2027"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-085
+  ruta: "02_normativa/canarias/resoluciones/NOR-078-resolucion-25-febrero-2026-modulo-optativo.md"
+  temas: [formacion-profesional, modulo-optativo, grado-d, curriculo-fp, ingles-profesional, juegos-tradicionales-canarios]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-079:
+  titulo: "Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la Educación Primaria"
+  nombre_corto: "RD 157/2022 — Enseñanzas mínimas de Primaria"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-01
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-086
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-079-rd-157-2022-ensenanzas-minimas-primaria.md"
+  temas: [educacion-primaria, ensenanzas-minimas, curriculo-basico, perfil-de-salida, competencias-clave, horario-escolar, evaluacion-de-diagnostico, lomloe]
+  etapas_afectadas: [primaria]
+
+NOR-080:
+  titulo: "Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional"
+  nombre_corto: "RD 659/2023 — Ordenación del Sistema de FP"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-07-18
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-087
+  uri_eli: "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md"
+  temas: [formacion-profesional, ordenacion-fp, grados-fp, curriculo-fp, formacion-en-empresa, fct, titulos-fp, acreditacion-de-competencias, ciclos-formativos, gobernanza-fp]
+  etapas_afectadas: [formacion-profesional, eso, educacion-adultos]
+
+NOR-081:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 30 de octubre de 2024, por la que se dictan instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Instrucciones de los Grados D y E (Canarias, 2024)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-10-30
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-088
+  ruta: "02_normativa/canarias/resoluciones/NOR-081-resolucion-30-octubre-2024-grados-d-e.md"
+  temas: [formacion-profesional, grados-d-e, distribucion-horaria, curriculo-fp, evaluacion-fp, titulacion-fp, prevencion-riesgos-laborales, modulos-transversales, convalidaciones, canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-082:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 29 de noviembre de 2024, por la que se modifica la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones para la implantación y desarrollo de los Grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Modificación de los Grados D y E (nov. 2024)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-11-29
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-089
+  ruta: "02_normativa/canarias/resoluciones/NOR-082-resolucion-29-noviembre-2024-modifica-grados-d-e.md"
+  temas: [modificacion-normativa, formacion-profesional, grados-formacion-d-e, convalidaciones, modulo-ingles-profesional, distribucion-horaria-modular, correccion-errores-materiales]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-083:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 26 de marzo de 2026, por la que se amplían la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos; y la Resolución de 21 de febrero de 2025, que dicta instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Ampliación de los Grados D y E (marzo 2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-03-26
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-090
+  ruta: "02_normativa/canarias/resoluciones/NOR-083-resolucion-26-marzo-2026-amplia-grados-d-e.md"
+  temas: [formacion-profesional, grados-d-e, cursos-especializacion, fp-adaptada, distribucion-horaria, curriculo-fp, planta-quimica, inteligencia-artificial-data]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-084:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 17 de abril de 2026, que corrige error en la Resolución de 26 de marzo de 2026, por la que se amplían la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones par la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos; y la Resolución de 21 de febrero de 2025, que dicta instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias (BOC n.º 70, de 13.4.2026)."
+  nombre_corto: "Corrección de error de la ampliación de marzo 2026"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-04-17
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-091
+  ruta: "02_normativa/canarias/resoluciones/NOR-084-resolucion-17-abril-2026-correccion-grados-d-e.md"
+  temas: [correccion-errores, formacion-profesional-adaptada, grados-formacion-d-e, certificado-profesional-agax0208, familia-profesional-agraria, distribucion-horaria-modular]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-085:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 26 de noviembre de 2025, por la que se dictan instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027."
+  nombre_corto: "Dobles titulaciones de FP Grado D (2026/2027)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; aplicable desde el curso 2026/2027"
+  fecha_disposicion: 2025-11-26
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-092
+  ruta: "02_normativa/canarias/resoluciones/NOR-085-resolucion-26-noviembre-2025-dobles-titulaciones.md"
+  temas: [formacion-profesional, dobles-titulaciones, grado-d, ciclos-formativos-grado-medio, ciclos-formativos-grado-superior, feoe-formacion-en-empresa, proyecto-intermodular, evaluacion-fp, curriculo-fp-canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-086:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 2 de mayo de 2025, por la que se dictan instrucciones para la organización de la oferta de dobles titulaciones de formación profesional (Grados D) de ciclos formativos con el primer curso en común en la Comunidad Autónoma de Canarias a partir del curso 2025/2026."
+  nombre_corto: "Dobles titulaciones con primer curso en común (2025)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-05-02
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-093
+  ruta: "02_normativa/canarias/resoluciones/NOR-086-resolucion-2-mayo-2025-dobles-titulaciones-primer-curso.md"
+  temas: [formacion-profesional, dobles-titulaciones, ciclos-formativos, convalidaciones, grado-medio, grado-superior, grados-d, matriculacion, formacion-en-empresa, canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-087:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Actividades Físicas y Deportivas; Comercio y Marketing; y Marítimo-Pesquera, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Grados C/B FP: Deportes, Comercio y Marítimo-Pesquera"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-094
+  ruta: "02_normativa/canarias/resoluciones/NOR-087-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.md"
+  temas: [formacion-profesional, grados-c, grados-b, certificados-profesionales, certificados-de-competencia, distribucion-horaria, estructura-modular, actividades-fisicas-y-deportivas, comercio-y-marketing, maritimo-pesquera]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-088:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera, Mueble y Corcho, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Resolución 25-feb-2026 Grados C/B: Admón., Agraria, Informát"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-095
+  ruta: "02_normativa/canarias/resoluciones/NOR-088-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.md"
+  temas: [formacion-profesional, grados-c-certificados-profesionales, grados-b-certificados-competencia, familias-profesionales, distribucion-horaria, estructura-modular, administracion-y-gestion, agraria, informatica-y-comunicaciones, madera-mueble-y-corcho]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-089:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Artes Gráficas; Fabricación Mecánica; y Servicios Socioculturales y a la Comunidad, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Distribución horaria Grados C/B Artes Gráficas, Mecánica y S"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-096
+  ruta: "02_normativa/canarias/resoluciones/NOR-089-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.md"
+  temas: [formacion-profesional, grados-c-certificados-profesionales, grados-b-certificados-competencia, artes-graficas, fabricacion-mecanica, servicios-socioculturales-y-a-la-comunidad, distribucion-horaria, estructura-modular, canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-090:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; e Industrias Extractivas, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Resolución 25-2-2026 Grados C/B Edificación, Electricidad, E"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-097
+  ruta: "02_normativa/canarias/resoluciones/NOR-090-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.md"
+  temas: [formacion-profesional, grados-c-certificados-profesionales, grados-b-certificados-competencia, distribucion-horaria, estructura-modular, edificacion-y-obra-civil, electricidad-y-electronica, energia-y-agua, industrias-extractivas, canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-091:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de la familia profesional de Hostelería y Turismo, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Distribución horaria Grados C/B Hostelería y Turismo"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-098
+  ruta: "02_normativa/canarias/resoluciones/NOR-091-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.md"
+  temas: [formacion-profesional, grados-c, grados-b, certificados-profesionales, certificados-de-competencia, hosteleria-y-turismo, distribucion-horaria, estructura-modular, canarias, modulos-profesionales]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-092:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Imagen Personal; Imagen y Sonido; Instalación y Mantenimiento; y Química, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Res. 25-feb-2026: horario Grados C/B Imagen, Instalación, Qu"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-099
+  ruta: "02_normativa/canarias/resoluciones/NOR-092-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.md"
+  temas: [grados-c-y-b, certificados-profesionales, certificados-de-competencia, formacion-profesional, distribucion-horaria, estructura-modular, imagen-personal, imagen-y-sonido, instalacion-y-mantenimiento, quimica]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-093:
+  titulo: "Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Industrias Alimentarias; Seguridad y Medio Ambiente; Textil, Confección y Piel; y Transporte y Mantenimiento de Vehículos, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Grados C/B FP: Alimentaria, Seguridad, Textil, Transporte"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-100
+  ruta: "02_normativa/canarias/resoluciones/NOR-093-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.md"
+  temas: [grados-c-certificados-profesionales, grados-b-certificados-competencia, formacion-profesional, distribucion-horaria, estructura-modular, industrias-alimentarias, seguridad-y-medio-ambiente, textil-confeccion-y-piel, transporte-y-mantenimiento-de-vehiculos, canarias]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-094:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 27 de enero de 2026, por la que se amplía y modifica la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "NOR-094"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-01-27
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-101
+  ruta: "02_normativa/canarias/resoluciones/NOR-094-resolucion-27-enero-2026-amplia-grados-d-e.md"
+  temas: [formacion-profesional, grados-d-e, distribucion-horaria, curriculo-fp, servicios-funerarios, centrales-electricas, cocina-y-restauracion, familia-maritimo-pesquera, familia-hosteleria-y-turismo]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-095:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 27 de enero de 2026, por la que se modifican la Resolución de 26 de noviembre de 2025, que dicta instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027, y la Resolución de 2 de mayo de 2025, que dicta instrucciones para la organización de la oferta de dobles titulaciones de formación profesional (Grados D) de ciclos formativos con el primer curso en común en la Comunidad Autónoma de Canarias, a partir del curso 2025/2026."
+  nombre_corto: "Modifica dobles titulaciones FP: Hostelería y Turismo"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-01-27
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-102
+  ruta: "02_normativa/canarias/resoluciones/NOR-095-resolucion-27-enero-2026-modifica-dobles-titulaciones.md"
+  temas: [formacion-profesional, dobles-titulaciones, grados-d, hosteleria-y-turismo, distribucion-horaria, modulo-profesional, feoe, boc]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-096:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 25 de abril de 2025, por la que se amplía la Resolución de 21 de febrero de 2025, que dicta instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias, y la Resolución de 30 de octubre de 2024, por la que se dictan instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "NOR-096"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-04-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-103
+  ruta: "02_normativa/canarias/resoluciones/NOR-096-resolucion-25-abril-2025-amplia-fp-adaptada.md"
+  temas: [formacion-profesional-adaptada, curriculo-fp, distribucion-horaria, cursos-de-especializacion, grado-basico, grado-medio, grado-superior, modulos-profesionales-transversales]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-097:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 21 de febrero de 2025, por la que se dictan instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Resolución FP Adaptada: itinerarios IFE+16 e IFC+21"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-02-21
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-104
+  ruta: "02_normativa/canarias/resoluciones/NOR-097-resolucion-21-febrero-2025-fp-adaptada.md"
+  temas: [formacion-profesional-adaptada, itinerarios-formativos, discapacidad-intelectual, ife-16, ifc-21, certificados-profesionales-nivel-1, modulos-caracter-general, formacion-dual, evaluacion-fp, necesidades-educativas-especiales]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-098:
+  titulo: "Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación.- Resolución de 9 de julio de 2025, por la que se dictan instrucciones sobre la organización y el funcionamiento de los cursos de formación preparatorios para acceder a ciclos formativos de grado medio y superior (cursos de acceso directo a ciclos formativos) en la Comunidad Autónoma de Canarias en el curso 2025-2026."
+  nombre_corto: "Instrucciones CAD2/CAD3 curso 2025-2026"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Superada — sustituida de hecho por NOR-073 para el curso 2026-2027"
+  fecha_disposicion: 2025-07-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-105
+  ruta: "02_normativa/canarias/resoluciones/NOR-098-resolucion-9-julio-2025-cursos-acceso-directo.md"
+  temas: [cursos-acceso-directo, formacion-profesional-grado-d, educacion-personas-adultas, cad2, cad3, ciclos-formativos-grado-medio, ciclos-formativos-grado-superior, cepa, cead, curso-2025-2026]
+  etapas_afectadas: [formacion-profesional, educacion-adultos]
+
+NOR-099:
+  titulo: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 5 de noviembre de 2024, por la que se dictan instrucciones y orientaciones para la formación dual en empresas u organismos equiparados en los Certificados Profesionales (Grado C), los Ciclos Formativos de Grado Básico, Medio y Superior (Grados D, niveles 1, 2 y 3) y Cursos de Especialización (Grado E, niveles 2 y 3), en aplicación del Real Decreto 659/2023, de 18 de julio, en los centros docentes no universitarios de la Comunidad Autónoma de Canarias."
+  nombre_corto: "NOR-099"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-11-05
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-106
+  ruta: "02_normativa/canarias/resoluciones/NOR-099-resolucion-5-noviembre-2024-formacion-dual.md"
+  temas: [formacion-dual, formacion-en-empresa, tutor-de-empresa, certificados-profesionales, ciclos-formativos-grado-basico, ciclos-formativos-grado-medio, ciclos-formativos-grado-superior, cursos-de-especializacion, concierto-de-formacion, exenciones-formacion-practica]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-100:
+  titulo: "Dirección General de Formación Profesional y Educación de Adultos.- Resolución de 21 de abril de 2022, por la que se dictan instrucciones para la organización y el funcionamiento del Curso Específico de Acceso a Ciclos Formativos de Formación Profesional de Grado Medio que se impartirá en centros de educación de personas adultas dependientes de esta Consejería."
+  nombre_corto: "Instrucciones Curso Específico Acceso Grado Medio (CE2)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Histórica — anterior al Sistema de FP de la LOFP 3/2022"
+  fecha_disposicion: 2022-04-21
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-107
+  ruta: "02_normativa/canarias/resoluciones/NOR-100-resolucion-21-abril-2022-curso-especifico-acceso.md"
+  temas: [curso-especifico-acceso, ciclos-formativos-grado-medio, formacion-profesional, educacion-personas-adultas, cepa, admision-alumnado, evaluacion, curriculo-referencia-eso]
+  etapas_afectadas: [formacion-profesional, educacion-adultos]
+
+NOR-101:
+  titulo: "Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional"
+  nombre_corto: "RD 658/2024: modifica RD 132/2010 y RD 659/2023"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-07-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-108
+  uri_eli: "https://www.boe.es/eli/es/rd/2024/07/09/658"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-101-rd-658-2024-modifica-rd-659-2023.md"
+  temas: [requisitos-minimos-centros, ordenacion-formacion-profesional, bachillerato-general, certificados-profesionalidad, acceso-formacion-profesional, evaluacion-modulos-profesionales, docencia-formacion-profesional, instalaciones-educativas]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
+
+NOR-102:
+  titulo: "Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las Cualificaciones"
+  nombre_corto: "RD 69/2025 elementos e instrumentos gestión FP"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-02-04
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-109
+  uri_eli: "https://www.boe.es/eli/es/rd/2025/02/04/69"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-102-rd-69-2025-instrumentos-sistema-nacional-fp.md"
+  temas: [formacion-profesional, sistema-nacional-fp, catalogo-nacional-estandares-competencias, registros-formacion-profesional, instrumentos-gestion-fp, instituto-nacional-cualificaciones]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-103:
+  titulo: "Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo"
+  nombre_corto: "RD 1085/2020 convalidaciones módulos profesionales FP"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2020-12-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-110
+  uri_eli: "https://www.boe.es/eli/es/rd/2020/12/09/1085/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-103-rd-1085-2020-convalidaciones-modulos-fp.md"
+  temas: [formacion-profesional, convalidaciones, modulos-profesionales, titulos-fp, procedimiento-administrativo, reconocimiento-de-estudios]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-104:
+  titulo: "Corrección de errores del Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo"
+  nombre_corto: "Corrección de errores RD 1085/2020 (convalidaciones FP)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-01-01
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-111
+  uri_eli: "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-104-correccion-rd-1085-2020.md"
+  temas: [correccion-errores, formacion-profesional, convalidaciones-modulos-profesionales, real-decreto-1085-2020]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-105:
+  titulo: "Real Decreto 62/2022, de 25 de enero, de flexibilización de los requisitos exigibles para impartir ofertas de formación profesional conducentes a la obtención de certificados de profesionalidad, así como de la oferta de formación profesional en centros del sistema educativo y de formación profesional para el empleo"
+  nombre_corto: "RD 62/2022 - Flexibilización certificados de profesionalidad"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-01-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-112
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/01/25/62/con"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-105-rd-62-2022-certificados-profesionalidad.md"
+  temas: [certificados-de-profesionalidad, formacion-profesional, flexibilizacion-requisitos, requisitos-centros-fp, requisitos-docentes-fp, catalogo-nacional-cualificaciones-profesionales]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-106:
+  titulo: "Orden EFP/1210/2021, de 2 de noviembre, por la que se establece la equivalencia, a los efectos de acceso a enseñanzas de formación profesional, de determinados estudios y títulos anteriores al actual sistema educativo"
+  nombre_corto: "Equivalencia Bachiller Ley 1970 para acceso a FP"
+  tipo_norma: "orden-ministerial"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2021-11-02
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-113
+  uri_eli: "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
+  ruta: "02_normativa/estatal/ordenes/NOR-106-orden-efp-1210-2021-equivalencias-acceso-fp.md"
+  temas: [equivalencia-titulos, acceso-fp-grado-superior, bachillerato-ley-general-educacion-1970, certificados-profesionalidad, educacion-personas-adultas]
+  etapas_afectadas: [formacion-profesional, educacion-adultos]
+
+NOR-107:
+  titulo: "Resolución de la Dirección General de Formación Profesional y Educación de Adultos por la que se dictan instrucciones para la convocatoria del procedimiento de selección de la coordinación de las familias profesionales, de la especialidad de Formación y Orientación Laboral y de la especialidad de Idiomas en las enseñanzas de Formación Profesional, regular las características del ejercicio de sus funciones y establecer el procedimiento para su nombramiento, en los centros educativos públicos de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Instrucciones coordinación familias profesionales FP 2023"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-04-04
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-114
+  ruta: "02_normativa/canarias/resoluciones/NOR-107-resolucion-492-2023-coordinacion-familias-profesionales.md"
+  temas: [coordinacion-familias-profesionales, formacion-profesional, formacion-y-orientacion-laboral, idiomas, seleccion-de-personal-docente, centros-educativos-publicos, procedimiento-administrativo, normativa-interna-no-boc]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-108:
+  titulo: "Resolución de la Dirección General de Formación Profesional y Educación de Adultos por la que se autoriza a las direcciones de los centros educativos de la Comunidad Autónoma de Canarias la resolución de convalidaciones de módulos de Lengua Extranjera (Inglés) del desarrollo curricular canario de los ciclos formativos de grado superior regulados por la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+  nombre_corto: "Convalidación de Inglés: resuelven los centros de FP"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2014-09-22
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-115
+  ruta: "02_normativa/canarias/resoluciones/NOR-108-resolucion-22-septiembre-2014-convalidacion-ingles.md"
+  temas: [formacion-profesional, convalidaciones, lengua-extranjera-ingles, ciclos-formativos-grado-superior, desarrollo-curricular-canario, normativa-interna, no-publicada-en-boc]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-109:
+  titulo: "Resolución de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial por la que se dictan instrucciones para el procedimiento de admisión y desarrollo de los cursos de especialización de Formación Profesional (Grado E, niveles 2 y 3) en el curso académico 2025/2026, así como su oferta en los centros docentes sostenidos con fondos públicos en la Comunidad Autónoma de Canarias."
+  nombre_corto: "Admisión cursos de especialización FP 2025-2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; referida al curso 2025-2026"
+  fecha_disposicion: 2025-06-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-116
+  ruta: "02_normativa/canarias/resoluciones/NOR-109-resolucion-305-2025-admision-cursos-especializacion.md"
+  temas: [cursos-especializacion-fp, admision-alumnado-fp, grado-e, calendario-admision-matricula, requisitos-acceso-fp, centros-autorizados-canarias, normativa-interna-consejeria]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-110:
+  titulo: "Resolución de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial por la que se regulan y establecen criterios de selección para la autorización de la implantación de la modalidad bilingüe en ciclos formativos de grado medio y grado superior de Formación Profesional (Grado D, niveles 2 y 3) en centros docentes públicos de la Comunidad Autónoma de Canarias para el curso académico 2025/2026."
+  nombre_corto: "Res. 318/2025 modalidad bilingüe FP curso 2025/2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; referida al curso 2025-2026"
+  fecha_disposicion: 2025-06-16
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-117
+  ruta: "02_normativa/canarias/resoluciones/NOR-110-resolucion-318-2025-oferta-bilingue-fp.md"
+  temas: [modalidad-bilingue, formacion-profesional, ciclos-formativos, grado-d, autorizacion-centros, profesorado, criterios-seleccion, curso-2025-2026]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-111:
+  titulo: "Orden de 16 de julio de 2019, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Modificación del ROC: jornada docente (2019)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2019-07-16
+  fecha_publicacion: 2019-07-30
+  fecha_entrada_vigor: 2019-07-31
+  fecha_consulta: 2026-08-23
+  fuente_principal: FTE-118
+  ruta: "02_normativa/canarias/ordenes/NOR-111-orden-16-julio-2019-jornada-docente.md"
+  temas: [reglamento-organico-centros, jornada-docente, profesorado]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-112:
+  titulo: "Orden de 28 de septiembre de 2023, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Modificación del ROC: jornada lectiva Maestros (2023)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-09-28
+  fecha_publicacion: 2023-10-11
+  fecha_entrada_vigor: 2023-10-12
+  fecha_consulta: 2026-08-23
+  fuente_principal: FTE-119
+  ruta: "02_normativa/canarias/ordenes/NOR-112-orden-28-septiembre-2023-reduccion-jornada.md"
+  temas: [reglamento-organico-centros, jornada-docente, profesorado]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-113:
+  titulo: "ORDEN de 22 de marzo de 2022, por la que se autoriza la implantación, con carácter de experiencia piloto, del tercer curso y aulas mixtas de segundo y tercer curso del primer ciclo de Educación Infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2022/2023"
+  nombre_corto: "Piloto primer ciclo de Infantil (2022)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-120
+  ruta: "02_normativa/canarias/ordenes/NOR-113-orden-22-marzo-2022-piloto-infantil.md"
+  temas: [educacion-infantil, primer-ciclo, experiencia-piloto, escuelas-infantiles]
+  etapas_afectadas: [infantil]
+
+NOR-114:
+  titulo: "ORDEN de 24 de marzo de 2023, por la que se autoriza la implantación, con carácter de experiencia piloto, del primer ciclo de educación infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2023/2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el curso 2022/2023"
+  nombre_corto: "Piloto primer ciclo de Infantil (2023)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-121
+  ruta: "02_normativa/canarias/ordenes/NOR-114-orden-24-marzo-2023-piloto-infantil.md"
+  temas: [educacion-infantil, primer-ciclo, experiencia-piloto, escuelas-infantiles]
+  etapas_afectadas: [infantil]
+
+NOR-115:
+  titulo: "ORDEN de 17 de mayo de 2023, por la que se modifica la Orden de 24 de marzo de 2023, que autoriza la implantación, con carácter de experiencia piloto, del primer ciclo de Educación Infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2023/2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el curso 2022/2023"
+  nombre_corto: "Modificación del piloto de Infantil (mayo 2023)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-122
+  ruta: "02_normativa/canarias/ordenes/NOR-115-orden-17-mayo-2023-modifica-piloto-infantil.md"
+  temas: [educacion-infantil, primer-ciclo, experiencia-piloto, escuelas-infantiles]
+  etapas_afectadas: [infantil]
+
+NOR-116:
+  titulo: "ORDEN de 15 de marzo de 2024, por la que se modifica la Orden de 24 de marzo de 2023, que autoriza la implantación, con carácter de experiencia piloto, del primer ciclo de educación infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2023-2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el curso 2022-2023, modificada por Orden de 17 de mayo de 2023"
+  nombre_corto: "Modificación del piloto de Infantil (marzo 2024)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-123
+  ruta: "02_normativa/canarias/ordenes/NOR-116-orden-15-marzo-2024-modifica-piloto-infantil.md"
+  temas: [educacion-infantil, primer-ciclo, experiencia-piloto, escuelas-infantiles]
+  etapas_afectadas: [infantil]
+
+NOR-117:
+  titulo: "Resolución n.º 689/2026, de 11 de mayo de 2026, por la que se dictan instrucciones para la organización y funcionamiento de los centros participantes en el Plan de Refuerzo, Orientación y Apoyo a la mejora de los aprendizajes (PROA+) en el período 2026-2028"
+  nombre_corto: "Instrucciones PROA+ 2026-2028"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-124
+  ruta: "02_normativa/canarias/resoluciones/NOR-117-resolucion-689-2026-instrucciones-proa.md"
+  temas: [programas-educativos, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-118:
+  titulo: "Resolución n.º 699/2026, de 12 de mayo de 2026, por la que se dictan instrucciones para el desarrollo de la Red Educativa Canaria InnovAS durante el curso escolar 2026-2027"
+  nombre_corto: "Red Canaria InnovAS 2026-2027"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-125
+  ruta: "02_normativa/canarias/resoluciones/NOR-118-resolucion-699-2026-red-canaria-innovas.md"
+  temas: [programas-educativos, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-119:
+  titulo: "Resolución n.º 705/2026, de 12 de mayo de 2026, por la que se dictan instrucciones sobre el programa AICLE (Aprendizaje Integrado de Contenidos en Lengua Extranjera) para el curso escolar 2026-2027"
+  nombre_corto: "Programa AICLE 2026-2027"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-126
+  ruta: "02_normativa/canarias/resoluciones/NOR-119-resolucion-705-2026-programa-aicle.md"
+  temas: [programas-educativos, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-120:
+  titulo: "Resolución de la Viceconsejería de Educación de 26 de febrero de 2026, por la que se convoca la selección de centros cuyo alumnado participará en el programa de intercambio escolar individual con reciprocidad con Francia durante el curso 2026-2027"
+  nombre_corto: "Intercambio escolar con Francia 2026-2027"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-127
+  ruta: "02_normativa/canarias/resoluciones/NOR-120-resolucion-26-febrero-2026-intercambio-francia.md"
+  temas: [programas-educativos, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-123:
+  titulo: "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales"
+  nombre_corto: "Ley de Prevención de Riesgos Laborales"
+  tipo_norma: "ley-estatal"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-130
+  ruta: "02_normativa/estatal/leyes/NOR-123-ley-31-1995-prevencion-riesgos.md"
+  temas: [prevencion-riesgos]
+  etapas_afectadas: [todas]
+
+NOR-122:
+  titulo: "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales"
+  nombre_corto: "LOPDGDD"
+  tipo_norma: "ley-estatal"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-129
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-122-lopdgdd.md"
+  temas: [proteccion-datos]
+  etapas_afectadas: [todas]
+
+NOR-124:
+  titulo: "Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención"
+  nombre_corto: "Reglamento Servicios de Prevención"
+  tipo_norma: "real-decreto-estatal"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-131
+  ruta: "02_normativa/estatal/reales-decretos/NOR-124-rd-39-1997-servicios-prevencion.md"
+  temas: [prevencion-riesgos]
+  etapas_afectadas: [todas]
+
+NOR-121:
+  titulo: "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos"
+  nombre_corto: "RGPD"
+  tipo_norma: "reglamento-europeo"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_consulta: 2026-08-23
+  fecha_analisis: 2026-08-23
+  fuente_principal: FTE-128
+  ruta: "02_normativa/europeas/NOR-121-rgpd-2016-679.md"
+  temas: [proteccion-datos]
+  etapas_afectadas: [todas]
+
+NOR-125:
+  titulo: Instrucciones de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, para la evaluación
+    y calificación del alumnado en las etapas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria
+    y Bachillerato, de aplicación en los centros educativos de la Comunidad Autónoma de Canarias a partir del curso 2026/2027
+  nombre_corto: Evaluación y calificación desde 2026-2027
+  tipo_norma: instrucciones-administrativas
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-132
+  temas:
+  - evaluacion
+  - calificacion
+  - instrucciones
+  - lomloe
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  ruta: 02_normativa/canarias/resoluciones/NOR-125-instrucciones-evaluacion-calificacion-2026-2027.md
+NOR-126:
+  titulo: Resolución de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, por la que se establecen
+    las rúbricas de los criterios de evaluación de las etapas de Educación Infantil y de los ámbitos del Programa de Diversificación
+    Curricular, para orientar y facilitar la evaluación y la calificación objetiva del alumnado, en la Comunidad Autónoma
+    de Canarias, en el marco de la LOMLOE
+  nombre_corto: Rúbricas Infantil y Diversificación Curricular (1141/2026)
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Pendiente de verificación — acto publicado en el portal; publicación BOC y efectos pendientes (PREG-014)
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-133
+  temas:
+  - evaluacion
+  - calificacion
+  - rubricas
+  - diversificacion-curricular
+  - lomloe
+  etapas_afectadas:
+  - infantil
+  - eso
+  ruta: 02_normativa/canarias/resoluciones/NOR-126-resolucion-1141-2026-rubricas-infantil-diversificacion.md
+NOR-127:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos
+    no universitarios de la Comunidad Autónoma de Canarias para el curso 2026-2027
+  nombre_corto: Instrucciones IOF 2026-2027
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente con modificaciones — NOR-128 y NOR-129; curso 2026-2027
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-134
+  temas:
+  - organizacion
+  - funcionamiento
+  - instrucciones
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  - formacion-profesional
+  - educacion-adultos
+  - regimen-especial
+  ruta: 02_normativa/canarias/resoluciones/NOR-127-resolucion-73-2026-organizacion-funcionamiento.md
+NOR-128:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+    y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+    el curso 2026-2027
+  nombre_corto: 'Corrección IOF: horas de innovación FP (95/2026)'
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-135
+  temas:
+  - organizacion
+  - formacion-profesional
+  - innovacion
+  - horario-docente
+  etapas_afectadas:
+  - formacion-profesional
+  ruta: 02_normativa/canarias/resoluciones/NOR-128-resolucion-95-2026-modificacion-iof-fp.md
+NOR-129:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+    y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+    el curso 2026-2027
+  nombre_corto: 'Corrección IOF: recogida por hermanos menores (110/2026)'
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-136
+  temas:
+  - organizacion
+  - alumnado
+  - familias
+  - recogida-menores
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  - formacion-profesional
+  - educacion-adultos
+  - regimen-especial
+  ruta: 02_normativa/canarias/resoluciones/NOR-129-resolucion-110-2026-recogida-hermanos-menores.md
+NOR-130:
+  titulo: Orden de 6 de agosto de 2026, por la que se actualiza la configuración de los Colectivos de Escuelas Rurales del
+    ámbito de la Comunidad Autónoma de Canarias, para el curso escolar 2026-2027
+  nombre_corto: Configuración CER 2026-2027
+  tipo_norma: orden-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente con modificaciones — anexo modificado por NOR-131; curso 2026-2027
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-137
+  temas:
+  - centros
+  - escuelas-rurales
+  - organizacion
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  ruta: 02_normativa/canarias/ordenes/NOR-130-orden-6-agosto-2026-colectivos-escuelas-rurales.md
+NOR-131:
+  titulo: Orden de 25 de septiembre de 2026, por la que se modifica el anexo de la Orden de 6 de agosto de 2026, que actualiza
+    la configuración de los Colectivos de Escuelas Rurales del ámbito de la Comunidad Autónoma de Canarias, para el curso
+    escolar 2026-2027
+  nombre_corto: 'Modificación CER: CEIP San Vicente 2026-2027'
+  tipo_norma: orden-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-138
+  temas:
+  - centros
+  - escuelas-rurales
+  - organizacion
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  ruta: 02_normativa/canarias/ordenes/NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md

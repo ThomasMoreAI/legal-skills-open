@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/advogado_output.json",
+  "title": "juriscan-advogado-{autor|reu} output",
+  "description": "Shared schema for the two adversarial advocate subagents. Each item in forcas/fraquezas/recursos_cabiveis must cite the piece(s) of origin via peca_refs — outputs without peca_refs are rejected. risk_level/risk_score are from the perspective of this polo only.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "polo",
+    "forcas",
+    "fraquezas",
+    "recursos_cabiveis",
+    "risk_level",
+    "risk_score"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "polo": { "type": "string", "enum": ["autor", "reu"] },
+    "forcas": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/argumento" }
+    },
+    "fraquezas": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/argumento" }
+    },
+    "recursos_cabiveis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["recurso", "cabimento", "peca_refs"],
+        "properties": {
+          "recurso": { "type": "string" },
+          "cabimento": { "type": "string" },
+          "prazo_dias": { "type": ["integer", "null"] },
+          "fundamentacao": { "type": "string" },
+          "peca_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": ["MUITO_BAIXO", "BAIXO", "MÉDIO", "ALTO", "MUITO_ALTO"]
+    },
+    "risk_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 10.0,
+      "description": "Risk to this polo only (10 = likely to lose everything)."
+    },
+    "fundamentacao": { "type": "string" },
+    "observacoes": { "type": "string" }
+  },
+  "definitions": {
+    "argumento": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["titulo", "descricao", "peca_refs"],
+      "properties": {
+        "titulo": { "type": "string", "minLength": 3 },
+        "descricao": { "type": "string", "minLength": 10 },
+        "peca_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" },
+          "description": "Non-empty list of chunk_ids (e.g. ['c00','c03']) or piece labels used as evidence."
+        },
+        "impacto": {
+          "type": "string",
+          "enum": ["ALTO", "MÉDIO", "BAIXO"]
+        },
+        "citacao_juridica": {
+          "type": "string",
+          "description": "Optional legal citation — will be verified by juriscan-verificador in Phase 4."
+        }
+      }
+    }
+  }
+}

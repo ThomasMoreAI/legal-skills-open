@@ -1,0 +1,52 @@
+name: justicia-gratuita
+display_name: Justicia Gratuita — Abogado de Oficio
+description: >
+  Guía completa sobre el derecho a la asistencia jurídica gratuita en
+  España: quién puede solicitarla, requisitos económicos (umbrales IPREM),
+  colectivos con derecho automático (violencia de género, terrorismo, menores),
+  qué cubre (abogado y procurador de oficio, exención de tasas, perito
+  gratuito), cómo tramitarla ante el Colegio de Abogados, plazos de
+  resolución y revocación.
+organization: Ministerio de Justicia
+tags: [justicia, justicia gratuita, abogado de oficio, turno de oficio, asistencia jurídica gratuita, IPREM, Ley 1/1996, procurador de oficio, tasas judiciales]
+
+links:
+  website: https://www.mjusticia.gob.es/es/ciudadania/tramites/asistencia-juridica-gratuita
+
+license:
+  data: Información pública del Ministerio de Justicia
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni tramita solicitudes. Proporciona el marco completo del derecho a la
+    justicia gratuita y redirige a skills hermanas para trámites
+    relacionados (registro-civil, herencias).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es la justicia gratuita y qué derechos incluye
+    - Requisitos económicos (umbrales en relación con el IPREM)
+    - Colectivos con derecho automático (sin valoración económica)
+    - Proceso de solicitud ante el Colegio de Abogados
+    - Plazos de designación provisional y resolución
+    - Impugnación de denegaciones
+    - Revocación del derecho
+    - Funcionamiento del turno de oficio
+  not_accessible:
+    - Tramitación real de solicitudes (requiere acudir al Colegio de Abogados)
+    - Datos personales de abogados del turno de oficio
+    - Estado de expedientes individuales
+    - Asesoramiento jurídico sobre un caso concreto
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

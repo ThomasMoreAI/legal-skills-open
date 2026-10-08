@@ -1,0 +1,353 @@
+id: CUR-033
+titulo: Religión Católica — Primaria Canarias
+etapa: primaria
+materia: Religión Católica
+cursos:
+- Primer ciclo
+- Segundo ciclo
+- Tercer ciclo
+norma_base: NOR-072
+fuente: FTE-079
+url_oficial: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452
+fecha_consulta: '2026-08-05'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+  - codigo: C1
+    enunciado_oficial: Descubrir, identificar y expresar los elementos clave de la dignidad y la identidad personal
+      en situaciones vitales cercanas, a través de biografías inspiradoras y relatos bíblicos de alcance antropológico,
+      para ir conformando la propia identidad y sus relaciones con autonomía, responsabilidad y empatía.
+    descriptores:
+      Toda la etapa:
+      - CCL1
+      - CCL3
+      - CD1
+      - CD4
+      - CPSAA1
+      - CPSAA2
+      - CPSAA4
+      - CPSAA5
+      - CE2
+      - CE3
+      - CCEC3
+  - codigo: C2
+    enunciado_oficial: Descubrir, reconocer y estimar la dimensión socioemocional expresada en la participación
+      en diferentes estructuras de pertenencia, desarrollando destrezas y actitudes sociales teniendo en cuenta
+      algunos principios generales de la ética cristiana, para la mejora de la convivencia y la sostenibilidad del
+      planeta.
+    descriptores:
+      Toda la etapa:
+      - CCL2
+      - CCL5
+      - CP3
+      - STEM5
+      - CD3
+      - CPSAA3
+      - CC1
+      - CC2
+      - CC4
+      - CE1
+  - codigo: C3
+    enunciado_oficial: Identificar e interpretar las situaciones que perjudican o mejoran la buena convivencia,
+      analizándolas con las claves personales y sociales de la propuesta cristiana, para fomentar el crecimiento
+      moral, la cooperación con los demás y el desarrollo de valores orientados al bien común.
+    descriptores:
+      Toda la etapa:
+      - CCL1
+      - CCL5
+      - STEM3
+      - CD1
+      - CPSAA3
+      - CC3
+      - CC4
+      - CE1
+      - CCEC3
+  - codigo: C4
+    enunciado_oficial: Comprender y admirar el patrimonio cultural en algunas de sus expresiones más significativas,
+      disfrutando de su contemplación, analizando el universo simbólico y vital que transmiten, para valorar la
+      propia identidad cultural, promover el diálogo intercultural y generar creaciones artísticas.
+    descriptores:
+      Toda la etapa:
+      - CCL4
+      - CP3
+      - CD2
+      - CD3
+      - CC3
+      - CCEC1
+      - CCEC2
+      - CCEC4
+  - codigo: C5
+    enunciado_oficial: Explorar, desarrollar y apreciar la propia interioridad y experiencia espiritual, reconociéndola
+      en las propias emociones, afectos, símbolos y creencias, conociendo la experiencia de personajes relevantes
+      de la tradición judeocristiana y de otras religiones, para favorecer el autoconocimiento personal, entender
+      las vivencias de los otros y promover el diálogo y el respeto entre las diferentes tradiciones religiosas.
+    descriptores:
+      Toda la etapa:
+      - CCL1
+      - CPSAA1
+      - CPSAA3
+      - CPSAA5
+      - CC3
+      - CE2
+      - CCEC1
+      - CCEC3
+  - codigo: C6
+    enunciado_oficial: Comprender los contenidos básicos del cristianismo, valorando su contribución a la sociedad,
+      para disponer de una síntesis personal que permita dialogar, desde la propia identidad social y cultural,
+      con otras tradiciones religiosas y áreas de conocimiento.
+    descriptores:
+      Toda la etapa:
+      - CCL2
+      - CCL3
+      - STEM4
+      - CD1
+      - CPSAA4
+      - CPSAA5
+      - CC1
+      - CC4
+      - CE3
+      - CCEC1
+  criterios_evaluacion:
+  - ciclo: Primer ciclo
+    criterios:
+    - 1.1. Observar en los relatos y personajes bíblicos valores fundamentales del ser humano, relacionándolas con
+      el desarrollo de su autonomía y responsabilidad en el grupo-clase.
+    - 1.2. Reconocer algunas de las características que definen la autonomía personal, desarrollando un autoconcepto
+      ajustado y una autoestima saludable, para la propia aceptación personal y para integrarse en los grupos de
+      pertenencia con asertividad y responsabilidad, a la luz del Evangelio.
+    - 2.1. Reconocer los vínculos y relaciones con los grupos de pertenencia, comparándolos con los de Jesús de
+      Nazaret, identificando hábitos y principios que ayudan a generar un clima de afectividad, respeto, solidaridad
+      e inclusión.
+    - 2.2. Apreciar y mostrar actitudes de respeto, mediación y cuidado del prójimo y de la naturaleza, derivadas
+      del análisis de las palabras y acciones de Jesús de Nazaret.
+    - 3.1. Visualizar e identificar qué situaciones cotidianas promueven una convivencia pacífica, a través de la
+      escucha y análisis de relatos bíblicos, para aprender a resolver pacífica e inclusivamente los conflictos.
+    - 3.2. Describir algunas situaciones cercanas de desamparo, fragilidad y vulnerabilidad, empatizando con las
+      personas desfavorecidas y reconociendo la preferencia de Jesús de Nazaret por los que más sufren.
+    - 4.1. Relacionar algunos pasajes bíblicos con expresiones artísticas, sirviéndose de la observación y análisis,
+      para potenciar la creatividad y la comunicación a través de diversos lenguajes.
+    - 4.2. Descubrir cómo el pueblo cristiano muestra su fe en la vida diaria en diferentes fiestas y manifestaciones
+      religiosas, comprendiendo el vínculo que las une al Evangelio y su actualización en la comunidad cristiana.
+    - 5.1. Tomar conciencia de la propia interioridad a través de narraciones y biografías cristianas significativas,
+      para favorecer el autoconocimiento personal y las vivencias de los otros.
+    - 5.2. Identificar las propias emociones, sentimientos y vivencias religiosas, compartiéndolos y reconociéndolos
+      en el otro, teniendo en cuenta la experiencia de personajes relevantes de la tradición judeocristiana.
+    - 6.1. Reconocer que Jesús de Nazaret es el centro del mensaje cristiano, valorando sus aportaciones para la
+      persona y la sociedad en entornos diversos.
+    - 6.2. Valorar la Biblia como libro sagrado y como narración del encuentro de Dios con la humanidad, descubriendo
+      su lugar en la comunidad cristiana y en la cultura.
+  - ciclo: Segundo ciclo
+    criterios:
+    - 1.1. Reconocer y expresar a través de composiciones orales, escritas y artísticas los elementos clave de la
+      dignidad y la identidad personal, relacionándolas con diferentes situaciones vitales, teniendo en cuenta biografías
+      y relatos bíblicos de vocación y misión.
+    - 1.2. Desarrollar sensibilidad sobre el valor de la vida y de la igual dignidad del ser humano, y su papel
+      en el cuidado de la naturaleza, tomando como modelo personajes bíblicos y de la tradición cristiana.
+    - 2.1. Adquirir destrezas y habilidades sociales que potencien su inclusión en el grupo y entornos culturales
+      cercanos, a través de la lectura de pasajes bíblicos del Nuevo Testamento y el análisis de comportamientos
+      de cuidado, responsabilidad, solidaridad y perdón.
+    - 2.2. Apreciar las relaciones sociales como fuente de felicidad y desarrollo personal, tomando como punto de
+      partida los relatos sobre la comunidad de Jesús de Nazaret, los Apóstoles y la Iglesia, asumiendo responsabilidades
+      en el cuidado de las personas y del planeta.
+    - 3.1. Colaborar y promover con los demás el análisis de situaciones que perjudican o mejoran la convivencia
+      y la puesta en marcha de acciones responsables que favorezcan la construcción de un mundo más equitativo e
+      inclusivo.
+    - 3.2. Distinguir algunos de los valores propios del cristianismo y su presentación en pasajes de los evangelios,
+      para aplicar la cooperación y la mediación, la resolución pacífica de conflictos y la construcción del bien
+      común en situaciones cercanas.
+    - 4.1. Admirar diferentes expresiones del patrimonio cultural y de la religiosidad popular, reconociendo su
+      belleza y su significado religioso y su vinculación con textos bíblicos, valorando su aportación a la identidad
+      cultural.
+    - 4.2. Observar en las celebraciones litúrgicas, los espacios sagrados y los sacramentos de la Iglesia elementos
+      esenciales del cristianismo, poniéndolos en relación con la vida de Jesús y la tradición de la Iglesia.
+    - 5.1. Reconocer y valorar el encuentro con los demás como oportunidad para el desarrollo de la propia interioridad,
+      teniendo como referencia los encuentros de Jesús de Nazaret.
+    - 5.2. Identificar las virtudes y actitudes que ayudan a un crecimiento personal y espiritual, a través del
+      autoconocimiento y del acceso a otras experiencias de personajes de la tradición cristiana.
+    - 6.1. Comprender la importancia de la alianza de Dios con el pueblo de Israel que tiene su continuación en
+      Jesucristo, y sus aportaciones sociales y culturales en la historia.
+    - 6.2. Valorar la Iglesia como comunidad que ha continuado con la misión de Jesús resucitado, desde las primeras
+      comunidades cristianas hasta la actualidad, reconociendo sus celebraciones, tradiciones y contribuciones sociales.
+  - ciclo: Tercer ciclo
+    criterios:
+    - 1.1. Identificar los principios y virtudes que promueven y respetan la dignidad de todas las personas, reflexionando
+      sobre experiencias personales y de aula, desarrollando autonomía, juicio crítico y responsabilidad.
+    - 1.2. Expresar con autonomía a través de diversos lenguajes comunicativos la identidad personal reconociendo,
+      desde la visión cristiana, la singularidad de todas las personas, desarrollando empatía y valorando la pluralidad.
+    - 2.1. Promover actitudes que impulsen la mejora de la convivencia y el cuidado del planeta, conociendo y aplicando
+      algunos principios de la ética cristiana, plasmando sus conclusiones en diferentes soportes.
+    - 2.2. Participar en acciones solidarias y de servicio a la comunidad, reconociendo aquellos grupos sociales
+      más vulnerables, teniendo en cuenta cómo Jesucristo cambió su realidad y las consecuencias que ello ha tenido
+      para la historia de la humanidad.
+    - 3.1. Reflexionar sobre algunos principios generales de la ética cristiana, conociendo su realización en biografías
+      significativas y movimientos sociales, descubriendo cómo pueden ser puestos en práctica en nuestros entornos
+      sociales cercanos y virtuales.
+    - 3.2. Cooperar activamente en la construcción de una convivencia pacífica y democrática reconociendo, en iniciativas
+      y proyectos eclesiales, aquellos valores morales que promueven el bien común.
+    - 4.1. Comprender y valorar cómo el patrimonio religioso cristiano contribuye a la construcción de la identidad
+      de las personas y de los pueblos, e inspira la expresión de la propia vivencia personal y social a través
+      de diversos lenguajes.
+    - 4.2. Reconocer y apreciar, desde la propia identidad cultural, la pluralidad de tradiciones y expresiones
+      presentes en el contexto social, promoviendo el respeto y el conocimiento mutuo que favorece el encuentro
+      y el diálogo intercultural.
+    - 5.1. Asumir el desarrollo de la interioridad como uno de los elementos fundamentales en la construcción del
+      propio sistema de valores y creencias, mediante el análisis y la reflexión de textos bíblicos y de otras tradiciones
+      religiosas.
+    - 5.2. Valorar la experiencia religiosa como desarrollo personal y social de la dimensión espiritual, interpretando
+      y respetando lo religioso en la pluralidad de culturas y promoviendo el diálogo interreligioso.
+    - 6.1. Comprender las consecuencias éticas y morales, personales y sociales, del mensaje de Jesucristo para
+      la construcción del propio sistema de valores y creencias y para la promoción del bien común.
+    - 6.2. Conocer el Credo de la fe cristiana, poniéndolo en diálogo con otras áreas de conocimiento científico
+      y cultural y con otras religiones.
+  saberes_basicos:
+  - bloque: A. Identidad personal y relaciones en diálogo con el mensaje cristiano
+    ciclo: Primer ciclo
+    saberes:
+    - Capacidades, potencialidades y limitaciones de cada ser humano.
+    - Vivencias y sentimientos de la experiencia interior y de la corporalidad.
+    - Valor intrínseco de toda persona, para el cristianismo como criatura de Dios.
+    - Exploración de personajes bíblicos y modelos cristianos y su búsqueda de la felicidad.
+    - 'Grupos de pertenencia: diferencias y relación con Jesús de Nazaret.'
+    - La familia y la incorporación a la vida social en la visión cristiana.
+    - Potenciación de la propia creatividad mediante expresiones artísticas que reflejen el mensaje de diversos
+      relatos bíblicos.
+    - Aprecio de momentos de silencio, interiorización y contemplación.
+    - Expresión, empleando diversos lenguajes, de la propia creencia, emociones y afectos.
+    - Reconocimiento de la oración como medio privilegiado de comunicación con Dios. El Padrenuestro.
+  - bloque: B. Cosmovisiones, tradición cristiana y cultura
+    ciclo: Primer ciclo
+    saberes:
+    - Apreciación del valor religioso y la riqueza cultural de la Navidad, Semana Santa y otras celebraciones como
+      expresión de la identidad cultural de nuestra sociedad.
+    - Análisis y expresión del mensaje cristiano en la música, las artes y otras manifestaciones culturales y tradiciones
+      del entorno.
+    - Valoración de la importancia de las celebraciones religiosas para las personas creyentes.
+    - Reconocimiento de la Biblia, Palabra de Dios en la vida de la Iglesia, como libro sagrado del cristianismo.
+    - La alianza de Dios con el pueblo de Israel y su proyecto de humanidad.
+    - Jesucristo, centro del mensaje cristiano.
+    - María, la Madre de Jesús.
+    - La Iglesia como familia que vive y celebra la Buena Noticia anunciada por Jesús de Nazaret.
+    - La Biblia como fuente de inspiración artística a lo largo de la historia.
+    - La belleza como expresión de la Creación y de la experiencia religiosa.
+  - bloque: C. Habitar el mundo plural y diverso para construir la casa común
+    ciclo: Primer ciclo
+    saberes:
+    - El compromiso y responsabilidad del ser humano en el cuidado de la naturaleza y los seres vivos desde una
+      visión cristiana.
+    - Gratitud hacia las personas que nos cuidan y hacia Dios Creador.
+    - Obras y palabras que muestran el amor de Jesús de Nazaret a todas las personas.
+    - El mandamiento del amor como máxima relacional del cristianismo.
+    - Actitudes y acciones que promueven la fraternidad.
+    - Hábitos y valores de respeto a la naturaleza como creada por Dios.
+    - Relatos evangélicos de compasión, misericordia y perdón.
+    - Biografías significativas que han favorecido la resolución pacífica de conflictos.
+    - Actitudes cotidianas que fomentan una convivencia pacífica.
+    - Respeto y valoración de las emociones, creencias, sentimientos y expresiones religiosas de otras personas.
+  - bloque: A. Identidad personal y relaciones en diálogo con el mensaje cristiano
+    ciclo: Segundo ciclo
+    saberes:
+    - La centralidad de la persona en el mensaje cristiano.
+    - La dignidad del ser humano.
+    - Relatos bíblicos de vocación y misión.
+    - La importancia de la familia y la comunidad como fuente de felicidad.
+    - Técnicas de mediación para la resolución pacífica de conflictos a la luz del Evangelio.
+    - Las relaciones con los otros como oportunidad de autoconocimiento y crecimiento personal.
+    - Toma de conciencia de la experiencia personal y del modo de relacionarnos con los demás y con Dios.
+  - bloque: B. Cosmovisiones, tradición cristiana y cultura
+    ciclo: Segundo ciclo
+    saberes:
+    - Identificación de diversos símbolos y tradiciones religiosas, en torno al calendario litúrgico y los sacramentos.
+    - Transmisión del sentimiento religioso a través de la música y las artes.
+    - Antiguo y Nuevo Testamento.
+    - La importancia de la alianza de Dios con el pueblo de Israel.
+    - La relación de Jesús con las personas de su tiempo.
+    - 'Jesús anuncia el Reino de Dios: fraternidad y misericordia.'
+    - Relatos bíblicos que describen la vida de Jesús de Nazaret con los Apóstoles y las primeras comunidades cristianas.
+    - María, Madre de la Iglesia.
+    - La Iglesia, Pueblo de Dios, como comunidad que vive y celebra. El sacramento de la Eucaristía.
+    - Aprecio de la importancia de vivir la fe en comunidad para la persona creyente.
+    - La importancia del perdón para la construcción de relaciones sociales sólidas, solidarias y fraternas. El
+      sacramento de la reconciliación.
+    - 'Tipos de oración: características y diferencias.'
+    - Obras artísticas que representan momentos de la tradición bíblica y que son configuradoras de su identidad
+      cultural.
+    - Valor cultural y artístico del patrimonio de la diócesis.
+  - bloque: C. Habitar el mundo plural y diverso para construir la casa común
+    ciclo: Segundo ciclo
+    saberes:
+    - El cuidado del entorno natural y social como casa común.
+    - La propuesta moral cristiana para la vida en sociedad.
+    - Hábitos y actividades para el logro de los objetivos de desarrollo sostenible a la luz de la ética cristiana.
+    - 'Ética del cuidado: la responsabilidad, la compasión, el perdón y el amor.'
+    - 'Una mirada cristiana a la realidad: la toma de conciencia de las situaciones sociales injustas.'
+    - Proyectos de servicio y solidaridad promovidos por la Iglesia.
+    - Actitudes de respeto e inclusión para crear entornos de convivencia intercultural.
+  - bloque: A. Identidad personal y relaciones en diálogo con el mensaje cristiano
+    ciclo: Tercer ciclo
+    saberes:
+    - La dignidad humana, la igualdad y la diferencia entre las personas.
+    - Los derechos humanos en diálogo con la visión cristiana.
+    - La responsabilidad personal y social desde el punto de vista cristiano.
+    - Situaciones vitales que plantean preguntas existenciales o morales para la persona.
+    - La influencia de las acciones individuales en la transformación social a la luz de la ética cristiana.
+    - Valoración de la dimensión espiritual y religiosa en uno mismo y en los demás.
+    - Expresión, en diversos lenguajes de la propia vivencia personal, en torno a las festividades, tradiciones
+      y celebraciones religiosas.
+  - bloque: B. Cosmovisiones, tradición cristiana y cultura
+    ciclo: Tercer ciclo
+    saberes:
+    - Ritos, tradiciones y fiestas de diversas religiones en torno al nacimiento, el matrimonio y la muerte, explicitando
+      la aportación del cristianismo.
+    - Obras de arte, composiciones musicales, y construcciones arquitectónicas representativas del cristianismo,
+      comparadas con las de otras culturas y religiones.
+    - 'La relación de Jesús con su Padre y con el Espíritu: Dios Trinidad.'
+    - La preferencia de Jesucristo por las personas marginadas.
+    - La pasión, muerte y resurrección de Jesús y la celebración de la Pascua en la Iglesia.
+    - El Credo de la Iglesia Católica.
+    - La vida cristiana y la celebración de los sacramentos.
+    - María, modelo de creyente.
+    - Reconocimiento del papel de las mujeres en la Biblia y en la historia de la Iglesia.
+    - Reflexión y análisis sobre las experiencias religiosas narradas en diversos relatos bíblicos o recogidas en
+      biografías significativas.
+  - bloque: C. Habitar el mundo plural y diverso para construir la casa común
+    ciclo: Tercer ciclo
+    saberes:
+    - El mandamiento del amor como raíz de la ética cristiana y compromiso con el bien común.
+    - 'Valores propios del Evangelio: las bienaventuranzas y el Reino de Dios.'
+    - La visión cristiana de la interdependencia, eco-dependencia e interrelación.
+    - Análisis de situaciones cercanas de vulnerabilidad y diseño de propuestas transformadoras aplicando los principios
+      de la ética cristiana.
+    - Compromiso y transformación social en la acción de la Iglesia.
+    - La responsabilidad y el respeto en el uso de los medios de comunicación y las redes sociales.
+    - Pensamiento crítico y ético para la convivencia democrática.
+    - Establecimiento de un primer diálogo fe y ciencia, desde el respeto, la curiosidad y la escucha.
+    - Aprecio del diálogo intercultural e interreligioso para una convivencia pacífica y democrática.
+  nota: Extraído del Anexo II (Educación Primaria) de la Resolución de 21 de junio de 2022 (BOE-A-2022-10452). Los
+    descriptores del Perfil de salida se publican una sola vez por competencia específica para toda la etapa, no
+    por ciclo, así que el mapa de DEC-0008 lleva una única clave, «Toda la etapa». Es lo que dice la fuente, no
+    una agregación.
+relaciones:
+  desarrolla_a:
+  - NOR-072
+  relacionada_con:
+  - NOR-043
+resumen_ia: 'El currículo del área de Religión Católica en Educación Primaria no lo fija el Decreto 211/2022 de
+  Canarias, sino el Ministerio: la Resolución de 21 de junio de 2022 de la Secretaría de Estado de Educación (BOE-A-2022-10452),
+  a propuesta de la Conferencia Episcopal Española, cuyo Anexo II corresponde a Primaria. Establece seis competencias
+  específicas para toda la etapa, tres bloques de saberes básicos por ciclo —A. Identidad personal y relaciones
+  en diálogo con el mensaje cristiano; B. Cosmovisiones, tradición cristiana y cultura; C. Habitar el mundo plural
+  y diverso para construir la casa común— y doce criterios de evaluación por ciclo, dos por competencia. Este resumen
+  no sustituye la fuente oficial.'
+observaciones: '[TAREA-082, 2026-08-05] Ficha re-extraída íntegramente desde el Anexo II de FTE-079/NOR-072. Sustituye
+  el contenido anterior, que no se correspondía con ninguna fuente registrada: sus seis competencias eran paráfrasis
+  o títulos («Identidad y Trascendencia», «Diversidad y Convivencia») en lugar del enunciado oficial; declaraba
+  cuatro bloques de saberes únicos para toda la etapa («El sentido de la vida», «La Biblia», «Jesús y la Iglesia»,
+  «El compromiso») frente a los tres reales por ciclo; y registraba dos criterios de evaluación por ciclo frente
+  a los doce reales, cubriendo sólo dos de las seis competencias en cada uno. No se ha localizado de dónde procedía
+  ese contenido. Verificación de literalidad de la nueva extracción contra la copia local del texto oficial: 6 de
+  6 competencias, 31 de 36 criterios y 81 de 84 saberes coinciden carácter a carácter; los 8 restantes rompen exactamente
+  donde el PDF intercala su marca de página («cve: BOE-A-2022-10452») y se han comprobado uno a uno. `norma_base`
+  pasa de NOR-043 a NOR-072: el Decreto 211/2022 no contiene este currículo y su disposición adicional primera,
+  punto 6, remite la competencia a la jerarquía eclesiástica.'

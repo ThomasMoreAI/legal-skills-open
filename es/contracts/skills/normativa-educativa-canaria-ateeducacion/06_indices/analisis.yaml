@@ -1,0 +1,17 @@
+AN-001:
+  titulo: "Pirámide normativa ESO"
+  fecha_analisis: 2026-04-25
+  relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+  ruta: "04_analisis/notas/AN-001-piramide-normativa-eso.md"
+
+AN-002:
+  titulo: "Inventario inicial de currículos ESO"
+  fecha_analisis: 2026-04-25
+  relacionadas: [FTE-002, CUR-001, CUR-002, CUR-003, CUR-004, CUR-005, CUR-006, CUR-007, CUR-008, CUR-009, CUR-010, CUR-011, CUR-012, CUR-013, CUR-014, CUR-015, CUR-016, CUR-017, CUR-018, CUR-019, CUR-020, CUR-021, CUR-022, CUR-023]
+  ruta: "04_analisis/notas/AN-002-inventario-inicial-curriculos-eso.md"
+
+AN-003:
+  titulo: "Criterios para distinguir norma, currículo, orientación y recurso"
+  fecha_analisis: 2026-04-25
+  relacionadas: [FTE-001, FTE-002, PREG-003]
+  ruta: "04_analisis/notas/AN-003-criterios-distinguir-norma-curriculo-orientacion-recurso.md"

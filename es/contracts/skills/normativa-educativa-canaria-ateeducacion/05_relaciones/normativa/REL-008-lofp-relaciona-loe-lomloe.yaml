@@ -1,0 +1,11 @@
+id: REL-008
+tipo_relacion: "relaciona"
+origen: NOR-007
+destino: NOR-002
+descripcion: "La Ley Orgánica 3/2022 (LOFP) configura un sistema único e integrado de Formación Profesional que se complementa con el marco de la LOE tras su modificación por la LOMLOE en lo relativo a la FP del sistema educativo."
+evidencia:
+  fuente: FTE-016
+  localizacion: "Preámbulo y articulado de la LO 3/2022"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La LOFP deroga expresamente la Ley Orgánica 5/2002 (Cualificaciones y FP), no incorporada al corpus por estar derogada."

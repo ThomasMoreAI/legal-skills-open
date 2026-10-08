@@ -1,0 +1,25 @@
+id: CHUNK-00001
+origen_tipo: "norma"
+origen_id: NOR-XXX
+titulo: ""
+texto: >
+  Texto breve, autocontenido y trazable.
+metadatos:
+  ambito: ""
+  etapa: []
+  temas: []
+  estado_vigencia: ""
+  fuente: FTE-XXX
+  url_oficial: ""
+  fecha_consulta: YYYY-MM-DD
+  fecha_analisis: YYYY-MM-DD
+  localizacion: ""
+relaciones:
+  normas: []
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+nivel_evidencia: "confirmado-fuente-primaria"

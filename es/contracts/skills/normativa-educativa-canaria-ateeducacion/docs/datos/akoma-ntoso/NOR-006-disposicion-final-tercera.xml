@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-04-05/243">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2022/04/05/243/con"/>
+          <FRBRdate date="2022-04-05" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="243"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@"/>
+          <FRBRdate date="2022-04-06" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/xml/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_fin_tercera" name="disposicion-final">
+        <num>Disposición final tercera.</num>
+        <heading>Aplicación.</heading>
+        <paragraph eId="dis_fin_tercera__para_1">
+          <content><p>Corresponde a la persona titular del Ministerio de Educación y Formación Profesional dictar, en el ámbito de sus competencias, cuantas disposiciones sean precisas para la ejecución y aplicación de lo establecido en este real decreto, sin perjuicio de las competencias que corresponden a las comunidades autónomas.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

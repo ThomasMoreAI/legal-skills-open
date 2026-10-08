@@ -1,0 +1,14 @@
+{
+  "name": "mx-contracts",
+  "displayName": "Contracts — MX",
+  "version": "0.1.0",
+  "description": "Contracts skills for MX (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "mx",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-mexico-orwel"
+  ]
+}

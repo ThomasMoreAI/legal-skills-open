@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Government AI Use Case"
+  short_description: "Route government AI use to its assurance framework"
+  default_prompt: "Use $triage-government-ai-use-case to route this government AI use case to the applicable assurance framework."

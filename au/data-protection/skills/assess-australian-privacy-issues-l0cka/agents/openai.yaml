@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Australian Privacy Issues"
+  short_description: "Map Australian privacy issues and governing law"
+  default_prompt: "Use $assess-australian-privacy-issues to identify the Australian privacy and cybersecurity issues raised by these facts."

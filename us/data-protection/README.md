@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `us` · Practice: `data-protection` · Skill language: en
 
-## Skills (30)
+## Skills (34)
 
 | Skill | What it does |
 |---|---|
@@ -29,6 +29,10 @@ Jurisdiction: `us` · Practice: `data-protection` · Skill language: en
 | [`Montana Consumer Data Privacy Act (MTDPA)`](skills/montana-mtdpa/) | Montana Consumer Data Privacy Act (MTDPA) compliance. Lowest consumer threshold at 50,000 consumers.… |
 | [`New Jersey Data Privacy Act (NJDPA)`](skills/new-jersey-dpa/) | New Jersey Data Privacy Act (NJDPA) compliance, effective January 15, 2025. Covers consumer rights… |
 | [`Oregon Consumer Privacy Act (OCPA)`](skills/oregon-ocpa-compliance/) | Oregon Consumer Privacy Act (OCPA) compliance. Unique provisions for de-identified data requirements… |
+| [`Organizar minha caixa de entrada jurídica`](skills/organizar-minha-caixa-de-entrada-juridica-gethouston/) | Eu reviso a sua caixa de entrada em busca de assuntos jurídicos (contratos para revisar, NDAs… |
+| [`Redactar un documento legal`](skills/redactar-un-documento-legal-gethouston/) | Redacto un documento legal para ti, como un NDA, un contrato con un cliente, una carta de oferta, una… |
+| [`Responder a uma Pergunta Jurídica`](skills/responder-a-uma-pergunta-juridica-gethouston/) | Obtenha uma resposta rápida para uma pergunta jurídica, como 'preciso de um NDA com os investidores?' ou… |
+| [`Responder una pregunta legal`](skills/responder-una-pregunta-legal-gethouston/) | Obtén una respuesta rápida a una pregunta legal, como '¿necesito un NDA con los inversionistas?' o '¿me… |
 | [`SOC 2 Type II Privacy Trust Services Criteria`](skills/soc2-privacy-audit/) | Guides SOC 2 Type II Privacy Trust Services Criteria preparation and audit execution. Covers AICPA TSP… |
 | [`State Privacy Law Applicability Assessment`](skills/state-law-applicability/) | US state privacy law applicability assessment tool. Evaluates revenue thresholds, data volume… |
 | [`Texas Data Privacy and Security Act (TDPSA)`](skills/texas-tdpsa-compliance/) | Texas Data Privacy and Security Act (TDPSA) compliance. No revenue threshold applies to all businesses.… |

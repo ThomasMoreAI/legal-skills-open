@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2022-10-13/196">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2022-10-13/196/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-10-13/196"/>
+          <FRBRdate date="2022-10-13" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="196"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2022-10-13/196/spa@/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-10-13/196/spa@"/>
+          <FRBRdate date="2022-10-26" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2022-10-13/196/spa@/xml/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-10-13/196/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_3">
+        <num>Artículo 3.-</num>
+        <heading>Fines.</heading>
+        <paragraph eId="art_3__para_1">
+          <num>1.</num>
+          <content><p>La finalidad de la Educación Infantil es contribuir al desarrollo integral y armónico del alumnado en todas sus dimensiones: física, emocional, sexual, afectiva, social, cognitiva y artística.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_2">
+          <num>2.</num>
+          <content><p>Se atenderá al progresivo desarrollo afectivo del alumnado, facilitando la construcción de nuevos vínculos y relaciones, e iniciando a los niños y a las niñas en la educación emocional. Se propiciará, además, que los niños y las niñas elaboren progresivamente una autoimagen positiva y equilibrada, y que adquieran gradualmente autonomía personal y hábitos de control corporal, así como de salud, cuidado y bienestar propios de un estilo de vida saludable. Se promoverán la adquisición de pautas elementales de convivencia, relación social y gestión de las emociones; así como el desarrollo de la comunicación y el lenguaje, iniciándose en la comunicación en una primera lengua extranjera y en el proceso de alfabetización digital y mediática, así como en las destrezas del pensamiento computacional.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_3">
+          <num>3.</num>
+          <content><p>Se promoverá, asimismo, el descubrimiento de las características físicas, sociales y culturales del medio. De esta manera, el currículo de la Educación Infantil, en la Comunidad Autónoma de Canarias, contribuirá a que el alumnado se inicie en el conocimiento, aprecio y respeto de los aspectos culturales, históricos, geográficos, naturales, sociales y lingüísticos más relevantes de Canarias, así como los de su entorno, según lo requieran las diferentes áreas, comenzando a integrar las posibilidades de acción para su conservación.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_4">
+          <num>4.</num>
+          <content><p>La implementación del currículo de la Educación Infantil en la Comunidad Autónoma de Canarias se orientará, además, a la consecución de los siguientes fines:</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_5">
+          <num>4.a)</num>
+          <content><p>La incorporación de aprendizajes, valores y actitudes que contribuyan a que el alumnado se inicie en actitudes en pro de la sostenibilidad ambiental y del cuidado del medio natural, social y cultural.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_6">
+          <num>4.b)</num>
+          <content><p>El desarrollo en los niños y en las niñas de la capacidad para adquirir hábitos y valores solidarios y de equidad.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_7">
+          <num>4.c)</num>
+          <content><p>La no discriminación de las personas por razones de identidad y orientación sexual, religión, procedencia o cultura.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_8">
+          <num>4.d)</num>
+          <content><p>La eliminación de los prejuicios, estereotipos y roles en función del sexo o de la orientación sexual o de la identidad y expresión de género, la integración del saber de las mujeres y su contribución social e histórica al desarrollo de la humanidad, la prevención de la violencia de género, el fomento vínculos afectivos saludables y la coeducación.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_9">
+          <num>4.e)</num>
+          <content><p>El desarrollo progresivo del autoconocimiento, la autoestima, la gestión de las emociones y los sentimientos, en pro del desarrollo personal y social.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_10">
+          <num>4.f)</num>
+          <content><p>La atención al alumnado desde el principio de inclusión, equidad y compensación de las posibles situaciones de vulnerabilidad que puedan incidir en su desarrollo personal, social y educativo.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

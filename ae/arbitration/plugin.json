@@ -1,0 +1,14 @@
+{
+  "name": "ae-arbitration",
+  "displayName": "Arbitration & ADR — AE",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for AE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "arbitration",
+  "language": "en",
+  "skills": [
+    "skills/kb-arbitration-difc-lcia-sboghossian"
+  ]
+}

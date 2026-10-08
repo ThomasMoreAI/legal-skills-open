@@ -1,0 +1,11 @@
+id: REL-023
+tipo_relacion: "desarrolla"
+origen: NOR-026
+destino: NOR-025
+descripcion: "La Resolución de 9 de febrero de 2011 dicta instrucciones para desarrollar la Orden de 13 de diciembre de 2010 sobre alumnado con NEAE."
+evidencia:
+  fuente: FTE-029
+  localizacion: "Fundamentos de derecho y resuelvo primero"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

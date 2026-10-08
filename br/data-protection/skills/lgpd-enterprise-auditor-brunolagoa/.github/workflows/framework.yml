@@ -1,0 +1,27 @@
+name: Framework
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  framework:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Catálogo, paridade, cenários, manifestos e documentação
+        run: bash scripts/tests/test-framework.sh
+
+  # O mesmo teste no bash 3.2 e no awk do macOS, que é onde boa parte das contribuições nasce.
+  framework-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Catálogo, paridade, cenários, manifestos e documentação (bash 3.2)
+        run: /bin/bash scripts/tests/test-framework.sh

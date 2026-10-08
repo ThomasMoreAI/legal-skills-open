@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="141599" esTratado="no tratado" fechaVersion="2022-11-10" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="1999-08-18" fechaPublicacion="1999-08-28">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>19628</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO SECRETAR&#205;A GENERAL DE LA PRESIDENCIA</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>SOBRE PROTECCION DE LA VIDA PRIVADA</TituloNorma>
+    <Materias>
+      <Materia>Derecho a la Privacidad</Materia>
+      <Materia>Ley no. 19.628</Materia>
+    </Materias>
+    <NombresUsoComun>
+      <NombreUsoComun>LEY DICOM</NombreUsoComun>
+    </NombresUsoComun>
+    
+    <IdentificacionFuente>Bolet&#237;n de Leyes y Decretos de Gobierno</IdentificacionFuente>
+    <NumeroFuente>36451</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="1999-08-28" derogado="no derogado">
+    <Texto>SOBRE PROTECCION DE LA VIDA PRIVADA
+
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente
+
+     P r o y e c t o  d e  l e y:
+
+     PROTECCION DE DATOS DE CARACTER PERSONAL 
+</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642682">
+      <Texto>     T&#237;tulo Preliminar
+     Disposiciones generales
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo Preliminar Disposiciones generales</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642681">
+          <Texto>     Art&#237;culo 1&#186;.- El tratamiento de los datos de
+car&#225;cter personal en registros o bancos de datos por
+organismos p&#250;blicos o por particulares se sujetar&#225; a las
+disposiciones de esta ley, con excepci&#243;n del que se
+efect&#250;e en ejercicio de las libertades de emitir opini&#243;n y
+de informar, el que se regular&#225; por la ley a que se refiere
+el art&#237;culo 19, N&#176; 12, de la Constituci&#243;n Pol&#237;tica.
+     Toda persona puede efectuar el tratamiento de datos
+personales, siempre que lo haga de manera concordante con
+esta ley y para finalidades permitidas por el ordenamiento
+jur&#237;dico. En todo caso deber&#225; respetar el pleno ejercicio
+de los derechos fundamentales de los titulares de los datos
+y de las facultades que esta ley les reconoce.
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642683">
+          <Texto>     Art&#237;culo 2&#176;.- Para los efectos de esta ley se
+entender&#225; por:
+     a) Almacenamiento de datos, la conservaci&#243;n o custodia
+de datos en un registro o banco de datos.
+     b) Bloqueo de datos, la suspensi&#243;n temporal de
+cualquier operaci&#243;n de tratamiento de los datos
+almacenados.
+     c) Comunicaci&#243;n o transmisi&#243;n de datos, dar a conocer
+de cualquier forma los datos de car&#225;cter personal a
+personas distintas del titular, sean determinadas o
+indeterminadas.
+     d) Dato caduco, el que ha perdido actualidad por
+disposici&#243;n de la ley, por el cumplimiento de la condici&#243;n
+o la expiraci&#243;n del plazo se&#241;alado para su vigencia o, si
+no hubiese norma expresa, por el cambio de los hechos o
+circunstancias que consigna.
+     e) Dato estad&#237;stico, el dato que, en su origen, o como
+consecuencia de su tratamiento, no puede ser asociado a un
+titular identificado o identificable.
+     f) Datos de car&#225;cter personal o datos personales, los
+relativos a cualquier informaci&#243;n concerniente a personas
+naturales, identificadas o identificables.
+     g) Datos sensibles, aquellos datos personales que se
+refieren a las caracter&#237;sticas f&#237;sicas o morales de las
+personas o a hechos o circunstancias de su vida privada o
+intimidad, tales como los h&#225;bitos personales, el origen
+racial, las ideolog&#237;as y opiniones pol&#237;ticas, las
+creencias o convicciones religiosas, los estados de salud
+f&#237;sicos o ps&#237;quicos y la vida sexual.
+     h) Eliminaci&#243;n o cancelaci&#243;n de datos, la
+destrucci&#243;n de datos almacenados en registros o bancos de
+datos, cualquiera fuere el procedimiento empleado para ello.
+     i) Fuentes accesibles al p&#250;blico, los registros o
+recopilaciones de datos personales, p&#250;blicos o privados, de
+acceso no restringido o reservado a los solicitantes.
+     j) Modificaci&#243;n de datos, todo cambio en el contenido
+de los datos almacenados en registros o bancos de datos.
+     k) Organismos p&#250;blicos, las autoridades, &#243;rganos del
+Estado y organismos, descritos y regulados por la
+Constituci&#243;n Pol&#237;tica de la Rep&#250;blica, y los comprendidos
+en el inciso segundo del art&#237;culo 1&#186; de la ley N&#176; 18.575,
+Org&#225;nica Constitucional de Bases Generales de la
+Administraci&#243;n del Estado.
+     l) Procedimiento de disociaci&#243;n de datos, todo
+tratamiento de datos personales de manera que la
+informaci&#243;n que se obtenga no pueda asociarse a persona
+determinada o determinable.
+     m) Registro o banco de datos, el conjunto organizado de
+datos de car&#225;cter personal, sea automatizado o no y
+cualquiera sea la forma o modalidad de su creaci&#243;n u
+organizaci&#243;n, que permita relacionar los datos entre s&#237;,
+as&#237; como realizar todo tipo de tratamiento de datos.
+     n) Responsable del registro o banco de datos, la
+persona natural o jur&#237;dica privada, o el respectivo
+organismo p&#250;blico, a quien compete las decisiones
+relacionadas con el tratamiento de los datos de car&#225;cter
+personal.
+     &#241;) Titular de los datos, la persona natural a la que
+se refieren los datos de car&#225;cter personal.
+     o) Tratamiento de datos, cualquier operaci&#243;n o
+complejo de operaciones o procedimientos t&#233;cnicos, de
+car&#225;cter automatizado o no, que permitan recolectar,
+almacenar, grabar, organizar, elaborar, seleccionar,
+extraer, confrontar, interconectar, disociar, comunicar,
+ceder, transferir, transmitir o cancelar datos de car&#225;cter
+personal, o utilizarlos en cualquier otra forma.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642684">
+          <Texto>     Art&#237;culo 3&#176;.- En toda recolecci&#243;n de datos
+personales que se realice a trav&#233;s de encuestas, estudios
+de mercado o sondeos de opini&#243;n p&#250;blica u otros
+instrumentos semejantes, sin perjuicio de los dem&#225;s
+derechos y obligaciones que esta ley regula, se deber&#225;
+informar a las personas del car&#225;cter obligatorio o
+facultativo de las respuestas y el prop&#243;sito para el cual
+se est&#225; solicitando la informaci&#243;n. La comunicaci&#243;n de
+sus resultados debe omitir las se&#241;as que puedan permitir la
+identificaci&#243;n de las personas consultadas.
+     El titular puede oponerse a la utilizaci&#243;n de sus
+datos personales con fines de publicidad, investigaci&#243;n de
+mercado o encuestas de opini&#243;n.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642686">
+      <Texto>     T&#237;tulo I
+     De la utilizaci&#243;n de datos personales
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo I De la utilizaci&#243;n de datos personales</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642685">
+          <Texto>     Art&#237;culo 4&#176;.- El tratamiento de los datos personales
+s&#243;lo puede efectuarse cuando esta ley u otras disposiciones
+legales lo autoricen o el titular consienta expresamente en
+ello.
+     La persona que autoriza debe ser debidamente informada
+respecto del prop&#243;sito del almacenamiento de sus datos
+personales y su posible comunicaci&#243;n al p&#250;blico.
+     La autorizaci&#243;n debe constar por escrito.
+     La autorizaci&#243;n puede ser revocada, aunque sin efecto
+retroactivo, lo que tambi&#233;n deber&#225; hacerse por escrito.
+     No requiere autorizaci&#243;n el tratamiento de datos
+personales que provengan o que se recolecten de fuentes
+accesibles al p&#250;blico, cuando sean de car&#225;cter econ&#243;mico,
+financiero, bancario o comercial, se contengan en listados
+relativos a una categor&#237;a de personas que se limiten a
+indicar antecedentes tales como la pertenencia del individuo
+a ese grupo, su profesi&#243;n o actividad, sus t&#237;tulos
+educativos, direcci&#243;n o fecha de nacimiento, o sean
+necesarios para comunicaciones comerciales de respuesta
+directa o comercializaci&#243;n o venta directa de bienes o
+servicios.
+     Tampoco requerir&#225; de esta autorizaci&#243;n el tratamiento
+de datos personales que realicen personas jur&#237;dicas
+privadas para el uso exclusivo suyo, de sus asociados y de
+las entidades a que est&#225;n afiliadas, con fines
+estad&#237;sticos, de tarificaci&#243;n u otros de beneficio general
+de aqu&#233;llos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">4 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642687">
+          <Texto>     Art&#237;culo 5&#186;.- El responsable del registro o banco de
+datos personales podr&#225; establecer un procedimiento
+automatizado de transmisi&#243;n, siempre que se cautelen los
+derechos de los titulares y la transmisi&#243;n guarde relaci&#243;n
+con las tareas y finalidades de los organismos
+participantes.
+     Frente a un requerimiento de datos personales mediante
+una red electr&#243;nica, deber&#225; dejarse constancia de:
+     a) La individualizaci&#243;n del requirente;
+     b) El motivo y el prop&#243;sito del requerimiento, y 
+     c) El tipo de datos que se transmiten.
+     La admisibilidad del requerimiento ser&#225; evaluada por
+el responsable del banco de datos que lo recibe, pero la
+responsabilidad por dicha petici&#243;n ser&#225; de quien la haga.
+     El receptor s&#243;lo puede utilizar los datos personales
+para los fines que motivaron la transmisi&#243;n.
+     No se aplicar&#225; este art&#237;culo cuando se trate de datos
+personales accesibles al p&#250;blico en general.
+     Esta disposici&#243;n tampoco es aplicable cuando se
+transmiten datos personales a organizaciones internacionales
+en cumplimiento de lo dispuesto en los tratados y convenios
+vigentes.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">5 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642688">
+          <Texto>     Art&#237;culo 6&#176;.- Los datos personales deber&#225;n ser
+eliminados o cancelados cuando su almacenamiento carezca de
+fundamento legal o cuando hayan caducado.
+     Han de ser modificados cuando sean err&#243;</Texto>
+          <Metadatos>
+            <NombreParte presente="si">6 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642689">
+          <Texto>     Art&#237;culo 7&#176;.- Las personas que trabajan en el
+tratamiento de datos personales, tanto en organismos
+p&#250;blicos como privados, est&#225;n obligadas a guardar secreto
+sobre los mismos, cuando provengan o hayan sido recolectados
+de fuentes no accesibles al p&#250;blico, como asimismo sobre
+los dem&#225;s datos y antecedentes relacionados con el banco de
+datos, obligaci&#243;n que no cesa por haber terminado sus
+actividades en ese campo.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">7 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642690">
+          <Texto>     Art&#237;culo 8&#176;.- En el caso de que el tratamiento de
+datos personales se efect&#250;e por mandato, se aplicar&#225;n las
+reglas generales.
+     El mandato deber&#225; ser otorgado por escrito, dejando
+especial constancia de las condiciones de la utilizaci&#243;n de
+los datos.
+     El mandatario deber&#225; respetar esas estipulaciones en
+el cumplimiento de su encargo.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">8 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2011-07-23" derogado="no derogado" idParte="8642691">
+          <Texto>     Art&#237;culo 9&#176;.- Los datos personales deben utilizarse
+s&#243;lo para los fines para los cuales hubieren sido
+recolectados, salvo que provengan o se hayan recolectado de
+fuentes accesibles al p&#250;blico.
+     En todo caso, la informaci&#243;n debe ser exacta,
+actualizada y responder con veracidad a la situaci&#243;n real
+del titular de los datos.
+     Proh&#237;bese la realizaci&#243;n de todo tipo de predicciones
+o evaluaciones de riesgo comercial que no est&#233;n basadas
+&#250;nicamente en informaci&#243;n objetiva relativa a las
+morosidades o protestos de las personas naturales o
+jur&#237;dicas de las cuales se informa. La infracci&#243;n a esta
+prohibici&#243;n obligar&#225; a la eliminaci&#243;n inmediata de dicha
+informaci&#243;n por parte del responsable de la base de datos y
+dar&#225; lugar a la indemnizaci&#243;n de perjuicios que
+corresponda.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">9 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642692">
+          <Texto>     Art&#237;culo 10.- No pueden ser objeto de tratamiento los
+datos sensibles, salvo cuando la ley lo autorice, exista
+consentimiento del titular o sean datos necesarios para la
+determinaci&#243;n u otorgamiento de beneficios de salud que
+correspondan a sus titulares.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">10 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642693">
+          <Texto>     Art&#237;culo 11.- El responsable de los registros o bases
+donde se almacenen datos personales con posterioridad a su
+recolecci&#243;n deber&#225; cuidar de ellos con la debida
+diligencia, haci&#233;ndose responsable de los da&#241;os.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">11 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642695">
+      <Texto>     T&#237;tulo  II
+     De los derechos de los titulares de datos
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo II De los derechos de los titulares de datos</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642694">
+          <Texto>     Art&#237;culo 12.- Toda persona tiene derecho a exigir a
+quien sea responsable de un banco, que se dedique en forma
+p&#250;blica o privada al tratamiento de datos personales,
+informaci&#243;n sobre los datos relativos a su persona, su
+procedencia y destinatario, el prop&#243;sito del almacenamiento
+y la individualizaci&#243;n de las personas u organismos a los
+cuales sus datos son transmitidos regularmente.
+     En caso de que los datos personales sean err&#243;neos,
+inexactos, equ&#237;vocos o incompletos, y as&#237; se acredite,
+tendr&#225; derecho a que se modifiquen.
+     Sin perjuicio de las excepciones legales, podr&#225;,
+adem&#225;s, exigir que se eliminen, en caso de que su
+almacenamiento carezca de fundamento legal o cuando
+estuvieren caducos.
+     Igual exigencia de eliminaci&#243;n, o la de bloqueo de los
+datos, en su caso, podr&#225; hacer cuando haya proporcionado
+voluntariamente sus datos personales o ellos se usen para
+comunicaciones comerciales y no desee continuar figurando en
+el registro respectivo, sea de modo definitivo o temporal.
+     En el caso de los incisos anteriores, la informaci&#243;n,
+modificaci&#243;n o eliminaci&#243;n de los datos ser&#225;n
+absolutamente gratuitas, debiendo proporcionarse, adem&#225;s, a
+solicitud del titular, copia del registro alterado en la
+parte pertinente. Si se efectuasen nuevas modificaciones o
+eliminaciones de datos, el titular podr&#225;, asimismo, obtener
+sin costo copia del registro actualizado, siempre que haya
+transcurrido a lo menos seis meses desde la precedente
+oportunidad en que hizo uso de este derecho. El derecho a
+obtener copia gratuita s&#243;lo podr&#225; ejercerse personalmente.
+     Si los datos personales cancelados o modificados
+hubieren sido comunicados previamente a personas
+determinadas o determinables, el responsable del banco de
+datos deber&#225; avisarles a la brevedad posible la operaci&#243;n
+efectuada. Si no fuese posible determinar las personas a
+quienes se les hayan comunicado, pondr&#225; un aviso que pueda
+ser de general conocimiento para quienes usen la
+informaci&#243;n del banco de datos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">12 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642696">
+          <Texto>     Art&#237;culo 13.- El derecho de las personas a la
+informaci&#243;n, modificaci&#243;n, cancelaci&#243;n o bloqueo de sus
+datos personales no puede ser limitado por medio de ning&#250;n
+acto o convenci&#243;n.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">13 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642697">
+          <Texto>     Art&#237;culo 14.- Si los datos personales est&#225;n en un
+banco de datos al cual tienen acceso diversos organismos, el
+titular puede requerir informaci&#243;n a cualquiera de ellos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">14 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642698">
+          <Texto>     Art&#237;culo 15.- No obstante lo dispuesto en este
+T&#237;tulo, no podr&#225; solicitarse informaci&#243;n, modificaci&#243;n,
+cancelaci&#243;n o bloqueo de datos personales cuando ello
+impida o entorpezca el debido cumplimiento de las funciones
+fiscalizadoras del organismo p&#250;blico requerido, o afecte la
+reserva o secreto establecidos en disposiciones legales o
+reglamentarias, la seguridad de la Naci&#243;n o el inter&#233;s
+nacional.
+     Tampoco podr&#225; pedirse la modificaci&#243;n, cancelaci&#243;n o
+bloqueo de datos personales almacenados por mandato legal,
+fuera de los casos contemplados en la ley respectiva.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">15 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2002-06-13" derogado="no derogado" idParte="8642699">
+          <Texto>     Art&#237;culo 16.- Si el responsable del registro o banco
+de datos no se pronunciare sobre la solicitud del requirente
+dentro de dos d&#237;as h&#225;biles, o la denegare por una causa
+distinta de la seguridad de la Naci&#243;n o el inter&#233;s
+nacional, el titular de los datos tendr&#225; derecho a recurrir
+al juez de letras en lo civil del domicilio del responsable,
+que se encuentre de turno seg&#250;n las reglas
+correspondientes, solicitando amparo a los derechos
+consagrados en el art&#237;culo precedente.
+     El procedimiento se sujetar&#225; a las reglas siguientes:
+     a) La reclamaci&#243;n se&#241;alar&#225; claramente la infracci&#243;n
+cometida y los hechos que la configuran, y deber&#225;
+acompa&#241;arse de los medios de prueba que los acrediten, en
+su caso.
+     b) El tribunal dispondr&#225; que la reclamaci&#243;n sea
+notificada por c&#233;dula, dejada en el domicilio del
+responsable del banco de datos correspondiente. En igual
+forma se notificar&#225; la sentencia que se dicte.
+     c) El responsable del banco de datos deber&#225; presentar
+sus descargos dentro de quinto d&#237;a h&#225;bil y adjuntar los
+medios de prueba que acrediten los hechos en que los funda.
+De no disponer de ellos, expresar&#225; esta circunstancia y el
+tribunal fijar&#225; una audiencia, para dentro de quinto d&#237;a
+h&#225;bil, a fin de recibir la prueba ofrecida y no
+acompa&#241;ada.
+     d) La sentencia definitiva se dictar&#225; dentro de
+tercero d&#237;a de vencido el plazo a que se refiere la letra
+anterior, sea que se hayan o no presentado descargos. Si el
+tribunal decret&#243; una audiencia de prueba, este plazo
+correr&#225; una vez vencido el plazo fijado para &#233;sta.
+     e) Todas las resoluciones, con excepci&#243;n de la
+indicada en la letra f) de este inciso, se dictar&#225;n en
+&#250;nica instancia y se notificar&#225;n por el estado diario.
+     f) La sentencia definitiva ser&#225; apelable en ambos
+efectos. El recurso deber&#225; interponerse en el t&#233;rmino
+fatal de cinco d&#237;as, contado desde la notificaci&#243;n de la
+parte que lo entabla, deber&#225; contener los fundamentos de
+hecho y de derecho en que se apoya y las peticiones
+concretas que se formulan.
+     g) Deducida la apelaci&#243;n, el tribunal elevar&#225; de
+inmediato los autos a la Corte de Apelaciones respectiva.
+Recibidos los autos en la Secretar&#237;a de la Corte, el
+Presidente ordenar&#225; dar cuenta preferente del recurso, sin
+esperar la comparecencia de ninguna de las partes.
+     h) El fallo que se pronuncie sobre la apelaci&#243;n no
+ser&#225; susceptible de los recursos de casaci&#243;n.
+     En caso de que la causal invocada para denegar la
+solicitud del requirente fuere la seguridad de la Naci&#243;n o
+el inter&#233;s nacional, la reclamaci&#243;n deber&#225; deducirse ante
+la Corte Suprema, la que solicitar&#225; informe de la autoridad
+de que se trate por la v&#237;a que considere m&#225;s r&#225;pida,
+fij&#225;ndole plazo al efecto, transcurrido el cual resolver&#225;
+en cuenta la controversia. De recibirse prueba, se
+consignar&#225; en un cuaderno separado y reservado, que
+conservar&#225; ese car&#225;cter aun despu&#233;s de afinada la causa
+si por sentencia ejecutoriada se denegare la solicitud del
+requirente.
+     La sala de la Corte Suprema que conozca la reclamaci&#243;n
+conforme al inciso anterior, o la sala de la Corte de
+Apelaciones que conozca la apelaci&#243;n, trat&#225;ndose del
+procedimiento establecido en los incisos primero y segundo,
+si lo estima conveniente o se le solicita con fundamento
+plausible, podr&#225; ordenar traer los autos en relaci&#243;n para
+o&#237;r a los abogados de las partes, caso en el cual la causa
+se agregar&#225; extraordinariamente a la tabla respectiva de la
+misma sala. En las reclamaciones por las causales se&#241;aladas
+en el inciso precedente, el Presidente del Tribunal
+dispondr&#225; que la audiencia no sea p&#250;blica.
+     En caso de acogerse la reclamaci&#243;n, la misma sentencia
+fijar&#225; un plazo prudencial para dar cumplimiento a lo
+resuelto y podr&#225; aplicar una multa de una a diez unidades
+tributarias mensuales, o de diez a cincuenta unidades
+tributarias mensuales si se tratare de una infracci&#243;n a lo
+dispuesto en los art&#237;culos 17 y 18.
+     La falta de entrega oportuna de la informaci&#243;n o el
+retardo en efectuar la modificaci&#243;n, en la forma que
+decrete el Tribunal, ser&#225;n castigados con multa de dos a
+cincuenta unidades tributarias mensuales y, si el
+responsable del banco de datos requerido fuere un organismo
+p&#250;blico, el tribunal podr&#225; sancionar al jefe del Servicio
+con la suspensi&#243;n de su cargo, por un lapso de cinco a
+quince d&#237;as.
+
+
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">16 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642701">
+      <Texto>     T&#237;tulo  III
+     De la utilizaci&#243;n de datos personales relativos a
+obligaciones de car&#225;cter econ&#243;mico, financiero, bancario o
+comercial
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo III De la utilizaci&#243;n de datos personales relativos a obligaciones de car&#225;cter econ&#243;mico, financiero, bancario o comercial</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-11-10" derogado="no derogado" idParte="8642700">
+          <Texto>     Art&#237;culo 17.- Los responsables de los registros o
+bancos de datos personales s&#243;lo podr&#225;n comunicar
+informaci&#243;n que verse sobre obligaciones de car&#225;cter
+econ&#243;mico, financiero, bancario o comercial, cuando &#233;stas
+consten en letras de cambio y pagar&#233;s protestados; cheques
+protestados por falta de fondos, por haber sido girados
+contra cuenta corriente cerrada o por otra causa; como
+asimismo el incumplimiento de obligaciones derivadas de
+mutuos hipotecarios y de pr&#233;stamos o cr&#233;ditos de bancos,
+sociedades financieras, administradoras de mutuos
+hipotecarios, cooperativas de ahorros y cr&#233;ditos,
+organismos p&#250;blicos y empresas del Estado sometidas a la
+legislaci&#243;n com&#250;n, y de sociedades administradoras de
+cr&#233;ditos otorgados para compras en casas comerciales. Se
+except&#250;a la informaci&#243;n relacionada con los cr&#233;ditos
+concedidos por el Instituto Nacional de Desarrollo
+Agropecuario a sus usuarios, y la informaci&#243;n relacionada
+con obligaciones de car&#225;cter econ&#243;mico, financiero,
+bancario o comercial en cuanto hayan sido repactadas,
+renegociadas o novadas, o &#233;stas se encuentren con alguna
+modalidad pendiente.
+     Tambi&#233;n podr&#225;n comunicarse aquellas otras
+obligaciones de dinero que determine el Presidente de la
+Rep&#250;blica mediante decreto supremo, las que deber&#225;n estar
+sustentadas en instrumentos de pago o de cr&#233;dito
+v&#225;lidamente emitidos, en los cuales conste el
+consentimiento expreso del deudor u obligado al pago y su
+fecha de vencimiento. No podr&#225; comunicarse la informaci&#243;n
+relacionada con las deudas contra&#237;das con empresas
+p&#250;blicas o privadas que proporcionen servicios de
+electricidad, agua, tel&#233;fono y gas; tampoco las deudas
+contra&#237;das con instituciones de educaci&#243;n superior de
+conformidad a las leyes n&#250;meros 18.591 y 19.287, ni
+aquellas adquiridas con bancos o instituciones financieras
+de conformidad a la ley N&#186; 20.027, o en el marco de las
+l&#237;neas de financiamiento a estudiantes para cursar estudios
+en educaci&#243;n superior, administradas por la Corporaci&#243;n de
+Fomento de la Producci&#243;n, ni alguna deuda contra&#237;da con la
+finalidad de recibir para s&#237; o para terceros un servicio
+educacional formal en cualquiera de sus niveles; ni las
+deudas contra&#237;das con prestadores de salud p&#250;blicos o
+privados y empresas relacionadas, sean instituciones
+financieras, casas comerciales u otras similares, en el
+marco de una atenci&#243;n o acci&#243;n de salud ambulatoria,
+hospitalaria o de emergencia sean &#233;stas consultas,
+procedimientos, ex&#225;menes, programas, cirug&#237;as u
+operaciones; tampoco podr&#225;n comunicarse las deudas
+contra&#237;das con concesionarios de autopistas por el uso de
+su infraestructura.
+     Las entidades responsables que administren bancos de
+datos personales no podr&#225;n publicar o comunicar la
+informaci&#243;n referida en el presente art&#237;culo, en especial
+los protestos y morosidades contenidas en &#233;l, cuando &#233;stas
+se hayan originado durante el per&#237;odo de cesant&#237;a que
+afecte al deudor.
+     Para estos efectos, la Administradora de Fondos de
+Cesant&#237;a comunicar&#225; los datos de sus beneficiarios al
+Bolet&#237;n de Informaciones Comerciales s&#243;lo mientras
+subsistan sus beneficios para los efectos de que &#233;ste
+bloquee la informaci&#243;n concerniente a tales personas.
+     Sin embargo, las personas que no est&#233;n incorporadas al
+seguro de cesant&#237;a deber&#225;n acreditar dicha condici&#243;n ante
+el Bolet&#237;n de Informaciones Comerciales, acompa&#241;ando el
+finiquito extendido en forma legal o, si existiese
+controversia, con el acta de comparecencia ante la
+Inspecci&#243;n del Trabajo, para los efectos de impetrar este
+derecho por tres meses renovable hasta por una vez. Para que
+opere dicha renovaci&#243;n se deber&#225; adjuntar una declaraci&#243;n
+jurada del deudor en la que manifieste que mantiene su
+condici&#243;n de cesante.
+     El bloqueo de datos ser&#225; sin costo para el deudor.
+     No proceder&#225; el bloqueo de datos respecto de quienes
+consignen anotaciones en el sistema de informaci&#243;n
+comercial durante el a&#241;o anterior a la fecha de t&#233;rmino de
+su relaci&#243;n laboral.
+     Las entidades responsables de la administraci&#243;n de
+bancos de datos personales no podr&#225;n se&#241;alar bajo ninguna
+circunstancia, signo o caracterizaci&#243;n que la persona se
+encuentra beneficiada por esta ley.
+
+
+
+
+
+
+
+
+
+
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">17 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2002-06-13" derogado="no derogado" idParte="8642702">
+          <Texto>     Art&#237;culo 18.- En ning&#250;n caso pueden comunicarse los
+datos a que se refiere el art&#237;culo anterior, que se
+relacionen con una persona identificada o identificable,
+luego de transcurridos cinco a&#241;os desde que la respectiva
+obligaci&#243;n se hizo exigible.
+     Tampoco se podr&#225; continuar comunicando los datos
+relativos a dicha obligaci&#243;n despu&#233;s de haber sido pagada
+o haberse extinguido por otro modo legal.
+     Con todo, se comunicar&#225; a los tribunales de Justicia
+la informaci&#243;n que requieran con motivo de juicios
+pendientes.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">18 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642703">
+          <Texto>     Art&#237;culo 19.- El pago o la extinci&#243;n de estas
+obligaciones por cualquier otro modo no produce la caducidad
+o la p&#233;rdida de fundamento legal de los datos respectivos
+para los efectos del art&#237;culo 12, mientras est&#233;n
+pendientes los plazos que establece el art&#237;culo precedente.
+     Al efectuarse el pago o extinguirse la obligaci&#243;n por
+otro modo en que intervenga directamente el acreedor, &#233;ste
+avisar&#225; tal hecho, a m&#225;s tardar dentro de los siguientes
+siete d&#237;as h&#225;biles, al responsable del registro o banco de
+datos accesible al p&#250;blico que en su oportunidad comunic&#243;
+el protesto o la morosidad, a fin de que consigne el nuevo
+dato que corresponda, previo pago de la tarifa si fuere
+procedente, con cargo al deudor. El deudor podr&#225; optar por
+requerir directamente la modificaci&#243;n al banco de datos y
+liberar del cumplimiento de esa obligaci&#243;n al acreedor que
+le entregue constancia suficiente del pago; decisiones que
+deber&#225; expresar por escrito.
+     Quienes efect&#250;en el tratamiento de datos personales
+provenientes o recolectados de la aludida fuente accesible
+al p&#250;blico deber&#225;n modificar los datos en el mismo sentido
+tan pronto aqu&#233;lla comunique el pago o la extinci&#243;n de la
+obligaci&#243;n, o dentro de los tres d&#237;as siguientes. Si no
+les fuera posible, bloquear&#225;n los datos del respectivo
+titular hasta que est&#233; actualizada la informaci&#243;n.
+     La infracci&#243;n de cualquiera de estas obligaciones se
+conocer&#225; y sancionar&#225; de acuerdo a lo previsto en el
+art&#237;culo 16.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">19 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642705">
+      <Texto>     T&#237;tulo IV
+     Del tratamiento de datos por los organismos p&#250;blicos
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo IV Del tratamiento de datos por los organismos p&#250;blicos</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642704">
+          <Texto>     Art&#237;culo 20.- El tratamiento de datos personales por
+parte de un organismo p&#250;blico s&#243;lo podr&#225; efectuarse
+respecto de las materias de su competencia y con sujeci&#243;n a
+las reglas precedentes. En esas condiciones, no necesitar&#225;
+el consentimiento del titular.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">20 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642706">
+          <Texto>     Art&#237;culo 21.- Los organismos p&#250;blicos que sometan a
+tratamiento datos personales relativos a condenas por
+delitos, infracciones administrativas o faltas
+disciplinarias, no podr&#225;n comunicarlos una vez prescrita la
+acci&#243;n penal o administrativa, o cumplida o prescrita la
+sanci&#243;n o la pena.
+     Except&#250;ase los casos en que esa informaci&#243;n les sea
+solicitada por los tribunales de Justicia u otros organismos
+p&#250;blicos dentro del &#225;mbito de su competencia, quienes
+deber&#225;n guardar respecto de ella la debida reserva o
+secreto y, en todo caso, les ser&#225; aplicable lo dispuesto en
+los art&#237;culos 5&#186;, 7&#176;, 11 y 18.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">21 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642707">
+          <Texto>     Art&#237;culo 22.- El Servicio de Registro Civil e
+Identificaci&#243;n llevar&#225; un registro de los bancos de datos
+personales a cargo de organismos p&#250;blicos.
+     Este registro tendr&#225; car&#225;cter p&#250;blico y en &#233;l
+constar&#225;, respecto de cada uno de esos bancos de datos, el
+fundamento jur&#237;dico de su existencia, su finalidad, tipos
+de datos almacenados y descripci&#243;n del universo de personas
+que comprende, todo lo cual ser&#225; definido en un reglamento.
+     El organismo p&#250;blico responsable del banco de datos
+proporcionar&#225; esos antecedentes al Servicio de Registro
+Civil e Identificaci&#243;n cuando se inicien las actividades
+del banco, y comunicar&#225; cualquier cambio de los elementos
+indicados en el inciso anterior dentro de los quince d&#237;as
+desde que se produzca.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">22 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642709">
+      <Texto>     T&#237;tulo V
+     De la responsabilidad por las infracciones a esta ley
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo V De la responsabilidad por las infracciones a esta ley</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642708">
+          <Texto>     Art&#237;culo 23.- La persona natural o jur&#237;dica privada o
+el organismo p&#250;blico responsable del banco de datos
+personales deber&#225; indemnizar el da&#241;o patrimonial y moral
+que causare por el tratamiento indebido de los datos, sin
+perjuicio de proceder a eliminar, modificar o bloquear los
+datos de acuerdo a lo requerido por el titular o, en su
+caso, lo ordenado por el tribunal.
+     La acci&#243;n consiguiente podr&#225; interponerse
+conjuntamente con la reclamaci&#243;n destinada a establecer la
+infracci&#243;n, sin perjuicio de lo establecido en el art&#237;culo
+173 del C&#243;digo de Procedimiento Civil. En todo caso, las
+infracciones no contempladas en los art&#237;culos 16 y 19,
+incluida la indemnizaci&#243;n de los perjuicios, se sujetar&#225;n
+al procedimiento sumario. El juez tomar&#225; todas las
+providencias que estime convenientes para hacer efectiva la
+protecci&#243;n de los derechos que esta ley establece. La
+prueba se apreciar&#225; en conciencia por el juez.
+     El monto de la indemnizaci&#243;n ser&#225; establecido
+prudencialmente por el juez, considerando las circunstancias
+del caso y la gravedad de los hechos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">23 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642711">
+      <Texto>     T&#237;tulo Final
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#237;tulo Final</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642710">
+          <Texto>     Art&#237;culo 24.- Agr&#233;gase los siguientes incisos segundo
+y tercero, nuevos, al art&#237;culo 127 del C&#243;digo Sanitario:
+     ''Las recetas m&#233;dicas y an&#225;lisis o ex&#225;menes de
+laboratorios cl&#237;nicos y servicios relacionados con la salud
+son reservados. S&#243;lo podr&#225; revelarse su contenido o darse
+copia de ellos con el consentimiento expreso del paciente,
+otorgado por escrito. Quien divulgare su contenido
+indebidamente, o infringiere las disposiciones del inciso
+siguiente, ser&#225; castigado en la forma y con las sanciones
+establecidas en el Libro D&#233;cimo.
+     Lo dispuesto en este art&#237;culo no obsta para que las
+farmacias puedan dar a conocer, para fines estad&#237;sticos,
+las ventas de productos farmac&#233;uticos de cualquier
+naturaleza, incluyendo la denominaci&#243;n y cantidad de ellos.
+En ning&#250;n caso la informaci&#243;n que proporcionen las
+farmacias consignar&#225; el nombre de los pacientes
+destinatarios de las recetas, ni el de los m&#233;dicos que las
+expidieron, ni datos que sirvan para identificarlos.''.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">24 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="Disposici&#243;n Transitoria" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642713">
+      <Texto>     Disposiciones transitorias
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">Disposiciones transitorias</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642712">
+          <Texto>     Art&#237;culo 1&#176;.- Las disposiciones de esta ley, con
+excepci&#243;n del art&#237;culo 22, entrar&#225;n en vigencia dentro
+del plazo de sesenta d&#237;as, contados desde la fecha de su
+publicaci&#243;n en el Diario Oficial.
+     Los actuales registros o bancos de datos personales de
+organismos p&#250;blicos se ajustar&#225;n a las disposiciones de
+este cuerpo legal, a contar de su entrada en vigencia.
+     Lo dispuesto en el art&#237;culo 22 comenzar&#225; a regir un
+a&#241;o despu&#233;s de la publicaci&#243;n de esta ley. Sin perjuicio
+de lo anterior, los organismos p&#250;blicos que tuvieren a su
+cargo bancos de datos personales deber&#225;n remitir los
+antecedentes a que se refiere dicho precepto con
+anterioridad, dentro del plazo que fije el reglamento.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642714">
+          <Texto>     Art&#237;culo 2&#176;.- Los titulares de los datos personales
+registrados en bancos de datos creados con anterioridad a la
+entrada en vigencia de la presente ley tendr&#225;n los derechos
+que &#233;sta les confiere.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="1999-08-28" derogado="no derogado" idParte="8642715">
+          <Texto>     Art&#237;culo 3&#176;.- Las normas que regulan el Bolet&#237;n de
+Informaciones Comerciales creado por el decreto supremo de
+Hacienda N&#176; 950, de 1928, seguir&#225;n aplic&#225;ndose en todo lo
+que no sean contrarias a las disposiciones de esta ley.''.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="1999-08-28" derogado="no derogado">
+    <Texto>     Habi&#233;ndose cumplido con lo establecido en el N&#176; 1&#186;
+del art&#237;culo 82 de la Constituci&#243;n Pol&#237;tica de la
+Rep&#250;blica y por cuanto he tenido a bien aprobarlo y
+sancionarlo; por tanto prom&#250;lguese y ll&#233;vese a efecto como
+Ley de la Rep&#250;blica.
+     Santiago, 18 de agosto de 1999.- EDUARDO FREI
+RUIZ-TAGLE, Presidente de la Rep&#250;blica.- Jos&#233; Miguel
+Insulza Salinas, Ministro Secretario General de la
+Presidencia.- Mar&#237;a Soledad Alvear Valenzuela, Ministra de
+Justicia.- Germ&#225;n Quintana Pe&#241;a, Ministro de
+Planificaci&#243;n y Cooperaci&#243;n.
+     Lo que transcribo a Ud., para su conocimiento.- Saluda
+Atte. a Ud., Carlos Carmona Santander, Subsecretario General
+de la Presidencia de la Rep&#250;blica.</Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="1999-08-28" derogado="no derogado" idParte="8642717" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>PROYECTO DE LEY SOBRE PROTECCI&#211;N DE DATOS DE CAR&#193;CTER PERSONAL</Titulo>
+        
+      </Metadatos>
+      <Texto>     Tribunal Constitucional
+
+     Proyecto de ley sobre protecci&#243;n de datos de car&#225;cter
+personal
+
+     El Secretario del Tribunal Constitucional, quien
+suscribe, certifica que el Honorable Senado envi&#243; el
+proyecto de ley enunciado en el rubro, aprobado por el
+Congreso Nacional, a fin de que este Tribunal ejerciera el
+control de la constitucionalidad de su art&#237;culo 16; y que
+por sentencia de 4 de agosto de 1999, declar&#243;:
+
+     1. Que los preceptos contenidos en el art&#237;culo 16, del
+proyecto sometido a control, son constitucionales en el
+entendido que deben interpretarse en conformidad con lo que
+se ha se&#241;alado en el considerando 7&#186; de esta sentencia.
+    2. Que las disposiciones contempladas en el art&#237;culo 19
+del proyecto sometido a control, son constitucionales.
+
+     Santiago, agosto 6 de 1999.- Rafael Larra&#237;n Cruz,
+Secretario.</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>

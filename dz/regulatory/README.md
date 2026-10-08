@@ -4,11 +4,12 @@ Regulatory compliance in Algeria — personal-data protection, industrial proper
 
 Jurisdiction: `dz` · Practice: `regulatory` · Skill language: fr
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Internal Audit IA`](skills/agent-audit-internal-ziri22/) | Expert en audit interne (risk assessment, controls, compliance, recommendations, DZ context) |
+| [`Legal & Compliance IA`](skills/agent-legal-compliance-ziri22/) | Legal & Compliance IA — Expert en conformité légale (GDPR, RGPD DZ, CGV, politique de confidentialité, DPDP). |
 | [`Legal Tech v2 IA`](skills/agent-legal-tech-v2-ziri22/) | Legal tech v2 — contracts, compliance, DPI, INAPI, trademarks Algeria |
 
 ## Cold-start context

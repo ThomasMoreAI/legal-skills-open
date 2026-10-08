@@ -1,0 +1,11 @@
+id: REL-021
+tipo_relacion: "relaciona"
+origen: NOR-024
+destino: NOR-002
+descripcion: "El Decreto 25/2018 se relaciona con el marco LOE/LOMLOE sobre equidad, inclusión y alumnado con necesidades específicas de apoyo educativo."
+evidencia:
+  fuente: FTE-027
+  localizacion: "Preámbulo; artículos 1, 4, 11 y 12"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La norma original cita la LOE/LOMCE; la relación con LOMLOE se registra por el texto consolidado de la LOE tras NOR-002."

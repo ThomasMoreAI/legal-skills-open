@@ -1,0 +1,20 @@
+{
+  "name": "cl-data-protection",
+  "displayName": "Data Protection — CL",
+  "version": "0.1.0",
+  "description": "Data Protection skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/auditoria-ley-21719-facbgnto",
+    "skills/chile-datos-personales-facbgnto",
+    "skills/compliance-cl-lelemon-studio",
+    "skills/generar-politicas-privacidad-facbgnto",
+    "skills/incidente-datos-personales-facbgnto",
+    "skills/proteccion-datos-chile-riquelmechile",
+    "skills/revisar-datos-personales-carlos-dominguez-faber"
+  ]
+}

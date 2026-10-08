@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Deadline Basis"
+  short_description: "Verify computation-rule and holiday tables against publishers"
+  default_prompt: "Use $verify-deadline-basis to verify the computation-rule and holiday tables this matter relies on against the official publishers and record the evidence fingerprint."

@@ -1,0 +1,42 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/tarea.schema.yaml"
+title: Tarea de mantenimiento del corpus
+additionalProperties: false
+
+# `siguiente_accion` y `fecha_cierre` son opcionales: una tarea cerrada no tiene
+# acción siguiente, y sólo las que se cerraron formalmente llevan fecha de cierre.
+# El enum de `estado` recoge el vocabulario realmente usado en el backlog.
+
+type: object
+required: [id, titulo, estado, tipo, fecha_creacion, fecha_actualizacion, relacionadas]
+properties:
+  id:
+    type: string
+    pattern: '^TAREA-[0-9]{3}$'
+  titulo:
+    type: string
+  estado:
+    type: string
+    enum: [Pendiente, En progreso, Hecha, Bloqueada]
+  prioridad:
+    type: string
+    enum: [Crítica, Alta, Media, Baja]
+  tipo:
+    type: string
+  responsable:
+    type: string
+  fecha_creacion:
+    type: string
+    format: date
+  fecha_actualizacion:
+    type: string
+    format: date
+  fecha_cierre:
+    type: [string, 'null']
+    format: date
+  relacionadas:
+    type: array
+    items:
+      type: string
+  siguiente_accion:
+    type: [string, 'null']

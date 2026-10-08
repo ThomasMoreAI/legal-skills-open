@@ -1,0 +1,10 @@
+id: REL-080
+tipo_relacion: "corrige"
+origen: NOR-104
+destino: NOR-103
+descripcion: "La corrección de errores publicada en enero de 2021 rectifica el Real Decreto 1085/2020, de convalidaciones de módulos profesionales de Formación Profesional."
+evidencia:
+  fuente: FTE-111
+  localizacion: "Encabezado y cuerpo de la corrección de errores."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -1,0 +1,1447 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Física",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato"
+      ],
+      "identifier": "CUR-037",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Física — Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Filosofía",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato"
+      ],
+      "identifier": "CUR-038",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Filosofía — 1.º Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Historia de la Filosofía",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "2.º Bachillerato"
+      ],
+      "identifier": "CUR-039",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Historia de la Filosofía — 2.º Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Castellana y Literatura",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato",
+        "2.º Bachillerato"
+      ],
+      "identifier": "CUR-040",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Castellana y Literatura I y II — Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato",
+        "2.º Bachillerato"
+      ],
+      "identifier": "CUR-041",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Extranjera I y II — Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Matemáticas",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato",
+        "2.º Bachillerato"
+      ],
+      "identifier": "CUR-042",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Matemáticas I y II — Bachillerato Ciencias y Tecnología",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Matemáticas Aplicadas a las CCSS",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "educationalUse": [
+        "1.º Bachillerato",
+        "2.º Bachillerato"
+      ],
+      "identifier": "CUR-043",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-044-latin.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Latín",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-044",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Latín I y II — Bachillerato Humanidades y CCSS",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Historia de España",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-045",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Historia de España — 2.º Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Segunda Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-054",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Segunda Lengua Extranjera I y II — Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Historia de Canarias",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-055",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Historia de Canarias — 1.º Bachillerato",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Psicología",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-056",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Psicología — 2.º Bachillerato Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Literatura Canaria",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-057",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Literatura Canaria — 2.º Bachillerato",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Cultura Científica",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Bachillerato",
+      "identifier": "CUR-058",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Cultura Científica — 1.º Bachillerato",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Biología y Geología",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-001",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Biología y Geología — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Cultura Clásica",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "3.º ESO"
+      ],
+      "identifier": "CUR-002",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Cultura Clásica — ESO Canarias",
+      "sameAs": "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Cultura y Ciudadanía Digital",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "3.º ESO"
+      ],
+      "identifier": "CUR-003",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Cultura y Ciudadanía Digital — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-004-digitalizacion.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Digitalización",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-004",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Digitalización — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-004-digitalizacion.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Economía Personal y Social",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "3.º ESO"
+      ],
+      "identifier": "CUR-005",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Economía Personal y Social — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Economía y Emprendimiento",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-006",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Economía y Emprendimiento — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación en Valores Cívicos y Éticos",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO"
+      ],
+      "identifier": "CUR-007",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación en Valores Cívicos y Éticos — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Física",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-008",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Física — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Plástica, Visual y Audiovisual",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO"
+      ],
+      "identifier": "CUR-009",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Plástica, Visual y Audiovisual — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Expresión Artística",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-010",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Expresión Artística — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-011-filosofia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Filosofía",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-011",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Filosofía — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-011-filosofia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Física y Química",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-012",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Física y Química — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Formación y Orientación Personal y Profesional",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-013",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Formación y Orientación Personal y Profesional — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Geografía e Historia",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-014",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Geografía e Historia — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Historia y Geografía de Canarias",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "3.º ESO"
+      ],
+      "identifier": "CUR-015",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Historia y Geografía de Canarias — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-016-latin.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Latín",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-016",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Latín — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-016-latin.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Castellana y Literatura",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-017",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Castellana y Literatura — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-018",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Extranjera — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-019-matematicas.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Matemáticas",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO (Matemáticas A)",
+        "4.º ESO (Matemáticas B)"
+      ],
+      "identifier": "CUR-019",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Matemáticas — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-019-matematicas.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-020-musica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Música",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO"
+      ],
+      "identifier": "CUR-020",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Música — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-020-musica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Segunda Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO",
+        "4.º ESO"
+      ],
+      "identifier": "CUR-021",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Segunda Lengua Extranjera — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-022-tecnologia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Tecnología",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "4.º ESO"
+      ],
+      "identifier": "CUR-022",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Tecnología — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Tecnología y Digitalización",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Secundaria Obligatoria",
+      "educationalUse": [
+        "1.º ESO",
+        "2.º ESO",
+        "3.º ESO"
+      ],
+      "identifier": "CUR-023",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Tecnología y Digitalización — ESO Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2023/058/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/administracion-y-gestion/CUR-048-gestion-administrativa.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Gestión Administrativa",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-048",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico en Gestión Administrativa — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/administracion-y-gestion/CUR-048-gestion-administrativa.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Administración y Finanzas",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-049",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Administración y Finanzas — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Desarrollo de Aplicaciones Multiplataforma",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-050",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Desarrollo de Aplicaciones Web",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-051",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Cuidados Auxiliares de Enfermería",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-046",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-13533",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Imagen para el Diagnóstico y Medicina Nuclear",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-047",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-052-educacion-infantil.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Infantil",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-052",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Educación Infantil — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-20201",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-052-educacion-infantil.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Integración Social",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Formación Profesional",
+      "educationalUse": [
+        "1.º",
+        "2.º"
+      ],
+      "identifier": "CUR-053",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Técnico Superior en Integración Social — FP Canarias",
+      "sameAs": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-10395",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Crecimiento en Armonía",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-08-05",
+      "educationalLevel": "Educación Infantil",
+      "identifier": "CUR-034",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Crecimiento en Armonía — Infantil Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/212/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Descubrimiento y Exploración del Entorno",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-08-05",
+      "educationalLevel": "Educación Infantil",
+      "identifier": "CUR-035",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Descubrimiento y Exploración del Entorno — Infantil Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/212/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Comunicación y Representación de la Realidad",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-08-05",
+      "educationalLevel": "Educación Infantil",
+      "identifier": "CUR-036",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Comunicación y Representación de la Realidad — Infantil Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/212/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Conocimiento del Medio Natural, Social y Cultural",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-024",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Artística",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-025",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Artística — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Física",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-026",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Física — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Castellana y Literatura",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-027",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Castellana y Literatura — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-028",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Lengua Extranjera — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-029-matematicas.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Matemáticas",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-029",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Matemáticas — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-029-matematicas.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación Emocional y para la Creatividad",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "1.º",
+        "2.º",
+        "3.º",
+        "4.º",
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-030",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación Emocional y para la Creatividad — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Educación en Valores Cívicos y Éticos",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-031",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Educación en Valores Cívicos y Éticos — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Segunda Lengua Extranjera",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-04-26",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "5.º",
+        "6.º"
+      ],
+      "identifier": "CUR-032",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Segunda Lengua Extranjera — Primaria Canarias",
+      "sameAs": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-033-religion.yaml",
+      "@type": [
+        "LearningResource",
+        "Course"
+      ],
+      "about": "Religión Católica",
+      "creativeWorkStatus": "completado",
+      "dateModified": "2026-08-05",
+      "educationalLevel": "Educación Primaria",
+      "educationalUse": [
+        "Primer ciclo",
+        "Segundo ciclo",
+        "Tercer ciclo"
+      ],
+      "identifier": "CUR-033",
+      "inLanguage": "es",
+      "isBasedOn": {
+        "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md",
+        "@type": "Legislation"
+      },
+      "learningResourceType": "curriculum",
+      "name": "Religión Católica — Primaria Canarias",
+      "sameAs": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452",
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/primaria/materias/CUR-033-religion.yaml"
+    }
+  ]
+}

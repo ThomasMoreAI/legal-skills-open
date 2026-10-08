@@ -1,0 +1,260 @@
+id: CUR-025
+titulo: Educación Artística — Primaria Canarias
+etapa: primaria
+materia: Educación Artística
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Descubrir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, para desarrollar la curiosidad y el respeto por la diversidad.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CD1
+          - CC1
+          - CCEC1
+          - CCEC2
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - CP3
+          - CD1
+          - CC1
+          - CCEC1
+          - CCEC2
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - CP2
+          - CP3
+          - CD1
+          - CC1
+          - CCEC1
+          - CCEC2
+    - codigo: C2
+      enunciado_oficial: Investigar sobre manifestaciones culturales y artísticas y sus contextos, empleando diversos canales, medios y técnicas, para disfrutar de ellas, entender su valor y empezar a desarrollar una sensibilidad artística propia.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - CP3
+          - CD1
+          - CPSAA3
+          - CPSAA4
+          - CC3
+          - CCEC1
+          - CCEC2
+        Segundo ciclo:
+          - CCL2
+          - CCL3
+          - CP3
+          - CD1
+          - CC3
+          - CCEC1
+          - CCEC2
+        Tercer ciclo:
+          - CCL2
+          - CCL3
+          - CP3
+          - CD1
+          - CD4
+          - CPSAA3
+          - CPSAA4
+          - CC3
+          - CCEC1
+          - CCEC2
+    - codigo: C3
+      enunciado_oficial: Expresar y comunicar de manera creativa ideas, sentimientos y emociones, experimentando con las posibilidades del sonido, la imagen, el cuerpo y los medios digitales, para producir obras propias.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CD2
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CE1
+          - CCEC3
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - CP3
+          - CD2
+          - CD3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CE1
+          - CCEC3
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - CP3
+          - CD2
+          - CD3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CE1
+          - CCEC3
+          - CCEC4
+    - codigo: C4
+      enunciado_oficial: Participar del diseño, la elaboración y la difusión de producciones culturales y artísticas individuales o colectivas, poniendo en valor el proceso y asumiendo diferentes funciones en la consecución de un resultado final, para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - STEM3
+          - CD2
+          - CPSAA4
+          - CC1
+          - CE1
+          - CE3
+          - CCEC3
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - STEM3
+          - CD2
+          - CD3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CE1
+          - CE3
+          - CCEC3
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - STEM3
+          - CD2
+          - CD3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CE1
+          - CE3
+          - CCEC3
+          - CCEC4
+  saberes_basicos:
+    - bloque: I. Recepción y análisis
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Descubrimiento, exploración y valoración de la imagen, el sonido y sus posibilidades expresivas; acercamiento a propuestas artísticas de diferentes corrientes, procedencias y épocas, incluido el patrimonio artístico y cultural de Canarias; estrategias de recepción activa desde un enfoque crítico.
+    - bloque: II. Creación e interpretación
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Experimentación y aplicación de los elementos materiales y las técnicas de los códigos artísticos con una finalidad expresiva; alfabetización en herramientas digitales como recurso y soporte con intención comunicativa desde una perspectiva artística.
+    - bloque: III. Artes plásticas, visuales y audiovisuales
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Conocimiento y tratamiento de la imagen fija y en movimiento; exploración de medios, materiales, soportes y técnicas bidimensionales y tridimensionales; enculturación visual, registro y edición de elementos audiovisuales.
+    - bloque: IV. Música y artes escénicas y performativas
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Experimentación con el propio cuerpo y sus posibilidades sonoras y expresivas a través del gesto y el movimiento, la exploración del sonido y la práctica instrumental y vocal, individual y en grupo; saberes relacionados con el sonido y sus cualidades.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Descubrir propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, a través de la recepción activa, con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales.
+        - 1.2. Describir manifestaciones culturales y artísticas de las islas Canarias, explorando sus características con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad.
+        - 2.1. Seleccionar y aplicar estrategias elementales para la búsqueda guiada de información sobre manifestaciones culturales y artísticas de las islas Canarias, a través de canales y medios de acceso sencillos, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.
+        - 2.2. Reconocer elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.
+        - 2.3. Reconocer sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, a partir de la recepción activa, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.
+        - 3.1. Experimentar de manera guiada con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, con actitud abierta, con el fin de empezar a entender sus posibilidades comunicativas y expresivas.
+        - 3.2. Producir obras propias de forma guiada, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, y mostrando confianza en las propias capacidades, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.
+        - 4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas elementales, trabajando de forma cooperativa a partir de la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.
+        - 4.2. Tomar parte en el proceso cooperativo de producciones culturales y artísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.
+        - 4.3. Compartir los proyectos creativos, explicando el proceso y el resultado final obtenido, y valorando las experiencias propias y ajenas, para el desarrollo de la creatividad y el sentido de pertenencia.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Reconocer propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales.
+        - 1.2. Describir manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, explorando sus características con actitud abierta e interés y estableciendo relaciones básicas entre ellas para desarrollar la curiosidad y el respeto por la diversidad.
+        - 2.1. Seleccionar y aplicar estrategias para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.
+        - 2.2. Distinguir elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados, y analizando sus diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.
+        - 2.3. Distinguir las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.
+        - 3.1. Experimentar con los elementos básicos de los distintos lenguajes e instrumentos artísticos, con creatividad y actitud abierta, con el fin de entender sus posibilidades comunicativas y expresivas.
+        - 3.2. Producir obras propias sencillas, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, y mostrando confianza en las propias capacidades, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.
+        - 4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final planificado y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.
+        - 4.2. Participar en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.
+        - 4.3. Compartir los proyectos creativos, empleando estrategias comunicativas básicas, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y ajenas, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Distinguir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa mediante la búsqueda, la escucha, la observación y el visionado, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales.
+        - 1.2. Describir manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, explorando sus características con actitud abierta e interés y estableciendo relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad.
+        - 2.1. Seleccionar y aplicar estrategias para la búsqueda de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo.
+        - 2.2. Comparar el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.
+        - 2.3. Valorar las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.
+        - 3.1. Experimentar con los elementos de los distintos lenguajes e instrumentos artísticos, con creatividad y actitud crítica y abierta, con el fin de entender sus posibilidades comunicativas y expresivas.
+        - 3.2. Producir obras propias, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, y mostrando confianza en las propias capacidades y perfeccionando la ejecución, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.
+        - 4.1. Planificar y diseñar producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.
+        - 4.2. Participar activamente en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta y respetuosa, utilizando elementos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.
+        - 4.3. Compartir los proyectos creativos, empleando diferentes estrategias comunicativas y a través de diversos medios, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y ajenas, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.
+  descriptores_operativos:
+    - CCL1
+    - CD1
+    - CC1
+    - CCEC1
+    - CCEC2
+    - CCL2
+    - CP3
+    - CP2
+    - CCL3
+    - CPSAA3
+    - CPSAA4
+    - CC3
+    - CD4
+    - CD2
+    - CPSAA1
+    - CPSAA5
+    - CE1
+    - CCEC3
+    - CCEC4
+    - CD3
+    - CCL5
+    - STEM3
+    - CE3
+    - CC2
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Educación Artística en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Cuatro competencias específicas (C1-C4) que se concretan en diez criterios de evaluación por ciclo, con saberes básicos organizados en cuatro bloques: Recepción y análisis, Creación e interpretación, Artes plásticas, visuales y audiovisuales, y Música y artes escénicas y performativas.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (cuatro) y de criterios de evaluación (diez por ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos varían según el ciclo en las cuatro competencias (crecen en número y variedad de Primer a Tercer ciclo), conforme a DEC-0008, por lo que se han recogido como mapa por ciclo. Los saberes básicos se recogen a nivel de bloque (I-IV) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque.

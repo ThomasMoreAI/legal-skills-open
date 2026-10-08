@@ -1,0 +1,11 @@
+id: REL-026
+tipo_relacion: "desarrolla"
+origen: NOR-029
+destino: NOR-004
+descripcion: "El Decreto 9/2022 desarrolla el régimen autonómico de admisión del alumnado previsto en la Ley Canaria de Educación."
+evidencia:
+  fuente: FTE-032
+  localizacion: "Preámbulo; referencia al artículo 51 de la Ley 6/2014"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

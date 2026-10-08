@@ -1,0 +1,60 @@
+name: proteccion-datos
+display_name: Protección de Datos — AEPD y RGPD
+description: >
+  Guía completa sobre protección de datos personales en España: la AEPD
+  (Agencia Española de Protección de Datos), RGPD y LOPDGDD, derechos
+  del ciudadano (acceso, rectificación, supresión/olvido, oposición,
+  portabilidad, limitación), cómo ejercerlos y reclamar, obligaciones
+  de empresas y autónomos (registro de actividades, consentimiento, DPO,
+  evaluación de impacto, brechas), herramientas gratuitas (Facilita RGPD)
+  y canal prioritario para contenido urgente.
+organization: Agencia Española de Protección de Datos (AEPD)
+tags: [justicia, protección de datos, AEPD, RGPD, GDPR, LOPDGDD, derechos ARCO, derecho al olvido, reclamación, DPO, privacidad, datos personales]
+
+links:
+  website: https://www.aepd.es
+  sede_electronica: https://sedeagpd.gob.es
+  canal_prioritario: https://www.aepd.es/canalprioritario
+  facilita_rgpd: https://www.aepd.es/guias-y-herramientas/herramientas/facilita-rgpd
+
+license:
+  data: Información pública de la AEPD
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general sobre protección de datos.
+    No accede a APIs de datos ni tramita reclamaciones. Proporciona el
+    marco completo de derechos del ciudadano y obligaciones de empresas,
+    y redirige a las herramientas de la AEPD para el cumplimiento.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Marco normativo (RGPD y LOPDGDD)
+    - La AEPD y sus funciones
+    - Derechos del ciudadano (acceso, rectificación, supresión, oposición, portabilidad, limitación)
+    - Cómo ejercer derechos ante el responsable del tratamiento
+    - Cómo reclamar ante la AEPD
+    - Canal prioritario para contenido urgente
+    - Obligaciones de empresas y autónomos
+    - Registro de actividades, consentimiento, DPO, evaluación de impacto
+    - Notificación de brechas de seguridad (72 horas)
+    - Herramientas AEPD (Facilita RGPD, Facilita Emprende, GESTIONA-EIPD)
+    - Régimen sancionador
+  not_accessible:
+    - Tramitación real de reclamaciones (requiere sede electrónica AEPD)
+    - Consulta de expedientes individuales
+    - Asesoramiento jurídico sobre un caso concreto
+    - Auditoría de cumplimiento de una empresa
+    - Redacción de políticas de privacidad personalizadas
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

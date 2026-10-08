@@ -1,0 +1,14 @@
+{
+  "name": "cz-arbitration",
+  "displayName": "Arbitration & ADR — CZ",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for CZ (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cz",
+  "practice": "arbitration",
+  "language": "en",
+  "skills": [
+    "skills/rozhodci-rizeni-mediace-lexaurinthedog"
+  ]
+}

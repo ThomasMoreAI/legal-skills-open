@@ -1,0 +1,807 @@
+ID interno: CUR-056
+Título oficial: Psicología — 2.º Bachillerato Canarias
+Fuente oficial: FTE-012 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.pdf
+URL de acceso oficial: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+PSICOLOGÍA
+Introducción
+El  Bachillerato  tiene  como  finalidad  proporcionar  formación,  madurez  intelectual  y  humana,  
+conocimientos, habilidades y actitudes que permitan desarrollar funciones sociales e incorporarse a  
+todas las dimensiones de la etapa adulta (incluida la afectivo-sexual) con responsabilidad y aptitud.  
+Desde la materia de Psicología se contribuye a dicha finalidad no solo facilitando el desarrollo y la  
+adquisición de las competencias clave necesarias para la incorporación a los estudios superiores,  
+sino favoreciendo en el alumnado el autoconocimiento y la comprensión de las interacciones que el  
+ser humano establece con el entorno y con las demás personas, con la finalidad de ayudarle a  
+comprender y adaptarse al mundo en el que vive, a gestionar su aprendizaje a lo largo de la vida y a  
+desarrollar estrategias que le permitan afrontar nuevos retos e idear y acometer un itinerario vital  
+que garantice la incorporación a la vida adulta, mediante el ejercicio de una ciudadanía activa,  
+cívica, responsable y sostenible.
+A través de la adquisición de las competencias específicas y de los saberes básicos propios de la  
+materia, el alumnado reconocerá la Psicología como la ciencia que reúne el conocimiento necesario  
+para la comprensión de la conducta humana y que tiene como finalidad mejorar la calidad de vida  
+de las personas, entendiendo así el papel fundamental de la ciencia como motor del progreso,  
+diferenciando entre la ciencia básica y la ciencia aplicada, y profundizando en las aportaciones del  
+conocimiento acumulado por la Psicología desde sus ámbitos tradicionales: psicología clínica y de  
+la salud, psicología de la educación, psicología social y comunitaria, y psicología del trabajo y las  
+organizaciones.  De  esta  manera,  el  alumnado  se  acercará  al  conocimiento  científico  mientras  
+afianza  hábitos  de  estudio;  diferenciará  el  conocimiento  científico  del  aportado  por  las  
+pseudociencias; y aprenderá a seleccionar, integrar y transmitir información con rigor y veracidad,  
+mejorando su competencia en el tratamiento de la información. Además, será capaz de identificar y  
+promover estilos de vida favorecedores de la salud mental y física, gracias al conocimiento de los  
+fundamentos biológicos de la conducta, de la influencia que sobre esta tienen el entorno y las  
+relaciones sociales, y su repercusión en la salud. Comprenderá, asimismo, los factores que explican  
+la  diversidad  humana,  desarrollando  una  actitud  empática  y  respetuosa  hacia  las  diferencias  
+individuales, y de rechazo hacia las situaciones de discriminación, incluida la discriminación por  
+razón de género y orientación sexual. La identificación de los factores implicados en la motivación  
+y la toma de decisiones, le permitirá desarrollar estrategias para la resolución de problemas y el  
+trabajo en equipo, incorporando con responsabilidad y ética los recursos digitales adecuados. Por  
+todo lo anterior y gracias al análisis de la evolución de la Psicología a lo largo de la historia,  
+aprenderá, finalmente, a valorar críticamente la realidad del mundo en el que vive.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque  
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la  
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y  
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como  
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su  
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una  
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+327
+
+=== Página 2 ===
+
+Contribución a los objetivos de etapa
+Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo,  
+por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del  
+Bachillerato  en  la  Comunidad  Autónoma  de  Canarias  y  para  su  correcta  identificación  se  
+referencian con la letra correspondiente entre paréntesis. 
+A través del acercamiento al conocimiento científico y, en concreto, al acumulado por la Psicología  
+desde  sus  ámbitos  tradicionales  de  intervención,  el  alumnado  comprenderá  la  importancia  del 
+conocimiento  científico  para  abordar,  con  garantías,  los  problemas  personales,  relacionales  
+(incluidas los relacionados con las relaciones afectivosexuales) laborales y sociales, mejorando su  
+calidad de vida, contribuyéndose con ello a la adquisición de una conciencia cívica responsable que  
+permita ejercer una ciudadanía democrática y construir una sociedad más justa y equitativa (a).
+La materia de Psicología contribuye, asimismo, a consolidar una madurez personal, afectivo-sexual  
+y social, que permitirá al alumnado actuar de forma respetuosa, responsable y autónoma, así como  
+desarrollar un espíritu crítico (b); y a fomentar la igualdad efectiva de derechos y oportunidades (c).  
+Esto es posible gracias al conocimiento y a la comprensión de los factores que influyen en la  
+conformación de la personalidad y en la conducta del ser humano en el contexto social y laboral; y  
+al estudio de los procesos cognitivos implicados en el aprendizaje y su relación con la motivación y  
+la emoción.
+Este conocimiento de los procesos cognitivos implicados en el aprendizaje, la toma de conciencia  
+del papel que juega la gestión emocional en los procesos de autorregulación y el desarrollo de  
+técnicas y estrategias que favorezcan la autonomía y el rendimiento individual, y la colaboración  
+con las demás personas, contribuyen a afianzar los hábitos de lectura, estudio y disciplina (d).
+Para garantizar la adquisición de las competencias específicas propias de la materia, el alumnado se  
+enfrentará a situaciones comunicativas variadas en las que deberá buscar, seleccionar, transformar y  
+comunicar información procedente de diferentes fuentes y en diferentes formatos, de manera que se  
+contribuye a consolidar y dominar la expresión oral y escrita (e), y a utilizar con solvencia y  
+responsabilidad las tecnologías de la información y la comunicación (g).
+Con esta materia se contribuye, además, a conocer y valorar críticamente las realidades del mundo  
+contemporáneo y sus antecedentes históricos, así como a desarrollar competencias específicas que  
+le  permitirán  participar  de  forma  solidaria  en  el  desarrollo  y  la  mejora  de  su  entorno  social, 
+especialmente, en lo que atañe a la participación social (h).
+La materia de Psicología permitirá al alumnado, por un lado, conocer las características propias de  
+la ciencia diferenciando el conocimiento científico (i) del aportado por la pseudociencia; y, por otro  
+lado, valorar la contribución de la ciencia y la tecnología al cambio de las condiciones de vida de  
+las personas (j).
+Definir la conducta adaptativa y comprender el papel que juega el funcionamiento del sistema  
+nervioso central y del sistema endocrino, así como la influencia de los factores sociales permitirá al  
+alumnado adoptar estilos de vida que promuevan el bienestar físico y mental y sexual, y le llevará a  
+reconocer la necesidad de la actividad física y el deporte como hábito de vida saludable (m).
+A través del desarrollo de procesos autorregulados de aprendizaje y de la comprensión de los  
+factores que influyen en el rendimiento y la productividad en el trabajo individual y colaborativo, se  
+328
+
+=== Página 3 ===
+
+contribuye a afianzar el espíritu emprendedor y el trabajo en equipo, así como a proponer ideas  
+creativas y resolver problemas (k).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado  
+conforme  a  los  descriptores  operativos  establecidos  en  la  progresión  del  Perfil  de  salida  del  
+alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de  
+las competencias clave para el Bachillerato.
+La contribución de esta materia a la Competencia en comunicación lingüística (CCL) se concreta en  
+la elaboración y transmisión de ideas e informaciones sobre los conocimientos científicos aportados  
+por la Psicología, que permiten comprender, interpretar, analizar y explicar el comportamiento  
+humano y que se realiza mediante un discurso basado fundamentalmente en la explicación, la  
+descripción, el análisis crítico y la argumentación. El alumnado será capaz de buscar y seleccionar  
+información  acerca  del  conocimiento  aportado  por  la  Psicología,  y  reflexionar  sobre  sus  
+implicaciones en la vida de las personas, obteniendo información de fuentes fiables que le permitan  
+participar de manera activa, informada y con actitud crítica en diferentes contextos, evitando los  
+riesgos que la manipulación y la desinformación tienen tanto para el bienestar personal como para  
+la convivencia democrática.
+Se contribuye a la Competencia matemática y competencia en ciencia, tecnología e ingeniería  
+(STEM) puesto que, a través de la materia de Psicología, se pretende que el alumnado reconozca el  
+papel del conocimiento como motor del progreso. Se acercará a las diferentes corrientes, teorías y  
+modelos que han intentado explicar la conducta humana a lo largo de la historia, lo que le permitirá  
+comprender los procesos de construcción del conocimiento y mejorar su capacidad para entender y  
+explicar su entorno, planteándose preguntas y extrayendo conclusiones basadas en pruebas, para  
+poder interpretar el contexto social. Por otro lado, la utilización del pensamiento científico para  
+comprender  y  explicar  fenómenos  relacionados  con  la  conducta  humana  y  su  impacto  en  las  
+condiciones  de  vida  de  las  personas  permitirá  al  alumnado  identificar  y  emprender  acciones  
+fundamentadas científicamente para promover la salud física y mental propia y la de las demás  
+personas.
+La  materia  contribuye  al  desarrollo  de  la  Competencia  digital  (CD),  ya  que,  a  través  del  
+conocimiento aportado desde la psicología básica, la psicología social y comunitaria, y la psicología  
+del trabajo y las organizaciones, el alumnado tomará conciencia de los cambios producidos en la  
+vida personal, social y laboral, debido a la incorporación progresiva de herramientas, recursos,  
+servicios en línea y dispositivos digitales. El alumnado reconocerá y manejará las tecnologías de la  
+información y comunicación (TIC), tecnologías del aprendizaje y del conocimiento (TAC) y las  
+tecnologías para el empoderamiento y la participación (TEP), gracias a la incorporación de las  
+mismas en el ámbito académico, y analizará con actitud crítica los cambios derivados del desarrollo  
+tecnológico en la forma en que las personas y los grupos se perciben y se relacionan. Todo ello  
+permitirá al alumnado gestionar de manera responsable sus acciones, su presencia y visibilidad en la 
+red, y el ejercicio de una ciudadanía digital activa, cívica y reflexiva.
+Se contribuye al desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA)  
+ya que, a través del conocimiento de las principales aportaciones de la psicología básica y de la  
+Psicología  clínica  y  de  la  salud,  el  alumnado  comprenderá  los  factores  que  influyen  en  la  
+conformación de su personalidad y en la conducta adaptativa. A través del conocimiento aportado  
+329
+
+=== Página 4 ===
+
+desde  la  psicología  social  y  comunitaria  y  la  psicología  del  trabajo  y  las  organizaciones,  el  
+alumnado  analizará  los  procesos  sociales  y  las  relaciones  interpersonales  que  conforman  la  
+personalidad y determinan la conducta en contextos sociales y laborales. Además, a partir de las  
+principales aportaciones de la psicología de la educación, el alumnado será capaz de comprender los 
+procesos que subyacen al aprendizaje y su relación con la motivación y la emoción. De esta manera, 
+mejorará  su  capacidad  para  reflexionar  sobre  sobre  la  propia  persona,  gestionar  sus  recursos,  
+colaborar con las demás personas, adaptarse a los cambios, gestionar procesos metacognitivos,  
+identificar  conductas  contrarias  a  la  convivencia  y  desarrollar  estrategias  para  abordarlas,  
+favoreciendo el bienestar físico, mental y emocional propio y ajeno.
+La contribución de la materia de Psicología a la Competencia ciudadana (CC) es indiscutible desde  
+el momento en que la definimos como la ciencia que pretende acumular el conocimiento científico  
+necesario para mejorar la calidad de vida de las personas en el ámbito personal, social y laboral. A  
+través del estudio y análisis de las diferentes teorías, modelos, perspectivas y corrientes enmarcadas  
+dentro de la Psicología, el alumnado desarrollará su espíritu crítico y será capaz de adoptar posturas  
+basadas en un juicio propio y argumentado ante problemas éticos y filosóficos fundamentales y de  
+actualidad, analizando hechos, normas e ideas relativas a la dimensión social, histórica, cívica y  
+moral de su propia identidad.
+La Competencia emprendedora (CE) implica desarrollar un enfoque vital dirigido a actuar sobre  
+oportunidades e ideas, utilizando los conocimientos específicos necesarios para generar resultados  
+de valor. A través de los principales conocimientos aportados por la psicología de la educación y la  
+psicología del trabajo y las organizaciones, el alumnado será capaz de reflexionar sobre fortalezas y  
+debilidades  propias  y  ajenas,  haciendo  uso  de  estrategias  de  autoconocimiento  y  autoeficacia, 
+aplicando estrategias que agilicen el trabajo colaborativo y en equipo, optimizando los recursos,  
+tomando decisiones con sentido crítico y ético, y aplicando conocimientos específicos y estrategias  
+ágiles en la gestión de proyectos.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las  
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los  
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión  
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de  
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el  
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de  
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y  
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las  
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la  
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias  
+específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de  
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques  
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la  
+elaboración de la programación didáctica.
+330
+
+=== Página 5 ===
+
+Competencias específicas y criterios de evaluación
+En el currículo de Psicología se han establecido seis competencias específicas que se concretan en  
+un total de diecisiete criterios de evaluación. Estos criterios de evaluación presentan una marcada  
+naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos  
+del perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades  
+y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.  
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+A través de esta competencia específica, el alumnado será capaz de comprender el valor que tiene el  
+conocimiento científico en la mejora de las condiciones de vida de las personas, reconociendo la  
+Psicología como una disciplina científica dentro de las Ciencias de la Salud.
+Esta competencia específica comprende dos criterios de evaluación que permitirán comprobar que  
+el  alumnado  conoce,  valora  y  analiza  las  características  propias  del  conocimiento  científico,  
+diferenciando ciencia de pseudociencia, y contrastando e integrando la información; y que reconoce  
+las aportaciones más relevantes de la Psicología a lo largo de la historia, valorando su contribución  
+al cambio de las condiciones de vida de las personas.
+Competencia específica 2 (C2)
+Con esta competencia específica el alumnado será capaz de diferenciar entre psicología básica y  
+psicología aplicada; y de comprender la utilidad del conocimiento aportado tanto para prevenir y  
+abordar los problemas de las personas, como para lograr un mejor funcionamiento psicológico,  
+reconociendo así los procesos de construcción del conocimiento como motor del progreso.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que  
+el alumnado identifica las características, los objetivos y las principales técnicas de investigación de  
+la psicología básica; que conoce las diferentes ramas de la psicología aplicada, comprendiendo su  
+impacto en el bienestar de las personas; y que reconoce los procesos psicológicos que subyacen a la  
+conducta humana.
+Competencia específica 3 (C3)
+Esta competencia específica permitirá que el alumnado sea capaz de reconocer y comprender los  
+factores que influyen en la conformación de la personalidad según las principales teorías que la  
+explican, así como los fundamentos biológicos que están en la base de los procesos mentales  
+complejos.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que  
+el alumnado comprende y analiza las diferentes teorías existentes sobre la conformación de la  
+personalidad, que conoce la estructura y el funcionamiento del sistema nervioso central y las  
+principales consecuencias del daño cerebral, y que reflexiona de forma crítica sobre el concepto de  
+salud mental.
+Competencia específica 4 (C4)
+331
+
+=== Página 6 ===
+
+A través de esta competencia específica, el alumnado conocerá y analizará las principales teorías del 
+aprendizaje, los procesos cognitivos que subyacen a este y su relación con la motivación y la  
+emoción, identificando cualidades personales propias que le permitan afrontar con autonomía y  
+eficacia nuevos retos.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que  
+el  alumnado  reconoce  las  principales  teorías  del  aprendizaje  y  su  relevancia  en  las  prácticas  
+educativas actuales, así como la relación entre los procesos psicológicos básicos y el aprendizaje;  
+que comprende el papel que juega el componente emocional y la motivación; y que desarrolla  
+estrategias de autorregulación al respecto.
+Competencia específica 5 (C5)
+Con esta competencia específica, el alumnado reconocerá y comprenderá los factores que explican  
+el  comportamiento  humano  en  la  sociedad,  y  analizará  los  procesos  sociales  y  las  relaciones  
+interpersonales (incluyendo las relaciones afectivo-sexuales) que influyen en el comportamiento de  
+las personas y en la conformación de la personalidad.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que  
+el alumnado comprende la dimensión social del ser humano, y que conoce y analiza con espíritu  
+crítico los factores que explican los fenómenos de masas y las formas actuales de interacción social,  
+con especial énfasis en los entornos virtuales, identificando factores de protección de la salud física  
+y  mental  afectivo-sexual,  concienciando  sobre  los  riesgos  de  fenómenos  como  el  sexting,  el 
+grooming y  la  sextorsión,  y  sus  consecuencias  para  estas,  y  desarrollando  hábitos  de  
+comportamiento favorecedores del bienestar individual y colectivo.
+Competencia específica 6 (C6)
+A través de esta competencia específica, el alumnado comprenderá los factores que influyen en la  
+conducta de las personas en el contexto del trabajo y las organizaciones, y analizará su influencia en  
+el rendimiento, la productividad, el desarrollo personal y la calidad de vida de las perfsonas en el  
+contexto laboral.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que  
+el alumnado identifica las principales aportaciones de la psicología del trabajo y las organizaciones,  
+y  su  influencia  en  el  rendimiento  y  el  bienestar  de  las  personas  en  contextos  laborales;  que  
+diferencia los estilos de liderazgo, reconociendo aquellos que repercuten favorablemente en un  
+clima de trabajo positivo y saludable; que comprende las principales características de equipos y  
+grupos de trabajo, valorando las consecuencias de la incorporación de las tecnologías en el trabajo  
+cooperativo y colaborativo; y que realiza analogías entre el contexto laboral y el académico.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en  
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y  
+secuenciados, a continuación de los mismos.
+Los saberes básicos que contribuyen a adquirir las competencias específicas se organizan en seis  
+bloques.
+332
+
+=== Página 7 ===
+
+El Bloque I, «El conocimiento científico», aborda un acercamiento a la Psicología como la ciencia  
+que estudia los procesos mentales que subyacen a la conducta humana y a las aportaciones más  
+relevantes de las corrientes contemporáneas.
+El Bloque II, «Fundamentos biológicos de la conducta», establece la relación entre la conducta y el  
+funcionamiento del sistema nervioso central y del sistema endocrino, y acerca al alumnado a la base  
+genética del comportamiento. Esto le permitirá tomar conciencia de los procesos de construcción  
+del conocimiento científico.
+El Bloque III, «Procesos psicológicos básicos: percepción, atención y memoria», abordará los  
+principales procesos psicológicos básicos implicados en la conducta humana y en la adaptación al  
+entorno.
+El Bloque IV , «Procesos cognitivos complejos: aprendizaje, inteligencia y pensamiento», abarca los 
+saberes básicos imprescindibles para que el alumnado comprenda los procesos cognitivos de mayor  
+complejidad que influyen en la conducta, y en el ámbito personal, social y laboral.
+El Bloque V , «El ser humano como ser social», aborda las principales aportaciones de la psicología  
+social y comunitaria, y permitirá al alumnado comprender los factores ambientales y socioculturales  
+(incluidos los que afectan a las relaciones afectivo-sexuales) que influyen en la conformación de la  
+personalidad y en el comportamiento de las personas.
+Finalmente, el Bloque VI, «El trabajo y las organizaciones», comprende las principales aportaciones 
+de la psicología del trabajo y de las organizaciones, y permitirá al alumnado tomar consciencia de  
+los factores que influyen en el rendimiento y el bienestar personal en contextos laborales, así como  
+de las implicaciones del desarrollo tecnológico en el funcionamiento de las organizaciones.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en  
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,  
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y  
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por  
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la  
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar 
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice  
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con 
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que  
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del  
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Para la adquisición y el desarrollo, tanto de las competencias clave, como de las competencias  
+específicas,  el  equipo  docente  planificará  situaciones  de  aprendizaje  aplicando  aquellas  
+metodologías didácticas que reconozcan al alumnado como agente de su propio aprendizaje.
+Para ello es imprescindible la implementación de propuestas pedagógicas que, partiendo de los  
+centros de interés de los alumnos y las alumnas, permitan construir el conocimiento con autonomía  
+y creatividad, con la idea de descubrir y valorar nuevas opciones y oportunidades, tanto académicas  
+como  profesionales.  En  este  sentido,  se  prestará  especial  atención  a  la  configuración  de  los  
+333
+
+=== Página 8 ===
+
+agrupamientos  que  se  propongan  en  cada  caso,  analizando  comportamientos,  y  actitudes  
+individuales y grupales, y realizando las modificaciones pertinentes para promover la convivencia  
+positiva, la igualdad de género, la corresponsabilidad…
+Las  situaciones  de  aprendizaje  representan  una  herramienta  eficaz  para  integrar  los  elementos 
+curriculares de las distintas materias mediante tareas y actividades significativas y relevantes para  
+resolver problemas de manera creativa y cooperativa, reforzando la autoestima, la autonomía, la  
+reflexión crítica y la responsabilidad. Asimismo, deben estar compuestas por tareas complejas cuya  
+resolución conlleve la construcción de nuevos aprendizajes. Con estas situaciones de aprendizaje, se 
+busca ofrecer al alumnado la oportunidad de integrar lo aprendido y aplicarlo en contextos cercanos  
+a la vida real. Así planteadas, constituyen un elemento que, alineado con los principios del Diseño  
+Universal para el Aprendizaje (DUA), permite aprender a aprender y, por lo tanto, sentar las bases  
+para el aprendizaje a lo largo de la vida gracias a procesos pedagógicos flexibles y accesibles que se  
+ajusten a las necesidades, las características y los diferentes ritmos de aprendizaje del alumnado.
+Dada la extensión de Saberes básicos, será el docente o la docente quien sopese el grado de  
+profundización, atendiendo a los intereses del alumnado, las características del grupo-clase y las  
+situaciones de aprendizaje propuestas.
+334
+
+=== Página 9 ===
+
+2.º Bachillerato
+Bloques competenciales
+Competencia específica
+1.  Comprender el  papel  de  la  psicología  como  la  disciplina  científica  que  tiene  por objeto  
+integrar  los  conocimientos  científicos  necesarios  para  comprender,  interpretar,  analizar  y  
+explicar el comportamiento humano con la finalidad de promover la salud y la calidad de vida de 
+las  personas,  analizando  su  evolución  a  lo  largo  de  la  historia  y  reconociendo  el  valor del  
+conocimiento científico frente al aportado por las pseudociencias, con la finalidad de promover el 
+pensamiento científico, el espíritu crítico y la capacidad para tratar la información y sus fuentes  
+en términos de fiabilidad, validez, calidad y actualidad.
+Descriptores operativos de las 
+competencias clave
+CCL1, CCL2, CCL3, STEM2, STEM4, 
+CD1, CD2, CPSAA2, CPSAA4, CC1
+Criterios de evaluación
+1.1. Analizar y explicar con actitud crítica las aportaciones más importantes de la psicología, desde sus  
+inicios  hasta  la  actualidad,  identificando  los  principales  problemas  planteados,  analizando  las  
+soluciones aportadas por las diferentes corrientes psicológicas, valorando su contribución al cambio de  
+las condiciones de vida de las personas y estableciendo relaciones con otras disciplinas científicas para  
+comprender los procesos de construcción del conocimiento.
+CCL1, CCL2, STEM2, CC1
+1.2.  Reconocer,  explicar  y  analizar  las  características  propias  de  la  ciencia,  diferenciando  el  
+conocimiento científico del aportado por la pseudociencia contrastando, integrando y transmitiendo la  
+información de diferentes fuentes y formatos para evitar los riesgos de la desinformación, favorecer la  
+toma de decisiones éticas y autónomas y adoptar un estilo de vida saludable y sostenible.
+CCL2, CCL3, STEM2, STEM4, CD1, 
+CD2, CPSAA2, CPSAA4
+Explicación del bloque competencial
+335
+
+=== Página 10 ===
+
+Se comprobará que el alumnado reconoce e identifica los elementos característicos del método científico, que comprende la relevancia del papel de  
+la Psicología como disciplina científica y que reconoce su valor a la hora de promover la salud y mejorar la calidad de vida de las personas. Se  
+verificará que es capaz de discriminar el conocimiento científico del pseudocientífico para evitar los riesgos de la desinformación a través del  
+análisis crítico de textos científicos y no científicos. Por medio de esta competencia se constatará que el alumnado interpreta y transmite en  
+diferentes formatos las aportaciones de las distintas teorías psicológicas como el psicoanálisis, el conductismo, el estructuralismo, el funcionalismo,  
+el humanismo, el cognitivismo, etc., enfrentándose a textos significativos y breves de autoras y autores relevantes y que establece relaciones de  
+forma argumentada entre el conocimiento aportado por la Psicología y el proveniente de otras disciplinas científicas, comprendiendo así los procesos  
+de construcción del conocimiento. El alumnado será capaz de establecer relaciones entre el conocimiento aportado por la Psicología y el bienestar  
+físico y mental de las personas participando de forma activa e informada en diferentes contextos, localizando, seleccionado, contrastando y  
+transmitiendo información con autonomía y actitud crítica consolidando así su madurez personal y social y desarrollando una conciencia ciudadana  
+responsable.
+Competencia específica
+2. Comprender la relación entre la Psicología básica y la aplicada, analizando los procesos  
+psicológicos básicos y reconociendo la utilidad de su conocimiento a la hora de abordar los  
+problemas de las personas, lograr un mejor funcionamiento psicológico y una mejor calidad de  
+vida, tanto a nivel individual como grupal, para comprender los procesos de construcción del  
+conocimiento  y  su  papel  como  motor  de  progreso  y  favorecer  el  desarrollo  de  procesos  
+autorregulados  de  aprendizaje  que  mejoren  la  capacidad  para  transmitir  conocimiento,  
+proponer ideas creativas y resolver problemas con autonomía y responsabilidad que redunden  
+en el bienestar social.
+Descriptores operativos de las 
+competencias clave
+CCL1, CCL2, CCL3, CCL5, STEM2, 
+STEM4, STEM5, CD1, CPSAA2, 
+CPSAA4, CPSAA5
+Criterios de evaluación
+2.1. Identificar y comprender y explicar las características de la Psicología básica, sus objetivos, y  
+principales  técnicas  de  investigación,  analizando  el  alcance  y  las  limitaciones  de  los  métodos  
+CCL1, CCL2, CCL3, STEM2, STEM4, 
+336
+
+=== Página 11 ===
+
+empleados y estableciendo relaciones, e integrando la información procedente de otros campos del  
+conocimiento para comprender los procesos de construcción del mismo.
+CD1, CPSAA4, CPSAA5
+2.2.  Identificar,  conocer  y  explicar  las  principales  ramas  de  la  Psicología  aplicada  estableciendo 
+relaciones de forma argumentada entre estas y el conocimiento aportado desde la Psicología básica,  
+comprendiendo el impacto de cada una de ellas en el bienestar personal, laboral y social de las  
+personas, para aprender a tomar decisiones basadas en el pensamiento científico que permitan adoptar  
+un estilo de vida saludable.
+CCL2, CCL3, CCL5, STEM2, STEM5, 
+CD1, CPSAA2, CPSAA4
+2.3. Investigar y comprender los procesos psicológicos básicos y los procesos cognitivos de orden  
+superior que subyacen a la conducta humana y que permiten el ajuste del comportamiento a las  
+condiciones y demandas ambientales, identificando características propias y ajenas y poniendo en  
+valor el carácter enriquecedor de las diferencias individuales para emprender con autonomía acciones  
+fundamentadas que permitan buscar y ofrecer apoyo en la sociedad y adoptar un estilo de vida  
+sostenible.
+CCL2, CCL3, STEM2, STEM5, CD1, 
+CPSAA2, CPSAA4
+Explicación del bloque competencial
+Mediante la adquisición de esta competencia se evaluará que el alumnado es capaz de reconocer el conocimiento científico como motor del progreso, 
+pues se verificará que comprende la relación entre la Psicología básica y la aplicada, identificando y describiendo sus objetivos y principales técnicas  
+de investigación y explicando de forma argumentada su alcance y sus limitaciones. Se constatará que conoce las principales ramas de la Psicología  
+aplicada (Psicología clínica y de la salud, Psicología social y comunitaria, Psicología del trabajo y las organizaciones, Psicología del aprendizaje,  
+etc.) y que comprende su impacto en el bienestar personal, social y laboral de las personas de manera que el alumnado debe ser capaz mediante la  
+adquisición de esta competencia de identificar y emprender acciones fundamentadas científicamente para promover la salud física y mental. Se  
+constatará que conoce y describe los procesos psicológicos básicos (percepción, atención y memoria) y complejos (aprendizaje, inteligencia y  
+pensamiento)  que  subyacen  a  la  conducta  humana,  integrando  la  información  y  transmitiendo  los  elementos  más  relevantes  de  diferentes  
+investigaciones en distintos contextos y formatos, identificando características propias y tomando conciencia de las diferencias individuales para  
+poder desarrollar procesos autorregulados de aprendizaje y adoptar una actitud dialogada que le permita adoptar actitudes y establecer prácticas  
+comunicativas al servicio de la convivencia.
+337
+
+=== Página 12 ===
+
+Competencia específica
+3.  Conocer,  comprender  y  explicar  los  factores  que  influyen  en  la  conformación  de  la  
+personalidad  y  las  diferentes  teorías  que  la  explican,  así  como  las  bases  neuronales  de  los 
+procesos mentales complejos, analizando su relación con la conducta adaptativa, reconociendo  
+su importancia a la hora del estudio, tratamiento y prevención de los trastornos mentales y la  
+promoción  de  la  salud  mental,  para  mejorar el  desempeño  en  el  ámbito  personal,  social  y  
+académico atendiendo al bienestar físico y mental propio y ajeno y a la cohesión social.
+Descriptores operativos de las 
+competencias clave
+CCL1, CCL2, CCL3, STEM2, STEM4, 
+STEM5, CD1, CPSAA1.2, CPSAA2, 
+CPSAA4
+Criterios de evaluación
+3.1.  Comprender  y  explicar  el  concepto  de  personalidad,  analizando  las  influencias  genéticas,  
+medioambientales y culturales sobre las que se edifica, investigando sobre las diversas teorías que la  
+estudian y analizando su evolución a lo largo de la historia para identificar aquellos factores y hábitos  
+que condicionan un adecuado desarrollo de la misma.
+CCL2, CCL3, STEM2, STEM4, STEM5, 
+CD1, CPSAA1.2, CPSAA4
+3.2. Conocer y explicar la estructura y el funcionamiento del sistema nervioso central y su relación con 
+la conducta de las personas, valorando los efectos que una lesión, daño o funcionamiento anómalo de  
+sus estructuras tienen sobre los procesos cognitivos, psicológicos, emocionales y del comportamiento,  
+para comprender el valor del conocimiento científico en la prevención y tratamiento de algunos  
+trastornos y enfermedades mentales.
+CCL2, CCL3, STEM2, STEM4, CD1
+3.3. Reflexionar de forma crítica sobre el concepto de salud como un estado de completo bienestar  
+físico,  mental  y  social,  analizando  la  importancia  de  un  adecuado  desarrollo  afectivo-sexual  y  
+describiendo la salud como algo más que la ausencia de afecciones o enfermedades, para identificar  
+estilos de vida saludables y rechazar la visión estigmatizada de la enfermedad mental.
+CCL1, CCL2, CCL3, STEM5, CD1, 
+CPSAA2, CPSAA4
+338
+
+=== Página 13 ===
+
+Explicación del bloque competencial
+Mediante la adquisición de esta competencia específica el alumnado debe ser capaz de construir conocimiento. Para ello se constatará que  
+comprende las principales teorías de la personalidad y su evolución a lo largo de la historia interpretando y transmitiendo con precisión las  
+aportaciones de autores como Freud, Jung, Roggers, Kelly, Cattell, Eysenck, Costa y McCrae, Cloninger, etc. Así mismo, se constatará que identifica 
+los factores genéticos, medioambientales y culturales que influyen en la conformación de la personalidad integrando esta información para plantear  
+acciones promotoras de la salud física y mental. Se verificará que describe la evolución del cerebro humano y conoce la estructura del sistema  
+nervioso central, fundamentalmente del encéfalo, distinguiendo áreas y funciones que determinan la conducta de las personas e identificando las  
+principales consecuencias del daño cerebral. Se verificará que identifica las diferentes técnicas de investigación cerebral y su impacto en el avance  
+científico. Se constatará que comprende y reconoce algunas de las bases genéticas que determinan la conducta humana destacando el origen de  
+algunas enfermedades producidas por alteraciones genéticas y transmitiendo elementos más relevantes de investigaciones actuales. Se verificará que  
+el alumnado describe el concepto de salud mental reflexionando con actitud empática sobre los conceptos de trastorno y enfermedad mental,  
+rechazando cualquier tipo de discriminación hacia las personas que lo padecen e identificando factores sociales de protección.
+Competencia específica
+4. Conocer los procesos cognitivos implicados en el aprendizaje y comprender su relación con la  
+motivación y la emoción, analizando las diferentes teorías que lo explican, identificando las  
+habilidades,  aptitudes  y  otras  cualidades  personales  propias  para  potenciar  aquellas  que  
+favorezcan  la  autonomía  y  permitan  afrontar de  forma  eficaz  nuevos  retos  a  través  de  la  
+selección y adquisición de las técnicas y estrategias de aprendizaje adecuadas tanto en el trabajo  
+individual como colaborativo.
+Descriptores operativos de las 
+competencias clave
+CCL1, CCL2, STEM4, CPSAA1.1, 
+CPSAA5, CC3, CE1, CE3
+Criterios de evaluación
+4.1. Conocer y describir las principales teorías del aprendizaje valorando las aportaciones de cada una  
+de ellas, su relevancia en diferentes momentos de la historia y su influencia en las prácticas educativas  
+CCL1, STEM4, CPSAA1.1, CPSAA5, 
+CC3
+339
+
+=== Página 14 ===
+
+actuales que pretenden ajustarse a las diferentes necesidades y ritmos de aprendizaje de las personas.
+4.2.  Comprender  y  explicar  la  relación  entre  los  procesos  cognitivos  básicos  y  el  aprendizaje,  
+investigando y describiendo el papel que la gestión emocional juega en el proceso de aprendizaje para  
+favorecer los procesos de autorregulación y el desarrollo de técnicas y estrategias que favorezcan tanto  
+la autonomía y el rendimiento individual como la colaboración con las demás personas.
+CCL2, STEM4, CPSAA1.1, CPSAA5, 
+CC3, CE1, CE3
+4.3. Comprender el papel que juega la motivación como estado interno que activa, dirige y mantiene la  
+conducta de la persona hacia metas o fines determinados, desarrollando estrategias que impulsen a la  
+persona a realizar acciones y persistir en ellas para desarrollar procesos autorregulados de aprendizaje  
+que permitan identificar necesidades y oportunidades y fortalecer el optimismo, la resiliencia y la  
+autoeficacia.
+CCL2, STEM4, CPSAA1.1, CPSAA5, 
+CC3, CE1
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado comprende y explica las principales teorías del aprendizaje (conductismo,  
+constructivismo, aprendizaje social, inteligencias múltiples, etc.) analizando su influencia en las prácticas educativas actuales y comprendiendo el  
+significado de la inclusión educativa. Se verificará que describe la relación entre los procesos psicológicos básicos y el aprendizaje identificando  
+características propias y seleccionando y aplicando estrategias y técnicas de estudio apropiadas. Se comprobará que comprende el componente  
+emocional de la conducta y sus fundamentos biológicos describiendo la estructura y funcionamiento del sistema endocrino y su influencia en la  
+respuesta emocional. Se verificará que comprende el papel de la motivación como estado interno que activa, dirige y mantiene la conducta  
+analizando e integrando la información procedente de las principales teorías (Freud, Skinner, Thorndike, Maslow, Festinger, Bandura…). Se  
+constatará que el alumnado integra la información comprendiendo y explicando en diferentes contextos y formatos la relación entre motivación,  
+emoción y aprendizaje para, en función de sus características propias, desarrollar procesos de autorregulación del aprendizaje así como estrategias  
+que le permitan afrontar nuevos retos individualmente o en colaboración con otras personas, planteando objetivos, resolviendo problemas, evaluando  
+sus propósitos y comprendiendo el valor enriquecedor de las diferencias individuales.
+340
+
+=== Página 15 ===
+
+Competencia específica
+5. Conocer y comprender los factores que explican el comportamiento humano en la sociedad,  
+analizando  los  procesos  sociales  y  las  relaciones  interpersonales  que  influyen  en  el  
+comportamiento de las personas y la formación de la personalidad para comprenderse a uno  
+mismo  e  interactuar con  las  demás  personas  ejerciendo  una  ciudadanía  ética  y  cívica  que  
+contribuya a construir una identidad cultural, personal y colectiva.
+Descriptores operativos de las 
+competencias clave
+CCL1, CCL5, STEM4, STEM5, CD3, 
+CD4, CPSAA2, CPSAA3.1, CC1, CC3, 
+CC4
+Criterios de evaluación
+5.1. Comprender la dimensión social del ser humano, identificando los factores que influyen en el  
+comportamiento  de  los  grupos  y  la  influencia  de  estos  en  los  comportamientos,  pensamientos  y 
+sentimientos de las personas identificando factores de cohesión social y desarrollando competencias  
+emocionales y habilidades sociales y comunicativas para favorecer la convivencia democrática.
+CCL1, CCL5, STEM4, CPSAA2, 
+CPSAA3.1, CC1, CC3
+5.2.  Conocer  y  analizar  los  factores  que  explican  los  fenómenos  de  masas,  su  naturaleza,  
+características y pautas de comportamiento de las personas en los grupos, describiendo estilos de  
+liderazgo y analizando ventajas e inconvenientes para despertar el espíritu crítico e identificar y  
+adoptar prácticas comunicativas favorecedoras de la cohesión social.
+CCL1, CCL5, STEM4, CD3, CD4, 
+CPSAA3.1, CC1, CC3, CC4
+5.3. Conocer y analizar formas actuales de interacción social con especial énfasis en entornos virtuales  
+concienciando sobre los riesgos de fenómenos como el sexting, el grooming y la sextorsión, y sus  
+consecuencias,  y  redes  sociales,  detectando  fortalezas  y  debilidades,  localizando  indicadores  de  
+desinformación y manipulación, identificando factores de protección de la salud física y mental y  
+afectivo-sexualy desarrollando hábitos de comportamiento favorecedores del bienestar individual y  
+colectivo para ejercer una ciudadanía digital activa, cívica y reflexiva.
+CCL1, CCL5, STEM4, STEM5, CD3, 
+CD4, CPSAA2, CPSAA3.1, CC1, CC3, 
+CC4
+Explicación del bloque competencial
+341
+
+=== Página 16 ===
+
+A través de esta competencia se verificará que el alumnado comprende el proceso de socialización como la interiorización de actitudes, normas y  
+valores sociales que tienen influencia en el desarrollo de la personalidad y en la conducta de las personas. Se verificará que comprende el papel de  
+los grupos sociales en la conformación del autoconcepto y la autoestima. Se constatará que describe el concepto de pertenencia a un grupo y que  
+entiende el papel que fenómenos como los estereotipos, los prejuicios y la discriminación juegan en las relaciones intergrupales, identificando  
+estrategias para la eliminación de los mismos y para favorecer la cohesión social. Se comprobará que conoce el proceso de toma de decisiones y que  
+comprende el papel que en él juegan las emociones y las recompensas. Se verificará que conoce el concepto de inteligencia emocional y que describe 
+las aportaciones de los principales autores (Mayer y Salovey, Goleman…) reconociendo y explicando la importancia de desarrollar habilidades  
+socieomocionales tanto para dirigir la propia conducta como las interacciones con las demás personas. Se constatará que comprende el concepto de  
+inteligencia artificial y analiza de forma crítica su influencia en las condiciones de vida de las personas. Se verificará que analiza los fenómenos de  
+masas (deportivos, artísticos, religiosos, políticos…), su naturaleza y pautas de comportamiento, identificando distintos tipos de liderazgo y la  
+influencia de factores como la persuasión, la conformidad social, la aceptación social, la obediencia social, etc. con el fin de evitar situaciones de  
+vulnerabilidad y generar rechazo hacia actitudes y conductas contrarias a la convivencia democrática. Se constatará   que el alumnado comprende las 
+nuevas formas de interacción social en entornos virtuales analizando sus ventajas e inconvenientes, seleccionando, configurando y utilizando con  
+ética y responsabilidad dispositivos digitales, identificando riesgos y aplicando estrategias para el uso seguro de internet, con el fin de poder ejercer  
+una ciudadanía digital activa, cívica y reflexiva. Mediante la adquisición de esta competencia, el alumnado deberá ser capaz de identificar actitudes,  
+hábitos y conductas promotoras de la salud física y mental propia y ajena y de desarrollar competencias socioemocionales, habilidades sociales y  
+comunicativas para ponerlas al servicio de una convivencia democrática.
+Competencia específica
+6. Comprender los factores que influyen en la conducta humana en el contexto del trabajo y las  
+organizaciones analizando, desde una perspectiva ecosocial, su influencia tanto en el rendimiento 
+y la productividad como en el desarrollo y la calidad de vida de las personas en el contexto  
+laboral, para ser capaz de plantear y alcanzar objetivos compartidos mediante la distribución de  
+tareas, recursos y responsabilidades de forma ecuánime.
+Descriptores operativos de las 
+competencias clave
+CCL1, STEM4, CD3, CPSAA3.1, 
+CPSAA3.2, CC4, CE1, CE2, CE3
+Criterios de evaluación
+342
+
+=== Página 17 ===
+
+6.1. Conocer las principales aportaciones de la Psicología en el campo del trabajo y su relevancia a la  
+hora de identificar aquellos factores que influyen tanto en el rendimiento como en el bienestar personal 
+en  los  contextos  laborales,,estableciendo  analogías  con  el  contexto  académico  para  mejorar  su  
+rendimiento tanto a nivel individual como grupal.
+STEM4, CPSAA3.2, CC4
+6.2.  Identificar  los  distintos  tipos  de  liderazgo  y  sus  implicaciones  en  el  funcionamiento  de  las  
+organizaciones y el rendimiento individual y colectivo, reconociendo aquellos estilos que repercuten  
+positivamente en el bienestar físico y mental de las personas, estableciendo analogías con el contexto  
+académico  para  desarrollar  estrategias  de  autoconocimiento  y  autoeficacia  que  favorezcan  la  
+consecución de objetivos compartidos.
+CPSAA3.1, CPSAA3.2, CE2
+6.3. Comprender las principales características del funcionamiento de los grupos y equipos de trabajo,  
+estableciendo analogías con el contexto académico, identificando aquellos elementos que garantizan el  
+buen funcionamiento de los mismos y seleccionando y utilizando recursos digitales para el trabajo  
+colaborativo y traspaso de la información, con el fin de ser capaz de afrontar nuevos retos con sentido  
+crítico, evaluando fortalezas y debilidades propias y ajenas y mejorar tanto el el rendimiento como la  
+cohesión grupal.
+CCL1, CD3, CPSAA3.1, CPSAA3.2, CE1, 
+CE2, CE3
+Explicación del bloque competencial
+A través de esta competencia se constatará que el alumnado conoce los distintos tipos de organizaciones y las clasifica en función de diferentes  
+criterios (fin, tamaño, sector y forma jurídica) y que identifica y describe elementos característicos de los grupos de trabajo, equipos de trabajo y  
+equipos de alto rendimiento reconociendo el valor enriquecedor de la diversidad   y la multidisciplinariedad. Se comprobará que el alumnado  
+distingue entre los conceptos de eficacia y eficiencia y que comprende la relación entre estrés y rendimiento. Se verificará que describe los distintos  
+tipos de liderazgo y comprende su repercusión en el bienestar de las personas, así como en el rendimiento de los grupos y equipos de trabajo y por lo  
+tanto, en las organizaciones. Se constatará que comprende el concepto de cultura emprendedora y que aprecia los cambios producidos por el avance  
+tecnológico y el desarrollo de la inteligencia artificial en las nuevas formas de funcionamiento de equipos y organizaciones, debatiendo con actitud  
+343
+
+=== Página 18 ===
+
+crítica sobre sus ventajas e inconvenientes y estableciendo analogías con el funcionamiento de grupos y equipos de trabajo en el contexto académico. 
+Se verificará que conoce y aplica con ética y responsabilidad diferentes Tecnologías de la Información y la comunicación (TIC), Tecnologías de  
+Aprendizaje y Conocimiento (TAC) y Tecnologías del Empoderamiento y la Participación (TEP). El alumnado deberá ser capaz de evaluar  
+necesidades y oportunidades y afrontar retos mediante la ejecución de ideas y soluciones innovadoras en el ámbito académico. Además deberá ser  
+capaz de desarrollar estrategias y destrezas que optimicen los recursos personales y materiales, tanto analógicos como digitales para obtener un  
+mayor rendimiento del trabajo colaborativo y en equipo.
+344
+
+=== Página 19 ===
+
+Saberes básicos
+I. El conocimiento científico
+1. La Psicología como la ciencia que estudia los procesos mentales. 
+1.1. Reconocimiento  de  las  fuentes  de  información  en  términos  de  fiabilidad,  validez,  
+calidad y actualidad.
+1.2. Conocimiento de elementos característicos del método científico.
+1.3. Psicología básica y aplicada, técnica y métodos de investigación.
+1.4. Descripción de las diferentes ramas de la Psicología aplicada: Psicología clínica, del  
+aprendizaje, Psicología social y comunitaria, Psicología laboral y de las organizaciones.
+2. Aportaciones más relevantes de las corrientes contemporáneas de la Psicología. 
+2.1. Elaboración del marco de referencia global de la Psicología, desde sus orígenes en  
+Grecia (en las filosofías de Platón y Aristóteles), hasta su reconocimiento como saber  
+independiente de la mano de autores y autoras más relevantes, definiendo las diferentes  
+acepciones del término Psicología a lo largo de su evolución, desde el etimológico,  
+como  “ciencia  del  alma”,  a  los  aportados  por  las  diferentes  corrientes  actuales:  
+Conductismo, Cognitivismo, Psicoanálisis, Humanismo o Gestalt.
+2.2. La contribución de la mujer al desarrollo del conocimiento científico en el campo de la  
+Psicología (Mary Whiton Calkins, Laura Perls, Mary Ainsworth, Virginia Satir, Leta  
+Stetter Hollingworth, Anna Freud, Sybil Eysenk…)
+2.3. Descripción, análisis y valoración del psicoanálisis, el conductismo, el estructuralismo,  
+el funcionalismo, la psicología humanista, el cognitivismo y el constructivismo.
+2.4. Análisis crítico de textos significativos de distintos autores y autoras para valorar las  
+soluciones planteadas a los problemas estudiados por la Psicología.
+II. Fundamentos biológicos de la conducta
+1. El sistema nervioso central. 
+1.1. Comparación  entre  el  cerebro  humano  y  el  cerebro  animal  e  identificación  de  
+diferencias anatómicas.
+1.2. Descripción de la evolución del encéfalo desde el nacimiento hasta la edad adulta.
+1.3. Análisis de la morfología neuronal y descripción del proceso de transmisión sináptica y  
+del concepto de neuroplasticidad.
+1.4. Descripción de la anatomía del sistema nervioso central, localización de las principales  
+áreas y descripción de sus funciones (corteza cerebral, sistema límbico…).
+2. El sistema endocrino. 
+345
+
+=== Página 20 ===
+
+2.1. Descripción de la estructura del sistema endocrino, comprensión de la influencia de las  
+hormonas en la conducta y la respuesta emocional, e identificación de estilos de vida  
+saludables que favorecen su buen funcionamiento.
+3. Genética. 
+3.1. Definición de genética, comprensión de la base genética del comportamiento humano y  
+de la influencia de la genética y el ambiente en la conformación de la personalidad y la  
+aparición de algunos trastornos psicológicos
+III. Procesos psicológicos básicos: percepción, atención y memoria
+1. Percepción. 
+1.1. Identificación de los procesos perceptivos y de los diferentes elementos que intervienen  
+en el fenómeno de la percepción (estímulo, sentido, sensación y umbrales de percepción) 
+y  reconocimiento  de  las  fases  del  proceso  perceptivo  (excitación,  transducción,  
+transmisión y recepción)
+1.2. Análisis  de  las  teorías  explicativas  de  la  percepción  (Asociacionismo,  Gestalt,  
+Cognitivismo y NeuroPsicología).
+1.3. Distinción de diferentes tipos de ilusiones ópticas diferenciándolas de los trastornos  
+perceptivos como las alucinaciones y la agnosia.
+2. Atención y memoria. 
+2.1. Análisis  del  funcionamiento  de  la  memoria  identificando  las  características  de  los  
+diferentes tipos de memoria.
+2.2. Valoración  de  los  procesos  de  atención  y  concentración  implicados  en  el  
+funcionamiento de la memoria e identificación de alteraciones de la atención.
+2.3. Comprensión del concepto de olvido y sus causas, distorsiones y alteraciones de la  
+memoria.
+IV . Procesos cognitivos complejos: aprendizaje, inteligencia y pensamiento
+1. Aprendizaje. 
+1.1. Comparación  de  las  diferentes  teorías  del  aprendizaje:  Condicionamiento  clásico  
+(Pavlov  y  Watson)  Conductismo  (Skinner),  Psicología  cognitiva  (Baddeley,  Bruner, 
+Broadbent,  Ebbinghaus…),  Constructivismo  (Piaget),  Aprendizaje  social  (Bandura),  
+Constructivismo  social  (Vigotsky),  Aprendizaje  Experiencial  (Carl  Rogers),  
+Inteligencias múltiples (Howard Gardner).
+1.2. Análisis de los factores que influyen en el aprendizaje, como por ejemplo: inteligencia,  
+conocimientos previos, experiencia y motivación.
+1.3. Comprensión  y  explicación  de  las  diferentes  teorías  de  la  motivación  (Freud,  
+Conductismo,Teoría de la jerarquía de las necesidades de Maslow, Teoría del factor dual  
+de Herber, Teoría de los tres factores).
+1.4. Definición y comprensión del concepto de motivación intrínseca y extrínseca.
+346
+
+=== Página 21 ===
+
+1.5. Relación de la motivación, las metas, las expectativas y el control personal.
+2. Inteligencia.
+2.1. Definición del concepto de inteligencia y reflexión sobre la evolución a lo largo de la  
+historia. Comprensión de teorías actuales sobre la inteligencia, como son Piaget, la teoría 
+factorial de Spearman, la multifactorial de Thurstone y las de Cattell, Vernon, Sternberg,  
+Gardner, etc.
+2.2. Comprensión de las aportaciones de los autores de referencia en inteligencia emocional  
+(Goleman, Mayer y Salovey). Descripción de las principales estrategias de regulación  
+emocional.
+2.3. Definición de inteligencia emocional. Funciones y clasificación de las emociones.
+2.4. Comprensión del concepto de frustración: identificación de causas y estrategias para  
+superarla.
+2.5. Definición  de  inteligencia  artificial.  Análisis  y  reflexión  sobre  las  implicaciones  
+sociales, éticas y filosóficas y debate sobre las consecuencias de la brecha de datos de  
+género. Descripción y conocimiento de las aplicaciones de la inteligencia artificial.
+3. Pensamiento. 
+3.1. Definición  de  pensamiento,  clasificación  de  tipos  de  pensamiento  y  relación  entre  
+pensamiento y lenguaje y pensamiento y emociones.
+3.2. Comprensión del papel del razonamiento y el pensamiento creativo en la solución de  
+problemas y la toma de decisiones.
+V . El ser humano como ser social.
+1. Reconocimiento de la influencia de factores ambientales y socioculturales en los procesos  
+perceptuales (motivación, actitudes, intereses)y en la conformación de la personalidad.
+2. Definición  de  autoconcepto  y  autoestima,  identificación  de  factores  que  influyen  en  su  
+conformación  y  de  estrategias  para  la  construcción  de  un  autoconcepto  positivo  y  una 
+autoestima ajustada.
+3. Definición del concepto de grupos, los roles y su influencia en el comportamiento de las  
+personas.
+4. Conocimiento sobre el proceso de formación de la percepción de los otros :formación de  
+impresiones, proceso de atribución y atracción.
+5. Definición de actitud. Reconocimiento de la influencia de los grupos sociales en las actitudes  
+personales. Comprensión de los principales modelos y características de las actitudes y  
+formación de las mismas.
+6. Comprensión  y  debate  sobre  el  poder  de  la  persuasión,  el  contagio  de  sentimientos  y  
+emociones que se producen en las masas y sus efectos sobre la conducta individual, sus  
+beneficios y riesgos para la cohesión social e identificación de estrategias de prevención de  
+la crispación social.
+347
+
+=== Página 22 ===
+
+7. Reconocimiento de las implicaciones del desarrollo tecnológico en las nuevas formas de  
+interacción  social  concienciando  sobre  los  riesgos  de  fenómenos  como  el  sexting, el  
+grooming y la sextorsión, y sus consecuencias. Debate sobre sus ventajas e inconvenientes y  
+sus implicaciones en el bienestar físico y mental y afectivo de las personas.
+8. Identificación y aplicación de estrategias y medidas para el uso seguro de internet, incluyendo 
+la prevención de prácticas sexuales virtuales de riesgo. Comprensión de conceptos como  
+huella digital, identidad digital, netiqueta, etc.
+9. Comprensión del proceso de toma de decisiones y el papel que juegan las emociones, las  
+recompensas y la anticipación estas últimas en las decisiones.
+10. Comprensión del concepto de salud mental, trastorno mental y enfermedad mental y debate  
+sobre la percepción social de la enfermedad mental.
+11. Valoración de la importancia que tiene en el desarrollo y maduración del individuo la  
+afectividad y la sexualidad, como dimensiones esenciales del ser humano, describiendo los  
+aspectos fundamentales de la psicología de la sexualidad: fisiología de la respuesta sexual,  
+conducta sexual segura y respetuosa, etc.
+VI. El trabajo y las organizaciones.
+1. Descripción de los distintos tipos de organizaciones y la clasificación en función de diferentes 
+criterios (fin, tamaño, sector y forma jurídica).
+2. Identificación y descripción de elementos característicos de los grupos de trabajo, equipos de  
+trabajo y equipos de alto rendimiento.
+3. Descripción de conceptos de eficacia y eficiencia y comprensión de la relación entre estrés y  
+rendimiento.
+4. Identificación  de  diferentes  estilos  de  liderazgo  y  debate  sobre  su  repercusión  en  el  
+rendimiento y bienestar laboral de las personas.
+5. Comprensión del concepto de cultura emprendedora.
+6. Debate sobre el impacto del avance tecnológico en las nuevas formas de funcionamiento de  
+equipos y organizaciones, ventajas e inconvenientes.
+7. Conocimiento, selección y aplicación de Tecnologías de la Información y la comunicación  
+(TIC),  Tecnologías  de  Aprendizaje  y  Conocimiento  (TAC)  y  Tecnologías  del  
+Empoderamiento y la Participación (TEP).
+8. Debate sobre la implicaciones de las políticas de igualdad en materia de trabajo (conciliación  
+familiar, brecha salarial, etc.). Identificación de los principales problemas de salud laboral:  
+el estrés, la ansiedad, el mobbing y el síndrome de burnout, etc
+348

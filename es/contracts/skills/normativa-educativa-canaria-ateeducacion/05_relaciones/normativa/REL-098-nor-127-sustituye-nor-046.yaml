@@ -1,0 +1,11 @@
+id: REL-098
+tipo_relacion: sustituye
+origen: NOR-127
+destino: NOR-046
+descripcion: '[INTERPRETACIÓN] Sustitución de la referencia operativa anual para el nuevo curso; no implica derogación expresa.'
+evidencia:
+  fuente: FTE-134
+  localizacion: 'Resuelvo primero, p. 2: curso 2026-2027'
+fecha_registro: '2026-10-07'
+nivel_evidencia: inferido
+observaciones: null

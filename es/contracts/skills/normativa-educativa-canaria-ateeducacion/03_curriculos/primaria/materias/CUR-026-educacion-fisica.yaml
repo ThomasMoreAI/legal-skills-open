@@ -1,0 +1,243 @@
+id: CUR-026
+titulo: Educación Física — Primaria Canarias
+etapa: primaria
+materia: Educación Física
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Adoptar un estilo de vida activo y saludable, practicando regularmente actividades físicas, lúdicas y deportivas, adoptando comportamientos que potencien la salud física, mental y social, así como medidas de responsabilidad individual y colectiva durante la práctica motriz, para interiorizar e integrar hábitos de actividad física sistemática que contribuyan al bienestar.
+      descriptores:
+        Primer ciclo:
+          - STEM2
+          - STEM5
+          - CPSAA2
+          - CPSAA5
+          - CE3
+        Segundo ciclo:
+          - STEM2
+          - STEM5
+          - CPSAA2
+          - CPSAA5
+          - CE3
+        Tercer ciclo:
+          - STEM2
+          - STEM5
+          - CPSAA2
+          - CPSAA5
+          - CE3
+    - codigo: C2
+      enunciado_oficial: Adaptar los elementos propios del esquema corporal, las capacidades físicas, perceptivo- motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones, para dar respuesta a las demandas de proyectos motores y de prácticas motrices con distintas finalidades en contextos de la vida diaria.
+      descriptores:
+        Primer ciclo:
+          - STEM1
+          - CPSAA4
+          - CPSAA5
+        Segundo ciclo:
+          - STEM1
+          - CPSAA4
+          - CPSAA5
+        Tercer ciclo:
+          - STEM1
+          - CPSAA4
+          - CPSAA5
+    - codigo: C3
+      enunciado_oficial: Desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades sociales y actitudes de cooperación, respeto, trabajo en equipo y deportividad, con independencia de las diferencias etnoculturales, sociales, de género y de habilidad de los participantes, para contribuir a la convivencia y al compromiso ético en los diferentes espacios en los que se participa.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CC2
+          - CC3
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CC2
+          - CC3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CPSAA1
+          - CPSAA3
+          - CPSAA5
+          - CC2
+          - CC3
+    - codigo: C4
+      enunciado_oficial: Reconocer y practicar diferentes manifestaciones lúdicas, físico-deportivas y artístico- expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas en las situaciones motrices que se utilizan regularmente en la vida cotidiana.
+      descriptores:
+        Primer ciclo:
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+        Segundo ciclo:
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+        Tercer ciclo:
+          - CC3
+          - CE2
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+    - codigo: C5
+      enunciado_oficial: Valorar diferentes medios naturales y urbanos como contextos de práctica motriz, interactuando con ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos y actividades físico-deportivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora.
+      descriptores:
+        Primer ciclo:
+          - STEM5
+          - CC2
+          - CC4
+          - CE1
+          - CE3
+        Segundo ciclo:
+          - STEM5
+          - CC2
+          - CC4
+          - CE1
+          - CE3
+        Tercer ciclo:
+          - STEM5
+          - CC2
+          - CC4
+          - CE1
+          - CE3
+  saberes_basicos:
+    - bloque: I. Vida activa y saludable
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Saberes relacionados con el estilo de vida activo, diferenciando entre salud física, mental y social; hábitos de higiene corporal, alimentación y descanso.
+    - bloque: II. Organización y gestión de la actividad física
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Uso apropiado de materiales y equipamiento deportivo básico, cómodo y seguro; planificación de retos motores y autorregulación; normas básicas de primeros auxilios y prevención de lesiones; activación y vuelta a la calma.
+    - bloque: III. Resolución de problemas en situaciones motrices
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: 'Adaptación de las respuestas motrices a diferentes situaciones y experiencias: actividades individuales, de cooperación, de oposición y de colaboración-oposición, interacción con móviles e implementos, persecución, equilibrio y coordinación.'
+    - bloque: IV. Autorregulación emocional e interacción social en situaciones motrices
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Gestión emocional en las situaciones motrices; habilidades sociales vinculadas al trabajo en equipo, cumplimiento de las reglas de juego, deportividad y rechazo de conductas discriminatorias o sexistas.
+    - bloque: V. Manifestaciones de la cultura motriz
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Práctica, valoración y transmisión de los juegos motores, deportes y danzas de Canarias y otras culturas; comunicación de emociones, pensamientos o sentimientos a través del cuerpo; valoración de referentes significativos abordando el sexismo y promoviendo la igualdad.
+    - bloque: VI. Interacción eficiente y sostenible con el entorno
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Educación vial, movilidad activa y sostenible; actividades motrices en el medio natural y urbano, cuidando su conservación; consumo responsable, construcción y reutilización de materiales en la práctica motriz.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Explorar las posibilidades de la motricidad a través del juego, identificando los beneficios de la actividad física para un estilo de vida activo y saludable, aportando hábitos de higiene corporal, educación postural, descanso e hidratación.
+        - 1.2. Experimentar diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.
+        - 2.1. Adoptar decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose a los objetivos motores y la lógica interna de las situaciones motrices.
+        - 2.2. Experimentar con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales.
+        - 3.1. Respetar las normas y reglas del juego, actuando con deportividad y juego limpio, aceptando las características y el nivel de las personas participantes e identificando y gestionando las emociones para disfrutar de la actividad física.
+        - 3.2. Participar en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando una actitud positiva frente a las actuaciones contrarias a la convivencia.
+        - 4.1. Experimentar su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas, aceptando su valor cultural y su potencial lúdico y social, adoptando actitudes positivas hacia la igualdad.
+        - 4.2. Participar en composiciones con o sin soporte musical, al igual que otras manifestaciones artístico- expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas mediante el ritmo y el movimiento.
+        - 5.1. Participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Utilizar la actividad física como alternativa de ocio saludable y sostenible, adquiriendo hábitos de educación postural, de hidratación e higiene, y de alimentación, para adoptar un estilo de vida activo y saludable.
+        - 1.2. Interiorizar medidas de seguridad antes, durante y después de la práctica de actividad física, diferenciando contextos de riesgo de aquellos beneficiosos para la salud, adquiriendo actitudes inclusivas y respetando las diferencias individuales.
+        - 2.1. Adoptar decisiones en juegos motores y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz.
+        - 2.2. Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal.
+        - 3.1. Demostrar, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacía el esfuerzo físico, controlando la impulsividad, gestionando las emociones, valorando las aportaciones de compañeros y adversarios y actuando siempre con deportividad y juego limpio.
+        - 3.2. Participar en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo los conflictos de forma dialógica y mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.
+        - 4.1. Participar activamente en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando actitudes positivas hacia la igualdad.
+        - 4.2. Distinguir y participar en composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.
+        - 5.1. Practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Integrar los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal, interiorizando así las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria.
+        - 1.2. Aplicar medidas de seguridad antes, durante y después de la práctica de actividad física, identificando los contextos de riesgo e implementando conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia.
+        - 2.1. Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando sobre las soluciones obtenidas.
+        - 2.2. Adquirir un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, valorando el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.
+        - 3.1. Intervenir en situaciones motrices lúdicas, con predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva, reconociendo las actuaciones de personas compañeras y oponentes.
+        - 3.2. Mostrar habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.
+        - 4.1. Practicar juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes del deporte.
+        - 4.2. Crear composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.
+        - 5.1. Adaptar las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible y comunitaria del entorno.
+  descriptores_operativos:
+    - STEM2
+    - STEM5
+    - CPSAA2
+    - CPSAA5
+    - CE3
+    - STEM1
+    - CPSAA4
+    - CCL1
+    - CCL5
+    - CPSAA1
+    - CPSAA3
+    - CC2
+    - CC3
+    - CCEC1
+    - CCEC2
+    - CCEC3
+    - CCEC4
+    - CE2
+    - CC4
+    - CE1
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Educación Física en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Cinco competencias específicas (C1-C5) que se concretan en nueve criterios de evaluación por ciclo, con saberes básicos organizados en seis bloques: Vida activa y saludable, Organización y gestión de la actividad física, Resolución de problemas en situaciones motrices, Autorregulación emocional e interacción social, Manifestaciones de la cultura motriz, e Interacción eficiente y sostenible con el entorno. Fuerte presencia de juegos, deportes y danzas tradicionales de Canarias.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (cinco) y de criterios de evaluación (nueve por ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos coinciden en los tres ciclos salvo en la competencia C4, que añade CE2 en Tercer ciclo (DEC-0008). Los saberes básicos se recogen a nivel de bloque (I-VI) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque.

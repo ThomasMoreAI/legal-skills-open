@@ -1,0 +1,61 @@
+name: alta-autonomo
+display_name: Alta como Autónomo — Tutorial Paso a Paso
+description: >
+  Tutorial práctico y cronológico para hacerse autónomo en España:
+  obtener identificación digital (Cl@ve, certificado), alta en Hacienda
+  (Modelo 036/037, epígrafe IAE), alta en Seguridad Social (RETA vía
+  Import@ss), tarifa plana, comunicación al ayuntamiento, primeras
+  obligaciones, checklist documental, coste orientativo del primer año
+  y capitalización del desempleo (pago único).
+organization: Varios (AEAT, Seguridad Social, SEPE)
+tags: [emprendimiento, autónomos, alta autónomo, tarifa plana, Import@ss, RETA, modelo 036, modelo 037, capitalización desempleo, pago único]
+
+links:
+  importass: https://importass.seg-social.es
+  alta_censal: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml
+  clave: https://clave.gob.es
+  certificado_fnmt: https://www.sede.fnmt.gob.es/certificados/persona-fisica
+  ventanilla_unica: https://www.one.gob.es/
+  sepe: https://www.sepe.es
+
+license:
+  data: Información pública de varios organismos
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    realiza trámites. Proporciona el tutorial paso a paso para darse de
+    alta como autónomo y redirige a skills específicas para obligaciones
+    fiscales (fiscalidad-autonomos), Seguridad Social
+    (seguridad-social) y licencias (licencias-actividad).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Proceso paso a paso cronológico para hacerse autónomo
+    - Alta en Hacienda (Modelo 036/037, epígrafe IAE, régimen fiscal)
+    - Alta en Seguridad Social (RETA vía Import@ss)
+    - Tarifa plana para nuevos autónomos (cuantía, duración, requisitos)
+    - Comunicación al ayuntamiento y licencia de actividad (cuándo procede)
+    - Primeras obligaciones (facturación, libros, impuestos trimestrales)
+    - Checklist documental completo
+    - Coste orientativo del primer año como autónomo
+    - Capitalización del desempleo (pago único)
+    - Identificación digital (Cl@ve, certificado FNMT)
+  not_accessible:
+    - Realización de trámites de alta (requiere certificado digital/Cl@ve)
+    - Datos personales del contribuyente o afiliado
+    - Obligaciones fiscales continuas en detalle (usar skill fiscalidad-autonomos)
+    - Cuotas y tramos de cotización detallados (usar skill seguridad-social)
+    - Proceso de creación de empresas/sociedades (usar skill crear-empresa)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

@@ -1,0 +1,175 @@
+<!--
+  Snippet de banner de cookies conforme a la Guía AEPD (versión 2023+).
+  Vanilla JS sin dependencias. Funciona en WordPress, Next.js, estáticos.
+
+  IMPORTANTE:
+  - Inserta este snippet ANTES de cualquier otro script de tracking.
+  - Los scripts de GA/Meta/TikTok deben cargarse solo si el usuario los acepta.
+  - Revisa el texto legal con tu asesor antes de publicar.
+
+  Cumple:
+  - Primera capa con aceptar/rechazar/configurar con paridad visual.
+  - Bloqueo previo de cookies no necesarias.
+  - Segunda capa con control granular por categoría.
+  - Persistencia del rechazo (evita re-mostrar al recargar).
+  - Revocable desde footer (ver .cookie-preferences-trigger).
+-->
+
+<style>
+  .cookie-banner {
+    position: fixed; left: 16px; right: 16px; bottom: 16px;
+    max-width: 680px; margin: 0 auto; padding: 20px 24px;
+    background: #fff; color: #111; border: 1px solid #e5e5e5;
+    border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.15);
+    font-family: system-ui, -apple-system, sans-serif; font-size: 14px;
+    z-index: 99999; display: none;
+  }
+  .cookie-banner.open { display: block; }
+  .cookie-banner h2 { margin: 0 0 8px; font-size: 16px; }
+  .cookie-banner p { margin: 0 0 12px; line-height: 1.5; }
+  .cookie-banner a { color: #1f3864; text-decoration: underline; }
+  .cookie-banner-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+  .cookie-banner-actions button {
+    padding: 10px 18px; border-radius: 8px; border: 1px solid #111;
+    background: #fff; cursor: pointer; font-weight: 600; font-size: 14px;
+    min-width: 120px;
+  }
+  .cookie-banner-actions button.primary { background: #1f3864; color: #fff; border-color: #1f3864; }
+  .cookie-banner-actions button.reject { background: #fff; color: #111; }
+  .cookie-banner-actions button.configure { background: #f5f5f5; color: #111; border-color: #e5e5e5; }
+
+  .cookie-preferences {
+    position: fixed; inset: 0; background: rgba(0,0,0,.5);
+    display: none; align-items: center; justify-content: center; z-index: 100000;
+  }
+  .cookie-preferences.open { display: flex; }
+  .cookie-preferences-inner {
+    background: #fff; max-width: 560px; width: calc(100% - 32px);
+    padding: 24px; border-radius: 12px; max-height: 80vh; overflow: auto;
+  }
+  .cookie-category { border-top: 1px solid #eee; padding: 14px 0; }
+  .cookie-category h3 { margin: 0 0 6px; font-size: 14px; }
+  .cookie-category label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+</style>
+
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-labelledby="cookieBannerTitle" aria-live="polite">
+  <h2 id="cookieBannerTitle">Utilizamos cookies</h2>
+  <p>Usamos cookies propias y de terceros para analítica y publicidad. Puedes aceptar todas, rechazar las no necesarias, o configurar tus preferencias. Más información en nuestra <a href="/politica-cookies">Política de Cookies</a>.</p>
+  <div class="cookie-banner-actions">
+    <button type="button" class="configure" id="cookieConfigure">Configurar</button>
+    <button type="button" class="reject" id="cookieReject">Rechazar todas</button>
+    <button type="button" class="primary" id="cookieAccept">Aceptar todas</button>
+  </div>
+</div>
+
+<div class="cookie-preferences" id="cookiePreferences" role="dialog" aria-modal="true">
+  <div class="cookie-preferences-inner">
+    <h2>Preferencias de cookies</h2>
+    <p>Puedes habilitar o deshabilitar categorías.</p>
+    <div class="cookie-category">
+      <h3>Técnicas (siempre activas)</h3>
+      <label><input type="checkbox" checked disabled> Necesarias para el funcionamiento del sitio.</label>
+    </div>
+    <div class="cookie-category">
+      <h3>Preferencias</h3>
+      <label><input type="checkbox" id="catPreferences"> Recuerdan decisiones del usuario.</label>
+    </div>
+    <div class="cookie-category">
+      <h3>Análisis</h3>
+      <label><input type="checkbox" id="catAnalytics"> Estadísticas de uso del sitio.</label>
+    </div>
+    <div class="cookie-category">
+      <h3>Publicidad</h3>
+      <label><input type="checkbox" id="catAdvertising"> Publicidad personalizada y remarketing.</label>
+    </div>
+    <div class="cookie-banner-actions" style="margin-top: 16px;">
+      <button type="button" class="configure" id="prefClose">Cancelar</button>
+      <button type="button" class="primary" id="prefSave">Guardar preferencias</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const STORAGE_KEY = 'cookie_consent_v1';
+  const STORAGE_TTL_DAYS = 180; // 6 meses
+
+  function read() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return null;
+      const data = JSON.parse(raw);
+      if (!data.ts || (Date.now() - data.ts) > STORAGE_TTL_DAYS * 864e5) return null;
+      return data;
+    } catch { return null; }
+  }
+  function write(consent) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ ts: Date.now(), ...consent }));
+    dispatchEvent(new CustomEvent('cookieConsent', { detail: consent }));
+  }
+  const banner = document.getElementById('cookieBanner');
+  const prefs = document.getElementById('cookiePreferences');
+  const existing = read();
+  if (!existing) banner.classList.add('open');
+
+  document.getElementById('cookieAccept').onclick = () => {
+    write({ preferences: true, analytics: true, advertising: true });
+    banner.classList.remove('open');
+    loadScripts({ preferences: true, analytics: true, advertising: true });
+  };
+  document.getElementById('cookieReject').onclick = () => {
+    write({ preferences: false, analytics: false, advertising: false });
+    banner.classList.remove('open');
+  };
+  document.getElementById('cookieConfigure').onclick = () => {
+    prefs.classList.add('open');
+  };
+  document.getElementById('prefClose').onclick = () => prefs.classList.remove('open');
+  document.getElementById('prefSave').onclick = () => {
+    const consent = {
+      preferences: document.getElementById('catPreferences').checked,
+      analytics: document.getElementById('catAnalytics').checked,
+      advertising: document.getElementById('catAdvertising').checked,
+    };
+    write(consent);
+    prefs.classList.remove('open');
+    banner.classList.remove('open');
+    loadScripts(consent);
+  };
+
+  // Revocable desde footer: añade <button class="cookie-preferences-trigger">Configurar cookies</button>
+  document.querySelectorAll('.cookie-preferences-trigger').forEach(el => {
+    el.onclick = (e) => { e.preventDefault(); prefs.classList.add('open'); };
+  });
+
+  // Aplica consentimientos existentes al cargar
+  if (existing) loadScripts(existing);
+
+  function loadScripts(consent) {
+    // Google Consent Mode v2
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('consent', 'update', {
+      ad_user_data: consent.advertising ? 'granted' : 'denied',
+      ad_personalization: consent.advertising ? 'granted' : 'denied',
+      ad_storage: consent.advertising ? 'granted' : 'denied',
+      analytics_storage: consent.analytics ? 'granted' : 'denied',
+    });
+
+    // Ejemplos: carga tus scripts solo si procede
+    // if (consent.analytics) { cargarGA4(); }
+    // if (consent.advertising) { cargarMetaPixel(); cargarTikTokPixel(); }
+  }
+
+  // Estado inicial de Consent Mode antes de la interacción (denegado por defecto)
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500,
+  });
+})();
+</script>

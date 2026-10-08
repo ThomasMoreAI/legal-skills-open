@@ -1,0 +1,11 @@
+id: REL-081
+tipo_relacion: "modifica"
+origen: NOR-074
+destino: NOR-094
+descripcion: "La Resolución de 25 de junio de 2026 sustituye la distribución horaria del Ciclo Formativo de Grado Básico en Cocina y Restauración aprobada en el Anexo III de la Resolución de 27 de enero de 2026."
+evidencia:
+  fuente: FTE-081
+  localizacion: "Resuelvo primero de la Resolución de 25 de junio de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Registrada al cerrar TAREA-086: la ficha NOR-074 declaraba esta modificación sin poder enlazar su destino."

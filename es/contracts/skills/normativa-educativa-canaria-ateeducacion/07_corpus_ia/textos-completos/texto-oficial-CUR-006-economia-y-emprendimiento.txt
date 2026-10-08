@@ -1,0 +1,865 @@
+ID interno: CUR-006
+Título oficial: Economía y Emprendimiento — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+ECONOMÍA Y EMPRENDIMIENTO
+Introducción
+La materia de Economía y Emprendimiento, en la etapa de la Educación Secundaria Obligatoria,
+pretende dar respuesta a los cambios profundos y acelerados que el mercado laboral exige al
+sistema educativo al requerir de personas con autoconfianza, capacidad creativa y de liderazgo,
+cooperativas e innovadoras, preparadas para enfrentarse con espíritu crítico a nuevos retos en un
+entorno incierto y complejo. Esta materia contribuye a esa preparación permitiendo el desarrollo y
+el entrenamiento de las capacidades y habilidades sociales y emprendedoras del alumnado al tiempo
+que pone en juego estrategias de gestión de los recursos individuales en la interacción con las demás
+personas en diversos contextos, favoreciendo el progreso personal y promoviendo el bienestar
+social.
+La  formación  en  economía  y  en  emprendimiento  favorece  la  adquisición  de  conocimientos
+económicos a través de la comprensión de los acontecimientos que están cambiando profundamente
+la economía y la vida de las personas en nuestro entorno canario y global y permite proyectar
+valores relacionados con la creatividad, tales como la imaginación, el pensamiento estratégico, la
+resolución de problemas, la reflexión crítica y constructiva y la innovación, así como la habilidad de
+trabajar en equipo, de comunicarse eficazmente y negociar con otras personas, para hacer frente a la
+incertidumbre, la ambigüedad y el riesgo como parte de la toma de decisiones informadas. En este
+sentido, juega un papel importante el estudio de la persona emprendedora que debe integrar, por un
+lado, una formación económica y financiera y, por otro, una actitud proactiva, ética y comprometida
+con el cuidado y la preservación de su entorno, que le impulsa a buscar oportunidades y generar
+ideas que contribuyan a satisfacer las necesidades detectadas, diseñando proyectos viables que
+aporten soluciones óptimas y sostenibles en entornos cambiantes.
+La finalidad educativa de la materia de Economía y Emprendimiento está en consonancia con la
+Recomendación  del  Consejo  de  la  Unión  Europea  de  22  de  mayo  de  2018  relativa  a  las
+competencias clave para el aprendizaje permanente, que refiere la necesidad de introducir en la
+educación herramientas que permitan lograr que lo aprendido se pueda aplicar en tiempo real, y que
+generen  nuevas  ideas,  teorías,  productos  y  conocimientos  en  lo  referente  al  fomento  de
+oportunidades entre el alumnado para que, como mínimo, lleven a cabo una experiencia práctica de
+emprendimiento durante su escolarización.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+El  desarrollo  progresivo  de  las  competencias  específicas  de  la  materia  de  Economía  y
+Emprendimiento favorece que el alumnado alcance todos los objetivos de la etapa. No obstante, de
+1
+
+=== Página 2 ===
+
+forma especial, la materia permite fomentar comportamientos del espíritu emprendedor, como la
+confianza personal, la capacidad para planificar, la toma de riesgos y responsabilidades, la adopción
+de decisiones consensuadas o el sentido crítico, todas ellas enfocadas a potenciar la sensibilidad del
+alumnado ante la búsqueda de oportunidades económicas y la detección de las tendencias sociales
+(g).
+En la búsqueda de soluciones innovadoras y sostenibles, en la construcción de prototipos y en la
+evaluación y validación de los resultados que propugna la materia, se espera que el alumnado
+desarrolle y consolide hábitos de disciplina, compromiso y trabajo individual y en equipo (b), así
+como  la  asunción  responsable  de  los deberes y el  ejercicio de sus derechos  en el respeto, la
+cooperación y la tolerancia a las demás personas, para conseguir la ciudadanía democrática (a).
+El trabajo cooperativo, colaborativo y en equipo permite poner en práctica destrezas encaminadas a
+fortalecer las capacidades afectivas del alumnado en todos los ámbitos de la personalidad y en sus
+relaciones con las demás personas, donde el valor y el respeto por la igualdad le llevan a resolver
+pacíficamente los conflictos y a rechazar cualquier estereotipo de discriminación entre mujeres y
+hombres (c) y (d).
+De la misma forma, la búsqueda de recursos disponibles y la comprensión de su entorno y de los
+aspectos básicos de la economía en la búsqueda de soluciones a los problemas detectados permiten
+que el alumnado valore críticamente los hábitos sociales relacionados con la salud, el consumo y el
+medioambiente (k), además de la cultura y la historia de su entorno más próximo (j), desarrolle de
+forma básica destrezas en la utilización de las fuentes de información y competencias tecnológicas
+(e) y conciba el conocimiento científico como un saber integrado para aportar soluciones realistas,
+eficientes y sostenibles ante los retos del siglo XXI (f).
+Por último, con la práctica de las habilidades comunicativas y sociales en el seno de los equipos de
+trabajo  y  las  estrategias  comunicativas  ágiles  para  presentar,  exponer  y  validar  las  ideas  y
+soluciones creadas, la materia contribuye a que el alumnado comprenda y exprese de manera
+correcta textos y mensajes complejos, en la lengua castellana u otras lenguas extranjeras (h) e (i), y
+aprecie  y  comprenda  el  lenguaje  de  las  distintas  manifestaciones  artísticas  con  el  empleo  de
+diversos medios de expresión y comunicación (l).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+El  carácter  multifuncional  e  integrador  de  los  aprendizajes  de  la  materia  de  Economía  y
+Emprendimiento facilitará el proceso de desarrollo y adquisición de las competencias y capacidades
+en el alumnado para participar plenamente en la sociedad y gestionar con éxito las transiciones en el
+mercado laboral.
+De  esta  manera,  la  materia  contribuye  al  desarrollo  y  la  adquisición  de  la  Competencia  en
+comunicación lingüística (CCL), en la medida en que el alumnado se expresa de forma oral, escrita,
+signada o multimodal con coherencia, corrección y adecuación y consiga interactuar de manera
+efectiva y positiva gracias a las estrategias de comunicación ágil. El intercambio de las ideas e
+información, en el marco del trabajo cooperativo, con la puesta en práctica de habilidades de
+2
+
+=== Página 3 ===
+
+comunicación abierta y el respeto hacia las aportaciones de otras personas se convierte en una
+fortaleza  en  la  toma de decisiones consensuadas. De igual  modo, cuando localice,  seleccione,
+interprete y contraste de manera autónoma información sobre el entorno, el nivel de desempeño de
+esta competencia quedará patente en el nivel creativo de la presentación y exposición de esa idea,
+prototipo o solución, mediante la transmisión de mensajes convincentes y adecuados al contexto y
+los objetivos a alcanzar.
+Asimismo, la contribución de la materia a la Competencia plurilingüe (CP) se concreta en la mejora
+de las habilidades comunicativas y sociales del alumnado, al incorporar al mensaje comunicativo
+anglicismos que describen situaciones, acciones, técnicas o incluso puestos de trabajo. De esta
+manera, el empleo de un vocabulario especializado en un contexto gramatical correcto, formal y
+orientado a los negocios, en una o más lenguas, favorece una comunicación más rica, fluida y
+abierta  para  responder  a  las  necesidades  comunicativas,  de  manera  presencial  o  a  distancia,
+permitiéndole ampliar su repertorio lingüístico individual.
+La materia contribuye también a la Competencia matemática y competencia en ciencia, tecnología e
+ingeniería  (STEM),  en  la  medida  en  que  permite  al  alumnado  aplicar  métodos  científicos,
+pensamientos y tecnologías para transformar el entorno de forma comprometida y responsable. En
+concreto, la propuesta de ideas y soluciones innovadoras y sostenibles para superar los distintos
+retos que se planteen, el desarrollo de un proyecto que sea viable utilizando recursos materiales,
+inmateriales  y  digitales  y,  por  último,  el  diseño,  fabricación  y  evaluación  de  los  diferentes
+prototipos o modelos para generar y utilizar productos que den solución a una necesidad o problema
+de forma creativa y cooperativa serán manifestaciones de la contribución de la materia al logro de
+esta competencia.
+En cuanto a la Competencia digital (CD), el estudio de esta materia contribuye a que el alumnado
+gestione y utilice su entorno personal digital de aprendizaje para construir conocimiento y crear
+contenidos digitales, así como para comunicarse, colaborar e interactuar compartiendo información
+mediante el empleo, la selección y el uso de diferentes herramientas digitales, en función de la tarea
+y de sus necesidades de aprendizaje permanente. De la misma manera, al desarrollar un prototipo
+final que ayude a resolver problemas o responder a retos propuestos, podrá mostrar su interés y
+curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y su uso ético.
+Esta materia contribuye de manera manifiesta a la Competencia personal, social y de aprender a
+aprender (CPSAA) por cuanto que propicia en el alumnado el autoconocimiento y la adaptación a
+entornos complejos a través del planteamiento de proyectos personales, así como la comprensión e
+incorporación  al  aprendizaje  de  las  perspectivas  y  las  experiencias  ajenas  mediante  proyectos
+colectivos, analizando el proceso y contrastando la efectividad, viabilidad y adecuación del mismo.
+La Competencia ciudadana (CC) se desarrolla en esta materia a través de la creación de proyectos
+que se adapten a las necesidades en entornos complejos y que creen valor, sin perder de vista la
+importancia de la escasez de los recursos y del cuidado del entorno natural, social y artístico, para
+conseguir  un  alumnado  consciente  y  motivado  por  lograr  un  estilo  de  vida  sostenible  y
+ecosocialmente responsable.
+La Competencia emprendedora (CE) se trabaja de forma transversal a lo largo de toda la materia,
+desde el conocimiento de la importancia del emprendimiento y el papel de la I+D+i hasta la
+validación  y  propuesta  de  un  modelo  de  negocio,  pasando  por  el  análisis  del  entorno,  el
+conocimiento  de  las  empresas  y  las  estrategias  comunicativas.  Por  ello,  las  situaciones  de
+aprendizaje que se propongan en esta materia conllevan, por parte del alumnado, la evaluación de
+3
+
+=== Página 4 ===
+
+fortalezas y debilidades propias, el análisis de necesidades y oportunidades, así como la asunción de
+retos con sentido crítico, la comprensión de los elementos fundamentales de la economía y las
+finanzas, la generación de ideas y soluciones valiosas, la toma de decisiones de manera razonada y,
+por último, la reflexión sobre el proceso emprendedor realizado y el resultado obtenido.
+Finalmente, la materia de Economía y Emprendimiento contribuye, además, a la adquisición de la
+Competencia en conciencia y expresión cultural (CCEC), puesto que el alumnado expresa ideas,
+opiniones, sentimientos y emociones de manera creativa y abierta y desarrolla la creatividad y la
+autoestima con actitud empática y colaborativa mediante la creación de proyectos personales y
+colectivos teniendo en cuenta la realidad cambiante y promoviendo el desarrollo sostenible, con
+visión creativa, emprendedora y comprometida.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de la materia de Economía y Emprendimiento se han establecido siete competencias
+específicas y los aprendizajes se desarrollan en diecisiete criterios de evaluación. Estos criterios de
+evaluación  presentan  una  marcada  naturaleza  competencial,  de  manera  que  se  relacionan
+directamente con los descriptores operativos del Perfil de salida a los que contribuye la competencia
+específica, expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de
+aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+Esta competencia específica trabaja el autoconocimiento permitiendo indagar en las fortalezas y
+debilidades personales y gestionar las emociones para adaptarse a entornos cambiantes y enfocarse
+hacia el éxito del proceso de ideación y diseño de soluciones emprendedoras e innovadoras en una
+sociedad cambiante, globalizada y comprometida con el desarrollo sostenible, lo que permitirá al
+4
+
+=== Página 5 ===
+
+alumnado tomar conciencia de la importancia que los valores del espíritu emprendedor suponen
+para su desarrollo personal.
+Los criterios de evaluación que se desarrollan en este bloque competencial contribuyen a alcanzar
+esta competencia específica mediante la puesta en práctica de estrategias de autoconocimiento que
+favorezcan  en el alumnado  el desarrollo  de cualidades  emprendedoras  como la  iniciativa y la
+resiliencia.  La  reflexión  sobre  el  valor  estratégico  de  su  marca  personal  o  la  aplicación  de
+estrategias de gestión de la incertidumbre en la toma de decisiones que le entrenen en la tenacidad,
+persistencia y perseverancia para conseguir los objetivos propuestos en distintas situaciones vitales,
+constituyen una  fuente  de crecimiento personal  generadora  de nuevas oportunidades, donde la
+tecnología, las pautas de comportamiento, los valores personales y la ética son los mejores aliados
+para aprender de los errores y comenzar a construir un futuro profesional y vital.
+Competencia específica 2 (C2)
+A través de esta competencia específica se persigue la correcta identificación de las potencialidades
+de  las personas que favorezcan la  constitución de equipos de trabajo eficaces, cooperativos y
+motivados  y  que  compensen  las  debilidades  e  impulsen  las  sinergias  positivas.  El  correcto
+desarrollo del proyecto emprendedor requiere del fomento de habilidades sociales como la empatía,
+la asertividad, la negociación, coeducación, igualdad y equidad, entre otros, para así responder a las
+necesidades de todos sus miembros.
+Esta competencia permite poner en valor los beneficios derivados del trabajo colaborativo y en
+equipo que se trabajan a través de los criterios de evaluación asociados a este bloque competencial,
+estimulando en el alumnado la creatividad en la propuesta de ideas o soluciones innovadoras a los
+retos  propuestos  y  propiciando  la  motivación  por  el  desempeño  personal  y  profesional  en  el
+desarrollo de dichas soluciones, al tiempo que fortalece la tolerancia y el respeto hacia las opiniones
+de los demás, el desarrollo de los lazos afectivos entre las personas y las habilidades sociales y
+comunicativas propias, así como la asunción de responsabilidades y compromisos en la consecución
+de los objetivos y metas comunes y en la toma de decisiones compartidas.
+Competencia específica 3 (C3)
+En el desarrollo de esta competencia específica se trabaja en el análisis del entorno con la finalidad
+de generar soluciones innovadoras dirigidas a crear valor en el ámbito personal, social, cultural y
+económico  para  afrontar  los  retos  propuestos  en  las necesidades  detectadas.  Esta  competencia
+potenciará la capacidad creativa del alumnado para aportar ideas que contribuyan al desarrollo de la
+economía y de la sociedad canaria, alineándose con la consecución de los Objetivos de Desarrollo
+Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.
+El desarrollo de los criterios de evaluación relacionados con esta competencia específica introducirá
+al alumnado en la utilización de métodos de exploración del entorno, de técnicas ágiles de ideación
+y de validación de ideas innovadoras y en la evaluación del impacto que estas pudieran generar a
+nivel personal y en el entorno socioeconómico local y global, con la finalidad de promover el
+desarrollo sostenible con visión creativa y emprendedora. Se pretende, además, contribuir desde
+esta materia al compromiso personal del alumnado en la adopción de un estilo de vida sostenible y
+responsable y en el impulso de su papel como agente dinamizador que pueda llevar a la práctica
+proyectos sociales generadores de valor para la sociedad.
+Competencia específica 4 (C4)
+5
+
+=== Página 6 ===
+
+La búsqueda de recursos productivos y financieros es fundamental para trabajar esta competencia
+específica, ya que a través de ellos el alumnado podrá transformar las ideas emprendedoras en
+prototipos innovadores y sostenibles. La adquisición de conocimientos económicos y financieros
+susceptibles de ser utilizados para el diseño cooperativo de un proyecto emprendedor grupal le
+facilitará la materialización de sus ideas emprendedoras mediante la selección de los recursos más
+idóneos para la puesta en marcha de las soluciones ideadas, empleando criterios de eficacia y
+sostenibilidad.
+La aplicación de los criterios de evaluación asociados a esta competencia específica permite al
+alumnado diseñar un proyecto emprendedor empleando herramientas de colaboración utilizadas en
+la empresa, como las aplicaciones digitales de creación de contenidos o los lienzos de negocios, así
+como seleccionar y reunir los recursos materiales, inmateriales y digitales, utilizando estrategias de
+captación y gestión de los recursos financieros y aplicando conocimientos económicos y financieros
+sobre la gestión del dinero, el equilibrio financiero, las fuentes de financiación y la protección de las
+ideas, que le permitan llevar a la realidad la solución innovadora propuesta.
+Competencia específica 5 (C5)
+Para  comunicar  las  soluciones  innovadoras  ideadas  es  necesario  poner  en  práctica  de  esta
+competencia  específica,  a  través  de  la  cual  el  alumnado  podrá  entrenar  la  competencia
+comunicativa, adquirir estrategias de comunicación ágil y adiestrarse en el uso de herramientas para
+explicar la idea, convencer y motivar, lo que le permitirá recopilar información sobre los puntos
+fuertes y débiles de la misma que le facilite la validación de la solución propuesta.
+Con el desarrollo de los criterios de evaluación de esta competencia específica se pretende que el
+alumnado esté en disposición de presentar y exponer en el entorno las ideas creativas generadas que
+le permitan validar las soluciones desarrolladas en su proyecto emprendedor, empleando mensajes
+convincentes y adecuados al contexto y utilizando estrategias y herramientas comunicativas ágiles,
+basadas  en  el  relato,  visuales  o  audiovisuales,  para  participar  en  un  proceso  cooperativo  de
+retroalimentación para la toma de decisiones sobre la solución final.
+Competencia específica 6 (C6)
+Con esta competencia específica se estudia en profundidad el entorno del sector al que va dirigida la
+propuesta del proyecto emprendedor le permitirá valorar la admisibilidad de la misma, lo que será
+determinante para decidir sobre su viabilidad. Para ello es importante también conocer los criterios
+que utilizan las personas para adoptar sus decisiones, estudiar sus consecuencias y analizar cómo
+interactúan con las empresas en el mercado, teniendo en cuenta el problema de la escasez de
+recursos que afecta a sus elecciones en la satisfacción de las necesidades.
+Para desarrollar los criterios de evaluación asociados a este bloque competencial será determinante
+que  el alumnado adquiera los conocimientos económicos y financieros que  le permitan  tomar
+decisiones sobre la planificación de los recursos necesarios para llevar a la acción el proyecto
+emprendedor,  bajo  la  perspectiva  de la escasez económica.  Así, el alumnado  se acercará a la
+comprensión de las necesidades de sus clientes, ejercitándose en la aplicación de los principios
+económicos básicos en la toma de decisiones individuales y en las herramientas de investigación de
+mercado; se adentrará en el análisis del comportamiento financiero de las personas, estudiando el
+papel  de  los  intermediarios  financieros  como  canalizadores  entre  el  ahorro  y  la  inversión,  y
+analizando los flujos reales y monetarios generados en el funcionamiento de los mercados; así como
+6
+
+=== Página 7 ===
+
+al estudio contextualizado del entorno del proyecto emprendedor a través de la interpretación de
+indicadores micro y macroeconómicos.
+Competencia específica 7 (C7)
+La materia concluye con esta competencia específica, que tendrá carácter transversal, planteando
+una  visión  integradora  del  proceso  emprendido  en  la  consecución  del  objetivo  del  proyecto
+emprendedor, al convertir una propuesta innovadora, ética y sostenible en un prototipo final. Para
+ello, la evaluación continua del proceso llevado a cabo durante el desarrollo del proyecto convertirá
+a esta competencia en el eje central de los procesos de aprendizaje de esta materia y los procesos de
+reflexión y los resultados de la retroalimentación efectuada al finalizar cada fase del proyecto, desde
+la fijación de los objetivos del reto hasta la validación del prototipo, pasando por el análisis del
+entorno, la selección de recursos realizada y la comunicación de las soluciones ideadas, permitiendo
+el entrenamiento de las habilidades emprendedoras personales en un marco cooperativo y grupal.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los saberes básicos que contribuyen a adquirir las competencias específicas se organizan en cuatro
+bloques, que serán los referentes fundamentales para la integración de conceptos, procedimientos y
+actitudes en la materia de Economía y Emprendimiento.
+El Bloque I, denominado «El perfil de la persona emprendedora, destrezas para el trabajo en equipo,
+iniciativa  y  creatividad»,  se  relaciona  con  el  análisis  y  desarrollo  del  perfil  de  la  persona
+emprendedora haciendo hincapié en el autoconocimiento, el desarrollo de habilidades personales y
+de las estrategias de gestión de las emociones para hacer frente a contextos cambiantes e inciertos y
+descubrir el valor de cooperar con las demás personas con espíritu constructivo y empatía en
+distintos contextos de los ámbitos personal, social, educativo y profesional.
+El Bloque II, «El entorno como fuente de ideas y oportunidades», se liga al análisis de los distintos
+entornos –económico, empresarial, social, ambiental, cultural y artístico– así como al desarrollo de
+estrategias de exploración de los mismos que permitan al alumnado identificar necesidades y buscar
+oportunidades y tendencias que surjan en ellos, haciéndole consciente de que el entorno va a
+condicionar el éxito de sus proyectos personales y profesionales. Asimismo, la adquisición de
+conocimientos económicos le ayudarán a entender el mundo en el que viven, le orientarán en la
+toma decisiones en diversos contextos y potenciarán el desarrollo de su autonomía y espíritu crítico.
+El  Bloque  III,  «Recursos  para  llevar  a  cabo  un  proyecto  emprendedor»,  profundiza  en  el
+conocimiento de la organización de la empresa y en la adquisición de conocimientos financieros,
+para que el alumnado aprenda a valorar la gestión sostenible y eficiente de las finanzas personales y
+del proyecto emprendedor. Le ayudará a ello acercarse a conocimientos sobre la gestión de los
+presupuestos personales, la valoración del endeudamiento y de la asunción de riesgos financieros,
+así como el reconocimiento de las características de las distintas fuentes financieras disponibles
+para la puesta en marcha de las soluciones propuestas.
+El Bloque IV , «La realización del proyecto emprendedor», anima al alumnado a la aplicación de la
+retroalimentación y a la reflexión sobre el aprendizaje experimentado, tanto en la utilización de las
+7
+
+=== Página 8 ===
+
+herramientas y metodologías ágiles empleadas para el desarrollo del proyecto emprendedor, como
+en la definición del reto como objetivo marcado, pasando por la fase de ideación, de desarrollo,
+hasta las de evaluación del prototipo final, y donde las conclusiones extraídas sobre el desarrollo del
+prototipo serán consideradas como oportunidades para el desarrollo personal y grupal.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Las situaciones de aprendizaje que se diseñen partirán de los criterios de evaluación integrando los
+elementos curriculares a través de tareas y actividades competenciales y contextualizadas diseñadas
+para  proponer  soluciones  innovadoras  a  los  problemas  del  entorno  de  manera  creativa  y
+cooperativa. La metodología propuesta en este currículo se basa, principalmente, en las teorías de
+aprendizaje social y la constructivista. Así, los métodos preferentes que habrán de aplicarse serán el
+método de aprendizaje por descubrimiento y el aprendizaje cooperativo. La instrumentalización de
+ambos métodos se llevará a cabo mediante el Aprendizaje Basado en Proyectos (AbP).
+La materia se inicia con la aplicación de técnicas para la mejora de habilidades personales y la
+conformación de equipos de trabajo que posibiliten técnicas de trabajo cooperativo y colaborativo.
+Con el fin de analizar las necesidades del entorno global y canario, se proponen diferentes técnicas
+ágiles  de  ideación  con  un  modelo  sinéctico  de  enseñanza,  así  como  el  estudio  de  casos  de
+emprendimiento, la metodología del aprendizaje-servicio, las visitas didácticas y la metodología
+STEAM.  Para  que  el  alumnado  consiga  reunir  los  recursos  que  permitan  hacer  realidad  sus
+soluciones, se propone una enseñanza directa con diferentes herramientas digitales colaborativas y
+las visitas a instituciones y otros centros de emprendimiento. La oralidad forma parte fundamental
+de la materia, por ello se fomentará a través de diferentes metodologías la capacidad del alumnado
+para aplicar estrategias de difusión y herramientas ágiles de comunicación. Finalmente, las ideas y
+soluciones propuestas por el alumnado deben ser admisibles en el entorno y el éxito de estas debe
+ser validado con encuestas y otros métodos de satisfacción. Paralelamente, y de forma transversal,
+se aplicarán metodologías como el lean startup o scrum.
+En esta materia será fundamental emplear diferentes instrumentos de evaluación (exposición oral,
+presentaciones, informes, vídeos, infografías, etc.) y herramientas de evaluación (rúbricas, informes
+de aprendizaje, listas de control, escala de observación, etc.) para hacer observable la adquisición de
+los aprendizajes y hacer útiles los procesos de autoevaluación, coevaluación, evaluación continua,
+formativas y calificadora. Además, el empleo de las tecnologías digitales será transversal a lo largo
+de toda la materia y se fomentará en la consecución de los aprendizajes, tanto para el desarrollo de
+8
+
+=== Página 9 ===
+
+las actividades, tareas y proyectos como para la presentación y comunicación de los logros o
+resultados obtenidos. Finalmente, las situaciones de aprendizaje constituyen un componente que,
+alineado con los principios del Diseño Universal para el Aprendizaje (DUA), permiten aprender a
+aprender  y  sentar  las  bases  para  el  aprendizaje  a  lo  largo  de  la  vida,  fomentando  procesos
+pedagógicos flexibles y accesibles que se ajusten a las necesidades, características y diferentes
+ritmos de aprendizaje del alumnado.
+9
+
+=== Página 10 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Analizar y valorar las fortalezas y debilidades propias y de los demás, reflexionando sobre las
+aptitudes y gestionando de forma eficaz las emociones y las destrezas necesarias, para adaptarse
+a entornos cambiantes y diseñar un proyecto personal único que genere valor para los demás.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, CD1, CD2, CPSAA1,
+CPSAA5, CC1, CE2, CE3, CCEC3
+Criterios de evaluación
+1.1. Valorar las fortalezas y debilidades personales, así como la iniciativa y creatividad propia y ajena,
+haciendo uso de estrategias de autoconocimiento y autoeficacia, para aprender a valorarlas como
+fuente de crecimiento personal que le permitan afrontar futuros retos personales.
+CCL1, CPSAA1, CE2, CCEC3
+1.2. Gestionar de forma eficaz las emociones aplicando estrategias de gestión de la incertidumbre y
+toma de decisiones adaptadas a contextos cambiantes y utilizando el error y la validación como
+oportunidades para aprender con la finalidad de fortalecer el optimismo, la resiliencia y la autoestima y
+poder aplicarlas en distintas situaciones de la vida.
+CCL3, CD1, CPSAA1, CPSAA5, CE2,
+CCEC3
+1.3. Diseñar un proyecto personal generador de valor potenciando las aptitudes y destrezas personales,
+desarrollando las actitudes creativas y reflexionando sobre el valor estratégico de su marca personal
+con la finalidad de generar nuevas oportunidades personales y favorecer avances sociales, culturales,
+artísticos y económicos.
+CCL1, CD2, CPSAA1, CC1, CE2, CE3
+10
+
+=== Página 11 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se pretende comprobar la capacidad del alumnado para aplicar técnicas de autoconocimiento, gestionar las
+emociones e indagar en sus aspiraciones para desarrollar sus actitudes y destrezas, potenciar su creatividad y espíritu emprendedor y tomar
+conciencia de la importancia de lograr avances personales y sociales a través el proceso de ideación y diseño de soluciones emprendedoras en un
+contexto incierto y en una sociedad cambiante y globalizada. Para ello se verificará que es capaz de valorar las fortalezas y debilidades personales,
+utilizando técnicas de diagnóstico de debilidades y fortalezas (como los test de autoconocimiento, de diagnóstico emprendedor, análisis DAFO,
+análisis vocacional, dinámicas grupales de conocimiento y estima personal, etc.) para desarrollar un proceso de crecimiento personal y emprendedor
+que le permita afrontar retos personales, gestionar los cambios y armonizarlos con sus propios objetivos. Asimismo, se constatará la capacidad del
+alumnado para gestionar de forma eficaz las emociones a través del análisis de experiencias reales de emprendimiento para aprender de ellas, donde
+se ponga de manifiesto la influencia en el espíritu emprendedor de los pensamientos, las creencias y sentimientos personales y donde se perciba
+cómo la superación de los errores y fracasos del pasado son clave en el camino hacia el éxito. De la misma manera, se constatará que reflexiona
+sobre la importancia de aprender a gestionar la frustración ante los retos y cambios y la utilidad de aplicar para ello estrategias de gestión de la
+incertidumbre en contextos cambiantes (como pueden ser la toma de decisiones en entornos VUCA (V olatilidad, incertidumbre, complejidad,
+ambigüedad) o el proceso de planificación de toma de decisiones, por ejemplo), valorando que reconozca la aversión al riesgo y que asuma el error y
+la validación de las ideas y proyectos de negocio como oportunidades para aprender. Además, se evaluará si el alumnado es capaz de diseñar un
+proyecto personal que genere valor presente y futuro, utilizando diferentes herramientas, como las metas SMART o el modelo Grow, entre otros,
+para determinar sus metas personales, académicas y profesionales y materializando estos aprendizajes en la construcción de un producto digital
+personal (vídeo corto, pódcast, presentación…) que desarrolle la misión y visión de su perfil emprendedor y sus actitudes creativas, comprobando
+que reflexiona sobre el valor estratégico de su marca personal en la sociedad.
+Competencia específica
+2.  Utilizar  estrategias  de  conformación  de  equipos,  así  como  habilidades  sociales,  de
+comunicación e innovación ágil, aplicándolas con autonomía y motivación a las dinámicas de
+trabajo en distintos contextos, para constituir grupos de trabajo eficaces y descubrir el valor de
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, CP1, CP2, CD3, CPSAA1,
+CPSAA3, CC1, CE2
+11
+
+=== Página 12 ===
+
+cooperar  con  otras  personas  durante  el  proceso  de  ideación  y  desarrollo  de  soluciones
+emprendedoras.
+Criterios de evaluación
+2.1. Constituir equipos de trabajo basados en principios de equidad, coeducación e igualdad entre
+hombres y mujeres, con actitud participativa, motivación y visualización de metas comunes, utilizando
+técnicas de conformación de equipos y estrategias ágiles de trabajo durante el proceso de desarrollo de
+soluciones emprendedoras que conduzcan a la consecución del reto propuesto.
+CCL1, CCL5, CD3, CPSAA1, CPSAA3,
+CC1, CE2
+2.2. Poner en práctica habilidades sociales, de comunicación abierta y de liderazgo, cooperación e
+innovación ágil, valorando las aportaciones y experiencias ajenas y respetando las normas y decisiones
+tomadas  de  forma  colectiva  para  descubrir  el  valor  de  cooperar  con  otras  personas  con  espíritu
+constructivo y empatía en distintos contextos de los ámbitos personal, social, educativo y profesional.
+CCL1, CCL5, CP1, CP2, CD3, CPSAA3,
+CC1, CE2
+Explicación del bloque competencial
+Con la evaluación de esta competencia se persigue constatar que el alumnado adquiere destrezas de trabajo cooperativo, colaborativo y en equipo,
+empleando el diálogo y la visión compartida de los objetivos para lograr el éxito del proyecto que se pretende abordar. Para ello se comprobará que
+el alumnado participa en la constitución de equipos de trabajo eficaces, equilibrados, multidimensionales, diversos e inclusivos, empleando diversas
+técnicas de conformación de equipos, como por ejemplo, el puzle de Aronson, así como principios de equidad, coeducación e igualdad entre mujeres
+y hombres, para lo que se iniciará un proceso de reflexión sobre los rasgos característicos de las cualidades personales y habilidades sociales, tanto
+propios como ajenos, que permita compensar las debilidades y potenciar las fortalezas individuales y colectivas según las necesidades del proyecto a
+emprender. Además, se constatará que participa en su funcionamiento, distribuyendo y aceptando tareas, roles y responsabilidades, demostrando
+motivación, y que se ejercita en la puesta en práctica de estrategias ágiles de trabajo en equipo (como pudieran ser la dinámica  Marshmallow
+Challenge y Kanban o mapas de ruta, entre otras) para compartir metas comunes claras y medibles y funcionar con autonomía durante el proceso de
+desarrollo de soluciones emprendedoras. Paralelamente, se constatará que el alumnado es capaz de desarrollar y usar diversas habilidades sociales,
+12
+
+=== Página 13 ===
+
+como la empatía, la asertividad y el espíritu constructivo, habilidades de negociación, motivación, liderazgo y cooperación, que le preparen para
+aplicar la innovación ágil, así como habilidades de comunicación abierta en una o más lenguas a través del diálogo en el seno de los equipos de
+trabajo, incluyendo la utilización de herramientas o plataformas virtuales para comunicarse y compartir contenidos. Se evaluará, asimismo, su
+contribución a crear un buen clima de trabajo, para lo que, empleando diversos instrumentos como las actas de compromisos y reuniones, memorias,
+etc., se verificará que respeta las normas establecidas, participa de forma activa en la toma de decisiones de equipo, comprende proactivamente las
+perspectivas y las experiencias de los demás y las incorpora a su aprendizaje, construyendo vínculos de cooperación que redunden en el crecimiento
+personal y colectivo.
+Competencia específica
+3. Elaborar, con sentido ético y solidario, ideas y soluciones innovadoras y sostenibles que den
+respuesta  a  las  necesidades  locales  y  globales  detectadas,  utilizando  metodologías  ágiles  de
+ideación y analizando tanto sus puntos fuertes y débiles como el impacto que puedan generar
+esas ideas en el entorno, para lograr la superación de retos relacionados con la preservación y
+cuidado del entorno natural, social, cultural y artístico.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM1, STEM3,
+CD1, CPSAA1, CC4, CE1, CE2, CE3,
+CCEC3
+Criterios de evaluación
+3.1. Superar los retos propuestos sobre la preservación y cuidado del entorno natural, social, cultural y
+artístico,  aportando  ideas  creativas,  innovadoras  y  sostenibles  y  analizando  las  ventajas  e
+inconvenientes de las soluciones adoptadas para evaluar el impacto que pudieran generar a nivel
+personal y en el entorno socioeconómico canario y global al que van dirigidas.
+CCL1, CCL2, CCL3, STEM1, CD1, CC4,
+CE1, CE2, CCEC3
+3.2.  Aplicar  metodologías  ágiles  siguiendo  los  criterios  y  pautas  establecidos  en  el  proceso  de CCL1, STEM3, CPSAA1, CC4, CE1, CE3,
+13
+
+=== Página 14 ===
+
+construcción de ideas, que den solución ética y solidaria a las necesidades detectadas, atendiendo a
+razonamientos y resultados científicos, con la finalidad de promover el desarrollo sostenible con visión
+creativa, emprendedora y comprometida.
+CCEC3
+Explicación del bloque competencial
+Con la puesta en práctica de este bloque competencial se tratará de verificar la adquisición por parte del alumnado de las habilidades propias de la
+iniciativa emprendedora a través de la detección de oportunidades, la generación ágil de ideas innovadoras y el análisis de su impacto en los
+diferentes ámbitos, sectores y contextos vitales. En este sentido, se comprobará que el alumnado es capaz de aportar soluciones, con empatía y
+actitud colaborativa, a los retos propuestos relacionados con las desigualdades, la preservación y el cuidado del entorno natural, social, cultural y
+artístico, especialmente de la Comunidad Autónoma de Canarias, creando valor en los ámbitos personal, social, cultural y económico. En primer
+lugar, se corroborará que aplica al análisis del entorno un compendio de recursos, como pueden ser el estudio de casos, vídeos y artículos de prensa,
+así  como  estrategias  de  exploración,  buscando  y  gestionando  la  información  para  detectar  oportunidades  y  tendencias  (observación,  visitas
+inspiradoras a empresas o asociaciones y centros de emprendedores, encuestas, técnica de la «traslación» para innovar, etc.) y diversas herramientas
+de la metodología STEAM (gráficos, tablas, diagramas, indicadores, etc.). A continuación, se constatará su capacidad creativa para generar ideas y
+soluciones innovadoras, éticas y sostenibles, mediante la utilización de técnicas ágiles de ideación (por ejemplo, los métodos brainstorming, Walt
+Disney (pensamiento soñador, realista, crítico), seis sombreros para pensar,  brainwriting o escritura mental 6-3-5,  Design Thinking, entre otros),
+reconociendo la importancia de la innovación como fuente de transformación social. La contribución a la competencia específica será óptima en este
+sentido cuando el alumnado actúe como agente que apoya la creación de proyectos sociales emprendedores llevando a cabo una experiencia
+innovadora de valor en sectores productivos o en los distintos géneros culturales o artísticos en la cual, el aprendizaje-servicio y la economía social y
+solidaria contribuyan, por un lado, al logro de los Objetivos de Desarrollo Sostenible (ODS) y a las metas incluidas en la Agenda Canaria de
+Desarrollo Sostenible 2030 y, por otro, a la progresiva adopción personal de un estilo de vida sostenible y responsable. De la misma manera, se
+verificará que infiere a sus propuestas la misión, visión y valores de las empresas y objetivos de responsabilidad social empresarial, evaluando las
+ventajas e inconvenientes de la ideación realizada, su sostenibilidad y el impacto que pudiera generar tanto a nivel personal como en el entorno
+socioeconómico canario y global, empleando métodos de validación de ideas (DAFO empresarial, conexiones morfológicas cruzadas, análisis coste-
+beneficio  de  proyectos  sociales…)  e  interpretando  y  transmitiendo  en  diferentes  formatos  los  resultados  validados  para  entrenar  su  visión
+emprendedora y desarrollar las destrezas del trabajo cooperativo, colaborativo y en equipo.
+14
+
+=== Página 15 ===
+
+Competencia específica
+4. Seleccionar y reunir los recursos disponibles en el proceso de desarrollo de la idea o solución
+creativa propuesta, que proporcionan dichos recursos y aplicando estrategias de captación de los
+mismos, para poner en marcha el proyecto que lleve a la realidad la solución emprendedora.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM3, CD1, CD2,
+CPSAA3, CE1, CE2
+Criterios de evaluación
+4.1. Diseñar de forma cooperativa un proyecto de conversión de las ideas en acciones emprendedoras,
+seleccionando y reuniendo los recursos materiales, inmateriales y digitales disponibles para poner en
+marcha un proceso creativo que lleve a la realidad una solución innovadora, ética y sostenible para la
+necesidad o problema que se plantea en su entorno.
+CCL3, STEM3, CD1, CD2, CPSAA3,
+CE1, CE2
+4.2.  Utilizar  estrategias  de  captación  y  gestión  de  los  medios  de  producción  y  de  las  fuentes
+financieras,  aplicando  conocimientos  económicos  y  financieros  fundamentales  para  planificar  la
+organización, distribución, uso y optimización de los recursos necesarios para la puesta en marcha de
+la idea o solución propuesta.
+CCL1, CCL3, STEM3, CD1, CD2, CE1,
+CE2
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar de forma creativa y cooperativa un proyecto viable de
+conversión de las ideas en acciones emprendedoras, innovadoras, éticas y sostenibles, centradas en la creación de valor personal, social, cultural y
+económico, mediante el empleo eficiente de recursos personales, materiales e inmateriales, aplicando para ello herramientas de colaboración ágiles
+utilizadas  en  la  empresa  como  lienzos  de  negocios,  tableros  digitales,  aplicaciones  de  creación  de  organigramas  online,  etc.,  a  partir  de
+conocimientos económicos sobre las áreas funcionales, los recursos productivos y la organización y gestión de las entidades emprendedoras.
+Asimismo, se evaluará que utiliza estrategias de captación y gestión de los medios de producción y de las fuentes financieras disponibles para el
+15
+
+=== Página 16 ===
+
+desarrollo y la puesta en marcha de la idea o solución creativa propuesta, constatando la adquisición de conocimientos financieros y económicos
+sobre la gestión del dinero, la toma de decisiones racionales sobre el control de ingresos y gastos y explicando las ventajas e inconvenientes que
+presentan las diversas fuentes de financiación, internas y externas (reservas, préstamos, créditos comerciales, leasing, subvenciones, crowdfundings,
+plataformas  P2P de  «préstamos  peer  to  peer»…).  Para  adquirir  estos  saberes  y  aprendizajes  resultan  de  utilidad  las  visitas  a  centros  de
+emprendedores  y  emprendedoras,  viveros  de  empresas,  sociedades  de  promoción  económica,  cámaras  de  comercio  o  parques  científicos  y
+tecnológicos como primera aproximación a agentes que impulsan la implantación de iniciativas empresariales en la Comunidad Autónoma de
+Canarias. Adicionalmente, se valorará que toma conciencia de la importancia que supone para la pervivencia del proyecto emprendedor la relación
+entre el endeudamiento y el equilibrio financiero, considerando la gestión del riesgo y poniendo en valor la protección que ofrecen los seguros.
+Además, se constatará para la adquisición de esta competencia que el alumnado utiliza destrezas que favorezcan el trabajo cooperativo, colaborativo
+y en equipo, que utiliza diferentes herramientas digitales que faciliten la creación, edición y gestión colaborativa del proyecto, seleccionando y
+configurando la más adecuada en función de la tarea y de las necesidades del proyecto, y que emprende búsquedas en internet y aplica estrategias de
+tratamiento de la información atendiendo a criterios de calidad y fiabilidad, como pudieran ser comparativas de productos financieros, portales de
+subvenciones, plataformas de financiación, entre otras. Por último, como los resultados que exhiba el alumnado en la materialización del proyecto y
+en los derechos sobre el prototipo del producto o servicio ideado son activos tangibles e intangibles susceptibles de protección jurídica, el alumnado
+será capaz de identificar las distintas modalidades de propiedad intelectual e industrial a las que puede acogerse, observando las recomendaciones e
+informaciones publicadas en las páginas web de diversas instituciones (Oficina Española de Patentes y Marcas, Instituto Nacional de Ciberseguridad
+en España, Oficina de Seguridad del Internauta, Agencia Española de Protección de Datos o la Organización Mundial de la Propiedad Intelectual,
+entre otras).
+Competencia específica
+5. Presentar y exponer ideas y soluciones creativas, utilizando estrategias comunicativas ágiles y
+valorando la importancia de una comunicación efectiva y respetuosa, para transmitir mensajes
+convincentes adecuados al contexto y a los objetivos concretos de cada situación y validar las
+ideas y soluciones presentadas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, CP1, CD1, CD2,
+CD3, CPSAA1, CC1, CE1, CE2
+16
+
+=== Página 17 ===
+
+Criterios de evaluación
+5.1. Validar las ideas y soluciones desarrolladas empleando mensajes convincentes y adecuados al
+contexto y objetivos concretos, utilizando estrategias comunicativas ágiles para participar en la toma
+de  decisiones  sobre  la  elección  final  con  actitud  cooperativa  y  respetuosa  en  el  intercambio  de
+información y creación de conocimiento respecto a las situaciones propuestas.
+CCL2, CCL3, CD1, CD2, CD3, CPSAA1,
+CC1, CE2
+5.2.  Presentar  y  exponer  en  el  entorno  las  ideas  y  soluciones  creativas  adoptadas,  utilizando
+herramientas y estrategias de difusión ágil para valorar la importancia de mantener una comunicación
+efectiva y respetuosa.
+CCL1, CP1, CD2, CD3, CE1
+Explicación del bloque competencial
+Con este bloque competencial se pretende comprobar que el alumnado es capaz de aplicar estrategias de difusión para presentar y exponer en el
+entorno de manera atractiva, asertiva y convincente las ideas y soluciones creativas que se pretenden desarrollar en el proyecto, por medio de, en
+primer lugar, los aprendizajes que pueda extraer de la información, visualización multimedia o la participación directa relacionada con diferentes
+actividades comunicativas (ferias, encuentros con prescriptores expertos, eventos de  cobranding, foros, etc.) y, en segundo lugar, del manejo de
+herramientas comunicativas ágiles para construir y facilitar la comprensión del mensaje, como el resumen ejecutivo o las basadas en el uso de
+imágenes y diagramas, como el Visual Thinking (storyboard, infografías y presentaciones animadas,…) o en el relato (como las píldoras informativas
+Ted Talks, pódcast, etc.), o las presentadas en formato audiovisual (edición de vídeos cortos para exponer un discurso tipo  elevator pitch , un
+storytelling audiovisual o para presentar en concursos escolares, por ejemplo). La adquisición de todos estos aprendizajes requieren de la transmisión
+de mensajes convincentes y adecuados al contexto y contribuirán a la consecución de los descriptores del Perfil de salida, debiendo comprobarse que
+el alumnado es capaz de expresarse con coherencia y corrección a la hora de intercambiar información, crear conocimiento, transmitir opiniones y
+utilizar su entorno personal digital de aprendizaje para crear contenidos digitales y compartirlos, participando en actividades y proyectos escolares o
+entornos digitales restringidos, verificando, asimismo, que sus acciones y estrategias de comunicación en plataformas digitales sean responsables,
+cívicas y reflexivas y que su huella digital genere un impacto de carácter positivo. Por último, se comprobará que el alumnado es capaz de validar y
+contrastar, en un proceso de retroalimentación, las ideas y soluciones desarrolladas, adoptando decisiones consensuadas en equipo sobre la elección
+17
+
+=== Página 18 ===
+
+final de la solución, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con las demás personas y
+empleando herramientas como los debates con asignación de roles o el modelo Lean Canvas.
+Competencia específica
+6.  Comprender  aspectos  básicos  de  la  economía  y  las  finanzas,  valorando  críticamente  el
+problema de la escasez de recursos y la necesidad de elegir, así como los principios de interacción
+social desde el punto de vista económico, para relacionar dichos aspectos con la búsqueda y
+planificación de los recursos necesarios en el desarrollo de la idea o solución emprendedora que
+afronte el reto planteado de manera eficaz, equitativa y sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM2, CC1, CC4, CE1, CE2,
+CE3
+Criterios de evaluación
+6.1.  Desarrollar  una  idea  o  emprendedora  utilizando  los  conocimientos,  destrezas  y  actitudes
+adquiridos desde el ámbito de la economía y las finanzas, con la finalidad de tomar decisiones sobre la
+búsqueda y planificación de los recursos escasos, necesarios y disponibles en el entorno que permitan
+su desarrollo.
+CCL1, CE1, CE2, CE3
+6.2. Analizar el comportamiento financiero de las personas utilizando herramientas financieras para
+comprender con precisión el entorno económico y financiero que les permita optimizar los recursos
+necesarios que lleven a la acción una experiencia emprendedora de valor.
+CCL1, STEM2, CC1, CC4, CE2
+6.3.  Valorar  los  principios  de  interacción  social  desde  un  punto  de  vista  macroeconómico  y
+microeconómico  analizando  el  entorno  general  y  específico  y  situaciones  de  negocios  reales  o
+CCL1, STEM2, CC1, CC4, CE2, CE3
+18
+
+=== Página 19 ===
+
+simuladas para aplicar conocimientos económicos y financieros a actividades y situaciones concretas.
+Explicación del bloque competencial
+El desarrollo de este bloque competencial permitirá constatar si el alumnado es capaz de determinar la admisibilidad de las ideas o soluciones
+emprendedoras dentro de su entorno económico, contrastando la satisfacción de las necesidades detectadas y guiando la toma de decisiones con el
+empleo de conocimientos económicos y financieros que le permitan reunir y optimizar los recursos necesarios para poner en marcha el proyecto
+emprendedor. Para la consecución de estos aprendizajes se requiere tener en cuenta, en primer lugar, el problema económico básico que obliga a las
+personas a tomar decisiones, para lo que se verificará su capacidad para realizar elecciones bajo el prisma de los principios económicos de los costes,
+el análisis marginal y los incentivos, en función del grado de escasez percibido para cubrir las necesidades y que reflexiona sobre cómo esta toma de
+decisiones de las personas usuarias, como destinatarias finales del prototipo, afecta a su vez a las empresas. Además, para optimizar la toma de
+decisiones en los mercados, el alumnado podría también hacer uso de herramientas de estudio del sector y de investigación de las necesidades de los
+clientes (configuración de motores de búsqueda en internet y redes, mapa de la empatía, entrevistas con clientes, etc.) para descubrir oportunidades y
+necesidades  no  cubiertas.  En  segundo  lugar,  a  través  de  este  bloque  competencial  se  validará  la  capacidad  el  alumnado  para  analizar  el
+funcionamiento económico y financiero de los mercados, con la finalidad de que los conocimientos adquiridos le guíen en la toma de decisiones
+financieras personales de forma responsable y en la búsqueda y planificación de los recursos necesarios para el desarrollo de las ideas o soluciones
+emprendedoras, como pudieran ser el funcionamiento del sistema financiero en nuestra sociedad, la descripción del papel de los intermediarios
+financieros como canalizadores del ahorro hacia las necesidades de inversión de consumidores y de empresas, el papel del dinero en la economía, la
+determinación del tipo de interés, la reflexión sobre activos digitales como las criptomonedas, etc. Además, se comprobará que valora los principios
+de interacción social desde un punto de vista macroeconómico y microeconómico, indagando en el papel que desempeñan los agentes económicos
+dentro de la modelización del flujo circular de la renta y analizando los flujos reales y monetarios que surgen de las relaciones que emanan del
+funcionamiento de los mercados de bienes y servicios y de factores productivos. En tercer lugar, se verificará que el alumnado esté en disposición de
+aplicar de forma práctica conocimientos económicos a actividades y situaciones concretas, empleando el pensamiento científico, mediante la
+interpretación de indicadores, tanto del entorno general o macroeconómico (análisis PESTEL, por ejemplo) como el específico o microeconómico
+(como el análisis de las estrategias competitivas de Porter), que afectan al proyecto emprendedor propuesto, a partir de otros modelos reales o
+simulados de referencia, analizando tendencias y oportunidades de negocios en los mercados y en la sociedad, para así ir perfeccionando la solución
+a los retos actuales de manera eficiente, equitativa y sostenible.
+19
+
+=== Página 20 ===
+
+Por último, en cuanto a la comprensión de ideas relativas a la dimensión social y ciudadana, la adquisición de los saberes relacionados con la
+economía colaborativa, la huella ecológica, la economía circular y el bienestar y las desigualdades que genera el comercio conferirán en el alumnado
+un punto de vista más extenso sobre las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y
+globales, permitiendo constatar que el alumnado es capaz de considerar estos entornos de mayor cooperación global como fuente de búsqueda de
+nuevas oportunidades dirigidas a tomar decisiones que aporten valor y que favorezcan mejoras en la calidad de vida, mostrando respeto por las
+normas y el cumplimiento de los derechos y obligaciones de las personas usuarias como consumidoras, los cuales difieren entre países, fruto de las
+afecciones dispares de las decisiones económicas públicas y privadas.
+Competencia específica
+7.  Construir  y  analizar  de  manera  cooperativa,  autónoma  y  ágil  prototipos  innovadores  y
+sostenibles, aplicando estrategias eficaces de diseño y ejecución, evaluando todas las fases del
+proceso de manera crítica y ética, y validando los resultados obtenidos tanto para la mejora y
+perfeccionamiento de los prototipos creados como para el aprendizaje y el desarrollo personal y
+colectivo.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM3, CD5, CPSAA3,
+CPSAA4, CPSAA5, CE2, CE3
+Criterios de evaluación
+7.1. Valorar la contribución del prototipo final, tanto para el aprendizaje como para el desarrollo
+personal y colectivo, evaluando de manera crítica y ética todas las fases del proceso llevado a cabo, así
+como la adecuación de las estrategias empleadas en la construcción del mismo para alcanzar objetivos
+a través de la eficacia tanto en las relaciones personales e interpersonales como en la gestión de nuevos
+proyectos.
+CPSAA3, CPSAA4, CPSAA5, CE3
+20
+
+=== Página 21 ===
+
+7.2. Analizar de manera crítica el proceso de diseño y ejecución llevado a cabo en la realización de los
+prototipos creados, estableciendo comparaciones entre la efectividad, viabilidad y adecuación lograda
+en los procesos y los resultados obtenidos, para llevar a término el proceso de creación de prototipos
+innovadores y de valor en el ámbito personal, académico y profesional.
+STEM2, CPSAA4, CPSAA5, CE2, CE3
+7.3.  Utilizar  estrategias  eficaces  de  diseño  y  ejecución  seleccionando  aquellas  que  faciliten  la
+construcción del prototipo final de manera ágil, cooperativa y autónoma para desarrollar habilidades
+de organización y control de tiempos y autonomía en el aprendizaje proactivo.
+STEM2, STEM3, CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue constatar que el alumnado es capaz de valorar la contribución del prototipo final, tanto para el
+aprendizaje como para el desarrollo personal y colectivo, comprobando que desarrolla procesos metacognitivos de retroalimentación para aprender
+de sus errores en el proceso de construcción del conocimiento y que evalúa las fortalezas y debilidades propias, en todas las fases del proceso llevado
+a cabo, así como la adecuación y eficacia de las estrategias empleadas en la construcción del mismo, valorando la utilidad que le ha supuesto la
+aplicación de los conocimientos económicos y financieros adquiridos. El conocimiento extraído será fruto no solo de la interacción y  feedback
+alcanzado en el equipo de trabajo, sino también del proceso de coevaluación que lleva al alumnado a involucrarse de manera más activa y
+autodirigida en su proceso de aprendizaje. La evaluación de esta competencia se llevará a cabo de forma continua a lo largo proceso constructivo de
+conversión de la idea innovadora en prototipo final, para lo que se programarán periodos cortos de trabajo en los que se evaluarán de forma crítica y
+ética todos los aprendizajes individuales y colectivos experimentados y se comprobará que el alumnado es capaz de explicar de forma cooperativa,
+autónoma y ágil, utilizando aplicaciones informáticas sencillas, el diseño y los resultados obtenidos en cada una de las fases del plan. Por tanto, se
+verificará, en primer lugar, que analizan el proceso de ideación seguido, describiendo la transformación de las ideas creativas en hipótesis de
+solución  innovadoras.  En  segundo  lugar,  se  comprobará  que  describen  el  proceso  de  construcción  de  prototipos,  exponiendo  las  técnicas  y
+herramientas ágiles empleadas para su desarrollo y las estrategias de selección de recursos, el modelo de organización planteado y demás decisiones
+tomadas para llevar a cabo el proyecto de forma viable y sostenible. Por último, se corroborará la capacidad del alumnado para validar el desarrollo
+ágil e incremental del prototipo, demostrando que ofrece soluciones óptimas y sostenibles en el sector al que va dirigido, utilizando para ello
+metodologías como Lean Startup y Scrum y otras herramientas y técnicas (cuadro de seguimiento de los indicadores, elaboración de informes,
+encuestas de satisfacción a personas usuarias, opiniones de expertos y expertas, entre otras). Esta valoración del proceso de trabajo de innovación
+21
+
+=== Página 22 ===
+
+ágil será óptima cuando el alumnado exhiba comprender proactivamente las perspectivas y las experiencias de las demás personas para incorporarlas
+a su aprendizaje considerando la experiencia como una oportunidad para aprender, creyendo en sí mismo o en sí misma como persona emprendedora
+capaz de planear objetivos a medio plazo y de aportar valor a la sociedad a través de nuevos prototipos, productos o servicios que, acordes con la
+sostenibilidad, la ética y la eficiencia, despierten emociones o suplan las necesidades de las personas consumidoras finales.
+22
+
+=== Página 23 ===
+
+Saberes básicos
+I. El perfil de la persona emprendedora, destrezas para el trabajo en equipo, iniciativa y
+creatividad
+ 1. Identificación  del  perfil  de  la  persona  emprendedora:  autoconfianza,  autoconocimiento,
+empatía,  perseverancia,  iniciativa  y  resiliencia.  Utilización  del  DAFO  personal  y  otras
+técnicas de diagnóstico de debilidades y fortalezas.
+ 2. Gestión de las emociones. Aplicación de estrategias de gestión de la incertidumbre y toma de
+decisiones en contextos cambiantes. El error y la validación como proceso de aprendizaje de
+la autoestima, autoconfianza y autonomía.
+ 3. Diseño de un proyecto personal generador de valor: herramientas para desarrollar la visión
+emprendedora y la iniciativa personal.
+ 4. La motivación, las habilidades sociales, de negociación, de liderazgo y comunicativas de las
+personas emprendedoras: importancia para el desarrollo personal y para el trabajo en equipo.
+ 5. Los equipos emprendedores en las empresas y organizaciones. 
+ 5.1. La  constitución  de  equipos  de  trabajo  eficaces:  características  y  principios  de
+conformación de equipos. Aplicación de técnicas de constitución de equipos.
+ 5.2. Funcionamiento interno de los equipos de trabajo eficaces.
+ 5.3. La puesta en práctica de estrategias ágiles de trabajo en equipo.
+ 6. El entrenamiento de la iniciativa y la creatividad en la búsqueda de ideas y soluciones:
+Design thinking (o pensamiento de diseño) y aplicación de otras técnicas ágiles de ideación e
+innovación.
+II. El entorno como fuente de ideas y oportunidades
+1. Estrategias de exploración del entorno en el desarrollo del proyecto emprendedor. La visión
+emprendedora. 
+ 1.1. La búsqueda y gestión de la información para identificar oportunidades de mercado y
+tendencias sociales en el entorno.
+ 1.2. Análisis de la influencia del entorno en las ideas: métodos DAFO empresarial y otros
+métodos de análisis de ideas.
+ 2. Análisis del entorno social, cultural y ambiental desde una perspectiva económica. 
+ 2.1. Las soluciones a los retos medioambientales y sociales de los modelos productivos y
+económicos  alternativos:  la  huella  ecológica  y  la  economía  circular.  La  economía
+colaborativa. Estudio de casos prácticos.
+ 2.2. Los proyectos emprendedores en torno al bienestar de las personas: la economía social
+y solidaria.
+ 2.3. Los  Objetivos  de  Desarrollo  Sostenible  (ODS)  y  el  desarrollo  local  en  Canarias:
+oportunidades para la innovación social. Estudio de casos prácticos.
+23
+
+=== Página 24 ===
+
+2.4. El  emprendimiento cultural: Sectores productivos y géneros del entorno  cultural y
+artístico. Agentes que apoyan la creación de proyectos culturales emprendedores.
+ 3. La estrategia empresarial como fuente de transformación social. Estudio de casos prácticos. 
+ 3.1. Misión, visión y valores de la empresa o entidad.
+ 3.2. La  influencia  de  la  empresa  en  el  entorno  económico,  social  y  ambiental:  la
+responsabilidad social corporativa y su contribución a los ODS.
+ 3.3. La decisión empresarial y la innovación como fuente de transformación social.
+ 4. Análisis del entorno y de la toma de decisiones de los consumidores, desde la perspectiva
+económica. 
+ 4.1. La comprensión del problema económico: la escasez de recursos y la necesidad de
+elegir.
+ 4.2. Los principios de la elección individual: el coste de nuestras decisiones, el análisis
+marginal y los incentivos.
+ 4.3. El comportamiento de las personas en las decisiones: la racionalidad económica.
+ 4.4. La interrelación de las decisiones con el comercio: el bienestar y las desigualdades. La
+comparación de los modelos económicos tradicionales y alternativos.
+ 4.5. La  toma  de  decisiones  de  las  personas  usuarias:  como  consumidoras  y  como
+destinatarias finales de los prototipos de los proyectos emprendedores. Aplicación de
+técnicas de investigación de las necesidades de las personas consumidoras. Derechos y
+obligaciones de las personas consumidoras.
+ 5. Análisis  del  entorno  económico-empresarial  para  el  desarrollo  de  los  proyectos
+emprendedores. 
+ 5.1. Las interacciones sociales en la economía: estudio de las funciones de los agentes
+económicos mediante la modelización del flujo circular de la renta. El funcionamiento
+de los mercados.
+ 5.2. El mercado y las oportunidades de negocio: aplicación de técnicas de análisis del
+entorno general o macroentorno y del análisis del entorno específico o microentorno.
+Métodos de análisis de la competencia.
+ 5.3. El  funcionamiento  del  sistema  financiero  en  nuestra  sociedad.  El  papel  de  los
+intermediarios financieros entre el ahorro y la inversión de consumidores y empresas. El
+papel del dinero en la economía y la determinación de su precio.
+III. Recursos para llevar a cabo un proyecto emprendedor
+ 1. El estudio de la organización y de la gestión en las entidades emprendedoras. La descripción
+de las áreas funcionales de las empresas.
+24
+
+=== Página 25 ===
+
+2. La selección ética, eficiente y sostenible de los recursos productivos para el desarrollo de la
+idea o solución creativa propuesta.
+ 3. El control y la gestión del dinero en las finanzas personales y en el proyecto emprendedor. 
+ 3.1. Las fuentes y el control de los ingresos y gastos: la formulación y gestión de los
+presupuestos personales.
+ 3.2. Los recursos financieros a corto y largo plazo y su relación con el bienestar financiero.
+La gestión del endeudamiento: la calidad y el nivel de endeudamiento.
+ 3.3. La tipología, las ventajas e inconvenientes de las fuentes de financiación. Las distintas
+formas de captación de los recursos financieros para la puesta en marcha del proyecto
+emprendedor.
+ 3.4. La gestión del riesgo y los contratos de seguros: funcionamiento y tipología.
+IV . La realización del proyecto emprendedor
+ 1. El reto o desafío como objetivo en el desarrollo de soluciones emprendedoras.
+ 2. Planificación, gestión y ejecución cooperativa de un proyecto emprendedor grupal. Del reto
+al prototipo, proceso constructivo en equipo.
+ 3. Aplicación de técnicas y herramientas de prototipado rápido para la representación de la
+solución a validar.
+ 4. Presentación e introducción del prototipo en el entorno. Aplicación de estrategias ágiles de
+difusión y comunicación.
+ 5. La validación y el testado de prototipos. 
+ 5.1. Aplicación de metodologías y técnicas para la validación del desarrollo e innovación
+ágil, iterativa e incremental del prototipo final.
+ 5.2. Evaluación  del  aprendizaje  experimentado  a  lo  largo  del  proceso  seguido  en  el
+desarrollo de las soluciones emprendedoras: la retroalimentación.
+ 6. Los derechos sobre el prototipo: valoración de las modalidades de propiedad intelectual e
+industrial.
+25

@@ -1,0 +1,50 @@
+name: Sugerir melhoria
+description: Nova verificação, cenário, template, relatório ou suporte a outra ferramenta de IA.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de melhoria
+      options:
+        - Nova verificação ou ajuste em módulo existente
+        - Novo cenário ou comando
+        - Template ou formato de relatório
+        - Suporte a nova ferramenta de IA no instalador
+        - Instalador (outra melhoria)
+        - Documentação
+        - Outra
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou necessidade
+      description: Que situação hoje não é bem atendida? Para quem?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: |
+        Como deveria funcionar. Para novas verificações, informe o artigo da LGPD (ou norma vigente) que as fundamenta.
+        Para nova ferramenta, informe onde ela lê comandos e skills (com link para a documentação oficial).
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribuicao
+    attributes:
+      label: Contribuição
+      options:
+        - label: Tenho interesse em abrir o PR com essa melhoria.

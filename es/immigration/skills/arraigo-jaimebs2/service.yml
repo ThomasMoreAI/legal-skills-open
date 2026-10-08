@@ -1,0 +1,56 @@
+name: extranjeria-arraigo
+display_name: Extranjería — Arraigo (Social, Laboral, Familiar, Formación)
+description: >
+  Guía completa sobre las vías de arraigo para la regularización de
+  extranjeros en situación irregular en España: arraigo social (3 años +
+  contrato + informe de inserción social), arraigo laboral (2 años + relación
+  laboral), arraigo familiar (progenitor de menor español o hijo de español),
+  arraigo para la formación (2 años + compromiso formativo). Requisitos,
+  procedimiento, documentación, acreditación de permanencia y preguntas
+  frecuentes.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones
+tags: [extranjería, arraigo, arraigo social, arraigo laboral, arraigo familiar, regularización, situación irregular, informe inserción social, inmigración, España]
+
+links:
+  website: https://extranjeros.inclusion.gob.es
+  sede_electronica: https://sede.inclusion.gob.es
+  procedimientos: https://extranjeros.inclusion.gob.es/es/informacioninteres/informacionprocedimientos/
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+
+license:
+  data: Información pública del Ministerio de Inclusión, Seguridad Social y Migraciones
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre las vías de arraigo
+    y redirige a skills de residencia, trabajo y Seguridad Social para
+    temas complementarios.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de arraigo (social, laboral, familiar, formación) y requisitos de cada uno
+    - Informe de inserción social (qué es, cómo obtenerlo, qué valora)
+    - Procedimiento de solicitud y dónde presentarla
+    - Documentación necesaria
+    - Acreditación de la permanencia en España
+    - Plazos de resolución
+    - Preguntas frecuentes sobre regularización
+  not_accessible:
+    - Tramitación real del arraigo (requiere Oficina de Extranjería)
+    - Consulta de expedientes individuales
+    - Informes de inserción social (se solicitan en servicios sociales)
+    - Detalle sobre permisos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre permisos de trabajo (usar skill extranjeria-trabajo)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

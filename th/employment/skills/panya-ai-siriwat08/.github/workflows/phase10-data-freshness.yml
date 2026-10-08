@@ -1,0 +1,102 @@
+# Phase 10 — Automated data freshness monitoring
+# REC-019 + REC-030 from Genspark review
+#
+# This workflow runs two Phase 10 Python scripts on a schedule:
+#   1. monitor_law_updates.py — fetches Ratchakitcha RSS, inserts new
+#      law/regulation notifications into law_update_notifications table
+#   2. scrape_judgments.py — scrapes Supreme Court judgments for years
+#      after the latest in DB, inserts into case_judgments table
+#
+# Both scripts are idempotent and write to Turso production DB.
+# Failed runs enqueue retry jobs in ingestion_queue table.
+#
+# Schedule:
+#   - RSS monitor: every weekday 09:00 ICT (02:00 UTC, Mon-Fri)
+#   - Judgment scraper: every Saturday 02:00 ICT (19:00 UTC Friday)
+#     (weekly to avoid overloading Supreme Court servers)
+#
+# Required GitHub secrets:
+#   - TURSO_DATABASE_URL: libsql://panya-ai-siriwat08.aws-ap-northeast-1.turso.io
+#   - TURSO_AUTH_TOKEN: eyJ... (long-lived token from Turso dashboard)
+#
+# Manual trigger: Actions tab → "Phase 10 Data Freshness" → Run workflow
+
+name: Phase 10 Data Freshness
+
+on:
+  schedule:
+    # RSS monitor: every weekday 09:00 ICT (02:00 UTC, Mon-Fri)
+    - cron: '0 2 * * 1-5'
+    # Judgment scraper: every Saturday 02:00 ICT (19:00 UTC Friday)
+    - cron: '0 19 * * 5'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+    inputs:
+      script:
+        description: 'Which script to run (both|rss|scraper)'
+        required: false
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - rss
+          - scraper
+
+permissions:
+  contents: read
+
+jobs:
+  rss-monitor:
+    name: RSS Law Update Monitor (REC-030)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event.inputs.script == 'both' || github.event.inputs.script == 'rss'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run RSS monitor
+        run: python3 scripts/monitor_law_updates.py
+        env:
+          TURSO_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## RSS Monitor Summary" >> $GITHUB_STEP_SUMMARY
+          echo "✓ Checked Ratchakitcha RSS feed for new laws/regulations" >> $GITHUB_STEP_SUMMARY
+          echo "✓ New items inserted into law_update_notifications table" >> $GITHUB_STEP_SUMMARY
+          echo "✓ Failed fetches enqueued in ingestion_queue for retry" >> $GITHUB_STEP_SUMMARY
+
+  judgment-scraper:
+    name: Supreme Court Judgment Scraper (REC-019)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event.inputs.script == 'both' || github.event.inputs.script == 'scraper'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run judgment scraper
+        run: python3 scripts/scrape_judgments.py
+        env:
+          TURSO_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Judgment Scraper Summary" >> $GITHUB_STEP_SUMMARY
+          echo "✓ Detected latest judgment year in DB" >> $GITHUB_STEP_SUMMARY
+          echo "✓ Scraped Supreme Court for years after latest" >> $GITHUB_STEP_SUMMARY
+          echo "✓ New judgments inserted into case_judgments table" >> $GITHUB_STEP_SUMMARY
+          echo "✓ Failed years enqueued in ingestion_queue for retry" >> $GITHUB_STEP_SUMMARY

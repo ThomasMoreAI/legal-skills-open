@@ -4,11 +4,12 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `pl` · Practice: `contracts` · Skill language: pl
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Law PL reviewing vehicle contract`](skills/reviewing-vehicle-contract/) | Use when auditing Polish vehicle sale contract (umowa kupna-sprzedaży pojazdu) — VIN / przebieg, title… |
+| [`SAOS - Polish Case Law Search`](skills/saos-orzecznictwo-matematicsolutions/) | Search and retrieve Polish court judgments via the SAOS REST API (System Analizy Orzeczen Sadowych… |
 
 ## Cold-start context
 

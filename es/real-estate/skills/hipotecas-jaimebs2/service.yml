@@ -1,0 +1,58 @@
+name: vivienda-hipotecas
+display_name: Vivienda — Hipotecas
+description: >
+  Guía completa sobre hipotecas en España: tipos (fija, variable, mixta),
+  diferencia entre TAE y TIN, Euribor y cómo afecta a la cuota, gastos
+  de constitución (quién paga qué desde la Ley 5/2019), vinculaciones y
+  bonificaciones, FEIN y FiAE (documentos precontractuales obligatorios),
+  amortización anticipada (total y parcial, comisiones máximas),
+  subrogación y novación, Código de Buenas Prácticas Bancarias para
+  deudores vulnerables, y simuladores del Banco de España.
+organization: Banco de España (BdE)
+tags: [vivienda, hipoteca, tipo fijo, tipo variable, TAE, TIN, Euribor, FEIN, FiAE, amortización anticipada, subrogación, novación, Ley 5/2019, Código Buenas Prácticas, simulador hipoteca]
+
+links:
+  bde_folletos: https://www.bde.es/bde/es/secciones/informes/Folletos/
+  simulador_bde: https://app.bde.es/asb_www/es/cuota.html
+
+license:
+  data: Información pública — Banco de España y legislación española
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    tramita operaciones bancarias. Proporciona la guía completa sobre
+    hipotecas y redirige a skills específicas (bde, vivienda-compraventa,
+    fiscalidad-itp-ajd) para detalle sobre Euribor, compraventa o
+    fiscalidad.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de hipoteca (fija, variable, mixta) y sus características
+    - Diferencia entre TAE y TIN
+    - Euribor — qué es, cómo afecta a la cuota, dónde consultarlo
+    - Gastos de constitución y quién paga qué (Ley 5/2019)
+    - Vinculaciones y bonificaciones habituales
+    - FEIN y FiAE — documentos precontractuales obligatorios
+    - Amortización anticipada (parcial y total) y comisiones máximas
+    - Subrogación y novación — diferencias y cuándo conviene cada una
+    - Código de Buenas Prácticas Bancarias para deudores vulnerables
+    - Simuladores del Banco de España
+  not_accessible:
+    - Ofertas concretas de bancos (cambian constantemente)
+    - Euribor actual y series históricas (usar skill bde)
+    - Proceso de compraventa (usar skill vivienda-compraventa)
+    - Fiscalidad de la compraventa — ITP/AJD (usar skill fiscalidad-itp-ajd)
+    - Tramitación real de hipotecas (requiere relación bancaria)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

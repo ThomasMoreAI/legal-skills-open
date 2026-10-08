@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2010-07-08/81">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2010-07-08/81/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2010-07-08/81"/>
+          <FRBRdate date="2010-07-08" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="81"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2010-07-08/81/spa@/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2010-07-08/81/spa@"/>
+          <FRBRdate date="2010-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2010-07-08/81/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2010-07-08/81/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.-</num>
+        <heading>Creación, transformación y supresión de los centros docentes.</heading>
+        <paragraph eId="art_2__para_1">
+          <num>1.</num>
+          <content><p>La creación, transformación y supresión de los centros a que se refiere el artículo anterior, o cualquier otro tipo de modificación, tales como integración o desdoblamiento o cambios de ubicación, corresponde al Gobierno de Canarias mediante Decreto, a propuesta de la Consejería competente en materia educativa.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>2.</num>
+          <content><p>Las Entidades que integran la Administración Local podrán proponer o solicitar la creación de los centros a los que se refiere el artículo anterior, de acuerdo con las disposiciones específicas que se establezcan y que tendrán, a todos los efectos, el carácter de centros públicos.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

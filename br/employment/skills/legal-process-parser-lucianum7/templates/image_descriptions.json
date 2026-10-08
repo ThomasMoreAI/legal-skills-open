@@ -1,0 +1,27 @@
+{
+  "pages": {
+    "1": {
+      "semantic_description": "Descreva a página inteira com visão semântica objetiva; não infira autenticidade ou significado jurídico.",
+      "transcription": "Transcrição visual literal; use [ilegível] para lacunas.",
+      "elements": [],
+      "outcome": "completed",
+      "confidence": "not_assessed",
+      "description_source": "vision_model"
+    }
+  },
+  "images": [
+    {
+      "image_id": "P0001-I001",
+      "asset_class": "visual_asset",
+      "relevant": true,
+      "semantic_description": "Descreva somente o que é visível, a localização e o estado de legibilidade; não infira autenticidade ou significado jurídico.",
+      "visible_text": "Transcrição literal; use [ilegível] para lacunas.",
+      "objects": [],
+      "people": [],
+      "tables": [],
+      "location": "região da página PDF",
+      "confidence": "not_assessed",
+      "description_source": "human_review"
+    }
+  ]
+}

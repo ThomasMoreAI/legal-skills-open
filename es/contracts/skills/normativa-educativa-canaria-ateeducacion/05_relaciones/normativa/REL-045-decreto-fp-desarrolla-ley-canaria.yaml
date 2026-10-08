@@ -1,0 +1,11 @@
+id: REL-045
+tipo_relacion: "desarrolla"
+origen: NOR-008
+destino: NOR-004
+descripcion: "El Decreto 156/1996 establece la ordenación general de la FP en Canarias, actuando como desarrollo previo que debe interpretarse conforme a la Ley 6/2014 Canaria de Educación."
+evidencia:
+  fuente: FTE-015
+  localizacion: "Marco general de ordenación de enseñanzas profesionales en Canarias."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"
+observaciones: "Norma histórica que sigue citada como base de la ordenación autonómica de FP en portales oficiales."

@@ -47,6 +47,7 @@
     "skills/draft-founders-agreement-sboghossian",
     "skills/draft-joint-venture-sboghossian",
     "skills/draft-share-purchase-agreement-sboghossian",
+    "skills/draft-shareholder-resolution-sboghossian",
     "skills/draft-shareholders-agreement-sboghossian",
     "skills/draft-term-sheet-acquisition-sboghossian",
     "skills/draft-vesting-schedule-sboghossian",
@@ -60,6 +61,8 @@
     "skills/integration-management",
     "skills/integration-management-zhou210712",
     "skills/investment-and-shareholder-agreement-reviewer-rohasnagpal",
+    "skills/kb-corporate-law-de-sboghossian",
+    "skills/kb-corporate-law-fr-sboghossian",
     "skills/legal-opinion-letter",
     "skills/lq-board-document-review",
     "skills/m-and-a-diligence-checker-rohasnagpal",
@@ -115,6 +118,7 @@
     "skills/workflow-investment-round-closing-pack-sboghossian",
     "skills/workflow-startup-incorporation-pack-sboghossian",
     "skills/written-consent-anthropics",
-    "skills/written-consent-zhou210712"
+    "skills/written-consent-zhou210712",
+    "skills/x-ray-a-company-useosint"
   ]
 }

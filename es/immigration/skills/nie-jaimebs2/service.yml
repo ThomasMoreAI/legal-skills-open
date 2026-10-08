@@ -1,0 +1,57 @@
+name: extranjeria-nie
+display_name: Extranjería — NIE (Número de Identidad de Extranjero)
+description: >
+  Guía completa sobre el NIE en España: qué es, para qué sirve, diferencia
+  con la TIE, cómo obtenerlo (en España o desde el extranjero), documentación
+  necesaria (formulario EX-15), tasa 790-012, NIE para ciudadanos UE vs. no
+  comunitarios, vigencia, renovación, cita previa y preguntas frecuentes.
+organization: Dirección General de la Policía / Ministerio de Inclusión, Seguridad Social y Migraciones
+tags: [extranjería, NIE, TIE, identificación extranjero, EX-15, tasa 790-012, cita previa, certificado registro UE, inmigración, España]
+
+links:
+  website: https://sede.policia.gob.es
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+  tasa_790_012: https://sede.policia.gob.es/Tasa790_012/
+  formulario_ex15: https://extranjeros.inclusion.gob.es/es/ModelosSolicitudes/Mod_solicitudes2/15-Formulario_NIE_y_certificados.pdf
+  extranjeros_inclusion: https://extranjeros.inclusion.gob.es
+
+license:
+  data: Información pública de la Dirección General de la Policía y del Ministerio de Inclusión
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre el NIE y redirige
+    a skills específicas (extranjeria-residencia, extranjeria-trabajo,
+    extranjeria-familiar-ue) para otros trámites de extranjería.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es el NIE y para qué sirve
+    - Diferencia entre NIE y TIE
+    - Quién necesita un NIE y cuándo es obligatorio
+    - Cómo obtenerlo en España (comisaría con cita previa) y desde el extranjero (consulado)
+    - Documentación necesaria (formulario EX-15, pasaporte, foto, justificación, tasa)
+    - Tasa 790-012 (cómo pagarla, importe aproximado)
+    - NIE de ciudadano UE vs. no comunitario
+    - Vigencia y renovación del NIE, TIE y certificado de registro
+    - Cómo pedir cita previa
+    - Preguntas frecuentes
+  not_accessible:
+    - Tramitación real del NIE (requiere presencia física o consulado)
+    - Consulta del estado de un expediente (requiere identificación electrónica)
+    - Detalle sobre permisos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre permisos de trabajo (usar skill extranjeria-trabajo)
+    - Trámites de nacionalidad (usar skill extranjeria-nacionalidad)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

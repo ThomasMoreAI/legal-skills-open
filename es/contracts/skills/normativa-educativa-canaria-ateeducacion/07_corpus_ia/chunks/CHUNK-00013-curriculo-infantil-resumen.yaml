@@ -1,0 +1,31 @@
+id: CHUNK-00013
+origen_tipo: "norma"
+origen_id: NOR-047
+titulo: "Resumen del Currículo de Educación Infantil (Canarias)"
+texto: >-
+  El Decreto 196/2022 unifica la ordenación de los dos ciclos de Infantil (0-3 y 3-6 años) en Canarias.
+  Claves del área:
+  1. Áreas: Crecimiento en Armonía, Descubrimiento del Entorno y Comunicación y Representación.
+  2. Evaluación: Basada en la observación directa y sistemática, carácter informativo y cualitativo.
+  3. Promoción: Automática entre cursos y ciclos.
+  4. Metodología: Fomento de la curiosidad, el juego y la integración afectiva desde el nacimiento.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil]
+  temas: [infantil, curriculo, ordenacion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-050
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/212/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 196/2022 (BOC 2022/212)."
+relaciones:
+  normas: [NOR-047]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

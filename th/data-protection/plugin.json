@@ -1,0 +1,14 @@
+{
+  "name": "th-data-protection",
+  "displayName": "Data Protection — TH",
+  "version": "0.1.0",
+  "description": "Data Protection skills for TH (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "th",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/thai-pdpa-boom-vitt"
+  ]
+}

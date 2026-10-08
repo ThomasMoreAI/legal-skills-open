@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `us` · Practice: `ip` · Skill language: en
 
-## Skills (166)
+## Skills (168)
 
 | Skill | What it does |
 |---|---|
@@ -166,6 +166,8 @@ Jurisdiction: `us` · Practice: `ip` · Skill language: en
 | [`USPTO Database`](skills/uspto-database-utakata/) | 公式記録の検索、PatentSearch クエリ、TSDR チェック、譲渡データ、および再現可能な IP 調査ログのための USPTO 特許・商標データワークフロー。 |
 | [`USPTO Office Actions und TESS/TSDR-Recherche`](skills/uspto-office-actions-und-tess-tsdr/) | Für USPTO Office Actions und TESS/TSDR-Recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`VARA Visual Artists Rights`](skills/vara-visual-verlags-batchplan-versand/) | Für VARA Visual Artists Rights: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Verificar uma Marca`](skills/verificar-uma-marca-gethouston/) | Verifique rapidamente se um nome está livre para ser usado como marca. Eu pesquiso na base de dados… |
+| [`Verificar una marca`](skills/verificar-una-marca-gethouston/) | Verifica rápidamente si un nombre está disponible para usarlo como marca. Busco en la base de datos… |
 | [`Verlags-Batchplan, Serien und Backlist`](skills/verlags-batchplan-serien-und-backlist/) | Für Verlags-Batchplan, Serien und Backlist: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versand aus Deutschland, Zoll und Tracking`](skills/versand-aus-deutschland-zoll-tracking/) | Für Versand aus Deutschland, Zoll und Tracking: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vessel Hull Design Chapter 13`](skills/vessel-hull-design-ch13/) | Für Vessel Hull Design Chapter 13: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

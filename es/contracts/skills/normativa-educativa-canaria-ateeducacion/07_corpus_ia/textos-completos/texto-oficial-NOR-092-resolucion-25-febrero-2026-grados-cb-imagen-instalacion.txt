@@ -1,0 +1,1676 @@
+ID interno: NOR-092
+Título oficial: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Imagen Personal; Imagen y Sonido; Instalación y Mantenimiento; y Química, en el ámbito de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-099
+URL origen: https://www.gobiernodecanarias.org/boc/2026/046/749.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-749.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2026-046-749).
+---
+           Boletín Oficial de Canarias núm. 46                 8511                                 Lunes 9 de marzo de 2026
+
+
+
+
+                                                  III. Otras Resoluciones
+
+                     Consejería de Educación, Formación Profesional, Actividad Física y Deportes
+
+              749        Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución
+                         de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura
+                         modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B
+                         (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Imagen
+                         Personal; Imagen y Sonido; Instalación y Mantenimiento; y Química, en el ámbito de la
+                         Comunidad Autónoma de Canarias.
+
+                   La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+               Profesional, establece en su artículo 5.1 y en los apartados a) y b) de su artículo 5.3
+               que el Sistema de Formación Profesional se configura como un conjunto articulado de
+               actuaciones orientadas a la identificación de las competencias profesionales demandadas
+               por el mercado laboral, a la garantía de una oferta formativa adecuada, a la adquisición de
+               la correspondiente formación o, en su caso, al reconocimiento de dichas competencias,
+               así como a la prestación de un servicio de orientación y acompañamiento profesional que
+               permita el diseño de itinerarios formativos individuales y colectivos. Dicho sistema se
+               organiza conforme a un modelo basado en itinerarios formativos que facilitan la progresión
+               en la formación, estructurado en una doble escala: cinco Grados ascendentes (A, B, C, D y
+               E) y tres niveles de competencia profesional (1, 2 y 3), de acuerdo con el Catálogo Nacional
+               de Estándares de Competencias Profesionales.
+
+                   Por su parte, el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la
+               ordenación del Sistema de Formación Profesional, regula en su artículo 4 la organización
+               de las distintas ofertas formativas que integran dicho sistema, estableciendo el marco
+               general para su implantación y desarrollo por las administraciones competentes.
+
+                   En este contexto normativo, y con el fin de garantizar una implantación homogénea,
+               coherente y adaptada a las necesidades del tejido productivo y de los centros del Sistema de
+               Formación Profesional de la Comunidad Autónoma de Canarias, resulta necesario concretar
+               la distribución horaria y la estructura modular de los Grados C y de sus correspondientes
+               Grados B, como paso previo al dictado de las instrucciones necesarias para su efectiva
+               puesta en funcionamiento.
+
+                     A tal efecto y de conformidad con los siguientes
+
+                                                 ANTECEDENTES DE HECHO
+
+                   Primero.- El 3 de abril de 2025 se publicó el Real Decreto 209/2025, de 18 de marzo,
+               por el que se regulan aspectos específicos de los Grados A, B y C de Formación Profesional
+               para las familias profesionales de Imagen Personal; Imagen y Sonido; Instalación y
+               Mantenimiento; y Química.
+
+                   Segundo.- El artículo 26.1 del citado Real Decreto dispone que las administraciones
+               competentes deberán determinar la duración de los Grados A, B y C vinculados a Grados
+               D de los que tuvieran desarrollo autonómico, estableciendo la misma duración horaria para
+               cada módulo profesional en el ámbito autonómico, con independencia del grado en el que
+               se integren.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                        boc-a-2026-046-749
+           Boletín Oficial de Canarias núm. 46              8512                                  Lunes 9 de marzo de 2026
+
+
+
+
+                   Asimismo, el artículo 26.5 determina que, cuando un Grado C incorpore un módulo
+               profesional no incluido en el currículo básico del Grado D, su duración será la fijada para
+               el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.
+
+                   Tercero.- Tras la entrada en vigor de los Reales Decretos que regulan los aspectos
+               específicos de los Grados A, B y C, y como consecuencia del proceso progresivo de
+               implantación de estas enseñanzas, se ha evidenciado la necesidad de desarrollar los
+               currículos de los nuevos Grados C y Grados B, con el objeto de asegurar su adecuada
+               adaptación a las características de los sectores productivos implicados y a las necesidades
+               organizativas de los centros que impartan ofertas del sistema de formación profesional.
+
+                   Cuarto.- En este marco, se considera imprescindible definir la distribución horaria y
+               la estructura modular de los Grados C y sus correspondientes Grados B de niveles 2 y 3 de
+               las familias profesionales señaladas, en el ámbito territorial de la Comunidad Autónoma
+               de Canarias.
+
+                     A los antecedentes expuestos les son de aplicación los siguientes
+
+                                                 FUNDAMENTOS DE DERECHO
+
+                    Primero.- La Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de
+               Autonomía de Canarias, en su artículo 133.1, establece que “Corresponde a la Comunidad
+               Autónoma de Canarias la competencia de desarrollo legislativo y de ejecución, en materia de
+               enseñanza no universitaria, con relación a las enseñanzas obligatorias y no obligatorias que
+               conducen a la obtención de un título académico o profesional con validez en todo el Estado
+               (...)”. Dicha competencia comprende, asimismo, el establecimiento de los correspondientes
+               planes de estudio y la ordenación curricular de las enseñanzas, de conformidad con lo
+               previsto en el artículo 133.3.c) del citado texto legal.
+
+                   Segundo.- La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria,
+               dispone en su artículo 33.3 que, de acuerdo con la normativa básica del Estado, una vez
+               aprobado el Real Decreto correspondiente a un título de formación profesional y hasta que
+               sea completado el currículo propio de la Comunidad Autónoma, dicho real decreto actuará
+               como norma subsidiaria.
+
+                   Tercero.- El Real Decreto 209/2025, de 18 de marzo, por el que se regulan aspectos
+               específicos de los Grados A, B y C de Formación Profesional para las familias profesionales
+               de Imagen Personal; Imagen y Sonido; Instalación y Mantenimiento; y Química.
+
+                   Cuarto.- El Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los
+               elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación
+               Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el
+               Instituto Nacional de las Cualificaciones, establece en su artículo 12, relativo a la naturaleza
+               del Catálogo Nacional de Ofertas de Formación Profesional, el marco estructural de dichas
+               ofertas.
+
+                   En particular, el apartado 2 dispone la organización de las ofertas del Sistema de
+               Formación Profesional como dimensión vertical definitoria, estructurada de forma
+               escalonada en una serie ascendente de Grados. Esta ordenación es descriptiva de la amplitud
+
+
+https://sede.gobiernodecanarias.org/boc                                                                      boc-a-2026-046-749
+           Boletín Oficial de Canarias núm. 46             8513                                Lunes 9 de marzo de 2026
+
+
+
+
+               de cada oferta formativa diseñada a partir del estándar de competencias profesionales de
+               mayor nivel del Catálogo Nacional de Estándares de Competencias Profesionales.
+
+                   Así mismo, en el punto 5 del citado artículo establece que todas las ofertas de Formación
+               Profesional tendrán carácter acreditable y acumulable, permitiendo progresar en itinerarios
+               de formación conducentes a otros de mayor grado.
+
+                  Quinto.- El Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y
+               Deportes, atribuye a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial las competencias generales y específicas en materia de ordenación,
+               implantación y desarrollo de las enseñanzas de formación profesional en el ámbito de la
+               Comunidad Autónoma de Canarias.
+
+                   Sexto.- Mediante Resolución de 30 de octubre de 2024, de la Dirección General de
+               Formación Profesional y Enseñanzas de Régimen Especial, se dictaron instrucciones y
+               orientaciones para la implantación y desarrollo de los Grados D y E, a partir del curso
+               escolar 2024/2025, estableciéndose, asimismo, la distribución horaria y modular de dichos
+               currículos en el ámbito autonómico de la Comunidad Autónoma de Canarias.
+
+                   En atención a lo anteriormente indicado, en ejercicio de las competencias atribuidas
+               a la Viceconsejería de Formación Profesional y Cualificaciones Profesionales en el
+               artículo 9, apartado 2, del Decreto 84/2024, de 10 de junio, por el que se aprueba el
+               Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad
+               Física y Deportes, y el desempeño de las funciones previstas en los artículos 11 y 20.1
+               del Decreto 212/1991, de 11 de septiembre, de organización de los Departamentos de la
+               Administración Autonómica de Canarias,
+
+                                                    R E S U E L V O:
+
+                   Primero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Imagen Personal, en los términos recogidos en
+               el Anexo I de la presente Resolución.
+
+                   Segundo.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Imagen y Sonido, en los términos recogidos en
+               el Anexo II de la presente Resolución.
+
+                   Tercero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Instalación y Mantenimiento, en los términos
+               recogidos en el Anexo III de la presente Resolución.
+
+                  Cuarto.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Química, en los términos recogidos en el
+               Anexo IV de la presente Resolución.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2026-046-749
+           Boletín Oficial de Canarias núm. 46               8514                                   Lunes 9 de marzo de 2026
+
+
+
+
+                   Quinto.- La distribución horaria y estructura modular establecida en la presente
+               Resolución será de aplicación en todos los centros del Sistema de Formación Profesional
+               de la Comunidad Autónoma de Canarias.
+
+                   Sexto.- Facultar a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial para que, en el ámbito de sus competencias dentro del sistema educativo
+               no universitario, dictamine cuantas resoluciones sean necesarias respecto a esta Resolución
+               y lleve a cabo la planificación de la oferta de los Grados C y B en los centros educativos
+               públicos no universitarios de la Comunidad Autónoma de Canarias.
+
+                   Séptimo.- Encomendar a la Inspección de Educación el asesoramiento a los equipos
+               directivos de los centros del sistema educativo no universitario en aquellos aspectos
+               específicos relacionados con la aplicación de la presente Resolución, así como la supervisión
+               de su adecuado cumplimiento.
+
+                   Octavo.- Ordenar la publicación de la presente Resolución en el Boletín Oficial de
+               Canarias, así como en la página web de la Consejería de Educación, Formación Profesional,
+               Actividad Física y Deportes, para su general conocimiento. Asimismo, se encomienda a
+               los equipos directivos de los centros docentes que adopten las medidas oportunas para
+               garantizar su difusión entre los distintos sectores de la comunidad educativa.
+
+                   Contra la presente Resolución, que no pone fin a la vía administrativa, podrá interponerse
+               recurso de alzada ante el Consejero de Educación, Formación Profesional, Actividad Física y
+               Deportes, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del
+               Procedimiento Administrativo Común de las Administraciones Públicas, en el plazo de un mes,
+               a partir del día siguiente al de su publicación en el Boletín Oficial de Canarias, sin perjuicio de
+               cualquier otro que se estime procedente.
+
+                  Las Palmas de Gran Canaria, a 25 de febrero de 2026.- El Viceconsejero de Formación
+               Profesional y Cualificaciones Profesionales, Francisco Rodríguez Machado.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                         boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                         8515                                       Lunes 9 de marzo de 2026
+
+
+
+
+                                                                   ANEXO I
+                                                                   ANEXO I
+
+                                             FAMILIA PROFESIONAL: IMAGEN PERSONAL
+
+                      DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                     (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                             (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+        Certificado de competencia: Micropigmentación.
+           • Código: IMP_B_0749
+           • Título de Formación Profesional asociado: Técnico Superior en Estética Integral y Bienestar
+           • Nivel: 3.
+
+                            Código
+                                                                                                             Horas
+                             Real                       MÓDULOS PROFESIONALES                                totales
+                            Decreto
+
+                                          Micropigmentación
+                             0749                                                                                136
+                                          Código del certificado de competencia: FME_B_0749
+
+
+
+        Certificado profesional: Técnicas de higiene facial y corporal y activos cosméticos.
+           • Código: IMP_C_001_4B.
+           • Título de Formación Profesional asociado: Técnico en Estética y Belleza.
+           • Nivel: 2.
+
+          Código                                                                                            Horas        Horas
+                                                                                              Horas
+           Real                           MÓDULOS PROFESIONALES                               totales
+                                                                                                          semanales    semanales
+          Decreto                                                                                       (20 semanas) (33 semanas)
+
+                      Técnicas de higiene facial y corporal
+           0633                                                                                173           9             5
+                      Código del certificado de competencia: IMP_B_0633
+                      Análisis estético
+           0638                                                                                96            5             3
+                      Código del certificado de competencia: IMP_B_0638
+                      Cosmetología para estética y belleza
+           0641                                                                                138           7             4
+                      Código del certificado de competencia: IMP_B_0641
+           0642       Perfumería y cosmética natural                                           138           7             4
+           1782       Prevención de riesgos laborales                                          30            2             1
+                                                                             Duración          575          30             17
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 205 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                  8516                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Servicios de maquillaje y técnicas de venta en imagen personal.
+           • Código: IMP_C_002_4B.
+           • Título de Formación Profesional asociado: Técnico en Estética y Belleza.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (10 semanas) (17 semanas)
+
+                      Maquillaje
+           0634                                                                       144             16              8
+                      Código del certificado de competencia: IMP_B_0634
+                      Marketing y venta en imagen personal
+           0643                                                                        96             11              6
+                      Código del certificado de competencia: IMP_B_0643
+           1782       Prevención de riesgos laborales                                  30              3              2
+                                                                          Duración    270             30              16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 70 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 95 horas.
+
+
+        Certificado profesional: Protocolos en cabina y depilación.
+           • Código: IMP_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Estética y Belleza.
+           • Nivel: 2.
+
+          Código                                                                                                 Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                               semanales
+          Decreto                                                                                            (17 semanas)
+
+                      Depilación mecánica y decoloración del vello
+           0635                                                                          140                      9
+                      Código del certificado de competencia: IMP_B_0635
+           0639       Actividades en cabina de estética                                  204                     13
+           0640       Imagen corporal y hábitos saludables                                  96                    6
+           1782       Prevención de riesgos laborales                                       30                    2
+                                                                      Duración           470                     30
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 120 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 165 horas.
+
+
+
+        Certificado profesional: Técnicas de manicura y pedicura.
+           • Código: IMP_C_004_4B.
+           • Título de Formación Profesional asociado: Técnico en Estética y Belleza.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (10 semanas) (17 semanas)
+
+                      Estética de manos y pies
+           0636                                                                       138             14              8
+                      Código del certificado de competencia: IMP_B_0636
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8517                                     Lunes 9 de marzo de 2026
+
+
+
+
+          Código                                                                                    Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                  semanales    semanales
+          Decreto                                                                               (10 semanas) (17 semanas)
+
+                      Técnicas de uñas artificiales
+           0637                                                                       138           13             8
+                      Código del certificado de competencia: IMP_B_0637
+           1782       Prevención de riesgos laborales                                  30            3             2
+                                                                          Duración    310           30             18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 80 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 110 horas.
+
+
+
+        Certificado profesional: Técnicas de corte de cabello y estilismo.
+           • Código: IMP_C_005_4B.
+           • Título de Formación Profesional asociado: Técnico en Peluquería y Cosmética Capilar.
+           • Nivel: 2.
+
+          Código                                                                                    Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                  semanales    semanales
+          Decreto                                                                               (12 semanas) (17 semanas)
+
+                      Técnicas de corte de cabello
+           0845                                                                       142           12             8
+                      Código del certificado de competencia: IMP_B_0845.
+           0848       Peluquería y estilismo masculino                                173           15             10
+           1782       Prevención de riesgos laborales                                  30            3             2
+                                                                          Duración    345           30             20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 90 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 120 horas.
+
+
+
+        Certificado profesional: Cambios de forma del cabello, recogidos y coloración capilar.
+           • Código: IMP_C_006_4B.
+           • Título de Formación Profesional asociado: Técnico en Peluquería y Cosmética Capilar.
+           • Nivel: 2.
+
+          Código                                                                                    Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                  semanales    semanales
+          Decreto                                                                               (22 semanas) (33 semanas)
+
+                      Peinados y recogidos
+           0842                                                                       206            9             6
+                      Código del certificado de competencia: IMP_B_0842
+                      Coloración capilar
+           0843                                                                       270           12             8
+                      Código del certificado de competencia: IMP_B_0843
+                      Cambios de forma permanente del cabello
+           0846                                                                       174            7             5
+                      Código del certificado de competencia: IMP_B_0846
+           1782       Prevención de riesgos laborales                                  30            2             1
+                                                                          Duración    680           30             20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                  8518                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Análisis capilar y comercialización de cosméticos en peluquería.
+           • Código: IMP_C_007_4B.
+           • Título de Formación Profesional asociado: Técnico en Peluquería y Cosmética Capilar.
+           • Nivel: 2.
+
+          Código                                                                                                 Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                               semanales
+          Decreto                                                                                            (17 semanas)
+
+                      Cosmética para peluquería
+           0844                                                                            97                     6
+                      Código del certificado de competencia: IMP_B_0844
+                      Análisis capilar
+           0849                                                                            96                     6
+                      Código del certificado de competencia: IMP_B_0849
+                      Marketing y venta en imagen personal
+           0643                                                                            96                     6
+                      Código del certificado de competencia: IMP_B_0643
+           0640       Imagen corporal y hábitos saludables                                 96                     6
+           1782       Prevención de riesgos laborales                                      30                     2
+                                                                      Duración             415                   26
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 145 horas.
+
+
+
+        Certificado profesional: Tratamientos estéticos y aparatología.
+           • Código: IMP_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Estética Integral y Bienestar.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                    Horas
+           Real                           MÓDULOS PROFESIONALES                     totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Aparatología estética
+           0744                                                                       96               5              3
+                      Código del certificado de competencia: IMP_B_0744
+                      Depilación avanzada
+           0746                                                                      170               8              5
+                      Código del certificado de competencia: IMP_B_0746
+                      Dermoestética
+           0751                                                                      139               7              4
+                      Código del certificado de competencia: IMP_B_0751
+                      Tratamientos estéticos integrales
+           0753                                                                      170               8              5
+                      Código del certificado de competencia: IMP_B_0753
+           1782       Prevención de riesgos laborales                                 30               2              1
+                                                                      Duración       605              30              18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 215 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                    8519                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Servicios hidrotermales y masajes estéticos.
+           • Código: IMP_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Estética Integral y Bienestar.
+           • Nivel: 3.
+
+          Código                                                                                       Horas         Horas
+                                                                                       Horas
+           Real                           MÓDULOS PROFESIONALES                        totales
+                                                                                                     semanales     semanales
+          Decreto                                                                                  ( 22 semanas) (33 semanas)
+
+                      Estética hidrotermal
+           0745                                                                         203             9                6
+                      Código del certificado de competencia: IMP_B_0745
+                      Masaje estético
+           0747                                                                         136             6                4
+                      Código del certificado de competencia: IMP_B_0747
+                      Drenaje estético y técnicas por presión
+           0748                                                                         170             7                5
+                      Código del certificado de competencia: IMP_B_0748
+                      Dermoestética
+           0751                                                                         136             6                4
+                      Código del certificado de competencia: IMP_B_0751
+           1782       Prevención de riesgos laborales                                   30              2                1
+                                                                        Duración        675             30            20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+
+
+
+        Certificado profesional: Tratamientos capilares y cosméticos.
+           • Código: IMP_C_003_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Estilismo y Dirección de
+                Peluquería.
+           • Nivel: 3.
+
+          Código                                                                                  Horas             Horas
+                                                                             Horas
+           Real                  MÓDULOS PROFESIONALES                       totales
+                                                                                                semanales         semanales
+          Decreto                                                                             (20 semanas)      (33 semanas)
+
+                      Dermotricología
+           1064                                                               141                  7                 4
+                      Código del certificado de competencia: IMP_B_1064
+                      Recursos técnicos y cosméticos
+           1065                                                               173                  8                 5
+                      Código del certificado de competencia: IMP_B_1065
+                      Tratamientos capilares
+           1066                                                               138                  7                 4
+                      Código del certificado de competencia: IMP_B_1066
+                      Dirección y comercialización
+           1071                                                               138                  6                 4
+                      Código del certificado de competencia: IMP_B_1071
+           1782       Prevención de riesgos laborales                         30                   2                 1
+                                                                Duración      620                 30                18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                      boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8520                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Estudio y creación de la imagen integral.
+           • Código: IMP_C_004_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Estilismo y Dirección de
+                Peluquería.
+           • Nivel: 3.
+
+          Código                                                                                       Horas        Horas
+                                                                                        Horas
+           Real                            MÓDULOS PROFESIONALES                        totales
+                                                                                                     semanales    semanales
+          Decreto                                                                                  (20 semanas) (33 semanas)
+
+                      Procedimientos y técnicas de peluquería
+           1067                                                                            274         14             8
+                      Código del certificado de competencia: IMP_B_1067
+                      Estilismo en peluquería
+           1069                                                                            170          9             5
+                      Código del certificado de competencia: IMP_B_1069
+           1070       Estudio de la imagen                                                 96           5             3
+           1782       Prevención de riesgos laborales                                      30           2             1
+                                                                           Duración        570         30             17
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas.
+
+
+
+        Certificado profesional: Posticería y peinados para medios audiovisuales y de moda.
+           • Código: IMP_C_005_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Estilismo y Dirección de
+                Peluquería.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                    Horas
+           Real                           MÓDULOS PROFESIONALES                     totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (10 semanas) (17 semanas)
+
+                      Peinados para producciones audiovisuales y de moda
+           1068                                                                      174              17             10
+                      Código del certificado de competencia: IMP_B_1068
+           1072       Peluquería en cuidados especiales                               96              10              6
+           1782       Prevención de riesgos laborales                                 30               3              2
+                                                                       Duración      300              30             18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 75 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 105 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8521                                     Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Asesoría en peluquería y estética.
+           • Código: IMP_C_006_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Asesoría de Imagen Personal y
+                Corporativa.
+           • Nivel: 3.
+
+          Código                                                                                   Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales    semanales
+          Decreto                                                                              (20 semanas) (33 semanas)
+
+                      Asesoría de peluquería
+           1184                                                                       170           9              5
+                      Código del certificado de competencia: IMP_B_1184
+                      Asesoría estética
+           1187                                                                       170           9              5
+                      Código del certificado de competencia: IMP_B_1187
+                      Dirección y comercialización
+           1071                                                                       96            4              3
+                      Código del certificado de competencia: IMP_B_1071
+           1181       Asesoría cosmética                                              134           6              4
+           1782       Prevención de riesgos laborales.                                30            2              1
+                                                                          Duración    600           30            18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 150 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 210 horas.
+
+
+
+        Certificado profesional: Asesoría en vestuario y complementos.
+           • Código: IMP_C_007_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Asesoría de Imagen Personal y
+                Corporativa.
+           • Nivel: 3.
+
+          Código                                                                                   Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales    semanales
+          Decreto                                                                              (12 semanas) (17 semanas)
+
+                      Diseño de imagen integral
+           1182                                                                       135           12             8
+                      Código del certificado de competencia: IMP_B_1182
+                      Estilismo en vestuario y complementos
+           1183                                                                       170           15            10
+                      Código del certificado de competencia: IMP_B_1183
+           1782       Prevención de riesgos laborales                                 30            3              2
+                                                                          Duración    335           30            20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 85 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 120 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8522                                           Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Asesoría corporativa.
+           • Código: IMP_C_008_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Asesoría de Imagen Personal y
+                Corporativa.
+           • Nivel: 3.
+
+          Código                                                                                         Horas        Horas
+                                                                                         Horas
+           Real                           MÓDULOS PROFESIONALES                          totales
+                                                                                                       semanales    semanales
+          Decreto                                                                                    (22 semanas) (33 semanas)
+
+                      Protocolo y organización de eventos
+           1185                                                                           175             8                5
+                      Código del certificado de competencia: IMP_B_1185
+                      Usos sociales
+           1186                                                                           96              4                3
+                      Código del certificado de competencia: IMP_B_1186
+                      Habilidades comunicativas
+           1188                                                                           174             8                5
+                      Código del certificado de competencia: IMP_B_1188
+           1189       Imagen corporativa                                                  175             8                5
+           1782       Prevención de riesgos laborales                                     30              2                1
+                                                                          Duración        650             30            19
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 165 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 230 horas.
+
+
+
+
+        Certificado profesional: Diseño de personajes de caracterización.
+           • Código: IMP_C_009_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Caracterización y Maquillaje
+                Profesional.
+           • Nivel: 3.
+
+          Código                                                                                    Horas             Horas
+                                                                               Horas
+           Real                  MÓDULOS PROFESIONALES                         totales
+                                                                                                  semanales         semanales
+          Decreto                                                                               (20 semanas)      (33 semanas)
+
+                      Planificación y proyectos
+           0685                                                                 143                  7                 4
+                      Código del certificado de competencia: IMP_B_0685
+                      Caracterización de personajes
+           1261                                                                 208                 10                 6
+                      Código del certificado de competencia: IMP_B_1261
+           1267       Diseño digital de personajes 2D y 3D                      96                   4                 3
+           1268       Diseño gráfico aplicado                                   138                  7                 4
+           1782       Prevención de riesgos laborales                           30                   2                 1
+                                                              Duración          615                 30                18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 215 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                      8523                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Maquillaje y prótesis faciales y corporales.
+           • Código: IMP_C_010_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Caracterización y Maquillaje
+                Profesional.
+           • Nivel: 3.
+
+          Código                                                                                         Horas        Horas
+                                                                                         Horas
+           Real                           MÓDULOS PROFESIONALES                          totales
+                                                                                                       semanales    semanales
+          Decreto                                                                                    (20 semanas) (33 semanas)
+
+                      Maquillaje profesional
+           1262                                                                           174             8                5
+                      Código del certificado de competencia: IMP_B_1262
+                      Efectos especiales a través del maquillaje
+           1263                                                                           96              5                3
+                      Código del certificado de competencia: IMP_B_1263
+                      Creación de prótesis faciales y corporales
+           1264                                                                           204             10               6
+                      Código del certificado de competencia: IMP_B_1264
+           1269       Productos de caracterización y maquillaje                           96              5                3
+           1782       Prevención de riesgos laborales                                     30              2                1
+                                                                          Duración        600             30            18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 150 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 210 horas.
+
+
+
+        Certificado profesional: Peluquería y posticería para caracterización.
+           • Código: IMP_C_011_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Caracterización y Maquillaje
+                Profesional.
+           • Nivel: 3.
+
+          Código                                                                                    Horas             Horas
+                                                                               Horas
+           Real                  MÓDULOS PROFESIONALES                         totales
+                                                                                                  semanales         semanales
+          Decreto                                                                               (12 semanas)      (17 semanas)
+
+                      Peluquería para caracterización
+           1265                                                                 173                 14                10
+                      Código del certificado de competencia: IMP_B_1265
+                      Posticería
+           1266                                                                 172                 13                10
+                      Código del certificado de competencia: IMP_B_1266
+           1782       Prevención de riesgos laborales                           30                   3                 2
+                                                               Duración         375                 30                22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 135 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                     8524                                         Lunes 9 de marzo de 2026
+
+
+
+
+                                                               ANEXO II
+                                                               ANEXO II
+
+                                           FAMILIA PROFESIONAL: IMAGEN Y SONIDO
+
+                         DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                        (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                                (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+           Certificado profesional: Animación de sesiones musicales y visuales en vivo y en directo.
+              • Código: IMS_C_001_4B.
+              • Título de Formación Profesional asociado: Técnico en Vídeo Disc-jockey y Sonido.
+              • Nivel: 2.
+
+             Código                                                                                                     Horas
+                                                                                                          Horas
+              Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                      semanales
+             Decreto                                                                                                (33 semanas)
+
+                         Preparación de sesiones de vídeo disc-jockey
+              1301                                                                                         202           6
+                         Código del certificado de competencia: IMS_B_1301
+                         Animación musical en vivo
+              1302                                                                                         237           7
+                         Código del certificado de competencia: IMS_B_1302
+
+              1303       Animación visual en vivo                                                          237           7
+                         Código del certificado de competencia: IMS_B_1303
+                         Toma y edición digital de imagen
+              1304                                                                                         174           5
+                         Código del certificado de competencia: IMS_B_1304
+              1782       Prevención de riesgos laborales                                                      30         1
+                                                                                            Duración       880          26
+            En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+            En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 310 horas.
+
+
+
+           Certificado profesional: Operaciones de sonido.
+              • Código: IMS_C_002_4B.
+              • Título de Formación Profesional asociado: Técnico en Vídeo Disc-jockey y Sonido.
+              • Nivel: 2.
+
+
+             Código                                                                                      Horas        Horas
+                                                                                           Horas
+              Real                        MÓDULOS PROFESIONALES                            totales
+                                                                                                       semanales    semanales
+             Decreto                                                                                 (22 semanas) (33 semanas)
+
+                         Instalación y montaje de equipos de sonido
+              1298                                                                          202           9              6
+                         Código del certificado de competencia: IMS_B_1298
+                         Captación y grabación de sonido
+              1299                                                                          202           9              6
+                         Código del certificado de competencia: IMS_B_1299
+                         Control, edición y mezcla de sonido
+              1300                                                                          241          10              7
+                         Código del certificado de competencia: IMS_B_1300
+              1782       Prevención de riesgos laborales                                     30           2              1
+                                                                              Duración      675          30             20
+            En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas.
+            En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                      boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                  8525                                        Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Proyectos de animación 2D y 3D.
+           • Código: IMS_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Animaciones 3D, Juegos y
+                Entornos Interactivos.
+           • Nivel: 3.
+
+          Código                                                                                                     Horas
+                                                                                                       Horas
+           Real                              MÓDULOS PROFESIONALES                                     totales
+                                                                                                                   semanales
+          Decreto                                                                                                (33 semanas)
+
+                      Proyectos de animación audiovisual 2D y 3D
+           1085                                                                                         170           5
+                      Código del certificado de competencia: IMS_B_1085
+                      Diseño, dibujo y modelado para animación
+           1086                                                                                         170           5
+                      Código del certificado de competencia: IMS_B_1086
+                      Animación de elementos 2D y 3D
+           1087                                                                                         235           7
+                      Código del certificado de competencia: IMS_B_1087
+                      Color, iluminación y acabados 2D y 3D
+           1088                                                                                         170           5
+                      Código del certificado de competencia: IMS_B_1088
+                      Realización del montaje y postproducción de audiovisuales
+           0907                                                                                         170           5
+                      Código del certificado de competencia: IMS_B_0907
+           1782       Prevención de riesgos laborales                                                      30         1
+                                                                                         Duración       945          28
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 335 horas.
+
+
+        Certificado profesional: Desarrollo de productos audiovisuales multimedia interactivos.
+           • Código: IMS_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Animaciones 3D, Juegos y
+                Entornos Interactivos.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Proyectos de juegos y entornos interactivos
+           1089                                                                          171           8              5
+                      Código del certificado de competencia: IMS_B_1089
+                      Realización de proyectos multimedia interactivos
+           1090                                                                          202          10              6
+                      Código del certificado de competencia: IMS_B_1090
+                      Desarrollo de entornos interactivos multidispositivo
+           1091                                                                          202          10              6
+                      Código del certificado de competencia: IMS_B_1091
+           1782       Prevención de riesgos laborales                                     30           2              1
+                                                                             Duración    605          30             18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 215 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                     8526                                      Lunes 9 de marzo de 2026
+
+
+
+
+                                                               ANEXO  III
+                                                               ANEXO III
+
+                                  FAMILIA PROFESIONAL: INSTALACIÓN Y MANTENIMIENTO
+
+                        DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                       (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                               (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+          Certificado profesional: Montaje y mantenimiento de instalaciones caloríficas.
+             • Código: IMA_C_001_4B.
+             • Título de Formación Profesional asociado: Técnico en Instalaciones de Producción de Calor.
+             • Nivel: 2.
+
+            Código                                                                                    Horas        Horas
+                                                                                       Horas
+             Real                         MÓDULOS PROFESIONALES                        totales
+                                                                                                    semanales    semanales
+            Decreto                                                                               (24 semanas) (33 semanas)
+
+                        Técnicas de montaje de instalaciones
+             0037                                                                       205            8             6
+                        Código del certificado de competencia: IMA_B_0037
+                        Instalaciones eléctricas y automatismos
+              0038                                                                      304            12            9
+                        Código del certificado de competencia: IMA_B_0038
+                        Montaje y mantenimiento de instalaciones caloríficas
+              0302                                                                      206            8             6
+                        Código del certificado de competencia: IMA_B_0302
+              1782      Prevención de riesgos laborales                                  30            2             1
+                                                                            Duración    745            30           22
+           En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas.
+           En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 265 horas.
+
+
+
+          Certificado profesional: Configuración y montaje de instalaciones solares, hidráulicas y receptoras de
+          gas.
+               • Código: IMA_C_002_4B.
+               • Título de Formación Profesional asociado: Técnico en Instalaciones de Producción de Calor.
+               • Nivel: 2.
+
+            Código                                                                                    Horas        Horas
+                                                                                       Horas
+             Real                         MÓDULOS PROFESIONALES                        totales
+                                                                                                    semanales    semanales
+            Decreto                                                                               (26 semanas) (33 semanas)
+
+             0310       Montaje y mantenimiento de instalaciones de agua                173            7             5
+                        Montaje y mantenimiento de instalaciones de energía solar
+             0392                                                                        64            2             2
+                        Código del certificado de competencia: IMA_B_0392
+                        Montaje y mantenimiento de instalaciones de gas y
+              0393      combustibles líquidos                                            96            3             3
+                        Código del certificado de competencia: IMA_B_0393
+              0036      Máquinas y equipos térmicos                                     269            9             8
+              0266      Configuración de instalaciones caloríficas                      173            7             5
+              1782      Prevención de riesgos laborales                                  30            2             1
+                                                                            Duración    805            30           24
+           En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas.
+           En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 285 horas.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                    boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8527                                       Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Montaje y mantenimiento de instalaciones frigoríficas.
+           • Código: IMA_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Instalaciones Frigoríficas y de
+                Climatización.
+           • Nivel: 2.
+
+          Código                                                                                                 Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                               semanales
+          Decreto                                                                                            (33 semanas)
+
+                      Técnicas de montaje de instalaciones
+           0037                                                                          205                      6
+                      Código del certificado de competencia: IMA_B_0037
+                      Instalaciones eléctricas y automatismos
+           0038                                                                          305                      9
+                      Código del certificado de competencia: IMA_B_0038
+                      Montaje y mantenimiento de equipos de refrigeración
+           0040       comercial                                                          138                      4
+                      Código del certificado de competencia: IMA_B_0040
+                      Montaje y mantenimiento de instalaciones frigoríficas
+           0041       industriales                                                       202                      6
+                      Código del certificado de competencia: IMA_B_0041
+           1782       Prevención de riesgos laborales                                     30                      1
+                                                                       Duración          880                     26
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 310 horas.
+
+
+
+        Certificado profesional: Montaje y mantenimiento de instalaciones de climatización y
+        ventilación.
+           • Código: IMA_C_004_4B.
+           • Título de Formación Profesional asociado: Técnico en Instalaciones Frigoríficas y de
+                Climatización.
+              •    Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Técnicas de montaje de instalaciones
+           0037                                                                       205              8              6
+                      Código del certificado de competencia: IMA_B_0037
+                      Instalaciones eléctricas y automatismos
+           0038                                                                       303             12              9
+                      Código del certificado de competencia: IMA_B_0038
+                      Montaje y mantenimiento de instalaciones de
+           0042       climatización, ventilación y extracción                         202              8              6
+                      Código del certificado de competencia: IMA_B_0042
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                    8528                                        Lunes 9 de marzo de 2026
+
+
+
+
+            Código                                                                                      Horas        Horas
+                                                                                       Horas
+             Real                         MÓDULOS PROFESIONALES                        totales
+                                                                                                      semanales    semanales
+            Decreto                                                                                 (24 semanas) (33 semanas)
+
+             1782       Prevención de riesgos laborales                                  30              2             1
+                                                                            Duración    740             30             22
+           En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas.
+           En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas.
+
+
+
+          Certificado profesional: Mantenimiento de sistemas mecánicos.
+             • Código: IMA_C_005_4B.
+             • Título de Formación Profesional asociado: Técnico en Mantenimiento Electromecánico.
+             • Nivel: 2.
+
+            Código                                                                                      Horas        Horas
+                                                                                       Horas
+             Real                         MÓDULOS PROFESIONALES                        totales
+                                                                                                      semanales    semanales
+            Decreto                                                                                 (20 semanas) (33 semanas)
+
+                        Técnicas de fabricación
+             0949                                                                       205             11             6
+                        Código del certificado de competencia: IMA_B_0949
+                        Técnicas de unión y montaje
+              0950                                                                       96              5             3
+                        Código del certificado de competencia: IMA_B_0950
+                        Montaje y mantenimiento mecánico
+              0953                                                                      239             12             7
+                        Código del certificado de competencia: IMA_B_0953
+              1782      Prevención de riesgos laborales                                  30              2             1
+                                                                            Duración    570             30             17
+           En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas.
+           En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas.
+
+
+
+          Certificado profesional: Mantenimiento de automatismos eléctrico-electrónicos.
+             • Código: IMA_C_006_4B.
+             • Título de Formación Profesional asociado: Técnico en Mantenimiento Electromecánico.
+             • Nivel: 2.
+
+            Código                                                                                                Horas
+                                                                                          Horas
+             Real                         MÓDULOS PROFESIONALES                           totales
+                                                                                                                semanales
+            Decreto                                                                                           (33 semanas)
+                        Electricidad y automatismos eléctricos
+             0951
+                        Código del certificado de competencia: IMA_B_0951
+                                                                                           270                     8
+
+                        Automatismos neumáticos e hidráulicos
+             0952
+                        Código del certificado de competencia: IMA_B_0952
+                                                                                           205                     6
+
+                        Montaje y mantenimiento eléctrico-electrónico
+             0954
+                        Código del certificado de competencia: IMA_B_0954
+                                                                                           205                     6
+
+                        Montaje y mantenimiento de líneas automatizadas
+             0955
+                        Código del certificado de competencia: IMA_B_0955
+                                                                                           270                     8
+
+              1782      Prevención de riesgos laborales                                       30                   1
+                                                                        Duración           980                    29
+           En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 245 horas.
+           En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 345 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                      boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8529                                       Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Configuración, gestión y eficiencia de instalaciones térmicas y de fluidos.
+           • Código: IMA_C_003_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Mantenimiento de
+                Instalaciones Térmicas y de Fluidos.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Energías renovables y eficiencia energética
+           0124                                                                        96              4              3
+                      Código del certificado de competencia: IMA_B_0124
+                      Gestión del montaje, de la calidad y del mantenimiento
+           0133                                                                        96              4              3
+                      Código del certificado de competencia: IMA_B_0133
+           0121       Equipos e instalaciones térmicas                                206              8              6
+           0123       Representación gráfica de instalaciones                          96              4              3
+           0134       Configuración de instalaciones térmicas y de fluidos            206              8              6
+           1782       Prevención de riesgos laborales                                  30              2              1
+                                                                          Duración    730             30              22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas.
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 255 horas.
+
+
+
+        Certificado profesional: Montaje y mantenimiento de instalaciones frigoríficas, climatización y
+        producción de calor.
+           • Código: IMA_C_004_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Mantenimiento de
+                Instalaciones Térmicas y de Fluidos.
+           • Nivel: 3.
+
+          Código                                                                                                 Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                               semanales
+          Decreto                                                                                            (33 semanas)
+
+                      Sistemas eléctricos y automáticos.
+           0120                                                                          175                      5
+                      Código del certificado de competencia: IMA_B_0120
+                      Procesos de montaje de instalaciones
+           0122                                                                          205                      6
+                      Código del certificado de competencia: IMA_B_0122
+                      Mantenimiento de instalaciones frigoríficas y de
+           0135       climatización                                                      205                      6
+                      Código del certificado de competencia: IMA_B_0135
+                      Mantenimiento de instalaciones caloríficas y de fluidos
+           0136                                                                          205                      6
+                      Código del certificado de competencia: IMA_B_0136
+           1782       Prevención de riesgos laborales                                       30                    1
+                                                                         Duración        820                     24
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 290 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                  8530                                     Lunes 9 de marzo de 2026
+
+
+
+
+        Certificado profesional: Montaje y supervisión de sistemas mecatrónicos industriales.
+           • Código: IMA_C_005_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Mecatrónica Industrial.
+           • Nivel: 3.
+
+          Código                                                                                              Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                            semanales
+          Decreto                                                                                         (33 semanas)
+
+                      Sistemas mecánicos
+           0935                                                                          174                   5
+                      Código del certificado de competencia: IMA_B_0935
+                      Sistemas hidráulicos y neumáticos
+           0936                                                                           96                   3
+                      Código del certificado de competencia: IMA_B_0936
+                      Sistemas eléctricos y electrónicos
+           0937                                                                          173                   5
+                      Código del certificado de competencia: IMA_B_0937
+           0938       Elementos de máquinas                                               64                   2
+                      Procesos de fabricación
+           0939                                                                          173                   5
+                      Código del certificado de competencia: IMA_B_0939
+                      Integración de sistemas
+           0943                                                                          270                   8
+                      Código del certificado de competencia: IMA_B_0943
+           1782       Prevención de riesgos laborales                                     30                   1
+                                                                      Duración           980                   29
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 245 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 345 horas.
+
+
+        Certificado profesional: Diseño de sistemas mecatrónicos industriales.
+           • Código: IMA_C_006_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Mecatrónica Industrial.
+           • Nivel: 3.
+
+          Código                                                                                              Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                            semanales
+          Decreto                                                                                         (33 semanas)
+
+           0940       Representación gráfica de sistemas mecatrónicos                     96                   3
+                      Configuración de sistemas mecatrónicos
+           0941                                                                          205                   6
+                      Código del certificado de competencia: IMA_B_0941
+                      Procesos y gestión de mantenimiento y calidad
+           0942                                                                          175                   5
+                      Código del certificado de competencia: IMA_B_0942
+                      Integración de sistemas
+           0943                                                                          270                   8
+                      Código del certificado de competencia: IMA_B_0943
+           0944       Simulación de sistemas mecatrónicos                                 64                   2
+           1782       Prevención de riesgos laborales                                     30                   1
+                                                                      Duración           840                   25
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 210 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 295 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                             boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                       8531                                   Lunes 9 de marzo de 2026
+
+
+
+
+                                                               ANEXO IV
+                                                               ANEXO IV
+
+                                               FAMILIA PROFESIONAL: QUÍMICA
+
+                      DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                     (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                             (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+        Certificado profesional: Servicios auxiliares y almacenamiento de productos químicos (APQ).
+           • Código: QUI_C_004_4B.
+           • Título de Formación Profesional asociado: Técnico en Operaciones de Laboratorio.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Química aplicada
+           1249                                                                          270          12             8
+                      Código del certificado de competencia: QUI_B_1249
+                      Servicios auxiliares en el laboratorio
+           1252                                                                           64           3             2
+                      Código del certificado de competencia: QUI_B_1252
+                      Seguridad y organización en el laboratorio
+           1253                                                                           96           5             3
+                      Código del certificado de competencia: QUI_B_1253
+                      Almacenamiento y distribución en el laboratorio
+           1257                                                                           64           3             2
+                      Código del certificado de competencia: QUI_B_1257
+                      Principios de mantenimiento electromecánico
+           0116                                                                           96           5             3
+                      Código del certificado de competencia: QUI_B_0116
+           1782       Prevención de riesgos laborales                                     30           2             1
+                                                                           Duración      620          30             19
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+
+
+
+        Certificado profesional: Muestreo y análisis en laboratorios.
+           • Código: QUI_C_005_4B.
+           • Título de Formación Profesional asociado: Técnico en Operaciones de Laboratorio.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (22 semanas) (33 semanas)
+
+                      Muestreo y operaciones unitarias de laboratorio
+           1250                                                                          174           7             5
+                      Código del certificado de competencia: QUI_B_1250
+                      Pruebas fisicoquímicas
+           1251                                                                          174           7             5
+                      Código del certificado de competencia: QUI_B_1251
+
+           1252       Servicios auxiliares en el laboratorio                              64           3             2
+                      Código del certificado de competencia: QUI_B_1252
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                         8532                                  Lunes 9 de marzo de 2026
+
+
+
+
+           Código                                                                                      Horas        Horas
+                                                                                         Horas
+            Real                          MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+           Decreto                                                                                 (22 semanas) (33 semanas)
+
+             1255       Operaciones de análisis químico                                   238          11              7
+                        Código del certificado de competencia: QUI_B_1255
+
+             1782       Prevención de riesgos laborales                                    30           2              1
+                                                                             Duración     680          30             20
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas.
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+
+
+
+          Certificado profesional: Análisis químicos y control de calidad.
+             • Código: QUI_C_001_5B.
+             • Título de Formación Profesional asociado: Técnico Superior en Laboratorio de Análisis y
+                  Control de Calidad.
+             • Nivel: 3.
+
+            Código                                                                                                    Horas
+                                                                                                        Horas
+             Real                              MÓDULOS PROFESIONALES                                    totales
+                                                                                                                    semanales
+            Decreto                                                                                               (33 semanas)
+
+                        Muestreo y preparación de la muestra
+             0065                                                                                        202           6
+                        Código del certificado de competencia: QUI_B_0065
+                        Análisis químicos
+             0066                                                                                        266           8
+                        Código del certificado de competencia: QUI_B_0066
+                        Análisis instrumental
+             0067                                                                                        234           7
+                        Código del certificado de competencia: QUI_B_0067
+                        Calidad y seguridad en el laboratorio
+             0072                                                                                        138           4
+                        Código del certificado de competencia: QUI_B_0072
+             1782       Prevención de riesgos laborales                                                     30         1
+                                                                                          Duración       870          26
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 305 horas.
+
+
+
+          Certificado profesional: Ensayos físicos y fisicoquímicos y control de calidad.
+             • Código: QUI_C_002_5B.
+             • Título de Formación Profesional asociado: Técnico Superior en Laboratorio de Análisis y
+                  Control de Calidad.
+             • Nivel: 3.
+
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (22 semanas) (33 semanas)
+
+                        Muestreo y preparación de la muestra
+             0065                                                                         204           9              6
+                        Código del certificado de competencia: QUI_B_0065
+                        Ensayos físicos
+             0068                                                                         170           7              5
+                        Código del certificado de competencia: QUI_B_0068
+                        Ensayos fisicoquímicos
+             0069                                                                         138           6              4
+                        Código del certificado de competencia: QUI_B_0069
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                    boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                     8533                                      Lunes 9 de marzo de 2026
+
+
+
+
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (22 semanas) (33 semanas)
+
+                        Calidad y seguridad en el laboratorio
+             0072                                                                         138           6            4
+                        Código del certificado de competencia: QUI_B_0072
+             1782       Prevención de riesgos laborales                                    30           2            1
+                                                                            Duración      680          30            20
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas.
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas.
+
+
+
+          Certificado profesional: Ensayos microbiológicos y biotecnológicos y control de calidad.
+             • Código: QUI_C_003_5B.
+             • Título de Formación Profesional asociado: Técnico Superior en Laboratorio de Análisis y
+                  Control de Calidad.
+             • Nivel: 3.
+
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (24 semanas) (33 semanas)
+
+                        Muestreo y preparación de la muestra
+             0065                                                                         202           8            6
+                        Código del certificado de competencia: QUI_B_0065
+                        Ensayos microbiológicos
+             0070                                                                         170           7            5
+                        Código del certificado de competencia: QUI_B_0070
+                        Ensayos biotecnológicos
+             0071                                                                         170           7            5
+                        Código del certificado de competencia: QUI_B_0071
+                        Calidad y seguridad en el laboratorio
+             0072                                                                         138           6            4
+                        Código del certificado de competencia: QUI_B_0072
+             1782       Prevención de riesgos laborales                                    30           2            1
+                                                                            Duración      710          30            21
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas.
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas.
+
+
+
+          Certificado profesional: Gestión de la producción, la seguridad y el medioambiente en la industria
+          química.
+             • Código: QUI_C_004_5B.
+             • Título de Formación Profesional asociado: Técnico Superior en Química Industrial.
+             • Nivel: 3.
+
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (22 semanas) (33 semanas)
+
+                        Organización y gestión en industrias químicas
+             0185                                                                          96           5            3
+                        Código del certificado de competencia: QUI_B_0185
+                        Regulación y control de proceso químico
+             0190                                                                         243          11            7
+                        Código del certificado de competencia: QUI_B_0190
+                        Mantenimiento electromecánico en industrias de proceso
+             0191                                                                         141           6            4
+                        Código del certificado de competencia: QUI_B_0191
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                   boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                     8534                                         Lunes 9 de marzo de 2026
+
+
+
+
+             Código                                                                                      Horas        Horas
+                                                                                           Horas
+              Real                        MÓDULOS PROFESIONALES                            totales
+                                                                                                       semanales    semanales
+             Decreto                                                                                 (22 semanas) (33 semanas)
+
+                         Acondicionado y almacenamiento de productos químicos
+              0193                                                                           96           5              3
+                         Código del certificado de competencia: QUI_B_0193
+                         Prevención de riesgos en industrias químicas
+              0194                                                                           64           3              2
+                         Código del certificado de competencia: QUI_B_0194
+                                                                               Duración     640          30             19
+            En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas.
+            En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas.
+
+
+
+           Certificado profesional: Operaciones en planta de proceso químico y cogeneración de energía.
+              • Código: QUI_C_005_5B.
+              • Título de Formación Profesional asociado: Técnico Superior en Química Industrial.
+              • Nivel: 3.
+
+             Código                                                                                                     Horas
+                                                                                                          Horas
+              Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                      semanales
+             Decreto                                                                                                (33 semanas)
+
+                         Transporte de sólidos y fluidos
+              0186                                                                                         170           5
+                         Código del certificado de competencia: QUI_B_0186
+                         Generación y recuperación de energía
+              0187                                                                                         170           5
+                         Código del certificado de competencia: QUI_B_0187
+                         Operaciones básicas en la industria química
+              0188                                                                                         234           7
+                         Código del certificado de competencia: QUI_B_0188
+                         Reactores químicos
+              0189                                                                                         141           4
+                         Código del certificado de competencia: QUI_B_0189
+                         Formulación y preparación de mezclas
+              0192                                                                                         140           4
+                         Código del certificado de competencia: QUI_B_0192
+              1782       Prevención de riesgos laborales                                                      30         1
+                                                                                            Duración       885          26
+            En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas.
+            En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 310 horas.
+
+
+
+
+           Certificado profesional: Organización y control de la industria farmacéutica, biotecnológica y afines.
+              • Código: QUI_C_006_5B.
+              • Título de Formación Profesional asociado: Técnico Superior en Fabricación de Productos
+                   Farmacéuticos, Biotecnológicos y Afines.
+              • Nivel: 3.
+
+             Código                                                                                                     Horas
+                                                                                                          Horas
+              Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                      semanales
+             Decreto                                                                                                (33 semanas)
+
+                         Organización y gestión de la fabricación de productos farmacéuticos,
+              1387       biotecnológicos y afines                                                             64         2
+                         Código del certificado de competencia: QUI_B_1387
+              1389       Operaciones básicas en la industria farmacéutica, biotecnológica y afines         170           5
+                         Código del certificado de competencia: QUI_B_1389
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                      boc-a-2026-046-749
+          Boletín Oficial de Canarias núm. 46                   8535                                    Lunes 9 de marzo de 2026
+
+
+
+
+          Código                                                                                                    Horas
+                                                                                                      Horas
+           Real                               MÓDULOS PROFESIONALES                                   totales
+                                                                                                                  semanales
+          Decreto                                                                                               (33 semanas)
+
+                      Técnicas de producción biotecnológica
+           1393                                                                                        170           5
+                      Código del certificado de competencia: QUI_B_1393
+                      Técnicas de producción farmacéutica y afines
+           1394                                                                                        170           5
+                      Código del certificado de competencia: QUI_B_1394
+                      Regulación y control en la industria farmacéutica, biotecnológica y afines
+           1395                                                                                        138           4
+                      Código del certificado de competencia: QUI_B_1395
+                      Mantenimiento electromecánico en industrias de proceso
+           0191                                                                                        138           4
+                      Código del certificado de competencia: QUI_B_0191
+           1782       Prevención de riesgos laborales                                                  30            1
+                                                                                         Duración      880          26
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 310 horas.
+
+
+
+        Certificado profesional: Acondicionamiento, calidad y seguridad en la industria farmacéutica,
+        biotecnológica y afines.
+            • Código: QUI_C_007_5B.
+            • Título de Formación Profesional asociado: Técnico Superior en Fabricación de Productos
+                Farmacéuticos, Biotecnológicos y Afines.
+            • Nivel: 3.
+
+                                                                                                      Horas        Horas
+          Código
+                                                                                         Horas      semanales    semanales
+           Real                           MÓDULOS PROFESIONALES                          totales       (24          (33
+          Decreto
+                                                                                                    semanas)     semanas)
+
+                      Organización y gestión de la fabricación de productos
+           1387       farmacéuticos, biotecnológicos y afines                              64           3             2
+                      Código del certificado de competencia: QUI_B_1387
+                      Control de calidad de productos farmacéuticos, biotecnológicos
+           1388       y afines                                                            139           6             4
+                      Código del certificado de competencia: QUI_B_1388
+                      Principios de Biotecnología
+           1390                                                                           171           6             5
+                      Código del certificado de competencia: QUI_B_1390
+                      Seguridad en la industria farmacéutica, biotecnológica y afines
+           1391                                                                            64           3             2
+                      Código del certificado de competencia: QUI_B_1391
+                      Áreas y servicios auxiliares en la industria farmacéutica,
+           1392       biotecnológica y afines                                             171           6             5
+                      Código del certificado de competencia: QUI_B_1392
+                      Acondicionamiento y almacenamiento de productos
+           1396       farmacéuticos, biotecnológicos y afines                              96           4             3
+                      Código del certificado de competencia: QUI_B_1396
+           1782       Prevención de riesgos laborales                                      30           2             1
+                                                                             Duración     735          30            22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas.
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2026-046-749
+

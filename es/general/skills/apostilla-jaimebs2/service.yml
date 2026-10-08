@@ -1,0 +1,55 @@
+name: apostilla
+display_name: Apostilla de La Haya y Legalización de Documentos
+description: >
+  Guía completa sobre la Apostilla de La Haya en España: qué documentos
+  se apostillan, dónde según el tipo (notariales, judiciales,
+  administrativos, académicos), legalización consular para países no
+  firmantes del Convenio, cadena de legalizaciones, traducciones juradas
+  (traductores-intérpretes jurados del MAEC), convenios bilaterales
+  de exención y ejemplos prácticos.
+organization: Ministerio de Justicia / Ministerio de Asuntos Exteriores, Unión Europea y Cooperación (MAEC)
+tags: [apostilla, La Haya, legalización, traducción jurada, traductor jurado, MAEC, Ministerio de Justicia, documentos internacionales, convenio]
+
+links:
+  sede_mjusticia: https://sede.mjusticia.gob.es
+  sede_maec: https://sede.exteriores.gob.es
+  traductores_jurados: https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx
+
+license:
+  data: Información pública del Ministerio de Justicia y MAEC
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No realiza apostillas ni
+    legalizaciones. Los trámites se gestionan en los organismos
+    competentes según el tipo de documento. Redirige a
+    legalizacion-documentos para documentos extranjeros que necesitan
+    validez en España.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es la Apostilla de La Haya y cuándo se necesita
+    - Qué documentos se apostillan y dónde según su tipo
+    - Legalización consular para países no firmantes del Convenio
+    - Cadena completa de legalización (Ministerio de Justicia → MAEC → Consulado)
+    - Traducciones juradas (qué son, quién las hace, lista de traductores)
+    - Diferencia entre traducción jurada y traducción certificada
+    - Convenios bilaterales de exención (UE, Iberoamérica, etc.)
+    - Ejemplos prácticos paso a paso
+  not_accessible:
+    - Realización de apostillas o legalizaciones (trámite presencial o por sede electrónica)
+    - Homologación de títulos extranjeros (skill distinta)
+    - Detalle de trámites de extranjería (usar skills extranjeria-nie, extranjeria-nacionalidad)
+    - Tarifas exactas de traductores jurados (cada profesional fija sus precios)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

@@ -1,0 +1,54 @@
+name: fiscalidad-impuestos-locales
+display_name: Fiscalidad -- Impuestos Locales (IBI, IAE, Plusvalia, IVTM)
+description: >
+  Guia completa de los cuatro impuestos locales principales en Espana:
+  IBI (Impuesto sobre Bienes Inmuebles, valor catastral x tipo), IAE
+  (Impuesto sobre Actividades Economicas, exencion para autonomos y
+  empresas < 1 M EUR), plusvalia municipal (IIVTNU, metodo real y objetivo
+  tras sentencias TC), IVTM (impuesto de circulacion, bonificaciones
+  vehiculos electricos). Competencia municipal: cada ayuntamiento fija
+  tipos dentro de las horquillas legales.
+organization: Ayuntamientos de Espana / Ley de Haciendas Locales
+tags: [fiscalidad, impuestos locales, IBI, IAE, plusvalia municipal, IIVTNU, IVTM, impuesto circulacion, valor catastral, ayuntamiento, haciendas locales]
+
+links:
+  website: https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214
+  catastro: https://www.sedecatastro.gob.es
+
+license:
+  data: Informacion publica (BOE, normativa municipal)
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre impuestos locales.
+    No accede a APIs municipales ni permite liquidar impuestos. Explica
+    el marco legal (Ley de Haciendas Locales) y las horquillas de tipos.
+    Cada ayuntamiento fija sus propios tipos y bonificaciones en sus
+    ordenanzas fiscales.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - IBI (que es, quien paga, calculo, tipos, bonificaciones)
+    - IAE (quien paga, exenciones, calculo, epigrafes)
+    - Plusvalia municipal (cuando se paga, metodo real y objetivo, sentencias TC)
+    - IVTM (cuotas, bonificaciones electricos/hibridos, baja)
+    - Tasas municipales habituales (basura, vado, terrazas, ICIO)
+    - Marco legal (Ley de Haciendas Locales)
+  not_accessible:
+    - Ordenanzas fiscales de cada municipio
+    - Tipos exactos de cada ayuntamiento
+    - Valor catastral concreto de un inmueble (usar skill catastro)
+    - ITP/AJD (usar skill fiscalidad-itp-ajd)
+    - ISD herencias y donaciones (usar skill fiscalidad-sucesiones-donaciones)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

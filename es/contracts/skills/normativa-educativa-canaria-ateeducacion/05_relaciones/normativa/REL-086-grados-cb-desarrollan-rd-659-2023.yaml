@@ -1,0 +1,11 @@
+id: REL-086
+tipo_relacion: "desarrolla"
+origen: NOR-087
+destino: NOR-080
+descripcion: "Las resoluciones de 25 de febrero de 2026 establecen en Canarias la distribución horaria y estructura modular de los Grados C y B que el Real Decreto 659/2023 ordena."
+evidencia:
+  fuente: FTE-094
+  localizacion: "Fundamentos de derecho de la Resolución de 25 de febrero de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Se registra sobre NOR-087 como representante del conjunto de siete resoluciones del mismo día; las otras seis declaran la misma relación en su frontmatter."

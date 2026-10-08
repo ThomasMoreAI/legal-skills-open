@@ -4,12 +4,13 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `gb` · Practice: `real-estate` · Skill language: en
 
-## Skills (6)
+## Skills (7)
 
 | Skill | What it does |
 |---|---|
 | [`Data Protection Guard`](skills/data-protection-guard/) | Pre-flight personal-data and GDPR check for conveyancing AI use. Run at the START of any conversation… |
 | [`Lease Impact Advisor`](skills/lease-impact-advisor/) | Assess leasehold property saleability and mortgage impact. Use when an estate agent or property… |
+| [`Rent Arrears Build Standard`](skills/rent-arrears-digitalgym/) | How to automate rent arrears without chasing the wrong tenant. Derived positions, the four triage… |
 | [`Restrictive Covenant Advisor`](skills/restrictive-covenant-advisor/) | Assess the impact and enforceability of restrictive covenants on freehold property. Use when a… |
 | [`Safe-AI Gate`](skills/safe-ai-gate/) | Supervisor / governance gate for conveyancing AI answers. Run alongside every substantive answer, BEFORE… |
 | [`SDLT Calculator`](skills/sdlt-calculator/) | Calculate UK Stamp Duty Land Tax (SDLT) for residential property purchases in England and Northern… |

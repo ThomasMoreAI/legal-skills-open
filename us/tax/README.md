@@ -4,11 +4,12 @@ Federal and state taxation: planning, compliance, reporting, and controversy.
 
 Jurisdiction: `us` · Practice: `tax` · Skill language: en
 
-## Skills (15)
+## Skills (16)
 
 | Skill | What it does |
 |---|---|
 | [`California Property Tax Research (BOE Rules + PTLG Annotations)`](skills/california-property-tax/) | California property tax research workflow using BOE Property Tax Rules (especially 462.* change in… |
+| [`When to Use`](skills/constructive-sale-rule-considerations-us-himanshuj16/) | Use when hedging an appreciated position in a US taxable account and an offsetting transaction could… |
 | [`Deductions, Credits & Exclusions`](skills/deductions-and-credits-cure-consulting-group/) | Qualifies deductions, credits, and exclusions against IRC tests. Use when asked whether something is… |
 | [`Document Retention Policy (Nonprofit)`](skills/document-retention-policy/) | Drafts board-adoptable document retention policies for nonprofit organizations with IRS-grounded… |
 | [`Corporate Final Tax Return Filing`](skills/final-tax-return-corporate/) | Prepares IRS-compliant final tax returns for dissolving C-corps (Form 1120), S-corps (Form 1120-S), and… |

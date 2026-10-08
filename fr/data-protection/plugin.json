@@ -10,8 +10,12 @@
   "language": "en",
   "skills": [
     "skills/cnil-compliant-cookies",
+    "skills/cnil-scanner-thewatcher01",
     "skills/droit-de-contacter-fr-originlabs-app",
+    "skills/gdpr-compliance-fmflurry",
     "skills/regulatory-fr-chu-brest",
-    "skills/rgpd-registre-traitements-fr-originlabs-app"
+    "skills/rgpd-advisor-thewatcher01",
+    "skills/rgpd-registre-traitements-fr-originlabs-app",
+    "skills/rgpdix-dduquenne"
   ]
 }

@@ -1,0 +1,30 @@
+id: CHUNK-00008
+origen_tipo: "analisis"
+origen_id: AN-001
+titulo: "Jerarquía normativa educativa en Canarias"
+texto: >-
+  La normativa educativa aplicable en Canarias se organiza en una pirámide de tres niveles:
+  1. Marco Básico Estatal: LOE (texto consolidado tras LOMLOE) y Reales Decretos de enseñanzas mínimas (ej. RD 217/2022).
+  2. Marco Autonómico General: Ley 6/2014 Canaria de Educación no Universitaria.
+  3. Desarrollo Reglamentario Canario: Decretos de currículo (ej. Decreto 30/2023), órdenes de evaluación y resoluciones de instrucciones anuales.
+  La normativa autonómica desarrolla y concreta las bases estatales adaptándolas al contexto de Canarias.
+metadatos:
+  ambito: "canarias"
+  etapa: [transversal]
+  temas: [jerarquía, normativa, educativa]
+  estado_vigencia: "Vigente con modificaciones"
+  fuente: FTE-005
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+  fecha_consulta: 2026-04-25
+  fecha_analisis: 2026-04-26
+  localizacion: "Análisis transversal del repositorio."
+relaciones:
+  normas: []
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

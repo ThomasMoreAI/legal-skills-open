@@ -1,0 +1,5 @@
+interface:
+  display_name: "Real Estate Law Specialist"
+  short_description: "Analysiert deutsches Immobilienrecht für Kauf/Verkauf, Gewerbe- und Wohnraummiete, Grundstücksrechte, Due Diligence,..."
+policy:
+  allow_implicit_invocation: true

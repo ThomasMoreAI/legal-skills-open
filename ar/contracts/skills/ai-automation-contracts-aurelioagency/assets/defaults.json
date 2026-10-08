@@ -1,0 +1,47 @@
+{
+  "_comentario": "Valores por defecto de Aurelio Agency. Se mezclan con los datos del proyecto; los datos del proyecto pisan estos valores. Editar aquí para cambiar la política estándar en todos los contratos futuros.",
+
+  "PROVEEDOR_NOMBRE": "",
+  "PROVEEDOR_CUIT": "",
+  "PROVEEDOR_DOMICILIO": "",
+  "PROVEEDOR_EMAIL": "",
+
+  "SESIONES_CAPACITACION": "una (1)",
+  "EXCLUSIONES_ADICIONALES": "toda otra tarea no enumerada expresamente en el Anexo I.",
+
+  "UMBRAL_IA": "90",
+
+  "PLAZO_ACCESOS": "siete (7)",
+  "PLAZO_SILENCIO": "siete (7)",
+  "PLAZO_INACTIVIDAD": "treinta (30)",
+  "PLAZO_ACEPTACION": "siete (7)",
+  "PLAZO_GARANTIA": "treinta (30) días corridos",
+  "PLAZO_SUBSANACION": "quince (15)",
+  "PLAZO_CONFIDENCIALIDAD": "dos (2)",
+  "PLAZO_NO_SOLICITACION": "doce (12)",
+
+  "MINIMO_FACTURABLE": "una (1)",
+  "FRACCION_MINIMA": "media hora",
+
+  "INTERES_MORA": "una vez y media (1,5) la tasa activa que percibe el Banco de la Nación Argentina para operaciones de descuento de documentos a treinta días",
+  "DIAS_RESOLUCION": "quince (15)",
+
+  "TOPE_RESPONSABILIDAD": "50",
+
+  "PLAZO_OBSERVACION_HORAS": "cinco (5)",
+  "PREAVISO_ACTUALIZACION": "treinta (30)",
+  "PREAVISO_CANCELACION": "treinta (30)",
+  "DIAS_PAGO": "cinco (5)",
+  "DIAS_MORA_SUSPENSION": "diez (10)",
+  "DIAS_MORA_RESOLUCION": "treinta (30)",
+  "MESES_TOPE": "tres (3)",
+  "TIEMPO_RESPUESTA": "veinticuatro (24) horas",
+  "HORARIO_SOPORTE": "lunes a viernes de 9 a 18 h (hora de Argentina), excepto feriados nacionales",
+  "CANAL_SOPORTE": "correo electrónico",
+  "SERVICIOS_ADICIONALES": "informe mensual de funcionamiento y consumo de horas.",
+
+  "PLAZO_ACEPTACION_OT": "siete (7)",
+  "GARANTIA_OT": "quince (15) días corridos",
+  "FUERA_DE_ALCANCE_OT": "Se excluye expresamente toda ampliación funcional, integración adicional o modificación no descripta en el punto 2.",
+  "REQUISITOS_CLIENTE_OT": "Accesos vigentes a las plataformas involucradas y disponibilidad del interlocutor designado para consultas y validación."
+}

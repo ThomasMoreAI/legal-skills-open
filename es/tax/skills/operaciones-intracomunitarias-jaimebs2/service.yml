@@ -1,0 +1,58 @@
+name: fiscalidad-operaciones-intracomunitarias
+display_name: Fiscalidad — Operaciones Intracomunitarias
+description: >
+  Guía sobre la operativa fiscal de compras y ventas entre autónomos o
+  empresas españolas y contrapartes establecidas en otros Estados miembros
+  de la UE. Cubre ROI/VIES (qué es y cómo verificar), inversión del sujeto
+  pasivo (reverse charge), autoliquidación del IVA en el Modelo 303
+  (casillas 10–11 bienes, 12–13 servicios, 28–29 deducible) y declaración
+  informativa Modelo 349. Incluye supuestos prácticos: SaaS de proveedores
+  UE (Anthropic, AWS, Stripe), ventas de servicios a empresas UE, y qué
+  hacer si se recibe una factura sin IVA sin estar en ROI.
+organization: Agencia Estatal de Administración Tributaria (AEAT)
+tags: [fiscalidad, IVA, ROI, VIES, modelo 349, modelo 303, operaciones intracomunitarias, reverse charge, inversión sujeto pasivo, UE, autónomos, sociedades, AEAT]
+
+links:
+  portal_iva: https://sede.agenciatributaria.gob.es/Sede/iva.html
+  modelo_349: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G417.shtml
+  modelo_303: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G414.shtml
+  modelo_036: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G322.shtml
+  vies: https://ec.europa.eu/taxation_customs/vies/
+
+license:
+  data: Información pública de la AEAT y Comisión Europea
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No presenta declaraciones ni
+    accede a la Sede Electrónica. Puede usar WebFetch para enlazar a
+    páginas informativas de AEAT y VIES.
+
+data:
+  scope:
+    national: true
+    cross_border_eu: true
+  accessible:
+    - Qué son operaciones intracomunitarias (bienes vs servicios, B2B vs B2C)
+    - Qué son ROI y VIES, cómo verificar el NIF-IVA
+    - Inversión del sujeto pasivo (reverse charge) — concepto y condiciones
+    - Autoliquidación del IVA en Modelo 303 (casillas 10–11, 12–13, 28–29) con ejemplos
+    - Modelo 349 (periodicidad, claves A/E/I/S/T, plazos)
+    - Supuestos prácticos frecuentes (SaaS, ventas a empresas UE)
+    - Qué hacer si se recibe factura UE sin IVA sin estar en ROI
+  not_accessible:
+    - Presentación real de los modelos (requiere certificado digital/Cl@ve)
+    - Datos fiscales individuales del contribuyente
+    - Régimen OSS (ventas B2C a consumidor final UE)
+    - Importaciones/exportaciones fuera de la UE (DUA)
+    - Trámite detallado del alta en ROI (usar fiscalidad-modelo-036)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

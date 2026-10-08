@@ -9,10 +9,12 @@
   "practice": "regulatory",
   "language": "en",
   "skills": [
+    "skills/balise-web-legal-mrstev3n",
     "skills/commissaire-aux-comptes-romainsimon",
     "skills/import-politique-lanceur-alerte-fr-sboghossian",
     "skills/legal-fr-clemensjl",
     "skills/rgaa-etalab-ia",
+    "skills/usage-ia-agents-etat-etalab-ia",
     "skills/veille-jo-zevra-tech"
   ]
 }

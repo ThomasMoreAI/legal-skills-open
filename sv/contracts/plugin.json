@@ -1,0 +1,14 @@
+{
+  "name": "sv-contracts",
+  "displayName": "Contracts — SV",
+  "version": "0.1.0",
+  "description": "Contracts skills for SV (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sv",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-el-salvador-orwel"
+  ]
+}

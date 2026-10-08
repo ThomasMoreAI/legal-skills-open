@@ -1,0 +1,7 @@
+interface:
+  display_name: "Miglioratore di prompt legale"
+  short_description: "Trasforma un quesito giuridico in un prompt ottimizzato (solo prompt, <750 parole)"
+  default_prompt: "Usa $miglioratore-prompt-legale per trasformare il mio quesito giuridico italiano in un prompt ottimizzato e strutturato, restituendo solo il prompt migliorato."
+
+policy:
+  allow_implicit_invocation: true

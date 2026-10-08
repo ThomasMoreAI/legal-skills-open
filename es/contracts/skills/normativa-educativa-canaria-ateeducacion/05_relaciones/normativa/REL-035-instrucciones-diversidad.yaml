@@ -1,0 +1,11 @@
+id: REL-035
+tipo_relacion: "desarrolla"
+origen: NOR-041
+destino: NOR-024
+descripcion: "Las Resoluciones de instrucciones de atención a la diversidad (cursos 24/25, 25/26 y 26/27) concretan la aplicación del Decreto 25/2018 y la Orden de 7 de junio de 2007 para cada periodo lectivo."
+evidencia:
+  fuente: FTE-044
+  localizacion: "Instrucciones de la Dirección General de Ordenación, Inclusión e Innovación"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Esta relación incluye por extensión a las resoluciones NOR-039 y NOR-040, y se vincula también con NOR-037."

@@ -1,0 +1,1345 @@
+ID interno: CUR-012
+Título oficial: Física y Química — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+FÍSICA Y QUÍMICA
+Introducción
+La física y la química tratan de explicar el mundo que nos rodea y de dar respuesta a preguntas que,
+en  algunos  casos,  no  la  tienen,  pero  el  camino  recorrido  hasta  encontrarla  nos  brindará
+conocimiento y desarrollo, tal y como ha ocurrido hasta ahora. La formación integral del alumnado
+requiere de la existencia de una iniciación a la alfabetización científica en la etapa de la Educación
+Secundaria Obligatoria como continuidad a los aprendizajes de las ciencias de la naturaleza en la
+Educación  Primaria,  pero  con  un  nivel  de  profundización  mayor  en  las  diferentes  áreas  de
+conocimiento de la ciencia. En esta alfabetización científica, disciplinas como la física y la química
+juegan  un papel  decisivo  para  comprender  el  funcionamiento  del  universo  y las  leyes  que  lo
+gobiernan y proporcionan al alumnado los conocimientos, destrezas y actitudes de la ciencia que le
+permiten desenvolverse con criterio fundamentado en un mundo en continuo desarrollo científico,
+tecnológico, económico y social.
+Además,  la  física  y  la  química,  con  investigación  y  desarrollo,  han  cambiado  la  sociedad,
+haciéndola más avanzada y segura y, a día de hoy, siguen aportando beneficios en campos tan
+dispares como los materiales, la cosmética, la medicina, la obtención de energía sostenible e incluso
+en campos como el arte y la gastronomía, la cocina como el laboratorio más antiguo conocido y, a
+medio o largo plazo, los viajes interplanetarios y la minería espacial. La materia proporcionará al
+alumnado una serie de saberes y aprendizajes sobre cómo funciona el mundo, desde lo más pequeño
+a lo más grande, desde el mundo subatómico hasta el vasto universo. Estas dos disciplinas se basan
+en la ciencia y esta no es dogmática ni estática, y esta característica será trasvasada al alumnado,
+que aprenderá a cuestionarse lo que le rodea, a ser crítico usando los métodos científicos adquiridos,
+emitiendo predicciones para comprobarlas, a no creerse todo a pies juntillas, a pensar para no ser
+víctima de engaños, supersticiones y pseudociencias, es decir, ayudarles a tomar buenas decisiones
+que afecten a su salud, familia, economía, etc., en su vida cotidiana.
+El desarrollo curricular de la materia de Física y Química en la Educación Secundaria Obligatoria
+contribuye al desarrollo de las competencias clave y de los objetivos de etapa que en ella se han
+definido.  Los  conocimientos  y  destrezas  científicas  adquiridos  de  una  manera  competencial
+asegurarán el desarrollo de las competencias clave más allá de una memorización de contenidos,
+porque solo de esta forma el alumnado será capaz de desarrollar el pensamiento científico para
+enfrentarse a los posibles problemas de la sociedad que le rodea y disfrutar de un conocimiento más
+profundo del mundo.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+1
+
+=== Página 2 ===
+
+Contribución a los objetivos de etapa
+El currículo de Física y Química en esta etapa educativa contribuye no solo al desarrollo de las
+competencias clave, sino a la consecución de los objetivos de etapa. Estos últimos se ven recogidos
+en las seis competencias específicas de la materia y se desarrollarán conforme el alumnado vaya
+abordando las distintas actividades y situaciones de aprendizaje a lo largo del proceso educativo.
+En primer lugar, cabe destacar la especial aportación que esta materia hace a que el alumnado
+conciba  el  conocimiento  científico  como  un  saber  integrado  (f)  y  que  sea  capaz  de  aplicar
+razonadamente los métodos para identificar los problemas observados en diversos campos. Al final
+de la etapa, y tras el desarrollo curricular, también se espera que esté en condiciones de comprender
+y expresar con corrección textos y conocimientos en lengua castellana (h) y otras lenguas (i), así
+como aplicar determinadas destrezas en la búsqueda segura de información y selección de fuentes
+fiables dentro de su proceso de aprendizaje, con espíritu emprendedor y sentido crítico (e). Al
+mismo tiempo, se pretende que el alumnado sea capaz de asumir sus deberes de forma responsable,
+realizar con disciplina proyectos individuales y colaborativos (a) y (b), desde el respeto a los
+derechos humanos y a la igualdad entre las personas y los colectivos, valorando las diferencias (d) y
+(c).  Por  otro  lado,  el  desarrollo  del  currículo  contribuye  al  conocimiento  y  la  valoración  del
+patrimonio cultural y artístico de Canarias (l) y (j), así como la labor científica de hombres y
+mujeres a lo largo de la historia y su importancia en la mejora de la calidad de vida y la búsqueda de
+soluciones socioambientales. Finalmente, es también una meta de este currículo que el alumnado
+fortalezca  hábitos personales  y  sociales relacionados  con  la  salud,  el  consumo,  el  cuidado,  la
+empatía y el respeto hacia los seres vivos y el medioambiente para su conservación y mejora (k).
+En  definitiva,  la  materia  contribuye  a  que  el  alumnado  que  supere  con  éxito  la  Educación
+Secundaria Obligatoria sea capaz de participar activamente en la sociedad y afrontar los desafíos
+que se le presenten a lo largo de la vida.
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La  Competencia  en  comunicación  lingüística  (CCL)  es  imprescindible  para  que  el  alumnado
+adquiera, desarrolle y aplique los saberes básicos en Física y Química. La mejora de la lectura
+comprensiva de textos científicos o enunciados de problemas es fundamental para el desarrollo de la
+materia. Por tanto, se potenciarán el desarrollo y la adquisición de esta competencia mediante
+dichas acciones, con la finalidad de mejorar los hábitos de lectura y la adquisición de un lenguaje
+científico, más técnico a la hora de expresarse de manera oral, escrita, signada o multimodal en
+informes de laboratorio, exposiciones o debates, transfiriendo los aprendizajes adquiridos a su vida
+cotidiana. El alumnado aprenderá a buscar, seleccionar y tratar la información de forma crítica para
+ser resolutivo. Con todo esto, logrará adquirir conocimiento científico y transmitirlo, favoreciendo
+la difusión de la cultura científica.
+La mayoría de las publicaciones científicas relevantes en ciencias naturales están redactadas en
+inglés, convirtiéndolo en un lenguaje universal para la ciencia. Por lo tanto, el desarrollo de la
+2
+
+=== Página 3 ===
+
+Competencia plurilingüe (CP) permitirá al alumnado acceder a información contenida en textos
+científicos escritos en otros idiomas, lo que favorecerá su aprendizaje.
+La materia de Física y Química influye de forma relevante en la adquisición de la Competencia
+matemática y competencia en ciencia, tecnología e ingeniería (STEM). El alumnado aprenderá
+ciencia haciendo ciencia, aplicando razonamientos propios del pensamiento científico y usando las
+metodologías científicas para interpretar y transformar el mundo natural que le rodea, ajustándose a
+las necesidades y deseos de la sociedad en términos de seguridad, responsabilidad y sostenibilidad,
+contribuyendo así a la adquisición de la competencia en tecnología e ingeniería. Asimismo, las
+matemáticas como lenguaje de la ciencia serán imprescindibles tanto para la recolección de datos y
+su  tratamiento  como  para  la  emisión  de  conclusiones  en  tablas  o  gráficos,  pasando  por  la
+experimentación y la resolución de problemas fisicoquímicos en situaciones conocidas mediante las
+leyes y teorías científicas.
+La contribución de Física y Química a la Competencia digital (CD) es evidente a través de la
+utilización  de  las  tecnologías  digitales  para  mostrar  y  entender  infinidad  de  fenómenos
+microscópicos  y  macroscópicos  mediante  simulaciones  imposibles  de  realizar  en  el  aula.  Se
+fomentará la competencia digital a través de la búsqueda, selección, procesamiento y presentación
+de la información, de forma individual o grupal, en proyectos colaborativos utilizando herramientas
+y recursos virtuales que faciliten el acceso a los saberes básicos de la materia.
+La Competencia personal, social y de aprender a aprender (CPSAA) se desarrollará generando
+curiosidad y motivación, presentando aspectos de la materia que despierten el interés del alumnado.
+El método de enseñanza basado en la investigación ayudará a que se sienta protagonista, gestione el
+tiempo y la información eficazmente y colabore con otros de forma constructiva en busca de una
+meta común, al tiempo que es consciente del proceso y del resultado de su aprendizaje, buscando
+soluciones  de  forma  autónoma  e  incluyendo  el  aprendizaje  a  lo  largo  de  la  vida  como  una
+herramienta útil para adaptarse a nuevos escenarios.
+La  contribución  al  desarrollo  de  la  Competencia  ciudadana  (CC)  está  relacionada  con  la
+alfabetización científica que permite al alumnado tomar decisiones como ciudadanos y ciudadanas
+integrantes de una sociedad democrática en aspectos relacionados con la salud, la alimentación, el
+consumo, la contaminación, las fuentes de energía y el medioambiente, entre otros, que le afectan
+directamente a nivel personal e inciden en la sostenibilidad de su entorno. Se contribuirá a su
+adquisición a través de ejemplos cercanos: la problemática del uso de plásticos en nuestro entorno
+social  y  natural  y  sus  consecuencias,  las  extracciones  petrolíferas  en  Canarias,  los  vertidos
+incontrolados al mar, etc. Los distintos tipos de agrupamiento que realice el profesorado en el aula
+tendrán como finalidad el fomento de valores sociales y cívicos entre el alumnado.
+La Competencia emprendedora (CE) se fomentará a través del estudio sobre la aplicación de los
+conocimientos  científicos  en  la  investigación  y  el  impulso  del  desarrollo  tecnológico,  las
+actividades  de  emprendeduría  o  la  transferencia  de  conocimiento  desde  las  instituciones  de
+investigación  a  la  sociedad  mediante  el  diseño  de  aplicaciones,  patentes,  descubrimientos,
+producción  de  bienes  de  consumo,  etc.  Se  mostrarán  casos  de  éxito,  incidiendo  en  aquellos
+acontecidos a nivel autonómico en instituciones como el IAC, el ITER, el IUBO, el IPNA-CSIC y
+otros centros de investigación canarios. A través del trabajo en equipo en pequeñas investigaciones
+y  proyectos  desarrollarán  su  autonomía,  la  empatía,  las  habilidades  de  comunicación  y  de
+negociación para llevar las ideas planteadas a la acción mediante la planificación, la capacidad de
+gestionar riesgos y las cualidades de liderazgo.
+3
+
+=== Página 4 ===
+
+Por último, para el desarrollo de la Competencia en conciencia y expresión culturales (CCEC) se
+potenciará su cultura científica no solo mediante la adquisición de aprendizajes físicos y químicos
+para la toma correcta de decisiones en su entorno, sino también de conocimientos relacionados con
+los avances científicos a lo largo de la historia, especialmente en el último siglo, poniendo de
+manifiesto que la ciencia se hace por acumulación de conocimientos anteriores creados por mujeres
+y hombres, dándose casos donde ciertas ideas fueron tan innovadoras y creativas en su momento
+que cambiaron el rumbo de la sociedad y afectaron a la cultura. El profesorado favorecerá y guiará
+para  que  las  ideas y producciones  del  alumnado  sean  creativas e  innovadoras,  fomentando  la
+sinergia entre el arte y la ciencia.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En  el  currículo  de  Física  y  Química  se  han  establecido  seis  competencias  específicas,  cuyo
+desarrollo proporciona al alumnado la capacidad de adquirir conocimientos, destrezas y actitudes
+científicas  y  elementos  transversales  de  vital  importancia  para  un  desarrollo  integral  como
+ciudadanía activa. Estas competencias se concretan en trece criterios de evaluación que, de acuerdo
+con  la  naturaleza  de  la  materia,  proponen  la  utilización  de  metodologías  y  herramientas
+experimentales, entre ellas, el desarrollo matemático de las leyes y principios, los instrumentos de
+laboratorio y las herramientas digitales que pueden facilitar la comprensión de los conceptos y
+fenómenos. Estas competencias también pretenden fomentar el trabajo en equipo y los valores
+sociales y cívicos para lograr personas comprometidas que utilicen la ciencia para la formación
+permanente a lo largo de la vida, el desarrollo medioambiental, el bien comunitario y el progreso de
+la sociedad.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+4
+
+=== Página 5 ===
+
+El desarrollo de la competencia específica 1 conlleva hacerse preguntas para comprender cómo es la
+naturaleza del entorno, cuáles son las interacciones que se producen entre los distintos sistemas
+materiales, así como las causas y las consecuencias de las mismas. En este proceso el alumnado ha
+de tomar decisiones de forma crítica y fundamentada para la construcción de su aprendizaje y llegar
+a conclusiones que luego aplicará para mejorar su vida diaria. Para ello ha de valerse de las
+herramientas científicas necesarias y desarrollar los procedimientos de investigación adecuados.
+Esta competencia se concreta en dos criterios de evaluación. El primero aborda la identificación de
+fenómenos  fisicoquímicos  cotidianos,  comunicando  sus  resultados  y  conclusiones  en  diversos
+soportes y medios de comunicación. El grado de profundización y complejidad de los aprendizajes
+será progresivo en los diferentes niveles, lo que requerirá al alumnado ahondar en las explicaciones
+y razonamientos sobre dichos fenómenos. El segundo criterio está relacionado con la resolución de
+problemas fisicoquímicos en distintas situaciones mediante la aplicación de leyes y teorías, de
+forma menos guiada y expresándose, progresivamente, con mayor corrección, precisión y rigor.
+Competencia específica 2 (C2)
+La competencia específica 2 está relacionada con el empleo de los mecanismos del pensamiento
+científico para analizar y describir los fenómenos naturales y trabajar con las metodologías que
+caracterizan el trabajo científico en distintos entornos de aprendizaje. Esta competencia potencia la
+curiosidad del alumnado y promueve la indagación y búsqueda de respuestas ante determinadas
+situaciones planteadas u observadas, desarrollando así los saberes adquiridos y construyendo otros
+nuevos. Esta competencia se divide  en  dos criterios de evaluación. El  primero  orientado  a la
+identificación  y  descripción  de fenómenos científicos  a partir  de situaciones  observadas  en el
+mundo natural o planteadas a través de enunciados mediante la experimentación, y el segundo
+dirigido  al  diseño  y  desarrollo  de  procedimientos  experimentales  o  deductivos  que  permitan
+responder a las hipótesis formuladas de manera informada, aplicando los conocimientos científicos
+y el razonamiento lógico-matemático para la validación y el análisis de los resultados. En los cursos
+iniciales el enfoque general se basa solo en la selección y desarrollo del procedimiento a seguir
+conforme a herramientas matemáticas adecuadas a su nivel competencial.
+Competencia específica 3 (C3)
+Con el desarrollo de la competencia específica 3 se pretende que el alumnado se familiarice con el
+lenguaje  de  la  ciencia  que  le  permita  una  interpretación  y  comunicación  efectiva,  global  y
+multidireccional. Además, esta competencia requiere que el alumnado sea capaz de producir nuevos
+datos evaluando la calidad de los mismos, así como que reconozca la importancia que requiere la
+investigación  previa  a  un  estudio  científico  y  su  carácter  interdisciplinar.  En  este  caso,  la
+competencia queda formalizada con tres criterios de evaluación. Un primer criterio relativo a la
+comparación  y  comunicación  de  datos  en  determinados  formatos  respecto  de  procesos
+fisicoquímicos a través de la utilización de herramientas digitales y fuentes concretas, fiables y
+seguras. En los niveles finales de la etapa el alumnado deberá, además, ser capaz de seleccionar e
+interpretar esos datos descartando lo irrelevante. El segundo criterio de este bloque competencial
+plantea  el  uso de  las normas básicas de la  física y la  química,  los sistemas de unidades, las
+herramientas matemáticas y las reglas de nomenclatura. Finalmente, el tercer criterio contempla la
+necesidad de establecer y respetarlas normas de uso de los espacios, otorgando valor a la salud
+propia y colectiva y a la conservación sostenible del medioambiente.
+Competencia específica 4 (C4)
+5
+
+=== Página 6 ===
+
+Con  la  competencia  específica  4  se  pretende  fomentar  la  adquisición  de  saberes  básicos
+relacionados  con la utilización,  de forma  crítica, creativa y segura, de  plataformas digitales y
+recursos diversos, tanto para el trabajo individual como en equipo. Al mismo tiempo, el desarrollo
+de  esta  competencia  específica  busca  que  el  alumnado  emplee  técnicas  de  colaboración  y
+cooperación propias del ámbito científico. La competencia comprende dos criterios específicos
+relacionados con la utilización de forma segura de recursos variados, tradicionales y digitales, tanto
+de forma autónoma como cooperativa, y, por otro lado, con la consulta y creación de contenidos
+digitales. A medida que se incremente el nivel curricular se exigirá la selección de los recursos y un
+mayor grado de autonomía en el trabajo.
+Competencia específica 5 (C5)
+El fundamento de la competencia específica 5 es el aprendizaje de determinadas destrezas tales
+como  la capacidad de liderazgo,  las dotes de comunicación, la escucha  activa y la  capacidad
+organizativa,  así  como  el  desarrollo  de  determinadas  actitudes  que  faculten  al  alumnado  para
+emprender y desarrollar proyectos que evidencien el importante papel que juegan la física y la
+química en el progreso sostenible de la sociedad, en la mejora de la salud y en la conservación del
+medioambiente. En este caso, son dos los criterios de evaluación vinculados a esta competencia. En
+el primero, el alumnado deberá emplear interacciones constructivas y coeducativas, poniendo en
+práctica actividades de cooperación como forma de construir un medio de trabajo eficiente, ético y
+crítico  en la  ciencia. En  el segundo criterio,  deberá observar  situaciones  problemáticas  reales,
+locales o globales, y emprender, de forma guiada al principio de la etapa y con mayor autonomía al
+final  de  la  misma,  proyectos  científicos  colaborativos  explicando  inicialmente  y  razonando  y
+analizando en los dos últimos cursos, respectivamente, el impacto que las iniciativas tienen en la
+mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente.
+Competencia específica 6 (C6)
+Por último, la competencia específica 6 desarrolla aspectos de la materia de Física y Química en los
+que el alumnado pone de relieve la importancia de los avances científicos, los límites de la ciencia y
+cuestiones éticas. La concreción de esta competencia se distribuye en dos criterios de evaluación. El
+primero relativo a la percepción de la ciencia como un proceso en construcción con repercusiones e
+implicaciones tecnológicas, económicas, sociales y medioambientales. En los niveles de 3.º y 4.º se
+pretende,  además,  que  el  alumnado  haga  una  valoración  de  tales  repercusiones  de  forma
+fundamentada.  El  otro  criterio  aspira  a  habilitar  al  alumnado  para  identificar  las  necesidades
+tecnológicas, económicas, sociales o ambientales básicas que demanda la sociedad y para reconocer
+que la ciencia puede aportar soluciones a las mismas. La identificación y detección de dichas
+necesidades  se  centrará  en  diferentes contextos,  según sea  el  alcance  curricular,  partiendo  del
+entorno más próximo en el segundo curso y dejando para el último las demandas de la humanidad
+en general.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+El aprendizaje de estos saberes básicos representa un elemento necesario para la adquisición de las
+competencias específicas de la materia. Constituyen un conjunto de conocimientos, destrezas y
+6
+
+=== Página 7 ===
+
+actitudes imprescindibles que el alumnado deberá aprender a lo largo de esta etapa de enseñanza
+obligatoria  en los  centros  educativos con  carácter  general.  No obstante,  el  profesorado  tendrá
+competencia  y  autonomía  en  la  elección  de  aquellos  que  se  estimen  más  adecuados  para
+implementar los aprendizajes establecidos en cada uno de los bloques competenciales. De este
+modo, los saberes básicos se deben entender como punto de partida en relación con los contenidos a
+impartir, pero la amplitud y la profundidad del currículo la determinarán y garantizarán el centro
+educativo y su profesorado.
+Los saberes básicos de esta materia se han distribuido en cinco grandes bloques de conocimiento en
+el siguiente orden: I, «Las destrezas científicas básicas», II, «La materia», III, «El cambio», IV , «La
+interacción» y V , «La energía».
+Esta estructura está orientada a un tratamiento y un desarrollo de los saberes que se inicie con el
+conocimiento del mundo microscópico de la materia, sus propiedades y transformaciones, para
+continuar  con  el  comportamiento  de la  misma  en  relación  con  su  movimiento,  qué  causas  lo
+originan y finalizar con tipos de interacciones y la energía. Los saberes pueden ser tratados en todos
+o  en  varios  de  los  bloques  competenciales,  dependiendo  de  las  actividades  y  situaciones  de
+aprendizaje que el profesorado diseñe.
+En el Bloque I, denominado «Las destrezas científicas básicas», se establece la relación de las
+ciencias experimentales con las matemáticas, que ofrecen un lenguaje de comunicación formal y
+que incluye los conocimientos, destrezas y actitudes previos del alumnado y los que se adquieren a
+lo largo de esta etapa educativa. Se incide también en el papel destacado de las mujeres a lo largo de
+la  historia  de  la  ciencia  como  forma  de  ponerlo  en  valor  y  fomentar  nuevas  vocaciones  sin
+estereotipos sexistas hacia el campo de las ciencias experimentales y la tecnología.
+El Bloque II, de «La materia», engloba los saberes básicos sobre la constitución interna de las
+sustancias, lo que incluye la descripción de la estructura de los elementos y de los compuestos
+químicos  y  las  propiedades  macroscópicas  y  microscópicas  de  la  materia  como  base  para
+profundizar en estos saberes en cursos posteriores.
+El Bloque III, denominado «El cambio», aborda las principales transformaciones físicas y químicas
+de los sistemas materiales y naturales, así como los ejemplos más frecuentes del entorno y sus
+aplicaciones y contribuciones a la creación de un mundo sostenible.
+El  Bloque  IV ,  «La  interacción»,  contiene  los  saberes  acerca  de  los  efectos  principales  de  las
+interacciones fundamentales de la naturaleza y el estudio básico de las principales fuerzas del
+mundo natural, así como sus aplicaciones prácticas en campos tales como la astronomía, el deporte,
+la ingeniería, la arquitectura o el diseño.
+Por último, con el Bloque V , «La energía», el alumnado profundiza en los conocimientos, destrezas
+y actitudes que adquirió en la Educación Primaria, como las fuentes de energía y sus usos prácticos
+o los aspectos básicos acerca de las formas de energía. Se incluyen, además, saberes relacionados
+con el desarrollo social y económico del mundo real y sus implicaciones medioambientales.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+7
+
+=== Página 8 ===
+
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+La construcción de la ciencia y el desarrollo del pensamiento científico en la adolescencia parte del
+planteamiento de cuestiones científicas basadas en la observación directa o indirecta del mundo en
+situaciones y contextos habituales, en su intento de explicación a partir del conocimiento, de la
+búsqueda de evidencias y de la indagación y en la correcta interpretación de la información que a
+diario llega al público en diferentes formatos y a partir de diferentes fuentes. Por eso el enfoque que
+se le dé a esta materia a lo largo de esta etapa educativa debe incluir un tratamiento experimental y
+práctico que amplíe la experiencia del alumnado más allá de lo académico y le permita hacer
+conexiones con sus situaciones cotidianas, lo que contribuirá de forma significativa a que desarrolle
+las destrezas características de la ciencia.
+El desarrollo y concreción de este currículo se llevará al aula, en última instancia, mediante las
+situaciones de aprendizaje. Se recomienda que el carácter de estas situaciones de aprendizaje sea
+motivador,  práctico  y  útil  en  el  ámbito  cotidiano,  que  incorpore  el  Diseño  Universal  para  el
+Aprendizaje (DUA), con el fin de lograr una inclusión real en el aula, que tenga en cuenta los
+diferentes  ritmos  de  aprendizaje,  las  diferentes  capacidades  y  la  diversidad  de  motivaciones,
+mediante el uso de recursos diversos y accesibles.
+Es importante recurrir a experiencias y experimentos en el laboratorio, en el aula o en casa, así
+como simulaciones interactivas que les permitan observar distintas propiedades y fenómenos de la
+naturaleza y lograr aprendizajes significativos. Para captar su interés es importante empezar las
+situaciones de aprendizaje con una pregunta, reto, foto, vídeo, entre otros, que despierte curiosidad
+en el alumnado y le inviten a razonar y a buscar información.
+Acumular conocimiento científico como ejercicio memorístico y teórico no sirve de nada si luego
+no  hay  transferencia  efectiva  a  su  vida  cotidiana.  Nuestro  papel  como  docentes  es  poner  de
+manifiesto  que  lo  aprendido  en  el  aula  es  de  gran  utilidad,  por  ejemplo,  a  la  hora  de  tomar
+decisiones  saludables,  para  respetar  el  medioambiente  y  para  esquivar  engaños  como  los  que
+promueven las pseudociencias.
+Podemos inferir de lo anterior que las metodologías como la investigación y el aprendizaje basado
+en proyectos se nos presentan como los modelos más adecuados en el aula, donde el profesorado
+tendrá el rol de guía en el proceso, permitiendo que el producto final ya no sea lo único importante,
+sino que también sean relevantes el proceso de aprendizaje, la profundización y el desarrollo de las
+competencias clave.
+Por último, para el diseño de las situaciones de aprendizaje, el profesorado tendrá en cuenta los
+conocimientos previos del alumnado, los diferentes estilos cognitivos y los ritmos de aprendizaje.
+Por lo tanto, las actividades y tareas deben ser variadas, abiertas, flexibles y con un grado de
+dificultad creciente que puedan ser abordadas desde diferentes enfoques y perspectivas.
+8
+
+=== Página 9 ===
+
+2.º ESO
+Bloques competenciales
+Competencia específica
+1.  Comprender  y  relacionar  los  motivos  por  los  que  ocurren  los  principales  fenómenos
+fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas,
+para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de
+vida humana.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM4, CD2,
+CPSAA4
+Criterios de evaluación
+1.1. Identificar los fenómenos fisicoquímicos cotidianos propuestos a partir de los principios, las
+teorías  y las leyes científicas y expresar  razonadamente sus conclusiones  en diversos soportes y
+medios de comunicación, para comprender a través de la ciencia lo que ocurre a su alrededor.
+CCL1, STEM2, CD2
+1.2. Resolver problemas fisicoquímicos en situaciones planteadas mediante las leyes y las teorías
+científicas aportadas, analizando la validez de los resultados y su adecuada expresión, para encontrar
+soluciones que mejoren su realidad cercana y la calidad de vida humana.
+STEM1, STEM2, STEM4, CPSAA4
+Explicación del bloque competencial
+A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática propuesta de índole científica, es capaz
+de identificar los fenómenos fisicoquímicos cotidianos más relevantes que subyacen en ella, aplicando los conocimientos científicos que se engloban
+en los diferentes bloques de saberes básicos para mejorar su comprensión de los principios, las teorías y las leyes científicas, y si activa los procesos
+necesarios para la resolución del problema (comprensión del enunciado, organización de la información, planteamiento lógico, ejecución y solución),
+9
+
+=== Página 10 ===
+
+así como el análisis de los resultados que se obtienen (validez del resultado y su adecuada expresión), expresando sus conclusiones en diferentes
+formatos y soportes, dotándolo de herramientas para comprender cómo es la naturaleza de su entorno y cómo mejorar la realidad cercana a través de
+la ciencia.
+Competencia específica
+2. Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando
+hipótesis  para  explicarlas  y  demostrando  dichas  hipótesis  a  través  de  la  experimentación
+científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios
+del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM1, STEM2, CD1,
+CPSAA4, CE1, CCEC3
+Criterios de evaluación
+2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de
+cuestiones  cotidianas  planteadas  mediante  la  experimentación,  la  indagación,  la  deducción  y  la
+búsqueda de evidencias procedente de diversas fuentes, diferenciándolas de aquellas pseudocientíficas
+que no admiten comprobación experimental, para adquirir las destrezas científicas necesarias.
+CCL1, CCL3, STEM1, STEM2, CD1
+2.2. Seleccionar o desarrollar los procedimientos experimentales que permitan comprobar o refutar las
+hipótesis formuladas, de acuerdo con la naturaleza de las cuestiones que se traten y el conocimiento
+científico adquirido, aplicando las leyes y teorías científicas conocidas para obtener conclusiones y
+respuestas ajustadas a la naturaleza de la pregunta formulada.
+CCL1, STEM1, STEM2, CPSAA4, CE1,
+CCEC3
+Explicación del bloque competencial
+10
+
+=== Página 11 ===
+
+A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las
+metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de
+evidencias y la deducción) para identificar los fenómenos científicos que ocurren en situaciones conocidas planteadas relacionadas con los diferentes
+bloques de saberes básicos, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental. Además, se valorará si
+selecciona o desarrolla procedimientos experimentales, valida hipótesis, analiza los resultados y comprueba o presenta soluciones, empleando
+diversos entornos y recursos científicos, como el laboratorio o los entornos virtuales, y manejando materiales, sustancias y herramientas de forma
+segura, para mejorar sus destrezas al interpretar los fenómenos fisicoquímicos y despertar vocaciones científicas.
+Competencia específica
+3. Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al
+lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al
+uso  seguro  del  laboratorio  y  a  la  interpretación  y  producción  de  datos  e  información  en
+diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje
+científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes
+países y culturas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP1, STEM4, STEM5, CD2, CD3,
+CPSAA2, CC1, CCEC2, CCEC4
+Criterios de evaluación
+3.1. Examinar, contrastar y comunicar datos e información en el formato solicitado relativos a un
+proceso  fisicoquímico  concreto,  extrayendo  en  cada  caso  lo  más  relevante,  con  el  apoyo  de
+determinadas  herramientas  digitales  y  fuentes  concretas,  fiables  y  seguras,  para  la  resolución  de
+problemas de su entorno.
+CP1, STEM4, CD2, CD3, CCEC4
+11
+
+=== Página 12 ===
+
+3.2. Utilizar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de
+unidades y las herramientas matemáticas necesarias, para facilitar la comunicación efectiva con toda la
+comunidad científica desde el respeto a las normas del lenguaje de las ciencias.
+STEM4, CC1, CCEC2
+3.3. Establecer y respetar las normas de uso de los espacios específicos de la ciencia, dentro y fuera del
+centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y
+colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.
+STEM5, CPSAA2, CC1
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las
+disciplinas  científicas  y,  por  tanto,  se  constatará  si  es  capaz  de  examinar,  contrastar  y  comunicar  datos  e  información  relativos  a  procesos
+físicoquímicos concretos de cualquiera de los bloques de saberes básicos, de forma reflexiva, en determinados formatos y fuentes concretas
+(enunciados, textos, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), reconociendo la calidad de los
+mismos. Asimismo, se comprobará que es capaz de interrelacionar variables, distinguir entre magnitudes y unidades del Sistema Internacional de
+Unidades, relacionar distintos sistemas de unidades, así como las herramientas matemáticas necesarias, para comunicarse en el lenguaje universal de
+la ciencia. También se evaluará si es capaz de poner en práctica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos,
+universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de utilizar los materiales, las sustancias y
+las herramientas que en ellos se encuentren para poner en práctica comunicaciones efectivas englobadas en un entorno que asegure su salud, la de las
+demás personas y la del medioambiente.
+Competencia específica
+4. Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto
+para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y
+Descriptores operativos de las
+competencias clave. Perfil de salida
+12
+
+=== Página 13 ===
+
+el aprendizaje individual y social, mediante la consulta de información, la creación de materiales
+y la comunicación efectiva en los diferentes entornos de aprendizaje.
+CCL2, CCL3, CP1, STEM4, CD1, CD2,
+CD3, CPSAA3, CE3, CCEC4
+Criterios de evaluación
+4.1. Utilizar de forma segura recursos variados, tradicionales y digitales, trabajando el aprendizaje
+autónomo, en equipo y la interacción respetuosa con otros miembros de la comunidad educativa,
+contrastando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y
+practicar una ciudadanía cívica y reflexiva.
+CCL2, STEM4, CD3, CPSAA3
+4.2. Trabajar con los medios propuestos, tradicionales y digitales, en la consulta de información y la
+creación de contenidos, usando las fuentes y herramientas que se consideren, a partir de la aplicación
+de criterios de validez y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y
+mejorar el aprendizaje propio y colectivo.
+CCL3, CP1, CD1, CD2, CE3, CCEC4
+Explicación del bloque competencial
+A través de este bloque competencial se verificará si el alumnado es capaz de buscar recursos, incluso en otros idiomas, apropiados para la consulta
+de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de utilizar las fuentes y las herramientas, tradicionales y
+digitales, propuestas que se adapten a sus necesidades cuando consulta y contrasta información, de manera progresivamente autónoma, atendiendo a
+criterios de pertinencia y fiabilidad; cuando la reelabora y la incorpora para construir nuevo conocimiento y crear contenidos que aporten valor para
+sí mismos y para la comunidad, asociados a cualquiera de los bloques de saberes básicos, respetando la propiedad intelectual; y cuando interacciona
+con otros miembros de la comunidad educativa, tanto en el trabajo individual como en equipo, desde el respeto a las aportaciones del grupo en los
+procesos de revisión y mejora, para construir una comunicación efectiva y aumentar el aprendizaje propio y colectivo, con la finalidad de ejercitar
+competencias que le permitan adaptarse a una sociedad que demanda personas integradas y comprometidas.
+13
+
+=== Página 14 ===
+
+Competencia específica
+5. Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre
+iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para
+comprender  la  importancia  de  la  ciencia  en  la  mejora  de  la  sociedad,  las  aplicaciones  y
+repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible
+del medioambiente.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, STEM3, STEM5, CD3,
+CPSAA3, CC3, CE2
+Criterios de evaluación
+5.1. Emplear interacciones constructivas y coeducativas, practicando actividades de cooperación, en
+aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico
+en la ciencia.
+CCL5, CP3, CD3, CPSAA3
+5.2. Observar situaciones problemáticas reales, locales o globales, y emprender, de forma guiada,
+proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución,
+explicando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud
+y  la  conservación  sostenible  del  medioambiente,  que  creen  valor  para  el  individuo  y  para  la
+comunidad.
+STEM3, STEM5, CC3, CE2
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará, si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor
+científica. Para ello tendrá que desarrollar de forma guiada proyectos científicos que den solución a situaciones problemáticas reales planteadas
+relacionadas  con  cualquiera  de  los  bloques  de  saberes  básicos,  tanto  en  el  ámbito  cercano  como  a  escala  global,  aplicando  actividades  de
+cooperación, propiciando la participación de todo el grupo, aceptando las tareas y responsabilidades asignadas, analizando e incorporando las
+14
+
+=== Página 15 ===
+
+aportaciones del equipo a su aprendizaje con actitud respetuosa para llevar a término el proceso. Asimismo, se valorará si reconoce el impacto que
+las iniciativas emprendidas tienen en la mejora de la sociedad, en la preservación de la salud física y mental propia y comunitaria y en la
+conservación del medioambiente, adquiriendo hábitos de vida saludables y sostenibles. Además, se evaluará si, en el contexto del trabajo en equipo,
+colabora  e  interactúa  mediante  herramientas  o plataformas virtuales  compartiendo  contenidos, datos e  información  y gestiona  responsable  y
+éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y
+el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia, con la finalidad de unir puntos de vista diferentes
+durante el desarrollo del trabajo en equipo que contribuyan a alcanzar los objetivos propuestos.
+Competencia específica
+6. Comprender y valorar la ciencia  como una construcción  colectiva  en continuo cambio y
+evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere
+de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el
+avance tecnológico, económico, ambiental y social.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA4, CC4, CCEC1
+Criterios de evaluación
+6.1. Percibir la ciencia como un proceso en construcción, así como reconocer sus repercusiones e
+implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de
+los avances científicos logrados por hombres y mujeres de ciencia, para adoptar un estilo de vida
+sostenible y responsable.
+STEM2, CD4, CPSAA4, CCEC1
+6.2. Identificar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales básicas
+que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la
+STEM5, CPSAA1, CC4
+15
+
+=== Página 16 ===
+
+capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la
+ciudadanía.
+Explicación del bloque competencial
+A través de este bloque competencial se constatará si el alumnado percibe la ciencia como un proceso no finalizado, en continuo cambio y evolución,
+que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados por hombres
+y mujeres de ciencia, en aspectos como la constitución atómica o la concepción del universo. Del mismo modo, se evaluará si toma conciencia de la
+utilidad y las aplicaciones que las sustancias químicas, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros,
+tienen en la mejora de la calidad de vida cuando se hace un uso responsable y sostenible de los mismos. También se comprobará si establece las
+relaciones que existen entre la física y la química y otros campos que permiten aportar soluciones para adoptar estilos de vida sostenibles y
+respetuosos con el medioambiente; e identificar, en el entorno, las necesidades tecnológicas, económicas, sociales y ambientales más importantes
+que demanda la humanidad, en general, y la sociedad canaria, en particular, a través de la implicación de toda la ciudadanía.
+16
+
+=== Página 17 ===
+
+Saberes básicos
+I. Las destrezas científicas básicas
+ 1. Empleo  de  las  metodologías  propias  de  la  investigación  científica  para  desarrollar
+razonamientos  propios  del  pensamiento  científico.  Identificación  y  formulación  de
+cuestiones, elaboración de hipótesis y comprobación experimental de las mismas.
+ 2. Trabajo experimental y proyectos de investigación: selección de estrategias en la resolución
+de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción y la
+búsqueda de evidencias, haciendo deducciones válidas de las observaciones y obteniendo
+conclusiones.
+ 3. Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el
+laboratorio o los entornos virtuales para adquirir destrezas científicas. 
+ 3.1. Uso  de  materiales,  sustancias  e  instrumentos  básicos  del  laboratorio  de  Física  y
+Química.
+ 3.2. Manejo  de  herramientas  digitales  como  apoyo  al  trabajo  experimental  y  la
+investigación.
+ 4. Establecimiento y respeto por las normas de uso de los espacio específicos de la ciencia y en
+especial del laboratorio de Física y Química, asegurando y protegiendo así la salud propia y
+comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente.
+ 5. Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes
+escenarios científicos y de aprendizaje. 
+ 5.1. Utilización de las unidades del Sistema Internacional de Unidades y sus símbolos para
+facilitar la comunicación efectiva con toda la comunidad científica.
+ 5.2. Manejo de las herramientas matemáticas básicas para la resolución de problemas. 
+ 6. Utilización de estrategias para comparar información científica y comunicarla en diferentes
+formatos y a partir de diferentes medios. Desarrollo del criterio propio basado en lo que el
+pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e
+igualitaria.
+ 7. Valoración de la cultura científica y del papel de científicos y científicas en el avance y la
+mejora de la sociedad.
+II. La materia
+ 1. Aplicación de la teoría cinético-molecular a observaciones sobre la materia explicando sus
+propiedades, los estados de agregación, los cambios de estado, la temperatura y la formación
+de mezclas y disoluciones.
+ 2. Realización de experimentos sencillos relacionados con los sistemas materiales para explicar
+lo que ocurre a su alrededor. 
+ 2.1. Conocimiento  y  descripción  de  las  propiedades  de  los  sistemas  materiales,  su
+composición y su clasificación para la comprensión de su entorno más cercano.
+17
+
+=== Página 18 ===
+
+3. Conocimiento  de las partículas  fundamentales del  átomo  (electrón, protón y neutrón) e
+identificación y localización de los elementos más importantes de la tabla periódica.
+ 4. Conocimiento de compuestos químicos muy comunes, de sus propiedades físicas y químicas
+y de sus aplicaciones y repercusiones para valorar su impacto en el entorno y la calidad de
+vida.
+III. El cambio
+1. Estudio de los cambios de los sistemas materiales para comparar entre cambios físicos y
+químicos.
+2. Representación de reacciones químicas mediante ecuaciones químicas señalando reactivos y
+productos. Realización de experiencias para la descripción y explicación de algunos cambios
+químicos.
+3. Reconocimiento de la presencia de las reacciones químicas en la vida cotidiana y valoración
+de  los beneficios  proporcionados  por  la  industria  química  a  la  sociedad,  así como  sus
+repercusiones  socioambientales.  Análisis  de  problemas  medioambientales  globales  que
+permitan el planteamiento de posibles medidas para mitigarlos y contribuir a un presente
+sostenible.
+IV . La interacción
+1. Identificación  de  magnitudes  que  caracterizan  un  movimiento:  posición,  trayectoria,
+desplazamiento y distancia recorrida. Valoración de la importancia de la identificación de un
+sistema de referencia. Interpretación del concepto de velocidad media y su cálculo para la
+resolución de problemas de movimientos sencillos.
+2. Identificación y medida experimental de fuerzas en el entorno, como las deformaciones
+elásticas, y su relación con los efectos que producen para comprender que son agentes de
+cambio en los cuerpos.
+3. Identificación  e  interpretación  de  las  fuerzas  y  fenómenos  eléctricos,  magnéticos  y
+gravitatorios. Distinción entre las magnitudes de masa y peso de un cuerpo y cálculo de la
+aceleración de la gravedad según la relación entre ellas. Reconocimiento de la importancia
+de la electricidad y el magnetismo en la vida cotidiana.
+V . La energía
+1. Interpretación de la energía como la capacidad de los sistemas para producir cambios o
+transformaciones.
+2. Reconocimiento de los distintos tipos de energía, de las transformaciones de unas formas en
+otras, de su disipación y de su conservación.
+3. Relación  entre  los  conceptos  de  calor  y  temperatura.  Identificación  de  los  distintos
+mecanismos  de  transferencia  de  energía  para  considerar  sus  aplicaciones  en  diferentes
+situaciones cotidianas.
+18
+
+=== Página 19 ===
+
+4. Descripción y comparación de las fuentes de energía renovables y no renovables. Valoración
+de  la  importancia  de  realizar  un  consumo  energético  responsable  para  un  desarrollo
+sostenible global y, en particular, en Canarias.
+19
+
+=== Página 20 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1.  Comprender  y  relacionar  los  motivos  por  los  que  ocurren  los  principales  fenómenos
+fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas,
+para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de
+vida humana.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM4, CD2,
+CPSAA4
+Criterios de evaluación
+1.1. Identificar y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los
+principios, las teorías y las leyes científicas y expresar sus conclusiones en diversos soportes y medios
+de comunicación, empleando la argumentación para comprender a través de la ciencia lo que ocurre a
+su alrededor.
+CCL1, STEM2, CD2
+1.2. Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las
+teorías  científicas,  seleccionando  las  estrategias  de  resolución,  razonando  los  procedimientos
+utilizados,  analizando  la  validez  de  los  resultados  y  su  adecuada  expresión,  y  reformulando  el
+procedimiento si fuera necesario, para encontrar soluciones que mejoren su realidad cercana y la
+calidad de vida humana.
+STEM1, STEM2, STEM4, CPSAA4
+Explicación del bloque competencial
+A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática real de índole científica, es capaz de
+20
+
+=== Página 21 ===
+
+hacerse preguntas para describirla, identificando y explicando los fenómenos fisicoquímicos cotidianos más relevantes que subyacen en ella,
+aplicando los conocimientos científicos que se engloban en los diferentes bloques de saberes básicos para mejorar su comprensión de los principios,
+las teorías y las leyes científicas y si activa los procesos necesarios para la resolución del problema (comprensión del enunciado, organización de la
+información, planteamiento lógico, ejecución correcta y solución), así como el análisis de los resultados que se obtienen (revisión del proceso,
+validez del resultado y reformulación del procedimiento si fuera necesario), expresando razonadamente sus conclusiones en diferentes formatos y
+soportes, dotándolo así de herramientas para la toma de decisiones y la mejora de la realidad cercana a través de la ciencia.
+Competencia específica
+2. Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando
+hipótesis  para  explicarlas  y  demostrando  dichas  hipótesis  a  través  de  la  experimentación
+científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios
+del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM1, STEM2, CD1,
+CPSAA4, CE1, CCEC3
+Criterios de evaluación
+2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de
+cuestiones  mediante  la  experimentación,  la  indagación,  la  deducción,  la  búsqueda  de  evidencias
+procedente de diversas fuentes y el razonamiento lógico-matemático, diferenciándolas de aquellas
+pseudocientíficas que no admiten comprobación experimental, para mejorar sus destrezas científicas.
+CCL1, CCL3, STEM1, STEM2, CD1
+2.2. Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las
+cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento
+científico existente, aplicando las leyes y teorías científicas conocidas, para comprobar o presentar
+CCL1, STEM1, STEM2, CPSAA4, CE1,
+CCEC3
+21
+
+=== Página 22 ===
+
+soluciones que creen valor en el ámbito personal, social, cultural y económico.
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las
+metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de
+evidencias, y la deducción) para identificar y describir los fenómenos científicos que ocurren en situaciones conocidas relacionadas con los
+diferentes bloques de saberes básicos, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental. Además se
+valorará si diseña procedimientos experimentales, valida hipótesis y analiza los resultados utilizando el razonamiento lógico-matemático, empleando
+diversos entornos y recursos científicos como el laboratorio o los entornos virtuales y manejando materiales, sustancias y herramientas de forma
+segura, para mejorar sus destrezas al interpretar los fenómenos científicos, presentar soluciones que creen valor en el ámbito personal, social, cultural
+y económico y despertar vocaciones científicas.
+Competencia específica
+3. Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al
+lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al
+uso  seguro  del  laboratorio  y  a  la  interpretación  y  producción  de  datos  e  información  en
+diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje
+científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes
+países y culturas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP1, STEM4, STEM5, CD2, CD3,
+CPSAA2, CC1, CCEC2, CCEC4
+Criterios de evaluación
+3.1. Seleccionar, interpretar y comunicar datos e información en diferentes formatos relativos a un CP1, STEM4, CD2, CD3, CCEC4
+22
+
+=== Página 23 ===
+
+proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y desechando lo
+irrelevante, con el apoyo de determinadas herramientas digitales y diferentes fuentes fiables y seguras,
+para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas
+de su entorno.
+3.2. Aplicar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de
+unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura básicas, para facilitar
+la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje
+de las ciencias.
+STEM4, CC1, CCEC2
+3.3. Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del
+centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y
+colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.
+STEM5, CPSAA2, CC1
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las
+disciplinas científicas y, por tanto, se constatará si es capaz de seleccionar, interpretar y comunicar datos e información relativa a procesos
+físicoquímicos concretos de cualquiera de los bloques de saberes básicos con responsabilidad, en diferentes formatos y fuentes (enunciados, textos,
+tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), analizando la calidad de los mismos y observando su
+imprecisión. Asimismo, se comprobará que es capaz de interrelacionar variables, conocer el Sistema Internacional de Unidades y sus símbolos, las
+herramientas matemáticas necesarias y las reglas de nomenclatura básicas de la IUPAC para los compuestos inorgánicos más sencillos para
+comunicarse en el lenguaje universal de la ciencia. También se evaluará si es capaz de aplicar las normas de uso de los espacios específicos de la
+ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de
+utilizar los materiales, las sustancias y las herramientas que en ellos se encuentren para establecer comunicaciones efectivas englobadas en un
+entorno que asegure su salud, la de las demás personas y la del medioambiente.
+23
+
+=== Página 24 ===
+
+Competencia específica
+4. Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto
+para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y
+el aprendizaje individual y social, mediante la consulta de información, la creación de materiales
+y la comunicación efectiva en los diferentes entornos de aprendizaje.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, STEM4, CD1, CD2,
+CD3, CPSAA3, CE3, CCEC4
+Criterios de evaluación
+4.1.  Elegir  y  utilizar  de  forma  segura  recursos  variados,  tradicionales  y  digitales,  mejorando  el
+aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad educativa, de
+forma rigurosa y respetuosa, analizando las aportaciones de cada participante, para contribuir a la
+mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva.
+CCL2, STEM4, CD3, CPSAA3
+4.2. Trabajar con medios variados, tradicionales y digitales, en la consulta de información y la creación
+de contenidos, empleando las fuentes y herramientas que se consideren, a partir de la aplicación de
+criterios  de  validez,  calidad  y  fiabilidad,  desechando  las  menos  adecuadas,  para  fomentar  la
+creatividad y mejorar el aprendizaje propio y colectivo.
+CCL3, CP1, CD1, CD2, CE3, CCEC4
+Explicación del bloque competencial
+A través de este bloque competencial se verificará si el alumnado es capaz de seleccionar distintos recursos, incluso en otros idiomas, apropiados
+para la consulta de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de utilizar con creatividad las fuentes y
+las herramientas, tradicionales y digitales, más adecuadas en función de sus necesidades cuando localiza, selecciona y analiza información, de
+manera progresivamente autónoma, atendiendo a criterios de pertinencia, calidad y fiabilidad; cuando la integra y transforma para construir nuevo
+conocimiento y crear contenidos que aporten valor para sí mismos y para la comunidad, asociados a cualquiera de los bloques de saberes básicos,
+24
+
+=== Página 25 ===
+
+respetando la propiedad intelectual; y cuando interacciona con otros miembros de la comunidad educativa, tanto en el trabajo individual como en
+equipo, desde el respeto a las aportaciones del grupo en los procesos de revisión y mejora, para construir una comunicación efectiva y aumentar el
+aprendizaje propio y colectivo, con la finalidad de adquirir competencias que le permitan adaptarse a una sociedad que demanda personas integradas
+y comprometidas.
+Competencia específica
+5. Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre
+iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para
+comprender  la  importancia  de  la  ciencia  en  la  mejora  de  la  sociedad,  las  aplicaciones  y
+repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible
+del medioambiente.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, STEM3, STEM5, CD3,
+CPSAA3, CC3, CE2
+Criterios de evaluación
+5.1. Establecer interacciones constructivas y coeducativas, desarrollando actividades de cooperación,
+en aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y
+crítico en la ciencia.
+CCL5, CP3, CD3, CPSAA3
+5.2. Describir situaciones problemáticas reales, locales o globales, y emprender, de forma guiada,
+proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución,
+razonando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud
+y  la  conservación  sostenible  del  medioambiente,  que  creen  valor  para  el  individuo  y  para  la
+comunidad.
+STEM3, STEM5, CC3, CE2
+25
+
+=== Página 26 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor
+científica. Para ello, tendrá que desarrollar proyectos científicos que den solución a situaciones problemáticas reales relacionadas con cualquiera de
+los bloques  de  saberes básicos,  tanto  en  el  ámbito  cercano  como  a escala  global,  desarrollando  actividades  de  cooperación,  propiciando  la
+participación de todo el grupo, aceptando y cumpliendo las tareas y responsabilidades asignadas, analizando críticamente las aportaciones del
+equipo, incorporándolas a su aprendizaje con actitud dialogante y respetuosa, optimizando los recursos para llevar a término el proceso. Asimismo,
+se valorará si razona y comprende el impacto que las iniciativas desarrolladas tienen en la mejora de la sociedad, en la preservación de la salud física
+y mental propia y comunitaria, y en la conservación del medioambiente, adquiriendo hábitos de vida saludable y sostenible. Además, se evaluará si,
+en el contexto  del  trabajo  en equipo, colabora  e  interactúa mediante herramientas  o plataformas virtuales compartiendo  contenidos, datos e
+información, y gestiona responsable y éticamente sus acciones poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la
+resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia con la
+finalidad de unir puntos de vista diferentes en los procesos de investigación que contribuyan al progreso de la ciencia.
+Competencia específica
+6. Comprender y valorar la ciencia  como una construcción  colectiva  en continuo cambio y
+evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere
+de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el
+avance tecnológico, económico, ambiental y social.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA4, CC4, CCEC1
+Criterios de evaluación
+6.1.  Percibir  la  ciencia  como  un  proceso  en  construcción,  así  como  reconocer  y  valorar  sus
+repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del
+STEM2, CD4, CPSAA4, CCEC1
+26
+
+=== Página 27 ===
+
+análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, para adoptar
+un estilo de vida sostenible y responsable sopesando los riesgos y los beneficios de las aplicaciones
+directas derivadas de los avances científicos.
+6.2. Detectar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales más
+importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de
+entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de
+toda la ciudadanía.
+STEM5, CPSAA1, CC4
+Explicación del bloque competencial
+A través de este bloque competencial se constatará si el alumnado percibe y valora la ciencia como un proceso no finalizado, en continuo cambio y
+evolución, que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados
+por hombres y mujeres de ciencia, en aspectos como los modelos atómicos o la concepción del universo; así como los límites de la ciencia y los
+problemas éticos derivados. Del mismo modo, se evaluará si toma conciencia de la utilidad y aplicaciones que las sustancias químicas y sus
+reacciones, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros, tienen en la mejora de la calidad de vida cuando
+se hace un uso saludable y sostenible de los mismos. También se comprobará si establece las relaciones que existen entre la física y la química y
+otros campos como la ingeniería, el deporte, el diseño, la industria…, que permiten aportar soluciones para adoptar estilos de vida sostenibles y
+respetuosos con el medioambiente; y detectar, en el entorno, las necesidades tecnológicas, económicas, sociales y ambientales más importantes que
+demanda la humanidad, en general, y la sociedad canaria, en particular, con la finalidad de generar una conciencia social que requiere de la
+participación de toda la ciudadanía.
+27
+
+=== Página 28 ===
+
+Saberes básicos
+I. Las destrezas científicas básicas
+ 1. Empleo  de  las  metodologías  propias  de  la  investigación  científica  para  desarrollar
+razonamientos  propios  del  pensamiento  científico.  Identificación  y  formulación  de
+cuestiones, elaboración de hipótesis y comprobación experimental de las mismas.
+ 2. Trabajo experimental y proyectos de investigación: selección de estrategias en la resolución
+de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción y la
+búsqueda de evidencias, haciendo deducciones válidas de las observaciones y obteniendo
+conclusiones.
+ 3. Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el
+laboratorio o los entornos virtuales para adquirir destrezas científicas. 
+ 3.1. Uso  de  materiales,  sustancias  e  instrumentos  básicos  del  laboratorio  de  Física  y
+Química.
+ 3.2. Manejo  de  herramientas  digitales  como  apoyo  al  trabajo  experimental  y  la
+investigación.
+ 4. Aplicación de las normas de uso de los espacios específicos de la ciencia y en especial del
+laboratorio de Física y Química, asegurando y protegiendo así la salud propia y comunitaria,
+la seguridad en las redes y el respeto hacia el medioambiente.
+ 5. Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes
+escenarios científicos y de aprendizaje. 
+ 5.1. Utilización de las unidades del Sistema Internacional y sus símbolos para facilitar la
+comunicación efectiva con toda la comunidad científica.
+ 5.2. Manejo de las herramientas matemáticas básicas para la resolución de problemas.
+ 6. Utilización de estrategias de interpretación, producción y comunicación de información
+científica en diferentes formatos y a partir de diferentes medios. Desarrollo del criterio
+propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para
+hacerla más justa, equitativa e igualitaria.
+ 7. Valoración de la cultura científica y del papel de científicos y científicas en los principales
+hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad.
+II. La materia
+ 1. Realización de experimentos relacionados con los sistemas materiales para explicar lo que
+ocurre a su alrededor. 
+ 1.1. Conocimiento  y  descripción  de  las  propiedades  de  los  sistemas  materiales,  su
+composición y su clasificación para la comprensión de su entorno.
+ 2. Desarrollo histórico de los modelos atómicos, formación de iones, existencia y propiedades
+de los isótopos y ordenación de los elementos más comunes en la tabla periódica deduciendo
+el comportamiento análogo de una familia o grupo.
+28
+
+=== Página 29 ===
+
+3. Explicación de la formación, mediante enlaces, de los principales compuestos químicos para
+deducir sus propiedades físicas y químicas. 
+ 3.1. Interpretación y cálculos de masa atómica y masa molecular para relacionarlos con los
+valores de las masas de sustancias sencillas en la vida cotidiana.
+ 4. Nomenclatura  inorgánica:  denominación  de  sustancias  simples,  iones  monoatómicos
+introduciendo  el  número  de  carga  y  compuestos  binarios  mediante  las  reglas  de
+nomenclatura de la IUPAC, preferiblemente con la nomenclatura de composición usando
+prefijos multiplicadores para indicar las proporciones de los constituyentes, para reconocer el
+carácter universal y transversal del lenguaje científico.
+III. El cambio
+1. Análisis de los diferentes tipos de cambios que experimentan los sistemas materiales, para
+relacionar las causas que los producen con las consecuencias que tienen.
+2. Diferenciación entre reactivos y productos en una reacción química y realización de cálculos
+estequiométricos  sencillos  para  una  interpretación  macroscópica  y  microscópica  de  las
+mismas. Explicación de las relaciones de la química con el medioambiente, la tecnología y
+la sociedad.
+3. Aplicación de la ley de conservación de la masa para validar experimentalmente el modelo
+atómico-molecular de la materia.
+4. Predicción cualitativa de la evolución de las reacciones químicas según los factores que
+influyen en su velocidad y su importancia en la resolución de problemas actuales por parte
+de la ciencia.
+IV . La interacción
+1. Predicción y comprobación de movimientos rectilíneos sencillos a partir de los conceptos de
+la  cinemática,  formulando  hipótesis  comprobables  sobre  valores  futuros  de  estas
+magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el
+trabajo experimental, que permitan entender situaciones cotidianas.
+2. Relación y justificación de los efectos de las fuerzas, especialmente la fuerza de rozamiento,
+tanto  en  el  estado  de  movimiento  o  de  reposo  de  un  cuerpo  como  produciendo
+deformaciones en los sistemas sobre los que actúan.
+3. Observación  de situaciones cotidianas o de  laboratorio que permiten  entender cómo  se
+comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de
+estas en situaciones cotidianas a partir de la aplicación de las leyes de Newton.
+V . La energía
+1. Formulación de hipótesis y resolución de cuestiones sobre la energía, las propiedades y las
+manifestaciones que la describen como la causa de todos los procesos de cambio.
+2. Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e
+industrial de la energía en sus distintas formas y las transformaciones entre ellas.
+29
+
+=== Página 30 ===
+
+3. Reconocimiento de la naturaleza eléctrica de la materia, identificación de los elementos más
+habituales de los circuitos eléctricos y su función.
+4. Explicación de las formas de obtención de energía eléctrica y elaboración fundamentada de
+hipótesis sobre la repercusión del uso de fuentes de energía renovables o no renovables.
+Concienciación sobre la necesidad del ahorro energético y la conservación sostenible del
+medioambiente. Valoración del uso de la energía eléctrica en Canarias.
+30
+
+=== Página 31 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1.  Comprender  y  relacionar  los  motivos  por  los  que  ocurren  los  principales  fenómenos
+fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas,
+para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de
+vida humana.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM4, CD2,
+CPSAA4
+Criterios de evaluación
+1.1. Interpretar los fenómenos fisicoquímicos cotidianos, explicarlos en términos de los principios, las
+teorías  y  las  leyes  científicas  y  expresar  sus  conclusiones  en  diversos  soportes  y  medios  de
+comunicación, empleando la argumentación, para comprender a través de la ciencia lo que ocurre a su
+alrededor.
+CCL1, STEM2, CD2
+1.2. Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las
+teorías  científicas,  seleccionando  las  estrategias  de  resolución,  razonando  los  procedimientos
+utilizados, analizando la coherencia de los resultados, expresándolos con corrección y precisión y
+reformulando el procedimiento si fuera necesario para encontrar soluciones que mejoren su realidad
+cercana y la calidad de vida humana.
+STEM1, STEM2, STEM4, CPSAA4
+Explicación del bloque competencial
+A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática real de índole científica, es capaz de
+31
+
+=== Página 32 ===
+
+hacerse  preguntas  para  describirla,  interpretando  y  explicando  los  fenómenos  fisicoquímicos  cotidianos  que  subyacen  en  ella,  aplicando  los
+conocimientos científicos que se engloban en los diferentes bloques de saberes básicos para una mejor comprensión de los principios, las teorías y
+las leyes científicas y si activa los procesos necesarios para la resolución del problema (comprensión del enunciado, organización de la información,
+planteamiento lógico, ejecución precisa y solución), así como el análisis de los resultados que se obtienen (revisión del proceso, coherencia del
+resultado, tratamiento del error y reformulación del procedimiento si fuera necesario), argumentando sus conclusiones en diferentes formatos y
+soportes, posibilitando así la creación de nuevo conocimiento científico, mejorando su capacidad de reflexionar sobre su proceso de aprendizaje y de
+actuar con sentido crítico en la toma de decisiones para mejorar la realidad cercana a través de la ciencia.
+Competencia específica
+2. Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando
+hipótesis  para  explicarlas  y  demostrando  dichas  hipótesis  a  través  de  la  experimentación
+científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios
+del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM1, STEM2, CD1,
+CPSAA4, CE1, CCEC3
+Criterios de evaluación
+2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos científicos
+a partir de situaciones conocidas tanto observadas en el mundo natural como planteadas a través de
+enunciados con información textual, gráfica o numérica, mediante la experimentación real o mediante
+simulación con modelos digitales, la indagación, la deducción, la búsqueda de evidencias procedente
+de diversas fuentes y el razonamiento lógico-matemático, para mejorar sus destrezas científicas.
+CCL1, CCL3, STEM1, STEM2, CD1
+2.2. Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las CCL1, STEM1, STEM2, CPSAA4, CE1,
+32
+
+=== Página 33 ===
+
+cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento
+científico existente, aplicando las leyes y teorías científicas, y el razonamiento lógico-matemático en
+su  proceso  de  validación,  analizando  los  resultados  y  reformulando  el  procedimiento  si  fuera
+necesario,  para  presentar  soluciones  que  creen  valor  en  el  ámbito  personal,  social,  cultural  y
+económico.
+CCEC3
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las
+metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de
+evidencias, y la deducción) para interpretar y describir los fenómenos científicos que ocurren en situaciones conocidas, tanto observadas en el mundo
+natural como planteadas a través de enunciados con información textual, gráfica o numérica, relacionadas con los diferentes bloques de saberes
+básicos. Además se valorará si diseña procedimientos experimentales reales o utiliza simuladores digitales, valida hipótesis y analiza los resultados
+utilizando el razonamiento lógico-matemático, empleando diversos entornos y recursos científicos, como el laboratorio o los entornos virtuales, y
+manejando materiales, sustancias y herramientas de forma segura, para mejorar sus destrezas al interpretar los fenómenos científicos, presentar
+soluciones que creen valor en el ámbito personal, social, cultural y económico y despertar vocaciones científicas.
+Competencia específica
+3. Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al
+lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al
+uso  seguro  del  laboratorio  y  a  la  interpretación  y  producción  de  datos  e  información  en
+diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje
+científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes
+países y culturas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP1, STEM4, STEM5, CD2, CD3,
+CPSAA2, CC1, CCEC2, CCEC4
+33
+
+=== Página 34 ===
+
+Criterios de evaluación
+3.1. Seleccionar, organizar, interpretar, producir y comunicar datos e información en diversos formatos
+relativa a un proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y
+desechando lo irrelevante, con el apoyo de diversas herramientas digitales y fuentes fiables y seguras,
+para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas.
+CP1, STEM4, CD2, CD3, CCEC4
+3.2. Aplicar e interpretar las reglas básicas de la física y la química, incluyendo el uso de varios
+sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas,
+para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas
+del lenguaje de las ciencias.
+STEM4, CC1, CCEC2
+3.3. Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del
+centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y
+colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.
+STEM5, CPSAA2, CC1
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las
+disciplinas científicas y, por tanto, se constatará si es capaz de seleccionar, organizar, interpretar, producir y comunicar, datos e información relativa a
+procesos físicoquímicos concretos de cualquiera de los bloques de saberes básicos, con ética y responsabilidad, en diversos formatos y fuentes
+(enunciados, textos, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), evaluando la calidad de los mismos
+y valorando su imprecisión. Asimismo, se comprobará que es capaz de interrelacionar variables, manejar distintos sistemas de unidades y sus
+símbolos (Sistema Internacional de Unidades, sistema anglosajón de unidades, magnitudes y medidas canarias, etc.), las herramientas matemáticas
+necesarias y las reglas de nomenclatura avanzadas de la IUPAC para los compuestos inorgánicos y orgánicos para comunicarse con corrección en el
+lenguaje universal de la ciencia. También se evaluará si es capaz de aplicar las normas de uso de los espacios específicos de la ciencia (instalaciones
+de museos, universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de utilizar los materiales, las
+34
+
+=== Página 35 ===
+
+sustancias y las herramientas que en ellos se encuentren, para establecer comunicaciones efectivas englobadas en un entorno que asegure su salud,
+las de las demás personas y la del medioambiente.
+Competencia específica
+4. Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto
+para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y
+el aprendizaje individual y social, mediante la consulta de información, la creación de materiales
+y la comunicación efectiva en los diferentes entornos de aprendizaje.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, STEM4, CD1, CD2,
+CD3, CPSAA3, CE3, CCEC4
+Criterios de evaluación
+4.1. Seleccionar y utilizar de forma eficiente y segura recursos variados, tradicionales y digitales,
+mejorando el aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad
+educativa,  de  forma  rigurosa  y  respetuosa,  valorando  las  aportaciones  de  cada  participante,  para
+contribuir a la mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva.
+CCL2, STEM4, CD3, CPSAA3
+4.2.  Trabajar  de  forma  versátil  con  medios  variados,  tradicionales  y  digitales,  en  la  consulta  de
+información y la creación de contenidos, seleccionando y empleando las fuentes y herramientas que se
+consideren, a partir de la aplicación de criterios de validez, calidad, actualidad y fiabilidad, desechando
+las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo.
+CCL3, CP1, CD1, CD2, CE3, CCEC4
+Explicación del bloque competencial
+A través de este bloque competencial se verificará si el alumnado es capaz de seleccionar distintos recursos, incluso en otros idiomas, apropiados
+35
+
+=== Página 36 ===
+
+para la consulta de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de emplear de forma creativa y versátil
+las fuentes y las herramientas, tradicionales y digitales, más adecuadas en función de sus necesidades cuando localiza, selecciona e interpreta
+información, de manera progresivamente autónoma, atendiendo a criterios de pertinencia, calidad, actualidad y fiabilidad; cuando la integra y
+transforma para construir nuevo conocimiento y crear contenidos que aporten valor para sí mismos y para la comunidad, asociados a cualquiera de
+los bloques de saberes básicos, respetando la propiedad intelectual; y cuando interacciona con otros miembros de la comunidad educativa, tanto en el
+trabajo  individual como en equipo,  desde  el  respeto  a las aportaciones del grupo en los procesos de revisión y mejora, para construir una
+comunicación efectiva y aumentar el aprendizaje propio y colectivo, con la finalidad de adquirir competencias que le permitan adaptarse a una
+sociedad que demanda personas integradas y comprometidas.
+Competencia específica
+5. Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre
+iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para
+comprender  la  importancia  de  la  ciencia  en  la  mejora  de  la  sociedad,  las  aplicaciones  y
+repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible
+del medioambiente.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, STEM3, STEM5, CD3,
+CPSAA3, CC3, CE2
+Criterios de evaluación
+5.1. Establecer y desarrollar interacciones constructivas y coeducativas, emprendiendo actividades de
+cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, en el aula o en
+plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la
+ciencia.
+CCL5, CP3, CD3, CPSAA3
+36
+
+=== Página 37 ===
+
+5.2. Detectar y describir situaciones problemáticas reales, locales o globales, y emprender, de forma
+autónoma, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su
+solución, analizando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación
+de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la
+comunidad.
+STEM3, STEM5, CC3, CE2
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor
+científica.  Para  ello,  tendrá  que  plantear  y  desarrollar  proyectos  científicos  que  den  solución  a  situaciones  problemáticas  reales  detectadas
+relacionadas con cualquiera de los bloques de saberes básicos, tanto en el ámbito cercano como a escala global, aplicando de manera progresiva las
+estrategias propias del trabajo colaborativo, propiciando la participación de todo el grupo, distribuyendo y aceptando tareas y responsabilidades de
+manera  equitativa,  practicando  la  escucha  activa  y  la  asertividad  al  analizar  críticamente  las  aportaciones  del  equipo,  incorporándolas  a  su
+aprendizaje con actitud dialogante, argumentada y respetuosa, y optimizando los recursos para llevar a término el proceso. Asimismo, se valorará si
+analiza el impacto que las iniciativas emprendidas tienen en la mejora de la sociedad, en la preservación de la salud física y mental propia y
+comunitaria, y en la conservación del medioambiente, adquiriendo hábitos de vida saludable y sostenible. Además, se evaluará si, en el contexto del
+trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales compartiendo contenidos, datos e información, y gestiona
+responsable y éticamente sus acciones poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los
+conflictos y el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia con la finalidad de unir puntos de vista
+diferentes y crear modelos de investigación unificados que contribuyan al progreso de la ciencia.
+Competencia específica
+6. Comprender y valorar la ciencia  como una construcción  colectiva  en continuo cambio y
+evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+37
+
+=== Página 38 ===
+
+de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el
+avance tecnológico, económico, ambiental y social.
+CPSAA4, CC4, CCEC1
+Criterios de evaluación
+6.1.  Percibir  la  ciencia  como  un  proceso  en  construcción,  así  como  reconocer  y  valorar  sus
+repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del
+análisis histórico de los avances científicos logrados por mujeres y hombres, del conocimiento de las
+instituciones  científicas  internacionales,  nacionales  y  canarias,  sus  líneas  de  investigación  y  las
+personas que en ellas trabajan y de otras situaciones actuales, para adoptar un estilo de vida sostenible
+y responsable sopesando los riesgos y los beneficios de las aplicaciones directas derivadas de los
+avances científicos.
+STEM2, CD4, CPSAA4, CCEC1
+6.2. Detectar las necesidades tecnológicas, económicas, sociales y ambientales más importantes que
+demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la
+capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la
+ciudadanía.
+STEM5, CPSAA1, CC4
+Explicación del bloque competencial
+A través de este bloque competencial se constatará si el alumnado percibe y valora la ciencia como un proceso no finalizado, en continuo cambio y
+evolución, que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados
+por mujeres y hombres, en aspectos como los modelos atómicos o la concepción del universo; así como el conocimiento de las instituciones
+científicas internacionales, nacionales y canarias (IAC, ITER, IUBO, IPNA-CSIC, etc.), generando confianza en las personas que trabajan en ellas y
+en sus líneas de investigación. Del mismo modo se evaluará si toma conciencia de la utilidad y aplicaciones que las sustancias químicas y sus
+reacciones, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros, tienen en la mejora de la calidad de vida cuando
+se hace un uso crítico, responsable y saludable de los mismos. También se comprobará si establece las relaciones sistémicas de interdependencia,
+38
+
+=== Página 39 ===
+
+ecodependencia e interconexión que existen entre la física y la química y otros campos como la ingeniería, el deporte, el diseño, la industria…, que
+permiten aportar soluciones para adoptar estilos de vida sostenibles y respetuosos con el medioambiente; y detectar las necesidades tecnológicas,
+económicas, sociales y ambientales más importantes que demanda la humanidad en general, y la sociedad canaria en particular, teniendo en cuenta
+los límites de la ciencia y los problemas éticos, con la finalidad de generar una conciencia social que requiere de la participación de toda la
+ciudadanía.
+39
+
+=== Página 40 ===
+
+Saberes básicos
+I. Las destrezas científicas básicas
+ 1. Empleo  de  las  metodologías  propias  de  la  investigación  científica  para  desarrollar
+razonamientos  propios  del  pensamiento  científico.  Identificación  de  un  problema,
+formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las
+mismas.
+ 2. Trabajo experimental y proyectos de investigación: selección de estrategias de resolución de
+problemas y del tratamiento del error mediante la indagación, la deducción, la búsqueda de
+evidencias  y  el  razonamiento  lógico-matemático,  haciendo  inferencias  válidas  de  las
+observaciones  y  obteniendo  conclusiones  que  vayan  más  allá  de  las  condiciones
+experimentales para aplicarlas a nuevos escenarios.
+ 3. Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el
+laboratorio o los entornos virtuales para mejorar las destrezas científicas. 
+ 3.1. Uso  de  materiales,  sustancias  e  instrumentos  básicos  del  laboratorio  de  Física  y
+Química.
+ 3.2. Manejo  de  herramientas  digitales  como  apoyo  al  trabajo  experimental  y  la
+investigación.
+ 4. Aplicación de las normas de uso de los espacios específicos de la ciencia y en especial del
+laboratorio de Física y Química, asegurando y protegiendo así la salud propia y comunitaria,
+la seguridad en las redes y el respeto hacia el medioambiente.
+ 5. Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes
+escenarios científicos y de aprendizaje. 
+ 5.1. Manejo adecuado de distintos sistemas de unidades y sus símbolos para facilitar la
+comunicación efectiva con toda la comunidad científica.
+ 5.2. Aplicación de las herramientas matemáticas adecuadas para la correcta resolución de
+problemas.
+ 6. Selección  y utilización  de  estrategias de interpretación,  producción  y  comunicación  de
+información científica en diferentes formatos y a partir de diferentes medios. Desarrollo del
+criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad
+para hacerla más justa, equitativa e igualitaria.
+ 7. Valoración de la cultura científica y del papel de científicos y científicas en los principales
+hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad.
+II. La materia
+ 1. Resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y los
+gases, entre otros sistemas materiales significativos para encontrar soluciones que mejoren su
+realidad cercana.
+40
+
+=== Página 41 ===
+
+2. Desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y descripción
+de las partículas subatómicas, estableciendo su relación con los avances de la física y la
+química.
+ 3. Relación de la configuración electrónica de un átomo con la posición del mismo en la tabla
+periódica para deducir sus propiedades fisicoquímicas.
+ 4. Explicación  de  la  formación,  mediante  enlaces  iónicos,  covalentes  y  metálicos,  de  los
+compuestos químicos, para deducir sus propiedades físicas y químicas. 
+ 4.1. Valoración de su utilidad  e importancia  en otros campos,  como la  ingeniería  o el
+deporte.
+ 5. Cálculo del número de moles de sistemas materiales de diferente naturaleza, manejando con
+soltura las diferentes formas de medida y expresión de la misma en el entorno científico.
+ 6. Nomenclatura  inorgánica:  denominación  de  sustancias  simples,  iones  y  compuestos
+químicos binarios y ternarios mediante las normas de la IUPAC, preferiblemente con la
+nomenclatura  de  composición.  Introducción  del  concepto  de  estado  de  oxidación
+relacionándolo con su posición en la tabla periódica.
+ 7. Introducción  a  la  nomenclatura  orgánica:  denominación  de  compuestos  orgánicos
+monofuncionales a partir de las normas de la IUPAC como base para entender la gran
+variedad de compuestos del entorno basados en el carbono.
+III. El cambio
+ 1. Ajuste  de  reacciones  químicas  e  interpretación  de  los  coeficientes  estequiométricos.
+Realización de predicciones cualitativas y cuantitativas basadas en la estequiometría, con
+reactivos puros y suponiendo un rendimiento completo de la reacción, relacionándolas con
+procesos fisicoquímicos de la industria, el medioambiente y la sociedad para reconocer su
+importancia.
+ 2. Descripción  cualitativa  de  reacciones  químicas  de  interés,  síntesis,  combustión,
+neutralización y procesos electroquímicos sencillos, valorando las implicaciones que tienen
+en la tecnología, la sociedad o el medioambiente.
+ 3. Aplicación de los modelos, como la teoría de colisiones, para comprender cómo ocurre la
+reordenación de los átomos en las reacciones químicas. Realización de predicciones en los
+procesos químicos cotidianos más importantes. Determinación experimental de los factores
+de los que depende la velocidad de una reacción para predecir su evolución.
+IV . La interacción
+1. Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de
+las principales magnitudes, ecuaciones y gráficas que describen movimientos rectilíneos de
+un cuerpo e interpretación de las magnitudes del movimiento circular uniforme para poder
+establecer relaciones con situaciones cotidianas y en la mejora de la calidad de vida.
+2. Análisis y justificación del principio fundamental de la física y sus aplicaciones a otros
+campos como el diseño, el deporte o la ingeniería.
+41
+
+=== Página 42 ===
+
+3. Uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con
+fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a
+conjuntos de fuerzas, valorando su importancia en situaciones cotidianas.
+4. Identificación del peso, la normal, el rozamiento, la tensión o el empuje, así como su uso
+para explicar fenómenos físicos en distintos escenarios.
+5. Reconocimiento y utilización de ley de la gravitación universal para explicar las fuerzas de
+atracción y el movimiento entre los cuerpos que componen el universo. Valoración de la
+contribución del IAC al campo de la astrofísica en Canarias.
+6. Diseño y realización de experiencias que pongan de manifiesto los efectos de los principios
+fundamentales que describen las fuerzas y la presión sobre los líquidos y los gases.
+V . La energía
+1. Formulación y comprobación de hipótesis sobre las distintas formas y aplicaciones de la
+energía. Aplicación del principio de conservación de la energía mecánica para explicar
+algunos procesos de la vida cotidiana y para la resolución de ejercicios numéricos sencillos.
+2. Identificación del trabajo y el calor como formas de transferencia de energía entre sistemas
+relacionados con las fuerzas o la diferencia de temperatura.
+3. Análisis de la luz y el sonido para su interpretación como ondas que transfieren energía.
+4. Estimación  de  la  energía  consumida  en  la  vida  cotidiana  mediante  la  búsqueda  de
+información contrastada, la experimentación y el razonamiento científico, comprendiendo la
+importancia de la energía en la sociedad, su producción y su uso responsable. Valoración de
+la conveniencia del ahorro energético, así como de la diversificación de las fuentes de
+energía y su repercusión a escala mundial y, en particular, en Canarias.
+42

@@ -1,0 +1,61 @@
+id: CUR-015
+titulo: "Historia y Geografía de Canarias — ESO Canarias"
+etapa: "eso"
+materia: "Historia y Geografía de Canarias"
+cursos: ["3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Explicar la diversidad de ecosistemas insulares que caracterizan al archipiélago canario a partir de la Red Canarias de Espacios Naturales Protegidos, analizando a través de procesos de búsqueda e investigación, los episodios geológicos que originaron las islas, así como el conjunto de factores físicos, climáticos y biogeográficos que explican su modelado posterior, para así valorar la importante diversidad paisajística y su singularidad medioambiental en un territorio frágil, a la vez que dotado de un alto interés científico y patrimonial con necesidades de gestión y conservación específicas."
+      descriptores:
+        "3.º ESO": [CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CC4]
+    - codigo: "C2"
+      enunciado_oficial: "Indagar y elaborar productos desde un análisis crítico sobre las claves históricas que han configurado a la sociedad canaria, desde el origen del poblamiento humano del archipiélago hasta la actualidad, facilitando procesos de investigación grupal que impliquen la búsqueda, evaluación y selección de la información en fuentes arqueológicas y documentales diversas."
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, CD1, CD2, CD3, CPSAA3, CC1, CE1, CCEC1]
+    - codigo: "C3"
+      enunciado_oficial: "Identificar e interpretar todos aquellos elementos de las infraestructuras, la arquitectura o los paisajes que proporcionen información sobre el pasado económico y social del archipiélago hasta la actualidad, analizando el territorio como fuente de estudio para la historia y favoreciendo que el alumnado indague en las transformaciones que aquel ha sufrido a lo largo del tiempo como consecuencia de la actividad humana y de los modelos de explotación, poniendo en valor el patrimonio cultural como algo vivo y contribuyendo a su conocimiento, disfrute y conservación."
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, STEM2, CD1, CPSAA3, CC1, CC2, CC3, CC4, CE1]
+    - codigo: "C4"
+      enunciado_oficial: "Identificar y analizar de diferentes maneras los comportamientos sociales, colectivos e individuales a lo largo de la Historia de Canarias, a partir del estudio crítico de evidencias arqueológicas, documentales, fuentes orales, etc., con la finalidad de entender cómo se ha ido configurando nuestro acervo cultural y poder valorar la aportación multicultural en el origen y configuración de «lo canario»."
+      descriptores:
+        "3.º ESO": [CCL3, STEM2, STEM4, CD1, CD2, CPSAA3, CPSAA5, CC1, CE3, CCEC1]
+    - codigo: "C5"
+      enunciado_oficial: "Conocer la posición estratégica de Canarias desde un punto de vista geopolítico analizando su repercusión histórica para el archipiélago a través de crónicas, relatos, tradiciones orales, obras artísticas, sistemas defensivos, etc., contextualizando su importancia mediante el estudio de la participación de éste en distintos procesos nacionales e internacionales."
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, STEM2, CD1, CD2, CC2, CC4, CE3]
+    - codigo: "C6"
+      enunciado_oficial: "Situar la presencia de Canarias dentro de las principales corrientes culturales y científicas del mundo occidental, así como el impacto de estas en el desarrollo del archipiélago a través de la biografía de personas destacadas, del estudio de sus obras, de sus actuaciones o declaraciones públicas y de los escenarios que transitaron, así como de los colectivos sociales a los que pertenecieron para comprender las relaciones e implicaciones en el desarrollo cultural del archipiélago."
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CCL5, CD1, CD2, CC1, CC4, CCEC1, CCEC2]
+  saberes_basicos:
+    - id: medio-fisico
+      nombre: "El medio físico de Canarias"
+      descripcion: "Origen volcánico, clima, biodiversidad y espacios protegidos."
+    - id: poblamiento-aborigen
+      nombre: "De las sociedades aborígenes a la conquista"
+      descripcion: "Poblamiento, cultura, organización social y el proceso de conquista."
+    - id: canarias-moderna
+      nombre: "Canarias en la Edad Moderna y Contemporánea"
+      descripcion: "Economía agraria, comercio atlántico, crisis y transición democrática."
+    - id: identidad-patrimonio
+      nombre: "Identidad, sociedad y patrimonio"
+      descripcion: "Población, movimientos migratorios y conservación del legado cultural."
+  criterios_evaluacion:
+    - id: 1.1
+      texto: "Estudiar los ecosistemas canarios y sus procesos geológicos, valorando su fragilidad."
+    - id: 2.2
+      texto: "Analizar el poblamiento aborigen de las islas en su contexto sociohistórico."
+    - id: 6.1
+      texto: "Valorar la importancia de la conservación del patrimonio canario como herencia colectiva."
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Materia propia del currículo canario en 3.º ESO. Las seis competencias específicas (C1-C6) llevan ahora el enunciado literal del Decreto 30/2023 y sus descriptores operativos del perfil de salida para 3.º ESO (DEC-0008), verificados con 11_calidad/extraer_descriptores.py. Los criterios de evaluación y los saberes básicos ya recogidos en la ficha se mantienen sin cambios; no reproducen los 24 criterios íntegros del anexo, solo una selección representativa."

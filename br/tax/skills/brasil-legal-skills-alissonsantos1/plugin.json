@@ -1,0 +1,12 @@
+{
+  "name": "brasil-legal-skills",
+  "description": "Direito Brasileiro completo para Claude Code — IRPF, Tributário (Simples Nacional, MEI, ICMS, ISS), Trabalhista (CLT, rescisão, FGTS) e Societário (abertura de empresa, tipos jurídicos). Inclui calculadoras Python com stdlib apenas.",
+  "version": "2.4.0",
+  "author": "Alisson Santos",
+  "author_github": "AlissonSantos1",
+  "copyright": "Copyright (c) 2026 Alisson Santos",
+  "homepage": "https://github.com/AlissonSantos1/brasil-legal-skills",
+  "repository": "https://github.com/AlissonSantos1/brasil-legal-skills",
+  "license": "MIT",
+  "skills": ["./"]
+}

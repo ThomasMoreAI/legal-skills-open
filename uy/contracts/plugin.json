@@ -1,0 +1,14 @@
+{
+  "name": "uy-contracts",
+  "displayName": "Contracts — UY",
+  "version": "0.1.0",
+  "description": "Contracts skills for UY (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "uy",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-uruguay-orwel"
+  ]
+}

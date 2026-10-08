@@ -1,0 +1,14 @@
+# Salida generada por la skill (puede contener datos reales)
+.compliance/
+!examples/**/.compliance/
+
+# Textos oficiales descargados a /sources (pueden ser grandes)
+sources/*.pdf
+sources/*.html
+sources/*.oficial.*
+
+# Sistema
+.DS_Store
+node_modules/
+__pycache__/
+*.log

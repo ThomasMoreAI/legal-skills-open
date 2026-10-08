@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agende sua consulta — AgendaFácil</title>
+  <!-- Meta Pixel (campanhas de aquisição) -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '000000000000000');
+    fbq('track', 'PageView');
+  </script>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+    label { display: block; margin: .75rem 0; }
+    input, textarea { display: block; width: 100%; padding: .5rem; }
+    #banner-cookies { position: fixed; inset: auto 0 0 0; padding: 1rem; background: #f4f4f4; }
+    #banner-cookies button { padding: .5rem 1.5rem; margin-right: .5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Agende sua consulta</h1>
+    <form id="form-agendamento">
+      <label>Nome completo <input name="nome" required></label>
+      <label>CPF <input name="cpf" required placeholder="000.000.000-00"></label>
+      <label>Telefone <input name="telefone" required></label>
+      <label>E-mail <input name="email" type="email"></label>
+      <label>Data de nascimento <input name="dataNascimento" type="date" required></label>
+      <label>Data e horário <input name="dataHora" type="datetime-local" required></label>
+      <label>Motivo da consulta (opcional) <textarea name="observacoes" rows="3"></textarea></label>
+      <button type="submit">Agendar</button>
+    </form>
+    <section id="confirmacao" hidden></section>
+  </main>
+
+  <div id="banner-cookies" hidden>
+    <p>Usamos cookies para melhorar sua experiência. Você pode aceitar ou rejeitar.</p>
+    <button id="cookies-aceitar">Aceitar</button>
+    <button id="cookies-rejeitar">Rejeitar</button>
+  </div>
+
+  <footer>
+    <p>AgendaFácil Tecnologia Ltda. — CNPJ 00.000.000/0001-00 (fictício) — Rua Exemplo, 100, São Paulo/SP — contato@agendafacil.example</p>
+    <a href="/privacidade">Política de privacidade</a> ·
+    <a href="#" id="preferencias-cookies">Preferências de cookies</a>
+  </footer>
+
+  <script src="/js/consent.js"></script>
+  <script src="/js/agendar.js"></script>
+</body>
+</html>

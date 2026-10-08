@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1209272" esTratado="no tratado" fechaVersion="2026-02-05" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2024-11-25" fechaPublicacion="2024-12-13">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21719</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO SECRETAR&#205;A GENERAL DE LA PRESIDENCIA</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>REGULA LA PROTECCI&#211;N Y EL TRATAMIENTO DE LOS DATOS PERSONALES Y CREA LA AGENCIA DE PROTECCI&#211;N DE DATOS PERSONALES</TituloNorma>
+    <Materias>
+      <Materia>Protecci&#243;n de Datos Personales</Materia>
+      <Materia>Agencia de Protecci&#243;n de Datos Personales</Materia>
+      <Materia>Ley sobre Protecci&#243;n de la Vida Privada (Ley 19628)</Materia>
+      <Materia>Datos de Car&#225;cter Personal</Materia>
+      <Materia>Ley sobre Acceso a la Informaci&#243;n P&#250;blica (Ley 20285)</Materia>
+      <Materia>Ley del Consumidor</Materia>
+      <Materia>Derecho a la portabilidad de los datos personales</Materia>
+      <Materia>Registro Nacional de Sanciones y Cumplimiento</Materia>
+      <Materia>Derechos del Titular de Datos Personales</Materia>
+      <Materia>Datos Personales</Materia>
+      <Materia>Datos Personales Sensibles</Materia>
+      <Materia>Categor&#237;as Especiales de Datos Personales</Materia>
+      <Materia>Tratamiento de Datos Personales</Materia>
+      <Materia>Transferencia Internacional de Datos Personales</Materia>
+      <Materia>Infracciones a la Ley de Protecci&#243;n de Datos Personales</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>44023</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2024-12-13" derogado="no derogado">
+    <Texto>LEY N&#218;M. 21.719
+     
+REGULA LA PROTECCI&#211;N Y EL TRATAMIENTO DE LOS DATOS
+PERSONALES Y CREA LA AGENCIA DE PROTECCI&#211;N DE DATOS
+PERSONALES
+     
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente proyecto de ley que tuvo su
+origen en Mensaje de Su Excelencia la ex Presidenta de la
+Rep&#250;blica, se&#241;ora Michelle Bachelet Jeria, y en Moci&#243;n de
+los Honorables Senadores se&#241;ores Pedro Araya Guerrero y
+Alfonso De Urresti Longton, y de los exsenadores se&#241;ores
+Felipe Harboe Bascu&#241;&#225;n, Alberto Espina Otero y Hern&#225;n
+Larra&#237;n Fern&#225;ndez,
+     
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527466">
+      <Texto>     "Art&#237;culo primero.- Introd&#250;cense las siguientes
+modificaciones en la ley N&#176; 19.628, sobre protecci&#243;n de la
+vida privada: 
+     
+     1) Sustit&#250;yese, en el nombre de la ley, la frase "LA
+VIDA PRIVADA" por "LOS DATOS PERSONALES".
+     2) Reempl&#225;zase el art&#237;culo 1&#176; por el siguiente:
+     
+     "Art&#237;culo 1&#176;.- Objeto y &#225;mbito de aplicaci&#243;n. La
+presente ley tiene por objeto regular la forma y condiciones
+en la cual se efect&#250;a el tratamiento y protecci&#243;n de los
+datos personales de las personas naturales, en conformidad
+al art&#237;culo 19, N&#176; 4, de la Constituci&#243;n Pol&#237;tica de la
+Rep&#250;blica.
+     Todo tratamiento de datos personales que realice una
+persona natural o jur&#237;dica, incluidos los &#243;rganos
+p&#250;blicos, debe respetar los derechos y libertades de las
+personas y quedar&#225; sujeto a las disposiciones de esta ley.
+     El r&#233;gimen de tratamiento y protecci&#243;n de datos
+establecido en esta ley no se aplicar&#225; al tratamiento de
+datos que se realice en el ejercicio de las libertades de
+emitir opini&#243;n y de informar reguladas por las leyes a que
+se refiere el art&#237;culo 19, N&#176; 12, de la Constituci&#243;n
+Pol&#237;tica de la Rep&#250;blica. Los medios de comunicaci&#243;n
+social quedar&#225;n sujetos a las disposiciones de esta ley en
+lo relativo al tratamiento de datos que efect&#250;en con una
+finalidad distinta a la de opinar e informar. 
+     Tampoco ser&#225;n aplicables las normas de la presente ley
+al tratamiento de datos que efect&#250;en las personas naturales
+en relaci&#243;n con sus actividades personales.".
+     
+     3) Incorp&#243;rase el siguiente art&#237;culo 1&#176; bis:
+     
+     "Art&#237;culo 1&#176; bis.- &#193;mbito de aplicaci&#243;n
+territorial. Las disposiciones de la presente ley se
+aplicar&#225;n al tratamiento de datos personales que se realice
+bajo cualquiera de las siguientes circunstancias: 
+     
+     a) Cuando el responsable o mandatario est&#233;n
+establecidos o constituidos en el territorio nacional. 
+     b) Cuando el mandatario, con independencia de su lugar
+de establecimiento o constituci&#243;n, realice las operaciones
+de tratamiento de datos personales a nombre de un
+responsable establecido o constituido en el territorio
+nacional. 
+     c) Cuando el responsable o mandatario no se encuentren
+establecidos en el territorio nacional pero sus operaciones
+de tratamiento de datos personales est&#233;n destinadas a
+ofrecer bienes o servicios a titulares que se encuentren en
+Chile, independientemente de si a &#233;stos se les requiere un
+pago, o a monitorear el comportamiento de titulares que se
+encuentran en el territorio nacional, incluyendo su
+an&#225;lisis, rastreo, perfilamiento o predicci&#243;n de
+comportamiento. 
+     La presente ley tambi&#233;n se aplicar&#225; al tratamiento de
+datos personales que sea realizado por un responsable al
+que, sin estar establecido en el territorio nacional, le
+resulte aplicable la legislaci&#243;n nacional a causa de un
+contrato o del derecho internacional.".
+     
+     4) Agr&#233;gase, en el encabezamiento del art&#237;culo 2&#176;,
+el siguiente ep&#237;grafe: "Definiciones.".
+     5) Introd&#250;cense las siguientes modificaciones en los
+literales del art&#237;culo 2&#176;:
+     
+     uno) Reempl&#225;zanse los literales a), c), f), g) e i)
+por los siguientes:
+     
+     "a) Almacenamiento de datos: la conservaci&#243;n o
+custodia de datos en un registro o base de datos.
+     c) Comunicaci&#243;n de datos personales: dar a conocer por
+el responsable de datos, de cualquier forma, datos
+personales a personas distintas del titular a quien
+conciernen los datos, sin llegar a cederlos o transferirlos.
+     f) Dato personal: cualquier informaci&#243;n vinculada o
+referida a una persona natural identificada o identificable.
+Se considerar&#225; identificable toda persona cuya identidad
+pueda determinarse, directa o indirectamente, en particular
+mediante uno o m&#225;s identificadores, tales como el nombre,
+el n&#250;mero de c&#233;dula de identidad, el an&#225;lisis de
+elementos propios de la identidad f&#237;sica, fisiol&#243;gica,
+gen&#233;tica, ps&#237;quica, econ&#243;mica, cultural o social de dicha
+persona.
+     Para determinar si una persona es identificable
+deber&#225;n considerarse todos los medios y factores objetivos
+que razonablemente se podr&#237;an usar para dicha
+identificaci&#243;n en el momento del tratamiento.
+     g) Datos personales sensibles: tendr&#225;n esta condici&#243;n
+aquellos datos personales que se refieren a las
+caracter&#237;sticas f&#237;sicas o morales de las personas o a
+hechos o circunstancias de su vida privada o intimidad, que
+revelen el origen &#233;tnico o racial, la afiliaci&#243;n
+pol&#237;tica, sindical o gremial, la situaci&#243;n
+socioecon&#243;mica, las convicciones ideol&#243;gicas o
+filos&#243;ficas, las creencias religiosas, los datos relativos
+a la salud, al perfil biol&#243;gico humano, los datos
+biom&#233;tricos, y la informaci&#243;n relativa a la vida sexual, a
+la orientaci&#243;n sexual y a la identidad de g&#233;nero de una
+persona natural.
+     i) Fuentes de acceso p&#250;blico: todas aquellas bases de
+datos o conjuntos de datos personales, cuyo acceso o
+consulta puede ser efectuada en forma l&#237;cita por cualquier
+persona, tales como el Diario Oficial, medios de
+comunicaci&#243;n o los registros p&#250;blicos que disponga la ley.
+El tratamiento de datos personales provenientes de fuentes
+de acceso p&#250;blico se someter&#225; a las disposiciones de esta
+ley.".
+     
+     dos) Elim&#237;nase el literal j), pasando el actual
+literal k) a ser literal j) y as&#237; sucesivamente. 
+     tres) Sustit&#250;yense los actuales literales l), m), n),
+&#241;) y o) por los siguientes literales k), l), m), n), &#241;) y
+o):
+     
+     "k) Anonimizaci&#243;n: procedimiento irreversible en
+virtud del cual un dato personal no puede vincularse o
+asociarse a una persona determinada, ni permitir su
+identificaci&#243;n, por haberse destruido o eliminado el nexo
+con la informaci&#243;n que vincula, asocia o identifica a esa
+persona. Un dato anonimizado deja de ser un dato personal. 
+     l) Seudonimizaci&#243;n: tratamiento de datos personales
+que se efect&#250;a de manera tal que ya no puedan atribuirse a
+un titular sin utilizar informaci&#243;n adicional, siempre que
+dicha informaci&#243;n adicional figure por separado y est&#233;
+sujeta a medidas t&#233;cnicas y organizativas destinadas a
+garantizar que los datos personales no se atribuyan a una
+persona natural identificada o identificable.
+     m) Base de datos personales: conjunto organizado de
+datos personales, cualquiera sea la finalidad, forma o
+modalidad de su creaci&#243;n, almacenamiento, organizaci&#243;n y
+acceso, que permita relacionar los datos entre s&#237;, as&#237;
+como realizar su tratamiento.
+     n) Responsable de datos o responsable: toda persona
+natural o jur&#237;dica, p&#250;blica o privada, que decide acerca
+de los fines y medios del tratamiento de datos personales,
+con independencia de si los datos son tratados directamente
+por ella o a trav&#233;s de un tercero mandatario o encargado.
+     &#241;) Titular de datos o titular: persona natural,
+identificada o identificable, a quien conciernen o se
+refieren los datos personales. 
+     o) Tratamiento de datos: cualquier operaci&#243;n o
+conjunto de operaciones o procedimientos t&#233;cnicos, de
+car&#225;cter automatizado o no, que permitan de cualquier forma
+recolectar, procesar, almacenar, comunicar, transmitir o
+utilizar datos personales o conjuntos de datos personales.".
+     
+     cuatro) Agr&#233;ganse los siguientes literales p), q), r),
+s), t) y u), nuevos:
+     
+     "p) Consentimiento: toda manifestaci&#243;n de voluntad
+libre, espec&#237;fica, inequ&#237;voca e informada, otorgada a
+trav&#233;s de una declaraci&#243;n o una clara acci&#243;n afirmativa,
+mediante la cual el titular de datos, su representante legal
+o mandatario, seg&#250;n corresponda, autoriza el tratamiento de
+los datos personales que le conciernen.
+     q) Derecho de acceso: derecho del titular de datos a
+solicitar y obtener del responsable, confirmaci&#243;n acerca de
+si sus datos personales est&#225;n siendo tratados por &#233;l,
+acceder a ellos en su caso, y a la informaci&#243;n prevista en
+esta ley.
+     r) Derecho de rectificaci&#243;n: derecho del titular de
+datos a solicitar y obtener del responsable, que modifique o
+complete sus datos personales, cuando est&#225;n siendo tratados
+por &#233;l, y sean inexactos, desactualizados o incompletos.
+     s) Derecho de supresi&#243;n: derecho del titular de datos
+a solicitar y obtener del responsable, que suprima o elimine
+sus datos personales, de acuerdo a las causales previstas en
+la ley. 
+     t) Derecho de oposici&#243;n: derecho del titular de datos
+a solicitar y obtener del responsable, que no se lleve a
+cabo un tratamiento de datos determinado, de conformidad a
+las causales previstas en la ley. 
+     u) Derecho a la portabilidad de los datos personales:
+derecho del titular de datos a solicitar y obtener del
+responsable, una copia de sus datos personales en un formato
+electr&#243;nico estructurado, gen&#233;rico y de uso com&#250;n, que
+permita ser operado por distintos sistemas, y poder
+comunicarlos o transferirlos a otro responsable de datos.
+     El titular tendr&#225; derecho a que sus datos personales
+se transmitan directamente de responsable a responsable
+cuando sea t&#233;cnicamente posible.".
+     
+     cinco) Incorp&#243;ranse los siguientes literales v), w),
+x), y) y z), nuevos:
+     
+     "v) Cesi&#243;n de datos personales: transferencia de datos
+personales por parte del responsable de datos a otro
+responsable de datos.
+     w) Elaboraci&#243;n de perfiles: toda forma de tratamiento
+automatizado de datos personales que consista en utilizar
+esos datos para evaluar, analizar o predecir aspectos
+relativos al rendimiento profesional, situaci&#243;n econ&#243;mica,
+de salud, preferencias personales, intereses, fiabilidad,
+comportamiento, ubicaci&#243;n o movimientos de una persona
+natural.
+     x) Tercero mandatario o encargado: la persona natural o
+jur&#237;dica que trate datos personales, por cuenta del
+responsable de datos.
+     y) Agencia: la Agencia de Protecci&#243;n de Datos
+Personales.
+     z) Registro Nacional de Sanciones y Cumplimiento: es un
+registro nacional de car&#225;cter p&#250;blico administrado por la
+Agencia, que consigna los modelos certificados de
+prevenci&#243;n, los responsables de datos que los hayan
+adoptado y las sanciones que se hayan impuesto a los
+responsables de datos que hayan infringido la ley.".
+     
+     6) Sustit&#250;yese el art&#237;culo 3&#186; por el siguiente:
+     
+     "Art&#237;culo 3&#176;.- Principios. El tratamiento de los
+datos personales se rige por los siguientes principios:
+     
+     a) Principios de licitud y lealtad. Los datos
+personales s&#243;lo pueden tratarse de manera l&#237;cita y leal.
+     El responsable deber&#225; ser capaz de acreditar la
+licitud del tratamiento de datos personales que realiza.
+     b) Principio de finalidad. Los datos personales deben
+ser recolectados con fines espec&#237;ficos, expl&#237;citos y
+l&#237;citos. El tratamiento de los datos personales debe
+limitarse al cumplimiento de estos fines.
+     En aplicaci&#243;n de este principio, no se pueden tratar
+los datos personales con fines distintos a los informados al
+momento de la recolecci&#243;n, salvo que el tratamiento sea
+para fines compatibles con los autorizados originalmente;
+que exista una relaci&#243;n contractual o precontractual entre
+el titular y el responsable que justifique el tratamiento de
+los datos con una finalidad distinta, siempre que se
+enmarque dentro de los fines del contrato o sea coherente
+con las tratativas o negociaciones previas a la celebraci&#243;n
+del mismo; que el titular otorgue nuevamente su
+consentimiento, y cuando lo disponga la ley.
+     c) Principio de proporcionalidad. Los datos personales
+que se traten deben limitarse estrictamente a aqu&#233;llos que
+resulten necesarios, adecuados y pertinentes en relaci&#243;n
+con los fines del tratamiento. 
+     Los datos personales pueden ser conservados s&#243;lo por
+el per&#237;odo de tiempo que sea necesario para cumplir con los
+fines del tratamiento, luego de lo cual deben ser suprimidos
+o anonimizados, sin perjuicio de las excepciones que
+establezca la ley. Un per&#237;odo de tiempo mayor requiere
+autorizaci&#243;n legal o consentimiento del titular. 
+     d) Principio de calidad. Los datos personales deben ser
+exactos, completos, actuales y pertinentes en relaci&#243;n con
+su proveniencia y los fines del tratamiento.
+     e) Principio de responsabilidad. Quienes realicen
+tratamiento de los datos personales ser&#225;n legalmente
+responsables del cumplimiento de los principios contenidos
+en este art&#237;culo y de las obligaciones y deberes de
+conformidad a la ley.
+     f) Principio de seguridad. En el tratamiento de los
+datos personales, el responsable debe garantizar est&#225;ndares
+adecuados de seguridad, protegi&#233;ndolos contra el
+tratamiento no autorizado o il&#237;cito, y contra su p&#233;rdida,
+filtraci&#243;n, da&#241;o accidental o destrucci&#243;n. Las medidas de
+seguridad deben ser apropiadas y acordes con el tratamiento
+que se vaya a efectuar y con la naturaleza de los datos.
+     g) Principio de transparencia e informaci&#243;n. El
+responsable debe entregar al titular toda la informaci&#243;n
+que sea necesaria para el ejercicio de los derechos que
+establece esta ley, incluyendo las pol&#237;ticas y las
+pr&#225;cticas sobre el tratamiento de los datos personales, las
+que adem&#225;s deber&#225;n encontrarse permanentemente accesibles
+y a disposici&#243;n de cualquier interesado de manera precisa,
+clara, inequ&#237;voca y gratuita.
+     El responsable debe adoptar las medidas adecuadas y
+oportunas para facilitar al titular el acceso a toda la
+informaci&#243;n que se&#241;ala esta ley, as&#237; como cualquier otra
+comunicaci&#243;n relativa al tratamiento que realiza. 
+     h) Principio de confidencialidad. El responsable de
+datos personales y quienes tengan acceso a ellos deber&#225;n
+guardar secreto o confidencialidad acerca de los mismos. El
+responsable establecer&#225; controles y medidas adecuadas para
+preservar el secreto o confidencialidad. Este deber subsiste
+a&#250;n despu&#233;s de concluida la relaci&#243;n con el titular.".
+     
+     7) Reempl&#225;zase el T&#237;tulo I por el siguiente:
+     
+     "T&#237;tulo I
+     De los derechos del titular de datos personales
+     
+     Art&#237;culo 4&#186;.- Derechos del titular de datos. Toda
+persona, actuando por s&#237; o a trav&#233;s de su representante
+legal o mandatario, seg&#250;n corresponda, tiene derecho de
+acceso, rectificaci&#243;n, supresi&#243;n, oposici&#243;n, portabilidad
+y bloqueo de sus datos personales, de conformidad a la
+presente ley.
+     Tales derechos son personales, intransferibles e
+irrenunciables y no pueden limitarse por ning&#250;n acto o
+convenci&#243;n.  
+     En caso de fallecimiento del titular de datos, los
+derechos que reconoce esta ley pueden ser ejercidos por sus
+herederos. 
+     Con todo, los herederos no podr&#225;n acceder a los datos
+del causante, ni solicitar su rectificaci&#243;n o supresi&#243;n,
+cuando la persona fallecida lo hubiese prohibido
+expresamente o as&#237; lo establezca una ley.
+     
+     Art&#237;culo 5&#186;.- Derecho de acceso. El titular de datos
+tiene derecho a solicitar y obtener del responsable,
+confirmaci&#243;n acerca de si los datos personales que le
+conciernen est&#225;n siendo tratados por &#233;l, y en tal caso,
+acceder a dichos datos y a la siguiente informaci&#243;n:
+     
+     a) Los datos tratados y su origen.
+     b) La finalidad o finalidades del tratamiento.
+     c) Las categor&#237;as, clases o tipos de destinatarios, o
+bien, la identidad de cada destinatario, en caso de
+solicitarlo as&#237; el titular, a los que se les hayan
+comunicado o cedido los datos o se prevea hacerlo.
+     d) El per&#237;odo de tiempo durante el cual los datos
+ser&#225;n tratados.
+     e) Los intereses leg&#237;timos del responsable, cuando el
+tratamiento se base en lo dispuesto en el art&#237;culo 13,
+letra d).
+     f) La informaci&#243;n significativa sobre la l&#243;gica
+aplicada en el caso de que el responsable realice
+tratamiento de datos de conformidad con el art&#237;culo 8&#176;
+bis.
+     
+     El responsable siempre estar&#225; obligado a entregar
+informaci&#243;n y a dar acceso a los datos solicitados excepto
+cuando una ley disponga expresamente lo contrario.
+     
+     Art&#237;culo 6&#186;.- Derecho de rectificaci&#243;n. El titular
+de datos tiene derecho a solicitar y obtener del
+responsable, la rectificaci&#243;n de los datos personales que
+le conciernen y que est&#225;n siendo tratados por &#233;l, cuando
+sean inexactos, desactualizados o incompletos.
+     Los datos rectificados deber&#225;n ser comunicados a las
+personas, entidades u organismos a los cuales el responsable
+haya comunicado o cedido los referidos datos, salvo en los
+casos en que dicha comunicaci&#243;n sea imposible o exija un
+esfuerzo desproporcionado.
+     Efectuada la rectificaci&#243;n, no se podr&#225;n volver a
+tratar los datos sin rectificar.
+    
+     Art&#237;culo 7&#176;.- Derecho de supresi&#243;n. El titular de
+datos tiene derecho a solicitar y obtener del responsable,
+la eliminaci&#243;n de los datos personales que le conciernen,
+en los siguientes casos:
+     
+     a) Cuando los datos no resulten necesarios en relaci&#243;n
+con los fines del tratamiento para el cual fueron recogidos.
+     b) Cuando el titular haya revocado su consentimiento
+para el tratamiento y &#233;ste no tenga otro fundamento legal. 
+     c) Cuando los datos hayan sido obtenidos o tratados
+il&#237;citamente por el responsable.
+     d) Cuando se trate de datos caducos.
+     e) Cuando los datos deban suprimirse para el
+cumplimiento de una sentencia judicial, de una resoluci&#243;n
+de la autoridad de protecci&#243;n de datos o de una obligaci&#243;n
+legal.
+     f) Cuando el titular haya ejercido su derecho de
+oposici&#243;n de conformidad al art&#237;culo siguiente y no exista
+otro fundamento legal para su tratamiento.
+     
+     No procede la supresi&#243;n cuando el tratamiento sea
+necesario:
+     
+     i. Para ejercer el derecho a las libertades de emitir
+opini&#243;n y de informar.
+     ii. Para el cumplimiento de una obligaci&#243;n legal o la
+ejecuci&#243;n de un contrato suscrito entre el titular y el
+responsable.
+     iii. Para el cumplimiento de una funci&#243;n p&#250;blica o
+para el ejercicio de una actividad de inter&#233;s p&#250;blico.
+     iv. Por razones de inter&#233;s p&#250;blico en el &#225;rea de la
+salud p&#250;blica, de conformidad con las condiciones y
+garant&#237;as establecidas en la ley.
+     v. Para tratamientos con fines hist&#243;ricos,
+estad&#237;sticos o cient&#237;ficos y para estudios o
+investigaciones que atiendan fines de inter&#233;s p&#250;blico.
+     vi. Para la formulaci&#243;n, ejercicio o defensa de una
+reclamaci&#243;n administrativa o judicial.
+     
+     Art&#237;culo 8&#176;.- Derecho de Oposici&#243;n. El titular de
+datos tiene derecho a oponerse ante el responsable a que se
+realice un tratamiento espec&#237;fico o determinado de los
+datos personales que le conciernan, en los siguientes casos:
+     
+     a) Cuando la base de licitud del tratamiento sea la
+satisfacci&#243;n de intereses leg&#237;timos del responsable. En
+dicho caso podr&#225; ejercer su derecho de oposici&#243;n en
+cualquier momento. El responsable del tratamiento deber&#225;
+dejar de tratar los datos personales, salvo que acredite
+motivos leg&#237;timos imperiosos para el tratamiento que
+prevalezcan sobre los intereses, los derechos y las
+libertades del titular, o para la formulaci&#243;n, el ejercicio
+o la defensa de reclamaciones.
+     b) Si el tratamiento se realiza exclusivamente con
+fines de mercadotecnia o marketing directo de bienes,
+productos o servicios, incluida la elaboraci&#243;n de perfiles,
+de conformidad con el art&#237;culo 8&#176; bis.
+     c) Si el tratamiento se realiza respecto de datos
+obtenidos de una fuente de acceso p&#250;blico y no existe otro
+fundamento legal para su tratamiento.
+     
+     No proceder&#225; la oposici&#243;n al tratamiento cuando &#233;ste
+se realice con fines de investigaci&#243;n cient&#237;fica o
+hist&#243;rica o fines estad&#237;sticos, y siempre que fueran
+necesarios para el cumplimiento de una funci&#243;n p&#250;blica o
+para el ejercicio de una actividad de inter&#233;s p&#250;blico.
+     
+     Art&#237;culo 8&#176; bis.- Decisiones individuales
+automatizadas, incluida la elaboraci&#243;n de perfiles. El
+titular de datos tiene derecho a oponerse y a no ser objeto
+de decisiones basadas en el tratamiento automatizado de sus
+datos personales, incluida la elaboraci&#243;n de perfiles, que
+produzca efectos jur&#237;dicos en &#233;l o le afecte
+significativamente.
+     El inciso anterior no se aplicar&#225; en los siguientes
+casos:
+     
+     a) Cuando la decisi&#243;n sea necesaria para la
+celebraci&#243;n o ejecuci&#243;n de un contrato entre el titular y
+el responsable.
+     b) Cuando exista consentimiento previo y expreso del
+titular en la forma prescrita en el art&#237;culo 12.
+     c) Cuando lo se&#241;ale la ley, en la medida en que &#233;sta
+disponga el empleo de salvaguardas a los derechos y
+libertades del titular. 
+     
+     En todos los casos de decisiones basadas en el
+tratamiento automatizado de datos personales, inclusive
+aqu&#233;llos se&#241;alados en las letras a), b) y c) precedentes,
+el responsable deber&#225; adoptar las medidas necesarias para
+asegurar los derechos y libertades del titular, su derecho a
+la informaci&#243;n y transparencia, el derecho a obtener una
+explicaci&#243;n, a la intervenci&#243;n humana, a expresar su punto
+de vista y a solicitar la revisi&#243;n de la decisi&#243;n.
+     
+     Art&#237;culo 8&#176; ter.- Derecho de bloqueo del tratamiento.
+El titular de datos tiene derecho a solicitar la suspensi&#243;n
+temporal de cualquier operaci&#243;n de tratamiento de sus datos
+personales cuando formule una solicitud de rectificaci&#243;n,
+supresi&#243;n u oposici&#243;n, de conformidad con el art&#237;culo 11
+de la presente ley, mientras dicha solicitud no se resuelva.
+     Asimismo, el titular podr&#225; ejercer este derecho
+alternativamente al de supresi&#243;n en los casos del art&#237;culo
+7&#176;.
+     El ejercicio de este derecho no afectar&#225; el
+almacenamiento de los datos por parte del responsable.
+     
+     Art&#237;culo 9&#186;.- Derecho a la portabilidad de los datos
+personales. El titular de datos tiene derecho a solicitar y
+recibir una copia de los datos personales que le conciernen,
+que haya facilitado al responsable, en un formato
+electr&#243;nico estructurado, gen&#233;rico y de uso com&#250;n, que
+permita ser operado por distintos sistemas, y a comunicarlos
+o transferirlos a otro responsable de datos, cuando
+concurran las siguientes circunstancias:
+     
+     a) El tratamiento se realice en forma automatizada, y
+     b) El tratamiento est&#233; basado en el consentimiento del
+titular.
+     
+     El responsable debe utilizar los medios m&#225;s expeditos,
+menos onerosos y sin poner trabas u obst&#225;culos para el
+ejercicio de este derecho.
+     El responsable tambi&#233;n debe comunicar al titular de
+manera clara y precisa las medidas necesarias para obtener
+sus datos personales y especificar las caracter&#237;sticas
+t&#233;cnicas para llevar a cabo estas operaciones.
+     El titular tendr&#225; derecho a que sus datos personales
+se transmitan directamente de responsable a responsable
+cuando sea t&#233;cnicamente posible.
+     Con todo, el ejercicio del derecho de portabilidad no
+supondr&#225; la supresi&#243;n de los datos ante el responsable
+cedente, a menos que el titular de ellos as&#237; lo pida
+conjuntamente en la solicitud.
+     
+     Art&#237;culo 10.- Forma y medios de ejercer los derechos
+del titular de datos. Los derechos reconocidos en esta ley
+se ejercen por el titular ante el responsable de datos. Si
+los datos personales del titular son tratados por diversos
+responsables, el titular puede ejercer sus derechos ante
+cualquiera de ellos. 
+     En el caso de las personas jur&#237;dicas no constituidas
+en Chile, el responsable deber&#225; se&#241;alar por escrito, ante
+la Agencia, un correo electr&#243;nico o un medio de
+comunicaci&#243;n electr&#243;nico equivalente v&#225;lido y operativo
+de una persona natural o jur&#237;dica capaz de actuar en su
+nombre, para los efectos de que el titular pueda ejercer sus
+derechos y comunicarse con el responsable, y donde se le
+practiquen v&#225;lidamente las comunicaciones y notificaciones
+administrativas que disponga la ley. El responsable deber&#225;
+mantener actualizada esta informaci&#243;n.
+     Los responsables de datos deber&#225;n implementar
+mecanismos y herramientas tecnol&#243;gicas que permitan que el
+titular ejerza sus derechos en forma expedita, &#225;gil y
+eficaz. Los medios dispuestos por el responsable deben ser
+sencillos en su operaci&#243;n.
+     El ejercicio de los derechos de rectificaci&#243;n,
+supresi&#243;n y oposici&#243;n siempre ser&#225;n gratuitos para el
+titular. El derecho de acceso tambi&#233;n se ejercer&#225; en forma
+gratuita, al menos trimestralmente.
+     El responsable de datos s&#243;lo puede exigir el pago de
+los costos directos en que incurra, cuando el titular ejerza
+su derecho de acceso y derecho a la portabilidad m&#225;s de una
+vez en el trimestre. El responsable no podr&#225; exigir este
+pago en los casos del inciso cuarto del art&#237;culo 28.
+     Los par&#225;metros y mecanismos para determinar los costos
+derivados del ejercicio de los derechos se&#241;alados en el
+inciso anterior ser&#225;n determinados por la Agencia, a
+trav&#233;s de una instrucci&#243;n general que considerar&#225;, entre
+otros antecedentes, el volumen de los datos a ser
+entregados, la naturaleza jur&#237;dica y el tama&#241;o de la
+entidad o empresa que tenga la calidad de responsable.
+     La Agencia velar&#225; por el efectivo ejercicio y
+cumplimiento de los derechos que esta ley reconoce al
+titular de datos, en conformidad a lo dispuesto en esta ley.
+     
+     Art&#237;culo 11.- Procedimiento ante el responsable de
+datos. Para ejercer los derechos que le reconoce esta ley,
+el titular deber&#225; presentar una solicitud o requerimiento
+escrito ante el responsable, dirigido a la direcci&#243;n de
+correo electr&#243;nico establecida para este fin, un formulario
+de contacto o un medio electr&#243;nico equivalente. La
+solicitud deber&#225; contener, a lo menos, las siguientes
+menciones: 
+     
+     a) Individualizaci&#243;n del titular y de su representante
+legal o mandatario, seg&#250;n corresponda, y autenticaci&#243;n de
+su identidad de acuerdo con los procedimientos, formas y
+modalidades que establezca la Agencia.
+     b) Indicaci&#243;n de un domicilio o una direcci&#243;n de
+correo electr&#243;nico o de otro medio equivalente para
+comunicar la respuesta.
+     c) Identificaci&#243;n de los datos personales o del
+tratamiento determinado, respecto de los cuales se ejerce el
+derecho correspondiente.
+     d) En las solicitudes de rectificaci&#243;n, el titular
+deber&#225; indicar las modificaciones o actualizaciones
+precisas a realizar y acompa&#241;ar, en su caso, los
+antecedentes que las sustenten. Cuando se trate de
+solicitudes de supresi&#243;n, el titular deber&#225; indicar la
+causal invocada y acompa&#241;ar los antecedentes que la
+sustenten, si correspondiere. Para las solicitudes de
+oposici&#243;n, el titular deber&#225; indicar la causal invocada y
+en el caso de la letra a) del art&#237;culo 8&#176;, deber&#225;
+fundamentar brevemente su petici&#243;n y podr&#225;, igualmente,
+acompa&#241;ar los antecedentes que estime procedentes. En el
+caso del derecho de acceso, bastar&#225; con la
+individualizaci&#243;n del titular.
+     
+     Recibida la solicitud el responsable deber&#225; acusar
+recibo de ella y pronunciarse a m&#225;s tardar dentro de los
+treinta d&#237;as corridos siguientes a la fecha de ingreso de
+la solicitud. Este plazo podr&#225; ser prorrogado, por una sola
+vez, hasta por treinta d&#237;as corridos.
+     El responsable deber&#225; responder por escrito al titular
+a su domicilio o la direcci&#243;n de correo electr&#243;nico fijada
+por &#233;ste. El responsable debe almacenar los respaldos que
+le permitan demostrar la remisi&#243;n de la respuesta a la
+direcci&#243;n f&#237;sica o electr&#243;nica que corresponda, su fecha
+y el contenido &#237;ntegro de ella.
+     En caso de denegaci&#243;n total o parcial de la solicitud,
+el responsable deber&#225; fundar su decisi&#243;n indicando la
+causa invocada y los antecedentes que la justifican. En esta
+misma oportunidad el responsable debe se&#241;alar al titular
+que dispone de un plazo de treinta d&#237;as h&#225;biles para
+formular una reclamaci&#243;n ante la Agencia, de acuerdo con el
+procedimiento establecido en el art&#237;culo 41. 
+     Transcurrido el plazo al que hace referencia el inciso
+segundo anterior, sin que haya respuesta del responsable, el
+titular podr&#225; formular directamente una reclamaci&#243;n ante
+la Agencia, en los mismos t&#233;rminos del inciso anterior.
+     Cuando se formule una solicitud de rectificaci&#243;n,
+supresi&#243;n u oposici&#243;n, el titular tendr&#225; derecho a
+solicitar y obtener del responsable el bloqueo temporal de
+sus datos o del tratamiento que realice, seg&#250;n corresponda.
+La solicitud de bloqueo temporal deber&#225; ser fundada y el
+responsable deber&#225; responder al requerimiento dentro de los
+dos d&#237;as h&#225;biles siguientes a su recepci&#243;n. En tanto no
+resuelva esta solicitud, el responsable no podr&#225; tratar los
+datos del titular que forman parte del requerimiento. El
+bloqueo temporal de los datos no afectar&#225; su almacenamiento
+por parte del responsable. En caso de rechazo el responsable
+deber&#225; fundar su respuesta y comunicar en forma
+electr&#243;nica su decisi&#243;n a la Agencia. El titular podr&#225;
+reclamar de esta decisi&#243;n ante la Agencia, aplic&#225;ndose lo
+dispuesto en la letra a) del inciso segundo del art&#237;culo
+41.
+     La rectificaci&#243;n, supresi&#243;n u oposici&#243;n al
+tratamiento de los datos se aplicar&#225; s&#243;lo respecto de los
+responsables a quienes se les haya formulado la solicitud.
+Con todo, cuando el responsable haya comunicado dichos datos
+a otras personas, deber&#225; comunicar a &#233;stas los cambios
+realizados en virtud de la rectificaci&#243;n, supresi&#243;n u
+oposici&#243;n.
+     El titular podr&#225; aportar cualquier otro antecedente
+que facilite la localizaci&#243;n de los datos personales.".
+     
+     8) Reempl&#225;zase el T&#237;tulo II por el siguiente:
+     
+     "T&#237;tulo II
+     Del tratamiento de los datos personales y de las
+categor&#237;as especiales de datos
+     
+     P&#225;rrafo Primero
+     Del consentimiento del titular, de las obligaciones y
+deberes del responsable y del tratamiento de datos en
+general
+     
+     Art&#237;culo 12.- Regla general del tratamiento de datos.
+Es l&#237;cito el tratamiento de los datos personales que le
+conciernen al titular, cuando otorgue su consentimiento para
+ello.
+     El consentimiento del titular debe ser libre, informado
+y espec&#237;fico en cuanto a su finalidad o finalidades. El
+consentimiento debe manifestarse, adem&#225;s, en forma previa y
+de manera inequ&#237;voca, mediante una declaraci&#243;n verbal,
+escrita o expresada a trav&#233;s de un medio electr&#243;nico
+equivalente, o mediante un acto afirmativo que d&#233; cuenta
+con claridad de la voluntad del titular.
+     Cuando el consentimiento lo otorgue un mandatario,
+&#233;ste deber&#225; encontrarse expresamente premunido de esta
+facultad. 
+     El titular puede revocar el consentimiento otorgado en
+cualquier momento y sin expresi&#243;n de causa, utilizando
+medios similares o equivalentes a los empleados para su
+otorgamiento. La revocaci&#243;n del consentimiento no tendr&#225;
+efectos retroactivos.
+     Los medios utilizados para el otorgamiento o la
+revocaci&#243;n del consentimiento deben ser expeditos,
+fidedignos, gratuitos y estar permanentemente disponibles
+para el titular.
+     Se presume que el consentimiento para tratar datos no
+ha sido libremente otorgado cuando el responsable lo recaba
+en el marco de la ejecuci&#243;n de un contrato o la prestaci&#243;n
+de un servicio en que no es necesario efectuar esa
+recolecci&#243;n.
+     Con todo, lo dispuesto en el inciso anterior no se
+aplicar&#225; cuando quien ofrezca bienes, servicios o
+beneficios, requiera como &#250;nica contraprestaci&#243;n el
+consentimiento para tratar datos.
+     Corresponde al responsable probar que cont&#243; con el
+consentimiento del titular y que el tratamiento de datos fue
+realizado en forma l&#237;cita, leal y transparente.
+     
+     Art&#237;culo 13.- Otras fuentes de licitud del tratamiento
+de datos. Es l&#237;cito el tratamiento de datos personales, sin
+el consentimiento del titular, en los siguientes casos:
+     
+     a) Cuando el tratamiento est&#233; referido a datos
+relativos a obligaciones de car&#225;cter econ&#243;mico,
+financiero, bancario o comercial y se realice de conformidad
+con las normas del T&#237;tulo III de esta ley, incluidos los
+datos referidos a la situaci&#243;n socioecon&#243;mica del titular.
+     b) Cuando el tratamiento sea necesario para la
+ejecuci&#243;n o el cumplimiento de una obligaci&#243;n legal o lo
+disponga la ley.
+     c) Cuando el tratamiento de datos sea necesario para la
+celebraci&#243;n o ejecuci&#243;n de un contrato entre el titular y
+el responsable, o para la ejecuci&#243;n de medidas
+precontractuales adoptadas a solicitud del titular.
+     d) Cuando el tratamiento sea necesario para la
+satisfacci&#243;n de intereses leg&#237;timos del responsable o de
+un tercero, siempre que con ello no se afecten los derechos
+y libertades del titular. En todo caso, el titular podr&#225;
+exigir siempre ser informado sobre el tratamiento que lo
+afecta y el inter&#233;s leg&#237;timo en base al cual se efect&#250;a
+dicho tratamiento.
+     e) Cuando el tratamiento de datos sea necesario para la
+formulaci&#243;n, ejercicio o defensa de un derecho ante los
+tribunales de justicia u &#243;rganos p&#250;blicos. 
+     
+     El responsable deber&#225; acreditar la licitud del
+tratamiento de datos.
+     
+     Art&#237;culo 14.- Obligaciones del responsable de datos.
+El responsable de datos, sin perjuicio de las dem&#225;s
+disposiciones previstas en esta ley, tiene las siguientes
+obligaciones:
+     
+     a) Informar y poner a disposici&#243;n del titular los
+antecedentes que acrediten la licitud del tratamiento de
+datos que realiza. Asimismo, deber&#225; entregar de manera
+expedita dicha informaci&#243;n cuando le sea requerida.
+     b) Asegurar que los datos personales se recojan de
+fuentes de acceso l&#237;citas con fines espec&#237;ficos,
+expl&#237;citos y l&#237;citos, y que su tratamiento se limite al
+cumplimiento de estos fines.
+     c) Comunicar o ceder, en conformidad a las
+disposiciones de esta ley, informaci&#243;n exacta, completa y
+actual.
+     d) Suprimir o anonimizar los datos personales del
+titular cuando fueron obtenidos para la ejecuci&#243;n de
+medidas precontractuales.
+     e) Cumplir con los dem&#225;s deberes, principios y
+obligaciones que rigen el tratamiento de los datos
+personales previstos en esta ley.
+     
+     El responsable de datos que no tenga domicilio en Chile
+y que realice tratamiento de datos de personas que residan
+en el territorio nacional, deber&#225; se&#241;alar y mantener
+actualizado y operativo, un correo electr&#243;nico u otro medio
+de contacto id&#243;neo para recibir comunicaciones de los
+titulares de datos y de la Agencia.
+     
+     Art&#237;culo 14 bis.- Deber de secreto o confidencialidad.
+El responsable de datos est&#225; obligado a mantener secreto o
+confidencialidad acerca de los datos personales que
+conciernan a un titular, salvo cuando el titular los hubiere
+hecho manifiestamente p&#250;blicos. Este deber subsiste a&#250;n
+despu&#233;s de concluida la relaci&#243;n con el titular. En caso
+de que el responsable haya realizado alguna acci&#243;n sobre
+datos personales obtenidos de fuentes de acceso p&#250;blico,
+tales como organizarlos o clasificarlos bajo alg&#250;n
+criterio, o combinarlos o complementarlos con otros datos,
+los datos personales que resulten de dicha acci&#243;n se
+encontrar&#225;n protegidos bajo el presente deber de secreto o
+confidencialidad.
+     El deber de secreto o confidencialidad no obsta a las
+comunicaciones o cesiones de datos que deba realizar el
+responsable en conformidad a la ley, y al cumplimiento de la
+obligaci&#243;n de dar acceso al titular e informar el origen de
+los datos, cuando esta informaci&#243;n le sea requerida por el
+titular o por un &#243;rgano p&#250;blico dentro del &#225;mbito de sus
+competencias legales.
+     El responsable debe adoptar las medidas necesarias con
+el objeto que sus dependientes o las personas naturales o
+jur&#237;dicas que ejecuten operaciones de tratamiento de datos
+bajo su responsabilidad, cumplan el deber de secreto o
+confidencialidad establecidos en este art&#237;culo. 
+     Quedan sujetas a la obligaci&#243;n de confidencialidad las
+personas e instituciones y sus dependientes a que se refiere
+el art&#237;culo 24, en cuanto al requerimiento y al hecho de
+haber remitido dicha informaci&#243;n.
+     
+     Art&#237;culo 14 ter.- Deber de informaci&#243;n y
+transparencia. El responsable de datos debe facilitar y
+mantener permanentemente a disposici&#243;n del p&#250;blico, en su
+sitio web o en cualquier otro medio de informaci&#243;n
+equivalente, al menos, la siguiente informaci&#243;n:
+     
+     a) La pol&#237;tica de tratamiento de datos personales que
+haya adoptado, la fecha y versi&#243;n de la misma.
+     b) La individualizaci&#243;n del responsable de datos y su
+representante legal y la identificaci&#243;n del encargado de
+prevenci&#243;n, si existiere.
+     c) El domicilio postal, la direcci&#243;n de correo
+electr&#243;nico, el formulario de contacto o la identificaci&#243;n
+del medio tecnol&#243;gico equivalente de uso com&#250;n y f&#225;cil
+acceso mediante el cual se le notifican las solicitudes que
+realicen los titulares.
+     d) Las categor&#237;as, clases o tipos de datos que trata;
+la descripci&#243;n gen&#233;rica del universo de personas que
+comprenden sus bases de datos; los destinatarios a los que
+se prev&#233; comunicar o ceder los datos; las finalidades de
+los tratamientos que realiza; la base de legitimidad del
+tratamiento; y en caso de tratamientos que se basan en la
+satisfacci&#243;n de intereses leg&#237;timos, cu&#225;les ser&#237;an
+&#233;stos.
+     e) La pol&#237;tica y las medidas de seguridad adoptadas
+para proteger las bases de datos personales que administra.
+     f) El derecho que le asiste al titular para solicitar
+ante el responsable, acceso, rectificaci&#243;n, supresi&#243;n,
+oposici&#243;n y portabilidad de sus datos personales, de
+conformidad a la ley.
+     g) El derecho que le asiste al titular de recurrir ante
+la Agencia, en caso de que el responsable rechace o no
+responda oportunamente las solicitudes que le formule.
+     h) En su caso, la transferencia de datos personales a
+un tercer pa&#237;s u organizaci&#243;n internacional y si &#233;stos
+ofrecen o no un nivel adecuado de protecci&#243;n. En caso de
+que no cuenten con un nivel adecuado de protecci&#243;n, se
+deber&#225; informar si existen garant&#237;as que justifiquen tal
+transferencia.
+     i) El periodo durante el que se conservar&#225;n los datos
+personales.
+     j) La fuente de la cual provienen los datos personales
+y, en su caso, si proceden de fuentes de acceso p&#250;blico.
+     k) Cuando el tratamiento est&#225; basado en el
+consentimiento del titular, la existencia del derecho a
+retirarlo en cualquier momento, sin que ello afecte a la
+licitud del tratamiento basado en el consentimiento previo a
+su retirada.
+     l) La existencia de decisiones automatizadas, incluida
+la elaboraci&#243;n de perfiles. En tales casos, informaci&#243;n
+significativa sobre la l&#243;gica aplicada, as&#237; como las
+consecuencias previstas de dicho tratamiento para el
+titular.
+     
+     Art&#237;culo 14 qu&#225;ter.- Deber de protecci&#243;n desde el
+dise&#241;o y por defecto. Con la finalidad de cumplir los
+principios y los derechos de los titulares establecidos en
+esta ley, el responsable debe aplicar medidas t&#233;cnicas y
+organizativas adecuadas desde el dise&#241;o con anterioridad y
+durante el tratamiento de los datos personales. Las medidas
+a aplicar deber&#225;n tener en consideraci&#243;n el estado de la
+t&#233;cnica; los costos de implementaci&#243;n; la naturaleza,
+&#225;mbito, contexto y fines del tratamiento de datos; as&#237;
+como los riesgos asociados a dicha actividad.
+     Asimismo, el responsable de datos deber&#225; aplicar
+medidas t&#233;cnicas y organizativas para garantizar que, por
+defecto, s&#243;lo sean objeto de tratamiento los datos
+personales espec&#237;ficos y estrictamente necesarios para
+dicha actividad. Para ello, se tendr&#225; en consideraci&#243;n el
+n&#250;mero de datos recogidos, la extensi&#243;n del tratamiento,
+el plazo de conservaci&#243;n y su accesibilidad.
+     
+     Art&#237;culo 14 quinquies.- Deber de adoptar medidas de
+seguridad. El responsable de datos debe adoptar las medidas
+necesarias para resguardar el cumplimiento del principio de
+seguridad establecido en esta ley, considerando el estado
+actual de la t&#233;cnica y los costos de aplicaci&#243;n, junto con
+la naturaleza, alcance, contexto y fines del tratamiento,
+as&#237; como la probabilidad de los riesgos y la gravedad de
+sus efectos en relaci&#243;n con el tipo de datos tratados. Las
+medidas aplicadas por el responsable deben asegurar la
+confidencialidad, integridad, disponibilidad y resiliencia
+de los sistemas de tratamiento de datos. Asimismo, deber&#225;n
+evitar la alteraci&#243;n, destrucci&#243;n, p&#233;rdida, tratamiento o
+acceso no autorizado.
+     En consideraci&#243;n al estado de la t&#233;cnica, los costos
+de aplicaci&#243;n, y la naturaleza, el alcance, el contexto y
+los fines del tratamiento, as&#237; como los riesgos de
+probabilidad y gravedad variables para los derechos y
+libertades de los titulares, el responsable y el encargado
+del tratamiento aplicar&#225;n medidas t&#233;cnicas y organizativas
+apropiadas para garantizar un nivel de seguridad adecuado al
+riesgo, que en su caso incluya, entre otros:
+     
+     a) La seudonimizaci&#243;n y el cifrado de datos
+personales.
+     b) La capacidad de garantizar la confidencialidad,
+integridad, disponibilidad y resiliencia permanentes de los
+sistemas y servicios de tratamiento.
+     c) La capacidad de restaurar la disponibilidad y el
+acceso a los datos personales de forma r&#225;pida en caso de
+incidente f&#237;sico o t&#233;cnico.
+     d) Un proceso de verificaci&#243;n, evaluaci&#243;n y
+valoraci&#243;n regulares de la eficacia de las medidas
+t&#233;cnicas y organizativas para garantizar la seguridad del
+tratamiento.
+     
+     Ante la ocurrencia de un incidente de seguridad, y en
+caso de controversia judicial o administrativa,
+corresponder&#225; al responsable acreditar la existencia y el
+funcionamiento de las medidas de seguridad adoptadas en base
+a los niveles de riesgo y a la tecnolog&#237;a disponible.
+     
+     Art&#237;culo 14 sexies.- Deber de reportar las
+vulneraciones a las medidas de seguridad. El responsable
+deber&#225; reportar a la Agencia, por los medios m&#225;s expeditos
+posibles y sin dilaciones indebidas, las vulneraciones a las
+medidas de seguridad que ocasionen la destrucci&#243;n,
+filtraci&#243;n, p&#233;rdida o alteraci&#243;n accidental o il&#237;cita de
+los datos personales que trate o la comunicaci&#243;n o acceso
+no autorizados a dichos datos, cuando exista un riesgo
+razonable para los derechos y libertades de los titulares.
+     El responsable deber&#225; registrar estas comunicaciones,
+describiendo la naturaleza de las vulneraciones sufridas,
+sus efectos, las categor&#237;as de datos y el n&#250;mero
+aproximado de titulares afectados y las medidas adoptadas
+para gestionarlas y precaver incidentes futuros.
+     Cuando dichas vulneraciones se refieran a datos
+personales sensibles, datos relativos a ni&#241;os y ni&#241;as
+menores de catorce a&#241;os o datos relativos a obligaciones de
+car&#225;cter econ&#243;mico, financiero, bancario o comercial, el
+responsable deber&#225; tambi&#233;n efectuar esta comunicaci&#243;n a
+los titulares de estos datos, a trav&#233;s de sus
+representantes, cuando corresponda. Esta comunicaci&#243;n
+deber&#225; realizarse en un lenguaje claro y sencillo,
+singularizando los datos afectados, las posibles
+consecuencias de las vulneraciones de seguridad y las
+medidas de soluci&#243;n o resguardo adoptadas. La notificaci&#243;n
+se deber&#225; realizar a cada titular afectado y si ello no
+fuere posible, se realizar&#225; mediante la difusi&#243;n o
+publicaci&#243;n de un aviso en un medio de comunicaci&#243;n social
+masivo y de alcance nacional.
+     Los deberes de informaci&#243;n se&#241;alados en este
+art&#237;culo no obstan a los dem&#225;s deberes de informaci&#243;n que
+establezcan otras leyes.
+     
+     Art&#237;culo 14 septies.- Diferenciaci&#243;n de est&#225;ndares
+de cumplimiento. Los est&#225;ndares o condiciones m&#237;nimas que
+se impongan al responsable de datos para el cumplimiento de
+los deberes de informaci&#243;n y de seguridad establecidos en
+los art&#237;culos 14 ter y 14 quinquies, respectivamente,
+ser&#225;n determinados considerando el tipo de dato del que se
+trata, si el responsable es una persona natural o jur&#237;dica,
+el tama&#241;o de la entidad o empresa de acuerdo a las
+categor&#237;as establecidas en el art&#237;culo segundo de la ley
+N&#176; 20.416, que fija normas especiales para las empresas de
+menor tama&#241;o, la actividad que desarrolla y el volumen,
+naturaleza y las finalidades de los datos personales que
+trata.
+     Los est&#225;ndares o condiciones m&#237;nimas de cumplimiento
+y las medidas diferenciadas a que alude el inciso anterior,
+ser&#225;n determinados por la Agencia mediante instrucci&#243;n
+general.
+     
+     Art&#237;culo 15.- Cesi&#243;n de datos personales. Los datos
+personales podr&#225;n ser cedidos con el consentimiento del
+titular y para el cumplimiento de los fines del tratamiento.
+Tambi&#233;n se podr&#225;n ceder los datos personales cuando la
+cesi&#243;n sea necesaria para el cumplimiento y la ejecuci&#243;n
+de un contrato en que es parte el titular; cuando exista un
+inter&#233;s leg&#237;timo del cedente o del cesionario, en los
+t&#233;rminos previstos en la letra d) del art&#237;culo 13, y
+cuando lo disponga la ley. 
+     En caso de que el consentimiento otorgado por el
+titular al momento de realizarse la recolecci&#243;n de los
+datos personales no haya considerado la cesi&#243;n de los
+mismos, &#233;ste debe recabarse antes que se produzca,
+consider&#225;ndose para todos los efectos legales como una
+nueva operaci&#243;n de tratamiento.
+     La cesi&#243;n de datos deber&#225; constar por escrito o a
+trav&#233;s de cualquier medio electr&#243;nico id&#243;neo. En ella se
+deber&#225; individualizar a las partes, los datos que son
+objeto de la cesi&#243;n, las finalidades previstas para el
+tratamiento y los dem&#225;s antecedentes o estipulaciones que
+acuerden el cedente y el cesionario.
+     El tratamiento de los datos personales cedidos deber&#225;
+realizarse por el cesionario de conformidad a las
+finalidades establecidas en el contrato de cesi&#243;n. 
+     Una vez perfeccionada la cesi&#243;n, el cesionario
+adquiere la condici&#243;n de responsable de datos para todos
+los efectos legales. El cedente, por su parte, tambi&#233;n
+mantiene la calidad de responsable de datos, respecto de las
+operaciones de tratamiento que contin&#250;e realizando.
+     Si se verifica una cesi&#243;n de datos sin contar con el
+consentimiento del titular, siendo &#233;ste necesario, la
+cesi&#243;n ser&#225; nula, debiendo el cesionario suprimir todos
+los datos recibidos, sin perjuicio de las responsabilidades
+legales que correspondan.
+     
+     Art&#237;culo 15 bis.- Tratamiento de datos a trav&#233;s de un
+tercero mandatario o encargado. El responsable puede
+efectuar el tratamiento de datos en forma directa o a
+trav&#233;s de un tercero mandatario o encargado. En este
+&#250;ltimo caso, el tercero mandatario o encargado realiza el
+tratamiento de datos personales conforme al encargo y a las
+instrucciones que le imparta el responsable, qued&#225;ndole
+prohibido su tratamiento para un objeto distinto del
+convenido con el responsable, as&#237; como su cesi&#243;n o entrega
+en los casos en que el responsable no lo haya autorizado de
+manera expresa y espec&#237;ficamente para cumplir con el objeto
+del encargo. 
+     Si el tercero mandatario o encargado trata los datos
+con un objeto distinto del encargo convenido o los cede o
+entrega sin haber sido autorizado en los t&#233;rminos
+dispuestos en el inciso anterior, se le considerar&#225; como
+responsable de datos para todos los efectos legales,
+debiendo responder personalmente por las infracciones en que
+incurra y solidariamente con el responsable de datos por los
+da&#241;os ocasionados, sin perjuicio de las responsabilidades
+contractuales que le correspondan frente al mandante o
+responsable de datos.
+     El tratamiento de datos a trav&#233;s de un tercero
+mandatario o encargado se regir&#225; por el contrato celebrado
+entre el responsable y el encargado, con arreglo a la
+legislaci&#243;n vigente. En el contrato se deber&#225; establecer
+el objeto del encargo, la duraci&#243;n del mismo, la finalidad
+del tratamiento, el tipo de datos personales tratados, las
+categor&#237;as de titulares a quienes conciernen los datos, y
+los derechos y obligaciones de las partes. El encargado no
+podr&#225; delegar parte o la totalidad del encargo, salvo que
+conste una autorizaci&#243;n espec&#237;fica y por escrito del
+responsable. El encargado que delegue a otro encargado parte
+o la totalidad del encargo, continuar&#225; siendo
+solidariamente responsable sobre dicho encargo y no podr&#225;
+eximirse de responsabilidad argumentando que ha delegado el
+tratamiento. La Agencia pondr&#225; a disposici&#243;n del p&#250;blico
+modelos tipo de contratos en su p&#225;gina web.
+     El tercero mandatario o encargado deber&#225; cumplir con
+lo dispuesto en los art&#237;culos 14 bis y 14 quinquies. La
+diferenciaci&#243;n de est&#225;ndares de cumplimiento establecida
+en el inciso primero del art&#237;culo 14 septies tambi&#233;n ser&#225;
+aplicable al tercero mandatario o encargado. Trat&#225;ndose de
+una vulneraci&#243;n a las medidas de seguridad, el tercero o
+mandatario deber&#225; reportar este hecho al responsable.
+     Cumplida la prestaci&#243;n del servicio de tratamiento por
+parte del tercero mandatario o encargado, los datos que
+obran en su poder deben ser suprimidos o devueltos al
+responsable de datos, seg&#250;n corresponda. 
+     
+     Art&#237;culo 15 ter.- Evaluaci&#243;n de impacto en
+protecci&#243;n de datos personales. Cuando sea probable que un
+tipo de tratamiento, por su naturaleza, alcance, contexto,
+tecnolog&#237;a utilizada o fines, pueda producir un alto riesgo
+para los derechos de las personas titulares de los datos
+personales, el responsable del tratamiento deber&#225; realizar,
+previo al inicio de las operaciones del tratamiento, una
+evaluaci&#243;n del impacto en protecci&#243;n de datos personales.
+     La evaluaci&#243;n de impacto se requerir&#225; siempre en
+casos de:
+     
+     a) Evaluaci&#243;n sistem&#225;tica y exhaustiva de aspectos
+personales de los titulares de datos, basadas en tratamiento
+o decisiones automatizadas, como la elaboraci&#243;n de
+perfiles, y que produzcan en ellos efectos jur&#237;dicos
+significativos.
+     b) Tratamiento masivo de datos o a gran escala.
+     c) Tratamiento que implique observaci&#243;n o monitoreo
+sistem&#225;tico de una zona de acceso p&#250;blico.
+     d) Tratamiento de datos sensibles y especialmente
+protegidos, en las hip&#243;tesis de excepci&#243;n del
+consentimiento.
+     
+     La Agencia de Protecci&#243;n de Datos Personales
+establecer&#225; y publicar&#225; una lista orientativa de los tipos
+de operaciones de tratamiento que requieran o no una
+evaluaci&#243;n de impacto relativa a la protecci&#243;n de datos
+personales. La Agencia tambi&#233;n establecer&#225; las
+orientaciones m&#237;nimas para realizar esta evaluaci&#243;n,
+considerando a lo menos en dichos criterios, la descripci&#243;n
+de las operaciones de tratamiento, su finalidad, la
+evaluaci&#243;n de la necesidad y la proporcionalidad con
+respecto a su finalidad, la evaluaci&#243;n de los riesgos y
+medidas de mitigaci&#243;n.
+     Los responsables podr&#225;n consultar a la Agencia de
+Protecci&#243;n de Datos Personales, cuando en virtud del
+resultado de la evaluaci&#243;n, el tratamiento demuestre ser de
+alto riesgo a efectos de obtener recomendaciones de parte de
+dicha entidad.
+     
+     P&#225;rrafo Segundo
+     Del tratamiento de los datos personales sensibles
+     
+     Art&#237;culo 16.- Regla general para el tratamiento de
+datos personales sensibles. El tratamiento de los datos
+personales sensibles s&#243;lo puede realizarse cuando el
+titular a quien conciernen estos datos manifiesta su
+consentimiento en forma expresa, otorgado a trav&#233;s de una
+declaraci&#243;n escrita, verbal o por un medio tecnol&#243;gico
+equivalente. 
+     Sin perjuicio de lo anterior, es l&#237;cito el tratamiento
+de datos personales sensibles, sin el consentimiento del
+titular, en los siguientes casos: 
+     
+     a) Cuando el tratamiento se refiere a datos personales
+sensibles que el titular ha hecho manifiestamente p&#250;blicos
+y su tratamiento est&#233; relacionado con los fines para los
+cuales fueron publicados.
+     b) Cuando el tratamiento se basa en un inter&#233;s
+leg&#237;timo realizado por una persona jur&#237;dica de derecho
+p&#250;blico o de derecho privado que no persiga fines de lucro
+y se cumplan las siguientes condiciones: 
+     
+     i. Su finalidad sea pol&#237;tica, filos&#243;fica, religiosa,
+cultural, sindical o gremial;
+     ii. El tratamiento que realice se refiera
+exclusivamente a sus miembros o afiliados; 
+     iii. El tratamiento de datos tenga por objeto cumplir
+las finalidades espec&#237;ficas de la instituci&#243;n;
+     iv. La persona jur&#237;dica otorgue las garant&#237;as
+necesarias para evitar filtraciones, sustracciones o un uso
+o tratamiento no autorizado de los datos, y 
+     v. Los datos personales no se comuniquen o cedan a
+terceros. 
+     
+     Cumpli&#233;ndose estas condiciones, la persona jur&#237;dica
+no requerir&#225; el consentimiento del titular para tratar sus
+datos, incluidos los datos personales sensibles. En caso de
+duda o controversia administrativa o judicial, el
+responsable de datos deber&#225; acreditar su concurrencia.
+     Cuando un integrante de la persona jur&#237;dica deje de
+pertenecer a ella, sus datos deber&#225;n ser anonimizados o
+suprimidos.
+     
+     c) Cuando el tratamiento de los datos personales del
+titular resulte indispensable para salvaguardar la vida,
+salud o integridad f&#237;sica o ps&#237;quica del titular o de otra
+persona o, cuando el titular se encuentre f&#237;sica o
+jur&#237;dicamente impedido de otorgar su consentimiento. Una
+vez que cese el impedimento, el responsable debe informar
+detalladamente al titular los datos que fueron tratados y
+las operaciones espec&#237;ficas de tratamiento que fueron
+realizadas.
+     d) Cuando el tratamiento de los datos sea necesario
+para la formulaci&#243;n, ejercicio o defensa de un derecho ante
+los tribunales de justicia o un &#243;rgano administrativo.
+     e) Cuando el tratamiento de datos sea necesario para el
+ejercicio de derechos y el cumplimiento de obligaciones del
+responsable o del titular de datos, en el &#225;mbito laboral o
+de seguridad social, y se realice en el marco de la ley.
+     f) Cuando el tratamiento de datos personales sensibles
+lo autorice o mandate expresamente la ley. 
+     
+     Las excepciones para tratar datos sin consentimiento,
+mencionadas en este art&#237;culo, se entienden aplicables al
+tratamiento de datos que no revisten el car&#225;cter de datos
+sensibles.
+     
+     Art&#237;culo 16 bis.- Datos personales sensibles relativos
+a la salud y al perfil biol&#243;gico humano. Si se cumple lo
+dispuesto en el inciso primero del art&#237;culo 16, los datos
+personales relativos a la salud del titular, as&#237; como
+aqu&#233;llos relativos al perfil biol&#243;gico del titular, tales
+como los datos gen&#233;ticos, prote&#243;micos o metab&#243;licos,
+s&#243;lo podr&#225;n ser tratados para los fines previstos por las
+leyes especiales en materia sanitaria.
+     S&#243;lo se podr&#225;n tratar los datos personales sensibles
+relativos a la salud del titular y a su perfil biol&#243;gico,
+sin contar con su consentimiento, respetando los principios
+y reglas establecidos en la presente ley, en los siguientes
+casos:
+     
+     a) Cuando &#233;ste resulte indispensable para salvaguardar
+la vida o integridad f&#237;sica o ps&#237;quica del titular o de
+otra persona o, cuando el titular se encuentre f&#237;sica o
+jur&#237;dicamente impedido de otorgar su consentimiento. Una
+vez que cese el impedimento, el responsable debe informar
+detalladamente al titular los datos que fueron tratados y
+las operaciones espec&#237;ficas de tratamiento que fueron
+realizadas. 
+     b) En casos de alerta sanitaria legalmente decretada.
+     c) Cuando sean utilizados con fines hist&#243;ricos,
+estad&#237;sticos o cient&#237;ficos, para estudios o
+investigaciones que atiendan fines de inter&#233;s p&#250;blico o
+vayan en beneficio de la salud humana, o para el desarrollo
+de productos o insumos m&#233;dicos que no podr&#237;an
+desarrollarse de otra manera. Los resultados de los estudios
+e investigaciones cient&#237;ficas que utilicen datos personales
+relativos a la salud o al perfil biol&#243;gico pueden ser
+publicados o difundidos libremente. Para ello deber&#225;n
+previamente anonimizarse los datos que se publiquen. 
+     d) Cuando el tratamiento de los datos sea necesario
+para la formulaci&#243;n, ejercicio o defensa de un derecho ante
+los tribunales de justicia o ante un &#243;rgano administrativo.
+     e) Cuando el tratamiento sea necesario para fines de
+medicina preventiva o laboral, evaluaci&#243;n de la capacidad
+laboral del trabajador, diagn&#243;stico m&#233;dico, prestaci&#243;n de
+asistencia o tratamiento de tipo sanitario o social, o
+gesti&#243;n de sistemas y servicios de asistencia sanitaria y
+social.
+     f) Cuando la ley as&#237; lo permita e indique expresamente
+la finalidad que deber&#225; tener dicho tratamiento.
+     
+     Se proh&#237;be el tratamiento y la cesi&#243;n de los datos
+relativos a la salud y al perfil biol&#243;gico de un titular y
+las muestras biol&#243;gicas asociadas a una persona
+identificada o identificable, incluido el almacenamiento del
+material biol&#243;gico, cuando los datos o muestras han sido
+recolectados en el &#225;mbito laboral, educativo, deportivo,
+social, de seguros, de seguridad o identificaci&#243;n, salvo
+que la ley expresamente autorice su tratamiento en casos
+calificados y que se refiera a alguno de los casos
+mencionados en este art&#237;culo. 
+     Las excepciones para tratar datos sin el consentimiento
+mencionado en este art&#237;culo se entienden aplicables al
+tratamiento de datos que no revisten el car&#225;cter especial a
+que se refiere este precepto.
+     
+     Art&#237;culo 16 ter.- Datos personales biom&#233;tricos. Son
+datos personales biom&#233;tricos aquellos obtenidos a partir de
+un tratamiento t&#233;cnico espec&#237;fico, relativos a las
+caracter&#237;sticas f&#237;sicas, fisiol&#243;gicas o conductuales de
+una persona que permitan o confirmen la identificaci&#243;n
+&#250;nica de ella, tales como la huella digital, el iris, los
+rasgos de la mano o faciales y la voz.
+     S&#243;lo podr&#225;n tratarse estos datos cuando se cumpliere
+con lo dispuesto en el inciso primero del art&#237;culo 16 y
+siempre que el responsable proporcione al titular la
+siguiente informaci&#243;n espec&#237;fica:
+     
+     a) La identificaci&#243;n del sistema biom&#233;trico usado; 
+     b) La finalidad espec&#237;fica para la cual los datos
+recolectados por el sistema biom&#233;trico ser&#225;n utilizados;
+     c) El per&#237;odo durante el cual los datos biom&#233;tricos
+ser&#225;n utilizados, y 
+     d) La forma en que el titular puede ejercer sus
+derechos.
+     
+     Los datos personales biom&#233;tricos podr&#225;n tratarse sin
+consentimiento s&#243;lo en los casos se&#241;alados en el inciso
+segundo del art&#237;culo 16 bis.
+     
+     P&#225;rrafo Tercero
+     Del tratamiento de categor&#237;as especiales de datos
+personales
+     
+     Art&#237;culo 16 qu&#225;ter.- Datos personales relativos a los
+ni&#241;os, ni&#241;as y adolescentes. El tratamiento de los datos
+personales que conciernen a los ni&#241;os, ni&#241;as y
+adolescentes, s&#243;lo puede realizarse atendiendo al inter&#233;s
+superior de &#233;stos y al respeto de su autonom&#237;a progresiva.
+     Cumpli&#233;ndose la exigencia establecida en el inciso
+anterior, para tratar los datos personales de los ni&#241;os y
+ni&#241;as se requiere el consentimiento otorgado por sus padres
+o representantes legales o por quien tiene a su cargo el
+cuidado personal del ni&#241;o o ni&#241;a, salvo que expresamente
+lo autorice o mandate la ley. 
+     Los datos personales de los adolescentes se podr&#225;n
+tratar de acuerdo a las normas de autorizaci&#243;n previstas en
+esta ley para los adultos, salvo lo dispuesto en el inciso
+siguiente. 
+     Los datos personales sensibles de los adolescentes
+menores de diecis&#233;is a&#241;os s&#243;lo se podr&#225;n tratar con el
+consentimiento otorgado por sus padres o representantes
+legales o quien tiene a su cargo el cuidado personal del
+menor, salvo que expresamente lo autorice o mandate la ley. 
+     Para los efectos de esta ley, se consideran ni&#241;os o
+ni&#241;as a los menores de catorce a&#241;os, y adolescentes, a los
+mayores de catorce y menores de dieciocho a&#241;os.
+     Constituye una obligaci&#243;n especial de los
+establecimientos educacionales y de todas las personas o
+entidades p&#250;blicas o privadas que traten o administren
+datos personales de ni&#241;os, ni&#241;as y adolescentes, incluidos
+quienes ejercen su cuidado personal, velar por el uso
+l&#237;cito y la protecci&#243;n de la informaci&#243;n personal que
+concierne a los ni&#241;os, ni&#241;as y adolescentes. 
+     
+     Art&#237;culo 16 quinquies.- Datos personales con fines
+hist&#243;ricos, estad&#237;sticos, cient&#237;ficos y de estudios o
+investigaciones. Se entiende que existe un inter&#233;s
+leg&#237;timo en el tratamiento de datos personales que realicen
+las personas naturales o jur&#237;dicas, p&#250;blicas o privadas,
+incluidos los organismos p&#250;blicos, cuando el tratamiento se
+realiza exclusivamente con fines hist&#243;ricos, estad&#237;sticos,
+cient&#237;ficos y para estudios o investigaciones, todos los
+cuales deben atender fines de inter&#233;s p&#250;blico.
+     Los responsables de datos deber&#225;n adoptar y acreditar
+que han cumplido con todas las medidas de calidad y
+seguridad necesarias para resguardar que los datos se
+utilicen exclusivamente para tales fines. En el caso de los
+datos personales sensibles, el responsable debe identificar
+los riesgos posibles e implementar las medidas tendientes a
+su reducci&#243;n o mitigaci&#243;n. Cumplidas estas condiciones, el
+responsable podr&#225; almacenar y utilizar los datos por un
+per&#237;odo indeterminado de tiempo.
+     Los responsables que hayan tratado datos personales
+exclusivamente con estas finalidades podr&#225;n efectuar
+publicaciones con los resultados y an&#225;lisis obtenidos,
+debiendo previamente adoptar las medidas necesarias para
+anonimizar los datos que se publiquen.
+     
+     Art&#237;culo 16 sexies.- Datos de geolocalizaci&#243;n. El
+tratamiento de los datos personales de geolocalizaci&#243;n del
+titular se podr&#225; realizar bajo las mismas fuentes de
+licitud establecidas en los art&#237;culos 12 y 13.
+     El titular de datos deber&#225; ser informado de manera
+clara, suficiente y oportuna, del tipo de datos de
+geolocalizaci&#243;n que ser&#225;n tratados, de la finalidad y
+duraci&#243;n del tratamiento y si los datos se comunicar&#225;n o
+ceder&#225;n a un tercero para la prestaci&#243;n de un servicio con
+valor a&#241;adido.".
+     
+     9) En el art&#237;culo 17:
+     
+     a) Reempl&#225;zase la frase "bancos de datos" por la
+expresi&#243;n "bases de datos", todas las veces que aparece en
+su texto.
+     b) En el inciso primero:
+     
+     i. Agr&#233;gase, en su encabezamiento, el siguiente
+ep&#237;grafe:
+     
+     "Regla general del tratamiento de datos relativos a
+obligaciones de car&#225;cter financiero, bancario o
+comercial.".
+     
+     ii. Interc&#225;lase, entre el art&#237;culo "el" y la palabra
+"incumplimiento", la expresi&#243;n "cumplimiento o".
+     
+     c) Incorp&#243;rase el siguiente inciso octavo, pasando el
+actual a ser inciso noveno:
+     
+     "Los responsables deber&#225;n suprimir de sus registros o
+bases de datos, toda aquella informaci&#243;n personal relativa
+a obligaciones prescritas, sin necesidad de mediar
+solicitud, orden judicial, ni instrucci&#243;n de la autoridad
+de protecci&#243;n de datos.".
+     
+     10) Agr&#233;gase el siguiente ep&#237;grafe, nuevo, en el
+inciso primero del art&#237;culo 18: "Limitaci&#243;n del
+tratamiento de datos para obligaciones financieras,
+bancarias o comerciales.".
+     11) En el art&#237;culo 19:
+     
+     a) En el inciso primero:
+     
+     i. Agr&#233;gase el siguiente ep&#237;grafe, nuevo: "Efectos de
+la extinci&#243;n de la obligaci&#243;n econ&#243;mica, bancaria o
+comercial.".
+     ii. Reempl&#225;zase la referencia al "art&#237;culo 12" por
+otra al "art&#237;culo 4&#176;".
+     
+     b) Reempl&#225;zanse, en el inciso segundo, la frase "o
+banco de datos", por la expresi&#243;n "o base de datos", y la
+frase "al banco de datos" por "a la base de datos".
+     c) Sustit&#250;yese, en el inciso final, la frase "de
+acuerdo a lo previsto en el art&#237;culo 16", por la siguiente:
+"de conformidad a lo dispuesto en el T&#237;tulo VII de esta
+ley".
+
+     12) Reempl&#225;zase el T&#237;tulo IV por el siguiente:
+     
+     "T&#237;tulo IV
+     Del tratamiento de datos personales por los &#243;rganos
+p&#250;blicos
+     
+     Art&#237;culo 20.- Regla general del tratamiento de datos
+por &#243;rganos p&#250;blicos. Es l&#237;cito el tratamiento de los
+datos personales que efect&#250;an los &#243;rganos p&#250;blicos cuando
+se realiza para el cumplimiento de sus funciones legales,
+dentro del &#225;mbito de sus competencias, de conformidad a las
+normas establecidas en la ley, y a las disposiciones
+previstas en este T&#237;tulo. En esas condiciones, los &#243;rganos
+p&#250;blicos act&#250;an como responsables de datos y no requieren
+el consentimiento del titular para tratar sus datos
+personales.
+     
+     Art&#237;culo 21.- Principios y normas aplicables al
+tratamiento de datos de los &#243;rganos p&#250;blicos. El
+tratamiento de los datos personales que realicen los
+&#243;rganos p&#250;blicos se rige por los principios establecidos
+en el art&#237;culo 3&#176; de esta ley y los principios generales
+que rigen la Administraci&#243;n del Estado, especialmente los
+principios de coordinaci&#243;n, probidad y eficiencia.
+     En virtud del principio de coordinaci&#243;n los organismos
+p&#250;blicos deben alcanzar un alto grado de interoperabilidad
+y coherencia, de modo de evitar contradicciones en la
+informaci&#243;n almacenada y reiteraci&#243;n de requerimientos de
+informaci&#243;n o documentos a los titulares de datos. Conforme
+al principio de eficiencia se debe evitar la duplicaci&#243;n de
+procedimientos y tr&#225;mites entre los organismos p&#250;blicos y
+entre &#233;stos y los titulares de la informaci&#243;n. 
+     Sin perjuicio de las dem&#225;s normas establecidas en el
+presente T&#237;tulo, son aplicables al tratamiento de datos que
+efect&#250;en los &#243;rganos p&#250;blicos, las disposiciones
+establecidas en los art&#237;culos 2&#176;, 14, 14 bis, 14 ter, 14
+qu&#225;ter, 14 quinquies, 14 sexies y 15 bis, los art&#237;culos de
+los P&#225;rrafos Segundo y Tercero del T&#237;tulo II y los
+art&#237;culos del T&#237;tulo V y del T&#237;tulo VII de esta ley.
+Asimismo, le son aplicables los art&#237;culos 4&#176;, 5&#176;, 6&#176;,
+7&#176; y 8&#176;, en conformidad a lo dispuesto en el art&#237;culo 23.
+     
+     Art&#237;culo 22.- Comunicaci&#243;n o cesi&#243;n de datos por un
+&#243;rgano p&#250;blico. Los &#243;rganos p&#250;blicos est&#225;n facultados
+para comunicar o ceder datos personales espec&#237;ficos, o todo
+o parte de sus bases de datos o conjuntos de datos, a otros
+&#243;rganos p&#250;blicos, siempre que la comunicaci&#243;n o cesi&#243;n
+de los datos resulte necesaria para el cumplimiento de sus
+funciones legales y ambos &#243;rganos act&#250;en dentro del
+&#225;mbito de sus competencias. La comunicaci&#243;n o cesi&#243;n de
+los datos se debe realizar para un tratamiento espec&#237;fico y
+el &#243;rgano p&#250;blico receptor no los podr&#225; utilizar para
+otros fines. 
+     Asimismo, se podr&#225; comunicar o ceder datos o bases de
+datos personales entre organismos p&#250;blicos, exclusivamente
+cuando ellos se requieran para un tratamiento que tenga por
+finalidad otorgar beneficios al titular, evitar duplicidad
+de tr&#225;mites para los ciudadanos o reiteraci&#243;n de
+requerimientos de informaci&#243;n o documentos para los mismos
+titulares.
+     El &#243;rgano p&#250;blico receptor de los datos s&#243;lo puede
+conservarlos por el tiempo necesario para efectuar el
+tratamiento espec&#237;fico para el cual fueron requeridos,
+luego de lo cual deber&#225;n ser suprimidos o anonimizados.
+Estos datos se podr&#225;n almacenar por un tiempo mayor cuando
+el &#243;rgano p&#250;blico requiera atender reclamaciones o
+impugnaciones, realizar actividades de control o
+seguimiento, o sirvan para dar garant&#237;a de las decisiones
+adoptadas.
+     Para los efectos de poder comunicar o ceder datos
+personales a personas o entidades privadas, los organismos
+p&#250;blicos deber&#225;n contar con el consentimiento del titular,
+salvo que la comunicaci&#243;n o cesi&#243;n de datos sea necesaria
+para cumplir las funciones del organismo p&#250;blico en materia
+de fiscalizaci&#243;n o inspecci&#243;n. 
+     Cuando se trate de comunicar o ceder datos personales
+en virtud de una solicitud de acceso a la informaci&#243;n
+formulada con arreglo a lo establecido en el art&#237;culo 10 de
+la ley N&#176; 20.285, los organismos p&#250;</Texto>
+      <Metadatos>
+        <NombreParte presente="si">primero</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527467">
+      <Texto>     Art&#237;culo segundo.- Supr&#237;mese el literal m) del
+art&#237;culo 33 del art&#237;culo primero de la ley N&#176; 20.285,
+sobre acceso a la informaci&#243;n p&#250;blica.   </Texto>
+      <Metadatos>
+        <NombreParte presente="si">segundo</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527468">
+      <Texto>     Art&#237;culo tercero.- Supr&#237;mese el art&#237;culo 15 bis de
+la ley N&#176; 19.496, que establece normas sobre protecci&#243;n de
+los derechos de los consumidores.     </Texto>
+      <Metadatos>
+        <NombreParte presente="si">tercero</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="T&#237;tulo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527469">
+      <Texto>     DISPOSICIONES TRANSITORIAS</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527470">
+          <Texto>     Art&#237;culo primero.- Las modificaciones a las leyes N&#176;
+19.628, sobre protecci&#243;n de la vida privada; N&#176; 20.285,
+sobre acceso a la informaci&#243;n p&#250;blica, y N&#176; 19.496, que
+establece normas sobre protecci&#243;n de los derechos de los
+consumidores, contenidas en los art&#237;culos primero, segundo
+y tercero permanentes de la presente ley, respectivamente,
+entrar&#225;n en vigencia el d&#237;a primero del mes vig&#233;simo
+cuarto posterior a la publicaci&#243;n de esta ley en el Diario
+Oficial.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527471">
+          <Texto>     Art&#237;culo segundo.- Los reglamentos referidos en la
+presente ley deber&#225;n dictarse dentro de los seis meses
+siguientes a la publicaci&#243;n de esta ley en el Diario
+Oficial. El reglamento al que se refiere el art&#237;culo 26
+deber&#225; dictarse dentro de los seis meses desde la entrada
+en vigencia de la presente ley, una vez evacuado el
+respectivo informe de la Agencia.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527472">
+          <Texto>     Art&#237;culo tercero.- Dentro de los sesenta d&#237;as
+anteriores a la entrada en vigencia de las modificaciones a
+la ley N&#176; 19.628, contenidas en el art&#237;culo primero de la
+presente ley, el Servicio de Registro Civil e
+Identificaci&#243;n deber&#225; eliminar el registro de los bancos
+de datos personales contemplado en el actual art&#237;culo 22 de
+la ley N&#176; 19.628.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-05" derogado="no derogado" idParte="10527473">
+          <Texto>     Art&#237;culo cuarto.- La primera designaci&#243;n de los
+consejeros del Consejo Directivo de la Agencia de
+Protecci&#243;n de Datos Personales se har&#225; seis meses antes de
+la entrada en vigencia de la presente ley. El Presidente y
+el Vicepresidente del Consejo Directivo deber&#225;n nombrarse
+en la primera sesi&#243;n que el Consejo celebre.
+     En la propuesta que se haga al Senado para la primera
+designaci&#243;n, se identificar&#225; a un consejero que durar&#225;
+dos a&#241;os en su cargo, a un consejero que durar&#225; cuatro
+a&#241;os en su cargo y a un consejero que durar&#225; seis a&#241;os en
+su cargo. La mencionada propuesta se har&#225; en un solo acto,
+en el per&#237;odo comprendido entre los 80 y los 60 d&#237;as
+anteriores al plazo establecido en el inciso primero de este
+art&#237;culo. El Senado deber&#225; pronunciarse respecto de la
+propuesta como una unidad. En caso de que el Senado no se
+pronuncie sobre la propuesta del Presidente de la Rep&#250;blica
+antes del vencimiento del plazo se&#241;alado en el inciso
+primero, dicha propuesta se entender&#225; aceptada sin m&#225;s
+tr&#225;mite.
+     Sin perjuicio de la dictaci&#243;n del decreto supremo que
+formalice el acuerdo del Senado, o del que deje constancia
+de la aprobaci&#243;n de la propuesta del Presidente de la
+Rep&#250;blica por omisi&#243;n de pronunciamiento del Senado, los
+consejeros se entender&#225;n nombrados desde la adopci&#243;n del
+acuerdo del Senado o desde el vencimiento del plazo al que
+se refiere el inciso anterior. Mientras la presente ley no
+entre en vigencia, el Consejo s&#243;lo podr&#225; ejercer las
+funciones que establecen los literales a), b), g) y h) del
+art&#237;culo 30 bis, y las que establece el art&#237;culo 30 ter,
+ambos del art&#237;culo primero, sin perjuicio de que cualquier
+instrucci&#243;n o norma general que dicte s&#243;lo tendr&#225; fuerza
+obligatoria a partir de la entrada en vigencia de la
+presente ley.
+     Los estatutos de la Agencia deber&#225;n ser propuestos al
+Presidente de la Rep&#250;blica, de conformidad al art&#237;culo 30
+octies de la presente ley, dentro de los noventa d&#237;as
+corridos siguientes a su nombramiento.
+     No podr&#225;n ser designados como miembros del primer
+Consejo Directivo de la Agencia de Protecci&#243;n de Datos
+Personales los integrantes de la comisi&#243;n asesora
+ministerial denominada "Comisi&#243;n Asesora Ministerial para
+la implementaci&#243;n de la nueva ley de Protecci&#243;n de Datos
+Personales", creada por el decreto N&#176; 12, de 2025, del
+Ministerio Secretar&#237;a General de la Presidencia.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">cuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527474">
+          <Texto>     Art&#237;culo quinto.- Los &#243;rganos p&#250;blicos que
+establezcan un encargado de prevenci&#243;n o delegado de
+protecci&#243;n de datos personales deber&#225;n designar para ello
+a un funcionario de la dotaci&#243;n vigente del respectivo
+organismo.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">quinto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527475">
+          <Texto>     Art&#237;culo sexto.- Durante los primeros doce meses luego
+de la entrada en vigencia de esta ley, en los casos en que
+proceda alguna sanci&#243;n para empresas calificadas como de
+menor tama&#241;o, de acuerdo a las categor&#237;as establecidas en
+el art&#237;culo segundo de la ley N&#176; 20.416, que fija normas
+especiales para aqu&#233;llas, la Agencia podr&#225; aplicar como
+sanci&#243;n una amonestaci&#243;n por escrito, se&#241;alando a los
+responsables de datos la gravedad de la infracci&#243;n, la
+conducta infractora, y las circunstancias atenuantes y
+agravantes de responsabilidad, si proceden. A esta
+amonestaci&#243;n ser&#225; aplicable el deber de registro seg&#250;n lo
+dispone el art&#237;culo 39 de la presente ley.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">sexto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527476">
+          <Texto>     Art&#237;culo s&#233;ptimo.- Las instituciones y organismos
+se&#241;alados en el art&#237;culo 54 deber&#225;n dictar las
+pol&#237;ticas, normas e instrucciones a las que se refiere su
+inciso segundo, dentro de los dieciocho meses siguientes a
+la publicaci&#243;n de la presente ley en el Diario Oficial.
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">s&#233;ptimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-13" derogado="no derogado" idParte="10527477">
+          <Texto>     Art&#237;culo octavo.- El mayor gasto fiscal que represente
+la aplicaci&#243;n de esta ley, durante su primer a&#241;o
+presupuestario de vigencia, se financiar&#225; con los recursos
+que se contemplen en el presupuesto del Ministerio de
+Econom&#237;a, Fomento y Turismo y, en lo que faltare, con cargo
+a la Partida Presupuestaria del Tesoro P&#250;blico del a&#241;o
+presupuestario correspondiente. En los a&#241;os siguientes
+estar&#225; considerado en la Ley de Presupuestos del Sector
+P&#250;blico.".
+     </Texto>
+          <Metadatos>
+            <NombreParte presente="si">octavo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2024-12-13" derogado="no derogado">
+    <Texto>     Habi&#233;ndose cumplido con lo establecido en el N&#176; 1 del
+Art&#237;culo 93 de la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica
+y por cuanto he tenido a bien aprobarlo y sancionarlo; por
+tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la
+Rep&#250;blica.
+     
+     Santiago, 25 de noviembre de 2024.- GABRIEL BORIC FONT,
+Presidente de la Rep&#250;blica.- &#193;lvaro Elizalde Soto,
+Ministro Secretario General de la Presidencia.- Mario Marcel
+Cullell, Ministro de Hacienda.- Nicol&#225;s Grau Veloso,
+Ministro de Econom&#237;a, Fomento y Turismo.- Jaime Gajardo
+Falc&#243;n, Ministro de Justicia y Derechos Humanos.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda
+Atte. a Ud., Macarena Lobos Palacio, Subsecretaria General
+de la Presidencia.     </Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="2024-12-13" derogado="no derogado" idParte="10527479" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>Proyecto que regula la protecci&#243;n y el tratamiento de los datos personales y crea la Agencia de Protecci&#243;n de Datos Personales, correspondiente a los Boletines N&#176;s. 11.092-07 y 11.144-07, refundidos</Titulo>
+        
+      </Metadatos>
+      <Texto>
+     Tribunal Constitucional
+     
+     Proyecto que regula la protecci&#243;n y el tratamiento de
+los datos personales y crea la Agencia de Protecci&#243;n de
+Datos Personales, correspondiente a los Boletines N&#176;s.
+11.092-07 y 11.144-07, refundidos
+     
+     La Secretaria del Tribunal Constitucional, quien
+suscribe, certifica que el Honorable Senado envi&#243; el
+proyecto de ley enunciado en el rubro, aprobado por el
+Congreso Nacional, a fin de que este Tribunal, ejerciera el
+control de constitucionalidad respecto de las disposiciones
+contenidas en el inciso primero del art&#237;culo 30 sexies; en
+el art&#237;culo 43; en el inciso sexto del art&#237;culo 44; en el
+inciso primero del art&#237;culo 45 y en los art&#237;culos 54 y 55,
+todos contenidos en el numeral 14 del art&#237;culo primero del
+proyecto remitido; y por sentencia de 14 de noviembre de
+2024, en los autos Rol N&#176; 15.733-24-CPR.
+     
+     Se resuelve:
+     
+     1) Que las disposiciones contenidas en el art&#237;culo 30;
+en las letras a), b), c) y d) del art&#237;culo 30 ter; en la
+primera parte del inciso primero del art&#237;culo 30 sexies; en
+los incisos primero y segundo del art&#237;culo 32; en la
+primera parte del art&#237;culo 43, hasta la frase "a elecci&#243;n
+de este &#250;ltimo"; en el art&#237;culo 54, s&#243;lo en cuanto
+menciona al Tribunal Constitucional, al Tribunal Calificador
+de Elecciones y a la Contralor&#237;a General de la Rep&#250;blica,
+y en el inciso segundo del art&#237;culo 55, con exclusi&#243;n de
+la frase final ", de acuerdo al procedimiento dispuesto en
+el art&#237;culo 43 de esta ley.", todos contenidos en el
+numeral 14 del art&#237;culo primero, y la disposici&#243;n
+contenida en el art&#237;culo segundo del proyecto de ley
+remitido por el Congreso Nacional, son propias de Ley
+Org&#225;nica Constitucional y se encuentran ajustadas a la
+Constituci&#243;n Pol&#237;tica de la Rep&#250;blica.
+     2) Que la disposici&#243;n contenida en el inciso s&#233;ptimo
+del art&#237;culo 32, contenido en el numeral 14 del art&#237;culo
+primero del proyecto de ley remitido, es propia de Ley
+Org&#225;nica Constitucional en el entendido que la limitaci&#243;n
+a las facultades que se confieren a la Contralor&#237;a General
+de la Rep&#250;blica, deja a salvo el control amplio de
+legalidad que confiere a este &#243;rgano el art&#237;culo 98 inciso
+primero de la Carta Fundamental, en lo que fuere procedente.
+     3) Que este Tribunal Constitucional no emite
+pronunciamiento, en examen preventivo de constitucionalidad,
+respecto de las disposiciones contenidas en las letras e) y
+f) del art&#237;culo 30 ter; en la segunda parte del inciso
+primero del art&#237;culo 30 sexies; en la segunda parte del
+art&#237;culo 43, desde la frase "a elecci&#243;n de este &#250;ltimo";
+en el inciso sexto del art&#237;culo 44; en el inciso primero
+del art&#237;culo 45; en el art&#237;culo 54, en cuanto se refiere
+al Congreso Nacional, al Poder Judicial, al Ministerio
+P&#250;blico, al Banco Central, al Servicio Electoral, a la
+Justicia Electoral -en cuanto comprende a los Tribunales
+Electorales Regionales- y a los dem&#225;s tribunales creados
+por leyes especiales; y en los incisos primero, frase final
+del inciso segundo y tercero del art&#237;culo 55, todos
+contenidos en el numeral 14 del art&#237;culo primero del
+proyecto de ley remitido a control, por no versar sobre
+materias propias de Ley Org&#225;nica Constitucional.
+     
+     Santiago, de 14 noviembre de 2024.- Mar&#237;a Ang&#233;lica
+Barriga Meza, Tribunal Constitucional.</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>

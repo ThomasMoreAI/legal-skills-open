@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `general` · Practice: `general` · Skill language: en
 
-## Skills (492)
+## Skills (515)
 
 | Skill | What it does |
 |---|---|
@@ -22,6 +22,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Rom Zwoelftafelrecht In Heutiger Didaktik Ohne Scheinsic`](skills/029-zwoelftafelrecht-in-heutiger-didaktik-ohne-scheinsic/) | Für Rom Zwölftafelrecht in Heutiger Didaktik ohne Scheinsic: ordnet Norm, Beweislast und Gegenargument… |
 | [`Abwägung und Rationalität`](skills/abwaegung-transparenz-rationalitaet/) | Für Abwägung und Rationalität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Academic Bluebook Citation Skill`](skills/academic-bluebook/) | Citation formatting rules for law review articles using The Bluebook (21st ed.) academic style |
+| [`Justinian Tutor — Legal Education through Socratic AI Coaching`](skills/academy-justinian-tutor-sboghossian/) | Use when a law student, bar candidate, or junior lawyer needs legal education support through the… |
 | [`Rom 124 Actio Exercitoria Reederhaftung`](skills/actio-exercitoria-reederhaftung/) | Für Rom 124 Actio Exercitoria Reederhaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rom 125 Actio Institoria Prokuristenhaftung`](skills/actio-institoria-prokuristenhaftung/) | Für Rom 125 Actio Institoria Prokuristenhaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rom 115 Actio Pauliana Gläubigeranfechtung`](skills/actio-pauliana-glaeubigeranfechtung/) | Für Rom 115 Actio Pauliana Gläubigeranfechtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -75,6 +76,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Case Brief Generation`](skills/case-briefs/) | Generates structured case briefs from judicial opinions. Use when the user provides a court opinion and… |
 | [`CSV 사건 인덱스 (case-index)`](skills/case-index/) | JuriSupport CSV 사건 인덱스 - JuriSupport MCP를 쓰지 않는 사용자를 위한 가벼운 사건관리. _index.csv 한 파일을 source of truth로 사용해… |
 | [`Caseblocks`](skills/caseblocks/) | Caseblocks integration. Manage data, records, and automate workflows. Use when the user wants to… |
+| [`Check Relocation Documents`](skills/check-relocation-documents-pjt222/) | Verificar la completitud de documentos para cada paso burocrático de una reubicación UE/DACH, señalando… |
 | [`CIC-Canones gezielt erschließen`](skills/cic-canones-normenbibliothek/) | Erschließt einen konkret bezeichneten Canon des CIC mit amtlichem Textabgleich, Systemstelle… |
 | [`Citation extraction - find every citation before you check it`](skills/citation-extraction-en-matematicsolutions/) | Extracts the legal citations from an English-language text by pattern and rule, with no LLM in the… |
 | [`Citation Integrity Checker`](skills/citation-integrity-checker-rohasnagpal/) | Extracts every citation in a document — statute, case, rule, regulation, quotation, or cross-reference… |
@@ -112,6 +114,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Continuous Improvement Engine`](skills/continuous-improvement-engine-scott-margetts/) | Capture, structure, and recycle lessons from active and closed legal matters. Three modes: in-flight… |
 | [`Contract QA`](skills/contract-qa-legalquants/) | Use when the user has a contract loaded and asks a specific question about it — what a clause means… |
 | [`Non-Legal-Advice Disclaimer`](skills/conversation-disclaimer-sboghossian/) | Use to determine when, where, and in what form to append the non-legal-advice disclaimer to legal-AI… |
+| [`Intake — Power of Attorney`](skills/conversation-intake-power-of-attorney-sboghossian/) | Use when a user wants to draft a power of attorney (POA) and Claude must collect the identity, scope… |
 | [`cite2footnote`](skills/convert/) | Convert hyperlinked citations in a Word document (.docx) to Bluebook-formatted footnotes or endnotes.… |
 | [`CoQuill — Document Assembly Orchestrator`](skills/coquill/) | Document assembly tool. Matches user requests to docx/HTML templates, interviews the user for variable… |
 | [`Costing Estimator`](skills/costing-estimator-rohasnagpal/) | Build transparent, stage-based legal cost estimates and budgets with staffing, rates, hours… |
@@ -143,7 +146,11 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`DPA Art. 28 GDPR — Review, Drafting & Redlining`](skills/dpa-art28/) | Use this skill when the user needs to review, draft, or redline a Data Processing Agreement (DPA /… |
 | [`/draft`](skills/draft-anthropics/) | First draft of a common clinic document — practice-area templates (asylum applications, eviction… |
 | [`Bilingual Arabic-English Side-by-Side Drafting`](skills/draft-bilingual-ar-en-side-by-side-sboghossian/) | Use when a legal document must be drafted in both Arabic and English with parallel clause numbering and… |
+| [`Engagement Letter (Law Firm Retainer)`](skills/draft-engagement-letter-sboghossian/) | Use when drafting a law firm engagement letter (retainer agreement) establishing the terms of legal… |
 | [`Memo of Law (Legal Research Memorandum)`](skills/draft-memo-of-law-sboghossian/) | Use when drafting an internal legal memorandum (research memo) analyzing a legal question for a… |
+| [`Power of Attorney (PoA / وكالة / Procuration)`](skills/draft-power-of-attorney-sboghossian/) | Use when drafting a Power of Attorney (PoA / وكالة) authorizing an agent to act on a principal's behalf.… |
+| [`Schedule / Annex Builder`](skills/draft-schedule-annex-builder-sboghossian/) | Use when building, structuring, or populating schedules, annexes, or exhibits to be attached to any… |
+| [`Will / Testament`](skills/draft-will-sboghossian/) | Use when drafting a will or testament for a client whose estate spans MENA jurisdictions. MENA… |
 | [`/draft`](skills/draft-zhou210712/) | 常见诊所文件的初稿——实践领域模板（劳动争议仲裁申请书、离婚起诉状、 人身保护令申请书、律师函等），管辖地感知的格式，明确为需要学生分析 和指导律师审查的起手点。当学生需要起诉状、信函、申请书、陈述书或… |
 | [`Dworkin: Recht als Integrität, Prinzipien und hard cases`](skills/dworkin-law-as-integrity-hard-cases/) | Für Dworkin: Recht als Integrität, Prinzipien und hard cases: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ecm draft format adjust`](skills/ecm-draft-format-adjust/) | Word 文档格式调整 skill。当用户要求调整 / 优化 / 修正 / 排版 / 套版 / 套格式 / 按律所模板 格式化 / 按证监会要求格式化 Word… |
@@ -164,6 +171,9 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Rom 123 Fenus Nauticum Seedarlehen`](skills/fenus-nauticum-seedarlehen/) | Für Rom 123 Fenus Nauticum Seedarlehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rom 149 Fideicommissa Und Substitutionsformen`](skills/fideicommissa-substitutionsformen-civitas/) | Für Rom 149 Fideicommissa und Substitutionsformen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Skill：汇总与报告交付`](skills/final-synthesis/) | 在复杂法律事项、案件分析、合同审查、合同起草或法律研究需要阶段性收口、会话实质汇总、报告或按需 PDF 交付时使用。 |
+| [`FOLIO Legal Ontology Skill`](skills/folio-6691-alea-institute/) | Search and browse FOLIO, the open legal ontology with 18,000+ concepts covering areas of law, document… |
+| [`FOLIO Legal Ontology Skill`](skills/folio-alea-institute/) | Search and browse FOLIO, the open legal ontology with 18,000+ concepts covering areas of law, document… |
+| [`Identify a Forum or Venue with FOLIO`](skills/folio-identify-forum-venue-alea-institute/) | Identify the appropriate forum, venue, or governmental body for a legal dispute or regulatory matter… |
 | [`Foreign Law Research Workflow`](skills/foreign-law-research/) | Structured workflow for researching foreign law questions across Chinese, English, and local-language… |
 | [`FormaCN — 中文公文格式化工貝`](skills/forma-cn/) | Chinese legal document formatter. Formats .docx contracts, agreements, and official documents per GB/T… |
 | [`Formalismus und Begriffszauber`](skills/formalismus-und-begriffszauber-kritik/) | Für Formalismus und Begriffszauber: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -176,8 +186,12 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Gesellschaft Societas`](skills/gesellschaft-societas/) | Für Gesellschaft Societas: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Gleichheit und Präjudizien`](skills/gleichheit-und-praejudizien/) | Für Gleichheit und Präjudizien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Goa Vergleich`](skills/goa-vergleich/) | Für Goa Vergleich: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie. |
+| [`Governing Law Must Match Forum (or be Explicit)`](skills/heuristic-governing-law-must-match-forum-sboghossian/) | Use when drafting or reviewing governing law and dispute resolution clauses. Enforces the rule that the… |
+| [`Notarization and Apostille Requirements`](skills/heuristic-notarization-apostille-requirements-sboghossian/) | Use when a user is preparing a document for cross-border use, foreign court filing, government… |
 | [`Hölle, Gericht, Umkehr und Barmherzigkeit`](skills/holle-gericht-umkehr-und-barmherzigkeit/) | Für Hölle, Gericht, Umkehr und Barmherzigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Hypothek Vergleich`](skills/hypothek-vergleich/) | Für Hypothek Vergleich: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
+| [`Inst — Omani Ministry of Justice & Legal Affairs Integration`](skills/inst-om-moj-integration-sboghossian/) | Use when a matter or query involves the Omani Ministry of Justice and Legal Affairs (MJLA), the Omani… |
+| [`Inst — Tawqi3i E-Signature Bridge`](skills/inst-tawqi3i-esignature-bridge-sboghossian/) | Use when a Lebanese legal document requires electronic signature or cross-border e-notarization via the… |
 | [`Institutionenrhetorik und konkrete Ordnung: Red-Team`](skills/institutionenrhetorik-konkrete-ordnung-red-team-korrektu/) | Für Institutionenrhetorik und konkrete Ordnung: Red-Team: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Intake Sufficiency EN - is the instruction enough to start on`](skills/intake-sufficiency-en-matematicsolutions/) | Scores whether an instruction or brief is complete enough to start work on. Before any legal analysis… |
 | [`Intake Triage`](skills/intake-triage/) | Classify an incoming legal-work request and route it to the right team. |
@@ -320,6 +334,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`OSINT Collector`](skills/osint-collector-rohasnagpal/) | Plan and document lawful, ethical, reproducible open-source intelligence collection. Use for public web… |
 | [`Output: Alltagssprache (Deutsch)`](skills/output-alltagssprache-de/) | Für Output: Alltagssprache (Deutsch): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Bilingual Formatting (Arabic–English)`](skills/output-bilingual-formatting-sboghossian/) | Use when formatting a legal document, contract, or analysis that must appear in both Arabic and English… |
+| [`CREAC Structure`](skills/output-creac-structure-sboghossian/) | Use when structuring a legal memo or analytical response using the CREAC framework (Conclusion → Rule →… |
 | [`Inline Citations with Pin-Cites`](skills/output-inline-citations-with-pinpoints-sboghossian/) | Use when Claude must embed legal authority inline within analysis, memos, or drafted clauses with… |
 | [`IRAC Structure (Issue / Rule / Application / Conclusion)`](skills/output-irac-structure-sboghossian/) | Use when Claude must structure legal analysis as a formal Issue/Rule/Application/Conclusion memo… |
 | [`Partner Memo Style`](skills/output-partner-memo-style-sboghossian/) | Use when Claude must produce a formal legal memorandum for internal law firm distribution, senior… |
@@ -349,6 +364,8 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Complex Law → Simple Summary`](skills/prompt-pack-complex-law-simple-summary-sboghossian/) | Use when a lawyer needs to summarise a complex legal or tax provision in plain language suitable for a… |
 | [`Convert Complex Document into Key Points`](skills/prompt-pack-convert-complex-document-into-key-points-sboghossian/) | Use when a lawyer or legal team needs to extract and distil the key legal issues, risks, and important… |
 | [`Convert Law Into Checklist`](skills/prompt-pack-convert-law-into-checklist-sboghossian/) | Use when a lawyer or compliance professional needs to convert a legal provision, regulation, or statute… |
+| [`Draft Legal Notice`](skills/prompt-pack-draft-legal-notice-sboghossian/) | Use when drafting a legally structured formal notice to another party — covering statement of facts… |
+| [`Draft Reply to Department Notice`](skills/prompt-pack-draft-reply-to-department-notice-sboghossian/) | Use when drafting a formal professional reply to a notice, inquiry, or assessment issued by a government… |
 | [`Engagement Letter`](skills/prompt-pack-engagement-letter-sboghossian/) | Use when drafting an engagement letter from a law firm to a client confirming the scope of… |
 | [`Outside Counsel Guidelines`](skills/prompt-pack-outside-counsel-guidelines-sboghossian/) | Use when drafting outside counsel guidelines (OCGs) for a company's legal department governing how… |
 | [`Quellenkritik: Digesten und Institutionen`](skills/quellenkritik-digesten-und-institutionen/) | Für Quellenkritik: Digesten und Institutionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -375,7 +392,9 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Regulatory Compliance Guide`](skills/regulatory-compliance-guide/) | Regulatory text mining, compliance research, and policy analysis tools |
 | [`Religionsfreiheit und Glaubensgehorsam`](skills/religionsfreiheit-und-glaubensgehorsam/) | Für Religionsfreiheit und Glaubensgehorsam: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Res Sachen Und Einteilungen`](skills/res-sachen-und-einteilungen/) | Für Res Sachen und Einteilungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Court Procedure Lookup`](skills/research-court-procedure-lookup-sboghossian/) | Use when a lawyer or litigant needs a structured checklist of procedural requirements for a specific… |
 | [`Deep Research Orchestrator`](skills/research-deep-research-orchestrator-sboghossian/) | Use when a legal question requires multi-step, multi-source, multi-jurisdiction research equivalent to a… |
+| [`Recent Amendments Tracker`](skills/research-recent-amendments-tracker-sboghossian/) | Use when a user asks whether a statute is current, whether something has recently changed in a… |
 | [`$legal-clinic:research-start`](skills/research-start/) | Research roadmap for a legal issue — statutes to check, case law areas to investigate, regulatory… |
 | [`Research start`](skills/research-start-anthropics/) | Research roadmap for a legal issue — statutes to check, case law areas to investigate, regulatory… |
 | [`Research start`](skills/research-start-zhou210712/) | 法律问题的检索路线图——需查阅的法条、需调查的案例法领域、行政监管框架、 北大法宝/法信/元典检索关键词。提供线索和框架，非权威引注；学生核实并… |
@@ -471,6 +490,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Time narratives`](skills/timenarratives-legalquants/) | Draft concise time-entry narratives from the lawyer's work in the current conversation, selected related… |
 | [`Diplomatic Professional Tone`](skills/tone-diplomatic/) | Applies measured, diplomatic tone to legal writing. Triggers when drafting demand letters, settlement… |
 | [`Tone modes`](skills/tone-modes/) | Switch between lawyer mode and casual mode, apply the read-aloud test, and use scripts as scaffolds… |
+| [`Tool — Legal Deadline Calculator`](skills/tool-date-tool-deadline-calculator-sboghossian/) | Use when computing legal deadlines — filing deadlines, response periods, statutes of limitations… |
 | [`Google Scholar Legal`](skills/tool-google-scholar-legal-sboghossian/) | Use when a user needs free-access case law or law review articles from Google Scholar's legal database.… |
 | [`Legal Data Hunter`](skills/tool-legal-data-hunter-sboghossian/) | Use when a task requires systematically hunting for authoritative legal data across multiple… |
 | [`LexisNexis`](skills/tool-lexisnexis-sboghossian/) | Use when a user needs premium case law research, statute annotation, or citator verification across US… |
@@ -492,8 +512,11 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Rom 110 Vollstreckungsrecht Personal Und Vermögen`](skills/vollstreckungsrecht-personal-und-vermoegen/) | Für Rom 110 Vollstreckungsrecht Personal und Vermögen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Voruntersuchung nach can. 1717`](skills/voruntersuchung-nach-can-1717/) | Für Voruntersuchung nach can. 1717: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`White Swan`](skills/white-swan/) | White Swan integration. Manage data, records, and automate workflows. Use when the user wants to… |
+| [`Blockchain — Technology and Legal Framework`](skills/wiki-blockchain-sboghossian/) | Use when a user asks about blockchain technology in a legal context — smart contracts, consensus… |
+| [`Legal Knowledge System — Overview`](skills/wiki-legal-sboghossian/) | Use as the top-level entry point to the legal knowledge system — covering major practice areas, primary… |
 | [`Wiki`](skills/wiki-legalquants/) | Build, explore, and maintain a lawyer's personal legal wiki: linked, source-grounded Markdown notes that… |
 | [`Legal Research Methodology`](skills/wiki-research-sboghossian/) | Use when a user asks about legal research methodology, how to structure a research workflow… |
+| [`Space Industry — Legal Reference`](skills/wiki-space-sboghossian/) | Use when a user asks about space law, satellite operations, launch licensing, spectrum regulation… |
 | [`Wirtschaftsprivatrecht und Dogmatik`](skills/wirtschaftsprivatrecht-dogmatik/) | Für Wirtschaftsprivatrecht und Dogmatik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wissensproblem, dezentrale Information und Recht`](skills/wissensproblem-dezentrale-information/) | Für Wissensproblem, dezentrale Information und Recht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Prüft das Wissensproblem im Recht: dezentrale Information, lokale Praxis, Preissignale, Verwaltungskapazitaet, Gesetzgeb`](skills/wissensproblem-dezentrale-information-und-recht/) | Für Wissensproblem Dezentrale Information und Recht: ordnet Norm, Beweislast und Gegenargument… |

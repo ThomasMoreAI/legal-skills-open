@@ -1,0 +1,55 @@
+name: fiscalidad-sucesiones-donaciones
+display_name: Fiscalidad -- Impuesto de Sucesiones y Donaciones (ISD)
+description: >
+  Guia completa del Impuesto de Sucesiones y Donaciones (ISD) en Espana:
+  cuando se devenga (herencia, donacion, seguro de vida), competencia
+  autonomica y grandes diferencias entre CCAA, grupos de parentesco (I-IV),
+  estructura del calculo (reducciones, tarifa, coeficientes multiplicadores,
+  bonificaciones), Modelo 650 (sucesiones) y 651 (donaciones), plazos de
+  presentacion, donacion de vivienda y dinero, y aspectos practicos de la
+  aceptacion de herencia.
+organization: Agencia Estatal de Administracion Tributaria (AEAT)
+tags: [fiscalidad, sucesiones, donaciones, herencias, ISD, modelo 650, modelo 651, competencia autonomica, parentesco, bonificaciones]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/no-residentes/impuesto-sobre-sucesiones-donaciones/gestiones-sucesiones-donaciones.html
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Informacion publica de la AEAT y legislacion autonomica
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre el ISD. No accede a
+    APIs de datos ni permite liquidar el impuesto. Explica el marco estatal
+    general y advierte de la variabilidad autonomica. Para consultas
+    concretas, orientar a la normativa de la CCAA correspondiente.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Que es el ISD y cuando se devenga
+    - Grupos de parentesco (I-IV) y reducciones estatales
+    - Estructura del calculo (base imponible, reducciones, tarifa, coeficientes, bonificaciones)
+    - Modelos 650 (sucesiones) y 651 (donaciones) y plazos
+    - Diferencias orientativas entre CCAA (Madrid, Andalucia, Cataluna, etc.)
+    - Aspectos clave de donaciones (acumulacion, escritura publica, donacion vivienda/dinero)
+    - Pasos practicos tras el fallecimiento
+    - Reduccion por empresa familiar, vivienda habitual, discapacidad
+  not_accessible:
+    - Liquidacion real del impuesto (requiere acceso a la hacienda autonomica)
+    - Normativa autonomica detallada actualizada de cada CCAA
+    - Tramites juridicos de herencia (testamento, particion, registro propiedad)
+    - Plusvalia municipal (usar skill fiscalidad-impuestos-locales)
+    - ITP/AJD en compraventa (usar skill fiscalidad-itp-ajd)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

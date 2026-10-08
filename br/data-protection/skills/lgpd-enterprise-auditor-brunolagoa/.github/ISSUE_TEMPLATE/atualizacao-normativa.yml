@@ -1,0 +1,92 @@
+name: Atualização normativa
+description: Nova lei, decreto, resolução ou guia da ANPD que afeta a auditoria.
+title: "[Normativo] "
+labels: ["documentation", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Atualizações normativas são especialmente bem-vindas. Cite sempre a **fonte oficial** (Planalto, DOU ou gov.br/anpd); notícias e blogs não bastam.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de norma
+      options:
+        - Lei
+        - Decreto
+        - Resolução da ANPD
+        - Guia orientativo da ANPD
+        - Outro
+    validations:
+      required: true
+
+  - type: input
+    id: numero
+    attributes:
+      label: Número e data
+      placeholder: "Resolução CD/ANPD nº 15, de 24/04/2024"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link oficial
+      description: Planalto, Diário Oficial da União ou gov.br/anpd.
+      placeholder: https://www.planalto.gov.br/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: situacao
+    attributes:
+      label: Situação
+      description: |
+        Somente norma **vigente** gera achados (`finding`/`NAO_CONFORME`). Normas em consulta pública e projetos de lei entram apenas em "Em monitoramento" e só alimentam `recomendacoes_tecnicas`.
+      options:
+        - Vigente
+        - Em consulta pública
+        - Projeto de lei
+    validations:
+      required: true
+
+  - type: input
+    id: vigencia
+    attributes:
+      label: Início da vigência
+      description: Data de entrada em vigor, se já definida.
+    validations:
+      required: false
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: O que muda na auditoria
+      description: Novas obrigações, prazos, verificações, artigos a citar ou itens existentes que ficam desatualizados.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: modulos
+    attributes:
+      label: Módulos afetados
+      description: Marque os IDs de módulo que provavelmente precisam mudar (a skill `SKILL.md` acompanha por paridade).
+      options:
+        - label: core
+        - label: legal
+        - label: eca-digital
+        - label: plataformas-digitais
+        - label: governance
+        - label: cloud
+        - label: appsec
+        - label: mobile
+        - label: devsecops
+        - label: ai-llm
+
+  - type: checkboxes
+    id: contribuicao
+    attributes:
+      label: Contribuição
+      options:
+        - label: Tenho interesse em abrir o PR com essa atualização.

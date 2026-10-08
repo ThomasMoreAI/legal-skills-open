@@ -1,0 +1,50 @@
+name: antecedentes-penales
+display_name: Certificado de Antecedentes Penales
+description: >
+  Guía completa sobre el certificado de antecedentes penales en España:
+  qué es, para qué se necesita (empleo, oposiciones, adopción,
+  nacionalidad, viajes), cómo solicitarlo online y presencialmente en el
+  Ministerio de Justicia, certificado de delitos de naturaleza sexual para
+  trabajar con menores, cancelación de antecedentes y particularidades
+  para extranjeros.
+organization: Ministerio de Justicia
+tags: [antecedentes penales, certificado, delitos sexuales, menores, Ministerio de Justicia, penales, registro penados, cancelación]
+
+links:
+  sede_mjusticia: https://sede.mjusticia.gob.es/es/tramites/certificado-antecedentes
+  cancelacion: https://sede.mjusticia.gob.es/es/tramites/cancelacion-antecedentes
+
+license:
+  data: Información pública del Ministerio de Justicia
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede al Registro Central de
+    Penados ni emite certificados. El trámite se realiza en la sede
+    electrónica del Ministerio de Justicia o presencialmente.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es el certificado de antecedentes penales y para qué se pide
+    - Cómo solicitarlo online (sede electrónica) y presencialmente
+    - Certificado de delitos de naturaleza sexual (trabajar con menores)
+    - Requisitos y plazos de cancelación de antecedentes
+    - Particularidades para extranjeros (certificado español y del país de origen)
+    - Coste, plazos y validez del certificado
+  not_accessible:
+    - Emisión real de certificados (requiere identificación electrónica o presencial)
+    - Datos del Registro Central de Penados (confidenciales)
+    - Asesoramiento jurídico penal
+    - Trámites de nacionalidad detallados (usar skill extranjeria-nacionalidad)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

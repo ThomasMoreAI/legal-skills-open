@@ -1,0 +1,100 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/norma.schema.yaml"
+title: Ficha de normativa educativa
+additionalProperties: false
+
+# `temas` es vocabulario abierto: el corpus usa más de cien etiquetas y crece con
+# cada norma nueva, así que se valida la forma (kebab-case) y no una lista cerrada.
+# `estado_vigencia` admite matiz tras un prefijo controlado, porque el corpus
+# necesita expresar cosas como "Vigente con modificaciones; instrucción sexta
+# modificada por NOR-070" sin perder la clasificación legible por máquina (R3).
+
+type: object
+required: [id, titulo, nombre_corto, tipo_norma, ambito, autoridad, fecha_consulta, fecha_analisis, estado_vigencia, fuente_principal, url_oficial, etapas_afectadas, relaciones, nivel_evidencia]
+properties:
+  id:
+    type: string
+    pattern: '^NOR-[0-9]{3}$'
+  titulo:
+    type: string
+  nombre_corto:
+    type: string
+  tipo_norma:
+    type: string
+  ambito:
+    type: string
+    enum: [estatal, canarias, europeo, municipal, otro]
+  autoridad:
+    type: string
+  fecha_disposicion:
+    type: [string, 'null']
+    format: date
+  fecha_publicacion:
+    type: [string, 'null']
+    format: date
+  fecha_entrada_vigor:
+    type: [string, 'null']
+    format: date
+  fecha_consulta:
+    type: string
+    format: date
+  fecha_analisis:
+    type: string
+    format: date
+  estado_vigencia:
+    type: string
+    pattern: '^(Vigente|Derogada|Derogada parcialmente|Parcialmente vigente|Superada|Superada parcialmente|Sustituida|Histórica|Pendiente de verificación|No normativa)(\b.*)?$'
+  fuente_principal:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  url_oficial:
+    type: string
+    format: uri
+  uri_eli:
+    type: string
+    format: uri
+    pattern: '^https://'
+  etapas_afectadas:
+    type: array
+    items:
+      type: string
+      enum: [infantil, primaria, eso, bachillerato, formacion-profesional, ensenanzas-deportivas, educacion-adultos, regimen-especial, transversal, todas]
+  temas:
+    type: array
+    items:
+      type: string
+      pattern: '^[a-z0-9]+(-[a-z0-9]+)*$'
+  texto_oficial:
+    type: object
+    additionalProperties: false
+    properties:
+      url_html: {type: string, format: uri}
+      url_pdf: {type: string, format: uri}
+      url_texto_consolidado: {type: string, format: uri}
+      url_anexo: {type: string, format: uri}
+      ruta_texto_plano_local: {type: string}
+  relaciones:
+    type: object
+    additionalProperties: false
+    properties:
+      desarrolla_a:
+        type: array
+        items: {type: string}
+      modificada_por:
+        type: array
+        items: {type: string}
+      modifica_a:
+        type: array
+        items: {type: string}
+      deroga_a:
+        type: array
+        items: {type: string}
+      derogada_por:
+        type: array
+        items: {type: string}
+      relacionada_con:
+        type: array
+        items: {type: string}
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]

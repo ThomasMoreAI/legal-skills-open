@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LegalNorm",
+  "type": "object",
+  "required": ["id","type","jurisdiction","title","text","effective_date"],
+  "properties": {
+    "id": {"type":"string","pattern":"^norm:([a-z]{2}):[a-z0-9_:-]+$"},
+    "type": {"type":"string"},
+    "jurisdiction": {"type":"string"},
+    "source": {"type":"string"},
+    "title": {"type":"string"},
+    "text": {"type":"string"},
+    "effective_date": {"type":"string","format":"date"},
+    "valid": {"type":"boolean"},
+    "hierarchy": {"type":"object"},
+    "citations": {"type":"array","items":{"type":"string"}},
+    "topics": {"type":"array","items":{"type":"string"}},
+    "version": {"type":"integer"}
+  }
+}

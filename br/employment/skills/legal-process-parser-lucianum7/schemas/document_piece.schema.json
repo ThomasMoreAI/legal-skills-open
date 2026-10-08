@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Document piece",
+  "type": "object",
+  "required": ["id", "piece", "pdf_page_start", "pdf_page_end", "document_ids"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^P[0-9]{3,}$"},
+    "piece": {"type": "string"},
+    "party_or_origin": {"type": "string"},
+    "date": {"type": ["string", "null"]},
+    "pdf_page_start": {"type": "integer", "minimum": 1},
+    "pdf_page_end": {"type": "integer", "minimum": 1},
+    "court_page_start": {"type": ["integer", "null"]},
+    "court_page_end": {"type": ["integer", "null"]},
+    "document_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

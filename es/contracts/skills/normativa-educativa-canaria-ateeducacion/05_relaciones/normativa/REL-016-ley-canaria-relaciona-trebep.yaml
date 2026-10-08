@@ -1,0 +1,10 @@
+id: REL-016
+tipo_relacion: "relaciona"
+origen: NOR-019
+destino: NOR-020
+evidencia:
+  fuente: FTE-022
+  localizacion: "[PENDIENTE]"
+descripcion: "La Ley de la Función Pública Canaria se relaciona con el TREBEP (marco básico estatal) incorporando sus principios al ámbito autonómico."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

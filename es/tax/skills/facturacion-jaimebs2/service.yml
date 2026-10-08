@@ -1,0 +1,55 @@
+name: fiscalidad-facturacion
+display_name: Fiscalidad — Facturación
+description: >
+  Guía sobre los documentos comerciales en España para autónomos y
+  empresas: diferencia entre factura y recibo, datos obligatorios,
+  factura simplificada, facturas rectificativas, factura electrónica
+  (Ley Crea y Crece, VeriFactu / SIF según RD 1007/2023, Facturae
+  para AAPP), facturas UE sin IVA por reverse charge, facturas de
+  fuera de la UE (DUA), numeración, series, plazos de conservación
+  y requisitos técnicos del software de facturación.
+organization: Agencia Estatal de Administración Tributaria (AEAT)
+tags: [fiscalidad, facturación, factura electrónica, VeriFactu, Ley Crea y Crece, Facturae, autónomos, sociedades, AEAT]
+
+links:
+  reglamento_facturacion: https://www.boe.es/buscar/act.php?id=BOE-A-2012-14696
+  verifactu: https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html
+  ley_crea_crece: https://www.boe.es/buscar/act.php?id=BOE-A-2022-15818
+  face: https://face.gob.es
+  iva: https://sede.agenciatributaria.gob.es/Sede/iva.html
+
+license:
+  data: Información pública de la AEAT y el BOE
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No genera facturas ni se conecta
+    a sistemas de facturación. Puede usar WebFetch para enlazar a
+    páginas oficiales.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Diferencia entre factura, factura simplificada, recibo, albarán, presupuesto
+    - Datos obligatorios de una factura completa y una simplificada
+    - Facturas rectificativas (supuestos, plazo, formato)
+    - "Factura electrónica: Ley Crea y Crece, VeriFactu / SIF, Facturae"
+    - Tratamiento de facturas UE sin IVA (reverse charge) y facturas de fuera UE
+    - Numeración, series, plazos de emisión y conservación
+    - Requisitos del software de facturación desde 2026
+  not_accessible:
+    - Emisión real de facturas (usar software de facturación)
+    - Envío de facturas por FACe (requiere certificado digital)
+    - Datos de facturas individuales del contribuyente
+    - Texto legal íntegro (usar skill boe)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

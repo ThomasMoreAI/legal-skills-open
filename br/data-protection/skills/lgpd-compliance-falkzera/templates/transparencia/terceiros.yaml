@@ -1,0 +1,140 @@
+# TEMPLATE, Lista pública de processadores (operadores)
+# ========================================================
+# Skill: lgpd-compliance
+# Saída: <projeto>/transparencia/terceiros.yaml
+# Renderizado em /transparencia/terceiros
+#
+# A skill consulta este arquivo pra (1) gerar a tabela pública,
+# (2) validar inventário (`@compartilha=X` precisa estar aqui),
+# (3) alimentar a Política de Privacidade na lista de operadores.
+
+# Cada entrada DEVE ter: id, nome_legal, finalidade, dados_compartilhados,
+# pais_processamento, base_transferencia, link_dpa, link_politica_privacidade,
+# data_dpa_assinado, contato_incidente.
+
+processadores:
+
+  - id: "resend"
+    nome_legal: "Resend (Resend Sp. z o.o.)"
+    finalidade: "Envio de e-mail transacional"
+    dados_compartilhados:
+      - "users.email"
+      - "conteudo_email_transacional"
+    pais_processamento: "UE (Dublin, Irlanda)"
+    regiao_servico: "eu-west"
+    base_transferencia: "Decisão de adequação ANPD Res. 32/2026 (UE)"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+    link_dpa: "https://resend.com/legal/dpa"
+    link_politica_privacidade: "https://resend.com/legal/privacy-policy"
+    link_status: "https://status.resend.com"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "security@resend.com"
+    sub_processadores_declarados: "https://resend.com/legal/sub-processors"
+    observacoes: |
+      Tracking de open/click desligado em transacional autenticado
+      (token de reset não precisa rastrear).
+
+  - id: "stripe"
+    nome_legal: "Stripe Payments Europe, Ltd. (entidade UE)"
+    finalidade: "Processamento de pagamento + emissão fiscal"
+    dados_compartilhados:
+      - "users.name"
+      - "users.email"
+      - "users.cpf"
+      - "endereco_cobranca"
+      - "valor_transacao"
+    pais_processamento: "UE (Dublin, Irlanda) com fallback EUA"
+    regiao_servico: "eu-west"
+    base_transferencia: "Decisão de adequação ANPD Res. 32/2026 (UE) + SCC pra fallback EUA"
+    base_legal_lgpd: "art_7_V_execucao_contrato + art_7_II_obrigacao_legal"
+    link_dpa: "https://stripe.com/legal/dpa"
+    link_politica_privacidade: "https://stripe.com/privacy"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "privacy@stripe.com"
+    observacoes: |
+      Cartão de crédito tokenizado. NUNCA armazenamos PAN/CVV no nosso banco.
+
+  - id: "plausible"
+    nome_legal: "Plausible Insights OÜ"
+    finalidade: "Métricas anônimas de uso"
+    dados_compartilhados:
+      - "url_acessada"
+      - "referrer"
+      - "country_code"
+      - "device_type"
+      - "browser"
+    pais_processamento: "UE (provedor de hospedagem, DE/FI)"
+    regiao_servico: "eu-central"
+    base_transferencia: "Decisão de adequação ANPD Res. 32/2026 (UE)"
+    base_legal_lgpd: "art_7_IX_legitimo_interesse"
+    link_dpa: "https://plausible.io/dpa"
+    link_politica_privacidade: "https://plausible.io/privacy"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "security@plausible.io"
+    observacoes: |
+      Sem cookie. Sem fingerprint persistente. Hash diário de IP+UA+domínio.
+
+  - id: "sentry"
+    nome_legal: "Functional Software, Inc. (Sentry)"
+    finalidade: "Monitoramento de erros (error tracking)"
+    dados_compartilhados:
+      - "stack_trace"
+      - "contexto_tecnico (sanitizado)"
+      - "audit_log.ip_truncated"
+    pais_processamento: "UE (Frankfurt), plano EU Data Residency"
+    regiao_servico: "eu-west"
+    base_transferencia: "Decisão de adequação ANPD Res. 32/2026 (UE)"
+    base_legal_lgpd: "art_7_IX_legitimo_interesse (segurança)"
+    link_dpa: "https://sentry.io/legal/dpa/"
+    link_politica_privacidade: "https://sentry.io/privacy/"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "security@sentry.io"
+    observacoes: |
+      `sendDefaultPii: false` + `beforeSend` agressivo (remove email/cpf/token/password).
+
+  - id: "vercel"
+    nome_legal: "Vercel Inc."
+    finalidade: "Hospedagem do frontend e edge functions"
+    dados_compartilhados:
+      - "logs_http"
+      - "ip_visitante"
+    pais_processamento: "Global (preferência região GRU/São Paulo + FRA/Frankfurt)"
+    regiao_servico: "multi"
+    base_transferencia: "SCC ANPD (regions fora da UE)"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+    link_dpa: "https://vercel.com/legal/dpa"
+    link_politica_privacidade: "https://vercel.com/legal/privacy-policy"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "security@vercel.com"
+
+  - id: "supabase"
+    nome_legal: "Supabase Inc."
+    finalidade: "Banco de dados + auth + storage"
+    dados_compartilhados: ["todos_dados_da_aplicacao"]
+    pais_processamento: "Configurável, escolhemos sa-east-1 (São Paulo)"
+    regiao_servico: "sa-east-1"
+    base_transferencia: "Não aplicável (Brasil)"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+    link_dpa: "https://supabase.com/legal/dpa"
+    link_politica_privacidade: "https://supabase.com/privacy"
+    data_dpa_assinado: "2026-03-01"
+    contato_incidente: "security@supabase.com"
+
+  # ---------------------------------------------------------------
+  # Quando adicionar IA, copiar este bloco:
+  # ---------------------------------------------------------------
+  # - id: "anthropic"
+  #   nome_legal: "Anthropic PBC"
+  #   finalidade: "Geração de texto / resumo"
+  #   dados_compartilhados:
+  #     - "prompt_do_usuario"
+  #     - "contexto_anexo"
+  #   pais_processamento: "EUA"
+  #   base_transferencia: "SCC ANPD"
+  #   base_legal_lgpd: "art_7_V_execucao_contrato"
+  #   politica_treinamento: "NÃO treina inputs/outputs da API"
+  #   retencao_provedor: "7 dias (desde 14/09/2025)"
+  #   link_dpa: "https://www.anthropic.com/legal/commercial-terms"
+  #   link_politica_privacidade: "https://www.anthropic.com/legal/privacy"
+  #   data_dpa_assinado: "2026-XX-XX"
+  #   sanitizacao_aplicada: "PII redaction via Microsoft Presidio antes do envio"

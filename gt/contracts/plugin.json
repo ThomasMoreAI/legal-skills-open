@@ -1,0 +1,14 @@
+{
+  "name": "gt-contracts",
+  "displayName": "Contracts — GT",
+  "version": "0.1.0",
+  "description": "Contracts skills for GT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gt",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-guatemala-orwel"
+  ]
+}

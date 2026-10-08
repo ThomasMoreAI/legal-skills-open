@@ -1,0 +1,14 @@
+{
+  "name": "dz-litigation",
+  "displayName": "Litigation — DZ",
+  "version": "0.1.0",
+  "description": "Litigation skills for DZ (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "dz",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/agent-voice-cloning-legal-ziri22"
+  ]
+}

@@ -1,0 +1,56 @@
+name: laboral-ere-erte
+display_name: ERE y ERTE
+description: >
+  Guía completa sobre los Expedientes de Regulación de Empleo (ERE) y
+  los Expedientes de Regulación Temporal de Empleo (ERTE): despido
+  colectivo, suspensión y reducción de jornada, causas ETOP, fuerza
+  mayor, Mecanismo RED (reforma 2022), derechos del trabajador durante
+  un ERTE, prestación por desempleo en ERTE (no consume paro),
+  obligación de mantenimiento de empleo y diferencias entre ERE y ERTE.
+organization: Ministerio de Trabajo y Economía Social / SEPE
+tags: [laboral, ERE, ERTE, despido colectivo, suspensión, reducción jornada, Mecanismo RED, ETOP, fuerza mayor, mantenimiento empleo]
+
+links:
+  estatuto_trabajadores: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430
+  sepe_prestaciones: https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones.html
+
+license:
+  data: Información pública del Ministerio de Trabajo, BOE y SEPE
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación sobre ERE y ERTE. No accede a
+    APIs de datos. Proporciona una visión completa de los procedimientos
+    de regulación de empleo, incluyendo el Mecanismo RED de la reforma
+    2022, y redirige a skills hermanas para prestaciones por desempleo,
+    contratos, etc.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Diferencias entre ERE (extinción) y ERTE (suspensión/reducción)
+    - Causas ETOP (económicas, técnicas, organizativas, productivas)
+    - ERTE por fuerza mayor
+    - Mecanismo RED (modalidad cíclica y sectorial)
+    - Procedimiento de ERE y ERTE
+    - Derechos del trabajador durante un ERTE
+    - Prestación por desempleo en ERTE (no consume paro)
+    - Obligación de mantenimiento de empleo (6 meses)
+    - Indemnización en ERE (20 días/año)
+    - Impugnación del ERE
+  not_accessible:
+    - Prestación por desempleo individual (usar skill laboral-desempleo)
+    - Tipos de contrato (usar skill laboral-contratos)
+    - Estadísticas de paro (usar skill sepe)
+    - Convenios colectivos (usar skill laboral-convenios)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

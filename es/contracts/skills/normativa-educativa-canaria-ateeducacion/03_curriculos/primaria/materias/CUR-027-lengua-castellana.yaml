@@ -1,0 +1,440 @@
+id: CUR-027
+titulo: Lengua Castellana y Literatura — Primaria Canarias
+etapa: primaria
+materia: Lengua Castellana y Literatura
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Reconocer la diversidad lingüística del mundo a partir de la identificación de las lenguas del alumnado y de la realidad plurilingüe y multicultural de España, para favorecer la reflexión interlingüística, para identificar y rechazar estereotipos y prejuicios lingüísticos y para valorar dicha diversidad como fuente de riqueza cultural.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CP2
+          - CP3
+          - CC1
+          - CC2
+          - CCEC1
+          - CCEC3
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CP2
+          - CP3
+          - CC1
+          - CC2
+          - CCEC1
+          - CCEC3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP2
+          - CP3
+          - CC1
+          - CC2
+          - CCEC1
+          - CCEC3
+    - codigo: C2
+      enunciado_oficial: Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más relevante, y valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a diferentes necesidades comunicativas.
+      descriptores:
+        Primer ciclo:
+          - CCL2
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+        Segundo ciclo:
+          - CCL2
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+        Tercer ciclo:
+          - CCL2
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+    - codigo: C3
+      enunciado_oficial: Producir textos orales y multimodales, con coherencia, claridad y registro adecuados, para expresar ideas, sentimientos y conceptos; construir conocimiento; establecer vínculos personales; y participar con autonomía y una actitud cooperativa y empática en interacciones orales variadas.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA1
+          - CC2
+          - CE1
+        Segundo ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA1
+          - CC2
+          - CE1
+        Tercer ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA1
+          - CC2
+          - CE1
+    - codigo: C4
+      enunciado_oficial: Comprender e interpretar textos escritos y multimodales, reconociendo el sentido global, las ideas principales y la información explícita e implícita, y realizando con ayuda reflexiones elementales sobre aspectos formales y de contenido, para adquirir y construir conocimiento y para responder a necesidades e intereses comunicativos diversos.
+      descriptores:
+        Primer ciclo:
+          - CCL2
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA4
+          - CPSAA5
+        Segundo ciclo:
+          - CCL2
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA4
+          - CPSAA5
+        Tercer ciclo:
+          - CCL2
+          - CCL3
+          - CCL5
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA4
+          - CPSAA5
+    - codigo: C5
+      enunciado_oficial: Producir textos escritos y multimodales, con corrección gramatical y ortográfica básicas, secuenciando correctamente los contenidos y aplicando estrategias elementales de planificación, textualización, revisión y edición, para construir conocimiento y para dar respuesta a demandas comunicativas concretas.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+        Segundo ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+        Tercer ciclo:
+          - CCL1
+          - CCL3
+          - CCL5
+          - STEM1
+          - CD2
+          - CD3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+    - codigo: C6
+      enunciado_oficial: Buscar, seleccionar y contrastar información procedente de dos o más fuentes, de forma planificada y con el debido acompañamiento, evaluando su fiabilidad y reconociendo algunos riesgos de manipulación y desinformación, para transformarla en conocimiento y para comunicarla de manera creativa, adoptando un punto de vista personal y respetuoso con la propiedad intelectual.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CPSAA5
+          - CC2
+          - CE3
+        Segundo ciclo:
+          - CCL3
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CPSAA5
+          - CC2
+          - CE3
+        Tercer ciclo:
+          - CCL3
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CPSAA5
+          - CC2
+          - CE3
+    - codigo: C7
+      enunciado_oficial: Leer de manera autónoma obras diversas seleccionadas atendiendo a sus gustos e intereses, compartiendo las experiencias de lectura, para iniciar la construcción de la identidad lectora, para fomentar el gusto por la lectura como fuente de placer y para disfrutar de su dimensión social.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL4
+          - CD3
+          - CPSAA1
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+        Segundo ciclo:
+          - CCL1
+          - CCL4
+          - CD3
+          - CPSAA1
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+        Tercer ciclo:
+          - CCL1
+          - CCL4
+          - CD3
+          - CPSAA1
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+    - codigo: C8
+      enunciado_oficial: Leer, interpretar y analizar, de manera acompañada, obras o fragmentos literarios adecuados a su desarrollo, estableciendo relaciones entre ellos e identificando el género literario y sus convenciones fundamentales, para iniciarse en el reconocimiento de la literatura como manifestación artística y fuente de placer, conocimiento e inspiración para crear textos de intención literaria.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL2
+          - CCL4
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - CCL4
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - CCL4
+          - CCEC1
+          - CCEC2
+          - CCEC3
+          - CCEC4
+    - codigo: C9
+      enunciado_oficial: Reflexionar de forma guiada sobre el lenguaje a partir de procesos de producción y comprensión de textos en contextos significativos, utilizando la terminología elemental adecuada, para iniciarse en el desarrollo de la conciencia lingüística y para mejorar las destrezas de producción y comprensión oral y escrita.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL2
+          - CP2
+          - STEM1
+          - STEM2
+          - CPSAA4
+          - CPSAA5
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - CP2
+          - STEM1
+          - STEM2
+          - CPSAA4
+          - CPSAA5
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - CP2
+          - STEM1
+          - STEM2
+          - CPSAA4
+          - CPSAA5
+    - codigo: C10
+      enunciado_oficial: Poner las propias prácticas comunicativas al servicio de la convivencia democrática utilizando un lenguaje no discriminatorio y detectando y rechazando los abusos de poder a través de la palabra, para favorecer un uso no solo eficaz sino también ético del lenguaje.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+  saberes_basicos:
+    - bloque: I. Las lenguas y sus hablantes
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Biografía lingüística del alumnado y mapa lingüístico de su entorno; reflexión interlingüística sobre la vinculación entre lenguas, dialectos, lugares y cultura; identificación de prejuicios y estereotipos lingüísticos. Relacionado especialmente con C1.
+    - bloque: II. Comunicación
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Procesos de comprensión y producción oral y escrita, y alfabetización mediática e informacional, atendiendo al contexto y a los géneros discursivos.
+    - bloque: III. Educación Literaria
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Construcción de la identidad lectora, desarrollo del gusto por la lectura, estrategias para interpretar textos y participar en conversaciones literarias, producción creativa de textos con intención literaria y vínculos con otras manifestaciones artísticas. Relacionado especialmente con C7 y C8.
+    - bloque: IV. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Reflexión metalingüística mediante generalizaciones sobre aspectos lingüísticos, a través de la observación, comparación y transformación de palabras y enunciados, de forma inductiva en los procesos comunicativos del aula.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.
+        - 2.1. Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos, de manera individual y cooperativa, dando una opinión razonada sobre el contenido, para responder a diferentes necesidades comunicativas.
+        - 3.1. Producir textos orales y multimodales, utilizando recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera acompañada y coherente, ajustándose a la intencionalidad comunicativa.
+        - 3.2. Participar en interacciones orales espontáneas o planificadas, iniciándose en estrategias de cortesía lingüística y escucha activa para satisfacer diferentes necesidades comunicativas.
+        - 4.1. Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura para alcanzar la interpretación literal en la comprensión lectora.
+        - 4.2. Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, con el fin de formar personas competentes y autónomas en la lectura.
+        - 5.1. Producir, de manera acompañada, textos escritos y multimodales coherentes, con creatividad y en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación del ámbito personal y educativo, aplicando las normas gramaticales y de ortografía natural con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.
+        - 6.1. Compartir, utilizando diferentes lenguajes, los resultados de un proceso acompañado de búsqueda de información sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, opinando sobre su fiabilidad de manera razonada, recreando la información de forma personal y creativa, y adoptando un punto de vista respetuoso con la propiedad intelectual para construir su propio conocimiento.
+        - 7.1. Leer con progresiva autonomía textos de diversa índole, iniciándose, de manera acompañada, en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses y necesidades con criterio propio, para comenzar la construcción y enriquecimiento de su identidad lectora.
+        - 7.2. Compartir de manera acompañada la experiencia de lectura, a través de diferentes técnicas y CCE3, soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar para disfrutar de la dimensión social de la lectura.
+        - 8.1. Escuchar y leer textos literarios orales y escritos, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.
+        - 8.2. Producir, de manera acompañada, textos individuales o colectivos con intención literaria, ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.
+        - 9.1. Formular, de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva.
+        - 9.2. Revisar y mejorar, de manera acompañada, los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.
+        - 10.1. Planificar y utilizar estrategias, de manera acompañada, para el consenso, e iniciarse en la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias y estableciendo comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.
+        - 2.1. Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos e implícitos de manera individual y cooperativa, dando una opinión razonada sobre el contenido, para responder a diferentes necesidades comunicativas.
+        - 3.1. Producir textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto como recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera guiada y coherente, ajustándose a la intencionalidad comunicativa.
+        - 3.2. Participar en interacciones orales espontáneas o planificadas, utilizando métodos y estrategias acordes a cada situación comunicativa, respetando las normas de la cortesía lingüística y desarrollando estrategias de escucha activa para satisfacer diferentes necesidades comunicativas.
+        - 4.1. Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura y realizando inferencias para superar la interpretación literal en la comprensión lectora.
+        - 4.2. Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, iniciándose en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura.
+        - 5.1. Producir, de manera guiada, textos escritos y multimodales coherentes, de manera creativa y en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas, con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.
+        - 6.1. Compartir, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, opinando sobre su fiabilidad y pertinencia de manera razonada, así como respetando la propiedad intelectual, recreando la información de manera personal y creativa para construir su propio conocimiento.
+        - 7.1. Leer con progresiva autonomía textos de diversa índole, afianzando el uso de estrategias que favorezcan una selección, de manera guiada, que se ajuste a sus gustos, intereses y necesidades con criterio propio, para la construcción y enriquecimiento de su identidad lectora.
+        - 7.2. Compartir de manera guiada la experiencia de lectura, a través de diferentes técnicas y soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar para disfrutar de la dimensión social de la lectura.
+        - 8.1. Escuchar y leer textos literarios, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, relacionándolos, de manera guiada, en función de los temas y de aspectos elementales de cada género literario para interpretarlos y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.
+        - 8.2. Producir, de manera guiada, textos individuales o colectivos con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.
+        - 9.1. Formular, de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva.
+        - 9.2. Revisar y mejorar, de manera guiada, los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, progresando en la reflexión metalingüística, la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.
+        - 10.1. Planificar y utilizar estrategias, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Identificar las lenguas de España y distintas variedades dialectales del español, reconociendo especialmente características propias del español de Canarias y estableciendo comparaciones y relaciones con otras variedades y otros dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes y entendiendo la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.
+        - 2.1. Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos e implícitos de manera individual y cooperativa, realizando una valoración crítica sobre el contenido e identificando elementos no verbales y formales para responder a diferentes necesidades comunicativas.
+        - 3.1. Producir textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto como recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa.
+        - 3.2. Participar en interacciones orales espontáneas o planificadas utilizando métodos y estrategias acordes a cada situación comunicativa, respetando las normas de la cortesía lingüística y desarrollando estrategias de escucha activa y de cooperación conversacional para satisfacer diferentes necesidades comunicativas.
+        - 4.1. Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura y realizando inferencias para superar la interpretación literal en la comprensión lectora.
+        - 4.2. Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, evaluando su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con el fin de formar personas competentes y autónomas en la lectura.
+        - 5.1. Producir textos escritos y multimodales coherentes, de manera creativa y en distintos soportes, conociendo los riesgos de la difusión del contenido en entornos digitales, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.
+        - 6.1. Compartir, utilizando diferentes lenguajes, los resultados de un proceso pautado de búsqueda de información sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, evaluando su fiabilidad y pertinencia, recreando la información de manera creativa, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico, así como respetuoso con la propiedad intelectual para construir su propio conocimiento.
+        - 7.1. Leer textos de diversa índole, usando estrategias que favorezcan una selección ajustada a sus gustos, intereses y necesidades con criterio propio, para progresar en la construcción y enriquecimiento de su identidad lectora.
+        - 7.2. Compartir la experiencia de lectura, a través de diferentes técnicas y soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar o social para disfrutar de la dimensión social de la lectura.
+        - 8.1. Escuchar y leer textos literarios, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, relacionándolos, de manera autónoma, en función de los temas y de aspectos elementales de cada género literario para interpretarlos, valorarlos y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.
+        - 8.2. Producir, de manera autónoma, textos individuales o colectivos, con intención literaria, reelaborando con creatividad los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.
+        - 9.1. Establecer generalizaciones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para producir o comprender textos en contextos significativos de manera individual o colectiva.
+        - 9.2. Revisar y mejorar los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, profundizando en la reflexión metalingüística, usando la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.
+        - 10.1. Planificar y utilizar estrategias, de manera autónoma, para la deliberación argumentada y la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.
+  descriptores_operativos:
+    - CCL1
+    - CCL5
+    - CP2
+    - CP3
+    - CC1
+    - CC2
+    - CCEC1
+    - CCEC3
+    - CCL2
+    - STEM1
+    - CD3
+    - CPSAA3
+    - CC3
+    - CCL3
+    - CD2
+    - CPSAA1
+    - CE1
+    - CD1
+    - CPSAA4
+    - CPSAA5
+    - CD4
+    - CE3
+    - CCL4
+    - CCEC2
+    - CCEC4
+    - STEM2
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Lengua Castellana y Literatura en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Diez competencias específicas (C1-C10) que se concretan en quince criterios de evaluación por ciclo, con saberes básicos organizados en cuatro bloques: Las lenguas y sus hablantes, Comunicación, Educación Literaria, y Reflexión sobre la lengua y sus usos. Atención particular al español hablado en Canarias.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (diez) y de criterios de evaluación (quince por ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos coinciden en los tres ciclos para todas las competencias. Los saberes básicos se recogen a nivel de bloque (I-IV) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque.

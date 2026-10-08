@@ -1,0 +1,9 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: AI Act Compliance (IT)
+short_description: Conformita' al Reg. UE 2024/1689 (AI Act) per il mercato italiano. Classificazione sistemi, obblighi provider/deployer, GPAI, trasparenza, profili nazionali D.Lgs. 160/2026 (penale, 231, civile, polizia). (Versione italiana - per l'inglese vedere il repo separato ai-act-skill.)
+default_prompt: |
+  Classifica questo sistema AI sotto l'AI Act. In Italia? Vietato?
+  Alto rischio? Limited risk? GPAI? Indica articoli applicabili e
+  obblighi corrispondenti per il mio ruolo (provider o deployer).

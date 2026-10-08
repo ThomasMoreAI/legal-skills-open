@@ -1,0 +1,11 @@
+id: REL-066
+tipo_relacion: "desarrolla"
+origen: NOR-081
+destino: NOR-080
+descripcion: "La Resolución de 30 de octubre de 2024 implanta en Canarias los Grados D y E del Sistema de Formación Profesional regulados por el Real Decreto 659/2023, y remite a sus anexos como currículo básico de los módulos transversales."
+evidencia:
+  fuente: FTE-088
+  localizacion: "Fundamentos de derecho y anexos I a VII de la Resolución de 30 de octubre de 2024."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Es la resolución base del marco de FP canario; NOR-074, NOR-075 y NOR-078 la citan como antecedente."

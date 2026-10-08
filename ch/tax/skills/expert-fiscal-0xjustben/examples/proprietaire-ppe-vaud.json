@@ -1,0 +1,55 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "_note": "PPE owner-occupier in Pully (VD) with imputed rental value, mortgage interest, maintenance.",
+  "household": {
+    "country_of_residence": "CH",
+    "canton": "VD",
+    "commune": "Pully",
+    "address": "Chemin des Oliviers 8, 1009 Pully",
+    "civil_status": "couple_married",
+    "children": 1
+  },
+  "property": {
+    "ppe_name": "PPE Les Oliviers",
+    "lot_number": 5,
+    "type": "appartement_5.5p",
+    "surface_m2": 138,
+    "quotes_per_thousand": 138,
+    "acquisition_date": "2017-09-15",
+    "acquisition_price_chf": 1650000,
+    "current_tax_value_chf": 1380000,
+    "fiscal_rental_value_chf_annual": 32400,
+    "valeur_fiscale_immeuble": 1380000
+  },
+  "mortgage": {
+    "lender": "Raiffeisen Lavaux",
+    "balance_chf": 1050000,
+    "interest_rate_pct": 1.85,
+    "annual_interest_chf": 19425,
+    "amortization_chf_annual": 9600,
+    "type": "fixed_5y"
+  },
+  "annual_costs_chf": {
+    "charges_ppe": 6950,
+    "fonds_renovation_alloc": 1850,
+    "entretien_courant": 4200,
+    "deductible_maintenance_lump_sum_pct": 20,
+    "_lump_sum_alt_pct": 10,
+    "_lump_sum_choice": "20% — immeuble > 10 ans"
+  },
+  "income_chf": {
+    "salary_a": 142000,
+    "salary_b": 88000,
+    "imputed_rental_value": 32400
+  },
+  "expected_treatment": {
+    "regime": "Imposition ordinaire VD — propriétaire occupant",
+    "rental_value_taxable": true,
+    "deductions": [
+      "Intérêts hypothécaires (19'425 CHF)",
+      "Entretien — forfait 20% de valeur locative (6'480) OU frais effectifs",
+      "Charges PPE non couvertes par fonds (partiel)"
+    ],
+    "wealth_tax": "Valeur fiscale (1.38M) – hypothèque (1.05M) = 330k net imposable"
+  }
+}

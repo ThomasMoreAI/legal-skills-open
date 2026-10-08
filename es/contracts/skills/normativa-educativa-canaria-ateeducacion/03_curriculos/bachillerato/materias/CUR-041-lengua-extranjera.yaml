@@ -1,0 +1,93 @@
+id: CUR-041
+titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Lengua Extranjera"
+cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Comprender e interpretar las ideas principales y las líneas argumentales básicas de textos expresados en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias de inferencia y comprobación de significados, para responder a las necesidades comunicativas planteadas."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+    - codigo: "C2"
+      enunciado_oficial: "Producir textos originales, de creciente extensión, claros, bien organizados y detallados, usando estrategias tales como la planificación, la síntesis, la compensación o la autorreparación, para expresar ideas y argumentos de forma creativa, adecuada y coherente, de acuerdo con propósitos comunicativos concretos."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA5, CCEC3.1]
+    - codigo: "C3"
+      enunciado_oficial: "Interactuar activamente con otras personas, con suficiente fluidez y precisión y con espontaneidad, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos en intercambios respetuosos con las normas de cortesía."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+    - codigo: "C4"
+      enunciado_oficial: "Mediar entre distintas lenguas o variedades, o entre las modalidades o registros de una misma lengua, usando estrategias y conocimientos eficaces orientados a explicar conceptos y opiniones o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable, y crear una atmósfera positiva que facilite la comunicación."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+    - codigo: "C5"
+      enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas y variedades, reflexionando de forma crítica sobre su funcionamiento, y haciendo explícitos y compartiendo las estrategias y los conocimientos propios, para mejorar la respuesta a sus necesidades comunicativas."
+      descriptores:
+        "1.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+        "2.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+    - codigo: "C6"
+      enunciado_oficial: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera, reflexionando y compartiendo las semejanzas y las diferencias entre lenguas y culturas, para actuar de forma empática, respetuosa y eficaz, y fomentar la comprensión mutua en situaciones interculturales."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CP3, CPSAA3.1, CC2, CC3, CE1, CCEC1]
+        "2.º Bachillerato": [CCL5, CP3, CPSAA3.1, CC2, CC3, CE1, CCEC1]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - "1.1. Extraer y analizar las ideas principales, la información relevante y las implicaciones generales, e interpretar y valorar de manera crítica el contenido y la intención de textos orales de cierta longitud, bien organizados y de cierta complejidad, sobre temas generales o más específicos de relevancia personal, académica, profesional o de interés público."
+        - "1.2. Extraer y analizar las ideas principales, la información detallada y las implicaciones generales, e interpretar y valorar de manera crítica el contenido, los rasgos discursivos y la intención de textos escritos y multimodales de cierta longitud y complejidad, bien organizados, sobre temas de relevancia personal, académica, profesional o de interés público."
+        - "1.3. Seleccionar, organizar y aplicar las estrategias y conocimientos adecuados para comprender la información global y específica, así como para distinguir la intención y las opiniones, tanto implícitas como explícitas de los textos; inferir significados e interpretar elementos no verbales."
+        - "2.1. Expresar oralmente con cierta fluidez, eficacia y corrección textos de extensión media, claros, coherentes y bien organizados en diferentes registros y soportes, empleando recursos verbales y no verbales que sean adecuados a la situación comunicativa y a las herramientas analógicas y digitales utilizadas."
+        - "2.2. Redactar y difundir con cierta eficacia y con corrección textos de estructura clara sobre asuntos de relevancia personal o de interés público conocidos por el alumnado, que contengan cierta extensión y complejidad y sean adecuados a la situación comunicativa, a la tipología textual y a las herramientas analógicas y digitales utilizadas."
+        - "2.3. Seleccionar, organizar y aplicar conocimientos y estrategias progresivamente más complejas de planificación, producción, revisión y cooperación en la elaboración de textos de estructura clara y adecuados a las intenciones comunicativas, las características contextuales, los aspectos socioculturales y la tipología textual."
+        - "3.1. Planificar, participar y colaborar asertiva y activamente en situaciones interactivas, orales, escritas o multimodales, sobre temas de relevancia personal o de interés público conocidos por el alumnado, mostrando iniciativa, empatía y respeto por la cortesía lingüística y la etiqueta digital."
+        - "3.2. Seleccionar, organizar y utilizar, de forma flexible y en diferentes entornos, estrategias adecuadas que le permitan poner en uso su repertorio lingüístico individual para así iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, solicitar y formular aclaraciones y explicaciones, reformular, comparar y contrastar, resumir, colaborar, debatir."
+        - "4.1. Interpretar y explicar textos, conceptos y comunicaciones de extensión breve y progresivamente más complejas, en situaciones en las que se deba atender a la diversidad mostrando respeto y aprecio por las interlocutoras y los interlocutores, así como por las lenguas, variedades lingüisticas o registros empleados."
+        - "4.2. Aplicar estrategias progresivamente más complejas que ayuden de forma gradual a crear puentes que faciliten la comunicación y que sean adecuadas a las intenciones comunicativas, las características contextuales, los aspectos socioculturales y la tipología textual."
+        - "5.1. Registrar, reflexionar y compartir, a través de medios analógicos y digitales, los progresos y dificultades de aprendizaje de la lengua extranjera, utilizando con iniciativa y de forma creativa estrategias y conocimientos de mejora de la capacidad de comunicar y de aprender, así como las estrategias más adecuadas y eficaces en las actividades de planificación, autoevaluación y coevaluación."
+        - "6.1. Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de Canarias y de países donde se habla la lengua extranjera, aplicando estrategias en situaciones comunicativas interculturales y en contextos menos habituales con resiliencia, analizando y rechazando cualquier tipo de discriminación, prejuicio o estereotipo."
+    - curso: "2.º Bachillerato"
+      criterios:
+        - "1.1. Extraer y analizar las ideas principales, información detallada y las implicaciones generales, e interpretar y valorar de manera crítica el contenido, la intención y ciertos matices como la ironía, de textos orales de cierta longitud, bien organizados y complejos en diferentes registros sobre temas de relevancia personal, académica, profesional o de interés público."
+        - "1.2. Extraer y analizar las ideas principales, información detallada y las implicaciones generales, e interpretar y valorar de manera crítica el contenido, los rasgos discursivos, la intención y ciertos matices como la ironía o el uso estético de la lengua de textos escritos y multimodales de cierta longitud, bien organizados y complejos en diferentes registros."
+        - "1.3. Seleccionar, organizar y aplicar de manera sistemática las estrategias y conocimientos más adecuados en cada situación comunicativa para comprender el sentido general, la información esencial y los detalles más relevantes, así como para distinguir la intención y las opiniones, tanto implícitas como explícitas de los textos."
+        - "2.1. Expresar oralmente con fluidez, eficacia y corrección textos de extensión media, claros, coherentes y bien organizados en diferentes registros, que sean adecuados a la situación comunicativa y a las herramientas analógicas y digitales utilizadas, y que versen sobre asuntos de relevancia personal o de interés público, con el fin de describir, narrar, argumentar, debatir e informar."
+        - "2.2. Redactar y difundir de forma eficaz y con corrección, respeto y fluidez textos detallados y de estructura clara sobre asuntos de relevancia personal o de interés público conocidos por el alumnado, que contengan una extensión y complejidad progresivamente superior."
+        - "2.3. Seleccionar, organizar y aplicar conocimientos y estrategias complejas de planificación, producción, revisión y cooperación en la elaboración de textos de estructura clara y adecuados a las intenciones comunicativas, a las características contextuales, a los aspectos socioculturales y a la tipología textual."
+        - "3.1. Planificar, participar y colaborar asertiva y activamente en situaciones interactivas, orales, escritas o multimodales, sobre temas cotidianos de relevancia personal o de interés público cercanos a su experiencia, mostrando iniciativa, empatía y respeto por la cortesía lingüística."
+        - "3.2. Seleccionar, organizar y utilizar, de forma eficaz, espontánea y en diferentes entornos, estrategias adecuadas que le permitan poner en uso su repertorio lingüístico individual, para así iniciar, mantener y terminar la comunicación, tomar y ceder la palabra con amabilidad y ajustar la propia contribución a la de los interlocutores y las interlocutoras."
+        - "4.1. Interpretar y explicar textos, conceptos y comunicaciones de extensión media de cierta complejidad en situaciones en las que se deba atender a la diversidad, mostrando respeto y aprecio por las interlocutoras y los interlocutores y por las lenguas, variedades lingüisticas o registros empleados."
+        - "4.2. Aplicar estrategias avanzadas que ayuden a crear puentes y que faciliten la comunicación y sean adecuadas a las intenciones comunicativas, las características contextuales, los aspectos socioculturales y la tipología textual."
+        - "5.1. Registrar, reflexionar y compartir, a través de medios analógicos y digitales, los progresos y dificultades de aprendizaje de la lengua extranjera, utilizando con iniciativa y de forma creativa estrategias y conocimientos de mejora de la capacidad de comunicar y de aprender, comparando y contrastando las semejanzas y diferencias entre distintas lenguas de forma sistemática."
+        - "6.1. Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de Canarias y de países donde se habla la lengua extranjera, aplicando de forma sistemática estrategias en situaciones comunicativas interculturales y en contextos comunicativos menos habituales con resiliencia, rechazando y evaluando cualquier tipo de discriminación, prejuicio o estereotipo."
+  saberes_basicos:
+    - bloque: "Bloque I — Comunicación"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Estrategias de autorreparación, autoevaluación, planificación, ejecución, control y reparación de la comprensión, producción, coproducción y mediación de textos orales, escritos y multimodales. Funciones comunicativas (describir, narrar, dar instrucciones, expresar emociones, opinión y argumentación). Modelos contextuales y géneros discursivos de uso común, breves y sencillos, literarios y no literarios. Unidades lingüísticas y significados: entidad y propiedades, cantidad y cualidad, espacio, tiempo, afirmación, negación, interrogación y exclamación, y relaciones lógicas. Léxico común y específico, patrones sonoros y ortográficos, convenciones conversacionales, recursos para el aprendizaje, respeto de la propiedad intelectual, y herramientas analógicas y digitales."
+    - bloque: "Bloque II — Plurilingüismo"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Estrategias y técnicas para responder con autonomía a necesidades comunicativas superando las limitaciones del nivel de competencia; identificación, organización y uso creativo de unidades lingüísticas a partir de la comparación de lenguas y variedades del repertorio propio; autoevaluación, coevaluación y autorreparación con herramientas analógicas y digitales; metalenguaje para reflexionar sobre la comunicación y el aprendizaje; comparación sistemática entre lenguas por origen y parentesco."
+    - bloque: "Bloque III — Interculturalidad"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Valoración e integración de aspectos socioculturales y sociolingüísticos (convenciones sociales, instituciones, valores, estereotipos, lenguaje no verbal, historia y cultura) en comparación con las islas Canarias; estrategias para apreciar la diversidad lingüística, cultural y artística atendiendo a valores ecosociales y democráticos; detección, rechazo y actuación ante usos discriminatorios del lenguaje, con especial atención al género y la diversidad funcional."
+    - bloque: "Bloque IV — Dimensiones intrapersonal e interpersonal"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Aprecio de la lengua extranjera como medio de comunicación y entendimiento entre pueblos; estrategias colaborativas y dinámicas de trabajo en grupo; empatía y respeto por las opiniones ajenas; desarrollo de la autoconfianza, la iniciativa y la asertividad; motivación por el aprendizaje; estrategias de aprendizaje autónomo y pensamiento crítico; aprecio de la diversidad y el patrimonio lingüístico, cultural y artístico en comparación con Canarias."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "CP2", "CP3", "STEM1", "CD1", "CD2", "CD3", "CPSAA1.1", "CPSAA3.1", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE1", "CE2", "CCEC1", "CCEC3.1"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+resumen_ia: "Currículo de Lengua Extranjera I y II en Bachillerato Canarias (materia común), regulado por el Decreto 30/2023, con seis competencias específicas (C1-C6) impartidas en 1.º y 2.º de Bachillerato, y doce criterios de evaluación (seis por curso). Los enunciados de las competencias son idénticos en ambos cursos; varían los criterios de evaluación (mayor exigencia en 2.º) y, puntualmente, algún descriptor operativo (p. ej. C2 incorpora CPSAA5 en 2.º). Saberes organizados en cuatro bloques: comunicación, plurilingüismo, interculturalidad, y dimensiones intrapersonal e interpersonal, con atención constante a la comparación con Canarias."
+observaciones: "Extracción completada el 2026-08-05 a partir del texto oficial 07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt (1.º Bachillerato líneas ~59286-59705; 2.º Bachillerato líneas ~59705-60007; saberes básicos líneas ~59594-59698). Competencias con enunciado literal, descriptores por curso y los doce criterios de evaluación oficiales (seis por curso). Saberes básicos organizados en los cuatro bloques oficiales: Comunicación, Plurilingüismo, Interculturalidad y Dimensiones intrapersonal e interpersonal."

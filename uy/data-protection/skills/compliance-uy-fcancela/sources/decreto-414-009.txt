@@ -1,0 +1,565 @@
+Decreto N° 414/009 
+
+ Volver 
+
+ Decreto N° 414/009 REGLAMENTACION DE LA LEY 18.331, RELATIVO A LA PROTECCION DE DATOS PERSONALES 
+ 
+ Documento Actualizado
+
+ Ver Imagen del D.O.
+
+ Promulgación: 31/08/2009 Publicación: 15/09/2009 
+ Registro Nacional de Leyes y Decretos: 
+    Tomo: 1    Semestre: 2 
+    Año: 2009 
+    Página: 552 
+ 
+ Reglamentario/a de: Ley Nº 18.331 de 11/08/2008.
+ 
+ Referencias a toda la norma 
+ 
+ VISTO: que con fecha 11 de agosto de 2008 se promulgó la Ley Nº 18.331 de
+Protección de Datos Personales y Acción de "Habeas Data".
+
+RESULTANDO: I) que razones de juridicidad y conveniencia imponen estatuir
+aquellos aspectos básicos y primarios de la reglamentación, que ordenen y
+favorezcan su puesta en práctica de acuerdo con el postulado
+constitucional de que el derecho a la protección de datos personales es
+inherente a la personalidad humana y por lo tanto está comprendido en el
+art. 72 de la Constitución (art. 1 de la Ley).
+
+II) que las facultades legales del Organo de Control creado por los
+artículos 31 y siguientes de la Ley, incluyen la potestad regulatoria cuyo
+ejercicio permitirá continuar ordenando y favoreciendo la puesta en
+práctica de las actividades correspondientes;
+
+CONSIDERANDO: I) que la consagración del nuevo régimen legal para la
+protección de datos personales y acción de "habeas data", articula un
+conjunto de derechos y obligaciones vinculados a la recolección y
+tratamiento, automatizados o manuales, de los datos de las personas
+físicas y jurídicas;
+
+II) que es conveniente la adecuación del ordenamiento jurídico nacional en
+la materia al régimen de derecho comparado de mayor recibo,
+fundamentalmente el consagrado por los países europeos a través de la
+Directiva 95/46/CE del Parlamento Europeo y del Consejo, de 24 de octubre
+de 1995, relativa a la protección de las personas físicas en lo que
+respecta al tratamiento de datos personales y a la libre circulación de
+éstos.
+
+III) que asimismo corresponde reglamentar el funcionamiento de la Unidad
+Reguladora y de Control de Datos Personales creada por la preindicada Ley,
+la que tendrá a su cargo los cometidos que por ella se le asignan.
+
+ATENTO: a lo precedentemente expuesto y a lo preceptuado en las
+disposiciones citadas y en el artículo 168 ordinal 4º de la Constitución.
+
+ EL PRESIDENTE DE LA REPUBLICA
+ Actuando en Consejo de Ministros
+
+ DECRETA:
+
+ TITULO I. DISPOSICIONES GENERALES CAPITULO I. AMBITO DE APLICACION Artículo 1 Ambito subjetivo. El derecho a la protección de los datos personales se
+aplica a las personas físicas, directa o indirectamente, a través de
+cualquier información numérica, alfabética, gráfica, fotográfica, acústica
+o de cualquier otro tipo que refiera a ellas.
+
+Por extensión se aplica a las personas jurídicas, las que gozarán del
+régimen tuitivo en cuanto corresponda.
+ Artículo 2 Ambito objetivo. El régimen jurídico de la protección de datos personales
+se aplica a su recolección, registro y todo tipo de tratamiento,
+automatizado o no, bajo cualquier soporte y modalidad de uso, tanto sea en
+el ámbito público como privado.
+
+Este régimen no será aplicable a las siguientes bases de datos:
+
+A) Las mantenidas por personas físicas en el ejercicio de actividades
+exclusivamente personales o domésticas, entendiéndose por éstas las que se
+desarrollan en un ámbito estrictamente privado, entre otros, los archivos
+de correspondencia y agendas personales.
+
+B) Las que tengan por objeto la seguridad pública, la defensa, la
+seguridad del Estado y sus actividades en materia penal, investigación y
+represión del delito.
+
+C) Las creadas y reguladas por leyes especiales.
+ Artículo 3 Ambito territorial. Los tratamientos de datos personales están sometidos
+a la Ley que se reglamenta cuando:
+
+A) Sean efectuados por un responsable de base de datos o tratamiento
+ establecido en territorio uruguayo, siendo éste el lugar donde ejerza
+ su actividad, cualquiera sea su forma jurídica.
+
+B) El responsable de la base de datos o tratamiento no esté establecido en
+ territorio uruguayo pero utilice en el tratamiento de datos medios
+ situados en el país.
+
+Exceptúanse de la regla precedente, los casos en que los citados medios se
+utilicen exclusivamente con fines de tránsito, siempre que el responsable
+de la base de datos o tratamiento designe un representante, con domicilio
+y residencia permanente en territorio nacional, ante el Organo de Control,
+a los efectos de cumplir con las obligaciones previstas por la Ley que se
+reglamenta y en esta reglamentación. Tal designación no impedirá las
+acciones legales que puedan ser promovidas contra el responsable de la
+base de datos o tratamiento, ni disminuirá su responsabilidad en cuanto al
+cumplimiento de las obligaciones impuestas legal o reglamentariamente.
+
+ CAPITULO II. DEFINICIONES Artículo 4 Definiciones. A los efectos del presente reglamento, y sin perjuicio de
+las definiciones contenidas en la Ley que se reglamenta, se entiende por:
+
+A) Bloqueo de datos: procedimiento mediante el cual se reservan datos con
+el fin de impedir su tratamiento, excepto para ser puestos a disposición
+de los Poderes del Estado, o instituciones que estén legalmente
+habilitadas, a los efectos de atender las posibles responsabilidades
+surgidas del tratamiento.
+
+B) Cancelación o Supresión de datos: procedimiento mediante el cual el
+responsable cesa en el uso de los datos. La supresión o cancelación
+implicará el bloqueo de dichos datos durante el plazo establecido en la
+normativa vigente; vencido éste se deberá proceder a su eliminación
+definitiva.
+
+C) Cesión de datos: comunicación de acuerdo con lo establecido en el
+artículo 4º literal B) de la Ley que se reglamenta.
+
+D) Dato personal relacionado con la salud: las informaciones concernientes
+a la salud pasada, presente y futura, física o mental, de una persona.
+Entre otros, se consideran datos relacionados con la salud de las personas
+los referidos a su porcentaje de discapacidad o a su información genética.
+
+E) Exportador de datos personales: la persona física o jurídica, pública o
+privada, situada en territorio uruguayo que realice, conforme a lo
+dispuesto en el presente reglamento, una transferencia de datos de
+carácter personal a otro país.
+
+F) Importador de datos personales: persona física o jurídica, pública o
+privada, receptora de los datos de otro país, en caso de transferencia
+internacional de éstos, ya sea responsable del tratamiento, encargada del
+tratamiento o tercero.
+
+G) Interesado: titular del dato de acuerdo con lo establecido en el
+artículo 4º literal L) de la Ley que se reglamenta.
+
+H) Transferencia internacional de datos: tratamiento de datos que supone
+una transmisión de éstos fuera del territorio nacional, constituyendo una
+cesión o comunicación, y teniendo por objeto la realización de un
+tratamiento por cuenta del responsable de la base de datos o tratamiento
+establecido en territorio uruguayo.
+
+ CAPITULO III. CONSENTIMIENTO Artículo 5 Consentimiento informado para recolección y tratamiento de datos. Cuando
+se solicite el consentimiento del titular para la recolección y
+tratamiento de sus datos, éste deberá ser informado de forma que conozca
+inequívocamente la finalidad a la que se destinarán los datos, y el tipo
+de actividad desarrollada por el responsable de la base de datos o
+tratamiento. En caso contrario, el consentimiento será nulo.
+ Artículo 6 Formas de recabar el consentimiento. Deberá facilitarse al titular un
+medio sencillo, claro y gratuito para que manifieste su consentimiento o
+su negativa al tratamiento de sus datos.
+
+Se entenderá cumplido tal deber cuando se permita al titular la elección
+entre dos opciones claramente identificadas, que no se encuentren
+premarcadas a favor o en contra.
+
+Corresponderá al responsable de la base de datos o el tratamiento recabar
+y guardar la prueba de la existencia del consentimiento o de la negativa a
+darlo, por parte del titular, a través de cualquier medio conforme a
+derecho.
+
+El responsable de la base de datos o el tratamiento podrá solicitar el
+consentimiento del titular a través del procedimiento establecido en este
+artículo, sin perjuicio de otras formas o modalidades que le ofrezcan
+similares o superiores garantías.
+
+Vencido el plazo de diez días hábiles desde que el titular de los datos
+reciba la solicitud de consentimiento sin que se manifieste, su silencio
+equivaldrá a una negativa.
+
+ CAPITULO IV - SEGURIDAD Artículo 7 (*) (*) Notas: Derogado/s por: Decreto Nº 64/020 de 17/02/2020 artículo 17 .
+ TEXTO ORIGINAL: Decreto Nº 414/009 de 31/08/2009 artículo 7 .
+ 
+ Referencias al artículo 
+ 
+ Artículo 8 (*) (*) Notas: Derogado/s por: Decreto Nº 64/020 de 17/02/2020 artículo 17 .
+ TEXTO ORIGINAL: Decreto Nº 414/009 de 31/08/2009 artículo 8 .
+ 
+ Referencias al artículo 
+ 
+ TITULO II. DERECHOS DE LOS TITULARES DE DATOS CAPITULO I. DERECHO DE ACCESO Artículo 9 Derechos de los titulares de los datos. Los derechos de los titulares de
+los datos previstos en la Ley que se reglamenta se ejercitarán:
+
+A) Por el titular o su representante, acreditando la identidad de ambos en
+su caso; se aplicará por extensión a las personas jurídicas en cuanto
+corresponda.
+
+B) En forma conjunta o independiente.
+
+C) Exento de formalidades y en forma gratuita.
+
+D) Mediante comunicación dirigida al responsable de la base de datos o
+tratamiento, que contendrá:
+
+a. Identificación del titular.
+
+b. Motivo de la solicitud.
+
+c. Domicilio real y domicilio constituido a efecto de las
+ notificaciones.
+
+d. Fecha y firma del solicitante.
+
+e. Documentos acreditantes de la solicitud.
+
+El responsable deberá contestar la solicitud en el plazo de cinco días
+hábiles desde su presentación.
+
+La información que se proporcione, cualquiera sea el soporte en que fuere
+facilitada, se dará en forma legible e inteligible, sin utilizar claves o
+códigos.
+ Artículo 10 Derecho de rectificación. El derecho de rectificación es el que tiene el
+titular a que se modifiquen los datos que resulten ser inexactos o
+incompletos.
+ Artículo 11 Derecho de actualización. El derecho de actualización es el que tiene el
+titular a que se modifiquen los datos que resulten inexactos a la fecha de
+ejercicio del derecho.
+ Artículo 12 Derecho de inclusión. El derecho de inclusión es el que tiene el titular
+a ser incorporado con la información correspondiente en una base de datos
+cuando acredite un interés fundado.
+ Artículo 13 Derecho de supresión. El derecho de supresión es el que tiene el titular
+a que se eliminen los datos cuya utilización por terceros resulte
+ilegítima, o que resulten ser inadecuados o excesivos.
+
+La supresión no procederá cuando los datos personales deban ser
+conservados en virtud de razones históricas, estadísticas o científicas y
+de acuerdo con la legislación aplicable o, en su caso, en las relaciones
+contractuales entre el responsable y el titular, que justificaren el
+tratamiento de los datos.
+
+El responsable deberá documentar ante el titular haber cumplido con lo
+solicitado indicando las cesiones o transferencias de los datos suprimidos
+e identificando al cesionario.
+ Artículo 14 Derechos referentes a la comunicación o la cesión de datos. La
+comunicación o la cesión de datos a terceros, solamente procede para el
+cumplimiento de los fines directamente relacionados con el interés
+legítimo del emisor y destinatario de ésta, previo consentimiento del
+titular de los datos a quien se le debe informar inequívocamente la
+finalidad de dicha comunicación, identificando al destinatario y el tipo
+de actividad que desarrolla.
+
+No se considera comunicación o cesión de datos el acceso por parte de un
+encargado de tratamiento, que resulte necesario para la prestación de un
+servicio al responsable, salvo que este acceso implique la existencia de
+un nuevo vínculo entre el encargado del tratamiento y el titular.
+
+ TITULO III. REGIMEN REGISTRAL CAPITULO I. INSCRIPCION EN EL REGISTRO DE BASE DE DATOS PERSONALES Artículo 15 Actos y documentos inscribibles. En el Registro de Bases de Datos
+Personales de la URCDP, creado por el artículo 1º del Decreto Nº 664/008,
+de 22 de diciembre de 2008, deberán inscribirse:
+
+A) Las personas físicas que creen, modifiquen o supriman bases de
+datos de carácter personal, que no sean para uso exclusivamente personal o
+doméstico.
+
+B) Las personas jurídicas públicas, estatales o no, y las privadas,
+que creen, modifiquen o supriman bases de datos de carácter personal,
+salvo las excepciones previstas en la Ley que se reglamenta. De acuerdo
+con lo establecido en el art. 3 de la mencionada Ley no es de aplicación
+la excepción del ámbito personal o doméstico para las personas jurídicas.
+
+C) Los códigos de conducta de práctica profesional que establezcan
+normas para el tratamiento de datos personales.
+
+D) Las autorizaciones de transferencias internacionales de datos
+personales.
+
+Esta inscripción se llevará a cabo bajo los criterios reglamentarios
+contenidos en la Ley, en el presente Decreto, en el Decreto Nº 664/008, de
+22 de diciembre de 2008, u otras disposiciones que dicte la URCDP, de
+conformidad a las facultades legales conferidas.
+ Artículo 16 Contenido y forma de inscripción. Los responsables de todas las bases de datos o tratamientos deberán inscribirlas en el Registro de la URCDP de acuerdo con el Artículo N° 4 del Decreto N° 664/008, de 22 de diciembre 
+de 2008, proporcionando la siguiente información:
+
+A) Identificación de la base de datos y el responsable de la misma.
+
+B) Procedimientos de obtención y tratamiento de los datos.
+
+C) Medidas de seguridad y descripción técnica de la base de datos.
+
+D) Protección de datos personales y ejercicio de derechos.
+
+E) Destino de los datos y personas físicas o jurídicas a las que pueden
+ser transmitidos.
+
+F) Tiempo de conservación de los datos.
+
+G) Forma y condiciones en que las personas pueden acceder a los datos
+referidos a ellas y los procedimientos a realizar para la rectificación o
+actualización de los datos.
+
+H) Datos sometidos a tratamiento en dicha base de datos.
+
+I) Domicilio constituido a efectos de las comunicaciones y notificaciones
+que correspondan. (*) (*) Notas: Redacción dada por: Decreto Nº 308/014 de 22/10/2014 artículo 1 .
+ TEXTO ORIGINAL: Decreto Nº 414/009 de 31/08/2009 artículo 16 .
+ Artículo 17 Plazo de inscripción. Las bases de datos de carácter personal existentes,
+dispondrán de un plazo máximo de 90 días contados a partir de la
+publicación del presente Decreto en el Diario Oficial, para adecuarse a
+los requisitos y las condiciones de inscripción establecidos en la
+presente reglamentación y proceder a su registro. Las bases de datos que
+se crearen con posterioridad a la fecha de la aprobación del decreto,
+deberán ser inscriptas dentro de un plazo máximo de 90 días a partir del
+inicio de sus actividades.
+ Artículo 18 (*) (*) Notas: Derogado/s por: Decreto Nº 308/014 de 22/10/2014 artículo 2 .
+ TEXTO ORIGINAL: Decreto Nº 414/009 de 31/08/2009 artículo 18 .
+ Artículo 19 Fecha de la inscripción. Se computará como fecha de inscripción
+definitiva la correspondiente a la Resolución de la URCPD.
+
+Los responsables de bases de datos de carácter personal deberán exhibir en
+un lugar visible accesible a los usuarios el número y fecha de la citada
+resolución.
+ Artículo 20 Actualización al Registro. Los responsables de las bases de datos deberán
+mantener actualizados los datos inscriptos en el Registro de Base de Datos
+Personales, comunicando trimestralmente las actualizaciones.
+
+ TITULO IV. ORGANO DE CONTROL CAPITULO I. PRESIDENCIA Artículo 21 Presidencia de la URCDP. La dirección técnica y administrativa de la
+URCDP será ejercida por un Consejo Ejecutivo de tres miembros, de acuerdo
+con lo establecido en el artículo 31 de la Ley que se reglamenta.
+
+La Presidencia de la URCDP será rotativa anualmente entre los integrantes
+del Consejo Ejecutivo, a excepción del Director Ejecutivo de la Agencia
+para el Desarrollo del Gobierno de Gestión Electrónica y la Sociedad de la
+Información y del Conocimiento (AGESIC). En ausencia temporal del
+Presidente de la URCDP, la Presidencia será ejercida en forma interina por
+el restante miembro nombrado por el Poder Ejecutivo.
+ Artículo 22 Cometidos del Presidente. Al Presidente del Consejo Ejecutivo o a quien
+lo sustituya corresponde:
+
+A) La representación de la URCDP en sus relaciones externas por sí o por
+medio de apoderado en forma.
+
+B) Cumplir y hacer cumplir las normas constitucionales, legales y
+reglamentarias y ejecutar y hacer ejecutar las decisiones del Consejo
+Ejecutivo.
+
+C) Presidir las sesiones del Consejo Ejecutivo y dirigir sus
+deliberaciones.
+
+D) Adoptar las medidas que creyere conveniente en caso de urgencia, dando
+cuenta en la primera sesión del Consejo Ejecutivo y estando a lo que se
+resuelva.
+
+E) Estructurar el orden del día.
+
+F) Convocar las sesiones ordinarias y extraordinarias.
+
+G) Someter a la aprobación del Consejo Ejecutivo la planificación de la
+Unidad y el proyecto de memoria anual.
+
+H) Firmar las actas, las resoluciones del Consejo Ejecutivo y la
+correspondencia oficial.
+
+I) Firmar los contratos y documentos de cualquier naturaleza, debidamente
+autorizados por el Consejo Ejecutivo.
+
+J) Fiscalizar la administración ejecutiva y el desempeño de los
+funcionarios y demás personas que presten servicios en la URCDP, dando
+cuenta al Consejo Ejecutivo.
+
+ CAPITULO II. CONSEJO EJECUTIVO Artículo 23 Atribuciones del Consejo Ejecutivo. El Consejo Ejecutivo tendrá los
+siguientes cometidos:
+
+A) Difundir los derechos que con este régimen se garantizan y
+propiciar su conocimiento.
+
+B) Concertar convenios con organismos internacionales, previa
+autorización del Poder Ejecutivo.
+
+C) Asegurar la regularidad y eficiencia de las actividades propias de
+la Unidad, ejerciendo las potestades que le asigna la Ley que se
+reglamenta y las de administración correspondientes a la Unidad.
+
+D) Designar al funcionario o funcionarios que representarán a la
+Unidad en todas aquellas gestiones en que no fuere posible la intervención
+del Consejo Ejecutivo o de alguno de sus miembros.
+
+E) Dictar las normas y reglamentaciones que se deben cumplir en el
+desarrollo de las actividades comprendidas por la Ley que se reglamenta;
+incluyendo las medidas de seguridad en el tratamiento y conservación de
+los datos personales, que deberán observar los responsables, encargados y
+usuarios de bases de datos públicas y privadas.
+
+F) Resolver dentro de su competencia, todos los asuntos que propongan sus
+miembros.
+
+G) Realizar todas aquellas actividades necesarias para el cumplimiento
+de sus cometidos.
+
+H) Asesorar al Poder Ejecutivo sobre la normativa y proyectos de ley, en
+sus diferentes etapas, que refieran total o parcialmente a la protección
+de datos personales.
+
+I) Solicitar informes circunstanciados a entidades públicas y privadas,
+garantizando la seguridad y confidencialidad de los datos y elementos
+recibidos.
+
+J) Aplicar sanciones de acuerdo con lo establecido en el artículo 35
+de la Ley que se reglamenta.
+
+K) Mantener actualizado y disponible para la consulta el Registro de
+Bases de Datos Personales.
+
+L) Expedir las autorizaciones previstas en la Ley que se reglamenta.
+
+M) Expedir certificados de inscripción y habilitación en caso de
+corresponder.
+ Artículo 24 Funcionamiento del Consejo Ejecutivo. El Consejo Ejecutivo dictará su
+reglamento interno, con las siguientes bases:
+
+A) Las resoluciones se tomarán por mayoría. Si se produjera empate el
+ asunto será tratado en la próxima sesión y si éste subsistiera, el
+ voto del Presidente se computará doble.
+
+B) Cuando el Consejo Ejecutivo lo resuelva podrá formar Comisiones
+ Especiales, ya sea con carácter permanente o extraordinario, con el
+ objeto de asesorar o realizar trabajos, estudios o investigaciones
+ que se dispongan.
+ Artículo 25 Publicidad. La URCDP hará públicas las resoluciones que adopte, mediante
+la publicación en su sitio web, en forma posterior a la notificación. La
+publicación se realizará aplicando los criterios de disociación de los
+datos de carácter personal que a tal efecto se establezcan.
+
+En el caso de dictarse actos de carácter general se publicarán en el sitio
+web antes indicado y en el Diario Oficial.
+
+ CAPITULO III. CONSEJO CONSULTIVO Artículo 26 Funcionamiento del Consejo Consultivo. El Consejo Consultivo será
+convocado por el Consejo Ejecutivo, con una antelación mínima de cinco
+días y sesionará con una mayoría simple de sus integrantes.
+
+Habiendo quórum para sesionar, el Presidente declarará abierta la sesión,
+disponiendo leer el acta o actas anteriores correlativas si las hubiera.
+
+De todo lo actuado por el Consejo Consultivo se dejará constancia en acta,
+la cual una vez aprobada será firmada por todos los asistentes.
+ Artículo 27 Votación. Las decisiones se tomarán por mayoría de sus miembros. El
+Presidente tiene voz pero no voto.
+ Artículo 28 Elección de representantes del Consejo Consultivo. El representante del
+área académica en el Consejo Consultivo será designado por la Facultad de
+Derecho de la Universidad de la República a propuesta del Instituto de
+Derecho Informático.
+
+El representante del sector privado en el Consejo Consultivo será
+designado por la Cámara Nacional de Comercio y de Servicios.
+
+ TITULO V. NORMAS DE ACTUACION Artículo 29 Principios aplicables. La actuación administrativa de la URCDP se
+desarrollará con arreglo a los principios de imparcialidad, celeridad,
+eficacia, verdad material, informalismo, debido proceso, impulsión de
+oficio, buena fe, motivación de las decisiones y simplicidad, los que
+servirán de criterio interpretativo para resolver las cuestiones que
+puedan suscitarse en la tramitación de cualquier asunto.
+ Artículo 30 Tramitación. Iniciado un asunto, de naturaleza interna o externa,
+promovido por un interesado o de oficio, su instrucción deberá completarse
+en el mínimo tiempo posible.
+
+En todo lo no previsto expresamente en este Decreto, se aplicarán las
+normas contenidas en el Decreto Nº 500/991, de 27 de setiembre de 1991 y
+sus modificativos.
+ Artículo 31 Procedimiento relativo al ejercicio de la potestad sancionatoria. Ante
+una posible infracción de la Ley Nº 18.331 y su reglamentación, la URCDP
+podrá:
+
+A) Realizar las inspecciones que el Consejo Ejecutivo entienda pertinente,
+las que serán dispuestas por resolución fundada.
+
+B) Solicitar ante la justicia competente las medidas pertinentes, cuando
+exista riesgo de pérdida de la prueba. La solicitud de dichas medidas
+necesitará resolución fundada del Consejo Ejecutivo.
+
+C) Comunicar las actuaciones al responsable de la base de datos o
+tratamiento a efectos de otorgarle vista, confiriéndole un plazo de diez
+días, contados a partir del siguiente al de su notificación para
+evacuarla. Transcurrido el plazo establecido, se elevarán las actuaciones
+para resolución del Consejo Ejecutivo, el que tendrá un plazo de treinta
+días para expedirse. La resolución que recaiga será impugnable de acuerdo
+con las normas vigentes en la materia.
+ Artículo 32 Multas. El monto de las multas previstas en el numeral 2) del artículo 35
+de la Ley que se reglamenta, será recaudado por AGESIC y la totalidad de
+lo producido por su cobro se verterá a Rentas Generales.
+ Artículo 33 Suspensión. La AGESIC promoverá la suspensión de la base de datos de
+acuerdo con lo previsto en el art. 35 numeral 3º de la Ley 18.331, previo
+pronunciamiento del Consejo Ejecutivo de la URCDP, en los casos que se
+comprobare que se han infringido o transgredido la Ley y/o su
+reglamentación.
+ Artículo 34 Procedimiento de autorización de transferencias internacionales de datos. El procedimiento para la autorización de transferencia internacional de datos a terceros países, de conformidad con lo expresado en el artículo 23 de la Ley que se reglamenta, se iniciará siempre a solicitud del exportador que pretenda llevarla a cabo.
+ Artículo 35 Contenido de la solicitud de transferencia internacional de datos. Dicha
+solicitud, además de los requisitos legalmente exigidos, deberá contener:
+
+A) La identificación de la base de datos y su código de inscripción en
+el Registro de Bases de Datos Personales.
+
+B) La descripción de la transferencia, respecto de la que se solicita
+la autorización, con indicación de la finalidad que la justifica,
+adjuntando la documentación acreditante.
+
+Cuando la autorización se fundamente en la existencia de un contrato entre
+el importador y el exportador de los datos, deberá aportarse copia del
+mismo acreditándose la concurrencia de poder suficiente de sus otorgantes.
+
+Podrán realizarse transferencias internacionales de datos en empresas
+multinacionales, únicamente entre la matriz y sus filiales y/o sucursales
+y entre éstas, cuando posean códigos de conducta debidamente inscriptos
+ante la URCDP. Esto será de aplicación a los organismos internacionales.
+ Artículo 36 Procedimiento de inscripción de códigos de conducta. El procedimiento
+para inscripción en el Registro de Bases de Datos Personales de los
+códigos de conducta se iniciará siempre a solicitud del responsable de la
+base de datos.
+
+La solicitud deberá acompañarse de los siguientes documentos:
+
+A) Identificación de la institución.
+
+B) Identificación del código de conducta y su responsable.
+
+C) Contenido del código de conducta.
+
+La inscripción de los códigos de conducta se regirá por el mismo
+procedimiento establecido para las bases de datos.
+ Artículo 37 Procedimiento para la autorización de conservación de datos para fines
+históricos, estadísticos o científicos. El procedimiento para la
+autorización de conservación de datos personales con fines históricos,
+estadísticos o científicos se iniciará siempre a petición del responsable
+que pretenda obtener la declaración.
+
+En el escrito de solicitud el responsable deberá:
+
+A) Identificar el tratamiento de datos al que pretende aplicarse la
+excepción.
+
+B) Establecer las causas que justificarían la declaración.
+
+C) Presentar las medidas que el responsable de la base de datos se propone
+implantar para garantizar el derecho a los ciudadanos.
+
+D) Acompañar los documentos necesarios para justificar su solicitud.
+
+Previo a adoptar resolución, la URCDP podrá solicitar la opinión de
+instituciones u organismos, públicos o privados, que tengan competencia o
+mérito para ser consultados en relación al caso.
+ (*) Notas: Ver en esta norma, artículo: 38 .
+ 
+ Referencias al artículo 
+ 
+ Artículo 38 Tratamiento con fines históricos, estadísticos o científicos. La URCDP
+podrá, previa solicitud del responsable del tratamiento conforme al
+procedimiento establecido en el artículo precedente, autorizar el
+mantenimiento íntegro o parcial de los datos, atendiendo a la finalidad de
+sus valores históricos, estadísticos o científicos.
+ 
+ Referencias al artículo 
+ 
+ Artículo 39 Suspensión de la eliminación de la base de datos. La presentación de la
+solicitud suspende la obligación de eliminar la base de datos, hasta tanto
+se decida sobre la misma.
+ Artículo 40 Derogación. Deróganse el literal d) del artículo 5º y el artículo 6 del
+Decreto 664/2008 de 22 de diciembre de 2008.
+ Artículo 41 Comuníquese, publíquese, etc.
+ TABARE VAZQUEZ - JORGE BRUNI - GONZALO FERNANDEZ - ALVARO GARCIA - JOSE BAYARDI - MARIA SIMON - VICTOR ROSSI - DANIEL MARTINEZ - JULIO BARAIBAR - MARIA JULIA MUÑOZ - ERNESTO AGAZZI - HECTOR LESCANO - CARLOS COLACCE - MARINA ARISMENDI
+
+ Ayuda

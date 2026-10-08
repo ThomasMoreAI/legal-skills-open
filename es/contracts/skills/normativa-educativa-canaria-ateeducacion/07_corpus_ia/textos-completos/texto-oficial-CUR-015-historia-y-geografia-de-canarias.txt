@@ -1,0 +1,877 @@
+ID interno: CUR-015
+Título oficial: Historia y Geografía de Canarias — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+HISTORIA Y GEOGRAFÍA DE CANARIAS
+Introducción
+Historia y Geografía de Canarias es una materia obligatoria que se imparte en el tercer curso de la
+Educación  Secundaria  Obligatoria  y  que  se  centra  en  el  archipiélago  canario  como  objeto  de
+conocimiento y como contexto para el desarrollo de los aprendizajes. Se trata de una materia
+estrechamente vinculada con el currículo de Geografía e Historia. Comparte con este último las
+herramientas  adecuadas  para  introducir  al  alumnado  en  procesos  de  investigación  a  partir  del
+análisis, la interpretación y el manejo de fuentes diversas válidas para estructurar su aprendizaje,
+indagando a partir de los hechos históricos o los fenómenos y aspectos geográficos. Además, estas
+herramientas favorecen la capacidad crítica frente a una realidad cambiante, teniendo presentes los
+procesos históricos que han conformado la sociedad canaria actual, cada vez más globalizada, desde
+la realidad más cercana, del entorno canario, al mundo.
+Esta  materia  contribuye  a  la  formación  global  como  ciudadanía  crítica,  con  capacidad  para
+desarrollar una conciencia histórica y geográfica de esta variable realidad que le ha tocado vivir y,
+por tanto, perfectamente preparada para contribuir a la construcción de un mundo más igualitario y
+justo. Por otro lado, el conocimiento de las relaciones humanas resulta esencial para la adquisición
+de  competencias  relacionadas  con  responsabilidades  sociales  y  medioambientales.  Con  ella  se
+propicia que nuestro alumnado valore lo local en el marco de lo global, desde una perspectiva
+multicultural de la realidad y de la proyección histórica de Canarias, con una metodología de
+experimentación e innovación pedagógica, facilitando la gestión de la información y de recursos
+dirigida a favorecer el conflicto cognitivo, partiendo de la superación de tópicos mediante el análisis
+crítico, con prácticas de aula centradas en la interacción comunicativa y en los procesos de reflexión
+grupal, siempre entre iguales.
+La vinculación de la materia de Geografía e Historia en la Educación Secundaria Obligatoria con el
+proceso de desarrollo competencial del área de Conocimiento del Medio Natural, Social y Cultural
+de la Educación Primaria determina la capacidad que tienen tanto la geografía como la historia,
+disciplinas enmarcadas en las ciencias sociales, para contribuir a los objetivos y a la adquisición de
+las competencias que marcan el Perfil de salida del alumnado al término de la enseñanza básica,
+conectando, en el caso de Historia y Geografía de Canarias, de forma más cercana con la realidad
+del  alumnado  canario. Esta materia debe contribuir de manera  específica  a la adquisición del
+conocimiento  espacio-temporal  de  los  procesos,  tanto  geográficos  como  históricos,  para  la
+comprensión de los cambios que se producen en la sociedad canaria y en la organización de nuestro
+territorio a lo largo del tiempo a través del impacto humano en el medio.
+Además, Historia y Geografía de Canarias conecta con la Ley Canaria de Educación, que establece
+en su artículo 5.2.m: «Fomentar el conocimiento, el respeto y la valoración del patrimonio cultural y
+natural de Canarias desde una perspectiva de creación de una convivencia más armoniosa entre la
+ciudadanía y el entorno». Desde esta perspectiva, el interés, el conocimiento y la preservación del
+patrimonio, natural, social, cultural e histórico canario deben utilizarse como recurso didáctico para
+el aprendizaje de valores no solo artísticos y estéticos, sino también inmateriales y sociales. De esta
+manera, se garantiza la transmisión del legado a futuras generaciones y, al mismo tiempo, permitirá
+un  acercamiento  a  la  identidad  cultural  canaria  alejada  de  cualquier  tópico.  La  aproximación
+diacrónica y la integración de diversas disciplinas relacionadas con esta materia le confieren un
+fuerte potencial explicativo para entender la realidad actual de Canarias desde una perspectiva
+1
+
+=== Página 2 ===
+
+histórica. Con ella, el alumnado aprenderá a «educar la mirada» para reconocer en el entorno que lo
+rodea, de manera más concreta, y en el archipiélago, de forma general, los procesos geográficos e
+históricos cuyos vestigios han quedado integrados en el territorio de alguna manera, mediante el
+amplio  legado  patrimonial  de  las  islas,  en  cualquiera  de  sus  manifestaciones  materiales  o
+inmateriales.  De  este  modo,  con  la  materia  que  nos  ocupa,  el  currículo  se  vincula  de  forma
+significativa con el contexto cultural y social en que vive nuestro alumnado, contribuyendo a
+fortalecer el aula canaria como un espacio multicultural que dedica parte de su tiempo a analizar lo
+local para consolidar la formación de una ciudadanía con vocación universal.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+Los objetivos de la Educación Secundaria Obligatoria contribuirán a desarrollar en el alumnado las
+capacidades  que  les  permitan  el  diseño  y  la  realización  de  las  actividades  necesarias  para  la
+consecución de las grandes finalidades educativas. El carácter integrador y global de la materia hace
+que desde ella se trabaje para alcanzar, en mayor o menor medida, prácticamente todos los objetivos
+de la etapa. Se pretende que el alumnado asuma responsablemente sus deberes, conozca y ejerza sus
+derechos en el respeto a las demás personas para el ejercicio de la ciudadanía democrática (a). Este
+es el eje vertebrador de Historia y Geografía de Canarias, puesto que ello implica comprender la
+realidad social en la que se vive como sujetos activos, aprender a afrontar los conflictos mediante el
+diálogo, así como rechazar la violencia (d).
+El alumnado construirá su propio aprendizaje desarrollando y consolidando hábitos de disciplina,
+estudio y trabajo individual y en equipo (b). Fortalecerá sus capacidades afectivas, respetará las
+diferencias entre sexos y la igualdad de los derechos y oportunidades (c). Se pretende que el
+alumnado desarrolle la madurez mediante el manejo de las fuentes de información (e), lo que le
+permitirá adquirir nuevos conocimientos para identificar los problemas en los distintos campos y la
+experiencia (f). También es importante la comunicación de los saberes adquiridos, con corrección
+oral y escrita (h), de los productos obtenidos de trabajos individuales y grupales, es decir, la
+socialización del conocimiento con diferentes fines y en diferentes contextos.
+Historia y Geografía de Canarias permite valorar y respetar los aspectos básicos de la cultura o la
+historia propias, así como de otras poblaciones, junto con el patrimonio natural, social, cultural e
+histórico canario (j). Es necesario también apreciar la creación artística y comprender el lenguaje de
+las distintas manifestaciones, utilizando diversos medios de expresión y representación (l). Todo
+ello sin dejar de lado el espíritu emprendedor y la autoconfianza, la participación, el sentido crítico,
+la iniciativa personal, la capacidad para aprender a aprender, planificar, tomar decisiones y asumir
+responsabilidades (g).
+2
+
+=== Página 3 ===
+
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La Competencia en comunicación lingüística (CCL) es básica para identificar, comprender, expresar
+ideas, opiniones y sentimientos, con diferentes propósitos educativos, tanto oralmente como por
+escrito, en distintos soportes audiovisuales y multimodales, en diferentes contextos y con distintos
+fines, así como es necesaria para comunicarse eficazmente con otras personas de manera creativa,
+cooperativa, ética y respetuosa. Esta competencia está conectada con las competencias específicas
+C1, C2, C4, C5 y C6.
+Se consigue con el desarrollo de una serie de destrezas, habilidades y estrategias intelectuales como
+la comprensión lectora, la interpretación de fuentes diversas y el análisis crítico y objetivo. Por otra
+parte, la transmisión de los conocimientos adquiridos conlleva la utilización de técnicas del discurso
+tales como descripción, narración, exposición o argumentación. El alumnado canario será el gran
+protagonista de su proceso de aprendizaje, para lo que es necesaria la comunicación oral, escrita,
+multimodal  o signada  en  distintos tipos  de  soportes  y  medios.  Además,  poniendo  en  valor  la
+modalidad  lingüística  canaria  como  parte  de  nuestro  patrimonio  cultural  o  iniciándose  en  el
+conocimiento y la práctica del silbo gomero.
+La Competencia plurilingüe (CP) implica el manejo de diversas lenguas correcta y eficientemente
+para  el  aprendizaje  y  la  comunicación.  Esta  competencia  está  conectada  con  la  competencia
+específica C4.
+En la materia de Historia y Geografía de Canarias esta competencia implica conocer y respetar los
+perfiles lingüísticos individuales aportados por las diferentes culturas a lo largo de la historia en
+Canarias  y  la  puesta  en  valor  del  patrimonio  material  e  inmaterial  que  compartimos  para
+conservarlo y respetar los sentimientos de pertenencia. Entre ese patrimonio tenemos los préstamos
+culturales y las reinterpretaciones locales de las aportaciones extranjeras, así como la diversidad
+social y multicultural actual en las islas.
+La  Competencia  matemática  y  competencia  en  ciencia,  tecnología  e  ingeniería  (STEM)  hace
+referencia  a  comprender  y  transformar  el  entorno  de  un  modo  comprometido,  responsable  y
+sostenible  usando  el  método  científico,  el  pensamiento  y  la  representación  matemáticos,  la
+tecnología y las técnicas de la ingeniería.
+La  aportación  de  Historia  y  Geografía  de  Canarias  a  esta  competencia  supone  el  empleo  de
+estrategias matemáticas para el estudio del medio natural y social, así como la puesta en práctica del
+método científico en procesos de investigación que conllevan el tratamiento de las fuentes y el
+empleo de herramientas propias de la materia, dirigidas a interpretar, sintetizar o comunicar la
+información y el conocimiento.
+Se  contribuye  a  ella  fundamentalmente  a  través  de  la  geografía,  cuyo  objeto  de  estudio  es
+precisamente el espacio físico en el que se desarrolla la actividad humana, así como la interacción
+que  se  produce  entre  ambos.  La  utilización  de  herramientas  y  procedimientos  propios  de  las
+matemáticas y de la ciencia para la descripción y el análisis de la realidad social y espacial del
+archipiélago  amplían  el  conjunto  de  situaciones  en  las  que  el  alumnado  participa  de  manera
+3
+
+=== Página 4 ===
+
+empírica en proyectos para interpretar la realidad, plantearse preguntas y extraer conclusiones. Esta
+competencia está conectada con las competencias específicas C1, C3, C4 y C5.
+La  Competencia  digital (CD) radica en hacer un uso seguro y responsable de las tecnologías
+digitales, tanto en el ámbito educativo como en el laboral y social. En la materia de Historia y
+Geografía de Canarias la competencia digital implica seleccionar, tratar y organizar información
+sobre temas relevantes del presente y a lo largo del tiempo. Entrenar esta competencia resulta
+esencial para la adquisición e incorporación de datos, la creación de contenidos digitales y saberes,
+lo que implica el desarrollo de estrategias complejas asociadas a la utilización de sistemas de
+búsqueda, bases de datos y plataformas de recursos en entornos digitales accesibles al alumnado,
+muchos de ellos canarios (universidades, centros de investigación, museos, instituciones culturales,
+etc.). También permite trabajar aspectos relacionados con la ciudadanía digital, la privacidad, la
+propiedad intelectual y la resolución de problemas. Esta competencia se encuentra conectada con
+las competencias específicas C2, C4 y C6.
+La  Competencia  personal,  social  y  de  aprender  a  aprender  (CPSAA)  está  relacionada  con  la
+habilidad de reflexionar sobre uno mismo o una misma, aceptarse y promover un crecimiento
+personal constante, una buena gestión del tiempo, adaptarse a los cambios y a la incertidumbre,
+cooperar  e  interactuar  con  la  gente  de  alrededor  y  favorecer  la  capacidad  de  aprendizaje  y
+crecimiento personal a lo largo de la vida.
+Asimismo, esta materia favorece el desarrollo de estrategias, la aplicación de razonamientos de
+distinto tipo, la búsqueda de explicaciones multicausales y de predicción de los efectos provocados
+por los fenómenos sociales y naturales, además de conocer las distintas fuentes de información y su
+utilización  correcta.  Es  el  caso  de  la  realización  de  resúmenes,  informes,  esquemas,  mapas
+conceptuales, organizadores gráficos y rutinas de pensamiento, entre otros. Incluye también la
+capacidad de hacer frente a la incertidumbre y a la complejidad, adaptarse a los cambios, aprender a
+gestionar los procesos metacognitivos, a autoevaluarse, a contribuir al bienestar físico y emocional
+propio y de las demás personas, a través del trabajo cooperativo, conservar la salud física y mental,
+así como ser capaz de llevar una vida orientada al futuro, expresar empatía y abordar los conflictos
+en un contexto integrador y de apoyo. Esta competencia se encuentra conectada con la competencia
+específica C4.
+La Competencia ciudadana (CC) se refiere a participar de un modo activo, responsable y cívico en
+el desarrollo de la sociedad, además de fomentar una ciudadanía mundial y adquirir un compromiso
+con la sostenibilidad.
+La implicación de la materia con esta competencia está referida a la toma de conciencia de los
+ciclos demográficos, las formas de vida y las relaciones intergeneracionales y de dependencia en la
+sociedad actual y su evolución a lo largo del tiempo analizándolas de forma crítica. Asimismo, se
+busca promover alternativas saludables, sostenibles, enriquecedoras y respetuosas con la dignidad
+humana y el compromiso con la sociedad y el entorno.
+Mediante  esta  competencia  se  pretende  asumir  el  compromiso  colectivo  de  formar  parte  de
+programas y misiones que contribuyan a la seguridad y a la paz mundial y a la cooperación con
+otros países en situaciones de emergencia o pobreza, bajo la garantía de organismos y entidades
+estatales o internacionales que aseguren el logro de los grandes compromisos contenidos en los
+Objetivos de Desarrollo Sostenibles y las metas canarias que responden a los retos identificados en
+la Agenda Canaria de Desarrollo Sostenible 2030, lo que supone promover el interés del alumnado
+por la realidad internacional y los problemas existentes en el mundo en que vivimos. Para ello se
+4
+
+=== Página 5 ===
+
+hace necesaria la realización de trabajos colaborativos, debates,  mesas redondas…, que potencien
+los  valores  democráticos  en  el  alumnado.  Esta  competencia  se  encuentra  conectada  con  las
+competencias específicas C1, C2, C3, C4, C5 y C6.
+La Competencia emprendedora (CE) consiste en la capacidad de identificar las oportunidades y
+utilizar los conocimientos adquiridos anteriormente para idear procesos que contribuyan a alcanzar
+unos objetivos preestablecidos o aportar valor añadido a algo, poniendo en juego la creatividad y la
+iniciativa, pasando de las ideas a la acción.
+La contribución de la materia a esta competencia se logra a partir del fomento de tareas activas y
+participativas en programas de la vida real llevadas a cabo en contextos colaborativos, alejadas de
+modelos agresivos y competitivos, en las que es fundamental que el alumnado canario ponga en
+práctica  los  conocimientos  adquiridos,  realizando  un  planteamiento  de  los  objetivos  y  una
+planificación  para  conseguirlos.  Con  ello  se  desarrollarán  capacidades  como  las  de  análisis,
+organización, gestión, toma de decisiones, adaptación a los cambios, liderazgo, etc., y valores como
+la creatividad, la responsabilidad, el compromiso por transformar su realidad más cercana y el
+espíritu crítico. Además, el estudio de las diferentes formas de organizaciones laborales, sindicatos
+y  tejidos empresariales, de  sus  orígenes  y sus fines,  o de  determinadas iniciativas  públicas y
+privadas que favorecen o dificultan el desarrollo de unas sociedades más justas, en las que todas las
+personas tengan las mismas oportunidades, permite la adquisición personal de posturas éticas frente
+a las desigualdades espaciales, sociales, de género o de cualquier otro tipo. Esta competencia se
+encuentra conectada con las competencias específicas C2 y C5.
+La Competencia en conciencia y expresión culturales (CCEC) se fundamenta en tener una actitud
+crítica, positiva, respetuosa y abierta al diálogo ante las diferentes manifestaciones culturales y
+artísticas que existen.
+La  adquisición  de  esta  competencia  en  la  materia  Historia  y  Geografía  de  Canarias  conlleva
+implicarse, de diversas maneras y en diversos contextos, en la comprensión, el desarrollo y la
+expresión de las ideas propias y del sentido del lugar que ocupamos o del papel que desarrollamos
+en la sociedad. Requiere, por tanto, comprender la propia identidad en continuo desarrollo, el
+patrimonio en un contexto de diversidad cultural y el modo en el que el arte y otras manifestaciones
+culturales  son  una  forma  de  ver  el  mundo  y  de  transformarlo.  Para  ello  el  alumnado  se
+comprometerá en la conservación del patrimonio cultural del archipiélago, mediante proyectos
+reales con la comunidad, valorando la diversidad cultural. Aprenderá a mirar una obra de arte
+mediante el análisis de sus aspectos formales, identificando sus lenguajes y elementos técnicos en
+distintos medios y soportes y la contextualización en el sentido artístico y el periodo histórico en el
+que se insertan. De igual forma, expresará ideas y opiniones de manera creativa y abierta, para
+desarrollar la autoestima, la creatividad y el sentido de pertenencia, a través de la producción
+cultural y artística. Esta competencia se encuentra conectada con las competencias específicas C2,
+C4 y C6.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+5
+
+=== Página 6 ===
+
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Historia y Geografía de Canarias se han establecido seis competencias específicas
+que se concretan en un total de veinticuatro criterios de evaluación. Estos criterios de evaluación
+presentan una marcada naturaleza competencial, de manera que se relacionan directamente con los
+descriptores  operativos  del  Perfil  de  salida  a  los  que  contribuye  la  competencia  específica,
+expresando  tanto  las  capacidades  y  los  saberes  a  adquirir,  así  como  el  contexto  y  modo  de
+aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+Con el desarrollo de esta competencia se pretende que el alumnado utilice como escenario de
+aprendizaje, real o virtual, la Red Canaria de Espacios Naturales Protegidos. El alumnado deberá
+ser capaz de realizar procesos de planificaci ón y b úsqueda de información dirigidos a identificar,
+analizar e interpretar elementos del paisaje natural que le permitan conocer el origen de las islas, as í
+como sus principales caracter ísticas físicas, climáticas y biogeogr áficas. El objetivo será construir
+conocimiento partiendo de la investigación, elaborando síntesis y productos explicativos a la vez
+que  participando  en  debates,  asambleas,  foros  virtuales,  etc.,  para  tomar  conciencia  de  la
+singularidad del medio natural canario, su fragilidad, su inter és científico y patrimonial, junto a sus
+necesidades  de  gesti ón  y  conservaci ón,  comprendiendo  las  relaciones  sistémicas  de
+interdependencia, ecodependencia e interconexión entre actuaciones locales y globales.
+Competencia específica 2 (C2)
+Esta competencia tiene como finalidad evaluar si el alumnado, haciendo uso del an álisis de fuentes
+arqueológicas y documentales, es capaz de elaborar un recorrido diacr ónico por el proceso de
+configuración de la sociedad canaria, desde el primer poblamiento humano hasta la actualidad, que
+le permita construirse un juicio personal desde el debate y la reflexi ón grupal sobre los aspectos
+clave que le han definido históricamente: su posición geopolítica tricontinental, la interculturalidad,
+los conflictos y las tensiones sociales, la dependencia económica exterior, las migraciones y los
+elementos que definen  el  hecho  diferencial  canario,  así  como  aquellas personas que han  sido
+referentes  en  distintos  procesos  y  etapas  históricas.  Deber á  poder  desarrollar  pequeñas
+6
+
+=== Página 7 ===
+
+investigaciones para conocer las principales hip ótesis sobre el poblamiento aborigen, analizar c ómo
+se  configura  una  sociedad  insular  en  el  marco  geopol ítico  europeo  a  partir  del  siglo  XV  y,
+finalmente, valorar los rasgos que singularizan a la sociedad canaria, producto de esa trayectoria
+histórica. Se pondrá especial énfasis en sus características actuales y en su realidad multicultural.
+Competencia específica 3 (C3)
+Con el desarrollo de esta competencia se pretende que el alumnado realice una lectura hist órica del
+paisaje, reconociendo, analizando e interpretando en el territorio las evidencias materiales de las
+transformaciones  como  consecuencia  de  su  explotaci ón  (yacimientos  arqueol ógicos,  bancales
+abandonados,  caminos  reales,  eras,  hornos,  caser íos,  cascos  hist óricos,  factorías,  chimeneas,
+pajeros, carboneras, puertos pesqueros, pescantes, ingenios, molinos, acequias, salinas, saladeros,
+antiguos enclaves hoteleros, plazas, ermitas, iglesias, cruceros, etc.), para evaluar la importancia
+histórica de la agricultura de exportaci ón desde el siglo XVI, la agricultura de autoconsumo, el
+impacto de las comunicaciones insulares, interinsulares y exteriores, el desarrollo industrial, la
+actividad portuaria y comercial y el crecimiento de las ciudades o la explotación turística de las islas
+desde sus orígenes hasta la actualidad. El objetivo será conocer las distintas fases de la econom ía en
+Canarias, evaluar su nivel de impacto sobre el territorio y valorar su contribuci ón al paisaje actual
+de  las  islas,  contribuyendo  a  fomentar  una  visión  del  patrimonio  cultural  más  allá  de  una
+interpretación como vestigio del pasado, esto es, un patrimonio vivo con nexos con el presente y
+que se adapte a un contexto cambiante como el actual.
+Competencia específica 4 (C4)
+La  finalidad  de  esta  competencia  específica  es  que  el  alumnado  maneje  datos  diversos
+(bioantropológicos, arqueol ógicos, documentos textuales de tipolog ía variada, testimonios orales,
+etc.)  para  analizar,  desde  un  punto  de  vista  hist órico,  los  cambios  y  las  permanencias  en  el
+comportamiento cotidiano de las poblaciones insulares. Se trata de indagar en las pr ácticas sociales
+que han caracterizado a las mujeres y a los hombres de Canarias desde el primer poblamiento
+humano hasta la actualidad, prestando especial atención a grupos y movimientos que han defendido
+los derechos de distintos colectivos sociales. En su conjunto, el objetivo es entender c ómo se ha ido
+configurando  el  acervo  cultural  canario  y  valorar  la  imbricación  entre  lo  local  e  insular  y  la
+impronta multicultural histórica del archipiélago.
+Competencia específica 5 (C5)
+Con el desarrollo de esta competencia se pretende que el alumnado descubra la participaci ón de las
+islas en el conjunto de las relaciones internacionales y nacionales desde la modernidad con el objeto
+de tomar consciencia de cómo se han visto afectadas las islas o han tenido una participaci ón activa
+en  procesos  hist óricos  generales,  como  la  actividad  pir ática  en  el  Atl ántico,  las  guerras
+hispanobritánicas del siglo XIX, la independencia de los territorios americanos españoles, las dos
+guerras mundiales, la Guerra Civil, la integración en la Unión Europea, etc., partiendo de una
+realidad histórica que define a Canarias por el denominado hecho diferencial canario (entre otras
+cosas, por los puertos francos de 1852) y por su concepción atlántica. Se trata de estudiar y analizar
+aquellos elementos que definen la historia y el patrimonio cultural de las islas tomando como
+referencia los testimonios de sus protagonistas, a trav és de crónicas y relatos conservados, o incluso
+mediante encuestas. En efecto, se trata de valorar el impacto social, econ ómico y cultural sobre las
+distintas generaciones de la poblaci ón canaria y el papel geoestrat égico desempeñado por las islas
+desde su incorporaci ón a la órbita geopol ítica internacional. Se pone en valor la historia como
+7
+
+=== Página 8 ===
+
+disciplina que da una gran importancia a la observación, la reflexión y el análisis crítico de las
+fuentes y la documentación frente a la desinformación y la manipulación.
+Competencia específica 6 (C6)
+Con esta competencia se pretende que el alumnado analice el papel general de la cultura y la ciencia
+en Canarias a lo largo de la historia y que valore el grado de vinculación que las islas han tenido con
+las tendencias y corrientes nacionales e internacionales. Mediante una aproximaci ón anal ítica a
+personas y colectivos destacados de las ciencias, la cultura y el arte, y a sus obras o aportaciones, se
+pretende que se adopte una posici ón crítica y reflexiva sobre las diferencias hist óricas de g énero y
+de clase en el acceso a la cultura y los efectos del insularismo, as í como sobre la importancia de las
+relaciones con los c írculos culturales externos a las islas como v ía para la proyecci ón internacional
+de estas y para el enriquecimiento de nuestro legado cultural.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Están estructurados en tres bloques, donde el protagonismo corresponde al alumnado canario, que
+construye sus saberes para dotarlos de significado y comprender con ellos el mundo en el que vive.
+Se trata de no incurrir en enfoques exclusivamente academicistas en la presentación y organización
+de  los  saberes,  tradicionalmente  dispuestos  en  campos  disciplinares  estancos,  excesivamente
+concretos,  cerrados  en  ámbitos  temáticos  y  a  través  de  secuencias  diacrónicas  sucesivas,
+promoviendo una perspectiva más abierta y flexible en la que las dimensiones del espacio y del
+tiempo  puedan  ser  interpretadas  y  desarrolladas  en  3.º  de  la  ESO,  permitiendo  combinar  la
+geografía y la historia de Canarias y conectar sus métodos y campos de estudio.
+La presencia del Bloque I, denominado «Retos del mundo actual», contribuye a que en 3.º de la
+ESO se preste especial atención a los desafíos y problemas del presente y del entorno local y global,
+destinado a despertar en el alumnado una mirada crítica y responsable. También a incidir en el
+desarrollo  de  procesos  de  aprendizaje  relacionados  con  la  sociedad  de  la  información  y  del
+conocimiento que exigen una constante actualización y puesta al día, así como a disponer de las
+habilidades y actitudes necesarias para actuar adecuadamente en las plataformas digitales y redes de
+comunicación.  A través  de  este  enfoque  basado  en  problemas  sociales  relevantes  se  pretende
+despertar la conciencia histórica sobre problemas, conflictos e incertidumbres actuales. De este
+modo, se complementan las visiones geográfica e histórica de la sociedad canaria a través de su
+dinámica y evolución en el tiempo. Se persigue con ello que los juicios propios y la capacidad de
+diálogo y de debate estén fundamentados y argumentados, previniendo la desinformación, la falta
+de criterio y las actitudes intolerantes.
+El Bloque II, de «Sociedades y territorios», está orientado a la aplicación de estrategias y métodos
+de las ciencias sociales y, en concreto, de los procedimientos y las técnicas que aportan la geografía
+y la historia de Canarias a través de metodologías como pueden ser el trabajo por proyectos, el
+desarrollo de experiencias de investigación y otras propuestas basadas en el aprendizaje inductivo y
+la experimentación. Tales estrategias y métodos se organizan en torno a las grandes cuestiones que
+preocupan a la humanidad y que contribuyen a explicar el origen y evolución de las sociedades a lo
+largo del tiempo y del espacio, desde la prehistoria hasta el mundo contemporáneo, contribuyendo,
+8
+
+=== Página 9 ===
+
+en todos los casos, a la comprensión general de permanencias y cambios y contextualizando y
+mostrando la conexión con el presente de los fenómenos analizados.
+El Bloque III de saberes básicos, «Compromiso cívico local y global», subraya la importancia de
+este componente que integra, además de valores y actitudes, otros ámbitos asociados al desarrollo
+personal del alumnado. Estas dimensiones son fundamentales para la formación integral, tanto por
+el sentido que otorga al resto de los saberes, a los que complementa y da significado, como por su
+proyección social y ciudadana.
+La organización de los bloques de saberes, su programación y secuenciación puede plantearse desde
+una  perspectiva  cronológica  o  más  transversal,  en  función  de  los  objetivos  didácticos  y  las
+situaciones de aprendizaje propuestas, incidiendo en la contextualización histórica y geográfica de
+Canarias desde un enfoque multicausal y desde la perspectiva del estudio comparado. En cualquier
+caso, la atención a la individualidad y diversidad del alumnado, a sus intereses y aptitudes ha de
+permitir la necesaria diversificación de los itinerarios de aprendizaje, así como la aplicación de
+criterios  de  flexibilidad  que  permitan  poner  en  acción  propuestas  e  iniciativas  educativas  que
+favorezcan la inclusividad.
+De otro lado, el papel vertebrador de procesos y saberes diversos, que incorpora campos temáticos,
+recursos y procedimientos de diferentes áreas de conocimiento, confiere a esta materia un papel
+central  a  la  hora  de  plantear  estrategias  interdisciplinares.  La  capacidad  de  contextualizar  los
+aprendizajes y conectarlos con problemas actuales y retos del presente, desde una perspectiva
+interpretativa del tiempo y comprensiva del espacio, facilita dotarlos de funcionalidad, interés y
+utilidad para el alumnado y permite crear escenarios diversos en los que desarrollar iniciativas y
+proyectos en situaciones reales que propicien la participación y el compromiso con el entorno y la
+comunidad.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario acerca de la importancia del cuidado,
+disfrute y transmisión del patrimonio, poniendo el acento en la identificación y puesta en valor del
+mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para
+lograr su sostenibilidad y la de los valores que en él perduran.
+9
+
+=== Página 10 ===
+
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario. La
+implementación  del  currículo  de  la  materia  implica,  por  tanto,  la  definición,  por  parte  del
+profesorado, de estas situaciones de aprendizaje contextualizadas.
+Las situaciones de aprendizaje integrarán los elementos curriculares planteando tareas y actividades
+complejas  y  relevantes  para  resolver  problemas  reales  y  se  desarrollarán  partiendo  de  una
+perspectiva  cronológica  o  transversal,  mediante  un  enfoque  multicausal  y  con  estrategias
+interdisciplinares, y para que sean efectivas deben estar debidamente contextualizadas al entorno,
+con atención a los distintos ritmos de aprendizaje en alineación con el Diseño Universal para el
+aprendizaje  Aprendizaje  (DUA).  Estas  situaciones  de  aprendizaje  contemplarán  tres  grandes
+elementos: Qué se va a aprender, la relación de los aprendizajes esperados, extraídos de los criterios
+de  evaluación  y  competencias  específicas  vinculados  a  la  misma,  y los saberes  básicos  de  la
+materia, a través de los cuales se desarrollar án estos aprendizajes previstos; Cómo se va a aprender,
+la explicación de cómo se va a activar y a motivar al alumnado, a través de qué contextos de
+aprendizaje, especificando los productos finales, recursos y espacios; y Para qué, la descripción de
+la finalidad de los aprendizajes con objetivos claros.
+A través de los trabajos por proyectos, las experiencias de investigación y el aprendizaje inductivo y
+la  experimentación  se  busca  la  conexión  con  el  presente  de  los  fenómenos  que  analizará  el
+alumnado.
+Junto con lo anterior, se incluirán la evaluación y la fundamentación metodológica: modelos de
+enseñanza, metodología, contribución al desarrollo de las competencias, agrupamientos, recursos y
+espacios.
+Esto conlleva una organización del espacio que no será siempre el aula y que utilizará modelos de
+enseñanza que lleven al alumnado a una autonomía para aprender, donde el profesorado ejerza de
+guía y orientador del aprendizaje, siendo un facilitador del desarrollo competencial del alumnado,
+que será el principal protagonista.
+Tanto las situaciones de aprendizaje como su evaluación han de ser diseñadas para que los recursos,
+espacios y agrupamientos se puedan adaptar a las diferencias individuales en cuanto a motivaciones,
+intereses, capacidades y ritmos de aprendizaje. Por otra parte, las metodologías e hilos conductores
+se basarán en el desarrollo emocional del alumnado y su integración en el grupo, tanto en la
+diversidad de agrupamientos y tareas propuestos como en la combinación de lenguajes y soportes,
+que persiguen permitir su desarrollo individual.
+10
+
+=== Página 11 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Explicar la diversidad de ecosistemas insulares que caracterizan al archipiélago canario a
+partir de la Red Canarias de Espacios Naturales Protegidos, analizando a través de procesos de
+búsqueda e investigación, los episodios geológicos que originaron las islas, así como el conjunto
+de factores físicos, climáticos y biogeográficos que explican su modelado posterior, para así
+valorar la importante diversidad paisajística y su singularidad medioambiental en un territorio
+frágil, a la vez que dotado de un alto interés científico y patrimonial con necesidades de gestión y
+conservación específicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CC4
+Criterios de evaluación
+1.1.  Buscar  y  seleccionar  información  sobre  los  ecosistemas  insulares  del  archipi élago
+canario,indagando en los procesos geol ógicos que dieron lugar a las islas y en el conjunto de factores
+físicos, climáticos o biogeogr áficos que explican el modelado posterior de su territorio, valorando su
+diversidad  paisajística y promoviendo un estilo  de  vida  sostenible y ecosocialmente  responsable,
+localizando y analizando de forma crítica diferentes fuentes primarias y secundarias.
+CCL2, CCL3, STEM2, STEM4, CD1, CC4
+1.2. Plantear, elaborar y presentar contenidos propios creativos y en equipo, en forma de infografías,
+folletos, pósteres, mapas, revistas, sitios web, etc. sobre los diversos factores físicos, climáticos y
+biogeográficos que configuran el medio geográfico de las islas a través del territorio y sus paisajes.
+CCL2, STEM3, STEM4, CD2, CD3, CC4
+1.3. Elaborar productos en los que se empleen estrategias de búsqueda, utilizando diversas fuentes CCL2, CCL3, STEM2, STEM3, STEM4,
+11
+
+=== Página 12 ===
+
+veraces, evaluando las mismas de forma crítica, tratando y transformando la información obtenida en
+puntos de vista creativos y personales, a la vez que respetuosos con la propiedad intelectual y en los
+que, a partir de la premisa de la emergencia climática o la conservación y protección medioambiental
+del archipiélago, se formulen preguntas que serán respondidas mediante la comprobación de hipótesis
+o la indagación de la evidencia científica.
+CD1, CD2, CD3
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de utilizar como escenario de aprendizaje, real o virtual, la Red Canaria
+de Espacios Naturales Protegidos. El alumnado deberá ser capaz de realizar procesos de planificaci ón y b úsqueda de información dirigidos a
+identificar, analizar e interpretar elementos del paisaje natural que le permitan conocer el origen de las islas, as í como sus principales caracter ísticas
+físicas, climáticas y biogeogr áficas. El objetivo será que el alumnado construya conocimiento partiendo de la investigación, elaborando síntesis y
+productos explicativos (en forma de infografías, folletos, pósteres, mapas, revistas, sitios web, etc.), a la vez que participando en debates, asambleas,
+foros virtuales, etc., partiendo de la necesidad de aplicar los Objetivos de Desarrollo Sostenible y las metas canarias que responden a los retos
+identificados en la Agenda Canaria de Desarrollo Sostenible 2030, que impliquen en el alumnado proyectos de investigación, el uso de mapas u otras
+representaciones gráficas, a partir de la Red Canaria de Espacios Naturales Protegidos, para incidir en la sostenibilidad y la responsabilidad de la
+conservación del entorno natural, rural y urbano. La finalidad será que el alumnado tome conciencia de la singularidad del medio natural canario, su
+fragilidad, su interés científico y patrimonial junto a sus necesidades de gestión y conservación.
+Competencia específica
+2. Indagar y elaborar productos desde un análisis crítico sobre las claves históricas que han
+configurado a la sociedad canaria, desde el origen del poblamiento humano del archipiélago
+hasta la actualidad, facilitando procesos de investigación grupal que impliquen la búsqueda,
+evaluación y selección de la información en fuentes arqueológicas y documentales diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, CD1, CD2, CD3,
+CPSAA3, CC1, CE1, CCEC1
+12
+
+=== Página 13 ===
+
+Criterios de evaluación
+2.1. Investigar, argumentar y generar productos originales y creativos sobre las claves hist óricas que
+han  determinado  la  configuración  y  el  desarrollo  de  la  sociedad  canaria,  mediante  procesos  de
+investigación grupal que impliquen la b úsqueda, evaluación y selecci ón de la informaci ón en fuentes
+diversas para analizar, sintetizar y comunicar, a trav és de productos que supongan generaci ón de
+contenidos  propios, publicaci ón  de  los mismos en  espacios  virtuales educativos y realizaci ón  de
+intervenciones orales de distinta naturaleza.
+CCL1, CCL2, CCL3, CD1, CD2, CD3,
+CPSAA3, CE1
+2.2. Analizar el estado de la cuestión sobre el poblamiento aborigen como un fenómeno singular en el
+contexto  geohistórico  atlántico-mediterráneo,  definiendo  cómo  se  configuró  la  sociedad  del
+archipiélago en el marco geopolítico europeo a partir del siglo XV y prestando especial atención a las
+influencias  histórico-culturales  heredadas  del  pasado,  incorporando  y  utilizando  adecuadamente
+términos, conceptos y acontecimientos relacionados con la geografía y la historia de Canarias a través
+de intervenciones orales, textos escritos, multimodales y signados y otros productos.
+CCL1, CCL2, CD2, CD3, CC1, CCEC1
+2.3. Construir la propia identidad y enriquecer el acervo común canario en el contexto del mundo
+actual,  conociendo  los  distintos  yacimientos  arqueológicos  y  espacios  naturales  y  valorando  la
+importancia para darlos a conocer preservándolos y enriqueciéndolos con recursos virtuales.
+CD3, CC1, CCEC1
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado, haciendo uso del an álisis de fuentes arqueol ógicas y documentales, es capaz
+de elaborar un recorrido diacrónico por el proceso de configuración de la sociedad canaria, desde el primer poblamiento humano hasta la actualidad,
+que le permita construirse un juicio personal desde el debate y la reflexi ón grupal sobre los aspectos clave que le han definido históricamente: su
+posición geopolítica tricontinental, la interculturalidad, los conflictos y las tensiones sociales, la dependencia económica exterior y los elementos que
+definen el hecho diferencial canario, así como aquellas personas que han sido referentes en distintos procesos y etapas históricas. Se deberá constatar
+13
+
+=== Página 14 ===
+
+que el alumnado podrá desarrollar procesos de investigaci ón para conocer las principales hip ótesis sobre el poblamiento aborigen, analizar c ómo se
+configura una sociedad insular en el marco geopol ítico europeo a partir del siglo XV , generando productos tales como paneles divulgativos,
+exposiciones o ferias, entre otras. Finalmente, tendrá que valorar los rasgos que singularizan a la sociedad canaria actual como una realidad
+multicultural, producto de esta trayectoria histórica.
+Competencia específica
+3. Identificar e interpretar todos aquellos elementos de las infraestructuras, la arquitectura o los
+paisajes que proporcionen información sobre el pasado económico y social del archipiélago hasta
+la actualidad, analizando el territorio como fuente de estudio para la historia y favoreciendo que
+el alumnado indague en las transformaciones que aquel ha sufrido a lo largo del tiempo como
+consecuencia de la actividad humana y de los modelos de explotación, poniendo en valor el
+patrimonio cultural como algo vivo y contribuyendo a su conocimiento, disfrute y conservación.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM2, CD1, CPSAA3,
+CC1, CC2, CC3, CC4, CE1
+Criterios de evaluación
+3.1.  Identificar  e  interpretar  en  el  territorio  aquellos  elementos  paisaj ísticos,  arquitectónicos,  de
+infraestructura, etc. que proporcionan información sobre el pasado económico y social del archipiélago
+hasta la actualidad para documentar sus caracter ísticas y valorar las transformaciones que ha sufrido
+este como consecuencia de la actividad humana, de los modelos de explotaci ón a lo largo del tiempo o
+de las crisis cíclicas.
+STEM3, CC1, CC2, CC3, CC4, CE1
+3.2. Entender y afrontar de forma crítica, desde un enfoque ecosocial, problemas y desafíos pasados,
+actuales  o  futuros  de  la  presente  sociedad  canaria  teniendo  en  cuenta  sus  relaciones  de
+STEM2, CC1, CC2, CC3, CC4, CE1
+14
+
+=== Página 15 ===
+
+interdependencia y ecodependencia, desde la fragmentaci ón insular canaria al mundo globalizado,
+pasando por  el  an álisis de  las  comunicaciones terrestres,  mar ítimas  y a éreas  en el  desarrollo  de
+Canarias.
+3.3. Identificar los elementos del entorno y comprender su funcionamiento como un sistema complejo
+por  medio  del  análisis  multicausal  de  sus  relaciones  naturales  y  humanas,  presentes  y  pasadas,
+valorando el grado de conservación y de equilibrio dinámico.
+CCL1, CCL3, STEM2, CD1, CC2, CC3,
+CC4, CE1
+3.4. Analizar el patrimonio urbano de Canarias desde el punto de vista del poder religioso, el poder
+militar y el poder civil en la trama urbana, en los lugares p úblicos y de ocio, espacio y sociedad.
+Mostrar  adecuadamente  información  geográfica  e  histórica  a  través  de  diversas  formas  de
+representación gráfica, cartográfica y visual.
+CCL1, CCL3, STEM2, CD1, CPSAA3,
+CC2, CC3, CC4, CE1
+3.5. Evaluar el impacto paisajístico, social, económico y cultural del turismo en Canarias, así como las
+etapas de desarrollo, crisis y alternativas, a través de procesos inductivos, investigación y el trabajo por
+proyectos, retos o problemas, elaborando productos que reflejen la comprensión de los fenómenos y
+problemas abordados, en los que participe todo el grupo.
+STEM2, CPSAA3, CC1, CC2, CC3, CC4,
+CE1
+Explicación del bloque competencial
+A través  de  este  bloque  competencial  se  comprobará  que  el  alumnado  realiza  una  lectura  hist órica  del  paisaje,  reconociendo,  analizando  e
+interpretando en el territorio las evidencias materiales de las transformaciones como consecuencia de su explotaci ón (yacimientos arqueol ógicos,
+bancales abandonados, caminos reales, eras, hornos, caser íos, cascos hist óricos, factor ías, chimeneas, pajeros, carboneras, puertos pesqueros,
+pescantes, ingenios, molinos, acequias, salinas, saladeros, antiguos enclaves hoteleros, plazas, ermitas, iglesias, cruceros, etc.) para constatar que el
+alumnado puede evaluar la importancia hist órica de la agricultura de exportaci ón desde el siglo XVI, la agricultura de autoconsumo, el impacto de
+las comunicaciones insulares, interinsulares y exteriores, el desarrollo industrial, la actividad portuaria y comercial y el crecimiento de las ciudades o
+la explotación turística de las islas desde sus orígenes hasta la actualidad. El objetivo será que el alumnado conozca las distintas fases de la economía
+15
+
+=== Página 16 ===
+
+en Canarias, evaluar su nivel de impacto sobre el territorio y valorar su contribuci ón al paisaje actual de las islas, contribuyendo a fomentar una
+visión del patrimonio natural, social, cultural e histórico más allá de una interpretación como vestigio del pasado, esto es, como un patrimonio vivo,
+con nexos con el presente y que se adapta a un contexto cambiante como el actual. Se podrá plantear a través del patrimonio etnográfico y el trabajo
+con las fuentes orales, la generación de productos creativos, partiendo de la necesidad de explicar el paisaje agrario y el patrimonio rural en Canarias,
+valorando especialmente la aportación de las mujeres.
+Competencia específica
+4.  Identificar  y  analizar  de  diferentes  maneras  los  comportamientos  sociales,  colectivos  e
+individuales a lo largo de la Historia de Canarias, a partir del estudio crítico de evidencias
+arqueológicas, documentales, fuentes orales, etc., con la finalidad de entender cómo se ha ido
+configurando nuestro acervo cultural y poder valorar la aportación multicultural en el origen y
+configuración de “lo canario”.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM2, STEM4, CD1, CD2,
+CPSAA3, CPSAA5, CC1, CE3, CCEC1
+Criterios de evaluación
+4.1. Identificar los distintos comportamientos de los grupos sociales, colectivos e individuales, a lo
+largo de la historia de Canarias, que han acabado convirti éndose en iconos de una cultura canaria, a
+partir  del  estudio  de  diversas fuentes y con  la  finalidad  de valorar  la  aportación  extranjera  a  la
+población de Canarias, los préstamos culturales y las reinterpretaciones locales en el origen y la
+configuración  de  «lo  canario»,  realizando  trabajos  cooperativos  de  investigación  que  incluyan  el
+enfoque etnográfico y fuentes diversas para documentar la historia como memoria colectiva. 
+CCL1, CCL2, CCL3, CP3, CD1, CD2,
+CPSAA3, CPSAA5, CC1, CE3, CCEC1
+4.2. Valorar la riqueza de lo diverso a partir del análisis de la relación entre los aspectos geográficos, CCL1, CCL3, CCL5, CP3, CD1, CD2,
+16
+
+=== Página 17 ===
+
+históricos, ecosociales y culturales que han conformado la sociedad globalizada y multicultural actual,
+y el conocimiento de la aportación de los movimientos sociales, en especial del movimiento obrero y
+sus luchas históricas, el movimiento estudiantil, el movimiento ecologista y el movimiento LGTBI+.
+CPSAA3, CPSAA5, CC1, CC2, CE3,
+CCEC1
+4.3. Realizar debates sobre las diversas formas de cultura, la cultura popular y la cultura oficial en
+Canarias,  tradiciones,  fiestas,  y  folclore,  mostrando  actitudes  no  discriminatorias  y  valorando  la
+diversidad  social  y  multicultural,  argumentando  e  interviniendo  en  favor  de  la  integración,  la
+colaboración social y la cohesión en el entorno.
+CCL1, CCL3, CCL5, CP3, CD1, CD2,
+CPSAA3, CPSAA5, CC1, CCEC1
+4.4. Concienciar y sensibilizar sobre el patrimonio natural, social, cultural e histórico canario como
+fundamento de identidad colectiva pasada y presente desde una perspectiva global e integradora,
+considerándolo  un bien esencial para el disfrute, así como para el desarrollo  social, a través de
+propuestas e iniciativas que reflejan compromisos y conductas en favor de la sostenibilidad y del
+reparto justo y solidario de los recursos.
+CCL1, CPSAA3, CPSAA5, CC1, CE3,
+CCEC1
+4.5. Valorar, proteger y conservar el patrimonio natural, social, cultural e histórico u oral, como puede
+ser el silbo gomero, como fundamento de identidad colectiva local, autonómica, nacional, europea y
+universal, considerándolo un bien para el disfrute y un recurso para el desarrollo de los pueblos.
+CCL1, CP3, CC1, CC3, CE3, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se constatará que el alumnado maneja datos diversos (bioantropol ógicos, arqueol ógicos, documentos textuales de
+tipología variada, testimonios orales, etc.) para analizar, desde un punto de vista hist órico, los cambios y las permanencias en el comportamiento
+cotidiano de las poblaciones insulares. También se podrá verificar que el alumnado indaga sobre las pr ácticas sociales que han caracterizado a las
+mujeres y a los hombres de Canarias desde el primer poblamiento humano hasta la actualidad, prestando especial atención a grupos y movimientos
+que han defendido los derechos de distintos colectivos sociales, incluyendo los de las personas con diversidad funcional, y al papel desempeñado por
+las mujeres en la sociedad canaria a lo largo de la historia, donde el alumnado debrá reconocer las desigualdades sociales existentes en épocas
+17
+
+=== Página 18 ===
+
+pasadas y los mecanismos de dominación y control que se han aplicado, identificando aquellos colectivos que se han visto sometidos y silenciados,
+destacando la presencia de personajes femeninos. En su conjunto, el objetivo será que el alumnado entienda c ómo se ha ido configurando el acervo
+cultural canario y valorar la imbricaci ón entre lo local e insular y la impronta multicultural histórica del archipiélago. Con esta finalidad, se podrán
+realizar pequeñas investigaciones, debates, entrevistas a distintos colectivos, pódcast o dramatizaciones, entre otras.
+Competencia específica
+5. Conocer la posición estratégica de Canarias desde un punto de vista geopolítico analizando su
+repercusión histórica para el archipiélago a través de crónicas, relatos, tradiciones orales, obras
+artísticas, sistemas defensivos, etc., contextualizando su importancia mediante el estudio de la
+participación de éste en distintos procesos nacionales e internacionales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, CD1, CD2,
+CC2, CC4, CE3
+Criterios de evaluación
+5.1. Analizar la repercusión histórica de la posición geoestratégica de Canarias en el Atlántico en
+distintos momentos y procesos nacionales  e internacionales, a partir del  estudio textos, cr ónicas,
+relatos, obras art ísticas, sistemas defensivos o de la tradición oral, incidiendo particularmente en las
+relaciones permanentes y de intercambios entre Canarias, África y América.
+CCL1, CCL2, STEM2, CD1, CD2, CE3
+5.2. Estudiar las relaciones internacionales de Canarias desde la Edad Moderna hasta la actualidad
+realizando producciones cooperativas de investigación sobre la pirater ía, los ataques navales y la
+defensa de las islas en diferentes épocas, analizando el impacto de las dos guerras mundiales en
+Canarias,  estableciendo  conexiones  y  relaciones  entre  los  conocimientos  adquiridos,  elaborando
+síntesis interpretativas y explicativas que reflejen el dominio y la consolidación de los contenidos
+CCL1, CCL2, CCL3, STEM2, CD1, CD2
+18
+
+=== Página 19 ===
+
+tratados,  planteándose  preguntas  y  comprobando  hipótesis  mediante  la  experimentación  y  la
+indagación.
+5.3. Conocer el valor histórico de las fuentes directas para documentar los efectos de la guerra civil
+española, identificando las causas y las consecuencias de la represi ón franquista en el archipiélago y
+del  franquismo  en  Canarias, poniendo  en valor  los  estudios  arqueol ógicos e históricos  sobre  las
+personas desaparecidas en las islas y fuentes como la fotografía, la prensa, los testimonios de personas
+y familiares represaliados o los archivos audiovisuales.
+CCL1, CCL2, CCL3, STEM2, CD1, CE3
+5.4. Contribuir a la consecución de un mundo más seguro, justo, solidario y sostenible, a través del
+análisis y el reconocimiento de los compromisos internacionales de nuestro país en favor de la paz, la
+seguridad,  la  cooperación,  la  sostenibilidad,  la  salvaguarda  del  patrimonio  cultural,  la  memoria
+democrática, los valores constitucionales y los Objetivos de Desarrollo Sostenible, así como de las
+aportaciones  de  Canarias  y  sus  instituciones  a  la  cultura  europea  y  mundial,  para,  a  través  de
+contenidos  propios  y  originales,  comprender  las  relaciones  sistémicas  de  interdependencia,
+ecodependencia e interconexión entre actuaciones locales y globales.
+CCL2, STEM2, CC2, CC4, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado descubre la participaci ón de las islas en el conjunto de las relaciones
+internacionales y nacionales desde la modernidad, con el objeto de tomar consciencia de cómo el archipi élago se ha visto afectado o ha tenido una
+participación activa en procesos hist óricos generales como la actividad pir ática en el Atlántico, las guerras hispanobrit ánicas del siglo XIX, las dos
+guerras mundiales, la Guerra Civil, la integración en la Unión Europea, etc., partiendo de una realidad histórica que define al archipiélago por el
+denominado hecho diferencial canario (entre otras cosas, por los Puertos Francos de 1852 o el Régimen Económico y Fiscal de 1972) y por su
+concepción atlántica. Se trata de estudiar y analizar aquellos elementos que definen la historia y el patrimonio cultural de las islas, tomando como
+referencia los testimonios de sus protagonistas, a trav és de cr ónicas y relatos conservados, o incluso mediante encuestas. Asimismo, se trata de
+constatar que el alumnado valora el impacto social, econ ómico y cultural sobre las distintas generaciones de la poblaci ón canaria y el papel
+19
+
+=== Página 20 ===
+
+geoestratégico desempeñado por las islas desde su incorporaci ón a la órbita geopolítica internacional, siendo capaz de elaborar infografías y mapas,
+y que se pone en valor la historia como disciplina que da una gran importancia a la observación, la reflexión y el análisis crítico de las fuentes y la
+documentación frente a la desinformación y la manipulación, mediante la realización de informes, estudios o dosieres informativos, entre otros,
+presentándose con exposiciones orales e infografías.
+Competencia específica
+6. Situar la presencia de Canarias dentro de las principales corrientes culturales y científicas del
+mundo occidental, así como el impacto de estas en el desarrollo del archipiélago a través de la
+biografía de personas destacadas, del estudio de sus obras, de sus actuaciones o declaraciones
+públicas  y  de  los  escenarios  que  transitaron,  así  como  de  los  colectivos  sociales  a  los  que
+pertenecieron  para  comprender  las  relaciones  e  implicaciones  en  el  desarrollo  cultural  del
+archipiélago.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, CCL5, CD1, CD2, CC1,
+CC4, CCEC1, CCEC2
+Criterios de evaluación
+6.1. Analizar y explicar la presencia de Canarias en las principales corrientes culturales y cient íficas
+del mundo occidental, as í como el impacto de estas en el desarrollo del archipi élago a trav és de la
+biografía de personajes y colectivos, del estudio de sus obras, de sus actuaciones y declaraciones
+públicas y de los escenarios que transitaron o de los colectivos sociales implicados en el desarrollo
+cultural, incidiendo en la contribución de las mujeres.
+CCL1, CP3, CC1, CC4, CCEC1, CCEC2
+6.2. Buscar y seleccionar información sobre la importancia de los movimientos artísticos en Canarias
+en el patrimonio artístico de las islas para elaborar contenidos propios en distintos formatos, a partir de
+CCL1, CCL3, CD1, CD2, CC1, CC4,
+CCEC1, CCEC2, CCEC4
+20
+
+=== Página 21 ===
+
+fuentes tanto analógicas como digitales.
+6.3.  Comunicar  por  medio  de  narraciones,  pósteres,  presentaciones,  exposiciones  orales,  medios
+audiovisuales y otros productos digitales, la relación de la mujer y el arte en Canarias, para abordar su
+participación  en  movimientos  artísticos,  literarios...,  argumentando  acerca  de  la  igualdad  real  de
+hombres y mujeres, actuando en contra de cualquier actitud y comportamiento discriminatorio por
+razón de género.
+CCL1, CCL5, CD2, CCEC1, CCEC2,
+CCEC4
+6.4. Debatir sobre el acceso a las fuentes de información y reconocer las universidades, los museos y
+los centros de investigación, así como los principales repositorios digitales de Canarias, como fuentes
+de acceso a la misma, identificando los retos y las oportunidades que ofrece el mundo digital para
+conocer el archipiélago. 
+CCL1, CCL3, CCL5, CD1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de analizar el papel general de la cultura y la ciencia en Canarias a lo
+largo de la historia y que valora el grado de vinculación que esta ha tenido con las tendencias y corrientes nacionales e internacionales, mediante una
+aproximación analítica a personas y colectivos destacados de las ciencias, la cultura y el arte, y a sus obras o aportaciones, donde el alumnado debe
+ser capaz de comunicar en diversos formatos la relación de la mujer y el arte en Canarias. Con ello se pretende abordar la participación de estos
+colectivos en movimientos artísticos, literarios, etc., con el fin de adoptar una posici ón crítica y reflexiva sobre las diferencias hist óricas de género y
+de clase en el acceso a la cultura y los efectos del insularismo, as í como sobre la importancia de las relaciones con los c írculos culturales externos a
+las islas como vía para la proyección internacional de estas y para el enriquecimiento de nuestro legado cultural.
+21
+
+=== Página 22 ===
+
+Saberes básicos
+I. Retos del mundo actual
+ 1. Sociedad de la información. 
+ 1.1. Búsqueda,  tratamiento  de  la  información,  uso  de  datos  en  entornos  digitales  y
+evaluación  de  la  fiabilidad  de  las  fuentes.  Uso  específico  del  léxico  relativo  a  los
+ámbitos histórico, artístico, patrimonial y geográfico de Canarias.
+ 2. Cultura mediática. 
+ 2.1. Aprendizaje  de  técnicas  y  métodos  de  las  ciencias  sociales:  análisis  de  textos,
+interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e
+interpretación de imágenes a través de medios digitales accesibles. Tecnologías de la
+información geográfica.
+ 2.2. Conocimiento de los principales archivos digitales en Canarias: universidades, museos
+y centros de investigación. Los retos y las oportunidades en el mundo digital.
+ 3. Lo global y lo local. 
+ 3.1. Inicio a la investigación en Ciencias  Sociales aplicadas al  archipiélago, el estudio
+multicausal  y  el  análisis comparado  del  espacio  natural,  rural  y urbano  canario,  su
+evolución y los retos de futuro de las islas.
+ 3.2. Estudio de los desafíos pasados, actuales y futuros de la actual sociedad canaria. De la
+fragmentación insular al mundo globalizado. La posición geoestratégica de Canarias en
+el Atlántico.
+ 3.3. Conocimiento de las relaciones internacionales de Canarias desde la Edad Moderna
+hasta la actualidad. Intercambios y relaciones entre Canarias, Europa, África y América.
+Piratería, ataques navales y defensa de las islas. Impacto de las dos guerras mundiales.
+ 4. Objetivos de Desarrollo Sostenible. 
+ 4.1. Análisis y valoración de la emergencia climática y sostenibilidad en el medio natural
+canario. Relación entre factores naturales y antrópicos. Estrategias y procedimientos
+para comprender las características climáticas del archipiélago.
+ 4.2. Identificación  de  estilos  de  vida  para  favorecer  el  modelo  de  isla  sostenible  en
+Canarias.
+ 4.3. Estudio  de  la  economía  circular  y  la  eficacia  en  el  uso  de  los  recursos:  energías
+renovables, el  aprovechamiento  del agua  y el  modelo productivo y de  consumo en
+Canarias.
+II. Sociedades y territorios
+1. Interpretación del territorio y del paisaje canario.
+22
+
+=== Página 23 ===
+
+2. Indagación sobre el paisaje agrario y el patrimonio rural en Canarias. Economía y sociedad.
+Transformaciones del territorio  hasta  la  actualidad. El papel  de la mujer  en  el  espacio
+agrario.
+3. Identificación del patrimonio urbano de Canarias y las instituciones de Canarias: el poder
+religioso, el poder militar y el poder civil en la trama urbana, espacios públicos y de ocio.
+Espacio y sociedad.
+4. Estudio  de  la  demografía  en  Canarias.  Ordenación  del  territorio  y  transformación  del
+espacio. La huella humana y la protección del medio natural canario. An álisis de la variedad
+de ecosistemas insulares a partir de la Red Canaria de Espacios Naturales Protegidos.
+5. Aproximación a las fuentes históricas, patrimoniales, museísticas y arqueológicas como base
+para la construcción del conocimiento histórico. El poblamiento humano del archipiélago
+desde su origen  hasta la  actualidad.  Configuración  de la  sociedad  canaria  en el  marco
+geopolítico europeo a partir del siglo XV .
+6. Indagación  sobre  la  guerra  civil  española,  la  represión  franquista  y  el  franquismo  en
+Canarias.
+7. Conocimiento sobre Canarias en democracia. El Estatuto de Autonomía.
+8. La contribución de Canarias a los compromisos internacionales de España en favor de la
+paz, la seguridad, la cooperación, la sostenibilidad, la protección del patrimonio cultural y
+de los valores constitucionales y la memoria democrática. Los retos de Canarias en el siglo
+XXI.
+III. Compromiso cívico y social
+1. Estudio del patrimonio natural canario: conocimiento, respeto y valoración de su riqueza y
+diversidad.  Contribución  desde  la  sensibilización  al  disfrute,  transmisión  y  cuidado  del
+patrimonio natural canario, partiendo de la aproximación a los fundamentos jurídicos y
+administrativos que puedan garantizar la gestión y conservación.
+2. Reflexión sobre la responsabilidad ecosocial. El compromiso y la acción ante los Objetivos
+del Desarrollo Sostenible en Canarias, donde la juventud actúa como agente de cambio para
+el desarrollo sostenible en el archipiélago.
+3. Implicación  en  la  defensa  y  protección  del  medioambiente.  Acción  y  posición  ante  la
+emergencia climática.
+4. Análisis y reflexión del impacto paisajístico, social, económico y cultural del turismo en
+Canarias. Desarrollo, crisis y alternativas.
+5. Identificación  de  los  aspectos  geográficos,  históricos,  ecosociales  y  culturales  en  la
+configuración de la identidad canaria. Multiculturalidad y globalización: enriquecimiento
+del acervo común.
+6. Conocimiento de las diversas formas de cultura canaria: la cultura popular y la oficial.
+Tradiciones,  fiestas  y  folclore.  Diversidad  social  y  multicultural.  Integración  social  y
+cultural y cohesión con el entorno.
+23
+
+=== Página 24 ===
+
+7. Estudio y valoración de las movilizaciones sociales. El papel desempeñado por la mujer en
+la sociedad canaria a lo largo de la historia. Aportaciones históricas del movimiento obrero
+en Canarias. Movimientos estudiantiles, ecologistas y LGTBI+.
+8. Análisis  del  impacto  de  las  principales  corrientes  culturales  y  científicas  en  Canarias.
+Movimientos artísticos en el archipiélago canario. La mujer y el arte en Canarias.
+24

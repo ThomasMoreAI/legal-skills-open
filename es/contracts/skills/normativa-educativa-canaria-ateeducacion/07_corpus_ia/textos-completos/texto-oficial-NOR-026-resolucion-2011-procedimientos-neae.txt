@@ -1,0 +1,1700 @@
+ID interno: NOR-026
+Título oficial: Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros escolares de la Comunidad Autónoma de Canarias
+Fuente oficial: FTE-029
+URL origen: https://www.gobiernodecanarias.org/boc/2011/040/005.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2011-040-910.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2011-040-910), https://sede.gobiernodecanarias.org/boc/boc-a-2011-040-910.pdf.
+---
+              Boletín Oficial de Canarias núm. 40                3901                                     Jueves 24 de febrero de 2011
+
+
+
+       III. Otras Resoluciones                                             Cuarto.- Asimismo, la Orden de 1 de septiembre
+                                                                        de 2010, desarrolla la organización y funcionamien-
+       Consejería de Educación, Universidades,                          to de los equipos de orientación educativa y psico-
+       Cultura y Deportes                                               pedagógicos de zona y específicos de la Comunidad
+                                                                        Autónoma de Canarias (en adelante, EOEP), estable-
+       910   Dirección General de Ordenación, Innova-                   ciendo su organización y funcionamiento, así como
+             ción y Promoción Educativa.- Resolución de                 los procedimientos para la identificación del alum-
+             9 de febrero de 2011, por la que se dictan ins-            nado que presenta NEAE y asesoramiento para la in-
+             trucciones sobre los procedimientos y los pla-             tervención en él (BOC nº 181, de 14.9.10).
+             zos para la atención educativa del alumnado
+             con necesidades específicas de apoyo educa-                   Quinto.- También la Orden de 5 de febrero de
+             tivo en los centros escolares de la Comunidad              2009, por la que se regula la evaluación en la Edu-
+             Autónoma de Canarias.                                      cación Infantil y se establecen los documentos ofi-
+                                                                        ciales de evaluación en esta etapa (BOC nº 37, de
+          Vista la necesidad de aplicar medidas específicas             24.2.09), y la Orden de 22 de abril de 2008, por la
+       de apoyo educativo a determinado alumnado de los                 que se regula el procedimiento de gestión adminis-
+       centros educativos del área de gestión de la Conse-              trativa de los documentos oficiales de evaluación en
+       jería de Educación, Universidades, Cultura y Depor-              los centros docentes, determinan los documentos ofi-
+       tes, y de acuerdo con los siguientes                             ciales de evaluación del alumnado con NEAE (BOC
+                                                                        nº 108, de 2.6.08).
+                      ANTECEDENTES DE HECHO
+                                                                           Sexto.- Igualmente, la Orden de 14 de noviembre
+          Único.- Se hace necesario dictar instrucciones so-            de 2008, por la que se regula la evaluación y promo-
+       bre determinados procedimientos y plazos para la aten-           ción del alumnado que cursa Bachillerato y se esta-
+       ción del alumnado con necesidades específicas de apo-            blecen los requisitos para la obtención del Título de
+       yo educativo en los centros docentes públicos y en               Bachiller define específicamente los documentos ofi-
+       lo que les afecte, en los privados concertados y pri-            ciales de evaluación del Bachillerato, establece sus
+       vados, que imparten enseñanzas no universitarias                 características básicas y describe los requisitos esen-
+       del sistema educativo en el ámbito de gestión de la              ciales de su cumplimentación y custodia (BOC nº 236,
+       Comunidad Autónoma de Canarias.                                  de 25.11.08).
+
+                     FUNDAMENTOS DE DERECHO                                 Séptimo.- En la Disposición Adicional Cuarta de
+                                                                        la citada Orden de 13 de diciembre de 2010, se fa-
+          Primero.- Teniendo en cuenta que la Ley Orgá-                 culta a la Dirección General de Ordenación e Inno-
+       nica 2/2006, de 3 de mayo, de Educación (BOE nº                  vación Educativa para concretar, adecuar o adaptar
+       106, de 4 de mayo), en su artículo 71 recoge que co-             los criterios de identificación establecidos en el ane-
+       rresponde a las Administraciones educativas asegu-               xo I de dicha Orden. La presente Resolución, pues,
+       rar los recursos necesarios para que los alumnos y               concreta y aplica varios aspectos de la Orden de 13
+       alumnas que requieran una atención educativa dife-               de diciembre de 2010 que redundan en la mejora de
+       rente a la ordinaria, por presentar necesidades espe-            la calidad del servicio que se presta como, por ejem-
+       cíficas de apoyo educativo (en adelante, NEAE)                   plo, el procedimiento para la detección temprana,
+       puedan alcanzar el máximo desarrollo de sus capa-                que viene a significar un modelo sistemático y fia-
+       cidades personales.                                              ble con participación del profesorado en la detección
+                                                                        de las necesidades educativas de este alumnado. A
+          Segundo.- El Decreto 104/2010, de 29 de julio, por            su vez, recoge aspectos para el desarrollo de las adap-
+       el que se regula la atención a la diversidad del alum-           taciones curriculares y de los programas educativos
+       nado en el ámbito de la enseñanza no universitaria               personalizados.
+       de Canarias establece la atención educativa del alum-
+       nado con necesidades específicas de apoyo educati-                   Del mismo modo, esta Resolución proporciona una
+       vo en los centros de enseñanza (BOC nº 154, de                   descripción más concreta sobre aspectos referidos a
+       6.8.10).                                                         la escolarización, funciones de los recursos perso-
+                                                                        nales, evaluación y adaptaciones del currículo en las
+           Tercero.- Del mismo modo, la Orden de 13 de di-              modalidades de escolarización excepcionales. De
+       ciembre de 2010, por la que se regula la atención al             igual manera, establece cómo realizar el registro de
+       alumnado con necesidades específicas de apoyo edu-               la evaluación en los documentos oficiales del alum-
+       cativo en la Comunidad Autónoma de Canarias, de-                 nado con NEAE y concreta las condiciones de par-
+       termina y describe las medidas más adecuadas a las               ticipación del voluntariado en la atención de este alum-
+       necesidades educativas de estos escolares y fija los             nado. Al mismo tiempo, proporciona pautas dirigidas
+       criterios de identificación e intervención para propor-          al profesorado para actuar en grupos ordinarios en
+       cionar una respuesta diferenciada y eficaz (BOC nº               el caso de la presencia de un alumno o alumna con
+       250, de 22.12.10).                                               NEAE.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3902                                     Jueves 24 de febrero de 2011
+
+
+
+          Octavo.- Las presentes instrucciones se dictan de              tivo, del Tribunal Superior de Justicia de Canarias,
+       acuerdo con la Ley 30/1992, de 26 de noviembre, de                en el plazo de dos meses a contar desde el día siguien-
+       Régimen Jurídico de las Administraciones Públicas                 te al de su publicación; significando que, en el caso
+       y del Procedimiento Administrativo Común que, al                  de presentar recurso de reposición, no se podrá in-
+       amparo de su artículo 21, establece que los órganos               terponer recurso contencioso-administrativo hasta
+       administrativos podrán dirigir las actividades de sus             que se resuelva expresamente el recurso de reposi-
+       órganos jerárquicamente dependientes mediante ins-                ción o se produzca la desestimación presunta del
+       trucciones y órdenes de servicio. Cuando una dispo-               mismo, y todo ello sin perjuicio de cualquier otro que
+       sición específica así lo establezca o se estime con-              pudiera interponerse.
+       veniente por razón de los destinatarios o de los efectos
+       que puedan producirse, las instrucciones y órdenes                   Las Palmas de Gran Canaria, a 9 de febrero de 2011.-
+       de servicio se publicarán en el periódico oficial que             La Directora General de Ordenación, Innovación y
+       corresponda (BOE nº 285, de 27.11.92).                            Promoción Educativa, María Victoria González Ares.
+          Por otra parte, el Decreto 212/1991, de 11 de sep-                                 ANEXO I
+       tiembre, de organización de los Departamentos de la
+       Administración Autonómica de Canarias, establece                    INSTRUCCIONES PARA LOS CENTROS ESCOLARES
+       en su artículo 4, apartado 1, que los órganos depar-              SOBRE EL DESARROLLO DE LOS PROCEDIMIENTOS Y
+       tamentales, en el ámbito de atribuciones que les sea              LOS PLAZOS QUE REGULAN LA ATENCIÓN EDUCATI-
+       propio, podrán dictar instrucciones y directrices a los           VAALALUMNADO CON NECESIDADES ESPECÍFICAS DE
+       órganos y unidades que dependan funcionalmente de                 APOYO EDUCATIVO EN LA COMUNIDAD AUTÓNOMA
+       los mismos. Las instrucciones son obligatorias para               DE CANARIAS.
+       sus destinatarios en todos sus elementos.
+                                                                            Índice
+          De acuerdo con todo lo anterior y en virtud de las
+       competencias otorgadas por la Disposición Final pri-                 Primera. Procedimiento para realizar la detección
+       mera de la Orden de 13 de diciembre de 2010, y                    temprana.
+       conforme al artículo 15, apartado m) del Reglamen-                   Segunda. Programas preventivos de refuerzo.
+       to Orgánico de la Consejería de Educación, Cultura                   Tercera. El referente curricular.
+       y Deportes, aprobado por el Decreto 113/2006, de 26                  Cuarta. Realización de las adaptaciones curriculares.
+       de julio (BOC nº 148, de 1.8.06) en su redacción ac-                 Quinta. Las adaptaciones curriculares significati-
+       tual, así como en relación a este último, por el artícu-          vas de exención parcial para el alumnado con disca-
+       lo 4, apartado 1 del Decreto 212/1991, de 11 de sep-              pacidad auditiva, visual o motora.
+       tiembre, de organización de los Departamentos de la                  Sexta. Programas educativos personalizados.
+       Administración Autonómica de Canarias (BOC nº 122,                   Séptima. Fragmentación del Bachillerato para el
+       de 16.9.91),                                                      alumnado con necesidades educativas especiales.
+                                                                            Octava. La adaptación del currículo para el alum-
+                             R E S U E L V O:                            nado escolarizado en aulas enclave y en centros de
+                                                                         educación especial.
+          Primero.- Dictar las instrucciones que se recogen                 Novena. Información a las familias sobre las adap-
+       en el anexo I de la presente Resolución, para el de-              taciones del currículo.
+       sarrollo de la Orden de la Consejería de Educación,                  Décima. Coordinación entre centros.
+       Universidades, Cultura y Deportes de 13 de diciem-                   Décimo primera. Información general sobre el
+       bre de 2010, por la que se regula la atención al alum-            alumnado con necesidades específicas de apoyo
+       nado con necesidades específicas de apoyo educati-                educativo.
+       vo en la Comunidad Autónoma de Canarias y además                     Décimo segunda. Atención domiciliaria del alum-
+       aprobar el anexo II y anexo III de esta Resolución.               nado con larga enfermedad.
+                                                                            Décimo tercera. Centros ordinarios de atención edu-
+          Segundo.- Publicar la presente Resolución en el                cativa preferente.
+       Boletín Oficial de Canarias, en cuanto resulta con-                  Décimo cuarta. Aulas enclave y centros de edu-
+       veniente por razón de dar publicidad a dichas instruc-            cación especial.
+       ciones para conocimiento de todas las personas in-                   Décimo quinta. Funciones del profesorado tutor
+       tegrantes de la comunidad educativa.                              de las aulas enclave y de los centros de educación
+                                                                         especial.
+           Contra el presente acto, que pone fin a la vía ad-               Décimo sexta. Funciones de los auxiliares educati-
+       ministrativa, cabe interponer recurso potestativo de              vos y de los adjuntos y adjuntas de taller de las aulas
+       reposición ante la Consejera de Educación, Univer-                enclave y de los centros de educación especial.
+       sidades, Cultura y Deportes, en el plazo de un mes a                 Décimo séptima. Criterios para el agrupamiento
+       contar desde el día siguiente al de su publicación, o             del alumnado con necesidades específicas de apoyo
+       directamente recurso contencioso-administrativo an-               educativo en centros ordinarios y la organización de
+       te la Sala competente de lo Contencioso-Administra-               su respuesta educativa.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                    3903                                    Jueves 24 de febrero de 2011
+
+
+
+          Décimo octava. Consideraciones metodológicas                      Pedagógica del centro, con la finalidad de que el
+       y de evaluación con el alumnado que presenta nece-                   orientador o la orientadora inicie una valoración pre-
+       sidades específicas de apoyo educativo en centros                    via exploratoria, de así estimarse por la Comisión de
+       ordinarios.                                                          Coordinación Pedagógica. Esta valoración consisti-
+          Décimo novena. Plan de trabajo y memoria del pro-                 rá en recoger y analizar los datos necesarios median-
+       fesorado especialista de apoyo a las necesidades es-                 te una entrevista a la familia, al profesorado y al es-
+       pecíficas de apoyo educativo y del profesorado es-                   colar si se considera, y aquella otra información con
+       pecialista de AL.                                                    la que cuente o que esté disponible en el centro. Fi-
+          Vigésima. Requisitos para la actuación de perso-                  nalmente será la Comisión de Coordinación Pedagó-
+       nal voluntario que colabore en el apoyo del alumna-                  gica quien, con toda la información anterior, decidi-
+       do con necesidades específicas de apoyo educativo.                   rá los alumnos o alumnas a los que se les realizará
+          Vigésimo primera. Registro de la evaluación en                    el preinforme e informe psicopedagógico y en qué
+       los documentos oficiales del alumnado con necesi-                    orden de prioridad, teniendo en cuenta para ello lo
+       dades educativas especiales de Educación Infantil es-                regulado en la Orden de 1 de septiembre de 2010.
+       colarizado en centros de educación especial y aulas
+       enclave.                                                                3. En la detección temprana del alumnado con es-
+          Vigésimo segunda. Registro de la evaluación en                    peciales condiciones personales e historia escolar, se
+       los documentos oficiales del alumnado con nece-                      tendrá en cuenta:
+       sidades educativas especiales de Educación Pri-
+       maria escolarizado en centros de educación espe-                        a) Cuando en el proceso de detección temprana de
+       cial y aulas enclave.                                                las discapacidades, trastorno generalizado del desa-
+          Vigésimo tercera. Registro de la evaluación en los                rrollo, trastorno grave de conducta, dificultad espe-
+       documentos oficiales del alumnado con necesidades                    cífica de aprendizaje o trastorno por déficit de aten-
+       educativas especiales de Educación Secundaria Obli-                  ción con o sin hiperactividad, determinados alumnos
+       gatoria escolarizado en centros de educación espe-                   y alumnas con dificultades en su avance escolar no
+       cial y aulas enclave.                                                se ajusten a los criterios establecidos para la identi-
+          Vigésimo cuarta. Registro de la evaluación en los                 ficación en esos ámbitos, se analizará si sus necesi-
+       documentos oficiales del alumnado con necesidades                    dades educativas están motivadas por las especiales
+       específicas de apoyo educativo escolarizados en cen-                 condiciones personales e historia escolar derivadas
+       tros ordinarios y centros ordinarios de atención edu-                de limitaciones socioculturales, escolarización desa-
+       cativa preferente.                                                   justada, una incorporación tardía al sistema educati-
+          Vigésimo quinta. Superación de un ciclo o curso                   vo, dificultades en la comunicación o por condicio-
+       cuando se ha alcanzado lo previsto en la AC o ACUS.                  nes personales de salud o funcionales.
+          Vigésimo sexta. Reglas de aplicación.
+                                                                               b) Además de las características recogidas en el
+          Primera.- Procedimiento para realizar la detec-                   anexo I de la Orden de 13 de diciembre de 2010, por
+       ción temprana.                                                       la que se regula la atención al alumnado con necesi-
+                                                                            dades específicas de apoyo educativo en la Comuni-
+          1. Para iniciar la detección temprana del alumna-                 dad Autónoma de Canarias, para considerar a un
+       do de Educación Infantil y Educación Primaria que                    alumno o alumna con especiales condiciones perso-
+       pueda presentar discapacidades, trastornos o dificul-                nales e historia escolar se requiere que se le realice,
+       tades, en el primer y segundo trimestre de cada cur-                 previamente a su identificación, una valoración re-
+       so escolar, el profesorado tutor del segundo ciclo de                cogida en un preinforme psicopedagógico y que du-
+       la Educación Infantil y del primer ciclo de Educación                rante un curso académico haya estado recibiendo las
+       Primaria recogerá, en el acta de las reuniones de ci-                actuaciones y medidas ordinarias previstas en el ci-
+       clo, la relación de aquellos alumnos y alumnas con                   tado preinforme, sin que respondiera favorablemen-
+       indicadores o señales de alerta, compatibles con al-                 te a éstas durante ese tiempo. En tal caso, el escolar
+       guna de las discapacidades, trastornos o dificultades                podrá precisar de una adaptación curricular que de-
+       que caracterizan al alumnado con NEAE, según los                     berá ser dictaminada en el correspondiente informe
+       criterios de identificación expuestos en el anexo I de               psicopedagógico. De esta manera, para el alumnado
+       la Orden de 13 de diciembre de 2010. Para obtener                    con indicios de presentar especiales condiciones per-
+       de forma objetiva la información se utilizarán los                   sonales e historia escolar se realizará el proceso de
+       protocolos y guías de observación establecidos por la                detección temprana a partir del comienzo del segun-
+       Dirección General de Ordenación, Innovación y Pro-                   do trimestre del segundo curso de Educación Primaria.
+       moción Educativa en el documento “Guía para la de-
+       tección temprana de discapacidades, trastornos, difi-                   4. Para el alumnado con indicios de presentar una
+       cultades de aprendizaje y altas capacidades intelectuales”.          dificultad específica de aprendizaje se podrá realizar
+                                                                            el preinforme psicopedagógico a partir del comien-
+          2. Con posterioridad, los coordinadores o coordi-                 zo del segundo trimestre del segundo curso de Edu-
+       nadoras de ciclo trasladarán la relación de alumnos                  cación Primaria. En el caso de estar repitiendo po-
+       y alumnas detectados a la Comisión de Coordinación                   drá realizarse desde el primer trimestre.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                3904                                       Jueves 24 de febrero de 2011
+
+
+
+           5. En la Educación Secundaria Obligatoria será el               Dicho alumnado tendrá en un área o materia un
+       departamento de orientación el que realice el proce-             referente curricular de un curso determinado cuan-
+       so de detección de todo el alumnado con NEAE.                    do, habiendo alcanzado las competencias curricula-
+       Durante el primer trimestre del curso y después de               res del curso anterior, tiene iniciadas o avanzadas las
+       la evaluación inicial, el equipo educativo remitirá al           correspondientes al de su referencia curricular.
+       departamento de orientación la relación de alumnos
+       y alumnas con dificultades e indicadores de una po-                  2. De existir discrepancias entre los ciclos o cur-
+       sible NEAE.                                                      sos superados por el alumno o la alumna reflejado
+                                                                        en la documentación oficial de evaluación y el refe-
+           6. La detección también se puede iniciar cuando              rente curricular determinado por el equipo de evalua-
+       desde el entorno familiar se observen indicios de                ción actual o, en su caso, por el departamento de coor-
+       que determinado niño o niña presente los citados in-             dinación didáctica correspondiente, se podrán realizar
+       dicadores o señales de alerta, y sean acreditados su-            nuevas pruebas de rendimiento coordinadas por el orien-
+       ficientemente a juicio de la Comisión de Coordina-               tador o la orientadora del centro para corroborar es-
+       ción Pedagógica. Del mismo modo, en cualquier                    te extremo. La conclusión de estas pruebas de ren-
+       momento del curso se puede comenzar el proceso,                  dimiento prevalecerá sobre los anteriores resultados.
+       si se dieran las circunstancias que así lo requieran.            De todo ello se dejará constancia en el informe psi-
+                                                                        copedagógico y se procederá a la comunicación de
+          Segunda.- Programas preventivos de refuerzo.                  esa incidencia a la dirección del centro y a la Inspec-
+                                                                        ción de Educación, para su conocimiento y actuacio-
+          1. Los programas preventivos de refuerzo a que                nes que procedan.
+       se refiere el artículo 6.2 de la Orden de 13 de diciem-
+       bre de 2010 estarán dirigidos al alumnado de Edu-                   Cuarta.- Realización de las adaptaciones curriculares.
+       cación Infantil y primer ciclo de Educación Prima-
+       ria en riesgo de presentar dificultades para avanzar                1. El documento de la AC o la ACUS se elabora-
+       con normalidad en los aprendizajes básicos de lec-               rá o actualizará y comenzará a aplicarse antes del fi-
+       tura, escritura y cálculo aritmético. Estos programas            nal del mes de octubre de cada curso escolar, pudien-
+       consistirán en la intervención sobre este alumnado               do los padres, madres, tutores o tutoras legales
+       en grupos de 3 a 5 escolares durante 35 minutos dia-             conocerlo si así lo solicitaran al centro. Cuando las
+       rios aproximadamente, dentro del horario lectivo.                modificaciones previstas respecto al curso anterior
+                                                                        no sean relevantes ni numerosas a criterio del tutor
+          2. Los centros iniciarán estos programas con ca-              o tutora y del profesorado de las áreas o materias adap-
+       rácter voluntario, atendiendo a las condiciones que              tadas, se podrá mantener el mismo documento, aña-
+       establezca la convocatoria que la Dirección General              diendo un anexo con las modificaciones. Este ane-
+       de Ordenación, Innovación y Promoción Educativa,                 xo ha de contar, al menos, con los datos del alumno
+       dicte al efecto. Serán desarrollados con los recursos            o alumna, los cambios o modificaciones y la firma
+       personales ordinarios que disponga el centro a lo lar-           del tutor o la tutora. Transcurridos tres cursos esco-
+       go del curso escolar, con la colaboración del orien-             lares desde la elaboración del primer documento, se
+       tador o la orientadora, o del asesor o asesora del cen-          ha de realizar uno nuevo.
+       tro del profesorado. Los programas estarán incluidos
+       en el plan de atención a la diversidad y los resulta-               En caso de alumnado de nueva valoración, el do-
+       dos obtenidos se incluirán en la memoria final del cur-          cumento de adaptación curricular deberá estar for-
+       so escolar.                                                      malizado antes de un mes, contando desde el día si-
+                                                                        guiente de la fecha en la que ha firmado el informe
+          Tercera.- El referente curricular.                            psicopedagógico el inspector o la inspectora. Con la
+                                                                        finalidad de iniciar el proceso de realización de las
+           1. Tal como se señala en el artículo 8.2 de la Or-           adaptaciones curriculares del alumnado con NEAE
+       den de 13 de diciembre de 2010, a los efectos de dic-            que lo precise, el director o directora del centro, o miem-
+       taminar una adaptación curricular (en adelante, AC)              bro del equipo directivo en quien delegue, a pro-
+       o una adaptación curricular significativa (en adelan-            puesta del tutor o tutora, procederá a convocar una
+       te, ACUS), el equipo docente en Educación Infantil               reunión a la que deberá acudir el profesorado cuya
+       y en Educación Primaria, o por el departamento de                área o materia sea objeto de adaptación curricular, el
+       coordinación didáctica correspondiente en la Educa-              orientador o la orientadora que interviene en el cen-
+       ción Secundaria Obligatoria, deberá acreditar median-            tro y el profesorado especialista de apoyo a las NEAE.
+       te acta el referente curricular del alumnado, según el
+       modelo establecido en la Orden de 1 de septiembre                   2. Las reuniones de coordinación del profesora-
+       de 2010. A estos efectos se entiende por referente cu-           do tutor de los alumnos y alumnas objeto de esta Re-
+       rricular de un alumno o alumna aquel curso en el que             solución con el profesor o profesora de cada una de
+       se ubique su actual competencia curricular en un                 las áreas o materias adaptadas, el especialista de apo-
+       área o materia en relación con el currículo regulado             yo a las NEAE u otros profesionales, se realizarán
+       normativamente.                                                  al menos mensualmente. Para ello, la jefatura de es-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3905                                     Jueves 24 de febrero de 2011
+
+
+
+       tudios incluirá en la planificación de principio de               teria, que no pueda alcanzar por su discapacidad. La
+       curso y en el plan de atención a la diversidad la or-             necesidad de que se le elimine una parte de dicha área
+       ganización y coordinación de estas reuniones.                     o materia debe justificarse y concretarse en el infor-
+                                                                         me psicopedagógico.
+          3. A los efectos de establecer el tiempo de aten-
+       ción personalizada fuera del aula ordinaria al que ha-               2. Cuando el alumno o alumna con “ACUS de exen-
+       ce referencia el artículo 9.7 de la Orden de 13 de di-            ción parcial” tiene un referente curricular acorde al
+       ciembre de 2010, en la etapa de Educación Infantil                grupo en el que está escolarizado en la parte no eli-
+       el máximo de horas semanales fuera del aula ordi-                 minada del área o materia, al cumplimentar los do-
+       naria será de cinco. En el supuesto de que el alum-               cumentos oficiales de evaluación, no será necesario
+       no o alumna tenga adaptada sólo un área o materia,                poner asterisco.
+       siendo ésta Lengua Castellana y Literatura o Mate-
+       máticas, la ausencia máxima del grupo será de cin-                    3. En cambio, cuando en la parte del área o ma-
+       co horas semanales en Educación Primaria y de cua-                teria no eliminada, el escolar tenga una AC o una ACUS,
+       tro horas semanales en la Educación Secundaria                    la calificación llevará asterisco, lo que indicará que
+       Obligatoria. En el supuesto de tener adaptadas dos                el alumno o la alumna no la ha superado. Esta posi-
+       áreas o materias, siendo una de ellas Lengua Caste-               bilidad de que coexista en una misma área o mate-
+       llana y Literatura o Matemáticas, estará fuera del                ria una ACUS por exención parcial con una ACUS
+       aula un máximo de seis horas, tanto en Educación Pri-             o una AC deberá tenerse en cuenta cuando se cum-
+       maria como en la Educación Secundaria Obligato-                   plimenten los documentos oficiales de evaluación si-
+       ria. En el supuesto de dos áreas o materias adapta-               guiendo los criterios establecidos en el apartado vi-
+       das, siendo éstas Lengua Castellana y Literatura y                gésimo cuarto.
+       Matemáticas, el máximo de horas de ausencia del gru-
+       po será de ocho horas en Educación Primaria y en la                  4. En los dos casos anteriores, en la calificación
+       Educación Secundaria Obligatoria.                                 deberá indicarse con una llamada, que el área o ma-
+                                                                         teria tiene una ACUS por exención parcial motiva-
+          4. Tal como se recoge en el artículo 29.5 de la Or-            da por su discapacidad.
+       den de 13 de diciembre de 2010, la evaluación posi-
+       tiva de la adaptación curricular o adaptación curri-                 5. El alumnado escolarizado en la Educación Se-
+       cular significativa de un área o materia no podrá ser             cundaria Obligatoria que presente necesidades educa-
+       considerada como superación de esta área o materia.               tivas especiales por discapacidad auditiva, visual o mo-
+       Si la evolución del escolar permite esa superación,               tora y que requiera alguna adaptación en las materias
+       aplicándole los mismos criterios de evaluación que                que se impartan por primera vez en esa etapa que no
+       al resto de los escolares de su grupo que no tienen               tengan área de referencia en Educación Primaria, se
+       áreas o materias adaptadas, se debe actualizar el co-             podrá aplicar una exención parcial de éstas, eliminan-
+       rrespondiente informe psicopedagógico.                            do aquellos elementos del currículo que no sea posi-
+                                                                         ble alcanzar por su discapacidad y considerar este
+          5. El alumnado con discapacidad auditiva, visual               ajuste como una “ACUS por exención parcial”. En es-
+       o motora, requerirá, en ocasiones, recursos, estrate-             te caso el resto de la materia se evaluará conforme a
+       gias e instrumentos singulares para facilitar su acce-            los criterios establecidos para todo el alumnado.
+       so al currículo. El sistema de lectura “braille”, la pa-
+       labra complementada, la lengua de signos española,                    6. En el artículo 32 de la Orden de 13 de diciem-
+       los dispositivos informáticos o instrumentales y ac-              bre de 2010, se establece la posibilidad de la exen-
+       cesorios, son ejemplos de adaptaciones de acceso al               ción de partes de determinadas materias en el Bachi-
+       currículo. Estas adaptaciones de acceso al currículo              llerato para el alumnado con discapacidad auditiva,
+       deberán estar dictaminadas en el informe psicopeda-               visual o motora debido a la propia discapacidad, pe-
+       gógico. Se estará a lo que dispone la Ley 27/2007,                ro sin afectar a la consecución de los objetivos del
+       de 23 de octubre, por la que se reconocen las lenguas             Bachillerato, ya que tiene como referente curricular
+       de signos españolas y se regulan los medios de apo-               el mismo curso en el que se encuentra. En el infor-
+       yo a la comunicación oral de las personas sordas, con             me psicopedagógico debe justificarse y concretarse
+       discapacidad auditiva y sordociegas.                              la solicitud de que se le exima de una parte de dichas
+                                                                         materias. Esta solicitud debe ser trasladada por el cen-
+          Quinta.- Las adaptaciones curriculares significa-              tro escolar a la Dirección General de Ordenación, Inno-
+       tivas de exención parcial para el alumnado con dis-               vación y Promoción Educativa que será quien auto-
+       capacidad auditiva, visual o motora.                              rice la exención parcial.
+
+          1. Se considera que un alumno o alumna con dis-                   Sexta.- Programas educativos personalizados.
+       capacidad auditiva, visual o motora en la enseñanza
+       básica, requiere una “ACUS de exención parcial” en                   1. Teniendo en cuenta lo establecido en el artícu-
+       un área o materia, cuando precisa de la eliminación               lo 12 de la Orden de 13 de diciembre de 2010, sobre
+       de algunos elementos del currículo de esa área o ma-              los programas educativos personalizados, las activi-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                    3906                                     Jueves 24 de febrero de 2011
+
+
+
+       dades que los conformen se han de desarrollar en un                      1. Para llevar a cabo la fragmentación en bloques
+       contexto metodológico que se ajuste a la individua-                  de las materias de Bachillerato a que hace referen-
+       lidad del escolar a quien se dirige.                                 cia el artículo 33.2 de la Orden de 13 de diciembre
+                                                                            de 2010, el centro educativo podrá solicitarlo a la Di-
+          2. Cuando los programas educativos personaliza-                   rección General de Ordenación, Innovación y Pro-
+       dos traten de estimular y mejorar las habilidades, los               moción Educativa, a lo largo del mes de enero del
+       razonamientos, las gestiones, las aptitudes básicas,                 curso escolar en que inicia esta etapa. Para ello, apor-
+       las conductas adaptativas y funcionales u otros as-                  tará la solicitud del director o directora del centro, la
+       pectos previos o transversales a un área o materia, lo               propuesta de fragmentación por materias completas,
+       han de hacer en el contexto de los contenidos curri-                 el informe psicopedagógico del escolar y el consen-
+       culares de las áreas o materias adaptadas y a través                 timiento, en su caso, de los padres, madres, tutores
+       de ellos.                                                            o tutoras legales a la medida solicitada, de proceder.
+
+           3. Los programas educativos personalizados po-                      2. La Dirección General de Ordenación, Innova-
+       drán incluir, entre otras concreciones, la mejora de                 ción y Promoción Educativa resolverá en el plazo de
+       las funciones ejecutivas y de los distintos tipos de aten-           un mes y comunicará por escrito al director o direc-
+       ción, de memoria, de estrategias de planificación y                  tora del centro dicha resolución, quien la trasladará
+       de fluidez, o flexibilidad cognitiva; la mejora de los               a la persona interesada. De ello quedará constancia
+       razonamientos contextualizados en las áreas o ma-                    en el expediente del alumno o la alumna. La aplica-
+       terias curriculares como el razonamiento lógico, ma-                 ción de la fragmentación se podrá realizar en el mis-
+       temático, verbal, secuencial o inductivo; la mejora                  mo curso que se autoriza o al siguiente.
+       de la gestión perceptual y de la aptitud espacial re-
+       lacionadas con las áreas o materias; la mejora de la                    3. La Dirección General de Ordenación, Innova-
+       competencia en comunicación lingüística, la con-                     ción y Promoción Educativa dictará instrucciones
+       ciencia fonológica, los procesos lectores y escritores,              para la cumplimentación de los documentos oficia-
+       y la competencia en el cálculo matemático; el entre-                 les de evaluación.
+       namiento en las autoinstrucciones y en el control de
+       conducta; la estimulación de la creatividad; el entre-                 Octava.- La adaptación del currículo para el alum-
+       namiento en las habilidades sociales; la mejora de las               nado escolarizado en aulas enclave y en centros de
+       destrezas adaptativas conceptuales, prácticas y socia-               educación especial.
+       les; la mejora de la autoestima o los refuerzos curri-
+       culares para el alumnado con NEAE escolarizado en                       1. El alumnado escolarizado en aula enclave o en
+       la enseñanza básica.                                                 centros de educación especial requerirá de un infor-
+                                                                            me psicopedagógico que dictamine una ACUS que
+          4. En la planificación de una AC o una ACUS se                    implique la supresión de objetivos y contenidos de
+       determinará qué programas educativos personaliza-                    etapa. Esta supresión afectará a la mayor parte o a
+       dos serán desarrollados por cada uno de los profe-                   todas las áreas o materias del currículo, siendo ne-
+       sionales que intervienen en su ejecución, o por la fa-               cesario priorizar aquellos objetivos, contenidos y as-
+       milia, en su caso.                                                   pectos de las competencias básicas del currículo ge-
+                                                                            neral relacionados con la autonomía personal, social
+           5. La aplicación de los programas educativos perso-              y de la comunicación y transición a la vida adulta.
+       nalizados para el alumnado identificado por los EOEP
+       con dislexia o disgrafía, mediante informe psicopeda-                   2. Este alumnado contará con un primer nivel de
+       gógico, que presenta dificultades en el procesamiento                adaptación del currículo ordinario, la Concreción
+       ortográfico se llevará a cabo, preferentemente, por el pro-          Curricular Adaptada para Educación Infantil, la Con-
+       fesorado que imparta el área o materia de Lengua Cas-                creción Curricular Adaptada para Educación Prima-
+       tellana y Literatura u otro profesorado que se conside-              ria o la Concreción Curricular de Transición a la Vi-
+       re por la Comisión de Coordinación Pedagógica.                       da Adulta para Educación Secundaria Obligatoria
+                                                                            que, de forma prescriptiva, será de aplicación en es-
+          6. Se podrán planificar en un mismo programa edu-                 tas modalidades. En los casos que el escolar lo re-
+       cativo personalizado distintos aspectos de los nume-                 quiera será necesario aplicar un segundo nivel de
+       rados en el punto 3 anterior, que estén muy relacio-                 adaptación.
+       nados y sean complementarios y, a ser posible, en torno
+       a un motivo que sea de interés para el escolar.                         3. La respuesta educativa en las aulas enclave y
+                                                                            centros de educación especial para las etapas de Edu-
+           7. La temporalización para desarrollar un progra-                cación Infantil y Educación Primaria ha de basarse
+       ma educativo personalizado ha de ser, preferentemen-                 en la Concreción Curricular Adaptada para Educa-
+       te, entre uno y tres meses.                                          ción Infantil y la Curricular Adaptada para Educación
+                                                                            Primaria. Los períodos de escolarización y la orga-
+          Séptima.- Fragmentación del Bachillerato para el                  nización de esta modalidad se regirán en base a los
+       alumnado con necesidades educativas especiales.                      criterios siguientes:
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3907                                     Jueves 24 de febrero de 2011
+
+
+
+          a) En el período de escolarización comprendido                     a) A partir de los 14 años, cumplidos antes del 31
+       entre los tres años, cumplidos antes del 31 de diciem-             de diciembre del año natural en que se inicia el cur-
+       bre del año natural en que se inicia el curso, y los sie-          so, y hasta los 21 años de edad, cumplidos durante
+       te años, cumplidos durante el año natural que finali-              el año natural que finaliza el curso, el alumnado
+       za el curso, los objetivos y contenidos estarán ordenados          cursará el período correspondiente a la ESO siguien-
+       y organizados en torno a tres ámbitos de experien-                 do la Concreción Curricular de Transición a la Vi-
+       cia: Ámbito de Autonomía Personal, Ámbito de Auto-                 da Adulta, con el objetivo de desarrollar sus capa-
+       nomía Social y Ámbito de la Comunicación y la                      cidades, actitudes y destrezas, y facilitando el mayor
+       Representación.                                                    grado de independencia en los ámbitos de autono-
+                                                                          mía personal, social y laboral, entendiéndose éstos
+          Estos ámbitos se corresponden con las áreas de Edu-             como una continuidad de los ámbitos programados
+       cación Infantil, de forma que, el Ámbito de Autono-                en la Concreción Curricular Adaptada para Educa-
+       mía Personal, equivale al área de Conocimiento de                  ción Primaria.
+       sí mismo y autonomía personal, el Ámbito de Auto-
+       nomía Social equivale al área de Conocimiento del                      Con el objetivo de contribuir al desarrollo de las
+       entorno y el Ámbito de la Comunicación y la Repre-                 competencias básicas que pueden ser alcanzadas por
+       sentación equivale al área de Lenguajes: comunica-                 cada alumno o alumna a lo largo de toda la vida, en
+       ción y representación. En este último ámbito se in-                el ámbito de autonomía laboral, se debe contemplar,
+       tegran diferentes lenguajes, como el verbal, el                    especialmente, la adquisición y desarrollo de habili-
+       matemático, corporal, musical, plástico y el audio-                dades y destrezas que faciliten el futuro acceso al mun-
+       visual y el de las tecnologías de la información y de              do laboral, en la modalidad que mejor se adapte a sus
+       la comunicación.                                                   características personales.
+
+          b) En el período de escolarización comprendido                     b) Una vez que el escolar haya cumplido los 18
+       entre los 8 años, cumplidos antes del 31 de diciem-                años de edad, la prórroga hasta los 21 años se lleva-
+       bre del año natural en que se inicia el curso, y los 14            rá a cabo curso a curso. Para tal fin, la familia comu-
+       años de edad, cumplidos durante el año natural que                 nicará por escrito al centro educativo su decisión so-
+       finaliza el curso, los ámbitos a desarrollar estarán or-           bre la continuidad del alumno o alumna, en el período
+       denados y organizados en torno a los ya menciona-                  de admisión establecido para cada curso escolar. Los
+       dos en el período de escolarización anterior, como con-            centros deberán informar oportunamente a las fami-
+       tinuidad de los mismos. Estos ámbitos incluyen                     lias de la necesidad de este trámite.
+       objetivos, competencias básicas y contenidos. La
+       evaluación positiva de esta concreción curricular no                  c) Los alumnos o las alumnas que cumplan los 21
+       implica la superación de los diferentes ciclos de Edu-             años antes del 31 de diciembre del año natural en el
+       cación Primaria.                                                   que finaliza el curso, no podrán formalizar la matrí-
+                                                                          cula en el curso siguiente que se inicia en septiem-
+          c) En el desarrollo de la concreción curricular                 bre de ese año, dando por terminada su escolariza-
+       adaptada se debe dar especial relevancia a los aspec-              ción en todo caso.
+       tos socializadores e integradores del alumnado esco-
+       larizado en aulas enclave, favoreciendo en el mayor                   5. La singularidad de la escolarización en aulas en-
+       grado posible, la inclusión con el resto de alumnado               clave y centros de educación especial se realizará en
+       escolarizado en el centro educativo.                               los términos y condiciones señalados en la Instruc-
+                                                                          ción Décimo Cuarta de este anexo.
+          d) Partiendo de la concreción curricular adaptada
+       correspondiente a cada etapa, según la edad crono-                   Novena.- Información a las familias sobre las
+       lógica del alumnado, el tutor o la tutora elaborará, en            adaptaciones del currículo.
+       colaboración con los demás profesionales que inter-
+       vienen en el proceso educativo de cada alumno o alum-                 1. En aplicación de lo establecido en el artículo
+       na, la programación de aula y las ACUS que preci-                  29.6 de la Orden de 13 de diciembre de 2010, el tu-
+       se cada escolar.                                                   tor o tutora del escolar informará a las familias de
+                                                                          la adaptación o adaptaciones que se van a elaborar
+          e) En las aulas enclave de los centros de Educa-                en las diferentes áreas o materias, de su contenido,
+       ción Infantil y Educación Primaria podrá coexistir alum-           de las medidas organizativas previstas, del nivel de
+       nado con edades correspondientes a estas dos etapas.               competencia curricular que se espera alcanzar al fi-
+                                                                          nalizar el curso escolar y de las consecuencias que,
+          4. La respuesta educativa en las aulas enclave y                en cuanto a evaluación, promoción y titulación, tie-
+       centros de educación especial para el alumnado que                 ne la aplicación de esta medida en los diferentes ni-
+       ha cumplido los 14 años de edad, ha de basarse en                  veles y etapas, explicando detalladamente el signi-
+       la Concreción Curricular de Transición a la Vida                   ficado de las adaptaciones curriculares y de las
+       Adulta. La escolarización y organización de esta mo-               calificaciones de las áreas o materias señaladas con
+       dalidad se regirá por los siguientes criterios:                    asterisco.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3908                                    Jueves 24 de febrero de 2011
+
+
+
+           2. Estas indicaciones se recogerán por escrito por                Cuando un alumno o alumna requiera permane-
+       el tutor o tutora en un “Documento informativo pre-                cer de forma prolongada en su domicilio a causa de
+       vio sobre las adaptaciones curriculares”, siguiendo                una enfermedad, se actuará de la siguiente manera:
+       el modelo del anexo III de esta Resolución, que le
+       entregará a la familia al comienzo de cada curso es-                  a) El centro, previa petición de la familia, solici-
+       colar y se adjuntará, después de firmarla la familia,              tará la atención domiciliaria a la Dirección General
+       al documento de la adaptación curricular del alum-                 de Ordenación, Innovación y Promoción Educativa.
+       no o alumna. En las reuniones informativas con la fa-
+       milia, el tutor o tutora podrá estar acompañado por                   b) A la solicitud se acompañará la documenta-
+       el profesorado especialista de apoyo a las NEAE y                  ción médica que acredite que el alumno o la alumna
+       ser asesorado por el orientador o la orientadora del               no puede asistir a su centro educativo durante 60 o
+       centro.                                                            más días naturales.
+
+          Décima.- Coordinación entre centros.                                c) El alumno o alumna será atendido en su domi-
+                                                                          cilio, en horario de tarde, por profesorado de apoyo.
+           Se debe establecer la coordinación necesaria entre             Dicho profesorado será preferentemente del mismo
+       el centro de procedencia del escolar y el centro recep-            centro, si existieran voluntarios, o de otros centros,
+       tor para posibilitar que este último disponga, entre               si no los hubiera.
+       otra documentación, del preinforme o informe psico-
+       pedagógico en el momento de incorporación del alum-                   d) Deberá existir la adecuada coordinación entre
+       no o alumna, con el objeto de posibilitar de forma in-             el profesorado tutor y el de apoyo domiciliario.
+       mediata la planificación de la respuesta educativa.
+                                                                              e) Después de terminada la atención domiciliaria
+          Décimo primera.- Información general sobre el alum-             por recuperación del alumno o alumna, el centro es-
+       nado con necesidades específicas de apoyo educativo.               colar comunicará tal extremo a la Dirección Gene-
+                                                                          ral de Ordenación, Innovación y Promoción Educativa.
+          1. La Dirección General de Ordenación, Innova-
+       ción y Promoción Educativa, en cada curso escolar,                   Décimo tercera.- Centros ordinarios de atención
+       establecerá las fechas, el procedimiento y las instruc-            educativa preferente.
+       ciones necesarias para que los centros públicos y
+       centros privados concertados cumplimenten el “Es-                      1. En los centros ordinarios de atención educati-
+       tadillo de planificación de la respuesta educativa al              va preferente para alumnado con necesidades edu-
+       alumnado con necesidades específicas de apoyo edu-                 cativas especiales por discapacidad auditiva se esco-
+       cativo” utilizando la aplicación informática diseña-               larizarán los alumnos y alumnas con dicha discapacidad,
+       da al efecto.                                                      cuya respuesta educativa requiera de recursos huma-
+                                                                          nos y materiales específicos de difícil generalización.
+          2. El estadillo recogerá información general so-
+       bre el alumnado con NEAE escolarizado en los cen-                     2. En los centros ordinarios de atención educati-
+       tros de Educación Infantil y Primaria, incluidos los               va preferente para alumnado con necesidades edu-
+       centros incompletos que se integran en los colecti-                cativas especiales por discapacidad motora serán es-
+       vos de escuelas rurales, en los centros de enseñanza               colarizados los alumnos y alumnas con dicha
+       obligatoria, en los Institutos de Educación Secunda-               discapacidad, cuya respuesta educativa requiera de
+       ria y en centros de educación especial.                            recursos humanos y materiales específicos e infra-
+                                                                          estructura de difícil generalización.
+          3. Los centros incluirán en el estadillo sólo aque-
+       llos escolares con informes psicopedagógicos o in-                     3. La escolarización de este alumnado se realiza-
+       formes de evaluación de la comunicación y del len-                 rá conforme al procedimiento establecido en el artícu-
+       guaje elaborados por los EOEP.                                     lo 33.2 de la Orden de 1 de septiembre de 2010.
+
+           4. Con la finalidad de facilitar la identificación de             4. Los requerimientos para la respuesta educati-
+       los escolares con NEAE, en todos los documentos don-               va al alumnado con discapacidad auditiva o motora
+       de se relacionan los datos personales, deberá incluir-             escolarizado en centros ordinarios de atención edu-
+       se en los mismos el correspondiente Código de Iden-                cativa preferente, relativos, entre otros, a la organi-
+       tificación del Alumnado (CIAL). De esta manera, se                 zación general del centro, a la metodología o a la di-
+       deberá recoger al menos, en los anexos II y III de la              fusión en la comunidad educativa de las características
+       Orden de 13 de diciembre de 2010, y en los anexos                  de la discapacidad de estos escolares, han de quedar
+       I, II, III, V y VI de la Orden de 1 de septiembre de               reflejados en sus respectivos planes de atención a la
+       2010.                                                              diversidad. A las necesidades educativas de estos es-
+                                                                          colares se debe responder desde los distintos ele-
+         Décimo segunda.- Atención domiciliaria del alum-                 mentos que constituyen el currículo y mediante la coor-
+       nado con larga enfermedad.                                         dinación entre los profesionales, contribuyendo a
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3909                                     Jueves 24 de febrero de 2011
+
+
+
+       asegurar la continuidad del proceso educativo entre                  7. En los centros ordinarios de atención educati-
+       ciclos y etapas educativas.                                       va preferente para alumnado con discapacidad audi-
+                                                                         tiva de Educación Infantil y Educación Primaria po-
+          5. Las funciones del personal auxiliar sujetos a con-          drán intervenir, siguiendo los criterios de la Dirección
+       venio, que intervienen en los centros ordinarios de               General de Ordenación, Innovación y Promoción
+       atención educativa preferente para alumnado con                   Educativa, profesionales especialistas en lengua de
+       discapacidad motora, serán las recogidas en el con-               signos española, cuyas tareas prioritarias son ense-
+       venio colectivo del personal laboral de la Comuni-                ñar la lengua de signos española al alumnado con dis-
+       dad Autónoma de Canarias que esté vigente.                        capacidad auditiva y proporcionar al resto de los es-
+                                                                         colares del aula, al profesorado del equipo docente
+          6. Para la dotación e intervención de los Intérpre-            y a la familia el apoyo necesario para facilitar la co-
+       tes de Lengua de Signos Española en los centros or-               municación con el escolar con discapacidad auditiva.
+       dinarios de atención educativa preferente para alum-
+       nado con necesidades educativas especiales por                        8. Para la dotación e intervención de los especia-
+       discapacidad auditiva de educación secundaria, a los              listas en lengua de signos española en los centros or-
+       que se refiere el artículo 20.5 de la Orden de 13 de              dinarios de atención educativa preferente para alum-
+       diciembre de 2010, se tendrán en cuenta los siguien-              nado con necesidades educativas especiales por
+       tes criterios y condiciones:                                      discapacidad auditiva de Educación Infantil y Edu-
+                                                                         cación Primaria, a los que se refiere el artículo 20.6
+          a) El EOEP específico para la discapacidad audi-               de la Orden de 13 de diciembre de 2010, se tendrán
+       tiva, en colaboración con el EOEP de zona, es el que              en cuenta los siguientes criterios y condiciones:
+       evalúa si la alumna o el alumno es competente en len-
+       gua de signos española y determina en el informe psi-                a) El EOEP específico para la discapacidad audi-
+       copedagógico si precisa el apoyo del Intérprete de Len-           tiva valorará si el alumno o alumna necesita el apo-
+       gua de Signos Española para el acceso al currículo.               yo del especialista en lengua de signos española pa-
+       Si la alumna o el alumno es competente en la lengua               ra el acceso al currículo, y dejará constancia de esa
+       oral no se proporciona ese apoyo.                                 valoración en el informe psicopedagógico.
+
+          b) El número de horas que se asigne de Intérpre-                   b) En ningún caso se proporcionará el especialis-
+       te de Lengua de Signos Española será proporcional                 ta en lengua de signos española, si el alumno o alum-
+       al número de alumnado signante dentro del inter-                  na es competente en la lengua oral.
+       valo establecido (2-8 escolares) y estará condicio-
+       nado, además, por la necesidad de interpretación que                 c) El EOEP específico correspondiente realizará
+       requiera cada una de las materias, según precisen                 un seguimiento del aprovechamiento de esta medi-
+       en mayor medida la comunicación o la enseñanza                    da por si procediera modificar el horario del profe-
+       oral.                                                             sional, teniendo en cuenta los criterios determinados
+                                                                         por la Dirección General de Ordenación, Innovación
+          c) Sólo se interpretarán aquellas materias que es-             y Promoción Educativa.
+       time el EOEP específico correspondiente, atendien-
+       do a la información aportada por el equipo docente                   d) Los padres, madres o tutores legales deben dar
+       y por el equipo directivo del centro, así como a los              su conformidad por escrito para que el alumnado re-
+       criterios determinados por la Dirección General de                ciba asesoramiento del especialista en lengua de sig-
+       Ordenación, Innovación y Promoción Educativa.                     nos española.
+       Con esta información la Dirección General de Orde-
+       nación, Innovación y Promoción Educativa deter-                      Décimo cuarta.- Aulas enclave y centros de edu-
+       minará el tiempo requerido para la interpretación. Pa-            cación especial.
+       ra proporcionar la mejor respuesta a estos escolares
+       con la dotación horaria que se le haya asignado, el                  1. La singularidad de la escolarización en aulas en-
+       centro organizará el horario del profesional.                     clave y la concreción de los currículos establecidos
+                                                                         por la Administración educativa para las enseñanzas
+          d) El EOEP específico correspondiente realizará                que se imparten, tanto en los centros de Educación
+       un seguimiento del aprovechamiento de esta medi-                  Infantil y Educación Primaria como en los institutos
+       da por si procediera modificar el horario del profe-              de educación secundaria, ha de quedar reflejada en
+       sional, teniendo en cuenta los criterios determinados             el proyecto educativo como un elemento más del eje
+       por la Dirección General de Ordenación, Innovación                vertebrador del plan de atención a la diversidad, del
+       y Promoción Educativa y los recursos establecidos                 plan de convivencia y de la acción tutorial.
+       en la planificación.
+                                                                             En el proyecto educativo se ha de reflejar cómo pue-
+          e) Estos profesionales podrán ser apoyados por alum-           den beneficiarse los alumnos y alumnas del aula en-
+       nado en prácticas del ciclo formativo de Intérprete               clave en las competencias, objetivos, contenidos y
+       de Lengua de Signos Española.                                     criterios de evaluación programados para el resto del
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3910                                        Jueves 24 de febrero de 2011
+
+
+
+       alumnado del centro, cuando se realicen actividades                o tutora, la intervención se realizará en grupos de 6-
+       compartidas. Igualmente ha de reflejarse el beneficio              8 alumnos o alumnas.
+       educativo que supone para la comunidad educativa la
+       presencia de este alumnado en el centro.                               Décimo quinta.- Funciones del profesorado tutor de
+                                                                          las aulas enclave y de los centros de educación especial.
+          2. Los objetivos que se propongan y los valores
+       que se impulsen, recogidos en el proyecto educati-                    1. Con independencia de las funciones asignadas
+       vo, deben garantizar la máxima inclusión del alum-                 al profesorado tutor en el Decreto 81/2010, de 8 de
+       nado, explicitando las singularidades que implica                  julio, por el que se aprueba el Reglamento Orgáni-
+       esta modalidad de escolarización y dándolas a cono-                co de los centros docentes públicos no universitarios
+       cer a la comunidad educativa.                                      de la Comunidad Autónoma de Canarias (BOC nº 143,
+                                                                          de 22 de julio), y de las asignadas al profesorado es-
+          3. Los centros de educación especial dispondrán                 pecialista de apoyo a las NEAE en el artículo 26.1
+       de autonomía para elaborar, aprobar y ejecutar su pro-             de la Orden de 13 de diciembre de 2010, las tareas
+       yecto educativo, así como las normas de organiza-                  específicas del profesorado tutor en aulas enclave y
+       ción y funcionamiento del centro en el marco de lo                 centros de educación especial serán las siguientes:
+       establecido en el capítulo I del título III del Decreto
+       81/2010, de 8 de julio, por el que se aprueba el Re-                  a) Recabar información del alumnado al comienzo
+       glamento Orgánico de los centros docentes públicos                 del curso a través de los informes psicopedagógicos,
+       no universitarios de la Comunidad Autónoma de Ca-                  de las entrevistas con la familia, del orientador o la orien-
+       narias (BOC nº 143, de 22 de julio), considerando                  tadora del centro educativo y, en su caso, del seguimien-
+       las singularidades expuestas en la Orden de 13 de di-              to o seguimientos de su ACUS y de la memoria final.
+       ciembre de 2010 y en la presente Resolución.
+                                                                             b) Realizar la evaluación inicial, la elaboración y
+          4. La escolarización de alumnado de aulas encla-                seguimiento de la ACUS de cada alumno o alumna,
+       ve y centros de educación especial se realizará con-               en coordinación con los diferentes profesionales que
+       forme al procedimiento establecido en el artículo                  intervienen con él o ella, tomando como referente la
+       33.2 de la Orden de 1 de septiembre de 2010.                       Concreción Curricular Adaptada para Educación In-
+                                                                          fantil, la Curricular Adaptada para Educación Prima-
+          5. Para la organización de los agrupamientos se                 ria y la Concreción Curricular de Transición a la Vi-
+       atenderá preferentemente a los siguientes criterios,               da Adulta, según el caso.
+       teniendo en cuenta las ratios profesorado tutor-alum-
+       no o alumna, establecidas en el artículo 24.4 de la Or-               c) Organizar y estructurar el aula, aplicando las estra-
+       den de 13 de diciembre de 2010:                                    tegias y metodología adecuadas al alumno o alumna.
+
+          a) Para el alumnado gravemente afectado o con                      d) Coordinar la respuesta educativa del alumna-
+       trastornos graves de conducta, que requieran atención              do. Para ello, respetando lo previsto en el Decreto
+       constante para evitar situaciones perjudiciales que afec-          81/2010, se adscribirán al ciclo que más se ajuste a
+       ten la integridad física propia o de sus compañeros                la edad cronológica de la mayoría del alumnado de
+       o compañeras, la intervención se realizará en grupos               su grupo en los centros de Educación Infantil y Edu-
+       de 3-4 alumnos o alumnas.                                          cación Primaria y en los centros de educación espe-
+                                                                          cial. En los institutos de educación secundaria se
+          b) Para el alumnado con escaso nivel de autono-                 adscribirán al departamento de orientación.
+       mía personal y que necesite supervisión y ayuda
+       constante para el desarrollo de hábitos y que, además,                e) Elaborar y desarrollar la programación de aula,
+       su referente curricular esté en Educación Infantil, la             así como los diferentes programas educativos perso-
+       intervención se realizará en grupos de 4-5 alumnos                 nalizados que fueran necesarios llevar a cabo para la
+       y alumnas.                                                         consecución de los objetivos propuestos.
+
+          c) Para el alumnado que está desarrollando la                      f) Elaborar la memoria final del curso.
+       Concreción Curricular Adaptada para Educación Pri-
+       maria equivalente al primer ciclo de Educación Pri-                  g) Otras que determine la Dirección General de
+       maria o con un nivel de autonomía que posibilite la                Ordenación, Innovación y Promoción Educativa.
+       realización de las tareas educativas con menor depen-
+       dencia del tutor o tutora, la intervención se realiza-                2. Además de las tareas específicas relacionadas en
+       rá en grupos de 5-6 alumnos y alumnas.                             el apartado anterior, el profesorado tutor de las aulas
+                                                                          enclave tendrá las siguientes:
+          d) Para el alumnado de 14 o más años de edad,
+       cuyo nivel de desarrollo cognitivo, comunicativo y                    a) Informar conjuntamente con los miembros de
+       social, le permita un grado de autonomía suficiente                los EOEP que intervengan en el centro, a los equi-
+       que no requiera de la supervisión constante del tutor              pos docentes de ciclo y a los departamentos de orien-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                3911                                     Jueves 24 de febrero de 2011
+
+
+
+       tación o de coordinación didáctica que se considere,                b) Para el alumnado con especiales condiciones
+       de las características psicopedagógicas más relevan-             personales e historia escolar, dificultad específica de
+       tes del alumnado del aula enclave para una adecua-               aprendizaje o trastorno por déficit de atención con o
+       da atención educativa.                                           sin hiperactividad con AC, la intervención se reali-
+                                                                        zará en grupos de 5 a 7 escolares.
+           b) Elaborar, en coordinación con los profesionales
+       que intervienen con estos alumnos y alumnas, el plan                 c) Cuando se combinan para la intervención es-
+       de actividades de socialización con el resto del alum-           colares con necesidades educativas especiales y es-
+       nado del centro y proponerlo para su aprobación a la             colares con dificultad específica de aprendizaje, tras-
+       Comisión de Coordinación Pedagógica. Este plan ha                torno por déficit de atención con o sin hiperactividad
+       de propiciar el mayor número de situaciones posibles             o especiales condiciones personales e historia esco-
+       de interacción de estos escolares con el resto de alum-          lar, con AC, los grupos serán de 4 a 6 alumnos y alum-
+       nos y alumnas de su grupo de referencia y del centro,            nas, tendiendo al número menor cuantos más esco-
+       de la manera más inclusiva posible. En este sentido,             lares con necesidades educativas especiales lo
+       en los recreos y en otras actividades compartidas, se            compongan.
+       propiciará que este alumnado se integre con el resto
+       de escolares, precisándose la intervención e implica-               d) De no existir en el centro suficientes alumnos
+       ción de todo el profesorado del centro en su desarro-            y alumnas con NEAE para poder aplicar los criterios
+       llo. La Comisión de Coordinación Pedagógica lleva-               de agrupamiento mencionados anteriormente, la Co-
+       rá a cabo la coordinación y seguimiento de este plan.            misión de Coordinación Pedagógica determinará la
+                                                                        atención que el profesorado de apoyo a las NEAE de-
+          Décimo sexta.- Funciones de los auxiliares edu-               be prestar a otros escolares del centro que puedan re-
+       cativos y de los adjuntos y adjuntas de taller de las            querir apoyos o refuerzo educativo, según se estable-
+       aulas enclave y de los centros de educación especial.            ce en el artículo 28 de la Orden de 13 de diciembre
+                                                                        de 2010.
+          Las funciones del personal auxiliar y de los ad-
+       juntos y adjuntas de taller, bajo contratación de dere-              e) Cuando exista disponibilidad horaria por parte
+       cho laboral, que intervengan en las aulas enclave y              del profesorado especialista de apoyo a las NEAE y
+       de los centros de educación especial, serán las reco-            una vez aplicados los criterios anteriores, de manera
+       gidas en el vigente convenio colectivo del personal              excepcional y en un número de sesiones limitadas, se
+       laboral de la Comunidad Autónoma de Canarias.                    podrá atender al alumnado en grupos más reducidos.
+                                                                        Se priorizará a los escolares que presenten trastornos
+          En el caso de gestión indirecta de esta prestación            generalizados del desarrollo, trastornos graves de con-
+       a través de empresas contratistas de la Administra-              ducta o trastorno por déficit de atención con o sin hi-
+       ción, respecto del personal puesto a disposición por             peractividad, cuando su comportamiento presente di-
+       dichas empresas que prestaran el servicio, a la extin-           ficultades para su control. En estos casos, las sesiones
+       ción de los contratos, no podrá producirse en ningún             se dedicarán a la aplicación de un programa educati-
+       caso la consolidación de las personas que hayan rea-             vo personalizado de autorregulación de la conducta.
+       lizado los trabajos objeto del contrato como perso-              Los criterios para la organización de estos agrupa-
+       nal de la Administración educativa contratante, ni se            mientos serán establecidos por la Comisión de Coor-
+       producirá una sucesión empresarial en los términos               dinación Pedagógica en centros de Educación Infan-
+       previstos en el Estatuto de los Trabajadores.                    til y Educación Primaria, o por el departamento de
+                                                                        orientación en educación secundaria.
+          Décimo séptima.- Criterios para el agrupamiento
+       del alumnado con necesidades específicas de apoyo                    f) En general, el criterio para el agrupamiento de
+       educativo en centros ordinarios y la organización de             los alumnos y alumnas será el de presentar un nivel
+       su respuesta educativa.                                          competencial similar. También se podrán agrupar en
+                                                                        función del grado de atención en la tarea, el nivel de
+           1. Atendiendo al artículo 25.4 de la Orden de 13             autonomía para trabajar individual o colectivamen-
+       de diciembre de 2010, en los centros ordinarios que              te, la distorsión de su conducta relacional o frente a
+       escolaricen alumnado con NEAE, cuando se dispen-                 la tarea, etc.
+       sa la respuesta personalizada en grupos pequeños
+       fuera del aula ordinaria por el profesorado especia-                 2. A los efectos de establecer la organización de
+       lista de apoyo a las NEAE y otros profesionales, se              la respuesta educativa del alumnado y la distribución
+       deberán tener en cuenta, de forma preferente, los cri-           del horario semanal del profesorado especialista de
+       terios de agrupamiento de alumnos y alumnas que se               apoyo a las NEAE, se debe tener en cuenta lo siguiente:
+       expresan a continuación:
+                                                                           a) El número de horas de atención que recibirá el
+          a) Para el alumnado con necesidades educativas                escolar por el profesorado especialista de apoyo a
+       especiales con AC o ACUS, la intervención se rea-                las NEAE lo establecerá la Comisión de Coordina-
+       lizará en grupos de 3 ó 4 alumnos y alumnas.                     ción Pedagógica en los centros de Educación Infan-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                   3912                                     Jueves 24 de febrero de 2011
+
+
+
+       til y Educación Primaria, o el departamento de orien-                  g) El profesorado especialista de apoyo a las NEAE
+       tación, en educación secundaria, a propuesta del je-                asistirá a las sesiones de evaluación del alumnado con
+       fe o jefa de estudios, teniendo en cuenta la normati-               el que interviene, para lo cual el centro propiciará que
+       va vigente, las orientaciones del informe psicopedagógico,          estas sesiones se organicen de forma que permitan su
+       los criterios de agrupamiento expuestos en esta Re-                 asistencia.
+       solución, la disponibilidad horaria del profesorado es-
+       pecialista de apoyo NEAE y aquellos otros aspectos                     Décimo octava.- Consideraciones metodológi-
+       que establezca la propia Comisión de Coordinación                   cas y de evaluación con el alumnado que presenta
+       Pedagógica.                                                         necesidades específicas de apoyo educativo en cen-
+                                                                           tros ordinarios.
+          b) En el supuesto de que un alumno o alumna de-
+       ba salir del aula ordinaria para recibir la atención per-              1. Teniendo en cuenta lo previsto en el artículo 8.3
+       sonalizada por el profesorado especialista de apoyo                 del Decreto 104/2010, de 29 de julio, por el que se
+       a las NEAE, lo hará preferentemente en el espacio                   regula la atención a la diversidad del alumnado en el
+       horario en que se esté impartiendo el área o materia                ámbito de la enseñanza no universitaria de Cana-
+       adaptada en su grupo de referencia. Se debe tener en                rias, que establece que “la Administración educati-
+       cuenta este criterio cuando se elaboren los horarios                va proporcionará al profesorado, en el desarrollo
+       del centro.                                                         normativo del presente Decreto, orientaciones meto-
+                                                                           dológicas para cada una de las NEAE y las adecua-
+          c) Cuando se planifique el horario del grupo de                  ciones que se precisen en los procedimientos e ins-
+       referencia y del grupo para la atención más persona-                trumentos de evaluación curricular” y en el artículo
+       lizada de los escolares, se deberá realizar una distri-             29.8 de la Orden de 13 de diciembre de 2010, se re-
+       bución del tiempo, optimizando los momentos de                      coge que “... la Dirección General de Ordenación e
+       máximo rendimiento del alumno o la alumna, y pro-                   Innovación Educativa determinará otras adaptacio-
+       curando que, preferentemente, se intervenga en las                  nes en los procedimientos e instrumentos de evalua-
+       primeras horas sobre aquellos que tengan una aten-                  ción para el alumnado con NEAE”, el anexo II de la
+       ción más dispersa y un ritmo más lento de aprendizaje.              presente Resolución establece los criterios que el
+                                                                           profesorado de los centros ordinarios deberá tener en
+          d) La distribución del horario semanal del profe-                cuenta, a estos efectos, con el alumnado que presen-
+       sorado especialista de apoyo a las NEAE estará con-                 ta NEAE.
+       dicionada por los criterios expuestos anteriormente.
+       La Comisión de Coordinación Pedagógica, tenien-                        2. Para la ejecución de las diferentes pruebas o exá-
+       do en cuenta tales criterios y el máximo aprovecha-                 menes, los alumnos o las alumnas identificados por
+       miento de los recursos personales disponibles, rea-                 los EOEP con necesidades específicas de apoyo edu-
+       lizará la distribución equitativa de los escolares con              cativo, excepto el alumnado de altas capacidades in-
+       pautas pedagógicas entre los especialistas, en caso de              telectuales, podrán disponer de hasta un 50% más del
+       existir más de uno.                                                 tiempo establecido para el resto del alumnado. Para
+                                                                           ello, el escolar, su familia o tutores legales deberán
+          e) La configuración del horario del profesorado                  solicitarlo previamente a la dirección del centro. No
+       especialista de apoyo a las NEAE recogerá el espa-                  obstante, el profesorado podrá aplicar esta medida sin
+       cio horario para las tareas de coordinación con el res-             solicitud previa.
+       to del profesorado, para lo cual se dedicará el tiem-
+       po necesario no destinado a la atención directa al                     Décimo novena.- Plan de trabajo y memoria del
+       alumnado.                                                           profesorado especialista de apoyo a las necesidades
+                                                                           específicas de apoyo educativo y del profesorado es-
+           f) La coordinación entre el profesorado especialis-             pecialista de audición y lenguaje.
+       ta de apoyo a las NEAE y el profesorado de las áreas
+       o materias adaptadas será al menos mensualmente y                      El plan de trabajo y la memoria del profesora-
+       se levantará acta sobre el seguimiento de la evolución              do especialista de apoyo a las NEAE y del profe-
+       del escolar. Estas actas las custodiará el profesorado              sorado especialista en audición y lenguaje de los
+       especialista de apoyo a las NEAE y serán utilizadas                 centros de educación especial y de los centros or-
+       para el seguimiento del progreso de los aprendizajes                dinarios de atención educativa preferente para
+       del escolar. La coordinación con el orientador o la                 alumnado con discapacidad auditiva a los que se
+       orientadora se hará de forma general los días de per-               refieren los artículos 26.1, letra k) y 27 de la Or-
+       manencia de este profesional en el centro y de forma                den de 13 de diciembre de 2010, tendrán las siguien-
+       sistemática, al menos, una vez al mes. En el supues-                tes características:
+       to de que el número de centros asignados al orienta-
+       dor u orientadora lo requiera, esta coordinación podrá                 a) El plan de trabajo ha de incorporar, entre otros
+       realizarse, al menos, una vez cada dos meses. Estas coor-           aspectos, la temporalización de la elaboración y ac-
+       dinaciones deben estar previstas desde comienzo de                  tualización de las adaptaciones curriculares y de los
+       curso.                                                              programas educativos personalizados correspondien-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                3913                                     Jueves 24 de febrero de 2011
+
+
+
+       tes; los criterios para la formación de grupos de aten-          rado de apoyo a las NEAE o de audición y lengua-
+       ción personalizada; el horario semanal de cada gru-              je, en el contexto de las normas de funcionamiento
+       po; el horario semanal del maestro o maestra espe-               del centro escolar.
+       cialista; la temporalización de las reuniones de
+       coordinación con otros profesionales; la evaluación                 e) Deberá tener autorizado el plan de actuación en
+       inicial de cada escolar antes de la aplicación de los            el aula por el Consejo Escolar del centro, en el con-
+       programas educativos personalizados correspondien-               texto del proyecto educativo y de la programación ge-
+       tes y una relación de los títulos de los programas edu-          neral anual. Por tanto será el propio Consejo Esco-
+       cativos personalizados a desarrollar con sus objeti-             lar el órgano encargado de estudiar y aprobar las
+       vos para cada escolar.                                           propuestas que pudieran presentarse para el desa-
+                                                                        rrollo de actividades de voluntariado.
+          b) La memoria ha de recoger, entre otros aspec-
+       tos, el informe del trabajo desarrollado en coordina-                f) El voluntario o voluntaria se dedicará especial-
+       ción con otros docentes en las adaptaciones curricu-             mente a prestar asistencia, dentro y fuera del hora-
+       lares y el informe del seguimiento final de cada                 rio escolar, al alumnado que presente NEAE, para me-
+       adaptación curricular, desarrollada a través de los              jorar sus posibilidades de participación y el avance
+       programas educativos personalizados, elaborado en                en sus aprendizajes, en las actividades del aula, com-
+       coordinación con el tutor o tutora del escolar. Asimis-          plementarias y extraescolares.
+       mo deberá incluir una copia de cada programa edu-
+       cativo personalizado desarrollado y las propuestas or-              g) Los centros determinarán, dentro de su plan
+       ganizativas para el curso siguiente.                             de atención a la diversidad, las funciones que se les
+                                                                        puede asignar a las personas voluntarias, las limi-
+          Vigésima.- Requisitos para la actuación de perso-             taciones a su actuación que estimen pertinentes, las
+       nal voluntario que colabore en el apoyo del alumna-              relaciones con los demás miembros de la comuni-
+       do con necesidades específicas de apoyo educativo.               dad educativa y los mecanismos de resolución de
+                                                                        conflictos.
+          Para colaborar en la atención educativa del alum-
+       nado con NEAE dentro o fuera del aula ordinaria, las                h) Los voluntarios o voluntarias no podrán reali-
+       asociaciones de padres y madres o instituciones pú-              zar tareas de sustitución ni total ni parcial del perso-
+       blicas o privadas, mediante convenio o protocolos de             nal del centro, ni labores de mantenimiento, ni nin-
+       colaboración con la Consejería de Educación, Uni-                guna otra actividad que constituya el desempeño de
+       versidades, Cultura y Deportes, podrán proporcionar              una determinada profesión de ejercicio libre.
+       al centro educativo personas voluntarias que inter-
+       vengan dentro o fuera del aula, cumpliendo los re-                  i) Los voluntarios o voluntarias deberán disponer
+       quisitos que se exponen a continuación:                          de la cobertura de responsabilidad establecida en la
+                                                                        Ley 4/1998, de 15 de mayo, de voluntariado de Ca-
+          a) El voluntariado en los centros educativos se re-           narias y el resto de la normativa vigente, por la en-
+       girá por los principios de gratuidad y complementa-              tidad que patrocina a las personas voluntarias o los
+       riedad, y estarán sujetos a lo recogido en la Ley                estudios mencionados. Este aspecto deberán acredi-
+       4/1998, de 15 de mayo, de voluntariado de Canarias.              tarlo ante el director o directora del centro, quien lo
+                                                                        comunicará a la Inspección de Educación de zona.
+          b) Las personas voluntarias también podrán ser pa-
+       dres, madres o tutores y tutoras legales de escolares               j) La dirección del centro y la Inspección de Edu-
+       u otras personas con formación, competencia o titu-              cación de zona velarán por el cumplimiento de las
+       lación adecuada para la actividad que va a desempe-              condiciones anteriores. La dirección evaluará la ac-
+       ñar con los alumnos y alumnas, así como estudian-                tuación del voluntario o voluntaria y propondrá al Con-
+       tes de máster o del último curso de los grados de                sejo Escolar su continuidad o no, o los cambios que
+       psicología, pedagogía o psicopedagogía.                          procedan.
+
+          c) La presencia de esta persona en el centro y en                Vigésimo primera.- Registro de la evaluación en
+       el aula estará sometida a lo regulado en el respecti-            los documentos oficiales del alumnado con necesi-
+       vo convenio. Se aprobará anualmente en una aden-                 dades educativas especiales de Educación Infantil es-
+       da del convenio el número total de personas volun-               colarizado en centros de educación especial y aulas
+       tarias, nombres, tareas, centros escolares y alumnado            enclave.
+       afectado.
+                                                                            Los documentos oficiales de evaluación del alum-
+          d) El Consejo Escolar de cada centro determina-               nado de la etapa de Educación Infantil escolarizado
+       rá cuáles y cuántos voluntarios o voluntarias po-                en centros de educación especial y aulas enclave, se-
+       drán intervenir en el centro. Su actuación será siem-            rán los establecidos en la Orden de 5 de febrero de
+       pre en la condición de colaborador y en presencia y              2009. Para su cumplimentación se tendrán en cuen-
+       bajo las instrucciones del docente del aula, profeso-            ta las siguientes especificidades:
+
+
+boc-a-2011-040-910
+             Boletín Oficial de Canarias núm. 40                3914                                      Jueves 24 de febrero de 2011
+
+
+
+           a) En todos los documentos de evaluación el tér-               Vigésimo segunda.- Registro de la evaluación en
+       mino “área/s”, se referirá a “ámbito/s”, y el término           los documentos oficiales del alumnado con nece-
+       “currículo” se referirá a “Concreción Curricular                sidades educativas especiales de Educación Pri-
+       Adaptada de Educación Infantil”. En el apartado                 maria escolarizado en centros de educación espe-
+       “Necesidades de apoyo educativo. Atención a la di-              cial y aulas enclave.
+       versidad” del expediente académico, debe indicarse
+       el siguiente texto: “El alumno o la alumna tiene una                Los documentos oficiales de evaluación del alum-
+       adaptación curricular significativa en las áreas ...,           nado de la etapa de Educación Primaria escolariza-
+       según consta en la última actualización del informe             do en centros de educación especial y aulas enclave,
+       psicopedagógico de fecha ... y número de informe ...”.          serán los establecidos en la Orden de 22 de abril de
+       En el supuesto de dictaminarse que no precisa de ta-            2008. Para su cumplimentación se tendrán en cuen-
+       les adaptaciones ni, consiguientemente, de esta mo-             ta las siguientes especificidades:
+       dalidad de escolarización, se hará constar: “El alum-
+       no o la alumna ha dejado de requerir una adaptación                 a) En todos los documentos de evaluación el tér-
+       curricular significativa, según consta en la última             mino “currículo” se referirá a “Concreción Curricu-
+       actualización del informe psicopedagógico de fecha              lar Adaptada de Educación Primaria”. En el aparta-
+       ... y número de informe ...”.                                   do del acta de evaluación final, donde se debe especificar
+                                                                       el ciclo, se indicará “único” y en el apartado donde
+          b) Para cumplimentar el apartado “Finalización de            se debe indicar el grupo se señalará “a, b, c, etc.”. En
+       la Educación Infantil”, deberá tenerse en cuenta que            el apartado “Calificaciones en las distintas áreas” de-
+       el alumno o la alumna haya cumplido los 7 años de               be recogerse en diferentes columnas cada uno de es-
+       edad antes del 31 de diciembre del año natural en el            tos epígrafes: “Ámbito de Autonomía Personal”;
+       que finaliza el curso, lo cual no supone que el alum-           “Ámbito de Autonomía Social”; “Ámbito de la Co-
+       no o alumna haya superado los objetivos de la etapa.            municación y la Representación: Lenguaje verbal y
+                                                                       sistemas alternativos y aumentativos de la comunica-
+           c) En el apartado “Logros en su proceso de desa-            ción”; “Ámbito de la Comunicación y la Represen-
+       rrollo y adquisición de aprendizajes en relación con            tación: Lenguaje matemático”; “Ámbito de la Co-
+       los objetivos establecidos” del historial académico y           municación y la Representación: Lenguaje corporal”;
+       del informe personal, debe indicarse el siguiente tex-          “Ámbito de la Comunicación y la Representación: Len-
+       to: “Los logros en su proceso de desarrollo y adqui-            guaje musical”; “Ámbito de la Comunicación y la Re-
+       sición de aprendizajes se refieren a los objetivos es-          presentación: Lenguaje plástico” y “Ámbito de la
+       tablecidos en su adaptación curricular significativa.           Comunicación y la Representación: Lenguaje audio-
+       En relación a los diferentes ámbitos, estos logros              visual y de las TIC”. En cada epígrafe se expresarán,
+       son los siguientes: Ámbito de la Autonomía Perso-               cualitativamente, los resultados de la evaluación, se-
+       nal: ...............; Ámbito de la Autonomía Social:            gún los términos: “NI: No iniciado”; “I: Iniciado”; “P:
+       ............. y Ámbito de la Comunicación y la                  Progresando”; “A: Alcanzado”. La columna “Pen-
+       Representación: .............”.                                 dientes otros cursos” no debe cumplimentarse.
+
+           d) En el apartado del acta de evaluación final,                 b) En el apartado “Áreas cursadas en el [primer/se-
+       donde se debe especificar el ciclo, se indicará “úni-           gundo/tercer] ciclo”, del expediente académico, la par-
+       co” y en el apartado donde se debe indicar el grupo             te inferior del epígrafe “áreas” se debe cumplimen-
+       se señalará “a, b, c, etc.”. En el apartado “Califica-          tar con el siguiente texto: Ámbito de Autonomía
+       ciones en las distintas áreas” debe recogerse en di-            Personal, Ámbito de la Autonomía Social, Ámbito
+       ferentes columnas cada uno de estos epígrafes: “Ám-             de la Comunicación y la Representación: Lenguaje
+       bito de Autonomía Personal”; “Ámbito de Autonomía               verbal y sistemas alternativos y aumentativos de la
+       Social”; “Ámbito de la Comunicación y la Represen-              comunicación, Ámbito de la Comunicación y la Re-
+       tación: Lenguaje verbal y sistemas alternativos y               presentación: Lenguaje matemático, Ámbito de la Co-
+       aumentativos de la comunicación”; “Ámbito de la Co-             municación y la Representación: Lenguaje corporal,
+       municación y la Representación: Lenguaje matemá-                Ámbito de la Comunicación y la Representación:
+       tico”; “Ámbito de la Comunicación y la Represen-                Lenguaje musical, Ámbito de la Comunicación y la
+       tación: Lenguaje corporal”; “Ámbito de la Comunicación          Representación: Lenguaje Plástico y Ámbito de la Co-
+       y la Representación: Lenguaje musical”; “Ámbito de              municación y la Representación: Lenguaje audiovi-
+       la Comunicación y la Representación: Lenguaje plás-             sual y de las TIC.
+       tico” y “Ámbito de la Comunicación y la Represen-
+       tación: Lenguaje audiovisual y de las TIC”. En ca-                 c) En el apartado “Necesidades de apoyo educa-
+       da epígrafe, se expresarán, cualitativamente, los               tivo. Atención a la diversidad”, debe indicarse el si-
+       resultados de la evaluación, según los términos: “NI:           guiente texto: “El alumno o la alumna tiene una
+       No iniciado”; “I: Iniciado”; “P: Progresando”; “A:              adaptación curricular significativa en las áreas ...,
+       Alcanzado”, establecidos en el artículo 30.2 de la Or-          según consta en la última actualización del informe
+       den de 13 de diciembre de 2010. La columna “Pen-                psicopedagógico de fecha ... y número de informe ...”.
+       dientes otros cursos” no debe cumplimentarse.                   En el supuesto de dictaminarse que no precisa de ta-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3915                                    Jueves 24 de febrero de 2011
+
+
+
+       les adaptaciones ni, consiguientemente, de esta mo-                minos: “NI: No iniciado”; “I: Iniciado”; “P: Progre-
+       dalidad de escolarización, se hará constar: “El alum-              sando”; “A: Alcanzado”. La columna “Pendientes otros
+       no o la alumna ha dejado de requerir una adaptación                cursos” no debe cumplimentarse.
+       curricular significativa, según consta en la última
+       actualización del informe psicopedagógico de fecha                    b) En el apartado “Resultados de la evaluación”
+       .... y número de informe ....”.                                    del expediente académico de la ESO, en la casilla “ma-
+                                                                          terias” se deben indicar los ámbitos mencionados
+          d) En el apartado “Finalización de la Educación                 anteriormente. En el apartado “Calificaciones”, se cum-
+       Primaria”, deberá tenerse en cuenta que el alumno o                plimentará exclusivamente el correspondiente a la con-
+       la alumna haya cumplido los 14 años de edad antes                  vocatoria ordinaria, en los términos explicitados
+       del 31 de diciembre del año natural en el que finali-              anteriormente.
+       za el curso, lo cual no supone que el alumno o alum-
+       na haya superado los objetivos de la etapa.                            c) En el apartado “Necesidades de apoyo educa-
+                                                                          tivo. Atención a la diversidad”, debe indicarse el si-
+          e) En el apartado “Escolarización en Educación Pri-             guiente texto: “El alumno o alumna tiene una adap-
+       maria en la Comunidad Autónoma de Canarias”, del                   tación curricular significativa en las materias ...,
+       historial académico en la columna “ciclo” se debe in-              según consta en la última actualización del informe
+       dicar: “único”. En la columna “curso” se indicará el               psicopedagógico de fecha .... y número de informe
+       referente curricular del alumno o alumna. En los apar-             ....”. En el supuesto de dictaminarse que no precisa
+       tados correspondientes a los resultados de la evalua-              de tales adaptaciones ni, consiguientemente, de esta
+       ción para cada ciclo, el término currículo está referi-            modalidad de escolarización, se hará constar: “El
+       do al currículo ordinario y no a la concreción curricular          alumno o la alumna ha dejado de requerir una adap-
+       adaptada. En el apartado “áreas” se indicarán los ám-              tación curricular significativa, según consta en la úl-
+       bitos de la Concreción Curricular Adaptada para Edu-               tima actualización del informe psicopedagógico de
+       cación Primaria, debiendo figurar en la columna de                 fecha .... y número de informe ...”.
+       calificaciones la terminología “NI: No Iniciado”; “I:
+       Iniciado”; “P: Progresando”; “A: Alcanzado”.                          d) En el apartado “Finalización de la Educación
+                                                                          Secundaria Obligatoria”, sólo se indicarán las fe-
+          Vigésimo tercera.- Registro de la evaluación en los             chas en que han sido entregados el Certificado de Es-
+       documentos oficiales del alumnado con necesidades                  colaridad y el historial académico de la ESO al alum-
+       educativas especiales de Educación Secundaria Obli-                no o alumna.
+       gatoria escolarizado en centros de educación espe-
+       cial y aulas enclave.                                                 e) En el historial académico de la ESO, en el apar-
+                                                                          tado “Escolarización en la Educación Secundaria
+          Los documentos oficiales de evaluación del alum-                Obligatoria”, en la columna “curso”, se debe indicar
+       nado de la etapa de Educación Secundaria Obligato-                 “Concreción Curricular de Transición a la Vida Adul-
+       ria escolarizado en centros de educación especial y                ta”. En los datos referidos a la casilla “estudio” y
+       aulas enclave, serán los establecidos en la Orden de               “currículo”, se cumplimentarán con el texto: “Con-
+       22 de abril de 2008. Para su cumplimentación se                    creción Curricular de Transición a la Vida Adulta”.
+       tendrán en cuenta las siguientes especificidades:                  En “Modalidad de escolarización”, debe indicarse
+                                                                          “Aula Enclave” o “Centro de Educación Especial”,
+          a) En todos los documentos de evaluación el tér-                según corresponda. La casilla “repite” no se cumpli-
+       mino “currículo” se referirá a la Concreción Curri-                mentará. En el apartado “Resultados de la evaluación”,
+       cular de Transición a la Vida Adulta, que consta de                se seguirán las instrucciones señaladas para cumpli-
+       tres ámbitos y cada uno de ellos con cuatro niveles.               mentar el documento “Expediente académico de la ESO”.
+       En el apartado del acta de evaluación ordinaria, don-              Sólo se indicará la fecha en la que se hace entrega del
+       de se debe especificar el ciclo, se indicará “único”               Certificado de Escolaridad.
+       y en el apartado donde se debe indicar el grupo se
+       señalará “a, b, c, etc.”. En el apartado diligencias,                 Vigésimo cuarta.- Registro de la evaluación en los
+       debe indicarse el texto: “Concreción Curricular de                 documentos oficiales del alumnado con necesidades
+       Transición a la Vida Adulta”. En el apartado “Cali-                específicas de apoyo educativo escolarizados en cen-
+       ficaciones numéricas en las distintas materias”, de-               tros ordinarios y centros ordinarios de atención edu-
+       be recogerse en diferentes columnas cada uno de es-                cativa preferente.
+       tos epígrafes: “Autonomía Personal I”;”Autonomía
+       Personal II”; “Autonomía Personal III”; “Autonomía                    Para la cumplimentación de los documentos ofi-
+       Personal IV”; “Autonomía Social I”; “Autonomía So-                 ciales de evaluación del alumnado con NEAE, se ten-
+       cial II”; “Autonomía Social III”; “Autonomía Social                drán en cuenta las siguientes especificidades:
+       IV”; “Autonomía Laboral I”; “Autonomía Laboral
+       II”; “Autonomía Laboral III” y “Autonomía Labo-                       a) En el apartado “Necesidades de apoyo educa-
+       ral IV”. En cada epígrafe se expresarán, cualitativa-              tivo. Atención a la diversidad” del expediente aca-
+       mente, los resultados de la evaluación, según los tér-             démico de Educación Infantil, debe indicarse el si-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                   3916                                      Jueves 24 de febrero de 2011
+
+
+
+       guiente texto: “El alumno o la alumna tiene una adap-               tación curricular/adaptación de acceso al currículo
+       tación curricular significativa/adaptación curricular               en el/las área/s: ...., según consta en la última ac-
+       significativa por exención parcial/adaptación                       tualización del informe psicopedagógico de fecha
+       curricular/adaptación de acceso al currículo en el/las              .... y número de informe ....”. Se consignarán tan-
+       área/s ...., según consta en la última actualización                tas anotaciones como actualizaciones se realicen del
+       del informe psicopedagógico de fecha .... y núme-                   informe psicopedagógico.
+       ro de informe ....”.
+                                                                               En el supuesto de dictaminarse que no posee ta-
+          En el supuesto de dictaminarse que no precisa de                 les adaptaciones se hará constar: “El alumno o la alum-
+       tales adaptaciones se hará constar: “El alumno o la                 na ha dejado de requerir una adaptación curricular signi-
+       alumna ha dejado de requerir una adaptación curri-                  ficativa/adaptación curricular/adaptación de acceso
+       cular significativa/adaptación curricular significati-              al currículo en el/las área/s ... según consta en la úl-
+       va por exención parcial/adaptación curricular/adap-                 tima actualización del informe psicopedagógico de
+       tación de acceso al currículo, en el/las área/s .... según          fecha .... y número de informe ....”.
+       consta en la última actualización del informe psico-
+       pedagógico de fecha .... y número de informe ....”.                      e) En el apartado de “Necesidades de apoyo edu-
+                                                                           cativo. Atención a la diversidad” del expediente aca-
+          b) En el apartado “Logros en su proceso de desa-                 démico de la ESO, deberá indicarse el siguiente tex-
+       rrollo y adquisición de aprendizajes en relación con                to en los alumnos o alumnas con adaptación curricular
+       los objetivos establecidos” del historial académico y               significativa, adaptación curricular significativa por
+       del informe personal de Educación Infantil, debe in-                exención parcial, adaptación curricular o adaptación
+       dicarse el siguiente texto: “Los logros en su proce-                de acceso al currículo: “El alumno o alumna tiene una
+       so de desarrollo y adquisición de aprendizajes se re-               .... adaptación curricular significativa/adaptación cu-
+       fieren a los objetivos establecidos en su adaptación                rricular significativa por exención parcial/adapta-
+       curricular significativa/adaptación curricular”. Se                 ción curricular/adaptación de acceso al currículo en
+       consignarán tantas anotaciones como actualizaciones                 la/s materia/s: ..., según consta en la última actuali-
+       se realicen del informe psicopedagógico.                            zación del informe psicopedagógico de fecha .... y nú-
+                                                                           mero de informe ...”. Se consignarán tantas anotacio-
+          c) En el apartado de “Necesidades de apoyo edu-                  nes como actualizaciones se realicen del informe
+       cativo. Atención a la diversidad” del expediente aca-               psicopedagógico.
+       démico de Educación Primaria, deberá indicarse el
+       siguiente texto en los alumnos y alumnas con adap-                      En el supuesto de dictaminarse que no posee ta-
+       tación curricular significativa, adaptación curricular              les adaptaciones se hará constar: “El alumno o la alum-
+       significativa por exención parcial, adaptación curri-               na ha dejado de requerir una adaptación curricular sig-
+       cular o adaptación de acceso al currículo: “El alum-                nificativa/adaptación curricular/adaptación de acceso
+       no o la alumna tiene una ... adaptación curricular                  al currículo en la/s materia/s: ..., según consta en la
+       significativa/adaptación curricular significativa por               última actualización del informe psicopedagógico
+       exención parcial/adaptación curricular/adaptación                   de fecha ... y número de informe ...”.
+       de acceso al currículo, en el/las área/s: ..., según
+       consta en la última actualización del informe psico-                    f) En el apartado de “Observaciones de interés”
+       pedagógico de fecha .... y número de informe ...”. Se               del historial académico de la ESO, deberá indicarse
+       consignarán tantas anotaciones como actualizaciones                 el siguiente texto en los alumnos o alumnas con
+       se realicen del informe psicopedagógico.                            adaptación curricular significativa, adaptación cu-
+                                                                           rricular significativa por exención parcial, adaptación
+           En el supuesto de dictaminarse que no posee ta-                 curricular o adaptación de acceso al currículo: “El alum-
+       les adaptaciones se hará constar: “El alumno o la alum-             no o alumna tiene una ... adaptación curricular sig-
+       na ha dejado de requerir una adaptación curricular sig-             nificativa/adaptación curricular significativa por
+       nificativa/adaptación curricular/adaptación de acceso               exención parcial/adaptación curricular/adaptación
+       al currículo en el/las área/as .... según consta en la úl-          de acceso al currículo en la/s materia/s: ..., según cons-
+       tima actualización del informe psicopedagógico de                   ta en la última actualización del informe psicopeda-
+       fecha .... y número de informe ....”.                               gógico de fecha ... y número de informe ...”. Se con-
+                                                                           signarán tantas anotaciones como actualizaciones se
+           d) En el apartado de “Observaciones de interés”                 realicen del informe psicopedagógico.
+       del historial académico de Educación Primaria, de-
+       berá indicarse el siguiente texto para los alumnos                      En el supuesto de dictaminarse que no posee ta-
+       o alumnas con adaptación curricular significativa,                  les adaptaciones se hará constar: “El alumno o la alum-
+       adaptación curricular significativa por exención                    na ha dejado de requerir una adaptación curricular sig-
+       parcial, adaptación curricular o adaptación de ac-                  nificativa/adaptación curricular/adaptación de acceso
+       ceso al currículo: “El alumno o alumna tiene una                    al currículo en la/s materia/s: ...., según consta en la
+       .... adaptación curricular significativa/adaptación                 última actualización del informe psicopedagógico
+       curricular significativa por exención parcial/adap-                 de fecha .... y número de informe ...”.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                3917                                    Jueves 24 de febrero de 2011
+
+
+
+          Vigésimo quinta.- Superación de un ciclo o cur-               sonal y el Real Decreto 1720/2007, de 21 de diciem-
+       so cuando se ha alcanzado lo previsto en la AC o ACUS.           bre, por el que se aprueba el Reglamento de desarro-
+                                                                        llo de la Ley Orgánica 15/1999, de 13 de diciembre,
+           Tal como recoge el artículo 29.7 de la Orden de              de Protección de Datos de Carácter Personal, así co-
+       13 de diciembre de 2010, en la enseñanza obligato-               mo el resto de normativa aplicable en este ámbito.
+       ria, cuando en la evaluación final de las áreas o ma-
+       terias adaptadas se concluya la superación de los ob-               4. En todo caso, de acuerdo con lo que dispone la
+       jetivos y competencias correspondientes a un ciclo               disposición adicional 23ª de la Ley Orgánica 2/2006,
+       en la Educación Primaria o curso en la ESO, éste se              de 3 de mayo, de Educación, los centros docentes po-
+       considerará superado y se hará constar en los docu-              drán recabar los datos personales de su alumnado que
+       mentos oficiales de evaluación del escolar. A estos              sean necesarios para el ejercicio de su función edu-
+       efectos, se tendrán en cuenta las siguientes                     cativa. Dichos datos podrán hacer referencia al ori-
+       especificidades:                                                 gen y ambiente familiar y social, a características o
+                                                                        condiciones personales, al desarrollo y resultados de
+           a) En el apartado de “Observaciones de interés”              su escolarización, así como a aquellas otras circuns-
+       del historial académico de Educación Infantil debe-              tancias cuyo conocimiento sea necesario para la edu-
+       rá indicarse el siguiente texto para los alumnos o               cación y orientación de los alumnos y alumnas.
+       alumnas con AC o ACUS que hayan superado un ci-
+       clo: “Con fecha ... ha alcanzado los objetivos y com-                Los padres, madres o tutores o tutoras legales y
+       petencias previstos correspondientes al .... ciclo de            los propios alumnos y alumnas deberán colaborar en
+       Educación Infantil mediante la superación de los ob-             la obtención de la información a la que hace referen-
+       jetivos de sus adaptaciones curriculares”.                       cia esta instrucción. La incorporación de un escolar
+                                                                        a un centro docente supondrá el consentimiento pa-
+           b) En el apartado de “Observaciones de interés”              ra el tratamiento de sus datos y, en su caso, la cesión
+       del historial académico de Educación Primaria, de-               de datos procedentes del centro en el que hubiera es-
+       berá indicarse el siguiente texto para los alumnos o             tado escolarizado con anterioridad, en los términos
+       alumnas con AC o ACUS que hayan superado un ci-                  establecidos en la legislación sobre protección de
+       clo: “Con fecha ... ha alcanzado los objetivos y com-            datos. En todo caso, la información a la que se refie-
+       petencias previstos correspondientes al .... ciclo de            re este apartado será la estrictamente necesaria para
+       Educación Primaria mediante la superación de los ob-             la función docente y orientadora, no pudiendo tratar-
+       jetivos de sus adaptaciones curriculares”.                       se con fines diferentes del educativo sin consentimien-
+                                                                        to expreso.
+           c) En el apartado de “Observaciones de interés”
+       del historial académico de la ESO deberá indicarse                                  ANEXO II
+       el siguiente texto para los alumnos o alumnas con AC
+       o ACUS que hayan superado un curso: “Con fecha                      CRITERIOS A TENER EN CUENTA PARA LA ATEN-
+       ... ha alcanzado los objetivos y competencias previs-            CIÓN DEL ALUMNADO QUE PRESENTA NECESIDA-
+       tos correspondientes al ... ciclo de Educación Prima-            DES ESPECÍFICAS DE APOYO EDUCATIVO EN CENTROS
+       ria o curso de ESO, mediante la superación de los ob-            ORDINARIOS.
+       jetivos de sus adaptaciones curriculares”.
+                                                                           Índice
+          Vigésimo sexta.- Reglas de aplicación.
+                                                                           Primero. Aspectos generales.
+           1. Toda aquella documentación que se solicite en                Segundo. Alumnado que presenta discapacidad
+       la presente Resolución y que pueda conducir a la ini-            intelectual.
+       ciación, continuación o cumplimentación de la eva-                  Tercero. Alumnado que presenta discapacidad
+       luación psicopedagógica, así como a la tramitación               motora.
+       o actualización de los informes psicopedagógicos, de-               Cuarto. Alumnado que presenta discapacidad
+       be aparecer plenamente probada y acreditada.                     visual.
+                                                                           Quinto. Alumnado que presenta discapacidad
+           2. Las conclusiones que sustenten los informes psi-          auditiva.
+       copedagógicos, de las que se deriven resoluciones que               Sexto. Alumnado que presenta trastorno genera-
+       afecten a la escolarización, propongan recursos o re-            lizado del desarrollo.
+       voquen tales medidas, deben estar motivadas, esto es,               Séptimo. Alumnado que presenta trastornos gra-
+       obedecer a un proceso psicológico-deductivo, a par-              ves de conducta del tipo negativista desafiante.
+       tir de los datos objetivos contenidos en los informes.              Octavo. Alumnado que presenta trastorno por dé-
+                                                                        ficit de atención con o sin hiperactividad.
+          3. Todos los datos derivados de los procedimien-                 Noveno. Alumnado que presenta dificultades es-
+       tos establecidos en la presente Resolución deberán ser           pecíficas de aprendizaje.
+       tratados conforme a lo que establece la Ley Orgáni-                 Décimo. Alumnado escolarizado en centros de
+       ca 15/1999, de Protección de Datos de Carácter Per-              educación especial y aulas enclave.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3918                                     Jueves 24 de febrero de 2011
+
+
+
+          Primero.- Aspectos generales.                                   ciada. Igualmente, las instrucciones deben ser lo más
+                                                                          simples posible y reiterativas, partiendo de lo que el
+          a) El alumnado objeto de esta Resolución y al que               alumno o alumna realmente sabe y asegurándonos que
+       se refiere el presente anexo II, deberá estar identifi-            lo ha comprendido estimulando al escolar a que lo
+       cado mediante un informe psicopedagógico elabora-                  verbalice. El profesorado debe proporcionar la infor-
+       do por los EOEP, siguiendo los criterios establecidos              mación en distintos formatos para así facilitar que el
+       en el anexo I de la Orden de 13 de diciembre de 2010.              escolar la perciba por el mayor número de vías po-
+                                                                          sible, procurando no excederse en la exposición oral
+          b) Las medidas ordinarias para el alumnado ob-                  en detrimento del resto, enfatizando lo dicho, ha-
+       jeto de esta Resolución se concretarán en el plan de               blando despacio y haciendo visible lo manifestado.
+       atención a la diversidad del centro, incluyendo estra-
+       tegias específicas de enseñanza y aprendizaje, tales                  b) En un contexto de aprendizaje cooperativo, las
+       como presentar contenidos y tareas con distinto gra-               tareas individuales o grupales deberán ser cortas, frac-
+       do de dificultad, trabajar actividades de refuerzo y               cionándolas en pequeños pasos, reduciendo la com-
+       variedad de tareas, adecuar recursos y materiales,                 plejidad de los aprendizajes y el número de respues-
+       llevar a cabo modelos organizativos flexibles y adap-              tas, de forma que haya una respuesta por tarea. Para
+       taciones en los procedimientos de evaluación. En                   mantener la motivación y la concentración, se de-
+       cualquier caso, los elementos del currículo que se mo-             ben modificar frecuentemente las tareas, procuran-
+       difiquen han de tener en cuenta el estilo de aprendi-              do que éstas sean asumibles por el escolar, pero sin
+       zaje y el contexto escolar del alumno o alumna. La                 poner límites a su capacidad. Se aumentará el tiem-
+       flexibilización de los procedimientos de evaluación                po para la ejecución de las actividades o tareas, in-
+       debe entenderse como un recurso para adaptar los pro-              corporando algunas que propicien su autonomía, re-
+       cesos de enseñanza y aprendizaje a las necesidades                 forzando mediante el modelado, las habilidades
+       educativas de este alumnado. La metodología de tra-                sociales, los hábitos higiénicos y otras conductas
+       bajo debe incorporar, entre otras, el empleo de las téc-           adaptativas.
+       nicas de “autoinstrucciones”, la “autoevaluación re-
+       forzada” y las TIC, tanto en el aula ordinaria como                   c) Con frecuencia se deben utilizar estrategias de
+       cuando se le presta una atención más personalizada                 refuerzo positivo y potenciar aquellas acciones que
+       dentro o fuera de ésta. Estas medidas las adoptará el              faciliten la autorregulación de su propia conducta
+       equipo docente con el asesoramiento del orientador                 dentro del aula. Para ello, debe disponerse de cierta
+       o la orientadora del centro.                                       rutina en las sesiones de trabajo, con un ambiente muy
+                                                                          estructurado, que facilite la compresión de la situa-
+          c) El profesorado tutor deberá coordinarse y man-               ción y de la tarea solicitada. Es necesario comunicar
+       tener un seguimiento regular con la familia, para                  los cambios de rutina por distintas vías y con ante-
+       unificar criterios educativos, pautas de conducta, es-             lación. Debemos ser pacientes al recibir la repuesta
+       tructuración del material y de los tiempos para la rea-            del escolar, comunicándole información de cómo lo
+       lización de tareas y actividades, así como, de proce-              ha hecho y enfatizando los avances.
+       der, analizar los efectos de la medicación y las posibles
+       repercusiones en casa y en el aula.                                   d) La adaptación en los procedimientos e instru-
+                                                                          mentos de evaluación, a que hace referencia el artícu-
+          d) El profesorado debe tener en cuenta los crite-               lo 29.8 de la Orden de 13 de diciembre de 2010, sin
+       rios recogidos en los diferentes apartados de este                 diferenciarlos excesivamente del grupo clase, deben
+       anexo, explicitando en sus documentos de planifica-                tener en cuenta que las pruebas escritas se propor-
+       ción aquellas que mejor se ajusten a las necesidades               cionen con frases sencillas y con preguntas en las que
+       del escolar en el contexto de su aula y centro, propi-             no se requiera de mucho desarrollo, incorporando res-
+       ciando una atención educativa lo más normalizada e                 puestas de elección múltiple, verdadero o falso, etc.
+       inclusiva posible. En el informe psicopedagógico se                Para este tipo de pruebas se debe conceder más tiem-
+       podrán concretar estas consideraciones atendiendo a                po que al resto de los escolares. Es recomendable el
+       las necesidades específicas de un determinado alum-                desarrollo de las pruebas escritas en varias sesiones,
+       no o alumna.                                                       facilitando durante éstas las oportunas indicaciones
+                                                                          de apoyo, tales como el control del tiempo y la re-
+          Segundo.- Alumnado que presenta discapacidad                    comendación de repaso de lo realizado previo a su
+       intelectual.                                                       entrega.
+
+          Ante la presencia de un alumno o alumna con dis-                  Tercero.- Alumnado que presenta discapacidad
+       capacidad intelectual en el aula ordinaria el profeso-             motora.
+       rado debe considerar los siguientes aspectos para su
+       atención educativa:                                                   Ante la presencia de un alumno o alumna con dis-
+                                                                          capacidad motora en el aula ordinaria el profesora-
+           a) Cuando se proporcione una información debe-                 do debe considerar los siguientes aspectos para su aten-
+       rá ser simple, concreta, precisa, organizada y secuen-             ción educativa:
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                  3919                                      Jueves 24 de febrero de 2011
+
+
+
+          a) El equipo docente ha de saber emplear las                    sea necesario para su generalización. Igualmente se
+       adaptaciones de acceso al currículo, cuando proce-                 debe enseñar el uso de agendas y del horario diario,
+       dan, así como el plan de evacuación. Antes de co-                  esto le facilitará la organización y la autonomía en
+       menzar la actividad cotidiana, se debe cuidar que el               el trabajo, y se debe ajustar la cantidad de tareas que
+       escolar se encuentre correctamente posicionado en                  debe realizar en casa, puesto que, requiere más tiem-
+       cualquiera de las posturas en que pueda trabajar,                  po que los demás compañeros de su grupo clase pa-
+       con la finalidad de lograr el mejor nivel de atención              ra realizarlas. Ante determinadas tareas, el alumno o
+       posible, y favoreciendo la funcionalidad de las ex-                la alumna puede cansarse rápidamente, por lo que ha-
+       tremidades afectadas.                                              bría que darle tiempo para descansar.
+
+          b) El profesorado deberá velar porque exista la po-                g) Se debe ser flexible sobre las expectativas que
+       sibilidad de una adecuada movilidad del alumno o de                esperamos de él o de ella, tener paciencia y propor-
+       la alumna dentro del aula, procurando que esté cer-                cionarle oportunidades para que logre el éxito. Es con-
+       ca de la puerta, próximo al docente, y con el campo                veniente que los compañeros y las compañeras co-
+       visual dirigido al resto de los compañeros y compa-                nozcan las repercusiones de la discapacidad motora
+       ñeras y a la actividad que se realice.                             en relación a la comunicación, autonomía personal
+                                                                          y en las tareas, con explicaciones adecuadas a su
+          c) Es necesario propiciar la autonomía para el                  edad y que sepan cómo pueden apoyar a sus compa-
+       desplazamiento y el manejo de sus útiles, estando siem-            ñeros y compañeras con discapacidad motora.
+       pre bajo la supervisión de una persona adulta en el
+       aula y en el resto de las instalaciones del centro. La                 h) En las diferentes actividades, hay que posibi-
+       consecución del mayor grado de autonomía debe ser                  litar la correcta postura corporal con los apoyos téc-
+       un objetivo primordial, evitando hacer por ellos y ellas           nicos necesarios y al dirigirse al alumno o a la alum-
+       lo que puedan hacer por sí mismos.                                 na hablarle de frente y a la altura de los ojos, y acercar
+                                                                          al alumno o la alumna las experiencias o viceversa,
+          d) Se deben disponer los materiales didácticos al               cuando no posea autonomía en el desplazamiento. Pa-
+       alcance de dicho alumnado y la información en si-                  ra disminuir las distracciones se deben evitar ruidos
+       tuación vertical, a la altura de los ojos del escolar. El          y sonidos bruscos, excesiva estimulación visual, y se
+       profesorado y el personal auxiliar que proceda, de-                debe procurar el uso de láminas y murales con dibu-
+       berá conocer las necesidades y limitaciones del alum-              jos claros, bien perfilados y con contraste con el fon-
+       no o la alumna derivadas de su discapacidad, tales                 do. También se deben utilizar distintas ayudas físi-
+       como el control postural, control de esfínteres, favo-             cas y verbales e irlas reduciendo en función de los
+       recer la funcionalidad de las extremidades afectadas,              logros del alumno o de la alumna, con el fin de con-
+       etc. En el caso del alumnado que lo requiera, tam-                 seguir la mayor autonomía posible. Programar acti-
+       bién debe facilitarse el uso de un sistema de comu-                vidades graduadas en dificultad y esfuerzo de modo
+       nicación alternativo. Es necesario programar activi-               que pueda garantizarse el éxito.
+       dades con diferentes grados de ejecución y diversos
+       grados de dificultad, que partan del nivel de compe-                  i) Para la adaptación en los procedimientos e ins-
+       tencia del alumno o de la alumna y tenga en cuenta                 trumentos de evaluación a que hace referencia el ar-
+       su grado de funcionalidad.                                         tículo 29.8 de la Orden de 13 de diciembre de 2010,
+                                                                          deben utilizarse las ayudas técnicas en las pruebas es-
+          e) Se deberá respetar su ritmo de trabajo y no ade-             critas que habitualmente se usen en el aula. Se debe
+       lantarse a sus respuestas, facilitándole más tiempo pa-            facilitar el tiempo necesario que requiera el alumno
+       ra completar las tareas escolares. Se debe estimular               o la alumna y proponer actividades de evaluación, in-
+       una actitud positiva hacia el esfuerzo y atribuir el               tercaladas en las actividades de enseñanza, para reo-
+       éxito no sólo a sus capacidades, sino también a su pro-            rientar y ajustar el aprendizaje, en caso necesario; y
+       pio empeño, valorando el esfuerzo personal como un                 elaborar, si es preciso, instrumentos específicos y
+       elemento importante en la realización de tareas, y                 variados de evaluación y adaptarnos a sus posibili-
+       evitando que actitudes de autocompasión, por parte                 dades comunicativas a la hora de presentar las acti-
+       del alumnado, o de sobreprotección o impaciencia, por              vidades de evaluación.
+       parte de los educadores, propicien el abandono en la
+       autoexigencia necesaria para avanzar en el conocimiento.              Cuarto.- Alumnado que presenta discapacidad
+                                                                          visual.
+          f) Es necesario fomentar el trabajo cooperativo en
+       pequeño grupo, como una opción metodológica en                        Ante la presencia de un alumno o alumna con dis-
+       que el alumnado con discapacidad motora aporte al                  capacidad visual en el aula ordinaria, el profesorado
+       grupo aquello en que demuestre mayor habilidad y                   debe considerar los siguientes aspectos para su aten-
+       se beneficie de lo que los otros puedan hacer mejor.               ción educativa:
+       También es preciso mostrarle al alumno o la alum-
+       na cómo ejecutar tareas y destrezas nuevas, y darle                   a) El equipo docente ha de conocer el manejo y
+       oportunidades para que las practique las veces que                 saber utilizar las adaptaciones de acceso al currícu-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3920                                    Jueves 24 de febrero de 2011
+
+
+
+       lo, cuando procedan, así como el plan de evacuación.                 Ante la presencia en el aula ordinaria de un alum-
+       En los desplazamientos se debe ofrecer el brazo, ca-              no o alumna con discapacidad auditiva, el profeso-
+       minando ligeramente por delante del alumno o la                   rado debe considerar los siguientes aspectos para su
+       alumna y advirtiéndole de los posibles obstáculos. Se             atención educativa:
+       debe respetar el orden y la ubicación de los diferen-
+       tes elementos del aula y del centro; se le comunica-                 a) Procurar minimizar el ruido ambiental, garan-
+       rá y advertirá cualquier cambio de distribución que               tizando óptimos niveles de escucha; se debe situar en
+       se lleve a cabo. El alumnado con restos visuales de-              el aula de forma que pueda estar cerca del maestro
+       be sentarse en primera fila frente a la pizarra, con el           o maestra, y poder ver siempre la cara del docente y
+       fin de evitar el sobreesfuerzo que debe emplear en                la del compañero que habla. Conviene, además, que
+       mirar e interpretar lo que ve, y de espaldas a la luz,            se sitúe al lado de un compañero o compañera al que
+       para evitar deslumbramientos o que le afecte los re-              pueda preguntar y que le pueda orientar en la activi-
+       flejos en la pizarra.                                             dad del aula. Es importante que los compañeros y com-
+                                                                         pañeras oyentes conozcan las repercusiones de la
+          b) Es necesario identificarse al dirigirse al alum-            sordera en relación a la comunicación y a la gestión
+       no o alumna, evitando gesticular. Ofrecerle descrip-              de la información, con explicaciones adecuadas a su
+       ciones precisas sobre la situación de las personas o              edad, y que sepan cómo han de dirigirse a sus coe-
+       de los objetos, dándole puntos de referencia preci-               táneos con discapacidad auditiva.
+       sos. Al hacerle entrega de objetos, hay que indicar-
+       le de qué se trata y en qué lugar se localizan. Para                 b) El equipo docente ha de conocer el manejo y
+       facilitar la comprensión del alumno o de la alumna,               el uso de las adaptaciones de acceso al currículo,
+       las explicaciones deben ser lo más detalladas posi-               cuando procedan, así como el plan de evacuación. Se
+       ble sin excederse en éstas.                                       debe hablar con articulación clara, sin exagerar, apo-
+                                                                         yándose de gestos naturales, favoreciendo la lectura
+          c) Se debe respetar su ritmo de trabajo, que sue-              labio-facial. Es preciso comprobar sistemáticamen-
+       le ser más lento, ofrecerle más tiempo para realizar              te de manera visual o verbal, que el alumno o la
+       las tareas o reducir el número de actividades, respe-             alumna comprende las explicaciones. Hay que diri-
+       tando los contenidos a tratar y teniendo en cuenta la             girse periódicamente al alumnado con discapacidad
+       calidad más que la cantidad de los ejercicios, acti-              auditiva con la mirada mientras se habla, evitándo-
+       vidades y tareas a realizar. Igualmente se debe res-              se hablar de espaldas mientras se escribe en la piza-
+       petar el uso de ayudas técnicas para acceder al ma-               rra, girarse hacia ella hablando, hablar con la mano
+       terial impreso, el uso de atril o de los auxiliares               sobre la boca, hablar mientras se pasea por el aula,
+       ópticos.                                                          etc. En resumen, evitar el bloqueo del acceso visual
+                                                                         a la cara del docente.
+          d) Si el alumno o alumna usa el “código tinta”, se
+       debe facilitar el material impreso con las ampliacio-                 c) El profesorado empezará a hablar cuando el alum-
+       nes que precise, según sus necesidades, asegurando                nado con discapacidad auditiva lo mire, de lo con-
+       siempre un buen contraste, en colores pastel, amari-              trario hay que reclamar su atención dando unos gol-
+       llos o rosa y evitando rayas, manchas, brillos, etc. El           pecitos en la mesa o bien moviendo la mano en su
+       tipo de letra más adecuado es la Verdana o Arial y                espacio visual. No olvidar nunca escribir en la piza-
+       con un espacio de 1,5.                                            rra aquella información esencial que requiera una
+                                                                         acción o una responsabilidad por parte de este alum-
+          e) La coordinación del profesorado con el espe-                nado, o bien dársela por escrito. Cualquier cambio
+       cialista de apoyo al alumnado con discapacidad vi-                de rutina horaria debe explicitarse en la pizarra o fa-
+       sual es imprescindible, ya que, entre otras cuestio-              cilitarse por escrito.
+       nes, este último debe saber con la debida antelación,
+       no inferior a 15 días, los materiales adaptados o trans-             d) Se debe considerar que los libros de texto pue-
+       cripciones a braille que necesitará el alumno o la                den no ser del todo accesibles al alumnado con dis-
+       alumna, para que disponga de la documentación al                  capacidad auditiva, por la complicación de las fra-
+       mismo tiempo que sus compañeros y compañeras.                     ses o por el vocabulario que usan, por lo tanto,
+                                                                         requiere su adaptación por parte del profesorado del
+          f) La adaptación en los procedimientos e instru-               área o materia. Además, se debe hacer uso de esque-
+       mentos de evaluación a que hace referencia el artícu-             mas, mapas conceptuales, etc., que proporcionen una
+       lo 29.8 de la Orden de 13 de diciembre de 2010, de-               guía a lo largo de las explicaciones y una presenta-
+       be permitir al escolar un mayor tiempo para realizar              ción organizada de los contenidos. El profesorado de-
+       las pruebas, así como el uso de ampliaciones y trans-             be remarcar las palabras claves de una explicación,
+       cripciones a braille, cuando procedan según la dis-               oralmente y también por escrito en la pizarra; deli-
+       capacidad visual del alumno o alumna.                             mitar con pequeñas pausas temporales la separación
+                                                                         entre diferentes ideas o cambios de temas; marcar cla-
+         Quinto.- Alumnado que presenta discapacidad                     ramente con expresión facial las frases exclamativas,
+       auditiva.                                                         interrogativas, dubitativas, etc.; subrayar el discur-
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3921                                     Jueves 24 de febrero de 2011
+
+
+
+       so con gestos de designación manuales y con la mi-                to del alumnado. Se ha de fomentar el trabajo cola-
+       rada, con gestos y expresiones faciales correspondien-            borativo y las actividades de grupo, debiéndose per-
+       tes a estados de ánimo y verificar que realmente el               mitir el trabajo en solitario en algunos momentos del
+       alumnado con discapacidad auditiva ha entendido las               día, con el fin de no sobrecargarlo con excesivas de-
+       ideas principales de aquello que se está explicando.              mandas sociales.
+       El profesorado con estos escolares en el aula ha de
+       usar abundantes recursos gráficos y visuales de for-                 c) El alumno o la alumna trabajará preferente-
+       ma que puedan ver el dibujo y la cara del docente de              mente en grupos pequeños con un número muy re-
+       forma simultánea. Se debe tener en cuenta que, en                 ducido de compañeros y compañeras en el aula, en
+       ocasiones, el uso de la lengua de signos en el aula no            la realización de actividades sencillas y estructura-
+       garantiza la comprensión de los contenidos.                       das, que permitan al profesorado una supervisión
+                                                                         adecuada de su comportamiento así como la enseñan-
+          e) Respecto a la adaptación en los procedimien-                za explícita de las conductas básicas, tales como res-
+       tos e instrumentos de evaluación a que hace referen-              peto de turnos, escucha atenta de las opiniones de las
+       cia el artículo 29.8 de la Orden de 13 de diciembre               demás personas, seguimiento de reglas y resolución
+       de 2010, debemos asegurarnos que el escolar entien-               de conflictos. Se debe vigilar el comportamiento del
+       de los enunciados, aclarando y adaptando el enun-                 resto de los escolares del centro hacia estos alumnos
+       ciado, acompañando indicadores visuales y gráfi-                  y alumnas, ya que por su comportamiento y estilo de
+       cos, etc. También se debe permitir un margen mayor                comunicación singulares pueden propiciar las bromas
+       de tiempo para realizar las pruebas y proponer pre-               de sus compañeros y compañeras, ser objeto de bur-
+       ferentemente pruebas de respuestas cortas cuando el               las, de acoso escolar, etc. Por ello, se debe hacer hin-
+       tema lo permita, con enunciados concisos, de elec-                capié en las acciones educativas que propicien la
+       ción múltiple, de verdadero o falso, con frases enun-             convivencia desde el máximo respeto entre los y las
+       ciativas de forma directa, etc. Con las suficientes ga-           escolares del centro, actuando diligentemente ante cual-
+       rantías de independencia del intérprete y a criterio del          quier conducta que atente contra estos principios.
+       profesorado de área o materia, se puede ofrecer al alum-
+       nado que usa la lengua de signos y que el nivel de su                 d) Para estos escolares es adecuado emplear un es-
+       expresión escrita no sea adecuado, realizar pruebas               tilo de enseñanza directivo y tutorizado para propor-
+       en lenguaje signado con el apoyo del intérprete, cuan-            cionar un ambiente social y de aprendizaje que sea
+       do se disponga de éste.                                           percibido como seguro y estimulante por el alumno
+                                                                         o alumna. El profesorado debe ser creativo en la re-
+          Sexto.- Alumnado que presenta trastorno genera-                solución de problemas, tener calma, ser flexible y ge-
+       lizado del desarrollo.                                            nerar actitudes positivas.
+
+          Ante la presencia de un alumno o una alumna con                   e) Para compensar los problemas que presentan
+       trastorno generalizado del desarrollo en el aula ordi-            con la organización del tiempo libre es conveniente
+       naria, el profesorado debe considerar los siguientes              cultivar el interés del alumno o de la alumna en el
+       aspectos para su atención educativa:                              juego y la interacción social, mediante la organiza-
+                                                                         ción por parte del profesorado de juegos y activida-
+           a) El profesorado ha de planificar con anticipación           des lúdicas estructuradas para la hora del recreo. Ello
+       la jornada escolar de cada día, señalando las activi-             conlleva la elección de algunos compañeros y com-
+       dades en los distintos tipos de agendas, empleando                pañeras dispuestos a cooperar y a interactuar con los
+       técnicas de estructuración de las áreas de trabajo y              demás. Estos juegos se deben explicar de una forma
+       estableciendo rutinas estables y funcionales, con uso             similar a la utilizada para enseñar al alumno o la
+       frecuente de ayudas visuales o de compensaciones                  alumna la mecánica de la lectura o la escritura, esto
+       verbales simplificadas. Igualmente, ha de estructu-               es, de forma estructurada, explícita y siguiendo una
+       rar y organizar el espacio y los materiales del aula,             secuencia de pasos prefijada.
+       evitando continuas modificaciones y exposiciones a
+       múltiples estímulos, especialmente auditivos. Asimis-                f) Se realizarán las adaptaciones en las pruebas es-
+       mo, ha de emplear alguna estrategia para dar a co-                critas, teniendo en cuenta lo establecido en el artícu-
+       nocer al alumno o la alumna los tiempos y espacios                lo 29.8 de la Orden de 13 de diciembre de 2010,
+       mediante avisadores o marcadores visuales, señales                compensando sus dificultades con el diseño de ins-
+       gestuales, etc.                                                   trumentos adecuados mediante preguntas cerradas,
+                                                                         pruebas objetivas como los tests de respuestas múl-
+          b) Es conveniente facilitar la interacción social,             tiples o de verdadero-falso, exámenes orales, apoyos
+       los procesos de socialización con sus iguales y con               visuales, utilización de un ordenador con procesador
+       las personas adultas del centro, propiciando el de-               de textos, etc. También se hace necesario proporcio-
+       sarrollo de la comunicación mediante sistemas vi-                 nar más tiempo para realizar las pruebas de evalua-
+       suales aumentativos y fomentando redes de apoyo                   ción, al igual que dar directrices claras sobre la ma-
+       en clase que favorezcan la participación y la gene-               nera de presentar los trabajos y supervisar durante el
+       ralización de estas conductas y eviten el aislamien-              proceso su elaboración.
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                    3922                                     Jueves 24 de febrero de 2011
+
+
+
+          Séptimo.- Alumnado que presenta trastornos gra-                   que los alumnos y las alumnas logren ser conscien-
+       ves de conducta del tipo negativista desafiante.                     tes de su propia conducta y sepan evaluarla en rela-
+                                                                            ción con las normas de la clase.
+          Ante la presencia en el aula ordinaria de un alum-
+       no o alumna con conductas del tipo negativista de-                       e) Es necesario que el orientador o la orientado-
+       safiante, el profesorado debe considerar distintas                   ra planifique con el equipo docente y la familia un
+       cuestiones relativas a la conducta relacional:                       plan de control de la conducta en el contexto esco-
+                                                                            lar y familiar. Además, deberá coordinarse con los ser-
+           a) El profesorado asegurará el establecimiento de                vicios sanitarios en el caso de que el alumno o la alum-
+       un clima positivo de aprendizaje en el aula. Se debe                 na esté siendo atendido por estos servicios.
+       elogiar verbalmente o con gestos, como sonrisas, mi-
+       radas, etc., todos aquellos comportamientos que se de-                  Octavo.- Alumnado que presenta trastorno por
+       sean, tales como esforzarse en el trabajo, terminar las              déficit de atención con o sin hiperactividad.
+       tareas asignadas, colaborar, hablar con amabilidad, mos-
+       trar tranquilidad en el aula, ... Estas estrategias son más             Ante la presencia de un alumno o alumna con tras-
+       efectivas si se emplean delante de toda la clase. Los                torno por déficit de atención con o sin hiperactivi-
+       docentes deben hablar con cordialidad, escuchar con                  dad en el aula ordinaria, el profesorado debe con-
+       empatía, demostrar afectividad, mostrar interés y                    siderar los siguientes aspectos para su atención
+       preocupación por los asuntos del alumnado con esta                   educativa:
+       conducta, etc. ..., sin dejar de actuar con firmeza cuan-
+       do se requiera. No se debe prestar atención al com-                     a) Conviene que este alumno o alumna esté sen-
+       portamiento inadecuado, siempre que éste no sea de-                  tado cerca del profesor o la profesora y lejos de mo-
+       masiado perturbador o peligroso para la integridad física            tivos de distracción. Las tareas de clase o para casa
+       del escolar y del resto de personas.                                 deben reducirse o fragmentarse y requerirán de una
+                                                                            supervisión continua; se deben combinar las activi-
+           b) Ante un desafío o negativa con cierto grado de                dades y tareas más motivadoras con las que lo son
+       agresividad, se debe prioritariamente, garantizar la                 menos para él o ella, así como graduarlas y contex-
+       seguridad del alumno o la alumna, a la vez que mos-                  tualizarlas de forma debida. Es preciso potenciar
+       trar tranquilidad y firmeza, no responder ante la con-               otras capacidades en las que el escolar destaque,
+       ducta desafiante y esperar a que disminuya o remi-                   con la finalidad de mejorar su autoestima y motiva-
+       ta, evitando alzarle la voz y manifestándole que se                  ción. Se aconseja utilizar refuerzos y apoyos visua-
+       le prestará atención cuando se muestre sereno y tran-                les en la instrucción oral y permitir que, cuando aca-
+       quilo o cuando realice de forma adecuada lo solici-                  be una parte de la tarea, pueda mostrarla al profesor
+       tado por el docente. En el caso de conductas desa-                   o la profesora.
+       fiantes, agresiones, peleas, etc., se podrá utilizar la
+       estrategia del “tiempo fuera” con el asesoramiento                      b) Se debe verificar que el escolar comprende lo
+       del orientador o la orientadora del centro y el cono-                expuesto por el profesorado, haciéndole, si fuera ne-
+       cimiento del alumno o de la alumna y de la familia,                  cesario, algunas preguntas que pueda contestar de for-
+       siempre bajo la vigilancia de un docente.                            ma correcta o pidiéndole, de forma discreta, que re-
+                                                                            pita verbalmente lo que tiene que hacer y, a pesar del
+          c) Cuando el profesorado trate de modificar un com-               esfuerzo que pueda suponer en algunos niveles y
+       portamiento inadecuado conviene que se refiera a las                 edades, es imprescindible el uso de la agenda de
+       conductas inadecuadas y no al escolar. Evitar los tér-               deberes con este alumnado. Es adecuado espaciar las
+       minos absolutos y calificadores hacia el alumno o alum-              instrucciones de trabajo de forma que no se propor-
+       na y, en su lugar, utilizar frases en las que se dé una              cione una nueva consigna inmediatamente hasta que
+       oportunidad a la conducta adecuada.                                  no esté realizada la anterior, incluso sería aconseja-
+                                                                            ble que las instrucciones de los trabajos se escriban
+          d) Es conveniente que el profesorado se entrene                   en un folio o en la pizarra de la clase, manteniendo
+       en la aplicación de estrategias cognitivo-conductua-                 en lo posible las rutinas del aula y, ante los cambios
+       les, y cuente con la colaboración del orientador o la                de actividad, advertir individualmente al alumno o
+       orientadora del centro para influir en el procesamien-               alumna. Un procedimiento adecuado, a emplear en
+       to cognitivo del alumno o la alumna, de modo que,                    la mayoría de las áreas o materias, consiste en pro-
+       en el futuro, sea él o ella quien autorregule su com-                porcionales “guías de tareas” por escrito u orales, que
+       portamiento, sin necesidad de la presencia de una per-               impliquen una secuencia de acciones, como por ejem-
+       sona adulta, que aplique la administración de refuer-                plo, obtener la idea principal de un texto, resumir un
+       zos o retirada de privilegios. Las autoinstrucciones                 texto, hacer una composición escrita, resolver un
+       implican enseñar al alumnado a hablarse a sí mismo                   problema de cálculo, etc.
+       en voz alta, darse instrucciones sobre lo que debe ha-
+       cer y recompensarse verbalmente por su buena eje-                      c) Es recomendable que todo el equipo docente lle-
+       cución. La autoevaluación reforzada pretende po-                     gue a un consenso sobre unas reglas mínimas de
+       tenciar el funcionamiento del sistema ejecutivo para                 conducta en clase, comunes a todo el profesorado y,
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                 3923                                    Jueves 24 de febrero de 2011
+
+
+
+       de ser el caso, otras específicas para cada área o ma-               b) Conviene que este alumno o alumna esté sen-
+       teria. Estas pautas deben estar escritas y visibles den-          tado cerca del profesor o profesora y lejos de moti-
+       tro de la propia aula, y se debe comprobar que el alum-           vos de distracción. Las tareas de clase requerirán
+       no o la alumna con trastorno por déficit de atención              una supervisión continua; se deben combinar las ac-
+       con o sin hiperactividad comprende las normas y                   tividades y tareas más motivadoras con las que lo son
+       sus consecuencias al incumplirlas. Es importante re-              menos para él o ella, así como graduarlas y contex-
+       cordar que se proporciona una mayor motivación al                 tualizarlas de forma debida. Se aconseja utilizar re-
+       escolar cuando se resaltan los pequeños avances,                  fuerzos y apoyos visuales en la instrucción escrita y
+       éxitos o conductas adecuadas, que cuando se le lla-               permitir que cuando acabe una parte de la tarea pue-
+       ma la atención o se hace hincapié en sus errores, fa-             da mostrarla al profesor o la profesora.
+       llos y equivocaciones.
+                                                                             c) Se debe verificar que el alumno o la alumna com-
+           d) Respecto a la adaptación en los procedimien-               prende lo expuesto por el profesorado, haciéndole,
+       tos e instrumentos de evaluación a que hace referen-              si es necesario, algunas preguntas que pueda contes-
+       cia el artículo 29.8 de la Orden de 13 de diciembre               tar de forma correcta o pidiéndole, de forma discre-
+       de 2010, teniendo en cuenta las dificultades de este              ta, que repita verbalmente lo que tiene que hacer y,
+       alumnado para mantener la atención y concentra-                   a pesar del esfuerzo que pueda suponer en algunos
+       ción durante períodos prolongados, con el objetivo                niveles y edades, es imprescindible el uso de la agen-
+       de mejorar su rendimiento en los exámenes o prue-                 da de deberes con este alumnado. Es adecuado es-
+       bas escritas, se facilitará al alumno o alumna la po-             paciar las instrucciones de trabajo de forma que no
+       sibilidad de realizarlos de forma oral o a través de or-          se proporcione una nueva consigna inmediatamente
+       denador, excepto en los aspectos relacionados con la              hasta que no esté realizada la anterior, incluso sería
+       lectura y la escritura en Lengua Castellana y Litera-             aconsejable que las instrucciones de los trabajos se
+       tura o Lengua Extranjera, debido a los problemas de               escriban en un folio o en la pizarra de la clase, man-
+       escritura que estos escolares puedan presentar si-                teniendo en lo posible las rutinas del aula y, ante los
+       multáneamente con este trastorno. Además, es reco-                cambios de actividad, advertir individualmente al
+       mendable el desarrollo de las pruebas escritas en dos             alumnado con dificultad específica de aprendizaje.
+       sesiones como mínimo, observando la necesaria fle-
+       xibilidad en su duración. Las preguntas de los exá-                   d) El profesorado que en su aula tenga un alum-
+       menes se presentarán por escrito para evitar la len-              no o alumna con dislexia, disgrafía o discalculia de-
+       titud de otros procedimientos como la copia o el                  berá considerar que estos estudiantes presentan difi-
+       dictado, con la inclusión de preguntas o ítems de un              cultades inherentes para leer, escribir o calcular,
+       mismo tipo, para evitar así la mayor posibilidad de               siendo conveniente, potenciar otras capacidades don-
+       error o confusión derivados de una combinación de                 de el escolar destaque con la finalidad de mejorar su
+       formas. Durante el examen se procederá a dar las opor-            autoestima y motivación. El docente o la docente evi-
+       tunas indicaciones de apoyo, tales como el control                tará la exposición ante el resto de compañeros y com-
+       del tiempo y la recomendación de repaso de lo rea-                pañeras de sus carencias con el fin de no deteriorar
+       lizado previo a su entrega. Es conveniente dar a co-              su autoestima; hará saber al escolar que el profeso-
+       nocer las fechas de los exámenes con antelación. Al               rado conoce sus necesidades educativas; simplifica-
+       igual que para el resto del alumnado, los exámenes                rá las instrucciones que se le dan por escrito, subra-
+       o pruebas escritas finales o parciales no deberán ser             yando o destacando lo más relevante, incluso
+       los únicos instrumentos para evaluar a este alumna-               proporcionándole un esquema; estudiará con el es-
+       do; es necesario que la evaluación continua sea el pro-           colar el vocabulario nuevo que va a encontrar en los
+       cedimiento empleado, tal como lo recoge la norma-                 textos, actividades o tareas que va a realizar; posibi-
+       tiva de evaluación en la enseñanza básica.                        litará el uso del ordenador en el aula para hacer sus
+                                                                         producciones; proporcionará un tiempo extra para rea-
+         Noveno.- Alumnado que presenta dificultades es-                 lizar las actividades y tareas en clase; tratará de re-
+       pecíficas de aprendizaje.                                         ducir y fraccionar las actividades en clase y para ca-
+                                                                         sa respecto al grupo clase; deberá facilitarle la
+          Ante la presencia de un alumno o alumna con di-                posibilidad de usar la grabadora en el aula para to-
+       ficultad específica de aprendizaje en el aula ordina-             mar las instrucciones del profesorado o una explica-
+       ria el profesorado debe considerar los siguientes as-             ción, siendo recomendable para los escolares con
+       pectos para su atención educativa:                                dislexia disponer de libros de textos grabados; con-
+                                                                         viene ampliar las pausas orales para permitirle que
+          a) Para la prevención de estas dificultades se de-             tome apuntes; y evitar hacerles copiar los enuncia-
+       be priorizar el uso de estrategias bien fundamenta-               dos de las preguntas o problemas en la actividad de
+       das para la detección e intervención temprana desde               clase o en los exámenes. Un procedimiento adecua-
+       los cinco años, a través de un seguimiento del alum-              do a emplear en la mayoría de las áreas o materias
+       nado con problemas en el logro de los objetivos y con-            consiste en proporcionales “guías de tareas” por es-
+       tenidos relacionados con la lectura, escritura y el               crito u orales que impliquen una secuencia de accio-
+       cálculo aritmético.                                               nes como por ejemplo, obtener la idea principal de
+
+
+boc-a-2011-040-910
+              Boletín Oficial de Canarias núm. 40                3924                                    Jueves 24 de febrero de 2011
+
+
+
+       un texto, resumir un texto, hacer una composición es-            sea el procedimiento empleado, tal como lo recoge
+       crita, resolver un problema de cálculo, etc.                     la normativa de evaluación en la enseñanza básica.
+
+           e) Respecto al alumnado con dificultad específi-                Décimo.- Alumnado escolarizado en centros de edu-
+       ca de aprendizaje, especialmente en lectura y escri-             cación especial y aulas enclave.
+       tura, y en la adaptación en los procedimientos e ins-
+       trumentos de evaluación a que hace referencia el                    a) En este contexto, es adecuada la utilización de
+       artículo 29.8 de la Orden de 13 de diciembre de 2010,            estrategias individualizadas y adaptadas a sus capa-
+       el profesor o profesora procederá antes del inicio del           cidades, intereses, necesidades y motivaciones, así
+       examen o prueba escrita a la lectura oral de todas las           como a los entornos donde se desarrolla la acción edu-
+       preguntas. Es recomendable que las pruebas escritas              cativa. Se procurará partir de situaciones naturales y
+       se lleven a cabo en dos o más sesiones, observando               objetos reales para avanzar en la construcción del pen-
+       la necesaria flexibilidad en su duración y, en la me-            samiento simbólico y abstracto, según las capacida-
+       dida de lo posible, de manera individual o en peque-             des de cada alumno o alumna. Se precisa diseñar ac-
+       ños grupos. Las pruebas o exámenes podrán ser ora-               tividades y tareas contextualizadas, significativas y
+       les o mediante el empleo del ordenador, salvo en las             secuenciadas en orden al grado de dificultad y estruc-
+       áreas o materias de Lengua Castellana y Literatura               turadas temporal y espacialmente. El empleo de las
+       y Lengua Extranjera cuando el objeto de la evalua-               TIC es un buen recurso para motivar al escolar, por
+       ción sean los objetivos y contenidos relacionados                lo que se deben utilizar programas adaptados para es-
+       con la lectura o la escritura.                                   tos escolares.
+
+           El alumnado identificado por los EOEP con dis-                  b) Se deben aplicar estrategias de refuerzo posi-
+       lexia o disgrafía, mediante informe psicopedagógi-               tivo, llegando a un consenso en la utilización de és-
+       co, que acredite que sus dificultades en el procesa-             tas, tanto con el equipo docente como con las fami-
+       miento ortográfico han sido tratadas anteriormente,              lias. Es conveniente el empleo del moldeamiento
+       a través de programas educativos personalizados es-              verbal y físico, la imitación, el encadenamiento con-
+       pecíficos para su mejora, puede manifestar resisten-             ductual, la espera estructurada, el desvanecimiento
+       cia a la intervención para corregir la ortografía, de-           de las ayudas, el establecimiento de rutinas, el jue-
+       bido a la gravedad de la afectación de los procesos              go simbólico y circular, etc. Todas estas estrategias
+       cognitivos de la escritura. En este caso, la Comisión            deben dirigirse a lograr el mayor grado de autono-
+       de Coordinación Pedagógica determinará los crite-                mía y autoplanificación de la conducta del escolar.
+       rios y procedimientos a seguir con estos escolares,
+       especialmente en la educación secundaria, y los da-                  c) Se adaptará el entorno educativo a las necesi-
+       rá a conocer a todo el profesorado para que sean                 dades del alumnado, garantizando una adecuada es-
+       aplicados al decidir la superación de un área o ma-              tructuración espacial y temporal, mediante el uso de
+       teria, principalmente en Lengua Castellana y Litera-             agendas de diverso tipo, de indicadores y claves vi-
+       tura y en Lengua Extranjera.                                     suales, tales como marcadores, objetos reales, foto-
+                                                                        grafías, pictogramas, etc., y señalización acústica,
+          Para el adecuado desarrollo de las pruebas que im-            como temporalizadores, alarmas, etc. Hay que evitar
+       pliquen lectura y escritura se ampliará el tiempo ne-            la sobreestimulación que ocasiona la contaminación
+       cesario, hasta el máximo establecido en la instruc-              visual, por exceso de elementos didácticos a la vista,
+       ción décimo octava de esta Resolución, con el fin de             o acústica, por exceso de ruido, así como la posibili-
+       facilitar la oportuna revisión ortográfica. Las pregun-          dad de utilizar simultáneamente múltiples objetos.
+       tas de los exámenes se presentarán por escrito para
+       evitar la lentitud de otros procedimientos como la co-              d) En aplicación de lo establecido en el artículo
+       pia o el dictado, con la inclusión de preguntas o ítems          29.6 de la Orden de 13 de diciembre de 2010, el tu-
+       de un mismo tipo, para evitar así la mayor posibili-             tor o tutora del escolar informará a las familias de la
+       dad de error o confusión derivados de una combina-               adaptación o adaptaciones que se van a elaborar en
+       ción de formas. Durante el examen se procederá a dar             las diferentes áreas o materias, de su contenido, de
+       las oportunas indicaciones de apoyo, tales como el               las medidas organizativas previstas, del nivel de com-
+       control del tiempo y la recomendación de repaso de               petencia curricular que se espera alcanzar al finali-
+       lo realizado previo a su entrega. Es conveniente dar             zar el curso escolar y de las consecuencias que, en
+       a conocer las fechas de los exámenes con antela-                 cuanto a evaluación, promoción y titulación, tiene la
+       ción. Al igual que para el resto del alumnado, los exá-          aplicación de esta medida en los diferentes niveles
+       menes o pruebas escritas finales o parciales no de-              y etapas, explicando detalladamente el significado de
+       berán ser los únicos instrumentos para evaluar a este            las adaptaciones curriculares y de las calificaciones
+       alumnado; es necesario que la evaluación continua                de las áreas o materias señaladas con asterisco.
+
+
+
+
+boc-a-2011-040-910
+                 Boletín Oficial de Canarias núm. 40                                                     3925                                                                  Jueves 24 de febrero de 2011
+
+
+
+
+                                                                                             ANEXO III
+                                                                                                 ANEXO III
+
+         DOCUMENTO INFORMATIVO PREVIO (*) SOBRE LAS ADAPTACIONES CURRICULARES
+         (AC) Y ADAPTACIONES CURRICULARES SIGNIFICATIVAS (ACUS).
+
+
+         (*Elaborado por el profesorado tutor, para entregar a la familia antes de iniciar la aplicación de la AC o
+         ACUS)
+         1. Datos del alumno o alumna: _____________________________________________________
+         2. Áreas o materias adaptadas, indicando para cada una si requiere adaptación curricular1 o adaptación curri-
+         cular significativa2:________________________________________________________________________
+         3. AREA o MATERIA ADAPTADA: __________________________________(cumplimentar este aparta-
+         do tantas veces como áreas o materia adaptadas)
+                a) En este área o materia, el nivel de competencia curricular al que pertenece los objetivos de esta adap-
+                   tación del currículo corresponde a ………. curso de ……….
+                b) En las evaluaciones trimestrales el tutor o tutora les informará de la evolución de los aprendizajes de
+                   su hijo o hija siguiendo el modelo del anexo III de la Orden de 13 de diciembre de 2010 (BOC de 22
+                   de diciembre), donde se especifican los objetivos trabajados, alcanzados y no logrados
+                c) En las calificaciones de esta área o materia en los documentos oficiales llevará un asterisco (*) lo
+                   que significa que la evaluación de su hijo o su hija está referida a los criterios de evaluación fijados
+                   en la propia adaptación curricular, y su calificación positiva acompañada de asterisco no supone en
+                   ningún caso la superación del área o materia correspondiente al nivel que cursa el alumno o alumna,
+                   sino la superación de los criterios de evaluación de la propia adaptación curricular, indicando el
+                   progreso en la misma.
+         4. Medidas organizativas previstas para la atención educativa del escolar:
+         __________________________________________________________________________________
+         5. Las consecuencias que la evaluación, promoción y, en su caso, titulación, tiene la aplicación de esta medi-
+         da en las áreas o materias anteriormente señaladas, en los diferentes niveles y etapas son las siguientes:
+         __________________________________________________________________________________
+         En _________________ a _______ de ___________ de 20____
+         EL TUTOR O LA TUTORA,                                                                   Recibí: Padre, madre, tutor o tutora legales
+                       (firma)                                                                                                (firma)
+                                                                                Nombre y Apellidos_______________________, DNI ______________
+
+
+
+
+         1
+          La adaptación curricular de un área o materia es una medida dirigida al alumnado con necesidades específicas de apoyo educativo cuyo referente curricular esté situado dos o más cursos por debajo
+         del que se encuentra escolarizado, independientemente de que pueda haber repetido curso. De este modo, por ejemplo, se cumplirá el criterio de desajuste de aprendizaje temporal en estas adaptacio-
+         nes, en el caso de un alumno o alumna de tercer curso de Educación Primaria, cuando su referente esté, al menos, en el primer curso de Educación Primaria, tanto si ha repetido como si no.
+         2
+           La adaptación curricular significativa de un área o una materia está dirigida al alumnado con necesidades educativas especiales cuyo referente curricular esté situado, para el alumnado de Educación
+         Infantil, tres o más cursos por debajo del que se encuentra escolarizado, y para el de la enseñanza básica, cuatro o más cursos, independientemente de que pueda haber repetido curso. De este modo,
+         por ejemplo, se cumplirá el criterio de desajuste de aprendizaje temporal en estas adaptaciones en el caso de un alumno o alumna de tercer curso de Educación Primaria, cuando su referente esté
+         situado, al menos, en Educación Infantil de cuatro años, tanto si ha repetido como si no.
+
+
+                                                                                                                                                                                                           68
+
+
+
+
+boc-a-2011-040-910
+

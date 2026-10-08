@@ -1,0 +1,14 @@
+{
+  "name": "il-social-security",
+  "displayName": "Social Security & Welfare — IL",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills for IL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "social-security",
+  "language": "en",
+  "skills": [
+    "skills/israeli-discharged-soldier-navigator-skills-il"
+  ]
+}

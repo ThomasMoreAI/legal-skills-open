@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Controversy matrix row",
+  "type": "object",
+  "required": ["id", "issue", "sources", "status"],
+  "properties": {
+    "id": {"type": "string"},
+    "issue": {"type": "string"},
+    "claimant": {"type": ["string", "null"]},
+    "opposing_position": {"type": ["string", "null"]},
+    "supporting_evidence": {"type": "array", "items": {"type": "string"}},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["open", "decided", "uncertain", "not_identified"]}
+  },
+  "additionalProperties": false
+}

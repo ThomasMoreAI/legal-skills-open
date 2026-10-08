@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lucianum7/AuditorProcessual/schemas/vision_review.schema.json",
+  "title": "Provider-neutral semantic vision review",
+  "type": "object",
+  "required": ["schema_version", "pages", "images"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "provider": {"type": "string"},
+    "pages": {"type": "object", "additionalProperties": {"type": "object"}},
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["image_id", "semantic_description", "description_source"],
+        "properties": {
+          "image_id": {"type": "string"},
+          "semantic_description": {"type": "string", "minLength": 1},
+          "description_source": {"enum": ["vision_model", "human_review", "external_review"]},
+          "asset_class": {"enum": ["visual_asset", "technical_artifact", "qr_code", "logo", "document_scan", "photo", "unknown"]},
+          "relevant": {"type": "boolean"},
+          "visible_text": {"type": "string"},
+          "objects": {"type": "array"},
+          "people": {"type": "array"},
+          "tables": {"type": "array"},
+          "limitations": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,11 @@
+id: REL-061
+tipo_relacion: "desarrolla"
+origen: NOR-076
+destino: NOR-009
+descripcion: "La Orden de 9 de octubre de 2013 desarrolla el Decreto 81/2010, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de Canarias, en cuanto a su organización y funcionamiento."
+evidencia:
+  fuente: FTE-083
+  localizacion: "Artículo 1.1 de la Orden de 9 de octubre de 2013."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Es la norma de desarrollo real del ROC. El corpus la creía de 2010 en la ficha NOR-018, retirada por DEC-0011 tras comprobar que confundía dos normas distintas (PREG-011)."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Tribunal Review Deadlines"
+  short_description: "Map candidate tribunal and merits-review deadlines"
+  default_prompt: "Use $map-tribunal-review-deadlines to map candidate review deadlines for this decision, computing only through the bundled script and flagging migration matters for specialist review."

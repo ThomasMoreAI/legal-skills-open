@@ -1,0 +1,7 @@
+interface:
+  display_name: "请求权基础"
+  short_description: "请求权基础、鉴定式分析与实务要件映射"
+  default_prompt: "Use $request-basis to analyze a PRC civil-law claim by claim goal, request basis, elements, defenses, evidence, and verification needs."
+
+policy:
+  allow_implicit_invocation: true

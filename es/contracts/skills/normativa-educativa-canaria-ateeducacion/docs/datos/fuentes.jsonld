@@ -1,0 +1,2075 @@
+{
+  "@context": "https://schema.org/",
+  "@graph": [
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-autonomica",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-009",
+      "inLanguage": "es",
+      "name": "Decreto 30/2023, de 16 de marzo, ordenación y currículo de ESO y Bachillerato en Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-010-decreto-86-2025-pdc-eso.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-autonomica",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-010",
+      "inLanguage": "es",
+      "name": "Decreto 86/2025, de 30 de junio, currículo de los ámbitos de los Programas de Diversificación Curricular en Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-010-decreto-86-2025-pdc-eso.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/133/2484.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-017-boc-2010-143.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-017",
+      "inLanguage": "es",
+      "name": "BOC n.º 143 (2010): Decreto 81/2010, de 8 de julio (Reglamento Orgánico de Centros)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-017-boc-2010-143.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2010/143/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-018-boc-2011-108.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-018",
+      "inLanguage": "es",
+      "name": "BOC n.º 108 (2011): Decreto 114/2011, de 11 de mayo (Convivencia)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-018-boc-2011-108.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2011/108/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-019-boc-2009-097.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-019",
+      "inLanguage": "es",
+      "name": "BOC n.º 97 (2009): Decreto 52/2009, de 12 de mayo (Inspección)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-019-boc-2009-097.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2009/097/003.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-020-boc-2011-104.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-020",
+      "inLanguage": "es",
+      "name": "BOC n.º 104 (2011): Decreto 112/2011, de 11 de mayo (CIFP)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-020-boc-2011-104.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2011/104/003.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-021-boc-2011-107.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-021",
+      "inLanguage": "es",
+      "name": "BOC n.º 107 (2011): Orden de 22 de mayo de 2011 (Inspección)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-021-boc-2011-107.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2011/107/002.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-024-boc-2010-136-interinos.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-024",
+      "inLanguage": "es",
+      "name": "BOC n.º 136 (2010): Decreto 74/2010, de 1 de julio (Personal Interino Docente)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-024-boc-2010-136-interinos.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2010/136/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-025-boc-2009-155-direccion.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-025",
+      "inLanguage": "es",
+      "name": "BOC n.º 155 (2009): Decreto 106/2009, de 28 de julio (Función Directiva)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-025-boc-2009-155-direccion.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2009/155/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-026-boc-2020-132-permisos.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-026",
+      "inLanguage": "es",
+      "name": "BOC n.º 132 (2020): Resolución de 16 de junio de 2020 (Permisos y Licencias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Personal"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-026-boc-2020-132-permisos.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2020/132/005.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-027-boc-2018-046-decreto-25-2018-diversidad.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-027",
+      "inLanguage": "es",
+      "name": "BOC n.º 46 (2018): Decreto 25/2018, de 26 de febrero (Atención a la diversidad)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-027-boc-2018-046-decreto-25-2018-diversidad.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2018/046/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-028-boc-2010-250-orden-neae.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-028",
+      "inLanguage": "es",
+      "name": "BOC n.º 250 (2010): Orden de 13 de diciembre de 2010 (NEAE)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-028-boc-2010-250-orden-neae.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-029-boc-2011-040-resolucion-neae.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-029",
+      "inLanguage": "es",
+      "name": "BOC n.º 40 (2011): Resolución de 9 de febrero de 2011 (procedimientos NEAE)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-029-boc-2011-040-resolucion-neae.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2011/040/005.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-030-boc-2019-090-ley-12-2019-atencion-temprana.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-030",
+      "inLanguage": "es",
+      "name": "BOC n.º 90 (2019): Ley 12/2019, de 25 de abril (Atención temprana)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-030-boc-2019-090-ley-12-2019-atencion-temprana.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2019/090/003.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-031-boc-2016-033-orden-aulas-enclave.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-031",
+      "inLanguage": "es",
+      "name": "BOC n.º 33 (2016): Orden de 10 de febrero de 2016 (aulas enclave y centros de educación especial)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-031-boc-2016-033-orden-aulas-enclave.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2016/033/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-032-boc-2022-admision-alumnado.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-032",
+      "inLanguage": "es",
+      "name": "BOC n.º 20 (2022): Decreto 9/2022, de 20 de enero (admisión del alumnado)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-032-boc-2022-admision-alumnado.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/020/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-033-boc-2022-049-orden-admision.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-033",
+      "inLanguage": "es",
+      "name": "BOC n.º 49 (2022): Orden de 3 de marzo de 2022 (admisión del alumnado)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-033-boc-2022-049-orden-admision.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/049/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-034-boc-1997-023-ley-menores.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-034",
+      "inLanguage": "es",
+      "name": "BOC n.º 23 (1997): Ley 1/1997, de 7 de febrero (Atención Integral a los Menores)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-034-boc-1997-023-ley-menores.md",
+      "url": "https://www.gobiernodecanarias.org/boc/1997/023/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-036-boc-2024-117-decreto-84-2024-reglamento-organico.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-036",
+      "inLanguage": "es",
+      "name": "BOC n.º 117 (2024): Decreto 84/2024, de 10 de junio (Reglamento Orgánico de la Consejería)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-036-boc-2024-117-decreto-84-2024-reglamento-organico.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/117/002.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-037-boc-2009-084-orden-comedores.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-037",
+      "inLanguage": "es",
+      "name": "BOC n.º 84 (2009): Orden de 24 de abril de 2009 (comedores escolares)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-037-boc-2009-084-orden-comedores.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2009/084/004.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-038-boc-2006-165-orden-transporte-escolar.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-038",
+      "inLanguage": "es",
+      "name": "BOC n.º 165 (2006): Orden de 2 de agosto de 2006 (transporte escolar)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-038-boc-2006-165-orden-transporte-escolar.md",
+      "url": "https://www.gobiernodecanarias.org/boc/archivo/2006/165/pda/008.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-039-boc-2005-061-decreto-residencias.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-039",
+      "inLanguage": "es",
+      "name": "BOC n.º 61 (2005): Decreto 40/2005, de 16 de marzo (Residencias Escolares)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-039-boc-2005-061-decreto-residencias.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2005/061/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-040-orden-7-junio-2007-diversidad-basica.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-040",
+      "inLanguage": "es",
+      "name": "Orden de 7 de junio de 2007, medidas de atención a la diversidad en enseñanza básica",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-040-orden-7-junio-2007-diversidad-basica.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2007/124/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-041-resolucion-5-febrero-2026-admision-26-27.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-041",
+      "inLanguage": "es",
+      "name": "Resolución de 5 de febrero de 2026, convocatoria de admisión 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-041-resolucion-5-febrero-2026-admision-26-27.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/031/pda/498.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-045-boc-2026-046-permisos.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-045",
+      "inLanguage": "es",
+      "name": "Resolución de 24 de febrero de 2026, por la que se actualiza el régimen de permisos y licencias del personal docente no universitario",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Personal y Formación del Profesorado (Gobierno de Canarias)"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-045-boc-2026-046-permisos.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/046/751.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-046-boc-2022-231-curriculo-primaria.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-046",
+      "inLanguage": "es",
+      "name": "Decreto 211/2022, de 10 de noviembre, currículo Educación Primaria Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-046-boc-2022-231-curriculo-primaria.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/231/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-047-boc-2023-110-evaluacion-primaria.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-047",
+      "inLanguage": "es",
+      "name": "Orden de 31 de mayo de 2023, evaluación y promoción",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-047-boc-2023-110-evaluacion-primaria.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/110/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-048-boc-2025-107-rubricas-primaria.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-048",
+      "inLanguage": "es",
+      "name": "Resolución de 15 de mayo de 2025, por la que se establecen las rúbricas de los criterios de evaluación de la etapa de Educación Primaria",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Ordenación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-048-boc-2025-107-rubricas-primaria.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/107/2005.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-050-boc-2022-212-curriculo-infantil.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-050",
+      "inLanguage": "es",
+      "name": "Decreto 196/2022, de 13 de octubre, currículo Educación Infantil Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-050-boc-2022-212-curriculo-infantil.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/212/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-052-boc-2008-203-requisitos-infantil.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-052",
+      "inLanguage": "es",
+      "name": "Decreto 201/2008, de 30 de septiembre, requisitos centros primer ciclo Infantil",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-052-boc-2008-203-requisitos-infantil.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2008/203/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-053-boc-2023-105-procedimientos-diversidad.md",
+      "@type": "WebPage",
+      "additionalType": "disposicion-general",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-053",
+      "inLanguage": "es",
+      "name": "Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-053-boc-2023-105-procedimientos-diversidad.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-01",
+      "identifier": "FTE-055",
+      "inLanguage": "es",
+      "name": "Resolución de 3 de diciembre de 2025, por la que se modifica la Resolución de 9 de junio de 2025, que dicta instrucciones sobre el proceso de evaluación en los Ciclos Formativos de Grado Básico, de Grado Medio y de Grado Superior y en los Cursos de Especialización",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/249/4298.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-068-boc-2025-118-evaluacion-fp.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-06-01",
+      "identifier": "FTE-068",
+      "inLanguage": "es",
+      "name": "BOC 2025/118 — Resolución de 9 de junio de 2025 sobre evaluación en ciclos formativos y cursos de especialización",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-068-boc-2025-118-evaluacion-fp.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/118/2219.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-074-boc-2026-129-protocolo-fp-fecam.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-07-07",
+      "identifier": "FTE-074",
+      "inLanguage": "es",
+      "name": "BOC 2026/129 — Resolución de 16 de junio de 2026 sobre publicación del Protocolo General de Actuación CEFPAFD-FECAM para la formación en empresa en FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-074-boc-2026-129-protocolo-fp-fecam.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/129/2245.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-075-boc-2026-144-decreto-120-2026-competencia-digital-docente.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-07-20",
+      "identifier": "FTE-075",
+      "inLanguage": "es",
+      "name": "BOC 2026/144 — Decreto 120/2026 sobre certificación, acreditación y reconocimiento de la competencia digital docente",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-075-boc-2026-144-decreto-120-2026-competencia-digital-docente.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/144/2561.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-076-boc-2024-251-fp-semipresencial-virtual.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-07-27",
+      "identifier": "FTE-076",
+      "inLanguage": "es",
+      "name": "BOC 2024/251 — Resolución de 10 de diciembre de 2024 sobre FP semipresencial y virtual de Grados C, D y E",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-076-boc-2024-251-fp-semipresencial-virtual.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/251/4224.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-077-boc-2026-144-modificacion-fp-semipresencial-virtual.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-07-27",
+      "identifier": "FTE-077",
+      "inLanguage": "es",
+      "name": "BOC 2026/144 — Resolución de 8 de julio de 2026 que modifica las instrucciones de FP semipresencial y virtual",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-077-boc-2026-144-modificacion-fp-semipresencial-virtual.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/144/2567.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-080-boc-2026-139-cursos-acceso-directo-cad2-cad3.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-080",
+      "inLanguage": "es",
+      "name": "BOC 2026/139 — Instrucciones de los cursos de acceso directo CAD2 y CAD3",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-080-boc-2026-139-cursos-acceso-directo-cad2-cad3.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/139/2475.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-081-boc-2026-141-horarios-cocina-prevencion-riesgos.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-081",
+      "inLanguage": "es",
+      "name": "BOC 2026/141 — Modificación de horarios de Cocina y Restauración y de Prevención de Riesgos",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-081-boc-2026-141-horarios-cocina-prevencion-riesgos.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/141/2507.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-082-boc-2026-141-cuadros-horarios-dobles-titulaciones.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-082",
+      "inLanguage": "es",
+      "name": "BOC 2026/141 — Modificación de cuadros horarios de cinco dobles titulaciones de Grado Superior",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-082-boc-2026-141-cuadros-horarios-dobles-titulaciones.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/141/2508.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-083-boc-2013-200-desarrollo-roc.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-083",
+      "inLanguage": "es",
+      "name": "BOC 2013/200 — Orden de 9 de octubre de 2013, desarrollo del Reglamento Orgánico de centros",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-083-boc-2013-200-desarrollo-roc.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2013/200/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-084-boc-2010-181-eoep.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-084",
+      "inLanguage": "es",
+      "name": "BOC 2010/181 — Orden de 1 de septiembre de 2010, organización y funcionamiento de los EOEP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-084-boc-2010-181-eoep.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2010/181/002.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-085-boc-2026-043-modulo-optativo-fp.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-085",
+      "inLanguage": "es",
+      "name": "BOC 2026/043 — Resolución de 25 de febrero de 2026, módulo profesional optativo en Grados D",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-085-boc-2026-043-modulo-optativo-fp.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/043/703.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-088-resolucion-30-octubre-2024-grados-d-e.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-088",
+      "inLanguage": "es",
+      "name": "BOC 2024/226 — Resolución de 30 de octubre de 2024, implantación de los Grados D y E",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-088-resolucion-30-octubre-2024-grados-d-e.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/226/3747.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-089-resolucion-29-noviembre-2024-modifica-grados-d-e.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-089",
+      "inLanguage": "es",
+      "name": "BOC 2024/254 — Resolución de 29 de noviembre de 2024, modificación de los Grados D y E",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-089-resolucion-29-noviembre-2024-modifica-grados-d-e.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/254/4300.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-090-resolucion-26-marzo-2026-amplia-grados-d-e.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-090",
+      "inLanguage": "es",
+      "name": "BOC 2026/070 — Resolución de 26 de marzo de 2026, ampliación de los Grados D y E",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-090-resolucion-26-marzo-2026-amplia-grados-d-e.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/070/1143.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-091-resolucion-17-abril-2026-correccion-grados-d-e.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-091",
+      "inLanguage": "es",
+      "name": "BOC 2026/080 — Resolución de 17 de abril de 2026, corrección de error",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-091-resolucion-17-abril-2026-correccion-grados-d-e.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/080/1342.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-092-resolucion-26-noviembre-2025-dobles-titulaciones.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-092",
+      "inLanguage": "es",
+      "name": "BOC 2025/250 — Resolución de 26 de noviembre de 2025, dobles titulaciones de FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-092-resolucion-26-noviembre-2025-dobles-titulaciones.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/250/4323.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-093-resolucion-2-mayo-2025-dobles-titulaciones-primer-curso.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-093",
+      "inLanguage": "es",
+      "name": "BOC 2025/093 — Resolución de 2 de mayo de 2025, dobles titulaciones con primer curso en común",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-093-resolucion-2-mayo-2025-dobles-titulaciones-primer-curso.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/093/1761.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-094-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-094",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-045-733 — Grados C/B FP: Deportes, Comercio y Marítimo-Pesquera",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-094-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/045/733.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-095-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-095",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-045-734 — Resolución 25-feb-2026 Grados C/B: Admón., Agraria, Informát",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-095-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/045/734.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-096-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-096",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-045-735 — Distribución horaria Grados C/B Artes Gráficas, Mecánica y S",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-096-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/045/735.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-097-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-097",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-045-736 — Resolución 25-2-2026 Grados C/B Edificación, Electricidad, E",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-097-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/045/736.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-098-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-098",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-046-748 — Distribución horaria Grados C/B Hostelería y Turismo",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-098-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/046/748.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-099-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-099",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-046-749 — Res. 25-feb-2026: horario Grados C/B Imagen, Instalación, Qu",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-099-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/046/749.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-100-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-100",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-046-750 — Grados C/B FP: Alimentaria, Seguridad, Textil, Transporte",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-100-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/046/750.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-101-resolucion-27-enero-2026-amplia-grados-d-e.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-101",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-029-471 — NOR-094",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-101-resolucion-27-enero-2026-amplia-grados-d-e.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/029/471.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-102-resolucion-27-enero-2026-modifica-dobles-titulaciones.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-102",
+      "inLanguage": "es",
+      "name": "BOC-A-2026-029-472 — Modifica dobles titulaciones FP: Hostelería y Turismo",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-102-resolucion-27-enero-2026-modifica-dobles-titulaciones.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2026/029/472.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-103-resolucion-25-abril-2025-amplia-fp-adaptada.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-103",
+      "inLanguage": "es",
+      "name": "BOC-A-2025-091-1728 — NOR-096",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-103-resolucion-25-abril-2025-amplia-fp-adaptada.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/091/1728.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-104-resolucion-21-febrero-2025-fp-adaptada.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-104",
+      "inLanguage": "es",
+      "name": "BOC-A-2025-046-918 — Resolución FP Adaptada: itinerarios IFE+16 e IFC+21",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-104-resolucion-21-febrero-2025-fp-adaptada.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/046/918.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-105-resolucion-9-julio-2025-cursos-acceso-directo.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-105",
+      "inLanguage": "es",
+      "name": "BOC-A-2025-145-2688 — Instrucciones CAD2/CAD3 curso 2025-2026",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-105-resolucion-9-julio-2025-cursos-acceso-directo.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2025/145/2688.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-106-resolucion-5-noviembre-2024-formacion-dual.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-106",
+      "inLanguage": "es",
+      "name": "BOC-A-2024-230-3794 — NOR-099",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-106-resolucion-5-noviembre-2024-formacion-dual.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/230/3794.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-107-resolucion-21-abril-2022-curso-especifico-acceso.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-107",
+      "inLanguage": "es",
+      "name": "BOC-A-2022-087-1481 — Instrucciones Curso Específico Acceso Grado Medio (CE2)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-107-resolucion-21-abril-2022-curso-especifico-acceso.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/087/011.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-118-boc-2019-145-modifica-roc.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-118",
+      "inLanguage": "es",
+      "name": "BOC 2019/145 — Orden de 16 de julio de 2019 que modifica la Orden de 9 de octubre de 2013 (ROC)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-118-boc-2019-145-modifica-roc.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2019/145/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-119-boc-2023-201-modifica-roc.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-119",
+      "inLanguage": "es",
+      "name": "BOC 2023/201 — Orden de 28 de septiembre de 2023 que modifica la Orden de 9 de octubre de 2013 (ROC)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-119-boc-2023-201-modifica-roc.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/201/3291.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-120-boc-2022-062-piloto-infantil.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-120",
+      "inLanguage": "es",
+      "name": "BOC 2022/62 — Orden de 22 de marzo de 2022, experiencia piloto de primer ciclo de Infantil",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-120-boc-2022-062-piloto-infantil.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2022/062/011.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-121-boc-2023-064-piloto-infantil.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-121",
+      "inLanguage": "es",
+      "name": "BOC 2023/64 — Orden de 24 de marzo de 2023, continuidad y ampliación de la experiencia piloto de primer ciclo",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-121-boc-2023-064-piloto-infantil.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/064/007.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-122-boc-2023-101-modifica-piloto.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-122",
+      "inLanguage": "es",
+      "name": "BOC 2023/101 — Orden de 17 de mayo de 2023 que modifica la Orden de 24 de marzo de 2023 (piloto de primer ciclo)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-122-boc-2023-101-modifica-piloto.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/101/024.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-123-boc-2024-064-modifica-piloto.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-123",
+      "inLanguage": "es",
+      "name": "BOC 2024/64 — Orden de 15 de marzo de 2024 que modifica los anexos de la Orden de 24 de marzo de 2023 (piloto de primer ciclo)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-123-boc-2024-064-modifica-piloto.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2024/064/pda/006.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-005-loe-texto-consolidado.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-25",
+      "identifier": "FTE-005",
+      "inLanguage": "es",
+      "name": "Ley Orgánica 2/2006, de Educación — texto consolidado BOE",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-005-loe-texto-consolidado.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-006-lomloe.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-25",
+      "identifier": "FTE-006",
+      "inLanguage": "es",
+      "name": "Ley Orgánica 3/2020, LOMLOE",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-006-lomloe.md",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-007-rd-217-2022.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-25",
+      "identifier": "FTE-007",
+      "inLanguage": "es",
+      "name": "Real Decreto 217/2022, enseñanzas mínimas de ESO",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-007-rd-217-2022.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-008-ley-canaria-6-2014.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-autonomica",
+      "dateModified": "2026-04-25",
+      "identifier": "FTE-008",
+      "inLanguage": "es",
+      "name": "Ley 6/2014, Canaria de Educación no Universitaria",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-008-ley-canaria-6-2014.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-011-rd-243-2022.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-011",
+      "inLanguage": "es",
+      "name": "Real Decreto 243/2022, ordenación y enseñanzas mínimas de Bachillerato",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-011-rd-243-2022.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-016-ley-organica-3-2022-fp.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-016",
+      "inLanguage": "es",
+      "name": "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-016-ley-organica-3-2022-fp.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-022-ley-canaria-funcion-publica.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-autonomica",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-022",
+      "inLanguage": "es",
+      "name": "Ley 2/1987, de 30 de marzo, de la Función Pública Canaria",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-022-ley-canaria-funcion-publica.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-023-trebep.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-023",
+      "inLanguage": "es",
+      "name": "Real Decreto Legislativo 5/2015, de 30 de octubre (TREBEP)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jefatura del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-023-trebep.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-035-ley-2-2021-igualdad-identidad-genero.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-autonomica",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-035",
+      "inLanguage": "es",
+      "name": "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-035-ley-2-2021-igualdad-identidad-genero.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-054-boe-fp-titulos.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-054",
+      "inLanguage": "es",
+      "name": "BOE — Reales Decretos de títulos de Formación Profesional (TAREA-037)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-054-boe-fp-titulos.md",
+      "url": "https://www.boe.es"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-079-boe-resolucion-2022-curriculo-religion-catolica.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-079",
+      "inLanguage": "es",
+      "name": "Resolución de 21 de junio de 2022, currículos de religión católica (Infantil, Primaria, ESO y Bachillerato)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado — Ministerio de Educación y Formación Profesional"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-079-boe-resolucion-2022-curriculo-religion-catolica.md",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-086-rd-157-2022-ensenanzas-minimas-primaria.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-086",
+      "inLanguage": "es",
+      "name": "BOE 2022/052 — Real Decreto 157/2022, enseñanzas mínimas de Educación Primaria",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado — Ministerio de Educación y Formación Profesional"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-086-rd-157-2022-ensenanzas-minimas-primaria.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-087-rd-659-2023-ordenacion-sistema-fp.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-087",
+      "inLanguage": "es",
+      "name": "BOE 2023/174 — Real Decreto 659/2023, ordenación del Sistema de Formación Profesional",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado — Ministerio de Educación y Formación Profesional"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-087-rd-659-2023-ordenacion-sistema-fp.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-108-rd-658-2024-modifica-rd-659-2023.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-108",
+      "inLanguage": "es",
+      "name": "BOE-A-2024-14079 — RD 658/2024: modifica RD 132/2010 y RD 659/2023",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-108-rd-658-2024-modifica-rd-659-2023.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14079"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-109-rd-69-2025-instrumentos-sistema-nacional-fp.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-109",
+      "inLanguage": "es",
+      "name": "BOE-A-2025-2039 — RD 69/2025 elementos e instrumentos gestión FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-109-rd-69-2025-instrumentos-sistema-nacional-fp.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-110-rd-1085-2020-convalidaciones-modulos-fp.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-110",
+      "inLanguage": "es",
+      "name": "BOE-A-2020-17274 — RD 1085/2020 convalidaciones módulos profesionales FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-110-rd-1085-2020-convalidaciones-modulos-fp.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-111-correccion-rd-1085-2020.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-111",
+      "inLanguage": "es",
+      "name": "BOE-A-2021-979 — Corrección de errores RD 1085/2020 (convalidaciones FP)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-111-correccion-rd-1085-2020.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-112-rd-62-2022-certificados-profesionalidad.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-112",
+      "inLanguage": "es",
+      "name": "BOE-A-2022-1274 — RD 62/2022 - Flexibilización certificados de profesionalidad",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-112-rd-62-2022-certificados-profesionalidad.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-1274"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-113-orden-efp-1210-2021-equivalencias-acceso-fp.md",
+      "@type": "WebPage",
+      "additionalType": "normativa-estatal",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-113",
+      "inLanguage": "es",
+      "name": "BOE-A-2021-18189 — Equivalencia Bachiller Ley 1970 para acceso a FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial del Estado"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-113-orden-efp-1210-2021-equivalencias-acceso-fp.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-129-lopdgdd.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-129",
+      "inLanguage": "es",
+      "name": "BOE-A-2018-16673 — Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-129-lopdgdd.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-130-ley-31-1995-prl.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-130",
+      "inLanguage": "es",
+      "name": "BOE-A-1995-24292 — Ley 31/1995, de Prevención de Riesgos Laborales",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-130-ley-31-1995-prl.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-131-rd-39-1997-servicios-prevencion.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-131",
+      "inLanguage": "es",
+      "name": "BOE-A-1997-1853 — Real Decreto 39/1997, Reglamento de los Servicios de Prevención",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-131-rd-39-1997-servicios-prevencion.md",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/europeas/FTE-128-eurlex-rgpd-2016-679.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-128",
+      "inLanguage": "es",
+      "name": "EUR-Lex — Reglamento (UE) 2016/679, general de protección de datos (RGPD)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Unión Europea — EUR-Lex"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/europeas/FTE-128-eurlex-rgpd-2016-679.md",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-001-normativa-educativa-gobierno-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-001",
+      "inLanguage": "es",
+      "name": "Normativa educativa — Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-001-normativa-educativa-gobierno-canarias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/normativa/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-curricular",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-002",
+      "inLanguage": "es",
+      "name": "Currículos de Educación Secundaria Obligatoria — Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-003-ordenacion-curriculo-secundaria-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-curricular",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-003",
+      "inLanguage": "es",
+      "name": "Ordenación y currículo — Educación Secundaria — Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-003-ordenacion-curriculo-secundaria-canarias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-004-ordenacion-eso-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-curricular",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-004",
+      "inLanguage": "es",
+      "name": "Ordenación de la Educación Secundaria Obligatoria — Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-004-ordenacion-eso-canarias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/ordenacion-de-la-educacion-secundaria-obligatoria-eso/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-012-centro-desarrollo-curricular-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-curricular",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-012",
+      "inLanguage": "es",
+      "name": "Centro de Desarrollo Curricular (CDC) — Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Universidades, Cultura y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-012-centro-desarrollo-curricular-canarias.md",
+      "url": "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-013",
+      "inLanguage": "es",
+      "name": "Normativa clasificada por temas — Inspección Educativa de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Inspección General de Educación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-014-inspeccion-educativa-ensenanzas.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-014",
+      "inLanguage": "es",
+      "name": "Normativa clasificada — Enseñanzas — Inspección Educativa de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Inspección General de Educación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-014-inspeccion-educativa-ensenanzas.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-015",
+      "inLanguage": "es",
+      "name": "Normativa clasificada — Formación Profesional — Inspección Educativa de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Inspección General de Educación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-042-resolucion-instrucciones-diversidad-24-25.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-042",
+      "inLanguage": "es",
+      "name": "Resolución n.º 261/2024, instrucciones atención diversidad 2024-2025",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGOEII - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-042-resolucion-instrucciones-diversidad-24-25.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-043-resolucion-instrucciones-diversidad-25-26.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-043",
+      "inLanguage": "es",
+      "name": "Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGOEII - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-043-resolucion-instrucciones-diversidad-25-26.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/centros_privados_concertados/normativa/?educa_etiquetas_es=Concertados%2C+concertados&page=17"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-044-resolucion-instrucciones-diversidad-26-27.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-044",
+      "inLanguage": "es",
+      "name": "Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGOEII - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-044-resolucion-instrucciones-diversidad-26-27.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/personal/docente/?fi=cen_cor_vacan&sfi=cen_cor_vacan&t=centros_concertados"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-049-instrucciones-iof-25-26.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-049",
+      "inLanguage": "es",
+      "name": "Resolución conjunta núm. 73/2025, de 20 de junio, instrucciones para la organización y el funcionamiento de los centros docentes públicos no universitarios",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viceconsejería de Educación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-049-instrucciones-iof-25-26.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-051",
+      "inLanguage": "es",
+      "name": "[CATALOGACIÓN ERRÓNEA] Resolución de 20 de junio de 2025, IOF Escuelas Infantiles",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viceconsejería de Educación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/organizacion_funcionamiento/instrucciones/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-056-buscador-ensenanzas-codigos-materias.md",
+      "@type": "WebPage",
+      "additionalType": "catalogo-administrativo",
+      "dateModified": "2026-04-26",
+      "identifier": "FTE-056",
+      "inLanguage": "es",
+      "name": "Buscador de enseñanzas del Gobierno de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-056-buscador-ensenanzas-codigos-materias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/centroseducativos/buscador-ensenanzas/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-057-proa-plus.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-057",
+      "inLanguage": "es",
+      "name": "Programa PROA+ — Cooperación Territorial 2024-2028 (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-057-proa-plus.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas_cofinanciados/nextgenerationeu/programa-proa/2024-2028/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-058-red-canaria-innovas.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-058",
+      "inLanguage": "es",
+      "name": "Red Canaria-InnovAS — Red Educativa Canaria de Innovación para la Sostenibilidad y la Acción Social",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-058-red-canaria-innovas.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-059-proyecto-viera.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-059",
+      "inLanguage": "es",
+      "name": "Proyecto Viera — fomento de la lectura y la competencia en comunicación lingüística (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-059-proyecto-viera.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/area_fomento_competencia_comunicacion_linguistica/convocatorias/proyecto-viera/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-060-proideac.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-060",
+      "inLanguage": "es",
+      "name": "ProIDEAC — Programación, Innovación, Desarrollo y Evaluación competencial (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-060-proideac.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/recursos-pedagogicos/proideac/que-es-proideac/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-061-programa-aicle.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-061",
+      "inLanguage": "es",
+      "name": "Programa AICLE — Aprendizaje Integrado de Contenidos y Lenguas Extranjeras (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-061-programa-aicle.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/plurilinguismo/programa-aicle/programa-aicle/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-062-programa-ensenas.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-062",
+      "inLanguage": "es",
+      "name": "Programa EnSeñas — Patrimonio Social, Cultural e Histórico Canario (Red Canaria-InnovAS)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-062-programa-ensenas.md",
+      "url": "https://www3.gobiernodecanarias.org/medusa/ecoescuela/ensenas/programa-ensenas-inscripcion-en-el-eje-tematico-de-patrimonio-red-canaria-innovas/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-063-matematicas-newton-canarias.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-063",
+      "inLanguage": "es",
+      "name": "Matemáticas Newton Canarias (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-063-matematicas-newton-canarias.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/matematicas-newton-canarias/convocatorias/proyecto-matematicas-newton-canarias/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-064-evagd-aula-digital-canaria.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-064",
+      "inLanguage": "es",
+      "name": "EVAGD y Aula Digital Canaria — entornos virtuales oficiales (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-064-evagd-aula-digital-canaria.md",
+      "url": "https://www3.gobiernodecanarias.org/medusa/evagd/base/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-065-opeec-erasmus-etwinning.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-065",
+      "inLanguage": "es",
+      "name": "OPEEC — Erasmus+ y eTwinning (Oficina de Proyectos Europeos y Estancias Educativas Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-065-opeec-erasmus-etwinning.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/opeec/etwinning/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-066-proteccion-datos-educacion.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-066",
+      "inLanguage": "es",
+      "name": "Protección de Datos en Educación — Inspección Educativa de Canarias",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Inspección General de Educación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-066-proteccion-datos-educacion.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/administracion/proteccion-de-datos/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-067-prevencion-riesgos-emergencia.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-05-01",
+      "identifier": "FTE-067",
+      "inLanguage": "es",
+      "name": "Prevención de Riesgos Laborales y Emergencias en Centros Públicos (Gobierno de Canarias)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-067-prevencion-riesgos-emergencia.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/riesgos-laborables-centros-publicos/emergencia/index.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-069-resolucion-optativos-fp-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-01",
+      "identifier": "FTE-069",
+      "inLanguage": "es",
+      "name": "Resolución n.º 234/2026 — Listado provisional de módulos optativos de diseño propio de FP para 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-069-resolucion-optativos-fp-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261805-res-234-listado-provisional-optativos-diseno-propio-y-para-subsanar-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-070-resolucion-listado-definitivo-optativos-fp-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-29",
+      "identifier": "FTE-070",
+      "inLanguage": "es",
+      "name": "Resolución n.º 254/2026 — Listado definitivo de módulos optativos de diseño propio de FP para 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-070-resolucion-listado-definitivo-optativos-fp-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/res-254-listado-definitivo-modulos-diseno-propio-curso-26-27.PDF"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-071-resolucion-correccion-256-optativos-fp-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-29",
+      "identifier": "FTE-071",
+      "inLanguage": "es",
+      "name": "Resolución n.º 256/2026 — Corrección de errores materiales y de hecho en el listado definitivo de módulos optativos de diseño propio de FP 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-071-resolucion-correccion-256-optativos-fp-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260608-res-256-correccion-errores-listado-definitivo-modulos-optativos-diseno-propio-fp-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-072-resolucion-prospeccion-concurso-meritos-fp-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-29",
+      "identifier": "FTE-072",
+      "inLanguage": "es",
+      "name": "Resolución n.º 268/2026 — Funciones de prospección en FP y concurso de méritos para el nombramiento de docentes 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-072-resolucion-prospeccion-concurso-meritos-fp-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260619-res-268-funciones-prospeccion-nombramiento-concurso-meritos-docentes-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-073-resolucion-correccion-272-optativos-fp-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-06-29",
+      "identifier": "FTE-073",
+      "inLanguage": "es",
+      "name": "Resolución n.º 272/2026 — Corrección de error material en el listado definitivo de módulos optativos de diseño propio de FP 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-073-resolucion-correccion-272-optativos-fp-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/res-272-correccion-errores-listado-definitivo-modulos-optativos-diseno-propio-fp-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-078-resolucion-24-2024-instrucciones-primer-ciclo-infantil.md",
+      "@type": "WebPage",
+      "additionalType": "resolucion-administrativa",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-078",
+      "inLanguage": "es",
+      "name": "Resolución Conjunta n.º 24/2024, de 16 de julio, instrucciones específicas del primer ciclo de Educación Infantil",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Administración de Centros, Escolarización y Servicios Complementarios y Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-078-resolucion-24-2024-instrucciones-primer-ciclo-infantil.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/Instrucciones_organizacion_funcionamiento_primer_ciclo_infantil.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-114-resolucion-492-2023-coordinacion-familias-profesionales.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-114",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Instrucciones coordinación familias profesionales FP 2023",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-114-resolucion-492-2023-coordinacion-familias-profesionales.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/personal_docente"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-115-resolucion-22-septiembre-2014-convalidacion-ingles.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-115",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Convalidación de Inglés: resuelven los centros de FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-115-resolucion-22-septiembre-2014-convalidacion-ingles.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/formacion_profesional/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-116-resolucion-305-2025-admision-cursos-especializacion.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-116",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Admisión cursos de especialización FP 2025-2026",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-116-resolucion-305-2025-admision-cursos-especializacion.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-117-resolucion-318-2025-oferta-bilingue-fp.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-05",
+      "identifier": "FTE-117",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Res. 318/2025 modalidad bilingüe FP curso 2025/2026",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-117-resolucion-318-2025-oferta-bilingue-fp.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-124-resolucion-689-2026-instrucciones-proa.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-124",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Resolución 689/2026, instrucciones PROA+ 2026-2028",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-124-resolucion-689-2026-instrucciones-proa.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/_galerias/descargas/normativa-internas/20260511-res-689-instrucciones-proa-26-28.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-125-resolucion-699-2026-red-innovas.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-125",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Resolución 699/2026, Red Canaria InnovAS curso 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-125-resolucion-699-2026-red-innovas.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/_galerias/descargas/normativa-internas/20260512-res-699-convocatoria-red-innovas-2026-2027.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-126-resolucion-705-2026-programa-aicle.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-126",
+      "inLanguage": "es",
+      "name": "Portal de la Consejería — Resolución 705/2026, programa AICLE curso 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-126-resolucion-705-2026-programa-aicle.md",
+      "url": "https://www.gobiernodecanarias.org/educacion/web/_galerias/descargas/normativa-internas/20260512-res-705-programa-aicle-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-127-opeec-intercambio-francia-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "portal-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-127",
+      "inLanguage": "es",
+      "name": "Portal OPEEC — Convocatoria de intercambio escolar individual con reciprocidad con Francia, curso 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-127-opeec-intercambio-francia-2026-2027.md",
+      "url": "https://www3.gobiernodecanarias.org/medusa/ecoescuela/opeec/programa-de-intercambio-escolar-individual-con-reciprocidad-2026-2027/"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-132-instrucciones-evaluacion-calificacion-2026-2027.md",
+      "@type": "WebPage",
+      "additionalType": "documento-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-132",
+      "inLanguage": "es",
+      "name": "Texto oficial — Evaluación y calificación desde 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-132-instrucciones-evaluacion-calificacion-2026-2027.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-133-resolucion-1141-2026-rubricas-infantil-diversificacion.md",
+      "@type": "WebPage",
+      "additionalType": "documento-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-133",
+      "inLanguage": "es",
+      "name": "Texto oficial — Rúbricas Infantil y Diversificación Curricular (1141/2026)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-133-resolucion-1141-2026-rubricas-infantil-diversificacion.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261005-res-1141-rubricas-educacion-infantil-programa-diversificacion-curricular-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-134-resolucion-73-2026-organizacion-funcionamiento.md",
+      "@type": "WebPage",
+      "additionalType": "documento-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-134",
+      "inLanguage": "es",
+      "name": "Texto oficial — Instrucciones IOF 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viceconsejería de Educación y Viceconsejería de Formación Profesional y Cualificaciones Profesionales"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-134-resolucion-73-2026-organizacion-funcionamiento.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-73-instrucciones-organizacion-funcionamiento-centros-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-135-resolucion-95-2026-modificacion-iof-fp.md",
+      "@type": "WebPage",
+      "additionalType": "documento-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-135",
+      "inLanguage": "es",
+      "name": "Texto oficial — Corrección IOF: horas de innovación FP (95/2026)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viceconsejería de Educación y Viceconsejería de Formación Profesional y Cualificaciones Profesionales"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-135-resolucion-95-2026-modificacion-iof-fp.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260717-res-95-modificacion-instrucciones-organizacion-funcionamiento-centros-publicos-curso-26-27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-136-resolucion-110-2026-recogida-hermanos-menores.md",
+      "@type": "WebPage",
+      "additionalType": "documento-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-136",
+      "inLanguage": "es",
+      "name": "Texto oficial — Corrección IOF: recogida por hermanos menores (110/2026)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Viceconsejería de Educación y Viceconsejería de Formación Profesional y Cualificaciones Profesionales"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-136-resolucion-110-2026-recogida-hermanos-menores.md",
+      "url": "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-conjunta-110-2026_modificacion-instrucciones_organizacion_centros_curso-26_27.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-137-orden-6-agosto-2026-colectivos-escuelas-rurales.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-137",
+      "inLanguage": "es",
+      "name": "Texto oficial — Configuración CER 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-137-orden-6-agosto-2026-colectivos-escuelas-rurales.md",
+      "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-166-2986.pdf"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-138-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-10-07",
+      "identifier": "FTE-138",
+      "inLanguage": "es",
+      "name": "Texto oficial — Modificación CER: CEIP San Vicente 2026-2027",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/portales-oficiales/FTE-138-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md",
+      "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-201-3465.pdf"
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+Decreto N° 379/018 
+
+ Volver 
+
+ Decreto N° 379/018 REGLAMENTACION DE LA LEY 19.574 CONTRA EL LAVADO DE ACTIVOS 
+ 
+ Documento Actualizado
+
+ Ver Imagen del D.O.
+
+ Promulgación: 12/11/2018 Publicación: 20/11/2018 
+ El Registro Nacional de Leyes y Decretos del presente semestre se encuentra disponible en la Librería Digital de IMPO. 
+ Reglamentario/a de: Ley Nº 19.574 de 20/12/2017.
+ 
+ Referencias a toda la norma 
+ 
+ VISTO: la sanción de la Ley N° 19.574 de 20 de diciembre de 2017;
+
+ RESULTANDO: que la mencionada ley, actualiza la normativa vigente referida al lavado de activos;
+
+ CONSIDERANDO: que en virtud de las modificaciones legislativas introducidas en la materia, es necesario reglamentar las disposiciones contenidas en la norma citada precedentemente;
+
+ ATENTO: a lo expuesto, y a lo dispuesto por el numeral 4°) del artículo 168 de la Constitución de la República;
+
+ EL PRESIDENTE DE LA REPÚBLICA
+
+ Actuando en Consejo de Ministros
+
+ DECRETA: CAPÍTULO I - DEFINICIONES Artículo 1 A efectos de la aplicación del presente decreto se deberán tener en cuenta las siguientes definiciones:
+
+ Sujeto obligado: Todos los sujetos obligados a reportar operaciones inusuales o sospechosas a la Unidad de Información y Análisis Financiero del Banco Central del Uruguay, en los casos en que lo establece el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017. Tratándose de sujetos que sean obligados por la actuación, participación o realización de determinadas actividades u operaciones expresamente establecidas en el precitado artículo, cuando las disposiciones contenidas en el presente decreto hagan referencia a estos sujetos obligados se entenderá únicamente, respecto de la actuación o participación en dichas actividades u operaciones, o de su realización.
+
+ Cliente: Persona que utiliza o adquiere, de manera frecuente u ocasional, un producto o servicio, puesto a disposición por uno de los sujetos obligados señalados en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017. En caso de tratarse de sujetos obligados por la actuación, participación o realización de determinadas actividades u operaciones expresamente establecidas en el precitado artículo, se considerarán clientes únicamente quienes se vinculen con el sujeto obligado respecto de dichas actividades u operaciones.
+
+ Riesgo: Es la posibilidad que tiene el sujeto obligado de ser utilizado directa o indirectamente a través de sus actividades y operaciones como instrumento para cometer el delito de lavado de activos, el financiamiento del terrorismo y la proliferación de armas de destrucción masiva.
+
+ Origen de los fondos: La actividad económica, productiva, industrial, financiera, comercial, laboral o la fuente legal que origina los fondos o recursos monetarios de un cliente del sujeto obligado.
+
+ (*) Notas: Ver en esta norma, artículo: 30 .
+ CAPÍTULO II - GENERALIDADES Artículo 2 Sujetos obligados. Todos los sujetos obligados a reportar operaciones inusuales o sospechosas a la Unidad de Información y Análisis Financiero (UIAF) del Banco Central del Uruguay de acuerdo a lo dispuesto por el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberán cumplir e implementar las disposiciones del presente decreto, conforme a lo establecido en la precitada ley.
+
+ No estarán comprendidos en este decreto los sujetos obligados financieros señalados en el artículo 12 de la mencionada ley, los que estarán sujetos a la reglamentación que dicte el Banco Central del Uruguay así como a su supervisión, de acuerdo a lo establecido en el citado artículo.
+ Artículo 3 Supervisión. La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo (Senaclaft) es el órgano encargado del control del cumplimiento de las normas de prevención del lavado de activos y financiamiento del terrorismo por parte de los sujetos obligados señalados en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, de conformidad con lo previsto en el artículo 4° de la ley que se reglamenta.
+ Artículo 4 Evaluación de riesgos. Los sujetos obligados por el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017 en los casos en que dicho artículo lo establece, deberán realizar una evaluación de riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, tomando medidas apropiadas para identificar y evaluar los mismos, y teniendo en cuenta el riesgo cliente, geográfico y operacional.
+
+ Asimismo, cuando de acuerdo a lo establecido en el presente decreto para cada sector de actividad corresponda realizar la debida diligencia, los sujetos obligados deberán realizar un análisis de riesgos individual del cliente y de las principales características de las operaciones que se proponga realizar. Como resultado de dicho análisis se asignará al cliente y/u operación un riesgo alto, medio o bajo, según el caso, dejando constancia de ello por escrito.
+
+ La naturaleza y el alcance de la evaluación de riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva deberán corresponder con la naturaleza y la dimensión de la actividad comercial del sujeto obligado.
+ (*) Notas: Ver en esta norma, artículo: 7 .
+ Artículo 5 Administración del riesgo. Los sujetos obligados deberán elaborar políticas y procedimientos para la administración del riesgo de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva de acuerdo a lo establecido en el presente decreto, que les permitan prevenir, detectar y reportar operaciones inusuales o sospechosas a la Unidad de Información y Análisis Financiero del Banco Central del Uruguay. A estos efectos razonablemente, tendrán que:
+
+ A) Identificar los riesgos inherentes a la respectiva actividad y categoría de clientes.
+
+ B) Evaluar sus posibilidades de ocurrencia e impacto.
+
+ C) Implementar medidas de control adecuadas para mitigar los diferentes tipos y niveles de riesgo identificados.
+
+ D) Monitorear en forma periódica y de acuerdo a la actividad específica del sujeto obligado los resultados de los controles aplicados y su grado de efectividad.
+ Artículo 6 Debida diligencia de clientes. Los sujetos obligados cuando así lo dispone el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberán definir e implementar las políticas y procedimientos de debida diligencia para todos sus clientes, de acuerdo a lo establecido en el presente decreto para cada sector de actividad, con la finalidad de obtener una adecuada identificación y conocimiento de sus clientes- incluyendo el beneficiario final de las transacciones si correspondiere- y atendiendo al volumen y a la índole de los negocios u otras actividades que estos desarrollen.
+ Artículo 7 Aplicación. Los procedimientos de debida diligencia de clientes señalados en el presente decreto para cada sector de actividad, se deberán aplicar a todos los nuevos clientes al establecer relaciones comerciales y a los clientes existentes, en función del análisis de riesgos realizado de conformidad con el artículo 4° de este decreto, y en todos los casos cuando se proceda a la contratación de nuevos productos o servicios, así como cuando se realicen transacciones ocasionales por encima de los umbrales designados para cada sector de actividad o se produzca una operación significativa por su complejidad.
+
+ De existir sospechas de lavado de activos, financiamiento del terrorismo o proliferación de armas de destrucción masiva, o dudas sobre la veracidad o suficiencia de los datos de conocimiento de cliente obtenidos previamente, deberán aplicarse los procedimientos de debida diligencia en todos los casos, independientemente de cualquier excepción, exención o umbral establecido.
+
+ La intervención de una institución financiera en una operación o actividad por la que el sujeto se convierte en obligado, no lo exime de la aplicación de los procedimientos de debida diligencia según lo establecido en el presente decreto para cada sector de actividad.
+ (*) Notas: Ver en esta norma, artículos: 22 , 52 , 53 y 64 .
+ Artículo 8 Oportunidad. La debida diligencia de cliente señalada en el presente decreto para cada sector de actividad, deberá realizarse en todos los casos antes o durante el establecimiento de la relación comercial o al realizar transacciones para clientes ocasionales.
+
+ Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva se puedan manejar con efectividad y resulte esencial para no interrumpir el normal desarrollo de la actividad, los sujetos obligados podrán completar la misma en un plazo razonable, de acuerdo a lo establecido en el presente decreto para cada sector.
+ (*) Notas: Ver en esta norma, artículo: 59 .
+ Artículo 9 Imposibilidad. Los sujetos obligados no establecerán relaciones de negocios ni ejecutarán operaciones cuando no puedan aplicar las medidas de debida diligencia previstas en el presente decreto para cada sector de actividad, sin perjuicio de lo previsto en los artículos 27, 38, 42 y 62 del presente decreto. Cuando se aprecie esta imposibilidad en el curso de la relación de negocios, los sujetos obligados pondrán fin a la misma y procederán a considerar la pertinencia de realizar un reporte de operación sospechosa ante la Unidad de Información y Análisis Financiero del Banco Central del Uruguay. A estos efectos, el sujeto obligado deberá evaluar si la intención del cliente es eludir la adecuada realización de la debida diligencia, utilizando criterios de razonabilidad. En el supuesto que considere que existe dicha intención, estará obligado a reportar la operación como sospechosa ante la UIAF.
+ Artículo 10 Enfoque basado en riesgos. Los sujetos obligados implementarán las medidas de debida diligencia previstas en el presente decreto para cada sector de actividad, utilizando un enfoque basado en riesgos. Es decir que, podrán determinar el grado de aplicación de dichas medidas en función del riesgo de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, atendiendo al tipo de cliente, relación de negocios, producto, operación o ubicación geográfica.
+
+ Las medidas de debida diligencia deben ser proporcionales a los riesgos identificados, cuando se identifiquen riesgos mayores se deberán tomar medidas de debida diligencia intensificada para administrar y mitigar dichos riesgos, cuando los riesgos sean menores se tomarán medidas de debida diligencia simplificada y ante riesgos normales debida diligencia normal.
+ (*) Notas: Ver en esta norma, artículos: 23 , 31 , 43 , 54 , 65 , 71 y 79 .
+ Artículo 11 Medidas de debida diligencia de cliente. En la aplicación de las medidas de debida diligencia de acuerdo a lo establecido en el presente decreto para cada sector de actividad, se deberá:
+
+ A) Identificar al cliente, ya sea persona física o jurídica, y verificar su identidad sobre la base de documentos, datos e información obtenida de fuentes confiables e independientes.
+
+ B) Identificar y verificar a la persona que dice actuar en nombre del cliente y verificar que esté autorizada para hacerlo, cuando aplique.
+
+ C) Identificar al beneficiario final y tomar medidas razonables para verificar su identidad. Se entiende por beneficiario final a la persona física que, directa o indirectamente, posea como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerza el control final sobre una entidad, considerándose tal a una persona jurídica, un fideicomiso, un fondo de inversión o cualquier otro patrimonio de afectación o estructura jurídica, con o sin personería jurídica. Se entenderá también por beneficiario final a la persona física que aporta los fondos para realizar una operación o en cuya representación se lleva a cabo una operación.
+
+ Se entiende como control final el ejercido directamente, o indirectamente a través de una cadena de titularidad o a través de cualquier otro medio de control.
+
+ En el caso de los fideicomisos o fondos de inversión no supervisados por el Banco Central del Uruguay debe identificarse a la o las personas físicas que cumplen con las condiciones dispuestas en los incisos precedentes en relación al fideicomitente, fiduciario y beneficiario, o de las entidades administradoras, según corresponda.
+
+ Se exceptúan de la obligación de identificar al beneficiario final, las entidades señaladas en los literales a), b), c) y h) del artículo 7° del Decreto N° 166/017 del 26 de junio de 2017.
+
+ D) Obtener información sobre el propósito de la relación comercial y la naturaleza de los negocios a desarrollar, con la extensión y profundidad que el sujeto obligado considere necesaria en función del riesgo que le asigne al cliente, relación comercial o tipo de transacción a realizar.
+
+ E) Realizar cuando corresponda y de acuerdo a un enfoque basado en riesgos, un seguimiento continuo de la relación comercial y examinar las transacciones para asegurarse que sean consistentes con la información disponible de conocimiento del cliente y el perfil de riesgo asignado al mismo.
+
+ F) Obtener una explicación razonable y/o justificación sobre el origen lícito de los fondos manejados en la operación, de corresponder conforme a la naturaleza de la misma.
+ (*) Notas: Ver en esta norma, artículos: 24 , 25 , 32 , 33 , 44 , 45 , 55 , 56 , 60 , 66 , 67 , 
+ 72 , 73 , 80 y 81 .
+ Artículo 12 Debida diligencia simplificada. La aplicación de medidas de debida diligencia simplificada de acuerdo a lo previsto en el capítulo correspondiente a cada sector, estará supeditada al cumplimiento de los siguientes criterios:
+
+ A) Que el cliente, producto u operación comporte efectivamente un riesgo reducido de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, de acuerdo con la evaluación de riesgos realizada por el sujeto obligado.
+
+ B) No se aplicarán o cesará su aplicación cuando el sujeto obligado tome conocimiento de que el cliente, producto u operación ya no comporta riesgos reducidos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva.
+
+ C) Sin perjuicio de lo señalado en los literales A) y B), cuando la relación de negocios con el cliente sea de carácter permanente, se deberá mantener en todo caso un seguimiento continuo suficiente para monitorear y verificar las listas de las Resoluciones del Consejo de Seguridad de Naciones Unidas sobre sanciones financieras relativas a la prevención y represión del terrorismo y su financiamiento y a la prevención, supresión e interrupción de la proliferación de armas de destrucción masiva.
+ Artículo 13 Debida diligencia intensificada. Se deberán tomar medidas de debida diligencia intensificada de acuerdo a lo previsto en el capítulo correspondiente a cada sector, para las categorías de clientes, relaciones comerciales u operaciones de mayor riesgo, tales como:
+
+ A) Relaciones comerciales y operaciones con clientes no residentes que provengan de países que no son miembros del Grupo de Acción Financiera Internacional (GAFI) o de alguno de los grupos regionales de similar naturaleza tales como: Grupo de Acción Financiera de Latinoamérica (Gafilat), Grupo de Acción Financiera del Caribe (Gafic), Grupo de prevención del blanqueo de capitales de África del Sur y del Este (Menafatf) y Grupo Asia/Pacífico en materia de Blanqueo de Capitales (APG); o de países que estén siendo objeto de medidas especiales por parte de estos grupos por no aplicar las recomendaciones del GAFI o no aplicarlas suficientemente.
+
+ B) Relaciones comerciales y operaciones con clientes no residentes que provengan de países sujetos a sanciones o contramedidas financieras emitidas por organismos como el Consejo de Seguridad de Naciones Unidas.
+
+ C) Relaciones comerciales y operaciones con personas físicas o jurídicas residentes, domiciliadas, constituidas o ubicadas en países, jurisdicciones o regímenes especiales de baja o nula tributación, de acuerdo con la lista que emite la Dirección General Impositiva.
+
+ D) Operaciones que no impliquen la presencia física de las partes o de quienes los representen.
+
+ E) Utilización de tecnologías nuevas o en desarrollo que favorezcan el anonimato en las transacciones.
+
+ F) Personas políticamente expuestas, su cónyuge, concubino y sus parientes por consanguinidad o afinidad hasta el segundo grado, así como los asociados cercanos a ellas cuando estos sean de público conocimiento y quienes realicen operaciones en su nombre.
+
+ G) Negocios en que se utilizan cuantías elevadas de efectivo.
+
+ H) Personas jurídicas con acciones al portador, en caso que existan dificultades para identificar el beneficiario final a través de información incluida en un Registro Oficial.
+
+ I) Los fideicomisos cuya estructura aparente ser inusual o excesivamente compleja, para determinar su estructura de control y sus beneficiarios finales.
+
+ J) Relaciones comerciales que se realizan en circunstancias inusuales conforme a los usos y costumbres de la respectiva actividad.
+
+ K) Otras situaciones que conforme al análisis de riesgos elaborado por el sujeto obligado, resulten ser de mayor riesgo y por tanto requieran la aplicación de medidas de debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 14 , 24 , 32 , 35 , 44 , 47 , 55 , 58 , 60 , 66 , 72 y 
+ 80 .
+ Artículo 14 Personas políticamente expuestas. A efectos de dar cumplimiento con lo establecido en el literal F) del artículo anterior, se entiende por personas políticamente expuestas a aquellas que desempeñan o han desempeñado en los últimos cinco años contados desde el cese del cargo, funciones públicas de importancia en el país o en el extranjero, tales como: jefes de Estado o de Gobierno, políticos de jerarquía, funcionarios gubernamentales, judiciales o militares de alta jerarquía, representantes y senadores del poder legislativo, dirigentes de jerarquía de partidos políticos, directores y altos ejecutivos de empresas estatales y otras entidades públicas.
+
+ También se entiende como personas políticamente expuestas a aquellas personas que desempeñan o han desempeñado en los últimos cinco años contados desde el cese del cargo, una función de jerarquía en un organismo internacional de derecho internacional público, como ser: miembros de la alta gerencia, directores, subdirectores, miembros de la Junta o funciones equivalentes.
+
+ Se considera de jerarquía a aquella persona que ejerce el cargo más alto dentro de su grupo o entidad.
+
+ Con respecto a las personas políticamente expuestas, los sujetos obligados señalados en el presente decreto, de acuerdo a un enfoque basado en riesgos y en cuanto sea aplicable al sector al que pertenezcan, deberán:
+
+ A) Adoptar procedimientos adecuados para determinar si el cliente o el beneficiario final es una persona políticamente expuesta.
+
+ B) Obtener la aprobación de la alta gerencia para establecer (o continuar, en el caso de los clientes existentes) dichas relaciones comerciales.
+
+ C) Tomar medidas razonables para establecer el origen de los fondos.
+
+ D) Realizar un seguimiento intensificado de la relación comercial.
+ (*) Notas: Ver en esta norma, artículos: 24 , 32 , 44 , 55 , 60 , 66 , 72 y 80 .
+ Artículo 15 Conservación de registros. Los sujetos obligados dentro de los límites establecidos en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberán conservar los registros y la documentación respaldante de todas las operaciones realizadas con sus clientes o para sus clientes, tanto nacionales como internacionales, las evaluaciones de riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, así como los procedimientos de debida diligencia realizados de acuerdo a lo previsto en el capítulo correspondiente a cada sector de actividad, y toda la información y documentación obtenida, por un plazo mínimo de cinco años después de terminada la relación comercial o de concretada la operación ocasional.
+
+ Los registros de las operaciones y de la información obtenida y confeccionada en el proceso de debida diligencia deberán ser suficientes para permitir la reconstrucción de las operaciones individuales y constituir elementos de prueba en sede jurisdiccional, en caso de ser necesario. Excluyéndose si existieren, los reportes de operaciones sospechosas realizados.
+
+ Estos registros y la documentación respaldante de las operaciones, las evaluaciones de riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva y los procedimientos de debida diligencia y documentación acreditante, se deberán poner a disposición de la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y del tribunal penal o la fiscalía penal competente según corresponda, a su requerimiento. Asimismo, deberán ser conservados en el domicilio en que el sujeto obligado desarrolla su actividad, admitiéndose la fotocopia, fotografía, grabación, copia magnética o cualquier otro medio de reproducción de los mismos, siempre y cuando se conserven en formatos que aseguren su integridad, permitan la reconstrucción de operaciones individuales con la suficiente rapidez y que estén a disposición del supervisor, cuando este lo requiera.
+ (*) Notas: Ver en esta norma, artículo: 84 .
+ Artículo 16 Oficial de cumplimiento. Los sujetos obligados dentro de los límites establecidos en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberán designar a una persona encargada de impulsar la implementación de los procedimientos y las obligaciones establecidas en el presente decreto. Esta persona será el enlace con la Unidad de Información y Análisis Financiero, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y otras autoridades competentes.
+
+ La función del oficial de cumplimiento podrá recaer en la propia persona del sujeto obligado.
+
+ Sin perjuicio de lo establecido anteriormente, la responsabilidad del cumplimiento de las disposiciones establecidas en el presente decreto permanecerá en el sujeto obligado, de conformidad con lo previsto en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017.
+ Artículo 17 Funciones del oficial de cumplimiento. Son funciones del oficial de cumplimiento:
+
+ A) Revisar periódicamente las políticas, procedimientos y controles implementados para cumplir con las disposiciones para la prevención del lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva previstas en el presente decreto.
+
+ B) Proponer las medidas a aplicar a los fines de mitigar el riesgo de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva.
+
+ C) Proponer mecanismos de alerta y procedimientos que sirvan para futuras operaciones, sugiriendo su incorporación en las políticas internas y en los programas de capacitación sobre temas relacionados.
+
+ D) Colaborar en la elaboración de los reportes de operación sospechosa para su remisión a la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+
+ E) Coordinar planes de capacitación referentes al lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva para el personal que corresponda, según lo establecido en el artículo siguiente.
+
+ F) Verificar el cumplimiento y los resultados obtenidos de la aplicación de los programas de prevención de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva.
+
+ El oficial de cumplimiento tendrá absoluta independencia y autonomía para el ejercicio de las responsabilidades y funciones que se le asignan, debiendo garantizársele acceso irrestricto a toda la información que requiera en cumplimiento de las mismas.
+ Artículo 18 Capacitaciones. Los sujetos obligados dentro de los límites establecidos en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, que tengan personal a su cargo, deberán capacitar periódicamente al personal que participa en las actividades u operaciones establecidas en el artículo 13 de la precitada ley, de modo que les permita conocer la normativa en la materia, reconocer las operaciones que puedan estar relacionadas con el lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva y la forma de proceder en cada situación.
+ Artículo 19 Delegación. Los sujetos obligados dentro de los límites establecidos en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, podrán delegar en terceros que también sean sujetos obligados por el artículo 13 de la ley que se reglamenta, la realización de los procedimientos de debida diligencia de clientes que correspondieran por el sector de actividad al que pertenecen, en las siguientes condiciones:
+
+ A) La debida diligencia efectuada y la información obtenida y confeccionada en dicho proceso deberán ser proporcionados al sujeto obligado delegante en forma inmediata y conservados en el domicilio en que este desarrolla su actividad.
+
+ B) La responsabilidad final de la realización de las medidas de debida diligencia y la obligación de reportar conforme a lo establecido en el presente decreto, permanece en el sujeto obligado delegante, al que en caso de incumplimiento se le aplicarán las sanciones previstas en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017.
+ Artículo 20 Solicitud de información. La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo podrá solicitar informes, antecedentes y todo elemento que estime útil para el cumplimiento de sus funciones a los sujetos obligados señalados en el presente decreto, de conformidad con lo establecido en el artículo 6° de la Ley N° 19.574, de 20 de diciembre de 2017.
+
+ Asimismo requerirá de cada una de las categorías de sujetos obligados, la presentación periódica de información sobre diversos aspectos vinculados a su actividad u operativa, de acuerdo a lo establecido en el artículo 13 de la precitada ley, a efectos de evaluar y monitorear los riesgos de lavado de activos y financiamiento del terrorismo de los supervisados.
+
+ Los sujetos obligados que no cumplan con la obligación de proporcionar la información que les sea requerida de acuerdo a lo dispuesto en este artículo, serán pasibles de las sanciones previstas en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017.
+
+ La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo determinará la forma en la que se dará cumplimiento con lo previsto en el presente artículo.
+ CAPÍTULO III - SECTOR CASINOS Artículo 21 Sujetos obligados. Todos los casinos deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+ (*) Notas: Ver en esta norma, artículos: 22 , 24 , 25 y 70 .
+ Artículo 22 Umbrales mínimos. Los sujetos mencionados en el artículo anterior, aplicarán los procedimientos de debida diligencia cuando realicen operaciones con sus clientes, tales como: compra o canje de fichas y/o tickets, apertura de cuentas, transferencia de fondos y cambio de moneda por un monto superior a USD 3.000 (tres mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+
+ Serán consideradas como una sola operación las operaciones múltiples que en su conjunto superen el monto referido en el inciso anterior, cuando de cualquier forma el casino tome conocimiento de que son realizadas por o en beneficio de una misma persona física o jurídica.
+
+ Conforme a lo establecido en el inciso segundo del artículo 7° del presente decreto, no regirá el umbral señalado, cuando existan sospechas de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, o dudas sobre la veracidad o suficiencia de los datos de conocimiento de cliente obtenidos previamente.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 23 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 24 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 21 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir copia simple del certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 26 y 70 .
+ Artículo 25 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 21 del presente decreto, podrán aplicar cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean menores y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada, los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente, reducir el grado de seguimiento continuo y el examen de las operaciones basado en un umbral monetario razonable acorde a su actividad, respecto de los clientes que sean considerados frecuentes por asistir en forma asidua al respectivo casino.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 26 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 24 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+
+ B) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 24 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ C) Obtener una declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ D) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 27 Negativa del cliente a proporcionar información. En caso de omisión o negativa del cliente a proporcionar la información requerida para cumplir con los procedimientos de debida diligencia establecidos en el presente capítulo, y que por razones jurídicamente justificadas sea necesario completar la transacción en curso, el sujeto obligado la completará, debiendo evaluar si la intención del cliente es eludir la adecuada realización de la debida diligencia, utilizando criterios de razonabilidad. En el supuesto que considere que existe dicha intención, estará obligado a reportar la operación como sospechosa ante la UIAF.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 28 Medidas especiales. En caso de que el casino reciba sumas de dinero a través del sistema financiero para ser utilizadas en el juego, cuando el cliente solicite el reintegro de la porción no perdida en el mismo, dicha suma deberá ser reintegrada al cliente de la misma forma en que el casino la percibió.
+
+ En caso de que el casino reciba sumas de dinero en efectivo para ser utilizadas en el juego, cuando el cliente solicite el reintegro de la porción no perdida en el mismo, dicha suma deberá ser reintegrada al cliente únicamente en efectivo.
+
+ Solo se podrá ordenar una transferencia bancaria o emitir un cheque por parte del casino a favor de un cliente, para el pago del monto que deriva de una ganancia neta de juego registrada al final de una visita o para el pago de premios resultantes de torneos de juego específicos organizados por el propio casino.
+
+ Los casinos podrán emitir certificados de ganancias dirigidos a la institución solicitante, únicamente por la ganancia derivada del juego en una visita en particular. (*) Notas: Ver en esta norma, artículo: 70 .
+ CAPÍTULO IV - SECTOR INMOBILIARIO Artículo 29 Sujetos obligados. Las inmobiliarias, promotores inmobiliarios, empresas constructoras y otros intermediarios en transacciones que involucren inmuebles, con excepción de los arrendamientos, cualquiera sea la forma jurídica que adopten, deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+
+ Se entienden comprendidos en el concepto de otros intermediarios en transacciones que involucren inmuebles en especial, los fiduciarios, los fundadores y los directores de sociedades anónimas dedicados a esa actividad.
+ (*) Notas: Ver en esta norma, artículos: 30 , 32 , 33 y 70 .
+ Artículo 30 Aplicación. Los sujetos mencionados en el artículo anterior, aplicarán los procedimientos de debida diligencia de clientes en todos los casos, independientemente del monto de la operación, utilizando un enfoque basado en riesgos, de acuerdo a lo previsto en los artículos siguientes.
+
+ Las inmobiliarias deberán aplicar dichos procedimientos tanto respecto a los compradores como a los vendedores de bienes inmuebles, sin perjuicio de lo previsto en el artículo 36 del presente decreto. Se entenderá que una persona utiliza el servicio puesto a disposición por la inmobiliaria, de conformidad con la definición de cliente establecida en el artículo 1° del presente decreto, únicamente a partir del momento en que dicha persona toma contacto directo con la inmobiliaria y le manifiesta de forma real e inequívoca su intención de utilizar el servicio específico ofrecido por esta, pudiendo ello verse reflejado o no, en un documento o acuerdo escrito.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 31 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 32 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 29 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir copia simple del certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción. No se exigirá recabar esta información respecto de los vendedores de bienes inmuebles.
+
+ Para el caso de operaciones de compraventa de bienes inmuebles en donde el comprador abone todo o parte del precio mediante un crédito con garantía hipotecaria otorgado por una institución de intermediación financiera, a los efectos del presente numeral bastará con que se acrediten tales extremos, aplicándosele los restantes controles únicamente respecto del saldo de precio no cubierto por el referido crédito, si correspondiere.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 34 y 70 .
+ Artículo 33 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 29 del presente decreto, podrán aplicar cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean menores y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir razonablemente el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 34 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 32 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 32 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Obtener una declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 35 Umbral para la debida diligencia intensificada. Sin perjuicio de la debida diligencia intensificada que corresponda realizar de acuerdo a lo establecido en el artículo 13 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán intensificar los procedimientos de debida diligencia de acuerdo a lo establecido en el artículo anterior, cuando la operación se realice en efectivo, cualquiera sea el monto de la misma, teniendo en cuenta lo establecido en el artículo 9° del Decreto N° 351/017, de 19 de diciembre de 2017, y para transacciones que se realicen utilizando instrumentos bancarios, cuando el monto sea superior a USD 300.000 (trescientos mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 36 Situaciones especiales. En aquellas operaciones en las que intervenga una inmobiliaria por la parte compradora y otra por la vendedora, cada una deberá hacer la debida diligencia únicamente respecto de su cliente.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 37 Industria de la Construcción. En aquellas operaciones desarrolladas por los sujetos obligados señalados en el presente capítulo, que se encuentren comprendidas en la definición de obra pública conforme a lo dispuesto por el artículo 1° del Decreto N° 192/985, de 20 de mayo de 1985 y el literal A) del glosario del Decreto N° 257/015, de 23 de setiembre de 2015, la debida diligencia de cliente deberá acreditar fehacientemente que se trata de una obra pública, de acuerdo a la definición dada por los precitados decretos, no siendo necesario obtener información adicional una vez completado dicho requerimiento.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 38 Negativa del cliente a proporcionar información. En caso de omisión o negativa de los intervinientes en la operación a proporcionar la información requerida para cumplir con los procedimientos de debida diligencia establecidos en el presente capítulo, el sujeto obligado no establecerá una relación de negocios ni ejecutará la operación de que se trate, procediendo a considerar la pertinencia de realizar un reporte de operación sospechosa ante la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+
+ A esos efectos, el sujeto obligado deberá evaluar si la intención del cliente es eludir la adecuada realización de la debida diligencia, utilizando criterios de razonabilidad. En el supuesto que considere que existe dicha intención, estará obligado a reportar la operación como sospechosa ante la UIAF.
+
+ Cuando por razones jurídicamente justificadas sea necesario completar la transacción en curso, el sujeto obligado la completará y, realizará un reporte de operación sospechosa a la Unidad de Información y Análisis Financiero.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ CAPÍTULO V - SECTOR ABOGADOS, ESCRIBANOS, CONTADORES Y OTRAS PERSONAS FÍSICAS O JURÍDICAS QUE REALICEN DETERMINADAS ACTIVIDADES Artículo 39 Sector abogados como sujetos obligados. Deberán cumplir e implementar las disposiciones del presente decreto y las instrucciones que emitan cuando corresponda, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, los abogados únicamente cuando actúen a nombre y por cuenta de sus clientes en las operaciones que a continuación se detallan y en ningún caso por cualquier tipo de asesoramiento que den a sus clientes:
+
+ A) Promesas, cesiones de promesas o compraventas de bienes inmuebles.
+
+ B) Administración del dinero, valores u otros activos del cliente, excluyéndose los fondos recibidos para el pago de obligaciones tributarias o gastos similares.
+
+ C) Administración de cuentas bancarias, de ahorro o valores, excluyéndose los fondos recibidos para el pago de obligaciones tributarias o gastos similares.
+
+ D) Organización de aportes para la creación, operación o administración de sociedades.
+
+ E) Creación, operación o administración de personas jurídicas, fideicomisos, fondos de inversión u otros patrimonios de afectación.
+
+ F) Promesas, cesiones de promesas o compraventa de establecimientos comerciales.
+
+ G) Actuación por cuenta y orden de clientes en cualquier operación financiera o inmobiliaria.
+
+ H) Las actividades descriptas en el artículo 77 del presente decreto. Tratándose de venta de personas jurídicas, fideicomisos u otros institutos jurídicos, estarán obligados tanto cuando actúen a nombre propio como a nombre y por cuenta de un cliente.
+
+ Los abogados que no participen en la realización de al menos una de las actividades señaladas precedentemente en los literales A) al H), no ostentarán la calidad de sujetos obligados. No obstante, la misma se activa inmediatamente que realicen alguna de las actividades descriptas.
+
+ Las referencias hechas en el presente artículo a los abogados como sujetos obligados, deben entenderse hechas al profesional que actúa en calidad de independiente no sujeto a exclusividad de sus servicios profesionales y a los socios o propietarios de una firma de servicios profesionales, pero no comprenderán a aquellas personas físicas que brinden los servicios enumerados en los literales precedentes bajo una relación de dependencia laboral, o bien fuera de la misma pero prestando sus servicios a una firma de servicios profesionales, sin perjuicio de la responsabilidad que sea imputable a los dependientes o a estos últimos en caso que no cumplan las normas para prevenir y combatir el lavado de activos y el financiamiento del terrorismo, establecidas por los propietarios, socios o principales de la firma o empresa de que se trate, la que no exime al sujeto obligado de la eventual responsabilidad que pudiera corresponder.
+ (*) Notas: Ver en esta norma, artículos: 43 , 44 , 45 , 46 , 47 y 70 .
+ Artículo 40 Sector escribanos y otras personas físicas o jurídicas como sujetos obligados. Deberán cumplir e implementar las disposiciones del presente decreto y las instrucciones que emitan cuando corresponda, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, los escribanos o cualquier otra persona física o jurídica, cuando participen en la realización de las siguientes operaciones para sus clientes y en ningún caso por cualquier tipo de asesoramiento que les presten:
+
+ A) Promesas, cesiones de promesas o compraventas de bienes inmuebles respecto de los promitentes compradores, cesionarios o compradores.
+ Se excluyen las compraventas de bienes inmuebles y las resultantes de escrituraciones judiciales, efectuadas en cumplimiento de promesas de compraventas ya realizadas por el mismo escribano, sin perjuicio de la actualización de la debida diligencia que correspondiera realizar según el riesgo, en especial respecto a la verificación de las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas y la búsqueda de antecedentes de las personas físicas o jurídicas, de acuerdo a lo previsto en los numerales 3) y 4) del literal C) del artículo 44 y literal G) del artículo 45 del presente decreto.
+
+ B) Administración del dinero, valores u otros activos del cliente, excluyéndose los fondos recibidos en concepto de seña, depósito en garantía o para el pago de obligaciones tributarias o gastos similares.
+
+ C) Administración de cuentas bancarias, de ahorro o valores, excluyéndose los fondos recibidos para el pago de obligaciones tributarias o gastos similares.
+
+ D) Organización de aportes para la creación, operación o administración de sociedades.
+
+ E) Creación, operación o administración de personas jurídicas, fideicomisos, fondos de inversión u otros patrimonios de afectación.
+
+ F) Promesas, cesiones de promesas o compraventa de establecimientos comerciales respecto de los promitentes compradores, cesionarios o compradores.
+
+ Se excluyen las compraventas de establecimientos comerciales y las resultantes de escrituraciones judiciales, efectuadas en cumplimiento de promesas de compraventas ya realizadas por el mismo escribano, sin perjuicio de la actualización de la debida diligencia que correspondiera realizar según el riesgo, en especial respecto a la verificación de las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas y la búsqueda de antecedentes de las personas físicas o jurídicas, de acuerdo a lo previsto en los numerales 3) y 4) del literal C) del artículo 44 y literal G) del artículo 45 del presente decreto.
+
+ G) Actuación por cuenta y orden de clientes en cualquier operación financiera o inmobiliaria.
+
+ H) Las actividades descriptas en el artículo 77 del presente decreto.
+ Los escribanos que no participen en la realización de al menos una de las actividades señaladas precedentemente en los literales A) al H), no ostentarán la calidad de sujetos obligados. No obstante, la misma se activa inmediatamente que realicen alguna de las actividades descriptas.
+ (*) Notas: Ver en esta norma, artículos: 43 , 46 , 47 y 70 .
+ Artículo 41 Sector contadores públicos y otras personas físicas o jurídicas como sujetos obligados. Deberán cumplir e implementar las disposiciones del presente decreto y las instrucciones que emitan cuando corresponda, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, los contadores públicos y otras personas físicas o jurídicas, que actúen en calidad de independientes y que participen en la realización de las siguientes operaciones o actividades para sus clientes y en ningún caso por cualquier tipo de asesoramiento que les presten:
+
+ A) Actuación por cuenta y orden de sus clientes en promesas, cesiones de promesas o compraventas de bienes inmuebles.
+
+ B) Administración del dinero, valores u otros activos del cliente, excluyéndose los fondos recibidos para el pago de obligaciones tributarias o gastos similares.
+
+ C) Administración de cuentas bancarias, de ahorro o valores, excluyéndose los fondos recibidos para el pago de obligaciones tributarias o gastos similares.
+
+ D) Organización de aportes para la creación, operación o administración de sociedades.
+
+ E) Creación, operación o administración de personas jurídicas, fondos de inversión u otros patrimonios de afectación.
+
+ F) Actuación por cuenta y orden de sus clientes en promesas, cesiones de promesas o compraventa de establecimientos comerciales.
+
+ G) Actuación por cuenta y orden de clientes en cualquier operación financiera o inmobiliaria.
+
+ H) Las actividades descriptas en el artículo 77 del presente decreto.
+
+ I) Confección de informes de revisión limitada de estados contables, siempre y cuando el ente sujeto a revisión cumpla con al menos una de las siguientes condiciones: a) Que su facturación anual entendida como las ventas netas de devoluciones y/o bonificaciones, excluido el Impuesto al Valor Agregado, supere las U.I. 75.000.000 en el ejercicio anual. b) Que su endeudamiento total con entidades controladas por el Banco Central del Uruguay, en cualquier momento del ejercicio, sea mayor o igual a U.I. 19.500.000.
+
+ Se entiende por ingresos a las ventas de bienes de cambio y prestación de servicios netos de devoluciones y/o bonificaciones, excluido el Impuesto al Valor Agregado.
+
+ J) Confección de informes de auditoría de estados contables.
+ En atención a que la confección de informes de revisión limitada de estados contables y la confección de informes de auditoría de estados contables no tienen por objetivo la identificación de transacciones inusuales o sospechosas relacionadas con la prevención de los delitos de lavado de activos y financiamiento del terrorismo, se establece a título expreso que la responsabilidad de reportar dichas transacciones, de acuerdo con lo dispuesto en los numerales 9) y 10) del literal J) del artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, se refiere únicamente a aquellas situaciones de las cuales el profesional involucrado pueda tomar conocimiento en el marco de la realización del correspondiente trabajo profesional sobre los estados contables, no debiendo ejecutar tareas adicionales específicas vinculadas con la prevención del lavado de activos y financiamiento del terrorismo, sin perjuicio del cumplimiento de las medidas de debida diligencia de clientes que correspondan.
+
+ Los contadores públicos que no participen en la realización de al menos una de las actividades señaladas precedentemente en los literales A) a J), no ostentarán la calidad de sujetos obligados. No obstante, la misma se activa inmediatamente a que realicen alguna de las actividades descriptas.
+
+ La actuación en calidad de independiente comprende tanto al trabajador que actúa por cuenta propia como al empleador o patrón que habiendo asumido un compromiso con su cliente contrate a otro profesional independiente en quien delegue la ejecución de las actividades, excluyendo en todo caso a quienes se encuentran en relación de dependencia y a los contadores independientes que actúen al servicio de otro profesional ejecutando las tareas que le fueron delegadas, sin perjuicio de la responsabilidad que sea imputable a los dependientes o a estos últimos en caso que no cumplan las normas para prevenir y combatir el lavado de activos y el financiamiento del terrorismo, establecidas por los propietarios, socios o principales de la firma o empresa de que se trate, la que no exime al sujeto obligado de la eventual responsabilidad que pudiera corresponder.
+
+ En caso de que el profesional esté organizado como sociedad profesional, cuando se trate del servicio de confección de informes de revisión limitada de estados contables y/o de auditoría de estados contables, el sujeto obligado será el profesional firmante del respectivo informe.
+ (*) Notas: Ver en esta norma, artículos: 43 , 44 , 45 , 46 , 47 y 70 .
+ Artículo 42 Aplicación. Los sujetos obligados mencionados en el presente capítulo, aplicarán los procedimientos de debida diligencia de clientes en todos los casos, casos, independientemente del monto de la operación, utilizando un enfoque basado en riesgos, de acuerdo a lo previsto en el artículo siguiente.
+
+ En caso de omisión o negativa de los intervinientes en la operación a proporcionar la información requerida para cumplir con los procedimientos de debida diligencia establecidos en el presente decreto, el sujeto obligado no establecerá una relación de negocios ni ejecutará la operación de que se trate, procediendo a considerar la pertinencia de realizar un reporte de operación sospechosa ante la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+
+ A esos efectos, el sujeto obligado deberá evaluar si la intención del cliente es eludir la adecuada realización de la debida diligencia, utilizando criterios de razonabilidad. En el supuesto que considere que existe dicha intención, estará obligado a reportar la operación como sospechosa ante la UIAF.
+
+ En caso que la referida omisión o negativa se verifique en el marco de una operación inmobiliaria, cuando por razones jurídicamente justificadas sea necesario completar la transacción en curso, el sujeto obligado la completará y, realizará un reporte de operación sospechosa a la Unidad de Información y Análisis Financiero.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 43 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en los artículos 39, 40 y 41 del presente decreto, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 44 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en los artículos 39, 40 y 41 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos y documento de identidad de los directores, copia del contrato social y número de RUT.
+
+ 2) Documento que acredite la representación de la sociedad, identificando al representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a lo dispuesto en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, SIRES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+ Para el caso de operaciones de compraventa de bienes inmuebles en donde el comprador abone todo o parte del precio mediante un crédito con garantía hipotecaria otorgado por una institución de intermediación financiera, a los efectos del presente numeral bastará con que se acrediten tales extremos, aplicándosele los restantes controles únicamente respecto del saldo de precio no cubierto por el referido crédito, si correspondiere.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 46 y 70 .
+ Artículo 45 Información debida diligencia simplificada. Los sujetos obligados señalados en los artículos 39, 40 y 41 del presente decreto, podrán aplicar en función del riesgo bajo asignado y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a lo dispuesto en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir razonablemente el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 46 Información debida diligencia intensificada. Los sujetos obligados señalados en los artículos 39, 40 y 41 del presente decreto, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 44 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 44 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 47 Umbral para la debida diligencia intensificada. Sin perjuicio de la debida diligencia intensificada que corresponda realizar de acuerdo a lo establecido en el artículo 13 de este decreto, los sujetos obligados señalados en el artículo 39, 40 y 41 del presente decreto, cuando lleven a cabo para sus clientes las operaciones descriptas en los literales A) y F) deberán intensificar los procedimientos de debida diligencia de acuerdo a lo establecido en el artículo anterior, cuando la operación se realice en efectivo, cualquiera sea el monto de la misma, teniendo en cuenta lo establecido en el artículo 9° del Decreto N° 351/017, de 19 de diciembre de 2017, y para transacciones que se realicen utilizando instrumentos bancarios cuando el monto de la operación sea superior a USD 300.000 (trescientos mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 48 Proveedores de servicios. Cuando los sujetos obligados señalados en el presente capítulo participen en la realización de alguna de las actividades descriptas en el artículo 77 del presente decreto, deberán aplicar las disposiciones del capítulo IX de este decreto.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 49 Medidas especiales. Los escribanos deberán dejar constancia de haber aplicado las medidas de debida diligencia correspondientes, en el instrumento que documenta la operación en la que intervienen.
+
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ CAPÍTULO VI - SECTOR REMATADORES Artículo 50 Sujetos obligados. Los rematadores, según lo establecido en los artículos 51, 52 y 53, deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+ (*) Notas: Ver en esta norma, artículos: 55 , 56 y 70 .
+ Artículo 51 Remate de bienes inmuebles. Los rematadores aplicarán los procedimientos de debida diligencia señalados en el presente capítulo, cuando efectúen ventas en remate público de bienes inmuebles en todos los casos, independientemente del monto de la operación, utilizando un enfoque basado en riesgos de acuerdo a lo previsto en el artículo 54 de este decreto.
+ (*) Notas: Ver en esta norma, artículos: 58 , 60 y 70 .
+ Artículo 52 Remate de antigüedades, obras de arte, metales y piedras preciosas. Los rematadores aplicarán los procedimientos de debida diligencia señalados en el presente capítulo, utilizando un enfoque basado en riesgos de acuerdo a lo previsto en el artículo 54, cuando efectúen ventas en remate público de antigüedades, obras de arte, metales y piedras preciosas por valores superiores a USD 15.000 (quince mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+
+ Serán consideradas como una sola operación las operaciones múltiples que en su conjunto superen el monto referido en el inciso anterior en el período de un año calendario, cuando se determine que los bienes objeto de la subasta son adquiridos por o en beneficio de una misma persona física o jurídica.
+
+ Conforme a lo establecido en el inciso segundo del artículo 7° del presente decreto, no regirá el umbral señalado, cuando existan sospechas de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, o dudas sobre la veracidad o suficiencia de los datos de conocimiento de cliente obtenidos previamente.
+ (*) Notas: Ver en esta norma, artículos: 58 , 60 y 70 .
+ Artículo 53 Remates ganaderos. Tratándose de rematadores que efectúen ventas en remate público de ganado por un monto inferior a USD 150.000 (ciento cincuenta mil dólares de los Estados Unidos de América) o su equivalente en otras monedas, sea por realizar una operación aislada u operaciones múltiples en beneficio de una misma persona física o jurídica, que en su conjunto no superen el monto antes referido en el transcurso de un año calendario, la debida diligencia de cliente podrá estar conformada por la boleta de pista y la proforma emitidas al momento de realizarse el remate, así como la verificación de las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas y la búsqueda de antecedentes de las personas físicas o jurídicas, de acuerdo a lo previsto en los numerales 3) y 4) del literal C) del artículo 55 del presente decreto, no siendo necesario obtener información adicional una vez completado dicho requerimiento. De superarse la cifra antes señalada, se deberá cumplir con los procedimientos establecidos en los artículos 55 o 57 de este decreto, según el riesgo de que se trate.
+
+ Conforme a lo establecido en el inciso segundo del artículo 7° del presente decreto, no regirá el umbral señalado, cuando existan sospechas de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, o dudas sobre la veracidad o suficiencia de los datos de conocimiento de cliente obtenidos previamente.
+ (*) Notas: Ver en esta norma, artículos: 58 , 60 y 70 .
+ Artículo 54 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 55 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 50 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+
+ Los mismos recaudas antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir certificada de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 57 , 59 y 70 .
+ Artículo 56 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 50 del presente decreto, podrán aplicar cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean menores y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir razonablemente el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ (*) Notas: Ver en esta norma, artículos: 59 y 70 .
+ Artículo 57 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar, tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 55 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 55 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Obtener una declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ (*) Notas: Ver en esta norma, artículos: 59 y 70 .
+ Artículo 58 Umbral para la debida diligencia intensificada. Sin perjuicio de la debida diligencia intensificada que corresponda realizar de acuerdo a lo establecido en el artículo 13 del presente decreto, los sujetos obligados según lo establecido en los artículos 51, 52 y 53 del presente decreto, deberán intensificar los procedimientos de debida diligencia de acuerdo a lo establecido en el artículo anterior, cuando efectúen ventas en remate público por un monto superior a USD 300.000 (trescientos mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 59 Oportunidad. La debida diligencia de cliente que corresponda realizar de acuerdo a lo establecido en los artículos anteriores, podrá completarse en forma posterior a la ejecución del remate, dentro de un plazo máximo de 20 días hábiles contados a partir del primer día hábil siguiente de producido el mismo, de acuerdo a lo establecido en el inciso segundo del artículo 8° del presente decreto.
+ (*) Notas: Ver en esta norma, artículos: 60 y 70 .
+ Artículo 60 Remates judiciales. Tratándose de remates judiciales respecto de los bienes y de acuerdo a los montos establecidos en los artículos 51, 52 y 53 del presente decreto, la debida diligencia de cliente consistirá en completar un formulario que contenga los siguientes datos del cliente:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Tipo y N° de documento de identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y N° de documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, N° de documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante persona física o jurídica, conforme a lo establecido en el literal A) del presente artículo.
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, solicitar los datos identificatorios de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y a la definición dada en el literal C) del artículo 11 del presente decreto.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto.
+
+ De acuerdo a lo establecido en el artículo 59 del presente decreto, tratándose de los numerales anteriores 3) y 4) se admitirá la verificación de las listas y la realización de las búsquedas de antecedentes, en forma posterior dentro del plazo establecido en el precitado artículo.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 61 Medidas especiales. En aquellos casos en que sea posible, los sujetos obligados señalados en el presente capítulo, podrán solicitar en las condiciones o bases en las que el remate se hace público, la información de la debida diligencia de cliente que corresponda realizar según el riesgo.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 62 Negativa de los intervinientes a proporcionar información. En caso de omisión o negativa de los intervinientes en la operación a proporcionar la información requerida para cumplir con los procedimientos de debida diligencia establecidos en el presente capítulo, y que por razones justificadas se hubiere completado la operación, el sujeto obligado deberá evaluar si la intención del cliente es eludir la adecuada realización de la debida diligencia, utilizando criterios de razonabilidad. En el supuesto que considere que existe dicha intención, estará obligado a reportar la operación como sospechosa ante la Unidad de Información y Análisis Financiero. (*) Notas: Ver en esta norma, artículo: 70 .
+ CAPÍTULO VII - SECTOR COMERCIANTES DE ANTIGUEDADES, OBRAS DE ARTE, Y METALES Y PIEDRAS PRECIOSAS Artículo 63 Sujetos obligados. Las personas físicas o jurídicas dedicadas a la intermediación o mediación en operaciones de compraventa de antigüedades, obras de arte, y metales y piedras preciosas, deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+ (*) Notas: Ver en esta norma, artículos: 64 , 66 , 67 y 70 .
+ Artículo 64 Umbrales mínimos. Los sujetos mencionados en el artículo anterior, aplicarán los procedimientos de debida diligencia cuando realicen operaciones con un cliente por un monto igual o superior a USD 15.000 (quince mil dólares de los Estados Unidos de América) o su equivalente en otras monedas.
+
+ Serán consideradas como una sola operación las operaciones múltiples que en su conjunto superen el monto referido en el inciso anterior en el período de un año calendario, cuando se determine que son realizadas por o en beneficio de una misma persona física o jurídica.
+
+ Conforme a lo establecido en el segundo inciso del artículo 7° del presente decreto, no regirá el umbral señalado, cuando existan sospechas de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, o dudas sobre la veracidad o suficiencia de los datos de conocimiento de cliente obtenidos previamente.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 65 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 66 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 63 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+ Los mismos recaudas antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia ser admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 68 y 70 .
+ Artículo 67 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 63 del presente decreto, podrán aplicar cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean menores y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ Artículo 68 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 66 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 66 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Obtener una declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+
+ (*) Notas: Ver en esta norma, artículo: 70 .
+ CAPÍTULO VIII - SECTOR ZONAS FRANCAS Artículo 69 Sujetos obligados. Los explotadores y usuarios directos e indirectos de zonas francas con respecto a los usos y actividades definidos en el artículo 2° de la Ley N° 15.921, de 17 de diciembre de 1987 en la redacción dada por el artículo 65 de la Ley N° 17.292, de 25 de enero de 2001 y el artículo 4° de la Ley N° 19.566, de 08 de diciembre de 2017, con excepción de los servicios financieros controlados por el Banco Central del Uruguay, deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+ (*) Notas: Ver en esta norma, artículos: 72 y 73 .
+ Artículo 70 Aplicación. Los sujetos mencionados en el artículo anterior, aplicarán los procedimientos de debida diligencia en todos los casos, independientemente del monto de la operación, con excepción de los sujetos obligados que realicen cualquiera de las actividades previstas en los capítulos III, IV, V, VI, VII y IX del presente decreto, quienes deberán aplicar únicamente los procedimientos de debida diligencia previstos en los capítulos antes referidos, según corresponda, y solo respecto a las actividades previstas en dichos capítulos.
+ Artículo 71 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ Artículo 72 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 69 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos, documento de identidad de los directores y número de RUT.
+
+ 2) Identificación del representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente decreto.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción o información circunstanciada del mismo.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículos: 74 , 75 y 76 .
+ Artículo 73 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 69 del presente decreto, podrán aplicar cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean menores y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a la definición dada en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir razonablemente el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ Artículo 74 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 72 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 72 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Obtener una declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ Artículo 75 Debida diligencia respecto de clientes usuarios de zonas francas. A los efectos de dar cumplimiento con la debida diligencia establecida en el presente capítulo, los explotadores de zonas francas y los usuarios directos e indirectos, podrán acreditar la misma en relación al conocimiento del cliente, con la exhibición de la documentación de personas físicas o jurídicas y el Plan de Negocios que fuera presentado ante el Área de Zonas Francas de la Dirección General de Comercio del Ministerio de Economía y Finanzas para la aprobación del contrato de usuario, sin perjuicio de la verificación de las listas señaladas en el numeral 3°, literal C) del artículo 72 del presente decreto y la búsqueda de antecedentes de acuerdo a lo establecido en el numeral 4°, literal C) del mencionado artículo que se deberán realizar en todos los casos.
+ Artículo 76 Debida diligencia respecto de clientes no usuarios de zonas francas. Para el caso de clientes que no operen en el régimen de zonas francas, y respecto de los que el usuario se relaciona mediante la venta de bienes o la prestación de servicios, la debida diligencia a efectuar sobre los mismos será documentada en forma circunstanciada por el usuario. En el informe circunstanciado se deberá indicar la razonabilidad económica de la transacción que se realiza y si se trata de un cliente habitual u ocasional, así como el riesgo de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva que representan. En caso de clientes habituales se deberá verificar las listas señaladas en el numeral 3°, literal C) del artículo 72 del presente decreto y realizar la búsqueda de antecedentes de acuerdo a lo establecido en el numeral 4°, literal C) del mencionado artículo. 
+
+ Se considerarán clientes habituales cuando adquieran en forma periódica bienes y servicios de los usuarios de zonas francas.
+
+ CAPÍTULO IX - SECTOR PROVEEDORES DE SERVICIOS Artículo 77 Sujetos obligados. Deberán cumplir e implementar las disposiciones del presente decreto y las instrucciones que emitan cuando corresponda, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, los proveedores de servicios societarios, fideicomisos y en general, cualquier persona física o jurídica cuando en forma habitual realicen transacciones para sus clientes sobre las siguientes actividades:
+
+ A) Constituir sociedades u otras personas jurídicas.
+
+ B) Integrar el directorio o ejercer funciones de dirección de una sociedad, socio directivo de una asociación o funciones similares en relación con otras personas jurídicas o disponer que otra persona ejerza dichas funciones.
+
+ Cuando el sujeto obligado que brinda los servicios descritos en el presente literal, pierda el contacto con los accionistas o socios de la sociedad, asociación o entidad que representa o a la cual se encuentra vinculado y siempre que se abstenga de realizar cualquier acto en nombre de la sociedad, asociación o entidad, salvo aquellos cuyo incumplimiento apareje responsabilidad personal, deberá comunicar tales extremos a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, en la forma en que ésta determinará.
+
+ Una vez efectuada la comunicación antes referida, cesará la responsabilidad del sujeto obligado en relación a la sociedad, asociación o entidad que representa o a la que se encuentra vinculado, en lo que respecta a las obligaciones dispuestas en el presente decreto, sin perjuicio de la eventual responsabilidad que pudiera recaer por el incumplimiento de tales disposiciones, antes de producirse la situación prevista en el párrafo anterior.
+
+ C) Facilitar un domicilio social o sede a una sociedad, una asociación o cualquier otro instrumento o persona jurídica, con excepción de determinados domicilios especiales, como los constituidos a efectos administrativos, tributarios, procesales y electrónicos en expedientes judiciales, administrativos o similares.
+
+ Será de aplicación lo establecido en lo pertinente en los últimos dos incisos del literal B) anterior.
+
+ D) Ejercer funciones de fiduciario en un fideicomiso o instrumento jurídico similar o disponer que otra persona ejerza dichas funciones.
+
+ E) Ejercer funciones de accionista nominal por cuenta de otra persona, exceptuando las sociedades que coticen en un mercado regulado y estén sujetas a requisitos de información conforme a derecho, o disponer que otra persona ejerza dichas funciones, con excepción de la función de apoderado para una o más asambleas de accionistas o su equivalente.
+
+ F) Venta de personas jurídicas, fideicomisos u otros institutos jurídicos.
+
+ Entiéndase por habitualidad la reiteración de al menos tres veces en el período de un año calendario, de la realización de alguna de las actividades señaladas precedentemente en los literales A) al F), sea en forma concomitante o sucesiva.
+
+ Las referencias hechas en el presente artículo a los proveedores de servicios como sujetos obligados, deben entenderse hechas a quien actúa en calidad de independiente, no sujeto a exclusividad de sus servicios profesionales, y a los socios o propietarios de una firma de servicios profesionales, pero no comprenderán a aquellas personas físicas que brinden los servicios enumerados en los literales precedentes bajo una relación de dependencia laboral, o bien fuera de la misma, pero prestando sus servicios a una firma de servicios profesionales, sin perjuicio de la responsabilidad que sea imputable a los dependientes o a estos últimos en caso que no cumplan las normas para prevenir y combatir el lavado de activos y el financiamiento del terrorismo, establecidas por los propietarios, socios o principales de la firma o empresa de que se trate, la que no exime al sujeto obligado de la eventual responsabilidad que pudiera corresponder.
+ (*) Notas: Ver en esta norma, artículos: 78 , 80 y 81 .
+ Artículo 78 Aplicación. Los sujetos mencionados en el artículo anterior, aplicarán los procedimientos de debida diligencia de clientes en todos los casos, independientemente del monto de la operación, utilizando un enfoque basado en riesgos, de acuerdo a lo previsto en el artículo siguiente.
+ Artículo 79 Asignación de riesgos. De conformidad con lo establecido en el artículo 10 de este decreto, los sujetos obligados señalados en el presente capítulo, deberán clasificar los riesgos en materia de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, como mínimo en: Bajo, Medio y Alto. A partir de esta clasificación deberán realizar una debida diligencia diferenciada conforme al riesgo y a los requisitos establecidos en los artículos siguientes.
+ Artículo 80 Información debida diligencia normal. En los casos en que, en función del riesgo, corresponda realizar una debida diligencia normal, los sujetos obligados señalados en el artículo 77 del presente decreto, deberán obtener la siguiente información:
+
+ A) Personas físicas
+
+ 1) Nombre y apellido completo
+
+ 2) Fecha y lugar de nacimiento
+
+ 3) Documento de Identidad
+
+ 4) Domicilio
+
+ 5) Profesión, oficio o actividad principal
+
+ B) Personas jurídicas
+
+ 1) Denominación, fecha y lugar de constitución, domicilio, actividad principal, nombres, apellidos y documento de identidad de los socios o accionistas que posean como mínimo el 15% (quince por ciento) del capital integrado o su equivalente, o de los derechos de voto, o que por otros medios ejerzan el control final sobre una entidad, nombres, apellidos y documento de identidad de los directores, copia del contrato social y número de RUT.
+
+ 2) Documento que acredite la representación de la sociedad, identificando al representante, persona física o jurídica conforme a lo establecido en el literal A) del presente artículo.
+
+ Los mismos recaudos antes indicados deberán ser acreditados en cuanto correspondan en el caso de fideicomisos, fundaciones y asociaciones civiles, aplicándose, según el caso, el límite mínimo del 15% (quince por ciento), previsto en el numeral 1) anterior.
+
+ En estos casos y siempre que se trate de situaciones en las que no corresponda realizar debida diligencia intensificada, a los efectos de cumplir con la debida diligencia se admitirá una carta del administrador del Fideicomiso, o patrimonio de afectación independiente, declarando que realizó satisfactoriamente los procedimientos de debida diligencia, debiendo establecerse especialmente el origen de los fondos aportados, así como el beneficiario final identificado.
+
+ 3) Tratándose de sociedades constituidas en el extranjero, que no hayan constituido representación en Uruguay y que además no desarrollen su objeto en forma habitual en el territorio de la República, se deberá requerir certificado de vigencia de la sociedad cuya fecha de expedición no podrá ser mayor a 90 días, el que podrá ser emitido por el Registro Público correspondiente o el agente registrado de la sociedad de que se trate o similar, admitiéndose también la opinión legal de un estudio jurídico.
+
+ Asimismo, si especialmente la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo lo requiriere para una investigación o actuación de fiscalización en curso, los sujetos obligados señalados en el presente capítulo, deberán legalizar o apostillar y traducir los documentos de los que resulten los extremos a que se refieren los numerales anteriores 1) y 2), así como el certificado de vigencia de la sociedad de que se trate o la opinión legal del estudio jurídico, según corresponda.
+
+ C) Tanto para personas físicas como para personas jurídicas se deberá:
+
+ 1) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en el literal A) del presente artículo.
+
+ 2) Identificar al beneficiario final de la operación conforme a lo establecido en el literal A) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a lo dispuesto en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ 3) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ 4) Realizar una búsqueda de antecedentes de las personas físicas o jurídicas, en fuentes públicas o privadas, para determinar su posible vinculación con actividades ilícitas o su pertenencia a otras categorías de riesgo, tales como las Personas Políticamente Expuestas, conservando la documentación respaldante.
+
+ 5) Solicitar el volumen de ingresos o explicación razonable y/o justificación sobre el origen de los fondos manejados en la transacción.
+
+ 6) Obtener información sobre el propósito y la naturaleza de la relación comercial o la transacción a realizar.
+
+ 7) Tomar medidas razonables tales como la obtención de una declaración por escrito para determinar si el cliente o beneficiario final es una persona políticamente expuesta, de acuerdo con la definición dada en el artículo 14 y a lo previsto en el literal F) del artículo 13 del presente decreto, en caso afirmativo se deberá realizar una debida diligencia intensificada.
+ (*) Notas: Ver en esta norma, artículo: 82 .
+ Artículo 81 Información debida diligencia simplificada. Los sujetos obligados señalados en el artículo 77 del presente decreto, podrán aplicar en función del riesgo bajo asignado y en sustitución de las medidas de debida diligencia normales, las siguientes medidas simplificadas de debida diligencia:
+
+ A) Nombre y apellido completo
+
+ B) Fecha y lugar de nacimiento
+
+ C) Documento de Identidad
+
+ D) Domicilio
+
+ E) Determinar si el cliente actúa a nombre propio o de un tercero, y en este último caso, verificar la representación e identificar y verificar la identidad de ese tercero conforme a lo establecido en los literales anteriores.
+
+ F) Identificar al beneficiario final de la operación conforme a lo establecido en los literales A) a D) del presente artículo y tomar medidas razonables para verificar su identidad, de acuerdo a lo dispuesto en el literal C) del artículo 11 del presente decreto, tales como la obtención de una declaración por escrito del beneficiario final de la persona jurídica o de su representante legal o voluntario.
+
+ G) Verificar las listas confeccionadas en función de las Resoluciones del Consejo de Seguridad de Naciones Unidas números S/RES/1267, S/RES/1988, S/RES/1989, S/RES/1718, S/RES/1737, S/RES/2231, sus sucesivas, concordantes y complementarias que se emitan sobre la materia, así como las actualizaciones de dichos listados efectuados por los respectivos Comités de Seguridad de Naciones Unidas y las designaciones de personas físicas en virtud de la Resolución del Consejo de Seguridad de Naciones Unidas número S/RES/1373 y comunicadas o puestas a disposición en la página web por la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, conservando la documentación respaldante.
+
+ H) En caso de personas jurídicas, verificar también su constitución y representación, identificar y verificar la identidad del representante, conocer su objeto social, giro habitual de negocios y estructura de propiedad y control.
+
+ Tratándose de medidas de debida diligencia simplificada los sujetos obligados podrán reducir la frecuencia de actualización de la identificación del cliente y el grado de seguimiento en aquellas relaciones que tengan con sus clientes de carácter permanente, reducir el examen de las operaciones, basado en un umbral monetario razonable acorde a su actividad, e inferir razonablemente el propósito y la naturaleza de la actividad del cliente a partir del tipo de transacción o relación comercial establecida.
+ Artículo 82 Información debida diligencia intensificada. Los sujetos obligados señalados en el presente capítulo, deberán examinar tanto como sea razonablemente posible, los antecedentes y el propósito de todas las operaciones complejas e inusuales, que no tengan un fin que aparente ser económico o lícito. Cuando los riesgos de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva sean mayores deberán ejecutar medidas de debida diligencia intensificada, a fin de determinar si esas transacciones o actividades resultan inusuales o sospechosas, debiendo obtener además de la información exigida por el artículo 80 del presente decreto para la debida diligencia normal, la documentación acreditante de toda la información obtenida en el proceso de debida diligencia y lo siguiente:
+
+ A) Estado civil de todas las personas físicas identificadas de conformidad con lo previsto en el artículo 80 del presente decreto. Si la persona es casada o se encuentra en unión concubinaria, nombre y apellido completo y documento de identidad del cónyuge o concubino/a.
+
+ B) Declaración de regularidad fiscal. Sin perjuicio de la debida diligencia que corresponda aplicar para determinar el origen de los fondos, el sujeto obligado deberá obtener además una declaración jurada del cliente o su representante, manifestando que está en cumplimiento con sus obligaciones tributarias o que su actividad está exonerada de tributos, según corresponda.
+
+ Asimismo, lo anterior se podrá acreditar mediante la presentación de copias de las declaraciones juradas presentadas ante la administración tributaria correspondiente, o con una constancia emitida por esta que establezca que el cliente se encuentra al día con sus obligaciones tributarias, en caso de que esto último no sea posible, se admitirá una carta emitida por los profesionales que lo asesoran en materia tributaria, dejando constancia de tal situación.
+
+ C) Tratándose de entidades obligadas a registrarse por la Ley N° 18.930, de 17 de julio de 2012 y la Ley N° 19.484, de 05 de enero de 2017, se deberá solicitar copia certificada de la declaración jurada presentada en el registro del Banco Central del Uruguay.
+
+ En las medidas de debida diligencia intensificadas los sujetos obligados deberán aumentar la frecuencia de actualización de la identificación del cliente y realizar un seguimiento más intenso de la relación comercial, en aquellas relaciones que tengan con sus clientes de carácter permanente e incrementar la cantidad y la duración de los controles aplicados.
+ Artículo 83 Medidas especiales. Al momento de la inscripción en el registro de sujetos obligados de acuerdo a lo establecido en el capítulo XII del presente decreto, los accionistas o directores nominales deberán revelar la identidad de su nominador e informar las sociedades a las que se les presta el servicio.
+
+ CAPÍTULO X - SECTOR ORGANIZACIONES SIN FINES DE LUCRO Artículo 84 Sujetos obligados. Las asociaciones civiles, fundaciones, partidos políticos, agrupaciones y en general, cualquier organización sin fines de lucro con o sin personería jurídica, que tengan ingresos de cualquier naturaleza al cierre del ejercicio anual por un importe superior a UI 4.000.000 (cuatro millones unidades indexadas) o activos por un valor superior a UI 2.500.000 (dos millones quinientos mil unidades indexadas), valuados de acuerdo a las normas del Impuesto a las Rentas de las Actividades Económicas, deberán cumplir e implementar las disposiciones del presente decreto, y las instrucciones que emitan la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Banco Central del Uruguay, cuando corresponda.
+
+ A estos efectos, deberán designar un oficial de cumplimiento y elaborar las políticas y procedimientos para la administración del riesgo de lavado de activos, financiamiento del terrorismo y proliferación de armas de destrucción masiva, que les permitan prevenir, detectar y reportar operaciones inusuales o sospechosas a la Unidad de Información y Análisis Financiero del Banco Central del Uruguay de acuerdo a lo previsto en el capítulo XI del presente decreto, así como la adecuada conservación de la información, en los términos previstos por el artículo 15 del mismo.
+ (*) Notas: Ver en esta norma, artículo: 85 .
+ Artículo 85 Supervisión de la actividad. La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y el Ministerio de Educación y Cultura, coordinarán y cooperarán en la aplicación de las medidas necesarias para supervisar la actividad de los sujetos obligados señalados en el artículo 84 del presente decreto, en materia de prevención y combate del lavado de activos y el financiamiento del terrorismo.
+
+ En especial durante el proceso de autorización de nuevas entidades, el Ministerio de Educación y Cultura podrá requerir un informe previo de la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, cuando se trate de entidades que van a recibir aportes de dinero desde el exterior o prevean enviar fondos al exterior, cuando tengan integrantes extranjeros o cuando las características de la actividad a desarrollar lo ameriten.
+ Artículo 86 Colaboración del Ministerio de Educación y Cultura por actividades inusuales. Cuando el Ministerio de Educación y Cultura, en cumplimiento de sus funciones de control de la actividad del sector de organizaciones sin fines de lucro, tome conocimiento de actos o hechos que puedan estar vinculados a los delitos de lavado de activos o financiamiento del terrorismo, lo informará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo la que, en caso de corresponder, pondrá la situación en conocimiento de la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+ Artículo 87 Entidades deportivas. La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo y la Secretaría Nacional del Deporte, coordinarán y cooperarán en la aplicación de las medidas necesarias para supervisar la actividad de las entidades deportivas en materia de prevención y combate del lavado de activos y el financiamiento del terrorismo.
+
+ La Secretaría Nacional del Deporte proporcionará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, un acceso permanente y directo por medios informáticos a toda la información de que disponga sobre la actividad de las entidades deportivas registradas, en la medida que la Senaclaft lo requiera para el desarrollo de sus tareas de supervisión. Sin perjuicio de ello, esta Secretaría podrá requerirles directamente a las entidades deportivas toda otra información que entienda necesaria para el cumplimiento de sus cometidos.
+ Artículo 88 Colaboración de la Secretaría Nacional del Deporte por actividades inusuales. Cuando la Secretaría Nacional del Deporte, en cumplimiento de sus funciones de control de la actividad del sector, tome conocimiento de actos o hechos que puedan estar vinculados a los delitos de lavado de activos o financiamiento del terrorismo, lo informará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo la que, en caso de corresponder, pondrá la situación en conocimiento de la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+
+ CAPÍTULO XI - REPORTE DE OPERACIÓN SOSPECHOSA Artículo 89 Obligación de informar. Dentro de los límites establecidos en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, todos los sujetos obligados mencionados en el presente decreto, deberán informar a la Unidad de Información y Análisis Financiero, las transacciones realizadas o no, que en los usos y costumbres de la respectiva actividad resulten inusuales, se presenten sin justificación económica o legal evidente o se planteen con una complejidad inusitada o injustificada, así como también las transacciones financieras que involucren activos sobre cuya procedencia existan sospechas de ilicitud, a efectos de prevenir los delitos de lavado de activos tipificados en los artículos 30 a 33 de la Ley N° 19.574, de 20 de diciembre de 2017 y de prevenir asimismo el delito de financiamiento del terrorismo. En este último caso, la obligación de informar alcanza incluso a aquellas operaciones que aun involucrando activos de origen lícito- se sospeche que están vinculadas a las personas físicas o jurídicas comprendidas en dicho delito o destinados a financiar cualquier actividad terrorista.
+ La información deberá comunicarse en forma inmediata a ser calificadas como tales, y aun cuando las operaciones no hayan sido efectivamente concretadas, ya sea porque el cliente desistió de realizarla o porque el sujeto obligado resolvió no dar curso a la misma.
+
+ La comunicación se realizará en la forma establecida en el artículo siguiente.
+ Artículo 90 Contenido de los reportes de operación sospechosa. Las comunicaciones de transacciones inusuales o sospechosas deberán ser presentadas ante la Unidad de Información y Análisis Financiero del Banco Central del Uruguay, en la forma y con el contenido que éste reglamente, incluyendo como mínimo la siguiente información:
+
+ A) Identificación de las personas físicas o jurídicas involucradas.
+
+ B) Una descripción de las transacciones que se presumen inusuales o sospechosas, indicando si fueron realizadas o no, sus fechas, montos, tipo de operación y en general, todo otro dato o información que se considere relevante a estos efectos.
+
+ C) Un detalle de las circunstancias o los indicios que indujeron a quien realiza la comunicación a calificar dichas transacciones como inusuales o sospechosas de estar relacionadas con el lavado de activos provenientes de actividades delictivas o la financiación de actividades terroristas, adjuntando cuando corresponda, copia de las actuaciones vinculadas al análisis realizado.
+ Artículo 91 Obligación de reserva. La comunicación será reservada. Ningún sujeto obligado, incluyendo las personas relacionadas contractualmente con él, podrá poner en conocimiento de las personas participantes o de terceros las actuaciones e informes que sobre ellas realicen o produzcan, en cumplimiento de la obligación de informar señalada en el presente capítulo.
+
+ Quienes incumplan con esta obligación serán pasibles de las sanciones previstas en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017.
+
+ CAPÍTULO XII - REGISTRO DE DATOS DE SUJETOS OBLIGADOS Artículo 92 Registro. Los sujetos obligados por el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberán registrarse ante la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, dentro del plazo máximo de 90 días a contar de la entrada en vigencia del presente decreto.
+
+ La inscripción se realizará accediendo al respectivo trámite en línea del Portal del Estado uruguayo, puesto a disposición en la página web de la Senaclaft. Debiendo proporcionarse los datos que se solicitan en el formulario de registro, de acuerdo con el respectivo instructivo que se publica en ese sitio web. Al finalizar la inscripción, el sujeto obligado recibirá en su correo electrónico una constancia que acredita que cumplió con la obligación de registrarse.
+ (*) Notas: Ver en esta norma, artículos: 94 y 95 .
+ Artículo 93 Actualización. El sujeto obligado deberá mantener actualizados los datos proporcionados, informando cada modificación dentro de los 30 días de producida. La Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo podrá requerirle en cualquier momento la presentación de la documentación que acredite la exactitud y veracidad de los datos aportados.
+ (*) Notas: Ver en esta norma, artículos: 94 y 95 .
+ Artículo 94 Incumplimiento. El incumplimiento de las obligaciones establecidas en los artículos 92 y 93, determinará la aplicación de la sanción que corresponda de conformidad con lo establecido en el artículo 13 de la ley que se reglamenta.
+ Artículo 95 Datos disponibles en otras instituciones. En aquellas situaciones en las que los datos de los sujetos obligados estén disponibles en instituciones públicas o privadas, la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo podrá acordar con dichas instituciones un primer envío de la información que se requiera de los sujetos obligados, así como la actualización mensual de la misma.
+
+ Si el sujeto obligado registrado de acuerdo a lo previsto en el inciso anterior, realiza otra u otras de las actividades establecidas en el artículo 13 de la Ley N° 19.574, de 20 de diciembre de 2017, deberá inscribirse en los términos y en los plazos previstos en los artículos precedentes.
+ Artículo 96 Colaboración Caja Notarial. De conformidad con lo establecido por los artículos 6° y 13 de la Ley N° 19.574, de 20 de diciembre de 2017, la Caja Notarial proporcionará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo los datos que sean necesarios recabar por parte de la Senaclaft para el registro de sujetos obligados, en la forma en que ambos organismos acuerden, de modo que los Escribanos no requerirán inscribirse directamente ante la Senaclaft. Sin perjuicio de ello, esta Secretaría podrá requerirles directamente a estos sujetos obligados toda otra información que entienda necesaria para el cumplimiento de sus cometidos.
+ Artículo 97 Colaboración Área Zonas Francas. De conformidad con lo establecido por los artículos 6° y 13 de la Ley N° 19.574, de 20 de diciembre de 2017, el Área Zonas Francas de la Dirección General de Comercio del Ministerio de Economía y Finanzas proporcionará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo un acceso permanente y directo por medios informáticos a todos los datos contenidos en el Registro de explotadores y usuarios directos e indirectos, de manera que estas entidades no requerirán inscribirse directamente ante la Senaclaft. Sin perjuicio de ello, esta Secretaría podrá requerirles directamente a estos sujetos obligados toda otra información que entienda necesaria para el cumplimiento de sus cometidos.
+ Artículo 98 Colaboración de la Comisión Administradora del Registro Nacional de Rematadores del Ministerio de Trabajo y Seguridad Social. De conformidad con lo establecido por los artículos 6° y 13 de la Ley N° 19.574, de 20 de diciembre de 2017, la Comisión Administradora del Registro Nacional de Rematadores del Ministerio de Trabajo y Seguridad Social proporcionará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo los datos que sean necesarios recabar por parte de la Senaclaft para el registro de sujetos obligados, en la forma en que ambos organismos acuerden, de modo que los rematadores no requerirán inscribirse directamente ante la Senaclaft. Sin perjuicio de ello, esta Secretaría podrá requerirles directamente a estos sujetos obligados toda otra información que entienda necesaria para el cumplimiento de sus cometidos.
+ Artículo 99 Colaboración del Ministerio de Educación y Cultura. El Ministerio de Educación y Cultura proporcionará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo un acceso permanente y directo por medios informáticos a todos los datos contenidos en el Registro de Personas Jurídicas - Sección Asociaciones Civiles y Fundaciones, de manera que estas entidades no requerirán inscribirse directamente ante la SENACLAFT. Sin perjuicio de ello, esta Secretaría podrá requerirles directamente toda otra información que entienda necesaria para el cumplimiento de sus cometidos.
+
+ CAPÍTULO XIII - TRANSPORTE TRANSFRONTERIZO DE VALORES Artículo 100 Obligación de declarar. Las personas físicas o jurídicas no sujetas al control del Banco Central del Uruguay que transporten dinero en efectivo, metales preciosos u otros instrumentos monetarios a través de la frontera por un monto superior a USD 10.000 (diez mil dólares de los Estados Unidos de América), deberán declararlo ante la Dirección Nacional de Aduanas.
+
+ En caso de equipaje acompañado, deberá ser declarado en Formulario de Declaración de Equipaje Acompañado que al respecto establecerá la referida Unidad Ejecutora.
+
+ En el caso de aquel que arribe en condición de carga, deberá ser declarado en las guías o documentación de carga que correspondiere.
+
+ El incumplimiento de esta obligación determinará la imposición de una multa por parte del Poder Ejecutivo -previo informe de la Unidad de Información y Análisis Financiero del Banco Central del Uruguay-, cuyo máximo podrá ascender hasta el monto de la cuantía no declarada, consideradas las circunstancias del caso, de acuerdo con lo establecido por el artículo 29 de la Ley N° 19.574, de 20 de diciembre de 2017.
+
+ De conformidad con lo establecido por la norma legal referida precedentemente, constatado el incumplimiento de la obligación, ya sea por omisión de declarar o por falta de fidelidad en la declaración, la Dirección Nacional de Aduanas procederá al detención de los fondos o valores, elevará inmediatamente los antecedentes al Ministerio de Economía y Finanzas para la instrucción del correspondiente procedimiento administrativo a efectos de la aplicación de la multa, dará cuenta a la Justicia Penal competente, informará a la Unidad de Información y Análisis Financiero del Banco Central del Uruguay y solicitará, dentro de las cuarenta y ocho horas hábiles siguientes, las medidas cautelares necesarias para asegurar el derecho del Estado al cobro de la misma.
+
+ Las personas físicas o jurídicas sujetas a control del Banco Central del Uruguay que transporten dinero en efectivo, metales preciosos u otros instrumentos monetarios a través de la frontera por un monto superior a USD 10.000 (diez mil dólares de los Estados Unidos de América), deberán acreditar ante la Dirección Nacional de Aduanas el cumplimiento de la respectiva reglamentación dictada por dicha institución, de conformidad con lo dispuesto por el artículo 29 de la Ley N° 19.574, de 20 de diciembre de 2017. La Dirección Nacional de Aduanas acordará con el Banco Central del Uruguay la forma de acreditación de tal extremo.
+
+ CAPÍTULO XIV - COLABORACIÓN DE OTROS SECTORES Artículo 101 Colaboración del sector público. Todos los organismos públicos deberán contribuir a la prevención y combate del lavado de activos y el financiamiento del terrorismo, adoptando políticas y procedimientos que permitan mitigar los riesgos inherentes a las actividades que se desarrollen en cada caso.
+
+ Toda autoridad o funcionario público que en el cumplimiento de sus funciones, tome conocimiento de actos o hechos que puedan estar vinculados a los delitos de lavado de activos o financiamiento de terrorismo, lo informará a la Secretaría Nacional para la Lucha contra el Lavado de Activos y el Financiamiento del Terrorismo, la que en caso de corresponder, pondrá la situación en conocimiento de la Unidad de Información y Análisis Financiero del Banco Central del Uruguay.
+ Artículo 102 Derogaciones. Deróganse, a partir de la vigencia de este decreto, el Decreto N° 355/010 de 02 de diciembre de 2010, el Decreto N° 43/017 de 13 de febrero de 2017 y todas las normas que se opongan al presente.
+ Artículo 103 Comuníquese, publíquese, etc.
+ TABARÉ VÁZQUEZ - JORGE VÁZQUEZ - ARIEL BERGAMINO - DANILO ASTORI - JORGE MENÉNDEZ - MARÍA JULIA MUÑOZ - VÍCTOR ROSSI - CAROLINA COSSE - ERNESTO MURRO - JORGE BASSO - ENZO BENECH - LILIAM KECHICHIAN - ENEIDA de LEÓN - MARINA ARISMENDI 
+ 
+ Ayuda

@@ -1,0 +1,14 @@
+{
+  "name": "eg-data-protection",
+  "displayName": "Data Protection — EG",
+  "version": "0.1.0",
+  "description": "Data Protection skills for EG (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eg",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/kb-data-privacy-egypt-sboghossian"
+  ]
+}

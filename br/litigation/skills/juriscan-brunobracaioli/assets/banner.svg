@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a5f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#bg)" rx="8"/>
+
+  <!-- Decorative lines -->
+  <line x1="50" y1="170" x2="850" y2="170" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
+  <line x1="50" y1="30" x2="850" y2="30" stroke="url(#accent)" stroke-width="1" opacity="0.15"/>
+
+  <!-- Scale icon -->
+  <g transform="translate(65, 65)" fill="none" stroke="#3b82f6" stroke-width="2.5" opacity="0.9">
+    <!-- Balance base -->
+    <line x1="30" y1="70" x2="30" y2="20"/>
+    <line x1="15" y1="70" x2="45" y2="70"/>
+    <!-- Balance beam -->
+    <line x1="5" y1="20" x2="55" y2="20"/>
+    <!-- Left pan -->
+    <path d="M5,20 L0,40 L20,40 L15,20" fill="#3b82f6" opacity="0.2"/>
+    <line x1="0" y1="40" x2="20" y2="40"/>
+    <!-- Right pan -->
+    <path d="M45,20 L40,40 L60,40 L55,20" fill="#8b5cf6" opacity="0.2"/>
+    <line x1="40" y1="40" x2="60" y2="40"/>
+    <!-- Magnifying glass overlay -->
+    <circle cx="48" cy="12" r="10" stroke="#8b5cf6" fill="none" stroke-width="2"/>
+    <line x1="55" y1="19" x2="63" y2="27" stroke="#8b5cf6" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="160" y="95" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="48" font-weight="700" fill="#f8fafc" letter-spacing="-1">JuriScan</text>
+
+  <!-- Subtitle -->
+  <text x="160" y="125" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" fill="#94a3b8" letter-spacing="0.5">Análise forense de processos judiciais brasileiros</text>
+
+  <!-- Tags -->
+  <rect x="160" y="140" width="100" height="22" rx="11" fill="#3b82f6" opacity="0.2"/>
+  <text x="210" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Claude Code</text>
+
+  <rect x="270" y="140" width="60" height="22" rx="11" fill="#8b5cf6" opacity="0.2"/>
+  <text x="300" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle">Skill</text>
+
+  <rect x="340" y="140" width="80" height="22" rx="11" fill="#3b82f6" opacity="0.2"/>
+  <text x="380" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Obsidian</text>
+
+  <rect x="430" y="140" width="70" height="22" rx="11" fill="#8b5cf6" opacity="0.2"/>
+  <text x="465" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#a78bfa" text-anchor="middle">Python</text>
+
+  <!-- Right side: pipeline mini-diagram -->
+  <g transform="translate(600, 55)" opacity="0.5">
+    <rect x="0" y="0" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+    <text x="35" y="16" font-family="monospace" font-size="9" fill="#60a5fa" text-anchor="middle">PDF</text>
+
+    <line x1="70" y1="12" x2="85" y2="12" stroke="#3b82f6" stroke-width="1" marker-end="url(#arrow)"/>
+
+    <rect x="85" y="0" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+    <text x="120" y="16" font-family="monospace" font-size="9" fill="#60a5fa" text-anchor="middle">Chunking</text>
+
+    <line x1="155" y1="12" x2="170" y2="12" stroke="#3b82f6" stroke-width="1"/>
+
+    <rect x="170" y="0" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="205" y="16" font-family="monospace" font-size="9" fill="#a78bfa" text-anchor="middle">Claude AI</text>
+
+    <rect x="0" y="35" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+    <text x="35" y="51" font-family="monospace" font-size="9" fill="#60a5fa" text-anchor="middle">Prazos</text>
+
+    <rect x="85" y="35" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1"/>
+    <text x="120" y="51" font-family="monospace" font-size="9" fill="#60a5fa" text-anchor="middle">Risco</text>
+
+    <rect x="170" y="35" width="70" height="24" rx="4" fill="#1e3a5f" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="205" y="51" font-family="monospace" font-size="9" fill="#a78bfa" text-anchor="middle">Obsidian</text>
+
+    <line x1="205" y1="24" x2="205" y2="35" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="35" y1="24" x2="35" y2="35" stroke="#3b82f6" stroke-width="1"/>
+    <line x1="120" y1="24" x2="120" y2="35" stroke="#3b82f6" stroke-width="1"/>
+  </g>
+</svg>

@@ -4,10 +4,11 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: de
 
-## Skills (49)
+## Skills (51)
 
 | Skill | What it does |
 |---|---|
+| [`/audit — Auditoría Legal Iterativa (v3 — Loop híbrido CLI+LLM)`](skills/audit-joselito412/) | Auditoría legal iterativa de un proyecto de software (estilo react-doctor). Ejecuta un loop Evaluar →… |
 | [`Begriffs- und Übersetzungswerkstatt`](skills/begriffe-uebersetzung-bilingual-contract/) | Für Begriffs- und Übersetzungswerkstatt: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bilingual Contract Review`](skills/bilingual-contract-review/) | Für Bilingual Contract Review: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Common Law: Discovery-Spezial`](skills/cl-discovery-doc-production-spezial/) | Für Common Law: Discovery-Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -32,6 +33,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: d
 | [`Fristen- und Risikoampel`](skills/common-law-kompass-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Kaltstart und Routing`](skills/common-law-kompass-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/common-law-kompass-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
+| [`Compliance Calendar`](skills/compliance-calendar-danielmc09/) | [JURISDICTION] Deriva del pack de la jurisdiccion el calendario de obligaciones recurrentes y los… |
 | [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-aashutosh396/) | Use when drafting a freelance contract, client proposal, SOW, NDA, or MSA — generates jurisdiction-aware… |
 | [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-borghei/) | Generate business documents — contracts, proposals, SOWs, NDAs, MSAs — with jurisdiction-aware clauses… |
 | [`Contract Formation und Consideration`](skills/contract-formation-false-friends-governing/) | Für Contract Formation und Consideration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `general` · Practice: `employment` · Skill language: en
 
-## Skills (59)
+## Skills (62)
 
 | Skill | What it does |
 |---|---|
@@ -21,6 +21,8 @@ Jurisdiction: `general` · Practice: `employment` · Skill language: en
 | [`Performance Improvement Plan (PIP)`](skills/draft-pip-letter-sboghossian/) | Use when drafting a Performance Improvement Plan (PIP) letter — formal documentation of identified… |
 | [`Severance Agreement`](skills/draft-severance-agreement-sboghossian/) | Use when drafting a severance, separation, or mutual-exit agreement for an employee whose employment is… |
 | [`Termination Letter`](skills/draft-termination-letter-sboghossian/) | Use when drafting an employment termination letter — the formal notice document that initiates the end… |
+| [`Warning Letter (Employment Discipline)`](skills/draft-warning-letter-sboghossian/) | Use when drafting a disciplinary warning letter — the formal written record of misconduct, rule… |
+| [`Employment Agreement Review`](skills/employment-agreement-review-open-legal-products/) | Review the uploaded employment agreement and produce a comprehensive table-based legal review from the… |
 | [`Employment contract`](skills/employment-contract/) | Draft and fill employment contract templates — offer letter, employment agreement, IP/inventions… |
 | [`Employment Contract Templates`](skills/employment-contract-templates/) | Create employment contracts, offer letters, and HR policy documents following legal best practices. Use… |
 | [`Employment Contract Templates`](skills/employment-contract-templates-v2/) | Employment Contract Templates workflow skill. Use this skill when the user needs Templates and patterns… |
@@ -42,6 +44,7 @@ Jurisdiction: `general` · Practice: `employment` · Skill language: en
 | [`Investigation query`](skills/investigation-query-anthropics/) | Ask questions against an open investigation log — what witnesses said, where accounts conflict, what… |
 | [`Investigation query`](skills/investigation-query-zekaisuni/) | Açık iç soruşturma dosyasındaki kronoloji, delil logu ve görüşme notları üzerinde kontrollü soru-cevap… |
 | [`$employment-legal:investigation-summary`](skills/investigation-summary-alexchlou/) | Draft an audience-specific summary from the privileged investigation memo — HR, leadership, or outside… |
+| [`Taiwan Labor Law (Labor Standards Act)`](skills/law-labor-asgard-ai-platform/) | Analyze Taiwan labor law fundamentals under the Labor Standards Act including working hours, overtime… |
 | [`$employment-legal:leave-tracker`](skills/leave-tracker-alexchlou/) | Check open leaves for deadline alerts and required decisions. Surfaces only the leaves that require an… |
 | [`Log leave`](skills/log-leave/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines.… |
 | [`$employment-legal:log-leave`](skills/log-leave-alexchlou/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines.… |

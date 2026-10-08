@@ -1,0 +1,14 @@
+{
+  "name": "cl-environmental",
+  "displayName": "Environmental Law — CL",
+  "version": "0.1.0",
+  "description": "Environmental Law skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "environmental",
+  "language": "en",
+  "skills": [
+    "skills/chilean-environmental-legal-elpabloultron"
+  ]
+}

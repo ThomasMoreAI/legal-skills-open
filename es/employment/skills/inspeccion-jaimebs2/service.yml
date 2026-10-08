@@ -1,0 +1,56 @@
+name: laboral-inspeccion
+display_name: Inspección de Trabajo
+description: >
+  Guía completa sobre la Inspección de Trabajo y Seguridad Social (ITSS):
+  qué es, motivos habituales de denuncia (impago, contratación irregular,
+  economía sumergida, acoso, riesgos laborales), cómo presentar una
+  denuncia (buzón online, presencial), anonimato y confidencialidad,
+  garantía de indemnidad, proceso inspector (visita, actas), infracciones
+  y sanciones (leves, graves, muy graves) y registro de jornada.
+organization: Inspección de Trabajo y Seguridad Social (ITSS) / Ministerio de Trabajo y Economía Social
+tags: [laboral, inspección de trabajo, ITSS, denuncia laboral, sanciones, infracciones, economía sumergida, acoso laboral, riesgos laborales, registro de jornada]
+
+links:
+  itss: https://www.mites.gob.es/itss/web/index.html
+  buzon: https://oeitss.mites.gob.es/buzonitss/
+
+license:
+  data: Información pública de la ITSS y del Ministerio de Trabajo
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill puramente informativa. No automatiza ni tramita denuncias.
+    Orienta sobre el proceso de inspección, derechos del trabajador
+    denunciante, tipología de infracciones y sanciones. La presentación
+    real de denuncias requiere acceso al buzón electrónico (Cl@ve o
+    certificado digital) o presencialmente.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Funciones de la Inspección de Trabajo
+    - Motivos habituales de denuncia (impago, contratación irregular, etc.)
+    - Cómo presentar una denuncia (online, presencial, correo)
+    - Contenido necesario de la denuncia
+    - Anonimato, confidencialidad y garantía de indemnidad
+    - Proceso de inspección (visita, actuaciones, resultados)
+    - Infracciones leves, graves y muy graves con cuantías de sanción
+    - Registro de jornada obligatorio (desde 2019)
+    - Otras vías de reclamación (juzgado, SMAC, sindicato)
+  not_accessible:
+    - Presentación real de denuncias (requiere identificación digital)
+    - Expedientes de inspección en curso
+    - Tipos de contrato (usar skill laboral-contratos)
+    - Convenios colectivos (usar skill laboral-convenios)
+    - Texto de leyes (usar skill boe)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

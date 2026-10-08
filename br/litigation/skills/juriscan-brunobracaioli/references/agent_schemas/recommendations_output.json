@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StrategicRecommendationsOutput",
+  "description": "Strategic recommendations generated after risk scoring. Each recommendation is a concrete action for a polo, with legal fundamentation, verbatim source quote, and deadline.",
+  "type": "object",
+  "required": ["recommendations"],
+  "additionalProperties": false,
+  "properties": {
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "polo",
+          "priority",
+          "action",
+          "fundamentacao",
+          "evidence_quote"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "polo": {
+            "type": "string",
+            "enum": ["autor", "reu"],
+            "description": "Which polo this recommendation serves."
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["ALTA", "MÉDIA", "BAIXA"]
+          },
+          "action": {
+            "type": "string",
+            "minLength": 5,
+            "description": "Concrete action to take (e.g. 'Opor embargos de declaração arguindo art. 942 CPC')."
+          },
+          "fundamentacao": {
+            "type": "string",
+            "minLength": 10,
+            "description": "Legal and factual justification for why this action is advisable."
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 10,
+            "description": "Verbatim quote from the source chunk that grounds this recommendation. No paraphrasing."
+          },
+          "evidence_chunk_ref": {
+            "type": ["integer", "string", "null"],
+            "description": "Index of the chunk from which evidence_quote was extracted."
+          },
+          "deadline_days": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "description": "Days (úteis) to execute this action, when applicable."
+          },
+          "deadline_basis": {
+            "type": ["string", "null"],
+            "description": "Legal basis for the deadline (e.g. 'CPC art. 1.023')."
+          },
+          "impact": {
+            "type": ["string", "null"],
+            "description": "Expected strategic impact of executing this action."
+          },
+          "confidence": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence score (0-1) for the recommendation."
+          }
+        }
+      }
+    }
+  }
+}

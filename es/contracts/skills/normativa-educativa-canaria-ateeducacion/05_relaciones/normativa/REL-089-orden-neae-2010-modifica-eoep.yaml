@@ -1,0 +1,11 @@
+id: REL-089
+tipo_relacion: "modifica"
+origen: NOR-025
+destino: NOR-077
+descripcion: "La disposición adicional undécima de la Orden de 13 de diciembre de 2010 (NEAE) redacta el artículo 9.2.c) de la Orden de 1 de septiembre de 2010 sobre los EOEP."
+evidencia:
+  fuente: FTE-028
+  localizacion: "BOC n.º 250, de 22 de diciembre de 2010; disposición adicional undécima. Confirmado también por la página de normativa clasificada de la Inspección de Educación (EOEP)."
+fecha_registro: 2026-08-23
+nivel_evidencia: "confirmado-fuente-secundaria-oficial"
+observaciones: "Registrada al resolver el marcador [PENDIENTE] de NOR-077 (TAREA-093)."

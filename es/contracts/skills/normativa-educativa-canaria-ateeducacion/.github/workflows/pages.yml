@@ -1,0 +1,106 @@
+name: Publicar GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "schemas/**"
+      - "DESIGN.md"
+      - "llms.txt"
+      - "llms-full.txt"
+      - "skills/experto-normativa-educativa-canaria/SKILL.md"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Construir artefacto Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Componer sitio público
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          cp -R docs/. _site/
+          cp README.md _site/README.md
+          cp DESIGN.md _site/DESIGN.md
+          cp index.md _site/index.md
+          cp status.yaml _site/status.yaml
+          cp AGENTS.md _site/AGENTS.md
+          cp -R 00_gobierno-repositorio _site/00_gobierno-repositorio
+          cp -R 01_fuentes _site/01_fuentes
+          cp -R 02_normativa _site/02_normativa
+          cp -R 03_curriculos _site/03_curriculos
+          cp -R 05_relaciones _site/05_relaciones
+          cp -R 06_indices _site/06_indices
+          cp -R 07_corpus_ia _site/07_corpus_ia
+          cp -R 09_decisiones-editoriales _site/09_decisiones-editoriales
+          cp -R schemas _site/schemas
+          cp llms.txt _site/llms.txt
+          cp llms-full.txt _site/llms-full.txt
+          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/SKILL.md
+          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/skill.md
+
+      - name: Verificar artefacto público
+        run: |
+          set -euo pipefail
+          test -f _site/README.md
+          test -f _site/DESIGN.md
+          test -f _site/index.md
+          test -f _site/status.yaml
+          test -f _site/AGENTS.md
+          test -f _site/llms.txt
+          test -f _site/llms-full.txt
+          test -f _site/SKILL.md
+          test -f _site/skill.md
+          test -f _site/index.html
+          test -f _site/06_indices/curriculos.yaml
+          test -f _site/06_indices/textos-oficiales.yaml
+          test -f _site/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md
+          test -f _site/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml
+          test -f _site/07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt
+          test -f _site/schemas/norma.schema.yaml
+          test -f _site/datos/catalogo.jsonld
+          test -f _site/datos/legislacion.jsonld
+          test -f _site/datos/curriculos.jsonld
+          test -f _site/datos/fuentes.jsonld
+          test -f _site/datos/akoma-ntoso/NOR-004-articulo-1.xml
+          test -f _site/datos/akoma-ntoso/NOR-005-articulo-1.xml
+          test -f _site/datos/akoma-ntoso/NOR-043-articulo-1.xml
+          test -f _site/datos/akoma-ntoso/NOR-080-articulo-1.xml
+          test -f _site/datos/akoma-ntoso/NOR-003-articulo-3.xml
+          test -f _site/datos/akoma-ntoso/NOR-007-articulo-2.xml
+          test -f _site/datos/akoma-ntoso/NOR-009-articulo-2.xml
+          test -f _site/datos/akoma-ntoso/NOR-024-articulo-2.xml
+          test -f _site/datos/akoma-ntoso/NOR-006-disposicion-final-quinta.xml
+          test -f _site/datos/akoma-ntoso/NOR-080-disposicion-adicional-decima.xml
+
+      - name: Subir artefacto Pages
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5
+        with:
+          path: _site
+
+  deploy:
+    name: Desplegar a GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5

@@ -1,0 +1,31 @@
+id: CHUNK-00006
+origen_tipo: "norma"
+origen_id: NOR-024
+titulo: "Atención a la diversidad en Canarias (Decreto 25/2018)"
+texto: >-
+  El Decreto 25/2018 regula la atención a la diversidad en Canarias bajo un enfoque inclusivo.
+  Puntos clave:
+  1. Clasifica medidas en: ordinarias, extraordinarias y excepcionales.
+  2. Obliga a los centros a disponer de un Plan de Atención a la Diversidad integrado en su proyecto educativo.
+  3. Establece el marco para la identificación del alumnado con Necesidades Específicas de Apoyo Educativo (NEAE) y Necesidades Educativas Especiales (NEE).
+  4. Define modalidades de escolarización: centros ordinarios, centros de atención educativa preferente, aulas enclave y centros de educación especial.
+metadatos:
+  ambito: "canarias"
+  etapa: [todas]
+  temas: [diversidad, inclusion, neae]
+  estado_vigencia: "Vigente"
+  fuente: FTE-027
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2018/046/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 25/2018 (BOC 2018/046), artículos 1, 4 y 7."
+relaciones:
+  normas: [NOR-024]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

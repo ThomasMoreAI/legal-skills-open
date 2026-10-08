@@ -1,0 +1,18 @@
+{
+  "name": "hn-general",
+  "displayName": "General — HN",
+  "version": "0.1.0",
+  "description": "General skills for HN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "hn",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-honduras-orwel",
+    "skills/analisis-jurisprudencial-honduras-orwel",
+    "skills/due-diligence-general-honduras-orwel",
+    "skills/elaboracion-concepto-juridico-honduras-orwel",
+    "skills/investigacion-juridica-honduras-orwel"
+  ]
+}

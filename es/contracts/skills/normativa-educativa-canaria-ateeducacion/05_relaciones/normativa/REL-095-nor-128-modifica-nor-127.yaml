@@ -1,0 +1,11 @@
+id: REL-095
+tipo_relacion: modifica
+origen: NOR-128
+destino: NOR-127
+descripcion: Corrige las horas de proyectos de innovación de modalidades 1 y 3 en el Anexo IV.2.4.
+evidencia:
+  fuente: FTE-135
+  localizacion: Punto 1, tablas de las pp. 1-2
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

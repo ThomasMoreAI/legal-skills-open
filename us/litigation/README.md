@@ -4,13 +4,14 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 
-## Skills (486)
+## Skills (499)
 
 | Skill | What it does |
 |---|---|
 | [`Rule 30(b)(6) Corporate Representative Deposition`](skills/30b6-corporate-rep/) | Manages Rule 30(b)(6) corporate representative deposition workflows — drafting notice topics with… |
 | [`30(b)(6) Corporate Representative Deposition`](skills/30b6-deposition/) | Guides taking and defending Rule 30(b)(6) corporate representative depositions. Drafts topic lists with… |
 | [`Abstract of Judgment`](skills/abstract-of-judgment/) | Drafts a recordable Abstract of Judgment to create a judgment lien on a debtor's real property. Extracts… |
+| [`Acompanhar prazos e assinaturas`](skills/acompanhar-prazos-e-assinaturas-gethouston/) | Mantenha o controle do que está pendente no lado jurídico. Escolha o que você precisa: cobrar… |
 | [`ADA Rights`](skills/ada-rights-codearranger/) | Use this skill to help a person with a disability assert rights under the Americans with Disabilities… |
 | [`Amicus Brief`](skills/amicus-brief/) | Drafts and analyzes U.S. appellate amicus curiae briefs for non-parties with Rule 29/Rule 37 compliance… |
 | [`Amicus Coalition Management`](skills/amicus-coalition/) | Manages end-to-end workflow for multi-organization amicus coalition briefs in appellate courts. Covers… |
@@ -29,6 +30,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Post-Judgment Asset & Enforcement Report`](skills/asset-enforcement-report/) | Generates a post-judgment asset and enforcement report synthesizing debtor asset investigations… |
 | [`Attorney Representation Agreement`](skills/attorney-representation-agreement/) | Drafts U.S. litigation attorney representation agreements for client onboarding, covering scope, fees… |
 | [`Motion for Attorneys' Fees`](skills/attorneys-fees-motion/) | Drafts post-judgment motions for attorneys' fees using the lodestar method. Covers prevailing party… |
+| [`/authority-finder`](skills/authority-finder-descrybe-legal-research-descrybe-com/) | Find and organize Descrybe case-law authority for a legal proposition, including supporting, limiting… |
+| [`Authority Finder`](skills/authority-finder-descrybe-legal-research-openai-descrybe-com/) | Find and organize Descrybe case-law authority for a legal proposition. |
 | [`Arizona Case Deadlines`](skills/az-deadlines-codearranger/) | Use when the user asks about timing or deadlines in an Arizona civil case. Triggers include "Arizona… |
 | [`Arizona Discovery`](skills/az-discovery-codearranger/) | Use when drafting, responding to, or compelling discovery in an Arizona civil case. Triggers include… |
 | [`Draft an Arizona Affidavit or Declaration`](skills/az-draft-declaration-codearranger/) | This skill should be used to scaffold a sworn factual statement supporting an Arizona court motion or… |
@@ -110,6 +113,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Colorado Case Deadlines`](skills/co-deadlines-codearranger/) | This skill should be used when the user asks about timing or deadlines in a Colorado civil case.… |
 | [`Denver District Court (2nd Judicial District)`](skills/co-denver/) | This skill should be used when drafting or filing documents in the Denver District Court (2nd Judicial… |
 | [`Colorado Discovery`](skills/co-discovery-codearranger/) | This skill should be used when drafting, responding to, or compelling discovery in a Colorado civil… |
+| [`Draft a Colorado Declaration`](skills/co-draft-declaration-codearranger/) | This skill should be used to scaffold a Colorado declaration or affidavit. Triggers include "draft a… |
 | [`Draft a Colorado Motion`](skills/co-draft-motion-codearranger/) | This skill should be used to scaffold a Colorado civil motion with its supporting memorandum. Triggers… |
 | [`Draft a Colorado Notice`](skills/co-draft-note-codearranger/) | This skill should be used to scaffold a Colorado scheduling document — typically a Notice of Setting… |
 | [`Draft a Colorado Proposed Order`](skills/co-draft-order-codearranger/) | This skill should be used to scaffold a Colorado proposed order for a judge's signature. Triggers… |
@@ -180,6 +184,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`E-Discovery Status Report`](skills/ediscovery-status-report/) | Generates a structured internal e-discovery status report tracking ESI from collection through attorney… |
 | [`EOIR — The Immigration Courts and Their Rules`](skills/eoir-immigration-courts-codearranger/) | Use this skill to understand the EOIR immigration-court system and filing rules — the… |
 | [`EOIR — Motions to Reopen and Motions to Reconsider`](skills/eoir-motions-to-reopen-reconsider-codearranger/) | Use this skill to assemble a motion to reopen or motion to reconsider a removal decision before EOIR… |
+| [`EOIR — Removal Defense (Respondent Filings)`](skills/eoir-removal-defense-codearranger/) | Use this skill to assemble respondent filings in removal proceedings before an immigration judge (the… |
 | [`ESI Protocol`](skills/esi-protocol/) | Drafts stipulated ESI protocols for federal e-discovery. Produces court-ready agreements governing… |
 | [`Core competencies`](skills/evidence-relevance-checker/) | Federal Rules of Evidence expertise — auto-activates when assessing admissibility for depositions or trial |
 | [`Expert Witness Deposition`](skills/expert-deposition/) | Guides taking or defending U.S. expert witness depositions with Daubert/Frye methodology testing, Rule… |
@@ -216,6 +221,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Georgia Law References`](skills/ga-law-references-codearranger/) | Matter-neutral reference hub for Georgia civil practice. Indexes the Georgia reference corpus — Uniform… |
 | [`Georgia Magistrate Court (Small Claims) — O.C.G.A. § 15-10-2`](skills/ga-magistrate-codearranger/) | Use for any Georgia Magistrate Court matter — the small-claims and limited-jurisdiction civil court with… |
 | [`Georgia Post-Judgment Procedure`](skills/ga-post-judgment-codearranger/) | This skill should be used when navigating post-judgment procedure in a Georgia civil case. Triggers… |
+| [`Pro Se Drafting for Georgia`](skills/ga-pro-se-codearranger/) | This skill should be used when drafting Georgia court documents for a self-represented (pro se)… |
 | [`Georgia Pre-Filing Quality Check`](skills/ga-quality-check-codearranger/) | This skill should be used to QC, review, or validate a Georgia court document before filing. Triggers… |
 | [`Set a Hearing (Georgia)`](skills/ga-schedule-hearing-codearranger/) | This skill should be used when the user needs to get a motion heard in a Georgia court. Triggers include… |
 | [`Georgia State Court — O.C.G.A. § 15-7-4`](skills/ga-state-court-codearranger/) | Use for any Georgia State Court matter — the county-level limited- jurisdiction trial court that is the… |
@@ -251,6 +257,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Draft an Indiana Declaration (or Affidavit)`](skills/in-draft-declaration-codearranger/) | This skill should be used when the user asks to "draft an Indiana declaration", "Indiana affidavit"… |
 | [`Draft an Indiana Motion (with Memorandum of Law)`](skills/in-draft-motion-codearranger/) | This skill should be used when the user asks to "draft an Indiana motion", "Indiana motion to dismiss"… |
 | [`Draft an Indiana Notice of Hearing / Notice of Setting`](skills/in-draft-note-codearranger/) | This skill should be used when the user asks to "draft an Indiana Notice of Hearing", "Indiana Notice of… |
+| [`Draft an Indiana Proposed Order`](skills/in-draft-order-codearranger/) | This skill should be used when the user asks to "draft a proposed order Indiana", "Indiana proposed… |
+| [`Fact-Check Indiana Court Filings`](skills/in-fact-check-codearranger/) | This skill should be used when the user asks to "fact-check an Indiana filing", "verify Indiana… |
 | [`Assemble an Indiana Court Filing Packet`](skills/in-file-packet-codearranger/) | This skill should be used when the user asks to "assemble an Indiana filing packet", "Indiana e-filing… |
 | [`Indiana — First 30 Days After Service`](skills/in-first-30-days-codearranger/) | This skill should be used when an Indiana defendant has just been served with a civil complaint and asks… |
 | [`Indiana Hearings — Preparation and Conduct`](skills/in-hearings/) | This skill should be used when the user asks to "prepare for an Indiana hearing", "oral argument… |
@@ -293,6 +301,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Draft a Michigan Proposed Order`](skills/mi-draft-order-codearranger/) | This skill should be used to scaffold a Michigan proposed order or proposed judgment for a judge's… |
 | [`Fact-Check Michigan Court Filings`](skills/mi-fact-check-codearranger/) | This skill should be used to fact-check a Michigan court filing before it is filed. Triggers include… |
 | [`Assemble a Michigan Court Filing Packet`](skills/mi-file-packet-codearranger/) | This skill should be used when assembling and filing a complete Michigan court motion or pleading… |
+| [`Michigan — First 30 Days After Service`](skills/mi-first-30-days-codearranger/) | Use when a Michigan defendant is served with a civil complaint. Triggers include "I got served… |
 | [`Michigan Hearings`](skills/mi-hearings-codearranger/) | Use when preparing for or conducting a hearing in a Michigan court (Circuit Court, District Court, or a… |
 | [`Michigan Law References`](skills/mi-law-references-codearranger/) | Matter-neutral reference catalog for Michigan civil practice. Contains MCR civil-practice map (Chapters… |
 | [`Oakland County Circuit Court (Sixth Judicial Circuit — Pontiac)`](skills/mi-oakland-codearranger/) | This skill should be used when drafting or filing documents in the Oakland County Circuit Court — the… |
@@ -347,6 +356,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Draft an Ohio Proposed Order`](skills/oh-draft-order-codearranger/) | Use to draft an Ohio proposed order. Triggers include 'Ohio proposed order', 'Ohio order granting… |
 | [`Fact-Check Ohio Court Filings`](skills/oh-fact-check-codearranger/) | Use to verify citations in Ohio filings — Civ. R., Evid. R., R.C., case citations in Ohio public-domain… |
 | [`Assemble an Ohio Court Filing Packet`](skills/oh-file-packet-codearranger/) | Use to assemble an Ohio court filing packet. Triggers include 'assemble Ohio filing packet', 'Ohio… |
+| [`Ohio — First 30 Days After Service`](skills/oh-first-30-days-codearranger/) | Use immediately after Ohio service to triage answer + pre-answer motion options. Triggers include 'Ohio… |
 | [`Ohio Hearings`](skills/oh-hearings-codearranger/) | Use to prepare for Ohio court hearings — oral argument, case-management conferences, evidentiary… |
 | [`Ohio Law References`](skills/oh-law-references-codearranger/) | Use to look up Ohio civil-procedure rules (Civ. R.), evidence rules (Evid. R.), Rules of… |
 | [`Ohio Municipal Courts (R.C. Chapter 1901)`](skills/oh-municipal-courts-codearranger/) | Use when filing in an Ohio Municipal Court (R.C. Chapter 1901) — $15,000 civil cap, $6,000 small claims… |
@@ -387,6 +397,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Pre-Trial Statement / Report`](skills/pretrial-statement/) | Drafts U.S. commercial litigation pre-trial statements and joint pretrial reports presenting stipulated… |
 | [`Procedural Rule Summary`](skills/procedural-rule-summary/) | Generates structured, stage-organized summaries of procedural rules from federal, state, local, or… |
 | [`Stipulated Protective Order`](skills/protective-order/) | Drafts a Stipulated Protective Order for federal litigation discovery under FRCP 26(c), covering… |
+| [`Rastrear plazos de cumplimiento`](skills/rastrear-plazos-de-cumplimiento-gethouston/) | Mantengo un calendario vivo de cumplimiento de personal: estado de los formularios I-9 y W-4… |
+| [`Rastrear Prazos de Compliance`](skills/rastrear-prazos-de-compliance-gethouston/) | Mantenho um calendário vivo de compliance de pessoas: status dos formulários I-9 e W-4, renovações de… |
 | [`Record Designation on Appeal`](skills/record-designation/) | Drafts a Record Designation on Appeal identifying trial court materials for transmission to the… |
 | [`Petition for Rehearing En Banc`](skills/rehearing-en-banc/) | Drafts a Petition for Rehearing En Banc under FRAP 35 or state equivalents. Guides threshold analysis… |
 | [`Reply Brief for Appellant`](skills/reply-brief-appellant/) | Drafts an appellant's Reply Brief that rebuts the appellee's response and reinforces the case for… |
@@ -398,6 +410,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`AI Conversations Not Privileged — Heppner Disclaimer`](skills/safety-ai-not-privileged-disclaimer-us-heppner-sboghossian/) | Use when a lawyer user pastes client communications, describes active litigation strategy, or references… |
 | [`Extracting Case Data for SC-100 Form`](skills/sc100-case-data-extraction/) | Use this skill to extract and organize case data from a natural language case description for filling… |
 | [`Filling the SC-100 Form`](skills/sc100-form-filler/) | How to map and fill the California Small Claims Court form SC-100 (Plaintiff's Claim and ORDER to Go to… |
+| [`Seguir plazos y firmas`](skills/seguir-plazos-y-firmas-gethouston/) | Mantén el control de lo que está pendiente en el lado legal. Elige lo que necesitas: dar seguimiento a… |
 | [`Settlement Agreement`](skills/settlement-agreement/) | Drafts execution-ready settlement agreements for commercial litigation with mutual releases, payment… |
 | [`Motion for Stay Pending Appeal`](skills/stay-pending-appeal/) | Drafts a Motion for Stay Pending Appeal using the four-factor balancing test and supersedeas bond… |
 | [`Subpoena Duces Tecum`](skills/subpoena-duces-tecum/) | Drafts a Subpoena Duces Tecum compelling document production without testimony under Federal Rule 45 or… |

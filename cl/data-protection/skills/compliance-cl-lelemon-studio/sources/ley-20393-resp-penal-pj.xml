@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1008668" esTratado="no tratado" fechaVersion="2023-08-17" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2009-11-25" fechaPublicacion="2009-12-02">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>20393</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE HACIENDA</Organismo>
+      <Organismo>SUBSECRETAR&#205;A DE HACIENDA</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>ESTABLECE LA RESPONSABILIDAD PENAL DE LAS PERSONAS JUR&#205;DICAS EN LOS DELITOS QUE INDICA</TituloNorma>
+    <Materias>
+      <Materia>Personas Jur&#237;dicas</Materia>
+      <Materia>Responsabilidad Penal </Materia>
+      <Materia>Agrava Sanci&#243;n </Materia>
+      <Materia>Lavado de Dinero </Materia>
+      <Materia>Terrorismo </Materia>
+      <Materia>Cohecho </Materia>
+      <Materia>Circunstancias Agravantes </Materia>
+      <Materia>Circunstancias Atenuantes </Materia>
+      <Materia>Ley no. 20.393</Materia>
+    </Materias>
+    
+    
+  </Metadatos>
+  <Encabezado fechaVersion="2019-01-31" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 20.393
+
+ESTABLECE LA RESPONSABILIDAD PENAL DE LAS PERSONAS
+JUR&#205;DICAS EN LOS DELITOS QUE INDICA.
+
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente
+
+     Proyecto de Ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811432">
+      <Texto>
+     Art&#237;culo Primero.- Apru&#233;base la siguiente ley sobre
+responsabilidad penal de las personas jur&#237;dicas:</Texto>
+      <Metadatos>
+        <NombreParte presente="si">PRIMERO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Doble Articulado" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811433">
+          <Texto>&#160;</Texto>
+          <Metadatos>
+            <NombreParte presente="si">del Art&#237;culo PRIMERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811434">
+              <Texto>
+     "Art&#237;culo 1&#176;.- Contenido de la ley. La presente ley
+regula la responsabilidad penal de las personas jur&#237;dicas
+por los delitos se&#241;alados en el inciso siguiente, el
+procedimiento para la investigaci&#243;n y establecimiento de
+dicha responsabilidad penal, la determinaci&#243;n de las
+sanciones procedentes y su ejecuci&#243;n.
+     Los delitos por los cuales la persona jur&#237;dica
+responde penalmente conforme a la presente ley son los
+siguientes:
+
+     1. Los delitos a que se refieren los art&#237;culos 1, 2, 3
+y 4 de la Ley de Delitos Econ&#243;micos, sean o no considerados
+como delitos econ&#243;micos por esa ley.
+
+     2. Los previstos en el art&#237;culo 8 de la ley N&#176; 18.314
+que determina conductas terroristas y fija su penalidad; en
+el T&#237;tulo II de la ley N&#186; 17.798, sobre Control de Armas,
+y en los art&#237;culos 411 qu&#225;ter, 448 septies y 448 octies
+del C&#243;digo Penal.
+
+     En lo no previsto por esta ley ser&#225;n aplicables,
+supletoriamente, las disposiciones contenidas en el Libro I
+del C&#243;digo Penal y en el C&#243;digo Procesal Penal, en lo que
+resulte pertinente.
+
+     Para los efectos de esta ley no ser&#225; aplicable lo
+dispuesto en el inciso segundo del art&#237;culo 58 del C&#243;digo
+Procesal Penal.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">1 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811435">
+              <Texto>
+     Art&#237;culo 2&#176;.- &#193;mbito de aplicaci&#243;n personal. Ser&#225;n
+penalmente responsables en los t&#233;rminos de esta ley las
+personas jur&#237;dicas de derecho privado, las empresas
+p&#250;blicas creadas por ley; las empresas, sociedades y
+universidades del Estado; los partidos pol&#237;ticos y las
+personas jur&#237;dicas religiosas de derecho p&#250;blico.</Texto>
+              <Metadatos>
+                <NombreParte presente="si">2 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811436">
+              <Texto>
+     T&#205;TULO I
+
+     Responsabilidad Penal de las Personas Jur&#237;dicas</Texto>
+              <Metadatos>
+                <NombreParte presente="no">&#160;</NombreParte>
+                <TituloParte presente="si">T&#205;TULO I Responsabilidad Penal de las Personas Jur&#237;dicas</TituloParte>
+                
+              </Metadatos>
+              <EstructurasFuncionales>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811437">
+                  <Texto>
+     1.- De la atribuci&#243;n de responsabilidad penal de las
+personas jur&#237;dicas</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">1.- De la atribuci&#243;n de responsabilidad penal de las personas jur&#237;dicas</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811438">
+                      <Texto>
+     Art&#237;culo 3&#176;.- Presupuestos de la responsabilidad
+penal. Una persona jur&#237;dica ser&#225; penalmente responsable
+por cualquiera de los delitos se&#241;alados en el art&#237;culo 1,
+perpetrado en el marco de su actividad por o con la
+intervenci&#243;n de alguna persona natural que ocupe un cargo,
+funci&#243;n o posici&#243;n en ella, o le preste servicios
+gestionando asuntos suyos ante terceros, con o sin su
+representaci&#243;n, siempre que la perpetraci&#243;n del hecho se
+vea favorecida o facilitada por la falta de implementaci&#243;n
+efectiva de un modelo adecuado de prevenci&#243;n de tales
+delitos, por parte de la persona jur&#237;dica.
+     Si concurrieren los requisitos previstos en el inciso
+anterior, una persona jur&#237;dica tambi&#233;n ser&#225; responsable
+por el hecho perpetrado por o con la intervenci&#243;n de una
+persona natural relacionada en los t&#233;rminos previstos por
+dicho inciso con una persona jur&#237;dica distinta, siempre que
+&#233;sta le preste servicios gestionando asuntos suyos ante
+terceros, con o sin su representaci&#243;n, o carezca de
+autonom&#237;a operativa a su respecto, cuando entre ellas
+existan relaciones de propiedad o participaci&#243;n.
+     Lo dispuesto en este art&#237;culo no tendr&#225; aplicaci&#243;n
+cuando el hecho punible se perpetre exclusivamente en contra
+de la propia persona jur&#237;dica.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">3 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811439">
+                      <Texto>
+     Art&#237;culo 4&#176;.- Modelo de prevenci&#243;n de delitos. Se
+entender&#225; que un modelo de prevenci&#243;n de delitos
+efectivamente implementado por la persona jur&#237;dica es
+adecuado para los efectos de eximirla de responsabilidad
+penal cuando, en la medida exigible a su objeto social,
+giro, tama&#241;o, complejidad, recursos y a las actividades que
+desarrolle, considere seria y razonablemente los siguientes
+aspectos:
+
+     1. Identificaci&#243;n de las actividades o procesos de la
+persona jur&#237;dica que impliquen riesgo de conducta
+delictiva.
+
+     2. Establecimiento de protocolos y procedimientos para
+prevenir y detectar conductas delictivas en el contexto de
+las actividades a que se refiere el n&#250;mero anterior, los
+que deben considerar necesariamente canales seguros de
+denuncia y sanciones internas para el caso de
+incumplimiento.
+
+     Estos protocolos y procedimientos, incluyendo las
+sanciones internas, deber&#225;n comunicarse a todos los
+trabajadores. La normativa interna deber&#225; ser incorporada
+expresamente en los respectivos contratos de trabajo y de
+prestaci&#243;n de servicios de todos los trabajadores,
+empleados y prestadores de servicios de la persona
+jur&#237;dica, incluidos sus m&#225;ximos ejecutivos.
+
+     3. Asignaci&#243;n de uno o m&#225;s sujetos responsables de la
+aplicaci&#243;n de dichos protocolos, con la adecuada
+independencia, dotados de facultades efectivas de direcci&#243;n
+y supervisi&#243;n y acceso directo a la administraci&#243;n de la
+persona jur&#237;dica para informarla oportunamente de las
+medidas y planes implementados en el cumplimiento de su
+cometido, para rendir cuenta de su gesti&#243;n y requerir la
+adopci&#243;n de medidas necesarias para su cometido que
+pudieran ir m&#225;s all&#225; de su competencia. La persona
+jur&#237;dica deber&#225; proveer al o a los responsables de los
+recursos y medios materiales e inmateriales necesarios para
+realizar adecuadamente sus labores, en consideraci&#243;n al
+tama&#241;o y capacidad econ&#243;mica de la persona jur&#237;dica.
+
+     4. Previsi&#243;n de evaluaciones peri&#243;dicas por terceros
+independientes y mecanismos de perfeccionamiento o
+actualizaci&#243;n a partir de tales evaluaciones.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">4 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811440">
+                      <Texto>
+     Art&#237;culo 5&#176;.- Autonom&#237;a de la responsabilidad penal
+de la persona jur&#237;dica. No obstar&#225; a la responsabilidad
+penal de una persona jur&#237;dica la falta de declaraci&#243;n de
+responsabilidad penal de la persona natural que hubiere
+perpetrado el hecho o intervenido en su perpetraci&#243;n, sea
+porque &#233;sta, a pesar de la ilicitud del hecho, no hubiere
+sido penalmente responsable, sea porque tal responsabilidad
+se hubiere extinguido, sea porque no se hubiere podido
+continuar el procedimiento en su contra no obstante la
+punibilidad del hecho.
+     Asimismo, no obstar&#225; a la responsabilidad penal de la
+persona jur&#237;dica la falta de identificaci&#243;n de la o las
+personas naturales que hubieren perpetrado el hecho o
+intervenido en su perpetraci&#243;n, siempre que conste que el
+hecho no pudo sino haber sido perpetrado por o con la
+intervenci&#243;n de alguna de las personas y en las
+circunstancias se&#241;aladas en el art&#237;culo 3.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">5 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811441">
+                  <Texto>
+     2.- De las circunstancias que aten&#250;an la
+responsabilidad penal de la persona jur&#237;dica</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">2.- De las circunstancias que aten&#250;an la responsabilidad penal de la persona jur&#237;dica</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811442">
+                      <Texto>
+     Art&#237;culo 6&#176;.- Circunstancias atenuantes. Ser&#225;n
+circunstancias atenuantes de la responsabilidad penal de la
+persona jur&#237;dica, las siguientes:
+
+     1) La prevista en el n&#250;mero 7&#176; del art&#237;culo 11 del
+C&#243;digo Penal.
+
+     2) La prevista en el n&#250;mero 9&#176; del art&#237;culo 11 del
+C&#243;digo Penal. Se entender&#225; especialmente que la persona
+jur&#237;dica colabora sustancialmente cuando, en cualquier
+estado de la investigaci&#243;n o del procedimiento judicial,
+sus representantes legales hayan puesto, antes de conocer
+que el procedimiento judicial se dirige contra ella, el
+hecho punible en conocimiento de las autoridades o aportado
+antecedentes para establecer los hechos investigados.
+
+     3) La adopci&#243;n por parte de la persona jur&#237;dica,
+antes de la formalizaci&#243;n de la investigaci&#243;n, de medidas
+eficaces para prevenir la reiteraci&#243;n de la misma clase de
+delitos objeto de la investigaci&#243;n. Se entender&#225; por
+medidas eficaces la autonom&#237;a debidamente acreditada del
+encargado de prevenci&#243;n de delitos, as&#237; como tambi&#233;n las
+medidas de prevenci&#243;n y supervisi&#243;n implementadas que sean
+id&#243;neas en relaci&#243;n con la situaci&#243;n, tama&#241;o, giro,
+nivel de ingresos y complejidad de la estructura
+organizacional de la persona jur&#237;dica.
+
+     3.- De las circunstancias que agravan la
+responsabilidad penal</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">6 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811443">
+                      <Texto>
+     Art&#237;culo 7&#176;.- Circunstancias agravantes. Constituyen
+circunstancias agravantes de la responsabilidad penal de la
+persona jur&#237;dica:
+
+     1. La de haber sido condenada dentro de los diez a&#241;os
+anteriores a la perpetraci&#243;n del hecho.
+
+     2. Las que afecten a la persona natural que hubiere
+perpetrado o intervenido en el hecho, cuando su
+perpetraci&#243;n o intervenci&#243;n bajo esas circunstancias
+tambi&#233;n se hubiere visto favorecida o facilitada por la
+falta de implementaci&#243;n efectiva de un modelo adecuado de
+prevenci&#243;n de delitos.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">7 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+              </EstructurasFuncionales>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811444">
+              <Texto>
+     T&#205;TULO II
+
+     Consecuencias de la Declaraci&#243;n de Responsabilidad
+Penal de la Persona Jur&#237;dica</Texto>
+              <Metadatos>
+                <NombreParte presente="no">&#160;</NombreParte>
+                <TituloParte presente="si">T&#205;TULO II Consecuencias de la Declaraci&#243;n de Responsabilidad Penal de la Persona Jur&#237;dica</TituloParte>
+                
+              </Metadatos>
+              <EstructurasFuncionales>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811445">
+                  <Texto>
+     1.- De las penas en general</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">1.- De las penas en general</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811446">
+                      <Texto>
+     Art&#237;culo 8&#176;.- Penas. Ser&#225;n aplicables a la persona
+jur&#237;dica una o m&#225;s de las siguientes penas:
+
+     1. La extinci&#243;n de la persona jur&#237;dica.
+
+     2. La inhabilitaci&#243;n para contratar con el Estado.
+
+     3. La p&#233;rdida de beneficios fiscales y la prohibici&#243;n
+de recibirlos.
+
+     4. La supervisi&#243;n de la persona jur&#237;dica.
+ 
+     5. La multa.
+
+     6. El comiso a que se refiere el inciso tercero del
+art&#237;culo 14.
+
+     7. La publicaci&#243;n de un extracto de la sentencia
+condenatoria.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">8 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811447">
+                      <Texto>
+     Art&#237;culo 9&#176;.- Extinci&#243;n de la persona jur&#237;dica. Por
+la pena de extinci&#243;n de la persona jur&#237;dica se dispone la
+p&#233;rdida definitiva de la personalidad jur&#237;dica. Para su
+imposici&#243;n el tribunal tendr&#225; especialmente en cuenta el
+peligro de reiteraci&#243;n delictiva que pueda representar el
+funcionamiento de la persona jur&#237;dica.
+     Esta pena s&#243;lo se podr&#225; imponer trat&#225;ndose de
+cr&#237;menes, si concurre la circunstancia agravante
+establecida en el n&#250;mero 1 del art&#237;culo 7 o en caso de
+reiteraci&#243;n delictiva.
+     La pena de extinci&#243;n de la persona jur&#237;dica no se
+aplicar&#225; a las empresas p&#250;blicas creadas por ley ni a las
+personas jur&#237;dicas que presten un servicio de utilidad
+p&#250;blica cuya interrupci&#243;n pueda causar graves
+consecuencias sociales y econ&#243;micas o da&#241;os serios a la
+comunidad o sea perjudicial para el Estado.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">9 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811448">
+                      <Texto>
+     Art&#237;culo 10.- Inhabilitaci&#243;n para contratar con el
+Estado. El tribunal podr&#225; imponer a la persona jur&#237;dica la
+inhabilitaci&#243;n para contratar con el Estado, conforme a las
+reglas del P&#225;rrafo 5 del T&#237;tulo II de la Ley de Delitos
+Econ&#243;micos.
+     La inhabilitaci&#243;n perpetua para contratar con el
+Estado s&#243;lo podr&#225; ser impuesta respecto de cr&#237;menes, si
+concurre la circunstancia agravante prevista en el n&#250;mero 1
+del art&#237;culo 7 o en caso de reiteraci&#243;n delictiva.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">10 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811449">
+                      <Texto>
+     Art&#237;culo 11.- P&#233;rdida de beneficios fiscales y
+prohibici&#243;n de recibirlos. Por la pena de p&#233;rdida de
+beneficios fiscales se impone la p&#233;rdida de todos los
+subsidios, cr&#233;ditos fiscales u otros beneficios otorgados
+por el Estado sin prestaci&#243;n rec&#237;proca de bienes o
+servicios y, en especial, los subsidios para financiamiento
+de actividades espec&#237;ficas o programas especiales y gastos
+inherentes o asociados a la realizaci&#243;n de &#233;stos, sea que
+tales recursos se asignen a trav&#233;s de fondos concursables o
+en virtud  de leyes permanentes o subsidios, subvenciones en
+&#225;reas especiales o contraprestaciones establecidas en
+estatutos especiales y otras de similar naturaleza, as&#237;
+como la prohibici&#243;n de recibir tales beneficios por un
+per&#237;odo de uno a cinco a&#241;os.
+     Si la persona jur&#237;dica no recibe tales beneficios
+fiscales al tiempo de la condena, se le impondr&#225; la
+prohibici&#243;n de recibirlos, por el mismo per&#237;odo.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">11 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450416">
+                      <Texto>     Art&#237;culo 11 bis.- Supervisi&#243;n de la persona
+jur&#237;dica. El tribunal podr&#225; imponer a la persona jur&#237;dica
+la supervisi&#243;n si, debido a la inexistencia o grave
+insuficiencia de un sistema efectivo de prevenci&#243;n de
+delitos, ello resulta necesario para prevenir la
+perpetraci&#243;n de nuevos delitos en su seno.
+     La supervisi&#243;n de la persona jur&#237;dica consiste en su
+sujeci&#243;n a un supervisor nombrado por el tribunal,
+encargado de asegurar que la persona jur&#237;dica elabore,
+implemente o mejore efectivamente un sistema adecuado de
+prevenci&#243;n de delitos y de controlar dicha elaboraci&#243;n,
+implementaci&#243;n o mejoramiento por un plazo m&#237;nimo de seis
+meses y m&#225;ximo de dos a&#241;os.
+     La persona jur&#237;dica estar&#225; obligada a poner a
+disposici&#243;n del supervisor toda la informaci&#243;n necesaria
+para su desempe&#241;o.
+     El supervisor tendr&#225; facultades para impartir
+instrucciones obligatorias e imponer condiciones de
+funcionamiento exclusivamente en lo que concierna al sistema
+de prevenci&#243;n de delitos, sin que pueda inmiscuirse en
+otras dimensiones de la organizaci&#243;n o actividad de la
+persona jur&#237;dica. Adem&#225;s, tendr&#225; derecho a acceder a
+todas las instalaciones y locales pertenecientes a la
+persona jur&#237;dica.
+     Para los efectos de sus deberes y responsabilidad, se
+considerar&#225; que el supervisor tiene la calidad de empleado
+p&#250;blico. Su remuneraci&#243;n ser&#225; fijada por el tribunal de
+acuerdo con criterios de mercado, ser&#225; de cargo de la
+persona jur&#237;dica y s&#243;lo rendir&#225; cuentas a &#233;ste de su
+cometido.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">11 BIS</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811450">
+                      <Texto>
+     Art&#237;culo 12.- Multa. A menos que la ley disponga una
+forma diversa de calcular la multa, &#233;sta se determinar&#225;
+mediante la multiplicaci&#243;n de un n&#250;mero de d&#237;as-multa por
+el valor que el tribunal fije para cada d&#237;a-multa en la
+forma prevista en el P&#225;rrafo 4 de la Ley de Delitos
+Econ&#243;micos, cuyo producto se expresar&#225; en una suma de
+dinero fijada en moneda de curso legal.
+     El valor del d&#237;a-multa no podr&#225; ser inferior a 5 ni
+superior a 5.000 unidades tributarias mensuales.
+     La pena m&#237;nima de multa es de 2 d&#237;as-multa y la
+m&#225;xima, de 400 d&#237;as-multa.
+     Cada pena de multa que imponga el tribunal ser&#225;
+determinada por &#233;ste en el n&#250;mero de d&#237;as-multa que
+comprenda y su valor. Ni aun en caso de ser aplicables los
+art&#237;culos 74 del C&#243;digo Penal o 351 del C&#243;digo Procesal
+Penal podr&#225;n imponerse una o m&#225;s penas de multa que en
+conjunto excedan de 600 d&#237;as-multa.
+     Con todo, en los casos en que la ley as&#237; lo disponga,
+cuando el comiso de ganancias no pueda imponerse a la
+persona jur&#237;dica porque fueron distribuidas entre sus
+socios, accionistas o beneficiarios que no tuvieron
+conocimiento de su procedencia il&#237;cita en el momento de su
+adquisici&#243;n, el tribunal determinar&#225; el valor total de la
+multa a imponer hasta por una suma equivalente al treinta
+por ciento de las ventas de la persona jur&#237;dica
+correspondientes a la l&#237;nea de productos o servicios
+asociada al hecho durante el per&#237;odo en el cual &#233;ste se
+hubiere perpetrado o hasta el doble de las ganancias
+obtenidas a trav&#233;s del hecho, siempre que dicho valor total
+fuere superior al monto m&#225;ximo de la multa que corresponda
+imponer conforme a los incisos precedentes.
+     No obstar&#225; a la imposici&#243;n de la pena de multa la
+circunstancia de que el hecho d&#233; lugar a una o m&#225;s multas
+no constitutivas de pena conforme a otras leyes. Con todo,
+el monto de la pena de multa pagada ser&#225; abonado a la multa
+no constitutiva de pena que se imponga a la persona
+jur&#237;dica por el mismo hecho. Si la persona jur&#237;dica
+hubiere pagado una multa no constitutiva de pena como
+consecuencia del mismo hecho, el monto pagado ser&#225; abonado
+a la pena de multa impuesta de conformidad con esta ley.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">12 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811451">
+                      <Texto>
+     Art&#237;culo 13.- Publicaci&#243;n de un extracto de la
+sentencia condenatoria. Siempre que se condene a una persona
+jur&#237;dica se impondr&#225; la pena consistente en la
+publicaci&#243;n en el Diario Oficial y en otro diario de
+circulaci&#243;n nacional de un extracto que contenga una
+s&#237;ntesis de la sentencia, que reproduzca sus fundamentos
+principales y la decisi&#243;n de condena, a costa de la persona
+jur&#237;dica condenada.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">13 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811452">
+                  <Texto>
+     2.- De la determinaci&#243;n de las penas</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">2.- De la determinaci&#243;n de las penas</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811453">
+                      <Texto>
+     Art&#237;culo 14.- Penas de crimen y de simple delito.
+Trat&#225;ndose de un crimen se podr&#225; imponer a la persona
+jur&#237;dica responsable una o m&#225;s de las siguientes penas:
+
+     1. La  extinci&#243;n  de  la  persona  jur&#237;dica  en  los 
+casos  previstos en el inciso segundo del art&#237;culo 9.
+
+     2. La p&#233;rdida de beneficios fiscales y la prohibici&#243;n
+de recibirlos por un per&#237;odo no inferior a tres a&#241;os.
+
+     3. La multa por un m&#237;nimo de 200 d&#237;as-multa.
+
+     Trat&#225;ndose de un simple delito se podr&#225; imponer a la
+persona jur&#237;dica responsable una o m&#225;s de las siguientes
+penas:
+
+     1. La p&#233;rdida de beneficios fiscales y la prohibici&#243;n
+de recibirlos por un per&#237;odo de hasta tres a&#241;os.
+
+     2. La multa por un m&#225;ximo de 200 d&#237;as-multa.
+
+     Tanto respecto de cr&#237;menes como de simples delitos se
+podr&#225; imponer, adem&#225;s, las penas de inhabilitaci&#243;n para
+contratar con el Estado; de supervisi&#243;n de la persona
+jur&#237;dica, en los t&#233;rminos se&#241;alados en los art&#237;culos 10
+y 11 bis; y de comiso del producto del delito de que es
+responsable la persona jur&#237;dica, as&#237; como los dem&#225;s
+bienes, efectos, objetos, documentos, instrumentos, dineros
+o valores provenientes de &#233;l. Cuando por cualquier
+circunstancia no sea posible decomisar estas especies, se
+podr&#225; aplicar el comiso a una suma de dinero equivalente a
+su valor.
+
+     En todo caso se impondr&#225; la publicaci&#243;n de un
+extracto de la sentencia condenatoria.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">14 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811454">
+                      <Texto>
+     Art&#237;culo 15.- Determinaci&#243;n del n&#250;mero y naturaleza
+de las penas. El tribunal impondr&#225; siempre la pena de
+multa.
+     Adicionalmente, podr&#225; imponer cualquiera otra pena que
+fuere procedente conforme al art&#237;culo precedente, para lo
+cual atender&#225; a los siguientes factores:
+
+     1. La existencia o inexistencia de un modelo de
+prevenci&#243;n de delitos y su mayor o menor grado de
+implementaci&#243;n.
+
+     2. El grado de sujeci&#243;n y cumplimiento de la normativa
+legal y reglamentaria y de las reglas t&#233;cnicas de
+obligatoria observancia en el ejercicio de su giro o
+actividad habitual.
+
+     3. Los montos de dinero involucrados en la
+perpetraci&#243;n del delito.
+
+     4. El tama&#241;o, la naturaleza y el giro de la persona
+jur&#237;dica.
+
+     5. La extensi&#243;n del mal causado por el delito.
+
+     6. La gravedad de las consecuencias sociales y
+econ&#243;micas que pueda causar a la comunidad la imposici&#243;n
+de la pena cuando se trate de empresas que presten un
+servicio de utilidad p&#250;blica.
+
+     7. Las circunstancias atenuantes o agravantes
+aplicables a la persona jur&#237;dica previstas en esta ley que
+concurrieren en el delito.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">15 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811455">
+                      <Texto>
+     Art&#237;culo 16.- Determinaci&#243;n de la extensi&#243;n de las
+penas concretas. La extensi&#243;n de las penas distintas de la
+extinci&#243;n de la persona jur&#237;dica ser&#225; determinada en el
+punto medio de su extensi&#243;n, a menos que, sobre la base de
+los factores mencionados en el inciso segundo del art&#237;culo
+anterior, corresponda imponer dentro de ese marco una pena
+de otra extensi&#243;n.      
+     Para la determinaci&#243;n de la pena de multa se estar&#225;,
+adem&#225;s, a lo dispuesto en el art&#237;culo 12.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">16 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450417">
+                  <Texto>     2 bis.- Ejecuci&#243;n de las penas</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">2 bis.- Ejecuci&#243;n de las penas</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450418">
+                      <Texto>
+     Art&#237;culo 17.- Ejecuci&#243;n de la extinci&#243;n de la
+persona jur&#237;dica. La sentencia que declare la extinci&#243;n de
+la personalidad jur&#237;dica designar&#225; a una persona encargada
+de su liquidaci&#243;n, quien deber&#225; realizar los actos o
+contratos necesarios para:
+
+     1. Concluir toda actividad de la persona jur&#237;dica,
+salvo aquellas que sean indispensables para el &#233;xito de la
+liquidaci&#243;n.
+
+     2. Pagar los pasivos de la persona jur&#237;dica, incluidos
+los derivados de la perpetraci&#243;n del hecho. Los plazos de
+todas esas deudas se entender&#225;n caducados de pleno derecho,
+haci&#233;ndolas inmediatamente exigibles y su pago se
+realizar&#225; con estricto respeto de las preferencias y de la
+prelaci&#243;n de cr&#233;ditos establecida por la ley.
+
+     3. Repartir los bienes remanentes entre los
+accionistas, socios, due&#241;os o propietarios a prorrata de
+sus respectivas participaciones, sin perjuicio de su derecho
+para perseguir de los responsables del delito el
+resarcimiento de los perjuicios sufridos por la persona
+jur&#237;dica a consecuencia de &#233;ste, en conformidad con las
+leyes aplicables en cada caso.
+
+     Excepcionalmente, cuando as&#237; lo aconseje el inter&#233;s
+social, el tribunal podr&#225;, mediante resoluci&#243;n fundada,
+ordenar la enajenaci&#243;n de todo o parte del activo de la
+persona jur&#237;dica disuelta como un conjunto o unidad
+econ&#243;mica, en subasta p&#250;blica y al mejor postor, la que
+deber&#225; efectuarse ante el propio tribunal.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">17 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450419">
+                      <Texto>     Art&#237;culo 17 bis.- Ejecuci&#243;n de la inhabilitaci&#243;n
+para contratar con el Estado. La inhabilitaci&#243;n para
+contratar con el Estado regir&#225; a contar de la fecha en que
+la resoluci&#243;n se encuentre ejecutoriada. El tribunal
+comunicar&#225; tal circunstancia a la Direcci&#243;n de Compras y
+Contrataci&#243;n P&#250;blica. Dicha Direcci&#243;n mantendr&#225; un
+registro actualizado de las personas jur&#237;dicas a las que se
+les haya impuesto esta pena.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">17 BIS</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450420">
+                      <Texto>     Art&#237;culo 17 ter.- Ejecuci&#243;n de la p&#233;rdida de
+beneficios fiscales y de la prohibici&#243;n de recibirlos. Una
+vez ejecutoriada la sentencia que impusiere la pena de
+p&#233;rdida de beneficios fiscales y la prohibici&#243;n de
+recibirlos, el tribunal lo comunicar&#225; al Ministerio de
+Hacienda y a la Subsecretar&#237;a de Desarrollo Regional y
+Administrativo del Ministerio del Interior y Seguridad
+P&#250;blica, con el fin de que sea consignada en los registros
+centrales de colaboradores del Estado y municipalidades que
+la ley les encomienda administrar.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">17 TER</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450421">
+                      <Texto>     Art&#237;culo 17 qu&#225;ter.- Ejecuci&#243;n de la supervisi&#243;n de
+la persona jur&#237;dica. Ejecutoriada la sentencia condenatoria
+que imponga la supervisi&#243;n de la persona jur&#237;dica por un
+per&#237;odo determinado, el tribunal competente para la
+supervisi&#243;n de la ejecuci&#243;n de la pena designar&#225; a un
+supervisor y le dar&#225; instrucciones sobre el objeto preciso
+de su cometido, sus facultades y los l&#237;mites de ellas, de
+lo cual ser&#225; notificada la persona jur&#237;dica. Con este fin
+se citar&#225; a una audiencia especial, en la que deber&#225;n ser
+o&#237;dos todos los intervinientes.
+     Las instrucciones obligatorias y las condiciones
+impuestas por el supervisor podr&#225;n ser reclamadas
+judicialmente.
+     En caso de incumplimiento injustificado de las
+instrucciones obligatorias o de las condiciones impuestas
+por el supervisor el tribunal podr&#225; imponer, a solicitud
+del supervisor y oyendo a la persona jur&#237;dica, la
+retenci&#243;n y prohibici&#243;n de celebrar actos y contratos
+sobre bienes o activos de &#233;sta hasta que cese el
+incumplimiento, a t&#237;tulo de apremio.
+     En casos de incumplimiento grave o reiterado el
+tribunal podr&#225;, a solicitud del supervisor y oyendo a la
+persona jur&#237;dica, ordenar el reemplazo de sus &#243;rganos
+directivos y, en caso de no realizarse el reemplazo o de
+persistir el incumplimiento, la designaci&#243;n de un
+administrador provisional hasta que se verifique un cambio
+de circunstancias o hasta el cumplimiento &#237;ntegro de la
+supervisi&#243;n.
+     Un reglamento establecer&#225; los requisitos que habiliten
+para ejercer como supervisor, el procedimiento para su
+designaci&#243;n y reemplazo y para la determinaci&#243;n de su
+remuneraci&#243;n. Los requisitos para ejercer como supervisor
+deber&#225;n garantizar calificaci&#243;n y experiencia profesional
+pertinente y ausencia de factores que pudieran dar lugar a
+conflictos de inter&#233;s en el ejercicio del cargo.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">17 QU&#193;TER</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450425">
+                      <Texto>     Art&#237;culo 17 quinquies.- Ejecuci&#243;n de la multa. La
+multa ser&#225; ejecutada conforme a las reglas generales
+previstas por el C&#243;digo Penal.
+     Excepcionalmente, cuando su pago inmediato pueda poner
+en riesgo la continuidad del giro de la persona jur&#237;dica
+condenada o cuando as&#237; lo aconseje el inter&#233;s social, el
+tribunal podr&#225; autorizar que el pago de la multa se
+efect&#250;e por parcialidades, dentro de un plazo que no exceda
+de veinticuatro meses.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">17 QUINQUIES</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450426">
+                      <Texto>
+     Art&#237;culo 18.- Ejecuci&#243;n de la pena y las
+consecuencias adicionales en caso de disoluci&#243;n o
+transformaci&#243;n de la persona jur&#237;dica. En caso de
+transformaci&#243;n, fusi&#243;n, absorci&#243;n, divisi&#243;n o
+disoluci&#243;n voluntaria de la persona jur&#237;dica responsable,
+sea antes o despu&#233;s de la condena, las penas y
+consecuencias adicionales se har&#225;n efectivas de acuerdo con
+las reglas siguientes:
+
+     1. Si se impusiere la pena de comiso y &#233;ste recayere
+en una especie, se ejecutar&#225; contra la persona jur&#237;dica
+resultante que la tuviere o, en caso de disoluci&#243;n de
+com&#250;n acuerdo, contra el socio o part&#237;cipe en el capital
+que la tuviere trat&#225;ndose de la disoluci&#243;n de una persona
+jur&#237;dica con fines de lucro, o contra la persona que
+conforme a los estatutos de la persona jur&#237;dica o a la ley
+la hubiere recibido trat&#225;ndose de la disoluci&#243;n de una
+persona jur&#237;dica sin fines de lucro. Si el comiso recayere
+en cantidades de dinero, se ejecutar&#225; del modo previsto
+para la ejecuci&#243;n de la multa, de acuerdo con el n&#250;mero
+siguiente.
+
+     2. Si se impusiere la pena de multa, la persona
+jur&#237;dica resultante responder&#225; de su pago. Si hubiere dos
+o m&#225;s personas jur&#237;dicas resultantes todas ellas ser&#225;n
+solidariamente responsables. En los casos de disoluci&#243;n de
+com&#250;n acuerdo de una persona jur&#237;dica con fines de lucro,
+la multa se har&#225; efectiva sobre los socios y part&#237;cipes en
+el capital, quienes responder&#225;n solidariamente. Trat&#225;ndose
+de personas jur&#237;dicas sin fines de lucro, la multa se har&#225;
+efectiva sobre las personas que hayan recibido las
+propiedades de aqu&#233;llas conforme a sus estatutos o a la
+ley, quienes responder&#225;n solidariamente.
+
+     3. Si se tratare de cualquier otra pena, el tribunal
+decidir&#225; si ella habr&#225; o no de hacerse efectiva sobre las
+personas naturales o jur&#237;dicas a que se refieren los dos
+n&#250;meros anteriores, atendiendo a las finalidades que en
+cada caso se persiguieren, as&#237; como a la mayor o menor
+continuidad sustancial de los medios materiales y humanos de
+la persona jur&#237;dica inicial en la o las personas jur&#237;dicas
+resultantes y a la actividad desarrollada. Si por
+aplicaci&#243;n de esta regla dejare de imponerse o ejecutarse
+una pena, el tribunal aplicar&#225; en vez de ella una pena de
+multa, aun cuando ya se hubiere impuesto otra multa. En tal
+caso, se podr&#225;n superar hasta en un quinto los respectivos
+l&#237;mites m&#225;ximos previstos en el art&#237;culo 12.
+
+     S&#243;lo se podr&#225; limitar el efecto de la imposici&#243;n de
+la solidaridad reduciendo el valor a pagar respecto de la
+persona natural que demostrare que el pago en ese r&#233;gimen
+le ocasionar&#225; un perjuicio desproporcionado. Con todo, el
+valor por pagar no podr&#225; ser nunca inferior al valor de la
+cuota de liquidaci&#243;n que se le hubiere asignado o de los
+bienes que hubiere recibido en virtud de la disoluci&#243;n.
+
+     Todo lo anterior ser&#225; sin perjuicio de los derechos de
+terceros de buena fe.
+
+     Las reglas de este art&#237;culo ser&#225;n tambi&#233;n aplicables
+en caso de transferencia de bienes o activos de la persona
+jur&#237;dica responsable, antes o despu&#233;s de la condena,
+siempre que la transferencia abarque la mayor parte de los
+bienes o activos de &#233;sta y que exista continuidad
+sustancial de los medios materiales y humanos y de la
+actividad de la persona jur&#237;dica responsable en el o los
+adquirentes, de modo que pueda presumirse una fusi&#243;n,
+absorci&#243;n o divisi&#243;n encubiertas.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">18 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450427">
+                      <Texto>     Art&#237;culo 18 bis.- Ejecuci&#243;n de la pena en caso de
+transferencia de bienes o activos de la persona jur&#237;dica.
+En caso de transferencia de bienes o activos de la persona
+jur&#237;dica responsable, sea antes o despu&#233;s de la condena,
+el comiso de cantidades y la multa podr&#225;n hacerse efectivos
+contra el adquirente si los bienes de aqu&#233;lla no fueren
+suficientes, hasta el l&#237;mite del valor de lo adquirido y
+siempre que el adquirente hubiere podido prever la condena
+de la persona jur&#237;dica responsable al momento de la
+adquisici&#243;n.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">18 BIS</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811458">
+                  <Texto>
+     3.- Extinci&#243;n de la responsabilidad penal de la
+persona jur&#237;dica</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">3.- Extinci&#243;n de la responsabilidad penal de la persona jur&#237;dica</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811459">
+                      <Texto>
+     Art&#237;culo 19.- Extinci&#243;n de la responsabilidad penal.
+La responsabilidad penal de la persona jur&#237;dica se extingue
+por las mismas causales se&#241;aladas en el art&#237;culo 93 del
+C&#243;digo Penal, salvo la prevista en su n&#250;mero 1&#176;.
+     No obstar&#225; al pronunciamiento de una condena contra
+una persona jur&#237;dica la circunstancia de que &#233;sta hubiere
+sido objeto de disoluci&#243;n, transformaci&#243;n, absorci&#243;n,
+fusi&#243;n o divisi&#243;n.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">19 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450428">
+                  <Texto>     4.- Comiso de ganancias
+
+</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">4.- Comiso de ganancias</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450429">
+                      <Texto>     Art&#237;culo 19 bis.- Comiso de ganancias. Las ganancias
+obtenidas por la persona jur&#237;dica, a trav&#233;s del delito de
+que es responsable, ser&#225;n decomisadas conforme a las reglas
+sobre comiso de ganancias establecidas en el C&#243;digo Penal,
+el C&#243;digo Procesal Penal y el C&#243;digo Org&#225;nico de
+Tribunales.
+     Cuando concurran los requisitos se&#241;alados en el
+art&#237;culo 41 de la Ley de Delitos Econ&#243;micos, ser&#225;n
+decomisadas las ganancias obtenidas por la persona jur&#237;dica
+a trav&#233;s de un hecho il&#237;cito que corresponde a un delito,
+aun sin necesidad de condena, de acuerdo con las
+disposiciones del T&#237;tulo III bis del Libro IV del C&#243;digo
+Procesal Penal.
+     El comiso de ganancias ser&#225; impuesto tambi&#233;n respecto
+de la persona jur&#237;dica que hubiere recibido la ganancia
+como aporte a su patrimonio.
+     No podr&#225; imponerse el comiso respecto de las ganancias
+obtenidas por una persona jur&#237;dica y que hubieren sido
+distribuidas entre sus socios, accionistas o beneficiarios
+que no hubieren tenido conocimiento de su procedencia
+il&#237;cita al momento de su adquisici&#243;n. En tal caso, la
+ganancia distribuida podr&#225; considerarse para la
+determinaci&#243;n de la pena de multa que correspondiere
+imponer a la persona jur&#237;dica de acuerdo con el art&#237;culo
+12.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">19 BIS</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+              </EstructurasFuncionales>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811460">
+              <Texto>
+     T&#205;TULO III
+
+     Procedimiento</Texto>
+              <Metadatos>
+                <NombreParte presente="no">&#160;</NombreParte>
+                <TituloParte presente="si">T&#205;TULO III Procedimiento</TituloParte>
+                
+              </Metadatos>
+              <EstructurasFuncionales>
+                <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811461">
+                  <Texto>
+     1.- Inicio de la investigaci&#243;n de la responsabilidad
+penal de la persona jur&#237;dica</Texto>
+                  <Metadatos>
+                    <NombreParte presente="no">&#160;</NombreParte>
+                    <TituloParte presente="si">1.- Inicio de la investigaci&#243;n de la responsabilidad penal de la persona jur&#237;dica</TituloParte>
+                    
+                  </Metadatos>
+                  <EstructurasFuncionales>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811462">
+                      <Texto>
+     Art&#237;culo 20.- Investigaci&#243;n de la responsabilidad
+penal de la persona jur&#237;dica. Si durante la investigaci&#243;n
+de un delito el Ministerio P&#250;blico toma conocimiento de
+circunstancias que funden la responsabilidad penal de una
+persona jur&#237;dica en los t&#233;rminos de esta ley, ampliar&#225;
+dicha investigaci&#243;n con el fin de determinar tal
+responsabilidad.
+     La investigaci&#243;n tambi&#233;n podr&#225; iniciarse por
+denuncia o por querella. En este &#250;ltimo caso, podr&#225; ser
+deducida por la v&#237;ctima de conformidad con el C&#243;digo
+Procesal Penal, as&#237; como por cualquier persona capaz de
+parecer en juicio domiciliada en la provincia, respecto de
+hechos punibles que afecten el ejercicio de la funci&#243;n
+p&#250;blica o la probidad administrativa, o respecto de
+aquellos delitos que puedan causar graves consecuencias
+sociales y econ&#243;micas.
+     Lo dispuesto en los incisos precedentes se entiende sin
+perjuicio de las reglas especiales que la ley establezca
+sobre el ejercicio de la acci&#243;n penal por el respectivo
+delito.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">20 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10450430">
+                      <Texto>     Art&#237;culo 20 bis.- Supervisi&#243;n de la persona jur&#237;dica
+como medida cautelar. Una vez formalizada la investigaci&#243;n
+contra una persona jur&#237;dica, el fiscal del Ministerio
+P&#250;blico podr&#225; solicitar que se imponga como medida
+cautelar durante el procedimiento la supervisi&#243;n de la
+persona jur&#237;dica conforme a lo previsto en los art&#237;culos
+11 bis y 17 qu&#225;ter.      
+     El tribunal acoger&#225; la solicitud cuando se cumplan los
+requisitos se&#241;alados en las letras a) y b) del art&#237;culo
+140 del C&#243;digo Procesal Penal respecto de una persona
+natural cuyo hecho pueda dar lugar a la responsabilidad
+penal de la persona jur&#237;dica y se acredite que la medida,
+atendida la inexistencia o grave insuficiencia de un sistema
+efectivo de prevenci&#243;n de delitos, es estrictamente
+necesaria para prevenir la perpetraci&#243;n de nuevos delitos
+en su seno. La solicitud y la ejecuci&#243;n de la medida
+cautelar se regir&#225;n, en todo lo no previsto por esta ley,
+por lo dispuesto en el P&#225;rrafo 4&#176; del T&#237;tulo V del Libro
+I del C&#243;digo Procesal Penal.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">20 BIS</NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811463">
+                      <Texto>
+     Art&#237;culo 21.- Aplicaci&#243;n de las normas relativas al
+imputado. En lo no regulado en esta ley, ser&#225;n aplicables a
+las personas jur&#237;dicas las disposiciones relativas al
+imputado, al acusado y al condenado, establecidas en el
+C&#243;digo Procesal Penal y en las leyes especiales
+respectivas, siempre que aqu&#233;llas resulten compatibles con
+la naturaleza espec&#237;fica de las personas jur&#237;dicas.
+
+     En especial, les ser&#225;n aplicables las disposiciones
+contenidas en los art&#237;culos 4&#176;, 7&#176;, 8&#176;, 10, 93, 98, 102,
+183, 184, 186, 193, 194 y 257 del C&#243;digo Procesal Penal,
+derechos y garant&#237;as que podr&#225;n ser ejercidos por
+cualquier representante de la persona jur&#237;dica.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">21 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811464">
+                      <Texto>
+     Art&#237;culo 22.- Formalizaci&#243;n de la investigaci&#243;n.
+Cuando el fiscal considere oportuno formalizar el
+procedimiento dirigido en contra de la persona jur&#237;dica,
+solicitar&#225; al juez de garant&#237;a la citaci&#243;n del
+representante legal de aqu&#233;lla, de conformidad al art&#237;culo
+230 y siguientes del C&#243;digo Procesal Penal. Ser&#225; requisito
+previo para proceder de esta forma, al menos, que se haya
+solicitado una audiencia de formalizaci&#243;n de la
+investigaci&#243;n o presentado un requerimiento de acuerdo a
+las reglas del procedimiento simplificado, respecto de la
+persona natural que pudiese comprometer la responsabilidad
+de la persona jur&#237;dica seg&#250;n lo disponen los incisos
+primero y segundo del art&#237;culo 3&#176;, salvo en los casos
+establecidos en el art&#237;culo 5&#176;.
+
+     Dicha solicitud deber&#225; contener, adem&#225;s, la
+individualizaci&#243;n del representante legal de la persona
+jur&#237;dica.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">22 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-20" derogado="no derogado" idParte="8811465">
+                      <Texto>
+     Art&#237;culo 23.- Representaci&#243;n de la persona jur&#237;dica.
+Si citado para comparecer a una audiencia ante el tribunal,
+el representante legal de la persona jur&#237;dica imputada no
+se presentare injustificadamente, el tribunal podr&#225; ordenar
+que sea arrestado hasta la realizaci&#243;n de la audiencia, la
+que deber&#225; efectuarse dentro de un plazo m&#225;ximo de
+veinticuatro horas desde que se produzca la privaci&#243;n de
+libertad.
+
+     Si el representante legal no fuere habido, el fiscal
+solicitar&#225; al tribunal que designe a un defensor penal
+p&#250;blico, quien realizar&#225; la funci&#243;n de un curador ad
+litem, en representaci&#243;n de la persona jur&#237;dica.
+
+     En todo caso, la persona jur&#237;dica podr&#225; designar en
+cualquier momento a un defensor de su confianza.
+
+     Cuando la ley procesal penal exigiere la presencia del
+imputado como condici&#243;n o requisito para la realizaci&#243;n de
+una audiencia judicial, se entender&#225; que dicha exigencia es
+satisfecha con la presencia del curador ad litem o del
+defensor de confianza, en su caso. Proceder&#225;n respecto de
+ambos, para dichos efectos, los apercibimientos previstos en
+el inciso primero.
+
+     Si se formalizare una investigaci&#243;n con respecto a
+dicho representante por el mismo hecho punible por el cual
+se investiga la responsabilidad penal de la persona
+jur&#237;dica, cesar&#225; su representaci&#243;n, y el tribunal
+solicitar&#225; al &#243;rgano competente de aqu&#233;lla la
+designaci&#243;n de un nuevo representante, dentro del plazo que
+le se&#241;ale. Si transcurrido el tiempo fijado por el tribunal
+no se notifica la designaci&#243;n ordenada, el tribunal
+designar&#225; al efecto un curador ad litem.
+</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">23 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811466">
+                      <Texto>
+     Art&#237;culo 24.- Improcedencia de la aplicaci&#243;n del
+principio de oportunidad. Lo dispuesto en el art&#237;culo 170
+del C&#243;digo Procesal Penal no ser&#225; aplicable respecto de la
+responsabilidad penal de la persona jur&#237;dica.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">24 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="8811467">
+                      <Texto>
+     Art&#237;culo 25.- Suspensi&#243;n condicional del
+procedimiento. La suspensi&#243;n condicional del procedimiento
+podr&#225; decretarse siempre que no existiere una condena u
+otra suspensi&#243;n condicional del procedimiento vigente,
+respecto de la persona jur&#237;dica imputada por algunos de los
+delitos previstos en esta ley.
+
+     El juez de garant&#237;a dispondr&#225;, seg&#250;n correspondiere,
+que durante el per&#237;odo de suspensi&#243;n, el que no podr&#225; ser
+inferior a seis meses ni superior a tres a&#241;os, la persona
+jur&#237;dica est&#233; sujeta al cumplimiento de una o m&#225;s de las
+siguientes condiciones:
+
+     1) Pagar una determinada suma a beneficio fiscal.
+
+     2) Prestar un determinado servicio a favor de la
+comunidad.
+
+     3) Informar peri&#243;dicamente su estado financiero a la
+instituci&#243;n que se determinare.
+
+     4) Implementar un programa para hacer efectivo el
+modelo de organizaci&#243;n, administraci&#243;n y supervisi&#243;n a
+que se refiere el art&#237;culo 4&#176;.
+
+     4 bis) Someterse a supervisi&#243;n en los t&#233;rminos de los
+art&#237;culos 11 bis y 17 qu&#225;ter.
+
+     5) Cualquiera otra condici&#243;n que resulte adecuada en
+consideraci&#243;n a las circunstancias del caso concreto y
+fuere propuesta, fundadamente, por el Ministerio P&#250;blico.
+
+     En los casos en que el juez imponga la medida se&#241;alada
+en el n&#250;mero 1), deber&#225; comunicarlo a la Tesorer&#237;a
+General de la Rep&#250;blica.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">25 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811468">
+                      <Texto>
+     Art&#237;culo 26.- Determinaci&#243;n del procedimiento
+aplicable a la responsabilidad penal de la persona
+jur&#237;dica. Si el fiscal, al acusar o requerir de acuerdo a
+las normas del procedimiento simplificado, solicitare la
+aplicaci&#243;n de alguna de las penas contempladas para los
+simples delitos, en su grado m&#237;nimo, el conocimiento y
+fallo de aqu&#233;llas se realizar&#225; conforme a las normas del
+procedimiento simplificado.
+
+     En los casos en que el fiscal acusare solicitando s&#243;lo
+penas de crimen o de simple delito en su grado medio, su
+conocimiento y fallo se realizar&#225; conforme a las normas del
+juicio oral del T&#237;tulo III del Libro II del C&#243;digo
+Procesal Penal.
+
+     Si el fiscal requiriere o acusare a la persona natural
+y jur&#237;dica en el mismo acto, se seguir&#225; conforme al
+procedimiento aplicable a la persona natural. Lo anterior no
+ser&#225; aplicable trat&#225;ndose de penas de crimen.
+
+     Respecto de la responsabilidad penal de las personas
+jur&#237;dicas, no ser&#225; procedente el procedimiento monitorio.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">26 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811469">
+                      <Texto>
+     Art&#237;culo 27.- Procedimiento abreviado. El
+procedimiento establecido en los art&#237;culos 406 y siguientes
+del C&#243;digo Procesal Penal ser&#225; aplicable para determinar
+la responsabilidad y para imponer las sanciones establecidas
+en la presente ley.
+
+     Se seguir&#225; este procedimiento para conocer y fallar
+los hechos respecto de los cuales el fiscal requiriere la
+imposici&#243;n de una o m&#225;s penas de simple delito.
+
+     El tribunal no podr&#225; imponer una pena superior ni m&#225;s
+desfavorable a la requerida por el fiscal.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">27 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811470">
+                      <Texto>
+     Art&#237;culo 28.- Defensa de las personas jur&#237;dicas. Toda
+persona jur&#237;dica que no pudiere procurarse defensa por sus
+propios medios, tendr&#225; derecho a solicitar al juez la
+designaci&#243;n de un defensor penal p&#250;blico.</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">28 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811471">
+                      <Texto>
+     Art&#237;culo 29.- Suspensi&#243;n de la condena. Si en la
+sentencia condenatoria el tribunal impusiere alguna pena de
+simple delito en su grado m&#237;nimo, podr&#225;, mediante
+resoluci&#243;n fundada y de manera excepcional, considerando
+especialmente el n&#250;mero de trabajadores o las ventas
+anuales netas o los montos de exportaci&#243;n de la empresa,
+disponer la suspensi&#243;n de la condena y sus efectos por un
+plazo no inferior a seis meses ni superior a dos a&#241;os. En
+este caso, el tribunal podr&#225; sustraer de este efecto la
+pena accesoria de comiso.
+
+     Trat&#225;ndose de empresas del Estado o de empresas que
+prestan un servicio de utilidad p&#250;blica cuya interrupci&#243;n
+pudiere causar graves consecuencias sociales y econ&#243;micas o
+da&#241;os serios a la comunidad, el juez podr&#225; disponer la
+suspensi&#243;n cualquiera fuere la pena impuesta en la
+sentencia.
+
+     Transcurrido el plazo previsto en el inciso primero sin
+que la persona jur&#237;dica hubiere sido objeto de nuevo
+requerimiento o de una nueva formalizaci&#243;n de la
+investigaci&#243;n, el tribunal dejar&#225; sin efecto la sentencia
+y, en su reemplazo, decretar&#225; el sobreseimiento definitivo
+de la causa.
+
+     Esta suspensi&#243;n no afecta la responsabilidad civil
+derivada del delito.".</Texto>
+                      <Metadatos>
+                        <NombreParte presente="si">29 </NombreParte>
+                        <TituloParte presente="no">&#160;</TituloParte>
+                        
+                      </Metadatos>
+                    </EstructuraFuncional>
+                  </EstructurasFuncionales>
+                </EstructuraFuncional>
+              </EstructurasFuncionales>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811472">
+      <Texto>
+     Art&#237;culo Segundo.- Introd&#250;cese, en el art&#237;culo 294
+bis del C&#243;digo Penal, el siguiente inciso segundo:
+
+     "Cuando la asociaci&#243;n se hubiere formado a trav&#233;s de
+una persona jur&#237;dica, se impondr&#225; adem&#225;s, como
+consecuencia accesoria de la pena impuesta a los
+responsables individuales, la disoluci&#243;n o cancelaci&#243;n de
+la personalidad jur&#237;dica.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">SEGUNDO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-02" derogado="no derogado" idParte="8811473">
+      <Texto>
+     Art&#237;culo Tercero.- Introd&#250;cese, en el art&#237;culo 28 de
+la ley N&#186; 19.913, que crea la Unidad de An&#225;lisis
+Financiero y modifica diversas disposiciones en materia de
+lavado y blanqueo de activos, el siguiente inciso segundo:
+
+     "Cuando la asociaci&#243;n se hubiere formado a trav&#233;s de
+una persona jur&#237;dica, se impondr&#225; adem&#225;s, como
+consecuencia accesoria de la pena impuesta a los
+responsables individuales, la disoluci&#243;n o cancelaci&#243;n de
+la personalidad jur&#237;dica.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">TERCERO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2009-12-02" derogado="no derogado">
+    <Texto>
+     Y por cuanto he tenido a bien aprobarlo y sancionarlo;
+por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la
+Rep&#250;blica.
+     Santiago, 25 de noviembre de 2009.- MICHELLE BACHELET
+JERIA, Presidenta de la Rep&#250;blica.- Andr&#233;s Velasco
+Bra&#241;es, Ministro de Hacienda.- Edmundo P&#233;rez Yoma,
+Ministro del Interior.- Mariano Fern&#225;ndez Amun&#225;tegui,
+Ministro de Relaciones Exteriores.- Carlos Maldonado Curti,
+Ministro de Justicia.
+     Lo que transcribo a usted para su conocimiento.- Saluda
+Atte. a usted, Mar&#237;a Olivia Recart Herrera, Subsecretaria
+de Hacienda.</Texto>
+  </Promulgacion>
+  
+</Norma>

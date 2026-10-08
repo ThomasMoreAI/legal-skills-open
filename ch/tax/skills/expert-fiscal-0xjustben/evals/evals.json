@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tax-pm-zug",
+    "input": "Estimation de charge fiscale PM pour 500'000 CHF de bénéfice à Zoug (chef-lieu) ?",
+    "expected_themes": ["Zoug", "11.85", "effectif", "59"],
+    "must_cite": ["LIFD"],
+    "must_not_cite": ["CGI", "BOFiP"]
+  },
+  {
+    "id": "tax-3a-2026",
+    "input": "Quel est le plafond de déduction du pilier 3a pour un salarié en 2026 ?",
+    "expected_themes": ["7'258", "art. 33"],
+    "must_cite": ["LIFD"],
+    "must_not_cite": ["PER", "URSSAF"]
+  },
+  {
+    "id": "tax-frontalier-ge",
+    "input": "Quel régime pour un frontalier français travaillant à Genève ?",
+    "expected_themes": ["impôt à la source", "4.5", "rétrocession", "1973"],
+    "must_cite": ["convention"],
+    "must_not_cite": []
+  },
+  {
+    "id": "tax-compare-zh-zg",
+    "input": "Compare la charge PM à ZH vs ZG sur 500'000 CHF de bénéfice avant impôt.",
+    "expected_themes": ["ZG", "ZH", "11.85", "19.7"],
+    "must_cite": ["LIFD"],
+    "must_not_cite": []
+  }
+]

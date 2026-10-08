@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2022-11-10/211">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211"/>
+          <FRBRdate date="2022-11-10" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="211"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@"/>
+          <FRBRdate date="2022-11-23" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.</num>
+        <heading>Definiciones.</heading>
+        <paragraph eId="art_2__para_1">
+          <num>1.</num>
+          <content><p>A los efectos de lo dispuesto en este Decreto, se entiende por currículo de la Educación Primaria el conjunto de objetivos, competencias, contenidos enunciados en forma de saberes básicos, criterios de evaluación, situaciones de aprendizaje y métodos pedagógicos. Todo ello ha de regular la práctica docente, de forma que se desarrollen de manera integral las capacidades del alumnado.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>2.</num>
+          <content><p>En base a lo explicitado en el apartado anterior, y en relación a lo dispuesto en este Decreto, se entenderá por:</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_3">
+          <num>a)</num>
+          <content><p>Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar la etapa y cuya consecución está vinculada al proceso de desarrollo y adquisición de las competencias clave y de las competencias específicas de cada área.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_4">
+          <num>b)</num>
+          <content><p>Competencias clave: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales. Las competencias clave aparecen recogidas en el Perfil de salida del alumnado al término de la enseñanza básica (en adelante, Perfil de salida) y son la adaptación al sistema educativo español de las competencias clave establecidas en la Recomendación del Consejo de la Unión Europea, de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente. Este perfil de salida ha sido adaptado, además, al nivel de desempeño esperado para el alumnado que finaliza la Educación Primaria.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_5">
+          <num>c)</num>
+          <content><p>Competencias específicas: desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada área. Las competencias específicas constituyen un elemento de conexión entre, por una parte, el Perfil de salida del alumnado, y, por otra, los saberes básicos de las áreas y los criterios de evaluación. Las competencias específicas de cada área, que serán comunes para todos los ciclos de la etapa, presentan un carácter finalista. Su grado de consecución en cada uno de los ciclos de la etapa viene determinado por los criterios de evaluación que se establecen para cada una de ellas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_6">
+          <num>d)</num>
+          <content><p>Criterios de evaluación: referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades a las que se refieren las competencias específicas de cada área en un momento determinado de su proceso de aprendizaje. Constituyen los referentes para la evaluación tanto de los saberes propios de las áreas, como del grado de desarrollo y adquisición de las competencias específicas y clave.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_7">
+          <num>e)</num>
+          <content><p>Saberes básicos: conocimientos, destrezas y actitudes que constituyen los contenidos propios de un área y cuyo aprendizaje es necesario para la adquisición de las competencias específicas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_8">
+          <num>f)</num>
+          <content><p>Situaciones de aprendizaje: situaciones y actividades que implican el despliegue, por parte del alumnado, de actuaciones asociadas a competencias clave y competencias específicas, y que contribuyen a la adquisición y desarrollo de las mismas.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

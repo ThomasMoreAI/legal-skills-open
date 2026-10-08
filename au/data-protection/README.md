@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `au` · Practice: `data-protection` · Skill language: en
 
-## Skills (10)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `au` · Practice: `data-protection` · Skill language: en
 | [`User Input`](skills/arckit-au-pia-tractorjuice/) | [COMMUNITY] Generate a Privacy Impact Assessment (PIA) for Australian Government entities under Privacy… |
 | [`Assess AI Privacy and Cybersecurity Use Case`](skills/assess-ai-privacy-cybersecurity-use-case-l0cka/) | Assess whether a proposed or existing AI-system use case is suitable from an Australian privacy… |
 | [`Assess Australian Data Breach`](skills/assess-australian-data-breach-l0cka/) | Triage a suspected Australian privacy or cybersecurity incident for lawyers; extract incident facts… |
+| [`Assess Australian Privacy Issues`](skills/assess-australian-privacy-issues-l0cka/) | Identify and structure Australian privacy, data protection and cybersecurity legal issues from facts… |
 | [`Assess Automated Decision Transparency`](skills/assess-automated-decision-transparency-l0cka/) | Assess current and commencing Australian privacy transparency obligations for automated and AI-assisted… |
 | [`Assess Statutory Privacy Tort`](skills/assess-statutory-privacy-tort-l0cka/) | Screen facts and AI-system use cases against the legislation-only statutory tort for serious invasions… |
 | [`Australia Privacy Act Compliance (2024 Amendments)`](skills/australia-privacy-act/) | Guides compliance with Australia's Privacy Act 1988 including the 2024 reform amendments. Covers… |

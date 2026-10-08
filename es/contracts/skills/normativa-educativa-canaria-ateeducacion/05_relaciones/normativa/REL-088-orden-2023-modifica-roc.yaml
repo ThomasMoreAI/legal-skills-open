@@ -1,0 +1,11 @@
+id: REL-088
+tipo_relacion: "modifica"
+origen: NOR-112
+destino: NOR-076
+descripcion: "La Orden de 28 de septiembre de 2023 modifica el Reglamento Orgánico desarrollado por la Orden de 9 de octubre de 2013, reduciendo a 23 horas la jornada lectiva semanal del cuerpo de Maestros (artículos 17, 18 y 36)."
+evidencia:
+  fuente: FTE-119
+  localizacion: "BOC n.º 201, de 11 de octubre de 2023, anuncio 3291."
+fecha_registro: 2026-08-23
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Registrada al resolver el marcador [PENDIENTE] de NOR-076 (TAREA-093)."

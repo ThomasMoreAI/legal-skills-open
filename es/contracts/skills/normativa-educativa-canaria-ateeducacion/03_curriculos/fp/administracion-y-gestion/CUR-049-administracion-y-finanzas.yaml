@@ -1,0 +1,1015 @@
+id: CUR-049
+titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
+etapa: "formacion-profesional"
+familia_profesional: "Administración y Gestión"
+grado: "gs"
+materia: "Administración y Finanzas"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-054
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  modulos_profesionales:
+    - codigo: "0647"
+      nombre: "Gestión de la documentación jurídica y empresarial"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Caracteriza la estructura y organización de las administraciones públicas relacionándola con la Constitución española y la Unión Europea."
+          criterios_evaluacion:
+            - "a) Se han identificado los poderes públicos establecidos en la Constitución española."
+            - "b) Se han determinado los órganos de gobierno y sus funciones."
+            - "c) Se han identificado los órganos de las administraciones autonómicas y locales."
+            - "d) Se han definido las estructuras de las principales instituciones de la Unión Europea."
+            - "e) Se han descrito las funciones de los órganos y la normativa aplicable."
+            - "f) Se han descrito las relaciones entre los órganos de la Unión Europea y las administraciones nacionales."
+        - numero: 2
+          enunciado: "Actualiza periódicamente la información jurídica requerida por la actividad empresarial analizando la legislación publicada."
+          criterios_evaluacion:
+            - "a) Se han reconocido las fuentes del Derecho según el ordenamiento jurídico español."
+            - "b) Se han precisado las características de las normas jurídicas y los órganos que las elaboran."
+            - "c) Se han relacionado las leyes con las normas de desarrollo."
+            - "d) Se ha identificado la estructura de los boletines oficiales."
+            - "e) Se han seleccionado las fuentes y bases de datos jurídicas más utilizadas."
+            - "f) Se ha detectado la nueva normativa y jurisprudencia con incidencia en la actividad."
+            - "g) Se ha archivado la información en los soportes establecidos."
+        - numero: 3
+          enunciado: "Organiza los documentos jurídicos de la constitución y funcionamiento de las empresas reconociendo la estructura de cada tipo de empresa."
+          criterios_evaluacion:
+            - "a) Se han identificado las diferencias entre las formas jurídicas de las empresas."
+            - "b) Se ha determinado el proceso de constitución de una sociedad mercantil tipo."
+            - "c) Se han precisado las funciones de los fedatarios y registros públicos."
+            - "d) Se han descrito las características de los modelos documentales societarios."
+            - "e) Se han elaborado documentos societarios a partir de los datos aportados."
+            - "f) Se ha reconocido la importancia de la actuación de los fedatarios."
+            - "g) Se han determinado las peculiaridades de la documentación mercantil."
+            - "h) Se ha verificado el cumplimiento de las características de los libros sociales."
+        - numero: 4
+          enunciado: "Cumplimenta los modelos de contratación privados más habituales en el ámbito empresarial y los documentos de fe pública, identificando las normas que regulan los contratos."
+          criterios_evaluacion:
+            - "a) Se ha descrito el concepto de contrato y la capacidad para contratar."
+            - "b) Se han identificado las modalidades de contratación y sus características."
+            - "c) Se han identificado las normas que regulan los distintos tipos de contratos empresariales."
+            - "d) Se ha recopilado y cotejado la información necesaria para la cumplimentación."
+            - "e) Se han cumplimentado los modelos normalizados utilizando aplicaciones informáticas."
+            - "f) Se han verificado los datos y los requisitos contractuales."
+            - "g) Se ha valorado la utilización de la firma digital y los certificados de autenticidad."
+            - "h) Se han aplicado las normas de seguridad y confidencialidad en la custodia."
+        - numero: 5
+          enunciado: "Elabora la documentación requerida por los organismos públicos relativos a los distintos procedimientos administrativos, atendiendo a la normativa vigente."
+          criterios_evaluacion:
+            - "a) Se ha definido el concepto de procedimiento administrativo y sus fases."
+            - "b) Se han determinado las características y los requisitos de los documentos oficiales más habituales."
+            - "c) Se ha recopilado la información necesaria para la elaboración de la documentación."
+            - "d) Se han cumplimentado los impresos según los datos e información disponible."
+            - "e) Se ha valorado la importancia del cumplimiento de plazos en la formulación."
+            - "f) Se han preparado las renovaciones y las acciones periódicas requeridas."
+            - "g) Se han descrito las características de la firma electrónica."
+            - "h) Se ha establecido el procedimiento para la obtención de certificados de firma electrónica."
+            - "i) Se han descrito los derechos de las corporaciones y ciudadanos en la Administración."
+            - "j) Se han determinado los trámites de contratación pública y subvenciones."
+            - "k) Se han determinado las condiciones de custodia de documentos y expedientes."
+
+    - codigo: "0648"
+      nombre: "Recursos humanos y responsabilidad social corporativa"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Caracteriza la empresa como una comunidad de personas distinguiendo las implicaciones éticas del comportamiento empresarial."
+          criterios_evaluacion:
+            - "a) Se han determinado las actividades empresariales y las responsabilidades de distinto tipo que generan."
+            - "b) Se han identificado las variables éticas y culturales de las organizaciones."
+            - "c) Se han evaluado las implicaciones entre competitividad y comportamiento ético."
+            - "d) Se han definido los estilos éticos de adaptación a los cambios empresariales."
+            - "e) Se han seleccionado los indicadores para el diagnóstico de las relaciones internas."
+            - "f) Se han determinado los elementos de mejora de las comunicaciones internas."
+        - numero: 2
+          enunciado: "Contrasta la aplicación de los principios de la RSC en las políticas de recursos humanos de la empresa, evaluando las implicaciones éticas."
+          criterios_evaluacion:
+            - "a) Se ha definido el concepto de responsabilidad social corporativa."
+            - "b) Se han analizado las políticas de recursos humanos (motivación, mejora continua, promoción)."
+            - "c) Se han analizado las recomendaciones y normativa europea y nacional."
+            - "d) Se han descrito las buenas prácticas empresariales en los códigos de conducta."
+            - "e) Se han programado los puntos de control para contrastar el cumplimiento."
+        - numero: 3
+          enunciado: "Coordina los flujos de información del departamento de recursos humanos reconociendo y aplicando las habilidades personales y sociales necesarias."
+          criterios_evaluacion:
+            - "a) Se han descrito las funciones del área de gestión de recursos humanos."
+            - "b) Se han caracterizado las habilidades para la comunicación efectiva."
+            - "c) Se han establecido los canales de comunicación interna del departamento."
+            - "d) Se ha analizado la información proporcionada por los sistemas de control de personal."
+            - "e) Se ha mantenido actualizada la información precisa y verificada."
+            - "f) Se ha establecido el sistema de organización y conservación de la documentación."
+            - "g) Se ha utilizado el sistema informático para el almacenamiento de la información."
+            - "h) Se ha valorado la importancia de la seguridad y confidencialidad de la información."
+        - numero: 4
+          enunciado: "Aplica los procedimientos administrativos de selección de recursos humanos interpretando las políticas empresariales de contratación."
+          criterios_evaluacion:
+            - "a) Se han identificado los organismos de selección y formación de recursos humanos."
+            - "b) Se han secuenciado las fases del proceso de selección de personal."
+            - "c) Se ha identificado la información que se genera en cada fase del proceso."
+            - "d) Se ha valorado la importancia del perfil del puesto de trabajo."
+            - "e) Se han establecido las características de los métodos e instrumentos de selección."
+            - "f) Se ha elaborado la documentación necesaria para el proceso de selección."
+            - "g) Se han establecido las vías de comunicación oral y escrita en el proceso."
+            - "h) Se ha registrado y archivado la información del proceso de selección."
+        - numero: 5
+          enunciado: "Gestiona los procedimientos administrativos de formación, promoción y desarrollo de los recursos humanos de la empresa aplicando la normativa vigente."
+          criterios_evaluacion:
+            - "a) Se han planificado las fases de los procesos de formación y promoción."
+            - "b) Se han establecido las características de los métodos e instrumentos."
+            - "c) Se ha identificado la información que se genera en cada fase."
+            - "d) Se ha elaborado la documentación necesaria para los procesos."
+            - "e) Se han establecido los métodos de valoración del trabajo y sistemas de incentivos."
+            - "f) Se ha recabado información sobre las necesidades formativas."
+            - "g) Se han detectado las necesidades de recursos materiales y humanos."
+            - "h) Se han establecido las vías de comunicación oral y escrita en el proceso."
+            - "i) Se ha registrado y archivado la información relevante del proceso."
+            - "j) Se han aplicado los procedimientos de seguimiento y evaluación de resultados."
+
+    - codigo: "0649"
+      nombre: "Ofimática y proceso de la información"
+      horas_totales: 115
+      ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Mantiene los equipos informáticos, las aplicaciones instaladas y la red en condiciones óptimas de funcionamiento."
+          criterios_evaluacion:
+            - "a) Se han realizado pruebas de funcionamiento de los equipos informáticos."
+            - "b) Se han comprobado las conexiones de los puertos de comunicación."
+            - "c) Se han identificado los elementos básicos de hardware y software."
+            - "d) Se han caracterizado los procedimientos generales de operaciones en red."
+            - "e) Se han utilizado las funciones básicas del sistema operativo."
+            - "f) Se han aplicado las medidas de seguridad y confidencialidad."
+            - "g) Se ha compartido información con otros usuarios de la red."
+            - "h) Se han ejecutado las funciones básicas de usuario en red."
+        - numero: 2
+          enunciado: "Escribe textos alfanuméricos en un teclado extendido aplicando las técnicas mecanográficas."
+          criterios_evaluacion:
+            - "a) Se han organizado los elementos y espacios de trabajo."
+            - "b) Se ha mantenido la postura corporal correcta."
+            - "c) Se ha identificado la posición correcta de los dedos en el teclado."
+            - "d) Se han precisado las funciones de puesta en marcha del terminal."
+            - "e) Se han empleado coordinadamente las líneas del teclado alfanumérico."
+            - "f) Se ha utilizado el método de escritura al tacto en textos de dificultad progresiva."
+            - "g) Se ha utilizado el método de escritura al tacto en inglés."
+            - "h) Se ha mecanografiado con velocidad (mínimo 200 p.p.m.) y precisión (máximo 1 falta/min)."
+            - "i) Se han aplicado las normas de presentación de documentos."
+            - "j) Se han localizado y corregido los errores mecanográficos."
+        - numero: 3
+          enunciado: "Gestiona los sistemas de archivos buscando y seleccionando con criterio la información necesaria para el tratamiento."
+          criterios_evaluacion:
+            - "a) Se han detectado las necesidades de información."
+            - "b) Se han identificado y priorizado las fuentes de obtención de información."
+            - "c) Se han elegido los buscadores según criterios de rapidez y calidad."
+            - "d) Se han empleado herramientas Web 2.0."
+            - "e) Se han utilizado criterios de búsqueda para restringir los resultados."
+            - "f) Se han aplicado los sistemas de seguridad y protección de la información."
+            - "g) Se ha canalizado la información archivándola o registrándola."
+            - "h) Se han organizado los archivos para facilitar la búsqueda posterior."
+            - "i) Se ha actualizado la información necesaria."
+            - "j) Se han cumplido los plazos previstos."
+            - "k) Se han realizado copias de archivos."
+        - numero: 4
+          enunciado: "Elabora hojas de cálculo adaptadas a las necesidades de tratamiento de la información de la empresa."
+          criterios_evaluacion:
+            - "a) Se han utilizado las prestaciones para gestiones de tesorería y cálculos comerciales."
+            - "b) Se han diseñado y elaborado documentos con hoja de cálculo."
+            - "c) Se han relacionado y actualizado hojas de cálculo."
+            - "d) Se han creado y anidado fórmulas y funciones."
+            - "e) Se han establecido contraseñas para proteger celdas, hojas y libros."
+            - "f) Se han obtenido gráficos adecuados para el análisis de la información."
+            - "g) Se han empleado macros para la realización de documentos y plantillas."
+            - "h) Se han importado y exportado hojas de cálculo con otros formatos."
+            - "i) Se ha utilizado la hoja de cálculo como base de datos."
+            - "j) Se han utilizado aplicaciones y periféricos para introducir datos."
+        - numero: 5
+          enunciado: "Elabora documentos de textos utilizando las opciones avanzadas de los procesadores de textos."
+          criterios_evaluacion:
+            - "a) Se han utilizado las funciones y prestaciones de los procesadores de textos."
+            - "b) Se han identificado las características de cada tipo de documento."
+            - "c) Se han redactado documentos con destreza y normas de estructura."
+            - "d) Se han confeccionado plantillas para documentos administrativos tipo."
+            - "e) Se han integrado objetos, gráficos, tablas y hojas de cálculo."
+            - "f) Se han detectado y corregido los errores cometidos."
+            - "g) Se ha recuperado y utilizado la información almacenada."
+            - "h) Se han utilizado las funciones que garanticen la seguridad e integridad."
+        - numero: 6
+          enunciado: "Utiliza sistemas de gestión de bases de datos para el tratamiento y análisis de la información empresarial."
+          criterios_evaluacion:
+            - "a) Se han ordenado y clasificado los datos para presentar la información."
+            - "b) Se han realizado consultas de bases de datos con criterios precisos."
+            - "c) Se han realizado informes con criterios precisos."
+            - "d) Se han realizado formularios con criterios precisos."
+            - "e) Se han actualizado, fusionado y eliminado registros."
+            - "f) Se han relacionado bases de datos con otras aplicaciones informáticas."
+            - "g) Se han protegido las bases de datos estableciendo niveles de seguridad."
+            - "h) Se ha elaborado una base de datos adaptada a los requerimientos."
+        - numero: 7
+          enunciado: "Gestiona de forma integrada la información procedente de distintas aplicaciones y los archivos audiovisuales."
+          criterios_evaluacion:
+            - "a) Se han gestionado bases de datos, textos e imágenes de forma integrada."
+            - "b) Se han seleccionado archivos audiovisuales de fuentes externas."
+            - "c) Se ha creado y mantenido un banco propio de recursos audiovisuales."
+            - "d) Se han personalizado los archivos audiovisuales según el objetivo."
+            - "e) Se ha respetado la legislación en la protección de archivos audiovisuales."
+        - numero: 8
+          enunciado: "Gestiona el correo y la agenda electrónica utilizando aplicaciones de gestión específicas."
+          criterios_evaluacion:
+            - "a) Se ha utilizado la aplicación de correo electrónico."
+            - "b) Se ha identificado el emisor, el destinatario y el contenido."
+            - "c) Se han aplicado los filtros de protección de correo no deseado."
+            - "d) Se ha canalizado la información a los implicados."
+            - "e) Se ha comprobado la recepción de los mensajes."
+            - "f) Se han organizado las bandejas de entrada y salida."
+            - "g) Se ha registrado la entrada o salida de correos."
+            - "h) Se han imprimido, archivado o eliminado los mensajes."
+            - "i) Se han aplicado las funciones de la agenda electrónica."
+            - "j) Se han conectado y sincronizado agendas con dispositivos móviles."
+        - numero: 9
+          enunciado: "Elabora presentaciones multimedia de documentos e informes utilizando aplicaciones específicas."
+          criterios_evaluacion:
+            - "a) Se ha realizado el análisis y la selección de la información."
+            - "b) Se han insertado distintos objetos (tablas, gráficos, fotos, vídeo)."
+            - "c) Se ha distribuido la información de forma clara y estructurada."
+            - "d) Se han animado los objetos según el objetivo de la presentación."
+            - "e) Se han creado presentaciones adecuadas para exposiciones orales."
+            - "f) Se han realizado presentaciones de informes empresariales."
+
+    - codigo: "0650"
+      nombre: "Proceso integral de la actividad comercial"
+      horas_totales: 100
+      ects: 11
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Determina los elementos patrimoniales de la empresa analizando la actividad empresarial."
+          criterios_evaluacion:
+            - "a) Se han identificado las fases del ciclo económico de la actividad empresarial."
+            - "b) Se han diferenciado los conceptos de inversión/financiación, inversión/gasto, gasto/pago e ingreso/cobro."
+            - "c) Se han distinguido los sectores económicos por tipología de actividades."
+            - "d) Se han definido los conceptos de patrimonio y masas patrimoniales."
+            - "e) Se han identificado las masas patrimoniales (activo, pasivo, patrimonio neto)."
+            - "f) Se ha relacionado el patrimonio económico con el financiero y el ciclo económico."
+            - "g) Se han clasificado los elementos en masas patrimoniales."
+        - numero: 2
+          enunciado: "Integra la normativa contable y el método de partida doble en el análisis del Plan General de Contabilidad PYME."
+          criterios_evaluacion:
+            - "a) Se han distinguido las fases del ciclo contable completo adaptadas a la legislación."
+            - "b) Se ha definido el concepto de cuenta como instrumento de representación."
+            - "c) Se han determinado las características del método de partida doble."
+            - "d) Se han reconocido los criterios de cargo y abono."
+            - "e) Se ha definido el concepto de resultado contable."
+            - "f) Se ha reconocido el PGC como instrumento de armonización contable."
+            - "g) Se han relacionado las distintas partes del PGC."
+            - "h) Se han codificado los elementos patrimoniales según el PGC."
+            - "i) Se han identificado las cuentas anuales del PGC."
+        - numero: 3
+          enunciado: "Gestiona la información sobre los tributos que gravan la actividad comercial de la empresa aplicando la normativa fiscal vigente."
+          criterios_evaluacion:
+            - "a) Se ha identificado la normativa fiscal básica de aplicación."
+            - "b) Se han clasificado los tributos con sus características básicas."
+            - "c) Se han identificado los elementos tributarios."
+            - "d) Se han identificado las normas aplicables a operaciones de compraventa."
+            - "e) Se han distinguido las operaciones sujetas, exentas y no sujetas a IVA."
+            - "f) Se han diferenciado los regímenes especiales del IVA."
+            - "g) Se han determinado las obligaciones de registro en relación con el IVA."
+            - "h) Se han calculado las cuotas liquidables y la documentación asociada."
+            - "i) Se ha reconocido la normativa sobre conservación de documentos."
+        - numero: 4
+          enunciado: "Elabora y organiza la documentación administrativa de las operaciones de compraventa, relacionándola con las transacciones comerciales."
+          criterios_evaluacion:
+            - "a) Se han determinado los elementos del contrato mercantil de compraventa."
+            - "b) Se han establecido los flujos de documentación administrativa."
+            - "c) Se han identificado y cumplimentado los documentos de compraventa."
+            - "d) Se han reconocido los procesos de expedición y la documentación asociada."
+            - "e) Se ha verificado la documentación según la legislación vigente."
+            - "f) Se han identificado los parámetros e información a registrar."
+            - "g) Se ha valorado la necesidad de protección y salvaguarda de la información."
+            - "h) Se ha gestionado la documentación con rigor y precisión."
+            - "i) Se han utilizado aplicaciones informáticas específicas."
+        - numero: 5
+          enunciado: "Determina los trámites de gestión de cobros y pagos analizando la documentación asociada."
+          criterios_evaluacion:
+            - "a) Se han diferenciado los flujos de entrada y salida de tesorería."
+            - "b) Se han identificado los medios de pago y cobro habituales."
+            - "c) Se han comparado las formas de financiación comercial."
+            - "d) Se han aplicado las leyes financieras de capitalización."
+            - "e) Se ha calculado la liquidación de efectos comerciales."
+            - "f) Se han calculado las comisiones y gastos en productos bancarios."
+        - numero: 6
+          enunciado: "Registra los hechos contables básicos derivados de la actividad comercial de la empresa aplicando la metodología contable."
+          criterios_evaluacion:
+            - "a) Se han identificado y codificado las cuentas según el PGC."
+            - "b) Se han aplicado los criterios de cargo y abono según el PGC."
+            - "c) Se han efectuado los asientos de los hechos contables habituales."
+            - "d) Se han contabilizado las operaciones de liquidación del IVA."
+            - "e) Se han registrado los hechos contables previos al cierre."
+            - "f) Se ha calculado el resultado contable y el balance final."
+            - "g) Se ha preparado la información económica para la memoria."
+            - "h) Se han utilizado aplicaciones informáticas específicas."
+            - "i) Se han realizado copias de seguridad según el protocolo."
+            - "j) Se ha gestionado la documentación con rigor y precisión."
+        - numero: 7
+          enunciado: "Efectúa la gestión y el control de la tesorería de la empresa utilizando aplicaciones informáticas específicas."
+          criterios_evaluacion:
+            - "a) Se ha establecido la función y los métodos de control de tesorería."
+            - "b) Se han cumplimentado los libros y registros de tesorería."
+            - "c) Se han ejecutado las operaciones de arqueo y cuadre de caja."
+            - "d) Se ha cotejado la información de los extractos bancarios."
+            - "e) Se han descrito las utilidades del calendario de vencimientos."
+            - "f) Se ha relacionado el servicio de tesorería con otros departamentos."
+            - "g) Se ha valorado la utilización de medios on-line."
+            - "h) Se han efectuado los procedimientos según los principios de responsabilidad."
+            - "i) Se ha utilizado la hoja de cálculo para la gestión de tesorería."
+            - "j) Se ha identificado el procedimiento para la presentación de documentos."
+
+    - codigo: "0651"
+      nombre: "Comunicación y atención al cliente"
+      horas_totales: 115
+      ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Caracteriza las técnicas de comunicación institucional y promocional distinguiendo entre comunicación interna y externa."
+          criterios_evaluacion:
+            - "a) Se han identificado los tipos de instituciones empresariales."
+            - "b) Se han relacionado las funciones tipo de la organización."
+            - "c) Se ha identificado la estructura organizativa para la asistencia al cliente."
+            - "d) Se han relacionado los estilos de mando con el clima laboral."
+            - "e) Se han definido los canales formales de comunicación interna."
+            - "f) Se han diferenciado los procesos de comunicación internos."
+            - "g) Se ha valorado la influencia de la comunicación informal."
+            - "h) Se ha relacionado el proceso de demanda según el tipo de cliente."
+            - "i) Se ha valorado la importancia de transmisión de imagen corporativa."
+            - "j) Se han identificado los aspectos de imagen corporativa en la empresa."
+        - numero: 2
+          enunciado: "Realiza comunicaciones orales presenciales y no presenciales aplicando técnicas de comunicación y adaptándose a diferentes situaciones profesionales."
+          criterios_evaluacion:
+            - "a) Se han identificado los elementos y etapas del proceso de comunicación."
+            - "b) Se han aplicado las distintas técnicas de comunicación oral."
+            - "c) Se ha aplicado el protocolo de comunicación verbal y no verbal."
+            - "d) Se han identificado los elementos para llamadas telefónicas efectivas."
+            - "e) Se han tenido en cuenta las costumbres socioculturales y los usos empresariales."
+            - "f) Se han detectado las interferencias producidas por barreras."
+            - "g) Se ha utilizado el léxico adecuado al tipo de comunicación."
+            - "h) Se han aplicado convenientemente los elementos de comunicación no verbal."
+            - "i) Se ha valorado si la información ha sido transmitida con claridad."
+            - "j) Se han comprobado los errores y propuestas de acciones correctoras."
+        - numero: 3
+          enunciado: "Elabora documentos escritos de carácter profesional aplicando criterios lingüísticos, ortográficos y de estilo."
+          criterios_evaluacion:
+            - "a) Se han identificado los soportes y canales para los documentos escritos."
+            - "b) Se han diferenciado los soportes más apropiados para cada situación."
+            - "c) Se ha identificado el destinatario observando las normas de protocolo."
+            - "d) Se han diferenciado las estructuras y estilos de redacción."
+            - "e) Se ha redactado el documento apropiado con la estructura adecuada."
+            - "f) Se han utilizado aplicaciones informáticas de procesamiento de textos."
+            - "g) Se han publicado documentos con herramientas Web 2.0."
+            - "h) Se ha adecuado la documentación al manual de estilo de la empresa."
+            - "i) Se ha utilizado la normativa sobre protección de datos."
+            - "j) Se han aplicado las técnicas 3R (reducir, reutilizar, reciclar)."
+            - "k) Se han aplicado las técnicas de transmisión de imagen corporativa."
+        - numero: 4
+          enunciado: "Determina los procesos de recepción, registro, distribución y recuperación de comunicaciones escritas aplicando criterios específicos de cada una de estas tareas."
+          criterios_evaluacion:
+            - "a) Se han identificado los medios y procedimientos en la recepción y registro."
+            - "b) Se han determinado las ventajas e inconvenientes de los distintos medios."
+            - "c) Se ha seleccionado el medio de transmisión más adecuado."
+            - "d) Se han identificado los soportes de archivo y registro más utilizados."
+            - "e) Se han analizado las técnicas de mantenimiento del archivo."
+            - "f) Se ha determinado el sistema de clasificación y archivo."
+            - "g) Se han reconocido los procedimientos de consulta y conservación."
+            - "h) Se han respetado los niveles de protección y acceso a la información."
+            - "i) Se han registrado los correos electrónicos de forma organizada."
+            - "j) Se ha realizado la gestión y mantenimiento de libretas de direcciones."
+            - "k) Se ha valorado la importancia de la firma digital."
+        - numero: 5
+          enunciado: "Aplica técnicas de comunicación en situaciones de atención y asesoramiento al cliente identificando las más adecuadas según el tipo de situación."
+          criterios_evaluacion:
+            - "a) Se han aplicado las técnicas de comunicación y habilidades sociales."
+            - "b) Se han identificado las fases del proceso de atención al cliente."
+            - "c) Se ha adoptado la actitud adecuada según el comportamiento del cliente."
+            - "d) Se han analizado las motivaciones de compra o demanda del cliente."
+            - "e) Se ha obtenido la información histórica del cliente."
+            - "f) Se ha aplicado la forma y actitud adecuadas en la atención al cliente."
+            - "g) Se han analizado y solucionado los errores más habituales."
+        - numero: 6
+          enunciado: "Gestiona las consultas, quejas y reclamaciones de los clientes aplicando la normativa vigente en materia de consumo."
+          criterios_evaluacion:
+            - "a) Se han descrito las funciones del departamento de atención al cliente."
+            - "b) Se ha valorado la importancia de la actitud proactiva."
+            - "c) Se ha interpretado la comunicación recibida del cliente."
+            - "d) Se han relacionado los elementos de la queja con las fases de resolución."
+            - "e) Se han diferenciado los tipos de demanda o reclamación."
+            - "f) Se ha gestionado la información a suministrar al cliente."
+            - "g) Se han determinado los documentos propios de la gestión."
+            - "h) Se han redactado los escritos de respuesta adecuados."
+            - "i) Se ha valorado la importancia de la protección del consumidor."
+            - "j) Se ha aplicado la normativa en materia de consumo."
+        - numero: 7
+          enunciado: "Organiza el servicio posventa de los productos y servicios de la empresa relacionándolo con la fidelización del cliente."
+          criterios_evaluacion:
+            - "a) Se ha valorado la importancia del servicio posventa."
+            - "b) Se han identificado los elementos en la atención posventa."
+            - "c) Se han identificado las situaciones que precisan seguimiento."
+            - "d) Se han aplicado los métodos de control de calidad y fidelización."
+            - "e) Se han distinguido las fases de satisfacción y fidelización del cliente."
+
+    - codigo: "0179"
+      nombre: "Inglés"
+      horas_totales: 70
+      ects: 7
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce información profesional y cotidiana contenida en todo tipo de discursos orales emitidos por cualquier medio de comunicación en lengua estándar, interpretando con precisión el contenido del mensaje."
+          criterios_evaluacion:
+            - "a) Se ha identificado la idea principal del mensaje."
+            - "b) Se ha reconocido la finalidad de mensajes radiofónicos y de otro material grabado o retransmitido pronunciado en lengua estándar identificando el estado de ánimo y el tono del hablante."
+            - "c) Se ha extraído información de grabaciones en lengua estándar, relacionadas con la vida social, profesional o académica."
+            - "d) Se han identificado los puntos de vista y las actitudes del hablante."
+            - "e) Se han identificado las ideas principales de declaraciones y mensajes sobre temas concretos y abstractos, en lengua estándar y con un ritmo normal."
+            - "f) Se ha comprendido con todo detalle lo que se le dice en lengua estándar, incluso en un ambiente con ruido de fondo."
+            - "g) Se han extraído las ideas principales de conferencias, charlas e informes, y otras formas de presentación académica y profesional lingüísticamente complejas."
+            - "h) Se ha tomado conciencia de la importancia de comprender globalmente un mensaje, sin entender todos y cada uno de los elementos del mismo."
+        - numero: 2
+          enunciado: "Interpreta información profesional contenida en textos escritos complejos, analizando de forma comprensiva sus contenidos."
+          criterios_evaluacion:
+            - "a) Se ha leído con un alto grado de independencia, adaptando el estilo y la velocidad de la lectura a distintos textos y finalidades y utilizando fuentes de referencia apropiadas de forma selectiva."
+            - "b) Se ha interpretado la correspondencia relativa a su especialidad, captando fácilmente el significado esencial."
+            - "c) Se han interpretado, con todo detalle, textos extensos y de relativa complejidad, relacionados o no con su especialidad, pudiendo releer las secciones más difíciles de los mismos."
+            - "d) Se ha relacionado el texto con el ámbito de la actividad profesional a que se refiere."
+            - "e) Se ha identificado con rapidez el contenido y la importancia de noticias, artículos e informes sobre una amplia serie de temas profesionales y se ha decidido si es oportuno un análisis más profundo."
+            - "f) Se han realizado traducciones de textos complejos utilizando material de apoyo en caso necesario."
+            - "g) Se han interpretado mensajes técnicos recibidos a través de soportes telemáticos: e-mail y fax."
+            - "h) Se han interpretado instrucciones extensas y complejas, que estén dentro de su especialidad."
+        - numero: 3
+          enunciado: "Emite mensajes orales claros y bien estructurados, analizando el contenido de la situación y adaptándose al registro lingüístico del interlocutor."
+          criterios_evaluacion:
+            - "a) Se han identificado los registros utilizados para la emisión del mensaje."
+            - "b) Se ha expresado con fluidez, precisión y eficacia sobre una amplia serie de temas generales, académicos, profesionales o de ocio, marcando con claridad la relación entre las ideas."
+            - "c) Se ha comunicado espontáneamente, adoptando un nivel de formalidad adecuado a las circunstancias."
+            - "d) Se han utilizado normas de protocolo en presentaciones formales e informales."
+            - "e) Se ha utilizado correctamente la terminología de la profesión."
+            - "f) Se han expresado y defendido puntos de vista con claridad, proporcionando explicaciones y argumentos adecuados."
+            - "g) Se ha descrito y secuenciado un proceso de trabajo de su competencia."
+            - "h) Se ha argumentado con todo detalle la elección de una determinada opción o procedimiento de trabajo elegido."
+            - "i) Se ha solicitado la reformulación del discurso o parte del mismo cuando se ha considerado necesario."
+        - numero: 4
+          enunciado: "Elabora documentos e informes propios de la actividad profesional o de la vida académica y cotidiana, relacionando los recursos lingüísticos con el propósito del escrito."
+          criterios_evaluacion:
+            - "a) Se han redactado textos claros y detallados sobre una variedad de temas relacionados con su especialidad, sintetizando y evaluando información y argumentos procedentes de varias fuentes."
+            - "b) Se ha organizado la información con corrección, precisión y coherencia, solicitando y/o facilitando información de tipo general o detallada."
+            - "c) Se han redactado informes, destacando los aspectos significativos y ofreciendo detalles relevantes que sirvan de apoyo."
+            - "d) Se ha cumplimentado documentación específica de su campo profesional."
+            - "e) Se han aplicado las fórmulas establecidas y el vocabulario específico en la cumplimentación de documentos."
+            - "f) Se han resumido artículos, manuales de instrucciones y otros documentos escritos, utilizando un vocabulario amplio para evitar la repetición frecuente."
+            - "g) Se han utilizado las fórmulas de cortesía propias del documento que se ha de elaborar."
+        - numero: 5
+          enunciado: "Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas y características del país de la lengua extranjera."
+          criterios_evaluacion:
+            - "a) Se han definido los rasgos más significativos de las costumbres y usos de la comunidad donde se habla la lengua extranjera."
+            - "b) Se han descrito los protocolos y normas de relación social propios del país."
+            - "c) Se han identificado los valores y creencias propios de la comunidad donde se habla la lengua extranjera."
+            - "d) Se ha identificado los aspectos socio-profesionales propios de la actividad profesional, en cualquier tipo de texto."
+            - "e) Se han aplicado los protocolos y normas de relación social propios del país de la lengua extranjera."
+            - "f) Se han reconocido los marcadores lingüísticos de la procedencia regional."
+
+    - codigo: "0652"
+      nombre: "Gestión de recursos humanos"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Gestiona la documentación que genera el proceso de contratación, aplicando la normativa vigente."
+          criterios_evaluacion:
+            - "a) Se ha seleccionado la normativa que regula la contratación laboral."
+            - "b) Se han identificado las fases del proceso de contratación."
+            - "c) Se han interpretado las funciones de los organismos públicos que intervienen en el proceso de contratación."
+            - "d) Se han determinado las distintas modalidades de contratación laboral vigentes y sus elementos, aplicables a cada colectivo."
+            - "e) Se ha propuesto la modalidad de contrato más adecuado a las necesidades del puesto de trabajo y a las características de empresas y trabajadores."
+            - "f) Se han especificado las funciones de los convenios colectivos y las variables que regulan con relación a la contratación laboral."
+            - "g) Se ha cumplimentado la documentación que se genera en cada una de las fases del proceso de contratación."
+            - "h) Se han reconocido las vías de comunicación convencionales y telemáticas con las personas y organismos oficiales que intervienen en el proceso de contratación."
+            - "i) Se han empleado programas informáticos específicos para la confección, registro y archivo de la información y documentación relevante en el proceso de contratación."
+        - numero: 2
+          enunciado: "Programa las tareas administrativas correspondientes a la modificación, suspensión y extinción del contrato de trabajo, aplicando la normativa vigente y cumplimentando la documentación aparejada."
+          criterios_evaluacion:
+            - "a) Se ha seleccionado la normativa en vigor que regula la modificación, suspensión y extinción del contrato de trabajo."
+            - "b) Se han efectuado los cálculos sobre los conceptos retributivos derivados de las situaciones de modificación, suspensión y extinción del contrato de trabajo."
+            - "c) Se ha identificado y cumplimentado la documentación que se genera en los procesos de modificación, suspensión y extinción del contrato de trabajo."
+            - "d) Se han reconocido las vías de comunicación, convencionales y telemáticas, con las personas y organismos oficiales implicadas en un proceso de modificación, suspensión o extinción de contrato de trabajo."
+            - "e) Se ha comunicado, en tiempo y forma, a los trabajadores los cambios producidos por la modificación, suspensión o extinción del contrato laboral."
+            - "f) Se han empleado programas informáticos específicos para la confección, registro y archivo de la información y documentación relevante en el proceso de modificación, suspensión o extinción de contrato de trabajo."
+        - numero: 3
+          enunciado: "Caracteriza las obligaciones administrativas del empresario con la Seguridad Social, tramitando la documentación y realizando los cálculos procedentes."
+          criterios_evaluacion:
+            - "a) Se han reconocido los trámites obligatorios para el empresario ante la Seguridad Social."
+            - "b) Se ha seleccionado y analizado la normativa que regula las bases de cotización y la determinación de aportaciones a la Seguridad Social."
+            - "c) Se han calculado las principales prestaciones económicas de la Seguridad Social."
+            - "d) Se ha elaborado la documentación para los trámites de afiliación, alta, baja y variación de datos en los distintos regímenes de la Seguridad Social."
+            - "e) Se han reconocido las vías de comunicación, convencionales y telemáticas, con las personas y organismos oficiales implicados en el proceso de afiliación, alta, baja y variación de datos."
+            - "f) Se han previsto las actuaciones y procedimientos de los órganos inspectores y fiscalizadores en materia de Seguridad Social."
+            - "g) Se han reconocido sistemas complementarios de previsión social."
+            - "h) Se han empleado programas informáticos específicos para la confección, registro y archivo de la información y documentación relevante generada en la tramitación documental con la Seguridad Social."
+        - numero: 4
+          enunciado: "Confecciona los documentos derivados del proceso de retribución de recursos humanos y las obligaciones de pagos, aplicando la normativa vigente."
+          criterios_evaluacion:
+            - "a) Se han reconocido los procesos retributivos y las distintas modalidades salariales."
+            - "b) Se ha precisado el concepto de salario mínimo interprofesional, IPREM u otros índices, y su función en la regulación salarial y en las prestaciones de la Seguridad Social."
+            - "c) Se han identificado los métodos de incentivos a la producción o al trabajo en función del puesto."
+            - "d) Se ha identificado la documentación necesaria para efectuar el proceso de retribución."
+            - "e) Se han elaborado las nóminas calculando el importe de los conceptos retributivos, las aportaciones a la Seguridad Social y las retenciones a cuenta del IRPF."
+            - "f) Se han analizado y calculado las aportaciones de la empresa y del conjunto de trabajadores a la Seguridad Social."
+            - "g) Se han identificado los modelos de formularios y los plazos establecidos de declaración-liquidación de las aportaciones a la Seguridad Social e ingresos a cuenta de las retenciones del IRPF."
+            - "h) Se ha confeccionado la declaración-liquidación de las aportaciones a la Seguridad Social y los ingresos a cuenta de las retenciones del IRPF."
+            - "i) Se han reconocido las vías de comunicación, convencionales y telemáticas, con las personas y organismos oficiales que intervienen en el proceso de retribución e ingreso de la declaración-liquidación."
+            - "j) Se han empleado programas informáticos específicos para la confección, registro y archivo de la información y documentación relevante generada en el proceso de retribución."
+
+    - codigo: "0653"
+      nombre: "Gestión financiera"
+      horas_totales: 65
+      ects: 7
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Determina las necesidades financieras y las ayudas económicas óptimas para la empresa, identificando las alternativas posibles."
+          criterios_evaluacion:
+            - "a) Se han comprobado los estados contables desde la óptica de las necesidades de financiación."
+            - "b) Se han verificado informes económico-financieros y patrimoniales de los estados contables."
+            - "c) Se han comparado los resultados de los análisis con los valores establecidos y se han calculado las desviaciones."
+            - "d) Se han confeccionado informes de acuerdo con la estructura y los procedimientos, teniendo en cuenta los costes de oportunidad."
+            - "e) Se han utilizado todos los canales de información y comunicación para identificar las ayudas públicas y/o privadas así como las fuentes a las que puede acceder la empresa."
+            - "f) Se han identificado las características de las distintas formas de apoyo financiero a la empresa."
+            - "g) Se ha contrastado la idoneidad y las incompatibilidades de las ayudas públicas y/o privadas estudiadas."
+        - numero: 2
+          enunciado: "Clasifica los productos y servicios financieros, analizando sus características y formas de contratación."
+          criterios_evaluacion:
+            - "a) Se han identificado las organizaciones, entidades y tipos de empresas que operan en el sistema financiero."
+            - "b) Se han precisado las instituciones financieras bancarias y no bancarias y descrito sus principales características."
+            - "c) Se han detallado los aspectos específicos de los productos y servicios existentes en el mercado."
+            - "d) Se han reconocido las variables que intervienen en las operaciones que se realizan con cada producto/servicio financiero."
+            - "e) Se han identificado los sujetos que intervienen en las operaciones que se realizan con cada producto/servicio financiero."
+            - "f) Se han relacionado las ventajas e inconvenientes de los distintos productos y servicios."
+            - "g) Se ha determinado la documentación necesaria exigida y generada con la gestión de los diferentes productos y servicios financieros."
+        - numero: 3
+          enunciado: "Evalúa productos y servicios financieros del mercado, realizando los cálculos y elaborando los informes oportunos."
+          criterios_evaluacion:
+            - "a) Se ha recogido información sobre productos y servicios financieros a través de los diferentes canales disponibles."
+            - "b) Se han efectuado las operaciones matemáticas necesarias para valorar cada producto."
+            - "c) Se han calculado los gastos y comisiones devengados en cada producto."
+            - "d) Se ha determinado el tratamiento fiscal de cada producto."
+            - "e) Se ha determinado el tipo de garantía exigido por cada producto."
+            - "f) Se han realizado informes comparativos de los costes financieros de cada uno de los productos de financiación propuestos."
+            - "g) Se han comparado los servicios y las contraprestaciones de las distintas entidades financieras, resaltando las diferencias, ventajas e inconvenientes."
+            - "h) Se han comparado las rentabilidades, ventajas e inconvenientes de cada una de las formas de ahorro o inversión propuestas en productos financieros."
+            - "i) Se han realizado los cálculos financieros necesarios utilizando aplicaciones informáticas específicas."
+        - numero: 4
+          enunciado: "Caracteriza la tipología de seguros, analizando la actividad aseguradora."
+          criterios_evaluacion:
+            - "a) Se ha identificado la legislación básica que regula la actividad aseguradora."
+            - "b) Se han relacionado los riesgos y las condiciones de asegurabilidad."
+            - "c) Se han identificado los elementos que conforman un contrato de seguro."
+            - "d) Se han clasificado los tipos de seguros."
+            - "e) Se han establecido las obligaciones de las partes en un contrato de seguro."
+            - "f) Se han determinado los procedimientos administrativos relativos a la contratación y seguimiento de los seguros."
+            - "g) Se han identificado las primas y sus componentes."
+            - "h) Se ha determinado el tratamiento fiscal de los seguros."
+        - numero: 5
+          enunciado: "Selecciona inversiones en activos financieros o económicos, analizando sus características y realizando los cálculos oportunos."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la función de los activos financieros como forma de inversión y como fuente de financiación."
+            - "b) Se han clasificado los activos financieros utilizando como criterio el tipo de renta que generan, la clase de entidad emisora y los plazos de amortización."
+            - "c) Se han distinguido el valor nominal, de emisión, de cotización, de reembolso y otros para efectuar los cálculos oportunos."
+            - "d) Se ha determinado el importe resultante en operaciones de compraventa de activos financieros, calculando los gastos y las comisiones devengadas."
+            - "e) Se han elaborado informes sobre las diversas alternativas de inversión en activos financieros que más se ajusten a las necesidades de la empresa."
+            - "f) Se han identificado las variables que influyen en una inversión económica."
+            - "g) Se ha calculado e interpretado el VAN, TIR y otros métodos de selección de distintas inversiones."
+        - numero: 6
+          enunciado: "Integra los presupuestos parciales de las áreas funcionales y/o territoriales de la empresa/organización, verificando la información que contienen."
+          criterios_evaluacion:
+            - "a) Se han integrado los presupuestos de las distintas áreas en un presupuesto común."
+            - "b) Se ha comprobado que la información está completa y en la forma requerida."
+            - "c) Se ha contrastado el contenido de los presupuestos parciales."
+            - "d) Se han verificado los cálculos aritméticos, comprobando la corrección de los mismos."
+            - "e) Se ha valorado la importancia de elaborar en tiempo y forma la documentación relacionada con los presupuestos."
+            - "f) Se ha controlado la ejecución del presupuesto y se han detectado las desviaciones y sus causas."
+            - "g) Se ha ordenado y archivado la información de forma que sea fácilmente localizable."
+            - "h) Se han utilizado aplicaciones informáticas en la gestión de las tareas presupuestarias."
+
+    - codigo: "0654"
+      nombre: "Contabilidad y fiscalidad"
+      horas_totales: 65
+      ects: 7
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Contabiliza en soporte informático los hechos contables derivados de las operaciones de trascendencia económico-financiera de una empresa, cumpliendo con los criterios establecidos en el Plan General de Contabilidad (PGC)."
+          criterios_evaluacion:
+            - "a) Se ha comprobado la correcta instalación de las aplicaciones informáticas y su funcionamiento."
+            - "b) Se han seleccionado las prestaciones, funciones y procedimientos de las aplicaciones informáticas que se deben emplear para la contabilización."
+            - "c) Se han caracterizado las definiciones y las relaciones contables fundamentales establecidas en los grupos, subgrupos y cuentas principales del PGC."
+            - "d) Se han registrado, en asientos por partida doble, las operaciones más habituales relacionadas con los grupos de cuentas descritos anteriormente."
+            - "e) Se han clasificado los diferentes tipos de documentos mercantiles que exige el PGC, indicando la clase de operación que representan."
+            - "f) Se ha verificado el traspaso de la información entre las distintas fuentes de datos contables."
+            - "g) Se ha identificado la estructura y forma de elaboración del balance de comprobación de sumas y saldos."
+            - "h) Se han realizado copias de seguridad para la salvaguarda de los datos."
+        - numero: 2
+          enunciado: "Realiza la tramitación de las obligaciones fiscales y contables relativas al Impuesto de Sociedades y el Impuesto sobre la Renta de las Personas Físicas, aplicando la normativa de carácter mercantil y fiscal vigente."
+          criterios_evaluacion:
+            - "a) Se ha analizado la normativa fiscal vigente y las normas aplicables en cada tipo de impuesto."
+            - "b) Se han seleccionado los modelos establecidos por la Hacienda Pública para atender el procedimiento de declaración-liquidación de los distintos impuestos."
+            - "c) Se han identificado los plazos establecidos por la Hacienda Pública para cumplir con las obligaciones fiscales."
+            - "d) Se han realizado los cálculos oportunos para cuantificar los elementos tributarios de los impuestos que gravan la actividad económica."
+            - "e) Se ha cumplimentado la documentación correspondiente a la declaración-liquidación de los distintos impuestos, utilizando aplicaciones informáticas de gestión fiscal."
+            - "f) Se han generado los ficheros necesarios para la presentación telemática de los impuestos, valorando la eficiencia de esta vía."
+            - "g) Se han relacionado los conceptos contables con los aspectos tributarios."
+            - "h) Se ha diferenciado entre resultado contable y resultado fiscal y se han especificado los procedimientos para la conciliación de ambos."
+            - "i) Se han contabilizado los hechos contables relacionados con el cumplimiento de las obligaciones fiscales, incluyendo los ajustes fiscales correspondientes."
+            - "j) Se han descrito y cuantificado, en su caso, las consecuencias de la falta de rigor en el cumplimiento de las obligaciones fiscales."
+        - numero: 3
+          enunciado: "Registra contablemente las operaciones derivadas del fin del ejercicio económico a partir de la información y documentación de un ciclo económico completo, aplicando los criterios del PGC y la legislación vigente."
+          criterios_evaluacion:
+            - "a) Se han registrado en soporte informático los hechos contables y fiscales que se generan en un ciclo económico completo, contenidos en los documentos soportes."
+            - "b) Se han calculado y contabilizado las correcciones de valor que procedan."
+            - "c) Se han reconocido los métodos de amortización más habituales."
+            - "d) Se han realizado los cálculos derivados de la amortización del inmovilizado."
+            - "e) Se han dotado las amortizaciones que procedan según la amortización técnica propuesta."
+            - "f) Se han realizado los asientos derivados de la periodificación contable."
+            - "g) Se ha obtenido el resultado por medio del proceso de regularización."
+            - "h) Se ha registrado la distribución del resultado según las normas y las indicaciones propuestas."
+            - "i) Se han registrado en los libros obligatorios de la empresa todas las operaciones derivadas del ejercicio económico que sean necesarias."
+            - "j) Se han realizado copias de seguridad para la salvaguarda de los datos."
+        - numero: 4
+          enunciado: "Confecciona las cuentas anuales y verifica los trámites para su depósito en el Registro Mercantil, aplicando la legislación mercantil vigente."
+          criterios_evaluacion:
+            - "a) Se ha determinado la estructura de la cuenta de pérdidas y ganancias, diferenciando los distintos tipos de resultado que integran."
+            - "b) Se ha determinado la estructura del balance de situación, indicando las relaciones entre los diferentes epígrafes."
+            - "c) Se ha establecido la estructura de la memoria, estado de cambios en el patrimonio y estado de flujos de efectivo."
+            - "d) Se han confeccionado las cuentas anuales aplicando los criterios del PGC."
+            - "e) Se han determinado los libros contables objeto de legalización para su presentación ante los organismos correspondientes."
+            - "f) Se han verificado los plazos de presentación legalmente establecidos en los organismos oficiales correspondientes."
+            - "g) Se han cumplimentado los formularios de acuerdo con la legislación mercantil y se han utilizado aplicaciones informáticas."
+            - "h) Se ha comprobado la veracidad e integridad de la información contenida en los ficheros generados por la aplicación informática."
+            - "i) Se ha valorado la importancia de las cuentas anuales como instrumentos de comunicación interna y externa y de información pública."
+            - "j) Se han realizado copias de seguridad para la salvaguarda de los datos."
+            - "k) Se ha valorado la aplicación de las normas de protección de datos en el proceso contable."
+        - numero: 5
+          enunciado: "Elabora informes de análisis sobre la situación económica-financiera y patrimonial de una empresa, interpretando los estados contables."
+          criterios_evaluacion:
+            - "a) Se han definido las funciones de los análisis económico-financiero, patrimonial y de tendencia y proyección, estableciendo sus diferencias."
+            - "b) Se ha seleccionado la información relevante para el análisis de los estados contables que la proporcionan."
+            - "c) Se han identificado los instrumentos de análisis más significativos y se ha descrito su función."
+            - "d) Se han calculado las diferencias, porcentajes, índices y ratios más relevantes para el análisis económico, financiero y de tendencia y proyección."
+            - "e) Se ha realizado un informe sobre la situación económica-financiera de la empresa, derivada de los cálculos realizados, comparándola con los ejercicios anteriores y con la media del sector."
+            - "f) Se han obtenido conclusiones con respecto a la liquidez, solvencia, estructura financiera y rentabilidades de la empresa."
+            - "g) Se ha valorado la importancia del análisis de los estados contables para la toma de decisiones en la empresa y su repercusión con respecto a los implicados en la misma."
+        - numero: 6
+          enunciado: "Caracteriza el proceso de auditoría en la empresa, describiendo su propósito dentro del marco normativo español."
+          criterios_evaluacion:
+            - "a) Se ha delimitado el concepto de auditoría, sus clases (interna y externa) y el propósito de esta."
+            - "b) Se han señalado los órganos y normativa vigente que atañe a la auditoría en España."
+            - "c) Se han verificado las facultades y responsabilidades de los auditores."
+            - "d) Se han secuenciado las diferentes fases de un proceso de auditoría y los flujos de información que se generan en cada uno de ellos."
+            - "e) Se han determinado las partes de un informe de auditoría."
+            - "f) Se ha valorado la importancia de la obligatoriedad de un proceso de auditoría."
+            - "g) Se ha valorado la importancia de la colaboración del personal de la empresa en un proceso de auditoría."
+            - "h) Se han reconocido las tareas que deben realizarse por parte de la empresa en un proceso de auditoría, tanto interna como externa."
+            - "i) Se han contabilizado los ajustes y correcciones contables derivados de propuestas del informe de auditoría."
+
+    - codigo: "0655"
+      nombre: "Gestión logística y comercial"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Elabora planes de aprovisionamiento, analizando información de las distintas áreas de la organización o empresa."
+          criterios_evaluacion:
+            - "a) Se han definido las fases que componen un programa de aprovisionamiento desde la detección de necesidades hasta la recepción de la mercancía."
+            - "b) Se han determinado los principales parámetros que configuran un programa de aprovisionamiento que garantice la calidad y el cumplimiento del nivel de servicio establecido."
+            - "c) Se han obtenido las previsiones de venta y/o demanda del periodo de cada departamento implicado."
+            - "d) Se han contrastado los consumos históricos, lista de materiales y/o pedidos realizados, en función del cumplimiento de los objetivos del plan de ventas y/o producción previsto por la empresa/organización."
+            - "e) Se ha calculado el coste del programa de aprovisionamiento, diferenciando los elementos que lo componen."
+            - "f) Se ha determinado la capacidad óptima de almacenamiento de la organización, teniendo en cuenta la previsión de stocks."
+            - "g) Se han elaborado las órdenes de suministro de materiales con fecha, cantidad y lotes, indicando el momento y destino/ubicación del suministro al almacén y/o a las unidades productivas precedentes."
+            - "h) Se ha previsto con tiempo suficiente el reaprovisionamiento de la cadena de suministro para ajustar los volúmenes de stock al nivel de servicio, evitando los desabastecimientos."
+            - "i) Se han realizado las operaciones anteriores mediante una aplicación informática de gestión de stocks y aprovisionamiento."
+            - "j) Se ha asegurado la calidad del proceso de aprovisionamiento, estableciendo procedimientos normalizados de gestión de pedidos y control del proceso."
+        - numero: 2
+          enunciado: "Realiza procesos de selección de proveedores, analizando las condiciones técnicas y los parámetros habituales."
+          criterios_evaluacion:
+            - "a) Se han identificado las fuentes de suministro y búsqueda de proveedores."
+            - "b) Se ha confeccionado un fichero con los proveedores potenciales, de acuerdo con los criterios de búsqueda on-line y off-line."
+            - "c) Se han realizado solicitudes de ofertas y pliego de condiciones de aprovisionamiento."
+            - "d) Se han recopilado las ofertas de proveedores que cumplan con las condiciones establecidas, para su posterior evaluación."
+            - "e) Se han definido los criterios esenciales en la selección de ofertas de proveedores: económicos, plazo de aprovisionamiento, calidad, condiciones de pago y servicio, entre otros."
+            - "f) Se han comparado las ofertas de varios proveedores de acuerdo con los parámetros de precio, calidad y servicio."
+            - "g) Se ha establecido un baremo de los criterios de selección en función del peso específico que, sobre el total, representa cada una de las variables consideradas."
+            - "h) Se han realizado las operaciones anteriores mediante una aplicación informática de gestión de proveedores."
+        - numero: 3
+          enunciado: "Planifica la gestión de las relaciones con los proveedores, aplicando técnicas de negociación y comunicación."
+          criterios_evaluacion:
+            - "a) Se han relacionado las técnicas más utilizadas en la comunicación con proveedores."
+            - "b) Se han detectado las ventajas, los costes y los requerimientos técnicos y comerciales de implantación de un sistema de intercambio electrónico de datos, en la gestión del aprovisionamiento."
+            - "c) Se han elaborado escritos de forma clara y concisa de las solicitudes de información a los proveedores."
+            - "d) Se han preparado previamente las conversaciones personales o telefónicas con los proveedores."
+            - "e) Se han identificado los distintos tipos de documentos utilizados para el intercambio de información con proveedores."
+            - "f) Se han explicado las diferentes etapas en un proceso de negociación de condiciones de aprovisionamiento."
+            - "g) Se han descrito las técnicas de negociación más utilizadas en la compra, venta y aprovisionamiento."
+            - "h) Se ha elaborado un informe que recoja los acuerdos de la negociación, mediante el uso de los programas informáticos adecuados."
+        - numero: 4
+          enunciado: "Programa el seguimiento documental y los controles del proceso de aprovisionamiento, aplicando los mecanismos previstos en el programa y utilizando aplicaciones informáticas."
+          criterios_evaluacion:
+            - "a) Se ha secuenciado el proceso de control que deben seguir los pedidos realizados a un proveedor en el momento de recepción en el almacén."
+            - "b) Se han definido los indicadores de calidad y eficacia operativa en la gestión de proveedores."
+            - "c) Se han detectado las incidencias más frecuentes del proceso de aprovisionamiento."
+            - "d) Se han establecido las posibles medidas que se deben adoptar ante las anomalías en la recepción de un pedido."
+            - "e) Se han definido los aspectos que deben figurar en los documentos internos de registro y control del proceso de aprovisionamiento."
+            - "f) Se han elaborado informes de evaluación de proveedores de manera clara y estructurada."
+            - "g) Se ha elaborado la documentación relativa al control, registro e intercambio de información con proveedores, siguiendo los procedimientos de calidad y utilizando aplicaciones informáticas."
+            - "h) Se han determinado los flujos de información, relacionando los departamentos de una empresa y los demás agentes logísticos que intervienen en la actividad de aprovisionamiento."
+            - "i) Se han enlazado las informaciones de aprovisionamiento, logística y facturación con otras áreas de información de la empresa, como contabilidad y tesorería."
+        - numero: 5
+          enunciado: "Define las fases y operaciones que deben realizarse dentro de la cadena logística, asegurándose la trazabilidad y calidad en el seguimiento de la mercancía."
+          criterios_evaluacion:
+            - "a) Se han descrito las características básicas de la cadena logística, identificando las actividades, fases y agentes que participan y las relaciones entre ellos."
+            - "b) Se han interpretado los diagramas de flujos físicos de mercancías, de información y económicos en las distintas fases de la cadena logística."
+            - "c) Se han descrito los costes logísticos directos e indirectos, fijos y variables, considerando todos los elementos de una operación logística y las responsabilidades imputables a cada uno de los agentes de la cadena logística."
+            - "d) Se han valorado las distintas alternativas en los diferentes modelos o estrategias de distribución de mercancías."
+            - "e) Se han establecido las operaciones sujetas a la logística inversa y se ha determinado el tratamiento que se debe dar a las mercancías retornadas, para mejorar la eficiencia de la cadena logística."
+            - "f) Se ha asegurado la satisfacción del cliente resolviendo imprevistos, incidencias y reclamaciones en la cadena logística."
+            - "g) Se han realizado las operaciones anteriores mediante una aplicación informática de gestión de proveedores."
+            - "h) Se ha valorado la responsabilidad corporativa en la gestión de residuos, desperdicios, devoluciones caducadas y embalajes, entre otros."
+
+    - codigo: "0656"
+      nombre: "Simulación empresarial"
+      horas_totales: 75
+      ects: 8
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Determina los factores de la innovación empresarial, relacionándolos con la actividad de creación de empresas."
+          criterios_evaluacion:
+            - "a) Se han examinado las diversas facetas de la innovación empresarial (técnicas, materiales, de organización interna y externa, entre otras), relacionándolas como fuentes de desarrollo económico y creación de empleo."
+            - "b) Se han relacionado la innovación y la iniciativa emprendedora con las implicaciones que tiene para la competitividad empresarial."
+            - "c) Se han valorado los aspectos inherentes a la asunción de riesgo empresarial como motor económico y social."
+            - "d) Se han determinado las diferentes facetas del carácter emprendedor desde el punto de vista empresarial."
+            - "e) Se han seleccionado diferentes experiencias de innovación empresarial, describiendo y valorando los factores de riesgo asumidos en cada una de ellas."
+            - "f) Se han propuesto posibilidades de internacionalización de algunas empresas como factor de innovación de las mismas."
+            - "g) Se han definido ayudas y herramientas, públicas y privadas, para la innovación, creación e internacionalización de empresas, relacionándolas estructuradamente en un informe."
+        - numero: 2
+          enunciado: "Selecciona una idea de negocio, analizando el mercado."
+          criterios_evaluacion:
+            - "a) Se han evaluado las implicaciones que conlleva la elección de una idea de negocio."
+            - "b) Se ha diferenciado entre lo que puede ser una simple idea de una idea de negocio factible."
+            - "c) Se han señalado las ventajas e inconvenientes de las propuestas de negocio."
+            - "d) Se ha determinado el producto o servicio que se quiere proporcionar con la idea de negocio."
+            - "e) Se han concretado las necesidades que satisface y el valor añadido de la idea de negocio propuesta."
+            - "f) Se han identificado los clientes potenciales, atendiendo a los objetivos del proyecto de empresa."
+            - "g) Se ha efectuado un análisis de mercado para comprobar si existe un nicho en el mismo."
+            - "h) Se ha efectuado un análisis de la competencia para posicionar nuestro producto."
+        - numero: 3
+          enunciado: "Determina la organización interna de la empresa, la forma jurídica y los recursos necesarios, analizando las alternativas disponibles y los objetivos marcados con el proyecto."
+          criterios_evaluacion:
+            - "a) Se han identificado las principales características del sector empresarial en el que se desenvuelve la idea de negocio."
+            - "b) Se han reconocido los distintos tipos de empresas que existen."
+            - "c) Se han establecido claramente los objetivos de la empresa."
+            - "d) Se ha relacionado la organización establecida por la empresa con el tipo y fines de esta."
+            - "e) Se han identificado las diferentes funciones dentro de la empresa."
+            - "f) Se ha seleccionado la forma jurídica adecuada."
+            - "g) Se ha efectuado una asignación eficiente de los recursos necesarios."
+            - "h) Se han reconocido y seleccionado las posibles fuentes de financiación."
+            - "i) Se ha valorado la importancia de dotar a la empresa de la estructura adecuada para su pervivencia."
+        - numero: 4
+          enunciado: "Comprueba la viabilidad de la empresa mediante diferentes tipos de análisis, verificando los diversos factores que pueden influir en la misma."
+          criterios_evaluacion:
+            - "a) Se ha efectuado un estudio de la viabilidad técnica del negocio."
+            - "b) Se ha contrastado el cumplimiento de la normativa legal del futuro negocio."
+            - "c) Se ha comprobado la accesibilidad de las fuentes de financiación para la puesta en marcha del negocio."
+            - "d) Se ha efectuado un análisis sobre la capacitación profesional para llevar a cabo las actividades derivadas del tipo de negocio elegido."
+            - "e) Se ha realizado un análisis del impacto ambiental de proyecto de empresa."
+            - "f) Se ha realizado un análisis de los riesgos laborales de proyecto de empresa."
+            - "g) Se ha comprobado la viabilidad económica por medio del análisis de proyectos de inversión."
+            - "h) Se ha elaborado un plan de viabilidad a largo plazo para poder efectuar una mejor planificación en la empresa."
+        - numero: 5
+          enunciado: "Gestiona la documentación necesaria para la puesta en marcha de una empresa, analizando los trámites legales y las actuaciones necesarias que conllevan la realización del proyecto empresarial."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la exigencia de la realización de diversos trámites legales exigibles antes de la puesta en marcha de un negocio."
+            - "b) Se han diferenciado los trámites que se seguirían en función de la forma jurídica elegida."
+            - "c) Se han identificado los organismos ante los cuales han de presentarse los trámites."
+            - "d) Se ha cumplimentado la documentación necesaria para la constitución de la empresa."
+            - "e) Se han realizado los trámites fiscales para la puesta en marcha."
+            - "f) Se han realizado los trámites necesarios ante la autoridad laboral y la Seguridad Social."
+            - "g) Se han realizado los trámites necesarios en otras administraciones públicas a la hora de abrir un negocio."
+            - "h) Se ha reconocido la existencia de trámites de carácter específico para determinados tipos de negocios."
+            - "i) Se ha valorado la importancia del cumplimiento de los plazos legales para la tramitación y puesta en marcha de un negocio."
+        - numero: 6
+          enunciado: "Realiza la gestión de la empresa-proyecto en sus diversos departamentos."
+          criterios_evaluacion:
+            - "a) Se ha efectuado una planificación sobre las necesidades de aprovisionamiento de la empresa."
+            - "b) Se ha gestionado el proceso de comercialización de los productos de la empresa."
+            - "c) Se ha planificado la gestión de los recursos humanos."
+            - "d) Se ha confeccionado y verificado la contabilidad de la empresa."
+            - "e) Se han planificado las necesidades financieras de la empresa."
+            - "f) Se ha analizado la normativa fiscal vigente y se ha cumplido con las obligaciones fiscales."
+            - "g) Se ha valorado la organización de la propia tarea."
+            - "h) Se ha realizado el trabajo entre los miembros del grupo."
+            - "i) Se ha realizado cada tarea con rigurosidad y corrección para obtener un resultado global satisfactorio."
+            - "j) Se ha materializado en un dossier el proyecto empresarial y se ha expuesto en público."
+
+    - codigo: "0657"
+      nombre: "Proyecto de administración y finanzas"
+      horas_totales: 25
+      ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer."
+          criterios_evaluacion:
+            - "a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen."
+            - "b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento."
+            - "c) Se han identificado las necesidades más demandadas a las empresas."
+            - "d) Se han valorado las oportunidades de negocio previsibles en el sector."
+            - "e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas."
+            - "f) Se han determinado las características específicas requeridas en el proyecto."
+            - "g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación."
+            - "h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o de servicio que se proponen."
+            - "i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto."
+        - numero: 2
+          enunciado: "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen."
+          criterios_evaluacion:
+            - "a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto."
+            - "b) Se ha realizado el estudio de viabilidad técnica del mismo."
+            - "c) Se han identificado las fases o partes que componen el proyecto y su contenido."
+            - "d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance."
+            - "e) Se han previsto los recursos materiales y personales necesarios para realizarlo."
+            - "f) Se ha realizado el presupuesto económico correspondiente."
+            - "g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo."
+            - "h) Se ha definido y elaborado la documentación necesaria para su diseño."
+            - "i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto."
+        - numero: 3
+          enunciado: "Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada."
+          criterios_evaluacion:
+            - "a) Se han secuenciado las actividades, ordenándolas en función de las necesidades de implementación."
+            - "b) Se han determinado los recursos y la logística necesaria para cada actividad."
+            - "c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades."
+            - "d) Se han determinado los procedimientos de actuación o ejecución de las actividades."
+            - "e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención de riesgos y los medios y equipos necesarios."
+            - "f) Se ha planificado la asignación de recursos materiales y humanos y los tiempos de ejecución."
+            - "g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación."
+            - "h) Se ha definido y elaborado la documentación necesaria para la ejecución."
+        - numero: 4
+          enunciado: "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados."
+          criterios_evaluacion:
+            - "a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones."
+            - "b) Se han definido los indicadores de calidad para realizar la evaluación."
+            - "c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro."
+            - "d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos."
+            - "e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto."
+            - "f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado los documentos específicos."
+            - "g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este existe."
+
+    - codigo: "0658"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 50
+      ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona oportunidades de empleo, identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida."
+          criterios_evaluacion:
+            - "a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación a las exigencias del proceso productivo."
+            - "b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del técnico superior en Administración y Finanzas."
+            - "c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil del título."
+            - "d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el técnico superior en Administración y Finanzas."
+            - "e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo."
+            - "f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título."
+            - "g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de decisiones."
+        - numero: 2
+          enunciado: "Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de los objetivos de la organización."
+          criterios_evaluacion:
+            - "a) Se han valorado las ventajas del trabajo en equipo en situaciones de trabajo relacionadas con el perfil del técnico superior en Administración y Finanzas."
+            - "b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo."
+            - "c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces."
+            - "d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros de un equipo."
+            - "e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico de las organizaciones."
+            - "f) Se han identificado los tipos de conflictos y sus fuentes."
+            - "g) Se han determinado procedimientos para la resolución del conflicto."
+        - numero: 3
+          enunciado: "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas en los diferentes contratos de trabajo."
+          criterios_evaluacion:
+            - "a) Se han identificado los conceptos básicos del derecho del trabajo."
+            - "b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores."
+            - "c) Se han determinado los derechos y obligaciones derivados de la relación laboral."
+            - "d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la contratación para determinados colectivos."
+            - "e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar."
+            - "f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral."
+            - "g) Se ha analizado el recibo de salarios, identificando los principales elementos que lo integran."
+            - "h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos."
+            - "i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector relacionado con el título de Técnico Superior en Administración y Finanzas."
+            - "j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo."
+        - numero: 4
+          enunciado: "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas, identificando las distintas clases de prestaciones."
+          criterios_evaluacion:
+            - "a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos."
+            - "b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social."
+            - "c) Se han identificado los regímenes existentes en el sistema de Seguridad Social."
+            - "d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social."
+            - "e) Se han identificado en un supuesto sencillo las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y empresario."
+            - "f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos."
+            - "g) Se han determinado las posibles situaciones legales de desempleo."
+            - "h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico."
+        - numero: 5
+          enunciado: "Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral."
+          criterios_evaluacion:
+            - "a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa."
+            - "b) Se han relacionado las condiciones laborales con la salud del trabajador."
+            - "c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos."
+            - "d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del técnico superior en Administración y Finanzas."
+            - "e) Se ha determinado la evaluación de riesgos en la empresa."
+            - "f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo relacionados con el perfil profesional del técnico superior en Administración y Finanzas."
+            - "g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del técnico superior en Administración y Finanzas."
+        - numero: 6
+          enunciado: "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados."
+          criterios_evaluacion:
+            - "a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales."
+            - "b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales."
+            - "c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos."
+            - "d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales."
+            - "e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación de actuaciones que se deben realizar en caso de emergencia."
+            - "f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional del técnico superior en Administración y Finanzas."
+            - "g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector."
+        - numero: 7
+          enunciado: "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del técnico superior en Administración y Finanzas."
+          criterios_evaluacion:
+            - "a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables."
+            - "b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad."
+            - "c) Se han analizado los protocolos de actuación en caso de emergencia."
+            - "d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa gravedad."
+            - "e) Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín."
+            - "f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención."
+
+    - codigo: "0660"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 220
+      ects: 22
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica la estructura y organización de la empresa, relacionándolas con el tipo de servicio que presta."
+          criterios_evaluacion:
+            - "a) Se ha identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+            - "b) Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector."
+            - "c) Se han relacionado las características del servicio y el tipo de clientes con el desarrollo de la actividad empresarial."
+            - "d) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio."
+            - "e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad."
+            - "f) Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad."
+        - numero: 2
+          enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional, de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos en la empresa."
+          criterios_evaluacion:
+            - "a) Se han reconocido y justificado la disponibilidad personal y temporal necesarias en el puesto de trabajo; las actitudes personales (puntualidad y empatía, entre otras) y profesionales (orden, limpieza y responsabilidad, entre otras) necesarias para el puesto de trabajo; los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional; los requerimientos actitudinales referidos a la calidad en la actividad profesional; las actitudes relacionadas con el propio equipo de trabajo y con las jerarquías establecidas en la empresa; las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral; las necesidades formativas para la inserción y reinserción laboral en el ámbito científico y técnico del buen hacer del profesional."
+            - "b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales de aplicación en la actividad profesional."
+            - "c) Se han puesto en marcha los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa."
+            - "d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas."
+            - "e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo de la actividad."
+            - "f) Se ha responsabilizado del trabajo asignado, interpretando y cumpliendo las instrucciones recibidas."
+            - "g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del equipo."
+            - "h) Se ha coordinado con el resto del equipo, comunicando las incidencias relevantes que se presenten."
+            - "i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas."
+            - "j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo."
+        - numero: 3
+          enunciado: "Elabora y tramita todo tipo de documentos relacionados con las áreas administrativas de la empresa, empleando medios, equipos e instrumentos de control, según los procedimientos de la empresa y el sector."
+          criterios_evaluacion:
+            - "a) Se han detectado las necesidades de comunicación de los diferentes procesos de trabajo."
+            - "b) Se han identificado los equipos e instrumentos para la elaboración y el seguimiento de la documentación."
+            - "c) Se ha interpretado el contenido de los documentos o las gestiones de inicio de la tarea para documentarlos según procedimientos."
+            - "d) Se ha verificado el cumplimiento de la normativa aplicable."
+            - "e) Se ha verificado el cumplimiento de la petición de compra y los requisitos establecidos para las materias primas solicitadas."
+            - "f) Se ha acomodado el estilo y medio de la comunicación y la documentación al cliente o instancia demandante del producto o servicio."
+            - "g) Se han tenido en cuenta los aspectos relacionados con la atención al cliente y la gestión de la calidad."
+        - numero: 4
+          enunciado: "Realiza la gestión de procesos administrativos de todos los ámbitos de la empresa, proponiendo líneas de actuación y supervisando las tareas del equipo a su cargo."
+          criterios_evaluacion:
+            - "a) Se han deducido las necesidades de actuación con respecto a los procesos periódicos y no periódicos relacionados con la administración de la empresa u organismo."
+            - "b) Se han tenido en cuenta las posibles necesidades de coordinación con el resto del equipo de administración y otros departamentos."
+            - "c) Se han determinado los procedimientos intermedios de documentación y tramitación, teniendo en cuenta las necesidades de los procesos administrativos."
+            - "d) Se han determinado los procesos, buscando una utilización racional de los recursos materiales y energéticos."
+            - "e) Se han relacionado y determinado las necesidades previas al desarrollo de las diversas fases y técnicas propias de la gestión integral de la administración."
+            - "f) Se han determinado las posibles medidas de corrección en función de los resultados obtenidos."
+            - "g) Se han caracterizado y realizado las valoraciones de costes de las diferentes actuaciones administrativas para decidir o proponer a sus superiores entre varias alternativas."
+
+relaciones:
+  desarrolla_a: [NOR-054]
+  relacionada_con: [NOR-007, CUR-048]
+resumen_ia: >
+  Ciclo formativo de Grado Superior de Técnico Superior en Administración y Finanzas, regulado por
+  el RD 1584/2011 (BOE-A-2011-19533). Duración total: 2.000 horas. Comprende 14 módulos
+  profesionales que cubren documentación jurídica y empresarial, recursos humanos, ofimática,
+  actividad comercial, comunicación, Inglés, gestión financiera, contabilidad y fiscalidad, logística
+  comercial, simulación empresarial, proyecto integrador y FCT. Fuente: BOE-A-2011-19533.
+  Este resumen no sustituye la fuente oficial.
+observaciones: >
+  Extracción completada el 2026-04-26. Se han extraído los RAs y CEs de todos los módulos
+  profesionales (0647, 0648, 0649, 0650, 0651, 0179, 0652, 0653, 0654, 0655, 0656, 0657,
+  0658 y 0660) a partir del texto del BOE (BOE-A-2011-19533, RD 1584/2011, /tmp/boe_1584_2011.txt).
+  Nota: el RD fue modificado por RD 500/2024 (BOE-A-2024-10685); conviene verificar si afecta
+  a los módulos. Ver TAREA-044.

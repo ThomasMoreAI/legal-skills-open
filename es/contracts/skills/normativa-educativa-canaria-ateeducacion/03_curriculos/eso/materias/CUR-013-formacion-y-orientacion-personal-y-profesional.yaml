@@ -1,0 +1,74 @@
+id: CUR-013
+titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
+etapa: "eso"
+materia: "Formación y Orientación Personal y Profesional"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Comprender los procesos físicos y psicológicos implicados en la cognición, motivación y aprendizaje."
+      enunciado_oficial: "Comprender los procesos físicos y psicológicos implicados en la cognición, la motivación y el aprendizaje, analizando sus implicaciones en la conducta y desarrollando estrategias de gestión emocional y del propio proceso de aprendizaje, para mejorar el desempeño en el ámbito personal, social y académico y lograr mayor control sobre las acciones y sus consecuencias."
+      descriptores:
+        "4.º ESO": [CPSAA1, CPSAA3, CPSAA4, CPSAA5]
+    - codigo: "C2"
+      enunciado_resumido: "Comprender las características del desarrollo evolutivo de la persona."
+      enunciado_oficial: "Comprender las principales características del desarrollo evolutivo de la persona, analizando aquellos elementos de la madurez que condicionan los comportamientos e identificando las cualidades personales y de relación social propias y de los demás, para potenciar aquellas que favorecen la autonomía y permiten afrontar de forma eficaz los nuevos retos."
+      descriptores:
+        "4.º ESO": [CPSAA1, CPSAA2, CPSAA3, CPSAA5, CC1]
+    - codigo: "C3"
+      enunciado_resumido: "Conocer y comprender al ser humano, sus sociedades y cultura."
+      enunciado_oficial: "Conocer y comprender al ser humano, sus sociedades y cultura, analizando con empatía su diversidad y complejidad desde diferentes perspectivas, para fomentar el espíritu crítico sobre aspectos que dirigen el funcionamiento humano, social y cultural."
+      descriptores:
+        "4.º ESO": [CP3, CPSAA3, CC1, CC2, CC3, CE3]
+    - codigo: "C4"
+      enunciado_resumido: "Conocer la dimensión social y antropológica del ser humano."
+      enunciado_oficial: "Conocer la dimensión social y antropológica del ser humano y desarrollar estrategias y habilidad sociales adecuadas a contextos cambiantes y a grupos diferentes, considerando los factores personales y socioculturales que intervienen en la configuración psicológica de la persona, para comprenderse a uno mismo e interactuar con los demás desde el respeto a la diversidad personal, social y cultural."
+      descriptores:
+        "4.º ESO": [CP3, CC1, CC2, CC3, CE2]
+    - codigo: "C5"
+      enunciado_resumido: "Explorar las oportunidades académicas y profesionales del entorno."
+      enunciado_oficial: "Explorar las oportunidades académicas y profesionales que ofrece el entorno, descubriendo y priorizando las necesidades e intereses personales y vocacionales y desarrollando el espíritu de iniciativa y de superación y las destrezas necesarias en la toma de decisiones, para llevar a cabo un proyecto personal, académico y profesional propio y realizar una primera aproximación al diseño de un plan de búsqueda activa de empleo."
+      descriptores:
+        "?": [CD3, CPSAA4, CPSAA5, CE1, CE2, CE3]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. Conocer los procesos que intervienen en el aprendizaje, analizando sus implicaciones y desarrollando estrategias que favorezcan la adquisición de conocimientos."
+        - "1.2. Analizar la importancia del componente emocional, tomando conciencia de su repercusión en el aprendizaje y desarrollando estrategias que mejoren los procesos cognitivos implicados en el mismo."
+        - "1.3. Conocer las bases teóricas fundamentales de los procesos físicos y psicológicos que intervienen en la cognición, la motivación, el aprendizaje y la gestión emocional, reflexionando sobre la relación de estos con la conducta propia y de los demás."
+        - "1.4. Aplicar estrategias de aprendizaje y gestión emocional manifestando mayor control sobre las acciones y sus consecuencias, planteando objetivos y desarrollando procesos metacognitivos de retroalimentación que permitan aprender de los errores para mejorar el desempeño personal, social y académico."
+        - "2.1. Afrontar, de forma eficaz y con progresiva autonomía, nuevos retos, identificando las cualidades personales y sociales propias y de los demás, analizando los elementos que condicionan los comportamientos y actuaciones en el proceso de desarrollo evolutivo."
+        - "2.2. Conocer el desarrollo evolutivo de las personas analizando y comprendiendo las principales características de la madurez que van conformando a la persona en distintos planos: cognitivo, social y emocional. Evaluar las fortalezas y debilidades propias, usando estrategias de autoconocimiento y autoeficacia."
+        - "2.3. Identificar cualidades personales y de los demás reflexionando sobre la importancia de potenciar aquellas que resultan necesarias para afrontar con eficacia nuevos retos y autoevaluar su propio aprendizaje para validar, sustentar y contrastar la información y obtener conclusiones relevantes."
+        - "3.1. Reflexionar de manera crítica sobre la condición humana, la sociedad y la cultura a partir del conocimiento que proporcionan las ciencias humanas y sociales para presentar ideas y soluciones innovadoras, éticas y sostenibles utilizando estrategias ágiles de planificación."
+        - "3.2. Analizar la diversidad personal, social y cultural desde distintas perspectivas a partir de los conocimientos que proporcionan las ciencias humanas y sociales, mostrando actitudes de respeto y empatía por lo diferente y valorando la equidad y la no discriminación para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades empleando estrategias cooperativas."
+        - "4.1. Desarrollar estrategias y habilidades que faciliten la adaptación a nuevos grupos y contextos a partir del conocimiento social y antropológico del ser humano y analizar los principios que emanan del proceso de integración europeo, la Constitución española y los derechos humanos y del niño, participando en actividades comunitarias como la resolución de conflictos con actitud democrática."
+        - "4.2. Analizar y comprender ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos sociales, históricos y normativos que la determinan, para entender los factores personales y socioculturales que intervienen en la configuración psicológica de la persona a partir del conocimiento comparado de la dimensión social y antropológica del ser humano."
+        - "4.3. Valorar la diversidad, desde el respeto, la inclusión y la igualdad real y efectiva entre hombres y mujeres, considerándola un elemento enriquecedor a nivel personal, social y cultural."
+        - "5.1. Realizar un proyecto personal, académico y profesional propio y aproximarse al proceso de búsqueda activa de empleo, priorizando las necesidades y descubriendo los intereses personales y vocacionales mediante la exploración de las oportunidades académicas y profesionales que ofrece el entorno y desarrollando las destrezas necesarias en el proceso de toma de decisiones."
+        - "5.2. Explorar el entorno próximo identificando las oportunidades académicas y profesionales que ofrece, valorando aquellas que mejor se adaptan a las cualidades e intereses personales y potenciando el espíritu de iniciativa y superación."
+  saberes_basicos:
+    - bloque: "Bloque I — El ser humano y el conocimiento de sí mismo"
+      cursos: ["4.º ESO"]
+      detalles: "Visión y conocimiento del ser humano desde la perspectiva psicológica (etapas del desarrollo evolutivo, características cognitivas y de personalidad propias de la adolescencia y gestión emocional); sociológica (relaciones sociales en la adolescencia, normas, roles y estereotipos, influencia del grupo, valoración de la diversidad, roles y estereotipos de género, conductas prosociales y antisociales, sentido de sociedad, transición a la vida adulta en el contexto europeo y español); y antropológica (concepto antropológico de cultura, diversidad cultural canaria —migraciones, multiculturalidad y mestizaje—, formas de identificación cultural, políticas y medidas estratégicas de inclusión e igualdad)."
+    - bloque: "Bloque II — Formación y orientación personal y profesional hacia la vida adulta"
+      cursos: ["4.º ESO"]
+      detalles: "Aprendizaje y ser humano (atención, motivación y memoria; estrategias de aprendizaje; inteligencia emocional y adicciones; funciones ejecutivas; herencia y aprendizaje). Construcción del sentido de competencia y logro (autoconcepto, autoestima, cualidades académicas). Relaciones e interacciones (habilidades sociales, comunicativas, asertividad, escucha activa, comunicación no verbal, gestión de grupos, herramientas digitales para la interacción, huella e identidad digital, ciudadanía ética digital). Orientación hacia la formación académica y profesional (programas y servicios de orientación, formación permanente, clima laboral, Espacio Europeo de Educación, tendencias laborales y revolución digital, emprendimiento, homo œconomicus y participación social activa)."
+    - bloque: "Bloque III — Proyecto personal, académico-profesional y aproximación a la búsqueda activa de empleo"
+      cursos: ["4.º ESO"]
+      detalles: "Comprensión y valoración de la diversidad como elemento enriquecedor de los equipos. Aplicación de las fases de diseño de un plan personal de autoconocimiento y formación académica y profesional (identificación de cualidades, fortalezas y debilidades; exploración de ofertas y perfiles; toma de decisiones a corto plazo; aproximación a un plan de búsqueda activa de empleo con proyección de futuro). Aproximación a un plan de búsqueda activa de empleo mediante estrategias e instrumentos de búsqueda de empleo."
+  descriptores_operativos: ["CP3", "CD3", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CE1", "CE2", "CE3"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Formación y Orientación Personal y Profesional en 4.º de ESO Canarias, materia incluida en el elenco del artículo 25 del Decreto 30/2023 y alineada con el carácter orientador del último curso de la etapa. Cinco competencias específicas (C1-C5) y catorce criterios de evaluación. Saberes organizados en tres bloques: «El ser humano y el conocimiento de sí mismo», «Formación y orientación personal y profesional hacia la vida adulta» y «Proyecto personal, académico-profesional y aproximación a la búsqueda activa de empleo»."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Formacion_orientacion_personal_profesional_ESO.pdf publicado por la Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias. Se han incorporado los enunciados literales de las competencias específicas, los criterios de evaluación de 4.º de ESO y los bloques de saberes básicos."

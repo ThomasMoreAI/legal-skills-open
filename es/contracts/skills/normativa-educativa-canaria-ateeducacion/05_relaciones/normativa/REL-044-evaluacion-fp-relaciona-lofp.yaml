@@ -1,0 +1,11 @@
+id: REL-044
+tipo_relacion: "relaciona"
+origen: NOR-015
+destino: NOR-007
+descripcion: "La Orden de 20 de octubre de 2000, sobre evaluación en FP, queda supeditada al nuevo régimen de evaluación y acreditación de competencias de la LOFP (Ley Orgánica 3/2022)."
+evidencia:
+  fuente: FTE-015
+  localizacion: "Capítulo VI de la LO 3/2022."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"
+observaciones: "Es altamente probable que esta orden esté tácitamente derogada o superada por el RD de ordenación de la FP de 2023 y la LOFP."

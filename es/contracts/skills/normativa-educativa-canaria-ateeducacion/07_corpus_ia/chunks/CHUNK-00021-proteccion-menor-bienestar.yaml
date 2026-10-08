@@ -1,0 +1,31 @@
+id: CHUNK-00021
+origen_tipo: "norma"
+origen_id: NOR-031
+titulo: "Protección del Menor y Bienestar en Centros Educativos"
+texto: >-
+  Marco de protección integral frente a la violencia y atención al bienestar del alumnado en Canarias.
+  Puntos fundamentales:
+  1. Coordinador de Bienestar: Figura obligatoria en todos los centros para la protección frente a la violencia (LOPIVI).
+  2. Protocolos Obligatorios: Detección y actuación ante acoso escolar, riesgo suicida y maltrato infantil.
+  3. Atención Temprana: Coordinación con equipos especializados para la detección precoz (0-6 años).
+  4. Entornos Seguros: Obligación de los centros de ser espacios de buen trato y convivencia positiva.
+metadatos:
+  ambito: "canarias"
+  etapa: [todas]
+  temas: [proteccion-menores, derechos, bienestar]
+  estado_vigencia: "Vigente"
+  fuente: FTE-034
+  url_oficial: "https://www.gobiernodecanarias.org/boc/1997/023/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Ley 1/1997 Canaria y LOPIVI 8/2021."
+relaciones:
+  normas: [NOR-031]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

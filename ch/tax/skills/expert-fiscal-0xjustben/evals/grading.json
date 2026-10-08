@@ -1,0 +1,11 @@
+{
+  "skill": "expert-fiscal",
+  "rubric": "Grade tax responses on: (1) correct Swiss federal article cited (LIFD/DBG, LHID, LIA, LT); (2) numerically accurate rates, thresholds, or deduction amounts for 2026; (3) correct cantonal context if relevant; (4) no French CGI / DGFIP / BOFiP references; (5) no German UStG / EStG references.",
+  "criteria": [
+    { "name": "legal_basis", "weight": 0.35 },
+    { "name": "numeric_accuracy", "weight": 0.35 },
+    { "name": "cantonal_context", "weight": 0.20 },
+    { "name": "no_foreign_law", "weight": 0.10 }
+  ],
+  "pass_threshold": 0.7
+}

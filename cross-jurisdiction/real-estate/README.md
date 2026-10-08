@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): real estate 
 
 Jurisdiction: `cross-jurisdiction` · Practice: `real-estate` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Property Deep-Dive ('/property-deep-dive')`](skills/property-deep-dive-soreavis/) | Universal property due-diligence across 126 countries. Pulls any or all of 41 sections per address — ten… |
 | [`Tool — Stamp Duty / Transfer Tax Calculator`](skills/tool-calculator-stamp-duty-tax-sboghossian/) | Use when computing stamp duty, transfer tax, or real-estate transaction tax on property or share… |
 
 ## Cold-start context

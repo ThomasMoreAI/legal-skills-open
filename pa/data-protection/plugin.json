@@ -1,0 +1,24 @@
+{
+  "name": "pa-data-protection",
+  "displayName": "Data Protection — PA",
+  "version": "0.1.0",
+  "description": "Data Protection skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/antai-betobetico",
+    "skills/brecha-4132-betobetico",
+    "skills/derechos-betobetico",
+    "skills/eipd-privacidad-betobetico",
+    "skills/eipd-proteccion-datos-betobetico",
+    "skills/encargo-betobetico",
+    "skills/entrevista-inicial-privacidad-betobetico",
+    "skills/entrevista-inicial-proteccion-datos-betobetico",
+    "skills/gap-privacidad-betobetico",
+    "skills/rat-betobetico",
+    "skills/triaje-privacidad-betobetico"
+  ]
+}

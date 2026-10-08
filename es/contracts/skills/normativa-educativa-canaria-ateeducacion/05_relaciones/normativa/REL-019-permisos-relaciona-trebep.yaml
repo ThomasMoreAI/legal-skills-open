@@ -1,0 +1,10 @@
+id: REL-019
+tipo_relacion: "relaciona"
+origen: NOR-023
+destino: NOR-020
+evidencia:
+  fuente: FTE-026
+  localizacion: "[PENDIENTE]"
+descripcion: "La Resolución de Permisos y Licencias adapta el régimen del profesorado canario al marco básico de conciliación del TREBEP."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

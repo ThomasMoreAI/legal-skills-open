@@ -1,0 +1,32 @@
+{
+  "description": "Processo sintético simples — ação de cobrança em 1ª instância com 3 peças: inicial, contestação, sentença parcialmente procedente. Serve de baseline de smoke-test para ambos os pipelines (legacy e agents).",
+  "pipeline_compat": ["legacy", "agents"],
+  "extraction": {
+    "min_chars": 3000
+  },
+  "chunks": {
+    "min_count": 3,
+    "max_count": 5
+  },
+  "piece_types_present": [
+    "PETIÇÃO INICIAL",
+    "CONTESTAÇÃO",
+    "SENTENÇA"
+  ],
+  "text_must_contain": [
+    "AÇÃO DE COBRANÇA",
+    "50.000",
+    "30.000",
+    "5ª Vara Cível",
+    "JOÃO DA SILVA TESTE",
+    "EMPRESA DEMO LTDA",
+    "artigo 389"
+  ],
+  "text_must_not_contain": [
+    "ACÓRDÃO",
+    "APELAÇÃO"
+  ],
+  "single_instance": true,
+  "contradiction_expected": false,
+  "notes": "O processo é simples: só 1ª instância, sem reforma, sem recursos. Nenhum dos invariantes depende de detecção semântica profunda — são todos verificáveis no texto bruto extraído."
+}

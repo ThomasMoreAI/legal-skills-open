@@ -1,0 +1,504 @@
+ID interno: NOR-015
+Título oficial: Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
+Fuente oficial: FTE-015
+URL origen: https://www.gobiernodecanarias.org/boc/2000/148/001.html
+Fecha de consulta: 2026-04-26
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOC. [PENDIENTE] (2026-08-05, TAREA-084) No se ha podido re-exportar desde el PDF oficial: el PDF del BOC 2000/148 son 19 páginas escaneadas sin capa de texto, así que pdftotext no extrae nada. Esta copia procede de la versión HTML, que omite los anexos publicados como imagen. Recuperarlos exigiría OCR, que introduciría errores de transcripción en un texto normativo.
+---
+BOC - 2000/148. Viernes 10 de Noviembre de 2000 - 1496
+
+Gobierno de Canarias
+
+Comunidad Autónoma de Canarias
+
+Boletín Oficial de Canarias
+
+Accesibilidad
+
+Mapa web
+
+Contacto
+
+Versión texto
+
+Inicio
+
+Archivo
+
+Búsqueda
+
+Estás en:
+
+Inicio
+
+Archivo
+
+Año 2000
+
+2000/148. Viernes 10 de Noviembre de 2000
+
+1496
+
+<p>Menú de búsqueda y navegación</p>
+
+Siguiente
+
+BOC Nº 148. Viernes 10 de Noviembre de 2000 - 1496
+
+I. DISPOSICIONES GENERALES - Consejería de Educación, Cultura y Deportes
+
+1496 - ORDEN de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en el ámbito de la Comunidad Autónoma de Canarias.
+
+Descargar en formato pdf
+
+La Formación Profesional Específica establecida en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (L.O.G.S.E.) contiene, en el contexto de su regulación definidora, determinados aspectos singularmente referidos a los procesos de evaluación de los ciclos formativos que precisan un desarrollo en normas posteriores.
+
+A este respecto, el Real Decreto 676/1993, de 7 de mayo (B.O.E. de 22 de mayo), por el que se establecen las directrices generales sobre los títulos y las correspondientes enseñanzas mínimas de la Formación Profesional, dedica un capítulo específico a regular en profundidad lo que serán aspectos básicos de la evaluación en la Formación Profesional Específica.
+
+Previamente, la Orden Ministerial de 30 de octubre de 1992 (B.O.E. de 11 de noviembre), modificada por la Orden de 2 de abril de 1993 (B.O.E. de 15 de abril), ya estableció, de manera concreta, los elementos básicos de los informes de evaluación de las enseñanzas de régimen general reguladas por la citada Ley Orgánica, así como los requisitos formales derivados del proceso de evaluación que son precisos para garantizar la movilidad del alumnado. De igual modo, la Orden Ministerial de 21 de julio de 1994 (B.O.E. de 26 de julio) reguló los aspectos básicos de los procesos de evaluación, acreditación académica y movilidad del alumnado que cursa la Formación Profesional Específica.
+
+A partir de este marco normativo de carácter básico para todo el Estado, en Canarias, la Orden de 10 de abril de 1995 (B.O.C. de 17 de mayo) estableció las normas que regulan el proceso de evaluación y la acreditación académica del alumnado que cursa la Formación Profesional Específica en los centros de nuestro ámbito.
+
+Asimismo, la Comunidad Autónoma Canaria, en el ejercicio de sus competencias, ha desarrollado un modelo de Formación Profesional Específica basado en la competencia profesional y en la autonomía pedagógica y organizativa de los centros docentes. Así, el Decreto Territorial 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias, define la estructura de los currículos de los ciclos formativos e incluye para cada uno de ellos el módulo profesional de Integración, cuyo currículo debe ser desarrollado por cada centro docente. Al mismo tiempo, la duración de los módulos profesionales se establece en una banda horaria de mínimos y máximos, correspondiéndole, asimismo, a cada centro definir la duración concreta de cada módulo profesional.
+
+Regula también este Decreto, por medio de un pormenorizado capítulo VI, cuál ha de ser, en términos generales, el carácter de la evaluación del aprendizaje del alumnado y qué otros condicionantes rodean a los procesos de evaluación entendidos en sentido amplio, desde los que afectan a la propia práctica docente, hasta los que se refieren al módulo profesional de Formación en Centros de Trabajo.
+
+A tenor de lo expuesto, y considerando el tiempo transcurrido, aquella Orden territorial se muestra en estos momentos insuficiente para el modelo de Formación Profesional Específica ya perfilado, razón por la cual, con la experiencia recogida durante estos primeros años de implantación de los ciclos formativos, resulta necesario establecer modificaciones, mejoras y ajustes teniendo en cuenta todos los aspectos que confluyen en la evaluación.
+
+La presente Orden articula un proceso que comienza con la evaluación inicial del alumnado, a fin de analizar sus conocimientos, capacidades y expectativas en relación con la profesión. Tiene, por tanto, esta evaluación inicial la pretensión de valorar los conocimientos previos y de ser orientadora en relación con la profesión. Se insiste, asimismo, en que la evaluación se ha de desarrollar a lo largo de todo el proceso, aplicándose la evaluación continua durante todo el período de formación del alumnado, de tal modo que queden vinculadas permanentemente las actividades de evaluación con las de enseñanza-aprendizaje, convirtiéndose así la evaluación en proceso formativo en sí misma.
+
+Las sesiones de evaluación final, dada la distinta duración de los diferentes ciclos formativos, se ubican en fechas no habituales hasta ahora en el sistema educativo, lo que permite que el alumnado finalice sus estudios sin demora y pueda incorporarse al sistema productivo.
+
+Por último, los centros educativos, en ejercicio de su autonomía, asumen un destacado papel en aspectos tales como la determinación de las condiciones para el acceso al módulo profesional de Formación en Centros de Trabajo (FCT), cuestión esta que, entre otras, debe ser resuelta por cada centro docente en el marco de su desarrollo curricular.
+
+La intervención de las empresas e instituciones en la formación del alumnado a través del módulo profesional de Formación en Centros de Trabajo, requiere su participación en la evaluación de dicho módulo a través de los informes que al efecto emiten los monitores de empresas, pudiendo éstos, asimismo, asistir a las sesiones de evaluación final, lo que permitirá enriquecer las relaciones centro-empresas.
+
+Por cuanto antecede, previo informe del Consejo Escolar de Canarias y en uso de la habilitación a estos efectos prevista en el Decreto 156/1996, de 20 de junio (Disposición Final Segunda) y de las atribuciones conferidas en el Decreto 305/1991, de 29 de noviembre,
+
+D I S P O N G O:
+
+I. ÁMBITO DE APLICACIÓN
+
+Artículo 1.- La presente Orden será de aplicación en los centros docentes públicos y privados, concertados o no concertados, del ámbito territorial de la Comunidad Autónoma de Canarias, que impartan las enseñanzas correspondientes a la Formación Profesional Específica establecida en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.
+
+II. CARACTERÍSTICAS DE LA EVALUACIÓN
+
+Artículo 2.- 1. La evaluación en la Formación Profesional Específica se realizará a lo largo de todo el proceso de enseñanza-aprendizaje del alumnado, teniendo, por ello, un carácter continuo. Con este fin, la programación de cada módulo profesional deberá considerar que las actividades de enseñanza-aprendizaje lo sean también de evaluación.
+
+2. En el proceso de evaluación de los ciclos formativos, el profesorado deberá tener en cuenta aquellos elementos que, como parámetros o indicadores de evaluación, permitan obtener la información necesaria para justificar un grado suficiente de adquisición, tanto de las capacidades concretas de cada módulo profesional como del conjunto de capacidades características de la profesión. Estos elementos se concretan en los referentes descritos a continuación:
+
+2.1. Referentes profesionales y socioeconómicos:
+
+a) El perfil profesional, considerando especialmente la competencia general, las capacidades profesionales y las unidades de competencia (realizaciones y criterios de realización) previstos para cada caso en el Real Decreto por el que se establece el título y las enseñanzas mínimas y que, por tanto, son de aplicación al ciclo formativo concreto.
+
+b) Los elementos singulares que caracterizan el perfil profesional en el entorno inmediato del alumnado, obtenidos de la observación del sector productivo y concretados en el Proyecto Curricular del ciclo formativo.
+
+2.2. Referentes educativos:
+
+a) Los objetivos generales del ciclo formativo y las capacidades actitudinales comunes establecidos en cada Decreto de currículo de la Comunidad Autónoma de Canarias.
+
+b) Las capacidades terminales y los criterios de evaluación establecidos para cada módulo profesional en el correspondiente Decreto y concretados en los proyectos curriculares y en las programaciones didácticas.
+
+3. Para cada ciclo formativo, los centros docentes establecerán, en el marco de su proyecto curricular, y desarrollarán en las programaciones didácticas, los criterios de planificación y toma de decisiones propias del proceso de evaluación; en particular:
+
+a) Los procedimientos para evaluar el progreso del aprendizaje de los alumnos y la correspondencia entre los instrumentos generales de evaluación y los criterios de evaluación.
+
+b) Los criterios de promoción de curso y de acceso a los módulos de Integración y de Formación en Centros de Trabajo, más concretamente qué módulos deben ser superados como condición previa en ambos casos, qué capacidades actitudinales deben manifestar los alumnos, y otras pautas a tener en cuenta en la aplicación de los artículos 7 y 8 de la presente Orden.
+
+c) La planificación de las actividades de recuperación de módulos profesionales pendientes, y expresamente aquellas que puedan ser realizables de forma autónoma por el alumnado.
+
+d) Los criterios y pautas de evaluación que deben ser tenidos en cuenta en la evaluación del alumnado con necesidades educativas especiales, de conformidad con lo establecido en el Decreto 156/1996, de 20 de junio, y en la Orden de 7 de abril de 1997 (B.O.C. de 25 de abril), por la que se regulan las adaptaciones curriculares.
+
+e) El desarrollo de los sistemas extraordinarios de evaluación para el supuesto contemplado en el apartado 2 del artículo 41 del Decreto 292/1995, de 3 de octubre, por el que se regulan los derechos y deberes del alumnado, cuando por razones de inasistencia reiterada del alumnado, no sea posible utilizar los instrumentos de evaluación previstos en el proyecto curricular para cada módulo profesional.
+
+4. El profesorado que imparte docencia a un grupo de alumnos de Formación Profesional Específica se constituye en equipo docente y estará coordinado por el profesor tutor de dicho grupo. El equipo docente tomará las decisiones que afecten al proceso de evaluación de cada uno de los alumnos según se desarrolla en artículos posteriores. La consideración ponderada de cada uno de estos elementos constituye una garantía para una correcta evaluación de las capacidades que el alumnado debe desarrollar en razón al perfil del título concreto.
+
+5. Dado que la evaluación continua se desarrolla a lo largo de todo el proceso de enseñanza-aprendizaje, se hace necesaria la asistencia del alumnado a las actividades programadas para los distintos módulos profesionales del ciclo formativo. Ello es consecuencia directa de este tipo de enseñanza que, tal como se establece en el artículo 21 del Decreto 156/1996, de 20 de junio, cuenta con una metodología en la que debe primarse la integración de la teoría y la práctica, la participación activa del alumnado en su propio proceso de aprendizaje y el trabajo en equipo, pudiendo implicar la combinación de la formación en centro educativo con la realización de visitas técnicas, prácticas programadas en empresas o participaciones esporádicas en otro tipo de actividades formativas complementarias fuera del centro, debiendo prever su realización y evaluación en el proyecto curricular.
+
+6. Los sistemas extraordinarios de evaluación citados en el apartado 3.e) del presente artículo no podrán limitarse a la propuesta de una prueba o examen, sino que deberá planificarse la realización de un conjunto de actividades que permitan evaluar el nivel de adquisición de las capacidades por parte de los alumnos, de acuerdo con las características de cada módulo profesional y teniendo en cuenta los referentes enunciados en el anterior apartado 2.
+
+III. DESARROLLO DE LOS PROCESOS
+
+DE EVALUACIÓN
+
+Artículo 3.- Consideraciones generales. Sesiones de evaluación.
+
+1. Se denominan sesiones de evaluación a las reuniones del equipo docente, presididas por el profesor tutor del grupo, celebradas con objeto de contrastar las informaciones proporcionadas por el profesorado de los distintos módulos profesionales, el nivel de adquisición, por parte del alumnado, de las capacidades relativas a cada módulo, y valorar, de manera colegiada, el progreso del alumnado en la consecución de los objetivos generales del ciclo y en la obtención de las capacidades actitudinales.
+
+En dichas sesiones se evaluará también la práctica docente, teniendo en cuenta las orientaciones metodológicas y didácticas descritas en el apartado 4 del anexo del correspondiente Decreto de currículo que regule el desarrollo y la impartición de cada título en la Comunidad Autónoma de Canarias.
+
+2. El tutor de cada grupo levantará acta del desarrollo de las sesiones, en la que se harán constar los acuerdos alcanzados y las decisiones adoptadas. La valoración de los resultados derivados de estos acuerdos y decisiones constituirá el punto de partida de la siguiente sesión de evaluación.
+
+3. A partir de los datos aportados por los distintos miembros del equipo docente en cada una de las sesiones de evaluación, el tutor elaborará un informe-síntesis que incluirá las calificaciones obtenidas y que será entregado a los padres/tutores o a los propios alumnos, si son mayores de edad.
+
+4. En el marco del proyecto educativo del centro, se favorecerá la presencia del alumnado en las sesiones de evaluación, el centro educativo arbitrará para ello las condiciones en las que dicha participación deberá llevarse a cabo y las medidas que garanticen la necesaria confidencialidad de aquella información que merezca un tratamiento reservado a juicio del equipo docente.
+
+Artículo 4.- Sesión de evaluación inicial.
+
+Al comienzo de las actividades del ciclo formativo, el equipo docente realizará una sesión de evaluación inicial del alumnado, que tiene por objeto conocer las características y la formación previa de cada uno de los alumnos, así como sus capacidades y, al mismo tiempo, debe servir para orientar y situar al alumnado en relación con el perfil profesional correspondiente.
+
+En esta sesión, el profesor tutor dará la información disponible sobre las características generales del grupo o sobre las circunstancias específicamente académicas, o personales con incidencia educativa, de cuantos alumnos y alumnas lo componen. Esta información podrá proceder de:
+
+a) Los informes individualizados de evaluación de la etapa anteriormente cursada, si el centro los tuviera o si los alumnos los aportaran.
+
+b) Los estudios académicos o las enseñanzas de Formación Profesional (de carácter reglado, ocupacional o continuo) previamente realizados.
+
+c) El acceso mediante prueba para alumnos sin titulación (realización de un Programa de Garantía Social, etc.).
+
+d) Los informes o dictámenes específicos de los alumnos con necesidades educativas especiales que pueda haber en el grupo.
+
+e) La observación del alumnado y las actividades realizadas en las primeras semanas del curso.
+
+Los acuerdos que adopte el equipo docente en esta sesión de evaluación se recogerán en un acta. Esta evaluación inicial en ningún caso conllevará calificación para el alumnado.
+
+Artículo 5.- Sesiones de evaluación parcial.
+
+Para cada grupo se celebrará, al menos, una sesión de evaluación y calificación en cada trimestre lectivo, sin perjuicio de cuantas otras puedan establecerse en los respectivos proyectos curriculares, en las que se evaluará el proceso de enseñanza-aprendizaje.
+
+Artículo 6.- Sesiones de evaluación final.
+
+1. Las sesiones de evaluación final son aquellas que se realizan al término del período formativo de los módulos, en las que se califican éstos por sus profesores correspondientes y, en su caso, de forma colegiada se toman decisiones sobre la promoción de curso o sobre el acceso a los módulos de Integración y de Formación en Centros de Trabajo.
+
+2. Al término del período o de los períodos correspondientes a los módulos profesionales se realizará una sesión de evaluación final en la que se evaluarán los módulos profesionales cuyo período formativo finaliza y, en su caso, los módulos pendientes, así como la asignación de actividades de recuperación para los módulos no superados que así se determine, con indicación expresa de la evaluación final en que serán evaluados. Además, se tomarán las decisiones que proceda según el curso:
+
+a) Cursos con todos los módulos profesionales en centro educativo.
+
+Al término del período correspondiente a los módulos profesionales se realizará una sesión de evaluación final. Se incluirá la decisión de promoción de curso, o en su caso, de acceso de los alumnos a los módulos de Integración y de Formación en Centros de Trabajo.
+
+b) Cursos con módulos profesionales en centro educativo y además Integración y Formación en Centros de Trabajo.
+
+Al término del período correspondiente a los módulos profesionales en centro educativo y previamente al período correspondiente a los módulos de Integración y Formación en Centros de Trabajo, se realizará una sesión de evaluación final en la que se incluirá la decisión de acceso de los alumnos a los módulos de Integración y de Formación en Centros de Trabajo.
+
+Al término del período correspondiente a los módulos profesionales de Integración y Formación en Centros de Trabajo se realizará una sesión de evaluación final.
+
+c) Cursos sólo con los módulos profesionales de Integración y de Formación en Centros de Trabajo.
+
+Al término del período correspondiente a los módulos profesionales de Integración y Formación en Centros de Trabajo se realizará una sesión de evaluación final. Se podrá decidir la asignación de actividades de recuperación para los módulos no superados que así se determine, para ser evaluados en una sesión de evaluación final extraordinaria en el mes de junio siguiente.
+
+3. En los ciclos formativos en régimen nocturno, las sesiones de evaluación final se ajustarán a los períodos establecidos en dicho régimen.
+
+Artículo 7.- Promoción de curso.
+
+1. Promocionarán al siguiente curso quienes hayan superado todos los módulos del curso anterior.
+
+2. Podrán promocionar quienes, teniendo algunos módulos profesionales no superados, la suma de su carga horaria sea inferior o igual al 25% de la duración del conjunto de los módulos profesionales correspondientes al curso académico y de acuerdo con lo estipulado en el proyecto curricular no se trate de módulos cuya superación sea indispensable para continuar el proceso de enseñanza-aprendizaje.
+
+3. Excepcionalmente, el equipo docente podrá decidir la promoción cuando se trate de un solo módulo, aun cuando la carga horaria sea superior al 25% indicado en el apartado anterior, siempre que tal posibilidad y los criterios de promoción estén previamente definidos e incorporados al proyecto curricular.
+
+En todos los supuestos, los alumnos deberán ser informados de las actividades programadas para la recuperación de los módulos pendientes, así como del período de su realización y de la sesión de evaluación.
+
+En todo caso, cuando los alumnos no promocionen, deberán repetir los módulos profesionales no superados, para lo cual formalizarán la matrícula en el mismo curso y se incorporarán al grupo de alumnos correspondiente.
+
+El informe de evaluación individualizado previsto en el artículo 25 de la presente Orden, contendrá información suficiente sobre las capacidades no alcanzadas por los alumnos, a fin de que sea tenida en cuenta en su posterior aprendizaje.
+
+Artículo 8.- Acceso a los módulos profesionales de Integración (ITG) y de Formación en Centros de Trabajo (FCT).
+
+1. El acceso a los módulos de Integración y de Formación en Centros de Trabajo requerirá la evaluación positiva de todos los módulos profesionales del ciclo realizados en el centro educativo, salvo el de Integración, que se evaluará en la misma sesión de evaluación que el de FCT.
+
+2. No obstante, el equipo docente del ciclo formativo podrá decidir el acceso a los módulos profesionales de Integración y de Formación en Centros de Trabajo de aquellos alumnos que tengan algunos módulos profesionales pendientes, siempre que la carga horaria sea inferior o igual al 25% de la duración del conjunto de los módulos profesionales del ciclo, exceptuando los módulos profesionales de Integración y de Formación en Centros de Trabajo; salvo que se trate de módulos profesionales cuya superación, de acuerdo con el proyecto curricular, sea imprescindible para el acceso citado.
+
+Esta determinación será adoptada por el equipo docente en el marco de los criterios o pautas que a estos efectos se refleje en el proyecto curricular, con carácter previo. En este supuesto, los alumnos deberán ser informados de las actividades programadas para la recuperación de los módulos pendientes, del período de su realización y de los procedimientos por los que se determine la superación de los módulos pendientes.
+
+3. En todo caso, para cada alumno, el equipo docente valorará la posibilidad de realizar las actividades de recuperación, el nivel de autonomía con que podrá llevarlas a cabo, y su compatibilidad con el proceso formativo correspondiente a los módulos de Formación en Centros de Trabajo y de Integración.
+
+Artículo 9.- Evaluación del módulo profesional de Formación en Centros de Trabajo (FCT).
+
+1. Durante el tiempo que dure la realización de la FCT, el tutor del grupo deberá llevar a cabo un seguimiento de las actividades desarrolladas por sus alumnos en la empresa. Dicho seguimiento permitirá conocer los progresos de los alumnos con relación a las capacidades terminales del módulo y, al mismo tiempo, detectar y corregir posibles deficiencias de las actividades desarrolladas.
+
+2. En la evaluación del módulo de FCT, se tendrán en cuenta los datos y la información recabados por el tutor, considerando, asimismo, el informe que al efecto realice el monitor de la empresa, siendo recomendable su asistencia a esta sesión de evaluación.
+
+Artículo 10.- Período de escolarización y renuncia de convocatoria.
+
+1. El alumnado de los ciclos formativos podrá inscribirse, en régimen presencial, cursando las actividades programadas para un mismo módulo profesional un máximo de tres veces. Podrá ser evaluado y calificado de un mismo módulo profesional en un máximo de cuatro sesiones finales. Quedará exceptuada la evaluación del módulo profesional de FCT, que tendrá un máximo de dos. Excepcionalmente, la Dirección del centro, previo informe del departamento didáctico correspondiente, podrá conceder otra convocatoria extraordinaria a aquellos alumnos que hubieran agotado todas las convocatorias de un mismo módulo profesional, cuando exista causa que lo justifique.
+
+2. A fin de no agotar las ocasiones previstas en el apartado anterior para cursar un módulo profesional, los alumnos podrán renunciar, por una sola vez, a la evaluación y calificación de la totalidad de los módulos profesionales del ciclo formativo o a un número de ellos que suponga menos del 50%, excepto cuando afecte exclusivamente al módulo de FCT. La renuncia podrá ser solicitada motivadamente al Director del centro docente, por la persona interesada o por su representante legal.
+
+3. La solicitud de renuncia de convocatoria se formulará con una antelación mínima de dos meses a la evaluación final del o de los módulos profesionales para los que solicita la renuncia. El Director del centro resolverá en el plazo máximo de diez días, y podrá autorizar dicha renuncia cuando en el alumno concurra alguna de las siguientes circunstancias:
+
+- Enfermedad prolongada de carácter físico o psíquico.
+
+- Prestación del servicio militar o servicio social sustitutorio.
+
+- Incorporación a un puesto de trabajo.
+
+- Obligaciones de tipo familiar o personal que impidan la normal dedicación al estudio.
+
+La renuncia de convocatoria siempre deberá justificarse documentalmente.
+
+La resolución favorable de la solicitud de renuncia se reflejará en el acta correspondiente mediante la abreviatura "RE" y en el libro de calificaciones con "RENUNCIA".
+
+4. La baja de oficio, en aplicación del apartado 2.13 de la Sección 3ª del Capítulo Primero de la Orden de 13 de agosto de 1998, por la que se aprueban las instrucciones de organización y funcionamiento de los Institutos de Educación Secundaria dependientes de la Comunidad Autónoma de Canarias, supone la pérdida de la condición de alumno del ciclo formativo. Como consecuencia de ello, no procede realizar evaluación alguna y, por tanto, tampoco serán de aplicación los sistemas extraordinarios de evaluación contemplados en el apartado 2 del artículo 41 del Decreto 292/1995, de 3 de octubre; asimismo, supone la pérdida del derecho a la reserva de plaza prevista para los alumnos repetidores.
+
+Esta circunstancia se reflejará en el acta correspondiente mediante la abreviatura "BA" y en el libro de calificaciones con "BAJA".
+
+IV. CALIFICACIONES, CONVALIDACIONES
+
+Y EXENCIONES
+
+Artículo 11.- Las calificaciones.
+
+1. A tenor de lo dispuesto en el apartado segundo de la Orden Ministerial de 21 de julio de 1994, por la que se regulan los aspectos básicos del proceso de evaluación, los resultados de la evaluación y, en su caso, las calificaciones de los módulos profesionales, excepto el de FCT, se expresarán en cifras de 1 a 10, sin decimales en el caso de la evaluación final de cada módulo profesional y con una sola cifra decimal en la nota media del ciclo formativo. Se consideran positivas las calificaciones iguales o superiores a cinco puntos y negativas las restantes.
+
+2. El módulo profesional de FCT se calificará con los términos de Apto/No Apto.
+
+3. La calificación final del ciclo formativo será el resultado de hallar la media aritmética simple de todos los módulos profesionales, salvo el de FCT. En todo caso, sólo será posible hallarla una vez superados todos los módulos profesionales del ciclo formativo.
+
+Artículo 12.- Convalidaciones de módulos profesionales entre ciclos formativos.
+
+Tal como dispone el artículo 12.1 del Real Decreto 777/1998, de 30 de abril (B.O.E. de 8 de mayo), son convalidables entre sí los módulos comunes a varios ciclos formativos que tengan idéntica denominación y duración, así como las mismas capacidades terminales y criterios de evaluación que los descritos en los Reales Decretos por los que se establecen cada uno de los títulos de Formación Profesional Específica.
+
+Asimismo, quienes hubieran superado el módulo profesional de Formación y Orientación Laboral de un ciclo formativo de grado superior, tendrán convalidado el mismo módulo de otro ciclo formativo de grado medio para el que se solicite la convalidación.
+
+Para el resto de los casos se estará a lo que, en uso de sus competencias, establezca el Ministerio de Educación, Cultura y Deportes.
+
+Artículo 13.- Convalidaciones de módulos profesionales con materias de Bachillerato.
+
+Las convalidaciones de módulos profesionales pertenecientes a los ciclos formativos de grado medio de Formación Profesional Específica con materias de Bachillerato, son las que se establecen en el anexo IV del Real Decreto 777/1998, de 30 de abril.
+
+Artículo 14.- Procedimiento de convalidación.
+
+1. Las solicitudes de convalidación de estudios cursados con módulos profesionales de ciclos formativos, requerirán la matriculación previa en un centro docente autorizado para impartir estas enseñanzas. La solicitud irá acompañada de una certificación académica oficial o, en su caso, fotocopia del título o del libro de calificaciones debidamente compulsados.
+
+2. Las convalidaciones previstas en los artículos 12 y 13 serán reconocidas por la Dirección del centro docente donde se matricule el alumno.
+
+3. Para el resto de convalidaciones, es decir, aquellas no previstas en los artículos 12 y 13 de esta Orden, el solicitante deberá dirigirse al Ministerio de Educación y Cultura, que resolverá de forma individual la solicitud de convalidación, tal como prevé el artículo 17.4 del Real Decreto 777/1998, de 30 de abril.
+
+Artículo 15.- Exención del módulo profesional de Formación en Centros de Trabajo por su correspondencia con la práctica laboral.
+
+1. Para obtener la exención total o parcial del módulo profesional de Formación en Centros de Trabajo por su correspondencia con la práctica laboral, se ha de acreditar una experiencia laboral de, al menos, un período equivalente a 12 meses en jornada completa, relacionada con los estudios profesionales, que permita demostrar las capacidades terminales correspondientes al referido módulo profesional.
+
+2. La acreditación de la experiencia laboral se realizará aportando los documentos siguientes:
+
+a) Certificación de la Tesorería General de la Seguridad Social o de la mutualidad laboral a la que estuviera afiliado, donde conste el período de cotización y, en el caso de trabajadores por cuenta ajena, la empresa y la categoría laboral (grupo de cotización).
+
+b) Certificación de la empresa donde haya adquirido la experiencia laboral, en la que conste específicamente la duración del contrato, la actividad desarrollada y el período de tiempo en el que se ha realizado dicha actividad. En el caso de trabajadores por cuenta propia, certificación de alta en el Impuesto de Actividades Económicas y justificante de pago de dicho impuesto y otros medios documentales que prueben los servicios prestados.
+
+Asimismo, se podrá acreditar alguno de los extremos anteriores mediante sentencia judicial.
+
+3. La Dirección General de Centros resolverá estimando o desestimando la exención y determinará el procedimiento para su tramitación.
+
+Artículo 16.- Registro/Constancia en los documentos de evaluación.
+
+Tanto en el expediente del alumnado, como en el libro de calificaciones, figurarán con la palabra "CONVALIDADO" aquellos módulos profesionales que hayan sido objeto de convalidación y con la abreviatura "CV" en las actas de evaluación. Asimismo, figurarán con la palabra "EXENTO" todos aquellos módulos profesionales que sean objeto de correspondencia con la práctica laboral y con la abreviatura "EX" en las actas de evaluación. Ambos supuestos no se tendrán en cuenta en la calificación final del ciclo formativo.
+
+V. RECLAMACIÓN SOBRE LA EVALUACIÓN
+
+Artículo 17.- Derecho a la reclamación.
+
+1. Conforme a lo establecido en el artículo 13.4 del Decreto 292/1995, de 3 de octubre, por el que se regulan los derechos y deberes del alumnado de los centros docentes no universitarios de la Comunidad Autónoma de Canarias, los alumnos o sus representantes legales podrán formular reclamación sobre las decisiones y calificaciones que se adopten como resultado del proceso de evaluación.
+
+2. La reclamación de las calificaciones deberá estar basada en alguno de los siguientes supuestos:
+
+a) Inadecuación de los instrumentos de evaluación (pruebas orales, escritas y prácticas, trabajos continuos en el aula o taller, trabajos puntuales, proyectos, etc.) propuestos al alumnado en relación con las capacidades terminales de los módulos profesionales y a los objetivos generales y capacidades actitudinales comunes del ciclo formativo.
+
+b) Incorrecta aplicación de los criterios de evaluación establecidos.
+
+c) Notable discordancia entre la calificación final y las parciales otorgadas anteriormente.
+
+3. El alumnado deberá estar informado de los medios de que dispone para reclamar, así como de los plazos y órganos ante los que ha de ejercerlos.
+
+Artículo 18.- Reclamaciones a evaluaciones parciales.
+
+1. Se presentarán en la secretaría del centro, dirigidas al profesor tutor en el plazo de los dos días hábiles siguientes a la publicación o notificación de las mismas. A tal efecto, cada tutor notificará o publicará los resultados académicos de las sesiones de evaluación parciales en el plazo de los dos días lectivos siguientes a la celebración de la misma.
+
+2. El departamento correspondiente al módulo objeto de reclamación, reunido a instancias del Director del centro, después de estudiar el contenido de dicha reclamación, emitirá informe en el que conste la procedencia o no de la misma. Toda la documentación será entregada al tutor antes de la siguiente sesión de evaluación, para que el equipo docente adopte acuerdo al respecto, modificando la calificación objeto de la reclamación, si dicho informe fuese favorable.
+
+3. Si el interesado no considerase satisfactoria la respuesta recibida, podrá reiterar su reclamación al notificársele los resultados de la siguiente evaluación, y así sucesivamente, si procediera, hasta la entrega de las calificaciones finales, haciendo constar todo ello si presentase reclamación contra éstas.
+
+4. Cuando se estime la reclamación, se procederá a las rectificaciones oportunas mediante diligencia extendida al efecto por el profesor tutor.
+
+Artículo 19.- Reclamaciones a evaluaciones finales.
+
+1. Cuando en la sesión final de evaluación se adopten calificaciones o decisiones inherentes a la evaluación que el alumno considere incorrectas, él o su representante legal podrá presentar reclamación a las mismas, en la secretaría del centro en el plazo de los dos días hábiles siguientes a la publicación o notificación de las calificaciones, dirigida al Director del centro.
+
+2. Si la reclamación se refiere a la calificación otorgada en algún módulo, el Director del centro requerirá informe del departamento didáctico correspondiente y, con el asesoramiento del equipo docente, resolverá y notificará por escrito al interesado, en el plazo de dos días hábiles.
+
+3. Si la reclamación se refiere a decisiones de promoción o acceso a Integración y FCT, el Director del centro, con el asesoramiento de la Comisión de Coordinación Pedagógica, resolverá y notificará por escrito la decisión tomada al interesado, en el plazo de dos días hábiles.
+
+4. La persona afectada o su representante, no conforme con la resolución adoptada, podrá reiterar la reclamación ante el Director Territorial de Educación que corresponda y a través de la secretaría del centro, en el plazo de los dos días hábiles siguientes a su notificación y, en su defecto, transcurridos diez días desde que inicialmente se formulara dicha reclamación dentro del plazo señalado. La Dirección del centro remitirá todo el expediente (reclamación, acuerdos o informes del departamento didáctico, del equipo docente o de la Comisión de Coordinación Pedagógica, copia del acta, etc.) a la Dirección Territorial de Educación, el día siguiente al que se reciba la reclamación. La Dirección Territorial, previo informe de la Inspección de Educación y a propuesta de ésta, resolverá en el plazo de un mes, pudiendo recabar, asimismo, el asesoramiento de profesores de la especialidad.
+
+5. Contra dicha resolución o transcurrido el plazo sin que se haya notificado la misma, se podrá interponer, en el plazo de un mes, recurso de alzada ante el Director General de Centros, quien resolverá en el plazo de un mes, estimando en todo o en parte o desestimando las pretensiones contenidas en el mismo. Dicha resolución agotará la vía administrativa.
+
+6. Cuando se estime la reclamación o recurso, se procederá a rectificar las calificaciones afectadas, mediante diligencia extendida por la Dirección del centro con referencia a la resolución adoptada, poniendo en conocimiento del equipo docente tal circunstancia administrativa.
+
+VI. TITULACIÓN Y CERTIFICACIÓN
+
+Artículo 20.- Procedimiento de solicitud de título.
+
+1. Se obtendrá el título una vez superados todos los módulos profesionales del ciclo formativo.
+
+La persona interesada deberá solicitar el título en el centro docente donde haya finalizado sus estudios. La propuesta para la expedición de los títulos la realizarán los Institutos de Educación Secundaria tanto de sus propios alumnos como la de los centros privados adscritos.
+
+2. Los alumnos que hayan superado las enseñanzas de un ciclo formativo de grado medio, obtendrán el título de Técnico en la correspondiente profesión. Dicho título dará derecho a acceder a las distintas modalidades del Bachillerato, tal como se establece en el artículo 11 del Real Decreto 777/1998, de 30 de abril.
+
+3. Los alumnos que hayan superado las enseñanzas de un ciclo formativo de grado superior, obtendrán el título de Técnico Superior en la correspondiente profesión. Dicho título dará derecho a acceder a los estudios universitarios que para cada caso se determina en el anexo X del Real Decreto 777/1998, de 30 de abril.
+
+4. La expedición de los títulos se realizará conforme a lo establecido en la Orden de 10 de noviembre de 1997, por la que se regula, en el ámbito de la Comunidad Autónoma de Canarias, el procedimiento de expedición de los títulos académicos y profesionales correspondientes a las enseñanzas establecidas por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (B.O.C. de 1.12.97).
+
+Artículo 21.- Certificación de módulos profesionales.
+
+La certificación que obtenga el alumnado que supere las enseñanzas correspondientes a módulos profesionales sujetos a la modalidad de enseñanzas parciales, así como la que soliciten aquellos alumnos y alumnas que cursan las enseñanzas del ciclo formativo en régimen ordinario, nocturno o a distancia, deberá ajustarse al modelo que figura en el anexo VI de esta Orden.
+
+VII. DOCUMENTOS DE LA EVALUACIÓN
+
+Artículo 22.- Los documentos.
+
+Los documentos que se utilizarán con carácter oficial durante el proceso de evaluación son:
+
+- El expediente académico (anexo I).
+
+- Las actas de evaluación (anexo II).
+
+- Los informes de actividades de recuperación individualizados (anexo IV).
+
+- Los informes de evaluación individualizados (anexo V).
+
+- El libro de calificaciones.
+
+Los documentos que posibilitan la movilidad de los alumnos son:
+
+- El libro de calificaciones.
+
+- Los informes de evaluación individualizados.
+
+Para la cumplimentación de los documentos de evaluación se utilizarán las abreviaturas y expresiones previstas en el anexo III, según corresponda. Los documentos básicos de evaluación citarán, en lugar preferente, el decreto por el que se establece el currículo correspondiente.
+
+Los centros docentes llevarán un registro informatizado de los expedientes académicos y de las actas de evaluación.
+
+Artículo 23.- El expediente académico del alumnado.
+
+Toda la información relativa al proceso de evaluación se recogerá de manera sintética en el expediente académico del alumnado.
+
+En él figurarán, al menos:
+
+- Los datos de identificación del centro.
+
+- Los datos personales del alumnado.
+
+- El número y la fecha de matrícula.
+
+- Los resultados de la evaluación final.
+
+- Las decisiones de promoción, acceso a Integración y FCT.
+
+- Las adaptaciones curriculares si las hubiere.
+
+Las calificaciones se consignarán en el reverso del documento, tal como establece el anexo I. Se adjuntarán al expediente tantas copias del reverso como sean necesarias a fin de que quede constancia de dichas calificaciones.
+
+La custodia y archivo de los expedientes corresponde a los centros docentes en donde el alumno esté matriculado y será realizado por el secretario o administrador del centro.
+
+Artículo 24.- Las actas de evaluación.
+
+Las actas de evaluación se ajustarán en su contenido al modelo básico que figura en el anexo II de la presente Orden y se cerrarán al término del período de evaluación. Asimismo, los centros podrán adoptar el modelo de actas que, para la cumplimentación más ágil del proceso, se proponga de manera normalizada por la Administración educativa a través de soporte informático y que, en todo caso, se configurará respetando las prescripciones básicas que garantizan la constatación de los resultados de evaluación y la identificación de quienes intervienen.
+
+En las actas de evaluación figurarán, al menos:
+
+- La relación nominal de alumnos que componen el grupo.
+
+- Los resultados de la evaluación de cada uno de los módulos profesionales que componen el ciclo formativo.
+
+- Las decisiones de acceso a los módulos profesionales de Integración y de Formación en Centros de Trabajo, cuando proceda.
+
+- Las decisiones sobre promoción al curso siguiente, cuando proceda.
+
+- La nota media del ciclo formativo, cuando haya superado todos los módulos profesionales.
+
+Cada sesión de evaluación final, ordinaria o extraordinaria, se corresponderá con una única acta de evaluación, en la que se reflejarán todos los alumnos del grupo y su situación en cada uno de los módulos objeto de evaluación, incluidos los pendientes.
+
+Aparecerán en el acta con la consignación de "AP" o "NE", aquellos alumnos pertenecientes al grupo objeto de la evaluación que se trate y que, por tanto, deben figurar en el acta correspondiente, pero que en alguno de los módulos no ha sido evaluado, bien por tenerlo aprobado de un curso anterior, bien porque se hayan establecido actividades de recuperación a realizar en un período y una evaluación posterior.
+
+Las actas serán firmadas por todos los miembros del equipo docente, con el visto bueno del Director del centro. Las firmas irán acompañadas del nombre y apellidos de los firmantes.
+
+A efectos de normalización, los módulos profesionales deben identificarse en las casillas de las actas de evaluación con los códigos que, para ello, determine en el correspondiente programa informático la Administración educativa.
+
+Los centros privados cumplimentarán dos ejemplares de cada acta, debiendo remitir uno de ellos al centro público al que esté adscrito.
+
+Artículo 25.- Informe de actividades de recuperación individualizado.
+
+Cuando, por no haber superado determinado módulo profesional, al alumnado se le asignen actividades de recuperación, el tutor elaborará un informe de recuperación individualizado, que deberá conocer el equipo docente que tendrá la responsabilidad de evaluar dicho módulo profesional en el que se reflejarán, al menos, los siguientes elementos:
+
+- Valoración del aprendizaje realizado.
+
+- Apreciación del grado de consecución de las capacidades enunciadas en los módulos profesionales que han de ser objeto de recuperación.
+
+- Asignación de actividades de recuperación al alumno y, en su caso, aplicación de medidas educativas especiales.
+
+- Período de realización de las actividades de recuperación.
+
+- Indicación expresa de la evaluación final en que serán evaluados.
+
+Este informe quedará custodiado en el expediente académico del alumno. De los tres últimos elementos deberá ser informado el alumnado interesado.
+
+Artículo 26.- Informe de evaluación individualizado.
+
+Cuando un alumno se traslade a otro centro sin haber concluido el ciclo formativo, se consignará, en un informe de evaluación individualizado, aquella información que resulte necesaria para la continuidad del proceso de aprendizaje.
+
+El informe de evaluación individualizado será elaborado por el tutor, a partir de los datos facilitados por los profesores de los módulos profesionales del ciclo formativo y, contendrá, al menos, los siguientes elementos:
+
+a) Apreciación sobre el grado de consecución de las capacidades enunciadas en los objetivos generales del ciclo formativo y de las capacidades actitudinales comunes.
+
+b) Apreciación sobre el grado de consecución de las capacidades enunciadas en los módulos profesionales del ciclo formativo.
+
+c) Calificaciones parciales o valoraciones del aprendizaje en el caso de que se hubieran emitido en ese período.
+
+d) Aplicación, en su caso, de medidas educativas especiales.
+
+Artículo 27.- El libro de calificaciones.
+
+Constituye el documento oficial básico que refleja los estudios cursados y las calificaciones obtenidas por el alumnado.
+
+El libro de calificaciones recogerá, además de los resultados académicos consignados en el expediente, al menos los siguientes datos:
+
+- La información referida a los cambios de centro, si los hubiere.
+
+- Renuncias de convocatorias, si las hubiere.
+
+- Solicitud por parte del alumnado de expedición del título correspondiente.
+
+En el libro de calificaciones de Formación Profesional quedarán reflejados los distintos períodos académicos en que estén organizadas las enseñanzas del correspondiente ciclo formativo, así como los módulos profesionales que se incluyen en cada uno de ellos. En cada curso académico sólo pueden realizarse dos evaluaciones finales, la calificación de la primera se reflejará en la columna de las calificaciones relativa a la convocatoria ordinaria, y la segunda, en su caso, se reflejará en la columna de las calificaciones relativa a la convocatoria extraordinaria.
+
+Corresponde a los centros la cumplimentación y custodia de los libros de calificaciones de Formación Profesional, que, una vez superados los estudios correspondientes al ciclo formativo, se entregarán a los alumnos, haciendo constar esta entrega en la página 15 del propio libro, mediante la correspondiente diligencia y se incluirá copia en el expediente académico del interesado.
+
+Los libros de calificaciones de los alumnos que no superen el ciclo formativo quedarán bajo la custodia del centro en el que cursaron estudios.
+
+DISPOSICIONES ADICIONALES
+
+Primera.- De la evaluación de las enseñanzas parciales, de régimen nocturno, a distancia y de la Enseñanza de Adultos.
+
+Los alumnos que cursen módulos profesionales sujetos a la modalidad de enseñanzas parciales prevista en el artículo 34 del Decreto 156/1996, de 20 de junio, así como aquellos que cursen Formación Profesional Específica en régimen de enseñanzas nocturnas, a distancia o de adultos serán evaluados conforme a lo previsto en esta Orden y a lo que específicamente se disponga en la normativa que regule cada una de estas modalidades de enseñanzas.
+
+Segunda.- De la evaluación del alumnado con necesidades educativas especiales.
+
+A tenor de lo establecido en el artículo 20 del Decreto 156/1996, de 20 de junio, y conforme a lo regulado en la Orden de 7 de abril de 1997 (B.O.C. de 25 de abril), por la que se regulan las adaptaciones curriculares, el profesorado adaptará el proceso de evaluación a las características de aquellos alumnos con necesidades educativas especiales.
+
+Tercera.- Evaluación en la Formación Profesional Específica en régimen nocturno.
+
+El apartado tercero del artículo 9 de la Orden de 27 de mayo de 1999, por la que se regula la impartición de las enseñanzas de Formación Profesional Específica en régimen nocturno (B.O.C. de 18 de junio), queda sin efecto, siendo de aplicación el artículo 7 de la presente Orden.
+
+Cuarta.- Régimen aplicable a las bajas de matrícula en la Formación Profesional Específica.
+
+Se añade un párrafo tercero al apartado 2.13 de la Sección 3ª del Capítulo Primero (página 9895) de la Orden de 13 de agosto de 1998, por la que se aprueban las instrucciones de organización y funcionamiento de los Institutos de Educación Secundaria dependientes de la Comunidad Autónoma de Canarias (B.O.C. de 26.8.98), con la redacción siguiente:
+
+"Transcurrido el citado plazo, sólo podrá realizarse baja de oficio de la matrícula cuando el alumno durante el resto del curso académico no asista injustificadamente a clase de forma continuada por un período superior a 25 días lectivos o, de forma discontinua, por un período superior a 35 días lectivos. A tales efectos, deberá quedar constancia fehaciente en la Secretaría del centro de la comunicación al alumno de tal circunstancia administrativa."
+
+DISPOSICIÓN DEROGATORIA.
+
+Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan o contradigan a lo establecido en la presente Orden y, en especial, la Orden de 10 de abril de 1995, sobre evaluación y acreditación académica del alumnado que curse la Formación Profesional Específica.
+
+Santa Cruz de Tenerife, a 20 de octubre de 2000.
+
+EL CONSEJERO DE EDUCACIÓN,
+
+CULTURA Y DEPORTES,
+
+José Miguel Ruano León.
+
+Ver anexos - páginas 17216-17223
+
+© Gobierno de Canarias
+
+Aviso Legal
+
+Sugerencias y Reclamaciones

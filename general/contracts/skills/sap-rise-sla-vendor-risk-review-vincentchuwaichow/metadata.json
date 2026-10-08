@@ -1,0 +1,32 @@
+{
+  "id": "sap-rise-sla-vendor-risk-review",
+  "name": "RISE with SAP SLA and Vendor Risk Review",
+  "type": "skill",
+  "provider": "sap",
+  "harnesses": [
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini",
+    "kiro",
+    "other"
+  ],
+  "summary": "Advisory review of RISE with SAP and SAP cloud service contracts for SLA and vendor risk: responsibility split (SAP vs customer vs partner), SLA tiers and credit mechanisms, availability and DR commitments, data residency, exit and portability, shared security responsibilities, and audit rights. Does not access live systems.",
+  "source_type": "original",
+  "category": "compliance",
+  "official_docs": [
+    "https://www.sap.com/about/trust-center/cloud-service-agreements.html",
+    "https://www.sap.com/about/trust-center/security.html",
+    "https://www.sap.com/about/trust-center/data-privacy.html",
+    "https://help.sap.com/docs/RISE/rise-with-sap/rise-with-sap",
+    "https://www.sap.com/about/trust-center/availability.html",
+    "https://support.sap.com/en/my-support/systems-installations/cac.html",
+    "https://www.sap.com/about/trust-center/shared-responsibility-model.html"
+  ],
+  "security_notes": "Does not access live SAP systems, contract management portals, SAP for Me, or any signed contract repositories. Accepts only user-provided contract excerpts, term summaries, SLA schedules, or written descriptions of contractual obligations. Never request or accept SAP contract portal credentials, customer-specific contract identifiers, or confidential commercial terms beyond what the user voluntarily provides. Risk classifications are advisory only and do not constitute legal advice — legal counsel must be engaged for binding contract interpretation.",
+  "last_verified": "2026-06-19",
+  "path": "skills/sap/sap-rise-sla-vendor-risk-review",
+  "author": "github: VincentChuWaiChow",
+  "version": "0.1.0",
+  "lifecycle": "experimental"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Evidence Builder"
+  short_description: "Build labor dispute evidence plans"
+  default_prompt: "Use $evidence-builder to turn labor dispute facts into an evidence checklist and gap plan."
+policy:
+  allow_implicit_invocation: false

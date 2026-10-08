@@ -1,0 +1,18 @@
+{
+  "description": "Invariante bloqueante do Auditor Processual (Phase 3, Step 3.3). Quando rodar pipeline=agents, o subagent juriscan-auditor-processual DEVE produzir pelo menos um finding que atenda a estas condições.",
+  "required_when_pipeline": "agents",
+  "skip_when_pipeline": "legacy",
+  "auditor_findings_min_count": 1,
+  "must_contain_finding": {
+    "tipo": "NULIDADE",
+    "fundamento_contains": "942",
+    "impacto_in": ["ALTO", "MÉDIO"],
+    "descricao_must_mention": [
+      "ampliação",
+      "colegiado",
+      "maioria"
+    ],
+    "acao_sugerida_required": true
+  },
+  "rationale": "Apelação com resultado não-unânime reformando sentença de mérito (2x1) dispara obrigatoriamente a técnica de ampliação do colegiado (CPC art. 942). Se o julgamento foi concluído apenas com 3 desembargadores sem convocação adicional, há vício processual arguível em REsp/RE."
+}

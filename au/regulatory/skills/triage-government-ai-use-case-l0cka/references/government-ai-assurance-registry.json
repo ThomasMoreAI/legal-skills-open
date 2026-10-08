@@ -1,0 +1,145 @@
+{
+  "registry_version": 1,
+  "as_at": "2026-08-14",
+  "note": "Research snapshot, not a cached rule. Every workflow must re-verify the named official source at use time. Entries marked lead-verify-before-use rest on secondary discovery (policai.org index) and must be confirmed against the official source before any assertion.",
+  "national": {
+    "framework": "National framework for the assurance of artificial intelligence in government",
+    "official_source": "https://www.finance.gov.au/government/public-data/data-and-digital-ministers-meeting/national-framework-assurance-artificial-intelligence-government",
+    "basis": "Cornerstones pegged to Australia's AI Ethics Principles (2019)",
+    "verification": "verified-2026-08-14"
+  },
+  "jurisdictions": [
+    {
+      "jurisdiction": "Cth",
+      "instruments": [
+        {
+          "title": "Policy for the Responsible Use of AI in Government v2.0",
+          "publisher": "Digital Transformation Agency",
+          "official_source": "https://www.digital.gov.au/ai/ai-in-government-policy",
+          "status": "Mandatory for non-corporate Commonwealth entities; v2.0 effective 15 December 2025 (replaces v1.1 of 1 September 2024); staged per-requirement implementation deadlines — verify the specific deadline at use. Reported at the 24 September 2026 review (not yet confirmed against the DTA): the first new mandatory requirement applied from 15 June 2026 and the remaining requirements, including AI impact assessments for in-scope use cases, are due by 15 December 2026"
+        }
+      ],
+      "key_artefacts": ["accountable official", "AI transparency statement", "AI impact assessment"],
+      "verification": "verified-2026-08-14"
+    },
+    {
+      "jurisdiction": "NSW",
+      "instruments": [
+        {
+          "title": "NSW AI Assessment Framework (AIAF)",
+          "publisher": "Digital NSW / NSW Office for AI",
+          "official_source": "https://www.digital.nsw.gov.au/policy/artificial-intelligence/ai-governance-assurance-and-frameworks/nsw-ai-assessment-framework",
+          "status": "Mandatory for all NSW Government agencies; current Excel AIAF tool published February 2026 (launch date not stated on the official page); system-based version in development; high or critical assessments go to the AI Review Committee"
+        }
+      ],
+      "escalation": "AI Review Committee for higher-risk assessments",
+      "verification": "verified-2026-08-14"
+    },
+    {
+      "jurisdiction": "Qld",
+      "instruments": [
+        {
+          "title": "Foundational AI risk assessment (FAIRA) guideline under the QGEA AI governance policy",
+          "publisher": "Queensland Government (forgov / QGEA)",
+          "official_source": "https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/qgea-policies-standards-and-guidelines/foundational-artificial-intelligence-risk-assessment-guideline",
+          "status": "Policy and guideline in force from September 2024"
+        }
+      ],
+      "escalation": "FAIRA-driven risk escalation",
+      "verification": "verified-2026-08-14"
+    },
+    {
+      "jurisdiction": "WA",
+      "instruments": [
+        {
+          "title": "WA Government Artificial Intelligence Policy and Assurance Framework",
+          "publisher": "WA Office of Digital Government (DPC)",
+          "official_source": "https://www.wa.gov.au/government/publications/wa-government-artificial-intelligence-policy-and-assurance-framework",
+          "status": "In force; supported by an AI governance toolkit and self-assessment. Official page updated 25 August 2026, after the 14 August 2026 verification — recheck content before use"
+        }
+      ],
+      "escalation": "WA AI Advisory Board",
+      "verification": "verified-with-caveat"
+    },
+    {
+      "jurisdiction": "Vic",
+      "instruments": [
+        {
+          "title": "Administrative Guideline for the safe and responsible use of Generative AI in the Victorian Public Sector",
+          "publisher": "Victorian Government",
+          "official_source": "https://www.vic.gov.au/administrative-guideline-safe-responsible-use-gen-ai-vps",
+          "status": "In force; relies on the National Framework; a Victorian AI assurance framework tool was in development at the snapshot date"
+        },
+        {
+          "title": "OVIC guidance on enterprise and public generative AI tools",
+          "publisher": "Office of the Victorian Information Commissioner",
+          "official_source": "https://ovic.vic.gov.au/privacy/resources-for-organisations/use-of-enterprise-generative-ai-tools-in-the-victorian-public-sector",
+          "status": "Regulator guidance"
+        }
+      ],
+      "verification": "verified-2026-08-14"
+    },
+    {
+      "jurisdiction": "SA",
+      "instruments": [
+        {
+          "title": "Artificial Intelligence Ethics Policy (across-government)",
+          "publisher": "SA Department of Treasury and Finance",
+          "official_source": "https://www.treasury.sa.gov.au/__data/assets/pdf_file/0004/1194340/AI_Ethics_Policy.pdf",
+          "status": "Lead only — official SA pages (ai.sa.gov.au) blocked automated verification"
+        },
+        {
+          "title": "Guideline 13.1 — use of Generative AI and LLM tools",
+          "publisher": "SA Department of Treasury and Finance",
+          "official_source": "https://www.treasury.sa.gov.au/__data/assets/pdf_file/0007/936745/Guideline-13.1-Use-of-Large-Language-Model-AI-Tools-Utilities.pdf",
+          "status": "Lead only — verify before use"
+        }
+      ],
+      "notes": "A whole-of-government AI strategy discussion paper exists at ai.sa.gov.au; broader strategy status unverified.",
+      "verification": "lead-verify-before-use"
+    },
+    {
+      "jurisdiction": "Tas",
+      "instruments": [
+        {
+          "title": "Guidance for the use of artificial intelligence in Tasmanian Government",
+          "publisher": "Department of Premier and Cabinet (Tas)",
+          "official_source": "https://www.dpac.tas.gov.au/__data/assets/pdf_file/0034/497176/Tasmanian-Government-Guidance-Artificial-Intelligence.pdf",
+          "status": "Baseline agency guidance aligned to the nationally consistent approach; document existence verified 2026-08-14, full text not parsed"
+        }
+      ],
+      "verification": "verified-with-caveat"
+    },
+    {
+      "jurisdiction": "ACT",
+      "instruments": [
+        {
+          "title": "ACT Government Artificial Intelligence Policy",
+          "publisher": "ACT Government (Digital Canberra / CMTEDD)",
+          "official_source": "https://www.act.gov.au/open/act-government-artificial-intelligence-policy",
+          "status": "In force; policy published May 2025, page current at 17 March 2026"
+        },
+        {
+          "title": "ACT AI Assurance Framework with self-assessment tool",
+          "publisher": "ACT Government",
+          "official_source": "https://www.act.gov.au/open/act-government-artificial-intelligence-policy",
+          "status": "In force"
+        }
+      ],
+      "verification": "verified-2026-08-14"
+    },
+    {
+      "jurisdiction": "NT",
+      "instruments": [
+        {
+          "title": "NT Government Artificial Intelligence Assurance Framework",
+          "publisher": "Department of Corporate and Digital Development (NT)",
+          "official_source": "https://dcdd.nt.gov.au/publications/artificial-intelligence-assurance-framework",
+          "status": "In force (November 2025); six ethics principles, quick risk assessment and self-assurance assessment"
+        }
+      ],
+      "escalation": "Agency chief executive accountable; medium and high-risk projects require additional assurance via the NT Government AI advisory service",
+      "verification": "verified-2026-08-14"
+    }
+  ]
+}

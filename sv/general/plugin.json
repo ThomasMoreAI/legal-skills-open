@@ -1,0 +1,18 @@
+{
+  "name": "sv-general",
+  "displayName": "General — SV",
+  "version": "0.1.0",
+  "description": "General skills for SV (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sv",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-el-salvador-orwel",
+    "skills/analisis-jurisprudencial-el-salvador-orwel",
+    "skills/due-diligence-general-el-salvador-orwel",
+    "skills/elaboracion-concepto-juridico-el-salvador-orwel",
+    "skills/investigacion-juridica-el-salvador-orwel"
+  ]
+}

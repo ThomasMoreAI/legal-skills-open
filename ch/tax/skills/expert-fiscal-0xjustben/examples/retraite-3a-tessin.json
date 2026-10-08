@@ -1,0 +1,47 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "_note": "Newly retired couple in Lugano with pillar 3a + LPP capital withdrawal.",
+  "household": {
+    "country_of_residence": "CH",
+    "canton": "TI",
+    "commune": "Lugano",
+    "address": "Via Nassa 28, 6900 Lugano",
+    "civil_status": "couple_married",
+    "language": "it"
+  },
+  "taxpayer": {
+    "first_name": "Pierre",
+    "last_name": "Délémont",
+    "birth_date": "1959-03-08",
+    "retirement_date": "2024-04-01"
+  },
+  "spouse": {
+    "first_name": "Maria",
+    "birth_date": "1961-07-15",
+    "still_working": false
+  },
+  "pillar_3a_chf": {
+    "providers": [
+      { "name": "PostFinance 3a", "capital": 62500, "withdrawn_on": "2024-03-15" },
+      { "name": "VIAC 3a", "capital": 48200, "withdrawn_on": "2024-03-20" }
+    ],
+    "total_withdrawn": 110700
+  },
+  "pillar_2_lpp_chf": {
+    "capital_total": 385000,
+    "choice": "capital",
+    "withdrawn_on": "2024-04-01"
+  },
+  "ahv_pension_chf_annual": 28320,
+  "expected_treatment": {
+    "lump_sum_separate_taxation": "Prestations en capital LPP + 3a — imposition séparée à taux réduit (env. 1/5 du barème ordinaire), fédéral + cantonal TI",
+    "ti_specifics": "Tessin applique tarif progressif réduit (LIT art. 38)",
+    "anti_abuse_3a_staggering": "Retraits étalés sur années fiscales différentes pour optimiser progression (déjà 2 contrats même année — additionnés)",
+    "ongoing_taxation": "Rentes AVS imposées au revenu ordinaire à 100%"
+  },
+  "checks": [
+    "Vérifier consolidation 3a même conjoint même année (PostFinance + VIAC)",
+    "Confirmer formulaire séparé pour prestation en capital",
+    "Calculer économie via étalement futur sur conjointe (2026)"
+  ]
+}

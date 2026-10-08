@@ -1,0 +1,11 @@
+id: REL-012
+tipo_relacion: "modifica"
+origen: NOR-016
+destino: NOR-015
+descripcion: "La Orden de 3 de diciembre de 2003 modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de la Formación Profesional Específica en Canarias."
+evidencia:
+  fuente: FTE-015
+  localizacion: "Listado de normativa de FP de Inspección Educativa de Canarias"
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"
+observaciones: "Ambas órdenes están con estado_vigencia Pendiente de verificación tras la entrada en vigor de la LOFP (NOR-007) en 2022."

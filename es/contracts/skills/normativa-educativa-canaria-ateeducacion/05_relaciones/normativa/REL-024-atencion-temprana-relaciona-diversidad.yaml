@@ -1,0 +1,11 @@
+id: REL-024
+tipo_relacion: "relaciona"
+origen: NOR-027
+destino: NOR-024
+descripcion: "La Ley 12/2019 de atención temprana se relaciona con la atención a la diversidad por su dimensión preventiva y de coordinación educativa, sanitaria y social."
+evidencia:
+  fuente: FTE-030
+  localizacion: "Preámbulo"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "No es una norma exclusivamente educativa."

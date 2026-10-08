@@ -1,0 +1,23 @@
+# Regression coverage for the widened document-type scope added under issue
+# #760: statutory declarations, deeds and agreements, letters of demand and
+# pre-action correspondence, tribunal and merits-review work, and AGLC4
+# citation. Also pins the non-trigger boundary against natural-writing and
+# engineering-writing for legal subject matter that is not a legal instrument.
+#
+# Structurally validated by the generic route-fixture harness, but not held to
+# trigger_cases.yaml's fixed 3 positive / 3 negative / 3 boundary distribution
+# or its q136-q144 block. Do not fold these back into trigger_cases.yaml; that
+# would break its fixed 3/3/3 contract or force dropping another case.
+schema_version: 1
+target_skill: legal-writing
+cases:
+  - {id: r001, relation: positive, prompt: "Draft an Australian statutory declaration for the declarant using the prescribed wording of the applicable declarations Act.", tags: [direct, document-type], expected: {primary_skill: legal-writing, companion_skills: []}, note: "Statutory declarations are a distinct instrument from affidavits; references/statutory-declarations.md owns the regime, witnessing and false-declaration rules."}
+  - {id: r002, relation: positive, prompt: "Write a letter of demand to the debtor company for the unpaid invoices, with a dated deadline and the contractual basis.", tags: [direct, document-type], expected: {primary_skill: legal-writing, companion_skills: []}, note: "Demands route here rather than to natural-writing because the legal basis, threat limits and offer labels carry legal effect."}
+  - {id: r003, relation: positive, prompt: "Prepare the statement of facts and contentions for this NCAT application and address each statutory criterion.", tags: [direct, document-type], expected: {primary_skill: legal-writing, companion_skills: []}, note: "Tribunal work has its own posture and document set; references/tribunals-and-merits-review.md owns it."}
+  - {id: r004, relation: positive, prompt: "Review this deed of release and list every obligation, trigger, deadline and consequence before execution.", tags: [direct, document-type], expected: {primary_skill: legal-writing, companion_skills: []}, note: "Transactional review is legal drafting, not general prose review; references/deeds-and-agreements.md owns the review pass."}
+  - {id: r005, relation: positive, prompt: "Fix the AGLC4 citations and pinpoints in this Australian legal research memorandum without changing the authorities relied on.", tags: [direct, citation], expected: {primary_skill: legal-writing, companion_skills: []}, note: "AGLC4 formatting sits with the source-integrity rules, not with the hub's general citation preservation."}
+  - {id: r006, relation: negative, prompt: "Rewrite this blog explainer about tenants' rights so it reads naturally for a general audience.", tags: [adjacent], expected: {primary_skill: natural-writing, companion_skills: []}, note: "Legal subject matter alone is not the trigger; the output is general prose."}
+  - {id: r007, relation: negative, prompt: "Tighten the README for our compliance-reporting library so engineers can install and configure it.", tags: [adjacent], expected: {primary_skill: engineering-writing, companion_skills: []}, note: "A compliance-flavoured engineering artefact stays with engineering-writing."}
+  - {id: r008, relation: negative, prompt: "Turn this contract-law lecture transcript into plain study notes for exam revision.", tags: [adjacent], expected: {primary_skill: natural-writing, companion_skills: []}, note: "Study notes are neither an instrument nor filing-facing text."}
+  - {id: r009, relation: boundary, prompt: "Explain in plain English, for a self-represented applicant, what a tribunal statement of facts and contentions must contain.", tags: [adjacent, composition], expected: {primary_skill: natural-writing, companion_skills: [legal-writing]}, note: "Lay explanation of a legal document: the hub leads the register, this skill keeps the forum and source discipline accurate."}
+  - {id: r010, relation: boundary, prompt: "Read the obligations in this software licence deed, then update the engineering spec that implements them without altering the obligations.", tags: [composition], expected: {primary_skill: legal-writing, companion_skills: [engineering-writing]}, note: "The instrument is read as an instrument; the spec is written as engineering prose."}

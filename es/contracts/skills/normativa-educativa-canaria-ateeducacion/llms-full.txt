@@ -1,0 +1,270 @@
+# Normativa Educativa Canaria - Contexto Ampliado
+
+> Mapa ampliado del corpus Markdown/YAML de normativa educativa aplicable a Canarias para uso con LLM y GitHub Pages. No sustituye la consulta de las fuentes oficiales ni constituye asesoramiento jurídico.
+
+Este archivo ofrece más contexto que `llms.txt` para sistemas de IA y personas que necesiten entender cómo está organizado el repositorio, qué significan sus datos y cómo responder con prudencia normativa.
+
+Las rutas internas Markdown/YAML del corpus pueden resolverse en GitHub Pages reutilizando la misma ruta relativa sobre `https://ateeducacion.github.io/normativa_educativa_canaria/`.
+
+Siempre priorice la fuente oficial citada en cada ficha. Si el corpus y la fuente oficial discrepan, prevalece la fuente oficial. Si una respuesta depende de vigencia, redacción consolidada, modificación posterior o desarrollo autonómico adicional, indíquelo y pida verificación en BOE, BOC o portal oficial competente.
+
+Cuando responda, procure ofrecer también el enlace oficial directo de la norma o currículo citado, no solo la referencia interna del corpus.
+
+## Foto Indexada
+
+Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
+
+| Índice | Cobertura actual |
+| --- | --- |
+| Fuentes | 56 entradas, `FTE-001` a `FTE-056` |
+| Normativa | 60 entradas, `NOR-001` a `NOR-060`, con huecos reservados/no reutilizados |
+| Currículos | 58 entradas, `CUR-001` a `CUR-058` |
+| Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
+| Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
+| Tareas | 55 entradas; todas figuran como `Hecha` en `status.yaml` |
+| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 97 copias locales rápidas (60 normas `NOR-001` a `NOR-060` y 37 currículos de ESO/Bachillerato) |
+
+Distribución de currículos extraídos:
+
+- ESO: 23 fichas (`CUR-001` a `CUR-023`).
+- Primaria: 10 fichas (`CUR-024` a `CUR-033`).
+- Infantil: 3 fichas (`CUR-034` a `CUR-036`).
+- Bachillerato: 14 fichas (`CUR-037` a `CUR-045` y `CUR-054` a `CUR-058`).
+- Formación Profesional: 8 fichas (`CUR-046` a `CUR-053`), con 1 completada y 7 parciales.
+- Catálogo transversal de códigos administrativos de áreas y materias: `03_curriculos/codigos-materias-canarias.md` y `.yaml`, trazado a `FTE-056`.
+
+Estados de vigencia en normativa indexada:
+
+- 38 normas vigentes.
+- 1 vigente con modificaciones.
+- 4 pendientes de verificación.
+- 2 superadas.
+- 2 vigentes hasta desarrollo del Decreto 25/2018.
+- 1 histórica.
+
+## Propósito Del Proyecto
+
+El repositorio `ateeducacion/normativa_educativa_canaria` reúne fuentes oficiales, fichas normativas, currículos, relaciones, análisis y chunks IA sobre normativa educativa con relevancia para Canarias.
+
+Su finalidad es facilitar:
+
+- localización rápida de normas estatales y autonómicas relevantes;
+- trazabilidad entre fuentes oficiales, fichas Markdown e índices YAML;
+- uso como contexto para asistentes de IA, RAG y búsqueda semántica;
+- respuestas prudentes que distingan entre texto normativo, resumen, interpretación y orientación práctica.
+
+## Estructura Del Repositorio
+
+- [README.md](https://ateeducacion.github.io/normativa_educativa_canaria/README.md): presentación general del proyecto.
+- [index.md](https://ateeducacion.github.io/normativa_educativa_canaria/index.md): accesos rápidos al corpus.
+- [status.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/status.yaml): fase del repositorio, tareas y bloqueos.
+- [00_gobierno-repositorio/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio): metodología, criterios editoriales y glosario operativo.
+- [01_fuentes/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): fichas `FTE-NNN` de portales, BOE, BOC y otras fuentes oficiales.
+- [02_normativa/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa): fichas `NOR-NNN` de normas estatales y autonómicas.
+- [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos): fichas `CUR-NNN` en Markdown y YAML.
+- [03_curriculos/codigos-materias-canarias.md](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/codigos-materias-canarias.md): códigos administrativos del buscador oficial por etapa y nivel.
+- [04_analisis/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/04_analisis): notas y análisis editoriales.
+- [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): relaciones `REL-NNN` entre normas, currículos y evidencias.
+- [06_indices/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/06_indices): índices YAML usados como puerta de entrada del corpus.
+- [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks IA.
+- [08_tareas/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/08_tareas): backlog, diario y preguntas abiertas.
+- [09_decisiones-editoriales/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): ADR y decisiones de modelado.
+- [10_plantillas/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/10_plantillas): plantillas Markdown y YAML.
+- [11_calidad/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/11_calidad): validación, enlaces y vigencia.
+
+## Cobertura Normativa
+
+Marco estatal y autonómico básico:
+
+- `NOR-001`: Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+- `NOR-002`: Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la LOE.
+- `NOR-003`: Real Decreto 217/2022, de 29 de marzo, enseñanzas mínimas de ESO.
+- `NOR-004`: Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria.
+- `NOR-005`: Decreto 30/2023, de 16 de marzo, currículo de ESO y Bachillerato en Canarias.
+- `NOR-006`: Real Decreto 243/2022, de 5 de abril, enseñanzas mínimas de Bachillerato.
+- `NOR-007`: Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional.
+
+Ámbitos canarios ya indexados:
+
+- Centros, organización, funcionamiento, convivencia e inspección: `NOR-009` a `NOR-013`.
+- Formación Profesional: `NOR-008`, `NOR-014` a `NOR-016` y relaciones con `NOR-007`.
+- Función pública, personal docente, interinos, dirección, permisos y licencias: `NOR-019` a `NOR-023`, `NOR-042`.
+- Atención a la diversidad, NEAE, admisión y alumnado: Aulas Enclave y CEE (`NOR-028`), `NOR-024` a `NOR-030`, `NOR-037` a `NOR-041`, `NOR-050`.
+- Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
+- Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
+- Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
+- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-060`; las tareas de cierre `TAREA-048` a `TAREA-052` figuran ya como hechas.
+
+## Cobertura Curricular
+
+ESO (`CUR-001` a `CUR-023`):
+
+- Biología y Geología; Cultura Clásica; Cultura y Ciudadanía Digital; Digitalización; Economía Personal y Social; Economía y Emprendimiento; Educación en Valores Cívicos y Éticos; Educación Física; Educación Plástica, Visual y Audiovisual; Expresión Artística; Filosofía; Física y Química; Formación y Orientación Personal y Profesional; Geografía e Historia; Historia y Geografía de Canarias; Latín; Lengua Castellana y Literatura; Lengua Extranjera; Matemáticas; Música; Segunda Lengua Extranjera; Tecnología; Tecnología y Digitalización.
+
+Primaria (`CUR-024` a `CUR-033`):
+
+- Conocimiento del Medio Natural, Social y Cultural; Educación Artística; Educación Física; Lengua Castellana y Literatura; Lengua Extranjera; Matemáticas; Educación Emocional y para la Creatividad; Educación en Valores Cívicos y Éticos; Segunda Lengua Extranjera; Religión.
+
+Infantil (`CUR-034` a `CUR-036`):
+
+- Crecimiento en Armonía; Descubrimiento y Exploración del Entorno; Comunicación y Representación de la Realidad.
+
+Bachillerato (`CUR-037` a `CUR-045`):
+
+- Educación Física; Filosofía; Historia de la Filosofía; Lengua Castellana y Literatura I y II; Lengua Extranjera I y II; Matemáticas I y II; Matemáticas Aplicadas a las Ciencias Sociales I y II; Latín I y II; Historia de España.
+
+Bachillerato ampliado (`CUR-054` a `CUR-058`):
+
+- Segunda Lengua Extranjera I y II; Historia de Canarias; Psicología; Literatura Canaria; Cultura Científica.
+
+Formación Profesional (`CUR-046` a `CUR-053`):
+
+- Cuidados Auxiliares de Enfermería; Imagen para el Diagnóstico y Medicina Nuclear; Gestión Administrativa; Administración y Finanzas; Desarrollo de Aplicaciones Multiplataforma; Desarrollo de Aplicaciones Web; Educación Infantil; Integración Social. `CUR-052` está completado y el resto figura como parcial; quedan abiertas tareas para correcciones y criterios de evaluación completos.
+
+## Modelo De Datos Y Trazabilidad
+
+El corpus usa IDs internos estables para enlazar entidades, pero esos IDs no son la forma principal de cita jurídica al usuario final.
+
+- `FTE-NNN`: fuente oficial o portal institucional.
+- `NOR-NNN`: ficha normativa.
+- `CUR-NNN`: ficha curricular.
+- `REL-NNN`: relación entre entidades.
+- `AN-NNN`: análisis editorial.
+- `CHUNK-NNNNN`: unidad breve para IA.
+- `PREG-NNN`: duda abierta.
+- `TAREA-NNN`: tarea de trabajo.
+
+Índices clave:
+
+- [06_indices/normativa.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml)
+- [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml)
+- [06_indices/fuentes.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml)
+- [06_indices/textos-oficiales.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
+- [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml)
+- [06_indices/chunks.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/chunks.yaml)
+- [docs/esquema-datos/README.md](https://ateeducacion.github.io/normativa_educativa_canaria/esquema-datos/README.md)
+
+## Reglas De Fiabilidad De Fuentes
+
+Solo deben afirmarse hechos normativos cuando existe fuente oficial identificable y fecha de consulta. El repositorio aplica una disciplina de evidencia estricta.
+
+Reglas operativas principales:
+
+- priorizar BOE, BOC y portales institucionales oficiales;
+- no crear contenido normativo sin fuente oficial;
+- no usar copias locales rápidas como sustituto de la fuente oficial;
+- no confundir normas con orientaciones, recursos o interpretación editorial;
+- registrar fecha de consulta y, cuando proceda, fecha de análisis;
+- conservar trazabilidad entre fuente, ficha, índice y relación;
+- marcar incertidumbres con `[PENDIENTE]`, `[HIPÓTESIS]` o `[INTERPRETACIÓN]`.
+
+Referencias:
+
+- [AGENTS.md](https://ateeducacion.github.io/normativa_educativa_canaria/AGENTS.md)
+- [00_gobierno-repositorio/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
+- [docs/metodologia/disciplina-evidencia.md](https://ateeducacion.github.io/normativa_educativa_canaria/metodologia/disciplina-evidencia.md)
+- [docs/guias/validacion.md](https://ateeducacion.github.io/normativa_educativa_canaria/guias/validacion.md)
+
+## Reglas De Cita Jurídica Para España
+
+En respuestas al usuario final, cite siempre la norma por su nombre oficial, siguiendo el estilo habitual de BOE/BOC. No use `NOR-001`, `CUR-002`, `REL-003` o `CHUNK-00004` como cita jurídica principal.
+
+Cite, cuando sea posible:
+
+- título oficial completo;
+- artículo, apartado, disposición o anexo pertinente;
+- boletín oficial y fecha o referencia de publicación;
+- enlace oficial directo a BOE, BOC, sede del BOC o portal institucional competente cuando esté disponible en `url_oficial`;
+- texto consolidado o vigencia, si la respuesta depende de ello;
+- fecha de consulta si la situación puede haber cambiado.
+
+Ejemplos de estilo correcto:
+
+- Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+- Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+- Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria.
+- Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias.
+- Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias.
+- Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias.
+
+Si quiere añadir trazabilidad interna, hágalo en segundo plano, por ejemplo: `Fuente interna: NOR-003`.
+
+## Cómo Encontrar Rápido La Normativa Y El Contenido
+
+Ruta recomendada de localización:
+
+1. [06_indices/normativa.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml) para identificar la norma principal, su estado de vigencia y la ficha `NOR-NNN`.
+2. [06_indices/fuentes.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml) para recuperar la `url_oficial`, el boletín y la ficha `FTE-NNN` asociada.
+3. [06_indices/textos-oficiales.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml) para resolver HTML oficial, PDF oficial, texto consolidado o copia local rápida.
+4. [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos) y [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la pregunta exige anexos, competencias, criterios o saberes curriculares.
+5. [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones) y [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si necesita saber qué norma desarrolla, modifica, deroga o complementa otra.
+6. [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo para orientación resumida y trazable; confirme siempre la respuesta final en la fuente oficial.
+
+Regla práctica:
+
+- Si la ficha `NOR-NNN` ya contiene `url_oficial`, enlácela en la respuesta.
+- Si la ficha normativa no basta, siga `fuente_principal` hasta la ficha `FTE-NNN` y use su `url_oficial`.
+- Si existe entrada en `06_indices/textos-oficiales.yaml`, úsela para resolver el mejor acceso disponible (HTML oficial, PDF oficial, texto consolidado o copia local rápida).
+- Si existe `texto_plano_local`, úselo solo para lectura rápida, extracción o RAG y cite igualmente la URL oficial asociada.
+- Para BOC, añada también el PDF oficial si la ficha de fuente lo recoge y la consulta requiere anexos largos o texto íntegro publicado.
+- Use **GitHub Pages** para enlazar archivos concretos del corpus y **GitHub** para enlazar carpetas o vistas de navegación del repositorio.
+- Los índices YAML del corpus son endpoints estructurados y legibles; pueden abrirse directamente, descargarse o reutilizarse en flujos de IA/RAG.
+
+## Instrucciones De Uso Para IA
+
+Flujo recomendado:
+
+1. Lea primero [llms.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt).
+2. Use [llms-full.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt) si necesita más contexto.
+3. Revise los índices YAML antes de responder.
+4. Use `06_indices/textos-oficiales.yaml` si necesita acceso íntegro o rápido al texto oficial.
+5. Busque la ficha o fuente oficial correspondiente.
+6. Cite al usuario por la denominación jurídica oficial, no por el ID interno.
+7. Si el corpus está incompleto, si una ficha marca `[PENDIENTE]` o si la vigencia no está clara, indíquelo.
+
+Política de respuesta:
+
+- distinguir entre texto legal, resumen, interpretación y orientación práctica;
+- no inventar obligaciones jurídicas ni procedimientos no acreditados;
+- advertir cuando falte evidencia suficiente;
+- priorizar fuentes oficiales sobre resúmenes del corpus;
+- comprobar si la norma figura como vigente, modificada, derogada, superada, histórica o pendiente de verificación cuando exista metadato;
+- usar IDs internos solo para localizar archivos y mantener trazabilidad.
+
+Formato preferido para preguntas educativas:
+
+- `### Respuesta breve`
+- `### Fundamento normativo`
+- `### Aplicación práctica en Canarias`
+- `### Enlaces directos`
+- `### Límites o aspectos a verificar`
+
+En `### Enlaces directos`, incluya siempre que sea posible:
+
+- **Fuente oficial:** enlace a BOE, BOC, PDF oficial del BOC o página oficial del Gobierno de Canarias.
+- **Corpus trazable:** enlace a la ficha `NOR-NNN`, `FTE-NNN`, `CUR-NNN` o al índice YAML que ha servido para localizar la respuesta.
+
+## Limitaciones Actuales
+
+- El corpus no pretende reproducir íntegramente todas las normas aplicables.
+- Hay huecos de numeración por coordinación de trabajo paralelo; no deben reutilizarse IDs.
+- Las copias locales rápidas actualmente son un lote inicial y no cubren todavía todas las normas o currículos del corpus.
+- Las fichas FP `CUR-046` a `CUR-053` no tienen todas el mismo estado: `CUR-052` está completada y las demás figuran como parciales.
+- Los borradores u otras fichas que existan localmente pero no figuren en `06_indices/` no forman parte del corpus indexado.
+- Algunas normas siguen con estado `Pendiente de verificación`, `Superada`, `Histórica` o vigencia condicionada; respete el metadato de cada ficha.
+- Las respuestas de IA basadas en este repositorio deben considerarse apoyo documental, no dictamen jurídico oficial.
+
+## Publicación Y Acceso
+
+- [Panel de GitHub Pages](https://ateeducacion.github.io/normativa_educativa_canaria/): panel estático del proyecto.
+- [Repositorio GitHub](https://github.com/ateeducacion/normativa_educativa_canaria): acceso completo al corpus.
+- [Skill pública](https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md): instrucciones copiables para asistentes.
+- [Índice público de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml): resolutor rápido de HTML, PDF, texto consolidado y copias locales.
+
+## Accesos Opcionales
+
+- [Fuentes oficiales catalogadas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): detalle de portales y boletines.
+- [Relaciones normativas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): enlaces entre normas y evidencias.
+- [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks para RAG o asistentes.
+- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos): copias locales rápidas trazables de normas y currículos con acceso íntegro para lectura y RAG.
+- [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): criterios de modelado del corpus.

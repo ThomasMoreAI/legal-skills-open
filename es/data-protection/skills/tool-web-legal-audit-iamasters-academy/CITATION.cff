@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "web-legal-audit"
+message: "Si usas esta skill, por favor cita el trabajo original."
+type: software
+authors:
+  - given-names: Angel
+    family-names: Aparicio
+    affiliation: "IA Masters Academy / AASC Associates"
+    email: aaparicio@iamastersacademy.com
+repository-code: "https://github.com/angelapaia/web-legal-audit"
+license: MIT
+version: "1.0.0"

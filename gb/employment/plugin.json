@@ -9,7 +9,13 @@
   "practice": "employment",
   "language": "de",
   "skills": [
+    "skills/client-intake-uk-agents",
+    "skills/employment-law-verifier-ciaransaunders",
+    "skills/handbook-updates-uk-agents",
     "skills/hiring-review-uk-agents",
-    "skills/uk-whistleblowing-abgrenzung"
+    "skills/ramp-uk-agents",
+    "skills/termination-review-uk-agents",
+    "skills/uk-whistleblowing-abgrenzung",
+    "skills/wage-hour-qa-uk-agents"
   ]
 }

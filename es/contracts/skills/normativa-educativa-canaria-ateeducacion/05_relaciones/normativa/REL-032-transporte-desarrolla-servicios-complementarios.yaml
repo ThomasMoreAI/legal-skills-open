@@ -1,0 +1,11 @@
+id: REL-032
+tipo_relacion: "desarrolla"
+origen: NOR-035
+destino: NOR-004
+descripcion: "La Orden de 2 de agosto de 2006 regula el uso del transporte escolar como servicio complementario de apoyo a la escolarización."
+evidencia:
+  fuente: FTE-038
+  localizacion: "Resuelvo primero y anexo I"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

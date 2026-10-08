@@ -1,0 +1,7 @@
+interface:
+  display_name: "Protección de Datos Chile"
+  short_description: "Diseño y auditoría de datos personales en Chile"
+  default_prompt: "Usa $proteccion-datos-chile para diseñar o revisar este sistema con controles verificables de privacidad y seguridad conforme al régimen chileno aplicable."
+
+policy:
+  allow_implicit_invocation: true

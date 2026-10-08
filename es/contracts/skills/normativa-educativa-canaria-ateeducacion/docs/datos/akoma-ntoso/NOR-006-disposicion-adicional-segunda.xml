@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-04-05/243">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/!dis_adi_segunda"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2022/04/05/243/con"/>
+          <FRBRdate date="2022-04-05" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="243"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/!dis_adi_segunda"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@"/>
+          <FRBRdate date="2022-04-06" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/xml/!dis_adi_segunda"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_adi_segunda" name="disposicion-adicional">
+        <num>Disposición adicional segunda.</num>
+        <heading>Enseñanzas del sistema educativo español impartidas en lenguas extranjeras.</heading>
+        <paragraph eId="dis_adi_segunda__para_1">
+          <num>1.</num>
+          <content><p>Las administraciones educativas podrán autorizar que una parte de las materias del currículo se impartan en lenguas extranjeras sin que ello suponga modificación de los aspectos básicos del currículo regulados en este real decreto. En este caso, procurarán que a lo largo de ambos cursos los alumnos y alumnas adquieran la terminología propia de las materias en la lengua extranjera y en la lengua o lenguas oficiales de la comunidad autónoma.</p></content>
+        </paragraph>
+        <paragraph eId="dis_adi_segunda__para_2">
+          <num>2.</num>
+          <content><p>El hecho de que los centros públicos y privados concertados impartan sus enseñanzas conforme a lo previsto en el apartado anterior en ningún caso podrá suponer modificación de los criterios para la admisión del alumnado establecidos en el artículo 86 de la Ley Orgánica 2/2006, de 3 de mayo.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

@@ -4,7 +4,7 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 
-## Skills (714)
+## Skills (715)
 
 | Skill | What it does |
 |---|---|
@@ -480,6 +480,7 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Rampe, Handlauf, Türverbreiterung im Gemeinschaftsbereich`](skills/rampe-handlauf-tuerverbreiterung/) | Für Rampe, Handlauf, Türverbreiterung im Gemeinschaftsbereich: ordnet Norm, Beweislast und… |
 | [`Rampe, beidseitige Handläufe, Tuerverbreiterung und Beleuchtungsoptimierung im Gemeinschaftseigentum (Stand 06/2026): DI`](skills/rampe-handlauf-tuerverbreiterung-gemeinschaftsbereich/) | Für Rampe Handlauf Türverbreiterung Gemeinschaftsbereich: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rauchwarnmelder: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/rauchwarnmelder/) | Für Rauchwarnmelder: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
+| [`Real Estate Law Specialist`](skills/real-estate-law-specialist-githublarskomo/) | Analysiert deutsches Immobilienrecht für Kauf/Verkauf, Gewerbe- und Wohnraummiete, Grundstücksrechte… |
 | [`ZVG-Portal-Recherche`](skills/recherche-quality-gate-raeumung/) | Für ZVG-Portal-Recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Rechnungslegung`](skills/rechnungslegung-simulation-training/) | Für Rechnungslegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsprechung live verifizieren`](skills/rechtsprechung-grundbuch-aufgebotsverfahren/) | Für Rechtsprechung live verifizieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

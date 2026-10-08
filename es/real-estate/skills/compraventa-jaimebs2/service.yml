@@ -1,0 +1,60 @@
+name: vivienda-compraventa
+display_name: Vivienda — Compraventa de vivienda
+description: >
+  Guía completa del proceso de compraventa de una vivienda en España:
+  búsqueda y verificación, contrato de arras (penitenciales,
+  confirmatorias, penales), escritura pública ante notario, inscripción
+  en el Registro de la Propiedad, gastos del comprador (IVA/ITP, AJD,
+  notaría, registro, gestoría, tasación), gastos del vendedor (plusvalía
+  municipal, ganancia patrimonial IRPF, cancelación hipoteca), nota
+  simple, referencia catastral, certificado energético, compra sobre
+  plano y diferencias entre vivienda nueva y segunda mano.
+organization: Consejo General del Notariado / Colegio de Registradores
+tags: [vivienda, compraventa, arras, escritura, notario, registro propiedad, gastos comprador, gastos vendedor, nota simple, ITP, IVA obra nueva, plusvalía, referencia catastral, certificado energético]
+
+links:
+  notariado: https://www.notariado.org
+  registradores: https://www.registradores.org
+  sede_registradores: https://sede.registradores.org
+
+license:
+  data: Información pública — legislación civil y fiscal española
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    tramita operaciones. Proporciona el proceso completo de compraventa
+    y redirige a skills específicas (fiscalidad-itp-ajd,
+    fiscalidad-impuestos-locales, catastro, vivienda-hipotecas,
+    vivienda-registro-propiedad) para detalle en cada ámbito.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Proceso de compraventa paso a paso (búsqueda, arras, escritura, inscripción)
+    - Tipos de arras (penitenciales, confirmatorias, penales)
+    - Gastos del comprador (impuestos, notaría, registro, gestoría, tasación)
+    - Gastos del vendedor (plusvalía, ganancia patrimonial, cancelación hipoteca)
+    - Nota simple informativa (contenido, cómo solicitarla)
+    - Diferencias vivienda nueva vs. segunda mano en impuestos
+    - Compra sobre plano (garantías, aval bancario)
+    - Referencia catastral y certificado energético (obligaciones)
+    - Checklist del comprador y plazos de liquidación
+  not_accessible:
+    - Solicitud real de nota simple (requiere sede.registradores.org con pago)
+    - Datos catastrales en detalle (usar skill catastro)
+    - Detalle de ITP/AJD por CCAA (usar skill fiscalidad-itp-ajd)
+    - Detalle de plusvalía municipal e IBI (usar skill fiscalidad-impuestos-locales)
+    - Tramitación de hipotecas (usar skill vivienda-hipotecas)
+    - Herencias de inmuebles (usar skill fiscalidad-sucesiones-donaciones)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

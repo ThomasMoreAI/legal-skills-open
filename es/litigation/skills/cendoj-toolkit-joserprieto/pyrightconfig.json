@@ -1,0 +1,9 @@
+{
+  "include": ["scripts", "tests"],
+  "extraPaths": ["scripts"],
+  "exclude": ["**/__pycache__", "**/.pytest_cache"],
+  "reportMissingImports": "warning",
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true
+}

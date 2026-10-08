@@ -1,0 +1,81 @@
+id: CUR-023
+titulo: "Tecnología y Digitalización — ESO Canarias"
+etapa: "eso"
+materia: "Tecnología y Digitalización"
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera crítica y segura, aplicando procesos de investigación, métodos de análisis de productos y experimentando con herramientas de simulación, para definir problemas tecnológicos e iniciar procesos de creación de soluciones a partir de la información obtenida."
+      descriptores:
+        "1.º ESO": [CCL1, CCL3, STEM2, STEM5, CD1, CD4, CPSAA4, CE1]
+        "2.º ESO": [CCL1, CCL3, STEM2, STEM5, CD1, CD2, CD4, CPSAA4, CE1]
+        "3.º ESO": [CCL1, CCL3, STEM2, STEM5, CD1, CD2, CD4, CPSAA4, CE1]
+    - codigo: "C2"
+      enunciado_oficial: "Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible."
+      descriptores:
+        "1.º ESO": [CCL1, STEM1, STEM3, STEM4, CD2, CD3, CPSAA3, CPSAA5, CE1, CE3]
+        "2.º ESO": [CCL1, STEM1, STEM3, STEM4, CD2, CD3, CPSAA3, CPSAA5, CE1, CE3]
+        "3.º ESO": [CCL1, STEM1, STEM3, STEM4, CD2, CD3, CPSAA3, CPSAA5, CE1, CE3]
+    - codigo: "C3"
+      enunciado_oficial: "Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares utilizando operadores, sistemas tecnológicos y herramientas, teniendo en cuenta la planificación y el diseño previo, para construir o fabricar soluciones tecnológicas y sostenibles que den respuesta a necesidades en diferentes contextos."
+      descriptores:
+        "1.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE3]
+        "2.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE3]
+        "3.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE2, CE3]
+    - codigo: "C4"
+      enunciado_oficial: "Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales, utilizando medios de representación, simbología y vocabulario adecuados, así como los instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para comunicar y difundir información y propuestas."
+      descriptores:
+        "1.º ESO": [CCL1, STEM4, CD2, CD3, CPSAA3, CPSAA4, CC1, CE3, CCEC4]
+        "2.º ESO": [CCL1, STEM4, CD2, CD3, CPSAA3, CPSAA4, CC1, CE3, CCEC4]
+        "3.º ESO": [CCL1, STEM4, CD2, CD3, CPSAA3, CPSAA4, CC1, CE3, CCEC4]
+    - codigo: "C5"
+      enunciado_oficial: "Desarrollar algoritmos y aplicaciones informáticas en distintos entornos, aplicando los principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en robótica."
+      descriptores:
+        "1.º ESO": [STEM1, STEM3, CD2, CD5, CPSAA5, CE3]
+        "2.º ESO": [STEM1, STEM3, CD2, CD5, CPSAA5, CE3]
+        "3.º ESO": [STEM1, STEM3, CD2, CD5, CPSAA5, CE3]
+    - codigo: "C6"
+      enunciado_oficial: "Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones habituales de su entorno digital de aprendizaje, analizando sus componentes y funciones y ajustándolos a sus necesidades, para hacer un uso más eficiente y seguro de los mismos y para detectar y resolver problemas técnicos sencillos."
+      descriptores:
+        "1.º ESO": [CCL1, CD1, CD2, CD4, CD5, CPSAA2, CPSAA4, CC2, CE1]
+        "2.º ESO": [CCL1, CD1, CD2, CD4, CD5, CPSAA2, CPSAA4, CPSAA5, CC2, CE1]
+        "3.º ESO": [CCL1, CD1, CD2, CD4, CD5, CPSAA2, CPSAA4, CPSAA5, CC2, CE1]
+    - codigo: "C7"
+      enunciado_oficial: "Hacer un uso responsable y ético de la tecnología, mostrando interés por un desarrollo sostenible, identificando sus repercusiones y valorando la contribución de las tecnologías emergentes, para identificar las aportaciones y el impacto del desarrollo tecnológico en la sociedad y en el entorno."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, STEM2, STEM5, CD4, CC2, CC4]
+        "2.º ESO": [CCL1, CCL2, STEM2, STEM5, CD4, CC2, CC4]
+        "3.º ESO": [CCL1, CCL2, STEM2, STEM5, CD4, CC2, CC4]
+  saberes_basicos:
+    - id: proceso-resolucion
+      nombre: "Proceso de resolución de problemas"
+      descripcion: "Fases del proyecto, diseño, prototipado y evaluación."
+    - id: comunicacion-difusion
+      nombre: "Comunicación y difusión de ideas"
+      descripcion: "Dibujo técnico, representación y documentación digital."
+    - id: pensamiento-computacional
+      nombre: "Pensamiento computacional, programación y robótica"
+      descripcion: "Algoritmos, lenguajes de programación y sistemas de control."
+    - id: tecnologia-sostenible
+      nombre: "Tecnología sostenible"
+      descripcion: "Materiales, herramientas, energía e impacto ambiental."
+  criterios_evaluacion:
+    - curso: "1º-3º ESO"
+      criterios:
+        - id: 1.1
+          texto: "Definir problemas o necesidades planteadas, buscando y contrastando información."
+        - id: 3.1
+          texto: "Fabricar objetos o sistemas tecnológicos que den respuesta a una necesidad, de forma segura."
+        - id: 5.2
+          texto: "Programar aplicaciones informáticas sencillas en diferentes entornos."
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Materia optativa impartida en 1.º a 3.º de ESO (distinta de la materia «Tecnología», optativa de 4.º ESO, que el Decreto 30/2023 regula en un bloque competencial aparte y no está cubierta por esta ficha). Las siete competencias específicas (C1-C7) llevan ahora el enunciado literal del decreto y sus descriptores operativos del perfil de salida por curso (DEC-0008), verificados con 11_calidad/extraer_descriptores.py. Los criterios de evaluación y los saberes básicos ya recogidos en la ficha se mantienen sin cambios; no reproducen los criterios íntegros del anexo, solo una selección representativa."

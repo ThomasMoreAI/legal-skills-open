@@ -1,0 +1,1798 @@
+ID interno: NOR-090
+Título oficial: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; e Industrias Extractivas, en el ámbito de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-097
+URL origen: https://www.gobiernodecanarias.org/boc/2026/045/736.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-736.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2026-045-736).
+---
+           Boletín Oficial de Canarias núm. 45                8378                               Viernes 6 de marzo de 2026
+
+
+
+
+                                                  III. Otras Resoluciones
+
+                     Consejería de Educación, Formación Profesional, Actividad Física y Deportes
+
+              736        Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución
+                         de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura
+                         modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados
+                         B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de
+                         Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; e Industrias
+                         Extractivas, en el ámbito de la Comunidad Autónoma de Canarias.
+
+                   La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+               Profesional, establece en su artículo 5.1 y en los apartados a) y b) de su artículo 5.3
+               que el Sistema de Formación Profesional se configura como un conjunto articulado de
+               actuaciones orientadas a la identificación de las competencias profesionales demandadas
+               por el mercado laboral, a la garantía de una oferta formativa adecuada, a la adquisición de
+               la correspondiente formación o, en su caso, al reconocimiento de dichas competencias,
+               así como a la prestación de un servicio de orientación y acompañamiento profesional que
+               permita el diseño de itinerarios formativos individuales y colectivos. Dicho sistema se
+               organiza conforme a un modelo basado en itinerarios formativos que facilitan la progresión
+               en la formación, estructurado en una doble escala: cinco Grados ascendentes (A, B, C, D y
+               E) y tres niveles de competencia profesional (1, 2 y 3), de acuerdo con el Catálogo Nacional
+               de Estándares de Competencias Profesionales.
+
+                   Por su parte, el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la
+               ordenación del Sistema de Formación Profesional, regula en su artículo 4 la organización
+               de las distintas ofertas formativas que integran dicho sistema, estableciendo el marco
+               general para su implantación y desarrollo por las administraciones competentes.
+
+                   En este contexto normativo, y con el fin de garantizar una implantación homogénea,
+               coherente y adaptada a las necesidades del tejido productivo y de los centros del Sistema de
+               Formación Profesional de la Comunidad Autónoma de Canarias, resulta necesario concretar
+               la distribución horaria y la estructura modular de los Grados C y de sus correspondientes
+               Grados B, como paso previo al dictado de las instrucciones necesarias para su efectiva
+               puesta en funcionamiento.
+
+                     A tal efecto y de conformidad con los siguientes
+
+                                                 ANTECEDENTES DE HECHO
+
+                   Primero.- El 15 de abril de 2025 se publicó el Real Decreto 210/2025, de 18 de marzo,
+               por el que se regulan aspectos específicos de los Grados A, B y C de Formación Profesional
+               para las familias profesionales de Edificación y Obra Civil; Electricidad y Electrónica;
+               Energía y Agua; e Industrias Extractivas.
+
+                  Segundo.- El artículo 25.1 del citado Real Decreto dispone que las administraciones
+               competentes deberán determinar la duración de los Grados A, B y C vinculados a Grados
+               D de los que tuvieran desarrollo autonómico, estableciendo la misma duración horaria para
+
+
+https://sede.gobiernodecanarias.org/boc                                                                       boc-a-2026-045-736
+           Boletín Oficial de Canarias núm. 45              8379                                Viernes 6 de marzo de 2026
+
+
+
+
+               cada módulo profesional en el ámbito autonómico, con independencia del grado en el que
+               se integren.
+
+                   Asimismo, el artículo 25.5 determina que, cuando un Grado C incorpore un módulo
+               profesional no incluido en el currículo básico del Grado D, su duración será la fijada para
+               el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.
+
+                   Tercero.- Tras la entrada en vigor de los Reales Decretos que regulan los aspectos
+               específicos de los Grados A, B y C, y como consecuencia del proceso progresivo de
+               implantación de estas enseñanzas, se ha evidenciado la necesidad de desarrollar los
+               currículos de los nuevos Grados C y Grados B, con el objeto de asegurar su adecuada
+               adaptación a las características de los sectores productivos implicados y a las necesidades
+               organizativas de los centros que impartan ofertas del sistema de formación profesional.
+
+                   Cuarto.- En este marco, se considera imprescindible definir la distribución horaria y
+               la estructura modular de los Grados C y sus correspondientes Grados B de niveles 2 y 3 de
+               las familias profesionales señaladas, en el ámbito territorial de la Comunidad Autónoma
+               de Canarias.
+
+                     A los antecedentes expuestos les son de aplicación los siguientes
+
+                                                 FUNDAMENTOS DE DERECHO
+
+                    Primero.- La Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de
+               Autonomía de Canarias, en su artículo 133.1, establece que “Corresponde a la Comunidad
+               Autónoma de Canarias la competencia de desarrollo legislativo y de ejecución, en materia de
+               enseñanza no universitaria, con relación a las enseñanzas obligatorias y no obligatorias que
+               conducen a la obtención de un título académico o profesional con validez en todo el Estado
+               (...)”. Dicha competencia comprende, asimismo, el establecimiento de los correspondientes
+               planes de estudio y la ordenación curricular de las enseñanzas, de conformidad con lo
+               previsto en el artículo 133.3.c) del citado texto legal.
+
+                   Segundo.- La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria,
+               dispone en su artículo 33.3 que, de acuerdo con la normativa básica del Estado, una vez
+               aprobado el Real Decreto correspondiente a un título de formación profesional y hasta que
+               sea completado el currículo propio de la Comunidad Autónoma, dicho real decreto actuará
+               como norma subsidiaria.
+
+                  Tercero.- El Real Decreto 210/2025, de 18 de marzo, por el que se regulan aspectos
+               específicos de los Grados A, B y C de Formación Profesional para las familias profesionales
+               de Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; e Industrias
+               Extractivas.
+
+                   Cuarto.- El Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los
+               elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación
+               Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el
+               Instituto Nacional de las Cualificaciones, establece en su artículo 12, relativo a la naturaleza
+               del Catálogo Nacional de Ofertas de Formación Profesional, el marco estructural de dichas
+               ofertas.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                      boc-a-2026-045-736
+           Boletín Oficial de Canarias núm. 45             8380                               Viernes 6 de marzo de 2026
+
+
+
+
+                   En particular, el apartado 2 dispone la organización de las ofertas del Sistema de
+               Formación Profesional como dimensión vertical definitoria, estructurada de forma
+               escalonada en una serie ascendente de Grados. Esta ordenación es descriptiva de la amplitud
+               de cada oferta formativa diseñada a partir del estándar de competencias profesionales de
+               mayor nivel del Catálogo Nacional de Estándares de Competencias Profesionales.
+
+                   Así mismo, en el punto 5 del citado artículo establece que todas las ofertas de Formación
+               Profesional tendrán carácter acreditable y acumulable, permitiendo progresar en itinerarios
+               de formación conducentes a otros de mayor grado.
+
+                  Quinto.- El Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y
+               Deportes, atribuye a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial las competencias generales y específicas en materia de ordenación,
+               implantación y desarrollo de las enseñanzas de formación profesional en el ámbito de la
+               Comunidad Autónoma de Canarias.
+
+                   Sexto.- Mediante Resolución de 30 de octubre de 2024, de la Dirección General de
+               Formación Profesional y Enseñanzas de Régimen Especial, se dictaron instrucciones y
+               orientaciones para la implantación y desarrollo de los Grados D y E, a partir del curso
+               escolar 2024/2025, estableciéndose, asimismo, la distribución horaria y modular de dichos
+               currículos en el ámbito autonómico de la Comunidad Autónoma de Canarias.
+
+                   Séptimo.- Con fecha 27 de enero de 2026, se aprobó la Resolución de la Dirección
+               General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se amplía
+               y modifica la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones
+               para la implantación y desarrollo de los Grados de Formación D y E, a partir del curso
+               escolar 2024/2025, y establece la distribución horaria y modular de los currículos, en el
+               ámbito de la Comunidad Autónoma de Canarias.
+
+                   En atención a lo anteriormente indicado, en ejercicio de las competencias atribuidas
+               a la Viceconsejería de Formación Profesional y Cualificaciones Profesionales en el
+               artículo 9, apartado 2, del Decreto 84/2024, de 10 de junio, por el que se aprueba el
+               Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad
+               Física y Deportes, y el desempeño de las funciones previstas en los artículos 11 y 20.1
+               del Decreto 212/1991, de 11 de septiembre, de organización de los Departamentos de la
+               Administración Autonómica de Canarias,
+
+                                                    R E S U E L V O:
+
+                   Primero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Edificación y Obra Civil, en los términos
+               recogidos en el Anexo I de la presente Resolución.
+
+                   Segundo.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Electricidad y Electrónica, en los términos
+               recogidos en el Anexo II de la presente Resolución.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2026-045-736
+           Boletín Oficial de Canarias núm. 45               8381                                  Viernes 6 de marzo de 2026
+
+
+
+
+                   Tercero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Energía y Agua, en los términos recogidos en
+               el Anexo III de la presente Resolución.
+
+                   Cuarto.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Industrias Extractivas, en los términos recogidos
+               en el Anexo IV de la presente Resolución.
+
+                   Quinto.- La distribución horaria y estructura modular establecida en la presente
+               Resolución será de aplicación en todos los centros del Sistema de Formación Profesional
+               de la Comunidad Autónoma de Canarias.
+
+                   Sexto.- Facultar a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial para que, en el ámbito de sus competencias dentro del sistema educativo
+               no universitario, dictamine cuantas resoluciones sean necesarias respecto a esta Resolución
+               y lleve a cabo la planificación de la oferta de los Grados C y B en los centros educativos
+               públicos no universitarios de la Comunidad Autónoma de Canarias.
+
+                   Séptimo.- Encomendar a la Inspección de Educación el asesoramiento a los equipos
+               directivos de los centros del sistema educativo no universitario en aquellos aspectos
+               específicos relacionados con la aplicación de la presente Resolución, así como la supervisión
+               de su adecuado cumplimiento.
+
+                   Octavo.- Ordenar la publicación de la presente Resolución en el Boletín Oficial de
+               Canarias, así como en la página web de la Consejería de Educación, Formación Profesional,
+               Actividad Física y Deportes, para su general conocimiento. Asimismo, se encomienda a
+               los equipos directivos de los centros docentes que adopten las medidas oportunas para
+               garantizar su difusión entre los distintos sectores de la comunidad educativa.
+
+                   Contra la presente Resolución, que no pone fin a la vía administrativa, podrá interponerse
+               recurso de alzada ante el Consejero de Educación, Formación Profesional, Actividad Física y
+               Deportes, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del
+               Procedimiento Administrativo Común de las Administraciones Públicas, en el plazo de un mes,
+               a partir del día siguiente al de su publicación en el Boletín Oficial de Canarias, sin perjuicio de
+               cualquier otro que se estime procedente.
+
+                  Las Palmas de Gran Canaria, a 25 de febrero de 2026.- El Viceconsejero de Formación
+               Profesional y Cualificaciones Profesionales, Francisco Rodríguez Machado.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8382                                     Viernes 6 de marzo de 2026
+
+
+
+
+                                                                  ANEXO
+                                                                  ANEXO II
+
+                                          FAMILIA PROFESIONAL: EDIFICACIÓN Y OBRA CIVIL
+
+             DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C (CERTIFICADOS
+                  PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B (CERTIFICADOS DE
+                                    COMPETENCIA) DE NIVELES 2 Y 3
+
+             Certificado profesional: Fábricas de albañilería y revestimientos.
+                • Código: EOC_ C_001_4B.
+                • Título de Formación Profesional asociado: Técnico en Construcción.
+                • Nivel: 2.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (26 semanas) (33 semanas)
+
+                          Interpretación de planos de construcción
+                0996                                                                       101            4             3
+                          Código del certificado de competencia: EOC_B_0996
+                          Fábricas
+                0997                                                                       170            6             5
+                          Código del certificado de competencia: EOC_B_0997
+                          Revestimientos.
+                0998                                                                       101            4             3
+                          Código del certificado de competencia: EOC_B_0998
+                          Organización de trabajos de construcción
+                1001                                                                       141            5             4
+                          Código del certificado de competencia: EOC_B_1001
+                          Solados, alicatados y chapados
+                1003                                                                       202            8             6
+                          Código del certificado de competencia: EOC_B_1003
+                1724      Prevención de riesgos laborales en construcción                  60             3             2
+                                                                            Duración       775           30            23
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 195 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 275 horas
+
+
+             Certificado profesional: Cubiertas e impermeabilizaciones.
+                • Código: EOC_ C_002_4B.
+                • Título de Formación Profesional asociado: Técnico en Construcción.
+                • Nivel: 2.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (18 semanas) (33 semanas)
+
+                           Construcción
+                0995                                                                       103            6             3
+                           Código del certificado de competencia: EOC_B_0995
+                           Organización de trabajos de construcción.
+                1001                                                                       138            8             4
+                           Código del certificado de competencia: EOC_B_1001
+                           Cubiertas
+                1004                                                                       170            9             5
+                           Código del certificado de competencia: EOC_B_1004
+                           Impermeabilizaciones y aislamientos.
+                1005                                                                       64             4             2
+                           Código del certificado de competencia: EOC_B_1005
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                          8383                                      Viernes 6 de marzo de 2026
+
+
+
+
+                 Código                                                                                     Horas        Horas
+                                                                                           Horas
+                  Real                    MÓDULOS PROFESIONALES                            totales
+                                                                                                          semanales    semanales
+                 Decreto                                                                                (24 semanas) (33 semanas)
+
+                  1724      Prevención de riesgos laborales en construcción                 60               3             2
+                                                                              Duración      535             30             16
+               En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+               En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+               Certificado profesional: Encofrados y hormigón armado.
+                  • Código: EOC_ C_003_4B.
+                  • Título de Formación Profesional asociado: Técnico en Construcción.
+                  • Nivel: 2.
+
+                 Código                                                                                     Horas        Horas
+                                                                                           Horas
+                  Real                    MÓDULOS PROFESIONALES                            totales
+                                                                                                          semanales    semanales
+                 Decreto                                                                                (24 semanas) (33 semanas)
+
+                            Construcción
+                  0995                                                                      101              4             3
+                            Código del certificado de competencia: EOC_B_0995
+                            Interpretación de planos de construcción
+                  0996                                                                      101              4             3
+                            Código del certificado de competencia: EOC_B_0996
+                            Encofrados
+                  0999                                                                      204              9             6
+                            Código del certificado de competencia: EOC_B_0999
+                            Hormigón armado
+                  1000                                                                      101              4             3
+                            Código del certificado de competencia: EOC_B_1000
+                            Organización de trabajos de construcción
+                  1001                                                                      138              6             4
+                            Código del certificado de competencia: EOC_B_1001
+                  1724      Prevención de riesgos laborales en construcción                 60               3             2
+                                                                              Duración      705             30             21
+               En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+               En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+               Certificado profesional: Ejecución de obras de urbanización.
+                  • Código: EOC_ C_004_4B.
+                  • Título de Formación Profesional asociado: Técnico en Construcción.
+                  • Nivel: 2.
+
+                 Código                                                                                               Horas
+                                                                                              Horas
+                  Real                    MÓDULOS PROFESIONALES                               totales
+                                                                                                                    semanales
+                 Decreto                                                                                          (17 semanas)
+
+                            Construcción
+                  0995                                                                         101                     6
+                            Código del certificado de competencia: EOC_B_0995
+                            Organización de trabajos de construcción
+                  1001                                                                         138                     8
+                            Código del certificado de competencia: EOC_B_1001
+                            Obras de urbanización
+                  1002                                                                         138                     8
+                            Código del certificado de competencia: EOC_B_1002
+                  1724      Prevención de riesgos laborales en construcción                      60                    4
+                                                                              Duración         440                    26
+               En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 110 horas
+               En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                          boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8384                                       Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Instalación de placa de yeso laminado y falsos techos.
+                • Código: EOC_ C_005_4B.
+                • Título de Formación Profesional asociado: Técnico en Obras de Interior, Decoración y
+                     Rehabilitación.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                          Construcción
+                0995                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_0995
+                          Interpretación de planos de construcción
+                0996                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_0996
+                          Particiones prefabricadas
+                1195                                                                       206              8             6
+                          Código del certificado de competencia: EOC_B_1195
+                          Techos suspendidos
+                1197                                                                       141              5             4
+                          Código del certificado de competencia: EOC_B_1197
+                          Organización de trabajos de interior, decoración y
+                1200      rehabilitación                                                   141              6             4
+                          Código del certificado de competencia: EOC_B_1200
+                1724      Prevención de riesgos laborales en construcción                  60               3             2
+                                                                            Duración       740             30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+             Certificado profesional: Instalación de mamparas y suelos técnicos.
+                • Código: EOC_ C_006_4B.
+                • Título de Formación Profesional asociado: Técnico en Obras de Interior, Decoración y
+                     Rehabilitación.
+                • Nivel: 2.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (17 semanas)
+
+                          Construcción
+                0995                                                                            96                    6
+                          Código del certificado de competencia: EOC_B_0995
+                          Interpretación de planos de construcción
+                0996                                                                            96                    6
+                          Código del certificado de competencia: EOC_B_0996
+                          Mamparas y suelos técnicos
+                1196                                                                            96                    6
+                          Código del certificado de competencia: EOC_B_1196
+                1200      Organización de trabajos de interior, decoración y                  142                     8
+                          rehabilitación
+                          Código del certificado de competencia: EOC_B_1200
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8385                                        Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                               Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                  semanales
+               Decreto                                                                                          (17 semanas)
+                1724      Prevención de riesgos laborales en construcción                       60                    4
+                                                                            Duración          490                    30
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 125 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 175 horas
+
+
+
+             Certificado profesional: Pintura decorativa y revestimientos ligeros.
+                • Código: EOC_ C_007_4B.
+                • Título de Formación Profesional asociado: Técnico en Obras de Interior, Decoración y
+                     Rehabilitación.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                          Construcción
+                0995                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_0995
+                          Revestimientos ligeros
+                1198                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_1198
+                          Pintura decorativa en construcción
+                1199                                                                       238             12             7
+                          Código del certificado de competencia: EOC_B_1199
+                          Organización de trabajos de interior, decoración y
+                1200      rehabilitación                                                   145              7             4
+                          Código del certificado de competencia: EOC_B_1200
+                1724      Prevención de riesgos laborales en construcción                  60               3             2
+                                                                            Duración       635             30             19
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas
+
+
+
+             Certificado profesional: Revestimientos continuos y discontinuos.
+                • Código: EOC_ C_008_4B.
+                • Título de Formación Profesional asociado: Técnico en Obras de Interior, Decoración y
+                     Rehabilitación.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Construcción
+                0995                                                                       96               4             3
+                           Código del certificado de competencia: EOC_B_0995
+                           Solados, alicatados y chapados
+                1003                                                                       205              9             6
+                           Código del certificado de competencia: EOC_B_1003
+                           Revestimientos continuos
+                1194                                                                       174              8             5
+                           Código del certificado de competencia: EOC_B_1194
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8386                                        Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Organización de trabajos de interior, decoración y
+                1200       rehabilitación                                                  145              6             4
+                           Código del certificado de competencia: EOC_B_1200
+                1724       Prevención de riesgos laborales en construcción                  60              3             2
+                                                                             Duración      680             30             20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+
+             Certificado profesional: Representaciones de construcción y eficiencia energética en edificación.
+                • Código: EOC_ C_001_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Proyectos de Edificación.
+                • Nivel: 3.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                          Representaciones de construcción
+                0563                                                                          302                     9
+                          Código del certificado de competencia: EOC_B_0563
+                          Diseño y construcción de edificios
+                0567                                                                          141                     4
+                          Código del certificado de competencia: EOC_B_0567
+                          Instalaciones en edificación
+                0568                                                                          141                     4
+                          Código del certificado de competencia: EOC_B_0568
+                          Eficiencia energética en edificación
+                0569                                                                             64                   2
+                          Código del certificado de competencia: EOC_B_0569
+                          Desarrollo de proyectos de edificación residencial
+                0570                                                                          202                     6
+                          Código del certificado de competencia: EOC_B_0570
+                1724      Prevención de riesgos laborales en construcción                        60                   2
+                                                                             Duración         910                    27
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 320 horas
+
+
+
+             Certificado profesional: Replanteos y control de proyectos y obras de edificación.
+                • Código: EOC_ C_002_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Proyectos de Edificación.
+                • Nivel: 3.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                0562      Estructuras de construcción                                            96                   3
+                          Mediciones y valoraciones de construcción
+                0564                                                                          138                     4
+                          Código del certificado de competencia: EOC_B_0564
+                          Replanteos de construcción
+                0565                                                                             96                   3
+                          Código del certificado de competencia: EOC_B_0565
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                         8387                                      Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                          Planificación de construcción
+                0566                                                                          138                     4
+                          Código del certificado de competencia: EOC_B_0566
+                          Desarrollo de proyectos de edificación residencial
+                0570                                                                          203                     6
+                          Código del certificado de competencia: EOC_B_0570
+                          Desarrollo de proyectos de edificación no residencial
+                0571                                                                          170                     5
+                          Código del certificado de competencia: EOC_B_0571
+                1724      Prevención de riesgos laborales en construcción                       60                    2
+                                                                             Duración         905                    27
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 320 horas
+
+
+
+             Certificado profesional: Representaciones de obra civil.
+                • Código: EOC_ C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Proyectos de Obra Civil.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                          Representaciones de construcción
+                0563                                                                       305             13             9
+                          Código del certificado de competencia: EOC_B_0563
+                          Redes y servicios en obra civil
+                0770                                                                       141              5             4
+                          Código del certificado de competencia: EOC_B_0770
+                          Desarrollo de proyectos urbanísticos
+                0772                                                                       138              5             4
+                          Código del certificado de competencia: EOC_B_0772
+                          Desarrollo de proyectos de obras lineales
+                0773                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_0773
+                1724      Prevención de riesgos laborales en construcción                  60               3             2
+                                                                             Duración      740             30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+             Certificado profesional: Levantamientos topográficos y de construcciones, y replanteos de obra.
+                • Código: EOC_ C_004_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Proyectos de Obra Civil.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                          Representaciones de construcción
+                0563                                                                       302             14             9
+                          Código del certificado de competencia: EOC_B_0563
+                          Replanteos de construcción
+                0565                                                                       96               4             3
+                          Código del certificado de competencia: EOC_B_0565
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                         8388                                    Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (22 semanas) (33 semanas)
+
+                          Levantamientos topográficos.
+                0771                                                                       202            9             6
+                          Código del certificado de competencia: EOC_B_0771
+                1724      Prevención de riesgos laborales en construcción                   60            3             2
+                                                                             Duración      660           30            20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 165 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 235 horas
+
+
+
+             Certificado profesional: Control de proyectos y obras civiles.
+                • Código: EOC_ C_005_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Proyectos de Obra Civil.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (20 semanas) (33 semanas)
+
+                          Mediciones y valoraciones de construcción
+                0564                                                                       138            7             4
+                          Código del certificado de competencia: EOC_B_0564
+                          Planificación de construcción
+                0566                                                                       138            7             4
+                          Código del certificado de competencia: EOC_B_0566
+                          Desarrollo de proyectos urbanísticos
+                0772                                                                       138            7             4
+                          Código del certificado de competencia: EOC_B_0772
+                          Desarrollo de proyectos de obras lineales
+                0773                                                                        96            6             3
+                          Código del certificado de competencia: EOC_B_0773
+                1724      Prevención de riesgos laborales en construcción                   60            3             2
+                                                                             Duración      570           30            17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas
+
+
+
+             Certificado profesional: Organización y control de ejecución de obras de edificación.
+                • Código: EOC_ C_006_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Organización y Control de
+                     Obras de Edificación.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (26 semanas) (33 semanas)
+
+                          Replanteos de construcción
+                0565                                                                        96            4             3
+                          Código del certificado de competencia: EOC_B_0565
+                          Procesos constructivos en edificación
+                1288                                                                       238            9             7
+                          Código del certificado de competencia: EOC_B_1288
+                          Control de estructuras de construcción
+                1290                                                                        96            4             3
+                          Código del certificado de competencia: EOC_B_1290
+                1291      Control de ejecución en obras de edificación                      96            4             3
+                          Código del certificado de competencia: EOC_B_1291
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8389                                        Viernes 6 de marzo de 2026
+
+
+
+
+                 Código                                                                                    Horas        Horas
+                                                                                            Horas
+                  Real                    MÓDULOS PROFESIONALES                             totales
+                                                                                                         semanales    semanales
+                 Decreto                                                                               (26 semanas) (33 semanas)
+
+                            Rehabilitación y conservación de obras de construcción
+                  1293                                                                       174            6             5
+                            Código del certificado de competencia: EOC_B_1293
+                  1724      Prevención de riesgos laborales en construcción                  60             3             2
+                                                                              Duración       760           30            23
+                En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+                En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 270 horas
+
+               Certificado profesional: Organización y control de ejecución de obras civiles.
+                  • Código: EOC_ C_007_5B.
+                  • Título de Formación Profesional asociado: Técnico Superior en Organización y Control de
+                       Obras de Edificación.
+                  • Nivel: 3.
+
+                 Código                                                                                   Horas         Horas
+                                                                                            Horas
+                  Real                    MÓDULOS PROFESIONALES                             totales
+                                                                                                        semanales     semanales
+                 Decreto                                                                              ( 20 semanas) (33 semanas)
+
+                  0562      Estructuras de construcción                                      96             4             3
+                            Replanteos de construcción
+                  0565                                                                       96             4             3
+                            Código del certificado de competencia: EOC_B_0565
+                            Procesos constructivos en obra civil
+                  1289                                                                       176            9             5
+                            Código del certificado de competencia: EOC_B_1289
+                            Control de estructuras de construcción
+                  1290                                                                       96             5             3
+                            Código del certificado de competencia: EOC_B_1290
+                            Control de ejecución en obra civil
+                  1292                                                                       96             5             3
+                            Código del certificado de competencia: EOC_B_1292
+                  1724      Prevención de riesgos laborales en construcción                  60             3             2
+                                                                              Duración       620           30            19
+                En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas
+                En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas
+
+
+
+               Certificado profesional: Control de obras de construcción y control documental.
+                  • Código: EOC_ C_008_5B.
+                  • Título de Formación Profesional asociado: Técnico Superior en Organización y Control de
+                       Obras de Construcción.
+                  • Nivel: 3.
+
+                 Código                                                                                    Horas        Horas
+                                                                                            Horas
+                  Real                    MÓDULOS PROFESIONALES                             totales
+                                                                                                         semanales    semanales
+                 Decreto                                                                               (18 semanas) (33 semanas)
+
+                            Mediciones y valoraciones de construcción
+                  0564                                                                       141            9             4
+                            Código del certificado de competencia: EOC_B_0564
+                            Planificación de construcción
+                  0566                                                                       141            9             4
+                            Código del certificado de competencia: EOC_B_0566
+                            Documentación de proyectos y obras de construcción
+                  1287                                                                       173            9             5
+                            Código del certificado de competencia: EOC_B_1287
+                  1724      Prevención de riesgos laborales en construcción                  60             3             2
+                                                                              Duración       515           30            15
+                En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+                En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                            boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8390                                        Viernes 6 de marzo de 2026
+
+
+
+
+                                                                 ANEXO
+                                                                  ANEXO IIII
+
+                                     FAMILIA PROFESIONAL: ELECTRICIDAD Y ELECTRÓNICA
+
+                          DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                         (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                                 (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+             Certificado profesional: Montaje y mantenimiento de instalaciones eléctricas y redes de distribución
+             de baja tensión.
+                 • Código: ELE_C_001_4B.
+                 • Título de Formación Profesional asociado: Técnico en Instalaciones Eléctricas y Automáticas.
+                 • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Instalaciones eléctricas interiores
+                0235                                                                          270          10            8
+                           Código del certificado de competencia: ELE_B_0235
+                           Instalaciones de distribución
+                0236                                                                          172           7            5
+                           Código del certificado de competencia: ELE_B_0236
+                           Instalaciones solares fotovoltaicas
+                0239                                                                          96            4            3
+                           Código del certificado de competencia: ELE_B_0239
+                           Máquinas eléctricas
+                0240                                                                          172           7            5
+                           Código del certificado de competencia: ELE_B_0240
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      740          30           22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+             Certificado profesional: Montaje y mantenimiento de instalaciones automatizadas.
+                • Código: ELE_C_002_4B.
+                • Título de Formación Profesional asociado: Técnico en Instalaciones Eléctricas y Automáticas.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (20 semanas) (33 semanas)
+
+                           Automatismos industriales
+                0232                                                                          237          12            7
+                           Código del certificado de competencia: ELE_B_0232
+                           Instalaciones domóticas
+                0238                                                                          138           7            4
+                           Código del certificado de competencia: ELE_B_0238
+                           Máquinas eléctricas
+                0240                                                                          170           9            5
+                           Código del certificado de competencia: ELE_B_0240
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      575          30           17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8391                                     Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Montaje y mantenimiento de infraestructuras de telecomunicaciones, redes
+             locales de datos y sistemas de telefonía.
+                 • Código: ELE_C_003_4B.
+                 • Título de Formación Profesional asociado: Técnico en Instalaciones de Telecomunicaciones.
+                 • Nivel: 2.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                          Infraestructuras comunes de telecomunicación en viviendas y edificios
+                0237                                                                                       138           8
+                          Código del certificado de competencia: ELE_B_0237
+                0360      Equipos microinformáticos                                                         96           6
+                          Infraestructuras de redes de datos y sistemas de telefonía
+                0361                                                                                       206          12
+                          Código del certificado de competencia: ELE_B_0361
+                1782      Prevención de riesgos laborales                                                   30           2
+                                                                                              Duración     470          28
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 120 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 165 horas
+
+
+
+             Certificado profesional: Montaje y mantenimiento de instalaciones de megafonía, sonorización de
+             locales y circuito cerrado de televisión.
+                 • Código: ELE_C_004_4B.
+                 • Título de Formación Profesional asociado: Técnico en Instalaciones de Telecomunicaciones.
+                 • Nivel: 2.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                           Instalaciones de megafonía y sonorización
+                0363                                                                                       173          10
+                           Código del certificado de competencia: ELE_B_0363
+                           Circuito cerrado de televisión y seguridad electrónica
+                0364                                                                                       202          12
+                           Código del certificado de competencia: ELE_B_0364
+                1782       Prevención de riesgos laborales                                                  30           2
+                                                                                              Duración     405          24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima 145 de horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                       boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                         8392                                       Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Desarrollo de proyectos de instalaciones eléctricas de baja tensión y centros de
+             transformación.
+                 • Código: ELE_C_001_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Sistemas Electrotécnicos y
+                     Automatizados.
+                 • Nivel: 3.
+
+               Código                                                                                                     Horas
+                                                                                                            Horas
+                Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                        semanales
+               Decreto                                                                                                (33 semanas)
+
+                          Documentación técnica en instalaciones eléctricas
+                0519                                                                                            96         3
+                          Código del certificado de competencia: ELE_B_0519
+                0520      Sistemas y circuitos eléctricos                                                    173           5
+                          Desarrollo de redes eléctricas y centros de transformación
+                0522                                                                                         172           5
+                          Código del certificado de competencia: ELE_B_0522
+                          Configuración de instalaciones domóticas y automáticas
+                0523                                                                                         202           6
+                          Código del certificado de competencia: ELE_B_0523
+                          Configuración de instalaciones eléctricas
+                0524                                                                                         172           5
+                          Código del certificado de competencia: ELE_B_0524
+                1782      Prevención de riesgos laborales                                                       30         1
+                                                                                              Duración       845          25
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 215 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 300 horas
+
+
+
+             Certificado profesional: Gestión y supervisión del montaje y mantenimiento de instalaciones eléctricas
+             de baja tensión.
+                 • Código: ELE_C_002_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Sistemas Electrotécnicos y
+                     Automatizados.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (18 semanas) (33 semanas)
+
+                           Técnicas y procesos en instalaciones eléctricas
+                0518                                                                          241          13              7
+                           Código del certificado de competencia: ELE_B_0518
+                           Técnicas y procesos en instalaciones domóticas y automáticas
+                0521                                                                          205          11              6
+                           Código del certificado de competencia: ELE_B_0521
+                           Gestión del montaje y del mantenimiento de instalaciones
+                0602       eléctricas                                                         64            4              2
+                           Código del certificado de competencia: ELE_B_0602
+                1782       Prevención de riesgos laborales                                    30            2              1
+                                                                                Duración      540          30             16
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8393                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Gestión y supervisión del montaje y mantenimiento de sistemas de producción
+             audiovisual y de radiodifusión en unidades fijas y móviles.
+                • Código: ELE_C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Sistemas de
+                     Telecomunicaciones e Informáticos.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (20 semanas) (33 semanas)
+
+                0551       Elementos de sistemas de telecomunicaciones                        138           7            4
+                           Sistemas de producción audiovisual
+                0554                                                                          237          12            7
+                           Código del certificado de competencia: ELE_B_0554
+                           Sistemas de radiocomunicaciones
+                0556                                                                          170           9            5
+                           Código del certificado de competencia: ELE_B_0556
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      575          30           17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+             Certificado profesional: Gestión y supervisión del montaje y mantenimiento de las infraestructuras de
+             telecomunicación, sistemas telemáticos y de redes de voz y datos en el entorno de edificios.
+                 • Código: ELE_C_004_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Sistemas de
+                     Telecomunicaciones e Informáticos.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Sistemas informáticos y redes locales
+                0552                                                                          170           7            5
+                           Código del certificado de competencia: ELE_B_0552
+                           Técnicas y procesos en infraestructuras de telecomunicaciones
+                0553                                                                          140           5            4
+                           Código del certificado de competencia: ELE_B_0553
+                0555       Redes telemáticas                                                  170           7            5
+                           Gestión de proyectos de instalaciones de telecomunicaciones
+                0601                                                                          96            4            3
+                           Código del certificado de competencia: ELE_B_0601
+                           Sistemas de telefonía fija y móvil
+                0713                                                                          139           5            4
+                           Código del certificado de competencia: ELE_B_0713
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      745          30           22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 265 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8394                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Desarrollo de proyectos de infraestructuras de telecomunicación y de redes de
+             voz y datos, con integración de servicios de hogar digital, en el entorno de edificios inteligentes.
+                 • Código: ELE_C_005_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Sistemas de
+                     Telecomunicaciones e Informáticos.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (12 semanas) (17 semanas)
+
+                           Configuración de infraestructuras de sistemas de
+                0525       telecomunicaciones                                                 96            8            6
+                           Código del certificado de competencia: ELE_B_0525
+                0557       Sistemas integrados y hogar digital                                138          11            8
+                           Gestión de proyectos de instalaciones de telecomunicaciones
+                0601                                                                          96            8            6
+                           Código del certificado de competencia: ELE_B_0601
+                1782       Prevención de riesgos laborales                                    30            3            2
+                                                                                Duración      360          30           22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 90 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 130 horas
+
+
+             Certificado profesional: Mantenimiento y reparación de equipos y sistemas microprocesados y de
+             telecomunicaciones.
+                 • Código: ELE_C_006_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Mantenimiento Electrónico.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Equipos microprogramables
+                1052                                                                          205          10            6
+                           Código del certificado de competencia: ELE_B_1052
+                           Mantenimiento de equipos de radiocomunicaciones
+                1053                                                                          205           9            6
+                           Código del certificado de competencia: ELE_B_1053
+                           Mantenimiento de equipos de voz y datos
+                1054                                                                          205           9            6
+                           Código del certificado de competencia: ELE_B_1054
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      645          30           19
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 165 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8395                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Planificación de los procesos de mantenimiento y reparación de equipos
+             industriales y profesionales de audio y vídeo.
+                • Código: ELE_C_007_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Mantenimiento Electrónico.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (18 semanas) (33 semanas)
+
+                           Mantenimiento de equipos de electrónica industrial
+                1055                                                                          173          10              5
+                           Código del certificado de competencia: ELE_B_1055
+                           Mantenimiento de equipos de audio
+                1056                                                                          96            6              3
+                           Código del certificado de competencia: ELE_B_1056
+                           Mantenimiento de equipos de vídeo
+                1057                                                                          142           8              4
+                           Código del certificado de competencia: ELE_B_1057
+                1059       Infraestructuras y desarrollo del mantenimiento electrónico        64            4              2
+                1782       Prevención de riesgos laborales                                    30            2              1
+                                                                                Duración      505          30             15
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+
+
+             Certificado profesional: Desarrollo de proyectos de sistemas de automatización industrial.
+                • Código: ELE_C_008_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Automatización y Robótica
+                     Industrial.
+                • Nivel: 3.
+
+               Código                                                                                                     Horas
+                                                                                                            Horas
+                Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                        semanales
+               Decreto                                                                                                (33 semanas)
+
+                           Sistemas eléctricos, neumáticos e hidráulicos
+                0959                                                                                         139           4
+                           Código del certificado de competencia: ELE_B_0959
+                           Sistemas secuenciales programables
+                0960                                                                                         139           4
+                           Código del certificado de competencia: ELE_B_0960
+                           Sistemas de medida y regulación
+                0961                                                                                         139           4
+                           Código del certificado de competencia: ELE_B_0961
+                           Documentación técnica
+                0963                                                                                            96         3
+                           Código del certificado de competencia: ELE_B_0963
+                           Sistemas programables avanzados
+                0965                                                                                         138           4
+                           Código del certificado de competencia: ELE_B_0965
+                           Comunicaciones industriales
+                0967                                                                                         234           7
+                           Código del certificado de competencia: ELE_B_0967
+                1782       Prevención de riesgos laborales                                                      30         1
+                                                                                              Duración       915          27
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 325 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8396                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Gestión y supervisión del montaje, puesta en marcha y mantenimiento de
+             sistemas de automatización industrial.
+                  • Código: ELE_C_009_5B.
+                  • Título de Formación Profesional asociado: Técnico Superior en Automatización y Robótica
+                     Industrial.
+                  • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Sistemas de potencia
+                0962                                                                          172           8            5
+                           Código del certificado de competencia: ELE_B_0962
+                0964       Informática industrial                                             96            5            3
+                           Robótica industrial
+                0966                                                                          140           6            4
+                           Código del certificado de competencia: ELE_B_0966
+                           Integración de sistemas de automatización industrial
+                0968                                                                          202           9            6
+                           Código del certificado de competencia: ELE_B_0968
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                  Duración    640          30           19
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas
+
+
+
+             Certificado profesional: Supervisión, montaje y mantenimiento de sistemas de electromedicina.
+                • Código: ELE_C_010_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Electromedicina Clínica.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (26 semanas) (33 semanas)
+
+                           Sistemas de radiodiagnóstico, radioterapia e imagen médica
+                1588                                                                          240           9            7
+                           Código del certificado de competencia: ELE_B_1588
+                           Sistemas de monitorización, registro y cuidados críticos
+                1589                                                                          205           8            6
+                           Código del certificado de competencia: ELE_B_1589
+                           Sistemas de laboratorio y hemodiálisis
+                1590                                                                          170           6            5
+                           Código del certificado de competencia: ELE_B_1590
+                           Sistemas de rehabilitación y pruebas funcionales
+                1591                                                                          140           5            4
+                           Código del certificado de competencia: ELE_B_1591
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                  Duración    785          30           23
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 275 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8397                                       Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Planificación de planes de renovación, montaje y mantenimiento de sistemas
+             de electromedicina.
+                 • Código: ELE_C_011_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Electromedicina Clínica.
+                 • Nivel: 3
+
+               Código                                                                                     Horas        Horas
+                                                                                            Horas
+                Real                      MÓDULOS PROFESIONALES                             totales
+                                                                                                        semanales    semanales
+               Decreto                                                                                (12 semanas) (17 semanas)
+
+                           Planificación de la adquisición de sistemas de electromedicina
+                1593                                                                         202          16           12
+                           Código del certificado de competencia: ELE_B_1593
+                           Gestión del montaje y mantenimiento de sistemas de
+                1594       electromedicina                                                   138          11            8
+                           Código del certificado de competencia: ELE_B_1594
+                1782       Prevención de riesgos laborales                                    30           3            2
+                                                                                Duración     370          30           22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 130 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                      boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8398                                        Viernes 6 de marzo de 2026
+
+
+
+
+                                                               ANEXO   III
+                                                                ANEXO III
+
+                                             FAMILIA PROFESIONAL: ENERGÍA Y AGUA
+
+                          DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                         (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                                 (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+             Certificado profesional: Montaje y mantenimiento de redes de agua.
+                • Código: ENA_C_001_4B.
+                • Título de Formación Profesional asociado: Técnico en Redes y Estaciones de Tratamiento de
+                     Aguas.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (26 semanas) (33 semanas)
+
+                1559       Replanteo en redes de agua                                         101           4            3
+                           Técnicas de mecanizado y unión
+                1562                                                                          101           4            3
+                           Código del certificado de competencia: ENA_B_1562
+                           Montaje y puesta en servicio de redes de agua
+                1563                                                                          202           6            6
+                           Código del certificado de competencia: ENA_B_1563
+                           Construcción en redes y estaciones de tratamiento de agua
+                1565                                                                          174           6            5
+                           Código del certificado de competencia: ENA_B_1565
+                           Hidráulica y redes de agua
+                1567                                                                          101           4            3
+                           Código del certificado de competencia: ENA_B_1567
+                           Mantenimiento de redes
+                1568                                                                          96            4            3
+                           Código del certificado de competencia: ENA_B_1568
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      805          30           24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                          8399                                      Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Operación de estaciones de tratamiento de aguas.
+                • Código: ENA_C_002_4B.
+                • Título de Formación Profesional asociado: Técnico en Redes y Estaciones de Tratamiento de
+                     Aguas.
+                • Nivel: 2.
+
+               Código                                                                                                     Horas
+                                                                                                            Horas
+                Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                        semanales
+               Decreto                                                                                                (17 semanas)
+
+                           Estaciones de tratamiento de aguas
+                1560                                                                                         174          10
+                           Código del certificado de competencia: ENA_B_1560
+                           Calidad del agua
+                1564                                                                                         138           8
+                           Código del certificado de competencia: ENA_B_1564
+                           Mantenimiento de equipos e instalaciones
+                1566                                                                                         138           8
+                           Código del certificado de competencia: ENA_B_1566
+                1782       Prevención de riesgos laborales                                                      30         2
+                                                                                              Duración       480          28
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 120 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 170 horas
+
+
+
+             Certificado profesional: Eficiencia energética de edificios.
+                • Código: ENA_C_001_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Eficiencia Energética y
+                     Energía Solar Térmica.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Eficiencia energética de instalaciones
+                0349                                                                          106           5              3
+                           Código del certificado de competencia: ENA_B_0349
+                           Certificación energética de edificios
+                0350                                                                          302          14              9
+                           Código del certificado de competencia: ENA_B_0350
+                           Gestión eficiente del agua en edificación
+                0351                                                                          64            3              2
+                           Código del certificado de competencia: ENA_B_0351
+                           Promoción del uso eficiente de la energía y del agua
+                0354                                                                          143           6              4
+                           Código del certificado de competencia: ENA_B_0354
+                1782       Prevención de riesgos laborales                                    30            2              1
+                                                                                  Duración    645          30             19
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 165 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8400                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Organización y proyectos de instalaciones solares térmicas.
+                • Código: ENA_C_002_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Eficiencia Energética y
+                     Energía Solar Térmica.
+                • Nivel: 3.
+
+               Código                                                                                       Horas        Horas
+                                                                                              Horas
+                Real                      MÓDULOS PROFESIONALES                               totales
+                                                                                                          semanales    semanales
+               Decreto                                                                                  (24 semanas) (33 semanas)
+
+                           Procesos de montaje de instalaciones
+                0122                                                                           197           9              6
+                           Código del certificado de competencia: ENA_B_0122
+                           Representación gráfica de instalaciones
+                0123                                                                           106           4              3
+                           Código del certificado de competencia: ENA_B_0123
+                           Configuración de instalaciones solares térmicas
+                0352                                                                           106           4              3
+                           Código del certificado de competencia: ENA_B_0352
+                           Gestión del montaje y mantenimiento de instalaciones solares
+                0353       térmicas                                                            271          11              8
+                           Código del certificado de competencia: ENA_B_0353
+                1782       Prevención de riesgos laborales                                     30            2              1
+                                                                                 Duración      710          30             21
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+             Certificado profesional: Gestión del montaje y mantenimiento de centrales eléctricas.
+                • Código: ENA_C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Centrales Eléctricas.
+                • Nivel: 3.
+
+               Código                                                                                                      Horas
+                                                                                                             Horas
+                Real                            MÓDULOS PROFESIONALES                                        totales
+                                                                                                                         semanales
+               Decreto                                                                                                 (33 semanas)
+
+                           Telecontrol y automatismos
+                0670                                                                                          141           4
+                           Código del certificado de competencia: ENA_B_0670
+                           Prevención de riesgos eléctricos
+                0671                                                                                             64         2
+                           Código del certificado de competencia: ENA_B_0671
+                           Centrales de producción eléctricas
+                0672                                                                                          302          8*
+                           Código del certificado de competencia: ENA_B_0672
+                           Operación en centrales eléctricas                                                  302
+                0673
+                           Código del certificado de competencia: ENA_B_0673
+                                                                                                                           8*
+
+                           Mantenimiento de centrales eléctricas
+                0674
+                           Código del certificado de competencia: ENA_B_0674
+                                                                                                              269           8
+
+                           Coordinación de equipos humanos
+                0675                                                                                             64         2
+                           Código del certificado de competencia: ENA_B_0675
+                                                                                               Duración 1145               32
+              (*) Se reduce en una hora la carga lectiva semanal del módulo profesional por criterios pedagógicos. Las horas
+              resultantes se incorporan a la formación en empresa u organismo equiparado, tanto en el régimen general como en el
+              régimen intensivo
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración de 355 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración de 470 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                          boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8401                                     Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Gestión del montaje y mantenimiento de subestaciones eléctricas.
+                • Código: ENA_C_004_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Centrales Eléctricas.
+                • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                           Subestaciones eléctricas
+                0669                                                                                       176          10
+                           Código del certificado de competencia: ENA_B_0669
+                           Telecontrol y automatismos
+                0670                                                                                       145           8
+                           Código del certificado de competencia: ENA_B_0670
+                           Prevención de riesgos eléctricos
+                0671                                                                                        64           4
+                           Código del certificado de competencia: ENA_B_0671
+                                                                                              Duración     385          22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 100 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 135 horas
+
+
+
+             Certificado profesional: Gestión del montaje y mantenimiento de parques eólicos.
+                • Código: ENA_C_005_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Energías Renovables.
+                • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                           Gestión del montaje de parques eólicos
+                0683                                                                                       173          10
+                           Código del certificado de competencia: ENA_B_0683
+                           Operación y mantenimiento de parques eólicos
+                0684                                                                                       202          12
+                           Código del certificado de competencia: ENA_B_0684
+                1782       Prevención de riesgos laborales                                                  30           2
+                                                                                              Duración     405          24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 145 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                       boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8402                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Organización y proyectos de instalaciones solares fotovoltaicas.
+                • Código: ENA_C_006_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Energías Renovables.
+                • Nivel: 3.
+
+               Código                                                                                                     Horas
+                                                                                                            Horas
+                Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                        semanales
+               Decreto                                                                                                (17 semanas)
+
+                           Configuración de instalaciones solares fotovoltaicas
+                0681                                                                                         170          10
+                           Código del certificado de competencia: ENA_B_0681
+                           Gestión del montaje de instalaciones solares fotovoltaicas
+                0682                                                                                         205          12
+                           Código del certificado de competencia: ENA_B_0682
+                1782       Prevención de riesgos laborales                                                      30         2
+                                                                                              Duración       405          24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 145 horas
+
+
+
+             Certificado profesional: Optimización de redes e instalaciones de agua.
+                • Código: ENA_C_007_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Gestión del Agua.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (12 semanas) (17 semanas)
+
+                           Gestión eficiente del agua
+                1574                                                                          145          12              8
+                           Código del certificado de competencia: ENA_B_1574
+                           Configuración de redes de agua
+                1575                                                                          170          15             10
+                           Código del certificado de competencia: ENA_B_1575
+                1782       Prevención de riesgos laborales                                    30            3              2
+                                                                                  Duración    345          30             20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 90 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 125 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                       8403                                      Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Organización y control del montaje y mantenimiento de redes e instalaciones
+             de agua y saneamiento.
+                 • Código: ENA_C_008_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Gestión del Agua.
+                 • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (33 semanas)
+
+                           Planificación y replanteo
+                1572                                                                                       202           6
+                           Código del certificado de competencia: ENA_B_1572
+                           Configuración de redes de agua
+                1575                                                                                       170           5
+                           Código del certificado de competencia: ENA_B_1575
+                           Automatismos y telecontrol en instalaciones de agua
+                1577                                                                                       174           5
+                           Código del certificado de competencia: ENA_B_1577
+                           Operaciones en redes en instalaciones de agua
+                1578                                                                                       238           7
+                           Código del certificado de competencia: ENA_B_1578
+                           Gestión de operaciones, calidad y medioambiente
+                1579                                                                                        96           3
+                           Código del certificado de competencia: ENA_B_1579
+                           Técnicas de montaje en instalaciones de agua
+                1580                                                                                       170           5
+                           Código del certificado de competencia: ENA_B_1580
+                1782       Prevención de riesgos laborales                                                  30           1
+                                                                                              Duración 1080             32
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 270 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 380 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8404                                       Viernes 6 de marzo de 2026
+
+
+
+
+                                                                 ANEXO IV
+                                                                 ANEXO IV
+
+                                          FAMILIA PROFESIONAL: INDUSTRIAS EXTRACTIVAS
+
+                          DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                         (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                                 (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+             Certificado profesional: Excavación subterránea y a cielo abierto con explosivos.
+                • Código: IEX_C_004_4B.
+                • Título de Formación Profesional asociado: Técnico en Excavaciones y Sondeos.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                       MÓDULOS PROFESIONALES                             totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (20 semanas) (33 semanas)
+
+                           Perforaciones
+                0881                                                                          141           7            4
+                           Código del certificado de competencia: IEX_B_0881
+                           Técnicas de voladuras
+                1031                                                                          170           9            5
+                           Código del certificado de competencia: IEX_B_1031
+                           Sostenimiento
+                1077                                                                          170           9            5
+                           Código del certificado de competencia: IEX_B_1077
+                           Estabilización de taludes
+                1078                                                                          64            3            2
+                           Código del certificado de competencia: IEX_B_1078
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      575          30           17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+             Certificado profesional: Excavación mecanizada con arranque selectivo.
+                • Código: IEX _C_005_4B.
+                • Título de Formación Profesional asociado: Técnico en Excavaciones y Sondeos.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                       MÓDULOS PROFESIONALES                             totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Excavaciones con arranque selectivo
+                1079                                                                          202           8            6
+                           Código del certificado de competencia: IEX_B_1079
+                           Operaciones de carga y transporte en excavaciones
+                1080                                                                          170           7            5
+                           Código del certificado de competencia: IEX_B_1080
+                1081       Operación y manejo de maquinaria de excavación                     338          13           10
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      740          30           22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+          Boletín Oficial de Canarias núm. 45                        8405                                       Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Sondeos y trabajos geotécnicos.
+                • Código: IEX _C_006_4B.
+                • Título de Formación Profesional asociado: Técnico en Excavaciones y Sondeos.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (10 semanas) (17 semanas)
+
+                           Sondeos
+                0847                                                                          149          15            8
+                           Código del certificado de competencia: IEX_B_0847
+                           Trabajos geotécnicos
+                0850                                                                          96           12            6
+                           Código del certificado de competencia: IEX_B_0850
+                1782       Prevención de riesgos laborales                                    30            3            2
+                                                                                Duración      275          30           16
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 70 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 100 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-736
+

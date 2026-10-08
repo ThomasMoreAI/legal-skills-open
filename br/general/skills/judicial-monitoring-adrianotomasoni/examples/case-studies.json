@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case-001",
+    "descricao": "Penhora sobre imóvel de garantido",
+    "evento": "Penhora sobre bem imóvel, avaliado em R$ 450.000,00",
+    "nivel_esperado": "A",
+    "score_esperado": 87,
+    "acao_tomada": "Acionamento imediato da equipe jurídica",
+    "resultado": "Embargo de terceiro apresentado com sucesso"
+  },
+  {
+    "id": "case-002",
+    "descricao": "Audiência de conciliação designada",
+    "evento": "Designada audiência de conciliação para 2026-05-10",
+    "nivel_esperado": "B",
+    "score_esperado": 65,
+    "acao_tomada": "Notificação ao analista responsável",
+    "resultado": "Acordo extrajudicial celebrado antes da audiência"
+  }
+]

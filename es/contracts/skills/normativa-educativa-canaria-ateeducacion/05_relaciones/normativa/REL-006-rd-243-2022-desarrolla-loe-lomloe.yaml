@@ -1,0 +1,11 @@
+id: REL-006
+tipo_relacion: "desarrolla"
+origen: NOR-006
+destino: NOR-002
+descripcion: "El RD 243/2022 desarrolla, para el Bachillerato, el marco básico de la LOE tras su modificación por la LOMLOE."
+evidencia:
+  fuente: FTE-011
+  localizacion: "Preámbulo y articulado del RD 243/2022"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Relacionado también con NOR-001 como norma marco modificada."

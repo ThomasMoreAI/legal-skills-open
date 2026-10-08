@@ -1,0 +1,21 @@
+{
+  "id": "judicial-monitoring",
+  "name": "Monitoramento Judicial Proativo",
+  "version": "4.0.0",
+  "category": "core",
+  "status": "stable",
+  "type": "technique",
+  "tags": ["judicial", "monitoramento", "seguro-garantia", "credito", "risco", "cnj", "brasil"],
+  "maintainer": "adriano@traderisk.com.br",
+  "dependencies": [],
+  "platforms": {
+    "claude": "supported",
+    "claude-code": "supported",
+    "openai": "supported",
+    "gemini": "supported",
+    "cursor": "supported",
+    "copilot": "supported",
+    "codex": "supported",
+    "manus": "supported"
+  }
+}

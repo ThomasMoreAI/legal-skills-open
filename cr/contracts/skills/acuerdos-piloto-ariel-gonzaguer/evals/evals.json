@@ -1,0 +1,60 @@
+{
+  "skill_name": "acuerdos-piloto",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Necesito un acuerdo de piloto gratuito de cuatro meses para una aplicación SaaS. El acceso será por empresa, el plan se definirá en una ficha individual y quiero incluir soporte, feedback obligatorio al cierre, exportación de datos y continuidad pagada.",
+      "expected_output": "Un acuerdo Markdown con duración, acceso por empresa, ficha de plan, soporte, feedback, datos, continuidad y anexos de firma.",
+      "assertions": [
+        "Distingue el piloto de los términos generales y la política de privacidad.",
+        "Incluye una ficha para registrar el plan y los límites de cada participante.",
+        "Incluye exportación de datos, terminación y continuidad pagada sin inventar precios no proporcionados."
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Redacta un acuerdo beta para una app de gestión de clientes. La empresa participante podrá usarla gratis seis meses, debe reportar errores y completar una encuesta final. Quiero pedir testimonios, pero no quiero que aceptar publicidad sea requisito para entrar.",
+      "expected_output": "Un acuerdo claro con obligaciones de uso y un anexo separado para testimonios y uso de marca.",
+      "assertions": [
+        "Separa las obligaciones obligatorias de la autorización opcional de testimonios, logos y material publicitario.",
+        "Incluye responsabilidades sobre datos personales de clientes y permisos para tratarlos.",
+        "Evita prometer disponibilidad permanente o resultados comerciales."
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Tengo un proyecto pequeño todavía no constituido como sociedad y quiero dar acceso temporal a una aplicación a personas físicas y empresas. Ayúdame a preparar un contrato reutilizable sin presentar mi nombre comercial como si fuera una sociedad inscrita.",
+      "expected_output": "Una plantilla que identifique a la persona física responsable, mencione el nombre comercial correctamente y contemple firmas, representación empresarial y campos pendientes.",
+      "assertions": [
+        "Identifica a la persona física y trata el nombre comercial como nombre comercial.",
+        "Contempla tanto participantes individuales como empresas representadas.",
+        "Marca los datos legales o comerciales faltantes como campos pendientes en lugar de inventarlos."
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Necesito un acuerdo de piloto para una app que almacena datos de clientes de pequeñas empresas. El proveedor y los clientes están en Costa Rica. Quiero saber qué datos y decisiones legales faltan antes de firmar.",
+      "expected_output": "Un borrador o plan de acuerdo acompañado de una revisión legal preventiva con clasificación de roles de datos, fuentes oficiales, riesgos y bloqueos.",
+      "assertions": [
+        "No afirma automáticamente que el proveedor sea responsable o encargado sin analizar finalidades e instrucciones.",
+        "Incluye preguntas sobre aviso de privacidad, derechos, subproveedores, incidentes, exportación y eliminación.",
+        "Consulta o recomienda fuentes oficiales de Costa Rica y separa hechos de conclusiones jurídicas."
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Redacta una beta para empresas y consumidores. El usuario quiere aceptar por correo o WhatsApp y exige que el contrato sea legalmente válido. También habrá un plan pagado después de la beta.",
+      "expected_output": "Una respuesta que distinga B2B/B2C, explique la evidencia de aceptación, señale que no puede garantizar validez y marque riesgos de precio, renovación y derechos imperativos.",
+      "assertions": [
+        "No equipara automáticamente una aceptación por WhatsApp con una firma digital certificada.",
+        "Separa reglas para empresas y consumidores.",
+        "Identifica precio, renovación, cancelación, impuestos o derechos imperativos como puntos a confirmar."
+      ],
+      "files": []
+    }
+  ]
+}

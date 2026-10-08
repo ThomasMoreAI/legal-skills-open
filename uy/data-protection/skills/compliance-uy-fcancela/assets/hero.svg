@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" font-family="Segoe UI, system-ui, Arial, sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#0038a8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0b0b0d" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="flagClip"><rect x="84" y="60" width="174" height="116" rx="10"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="420" fill="#0b0b0d"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+
+  <!-- Bandera de Uruguay: 9 franjas (5 blancas, 4 azules) + cantón con Sol de Mayo -->
+  <g clip-path="url(#flagClip)">
+    <rect x="84" y="60" width="174" height="116" fill="#fff"/>
+    <g fill="#0038a8">
+      <rect x="84" y="72.9"  width="174" height="12.9"/>
+      <rect x="84" y="98.7"  width="174" height="12.9"/>
+      <rect x="84" y="124.4" width="174" height="12.9"/>
+      <rect x="84" y="150.2" width="174" height="12.9"/>
+    </g>
+    <rect x="84" y="60" width="67" height="64.4" fill="#fff"/>
+    <text x="117" y="105" font-size="42" fill="#fcd116" text-anchor="middle">&#9728;</text>
+  </g>
+
+  <text x="282" y="125" font-size="22" letter-spacing="4" fill="#9aa0ab" font-weight="700">CUMPLIMIENTO LEGAL · URUGUAY</text>
+
+  <text x="84" y="250" font-size="92" font-weight="800" letter-spacing="-2" fill="#ffffff">compliance<tspan fill="#0038a8">-uy</tspan></text>
+
+  <text x="86" y="300" font-size="30" fill="#eef1f6" font-weight="600">Audita tu app y deja listos tus documentos de cumplimiento.</text>
+  <text x="86" y="338" font-size="22" fill="#9aa0ab">Cada hallazgo apunta al artículo de la ley que lo respalda.</text>
+
+  <!-- chips -->
+  <g font-size="19" fill="#e8eaf0">
+    <rect x="84"  y="362" width="332" height="40" rx="20" fill="#16171b" stroke="#2a2c33"/>
+    <text x="104" y="388">&#9878; Ley 18.331 · Protección de Datos</text>
+    <rect x="430" y="362" width="320" height="40" rx="20" fill="#16171b" stroke="#2a2c33"/>
+    <text x="450" y="388">&#128737; Ley 19.574 · Prevención de LA/FT</text>
+    <rect x="764" y="362" width="210" height="40" rx="20" fill="#16171b" stroke="#2a2c33"/>
+    <text x="784" y="388">&#128274; Open Source · MIT</text>
+  </g>
+
+  <rect x="0" y="416" width="1280" height="4" fill="#0038a8"/>
+</svg>

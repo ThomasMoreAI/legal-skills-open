@@ -1,0 +1,11 @@
+id: REL-047
+tipo_relacion: "desarrolla"
+origen: NOR-050
+destino: NOR-024
+descripcion: "La Orden de 29 de mayo de 2023 desarrolla los procedimientos administrativos y técnicos previstos en el Decreto 25/2018 de atención a la diversidad."
+evidencia:
+  fuente: FTE-053
+  localizacion: "Artículo 1 y preámbulo de la Orden de 29 de mayo de 2023."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"
+observaciones: "[PENDIENTE] (2026-08-05) La norma de origen (NOR-050) no se ha localizado en el BOC (PREG-012), así que esta relación de desarrollo no está verificada. La localización citada —artículo 1 y preámbulo— remite a un texto que no se ha podido encontrar. — Observación original: Norma de desarrollo procedimental principal del marco de inclusión actual."

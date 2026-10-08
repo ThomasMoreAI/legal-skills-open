@@ -1,0 +1,40 @@
+{
+  "_note": "Federal deductions for personal income tax — 2026 figures (CHF). Cantonal deductions vary.",
+  "_source": "ESTV / AFC — rates art. 33-35 LIFD, indexed annually",
+  "_in_force": "2026-01-01",
+  "pillar_3a": {
+    "employees_max": 7258,
+    "self_employed_no_lpp_max": 36288,
+    "_self_employed_note": "20 % of net self-employment income, capped at 36 288"
+  },
+  "professional_expenses": {
+    "fixed_deduction_pct": 3.0,
+    "fixed_deduction_min": 2000,
+    "fixed_deduction_max": 4000,
+    "_note": "art. 26 LIFD — actual or flat rate, employee may choose"
+  },
+  "children": {
+    "deduction_per_child": 6700,
+    "support_deduction": 6700,
+    "_note": "art. 35 LIFD — federal level; cantons add more"
+  },
+  "couple_married": {
+    "couple_deduction": 2700,
+    "single_parent_deduction": 11900
+  },
+  "insurance_premiums": {
+    "married_max": 3700,
+    "single_max": 1800,
+    "per_child_additional": 700,
+    "_note": "art. 33 al. 1 lit. g LIFD — health, accident, life insurance + interest on savings"
+  },
+  "donations": {
+    "min_chf": 100,
+    "max_pct_of_taxable_income": 20,
+    "_note": "art. 33a LIFD — donations to public-utility entities"
+  },
+  "bvg_buyback": {
+    "max": null,
+    "_note": "No federal cap; must be justified by gap in pension coverage (rachat lacune)"
+  }
+}

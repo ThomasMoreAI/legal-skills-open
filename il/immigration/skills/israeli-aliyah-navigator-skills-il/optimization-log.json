@@ -1,0 +1,17 @@
+{
+  "cycles": [
+    {
+      "version": "1.7.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "Expert MINOR deferred: bagrut accommodations for oleh students, matriculation-exam concessions and the interpreter right in expulsion hearings are still absent from the education coverage.",
+        "Expert MAJOR deferred: yahadut verification (בירור יהדות, גיור ממלכתי, marriage-registration relief for zakai shvut who are not Jewish by Rabbanut standards) is an entire uncovered axis; decide next cycle whether it belongs here or in a sibling skill.",
+        "Expert MAJOR deferred: named oleh programmes outside the five alternate statuses (נעל\"ה, עליית חירום and its grant, אסירי ציון, children arriving without parents) are not in Step 12.",
+        "Expert MAJOR deferred: academic degree evaluation (Ministry of Education) is conflated with professional licensing in professional-recognition.md; they are different processes.",
+        "Expert MAJOR deferred: Bituach Leumi coverage is thin (kupat cholim ceiling reduction for olim, disability and special-services rules, non-working oleh contribution position).",
+        "Unresolved: the four olim-vehicle evidence claims cite a gov.il page whose content sits behind JS accordions and could not be re-read this cycle by curl, WebFetch or a headless browser. They carry verified_via from an earlier cycle and were left in place, not re-verified.",
+        "Unresolved: klita.gov.il serves an empty JS shell to every fetch method; the reference-link claim for it is recorded as unreachable, and a redirect to the ministry gov.il page was the only confirmation available."
+      ]
+    }
+  ]
+}

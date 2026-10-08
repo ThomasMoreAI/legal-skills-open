@@ -1,0 +1,11 @@
+{
+  "owner": "hugosbl",
+  "slug": "legal-docs-fr",
+  "displayName": "Legal Docs FR",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770058324277,
+    "commit": "https://github.com/clawdbot/skills/commit/c944e28c14a3f545e3a7c1954bef9e9e7a1f5c80"
+  },
+  "history": []
+}

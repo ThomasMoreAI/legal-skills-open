@@ -1,0 +1,607 @@
+ID interno: CUR-039
+Título oficial: Historia de la Filosofía — 2.º Bachillerato Canarias
+Fuente oficial: FTE-012 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.pdf
+URL de acceso oficial: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+HISTORIA DE LA FILOSOFÍA
+Introducción
+La  Historia  de  la  Filosofía,  como  materia  obligatoria  en  segundo  de  Bachillerato,  culmina  el
+proceso formativo comenzado en primero con la asignatura de Filosofía. A este respecto, supone
+una mayor profundización e integración conceptual en el análisis de las cuestiones epistemológicas,
+ontológicas, antropológicas, éticas, estéticas, políticas y sociológicas que componen el campo de
+reflexión  del  primer  curso.  La  continuidad  de  la  formación  filosófica  en  toda  la  etapa  de
+Bachillerato afianza aquellas rutinas de pensamiento que sirven para consolidar la madurez personal
+y contribuyen al desarrollo de un espíritu crítico en el alumnado.
+El estudio de la disciplina plantea aspectos referidos tanto al origen y naturaleza del cosmos como a
+su sentido, entendiendo, al mismo tiempo, la relación que mantienen con el ser humano, con su
+destino y hasta con la posibilidad del conocimiento y sus formas, sin obviar su influencia en
+aspectos que tienen que ver con la belleza, la justicia, la verdad y el bien para la guía de nuestras
+creaciones  y  acciones.  Se  pretende  proporcionar  al  alumnado  aprendizajes  que  le  permitan
+comprender,  en  el  conjunto  de  circunstancias  e  intereses  de  cada  época,  las  tendencias  del
+pensamiento y los sistemas y doctrinas filosóficas y reflexionar sobre ellas, así como conocer a los
+autores y autoras que, con sus obras, han representado a tales corrientes. Así, se insiste en la
+necesidad de aportar al alumnado una contextualización general de cada época y una clarificación
+conceptual que debe valer como referente y guía en su trabajo de análisis, comprensión, síntesis y
+reflexión  de  los  diversos  contenidos  de  la  materia,  así  como  en  su  puesta  en  práctica  y  la
+imprescindible aplicabilidad a la actualidad más inmediata.
+La  materia  ofrece  también  una  labor  reconstructiva,  en  la  medida  en  que  permite  valorar
+adecuadamente  la  importancia  de  las cuestiones  y centros  de  interés  de  los  distintos  sistemas
+filosóficos,  sus  preguntas,  sus  respuestas,  sus  claves  para  la  comprensión  del  presente,  de  la
+realidad, propiciando la integración de las nuevas habilidades y saberes para afrontar los problemas
+y tareas de la vida cotidiana. Se propone dotar al alumnado de una visión de conjunto a partir del
+análisis  pormenorizado  de  cada  una  de  las  aportaciones  hechas  por  los  diferentes  sistemas
+filosóficos contextualizados históricamente, lejos de planteamientos inconexos se trata de relacionar
+las múltiples respuestas a esas grandes preguntas que desde el origen del pensamiento racional
+apremian a hombres y mujeres. El eje vertebrador, por tanto, lo hallamos en las cuestiones más
+radicales que conforman las diferentes ramas filosóficas: ontología, epistemología, ética, política, y
+antropología principalmente. La historia de la filosofía busca satisfacer el ansia natural de las
+mentes jóvenes por comprender el mundo que les rodea ejercita la duda, plantea los problemas
+desde perspectivas diversas, acostumbrando al alumnado a explicar la realidad con argumentos
+racionales.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+1
+
+=== Página 2 ===
+
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+La materia dota al alumnado de herramientas cognitivas para comprender y relacionar las doctrinas
+y textos filosóficos de autores y autoras, descubriendo la importancia del diálogo racional acerca de
+las grandes cuestiones del ser humano (h), mediante el uso de las tecnologías digitales y otros
+recursos (g), desarrollando la capacidad de diálogo, reflexión y razonamiento crítico, consolidando
+una  madurez  personal,  afectivo-sexual  y  social  que  le  permita  actuar  de  forma  respetuosa,
+responsable y autónoma (b), analizando críticamente las desigualdades existentes, y reconociendo el
+papel de las mujeres en la historia, impulsando la no discriminación por razón de nacimiento, sexo,
+origen, edad, enfermedad, religión o creencias, orientación sexual o identidad de género (c).
+La materia invita al alumnado a valorar la importancia de la reflexión filosófica acerca de los
+problemas  científicos,  estéticos,  éticos  y  políticos  en  su  contexto  histórico,  analizando  los
+preconceptos,  prejuicios  y  posiciones  ideológicas  contrarias  a  la  igualdad  de  oportunidades,
+diferencia de género y diversidad cultural. Además, se pretende que comprenda las soluciones
+planteadas y evite los atentados contra el patrimonio artístico, cultural y natural del mundo (b) y (c).
+Es importante inculcar el respeto por la Declaración Universal de los Derechos Humanos, los
+Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible
+2030, y la vida democrática, y que gestione sus capacidades éticas, políticas, estéticas y filosóficas
+(a), perfeccionando su trabajo individual y en equipo, apreciando las posiciones contrapuestas y
+realizando aprendizajes reflexivos para la transformación tanto individual como social (d).
+Se promueve en el alumnado el espíritu emprendedor y el sentido crítico, ofreciendo espacios para
+experimentar, afrontar y resolver pacíficamente los problemas de la vida, mejorando el manejo de la
+frustración (k), fomentando el autoconocimiento, la gestión de las emociones y el cuidado de su
+propio cuerpo y del medioambiente (j) y (o).
+Se  procura  que  el  alumnado  emplee  el  lenguaje  para  regular  su  conducta  y  comunicación  en
+variedad  de  contextos,  especialmente  en  las  redes  sociales,  que  comprenda  textos  y  mensajes
+complejos de los distintos autores y autoras, que continúe con su aprendizaje expositivo de modo
+oral, escrito, signado o multimodal y elabore sus propios puntos de vista (e).
+Finalmente, la materia desarrolla la creatividad y las habilidades para pensar, razonar y argumentar
+con coherencia y de forma autónoma (l), estimulando en el alumnado un saber interrelacionado y
+una perspectiva interdisciplinar (i) y (j).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme  a  los  descriptores  operativos  establecidos  en  la  progresión  del  Perfil  de  salida  del
+alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de
+las competencias clave para el Bachillerato.
+Historia de la Filosofía contribuye especialmente al desarrollo de las habilidades relacionadas con la
+Competencia en comunicación lingüística (CCL), que supone interactuar de forma oral, escrita,
+signada o multimodal de manera coherente y adecuada en distintos ámbitos y contextos y con
+2
+
+=== Página 3 ===
+
+diferentes  propósitos  comunicativos.  Implica  movilizar,  de  manera  consciente,  el  conjunto  de
+conocimientos, destrezas y actitudes que permiten comprender, interpretar y valorar críticamente
+mensajes orales, escritos, audiovisuales o multimodales, evitando los riesgos de manipulación y
+desinformación, así como comunicarse eficazmente con otras personas de manera cooperativa,
+creativa, ética y respetuosa. Esta competencia constituye la base para el pensamiento propio y para
+la construcción del conocimiento en todos los ámbitos del saber.
+La  materia  contribuye  a  la  Competencia  matemática  y  competencia  en  ciencia,  tecnología  e
+ingeniería (STEM) en la medida en que conlleva a la comprensión del entorno natural y social,
+utilizando  conocimientos  y  metodologías,  la  observación  y  la  experimentación,  con  el  fin  de
+plantear preguntas y extraer conclusiones basadas en pruebas para poder interpretar y transformar el
+mundo natural y el contexto social. En definitiva, demanda actitudes y valores basados en el rigor,
+el respeto a los datos y la veracidad, y el aprecio a la lógica como condición fundamental de la
+comunicación como instrumento para elaborar juicios y argumentar críticamente, permitiendo un
+acercamiento histórico-crítico al conocimiento científico a través de la reflexión y el debate desde
+las aportaciones de diversos autores y autoras, épocas y corrientes del pensamiento.
+Aporta a la Competencia digital (CD) la movilización de conocimientos y habilidades relacionados
+con el uso de los recursos tecnológicos disponibles, con el fin de seleccionar información sobre los
+conceptos fundamentales de la materia en función de su validez y fiabilidad, de manejar motores de
+búsqueda y bases de datos, de identificar los programas y aplicaciones mejor adaptados al tipo de
+creaciones, de ejercitarse en la elaboración de contenidos en diferentes formatos (texto, audio,
+vídeo,  etc.)  para  su  presentación  y  comunicación,  de  interaccionar  socialmente  utilizando
+herramientas web para compartir sus argumentaciones, etc. La materia demanda, en definitiva, una
+actitud activa, crítica y constructiva hacia las tecnologías digitales respetando los principios éticos
+en su uso.
+La materia promueve el desarrollo de la Competencia personal, social y de aprender a aprender
+(CPSAA), especialmente en contextos de trabajo individual y cooperativo, que favorecen tanto el
+conocimiento  de  los  propios  procesos  de  aprendizaje  como  el  desarrollo  de  destrezas  para
+planificar, supervisar y ajustarse a los tiempos y demandas de las tareas. Se ejercitan, además,
+habilidades para evaluar los propios resultados y procesos de aprendizaje.
+Contribuye a la Competencia ciudadana (CC) estimulando el trabajo cooperativo y, por tanto, la
+flexibilidad para expresar y comprender puntos de vista diferentes, apoyarse en aspectos comunes y
+comunicar de manera constructiva en distintos entornos y situaciones.
+La materia concurre, asimismo, a la consolidación de la Competencia emprendedora (CE) al apoyar
+producciones, especialmente proyectos cooperativos de investigación y exposición, que movilizan
+en el alumnado la capacidad para pensar de forma creativa, tomar decisiones, cumplir y comunicar
+objetivos, así como el afianzamiento de habilidades para gestionar el riesgo y la incertidumbre,
+desarrollar la capacidad de liderazgo y delegación, el sentido de la responsabilidad, la adaptación al
+cambio y la resolución de problemas.
+Mediante el conocimiento y valoración de los logros del pensamiento filosófico a lo largo de la
+historia, así como el análisis de las influencias recibidas y su repercusión social, cultural y política,
+además de su vigencia, Historia de la Filosofía promueve la Competencia en conciencia y expresión
+culturales (CCEC). Asimismo, posibilita que el alumnado descubra vínculos con la literatura, el
+cine,  la  música,  etc.,  y  se  comprometa  con  la  defensa  de  valores  culturales  y  democráticos
+provenientes del arte y del discurso estético. La materia, finalmente, aporta actitudes y valores
+3
+
+=== Página 4 ===
+
+relacionados tanto con la libertad de expresión, el respeto, el diálogo intercultural y la superación de
+prejuicios como con el disfrute, la participación y utilización de diversas manifestaciones culturales
+y artísticas para compartir conocimientos, reflexiones y sentimientos.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Historia de la Filosofía se han establecido siete competencias específicas que se
+concretan en un total de ocho criterios de evaluación. Estos criterios de evaluación presentan una
+marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores
+operativos del Perfil de salida a los que contribuye la competencia específica, expresando tanto las
+capacidades y los saberes a adquirir, como el contexto y modo de aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+Con esta competencia específica se pretende instruir al alumnado en el manejo de las herramientas
+necesarias  para  la  búsqueda  de  información  fiable,  pertinente  y  relevante,  tanto  en  entornos
+tradicionales como digitales. Se procura una interpretación y comprensión adecuada de las ideas
+filosóficas a partir de sus fuentes originales, de manera que se ejercite en el uso de la terminología
+específica, sepa aplicarla en distintos contextos y establezca relaciones entre autores y autoras de
+distintas épocas, siendo capaz de elaborar producciones propias que reflejen un entendimiento
+correcto de las doctrinas defendidas por los diferentes pensadores y pensadoras. Finalmente, se
+persigue con todo ello la producción autónoma de juicios personales que puedan ser presentados de
+forma  argumentada  para  su  debate,  tales  como  tesis,  trabajos  cooperativos,  mapas  mentales,
+esquemas, cuadros comparativos u otras producciones.
+Competencia específica 2 (C2)
+4
+
+=== Página 5 ===
+
+Con el desarrollo de esta competencia específica se pretende contribuir a la correcta utilización de
+las herramientas necesarias para el desarrollo del discurso escrito y el diálogo filosófico, que partan
+del  ejercicio  reflexivo  fundado  en  razones,  para  ser  crítico  con  los  dogmas  o  aseveraciones
+puramente emocionales y consciente del uso indebido de afirmaciones o generalizaciones falaces.
+Para ello, se dará prioridad al diálogo como forma viva de filosofía, lugar de encuentro y discusión
+respetuosa  en  los  cauces  de  los  valores  democráticos,  visibilizando  los  aspectos  positivos  y
+enriquecedores de los enfoques múltiples. Se procurará, a su vez, la utilización de los saberes
+originados por los sistemas filosóficos y doctrinas de los pensadores y pensadoras para armar dichos
+discursos y guiar al alumnado en la generación de sus propias ideas, contribuyendo a un aprendizaje
+significativo, útil en la resolución de los problemas vitales y facilitador de nuevas aportaciones que
+puedan servir para solventar problemas sociales.
+Competencia específica 3 (C3)
+Con esta competencia específica se quiere integrar en la propia cultura del alumnado las diferentes
+propuestas filosóficas, inscritas en su contexto histórico. En este sentido, se quiere emprender un
+aprendizaje activo, propio de una ciudadanía informada, que a su vez exija un trabajo orientado
+desde la experiencia actualizada de cuestiones ya tratadas, tanto en el ámbito general como en el
+ámbito canario. A partir del trabajo con documentos en diferentes formatos se trata de estimular la
+investigación de la dimensión histórica de las concepciones filosóficas y el reconocimiento del
+papel, a menudo oculto y marginado, de las mujeres, así como la importancia e influencia de otras
+tradiciones de pensamiento diferentes, analizando críticamente las conceptualizaciones de carácter
+excluyente o discriminatorio que formen o hayan formado parte del discurso filosófico.
+Competencia específica 4 (C4)
+Historia  de  la  Filosofía  contribuye  a  la  competencia  específica  haciendo  posible  el  diálogo
+respetuoso  y  constructivo,  evitando  caer  en  el  dogmatismo  y  el  pensamiento  único,  lo  que
+profundiza y complementa, de manera crítica, los saberes de otros ámbitos de conocimiento como
+pueden ser el científico, el religioso, el político, el derecho, etc., que se hace evidente cuando se
+estudia su dimensión histórica. Los diversos modos de argumentación que corresponden a esta
+disciplina,  en su búsqueda  incondicional  del  conocimiento  verdadero, resultan una experiencia
+extraordinaria para la práctica del pensamiento complejo, el análisis, la síntesis y la comprensión de
+la realidad y de los problemas filosóficos y de relevancia social, desde una perspectiva más amplia,
+respetuosa y diversa, en concordancia con el ejercicio de una ciudadanía democrática.
+Competencia específica 5 (C5)
+La reflexión filosófica contribuye a la competencia específica proponiendo una tarea reflexiva que
+se vertebra sucesivamente a lo largo de los diferentes planteamientos y temáticas filosóficas de las
+distintas épocas. Se pretende con ello favorecer el reconocimiento de dichos planteamientos en los
+diferentes momentos históricos, evidenciando sus relaciones con los aspectos socioculturales de
+cada época, con el fin último de comprender la historia, entender el presente y reflexionar sobre el
+futuro de forma ponderada. El alumnado ha de analizar los problemas filosóficos conectando el
+tratamiento  que  se  hace  de  estos  por  las  distintas  corrientes  y  escuelas  de  pensamiento,
+analizándolos desde una perspectiva crítica y reconociendo su radicalidad y universalidad.
+Competencia específica 6 (C6)
+5
+
+=== Página 6 ===
+
+La materia, como disciplina que aporta ideas a otros ámbitos del conocimiento, contribuye a la
+competencia específica ocupándose no solo del estudio de textos de grandes figuras filosóficas, sino
+a través del examen de otros documentos y acontecimientos de la historia, política, arte, ciencia o
+religión que sean destacables desde el punto de vista filosófico. De este modo se quiere permitir al
+alumnado el descubrimiento del carácter interdisciplinar y transdisciplinar de la materia y el vínculo
+de las doctrinas filosóficas con los diversos movimientos, corrientes, políticas y creaciones con las
+que han compartido momento histórico o cultural, reconociendo su influencia mutua y suponiendo
+dicha actividad un estímulo para fomentar la inquietud por el saber.
+Competencia específica 7 (C7)
+El estudio de la historia de la filosofía contribuye a la competencia específica, proporcionando al
+alumnado conocimientos para la reflexión acerca de los supuestos de los que se parte para el
+ejercicio de una ciudadanía comprometida, reflexiva y constructiva. Se procura de esta manera la
+adopción de una actitud que le ayude a asumir los retos de la actualidad, tanto de forma individual
+como colectiva. Todo ello requiere del conocimiento de ideas, doctrinas y controversias filosóficas
+que se asocian a cuestiones actuales, como la desigualdad, los derechos humanos, el logro de la
+efectiva igualdad entre mujeres y hombres o los problemas ecosociales, dotando así de mejores
+herramientas para solventar los retos del siglo XXI.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los tres bloques, referidos a tres periodos fundamentales de la historia del pensamiento filosófico
+occidental:
+El Bloque I, «Del origen de la filosofía en Grecia hasta el fin de la Antigüedad», comporta doctrinas
+filosóficas que van desde los primeros planteamientos presocráticos hasta la filosofía y la ciencia
+helenística.
+El Bloque II, «De la Edad Media a la Modernidad europea», continúa con el surgimiento de la
+modernidad europea a partir de sus raíces en el pensamiento y la cultura medieval.
+El  Bloque  III,  «De  la  Modernidad  a  la  Postmodernidad»,  presenta  el  clímax  y  la  crisis  del
+pensamiento moderno hasta llegar al heterogéneo panorama filosófico de nuestros días.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+6
+
+=== Página 7 ===
+
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+El modelo y la práctica pedagógica canaria, acorde con el Diseño Universal para el Aprendizaje
+(DUA), se nutre de una premisa crucial: la necesaria integración de la evaluación en el proceso de
+planificación  y  diseño  de  estas  situaciones  de  aprendizaje  para  asegurar  una  evaluación
+competencial  del  alumnado.  Es  necesario,  por  tanto,  que  el  profesorado  utilice  variedad  de
+instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con  soportes  y
+formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y
+piensa,  lo  que  puede  hacer,  etc.,  atendiéndose  así,  de  manera  inclusiva,  a  la  diversidad  del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+La asignatura favorece una metodología activa basada en el aprendizaje significativo, inclusivo y
+cooperativo  entre  iguales.  Esto  implica  que  el  alumnado  ha  de  asumir  un  papel  dinámico  y
+autónomo en su propio proceso de aprendizaje, con plena conciencia y responsabilidad. Con ese fin,
+se recomienda el trabajo en equipos, mixtos y heterogéneos, que no solo permitan atender a la
+diversidad,  sino  que  estimulen  la  ayuda  mutua  y  refuercen  la  motivación  y  autoestima  del
+alumnado. La materia fomenta, por tanto, que el papel docente sea de guía y facilitador.
+Los materiales y recursos didácticos seleccionados y elaborados han de ser variados y adaptados al
+nivel de Bachillerato. Constituyen una gran ayuda para su desarrollo competencial las diferentes
+redes educativas, considerándose fundamental en la impartición la integración de las tecnologías
+digitales y la utilización de recursos virtuales. Se recomienda el empleo de diversos tipos de textos,
+del portfolio para compartir resultados educativos y potenciar la autoevaluación y coevaluación del
+alumnado, de materiales audiovisuales (películas, documentales y otros) para abordar situaciones y
+problemas  actuales  derivados de  la  realidad  tanto  internacional  como  de  la  propia  comunidad
+canaria.
+Las situaciones de aprendizaje serán planteadas en contextos cercanos a la realidad y que sirvan
+para utilizar y transferir los saberes. Algunas tareas pueden organizarse desde centros de interés
+vinculados a los criterios de evaluación, al estudio de casos reales o simulados o a la búsqueda de
+soluciones a situaciones problemáticas que el alumnado debe resolver haciendo un uso adecuado de
+los distintos saberes. Para ello, se tendrá en cuenta la pluralidad de modelos de enseñanza, como
+podrían  ser  el  aprendizaje  por  proyectos,  el  aprendizaje  servicio,  la  investigación  grupal,  la
+enseñanza directiva, el juego de roles, el modelo jurisprudencial, los organizadores previos, el
+modelo sinéctico, etc. Teniendo previsto, además, un conjunto variado de recursos, presentes en
+materiales tradicionales o más innovadores, como las nuevas aplicaciones digitales.
+7
+
+=== Página 8 ===
+
+2.º Bachillerato
+Bloques competenciales
+Competencia específica
+1. Buscar, analizar, interpretar, producir y transmitir informaci ón relativa a hechos hist órico-
+filosóficos, a partir del  uso cr ítico y seguro de fuentes y el dominio de técnicas  b ásicas de
+investigación, para generar conocimientos y producciones propias acerca de la historia de los
+problemas e ideas filosóficos.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CCL3, CD1, CD3,
+CPSAA5, CC3, CE3
+Criterios de evaluación
+1.1. Generar un conocimiento de fuentes y documentos filosóficamente relevantes, aplicando técnicas
+de  búsqueda,  organización,  análisis,  comparación  e  interpretación  de  estos,  y  relacionándolos
+correctamente con contextos históricos, problemas, tesis, autores y autoras, así como con elementos
+pertenecientes a otros ámbitos culturales.
+CCL1, CCL2, CCL3, CD1, CD3, CPSAA5
+1.2. Elaborar y presentar distintas producciones tanto de manera individual como cooperativa, con la
+finalidad  de  emitir  juicios  propios  acerca  de  problemas  planteados  en  la  historia  de  la  filosofía,
+haciendo uso preciso de herramientas de investigación.
+CCL1, CCL3, CD1, CD3, CPSAA5, CC3,
+CE3
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado es capaz de construir sus propios juicios de forma contrastada y autónoma para
+dirimir acerca de la fiabilidad de las fuentes, tanto de entornos tradicionales como digitales, y, de esta forma, elaborar con rigor producciones propias
+acerca de la  historia de los problemas e  ideas  filosóficas. Para  ello, se comprobará que selecciona,  analiza, interpreta, produce y transmite
+8
+
+=== Página 9 ===
+
+información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación,
+elaborando y presentando documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos, tanto de forma
+individual como grupal y cooperativa, que sirvan para la innovación de ideas y la resolución creativa de los problemas tanto filosóficos como
+cotidianos.
+Competencia específica
+2. Reconocer las normas y pautas de la argumentaci ón y el di álogo filos óficos, mediante la
+identificación y an álisis de las mismas en distintos soportes y a través de diversas actividades,
+para aplicarlas con rigor en la construcci ón y exposici ón de argumentos y en el ejercicio del
+diálogo con los demás.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL5, STEM1, CD3, CPSAA4,
+CC1, CC2, CC3, CCEC1, CCEC2,
+CCEC3.2
+Criterios de evaluación
+2.1. Desarrollar el uso de los argumentos, reconociendo y aplicando normas, técnicas y pautas lógicas,
+retóricas y argumentativas, y detectando y evitando modos dogmáticos, falaces y sesgados de sostener
+opiniones  e  hipótesis,  manteniendo  el  hábito  del  diálogo  argumentativo,  empático,  abierto  y
+constructivamente comprometido con la búsqueda del conocimiento a través de la participación activa,
+respetuosa y colaborativa.
+CCL1, CCL5, STEM1, CD3, CPSAA4,
+CC1, CC2, CC3, CCEC1, CCEC2,
+CCEC3.2
+Explicación del bloque competencial
+A través de este bloque competencial se persigue constatar que el alumnado conoce y emplea las normas y pautas de la argumentación lógica,
+incluyendo razonamientos de tipo inductivo y deductivo, en el diálogo filosófico, que pueda darse en distintos soportes y a través de diversas
+actividades, para aplicarlas con rigor en la construcción y exposición de argumentos de forma creativa, autónoma, personal y en el ejercicio con las
+9
+
+=== Página 10 ===
+
+demás personas, promoviendo el diálogo empático, la cooperación y el compromiso con la búsqueda del conocimiento, la libre expresión de ideas y
+el respeto a la pluralidad de tesis u opiniones, con una actitud crítica y relacional en torno a ideas de autores y autoras en distintas épocas,
+entendiendo que la disensión y la controversia ayudan a la comprensión de los problemas filosóficos. Para ello, se comprobará que desarrolla
+argumentos, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas y detectando y evitando modos dogmáticos,
+falaces y sesgados de sostener opiniones e hipótesis, manteniendo el hábito del diálogo argumentativo, empático, abierto y constructivamente
+comprometido con la búsqueda del conocimiento a través de la participación activa, respetuosa y colaborativa.
+Competencia específica
+3. Comprender y expresar diferentes concepciones filos óficas históricamente dadas, mediante el
+acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento
+de  un  acervo  que  constituye  parte  esencial  del  patrimonio  cultural  común  y  del  bagaje
+intelectual de una ciudadanía ilustrada
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+3.1 Adquirir y expresar un conocimiento de las propuestas filosóficas más importantes a lo largo de la
+historia a través de la indagación, identificando las cuestiones a las que responden, comprendiendo y
+debatiendo sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del
+pensamiento y del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la
+filosofía.
+CCL1, CCL2, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+10
+
+=== Página 11 ===
+
+Mediante este bloque competencial se comprobará que el alumnado comprende y expresa las diferentes propuestas filosóficas históricamente dadas
+mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte
+esencial del patrimonio cultural y del bagaje intelectual de una ciudadanía ilustrada, a través del contacto directo con documentos y el trabajo a partir
+de estos, debatiendo sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento. Todo esto desde una
+perspectiva ajena a prejuicios etnocéntricos y sexistas, reconociendo el papel de las mujeres y analizando críticamente las concepciones de carácter
+excluyente o discriminatorio que formen o hayan formado parte del discurso filosófico.
+Competencia específica
+4.  Reconocer  la  naturaleza  esencialmente  plural  y  diversa  de  las  concepciones  filos óficas
+históricamente  dadas,  mediante  su  puesta  en  relaci ón  dialéctica,  de  confrontaci ón  y
+complementariedad,  para  generar  una  concepci ón  compleja  y  din ámica  de  la  historia  del
+pensamiento, y promover una actitud tolerante y comprometida con la resoluci ón racional y
+dialogada de los conflictos.
+Descriptores operativos de las
+competencias clave
+CCL2, CC1, CC2, CC3
+Criterios de evaluación
+4.1.  Generar  una  concepción  plural,  compleja,  dialéctica,  abierta  y  crítica  de  la  historia  del
+pensamiento  a  través  de  la  comprensión  y  expresión  de  las  relaciones  de  oposición  y
+complementariedad entre tesis, escuelas, filósofos y filósofas de las mismas o distintas épocas y
+tradiciones.
+CCL2, CC1, CC2, CC3
+Explicación del bloque competencial
+11
+
+=== Página 12 ===
+
+A través de este bloque competencial se verificará que el alumnado reconoce la naturaleza esencialmente plural y diversa de tesis, escuelas, filósofos
+y filósofas de las mismas o distintas épocas y tradiciones a partir de la interpretación y valoración crítica de textos orales, escritos y multimodales,
+tanto del ámbito académico como de los medios de comunicación, llevando a cabo una relación dialéctica, de confrontación y complementariedad
+para generar una concepción compleja y dinámica de la historia del pensamiento, constatando que es capaz de participar en debates respetuosos y
+constructivos acerca de la argumentación y exposición de las diferentes doctrinas, practicando el pensamiento complejo, el análisis, la síntesis, la
+comprensión de la realidad y de los problemas filosóficos de relevancia social desde una perspectiva profunda, plural y crítica con todo dogmatismo,
+en consonancia con lo que debe ser el ejercicio de una ciudadanía democrática, rechazando todo tipo de discriminación y violencia y promoviendo la
+igualdad efectiva entre mujeres y hombres.
+Competencia específica
+5. Reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y
+concepciones filosóficas, los mismos problemas filos óficos, mediante el an álisis e interpretaci ón
+de textos y otros  modos de expresi ón filos ófica  o m ás ampliamente  cultural  hist óricamente
+dados, para afrontar tales problemas a partir de la reflexi ón crítica sobre el conocimiento de lo
+aportado por la tradición.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+5.1. Afrontar los grandes problemas filosóficos en su dimensión temporal y espacial, comprendiendo
+su doble aspecto histórico y universal, a través del análisis y exposición crítica de las condiciones
+culturales  que  han  permitido  su  aparición  y  evolución  en  distintos  momentos  de  la  historia,
+comparándolos mediante esquemas u otros documentos o actividades, y discerniendo el tratamiento
+filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones, autores y autoras.
+CCL1, CCL2, CC1, CC2, CC3, CCEC1
+12
+
+=== Página 13 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado efectúa un análisis pormenorizado y relacional de los diversos problemas
+filosóficos dados a lo largo de la historia, esclareciendo las condiciones socioculturales de su aparición en cada momento y conectando el tratamiento
+que se hace de los mismos en distintas corrientes y escuelas de pensamiento, con la finalidad de que entienda la radicalidad y universalidad en que se
+expresan, promoviendo un conocimiento profundo y crítico de la filosofía y de la cultura en la que esta se inserta y desarrolla, mediante el análisis e
+interpretación de textos filosóficos o más ampliamente culturales, desde la Antigüedad hasta la postmodernidad, comparándolos mediante esquemas
+u otros documentos o actividades, y discerniendo el tratamiento filosófico que se hace de ellos en distintos contextos, épocas, escuelas, tradiciones,
+autores y autoras, con la finalidad de afrontar retos con sentido crítico y ético que supongan nuevas soluciones para los problemas del entorno, tanto
+en los ámbitos locales como globales.
+Competencia específica
+6. Reconocer las formas diversas en que los interrogantes filos óficos y sus intentos de respuesta
+se  han  presentado  hist óricamente  en  otros  ámbitos  de  la  cultura,  mediante  el  an álisis
+interpretativo de textos y otras manifestaciones pertenecientes a esos ámbitos, para promover
+una concepci ón sistem ática, relacional y compleja de la historia de la cultura occidental y del
+papel de las ideas filosóficas en ella.
+Descriptores operativos de las
+competencias clave
+CCL2, CC1, CC2, CC3, CE1, CCEC1
+Criterios de evaluación
+6.1. Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel
+de las ideas filosóficas en ella mediante el análisis y el comentario comparativo de textos literarios,
+historiográficos, periodísticos, científicos o religiosos, así como de manifestaciones culturales de todo
+CCL2, CC1, CC2, CC3, CE1, CCEC1
+13
+
+=== Página 14 ===
+
+tipo, en los que se expresen problemas y concepciones relevantes de la historia de la filosofía.
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de adquirir una concepción sistémica y relacional de la historia de la
+cultura occidental y del papel de las doctrinas e ideas filosóficas en ella. Para ello, se constatará que analiza comprende, interpreta, valora con actitud
+crítica y comenta comparativamente textos orales, escritos y multimodales de carácter literario, historiográfico, periodístico, científico y religioso,
+así como manifestaciones culturales en las que se expresan problemas y concepciones relevantes de la historia de la filosofía, reconociendo que los
+interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, con la finalidad de construir
+conocimiento, participar en diferentes contextos de forma activa e informada y conseguir mayor madurez personal y social, y adquirir una conciencia
+ciudadana y responsable, desarrollando la autonomía y el espíritu crítico y estableciendo una interacción pacífica y respetuosa con las demás
+personas y con el entorno.
+Competencia específica
+7.  Analizar  desde  un  punto  de  vista  filos ófico  problemas  fundamentales  y  de  actualidad,
+mediante  la exposici ón cr ítica  de  distintas  posiciones hist órico-filosóficas  con respecto  a  los
+mismos,  para  desarrollar  la  autonomía  de  juicio  y  promover  actitudes  y  acciones  c ívica  y
+éticamente consecuentes
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CPSAA4, CC1, CC2, CC3,
+CC4, CE1, CCEC1
+Criterios de evaluación
+7.1. Analizar los problemas fundamentales de la actualidad a través de diversos productos de carácter
+crítico  y  personal,  fundamentados  en  ideas,  doctrinas  y  controversias  dadas  en  la  historia  de  la
+filosofía, que le permita clarificar tales problemas, desarrollando un juicio autónomo y una actitud
+CCL1, CCL2, CPSAA4, CC1, CC2, CC3,
+CC4, CE1, CCEC1
+14
+
+=== Página 15 ===
+
+ética y emocional propia de una ciudadanía responsable.
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado compara, analiza, evalúa y sintetiza datos, información e ideas de los grandes
+sistemas del pensamiento filosófico, desarrollando la autonomía de juicio y promoviendo planteamientos, actitudes y acciones éticas y cívicamente
+consecuentes, demostrando sensibilidad hacia las emociones y experiencias vitales de las demás personas, y mostrando su compromiso para la
+resolución de los problemas fundamentales de la actualidad, el logro de los Objetivos de Desarrollo Sostenible, la Agenda Canaria 2030, el proceso
+de integración europeo, los derechos humanos y la historia y el patrimonio cultural propios mediante la comprensión, expresión, participación en
+actividades grupales y exposición crítica de las distintas doctrinas y posiciones histórico-filosóficas.
+15
+
+=== Página 16 ===
+
+Saberes básicos
+I. Del origen de la Filosofía en Grecia hasta el fin de la Antigüedad
+1. Identificación  de los distintos métodos filosóficos y reconocimiento  de la historicidad y
+universalidad de los problemas y concepciones filosóficas.
+2. Comprobación del surgimiento de la filosofía occidental en Grecia. 
+2.1. Reconocimiento  de  la  cosmovisión  mítica  y  clasificación  de  las  primeras  teorías
+filosóficas.
+2.2. Identificación y análisis sobre el problema de la realidad en los presocráticos.
+2.3. Comparación y elaboración de disertaciones sobre las aportaciones de Sócrates y los
+sofistas, y la conexión entre filosofía y ciudadanía en la Ilustración griega.
+2.4. Elaboración de presentaciones e indagación sobre la importancia de Aspasia de Mileto y
+relación con el papel de la mujer en la cultura y la filosofía griega.
+3. Reconocimiento de los conceptos de idea y naturaleza, y de conocimiento y realidad en
+Platón y Aristóteles. 
+3.1. Identificación de la noción de justicia como objeto de la filosofía de Platón. 
+3.1.1. Comprensión y reflexión crítica acerca de la discusión ética del intelectualismo
+moral socrático-platónico.
+3.1.2. Identificación y análisis de la teoría de las virtudes en Platón.
+3.1.3. Valoración del proyecto político de Platón y diálogo argumentativo y comparativo
+con la política actual.
+3.2. Reconocimiento del estudio de la naturaleza en Aristóteles. 
+3.2.1. Identificación y comentarios críticos sobre la metafísica y la física aristotélica.
+3.2.2. Comparación y valoración de la ética y la política de Aristóteles.
+4. Reconocimiento del paso de las polis griegas al imperio de Alejandro Magno. 
+4.1. Indagación de las relaciones entre filosofía, ciencia y cultura en el helenismo.
+4.2. Identificación y clasificación de las escuelas filosóficas.
+4.3. Investigación y presentaciones sobre el Museo de Alejandría y la figura de Hipatia de
+Alejandría.
+II. De la Edad Media a la Modernidad Europea
+1. Identificación de las etapas, métodos y cuestiones fundamentales en la filosofía medieval. 
+1.1. Comparación y clasificación de los aspectos principales de las teorías de Agustín de
+Hipona, Tomás de Aquino y Guillermo de Ockham.
+1.2. Reconocimiento de la personalidad polifacética de Hildegard von Bingen.
+16
+
+=== Página 17 ===
+
+1.3. Descripción de la filosofía árabe y judía.
+1.4. Valoración de la asimilación de la filosofía griega por la teología medieval.
+1.5. Análisis crítico del problema de la relación entre fe y razón.
+2. Reconocimiento del nacimiento de la modernidad europea. 
+2.1. Valoración de las aportaciones de la revolución científica en el Renacimiento.
+2.2. Diálogo crítico sobre el protestantismo.
+2.3. Identificación y valoración del debate metafísico moderno, y clasificación y contraste
+de los principios del racionalismo y empirismo.
+3. Clarificación y debate acerca del origen y fundamento de la sociedad y el poder. 
+3.1. Análisis comparativo del pensamiento político medieval y la teoría del contrato social
+según Thomas Hobbes, John Locke y Jean-Jacques Rousseau.
+III. De la Modernidad a la Postmodernidad
+1. Reflexión sobre el proyecto ilustrado y valoración sobre la potencia y los límites de la razón. 
+1.1. Reconocimiento de los Derechos del Hombre.
+1.2. Identificación y valoración de la primera ola feminista: Mary Wollstonecraft y Olympe
+de Gouges.
+1.3. Análisis y comentarios acerca de la filosofía crítica de Immanuel Kant y el problema de
+la metafísica como saber.
+1.4. Comparación y ejemplificación de las éticas de la felicidad y éticas del deber.
+1.5. Valoración crítica y actual de la ética kantiana frente al utilitarismo.
+1.6. Búsqueda de información y presentaciones sobre la Ilustración en Canarias.
+2. Identificación de la crítica del capitalismo. 
+2.1. Análisis y contraste del pensamiento revolucionario de Karl Marx a Rosa Luxemburgo.
+2.2. Reconocimiento de la dialéctica de la Ilustración en la Escuela de Fráncfort.
+2.3. Identificación del análisis del totalitarismo en Hannah Arendt.
+3. Conocimiento del desarrollo de la deconstrucción en la tradición occidental. 
+3.1. Análisis y comentario crítico sobre Friedrich Nietzsche y la herencia posmoderna.
+3.2. Reconocimiento y diálogo argumentativo sobre los problemas filosóficos a la luz del
+análisis del lenguaje en torno a Ludwig Wittgenstein y la filosofía analítica.
+3.3. Identificación y presentación sobre el existencialismo de Martin Heidegger y Jean Paul
+Sartre.
+17
+
+=== Página 18 ===
+
+3.4. Reconocimiento y valoración sobre la razón vital y la razón poética en José Ortega y
+Gasset y María Zambrano.
+3.5. Análisis y valoración crítica sobre el desarrollo contemporáneo del feminismo y la
+importancia de Simone de Beauvoir.
+18

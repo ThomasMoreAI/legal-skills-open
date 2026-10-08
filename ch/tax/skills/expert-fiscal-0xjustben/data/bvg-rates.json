@@ -1,0 +1,19 @@
+{
+  "_disclaimer": "Illustrative — verify against current LPP/BVG ordinance (Art. 16 LPP) before production use",
+  "_source": "https://www.admin.ch/opc/fr/classified-compilation/19820152/index.html (LPP Art. 16)",
+  "_year": 2026,
+  "currency": "CHF",
+  "bands": [
+    {"age_from": 25, "age_to": 34, "credit_pct_of_coordinated_salary": 7.0},
+    {"age_from": 35, "age_to": 44, "credit_pct_of_coordinated_salary": 10.0},
+    {"age_from": 45, "age_to": 54, "credit_pct_of_coordinated_salary": 15.0},
+    {"age_from": 55, "age_to": 65, "credit_pct_of_coordinated_salary": 18.0}
+  ],
+  "coordination": {
+    "entry_threshold_chf": 22680,
+    "coordination_deduction_chf": 26460,
+    "max_insured_salary_chf": 90720,
+    "min_coordinated_salary_chf": 3780
+  },
+  "notes": "Bonifications de vieillesse minimales. Employer must contribute at least 50%. Plans may exceed legal minima."
+}

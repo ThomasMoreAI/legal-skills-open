@@ -1,0 +1,32 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/pregunta.schema.yaml"
+title: Pregunta de investigación
+additionalProperties: false
+
+# La descripción de la duda vive en el cuerpo Markdown de la ficha, no en el
+# frontmatter, así que no se exige aquí. `fecha_resolucion` acompaña a los
+# estados Resuelta y Cerrada.
+
+type: object
+required: [id, titulo, estado, fecha_registro, relacionadas]
+properties:
+  id:
+    type: string
+    pattern: '^PREG-[0-9]{3}$'
+  titulo:
+    type: string
+  estado:
+    type: string
+    enum: [Abierta, En revisión, Resuelta, Cerrada]
+  fecha_registro:
+    type: string
+    format: date
+  fecha_resolucion:
+    type: [string, 'null']
+    format: date
+  relacionadas:
+    type: array
+    items:
+      type: string
+  descripcion:
+    type: string

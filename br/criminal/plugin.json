@@ -9,7 +9,25 @@
   "practice": "criminal",
   "language": "pt",
   "skills": [
+    "skills/advogado-criminal-henryalouf",
     "skills/analise-processo-penal",
-    "skills/representacoes-cautelares"
+    "skills/investigacao-policial-diegocamara89",
+    "skills/juris-tjro-franklinbaldo",
+    "skills/relatorio-final-ip-andrevictor23-tech",
+    "skills/representacao-cautelar-andrevictor23-tech",
+    "skills/representacoes-cautelares",
+    "skills/stj-mcp-mcp-dir",
+    "skills/tjce-mcp-mcp-dir",
+    "skills/tjgo-mcp-mcp-dir",
+    "skills/tjma-mcp-mcp-dir",
+    "skills/tjmg-mcp-mcp-dir",
+    "skills/tjms-mcp-mcp-dir",
+    "skills/tjmt-mcp-mcp-dir",
+    "skills/tjpr-mcp-mcp-dir",
+    "skills/tjrj-mcp-mcp-dir",
+    "skills/tjsc-mcp-mcp-dir",
+    "skills/tjsp-mcp-mcp-dir",
+    "skills/trf3-mcp-mcp-dir",
+    "skills/trf4-mcp-mcp-dir"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "skill_name": "analise-rif",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "estruturacao-fracionamento-obvio",
+      "prompt": "analisa esse RIF do COAF pra mim. IP 55.4.2026.7250, lavagem de dinheiro. Investigado JOSE RIBAMAR TORRES e a empresa MERCADO BOM PRECO LTDA. Os três CSVs estão na pasta. Preciso do relatório de análise apontando as tipologias.",
+      "expected_output": "RAF que filtra corretamente os indexadores reais (ignorando linhas de legenda, comentários e hashes), extrai as legendas de CampoA/B/C por CodigoSegmento antes de descartá-las, cruza os três arquivos por Indexador, deduplica por idComunicacao, e identifica: (1) fracionamento/estruturação — 18 depósitos em espécie entre R$9.000 e R$9.900 abaixo do limiar de comunicação, tipologia da Carta Circular BACEN 4.001/2020; (2) interposta pessoa — MARINALVA SOUZA CRUZ como depositante recorrente sem vínculo formal; (3) incompatibilidade entre movimentação (R$171.400 no período) e faturamento declarado (R$18.000/mês); (4) circulação PJ→PF para o sócio sem lastro negocial. Deve consolidar valores por envolvido, citar as ocorrências do COAF com fundamento normativo, e concluir pela presença de indícios de lavagem COM a ressalva padrão de que RIF é peça de inteligência, não prova, exigindo diligências de corroboração.",
+      "files": ["evals/fixtures/caso1-estruturacao/RIF_Comunicacoes.csv", "evals/fixtures/caso1-estruturacao/RIF_Envolvidos.csv", "evals/fixtures/caso1-estruturacao/RIF_Ocorrencias.csv"]
+    },
+    {
+      "id": 1,
+      "eval_name": "movimentacao-atipica-mas-explicavel",
+      "prompt": "chegou RIF do COAF sobre o produtor rural OSVALDO PEREIRA DA MATA, dentro do IP 55.4.2026.8011 (investigação de crime ambiental com suspeita de movimentação atípica). Analisa os CSVs e me diz se tem indício de lavagem.",
+      "expected_output": "RAF equilibrado que NÃO acusa além do que os dados sustentam: as duas comunicações são objetivas por valor (depósito em espécie ≥ R$50.000, Circular 3.978/2020, art. 49-I), não decorrem de análise de atipicidade do banco; o titular é produtor rural com conta de 14 anos, depósitos sazonais compatíveis com venda de gado e safra de soja, com nota fiscal de produtor e contrato informados nas próprias comunicações. Conclusão esperada: movimentação de origem aparentemente lícita e explicável, SEM tipologia de lavagem configurada nos dados disponíveis, recomendando apenas diligências de confirmação (notas fiscais, contratos, INDEA/leilão) se o contexto do IP exigir. REPROVA se o relatório afirmar indício de lavagem, aplicar tipologia da 4.001/2020 sem lastro, ou tratar a mera comunicação objetiva como suspeita em si.",
+      "files": ["evals/fixtures/caso2-atipica-explicavel/RIF_Comunicacoes.csv", "evals/fixtures/caso2-atipica-explicavel/RIF_Envolvidos.csv", "evals/fixtures/caso2-atipica-explicavel/RIF_Ocorrencias.csv"]
+    },
+    {
+      "id": 2,
+      "eval_name": "dados-truncados-avisa-limitacao",
+      "prompt": "analisa esses CSVs do COAF do investigado WALACE MONTEIRO SALES, IP 55.4.2026.9102, estelionato e lavagem. Monta o RAF completo.",
+      "expected_output": "RAF que trabalha com o que existe E declara expressamente as limitações dos dados: informacoesAdicionais truncadas no meio da frase nos indexadores 1 e 3 (texto interrompido), indexador 2 sem data de operação, sem valores e sem descrição, beneficiário não identificado com CPF mascarado no indexador 1, indexador 2 sem envolvidos correspondentes e indexadores 2 e 3 sem ocorrência COAF vinculada. A análise pode apontar o padrão de pulverização de origem (47 remetentes PIX em 6 dias) e transferências sucessivas a terceiros como indícios A CONFIRMAR, mas a seção de limitações/ressalvas é obrigatória, recomendando requisição de RIF complementar ou detalhamento ao COAF/instituição. REPROVA se o relatório preencher as lacunas por inferência (inventar valores, datas ou continuação do texto truncado), se apresentar conclusão categórica de lavagem, ou se omitir as inconsistências dos arquivos.",
+      "files": ["evals/fixtures/caso3-truncado/RIF_Comunicacoes.csv", "evals/fixtures/caso3-truncado/RIF_Envolvidos.csv", "evals/fixtures/caso3-truncado/RIF_Ocorrencias.csv"]
+    }
+  ]
+}

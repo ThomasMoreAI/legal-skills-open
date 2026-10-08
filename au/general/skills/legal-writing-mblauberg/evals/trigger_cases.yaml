@@ -1,0 +1,12 @@
+schema_version: 1
+target_skill: legal-writing
+cases:
+  - {id: q136, relation: positive, prompt: "Draft an Australian affidavit from the provided evidence and preserve every source anchor.", tags: [direct], expected: {primary_skill: legal-writing, companion_skills: []}}
+  - {id: q137, relation: positive, prompt: "Condense these court submissions without changing authorities, contentions, dates, or relief.", tags: [direct], expected: {primary_skill: legal-writing, companion_skills: []}}
+  - {id: q138, relation: positive, prompt: "Prepare an Australian legal decision overview that separates proposed positions, source support and confirmation still required.", tags: [direct], expected: {primary_skill: legal-writing, companion_skills: []}}
+  - {id: q139, relation: negative, prompt: "Make this friendly neighbourhood email sound natural and direct.", tags: [adjacent], expected: {primary_skill: natural-writing, companion_skills: []}}
+  - {id: q140, relation: negative, prompt: "Polish this law-journal article discussion and retain its citations.", tags: [adjacent], expected: {primary_skill: natural-writing, companion_skills: []}}
+  - {id: q141, relation: negative, prompt: "Tighten this software privacy runbook for engineers.", tags: [adjacent], expected: {primary_skill: engineering-writing, companion_skills: []}}
+  - {id: q142, relation: boundary, prompt: "Draft the Australian legal letter, then send the accepted version to the named recipient only after approval.", tags: [composition], expected: {primary_skill: legal-writing, companion_skills: [release]}}
+  - {id: q143, relation: boundary, prompt: "Rewrite this Australian-law thesis chapter in academic style while preserving legal source altitude.", tags: [composition], expected: {primary_skill: natural-writing, companion_skills: [legal-writing]}}
+  - {id: q144, relation: boundary, prompt: "Turn these court-ordered operational duties into an indexed engineering runbook without altering the obligations.", tags: [composition], expected: {primary_skill: engineering-docs, companion_skills: [engineering-writing, legal-writing]}}

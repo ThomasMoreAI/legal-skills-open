@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2023-07-18/659">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/!art_2"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2023/07/18/659/con"/>
+          <FRBRdate date="2023-07-18" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="659"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/!art_2"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@"/>
+          <FRBRdate date="2023-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.</num>
+        <heading>Finalidades del Sistema de Formación Profesional.</heading>
+        <paragraph eId="art_2__para_1">
+          <content><p>Son finalidades del Sistema de Formación Profesional:</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>a)</num>
+          <content><p>La apertura de la Formación Profesional a toda la población, incluyendo la preparación para el primer acceso al mundo laboral, la formación profesional continua y la readaptación profesional, con la orientación profesional y acompañamiento que cada persona precise.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_3">
+          <num>b)</num>
+          <content><p>La aportación, mediante ofertas formativas ordenadas, acumulables y acreditables, los conocimientos y las habilidades profesionales necesarios para una actividad profesional cualificada en un mundo laboral cambiante.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_4">
+          <num>c)</num>
+          <content><p>Garantizar la formación profesional de personas trabajadoras, incluida la dirigida a la adaptación a las modificaciones operadas en el puesto de trabajo, así como al desarrollo de planes y acciones formativas tendentes a favorecer la empleabilidad, de acuerdo con el artículo 4.2.b) del Estatuto de los Trabajadores.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_5">
+          <num>d)</num>
+          <content><p>La adquisición, mantenimiento, adaptación o ampliación de las habilidades y competencias profesionales y el progreso en la carrera profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_6">
+          <num>e)</num>
+          <content><p>La reconversión profesional y la reconducción del itinerario profesional a un sector de actividad distinto de aquellas personas trabajadoras que necesiten o deseen dirigirse hacia otro sector profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_7">
+          <num>f)</num>
+          <content><p>El reconocimiento y acreditación de las competencias profesionales adquiridas por experiencia laboral u otras vías no formales o informales.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_8">
+          <num>g)</num>
+          <content><p>La promoción de la cooperación y gestión coordinada de las distintas administraciones públicas responsables de las políticas formativas de jóvenes y de personas trabajadoras, ocupadas o desempleadas, y la colaboración de la iniciativa privada.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

@@ -1,0 +1,55 @@
+id: CUR-016
+titulo: "Latín — ESO Canarias"
+etapa: "eso"
+materia: "Latín"
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Valorar el papel de la civilización latina en el origen de la identidad europea, comparando y reconociendo las semejanzas y diferencias entre lenguas y culturas, para analizar críticamente el presente."
+      descriptores:
+        "4.º ESO": [CCL2, CCL3, CP2, CP3, CD1, CC1, CCEC1]
+    - codigo: "C2"
+      enunciado_oficial: "Conocer los aspectos básicos de la lengua latina, comparándola con la lengua de enseñanza y con otras lenguas del repertorio individual del alumnado, para valorar los rasgos comunes y apreciar la diversidad lingüística como muestra de riqueza cultural."
+      descriptores:
+        "4.º ESO": [CCL3, CP2, CP3, STEM1, CD1, CC1, CE3]
+    - codigo: "C3"
+      enunciado_oficial: "Leer e interpretar textos latinos, asumiendo la aproximación a los textos como un proceso dinámico y tomando conciencia de los conocimientos y experiencias propias, para identificar su carácter clásico y fundamental."
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CP1, CP2, STEM1, CPSAA4, CCEC1]
+    - codigo: "C4"
+      enunciado_oficial: "Comprender textos originales latinos, traduciendo del latín a la lengua de enseñanza y desarrollando estrategias de acceso al significado de un enunciado sencillo en lengua latina, para alcanzar y justificar la traducción propia de un pasaje."
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CP2, CP3, STEM1, CPSAA4, CPSAA5]
+    - codigo: "C5"
+      enunciado_oficial: "Descubrir, conocer y valorar el patrimonio cultural, arqueológico y artístico romano, apreciándolo y reconociéndolo como producto de la creación humana y como testimonio de la historia, para identificar las fuentes de inspiración y distinguir los procesos de construcción, preservación, conservación y restauración, así como para garantizar su sostenibilidad."
+      descriptores:
+        "4.º ESO": [CCL1, CCL3, CCL4, CP3, CD1, CD2, CD3, CPSAA3, CC1, CC4, CCEC1, CCEC2]
+  saberes_basicos:
+    - id: lengua-latina
+      nombre: "La lengua latina"
+      descripcion: "Escritura, pronunciación y sistema de flexión."
+    - id: textos
+      nombre: "Los textos"
+      descripcion: "Técnicas de traducción e interpretación."
+    - id: cultura-civilizacion
+      nombre: "Roma: cultura y civilización"
+      descripcion: "Geografía, sociedad y vida cotidiana."
+    - id: pervivencia
+      nombre: "Pervivencia de la cultura romana"
+      descripcion: "Legado en el arte, la literatura y el patrimonio canario."
+  criterios_evaluacion:
+    - id: 1.1
+      texto: "Traducir textos latinos muy sencillos utilizando el diccionario y los conocimientos gramaticales básicos."
+    - id: 4.1
+      texto: "Identificar étimos latinos y explicar su evolución hacia el español y el habla de Canarias."
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Materia de opción en 4.º ESO. Las cinco competencias específicas (C1-C5) llevan ahora el enunciado literal del Decreto 30/2023 y sus descriptores operativos del perfil de salida para 4.º ESO (DEC-0008), verificados con 11_calidad/extraer_descriptores.py. Los criterios de evaluación y los saberes básicos ya recogidos en la ficha se mantienen sin cambios; no reproducen los criterios íntegros del anexo, solo una selección representativa."

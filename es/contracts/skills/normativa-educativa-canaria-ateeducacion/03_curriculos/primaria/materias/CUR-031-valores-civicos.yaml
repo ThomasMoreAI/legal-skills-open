@@ -1,0 +1,137 @@
+id: CUR-031
+titulo: Educación en Valores Cívicos y Éticos — Primaria Canarias
+etapa: primaria
+materia: Educación en Valores Cívicos y Éticos
+cursos:
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Deliberar y argumentar sobre problemas de carácter ético referidos a sí mismo y su entorno, buscando y analizando información fiable y generando una actitud reflexiva al respecto, para promover el autoconocimiento y la autonomía moral.
+      descriptores:
+        Tercer ciclo:
+          - CCL1
+          - CCL3
+          - CD1
+          - CD4
+          - CPSAA4
+          - CPSAA5
+          - CC1
+          - CC2
+          - CC3
+    - codigo: C2
+      enunciado_oficial: Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, reconociendo su importancia para la vida individual y colectiva y aplicándolos de manera efectiva y argumentada en distintos contextos, para promover una convivencia democrática, justa, inclusiva, respetuosa y pacífica.
+      descriptores:
+        Tercer ciclo:
+          - CCL5
+          - CD3
+          - CP3
+          - CPSAA3
+          - CPSAA4
+          - CC1
+          - CC2
+          - CC3
+          - CE1
+          - CE2
+          - CCEC1
+    - codigo: C3
+      enunciado_oficial: Comprender las relaciones sistémicas entre el individuo, la sociedad y la naturaleza, a través del conocimiento y la reflexión sobre los problemas ecosociales, para comprometerse activamente con valores y prácticas consecuentes con el respeto, cuidado y protección de las personas y el planeta.
+      descriptores:
+        Tercer ciclo:
+          - CCL2
+          - CCL5
+          - CD2
+          - STEM1
+          - STEM5
+          - CPSAA2
+          - CC3
+          - CC4
+          - CE1
+          - CE3
+          - CCEC4
+    - codigo: C4
+      enunciado_oficial: Desarrollar la autoestima y la empatía con el entorno, identificando, gestionando y expresando emociones y sentimientos propios, y reconociendo y valorando los de los otros, para adoptar una actitud fundada en el cuidado y aprecio de sí mismo, de los demás y del resto de la naturaleza.
+      descriptores:
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - CPSAA1
+          - CPSAA2
+          - CPSAA3
+          - CC2
+          - CC3
+          - CC4
+          - CE1
+          - CE3
+          - CCEC3
+  saberes_basicos:
+    - bloque: I. Autoconocimiento y autonomía moral
+      cursos:
+        - 5.º
+        - 6.º
+      detalles: Toma de conciencia y expresión de facetas de la personalidad; gestión de emociones y deseos y deliberación racional sobre los propios fines; cuestiones éticas de autonomía y heteronomía moral; autoestima, prevención de abusos y acosos, y de conductas adictivas.
+    - bloque: II. Sociedad, democracia y justicia
+      cursos:
+        - 5.º
+        - 6.º
+      detalles: Raíz social y cultural de la identidad personal; nociones básicas de carácter político y social; características del marco democrático de convivencia; investigación y diálogo sobre cuestiones éticas de relevancia (derechos humanos, pobreza, igualdad efectiva, diversidad, migraciones, crisis climática).
+    - bloque: III. Desarrollo sostenible y ética ambiental
+      cursos:
+        - 5.º
+        - 6.º
+      detalles: Trabajo interdisciplinar y cooperativo para la comprensión de las relaciones sistémicas entre el individuo, la sociedad y la naturaleza, y el compromiso con valores y prácticas de respeto, cuidado y protección de las personas y el planeta.
+  criterios_evaluacion:
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Construir un adecuado concepto de sí mismo o sí misma en relación con otras personas y el entorno, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, así como analizando, expresando e identificando emociones, afectos y deseos con la finalidad de alcanzar fines propios y colectivos, desarrollando la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva.
+        - 1.2. Generar una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes, reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales, con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos.
+        - 2.1. Promover y demostrar, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz».
+        - 2.2. Reflexionar, dialogar y asumir un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios y las identidades étnico-culturales y de género, interactuando y adoptando, de forma motivada y autónoma, conductas cívicas y éticas, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.
+        - 2.3. Contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres.
+        - 2.4. Comprender y valorar los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD, y la propia ciudadanía.
+        - 3.1. Evaluar diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, identificando causas y problemas ecosociales, y justificando argumentalmente y de modo crítico el deber ético de proteger y cuidar la biodiversidad de Canarias.
+        - 3.2. Comprometerse activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta, y especialmente el entorno canario, a través de la participación en actividades que promuevan un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario.
+        - 4.1. Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas.
+  descriptores_operativos:
+    - CCL1
+    - CCL3
+    - CD1
+    - CD4
+    - CPSAA4
+    - CPSAA5
+    - CC1
+    - CC2
+    - CC3
+    - CCL5
+    - CD3
+    - CP3
+    - CPSAA3
+    - CE1
+    - CE2
+    - CCEC1
+    - CCL2
+    - CD2
+    - STEM1
+    - STEM5
+    - CPSAA2
+    - CC4
+    - CE3
+    - CCEC4
+    - CPSAA1
+    - CCEC3
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Educación en Valores Cívicos y Éticos en Educación Primaria Canarias (Decreto 211/2022), área exclusiva del tercer ciclo (5.º y 6.º), cursada por todo el alumnado. Cuatro competencias específicas (C1-C4) que se concretan en nueve criterios de evaluación, con saberes básicos organizados en tres bloques: Autoconocimiento y autonomía moral, Sociedad, democracia y justicia, y Desarrollo sostenible y ética ambiental.'
+observaciones: 'Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (cuatro) y de criterios de evaluación (nueve) contra lo declarado explícitamente en el propio decreto. El área solo se imparte en el tercer ciclo (art. 8.6 del decreto), por lo que no hay variación de descriptores por ciclo. Los saberes básicos se recogen a nivel de bloque (I-III) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque. Corrige el orden de las palabras del título del bloque II: el decreto dice «Sociedad, democracia y justicia», no «Sociedad, justicia y democracia» como figuraba antes.'

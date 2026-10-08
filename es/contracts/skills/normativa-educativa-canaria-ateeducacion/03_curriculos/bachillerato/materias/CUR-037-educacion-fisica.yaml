@@ -1,0 +1,69 @@
+id: CUR-037
+titulo: "Educación Física — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Educación Física"
+cursos: ["1.º Bachillerato"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Interiorizar el desarrollo de un estilo de vida activo y saludable, planificando responsable y conscientemente su actividad física a partir de la autoevaluación personal en base a parámetros científicos y evaluables, para satisfacer sus demandas de ocio activo y de bienestar personal, así como conocer posibles salidas profesionales asociadas a la actividad física."
+      descriptores:
+        "1.º Bachillerato": [STEM2, STEM5, CD3, CPSAA1.1, CPSAA2]
+    - codigo: "C2"
+      enunciado_oficial: "Adaptar autónomamente las capacidades físicas, perceptivo-motrices y coordinativas así como las habilidades y destrezas motrices específicas de algunas modalidades practicadas a diferentes situaciones con distintos niveles de dificultad, aplicando eficientemente procesos de percepción, decisión y ejecución adecuados a la lógica interna de las mismas, para resolver situaciones motrices vinculadas con distintas actividades físicas, deportivas, expresivas y recreativas, y consolidar actitudes de superación, crecimiento y resiliencia al enfrentarse a desafíos físicos."
+      descriptores:
+        "1.º Bachillerato": [CPSAA1.1, CPSAA1.2, CE2, CE3]
+    - codigo: "C3"
+      enunciado_oficial: "Difundir y promover nuevas prácticas motrices, compartiendo espacios de actividad físico-deportiva con independencia de las diferencias culturales, sociales, de género y de habilidad, priorizando el respeto hacia los participantes y a las reglas sobre los resultados, adoptando una actitud crítica y proactiva ante comportamientos antideportivos o contrarios a la convivencia y desarrollando procesos de autorregulación emocional que canalicen el fracaso y el éxito en estas situaciones, para contribuir autónomamente al entendimiento social y al compromiso ético en los diferentes espacios en los que se participa, fomentando la detección precoz y el conocimiento de las estrategias para abordar cualquier forma de discriminación o violencia."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CPSAA1.1, CPSAA1.2, CPSAA5, CC1, CC3]
+    - codigo: "C4"
+      enunciado_oficial: "Analizar críticamente e investigar acerca de las prácticas y manifestaciones culturales vinculadas con la motricidad según su origen y su evolución desde la perspectiva de género y desde los intereses económicos, políticos y sociales que hayan condicionado su desarrollo, practicándolas y fomentando su conservación para ser capaz de defender, desde una postura ética y contextualizada, los valores que transmiten."
+      descriptores:
+        "1.º Bachillerato": [CCL3, STEM5, CPSAA1.2, CC1, CCEC1, CCEC4.1]
+    - codigo: "C5"
+      enunciado_oficial: "Implementar un estilo de vida sostenible y comprometido con la conservación y mejora del entorno, organizando y desarrollando acciones de servicio a la comunidad vinculadas a la actividad física y al deporte, asumiendo responsabilidades en la seguridad de las prácticas, para contribuir activamente al mantenimiento y cuidado del medio natural y urbano y dar a conocer su potencial entre los miembros de la comunidad."
+      descriptores:
+        "1.º Bachillerato": [CCL1, STEM5, CPSAA2, CPSAA3.2, CC4, CE1]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - "1.1. Planificar, poner en práctica y autoevaluar iniciativas y prácticas motrices y prácticas introyectivas relacionadas con la salud y bajo pautas de seguridad, con la posibilidad de analizar y utilizar recursos y aplicaciones digitales que ayuden y faciliten su práctica, partiendo de su realidad individual, necesidades y expectativas, para incorporarlas a un estilo de vida saludable, con responsabilidad, conciencia y actitud cívica."
+        - "2.1. Diseñar, implementar y evaluar retos de prácticas motrices diversas con distintos grados de interacción, participación e incertidumbre, evaluando su desempeño y el de sus iguales en la aplicación de los mecanismos de percepción, toma de decisiones y ejecución, incidiendo en aquellos aspectos que condicionan su práctica, así como consolidando actitudes de superación y resiliencia que favorezcan su transferencia a otros contextos."
+        - "3.1. Promover, practicar y evaluar diferentes situaciones motrices desde una perspectiva inclusiva y respetuosa con las diferencias individuales y las normas establecidas, mostrando tolerancia y fomentando el juego limpio, para gestionar emociones y habilidades sociales en contextos variados de práctica motriz."
+        - "4.1. Investigar, poner en práctica y evaluar las distintas manifestaciones motrices de la cultura canaria y de otras culturas, favoreciendo su conservación mediante procesos reflexivos en el marco social en el que se generan, para contribuir al desarrollo de una visión contextualizada, diversa y sostenible."
+        - "4.2. Crear y representar manifestaciones artísticas mediante los recursos expresivos del cuerpo y el movimiento, disfrutando con imaginación y creatividad, para enriquecer su desarrollo personal y social."
+        - "5.1. Organizar, practicar y evaluar el impacto de las actividades motrices en entornos naturales y urbanos, con la posibilidad de prestar acciones al servicio de la comunidad, aportando ideas, codiseñando, aplicando normas de seguridad y disfrutando del entorno de manera sostenible para preservar la salud, el bienestar emocional y el medio ambiente."
+  saberes_basicos:
+    - bloque: "Bloque I — Vida saludable y gestión de la actividad física"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Planificación, puesta en práctica y autoevaluación de actividades de acondicionamiento físico saludable y de actividades introyectivas. Prevención, cuidado y pautas de actuación seguras en actividades motrices asociadas a la alimentación, la educación postural, los primeros auxilios o la prevención de lesiones. Gestión de la actividad física con opción de empleo de herramientas digitales."
+    - bloque: "Bloque II — Retos motores"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Diseño, implementación y evaluación de actividades motrices asociadas a las capacidades condicionales (físicas y coordinativas) y a desafíos individuales, cooperativos, de oposición y de cooperación-oposición."
+    - bloque: "Bloque III — Inclusión y autorregulación emocional en las situaciones motrices"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Promoción, puesta en práctica y evaluación de actividades motrices inclusivas y de actividades para el autoconocimiento, la gestión de las emociones y las habilidades sociales en la actividad física."
+    - bloque: "Bloque IV — Manifestaciones motrices socioculturales"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Investigación, puesta en práctica y evaluación de actividades motrices de la cultura canaria y de otras culturas."
+    - bloque: "Bloque V — Manifestaciones motrices expresivas"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Creación y representación de actividades motrices con finalidad artístico-expresiva y con finalidad rítmico-expresiva."
+    - bloque: "Bloque VI — Desarrollo sostenible desde la motricidad en distintos entornos"
+      cursos: ["1.º Bachillerato"]
+      detalles: "Organización, participación y evaluación de actividades motrices sostenibles en entornos urbanos y naturales, con desplazamiento a pie o sobre ruedas mediante movilidad sostenible y segura, y vinculadas al tiempo libre, a una ciudadanía activa y al compromiso cívico."
+  descriptores_operativos: ["CCL1", "CCL3", "CCL5", "STEM2", "STEM5", "CD3", "CPSAA1.1", "CPSAA1.2", "CPSAA2", "CPSAA3.2", "CPSAA5", "CC1", "CC3", "CC4", "CE1", "CE2", "CE3", "CCEC1", "CCEC4.1"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+resumen_ia: "Currículo de Educación Física en Bachillerato Canarias (Decreto 30/2023). La materia solo se imparte en 1.º de Bachillerato, con cinco competencias específicas (C1-C5) y seis criterios de evaluación. Saberes organizados en seis bloques: vida saludable y gestión de la actividad física, retos motores, inclusión y autorregulación emocional, manifestaciones motrices socioculturales, manifestaciones motrices expresivas y desarrollo sostenible desde la motricidad."
+observaciones: "Extracción completada el 2026-08-05 a partir del texto oficial 07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt (líneas ~44260-44491). Competencias específicas con enunciado literal, descriptores operativos por curso y los seis criterios de evaluación oficiales. Confirmado contra el decreto que Educación Física en Bachillerato canario solo se imparte en 1.º curso (no hay bloque de 2.º Bachillerato para esta materia)."

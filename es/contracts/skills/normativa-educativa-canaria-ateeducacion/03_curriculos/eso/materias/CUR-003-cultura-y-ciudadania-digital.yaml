@@ -1,0 +1,134 @@
+id: CUR-003
+titulo: "Cultura y Ciudadanía Digital — ESO Canarias"
+etapa: "eso"
+materia: "Cultura y Ciudadanía Digital"
+ambito: null
+cursos: ["3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Buscar, organizar, almacenar e interpretar información digital aplicando estrategias de búsqueda y valorando sesgos, validez, calidad y accesibilidad."
+      enunciado_oficial: "Buscar, organizar, almacenar e interpretar información en distintos formatos, mediante la aplicación de estrategias de búsqueda, valorando sesgos, validez, calidad, actualidad, accesibilidad y fiabilidad de las fuentes y contenidos digitales, para organizar, almacenar y reutilizar dicha información con posterioridad y crear su propio entorno personal de aprendizaje."
+      descriptores:
+        "3.º ESO": [CCL2, CCL3, CD1, CD2, CPSAA5, CC3]
+    - codigo: "C2"
+      enunciado_resumido: "Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa respetando los derechos de autoría y la propiedad intelectual."
+      enunciado_oficial: "Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa en distintos formatos, utilizando tecnologías digitales, respetando los derechos de autoría y la propiedad intelectual, para expresar ideas, conocimientos, sentimientos e inquietudes de forma inclusiva, creativa y eficaz."
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, CCL5, CD1, CD2, CPSAA3, CE3, CCEC3, CCEC4]
+    - codigo: "C3"
+      enunciado_resumido: "Aplicar estrategias de pensamiento computacional y programación para resolver problemas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario."
+      enunciado_oficial: "Aplicar estrategias de pensamiento computacional y programación para resolver problemas, analizando críticamente las soluciones de forma eficaz y reformulando el procedimiento, si fuera necesario."
+      descriptores:
+        "3.º ESO": [CCL2, STEM1, STEM3, CD2, CD5, CPSAA3, CPSAA4, CPSAA5, CE3]
+    - codigo: "C4"
+      enunciado_resumido: "Comunicar y compartir contenidos digitales de forma colaborativa respetando la etiqueta digital, la privacidad, los derechos de autoría y la propiedad intelectual."
+      enunciado_oficial: "Comunicar y compartir contenidos digitales de forma colaborativa, mediante el empleo de tecnologías digitales accesibles, utilizando estrategias de comunicación que respeten la etiqueta digital, la privacidad, los derechos de autoría y la propiedad intelectual, con la finalidad de construir una ciudadanía e identidad digital responsables."
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL5, CD2, CD3, CD4, CPSAA3, CC1, CCEC4]
+    - codigo: "C5"
+      enunciado_resumido: "Aplicar medidas de seguridad para proteger dispositivos, datos personales, privacidad y contenidos asociados al uso de tecnologías digitales."
+      enunciado_oficial: "Aplicar medidas de seguridad, para proteger los dispositivos, los datos personales, la privacidad y los contenidos asociados al uso de las tecnologías digitales, identificando los riesgos y beneficios, personales, sociales y medioambientales y haciendo un uso crítico, responsable, seguro, saludable y sostenible de ellas."
+      descriptores:
+        "3.º ESO": [CCL2, STEM5, CD4, CPSAA2, CC1, CC2, CE1]
+    - codigo: "C6"
+      enunciado_resumido: "Utilizar de manera innovadora las tecnologías digitales para comprender, resolver o derivar problemas cotidianos y los relativos al funcionamiento de dispositivos."
+      enunciado_oficial: "Utilizar de manera innovadora las tecnologías digitales, evaluando, seleccionando, configurando y personalizando las distintas herramientas para comprender, resolver o derivar los problemas cotidianos, así como los relativos al funcionamiento de dispositivos, identificando las necesidades detectadas, para desenvolverse en el mundo digital en cualquier ámbito, promoviendo el desarrollo de la competencia digital propia o de otras personas."
+      descriptores:
+        "?": [CCL2, STEM1, STEM2, STEM4, CD2, CD5, CPSAA5, CE3]
+  criterios_evaluacion:
+    - curso: "3.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Realizar búsquedas avanzadas en la red, aplicando estrategias de filtrado de datos, información y contenido digital, usando operadores lógicos para almacenarlos y organizarlos de tal forma que permita recuperarlos y referenciarlos en un uso posterior."
+          descriptores: [CCL2, CCL3, CD1]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Reflexionar sobre la fiabilidad de las fuentes y los motores de búsqueda, así como sobre la información y opinión obtenida, considerando los sesgos de cualquier tipo que pudiera haber implicados en ese proceso y la pertinencia de los datos obtenidos para crear su propio entorno personal de aprendizaje."
+          descriptores: [CCL2, CCL3, CD1, CD2, CPSAA5, CC3]
+        - codigo: "1.3"
+          competencia: "C1"
+          enunciado: "Conocer protocolos y estándares de accesibilidad y reflexionar de manera crítica sobre ello, cuando se consume información u opinión en fuentes consultadas, así como cuando se crean recursos digitales propios, para entender la importancia de la accesibilidad de todas las personas potenciales usuarias, independientemente de sus características personales o contextuales."
+          descriptores: [CD1, CPSAA5, CC3]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Emplear las tecnologías digitales para crear contenidos de forma individual, colaborativa o cooperativa que permitan expresar ideas, opiniones, conocimientos o sentimientos en distintos lenguajes y formatos, de forma accesible, respetando los derechos de autoría y las licencias de uso, reelaborándolos de forma personal y original."
+          descriptores: [CCL1, CCL2, CCL3, CCL5, CD1, CD2, CPSAA3, CE3, CCEC3, CCEC4]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Programar y desarrollar una secuencia de instrucciones aplicando estrategias de pensamiento computacional y programación para que un sistema informático, robot u objetos inteligentes (el internet de las cosas [IoT]) resuelvan un problema determinado o realicen una tarea específica."
+          descriptores: [STEM1, STEM3, CD2, CD5, CE3]
+        - codigo: "3.2"
+          competencia: "C3"
+          enunciado: "Analizar de manera crítica y eficaz las soluciones o propuestas, con el fin de reformular el procedimiento, si fuese necesario."
+          descriptores: [CCL2, STEM3, CPSAA3, CPSAA4, CPSAA5, CE3]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Crear, de forma colaborativa y creativa, contenidos digitales utilizando diferentes tecnologías accesibles, seleccionando los medios más apropiados para cada contexto de comunicación."
+          descriptores: [CCL1, CCL2, CD2, CD3, CPSAA3, CCEC4]
+        - codigo: "4.2"
+          competencia: "C4"
+          enunciado: "Conocer y aplicar las normas de comportamiento en la red, etiqueta digital, y desarrollar las habilidades para desenvolverse con respeto y empatía al utilizar las tecnologías digitales e interactuar en estos entornos, protegiendo la identidad digital propia y ajena."
+          descriptores: [CCL2, CCL5, CD3, CD4, CPSAA3, CC1]
+        - codigo: "4.3"
+          competencia: "C4"
+          enunciado: "Conocer los derechos y deberes digitales, especialmente los relativos a la autoría, a la propiedad intelectual, a la privacidad y a la accesibilidad universal en el entorno digital, para compartir datos y contenidos digitales y participar en la sociedad a través del uso de tecnologías digitales adecuadas de manera responsable."
+          descriptores: [CCL2, CD2, CD3, CD4, CC1]
+        - codigo: "5.1"
+          competencia: "C5"
+          enunciado: "Conocer los beneficios, y los riesgos y amenazas de los entornos digitales, adoptando medidas de actuación y prevención para un uso seguro de dichos entornos, identificando y actuando de forma crítica ante situaciones de ciberacoso o situaciones discriminatorias de cualquier índole o suplantación de identidad, entre otros, y aplicando estrategias para proteger los datos personales y la privacidad."
+          descriptores: [CD4, CPSAA2, CC1, CC2, CE1]
+        - codigo: "5.2"
+          competencia: "C5"
+          enunciado: "Reflexionar sobre la necesidad de desarrollar prácticas saludables tanto a nivel físico, mental y social en el uso de las tecnologías digitales y hacer propuestas para llevarlas a cabo."
+          descriptores: [CCL2, STEM5, CD4, CPSAA2, CC1]
+        - codigo: "5.3"
+          competencia: "C5"
+          enunciado: "Analizar y valorar los efectos de las tecnologías digitales en el bienestar personal y la inclusión social, así como sus efectos sobre el medioambiente, aplicando criterios éticos y sostenibles en su uso."
+          descriptores: [CCL2, STEM5, CD4, CC2, CE1]
+        - codigo: "6.1"
+          competencia: "C6"
+          enunciado: "Utilizar las tecnologías digitales para satisfacer necesidades, y comprender y resolver situaciones problemáticas en entornos digitales, o derivarlas, tanto de forma individual como colectiva."
+          descriptores: [STEM1, STEM2, CD2, CD5, CPSAA5, CE3]
+        - codigo: "6.2"
+          competencia: "C6"
+          enunciado: "Configurar de forma segura y personalizada los entornos digitales según las necesidades detectadas."
+          descriptores: [STEM1, STEM2, CD2, CD5, CE3]
+        - codigo: "6.3"
+          competencia: "C6"
+          enunciado: "Identificar las necesidades de actualización de la propia competencia digital y de personas de su entorno y contribuir a su mejora."
+          descriptores: [CCL2, STEM4, CD2, CPSAA5, CE3]
+  saberes_basicos:
+    - bloque: "I. Alfabetización mediática, tratamiento y organización de la información"
+      curso: "3.º ESO"
+      detalles: "Estrategias de búsqueda, filtrado y selección; evaluación crítica de la fiabilidad de fuentes; análisis de la infodemia y la sobrecarga de información; ventajas y desventajas de motores de búsqueda con IA; factores que influyen en resultados de búsquedas y recomendaciones; análisis de accesibilidad de recursos; técnicas de tratamiento, organización y almacenamiento seguro de la información."
+    - bloque: "II. Creación de contenidos digitales"
+      curso: "3.º ESO"
+      detalles: "Estrategias de tratamiento de información para crear contenidos accesibles (DUA, lectura fácil); modificación, mejora e integración de contenidos; expresión a través de medios digitales; selección de formato según finalidad y público; herramientas para contenido digital accesible; uso de realidad aumentada (AR) y virtual (VR); respeto a derechos de autoría, licencias y accesibilidad universal."
+    - bloque: "III. Pensamiento computacional y programación"
+      curso: "3.º ESO"
+      detalles: "Pensamiento computacional y programación; secuencias de instrucciones y algoritmos sencillos siguiendo la rutina «Pienso, programo, pruebo»; programación de objetos inteligentes (IoT) y aplicación de principios de inteligencia artificial; programación de robots sencillos; análisis crítico, evaluación y reflexión sobre soluciones; depuración de errores y reformulación gestionando emociones."
+    - bloque: "IV. Comunicación, colaboración y ciudadanía digital"
+      curso: "3.º ESO"
+      detalles: "Selección de medios de comunicación digital síncronos y asíncronos; herramientas y tecnologías para compartir y colaborar; etiqueta digital y requisitos de accesibilidad; identidad digital positiva; huella digital y reputación; derechos y deberes digitales; actitudes responsables y constructivas en internet basadas en derechos humanos, dignidad, libertad, democracia e igualdad."
+    - bloque: "V. Uso responsable y bienestar digital"
+      curso: "3.º ESO"
+      detalles: "Beneficios y riesgos de las tecnologías digitales; análisis de ciberacoso, sexting, grooming, ciberbullying, suplantación, phishing y conductas discriminatorias; medidas preventivas (antivirus, firewall, contraseñas, autenticación de dos factores); normativa de protección de datos y derechos ARCO-POL; certificados digitales y firma; prácticas saludables (descanso, ergonomía); impacto medioambiental y social del uso digital."
+    - bloque: "VI. Resolución de problemas"
+      curso: "3.º ESO"
+      detalles: "Estrategias para identificar y solucionar problemas técnicos al manejar dispositivos y entornos digitales; selección de herramientas digitales para necesidades innovadoras y creativas; configuración y personalización de entornos digitales; resolución de situaciones problemáticas con identificación de buenas prácticas en Canarias; estrategias para detectar fortalezas y debilidades de la competencia digital propia y ajena."
+  descriptores_operativos: [CCL1, CCL2, CCL3, CCL5, STEM1, STEM2, STEM3, STEM4, STEM5, CD1, CD2, CD3, CD4, CD5, CPSAA2, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE1, CE3, CCEC3, CCEC4]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Cultura y Ciudadanía Digital en 3.º ESO Canarias, materia optativa regulada por el Decreto 30/2023. Integra seis competencias específicas y quince criterios de evaluación distribuidos en seis bloques de saberes alineados con el Marco Europeo de la Competencia Digital: alfabetización mediática, creación de contenidos, pensamiento computacional, ciudadanía digital, bienestar digital y resolución de problemas, con atención a la huella digital, IoT, IA, infodemia y patrimonio canario."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación en su portal de currículos ESO (Decreto 30/2023). Se han incorporado los enunciados literales de competencias específicas, los 15 criterios de evaluación con sus descriptores operativos y la síntesis de los seis bloques de saberes básicos. Materia optativa de 3.º ESO según el artículo 23.5 del Decreto 30/2023."

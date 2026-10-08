@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2014-07-25/6">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"/>
+          <FRBRdate date="2014-07-25" name="Generation"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="Ley"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@"/>
+          <FRBRdate date="2014-08-07" name="Publication"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/xml/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="parlamento-canarias" href="https://www.parcan.es/" showAs="Parlamento de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_3">
+        <num>Artículo 3.-</num>
+        <heading>Principios rectores.</heading>
+        <paragraph eId="art_3__para_1">
+          <content><p>Los principios rectores que regirán el sistema educativo canario serán:</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_2">
+          <num>a)</num>
+          <content><p>Un sistema educativo de calidad, entendido como un sistema que garantice la equidad y la excelencia, con capacidad de ofrecer a cada persona el tipo de atención pedagógica que necesita, garantizar una amplia igualdad de oportunidades, facilitar la participación social, promover la eficacia en todos los centros para atender a las necesidades educativas del alumnado y alcanzar los mejores resultados de aprendizaje en todo el alumnado.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_3">
+          <num>b)</num>
+          <content><p>La equidad del sistema educativo para evitar que las desigualdades económicas y sociales limiten las oportunidades de aprendizaje y se conviertan en un determinante del éxito escolar.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_4">
+          <num>c)</num>
+          <content><p>La mejora continua de los centros y servicios educativos para que en cada momento puedan ofrecer la respuesta más adecuada dadas las características del alumnado y las condiciones disponibles, aportando su propio valor añadido a las condiciones definidas para el conjunto del sistema educativo.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_5">
+          <num>d)</num>
+          <content><p>La educación en y para la convivencia basada en el respeto, la solidaridad y la igualdad, la construcción de una cultura de paz dirigida a la prevención de los conflictos y su resolución mediante el diálogo, la coeducación y la igualdad efectiva entre hombres y mujeres.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_6">
+          <num>e)</num>
+          <content><p>La corresponsabilidad de todos los agentes educativos para lograr que la educación sea considerada como uno de los bienes más preciados dentro de la sociedad y que toda la población pueda formarse a lo largo de la vida.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_7">
+          <num>f)</num>
+          <content><p>La cooperación entre las administraciones públicas, así como entre las administraciones públicas y los agentes económicos y sociales para impulsar el desarrollo, la investigación y la innovación. Esta cooperación tendrá como ejes prioritarios los siguientes: la reducción del absentismo escolar, la mejora del rendimiento escolar, la promoción de la educación no formal y de los aprendizajes que tienen lugar en contextos informales y la prestación de aquellos servicios complementarios que la ley considere adecuados para una gestión compartida.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

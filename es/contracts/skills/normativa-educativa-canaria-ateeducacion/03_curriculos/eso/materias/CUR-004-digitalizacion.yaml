@@ -1,0 +1,114 @@
+id: CUR-004
+titulo: "Digitalización — ESO Canarias"
+etapa: "eso"
+materia: "Digitalización"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes domésticas aplicando conocimientos de hardware y sistemas operativos."
+      enunciado_oficial: "Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes domésticas, aplicando los conocimientos de hardware y sistemas operativos, para gestionar las herramientas e instalaciones informáticas y de comunicación de uso cotidiano."
+      descriptores:
+        "4.º ESO": [STEM1, STEM2, CD4, CD5, CPSAA1, CPSAA5, CE3]
+    - codigo: "C2"
+      enunciado_resumido: "Configurar el entorno personal de aprendizaje aprovechando los recursos del ámbito digital para optimizar y gestionar el aprendizaje permanente."
+      enunciado_oficial: "Configurar el entorno personal de aprendizaje, interactuando y aprovechando los recursos del ámbito digital, para optimizar y gestionar el aprendizaje permanente."
+      descriptores:
+        "4.º ESO": [CCL1, CCL3, CCL5, CD1, CD2, CD3, CPSAA4, CPSAA5, CC1, CE3, CCEC1, CCEC4]
+    - codigo: "C3"
+      enunciado_resumido: "Desarrollar hábitos que fomenten el bienestar digital aplicando medidas preventivas y correctivas para proteger dispositivos, datos personales y la propia salud."
+      enunciado_oficial: "Desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y correctivas, para proteger dispositivos, datos personales y la propia salud."
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, STEM5, CD1, CD3, CD4, CPSAA2, CPSAA5, CC2, CC3]
+    - codigo: "C4"
+      enunciado_resumido: "Ejercer una ciudadanía digital crítica conociendo las posibles acciones en la red e identificando sus repercusiones para hacer un uso activo, responsable y ético de la tecnología."
+      enunciado_oficial: "Ejercer una ciudadanía digital crítica, conociendo las posibles acciones que realizar en la red, e identificando sus repercusiones, para hacer un uso activo, responsable y ético de la tecnología."
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CCL3, CCL5, CD1, CD3, CD4, CPSAA1, CC1, CC2, CC3, CC4, CE1]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Conectar dispositivos y gestionar redes locales utilizando las herramientas necesarias para identificar los riesgos y adoptar las medidas de seguridad pertinentes, aplicando los conocimientos y procesos asociados a sistemas de comunicación alámbrica e inalámbrica mostrando una actitud proactiva."
+          descriptores: [CD4, CPSAA5, CE3]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Instalar y mantener sistemas operativos, adoptando las medidas preventivas necesarias para mantener la seguridad y configurar sus características, teniendo en cuenta la evolución de las tecnologías digitales, permitiendo dar respuesta a sus necesidades personales."
+          descriptores: [CD4, CD5]
+        - codigo: "1.3"
+          competencia: "C1"
+          enunciado: "Identificar y resolver problemas técnicos sencillos, analizando componentes y funciones de los dispositivos digitales, aplicando criterios de reutilización de materiales y ahorro energético, evaluando las soluciones de manera crítica, identificando los riesgos y adoptando las medidas necesarias, planificando y reformulando el procedimiento si fuera necesario y mostrando interés y motivación hacia el aprendizaje para el desarrollo de soluciones tecnológicas creativas."
+          descriptores: [STEM1, STEM2, CD4, CPSAA1, CPSAA5]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Gestionar el aprendizaje en el ámbito digital, configurando el entorno personal de aprendizaje mediante la integración de recursos digitales de manera autónoma y responsable para el desarrollo de una adecuada ciudadanía digital."
+          descriptores: [CD2, CD3]
+        - codigo: "2.2"
+          competencia: "C2"
+          enunciado: "Buscar, localizar, seleccionar y archivar información procedente de diferentes fuentes en función de sus necesidades, contrastando la fiabilidad de la información y haciendo uso de las herramientas del entorno personal de aprendizaje con sentido crítico para reutilizar la información y generar nuevo contenido, respetando la propiedad intelectual y siguiendo las normas básicas de seguridad en la red, apreciando y valorando la identidad cultural canaria."
+          descriptores: [CCL3, CD1, CPSAA4, CC1, CCEC1]
+        - codigo: "2.3"
+          competencia: "C2"
+          enunciado: "Crear, programar, integrar y reelaborar contenidos digitales de forma individual o colectiva seleccionando, de manera razonada, las herramientas más apropiadas para generar nuevo conocimiento, y para elaborar productos culturales y artísticos de manera creativa, respetando los derechos de autoría y licencias de uso."
+          descriptores: [CCL1, CD2, CPSAA5, CE3, CCEC4]
+        - codigo: "2.4"
+          competencia: "C2"
+          enunciado: "Interactuar en espacios virtuales de comunicación y plataformas de aprendizaje colaborativo, compartiendo y publicando información y datos, adaptándose a diferentes audiencias con una actitud participativa y respetuosa, para desarrollar estrategias que le permitan mejorar en el proceso de construcción del conocimiento."
+          descriptores: [CCL1, CCL5, CD3, CPSAA5]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Proteger los datos personales y la huella digital generada en internet, configurando las condiciones de privacidad y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en las redes sociales y espacios virtuales de trabajo para desarrollar hábitos de vida saludable a nivel físico y mental."
+          descriptores: [CD3, CD4, CPSAA2, CC2]
+        - codigo: "3.2"
+          competencia: "C3"
+          enunciado: "Configurar y actualizar contraseñas, sistemas operativos y antivirus de forma periódica, para proteger los distintos dispositivos digitales de uso habitual y los datos personales, aplicando principios de ética y seguridad."
+          descriptores: [STEM5, CD4]
+        - codigo: "3.3"
+          competencia: "C3"
+          enunciado: "Identificar y analizar, de manera crítica, situaciones que representan una amenaza en la red, saber cómo reaccionar y seleccionar la mejor solución entre diversas opciones, valorando la seguridad y el bienestar emocional personal y colectivo, fomentando actitudes dialogantes, democráticas y respetuosas para consolidar hábitos de vida saludables a nivel físico y mental, desarrollando estrategias que le permitan mejorar en el proceso de construcción del conocimiento."
+          descriptores: [CCL1, CCL5, CD1, CD4, CPSAA2, CPSAA5, CC2, CC3]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Hacer un uso ético de los datos y las herramientas digitales, mostrando interés y motivación hacia el aprendizaje, entendiendo la necesidad de mantener una actitud colaborativa y respetuosa en su participación activa en la red, aplicando las normas de etiqueta digital y respetando la privacidad, las licencias de uso y propiedad intelectual en la comunicación, para desarrollar una adecuada ciudadanía digital."
+          descriptores: [CCL3, CD1, CD3, CD4, CPSAA1, CC1]
+        - codigo: "4.2"
+          competencia: "C4"
+          enunciado: "Identificar, analizar y comprender el impacto social relacionado con las aportaciones de las tecnologías digitales en las gestiones administrativas y el comercio electrónico, siendo consciente de la brecha sociocultural, territorial canaria y de género existente para el acceso, uso y aprovechamiento de dichas tecnologías en diversos colectivos para desarrollar un estilo de vida ecosocialmente responsable."
+          descriptores: [CCL1, CCL2, CC1, CC4]
+        - codigo: "4.3"
+          competencia: "C4"
+          enunciado: "Analizar y valorar la importancia de la oportunidad, facilidad y libertad de expresión que suponen los medios digitales conectados, permitiendo la participación en actividades comunitarias, analizando de forma crítica los mensajes que se reciben y transmiten, teniendo en cuenta su objetividad, ideología, intencionalidad, sesgos, perspectiva de género y caducidad para desarrollar una actitud dialogante y respetuosa en las interacciones que se realicen."
+          descriptores: [CCL1, CCL2, CCL5, CC2, CC3, CE1]
+        - codigo: "4.4"
+          competencia: "C4"
+          enunciado: "Analizar la necesidad de hacer un uso y desarrollo ecosocialmente responsable de las tecnologías digitales, así como valorar los beneficios globales que generan, teniendo en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental."
+          descriptores: [CCL1, CD4, CC4, CE1]
+  saberes_basicos:
+    - bloque: "I. Dispositivos digitales, sistemas operativos y de comunicación"
+      curso: "4.º ESO"
+      detalles: "Configuración y montaje de elementos de la arquitectura de ordenadores; estrategias para la resolución de problemas con reutilización y ahorro energético; instalación de sistemas operativos y configuración de usuario; identificación de dispositivos de redes domésticas y su funcionamiento; configuración y conexión de dispositivos IoT y wearables."
+    - bloque: "II. Digitalización del entorno personal de aprendizaje"
+      curso: "4.º ESO"
+      detalles: "Estrategias básicas de búsqueda, selección y archivo de información contrastando fuentes y evaluando fiabilidad; edición y creación de contenidos: aplicaciones de productividad, herramientas para apps móviles y web, realidad virtual, aumentada y mixta; estrategias básicas para la publicación, comunicación, colaboración y difusión responsable en redes."
+    - bloque: "III. Seguridad y bienestar digital"
+      curso: "4.º ESO"
+      detalles: "Identificación y análisis de riesgos, amenazas y ataques con medidas preventivas y correctivas; estrategias para la seguridad en la red y protección de datos (identidad, reputación, privacidad, huella digital); herramientas para identificar violencia y riesgo en la red (ciberacoso, sextorsión, contenidos inadecuados, dependencia tecnológica, violencia de género, LGTBI+ fobias, racismo, xenofobia); estrategias para preservar salud física, mental y emocional con prácticas de uso saludable."
+    - bloque: "IV. Ciudadanía digital crítica"
+      curso: "4.º ESO"
+      detalles: "Estrategias básicas para ejercer la ciudadanía digital con etiqueta digital, libertad de expresión, diversidad, propiedad intelectual y licencias; educación mediática y detección de noticias falsas y fraudes en periodismo digital; gestiones administrativas, servicios públicos en línea, registros y certificados oficiales con implicaciones de la condición de zona ultraperiférica; comercio electrónico (facturas digitales, formas de pago, criptomonedas); criterios éticos en uso de datos, IA, sesgos algorítmicos, obsolescencia programada, soberanía tecnológica y digitalización sostenible; análisis del activismo en línea, ciberviolentariado y comunidades de hardware y software libres."
+  descriptores_operativos: [CCL1, CCL2, CCL3, CCL5, STEM1, STEM2, STEM5, CD1, CD2, CD3, CD4, CD5, CPSAA1, CPSAA2, CPSAA4, CPSAA5, CC1, CC2, CC3, CC4, CE1, CE3, CCEC1, CCEC4]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Digitalización en 4.º ESO Canarias, materia opcional regulada por el Decreto 30/2023, con cuatro competencias específicas y catorce criterios de evaluación distribuidos en cuatro bloques: dispositivos y redes; digitalización del entorno personal de aprendizaje; seguridad y bienestar digital; y ciudadanía digital crítica. Da continuidad a Tecnología y Digitalización y a Cultura y Ciudadanía Digital, e incorpora la perspectiva canaria (insularidad, zona ultraperiférica, brecha territorial)."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación en su portal de currículos ESO (Decreto 30/2023). Se han incorporado los enunciados literales de competencias específicas, los 14 criterios de evaluación con sus descriptores operativos y la síntesis de los cuatro bloques de saberes básicos. Materia opcional de 4.º ESO según el artículo 25 del Decreto 30/2023."

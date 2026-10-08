@@ -1,0 +1,31 @@
+id: CHUNK-00007
+origen_tipo: "norma"
+origen_id: NOR-005
+titulo: "Currículo ESO y Bachillerato en Canarias (Decreto 30/2023)"
+texto: >-
+  El Decreto 30/2023 es la norma de referencia para la ordenación y el currículo de Secundaria y Bachillerato en Canarias tras la LOMLOE.
+  Aspectos esenciales:
+  1. Desarrolla a nivel autonómico los reales decretos estatales 217/2022 (ESO) y 243/2022 (Bachillerato).
+  2. Define los elementos del currículo: objetivos, competencias clave, competencias específicas, criterios de evaluación, saberes básicos y situaciones de aprendizaje.
+  3. Establece la estructura de materias y modalidades aplicables en los centros canarios.
+  4. Sus anexos contienen los currículos detallados por materia.
+metadatos:
+  ambito: "canarias"
+  etapa: [eso, bachillerato]
+  temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-009
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 30/2023 (BOC 2023/058), artículos 1, 2 y anexos."
+relaciones:
+  normas: [NOR-005]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "provider": "agent_review",
+  "pages": {
+    "1": {
+      "semantic_description": "Descreva a página renderizada inteira sem inferir autenticidade ou significado jurídico.",
+      "transcription": "Transcrição visual literal; use [ilegível] para lacunas.",
+      "elements": [],
+      "outcome": "completed",
+      "description_source": "vision_model",
+      "limitations": []
+    }
+  },
+  "images": [
+    {
+      "image_id": "P0001-I001",
+      "asset_class": "visual_asset",
+      "relevant": true,
+      "semantic_description": "Descreva somente o que é visível e sua localização na página.",
+      "visible_text": "Transcrição literal; use [ilegível] para lacunas.",
+      "objects": [],
+      "people": [],
+      "tables": [],
+      "description_source": "vision_model",
+      "limitations": []
+    }
+  ]
+}

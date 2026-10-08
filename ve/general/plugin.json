@@ -1,0 +1,18 @@
+{
+  "name": "ve-general",
+  "displayName": "General — VE",
+  "version": "0.1.0",
+  "description": "General skills for VE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ve",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-venezuela-orwel",
+    "skills/analisis-jurisprudencial-venezuela-orwel",
+    "skills/due-diligence-general-venezuela-orwel",
+    "skills/elaboracion-concepto-juridico-venezuela-orwel",
+    "skills/investigacion-juridica-venezuela-orwel"
+  ]
+}

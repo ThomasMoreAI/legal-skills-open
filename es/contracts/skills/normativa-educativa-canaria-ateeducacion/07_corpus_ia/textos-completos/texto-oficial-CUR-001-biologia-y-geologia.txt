@@ -1,0 +1,1612 @@
+ID interno: CUR-001
+Título oficial: Biología y Geología — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+BIOLOGÍA Y GEOLOGÍA
+Introducción
+El desarrollo de los conocimientos científicos ha sido uno de los motores del cambio experimentado
+por la humanidad en los dos últimos siglos. La ciencia y la actividad de los científicos y científicas
+han  supuesto  una  de  las  claves  esenciales  para  comprender  el  mundo  que  nos  rodea  y  sus
+transformaciones, para desarrollar actitudes responsables sobre aspectos ligados a la vida, la salud o
+el medioambiente y para entender, en definitiva, la cultura contemporánea, constituyendo, por lo
+tanto, una tarea colectiva inserta en un contexto social.
+Vivimos en un mundo cambiante que requiere de una importante transformación social, económica,
+de hábitos de consumo y de vida en general, para poder adaptarnos a la actual crisis socio-climática
+caracterizada por una escasez de recursos energéticos, mineros, hídricos…, que debemos comenzar
+a usar de manera sostenible. Las competencias específicas y los saberes de la materia de Biología y
+Geología de la etapa de Educación Secundaria Obligatoria preparan al alumnado para esta sociedad,
+dotándolo  de  los  conocimientos,  destrezas  y  actitudes  necesarias  para  ser  capaz  de  resolver
+problemas  desde  el  conocimiento  científico,  desarrollar  la  curiosidad  y  la  actitud  crítica,
+identificarse como agente activo y reconocer que de sus actuaciones y conocimientos dependerá el
+desarrollo de su entorno con consecuencias positivas o negativas. Asimismo, la naturaleza cient ífica
+de esta materia contribuye también a despertar en el alumnado el esp íritu creativo y emprendedor,
+que  es  la  esencia  misma  de  todas  las  ciencias,  mediante  la  observaci ón  de  campo,  la
+experimentación y la b úsqueda de información en diferentes fuentes para resolver cuestiones o
+contrastar  hipótesis  de  forma  tanto  individual  como  cooperativa.  Por  ello,  los  conocimientos
+científicos se integran en el saber humanístico que debe formar parte de la cultura básica de todas
+las personas.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+La materia de Biología y Geología contribuye a una consecución gradual de los objetivos de etapa,
+siendo  fundamental,  tanto  para  la  consecución  de  los  mismos  como  para  el  desarrollo  y  la
+adquisición de las competencias clave, el establecimiento de coordinaciones con otras materias de la
+etapa. Estas interacciones pueden establecerse para el análisis e interpretación de mapas geológicos
+y planos, con Geografía e Historia y Educación Plástica, Visual y Audiovisual; el trabajo con
+cálculos,  tablas  y  gráficos,  puede  favorecer  el  trabajo  coordinado  con  el  profesorado  de
+Matemáticas; los aprendizajes relacionados con los materiales y sus propiedades, y la composición
+de los seres vivos, facilita el diseño de situaciones de aprendizaje integradas con Física y Química;
+el mantenimiento de nuestro cuerpo y el bienestar físico y mental, favorece la interacción con
+1
+
+=== Página 2 ===
+
+Educación Física; la comprensión lectora y la expresión oral, con Lengua Castellana y Literatura, y
+así un largo etcétera. El tratamiento conjunto de determinadas cuestiones desde el punto de vista de
+diferentes materias no solo consigue que su comprensión sea mejor, sino que abre todo un abanico
+de posibilidades para trabajar en la consecución de los objetivos propuestos.
+Desde  Biología  y  Geología,  abordando  los  aprendizajes  desde  los  métodos  de  la  ciencia,  se
+contribuye a que el alumnado asuma responsablemente sus deberes y desarrolle y consolide hábitos
+de disciplina, estudio y trabajo individual y en equipo, potenciando de esta manera los objetivos (a)
+y (b). Asimismo, el trabajo cooperativo contribuye a la consecución de los objetivos (c) y (d) ya que
+fomenta el desarrollo de habilidades sociales y favorece la inclusión del alumnado, fortaleciendo las
+capacidades afectivas y promoviendo el rechazo a los prejuicios de cualquier tipo y respetando la
+diferencia de sexos y la igualdad de derechos y oportunidades entre ellos. A través de la aplicación
+de las metodologías científicas también se desarrollan las destrezas básicas en la utilización de las
+fuentes de información, objetivo (e).
+El  desarrollo  de  proyectos  de  investigación  relacionados  con  el  medio  natural  canario  y  la
+presentación de conclusiones en diferentes formatos y haciendo uso de las tecnologías digitales de
+forma  segura,  crítica,  responsable,  sostenible  y  ética  como  medio  habitual  de  comunicación,
+contribuye a que el alumnado conciba el conocimiento científico como un saber integrado y a que
+se exprese con corrección, utilizando el lenguaje científico, tanto oralmente como por escrito. Se
+potencian de esta forma los objetivos (f), (h) y (l). Además, la metodología científica permite que el
+alumnado adopte un papel activo, participativo y se sitúe en el centro del proceso de enseñanza y
+aprendizaje contribuyendo al desarrollo del objetivo (g).
+La selección, el tratamiento y el aprendizaje funcional de los saberes básicos propios de la materia
+contribuye, por un lado, a que el alumnado conozca, valore y respete el patrimonio natural y
+cultural canario y, por otro, que valore de forma crítica los h ábitos sociales relacionados con la
+salud, el consumo, el cuidado, la empat ía y el respeto hacia los seres vivos, especialmente los
+animales, y el medioambiente, contribuyendo a su conservaci ón y mejora, desarrollando así los
+objetivos (j) y (k).
+Por  último,  para  el  desarrollo  de  actitudes  y  valores,  los  aprendizajes  seleccionados  han  de
+promover la curiosidad, el interés, el bienestar personal y social y el respeto hacia sí mismo y hacia
+los demás, hacia la naturaleza en todas sus manifestaciones, hacia el trabajo propio de las ciencias
+experimentales y su carácter social, adoptando una actitud de colaboración en el trabajo en grupo.
+Por  otra  parte,  han  de  ayudar  al  alumnado  a  desarrollar  una  actitud  crítica  hacia  la  ciencia,
+conociendo y valorando sus aportaciones, pero sin olvidar, al mismo tiempo, sus limitaciones para
+resolver los grandes problemas que tiene actualmente planteados la humanidad y así poder dar
+respuestas éticas al uso diario que se hace de la ciencia y sus aplicaciones.
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La contribución de esta materia a la Competencia en comunicación lingüística (CCL) se hace
+visible  en  la  elaboración  y  la  transmisión  de  las  ideas  e  informaciones  sobre  los  procesos  y
+2
+
+=== Página 3 ===
+
+fenómenos biológicos y geológicos, que se realiza mediante un discurso basado fundamentalmente
+en la explicación, la descripción, el análisis crítico y la argumentación. Así, en el aprendizaje de esta
+materia se hacen explícitas relaciones entre conceptos, se describen observaciones y procedimientos
+experimentales, se discuten ideas, hipótesis o teorías contrapuestas y se comunican resultados y
+conclusiones. Todo ello exige la precisión en los términos utilizados, el encadenamiento adecuado
+de las ideas y la coherencia en la expresión verbal o escrita en las distintas producciones (informes
+de laboratorio, biografías científicas, planteamiento y resolución de problemas, exposiciones, etc.),
+así como la participación en interacciones comunicativas con actitud cooperativa y respetuosa.
+Este  currículo  contribuye  fundamentalmente  a  la  Competencia  matemática  y  competencia  en
+ciencia, tecnología e ingeniería (STEM). La materia pone de manifiesto el carácter funcional de los
+aprendizajes matemáticos, ya que el lenguaje de esta disciplina permite cuantificar los fenómenos
+del  mundo  físico  y  resolver  diversos  problemas  en  diferentes  contextos,  utilizando  métodos
+inductivos  y  deductivos.  Además,  la  naturaleza  del  conocimiento  científico  requiere  definir
+magnitudes  relevantes  para  el  estudio  de  la  materia  del  universo;  realizar  medidas,  relacionar
+variables, establecer definiciones operativas, formular leyes cuantitativas, interpretar y representar
+datos y gráficos para, por ejemplo, la representación de variables poblacionales, la realización de las
+curvas de niveles de oxígeno, dióxido de carbono y ozono, o el estudio del calentamiento global del
+planeta; así como extraer conclusiones y expresarlas en el lenguaje verbal y simbólico de las
+matemáticas, atendiendo a sus formas específicas de representación.
+Desde la materia de Biología y la Geología se desarrolla la habilidad para interpretar el entorno,
+tanto en sus aspectos naturales como en los resultantes de la actividad humana, de modo que se
+posibilita la comprensión de los fenómenos naturales, la predicción de sus consecuencias y la
+implicación en la conservación y mejora de las condiciones de vida. Así mismo, incorpora destrezas
+para  desenvolverse  adecuadamente  en  ámbitos  muy  diversos  de  la  vida  (salud,  alimentación,
+consumo,  desarrollo  científico-tecnológico, etc.).  Al alcanzar  esta  competencia se desarrolla el
+espíritu crítico para la observación de la realidad y para el análisis de los mensajes informativos y
+publicitarios, además de favorecer hábitos de consumo responsable.
+Esta competencia también supone poner en práctica los aprendizajes sobre cómo se elabora el
+conocimiento científico. A través de esta materia el alumnado se inicia en las principales estrategias
+de la metodología científica, tales como la capacidad de indagar y de formular preguntas; de
+identificar el problema, formular hipótesis, planificar y realizar actividades para contrastarlas; de
+observar, recoger y organizar la información relevante; de sistematizar y analizar los resultados; o
+de extraer conclusiones y comunicarlas. Se trata, en definitiva, de aplicar estas estrategias a la
+resolución de problemas de la vida cotidiana.
+Además, Biología y Geología contribuye a que se reconozca la naturaleza social de la actividad
+científica  a lo largo  de la historia, así  como el  valor relativo  del conocimiento  generado, sus
+aportaciones más relevantes y sus limitaciones.
+La materia de Biología y Geología contribuye al desarrollo de la Competencia digital (CD) a través
+de  la  utilización  de  las  tecnologías  digitales  para  la  búsqueda,  selección  y  tratamiento  de  la
+información,  evaluando  su  fiabilidad  y  la  de  las  fuentes  consultadas,  como  procesos  básicos
+vinculados al trabajo científico, así como para simular y visualizar fenómenos que no pueden
+realizarse en el laboratorio o hechos de la naturaleza de difícil observación. Además, la resolución
+de  problemas biológicos y geológicos requiere de la aplicación de estrategías  de pensamiento
+computacional  y  programación  para  la  búsqueda  de  soluciones.  Esta  competencia  se  potencia
+3
+
+=== Página 4 ===
+
+también  mediante  el  uso  de  herramientas  y  entornos  virtuales  de  aprendizaje  que  facilitan  la
+presentación y la comunicación de los resultados, así como la cooperación en el desarrollo de las
+distintas fases de un proyecto de investigación. Se trata, por tanto, de un recurso imprescindible en
+el campo de las ciencias experimentales que conlleva un uso cr ítico, responsable, seguro, saludable
+y  sostenible  del  mismo,  para  que  el  alumnado  ejerza  una  ciudadan ía  digital  activa,  cívica  y
+reflexiva.
+El desarrollo de la Competencia personal, social y de aprender a aprender (CPSAA) está asociado a
+la forma de construir el conocimiento científico. En efecto, esta competencia tiene que ver tanto con
+contenidos propios de Biología y Geología como con el desarrollo de actitudes positivas hacia el
+progreso científico y hacia el trabajo cooperativo que conlleva el desarrollo de cualquier proyecto
+de  investigación.  Existe  un  gran  paralelismo  entre  determinados  aspectos  de  la  metodología
+científica  y  el  conjunto  de  habilidades  relacionadas  con  la  capacidad  de  regular  el  propio
+aprendizaje,  tales  como  gestionar  los  retos  y  cambios,  plantearse  interrogantes,  analizarlos,
+establecer una secuencia de tareas dirigidas a la consecución de un objetivo, determinar el método
+de trabajo, hacer frente a la incertidumbre y a la complejidad, la distribución de tareas cuando sean
+compartidas y, finalmente, ser consciente de la eficacia del proceso seguido. La capacidad de
+aprender a aprender se consigue cuando se aplican los conocimientos adquiridos a situaciones
+análogas o diferentes. La historia muestra que el avance de la ciencia y su contribución a la mejora
+de  las  condiciones  de  vida  ha  sido  posible  gracias  a  actitudes  que  están  relacionadas  con  la
+competencia personal, social y de aprender a aprender tales como la resiliencia, la autoeficacia, la
+responsabilidad, la perseverancia, la empatía, la motivación, el gusto por saber más y por el trabajo
+bien hecho, así como la consideración del análisis del error como fuente de aprendizaje.
+Asimismo,  la  contribución  de  la  materia  a  la  Competencia  ciudadana  (CC)  se  basa  en  la
+alfabetización cívica y científica de los futuros ciudadanos y las futuras ciudadanas y a la adopción
+consciente de los valores propios de una cultura democrática, fundamentados en el respeto a los
+derechos humanos, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y el
+desarrollo  de  un  estilo  de  vida  sostenible  acorde  con  los  Objetivos  de  Desarrollo  Sostenible
+planteados en la Agenda 2030 y concretados en la Agenda Canaria de Desarrollo Sostenible 2030.
+Esto permitirá su participación en la toma fundamentada de decisiones frente a problemas de interés
+que  suscitan  el  debate  social,  desde  las  fuentes  de  energía  hasta  aspectos  fundamentales
+relacionados con la salud, la alimentación, el consumo o el medioambiente.
+El  aprendizaje  de  los  distintos  saberes  de  la  materia  proporciona  una  formación  básica
+imprescindible para que el alumnado participe plenamente en la vida social y cívica, basándose en
+la  comprensión  de  las  relaciones  de  interdependencia,  ecodependencia  e  interconexión  entre
+actuaciones  locales  y  globales  para  adoptar  un  estilo  de  vida  sostenible  y  ecosocialmente
+responsable.
+Biología y Geología contribuye también al desarrollo de la Competencia emprendedora (CE). Esta
+competencia se potencia al enfrentarse con criterios propios a problemas que no tienen una solución
+inmediata, lo que hace tomar decisiones personales para su resolución y reflexionar sobre el proceso
+realizado y el resultado obtenido. También se fomenta cuando se cuestionan los dogmatismos y los
+prejuicios que han acompañado al progreso científico a lo largo de la historia y se buscan nuevas
+soluciones y se emprenden alternativas. El desarrollo de esta competencia requiere afrontar retos
+con  sentido  crítico,  evaluar  las  fortalezas  y  debilidades  propias,  esforzarse  por  mejorar,  saber
+planificar el tiempo, organizarse en el espacio y distribuir las tareas que comporta un trabajo de
+naturaleza científica que se aborda de forma personal y en grupo. El pensamiento característico del
+4
+
+=== Página 5 ===
+
+quehacer científico se puede así transferir a otras situaciones de la vida cotidiana, ya que, al ser
+propio del conocimiento científico, el pensamiento hipotético deductivo nos permite llevar a cabo
+proyectos de investigación en los que se ponen en práctica capacidades de análisis, valoración de
+situaciones y toma de decisiones razonadas, que, sin duda, contribuyen a la adquisición de esta
+competencia.
+La  materia  de  Biología  y  Geología  contribuye  a  la  Competencia  en  conciencia  y  expresión
+culturales (CCEC) al utilizar, de manera frecuente, diversos medios y soportes, así como técnicas
+plásticas, visuales o audiovisuales para expresar y comunicar ideas, opiniones, procesos, etc., a
+través  de  la  creación  de  productos:  maquetas,  campañas  publicitarias,  murales  científicos,
+exposición de datos, diseño de experiencias, conclusiones de pequeñas investigaciones u otras
+propuestas,  que  pongan  en  acción  las  destrezas  características  de  esta  competencia.  La
+representación espacial de estructuras, paisajes, funciones o procesos, así como su interpretación,
+requiere de un aprendizaje y ejercicio de expresión cultural. El paisaje y el uso tradicional de los
+recursos tienen en Canarias una especial relevancia como parte de nuestra cultura, y su aprecio,
+mantenimiento  y  protección  se  incluyen  en  nuestra  conciencia  cultural  y  forman  parte  de  los
+aprendizajes de esta materia.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En  el  currículo  de  Biología  y  Geología  se  han  establecido  seis  competencias  específicas  que
+engloban dieciséis criterios de evaluación en 1.º y en 4.º de la ESO y diecisiete en 3.º de la ESO.
+Estas  competencias  comprenden  aspectos  relacionados  con  la  interpretación,  transmisión,
+localización y evaluación de información científica; la aplicación de las metodologías científicas en
+proyectos de investigación; el uso de estrategias para la resolución de problemas; el análisis y
+adopción de estilos de vida saludables y sostenibles; y la interpretación geológica del relieve.
+Las competencias específicas 1, 2, 3 y 4, y los criterios de evaluación asociados a ellas tienen un
+marcado carácter longitudinal, por lo que se trabajan a lo largo de toda la etapa con un tratamiento
+5
+
+=== Página 6 ===
+
+en espiral de complejidad creciente, atendiendo a los procesos cognitivos implicados, los saberes
+básicos  relacionados,  los  contextos  de  aprendizaje,  etc.,  de  tal  forma  que  el  alumnado  pueda
+construir los aprendizajes previstos en la competencia específica de manera gradual y paulatina. Por
+otro lado, los criterios de evaluación correspondientes a las competencias específicas 5 y 6 se han
+distribuido entre los tres cursos en los que se imparte la materia, acorde al momento evolutivo en el
+que  se  encuentra  el  alumnado  y  teniendo  en  cuenta  los  aprendizajes  de  los  saberes  básicos
+relacionados.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La  competencia  específica  1  cobra  sentido  en  este  currículo  ya  que  dota  al  alumnado  de  las
+capacidades y destrezas necesarias para interpretar y evaluar críticamente la información, extraer
+conclusiones  propias,  tomar  decisiones  coherentes  y  participar  en  interacciones  comunicativas
+constructivas, fundamentando sus argumentos de forma respetuosa y flexible. Esta competencia se
+concreta en tres criterios de evaluación. El primero aborda el análisis de conceptos y procesos
+biológicos y geológicos a través de la interpretación de información en diferentes formatos y la
+obtención de conclusiones. El segundo criterio se centra en la comunicación de información y de las
+opiniones propias  sobre  distintos aspectos  de  la  materia,  usando  la  terminología  y  el  formato
+adecuados.  El  tercer  criterio  plantea  el  diseño  y  la  realización  de  modelos  y  diagramas  para
+representar y explicar fenómenos biológicos y geológicos.
+Competencia específica 2 (C2)
+La competencia específica 2 prepara al alumnado para su autonom ía personal y profesional futuras
+y para contribuir positivamente en una sociedad democr ática mediante el desarrollo del sentido
+crítico y de las destrezas que le permitan evaluar y clasificar la información, distinguiendo las
+fuentes veraces de las de dudosa fiabilidad. Asimismo, con esta competencia específica se busca
+que el alumnado tome conciencia y valore la contribución de la ciencia a la sociedad y la labor de
+las científicas y científicos, entendiendo la investigación como una labor colectiva e interdisciplinar.
+Esta competencia comprende tres criterios de evaluación relacionados con la búsqueda, selección,
+organización, análisis y evaluación de información utilizando fuentes fiables y haciendo un uso
+seguro, saludable y sostenible de las tecnologías digitales para reconocer la información con base
+científica y diferenciarla de pseudociencias, bulos, etc.
+Competencias específicas 3 y 4 (C3 y C4)
+Las competencias específicas 3 y 4 tienen especial importancia en la materia, ya que el trabajo
+científico requiere de un método, que debe ser adquirido de manera gradual a lo largo de toda la
+etapa, y de la aplicación del pensamiento lógico-formal. La creación y participación en proyectos
+científicos  relacionados  con  la  realidad  del  alumnado  o  su  entorno  permite  cultivar  el
+autoconocimiento  y  la  confianza  ante  la  resolución  de  problemas,  adaptándose  a  los  recursos
+disponibles, a sus propias limitaciones, a la incertidumbre y a los retos que pueda encontrar y
+proporciona una oportunidad creativa y de crecimiento, impulsando la igualdad de oportunidades
+entre los alumnos y las alumnas y fomentando las vocaciones científicas desde una perspectiva de
+género. La competencia específica 3 tiene vinculados cinco criterios de evaluación en 1.º y 3.º de la
+ESO  y  cuatro  en  4.º,  en  los  que  se  trabajan  todos  los  pasos  de  las  metodologías  científicas:
+planteamiento de hipótesis, diseño y realización de proyectos de investigación o experimentación,
+6
+
+=== Página 7 ===
+
+análisis e interpretación de los resultados y conclusiones, valorando la importancia del trabajo
+colaborativo. Por otro lado, la competencia específica 4 se concreta en dos criterios de evaluación
+encaminados a la resolución de problemas biológicos o geológicos en distintas situaciones y al
+análisis de las soluciones propuestas, valorando su viabilidad y el impacto que puedan suponer en el
+entorno.
+Competencia específica 5 (C5)
+La competencia específica 5 pretende que el alumnado relacione la preservación de la biodiversidad
+y  la  conservación  del  medioambiente  con  el  desarrollo  sostenible  y  la  calidad  de  vida  para
+transformar su entorno próximo y valorar el impacto de sus acciones a nivel global. En los primeros
+cursos se indaga sobre el impacto y las consecuencias de las acciones humanas en el medioambiente
+y en la salud y sobre la adopción de medidas que minimicen estos impactos para que al finalizar la
+etapa el alumnado tome conciencia de la importancia de mantener estilos de vida sostenibles,
+ecosocialmente  responsables  y  saludables  que  le  permitan  proponer  acciones  para  mantener  y
+mejorar la salud individual y colectiva de las personas y, en consecuencia, de nuestro planeta,
+entendiendo que los ecosistemas, y, por ende, la riqueza paisajística de Canarias, son vulnerables y
+determinadas acciones humanas tienen un impacto sobre ellos que debemos frenar y mitigar lo antes
+posible. Esta competencia se desarrolla en tres criterios de evaluación en 3.º de la ESO y en dos
+criterios en 1.º y en 4.º. En los dos primeros cursos, se espera a través de los criterios de evaluación
+que el alumnado relacione la preservación de la biodiversidad, la conservación del medioambiente,
+la protección de los seres vivos del entorno, el desarrollo sostenible y la calidad de vida y adoptar
+hábitos  sostenibles  y  saludables.  En  el  cuarto  curso,  además,  el  alumnado  debe  ser  capaz  de
+identificar los posibles riesgos naturales potenciados por las acciones humanas sobre una zona
+geográfica concreta.
+Competencia específica 6 (C6)
+La competencia específica 6 implica que el alumnado desarrolle los conocimientos y el espíritu
+crítico necesarios para reconocer el valor del patrimonio natural y el riesgo geológico asociado a
+una determinada área para adoptar una actitud de rechazo ante las prácticas urbanísticas, forestales,
+industriales  o  de  otro  tipo  que  pongan  en  peligro  vidas  humanas,  infraestructuras  o  espacios
+naturales. La concreción de esta competencia se realiza a través de un criterio de evaluación en 1.º y
+en 3.º de la ESO, orientado al estudio de ecosistemas cercanos y al desarrollo de acciones y
+proyectos de sensibilización que promuevan en la sociedad actitudes respetuosas y comprometidas
+con la naturaleza, y dos criterios de evaluación en 4.º de la ESO. El primero plantea al alumnado el
+análisis y la interpretación, a partir de los elementos que lo componen, de la historia geológica de
+un  relieve  del  entorno  próximo;  el  segundo  pone  el  foco  en  la  valoración  del  paisaje  como
+patrimonio natural y en la identificación tanto de los posibles riesgos naturales como del impacto de
+las acciones humanas, para proponer medidas y acciones contribuyan a su preservación.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los  saberes  básicos  constituyen  los  conocimientos,  destrezas  y  actitudes  que  posibilitan  el
+desarrollo de las competencias específicas de la materia a lo largo de la etapa. En Biología y
+7
+
+=== Página 8 ===
+
+Geología estos se estructuran en tres bloques comunes para toda la etapa: «Proyecto científico»,
+«Geología» y «La célula». En el tramo de la materia impartido entre 1.º y 3.º se añaden los bloques
+de «Seres vivos», «Ecología y sostenibilidad», «Cuerpo humano», «Hábitos saludables» y «Salud y
+enfermedad». En 4.º se incorporan los bloques de «Genética y evolución» y «La Tierra en el
+universo».
+En la materia de Biología y Geología, la mayoría de los saberes básicos pueden ser tratados de
+forma flexible en cualquiera de los seis bloques competenciales, por lo que es el profesorado, en su
+autonomía, quien debe estimar el saber básico más adecuado, adaptado al contexto educativo de
+aplicación,  para  implementar  los  aprendizajes  establecidos  en  cada  uno  de  los  bloques
+competenciales.
+Los tres bloques comunes, «Proyecto científico», «Geología» y «La célula», se desarrollan a lo
+largo de toda la etapa con diferentes niveles de concreción y graduación de los procesos cognitivos.
+En 1.º de la ESO, se añaden los bloques de «Seres vivos» y «Ecología y sostenibilidad», mientras
+que en 3.º de la ESO  se añaden los bloques «Ecología y sostenibilidad», «Cuerpo Humano»,
+«Hábitos saludables» y «Salud y enfermedad». Asimismo, los bloques de saberes básicos «Hábitos
+saludables» y «Salud y enfermedad» tienen un carácter transversal, pudiendo tratarse de forma
+conjunta e integrada dentro del bloque competencial «Cuerpo Humano». En 4.º de la ESO, se
+incorporan, a los bloques comunes, los bloques de «Genética y evolución» y «La Tierra en el
+universo».
+El Bloque I, «Proyecto científico», introduce al alumnado en el pensamiento y en los métodos
+científicos. Incluye saberes referidos al planteamiento de preguntas e hipótesis, la observación, la
+selección, organización y tratamiento de datos, el diseño y desarrollo de la experimentación, la
+utilización de fuentes de información, incluyendo especialmente las tecnologías digitales, así como
+el análisis y la comunicación de resultados, con el fin de proporcionar al alumnado la oportunidad
+de trabajar destrezas de manera gradual, a lo largo de toda la etapa, que pueden ser de gran utilidad
+no solo dentro del ámbito científico, sino también en su desarrollo personal y profesional y en su
+participación social. Además, a través de los saberes incluidos en este bloque se promueve la
+reflexión sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella,
+destacando a las mujeres científicas, especialmente a las investigadoras canarias, para fomentar la
+vocación científica y acabar con la brecha de género en el ámbito de la ciencia y de la tecnología.
+Desde 1.º de la ESO se persigue asentar e ir construyendo nuevos conocimientos y destrezas que
+permitan  al  alumnado  convertirse  en  ciudadanos  respetuosos  consigo  mismos,  con  las  demás
+personas y con el medio, con el material que utilizan o que está a su disposición, responsables,
+capaces de tener criterio propio y de mantener el interés por aprender a aprender.
+Se  pretende  que,  de  manera  progresiva,  se  vayan  familiarizando  con  el  trabajo  científico,
+adquiriendo nociones básicas y claras, destrezas elementales de manejo de la información que
+proporcionan los medios a su alcance, formarse en el uso de herramientas diversas para investigar,
+en recabar información, en la presentación de pequeños trabajos, potenciando también de esta
+manera su capacidad de expresión y comunicación en público, así como el cumplimiento de las
+normas básicas de comportamiento, trabajo y seguridad.
+El Bloque II, «Geología», est á formado por los conocimientos, destrezas y actitudes relacionados
+con la identificación de rocas y minerales del entorno, que se abordan en 1.º con la finalidad de que
+el alumnado tome conciencia de la importancia de la explotación sostenible de los mismos y valore
+tanto  la  limitación  de  cada  recurso  como  el  impacto  de  la  explotación  minera  en  los  países
+8
+
+=== Página 9 ===
+
+productores. En 3.º se inicia el estudio de la estructura interna de la Tierra, as í como de los saberes
+vinculados  con  la  tect ónica  de  placas,  para  explicar  procesos  geológicos  internos  como  el
+vulcanismo de Canarias o la sismicidad en bordes de placa y las teorías sobre el origen de los
+edificios insulares en Canarias. Finalmente, en 4.º se trabaja, además, la relación de los procesos
+geológicos internos y externos con los riesgos naturales y los principios de estudio de la historia
+terrestre  (actualismo,  horizontalidad,  superposición  de  eventos,  etc.)  que  se  aplicarán  en  la
+resolución de casos prácticos para reconocer el valor de nuestro patrimonio natural y el riesgo
+geológico.
+El Bloque III, «La célula», estudia la célula, los tipos celulares y su estructura en 1.º, la relación
+entre la función de los diferentes tejidos y las características de las células que los forman en 3.º y
+los procesos que tienen lugar durante la mitosis y la meiosis, diferenciando su función biológica, en
+4.º. Además, este bloque incluye técnicas de manejo del microscopio y de preparación de muestras
+para la observación de células y tejidos con el fin de reconocer células en preparaciones reales.
+En 1.º de la ESO se incorporan dos bloques de saberes b ásicos, además de los tres bloques comunes
+anteriores. El primero es el Bloque IV , «Seres vivos», que comprende los saberes necesarios para el
+estudio  de  las  caracter ísticas  y  grupos  taxon ómicos  m ás  importantes  de  seres  vivos  y  la
+identificación de ejemplares del entorno con el fin de poner en valor el patrimonio natural canario y
+concienciar sobre la riqueza, a la vez que la fragilidad de la biodiversidad de los ecosistemas
+insulares.
+El segundo bloque, «Ecología y sostenibilidad», es común para 1.º y 3.º. En 1.º se aborda el
+concepto de ecosistema, la relación entre los elementos que lo integran y la importancia de su
+conservación mediante la implantación de un modelo de desarrollo sostenible. Se pretende que el
+alumnado entienda y valore la importancia de preservar el medioambiente por las repercusiones que
+tiene sobre su salud y para que adopte estilos de vida sostenibles y saludables. En 3.º se inicia al
+alumnado  en  el  conocimiento  del  suelo  y  se  profundiza  en  el  estudio  de  problemas
+medioambientales como el calentamiento global, para analizar la situación medioambiental actual
+de Canarias y su relación con los Objetivos de Desarrollo Sostenible (ODS).
+En 3.º se incorporan tres bloques más. El Bloque V , «Cuerpo humano», que estudia el organismo
+desde un punto de vista anal ítico y hol ístico a trav és del funcionamiento y la anatom ía de los
+aparatos implicados en la nutrición, relación y reproducción con el fin de que el alumnado conozca
+su propio cuerpo y valore la importancia de la adopción de estilos de vida saludables. El Bloque VI,
+«Hábitos  saludables»,  se  compone  de  los  saberes  básicos  acerca  de  los  comportamientos
+beneficiosos para la salud (física, mental y social) con respecto a la nutrición y a la sexualidad,
+además de los efectos perjudiciales de las adicciones con sustancia (drogas legales e ilegales) y sin
+sustancia (conductuales: tecnologías, ludopatía) sobre la salud, para contribuir en la adquisición de
+un óptimo desarrollo del bienestar físico, mental y social de cada individuo y lo que implica en el
+progreso de un planeta saludable y sostenible. Y , por último, en el Bloque VII, denominado «Salud
+y enfermedad», se incluyen los mecanismos de defensa del organismo contra los pat ógenos, el
+funcionamiento  de  las  vacunas  y  antibióticos  para  justificar  su  relevancia  en  la  prevención  y
+tratamiento de enfermedades, y los saberes relacionados con los trasplantes y la importancia de la
+donación de órganos para el beneficio social y personal.
+Asimismo, en 4.º se incorporan dos bloques a la materia. Por un lado, el Bloque IV , «Genética y
+Evolución», donde se tratan las leyes y los mecanismos de herencia genética, la expresión génica, la
+estructura del ADN, las teorías evolutivas más relevantes y la resolución de problemas donde se
+9
+
+=== Página 10 ===
+
+apliquen  estos  conocimientos  para  comprender  la  importancia  de  los  descubrimientos  y
+acontecimientos, a la luz de los saberes actuales, en el campo de la biología molecular. Y , por otro
+lado, el bloque «La Tierra en el universo», que incluye los saberes relacionados con el estudio de las
+teorías más relevantes sobre el origen del universo, las hipótesis sobre el origen de la vida en la
+Tierra y las principales investigaciones en el campo de la astrobiología con el fin de apreciar las
+condiciones naturales del cielo en Canarias y su contribución a la astronomía mundial.
+Los saberes mencionados anteriormente  deben trabajarse  de manera  competencial  para que su
+adquisición vaya siempre ligada al desarrollo de las competencias específicas de la materia que, a su
+vez, contribuyen a la mejora de las competencias clave. En otras palabras, los saberes básicos son el
+medio para trabajar las competencias específicas, pero también los conocimientos mínimos de
+ciencias biológicas y geológicas que el alumnado debe adquirir.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+El diseño de las situaciones de aprendizaje debe partir de los criterios de evaluación e integrar los
+elementos curriculares de la materia mediante tareas y actividades competenciales, significativas y
+relevantes,  que  permitan  al  alumnado  resolver  problemas  de  manera  creativa  y  cooperativa,
+reforzando la autoestima, la autonomía, la reflexión crítica y la responsabilidad. Quien aprende es el
+centro del proceso de aprendizaje. Este enfoque, basado en los principios de actividad (acción) y de
+experiencia  (vivencia)  del  alumnado,  requiere  de  metodologías  innovadoras  que  impulsen  la
+participación y la inclusión (aprendizaje cooperativo, aprendizaje basado en proyectos, aprendizaje
+basado en el pensamiento, aprendizaje-servicio, aprendizaje basado en el juego…) y de modelos de
+enseñanza  (indagación  científica,  investigación  guiada,  investigación  grupal,  juego  de  roles,
+jurisprudencial…) que reconozcan al alumnado como agente de su propio aprendizaje, donde se
+construye  el  conocimiento  utilizando,  siempre  que sea  posible,  contextos de  colaboración  que
+supongan la asunción de las responsabilidades individuales y grupales y en los que el profesorado
+actúe  como  guía  o  facilitador.  As í  planteadas,  las  situaciones  de  aprendizaje  constituyen  un
+componente que, alineado con los principios del Dise ño Universal para el Aprendizaje (DUA),
+permite aprender a aprender y sentar las bases para el aprendizaje a lo largo de la vida, fomentando
+procesos pedag ógicos flexibles y accesibles que  se ajusten a  las necesidades, caracter ísticas y
+diferentes ritmos de aprendizaje del alumnado. Para ello, deben promoverse en las situaciones de
+aprendizaje agrupamientos variados que posibiliten la atención individualizada, pero sobre todo el
+trabajo entre iguales (trabajo individual, trabajo en parejas o trabajo en grupos), el uso de espacios
+10
+
+=== Página 11 ===
+
+diversos, del centro y del entorno cercano, recursos en diferentes formatos, etc., que contribuyan al
+logro de los aprendizajes y permitan atender a la diversidad.
+Asimismo, el diseño de las situaciones de aprendizaje debe poner especial cuidado en que las
+actividades estén secuenciadas de forma adecuada, de manera que el aprendizaje se vea como un
+proceso integral que parte de lo simple para abordar lo complejo, de lo superficial a lo profundo y
+de lo aislado a lo integrado y que contemplen actividades de activaci ón, de demostraci ón, de
+aplicación y de integración. A lo largo del proceso se debe valorar el progreso que va alcanzando el
+alumnado, así como las dificultades que surgen, para introducir las modificaciones oportunas que
+permitan  alcanzar  los  objetivos  que  se  pretenden.  Además,  las  actividades  han  de  plantearse
+debidamente  contextualizadas,  de  manera  que  el  alumnado  comprenda  que  su  realización  es
+necesaria  como  forma  de  buscar  posibles  respuestas  a  preguntas  o  problemas  previamente
+formulados. Por ello, los trabajos de carácter experimental han de guardar una estrecha relación con
+lo que en ese momento se esté trabajando en el aula. Es aconsejable también, siempre que se pueda,
+planificar situaciones de aprendizaje a partir de experiencias próximas al alumnado vinculadas al
+medio natural en Canarias para poner en valor el patrimonio natural como parte inseparable de la
+sociedad.
+Por otro lado, las actividades realizadas por los alumnos y alumnas, tanto de manera individual
+como colaborativa, de trabajo bibliográfico, de laboratorio o de campo, deben ir acompañadas de
+informes para comunicar y discutir los resultados ante el resto del grupo y, en su caso, para su
+difusión en el centro educativo, apoyándose en las tecnologías digitales como medio para transmitir
+la información. El uso de las tecnologías se debe potenciar, además, como fuente de información,
+como medio de colaboración para construir conocimiento y crear contenidos, para estudiar procesos
+que no pueden llevarse a cabo en los laboratorios escolares o representar fenómenos de difícil
+realización experimental a través de simulaciones interactivas, laboratorios virtuales o para ver
+estructuras celulares, partes de la anatomía, etc., teniendo en cuenta que la utilización de estos
+medios implica hacerlo de manera segura, saludable, crítica, responsable, reflexiva y ética y que
+requiere una planificación adecuada que tenga en cuenta los objetivos que se pretenden conseguir.
+Por último, el diseño de las situaciones de aprendizaje debe incluir, desde su inicio, la evaluación y
+calificación, seleccionando instrumentos de evaluación variados que permitan evidenciar, de forma
+clara  y  conjunta,  la  adquisición  de  los  aprendizajes  y  el  nivel  de  logro  de  las  competencias
+vinculadas a los criterios de evaluación, procurando que, además de la heteroevaluación llevada a
+cabo por el docente o la docente, se recoja la autoevaluación y la coevaluación por parte del
+alumnado.
+La enseñanza de la Biología y Geología debe también ofrecer una ciencia vinculada a las personas y
+que introduzca las biografías de científicos y científicas (incluyendo españolas en general y canarias
+en particular) de forma contextualizada, y en especial teniendo en cuenta la contribución de las
+mujeres a la ciencia para fomentar las vocaciones científicas (STEM) entre el alumnado y, en
+especial, entre las alumnas.
+11
+
+=== Página 12 ===
+
+1.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando
+diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL5, STEM4, CD2, CD3,
+CCEC4
+Criterios de evaluación
+1.1. Explicar conceptos y procesos biológicos y geológicos interpretando información en diferentes
+formatos, con el fin de elaborar conclusiones y compartir conocimiento con actitud cooperativa y
+respetuosa.
+CCL1, CCL2, STEM4
+1.2. Transmitir información sobre procesos biológicos y geológicos o textos científicos divulgativos
+sencillos de forma clara y utilizando el vocabulario y los formatos adecuados con el fin de facilitar su
+comprensión y generar curiosidad e interés por la ciencia.
+CCL1, CCL2, CCL5, STEM4, CD3,
+CCEC4
+1.3. Explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas
+utilizando, cuando sea posible, algún paso del diseño de ingeniería y herramientas digitales, para crear
+nuevos contenidos y generar de forma colaborativa productos comunicativos en diversos soportes.
+CCL1, STEM4, CD2, CCEC4
+Explicación del bloque competencial
+12
+
+=== Página 13 ===
+
+A través de este bloque competencial se pretende comprobar que el alumnado es capaz de interpretar datos e información científica en diferentes
+formatos (textos científicos divulgativos sencillos, libros, esquemas, gráficos y tablas, imágenes, páginas web…) para explicar, con corrección y
+haciendo uso del vocabulario adecuado, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de saberes
+básicos de la materia, como las características y propiedades de los minerales y rocas más relevantes, el concepto de especie, las consecuencias de la
+pérdida de la biodiversidad canaria, las características de los principales reinos de seres vivos, las causas del cambio climático y sus consecuencias
+sobre los ecosistemas canarios, entre otros, apoyándose en el uso de esquemas, vídeos, presentaciones, etc., y utilizando, cuando sea necesario,
+alguno de los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora). También se pretende
+constatar si es capaz, a partir de la información obtenida, de elaborar algunas conclusiones con ayuda y compartirlas de forma clara y con actitud
+respetuosa, utilizando herramientas digitales en la realización de diferentes productos (murales, carteles, presentaciones, exposiciones orales…) de
+forma colaborativa para facilitar su transmisión y comprensión y generar en las demás personas curiosidad e interés por la ciencia. Todo ello con el
+fin de que el alumnado comprenda el valor que tiene el intercambio de información y la colaboración entre las personas para el desarrollo de los
+avances científicos y para el progreso humano.
+Competencia específica
+2. Identificar, localizar y seleccionar informaci ón, contrastando su veracidad, organiz ándola y
+evaluándola cr íticamente, para resolver preguntas relacionadas con las ciencias biol ógicas y
+geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, CD1, CD2, CD4, CPSAA4
+Criterios de evaluación
+2.1. Localizar, seleccionar y organizar de manera guiada información de distintas fuentes, respetando
+la propiedad intelectual, para resolver cuestiones biológicas y geológicas relacionadas con el medio
+natural
+CCL3, CD1, CD2
+13
+
+=== Página 14 ===
+
+2.2. Reconocer la información sobre temas biológicos y geológicos con base científica comprobando
+las fuentes con el  fin  de distinguirla  de pseudociencias, bulos, teorías conspiratorias y creencias
+infundadas, y mantener una actitud escéptica ante estos.
+CCL3, CD1, CPSAA4
+2.3. Valorar, a partir de información procedente de distintas fuentes, la contribución de la ciencia a la
+sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, con
+el fin de comprender su relación con la mejora de la calidad de vida, destacando y reconociendo a las
+mujeres  científicas  y entendiendo la  investigación como  una labor  colectiva  e interdisciplinar en
+constante evolución.
+CCL3, CD1, CD2, CD4
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de localizar, seleccionar y organizar, de manera guiada, información
+de diferentes fuentes (libros, revistas, periódicos, páginas web, pódcast, vídeos, etc.), respetando la propiedad intelectual, para resolver preguntas
+sobre biología y geología relacionados con los distintos bloques de saberes básicos de la materia (los seres vivos, las rocas y los minerales, la
+contaminación atmosférica y acuática, el medio natural…) y compartir contenidos haciendo uso de herramientas digitales. Asimismo, se pretende
+verificar si el alumnado realiza autoevaluaciones sobre su proceso de aprendizaje, comprobando las fuentes y tomando conciencia de la necesidad de
+hacer un uso cr ítico, legal, seguro, saludable y sostenible de las tecnolog ías para reconocer la información con base científica y distinguirla de
+aquellas sin base científica, como pseudociencias, creencias infundadas, bulos, etc., manteniendo una actitud escéptica hacia estos. Finalmente, se
+quiere constatar que el alumnado valora la contribución de la ciencia a la sociedad y reconoce la labor de las personas dedicadas a ella, con
+independencia de su etnia, sexo o cultura, destacando a las mujeres científicas, mediante la realización, de forma cooperativa, de referencias
+bibliográficas o noticias sobre científicas canarias en el campo de las ciencias experimentales, y entendiendo la investigación como una labor
+colectiva e interdisciplinar en constante evolución. Todo ello con el fin de que el alumnado se inicie en las destrezas necesarias para reconocer la
+información veraz y distinguirla de aquella que no siempre refleja la realidad.
+14
+
+=== Página 15 ===
+
+Competencia específica
+3. Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías
+científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las
+ciencias geológicas y biológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM1, STEM2,
+STEM3, STEM4, CD1, CD2, CPSAA3,
+CC3
+Criterios de evaluación
+3.1. Plantear preguntas e hipótesis que puedan ser respondidas utilizando las destrezas propias del
+trabajo científico para intentar explicar fenómenos biológicos y geológicos.
+CCL1, CCL3, STEM1, STEM2, STEM3,
+STEM4
+3.2. Diseñar pequeños proyectos de investigación relacionados con procesos y fenómenos biológicos y
+geológicos que supongan la experimentación, la toma de datos y el análisis de los mismos con la
+finalidad de poder dar respuesta a preguntas concretas.
+CCL2, STEM1, STEM2, STEM3, STEM4,
+CE3
+3.3. Realizar de manera colaborativa experimentos sencillos sobre fenómenos biológicos y geológicos,
+utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y respetando las normas
+de uso y seguridad en el laboratorio, con el fin de fomentar el pensamiento científico, valorar la
+importancia del trabajo en equipo y comprender el alcance y las limitaciones de la ciencia.
+CCL3, STEM1, STEM2, STEM3, CD1,
+CPSAA3
+3.4. Describir o interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando
+sea  necesario,  herramientas  matemáticas  y  tecnológicas  para  compartir  información  y  obtener
+conclusiones de manera razonada
+CCL1, CCL2, STEM1, STEM4, CD2
+3.5. Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta,
+utilizando  espacios  virtuales  cuando  sea  necesario  y  empleando  algunas  estrategias  de  trabajo
+CPSAA3
+15
+
+=== Página 16 ===
+
+cooperativo  con  el  fin  de  aceptar  tareas y responsabilidades de manera  equitativa,  respetando  la
+diversidad y la igualdad de género y favoreciendo la inclusión.
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar pequeños trabajos de investigación que supongan
+la experimentación o toma de datos de manera cooperativa relacionados con el medio natural canario, los efectos de la contaminación sobre la salud
+y el medioambiente, el cambio climático, los seres vivos, la célula, etc., consultando fuentes de información variadas (libros, periódicos, revistas,
+páginas web….) y aplicando las destrezas propias del trabajo científico en la elaboración de hipótesis, la utilización del material básico de
+laboratorio y de campo, el respeto a las normas de seguridad, la explicación del proceso seguido y la descripción de las observaciones. También se
+comprobará  que  el  alumnado  es  capaz  de  describir  los  resultados  obtenidos  utilizando,  cuando  sea  necesario,  herramientas  matemáticas  y
+tecnológicas para obtener conclusiones razonadas y comunicarlas, utilizando el vocabulario adecuado, mediante exposiciones verbales, escritas o
+visuales en diversos soportes. Finalmente, se quiere evaluar si el alumnado es capaz de trabajar de forma colaborativa en las distintas fases del
+proyecto científico, utilizando espacios virtuales cuando sea necesario, si acepta responsabilidades y persevera en la tarea y si valora el trabajo y la
+contribución de las demás personas en los procesos de revisión y mejora, favoreciendo la inclusión y el respeto la diversidad y a la igualdad de
+género. Todo ello con el fin de que el alumnado se inicie en el conocimiento y aplicación de las metodologías científicas  a través del desarrollo de
+pequeños proyectos de investigación, relacionados con su realidad más cercana o con su entorno, trabajando destrezas que le serán de  gran utilidad
+no solo dentro del ámbito científico, sino también en su desarrollo personal, profesional y en su participación social.
+Competencia específica
+4.  Utilizar  el  razonamiento  y  el  pensamiento  computacional,  analizando  críticamente  las
+respuestas  y  soluciones  y  reformulando  el  procedimiento,  si  fuera  necesario,  para  resolver
+problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la
+geología.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM2, CD5, CPSAA5, CE1,
+CE3, CCEC4
+16
+
+=== Página 17 ===
+
+Criterios de evaluación
+4.1.  Resolver  problemas  sencillos  de  forma  guiada  o  dar  explicación  a  procesos  biológicos  o
+geológicos a partir de datos e información proporcionados por el profesorado, el razonamiento lógico,
+el pensamiento computacional o recursos digitales, valorando la contribución de la ciencia en la
+construcción del conocimiento, para generar productos colaborativos y presentar ideas sostenibles.
+STEM1, STEM2, CD5, CCEC4
+4.2. Analizar de forma razonada la solución a un problema sobre fenómenos biológicos y geológicos
+con el fin de valorar su viabilidad y buscar, utilizando estrategias de trabajo cooperativo, soluciones
+alternativas si esta no lo fuese.
+STEM1, STEM2, CPSAA5, CE1, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas sencillos o explicar procesos biológicos o
+geológicos de la vida cotidiana relacionados con el medio natural y los seres vivos (conservación y protección de los ecosistemas canarios, la
+contaminación, causas del cambio climático, relaciones ecosociales de interdependencia y ecodependencia, estrategias para la identificación de
+especies, biodiversidad…), utilizando datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional
+o recursos digitales (animaciones, simulaciones…). Se evaluará, asimismo, si el alumnado es capaz de analizar de forma razonada la solución a un
+problema sobre fenómenos biológicos o geológicos de forma cooperativa, reflexionando sobre su viabilidad y proponiendo soluciones alternativas, si
+esta no lo fuese. Por último, se pretende comprobar si el alumnado muestra persistencia y confianza ante problemas difíciles de solucionar y si
+desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores. Todo ello con el fin de desarrollar destrezas como el
+razonamiento lógico, a través de la resolución de problemas y la construcción de los conceptos que el alumnado pueda aplicar en diferentes
+situaciones de la vida.
+17
+
+=== Página 18 ===
+
+Competencia específica
+5. Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, bas ándose
+en los fundamentos de las ciencias biol ógicas y de la Tierra, para promover y adoptar h ábitos
+que  eviten  o  minimicen  los  impactos  medioambientales  negativos,  sean  compatibles  con  un
+desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA2, CC3, CC4, CE1
+Criterios de evaluación
+5.1.  Relacionar  la  preservación  de  la  biodiversidad  en  general  y  de  la  canaria  en  particular,  la
+conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo
+sostenible y la calidad de vida, valorando la importancia de los recursos naturales y de determinados
+grupos de seres vivos en el mantenimiento de la salud del planeta con el fin de emprender acciones que
+contribuyan a la protección y mejora del entorno más próximo.
+STEM2, STEM5, CPSAA1, CPSAA2,
+CC4, CE1
+5.2. Proponer y adoptar hábitos sostenibles, a partir de las actividades propias y ajenas, utilizando sus
+propios razonamientos, los conocimientos adquiridos y la información disponible a través de distintas
+fuentes, con el objetivo de presentar ideas y soluciones innovadoras, éticas y sostenibles dirigidas a
+mejorar la calidad de vida del entorno próximo.
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA2, CC3, CC4, CE1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar la preservación de la biodiversidad de las islas Canarias,
+la conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo sostenible y la calidad de vida, reconociendo y
+analizando los efectos de determinadas acciones sobre el medioambiente (destrucción de hábitats, sobreexplotación de recursos, cambio climático,
+contaminación de la atmósfera, pérdida de la biodiversidad… ), mediante la información recabada en salidas de campo y la contenida en fuentes y
+soportes variados (páginas web, fotografías, vídeos, prensa, etc.), desarrollando un espíritu crítico en defensa de la protección y conservación del
+18
+
+=== Página 19 ===
+
+medio natural. Asimismo, se pretende constatar que el alumnado analiza las actividades personales y ajenas a partir de los propios razonamientos, de
+los conocimientos adquiridos, de la información disponible y de los datos recogidos a través de entrevistas a personas del entorno, cuestionarios…,
+para, a partir de los resultados obtenidos, organizar acciones divulgativas (carteles, folletos, anuncios publicitarios, artículos, exposiciones…) que
+presenten ideas innovadoras y éticas, con la finalidad de promover en su entorno cercano la adopción de estilos de vida sostenibles que eviten o
+minimicen los impactos medioambientales negativos, principalmente en Canarias, y mejoren la calidad de vida del entorno próximo y del planeta
+según el concepto one health (una sola salud): de los seres humanos, de otros seres vivos y del entorno natural.
+Competencia específica
+6.  Analizar  los  elementos  de  un  paisaje  concreto  valor ándolo  como  patrimonio  natural  y
+utilizando  conocimientos  sobre  Geolog ía  y  Ciencias  de  la  Tierra  para  explicar  su  historia
+geológica,  proponer  acciones  encaminadas  a  su  protecci ón  e  identificar  posibles  riesgos
+naturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM2, STEM5, CC4, CE1,
+CCEC1
+Criterios de evaluación
+6.1. Valorar la importancia del paisaje de las islas Canarias como patrimonio natural a través del
+estudio de algunos ecosistemas y analizar la fragilidad de los elementos que lo componen con el fin de
+planificar acciones preventivas relacionadas con los impactos generados por el ser humano, adoptando
+una postura crítica ante las alteraciones del medio natural.
+STEM1, STEM2, STEM5, CC4, CE1,
+CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado valora la importancia del paisaje canario como patrimonio natural y analiza,
+adoptando una postura crítica, la fragilidad de los elementos que lo componen (flora, fauna, minerales, agua, relieve…) a través de la observación de
+algún paisaje o ecosistema del entorno cercano o de modelos de paisajes (fotos, láminas, vídeos…), exponiendo aquellos factores que pueden afectar
+19
+
+=== Página 20 ===
+
+negativamente al medio natural y destacando los relacionados con la actividad humana. Asimismo, se pretende evaluar si el alumnado valora la
+importancia que tiene la Red Canaria de Espacios Naturales Protegidos en la conservación de la naturaleza y en el mantenimiento de la biosfera y si
+planifica y selecciona, de forma cooperativa, un conjunto de acciones preventivas que ayuden a la restauración y conservación del entorno y a
+promover una gestión más racional de los recursos naturales, principalmente en Canarias, acorde con los Objetivos de Desarrollo Sostenible (ODS)
+de la Agenda 2030, comunicando sus conclusiones a través de diversas producciones (carteles, pódcast, vídeos, anuncios publicitarios…) en las que
+se reconozca la fragilidad del medioambiente.
+20
+
+=== Página 21 ===
+
+Saberes básicos
+I. Proyecto científico
+ 1. Aproximación a los pasos del método científico (hipótesis, preguntas y conjeturas) a través
+de ejemplos de la vida cotidiana.
+ 2. Utilización  de  estrategias  para  la  búsqueda  de  información,  la  colaboración  y  la
+comunicación de procesos, resultados o ideas científicas.
+ 3. Reconocimiento y utilización de fuentes fidedignas de información científica para evitar los
+riesgos de desinformación.
+ 4. Utilización de herramientas digitales y formatos de uso frecuente en ciencia (presentación,
+gráfica, vídeo, póster, informe, etc.).
+ 5. Uso de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, huertos, etc.) para
+dar respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo.
+ 6. Empleo del modelado como método práctico de representación y comprensión de procesos o
+elementos de la naturaleza.
+ 7. Comprensión del papel de la mujer en la ciencia y la relevancia de las personas que se
+dedican  a  ella  en  Canarias para  apreciar  su contribución  a  la  sociedad  y  fomentar  las
+vocaciones científicas (STEAM).
+II. Geología
+ 1. Indagación  acerca  de  las  características  y  propiedades  de  los  minerales  y  rocas  más
+relevantes y sus aplicaciones más frecuentes en el ámbito de la vida cotidiana.
+ 2. Uso de claves  dicotómicas  y  de  la  observación  para  clasificar  las  rocas:  sedimentarias,
+metamórficas e ígneas. Interpretación del ciclo de las rocas.
+ 3. Identificación de rocas y minerales de Canarias y su localización en paisajes concretos.
+ 4. Reconocimiento de la importancia de la explotación sostenible y del uso de minerales y
+rocas, valorando tanto la limitación de cada recurso como el impacto de la explotación
+minera en los países productores.
+III. La célula
+ 1. Identificación de la célula como unidad estructural y funcional de los seres vivos a partir de
+la comparativa entre la materia inerte y la materia viva.
+ 2. Utilización de la microscopía óptica e interpretación de imágenes para indagar sobre las
+diferencias y semejanzas entre la célula procariota, la célula eucariota animal y la célula
+eucariota vegetal.
+IV . Seres vivos
+ 1. Reconocimiento de los rasgos que permiten determinar el concepto de especie.
+21
+
+=== Página 22 ===
+
+2. Clasificación de los seres vivos en los principales reinos a partir de la comparación de sus
+características.
+ 3. Utilización de estrategias para la identificación y clasificación de las especies del entorno en
+los principales grupos taxonómicos (guías, claves dicotómicas, herramientas digitales, visu,
+etc.).
+ 4. Valoración  de  la  biodiversidad  canaria  como  patrimonio  natural  único.  Estudio  de  las
+consecuencias de su pérdida y medidas para su conservación.
+ 5. Fomento de la sensibilidad y empatía hacia los seres vivos y reconocimiento de los animales
+como seres sintientes.
+V . Ecología y sostenibilidad
+ 1. Descripción de las características de los ecosistemas acuáticos y terrestres de Canarias a
+través del estudio de los componentes bióticos, abióticos y de las relaciones intraespecíficas
+e interespecíficas entre sus elementos.
+ 2. Valoración de la variedad y riqueza de los ecosistemas canarios. Estrategias para su cuidado,
+conservación y protección.
+ 3. Importancia de la atmósfera y la hidrosfera en el mantenimiento de la vida en la tierra.
+ 4. Investigación  sobre  la  contaminación  atmosférica  y  acuática  y  sus  repercusiones  en  el
+medioambiente y la salud. Formulación de propuestas que contribuyan a mejorar su calidad.
+ 5. Identificación de las causas del cambio climático y sus consecuencias sobre los ecosistemas
+canarios. Implantación de un modelo de desarrollo sostenible como única alternativa posible
+para el logro de los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
+ 6. Diseño e implementación de un plan de vida saludable y sostenible como opción de cambio
+individual para mejorar colectivamente la salud del planeta.
+ 7. Valoración  de  las  relaciones  ecosociales  de  interdependencia  y  ecodependencia  como
+alternativas de transformación ante la actual situación de emergencia socio-climática.
+ 8. Análisis de la relación entre la salud medioambiental, humana y de otros seres vivos:  one
+health (una sola salud).
+ 9. Importancia  de  adoptar  estilos  de  vida  sostenibles  (consumo  responsable,  movilidad
+sostenible,  economía  circular,  etc.)  y  saludables  (salud  física,  mental  y  social)  para
+contribuir al bienestar de las personas y del planeta.
+22
+
+=== Página 23 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando
+diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL5, STEM4, CD2, CD3,
+CCEC4
+Criterios de evaluación
+1.1. Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes
+formatos con el fin de extraer conclusiones propias y fundamentadas.
+CCL1, CCL2, STEM4, CD2
+1.2. Transmitir información sobre procesos biológicos y geológicos o trabajos científicos con rigor y
+utilizando la terminología y los formatos adecuados con el fin de facilitar su comprensión y establecer
+interacciones  comunicativas  constructivas  mediante  la  argumentación  fundamentada,  respetuosa  y
+flexible.
+CCL1, CCL2, CCL5, STEM4, CD3,
+CCEC4
+1.3. Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y
+diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería y herramientas digitales
+para guiar el desarrollo de creación de nuevos contenidos y generar productos comunicativos, tanto de
+forma individual como colaborativa.
+CCL1, CCL2, STEM4, CD2, CD3, CCEC4
+Explicación del bloque competencial
+23
+
+=== Página 24 ===
+
+A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar datos e información científica en diferentes formatos
+(gráficos, tablas, imágenes, símbolos, páginas web…) aplicando estrategias de tratamiento de la información para analizar y explicar, haciendo uso
+de la terminología adecuada, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de saberes básicos de la
+materia, como la estructura de la geosfera y su dinámica interna, las interacciones entre la atmósfera, la hidrosfera, la geosfera y la biosfera, la
+situación medioambiental actual de Canarias, la relación entre los principales sistemas y aparatos del organismo, la relevancia de las vacunas o los
+mecanismos  de  defensa  del  organismo  frente  a  patógenos,  entre  otros,  apoyándose  en  el  uso  de  esquemas,  vídeos,  modelos,  diagramas,
+presentaciones, etc., y utilizando, cuando sea necesario, los pasos del diseño de ingeniería (identificación del problema, exploración, diseño,
+creación, evaluación y mejora) y herramientas digitales. También se pretende constatar si es capaz, a partir de la información obtenida, de extraer sus
+propias conclusiones y de argumentarlas, evitando el uso discriminatorio del lenguaje, generando productos comunicativos (pódcasts, murales,
+carteles,  presentaciones,  exposiciones  orales…)  de  forma  colaborativa  para  compartir  y  transmitir  la  información  mediante  herramientas  o
+plataformas virtuales, gestionando su presencia y visibilidad en la red y ejerciendo una ciudadan ía digital activa, cívica y reflexiva. Todo ello con el
+fin de que el alumnado tome conciencia de la importancia que tiene la transmisión de conocimientos para el avance de la ciencia y para el progreso
+de una sociedad en la que deberá tener una participación activa.
+Competencia específica
+2. Identificar, localizar y seleccionar informaci ón, contrastando su veracidad, organiz ándola y
+evaluándola cr íticamente, para resolver preguntas relacionadas con las ciencias biol ógicas y
+geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM4, CD1, CD2, CD3, CD4,
+CD5, CPSAA4
+Criterios de evaluación
+2.1.  Localizar,  seleccionar,  contrastar  y  organizar  de  manera  autónoma  información  de  distintas
+fuentes,  citándolas  correctamente  y  respetando  la  propiedad  intelectual  para  resolver  cuestiones
+CCL3, CD1, CD2, CD3, CD4, CD5
+24
+
+=== Página 25 ===
+
+biológicas y geológicas relacionadas con el medio natural.
+2.2. Reconocer información sobre temas biológicos y geológicos con base científica aplicando criterios
+de  validez,  calidad,  actualidad  y  fiabilidad  con  el  fin  de  evitar  los  riesgos  de  manipulación  y
+desinformación y distinguirla de pseudociencias, bulos, teorías conspiratorias y creencias infundadas,
+manteniendo una actitud escéptica ante estos.
+CCL3, STEM4, CD1, CPSAA4
+2.3. Valorar, a partir de información procedente de distintas fuentes, la contribución de la ciencia a la
+sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, con
+el fin de tomar conciencia de su importancia para la mejora de la calidad de vida y para el desarrollo
+de la humanidad, destacando y reconociendo a las mujeres científicas y entendiendo la investigación
+como una labor colectiva e interdisciplinar en constante evolución.
+CCL3, CD1, CD2, CD4, CPSAA4
+Explicación del bloque competencial
+A través de  este bloque  competencial se comprobará que el alumnado es capaz de localizar,  seleccionar, contrastar y organizar, de  manera
+progresivamente  autónoma,  información  de  diferentes  fuentes  (libros,  revistas,  periódicos,  páginas  web,  pódcast,  vídeos,  etc.),  citándolas
+correctamente y respetando la propiedad intelectual, para resolver preguntas y profundizar en temas relacionados con los distintos bloques de saberes
+básicos de la materia (vulcanismo canario, tipos celulares, importancia del suelo en el mantenimiento de los ecosistemas, situación medioambiental
+actual de Canarias, el cuerpo humano, hábitos saludables, etc.), y compartir contenidos mediante herramientas y plataformas digitales. Asimismo, se
+pretende verificar si el alumnado realiza autoevaluaciones sobre su proceso de aprendizaje buscando fuentes fiables y aplicando criterios de validez,
+calidad,  actualidad  y  fiabilidad  para  reconocer  la  información  con  base  científica  y  evitar  los  riesgos  de  manipulación  y  desinformación,
+manteniendo una actitud escéptica hacia aquellas sin base científica como pseudociencias, creencias infundadas, bulos, etc., y tomando conciencia de
+la necesidad de hacer un uso cr ítico, legal, seguro, saludable y sostenible de las tecnolog ías. Finalmente, se quiere constatar que el alumnado valora
+la contribución de la ciencia a la sociedad y reconoce la labor de las personas dedicadas a ella, con independencia de su etnia, sexo o cultura,
+destacando a las mujeres científicas, a través de la indagación en fuentes diversas y posterior comunicación mediante una exposición sobre
+científicas canarias, y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución. Todo ello con el fin de que el
+25
+
+=== Página 26 ===
+
+alumnado desarrolle el sentido crítico y las destrezas necesarias para evaluar, clasificar y reconocer cuándo una información es veraz, preparándose
+de esta forma para su autonomía personal y profesional futura y para contribuir de forma activa y positiva en la sociedad.
+Competencia específica
+3. Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías
+científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las
+ciencias geológicas y biológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM1, STEM2,
+STEM3, STEM4, CD1, CD2, CPSAA3,
+CE3
+Criterios de evaluación
+3.1. Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las destrezas
+propias del trabajo científico para explicar fenómenos biológicos y geológicos e intentar realizar
+predicciones sobre estos.
+CCL1, STEM1, STEM2, STEM3, STEM4
+3.2. Diseñar proyectos de investigación que supongan la experimentación, la toma de datos y el
+análisis de fenómenos biológicos y geológicos con la finalidad de poder dar respuesta a preguntas
+concretas y contrastar una hipótesis planteada
+CCL2, STEM1, STEM2, STEM3, STEM4,
+CE3
+3.3.  Realizar,  de  manera  individual  o  colaborativa,  experimentos  y  tomar  datos  cuantitativos  o
+cualitativos  sobre  fenómenos  biológicos  y  geológicos  para  comprobar  una  hipótesis  planteada,
+utilizando los instrumentos, herramientas o técnicas adecuadas con precisión y corrección y respetando
+las normas de uso y seguridad en el laboratorio, con el objetivo de fomentar el pensamiento científico
+CCL3, STEM1, STEM2, STEM3, CD1,
+CPSAA3
+26
+
+=== Página 27 ===
+
+y mostrar una actitud crítica acerca del alcance y las limitaciones de la ciencia.
+3.4.  Interpretar  los  resultados  obtenidos  en  un  proyecto  de  investigación  utilizando,  cuando  sea
+necesario,  herramientas  matemáticas  y  tecnológicas  para  obtener  conclusiones  fundamentadas,
+reformulando el procedimiento si fuera preciso y comunicando los resultados en el formato adecuado.
+CCL1, CCL2, STEM1, STEM2, STEM4,
+CD2, CE3
+3.5.  Establecer  colaboraciones  en  las  distintas  fases  del  proyecto  científico,  utilizando  espacios
+virtuales  cuando  sea  necesario  y  empleando  estrategias  de  trabajo  cooperativo  con  el  fin  de
+comprender  las  perspectivas  de  las  demás  personas  e  incorporarlas  al  propio  aprendizaje,
+distribuyendo tareas y responsabilidades de manera equitativa, respetando la diversidad y la igualdad
+de género y favoreciendo la inclusión.
+CPSAA3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar proyectos de investigación siguiendo los pasos
+de las metodologías científicas, de manera individual o colaborativa, relacionados con la materia (medio natural, salud humana, hábitos saludables,
+etc.) que supongan la búsqueda, obtención y organización de la información de carácter científico a partir de la utilización de fuentes variadas
+(libros, revistas científicas, páginas web, prensa…), discriminando las más idóneas, o la realización autónoma de trabajo experimental de laboratorio
+o de campo que implique la toma de datos cuantitativos o cualitativos. Se pretende evaluar si el alumnado aplica las destrezas propias del trabajo
+científico cuando plantea preguntas e hipótesis justificadas y las contrasta, si utiliza los instrumentos, herramientas o técnicas adecuadas con
+precisión y corrección, si respeta las normas de uso y seguridad en el laboratorio, si argumenta el proceso seguido y si reformula el procedimiento si
+fuera preciso. Del mismo modo, se verificará que el alumnado es capaz de interpretar y analizar críticamente los resultados obtenidos utilizando,
+cuando sea necesario, herramientas matemáticas y tecnológicas para obtener conclusiones fundamentadas y comunicarlas, utilizando el vocabulario
+científico, mediante exposiciones orales, escritas o visuales en diversos soporte. Finalmente, se quiere comprobar si el alumnado es capaz de
+establecer colaboraciones en las distintas fases del proyecto científico, utilizando espacios virtuales cuando sea necesario, y emplear estrategias de
+trabajo cooperativo, distribuyendo tareas y responsabilidades de manera equitativa, mostrando respeto por las perspectivas y las experiencias de las
+demás personas para incorporarlas a su aprendizaje, favoreciendo la inclusión y el respeto a la diversidad y a la igualdad de género. Todo ello con el
+27
+
+=== Página 28 ===
+
+fin de que  el alumnado profundice en el conocimiento y aplicación de las  metodologías científicas a través del desarrollo de  proyectos de
+investigación, trabajando destrezas que le serán de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal,
+profesional y en su participación social.
+Competencia específica
+4.  Utilizar  el  razonamiento  y  el  pensamiento  computacional,  analizando  críticamente  las
+respuestas  y  soluciones  y  reformulando  el  procedimiento,  si  fuera  necesario,  para  resolver
+problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la
+geología.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM2, CD5, CPSAA5, CE1,
+CE3, CCEC4
+Criterios de evaluación
+4.1.  Resolver  problemas  o  dar  explicación  a  procesos  biológicos  o  geológicos  identificando  las
+variables o aspectos relevantes en cada caso para generar productos o soluciones éticas y sostenibles,
+utilizando datos e información proporcionados por la persona docente, el razonamiento lógico, el
+pensamiento computacional o recursos digitales.
+STEM1, STEM2, CD5, CCEC4
+4.2. Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos de
+forma cooperativa, reflexionando sobre el proceso realizado con el fin de valorar su viabilidad y tomar
+decisiones, si no lo fuese, para presentar soluciones alternativas.
+STEM1, STEM2, CPSAA5, CE1, CE3
+Explicación del bloque competencial
+28
+
+=== Página 29 ===
+
+A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas o dar explicación a procesos biológicos o
+geológicos de la vida cotidiana relacionados con los saberes básicos de los distintos bloques de la materia: el medioambiente (el calentamiento
+global, el cambio climático o la erosión y contaminación del suelo), la eficacia de las vacunas en la prevención de enfermedades infecciosas, los
+efectos de las adicciones, con sustancia y sin sustancia, sobre la salud o las relaciones entre los distintos sistemas del cuerpo humano, entre otros,
+identificando las variables o aspectos relevantes en cada caso y planteando modelos simplificados, formulando preguntas y comprobando hipótesis y
+utilizando sus propios conocimientos, datos e información obtenida mediante la observación o la experimentación, el razonamiento lógico, el
+pensamiento computacional o recursos digitales (animaciones, simulaciones, laboratorios virtuales…). Se evaluará, asimismo, si es capaz de analizar
+críticamente la solución a un problema sobre fenómenos biológicos o geológicos de forma cooperativa, valorando el impacto que puedan suponer en
+el entorno, y si reflexiona sobre el proceso realizado, valorando su viabilidad para tomar decisiones de forma razonada, si no lo fuese, y presentar
+ideas y soluciones alternativas. Por último, se valorará si el alumnado muestra persistencia y confianza ante problemas difíciles de resolver y si es
+capaz de desarrollar procesos metacognitivos de retroalimentación para aprender de sus errores. Todo ello con el fin de que el alumnado sea capaz de
+responder en entornos cambiantes y gestionar situaciones complejas de la vida cotidiana con resiliencia y haciendo uso del pensamiento lógico-
+formal.
+Competencia específica
+5. Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, bas ándose
+en los fundamentos de las ciencias biol ógicas y de la Tierra, para promover y adoptar h ábitos
+que  eviten  o  minimicen  los  impactos  medioambientales  negativos,  sean  compatibles  con  un
+desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA2, CC3, CC4, CE1
+Criterios de evaluación
+5.1.  Relacionar  la  preservación  de  la  biodiversidad,  especialmente  la  biodiversidad  de  las  islas
+Canarias, y la conservación del medioambiente con el desarrollo sostenible y la calidad de vida,
+STEM2, STEM5, CPSAA2, CC4, CE1
+29
+
+=== Página 30 ===
+
+valorando la importancia de los recursos naturales y de determinados grupos de seres vivos en el
+mantenimiento de la salud de la especie humana con el fin de diseñar y emprender un plan de acción,
+fundamentado científicamente, que contribuya a la protección y mejora del entorno más próximo y del
+planeta.
+5.2. Proponer y adoptar hábitos sostenibles, a partir del análisis crítico de las actividades propias y
+ajenas,  utilizando  sus  propios  razonamientos,  los  conocimientos  adquiridos  y  la  información
+disponible a través de distintas fuentes, con el objetivo de desarrollar y comunicar ideas y soluciones
+innovadoras, éticas y sostenibles dirigidas a mejorar la calidad de vida de nuestro planeta.
+STEM2, STEM5, CD4, CPSAA2, CC3,
+CC4, CE1
+5.3. Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica
+y teniendo en cuenta los conocimientos sobre el funcionamiento del cuerpo humano, con el objetivo de
+elaborar un plan de acción con medidas que permitan mantener y mejorar la salud individual y
+colectiva, argumentando su conveniencia y defendiéndolo de forma razonada ante las demás personas.
+STEM2, STEM5, CPSAA1, CPSAA2,
+CC3, CC4, CE1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar la preservación de la biodiversidad, especialmente la
+biodiversidad de las islas Canarias, y la conservación del medioambiente con el desarrollo sostenible y la calidad de vida, analizando los efectos de
+determinadas acciones sobre el medioambiente y la salud (destrucción de hábitats, erosión y contaminación del suelo, extinción directa de especies,
+sobreexplotación de recursos, acumulación de residuos, exposición a contaminantes y sustancias químicas presentes en la atmósfera, patologías de
+los aparatos implicados en la nutrición…) mediante la información recabada en salidas de campo y la contenida en fuentes y soportes variados
+(páginas web, fotografías, vídeos, artículos científicos, prensa, etc.). Asimismo, se pretende comprobar si el alumnado es capaz de analizar de forma
+crítica los estilos de vida y las acciones propias y ajenas, teniendo en cuenta fundamentos fisiológicos y la información disponible, para promover y
+adoptar hábitos de vida sostenibles y saludables que eviten o minimicen los impactos medioambientales negativos. Por último, se quiere constatar
+que el alumnado es capaz de afrontar retos con sentido crítico, optimismo y resiliencia, aplicando sus conocimientos para diseñar colaborativamente
+y emprender un plan de acción con medidas que contribuyan a la protección y mejora del entorno más próximo y del planeta según el concepto one
+30
+
+=== Página 31 ===
+
+health (una sola salud): de los seres humanos, de otros seres vivos y del entorno natural, defendiendo de forma argumentada y respetuosa su
+conveniencia y difundiéndolo mediante campañas, exposiciones, pódcasts, informes, artículos… Todo ello con la finalidad de que el alumnado
+conozca el funcionamiento de su cuerpo y comprenda que el desarrollo sostenible es un objetivo urgente y sinónimo de bienestar, salud y progreso
+económico.
+Competencia específica
+6.  Analizar  los  elementos  de  un  paisaje  concreto  valor ándolo  como  patrimonio  natural  y
+utilizando  conocimientos  sobre  Geolog ía  y  Ciencias  de  la  Tierra  para  explicar  su  historia
+geológica,  proponer  acciones  encaminadas  a  su  protección  e  identificar  posibles  riesgos
+naturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM4, STEM5,
+CD1, CC4, CE1, CCEC1
+Criterios de evaluación
+6.1. Interpretar el paisaje de las islas Canarias analizando sus elementos a través de la observación y de
+información en diferentes formatos con el fin de reflexionar sobre el impacto ambiental y los riesgos
+naturales derivados de determinadas acciones humanas, desarrollando proyectos de sensibilización, a
+nivel local, que promuevan en la sociedad actitudes respetuosas y comprometidas con la naturaleza.
+CCL3, STEM1, STEM2, STEM4, STEM5,
+CD1, CC4, CE1, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de interpretar el paisaje analizando sus elementos mediante la
+observación del entorno próximo o la utilización de imágenes (mapas, dibujos, fotografías, vídeos, animaciones…), completada con información
+científica recogida de fuentes diversas. Asimismo, se pretende evaluar si asocia la actividad humana con la transformación de la superficie terrestre y
+reflexiona sobre el impacto ambiental y los riesgos naturales derivados de dichas acciones, valorando la necesidad de una correcta planificación del
+uso del territorio en casos determinados, como cauces de barrancos, bordes de acantilados y otros lugares que constituyen zonas potenciales de
+31
+
+=== Página 32 ===
+
+riesgo,  elaborando  proyectos  de  sensibilización  a  través  de  distintas  producciones  (informes,  decálogos,  carteles  informativos,  exposiciones
+orales…) en las que, de forma individual o en grupo, proponga medidas y acciones encaminadas a la prevención de posibles catástrofes derivadas de
+los  riesgos  naturales,  así  como  para  la  protección  y  mejora  del  paisaje  natural  canario,  reconociendo  su  valor  como  patrimonio  natural  y
+promoviendo en su entorno cercano actitudes respetuosas y comprometidas con la naturaleza acordes a los Objetivos de Desarrollo Sostenible (ODS)
+y la Agenda Canaria de Desarrollo Sostenible 2030.
+32
+
+=== Página 33 ===
+
+Saberes básicos
+I Proyecto científico
+ 1. Aplicación  de  las  destrezas  y  habilidades  propias  del  trabajo  científico  para  explicar
+fenómenos biológicos y geológicos.
+ 2. Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos,
+resultados o ideas cient íficas: herramientas digitales y formatos de uso frecuente en ciencia
+(presentación, gráfica, vídeo, póster, informe, etc.). Contraste de la información científica y
+uso de fuentes fidedignas para evitar los riesgos de la desinformación.
+ 3. Realización de trabajo experimental de laboratorio o de campo, utilizando los instrumentos y
+espacios necesarios (laboratorio, aulas, entorno, huertos, etc.) de forma adecuada, para la
+resolución de problemas científicos.
+ 4. Construcción de modelos que expliquen procesos o elementos de la naturaleza.
+ 5. Uso  de  métodos  de  análisis  de  resultados  o  conclusiones  de  un  proyecto  científico.
+Diferenciación entre correlación y causalidad.
+ 6. Valoración de la labor de la mujer en la ciencia y la relevancia de las personas que se dedican
+a ella en Canarias para apreciar su contribución a la sociedad y fomentar las vocaciones
+científicas (STEAM).
+II. Geología
+ 1. Interpretación de la estructura de la geosfera para establecer la relación entre la energía
+interna, los modelos del interior terrestre (geoquímico y geofísico) y los límites de las
+principales placas tectónicas.
+ 2. Investigación sobre los tipos de volcanes y su actividad en función de las características del
+magma, con especial atención al vulcanismo canario.
+ 3. Valoración de la importancia de conocer los riesgos volcánicos y sísmicos  en Canarias, así
+como  las  medidas preventivas  y  su posible  predicción.  Identificación  y  función  de los
+organismos gubernamentales para la gestión de fenómenos sísmicos y volcánicos.
+III. La célula
+ 1. Catalogación de los niveles de organización de la materia viva: células, tejidos, órganos y
+aparatos o sistemas.
+ 2. Valoración  de  la  importancia  de  la  célula  como  unidad  de  vida.  Diferenciación  de  los
+distintos tipos celulares: célula procariota, célula eucariota animal y célula eucariota vegetal.
+Descripción de la función de los orgánulos más importantes.
+ 3. Relación entre la función de los diferentes tejidos y las características de las células que los
+forman.
+ 4. Aplicación de técnicas de preparación de muestras para la observación de células y tejidos al
+microscopio óptico (epidermis de cebolla, mucosa bucal).
+33
+
+=== Página 34 ===
+
+IV . Ecología y sostenibilidad
+ 1. Análisis de las interacciones entre la atmósfera, la hidrosfera, la geosfera y la biosfera para
+comprender la formación y evolución del suelo y del modelado del relieve.
+ 2. Valoración de la importancia del suelo en el mantenimiento de los ecosistemas. Análisis de
+los problemas que provocan su erosión y contaminación. Reconocimiento de la necesidad de
+adoptar medidas para preservar y hacer un uso responsable y sostenible de este recurso.
+ 3. Relación  entre  la  situación  de  emergencia  climática  y  las  iniciativas  de  adaptación,
+mitigación y resiliencia para conocer las consecuencias de las acciones diarias en el planeta
+y generar empatía hacia el entorno natural y social.
+ 4. Análisis de la situación medioambiental actual de Canarias y su relación con los Objetivos de
+Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.
+ 5. Adquisición urgente de estilos de vida sostenibles y saludables (one health) como respuesta a
+la  necesidad  de  transformación  del  actual  modelo  socioeconómico  hacia  un  modelo
+ecosocial que priorice la justicia social, la igualdad y la sostenibilidad.
+V . Cuerpo humano
+ 1. Diferenciación entre los procesos de alimentación y nutrición. Descripción de la anatomía,
+fisiología  y  patología  de  los  aparatos  implicados  en  la  nutrición  (aparatos  digestivo,
+respiratorio,  circulatorio,  excretor)  para  comprender  su  funcionamiento  y  fomentar  el
+autocuidado.
+ 2. Categorización  de  los tipos  de  receptores sensoriales, asignación  de  los órganos de  los
+sentidos y reconocimiento del papel de los centros de coordinación (sistema nervioso y
+endocrino) en el cuerpo humano.
+ 3. Descripción  de  las  características  básicas  y  funcionamiento  del  aparato  reproductor
+masculino  y  femenino.  Identificación  de  las  principales  etapas  del  ciclo  menstrual,  las
+hormonas  que  lo  regulan  y  los  acontecimientos  fundamentales  de  la  fecundación,  el
+embarazo y el parto.
+ 4. Relación  entre  los  principales  sistemas  y  aparatos  del  organismo  implicados  en  las  de
+nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y
+anatomía.
+VI. Hábitos saludables
+ 1. Apreciación  de  la  importancia  de  mantener  una  dieta  saludable.  Elaboración  de  dietas
+equilibradas mediante el uso de balances calóricos, gasto energético diario, cálculo del IMC,
+porcentaje de nutrientes y otros.
+ 2. Investigación sobre los trastornos de la conducta alimentaria. Importancia del autocuidado
+para un adecuado desarrollo del bienestar emocional (autoconcepto, autoestima, asertividad,
+sentido crítico, resiliencia…).
+ 3. Reconocimiento de la educación sexual como parte de un desarrollo integral que diferencie
+los conceptos sexo y sexualidad y ponga en valor el respeto hacia la libertad, la diversidad
+sexual y la igualdad de género.
+34
+
+=== Página 35 ===
+
+4. Concienciación sobre la importancia de adquirir  prácticas sexuales saludables, responsables
+y consentidas. Prevención de infecciones de transmisión sexual (ITS) y de embarazos no
+deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS.
+ 5. Reflexión  sobre  las  adicciones con  sustancia  (drogas legales e  ilegales)  y sin sustancia
+(conductuales:  tecnologías,  ludopatía),  sus  efectos  perjudiciales  sobre  la  salud  de  las
+personas consumidoras y de quienes están en su entorno próximo.
+ 6. Diseño e implementación de un plan de vida saludable que contemple la salud física, mental
+y social como paradigmas de bienestar para el desarrollo de una vida plena.
+VII. Salud y enfermedad
+ 1. Clasificación  de  las  enfermedades  según  su  etiología:  enfermedades  infecciosas  y  no
+infecciosas para conocer medidas de prevención y tratamientos. Diferenciación entre los
+conceptos  de  pandemia,  epidemia,  endemia  y  brote  epidémico.  Importancia  del  uso
+adecuado de los antibióticos.
+ 2. Indagación acerca de la prevalencia en Canarias de determinadas enfermedades y su relación,
+en algunos casos, con la falta de hábitos saludables.
+ 3. Descripción del funcionamiento básico de los mecanismos de defensa: barreras externas y
+sistema inmunitario. Reconocimiento de su implicación en la prevención y superación de
+enfermedades infecciosas.
+ 4. Análisis crítico de estudios científicos para valorar la relevancia de las vacunas como medida
+de prevención de enfermedades infecciosas y su papel en la mejora de la calidad de vida
+humana.
+ 5. Apreciación  de la importancia  de los trasplantes y de la  donación  de células, sangre y
+órganos para el beneficio social y personal, valorando la figura de la ciudadanía española
+como referente mundial en la donación de órganos y de la ciudadanía de Canarias, en
+particular, en la donación de sangre.
+35
+
+=== Página 36 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando
+diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL5, STEM4, CD2, CD3,
+CCEC4
+Criterios de evaluación
+1.1. Analizar conceptos y procesos biológicos y geológicos interpretando información, con actitud
+crítica,  en  diferentes  formatos  con  el  fin  de  obtener  conclusiones  propias,  formar  opiniones
+fundamentadas y tomar decisiones coherentes para participar en diferentes contextos de manera activa
+e informada.
+CCL1, CCL2, STEM4, CD2
+1.2. Comunicar opiniones propias e información sobre conceptos, procesos y fenómenos biológicos y
+geológicos de forma argumentada y con rigor científico, evitando el uso discriminatorio de la lengua y
+utilizando la terminología y el formato adecuados para facilitar su comprensi ón y cambiar las propias
+concepciones a la vista de los datos y posturas aportados por otras personas.
+CCL1, CCL2, CCL5, STEM4, CD3
+1.3.  Analizar  información  y  datos  científicos  para  explicar  fenómenos  biológicos  y  geológicos
+representándolos mediante el diseño y la realización de modelos y diagramas, utilizando cuando sea
+necesario el diseño de ingeniería y las herramientas digitales con ética y responsabilidad para tomar
+decisiones, construir nuevos conocimientos y generar productos comunicativos de forma creativa y
+CCL1, CCL2, STEM4, CD2, CCEC4
+36
+
+=== Página 37 ===
+
+flexible, individual y colaborativamente.
+Explicación del bloque competencial
+A través de este bloque competencial se pretende comprobar que el alumnado es capaz de interpretar y analizar datos e información científica,
+utilizando estrategias de trabajo cooperativo, en diferentes formatos (textos, gráficos, tablas, diagramas, imágenes, páginas web…), manteniendo una
+actitud crítica para explicar, con rigor científico, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de
+saberes básicos de la materia, representándolos mediante el diseño y la realización de modelos y diagramas y utilizando, cuando sea necesario, los
+pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora) y las herramientas digitales con ética
+y responsabilidad. También se pretende constatar si el alumnado es capaz, a partir de la información obtenida, de elaborar sus propias conclusiones y
+argumentar de forma fundamentada sus opiniones, transmitiéndolas de forma clara, con actitud cooperativa y respetuosa y evitando los usos
+discriminatorios del lenguaje, mediante exposiciones orales, escritas o visuales en diversos soportes, apoyándose en el uso de las tecnologías. Todo
+ello con el fin de comprender la importancia que tiene el intercambio de información y la colaboración entre individuos, organizaciones e incluso
+países para el desarrollo científico.
+Competencia específica
+2. Identificar, localizar y seleccionar informaci ón, contrastando su veracidad, organiz ándola y
+evaluándola cr íticamente, para resolver preguntas relacionadas con las ciencias biol ógicas y
+geológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM4, CD1, CD2, CD3, CD4,
+CD5, CPSAA4
+Criterios de evaluación
+2.1. Localizar, seleccionar, contrastar, organizar y analizar críticamente la información de distintas
+fuentes, citándolas con respeto por la propiedad intelectual y compartiéndola mediante herramientas o
+CCL3, CD1, CD2, CD3, CD4, CD5
+37
+
+=== Página 38 ===
+
+plataformas digitales, para resolver preguntas, adoptando un punto de vista crítico y profundizar en
+aspectos biológicos y geológicos relacionados con el medio natural.
+2.2. Contrastar la veracidad de la información sobre temas biológicos y geológicos utilizando fuentes
+fiables y haciendo un uso seguro, saludable y sostenible de las tecnologías digitales, con el fin de
+adoptar una actitud crítica y escéptica hacia informaciones sin una base científica y desarrollar el
+pensamiento crítico.
+CCL3, STEM4, CD1, CPSAA4
+2.3. Valorar, a partir de información procedente de diversas fuentes, la contribuci ón de la ciencia y la
+labor de las personas dedicadas a ella a la sociedad, visibilizando, reconociendo y evidenciando a las
+mujeres científicas y algunas de sus aportaciones con el fin de entender que la investigaci ón es una
+labor colectiva e interdisciplinar que genera nuevos conocimientos y que se encuentra en constante
+evolución influida por el contexto político y los recursos económicos.
+CCL3, CD1, CD2, CD4, CPSAA4
+Explicación del bloque competencial
+A través de este bloque competencial se persigue constatar que el alumnado es capaz de identificar, localizar, seleccionar, organizar y evaluar
+información de fuentes diversas (textos, prensa, páginas web, vídeos, etc.), atendiendo a criterios de validez, calidad y actualidad y respetando la
+propiedad intelectual, para poder resolver preguntas y profundizar en temas relacionados con cualquiera de los saberes básicos de la materia (papel
+de las grandes científicas y científicos en el desarrollo de las ciencias biol ógicas y geológicas, función biológica  de los procesos de división celular,
+principales teorías evolutivas, relación entre las mutaciones genéticas y el cáncer, hipótesis sobre el origen de la vida en la Tierra, principales teorías
+sobre el origen y evolución de las islas Canarias, métodos de estudio del interior de la Tierra, etc.). Se trata de averiguar si el alumnado realiza
+autoevaluaciones sobre su proceso de aprendizaje buscando fuentes fiables para contrastar la veracidad de la información y si adopta una actitud
+crítica y escéptica hacia informaciones sin base científica, como pseudociencias, teorías conspiratorias, creencias infundadas, bulos, etc., elaborando
+sus propias conclusiones y comunicándolas mediante informes, exposiciones u otros medios. También se quiere comprobar si el alumnado hace un
+uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales durante el proceso de búsqueda de información y si gestiona de manera
+responsable su presencia y visibilidad en la red para ejercer una ciudadan ía digital activa, cívica y reflexiva. Por último, se pretende verificar que el
+38
+
+=== Página 39 ===
+
+alumnado valora la contribución de la ciencia a la sociedad, mostrando una actitud crítica acerca de su alcance y limitaciones, y reconoce la labor de
+las personas dedicadas a ella, destacando y ejemplificando las aportaciones de las mujeres en las ciencias experimentales a lo largo de la historia.
+Todo ello con el fin de que el alumnado desarrolle el sentido crítico y las destrezas necesarias para evaluar y clasificar la información y distinguir las
+fuentes fidedignas de aquellas de dudosa fiabilidad, lo que le permitirá afrontar con rigor científico el bombardeo continuo de información que existe
+en la sociedad actual y que no siempre refleja la realidad.
+Competencia específica
+3. Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías
+científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las
+ciencias geológicas y biológicas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM1, STEM2,
+STEM3, STEM4, CD1, CD2, CPSAA3,
+CE3
+Criterios de evaluación
+3.1. Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las destrezas
+propias del trabajo científico para explicar fenómenos biológicos y geológicos y realizar predicciones
+sobre estos.
+CCL1, CCL3, STEM1, STEM2, CD1
+3.2. Diseñar y realizar proyectos de investigación que supongan la experimentación, la toma de datos
+cuantitativos o cualitativos, la búsqueda y el tratamiento de información de carácter científico a partir
+de fuentes diversas y el análisis de fenómenos biológicos y geológicos, utilizando los instrumentos,
+herramientas o técnicas adecuadas con corrección y precisión con el fin de poder dar respuesta a
+preguntas concretas y contrastar las hipótesis planteadas evitando sesgos.
+CCL1, CCL2, CCL3, STEM1, STEM2,
+STEM3, CD1, CD2, CD3
+39
+
+=== Página 40 ===
+
+3.3.  Interpretar  y  analizar  críticamente  los  resultados  obtenidos  en  un  proyecto  de  investigación
+utilizando,  cuando  sea  necesario,  herramientas matemáticas  y tecnológicas con  el  fin  de  obtener
+conclusiones  razonadas  y  fundamentadas  o  valorar  la  imposibilidad  de  hacerlo,  reformulando  el
+procedimiento si fuera preciso y comunicando los resultados en el formato adecuado.
+CCL1, STEM1, STEM2, STEM4, CD2,
+CE3
+3.4. Establecer colaboraciones, cuando sea necesario, en las distintas fases del proyecto científico para
+trabajar  con  mayor  eficiencia,  distribuyendo  y  aceptando  tareas  y  responsabilidades  de  manera
+equitativa, valorando la importancia de la cooperación en la investigación, respetando la diversidad y
+la igualdad de género y favoreciendo la inclusión.
+CPSAA3
+Explicación del bloque competencial
+Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz de planificar y desarrollar proyectos de investigación de forma
+individual o colaborativa relacionados con el medio natural canario, o con cualquier otro de los saberes básicos de la materia, que supongan la
+experimentación, la toma de datos cuantitativos o cualitativos y la búsqueda y tratamiento de información de carácter científico a partir de diferentes
+fuentes (observación, publicaciones científicas, libros, páginas web…), discriminando las más idóneas y utilizando los instrumentos, herramientas o
+técnicas adecuadas con corrección y precisión. Se verificará que aplica las destrezas propias del trabajo científico cuando se plantea preguntas e
+hipótesis que puedan ser respondidas o contrastadas, argumenta el proceso seguido, describe sus observaciones e interpreta los resultados analizando
+su coherencia y reformulando el procedimiento si fuera preciso, para comunicar, adoptando un punto de vista personal, las conclusiones de su
+investigación  mediante  exposiciones orales, escritas o visuales en  diversos soportes, apoyándose en herramientas digitales y empleando  con
+precisión el vocabulario científico. Finalmente, se quiere comprobar si el alumnado mantiene una actitud cooperativa y colaborativa durante las
+distintas fases de la investigación, comprende proactivamente las perspectivas de las demás personas y las incorpora a su aprendizaje, respetando la
+diversidad y la igualdad de género y favoreciendo la inclusión. Todo ello con el fin de ofrecer al alumnado la oportunidad creativa y de crecimiento
+que aporta el trabajo científico, impulsando la igualdad de oportunidades entre los alumnos y las alumnas y fomentando las vocaciones científicas
+desde una perspectiva de género.
+40
+
+=== Página 41 ===
+
+Competencia específica
+4.  Utilizar  el  razonamiento  y  el  pensamiento  computacional,  analizando  críticamente  las
+respuestas  y  soluciones  y  reformulando  el  procedimiento,  si  fuera  necesario,  para  resolver
+problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la
+geología.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM2, CD5, CPSAA5, CE1,
+CE3, CCEC4
+Criterios de evaluación
+4.1. Resolver problemas o dar explicación a procesos biológicos o geológicos de la vida cotidiana
+identificando las variables o aspectos relevantes en cada caso y planteando modelos simplificados para
+generar productos o soluciones innovadoras, éticas y sostenibles, utilizando conocimientos, datos e
+información  proporcionados  por  la  persona  docente,  el  razonamiento  lógico,  el  pensamiento
+computacional o los recursos digitales.
+STEM1, STEM2, CD5, CE1, CCEC4
+4.2. Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos de
+forma creativa y cooperativa, valorando el impacto que puedan suponer en el entorno con el fin de
+reformular los procedimientos y las conclusiones si dicha solución no fuese viable o ante nuevos datos
+aportados con posterioridad, presentando ideas o propuestas innovadoras, éticas y sostenibles.
+STEM1, STEM2, CPSAA5, CE1, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se quiere comprobar que el alumnado es capaz de aplicar estrategias de resolución de problemas, identificando
+las variables o aspectos relevantes en cada caso, para resolver cuestiones y problemas de genética, mendeliana y molecular, medioambiental…, o
+interpretar procesos relacionados con distintos saberes básicos de la materia (la relación entre las mutaciones y el cáncer, la evolución, la tectónica de
+placas, los riesgos naturales, el origen de las islas Canarias, la historia geológica de una zona, etc.) utilizando datos, información procedente de
+41
+
+=== Página 42 ===
+
+distintas fuentes, el razonamiento y el pensamiento computacional para establecer modelos. Se evaluará asimismo la capacidad del alumnado para
+analizar críticamente la solución a un problema y reformular los procedimientos y las conclusiones si fuera necesario, presentando de forma
+cooperativa y a través de diferentes producciones orales o escritas (informes, presentaciones, exposiciones…) propuestas innovadoras, éticas y
+sostenibles, apreciando el impacto que puedan suponer en el entorno. Por último, se valorará si el alumnado es capaz de desarrollar procesos
+metacognitivos de retroalimentación para aprender de sus errores durante todo el proceso. Todo ello con el fin de que el alumnado desarrolle
+destrezas y estrategias, aplicables a diferentes situaciones de la vida, para encontrar soluciones y dar explicación a los diversos problemas que se le
+planteen, mostrando confianza a la hora de manejar situaciones complicadas así como tolerancia a la incertidumbre.
+Competencia específica
+5. Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, bas ándose
+en los fundamentos de las ciencias biol ógicas y de la Tierra, para promover y adoptar h ábitos
+que  eviten  o  minimicen  los  impactos  medioambientales  negativos,  sean  compatibles  con  un
+desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA2, CC3, CC4, CE1
+Criterios de evaluación
+5.1.  Identificar  y  analizar  los  posibles  riesgos  naturales  potenciados  por  determinadas  acciones
+humanas sobre una zona geográfica mundial y local, teniendo en cuenta sus características litológicas,
+relieve, vegetación y factores socioeconómicos, mediante la información recabada en salidas de campo
+y  la  contenida  en  fuentes  y  soportes  variados,  con  el  fin  de  tomar  conciencia  de  su  impacto
+medioambiental y emprender acciones fundamentadas científicamente que eviten o minimicen este
+impacto y fomenten la conservación del medioambiente, así como una relación sostenible con el
+mismo.
+STEM2, STEM5, CD4, CPSAA1, CC4,
+CE1
+42
+
+=== Página 43 ===
+
+5.2. Comprender y analizar a partir de documentación científica extraída de diferentes fuentes los
+riesgos para  la  salud  relacionados con el deterioro  del  medioambiente, tanto  a nivel  local como
+mundial, adoptando medidas preventivas al usar las  tecnologías digitales para proteger  los datos
+personales, la salud y el entorno, tomar conciencia de la importancia de mantener estilos de vida
+sostenibles, ecosocialmente responsables y saludables y proponer acciones que permitan mantener y
+mejorar la salud individual y colectiva.
+STEM2, STEM5, CD4, CPSAA1,
+CPSAA2, CC3, CC4, CE1
+Explicación del bloque competencial
+A través de este bloque competencial se evaluará si el alumnado, mediante la información y toma de datos recabada en salidas de campo y la
+contenida en fuentes y soportes variados (páginas web, fotografías, vídeos, artículos científicos, periódicos, etc.), es capaz de  identificar y analizar
+basándose en evidencias científicas los posibles riesgos naturales que afectan al archipiélago canario potenciados por determinadas actuaciones
+humanas  sobre  el  medioambiente  (destrucción  de  hábitats,  extinción  directa  de  especies,  pérdida  del  suelo,  sobreexplotación  de  recursos,
+acumulación de residuos, contaminación atmosférica… ), valorando el impacto que puedan suponer en el entorno. Asimismo, se pretende comprobar
+que el alumnado propone medidas y presenta soluciones innovadoras, éticas y sostenibles a través de campañas, debates, exposiciones, etc., que
+promuevan la adopción consciente y motivada de hábitos que eviten o minimicen los impactos medioambientales negativos, así como un estilo de
+vida sostenible y ecosocialmente responsable. Finalmente, se quiere constatar si el alumnado comprende las relaciones de interdependencia entre los
+efectos de las acciones humanas sobre el medioambiente y los riesgos derivados para la salud (exposición a contaminantes y sustancias químicas
+presentes en la atmósfera, en el agua, en el suelo, el agotamiento del ozono, las consecuencias del cambio climático, etc.) y argumenta la necesidad
+de mantener hábitos de vida sostenibles y saludables, defendiendo a través de comunicaciones orales o escritas (pódcasts, informes, artículos…)
+posibles acciones que puedan emprender a nivel familiar y social para preservar la salud individual y colectiva. Todo ello con el fin de que el
+alumnado tome conciencia de que la salud y el desarrollo económico de la especie humana se sustentan en el uso racional de los recursos naturales y
+en el mantenimiento de la biodiversidad.
+Competencia específica Descriptores operativos de las
+43
+
+=== Página 44 ===
+
+6.  Analizar  los  elementos  de  un  paisaje  concreto  valor ándolo  como  patrimonio  natural  y
+utilizando  conocimientos  sobre  Geolog ía  y  Ciencias  de  la  Tierra  para  explicar  su  historia
+geológica,  proponer  acciones  encaminadas  a  su  protecci ón  e  identificar  posibles  riesgos
+naturales.
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM4, STEM5,
+CD1, CC4, CE1, CCEC1
+Criterios de evaluación
+6.1. Deducir y explicar la historia geológica de un relieve del entorno próximo identificando sus
+elementos  más  relevantes  a  partir  de  cortes,  mapas  u  otros  sistemas  de  informaci ón  geológica,
+aplicando el pensamiento científico, los principios geológicos básicos y las teorías geológicas más
+relevantes con el objetivo de reconocer que el relieve es el resultado de la interacción de los procesos
+geológicos internos y externos.
+CCL3, STEM1, STEM2, STEM4, CD1,
+CC4
+6.2.  Interpretar  y  analizar  los  elementos  de  un  paisaje  del  entorno  cercano  valorándolo  como
+patrimonio natural y utilizando conocimientos sobre Geología y Ciencias de la Tierra para identificar
+los posibles riesgos naturales, proponer medidas de predicción, prevención y corrección y reconocer el
+impacto  que  las  acciones  humanas  tienen  sobre  el  medioambiente,  emprendiendo  acciones  para
+preservarlo.
+STEM1, STEM2, STEM4, STEM5, CC4,
+CE1, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se evaluará si el alumnado es capaz de explicar la historia geológica de un relieve de su entorno próximo y
+deducir que el relieve es el resultado de la interacción de los procesos geológicos internos y externos, y, en especial, el origen y la evolución de las
+islas  Canarias,  localizando  e  identificando  sus  elementos  más  relevantes  a  partir  del  análisis  e  interpretación  de  cortes  geológicos,  mapas
+topográficos u otros sistemas de información geológica. Asimismo, se verificará que aplica los principios geológicos básicos (horizontalidad,
+44
+
+=== Página 45 ===
+
+superposición, actualismo, etc.) y hace uso de otras fuentes de información, seleccionando los resultados de manera crítica y respetando la propiedad
+intelectual, para describir los hechos acontecidos y reconstruir algunos de los cambios que la Tierra ha sufrido desde su origen, transmitiendo los
+resultados de forma clara y precisa, en diferentes formatos. También se quiere comprobar que interpreta los elementos de un paisaje concreto
+mediante la observación directa del entorno, el uso de aplicaciones tecnológicas, fotografías, vídeos, etc., identificando y analizando los posibles
+riesgos naturales, así como los generados por las actividades humanas para ofrecer propuestas de actuación ante ellos, haciendo balance de su
+sostenibilidad. Por último, se quiere constatar si el alumnado reconoce el valor del patrimonio natural y la fragilidad del paisaje y adopta una actitud
+de rechazo ante las prácticas urbanísticas, forestales, industriales o de otro tipo que pongan en peligro vidas humanas, infraestructuras o espacios
+naturales, proponiendo medidas y emprendiendo acciones fundamentadas científicamente, a través de campañas, exposiciones, debates, mesas
+redondas…, en las que defiende con argumentos y expresa su posición personal, encaminadas a concienciar y sensibilizar a la comunidad educativa
+y a su entorno más cercano sobre la necesidad de proteger y conservar el medio natural canario.
+45
+
+=== Página 46 ===
+
+Saberes básicos
+I. Proyecto científico
+ 1. Formulación  de  hipótesis,  preguntas  y  conjeturas  aplicando  las  destrezas  y  habilidades
+propias del trabajo científico para explicar fenómenos biológicos y geológicos.
+ 2. Empleo de estrategias para la búsqueda de información, la colaboración y la comunicación
+de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente
+en  ciencia  (presentación  gráfica,  vídeo,  póster,  informe,  etc.).  Utilización  de  fuentes
+fidedignas  de  información  científica  para  evitar  los  riesgos  de  manipulación  y
+desinformación.
+ 3. Diseño de proyectos de investigación que supongan la experimentación y el trabajo de
+campo utilizando los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de
+forma  adecuada  y  precisa  para  responder  a  cuestiones  científicas.  Importancia  de  la
+realización  de  controles  experimentales  (positivos  y  negativos)  para  la  obtención  de
+resultados científicos objetivos y fiables.
+ 4. Utilización de modelos para la representación y comprensión de procesos o elementos de la
+naturaleza.
+ 5. Aplicación de métodos de observación y de toma de datos de fenómenos naturales.
+ 6. Uso  de  métodos  de  análisis  de  resultados  o  conclusiones  de  un  proyecto  científico.
+Diferenciación entre correlación y causalidad.
+ 7. Valoración crítica de la contribución de la ciencia a la sociedad y la labor de las personas
+dedicadas a ella, destacando y visibilizando a las mujeres científicas, especialmente a las
+investigadoras canarias, para fomentar la vocación científica y acabar con la brecha de género
+en el ámbito de la ciencia y de la tecnología.
+ 8. Reconocimiento  de  la  ciencia  como  labor  colectiva,  interdisciplinar  y  en  continua
+construcción, influida por el contexto político y los recursos económicos.
+II. Geología
+ 1. Diferenciación entre relieve y paisaje. Identificación de las principales formas del modelado
+del relieve y de los procesos que operan para su formación (externos e internos). Estudio de
+los tipos de paisajes, destacando los más característicos de las islas Canarias, valorando su
+importancia como recurso natural, cultural y económico para contribuir a su conservación y
+mejora.
+ 2. Análisis de los métodos de estudio del interior de la Tierra para explicar su estructura y
+composición. Comparación de los modelos geodinámico y geoquímico.
+ 3. Análisis e interpretación de los fenómenos derivados de la dinámica de la geosfera, mediante
+la aplicación de los postulados de la tectónica de placas. Descripción y comparación de las
+principales teorías sobre el origen y evolución de las islas Canarias.
+ 4. Diferenciación entre los procesos geológicos externos e internos y relación de estos con los
+riesgos  naturales,  con  especial  atención  a  aquellos  que  afectan  al  archipiélago  canario.
+46
+
+=== Página 47 ===
+
+Identificación de las principales medidas de prevención. Interpretación de mapas de riesgos
+naturales de Canarias.
+ 5. Realización de perfiles topográficos e interpretación de cortes geológicos sencillos aplicando
+los principios de horizontalidad, superposición, intersección, sucesión faunística, etc., para
+explicar la historia geológica de una zona.
+III. La célula
+ 1. Comparación de la organización del núcleo y de sus componentes (cromatina, cromosomas)
+en las fases del ciclo celular.
+ 2. Descripción y reconocimiento de los diferentes procesos que tienen lugar en la mitosis y la
+meiosis, diferenciando su significado biológico.
+ 3. Identificación de las distintas fases de la mitosis a través de la observación de imágenes
+microscópicas.  Preparación  y  tratamiento  de  muestras  microscópicas  de  células  para  la
+observación de la mitosis.
+IV . Genética y evolución
+ 1. Análisis  comparativo  de  los  tipos  y  composición  química  de  ácidos  nucleicos,
+relacionándolos con su función.
+ 2. Reconocimiento  de la importancia biológica del ADN  como molécula responsable del
+almacenamiento, conservación y transmisión de la información genética. Relación con el
+concepto de gen. Identificación de las características principales del proceso de replicación.
+ 3. Utilización  del  código  genético,  reconociendo  sus  características,  para  ilustrar  los
+mecanismos de expresión génica y resolver problemas relacionados con esta.
+ 4. Búsqueda y selección de información fiable en fuentes variadas sobre las enfermedades
+hereditarias más frecuentes y su alcance social. Relación entre las mutaciones genéticas y el
+cáncer.
+ 5. Valoración del papel de las mutaciones en la biodiversidad genética y su relación con la
+evolución.
+ 6. Comprensión  del  proceso  evolutivo  de  las  características  de  una  especie  determinada,
+estableciendo la relación entre variabilidad genética, mutaciones y selección natural.
+ 7. Argumentación  acerca  de  las  pruebas  de  la  evolución  y  de  las  principales  teorías,
+diferenciando  lamarkismo,  darwinismo  y  neodarwinismo,  valorando  el  carácter  no
+dogmático de las teorías científicas.
+ 8. Indagación sobre las aplicaciones y consecuencias de las técnicas de ingeniería genética
+(ADN recombinante, OMG, PCR) a partir de diferentes fuentes de información. Análisis
+crítico desde una perspectiva social, científica y ética de las técnicas del ADN.
+ 9. Definición de  los conceptos de  fenotipo  y genotipo  estableciendo sus diferencias y la
+relación con el material genético y su expresión.
+47
+
+=== Página 48 ===
+
+10. Aplicación  de  los  principios  básicos  de  la  genética  mendeliana  en  la  resolución  de
+problemas  sencillos  de  herencia  genética  de  caracteres  con  relación  de  dominancia  y
+recesividad con uno o dos genes.
+ 11. Utilización de estrategias de resolución de problemas sencillos de herencia del sexo y de
+herencia  genética  de  caracteres  con  relación  de  codominancia,  dominancia  incompleta,
+alelismo múltiple y ligada al sexo con uno o dos genes.
+V . La Tierra en el universo
+ 1. Identificación  de  las  principales  ideas  sobre  el  origen  del  universo  y  la  formación  y
+evolución de las galaxias.
+ 2. Exposición sobre las características y organización del sistema solar y su concepción a lo
+largo de la historia.
+ 3. Análisis y valoración de las condiciones naturales del cielo en Canarias como recurso
+turístico sostenible y de la relevancia de la «ley del cielo» para la protección de la calidad
+astronómica de los observatorios del Instituto de Astrofísica de Canarias.
+ 4. Apreciación de la importancia de los estudios realizados en los observatorios astronómicos
+de Canarias y del trabajo de los científicos y científicas para el conocimiento del universo.
+ 5. Análisis y discusión de las hipótesis sobre el origen de la vida en la Tierra, diferenciando
+las que tienen base científica de las influenciadas por las ideas religiosas de la época.
+ 6. Reconocimiento de la astrobiología como disciplina científica multidisciplinar que estudia
+el origen, la evolución y la distribución de la vida en el universo. Conocimiento de las
+principales líneas de investigación en el campo de la astrobiología.
+48

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify NSW Judgment"
+  short_description: "Confirm a NSW court or tribunal citation on NSW Caselaw"
+  default_prompt: "Use $verify-nsw-judgment to confirm this NSW citation exists on NSW Caselaw and record its provenance."

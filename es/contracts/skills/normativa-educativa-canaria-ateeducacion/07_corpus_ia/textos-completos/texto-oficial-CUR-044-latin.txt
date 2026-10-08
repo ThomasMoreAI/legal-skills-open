@@ -1,0 +1,1329 @@
+ID interno: CUR-044
+Título oficial: Latín I y II — Bachillerato Humanidades y CCSS
+Fuente oficial: FTE-012 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.pdf
+URL de acceso oficial: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+LATÍN
+Introducción
+Las humanidades y el planteamiento de una educación humanista en la civilización europea van
+intrínsecamente ligadas a la tradición y la herencia cultural de la Antigüedad clásica. Su enseñanza
+debe tener un puesto fundamental en el actual sistema educativo, porque es consustancial a nuestra
+propia  historia  como  civilización  occidental  y  aporta  las  ideas,  los  saberes  y  las  expresiones
+culturales necesarios para una transformación personal y social, acorde con los nuevos tiempos y
+dentro de una perspectiva de integración cultural de la educación.
+Los  saberes  básicos  de  la  materia  de  Latín  I  y  II,  que  se  vertebran  en  torno  a  las  unidades
+lingüísticas de la lengua latina, a la comprensión e interpretación de sus textos, y al legado material
+e inmaterial de la civilización latina y su aportación fundamental a la cultura, la sociedad, la política
+y la identidad europeas, desde un punto de vista crítico, deben dialogar con el resto de los saberes
+de  otras disciplinas, para  convertir  ese diálogo  de conocimientos en el  referente ontológico y
+pedagógico que sirva para promover una educación humanista transformadora. Al mismo tiempo, la
+lengua  y  cultura  latinas  tienen  que  constituirse  en  saberes  transdisciplinares,  para  poder
+relacionarlos con los del mundo actual y obtener, de esta manera, una interpretación más ponderada
+de  nuestra  sociedad  y  de  un  mundo  en  continua  transformación,  sin  nostalgia  de  lo  que
+representaron esos saberes en épocas precedentes. Pero, además, deben servir para garantizar una
+educación inclusiva, equitativa y promotora de oportunidades de aprendizaje; que atienda a la
+diversidad en todas sus acepciones y ámbitos educativos, teniendo en cuenta los principios del
+Diseño Universal  para el  Aprendizaje;  y que sea sensible  con las manifestaciones propias del
+patrimonio artístico y cultural de Canarias.
+En consonancia con el carácter competencial del currículo de esta materia, los saberes lingüísticos,
+históricos, sociopolíticos y culturales (artísticos, literarios…) permiten al alumnado acercarse a los
+dos pilares fundamentales que conforman el legado que nos dejó la civilización latina: su lengua y
+su cultura, y se adecuarán, en especial, a estrategias que lo faculten para analizar, reflexionar de
+forma crítica y abierta, y argumentar sus propuestas y productos desde un enfoque integrador.
+De esta manera, conocer la lengua latina posibilita ampliar el repertorio léxico del alumnado para
+que adecúe, de manera más precisa, los términos a las diferentes situaciones comunicativas y
+experiencias emocionales; potenciar su comprensión oral y escrita; y facilitar el aprendizaje de otras
+lenguas.
+Esta materia contiene, además, un valor instrumental para el aprendizaje de la herencia material e
+inmaterial de la cultura y la civilización romana, reconociendo y apreciando su valor como referente
+y fuente de inspiración para la creación artística. La protección y conservación de esta herencia
+como memoria colectiva de nuestro pasado e identidad europea fomenta la educación cívica del
+alumnado  para  su participación,  de  manera  activa,  eficaz  y  constructiva  en  el  funcionamiento
+democrático de la sociedad, tanto en el ámbito público como privado; su aceptación de normas de
+igualdad para todas las personas; y su implicación y compromiso, personal y colectivo, en la mejora
+social y en el desarrollo de valores que favorezcan el bienestar común.
+Como es sabido, la civilización romana ha tenido una notable influencia en el mundo occidental y
+es  por  ello  que  hay  una  parte  dedicada  al  acervo  cultural  del  archipiélago  canario,
+fundamentalmente en el plano de la mitología, en el que se pueden situar algunos tópicos literarios
+1
+
+=== Página 2 ===
+
+como los Campos Elíseos o el Jardín de las Hespérides, pues ya los antiguos romanos situaban estos
+enclaves fantásticos más allá de las columnas de Hércules. Además, cabe realizar un análisis más
+detenido de otros aspectos de nuestro entorno en los que el alumnado aprecie la huella del mundo
+clásico, como puede ser la arquitectura o el urbanismo del patrimonio cultural de Canarias, y actúe
+de  una  forma  proactiva,  desde  un  punto  de  vista  de  la  sostenibilidad,  hacia  su  cuidado  y
+mantenimiento.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario acerca de la importancia del cuidado,
+disfrute y transmisión del patrimonio, pone el acento en la identificación y puesta en valor del
+mismo como parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para
+lograr su sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+Esta materia contribuye a la consecución de los siguientes objetivos de la etapa de Bachillerato:
+Al objetivo (a), que se refiere al ejercicio de los deberes y derechos de los ciudadanos y ciudadanas
+en un mundo democrático y de igualdad, inspirada en los valores de la Constitución Española, se
+contribuye con el conocimiento de las instituciones públicas, y la forma de vida del pueblo romano
+y su participación en el ámbito público, de forma que el alumnado reflexione sobre situaciones
+incompatibles con el pensamiento y las libertades de la Europa actual y se eduque para ejercer una
+ciudadanía  democrática, crítica  y libre,  en la  que se practique el  respeto, la  cooperación y la
+solidaridad entre las personas y colectividades, así como la sostenibilidad y el cuidado de los
+territorios. Con este último aspecto se desarrolla, además, el objetivo (o).
+El análisis de otras desigualdades y discriminaciones sociales como la esclavitud, el ejercicio de la
+política como forma de mejorar la vida de los pueblos o la convivencia de diferentes culturas y
+religiones dentro de las fronteras del imperio romano adiestra para rechazar la violencia y los
+prejuicios, y resolver los conflictos por una vía pacífica, contribuyendo, además, a desarrollar el
+objetivo (b). A su vez, la consecución del objetivo c) de esta etapa educativa, se logra a través de la
+observación de las diferencias de género en la antigua Roma, estudiando los roles según los sexos, e
+incidiendo, de manera especial, en el papel de la mujer en el mundo romano, para lo que se
+propiciarán debates sobre la igualdad entre hombres y mujeres o sobre los estereotipos que se han
+perpetuado a lo largo de los tiempos.
+En relación con el objetivo (d), la materia se presenta idónea para su consecución, al posibilitar el
+desarrollo  de  hábitos  de  disciplina  y  trabajo,  tanto  individual  como  en  equipo,  y  al  utilizar
+procedimientos y métodos que requieren de planificación y toma de decisiones a partir de un
+análisis previo. La traducción de textos latinos o la elaboración de producciones sobre la cultura
+romana vigente en la actualidad supone la puesta en común, la asunción y la corrección de errores,
+y favorece la superación y el desarrollo personal del alumnado.
+En esta etapa el alumnado se interna en la gramática y los textos latinos. Se presenta el sistema de
+casos y las declinaciones, así como la identificación de procesos para formar palabras en latín, la
+evolución fonética o el aprendizaje de locuciones latinas de uso actual, por lo que se fomenta el
+2
+
+=== Página 3 ===
+
+desarrollo de la lengua castellana, y se propicia la ampliación del caudal léxico individual y el
+aprendizaje de otras lenguas modernas, posibilitando, de este modo, el respeto a la diversidad
+lingüística y cultural. Con ello, además de con la lectura, el análisis y el comentario de textos
+literarios, se contribuye a la consecución del objetivo (e).
+El objetivo (g) se persigue no solo al fomentar la adquisición de destrezas básicas en la utilización
+responsable y crítica de las fuentes de información, como recurso y apoyo para las producciones
+escolares  sobre  la  cultura  romana;  sino  también  cuando  se  ofrecen  programas  digitales  para
+practicar  ejercicios  sobre  gramática  o  consultar  diccionarios  o  glosarios,  que  funcionen  como
+complemento al proceso de aprendizaje. Asimismo, el alumnado podrá hacer uso de herramientas
+digitales para elaborar sus propios materiales y recursos como listas de vocabulario, glosarios…
+Del mismo modo que esta materia supone un viaje a través de los textos latinos, también implica
+una travesía a lo largo de la historia de una de las sociedades que constituyen el pilar de nuestra
+sociedad actual y que tanta influencia ha tenido en el mundo. Mediante el conocimiento de los
+sucesos y personajes históricos más importantes, y de las conexiones de la civilización romana con
+otras anteriores y posteriores, y a través de un enfoque integrador, se contribuye a lograr el objetivo
+(h).
+El objetivo (j) hace referencia a comprender los elementos y procedimientos fundamentales de la
+investigación y de los métodos científicos. Con Latín I y II se contribuye desde dos prismas: por un
+lado, a través de los procedimientos y habilidades necesarias para el análisis y la traducción de
+textos del latín a una lengua moderna, normalmente el castellano, o viceversa; y, por otro lado,
+cuando se ejecutan procesos de transferencias etimológicas para inferir significados, al aplicar las
+etimologías latinas aprendidas en el aula.
+La propia naturaleza de esta materia, que se adentra en numerosas cuestiones de carácter político,
+social, cultural o religioso del mundo clásico, y que podrían ser extrapolables a debates abiertos en
+nuestros tiempos, propicia el trabajo en equipo y la creación de espacios en el aula en los que el
+alumnado podrá expresar su opinión y ponerla en contraste con las de otras personas, siempre
+partiendo de la responsabilidad personal y un análisis crítico de la realidad. En este sentido se
+contribuye al logro del objetivo (k).
+En último lugar, el objetivo (l) se logra al valorar el patrimonio cultural y artístico de Canarias que
+la civilización romana nos ha legado o inspirado, como es el caso de la mitología romana como
+fuente  inagotable  de  inspiración  para  la  actividad  creadora  de  las  diferentes  ramas  artísticas
+(literatura, música, pintura…).
+Además, el desarrollo de este último objetivo, junto con el (h), conecta, de manera especial, con el
+sentido cultural de la educación, al referirse a la capacitación del alumnado para campos muy
+especializados e independientes.
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme  a  los  descriptores  operativos  establecidos  en  la  progresión  del  Perfil  de  salida  del
+alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de
+las competencias clave para el Bachillerato.
+3
+
+=== Página 4 ===
+
+El proceso de enseñanza y de aprendizaje competencial debe poseer un carácter multidisciplinar y
+abordarse desde todas las áreas del conocimiento. Las competencias clave no se adquieren en un
+determinado momento y no permanecen inalterables, sino que implican un proceso mediante el cual
+las personas van adquiriendo mayores niveles en su desempeño, de forma que se favorece un
+aprendizaje a lo largo de toda la vida. En este sentido, Latín I y II contribuyen en esta etapa
+educativa a desarrollar muchos aspectos y dimensiones de todas las competencias clave. 
+Los procesos de enseñanza y de aprendizaje de la lengua latina contribuyen al desarrollo de la
+Competencia en comunicación lingüística (CCL) y a la Competencia plurilingüe (CP), al traer
+consigo una reflexión profunda sobre el funcionamiento no solo de la propia lengua latina, su
+léxico, sus formantes y sus normas de evolución fonética, sino también de las lenguas de enseñanza
+y de aquellas que conforman el repertorio lingüístico individual del alumnado, estimulando la
+reflexión  metalingüística  e  interlingüística,  y  contribuyendo  al  refuerzo  de  las  competencias
+lingüísticas mencionadas. Se sitúa, por tanto, como una herramienta para el aprendizaje de lenguas,
+en general y, a tal efecto, el profesorado debe hacer uso, en la medida de lo posible, de los procesos
+seguidos por las lenguas modernas, de modo que se proyecte como una finalidad comunicativa
+concreta, más funcional y pragmática.
+Por esta razón, las destrezas referidas a la comprensión y expresión escrita y oral se tratarán, de
+forma progresiva, junto a otras destrezas como las que fomentan el conocimiento y la aplicación
+efectiva  de  las  reglas  de  funcionamiento  del  sistema  de  la  lengua.  A esto  debe  añadirse  la
+adquisición de nuevo léxico a partir del estudio de la materia, según se concreta en la competencia
+específica 2, como se verá unas líneas más abajo. Gracias a los procedimientos de composición y
+derivación de palabras, el alumnado, como agente comunicativo que produce y no solo recibe
+mensajes, mejorará su comprensión y expresión oral y escrita no solo en castellano, sino también en
+la  lengua  o  lenguas  extranjeras  que  estudia.  Con  este  apartado  se  colabora  eficazmente  a  la
+ampliación  del  vocabulario  básico  y  se  potencia  la  habilidad  para  utilizar  el  lenguaje  como
+instrumento de comunicación y convivencia.
+La Competencia matemática y competencia en ciencia, tecnología e ingeniería (STEM) se logra
+gracias a las técnicas y los procesos mentales que deben utilizarse para lograr inferir el significado
+de términos latinos a partir del español o de las lenguas conocidas por el alumnado. A su vez, el
+proceso contrario facilita la adquisición de vocabulario nuevo en diversos idiomas, puesto que
+gracias a la etimología y a los citados procedimientos de derivación y composición puede producir
+definiciones de palabras en español, así como en otras lenguas, y ampliar su capacidad léxica.
+La contribución de esta materia a la Competencia digital (CD) se logra mediante el especial empleo
+de los medios audiovisuales y de las tecnologías digitales, de forma individual, en grupo o en
+entornos colaborativos. Para la vertiente lingüística de la materia el alumnado puede servirse de
+diversas herramientas web, programas o aplicaciones informáticas para el aprendizaje y la práctica
+de los elementos básicos de la flexión nominal y verbal latina, y del análisis gramatical; y de
+diccionarios,  glosarios  o  repertorios  etimológicos  online.  Por  otro  lado,  gracias  a  la  vertiente
+cultural de la materia (cuestiones de historia, instituciones y sistemas políticos, sociedad y vida
+cotidiana, pervivencia de la mitología latina…), se desarrollan diversas destrezas relacionadas no
+solo con la búsqueda, la selección, el registro y el tratamiento de la información, teniendo presente
+el respeto hacia la autoría de la misma, sino también con la producción oral y escrita, e incluso
+multimodal, tanto en contextos formales como no formales e informales, convirtiéndose, de este
+modo, las tecnologías digitales en una herramienta especialmente válida para la comunicación del
+conocimiento adquirido.
+4
+
+=== Página 5 ===
+
+La Competencia personal, social y de aprender a aprender (CPSAA) implica la habilidad de las
+personas para reflexionar, autoconocerse; aceptarse y promover crecimiento personal y constante,
+en concreto, y, a su vez, como parte de la ciudadanía del mundo; y gestionar el tiempo y la
+información  de  manera  eficaz.  Esta  competencia  clave  ayuda  también  a  hacer  frente  a  la
+complejidad, a adaptarse a los cambios, a contribuir en el propio bienestar físico y emocional y a ser
+capaz de llevar una vida saludable en la que el alumnado se implique y comprometa, personal y
+colectivamente,  en  la  mejora  social,  fomentándose  así  la  educación  en valores.  Los  textos, la
+traducción, el conocimiento de la vida diaria en Roma, del cuidado personal al que prestaban
+atención la población romana, del deporte y de algunas características del pensamiento filosófico de
+la época contribuirán a lograr las habilidades mencionadas ayudándose de la lectura, el debate y la
+reflexión personal y colectiva. Asimismo, permite desarrollar una serie de estrategias de aprendizaje
+(metacognitivas,  sociales,  afectivas,  cognitivas…)  y  capacidades  que  entran  en  juego  en  el
+tratamiento de esta materia como la organización y la gestión de los conocimientos; la planificación,
+la supervisión y la evaluación del resultado y del proceso; y la auto-eficacia, la confianza, la
+atención,  la  concentración,  la  memoria  y  la  motivación  por  la  consecución  de  los  objetivos
+previstos,  en  especial,  a  la  hora  de  la  realización  de  traducciones  elementales  en  esa  lengua,
+perseverando en ese aprendizaje y regulando el propio alumnado la adquisición del conocimiento
+para su progreso autónomo.
+A la Competencia ciudadana (CC) se contribuye desde la materia de Latín I y II, puesto que esta
+tiene como principal objetivo el desarrollo de una conciencia crítica y humanista desde la que poder
+comprender y analizar las aportaciones de la civilización latina a la identidad europea. Gracias a los
+textos en lengua latina, tanto en versión original como en traducciones, el alumnado es capaz de
+llegar al mundo romano y estudiar su patrimonio y legado, de forma que pueda valorar su reflejo en
+el patrimonio cultural de Canarias y sea consciente de la importancia de su mantenimiento. Esta
+materia ayudará, en consecuencia, a que el alumnado consiga los conocimientos que le permitan
+comprender y entender no solo la organización y el funcionamiento de los sistemas políticos y de
+las instituciones más representativas de Roma, sino también los rasgos que caracterizan el modo de
+vida del pueblo romano, profundizando en la comprensión de los cambios que se han producido
+desde aquella época hasta la actual en la organización social y en la participación de la ciudadanía
+en la vida pública. De esta forma, el conocimiento de la realidad social y familiar del mundo en el
+que vivían los grupos humanos de la civilización romana, sus conflictos personales y grupales, así
+como los espacios y territorios en que se desarrollaba su vida diaria, comparando sus valores cívicos
+y enjuiciándolos con los del momento presente, deberá propiciar una reacción crítica ante cualquier
+tipo de discriminación, bien sea por la pertenencia a un grupo social, étnico o religioso determinado,
+por la diferencia de sexos o la diversidad de cualquier otra índole. Entender esa realidad favorece,
+además, que el alumnado participe de manera activa, eficaz y constructiva en el funcionamiento
+democrático de la sociedad, tanto en el ámbito público como privado; y se sirva de la negociación y
+la aplicación de normas de igualdad para todas las personas, como instrumentos válidos en la
+resolución de los conflictos.
+Para la elaboración de determinados productos y trabajos de investigación sobre diversos aspectos y
+ámbitos de la civilización romana deben usarse ciertos procedimientos que exigen elegir, planificar,
+organizar  y  gestionar  conocimientos,  destrezas  o  habilidades  y  actitudes,  además  de  evaluar
+distintas posibilidades con el objetivo de tomar decisiones. Se contribuirá de esta manera a la
+Competencia emprendedora (CE). Cabe resaltar que en las producciones escolares que se realizan
+para el conocimiento de Roma se promueve que el alumnado actúe de una forma creadora e
+imaginativa y con responsabilidad, y muestre predisposición, por un lado, hacia el trabajo en grupo
+5
+
+=== Página 6 ===
+
+o colaborativo, por lo que debe disponer de habilidades de cooperación y tener conciencia de la
+importancia de apoyar y apreciar las contribuciones ajenas; y, por otro lado, a la puesta en común de
+resultados,  lo  que  implica  asumir  riesgos,  aceptar  posibles  errores,  comprender  la  forma  de
+corregirlos y no rendirse ante un resultado inadecuado.
+La contribución de Latín I y II a la Competencia en conciencia y expresión culturales (CCEC) se
+logra mediante el conocimiento y la valoración de la funcionalidad de los motivos mitológicos en el
+arte clásico y en la religión, y su pervivencia en el arte contemporáneo, y de los temas, tópicos y
+personajes de la literatura latina como fuente de inspiración para escritores y escritoras posteriores
+de la literatura occidental europea y americana, incluyendo a autores canarios y autoras canarias.
+Todo esto proporciona referentes para  hacer una valoración  crítica  de  las creaciones artísticas
+posteriores inspiradas en la cultura y la mitología romana, o de los mensajes difundidos por los
+medios de comunicación que, en muchas ocasiones, toman su base icónica del mundo clásico, en
+general, y del mundo latino, en particular.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de la materia de Latín I y II se han establecido cinco competencias específicas que
+engloban  doce  criterios  de  evaluación.  Estos  criterios  de  evaluación  presentan  una  naturaleza
+competencial, de manera que se relacionan directamente con los descriptores operativos del Perfil
+de salida a los que contribuye la competencia específica, expresando tanto las capacidades y los
+saberes a adquirir, así como el contexto y modo de aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La traducción constituye el núcleo del proceso de aprendizaje de las lenguas clásicas. Con este fin,
+se  propone  una  progresión  del  aprendizaje  para  conducir  al  alumnado  hacia  el  conocimiento
+6
+
+=== Página 7 ===
+
+esencial de la morfología, la sintaxis y el léxico de la lengua latina. A partir de los conocimientos
+adquiridos,  el  alumnado  traduce,  de  manera  progresivamente  autónoma,  textos  de  dificultad
+adecuada y gradual desde el latín al castellano, con atención especial a la corrección ortográfica y
+estilística.  La  traducción  favorece  la  reflexión  sobre  la  lengua,  el  manejo  de  términos
+metalingüísticos  y  la  ampliación  del  repertorio  léxico  del  alumnado.  Complementario  a  la
+traducción  como  medio  de  reflexión  sobre  la  lengua  es  el  proceso  de  traducción  inversa  o
+retroversión.
+Dos son los enfoques propuestos para el desarrollo de esta competencia específica según el curso.
+En primero de Bachillerato, la traducción se concibe como un proceso que contribuye a activar los
+saberes básicos de carácter lingüístico como herramienta y no como fin. En cambio, en segundo de
+Bachillerato, la traducción se plantea como un método que contribuye a desarrollar la constancia, la
+capacidad de reflexión y el interés por el propio trabajo y su revisión, apreciando su valor para la
+transmisión de conocimientos entre las diferentes culturas y épocas.
+Competencia específica 2 (C2)
+Esta competencia específica hace referencia a la enseñanza de la lengua latina desde un enfoque
+plurilingüe.  A través  de  ella,  se  promueve  que  el  alumnado  active  su  repertorio  lingüístico
+individual, relacionando las lenguas que lo componen e identificando en ellas raíces, prefijos y
+sufijos latinos, y reflexionando sobre los posibles cambios fonéticos, morfológicos o semánticos
+que hayan tenido lugar a lo largo del tiempo.
+Ese enfoque plurilingüe y comunicativo favorece el desarrollo de las destrezas necesarias para la
+mejora del aprendizaje de lenguas nuevas, reconociendo el carácter del latín como lengua de origen
+de muchas de ella e interconectando su aprendizaje; y, al mismo, tiempo, permite tener en cuenta
+los distintos niveles de conocimientos lingüísticos del alumnado, así como sus diferentes repertorios
+léxicos individuales.
+De esta forma, en primero de Bachillerato el alumnado tendrá un acercamiento a todos estos
+procedimientos de creación léxica y en segundo profundizará y dará explicaciones sobre ellos, para
+mejorar su comprensión lectora y su expresión oral y escrita, y consolidar y ampliar el repertorio
+léxico del alumnado en las lenguas que lo conforman, romances y no romances.
+Competencia específica 3 (C3)
+La lectura, la interpretación y el comentario de textos latinos pertenecientes a diferentes géneros y
+épocas conforman esta competencia específica, constituyendo uno de los pilares de Latín I y II, y es
+imprescindible para que el alumnado tome conciencia de la importancia del uso de las fuentes
+primarias en la obtención de información.
+La lectura de textos latinos y un acercamiento básico a su interpretación suponen generalmente
+acceder  a  textos  que  no  están  relacionados  con  la  experiencia  del  alumnado,  de  ahí  que  sea
+necesaria la adquisición de herramientas de interpretación que favorezcan la autonomía progresiva
+con relación a la propia lectura, lo cual es más propio de primero de Bachillerato. La emisión de
+juicios críticos de valor y comentarios de los textos traducidos corresponderá al segundo curso.
+La aproximación a los textos será progresiva desde primero a segundo de Bachillerato, entendiendo
+este procedimiento cognitivo como un proceso dinámico que tiene que tener en cuenta, además, un
+contexto  histórico,  cívico,  político,  social,  lingüístico  y  cultural  que  debe  ser  producto  del
+aprendizaje.
+7
+
+=== Página 8 ===
+
+Además, en el segundo curso se podrá trabajar con textos bilingües, con la finalidad de integrar
+saberes de carácter lingüístico y no lingüístico, ofreciendo la posibilidad de comparar diferentes
+traducciones  y  distintos  enfoques  interpretativos,  discutiendo  sus  respectivas  fortalezas  y
+debilidades
+Competencia específica 4 (C4)
+Esta competencia específica se vertebra en torno a tres ámbitos: el personal, que incluye aspectos
+tales como los vínculos familiares y las características de las diferentes etapas de la vida de las
+personas en el mundo antiguo o el respeto a las personas mayores; el religioso, que comprende,
+entre otros, el concepto antiguo de lo sagrado y la relación de las personas con las divinidades y los
+ritos; y el sociopolítico, que atiende tanto a la relación personal con la ciudad y sus instituciones,
+como a las diferentes formas de organización en función de las diferentes formas de gobierno. El
+análisis de las características de la civilización latina y su aportación a la identidad europea supone
+recibir información expresada a través de fuentes latinas y contrastarla, activando las estrategias
+adecuadas para poder reflexionar sobre el legado recibido y su presencia en nuestra sociedad.
+En primero de Bachillerato, el análisis crítico de la relación entre pasado y presente requiere de la
+investigación y de la búsqueda guiada de información, en grupo o de manera individual, en fuentes
+tanto analógicas como digitales, con el objetivo de reflexionar, desde una perspectiva humanista,
+sobre  las  constantes  y  variables  culturales  a  lo  largo  del  tiempo.  En  cambio,  en  segundo  de
+Bachillerato,  los  procesos  de  análisis  crítico  requieren  contextos  de  reflexión  y  comunicación
+dialógicos, respetuosos con la herencia de la Antigüedad clásica y con las diferencias culturales que
+tienen  su  origen  en  ella,  y  orientados  a  la  consolidación  de  una  ciudadanía  democrática  y
+comprometida con el mundo que la rodea, por lo que supone una excelente oportunidad para poner
+en marcha técnicas y estrategias de debate y de exposición oral en el aula.
+Competencia específica 5 (C5)
+El patrimonio cultural, tal y como señala la UNESCO, es a la vez un producto y un proceso que
+suministra a las sociedades un caudal de recursos que se heredan del pasado, se crean en el presente
+y se transmiten a las generaciones futuras. Sobre esta idea gira esta competencia específica. Es,
+además, como sucede con la mitología clásica, una fuente de inspiración para la creatividad y la
+innovación, y genera productos culturales contemporáneos y futuros, por lo que se hace necesario
+conocerlo e identificarlo, de forma correcta, para entenderlo mejor, comprender su evolución y
+propiciar su mantenimiento y conservación.
+El legado de la civilización latina, tanto material como inmaterial (restos arqueológicos, transmisión
+textual,  organización  y  planificación  de  ciudades,  mitos  y  leyendas,  usos  sociales,  rituales…)
+constituye una herencia excepcional cuya sostenibilidad implica encontrar el justo equilibrio entre
+sacar provecho del patrimonio cultural en el presente y preservar su riqueza para las generaciones
+futuras. En este sentido, la preservación del patrimonio cultural latino requiere el compromiso de
+una ciudadanía interesada en conservar su valor como memoria colectiva del pasado, y en revisar y
+actualizar sus funciones sociales y culturales.
+La investigación acerca de la pervivencia de la herencia del mundo romano, así como de los
+procesos de preservación, conservación y restauración, implica el uso de recursos, tanto analógicos
+como  digitales,  para  acceder  a  espacios  de  documentación  como  bibliotecas,  museos  o
+excavaciones.
+8
+
+=== Página 9 ===
+
+Se  sugiere,  en  consecuencia,  que en  primero  de  Bachillerato  el  alumnado  investigue  sobre  el
+patrimonio cultural latino, identificando su influencia en el mundo occidental y respetándolo, de
+forma  que  sea  consciente  del  valor  de  este  legado  recibido.  Para segundo  de Bachillerato,  el
+alumnado se adentrará más en los procesos de construcción, preservación y restauración de los
+monumentos clásicos más significativos y en su influencia en el patrimonio cultural canario y
+nacional, apreciando estos como bienes intangibles de la sociedad.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los saberes básicos, que son los contenidos esenciales de la materia, si bien algunos se refieren al
+ámbito lingüístico y otros al cultural, no deben ser tratados de forma aislada, sino que se abordarán
+de forma integrada y, a ser posible, multidisciplinar, de acuerdo con las situaciones de aprendizaje
+diseñadas previamente por el profesorado, a fin de que se favorezca y se potencie el aprendizaje
+significativo.
+Como  se  ha  señalado  con  anterioridad,  estos  saberes  se  estructuran  en  bloques  debido  a  su
+naturaleza y se encuentran en el currículo con el siguiente orden: I. «El texto: comprensión y
+traducción», dividido en dos subapartados: 1. «Unidades lingüísticas de la lengua latina» y 2. «La
+traducción: técnicas, procesos y herramientas»; II. «Plurilingüismo»; III. «Educación literaria»; IV .
+«La antigua Roma»; y V . «Legado y patrimonio».
+El  Bloque  I ofrece  el  análisis  y la  traducción  como  puntos  principales.  El  primer  punto  está
+dedicado, con especial interés, a la escritura, la prosodia y el análisis morfosintáctico de la lengua
+latina, constituyendo este la base esencial del segundo punto. Aquí se recogen, como su mismo
+título indica, las técnicas, los procesos y las herramientas de la traducción, a partir del análisis de las
+unidades lingüísticas y las oraciones, para las que se tendrán que emplear estrategias y herramientas
+para su estudio, incluyendo el uso del error como método de aprendizaje y resolución de problemas.
+El Bloque II está dedicado a los saberes más específicos de la propia lengua latina, de manera que
+se trabaja, por un lado, su alfabeto: origen, características y evolución hasta la actualidad; y, por
+otro lado, se instruye en el conocimiento del léxico a través de la etimología, la evolución fonética y
+las expresiones latinas.
+En  el  Bloque  III  se  proponen  los  saberes  relacionados  con  la  literatura  latina,  por  lo  que  el
+alumnado se tiene que iniciar en el estudio de esta y tener un acercamiento a la crítica literaria en el
+primer  curso,  con  el  objetivo  de,  en  un  segundo  curso,  poder  apreciar  y  realizar  análisis  y
+comentarios literarios desde una perspectiva crítica y respetuosa con las demás culturas y la suya
+propia.
+A este objetivo también se colabora con los saberes del Bloque IV , enfocado a la historia, la
+organización política y social, la geografía y las fiestas religiosas, así como a sus celebraciones.
+Este bloque, aunque amplio, tiene la intención de ver las características más relevantes de estos
+aspectos a lo largo de ambos cursos, a través de los textos latinos, tanto con traducciones como con
+textos en versión original, que el alumnado deberá traducir o leer y entender en lengua latina si su
+nivel de dificultad lo permite.
+9
+
+=== Página 10 ===
+
+Por último, en el Bloque V figuran saberes relacionados con el legado de la civilización latina y el
+patrimonio,  material  o  inmaterial.  Destacan  la  valoración  de  la  mitología  en  las  variadas  e
+innumerables manifestaciones artísticas a lo largo de la historia, así como la presencia de las islas
+Canarias en algunos relatos fantásticos y el proceso de romanización y sus vestigios, especialmente
+en la Península Ibérica.
+Los diferentes elementos curriculares se presentan de la forma más genérica posible, para que sea el
+profesorado  quien  concrete,  de  modo  que  precise,  teniendo  en  cuenta  las  características  del
+alumnado y su entorno, y procurando fomentar una actitud de interés y respeto hacia la cultura
+latina.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Como se ha visto, las competencias específicas, concretadas en los criterios de evaluación y a las
+que se les relacionan los saberes básicos, se desarrollan, como indica su propio nombre, desde un
+punto de vista competencial. De esta manera, se pretende lograr una óptima contribución desde
+Latín I y II a los objetivos de etapa, al desarrollo de las competencias clave que se han citado
+anteriormente y a los descriptores operativos de estas para Bachillerato, para lo que se recomienda
+la  elaboración  de  situaciones  de  aprendizaje  y  tareas  interdisciplinares,  contextualizadas,
+significativas y relevantes.
+Con el propósito de favorecer la motivación por el aprendizaje y generar curiosidad en el alumnado,
+conviene que los saberes relacionados con las distintas competencias específicas sean trabajados, en
+la medida de lo posible, desde un punto de vista heterogéneo y entrelazado entre sí.
+Asimismo, conviene desarrollar situaciones de aprendizaje donde se considere al alumnado como
+agente  social  progresivamente  autónomo  y  responsable  de  su  propio  proceso  de  aprendizaje,
+teniendo  en  cuenta  sus  repertorios  de  conocimiento  e  intereses,  así  como  sus  circunstancias
+específicas, lo que permite combinar distintas metodologías.
+La enseñanza de la lengua, la cultura y la civilización latinas ofrece significativas oportunidades de
+trabajo interdisciplinar que permiten combinar y activar los saberes básicos de diferentes materias,
+contribuyendo a que el alumnado perciba la importancia de conocer el legado clásico latino, para
+enriquecer su juicio crítico y estético, su autopercepción y del mundo que lo rodea.
+10
+
+=== Página 11 ===
+
+El trabajo con textos en edición bilingüe, completos o a través de fragmentos seleccionados, permite
+prestar atención a conceptos y términos básicos en latín que implican un conocimiento léxico y
+cultural, con el fin de contribuir a una lectura crítica y de determinar los factores que determinan su
+valor como clásicos. Además, el trabajo con textos bilingües favorece la integración de saberes de
+carácter lingüístico y no lingüístico, ofreciendo la posibilidad de comparar diferentes traducciones y
+distintos enfoques interpretativos, discutiendo sus respectivas fortalezas y debilidades.
+Se podrá hacer uso de una metodología más activa e interactiva, que fomente, siempre que se
+pueda, el habla latina en el aula, y la lectura de textos directamente en latín, originales muy breves,
+o elaborados o adaptados (se pueden utilizar, por ejemplo, diálogos de cómics: Asterix, Spartaci
+filius, o de la versión latina de Winnie the Pooh…). Podrá ser especialmente motivador traducir
+frases latinas muy sencillas, originales o adaptadas, referidas a Canarias (onomástica latina de las
+islas, por ejemplo), extraídas de la Historia Natural de Plinio el Viejo, de la Colección de cosas
+memorables de J. Solino, o de otros autores o autoras que escribieron en latín en épocas posteriores.
+Esta traducción servirá para ampliar el legado cultural canario procedente de la civilización romana.
+A estas obras se puede sumar el uso de libros como Lingua Latina per se Illustrata o Via Latina,
+métodos basados en la lectura inductiva contextual.
+Las normas fonéticas de evolución del latín al castellano, los procedimientos de formación de
+palabras, los prefijos y los sufijos latinos, y los latinismos o las locuciones latinas habrán de
+seleccionarse  con  el  criterio  de  utilidad,  trabajando,  preferiblemente,  textos  periodísticos  o
+relacionados  con  los  medios  de  comunicación  o  redes  sociales,  en  los  que  se  reflejen  estos
+elementos lingüísticos. Se dará importancia al empleo de diccionarios o glosarios de diferente
+tipología y formato para el trabajo de léxico, desarrollando este trabajo, en la medida de lo posible,
+en la biblioteca escolar o en aulas dotadas con recursos digitales.
+Para la vertiente cultural de la materia, se proponen como posibles estrategias didácticas el empleo
+de bases de orientación o centros de interés, en los que se contextualicen cuestiones de historia; o el
+uso de fuentes cartográficas interactivas, en las que se sitúen hitos históricos de Roma en sus
+lugares  geográficos  correspondientes.  Igualmente,  la  realización  de  tareas  o  situaciones  de
+aprendizaje, planteadas con un objetivo concreto, que el alumnado debe resolver haciendo uso
+adecuado de distintas habilidades y según su ritmo y estilo de aprendizaje, pueden ser de gran
+utilidad,  también,  para  el  estudio  de  las  etapas  y  los  periodos  históricos  de  Roma.  Así,  cabe
+plantearse situaciones de aprendizaje que vinculen el estudio de los mitos clásicos relacionados con
+Canarias con la celebración del Día de Canarias en nuestra Comunidad Autónoma; que valoren las
+prácticas religiosas en torno al culto a los muertos y el origen de la celebración del Día de los
+Finaos; que relacionen el Día del Libro o un recital poético con los géneros literarios latinos o con
+la práctica de los ex libris; que destaquen el papel de la mujer en la sociedad romana el Día de la
+Mujer trabajadora; que el Día del Agua pongan interés en los avances urbanísticos conseguidos por
+los romanos en las fundaciones de las ciudades, en especial, en los relativos a la canalización de
+este líquido elemento… Tanto para el aprendizaje de contenidos culturales como lingüísticos, debe
+tener especial relevancia el uso de entornos de aprendizaje virtuales como el EV AGD de Canarias.
+El mundo de la mitología y de sus personajes más relevantes se puede abordar desde numerosos
+puntos  de  vista  y  con  diversas  estrategias  pedagógicas.  De  esta  manera,  se  recomiendan
+metodologías activas basadas en el aprendizaje cooperativo y a través de proyectos temáticos. Para
+ello, se sugiere  la  elaboración  de  atlas mitológicos, el diseño de  viajes míticos de personajes
+legendarios, las dramatizaciones de mitos y leyendas… El empleo de cuestionarios en línea o cazas
+del tesoro podrá ser un recurso interesante para trabajar los temas legendarios y míticos.
+11
+
+=== Página 12 ===
+
+Para cuestiones referidas, por ejemplo, a los sistemas políticos, a las instituciones de gobierno, a los
+grupos sociales y a la familia romana, se proponen actividades que exijan al alumnado, a partir de
+una serie de ejemplos, establecer sus propias conclusiones y reflexiones, o bien que lo lleven a
+iniciar una búsqueda de datos en diferentes fuentes y, tras un proceso de análisis, elaborar un
+informe, establecer sus propias ideas y publicarlas digitalmente. De especial utilidad para esto es la
+utilización de herramientas didácticas, de carácter colaborativo, relacionadas con las tecnologías
+digitales, como wikis o redes sociales educativas. Con estos recursos el alumnado puede mostrar sus
+investigaciones fuera del aula y le permiten una retroalimentación por medio de comentarios de
+compañeros y compañeras o de otras personas, que lo ayudan a mejorar, cuidando aspectos como la
+ortografía, la presentación, la procedencia de las citas.
+Asimismo, se ha de intentar diseñar situaciones de aprendizaje interdisciplinares en las que se
+combinen los contenidos de otras materias de la etapa, y permitan igualmente aplicar la docencia
+compartida. A modo de ejemplo, cabe citar las siguientes: con Lengua Castellana y Literatura, y las
+lenguas extranjeras del repertorio del alumnado («Latinismos en la lengua cotidiana del español y
+en la de otras lenguas modernas», «La lengua latina en la semana de las lenguas europeas»…), con
+Historia  del  Arte  («Mitos  clásicos  en  el  Arte  del  Renacimiento,  Barroco»…),  con  Literatura
+Dramática («Pervivencia del teatro latino en el teatro actual»…); con materias del Bachillerato de la
+modalidad de Ciencias y Tecnología, como Biología y Geología, o Física y Química («Presencia de
+neologismos  latinos  en  la  taxonomía  biológica,  en  términos  médicos»…);  o  con  materias  del
+Bachillerato de la modalidad de Arte, desarrollando cortos vinculados a contenidos de tema mítico,
+elaborando photocalls, espacios o paneles conectados a momentos históricos de la civilización
+latina, realizando productos sobre mitos y leyendas romanas en la ópera y la danza, o visitando
+museos de artistas de Canarias como el Museo Néstor…
+Otro tipo de situaciones de aprendizaje motivadoras, creativas, competenciales e inclusivas son las
+que desarrollan el aprendizaje entre iguales: el alumnado se convierte en el único protagonista del
+proceso de enseñanza y de aprendizaje que desarrolla con otros alumnos y otras alumnas de mismo
+nivel, del inferior o del superior, y dentro la misma etapa o de otra diferente: por ejemplo, alumnado
+de Latín I explica en una clase práctica «Las instituciones romanas» al alumnado de Ciencias
+Sociales del primer ciclo de ESO; o alumnado de Latín II explica «Locuciones y expresiones latinas
+en  el  campo  económico  y  jurídico»  al  alumnado  de  Economía,  Emprendimiento  y  Actividad
+Empresarial de primero de Bachillerato o al de de Economía; Empresa y Diseño de Modelos de
+Negocio … de segundo de Bachillerato.
+En definitiva, el conocimiento de las creaciones literarias y artísticas, y de los hechos históricos y
+legendarios de Roma, así como los productos literarios del alumnado con intencionalidad estética
+tomando este legado como fuente de inspiración, a través de distintos soportes y con ayuda de otros
+lenguajes  artísticos,  audiovisuales  o  digitales,  contribuye  a  valorar  su  pervivencia  en  nuestro
+patrimonio cultural. Por otro lado, la mediación docente en el establecimiento de la genealogía de
+los  textos,  a  través  de  un  enfoque  intertextual,  permite  constatar  la  presencia  de  universales
+formales y temáticos a lo largo de las épocas, a la vez que favorece la creación autónoma de
+itinerarios lectores que aumenten progresivamente su complejidad, calidad y diversidad a lo largo
+de la vida.
+Todos estos recursos y metodologías aplicables al aula son sugerencias para el profesorado que
+imparte la materia. Depende, sin embargo, de su propio criterio profesional su aplicación o el uso de
+otras fuentes, teniendo en cuenta siempre que hay numerosos factores que influyen en la toma de
+12
+
+=== Página 13 ===
+
+decisiones de la labor docente como el ritmo de aprendizaje del alumnado o las características de su
+entorno.
+13
+
+=== Página 14 ===
+
+1.º Bachillerato
+Bloques competenciales
+Competencia específica
+1.  Traducir  y  comprender  textos  latinos  de  dificultad  creciente  y  justificar  la  traducción,
+identificando y analizando los aspectos básicos de la lengua latina y sus unidades lingüísticas y
+reflexionando sobre ellas mediante la comparación con las lenguas de enseñanza y con otras
+lenguas del repertorio individual del alumnado, para realizar una lectura comprensiva, directa y
+eficaz y una interpretación razonada de su contenido.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CCL3, CP2, CP3, STEM1,
+STEM2, CD1, CPSAA5, CC1
+Criterios de evaluación
+1.1. Distinguir los diferentes sistemas de escritura y alfabetos teniendo en cuenta el contexto en que
+surgieron y prestando especial atención al alfabeto latino y a sus características fonéticas, gráficas y
+prosódicas, con la finalidad de leer textos en esta lengua con una pronunciación adecuada. Reconocer
+el  origen  común  de  las  lenguas  indoeuropeas  y  la  procedencia  latina  de  las  lenguas  romances,
+comparando palabras o expresiones comunes y localizándolas geográficamente en mapas. Todo ello
+con la finalidad de valorar la lengua como una herramienta comunicativa y cultural, y apreciar la
+diversidad lingüística que está inmersa en la sociedad actual.
+CCL2, CP3, CD1, CC1
+1.2. Comprender el concepto de lengua flexiva del latín, reconociendo la flexión nominal y verbal de
+las distintas palabras, de manera que sepan clasificarlas mediante su enunciado y declinándolas o
+conjugándolas según corresponda. A su vez, distinguir las funciones sintácticas de cada caso y su
+relación con la morfología para una correcta traducción de las palabras y los sintagmas.
+CCL2, CP2, STEM2
+14
+
+=== Página 15 ===
+
+1.3. Realizar lecturas o traducciones directas o inversas de oraciones simples y textos originales o
+adaptados  de  dificultad  adecuada  y  progresiva,  y  preferentemente  narrativos,  con  corrección
+ortográfica y expresiva, identificando y analizando unidades lingüísticas regulares de la lengua e
+iniciándose en el uso adecuado del diccionario bilingüe latín-español, de glosarios o de listas de
+vocabulario…, con la intención de ir desarrollando destrezas y habilidades propias de los procesos de
+análisis textual y de la traducción.
+CCL1, CCL2, CCL3, CP2, STEM1, CD1
+1.4. Revisar y subsanar de manera progresivamente autónoma las traducciones propias y la de los
+compañeros y las compañeras, a partir de los procesos de autoevaluación y coevaluación, realizando
+propuestas de mejora y adoptando estrategias adecuadas y eficaces para ello.
+CCL1, CP2, STEM2, CPSAA5
+Explicación del bloque competencial
+A través de este bloque competencial se pretende constatar que el alumnado reconoce el alfabeto latino y sus características fonéticas, gráficas y
+prosódicas, leyendo frases o textos latinos de manera progresiva y correcta. Deberá ser capaz, además, de analizar morfológica y sintácticamente
+textos sencillos y aplicar estrategias y herramientas para la traducción de textos latinos y para la resolución de problemas, que contrastará para
+reformular las hipótesis, al mismo tiempo que llevará a cabo ejercicios simples de retroversión, puesto que la traducción de estos textos constituye el
+núcleo del proceso de aprendizaje de las lenguas clásicas. Esto hará que el alumnado logre no solo expresarse de forma oral y escrita, para crear
+conocimiento, intercambiarlo, aceptar el error como parte del proceso de aprendizaje y desarrollar una actitud positiva de superación; sino también
+comprender, interpretar y valorar diferentes textos orales, escritos y multimodales, localizando, seleccionando y contrastando información de
+diferentes fuentes. Con todo ello y a través de actividades de autorreparación, autoevaluación y coevaluación, podrá analizar y valorar, de manera
+crítica, la diversidad lingüística y cultural, y lograr el desarrollo personal y social.
+15
+
+=== Página 16 ===
+
+Competencia específica
+2. Distinguir los formantes latinos y explicar los cambios que hayan tenido lugar a lo largo del
+tiempo,  comparándolos  con  los  de  las  lenguas  de  enseñanza  y  otras  lenguas  del  repertorio
+individual  del  alumnado,  para  deducir  el  significado  etimológico  del  léxico  conocido  y  los
+significados de léxico nuevo o especializado.
+Descriptores operativos de las
+competencias clave
+CCL5, CP2, CP3, STEM1, CPSAA4,
+CPSAA5
+Criterios de evaluación
+2.1. Identificar distintos formantes latinos, deduciendo su significado a partir de los procedimientos de
+derivación y composición de palabras; y reconocer expresiones latinas de uso actual y distinguir
+familias etimológicas o semánticas, para obtener así un mayor conocimiento y mejor manejo de las
+lenguas y los lenguajes que conforman el repertorio de alumnado y propiciar el aprendizaje de otras.
+CP2, CP3, STEM1
+2.2.  Aplicar  las  normas  básicas  de  evolución  fonética,  morfológica  o  semántica  de  complejidad
+creciente del latín a las lenguas romances, especialmente a las lenguas y modalidades de España,
+sirviéndose de la comparación con otras lenguas y distinguiendo entre cultismos, semicultismos y
+patrimoniales, con el objetivo de que se valore la lengua como una herramienta de comunicación que
+se transforma con el uso del hablante.
+CCL5, CP3, CPSAA4, CPSAA5
+Explicación del bloque competencial
+Se pretende comprobar que el alumnado es capaz de inferir el significado etimológico de los términos latinos mediante el uso de métodos inductivos
+y deductivos, de modo que le permita desarrollar y ampliar su repertorio lingüístico individual. Deberá conocer los mecanismos de las lenguas para
+construir palabras, así como los principales formantes latinos presentes en la lengua cotidiana, las ciencias y la tecnología, al mismo tiempo que
+busca la adquisición de estrategias que le permitan enriquecer el vocabulario y su expresión oral y escrita para crear lazos léxicos, que faciliten el
+aprendizaje de otras lenguas o ampliar el conocimiento de las que ya se dominan. Del mismo modo, se pretende que comprenda los cambios
+16
+
+=== Página 17 ===
+
+fonéticos  más importantes  del  latín  al  castellano  y  reconozca  los dobletes,  diferenciando  entre  un  cultismo  y  una  palabra  patrimonial,  para
+comprender la naturaleza propia de la lengua como algo vivo y cambiante a lo largo de los siglos, poniendo en práctica el uso correcto de la lengua a
+la hora de analizar, comparar y valorar la información de manera crítica y como desarrollo personal en una sociedad igualitaria y cohesionada.
+Competencia específica
+3. Leer,  interpretar y  comentar textos latinos de diferentes géneros y épocas, asumiendo  el
+proceso creativo como complejo e inseparable del contexto histórico, social y político y de sus
+influencias artísticas, para identificar su genealogía y su aportación a la literatura europea.
+Descriptores operativos de las
+competencias clave
+CCL2, CCL4, CP3, CD1, CD2, CCEC1,
+CCEC2, CCEC3.2
+Criterios de evaluación
+3.1. Leer y comentar textos y fragmentos literarios básicos o adaptados y en diferentes soportes de
+información  y  comunicación,  identificando  conceptos  fundamentales  para  la  comprensión  de  la
+civilización latina y aplicando estrategias de aprendizaje, que impliquen analizar y reflexionar sobre la
+propia experiencia, con el objetivo de comprender el mundo y la condición humana, e iniciar al
+alumnado en la lectura de fragmentos y textos clásicos traducidos.
+CCL2, CCL4, CP3, CD1, CCEC1, CCEC2
+3.2. Reconocer e identificar los principales géneros, temas, tópicos y valores éticos o estéticos de la
+civilización y cultura latinas, partiendo de la lectura de fragmentos significativos de diferentes autores
+clásicos,  con  el  propósito  de  producir  textos  individuales  o  colectivos  con  intención  literaria  en
+distintos soportes, como fuente de desarrollo creativo, y de identificar su pervivencia en obras o
+fragmentos literarios posteriores de la cultura europea y occidental.
+CCL2, CCL4, CP3, CD1, CD2, CCEC2,
+CCEC3.2
+17
+
+=== Página 18 ===
+
+Explicación del bloque competencial
+Mediante este bloque competencial se contribuye al desarrollo del alumnado, puesto que deberá ser capaz de interpretar breves fragmentos de textos
+clásicos latinos pertenecientes a diferentes géneros y épocas, mediante una lectura comprensiva, con actitud crítica y valorando la diversidad
+lingüística y literaria que ofrecen estas obras. Se busca un primer acercamiento a la literatura latina mediante los textos significativos de los distintos
+géneros y autores, de manera que pueda lograr una autonomía en la lectura y producir textos escolares con intencionalidad estética y con ayuda de
+diferentes soportes y lenguajes, en los que refleje los conocimientos adquiridos sobre estas cuestiones y su pervivencia en la literatura posterior, tras
+un proceso de búsqueda en internet, investigación y comparación de la información, de modo que pueda crear contenidos digitales, con la finalidad
+de formar su propio conocimiento en la construcción de la identidad personal y de compartirlo en un entorno social, arropado por la diversidad
+cultural y artística.
+Competencia específica
+4.  Analizar  las  características  de  la  civilización  latina  en  el  ámbito  personal,  religioso  y
+sociopolítico, adquiriendo conocimientos sobre el mundo romano y comparando críticamente el
+presente y el pasado, para valorar las aportaciones del mundo clásico latino a nuestro entorno
+como base de una ciudadanía democrática y comprometida.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL3, CCL5, CP3, CD1, CD2,
+CPSAA3.1, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+4.1. Identificar los principales hitos históricos, políticos y sociales de Roma, comparándolos con los de
+las sociedades actuales, con la intención de favorecer el desarrollo de una cultura y una ciudadanía
+comprometidas con la memoria colectiva y los valores democráticos, y de fomentar la educación de
+valores cívicos y normas que impliquen la igualdad de todas las personas como instrumentos válidos
+CCL3, CP3, CC1, CC2, CC3, CCEC1
+18
+
+=== Página 19 ===
+
+en la resolución de conflictos.
+4.2. Elaborar trabajos de investigación de manera progresivamente autónoma en distintos soportes de
+información y comunicación del ámbito educativo, sobre aspectos del legado de la civilización latina
+en el ámbito personal, religioso y sociopolítico; y reflexionar acerca de su importancia, tratando de
+forma correcta la información procedente de diferentes fuentes bibliográficas y digitales, calibrando su
+fiabilidad y pertinencia, aprendiendo a respetar los principios de rigor y propiedad intelectual, y
+haciendo uso responsable de soportes tecnológicos para la realización de producciones. Todo esto para
+obtener una visión global de la pervivencia romana y la tradición clásica, que posibilite el contraste y
+la empatía de opiniones y el respeto de las argumentaciones ajenas.
+CCL1, CCL3, CCL5, CD1, CD2,
+CPSAA3.1, CC3, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se busca comprobar que el alumnado puede entender los tres ejes principales sobre los que se vertebra esta
+competencia: privado, religioso y sociopolítico, aspectos fundamentales de la sociedad romana, mediante las búsquedas avanzadas de información en
+distintos soportes, tanto físicos como digitales, y en grupo o de manera individual, en las que se precisa de estrategias para consultar, seleccionar y
+contrastar información. En este sentido, deberá reconocer alguno de los saberes de esta competencia como: los enclaves geográficos de mayor
+relevancia en el devenir de la civilización romana, así como los hitos históricos, políticos y sociales más relevantes de Roma, asociándolos a cada
+una de sus épocas; las religiones que había en esa civilización, basadas en el monoteísmo, el politeísmo o el zoomorfismo; y las características
+principales de los miembros familiares y sus roles, haciendo especial hincapié en el papel de la mujer en el mundo antiguo. Todo esto tiene como
+finalidad elaborar producciones, haciendo uso de la correcta expresión oral y escrita, en los que plasme sus reflexiones sobre el legado y la tradición
+clásica, a través del uso responsable de los soportes digitales, al mismo tiempo que refuerza un pensamiento propio, crítico, respetuoso y tolerante
+con la sociedad, en general, y con las personas de su entorno, en particular, sabiendo que existe una variedad diatópica y diacrónica de las distintas
+culturas, en especial, de la europea occidental, y que los posibles conflictos se solucionan mediante la vía del diálogo y de la igualdad de derechos.
+19
+
+=== Página 20 ===
+
+Competencia específica
+5. Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado de la
+civilización latina, interesándose por su sostenibilidad y reconociéndolo como producto de la
+creación humana y como testimonio de la historia, para explicar el legado material e inmaterial
+latino  como  transmisor de  conocimiento  y  fuente  de  inspiración  de  creaciones  modernas  y
+contemporáneas.
+Descriptores operativos de las
+competencias clave
+CCL3, CP3, CD2, CC1, CC2, CC4, CE1,
+CCEC1, CCEC2
+Criterios de evaluación
+5.1. Investigar e identificar, de manera guiada, el legado material e inmaterial de la civilización latina,
+analizando sus producciones culturales y la influencia que han tenido estas en el mundo occidental,
+para lograr una actitud cívica que asegure el reconocimiento y la sostenibilidad del patrimonio y el
+desarrollo de una actitud respetuosa, igualitaria y libre de prejuicios hacia ese legado cultural que
+constituye el fundamento de nuestra sociedad actual.
+CCL3, CP3, CD2, CC1, CC2, CC4,
+CCEC1, CCEC2
+5.2. Reconocer las huellas de la romanización  y el legado  romano,  aplicando  los conocimientos
+adquiridos en los que el alumnado reflexione sobre la cultura de los pueblos y su forma de vida y
+sociedad, con el fin de observar la pervivencia de la Antigüedad clásica, en especial, de la civilización
+latina en su vida cotidiana y en el patrimonio cultural de Canarias, y presentar sus resultados a través
+de diferentes soportes de información y comunicación del ámbito educativo.
+CP3, CD2, CC1, CC2, CC4, CE1, CCEC2
+Explicación del bloque competencial
+El último bloque competencial pretende constatar que el alumnado reconoce y valora el patrimonio, material e inmaterial, que el mundo moderno, en
+especial, el occidental, debe al legado y a la herencia romanos, analizando los fenómenos históricos y culturales desde un punto de vista objetivo y
+crítico, puesto que este es un producto que hay que conservar y preservar por su autenticidad y excepcionalidad histórica. Esta competencia debe
+20
+
+=== Página 21 ===
+
+comprobar, por tanto, que el alumnado identifica la mitología como un elemento inspirador para la composición de obras artísticas de todos los
+tiempos, sobre todo las de los creadores y las creadoras canarios; y que conoce básicamente el proceso de construcción, conservación, preservación y
+restauración de las obras públicas y del urbanismo legado por Roma, reconociéndolo como parte de la romanización de lo que se conocía en aquella
+época como Hispania. Deberá saber seleccionar los datos adecuados y contrastar la información obtenida, a través de diferentes soportes para
+reflejarlos, de manera guiada, en la elaboración o reelaboración de producciones en diferentes formatos y plataformas que permitan valorar la
+pervivencia del mundo clásico en Europa y en España, y su repercusión, en particular, en Canarias.
+21
+
+=== Página 22 ===
+
+Saberes básicos
+I. El texto: comprensión y traducción
+1. Unidades lingüísticas de la lengua latina 
+1.1. Conocimiento  del  abecedario,  la  pronunciación  y  la  acentuación  del  latín  para  su
+correcta escritura, lectura y entonación.
+1.2. Distinción  las  clases  de  palabras  (sustantivos,  verbos,  adjetivos…)  y  su  correcta
+clasificación.
+1.3. Comprensión del concepto de lengua flexiva: flexión nominal y pronominal (sistema
+casual y declinaciones) y flexión verbal (sistema de conjugaciones).
+1.4. Reconocimiento de las funciones sintácticas de los casos.
+1.5. Manejo y análisis de estructuras oracionales simples y compuestas más frecuentes 
+1.5.1. Establecimiento de relaciones básicas de concordancia: sustantivo + adjetivo y
+sustantivo/pronombre + verbo.
+1.5.2. Conocimiento de la disposición de las palabras latinas en una frase.
+1.6. Clasificación de las formas nominales del verbo.
+1.7. Reconocimiento general de las estructuras lingüísticas en castellano.
+2. La traducción: técnicas, procesos y herramientas 
+2.1. Análisis morfosintáctico como herramienta de traducción.
+2.2. Aplicación de estrategias de traducción: 
+2.2.1. Formulación de expectativas a partir del entorno textual (título, obra…) y del
+propio  texto  (campos  temáticos,  familias  de  palabras…),  así  como  a  partir  del
+contexto.
+2.2.2. Identificación del tema y breve descripción de la estructura y género.
+2.2.3. Acercamiento a las peculiaridades lingüísticas de los textos traducidos (discurso
+directo/indirecto, uso de tiempos verbales, géneros verbales, pregunta retórica…).
+2.2.4. Identificación  de  errores  frecuentes  de  traducción  y  técnicas  para  evitarlos
+(comprobación  de si la  traducción  está  completa,  control  de  acuerdo  a  criterios
+dados, delimitación de construcciones sintácticas…).
+2.3. Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o
+correctores ortográficos en soporte analógico o digital…
+2.4. Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir
+de terminología metalingüística.
+2.5. Recursos estilísticos frecuentes y su relación con el contenido del texto.
+22
+
+=== Página 23 ===
+
+2.6. Uso de estrategias básicas de retroversión de oraciones y textos breves, de manera que
+se trabaje la morfosintaxis casual de manera activa.
+2.7. Uso  de  la  traducción  como  instrumento  que  favorece  el  razonamiento  lógico,  la
+constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.
+2.8. Aceptación  del  error  como  parte  del  proceso  de  aprendizaje  y  actitud  positiva  de
+superación.
+2.9. Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas,
+para la autoevaluación, la coevaluación y la autorreparación.
+II. Plurilingüismo
+1. Identificación de los diferentes sistemas de escritura a lo largo de la historia.
+2. Reconocimiento del origen del latín a partir de las lenguas indoeuropeas.
+3. Identificación de las etapas de la lengua latina: acercamiento al latín vulgar y latín culto.
+4. Valoración de la influencia del latín en la evolución del castellano y del resto de lenguas que
+conforman el repertorio lingüístico individual del alumnado.
+5. Localización y distinción de las diferentes lenguas habladas en España, romances o no
+romances, así como de las distintas variedades dialectales como el español de Canarias.
+6. Identificación  de  las  reglas  fonéticas  sencillas  en  la  evolución  del  latín  al  castellano,
+distinguiendo entre cultismos y palabras patrimoniales.
+7. Acercamiento a los procedimientos de derivación y composición de palabras españolas con
+componentes léxicos latinos.
+8. Identificación de lexemas, sufijos y prefijos de origen latino presentes en el léxico de uso
+común y en el específico de las ciencias y la técnica, infiriendo el significado y la definición
+de palabras de uso común en las lenguas de enseñanza a partir de sus étimos de origen
+latino.
+9. Empleo de expresiones latinas integradas en las lenguas modernas, en la lengua coloquial y
+en  diferentes  tipos de  textos (literarios, periodísticos,  publicitarios…), así  como  en  los
+medios de comunicación y las redes sociales.
+10. Interés por conocer el significado etimológico de las palabras: importancia del uso adecuado
+del vocabulario como instrumento básico en la comunicación.
+11. Reconocimiento del latín como instrumento que permite un mejor conocimiento de las
+lenguas de estudio y un más fácil acercamiento a otras lenguas modernas, romances y no
+romances.
+12. Respeto por todas las lenguas y aceptación de las diferencias culturales de las personas que
+las hablan.
+13. Reconocimiento de herramientas analógicas y digitales para el aprendizaje, la comunicación
+y el desarrollo de proyectos con hablantes o estudiantes de latín a nivel transnacional.
+23
+
+=== Página 24 ===
+
+14. Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua,
+el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).
+III. Educación literaria
+1. Acercamiento a la lengua latina como principal vía de transmisión de los conocimientos del
+mundo clásico (historia, arte, literatura, ingeniería…).
+2. Identificación  de las  diferentes  etapas y vías  de  transmisión  de  la  literatura  latina,  para
+contextualizar adecuadamente los autores y géneros en el momento correcto.
+3. Aproximación a los principales géneros de la literatura latina: origen, tipología, cronología,
+temas, motivos, tradición, características y principales autores.
+4. Aprendizaje y uso de técnicas básicas para el comentario y análisis lingüístico y literario de
+los textos literarios latinos.
+5. Recepción de la literatura latina: 
+5.1. Valoración de la influencia de la literatura latina en la producción cultural europea.
+5.2. Aprendizaje de nociones básicas de intertextualidad: imitatio y aemulatio.
+6. Identificación de las analogías y diferencias entre los géneros literarios latinos y los de la
+literatura actual.
+7. Breve iniciación a la crítica literaria: análisis y valoración de la literatura latina.
+8. Interés hacia la literatura de autores clásicos como fuente de placer y de conocimiento del
+mundo.
+9. Respeto de la propiedad intelectual y de los derechos de autor sobre las fuentes consultadas y
+contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos
+para evitar el plagio.
+IV . La antigua Roma
+1. Identificación de los aspectos más relevantes de la geografía en el proceso de expansión de
+Roma desde su nacimiento hasta la desaparición del Imperio romano.
+2. Reconocimiento de las ciudades y los lugares más relevantes de la antigua Roma y la función
+de de cada uno de estos (foros, basílicas, anfiteatros, circos…).
+3. Estudio de las etapas y de los periodos históricos de Roma: 
+3.1. Reconocimiento de los principales sistemas políticos de Roma: Monarquía, República e
+Imperio.
+3.2. Ubicación en ejes o frisos cronológicos de los hitos y episodios más representativos de
+la historia del mundo romano entre los siglos VIII a. C. y V d. C.
+3.3. Identificación de las principales leyendas de la historia de Roma.
+3.4. Identificación de las personalidades históricas más representativas de Roma: biografía
+en contexto e importancia para Europa.
+24
+
+=== Página 25 ===
+
+4. Aproximación a la organización política y social de Roma como parte esencial de la historia y
+cultura de la sociedad actual.
+5. Comparación de las instituciones, creencias y formas de vida de la civilización latina con la
+perspectiva sociocultural actual, prestando especial atención atención al papel desempeñado
+por la mujer en aquel momento histórico
+6. Valoración de las influencias de la cultura griega en la civilización latina:  Graecia capta
+ferum victorem cepit.
+7. Aportación de Roma a la cultura y al pensamiento de la sociedad occidental como base del
+desarrollo posterior en las distintas civilizaciones.
+8. Relación de Roma con culturas y religiones extranjeras (Grecia, el cristianismo…), de manera
+que  el  alumnado  reflexione,  y  sea  tolerante  y  respetuoso  con  las  culturas  y  religiones
+actuales ajenas a él.
+9. Estudio  del  mar  Mediterráneo  como  encrucijada  de  culturas  del  ayer  y  hoy  y  paso  del
+conocimiento científico, literario, histórico, artístico y tecnológico entre Asia, Europa y
+África.
+10. Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como
+locus amoenus.
+V . Legado y patrimonio
+1. Reconocimiento del legado, de la herencia y del patrimonio romano en el mundo actual.
+2. Apreciación  de  la  transmisión  textual  latina  como  patrimonio  cultural  y  fuente  de
+conocimiento  a  través  de  diferentes  culturas  y  épocas.  Reconocimiento  de  soportes  de
+escritura: tipos y preservación.
+3. Identificación  de  la  mitología  clásica  en  las  manifestaciones  artísticas  (literatura,  artes
+plásticas  y  visuales,  música…)  de  la  cultura  occidental,  en  general,  y  de  Canarias,  en
+particular.
+4. Valoración de la huella de Roma en la Península Ibérica: la romanización de Hispania.
+5. Reconocimiento de las obras públicas y urbanismo: construcción, conservación, preservación
+y restauración.
+6. Valoración del legado inmaterial del mundo romano: el derecho, las instituciones políticas, la
+retórica…
+7. Iniciación a las técnicas básicas de debate y de exposición oral.
+8. Localización  de  las  principales  obras  artísticas  de  la  Antigüedad  romana  y  sitios
+arqueológicos, museos o festivales relacionados con la Antigüedad clásica.
+9. Identificación del patrimonio cultural romano en la arquitectura y el urbanismo de Canarias.
+25
+
+=== Página 26 ===
+
+2.º Bachillerato
+Bloques competenciales
+Competencia específica
+1.  Traducir  y  comprender  textos  latinos  de  dificultad  creciente  y  justificar  la  traducción,
+identificando y analizando los aspectos básicos de la lengua latina y sus unidades lingüísticas y
+reflexionando sobre ellas mediante la comparación con las lenguas de enseñanza y con otras
+lenguas del repertorio individual del alumnado, para realizar una lectura comprensiva, directa y
+eficaz y una interpretación razonada de su contenido.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CCL3, CP2, CP3, STEM1,
+STEM2, CD1, CPSAA5, CC1
+Criterios de evaluación
+1.1. Conocer las flexiones nominal, pronominal y verbal, en sus formas regulares e irregulares, y
+distinguir las categorías gramaticales y las construcciones sintácticas de la lengua latina, identificando
+y analizando todas estas unidades lingüísticas en textos latinos de diversa índole, para traducirlos y
+consolidar las estructuras de la propia lengua y otras del repertorio individual del alumnado.
+CCL2, CP2, STEM2
+1.2. Realizar lecturas o traducciones directas o inversas de textos originales o adaptados, de dificultad
+adecuada y progresiva, sirviéndose del diccionario bilingüe latín-español o de herramientas de apoyo
+en distintos soportes digitales o no, para seleccionar los términos más apropiados en la lengua propia y
+teniendo en cuenta la información cotextual o contextual, con la intención de mejorar las destrezas y
+habilidades propias de los procesos del análisis textual y de la traducción.
+CCL1, CCL2, CCL3, CP2, STEM1, CD1
+1.3. Revisar y subsanar las traducciones propias y la de los compañeros y las compañeras, a partir de
+procesos  de  autoevaluación  y  coevaluación,  registrando  los  progresos  y  las  dificultades  en  el
+CCL1, CP2, STEM2, CPSAA5
+26
+
+=== Página 27 ===
+
+conocimiento  de  la  lengua  latina  y adoptando  estrategias adecuadas  y eficaces  para  ello,  con  la
+finalidad de mejorar la planificación y organización del trabajo, y de consolidar y desarrollar los
+aprendizajes adquiridos.
+Explicación del bloque competencial
+A través de este bloque competencial, el alumnado deberá ser capaz de analizar morfológica y sintácticamente las unidades lingüísticas más
+complejas del latín, y aplicar estrategias y herramientas para la traducción de textos de dificultad graduada y progresiva, ya sean adaptados u
+originales, y para la resolución de problemas, que contrastará para reformular las hipótesis, lo que supone justificar, razonar y argumentar sus propias
+traducciones,  pudiendo  llevar  a  cabo  ejercicios  de  retroversión  que  refuercen  el  aprendizaje  continuo  y  que  ponga  en  práctica  todos  los
+conocimientos acumulados en este apartado tan importante en el estudio de las lenguas clásicas. Esto propiciará que el alumnado sea capaz no solo
+de expresarse de forma oral y escrita, creando conocimiento e intercambiándolo, sino también de comprender, interpretar y valorar diferentes textos
+orales, escritos o multimodales, localizando, seleccionando y contrastando información de diferentes fuentes, como los propios repertorios léxicos,
+los glosarios o los diccionarios que consultará para la traducción, y que deberá manejar con soltura y autonomía. Con todo ello y a través de
+actividades de autorreparación, autoevaluación y coevaluación, podrá analizar y valorar, de manera crítica, la diversidad lingüística y cultural;
+aceptar el error como parte del proceso de aprendizaje; adquirir una actitud positiva de superación; lograr el desarrollo personal y social; y potenciar
+su espíritu crítico.
+Competencia específica
+2. Distinguir los formantes latinos y explicar los cambios que hayan tenido lugar a lo largo del
+tiempo,  comparándolos  con  los  de  las  lenguas  de  enseñanza  y  otras  lenguas  del  repertorio
+individual  del  alumnado,  para  deducir  el  significado  etimológico  del  léxico  conocido  y  los
+significados de léxico nuevo o especializado.
+Descriptores operativos de las
+competencias clave
+CCL5, CP2, CP3, STEM1, CPSAA4,
+CPSAA5
+27
+
+=== Página 28 ===
+
+Criterios de evaluación
+2.1. Inferir el significado etimológico de términos de uso común, de nueva aparición o del léxico
+científico-técnico,  y  reconocer  expresiones  latinas,  aplicando  estrategias  de  reconocimiento  de
+formantes latinos según los cambios fonéticos, morfológicos o semánticos que hayan tenido lugar y
+distinguiendo familias etimológicas o semánticas, para comprender los procedimientos de creación
+léxica, ampliar el vocabulario, obtener un mayor conocimiento y mejor manejo de las lenguas y
+lenguajes que conforman el repertorio del alumnado, y propiciar futuros aprendizajes autónomos de
+otras.
+CP2, CP3, STEM1
+2.2.Explicar  cambios  fonéticos,  morfológicos  o  semánticos  desde  la  lengua  latina  a  las  lenguas
+romances, especialmente a las lenguas y modalidades de España, analizando prejuicios y estereotipos
+lingüísticos, y valorando la diversidad lingüística como fuente de conocimiento y de riqueza, con el
+objetivo de entender la lengua como un ente vivo y cambiante propio del ser humano, y que depende
+en su funcionamiento del contexto comunicativo diastrático, diafásico o diatópico.
+CCL5, CP3, CPSAA4, CPSAA5
+Explicación del bloque competencial
+Con la competencia específica 2 se pretende comprobar que el alumnado no solo es capaz de reconocer, sino también de explicar el significado
+etimológico de los términos latinos, estableciendo relaciones con otros vocablos pertenecientes al mismo campo léxico o semántico, mediante el uso
+de  métodos  inductivos  y deductivos,  de  modo que  le  permita  desarrollar  y  ampliar  su repertorio  lingüístico  individual.  Deberá  conocer  los
+mecanismos de las lenguas para construir palabras, así como crear textos orales, escritos o multimodales que incorporen los principales formantes y
+expresiones latinos presentes en la lengua cotidiana, las ciencias y la tecnología, al mismo tiempo que busca la adquisición de estrategias que le
+permitan enriquecer su vocabulario y su expresión oral y escrita para crear lazos léxicos, que faciliten el aprendizaje de otras lenguas o ampliar el
+conocimiento de las que ya se dominan. Del mismo modo, se pretende que desarrolle detalladamente los cambios fonéticos del latín al castellano, y
+reconozca y explique los dobletes, diferenciando entre un cultismo y una palabra patrimonial, para comprender la naturaleza propia de la lengua
+como algo vivo y cambiante a lo largo de los siglos, poniendo en práctica el uso correcto de la lengua a la hora de analizar, comparar y valorar la
+28
+
+=== Página 29 ===
+
+información de manera crítica y como desarrollo personal en una sociedad igualitaria y cohesionada.
+Competencia específica
+3. Leer,  interpretar y  comentar textos latinos de diferentes géneros y épocas, asumiendo  el
+proceso creativo como complejo e inseparable del contexto histórico, social y político y de sus
+influencias artísticas, para identificar su genealogía y su aportación a la literatura europea.
+Descriptores operativos de las
+competencias clave
+CCL2, CCL4, CP3, CD1, CD2, CCEC1,
+CCEC2, CCEC3.2
+Criterios de evaluación
+3.1. Leer, interpretar y comentar textos y fragmentos literarios de creciente complejidad, de diversa
+índole y en diferentes soportes de información y comunicación, definiendo conceptos fundamentales
+para la comprensión de la civilización latina y aplicando estrategias de aprendizaje, que impliquen
+movilizar los conocimientos previos, con el objetivo de comprender el mundo y la condición humana,
+y de desarrollar la sensibilidad estética y el hábito lector, analizando y reflexionando sobre la propia
+experiencia.
+CCL2, CCL4, CP3, CD1, CCEC1, CCEC2
+3.2. Analizar y explicar los géneros, temas, tópicos y valores éticos o estéticos de la civilización y
+cultura  latinas,  partiendo  de  la  lectura  de  sus  autores  y  obras  más  relevantes,  considerando  sus
+características  principales  y estableciendo  relaciones y paralelismos  entre  la  literatura  latina  y  la
+posterior, con el propósito de producir textos individuales o colectivos con intención literaria en
+distintos soportes, como fuente de enriquecimiento personal y de desarrollo creativo, y de valorar su
+pervivencia en obras o fragmentos literarios posteriores de la cultura europea y occidental.
+CCL2, CCL4, CP3, CD1, CD2, CCEC2,
+CCEC3.2
+29
+
+=== Página 30 ===
+
+Explicación del bloque competencial
+La competencia específica 3 contribuye al desarrollo del alumnado, puesto que   deberá ser capaz de interpretar y comentar textos clásicos latinos
+pertenecientes a diferentes géneros y épocas mediante una lectura comprensiva y con actitud crítica, al mismo tiempo que valora la diversidad
+lingüística y literaria que ofrecen estas obras. El alumnado profundizará en los aspectos más relevantes de la literatura latina mediante textos
+seleccionados u obras completas de los distintos géneros y autores, de manera que pueda lograr la autonomía en la lectura, fomentando el disfrute y
+la sensibilidad literaria, y producir textos escolares con intencionalidad estética y con ayuda de diferentes soportes y lenguajes, en los que reflexione
+sobre sus características y refleje los conocimientos adquiridos sobre estas cuestiones y su pervivencia en la literatura posterior, con especial
+mención a la literatura canaria, tras un proceso autónomo de búsqueda en internet, y de investigación y comparación de la información, de modo que
+esté en disposición de crear contenidos digitales, con la finalidad de formar su propio conocimiento en la construcción de la identidad personal y
+compartirlo en un entorno social arropado por la diversidad cultural y artística.
+Competencia específica
+4.  Analizar  las  características  de  la  civilización  latina  en  el  ámbito  personal,  religioso  y
+sociopolítico, adquiriendo conocimientos sobre el mundo romano y comparando críticamente el
+presente y el pasado, para valorar las aportaciones del mundo clásico latino a nuestro entorno
+como base de una ciudadanía democrática y comprometida.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL3, CCL5, CP3, CD1, CD2,
+CPSAA3.1, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+4.1. Explicar los procesos históricos y políticos, las instituciones, las clases sociales, los modos de vida
+y las costumbres de la sociedad romana, comparándolos con los de las sociedades actuales, valorando
+las adaptaciones y los cambios experimentados a la luz de la evolución de las sociedades y los
+derechos  humanos,  con  la  intención  de  favorecer  el  desarrollo  de  una  cultura  y  una  ciudadanía
+CCL3, CP3, CC1, CC2, CCEC1
+30
+
+=== Página 31 ===
+
+comprometidas con la memoria colectiva y los valores democráticos, y de fomentar la educación de
+valores cívicos y normas que impliquen la igualdad de todas las personas como instrumentos válidos
+en la resolución de conflictos.
+4.2. Elaborar trabajos de investigación en distintos soportes de información y comunicación del ámbito
+educativo,  sobre  aspectos  del  legado  de  la  civilización  latina  en  el  ámbito  personal,  religioso  y
+sociopolítico;  y  debatir  acerca  de  su  importancia,  localizando,  seleccionando,  contrastando  y
+reelaborando la información procedente de diferentes fuentes bibliográficas y digitales, calibrando su
+fiabilidad y pertinencia, respetando los principios de rigor y propiedad intelectual, y haciendo uso
+responsable de soportes tecnológicos para la realización de producciones. Todo esto para obtener una
+visión integradora de la pervivencia romana y la tradición clásica, que posibilite el contraste y la
+empatía de opiniones y el respeto de las argumentaciones ajenas.
+CCL1, CCL3, CCL5, CD1, CD2,
+CPSAA3.1, CC3, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial, se busca comprobar que el alumnado aplica sus conocimientos previos sobre los tres ejes principales sobre los
+que se vertebra esta competencia: privado, religioso y sociopolítico, aspectos fundamentales de la sociedad romana, y que profundiza en ellos,
+mediante las búsquedas avanzadas de información en distintos soportes, tanto físicos como digitales, y en grupo o de manera individual, en las que
+se precisa de estrategias para consultar, seleccionar y contrastar información. En este sentido, deberá reflexionar sobre alguno de los saberes de esta
+competencia como: los enclaves geográficos de mayor relevancia de la civilización romana; los hitos históricos, políticos y sociales más relevantes
+de Roma, asociándolos a cada una de sus épocas y reflexionando sobre sus repercusiones en el devenir de la historia de Occidente y de Europa; las
+religiones que había en esa civilización, basadas en el monoteísmo, el politeísmo o el zoomorfismo, analizando sus relaciones y comparándolas con
+las religiones actuales; y las características principales de los miembros familiares y sus roles, haciendo especial hincapié en el papel de la mujer en
+el mundo antiguo, con el objetivo de contrastar la sociedad romana con la sociedad moderna y, especialmente, con el entorno más cercano del
+alumnado. Todo esto tiene como finalidad elaborar producciones, en los que plasme sus reflexiones sobre el legado y la tradición clásica, a través del
+uso responsable de los soportes digitales, al mismo tiempo que refuerza un pensamiento propio, crítico, respetuoso y tolerante con la sociedad, en
+general, y con las personas de su entorno, en particular, sabiendo que existe una variedad diatópica y diacrónica de las distintas culturas, en especial,
+31
+
+=== Página 32 ===
+
+de la europea occidental, y que los posibles conflictos se solucionan mediante la vía del diálogo y de la igualdad de derechos.
+Competencia específica
+5. Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado de la
+civilización latina, interesándose por su sostenibilidad y reconociéndolo como producto de la
+creación humana y como testimonio de la historia, para explicar el legado material e inmaterial
+latino  como  transmisor de  conocimiento  y  fuente  de  inspiración  de  creaciones  modernas  y
+contemporáneas.
+Descriptores operativos de las
+competencias clave
+CCL3, CP3, CD2, CC1, CC2, CC4, CE1,
+CCEC1, CCEC2
+Criterios de evaluación
+5.1.  Identificar,  investigar  y  explicar  el  legado  material  e  inmaterial  de  la  civilización  latina,
+analizando sus producciones culturales y la influencia que han tenido estas en el mundo occidental, e
+interesándose  por los procesos de construcción,  preservación,  conservación  y restauración  de  los
+monumentos clásicos más importantes reconocidos universalmente, para lograr una actitud cívica que
+asegure el reconocimiento y la sostenibilidad del patrimonio y el desarrollo de una actitud respetuosa,
+igualitaria y libre de prejuicios hacia ese legado cultural que constituye el fundamento de nuestra
+sociedad actual.
+CCL3, CP3, CD2, CC1, CC2, CC4,
+CCEC1, CCEC2
+5.2.  Explorar  las  huellas  de  la  romanización  y  el  legado  romano,  aplicando  los  conocimientos
+adquiridos en los que el alumnado reflexione sobre la cultura de los pueblos y entendiendo su forma de
+vida y sociedad, con el fin de investigar y valorar la pervivencia de la Antigüedad clásica, en especial,
+de la civilización latina en su vida cotidiana y en el patrimonio cultural de Canarias, y de realizar
+CP3, CD2, CC1, CC2, CC4, CE1, CCEC2
+32
+
+=== Página 33 ===
+
+productos  en  los  que  presente  sus  resultados  a  través  de  diferentes  soportes  de  información  y
+comunicación del ámbito educativo.
+Explicación del bloque competencial
+El bloque competencial 5 pretende constatar que el alumnado reconoce y valora el patrimonio, material e inmaterial, que el mundo moderno, en
+especial, el occidental, debe al legado y a la herencia romanos, analizando los fenómenos históricos y culturales desde un punto de vista objetivo y
+crítico, puesto que este es un producto que hay que conservar y preservar por su autenticidad y excepcionalidad histórica. Esta competencia debe
+comprobar, por tanto, que el alumnado identifica la mitología como un elemento inspirador para la composición de obras artísticas de todos los
+tiempos, sobre todo las de los creadores y las creadoras canarios; y que conoce básicamente el proceso de construcción, conservación, preservación y
+restauración de las obras públicas y del urbanismo legado por Roma, reconociéndolo como parte de la romanización de lo que se conocía en aquella
+época como Hispania. Deberá saber seleccionar los datos adecuados y contrastar la información obtenida, a través de diferentes soportes para
+reflejarlos, de manera guiada, en la elaboración o reelaboración de producciones en diferentes formatos y plataformas que permitan valorar y
+enjuiciar, aportando opiniones al respecto, la pervivencia del mundo clásico en Europa y en España, y su repercusión, en particular, en Canarias.
+33
+
+=== Página 34 ===
+
+Saberes básicos
+I. EI texto: comprensión y traducción
+1. Unidades lingüísticas de la lengua latina 
+1.1. Comprensión  e  interpretación  del  concepto  de  lengua  flexiva:  flexión  nominal  y
+pronominal (sistema casual y declinaciones) y flexión verbal (sistema de conjugaciones).
+1.2. Reconocimiento y uso adecuado de las funciones sintácticas de los casos.
+1.3. Manejo y análisis de estructuras oracionales simples y compuestas más frecuentes. La
+concordancia y el orden de palabras. 
+1.3.1. Establecimiento  de  relaciones  de  concordancia:  sustantivo  +  adjetivo  y
+sustantivo/pronombre + verbo.
+1.3.2. Conocimiento de la disposición de las palabras latinas en una frase.
+1.4. Clasificación y análisis morfosintáctico de las formas nominales del verbo.
+1.5. Consolidación de las estructuras lingüísticas en castellano.
+2. La traducción: técnicas, procesos y herramientas 
+2.1. Análisis morfosintáctico como herramienta de traducción.
+2.2. Aplicación de estrategias de traducción: 
+2.2.1. Formulación de expectativas a partir del entorno textual (título, obra…) y del
+propio  texto  (campos  temáticos,  familias  de  palabras…),  así  como  a  partir  del
+contexto.
+2.2.2. Conocimiento del tema y descripción de la estructura y género.
+2.2.3. Identificación  de  peculiaridades  lingüísticas  de  los  textos  traducidos  (discurso
+directo/indirecto, uso de tiempos verbales, géneros verbales, pregunta retórica…).
+2.2.4. Identificación  de  errores  frecuentes  de  traducción  y  técnicas  para  evitarlos
+(comprobación  de si la  traducción  está  completa,  control  de  acuerdo  a  criterios
+dados, delimitación de construcciones sintácticas…).
+2.3. Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o
+correctores ortográficos en soporte analógico o digital…
+2.4. Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir
+de terminología metalingüística.
+2.5. Reconocimiento de recursos estilísticos frecuentes y su relación con el contenido del
+texto.
+2.6. Uso  de  estrategias  básicas  de  retroversión  de  textos,  de  manera  que  se  trabaje  la
+morfosintaxis casual de manera activa.
+34
+
+=== Página 35 ===
+
+2.7. Uso  de  la  traducción  como  instrumento  que  favorece  el  razonamiento  lógico,  la
+constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.
+2.8. Aceptación  del  error  como  parte  del  proceso  de  aprendizaje,  actitud  positiva  de
+superación y desarrollo de la autoconfianza, autonomía e iniciativa.
+2.9. Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas,
+para la autoevaluación, la coevaluación y la autorreparación.
+II. Plurilingüismo
+1. Reflexión acerca de la influencia del latín en la evolución del castellano y del resto de
+lenguas  que  conforman  el  repertorio  lingüístico  individual  del  alumnado,  valorando
+especialmente el español de Canarias.
+2. Explicación  y  desarrollo  de  la  evolución  fonética  del  latín  al  castellano,  razonando  la
+diferencia entre cultismos y palabras. patrimoniales, además de los semicultismos y los
+dobletes.
+3. Identificación de lexemas, sufijos y prefijos de origen latino presentes en el léxico de uso
+común y en el específico de las ciencias y la técnica, infiriendo el significado y la definición
+de palabras de uso común en las lenguas de enseñanza a partir de su descomposición y
+derivación, tomando conciencia de cómo se implementan estos mecanismos de las lenguas
+para formar palabras.
+4. Agrupación en familias léxicas o semánticas de palabras a partir de las raíces latinas.
+5. Explicación correcta de las expresiones latinas, clasificándolas según los campos a los que
+pertenecen, integradas en las lenguas modernas y su empleo en la lengua coloquial y en
+diferentes tipos de textos (literarios, periodísticos, publicitarios…), así como en los medios
+de comunicación y las redes sociales.
+6. Interés  por  conocer  el  significado  etimológico  de  las  palabras:  la  importancia  del  uso
+adecuado del vocabulario como instrumento básico en la comunicación.
+7. El latín como instrumento que permite un mejor conocimiento de las lenguas de estudio y un
+más fácil acercamiento a otras lenguas modernas, romances y no romances.
+8. Respeto por todas las lenguas y aceptación de las diferencias culturales de las personas que
+las hablan.
+9. Reconocimiento y empleo de herramientas analógicas y digitales para el aprendizaje, la
+comunicación y el desarrollo de proyectos con hablantes o estudiantes de latín a nivel
+transnacional.
+10. Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua,
+el  aprendizaje  y  las  herramientas  de  comunicación  y  aprendizaje  (metalenguaje):
+intercambio de puntos de vista en trabajos grupales o colaborativos.
+III. Educación literaria
+1. Estudio de la lengua latina como principal vía de transmisión de los conocimientos del mundo
+clásico (historia, arte, literatura, ingeniería…).
+35
+
+=== Página 36 ===
+
+2. Distinción de las etapas y vías de transmisión de la literatura latina, para contextualizar
+adecuadamente los autores y géneros literarios.
+3. Reconocimiento  de  los  principales  géneros  de  la  literatura  latina:  origen,  tipología,
+cronología, temas, motivos, tradición, características y principales autores.
+4. Uso de técnicas básicas para el comentario y análisis lingüístico y literario de los textos
+literarios latinos.
+5. Recepción de la literatura latina: 
+5.1. Valoración de la influencia de la literatura latina en la producción cultural europea.
+5.2. Aprendizaje de nociones básicas de intertextualidad: imitatio, aemulatio, interpretatio y
+allusio.
+6. Identificación y comentario de las analogías y diferencias entre los géneros literarios latinos y
+los de la literatura actual.
+7. Introducción  a  la  crítica  literaria:  análisis  y  valoración  de  la  literatura  latina  en  sus
+contenidos, aspectos lingüísticos y estilísticos.
+8. Reconocimiento de las islas Canarias en los textos literarios, analizando sus características
+más representativas e identificándolas como parte del imaginario de la literatura latina y de
+la literatura occidental en todos los tiempos.
+9. Interés hacia la literatura de autores clásicos como fuente de deleite, placer y de conocimiento
+del mundo.
+10. Respeto de la propiedad intelectual y de los derechos de autor sobre las fuentes consultadas
+y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos
+para evitar el plagio.
+IV . La antigua Roma
+1. Identificación y descripción de los aspectos más relevantes de la geografía en el proceso de
+expansión de Roma desde su nacimiento hasta la desaparición del Imperio romano.
+2. Reconocimiento y valoración patrimonial de las ciudades y los lugares más relevantes de la
+antigua Roma y la función de de cada uno de estos (Foro Romano, basílicas, Coliseo, Circo
+Máximo…), a través de los textos latinos.
+3. Estudio de las etapas y de los periodos históricos de Roma: 
+3.1. Identificación de los principales sistemas políticos de Roma: Monarquía, República e
+Imperio, y explicación de sus instituciones más representativas: el senado, la asamblea
+popular, la magistratura de la Roma republicana…
+3.2. Repercusión de los hitos y episodios de la historia del mundo romano entre los siglos
+VIII a. C. y V d. C. en la ciudadanía romana y en el proceso de romanización.
+3.3. Reconocimiento de las principales leyendas y su conexión con otras civilizaciones.
+36
+
+=== Página 37 ===
+
+3.4. Influencia  de  las  personalidades  históricas  más  representativas  de  Roma  en  el
+pensamiento político y social de Europa.
+4. Descripción de la organización política y social de Roma como parte esencial de la historia y
+cultura de la sociedad contemporánea.
+5. Comparación de las instituciones, creencias y formas de vida de la civilización latina con la
+perspectiva sociocultural de nuestros días, enjuiciando cómo somos y actuamos de forma
+habitual en nuestro contexto familiar o social más cercano, y prestando especial atención al
+papel desempeñado por la mujer en aquel momento histórico.
+6. Valoración de las influencias de la cultura griega en la civilización latina en la literatura:
+Graecia capta ferum victorem cepit.
+7. Aportación de Roma a la cultura y al pensamiento de la sociedad occidental como base del
+desarrollo posterior en las distintas civilizaciones, mediante traducciones y comentarios de
+textos originales o adaptados.
+8. Relación de Roma con culturas y religiones extranjeras (Grecia, el cristianismo…), de manera
+que  el  alumnado  reflexione,  y  sea  tolerante  y  respetuoso  con  las  culturas  y  religiones
+actuales ajenas a él.
+9. Estudio y valoración del mar Mediterráneo como punto de encuentro para los pueblos y como
+encrucijada de culturas del ayer y hoy y paso del conocimiento científico, literario, histórico,
+artístico y tecnológico entre Asia, Europa y África.
+10. Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como
+locus amoenus.
+V . Legado y patrimonio
+1. Reconocimiento y valoración del legado, de la herencia y del patrimonio romano en el
+mundo actual.
+2. Apreciación  de  la  transmisión  textual  latina  como  patrimonio  cultural  y  fuente  de
+conocimiento  a  través  de  diferentes  culturas  y  épocas.  Reconocimiento  de  soportes  de
+escritura: tipos y preservación.
+3. Reflexión  sobre  la  pervivencia  de  referentes  míticos  en  las  manifestaciones  artísticas
+(literatura, artes plásticas y visuales, música…) de la cultura occidental, en general, y de
+Canarias, en particular.
+4. Valoración del proceso de la romanización de Hispania y las huellas de su pervivencia.
+5. Investigación  y  reflexión  de  la  pervivencia  del  urbanismo  romano:  construcción,
+conservación, preservación y restauración.
+6. Investigación  del  legado  inmaterial  del  mundo  romano:  el  derecho,  las  instituciones
+políticas, la retórica…
+7. Aplicación de las técnicas de debate y de exposición oral, partiendo de los preceptos de la
+oratoria romana para la construcción de discursos.
+37
+
+=== Página 38 ===
+
+8. Localización y descripción de las principales obras artísticas de la Antigüedad romana y
+sitios arqueológicos, museos o festivales relacionados con la Antigüedad clásica.
+9. Identificación y valoración del patrimonio cultural romano en la arquitectura y el urbanismo
+de Canarias.
+38

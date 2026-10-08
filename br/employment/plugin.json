@@ -9,12 +9,21 @@
   "practice": "employment",
   "language": "en",
   "skills": [
+    "skills/academic-writer-br-ma-serra",
+    "skills/analise-letradalei",
+    "skills/brief-bossmann007",
+    "skills/clo-advisor-ricneves-ai",
+    "skills/clt-pj-mei-ricneves-ai",
     "skills/cold-start-interview-employment-legal-bossmann007",
+    "skills/cold-start-interview-trabalhista-legal-br-ria-sistemas",
     "skills/hiring-review-bossmann007",
     "skills/internal-investigation-bossmann007",
+    "skills/legal-extract-ftchvs",
+    "skills/legal-process-parser-lucianum7",
     "skills/log-leave-bossmann007",
     "skills/policy-drafting-bossmann007",
     "skills/termination-review-bossmann007",
+    "skills/tst-mcp-mcp-dir",
     "skills/wage-hour-qa-bossmann007",
     "skills/worker-classification-bossmann007"
   ]

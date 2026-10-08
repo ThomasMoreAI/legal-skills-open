@@ -1,0 +1,29 @@
+{
+  // Markdownlint configuration for Access to Education repo
+  // Allow long lines -- documentation often has tables, URLs, and data references
+  "MD013": false,
+
+  // Allow inline HTML -- used extensively in markdown files for formatting
+  "MD033": false,
+
+  // Allow duplicate headings -- different sections may reuse heading names
+  "MD024": false,
+
+  // Allow trailing punctuation in headings -- common in FAQ-style docs
+  "MD026": false,
+
+  // Allow multiple top-level headings -- some files have multiple H1s
+  "MD025": false,
+
+  // Allow non-standard heading styles
+  "MD003": { "style": "consistent" },
+
+  // Allow blanks around fences to be flexible
+  "MD031": false,
+
+  // Allow raw URLs in markdown
+  "MD034": false,
+
+  // Do not require blank lines around lists
+  "MD032": false
+}

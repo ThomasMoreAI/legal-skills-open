@@ -1,0 +1,56 @@
+name: laboral-convenios
+display_name: Convenios colectivos
+description: >
+  Guía completa sobre los convenios colectivos en España: qué son, cómo
+  saber qué convenio te aplica, REGCON (Registro de Convenios Colectivos,
+  buscador público del Ministerio de Trabajo), jerarquía entre convenios
+  (empresa vs. sectorial), ultraactividad (reforma 2022), contenido
+  habitual (salarios, jornada, vacaciones, permisos), inaplicación
+  (descuelgue) y comisión paritaria.
+organization: Ministerio de Trabajo y Economía Social
+tags: [laboral, convenios colectivos, REGCON, negociación colectiva, ultraactividad, salarios, jornada, convenio de empresa, convenio sectorial]
+
+links:
+  regcon: https://expinterweb.mites.gob.es/regcon/pub/consultaPublicaCondec
+  codigos_boe: https://www.boe.es/legislacion/codigos/codigo.php?id=236
+  estatuto_trabajadores: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430
+
+license:
+  data: Información pública del Ministerio de Trabajo y BOE
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación sobre convenios colectivos. No
+    accede directamente al REGCON como API (es un buscador web). Orienta
+    sobre cómo buscar el convenio aplicable y explica el sistema de
+    negociación colectiva español.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es un convenio colectivo y para qué sirve
+    - Tipos por ámbito (empresa, sectorial estatal/autonómico/provincial)
+    - Jerarquía y prioridad aplicativa (reforma 2012 y 2022)
+    - Cómo buscar tu convenio en REGCON
+    - Contenido habitual (salarios, jornada, vacaciones, permisos)
+    - Ultraactividad (convenio caducado sigue vigente — reforma 2022)
+    - Inaplicación del convenio (descuelgue)
+    - Comisión paritaria
+    - Publicación en BOE/boletines oficiales
+  not_accessible:
+    - Texto completo de convenios específicos (consultar REGCON o BOE)
+    - Tablas salariales actualizadas de cada convenio
+    - Tipos de contrato (usar skill laboral-contratos)
+    - Detalle de nóminas (usar skill laboral-nominas)
+    - Texto de leyes (usar skill boe)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

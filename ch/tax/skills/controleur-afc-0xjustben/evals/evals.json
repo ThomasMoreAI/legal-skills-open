@@ -1,0 +1,23 @@
+[
+  {
+    "id": "afc-vat-discrepancy",
+    "input": "Lors d'un contrôle, je constate que le CA déclaré à la TVA est 12 % inférieur au CA comptable. Quels articles invoquer ? Quel risque de pénalité ?",
+    "expected_themes": ["concordance", "art. 96", "soustraction", "amende"],
+    "must_cite": ["LTVA"],
+    "must_not_cite": ["CGI", "DGFIP"]
+  },
+  {
+    "id": "afc-disguised-dividend",
+    "input": "Un actionnaire-dirigeant facture des prestations gonflées à sa propre SA. Comment qualifier ?",
+    "expected_themes": ["distribution dissimulée", "art. 58", "salaire de référence"],
+    "must_cite": ["LIFD"],
+    "must_not_cite": []
+  },
+  {
+    "id": "afc-disclosure",
+    "input": "Mon client veut faire une dénonciation spontanée. Quel régime ?",
+    "expected_themes": ["art. 175 al. 3", "première fois", "pas d'amende", "rappel d'impôt", "intérêts"],
+    "must_cite": ["LIFD"],
+    "must_not_cite": []
+  }
+]

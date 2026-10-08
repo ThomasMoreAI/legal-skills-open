@@ -1,0 +1,10 @@
+id: REL-011
+tipo_relacion: "desarrolla"
+origen: NOR-013
+destino: NOR-011
+evidencia:
+  fuente: FTE-021
+  localizacion: "[PENDIENTE]"
+descripcion: "La Orden de 22 de mayo de 2011 desarrolla la estructura operativa y funcional de la Inspección Educativa establecida en su Decreto regulador (52/2009)."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

@@ -1,0 +1,24 @@
+id: CUR-XXX
+titulo: ""
+etapa: ""
+materia: ""
+ambito: null
+cursos: []
+norma_base: NOR-XXX
+fuente: FTE-XXX
+url_oficial: ""
+fecha_consulta: YYYY-MM-DD
+fecha_analisis: null
+estado_extraccion: "Pendiente"
+estado_vigencia: "Pendiente de verificación"
+elementos:
+  competencias_especificas: []
+  criterios_evaluacion: []
+  saberes_basicos: []
+  descriptores_operativos: []
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: []
+  relacionada_con: []
+resumen_ia: ""
+observaciones: null

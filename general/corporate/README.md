@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 
-## Skills (107)
+## Skills (111)
 
 | Skill | What it does |
 |---|---|
@@ -46,6 +46,7 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Founders' Agreement`](skills/draft-founders-agreement-sboghossian/) | Use when drafting a founders' agreement covering equity, vesting, IP, roles, and exit mechanics between… |
 | [`Joint Venture Agreement`](skills/draft-joint-venture-sboghossian/) | Use when drafting a joint venture agreement for two or more parties pursuing a shared business purpose… |
 | [`Share Purchase Agreement (SPA)`](skills/draft-share-purchase-agreement-sboghossian/) | Use when drafting a share purchase agreement (SPA) for a sale of shares in a private company, whether in… |
+| [`Draft — Shareholder Resolution`](skills/draft-shareholder-resolution-sboghossian/) | Use when drafting a shareholder resolution — whether an ordinary resolution for routine corporate… |
 | [`Shareholders' Agreement (SHA)`](skills/draft-shareholders-agreement-sboghossian/) | Use when drafting a shareholders' agreement (SHA) for a private company — startup, joint venture, family… |
 | [`Acquisition Term Sheet`](skills/draft-term-sheet-acquisition-sboghossian/) | Use when drafting a non-binding term sheet for a full or majority-stake acquisition — setting out the… |
 | [`Vesting Schedule`](skills/draft-vesting-schedule-sboghossian/) | Use when drafting a vesting schedule for founder shares, employee options (ISO/NSO), or RSUs. Covers the… |
@@ -59,6 +60,8 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Integration management`](skills/integration-management/) | Post-closing M&A integration tracker — phased workplan, consent tracking, contract assignment at scale… |
 | [`Integration management`](skills/integration-management-zhou210712/) | 交割后并购整合追踪器——分阶段工作计划、同意追踪、规模化合同转让、 每周状态报告。从任何可获取的交易工件（股权收购协议、交易摘要、 交割检查表）初始化，并连接到来自并购冷启动的 deal-context.md… |
 | [`Investment and Shareholder Agreement Reviewer`](skills/investment-and-shareholder-agreement-reviewer-rohasnagpal/) | Reviews venture and private-investment documents — term sheets, letters of intent, share subscription… |
+| [`Knowledge Pack — German Corporate Law (DE)`](skills/kb-corporate-law-de-sboghossian/) | Use when advising on German corporate law (Gesellschaftsrecht), including GmbH and AG entity structures… |
+| [`Knowledge Pack — French Corporate Law`](skills/kb-corporate-law-fr-sboghossian/) | Use when advising on French corporate law, including SAS and SARL entity structures, SAS flexibility and… |
 | [`Legal Opinion Letter`](skills/legal-opinion-letter/) | Drafts formal legal opinion letters for corporate and transactional matters with jurisdiction-specific… |
 | [`LQ Board Document Review Protocol`](skills/lq-board-document-review/) | Use when reviewing board-level governance documents — Delegation of Authority policies, charters, board… |
 | [`M&A Diligence Checker`](skills/m-and-a-diligence-checker-rohasnagpal/) | Plans and performs legal due diligence for acquisitions, investments, mergers, asset purchases, joint… |
@@ -115,6 +118,7 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Startup Incorporation Pack`](skills/workflow-startup-incorporation-pack-sboghossian/) | Use when incorporating a new startup — producing the full foundational document set (Articles of… |
 | [`Written consent`](skills/written-consent-anthropics/) | Draft a unanimous written consent of the board or a committee in house format, with precedent search… |
 | [`Written consent`](skills/written-consent-zhou210712/) | 以内部格式起草董事会或专门委员会的一致书面决议，从决议存储库中检索先例。 处理多决议决议、董事冲突标记、适用法律下的通知要求以及签署人追踪， 包含对重大单项行动的内置范围警示。当用户说"书面决议""一致决议"… |
+| [`X-ray a company`](skills/x-ray-a-company-useosint/) | Corporate due-diligence workflow — resolve a brand or website to its registered legal entity, map group… |
 
 ## Cold-start context
 

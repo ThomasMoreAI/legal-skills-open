@@ -1,0 +1,68 @@
+schema_version: 1
+skill: ai-act-compliance
+last_verified: 2026-09-27
+
+# Ogni sorgente e' un oggetto con i campi:
+#   id: identificatore locale (usato in task files come rinvio)
+#   title: titolo completo
+#   type: legge | decreto | allegato | linea-guida | norma-uni | norma-cei | circolare | giurisprudenza | altro
+#   url: URL canonico della fonte
+#   accessed: data consultazione
+#   sha256: hash SHA256 del file binario scaricato
+#   license: public-domain | cc-by | cc-by-nc | proprietary-paid | other
+#   binary_path: path del binario in locale (fuori repo), oppure null
+#   md_path: path del markdown di fonte (dentro repo), obbligatorio per fonti pubbliche con binary_path
+#   notes: note libere
+
+sources:
+  - id: ai-act-it-eurlex
+    title: "Regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale (legge sull'intelligenza artificiale)"
+    type: legge
+    url: https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ:L_202401689
+    accessed: 2026-04-25
+    sha256: null
+    license: public-domain
+    binary_path: null
+    md_path: references/fonti/ai-act-it-eurlex.md
+    notes: |
+      Testo italiano integrale pubblicato nella GU UE serie L del 12.7.2024, 144 pagine.
+      Entrata in vigore: 1 agosto 2024 (ventesimo giorno dopo la pubblicazione).
+      Date di applicazione originali del Reg. 2024/1689 (trascritte dal PDF EUR-Lex):
+        Applicazione generale: 2 agosto 2026.
+        Applicazione anticipata capo I e II (pratiche vietate): 2 febbraio 2025.
+        Applicazione anticipata capo V (GPAI) e capo III sez. 4: 2 agosto 2025.
+        Applicazione art. 6 par. 1 (componenti di sicurezza prodotti): 2 agosto 2027.
+      Aggiornamento Digital Omnibus (accordo provvisorio 7 maggio 2026, NON ANCORA PUBBLICATO IN GUUE):
+        Alto rischio Allegato III + FRIA art. 27: 2 dicembre 2027 (era 2 agosto 2026)
+        Alto rischio Allegato I (art. 6 par. 1): 2 agosto 2028 (era 2 agosto 2027)
+        Watermarking art. 50 par. 2: 2 dicembre 2026 (era 2 agosto 2026)
+        Nuovo divieto sistemi generazione CSAM / deepfake sessuali non consensuali: 2 dicembre 2026
+        Da riconfermare alla pubblicazione del testo definitivo in GUUE.
+      SHA256 non verificabile da CI: EUR-Lex risponde con challenge WAF AWS (HTTP 202,
+      corpo vuoto) a qualsiasi richiesta programmatica, impedendo il download del PDF.
+      binary_path impostato null di conseguenza. Il testo e' stato letto sul PDF
+      (SHA256 originale a61b6170... calcolato il 2026-04-25) e trascritto in
+      references/fonti/ai-act-it-eurlex.md (329 righe). URL canonico alternativo:
+      http://data.europa.eu/eli/reg/2024/1689/oj (reindirizza a eur-lex con WAF).
+      Prima del release stabile occorre trovare un mirror scaricabile e verificare
+      l'hash. L'estratto committato e' la prova di lettura effettiva del PDF.
+
+  - id: dlgs-160-2026-gu214
+    title: "D.Lgs. 9 settembre 2026, n. 160 - Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 [...] in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivita' di polizia e di responsabilita' civile e penale"
+    type: decreto
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/09/15/214/sg/pdf
+    accessed: 2026-09-27
+    sha256: 5da3dde091e115ec02a9275ad13455f83c478d4eb256d912d9f8e132c7779e75
+    license: public-domain
+    binary_path: not_in_repo/gu214-2026.pdf
+    md_path: references/fonti/dlgs-160-2026.md
+    excerpt_path: references/estratti/dlgs-160-2026-profili-nazionali.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 214 del 15/09/2026; il decreto occupa le pp. 1-10
+      (codice redazionale 26G00179), seguito dalle NOTE redazionali. Attuazione della delega
+      dell'art. 24 L. 132/2025. Titolo I: uso dell'IA da parte delle Forze di polizia (artt. 1-10);
+      Titolo II: nuovo art. 437-bis c.p., art. 359-ter c.p.p., art. 25-vicies D.Lgs. 231/2001,
+      strumenti processuali civili (artt. 11-20); Titolo III: transitorie e invarianza (artt. 21-22).
+      Il decreto non contiene un articolo sull'entrata in vigore e non fissa alcuna data: la data
+      di entrata in vigore (rilevante per il termine di un anno dell'art. 21) va verificata su
+      Normattiva, non dedotta dal testo.

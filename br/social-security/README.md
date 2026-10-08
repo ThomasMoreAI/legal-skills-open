@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): social secur
 
 Jurisdiction: `br` · Practice: `social-security` · Skill language: pt
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`/cold-start-interview — previdenciario-legal-br`](skills/cold-start-interview-ria-sistemas/) | Entrevista inicial do advogado pra popular o practice profile (CLAUDE.md) do plugin… |
+| [`pgf-autarquias-e-inss — a autarquia como cliente, não como ré genérica`](skills/pgf-autarquias-e-inss-sbroggioadv/) | A representação das autarquias e fundações públicas federais pela ótica do ente — a frente da… |
 
 ## Cold-start context
 

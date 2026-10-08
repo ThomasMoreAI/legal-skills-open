@@ -1,0 +1,4 @@
+interface:
+  display_name: "Route Case Citation"
+  short_description: "Identify the court and verification path for an Australian case citation"
+  default_prompt: "Use $route-case-citation to identify the issuing court for these citations and route each one to its official-source verification."

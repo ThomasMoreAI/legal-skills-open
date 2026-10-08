@@ -1,0 +1,3861 @@
+ID interno: NOR-053
+Título oficial: Real Decreto 1631/2009, de 30 de octubre, por el que se establece el título de Técnico en Gestión Administrativa y se fijan sus enseñanzas mínimas
+Fuente oficial: FTE-054
+URL origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148
+Fecha de consulta: 2026-04-26
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOE.
+---
+BOE-A-2009-19148 Real Decreto 1631/2009, de 30 de octubre, por el que se establece el título de Técnico en Gestión Administrativa y se fijan sus enseñanzas mínimas.
+
+Agencia Estatal Boletín Oficial del Estado
+
+Ir a contenido
+
+Consultar el diario oficial BOE
+
+Idioma actual:
+
+Castellano
+/
+es
+
+Puede seleccionar otro idioma:
+
+es
+/
+Castellano
+
+ca
+/
+Català
+
+gl
+/
+Galego
+
+eu
+/
+Euskara
+
+va
+/
+Valencià
+
+en
+/
+English
+
+fr
+/
+Français
+
+Buscar
+
+Mi BOE
+Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+
+Menú
+
+Menú
+
+Diarios Oficiales
+
+BOE
+
+BORME
+
+Otros diarios oficiales
+
+Información Jurídica
+
+Todo el Derecho
+
+Biblioteca Jurídica Digital
+
+Otros servicios
+
+Notificaciones
+
+Edictos judiciales
+
+Portal de subastas
+
+Anunciantes
+
+Datos abiertos
+
+Está
+Vd.
+en
+
+Inicio
+
+Buscar
+
+Documento BOE-A-2009-19148
+
+Documento BOE-A-2009-19148
+
+Real Decreto 1631/2009, de 30 de octubre, por el que se establece el título de Técnico en Gestión Administrativa y se fijan sus enseñanzas mínimas.
+
+Publicado en:
+
+«
+BOE
+»
+núm.
+289, de 1 de diciembre de 2009, páginas 102092 a 102150 (59
+págs.
+)
+
+Sección:
+
+I. Disposiciones generales
+
+Departamento:
+
+Ministerio de Educación
+
+Referencia:
+
+BOE-A-2009-19148
+
+Permalink ELI:
+
+https://www.boe.es/eli/es/rd/2009/10/30/1631
+
+Otros formatos:
+
+PDF
+
+XML
+
+Texto
+
+TEXTO ORIGINAL
+
+La Ley Orgánica 2/2006, de 3 de mayo, de Educación, dispone en el artículo 39.6 que el Gobierno, previa consulta a las comunidades autónomas, establecerá las titulaciones correspondientes a los estudios de formación profesional, así como los aspectos básicos del currículo de cada una de ellas.
+
+La Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, establece en el artículo 10.1 que la Administración General del Estado, de conformidad con lo dispuesto en el artículo 149.1.30.ª y 7.ª de la Constitución y previa consulta al Consejo General de la Formación Profesional, determinará los títulos y los certificados de profesionalidad, que constituirán las ofertas de formación profesional referidas al Catálogo Nacional de Cualificaciones Profesionales.
+
+El Real Decreto 1538/2006, de 15 de diciembre, ha establecido la ordenación general de la formación profesional del sistema educativo, y define en el artículo 6 la estructura de los títulos de formación profesional tomando como base el Catálogo Nacional de Cualificaciones Profesionales, las directrices fijadas por la Unión Europea y otros aspectos de interés social.
+
+Por otra parte, del mismo modo, concreta en el artículo 7 el perfil profesional de dichos títulos, que incluirá la competencia general, las competencias profesionales, personales y sociales, las cualificaciones y, en su caso, las unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en los títulos, de modo que cada título incorporará, al menos, una cualificación profesional completa, con el fin de lograr que, en efecto, los títulos de formación profesional respondan a las necesidades demandadas por el sistema productivo y a los valores personales y sociales para ejercer una ciudadanía democrática.
+
+Este marco normativo hace necesario que ahora el Gobierno, previa consulta a las comunidades autónomas, establezca cada uno de los títulos que formarán el Catálogo de títulos de la formación profesional del sistema educativo, sus enseñanzas mínimas y aquellos otros aspectos de la ordenación académica que, sin perjuicio de las competencias atribuidas a las Administraciones educativas en esta materia, constituyan los aspectos básicos del currículo que aseguren una formación común y garanticen la validez de los títulos, en cumplimiento con lo dispuesto en el artículo 6.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+
+A estos efectos, procede determinar para cada título su identificación, su perfil profesional, el entorno profesional, la prospectiva del título en el sector o sectores, las enseñanzas del ciclo formativo, la correspondencia de los módulos profesionales con las unidades de competencia para su acreditación, convalidación o exención y los parámetros básicos de contexto formativo para cada módulo profesional (espacios, equipamientos necesarios, las titulaciones y especialidades del profesorado y sus equivalencias a efectos de docencia), previa consulta a las comunidades autónomas, según lo previsto en el artículo 95 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+
+Asimismo, en cada título también se determinarán los accesos a otros estudios y, en su caso, las modalidades y materias de bachillerato que facilitan la conexión con el ciclo formativo de grado superior, las convalidaciones, exenciones y equivalencias y la información sobre los requisitos necesarios según la legislación vigente para el ejercicio profesional cuando proceda.
+
+Así, el presente real decreto conforme a lo previsto en el Real Decreto 1538/2006, de 15 de diciembre, establece y regula, en los aspectos y elementos básicos antes indicados, el título de formación profesional del sistema educativo de Técnico en Gestión Administrativa.
+
+En el proceso de elaboración de este real decreto han sido consultadas las comunidades autónomas y han emitido informe el Consejo General de la Formación Profesional, el Consejo Escolar del Estado y el Ministerio de Política Territorial.
+
+En su virtud, a propuesta del Ministro de Educación, y previa deliberación del Consejo de Ministros en su reunión del día 30 de octubre de 2009,
+
+DISPONGO:
+
+CAPÍTULO I
+
+Disposiciones generales
+
+Artículo 1. Objeto.
+
+1. El presente real decreto tiene por objeto el establecimiento del título de Técnico en Gestión Administrativa, con carácter oficial y validez en todo el territorio nacional, así como de sus correspondientes enseñanzas mínimas.
+
+2. Lo dispuesto en este real decreto sustituye a la regulación del título de Técnico en Gestión Administrativa, contenida en el Real Decreto 1662/1994, de 22 de julio.
+
+CAPÍTULO II
+
+Identificación del título, perfil profesional, entorno profesional y prospectiva del título en el sector o sectores
+
+Artículo 2. Identificación.
+
+El título de Técnico en Gestión Administrativa queda identificado por los siguientes elementos:
+
+Denominación: Gestión Administrativa.
+
+Nivel: Formación Profesional de Grado Medio.
+
+Duración: 2.000 horas.
+
+Familia Profesional: Administración y Gestión.
+
+Referente europeo: CINE-3 (Clasificación Internacional Normalizada de la Educación).
+
+Artículo 3. Perfil profesional del título.
+
+El perfil profesional del título de Técnico en Gestión Administrativa queda determinado por su competencia general, sus competencias profesionales, personales y sociales, y por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+
+Artículo 4. Competencia general.
+
+La competencia general de este título consiste en realizar actividades de apoyo administrativo en el ámbito laboral, contable, comercial, financiero y fiscal, así como de atención al cliente/usuario, tanto en empresas públicas como privadas, aplicando la normativa vigente y protocolos de calidad, asegurando la satisfacción del cliente y actuando según normas de prevención de riesgos laborales y protección ambiental.
+
+Artículo 5. Competencias profesionales, personales y sociales.
+
+Las competencias profesionales, personales y sociales de este título son las que se relacionan a continuación:
+
+1. Tramitar documentos o comunicaciones internas o externas en los circuitos de información de la empresa.
+
+2. Elaborar documentos y comunicaciones a partir de órdenes recibidas o información obtenida.
+
+3. Clasificar, registrar y archivar comunicaciones y documentos según las técnicas apropiadas y los parámetros establecidos en la empresa
+
+4. Registrar contablemente la documentación soporte correspondiente a la operativa de la empresa en condiciones de seguridad y calidad.
+
+5. Realizar gestiones administrativas de tesorería, siguiendo las normas y protocolos establecidos por la gerencia con el fin de mantener la liquidez de la organización.
+
+6. Efectuar las gestiones administrativas de las áreas de selección y formación de los recursos humanos de la empresa, ajustándose a la normativa vigente y a la política empresarial, bajo la supervisión del responsable superior del departamento.
+
+7. Prestar apoyo administrativo en el área de gestión laboral de la empresa ajustándose a la normativa vigente y bajo la supervisión del responsable superior del departamento.
+
+8. Realizar las gestiones administrativas de la actividad comercial registrando la documentación soporte correspondiente a determinadas obligaciones fiscales derivadas.
+
+9. Desempeñar las actividades de atención al cliente/usuario en el ámbito administrativo y comercial asegurando los niveles de calidad establecidos y relacionados con la imagen de la empresa /institución
+
+10. Aplicar los protocolos de seguridad laboral y ambiental, higiene y calidad durante todo el proceso productivo, para evitar daños en las personas y en el ambiente.
+
+11. Cumplir con los objetivos de la producción, actuando conforme a los principios de responsabilidad y manteniendo unas relaciones profesionales adecuadas con los miembros del equipo de trabajo.
+
+12. Resolver problemas y tomar decisiones individuales siguiendo las normas y procedimientos establecidos, definidos dentro del ámbito de su competencia.
+
+13. Mantener el espíritu de innovación, de mejora de los procesos de producción y de actualización de conocimientos en el ámbito de su trabajo.
+
+14. Ejercer sus derechos y cumplir con las obligaciones derivadas de las relaciones laborales, de acuerdo con lo establecido en la legislación vigente.
+
+15. Detectar y analizar oportunidades de empleo y autoempleo desarrollando una cultura emprendedora y adaptándose a diferentes puestos de trabajo y nuevas situaciones.
+
+16. Participar de forma activa en la vida económica, social y cultural, con una actitud crítica y responsable.
+
+17. Participar en las actividades de la empresa con respeto y actitudes de tolerancia.
+
+18. Adaptarse a diferentes puestos de trabajo y nuevas situaciones laborales, originados por cambios tecnológicos y organizativos en los procesos productivos.
+
+19. Participar en el trabajo en equipo respetando la jerarquía definida en la organización.
+
+Artículo 6. Relación de cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+
+Cualificaciones profesionales completas:
+
+a) Actividades administrativas de recepción y relación con el cliente ADG307_2 (RD 107/2008, de 1 de febrero), que comprende las siguientes unidades de competencia:
+
+UC0975_2: Recepcionar y procesar las comunicaciones internas y externas.
+
+UC0976_2: Realizar las gestiones administrativas del proceso comercial.
+
+UC0973_1: Introducir datos y textos en terminales informáticos en condiciones de seguridad, calidad y eficiencia.
+
+UC0978_2: Gestionar el archivo en soporte convencional e informático.
+
+UC0977_2: Comunicarse en una lengua extranjera con un nivel de usuario independiente en las actividades de gestión administrativa en relación con el cliente.
+
+UC0233_2: Manejar aplicaciones ofimáticas en la gestión de la información y la documentación.
+
+b) Actividades de gestión administrativa ADG308_2 (RD 107/2008, de 1 de febrero), que comprende las siguientes unidades de competencia:
+
+UC0976_2: Realizar las gestiones administrativas del proceso comercial.
+
+UC0979_2: Realizar las gestiones administrativas de tesorería.
+
+UC0980_2: Efectuar las actividades de apoyo administrativo de Recursos Humanos.
+
+UC0981_2: Realizar registros contables.
+
+UC0973_1: Introducir datos y textos en terminales informáticos en condiciones de seguridad, calidad y eficiencia.
+
+UC0978_2: Gestionar el archivo en soporte convencional e informático.
+
+UC0233_2: Manejar aplicaciones ofimáticas en la gestión de la información y la documentación.
+
+Artículo 7. Entorno profesional.
+
+1. Este profesional ejerce su actividad tanto en grandes como en medianas y pequeñas empresas, en cualquier sector de actividad, y particularmente en el sector servicios, así como en las administraciones públicas, ofreciendo apoyo administrativo en las tareas de administración y gestión de dichas empresas e instituciones y prestando atención a los clientes y ciudadanos.
+
+2. Las ocupaciones y puestos de trabajo más relevantes son los siguientes:
+
+Auxiliar administrativo.
+
+Ayudante de oficina.
+
+Auxiliar administrativo de cobros y pagos
+
+Administrativo comercial.
+
+Auxiliar administrativo de gestión de personal
+
+Auxiliar administrativo de las administraciones públicas.
+
+Recepcionista.
+
+Empleado de atención al cliente.
+
+Empleado de tesorería.
+
+Empleado de medios de pago.
+
+Artículo 8. Prospectiva del título en el sector o sectores.
+
+Las Administraciones educativas tendrán en cuenta, al desarrollar el currículo correspondiente, las siguientes consideraciones:
+
+1. La organización de la actividad productiva de las empresas y del trabajo exige actualmente a los profesionales de la gestión administrativa una gran polivalencia, así como una serie de competencias personales y sociales relacionadas con el trabajo en equipo, la autonomía e iniciativa en la toma de decisiones y en el desarrollo de tareas y la vocación de atención al público.
+
+2. Las mayores vías de demanda de empleo en el sector son el incremento continuado del sector Servicios en España frente a la Industria y la Agricultura, así como la externalización de ciertas tareas que realizan algunas empresas o «outsourcing». Desde la primera línea, se incrementa el número total de profesionales del área administrativa, tanto por implantación de nuevas empresas de todos los sectores económicos como por desarrollo de las ya existentes. Desde el punto de vista de la externalización, cada vez más compañías deciden subcontratar a empresas especializadas toda o parte de su gestión administrativa, lo que, lógicamente, implica el crecimiento y proliferación de empresas dedicadas en exclusiva a prestar servicios administrativos a otras (gestorías, asesorías, consultoras, centros de servicios, etc.).
+
+3. El cambio constante en legislación, tipos de documentos y la integración de los procedimientos administrativos utilizados por la empresa, demanda de estos profesionales una actualización continua y actitudes favorables hacia el aprendizaje a lo largo de toda la vida, la autoformación y la responsabilidad.
+
+4. La creciente competitividad en el mundo empresarial requiere, asimismo, profesionales capaces de desarrollar su actividad en un entorno de gestión de calidad, con importancia de la seguridad laboral y el respeto al medio ambiente.
+
+5. Por último y relacionado con lo anterior y con la imparable tendencia de la globalización de las relaciones económicas, el empleo del inglés como lengua de intercambio internacional es imprescindible y, por tanto, se convierte en un factor más de exigencia para los profesionales del área administrativa, a causa de la permanente gestión de documentos y comunicaciones que en ella se realiza.
+
+CAPÍTULO III
+
+Enseñanzas del ciclo formativo y parámetros básicos de contexto
+
+Artículo 9. Objetivos generales.
+
+Los objetivos generales de este ciclo formativo son los siguientes:
+
+1. Analizar el flujo de información y la tipología y finalidad de los documentos o comunicaciones que se utilizan en la empresa, para tramitarlos.
+
+2. Analizar los documentos o comunicaciones que se utilizan en la empresa, reconociendo su estructura, elementos y características para elaborarlos.
+
+3. Identificar y seleccionar las expresiones en lengua inglesa, propias de la empresa, para elaborar documentos y comunicaciones.
+
+4. Analizar las posibilidades de las aplicaciones y equipos informáticos, relacionándolas con su empleo más eficaz en la tratamiento de la información para elaborar documentos y comunicaciones.
+
+5. Realizar documentos y comunicaciones en el formato característico y con las condiciones de calidad correspondiente, aplicando las técnicas de tratamiento de la información en su elaboración.
+
+6. Analizar y elegir los sistemas y técnicas de preservación de comunicaciones y documentos adecuados a cada caso, aplicándolas de forma manual e informática para clasificarlos, registrarlos y archivarlos.
+
+7. Interpretar la normativa y metodología contable, analizando la problemática contable que puede darse en una empresa, así como la documentación asociada para su registro.
+
+8. Introducir asientos contables manualmente y en aplicaciones informáticas específicas, siguiendo la normativa en vigor para registrar contablemente la documentación.
+
+9. Comparar y evaluar los elementos que intervienen en la gestión de la tesorería, los productos y servicios financieros básicos y los documentos relacionados con los mismos, comprobando las necesidades de liquidez y financiación de la empresa para realizar las gestiones administrativas relacionadas.
+
+10. Efectuar cálculos básicos de productos y servicios financieros, empleando principios de matemática financiera elemental para realizar las gestiones administrativas de tesorería.
+
+11. Reconocer la normativa legal aplicable, las técnicas de gestión asociadas y las funciones del departamento de recursos humanos, analizando la problemática laboral que puede darse en una empresa y la documentación relacionada para realizar la gestión administrativa de los recursos humanos.
+
+12. Identificar y preparar la documentación relevante así como las actuaciones que se deben desarrollar, interpretando la política de la empresa para efectuar las gestiones administrativas de las áreas de selección y formación de los recursos humanos.
+
+13. Cumplimentar documentación y preparar informes consultando la normativa en vigor y las vías de acceso (Internet, oficinas de atención al público) a la Administración Pública y empleando, en su caso, aplicaciones informáticas ad hoc para prestar apoyo administrativo en el área de gestión laboral de la empresa.
+
+14. Seleccionar datos y cumplimentar documentos derivados del área comercial, interpretando normas mercantiles y fiscales para realizar las gestiones administrativas correspondientes.
+
+15. Transmitir comunicaciones de forma oral, telemática o escrita, adecuándolas a cada caso y analizando los protocolos de calidad e imagen empresarial o institucional para desempeñar las actividades de atención al cliente/usuario.
+
+16. Identificar las normas de calidad y seguridad y de prevención de riesgos laborales y ambientales, reconociendo los factores de riesgo y parámetros de calidad para aplicar los protocolos correspondientes en el desarrollo del trabajo.
+
+17. Reconocer las principales aplicaciones informáticas de gestión para su uso asiduo en el desempeño de la actividad administrativa.
+
+18. Valorar las actividades de trabajo en un proceso productivo, identificando su aportación al proceso global para conseguir los objetivos de la producción.
+
+19. Valorar la diversidad de opiniones como fuente de enriquecimiento, reconociendo otras prácticas, ideas o creencias, para resolver problemas y tomar decisiones.
+
+20. Reconocer e identificar posibilidades de mejora profesional, recabando información y adquiriendo conocimientos para la innovación y actualización en el ámbito de su trabajo.
+
+21. Reconocer sus derechos y deberes como agente activo en la sociedad, analizando el marco legal que regula las condiciones sociales y laborales para participar como ciudadano democrático.
+
+22. Reconocer e identificar las posibilidades de negocio, analizando el mercado y estudiando la viabilidad empresarial para la generación de su propio empleo.
+
+Artículo 10. Módulos profesionales.
+
+1. Los módulos profesionales de este ciclo formativo:
+
+a) Quedan desarrollados en el anexo I del presente real decreto, cumpliendo lo previsto en el artículo 14 del Real Decreto 1538/2006, de 15 de diciembre.
+
+b) Son los que a continuación se relacionan:
+
+0437 Comunicación empresarial y atención al cliente.
+
+0438 Operaciones administrativas de compra-venta.
+
+0439 Empresa y Administración.
+
+0440 Tratamiento informático de la información.
+
+0441 Técnica contable.
+
+0442 Operaciones administrativas de recursos humanos.
+
+0443 Tratamiento de la documentación contable.
+
+0444 Inglés.
+
+0446 Empresa en el aula.
+
+0448 Operaciones auxiliares de gestión de tesorería.
+
+0449 Formación y orientación laboral.
+
+0451 Formación en centros de trabajo.
+
+2. Las Administraciones educativas establecerán los currículos correspondientes respetando lo establecido en este real decreto y de acuerdo con lo dispuesto en el Artículo 17 del Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo.
+
+Artículo 11. Espacios y equipamientos.
+
+1. Los espacios necesarios para el desarrollo de las enseñanzas de este ciclo formativo son los establecidos en el anexo II de este real decreto.
+
+2. Los espacios dispondrán de la superficie necesaria y suficiente para desarrollar las actividades de enseñanza que se deriven de los resultados de aprendizaje de cada uno de los módulos profesionales que se imparten en cada uno de los espacios. Además, deberán cumplir las siguientes condiciones:
+
+a) La superficie se establecerá en función del número de personas que ocupen el espacio formativo y deberá permitir el desarrollo de las actividades de enseñanza-aprendizaje con la «ergonomía» y la movilidad requeridas dentro del mismo.
+
+b) Deberán cubrir la necesidad espacial de mobiliario, equipamiento e instrumentos auxiliares de trabajo.
+
+c) Deberán respetar los espacios o superficies de seguridad que exijan las máquinas y equipos en funcionamiento.
+
+d) Respetarán la normativa sobre prevención de riesgos laborales, la normativa sobre seguridad y salud en el puesto de trabajo y cuantas otras normas sean de aplicación.
+
+3. Los espacios formativos establecidos podrán ser ocupados por diferentes grupos de alumnos que cursen el mismo u otros ciclos formativos, o etapas educativas.
+
+4. Los diversos espacios formativos identificados no deben diferenciarse necesariamente mediante cerramientos.
+
+5. Los equipamientos que se incluyen en cada espacio han de ser los necesarios y suficientes para garantizar la adquisición de los resultados de aprendizaje y la calidad de la enseñanza a los alumnos. Además deberán cumplir las siguientes condiciones:
+
+a) El equipamiento (equipos, máquinas, etc.) dispondrá de la instalación necesaria para su correcto funcionamiento, cumplirá con las normas de seguridad y prevención de riesgos y con cuantas otras sean de aplicación.
+
+b) La cantidad y características del equipamiento deberán estar en función del número de alumnos y permitir la adquisición de los resultados de aprendizaje, teniendo en cuenta los criterios de evaluación y los contenidos que se incluyen en cada uno de los módulos profesionales que se impartan en los referidos espacios.
+
+6. Las Administraciones competentes velarán para que los espacios y el equipamiento sean los adecuados en cantidad y características para el desarrollo de los procesos de enseñanza y aprendizaje que se derivan de los resultados de aprendizaje de los módulos correspondientes y garantizar así la calidad de estas enseñanzas.
+
+Artículo 12. Profesorado.
+
+1. La docencia de los módulos profesionales que constituyen las enseñanzas de este ciclo formativo corresponde al profesorado del Cuerpo de Catedráticos de Enseñanza Secundaria, del Cuerpo de Profesores de Enseñanza Secundaria y del Cuerpo de Profesores Técnicos de Formación Profesional, según proceda, de las especialidades establecidas en el anexo III A) de este real decreto.
+
+2. Las titulaciones requeridas para acceder a los cuerpos docentes citados son, con carácter general, las establecidas en el artículo 13 del Real Decreto 276/2007, de 23 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y se regula el régimen transitorio de ingreso a que se refiere la disposición transitoria decimoséptima de la citada ley. Las titulaciones equivalentes a las anteriores a esos mismos efectos son, para las distintas especialidades del profesorado, las recogidas en el anexo III B) del presente real decreto.
+
+3. Las titulaciones requeridas y los requisitos necesarios para la impartición de los módulos profesionales que conforman el título, para el profesorado de los centros de titularidad privada o de titularidad pública de otras administraciones distintas de las educativas, son las incluidas en el anexo III C) del presente real decreto. En todo caso, se exigirá que las enseñanzas conducentes a las titulaciones citadas engloben los objetivos de los módulos profesionales o se acredite, mediante «certificación», una experiencia laboral de, al menos tres años, en el sector vinculado a la familia profesional, realizando actividades productivas en empresas relacionadas implícitamente con los resultados de aprendizaje.
+
+4. Las Administraciones competentes velarán para que los profesores que imparten los módulos profesionales cumplan con los requisitos especificados y garantizar así la calidad de estas enseñanzas.
+
+CAPÍTULO IV
+
+Accesos y vinculación a otros estudios, y correspondencia de módulos profesionales con las unidades de competencia
+
+Artículo 13. Acceso y vinculación a otros estudios.
+
+1. El título de Técnico en Gestión Administrativa permite el acceso directo para cursar cualquier otro ciclo formativo de grado medio, en las condiciones de admisión que se establezcan.
+
+2. El título de Técnico en Gestión Administrativa permitirá acceder mediante prueba, con dieciocho años cumplidos, y sin perjuicio de la correspondiente exención, a todos los ciclos formativos de grado superior de la misma familia profesional y a otros ciclos formativos en los que coincida la modalidad de Bachillerato que facilite la conexión con los ciclos solicitados.
+
+3. El título de Técnico en Gestión Administrativa permitirá el acceso a cualquiera de las modalidades de Bachillerato de acuerdo con lo dispuesto en el artículo 44.1 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y en el artículo 16.3 del Real Decreto 1538/2006, de 15 de diciembre.
+
+Artículo 14. Convalidaciones y exenciones.
+
+1. Las convalidaciones de módulos profesionales de los títulos de formación profesional establecidos al amparo de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, con los módulos profesionales de los títulos establecidos al amparo de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, se establecen en el anexo IV del presente real decreto.
+
+2. Serán objeto de convalidación los módulos profesionales, comunes a varios ciclos formativos, de igual denominación, duración, contenidos, objetivos expresados como resultados de aprendizaje y criterios de evaluación, establecidos en los reales decretos por los que se fijan las enseñanzas mínimas de los títulos de Formación Profesional. No obstante lo anterior, y de acuerdo con el artículo 45.2 del Real Decreto 1538/2006, de 15 de diciembre, quienes hubieran superado el módulo profesional de Formación y orientación laboral o el módulo profesional de Empresa e iniciativa emprendedora en cualquiera de los ciclos formativos correspondientes a los títulos establecidos al amparo de la Ley Orgánica 2/2006, de 3 de mayo, de Educación tendrán convalidados dichos módulos en cualquier otro ciclo formativo establecido al amparo de la misma ley.
+
+3. El módulo profesional de Formación y orientación laboral de cualquier título de formación profesional podrá ser objeto de convalidación siempre que se cumplan los requisitos establecidos en el artículo 45.3 del Real Decreto 1538/2006, de 15 de diciembre, que se acredite, al menos, un año de experiencia laboral, y se posea el certificado de Técnico en Prevención de Riesgos Laborales, Nivel Básico, expedido de acuerdo con lo dispuesto en el Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención.
+
+4. De acuerdo con lo establecido en el artículo 49 del Real Decreto 1538/2006, de 15 de diciembre, podrá determinarse la exención total o parcial del módulo profesional de Formación en centros de trabajo por su correspondencia con la experiencia laboral, siempre que se acredite una experiencia relacionada con este ciclo formativo en los términos previstos en dicho artículo.
+
+Artículo 15. Correspondencia de los módulos profesionales con las unidades de competencia para su acreditación, convalidación o exención.
+
+1. La correspondencia de las unidades de competencia con los módulos profesionales que forman las enseñanzas del título de Técnico en Gestión Administrativa para su convalidación o exención queda determinada en el anexo V A) de este real decreto.
+
+2. La correspondencia de los módulos profesionales que forman las enseñanzas del título de Técnico en Gestión Administrativa con las unidades de competencia para su acreditación, queda determinada en el anexo V B) de este real decreto.
+
+Disposición adicional primera. Referencia del título en el marco europeo.
+
+Una vez establecido el marco nacional de cualificaciones, de acuerdo con las recomendaciones europeas, se determinará el nivel correspondiente de esta titulación en el marco nacional y su equivalente en el europeo.
+
+Disposición adicional segunda. Oferta a distancia del presente título.
+
+Los módulos profesionales que forman las enseñanzas de este ciclo formativo podrán ofertarse a distancia, siempre que se garantice que el alumno puede conseguir los resultados de aprendizaje de los mismos, de acuerdo con lo dispuesto en el presente real decreto. Para ello, las Administraciones educativas, en el ámbito de sus respectivas competencias, adoptarán las medidas que estimen necesarias y dictarán las instrucciones precisas.
+
+Disposición adicional tercera. Titulaciones equivalentes y vinculación con capacitaciones profesionales.
+
+1. De acuerdo con lo establecido en la disposición adicional trigésimo primera de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, los títulos de Técnico Auxiliar de la Ley 14/1970, de 4 de agosto, General de Educación y Financiamiento de la Reforma Educativa, que a continuación se relacionan, tendrán los mismos efectos profesionales que el título de Técnico en Gestión Administrativa establecido en el presente real decreto:
+
+a) Técnico Auxiliar Administrativo, rama Administrativa y Comercial.
+
+b) Técnico Auxiliar en Secretariado, rama Administrativa y Comercial.
+
+c) Técnico Auxiliar en Regiduría de Pisos, rama Hostelería y Turismo.
+
+d) Técnico Auxiliar de Administración y Gestión, rama Administrativa y Comercial.
+
+e) Técnico Auxiliar en Documentación Administrativa y Operatoria de Teclados, rama Administrativa y Comercial.
+
+f) Técnico Auxiliar Jurídico, rama Administrativa y Comercial.
+
+2. El título de Técnico en Gestión Administrativa, establecido por el Real Decreto 1662/1994, de 22 de julio, tendrá los mismos efectos profesionales y académicos que el título de Técnico en Gestión Administrativa establecido en el presente real decreto.
+
+3. La formación establecida en este real decreto en el módulo profesional de Formación y Orientación Laboral capacita para llevar a cabo responsabilidades profesionales equivalentes a las que precisan las actividades de nivel básico en prevención de riesgos laborales, establecidas en el Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención, siempre que tenga, al menos, 45 horas lectivas.
+
+Disposición adicional cuarta. Regulación del ejercicio de la profesión.
+
+1. De conformidad con lo establecido en el Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo, los elementos recogidos en el presente real decreto no constituyen una regulación del ejercicio de profesión titulada alguna.
+
+2. Asimismo, las equivalencias de titulaciones académicas establecidas en el apartado 1 y 2 de la disposición adicional tercera de este real decreto, se entenderán sin perjuicio del cumplimiento de las disposiciones que habilitan para el ejercicio de las profesiones reguladas.
+
+Disposición adicional quinta. Equivalencias a efectos de docencia en los procedimientos selectivos de ingreso en el Cuerpo de Profesores Técnicos de Formación Profesional.
+
+El título de Técnico Superior o de Técnico Especialista se declara equivalente a los exigidos para el acceso al Cuerpo de Profesores Técnicos de Formación Profesional, cuando el titulado haya ejercido como profesor interino en centros públicos del ámbito territorial de la Administración convocante y en la especialidad docente a la que pretenda acceder durante un periodo mínimo de dos años antes del 31 de agosto de 2007.
+
+Disposición adicional sexta. Accesibilidad universal en las enseñanzas de este título.
+
+1. Las Administraciones educativas, en el ámbito de sus respectivas competencias, incluirán en el currículo de este ciclo formativo los elementos necesarios para garantizar que las personas que lo cursen desarrollen las competencias incluidas en el currículo en diseño para todos.
+
+2. Asimismo, dichas Administraciones adoptarán las medidas que estimen necesarias para que este alumnado pueda acceder y cursar dicho ciclo formativo en las condiciones establecidas en la disposición final décima de la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad.
+
+Disposición transitoria única. Aplicabilidad de otras normas.
+
+1. Hasta que sea de aplicación lo dispuesto en este real decreto, en virtud de lo establecido en sus disposiciones finales segunda y tercera, será de aplicación lo dispuesto en el Real Decreto 1662/1994, de 22 de julio, por el que se establece el título de Técnico en Gestión Administrativa y las correspondientes enseñanzas mínimas.
+
+2. Asimismo, hasta que sea de aplicación la norma que regule, para el ámbito de gestión del Ministerio de Educación, el currículo correspondiente al título de Técnico en Gestión Administrativa, será de aplicación lo establecido en el Real Decreto 1677/1994, de 22 de julio, por el que se establece el currículo del ciclo formativo de grado medio correspondiente al título de Técnico en Gestión Administrativa.
+
+Disposición derogatoria única. Derogación de normas.
+
+1. Queda derogado el Real Decreto 1662/1994, de 22 de julio, por el que se establece el título de Técnico en Gestión Administrativa y las correspondientes enseñanzas mínimas y cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este real decreto.
+
+2. Queda derogado el Real Decreto 1677/1994, de 22 de julio, por el que se establece el currículo del ciclo formativo de grado medio correspondiente al título de Técnico en Gestión Administrativa.
+
+Disposición final primera. Título competencial.
+
+El presente real decreto tiene carácter de norma básica, al amparo de las competencias que atribuye al Estado el artículo 149.1.1.ª y 30.ª de la Constitución.
+
+Disposición final segunda. Implantación del nuevo currículo.
+
+Las Administraciones educativas implantarán el nuevo currículo de estas enseñanzas en el curso escolar 2010/2011.
+
+Disposición final tercera. Entrada en vigor.
+
+El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».
+
+Dado en Madrid, el 30 de octubre de 2009.
+
+JUAN CARLOS R.
+
+El Ministro de Educación,
+
+ÁNGEL GABILONDO PUJOL
+
+ANEXO I
+
+MÓDULOS PROFESIONALES
+
+Módulo Profesional: Comunicación empresarial y atención al cliente. Código: 0437
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Selecciona técnicas de comunicación, relacionándolas con la estructura e imagen de la empresa y los flujos de información existentes en ella.
+
+Criterios de evaluación:
+
+a) Se ha reconocido la necesidad de comunicación entre las personas.
+
+b) Se ha distinguido entre comunicación e información.
+
+c) Se han distinguido los elementos y procesos que intervienen en la comunicación.
+
+d) Se han reconocido los obstáculos que pueden existir en un proceso de comunicación.
+
+e) Se ha determinado la mejor forma y actitud a la hora de presentar el mensaje.
+
+f) Se han identificado los conceptos de imagen y cultura de la empresa.
+
+g) Se han diferenciado los tipos de organizaciones y su organigrama funcional.
+
+h) Se han distinguido las comunicaciones internas y externas y los flujos de información dentro de la empresa.
+
+i) Se ha seleccionado el destinatario y el canal adecuado para cada situación.
+
+2. Transmite información de forma oral, vinculándola a los usos y costumbres socioprofesionales habituales en la empresa.
+
+Criterios de evaluación:
+
+a) Se han identificado los principios básicos a tener en cuenta en la comunicación verbal.
+
+b) Se ha identificado el protocolo de comunicación verbal y no verbal en las comunicaciones presenciales y no presenciales.
+
+c) Se han tenido en cuenta las costumbres socioculturales y los usos empresariales.
+
+d) Se ha identificado al interlocutor, observando las debidas normas de protocolo, adaptando su actitud y conversación a la situación de la que se parte.
+
+e) Se ha elaborado el mensaje verbal, de manera concreta y precisa, valorando las posibles dificultades en su transmisión.
+
+f) Se ha utilizado el léxico y expresiones adecuados al tipo de comunicación y a los interlocutores.
+
+g) Se ha presentado el mensaje verbal elaborado utilizando el lenguaje no verbal más adecuado.
+
+h) Se han utilizado equipos de telefonía e informáticos aplicando las normas básicas de uso.
+
+i) Se ha valorado si la información es transmitida con claridad, de forma estructurada, con precisión, con cortesía, con respeto y sensibilidad.
+
+j) Se han analizado los errores cometidos y propuesto las acciones correctivas necesarias.
+
+3. Transmite información escrita, aplicando las técnicas de estilo a diferentes tipos de documentos propios de la empresa y de la Administración Pública.
+
+Criterios de evaluación:
+
+a) Se han identificado los soportes para elaborar y transmitir los documentos: tipo de papel, sobres y otros.
+
+b) Se han identificado los canales de transmisión: correo convencional, correo electrónico, fax, mensajes cortos o similares.
+
+c) Se han diferenciado los soportes más apropiados en función de los criterios de rapidez, seguridad, y confidencialidad.
+
+d) Se ha identificado al destinatario observando las debidas normas de protocolo.
+
+e) Se han clasificado las tipologías más habituales de documentos dentro de la empresa según su finalidad.
+
+f) Se ha redactado el documento apropiado, cumpliendo las normas ortográficas y sintácticas en función de su finalidad y de la situación de partida.
+
+g) Se han identificado las herramientas de búsqueda de información para elaborar la documentación.
+
+h) Se han utilizado las aplicaciones informáticas de procesamiento de textos o autoedición.
+
+i) Se han cumplimentado los libros de registro de entrada y salida de correspondencia y paquetería en soporte informático y/o convencional.
+
+j) Se ha utilizado la normativa sobre protección de datos y conservación de documentos establecidos para las empresas e instituciones públicas y privadas.
+
+k) Se han aplicado, en la elaboración de la documentación, las técnicas 3R (reducir, reutilizar, reciclar).
+
+4. Archiva información en soporte papel e informático, reconociendo los criterios de eficiencia y ahorro en los trámites administrativos.
+
+Criterios de evaluación:
+
+a) Se ha descrito la finalidad de organizar la información y los objetivos que se persiguen.
+
+b) Se han diferenciado las técnicas de organización de información que se pueden aplicar en una empresa o institución, así como los procedimientos habituales de registro, clasificación y distribución de la información en las organizaciones.
+
+c) Se han identificado los soportes de archivo y registro y las prestaciones de las aplicaciones informáticas específicas más utilizadas en función de las características de la información a almacenar.
+
+d) Se han identificado las principales bases de datos de las organizaciones, su estructura y funciones
+
+e) Se ha determinado el sistema de clasificación, registro y archivo apropiados al tipo de documentos.
+
+f) Se han realizado árboles de archivos informáticos para ordenar la documentación digital.
+
+g) Se han aplicado las técnicas de archivo en los intercambios de información telemática (intranet, extranet, correo electrónico).
+
+h) Se han reconocido los procedimientos de consulta y conservación de la información y documentación y detectado los errores que pudieran producirse en él.
+
+i) Se han respetado los niveles de protección, seguridad y acceso a la información, así como la normativa vigente tanto en documentos físicos como en bases de datos informáticas.
+
+j) Se han aplicado, en la elaboración y archivo de la documentación, las técnicas 3R (reducir, reutilizar, reciclar).
+
+5. Reconoce necesidades de posibles clientes aplicando técnicas de comunicación.
+
+Criterios de evaluación:
+
+a) Se han desarrollado técnicas de comunicación y habilidades sociales que facilitan la empatía con el cliente en situaciones de atención/asesoramiento al mismo.
+
+b) Se han identificado las fases que componen el proceso de atención al cliente/consumidor/usuario a través de diferentes canales de comunicación.
+
+c) Se han reconocido los errores más habituales que se cometen en la comunicación con el cliente.
+
+d) Se ha identificado el comportamiento del cliente.
+
+e) Se han analizado las motivaciones de compra o demanda de un servicio del cliente.
+
+f) Se ha obtenido, en su caso, la información histórica del cliente.
+
+g) Se ha adaptado adecuadamente la actitud y discurso a la situación de la que se parte.
+
+h) Se ha observado la forma y actitud adecuadas en la atención y asesoramiento a un cliente en función del canal de comunicación utilizado.
+
+i) Se han distinguido las distintas etapas de un proceso comunicativo.
+
+6. Atiende consultas, quejas y reclamaciones de posibles clientes aplicando la normativa vigente en materia de consumo.
+
+Criterios de evaluación:
+
+a) Se han descrito las funciones del departamento de atención al cliente en empresas.
+
+b) Se ha interpretado la comunicación recibida por parte del cliente.
+
+c) Se han identificado los elementos de la queja/reclamación.
+
+d) Se han reconocido las fases que componen el plan interno de resolución de quejas/reclamaciones.
+
+e) Se ha identificado y localizado la información que hay que suministrar al cliente.
+
+f) Se han utilizado los documentos propios de la gestión de consultas, quejas y reclamaciones.
+
+g) Se ha cumplimentado, en su caso, un escrito de respuesta utilizando medios electrónicos u otros canales de comunicación.
+
+h) Se ha reconocido la importancia de la protección del consumidor.
+
+i) Se ha identificado la normativa en materia de consumo.
+
+j) Se han diferenciado los tipos de demanda o reclamación.
+
+7. Potencia la imagen de empresa reconociendo y aplicando los elementos y herramientas del marketing.
+
+Criterios de evaluación:
+
+a) Se ha identificado el concepto de marketing.
+
+b) Se han reconocido las funciones principales del marketing.
+
+c) Se ha valorado la importancia del departamento de marketing.
+
+d) Se han diferenciado los elementos y herramientas básicos que componen el marketing.
+
+e) Se ha valorado la importancia de la imagen corporativa para conseguir los objetivos de la empresa.
+
+f) Se ha valorado la importancia de las relaciones públicas y la atención al cliente para la imagen de la empresa.
+
+g) Se ha identificado la fidelización del cliente como un objetivo prioritario del marketing.
+
+8. Aplica procedimientos de calidad en la atención al cliente identificando los estándares establecidos.
+
+Criterios de evaluación:
+
+a) Se han identificado los factores que influyen en la prestación del servicio al cliente.
+
+b) Se han descrito las fases del procedimiento de relación con los clientes.
+
+c) Se han descrito los estándares de calidad definidos en la prestación del servicio.
+
+d) Se ha valorado la importancia de una actitud proactiva para anticiparse a incidencias en los procesos.
+
+e) Se han detectado los errores producidos en la prestación del servicio.
+
+f) Se ha aplicado el tratamiento adecuado en la gestión de las anomalías producidas.
+
+g) Se ha explicado el significado e importancia del servicio post-venta en los procesos comerciales.
+
+h) Se han definido las variables constitutivas del servicio post-venta y su relación con la fidelización del cliente.
+
+i) Se han identificado las situaciones comerciales que precisan seguimiento y servicio post-venta.
+
+j) Se han descrito los métodos más utilizados habitualmente en el control de calidad del servicio post-venta, así como sus fases y herramientas.
+
+Duración: 70 horas.
+
+Contenidos básicos
+
+Selección de técnicas de comunicación empresarial:
+
+− Elementos y barreras de la comunicación.
+
+− Comunicación e información y comportamiento
+
+− Las relaciones humanas y laborales en la empresa.
+
+− La organización empresarial. Organigramas.
+
+− Principios y tipos de organización empresarial.
+
+− Departamentos y áreas funcionales tipo.
+
+− Funciones del personal en la organización.
+
+− Descripción de los flujos de comunicación.
+
+− La comunicación interna en la empresa: comunicación formal e informal.
+
+− La comunicación externa en la empresa. La publicidad y las relaciones públicas.
+
+Transmisión de comunicación oral en la empresa:
+
+− Principios básicos en las comunicaciones orales.
+
+− Normas de información y atención oral.
+
+− Técnicas de comunicación oral, habilidades sociales y protocolo.
+
+− La comunicación no verbal.
+
+− La comunicación verbal dentro del ámbito de la empresa.
+
+− La comunicación telefónica.
+
+− El teléfono y su uso. La centralita. Uso del listín telefónico. Normas para hablar correctamente por teléfono.
+
+− La informática en las comunicaciones verbales.
+
+− Comunicaciones en la recepción de visitas: acogida, identificación, gestión, despedida.
+
+Transmisión de comunicación escrita en la empresa:
+
+− La comunicación escrita en la empresa.
+
+− Normas de comunicación y expresión escrita.
+
+− Características principales de la correspondencia comercial.
+
+− La carta comercial. Estructura, estilos y clases.
+
+− Formatos tipo de documentos de uso en la empresa y en las Administraciones Públicas.
+
+− Medios y equipos ofimáticos y telemáticos.
+
+− El correo electrónico.
+
+− La recepción, envío y registro de la correspondencia.
+
+− Servicios de correos, circulación interna de correspondencia y paquetería.
+
+− Aplicación de procedimientos de seguridad y confidencialidad de la información.
+
+Archivo de la información en soporte papel e informático:
+
+− Archivo de la información en soporte papel:
+
+• Clasificación y ordenación de documentos.
+
+• Normas de clasificación. Ventajas e inconvenientes.
+
+• Técnicas de archivo: Naturaleza. Finalidad del archivo.
+
+• Archivo de documentos. Captación, elaboración de datos y su custodia.
+
+• Sistemas de archivo. Convencionales. Por microfilme. Informáticos.
+
+• Clasificación de la información.
+
+• Centralización o descentralización del archivo.
+
+• El proceso de archivo.
+
+• Confección y presentación de informes procedentes del archivo.
+
+• La purga o destrucción de la documentación.
+
+• Confidencialidad de la información y documentación.
+
+− Archivo de la información en soporte informático:
+
+• Las bases de datos para el tratamiento de la información.
+
+• Estructura y funciones de una base de datos.
+
+• Procedimientos de protección de datos.
+
+• Archivos y carpetas.
+
+• Organización en carpetas del correo electrónico y otros sistemas de comunicación telemática.
+
+Reconocimiento de necesidades de clientes:
+
+− Concepto e identificación del cliente: el cliente interno; el cliente externo.
+
+− El conocimiento del cliente y sus motivaciones.
+
+− Elementos de la atención al cliente: entorno, organización y empleados.
+
+− Fases de la atención al cliente: la acogida, el seguimiento, la gestión y la despedida.
+
+− La percepción del cliente respecto a la atención recibida.
+
+− La satisfacción del cliente.
+
+− Los procesos en contacto con el cliente externo.
+
+Atención de consultas, quejas y reclamaciones:
+
+− El departamento de atención al cliente. Funciones.
+
+− Valoración del cliente de la atención recibida: reclamación, queja, sugerencias, felicitación.
+
+− Elementos de una queja o reclamación.
+
+− Las fases de la resolución de quejas/reclamaciones.
+
+− El consumidor.
+
+− Instituciones de consumo:
+
+− Normativa en materia de consumo:
+
+− Procedimiento de recogida de las reclamaciones y denuncias.
+
+− Tramitación y gestión.
+
+Potenciación de la imagen de la empresa:
+
+− El marketing en la actividad económica: su influencia en la imagen de la empresa.
+
+− Naturaleza y alcance del marketing.
+
+− Políticas de comunicación.
+
+• La publicidad: Concepto, principios y objetivos.
+
+• Las relaciones públicas.
+
+• La Responsabilidad Social Corporativa.
+
+Aplicación de procedimientos de calidad en la atención al cliente:
+
+− La calidad de servicio como elemento de la competitividad de la empresa.
+
+− Tratamiento de anomalías producidas en la prestación del servicio.
+
+− Procedimientos de control del servicio.
+
+− Evaluación y control del servicio.
+
+− Control del servicio postventa.
+
+− La fidelización del cliente.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar las funciones relacionadas con la comunicación en la empresa, tales como:
+
+− Recepción de visitas y atención telefónica.
+
+− Recepción, tramitación y gestión de documentación.
+
+− Atención al cliente/usuario.
+
+− Elaboración, registro y archivo de documentación.
+
+− La aplicación de técnicas de comunicación adecuadas a la situación de atención/asesoramiento al cliente.
+
+− La realización de las gestiones pertinentes con los departamentos afectados para consultas, reclamaciones y atención postventa.
+
+− La tramitación de las reclamaciones y denuncias.
+
+− La aplicación de los estándares de la calidad en la prestación del servicio.
+
+− La aplicación de las técnicas de marketing como medio de potenciación de la imagen de la empresa.
+
+Las actividades profesionales asociadas a esta función se aplican:
+
+− En todos los ámbitos de la empresa, tanto interno como externo y en todo tipo de empresas, independientemente del sector al que pertenezcan.
+
+− Especialmente, en el apoyo administrativo a las tareas que desarrollan los departamentos de Atención al cliente y Marketing en las empresas de los diferentes sectores económicos.
+
+La formación del módulo contribuye a alcanzar los objetivos generales a), b), d), e), f) y ñ) del ciclo formativo y las competencias a), b), c), i), m), p), q) y r) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− La aplicación de técnicas de comunicación adecuadas a cada situación concreta.
+
+− La aplicación del protocolo de comunicación verbal y no verbal en las comunicaciones presenciales y no presenciales, relacionándolos con la imagen de la empresa y la importancia de ésta.
+
+− La utilización de equipos de telefonía e informáticos, aplicando las normas básicas de uso.
+
+− La elaboración de cartas comerciales y otros documentos administrativos.
+
+− El registro de la documentación, tanto la recibida como la emitida.
+
+− El archivo de la documentación aplicando soporte papel e informático.
+
+− El apoyo administrativo a los departamentos de Atención al Cliente y Marketing.
+
+− La atención y tramitación de consultas y reclamaciones.
+
+− El seguimiento de clientes y control del servicio post-venta.
+
+Módulo Profesional: Operaciones administrativas de compra-venta. Código: 0438
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Calcula precios de venta y compra y descuentos aplicando las normas y usos mercantiles y la legislación fiscal vigente.
+
+Criterios de evaluación:
+
+a) Se han reconocido las funciones del departamento de ventas o comercial y las del de compras.
+
+b) Se han reconocido los tipos de mercados, de clientes y de productos o servicios.
+
+c) Se han descrito los circuitos de los documentos de compraventa.
+
+d) Se han identificado los conceptos de precio de compra del producto, gastos, precio de venta, descuentos, interés comercial, recargos y márgenes comerciales.
+
+e) Se han distinguido los conceptos de comisiones y corretajes.
+
+f) Se han reconocido los porcentajes de IVA a aplicar en las operaciones de compraventa.
+
+g) Se han clasificado los tipos de descuento más habituales.
+
+h) Se han reconocido y cuantificado los gastos de compra o venta.
+
+i) Se han identificado los métodos para calcular el precio final de venta y los precios unitarios.
+
+2. Confecciona documentos administrativos de las operaciones de compraventa, relacionándolos con las transacciones comerciales de la empresa.
+
+Criterios de evaluación:
+
+a) Se han identificado los documentos básicos de las operaciones de compraventa, precisando los requisitos formales que deben reunir.
+
+b) Se ha reconocido el contrato mercantil de compraventa.
+
+c) Se han descrito los flujos de documentación administrativa relacionados con la compra y venta, habituales en la empresa.
+
+d) Se ha identificado el proceso de recepción de pedidos y su posterior gestión.
+
+e) Se han cumplimentado los documentos relativos a la compra y venta en la empresa
+
+f) Se han comprobado la coherencia interna de los documentos, trasladando las copias a los departamentos correspondientes.
+
+g) Se han reconocido los procesos de expedición y entrega de mercancías.
+
+h) Se ha verificado que la documentación comercial, recibida y emitida, cumple con la legislación vigente y con los procedimientos internos de la empresa.
+
+i) Se han identificado los parámetros y la información que deben ser registrados en las operaciones de compraventa.
+
+j) Se ha valorado la necesidad de aplicar los sistemas de protección y salvaguarda de la información, así como criterios de calidad en el proceso administrativo.
+
+3. Liquida obligaciones fiscales ligadas a las operaciones de compra-venta aplicando la normativa fiscal vigente.
+
+Criterios de evaluación:
+
+a) Se han identificado las características básicas de las normas mercantiles y fiscales aplicables a las operaciones de compra-venta.
+
+b) Se han identificado las obligaciones de registro en relación con el Impuesto del Valor Añadido (IVA).
+
+c) Se han identificado los libros-registro obligatorios para las empresas.
+
+d) Se han identificado los libros-registro voluntarios para las empresas.
+
+e) Se ha identificado la obligación de presentar declaraciones trimestrales y resúmenes anuales en relación con el Impuesto del Valor Añadido (IVA).
+
+f) Se han identificado las obligaciones informativas a Hacienda en relación con las operaciones efectuadas periódicamente.
+
+g) Se ha reconocido la normativa sobre la conservación de documentos e información.
+
+4. Controla existencias reconociendo y aplicando sistemas de gestión de almacén.
+
+Criterios de evaluación:
+
+a) Se han clasificado los diferentes tipos de existencias habituales en empresas de producción, comerciales y de servicios.
+
+b) Se han diferenciado los tipos de embalajes y envases que se utilizan.
+
+c) Se han descrito los procedimientos administrativos de recepción, almacenamiento, distribución interna y expedición de existencias.
+
+d) Se han calculado los precios unitarios de coste de las existencias, teniendo en cuenta los gastos correspondientes.
+
+e) Se han identificado los métodos de control de existencias.
+
+f) Se han reconocido los conceptos de stock mínimo y stock óptimo.
+
+g) Se han identificado los procedimientos internos para el lanzamiento de pedidos a los proveedores.
+
+h) Se ha valorado la importancia de los inventarios periódicos.
+
+i) Se han utilizado las aplicaciones informáticas y procesos establecidos en la empresa para la gestión del almacén.
+
+5. Tramita pagos y cobros reconociendo la documentación asociada y su flujo dentro de la empresa.
+
+Criterios de evaluación:
+
+a) Se han identificado los medios de pago y cobro habituales en la empresa.
+
+b) Se han cumplimentado los documentos financieros utilizados y los impresos de cobro y pago.
+
+c) Se han valorado los procedimientos de autorización de los pagos.
+
+d) Se han valorado los procedimientos de gestión de los cobros.
+
+e) Se han reconocido los documentos de justificación del pago.
+
+f) Se han diferenciado el pago al contado y el pago aplazado.
+
+g) Se han identificado las características básicas y el funcionamiento de los pagos por Internet.
+
+h) Se han analizado las formas de financiación comercial más usuales.
+
+Duración: 70 horas.
+
+Contenidos básicos
+
+Cálculo de precios de venta, compra y descuentos:
+
+− Organización y estructura comercial en la empresa
+
+• Concepto y objetivos de la empresa. Tipos.
+
+• Formas de organización comercial de la empresa.
+
+• Sistema de comercialización. Canales de venta.
+
+− Conceptos básicos de la actividad de compraventa y cálculos comerciales:
+
+• Conceptos básicos: precio de compra, precio de venta, margen comercial, beneficio, gastos de compra y gastos de venta.
+
+• Descuentos. Intereses y recargos. Comisiones y corretajes.
+
+• Cálculos comerciales básicos en la facturación y de precios unitarios.
+
+• Cálculos de pago-cobro aplazado o avanzado.
+
+• Gestión y negociación de documentos cobro.
+
+Confección de documentos administrativos de las operaciones de compraventa:
+
+− Contrato mercantil de compraventa.
+
+− Proceso de compras.
+
+− Proceso de ventas.
+
+− Canales de venta y/o distribución. Expedición y entrega de mercancías.
+
+− Elaboración de documentos de compraventa.
+
+− Devoluciones.
+
+− Bases de datos de proveedores y clientes.
+
+− Aplicaciones informáticas de gestión de clientes y facturación.
+
+Liquidación de obligaciones fiscales derivadas de la compraventa:
+
+− Impuesto del Valor Añadido.
+
+− Modelos y plazos de presentación de la declaración-liquidación del IVA.
+
+− Soporte documental y soporte informático de las operaciones de compraventa.
+
+− Libros de registro obligatorios y voluntarios.
+
+− Declaraciones censales y declaración de operaciones con terceras personas.
+
+Control de existencias de almacén:
+
+− Tipo de existencias.
+
+− Envases y embalajes.
+
+− Inventarios y verificaciones.
+
+− Control y gestión de existencias. Procesos administrativos.
+
+− Stock mínimo y stock óptimo.
+
+− Métodos de valoración de existencias.
+
+Tramitación de cobros y pagos:
+
+− Medios de cobro y pago usuales. Documentos de cobro y pago.
+
+− Procesos administrativos de cobro y pago. Autorizaciones.
+
+− Financiación de documentos de cobro a plazo.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar las funciones de apoyo administrativo y de atención al cliente, de los departamentos de compra, de ventas o comerciales, y de almacén, aplicando los protocolos de calidad establecidos por la empresa.
+
+La función de apoyo administrativo incluye aspectos como:
+
+− La recepción y tramitación de la documentación administrativa y comercial con clientes externos e internos, utilizando medios convencionales y/o telemáticos.
+
+− La cumplimentación y confección de documentación administrativa y comercial con clientes externos e internos, utilizando medios convencionales y/o telemáticos.
+
+− El uso y aplicación de las diversas técnicas de comunicación para informar y asesorar al cliente en condiciones de seguridad.
+
+− El desarrollo y formalización de procesos y protocolos de calidad asociados a las gestiones administrativas y comerciales.
+
+− El control de la gestión de almacén, aplicando los sistemas de gestión de existencias.
+
+− Las actividades de pago y cobro, siguiendo los protocolos establecidos.
+
+− Los trámites administrativos de las obligaciones fiscales de la empresa.
+
+Las actividades profesionales asociadas a esta función se aplican fundamentalmente en:
+
+− Las operaciones de compraventa de productos y/o servicios que realizan las empresas de diferentes sectores económicos, y todas las operaciones administrativas asociadas y derivadas de las mismas.
+
+− La atención al cliente proporcionada por empresas de diferentes sectores económicos.
+
+La formación del módulo contribuye a alcanzar los objetivos generales n), ñ), p) y q) del ciclo formativo y las competencias h), i), k) y l) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− La aplicación de los procesos de comunicación y las técnicas de imagen corporativa.
+
+− La identificación y análisis de las convenciones básicas en los ámbitos administrativo y comercial de la compraventa, y las relaciones internas entre los departamentos de una empresa.
+
+− La recepción y tramitación de documentación, utilizando los protocolos establecidos y usando medios convencionales y telemáticos.
+
+− La cumplimentación y confección de documentación, utilizando los protocolos establecidos y usando medios convencionales y telemáticos.
+
+− El mantenimiento actualizado de registros, y la tramitación de declaraciones-liquidaciones fiscales con los requisitos y en los plazos requeridos.
+
+Módulo Profesional: Empresa y Administración. Código: 0439
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Describe las características inherentes a la innovación empresarial relacionándolas con la actividad de creación de empresas.
+
+Criterios de evaluación:
+
+a) Se han analizado las diversas posibilidades de innovación empresarial (técnicas, materiales, de organización interna y externa, entre otras), relacionándolas como fuentes de desarrollo económico y creación de empleo.
+
+b) Se han descrito las implicaciones que tiene para la competitividad empresarial la innovación y la iniciativa emprendedora.
+
+c) Se han comparado y documentado diferentes experiencias de innovación empresarial, describiendo y valorando los factores de riesgo asumidos en cada una de ellas.
+
+d) Se han definido las características de empresas de base tecnológica, relacionándolas con los distintos sectores económicos.
+
+e) Se han enumerado algunas iniciativas innovadoras que puedan aplicarse a empresas u organizaciones ya existentes para su mejora.
+
+f) Se han analizado posibilidades de internacionalización de algunas empresas como factor de innovación de las mismas.
+
+g) Se han buscado ayudas y herramientas, públicas y privadas, para la innovación, creación e internacionalización de empresas, relacionándolas estructuradamente en un informe.
+
+2. Identifica el concepto de empresa y empresario analizando su forma jurídica y la normativa a la que está sujeto.
+
+Criterios de evaluación:
+
+a) Se ha definido el concepto de empresa.
+
+b) Se ha distinguido entre personalidad física y jurídica.
+
+c) Se ha diferenciado la empresa según su constitución legal.
+
+d) Se han reconocido las características del empresario autónomo.
+
+e) Se han precisado las características de los diferentes tipos de sociedades.
+
+f) Se ha identificado la forma jurídica más adecuada para cada tipo de empresa.
+
+3. Analiza el sistema tributario español reconociendo sus finalidades básicas así como las de los principales tributos.
+
+Criterios de evaluación:
+
+a) Se ha relacionado la obligación tributaria con su finalidad socioeconómica.
+
+b) Se ha reconocido la jerarquía normativa tributaria.
+
+c) Se han identificado los diferentes tipos de tributos.
+
+d) Se han discriminado sus principales características.
+
+e) Se ha diferenciado entre impuestos directos e indirectos.
+
+f) Se han identificado los elementos de la declaración-liquidación.
+
+g) Se han reconocido las formas de extinción de las deudas tributarias.
+
+4. Identifica las obligaciones fiscales de la empresa diferenciando los tributos a los que está sujeta.
+
+Criterios de evaluación:
+
+a) Se han definido las obligaciones fiscales de la empresa.
+
+b) Se ha precisado la necesidad de alta en el censo.
+
+c) Se han reconocido las empresas sujetas al pago del Impuesto de Actividades Económicas.
+
+d) Se han reconocido las características generales del Impuesto sobre el Valor Añadido y sus diferentes regímenes.
+
+e) Se han interpretado los modelos de liquidación del IVA, reconociendo los plazos de declaración-liquidación.
+
+f) Se ha reconocido la naturaleza y ámbito de aplicación del Impuesto sobre la Renta de las Personas Físicas.
+
+g) Se han cumplimentado los modelos de liquidación de IRPF, reconociendo los plazos de declaración-liquidación.
+
+h) Se ha identificado la naturaleza y los elementos del impuesto de sociedades.
+
+5. Identifica la estructura funcional y jurídica de la Administración Pública, reconociendo los diferentes organismos y personas que la integran.
+
+Criterios de evaluación:
+
+a) Se ha identificado el marco jurídico en el que se integran las Administraciones Públicas.
+
+b) Se han reconocido las organizaciones que componen las diferentes Administraciones Públicas.
+
+c) Se han interpretado las relaciones entre las diferentes Administraciones Públicas.
+
+d) Se han obtenido diversas informaciones de las Administraciones Públicas por las diversas vías de acceso a las mismas y relacionado éstas en un informe.
+
+e) Se han precisado las distintas formas de relación laboral en la Administración Pública.
+
+f) Se han utilizado las fuentes de información relacionadas con la oferta de empleo público para reunir datos significativos sobre ésta.
+
+6. Describe los diferentes tipos de relaciones entre los administrados y la Administración y sus características completando documentación que de éstas surge.
+
+Criterios de evaluación:
+
+a) Se ha definido el concepto de acto administrativo.
+
+b) Se han clasificado los diferentes actos administrativos.
+
+c) Se ha definido el proceso administrativo, sus tipos, fases y tipos de silencio.
+
+d) Se han precisado los diferentes tipos de contratos administrativos.
+
+e) Se ha definido el concepto de recurso administrativo y diferenciado sus tipos.
+
+f) Se han identificado los actos recurribles y no recurribles.
+
+g) Se han diferenciado los diferentes tipos de recursos administrativos.
+
+h) Se han verificado las condiciones para la interposición de un recurso administrativo.
+
+i) Se ha precisado los diferentes órganos de la jurisdicción contencioso-administrativa y su ámbito de aplicación.
+
+j) Se han relacionado las fases el procedimiento contencioso-administrativo.
+
+7. Realiza gestiones de obtención de información y presentación de documentos ante las Administraciones Públicas identificando los distintos tipos de registros públicos.
+
+Criterios de evaluación:
+
+a) Se han observado las normas de presentación de documentos ante la Administración.
+
+b) Se han reconocido las funciones de los Archivos Públicos.
+
+c) Se ha solicitado determinada información en un Registro Público.
+
+d) Se ha reconocido el derecho a la información, atención y participación del ciudadano.
+
+e) Se ha accedido a las oficinas de información y atención al ciudadano por vías como las páginas web, ventanillas únicas y atención telefónica para obtener información relevante y relacionarla en un informe tipo.
+
+f) Se han identificado y descrito los límites al derecho a la información relacionados con los datos en poder de las Administraciones Públicas sobre los administrados.
+
+Duración: 60 horas.
+
+Contenidos básicos
+
+Características de la innovación empresarial:
+
+− El proceso innovador en la actividad empresarial.
+
+• Factores de riesgo en la innovación empresarial.
+
+• Diagnóstico de actitudes emprendedoras.
+
+− Perfil de riesgo de la iniciativa emprendedora y la innovación.
+
+− La tecnología como clave de la innovación empresarial.
+
+− La internacionalización de las empresas como oportunidad de desarrollo e innovación.
+
+− Ayudas y herramientas para la innovación empresarial.
+
+• Ayudas institucionales públicas y privadas (Asesoramiento, financiación de ideas, premios, entre otros).
+
+El concepto jurídico de empresa y empresario:
+
+− Concepto de empresa.
+
+− Concepto de empresario.
+
+− Persona física.
+
+− Persona Jurídica.
+
+− Empresas individuales.
+
+− El empresario autónomo.
+
+− Tipos de sociedades.
+
+El sistema tributario:
+
+− Concepto de tributo.
+
+− Los tributos y su finalidad socioeconómica.
+
+− Normas y tipos de tributos.
+
+− Clases de impuestos.
+
+− Elementos de la declaración-liquidación.
+
+− Formas de extinción de la deuda tributaria.
+
+− Infracciones y sanciones tributarias.
+
+Obligaciones fiscales de la empresa.
+
+− El Índice de Actividades Económicas.
+
+− La Declaración Censal. Alta en el Censo de Actividades Económicas.
+
+− El IVA. Tipos. Regímenes.
+
+− Naturaleza y ámbito de aplicación del IRPF.
+
+− Actividades empresariales y profesionales.
+
+− Formas de estimación de la renta.
+
+− Las retenciones de IRPF.
+
+− Modelos y plazos de declaración-liquidación.
+
+− Naturaleza y elementos del Impuesto de Sociedades.
+
+Estructura Funcional y jurídica de la Administración Pública.
+
+− El Derecho.
+
+− Las fuentes del Derecho. La separación de poderes.
+
+− La Unión Europea.
+
+− Órganos de la Administración Central.
+
+− Instituciones de la Comunidad Autónoma.
+
+− La Administración Local.
+
+− Los funcionarios públicos.
+
+− Los fedatarios públicos.
+
+Las relaciones entre administrado y Administración Pública.
+
+− El acto administrativo.
+
+− El silencio administrativo.
+
+− El procedimiento administrativo. Fases.
+
+− Los contratos administrativos.
+
+− Los recursos administrativos.
+
+− La jurisdicción contencioso-administrativa.
+
+Gestión de la documentación ante la Administración Pública.
+
+− Los documentos en la Administración.
+
+− Los Archivos Públicos.
+
+− Los Registros Públicos.
+
+− El Derecho a la información, atención y participación del ciudadano.
+
+− Límites al derecho de información.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de apoyo administrativo a las tareas que se llevan a cabo en la empresa, por lo que se refiere a sus obligaciones fiscales y a su relación con Organismos Públicos.
+
+Incluye aspectos como:
+
+− Apoyo administrativo en la elaboración de documentos que se refieren a la fiscalidad de la empresa.
+
+− Apoyo administrativo en la relación de la empresa con los Organismos Públicos.
+
+Las actividades profesionales asociadas a esta función se aplican en:
+
+− Las funciones que se desarrollan en las empresas en cuanto a la documentación comercial y fiscal y en las relaciones con la Administración.
+
+− Las funciones que se desarrollan en empresas de servicios de asesoría en relación al apoyo administrativo de la gestión documental de los impuestos, permisos y trámites.
+
+La formación del módulo contribuye a alcanzar los objetivos generales del ciclo formativo a), m), q), r), s), t) y u) y las competencias a), m), ñ) o) y p) del título.
+
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− El manejo de fuentes de información sobre el conocimiento de los diferentes tipos de empresas y las Administraciones con que se relacionan.
+
+− La identificación de la normativa fiscal de las operaciones comerciales y contables que afectan a la empresa.
+
+Módulo Profesional: Tratamiento informático de la información. Código: 0440
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Procesa textos alfanuméricos en un teclado extendido aplicando las técnicas mecanográficas.
+
+Criterios de evaluación:
+
+a) Se han organizado los elementos y espacios de trabajo.
+
+b) Se ha mantenido la posición corporal correcta.
+
+c) Se ha identificado la posición correcta de los dedos en las filas del teclado alfanumérico.
+
+d) Se han precisado las funciones de puesta en marcha del terminal informático.
+
+e) Se han empleado coordinadamente las líneas del teclado alfanumérico y las teclas de signos y puntuación.
+
+f) Se ha utilizado el método de escritura al tacto en párrafos de dificultad progresiva y en tablas sencillas.
+
+g) Se ha utilizado el método de escritura al tacto para realizar textos en inglés.
+
+h) Se ha controlado la velocidad (mínimo de 200 p.p.m.) y la precisión (máximo una falta por minuto) con la ayuda de un programa informático.
+
+i) Se han aplicado las normas de presentación de los distintos documentos de texto.
+
+j) Se han localizado y corregido los errores mecanográficos.
+
+2. Instala y actualiza aplicaciones informáticas relacionadas con la tarea administrativa razonando los pasos a seguir en el proceso.
+
+Criterios de evaluación:
+
+a) Se han identificado los requisitos mínimos y óptimos para el funcionamiento de la aplicación.
+
+b) Se han identificado y establecido las fases del proceso de instalación y actualización.
+
+c) Se han respetado las especificaciones técnicas del proceso de instalación.
+
+d) Se han configurado las aplicaciones según los criterios establecidos.
+
+e) Se han documentado las incidencias y el resultado final.
+
+f) Se han solucionado problemas en la instalación o integración con el sistema informático.
+
+g) Se han eliminado y/o añadido componentes de la instalación en el equipo.
+
+h) Se han respetado las licencias software.
+
+3. Elabora documentos y plantillas manejando opciones de la hoja de cálculo tipo.
+
+Criterios de evaluación:
+
+a) Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros.
+
+b) Se han aplicado fórmulas y funciones.
+
+c) Se han generado y modificado gráficos de diferentes tipos.
+
+d) Se han empleado macros para la realización de documentos y plantillas.
+
+e) Se han importado y exportado hojas de cálculo creadas con otras aplicaciones y en otros formatos.
+
+f) Se ha utilizado la hoja de cálculo como base de datos: formularios, creación de listas, filtrado, protección y ordenación de datos.
+
+g) Se ha utilizado aplicaciones y periféricos para introducir textos, números, códigos e imágenes.
+
+4. Elabora documentos de textos utilizando las opciones de un procesador de textos tipo.
+
+Criterios de evaluación:
+
+a) Se han utilizado las funciones, prestaciones y procedimientos de los procesadores de textos y autoedición.
+
+b) Se han identificado las características de cada tipo de documento.
+
+c) Se han redactado documentos de texto con la destreza adecuada y aplicando las normas de estructura.
+
+d) Se han confeccionado plantillas adaptadas a los documentos administrativos tipo.
+
+e) Se han integrado objetos, gráficos, tablas y hojas de cálculo, e hipervínculos entre otros.
+
+f) Se han detectado y corregido los errores cometidos.
+
+g) Se ha recuperado y utilizado la información almacenada.
+
+h) Se han utilizado las funciones y utilidades que garanticen las normas de seguridad, integridad y confidencialidad de los datos.
+
+5. Realiza operaciones de manipulación de datos en bases de datos ofimáticas tipo.
+
+Criterios de evaluación:
+
+a) Se han identificado los elementos de las bases de datos relacionales.
+
+b) Se han creado bases de datos ofimáticas.
+
+c) Se han utilizado las tablas de la base de datos (insertar, modificar y eliminar registros).
+
+d) Se han utilizado asistentes en la creación de consultas.
+
+e) Se han utilizado asistentes en la creación de formularios.
+
+f) Se han utilizado asistentes en la creación de informes.
+
+g) Se ha realizado búsqueda y filtrado sobre la información almacenada.
+
+6. Integra imágenes digitales y secuencias de vídeo, utilizando aplicaciones tipo y periféricos en documentos de la empresa.
+
+Criterios de evaluación:
+
+a) Se han analizado los distintos formatos de imágenes.
+
+b) Se ha realizado la adquisición de imágenes con periféricos.
+
+c) Se ha trabajado con imágenes a diferentes resoluciones, según su finalidad.
+
+d) Se han importado y exportado imágenes en diversos formatos.
+
+e) Se han reconocido los elementos que componen una secuencia de video.
+
+f) Se han analizado los tipos de formatos y «codecs» más empleados.
+
+g) Se han importado y exportado secuencias de vídeo.
+
+h) Se han capturado secuencias de vídeo con recursos adecuados.
+
+i) Se han elaborado guías básicas de tratamiento de imágenes y vídeo.
+
+7. Elabora presentaciones multimedia utilizando aplicaciones específicas.
+
+Criterios de evaluación:
+
+a) Se han identificado las opciones básicas de las aplicaciones de presentaciones.
+
+b) Se reconocen los distintos tipos de vista asociados a una presentación.
+
+c) Se han aplicado y reconocido las distintas tipografías y normas básicas de composición, diseño y utilización del color.
+
+d) Se han diseñado plantillas de presentaciones.
+
+e) Se han creado presentaciones.
+
+f) Se han utilizado periféricos para ejecutar presentaciones.
+
+8. Gestiona el correo y la agenda electrónica manejando aplicaciones especificas.
+
+Criterios de evaluación:
+
+a) Se han descrito los elementos que componen un correo electrónico.
+
+b) Se han analizado las necesidades básicas de gestión de correo y agenda electrónica.
+
+c) Se han configurado distintos tipos de cuentas de correo electrónico.
+
+d) Se han conectado y sincronizado agendas del equipo informático con dispositivos móviles.
+
+e) Se ha operado con la libreta de direcciones.
+
+f) Se ha trabajado con todas las opciones de gestión de correo electrónico (etiquetas, filtros, carpetas y otros).
+
+g) Se han utilizado opciones de agenda electrónica.
+
+Duración: 180 horas.
+
+Contenidos básicos
+
+Proceso de textos alfanuméricos en teclados extendidos.
+
+− Postura corporal ante el terminal.
+
+− Composición de un terminal informático.
+
+− Colocación de dedos.
+
+− Desarrollo de la destreza mecanográfica:
+
+• Escritura de palabras simples.
+
+• Escritura de palabras de dificultad progresiva.
+
+• Mayúsculas, numeración y signos de puntuación.
+
+• Copia de textos con velocidad controlada.
+
+• Escritura de textos en inglés.
+
+− Corrección de errores.
+
+Instalación y actualización de aplicaciones:
+
+− Tipos de aplicaciones ofimáticas.
+
+− Tipos de licencias software.
+
+− Necesidades de los entornos de explotación.
+
+− Requerimiento de las aplicaciones.
+
+− Componentes y complementos de las aplicaciones.
+
+− Procedimientos de instalación y configuración.
+
+− Diagnóstico y resolución de problemas.
+
+− Técnicas de asistencia al usuario.
+
+Elaboración de documentos y plantillas mediante hojas de cálculo:
+
+− Estilos.
+
+− Utilización de fórmulas y funciones.
+
+− Creación de tablas y gráficos dinámicos.
+
+− Uso de plantillas y asistentes.
+
+− Importación y exportación de hojas de cálculo.
+
+− Utilización de opciones de trabajo en grupo, control de versiones, verificación de cambios, entre otros.
+
+− Elaboración de distintos tipos de documentos (presupuestos, facturas, inventarios, entre otros).
+
+− Diseño y creación de macros.
+
+Elaboración de documentos y plantillas mediante procesadores de texto:
+
+− Estilos.
+
+− Formularios.
+
+− Combinar documentos.
+
+− Creación y uso de plantillas.
+
+− Importación y exportación de documentos.
+
+− Trabajo en grupo: comparar documentos, versiones de documento, verificar cambios, entre otros.
+
+− Diseño y creación de macros.
+
+− Elaboración de distintos tipos de documentos (manuales y partes de incidencias entre otros).
+
+− Utilización de software y hardware para introducir textos e imágenes.
+
+Utilización de bases de datos ofimáticas:
+
+− Elementos de las bases de datos relacionales.
+
+− Creación de bases de datos.
+
+− Manejo de asistentes.
+
+− Búsqueda y filtrado de la información.
+
+− Diseño y creación de macros.
+
+Integración de imágenes y vídeos en documentos:
+
+− Elaboración de imágenes:
+
+• Formatos y resolución de imágenes.
+
+• Manipulación de selecciones, máscaras y capas.
+
+• Utilización de retoque fotográfico, ajustes de imagen y de color.
+
+• Aplicación de filtros y efectos.
+
+• Importación y exportación de imágenes.
+
+• Utilización de dispositivos para obtener imágenes.
+
+− Manipulación de vídeos:
+
+• Formatos de vídeo. Codecs.
+
+• Manipulación de la línea de tiempo.
+
+• Selección de escenas y transiciones.
+
+• Introducción de títulos y audio.
+
+• Importación y exportación de vídeos.
+
+Elaboración de presentaciones:
+
+− Diseño y edición de diapositivas.
+
+− Formateo de diapositivas, textos y objetos.
+
+− Aplicación de efectos de animación y efectos de transición.
+
+− Aplicación de sonido y vídeo.
+
+− Importación y exportación de presentaciones.
+
+− Utilización de plantillas y asistentes. Patrones de diapositivas.
+
+− Diseño y creación de macros.
+
+− Presentación para el público: conexión a un proyector y configuración.
+
+Gestión de correo y agenda electrónica:
+
+− Tipos de cuentas de correo electrónico.
+
+− Entorno de trabajo: configuración y personalización.
+
+− Plantillas y firmas corporativas.
+
+− Foros de noticias («news»): configuración, uso y sincronización de mensajes.
+
+− La libreta de direcciones: importar, exportar, añadir contactos, crear listas de distribución, poner la lista a disposición de otras aplicaciones ofimáticas.
+
+− Gestión de correos: enviar, borrar, guardar, copias de seguridad, entre otros.
+
+− Gestión de la agenda: citas, calendario, avisos, tareas, entre otros.
+
+− Sincronización con dispositivos móviles.
+
+− Técnicas de asistencia al usuario:
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de aplicaciones informáticas.
+
+La instalación y explotación de aplicaciones incluye aspectos como:
+
+− La búsqueda de software de aplicación adecuado al entorno de explotación.
+
+− La instalación y configuración de aplicaciones ofimáticas.
+
+− La elaboración de documentos y plantillas.
+
+− La resolución de problemas en la explotación de las aplicaciones.
+
+− La asistencia al usuario.
+
+Las actividades profesionales asociadas a esta función se aplican en:
+
+− La instalación, configuración y mantenimiento de aplicaciones informáticas.
+
+− La asistencia en el uso de aplicaciones informáticas.
+
+La formación del módulo contribuye a alcanzar los objetivos generales b), d), e), o), p) y s) del ciclo formativo y las competencias a), b), c), k), m) y q) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− El análisis de los cambios y novedades que se producen en el mercado de aplicaciones informáticas.
+
+− La instalación y actualización de aplicaciones.
+
+− La elaboración de documentos (manuales, informes, partes de incidencia, entre otros).
+
+− La asistencia y resolución de problemas en la explotación de aplicaciones.
+
+Módulo Profesional: Técnica Contable. Código: 0441
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Reconoce los elementos que integran el patrimonio de una organización económica clasificándolos en masas patrimoniales.
+
+Criterios de evaluación:
+
+a) Se han identificado las fases del ciclo económico de la actividad empresarial.
+
+b) Se ha diferenciado entre inversión/financiación, inversión/gasto, gasto/pago e ingreso/cobro.
+
+c) Se han distinguido los distintos sectores económicos basándose en la diversa tipología de actividades que se desarrollan en ellos.
+
+d) Se han definido los conceptos de patrimonio, elemento patrimonial y masa patrimonial.
+
+e) Se han identificado las masas patrimoniales que integran el activo, el pasivo exigible y el patrimonio neto.
+
+f) Se ha relacionado cada masa patrimonial con las fases del ciclo económico de la actividad empresarial.
+
+g) Se han ordenado en masas patrimoniales un conjunto de elementos patrimoniales.
+
+2. Reconoce la metodología contable analizando la terminología y los instrumentos contables utilizados en la empresa.
+
+Criterios de evaluación:
+
+a) Se ha distinguido las fases del ciclo contable completo adaptándolas a la legislación española.
+
+b) Se ha descrito el concepto de cuenta como instrumento para representar los distintos elementos patrimoniales y hechos económicos de la empresa.
+
+c) Se han descrito las características más importantes del método de contabilización por partida doble.
+
+d) Se han reconocido los criterios de cargo y abono como método de registro de las modificaciones del valor de los elementos patrimoniales.
+
+e) Se ha reconocido la importancia del balance de comprobación como instrumento básico para la identificación de errores y omisiones en las anotaciones de las cuentas.
+
+f) Se han diferenciando las cuentas de ingresos y gastos.
+
+g) Se ha definido el concepto de resultado contable.
+
+h) Se han descrito las funciones de los asientos de cierre y apertura.
+
+i) Se ha establecido la función del balance de situación, de las cuentas de pérdidas y ganancias y de la memoria.
+
+3. Identifica el contenido básico del Plan General de Contabilidad PYME (PGC-PYME) interpretando su estructura.
+
+Criterios de evaluación:
+
+a) Se ha relacionado la normativa mercantil con el PGC.
+
+b) Se ha reconocido el PGC como instrumento de armonización contable.
+
+c) Se han identificado las distintas partes del PGC-PYME.
+
+d) Se han identificado los principios contables establecidos en el marco conceptual del plan.
+
+e) Se han diferenciado las partes del PGC-PYME que son obligatorias de las que no lo son.
+
+f) Se ha descrito el sistema de codificación establecido en el PGC-PYME y su función en la asociación y desglose de la información contable.
+
+g) Se han codificado un conjunto de elementos patrimoniales de acuerdo con los criterios del PGC-PYME.
+
+h) Se han identificado las cuentas anuales que establece el PGC-PYME.
+
+i) Se han identificado las cuentas que corresponden a los elementos patrimoniales.
+
+4. Clasifica contablemente hechos económicos básicos, aplicando la metodología contable y los criterios del Plan General de Contabilidad PYME.
+
+Criterios de evaluación:
+
+a) Se han identificado las cuentas patrimoniales que intervienen en las operaciones básicas de las empresas.
+
+b) Se han identificado las cuentas de gestión que intervienen en las operaciones básicas de las empresas.
+
+c) Se han codificado las cuentas conforme al PGC-PYME.
+
+d) Se han determinado qué cuentas se cargan y cuáles se abonan, según el PGC-PYME.
+
+e) Se han efectuado los asientos correspondientes a los hechos contables.
+
+f) Se han realizado las operaciones contables correspondientes a un ejercicio económico básico.
+
+g) Se ha efectuado el procedimiento de acuerdo con los principios de responsabilidad, seguridad y confidencialidad de la información.
+
+5. Realiza operaciones de contabilización mediante del uso aplicaciones informáticas específicas valorando la eficiencia de éstas en la gestión del plan de cuentas.
+
+Criterios de evaluación:
+
+a) Se han realizado las altas y bajas de las cuentas y subcuentas codificadas que proceden de la documentación soporte, siguiendo los procedimientos establecidos.
+
+b) Se han propuesto altas y bajas de códigos y conceptos en asientos predefinidos siguiendo los procedimientos establecidos.
+
+c) Se han introducido conceptos codificados en la aplicación informática siguiendo los procedimientos establecidos.
+
+d) Se han ejecutado las bajas de los conceptos codificados con la autorización correspondiente.
+
+e) Se han introducido los asientos predefinidos en la aplicación informática siguiendo los procedimientos establecidos.
+
+f) Se ha introducido la información que corresponde a cada campo en el asiento de acuerdo con la naturaleza económica de la operación.
+
+g) Se han resuelto los imprevistos que puedan surgir durante la utilización de la aplicación, recurriendo a la ayuda del programa, a la ayuda on-line o al servicio de atención al cliente de la empresa creadora del software.
+
+h) Se ha realizado copia de seguridad de las cuentas, saldos y sus movimientos respectivos, así como de la colección de apuntes predefinidos.
+
+i) Se ha seguido el plan de acción para la custodia en lugar y soporte adecuado y la Gestión Administrativa de la copia de seguridad, en tiempo y con los métodos adecuados.
+
+Duración: 55 horas.
+
+Contenidos básicos
+
+Elementos patrimoniales de las organizaciones económicas:
+
+− La actividad económica y el ciclo económico y la contabilidad.
+
+− El Activo, el Pasivo y el Patrimonio Neto de una empresa.
+
+− El equilibrio patrimonial.
+
+La metodología contable:
+
+− Las operaciones mercantiles desde la perspectiva contable.
+
+− Teoría de las cuentas: tipos de cuentas y método por partida doble.
+
+− Desarrollo del ciclo contable.
+
+El Plan General de Contabilidad PYME:
+
+− Normalización contable. El P.G.C.
+
+− Marco Conceptual del P.G.C.
+
+− Cuentas anuales.
+
+− Cuadro de cuentas.
+
+Contabilización de los hechos económicos básicos de la empresa:
+
+− Compra y venta de mercaderías.
+
+− Otros gastos e ingresos.
+
+− Inmovilizado material y fuentes de financiación.
+
+− Operaciones fin de ejercicio. Cierre contable.
+
+Operaciones de contabilización mediante aplicaciones informáticas específicas:
+
+− Gestión de las partidas contables en una aplicación informática.
+
+− Operaciones de mantenimiento básico de aplicaciones
+
+− Los asientos predefinidos.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de apoyo al área contable de la empresa, que incluye aspectos como:
+
+– Especificación de los elementos patrimoniales.
+
+– Caracterización de la metodología contable.
+
+– Codificación de los elementos patrimoniales en cuentas según el P.G.C.
+
+– Registro de hechos económicos básicos.
+
+– Utilización de aplicación informática específica.
+
+– Actualización del plan contable en la aplicación informática.
+
+– Copias de seguridad.
+
+Las actividades profesionales asociadas a esta función se aplican en:
+
+– El área contable de pequeñas y medianas empresas de cualquier sector de actividad.
+
+La formación del módulo contribuye a alcanzar los objetivos generales b), f), g) h) y q) del ciclo formativo y las competencias profesionales, personales y sociales a), c), d) y r) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+– Clasificación de los elementos patrimoniales.
+
+– Aplicación de normas contables establecidas en el PGC (PYME) y demás legislación mercantil.
+
+– Registro contable de hechos económicos básicos.
+
+– Utilización de Aplicaciones informáticas de contabilidad.
+
+Módulo Profesional: Operaciones Administrativas de Recursos Humanos. Código: 0442
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Realiza la tramitación administrativa de los procesos de captación y selección del personal describiendo la documentación asociada.
+
+Criterios de evaluación:
+
+a) Se han descrito los aspectos principales de la organización de las relaciones laborales.
+
+b) Se han relacionado las funciones y tareas del departamento de recursos humanos, así como las principales políticas de gestión del capital humano de las organizaciones.
+
+c) Se han identificado las técnicas habituales de captación y selección.
+
+d) Se han caracterizado las labores de apoyo en la ejecución de pruebas y entrevistas en un proceso de selección, utilizado los canales convencionales o telemáticos.
+
+e) Se han identificado los recursos necesarios, tiempos y plazos, para realizar un proceso de selección de personal.
+
+f) Se ha recopilado la información de las acciones formativas, junto con los informes cuantitativos –documental e informático– de cada uno de los participantes y elaborado informes apropiados.
+
+g) Se ha mantenido actualizada la información sobre formación, desarrollo y compensación y beneficios, así como de interés general para los empleados en la base de datos creada para este fin.
+
+h) Se ha recopilado la información necesaria para facilitar la adaptación de los trabajadores al nuevo empleo.
+
+i) Se han realizado consultas de las bases de datos con los filtros indicados, elaborando listados e informes sobre diversos datos de gestión de personal.
+
+j) Se han aplicado los criterios, normas y procesos de calidad establecidos, contribuyendo a una gestión eficaz.
+
+2. Realiza la tramitación administrativa de los procesos de formación, desarrollo, compensación y beneficios de los trabajadores reconociendo la documentación que en ella se genera.
+
+Criterios de evaluación:
+
+a) Se han descrito las características de los planes de formación continua así como las de los planes de carrera de los empleados.
+
+b) Se ha preparado la documentación necesaria para una actividad de formación, tal como manuales, listados, horarios y hojas de control.
+
+c) Se han identificado y contactado las entidades de formación más cercanas o importantes, preferentemente por medios telemáticos, para proponer ofertas de formación en un caso empresarial dado.
+
+d) Se han clasificado las principales fuentes de subvención de la formación en función de su cuantía y requisitos.
+
+e) Se han organizado listados de actividades de formación y reciclaje en función de programas subvencionados.
+
+f) Se ha recopilado la información de las acciones formativas, junto con los informes cuantitativos –documental e informático– de cada uno de los participantes.
+
+g) Se ha actualizado la información sobre formación, desarrollo y compensación y beneficios, así como de interés general para los empleados en los canales de comunicación internos.
+
+h) Se han actualizado las bases de datos de gestión de personal.
+
+i) Se han realizado consultas básicas de las bases de datos con los filtros indicados, elaborando listados e informes.
+
+j) Se ha aplicado a su nivel la normativa vigente de protección de datos en cuanto a seguridad, confidencialidad, integridad, mantenimiento y accesibilidad a la información.
+
+3. Confecciona la documentación relativa al proceso de contratación, variaciones de la situación laboral y finalización de contrato, identificando y aplicando la normativa laboral en vigor.
+
+Criterios de evaluación:
+
+a) Se han definido los aspectos más relevantes de las condiciones laborales establecidas en la Constitución, Estatuto de los Trabajadores, Convenios Colectivos y contratos.
+
+b) Se han reconocido las fases del proceso de contratación y los tipos de contratos laborales más habituales según la normativa laboral.
+
+c) Se han cumplimentado los contratos laborales.
+
+d) Se han obtenido documentos oficiales utilizando la página web de los organismos públicos correspondientes.
+
+e) Se han definido los procesos de afiliación y alta en la Seguridad Social.
+
+f) Se han obtenido las tablas, baremos y referencias sobre las condiciones laborales: convenio colectivo, bases y tipos de cotización a la Seguridad Social y retenciones del IRPF.
+
+g) Se han aplicado las normas de cotización de la Seguridad Social referentes a condiciones laborales, plazos de pago y fórmulas de aplazamiento.
+
+h) Se han identificado las causas y procedimientos de modificación, suspensión y extinción del contrato de trabajo según la normativa vigente, así como identificado los elementos básicos del finiquito.
+
+i) Se ha registrado la información generada en los respectivos expedientes de personal.
+
+j) Se han seguido criterios de plazos, confidencialidad, seguridad y diligencia en la gestión y conservación de la información.
+
+4. Elabora la documentación correspondiente al pago de retribuciones del personal, de cotización a la Seguridad Social e impuestos inherentes, reconociendo y aplicando la normativa en vigor.
+
+Criterios de evaluación:
+
+a) Se han identificado los conceptos de retribución y cotización del trabajador y diferenciado los tipos de retribución más comunes.
+
+b) Se ha identificado la estructura básica del salario y los distintos tipos de percepciones salariales, no salariales, las de periodicidad superior al mes y extraordinarias.
+
+c) Se ha calculado el importe las bases de cotización en función de las percepciones salariales y las situaciones más comunes que las modifican.
+
+d) Se han calculado y cumplimentado el recibo de salario y documentos de cotización.
+
+e) Se han tenido en cuenta los plazos establecidos para el pago de cuotas a la Seguridad Social y retenciones, así como las fórmulas de aplazamiento según los casos.
+
+f) Se han obtenido los recibos de salario, documentos de cotización y listados de control.
+
+g) Se han creado los ficheros de remisión electrónica, tanto para entidades financieras como para la administración pública.
+
+h) Se han valorado las consecuencias de no cumplir con los plazos previstos en la presentación de documentación y pago.
+
+i) Se han realizado periódicamente copias de seguridad informáticas para garantizar la conservación de los datos en su integridad.
+
+5. Elabora la documentación relativa a las incidencias derivadas de la actividad laboral de los trabajadores, describiendo y aplicando las normas establecidas.
+
+Criterios de evaluación:
+
+a) Se han determinado los aspectos básicos de las relaciones laborales en cuanto a sus comunicaciones internas.
+
+b) Se han elaborado los formularios de recogida de datos sobre el control presencial, incapacidad temporal, permisos, vacaciones y similares.
+
+c) Se han realizado cálculos y estadísticas sobre los datos anteriores, utilizado hojas de cálculo y formatos de gráficos.
+
+d) Se han elaborado informes básicos del control de presencia, utilizando aplicaciones de proceso de texto y presentaciones.
+
+e) Se ha realizado el seguimiento de control de presencia para conseguir la eficiencia de la empresa.
+
+f) Se han realizado periódicamente copias de seguridad periódicas de las bases de datos de empleados.
+
+6. Aplica procedimientos de calidad, prevención de riegos laborales y protección ambiental en las operaciones administrativas de recursos humanos reconociendo su incidencia en un sistema integrado de gestión administrativa.
+
+Criterios de evaluación:
+
+a) Se han diferenciado los principios básicos de un modelo de gestión de calidad.
+
+b) Se ha valorado la integración de los procesos de recursos humanos con otros procesos administrativos de la empresa.
+
+c) Se han aplicado las normas de prevención de riesgos laborales en el sector.
+
+d) Se han aplicado los procesos para minimizar el impacto ambiental de su actividad.
+
+e) Se ha aplicado en la elaboración y conservación de la documentación las técnicas 3R –Reducir, Reutilizar, Reciclar.
+
+Duración: 70 horas.
+
+Contenidos básicos
+
+Tramitación administrativa de los procesos de captación y selección de personal:
+
+− Fuentes de la normativa laboral.
+
+− Funciones del departamento de recursos humanos.
+
+− Políticas de gestión del capital humano en la empresa.
+
+− Las fuentes de reclutamiento: externas e internas.
+
+− Métodos de selección de personal: pruebas de selección, la entrevista, dinámica de grupos, centros de evaluación.
+
+− Adaptación al nuevo empleo.
+
+Tramitación administrativa de la formación, desarrollo y compensación del personal:
+
+− Políticas y procedimientos administrativos relacionados con la motivación y la formación.
+
+− Principales técnicas de formación empresarial.
+
+− Entidades de formación.
+
+− Control de las compensaciones, los incentivos y los beneficios del personal.
+
+Confección de la documentación del contrato de trabajo, modificaciones y extinción del mismo:
+
+− Forma del contrato.
+
+− Modalidades de contratación.
+
+− Jornada de trabajo, calendario laboral.
+
+− Proceso y procedimiento de contratación laboral.
+
+− Documentación y formalización del contrato de trabajo.
+
+− Suspensión y extinción del contrato de trabajo.
+
+− El finiquito.
+
+Elaboración de la documentación correspondiente al pago del salario y obligaciones inherentes:
+
+− Regímenes del sistema de la Seguridad Social.
+
+− Obligaciones del empresario con la Seguridad Social.
+
+− Confección del recibo de Salarios:
+
+− Cotizaciones a la Seguridad Social.
+
+− Tipos y bases de cotización.
+
+Elaboración de la documentación relativa a las Incidencias en la relación laboral:
+
+− Control horario.
+
+− Absentismo.
+
+− Gestión de situaciones especiales: incapacidad laboral, excedencias, permisos, viajes.
+
+Aplicación de procedimientos de calidad de gestión integral de los recursos humanos:
+
+− Prevención de riesgos laborales: salud, daño, riesgo.
+
+− Fundamentos y principios básicos de un modelo de Calidad Total en RR.HH.
+
+− Normativa de protección de datos de carácter personal y confidencialidad.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de apoyo administrativo a las tareas que lleva a cabo el departamento de recursos humanos.
+
+La función de apoyo administrativo incluye aspectos como:
+
+− Apoyo administrativo y elaboración de la documentación relativa a la selección de los trabajadores.
+
+− Apoyo administrativo y elaboración de la documentación que se genera en la formación de los recursos humanos.
+
+− Apoyo administrativo y elaboración de documentación y comunicaciones internas del departamento.
+
+− Apoyo administrativo y elaboración de documentación respecto a los sistemas de motivación.
+
+− Gestión de la documentación relativa a la contratación y remuneración del trabajador.
+
+− Gestión documental generada en la aplicación de la normativa de protección de datos, protección de riesgos laborales y aplicación de los procedimientos de calidad.
+
+Las actividades profesionales asociadas a esta función se aplican en tareas de:
+
+− Apoyo administrativo a las diferentes tareas que desarrolla el departamento o sección de recursos humanos de cualquier tipo de empresa o entidad, con independencia de su actividad económica.
+
+La formación del módulo contribuye a alcanzar los objetivos generales e), k), l), r) y t) del ciclo formativo y las competencias profesionales, personales y sociales a), b), f), g), n), o), p) y r) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− Identificación y gestión de la documentación relativa a los procesos de selección, formación, motivación, comunicación interna y organización y control de incidencias de los recursos humanos.
+
+− Identificación de la normativa laboral que afecta a los trabajadores, el manejo de los contratos más comúnmente utilizados y lectura comprensiva de los convenios colectivos de aplicación.
+
+− La cumplimentación de recibos de salario de diferentes características y otros documentos de cotización.
+
+− Revisión de las páginas webs de los diferentes organismos relacionados con la gestión del personal y gestión telemática de la documentación generada.
+
+− El análisis y aplicación de la ley de Protección de datos de carácter personal a los trabajadores de una empresa.
+
+Módulo Profesional: Tratamiento de la Documentación Contable. Código: 0443
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Prepara la documentación soporte de los hechos contables interpretando la información que contiene.
+
+Criterios de evaluación:
+
+a) Se han identificado los diferentes tipos de documentos soporte que son objeto de registro contable.
+
+b) Se ha comprobado que la documentación soporte recibida contiene todos los registros de control interno establecidos –firma, autorizaciones u otros– para su registro contable.
+
+c) Se han efectuado propuestas para la subsanación de errores.
+
+d) Se ha clasificado la documentación soporte de acuerdo a criterios previamente establecidos.
+
+e) Se ha efectuado el procedimiento de acuerdo con los principios de seguridad y confidencialidad de la información.
+
+f) Se ha archivado la documentación soporte de los asientos siguiendo procedimientos establecidos.
+
+g) Se ha mantenido un espacio de trabajo con el grado apropiado de orden y limpieza.
+
+2. Registra contablemente hechos económicos habituales reconociendo y aplicando la metodología contable y los criterios del Plan General de Contabilidad PYME.
+
+Criterios de evaluación:
+
+a) Se han identificado las cuentas que intervienen en las operaciones más habituales de las empresas.
+
+b) Se han codificado las cuentas conforme al PGC.
+
+c) Se han determinado qué cuentas se cargan y cuáles se abonan, según el PGC.
+
+d) Se han efectuado los asientos correspondientes a los hechos contables más habituales.
+
+e) Se han cumplimentado los distintos campos del libro de bienes de inversión por medios manuales y/o informáticos.
+
+f) Se han contabilizado las operaciones relativas a la liquidación de IVA.
+
+g) Se han realizado las copias de seguridad según el protocolo establecido para salvaguardar los datos registrados.
+
+h) Se ha efectuado el procedimiento de acuerdo con los principios de responsabilidad, seguridad y confidencialidad de la información.
+
+3. Contabiliza operaciones económicas habituales correspondientes a un ejercicio económico completo, reconociendo y aplicando la metodología contable y los criterios del Plan de Contabilidad.
+
+Criterios de evaluación:
+
+a) Se han identificado los hechos económicos que originan una anotación contable.
+
+b) Se ha introducido correctamente la información derivada de cada hecho económico en la aplicación informática de forma cronológica.
+
+c) Se han obtenido periódicamente los balances de comprobación de sumas y saldos.
+
+d) Se han calculado las operaciones derivadas de los registros contables que se ha de realizar antes del cierre del ejercicio económico.
+
+e) Se ha introducido correctamente en la aplicación informática las amortizaciones correspondientes, las correcciones de valor reversibles y la regularización contable que corresponde a un ejercicio económico concreto.
+
+f) Se ha obtenido con medios informáticos el cálculo del resultado contable y el balance de situación final.
+
+g) Se ha preparado la información económica relevante para elaborar la memoria de la empresa para un ejercicio económico concreto.
+
+h) Se ha elaborado la memoria de la empresa para un ejercicio económico concreto.
+
+i) Se ha verificado el funcionamiento del proceso, contrastando los resultados con los datos introducidos.
+
+4. Comprueba las cuentas relacionando cada registro contable con los datos de los documentos soporte.
+
+a) Se han verificado los saldos de las cuentas deudoras y acreedoras de las administraciones públicas con la documentación laboral y fiscal.
+
+b) Se han cotejado periódicamente los saldos de los préstamos y créditos con la documentación soporte.
+
+c) Se han circularizado los saldos de clientes y proveedores de acuerdo a las normas internas recibidas.
+
+d) Se han comprobado los saldos de la amortización acumulada de los elementos del inmovilizado acorde con el manual de procedimiento.
+
+e) Se han efectuado los punteos de las diversas partidas o asientos para efectuar las comprobaciones de movimientos o la integración de partidas.
+
+f) Se han efectuado las correcciones adecuadas a través de la conciliación bancaria para que, tanto los libros contables como el saldo de las cuentas, reflejen las mismas cantidades.
+
+g) Se ha comprobado el saldo de las cuentas como paso previo al inicio de las operaciones de cierre del ejercicio.
+
+h) Se han comunicado los errores detectados según el procedimiento establecido.
+
+i) Se han utilizado aplicaciones informáticas para la comprobación de los registros contables.
+
+j) Se ha efectuado el procedimiento de acuerdo con los principios de seguridad y confidencialidad de la información.
+
+Duración: 60 horas.
+
+Contenidos básicos
+
+Preparación de documentación soporte de hechos económicos:
+
+– La documentación mercantil y contable.
+
+– Interpretación contable de los documentos justificantes de la información contable.
+
+– Documentos-justificantes mercantiles tipo.
+
+– Organización y archivo de los documentos mercantiles para los fines de la contabilidad.
+
+Registro contable de hechos económicos habituales:
+
+– Operaciones relacionadas con compras y ventas.
+
+– Gastos e ingresos.
+
+– Inmovilizado Material.
+
+– Liquidación de IVA.
+
+– Cálculo del resultado.
+
+– Registro contable informático de los hechos económicos habituales.
+
+Contabilización de operaciones de un ejercicio económico completo:
+
+– Asiento de apertura.
+
+– Registro contable de operaciones diarias.
+
+– Balance de comprobación de sumas y saldos.
+
+– Cuenta de Pérdidas y ganancias.
+
+– Balance de situación final.
+
+– Asiento de cierre.
+
+Comprobación de cuentas:
+
+– La comprobación de los registros contables.
+
+– La conciliación bancaria.
+
+– La comprobación en las aplicaciones informáticas.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de registro contable.
+
+La función de registro contable incluye aspectos como:
+
+– Preparación y registro de documentos soporte.
+
+– Registro de hechos contables habituales.
+
+– Utilización de aplicaciones informáticas específicas.
+
+– Aplicación de la normativa contable.
+
+– Operaciones de apertura y cierre contable.
+
+– Comprobación y verificación de la contabilidad.
+
+Las actividades profesionales asociadas a esta función se aplican en las tareas de apoyo del área contable de pequeñas y medianas empresas de cualquier sector de actividad.
+
+La formación del módulo contribuye a alcanzar los objetivos generales b), f), g), h) y p) del ciclo formativo y las competencias profesionales, personales y sociales a), c), d) y r) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− Interpretación y registro contable de documentos soporte.
+
+− Registro contable de hechos económicos habituales.
+
+− Contabilización de las operaciones derivadas de un ejercicio económico completo.
+
+− Obtención del resultado del ejercicio y cuentas anuales.
+
+− Utilización de la aplicación informática contable.
+
+− Control y verificación de registros contables con los documentos soporte.
+
+Módulo Profesional: Inglés. Código: 0444
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Reconoce información profesional y cotidiana contenida en discursos orales emitidos en lengua estándar, analizando el contenido global del mensaje y relacionándolo con los recursos lingüísticos correspondientes.
+
+Criterios de evaluación:
+
+a) Se ha situado el mensaje en su contexto.
+
+b) Se ha identificado la idea principal del mensaje.
+
+c) Se ha reconocido la finalidad del mensaje directo, telefónico o por otro medio auditivo.
+
+d) Se ha extraído información específica en mensajes relacionados con aspectos cotidianos de la vida profesional y cotidiana.
+
+e) Se han secuenciado los elementos constituyentes del mensaje.
+
+f) Se han identificado y resumido con claridad las ideas principales de un discurso sobre temas conocidos, transmitido por los medios de comunicación y emitido en lengua estándar.
+
+g) Se han reconocido las instrucciones orales y se han seguido las indicaciones.
+
+h) Se ha tomado conciencia de la importancia de comprender globalmente un mensaje, sin entender todos y cada uno de los elementos del mismo.
+
+2. Interpreta información profesional contenida en textos escritos sencillos, analizando de forma comprensiva sus contenidos.
+
+Criterios de evaluación:
+
+a) Se han seleccionado los materiales de consulta y diccionarios técnicos.
+
+b) Se han leído de forma comprensiva textos claros en lengua estándar.
+
+c) Se ha interpretado el contenido global del mensaje.
+
+d) Se ha relacionado el texto con el ámbito del sector a que se refiere.
+
+e) Se ha identificado la terminología utilizada.
+
+f) Se han realizado traducciones de textos en lengua estándar utilizando material de apoyo en caso necesario.
+
+g) Se ha interpretado el mensaje recibido a través de soportes telemáticos: e-mail, fax, entre otros.
+
+3. Emite mensajes orales claros estructurados, participando como agente activo en conversaciones profesionales.
+
+Criterios de evaluación:
+
+a) Se han identificado los registros utilizados para la emisión del mensaje.
+
+b) Se ha comunicado utilizando fórmulas, nexos de unión y estrategias de interacción.
+
+c) Se han utilizado normas de protocolo en presentaciones.
+
+d) Se han descrito hechos breves e imprevistos relacionados con su profesión.
+
+e) Se ha utilizado correctamente la terminología de la profesión.
+
+f) Se han expresado sentimientos, ideas u opiniones.
+
+g) Se han enumerado las actividades de la tarea profesional.
+
+h) Se ha descrito y secuenciado un proceso de trabajo de su competencia.
+
+i) Se ha justificado la aceptación o no de propuestas realizadas.
+
+j) Se ha argumentado la elección de una determinada opción o procedimiento de trabajo elegido.
+
+k) Se ha solicitado la reformulación del discurso o parte del mismo cuando se ha considerado necesario.
+
+4. Elabora textos sencillos relacionando reglas gramaticales con el propósito de los mismos.
+
+Criterios de evaluación:
+
+a) Se han redactado textos breves relacionados con aspectos cotidianos y/ o profesionales.
+
+b) Se ha organizado la información de manera coherente y cohesionada.
+
+c) Se han realizado resúmenes de textos relacionados con su entorno profesional.
+
+d) Se ha cumplimentado documentación específica de su campo profesional.
+
+e) Se han aplicado las fórmulas establecidas y el vocabulario específico en la cumplimentación de documentos.
+
+f) Se han resumido las ideas principales de informaciones dadas, utilizando sus propios recursos lingüísticos.
+
+g) Se han utilizado las fórmulas de cortesía propias del documento que se va a elaborar.
+
+5. Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas características del país de la lengua extranjera.
+
+Criterios de evaluación:
+
+a) Se han definido los rasgos más significativos de las costumbres y usos de la comunidad donde se habla la lengua extranjera.
+
+b) Se han descrito los protocolos y normas de relación social propios del país.
+
+c) Se han identificado los valores y creencias propios de la comunidad donde se habla la lengua extranjera.
+
+d) Se han identificado los aspectos socio-profesionales propios del sector en cualquier tipo de texto.
+
+e) Se han aplicado los protocolos y normas de relación social propios del país de la lengua extranjera.
+
+Duración: 50 horas.
+
+Contenidos básicos
+
+Análisis de mensajes orales:
+
+– Comprensión de mensajes profesionales y cotidianos:
+
+• Mensajes directos, telefónicos, grabados.
+
+• Terminología específica del sector de la administración.
+
+• Ideas principales y secundarias.
+
+• Recursos gramaticales: tiempos verbales, preposiciones, locuciones, expresión de la condición y duda, uso de la voz pasiva, oraciones de relativo, estilo indirecto,
+
+• Otros recursos lingüísticos: gustos y preferencias, sugerencias, argumentaciones, instrucciones.
+
+• Diferentes acentos de lengua oral.
+
+Interpretación de mensajes escritos:
+
+– Comprensión de mensajes, textos, artículos básicos profesionales y cotidianos:
+
+• Soportes telemáticos: fax, e-mail, burofax.
+
+• Terminología específica del sector de la administración.
+
+• Idea principal e ideas secundarias.
+
+• Recursos gramaticales: tiempos verbales, preposiciones, uso de la voz pasiva, oraciones de relativo, estilo indirecto.
+
+– Relaciones lógicas: oposición, concesión, comparación, condición, causa, finalidad, resultado.
+
+– Relaciones temporales: anterioridad, posterioridad, simultaneidad.
+
+Producción de mensajes orales:
+
+– Registros utilizados en la emisión de mensajes orales.
+
+– Terminología específica del sector de la administración.
+
+– Recursos gramaticales: tiempos verbales, preposiciones, locuciones, expresión de la condición y duda, uso de la voz pasiva, oraciones de relativo, estilo indirecto.
+
+– Otros recursos lingüísticos. Gustos y preferencias, sugerencias, argumentaciones, instrucciones.
+
+– Fonética. Sonidos y fonemas vocálicos y sus combinaciones y sonidos y fonemas consonánticos y sus agrupaciones.
+
+– Marcadores lingüísticos de relaciones sociales, normas de cortesía y diferencias de registro.
+
+– Mantenimiento y seguimiento del discurso oral:
+
+• Toma, mantenimiento y cesión del turno de palabra.
+
+• Apoyo, demostración de entendimiento, petición de aclaración, etc.
+
+• Entonación como recurso de cohesión del texto oral: uso de los patrones de entonación.
+
+Emisión de textos escritos:
+
+– Expresión y cumplimentación de mensajes y textos profesionales y cotidianos.
+
+• Currículo vitae y soportes telemáticos: fax, e-mail, burofax.
+
+• Terminología específica del sector de la restauración.
+
+• Idea principal e ideas secundarias.
+
+• Recursos gramaticales: tiempos verbales, preposiciones, locuciones, uso de la voz pasiva, oraciones de relativo, estilo indirecto.
+
+– Relaciones lógicas: oposición, concesión, comparación, condición, causa, finalidad, resultado.
+
+– Relaciones temporales: anterioridad, posterioridad, simultaneidad.
+
+– Coherencia textual:
+
+• Adecuación del texto al contexto comunicativo.
+
+• Tipo y formato de texto.
+
+• Variedad de lengua. Registro.
+
+• Selección léxica, de estructuras sintácticas y de contenido relevante.
+
+• Inicio del discurso e introducción del tema. Desarrollo y expansión:
+
+◦ Ejemplificación.
+
+◦ Conclusión y/ o resumen del discurso.
+
+• Uso de los signos de puntuación.
+
+Identificación e interpretación de los elementos culturales más significativos de los países de lengua extranjera (inglesa):
+
+– Valoración de las normas socioculturales y protocolarias en las relaciones internacionales.
+
+– Uso de los recursos formales y funcionales en situaciones que requieren un comportamiento socioprofesional con el fin de proyectar una buena imagen de la empresa.
+
+Orientaciones pedagógicas
+
+Este módulo contiene la formación necesaria para el desempeño de actividades relacionadas con las funciones de atención al cliente, información y asesoramiento, desarrollo y seguimiento de normas de protocolo y cumplimiento de procesos y protocolos de calidad; todo ello, en Inglés.
+
+Realizar en inglés la atención al cliente, la información y asesoramiento, el desarrollo y seguimiento de normas de protocolo y el cumplimiento de procesos y protocolos de calidad incluye aspectos como:
+
+– El uso y aplicación de las diversas técnicas de comunicación para informar y asesorar al cliente durante los procesos de servicio.
+
+– La aplicación del protocolo institucional en la organización de actos que lo requieran.
+
+– El desarrollo y formalización de procesos y protocolos de calidad asociados a las actividades de la tarea administrativa.
+
+Las actividades profesionales asociadas a estas funciones, se aplican fundamentalmente en los procesos de gestión administrativa de comunicaciones y documentos de muy diversa índole así como en el trato y atención a los clientes.
+
+La formación del módulo contribuye a alcanzar los objetivos generales a), b), c), ñ) y r) del ciclo formativo, y las competencias personales, profesionales y sociales a), b), m), p), q) y r) del título.
+
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo, versarán sobre:
+
+– La descripción, análisis y aplicación de los procesos de comunicación y las técnicas de protocolo y atención al cliente, tanto presenciales como a distancia, utilizando el inglés.
+
+– La caracterización de los documentos de carácter administrativo y de toda índole (financieros, fiscales, de recursos humanos o comerciales) en inglés.
+
+– Los procesos de calidad en la empresa, su evaluación y la identificación y formalización de documentos asociados a la prestación de servicios en inglés.
+
+– La identificación, análisis y procedimientos de actuación ante quejas o reclamaciones de los clientes en inglés.
+
+Módulo Profesional: Empresa en el aula. Equivalencia en créditos ECTS. Código: 0446
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Identifica las características del proyecto de empresa creada en el aula tomando parte en la actividad que esta desarrolla.
+
+Criterios de evaluación:
+
+a) Se han identificado las características internas y externas de la empresa creada en el aula.
+
+b) Se han identificado los elementos que constituyen la red logística de la empresa creada: proveedores, clientes, sistemas de producción y/o comercialización, almacenaje, y otros.
+
+c) Se han identificado los procedimientos de trabajo en el desarrollo del proceso productivo o comercial.
+
+d) Se han relacionado características del mercado, tipo de clientes y proveedores y su posible influencia en el desarrollo de la actividad empresarial.
+
+e) Se ha valorado la polivalencia de los puestos de trabajo administrativos en el desarrollo de la actividad de la empresa.
+
+f) Se ha integrado en la empresa creada en el aula, describiendo su relación con el sector, su estructura organizativa y las funciones de cada departamento.
+
+2. Transmite información entre las distintas áreas y a clientes internos y externos de la empresa creada en el aula reconociendo y aplicando técnicas de comunicación.
+
+Criterios de evaluación:
+
+a) Se han utilizado la forma y técnicas adecuadas en la atención y asesoramiento a clientes internos y externos con la empresa.
+
+b) Se ha mantenido una actitud correcta en la atención y asesoramiento a clientes internos y externos con la empresa.
+
+c) Se ha transmitido la información de forma clara y precisa.
+
+d) Se ha utilizado el tratamiento protocolario adecuado.
+
+e) Se han identificado emisor y receptor en una conversación telefónica o presencial.
+
+f) Se ha identificado al remitente y destinatario en comunicaciones escritas recibidas.
+
+g) Se ha registrado la información relativa a las consultas realizadas en la herramienta de gestión de la relación con el cliente.
+
+h) Se han aplicado técnicas de negociación básicas con clientes y proveedores.
+
+3. Organiza información explicando los diferentes métodos manuales y sistemas informáticos previstos.
+
+Criterios de evaluación:
+
+a) Se han aplicado procedimientos adecuados para la obtención de información necesaria en la gestión de control de calidad del servicio prestado.
+
+b) Se ha tramitado correctamente la información ante la persona o departamento de la empresa que corresponda.
+
+c) Se han aplicado las técnicas de organización de la información.
+
+d) Se ha analizado y sintetizado la información suministrada.
+
+e) Se ha manejado como usuario la aplicación informática de control y seguimiento de clientes, proveedores y otros.
+
+f) Se han aplicado las técnicas de archivo manuales e informáticas predecididas.
+
+4. Elabora documentación administrativa, distinguiendo y aplicando las tareas administrativas de cada uno de los departamentos de la empresa.
+
+Criterios de evaluación:
+
+a) Se han ejecutado las tareas administrativas del área de aprovisionamiento de la empresa.
+
+b) Se han ejecutado las tareas administrativas del área comercial de la empresa.
+
+c) Se han ejecutado las tareas administrativas del área de recursos humanos de la empresa.
+
+d) Se han ejecutado las tareas administrativas del área de contabilidad de la empresa.
+
+e) Se han ejecutado las tareas administrativas del área financiera de la empresa.
+
+f) Se han ejecutado las tareas administrativas del área fiscal de la empresa.
+
+g) Se ha aplicado la normativa vigente.
+
+5. Realiza las actividades derivadas de la política comercial, identificando las funciones del departamento de ventas y compras.
+
+Criterios de evaluación:
+
+a) Se ha elaborado y/o actualizado el catálogo de productos de la empresa.
+
+b) Se ha manejado la base de datos de proveedores, comparando ofertas y estableciendo negociaciones de condiciones de compras.
+
+c) Se han elaborado y/o actualizado las fichas de los clientes.
+
+d) Se han elaborado listas de precios.
+
+e) Se han confeccionado ofertas.
+
+f) Se han identificado los canales de comercialización más frecuentes en la actividad específica.
+
+6. Atiende incidencias identificando criterios y procedimientos de resolución de problemas y reclamaciones.
+
+Criterios de evaluación:
+
+a) Se han identificado la naturaleza y el origen de los problemas y reclamaciones.
+
+b) Se ha identificado la documentación que se utiliza para recoger una reclamación.
+
+c) Se han aplicado técnicas de comportamiento asertivo, resolutivo y positivo.
+
+d) Se han buscado y propuesto soluciones a la resolución de los problemas.
+
+e) Se ha seguido el proceso establecido para una reclamación.
+
+f) Se ha verificado que el proceso de reclamación se ha seguido íntegramente.
+
+7. Trabaja en equipo reconociendo y valorando las diferentes aportaciones de cada uno de los miembros del grupo.
+
+Criterios de evaluación:
+
+a) Se ha mantenido una actitud de respeto al profesor-gerente y a los compañeros.
+
+b) Se han cumplido las órdenes recibidas.
+
+c) Se ha mantenido una comunicación fluida con los compañeros.
+
+d) Se han expuesto opiniones y puntos de vista ante una tarea.
+
+e) Se ha valorado la organización de la propia tarea.
+
+f) Se ha complementado el trabajo entre los compañeros.
+
+g) Se ha transmitido la imagen de la empresa.
+
+h) Se ha realizado cada tarea con rigurosidad y corrección para obtener un resultado global satisfactorio
+
+i) Se han respetado las normas establecidas y la cultura empresarial.
+
+j) Se ha mantenido una actitud proactiva, participando en el grupo y desarrollando iniciativa emprendedora.
+
+Duración: 90 horas.
+
+Contenidos básicos
+
+Características del proyecto de la empresa en el aula:
+
+– Actividad, estructura y organización de la empresa en el aula.
+
+– Definición de puestos y tareas.
+
+– Proceso de acogida e integración.
+
+Trasmisión de la información en la empresa en el aula:
+
+– Atención a clientes.
+
+– Comunicación con proveedores y empleados.
+
+– La escucha. Técnicas de recepción de mensajes orales.
+
+– La comunicación telefónica.
+
+– La comunicación escrita.
+
+– Las comunicaciones a través de Internet: el correo electrónico.
+
+Organización de la información en la empresa en el aula:
+
+– Acceso a la información.
+
+– Sistemas de gestión y tratamiento de la información.
+
+– Archivo y registro.
+
+– Técnicas de organización de la información.
+
+Elaboración de la documentación administrativa de la empresa en el aula:
+
+– Documentos relacionados con el área de aprovisionamiento.
+
+– Documentos relacionados con el área comercial.
+
+– Documentos relacionados con el área laboral.
+
+– Documentos relacionados con el área financiera.
+
+– Documentos relacionados con el área fiscal.
+
+– Documentos relacionados con el área contable.
+
+– Aplicaciones informáticas específicas.
+
+– Gestión de los documentos en un sistema de red informática.
+
+Actividades de política comercial de la empresa en el aula:
+
+– Producto y cartera de productos.
+
+– Publicidad y promoción.
+
+– Cartera de clientes.
+
+– Venta. Organización de la venta.
+
+– Técnicas de venta.
+
+Atención de incidencias y resolución de problemas en la empresa en el aula:
+
+– Resolución de conflictos.
+
+– Resolución de reclamaciones.
+
+– Procedimientos de recogidas de reclamaciones y quejas.
+
+– Seguimiento post-venta. Procedimientos utilizados y servicios ofrecidos.
+
+El trabajo en equipo en la empresa en el aula:
+
+– Equipos y grupos de trabajo.
+
+– Integración y puesta en marcha de los equipos en la empresa.
+
+– Objetivos, proyectos y plazos.
+
+– La planificación.
+
+– Toma de decisiones.
+
+– Ineficiencias y conflictos.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar las funciones que realiza un auxiliar administrativo de manera integrada y en un contexto real, además de algunas funciones propias del área comercial de la empresa. Se pretende que el alumno aplique en este módulo todos los conocimientos, procedimientos y aptitudes adquiridos a lo largo de su proceso de aprendizaje y realice los trabajos de apoyo administrativo en cada una de las áreas funcionales de la empresa creada para este propósito.
+
+Incluye aspectos como:
+
+− Apoyo administrativo en el área de aprovisionamiento de la empresa.
+
+− Apoyo administrativo en el área de recursos humanos de la empresa.
+
+− Apoyo administrativo en el área contable de la empresa.
+
+− Apoyo administrativo en el área fiscal de la empresa.
+
+− Apoyo administrativo en el área financiera de la empresa.
+
+− Atención al cliente.
+
+− Venta.
+
+− Trabajo en equipo.
+
+Las actividades profesionales asociadas a esta función se aplican en la gestión de una pequeña y mediana empresa de cualquier sector de actividad.
+
+La formación del módulo contribuye a alcanzar los todos los objetivos generales del ciclo formativo y todas las competencias del título.
+
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− División del grupo de alumnos en departamentos de una empresa, donde se desempeñen las tareas propias de un auxiliar administrativo en una empresa real, pasando a ser empleados de la misma.
+
+− Utilización de los mismos documentos y canales de comunicación que las empresas utilizan en la realidad.
+
+− Trabajo cooperativo, donde todos los alumnos realicen funciones en todos los departamentos, mediante un sistema de rotación de puestos de trabajo.
+
+− Utilización de un sistema informático en red que posibilite la realización de gestiones con los organismos públicos y entidades externas en escenarios lo más parecidos a situaciones reales.
+
+− Utilización de un sistema informático en red que posibilite la comunicación y relaciones comerciales con otras empresas de aula.
+
+Módulo Profesional: Operaciones Auxiliares de Gestión de Tesorería. Código: 0448
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Aplica métodos de control de tesorería describiendo las fases del mismo.
+
+Criterios de evaluación:
+
+a) Se ha descrito la función y los métodos del control de la tesorería en la empresa.
+
+b) Se ha diferenciado los flujos de entrada y salida de tesorería: cobros y pagos y la documentación relacionada con éstos.
+
+c) Se han cumplimentado los distintos libros y registros de tesorería.
+
+d) Se han ejecutado las operaciones del proceso de arqueo y cuadre de la caja y detectado las desviaciones.
+
+e) Se ha cotejado la información de los extractos bancarios con el libro de registro del banco.
+
+f) Se han descrito las utilidades de un calendario de vencimientos en términos de previsión financiera.
+
+g) Se ha relacionado el servicio de tesorería y el resto de departamentos, empresas y entidades externas.
+
+h) Se han utilizado medios telemáticos, de administración electrónica y otros sustitutivos de la presentación física de los documentos.
+
+i) Se han efectuado los procedimientos de acuerdo con los principios de responsabilidad, seguridad y confidencialidad de la información.
+
+2. Realiza los trámites de contratación, renovación y cancelación correspondientes a instrumentos financieros básicos de financiación, inversión y servicios de esta índole que se utilizan en la empresa, describiendo la finalidad de cada uno ellos.
+
+Criterios de evaluación:
+
+a) Se han clasificado las organizaciones, entidades y tipos de empresas que operan en el Sistema Financiero Español.
+
+b) Se han precisado las instituciones financieras bancarias y no bancarias y descrito sus principales características.
+
+c) Se han diferenciado los distintos mercados dentro del sistema financiero español relacionándolos con los diferentes productos financieros que se emplean habitualmente en la empresa.
+
+d) Se han relacionado las funciones principales de cada uno de los intermediarios financieros.
+
+e) Se han diferenciado los principales instrumentos financieros bancarios y no bancarios y descrito sus características.
+
+f) Se han clasificado los tipos de seguros de la empresa y los elementos que conforman un contrato de seguro.
+
+g) Se han identificado los servicios básicos que nos ofrecen los intermediarios financieros bancarios y los documentos necesarios para su contratación.
+
+h) Se ha calculado la rentabilidad y coste financiero de algunos instrumentos financieros de inversión.
+
+i) Se han operado medios telemáticos de banca on-line y afines.
+
+j) Se han cumplimentado diversos documentos relacionados con la contratación, renovación y cancelación de productos financieros habituales en la empresa.
+
+3. Efectúa cálculos financieros básicos identificando y aplicando las leyes financieras correspondientes.
+
+Criterios de evaluación:
+
+a) Se ha diferenciado entre las leyes financieras de capitalización simple y actualización simple.
+
+b) Se ha calculado el interés simple y compuesto de diversos instrumentos financieros.
+
+c) Se ha calculado el descuento simple de diversos instrumentos financieros.
+
+d) Se han descrito las implicaciones que tienen el tiempo y el tipo de interés en este tipo de operaciones.
+
+e) Se han diferenciado los conceptos del tanto nominal e interés efectivo o tasa anual equivalente.
+
+f) Se han diferenciado las características de los distintos tipos de comisiones de los productos financieros más habituales en la empresa.
+
+g) Se han identificado los servicios básicos que ofrecen los intermediarios financieros bancarios y los documentos necesarios para su contratación.
+
+4. Efectúa las operaciones bancarias básicas interpretando la documentación asociada.
+
+Criterios de evaluación:
+
+a) Se han liquidado una cuenta bancaria y una de crédito por los métodos más habituales.
+
+b) Se ha calculado el líquido de una negociación de efectos.
+
+c) Se han diferenciado las variables que intervienen en las operaciones de préstamos.
+
+d) Se han relacionado los conceptos integrantes de la cuota del préstamo.
+
+e) Se han descrito las características del sistema de amortización de préstamos por los métodos más habituales.
+
+f) Se ha calculado el cuadro de amortización de préstamos sencillos por los métodos más habituales.
+
+g) Se han relacionado las operaciones financieras bancarias con la capitalización simple, compuesta y el descuento simple.
+
+h) Se han comparado productos financieros bajo las variables coste/rentabilidad.
+
+i) Se han utilizado herramientas informáticas específicas del sistema operativo bancario.
+
+Duración: 85 horas.
+
+Contenidos básicos
+
+Aplicación de métodos de control de tesorería:
+
+− Métodos del control de gestión de tesorería. Finalidad. Características.
+
+− Medios de cobro y pago de la empresa.
+
+− Libros de registros de tesorería.
+
+− Control de caja y banco.
+
+− Aplicaciones informáticas de gestión de tesorería.
+
+Tramite de instrumentos financieros básicos de financiación, inversión y servicios:
+
+− Instituciones financieras bancarias y no bancarias.
+
+− Mercados financieros.
+
+− Instrumentos financieros bancarios de financiación, inversión y servicios.
+
+− Instrumentos financieros no bancarios de financiación, inversión y servicios.
+
+− Otros instrumentos de financiación.
+
+− Rentabilidad de la inversión.
+
+− Coste de financiación.
+
+Cálculos financieros básicos:
+
+− Capitalización simple y compuesta.
+
+− Actualización simple.
+
+− Tipo de interés efectivo o tasa anual equivalente. Tantos por ciento equivalentes.
+
+− Comisiones bancarias. Identificación y cálculo.
+
+Operaciones bancarias básicas:
+
+− Operaciones bancarias de capitalización y descuento simple.
+
+− Operaciones bancarias de capitalización compuesto.
+
+− Documentación relacionada con las operaciones bancarias.
+
+− Aplicaciones informáticas de operativa bancaria.
+
+− Servicios bancarios on-line más habituales.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para desempeñar la función de realizar algunas o parte de las operaciones administrativas establecidas en el procedimiento de la gestión de tesorería necesarias para la adecuada gestión financiera de la empresa.
+
+La función de realizar operaciones administrativas de la gestión de tesorería incluye aspectos como:
+
+− Control de la caja y del banco.
+
+− Identificación de los documentos de cobros y pagos.
+
+− Identificación de los intermediarios financieros.
+
+− Diferenciación de los instrumentos financieros.
+
+− Determinación de cálculos financieros bancarios básicos.
+
+− Aplicación de herramientas informáticas de gestión de tesorería.
+
+Las actividades profesionales asociadas a esta función se aplican en:
+
+− Los procesos de control de la gestión de tesorería en el ámbito empresarial de cualquier sector productivo necesarios para una buena gestión financiera.
+
+La formación del módulo contribuye a alcanzar los objetivos generales a) e), i), j) y ñ) del ciclo formativo y las competencias profesionales, personales y sociales a), b), e), m) y q) del título.
+
+Las líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− La identificación de los documentos internos y externos de cobros y pagos que se generan en la empresa.
+
+− La diferenciación de los flujos de entrada y salida de tesorería.
+
+− El registro de la información que se extrae de los documentos en los libros correspondientes.
+
+− La diferenciación de los instrumentos financieros que operan en el mercado financiero y las instituciones financieras que los generan.
+
+− El cálculo de operaciones financieras básicas.
+
+− La utilización de herramientas informáticas específicas de gestión de tesorería.
+
+− La consulta y dispositivo de aplicaciones de banca on-line.
+
+Módulo Profesional: Formación y Orientación Laboral. Código: 0449
+
+Resultados de aprendizaje y criterios de evaluación
+
+1. Selecciona oportunidades de empleo, identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida.
+
+Criterios de evaluación:
+
+a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación a las exigencias del proceso productivo.
+
+b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del Técnico en Gestión Administrativa.
+
+c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil del título.
+
+d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el Técnico en Gestión Administrativa
+
+e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo.
+
+f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título.
+
+g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de decisiones.
+
+2. Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de los objetivos de la organización.
+
+Criterios de evaluación:
+
+a) Se han valorado las ventajas de trabajo en equipo en situaciones de trabajo relacionadas con el perfil del Técnico en Gestión Administrativa.
+
+b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo.
+
+c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces.
+
+d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros de un equipo.
+
+e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico de las organizaciones.
+
+f) Se han identificado los tipos de conflictos y sus fuentes.
+
+g) Se han determinado procedimientos para la resolución del conflicto.
+
+3. Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas en los diferentes contratos de trabajo.
+
+Criterios de evaluación:
+
+a) Se han identificado los conceptos básicos del derecho del trabajo.
+
+b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores.
+
+c) Se han determinado los derechos y obligaciones derivados de la relación laboral.
+
+d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la contratación para determinados colectivos.
+
+e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar.
+
+f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral.
+
+g) Se ha analizado el recibo de salarios, identificando los principales elementos que lo integran.
+
+h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos.
+
+i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector relacionado con el Título de Técnico en Gestión Administrativa.
+
+j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo.
+
+4. Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas, identificando las distintas clases de prestaciones.
+
+Criterios de evaluación:
+
+a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos.
+
+b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social.
+
+c) Se han identificado los regímenes existentes en el sistema de Seguridad Social.
+
+d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social.
+
+e) Se han identificado en un supuesto sencillo las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y empresario.
+
+f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos.
+
+g) Se han determinado las posibles situaciones legales de desempleo.
+
+h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico.
+
+5. Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral.
+
+Criterios de evaluación:
+
+a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa.
+
+b) Se han relacionado las condiciones laborales con la salud del trabajador.
+
+c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos.
+
+d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del Técnico en Gestión Administrativa
+
+e) Se ha determinado la evaluación de riesgos en la empresa.
+
+f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo relacionados con el perfil profesional del Técnico en Gestión Administrativa.
+
+g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del Técnico en Gestión Administrativa.
+
+6. Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados.
+
+Criterios de evaluación:
+
+a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales.
+
+b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales.
+
+c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos.
+
+d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales.
+
+e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación de actuaciones que se deben realizar en caso de emergencia.
+
+f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional del Técnico en Gestión Administrativa.
+
+g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector.
+
+7. Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del Técnico en Gestión Administrativa
+
+Criterios de evaluación:
+
+a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables.
+
+b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad.
+
+c) Se han analizado los protocolos de actuación en caso de emergencia.
+
+d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa gravedad.
+
+e) Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín.
+
+f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención.
+
+Duración: 50 horas.
+
+Contenidos básicos
+
+Búsqueda activa de empleo:
+
+− Valoración de la importancia de la formación permanente para la trayectoria laboral y profesional del Técnico en Gestión Administrativa.
+
+− Análisis de los intereses, aptitudes y motivaciones personales para la carrera profesional.
+
+− Identificación de los itinerarios formativos relacionados con el Técnico en Gestión Administrativa.
+
+− Definición y análisis del sector profesional del Técnico en Gestión Administrativa.
+
+− Proceso de búsqueda de empleo en empresas del sector.
+
+− Oportunidades de aprendizaje y empleo en Europa.
+
+− Técnicas e instrumentos de búsqueda de empleo.
+
+− El proceso de toma de decisiones.
+
+Gestión del conflicto y equipos de trabajo:
+
+− Valoración de las ventajas e inconvenientes del trabajo de equipo para la eficacia de la organización.
+
+− Equipos en el sector del trabajo administrativo según las funciones que desempeñan.
+
+− La participación en el equipo de trabajo.
+
+− Conflicto: características, fuentes y etapas.
+
+− Métodos para la resolución o supresión del conflicto.
+
+Contrato de trabajo:
+
+− El derecho del trabajo.
+
+− Análisis de la relación laboral individual.
+
+− Modalidades de contrato de trabajo y medidas de fomento de la contratación.
+
+− Derechos y deberes derivados de la relación laboral.
+
+− Modificación, suspensión y extinción del contrato de trabajo.
+
+− Representación de los trabajadores.
+
+− Análisis de un convenio colectivo aplicable al ámbito profesional del Técnico en Gestión Administrativa.
+
+− Beneficios para los trabajadores en las nuevas organizaciones: flexibilidad, beneficios sociales, entre otros.
+
+Seguridad Social, Empleo y Desempleo:
+
+− Estructura del Sistema de la Seguridad Social.
+
+− Determinación de las principales obligaciones de empresarios y trabajadores en materia de Seguridad Social, afiliación, altas, bajas y cotización.
+
+− Situaciones protegibles en la protección por desempleo.
+
+Evaluación de riesgos profesionales:
+
+− Valoración de la relación entre trabajo y salud.
+
+− Análisis de factores de riesgo.
+
+− La evaluación de riesgos en la empresa como elemento básico de la actividad preventiva.
+
+− Análisis de riesgos ligados a las condiciones de seguridad.
+
+− Análisis de riesgos ligados a las condiciones ambientales.
+
+− Análisis de riesgos ligados a las condiciones ergonómicas y psicosociales.
+
+− Riesgos específicos en el sector del trabajo administrativo.
+
+− Determinación de los posibles daños a la salud del trabajador que pueden derivarse de las situaciones de riesgo detectadas.
+
+Planificación de la prevención de riesgos en la empresa:
+
+− Derechos y deberes en materia de prevención de riesgos laborales.
+
+− Gestión de la prevención en la empresa.
+
+− Organismos públicos relacionados con la prevención de riesgos laborales.
+
+− Planificación de la prevención en la empresa.
+
+− Planes de emergencia y de evacuación en entornos de trabajo.
+
+− Elaboración de un plan de emergencia en una empresa del sector.
+
+Aplicación de medidas de prevención y protección en la empresa:
+
+− Determinación de las medidas de prevención y protección individual y colectiva.
+
+− Protocolo de actuación ante una situación de emergencia.
+
+− Primeros auxilios.
+
+Orientaciones pedagógicas
+
+Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector.
+
+La formación de este módulo contribuye a alcanzar los objetivos generales r), s), t) y u) del ciclo formativo y las competencias profesionales, personales y sociales j), k), l), m), n), ñ), o), p), q) y r) del título.
+
+Las líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:
+
+− El manejo de las fuentes de información sobre el sistema educativo y laboral, en especial en lo referente a las empresas del sector de la administración.
+
+− La realización de pruebas de orientación y dinámicas sobre la propia personalidad y el desarrollo de las habilidades sociales.
+
+− La preparación y realización de currículos (CV), y entrevistas de trabajo.
+
+− Identificación de la normativa laboral que afecta a los trabajadores del sector, manejo de los contratos más comúnmente utilizados, lectura comprensiva de los convenios colectivos de aplicación.
+
+− La cumplimentación de recibos de salario de diferentes características y otros documentos relacionados.
+
+− El análisis de la ley de Prevención de Riesgos Laborales, que le permita la evaluación de los riesgos derivados de las actividades desarrolladas en su sector productivo, y colaborar en la definición de un plan de prevención para una pequeña empresa, así cómo las medidas necesarias para su puesta en funcionamiento.
+
+Módulo Profesional: Formación en Centros de Trabajo. Código: 0451
+
+Resultados de aprendizaje y criterios de evaluación
+
+Resultados de aprendizaje y criterios de evaluación:
+
+1. Identifica la estructura y organización de la empresa relacionándolas con las funciones internas y externas de la misma y con el sector económico al que pertenezca o en el que se encuentren sus clientes.
+
+Criterios de evaluación:
+
+Se han identificado la estructura organizativa de la empresa y las funciones de cada área de la misma.
+
+Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector.
+
+Se han relacionado las características del servicio y el tipo de clientes con el desarrollo de la actividad empresarial.
+
+Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio.
+
+Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad.
+
+Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad.
+
+2. Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos en la empresa.
+
+Criterios de evaluación:
+
+a) Se han reconocido y justificado:
+
+– La disponibilidad personal y temporal necesarias en el puesto de trabajo.
+
+– Las actitudes personales (puntualidad y empatía, entre otras) y profesionales (orden, limpieza y responsabilidad, entre otras) necesarias para el puesto de trabajo.
+
+– Los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional.
+
+– Los requerimientos actitudinales referidos a la calidad en la actividad profesional.
+
+– Las actitudes relacionales con el propio equipo de trabajo y con las jerarquías establecidas en la empresa.
+
+– Las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral.
+
+– Las necesidades formativas para la inserción y reinserción laboral en el ámbito científico y técnico del buen hacer del profesional.
+
+b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales de aplicación en la actividad profesional.
+
+c) Se han aplicado los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa.
+
+d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas.
+
+e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo de la actividad.
+
+f) Se ha responsabilizado del trabajo asignado interpretando y cumpliendo las instrucciones recibidas.
+
+g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del equipo.
+
+h) Se ha coordinado con el resto del equipo comunicando las incidencias relevantes que se presenten.
+
+i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas.
+
+j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo.
+
+3. Registra órdenes, documentos y comunicaciones, interpretando su contenido.
+
+Criterios de evaluación:
+
+a) Se han identificado medios y materiales necesarios para la recepción e interpretación de documentos y comunicaciones.
+
+b) Se ha identificado la información que contienen las órdenes, documentos y comunicaciones.
+
+c) Se ha determinado la urgencia y/o importancia de la información recibida.
+
+d) Se han determinado las tareas asociadas a las órdenes, documentos y comunicaciones recibidas.
+
+e) Se han reconocido y determinado los recursos necesarios para ejecutar las órdenes recibidas.
+
+f) Se han clasificado las comunicaciones o documentos para su posterior tramitación.
+
+g) Se han derivado al departamento que corresponde la interpretación o ejecución de la tarea asociada a dicha información.
+
+h) Se han aplicado los procedimientos y criterios internos de la empresa.
+
+4. Elabora documentos o comunicaciones, siguiendo los criterios establecidos por la empresa y la normativa vigente.
+
+a) Se han identificado los documentos habituales de uso en la empresa.
+
+b) Se ha identificado el documento a cumplimentar.
+
+c) Se ha reconocido la normativa reguladora para la elaboración de documentos específicos de la gestión administrativa de una empresa.
+
+d) Se ha obtenido la información necesaria para la elaboración de los documentos.
+
+e) Se han utilizado los medios o soportes adecuados en la cumplimentación de los documentos.
+
+f) Se han realizado los cálculos matemáticos y comprobaciones necesarias.
+
+g) Se han cumplimentado los distintos campos de los documentos que hay que elaborar.
+
+h) Se ha utilizado el lenguaje y la escritura de una manera correcta y adaptada a las características de la tarea a realizar.
+
+i) Se ha identificado el receptor del documento o la comunicación.
+
+j) Se han empleado las tecnologías de la información y comunicación.
+
+5. Tramita y gestiona la documentación administrativa, siguiendo los criterios establecidos por la empresa y aplicando la normativa vigente.
+
+Criterios de evaluación:
+
+a) Se han efectuado comprobaciones y revisiones de los documentos elaborados y/o recibidos.
+
+b) Se han presentado los documentos ante los responsables de los departamentos de la empresa.
+
+c) Se han presentado los documentos ante las correspondientes administraciones públicas y organizaciones externas a la empresa.
+
+d) Se han cumplido los plazos correspondientes para la gestión de la documentación.
+
+e) Se han utilizado los canales de comunicación apropiados.
+
+f) Se ha reconocido la normativa reguladora.
+
+g) Se han empleado las tecnologías de la información y comunicación.
+
+6. Registra y archiva la documentación administrativa, siguiendo los criterios establecidos por la empresa y aplicando la normativa vigente.
+
+Criterios de evaluación:
+
+a) Se han identificado los sistemas de registro y archivo utilizados en la empresa.
+
+b) Se han utilizado los medios o soportes de registro más adecuados.
+
+c) Se han cumplimentado los libros de registro.
+
+d) Se han aplicado las técnicas de organización de la documentación utilizada en la empresa.
+
+e) Se han realizado las tareas con orden y limpieza.
+
+f) Se ha reconocido la normativa reguladora.
+
+g) Se han empleado las tecnologías de la información y de la comunicación.
+
+h) Se han aplicado los sistemas de archivo de la información.
+
+7. Realiza operaciones de venta, promoción de productos y atención al cliente, adaptándose a las características y criterios establecidos por la empresa y colaborando con el área comercial de la misma.
+
+Criterios de evaluación:
+
+a) Se han elaborado ofertas adaptadas a las necesidades de los clientes conforme a los objetivos comerciales y las condiciones de venta de la empresa.
+
+b) Se han ofrecido a los clientes soluciones o vías de solución ante reclamaciones presentadas.
+
+c) Se han aplicado técnicas de comunicación y habilidades sociales que faciliten la empatía con el cliente.
+
+d) Se ha mantenido una aptitud que facilite la decisión de compra.
+
+e) Se ha aplicado técnicas de venta de productos y servicios a través de los canales de comercialización.
+
+f) Se ha suministrado información al cliente sobre los productos y servicios de la empresa.
+
+g) Se han comunicado al departamento correspondiente las reclamaciones presentadas por clientes de la empresa.
+
+Duración: 220 horas.
+
+Este módulo contribuye a completar las competencias, propias de este título, que se han alcanzado en el centro educativo o a desarrollar competencias características difíciles de conseguir en el mismo.
+
+ANEXO II
+
+Espacios
+
+Espacio formativo
+
+Aula polivalente.
+
+Taller administrativo.
+
+ANEXO III.A)
+
+Especialidades del profesorado con atribución docente en los módulos profesionales del ciclo formativo de Técnico en Gestión Administrativa
+
+Módulo profesional
+
+Especialidad del profesorado
+
+Cuerpo
+
+0437. Comunicación empresarial y atención al cliente.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0438. Operaciones administrativas de compra-venta.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0439. Empresa y Adminis-tración.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0440. Tratamiento informático de la información.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0441. Técnica contable.
+
+Administración de empresas.
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+0442. Operaciones administrativas de recursos humanos.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0443. Tratamiento de la documentación contable.
+
+Administración de empresas.
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+0444. Inglés.
+
+Inglés.
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+0446. Empresa en el aula.
+
+Administración de empresas
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+Procesos de gestión administrativa.
+
+Profesor Técnico de Formación Profesional.
+
+0448. Operaciones auxiliares de gestión de Tesorería.
+
+Administración de empresas.
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+0449. Formación y orientación laboral.
+
+Formación y orientación laboral.
+
+Catedrático de Enseñanza Secundaria.
+Profesor de Enseñanza Secundaria.
+
+ANEXO III.B)
+
+Titulaciones equivalentes a efectos de docencia
+
+Cuerpos
+
+Especialidades
+
+Titulaciones
+
+Profesores de Enseñanza Secundaria.
+
+Formación y orientación laboral.
+
+Diplomado en Ciencias Empresariales.
+Diplomado en Relaciones Laborales.
+Diplomado en Trabajo Social.
+Diplomado en Educación Social.
+Diplomado en Gestión y Administración Pública.
+
+Administración de empresas.
+
+Diplomado en Ciencias Empresariales.
+Diplomado en Gestión y Administración Pública.
+
+ANEXO III.C)
+
+Titulaciones requeridas para impartir los módulos profesionales que conforman el título en los centros de titularidad privada, de otras Administraciones distintas de la educativa y orientaciones para la Administración educativa
+
+Módulos profesionales
+
+Titulaciones
+
+0441. Técnica contable
+0443. Tratamiento de la documentación contable
+0444. Inglés
+0448. Operaciones auxiliares de gestión de Tesorería
+0449. Formación y orientación laboral.
+
+Licenciado, Ingeniero, Arquitecto o el título de grado correspondiente u otros títulos equivalentes a efectos de docencia.
+
+0437. Comunicación empresarial y atención al cliente
+0438. Operaciones administrativas de compra-venta
+0439. Empresa y Administración
+0440. Tratamiento informático de la información
+0442. Operaciones administrativas de recursos humanos
+0446. Empresa en el aula
+
+Licenciado, Ingeniero, Arquitecto o el título de grado correspondiente u otros títulos equivalentes.
+Diplomado, Ingeniero Técnico o Arquitecto Técnico o el título de grado correspondiente u otros títulos equivalentes.
+
+ANEXO IV
+
+Convalidaciones entre módulos profesionales establecidos en el título de Técnico en Gestión administrativa, al amparo de la Ley Orgánica 1/1990 y los establecidos en el título de Técnico en Gestión administrativa al amparo de la Ley Orgánica 2/2006
+
+Módulos profesionales del Ciclo Formativo (LOGSE 1/1990):
+Gestión Administrativa
+
+Módulos profesionales del Ciclo Formativo
+(LOE 2/2006): Gestión Administrativa
+
+Comunicación, archivo de la información y operatoria de teclados.
+
+0437. Comunicación empresarial y atención al cliente.
+
+Gestión administrativa de compraventa.
+
+0438. Operaciones administrativas de la compraventa.
+
+Gestión administrativa de personal.
+
+0442. Operaciones administrativas de recursos humanos.
+
+Contabilidad general y tesorería.
+
+0441. Técnica contable.
+0443. Tratamiento de la documentación contable.
+
+Productos y servicios financieros y de seguros básicos.
+
+0448. Operaciones auxiliares de gestión de tesorería.
+
+Principios de gestión administrativa pública.
+
+0439. Empresa y Administración.
+
+Aplicaciones informáticas.
+
+0440. Tratamiento informático de la información.
+
+Formación en centro de trabajo.
+
+0451. Formación en centros de trabajo.
+
+ANEXO V.A)
+
+Correspondencia de las unidades de competencia acreditadas de acuerdo a lo establecido en el artículo 8 de la Ley Orgánica 5/2002, de 19 de junio, con los módulos profesionales para su convalidación
+
+Unidades de competencia acreditadas
+
+Módulos profesionales convalidables
+
+UC0975_2: Recepcionar y procesar las comunicaciones internas y externas.
+UC0978_2: Gestionar el archivo en soporte convencional e informático.
+
+0437. Comunicación empresarial y atención al cliente.
+
+UC0976_2: Realizar las gestiones administrativas del proceso comercial.
+
+0438. Operaciones administrativas de la compra-venta.
+
+UC0973_1: Introducir datos y textos en terminales informáticos en condiciones de seguridad, calidad y eficiencia.
+UC0233_2: Manejar aplicaciones ofimáticas en la gestión de la información y la documentación.
+
+0440. Tratamiento informático de la información.
+
+UC0977_2: Comunicarse en una lengua extranjera con un nivel de usuario independiente en las actividades de gestión administrativa en relación con el cliente.
+
+0444. Inglés*.
+
+UC0979_2: Realizar las gestiones administrativas de tesorería.
+
+0448. Operaciones auxiliares de gestión de tesorería.
+
+UC0980_2: Efectuar las actividades de apoyo administrativo de Recursos Humanos.
+
+0442. Operaciones administrativas de recursos humanos.
+
+UC0981_2: Realizar registros contables.
+
+0443. Tratamiento de la documentación contable.
+0441. Técnica contable.
+
+(*) Podrá convalidarse de acuerdo con lo dispuesto en el artículo 66.4 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+
+El módulo profesional, 0446 Empresa en el aula, se convalidará cuando se tengan acreditadas todas las unidades de competencia que incluye en el título.
+
+ANEXO V.B)
+
+Correspondencia de los módulos profesionales con las unidades de competencia para su acreditación
+
+Módulos profesionales superados
+
+Unidades de competencia acreditables
+
+0437. Comunicación empresarial y atención al cliente.
+
+UC0975_2: Recepcionar y procesar las comunicaciones internas y externas.
+UC0978_2: Gestionar el archivo en soporte convencional e informático
+
+0438. Operaciones administrativas de la compra-venta.
+
+UC0976_2: Realizar las gestiones administrativas del proceso comercial.
+
+0440. Tratamiento informático de la información.
+
+UC0233_2: Manejar aplicaciones ofimáticas en la gestión de la información y la documentación
+UC0973_1: Introducir datos y textos en terminales informáticos en condiciones de seguridad, calidad y eficiencia.
+
+0444. Inglés.
+
+UC0977_2: Comunicarse en una lengua extranjera con un nivel de usuario independiente en las actividades de gestión administrativa en relación con el cliente.
+
+0448. Operaciones auxiliares de gestión de tesorería.
+
+UC0979_2: Realizar las gestiones administrativas de tesorería.
+
+0442. Operaciones administrativas de recursos humanos.
+
+UC0980_2: Efectuar las actividades de apoyo administrativo de Recursos Humanos.
+
+0443. Tratamiento de la documentación contable.
+0441. Técnica contable.
+
+UC0981_2: Realizar registros contables.
+
+Análisis
+
+ANÁLISIS
+
+Rango: Real Decreto
+
+Fecha de disposición: 30/10/2009
+
+Fecha de publicación: 01/12/2009
+
+Fecha de entrada en vigor: 02/12/2009
+
+Referencias posteriores
+
+Criterio de ordenación:
+
+por contenido
+
+por fecha
+
+SE MODIFICA los arts. 2, 6, 10, 12, 15, las referencias indicadas, los anexos I, III, V A) y V B), por Real Decreto 499/2024, de 21 de mayo (Ref.
+BOE-A-2024-10684
+).
+
+SE DEROGA el anexo indicado, por Real Decreto 1085/2020, de 9 de diciembre (Ref.
+BOE-A-2020-17274
+).
+
+SE MODIFICA las disposiciones finales 1, 2, lo indicado del art. 10 y de los anexos 1, 2, y 5, por Real Decreto 1126/2010, de 10 de septiembre (Ref.
+BOE-A-2010-13995
+).
+
+SE DICTA DE CONFORMIDAD, estableciendo el currículo del ciclo formativo de Grado Medio : Orden EDU/1999/2010, de 13 de julio (Ref.
+BOE-A-2010-11887
+).
+
+Referencias anteriores
+
+DEROGA:
+
+Real Decreto 1677/1994, de 22 de julio (Ref.
+BOE-A-1994-21682
+).
+
+Real Decreto 1662/1994, de 22 de julio (Ref.
+BOE-A-1994-21324
+).
+
+DE CONFORMIDAD con el Real Decreto 1538/2006, de 15 de diciembre (Ref.
+BOE-A-2007-92
+).
+
+CITA:
+
+Ley Orgánica 2/2006, de 3 de mayo (Ref.
+BOE-A-2006-7899
+).
+
+Ley Orgánica 5/2002, de 19 de junio (Ref.
+BOE-A-2002-12018
+).
+
+Materias
+
+Catálogo Nacional de Cualificaciones Profesionales
+
+Contabilidad
+
+Currículo
+
+Enseñanza de Formación Profesional
+
+Formación profesional
+
+Gestión fiscal
+
+Títulos académicos y profesionales
+
+subir
+
+Contactar
+
+Sobre la sede electrónica
+
+Mapa
+
+Aviso legal
+
+Accesibilidad
+
+Protección de datos
+
+Sistema Interno de Información
+
+Tutoriales
+
+Empleo en la AEBOE
+
+Agencia Estatal Boletín Oficial del Estado
+
+Avda.
+de Manoteras, 54 - 28050 Madrid

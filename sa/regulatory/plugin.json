@@ -1,0 +1,14 @@
+{
+  "name": "sa-regulatory",
+  "displayName": "Regulatory & Compliance — SA",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for SA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/dga-launch-gate-mohamedsamy911"
+  ]
+}

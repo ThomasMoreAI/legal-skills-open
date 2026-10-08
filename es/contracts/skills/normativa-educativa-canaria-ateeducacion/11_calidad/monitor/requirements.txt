@@ -1,0 +1,3 @@
+requests>=2.31
+beautifulsoup4>=4.12
+PyYAML>=6.0

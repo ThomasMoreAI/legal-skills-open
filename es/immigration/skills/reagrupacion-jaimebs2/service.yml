@@ -1,0 +1,55 @@
+name: extranjeria-reagrupacion
+display_name: Extranjería — Reagrupación Familiar
+description: >
+  Guía completa sobre la reagrupación familiar para extranjeros residentes
+  en España: qué familiares se pueden reagrupar (cónyuge, hijos menores,
+  ascendientes), requisitos económicos (IPREM), informe de adecuación de
+  vivienda, procedimiento, visado del familiar, autorización de trabajo
+  del reagrupado, plazos y recursos.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones
+tags: [extranjería, reagrupación familiar, reunificación familiar, cónyuge, hijos, ascendientes, IPREM, vivienda, visado, inmigración, España]
+
+links:
+  website: https://extranjeros.inclusion.gob.es
+  sede_electronica: https://sede.inclusion.gob.es
+  procedimientos: https://extranjeros.inclusion.gob.es/es/informacioninteres/informacionprocedimientos/
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+
+license:
+  data: Información pública del Ministerio de Inclusión, Seguridad Social y Migraciones
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre la reagrupación
+    familiar y redirige a skills del bloque de extranjería para otros
+    trámites de extranjería.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Quién puede reagrupar y a qué familiares
+    - Requisitos económicos (referencia al IPREM)
+    - Requisitos de vivienda e informe de adecuación
+    - Procedimiento paso a paso (solicitud, visado, TIE)
+    - Autorización de trabajo del familiar reagrupado
+    - Reagrupación en cadena
+    - Causas de denegación y recursos
+    - Plazos orientativos
+  not_accessible:
+    - Tramitación real de la reagrupación (requiere Oficina de Extranjería)
+    - Informes de adecuación de vivienda (se solicitan en el Ayuntamiento)
+    - Régimen comunitario (usar skill extranjeria-familiar-ue)
+    - Detalle sobre permisos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre permisos de trabajo (usar skill extranjeria-trabajo)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

@@ -1,0 +1,239 @@
+// Prisma schema for Panya-AI legal database v3.0
+// Supports laws, sections, judgments, regulations, contract_templates, cross_references
+// Works with both local SQLite (dev) and Turso libSQL (Vercel production)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Source {
+  sourceId    Int     @id @map("source_id")
+  sourceName  String  @map("source_name")
+  sourceType  String? @map("source_type")
+  sourceUrl   String? @map("source_url")
+  description String?
+  license     String?
+
+  laws               Law[]
+  judgments          Judgment[]
+  regulations        Regulation[]
+  contractTemplates  ContractTemplate[]
+
+  @@map("sources")
+}
+
+model Law {
+  lawId         Int     @id @map("law_id")
+  lawCode       String  @map("law_code")
+  title         String
+  category      String
+  lawGroup      String? @map("law_group")
+  lawType       String? @map("law_type")
+  year          String?
+  krisdikaSysid String? @map("krisdika_sysid")
+  sourceUrl     String? @map("source_url")
+  sourceId      Int?    @map("source_id")
+  fullText      String? @map("full_text")
+  sectionsCount Int     @default(0) @map("sections_count")
+  charsCount    Int     @default(0) @map("chars_count")
+  status        String  @default("complete")
+  note          String?
+
+  source        Source?  @relation(fields: [sourceId], references: [sourceId])
+  sections      LawSection[]
+
+  @@index([category])
+  @@map("laws")
+}
+
+model LawSection {
+  sectionId         Int     @id @default(autoincrement()) @map("section_id")
+  lawId             Int     @map("law_id")
+  sectionNumber     String  @map("section_number")
+  sectionNumberThai String? @map("section_number_thai")
+  sectionText       String  @map("section_text")
+  isLaborRelated    Int     @default(0) @map("is_labor_related")
+  chapter           String?
+  notes             String?
+
+  law               Law     @relation(fields: [lawId], references: [lawId])
+
+  @@index([lawId])
+  @@index([sectionNumber])
+  @@index([isLaborRelated])
+  @@map("law_sections")
+}
+
+model Judgment {
+  judgmentId     Int     @id @map("judgment_id")
+  judgmentCode   String  @map("judgment_code")
+  dekaNo         String? @map("deka_no")
+  caseNumber     String? @map("case_number")
+  year           String?
+  caseType       String? @map("case_type")
+  caseTypeGroup  String? @map("case_type_group")
+  topic          String?
+  topics         String?
+  lawsCited      String? @map("laws_cited")
+  fact           String?
+  issue          String?
+  ruling         String?
+  verdict        String?
+  fullText       String? @map("full_text")
+  sourceUrl      String? @map("source_url")
+  sourceId       Int?    @map("source_id")
+  charsCount     Int     @default(0) @map("chars_count")
+  note           String?
+
+  source         Source? @relation(fields: [sourceId], references: [sourceId])
+
+  @@index([year])
+  @@index([caseType])
+  @@map("judgments")
+}
+
+model Regulation {
+  regulationId    Int     @id @map("regulation_id")
+  regulationCode  String  @map("regulation_code")
+  title           String
+  category        String?
+  issuingBody     String? @map("issuing_body")
+  year            String?
+  issueDate       String? @map("issue_date")
+  fullText        String? @map("full_text")
+  sourceUrl       String? @map("source_url")
+  sourceId        Int?    @map("source_id")
+  charsCount      Int     @default(0) @map("chars_count")
+  note            String?
+  isRepealed      Int     @default(0) @map("is_repealed")
+  repealStatus    String  @default("active") @map("repeal_status")
+
+  source          Source? @relation(fields: [sourceId], references: [sourceId])
+
+  @@index([category])
+  @@index([isRepealed])
+  @@index([repealStatus])
+  @@map("regulations")
+}
+
+model ContractTemplate {
+  templateId          Int     @id @map("template_id")
+  templateCode        String  @map("template_code")
+  title               String
+  category            String
+  fullText            String? @map("full_text")
+  sourceUrl           String? @map("source_url")
+  sourceId            Int?    @map("source_id")
+  charsCount          Int     @default(0) @map("chars_count")
+  relatedLawSections  String? @map("related_law_sections")
+  note                String?
+
+  source              Source? @relation(fields: [sourceId], references: [sourceId])
+
+  @@index([category])
+  @@map("contract_templates")
+}
+
+model CrossReference {
+  refId        Int     @id @default(autoincrement()) @map("ref_id")
+  sourceType   String  @map("source_type")
+  sourceId     Int     @map("source_id")
+  sourceCode   String? @map("source_code")
+  targetType   String  @map("target_type")
+  targetId     Int?    @map("target_id")
+  targetCode   String? @map("target_code")
+  relationType String? @map("relation_type")
+  sectionRef   String? @map("section_ref")
+  notes        String?
+
+  @@index([sourceType, sourceId])
+  @@index([targetType, targetId])
+  @@map("cross_references")
+}
+
+model RagChunk {
+  chunkId       Int     @id @default(autoincrement()) @map("chunk_id")
+  sourceType    String  @map("source_type")
+  sourceId      Int     @map("source_id")
+  sourceCode    String? @map("source_code")
+  chunkText     String  @map("chunk_text")
+  chunkMetadata String? @map("chunk_metadata")
+
+  @@index([sourceType])
+  @@index([sourceId])
+  @@map("rag_chunks")
+}
+
+model IngestionLog {
+  id          Int     @id @default(autoincrement())
+  tableName   String? @map("table_name")
+  recordCount Int?    @map("record_count")
+  notes       String?
+  createdAt   String? @map("created_at")
+
+  @@map("ingestion_log")
+}
+
+// =========================================================================
+// Phase 10.1 — New-law / new-regulation detection + ingestion queue
+// =========================================================================
+
+/// Notifications about new laws, amendments, repeals, regulations, and judgments
+/// detected by the RSS monitor (scripts/monitor_law_updates.py) or scraper
+/// (scripts/scrape_judgments.py). Workflow: unread → acknowledged → ingested
+/// (or dismissed). Reviewed by an admin/owner before being ingested into the
+/// main corpus.
+model LawUpdateNotification {
+  notificationId     Int     @id @default(autoincrement()) @map("notification_id")
+  detectedAt         String  @map("detected_at")
+  /// Source that detected the update: "ratchakitcha_rss" | "supremecourt_scrape" | "manual_report" | "krisdika_api"
+  source             String
+  /// Type of update: "new_law" | "amendment" | "repeal" | "new_regulation" | "new_judgment"
+  updateType         String  @map("update_type")
+  title              String
+  referenceNumber    String? @map("reference_number")
+  publicationDate    String? @map("publication_date")
+  sourceUrl          String? @map("source_url")
+  summary            String?
+  /// Current workflow status: "unread" | "acknowledged" | "ingested" | "dismissed"
+  status             String  @default("unread")
+  /// Severity for triage: "info" | "warning" | "critical"
+  severity           String  @default("info")
+  reviewedBy         String? @map("reviewed_by")
+  reviewedAt         String? @map("reviewed_at")
+  reviewNotes        String? @map("review_notes")
+
+  @@index([status])
+  @@index([updateType])
+  @@index([detectedAt])
+  @@map("law_update_notifications")
+}
+
+/// Queue of ingestion jobs for retry mechanism. When scrapers or RSS monitors
+/// fail (e.g. network down), they enqueue a job here so the next cron run can
+/// pick it up. Also used for one-off ingestion tasks (e.g. build_xrefs).
+model IngestionQueue {
+  queueId        Int     @id @default(autoincrement()) @map("queue_id")
+  /// Job type: "scrape_judgments" | "fetch_rss" | "ingest_regulation" | "ingest_law" | "build_xrefs"
+  jobType        String  @map("job_type")
+  /// JSON payload with job parameters
+  payload        String
+  /// Status: "queued" | "running" | "completed" | "failed" | "cancelled"
+  status         String  @default("queued")
+  scheduledFor   String? @map("scheduled_for")
+  startedAt      String? @map("started_at")
+  completedAt    String? @map("completed_at")
+  resultSummary  String? @map("result_summary")
+  errorMessage   String? @map("error_message")
+  createdAt      String  @map("created_at")
+  createdBy      String? @map("created_by")
+
+  @@index([status])
+  @@index([jobType])
+  @@map("ingestion_queue")
+}

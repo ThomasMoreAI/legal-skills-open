@@ -1,0 +1,162 @@
+id: CUR-014
+titulo: "Geografía e Historia — ESO Canarias"
+etapa: "eso"
+materia: "Geografía e Historia"
+ambito: null
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado."
+      enunciado_oficial: "Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado, usando críticamente fuentes históricas y geográficas, para adquirir conocimientos, elaborar y expresar contenidos en varios formatos."
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "2.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "3.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "4.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CC1, CCEC4]
+    - codigo: "C2"
+      enunciado_resumido: "Indagar, argumentar y elaborar productos propios sobre problemas relevantes en la actualidad, desde lo local a lo global."
+      enunciado_oficial: "Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia identidad y a enriquecer el acervo común."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "3.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "4.º ESO": [CCL1, CCL2, CCL3, CD1, CD2, CC1, CC3, CE3, CCEC3]
+    - codigo: "C3"
+      enunciado_resumido: "Conocer los principales desafíos de las sociedades a lo largo del tiempo y los retos de la actualidad."
+      enunciado_oficial: "Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible."
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "2.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "3.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "4.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CD1, CD2, CPSAA3, CC3, CC4, CE1, CCEC1]
+    - codigo: "C4"
+      enunciado_resumido: "Identificar y analizar los elementos del paisaje y su articulación en sistemas naturales, rurales y urbanos."
+      enunciado_oficial: "Identificar y analizar los elementos del paisaje y su articulación en sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, interpretando las causas de las transformaciones y valorando el grado de equilibrio existente en los distintos ecosistemas, para promover su conservación, mejora y uso sostenible."
+      descriptores:
+        "1.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
+        "2.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
+        "3.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
+    - codigo: "C5"
+      enunciado_resumido: "Analizar planteamientos históricos y geográficos para explicar los sistemas democráticos y la convivencia."
+      enunciado_oficial: "Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como asumiendo los deberes y derechos propios de nuestro marco de convivencia, para promover la participación ciudadana y la cohesión social."
+      descriptores:
+        "1.º ESO": [CCL5, CC1, CC2, CC3, CCEC1]
+        "3.º ESO": [CCL5, CC1, CC2, CC3, CCEC1]
+        "4.º ESO": [CCL2, CCL5, CP3, CPSAA3, CC1, CC2, CC3, CCEC1]
+        "?": [CCL5, CC1, CC2, CC3, CCEC1]
+    - codigo: "C6"
+      enunciado_resumido: "Comprender los procesos que han conformado la realidad multicultural y reconocer la riqueza de la diversidad."
+      enunciado_oficial: "Comprender los procesos geográficos, históricos y culturales que han conformado la realidad multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y violencia, y reconocer la riqueza de la diversidad."
+      descriptores:
+        "4.º ESO": [CCL5, CP3, CPSAA3, CC1, CC2, CC3, CCEC1]
+        "?": [CCL5, CPSAA3, CC1, CC2, CC3, CCEC1]
+    - codigo: "C7"
+      enunciado_resumido: "Identificar los fundamentos de las identidades a través del patrimonio material e inmaterial."
+      enunciado_oficial: "Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de la Declaración Universal de los Derechos Humanos."
+      descriptores:
+        "?": [CP3, CPSAA1, CC1, CC2, CC3, CCEC1]
+    - codigo: "C8"
+      enunciado_resumido: "Tomar conciencia del papel de los ciclos demográficos, el ciclo vital y las relaciones intergeneracionales."
+      enunciado_oficial: "Tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo, analizándolas de forma crítica, para promover alternativas saludables, sostenibles, enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el entorno."
+      descriptores:
+        "?": [STEM5, CD4, CPSAA2, CPSAA5, CC1, CC2, CC3]
+    - codigo: "C9"
+      enunciado_resumido: "Conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia."
+      enunciado_oficial: "Conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al desarrollo sostenible, para promover la consecución de un mundo más seguro, solidario, sostenible y justo."
+      descriptores:
+        "?": [CCL2, CC1, CC2, CC3, CC4, CE1, CCEC1]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Elaborar, expresar y presentar contenidos propios en forma de esquemas, tablas informativas y otros formatos mediante el desarrollo de estrategias de búsqueda, selección y tratamiento de información relativas a procesos y acontecimientos relevantes del presente y del pasado."
+        - "1.2. Contrastar y argumentar sobre temas y acontecimientos de la Prehistoria y la Edad Antigua, localizando y analizando de forma crítica fuentes primarias y secundarias como pruebas históricas."
+        - "2.1. Identificar, valorar y mostrar interés por los principales problemas que afectan a la sociedad, adoptando una posición crítica y proactiva hacia los mismos."
+        - "2.2. Argumentar de forma crítica sobre problemas de actualidad a través de conocimientos geográficos e históricos, contrastando y valorando fuentes diversas, valorando el legado histórico y cultural canario y del resto de España."
+        - "2.3. Incorporar y utilizar adecuadamente términos, conceptos y acontecimientos relacionados con la geografía, la historia y otras disciplinas de las ciencias sociales."
+        - "2.4. Elaborar juicios argumentados, respetando las opiniones de los demás y enriqueciendo el acervo común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y global."
+        - "3.1. Adquirir y construir conocimiento relevante del mundo actual y de la historia, a través de procesos inductivos, de la investigación y del trabajo por proyectos, retos o problemas, mediante la elaboración de productos que reflejen la comprensión de los fenómenos y problemas abordados."
+        - "3.2. Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad, los cambios producidos, sus causas y consecuencias, así como los que en la actualidad debemos plantear y resolver en torno a los Objetivos de Desarrollo Sostenible."
+        - "3.3. Representar adecuadamente información geográfica e histórica a través de diversas formas de representación gráfica, cartográfica y visual."
+        - "3.4. Utilizar una secuencia cronológica para examinar la relación entre hechos y procesos en diferentes períodos y lugares (simultaneidad y duración), utilizando términos y conceptos apropiados."
+        - "3.5. Analizar procesos de cambio histórico de relevancia a través del uso de diferentes fuentes, teniendo en cuenta las continuidades y permanencias en diferentes períodos y lugares, con especial atención a las distintas culturas insulares anteriores al proceso de conquista de Canarias."
+        - "4.1. Interpretar el entorno desde una perspectiva sistémica e integradora, a través del concepto de paisaje, identificando sus principales elementos y las interrelaciones existentes."
+        - "4.2. Valorar el grado de sostenibilidad y de equilibrio de los diferentes espacios y desde distintas escalas, tomando como referencia el patrimonio natural de Canarias, España y global."
+        - "4.3. Argumentar la necesidad de acciones de defensa, protección, conservación y mejora del entorno (natural, rural y urbano) a través de propuestas e iniciativas que reflejen compromisos y conductas en favor de la sostenibilidad y del reparto justo y solidario de los recursos."
+        - "5.1. Identificar, interpretar y analizar los mecanismos que han regulado la convivencia y la vida en común a lo largo de la historia, desde el origen de la sociedad a las distintas civilizaciones de la Edad Antigua."
+        - "5.2. Señalar y explicar aquellas experiencias históricas más destacables, hasta la Edad Antigua, en las que se logró establecer sistemas políticos que favorecieron el ejercicio de derechos y libertades."
+        - "5.3. Mostrar actitudes pacíficas y respetuosas y asumir las normas como marco necesario para la convivencia, demostrando capacidad crítica e identificando y respondiendo de manera asertiva ante situaciones de injusticia y desigualdad."
+        - "6.1. Situar el nacimiento y desarrollo de distintas civilizaciones y ubicarlas en el espacio y en el tiempo, integrando los elementos históricos, culturales, institucionales y religiosos que las han conformado, explicando la realidad multicultural generada a lo largo del tiempo."
+        - "6.2. Reconocer las desigualdades sociales existentes desde la Prehistoria hasta la Edad Antigua y los mecanismos de dominación y control que se han aplicado, identificando aquellos grupos sometidos y silenciados."
+        - "6.3. Valorar la diversidad social y cultural, argumentando e interviniendo en favor de la inclusión y rechazando actitudes discriminatorias o basadas en estereotipos."
+        - "6.4. Argumentar e intervenir acerca de la igualdad real de hombres y mujeres actuando en contra de cualquier actitud y comportamiento discriminatorio por razón de género."
+        - "7.1. Relacionar las culturas y civilizaciones que se han desarrollado a lo largo de la Historia Antigua con las diversas identidades colectivas que se han ido construyendo hasta la actualidad."
+        - "7.2. Identificar el origen histórico de distintas identidades colectivas que se han desarrollado en España y Canarias."
+        - "7.3. Señalar los fundamentos de la idea de Europa a través de las diferentes experiencias históricas del pasado e identificar el legado histórico, institucional, artístico y cultural como patrimonio común de la ciudadanía europea."
+        - "7.4. Valorar, proteger y conservar el patrimonio social, cultural e histórico como fundamento de la identidad colectiva insular, autonómica, nacional, europea y universal."
+        - "8.1. Conocer e interpretar los comportamientos demográficos de la población, los cambios que ha experimentado y sus ciclos."
+        - "8.2. Tomar conciencia del ciclo vital y analizar cómo han cambiado sus características, necesidades y obligaciones en distintos momentos históricos, así como las raíces de la distribución por motivos de género del trabajo doméstico."
+        - "8.3. Relacionar los cambios en los estilos de vida tradicional y contrastarlos con los que son saludables y sostenibles en el entorno."
+        - "9.1. Identificar e interpretar la conexión de España con los grandes procesos históricos de la época antigua, valorando lo que han supuesto para su evolución y señalando las aportaciones de sus habitantes a lo largo de la historia."
+        - "9.2. Interpretar desde la perspectiva del desarrollo sostenible y la ciudadanía global los principales desafíos del mundo actual, expresando la importancia de implicarse en la búsqueda de soluciones."
+    - curso: "2.º ESO"
+      criterios:
+        - "1.1. Elaborar, expresar y presentar contenidos propios mediante estrategias de búsqueda y selección de información relativas al presente y al pasado."
+        - "1.2. Contrastar y argumentar sobre temas de la Edad Media y la Edad Moderna localizando fuentes primarias y secundarias."
+        - "2.1. a 2.4. Indagar y argumentar sobre problemas geográficos, históricos y sociales relevantes en la actualidad y elaborar juicios argumentados con perspectiva sistémica y global."
+        - "3.1. a 3.5. Adquirir conocimiento del mundo actual y de la Edad Media-Moderna mediante investigación, identificar problemas y desafíos, representar información geográfica e histórica, usar la secuencia cronológica y analizar procesos de cambio."
+        - "4.1. a 4.3. Interpretar el entorno desde el concepto de paisaje, valorar el grado de sostenibilidad y argumentar acciones de defensa del entorno natural, rural y urbano (especial atención a las TIG y al espacio canario)."
+        - "5.1. a 5.3. Analizar mecanismos de convivencia desde la Edad Media hasta la Edad Moderna, experiencias históricas y mostrar actitudes pacíficas."
+        - "6.1. a 6.4. Situar reinos y civilizaciones medievales y modernas, reconocer desigualdades sociales, valorar la diversidad y la igualdad real de hombres y mujeres."
+        - "7.1. a 7.4. Relacionar culturas medievales y modernas con identidades colectivas; identificar el origen histórico de identidades en España y Canarias; señalar los fundamentos de Europa; valorar y conservar el patrimonio."
+        - "8.1. a 8.3. Conocer comportamientos demográficos en mundo, España y Canarias; analizar el ciclo vital desde la Edad Media a la Moderna; relacionar cambios en estilos de vida saludables y sostenibles."
+        - "9.1. a 9.2. Interpretar la conexión de España y Canarias con los grandes procesos históricos de la Edad Media y la Edad Moderna y los principales desafíos del mundo actual."
+    - curso: "3.º ESO"
+      criterios:
+        - "1.1. Buscar, tratar y organizar información sobre temas relevantes mediante aplicaciones y estrategias de recogida y representación de datos, contrastando fuentes fiables y identificando la desinformación y las falsas noticias."
+        - "1.2. Establecer conexiones y relaciones entre los conocimientos e informaciones adquiridos, elaborando síntesis interpretativas y explicativas mediante informes, estudios o dosieres informativos."
+        - "1.3. Comunicar la información y el nuevo conocimiento por medio de narraciones, pósteres, presentaciones, exposiciones orales, medios audiovisuales y otros productos digitales."
+        - "2.1. Investigar, argumentar y generar productos originales y creativos mediante la reelaboración de conocimientos previos, partiendo desde el contexto geográfico canario y español al global."
+        - "2.2. Construir la propia identidad y enriquecer el acervo común en el contexto del mundo actual, de sus retos y conflictos, desde una perspectiva sistémica y global."
+        - "3.1. Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo largo de la historia desde un enfoque geográfico."
+        - "3.2. Realizar propuestas que contribuyan al logro de los Objetivos de Desarrollo Sostenible, aplicando métodos y proyectos de investigación, manejo de mapas y otras representaciones gráficas."
+        - "3.3. Entender y afrontar, desde un enfoque ecosocial, problemas y desafíos pasados, actuales o futuros de las sociedades contemporáneas, teniendo como referencia la realidad de Canarias."
+        - "4.1. a 4.3. Interpretar el entorno como paisaje (especial uso de TIG, despoblación rural, ciudad sostenible) y argumentar la conservación del medio en el contexto de la globalización."
+        - "5.1. a 5.3. Analizar de forma crítica los sistemas democráticos contemporáneos y los principios constitucionales; mostrar actitudes pacíficas y de cohesión social."
+        - "6.1. a 6.4. Comprender la realidad multicultural contemporánea, las desigualdades, las identidades, la igualdad real de hombres y mujeres y la valoración de las minorías."
+        - "7.1. a 7.4. Relacionar culturas y civilizaciones contemporáneas con identidades colectivas; identidades en España y Canarias; idea de Europa; conservación del patrimonio."
+        - "8.1. a 8.3. Tomar conciencia de los ciclos demográficos contemporáneos, ciclo vital y formas de vida saludables y sostenibles."
+        - "9.1. a 9.2. Conocer la importancia de la seguridad integral ciudadana, la cooperación internacional y la conexión de España y Canarias con los grandes procesos contemporáneos."
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. a 1.3. Buscar, tratar, organizar y comunicar información sobre temas relevantes del presente y del pasado en formatos diversos."
+        - "2.1. a 2.2. Indagar, argumentar y elaborar productos originales sobre problemas geográficos, históricos y sociales, contribuyendo a la construcción de la propia identidad."
+        - "3.1. a 3.2. Conocer los principales desafíos de las sociedades contemporáneas y proponer soluciones para el desarrollo sostenible."
+        - "5.1. a 5.3. Analizar críticamente la construcción de los sistemas democráticos en el siglo XX y XXI y de los principios constitucionales (Constitución española de 1978), promoviendo la cohesión social y la igualdad real."
+        - "6.1. a 6.4. Comprender la realidad multicultural del mundo actual y la riqueza de la diversidad, defender la igualdad real de hombres y mujeres."
+        - "7.1. a 7.4. Identificar los fundamentos de las identidades del mundo contemporáneo a través del patrimonio material e inmaterial, con énfasis en el europeísmo y los Derechos Humanos."
+        - "9.1. a 9.2. Conocer la seguridad integral ciudadana, la cooperación internacional, los Objetivos de Desarrollo Sostenible y la posición ultraperiférica de Canarias en el contexto europeo y mundial."
+  saberes_basicos:
+    - bloque: "Bloque I — Retos del mundo actual"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Ubicación espacial (representación, orientación, escalas, recursos digitales, mapas y TIG); emergencia climática (clima y factores, datos meteorológicos, riesgos y catástrofes, vulnerabilidad y resiliencia, emergencia climática en Canarias y acción antrópica); biodiversidad (dinámicas y amenazas de los ecosistemas, jardines botánicos, laurisilva, especies endémicas en peligro, espacios naturales canarios); tecnologías de la información y sociedad del conocimiento (uso seguro de redes, lectura crítica, plataformas de Ciencias Sociales); igualdad y roles de género (mujeres rurales canarias, situaciones discriminatorias); Objetivos de Desarrollo Sostenible. En 3.º y 4.º se incorporan desafíos demográficos, aglomeraciones urbanas y ruralidad, competencia y conflicto por los recursos, concentración y distribución de la riqueza."
+    - bloque: "Bloque II — Sociedades y territorios"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Métodos básicos de investigación geográfica e histórica (instituciones científicas canarias); fuentes históricas y arqueológicas (objetos, artefactos, archivos, bibliotecas y museos del archipiélago); tiempo histórico (líneas del tiempo: linealidad, cronología, simultaneidad y duración); origen del ser humano y nacimiento de las sociedades; violencia y conflictos armados; complejidad social y formación de la autoridad; personas invisibilizadas (mujeres, esclavos, extranjeros); organización política antigua, medieval, moderna y contemporánea; raíces clásicas; religión y poder; transformación humana del territorio; España e historia universal; insularidad. En cada curso se enfatiza la cultura aborigen canaria (1.º), la conquista y colonización (2.º), las transformaciones económicas (3.º) y los grandes procesos contemporáneos (4.º)."
+    - bloque: "Bloque III — Compromiso cívico local y global"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Dignidad humana y derechos universales (Convención sobre los Derechos del Niño); alteridad y respeto; igualdad de género; redes sociales y uso seguro de las TIC; convivencia cívica y cultura democrática; conciencia ambiental (problemas medioambientales canarios, biodiversidad); conservación y defensa del patrimonio (yacimientos arqueológicos canarios, museos y parques); empatía y solidaridad; ciclos vitales, tiempo libre y hábitos de consumo; contribución del Estado a la paz y la convivencia social; ciudadanía europea; ciudadanía canaria como mestizaje de herencia europea, indígena y africana; seguridad y cooperación internacional; seguridad vial y movilidad sostenible."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC3"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Geografía e Historia en ESO Canarias regulado por el Decreto 30/2023. Materia común en 1.º, 2.º y 3.º ESO (art. 23.1.e) y obligatoria en 4.º ESO (art. 24). Nueve competencias específicas (C1-C9) en los tres primeros cursos y siete en 4.º ESO, con un total de 30 criterios de evaluación en 1.º y 2.º, 22 en 3.º y 19 en 4.º. Saberes organizados en tres bloques: «Retos del mundo actual», «Sociedades y territorios» y «Compromiso cívico local y global», con tratamiento específico de la realidad geográfica, histórica y patrimonial de Canarias en cada curso (cultura aborigen, conquista y colonización, transformaciones contemporáneas)."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Geografia_historia_ESO.pdf publicado por la Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias. Se han incorporado los enunciados literales de las nueve competencias específicas con su vinculación a los descriptores del Perfil de salida; los criterios de evaluación de 1.º ESO se incluyen literalmente y los de 2.º, 3.º y 4.º ESO se ofrecen en formato sintético agrupado por competencia (consultar el PDF oficial para los enunciados literales completos de los demás cursos). Saberes básicos organizados en tres bloques con detalle de los apartados específicos canarios."

@@ -1,0 +1,136 @@
+id: CUR-001
+titulo: "Biología y Geología — ESO Canarias"
+etapa: "eso"
+materia: "Biología y Geología"
+ambito: null
+cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Interpretar y transmitir información y datos científicos."
+      enunciado_oficial: "Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
+        "3.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
+        "4.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
+    - codigo: "C2"
+      enunciado_resumido: "Localizar, seleccionar y evaluar críticamente información."
+      enunciado_oficial: "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las ciencias biológicas y geológicas."
+      descriptores:
+        "1.º ESO": [CCL3, CD1, CD2, CD4, CPSAA4]
+        "3.º ESO": [CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4]
+        "4.º ESO": [CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4]
+    - codigo: "C3"
+      enunciado_resumido: "Planificar y desarrollar proyectos de investigación."
+      enunciado_oficial: "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CC3]
+        "3.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3]
+        "4.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3]
+    - codigo: "C4"
+      enunciado_resumido: "Utilizar el razonamiento y el pensamiento computacional para resolver problemas o explicar procesos de la vida cotidiana."
+      enunciado_oficial: "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología."
+      descriptores:
+        "1.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
+        "3.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
+        "4.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
+    - codigo: "C5"
+      enunciado_resumido: "Analizar acciones sobre el medioambiente y la salud."
+      enunciado_oficial: "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      descriptores:
+        "1.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
+        "3.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
+        "4.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
+    - codigo: "C6"
+      enunciado_resumido: "Analizar los elementos de un paisaje concreto como patrimonio natural, explicando su historia geológica e identificando riesgos naturales."
+      enunciado_oficial: "Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y utilizando conocimientos sobre Geología y Ciencias de la Tierra para explicar su historia geológica, proponer acciones encaminadas a su protección e identificar posibles riesgos naturales."
+      descriptores:
+        "1.º ESO": [STEM1, STEM2, STEM5, CC4, CE1, CCEC1]
+        "3.º ESO": [CCL3, STEM1, STEM2, STEM4, STEM5, CD1, CC4, CE1, CCEC1]
+        "4.º ESO": [CCL3, STEM1, STEM2, STEM4, STEM5, CD1, CC4, CE1, CCEC1]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Explicar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos, con el fin de elaborar conclusiones y compartir conocimiento con actitud cooperativa y respetuosa."
+        - "1.2. Transmitir información sobre procesos biológicos y geológicos o textos científicos divulgativos sencillos de forma clara y utilizando el vocabulario y los formatos adecuados."
+        - "1.3. Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas."
+        - "2.1. Localizar, seleccionar y organizar de manera guiada información de distintas fuentes, respetando la propiedad intelectual."
+        - "2.2. Reconocer la información sobre temas biológicos y geológicos con base científica comprobando las fuentes con el fin de distinguirla de pseudociencias y bulos."
+        - "3.1. Plantear preguntas e hipótesis para intentar explicar fenómenos biológicos y geológicos."
+        - "3.2. Diseñar pequeños proyectos de investigación relacionados con procesos y fenómenos biológicos y geológicos."
+        - "3.3. Realizar experimentos y trabajos de campo, utilizando los instrumentos adecuados y siguiendo las normas de seguridad."
+        - "4.1. Resolver problemas sobre fenómenos biológicos o geológicos de forma cooperativa, utilizando el razonamiento lógico o el pensamiento computacional."
+        - "5.1. Relacionar la preservación de la biodiversidad (especialmente la canaria) y la conservación del medioambiente con el desarrollo sostenible."
+        - "5.2. Identificar y adoptar hábitos saludables para mejorar la salud individual y colectiva."
+        - "6.1. Analizar y explicar la historia geológica de un relieve del entorno próximo."
+    - curso: "3.º ESO"
+      criterios:
+        - "1.1. Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos, manteniendo una actitud crítica."
+        - "1.2. Facilitar la comprensión y el análisis de información sobre procesos biológicos y geológicos o trabajos científicos."
+        - "1.3. Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas y utilizando los pasos del diseño de ingeniería."
+        - "2.1. Resolver cuestiones sobre Biología y Geología localizando, seleccionando y organizando información y citándola correctamente."
+        - "2.2. Reconocer la información sobre temas biológicos y geológicos con base científica, valorando su fiabilidad y pertinencia."
+        - "3.1. Plantear preguntas, realizar predicciones y formular hipótesis contrastables sobre fenómenos biológicos o geológicos."
+        - "3.2. Diseñar y realizar experimentos o proyectos de investigación de forma cooperativa."
+        - "4.1. Resolver problemas biológicos o geológicos planteados, analizando críticamente las soluciones."
+        - "5.1. Analizar el impacto de las acciones humanas en el medioambiente y en la salud."
+        - "5.2. Proponer y adoptar hábitos sostenibles y saludables, valorando el impacto global."
+        - "6.1. Identificar y explicar los procesos geológicos internos y externos que dan lugar al relieve."
+        - "6.2. Valorar el patrimonio geológico de Canarias y de otros lugares."
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. Analizar conceptos y procesos biológicos y geológicos interpretando información con actitud crítica para obtener conclusiones propias."
+        - "1.2. Transmitir información sobre procesos biológicos y geológicos o trabajos científicos con rigor y utilizando la terminología adecuada."
+        - "2.1. Localizar, seleccionar, contrastar, organizar y analizar críticamente la información de distintas fuentes."
+        - "2.2. Contrastar y argumentar sobre la veracidad de informaciones, distinguiendo entre ciencia, pseudociencia y bulos."
+        - "3.1. Plantear preguntas e hipótesis utilizando las prácticas científicas en la explicación de fenómenos."
+        - "3.2. Diseñar la experimentación, la toma de datos y el análisis para contrastar una hipótesis evitando sesgos."
+        - "4.1. Resolver problemas o dar explicación a procesos de la vida cotidiana utilizando el razonamiento y el pensamiento crítico."
+        - "5.1. Analizar los efectos de determinadas acciones sobre el medioambiente y la salud para promover hábitos sostenibles."
+        - "6.1. Analizar e interpretar la historia geológica de un relieve del entorno próximo."
+        - "6.2. Valorar el paisaje como patrimonio natural e identificar posibles riesgos naturales."
+  saberes_basicos:
+    - bloque: "Bloque I — Proyecto científico"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Metodologías científicas, búsqueda de información, herramientas digitales y seguridad en el laboratorio."
+    - bloque: "Bloque II — Geología"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "La Tierra en el universo, atmósfera, hidrosfera, geosfera, procesos geológicos internos y externos, tectónica de placas."
+    - bloque: "Bloque III — La célula"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Estructura celular, funciones vitales, ciclo celular, mitosis y meiosis."
+    - bloque: "Bloque IV — Seres vivos"
+      cursos: ["1.º ESO"]
+      detalles: "Características de la vida, clasificación de los cinco reinos y biodiversidad."
+    - bloque: "Bloque V — Ecología y sostenibilidad"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Ecosistemas, relaciones tróficas, dinámica de poblaciones y conservación del medioambiente."
+    - bloque: "Bloque VI — Cuerpo humano"
+      cursos: ["3.º ESO"]
+      detalles: "Anatomía y fisiología de los aparatos de nutrición, relación y reproducción."
+    - bloque: "Bloque VII — Hábitos saludables"
+      cursos: ["3.º ESO"]
+      detalles: "Alimentación, sexualidad responsable y prevención de adicciones."
+    - bloque: "Bloque VIII — Salud y enfermedad"
+      cursos: ["3.º ESO"]
+      detalles: "Enfermedades infecciosas y no infecciosas, sistema inmunitario y trasplantes."
+    - bloque: "Bloque IX — Genética y evolución"
+      cursos: ["4.º ESO"]
+      detalles: "Herencia, ADN, biotecnología y teorías de la evolución."
+    - bloque: "Bloque X — La Tierra en el universo"
+      cursos: ["4.º ESO"]
+      detalles: "Formación del sistema solar y el tiempo geológico."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CPSAA5", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis competencias específicas (C1-C6) y una organización en bloques de saberes. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022. Incluye vinculación detallada con descriptores operativos del Perfil de salida y criterios de evaluación por curso."
+observaciones: "Extracción completada tras cotejo con el BOC (FTE-009). Se han incorporado los enunciados literales y la vinculación oficial con los descriptores del Perfil de salida. Re-extracción del 2026-08-05 (TAREA-073) sobre la copia local del Decreto 30/2023: se corrigieron los enunciados literales de C3, C4, C5 y C6 y se migraron sus descriptores a mapa por curso conforme a DEC-0008, bloque a bloque contra el texto oficial. C4 y C5 comparten la misma lista en 1.º, 3.º y 4.º ESO; C3 y C6 varían entre 1.º ESO y los cursos superiores. El bloque de C6 de 4.º ESO aparece partido por un salto de página en la copia local (la marca «Competencia específica Descriptores operativos de las» queda en la página anterior), por lo que el extractor automático no lo localiza y su vinculación se ha comprobado a mano."

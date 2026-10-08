@@ -1,0 +1,348 @@
+{
+  "schema_version": "0.1.0",
+  "retrieved_at": "2026-06-16",
+  "source_note": "与 layoff-defense/references/legal-map.md 配合使用；提交前应核验当地仲裁委员会表格和受理渠道。",
+  "core_source_anchors": [
+    "LDA-2007#art2",
+    "LDA-2007#art5",
+    "LDA-2007#art6",
+    "LDA-2007#art21",
+    "LDA-2007#art27",
+    "LDA-2007#art28",
+    "LDA-2007#art29",
+    "LDA-2007#art30",
+    "LDA-2007#art39",
+    "LDA-2007#art43",
+    "LDA-2007#art47",
+    "LDA-2007#art48",
+    "LDA-2007#art50",
+    "LDA-2007#art51"
+  ],
+  "draft_sections": {
+    "parties": {
+      "required_fields": [
+        "applicant_name",
+        "applicant_id_number",
+        "applicant_phone",
+        "applicant_address",
+        "respondent_legal_name",
+        "respondent_address",
+        "legal_representative_or_principal",
+        "respondent_contact"
+      ],
+      "source_anchors": [
+        "LDA-2007#art28"
+      ],
+      "risk_flags": [
+        "wrong_respondent",
+        "missing_employer_legal_name",
+        "labor_dispatch_or_outsourcing",
+        "affiliated_company_transfer"
+      ]
+    },
+    "jurisdiction": {
+      "required_fields": [
+        "work_performance_city",
+        "employer_registered_or_business_location",
+        "candidate_commission",
+        "jurisdiction_basis"
+      ],
+      "source_anchors": [
+        "LDA-2007#art21"
+      ],
+      "risk_flags": [
+        "unclear_work_location",
+        "cross_city_employment",
+        "remote_work",
+        "multiple_respondents"
+      ]
+    },
+    "limitation": {
+      "required_fields": [
+        "rights_infringement_date",
+        "last_wage_due_date",
+        "termination_or_resignation_date",
+        "interruption_or_suspension_facts"
+      ],
+      "source_anchors": [
+        "LDA-2007#art27",
+        "SPC-LDI-2-2025#art20"
+      ],
+      "risk_flags": [
+        "near_one_year",
+        "wage_claim_after_employment_end",
+        "unclear_trigger_date"
+      ]
+    },
+    "arbitration_requests": {
+      "required_fields": [
+        "request_number",
+        "claim_type",
+        "amount",
+        "formula",
+        "fact_basis",
+        "evidence_ids",
+        "source_anchors"
+      ],
+      "source_anchors": [
+        "LDA-2007#art28"
+      ],
+      "risk_flags": [
+        "unsupported_amount",
+        "missing_formula",
+        "local_cap_needed",
+        "tax_or_social_insurance_split"
+      ]
+    },
+    "facts_and_reasons": {
+      "required_blocks": [
+        "employment_relationship",
+        "work_and_wage_history",
+        "dispute_trigger",
+        "termination_or_resignation_characterization",
+        "claim_basis",
+        "evidence_summary"
+      ],
+      "source_anchors": [
+        "LDA-2007#art2",
+        "LDA-2007#art6",
+        "LDA-2007#art28"
+      ],
+      "risk_flags": [
+        "uncertain_fact_written_as_proven",
+        "missing_termination_document",
+        "signed_waiver_or_resignation"
+      ]
+    },
+    "evidence_directory": {
+      "required_fields": [
+        "evidence_number",
+        "evidence_name",
+        "source_or_holder",
+        "status",
+        "proof_purpose",
+        "related_request_numbers"
+      ],
+      "source_anchors": [
+        "LDA-2007#art6",
+        "LDA-2007#art39"
+      ],
+      "risk_flags": [
+        "employer_controlled_evidence",
+        "third_party_record_needed",
+        "illegal_collection_risk"
+      ]
+    },
+    "filing_checks": {
+      "required_fields": [
+        "copies_by_respondent_count",
+        "identity_copy",
+        "business_registration_record",
+        "evidence_copies",
+        "local_form_required",
+        "signature_and_date"
+      ],
+      "source_anchors": [
+        "LDA-2007#art28",
+        "LDA-2007#art29",
+        "LDA-2007#art30"
+      ],
+      "risk_flags": [
+        "missing_copies",
+        "local_form_unknown",
+        "respondent_count_mismatch"
+      ]
+    }
+  },
+  "claim_templates": {
+    "economic_compensation": {
+      "label": "经济补偿金",
+      "source_anchors": [
+        "LCL-2012#art38",
+        "LCL-2012#art46",
+        "LCL-2012#art47",
+        "LCL-REG-2008#art27"
+      ],
+      "amount_rule": "average_monthly_wage_for_n * service_period_n",
+      "amount_rule_text": "经济补偿月工资基数 × 按工作年限折算的经济补偿月数（N）",
+      "evidence_needed": [
+        "labor_contract_and_renewals",
+        "twelve_month_wage_basis",
+        "termination_characterization"
+      ],
+      "draft_note": "写明工作年限、月工资基数、N 的折算月数，以及触发经济补偿的事实和依据。"
+    },
+    "unlawful_termination_compensation": {
+      "label": "违法解除/终止赔偿金",
+      "source_anchors": [
+        "LCL-2012#art41",
+        "LCL-2012#art43",
+        "LCL-2012#art48",
+        "LCL-2012#art87",
+        "LCL-REG-2008#art25",
+        "SPC-LDI-1-2020#art44"
+      ],
+      "amount_rule": "economic_compensation_n * 2",
+      "amount_rule_text": "经济补偿金额（N）× 2",
+      "evidence_needed": [
+        "termination_notice_exact_reason",
+        "layoff_threshold_and_plan",
+        "thirty_day_explanation_opinion_report",
+        "guangzhou_layoff_report_package",
+        "priority_retention_and_rehire_evidence",
+        "post_layoff_rehire_or_outsourcing_tracking",
+        "rules_democratic_publication_proof",
+        "misconduct_investigation_and_proportionality",
+        "twelve_month_wage_basis"
+      ],
+      "draft_note": "解除合法性存在争议且劳动者主张赔偿金而非仅主张经济补偿时使用；经济性裁员案件应围绕人数门槛、说明、听取意见和报告程序、优先留用、地方报告材料缺口及 6 个月内再次招用或岗位替代事实展开，不要套用过失性解除证据。"
+    },
+    "substitute_notice_wage": {
+      "label": "代通知金",
+      "source_anchors": [
+        "LCL-2012#art40",
+        "LCL-REG-2008#art20"
+      ],
+      "amount_rule": "previous_month_wage",
+      "amount_rule_text": "解除劳动合同前一个月工资",
+      "evidence_needed": [
+        "article40_ground_evidence",
+        "notice_or_substitute_wage_evidence"
+      ],
+      "draft_note": "仅在符合《劳动合同法》第四十条适用条件且未提前 30 日书面通知时核验使用。"
+    },
+    "unpaid_wages": {
+      "label": "拖欠工资",
+      "source_anchors": [
+        "LCL-2012#art30",
+        "LCL-2012#art85",
+        "LDA-2007#art2"
+      ],
+      "amount_rule": "sum_of_unpaid_wages",
+      "amount_rule_text": "各欠付工资期间的未付金额合计",
+      "evidence_needed": [
+        "payroll_tax_social_insurance_records",
+        "work_access_and_attendance_records",
+        "unpaid_wage_or_social_insurance_gap"
+      ],
+      "draft_note": "逐月列明工资期间、到期日、已付金额和欠付余额。"
+    },
+    "unused_annual_leave": {
+      "label": "未休年休假工资差额",
+      "source_anchors": [
+        "PAID-LEAVE-REG-2007#art5",
+        "PAID-LEAVE-MEASURES-2008#art10",
+        "PAID-LEAVE-MEASURES-2008#art11",
+        "LDA-2007#art2",
+        "LDA-2007#art6"
+      ],
+      "amount_rule": "unused_leave_days * daily_wage * statutory_multiplier_delta",
+      "amount_rule_text": "未休年休假天数 × 日工资 × 法定补付倍数差额",
+      "evidence_needed": [
+        "attendance_and_leave_records",
+        "twelve_month_wage_basis"
+      ],
+      "draft_note": "最终提交前核验当地年休假规则和实际已支付工资。"
+    },
+    "unsigned_contract_double_wage": {
+      "label": "未签劳动合同二倍工资差额",
+      "source_anchors": [
+        "LCL-2012#art82",
+        "LCL-REG-2008#art6",
+        "LCL-REG-2008#art7",
+        "LDA-2007#art2",
+        "LDA-2007#art27",
+        "SPC-LDI-1-2020#art44"
+      ],
+      "amount_rule": "monthly_wage * eligible_unsigned_contract_months",
+      "amount_rule_text": "月工资 × 符合条件的未签书面劳动合同月份数",
+      "evidence_needed": [
+        "labor_contract_and_renewals",
+        "payroll_tax_social_insurance_records",
+        "work_access_and_attendance_records"
+      ],
+      "disqualifying_risks": [
+        "worker_intentionally_refused_written_contract_after_employer_requested_signing",
+        "employer_has_delivery_or_renewal_request_evidence",
+        "claim_is_outside_arbitration_limitation"
+      ],
+      "draft_note": "核验仲裁时效，并核对用人单位能否证明其曾要求签订而劳动者拒绝。"
+    },
+    "non_compete_compensation": {
+      "label": "竞业限制经济补偿",
+      "source_anchors": [
+        "LCL-2012#art23",
+        "SPC-LDI-1-2020#art36",
+        "SPC-LDI-1-2020#art37",
+        "SPC-LDI-1-2020#art38"
+      ],
+      "amount_rule": "agreed_amount_or_30_percent_average_wage_floor_checked * performance_months",
+      "amount_rule_text": "约定月补偿金额；未约定时核验离职前 12 个月平均工资 30% 且不低于当地最低工资的口径，再乘实际履行月数",
+      "evidence_needed": [
+        "non_compete_agreement",
+        "compensation_payment_records",
+        "performance_of_non_compete"
+      ],
+      "draft_note": "核验竞业限制协议、劳动者履行情况、未付补偿月份、当地最低工资标准，以及连续 3 个月未支付补偿时是否具备解除条件。"
+    },
+    "non_compete_scope_invalid_or_limited": {
+      "label": "竞业限制不适用、范围过宽或违约金不应支持",
+      "source_anchors": [
+        "LCL-2012#art23",
+        "LCL-2012#art24",
+        "LCL-2012#art25",
+        "LCL-2012#art90",
+        "SPC-LDI-2-2025#art13",
+        "SPC-LDI-2-2025#art15"
+      ],
+      "amount_rule": "defense_or_zero_penalty_unless_effective_scope_and_loss_are_proven",
+      "amount_rule_text": "抗辩或金额为 0；需结合协议效力、适用范围、实际违约及损失证据核验",
+      "evidence_needed": [
+        "non_compete_agreement",
+        "role_and_secret_access_evidence",
+        "new_role_and_competition_scope",
+        "compensation_payment_records"
+      ],
+      "draft_note": "劳动者对适用人员范围、受保护的商业秘密或知识产权依据、竞争业务范围、地域、期限或违约责任有争议时使用。"
+    },
+    "pregnancy_wage_difference": {
+      "label": "孕期变相调岗降薪工资差额",
+      "source_anchors": [
+        "LCL-2012#art30",
+        "WRPL-2022#art48",
+        "FEP-2012#art5",
+        "FEP-2012#art6",
+        "LDA-2007#art2",
+        "LDA-2007#art6"
+      ],
+      "amount_rule": "(original_monthly_wage - reduced_monthly_wage) * affected_months",
+      "amount_rule_text": "（原月工资－降薪后月工资）× 受影响月数",
+      "evidence_needed": [
+        "labor_contract_and_renewals",
+        "salary_cut_transfer_objection",
+        "pregnancy_or_medical_status_proof",
+        "payroll_tax_social_insurance_records"
+      ],
+      "draft_note": "仅使用必要且已脱敏的敏感证明；核验医疗证明是否支持相应的工作量调整。"
+    }
+  },
+  "draft_application_outline": [
+    "劳动人事争议仲裁申请书",
+    "申请人信息",
+    "被申请人信息",
+    "仲裁请求",
+    "事实与理由",
+    "证据目录",
+    "此致",
+    "劳动人事争议仲裁委员会",
+    "申请人签名",
+    "日期"
+  ],
+  "global_safety_rules": [
+    "不要将仅属推测的内容写成已经证实的事实。",
+    "没有计算式和证据支持时，不要抬高请求金额。",
+    "不要把违法取得的公司数据列为证据。",
+    "被申请人身份、仲裁时效、管辖或已签署的权利放弃条款存在不确定时，标记律师复核。",
+    "提交前应核验当地仲裁委员会使用的表格和受理渠道。"
+  ]
+}

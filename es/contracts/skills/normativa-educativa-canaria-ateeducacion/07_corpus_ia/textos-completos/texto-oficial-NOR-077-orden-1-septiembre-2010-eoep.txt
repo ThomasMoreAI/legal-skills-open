@@ -1,0 +1,2024 @@
+ID interno: NOR-077
+Título oficial: ORDEN de 1 de septiembre de 2010, por la que se desarrolla la organización y funcionamiento de los equipos de orientación educativa y psicopedagógicos de zona y específicos de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-084
+URL origen: https://www.gobiernodecanarias.org/boc/2010/181/002.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2010-181-5207.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2010-181-5207).
+---
+              Boletín Oficial de Canarias núm. 181                24100                                  Martes 14 de septiembre de 2010
+
+
+
+       I. Disposiciones generales                                         las necesidades educativas del alumnado se realiza-
+                                                                          rá, lo más tempranamente posible, por personal con
+       Consejería de Educación, Universidades,                            la debida cualificación y en los términos que deter-
+       Cultura y Deportes                                                 minen las Administraciones educativas; este aspec-
+                                                                          to se concreta en el artículo 157 de la LOE, cuando
+       5207 ORDEN de 1 de septiembre de 2010, por la que                  menciona como recurso para la mejora de los apren-
+            se desarrolla la organización y funcionamien-                 dizajes y apoyo al profesorado, la existencia de ser-
+            to de los equipos de orientación educativa y                  vicios o profesionales especializados en la orienta-
+            psicopedagógicos de zona y específicos de la                  ción educativa, psicopedagógica y profesional.
+            Comunidad Autónoma de Canarias.
+                                                                             En el mismo sentido, se establecen pautas para el
+          La Ley Orgánica 2/2006, de 3 de mayo, de Edu-                   alumnado con NEAE en las distintas etapas de la en-
+       cación (LOE), da un tratamiento singularizado al                   señanza en el Decreto 183/2008, de 29 de julio, por
+       alumnado con “necesidades específicas de apoyo                     el que se establece la ordenación y el currículo del
+       educativo” (en adelante, NEAE) y a la orientación                  segundo ciclo de la Educación Infantil; en el Decre-
+       escolar en las distintas etapas de la enseñanza; ello              to 126/2007, de 24 de mayo, por el que se establece
+       ha supuesto la necesidad de una regulación de la                   la ordenación y el currículo de la Educación Prima-
+       atención a la diversidad acorde con los principios de              ria; y en el Decreto 127/2007, de 24 de mayo, por el
+       la nueva Ley y con nuestra propia normativa educa-                 que se establece la ordenación y el currículo de la Edu-
+       tiva en el Decreto 183/2008, de 29 de julio, por el que            cación Secundaria Obligatoria.
+       se establece la ordenación y el currículo del segun-
+       do ciclo de la Educación Infantil, el Decreto 126/2007,                Asimismo, el Decreto 104/2010, de 29 de julio,
+       de 24 de mayo, por el que se establece la ordenación               por el que se regula la atención a la diversidad del
+       y el currículo de la Educación Primaria, y el Decre-               alumnado en el ámbito de la enseñanza no universi-
+       to 127/2007, de 24 de mayo, por el que se establece                taria de Canarias, establece que la identificación y eva-
+       la ordenación y el currículo de la Educación Secun-                luación de las necesidades educativas del alumnado
+       daria Obligatoria y sus desarrollos en la Comunidad                que presenta NEAE se realizará lo antes posible por
+       Autónoma de Canarias. La finalidad de esta Orden                   los EOEP, dependientes de la Consejería competen-
+       es regular la organización y funcionamiento de los                 te en materia de educación, con la colaboración del
+       Equipos de Orientación Educativa y Psicopedagógi-                  profesorado, de la familia y de cuantos profesiona-
+       cos (en adelante, EOEP) de zona y específicos de la                les intervengan, en los términos que fije dicha Ad-
+       Comunidad Autónoma de Canarias, adaptando los mo-                  ministración educativa, y fomentarán planes de ac-
+       delos, procesos y protocolos de orientación escolar                tuación adecuados a dichas necesidades y coordinados
+       en los centros de nuestro ámbito de gestión, recogien-             con los servicios sociosanitarios de la zona. Por ello,
+       do, asimismo, los avances que en materia de orien-                 la garantía de una efectiva respuesta se encuentra prin-
+       tación escolar se han realizado los últimos años.                  cipalmente en la identificación de las necesidades edu-
+                                                                          cativas, lo que hace imprescindible establecer el pro-
+          La orientación escolar tiene como finalidad con-                ceso de la evaluación psicopedagógica que habrá de
+       seguir el máximo desarrollo de las capacidades y com-              seguirse, así como, el contenido del informe psico-
+       petencias de todo el alumnado, su desarrollo inte-                 pedagógico que oriente la respuesta educativa más
+       gral y su integración social, así como el respeto a                apropiada.
+       la diversidad, mediante la adecuación progresiva de
+       la atención educativa a las características particu-                  Establecido el derecho a la orientación en las di-
+       lares de los escolares. Este principio lo recoge la LOE,           ferentes etapas del sistema educativo, procede, ac-
+       cuando considera la orientación educativa y profe-                 tualizar y contextualizar la organización, funciones
+       sional de los estudiantes como un medio necesario                  y ámbitos de actuación de los EOEP. Todo ello sin
+       para el logro de una formación personalizada, que                  dejar de estimar los aspectos que no haya modifica-
+       propicie una educación integral en conocimientos,                  do la LOE o su desarrollo normativo recogidos en el
+       destrezas y valores. Además, establece que los po-                 Decreto 23/1995, de 24 de febrero (BOC de 20 de
+       deres públicos prestarán una atención prioritaria al               marzo, corrección de errores BOC de 3 de mayo), por
+       conjunto de factores que favorecen la calidad de la                el que se regula la orientación educativa en la Co-
+       enseñanza y, en especial, a la orientación educati-                munidad Autónoma de Canarias, y se establece la or-
+       va y profesional.                                                  ganización, funciones y ámbitos de actuación de los
+                                                                          EOEP, tanto los de zona como los específicos.
+          La citada Ley, en su artículo 71, establece que las
+       Administraciones educativas dispondrán de los me-                     Las nuevas exigencias de la LOE y de los Decre-
+       dios necesarios para que todo el alumnado alcance                  tos que la desarrollan, la experiencia acumulada de
+       el máximo desarrollo personal, intelectual y emocio-               los EOEP en la Comunidad Autónoma Canarias y los
+       nal, así como los objetivos establecidos con carácter              avances en las estrategias y procedimientos de orien-
+       general en la presente Ley. Asimismo, en su artícu-                tación escolar aconsejan establecer una regulación nor-
+       lo 74 determina que la identificación y valoración de              mativa sobre la organización y funcionamiento de los
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24101                                 Martes 14 de septiembre de 2010
+
+
+
+       EOEP, acorde a los tiempos y normativas actuales y                    Artículo 2.- Los Equipos de Orientación Educa-
+       con visión de futuro, con la finalidad de aumentar la              tiva y Psicopedagógicos.
+       eficacia y la eficiencia de la respuesta educativa que
+       se proporciona a nuestros escolares.                                  1. Los EOEP constituyen el soporte técnico de
+                                                                          la orientación educativa, colaborando para lograr
+          Esta Orden comprende cinco capítulos. En el pri-                un desarrollo personalizado e integral de todo el
+       mero se establecen disposiciones generales; en el se-              alumnado.
+       gundo, la organización y estructura de los EOEP de
+       zona; en el tercero, se establece la organización y es-                2. Entre sus funciones están las encaminadas a fa-
+       tructura de los EOEP específicos; en el cuarto se de-              vorecer que los centros establezcan las medidas opor-
+       terminan distintos aspectos del funcionamiento de los              tunas para atender la diversidad de capacidades, in-
+       Equipos tanto de zona como específicos y en el quin-               tereses y motivaciones del alumnado y adapten sus
+       to, se regulan las condiciones para elaborar la eva-               respuestas educativas a las necesidades del mismo,
+       luación e informe psicopedagógico, entre otros, por                actuando a través del asesoramiento y orientación edu-
+       los Equipos de zona y específicos.                                 cativa, en distintos ámbitos. Por una parte, atendien-
+                                                                          do a la población escolar en los centros y, por otra,
+          Según dispone la Ley 1/1983, de 14 de abril, del                en el sector donde se ubican, coordinándose con los
+       Gobierno y de la Administración Pública de la Co-                  distintos servicios socio-comunitarios para optimizar
+       munidad Autónoma de Canarias, en su artículo 32,                   la respuesta a las necesidades detectadas.
+       los Consejeros, como miembros del Gobierno, tie-
+       nen, entre otras funciones, las de ejercer la potestad                3. En el ámbito de la Administración educativa de
+       reglamentaria en las materias propias de su Depar-                 la Comunidad Autónoma de Canarias existen EOEP
+       tamento, en forma de Órdenes Departamentales.                      de zona y específicos, cuyo funcionamiento se ajus-
+                                                                          tará a las condiciones y protocolos de actuación pre-
+          Conforme a todo lo anterior, en ejercicio de las com-           vistos en la presente Orden.
+       petencias atribuidas en el artículo 5, apartado 1, le-
+       tra c), del Reglamento Orgánico de la Consejería de                   Artículo 3.- Alumnado con NEAE.
+       Educación, Cultura y Deportes, en cuanto a la potes-
+       tad de ordenación jurídica de los centros públicos de                 Se entenderá como alumnado “con necesidades es-
+       enseñanza no universitaria dependientes del Depar-                 pecíficas de apoyo educativo” el definido en el artícu-
+       tamento (BOC nº 148, de 1 de agosto), aprobado por                 lo 4 del Decreto 104/2010, de 29 de julio, por el que
+       el Decreto 113/2006, de 26 de julio, a iniciativa de               se regula la atención a la diversidad del alumnado en
+       la Dirección General de Ordenación e Innovación Edu-               el ámbito de la enseñanza no universitaria (BOC de
+       cativa y a propuesta del Viceconsejero de Educación                6 de agosto).
+       y Universidades, previo informe del Consejo Esco-
+       lar de Canarias,                                                                        CAPÍTULO II
+
+                             D I S P O N G O:                             LA ORGANIZACIÓN Y ESTRUCTURA DE LOS EQUIPOS
+                                                                                   DE ORIENTACIÓN EDUCATIVA
+                                 CAPÍTULO I                                       Y PSICOPEDAGÓGICOS DE ZONA
+
+                     DISPOSICIONES GENERALES                                 Artículo 4.- Coordinación de los EOEP de zona.
+          Artículo 1.- Objeto y ámbito de aplicación.                       1. Los EOEP de zona, para su coordinación, se or-
+                                                                          ganizarán de acuerdo a la siguiente estructura:
+          1. La presente Orden tiene por objeto regular la
+       organización y funcionamiento de los EOEP de zo-                      a) Coordinador o coordinadora de EOEP.
+       na y específicos.
+                                                                             b) Plenario de EOEP.
+          2. Esta Orden será de aplicación en los centros do-
+       centes públicos y en lo que les afecte, en los priva-                c) Grupo de coordinación de la orientación en
+       dos concertados y privados, que imparten enseñan-                  Educación Infantil y Primaria.
+       zas no universitarias del sistema educativo español
+       en el ámbito de gestión de la Comunidad Autónoma                     d) Grupo de coordinación de la orientación en
+       de Canarias.                                                       Educación Secundaria.
+          3. La presente Orden no será de aplicación al                     e) Grupo de coordinación de comunicación y len-
+       alumnado con NEAE escolarizado en centros de edu-                  guaje, si lo hubiera.
+       cación permanente de adultos o cursando las ense-
+       ñanzas de formación profesional, que se regulará por                   f) Trabajador o trabajadora social o, si lo hubie-
+       una normativa específica.                                          ra, grupo de coordinación de trabajo social.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24102                                  Martes 14 de septiembre de 2010
+
+
+
+          g) Comisión económica.                                          del Equipo, el seguimiento del cumplimiento de las
+                                                                          funciones del EOEP e informando al Inspector Coor-
+          2. Aquellos EOEP que debido al número de com-                   dinador o Inspectora Coordinadora de cuantas inci-
+       ponentes no pudieran organizarse conforme a esta es-               dencias ocurran.
+       tructura organizativa presentarán una propuesta al-
+       ternativa a la Dirección General de Ordenación e                      f) Ejercer la jefatura del personal adscrito al Equi-
+       Innovación Educativa, previo informe de la Inspec-                 po, realizando, entre otras tareas, la de toma de po-
+       ción de Educación. En este caso, cada miembro del                  sesión y cese de los componentes del EOEP adscri-
+       Equipo estará asignado a uno o varios grupos de                    tos al Equipo, control de asistencia a las reuniones
+       coordinación.                                                      del EOEP de los componentes en las reuniones auto-
+                                                                          rizadas por el órgano competente y gestión de itine-
+          Artículo 5.- Nombramiento y funciones del Coor-                 rancias y documentación.
+       dinador o la Coordinadora del EOEP de Zona.
+                                                                             g) Administrar los recursos disponibles, realizan-
+          1. Cada EOEP tendrá un coordinador o coordina-                  do, entre otras tareas, la custodia de los documentos,
+       dora, elegido por sus miembros entre los orientado-                informes y materiales.
+       res y orientadoras o entre el personal laboral de psi-
+       cología o pedagogía. Deberá contar con un mínimo                      h) Coordinarse con el Inspector Coordinador o Ins-
+       de tres años de antigüedad en el servicio y uno en la              pectora Coordinadora del Equipo y con el coordina-
+       zona. Esta propuesta se trasladará a la Dirección Ge-              dor general de los EOEP, en aquellos aspectos que
+       neral de Ordenación e Innovación Educativa, que de                 afecten al funcionamiento del Equipo.
+       considerarla, la remitirá para su nombramiento a la
+       Dirección General de Personal de la Consejería de                     i) Cualquier otra que reglamentariamente se
+       Educación, Universidades, Cultura y Deportes.                      determine.
+
+           2. En el caso de que no se presente una propues-                  5. Los coordinadores o coordinadoras de los EOEP
+       ta, la Dirección General de Ordenación e Innovación                contarán con el siguiente descuento horario: EOEP
+       Educativa resolverá, de oficio proponiendo el nom-                 con menos de 10 componentes, 5 horas mensuales; en-
+       bramiento de un orientador o de una orientadora,                   tre 10 y 17 componentes, 10 horas mensuales; y con
+       previo informe del inspector o la inspectora coordi-               18 o más componentes, 15 horas mensuales. Se de-
+       nadora del Equipo. Hasta tanto, seguirá ejerciendo                 berán utilizar los jueves preferentemente para este ho-
+       las funciones el Coordinador o Coordinadora desig-                 rario, excepto el jueves en que se reúna el plenario.
+       nado en el curso anterior.
+                                                                             6. El coordinador o coordinadora facilitará y ga-
+          3. Si la ausencia es debida a un cambio de desti-               rantizará las relaciones y coordinaciones necesarias
+       no, el coordinador o coordinadora actuará hasta que                entre su Equipo, el resto de los EOEP y los centros
+       se proceda a su sustitución en el siguiente plenario.              privados concertados adscritos, siendo necesaria la
+       En caso de bajas o ausencias prolongadas del coor-                 autorización de la Dirección General de Ordenación
+       dinador o coordinadora, actuará como tal el compo-                 e Innovación Educativa, previo visado del Inspector
+       nente más antiguo del Equipo que más se ajuste a las               Coordinador o Inspectora Coordinadora del Equipo,
+       condiciones establecidas en el apartado 1 anterior.                cuando ello suponga la celebración de reuniones no
+                                                                          establecidas en el plan de trabajo trimestral después
+          4. El coordinador o coordinadora del EOEP ten-                  de su aprobación.
+       drá las siguientes funciones:
+                                                                             Artículo 6.- Desarrollo del plenario de los EOEP.
+          a) Representar al Equipo ante cualquier instancia.
+                                                                             1. El plenario estará compuesto por todos los in-
+          b) Coordinar las actuaciones del Equipo con el Cen-             tegrantes del EOEP. La actuación de los componen-
+       tro del Profesorado, con otras instituciones, organis-             tes del EOEP de zona debe ofrecer una respuesta
+       mos o servicios de la zona, con otros EOEP, con los                coordinada a las necesidades educativas de la zona
+       centros privados concertados adscritos al Equipo y                 y de cada centro en particular, partiendo del análisis
+       con el coordinador general de los EOEP, entre otros.               de estas realizado de forma conjunta con los agen-
+                                                                          tes educativos y sociales, y del análisis de necesida-
+          c) Coordinar las actuaciones del Equipo en su zona.             des presentadas por los centros.
+
+          d) Coordinar la elaboración del plan de trabajo anual              2. Por acuerdo del Equipo, el coordinador o coor-
+       del Equipo y su memoria final.                                     dinadora podrá invitar a las sesiones del plenario a
+                                                                          los orientadores y orientadoras de los centros priva-
+          e) Velar por el cumplimiento de las obligaciones                dos concertados adscritos a éste, siempre y cuando
+       de los integrantes del Equipo, realizando, entre otras             los temas a tratar tengan que ver con el desempeño
+       tareas, el visado de los informes psicopedagógicos                 de su trabajo.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24103                                 Martes 14 de septiembre de 2010
+
+
+
+          3. Con el fin de alcanzar la necesaria actuación con-            unidades de trabajo social. Se entiende por unidad de
+       junta en la respuesta ofrecida por el Equipo a cada                 actuación el centro o centros asignados a cada uno
+       centro y a la zona, se establecerán diferentes tipos de             de los componentes con destino en el EOEP de zo-
+       coordinación, las cuales quedarán reflejadas tam-                   na y que respondan a las siguientes características:
+       bién en el plan de trabajo del Equipo.
+                                                                               a) Una unidad de orientación estará compuesta por
+          4. Con el objetivo de ejecutar las acciones de                   el centro o centros educativos atendidos por un orien-
+       coordinación establecidas en la normativa, los com-                 tador u orientadora con destino en el EOEP. Cada uni-
+       ponentes del Equipo celebrarán una reunión conjun-                  dad de orientación tendrá un centro sede, que coin-
+       ta en su sede el primer jueves de cada mes. El hora-                cidirá con uno de los centros de actuación. Los centros
+       rio será de 9 a 14 horas y sólo se podrá modificar con              sedes serán, preferentemente, centros de Educación
+       la autorización previa de la Dirección General de                   Infantil y Primaria.
+       Ordenación e Innovación Educativa. En caso de coin-
+       cidir con festivos, vacaciones u otros, la reunión se                  b) Una unidad de atención en comunicación y
+       celebrará el segundo jueves o el día que se establez-               lenguaje estará compuesta por el centro o centros
+       ca por la Dirección General de Ordenación e Inno-                   educativos atendidos por el maestro o maestra de
+       vación Educativa. Esta planificación debe realizar-                 audición y lenguaje con destino en el EOEP, de tal
+       se desde el comienzo de curso. El resto del tiempo                  manera que todos los centros públicos adscritos al
+       será de atención directa a sus centros y deberá figu-               EOEP estén incluidos en las unidades determina-
+       rar así en su horario personal y del centro, salvo lo               das. Cada unidad de atención en comunicación y
+       establecido en plan de trabajo trimestral aprobado o                lenguaje tendrá un centro sede, que coincidirá con
+       lo dispuesto por la Dirección General de Ordenación                 uno de los centros de actuación. Los centros sedes
+       e Innovación Educativa. En la reunión se garantiza-                 serán, preferentemente, centros de Educación In-
+       rán, en su primera parte, todas las acciones que fa-                fantil y Primaria.
+       ciliten la actuación conjunta y coordinada de los
+       componentes del Equipo. La segunda parte se desti-                     c) Una unidad de trabajo social estará compues-
+       nará a la coordinación interetapas educativas, grupos               ta por el centro o los centros educativos que atiende
+       de coordinación y áreas de trabajo.                                 el EOEP. Cada unidad de trabajo social tendrá un cen-
+                                                                           tro sede, que coincidirá con su centro de destino.
+           5. Para garantizar la coordinación entre las distin-
+       tas etapas educativas, los responsables de los grupos                   d) Los componentes de los EOEP de zona forma-
+       de coordinación de las etapas de Educación Secun-                   rán parte del claustro del centro sede que se les asig-
+       daria y de Infantil y Primaria, elaborarán un plan de               ne, y podrán participar, en su caso, en los claustros
+       coordinación entre ambas etapas, teniendo en cuen-                  de los centros donde ejercen su función, de acuerdo
+       ta los distritos educativos establecidos por la Conse-              a las prioridades que se establezcan por razón de ser-
+       jería de Educación, Universidades, Cultura y Depor-                 vicio y en los términos que establezca la Consejería
+       tes, para facilitar el tránsito interetapas del alumnado.           competente en materia de educación.
+       Los componentes del Equipo que intervienen en el
+       mismo distrito analizarán las necesidades de éste y                     3. Las unidades de orientación, de atención en
+       ofrecerán una respuesta coordinada y conjunta para                  comunicación y lenguaje y de trabajo social tendrán
+       cada uno de los centros en colaboración con los equi-               carácter indefinido salvo que se produzcan modi-
+       pos directivos de dichos centros.                                   ficaciones en el número de centros atendidos por
+                                                                           el Equipo. Igualmente, perderán dicho carácter in-
+          Artículo 7.- Organización y distribución de los                  definido en el supuesto de unidades afectadas por
+       EOEP de zona en unidades de orientación, audición                   la modificación del número de miembros del Equi-
+       y lenguaje y trabajo social.                                        po, el cambio de coordinador o coordinadora o en
+                                                                           el caso de que se produzcan cambios propuestos por
+           1. Con el fin de garantizar una intervención eficaz             el propio Equipo, debidamente fundamentados y apro-
+       y de calidad, los EOEP de zona se distribuirán por ám-              bados por la Dirección General de Ordenación e Inno-
+       bitos geográficos de actuación atendiendo de forma con-             vación Educativa, previo informe favorable del
+       junta a los siguientes criterios: a) número de centros,             Inspector Coordinador o Inspectora Coordinadora
+       de unidades o grupos de éstos, y número de alumna-                  del Equipo.
+       do y profesorado a atender; b) dispersión geográfica en-
+       tre los diferentes centros de la zona; c) características              Artículo 8.- Creación de los grupos de coordinación.
+       sociales de la zona y necesidades educativas de los cen-
+       tros localizados en ella; d) tipo de respuestas educati-              1. Grupo de coordinación de la orientación en
+       vas y de modalidades de escolarización.                             Educación Infantil y Primaria.
+
+          2. Cada EOEP de zona estará organizado en una                       Los componentes del Equipo que intervienen en
+       o más unidades de actuación: unidades de orientación,               las etapas educativas de Educación Infantil, Prima-
+       unidades de atención en comunicación y lenguaje y                   ria y en los centros de educación especial (en ade-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24104                                  Martes 14 de septiembre de 2010
+
+
+
+       lante, CEE) analizarán las necesidades de la zona y                     1. El coordinador o la coordinadora del Equipo,
+       ofrecerán una respuesta coordinada y conjunta. Pa-                  en función de los recursos humanos asignados y de
+       ra tal fin, se nombrará un responsable de este grupo                los centros educativos de su influencia, propondrá,
+       entre los orientadores y orientadoras de estas etapas,              a través del procedimiento establecido en el aparta-
+       y en el caso de no constituir su propio grupo, entre                do 4 de este artículo, las unidades de orientación o
+       el trabajador o trabajadora social y los maestros o maes-           trabajo social a determinar, atendiendo a los siguien-
+       tras de audición y lenguaje adscritos al EOEP.                      tes criterios en su conjunto:
+
+         2. Grupo de coordinación de la orientación en                       a) Número de centros, de unidades o grupos y nú-
+       Educación Secundaria.                                               mero de alumnado y profesorado a atender.
+
+          Los componentes del Equipo que intervienen en                       b) Dispersión geográfica.
+       la etapa de Educación Secundaria analizarán las ne-
+       cesidades de la zona y ofrecerán una respuesta coor-                   c) Características sociales de la zona y necesida-
+       dinada y conjunta. Para tal fin, se nombrará un res-                des educativas de los centros localizados en ésta, ta-
+       ponsable del grupo de coordinación de esta etapa                    les como los centros a que hace referencia el artícu-
+       entre los orientadores o las orientadoras con destino               lo 4 del Decreto 104/2010, de 29 de julio, por el que
+       en un Instituto de Educación Secundaria (IES) o en                  se regula la atención a la diversidad del alumnado en
+       un Centro de Educación Obligatoria (CEO).                           el ámbito de la enseñanza no universitaria (BOC de
+                                                                           6 de agosto): CEE, aulas enclave (en adelante, AE),
+          3. Grupo de coordinación de comunicación y                       centros ordinarios de atención educativa preferente
+       lenguaje.                                                           (en adelante COAEP).
+
+           Se creará un grupo de coordinación de comuni-                      d) Pertenencia a un mismo distrito.
+       cación y lenguaje cuando existan dos o más maes-
+       tros o maestras de audición y lenguaje o logopedas                     2. El Coordinador o la Coordinadora del Equipo,
+       adscritos al EOEP de zona. En caso de no constituir                 en función de los recursos humanos que le han asig-
+       grupo propio, se integrarán en el Grupo de coordi-                  nado y de los centros educativos de su influencia, pro-
+       nación de la orientación en educación infantil y edu-               pondrá, a través del procedimiento establecido en el
+       cación primaria. Para desarrollar su trabajo, se nom-               apartado 4 de este artículo, las unidades de atención
+       brará un responsable del grupo de coordinación de                   en comunicación y lenguaje a determinar atendien-
+       comunicación y lenguaje de entre sus componentes.                   do a los siguientes criterios en su conjunto:
+       Los componentes del grupo de coordinación de co-
+       municación y lenguaje analizarán de forma conjun-                      a) Número de alumnos y alumnas que presentan
+       ta las necesidades educativas del alumnado en el ám-                dificultades graves y atención muy especializada.
+       bito de la comunicación y el lenguaje y ofrecerán una
+       respuesta coordinada en la zona.                                       b) Número de alumnos y alumnas a atender y de
+                                                                           profesorado de los centros atendidos.
+          4. Grupo de coordinación de trabajo social.
+                                                                              c) Número de centros, excluyendo a los CEE y a
+          Se creará un grupo de coordinación de trabajo                    los COAEP de discapacidad auditiva.
+       social cuando existan dos o más trabajadores o tra-
+       bajadoras sociales adscritas al EOEP de zona. En                       d) Dispersión geográfica.
+       caso de no constituir grupo propio, se integrarán en
+       el Grupo de coordinación de la orientación en Edu-                     3. La asignación de las unidades de orientación,
+       cación Infantil y Primaria. Para desarrollar su tra-                de atención en comunicación y lenguaje y de tra-
+       bajo, se nombrará un responsable del grupo de                       bajo social del EOEP de zona, se realizará anual-
+       coordinación de trabajo social de entre sus compo-                  mente, teniendo en cuenta la Orden de 28 de abril
+       nentes. Los componentes del grupo de coordinación                   de 2006 (BOC nº 146, de 28 de julio) por la que
+       de trabajo social analizarán de forma conjunta las                  se fijan criterios de ordenación del profesorado con
+       necesidades sociales del alumnado en el ámbito de                   destino en los Equipos de Orientación Educativa
+       actuación del Equipo y ofrecerán una respuesta                      y Psicopedagógicos y conforme al siguiente
+       coordinada en la zona.                                              procedimiento:
+
+         Artículo 9.- Criterios y procedimientos para las                     a) Al comienzo de curso, se reunirán sólo los
+       modificaciones de las unidades de actuación.                        profesionales con destino en el EOEP de zona en
+                                                                           sesión plenaria y se acordará una propuesta de
+          Las propuestas de modificación de las unidades                   asignación.
+       de orientación, de atención en comunicación y len-
+       guaje y de trabajo social se realizarán adoptando los                  b) El coordinador o coordinadora elevará a la Di-
+       siguientes criterios y procedimientos:                              rección General de Ordenación e Innovación Educa-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24105                                  Martes 14 de septiembre de 2010
+
+
+
+       tiva la propuesta de asignación. La copia de la pro-               de actuación en cada centro que no puedan ser ofre-
+       puesta de asignación se remitirá al Inspector Coor-                cidas de forma completa por los profesionales asig-
+       dinador o Inspectora Coordinadora del Equipo para                  nados a éste.
+       su conocimiento e informe, si lo considera conveniente.
+                                                                             3. Las actuaciones en centros no asignados se rea-
+          c) La Dirección General de Ordenación e Innova-                 lizarán a partir de una planificación trimestral.
+       ción Educativa resolverá la propuesta de asignación
+       de unidades, la cual será comunicada al Coordina-                     4. El Coordinador o Coordinadora del EOEP se-
+       dor o Coordinadora del EOEP y al Inspector Coor-                   rá el responsable de que se realice la planificación
+       dinador o Inspectora Coordinadora.                                 de estas actuaciones, de tal manera que se distribu-
+                                                                          yan de forma equilibrada entre sus componentes, te-
+          d) El coordinador o coordinadora tendrá derecho                 niendo en cuenta la especificidad del trabajo que ha-
+       preferente para elegir la unidad de orientación.                   brá de realizarse, y se informará con la debida
+                                                                          antelación a los directores y directoras de los centros
+          4. Cuando se acuerde por el EOEP la modifica-                   implicados.
+       ción de las unidades de orientación, de atención en
+       comunicación y lenguaje y de trabajo social, se rea-                  5. La planificación trimestral, realizada confor-
+       lizará conforme al siguiente procedimiento:                        me al modelo proporcionado por la Dirección Ge-
+                                                                          neral de Ordenación e Innovación Educativa, for-
+          a) Se reunirán los profesionales con destino en el              mará parte del plan de trabajo anual del Equipo y
+       EOEP de zona en sesión plenaria y se diseñará una                  se irá añadiendo a él una vez acordada por el Equi-
+       propuesta de modificación de las unidades.                         po. El coordinador o coordinadora del EOEP la re-
+                                                                          mitirá al Inspector Coordinador o Inspectora Coor-
+          b) El Coordinador o Coordinadora remitirá la pro-               dinadora para su aprobación, por el procedimiento
+       puesta de modificación al Inspector o Inspectora                   que se establezca.
+       Coordinador del Equipo para su valoración e infor-
+       me, el cual trasladará a la Dirección General de Or-                  6. Cualquier modificación en la planificación tri-
+       denación e Innovación Educativa para su aproba-                    mestral deberá ser aprobada por el Inspector Coor-
+       ción definitiva.                                                   dinador o Inspectora Coordinadora del EOEP.
+
+          c) La Dirección General de Ordenación e Innova-                    7. En la planificación trimestral se reflejarán las
+       ción Educativa resolverá la propuesta de modifica-                 fechas en que se realizarán las valoraciones en los cen-
+       ción de unidades, la cual será comunicada al Coor-                 tros no asignados.
+       dinador o Coordinadora del EOEP y al Inspector o
+       Inspectora Coordinador.                                               8. En los CEE, el orientador u orientadora, en el
+                                                                          caso de que el número de alumnos y alumnas sea in-
+          5. Hasta el momento de su aprobación por parte                  ferior a 80 atenderá a otros centros, determinados por
+       de la Dirección General de Ordenación e Innovación                 el EOEP de zona al que pertenezca. En estos casos,
+       Educativa de las nuevas unidades, o de la modifica-                la Consejería competente en materia de Educación
+       ción de las existentes, seguirán en funcionamiento las             podrá optar por nombrar a un orientador u orienta-
+       ya acordadas para el curso anterior.                               dora a tiempo parcial en función de las necesidades
+                                                                          de la planificación.
+          6. En cada unidad, el componente del Equipo
+       asignado a ésta realizará una propuesta de actua-                                       CAPÍTULO III
+       ción en función del número de centros y de sus ca-
+       racterísticas. El orientador o la orientadora que atien-           ORGANIZACIÓN DE LOS EQUIPOS DE ORIENTACIÓN
+       da a más de un centro, garantizará su atención                      EDUCATIVA Y PSICOPEDAGÓGICOS ESPECÍFICOS
+       periódica en función de las necesidades de éstos,
+       de manera equitativa y, en caso de discrepancias                      Artículo 11.- Ámbito de actuación de los EOEP
+       con los equipos directivos de los centros, resol-                  específicos.
+       verá la Inspección de Educación.
+                                                                             1. El ámbito geográfico de actuación de los EOEP
+          Artículo 10.- Actuaciones de los orientadores o                 específicos es interinsular, con adscripción a una sede
+       las orientadoras en centros que no tienen asignados.               única, una en Las Palmas de Gran Canaria, para las
+                                                                          islas de Gran Canaria, Lanzarote y Fuerteventura, y
+          1. Se entiende por centros no asignados a aque-                 otra en Santa Cruz de Tenerife, para las islas de Te-
+       llos que no formen parte de su unidad de actuación.                nerife, La Palma, La Gomera y El Hierro. A su vez,
+                                                                          tienen un carácter de complementariedad con respec-
+          2. Las actuaciones de componentes del Equipo en                 to a los distintos EOEP de zona, por lo que su inter-
+       centros diferentes a los asignados se realizarán siem-             vención siempre la pondrán en conocimiento del
+       pre como respuesta a necesidades derivadas del plan                orientador u orientadora del centro. Se iniciará un pro-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24106                                 Martes 14 de septiembre de 2010
+
+
+
+       ceso de colaboración entre los EOEP de zona y es-                  la coordinación con los centros educativos de di-
+       pecíficos, en el que el plan de trabajo será consen-               cha unidad.
+       suado con el orientador o la orientadora del centro
+       que ha de atenderse, permitiendo dar una respuesta                    2. En los EOEP específicos de atención a la
+       más ajustada a las necesidades educativas que plan-                discapacidad auditiva, a la discapacidad motora y
+       tee el alumno o la alumna.                                         de atención a los trastornos generalizados del de-
+                                                                          sarrollo, los componentes con destino definitivo man-
+          2. Los EOEP específicos y de zona serán co-                     tendrán las unidades asignadas por un período no
+       rresponsables de las tareas de valoración, segui-                  superior a tres cursos académicos. En caso de va-
+       miento y organización de la respuesta educativa                    cantes, los nuevos componentes o algunos de los
+       del alumnado con un determinado tipo de disca-                     antiguos, si lo desean, elegirán éstas siguiendo el
+       pacidad o trastorno, por lo que la actuación de am-                orden establecido en la Orden de 28 de abril de 2006
+       bos Equipos debe ser coordinada. El EOEP espe-                     (BOC nº 146, de 28 de julio), por la que se fijan
+       cífico se responsabilizará de la elaboración del                   criterios de ordenación del profesorado con desti-
+       informe psicopedagógico, y el EOEP de zona                         no en los EOEP.
+       aportará toda la información relevante al respec-
+       to, consensuando las decisiones educativas. Am-                       3. Cada EOEP específico elaborará un plan de
+       bos Equipos firmarán el informe psicopedagógi-                     trabajo anual y una memoria final, con los apartados
+       co tanto los componentes del EOEP de zona que                      establecidos en los anexos IX y X de la presente Or-
+       hayan participado en la valoración como los que                    den, siguiendo el procedimiento y plazos determina-
+       hayan intervenido en ella del o de los Equipos es-                 dos por la Dirección General de Ordenación e Inno-
+       pecíficos, según los casos. De cualquier manera                    vación Educativa.
+       será necesaria, al menos, la firma de un orienta-
+       dor u orientadora por cada Equipo interviniente,                      4. En el caso del EOEP específico para el
+       tanto en el informe psicopedagógico como en sus                    alumnado con discapacidad visual, la aproba-
+       actualizaciones.                                                   ción del plan de trabajo y la memoria final de-
+                                                                          penderá de la comisión técnica establecida en el
+           3. Para cada una de las discapacidades y trastor-              convenio de colaboración entre la Consejería
+       nos objeto de cada Equipo específico, los miembros                 competente en materia de educación y la Orga-
+       de dicho Equipo elaborarán materiales y modelos de                 nización Nacional de Ciegos de España mientras
+       prácticas educativas destinados a los docentes de                  dure su vigencia.
+       apoyo al alumnado con NEAE y del aula ordinaria,
+       a través de talleres u otras estrategias. Asimismo, di-               Artículo 13.- Colaboración de los EOEP especí-
+       señarán y publicarán planes de orientación y aseso-                ficos con otros organismos o instituciones.
+       ramiento para las familias.
+                                                                             1. La colaboración con otros organismos e insti-
+          4. Con el fin de ejecutar las acciones de coordi-               tuciones se realizará de acuerdo a los convenios y pro-
+       nación establecidas en la normativa, los componen-                 tocolos de coordinación vigentes quedando refleja-
+       tes del Equipo específico celebrarán una reunión                   da en el plan de trabajo.
+       conjunta en su sede el primer jueves de cada mes, en
+       horario de 9 a 14 horas. En caso de coincidir con fes-                2. Los EOEP específicos se coordinarán con otros
+       tivos, vacaciones u otros, la reunión se celebrará el              servicios educativos, sociales y sanitarios, en las si-
+       segundo jueves o el día que se establezca por la Di-               guientes situaciones:
+       rección General de Ordenación e Innovación Educa-
+       tiva. En la planificación trimestral se reflejarán las                a) Establecimiento de líneas consensuadas de in-
+       fechas en que se realizarán las valoraciones en los cen-           tervención temprana en el período de edad de 0 a 3
+       tros no asignados. El tiempo restante se dedicará a                años.
+       la atención de sus centros.
+                                                                             b) Obtención de información sobre la población
+          Artículo 12.- Organización y distribución del tra-              de 0-3 años con discapacidad o trastornos propios de
+       bajo de los EOEP específicos.                                      su ámbito de actuación.
+          1. Cada EOEP específico se organizará en uni-                      c) Realización, en colaboración con el orienta-
+       dades de actuación: unidades de orientación, uni-                  dor u orientadora del centro si estuviera escolari-
+       dades de trabajo social y unidades de audición y                   zado el alumno o alumna, de peticiones de estu-
+       lenguaje, en su caso, entendiendo por tales el                     dio médico u obtención de información de servicios
+       centro o centros asignados a cada uno de los com-                  sanitarios, a través de la familia, relativa a trata-
+       ponentes con destino en el EOEP específico co-                     miento farmacológico, uso y estado de prótesis, mo-
+       rrespondiente. Cada componente del EOEP espe-                      vilidad y control postural, cuidados a tener en
+       cífico será asignado a una única unidad de                         cuenta en el contexto escolar, diagnóstico y pro-
+       orientación y será la persona de referencia para                   nóstico médico, etc.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                  24107                                 Martes 14 de septiembre de 2010
+
+
+
+                                CAPÍTULO IV                                 cerá las líneas prioritarias de actuación que afectan
+                                                                            a los EOEP, con el fin de mejorar la calidad del sis-
+            FUNCIONAMIENTO DE LOS EOEP DE ZONA                              tema educativo en el ámbito de los centros educati-
+                      Y ESPECÍFICOS                                         vos de la Comunidad Autónoma de Canarias.
+          Artículo 14.- Plan de trabajo y memoria final de                      2. Estas líneas de actuación deberán concretar-
+       los EOEP de Zona y Específicos.                                      se en acciones que se programen en el plan de tra-
+                                                                            bajo del EOEP y se reflejen en los planes de traba-
+          1. La actuación de los componentes del EOEP de-                   jo individuales de sus componentes, sin perjuicio de
+       be ofrecer una respuesta coordinada a las necesida-                  las concreciones que esta Dirección General de Or-
+       des educativas de la zona y de cada centro en parti-                 denación e Innovación Educativa realice para cada
+       cular, partiendo del análisis de necesidades realizado               una de las líneas y de otras prioridades que pueda
+       de forma conjunta con los agentes educativos y so-                   determinar.
+       ciales, y del análisis de necesidades presentadas por
+       los centros. El resultado final de dicho análisis que-                 Artículo 16.- Asignación de valoraciones psico-
+       dará reflejado en el plan de trabajo del Equipo. Este                pedagógicas.
+       plan de trabajo, al igual que la memoria final, será
+       trasladado a la Dirección General de Ordenación e                       1. Los informes psicopedagógicos de los centros
+       Innovación Educativa por el coordinador o la coor-                   públicos en los que no intervenga un Equipo especí-
+       dinadora del EOEP por el procedimiento estableci-                    fico, serán realizados y firmados sólo por el orienta-
+       do en el artículo 17 de esta Orden.                                  dor u orientadora que tenga dicho centro en su uni-
+                                                                            dad de orientación, con la firma del maestro o maestra
+          2. Los planes de actuación de los componentes del                 de audición y lenguaje y del trabajador o trabajado-
+       EOEP de zona en sus respectivos centros deberán es-                  ra social del EOEP de zona cuando hayan participa-
+       tar consensuados con el o los centros educativos                     do en dicha valoración.
+       asignados e incluidos en la programación general
+       anual de cada centro. Una vez aprobados los planes                      2. Los criterios para la asignación de valoracio-
+       individuales de actuación en la programación gene-                   nes psicopedagógicas en centros privados y privados-
+       ral anual de cada centro, se incorporarán al plan de                 concertados serán de modo preferencial los siguientes:
+       trabajo de Equipo.
+                                                                               a) Las valoraciones del alumnado de Educación
+          3. Los componentes del Equipo que intervienen en                  Infantil y Primaria se distribuirán entre los miembros
+       un mismo centro analizarán las necesidades de éste y                 con destino en los EOEP y en los CEE.
+       ofrecerán una respuesta coordinada y conjunta. En el
+       plan de trabajo del orientador o de la orientadora de zo-               b) Las valoraciones del alumnado de Educación
+       na quedarán recogidas dichas actuaciones conjuntas.                  Secundaria se distribuirán entre los miembros con des-
+                                                                            tino en los IES y en los CEO de la zona.
+           4. Cada EOEP elaborará una planificación que se re-
+       cogerá en su plan de trabajo trimestral. La modificación                 3. La concreción de estos criterios se reflejará en
+       del plan de trabajo anual, a lo largo del curso deberá ser           el plan de trabajo del Equipo.
+       autorizada por la Dirección General de Ordenación e
+       Innovación Educativa previo informe favorable del                       4. Aquellos orientadores y orientadoras que sean
+       Inspector Coordinador o Inspectora Coordinado-                       miembros de los equipos directivos de su centro y los
+       ra del EOEP. La modificación del plan de trabajo                     coordinadores o coordinadoras de los Equipos que
+       trimestral podrá ser autorizada por el Inspector                     voluntariamente lo manifiesten, no participarán en las
+       Coordinador o Inspectora Coordinadora del Equipo con                 valoraciones y seguimiento en centros no asignados.
+       la excepción de los cambios que supongan variación en
+       los desplazamientos de los miembros del EOEP, que de-                    5. En relación con la adscripción funcional de
+       berán ser previamente autorizados por la Dirección Ge-               los centros privados concertados de Canarias a los
+       neral de Ordenación e Innovación Educativa.                          EOEP, a los efectos de las valoraciones psicopeda-
+                                                                            gógicas y las instrucciones para su realización, se es-
+          5. Para la elaboración del plan de trabajo y la me-               tará a lo dispuesto en la Orden de 8 de mayo de 2008
+       moria final de los EOEP de zona y específicos se ten-                (BOC nº 128, de 27 de junio), y a lo que se determi-
+       drán en cuenta los apartados establecidos en los ane-                ne por la Dirección General de Ordenación e Inno-
+       xos VII, VIII, IX y X de esta Orden.                                 vación Educativa.
+          Artículo 15.- Líneas prioritarias de actuación.                      Artículo 17.- Seguimiento y coordinación de las
+                                                                            actuaciones por parte de la Inspección de educación.
+          1. La Consejería de Educación, Universidades,
+       Cultura y Deportes, a través de la Dirección Gene-                       1. La Inspección General de Educación nombra-
+       ral de Ordenación e Innovación Educativa, estable-                   rá un Inspector Coordinador o una Inspectora Coor-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24108                                   Martes 14 de septiembre de 2010
+
+
+
+       dinadora para cada EOEP de zona y específico en-                    como secretario, un componente del Equipo desig-
+       tre los inspectores o inspectoras que incidan en el ám-             nado de entre sus miembros por el coordinador o coor-
+       bito de actuación de éste. El Inspector Coordinador                 dinadora, salvo otro acuerdo del propio Equipo.
+       o Inspectora Coordinadora del EOEP realizará el se-
+       guimiento de la aplicación de la normativa de la or-                    2. Cada EOEP contará con un libro de inventa-
+       ganización y funcionamiento del EOEP, del plan de                   rio del material; un libro para el control de los prés-
+       trabajo anual y trimestral del EOEP, de los proyec-                 tamos de materiales y recursos didácticos; un libro
+       tos autorizados y, en colaboración con el Inspector                 de registros de informes psicopedagógicos; un libro
+       o Inspectora de Zona, del plan de actuación de cada                 de actas de las reuniones; un libro para el control de
+       componente del Equipo en los centros.                               la puntualidad, asistencia, permisos, licencias e in-
+                                                                           cidencias; y aquellos libros de contabilidad necesa-
+           2. El Inspector Coordinador o Inspectora Coor-                  rios para la gestión económica del Equipo. Además,
+       dinadora del EOEP recibirá el plan de trabajo anual                 contará con un archivo informático de todos los in-
+       remitido desde la coordinación del Equipo, por el pro-              formes, entre otros documentos. Los documentos ar-
+       cedimiento que se establezca, y realizará una reunión               chivados, recibidos y emitidos por el EOEP queda-
+       con dicha coordinación para su análisis y considera-                rán en su sede y estarán bajo la custodia del coordinador
+       ción. Posteriormente, comunicará al Equipo los cam-                 o coordinadora del Equipo.
+       bios que tiene que introducir, en su caso, antes de su
+       traslado a la Dirección General de Ordenación e                        Artículo 19.- Jornada semanal y horarios.
+       Innovación Educativa e informará a ésta acerca de
+       la adecuación a la normativa vigente del plan de tra-                  1. La jornada semanal de los componentes de los
+       bajo anual y de sus posibles modificaciones poste-                  EOEP que sean funcionarios docentes será la misma
+       riores, especificando en el informe si es o no favorable.           que la del resto de los funcionarios públicos docen-
+                                                                           tes. La jornada semanal de los componentes de los
+          3. Del mismo modo, el Inspector Coordinador o Ins-               EOEP que sean personal laboral será la establecida
+       pectora Coordinadora del EOEP recibirá el plan de                   en cada uno de sus contratos de trabajo que los mis-
+       trabajo trimestral remitido desde la coordinación del               mos tengan suscritos con la Consejería de Educación,
+       Equipo, para su análisis y aprobación, de proceder.                 Universidades, Cultura y Deportes.
+
+           4. El Inspector o la Inspectora que coordina al                     2. Los orientadores y orientadoras que actúen en
+       EOEP realizará el seguimiento del trabajo del EOEP                  los colegios de Educación Infantil y Primaria tendrán
+       y de los componentes del Equipo, y para ello lleva-                 la jornada semanal del profesorado de Infantil y Pri-
+       rá a cabo, al menos, una sesión de seguimiento del                  maria establecida en el artículo 12 de la Orden de 28
+       plan de trabajo anual, en el seno del Equipo, al fina-              de julio de 2006, por la que se aprueban las instruc-
+       lizar el segundo trimestre. Tras la cual el Inspector               ciones de organización y funcionamiento de las Es-
+       Coordinador o Inspectora Coordinadora remitirá co-                  cuelas de Educación Infantil y de los Colegios de Edu-
+       pia del acta de la sesión de seguimiento a la Direc-                cación Primaria dependientes de la Consejería de
+       ción General de Ordenación e Innovación Educati-                    Educación, Cultura y Deportes del Gobierno de
+       va, en la que conste, al menos, las dificultades, los               Canarias.
+       avances y las propuestas de mejora. Igualmente, rea-
+       lizará una sesión final de evaluación, en el mes de                     3. Los orientadores y orientadoras que tengan des-
+       junio, preferiblemente en la reunión del plenario,                  tino en IES, CEO o Escuelas de Arte (EEAA), ten-
+       que servirá para la elaboración de la memoria final                 drán la jornada semanal del profesorado de Secun-
+       del EOEP. El Inspector Coordinador o Inspectora                     daria establecida en el artículo 12 de la Orden de 28
+       Coordinadora del EOEP recibirá la memoria final re-                 de julio de 2006, por la que se aprueban las instruc-
+       mitida desde la coordinación del Equipo, por el pro-                ciones de organización y funcionamiento de los Ins-
+       cedimiento que se establezca. Posteriormente, comu-                 titutos de Educación Secundaria dependientes de la
+       nicará al Equipo los cambios que tiene que introducir               Consejería de Educación, Universidades, Cultura y
+       en la memoria final, en su caso, antes de su traslado               Deportes del Gobierno de Canarias. A los efectos de
+       a la Dirección General de Ordenación e Innovación                   establecer el horario de permanencia, las tareas de orien-
+       Educativa e informará a ésta acerca de la adecuación                tación tendrán la consideración de horas lectivas de
+       a la normativa vigente de dicha memoria, especifi-                  docencia directa. Asimismo las horas complementa-
+       cando en el informe si es o no favorable.                           rias se dedicarán preferentemente a reuniones de
+                                                                           coordinación con profesorado y familias. En todo lo
+          Artículo 18.- Aspectos organizativos y de gestión.               referido en este apartado se estará a lo dispuesto por
+                                                                           lo que determine la Consejería competente en mate-
+           1. Existirá un libro de actas en el que quedarán                ria de educación.
+       reflejadas las reuniones de trabajo de los EOEP en
+       las cuales se relacionarán los asistentes, la fecha y ho-               4. No obstante lo establecido en el apartado an-
+       ra de la sesión, el orden del día de los asuntos trata-             terior, los orientadores o las orientadoras que tengan
+       dos y los acuerdos adoptados. A tal efecto, actuará                 su destino en IES, CEO o EEAA podrán impartir en-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24109                                  Martes 14 de septiembre de 2010
+
+
+
+       tre 3 y 5 horas lectivas de docencia directa con el alum-           plenaria, procediéndose a la elección del coordina-
+       nado si son jefes de departamento y entre 5 y 7 ho-                 dor o coordinadora, a acordar las propuestas de
+       ras lectivas de docencia directa con el alumnado si                 modificaciones de las unidades de orientación y de
+       no lo son. Estas horas estarán destinadas a la impar-               atención en la comunicación y lenguaje, y de tra-
+       tición de materias optativas relacionadas con su es-                bajo social, de proceder, y al inicio de la elabora-
+       pecialidad, conforme a lo dispuesto en el artículo 5.1              ción del plan de trabajo. El resto de los días no se-
+       del Real Decreto 1834/2008, y podrán incluir, en su                 ñalados anteriormente se destinarán a la atención
+       caso, programas de refuerzo educativo, sin menos-                   directa en sus centros.
+       cabo de lo contemplado en la artículo 6.2 de la Or-
+       den de 7 de junio de 2007, por la que se regulan las                    10. En la elaboración de horarios del orientador
+       medidas de atención a la diversidad en la enseñanza                 o la orientadora educativa de los centros de Educa-
+       básica en la Comunidad Autónoma de Canarias. En                     ción Secundaria, no se asignarán horas de docencia
+       los supuestos en que el orientador o la orientadora                 directa al alumnado los jueves destinados a la reu-
+       pertenezca a un centro con más de ochocientos (800)                 niones del plenario. A la hora de planificar los hora-
+       escolares, al equipo directivo o cuando comparta su                 rios se tendrá en cuenta que las convocatorias de la
+       actividad con otros IES, las horas lectivas de docen-               Dirección General de Ordenación e Innovación Edu-
+       cia directa podrán ser sustituidas por otras relacio-               cativa u otras con competencias, se realizarán prefe-
+       nadas con las tareas de orientación antes menciona-                 riblemente los jueves.
+       das, previa solicitud del director o directora del centro
+       al inspector o inspectora de zona y la correspondien-                   11. Los componentes de los Equipos de orienta-
+       te autorización de éste o ésta.                                     ción que compartan centro dispondrán de los días de
+                                                                           libre disposición que haya elegido su centro sede, en
+           5. La distribución horaria del trabajo de los maes-             función de la normativa vigente. Cuando la atención
+       tros y las maestras especialistas en audición y len-                a un centro educativo diferente al centro sede coin-
+       guaje y logopedas itinerantes se realizará en función               cida con un día festivo, o de libre disposición u otros,
+       de la selección y priorización de centros y alumna-                 la jornada laboral la desarrollará en su centro sede.
+       do de atención directa que se haya hecho y tendrán
+       el horario establecido para el resto de los maestros y                 Artículo 20.- Control de puntualidad y de asis-
+       maestras de estos centros o el establecido en su con-               tencia, permisos y licencias.
+       venio laboral. El horario estará adjunto al plan de ac-
+       tuaciones y se entregará a todos los centros implica-                   1. El control de puntualidad y asistencia, permi-
+       dos y al Inspector Coordinador o Inspectora Coordinadora            sos y licencias de los componentes de los EOEP de
+       del Equipo.                                                         zona se realizará conforme a lo dispuesto en la nor-
+                                                                           mativa por la que se aprueban las instrucciones de
+           6. La distribución horaria de los trabajadores y                organización y funcionamiento de los centros de la
+       las trabajadoras sociales de los EOEP de zona y es-                 Comunidad Autónoma de Canarias y conforme al res-
+       pecíficos se realizará en función del plan de actua-                to de la normativa aplicable.
+       ciones en los centros de su unidad, para lo que ha-
+       rán una previsión mensual de atención a éstos que será                 2. Los orientadores y orientadoras de los EOEP
+       presentada al Coordinador o Coordinadora del Equi-                  de Zona deberán justificar sus salidas planificadas y
+       po, y al Inspector Coordinador o Inspectora Coordi-                 aprobadas en su plan de trabajo trimestral al direc-
+       nadora del Equipo, así como a cada uno de los cen-                  tor o directora del centro al que le corresponde in-
+       tros en que intervengan.                                            tervenir ese día. Para ello bastará con entregar la co-
+                                                                           pia del justificante de la asistencia al centro o reunión
+          7. Para los aspectos relativos a la jornada laboral y            a la que ha acudido.
+       el horario, no recogidos en este artículo, se estará a lo
+       dispuesto en la normativa vigente dictada al respecto                  3. Cuando los permisos afecten a la atención de
+       por la Consejería competente en materia de educación.               más de un centro, los concederá la dirección del cen-
+                                                                           tro sede con el conocimiento de la dirección de los
+          8. Los componentes de los Equipos con destino                    restantes centros de la zona de actuación.
+       en el EOEP y sus coordinadores se incorporarán el
+       día de inicio del curso a la sede de éste, para efec-                  4. El control de puntualidad y asistencia de los com-
+       tuar la toma de posesión para la asignación a las uni-              ponentes de los EOEP específicos será realizado por
+       dades de orientación, atención en comunicación y len-               el coordinador o la coordinadora del Equipo, que se
+       guaje, y trabajo social. Tras lo cual se incorporarán               ajustará a lo previsto en la normativa por la que se
+       en su centro sede. Los componentes que tienen des-                  aprueban las instrucciones de organización y funcio-
+       tino en IES o CEO, se incorporarán directamente                     namiento de los centros educativos de la Comunidad
+       desde ese primer día a sus centros.                                 Autónoma de Canarias y a lo previsto en dichas dis-
+                                                                           posiciones en relación con el registro de inciden-
+          9. El primer jueves del mes de septiembre se reu-                cias, archivo y comunicación a la Inspección de Edu-
+       nirán todos los componentes del Equipo en sesión                    cación y a la Dirección Territorial, en su caso.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                   24110                                  Martes 14 de septiembre de 2010
+
+
+
+          5. Los componentes del Equipo específico pre-                      hojas de justificación de desplazamientos al parte
+       sentarán justificación firmada por un miembro del                     mensual de faltas del centro sede, en el que se rela-
+       Equipo directivo del centro o por la coordinación                     cionarán los días de atención a otros centros y se jus-
+       del EOEP de zona, de las jornadas de trabajo que                      tificará esta con la firma del director o directora o de
+       no se desarrollen en su sede. Estas justificaciones                   la jefatura de estudios. Este anexo se remitirá a la Ins-
+       contendrán indicación expresa del horario de perma-                   pección de Educación junto con el parte mensual de
+       nencia y actividad realizada en los centros o sedes de                faltas del centro sede. El mismo procedimiento será
+       Equipo, siendo presentadas al Coordinador de su                       utilizado para el control de los trabajadores y traba-
+       Equipo.                                                               jadoras sociales.
+
+           6. En los EOEP específicos, el control de puntua-                    9. Los permisos que afecten a la jornada de tra-
+       lidad y asistencia lo realizará el Coordinador o Coor-                bajo de los jueves destinados a los plenarios se ajus-
+       dinadora del EOEP, que se ajustará a lo previsto en                   tarán a la normativa vigente y requerirán ser con-
+       las disposiciones vigentes, en relación con el regis-                 cedidos por el coordinador o la coordinadora del Equipo.
+       tro de incidencias, archivo y comunicación a la Ins-                  Quedará constancia escrita de la solicitud, con in-
+       pección de Educación y a la Dirección Territorial, en                 dicación de las horas, días, motivos y la fecha de
+       su caso. Los permisos de los componentes de los                       concesión.
+       EOEP específicos requerirán ser concedidos por el
+       coordinador o coordinadora, dejando constancia es-                       10. Los permisos de los trabajadores y trabajado-
+       crita de la solicitud, en el libro correspondiente, con               ras sociales deberán ser concedidos por el Coordina-
+       indicación de las horas, días, motivos y la fecha de                  dor o Coordinadora del Equipo de zona.
+       concesión. Los correspondientes al coordinador o
+       coordinadora requerirán el consentimiento del Ins-                       Artículo 21.- Condiciones para realizar las itine-
+       pector Coordinador o Inspectora Coordinadora. Igual-                  rancias por los EOEP.
+       mente, las licencias serán visadas por el Inspector o
+       Inspectora del EOEP específico y concedidas por la                       1. Se entiende por “itinerar” el desplazamiento en
+       autoridad competente, teniendo conocimiento el coor-                  el mismo día a un centro diferente de aquel donde se
+       dinador General de los EOEP de la Dirección Gene-                     inicia la jornada.
+       ral de Ordenación e Innovación Educativa, y debien-
+       do garantizar, el Coordinador o la Coordinadora del                       2. Cuando un orientador u orientadora, un traba-
+       Equipo, la atención prevista en la planificación.                     jador o trabajadora social, un maestro o una maestra
+                                                                             de audición y lenguaje de los EOEP de zona com-
+           7. En los EOEP de zona, el control de puntuali-                   parte centros, organizará el horario en su plan de tra-
+       dad y asistencia en la jornada en que se desarrolle el                bajo de forma que la jornada laboral la inicie y fina-
+       plenario y en las reuniones extraordinarias autoriza-                 lice en cada uno de esos centros sin pasar previamente
+       das por la Dirección General de Ordenación e Inno-                    ni posteriormente por el centro sede del EOEP, ni por
+       vación Educativa, lo realizará el Coordinador o Coor-                 el centro sede de la unidad de actuación correspon-
+       dinadora del EOEP, que se ajustará a las disposiciones                diente, salvo que coincida el inicio o finalización de
+       vigentes en relación con el registro de incidencias,                  la jornada laboral con la actuación en el centro sede.
+       archivo y comunicación a la Inspección de Educa-                      Esto será de aplicación a los maestros y maestras de
+       ción y a la Dirección Territorial, en su caso. Todos                  apoyo a discapacitados visuales del Equipo especí-
+       los componentes del Equipo presentarán mensualmen-                    fico correspondiente, dependientes de la Consejería
+       te a la jefatura de estudios de su centro sede, en el                 competente en materia de educación. Los que atien-
+       caso de Educación Primaria y en sus centros de des-                   dan a centros incompletos -con menos de 9 unida-
+       tino en el caso de Educación Secundaria, justifican-                  des- y que conlleve desplazamientos en medio de la
+       te de asistencia a las reuniones extraordinarias debi-                jornada, deberán estar autorizados expresamente por
+       damente autorizadas, firmada por el coordinador o                     la Dirección General de Ordenación e Innovación Edu-
+       coordinadora de éste o por el órgano convocante.                      cativa para realizarlos.
+           8. Cuando la asistencia a los centros de los orien-                   3. Se abonarán los desplazamientos realizados
+       tadores o las orientadoras, o de los maestros y maes-                 por orientadores o por orientadoras, trabajadores o
+       tras de audición y lenguaje del Equipo de zona y es-                  trabajadoras sociales, maestros y maestras de audi-
+       pecífico sea semanal o con periodicidad fija, éstos estarán           ción y lenguaje y los maestros o maestras de apoyo
+       incluidos en el parte de faltas mensual del centro                    al alumnado con discapacidad visual dependientes de
+       atendido. Del mismo modo se procederá para los                        la Consejería con competencias en educación y de los
+       maestros o maestras de apoyo al alumnado con dis-                     EOEP en las siguientes situaciones:
+       capacidad visual dependientes de la Consejería con
+       competencias en educación y pertenecientes al Equi-                      a) Desplazamiento en el mismo día de un centro
+       po específico para la atención educativa del alumna-                  a otro, a partir del primer centro al que se desplace,
+       do con discapacidad visual. Cuando la asistencia no                   de los asignados en su unidad de orientación o audi-
+       sea de periodicidad fija, se incluirá un anexo con las                ción y lenguaje, con motivo justificado ante el Ins-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24111                                 Martes 14 de septiembre de 2010
+
+
+
+       pector o Inspectora. No se abonará el desplazamien-                ción podrán participar otros docentes o especialistas,
+       to por la asistencia al primer centro.                             de existir disponibilidad horaria. A lo largo del cur-
+                                                                          so en el que ha sido detectado o detectada y, como
+          b) Desplazamiento desde el centro sede de la uni-               máximo en el siguiente, se culminará la evaluación
+       dad correspondiente al lugar de reunión que convo-                 psicopedagógica y se concluirá en un informe psico-
+       que oficialmente la Dirección General de Ordenación                pedagógico, si fuera preciso.
+       e Innovación Educativa. No se abonará el desplaza-
+       miento a la reunión del plenario.                                     3. El PIP será el punto de partida del informe psi-
+                                                                          copedagógico, que será prescriptivo, en todos aque-
+          c) Desplazamientos generados en convocatorias                   llos casos que se prevea la necesidad de establecer
+       extraordinarias de los Inspectores Coordinadores o                 una adaptación curricular (AC) o una adaptación
+       Inspectora Coordinadoras de cada EOEP o cual-                      curricular significativa (ACUS), en una o en varias
+       quier otro organismo, siempre que exista autoriza-                 áreas o materias.
+       ción de la Dirección General de Ordenación e Inno-
+       vación Educativa.                                                     4. No será preciso realizar el PIP y se procederá
+                                                                          a la evaluación y elaboración del informe psicope-
+           d) Desplazamientos obligados motivadas por va-                 dagógico directamente, en los casos en que se requie-
+       loraciones en centros no asignados e incluidos en el               ra recursos materiales y personales de difícil gene-
+       plan de trabajo anual o trimestral.                                ralización, o se prevea su escolarización excepcional
+                                                                          en COAEP, AE o en CEE.
+           4. Se abonarán los desplazamientos de los orien-
+       tadores y orientadoras, de los trabajadores o trabaja-                5. El PIP, cuando se trate de alumnado con altas
+       doras sociales y de los maestros y las maestras de audi-           capacidades intelectuales, se denominará Informe
+       ción y lenguaje de los EOEP específicos cuando se                  sobre la detección de la precocidad intelectual. Cuan-
+       realicen fuera del municipio donde esté su sede, in-               do sea preciso derivar un alumno o alumna para la
+       cluidos el desplazamiento al primer centro, que se en-             valoración por otras Administraciones, como por
+       cuentren recogidos en su plan de trabajo anual y sean              ejemplo la sanitaria, el PIP se denominará Informe
+       previamente aprobados por la Dirección General de                  educativo de derivación y se cumplimentará siguien-
+       Ordenación e Innovación Educativa, o por el Inspec-                do el anexo I, de la presente Orden.
+       tor Coordinador o Inspectora Coordinadora del Equi-
+       po en los planes de trabajo trimestrales. El traslado                  6. El PIP se iniciará cuando existan indicado-
+       entre islas u otro traslado no previsto de los compo-              res de que se trata de una alumno o alumna con po-
+       nentes de los Equipos de orientación específicos re-               sible NEAE y que, además, presenta un desajuste
+       querirá ser autorizados previamente por la Direc-                  de al menos un curso en su nivel de referencia cu-
+       ción General de Ordenación e Innovación Educativa.                 rricular en la etapa de Educación Infantil y en la
+                                                                          enseñanza básica, en la evolución de sus aprendi-
+           5. La gestión del pago de las itinerancias se rea-             zajes y en la adquisición de los objetivos y com-
+       lizará por el procedimiento que establezca la Direc-               petencias básicas. Los apartados a cumplimentar
+       ción General de Ordenación e Innovación Educativa.                 del PIP serán al menos los recogidos en el anexo
+                                                                          II, de esta Orden, precisando la firma del orienta-
+                                 CAPÍTULO V                               dor u orientadora del centro. Las orientaciones
+                                                                          psicopedagógicas del PIP se podrán concretar y de-
+          EVALUACIÓN E INFORME PSICOPEDAGÓGICO                            sarrollar en programas educativos personalizados.
+                                                                          Respecto a la detección temprana, considerando la
+          Artículo 22.- Preinforme psicopedagógico.                       valoración previa realizada por el orientador u
+                                                                          orientadora la comisión de coordinación pedagó-
+          1. Todos los alumnos y alumnas que presenten                    gica podrá instar a que se inicie el PIP por el orien-
+       NEAE, deberán contar con un preinforme psicope-                    tador u orientadora de su centro. En este caso, se
+       dagógico (en adelante, PIP) de atención individua-                 informará a los padres, madres, tutores o tutoras
+       lizada que será elaborado por el orientador o la                   legales del escolar antes de iniciar el proceso.
+       orientadora del centro educativo, informando antes
+       a los padres o tutores legales que incluirá las con-                  Artículo 23.- Aspectos generales de la evalua-
+       clusiones del proceso de detección y preidentifica-                ción psicopedagógica.
+       ción de manera temprana o en cualquier momento
+       de su escolaridad, según el procedimiento estable-                    1. Las NEAE de los escolares se determinarán me-
+       cido para cada una de las circunstancias que gene-                 diante la correspondiente evaluación psicopedagógica.
+       ran las NEAE.
+                                                                             2. La evaluación psicopedagógica se entiende co-
+          2. Este PIP ha de recoger información suficiente                mo un proceso mediante la cual se identifican las ca-
+       para orientar la intervención del profesorado que im-              pacidades y competencias de este alumnado, y se con-
+       parte docencia al alumno o la alumna. En la interven-              cretan sus necesidades educativas, para dictaminar,
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24112                                 Martes 14 de septiembre de 2010
+
+
+
+       en consecuencia, el tipo de respuesta más adecuada                 colarización excepcional para la adecuada atención
+       y los recursos que pueda precisar.                                 del alumno o alumna.
+          3. La evaluación psicopedagógica del alumnado                      f) Cuando, por decisión colegiada de los miem-
+       con NEAE es competencia, dentro del sistema edu-                   bros del EOEP de zona o específico, lo consideren
+       cativo, de los EOEP de la Consejería competente en                 procedente por disponer de claros indicios de que
+       materia de educación. El responsable de la realiza-                los escolares presentan alguna de las NEAE y siem-
+       ción de la evaluación psicopedagógica será el orien-               pre que exista la petición previa del centro de
+       tador u orientadora del centro, garantizando, en to-               escolarización.
+       do caso, la interdisciplinariedad y la coordinación con
+       el equipo docente.                                                    g) Cualquier otro motivo que se establezca por
+                                                                          la Dirección General de Ordenación e Innovación
+          4. La evaluación psicopedagógica y elaboración                  Educativa.
+       del informe del alumnado con necesidades educati-
+       vas especiales (NEE) por discapacidad auditiva, vi-                    2. Para la elaboración de la evaluación psicope-
+       sual, motora o por trastornos generalizados del de-                dagógica, el equipo docente, coordinado por el tu-
+       sarrollo, requerirá la colaboración de los EOEP                    tor o la tutora, aportará al orientador u orientado-
+       específicos y de los EOEP de zona. La coordinación                 ra del centro toda la información relevante del
+       de los dos Equipos para valorar a estos escolares se-              escolar de la que disponga sobre su competencia y
+       guirá lo previsto en el protocolo de coordinación in-              referente curricular, competencia socioafectiva, es-
+       terequipos aportado por la Dirección General de Or-                tilo de aprendizaje, contexto del aula, del centro y
+       denación e Innovación Educativa. La evaluación                     de la familia.
+       psicopedagógica y elaboración del informe del alum-
+       nado que presente NEAE distintas a las menciona-                       3. La evaluación psicopedagógica del alumnado
+       das anteriormente, será competencia del EOEP de zo-                se solicitará por la comisión de coordinación peda-
+       na. En el supuesto de requerirse la intervención de                gógica o el departamento de orientación, a propues-
+       los EOEP específicos se actuará de acuerdo a las                   ta del equipo docente, cuando éste tenga indicios
+       condiciones establecidas para la coordinación                      procedentes del entorno familiar o escolar, de que el
+       interequipos.                                                      alumno o alumna necesita la adopción de medidas
+                                                                          extraordinarias o excepcionales debidas a posibles
+          Artículo 24.- Condiciones para realizar la eva-                 NEAE. A tal fin el director o directora solicitará di-
+       luación psicopedagógica.                                           cha evaluación psicopedagógica al coordinador o coor-
+                                                                          dinadora del EOEP de zona, por medio del orienta-
+           1. La evaluación psicopedagógica debe realizar-                dor o la orientadora del centro. En el supuesto de que
+       se, previa información a los padres, madres o tuto-                el EOEP de zona desestimara la realización de la
+       res o tutoras legales, cuando concurra alguna de las               evaluación solicitada, el coordinador o coordinado-
+       siguientes circunstancias:                                         ra lo justificará razonadamente por escrito a la direc-
+                                                                          ción del centro.
+          a) Cuando se prevea la necesidad de que el alum-
+       no o la alumna precise de adaptaciones curriculares                    Artículo 25.- Características de la evaluación
+       o adaptaciones curriculares significativas en una o más            psicopedagógica.
+       áreas o materias.
+                                                                              1. La evaluación psicopedagógica habrá de basar-
+           b) Cuando se aporten valoraciones o informes de                se en la interacción del alumno o alumna con los con-
+       otros organismos o servicios públicos mediante los                 tenidos y materiales de aprendizaje, con el profeso-
+       cuales se haga constar algún tipo de discapacidad, tras-           rado, con sus coetáneos en el contexto del aula y en
+       torno o dificultad que interfieran en la evolución de              el centro escolar, con los servicios sanitarios y con
+       sus aprendizajes. Éstos deben ser considerados por                 la familia. La evaluación psicopedagógica habrá de
+       el EOEP de zona a fin de establecer, si se precisa, la             reunir la información de las características persona-
+       respuesta educativa más adecuada.                                  les del alumno o alumna, así como las de su contex-
+                                                                          to familiar y escolar que resulten relevantes para
+          c) Cuando se proponga el acceso del alumnado a                  ajustar la respuesta educativa a sus necesidades. En
+       programas de cualificación profesional adaptados.                  todo caso, la evaluación psicopedagógica, entre otras
+                                                                          cuestiones, recogerá expresamente:
+          d) A propuesta de la CCP o del departamento de
+       orientación por cumplir los requisitos, indicadores o                  a) Condiciones personales de sus capacidades,
+       señales de alerta establecidos por estos órganos de                trastornos o dificultades, comprendiendo el histo-
+       funcionamiento.                                                    rial educativo, escolar y sanitario (de proceder es-
+                                                                          te último), la competencia y referencia curricular,
+           e) Cuando se precise la utilización de recursos ma-            estilo de aprendizaje y su competencia cognitiva y
+       teriales o personales de difícil generalización, o es-             socioemocional.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24113                                  Martes 14 de septiembre de 2010
+
+
+
+          b) Análisis de las características de la intervención           informes psicopedagógicos de los centros privados
+       educativa en el contexto escolar, de las características           concertados se realizarán antes de finalizar el mes de
+       y relaciones que se establecen en el grupo-clase, así              febrero de cada curso escolar. Para las actualizacio-
+       como de la organización de la respuesta educativa.                 nes de informes psicopedagógicos se aportará la do-
+                                                                          cumentación establecida en los apartados a) y d) del
+          c) Características de la familia y de su entorno, y             apartado 4 de este artículo.
+       posibilidades de cooperación desde el seno familiar
+       en el desarrollo del programa de atención educativa.                   3. Las solicitudes de nuevas evaluaciones psico-
+       En cualquier caso, en la evaluación psicopedagógi-                 pedagógicas y actualizaciones de informes psicope-
+       ca se tendrá en cuenta la documentación que pueda                  dagógicos, para dar respuesta al alumnado de cen-
+       ser aportada por la familia.                                       tros privados no sostenidos con fondos públicos, que
+                                                                          previsiblemente puedan presentar NEE y que puedan
+          2. La evaluación e informe psicopedagógico, en                  requerir de una adaptación curricular significativa, de-
+       su caso, debe ser elaborado por el EOEP de la zona                 berán ser remitidas por la dirección del centro a la
+       correspondiente al centro educativo donde los padres,              Inspección de Educación de zona, antes del 31 de oc-
+       madres o tutores o tutoras legales, hayan solicitado               tubre de cada curso escolar, donde se comprobará la
+       ser escolarizado y haya sido admitido. En los casos                adecuación de documentación aportada a lo estable-
+       y condiciones que se determinen participarán los                   cido en la presente Orden y a la normativa que regu-
+       Equipos específicos.                                               le la atención a la diversidad del alumnado en el ám-
+                                                                          bito de la enseñanza no universitaria de Canarias y,
+          3. Para efectuar la valoración psicopedagógica, los             en el supuesto de valoración favorable, se remitirá a
+       profesionales utilizarán instrumentos psicopedagó-                 la Dirección General de Ordenación e Innovación Edu-
+       gicos normalizados, propios de las disciplinas impli-              cativa antes del 15 de noviembre siguiente.
+       cadas y otros que se precisen para obtener informa-
+       ción complementaria, teniendo en cuenta, además, las                  4. La documentación que se ha de presentar por
+       producciones de los escolares.                                     los centros privados no sostenidos con fondos públi-
+                                                                          cos, siguiendo los protocolos que se aportarán por la
+          Artículo 26.- La evaluación psicopedagógica en                  Dirección General de Ordenación e Innovación Edu-
+       los centros privados y privados concertados.                       cativa, para solicitar la evaluación psicopedagógica,
+                                                                          y la actualización de informes psicopedagógico, es
+          1. La evaluación psicopedagógica para dar respues-              la siguiente:
+       ta al alumnado con NEAE en centros privados con-
+       certados se ajustará a la normativa que regula la rea-                a) Escrito de la dirección del centro dirigido a la
+       lización de las valoraciones psicopedagógicas en                   Inspección de Educación de zona.
+       este tipo de centros, dispuesto en la Orden de 8 de
+       mayo de 2008 (BOC nº 128, de 27 de junio) por la                       b) Acta del equipo docente en la que conste la ne-
+       que se adscriben los centros privados concertados de               cesidad fundamentada de que el alumno o la alumna
+       Canarias a los EOEP, a los efectos de valoración psi-              sea valorado por los EOEP de la Consejería compe-
+       copedagógica, y se dictan instrucciones para su rea-               tente en materia de educación, por disponer de indi-
+       lización al alumnado con NEAE, a lo regulado en la                 cios de que presenta NEAE y así poder determinar con
+       presente Orden y a lo establecido por la Dirección                 más exactitud la valoración psicopedagógica y las res-
+       General de Ordenación e Innovación Educativa.                      puestas educativas que requiera el escolar.
+
+          2. Para la valoración psicopedagógica del alum-                    c) Informe del equipo docente.
+       nado de centros privados concertados cuando se pre-
+       vea que su informe psicopedagógico finalizará en un                   d) Informe del orientador u orientadora del cen-
+       dictamen, se requerirá la participación conjunta del               tro, en su caso, ajustado al modelo del anexo III de
+       orientador del centro y del EOEP de zona que le co-                la presente Orden, y desarrollado en todos sus apar-
+       rresponde. El director del centro solicitará la valora-            tados. Cuando el centro no disponga de orientador u
+       ción a través del Inspector o Inspectora de zona, que              orientadora, aportará la información psicopedagó-
+       derivará la petición al Inspector Coordinador o Ins-               gica ajustada al modelo citado.
+       pectora Coordinadora del EOEP al que el centro es-
+       té adscrito. En caso de alumnado de nueva valora-                     e) En su caso, otras evaluaciones o informes rea-
+       ción que pueda requerir la intervención de algún                   lizados al alumno o alumna.
+       EOEP específico, éste será derivado por el EOEP de
+       zona mediante el protocolo interequipos. La documen-                   f) Documento acreditativo de la autorización del
+       tación a entregar será la prevista para los centros pri-           padre y de la madre, tutores o tutoras legales para rea-
+       vados no sostenidos con fondos públicos, recogida                  lizar la evaluación psicopedagógica.
+       en el apartado 4 de este artículo, con la excepción de
+       los apartados b), c) y e). Las solicitudes de nuevas                  En caso de comprobarse la falta de algún requi-
+       evaluaciones psicopedagógicas y actualizaciones de                 sito en la mencionada documentación, se devolverá
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24114                                  Martes 14 de septiembre de 2010
+
+
+
+       al centro y se otorgará un plazo máximo de diez                       i) Dictamen o propuesta de orientación psicoedu-
+       días hábiles para su subsanación. En este caso, el                 cativa, según el caso.
+       plazo de remisión a la Dirección General de Orde-
+       nación e Innovación Educativa se ampliará hasta el                    2. Para los aspectos formales, así como para su tra-
+       30 de noviembre.                                                   mitación una vez finalizado y en lo no regulado en
+                                                                          la presente Orden, se estará a lo dispuesto por la Di-
+          Artículo 27.- El informe psicopedagógico.                       rección General de Ordenación e Innovación Educativa.
+
+          1. El resultado de la evaluación psicopedagógica                   Artículo 28.- El dictamen y la propuesta en el in-
+       se recogerá en un informe que contendrá un dicta-                  forme psicopedagógico.
+       men o una propuesta de orientación psicoeducativa.
+       Este informe ha de incluir, al menos, la síntesis de la               1. El informe psicopedagógico concluirá en dic-
+       información del alumno o la alumna relativa a los si-              tamen cuando:
+       guientes aspectos, concretados en el anexo III de es-
+       ta Orden:                                                             a) Iniciada la evaluación psicopedagógica, pueda
+                                                                          preverse que el alumno o alumna con NEAE va a re-
+          a) Datos personales, historia escolar y motivo de               querir durante su escolarización adaptaciones curri-
+       la evaluación.                                                     culares o adaptaciones curriculares significativas y
+                                                                          medios personales o materiales extraordinarios, de
+          b) En su caso, datos acerca de las condiciones                  difícil generalización, y cuando dejen de necesitar es-
+       personales de salud y observaciones sobre medidas                  tas medidas.
+       médico-sanitarias.
+                                                                              b) Se modifique significativamente la situación per-
+          c) Datos sobre el nivel de competencia curricular,              sonal del alumno o alumna y sean necesarias duran-
+       cognitiva o social, sobre el desarrollo y adaptación               te su escolarización adaptaciones curriculares o adap-
+       socioafectiva, y sobre el estilo de aprendizaje.                   taciones curriculares significativas o medios personales
+                                                                          o materiales excepcionales, de difícil generalización
+          d) Aspectos más relevantes del proceso de en-                   o dejen de necesitar dichas medidas y medios y cuan-
+       señanza y aprendizaje en el aula y en el centro es-                do dejen de necesitar estas medidas.
+       colar, teniendo en cuenta las observaciones reali-
+       zadas, la información facilitada por el profesorado                   c) Las necesidades del escolar precisen de una mo-
+       y otros profesionales que intervengan en la edu-                   dalidad de escolarización excepcional o el cambio de
+       cación y tratamiento individualizado del alumno                    escolarización ordinaria a modalidades excepciona-
+       o alumna.                                                          les y viceversa.
+
+          e) Influencia de la familia y del contexto social en               d) Cuando el alumno o la alumna presente altas
+       el desarrollo del alumno o la alumna.                              capacidades intelectuales.
+
+           f) Conclusiones sobre sus competencias y contex-                  2. Cuando se concluya que no son necesarias nin-
+       to e identificación de las necesidades educativas que              guna de las medidas y recursos del apartado anterior
+       ha de permitir la adecuación de la oferta educativa.               se sustituirá el dictamen por una propuesta de orien-
+       Previsión de los apoyos personales y materiales a par-             tación psicoeducativa que no requerirá ser visada
+       tir de los recursos existentes siguiendo los criterios             por el coordinador del Equipo ni por el Inspector o
+       que establezca la Consejería competente en materia                 Inspectora de zona correspondiente.
+       de educación.
+                                                                            3. El dictamen, formando parte del informe psi-
+          g) Orientaciones, medidas y programas que ayu-                  copedagógico, incluirá los siguientes aspectos:
+       den y proporcionen pautas para organizar y dirigir la
+       respuesta curricular, cognitiva, conductual y familiar                a) Datos personales del alumnado y condiciones
+       o de otro ámbito, así como el tipo y la ayuda que pue-             de salud.
+       da necesitar durante su escolarización para facilitar
+       y estimular el progreso en la adquisición de sus com-                 b) Las conclusiones del proceso de evaluación
+       petencias básicas.                                                 psicopedagógica referidas al desarrollo general del
+                                                                          alumno, a su nivel de competencia y referencia cu-
+           h) Los documentos necesarios para su uso admi-                 rricular, cognitiva y socio-afectiva, así como a otras
+       nistrativo y estadístico, teniéndose en cuenta, en cual-           condiciones significativas para el proceso de ense-
+       quier caso, que el contenido del informe psicopeda-                ñanza y aprendizaje.
+       gógico será confidencial en los aspectos que afecten
+       a la intimidad personal e imagen del alumno o al alum-                c) Orientaciones para la respuesta psicoeducati-
+       na. Además se recogerán otros documentos relevan-                  va que mejor satisfaga sus necesidades, teniendo en
+       tes de interés.                                                    cuenta los recursos disponibles: 1) relación de áreas
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24115                                  Martes 14 de septiembre de 2010
+
+
+
+       o materias adaptadas y tipo de adaptación que requie-              de julio, por el que se regula la atención a la diver-
+       ren; 2) resumen de las pautas para la respuesta cu-                sidad del alumnado en el ámbito de la enseñanza no
+       rricular, conductual o de otro tipo que haya de apli-              universitaria de Canarias, se estará a lo dispuesto so-
+       carse en el centro escolar; 3) recursos materiales y               bre los criterios de identificación, en los desarrollos
+       personales que el alumno o la alumna pueda preci-                  normativos del citado Decreto.
+       sar siguiendo los criterios que al respecto establez-
+       ca la Consejería competente en materia de educación;                  Artículo 29.- Actualización del informe psico-
+       4) resumen sobre la respuesta en el contexto fami-                 pedagógico.
+       liar y social.
+                                                                              1. El informe psicopedagógico debe ser actuali-
+          d) Propuesta razonada de escolarización en fun-                 zado cuando hayan transcurrido dos cursos escola-
+       ción de las necesidades del alumno o alumna y de las               res desde su fecha de emisión o de su última actua-
+       características y posibilidades de los centros.                    lización, y siempre en sexto curso de la Educación
+                                                                          Primaria, salvo que el primer informe o su última ac-
+           e) Datos del acta, -especialmente fecha y hora- de             tualización haya sido realizado en 5º curso de este
+       la reunión en la que se ha informado a los padres, ma-             nivel y el 6º no lo esté repitiendo. En la ESO, la ac-
+       dres o tutores legales de la evaluación psicopedagógi-             tualización se realizará al menos en una ocasión en-
+       ca realizada y de las conclusiones principales de esta,            tre los 12 y los 15 años. Para el alumnado de moda-
+       haciendo mención expresa, en su caso a la existencia               lidades de escolarización excepcionales el informe
+       de adaptaciones curriculares, adaptaciones curricula-              psicopedagógico debe ser actualizado cuando hayan
+       res significativas o posible escolarización excepcional.           transcurrido tres cursos escolares desde su fecha de
+                                                                          emisión o de su última actualización. De igual mo-
+          f) Plazo de revisión del informe psicopedagógico.               do, se llevará a cabo siempre que se produzca una mo-
+                                                                          dificación sustancial de cualquiera de las circunstan-
+          4. La propuesta de orientación psicoeducativa,                  cias que dieron lugar a su realización. La actualización
+       formando parte del informe psicopedagógico, inclui-                se llevará a cabo durante el curso siguiente a los pe-
+       rá los siguientes aspectos:                                        ríodos establecidos anteriormente.
+
+          a) Datos personales del alumnado y condiciones                      2. Serán objeto de actualización todos los infor-
+       de salud.                                                          mes psicopedagógicos que incluyan como respues-
+                                                                          ta las adaptaciones curriculares en las áreas o mate-
+          b) Las conclusiones del proceso de evaluación                   rias que lo precisen o que establezcan una modalidad
+       psicopedagógica referidas al desarrollo general del                de escolarización excepcional, al igual que aquellas
+       alumno o alumna, a su nivel de competencia curri-                  otras medidas de apoyo y refuerzo que requieran pa-
+       cular, cognitiva y socioafectiva, así como a otras                 ra participar en ellas una evaluación e informe psico-
+       condiciones significativas para el proceso de ense-                pedagógico.
+       ñanza y aprendizaje.
+                                                                              3. El informe psicopedagógico y sus actualizacio-
+          c) Orientaciones para la respuesta psicoeducati-                nes reflejan la situación evolutiva y educativa actual
+       va que mejor satisfaga sus necesidades y sobre los                 del alumno o alumna en los diferentes contextos de
+       aspectos organizativos y metodológicos.                            desarrollo o enseñanza y se concretan sus capacida-
+                                                                          des, trastornos y dificultades y las necesidades edu-
+           d) Datos del acta, especialmente de la fecha y ho-             cativas que presentan. Será muy relevante y parte prin-
+       ra, de la reunión en la que se ha informado a los pa-              cipal del informe las orientaciones, medidas y
+       dres, madres o tutores legales de la evaluación psico-             programas que se propongan para ayudar a organi-
+       pedagógica realizada y de las conclusiones principales             zar y dirigir la respuesta curricular, conductual y fa-
+       de la misma, haciendo mención expresa a la propues-                miliar o de otro tipo del escolar, así como las carac-
+       ta de orientación psico-educativa de escolarización.               terísticas de la ayuda que pueda necesitar durante su
+                                                                          escolarización para facilitar y estimular su progreso.
+          e) Plazo de revisión del informe psicopedagógico.               Estas pautas de actuación deberán disponer del má-
+                                                                          ximo consenso con los miembros del equipo educa-
+          5. Cuando el seguimiento comporte el cambio de                  tivo que las van a desarrollar, así como con la fami-
+       modalidad de escolarización a centro ordinario,                    lia en lo que les afecte. En las orientaciones se han
+       COAEP o AE, asistirá un componente del EOEP de                     de contemplar su temporalización y seguimiento y
+       la zona y un miembro del EOEP específico, si pro-                  los indicadores de evaluación y éxito de las mismas.
+       cede, determinándose mediante dictamen la conve-
+       niencia de dicha medida.                                              4. Para la actualización del informe psicopedagó-
+                                                                          gico se utilizará el anexo III de esta Orden con el tér-
+          6. Para la detección e identificación del alumna-               mino “Actualización de la evaluación psicopedagó-
+       do con NEAE a que se refieren las definiciones re-                 gica”, desarrollando sólo los apartados que deban ser
+       cogidas en el artículo 4 del Decreto104/2010, de 29                objeto de modificación. Cuando haya modificación
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24116                                 Martes 14 de septiembre de 2010
+
+
+
+       del dictamen, será visado por el Coordinador o Coor-                   a) Para el alumnado con NEE, en el apartado “Pro-
+       dinadora del EOEP y por la Inspección de Educación.                 puesta razonada de escolarización” del dictamen se
+       En caso contrario, no será necesario su visado y el                 recogerán solo una de las siguientes posibilidades en
+       orientador u orientadora adjuntará al documento de                  función de sus características: 1) centro ordinario, 2)
+       actualización una copia del dictamen vigente, dan-                  aula enclave o, por necesidades de escolarización, cen-
+       do conocimiento a la Inspección de Educación. Ca-                   tro ordinario; 3) aula enclave o, por necesidades de
+       da nueva actualización se entenderá como un docu-                   escolarización, centro de educación especial; 4) cen-
+       mento diferente al informe inicial, llevará un nuevo                tro de educación especial; 5) Centro ordinario de
+       número y se anexará al informe inicial.                             atención educativa preferente para alumnado con
+                                                                           discapacidad auditiva o motora.
+          5. Una vez transcurridos los períodos determina-
+       dos normativamente, el orientador u orientadora del                     b) El dictamen de escolarización elaborado por
+       centro iniciará la actualización del informe psicope-               el EOEP de la zona, correspondiente al centro edu-
+       dagógico en los plazos establecidos con la participa-               cativo donde los padres, madres o tutores legales ha-
+       ción de un componente del EOEP específico, en su                    yan solicitado la admisión, previa evaluación psico-
+       caso. Para llevar a cabo esta actualización del infor-              pedagógica del alumno o la alumna, será visado por
+       me psicopedagógico, se tendrá en cuenta la siguien-                 la Inspección de Educación que corresponda el cen-
+       te documentación:                                                   tro donde los padres hayan solicitado la admisión, en
+                                                                           el caso de que considere idoneidad de la propuesta
+         a) Los informes finales de seguimiento de las                     de escolarización teniendo en cuenta la oferta esco-
+       AC/ACUS correspondientes a los dos últimos cursos.                  lar de la zona.
+
+          b) Los protocolos que procedan para el segui-                        2. En el marco de la normativa que regula la ad-
+       miento del equipo docente coordinado por el profe-                  misión del alumnado en centros públicos o privados
+       sorado tutor, los padres y las madres, tutores legales              concertados, la escolarización de alumnos y alumnas
+       y el alumnado, debidamente cumplimentados.                          con NEE, además de los requisitos establecidos con
+                                                                           carácter general, tendrá en cuenta que, cuando un alum-
+           c) La evolución de los aprendizajes del escolar en              no o alumna requiera de recursos extraordinarios, se-
+       el curso en el que se realiza la actualización y en el              ñalados en su informe psicopedagógico, que no se pue-
+       anterior, referidas a todas las áreas o materias, expre-            dan garantizar en el centro donde ha presentado su
+       sándose su competencia y referente curricular median-               prescripción, la Inspección de Educación, en coor-
+       te acta del equipo docente, siguiendo el anexo IV de                dinación con la Dirección General de Ordenación e
+       la presente Orden.                                                  Innovación Educativa, propondrá a la Dirección Te-
+                                                                           rritorial de Educación el centro más adecuado para
+          Artículo 30.- Informe de evaluación de la comu-                  la escolarización del alumno o la alumna, para que
+       nicación y el lenguaje.                                             mediante resolución de dicho órgano se formalice su
+                                                                           escolarización. Cuando existan discrepancias con las
+            1. La evaluación de la comunicación y el lenguaje              familias, la Dirección Territorial de Educación resol-
+       proporcionará una descripción de las competencias y                 verá la escolarización en el centro más adecuado. En
+       dificultades comunicativas y lingüísticas del alumno o              este sentido se tendrá en cuenta:
+       la alumna definiendo su perfil. De la presentación y aná-
+       lisis de los resultados con los agentes educativos im-                  a) La escolarización de los alumnos y alumnas con
+       plicados se desprenderá la identificación de sus nece-              NEE deberá iniciarse cuanto antes, dentro de la ofer-
+       sidades, las cuales han de establecerse tomando como                ta educativa, y una vez iniciada, se asegurará su con-
+       referencia los indicadores relacionados con las dificul-            tinuidad con objeto de que la educación recibida in-
+       tades de la comunicación y el lenguaje o de cada uno                cida favorablemente en su desarrollo.
+       de los componentes. De esta reflexión conjunta debe-
+       rá surgir la propuesta de acciones educativas de apo-                  b) Para el alumnado escolarizado en AE y CEE,
+       yo o intervención específica individualizada que se es-             los padres, madres o tutores y tutoras legales podrán
+       timen necesarias.                                                   optar voluntariamente por la continuidad de la esco-
+                                                                           larización hasta los 21 años cumplidos antes del 31
+          2. Las propuestas de acción educativa deberán for-               de diciembre del curso iniciado, informando por es-
+       mar parte del informe psicopedagógico del alumno                    crito al centro antes del mes de junio, de la decisión
+       o alumna o, en caso de no proceder tal informe, en                  de continuar o no el curso siguiente.
+       documento aparte.
+                                                                              c) Toda propuesta de escolarización deberá
+          Artículo 31.- Propuesta razonada de escolariza-                  fundamentarse en las características personales y
+       ción de alumnado con NEE.                                           las necesidades educativas del alumno o la alum-
+                                                                           na identificadas a partir de la evaluación psico-
+         1. En la escolarización inicial de los alumnos con                pedagógica, y en las características de los centros
+       NEE se tendrá en cuenta lo siguiente:                               o recursos de éstos, tanto personales como mate-
+
+
+boc-a-2010-181-5207
+             Boletín Oficial de Canarias núm. 181               24117                                  Martes 14 de septiembre de 2010
+
+
+
+       riales, para satisfacer dichas necesidades en el ma-                d) Al final del informe se recogerán las firmas de
+       yor grado posible y dar la respuesta educativa                   aquellos componentes de los Equipos que hayan in-
+       más adecuada.                                                    tervenido en el proceso de valoración, debiendo cons-
+                                                                        tar además, en su caso, el Vº.Bº. del coordinador o
+          d) En todo caso, la escolarización del alumnado               coordinadora del Equipo a todo el informe y el Vº.Bº.
+       con NEE estará determinada por el carácter revisa-               al dictamen del Inspector o Inspectora de zona del
+       ble de las decisiones.                                           centro en el que se encuentre escolarizado el alum-
+                                                                        no, y el sello del Equipo correspondiente. Sólo se fir-
+           e) En el caso de los escolares de Educación Infan-           mará al final del informe, es decir, tras el apartado
+       til de tres años, con discapacidad auditiva, motora o            del dictamen o propuesta orientación psico-educati-
+       visual, que requieran recursos materiales o persona-             va, no debiendo separarse estos apartados del cuer-
+       les de difícil generalización y no presentan desfase             po del informe.
+       escolar, podrá concluirse con un dictamen en el in-
+       forme psicopedagógico motivado por requerir medios                   e) Después de culminada la valoración y obteni-
+       personales o materiales excepcionales y una pro-                 das las conclusiones, que se recogerán en el informe
+       puesta de escolarización en los centros que se deter-            psicopedagógico, se celebrará una reunión en que se
+       minen en la normativa correspondiente.                           informe a los padres, madres, tutores o tutoras lega-
+                                                                        les sobre la evaluación psicopedagógica realizada y
+         Artículo 32.- Tramitación del informe psico-                   las conclusiones principales de la misma haciendo men-
+       pedagógico.                                                      ción expresa, en su caso, a la propuesta de orienta-
+                                                                        ción psico-educativa, a la existencia de una adapta-
+          1. La evaluación e informe psicopedagógico ha de              ción curricular (AC), o de una adaptación curricular
+       incluir y desarrollar, al menos, los apartados que se            significativa (ACUS), o a posibles escolarizaciones
+       recogen en el anexo III de la presente Orden.                    excepcionales. En el caso de que existiera discrepan-
+                                                                        cia entre la opinión de la familia y la propuesta de
+          2. En el proceso de tramitación del informe                   escolarización del dictamen de escolarización, o la
+       psicopedagógico deberán cumplirse las siguien-                   propuesta de orientación psicoeducativa de escola-
+       tes formalidades:                                                rización se podrá continuar el procedimiento hasta
+                                                                        el punto g inclusive de este apartado. De todo ello
+          a) Todas las páginas del informe deben estar nu-              quedará constancia en el acta.
+       meradas conformando un solo documento, con el
+       membrete oficial del Equipo y constando al pie de                    f) Los informes psicopedagógicos serán visados
+       cada página el nombre y apellidos del alumno o                   por el Coordinador o Coordinadora del Equipo, en
+       alumna.                                                          su caso, para lo cual habrá de considerar que inclu-
+                                                                        ya de forma precisa y completa: 1) todos los aparta-
+          b) Cada informe psicopedagógico y cada actuali-               dos descritos en el anexo III de la presente Orden;
+       zación deberá tener un número de referencia, que es-             2) que cumpla todos los aspectos formales descritos
+       tará constituido por ocho dígitos correspondientes al            anteriormente; 3) que la identificación de las capa-
+       número de la identificación del Equipo; el número                cidades, dificultades o trastornos, recogida en el in-
+       de orden del informe o actualización emitido forma-              forme se ajuste a los datos objetivos acreditados y re-
+       do por cuatro dígitos y el año natural de emisión con            flejados en éste y a los criterios de identificación
+       los dos últimos dígitos del año natural.                         establecidos en las normas respectivas; 4) que exis-
+                                                                        te coherencia entre la identificación de las altas ca-
+          c) En el informe se recogerá lo siguiente: fecha              pacidades o discapacidades, dificultades o trastornos,
+       de emisión, número de informe, CIAL del escolar,                 la determinación de las necesidades educativas y las
+       nombre y apellidos del alumno o la alumna, nom-                  orientaciones para la intervención; 5) que exista cohe-
+       bre del centro y código de éste, curso en que está               rencia entre el contenido del dictamen o propuesta y
+       escolarizado, número de la actualización del infor-              el resto de los apartados del informe.
+       me, de proceder, y nota de confidencialidad. Esta
+       información deberá figurar, al menos, en la pági-                    g) En el caso que el informe termine en dictamen,
+       na en la que constan los datos del escolar y en la               el coordinador o coordinadora del Equipo entregará
+       portada del informe. La nota de confidencialidad                 el informe en el registro de entrada de la Inspección
+       deberá decir: “la información recogida en el pre-                de Educación con un oficio que llevará el registro de
+       sente informe es totalmente confidencial, refleja la             salida del Equipo. El Inspector o Inspectora de zona
+       situación actual del alumno o de la alumna y no de-              visará el dictamen de escolarización, considerando
+       be ser considerada como determinante o definiti-                 lo siguiente: 1) que incluya de forma precisa y com-
+       va”, tratándose dicha información conforme a la nor-             pleta todos los subapartados del dictamen descritos
+       mativa de protección de datos vigente. Si se trata               en el anexo III de la presente Orden; 2) la idoneidad
+       de una actualización, deberá contener el número de               de la propuesta de escolarización, atendiendo a la ofer-
+       informe inicial y el número de las siguientes                    ta escolar de la zona; 3) la coherencia de dicha pro-
+       actualizaciones.                                                 puesta, con las conclusiones contenidas en el mismo
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                 24118                                  Martes 14 de septiembre de 2010
+
+
+
+       dictamen de escolarización; y 4) que el informe es-                     c) En el supuesto de no conseguir la opinión de
+       tá visado por el Coordinador del Equipo. El Inspec-                 la familia sobre la propuesta de escolarización del dic-
+       tor o la Inspectora de Educación, en el ejercicio de                tamen de escolarización o sobre la propuesta de
+       sus atribuciones, podrá supervisar cuando lo consi-                 orientación psicoeducativa de escolarización, des-
+       dere el contenido de todo el informe. Si el Inspector               pués de realizadas todas las actuaciones al alcance
+       o Inspectora correspondiente encontrara objeciones                  del centro educativo y acreditadas documentalmen-
+       para visar el dictamen, trasladará por escrito al coor-             te las mismas, el Inspector visará el informe y se con-
+       dinador o coordinadora del Equipo estas objeciones                  tinuará con el procedimiento establecido en el apar-
+       y devolverá el informe psicopedagógico.                             tado h) anterior.
+
+          h) Una vez visado el dictamen por la Inspección de                  4. La elaboración del Informe de evaluación de la
+       Educación, se remitirá de nuevo al Equipo, el Coor-                 comunicación y el lenguaje contendrá al menos los
+       dinador o Coordinadora le dará entrada en el libro de               apartados previstos en el anexo V y su actualización
+       control de informes y archivará una copia escrita y otra            en el anexo VI de la presente Orden.
+       informatizada, tramitando el original al centro educa-
+       tivo en el que se encuentra escolarizado el alumno o                   Artículo 33.- El informe psicopedagógico y la es-
+       alumna, de forma que conste su entrega en el centro                 colarización en COAEP, AE y CEE.
+       mediante un registro de entrada, y debiendo quedar cons-
+       tancia en el Equipo de esa entrega.                                    1. En general, el alumnado propuesto para la mo-
+                                                                           dalidad de escolarización en COAEP requerirán de
+          i) El centro cumplimentará en la documentación                   un informe psicopedagógico con dictamen motiva-
+       administrativa del alumno o alumnas adaptaciones cu-                do por presentar una discapacidad auditiva o disca-
+       rriculares o adaptaciones curriculares significativas               pacidad motora, de acuerdo con lo que disponga la
+       en las áreas o materias que correspondan.                           normativa que regule la atención a la diversidad del
+                                                                           alumnado en el ámbito de la enseñanza no universi-
+           j) El centro facilitará una copia del informe psi-              taria de Canarias y en sus desarrollos posteriores, y
+       copedagógico y de su última actualización, al tutor                 por requerir medios personales o materiales excep-
+       o tutora del estudiante, que devolverá cuando deje de               cionales debido a su discapacidad. El informe psico-
+       ejercer sus funciones como tal, con el objetivo de orien-           pedagógico con dictamen debe recoger explícita-
+       tar la planificación de la respuesta educativa en el “Do-           mente esta modalidad de escolarización excepcional.
+       cumento de Adaptación Curricular” y los programas
+       educativos personalizados, u otras medidas, archivan-                  2. El alumnado propuesto para la modalidad de es-
+       do el original en el expediente del escolar.                        colarización en AE y CEE requerirán de un informe
+                                                                           psicopedagógico con dictamen. La necesaria colabo-
+          k) Una vez que el informe esté en el centro, el pa-              ración entre la Inspección de Educación y la Dirección
+       dre y la madre o tutores legales podrán disponer de                 General de Ordenación e Innovación Educativa para
+       una copia de éste, previa solicitud por escrito a la                una adecuada escolarización en COAEP, AE o CEE
+       dirección.                                                          y con la finalidad de la optimización de los recursos,
+                                                                           requiere tener en cuenta el siguiente protocolo:
+          3. En el caso de que existiera discrepancia entre
+       la opinión de la familia y la propuesta de escolariza-                 a) Tras recibir el dictamen con la propuesta de es-
+       ción del dictamen de escolarización o propuesta de                  colarización en AE o CEE, una vez visado el mismo
+       orientación psicoeducativa de escolarización, se ac-                por el Inspector o Inspectora y en coordinación con
+       tuará de la siguiente manera:                                       los técnicos de la Dirección General de Ordenación
+                                                                           e Innovación Educativa, y los inspectores de los cen-
+           a) El Inspector o Inspectora de zona junto con el               tros emisores y receptores, de proceder, acordarán una
+       coordinador o coordinadora del Equipo y, en su ca-                  propuesta de centro para la escolarización del alum-
+       so, con un responsable de la Dirección General de Or-               no o alumna.
+       denación e Innovación Educativa mediará con la fa-
+       milia para encontrar una solución y levantará acta de                   b) Los inspectores o inspectoras implicados, emi-
+       la reunión mantenida con tal fin.                                   tirán informe con la propuesta de escolarización al Di-
+                                                                           rector Territorial, indicando el centro asignado al alum-
+           b) De no encontrar solución por este procedimien-               no o alumna y comunican a los centros afectados y a
+       to, el Inspector o Inspectora de zona remitirá a la Di-             la familia la asignación provisional de la plaza.
+       rección Territorial un escrito en el que recoja una pro-
+       puesta de escolarización consensuada entre los                          c) El Director Territorial emitirá la correspondien-
+       participantes en la reunión y la Dirección General de               te resolución de escolarización, remitiéndola al cen-
+       Ordenación e Innovación Educativa, teniendo en                      tro emisor, al centro receptor y a la familia.
+       cuenta la oferta escolar de la zona y se adjuntará el
+       acta de la reunión a que se refiere el apartado a) de                   d) El alumno o alumna se escolarizará en el centro
+       este punto 4.                                                       asignado cuando dicho centro disponga de la resolución
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                  24119                                    Martes 14 de septiembre de 2010
+
+
+
+       del Director Territorial de Educación correspondiente,               nado al caso. De existir discrepancia se realizará una reu-
+       resolviendo sobre dicha escolarización, garantizándose,              nión conjunta, de la que se levantará acta, donde parti-
+       en cualquier caso, la incorporación a un centro que reú-             cipen los dos orientadores u orientadoras, los coordina-
+       na las condiciones de acuerdo a su dictamen de escola-               dores y coordinadores de ambos Equipos y, de estimarse
+       rización recogidos en el informe psicopedagógico.                    por éstos, los respectivos Inspectores o Inspectoras Coor-
+                                                                            dinadores. De no llegar a un acuerdo, se trasladará el ac-
+          Artículo 34.- Protocolo de coordinación entre los                 ta a la Dirección General de Ordenación e Innovación
+       EOEP de Zona y EOEP específicos para la realiza-                     Educativa, quien decidirá en última instancia. El segui-
+       ción de la valoración e informe psicopedagógico.                     miento y actualización de dichos informes se realizará
+                                                                            por el equipo que haya elaborado el primer informe con
+           1. Será el orientador u orientadora del centro el                la colaboración del componente del otro Equipo, salvo
+       que inicie el proceso de valoración psicopedagógi-                   que la modificación de las circunstancias personales del
+       ca, con la observación y apreciaciones del tutor o tu-               alumno o alumna requieran otra actuación.
+       tora, del resto del profesorado y de la familia, salvo
+       que el alumno o alumna se escolarice habiendo sido                      7. Cuando existan discrepancias entre los EOEP
+       valorado previamente por un Equipo específico.                       de zonas y EOEP específicos en la propuesta de es-
+                                                                            colarización, se actuará de la siguiente manera:
+           2. En los casos en que el alumno o alumna no ha
+       sido valorado previamente por un Equipo Específi-                        a) Los Inspectores Coordinadores e Inspectoras
+       co, una vez terminado el PIP y ante indicadores de                   Coordinadoras de los EOEP respectivos y el Inspec-
+       que el alumno o alumna pueda presentar alguna dis-                   tor o Inspectora del centro trasladarán a la Dirección
+       capacidad o trastorno dentro del ámbito de actuación                 General de Ordenación e Innovación Educativa un
+       de alguno de los EOEP específicos, el orientador de                  escrito conjunto manifestando en qué consiste la dis-
+       zona, previa cumplimentación del “Cuestionario de                    crepancia y una propuesta de solución del problema,
+       detección y señales de alerta” respectivo, solicita a                adjuntando el informe psicopedagógico respectivo.
+       través del coordinador de su Equipo, la intervención
+       del EOEP específico. Para ello acompaña la solici-                      b) Será la Dirección General de Ordenación e Inno-
+       tud de los EOEP de zona siguiendo el modelo que se                   vación Educativa quién determinará la solución a la
+       aporte en el desarrollo de esta norma.                               discrepancia.
+
+          3. En los supuestos que el alumno o alumna se in-                     8. La Dirección General de Ordenación e Inno-
+       corpore al centro con otros informes privados o con cla-             vación Educativa proporcionará a los EOEP de zo-
+       ros indicios de una de las discapacidades o trastornos,              na los protocolos de detección con las señales de
+       no será necesario esperar a terminar el PIP para trasla-             alerta para cada discapacidad o trastorno que abar-
+       dar la petición de valoración al Equipo específico.                  quen los Equipos específicos. Estos protocolos se cum-
+                                                                            plimentarán en el centro por el orientador y el equi-
+          4. El Equipo específico, a través de su Coordinador,              po educativo del escolar antes de trasladarse a los Equipos
+       comunicará al orientador del centro la aceptación de in-             específicos y solicitar su intervención.
+       tervenir en el caso y la temporalización. En el supuesto
+       de no considerar tal intervención la justificará de forma                Artículo 35.- Complementariedad con otros de-
+       razonada y por escrito a la dirección del centro y al                sarrollos normativos.
+       orientador o la orientadora siguiendo el modelo que se
+       aporte en el desarrollo de esta norma.                                   Los aspectos contemplados en este Capítulo V se
+                                                                            completarán con las singularidades recogidas en los
+          5. Durante el período de elaboración del informe                  respectivos desarrollos normativos cuando se trate de
+       psicopedagógico el alumno o alumna recibirá la res-                  alumnado con necesidades educativas especiales,
+       puesta educativa siguiendo las pautas del orientador                 presenten altas capacidades intelectuales, o se iden-
+       o la orientadora del centro. Hasta tanto se proceda a                tifiquen con dificultades específicas de aprendizaje,
+       la valoración por parte del EOEP específico, se ini-                 con trastornos por déficit de atención con o sin hi-
+       ciará la valoración que competa al orientador u orien-               peractividad o con especiales condiciones persona-
+       tadora del centro.                                                   les e historia escolar.
+          6. La redacción final del informe psicopedagógico co-                DISPOSICIONES ADICIONALES
+       rresponderá al EOEP específico cuando los indicadores
+       de la discapacidad o trastorno sea predominante en su                   Primera.- La administración Educativa, a través
+       ámbito de actuación o que, la respuesta educativa ten-               de sus servicios, velará por el cumplimiento de lo dis-
+       ga mayor importancia y sea predominante en su cam-                   puesto en la presente Orden.
+       po. En el resto de los casos la redacción final correspon-
+       derá al orientador del centro. Esta decisión será tomada                Segunda.- La Administración educativa organiza-
+       de forma conjunta entre el orientador o la orientadora               rá anualmente la oferta de formación a los compo-
+       del centro y el componente del EOEP específico asig-                 nentes de los Equipos de orientación.
+
+
+boc-a-2010-181-5207
+             Boletín Oficial de Canarias núm. 181               24120                                 Martes 14 de septiembre de 2010
+
+
+
+          Tercera.- Todos los datos derivados de los proce-                4.4. Actuaciones realizadas con el alumno o la alum-
+       dimientos establecidos en la presente Orden deberán              na en el centro o en el aula.
+       ser tratados conforme establece Ley Orgánica 15/1999,
+       de Protección de Datos de Carácter Personal y el                    5. Conclusiones.
+       Real Decreto 1720/2007, de 21 de diciembre, por el
+       que se aprueba el Reglamento de desarrollo de la Ley                                ANEXO II
+       Orgánica 15/1999, de 13 de diciembre, de protección
+       de datos de carácter personal, así como el resto de               CONTENIDO DEL PREINFORME PSICOPEDAGÓGICO
+       normativa aplicable en este ámbito.                                                  (PIP)
+
+          DISPOSICIÓN DEROGATORIA                                          1. Datos del alumno o la alumna.
+
+          Quedan derogadas cuantas disposiciones genera-                   1.1. Datos personales.
+       les del mismo o inferior rango se opongan o contra-
+       digan a la presente Orden.                                          1.2. Condiciones de salud y sociofamiliar, si fue-
+                                                                        ra necesario.
+          DISPOSICIONES FINALES
+                                                                           1.3. Motivo de la evaluación (a petición de quién
+           Primera.- Se autoriza a los centros directivos de            y por qué).
+       esta Consejería y, en especial, a la Dirección Gene-
+       ral de Ordenación e Innovación Educativa, para que,                 2. Historia escolar (evolución académica del alum-
+       en el ámbito de sus atribuciones, dicten las instruc-            no o la alumna, respuestas inclusivas o de otro tipo
+       ciones necesarias para la aplicación, ejecución y de-            que se hayan dado a las necesidades educativas que
+       sarrollo de la presente Orden.                                   presenta el escolar, medidas tomadas por el centro y
+                                                                        resultados, justificación y valoración de dichas me-
+          Segunda.- La presente Orden entrará en vigor el               didas por el equipo docente).
+       día siguiente al de su publicación en el Boletín Ofi-
+       cial de Canarias.                                                   3. Datos sobre el nivel competencial.
+
+          Santa Cruz de Tenerife, a 1 de septiembre de 2010.               3.1. Competencia curricular.
+
+             LA CONSEJERA DE EDUCACIÓN,                                    3.1.1. Logro académico de objetivos por cada área
+         UNIVERSIDADES, CULTURA Y DEPORTES,                             o materia y grado de desarrollo o adquisición de las
+                   Milagros Luis Brito.                                 competencias básicas.
+
+                                                                           3.1.2. Competencia académica basada en los pro-
+                               ANEXO I                                  cesos subyacentes a la lectura, escritura y aritméti-
+                                                                        ca, cuando se observen desajustes en las áreas o ma-
+             CONTENIDO DEL INFORME EDUCATIVO                            terias más relacionadas con tales procesos.
+                      DE DERIVACIÓN
+                                                                           3.2. Competencia cognitiva.
+          1. Datos personales del alumno o alumna.
+                                                                           3.3. Competencia socio-afectiva, si fuera necesario.
+          2. Motivo de la evaluación.
+                                                                           3.4. Competencia en comunicación y lenguaje, si
+          3. Historia familiar, escolar, condiciones persona-           fuera necesario.
+       les de salud y otros factores de riesgo.
+                                                                           4. Conclusiones y orientaciones para la planifica-
+          4. Señales de alerta presentes:                               ción de la respuesta educativa: programas educati-
+                                                                        vos personalizados a desarrollar (PEP).
+          4.1. Dificultades de comportamiento y aprendizaje:
+                                                                                          ANEXO III
+          4.1.1. Presentes en el entorno familiar.
+                                                                           CONTENIDO DEL INFORME PSICOPEDAGÓGICO
+          4.1.2. Presentes en el entorno escolar.
+                                                                           El informe psicopedagógico ha de recoger en la
+         4.2. Resultado de las pruebas formales (atención,              página en la que constan los datos del alumno/a y en
+       control inhibitorio, memoria de trabajo inteligencia             la portada del mismo lo siguiente:
+       general, ...).
+                                                                           a) Fecha del informe, número de informe del EOEP
+          4.3. Problemas de rendimiento escolar.                        y nota de confidencialidad que diga: “La información
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                  24121                                  Martes 14 de septiembre de 2010
+
+
+
+       recogida en el presente informe es totalmente confiden-                 b) Competencia académica basada en los proce-
+       cial, refleja la situación actual del alumno o de la alum-           sos cognitivos de lectura, escritura y cálculo, cuan-
+       na y no debe ser considerada como determinante o de-                 do se observen desajustes en las áreas o materias
+       finitiva”, tratándose dicha información conforme a la                más relacionadas con estos procesos cognitivos. Pa-
+       normativa de protección de datos vigente.                            ra ello es fundamental una reunión con el equipo
+                                                                            docente.
+          b) El registro del informe psicopedagógico será
+       el siguiente: Código del EOEP (8 dígitos), Número                       3.2. Competencia cognitiva.
+       de orden del informe en el año natural (4 dígitos) y
+       año (los dos últimos dígitos del año natural).                          Incluir, entre otras cosas, los resultados cuantita-
+                                                                            tivos obtenidos en las pruebas normalizadas aplica-
+          c) Si se trata de una actualización, se reflejará el              das, así como su interpretación.
+       número de informe inicial y se añadirá un nuevo nú-
+       mero con las mismas condiciones, es decir, con el có-                   3.3. Competencia socio-afectiva.
+       digo del equipo actual (8 dígitos), con el número de
+       orden que le corresponda en el año en que se actua-                     3.4. Estilo de aprendizaje.
+       liza (4 dígitos), y con el año en que se realiza la ac-
+       tualización (2 dígitos).                                                3.5. Comunicación y el lenguaje.
+
+          d) Todas las páginas del informe deben estar nu-                      En caso de precisar la intervención del maestro
+       meradas conformando un solo documento, con el                        o maestra de audición y lenguaje incluir aquí el con-
+       membrete oficial del Equipo y constando al pie de                    tenido del informe de la evaluación de la comunica-
+       cada página el nombre y apellidos del alumno o                       ción y el lenguaje siguiendo, al menos, los apartados
+       alumna.                                                              del anexo V de esta Orden.
+
+          Asimismo los epígrafes del informe psicopedagógi-                    4. Datos del proceso de enseñanza-aprendizaje
+       co son los que a continuación se enumeran y describen:               en el contexto escolar:
+
+          1. Datos del alumno o la alumna.                                     4.1. Contexto de aula.
+
+          1.1. Datos personales.                                               4.2. Contexto de centro.
+
+          1.2. Motivo de la evaluación (a petición de quién                    Se escribirán solamente los aspectos relevantes pa-
+       y por qué).                                                          ra la respuesta educativa, teniendo en cuenta lo ob-
+                                                                            servado y la información facilitada por los distintos
+           1.3. Historia escolar (evolución académica del es-               profesionales.
+       colar; respuestas que se hayan dado a las NEAE que
+       presenta el alumno o alumna; medidas tomadas por                        5. Contexto socio-familiar:
+       el centro y resultados, justificando y valorando di-
+       chas medidas).                                                           Se recogerán solamente los aspectos relevantes de
+                                                                            la influencia de la familia y del contexto social en el
+          2. Condiciones personales de salud y observacio-                  desarrollo del alumno o alumna, interacciones fami-
+       nes sobre medidas médico sanitarias:                                 lia-centro, autonomía e independencia, empleo del tiem-
+                                                                            po libre, modelos educativos, expectativas de la fa-
+         Se deberá explicitar, si procede, que no se obser-                 milia, recursos del entorno y uso de ellos.
+       van condiciones de salud que incidan significativa-
+       mente en las NEAE del alumno o alumna.                                  6. Conclusiones, identificación de las necesidades
+                                                                            específicas de apoyo educativo y la previsión de apo-
+          3. Datos sobre el nivel competencial:                             yos personales y materiales:
+
+          3.1. Competencia curricular.                                        6.1. Conclusiones del proceso de evaluación psico-
+                                                                            pedagógica.
+          a) Logro académico de cada área o materia don-
+       de presente dificultades, expresando el grado de desa-                   6.2. Identificación del tipo de NEAE que presen-
+       rrollo o adquisición de los objetivos, contenidos y                  ta el escolar.
+       competencias básicas, que se adjuntará en un do-
+       cumento anexo al informe. En este apartado sólo                          6.3. Tipo de AC o ACUS, si procede. Hay que es-
+       se recogerá el curso en que se encuentra el referen-                 pecificar las áreas o materias sujetas a adaptación. Se
+       te curricular en todas las áreas o materias, partien-                reflejará p.e.: “adaptación curricular que se aparta sig-
+       do del acta del equipo educativo al respecto (ver                    nificativamente de su currículo o adaptación curri-
+       anexo IV).                                                           cular”. Hay que tener en cuenta que la ACUS sola-
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181                24122                                  Martes 14 de septiembre de 2010
+
+
+
+       mente procede para alumnado con NEE y es de área                   lógicos, y sobre el tipo de apoyo personal y material,
+       o materia, no procediendo una ACUS global.                         teniendo en cuenta los recursos disponibles
+
+         6.4. Recursos materiales y personales, según las                   9.3.1. Tipo de AC/ACUS y áreas o materias
+       modalidades de escolarización en la Comunidad                      adaptadas.
+       Autónoma de Canarias, que el alumnado precisa.
+                                                                             9.3.2. Orientaciones para elaborar la AC/ACUS y
+          6.5. Modalidad de escolarización (las previstas en              los PEP.
+       esta norma).
+                                                                             9.3.3. Tipo de apoyos personales y materiales.
+          6.6. Otras necesidades o aspectos de interés.
+                                                                             9.4. Acta de la reunión de información a la familia.
+          7. Orientaciones para la planificación de la respues-
+       ta educativa:                                                          Datos del acta, especialmente de la fecha y hora,
+                                                                          de la reunión en la que se informa a los padres, ma-
+          Estas orientaciones han de ser útiles para realizar             dres, tutoras o tutores legales de evaluación psico-
+       las adecuaciones organizativas y curriculares nece-                pedagógica realizada y de las conclusiones principa-
+       sarias para el escolar.                                            les de la misma, haciendo mención expresa, en su caso,
+                                                                          a la existencia de una adaptación curricular, adapta-
+          8. Documentos relevantes:                                       ción curricular significativa, a posibles escolarizacio-
+                                                                          nes extraordinarias o elementos de acceso.
+           8.1. Relación de instrumentos o pruebas norma-
+       lizadas y no normalizadas empleados en la exploración.                El acta de información a los padres deberá que-
+                                                                          dar recogida en documento anexo al informe psico-
+          8.2. Si existieran otros preinformes o informes                 pedagógico, y deberá estar firmada por todos los
+       psicopedagógicos, se reseñarán.                                    asistentes a la sesión.
+
+          8.3. Actualizaciones del informe psicopedagógi-                    9.5. Propuesta razonada de escolarización (en fun-
+       co, si las hubiera.                                                ción de las necesidades del alumno o alumna y de las
+                                                                          características y posibilidades de los centros). Debe-
+          8.4. Otros documentos, si existieran.                           rá figurar sólo una de las siguientes:
+
+         9. Dictamen o propuesta de orientación psico-                       9.5.1. Centro ordinario.
+       educativa.
+                                                                             9.5.2. Aula enclave o, por necesidades de escola-
+          En caso de que el informe psicopedagógico finalice              rización, centro ordinario.
+       en dictamen, se cumplimentarán los siguientes apartados:
+                                                                             9.5.3. Aula enclave o, por necesidades de escola-
+          9.1. Datos personales del alumno o alumna (in-                  rización, centro de educación especial.
+       cluirán las condiciones personales de salud, o
+       discapacidad).                                                        9.5.4. Centro de educación especial.
+
+         9.2. Conclusiones del proceso de evaluación psico-                  9.5.5. Centros ordinarios de atención educativa pre-
+       pedagógica.                                                        ferente para discapacitados auditivos o motóricos.
+
+          9.2.1. Desarrollo general del alumno o alumna.                     9.6. Plazo de revisión de la propuesta de escola-
+                                                                          rización, si procede.
+          9.2.2. Datos del nivel de competencia y referen-
+       te curricular, por áreas o materias según el acta del                 Se pondrá el lugar, la fecha, el sello del Equi-
+       equipo educativo.                                                  po, de conformidad con la nueva imagen corpora-
+                                                                          tiva del Gobierno de Canarias, y la firma de los pro-
+          9.2.3. Competencia cognitiva y socioafectiva.                   fesionales de este que han participado, y Vº.Bº. del
+                                                                          coordinador o coordinadora del Equipo. En el dic-
+          9.2.4. Otras condiciones significativas para el pro-            tamen se incluirá el Vº.Bº. del Inspector o Inspec-
+       ceso de enseñanza-aprendizaje.                                     tora de Educación del centro donde está escolari-
+                                                                          zado el alumno o alumna, con la siguiente leyenda:
+          9.2.5. Identificación del tipo de NEAE que pre-                 “Vº.Bº. del Inspector o Inspectora al dictamen de
+       senta el alumno o alumna.                                          escolarización”.
+
+         9.3. Orientaciones sobre la propuesta psicopeda-                    El acta de información a los padres deberá que-
+       gógica, sobre los aspectos organizativos y metodo-                 dar recogida en documento anexo al informe psico-
+
+
+boc-a-2010-181-5207
+                    Boletín Oficial de Canarias núm. 181                           24123                                          Martes 14 de septiembre de 2010
+
+
+
+           pedagógico, y deberá estar firmada por todos los                                terial necesario, teniendo en cuenta los recursos
+           asistentes a la sesión.                                                         disponibles.
+
+              En caso de que el informe psicopedagógico fina-                                 9.6.4. Acta de la reunión de información a la familia.
+           lice en propuesta de orientación psico-educativa, se
+           cumplimentarán los siguientes apartados:                              Datos del acta, especialmente de la fecha y hora,
+                                                                              de la reunión en la que se informa a los padres, ma-
+               9.6.1. Datos personales del alumnado y condicio-               dres, tutores o tutoras legales de evaluación psico-
+           nes de salud.                                                      pedagógica realizada y de las conclusiones principa-
+                                                                              les de la misma, haciendo mención expresa a la
+               9.6.2. Las conclusiones del proceso de evalua-                 propuesta de orientación psicoeducativa.
+                    ANEXO IV. ACTA
+           ción psicopedagógica              PARA
+                                     referidas       INFORMAR
+                                               al desarrollo  generalSOBRE EL NIVEL COMPETENCIAL O REFERENTE
+           del alumno o alumna, a su nivel de competencia cu-        CURRICULAR  El acta de información a los padres deberá quedar re-
+           rricular, cognitiva y socioafectiva, así como a otras              cogida en documento anexo al informe psicopedagógi-
+              Reunidos
+           condiciones       los      abajo
+                         significativas         firmantes,
+                                           para el               miembros co, y
+                                                   proceso de ense-              del     equipo
+                                                                                   deberá estar      docente
+                                                                                                firmada por todos losdel/la     alumno/a:
+                                                                                                                      asistentes a la sesión.
+              ________________________________________________CIAL_________
+           ñanza   y aprendizaje.   Debe    comprender,   si procede,
+           la identificación
+              escolarizado en deleltipo de NEAE que presenta.
+                                    curso/ciclo/etapa______                      9.6.5. Plazo de revisión de la propuesta.
+              en el centro escolar CEIP/IES/CEO_________________________________
+               9.6.3. Orientaciones para la respuesta psicope-                   Se pondrá el lugar, la fecha, el sello del Equipo,
+              Informamos
+           dagógica           que,satisfaga
+                      que mejor      teniendosusennecesidades
+                                                    cuenta losy so-objetivos,decontenidos
+                                                                                 conformidady con  competencias
+                                                                                                     la nueva imagen establecidos
+                                                                                                                          corporativa  endel
+                                                                                                                                           el
+              Decreto   183/2008     del  segundo   ciclo  de
+           bre los aspectos organizativos y metodológicos y,   Ed.  Infantil, en  el  Decreto    126/2007
+                                                                              Gobierno de Canarias,          de  Ed.   Primaria,    o
+                                                                                                         y la firma de los profesiona-  en el
+                                                                                                      1
+           en Decreto
+               su caso,127/2007
+                        sobre el tipode ladeESO,
+                                             apoyoenpersonal
+                                                     el día de ylama-
+                                                                   fecha, su les
+                                                                               referente  curricular
+                                                                                  del mismo    que hanse   sitúa en las distintas áreas
+                                                                                                         participado.
+              y materia en los siguientes cursos:
+              (poner una “X” dentro del cuadro correspondiente)
+                                                                 ANEXO IV
+      ANEXO IV. ANEXO  ACTA    IV. PARA
+                                      ACTA PARA  INFORMAR           SOBRE
+                                                                  Conocimiento
+                                                           INFORMAR              EL
+                                                                                SOBRE  NIVEL      COMPETENCIAL
+                                                                                            EL NIVEL                Lenguaje:
+                                                                                                             COMPETENCIAL      O   REFERENTE
+                                                                                                                                          O   REFERENTE
+                                                                    CURRICULAR             Conocimiento
+                                                                  de sí    mismo y
+                                                                               CURRICULAR                           comunicación               y
+             EDUCACIÓN INFANTIL                                                            del entorno
+                                                                  autonomía                                         representación
+ ReunidosReunidoslos      abajo abajo
+                            los           firmantes,          miembros
+                                                     firmantes,   personalmiembros del      equipo equipo
+                                                                                              del          docentedocente    del/la del/la
+                                                                                                                                         alumno/a:   alumno/a:
+ ________________________________________________CIAL_________
+         ________________________________________________CIAL_________
+             Segundo 3 años
+ escolarizado   en el en4el
+         escolarizado
+             ciclo      curso/ciclo/etapa______
+                                      curso/ciclo/etapa______
+                                   años
+ en el centro  escolar
+         en el centro 5   CEIP/IES/CEO_________________________________
+                           escolar años  CEIP/IES/CEO_________________________________
+ Informamos       que, teniendo
+         Informamos          que, teniendo en cuenta      los objetivos,
+                                                     en cuenta                    contenidos
+                                                                      los objetivos,               y competencias
+                                                                                             contenidos       y competencias establecidos       en el en el
+                                                                                                                                        establecidos
+ DecretoDecreto
+          183/2008       del    segundo
+                     183/2008 PRIMARIA          ciclo  de   Con.
+                                                            Ed.   Infantil,Ed. en
+                                       del segundo ciclo de Ed. Infantil,Ed.Física  el   Decreto     126/2007
+                                                                                          en el Decreto             de    Ed.     Leng.
+                                                                                                                               Primaria,
+                                                                                                                 126/2007 de Ed. Primaria,    o   Matemáticas
+                                                                                                                                                 en el   o en el
+             EDUCACIÓN                                                                                    Leng.Cast.Lit.
+                                                                                                            1           1
+ DecretoDecreto
+          127/2007 de127/2007 la ESO, de laen el
+                                               ESO,         Med.
+                                                    díaendeelladía
+                                                                 fecha,    Artíst.
+                                                                     de lasufecha,
+                                                                                referente      curricular se
+                                                                                       su referente               sitúa se
+                                                                                                         curricular        en las Extr.
+                                                                                                                                    distintas
+                                                                                                                              sitúa en   las áreas
+                                                                                                                                               distintas áreas
+ y materia
+         y enPrimer
+           materialos en
+                      siguientes
+                             losPrimer       año (1º
+                                         cursos:
+                                    siguientes      cursos:
+ (poner una  ciclo
+              “X”una
+         (poner      dentro
+                         “X”del curso
+                                  dentro  )
+                                        cuadro     correspondiente)
+                                              del cuadro      correspondiente)
+                                Segundo año (2º
+                                curso)
+             Segundo Primer año Conocimiento         (3º       Conocimiento  ConocimientoConocimiento
+                                                                                                      Lenguaje:  Lenguaje:
+             ciclo              curso)              de   sí  mismo
+                                                               de    sí y
+                                                                        mismo       y                 comunicación
+                                                                                                                 comunicación    y          y
+  EDUCACIÓN
+          EDUCACIÓN  INFANTIL     INFANTIL autonomía                         del entorno del entorno
+                                Segundo año (4º                autonomía                              representación
+                                                                                                                 representación
+                                curso)              personalpersonal
+  SegundoSegundo 3
+             Tercer años    3   años
+                                Primer año (5º
+  ciclo ciclo    4 años 4 curso)
+             ciclo              años
+                 5 años 5 años  Segundo año (6
+                                º curso)
+                                                Con. Con.   Ed.         Ed.                                         Leng. Leng.     MatemáticasMatemáticas
+  EDUCACIÓN          PRIMARIA
+          EDUCACIÓN PRIMARIA                                               Ed.Física        Leng.Cast.Lit.
+                                                                                       Ed.Física        Leng.Cast.Lit.
+           1                                    Med.        Artíst.
+                                                          Med.          Artíst.                                     Extr.      Extr.
+             Por ejemplo, si se indica que el referente curricular es de 3º curso de Primaria, debe entenderse que el escolar ha alcanzado el desarrollo
+  Primer Primer Primer deaño
+           correspondiente  Primer(1º
+                                los        añocontenidos
+                                     objetivos,    (1º y competencias básicas a los cursos anteriores, es decir, del segundo curso del primer ciclo
+           Ed.Primaria
+  ciclo ciclo   cursoen)este    caso.
+                            curso      )
+                SegundoSegundo  año (2º año (2º
+                curso) curso)                                                                                                                        76
+  SegundoSegundoPrimer año  Primer(3ºaño (3º
+  ciclo ciclocurso) curso)
+                Segundo año Segundo    (4º año (4º
+                curso) curso)
+  Tercer Tercer Primer Primeraño (5ºaño (5º
+  ciclo ciclocurso) curso)
+boc-a-2010-181-5207
+                Segundo año             (6 año (6
+                            Segundo
+                                                           Conocimiento                                    Lenguaje:
+                                                                         Conocimiento
+                                                           de sí mismo y                                   comunicación              y
+         EDUCACIÓN INFANTIL                                              del entorno
+                                                           autonomía                                       representación
+                                                           personal
+              Boletín Oficial
+         Segundo              de Canarias núm. 181
+                          3 años                                               24124                                          Martes 14 de septiembre de 2010
+         ciclo            4 años
+                          5 años
+
+                                                     Con.         Ed.                                                    Leng.           Matemáticas
+         EDUCACIÓN PRIMARIA                                                     Ed.Física Leng.Cast.Lit.
+                                                     Med.         Artíst.                                                Extr.
+         Primer           Primer año (1º
+         ciclo            curso )
+                          Segundo año (2º
+                          curso)
+         Segundo          Primer año (3º
+         ciclo            curso)
+                          Segundo año (4º
+                          curso)
+         Tercer           Primer año (5º
+         ciclo            curso)
+                          Segundo año (6
+                          º curso)
+        1                 Ciencias
+          Por ejemplo, si se indica             Ciencias
+                                    que el referente              Educación
+                                                     curricular es de 3º              Educación
+                                                                          curso de Primaria,              Lengua
+                                                                                             debe entenderse               Lengua
+                                                                                                             que el escolar ha                Matemáticas.
+                                                                                                                               alcanzado el desarrollo
+        correspondiente dedelos objetivos,lacontenidos
+                                                Sociales,         Física.
+                                                       y competencias                 Plástica
+                                                                         básicas a los cursos             Castellana
+                                                                                                    y es decir,
+                                                                                              anteriores,                  Extranjera.
+                                                                                                                  del segundo curso  del primer ciclo
+        Ed.Primaria en este caso.
+                        Naturaleza. Geografía                                  Visual.            y
+         ESO
+                                    e                                                             Literatura.
+                                    Historia.                                                                                              76
+
+
+         Primer
+         curso
+         Segundo
+         curso
+         Tercer
+         curso
+         Cuarto
+         curso
+
+        y que, considerando globalmente todas las áreas, el escolar tiene un referente curricular situado en el
+        __curso de____
+        Del mismo modo, informamos que en las actas de evaluación correspondientes, expediente e historial
+        académico del alumno/a consta como que tiene superado el ________curso/ciclo/etapa
+        de______________
+        Lo que firmamos en _______________a_______ de__________de 20____
+
+                                                         Fdo: El/la profesor/a              Fdo: El/la profesor/a        Fdo: El/la profesor/a
+                                                         D/Dña__________                    D/Dña__________              D/Dña__________
+        EL/LA TUTOR/A
+
+
+
+        D/Dña___________________
+                                                                 VºBº El/la Director/a
+                                                                 D/Dña.__________
+
+
+
+
+boc-a-2010-181-5207
+             Boletín Oficial de Canarias núm. 181              24125                                 Martes 14 de septiembre de 2010
+
+
+
+                              ANEXO V                                     3. Evolución y seguimiento de las medidas edu-
+                                                                       cativas adoptadas.
+         CONTENIDO DEL INFORME DE LA EVALUACIÓN
+            DE LA COMUNICACIÓN Y EL LENGUAJE                              4. Propuesta para el próximo curso (especificar las
+                                                                       acciones educativas que habrán de desarrollarse en
+         1. Datos personales.                                          el curso escolar siguiente).
+
+         2. Resultados de la evaluación del contexto socio-                              ANEXO VII
+       familiar y escolar.
+                                                                          PLAN DE TRABAJO ANUAL DEL EOEP DE ZONA
+         3. Resultado de la valoración específica de la co-
+       municación y el lenguaje.                                          1. Datos del Equipo:
+
+         3.1. Comunicación.                                               1.1. Nombre y apellidos del coordinador o coor-
+                                                                       dinadora y datos de contacto.
+         3.2. Lenguaje expresivo y comprensivo:
+                                                                          1.2. Dirección de la sede, teléfono, fax y correo
+         3.2.1. Oral:                                                  electrónico.
+
+         a) Sintaxis.                                                     1.3. Zona de actuación: municipios, distritos edu-
+                                                                       cativos, centros atendidos por cada profesional del
+         b) Morfología.                                                Equipo.
+
+         c) Semántica.                                                     1.4. Relación de los componentes: nombre y ape-
+                                                                       llidos, especialidad, DNI, nº de registro personal, si-
+         3.2.2. Escrito:                                               tuación administrativa.
+         Lectura emergente, cuando proceda.                               2. Análisis de necesidades y líneas prioritarias de
+                                                                       actuación:
+         3.3. Habla:
+                                                                          2.1. Necesidades.
+         3.3.1. Inteligibilidad.
+                                                                          2.2. Líneas prioritarias de actuación de acuerdo a
+         3.3.2. Fonología.                                             la normativa vigente.
+         4. Evaluación complementaria de áreas colaterales.               3. Objetivos generales del EOEP y actividades
+                                                                       para su desarrollo.
+         4.1. Audición.
+                                                                          4. Criterios y procedimientos comunes de actua-
+         4.2. Motricidad del habla.                                    ción de todo el Equipo y de cada una de las etapas.
+         4.3. Respiración.                                               5. Organización del trabajo por grupos de
+                                                                       coordinación.
+         4.4. Cualidades de la voz.
+                                                                          6. Planificación y temporalización de las actuacio-
+         5. Elaboración del perfil comunicativo-lingüístico.           nes de equipo y de los grupos de coordinación.
+         6. Identificación de las necesidades educativas.                7. Distribución y temporalización de tareas del
+                                                                       equipo.
+         7. Propuesta de acción educativa.
+                                                                          8. Planes de actuación en centros asignados y no
+                                                                       asignados.
+                             ANEXO VI
+                                                                          8.1. Criterios de intervención.
+         CONTENIDO DEL INFORME DE ACTUALIZACIÓN
+          DE LA EVALUACIÓN DE LA COMUNICACIÓN                             8.2. Centros asignados de cada unidad de Orienta-
+                     Y EL LENGUAJE                                     ción y Comunicación y Lenguaje y dedicación horaria.
+         1. Datos personales.                                             8.3. Organización y temporalización de las inter-
+                                                                       venciones conjuntas previstas en los centros públi-
+         2. Acciones educativas desarrolladas.                         cos asignados y no asignados.
+
+
+boc-a-2010-181-5207
+              Boletín Oficial de Canarias núm. 181              24126                                  Martes 14 de septiembre de 2010
+
+
+
+          8.4. Organización y temporalización de las inter-                11. Proyecto de presupuesto, con indicación de par-
+       venciones conjuntas para dar respuesta a las necesi-             tidas y cantidades asignadas a cada una, en el que se
+       dades de valoración de alumnos y alumnas de cen-                 incluya el remanente del curso anterior.
+       tros privados concertados y privados.
+                                                                           12. Anexos:
+          9. Coordinaciones.
+                                                                           12.1. Datos de los componentes del Equipo.
+          9.1. Coordinación con los EOEP específicos.
+                                                                           12.2. Anexos de los maestros y maestras de audi-
+         9.2. Coordinación con otros Servicios que inter-               ción y lenguaje y trabajadores y trabajadoras socia-
+       vengan en la zona.                                               les, que se establezcan.
+
+          9.3. Coordinación con otros agentes y servicios.                 12.3. Días y horarios de atención a los centros
+               12.3. Días y horarios de atención a los centros de    de los
+                                                                         los componentes
+                                                                             componentes deldel Equipo
+                                                                                                Equipo con
+                                                                                                        con destino
+                                                                                                             destino en
+                                                                                                                      en elel
+               EOEP, según el siguiente cuadro:
+          10. Evaluación y seguimiento del plan de trabajo del EOEP. EOEP,    según el siguiente cuadro:
+
+         ORIENTADOR/A DÍA   DE                        LA Centro                                HORAS DE ATENCIÓN
+                      SEMANA
+
+
+
+
+         Exclusivas:
+         Maestro/a              de DÍA   DE           LA Centro                                HORAS                  DE
+         audición                y SEMANA                                                      ATENCIÓN
+         lenguaje
+
+
+
+
+         Exclusivas:
+
+                             ANEXO VIII                6. Datos sobre número de informes psicopedagó-
+                                                    gicos y otros realizados por cada miembro del Equi-
+        GUÍA PARA LA MEMORIA FINAL DEL EOEP DE ZONA po, según
+                     ANEXO VIII. GUÍA PARA LA MEMORIA    FINAL el modelo
+                                                                  DEL EOEPque se
+                                                                              DEestablezca.
+                                                                                   ZONA
+                                                                          7. Otros aspectos que se consideren.
+           1. Valoración del grado de consecución de los ob-
+         1. Valoración
+       jetivos generalesdel     gradodede
+                            del plan        consecución
+                                         trabajo.        de los objetivos generales del plan de trabajo. Modificaciones
+                                                  Modificaciones
+         efectuadasa alololargo
+       efectuadas           largodeldel curso.
+                                     curso.                                              ANEXO IX
+        2.2.Valoraciones
+             Valoracionesyypropuestas
+                            propuestas de
+                                       de mejora
+                                          mejora en el tra-
+                                                 en el trabajo en los diferentes
+                                                                   PLAN DE       grupos
+                                                                            TRABAJO     de DEL
+                                                                                     ANUAL coordinación.
+                                                                                                 EOEP ESPECÍFICO
+       bajo en los diferentes grupos de coordinación.
+        3. Valoraciones y propuestas de mejora en las actuaciones1.enDatos
+                                                                        centros
+                                                                             delasignados.
+                                                                                 Equipo:
+        4. Valoraciones y propuestas de mejora en las actuaciones en centros no asignados.
+          3. Valoraciones y propuestas de mejora en las ac-                1.1. Nombre y apellidos del Coordinador/a y da-
+         5. Valoración
+       tuaciones       de lasasignados.
+                 en centros    coordinaciones.                          tos de contacto.
+         6.4.Datos  sobre número
+              Valoraciones         de informes
+                            y propuestas       psicopedagógicos
+                                         de mejora en las ac-   y otros  realizados
+                                                                   1.2. Dirección de la por
+                                                                                        sede,cada  miembro
+                                                                                             teléfono,          delelectrónico.
+                                                                                                       fax y correo Equipo,
+         según
+       tuacionesel en
+                   modelo   que
+                      centros nose establezca.
+                                 asignados.
+                                                                           1.3. Zona de actuación: municipios, distritos educa-
+        7.5.Otros aspectos
+             Valoración de que  se consideren.
+                           las coordinaciones.                          tivos, centros atendidos por cada profesional del Equipo.
+
+
+boc-a-2010-181-5207                                                                                                 80
+              Boletín Oficial de Canarias núm. 181               24127                                Martes 14 de septiembre de 2010
+
+
+
+           1.4. Relación de los componentes: nombre y ape-                  7. Evaluación y seguimiento del plan de trabajo
+       llidos, especialidad, DNI, nº de registro personal, si-           del EOEP.
+       tuación administrativa.
+                                                                            8. Proyecto de presupuesto, con indicación de
+          2. Análisis de necesidades y líneas prioritarias de            partidas y cantidades asignadas a cada una, en el que
+       actuación:                                                        se incluya el remanente del curso anterior.
+
+          2.1. Necesidades.                                                9. Anexos: Datos de los componentes del Equipo.
+
+          2.2. Líneas prioritarias de actuación de acuerdo a
+       la normativa vigente.                                                                ANEXO X
+          3. Objetivos generales del EOEP y actividades                       GUÍA PARA LA MEMORIA FINAL DEL EOEP
+       para su desarrollo.                                                                 ESPECÍFICO
+
+          4. Criterios y procedimientos comunes de actua-                    1. Valoración del grado de consecución de los ob-
+       ción del Equipo.                                                  jetivos generales del plan de trabajo. Modificaciones
+                                                                         efectuadas a lo largo del curso.
+          5. Planificación y temporalización de las actuacio-
+       nes del Equipo.                                                      2. Valoraciones y propuestas de mejora en las ac-
+                                                                         tuaciones en centros.
+          6. Coordinaciones.
+                                                                           3. Valoración de las coordinaciones.
+          6.1. Coordinación con los EOEP de zona.
+                                                                            4. Datos sobre número de informes psicopedagó-
+         6.2. Coordinación con otros Servicios que inter-                gicos y otros realizados por cada miembro del Equi-
+       vengan en la zona.                                                po, según el modelo de recogida que se establezca.
+
+          6.3. Coordinación con otros agentes y servicios.                 5. Otros aspectos que se consideren.
+
+
+
+
+boc-a-2010-181-5207
+

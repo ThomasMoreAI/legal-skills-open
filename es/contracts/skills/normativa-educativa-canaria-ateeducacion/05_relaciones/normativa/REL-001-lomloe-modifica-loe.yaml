@@ -1,0 +1,11 @@
+id: REL-001
+tipo_relacion: "modifica"
+origen: NOR-002
+destino: NOR-001
+descripcion: "La LOMLOE modifica la LOE y debe leerse junto al texto consolidado de esta última."
+evidencia:
+  fuente: FTE-006
+  localizacion: "Artículo único de la Ley Orgánica 3/2020"
+fecha_registro: 2026-04-25
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

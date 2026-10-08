@@ -1,0 +1,54 @@
+name: vivienda-registro-propiedad
+display_name: Vivienda — Registro de la Propiedad
+description: >
+  Guía completa sobre el Registro de la Propiedad en España: qué es y
+  para qué sirve, nota simple informativa (qué contiene, cómo pedirla
+  online y presencialmente, coste), inscripción de escrituras
+  (compraventa, hipoteca, herencia), principios registrales (fe pública,
+  prioridad, tracto sucesivo, legalidad, legitimación, especialidad),
+  diferencias entre Catastro y Registro, certificación registral, y
+  servicios del portal online sede.registradores.org.
+organization: Colegio de Registradores de la Propiedad
+tags: [vivienda, registro propiedad, nota simple, inscripción, fe pública registral, tracto sucesivo, prioridad, registrador, catastro vs registro, certificación registral, sede registradores]
+
+links:
+  registradores: https://www.registradores.org
+  sede_registradores: https://sede.registradores.org
+
+license:
+  data: Información pública — legislación hipotecaria española
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    tramita inscripciones. Proporciona la guía completa sobre el Registro
+    de la Propiedad y redirige a skills específicas (vivienda-compraventa,
+    catastro, fiscalidad-itp-ajd) para detalle en cada ámbito.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es el Registro de la Propiedad y para qué sirve
+    - Nota simple informativa (contenido, cómo solicitarla, coste)
+    - Nota simple vs. certificación registral
+    - Inscripción de escrituras (proceso, plazos, aranceles)
+    - Principios registrales (fe pública, prioridad, tracto sucesivo, legalidad, legitimación, especialidad)
+    - Diferencias entre Catastro y Registro de la Propiedad
+    - Servicios del portal online (sede.registradores.org)
+  not_accessible:
+    - Solicitud real de nota simple (requiere sede.registradores.org con pago)
+    - Datos catastrales (usar skill catastro)
+    - Proceso de compraventa completo (usar skill vivienda-compraventa)
+    - Detalle de ITP/AJD (usar skill fiscalidad-itp-ajd)
+    - Herencias e inscripción de adjudicaciones (usar skill fiscalidad-sucesiones-donaciones)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

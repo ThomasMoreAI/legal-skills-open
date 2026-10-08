@@ -1,0 +1,329 @@
+id: CUR-028
+titulo: Lengua Extranjera — Primaria Canarias
+etapa: primaria
+materia: Lengua Extranjera
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas.
+      descriptores:
+        Primer ciclo:
+          - CCL2
+          - CCL3
+          - CP1
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA5
+        Segundo ciclo:
+          - CCL2
+          - CCL3
+          - CP1
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA5
+        Tercer ciclo:
+          - CCL2
+          - CCL3
+          - CP1
+          - CP2
+          - STEM1
+          - CD1
+          - CPSAA5
+    - codigo: C2
+      enunciado_oficial: Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CP1
+          - CP2
+          - STEM1
+          - CD2
+          - CPSAA5
+          - CE1
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - CP1
+          - CP2
+          - STEM1
+          - CD2
+          - CPSAA5
+          - CE1
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - CP1
+          - CP2
+          - STEM1
+          - CD2
+          - CPSAA5
+          - CE1
+          - CCEC4
+    - codigo: C3
+      enunciado_oficial: Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CP1
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+          - CE1
+          - CE3
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CP1
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+          - CE1
+          - CE3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP1
+          - CP2
+          - STEM1
+          - CD3
+          - CPSAA3
+          - CC3
+          - CE1
+          - CE3
+    - codigo: C4
+      enunciado_oficial: Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CPSAA1
+          - CPSAA3
+          - CCEC1
+        Segundo ciclo:
+          - CCL5
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CPSAA1
+          - CPSAA3
+          - CCEC1
+        Tercer ciclo:
+          - CCL5
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CPSAA1
+          - CPSAA3
+          - CCEC1
+    - codigo: C5
+      enunciado_oficial: Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas.
+      descriptores:
+        Primer ciclo:
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CD2
+          - CPSAA1
+          - CPSAA4
+          - CPSAA5
+          - CE3
+        Segundo ciclo:
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CD2
+          - CPSAA1
+          - CPSAA4
+          - CPSAA5
+          - CE3
+        Tercer ciclo:
+          - CP1
+          - CP2
+          - CP3
+          - STEM1
+          - CD2
+          - CPSAA1
+          - CPSAA4
+          - CPSAA5
+          - CE3
+    - codigo: C6
+      enunciado_oficial: Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CP3
+          - CPSAA1
+          - CPSAA3
+          - CC2
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+        Segundo ciclo:
+          - CCL5
+          - CP3
+          - CPSAA1
+          - CPSAA3
+          - CC2
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+        Tercer ciclo:
+          - CCL5
+          - CP3
+          - CPSAA1
+          - CPSAA3
+          - CC2
+          - CC3
+          - CCEC1
+          - CCEC2
+          - CCEC3
+  saberes_basicos:
+    - bloque: I. Comunicación
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Saberes necesarios para las actividades comunicativas de comprensión, producción, interacción y mediación, incluida la búsqueda guiada de información; intenciones e interacciones comunicativas contextuales, repertorio comunicativo y elementos de comunicación no verbal.
+    - bloque: II. Plurilingüismo
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Reflexión sobre el funcionamiento de las lenguas y sobre el repertorio lingüístico del alumnado; estrategias y técnicas que favorecen la transferencia de conocimiento para el aprendizaje de la lengua extranjera y la mejora de las lenguas familiares.
+    - bloque: III. Interculturalidad
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Saberes acerca de las culturas vehiculadas a través de la lengua extranjera, su aprecio como oportunidad de enriquecimiento, y desarrollo de actitudes de interés y respeto por otras lenguas, variedades lingüísticas y culturas.
+    - bloque: IV. Dimensiones Interpersonal e Intrapersonal
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: 'Saberes relativos a factores internos y sociales que el alumnado, como sujeto emocional y creativo, ha de movilizar para el aprendizaje efectivo: empatía, respeto y valoración de otros puntos de vista.'
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Identificar e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.
+        - 1.2. Seleccionar y aplicar, de forma guiada, estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales.
+        - 2.1. Producir, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado.
+        - 2.2. Seleccionar y aplicar, de forma guiada, conocimientos y estrategias elementales con ayuda de apoyos y recursos analógicos y digitales, para producir mensajes breves, sencillos y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.
+        - 3.1. Participar, de forma guiada, en situaciones interactivas breves y muy sencillas, sobre temas de relevancia personal, próximos a su experiencia y contexto, apoyándose en diferentes recursos y soportes, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas.
+        - 3.2. Seleccionar y utilizar, de forma guiada, en contextos de interacción próximos a su entorno, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.
+        - 4.1. Interpretar y explicar, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.
+        - 4.2. Seleccionar y aplicar, de forma guiada, algunas estrategias elementales, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.
+        - 5.1. Identificar y comparar, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual.
+        - 5.2. Identificar y utilizar, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes reforzando sus habilidades lingüísticas y experiencias comunicativas.
+        - 5.3. Identificar y explicar, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo las posibilidades comunicativas para construir el conocimiento.
+        - 5.4. Identificar y usar los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.
+        - 6.1. Mostrar interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.
+        - 6.2. Seleccionar y aplicar estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.
+        - 6.3. Mostrar empatía y comprensión por las producciones ajenas, diferenciando y reconociendo las intervenciones en contextos comunicativos cotidianos para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Reconocer e interpretar el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.
+        - 1.2. Seleccionar y aplicar, de forma codirigida, estrategias básicas en situaciones comunicativas cotidianas y de relevancia personal para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.
+        - 2.1. Producir, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximos a la experiencia del alumnado.
+        - 2.2. Seleccionar y aplicar, de forma codirigida, conocimientos y estrategias básicas con ayuda de recursos analógicos y digitales, para producir mensajes sencillos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.
+        - 3.1. Participar, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, y un uso ético y eficaz del lenguaje.
+        - 3.2. Seleccionar y utilizar, de forma codirigida, en contextos de interacción, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.
+        - 4.1. Facilitar y explicar, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.
+        - 4.2. Seleccionar e implementar, de forma codirigida, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.
+        - 5.1. Comparar y contrastar, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento y reflexionando sobre ellos, para consolidar y ampliar su repertorio lingüístico individual.
+        - 5.2. Experimentar y utilizar, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, y enriquecer sus habilidades lingüísticas y experiencias comunicativas.
+        - 5.3. Registrar y reflexionar, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas, para construir y evidenciar el conocimiento.
+        - 5.4. Reconocer y aplicar los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.
+        - 6.1. Respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.
+        - 6.2. Seleccionar y aplicar estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.
+        - 6.3. Mostrar empatía y comprensión por las producciones ajenas, valorando las intervenciones en diferentes contextos comunicativos y haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Reconocer, interpretar y analizar el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.
+        - 1.2. Seleccionar, organizar y aplicar, de forma progresivamente autónoma, métodos, estrategias y conocimientos adecuados, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.
+        - 2.1. Producir, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.
+        - 2.2. Seleccionar, planificar y aplicar, de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.
+        - 3.1. Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje.
+        - 3.2. Seleccionar, organizar y utilizar, de forma cooperativa y progresivamente autónoma, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.
+        - 4.1. Justificar y explicar, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.
+        - 4.2. Seleccionar e implementar, de forma progresivamente autónoma, métodos y estrategias adecuadas, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.
+        - 5.1. Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento, y reflexionando sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.
+        - 5.2. Experimentar, utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.
+        - 5.3. Registrar y reflexionar, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas, y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.
+        - 5.4. Reconocer y transferir los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.
+        - 6.1. Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.
+        - 6.2. Seleccionar y aplicar estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando la diversidad existente en las islas Canarias y gestionando las emociones propias y respetando las ajenas.
+        - 6.3. Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.
+  descriptores_operativos:
+    - CCL2
+    - CCL3
+    - CP1
+    - CP2
+    - STEM1
+    - CD1
+    - CPSAA5
+    - CCL1
+    - CD2
+    - CE1
+    - CCEC4
+    - CCL5
+    - CD3
+    - CPSAA3
+    - CC3
+    - CE3
+    - CP3
+    - CPSAA1
+    - CCEC1
+    - CPSAA4
+    - CC2
+    - CCEC2
+    - CCEC3
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Lengua Extranjera en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Seis competencias específicas (C1-C6) que se concretan en quince criterios de evaluación por ciclo, con saberes básicos organizados en cuatro bloques: Comunicación, Plurilingüismo, Interculturalidad, y Dimensiones Interpersonal e Intrapersonal.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (seis) y de criterios de evaluación (quince por ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos coinciden en los tres ciclos para todas las competencias (el área comparte competencias y saberes con Segunda Lengua Extranjera, CUR-032). Los saberes básicos se recogen a nivel de bloque (I-IV) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque.

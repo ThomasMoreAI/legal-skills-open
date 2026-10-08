@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill language: en
 
-## Skills (58)
+## Skills (76)
 
 | Skill | What it does |
 |---|---|
@@ -14,12 +14,15 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`APEC Cross-Border Privacy Rules Certification`](skills/apec-cbpr-cert/) | Guides APEC Cross-Border Privacy Rules system certification process including self-assessment against… |
 | [`Managing Multi-Jurisdiction Breach Notification`](skills/breach-multi-jurisdiction/) | Manages coordinated breach notification across multiple legal jurisdictions including EU member states… |
 | [`Breach Response Planner`](skills/breach-response-planner-rohasnagpal/) | Coordinate legal and operational response to suspected personal-data breaches, including containment… |
+| [`CCPA / CPRA — Auditoría de Cumplimiento (California, EE.UU.)`](skills/ccpa-carlosuhart/) | Audita un sitio web frente a la California Consumer Privacy Act (CCPA, 2018) modificada por la… |
 | [`Children's Data Minimisation and Retention Limits`](skills/children-data-minimization/) | Implements strict data minimization and retention limits for children's personal data under GDPR Art.… |
 | [`Children's Profiling Restrictions`](skills/children-profiling-limits/) | Implements profiling restrictions for children under GDPR Recital 71, Article 22, UK AADC Standard 12… |
+| [`/clasificar-datos — Clasificador Legal de Datos`](skills/clasificar-datos-joselito412/) | Clasifica un campo, tabla o flujo de datos según su nivel de sensibilidad legal (público, personal… |
 | [`Compliance Architect`](skills/compliance-architect-cure-consulting-group/) | Designs HIPAA, COPPA, GDPR, CCPA, and PCI compliance: consent, audit trails, data classification. Use… |
 | [`Compliance Checker`](skills/compliance-checker-onewave-ai/) | Audits a codebase or business process for regulatory compliance across GDPR, HIPAA, SOC2, CCPA, and… |
 | [`Managing Conflicting Privacy Requirements`](skills/conflicting-laws-mgmt/) | Guides managing conflicting privacy requirements across jurisdictions. Covers data localisation vs… |
 | [`Evaluating Consent Management Platforms`](skills/consent-platform-eval/) | Framework for evaluating and selecting Consent Management Platforms (CMPs). Covers TCF v2.2… |
+| [`/frontend-privacy/consentimiento — Auditoría de Consentimiento`](skills/consentimiento-joselito412/) | Audita el flujo de consentimiento de un sistema — formularios de registro, checkboxes, granularidad por… |
 | [`Contract Review`](skills/contract-review-seb1n/) | Analyze contracts for risks, obligations, key clauses, and generate structured risk reports with… |
 | [`Cookie Consent Banner and Policy`](skills/cookie-consent-policy/) | Drafts publication-ready cookie policies, banner copy, and consent-flow language under GDPR/ePrivacy… |
 | [`Cross-Border Transfer Analyst`](skills/cross-border-transfer-analyst-rohasnagpal/) | Analyse cross-border personal-data transfers, remote access, hosting, support, disclosures, and onward… |
@@ -28,12 +31,15 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Data Processing Agreement Reviewer`](skills/data-processing-agreement-reviewer-rohasnagpal/) | Review and draft data-processing agreements and privacy schedules for controller-processor… |
 | [`Data retention and deletion`](skills/data-retention-clemensjl/) | Use when deciding how long data may or must be kept, building a retention schedule, implementing a… |
 | [`Data Sovereignty Patterns`](skills/data-sovereignty-patterns-builderced/) | Navigate cross-border data transfer rules — Schrems II, EU SCCs, adequacy decisions, data localization… |
+| [`/derechos-usuario — Protocolo de Respuesta a Derechos del Titular`](skills/derechos-usuario-joselito412/) | Guía al desarrollador o equipo legal para responder correctamente una solicitud de derechos del titular… |
 | [`Design Data Retention Policy`](skills/design-data-retention-policy-jeffreytse/) | Use when creating or auditing a data retention policy that balances legal obligations, business needs… |
+| [`Doc Drafter`](skills/doc-drafter-danielmc09/) | [JURISDICTION] Genera borradores de terminos y condiciones, politica de tratamiento de datos, aviso de… |
 | [`DPA Checklist Review`](skills/dpa-checklist-review/) | Use when the user provides a Data Processing Agreement, Data Processing Addendum, or HIPAA Business… |
 | [`DPA Checklist Review`](skills/dpa-checklist-review-legalquants/) | Use when the user provides a Data Processing Agreement, Data Processing Addendum, or HIPAA Business… |
 | [`DPIA-Sentinel Skill`](skills/dpia-sentinel-everyone-needs-a-copilot/) | Data Protection Impact Assessment support for GDPR-style necessity, proportionality, risk… |
 | [`DSAR Form`](skills/dsar-form/) | Drafts a GDPR- and CCPA-compliant Data Subject Access Request (DSAR) intake form for collecting… |
 | [`EU AI Act Readiness`](skills/eu-ai-act-readiness/) | Build a preliminary, evidence-based EU AI Act readiness assessment across AI-system inventory… |
+| [`GDPR — Reglamento General de Protección de Datos`](skills/gdpr-es-skills-mauriciodelrio/) | Usa este skill cuando el software procese datos personales de usuarios. Aunque GDPR es legislación de la… |
 | [`Assessing Health Data Processing`](skills/health-data-dpia/) | Guides DPIA for health and medical data processing covering Art. 9(2)(h)-(j) exemptions, HIPAA crosswalk… |
 | [`Implementing GDPR Data Subject Access Request (DSAR) Workflow`](skills/implementing-gdpr-data-subject-access-request/) | Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII… |
 | [`KVKK & GDPR Compliance Patterns`](skills/kvkk-compliance/) | KVKK and GDPR compliance patterns - consent management, right to erasure, breach notification, audit… |
@@ -41,8 +47,18 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Use this skill when`](skills/legal-advisor-rmyndharis/) | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts… |
 | [`Legal Compliance Agent`](skills/legal-compliance-agent/) | Generate legally compliant privacy policies, terms of service, HIPAA documentation, and compliance pages… |
 | [`Legal Compliance Skill`](skills/legal-compliance-everyone-needs-a-copilot/) | Multi-framework compliance gap analysis. Use for GDPR, CCPA, ADA or WCAG, PCI-DSS, SOC 2, HIPAA… |
+| [`Ley 25.326 — Auditoría de Cumplimiento (Argentina)`](skills/ley-25326-carlosuhart/) | Audita un sitio web frente a la Ley 25.326 de Protección de Datos Personales (Argentina). Detecta el… |
+| [`Auditoría Ley 21.719 — Protección de Datos Personales (Chile)`](skills/ley-datos-chile-carlosuhart/) | Audita un sitio web frente a los requisitos de la Ley 21.719 de Protección de Datos Personales (Chile).… |
+| [`LFPDPPP — Auditoría de Cumplimiento (México)`](skills/lfpdppp-carlosuhart/) | Audita un sitio web frente a la Ley Federal de Protección de Datos Personales en Posesión de los… |
+| [`LGPD — Auditoría de Cumplimiento (Lei 13.709/2018, Brasil)`](skills/lgpd-carlosuhart/) | Audita un sitio web frente a la Lei Geral de Proteção de Dados Pessoais (LGPD — Lei 13.709/2018… |
+| [`LGPD — Lei Geral de Proteção de Dados`](skills/lgpd-en-skills-mauriciodelrio/) | Use this skill when developing software that collects, processes, or stores personal data and you need… |
+| [`LGPD — Lei Geral de Proteção de Dados`](skills/lgpd-es-skills-mauriciodelrio/) | Usa este skill cuando desarrolles software que recolecte, procese o almacene datos personales y… |
 | [`Managing Consent for Children`](skills/managing-consent-for-children/) | Guide for managing consent for children's personal data under GDPR Article 8 and COPPA. Covers parental… |
+| [`/matriz-normativa — Comparativa de Leyes LATAM vs GDPR/CCPA`](skills/matriz-normativa-joselito412/) | Compara leyes de protección de datos de LATAM (Colombia, México, Brasil, Chile, Argentina, Perú… |
+| [`nFADP / revDSG — Auditoría de Cumplimiento (Suiza)`](skills/nfadp-carlosuhart/) | Audita un sitio web frente a la nueva Ley Federal de Protección de Datos Personales de Suiza (nFADP /… |
 | [`Privacy Impact Assessment for Health Data`](skills/pia-health-data/) | Conducts Privacy Impact Assessment for health data processing under GDPR Article 9, HIPAA, and… |
+| [`Auditoría de Protección de Datos — Orquestador Multi-jurisdicción`](skills/privacidad-carlosuhart/) | Orquestador multi-jurisdicción de auditorías de protección de datos personales. Detecta automáticamente… |
+| [`/privacy-check — Auditoría de Privacidad de Software`](skills/privacy-check-joselito412/) | Audita un feature, endpoint de API, esquema de base de datos o flujo de integración para detectar… |
 | [`Key principles`](skills/privacy-compliance/) | Use this skill when implementing GDPR or CCPA compliance, designing consent management, conducting… |
 | [`Privacy Compliance Navigator`](skills/privacy-compliance-borghei/) | Multi-regulation privacy compliance navigator. Use for GDPR, CCPA, LGPD, POPIA, PIPEDA, PDPA, Privacy… |
 | [`Privacy Compliance Agent Skill`](skills/privacy-compliance-jpeetz/) | Comprehensive global privacy compliance agent skill covering GDPR, CCPA/CPRA, HIPAA Privacy Rule, EU AI… |
@@ -56,6 +72,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Privacy Policy`](skills/privacy-policy-mkurman/) | When the user needs to draft, review, or update a privacy policy for their product, or needs to… |
 | [`Cross-Border Data Transfer Assessment`](skills/prompt-pack-cross-border-data-transfer-assessment-sboghossian/) | Use when a privacy lawyer or compliance officer needs to assess the lawfulness of transferring personal… |
 | [`Regulatory Compliance Skill`](skills/regulatory-compliance-oimiragieo/) | Validate systems and processes against GDPR/CCPA privacy regulations, privacy-by-design principles… |
+| [`RGPD — Auditoría de Cumplimiento (Reglamento UE 2016/679)`](skills/rgpd-carlosuhart/) | Audita un sitio web frente al Reglamento General de Protección de Datos (RGPD / GDPR — Reglamento UE… |
 | [`SaaS Legal Drafting Assistant`](skills/saas-legal-generator-briansunter/) | Create an attorney-review-ready SaaS legal drafting package from an evidence-based data and product… |
 | [`SafeAI ASEAN Data Protection — System Instructions`](skills/safeai-asean-data-protection/) | ASEAN data protection compliance engine — VN, SG, TH, MY, ID, PH regulatory frameworks. (v5.0.0) |
 | [`Client Data Retention — MENA Jurisdiction Rules`](skills/safety-client-data-retention-mena-rules-sboghossian/) | Use when configuring or reviewing data retention periods for client matter files, communications, and… |
@@ -63,6 +80,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Cross-Border Data Transfer — GCC ↔ EU Compliance`](skills/safety-compliance-cross-border-data-transfer-gcc-eu-sboghossian/) | Use when assessing or operationalizing the legality of personal data transfers between GCC member states… |
 | [`Cross-Border Data Transfer — GCC ↔ EU`](skills/safety-cross-border-data-transfer-gcc-eu-sboghossian/) | Use when assessing the legality of personal data transfers between GCC member states and the EU, or vice… |
 | [`Student Data Privacy`](skills/student-data-privacy-canhada-labs/) | Privacy engineering for K-12 and higher-ed student data under FERPA (US), LGPD-educational (BR), and… |
+| [`UK GDPR + PECR — Auditoría de Cumplimiento`](skills/uk-gdpr-carlosuhart/) | Audita un sitio web frente al UK GDPR (Retained EU Law post-Brexit) y las PECR 2003 (Privacy and… |
 | [`Use case triage`](skills/use-case-triage-bossmann007/) | Quickly determine whether a processing activity needs a PIA, a RIPD (Relatório de Impacto à Proteção de… |
 | [`Workplace Email Privacy`](skills/workplace-email-privacy/) | Implements email and internet monitoring compliance in the workplace per Barbulescu v Romania (ECHR… |
 | [`Write Privacy Policy`](skills/write-privacy-policy-jeffreytse/) | Use when drafting or updating a privacy policy to comply with GDPR, CCPA, and general best practices |

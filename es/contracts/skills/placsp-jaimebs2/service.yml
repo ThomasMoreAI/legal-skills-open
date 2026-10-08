@@ -1,0 +1,52 @@
+name: placsp
+display_name: Plataforma de Contratación del Sector Público
+description: >
+  Descubre y descarga datasets de contratación pública del Estado español
+  publicados a través de la Plataforma de Contratación del Sector Público
+  (PLACSP) e indexados en el catálogo nacional datos.gob.es: contratos
+  mayores y menores por ejercicio, licitaciones, anuncios y adjudicaciones.
+organization: Ministerio de Hacienda y Función Pública (Dirección General del Patrimonio del Estado)
+tags: [contratación, contratos, licitaciones, PLACSP, contratos mayores, contratos menores, adjudicaciones, sector público]
+
+links:
+  website: https://contrataciondelestado.es
+  docs: https://datos.gob.es/es/apidata
+  terms: https://datos.gob.es/es/aviso-legal
+
+license:
+  data: Ley 9/2017 de Contratos del Sector Público
+  code: MIT
+
+api:
+  type: rest-json
+  base_urls:
+    catalogo: https://datos.gob.es/apidata/catalog/dataset
+  auth:
+    required: false
+  rate_limit:
+    documented: false
+    notes: >
+      Sin límite oficial publicado para datos.gob.es. Uso responsable
+      recomendado; aplicar throttle interno si se descargan muchos datasets.
+  stability: stable
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Contratos mayores publicados en PLACSP por ejercicio (búsqueda "contratos mayores" o "PLACSP")
+    - Contratos menores publicados en PLACSP (búsqueda "contratos menores")
+    - Licitaciones, anuncios y adjudicaciones (búsqueda "licitaciones")
+    - Estadísticas de contratación pública del Estado y otras administraciones
+    - URLs reales de descarga de cada distribución (CSV, JSON, XLSX, ATOM)
+  not_accessible:
+    - Búsqueda en tiempo real de expedientes concretos en contrataciondelestado.es
+    - Descarga directa de pliegos firmados o documentación administrativa específica
+    - Trámites autenticados (presentación de ofertas, consultas restringidas)
+    - Datos personales protegidos de licitadores o adjudicatarios
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

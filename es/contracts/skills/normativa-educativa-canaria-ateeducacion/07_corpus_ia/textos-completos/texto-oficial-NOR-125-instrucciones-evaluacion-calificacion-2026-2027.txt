@@ -1,0 +1,466 @@
+ID interno: NOR-125
+Título oficial: Instrucciones de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, para la evaluación y calificación del alumnado en las etapas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, de aplicación en los centros educativos de la Comunidad Autónoma de Canarias a partir del curso 2026/2027
+Fuente oficial: FTE-132
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+PDF oficial: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+Fecha de consulta: 2026-10-07
+Fecha de exportación local: 2026-10-07
+Advertencia: Esta copia local en texto plano no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: pdftotext -layout; márgenes izquierdos comunes retirados por página; tablas sujetas a contraste con el PDF.
+---
+Folio 1/9
+
+
+
+
+                                                                                                                                             INSTRUCCIONES DE LA DIRECCIÓN GENERAL DE ORDENACIÓN DE LAS ENSEÑANZAS,
+                                                                                                                                             INCLUSIÓN E INNOVACIÓN, PARA LA EVALUACIÓN Y CALIFICACIÓN DEL ALUMNADO
+                                                                                                                                             EN LAS ETAPAS DE EDUCACIÓN INFANTIL, EDUCACIÓN PRIMARIA, EDUCACIÓN
+                                                                                                                                             SECUNDARIA OBLIGATORIA Y BACHILLERATO, DE APLICACIÓN EN LOS CENTROS
+
+
+
+
+       Avda. Buenos Aires 3-5, Edf. Tres de Mayo Planta 4ª | CP 38071 Santa Cruz de Tenerife | Tfno: 922 42 35 00 | Fax: 922 42 38 06
+                                                                                                                                             EDUCATIVOS DE LA COMUNIDAD AUTÓNOMA DE CANARIAS A PARTIR DEL CURSO
+                                                                                                                                             2026/2027
+
+                                                                                                                                             La Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo,
+                                                                                                                                             de Educación (en adelante, LOMLOE), introduce significativas modificaciones en la evaluación, así como en
+                                                                                                                                             las condiciones de promoción de las diferentes etapas educativas y de obtención del título de la Educación
+                                                                                                                                             Secundaria Obligatoria y del Bachiller, vinculando la misma a la consecución de los objetivos y a la
+                                                                                                                                             adquisición de las competencias establecidas para cada etapa.
+
+                                                                                                                                             Este marco normativo se desarrolla a través del Decreto 196/2022, de 13 de octubre, por el que se establece
+                                                                                                                                             la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias; del Decreto
+                                                                                                                                             211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria
+                                                                                                                                             en la Comunidad Autónoma de Canarias; y del Decreto 30/2023, de 16 de marzo, por el que se establecen la
+                                                                                                                                             ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad
+                                                                                                                                             Autónoma de Canarias.
+
+
+
+
+Calle Granadera Canaria 2, Edf. Granadera Canaria Planta 1 ª | CP 35071 Las Palmas de Gran Canaria | Tfno: 928 45 54 00 |Fax: 928 45 57 42
+                                                                                                                                             Por su parte, la Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del
+                                                                                                                                             alumnado que cursa las etapas de la Educación Infantil, la Educación Primaria, la Educación Secundaria
+                                                                                                                                             Obligatoria y el Bachillerato, supone un desarrollo complementario que concreta los mencionados decretos.
+
+                                                                                                                                             Este desarrollo reglamentario incide en un modelo curricular en el que el criterio de evaluación constituye el
+                                                                                                                                             eje vertebrador de la práctica docente y del diseño de las programaciones, analizando qué debe aprender el
+                                                                                                                                             alumnado, cómo lo debe hacer y cuál es la finalidad de ese aprendizaje, de manera que el currículo se
+                                                                                                                                             transforma en una guía práctica para el profesorado. Incide, asimismo, en una premisa base del marco
+                                                                                                                                             pedagógico canario: la evaluación debe estar en la base del diseño de situaciones de aprendizaje
+                                                                                                                                             competenciales e inclusivas, de manera que estas puedan adquirir un carácter realmente formativo.
+
+                                                                                                                                             Es necesario, no obstante, unificar, homogeneizar y dar transparencia al procedimiento por el que el proceso
+                                                                                                                                             de evaluación se transforma en una calificación, de manera que se garantice la coherencia entre ambos
+                                                                                                                                             procedimientos, motivo por el cual se dictan las presentes instrucciones.
+
+
+
+
+                                                     En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+                                                     puede ser comprobada la autenticidad de esta copia, mediante el número de
+                                                     documento electrónico siguiente:
+                                                                                            RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                               Folio 2/9
+
+
+
+
+                                                                               INSTRUCCIONES
+
+             Primera. Evaluación
+
+             1. Los criterios de evaluación establecidos para cada etapa educativa son el referente para la evaluación
+                conjunta de las áreas, las materias y los ámbitos, y del grado de desarrollo y adquisición de las
+                competencias previsto para cada una de las etapas. Por tanto, son los criterios de evaluación y no otros
+                elementos del currículo como son las competencias específicas, los saberes básicos, los descriptores
+                operativos o las explicaciones de los bloques competenciales, los que deben guiar la práctica docente así
+                como el diseño de la Programación Didáctica (en adelante, PD) y de las Situaciones de Aprendizaje (en
+                adelante, SSAA).
+
+             2. A lo largo del curso escolar y secuenciados en las programaciones didácticas, se implementarán todos los
+                criterios de evaluación que componen el currículo. Todos ellos contribuyen de igual manera a la
+                adquisición de los aprendizajes, al desarrollo y adquisición de las competencias, y a la consecución de los
+                objetivos de la etapa. Por lo tanto, ningún criterio de evaluación tiene mayor importancia o valor que
+                otro.
+
+             3. La planificación y la evaluación constituyen procesos interconectados, por lo que el diseño de la PD y de
+                las SSAA partirá siempre del análisis del criterio de evaluación como primer paso para determinar qué
+                debe aprender el alumnado, cómo lo hará y cuál es la finalidad competencial. A continuación se
+                seleccionarán las técnicas, las herramientas y los instrumentos de evaluación que permitan evidenciar el
+                grado de consecución de los aprendizajes descritos en los criterios de evaluación por parte del alumnado.
+                Se garantiza así una valoración rigurosa y objetiva del nivel de desempeño del alumnado.
+
+             4. Los instrumentos de evaluación que se determinen en las programaciones didácticas y en las SSAA que
+                las concreten, deberán tener una vinculación directa con el criterio o los criterios de evaluación de
+                referencia, y arrojar evidencias observables y evaluables. Deberán ser, asimismo, heterogéneos, diversos,
+                variados, accesibles y ajustados, e incorporar los principios del Diseño Universal para el Aprendizaje
+                (DUA), atendiendo específicamente a los principios de “Múltiples formas de acción y expresión” y
+                “Múltiples formas de representación”.
+
+             5. En las etapas de Educación Infantil y Educación Primaria, los criterios de evaluación tienen carácter
+                finalista para el ciclo, por lo que el alumnado dispondrá de tres cursos escolares, en el caso de Educación
+                Infantil, y dos en el caso de Educación Primaria, para alcanzar los aprendizajes descritos en los criterios
+                de evaluación de cada área.
+
+             6. En la Educación Infantil la totalidad de los criterios de evaluación que integran el ciclo debe ser objeto de
+                tratamiento, desarrollo y evaluación a lo largo de la etapa. Los centros educativos, conforme a su
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                             Folio 3/9
+
+
+
+
+                  autonomía pedagógica y atendiendo a su propio contexto y al desarrollo evolutivo del alumnado en estas
+                  edades, podrán distribuir los criterios de evaluación en cada uno de los niveles, garantizando que al
+                  término del ciclo se hayan implementado y evaluado en su totalidad. Esta decisión formará parte de la
+                  propuesta pedagógica de la concreción curricular para Educación Infantil del centro y será asumida por el
+                  equipo docente.
+
+             7. En la etapa de Educación Primaria, la totalidad de los criterios de evaluación que integran el ciclo será
+                objeto de tratamiento, desarrollo y evaluación en cada uno de los niveles educativos que lo componen,
+                favoreciendo así la continuidad pedagógica y el progreso constante del alumnado. Se podrán graduar, en
+                cada uno de los niveles, la profundidad de los aprendizajes descritos en los criterios de evaluación o
+                seleccionar los saberes que se vinculen a estos.
+
+             8. Cuando el área de Educación Artística sea impartida por dos docentes, la totalidad de los criterios de
+                evaluación de cada uno de los tres ciclos de la etapa deben ser objeto de tratamiento y evaluación, tanto
+                desde las sesiones en las que se desarrollan los aprendizajes relacionados con Música como desde las
+                sesiones en las que se desarrollan los aprendizajes relativos a Educación Plástica, Visual y Audiovisual.
+
+             9. En el marco del Programa AICLE, con independencia de la modalidad de participación del centro y de la
+                etapa educativa, el referente para el diseño de la PD y las SSAA, así como para la evaluación de las áreas
+                y las materias impartidas dentro de este programa, serán los criterios de evaluación establecidos en el
+                currículo de las mismas.
+
+            10. La elaboración de las adaptaciones curriculares del alumnado con Necesidades Educativas Especiales
+                (NEE) y Necesidades Educativas de Apoyo Específico (NEAE) partirá de los criterios de evaluación
+                establecidos en su referente curricular, que serán la base para su evaluación y calificación. Al inicio de
+                cada curso escolar se actualizará la Adaptación Curricular (AC) partiendo de la valoración del nivel de
+                logro del curso anterior y del informe de seguimiento de la propia AC. Esta información servirá como
+                base para seleccionar, en el diseño de la PD, los criterios de evaluación a implementar con este
+                alumnado.
+
+             11.Para garantizar los principios de una educación inclusiva, la distribución de los criterios de evaluación de
+                la AC se ajustará a la temporalización de la PD de su grupo de referencia, de manera que se trabajen y
+                evalúen las mismas habilidades, destrezas y actitudes descritas en los criterios de evaluación
+                seleccionados para cada unidad de programación, pero ajustadas al nivel competencial y necesidades del
+                alumnado con AC.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                             Folio 4/9
+
+
+
+
+             Segunda. Calificación
+
+             1. La normativa establece el deber de emitir una calificación, cualitativa o cuantitativa, que dé fe del grado
+                de consecución de los aprendizajes descritos en los criterios de evaluación. La calificación de las áreas,
+                las materias o los ámbitos en las etapas de Educación Infantil, Educación Primaria y Educación
+                Secundaria Obligatoria responderá al carácter continuo y formativo de una evaluación competencial.
+
+             2. Las rúbricas de evaluación LOMLOE Canarias constituyen un nivel de concreción curricular para la
+                evaluación y calificación de las áreas, las materias y los ámbitos. Suponen la herramienta de referencia
+                que permite al profesorado determinar el nivel de desempeño del alumnado en los aprendizajes
+                integrados en un criterio de evaluación, así como el grado de desarrollo y adquisición de las
+                competencias asociadas al mismo. Facilitan, a su vez, realizar la conversión entre la valoración realizada
+                en el proceso de evaluación y su correspondencia cuantitativa o cualitativa, en el proceso de calificación.
+
+             3. Los criterios de calificación son el conjunto de decisiones o procedimientos que permiten dotar de
+                transparencia, rigor y coherencia al diseño y selección de instrumentos de evaluación que faciliten la
+                recogida y análisis de información sobre el nivel de desempeño del alumnado, así como al posterior
+                registro de dicha información y su conversión en una calificación cuantitativa o cualitativa. Establecen,
+                igualmente, la incidencia de dicha información en la evaluación y calificación de los criterios de
+                evaluación. Estos criterios de calificación permitirán justificar de manera objetiva el nivel de logro del
+                alumnado, a partir de las evidencias recogidas con los instrumentos, las herramientas y las técnicas
+                utilizadas.
+
+             4. El profesorado que imparta un mismo área, materia o ámbito en un nivel educativo, acordará los criterios
+                de calificación en reunión de ciclo o departamento. Para esta toma de decisiones se partirá del análisis de
+                los criterios de evaluación o de las rúbricas de evaluación LOMLOE Canarias como concreción de estos,
+                y se acordarán las posibles vías de recogida, registro y análisis de información, y su posterior conversión
+                al proceso de calificación, así como la incidencia que esta información tendrá en la evaluación y
+                calificación de los criterios de evaluación.
+
+                  Los criterios de calificación no podrán contemplar aspectos no descritos en los criterios de evaluación
+                  (puntualidad, asistencia, trabajo diario, actitud, tarea…).
+
+             5. Los criterios de calificación quedarán recogidos en el apartado “Evaluación” de la programación
+                didáctica. En dicho apartado se especificarán los procedimientos que permitan determinar la calificación
+                de los criterios de evaluación y, a su vez, cómo incidirán en la calificación del área, materia o ámbito. Se
+                recogerán, igualmente, los instrumentos, las herramientas y las técnicas en las que se basará el proceso de
+                evaluación y calificación de los alumnos y las alumnas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                                     Folio 5/9
+
+
+
+
+                  Los criterios de calificación reflejarán de manera objetiva y precisa los procedimientos acordados para
+                  asegurar que el alumnado y sus familias o responsables legales comprendan el significado de las
+                  valoraciones emitidas.
+
+             6. Los calificadores recogidos en los criterios de calificación de la programación didáctica deberán
+                responder a los mismos indicadores de logro que la normativa vigente en materia de evaluación establece
+                para cada etapa educativa:
+                       • Para la Educación Infantil, de carácter cualitativo: Poco Adecuado, Adecuado, Muy Adecuado y
+                          Excelente.
+                       • Para la Educación Primaria y la Educación Secundaria Obligatoria, de carácter cualitativo:
+                          Insuficiente, Suficiente, Bien, Notable y Sobresaliente.
+                       • Para el Bachillerato, de carácter cuantitativo: de 0 a 10, sin decimales.
+
+                  En consecuencia, no se utilizarán calificadores numéricos en las etapas de Educación Infantil, Educación
+                  Primaria y Educación Secundaria Obligatoria, ni para una valoración informativa ni para la calificación
+                  final.
+
+             7. Para el registro, la valoración y la calificación del nivel de logro o desempeño del alumnado, el
+                profesorado podrá concretar la información contenida en las rúbricas LOMLOE Canarias en aquellas
+                herramientas de evaluación y calificación que mejor se adapten a su contexto y necesidades (concreción
+                de rúbricas, listas de cotejo, escalas de valoración...). El análisis de la información reflejada en dichas
+                herramientas determinará el nivel de logro de los aprendizajes contenidos en los criterios de evaluación y
+                permitirá, por tanto, la calificación de los mismos.
+
+                  Las calificaciones recogidas en cualquiera de las herramientas de evaluación empleadas se acogerán a lo
+                  establecido en el punto 6 del presente apartado.
+
+             8. Con carácter informativo para el alumnado y las familias, y con carácter diagnóstico de cara a la
+                necesidad de implementar medidas de refuerzo o reorientar el proceso de enseñanza, el profesorado
+                podrá optar por emitir una calificación, resultante de la valoración de la información aportada por los
+                instrumentos de evaluación trabajados. No obstante, se atenderá siempre a la premisa de que dicha
+                calificación corresponde al nivel de logro o desempeño del alumnado respecto a los aprendizajes
+                vinculados a dicho instrumento de evaluación y no una calificación del producto en sí. Dicha calificación
+                supondrá una información objetiva que permita al profesorado recabar información de cara a la
+                valoración y calificación de los criterios de evaluación.
+
+                  En caso de emitirse, estas calificaciones se acogerán a lo establecido en el punto 6 del presente apartado.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                               Folio 6/9
+
+
+
+
+             9. El requisito de contar con instrumentos de evaluación heterogéneos, diversos, variados, accesibles y
+                ajustados, responde a la necesidad de contar con evidencias suficientes, que se ajusten al conjunto de la
+                diversidad del aula, a la evolución de contextos que se producen en un mismo grupo a lo largo del curso,
+                así como al progreso del propio alumnado en su proceso de aprendizaje. Es, por tanto, factible el
+                encontrarse calificaciones diversas de un mismo aprendizaje para un mismo alumno o alumna, según el
+                instrumento, la técnica de evaluación empleada o el momento del curso escolar.
+
+                  Ajustándose a un modelo de evaluación continua y formativa, el profesorado tiene la competencia para
+                  decidir cuál de las calificaciones obtenidas refleja de manera más fiel el nivel de logro o desempeño
+                  adquirido por el alumnado respecto a un aprendizaje concreto. Se podrá optar por escoger el mayor nivel
+                  de logro registrado, optar por el nivel de logro que más se repita en las diferentes evidencias recogidas o
+                  bien por el último nivel de logro alcanzado en ese aprendizaje. Todo ello en función del contexto propio
+                  de cada aula y de las características de cada alumno o alumna.
+
+             10.La calificación de los criterios de evaluación se obtendrá del análisis de la información recogida a través
+                de técnicas e instrumentos de evaluación diversos, calificados o no, registrada a través de las
+                herramientas escogidas por el profesorado y contrastada con las rúbricas de evaluación LOMLOE
+                Canarias. Este proceso permitirá establecer el nivel de logro y desempeño del alumnado respecto a los
+                aprendizajes disciplinares y competenciales recogidos en cada criterio, así como extrapolar esta
+                valoración a la calificación cualitativa o cuantitativa equivalente.
+
+                  La calificación de los criterios de evaluación no será, por tanto, el resultado de cálculos aritméticos
+                  realizados sobre las posibles calificaciones de los aprendizajes evidenciados en los instrumentos de
+                  evaluación trabajados. En base a esta premisa, no se podrá otorgar una puntuación o ponderación a los
+                  instrumentos de evaluación en la programación didáctica.
+
+             11.La calificación de un área, una materia o un ámbito, reflejará una valoración global del nivel de logro o
+                desempeño adquirido por el alumnado en el momento de la evaluación (tres, seis o nueve meses). La
+                calificación derivará del cálculo de las calificaciones resultantes de cada criterio de evaluación hasta el
+                momento de su emisión, teniendo todos los criterios implementados la misma importancia y no
+                pudiéndose ponderar su valor.
+
+                  La calificación del primer periodo de evaluación (tres meses) reflejará el nivel de logro de los
+                  aprendizajes activados hasta ese momento en los criterios de evaluación implementados, siendo posible
+                  que algunos de esos criterios se repitan en un periodo posterior, profundizando en aprendizajes trabajados
+                  con anterioridad o integrando otros nuevos. La información recabada, por tanto, en el segundo periodo de
+                  evaluación (seis meses), reflejará el nivel de logro de los aprendizajes activados hasta ese momento,
+                  pudiéndose variar la valoración y calificación de criterios de evaluación trabajados en el periodo anterior.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                               Folio 7/9
+
+
+
+
+                  De igual forma, la calificación del tercer periodo de evaluación (nueve meses) reflejará el nivel de logro
+                  de los aprendizajes integrados en todos los criterios de evaluación, trabajados a lo largo del curso, y
+                  resultará del análisis de la información recabada respecto a dichos criterios en todo el curso escolar, y no
+                  como resultado de una media aritmética de las calificaciones obtenidas en los distintos periodos de
+                  evaluación.
+
+             12.Las calificaciones de las áreas, las materias o los ámbitos emitidas en los dos primeros periodos de
+                evaluación (tres y seis meses), tendrán carácter informativo para el alumnado y sus familias o
+                responsables legales, y serán el punto de partida para que el profesorado realice los ajustes necesarios en
+                su práctica docente e implemente los correspondientes planes de apoyo, refuerzo y recuperación. Estas
+                calificaciones tendrán un valor diagnóstico para regular el proceso de enseñanza, ofrecer una
+                retroalimentación al alumnado sobre su progreso y activar los mecanismos de apoyo o enriquecimiento
+                necesarios antes de la finalización del curso.
+
+             13.En el caso del área de Educación Artística en la Educación Primaria, la calificación será única y global
+                para toda el área en cada periodo de evaluación, siendo obligatoria la coordinación en caso de ser
+                impartida por dos docentes.
+
+             14.La calificación de las áreas, las materias o los ámbitos impartidos en el marco del Programa AICLE se
+                obtendrá a partir de la valoración del grado de desempeño de los aprendizajes descritos en los criterios de
+                evaluación de sus correspondientes currículos oficiales. El uso de la lengua extranjera como lengua
+                vehicular se considerará un medio de aprendizaje y no se tomará en consideración su nivel de dominio
+                para determinar la calificación de las mismas. Corresponderá a los centros adaptar la metodología y los
+                instrumentos de evaluación para evitar que la lengua en la que se imparten se convierta en una barrera.
+
+             15.Las calificaciones en la etapa de la Educación Infantil tendrán carácter informativo y estarán centradas en
+                los avances del alumnado, así como en la identificación de aquellos aspectos que puedan contribuir a su
+                progreso.
+
+             Tercera. Evaluación objetiva
+
+             1. La objetividad de la evaluación se sustenta en el carácter preceptivo y vinculante de los criterios de
+                evaluación, referentes del proceso de evaluación para el alumnado en todas las etapas, y deberá
+                fundamentarse en evidencias observables.
+
+             2. Para asegurar la objetividad en los procedimientos de calificación se usarán herramientas que desglosen
+                los niveles de logro de cada criterio de evaluación.
+
+             3. Las rúbricas de evaluación y calificación LOMLOE Canarias, publicadas por la Consejería de
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                                Folio 8/9
+
+
+
+
+                  Educación, Formación Profesional, Actividad Física y Deportes, constituyen una herramienta que facilita
+                  esta evaluación objetiva, al establecer niveles de logro comunes para todo el alumnado de la Comunidad
+                  Autónoma de Canarias, permitiendo al profesorado dirigir la observación de forma más precisa hacia el
+                  desempeño esperado. Son una herramienta que aúna los aprendizajes de los criterios de evaluación con
+                  los descriptores operativos del perfil de salida a los que están vinculados lo que facilita, además, la
+                  evaluación conjunta y coherente de áreas, materias o ámbitos, y de las competencias clave. Favorecen,
+                  asimismo, la autoevaluación y la coevaluación del alumnado, siendo este partícipe de su proceso de
+                  evaluación.
+
+             Cuarta. Evaluación y calificación colegiada de competencias
+
+             1. La evaluación de las competencias clave se llevará a cabo a lo largo de todo el curso escolar por parte del
+                profesorado de cada área, materia o ámbito.
+
+             2. La calificación colegiada de las competencias clave tendrá lugar en la sesión de evaluación final, por
+                parte de todo el equipo docente, que tomará decisiones de manera compartida y objetiva para llegar a un
+                consenso sobre el grado de desarrollo competencial que cada alumno o alumna ha alcanzado a lo largo
+                del curso.
+
+             3. La calificación de las competencias clave se expresará en los mismos términos que establece la
+                normativa de evaluación:
+                       • Para las etapas de Educación Primaria, Educación Secundaria Obligatoria y Bachillerato: Poco
+                         adecuado, Adecuado, Muy Adecuado y Excelente.
+                       • En la Educación Infantil no se calificarán las competencias clave sino que se emitirá una valoración
+                         global del desarrollo de las mismas en el informe de final de ciclo y en el informe de final de etapa.
+
+             4. La evaluación colegiada partirá del análisis del nivel de logro establecido para cada competencia clave a
+                través de los descriptores operativos asociados a los criterios de evaluación de cada área, materia o
+                ámbito. El equipo docente analizará las valoraciones aportadas desde cada una de ellas y consensuará el
+                calificador oficial que mejor evidencie el grado de desarrollo y adquisición de cada una de las
+                competencias clave.
+
+             5. Las rúbricas de evaluación LOMLOE Canarias suponen la herramienta de referencia que permite al
+                profesorado determinar el grado de desarrollo y adquisición de las competencias asociadas a los distintos
+                criterios de evaluación. Facilitan, a su vez, realizar la conversión entre la valoración realizada en el
+                proceso de evaluación y su correspondencia cualitativa en el proceso de calificación.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==                                                                                                     Folio 9/9
+
+
+
+
+                     Quinta. Medidas y planes de refuerzo, apoyo y recuperación
+
+                     1. Las medidas y los planes de refuerzo, apoyo y recuperación son actuaciones esenciales para garantizar la
+                        continuidad del aprendizaje, y estarán orientadas a la superación de las dificultades detectadas en la
+                        evaluación continua o al promocionar con áreas, materias o ámbitos no superados.
+
+                     2. En la Educación Infantil, dado el carácter informativo de la calificación, no se contemplará el diseño ni la
+                        aplicación de planes formales de refuerzo, apoyo o recuperación. En caso de detectarse indicios de
+                        dificultades en el desarrollo o en el aprendizaje, los centros educativos articularán medidas de atención
+                        individualizada de carácter preventivo. Estas actuaciones se integrarán en la dinámica del aula con el fin
+                        de garantizar el desarrollo del proceso educativo y flexibilizar la respuesta escolar, desde un enfoque
+                        inclusivo. Se informará a las familias o responsables legales tanto de las medidas adoptadas como de las
+                        propuestas para su implementación que, además, quedarán reflejadas en el informe personal de final de
+                        ciclo y de final de etapa.
+
+                     3. En la Enseñanza Básica, cuando el progreso de un alumno o una alumna no alcance el nivel esperado, se
+                        establecerán medidas de refuerzo educativo, que se activarán tan pronto como se detecten las
+                        dificultades, para garantizar la continuidad del proceso de aprendizaje.
+
+                     4. En la Educación Primaria, la Educación Secundaria Obligatoria y el Bachillerato, para el alumnado con
+                        áreas, materias o ámbitos no superados de cursos anteriores, o no superados en los distintos periodos de
+                        evaluación del curso en el que está matriculado, se elaborará un plan específico de apoyo, refuerzo o
+                        recuperación individualizado y adaptado a las dificultades particulares del alumno o la alumna, para
+                        superar los aprendizajes establecidos en los criterios de evaluación. Dichas medidas deberán ser
+                        compartidas con el alumnado y sus familias o responsables legales, y conllevarán un proceso de
+                        acompañamiento por parte del profesorado, para su superación.
+
+                         Para la elaboración de este plan, se partirá de las necesidades detectadas y se incluirá una propuesta de
+                         medidas concretas, aplicando siempre los principios del DUA, con la finalidad de que el alumno o la
+                         alumna sea capaz de evidenciar el logro de los aprendizajes descritos en los criterios de evaluación no
+                         alcanzados, así como el grado de desarrollo y adquisición de las competencias clave asociadas. En el
+                         documento se incluirán también las herramientas y los instrumentos de evaluación, así como el plazo de
+                         aplicación.
+
+
+
+                     EL DIRECTOR GENERAL DE ORDENACIÓN DE LAS ENSEÑANZAS, INCLUSIÓN E
+                     INNOVACIÓN
+
+
+
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL                                                                                  Fecha: 06/10/2026 - 14:54:26
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-0000BwLfZtWeNB5c1LcgMMnVA==
+El presente documento ha sido descargado el 07/10/2026 - 07:13:49

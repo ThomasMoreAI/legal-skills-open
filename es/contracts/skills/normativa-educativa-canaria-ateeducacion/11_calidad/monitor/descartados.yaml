@@ -1,0 +1,32 @@
+# Documentos que el monitor ha detectado y que NO procede catalogar, con su motivo.
+# El criterio lo fija DEC-0012. Sin este fichero, el informe --pendientes los
+# repetiría en cada ejecución y acabaría siendo ruido que nadie lee.
+#
+# Añadir aquí una URL es una decisión editorial: exige motivo escrito.
+
+meta:
+  descripcion: Exclusiones razonadas del informe de deuda de catalogación.
+  decision: DEC-0012
+  fecha_actualizacion: '2026-08-05'
+
+descartados:
+  https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-722-coordinacion-familias-profesionales-23-24.pdf:
+    motivo: "Acto administrativo singular: designa centros coordinadores y nombra profesorado concretos para el curso 2023/2024, ya terminado. Se agotó al ejecutarse."
+    decision: DEC-0012
+    fecha: 2026-08-05
+  https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/formacion_profesional/_galerias/descargas/APENDICES_RESOLUCION_INSTRUCCIONES_LOE.pdf:
+    motivo: "Apéndices de una resolución de 2012 para las enseñanzas de FP reguladas por la LOE, sustituidas por el sistema de la Ley Orgánica 3/2022."
+    decision: DEC-0012
+    fecha: 2026-08-05
+  https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-1.pdf:
+    motivo: "Es el Anexo V de BOC-A-2024-226-3747, ya catalogado como NOR-081. Lleva impreso ese pie. Se registra como acceso directo en esa ficha."
+    decision: DEC-0012
+    fecha: 2026-08-05
+  https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-2-y-3.pdf:
+    motivo: "Es el Anexo VI de BOC-A-2024-226-3747, ya catalogado como NOR-081."
+    decision: DEC-0012
+    fecha: 2026-08-05
+  https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-E.pdf:
+    motivo: "Es el Anexo VII de BOC-A-2024-226-3747, ya catalogado como NOR-081."
+    decision: DEC-0012
+    fecha: 2026-08-05

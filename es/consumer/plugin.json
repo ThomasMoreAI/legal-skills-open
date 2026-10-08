@@ -1,0 +1,16 @@
+{
+  "name": "es-consumer",
+  "displayName": "Consumer Protection — ES",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for ES (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/condiciones-generales-betobetico",
+    "skills/entrevista-inicial-consumo-betobetico",
+    "skills/lanzamiento-betobetico"
+  ]
+}

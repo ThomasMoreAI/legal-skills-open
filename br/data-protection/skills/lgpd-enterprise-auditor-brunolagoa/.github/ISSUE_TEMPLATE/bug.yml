@@ -1,0 +1,94 @@
+name: Relatar bug
+description: Algo no instalador, na skill, no framework ou nos comandos não funciona como deveria.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por relatar. Antes de enviar, verifique se já não existe uma issue sobre o mesmo problema.
+        Vulnerabilidades de segurança **não** devem ser relatadas aqui: siga o [SECURITY.md](https://github.com/BrunoLagoa/lgpd-enterprise-auditor/blob/main/SECURITY.md).
+
+  - type: checkboxes
+    id: dados
+    attributes:
+      label: Dados pessoais e confidenciais
+      options:
+        - label: Confirmo que **não** colei dados pessoais, segredos (tokens, senhas, chaves) nem trechos de relatórios de auditoria confidenciais nesta issue. Quando necessário, usei dados fictícios ou anonimizados.
+          required: true
+
+  - type: textarea
+    id: ocorrido
+    attributes:
+      label: O que aconteceu
+      description: Descreva o comportamento observado. Inclua mensagens de erro, se houver.
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que era esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Rodei `bash install.sh install --target claude`
+        2. Executei `/lgpd-saas`
+        3. ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ferramenta
+    attributes:
+      label: Ferramenta de IA
+      options:
+        - Claude Code
+        - Cursor
+        - VS Code + GitHub Copilot
+        - OpenCode
+        - Codex
+        - Gemini CLI
+        - Outra
+    validations:
+      required: true
+
+  - type: dropdown
+    id: instalacao
+    attributes:
+      label: Forma de instalação
+      options:
+        - Instalador bash (install.sh)
+        - Instalador PowerShell (install.ps1)
+        - Manual
+    validations:
+      required: true
+
+  - type: input
+    id: versao
+    attributes:
+      label: Versão
+      description: "Campo `version` de `.agents/lgpd-enterprise-auditor/.install/<ferramenta>.json` ou a release/tag usada (ex.: `v1.2.0`)."
+      placeholder: v1.2.0
+    validations:
+      required: true
+
+  - type: input
+    id: cenario
+    attributes:
+      label: Comando ou cenário usado
+      description: "Ex.: `/lgpd-saas`, `full_audit`, pedido em linguagem natural à skill."
+    validations:
+      required: false
+
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Ambiente e informações adicionais
+      description: Sistema operacional, shell (bash/zsh/PowerShell 5.1/7), modelo de IA e o que mais ajudar.
+    validations:
+      required: false

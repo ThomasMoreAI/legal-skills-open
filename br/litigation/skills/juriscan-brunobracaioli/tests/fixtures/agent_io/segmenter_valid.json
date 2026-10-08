@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "raw_text_length": 250,
+  "chunks": [
+    {
+      "id": "c00",
+      "start_char": 0,
+      "end_char": 100,
+      "tipo_provavel": "PETIÇÃO INICIAL",
+      "confianca": 0.9
+    },
+    {
+      "id": "c01",
+      "start_char": 100,
+      "end_char": 250,
+      "tipo_provavel": "SENTENÇA",
+      "confianca": 0.85
+    }
+  ]
+}

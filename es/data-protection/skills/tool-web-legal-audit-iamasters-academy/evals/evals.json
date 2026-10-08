@@ -1,0 +1,26 @@
+{
+  "skill_name": "web-legal-audit",
+  "evals": [
+    {
+      "id": 1,
+      "name": "landing-captacion-sin-banner",
+      "prompt": "Audita esta landing de captación y genera informe docx para abogados: https://registro.mkthackers.com/registro-page . La landing está en producción, captando leads en España y UE.",
+      "expected_output": "Debe detectar: (1) ausencia de banner de cookies, (2) ausencia de enlaces legales en footer, (3) trackers activos sin consentimiento (TikTok Pixel, Google Ads), (4) formulario sin checkbox de consentimiento, (5) <html lang> incorrecto. Debe generar un docx con estructura completa (resumen ejecutivo, secciones por URL, recomendaciones) y citar art. 22.2 LSSI y arts. 13 y 6 RGPD. Debe incluir horquillas sancionadoras apoyadas en precedentes AEPD.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "sitio-institucional-politicas-publicadas",
+      "prompt": "Revisa legalmente el sitio https://mkthackers.edibschool.com/ . Quiero saber si cumple RGPD y si las políticas legales que tiene publicadas son correctas.",
+      "expected_output": "Debe (1) verificar existencia de aviso legal, política de privacidad y política de cookies, (2) leer el contenido de cada política y contrastarlo con los checks del art. 13 RGPD, (3) detectar discrepancias entre lo que dice la política de cookies y la realidad (si anuncia banner que no existe), (4) detectar enlaces rotos o variantes de URL, (5) verificar identificación del responsable (art. 10 LSSI). Entrega informe docx con hallazgos literales citados entre comillas.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "landing-con-facturacion-agravante",
+      "prompt": "Audita https://live.mkthackers.com/optin-a-email/ . Esta landing fue parte de un lanzamiento comercial que facturó 1.600.000€. Genera informe legal con énfasis en la exposición sancionadora.",
+      "expected_output": "Debe (1) interceptar red y detectar GTM + GA4 activándose sin consentimiento, (2) mapear los 40+ prefijos internacionales como alcance multijurisdiccional UE, (3) aplicar criterio agravante del art. 83.2.k RGPD usando la cifra de 1,6M€ como beneficio financiero derivado, (4) calcular horquillas hasta 4% de facturación, (5) generar docx con sección de alerta legal consolidada + plan de remediación.",
+      "files": []
+    }
+  ]
+}

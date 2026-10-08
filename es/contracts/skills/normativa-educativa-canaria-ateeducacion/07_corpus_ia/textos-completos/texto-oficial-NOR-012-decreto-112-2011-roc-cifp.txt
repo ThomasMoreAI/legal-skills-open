@@ -1,0 +1,644 @@
+ID interno: NOR-012
+Título oficial: Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación Profesional
+Fuente oficial: FTE-020
+URL origen: https://www.gobiernodecanarias.org/boc/2011/104/003.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2011-104-2866.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2011-104-2866), https://sede.gobiernodecanarias.org/boc/boc-a-2011-104-2866.pdf.
+---
+              Boletín Oficial de Canarias núm. 104                 13667                                       Jueves 26 de mayo de 2011
+
+
+
+       I. Disposiciones generales                                          nal para el empleo, introduce, entre otros, a los Cen-
+                                                                           tros integrados de formación profesional como cen-
+       Consejería de Empleo,                                               tros para la mejora de las políticas del ámbito labo-
+       Industria y Comercio                                                ral que mejor pueden contribuir a la consecución de
+                                                                           los objetivos de empleo. En su artículo 9.1.a).2º se-
+       2866 DECRETO 112/2011, de 11 de mayo, por el que                    ñala que estos centros impartirán, al menos, las ofer-
+            se regulan los Centros integrados de forma-                    tas formativas referidas al Catálogo Nacional de Cua-
+            ción profesional en la Comunidad Autónoma                      lificaciones Profesionales, que conduzcan a la obtención
+            de Canarias.                                                   de títulos de formación profesional y certificados de
+                                                                           profesionalidad.
+           La Ley Orgánica 5/2002, de 19 de junio, de las Cua-
+       lificaciones y de la Formación Profesional tiene por                   El Real Decreto 34/2008, de 18 de enero, por el
+       objeto la ordenación de un sistema integral de for-                 que se regulan los certificados de profesionalidad, re-
+       mación profesional, cualificaciones y acreditación,                 coge, en su artículo 12, a los Centros integrados co-
+       que responda con eficacia y transparencia a las de-                 mo uno de los centros en los que se pueden impartir
+       mandas sociales y económicas a través de las diver-                 las acciones formativas correspondientes a certifica-
+       sas modalidades formativas.                                         dos de profesionalidad y menciona que en estos cen-
+                                                                           tros, la programación de la oferta modular asociada
+          Esta Ley define en el primer párrafo de su artículo              a unidades de competencia incluidas en títulos de for-
+       11.4, a los Centros integrados de formación profesio-               mación profesional y certificados de profesionalidad
+       nal como nuevos centros que, en el marco del Sistema                será la misma.
+       Nacional de Cualificaciones, impartirán todas las ofer-
+       tas de formación profesional, conducentes a títulos y                  En el Real Decreto 1558/2005 se señala, entre las
+       certificados de profesionalidad, que estén referidas al             funciones de los Centros integrados, el “Participar en
+       Catálogo Nacional de Cualificaciones Profesionales.                 los procedimientos de evaluación y, en su caso, rea-
+                                                                           lizar la propuesta de acreditación oficial de las com-
+          El segundo párrafo del artículo 11.4 establece que               petencias profesionales adquiridas por las personas
+       las Administraciones, en el ámbito de sus competen-                 a través de la experiencia laboral o de vías no for-
+       cias, podrán crear y autorizar dichos Centros integra-              males de formación, de acuerdo con lo que establez-
+       dos de formación profesional con las condiciones y                  ca en desarrollo del artículo 8 de la Ley Orgánica 5/2002,
+       requisitos que se establezcan. Por otro lado, el artícu-            de 19 de junio, de las Cualificaciones y de la Forma-
+       lo 11.6 de esta misma ley señala que el Gobierno y                  ción Profesional”.
+       los Consejos de Gobierno de las Comunidades Autó-
+       nomas, en el ámbito de sus respectivas competencias,                    En el Decreto 43/2003, de 7 de abril, por el que
+       adaptarán la composición y funciones de los Centros                 se crea y regula el Instituto Canario de las Cualifi-
+       integrados de formación profesional a sus caracterís-               caciones Profesionales, se indica entre sus finalida-
+       ticas específicas.                                                  des el diseñar y actualizar el sistema integral de cua-
+                                                                           lificaciones profesionales de Canarias, así como el
+           El Real Decreto 1558/2005, de 23 de diciembre, por              establecer los requisitos para la acreditación de las
+       el que se regulan los requisitos básicos de los Centros             cualificaciones profesionales en Canarias.
+       integrados de formación profesional, establece la ti-
+       pología, fines y funciones de dichos centros, así co-                  En la Estrategia de Empleo en Canarias 2008-
+       mo las condiciones que deberán reunir los mismos, y                 2013 se recoge, en el área de “Adaptabilidad”, que
+       señala las competencias atribuidas a las Administra-                la creación y consolidación de una Red de Centros
+       ciones educativas y laborales de las Comunidades                    integrados de formación profesional, en el ámbito de
+       Autónomas para la creación y autorización de estos cen-             nuestra Comunidad, nos permitirá disponer de un
+       tros y la organización de una red de Centros integra-               recurso flexible para el desarrollo de las diferentes
+       dos para facilitar a la ciudadanía el ejercicio del dere-           programaciones y responderá a las necesidades de for-
+       cho a la formación a lo largo de toda la vida.                      mación-cualificación demandadas por los trabaja-
+                                                                           dores y por el mercado laboral.
+          La Ley Orgánica 2/2006, de 3 de mayo, de Edu-
+       cación, señala en su artículo 39.5 que los estudios de                  El Plan Canario de Formación Profesional 2009-
+       formación profesional podrán realizarse tanto en los                2012, aprobado a propuesta del Consejo Canario de
+       centros educativos que la norma establezca, como en                 Formación Profesional por el Gobierno de Canarias
+       los Centros integrados y de referencia nacional a los               el 1 de septiembre de 2009, contempla ya, entre otras
+       que se refiere el artículo 11 de la Ley Orgánica                    actuaciones, la necesidad de diseñar, crear y con-
+       5/2002, de 19 de junio, de las Cualificaciones y de                 solidar una red de Centros integrados públicos y pri-
+       la Formación Profesional.                                           vados de formación profesional, con objeto de op-
+                                                                           timizar los recursos humanos y materiales disponibles
+         El Real Decreto 395/2007, de 23 de marzo, por el                  e impulsar los esfuerzos de cualificación de las
+       que se regula el subsistema de formación profesio-                  personas.
+
+
+boc-a-2011-104-2866
+             Boletín Oficial de Canarias núm. 104               13668                                     Jueves 26 de mayo de 2011
+
+
+
+           Los Centros integrados que esta norma regula es-                En su virtud, a propuesta conjunta de las Conse-
+       tán abiertos a la empresa y a la sociedad y, junto con           jeras de Empleo, Industria y Comercio y de Educa-
+       otros centros de formación profesional, han de ser mo-           ción, Universidades, Cultura y Deportes, visto el dic-
+       tores de competitividad en todos los sectores, tanto             tamen del Consejo Consultivo de Canarias, y previa
+       desde la perspectiva de la formación inicial de gen-             deliberación del Gobierno en su reunión del día 11
+       te joven como desde el apoyo en el acceso de los tra-            de mayo de 2011,
+       bajadores y trabajadoras a nuevas competencias y cua-
+       lificaciones profesionales.                                                        D I S P O N G O:
+          Los cambios que se están produciendo en la eco-                                    CAPÍTULO I
+       nomía, las empresas y la sociedad en general requie-
+       ren que la formación profesional se convierta en una                         DISPOSICIONES GENERALES
+       garantía para nuestra competitividad, y los centros de
+       formación profesional en instrumentos principales pa-               Artículo 1.- Objeto y ámbito de aplicación.
+       ra dar respuestas a los nuevos requerimientos de una
+       economía y una sociedad en continuo cambio, don-                    El presente Decreto tiene por objeto la regula-
+       de es necesario trabajar con organizaciones dinámi-              ción de los Centros integrados de formación pro-
+       cas y abiertas que aporten nuevas ideas, y asuman la             fesional en el ámbito de la Comunidad Autónoma
+       cultura de la innovación y de la investigación.                  de Canarias a los que hace referencia la Ley Or-
+                                                                        gánica 5/2002, de 19 de junio, de las Cualificacio-
+           Con este Decreto se persigue una formulación del             nes y de la Formación Profesional, y al amparo de
+       diseño, organización, funciones y estrategias estable-           lo dispuesto en el Real Decreto 1558/2005, de 23
+       cidas en un centro de formación profesional, que                 de diciembre, por el que se regulan los requisitos
+       asuma otras formas de hacer a través de métodos de               básicos de los Centros integrados de formación
+       gestión de las diferentes formaciones, los contenidos            profesional.
+       de las mismas, los métodos de funcionamiento, así
+       como los diferentes modos de relación, en un con-                   Artículo 2.- Definición de Centros integrados de
+       texto que potencie la innovación, con empresas de                formación profesional.
+       su entorno, así como con la sociedad en general.
+       También estos centros jugarán un papel fundamen-                    Tendrán la condición de Centros integrados de
+       tal en el desarrollo de los procedimientos de evalua-            formación profesional de la Comunidad Autónoma
+       ción y acreditación de las competencias profesiona-              de Canarias aquellos que, cumpliendo los requisitos
+       les y en la información y orientación profesional.               establecidos en el Real Decreto 1558/2005, de 23 de
+                                                                        diciembre, por el que se regulan los requisitos bási-
+          Al ser Canarias una comunidad autónoma que se                 cos de los Centros integrados de formación profesio-
+       encuentra condicionada por la fragmentación de su                nal y en el presente Decreto, impartan todas las ofer-
+       territorio, consecuencia de su insularidad, es preci-            tas formativas referidas al Catálogo Nacional de
+       so buscar soluciones eficaces que permitan superar               Cualificaciones Profesionales que conduzcan a títu-
+       las desventajas de esta realidad.                                los de formación profesional y certificados de
+                                                                        profesionalidad.
+          La Comunidad Autónoma de Canarias, a través del
+       presente Decreto, regula los Centros integrados que,                Estos centros podrán ofrecer, con carácter expe-
+       en consonancia con las características singulares que            rimental, otras acciones formativas de carácter estra-
+       definen su territorio junto al cambiante mercado la-             tégico para la economía canaria, relacionadas con las
+       boral y a las demandas de la población, puedan dar               familias en las que estén autorizados.
+       respuestas formativas a las necesidades que van apa-
+       reciendo. Este modelo permite dar al Sistema Cana-                 Artículo 3.- Tipos de Centros integrados de for-
+       rio de Formación Profesional una mayor flexibilidad              mación profesional.
+       y adaptabilidad, ya que posibilita adecuar la oferta
+       formativa a las necesidades de cualificación inme-                 Los Centros integrados de formación profesional
+       diatas y emergentes del sistema productivo, a las ne-            podrán ser:
+       cesidades individuales y expectativas personales de
+       promoción profesional y, además, a la singularidad                   a) Centros integrados de formación profesional de
+       de nuestro territorio, a la vez que facilita una mayor           titularidad pública, dependientes de la Comunidad Autó-
+       rentabilización de los recursos humanos y materia-               noma de Canarias.
+       les disponibles.
+                                                                            b) Centros integrados de formación profesional de
+          Los Centros integrados de formación profesio-                 titularidad privada.
+       nal deben tender a constituirse en unidades de ges-
+       tión, organización y de desarrollo autónomo de la                  Artículo 4.- Fines de los Centros integrados de for-
+       formación.                                                       mación profesional.
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104               13669                                      Jueves 26 de mayo de 2011
+
+
+
+          Los Centros integrados de formación profesional                   c) Informar y orientar a los usuarios, tanto indi-
+       tendrán los siguientes fines:                                     vidual como colectivamente, en los procedimientos
+                                                                         de evaluación y acreditación, en itinerarios formati-
+          a) Responder a las necesidades de cualificación y              vos acordes y en los procesos de inserción laboral con
+       recualificación de las personas a lo largo de la vida             el fin de facilitar el progreso profesional, todo ello
+       mediante el establecimiento de una oferta de forma-               en colaboración con el Servicio Canario de Empleo
+       ción profesional modular, flexible, de calidad, adap-             o entidades del Sistema Público de Empleo.
+       tada a las demandas de la población y a las necesi-
+       dades generadas por el sistema productivo.                           d) Diseñar acciones que fomenten la concienciación
+                                                                         sobre la prevención de riesgos laborales, la promoción
+          b) Cuando proceda, y en el marco del Sistema Na-               de la igualdad y la sensibilización medioambiental.
+       cional de Cualificaciones y Formación Profesional,
+       contribuir a la evaluación y acreditación de las com-                2. Además de las funciones establecidas en el
+       petencias profesionales adquiridas por las personas               apartado anterior, los centros integrantes de la Red
+       a través de la experiencia laboral y de vías no for-              de titularidad pública y los Centros integrados pri-
+       males de formación, promoviendo así la valoración                 vados concertados que cuenten con autorización ad-
+       social del trabajo, de acuerdo a lo establecido en de-            ministrativa a tales efectos, podrán desarrollar las si-
+       sarrollo del artículo 8 de la Ley Orgánica 5/2002, de             guientes funciones:
+       19 de junio, de las Cualificaciones y la Formación
+       Profesional.                                                          a) Convocar y, en su caso, impartir formación pa-
+                                                                         ra las pruebas de acceso a los ciclos formativos a las
+          c) Proporcionar los servicios de información y                 personas que no posean los requisitos académicos pa-
+       orientación profesional a las personas para que tomen             ra iniciar los estudios de los ciclos formativos.
+       las decisiones más adecuadas respecto de sus nece-
+       sidades de formación profesional en relación con el                  b) Participar, en colaboración con el Instituto Ca-
+       entorno productivo en el que se desenvuelven.                     nario de las Cualificaciones Profesionales, en los
+                                                                         procedimientos de evaluación y acreditación de la com-
+          d) Establecer un espacio de cooperación entre el               petencia profesional adquirida a través de la experien-
+       sistema de formación profesional, la investigación y              cia laboral o de otras vías no formales de formación,
+       el entorno productivo sectorial y local para desarro-             de acuerdo con el Real Decreto 1224/2009, de 17 de
+       llar y extender una cultura de la formación perma-                julio, de reconocimiento de las competencias profe-
+       nente, contribuyendo a prestigiar la formación pro-               sionales adquiridas por experiencia profesional.
+       fesional y favorecer una oferta formativa adaptada a
+       los cambios sociales, organizativos y tecnológicos que                c) Desarrollar acciones formativas que permitan
+       se manifiestan en los sectores productivos de Canarias.           a los candidatos que participen en los procedimien-
+                                                                         tos de evaluación y acreditación de la competencia
+          e) Fomentar la igualdad real y efectiva entre mu-              profesional, completar la formación conducente a la
+       jeres y hombres.                                                  obtención de un título de formación profesional o cer-
+                                                                         tificado de profesionalidad relacionado con los
+          Artículo 5.- Funciones de los Centros integrados               mismos.
+       de formación profesional.
+                                                                            d) Promocionar la cultura emprendedora a través
+          1. Con carácter general, los Centros integrados de             de la formación necesaria y el asesoramiento a la po-
+       formación profesional realizarán las siguientes                   blación en la creación de empresas.
+       funciones:
+                                                                            e) Colaborar con el sistema de prospección del mer-
+          a) Impartir las ofertas formativas conducentes a la            cado de trabajo de nuestra Comunidad.
+       obtención de títulos de formación profesional, certifi-
+       cados de profesionalidad que tengan autorizados, así                 f) Contribuir al conocimiento de realidades pro-
+       como otras ofertas formativas que den respuesta a las             ductivas del extranjero. Para ello podrán organizar
+       demandas de las personas y del entorno productivo.                la realización de formación en centros de trabajo y
+                                                                         otras prácticas formativas en empresas de otros paí-
+          b) Establecer vínculos con el sistema producti-                ses favoreciendo así la ciudadanía europea y la mo-
+       vo para la formación del profesorado y del alum-                  vilidad de los trabajadores y trabajadoras.
+       nado en empresas, para la orientación profesional
+       y para la participación de profesionales del sector                  g) Colaborar con el Instituto Canario de Cualifi-
+       empresarial en la impartición de docencia. Asi-                   caciones Profesionales, con los Centros de Referen-
+       mismo, y en este contexto, colaborar en la detec-                 cia Nacional y con el Observatorio de Empleo y For-
+       ción de las necesidades de cualificación y en el de-              mación de Canarias en el desarrollo de nuevas
+       sarrollo de la formación permanente de los                        competencias y cualificaciones profesionales, en la
+       trabajadores y trabajadoras.                                      detección de profesiones emergentes en el sistema pro-
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104               13670                                       Jueves 26 de mayo de 2011
+
+
+
+       ductivo canario, en el desarrollo de estudios, inves-             to profesional y cooperación en el entorno europeo,
+       tigaciones y programas de formación y en otras co-                africano u otros, así como fomentar la sensibilidad
+       laboraciones que les soliciten respecto a su especia-             en las áreas de prevención de riesgos laborales, pro-
+       lidad o ámbito de competencia.                                    moción de la igualdad y sensibilización medioambiental.
+
+          h) Impulsar y desarrollar acciones y proyectos de                 Artículo 6.- Protocolos generales de colaboración.
+       innovación y desarrollo, en colaboración con las em-
+       presas del entorno y los interlocutores sociales, y                  Las Consejerías competentes en materia educa-
+       transferir el contenido y valoración de las experien-             tiva y laboral podrán suscribir protocolos genera-
+       cias desarrolladas al resto de los centros.                       les para establecer el marco y la metodología de
+                                                                         la colaboración en el desarrollo de las funciones
+          i) Participar en programas europeos de innovación              de los Centros integrados, de acuerdo con lo pre-
+       e investigación en reconocimiento de la competen-                 visto en el artículo 6 de la Ley 30/1992, de 26 de
+       cia profesional y en Formación Profesional y de mo-               noviembre, de Régimen Jurídico de las Adminis-
+       vilidad de estudiantes y titulados de Formación                   traciones Públicas y del Procedimiento Adminis-
+       Profesional.                                                      trativo Común.
+
+          j) Proponer a las Consejerías competentes la rea-                                   CAPÍTULO II
+       lización de pruebas libres conducentes a la obtención
+       de títulos y pruebas de acceso a certificados de pro-                  CREACIÓN, AUTORIZACIÓN Y REQUISITOS
+       fesionalidad, a demanda de la población o el siste-
+       ma productivo de su entorno.                                         Artículo 7.- Creación y autorización de Centros
+                                                                         integrados.
+          k) Impartir formación profesional a distancia, me-
+       diante materiales adaptados a las Tecnologías de la                  1. La programación de la oferta integrada de for-
+       Información y de la Comunicación, y en idiomas de                 mación profesional se hará desde la consideración que
+       otros países de la Unión Europea.                                 la formación a lo largo de la vida es un derecho de
+                                                                         las personas que los poderes públicos deben asegu-
+          l) Informar y asesorar a otros centros de forma-               rar. Para facilitar el ejercicio de este derecho las Con-
+       ción profesional.                                                 sejerías competentes organizarán una Red de Centros
+                                                                         integrados de titularidad pública.
+          m) Desarrollar acciones de formación para los
+       docentes y formadores de los diferentes subsistemas                  2. Los Centros integrados de formación profesio-
+       de la formación profesional para responder a sus ne-              nal podrán ser de nueva creación o proceder de la trans-
+       cesidades específicas de formación.                               formación de centros ya existentes.
+          n) Colaborar en el desarrollo de una red corpora-                  3. La Consejería competente en materia educati-
+       tiva entre los Centros integrados, que posibilite una             va, para transformar sus centros de formación pro-
+       cultura de colaboración en diversos proyectos, refe-              fesional en Centros integrados, deberá contar con la
+       ridos a la formación, a la innovación y a la gestión.             autorización de la Consejería competente en mate-
+                                                                         ria laboral. Igualmente, la Consejería competente en
+          o) Fomentar, en colaboración con instituciones y               materia laboral, para transformar sus centros en Cen-
+       organismos de formación, reconocimiento y orien-                  tros integrados, deberá contar con la autorización de
+       tación, la elaboración de materiales didácticos nece-             la Consejería competente en materia educativa. En
+       sarios para el desarrollo de las enseñanzas, la evalua-           todo caso, los centros deberán cumplir los requisitos
+       ción y la orientación.                                            establecidos en la presente norma, así como cuantos
+                                                                         otros regulen las Consejerías competentes en el ejer-
+          p) Cuantas otras funciones de análoga naturaleza               cicio de su capacidad normativa.
+       determinen las Consejerías competentes.
+                                                                             4. La Consejería competente en materia educati-
+           3. Para realizar las funciones establecidas en los            va, en el ámbito de sus competencias, podrá crear nue-
+       apartados anteriores, los Centros integrados podrán               vos Centros integrados de formación profesional de
+       desarrollar acuerdos y convenios con empresas, ins-               titularidad pública o, en su caso, autorizar nuevos Cen-
+       tituciones y otros organismos y entidades, así como               tros integrados de formación profesional de titulari-
+       para el aprovechamiento de las infraestructuras y re-             dad privada, para lo que deberá solicitar informe
+       cursos disponibles, que contribuyan a la calidad de               preceptivo y vinculante de la Consejería competen-
+       la formación y de las demás acciones que se contem-               te en materia laboral.
+       plan en este Decreto.
+                                                                            5. La Consejería competente en materia laboral,
+          4. Asimismo, entre otras actuaciones, se podrán                en el ámbito de sus competencias, podrá crear nue-
+       promover proyectos de movilidad, perfeccionamien-                 vos Centros integrados de formación profesional de
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104               13671                                       Jueves 26 de mayo de 2011
+
+
+
+       titularidad pública o, en su caso autorizar nuevos                                     CAPÍTULO III
+       Centros integrados de formación profesional de ti-
+       tularidad privada, para lo que deberá solicitar infor-                  AUTONOMÍA, PLANIFICACIÓN, GESTIÓN
+       me preceptivo y vinculante de la Consejería compe-                              Y FINANCIACIÓN
+       tente en materia educativa.
+                                                                            Artículo 9.- Autonomía de los Centros integrados
+          6. Las Consejerías competentes en materia edu-                 de formación profesional.
+       cativa y laboral podrán revocar la autorización de los
+       centros como Centros integrados de formación pro-                    1. Los Centros integrados de formación profesio-
+       fesional, cuando no cumplan los requisitos estable-               nal dispondrán de autonomía organizativa, pedagó-
+       cidos en el presente Decreto.                                     gica, de gestión económica y de personal, de acuer-
+                                                                         do con lo que establezca la Consejería competente.
+          7. En la creación de un Centro integrado, el Con-
+       sejo Canario de Formación Profesional emitirá infor-                  2. Las Consejerías competentes, teniendo en cuen-
+       me previo preceptivo aunque no vinculante.                        ta la naturaleza de las ofertas formativas y de los ser-
+                                                                         vicios que caracterizan a estos centros y las caracte-
+          Artículo 8.- Requisitos de los Centros integrados.             rísticas específicas de los grupos destinatarios,
+                                                                         determinarán los plazos de admisión del alumnado,
+          Los Centros integrados de formación profesio-                  períodos de matrícula, organización temporal de las
+       nal, en el marco de lo establecido en el Real Decre-              ofertas, así como otras cuestiones de régimen inte-
+       to 1558/2005, de 23 de diciembre, por el que se re-               rior que afectan al personal que preste servicios en
+       gulan los requisitos básicos de los Centros integrados            los mismos. Especialmente, estos centros permitirán
+       de formación profesional, deberán reunir los siguien-             un eficaz acceso de las personas adultas y trabajado-
+       tes requisitos:                                                   ras a las ofertas formativas y servicios, teniendo en
+                                                                         cuenta la disponibilidad de tiempo de los usuarios.
+          a) Los especificados en los Reales Decretos que
+       regulen los títulos de formación profesional y los                   Artículo 10.- Plan de actuaciones.
+       certificados de profesionalidad correspondientes a las
+       enseñanzas que se impartan en ellos.                                 1. Las Consejerías competentes en materia edu-
+                                                                         cativa y laboral, en colaboración con los agentes
+           b) Las instalaciones adecuadas para desarrollar las           económicos y sociales con representación en el Con-
+       tareas formativas, de gestión, de orientación, de coor-           sejo Canario de Formación Profesional y con los ór-
+       dinación, de acreditación y apoyo que se les enco-                ganos de gobierno de los correspondientes centros,
+       mienda, así como las medidas de habitabilidad, se-                establecerán un Plan de actuaciones para el conjun-
+       guridad y accesibilidad que establece la legislación              to de los Centros integrados. Este plan, que tendrá
+       vigente. Los titulares de las Consejerías competen-               carácter plurianual, será informado por el Consejo Ca-
+       tes podrán autorizar el uso de ciertos espacios e ins-            nario de Formación Profesional y se revisará anual-
+       talaciones singulares, así como, en su caso, de aque-             mente de acuerdo con lo que a tales efectos se
+       llas instalaciones y equipamientos propios de entornos            determine.
+       profesionales que, siendo necesarios para impartir los
+       programas formativos y realizar la evaluación de las                 2. Esta planificación contemplará las caracte-
+       competencias, se encuentren ubicados en un recinto                rísticas del mercado de trabajo territorial y secto-
+       distinto al resto de las instalaciones del centro. Los            rial, así como aquellas directrices anuales contem-
+       centros garantizarán que los citados espacios autori-             pladas en los planes nacionales de acción para el
+       zados sean de uso preferente para el desarrollo de sus            empleo que sean de aplicación en el ámbito de ac-
+       actividades.                                                      tuación correspondiente.
+
+          c) El suficiente profesorado, personal asesor y eva-              3. Las Consejerías competentes en materia edu-
+       luador para el procedimiento de evaluación y acre-                cativa y laboral y los Centros integrados de forma-
+       ditación de la competencia profesional, profesiona-               ción profesional atenderán a las indicaciones del plan
+       les de la orientación profesional y personal experto              anterior para realizar la oferta anual de formación en
+       necesarios para desarrollar las funciones que se les              cada uno de los centros.
+       encomienda según la legislación vigente. Asimis-
+       mo, contarán con el personal de administración y                     Artículo 11.- Proyecto funcional de centro.
+       servicio necesario para desarrollar las tareas de ges-
+       tión administrativa y los servicios de vigilancia y                   1. Los órganos de participación y gobierno de los
+       mantenimiento.                                                    Centros integrados de formación profesional elabo-
+                                                                         rarán un proyecto funcional de centro en el que se es-
+          d) Tener implantado un sistema de gestión de la                tablezcan, al menos, sus objetivos y actuaciones prio-
+       calidad, vinculado al proyecto funcional, así como                ritarias, el sistema organizativo, los procedimientos
+       un procedimiento de mejora continua.                              de gestión, los procedimientos de evaluación y acre-
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104               13672                                      Jueves 26 de mayo de 2011
+
+
+
+       ditación, los proyectos curriculares de ciclo forma-              drá todas las competencias que correspondan al ór-
+       tivo, las programaciones didácticas, el plan de acción            gano de contratación, incluida la aprobación del gas-
+       tutorial, los mecanismos de evaluación de las accio-              to correspondiente, relativas a la contratación menor
+       nes, así como otros aspectos que sean relevantes pa-              de obras, servicios y otros suministros, de conformi-
+       ra el desarrollo de las funciones del centro.                     dad con la legislación aplicable en materia de con-
+                                                                         tratación administrativa, sin perjuicio de la delega-
+          2. El proyecto funcional desarrollará, en el ámbi-             ción que para el resto de la contratación puedan
+       to del centro, lo recogido en el modelo de planifica-             realizar las Consejerías competentes en materia edu-
+       ción a que se refiere el artículo anterior.                       cativa y laboral en los órganos de gobierno de dichos
+                                                                         Centros integrados de formación profesional de ti-
+          3. Los Centros integrados de formación profesio-               tularidad pública.
+       nal implantarán sistemas de gestión de calidad y me-
+       jora continua cuyos criterios e indicadores estén en                 4. La dirección de los Centros integrados de for-
+       relación con los objetivos marcados en su proyecto                mación profesional podrán formular requisitos de es-
+       funcional, y que al menos evalúe el grado de inser-               pecialización y capacitación profesional respecto de
+       ción del alumnado, los índices de éxito en la forma-              determinados puestos de trabajo docentes del centro,
+       ción, el grado de satisfacción del alumnado y otros               de acuerdo con el proyecto funcional del mismo. Las
+       usuarios y el de las empresas y otras instituciones co-           personas titulares de las direcciones de los Centros in-
+       laboradoras. Además se valorará la conexión entre la              tegrados de formación profesional tendrán competen-
+       formación inicial y la formación para el empleo, los              cia para la contratación de personal experto, de acuer-
+       procedimientos de evaluación y acreditación de la com-            do con lo que a tales efectos se determine.
+       petencia profesional y la respuesta a las necesidades
+       formativas de los candidatos evaluados.                              5. Los Centros integrados de formación profesio-
+                                                                         nal podrán recibir subvenciones y otras ayudas, in-
+          4. Los Centros integrados de formación profe-                  cluidas las de régimen de conciertos educativos, pa-
+       sional establecerán sus necesidades de personal                   ra financiar las acciones formativas y los servicios
+       en base a su proyecto funcional y a la duración del               que presten.
+       mismo.
+                                                                            6. En el caso de aquellas acciones de formación
+          5. Las Consejerías competentes en materia edu-                 profesional que estén cofinanciadas por Fondos Euro-
+       cativa y laboral autorizarán el desarrollo del proyec-            peos, los Centros integrados tendrán que aplicar lo
+       to funcional y velarán para que las actuaciones con-              establecido en los reglamentos comunitarios que re-
+       templadas en los proyectos funcionales de los Centros             gulan la gestión y control de estas ayudas y en aque-
+       integrados que dependan de las mismas se adecuen                  llos que regulan las actividades de información y
+       a los fines y funciones de éstos.                                 publicidad que deben llevar a cabo los Estados miem-
+                                                                         bros en relación con las intervenciones de los fon-
+          Artículo 12.- Gestión y financiación de los Cen-               dos estructurales.
+       tros integrados de formación profesional.
+                                                                            Artículo 13.- Ejercicio de la función inspectora.
+          1. Para la financiación de la planificación común,
+       las Consejerías competentes tendrán en cuenta la                     Corresponde a las Consejerías competentes en
+       normativa reguladora de las distintas acciones for-               materia educativa y laboral, cada una en el ámbito
+       mativas consideradas en el mismo.                                 de sus respectivas competencias, la inspección de los
+                                                                         Centros integrados de formación profesional.
+          2. Los Consejos Sociales de los Centros integra-
+       dos de formación profesional de titularidad pública                                    CAPÍTULO IV
+       y concertados podrán autorizar la suscripción de con-
+       venios y acuerdos con empresas o mediante la ofer-                   ÓRGANOS DE GOBIERNO Y DE PARTICIPACIÓN
+       ta de productos y la prestación de servicios deriva-
+       dos de la actividad propia del centro, de los cuales                 Artículo 14.- Órganos de gobierno y de partici-
+       se puedan derivar la percepción de cantidades eco-                pación de los Centros integrados de formación
+       nómicas. Los recursos así obtenidos se incluirán en               profesional.
+       el presupuesto del Centro integrado formando parte
+       de la partida de ingresos.                                           Los Centros integrados de formación profesional
+                                                                         tendrán, al menos, los siguientes órganos:
+          3. La dirección del Centro integrado de formación
+       profesional dispondrá de autonomía para la adquisi-                  a) Órganos unipersonales de gobierno:
+       ción de bienes y contratación de obras, servicios y
+       suministros de acuerdo con lo establecido en la le-                  - Dirección.
+       gislación vigente. La dirección del Centro integrado
+       de formación profesional de titularidad pública ten-                 - Jefatura de estudios.
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104                13673                                       Jueves 26 de mayo de 2011
+
+
+
+          - Administración o Secretaría.                                     a) Finalización del período para la que fue nom-
+                                                                          brada y, en su caso, de la prórroga del mismo.
+          - Cuando el número de profesorado, alumnado y
+       de acciones formativas así lo requiera, podrán incor-                  b) Renuncia motivada aceptada por la Consejería
+       porarse a esta composición las jefaturas de estudio                titular del centro.
+       adjuntas que determine la correspondiente Consejería.
+                                                                             c) Incapacidad física o psíquica sobrevenida.
+          b) Órganos colegiados de participación:
+                                                                             d) Jubilación, excedencia, obtención de otro des-
+          - Consejo Social.                                               tino o cualquier otra circunstancia que le obligue a
+                                                                          abandonar el centro.
+          - Claustro del profesorado, compuesto por profe-
+       sorado, personal asesor y evaluador.                                  e) Revocación por la Consejería competente.
+
+                                  Sección 1ª                                 Artículo 17.- Funciones de la dirección.
+                          Órganos de Gobierno                                Las personas titulares de las direcciones de los Cen-
+                                                                          tros integrados de formación profesional tendrán las
+          Artículo 15.- Equipo Directivo.                                 siguientes funciones:
+
+          1. Las personas titulares de los órganos uniper-                   a) Dirigir y coordinar las actividades del Centro
+       sonales de gobierno constituyen el equipo directi-                 integrado y ostentar su representación.
+       vo del centro y trabajarán de forma coordinada en
+       el desempeño de sus funciones.                                        b) Proponer a la Consejería competente el nom-
+                                                                          bramiento y, en su caso, el cese de los órganos uni-
+          2. Los miembros del equipo directivo de los Cen-                personales de gobierno, una vez oídos los órganos co-
+       tros integrados de titularidad pública serán nombra-               legiados respectivos.
+       dos y cesados por la Consejería competente, a pro-
+       puesta de la dirección del centro, una vez oídos los                   c) Dirigir y coordinar el proyecto funcional de Cen-
+       órganos colegiados de participación. La duración del               tro integrado, evaluar su grado de cumplimiento y pro-
+       mandato será la que corresponda a la dirección que                 mover planes de mejora.
+       los hubiera designado.
+                                                                             d) Ejercer la jefatura de todo el personal adscrito al
+          3. Las Consejerías competentes en materia edu-                  Centro integrado, fijar y aplicar la política de recursos
+       cativa y laboral establecerán, para los centros de ti-             humanos y adoptar las resoluciones disciplinarias que
+       tularidad pública, el horario de dedicación de los                 correspondan de acuerdo con las normas aplicables.
+       miembros del equipo directivo a las tareas de direc-
+       ción que, en el caso de la persona titular de la direc-               e) Suscribir acuerdos y convenios de colabora-
+       ción, podrá alcanzar la totalidad del horario lectivo              ción, previa aprobación del Consejo Social, con
+       en función del tamaño o complejidad del centro.                    empresas, entidades y otras Administraciones para
+                                                                          impartir la formación integrada y velar por su ade-
+          Artículo 16.- Nombramiento y cese de la dirección.              cuado cumplimiento.
+
+          1. La dirección de los Centros integrados de for-                  f) Elaborar y ejecutar el presupuesto, autorizan-
+       mación profesional de titularidad pública será pro-                do los ingresos y gastos, ordenar los pagos y visar
+       vista por el procedimiento de libre designación con-               las certificaciones y documentos oficiales del Cen-
+       forme a los principios de mérito, capacidad y publicidad           tro integrado.
+       y previa consulta a los órganos colegiados de parti-
+       cipación del centro. En el caso de los Centros inte-                  g) Contratar, en su caso, los recursos humanos ne-
+       grados de titularidad de la Consejería competente en               cesarios para desarrollar las acciones formativas, así
+       materia de educación, el nombramiento se efectua-                  como los servicios programados en el proyecto fun-
+       rá entre el funcionariado público docente.                         cional del Centro integrado.
+
+           2. El período del mandato será de cuatro años. Es-                h) Favorecer acciones de formación para el per-
+       te nombramiento podrá renovarse por períodos de igual              sonal docente y formador.
+       duración, previa evaluación positiva del trabajo de-
+       sarrollado al final de los mismos, mediante el proce-                 i) Justificar la gestión económica del Centro in-
+       dimiento que se establezca.                                        tegrado ante las Consejerías correspondientes.
+
+          3. La persona titular de la dirección podrá ser cesa-             j) Cualesquiera otras que les sean encomendadas
+       da cuando concurran alguno de los siguientes supuestos:            por las Consejerías competentes.
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104                 13674                                       Jueves 26 de mayo de 2011
+
+
+
+                                  Sección 2ª                                  a) Formular al equipo directivo y al Consejo So-
+                                                                           cial propuestas para la elaboración del proyecto fun-
+                       Órganos de participación                            cional de centro.
+
+          Artículo 18.- El Consejo Social.                                    b) Promover iniciativas en el ámbito de la expe-
+                                                                           rimentación y de la innovación pedagógica y en la
+          El Consejo Social es el órgano de participación de               formación del profesorado del centro.
+       la sociedad en los Centros integrados de formación
+       profesional. Estará compuesto por:                                     c) Participar en la elaboración de los planes de me-
+                                                                           jora de calidad del centro.
+          a) La persona titular de la dirección del Centro in-
+       tegrado, que ostentará la presidencia.                                d) Emitir informe con carácter previo al nombra-
+                                                                           miento de la persona titular de la dirección del centro.
+           b) Tres representantes de la Administración. De
+       ellos, uno será de la Consejería competente en ma-                    e) Cualesquiera otras que le sean atribuidas por la
+       teria de educación, otro de la Consejería competen-                 Consejería competente.
+       te en materia laboral y el tercero representará a la Con-
+       sejería a la que está adscrito el centro o tramitó su                                     CAPÍTULO V
+       autorización.
+                                                                                       ÓRGANOS DE COORDINACIÓN
+         c) Un número de representantes del centro, que no
+       podrá ser inferior a un tercio del total de los compo-                 Artículo 21.- Órganos de coordinación.
+       nentes del Consejo.
+                                                                              1. Los órganos de coordinación de los Centros in-
+          d) Cuatro representantes de los agentes económi-                 tegrados de formación profesional son los Departa-
+       cos y sociales con representación en el Consejo Ca-                 mentos, el Equipo de Reconocimiento de las com-
+       nario de Formación Profesional. Dos de ellos serán                  petencias profesionales adquiridas por experiencia laboral
+       representantes de las organizaciones empresariales y                y el Equipo Técnico Asesor.
+       dos de las organizaciones sindicales.
+                                                                              2. Los Centros integrados de formación profesio-
+          e) La persona titular de la dirección o secretaría               nal tendrán un Departamento de coordinación di-
+       del centro, que actuará como titular de la Secretaría               dáctica en función de los módulos que le son asig-
+       del Consejo, con voz y sin voto.                                    nados, un Departamento de información y orientación
+                                                                           profesional, un Departamento de Innovación y Ca-
+          Artículo 19.- Funciones del Consejo Social.                      lidad y un Departamento de Relación con las empresas.
+
+          Las funciones del Consejo Social serán las siguientes:              3. Al frente de cada departamento habrá una per-
+                                                                           sona titular de la jefatura de departamento nombra-
+         a) Establecer las directrices para elaborar el pro-               da por la persona titular de la dirección.
+       yecto funcional de centro y aprobar dicho proyecto.
+                                                                              4. El Instituto Canario de Cualificaciones Profe-
+          b) Aprobar el presupuesto y el balance anual.                    sionales designará a los miembros del Equipo de Re-
+                                                                           conocimiento, así como una persona que ejercerá la
+          c) Autorizar la suscripción de Acuerdos y Convenios.             coordinación del mismo, en los términos que se
+                                                                           establezcan.
+          d) Realizar el seguimiento de las actividades del
+       centro, asegurando la calidad y el rendimiento de los                  5. El Equipo Técnico Asesor del centro estará
+       servicios.                                                          constituido por el conjunto de las personas titulares
+                                                                           de las jefaturas de los Departamentos, de la coordi-
+         e) Emitir informe con carácter previo al nombra-                  nación del Equipo de Reconocimiento de las com-
+       miento de la persona titular de la dirección del centro.            petencias profesionales adquiridas por experiencia la-
+                                                                           boral y las personas integrantes del equipo directivo.
+          f) Emitir informe con carácter previo a la contra-
+       tación de expertos.                                                                      CAPÍTULO VI
+
+          Artículo 20.- Claustro.                                               PERSONAL DE LOS CENTROS INTEGRADOS
+
+          1. El Claustro es el órgano de participación del pro-               Artículo 22.- Profesorado.
+       fesorado en la actividad del centro.
+                                                                             1. Para ejercer la docencia en los Centros integra-
+          2. El Claustro tendrá las siguientes funciones:                  dos de formación profesional será necesario cumplir
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104                13675                                        Jueves 26 de mayo de 2011
+
+
+
+       los requisitos generales de titulación, así como los que              b) Personal formador especializado en las unida-
+       al efecto se establezcan en las normas que aprueben                des de competencia que se especifiquen.
+       los títulos de formación profesional y los certifica-
+       dos de profesionalidad.                                               c) Profesionales expertos en las unidades de com-
+                                                                          petencia que se especifiquen.
+          2. En los Centros integrados de titularidad pú-
+       blica de formación profesional podrá ejercer la do-                    2. Estos profesionales, además, deben tener una ex-
+       cencia el personal funcionario de los Cuerpos de                   periencia de, al menos, cuatro años en alguno de los
+       Catedráticos de Enseñanza Secundaria, Profeso-                     colectivos citados anteriormente y tendrán que supe-
+       res de Enseñanza Secundaria y Profesores Técni-                    rar un curso de formación específica habilitado, orga-
+       cos de Formación Profesional de acuerdo con las                    nizado o supervisado por el Instituto Canario de las
+       especialidades previstas en las normas que aprue-                  Cualificaciones Profesionales. Los contenidos del cur-
+       ben los títulos de formación profesional. Asimis-                  so tomarán como referente lo establecido en los ane-
+       mo podrá ejercer docencia el personal funciona-                    xos IV y V del Real Decreto 1224/2009, de 17 de ju-
+       rio perteneciente a la escala media de formación                   lio, de reconocimiento de las competencias profesionales
+       ocupacional adscrito a la Consejería competente                    adquiridas por experiencia laboral.
+       en materia de empleo, en los términos que se
+       establezcan.                                                         Disposición Adicional Primera.- Regulación de los
+                                                                          Centros integrados de titularidad privada.
+           3. Podrán ser contratados, como personal exper-
+       to, profesionales cualificados para impartir aquellas                 Serán de aplicación a los Centros integrados de ti-
+       enseñanzas que por su naturaleza lo requieran, en las              tularidad privada lo establecido en los artículos 1, 2, 3,
+       condiciones y régimen que se determine.                            4, 5.1, 5.3, 7.2, 7.3, 7.4, 7.5, 7.6, 8, 13 y 22.1 del pre-
+                                                                          sente Decreto. Además, a los centros privados acogi-
+          4. El personal que preste sus servicios en centros              dos al régimen de conciertos educativos les será de apli-
+       de titularidad pública estará sujeto al régimen de in-             cación lo dispuesto en los artículos 9, 10, 11, 12, 14,
+       compatibilidades previsto en la Ley 53/1984, de 26                 15, 16, 17, 18, 19 y 20 del presente Decreto.
+       de diciembre, de Incompatibilidades del Personal al
+       Servicio de las Administraciones Públicas, y a lo que                 Disposición Adicional Segunda.- Modificación
+       se derive de la consideración de interés público de                del Decreto 233/1997, de 18 de septiembre, por el que
+       las enseñanzas de Formación Profesional contempla-                 se crea el Consejo Canario de Formación Profesional.
+       do en la Disposición Adicional Primera de la Ley 5/2002,
+       de 19 de junio, de las Cualificaciones y la Formación                 Se añade al artículo 2 la letra p), en los términos
+       Profesional.                                                       siguientes:
+
+          Artículo 23.- Personal que desarrolla las funcio-                  “p) Emitir informe preceptivo y no vinculante en
+       nes de información y orientación profesional.                      la creación de los Centros Integrados de Formación
+                                                                          Profesional”.
+          En los Centros integrados de formación profesio-
+       nal de titularidad pública podrán ejercer la función                  Disposición Transitoria Única.- Títulos y Certifi-
+       de información y orientación profesional, tanto el per-            cados de profesionalidad no adaptados al Catálogo
+       sonal de los Cuerpos de Catedráticos de Enseñanza                  Nacional de Cualificaciones Profesionales.
+       Secundaria, Profesores de Enseñanza Secundaria y
+       Profesores Técnicos de Formación Profesional depen-                   Hasta tanto no se desarrollen los títulos y certifi-
+       dientes de la Consejería competente en materia de edu-             cados de profesionalidad, de acuerdo con el Catálo-
+       cación como el dependiente de los servicios públi-                 go Nacional de Cualificaciones Profesionales, los
+       cos de empleo, en los términos que se establezca                   Centros integrados de formación profesional soste-
+       reglamentariamente.                                                nidos con fondos públicos impartirán las enseñanzas
+                                                                          de formación profesional de los distintos subsistemas
+          Artículo 24.- Personal que ejerce funciones de eva-             actualmente en vigor.
+       luación y acreditación profesional.
+                                                                             Disposición Final Primera.- Normativa de aplica-
+          1. En los Centros integrados podrán ejercer la                  ción supletoria.
+       función de evaluación y acreditación profesional al-
+       guno de los siguientes colectivos:                                    1. En lo no regulado en esta norma serán de apli-
+                                                                          cación las normas específicas que regulan cada una
+          a) Profesorado perteneciente a los Cuerpos de Ca-               de las ofertas formativas.
+       tedráticos de Enseñanza Secundaria, Profesores de En-
+       señanza Secundaria o Profesores Técnicos de forma-                    2. En aplicación del artículo 9.3 del Reglamento Or-
+       ción profesional, con atribución docente en la Familia             gánico de los centros docentes públicos no universita-
+       Profesional correspondiente.                                       rios de la Comunidad Autónoma de Canarias, aproba-
+
+
+boc-a-2011-104-2866
+              Boletín Oficial de Canarias núm. 104                 13676                                  Jueves 26 de mayo de 2011
+
+
+
+       do por Decreto 81/2010, de 8 de julio, el mismo será de                Dado en Las Palmas de Gran Canaria, a 11 de ma-
+       aplicación en defecto de Reglamento Orgánico especí-                yo de 2011.
+       fico de los Centros Integrados de formación profesional.
+
+          Disposición Final Segunda.- Habilitación.                                                     EL PRESIDENTE
+                                                                                                        DEL GOBIERNO,
+           Se habilita a los titulares de las Consejerías con                                          Paulino Rivero Baute.
+       competencia en materia educativa y laboral para dic-
+       tar cuantas disposiciones sean necesarias para la eje-                  LA CONSEJERA DE EDUCACIÓN,
+       cución y desarrollo del presente Decreto.                           UNIVERSIDADES, CULTURA Y DEPORTES,
+                                                                                     Milagros Luis Brito.
+          Disposición Final Tercera.- Entrada en vigor.
+                                                                                            LA CONSEJERA DE EMPLEO,
+           El presente Decreto entrará en vigor el día siguiente                             INDUSTRIA Y COMERCIO,
+       al de su publicación en el Boletín Oficial de Canarias.                                María del Mar Julios Reyes.
+
+
+
+
+boc-a-2011-104-2866
+

@@ -1,0 +1,50 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "$schema_note": "Copy to controleur-afc/company.json. The contrôleur AFC skill needs VAT registration, method, and supporting books.",
+  "legal_name": "Helvetia Cloud SA",
+  "uid": "CHE-123.456.789",
+  "ide_vat": "CHE-123.456.789 TVA",
+  "legal_form": "SA",
+  "canton": "ZH",
+  "commune": "Zürich",
+  "address": {
+    "street": "Bahnhofstrasse 42",
+    "zip": "8001",
+    "city": "Zürich",
+    "country": "CH"
+  },
+  "vat": {
+    "assujetti": true,
+    "_assujettissement_reason": "CA > 100'000 CHF / an",
+    "registered_since": "2019-04-01",
+    "methode": "effective",
+    "_methode_alternatives": ["effective", "ntdr", "TDFN", "flat_rate"],
+    "tdfn_rate_pct": null,
+    "frequency": "quarterly",
+    "_frequency_alternatives": ["monthly", "quarterly", "semestrial"],
+    "rates_charged_2024": [8.1, 2.6, 3.8],
+    "deduction_pct": 100,
+    "import_tva": true,
+    "export_zero_rated": true,
+    "place_of_supply_rules": "B2B services — preneur (art. 8 LTVA)"
+  },
+  "books_available": {
+    "general_ledger": true,
+    "ar_subledger": true,
+    "ap_subledger": true,
+    "vat_register": true,
+    "fixed_asset_register": true,
+    "payroll_journal": true,
+    "stock_register": false,
+    "bexio_export_camt054": true,
+    "audit_trail_retention_years": 10
+  },
+  "fiscal_year": { "start": "01-01", "end": "12-31" },
+  "controle_afc_context": {
+    "type": "controle_periodique",
+    "_type_alternatives": ["controle_periodique", "controle_ponctuel", "controle_etendu"],
+    "period_under_audit": { "from": "2020-01-01", "to": "2024-12-31" },
+    "notified_on": "2025-05-02",
+    "contact_inspecteur": "M. Dietrich, AFC DivPS"
+  }
+}

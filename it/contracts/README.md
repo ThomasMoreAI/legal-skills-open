@@ -6,13 +6,14 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): general/temp
 
 Jurisdiction: `it` · Practice: `contracts` · Skill language: it
 
-## Skills (9)
+## Skills (10)
 
 | Skill | What it does |
 |---|---|
 | [`Cold-start civile`](skills/cold-start-civile/) | Cold-start profilo civile: contenzioso vs contratti, foro, 1341-1342, playbook clausole. Scrive… |
 | [`Cronologia contenzioso (contrattualistica / pre-contenzioso)`](skills/cronologia-contenzioso/) | Cronologia fatti e prove da fascicolo civile: timeline, gap probatori, allegati. Per contenzioso e… |
 | [`Fascicolo civile (matter workspace)`](skills/fascicolo-civile-pixari/) | Matter workspace civile: contratti, negoziazione, pre-contenzioso. Collega contenzioso-civile se lite.… |
+| [`Migliora chiarezza testi legali — metodo Garner`](skills/migliora-chiarezza-testi-legali-avvocati-e-mac/) | Migliora la chiarezza, la leggibilità e la precisione di contratti, clausole, pareri legali e atti… |
 | [`Revisione contratto SaaS`](skills/revisione-contratto-saas/) | Revisione MSA/licenza SaaS B2B: SLA uptime, dati, subfornitura cloud, exit, limitazione responsabilità.… |
 | [`Revisione MSA fornitore`](skills/revisione-msa-fornitore-pixari/) | Revisione MSA master + ordini (SaaS/fornitura). Unisce SaaS e vendor EN. Nessuna consulenza legale. |
 | [`Revisione NDA`](skills/revisione-nda/) | Revisione NDA / accordo riservatezza B2B italiano: definizioni, scopo, durata, carve-out, legge… |

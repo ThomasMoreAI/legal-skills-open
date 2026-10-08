@@ -1,0 +1,53 @@
+name: SonarQube
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  sonar:
+    name: Sonar scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Generate Prisma client
+        run: bunx prisma generate
+
+      - name: Build
+        run: bun run build
+        env:
+          DATABASE_URL: file:/tmp/placeholder.db
+          TURSO_AUTH_TOKEN: placeholder
+          OPENROUTER_API_KEY: placeholder
+
+      - name: Run tests with coverage
+        run: bunx vitest run --coverage
+        env:
+          DATABASE_URL: file:/tmp/placeholder.db
+          TURSO_AUTH_TOKEN: placeholder
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

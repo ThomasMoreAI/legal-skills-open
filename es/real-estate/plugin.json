@@ -1,0 +1,25 @@
+{
+  "name": "es-real-estate",
+  "displayName": "Real Estate — ES",
+  "version": "0.1.0",
+  "description": "Real Estate skills for ES (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/alquiler-jaimebs2",
+    "skills/arrendamiento-3187-betobetico",
+    "skills/burofax-667-betobetico",
+    "skills/compraventa-3371-betobetico",
+    "skills/compraventa-jaimebs2",
+    "skills/comunidad-3799-betobetico",
+    "skills/entrevista-inicial-inmobiliario-3218-betobetico",
+    "skills/entrevista-inicial-propiedad-intelectual-1400-betobetico",
+    "skills/hipotecas-jaimebs2",
+    "skills/oss-1342-betobetico",
+    "skills/portfolio-propiedad-intelectual-betobetico",
+    "skills/registro-propiedad-jaimebs2"
+  ]
+}

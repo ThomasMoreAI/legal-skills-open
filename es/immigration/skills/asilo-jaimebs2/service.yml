@@ -1,0 +1,57 @@
+name: extranjeria-asilo
+display_name: Extranjería — Asilo y Protección Internacional
+description: >
+  Guía completa sobre el derecho de asilo y la protección internacional en
+  España: qué es (asilo vs. protección subsidiaria), quién puede solicitarla,
+  procedimiento (solicitud, admisión a trámite, instrucción, resolución),
+  derechos del solicitante (tarjeta roja, permiso de trabajo a los 6 meses,
+  sanidad, educación), plazos legales y reales, apátridas, recursos en
+  caso de denegación y organizaciones de apoyo.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones / Oficina de Asilo y Refugio (OAR)
+tags: [extranjería, asilo, protección internacional, refugiado, tarjeta roja, OAR, CIAR, protección subsidiaria, apátrida, inmigración, España]
+
+links:
+  website: https://www.inclusion.gob.es/web/migraciones/regimen-de-acogida-y-proteccion-internacional
+  extranjeros: https://extranjeros.inclusion.gob.es
+  acnur: https://www.acnur.org/es-es
+  cear: https://www.cear.es
+
+license:
+  data: Información pública del Ministerio de Inclusión, Seguridad Social y Migraciones
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general sobre un tema sensible.
+    No accede a APIs de datos ni realiza trámites. Proporciona guía
+    completa sobre el derecho de asilo y redirige a skills de extranjería
+    para otros trámites de inmigración.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es la protección internacional (asilo y protección subsidiaria)
+    - Quién puede solicitarla y dónde
+    - Procedimiento completo (solicitud, admisión, instrucción, resolución)
+    - Derechos del solicitante (tarjeta roja, trabajo a los 6 meses, sanidad, educación)
+    - Plazos legales y reales
+    - Apátridas (estatuto, diferencia con protección internacional)
+    - Recursos en caso de denegación
+    - Protección de colectivos específicos (menores, víctimas de trata, persecución por género)
+    - Organizaciones de apoyo (ACNUR, CEAR, ACCEM, Cruz Roja)
+  not_accessible:
+    - Tramitación real de la solicitud de asilo (requiere presencia física)
+    - Consulta de expedientes individuales
+    - Detalle sobre permisos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre permisos de trabajo (usar skill extranjeria-trabajo)
+    - Detalle sobre el NIE (usar skill extranjeria-nie)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

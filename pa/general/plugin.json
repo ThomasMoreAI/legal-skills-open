@@ -1,0 +1,23 @@
+{
+  "name": "pa-general",
+  "displayName": "General — PA",
+  "version": "0.1.0",
+  "description": "General skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-panama-orwel",
+    "skills/analisis-jurisprudencial-panama-orwel",
+    "skills/due-diligence-general-panama-orwel",
+    "skills/elaboracion-concepto-juridico-panama-orwel",
+    "skills/evaluacion-3947-betobetico",
+    "skills/fichas-4124-betobetico",
+    "skills/investigacion-juridica-panama-orwel",
+    "skills/oposiciones-4006-betobetico",
+    "skills/socratico-betobetico",
+    "skills/triaje-gobernanza-ia-3208-betobetico"
+  ]
+}

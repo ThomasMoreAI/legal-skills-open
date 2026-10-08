@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence record",
+  "type": "object",
+  "required": ["id", "kind", "status", "sources"],
+  "properties": {
+    "id": {"type": "string"},
+    "kind": {"type": "string"},
+    "description": {"type": "string"},
+    "origin_declared": {"type": ["string", "null"]},
+    "status": {"enum": ["mentioned", "located", "challenged", "uncertain", "not_located"]},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "authenticity_assessment": {"type": "string"}
+  },
+  "additionalProperties": false
+}

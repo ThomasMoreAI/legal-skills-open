@@ -1,0 +1,403 @@
+id: CUR-029
+titulo: Matemáticas — Primaria Canarias
+etapa: primaria
+materia: Matemáticas
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Interpretar situaciones de la vida cotidiana, proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CD2
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CD2
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+    - codigo: C2
+      enunciado_oficial: Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CD2
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - STEM1
+          - STEM2
+          - STEM4
+          - CD2
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+    - codigo: C3
+      enunciado_oficial: Explorar, formular y comprobar conjeturas sencillas o plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana, de forma guiada, reconociendo el valor del razonamiento y la argumentación, para contrastar su validez, adquirir e integrar nuevo conocimiento.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - CE3
+        Segundo ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - CD1
+          - CD3
+          - CD5
+          - CE3
+        Tercer ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - CD1
+          - CD3
+          - CD5
+          - CE3
+    - codigo: C4
+      enunciado_oficial: Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes, reconociendo patrones, generalizando e interpretando, modificando y creando algoritmos de forma guiada, para modelizar y automatizar situaciones de la vida cotidiana.
+      descriptores:
+        Primer ciclo:
+          - STEM1
+          - STEM2
+          - STEM3
+          - CD5
+          - CE3
+        Segundo ciclo:
+          - STEM1
+          - STEM2
+          - STEM3
+          - CD3
+          - CD5
+          - CE3
+        Tercer ciclo:
+          - STEM1
+          - STEM2
+          - STEM3
+          - CD1
+          - CD3
+          - CD5
+          - CE3
+    - codigo: C5
+      enunciado_oficial: Reconocer y utilizar conexiones entre las diferentes ideas matemáticas, así como identificar las matemáticas implicadas en otras áreas o en la vida cotidiana, interrelacionando conceptos y procedimientos, para interpretar situaciones y contextos diversos.
+      descriptores:
+        Primer ciclo:
+          - STEM1
+          - STEM3
+          - CD5
+          - CC4
+          - CCEC1
+        Segundo ciclo:
+          - STEM1
+          - STEM3
+          - CD5
+          - CC4
+          - CCEC1
+        Tercer ciclo:
+          - STEM1
+          - STEM3
+          - CD3
+          - CD5
+          - CC4
+          - CCEC1
+    - codigo: C6
+      enunciado_oficial: Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL3
+          - STEM2
+          - STEM4
+          - CE3
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - CCL3
+          - STEM2
+          - STEM4
+          - CD1
+          - CD5
+          - CE3
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - CCL3
+          - STEM2
+          - STEM4
+          - CD1
+          - CD5
+          - CE3
+          - CCEC4
+    - codigo: C7
+      enunciado_oficial: Desarrollar destrezas personales que ayuden a identificar y gestionar emociones al enfrentarse a retos matemáticos, fomentando la confianza en las propias posibilidades, aceptando el error como parte del proceso de aprendizaje y adaptándose a las situaciones de incertidumbre, para mejorar la perseverancia y disfrutar en el aprendizaje de las matemáticas.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+        Segundo ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+        Tercer ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+    - codigo: C8
+      enunciado_oficial: Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+        Segundo ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+        Tercer ciclo:
+          - CCL5
+          - CP3
+          - STEM3
+          - CPSAA1
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CC2
+          - CC3
+          - CE2
+          - CE3
+  saberes_basicos:
+    - bloque: I. Sentido numérico
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Comprensión, representación y uso flexible de la estructura del sistema de numeración decimal, de las propiedades de las operaciones y de las relaciones entre ellas; cálculo con algoritmos razonados, abiertos y flexibles; estimación razonable; uso de la calculadora y medios tecnológicos.
+    - bloque: II. Sentido de la medida
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Comprensión y comparación de atributos medibles de los objetos; elección de unidades adecuadas para estimar, medir y comparar; uso de instrumentos de medición; investigación en torno a las medidas tradicionales canarias.
+    - bloque: III. Sentido espacial
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Ubicación y orientación en el espacio; análisis de características y propiedades de cuerpos y figuras geométricas; localización y descripción de relaciones espaciales mediante coordenadas y otros sistemas de representación; trabajo manipulativo con materiales.
+    - bloque: IV. Sentido algebraico y pensamiento computacional
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Reconocimiento de patrones y relaciones de dependencia entre variables; expresión de regularidades mediante diferentes representaciones; modelización de situaciones matemáticas o del mundo real con expresiones simbólicas; integración transversal de la tecnología digital.
+    - bloque: V. Sentido estocástico
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Razonamiento e interpretación de datos, valoración crítica y toma de decisiones a partir de información estadística; comprensión y comunicación de fenómenos aleatorios; investigaciones estadísticas básicas en equipo; nociones básicas de probabilidad a través del juego.
+    - bloque: VI. Sentido socioafectivo
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Conocimientos, destrezas y actitudes para entender las emociones ante las matemáticas; combate de actitudes negativas y de estereotipos de género; aprendizaje activo individual y en grupo; conocimiento de las contribuciones de las mujeres a las matemáticas a lo largo de la historia.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Entender y describir la situación planteada, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayuden en la búsqueda de estrategias para su resolución.
+        - 2.1. Reconocer alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos y aplicarla para obtener las posibles soluciones.
+        - 2.2. Elegir y utilizar las operaciones pertinentes para la resolución de problemas que involucren la estructura aditiva; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y explicarlas con un vocabulario matemático apropiado a su nivel.
+        - 2.3. Revisar la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido.
+        - 3.1. Realizar conjeturas matemáticas sencillas de forma guiada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica.
+        - 3.2. Identificar problemas en situaciones cotidianas que se resuelven matemáticamente, revisar la adecuación de los pasos seguidos para ver las conexiones entre las matemáticas y las situaciones cercanas.
+        - 4.1. Describir rutinas sencillas de la vida cotidiana que se realicen paso a paso, identificando patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando algoritmos sencillos.
+        - 4.2. Resolver problemas que impliquen secuencias o patrones, de forma guiada, utilizando las herramientas adecuadas, entre ellas las tecnológicas.
+        - 5.1. Reconocer conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una mejor comprensión de los aprendizajes adquiridos.
+        - 5.2. Reconocer algunas conexiones entre las matemáticas y la vida cotidiana para interpretar problemas en contextos no matemáticos, mostrando actitudes que favorezcan su resolución desde un punto de vista sostenible.
+        - 6.1. Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática.
+        - 6.2. Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando información, para dar significado y permanencia a las ideas matemáticas.
+        - 7.1. Reconocer las emociones propias, desarrollando así la autoconfianza, empleando actitudes positivas, tales como la responsabilidad, ante nuevos retos matemáticos y valorando el error como una oportunidad de aprendizaje.
+        - 8.1. Participar en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos y cumpliendo las responsabilidades individuales para la consecución de objetivos compartidos.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Interpretar de forma verbal y gráfica problemas de la vida cotidiana, discriminando datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas que ayuden en la búsqueda y elección de estrategias para la comprensión de la situación planteada.
+        - 2.1. Elegir alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y aplicarla para obtener las posibles soluciones, utilizando otras estrategias si la elegida no lleva a la solución.
+        - 2.2. Elegir y utilizar las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y argumentarlas.
+        - 2.3. Confirmar la validez de las soluciones del problema y su coherencia en el contexto planteado, explicando el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito.
+        - 3.1. Analizar conjeturas matemáticas sencillas de forma pautada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos.
+        - 3.2. Identificar y analizar problemas sobre situaciones cotidianas que puedan resolverse mediante las matemáticas, comprobando la validez de las soluciones obtenidas y su coherencia en el contexto, para establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor.
+        - 4.1. Automatizar rutinas sencillas en contextos cotidianos identificando patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas, haciendo predicciones razonadas, comprobando la validez de las mismas y modificando algoritmos dados.
+        - 4.2. Resolver problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos de forma guiada, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas.
+        - 5.1. Explicar las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos.
+        - 5.2. Explicar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para interpretar y resolver problemas en contextos no matemáticos y tomar decisiones desde una perspectiva sostenible y respetuosa.
+        - 6.1. Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario para transmitir mensajes con información matemática.
+        - 6.2. Comunicar en diferentes formatos los procesos e ideas matemáticas utilizando lenguaje matemático adecuado, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.
+        - 7.1. Identificar y describir las emociones propias, y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando actitudes positivas, tales como la perseverancia y la responsabilidad ante nuevos retos matemáticos, y valorando el error como una oportunidad de aprendizaje.
+        - 8.1. Colaborar en el trabajo en equipo mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, valorando la diversidad, asumiendo las responsabilidades individuales y empleando estrategias cooperativas para la consecución de objetivos compartidos.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Interpretar y reformular, de forma verbal y gráfica, problemas de la vida cotidiana, discriminando datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas.
+        - 2.1. Elegir de forma autónoma alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección y aplicarla para obtener las posibles soluciones, perseverando en otras estrategias si la elegida no lleva a la solución.
+        - 2.2. Elegir y utilizar las operaciones pertinentes para la resolución de problemas que combinen las estructuras aditiva y multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; y ofrecer representaciones gráficas adecuadas y argumentarlas.
+        - 2.3. Comprobar la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando sobre el proceso seguido, planteándose preguntas y expresando sus conclusiones verbalmente o por escrito.
+        - 3.1. Formular conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o herramientas digitales, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos.
+        - 3.2. Plantear problemas sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que puedan resolverse mediante las matemáticas; comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto para establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo.
+        - 4.1. Modelizar rutinas en contextos diversos, identificando patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hacer predicciones razonadas comprobando la validez de las mismas; y crear algoritmos sencillos.
+        - 4.2. Resolver problemas y realizar pequeñas investigaciones, utilizando las herramientas adecuadas, entre ellas las tecnológicas.
+        - 5.1. Utilizar las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontar nuevos retos y adoptar decisiones informadas.
+        - 5.2. Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para realizar proyectos, empleando, entre otros, recursos digitales; y resolver problemas en contextos no matemáticos que permitan tomar decisiones desde una perspectiva crítica, sostenible y respetuosa.
+        - 6.1. Reconocer y comprender el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, adquiriendo vocabulario preciso para transmitir mensajes con información matemática.
+        - 6.2. Comunicar en diferentes formatos, incluido el digital, las conjeturas y procesos matemáticos utilizando lenguaje matemático adecuado, planificando previamente su exposición, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.
+        - 7.1. Identificar y autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando actitudes positivas, tales como el esfuerzo, la perseverancia y la responsabilidad ante nuevos retos matemáticos, y valorando el error como una oportunidad de aprendizaje.
+        - 8.1. Colaborar en el trabajo en equipo, mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, valorando la diversidad, participando en el reparto de tareas, asumiendo las responsabilidades individuales y empleando estrategias cooperativas, para la consecución de objetivos compartidos.
+  descriptores_operativos:
+    - CCL1
+    - CCL2
+    - STEM1
+    - STEM2
+    - STEM4
+    - CPSAA4
+    - CPSAA5
+    - CE1
+    - CE3
+    - CD2
+    - CD1
+    - CD3
+    - CD5
+    - STEM3
+    - CC4
+    - CCEC1
+    - CCL3
+    - CCEC4
+    - CCL5
+    - CP3
+    - CPSAA1
+    - CPSAA3
+    - CC2
+    - CC3
+    - CE2
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Matemáticas en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Ocho competencias específicas (C1-C8) organizadas en seis bloques competenciales (C1+C2 y C7+C8 se unifican, respectivamente, en un único bloque, según el propio decreto), que se concretan en catorce criterios de evaluación por ciclo. Saberes básicos estructurados en seis «sentidos»: numérico, de la medida, espacial, algebraico y pensamiento computacional, estocástico, y socioafectivo.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (ocho) y de criterios de evaluación (catorce por ciclo) contra lo declarado explícitamente en el propio decreto. El decreto unifica C1 y C2 (resolución de problemas) y C7 y C8 (destrezas personales y sociales) en dos únicos bloques competenciales con una sola tabla de descriptores operativos por bloque; se ha asignado el mismo conjunto de descriptores a ambas competencias de cada pareja, tal y como aparece en la fuente. Los descriptores operativos varían según el ciclo en seis de las ocho competencias (C1, C2, C3, C4, C5, C6), conforme a DEC-0008. Los saberes básicos se recogen a nivel de bloque (I-VI) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque.

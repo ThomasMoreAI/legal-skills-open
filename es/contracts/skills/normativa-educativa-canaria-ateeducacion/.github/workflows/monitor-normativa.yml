@@ -1,0 +1,221 @@
+name: Vigilancia de normativa canaria
+
+on:
+  schedule:
+    # Lunes a las 06:00 UTC (semanal).
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: monitor-normativa
+  cancel-in-progress: false
+
+jobs:
+  vigilar:
+    name: Escanear portal y preparar novedades
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      models: read
+    outputs:
+      hay_novedades: ${{ steps.check.outputs.hay_novedades }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias del scanner
+        run: pip install --requirement 11_calidad/monitor/requirements.txt
+
+      - name: Escanear portal de normativa
+        run: python3 11_calidad/monitor/scan_normativa.py
+
+      - name: Comprobar si hay novedades
+        id: check
+        run: |
+          if [ -f 11_calidad/monitor/nuevas.json ]; then
+            echo "hay_novedades=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "hay_novedades=false" >> "$GITHUB_OUTPUT"
+            echo "Sin novedades; no se abre PR."
+          fi
+
+      - name: Convertir PDFs a Markdown
+        if: steps.check.outputs.hay_novedades == 'true'
+        env:
+          CONFIGURED_AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          EXTERNAL_AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_MODEL: ${{ vars.AI_MODEL || 'openai/gpt-4o-mini' }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$(ls -A input 2>/dev/null)" ]; then
+            echo "Sin PDFs descargados; se omite conversión."
+            exit 0
+          fi
+
+          if [ -n "$CONFIGURED_AI_BASE_URL" ]; then
+            if [ -z "$EXTERNAL_AI_API_KEY" ]; then
+              echo "::error::AI_API_KEY es obligatorio cuando AI_BASE_URL apunta a un proveedor externo."
+              exit 1
+            fi
+            ai_api_key="$EXTERNAL_AI_API_KEY"
+            ai_base_url="$CONFIGURED_AI_BASE_URL"
+          else
+            ai_api_key="$GITHUB_MODELS_TOKEN"
+            ai_base_url="https://models.github.ai/inference"
+          fi
+
+          mkdir -p output 07_corpus_ia/_borradores-monitor
+          docker run --rm \
+            -e AI_API_KEY="$ai_api_key" \
+            -e AI_BASE_URL="$ai_base_url" \
+            -e AI_MODEL \
+            -v "$PWD/input:/app/input:ro" \
+            -v "$PWD/output:/app/output" \
+            ghcr.io/ateeducacion/docdigester2md:latest
+
+      - name: Sellar borradores con cabecera R16
+        if: steps.check.outputs.hay_novedades == 'true'
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          dest=07_corpus_ia/_borradores-monitor
+          mkdir -p "$dest"
+          hoy="$(date -u +%F)"
+
+          for md in output/*.md; do
+            base="$(basename "$md")"
+            {
+              echo "<!--"
+              echo "AVISO (R16): copia local de trabajo generada automáticamente."
+              echo "Esta copia NO sustituye la fuente oficial ni confirma vigencia."
+              echo "Fecha de exportación: ${hoy}"
+              echo "Origen: ver 11_calidad/monitor/nuevas.json (URL oficial y fecha de detección)."
+              echo "Material NO validado: requiere catalogación supervisada (AGENTS.md §7–§8)."
+              echo "-->"
+              echo
+              cat "$md"
+            } > "$dest/$base"
+          done
+
+      - name: Preparar artefacto de novedades
+        if: steps.check.outputs.hay_novedades == 'true'
+        run: |
+          set -euo pipefail
+
+          artifact_dir="$RUNNER_TEMP/monitor-artifact"
+          mkdir -p \
+            "$artifact_dir/11_calidad/monitor" \
+            "$artifact_dir/07_corpus_ia/_borradores-monitor"
+
+          cp 11_calidad/monitor/nuevas.json "$artifact_dir/11_calidad/monitor/"
+          cp 11_calidad/monitor/nuevas.md "$artifact_dir/11_calidad/monitor/"
+          cp 11_calidad/monitor/portal-normativa-canaria.seen.json \
+            "$artifact_dir/11_calidad/monitor/"
+
+          if compgen -G "07_corpus_ia/_borradores-monitor/*.md" > /dev/null; then
+            cp 07_corpus_ia/_borradores-monitor/*.md \
+              "$artifact_dir/07_corpus_ia/_borradores-monitor/"
+          fi
+
+          if find "$artifact_dir" -type l -print -quit | grep -q .; then
+            echo "::error::El artefacto contiene enlaces simbólicos."
+            exit 1
+          fi
+
+      - name: Subir artefacto de novedades
+        if: steps.check.outputs.hay_novedades == 'true'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: monitor-normativa-${{ github.run_id }}
+          path: ${{ runner.temp }}/monitor-artifact
+          if-no-files-found: error
+          retention-days: 1
+
+  publicar:
+    name: Abrir PR de novedades
+    needs: vigilar
+    if: needs.vigilar.outputs.hay_novedades == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Descargar artefacto de novedades
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: monitor-normativa-${{ github.run_id }}
+          path: ${{ runner.temp }}/monitor-artifact
+
+      - name: Validar y copiar novedades
+        run: |
+          set -euo pipefail
+
+          artifact_dir="$RUNNER_TEMP/monitor-artifact"
+          test -f "$artifact_dir/11_calidad/monitor/nuevas.json"
+          test -f "$artifact_dir/11_calidad/monitor/nuevas.md"
+          test -f "$artifact_dir/11_calidad/monitor/portal-normativa-canaria.seen.json"
+
+          if find "$artifact_dir" -type l -print -quit | grep -q .; then
+            echo "::error::El artefacto contiene enlaces simbólicos."
+            exit 1
+          fi
+
+          invalid_path="$(
+            find "$artifact_dir" -type f ! \
+              \( -path "*/11_calidad/monitor/nuevas.json" \
+              -o -path "*/11_calidad/monitor/nuevas.md" \
+              -o -path "*/11_calidad/monitor/portal-normativa-canaria.seen.json" \
+              -o -path "*/07_corpus_ia/_borradores-monitor/*.md" \) \
+              -print -quit
+          )"
+          if [ -n "$invalid_path" ]; then
+            echo "::error::El artefacto contiene una ruta no permitida: $invalid_path"
+            exit 1
+          fi
+
+          cp "$artifact_dir/11_calidad/monitor/portal-normativa-canaria.seen.json" \
+            11_calidad/monitor/
+
+          shopt -s nullglob
+          drafts=("$artifact_dir"/07_corpus_ia/_borradores-monitor/*.md)
+          if [ "${#drafts[@]}" -gt 0 ]; then
+            mkdir -p 07_corpus_ia/_borradores-monitor
+            for draft in "${drafts[@]}"; do
+              grep -q "AVISO (R16)" "$draft"
+              cp "$draft" 07_corpus_ia/_borradores-monitor/
+            done
+          fi
+
+      - name: Abrir Pull Request con las novedades
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: monitor/normativa-${{ github.run_id }}
+          base: main
+          commit-message: "chore(monitor): novedades normativa canaria"
+          title: "Vigilancia normativa: novedades detectadas"
+          body-path: ${{ runner.temp }}/monitor-artifact/11_calidad/monitor/nuevas.md
+          labels: monitor-normativa
+          add-paths: |
+            11_calidad/monitor/portal-normativa-canaria.seen.json
+            07_corpus_ia/_borradores-monitor/**
+          delete-branch: true

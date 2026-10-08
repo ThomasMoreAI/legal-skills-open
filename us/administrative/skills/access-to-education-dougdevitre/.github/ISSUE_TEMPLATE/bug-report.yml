@@ -1,0 +1,53 @@
+name: Bug Report
+description: The skill gave an incorrect, confusing, or harmful response
+labels: ["bug"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What did you ask?
+      description: Paste the exact question or prompt.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: What role were you using?
+      options:
+        - Student
+        - Parent / Guardian
+        - Teacher
+        - Specialist (SPED, 504, ELL)
+        - Principal / AP
+        - School Staff
+        - District Administrator
+        - Not sure / not detected
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: What response did you get?
+      description: Paste or summarize the response.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should the response have been?
+      description: Describe the correct or expected answer.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Factually wrong (cites wrong law, wrong number, wrong process)
+        - Misleading (technically correct but could lead to bad decisions)
+        - Missing guardrail (should have redirected to professional but didn't)
+        - Wrong role detection (answered for wrong audience)
+        - Template/document error
+        - Other
+    validations:
+      required: true

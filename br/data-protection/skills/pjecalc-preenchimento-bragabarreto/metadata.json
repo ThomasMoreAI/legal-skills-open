@@ -1,0 +1,18 @@
+{
+  "name": "pjecalc-preenchimento",
+  "version": "1.0.0",
+  "description": "Guia completo de preenchimento e automação do PJE-Calc Cidadão. Cobre todos os módulos do sistema com instruções campo a campo, fluxos sequenciais, regras de negócio, armadilhas comuns e exemplos práticos extraídos do manual oficial do CSJT.",
+  "author": "Manus AI",
+  "created": "2026-03-26",
+  "source": "Manual do Usuário PJE-Calc v1.0 (CSJT/TRT8, set/2015) + Tutorial Oficial PJE-Calc (wiki CSJT, ago/2022)",
+  "tags": ["pjecalc", "trabalhista", "automacao", "playwright", "calculo-trabalhista", "jst"],
+  "references": [
+    "references/01-parametros-calculo.md",
+    "references/02-verbas-catalogo.md",
+    "references/03-historico-salarial.md",
+    "references/04-fgts-contribuicao-social.md",
+    "references/05-correcao-juros.md",
+    "references/06-exemplos-praticos.md",
+    "references/07-automacao-playwright.md"
+  ]
+}

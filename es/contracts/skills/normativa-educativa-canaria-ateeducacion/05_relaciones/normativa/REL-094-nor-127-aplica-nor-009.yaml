@@ -1,0 +1,11 @@
+id: REL-094
+tipo_relacion: aplica
+origen: NOR-127
+destino: NOR-009
+descripcion: Instrucciones anuales para la organización de los centros públicos sujetos al Reglamento Orgánico.
+evidencia:
+  fuente: FTE-134
+  localizacion: Anexo I.1.1, Documentos institucionales, p. 7
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

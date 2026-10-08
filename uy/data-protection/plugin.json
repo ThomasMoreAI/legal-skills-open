@@ -1,0 +1,15 @@
+{
+  "name": "uy-data-protection",
+  "displayName": "Data Protection — UY",
+  "version": "0.1.0",
+  "description": "Data Protection skills for UY (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "uy",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/compliance-uy-fcancela",
+    "skills/compliance-uy-juliancardozo"
+  ]
+}

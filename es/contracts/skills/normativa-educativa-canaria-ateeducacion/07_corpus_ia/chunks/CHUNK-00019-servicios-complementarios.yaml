@@ -1,0 +1,32 @@
+id: CHUNK-00019
+origen_tipo: "norma"
+origen_id: NOR-034
+titulo: "Servicios Complementarios: Comedor y Transporte (Canarias)"
+texto: >-
+  Resumen de la normativa que regula el bienestar y los servicios de apoyo a las familias.
+  Comedores Escolares (NOR-034):
+  - Prioridad: Alumnado con transporte y familias con rentas bajas o necesidad de conciliación.
+  - Subvenciones: Sistema de cuotas por tramos de renta (A a E).
+  Transporte Escolar (NOR-035):
+  - Gratuidad: Enseñanza obligatoria con residencia a más de 2km (Primaria) o 5km (ESO) del centro.
+  - Seguridad: Obligatoriedad de la figura del acompañante/monitor en todos los vehículos.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil, primaria, eso]
+  temas: [comedores, subvenciones, servicios-complementarios]
+  estado_vigencia: "Vigente"
+  fuente: FTE-037
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/084/004.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Órdenes de 24 de abril de 2009 y 2 de agosto de 2006."
+relaciones:
+  normas: [NOR-034]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

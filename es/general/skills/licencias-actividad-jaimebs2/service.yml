@@ -1,0 +1,61 @@
+name: licencias-actividad
+display_name: Licencias de Actividad y Apertura — Marco General
+description: >
+  Guía orientativa sobre licencias de actividad y apertura en España:
+  cuándo es obligatoria, diferencia entre actividades inocuas y
+  clasificadas, declaración responsable vs. licencia previa, competencia
+  municipal, documentación habitual (proyecto técnico, certificado de
+  compatibilidad urbanística), EUGO como ventanilla única, licencias de
+  obras (menor y mayor), habilitaciones sectoriales (sanidad,
+  alimentación, hostelería) y Ley 12/2012 de liberalización.
+organization: Varios (Ayuntamientos, EUGO)
+tags: [emprendimiento, licencia de actividad, licencia de apertura, declaración responsable, actividad clasificada, actividad inocua, EUGO, licencia municipal, apertura de local]
+
+links:
+  eugo: https://eugo.es
+  ley_12_2012: https://www.boe.es/buscar/act.php?id=BOE-A-2013-12888
+
+license:
+  data: Información pública
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de
+    datos ni realiza trámites. La competencia en licencias de actividad
+    es municipal, por lo que esta skill proporciona el marco general
+    aplicable en toda España y advierte de que los requisitos concretos
+    varían por municipio. Redirige a skills específicas para temas
+    relacionados (alta-autonomo, crear-empresa, boe).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es una licencia de actividad y cuándo es obligatoria
+    - Diferencia entre actividades inocuas y clasificadas (MINP)
+    - Declaración responsable vs. licencia previa
+    - Ley 12/2012 de liberalización del comercio
+    - Documentación habitual para cada tipo de trámite
+    - EUGO como ventanilla única de servicios
+    - Licencias de obras (menor y mayor)
+    - Habilitaciones sectoriales (sanidad, alimentación, hostelería, turismo)
+    - Proceso general resumido
+    - Costes orientativos
+    - Consejos prácticos
+  not_accessible:
+    - Requisitos concretos de cada ayuntamiento (competencia municipal)
+    - Realización de trámites de licencia
+    - Normativa autonómica específica de cada comunidad
+    - Proceso de alta como autónomo (usar skill alta-autonomo)
+    - Proceso de creación de empresas (usar skill crear-empresa)
+    - Obligaciones fiscales (usar skill fiscalidad-autonomos)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

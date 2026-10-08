@@ -1,0 +1,11 @@
+id: REL-022
+tipo_relacion: "desarrolla"
+origen: NOR-025
+destino: NOR-024
+descripcion: "La Orden de 13 de diciembre de 2010 regula procedimientos y medidas para alumnado con NEAE y la fuente oficial la mantiene vigente hasta desarrollo del Decreto 25/2018."
+evidencia:
+  fuente: FTE-028
+  localizacion: "Artículos 1, 5 y 7; clasificación oficial FTE-013"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Relación documental con NOR-024 por vigencia transitoria indicada en FTE-013."

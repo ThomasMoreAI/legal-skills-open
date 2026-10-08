@@ -4,13 +4,18 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `gb` · Practice: `general` · Skill language: en
 
-## Skills (18)
+## Skills (24)
 
 | Skill | What it does |
 |---|---|
 | [`/law-student-uk:bar-prep-questions`](skills/bar-prep-questions-uk-agents/) | SQE and LLB exam prep questions — SQE1-style FLK MCQ or essay, targeted at your weak subjects and… |
+| [`/legal-clinic-uk:build-guide`](skills/build-guide-uk-agents/) | Help a UK clinic supervisor author a practice-area guide that configures how student-facing skills… |
 | [`/law-student-uk:case-brief`](skills/case-brief-uk-agents/) | Brief a case in your preferred format using OSCOLA citation. In drill-me mode, makes the student state… |
+| [`/legal-clinic-uk:client-letter`](skills/client-letter-uk-agents/) | Routine UK client correspondence from templates — appointment confirmations, document requests, brief… |
 | [`/law-student-uk:cold-start-interview`](skills/cold-start-interview-law-student-uk-uk-agents/) | About-you interview and materials intake — modules, qualification route (LLB/GDL/SQE/BPTC/CILEx/DPLP)… |
+| [`/legal-clinic-uk:cold-start-interview`](skills/cold-start-interview-uk-agents/) | Supervisor's one-time UK clinic setup — practice areas, jurisdiction (England & Wales / Scotland /… |
+| [`/legal-clinic-uk:customize`](skills/customize-legal-clinic-uk-uk-agents/) | Guided customisation of your UK law school clinic profile — change one thing without re-running the… |
+| [`/legal-clinic-uk:deadlines`](skills/deadlines-uk-agents/) | Track UK clinic case deadlines — add, cross-case rollup report, update, complete, close. Warns at… |
 | [`/law-student-uk:exam-forecast`](skills/exam-forecast-uk-agents/) | Analyse past exams from the same lecturer to surface patterns — subject weighting, recurring issue-spot… |
 | [`/law-student-uk:irac-practice`](skills/irac-practice-uk-agents/) | Grade an IRAC or CILAC essay for structure, issue-spotting, rule accuracy, analysis depth, and… |
 | [`Legal Writing Quality`](skills/legal-writing-quality-ciaransaunders/) | Review, draft, improve, or critique legal writing — including correspondence, case analysis reports… |
@@ -19,6 +24,7 @@ Jurisdiction: `gb` · Practice: `general` · Skill language: en
 | [`/oscola-build-citation`](skills/oscola-build-citation-uk-agents/) | Construct an OSCOLA citation for a UK case, statute, or Hansard reference AFTER verifying the source… |
 | [`OSCOLA citation check`](skills/oscola-citation-brind0/) | Use when checking or correcting legal citations to OSCOLA in an essay, case note or seminar prep — when… |
 | [`OSCOLA Citation Format (UK / DIFC / ADGM)`](skills/output-citation-format-oscola-sboghossian/) | Use when formatting legal citations for a UK-trained audience, or for common-law jurisdictions that… |
+| [`/legal-clinic-uk:semester-handoff`](skills/semester-handoff-uk-agents/) | End-of-term UK clinic case handoff memos — the mirror of /legal-clinic-uk:ramp. Produces per-case… |
 | [`/law-student-uk:session`](skills/session-uk-agents/) | Run a focused N-question study session on a subject — SQE1-style MCQ, essay, or flashcards. Tracks… |
 | [`/law-student-uk:socratic-drill`](skills/socratic-drill-uk-agents/) | Socratic drilling — it asks, you answer, it pushes back. Does NOT give you the answer until you've… |
 | [`/statute-amendments-trace`](skills/statute-amendments-trace-uk-agents/) | Trace the current state of a UK Act including in-force amendments AND any pending bills that would amend… |

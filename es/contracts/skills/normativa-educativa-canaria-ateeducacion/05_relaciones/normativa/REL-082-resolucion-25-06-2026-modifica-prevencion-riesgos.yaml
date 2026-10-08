@@ -1,0 +1,11 @@
+id: REL-082
+tipo_relacion: "modifica"
+origen: NOR-074
+destino: NOR-096
+descripcion: "La misma Resolución de 25 de junio de 2026 sustituye la distribución horaria del Ciclo Formativo de Grado Superior en Prevención de Riesgos Profesionales aprobada en el Anexo III de la Resolución de 25 de abril de 2025."
+evidencia:
+  fuente: FTE-081
+  localizacion: "Resuelvo segundo de la Resolución de 25 de junio de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Segunda mitad de la modificación que NOR-074 declaraba sin destino enlazable."

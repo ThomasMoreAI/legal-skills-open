@@ -1,0 +1,84 @@
+id: CUR-022
+titulo: "Tecnología — ESO Canarias"
+etapa: "eso"
+materia: "Tecnología"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Identificar y proponer problemas tecnológicos con iniciativa y creatividad."
+      enunciado_oficial: "Identificar y proponer problemas tecnológicos con iniciativa y creatividad, estudiando las necesidades de su entorno próximo y aplicando estrategias y procesos colaborativos e iterativos relativos a proyectos, para idear y planificar soluciones de manera eficiente, accesible, sostenible e innovadora."
+      descriptores:
+        "4.º ESO": [CCL1, STEM1, STEM2, CD1, CD2, CD3, CPSAA3, CPSAA4, CE1, CE3]
+    - codigo: "C2"
+      enunciado_resumido: "Aplicar técnicas y conocimientos interdisciplinares para fabricar soluciones."
+      enunciado_oficial: "Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares, utilizando procedimientos y recursos tecnológicos y analizando el ciclo de vida de productos, para fabricar soluciones tecnológicas accesibles y sostenibles que den respuesta a necesidades planteadas."
+      descriptores:
+        "1.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE3]
+        "2.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE3]
+        "3.º ESO": [CCL5, STEM2, STEM3, STEM5, CD2, CD5, CPSAA3, CC1, CE2, CE3]
+        "4.º ESO": [CCL3, STEM2, STEM5, CD1, CD2, CPSAA4, CC4, CCEC4]
+    - codigo: "C3"
+      enunciado_resumido: "Expresar, comunicar y difundir ideas, propuestas o soluciones tecnológicas."
+      enunciado_oficial: "Expresar, comunicar y difundir ideas, propuestas o soluciones tecnológicas en diferentes foros de manera efectiva, usando un lenguaje inclusivo y no sexista, empleando los recursos disponibles y aplicando los elementos y técnicas necesarias, para intercambiar la información de manera responsable y fomentar el trabajo en equipo."
+      descriptores:
+        "4.º ESO": [CCL1, STEM4, CD2, CD3, CPSAA3, CC2, CCEC3]
+    - codigo: "C4"
+      enunciado_resumido: "Desarrollar soluciones automatizadas con sistemas de control programables y robóticos."
+      enunciado_oficial: "Desarrollar soluciones automatizadas a problemas planteados, aplicando los conocimientos necesarios e incorporando tecnologías emergentes, para diseñar y construir sistemas de control programables y robóticos."
+      descriptores:
+        "4.º ESO": [STEM1, STEM3, CD2, CD5, CPSAA5, CE3]
+    - codigo: "C5"
+      enunciado_resumido: "Aprovechar y emplear de manera responsable las herramientas digitales."
+      enunciado_oficial: "Aprovechar y emplear de manera responsable las posibilidades de las herramientas digitales, adaptándolas a sus necesidades, configurándolas y aplicando conocimientos interdisciplinares, para la resolución de tareas de una manera más eficiente."
+      descriptores:
+        "4.º ESO": [CD1, CD2, CD5, CPSAA4, CPSAA5]
+    - codigo: "C6"
+      enunciado_resumido: "Analizar procesos tecnológicos con criterios de sostenibilidad y accesibilidad."
+      enunciado_oficial: "Analizar procesos tecnológicos, teniendo en cuenta su impacto en la sociedad y el entorno y aplicando criterios de sostenibilidad y accesibilidad, para hacer un uso ético y ecosocialmente responsable de la tecnología."
+      descriptores:
+        "4.º ESO": [CCL1, STEM2, STEM5, CD4, CC4]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. Idear y planificar soluciones tecnológicas emprendedoras que generen un valor para la comunidad, a partir de la observación y el análisis del entorno más cercano, estudiando sus necesidades, requisitos y posibilidades de mejora, seleccionando y empleando diferentes estrategias de resolución de problemas con el objeto de dar respuesta a las necesidades planteadas, atendiendo a criterios de sostenibilidad y eficiencia."
+        - "1.2. Aplicar estrategias colaborativas de gestión de proyectos mediante herramientas o plataformas virtuales con una perspectiva interdisciplinar y siguiendo un proceso iterativo de validación, desde la fase de ideación hasta la difusión de la solución, eligiendo fuentes de información fiables para mejorar su proceso de aprendizaje incorporando las habilidades y aportaciones propias y del resto del grupo."
+        - "1.3. Gestionar el proyecto tecnológico, aplicando las estrategias y técnicas colaborativas adecuadas con criterios de calidad y fiabilidad, así como métodos de investigación adecuados, utilizando las herramientas digitales apropiadas en cada uno de los procesos con la finalidad de idear, desarrollar y difundir soluciones accesibles, sostenibles, eficientes e innovadoras."
+        - "2.1. Analizar el diseño de un producto utilizando el pensamiento científico, evaluando su demanda, evolución y previsión de fin de ciclo de vida, con un criterio ético, responsable, inclusivo y sostenible, a partir de fuentes de información fiables, con la finalidad de dar respuesta a una necesidad planteada."
+        - "2.2. Fabricar productos y soluciones tecnológicas, seleccionando y aplicando de manera segura y responsable herramientas de diseño asistido, técnicas de elaboración manual, mecánica o digital y utilizando los materiales y recursos mecánicos, eléctricos, electrónicos y digitales adecuados para dar respuesta a las necesidades planteadas de forma sostenible y valorando su impacto global."
+        - "3.1. Participar en interacciones comunicativas empleando las herramientas digitales adecuadas junto con el vocabulario técnico, símbolos y esquemas de sistemas tecnológicos apropiados con la finalidad de intercambiar información y fomentar el trabajo en equipo."
+        - "3.2. Presentar y difundir las propuestas o soluciones tecnológicas de manera creativa y efectiva en diferentes formatos, empleando la entonación, expresión, gestión del tiempo y adaptación adecuada del discurso, así como un lenguaje inclusivo y no sexista para compartir nuevos conocimientos y ejercer una ciudadanía digital activa, cívica y reflexiva."
+        - "4.1. Diseñar, construir, controlar o simular sistemas automáticos programables y robots que sean capaces de realizar tareas de forma autónoma para resolver problemas planteados, aplicando conocimientos de mecánica, electricidad, electrónica, neumática y componentes de los sistemas de control, así como otros conocimientos interdisciplinares, analizando las soluciones y desarrollando procesos metacognitivos de retroalimentación que ayuden en el proceso de construcción del conocimiento."
+        - "4.2. Integrar en las máquinas y sistemas tecnológicos aplicaciones informáticas y tecnologías digitales emergentes de control y simulación, como el internet de las cosas, big data e inteligencia artificial, para dar soluciones creativas y sostenibles a problemas concretos, manteniendo un sentido crítico que le permita aprender de sus errores y favorecer el proceso de construcción del conocimiento."
+        - "5.1. Utilizar aplicaciones y herramientas de su entorno personal digital, mostrando interés por la evolución de las tecnologías digitales y seleccionando fuentes fiables de conocimiento, validando y contrastando la información para resolver las tareas propuestas de manera eficiente."
+        - "6.1. Hacer un uso responsable de la tecnología adoptando criterios de sostenibilidad, accesibilidad, ética y seguridad en la selección de materiales y en los procesos de diseño y fabricación de productos tecnológicos para minimizar el impacto negativo en la sociedad y en el planeta."
+        - "6.2. Utilizar el pensamiento científico para analizar los beneficios, en el cuidado del entorno, que aportan la arquitectura bioclimática y el ecotransporte, valorando tanto su impacto global como la contribución de las tecnologías al desarrollo sostenible de Canarias."
+        - "6.3. Identificar y valorar, basándose en fundamentos científicos, la repercusión y los beneficios del desarrollo de proyectos tecnológicos de carácter social por medio de comunidades abiertas, acciones de voluntariado o proyectos de servicio a la comunidad para mejorar el entorno próximo, adoptando de forma consciente un estilo de vida sostenible y socialmente responsable."
+  saberes_basicos:
+    - bloque: "I. Proceso de resolución de problemas"
+      cursos: ["4.º ESO"]
+      detalles: "Estrategias y técnicas (estrategias avanzadas de gestión de proyectos colaborativos y técnicas iterativas de resolución de problemas e ideación de soluciones; observación y análisis de las necesidades del centro, locales, regionales para plantear proyectos colaborativos; resolución desde una perspectiva interdisciplinar fomentando el emprendimiento, la perseverancia y la creatividad). Productos y materiales (análisis del ciclo de vida; estrategias de selección de materiales con criterios de sostenibilidad, accesibilidad y equidad social). Fabricación (uso de herramientas de diseño asistido por ordenador en 3D; aplicación práctica de técnicas de fabricación manual, mecánica y digital, incluida la impresión 3D y el corte). Difusión (presentación con elementos, técnicas y herramientas que permitan una comunicación efectiva, con lenguaje inclusivo y libre de estereotipos sexistas)."
+    - bloque: "II. Operadores tecnológicos"
+      cursos: ["4.º ESO"]
+      detalles: "Identificación y representación de los componentes básicos para realizar análisis y montajes físicos y simulados de circuitos elementales de electrónica analógica. Identificación de elementos mecánicos, electrónicos y neumáticos aplicados a la robótica para realizar montajes físicos o simulados de circuitos que permitan la realización de tareas de forma autónoma, aplicando conocimientos de neumática y de electrónica digital básica."
+    - bloque: "III. Pensamiento computacional, automatización y robótica"
+      cursos: ["4.º ESO"]
+      detalles: "Identificación de los componentes de sistemas de control programado (controladores, sensores y actuadores) en máquinas y sistemas tecnológicos. Uso del ordenador y dispositivos móviles como elementos de programación y control (introducción al trabajo con simuladores digitales, iniciación a la inteligencia artificial y al big data, uso de espacios compartidos y discos virtuales). Valoración de la importancia de las telecomunicaciones en los sistemas de control digital e internet de las cosas. Diseño, construcción y control de robots sencillos de manera física o simulada para realizar tareas de forma autónoma."
+    - bloque: "IV. Tecnología sostenible"
+      cursos: ["4.º ESO"]
+      detalles: "Aplicación de criterios de sostenibilidad en la selección de materiales y diseño de procesos, productos y sistemas tecnológicos. Introducción a la arquitectura bioclimática y sostenible y su influencia en el ahorro energético en edificios, dada la fragmentación del territorio canario. Análisis de los beneficios del ecotransporte en el desarrollo sostenible. Identificación y valoración de los beneficios de la existencia y participación en comunidades abiertas, acciones de voluntariado tecnológico y proyectos de servicio a la comunidad para la mejora del entorno."
+  descriptores_operativos: ["CCL1", "CCL3", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA3", "CPSAA4", "CPSAA5", "CC2", "CC4", "CE1", "CE3", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-003]
+resumen_ia: "Currículo de Tecnología en ESO Canarias regulado por el Decreto 30/2023 (NOR-005), materia ofertable en 4.º de ESO. Seis competencias específicas (C1-C6) y trece criterios de evaluación articulados en torno a la resolución de problemas tecnológicos, la fabricación con criterios de sostenibilidad, la comunicación técnica con lenguaje inclusivo, los sistemas de control programables y la robótica con tecnologías emergentes (IoT, big data, IA), el uso responsable de las herramientas digitales y el análisis del impacto socioambiental con atención al desarrollo sostenible de Canarias (insularidad, arquitectura bioclimática, ecotransporte). Saberes básicos en cuatro bloques: proceso de resolución de problemas, operadores tecnológicos, pensamiento computacional/automatización/robótica y tecnología sostenible."
+observaciones: "Extracción cotejada el 2026-04-26 contra el PDF oficial publicado por la Consejería de Educación de Canarias (Anexo II del Decreto 30/2023, materia Tecnología 4.º ESO). Se han incorporado los enunciados literales de las seis competencias específicas con sus descriptores del Perfil de salida y los trece criterios de evaluación de 4.º ESO. Saberes básicos sintetizados por bloque conforme al texto oficial."

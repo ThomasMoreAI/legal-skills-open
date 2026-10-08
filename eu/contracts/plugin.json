@@ -1,0 +1,15 @@
+{
+  "name": "eu-contracts",
+  "displayName": "Contracts — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Contracts skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/c5-real-legaltech-analysis-borjamoskv",
+    "skills/terms-conditions-ericrisco"
+  ]
+}

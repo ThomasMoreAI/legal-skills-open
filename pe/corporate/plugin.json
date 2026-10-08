@@ -1,0 +1,14 @@
+{
+  "name": "pe-corporate",
+  "displayName": "Corporate — PE",
+  "version": "0.1.0",
+  "description": "Corporate skills for PE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pe",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/pais-peru-danielrp551"
+  ]
+}

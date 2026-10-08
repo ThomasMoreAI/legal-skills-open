@@ -1,0 +1,1688 @@
+ID interno: NOR-088
+Título oficial: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera, Mueble y Corcho, en el ámbito de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-095
+URL origen: https://www.gobiernodecanarias.org/boc/2026/045/734.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-734.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2026-045-734).
+---
+           Boletín Oficial de Canarias núm. 45                8317                               Viernes 6 de marzo de 2026
+
+
+
+
+                                                  III. Otras Resoluciones
+
+                     Consejería de Educación, Formación Profesional, Actividad Física y Deportes
+
+              734        Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución
+                         de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura
+                         modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados
+                         B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales
+                         de Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera,
+                         Mueble y Corcho, en el ámbito de la Comunidad Autónoma de Canarias.
+
+                   La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+               Profesional, establece en su artículo 5.1 y en los apartados a) y b) de su artículo 5.3
+               que el Sistema de Formación Profesional se configura como un conjunto articulado de
+               actuaciones orientadas a la identificación de las competencias profesionales demandadas
+               por el mercado laboral, a la garantía de una oferta formativa adecuada, a la adquisición de
+               la correspondiente formación o, en su caso, al reconocimiento de dichas competencias,
+               así como a la prestación de un servicio de orientación y acompañamiento profesional que
+               permita el diseño de itinerarios formativos individuales y colectivos. Dicho sistema se
+               organiza conforme a un modelo basado en itinerarios formativos que facilitan la progresión
+               en la formación, estructurado en una doble escala: cinco Grados ascendentes (A, B, C, D y
+               E) y tres niveles de competencia profesional (1, 2 y 3), de acuerdo con el Catálogo Nacional
+               de Estándares de Competencias Profesionales.
+
+                   Por su parte, el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la
+               ordenación del Sistema de Formación Profesional, regula en su artículo 4 la organización
+               de las distintas ofertas formativas que integran dicho sistema, estableciendo el marco
+               general para su implantación y desarrollo por las administraciones competentes.
+
+                   En este contexto normativo, y con el fin de garantizar una implantación homogénea,
+               coherente y adaptada a las necesidades del tejido productivo y de los centros del Sistema de
+               Formación Profesional de la Comunidad Autónoma de Canarias, resulta necesario concretar
+               la distribución horaria y la estructura modular de los Grados C y de sus correspondientes
+               Grados B, como paso previo al dictado de las instrucciones necesarias para su efectiva
+               puesta en funcionamiento.
+
+                     A tal efecto y de conformidad con los siguientes
+
+                                                 ANTECEDENTES DE HECHO
+
+                   Primero.- El 4 de abril de 2025 se publicó el Real Decreto 207/2025, de 18 de marzo,
+               por el que se regulan aspectos específicos de los Grados A, B y C de Formación Profesional
+               para las familias profesionales de Administración y Gestión; Agraria; Informática y
+               Comunicaciones; y Madera, Mueble y Corcho.
+
+                  Segundo.- El artículo 29.1 del citado Real Decreto dispone que las administraciones
+               competentes deberán determinar la duración de los Grados A, B y C vinculados a Grados
+               D de los que tuvieran desarrollo autonómico, estableciendo la misma duración horaria para
+
+
+https://sede.gobiernodecanarias.org/boc                                                                       boc-a-2026-045-734
+           Boletín Oficial de Canarias núm. 45              8318                                Viernes 6 de marzo de 2026
+
+
+
+
+               cada módulo profesional en el ámbito autonómico, con independencia del grado en el que
+               se integren.
+
+                   Asimismo, el artículo 29.5 determina que, cuando un Grado C incorpore un módulo
+               profesional no incluido en el currículo básico del Grado D, su duración será la fijada para
+               el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.
+
+                   Tercero.- Tras la entrada en vigor de los Reales Decretos que regulan los aspectos
+               específicos de los Grados A, B y C, y como consecuencia del proceso progresivo de
+               implantación de estas enseñanzas, se ha evidenciado la necesidad de desarrollar los
+               currículos de los nuevos Grados C y Grados B, con el objeto de asegurar su adecuada
+               adaptación a las características de los sectores productivos implicados y a las necesidades
+               organizativas de los centros que impartan ofertas del sistema de formación profesional.
+
+                   Cuarto.- En este marco, se considera imprescindible definir la distribución horaria y
+               la estructura modular de los Grados C y sus correspondientes Grados B de niveles 2 y 3 de
+               las familias profesionales señaladas, en el ámbito territorial de la Comunidad Autónoma
+               de Canarias.
+
+                     A los antecedentes expuestos les son de aplicación los siguientes
+
+                                                 FUNDAMENTOS DE DERECHO
+
+                    Primero.- La Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de
+               Autonomía de Canarias, en su artículo 133.1, establece que “Corresponde a la Comunidad
+               Autónoma de Canarias la competencia de desarrollo legislativo y de ejecución, en materia de
+               enseñanza no universitaria, con relación a las enseñanzas obligatorias y no obligatorias que
+               conducen a la obtención de un título académico o profesional con validez en todo el Estado
+               (...)”. Dicha competencia comprende, asimismo, el establecimiento de los correspondientes
+               planes de estudio y la ordenación curricular de las enseñanzas, de conformidad con lo
+               previsto en el artículo 133.3.c) del citado texto legal.
+
+                   Segundo.- La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria,
+               dispone en su artículo 33.3 que, de acuerdo con la normativa básica del Estado, una vez
+               aprobado el Real Decreto correspondiente a un título de formación profesional y hasta que
+               sea completado el currículo propio de la Comunidad Autónoma, dicho real decreto actuará
+               como norma subsidiaria.
+
+                   Tercero.- El Real Decreto 207/2025, de 18 de marzo, por el que se regulan aspectos
+               específicos de los Grados A, B y C de Formación Profesional para las familias profesionales
+               de Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera, Mueble
+               y Corcho.
+
+                   Cuarto.- El Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los
+               elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación
+               Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el
+               Instituto Nacional de las Cualificaciones, establece en su artículo 12, relativo a la naturaleza
+               del Catálogo Nacional de Ofertas de Formación Profesional, el marco estructural de dichas
+               ofertas.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                      boc-a-2026-045-734
+           Boletín Oficial de Canarias núm. 45             8319                               Viernes 6 de marzo de 2026
+
+
+
+
+                   En particular, el apartado 2 dispone la organización de las ofertas del Sistema de
+               Formación Profesional como dimensión vertical definitoria, estructurada de forma
+               escalonada en una serie ascendente de Grados. Esta ordenación es descriptiva de la amplitud
+               de cada oferta formativa diseñada a partir del estándar de competencias profesionales de
+               mayor nivel del Catálogo Nacional de Estándares de Competencias Profesionales.
+
+                   Así mismo, en el punto 5 del citado artículo establece que todas las ofertas de Formación
+               Profesional tendrán carácter acreditable y acumulable, permitiendo progresar en itinerarios
+               de formación conducentes a otros de mayor grado.
+
+                  Quinto.- El Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y
+               Deportes, atribuye a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial las competencias generales y específicas en materia de ordenación,
+               implantación y desarrollo de las enseñanzas de formación profesional en el ámbito de la
+               Comunidad Autónoma de Canarias.
+
+                   Sexto.- Mediante Resolución de 30 de octubre de 2024, de la Dirección General de
+               Formación Profesional y Enseñanzas de Régimen Especial, se dictaron instrucciones y
+               orientaciones para la implantación y desarrollo de los Grados D y E, a partir del curso
+               escolar 2024/2025, estableciéndose, asimismo, la distribución horaria y modular de dichos
+               currículos en el ámbito autonómico de la Comunidad Autónoma de Canarias.
+
+                   En atención a lo anteriormente indicado, en ejercicio de las competencias atribuidas
+               a la Viceconsejería de Formación Profesional y Cualificaciones Profesionales en el
+               artículo 9, apartado 2, del Decreto 84/2024, de 10 de junio, por el que se aprueba el
+               Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad
+               Física y Deportes, y el desempeño de las funciones previstas en los artículos 11 y 20.1
+               del Decreto 212/1991, de 11 de septiembre, de organización de los Departamentos de la
+               Administración Autonómica de Canarias,
+
+                                                    R E S U E L V O:
+
+                   Primero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Administración y Gestión, en los términos
+               recogidos en el Anexo I de la presente Resolución.
+
+                   Segundo.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Agraria, en los términos recogidos en el Anexo
+               II de la presente Resolución.
+
+                   Tercero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Informática y Comunicaciones, en los términos
+               recogidos en el Anexo III de la presente Resolución.
+
+                  Cuarto.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2026-045-734
+           Boletín Oficial de Canarias núm. 45               8320                                  Viernes 6 de marzo de 2026
+
+
+
+
+               de niveles 2 y 3 de la familia profesional de Madera, Mueble y Corcho, en los términos
+               recogidos en el Anexo IV de la presente Resolución.
+
+                   Quinto.- La distribución horaria y estructura modular establecida en la presente
+               Resolución será de aplicación en todos los centros del Sistema de Formación Profesional
+               de la Comunidad Autónoma de Canarias.
+
+                   Sexto.- Facultar a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial para que, en el ámbito de sus competencias dentro del sistema educativo
+               no universitario, dictamine cuantas resoluciones sean necesarias respecto a esta Resolución
+               y lleve a cabo la planificación de la oferta de los Grados C y B en los centros educativos
+               públicos no universitarios de la Comunidad Autónoma de Canarias.
+
+                   Séptimo.- Encomendar a la Inspección de Educación el asesoramiento a los equipos
+               directivos de los centros del sistema educativo no universitario en aquellos aspectos
+               específicos relacionados con la aplicación de la presente Resolución, así como la supervisión
+               de su adecuado cumplimiento.
+
+                   Octavo.- Ordenar la publicación de la presente Resolución en el Boletín Oficial de
+               Canarias, así como en la página web de la Consejería de Educación, Formación Profesional,
+               Actividad Física y Deportes, para su general conocimiento. Asimismo, se encomienda a
+               los equipos directivos de los centros docentes que adopten las medidas oportunas para
+               garantizar su difusión entre los distintos sectores de la comunidad educativa.
+
+                   Contra la presente Resolución, que no pone fin a la vía administrativa, podrá interponerse
+               recurso de alzada ante el Consejero de Educación, Formación Profesional, Actividad Física y
+               Deportes, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del
+               Procedimiento Administrativo Común de las Administraciones Públicas, en el plazo de un mes,
+               a partir del día siguiente al de su publicación en el Boletín Oficial de Canarias, sin perjuicio de
+               cualquier otro que se estime procedente.
+
+                  Las Palmas de Gran Canaria, a 25 de febrero de 2026.- El Viceconsejero de Formación
+               Profesional y Cualificaciones Profesionales, Francisco Rodríguez Machado.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                         boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                    8321                                       Viernes 6 de marzo de 2026
+
+
+
+
+                                                              ANEXO I
+                                                               ANEXO I
+
+                                      FAMILIA PROFESIONAL: ADMINISTRACIÓN Y GESTIÓN
+
+                       DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                      (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                              (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+          Certificado profesional: Actividades administrativas de recepción y relación con el cliente.
+             • Código: ADG_C_001_4B.
+             • Título de Formación Profesional asociado: Técnico en Gestión Administrativa.
+             • Nivel: 2.
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (22 semanas) (33 semanas)
+
+                        Comunicación empresarial y atención al cliente
+             0437                                                                         174           7              5
+                        Código del certificado de competencia: ADG_B_0437
+                        Operaciones administrativas de la compra-venta
+             0438                                                                         174           7              5
+                        Código del certificado de competencia: ADG_B_0438
+                        Tratamiento informático de la información
+             0440                                                                         206           9              6
+                        Código del certificado de competencia: ADG_B_0440
+                        Inglés profesional (GM)
+             0156                                                                         96            5              3
+                        Código del certificado de competencia: ADG_B_0156
+             1782       Prevención de riesgos laborales                                   30            2              1
+                                                                            Duración      680          30             20
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+          Certificado profesional: Actividades de apoyo administrativo en el ámbito contable, financiero y fiscal.
+             • Código: ADG_C_002_4B.
+             • Título de Formación Profesional asociado: Técnico en Gestión Administrativa.
+             • Nivel: 2.
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (24 semanas) (33 semanas)
+
+                        Tratamiento informático de la información
+             0440                                                                         206           8              6
+                        Código del certificado de competencia: ADG_B_0440
+                        Técnica contable
+             0441                                                                         96            5              3
+                        Código del certificado de competencia: ADG_B_0441
+                        Tratamiento de la documentación contable
+             0443                                                                         203           8              6
+                        Código del certificado de competencia: ADG_B_0443
+                        Operaciones auxiliares de gestión de tesorería
+             0448                                                                         170           7              5
+                        Código del certificado de competencia: ADG_B_0448
+             1782       Prevención de riesgos laborales                                   30            2              1
+                                                                            Duración      705          30             21
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                    boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                  8322                                    Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Actividades de apoyo administrativo en el ámbito laboral.
+           • Código: ADG_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Gestión Administrativa.
+           • Nivel: 2.
+
+          Código                                                                                                     Horas
+                                                                                                       Horas
+           Real                              MÓDULOS PROFESIONALES                                     totales
+                                                                                                                   semanales
+          Decreto                                                                                                (17 semanas)
+
+                      Tratamiento informático de la información
+           0440                                                                                         206          12
+                      Código del certificado de competencia: ADG_B_0440
+                      Operaciones administrativas de recursos humanos
+           0442                                                                                         174          10
+                      Código del certificado de competencia: ADG_B_0442
+           1782       Prevención de riesgos laborales                                                      30         2
+                                                                                         Duración       410          24
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+
+
+
+
+        Certificado profesional: Asistencia a la dirección en la gestión de la comunicación de la empresa.
+           • Código: ADG_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Asistencia a la Dirección.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Recursos humanos y responsabilidad social corporativa
+           0648                                                                          64            3              2
+                      Código del certificado de competencia: ADG_B_0648
+                      Ofimática y proceso de la información
+           0649                                                                          170           7              5
+                      Código del certificado de competencia: ADG_B_0649
+                      Comunicación y atención al cliente
+           0651                                                                          172           7              5
+                      Código del certificado de competencia: ADG_B_0651
+           0663       Gestión avanzada de la información                                 173           7              5
+                      Inglés profesional (GS)
+           0179                                                                          96            4              3
+                      Código del certificado de competencia: ADG_B_0179
+           1782       Prevención de riesgos laborales                                    30            2              1
+                                                                           Duración      705          30             21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                  8323                                    Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Protocolo y organización de eventos empresariales.
+           • Código: ADG_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Asistencia a la Dirección.
+           • Nivel: 3.
+
+          Código                                                                                                     Horas
+                                                                                                       Horas
+           Real                              MÓDULOS PROFESIONALES                                     totales
+                                                                                                                   semanales
+          Decreto                                                                                                (33 semanas)
+
+                      Ofimática y proceso de la información
+           0649                                                                                         170           5
+                      Código del certificado de competencia: ADG_B_0649
+                      Inglés profesional (GS)
+           0179                                                                                            96         3
+                      Código del certificado de competencia: ADG_B_0179
+                      Segunda lengua extranjera
+           0180                                                                                            96         3
+                      Código del certificado de competencia: ADG_B_0180
+           0661       Protocolo empresarial                                                             205           6
+                      Organización de eventos empresariales
+           0662                                                                                         238           7
+                      Código del certificado de competencia: ADG_B_0662
+           1782       Prevención de riesgos laborales                                                      30         1
+                                                                                         Duración       835          25
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 210 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 295 horas
+
+
+
+        Certificado profesional: Asistencia a la dirección en la gestión administrativa y comercial.
+           • Código: ADG_C_003_5B.
+           • Títulos de Formación Profesional asociados:
+                ◦ Técnico Superior en Asistencia a la Dirección.
+                ◦ Técnico Superior en Administración y Finanzas.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Gestión de la documentación jurídica y empresarial
+           0647                                                                          138           6              4
+                      Código del certificado de competencia: ADG_B_0647
+                      Ofimática y tratamiento de la información
+           0649                                                                          170           7              5
+                      Código del certificado de competencia: ADG_B_0649
+                      Proceso integral de la actividad comercial
+           0650                                                                          202           8              6
+                      Código del certificado de competencia: ADG_B_0650
+                      Comunicación y atención al cliente
+           0651                                                                          170           7              5
+                      Código del certificado de competencia: ADG_B_0651
+           1782       Prevención de riesgos laborales                                    30            2              1
+                                                                           Duración      710          30             21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                  8324                                    Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Administración y gestión de recursos humanos.
+           • Código: ADG_C_004_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Administración y Finanzas.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (18 semanas) (33 semanas)
+
+                      Gestión de la documentación jurídica y empresarial
+           0647                                                                          138           8            4
+                      Código del certificado de competencia: ADG_B_0647
+                      Recursos humanos y responsabilidad social corporativa
+           0648                                                                          64            4            2
+                      Código del certificado de competencia: ADG_B_0648
+                      Ofimática y proceso de la información
+           0649                                                                          170           8            5
+                      Código del certificado de competencia: ADG_B_0649
+                      Gestión de recursos humanos
+           0652                                                                          138           8            4
+                      Código del certificado de competencia: ADG_B_0652
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      540          30           16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+        Certificado profesional: Gestión contable, financiera y fiscal.
+           • Código: ADG_C_005_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Administración y
+                Finanzas.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Gestión de la documentación jurídica y empresarial
+           0647                                                                          138           7            4
+                      Código del certificado de competencia: ADG_B_0647
+                      Ofimática y proceso de la información
+           0649                                                                          171           7            5
+                      Código del certificado de competencia: ADG_B_0649
+                      Gestión financiera
+           0653                                                                          138           7            4
+                      Código del certificado de competencia: ADG_B_0653
+                      Contabilidad y fiscalidad
+           0654                                                                          138           7            4
+                      Código del certificado de competencia: ADG_B_0654
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      615          30           18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 220 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                      8325                                Viernes 6 de marzo de 2026
+
+
+
+
+                                                             ANEXO IIII
+                                                             ANEXO
+
+                                                FAMILIA PROFESIONAL: AGRARIA
+
+
+                      DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                     (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                             (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+
+        Certificado profesional: Agricultura ecológica.
+           • Código: AGA_C_001_4B.
+           • Título de Formación Profesional asociado: Técnico en Producción Agroecológica.
+           • Nivel: 2.
+
+          Código                                                                                               Horas
+                                                                                         Horas
+           Real                           MÓDULOS PROFESIONALES                          totales
+                                                                                                             semanales
+          Decreto                                                                                          (33 semanas)
+
+                      Fundamentos agronómicos
+           0404                                                                           170                  4*
+                      Código del certificado de competencia: AGA_B_0404
+                      Implantación de cultivos ecológicos
+           0406                                                                           138                   4
+                      Código del certificado de competencia: AGA_B_0406
+                      Taller y equipos de tracción
+           0407                                                                           138                   4
+                      Código del certificado de competencia:AGA_B_0407
+                      Infraestructuras e instalaciones agrícolas
+           0408                                                                           96                    3
+                      Código del certificado de competencia: AGA_B_0408
+                      Principios de sanidad vegetal
+           0409                                                                           96                    3
+                      Código del certificado de competencia: AGA_B_0409
+                      Producción vegetal ecológica
+           0410                                                                           238                  6*
+                      Código del certificado de competencia: AGA_B_0410
+                      Manejo sanitario del agrosistema
+           0412                                                                           173                  4*
+                      Código del certificado de competencia: AGA_B_0412
+           0413       Comercialización de productos agroecológicos                        96                    3
+           1782       Prevención de riesgos laborales                                     30                    1
+                                                                          Duración       1175                  32
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración de 395 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración de 515 horas
+         (*) Se reduce en una hora la carga lectiva semanal del módulo profesional por criterios pedagógicos. Las horas
+         resultantes se incorporan a la formación en empresa u organismo equiparado, tanto en el régimen general como en el
+         régimen intensivo
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                       8326                              Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Ganadería ecológica.
+           • Código: AGA_C_002_4B.
+           • Título de Formación Profesional asociado: Técnico en Producción Agroecológica.
+           • Nivel: 2.
+
+          Código                                                                                    Horas        Horas
+                                                                                      Horas
+           Real                           MÓDULOS PROFESIONALES                       totales
+                                                                                                  semanales    semanales
+          Decreto                                                                               (24 semanas) (33 semanas)
+
+                      Fundamentos zootécnicos
+           0405                                                                        138           6            4
+                      Código del certificado de competencia: AGA_B_0405
+                      Taller y equipos de tracción
+           0407                                                                        138           6            4
+                      Código del certificado de competencia: AGA_B_0407
+                      Infraestructuras e instalaciones agrícolas
+           0408                                                                        96            4            3
+                      Código del certificado de competencia: AGA_B_0408
+                      Producción ganadera ecológica
+           0411                                                                        207           8            6
+                      Código del certificado de competencia: AGA_B_0411
+           0413       Comercialización de productos agroecológicos                     96            4            3
+           1782       Prevención de riesgos laborales                                  30            2            1
+                                                                           Duración    705          30            21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+        Certificado profesional: Técnicas de viverismo.
+           • Código: AGA_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Jardinería y Floristería.
+           • Nivel: 2.
+
+          Código                                                                                    Horas        Horas
+                                                                                      Horas
+           Real                           MÓDULOS PROFESIONALES                       totales
+                                                                                                  semanales    semanales
+          Decreto                                                                               (18 semanas) (33 semanas)
+
+                       Fundamentos agronómicos
+           0404                                                                        170           9            5
+                       Código del certificado de competencia: AGA_B_0404
+                       Infraestructuras e instalaciones agrícolas
+           0408                                                                        96            6            3
+                       Código del certificado de competencia: AGA_B_0408
+                       Producción de plantas y tepes en vivero
+           0578                                                                        234          13            7
+                       Código del certificado de competencia: AGA_B_0578
+           1782        Prevención de riesgos laborales                                 30            2            1
+                                                                           Duración    530          30            16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                      8327                                 Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Implantación y mantenimiento de zonas verdes.
+           • Código: AGA_C_004_4B.
+           • Título de Formación Profesional asociado: Técnico en Jardinería y Floristería.
+           • Nivel: 2.
+
+          Código                                                                                   Horas           Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales       semanales
+          Decreto                                                                              (24 semanas)    (33 semanas)
+
+                      Fundamentos agronómicos
+           0404                                                                       170           7               5
+                      Código del certificado de competencia: AGA_B_0404
+                      Taller y equipos de tracción
+           0407                                                                       138           5               4
+                      Código del certificado de competencia: AGA_B_0407
+                      Infraestructuras e instalaciones agrícolas
+           0408                                                                       96            4               3
+                      Código del certificado de competencia: AGA_B_0408
+                      Implantación de jardines y zonas verdes
+           0576                                                                       140           6               4
+                      Código del certificado de competencia: AGA_B_0576
+                      Mantenimiento y mejora de jardines y zonas verdes
+           0577                                                                       141           6               4
+                      Código del certificado de competencia: AGA_B_0577
+           1782       Prevención de riesgos laborales                                 30            2               1
+                                                                          Duración    715           30             21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 255 horas
+
+
+
+        Certificado profesional: Elaboración de composiciones florales y técnicas de venta en establecimientos
+        de floristería.
+            • Código: AGA_C_005_4B.
+            • Título de Formación Profesional asociado: Técnico en Jardinería y Floristería.
+            • Nivel: 2.
+
+          Código                                                                                   Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales    semanales
+          Decreto                                                                              (12 semanas) (17 semanas)
+
+                       Composiciones florales y con plantas
+           0579                                                                       143           11              8
+                       Código del certificado de competencia: AGA_B_0579
+                       Establecimientos de floristería
+           0580                                                                        96            8              6
+                       Código del certificado de competencia: AGA_B_0580
+                       Técnicas de venta en jardinería y floristería
+           0581                                                                        96            8              6
+                       Código del certificado de competencia: AGA_B_0581
+           1782        Prevención de riesgos laborales                                 30            3              2
+                                                                          Duración    365           30             22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 130 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                 boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8328                                     Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Aprovechamiento del medio natural, repoblaciones forestales y tratamientos
+        selvícolas.
+            • Código: AGA_C_006_4B.
+            • Título de Formación Profesional asociado: Técnico en Aprovechamiento y Conservación del
+                Medio Natural.
+            • Nivel: 2.
+
+          Código                                                                                    Horas           Horas
+                                                                                      Horas
+           Real                           MÓDULOS PROFESIONALES                       totales
+                                                                                                  semanales       semanales
+          Decreto                                                                               (26 semanas)    (33 semanas)
+
+                      Repoblaciones forestales y tratamientos selvícolas
+           0832                                                                        204           8               6
+                      Código del certificado de competencia: AGA_B_0832
+                      Aprovechamiento del medio natural
+           0833                                                                        238           9               7
+                      Código del certificado de competencia: AGA_B_0833
+           0836       Prevención de incendios forestales                               143           5               4
+                      Maquinaria e instalaciones forestales
+           0837                                                                        170           6               5
+                      Código del certificado de competencia: AGA_B_0837
+           1782       Prevención de riesgos laborales                                  30            2               1
+                                                                       Duración        785          30              23
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 275 horas
+
+
+
+        Certificado profesional: Producción de planta forestal en vivero.
+           • Código: AGA_C_007_4B.
+           • Título de Formación Profesional asociado: Técnico en Aprovechamiento y Conservación del
+                Medio Natural.
+           • Nivel: 2.
+
+          Código                                                                                    Horas           Horas
+                                                                                      Horas
+           Real                           MÓDULOS PROFESIONALES                       totales
+                                                                                                  semanales       semanales
+          Decreto                                                                               (12 semanas)    (17 semanas)
+
+           0404       Fundamentos agronómicos                                           170         14              10
+                      Producción de planta forestal en vivero
+           0835                                                                         140         13               8
+                      Código del certificado de competencia: AGA_B_0835
+           1782       Prevención de riesgos laborales                                   30           3               2
+                                                                           Duración     340         30              20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 85 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 120 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                  8329                                     Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Sanidad vegetal y control fitosanitario.
+           • Código: AGA_C_008_4B.
+           • Título de Formación Profesional asociado: Técnico en Aprovechamiento y Conservación del
+                Medio Natural.
+           • Nivel: 2.
+
+          Código                                                                                   Horas           Horas
+                                                                                    Horas
+           Real                           MÓDULOS PROFESIONALES                     totales
+                                                                                                 semanales       semanales
+          Decreto                                                                              (10 semanas)    (17 semanas)
+
+                      Principios de sanidad vegetal
+           0409                                                                       96            12              6
+                      Código del certificado de competencia: AGA_B_0409
+                      Control fitosanitario
+           0479                                                                      144            15              8
+                      Código del certificado de competencia: AGA_B_0479
+           1782       Prevención de riesgos laborales                                 30            3               2
+                                                                      Duración       270            30             16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 70 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 95 horas
+
+
+
+        Certificado profesional: Uso público y conservación de especies piscícolas y cinegéticas.
+           • Código: AGA_C_009_4B.
+           • Título de Formación Profesional asociado: Técnico en Aprovechamiento y Conservación del
+                Medio Natural.
+           • Nivel: 2.
+
+          Código                                                                                   Horas           Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales       semanales
+          Decreto                                                                               (8 semanas)    (17 semanas)
+
+                      Conservación de las especies cinegéticas y piscícolas
+           0834                                                                       97            13              6
+                      Código del certificado de competencia: AGA_B_0834
+           0838       Uso público en espacios naturales                               98            13              6
+           1782       Prevención de riesgos laborales                                 30             4              2
+                                                                      Duración        225           30             14
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 60 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 80 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                 boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                     8330                                  Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Gestión de zonas verdes.
+           • Código: AGA_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Paisajismo y Medio Rural.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+           0690       Botánica agronómica                                             96               4             3
+                      Topografía agraria
+           0693                                                                       138              6             4
+                      Código del certificado de competencia: AGA_B_0693
+                      Maquinaria e instalaciones agroforestales
+           0694                                                                       138              6             4
+                      Código del certificado de competencia: AGA_B_0694
+                      Diseño de jardines y restauración del paisaje
+           0697                                                                       96               4             3
+                      Código del certificado de competencia: AGA_B_0697
+                      Conservación de jardines y céspedes deportivos
+           0698                                                                       207              8             6
+                      Código del certificado de competencia: AGA_B_0698
+           1782       Prevención de riesgos laborales                                 30               2             1
+                                                                         Duración     705             30             21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+        Certificado profesional: Gestión de viveros.
+           • Código: AGA_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Paisajismo y Medio Rural.
+           • Nivel: 3.
+
+          Código                                                                                                Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                              semanales
+          Decreto                                                                                           (17 semanas)
+
+           0690       Botánica agronómica                                                  96                    6
+                      Gestión y organización del vivero
+           0691                                                                          170                    10
+                      Código del certificado de competencia: AGA_B_0691
+                      Fitopatología
+           0692                                                                          144                     8
+                      Código del certificado de competencia: AGA_B_0692
+           1782       Prevención de riesgos laborales                                      30                    2
+                                                                         Duración        440                    26
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 110 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 155 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                      8331                                 Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Gestión de explotaciones agrarias.
+           • Código: AGA_C_003_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Paisajismo y Medio Rural.
+           • Nivel: 3.
+
+          Código                                                                                                Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                              semanales
+          Decreto                                                                                           (33 semanas)
+
+                      Fitopatología
+           0692                                                                          143                     4
+                      Código del certificado de competencia: AGA_B_0692
+                      Topografía agraria
+           0693                                                                          138                     4
+                      Código del certificado de competencia: AGA_B_0693
+                      Maquinaria e instalaciones agroforestales
+           0694                                                                          138                     4
+                      Código del certificado de competencia: AGA_B_0694
+                      Planificación de cultivos
+           0695                                                                          236                     7
+                      Código del certificado de competencia: AGA_B_0695
+                      Gestión de cultivos
+           0696                                                                          270                     8
+                      Código del certificado de competencia: AGA_B_0696
+           1782       Prevención de riesgos laborales                                      30                    1
+                                                                          Duración       955                    28
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 335 horas
+
+
+        Certificado profesional: Gestión forestal.
+           • Código: AGA_C_004_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Gestión Forestal y del Medio
+                Natural.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (26 semanas) (33 semanas)
+
+                       Topografía agraria
+           0693                                                                       141              5             4
+                       Código del certificado de competencia: AGA_B_0693
+                       Maquinaria e instalaciones agroforestales
+           0694                                                                       141              5             4
+                       Código del certificado de competencia: AGA_B_0694
+                       Gestión de los aprovechamientos del medio forestal
+           0810                                                                       96               4             3
+                       Código del certificado de competencia: AGA_B_0810
+                       Gestión de montes
+           0814                                                                       206              8             6
+                       Código del certificado de competencia: AGA_B_0814
+                       Defensa contra incendios forestales
+           0816                                                                       141              6             4
+                       Código del certificado de competencia: AGA_B_0816
+           1782        Prevención de riesgos laborales                                30               2             1
+                                                                          Duración    755             30             22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 265 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8332                                    Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Gestión del vivero forestal.
+           • Código: AGA_C_005_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Gestión Forestal y del Medio
+                Natural.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (12 semanas) (17 semanas)
+
+                       Gestión y organización del vivero forestal
+           0811                                                                       96               8             6
+                       Código del certificado de competencia: AGA_B_0811
+           0690        Botánica agronómica                                            96               8             6
+           0692        Fitopatología                                                  143             11             8
+           1782        Prevención de riesgos laborales                                30               3             2
+                                                                       Duración       365             30             22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 130 horas
+
+
+
+        Certificado profesional: Gestión de la conservación y mejora ambiental del medio natural.
+           • Código: AGA_C_006_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Gestión Forestal y del Medio
+                Natural.
+           • Nivel: 3.
+
+          Código                                                                                                Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                              semanales
+          Decreto                                                                                           (17 semanas)
+
+                      Gestión cinegética
+           0812                                                                            96                    6
+                      Código del certificado de competencia: AGA_B_0812
+                      Gestión de la pesca continental
+           0813                                                                            96                    6
+                      Código del certificado de competencia: AGA_B_0813
+                      Gestión de la conservación del medio natural
+           0815                                                                          142                     8
+                      Código del certificado de competencia: AGA_B_0815
+           0790       Técnicas de educación ambiental                                      96                    6
+           1782       Prevención de riesgos laborales                                      30                    2
+                                                                       Duración          460                    28
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 115 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 165 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8333                                  Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Gestión de la producción ganadera.
+           • Código: AGA_C_007_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Ganadería y Asistencia en
+                Sanidad Animal.
+           • Nivel: 3.
+
+          Código                                                                                   Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales    semanales
+          Decreto                                                                              (18 semanas) (33 semanas)
+
+                       Organización y control de la reproducción y cría
+           1274                                                                       197           11            6
+                       Código del certificado de competencia: AGA_B_1274
+                       Gestión de la producción animal
+           1275                                                                       165            9            5
+                       Código del certificado de competencia: AGA_B_1275
+                       Maquinaria e instalaciones ganaderas
+           1278                                                                       138            8            4
+                       Código del certificado de competencia: AGA_B_1278
+           1782        Prevención de riesgos laborales                                30             2            1
+                                                                          Duración    530           30            16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+
+        Certificado profesional: Gestión de la cría y manejo equino.
+           • Código: AGA_C_008_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Ganadería y Asistencia en
+                Sanidad Animal.
+           • Nivel: 3.
+
+          Código                                                                                   Horas        Horas
+                                                                                     Horas
+           Real                           MÓDULOS PROFESIONALES                      totales
+                                                                                                 semanales    semanales
+          Decreto                                                                              (18 semanas) (33 semanas)
+
+                       Gestión de la recría de caballos
+           1276                                                                       138            8            4
+                       Código del certificado de competencia: AGA_B_1276
+                       Organización y supervisión de la doma y manejo de
+           1277        équidos                                                        204           12            6
+                       Código del certificado de competencia: AGA_B_1277
+                       Maquinaria e instalaciones ganaderas
+           1278                                                                       138            8            4
+                       Código del certificado de competencia: AGA_B_1278
+           1782        Prevención de riesgos laborales                                30             2            1
+                                                                          Duración    510           30            15
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 180 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                 8334                                    Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Sanidad animal y asistencia veterinaria.
+           • Código: AGA_C_009_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Ganadería y Asistencia en
+                Sanidad Animal.
+           • Nivel: 3.
+
+         Código                                                                                 Horas           Horas
+                                                                                Horas
+          Real                     MÓDULOS PROFESIONALES                        totales
+                                                                                              semanales       semanales
+         Decreto                                                                            (22 semanas)    (33 semanas)
+
+                    Saneamiento ganadero
+          1279                                                                   138             6               4
+                    Código del certificado de competencia: AGA_B_1279
+                    Asistencia a la atención veterinaria
+          1280                                                                   204             9               6
+                    Código del certificado de competencia: AGA_B_1280
+                    Bioseguridad
+          1281                                                                   138             6               4
+                    Código del certificado de competencia: AGA_B_1281
+          1282 Gestión de centros veterinarios                                   170             7               5
+          1782 Prevención de riesgos laborales                                    30             2               1
+                                                                 Duración        680             30              20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8335                                  Viernes 6 de marzo de 2026
+
+
+
+
+                                                           ANEXO III
+                                                           ANEXO III
+
+                               FAMILIA PROFESIONAL: INFORMÁTICA Y COMUNICACIONES
+
+                      DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                     (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                             (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+
+        Certificado profesional: Montaje y mantenimiento de equipos informáticos.
+           • Código: IFC_C_001_4B.
+           • Título de Formación Profesional asociado: Técnico en Sistemas Microinformáticos y
+                   Redes.
+              •    Nivel: 2.
+
+          Código                                                                                                   Horas
+                                                                                                     Horas
+           Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                 semanales
+          Decreto                                                                                              (17 semanas)
+
+                      Montaje y mantenimiento de equipos
+           0221                                                                                        204          12
+                      Código del certificado de competencia: IFC_B_0221
+                      Sistemas operativos monopuesto
+           0222                                                                                        171          10
+                      Código del certificado de competencia: IFC_B_0222
+           1782       Prevención de riesgos laborales                                                  30           2
+                                                                                         Duración      405          24
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 145 horas
+
+
+        Certificado profesional: Montaje y mantenimiento de redes informáticas.
+           • Código: IFC_C_002_4B.
+           • Título de Formación Profesional asociado: Técnico en Sistemas Microinformáticos y Redes.
+           • Nivel: 2.
+
+          Código                                                                                                   Horas
+                                                                                                     Horas
+           Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                 semanales
+          Decreto                                                                                              (33 semanas)
+
+           0224       Sistemas operativos en red                                                      238           7
+                      Redes locales
+           0225                                                                                       202           6
+                      Código del certificado de competencia: IFC_B_0225
+                      Seguridad informática
+           0226                                                                                       142           4
+                      Código del certificado de competencia: IFC_B_0226
+                      Servicios en red
+           0227                                                                                       238           7
+                      Código del certificado de competencia: IFC_B_0227
+           1782       Prevención de riesgos laborales                                                 30            1
+                                                                                        Duración      850          25
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 215 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 300 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                 boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8336                                   Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Instalación y uso de aplicaciones ofimáticas.
+           • Código: IFC_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Sistemas Microinformáticos y
+                   Redes.
+              •    Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (12 semanas) (17 semanas)
+
+                      Aplicaciones ofimáticas
+           0223                                                                          204          18           12
+                      Código del certificado de competencia: IFC_B_0223
+           0228       Aplicaciones web                                                   96            9            6
+           1782       Prevención de riesgos laborales                                    30            3            2
+                                                                           Duración      330          30           20
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 85 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 120 horas
+
+
+
+
+        Certificado profesional: Gestión de bases de datos.
+           • Código: IFC_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Administración de
+                   Sistemas Informáticos en Red.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (10 semanas) (17 semanas)
+
+                      Gestión de bases de datos
+           0372                                                                          174          19           10
+                      Código del certificado de competencia: IFC_B_0372
+                      Administración de sistemas gestores de bases de datos
+           0377                                                                          66            8            4
+                      Código del certificado de competencia: IFC_B_0377
+           1782       Prevención de riesgos laborales                                    30            3            2
+                                                                           Duración      270          30           16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 70 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 95 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8337                                   Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Administración de servicios de internet.
+           • Código: IFC_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Administración de
+                   Sistemas Informáticos en Red.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (18 semanas) (33 semanas)
+
+           0370       Planificación y administración de redes                            170           9            5
+                      Servicios de red e internet
+           0375                                                                          170           9            5
+                      Código del certificado de competencia: IFC_B_0375
+                      Seguridad y alta disponibilidad
+           0378                                                                          170          10            5
+                      Código del certificado de competencia: IFC_B_0378
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      540          30           16
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+         En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+        Certificado profesional: Gestión de sistemas de información.
+           • Código: IFC_C_003_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Administración de
+                   Sistemas Informáticos en Red.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (22 semanas) (33 semanas)
+
+                      Implantación de sistemas operativos
+           0369                                                                          204          10            6
+                      Código del certificado de competencia: IFC_B_0369
+                      Fundamentos de hardware
+           0371                                                                          96            4            3
+                      Código del certificado de competencia: IFC_B_0371
+                      Administración de sistemas operativos
+           0374                                                                          172           8            5
+                      Código del certificado de competencia: IFC_B_0374
+                      Implantación de aplicaciones web
+           0376                                                                          138           6            4
+                      Código del certificado de competencia: IFC_B_0376
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      640          30           19
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8338                                   Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Programación de sistemas de gestión.
+           • Código: IFC_C_004_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Desarrollo de Aplicaciones
+                   Multiplataforma.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Bases de datos
+           0484                                                                          170           7            5
+                       Código del certificado de competencia: IFC_B_0484
+                      Programación
+           0485                                                                          202           8            6
+                      Código del certificado de competencia: IFC_B_0485
+                      Acceso a datos
+           0486                                                                          207           9            6
+                      Código del certificado de competencia: IFC_B_0486
+                      Sistemas de gestión empresarial
+           0491                                                                          96            4            3
+                      Código del certificado de competencia: IFC_B_0491
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      705          30           21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+        Certificado profesional: Programación de aplicaciones multiplataforma.
+           • Código: IFC_C_005_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Desarrollo de Aplicaciones
+                   Multiplataforma.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Bases de datos
+           0484                                                                          170           9            5
+                      Código del certificado de competencia: IFC_B_0484
+                      Programación
+           0485                                                                          202          10            6
+                      Código del certificado de competencia: IFC_B_0485
+                      Desarrollo de interfaces
+           0488                                                                          173           9            5
+                      Código del certificado de competencia: IFC_B_0488
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      575          30           17
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8339                                   Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Programación de software de sistemas.
+           • Código: IFC_C_006_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Desarrollo de Aplicaciones
+                   Multiplataforma.
+              •    Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (18 semanas) (33 semanas)
+
+                      Sistemas informáticos
+           0483                                                                          180          10              5
+                      Código del certificado de competencia: IFC_B_0483
+                      Programación
+           0485                                                                          204          12              6
+                      Código del certificado de competencia: IFC_B_0485
+                      Programación de servicios y procesos
+           0490                                                                          96            6              3
+                      Código del certificado de competencia: IFC_B_0490
+           1782       Prevención de riesgos laborales                                    30            2              1
+                                                                           Duración      510          30             15
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+
+
+
+        Certificado profesional: Desarrollo de aplicaciones web front-end.
+           • Código: IFC_C_007_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Desarrollo de Aplicaciones
+                   Web.
+              •    Nivel: 3.
+
+          Código                                                                                                     Horas
+                                                                                                       Horas
+           Real                              MÓDULOS PROFESIONALES                                     totales
+                                                                                                                   semanales
+          Decreto                                                                                                (33 semanas)
+
+           0373       Lenguajes de marcas y sistemas de gestión de información                          138           4
+           0485       Programación                                                                      202           6
+                      Desarrollo web en entorno cliente
+           0612                                                                                         170           5
+                      Código del certificado de competencia: IFC_B_0612
+                      Despliegue de aplicaciones web
+           0614                                                                                         170           5
+                      Código del certificado de competencia: IFC_B_0614
+                      Diseño de interfaces web
+           0615                                                                                         140           4
+                      Código del certificado de competencia: IFC_B_0615
+           1782       Prevención de riesgos laborales                                                      30         1
+                                                                                         Duración       850          25
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 215 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 300 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8340                                  Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Desarrollo de aplicaciones web back-end.
+           • Código: IFC_C_008_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Desarrollo de Aplicaciones
+                   Web.
+              •    Nivel: 3.
+
+          Código                                                                                                   Horas
+                                                                                                     Horas
+           Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                 semanales
+          Decreto                                                                                              (33 semanas)
+
+                      Sistemas informáticos
+           0483                                                                                       170           5
+                      Código del certificado de competencia: IFC_B_0483
+                      Bases de datos
+           0484                                                                                       170           5
+                      Código del certificado de competencia: IFC_B_0484
+           0485       Programación                                                                    204           6
+                      Desarrollo web en entorno servidor
+           0613                                                                                       236           7
+                      Código del certificado de competencia: IFC_B_0613
+           1782       Prevención de riesgos laborales                                                  30           1
+                                                                                         Duración     810          24
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                   8341                                        Viernes 6 de marzo de 2026
+
+
+
+
+                                                             ANEXO IV
+                                                             ANEXO IV
+
+                                      FAMILIA PROFESIONAL: MADERA, MUEBLE Y CORCHO
+
+                       DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                      (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                              (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+          Certificado profesional: Mecanizado de madera y derivados de carpintería y mueble con equipos
+          manuales y semiautomáticos.
+             • Código: MAM_C_001_4B.
+             • Título de Formación Profesional asociado: Técnico en Carpintería y Mueble.
+             • Nivel: 2.
+            Código                                                                                     Horas        Horas
+                                                                                         Horas
+             Real                         MÓDULOS PROFESIONALES                          totales
+                                                                                                     semanales    semanales
+            Decreto                                                                                (24 semanas) (33 semanas)
+
+                        Operaciones básicas de carpintería
+            0540        Código del certificado de competencia: MAM_B_0540
+                                                                                          202           8              6
+
+                        Operaciones básicas de mobiliario
+             0541                                                                         202           8              6
+                        Código del certificado de competencia: MAM_B_0541
+                        Mecanizado de madera y derivados
+             0544                                                                         200           8              6
+                        Código del certificado de competencia: MAM_B_0544
+                        Mecanizado por control numérico en carpintería y mueble
+             0545                                                                         106           4              3
+                        Código del certificado de competencia: MAM_B_0545
+             1782       Prevención de riesgos laborales                                   30            2              1
+                                                                            Duración      740          30             22
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+          Certificado profesional: Montaje de carpintería y mueble.
+             • Código: MAM_C_002_4B.
+             • Título de Formación Profesional asociado: Técnico en Carpintería y Mueble.
+             • Nivel: 2.
+            Código                                                                                                    Horas
+                                                                                                        Horas
+             Real                            MÓDULOS PROFESIONALES                                      totales
+                                                                                                                    semanales
+            Decreto                                                                                               (17 semanas)
+
+             0538       Materiales en carpintería y mueble                                               139           8
+                        Control de almacén
+             0542                                                                                           64         4
+                        Código del certificado de competencia: MAM_B_0542
+                        Montaje de carpintería y mueble
+             0546                                                                                        106           6
+                        Código del certificado de competencia: MAM_B_0546
+                        Acabados en carpintería y mueble
+             0547                                                                                        106           6
+                        Código del certificado de competencia: MAM_B_0547
+             1782       Prevención de riesgos laborales                                                     30         2
+                                                                                          Duración       445          26
+          En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 115 horas
+          En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                    boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                 8342                                     Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Instalación de estructuras de madera y elementos de carpintería.
+           • Código: MAM_C_003_4B.
+           • Título de Formación Profesional asociado: Técnico en Instalación y Amueblamiento.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (26 semanas) (33 semanas)
+
+                      Operaciones básicas de carpintería
+           0540                                                                          204           7            6
+                      Código del certificado de competencia: MAM_B_0540
+                      Control de almacén
+           0542                                                                          64            3            2
+                      Código del certificado de competencia: MAM_B_0542
+                      Planificación de la instalación
+           0778                                                                          206           7            6
+                      Código del certificado de competencia: MAM_B_0778
+                      Instalación de carpintería
+           0780                                                                          205           7            6
+                      Código del certificado de competencia: MAM_B_0780
+                      Instalación de estructuras de madera
+           0781                                                                          96            4            3
+                      Código del certificado de competencia: MAM_B_0781
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      805          30           24
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+        Certificado profesional: Instalación de mobiliario.
+           • Código: MAM_C_004_4B.
+           • Título de Formación Profesional asociado: Técnico en Instalación y Amueblamiento.
+           • Nivel: 2.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Operaciones básicas de mobiliario
+           0541
+                      Código del certificado de competencia: MAM_B_0541
+                                                                                         205           8            6
+
+                      Control de almacén
+           0542
+                      Código del certificado de competencia: MAM_B_0542
+                                                                                         64            3            2
+
+                      Planificación de la instalación
+           0778
+                      Código del certificado de competencia: MAM_B_0778
+                                                                                         206           9            6
+
+                      Instalación de mobiliario
+           0779
+                      Código del certificado de competencia: MAM_B_0779
+                                                                                         205           8            6
+
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      710          30           21
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+          Boletín Oficial de Canarias núm. 45                     8343                                 Viernes 6 de marzo de 2026
+
+
+
+
+        Certificado profesional: Diseño y desarrollo de productos en carpintería y mueble.
+           • Código: MAM_C_001_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Diseño y Amueblamiento.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (20 semanas) (33 semanas)
+
+                      Representación en carpintería y mobiliario
+           0984                                                                          138           7            4
+                      Código del certificado de competencia: MAM_B_0984
+                      Desarrollo de producto en carpintería y mueble
+           0986                                                                          173           8            5
+                      Código del certificado de competencia: MAM_B_0986
+                      Diseño de carpintería y mueble
+           0989                                                                          173           8            5
+                      Código del certificado de competencia: MAM_B_0989
+                      Gestión de la producción en carpintería y mueble
+           0990                                                                          96            5            3
+                      Código del certificado de competencia: MAM_B_0990
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      610          30           18
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 155 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 215 horas
+
+
+
+        Certificado profesional: Prototipos, automatización e instalación en carpintería y mobiliario.
+           • Código: MAM_C_002_5B.
+           • Título de Formación Profesional asociado: Técnico Superior en Diseño y Amueblamiento.
+           • Nivel: 3.
+
+          Código                                                                                      Horas        Horas
+                                                                                        Horas
+           Real                           MÓDULOS PROFESIONALES                         totales
+                                                                                                    semanales    semanales
+          Decreto                                                                                 (24 semanas) (33 semanas)
+
+                      Prototipos en carpintería y mueble
+           0985
+                      Código del certificado de competencia: MAM_B_0985
+                                                                                         171           7            5
+
+                      Automatización en carpintería y mueble
+           0987
+                      Código del certificado de competencia: MAM_B_0987
+                                                                                         238           9            7
+
+                      Instalaciones de carpintería y mobiliario
+           0988
+                      Código del certificado de competencia: MAM_B_0988
+                                                                                         205           8            6
+
+                      Gestión de la producción en carpintería y mueble
+           0990
+                      Código del certificado de competencia: MAM_B_0990
+                                                                                         96            4            3
+
+           1782       Prevención de riesgos laborales                                    30            2            1
+                                                                           Duración      740          30           22
+         En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+         En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2026-045-734
+

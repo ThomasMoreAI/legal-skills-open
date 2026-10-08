@@ -1,0 +1,10 @@
+id: REL-070
+tipo_relacion: "desarrolla"
+origen: NOR-085
+destino: NOR-080
+descripcion: "La Resolución de 26 de noviembre de 2025 concreta en Canarias los artículos 22.4.d, 84, 111 y 115 del Real Decreto 659/2023 sobre dobles titulaciones de Grado D, currículo integrado y admisión."
+evidencia:
+  fuente: FTE-092
+  localizacion: "Fundamentos de derecho de la Resolución de 26 de noviembre de 2025."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -1,0 +1,11 @@
+id: REL-048
+tipo_relacion: "deroga"
+origen: NOR-050
+destino: NOR-025
+descripcion: "La Orden de 29 de mayo de 2023 deroga los capítulos referidos a procedimientos de la anterior Orden de 13 de diciembre de 2010 (NEAE)."
+evidencia:
+  fuente: FTE-053
+  localizacion: "Disposición derogatoria única de la Orden de 29 de mayo de 2023."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"
+observaciones: "[PENDIENTE] (2026-08-05) La norma de origen (NOR-050) no se ha localizado en el BOC (PREG-012). Mientras no se verifique, ESTA DEROGACIÓN NO DEBE DARSE POR BUENA: NOR-025, la Orden de 13 de diciembre de 2010, debe considerarse vigente. La localización citada —disposición derogatoria única— remite a un texto que no se ha podido encontrar. — Observación original: Supone el fin de la vigencia de la mayoría de los procedimientos de la etapa LOMCE."

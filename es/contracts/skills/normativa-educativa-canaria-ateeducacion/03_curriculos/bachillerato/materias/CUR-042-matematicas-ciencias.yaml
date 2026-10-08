@@ -1,0 +1,124 @@
+id: CUR-042
+titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
+etapa: "bachillerato"
+materia: "Matemáticas"
+cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Modelizar y resolver problemas de la vida cotidiana y de la ciencia y la tecnología aplicando diferentes estrategias y formas de razonamiento para obtener posibles soluciones."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3]
+        "2.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CC3, CE3]
+    - codigo: "C2"
+      enunciado_oficial: "Verificar la validez de las posibles soluciones de un problema empleando el razonamiento y la argumentación para contrastar su idoneidad."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3]
+        "2.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CC3, CE3]
+    - codigo: "C3"
+      enunciado_oficial: "Formular o investigar conjeturas o problemas, utilizando el razonamiento, la argumentación, la creatividad y el uso de herramientas tecnológicas, para generar nuevo conocimiento matemático."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CC3, CE3]
+        "2.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3]
+    - codigo: "C4"
+      enunciado_oficial: "Utilizar el pensamiento computacional de forma eficaz, modificando, creando y generalizando algoritmos que resuelvan problemas mediante el uso de las matemáticas, para modelizar y resolver situaciones de la vida cotidiana y del ámbito de la ciencia y la tecnología."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CC3, CE3]
+        "2.º Bachillerato": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3]
+    - codigo: "C5"
+      enunciado_oficial: "Establecer, investigar y utilizar conexiones entre las diferentes ideas matemáticas estableciendo vínculos entre conceptos, procedimientos, argumentos y modelos para dar significado y estructurar el aprendizaje matemático."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, STEM1, STEM2, STEM3, CD1, CD2, CD3, CPSAA5, CC4, CE3, CCEC1]
+        "2.º Bachillerato": [CCL2, CCL3, STEM1, STEM2, STEM3, CD1, CD2, CD3, CPSAA5, CC4, CE3, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Descubrir los vínculos de las matemáticas con otras áreas de conocimiento y profundizar en sus conexiones, interrelacionando conceptos y procedimientos, para modelizar, resolver problemas y desarrollar la capacidad crítica, creativa e innovadora en situaciones diversas."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, STEM1, STEM2, STEM3, CD1, CD2, CD3, CPSAA5, CC4, CE3, CCEC1]
+        "2.º Bachillerato": [CCL2, CCL3, STEM1, STEM2, STEM3, CD1, CD2, CD3, CPSAA5, CC4, CE3, CCEC1]
+    - codigo: "C7"
+      enunciado_oficial: "Representar conceptos, procedimientos e información matemática seleccionando diferentes tecnologías, para visualizar ideas y estructurar razonamientos matemáticos."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3.2, CCEC4.1, CCEC4.2]
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2]
+    - codigo: "C8"
+      enunciado_oficial: "Comunicar las ideas matemáticas, de forma individual y colectiva, empleando el soporte, la terminología y el rigor apropiados, para organizar y consolidar el pensamiento matemático."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3.2, CCEC4.1, CCEC4.2]
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2]
+    - codigo: "C9"
+      enunciado_oficial: "Utilizar destrezas personales y sociales, identificando y gestionando las propias emociones, respetando las de los demás y organizando activamente el trabajo en equipos heterogéneos, aprendiendo del error como parte del proceso de aprendizaje y afrontando situaciones de incertidumbre, para perseverar en la consecución de objetivos en el aprendizaje de las matemáticas."
+      descriptores:
+        "1.º Bachillerato": [CCL1, STEM5, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3, CE2]
+        "2.º Bachillerato": [CCL1, STEM5, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3, CE2]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - "1.1. Manejar diferentes estrategias y herramientas, incluidas las digitales, valorando su eficiencia en cada caso, buscando un cambio de estrategia, cuando sea necesario, y reflexionando sobre el proceso realizado para describir, analizar y ampliar la comprensión de situaciones y modelizar problemas de la vida cotidiana y de la ciencia y la tecnología."
+        - "1.2. Obtener todas las posibles soluciones matemáticas de problemas con autonomía y actitud cooperativa, describiendo el procedimiento realizado, utilizando, si fuera necesario, tecnologías digitales, con el fin de resolver problemas de la vida cotidiana y de la ciencia y la tecnología."
+        - "2.1. Comprobar la validez matemática de las posibles soluciones de un problema, utilizando el razonamiento y la argumentación, con el apoyo de tecnologías digitales, para obtener conclusiones lógicas de forma autónoma y valorar la fiabilidad del proceso seguido."
+        - "2.2. Seleccionar la solución más adecuada de un problema en función del contexto usando el razonamiento y la argumentación con actitud respetuosa, y con la ayuda de tecnologías digitales, para contrastar su idoneidad y desarrollar el espíritu crítico y emprendedor."
+        - "3.1. Formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas, utilizando varias fuentes de información, planteándose preguntas, comprobando hipótesis mediante la observación, la experimentación y la indagación y confirmando su validez."
+        - "4.1. Modificar y crear algoritmos utilizando la abstracción para identificar los aspectos más relevantes, descomponiendo el problema en tareas más simples que se puedan codificar en un lenguaje apropiado y seleccionando las tecnologías más adecuadas para interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y de la ciencia y la tecnología."
+        - "5.1. Conectar las diferentes ideas matemáticas buscando, identificando e investigando los vínculos existentes a través de proyectos, problemas y tecnologías digitales para desarrollar una mayor comprensión de los conceptos, procedimientos y argumentos y ampliar recursos matemáticos."
+        - "5.2. Resolver problemas de la vida cotidiana y de la ciencia y la tecnología estableciendo y aplicando conexiones entre las diferentes ideas matemáticas, utilizando tecnologías digitales si fuera preciso, para generar una visión integrada de las matemáticas."
+        - "6.1. Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáticos con otras áreas de conocimiento referentes a la ciencia y la tecnología y con la vida real, reflexionando sobre dichos vínculos, buscando, seleccionando y contrastando información procedente de diferentes fuentes."
+        - "6.2. Analizar la aportación de las matemáticas al progreso de la humanidad y estudiar el papel de matemáticas y matemáticos a lo largo de la historia, apreciando aspectos esenciales del patrimonio cultural y artístico para valorar su contribución al resolver situaciones complejas y diferentes retos que se plantean en la sociedad."
+        - "7.1. Representar conceptos, procedimientos e información matemática activando y organizando conocimientos, de manera manual o digital, utilizando la tecnología más adecuada, para visualizar ideas y estructurar razonamientos matemáticos."
+        - "7.2. Seleccionar, utilizar o combinar diversas formas de representación matemática y tecnologías valorando su utilidad para crear y compartir información sobre proyectos, investigaciones o procesos matemáticos."
+        - "8.1. Mostrar organización y comprensión al comunicar hechos, ideas, conceptos y procedimientos de forma verbal, analítica y gráficamente, de manera individual y colectiva, con la terminología y el rigor apropiados, empleando o creando contenidos digitales en diversos medios y soportes."
+        - "8.2. Reconocer el lenguaje matemático presente en diferentes contextos comprendiendo e interpretando textos orales, escritos y multimodales y emplearlo para comunicar la información."
+        - "9.1. Perseverar en la consecución de objetivos ante situaciones de incertidumbre, identificando y gestionando emociones, reflexionando sobre las fortalezas y debilidades propias, con el fin de crear resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
+        - "9.2. Aceptar y aprender de la crítica razonada respetando distintos puntos de vista con actitud dialogante, positiva y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, para integrar el error como parte del proceso de aprendizaje."
+        - "9.3. Participar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones, experiencias y diversidad de los demás y escuchando su razonamiento, aplicando las habilidades sociales más propicias, rechazando todo tipo de discriminación y violencia, promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres."
+    - curso: "2.º Bachillerato"
+      criterios:
+        - "1.1. Manejar diferentes estrategias y herramientas, incluidas las digitales, seleccionando la más adecuada según su eficiencia, buscando un cambio de estrategia cuando sea necesario, y reflexionando sobre el proceso realizado para describir, analizar y ampliar la comprensión de situaciones y modelizar problemas de la vida cotidiana y de la ciencia y la tecnología."
+        - "1.2. Obtener todas las posibles soluciones matemáticas de problemas con autonomía y actitud cooperativa, describiendo el procedimiento realizado, utilizando, si fuera necesario, tecnologías digitales, con el fin de resolver problemas de la vida cotidiana y de la ciencia y la tecnología."
+        - "2.1. Demostrar la validez matemática de las posibles soluciones de un problema, utilizando el razonamiento y la argumentación, seleccionando entre diferentes modos de comprobación de soluciones o estrategias, con el apoyo de tecnologías digitales, para obtener conclusiones lógicas de forma autónoma y valorar la fiabilidad del proceso seguido."
+        - "2.2. Seleccionar la solución más adecuada de un problema en función del contexto usando el razonamiento y la argumentación con actitud respetuosa y con la ayuda de tecnologías digitales, para contrastar su idoneidad y desarrollar el espíritu crítico y emprendedor."
+        - "3.1. Formular, investigar y justificar conjeturas y problemas con creatividad y autonomía, integrando el uso de herramientas tecnológicas, utilizando varias fuentes de información, planteándose preguntas, comprobando hipótesis mediante la observación, la experimentación y la indagación y confirmando su validez."
+        - "4.1. Modificar, crear y generalizar algoritmos utilizando la abstracción para identificar los aspectos más relevantes, descomponiendo el problema en tareas más simples que se puedan codificar en un lenguaje apropiado, reflexionando sobre el proceso realizado y seleccionando las tecnologías más adecuadas para interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y del ámbito de la ciencia y de la tecnología."
+        - "5.1. Conectar las diferentes ideas matemáticas buscando, identificando e investigando los vínculos existentes a través de proyectos, problemas y tecnologías digitales para desarrollar una mayor comprensión de los conceptos, procedimientos, argumentos y modelos y ampliar recursos matemáticos."
+        - "5.2. Resolver problemas de la vida cotidiana y de la ciencia y la tecnología estableciendo y aplicando conexiones entre las diferentes ideas matemáticas, utilizando tecnologías digitales si fuera preciso, para generar una visión integrada de las matemáticas."
+        - "6.1. Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáticos con otras áreas de conocimiento referentes a la ciencia y la tecnología y con la vida real, reflexionando sobre dichos vínculos, buscando, seleccionando y contrastando información procedente de diferentes fuentes, mediante el uso de tecnologías digitales para modelizar, resolver problemas y desarrollar una capacidad crítica, creativa e innovadora."
+        - "6.2. Analizar la aportación de las matemáticas al progreso de la humanidad y estudiar el papel de matemáticas y matemáticos a lo largo de la historia, apreciando aspectos esenciales del patrimonio cultural y artístico y demostrando un compromiso ético y responsable con el entorno."
+        - "7.1. Representar conceptos, procedimientos e información matemática activando y organizando conocimientos, de manera manual o digital, utilizando la tecnología más adecuada, para visualizar ideas y estructurar razonamientos matemáticos."
+        - "7.2. Seleccionar, utilizar y combinar diversas formas de representación matemática y tecnologías, valorando su utilidad para crear y compartir información sobre proyectos, investigaciones o procesos matemáticos."
+        - "8.1. Mostrar organización y comprensión al comunicar hechos, ideas, conceptos y procedimientos complejos de forma verbal, analítica y gráficamente, de manera individual y colectiva, con la terminología y el rigor apropiados, empleando o creando contenidos digitales en diversos medios y soportes."
+        - "8.2. Reconocer el lenguaje matemático presente en diferentes contextos comprendiendo e interpretando textos orales, escritos y multimodales y emplearlo para comunicar la información."
+        - "9.1. Perseverar en la consecución de objetivos ante situaciones de incertidumbre, tomando decisiones, identificando y gestionando emociones, reflexionando sobre las fortalezas y debilidades propias, con el fin de crear resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
+        - "9.2. Aceptar y aprender de la crítica razonada respetando distintos puntos de vista con actitud dialogante, positiva y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, para integrar el error como parte del proceso de aprendizaje, construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y social."
+        - "9.3. Trabajar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones, experiencias y diversidad de los demás y escuchando su razonamiento, aplicando las habilidades sociales más propicias, rechazando todo tipo de discriminación y violencia, promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres."
+  saberes_basicos:
+    - bloque: "Bloque I — Sentido numérico"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Sentido de las operaciones con números reales y vectores (1.º); adición y producto de vectores y matrices, matriz inversa, determinantes y rango de una matriz (2.º)."
+    - bloque: "Bloque II — Sentido de la medida"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Límites, continuidad, asíntotas y derivada de una función (1.º); medidas de longitud, superficie y volumen, integral definida como área bajo una curva, técnicas de cálculo de primitivas, derivadas y regla de L'Hôpital, y derivada como razón de cambio en problemas de optimización (2.º)."
+    - bloque: "Bloque III — Sentido espacial"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Formas geométricas de dos dimensiones, localización y sistemas de representación, ecuaciones de la recta en el plano, visualización, razonamiento y modelización geométrica (1.º); objetos geométricos de tres dimensiones, ecuaciones de la recta y del plano en el espacio, y modelización de la posición y el movimiento mediante vectores (2.º)."
+    - bloque: "Bloque IV — Sentido algebraico"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Patrones, modelo matemático, igualdad y desigualdad, relaciones y funciones (polinómicas, exponenciales, irracionales, racionales, logarítmicas, trigonométricas y a trozos), y pensamiento computacional (1.º); sistemas de ecuaciones lineales, uso de matrices, método de Gauss, regla de Cramer, y análisis algorítmico de operaciones con matrices (2.º)."
+    - bloque: "Bloque V — Sentido estocástico"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Organización y análisis de datos de variables bidimensionales, regresión lineal o cuadrática, coeficientes de correlación, incertidumbre y regla de Laplace, e inferencia con tecnologías digitales (1.º); probabilidad condicionada e independencia, teoremas de la probabilidad total y de Bayes, y distribuciones de probabilidad binomial y normal (2.º)."
+    - bloque: "Bloque VI — Sentido socioafectivo"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Creencias, actitudes y emociones ante el aprendizaje de las matemáticas, tratamiento del error como oportunidad de aprendizaje, trabajo en equipo y toma de decisiones, e inclusión, respeto y diversidad, con valoración de la contribución de las matemáticas y de matemáticos y matemáticas a lo largo de la historia."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD5", "CPSAA1.1", "CPSAA1.2", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE2", "CE3", "CCEC1", "CCEC3.2", "CCEC4.1", "CCEC4.2"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+resumen_ia: "Currículo de Matemáticas I y II en Bachillerato Canarias, modalidad de Ciencias y Tecnología, regulado por el Decreto 30/2023, con nueve competencias específicas (C1-C9) impartidas en 1.º y 2.º de Bachillerato, y diecisiete criterios de evaluación por curso. Las competencias se agrupan en cinco bloques competenciales del decreto (C1+C2, C3+C4, C5+C6, C7+C8 y C9), que comparten un mismo listado de descriptores operativos por curso. Saberes organizados en seis bloques: sentido numérico, de la medida, espacial, algebraico, estocástico y socioafectivo."
+observaciones: "Extracción completada el 2026-08-05 a partir del texto oficial 07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt (introducción de las 9 competencias líneas ~62345-62488; 1.º Bachillerato líneas ~62626-62878; 2.º Bachillerato líneas ~63011-63270). [INTERPRETACIÓN] El decreto agrupa las nueve competencias específicas en cinco bloques competenciales (tablas), y el bloque de descriptores operativos que figura junto al enunciado se aplica conjuntamente a las dos competencias que comparten bloque (C1+C2, C3+C4, C5+C6, C7+C8); C9 va sola. Se ha asignado ese mismo descriptor de bloque a cada competencia del par, siguiendo la misma convención que aplica la herramienta de auditoría 11_calidad/extraer_descriptores.py."

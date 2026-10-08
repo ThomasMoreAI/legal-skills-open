@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/verificador_output.json",
+  "title": "juriscan-verificador output",
+  "description": "Output of the web verifier subagent. Whitelist enforcement is layered ON TOP of this schema: scripts/agent_io.py validate --agent verificador additionally checks that every source_url host matches references/whitelist_fontes.json (subdomain match allowed). An output can be schema-valid but whitelist-invalid; both must pass for the pipeline to consume it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "verifications"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "verifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "tipo",
+          "citacao_original",
+          "status",
+          "source_url",
+          "access_date"
+        ],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": ["PRECEDENTE", "LEGISLACAO", "SUMULA", "ENUNCIADO", "OUTRO"]
+          },
+          "citacao_original": {
+            "type": "string",
+            "minLength": 3,
+            "description": "Exact citation as it appears in the legal piece."
+          },
+          "status": {
+            "type": "string",
+            "enum": ["CONFIRMADO", "DIVERGENTE", "NAO_ENCONTRADO"]
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL actually fetched by WebFetch during this run. Whitelist enforcement is post-hoc."
+          },
+          "access_date": {
+            "type": "string",
+            "format": "date",
+            "description": "YYYY-MM-DD date when the WebFetch was performed."
+          },
+          "trecho_oficial": {
+            "type": "string",
+            "description": "Literal snippet from the fetched page supporting the status. Required when status=CONFIRMADO or DIVERGENTE."
+          },
+          "divergencia": {
+            "type": ["string", "null"],
+            "description": "When status=DIVERGENTE, short explanation of how the piece's use diverges from the official source."
+          },
+          "fetched_title": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

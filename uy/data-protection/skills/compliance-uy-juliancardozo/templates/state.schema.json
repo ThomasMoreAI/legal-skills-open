@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "compliance-uy state.json",
+  "type": "object",
+  "required": ["empresa", "fecha", "version_skill", "fuentes", "controles"],
+  "properties": {
+    "empresa": {
+      "type": "object",
+      "properties": {
+        "razon_social": { "type": "string" },
+        "rut": { "type": "string" },
+        "domicilio": { "type": "string" },
+        "contacto": { "type": "string" },
+        "representante": { "type": "string" },
+        "responsable_datos": { "type": "string" }
+      }
+    },
+    "fecha": { "type": "string", "format": "date" },
+    "version_skill": { "type": "string" },
+    "fuentes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Archivos de /sources usados como base de las citas."
+    },
+    "controles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "estado", "riesgo"],
+        "properties": {
+          "id": { "type": "string", "examples": ["C-01"] },
+          "nombre": { "type": "string" },
+          "estado": {
+            "type": "string",
+            "enum": ["cumple", "parcial", "no_cumple", "no_aplica", "requiere_revision"]
+          },
+          "riesgo": { "type": "string", "enum": ["alto", "medio", "bajo"] },
+          "base_legal": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Ej: 'Ley 18.331 art. 9 — sources/ley-18331.md'"
+          },
+          "evidencia": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "archivo": { "type": "string" },
+                "linea": { "type": "integer" },
+                "nota": { "type": "string" }
+              },
+              "required": ["archivo"]
+            }
+          },
+          "remediacion": { "type": "string" },
+          "verificar": {
+            "type": "boolean",
+            "description": "true si la conclusión depende de algo marcado [verificar contra fuente oficial]"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,731 @@
+REL-001:
+  tipo_relacion: "modifica"
+  origen: NOR-002
+  destino: NOR-001
+  fuente: FTE-006
+  ruta: "05_relaciones/normativa/REL-001-lomloe-modifica-loe.yaml"
+
+REL-002:
+  tipo_relacion: "desarrolla"
+  origen: NOR-003
+  destino: NOR-001
+  fuente: FTE-007
+  ruta: "05_relaciones/normativa/REL-002-rd-217-2022-desarrolla-eso.yaml"
+
+REL-003:
+  tipo_relacion: "relaciona"
+  origen: NOR-004
+  destino: NOR-001
+  fuente: FTE-008
+  ruta: "05_relaciones/normativa/REL-003-ley-canaria-6-2014-relacion-loe-lomloe.yaml"
+
+REL-004:
+  tipo_relacion: "desarrolla"
+  origen: NOR-005
+  destino: NOR-003
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-004-decreto-30-2023-desarrolla-rd-217-2022.yaml"
+
+REL-005:
+  tipo_relacion: "relaciona"
+  origen: NOR-005
+  destino: NOR-004
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-005-decreto-30-2023-marco-canario.yaml"
+
+REL-006:
+  tipo_relacion: "desarrolla"
+  origen: NOR-006
+  destino: NOR-002
+  fuente: FTE-011
+  ruta: "05_relaciones/normativa/REL-006-rd-243-2022-desarrolla-loe-lomloe.yaml"
+
+REL-007:
+  tipo_relacion: "desarrolla"
+  origen: NOR-005
+  destino: NOR-006
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-007-decreto-30-2023-desarrolla-rd-243-2022.yaml"
+
+REL-008:
+  tipo_relacion: "relaciona"
+  origen: NOR-007
+  destino: NOR-002
+  fuente: FTE-016
+  ruta: "05_relaciones/normativa/REL-008-lofp-relaciona-loe-lomloe.yaml"
+
+REL-009:
+  tipo_relacion: "desarrolla"
+  origen: NOR-009
+  destino: NOR-004
+  fuente: FTE-017
+  ruta: "05_relaciones/normativa/REL-009-roc-desarrolla-ley-canaria.yaml"
+
+REL-010:
+  tipo_relacion: "desarrolla"
+  origen: NOR-010
+  destino: NOR-004
+  fuente: FTE-018
+  ruta: "05_relaciones/normativa/REL-010-convivencia-desarrolla-ley-canaria.yaml"
+
+REL-011:
+  tipo_relacion: "desarrolla"
+  origen: NOR-013
+  destino: NOR-011
+  fuente: FTE-021
+  ruta: "05_relaciones/normativa/REL-011-orden-inspeccion-desarrolla-decreto.yaml"
+
+REL-012:
+  tipo_relacion: "modifica"
+  origen: NOR-016
+  destino: NOR-015
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-012-orden-03-12-2003-modifica-orden-20-10-2000.yaml"
+
+REL-016:
+  tipo_relacion: "relaciona"
+  origen: NOR-019
+  destino: NOR-020
+  fuente: FTE-022
+  ruta: "05_relaciones/normativa/REL-016-ley-canaria-relaciona-trebep.yaml"
+
+REL-017:
+  tipo_relacion: "desarrolla"
+  origen: NOR-021
+  destino: NOR-019
+  fuente: FTE-024
+  ruta: "05_relaciones/normativa/REL-017-interinos-desarrolla-ley-canaria.yaml"
+
+REL-018:
+  tipo_relacion: "relaciona"
+  origen: NOR-022
+  destino: NOR-020
+  fuente: FTE-025
+  ruta: "05_relaciones/normativa/REL-018-direccion-relaciona-trebep.yaml"
+
+REL-019:
+  tipo_relacion: "relaciona"
+  origen: NOR-023
+  destino: NOR-020
+  fuente: FTE-026
+  ruta: "05_relaciones/normativa/REL-019-permisos-relaciona-trebep.yaml"
+
+REL-020:
+  tipo_relacion: "desarrolla"
+  origen: NOR-024
+  destino: NOR-004
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-020-decreto-25-2018-desarrolla-ley-canaria.yaml"
+
+REL-021:
+  tipo_relacion: "relaciona"
+  origen: NOR-024
+  destino: NOR-002
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-021-decreto-25-2018-relaciona-lomloe.yaml"
+
+REL-022:
+  tipo_relacion: "desarrolla"
+  origen: NOR-025
+  destino: NOR-024
+  fuente: FTE-028
+  ruta: "05_relaciones/normativa/REL-022-orden-neae-desarrolla-diversidad.yaml"
+
+REL-023:
+  tipo_relacion: "desarrolla"
+  origen: NOR-026
+  destino: NOR-025
+  fuente: FTE-029
+  ruta: "05_relaciones/normativa/REL-023-resolucion-neae-desarrolla-orden.yaml"
+
+REL-024:
+  tipo_relacion: "relaciona"
+  origen: NOR-027
+  destino: NOR-024
+  fuente: FTE-030
+  ruta: "05_relaciones/normativa/REL-024-atencion-temprana-relaciona-diversidad.yaml"
+
+REL-025:
+  tipo_relacion: "desarrolla"
+  origen: NOR-028
+  destino: NOR-025
+  fuente: FTE-031
+  ruta: "05_relaciones/normativa/REL-025-aulas-enclave-desarrolla-orden-neae.yaml"
+
+REL-026:
+  tipo_relacion: "desarrolla"
+  origen: NOR-029
+  destino: NOR-004
+  fuente: FTE-032
+  ruta: "05_relaciones/normativa/REL-026-decreto-admision-desarrolla-ley-canaria.yaml"
+
+REL-027:
+  tipo_relacion: "desarrolla"
+  origen: NOR-030
+  destino: NOR-029
+  fuente: FTE-033
+  ruta: "05_relaciones/normativa/REL-027-orden-admision-desarrolla-decreto.yaml"
+
+REL-028:
+  tipo_relacion: "relaciona"
+  origen: NOR-031
+  destino: NOR-004
+  fuente: FTE-034
+  ruta: "05_relaciones/normativa/REL-028-menores-relaciona-ley-canaria-educacion.yaml"
+
+REL-029:
+  tipo_relacion: "relaciona"
+  origen: NOR-032
+  destino: NOR-010
+  fuente: FTE-035
+  ruta: "05_relaciones/normativa/REL-029-igualdad-lgtbi-relaciona-convivencia.yaml"
+
+REL-030:
+  tipo_relacion: "relaciona"
+  origen: NOR-033
+  destino: NOR-004
+  fuente: FTE-036
+  ruta: "05_relaciones/normativa/REL-030-reglamento-organico-relaciona-ley-canaria.yaml"
+
+REL-031:
+  tipo_relacion: "desarrolla"
+  origen: NOR-034
+  destino: NOR-004
+  fuente: FTE-037
+  ruta: "05_relaciones/normativa/REL-031-comedores-desarrolla-servicios-complementarios.yaml"
+
+REL-032:
+  tipo_relacion: "desarrolla"
+  origen: NOR-035
+  destino: NOR-004
+  fuente: FTE-038
+  ruta: "05_relaciones/normativa/REL-032-transporte-desarrolla-servicios-complementarios.yaml"
+
+REL-033:
+  tipo_relacion: "desarrolla"
+  origen: NOR-036
+  destino: NOR-004
+  fuente: FTE-039
+  ruta: "05_relaciones/normativa/REL-033-residencias-desarrolla-servicios-complementarios.yaml"
+
+REL-034:
+  tipo_relacion: "desarrolla"
+  origen: NOR-037
+  destino: NOR-024
+  fuente: FTE-040
+  ruta: "05_relaciones/normativa/REL-034-orden-diversidad-desarrolla-decreto.yaml"
+
+REL-035:
+  tipo_relacion: "desarrolla"
+  origen: NOR-041
+  destino: NOR-024
+  fuente: FTE-044
+  ruta: "05_relaciones/normativa/REL-035-instrucciones-diversidad.yaml"
+
+REL-036:
+  tipo_relacion: "relaciona"
+  origen: NOR-038
+  destino: NOR-029
+  fuente: FTE-041
+  ruta: "05_relaciones/normativa/REL-036-resolucion-admision.yaml"
+
+REL-037:
+  tipo_relacion: "desarrolla"
+  origen: NOR-039
+  destino: NOR-024
+  fuente: FTE-042
+  ruta: "05_relaciones/normativa/REL-037-instrucciones-diversidad-24-25.yaml"
+
+REL-038:
+  tipo_relacion: "desarrolla"
+  origen: NOR-040
+  destino: NOR-024
+  fuente: FTE-043
+  ruta: "05_relaciones/normativa/REL-038-instrucciones-diversidad-25-26.yaml"
+
+REL-039:
+  tipo_relacion: "relaciona"
+  origen: NOR-012
+  destino: NOR-007
+  fuente: FTE-020
+  ruta: "05_relaciones/normativa/REL-039-roc-cifp-relaciona-lofp.yaml"
+
+REL-040:
+  tipo_relacion: "desarrolla"
+  origen: NOR-024
+  destino: NOR-004
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-040-decreto-25-2018-desarrolla-ley-canaria.yaml"
+
+REL-041:
+  tipo_relacion: "relaciona"
+  origen: NOR-028
+  destino: NOR-024
+  fuente: FTE-031
+  ruta: "05_relaciones/normativa/REL-041-aulas-enclave-relaciona-decreto-diversidad.yaml"
+
+REL-042:
+  tipo_relacion: "desarrolla"
+  origen: NOR-041
+  destino: NOR-024
+  fuente: FTE-044
+  ruta: "05_relaciones/normativa/REL-042-instrucciones-26-27-desarrolla-decreto-diversidad.yaml"
+
+REL-043:
+  tipo_relacion: "relaciona"
+  origen: NOR-014
+  destino: NOR-007
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-043-acceso-fp-relaciona-lofp.yaml"
+
+REL-044:
+  tipo_relacion: "relaciona"
+  origen: NOR-015
+  destino: NOR-007
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-044-evaluacion-fp-relaciona-lofp.yaml"
+
+REL-045:
+  tipo_relacion: "desarrolla"
+  origen: NOR-008
+  destino: NOR-004
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-045-decreto-fp-desarrolla-ley-canaria.yaml"
+
+REL-046:
+  tipo_relacion: "deroga"
+  origen: NOR-042
+  destino: NOR-023
+  fuente: FTE-045
+  ruta: "05_relaciones/normativa/REL-046-resolucion-2026-deroga-2020.yaml"
+
+REL-047:
+  tipo_relacion: "desarrolla"
+  origen: NOR-050
+  destino: NOR-024
+  fuente: FTE-053
+  ruta: "05_relaciones/normativa/REL-047-orden-procedimientos-desarrolla-decreto-diversidad.yaml"
+
+REL-048:
+  tipo_relacion: "deroga"
+  origen: NOR-050
+  destino: NOR-025
+  fuente: FTE-053
+  ruta: "05_relaciones/normativa/REL-048-orden-2023-deroga-orden-2010.yaml"
+
+REL-049:
+  tipo_relacion: "desarrolla"
+  origen: NOR-061
+  destino: NOR-007
+  fuente: FTE-068
+  ruta: "05_relaciones/normativa/REL-049-resolucion-evaluacion-fp-desarrolla-lofp.yaml"
+
+REL-050:
+  tipo_relacion: "modifica"
+  origen: NOR-059
+  destino: NOR-061
+  fuente: FTE-055
+  ruta: "05_relaciones/normativa/REL-050-resolucion-modificacion-evaluacion-fp-modifica-resolucion-junio.yaml"
+
+REL-051:
+  tipo_relacion: "desarrolla"
+  origen: NOR-062
+  destino: NOR-007
+  fuente: FTE-069
+  ruta: "05_relaciones/normativa/REL-051-optativos-fp-desarrolla-lofp.yaml"
+
+REL-052:
+  tipo_relacion: "sustituye"
+  origen: NOR-063
+  destino: NOR-062
+  fuente: FTE-070
+  ruta: "05_relaciones/normativa/REL-052-listado-definitivo-optativos-fp-sustituye-provisional.yaml"
+
+REL-053:
+  tipo_relacion: "desarrolla"
+  origen: NOR-063
+  destino: NOR-007
+  fuente: FTE-070
+  ruta: "05_relaciones/normativa/REL-053-listado-definitivo-optativos-fp-desarrolla-lofp.yaml"
+
+REL-054:
+  tipo_relacion: "corrige"
+  origen: NOR-064
+  destino: NOR-063
+  fuente: FTE-071
+  ruta: "05_relaciones/normativa/REL-054-correccion-256-corrige-listado-definitivo-optativos-fp.yaml"
+
+REL-055:
+  tipo_relacion: "corrige"
+  origen: NOR-066
+  destino: NOR-063
+  fuente: FTE-073
+  ruta: "05_relaciones/normativa/REL-055-correccion-272-corrige-listado-definitivo-optativos-fp.yaml"
+
+REL-056:
+  tipo_relacion: "desarrolla"
+  origen: NOR-065
+  destino: NOR-007
+  fuente: FTE-072
+  ruta: "05_relaciones/normativa/REL-056-prospeccion-concurso-meritos-fp-desarrolla-lofp.yaml"
+
+REL-057:
+  tipo_relacion: "desarrolla"
+  origen: NOR-067
+  destino: NOR-007
+  fuente: FTE-074
+  ruta: "05_relaciones/normativa/REL-057-protocolo-fp-fecam-desarrolla-lofp.yaml"
+
+REL-058:
+  tipo_relacion: "desarrolla"
+  origen: NOR-068
+  destino: NOR-001
+  fuente: FTE-075
+  ruta: "05_relaciones/normativa/REL-058-decreto-120-2026-desarrolla-marco-educativo-digital.yaml"
+
+REL-059:
+  tipo_relacion: "desarrolla"
+  origen: NOR-069
+  destino: NOR-007
+  fuente: FTE-076
+  ruta: "05_relaciones/normativa/REL-059-resolucion-2024-desarrolla-lofp.yaml"
+
+REL-060:
+  tipo_relacion: "modifica"
+  origen: NOR-070
+  destino: NOR-069
+  fuente: FTE-077
+  ruta: "05_relaciones/normativa/REL-060-resolucion-2026-modifica-fp-semipresencial-2024.yaml"
+
+REL-061:
+  tipo_relacion: "desarrolla"
+  origen: NOR-076
+  destino: NOR-009
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-061-orden-2013-desarrolla-roc.yaml"
+
+REL-062:
+  tipo_relacion: "modifica"
+  origen: NOR-076
+  destino: NOR-025
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-062-orden-2013-modifica-orden-neae-2010.yaml"
+
+REL-063:
+  tipo_relacion: "desarrolla"
+  origen: NOR-062
+  destino: NOR-078
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-063-resolucion-optativo-base-de-234-2026.yaml"
+
+REL-064:
+  tipo_relacion: "desarrolla"
+  origen: NOR-043
+  destino: NOR-079
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-064-decreto-211-2022-desarrolla-rd-157-2022.yaml"
+
+REL-065:
+  tipo_relacion: "desarrolla"
+  origen: NOR-080
+  destino: NOR-007
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-065-rd-659-2023-desarrolla-lofp.yaml"
+
+REL-066:
+  tipo_relacion: "desarrolla"
+  origen: NOR-081
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-066-resolucion-30-10-2024-desarrolla-rd-659-2023.yaml"
+
+REL-067:
+  tipo_relacion: "modifica"
+  origen: NOR-082
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-067-resolucion-29-11-2024-modifica-grados-d-e.yaml"
+
+REL-068:
+  tipo_relacion: "modifica"
+  origen: NOR-083
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-068-resolucion-26-03-2026-amplia-grados-d-e.yaml"
+
+REL-069:
+  tipo_relacion: "corrige"
+  origen: NOR-084
+  destino: NOR-083
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-069-resolucion-17-04-2026-corrige-ampliacion.yaml"
+
+REL-070:
+  tipo_relacion: "desarrolla"
+  origen: NOR-085
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-070-dobles-titulaciones-2025-desarrolla-rd-659-2023.yaml"
+
+REL-071:
+  tipo_relacion: "modifica"
+  origen: NOR-075
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-071-resolucion-2-07-2026-modifica-dobles-titulaciones.yaml"
+
+REL-072:
+  tipo_relacion: "desarrolla"
+  origen: NOR-078
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-072-modulo-optativo-desarrolla-rd-659-2023.yaml"
+
+REL-073:
+  tipo_relacion: "desarrolla"
+  origen: NOR-073
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-073-cursos-acceso-directo-desarrolla-rd-659-2023.yaml"
+
+REL-074:
+  tipo_relacion: "relaciona"
+  origen: NOR-086
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-074-primer-curso-comun-antecedente-dobles-titulaciones.yaml"
+
+REL-075:
+  tipo_relacion: "modifica"
+  origen: NOR-094
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-075-resolucion-27-01-2026-amplia-grados-d-e.yaml"
+
+REL-076:
+  tipo_relacion: "modifica"
+  origen: NOR-095
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-076-resolucion-27-01-2026-modifica-dobles-titulaciones.yaml"
+
+REL-077:
+  tipo_relacion: "modifica"
+  origen: NOR-095
+  destino: NOR-086
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-077-resolucion-27-01-2026-modifica-primer-curso-comun.yaml"
+
+REL-078:
+  tipo_relacion: "modifica"
+  origen: NOR-096
+  destino: NOR-097
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-078-resolucion-25-04-2025-amplia-fp-adaptada.yaml"
+
+REL-079:
+  tipo_relacion: "modifica"
+  origen: NOR-101
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-079-rd-658-2024-modifica-rd-659-2023.yaml"
+
+REL-080:
+  tipo_relacion: "corrige"
+  origen: NOR-104
+  destino: NOR-103
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-080-correccion-rd-1085-2020.yaml"
+
+REL-081:
+  tipo_relacion: "modifica"
+  origen: NOR-074
+  destino: NOR-094
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-081-resolucion-25-06-2026-modifica-cocina.yaml"
+
+REL-082:
+  tipo_relacion: "modifica"
+  origen: NOR-074
+  destino: NOR-096
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-082-resolucion-25-06-2026-modifica-prevencion-riesgos.yaml"
+
+REL-083:
+  tipo_relacion: "modifica"
+  origen: NOR-083
+  destino: NOR-097
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-083-resolucion-26-03-2026-amplia-fp-adaptada.yaml"
+
+REL-084:
+  tipo_relacion: "modifica"
+  origen: NOR-096
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-084-resolucion-25-04-2025-amplia-grados-d-e.yaml"
+
+REL-085:
+  tipo_relacion: "relaciona"
+  origen: NOR-073
+  destino: NOR-098
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-085-cad-2026-sucede-a-cad-2025.yaml"
+
+REL-086:
+  tipo_relacion: "desarrolla"
+  origen: NOR-087
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-086-grados-cb-desarrollan-rd-659-2023.yaml"
+
+REL-087:
+  tipo_relacion: "modifica"
+  origen: NOR-111
+  destino: NOR-076
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-087-orden-2019-modifica-roc.yaml"
+
+REL-088:
+  tipo_relacion: "modifica"
+  origen: NOR-112
+  destino: NOR-076
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-088-orden-2023-modifica-roc.yaml"
+
+REL-089:
+  tipo_relacion: "modifica"
+  origen: NOR-025
+  destino: NOR-077
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-secundaria-oficial"
+  ruta: "05_relaciones/normativa/REL-089-orden-neae-2010-modifica-eoep.yaml"
+
+REL-090:
+  tipo_relacion: "modifica"
+  origen: NOR-115
+  destino: NOR-114
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-090-orden-2023-modifica-piloto-infantil.yaml"
+
+REL-091:
+  tipo_relacion: "modifica"
+  origen: NOR-116
+  destino: NOR-114
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-091-orden-2024-modifica-piloto-infantil.yaml"
+
+REL-092:
+  tipo_relacion: desarrolla
+  origen: NOR-125
+  destino: NOR-044
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-092-nor-125-desarrolla-nor-044.yaml
+REL-093:
+  tipo_relacion: desarrolla
+  origen: NOR-126
+  destino: NOR-044
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-093-nor-126-desarrolla-nor-044.yaml
+REL-094:
+  tipo_relacion: aplica
+  origen: NOR-127
+  destino: NOR-009
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-094-nor-127-aplica-nor-009.yaml
+REL-095:
+  tipo_relacion: modifica
+  origen: NOR-128
+  destino: NOR-127
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-095-nor-128-modifica-nor-127.yaml
+REL-096:
+  tipo_relacion: modifica
+  origen: NOR-129
+  destino: NOR-127
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-096-nor-129-modifica-nor-127.yaml
+REL-097:
+  tipo_relacion: modifica
+  origen: NOR-131
+  destino: NOR-130
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-097-nor-131-modifica-nor-130.yaml
+REL-098:
+  tipo_relacion: sustituye
+  origen: NOR-127
+  destino: NOR-046
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: inferido
+  ruta: 05_relaciones/normativa/REL-098-nor-127-sustituye-nor-046.yaml
+REL-099:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-047
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-099-nor-125-relaciona-nor-047.yaml
+REL-100:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-043
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-100-nor-125-relaciona-nor-043.yaml
+REL-101:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-005
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-101-nor-125-relaciona-nor-005.yaml
+REL-102:
+  tipo_relacion: relaciona
+  origen: NOR-126
+  destino: NOR-047
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-102-nor-126-relaciona-nor-047.yaml
+REL-103:
+  tipo_relacion: relaciona
+  origen: NOR-126
+  destino: NOR-005
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-103-nor-126-relaciona-nor-005.yaml

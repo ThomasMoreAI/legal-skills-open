@@ -1,0 +1,37 @@
+name: Legal Update Monitor
+
+on:
+  schedule:
+    # Run every day at 6:00 AM Thailand time (23:00 UTC previous day)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-updates:
+    name: Check for new laws & judgments
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Check Ratchakitcha (Royal Gazette) for new laws
+        run: bun scripts/check-ratchakitcha.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check Supreme Court for new labor judgments
+        run: bun scripts/check-supremecourt.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

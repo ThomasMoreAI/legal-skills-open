@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="revisar-datos-personales — tu agente no te va a decir que no cumples">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#BFFF00" opacity="0.10"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#BFFF00" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#BFFF00" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="#12130E"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <circle cx="215" cy="105" r="240" fill="url(#glow)"/>
+
+  <!-- marca -->
+  <text x="72" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="15" letter-spacing="4.5" fill="#8FBF00">IMPERIO AGÉNTICO · LA FORJA</text>
+
+  <!-- titulo -->
+  <text x="70" y="152" font-family="Georgia, 'Iowan Old Style', serif"
+        font-size="66" font-weight="bold" fill="#ECEFE2">revisar-datos-</text>
+  <text x="70" y="222" font-family="Georgia, 'Iowan Old Style', serif"
+        font-size="66" font-weight="bold" fill="#BFFF00">personales</text>
+
+  <!-- subtitulo -->
+  <text x="74" y="266" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="21" fill="#A5AB94">Tu agente nunca te va a decir que no cumples. Pídele evidencia, no opinión.</text>
+
+  <!-- sello lateral -->
+  <g transform="translate(940,88)">
+    <rect x="0" y="0" width="196" height="48" rx="7" fill="none" stroke="#33372A" stroke-width="1.5"/>
+    <text x="16" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="15" fill="#6FC4F5">Ley 21.719 · Chile</text>
+
+    <rect x="0" y="62" width="196" height="48" rx="7" fill="#BFFF00"/>
+    <text x="16" y="93" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="15" fill="#12130E" font-weight="bold">1 DIC 2026</text>
+
+    <text x="0" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="12.5" fill="#767C68">entra en vigencia</text>
+  </g>
+</svg>

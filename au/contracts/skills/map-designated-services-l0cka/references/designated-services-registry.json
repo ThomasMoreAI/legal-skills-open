@@ -1,0 +1,77 @@
+{
+  "registry_version": 1,
+  "as_at": "2026-08-14",
+  "note": "Research snapshot of the table 6 professional designated services as summarised in AUSTRAC's official guidance, scoped to services an Australian legal practice can trigger. Item wording here is AUSTRAC's overview, not the statutory text: verify the Act text through $check-commonwealth-legislation before reliance. A service matching no entry is 'cannot be determined', never 'not designated'.",
+  "statutory_basis": {
+    "act": "Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (Cth), subsection 6(5B) table 6, as amended by the Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024 (Cth)",
+    "commencement": "Obligations for table 6 services apply from 1 July 2026",
+    "act_source": "https://www.legislation.gov.au/C2006A00169/latest/text",
+    "guidance_source": "https://www.austrac.gov.au/new-austrac/designated-services-newly-regulated-entities/professional-designated-services",
+    "guidance_last_updated": "2026-07-10",
+    "checked": "2026-08-26",
+    "review_note": "At the 24 September 2026 review AUSTRAC's pages could not be reached, so guidance_last_updated was not reconfirmed; record the guidance page's current last-updated date at use"
+  },
+  "items": [
+    {
+      "item": 1,
+      "summary": "Assisting in the planning or execution of a transaction, or otherwise acting for or on behalf of a person in a transaction, to sell, buy or transfer real estate",
+      "legal_practice_examples": ["conveyancing", "property transaction advice that directly advances the sale, purchase or transfer"],
+      "scope_notes": ["sufficiently-linked principles apply", "carve-out for services pursuant to or resulting from a court or tribunal order"]
+    },
+    {
+      "item": 2,
+      "summary": "Assisting in the planning or execution of a transaction, or otherwise acting for or on behalf of a person in a transaction, to sell, buy or transfer a body corporate or legal arrangement",
+      "legal_practice_examples": ["share or business sale and purchase work", "transfers of trusts or other legal arrangements"],
+      "scope_notes": ["sufficiently-linked principles apply", "carve-out for services pursuant to or resulting from a court or tribunal order"]
+    },
+    {
+      "item": 3,
+      "summary": "Receiving, holding, controlling or managing a person's property to help in the planning or execution of a transaction",
+      "legal_practice_examples": ["holding transaction funds or property in the practice trust account as part of a transaction"],
+      "scope_notes": ["subsection 6(5C) incidental trust-money exemption may apply where the practice provides no other designated service and money is held for payments reasonably incidental to a non-designated service; the exemption operates at whole-of-practice level", "the trust-account counterparty is not the customer — the customer is the client identified in the customer column"]
+    },
+    {
+      "item": 4,
+      "summary": "Assisting in organising, planning or executing a transaction for equity or debt financing relating to a body corporate or legal arrangement (or proposed body corporate or legal arrangement)",
+      "legal_practice_examples": ["acting on capital raisings, loan and security transactions for corporate clients"],
+      "scope_notes": ["sufficiently-linked principles apply"]
+    },
+    {
+      "item": 5,
+      "summary": "Selling or transferring a shelf company",
+      "legal_practice_examples": ["providing shelf companies to clients"],
+      "scope_notes": []
+    },
+    {
+      "item": 6,
+      "summary": "Assisting in the planning or execution of the creation or restructuring of a body corporate or legal arrangement",
+      "legal_practice_examples": ["incorporating companies", "drafting and facilitating execution of trust deeds", "corporate restructures"],
+      "scope_notes": ["sufficiently-linked principles apply", "advice about an existing body corporate or legal arrangement, after the event, is generally not within the item"]
+    },
+    {
+      "item": 7,
+      "summary": "Acting on behalf of a person in particular positions in a body corporate or legal arrangement",
+      "legal_practice_examples": ["practitioners acting as nominee director, secretary, trustee or in equivalent positions for clients"],
+      "scope_notes": ["items 7 and 8 are summarised together in AUSTRAC's overview; verify the exact statutory position lists in the Act text"]
+    },
+    {
+      "item": 8,
+      "summary": "Arranging for another person to act in particular positions in a body corporate or legal arrangement",
+      "legal_practice_examples": ["arranging nominee officers or trustees for clients"],
+      "scope_notes": ["items 7 and 8 are summarised together in AUSTRAC's overview; verify the exact statutory position lists in the Act text"]
+    },
+    {
+      "item": 9,
+      "summary": "Providing a registered office address or principal place of business address for a body corporate or legal arrangement",
+      "legal_practice_examples": ["practice address used as clients' registered office"],
+      "scope_notes": []
+    }
+  ],
+  "common_elements": {
+    "sufficiently_linked": "Assistance is regulated only when sufficiently linked to the outcome: it must directly advance the transaction, creation or restructure. Merely influencing how a client proceeds, general legal advice or ancillary services is not a designated service.",
+    "course_of_business": "The service must be provided in the course of carrying on a business; it need not be the principal activity and pro bono provision does not exclude it.",
+    "external_customer": "The customer must be external to the practice and its business group; in-house counsel advising only their employer are generally not providing designated services.",
+    "geographical_link": "Obligations require a geographical link to Australia — a separate check for cross-border services: https://www.austrac.gov.au/new-austrac/geographical-link-requirement",
+    "standing_exemptions": "Exemptions exist including for legal aid commissions, community legal centres and barristers acting for Australian government bodies — verify at https://www.austrac.gov.au/node/139 and against the Act and Rules"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "_disclaimer": "Sample/illustrative — verify against canton AFC tables before production use",
+  "_source": "https://so.ch/verwaltung/finanzdepartement/steueramt/",
+  "_canton": "SO",
+  "_year": 2026,
+  "currency": "CHF",
+  "period": "monthly",
+  "notes": "Tarifs A/B/C/D/H for impôt à la source. Monthly gross salary brackets. Real tables differ by exact CHF increments and child count. Canton: Solothurn.",
+  "tarifs": {
+    "A": [
+      {
+        "from": 0,
+        "rate_pct": 0.0,
+        "to": 3500
+      },
+      {
+        "from": 3500,
+        "rate_pct": 4.73,
+        "to": 5000
+      },
+      {
+        "from": 5000,
+        "rate_pct": 7.35,
+        "to": 6500
+      },
+      {
+        "from": 6500,
+        "rate_pct": 9.97,
+        "to": 8000
+      },
+      {
+        "from": 8000,
+        "rate_pct": 12.6,
+        "to": 10000
+      },
+      {
+        "from": 10000,
+        "rate_pct": 15.23,
+        "to": 13000
+      },
+      {
+        "from": 13000,
+        "rate_pct": 17.85,
+        "to": 16000
+      },
+      {
+        "from": 16000,
+        "rate_pct": 20.48,
+        "to": 20000
+      },
+      {
+        "from": 20000,
+        "rate_pct": 23.1
+      }
+    ],
+    "B": [
+      {
+        "from": 0,
+        "rate_pct": 0.0,
+        "to": 3500
+      },
+      {
+        "from": 3500,
+        "rate_pct": 3.68,
+        "to": 5000
+      },
+      {
+        "from": 5000,
+        "rate_pct": 6.3,
+        "to": 6500
+      },
+      {
+        "from": 6500,
+        "rate_pct": 8.93,
+        "to": 8000
+      },
+      {
+        "from": 8000,
+        "rate_pct": 11.55,
+        "to": 10000
+      },
+      {
+        "from": 10000,
+        "rate_pct": 14.18,
+        "to": 13000
+      },
+      {
+        "from": 13000,
+        "rate_pct": 16.8,
+        "to": 16000
+      },
+      {
+        "from": 16000,
+        "rate_pct": 19.43,
+        "to": 20000
+      },
+      {
+        "from": 20000,
+        "rate_pct": 22.05
+      }
+    ],
+    "C": [
+      {
+        "from": 0,
+        "rate_pct": 0.0,
+        "to": 3500
+      },
+      {
+        "from": 3500,
+        "rate_pct": 4.2,
+        "to": 5000
+      },
+      {
+        "from": 5000,
+        "rate_pct": 6.83,
+        "to": 6500
+      },
+      {
+        "from": 6500,
+        "rate_pct": 9.45,
+        "to": 8000
+      },
+      {
+        "from": 8000,
+        "rate_pct": 12.08,
+        "to": 10000
+      },
+      {
+        "from": 10000,
+        "rate_pct": 14.7,
+        "to": 13000
+      },
+      {
+        "from": 13000,
+        "rate_pct": 17.32,
+        "to": 16000
+      },
+      {
+        "from": 16000,
+        "rate_pct": 19.95,
+        "to": 20000
+      },
+      {
+        "from": 20000,
+        "rate_pct": 22.57
+      }
+    ],
+    "D": [
+      {
+        "from": 0,
+        "rate_pct": 2.1,
+        "to": 3500
+      },
+      {
+        "from": 3500,
+        "rate_pct": 6.83,
+        "to": 5000
+      },
+      {
+        "from": 5000,
+        "rate_pct": 9.45,
+        "to": 6500
+      },
+      {
+        "from": 6500,
+        "rate_pct": 12.08,
+        "to": 8000
+      },
+      {
+        "from": 8000,
+        "rate_pct": 14.7,
+        "to": 10000
+      },
+      {
+        "from": 10000,
+        "rate_pct": 17.32,
+        "to": 13000
+      },
+      {
+        "from": 13000,
+        "rate_pct": 19.95,
+        "to": 16000
+      },
+      {
+        "from": 16000,
+        "rate_pct": 22.57,
+        "to": 20000
+      },
+      {
+        "from": 20000,
+        "rate_pct": 25.2
+      }
+    ],
+    "H": [
+      {
+        "from": 0,
+        "rate_pct": 0.0,
+        "to": 3500
+      },
+      {
+        "from": 3500,
+        "rate_pct": 3.15,
+        "to": 5000
+      },
+      {
+        "from": 5000,
+        "rate_pct": 5.78,
+        "to": 6500
+      },
+      {
+        "from": 6500,
+        "rate_pct": 8.4,
+        "to": 8000
+      },
+      {
+        "from": 8000,
+        "rate_pct": 11.03,
+        "to": 10000
+      },
+      {
+        "from": 10000,
+        "rate_pct": 13.65,
+        "to": 13000
+      },
+      {
+        "from": 13000,
+        "rate_pct": 16.28,
+        "to": 16000
+      },
+      {
+        "from": 16000,
+        "rate_pct": 18.9,
+        "to": 20000
+      },
+      {
+        "from": 20000,
+        "rate_pct": 21.53
+      }
+    ]
+  }
+}

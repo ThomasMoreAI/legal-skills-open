@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `us` · Practice: `administrative` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`Access to Education — Missouri K-12 Operating System`](skills/access-to-education-dougdevitre/) | Access to Education — Missouri K-12 education navigator for students, parents, teachers, specialists… |
 | [`FOIA & Public Records Request Writer`](skills/foia-request-writer-ur-grue/) | Drafts legally complete public records requests (federal FOIA and all 50 state laws), administrative… |
 | [`Gap Analysis Agent`](skills/gap-analysis-osenv/) | Read a statute or regulation and identify where an agency has failed to perform a mandatory… |
 

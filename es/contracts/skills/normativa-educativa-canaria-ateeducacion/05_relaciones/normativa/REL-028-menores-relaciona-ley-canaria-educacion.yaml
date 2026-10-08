@@ -1,0 +1,11 @@
+id: REL-028
+tipo_relacion: "relaciona"
+origen: NOR-031
+destino: NOR-004
+descripcion: "La Ley 1/1997 de Atención Integral a los Menores se relaciona con la Ley Canaria de Educación por su incidencia transversal en alumnado menor de edad y coordinación institucional."
+evidencia:
+  fuente: FTE-034
+  localizacion: "Exposición de motivos y marco general de atención integral"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Norma transversal, no exclusivamente educativa."

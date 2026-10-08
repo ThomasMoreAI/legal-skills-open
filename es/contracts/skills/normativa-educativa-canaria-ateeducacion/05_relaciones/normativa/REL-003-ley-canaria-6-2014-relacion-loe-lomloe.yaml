@@ -1,0 +1,11 @@
+id: REL-003
+tipo_relacion: "relaciona"
+origen: NOR-004
+destino: NOR-001
+descripcion: "La Ley Canaria 6/2014 se integra en el marco básico estatal de la LOE/LOMLOE para la educación no universitaria en Canarias."
+evidencia:
+  fuente: FTE-008
+  localizacion: "Marco general de la ley y conexión competencial con normativa básica estatal"
+fecha_registro: 2026-04-25
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La conexión con NOR-002 se mantiene en las fichas normativas y podrá ampliarse con nuevas relaciones."

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "not-system-zh",
+    "input": "Wer beurkundet einen Grundstückkauf im Kanton Zürich?",
+    "expected_themes": ["freies Notariat", "ZGB 657"],
+    "must_cite": ["ZGB"],
+    "must_not_cite": ["lateinisches Notariat"]
+  },
+  {
+    "id": "not-succession-2023",
+    "input": "Quelle est la réserve héréditaire des descendants depuis la réforme 2023 ?",
+    "expected_themes": ["1/2", "réforme 2023", "descendants", "3/4"],
+    "must_cite": ["CC"],
+    "must_not_cite": ["Code civil français"]
+  },
+  {
+    "id": "not-sa-capital",
+    "input": "Quel capital minimum pour fonder une SA en Suisse ? Quelle libération minimale ?",
+    "expected_themes": ["100'000", "20 %", "50'000", "art. 620"],
+    "must_cite": ["CO"],
+    "must_not_cite": ["37'000", "SAS"]
+  },
+  {
+    "id": "not-mutation-vd",
+    "input": "Quels sont les droits de mutation pour un achat immobilier de 1'200'000 CHF dans le canton de Vaud ?",
+    "expected_themes": ["3.3", "39'600", "vaudois", "droits de mutation"],
+    "must_cite": [],
+    "must_not_cite": ["DMTG"]
+  }
+]

@@ -1,0 +1,1084 @@
+id: CUR-047
+titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
+etapa: "formacion-profesional"
+familia_profesional: "Sanidad"
+grado: "gs"
+materia: "Imagen para el Diagnóstico y Medicina Nuclear"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-052
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  modulos_profesionales:
+    - codigo: "1345"
+      nombre: "Atención al paciente"
+      horas_totales: 80
+      ects: 9
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Identifica el ámbito de trabajo, relacionándolo con la estructura del sector sanitario."
+        criterios_evaluacion:
+        - "a) Se ha organizado el trabajo teniendo en cuenta la asistencia prevista, los medios, los recursos y las necesidades del equipo de trabajo."
+        - "b) Se han definido los rasgos fundamentales del sistema sanitario en España, señalando las particularidades del sistema público y privado de asistencia."
+        - "c) Se han descrito las características de las unidades de radiodiagnóstico y medicina nuclear en el sistema sanitario, sus funciones y dependencias."
+        - "d) Se han descrito las características de la unidad de radioterapia en el sistema sanitario, sus funciones y dependencias."
+        - "e) Se han identificado las técnicas de gestión de existencias en un servicio de radiodiagnóstico, medicina nuclear y radioterapia."
+        - "f) Se han detallado las analogías y diferencias entre unidades de radiodiagnóstico, medicina nuclear y radioterapia de la red pública y privada."
+        - "g) Se han enumerado las funciones y las competencias de este profesional sanitario en las diferentes secciones de unidades de radiodiagnóstico y medicina nuclear."
+        - "h) Se han detallado las funciones y competencias de este profesional sanitario en la unidad de radioterapia."
+      - numero: 2
+        enunciado: "Aplica los protocolos de acogida del paciente en la unidad de diagnóstico o tratamiento según el plan de actuación que hay que desarrollar."
+        criterios_evaluacion:
+        - "a) Se han interpretado los documentos de citación y el procedimiento adecuado para realizarla, en función de los diferentes tipos de servicios o unidades de diagnóstico."
+        - "b) Se han descrito los datos que identifican al paciente."
+        - "c) Se ha identificado el tipo de exploración o tratamiento que se va a realizar."
+        - "d) Se ha descrito el significado y la estructura de una historia clínica tipo y la secuencia lógica para guardar los documentos y las pruebas diagnósticas."
+        - "e) Se han registrado los datos del paciente en la documentación clínica."
+        - "f) Se ha definido la información que hay que entregar al paciente según la técnica que hay que realizar."
+        - "g) Se ha verificado la cumplimentación del consentimiento informado."
+        - "h) Se ha comprobado el cumplimiento de la preparación previa del paciente."
+        - "i) Se ha valorado la importancia de la actitud de confidencialidad y discreción según la legislación vigente en materia de protección de datos."
+        - "j) Se ha valorado la importancia de atender las necesidades de los usuarios."
+        - "k) Se ha valorado la importancia de la responsabilidad social y de los principios éticos en los procesos de salud."
+      - numero: 3
+        enunciado: "Aplica técnicas de comunicación y apoyo psicológico, identificando las características de las personas."
+        criterios_evaluacion:
+        - "a) Se han identificado los elementos de la comunicación."
+        - "b) Se han analizado los diferentes tipos de lenguaje, técnicas y estrategias para una buena comunicación."
+        - "c) Se han identifican las habilidades personales y sociales que hay que desarrollar para lograr una perfecta comunicación."
+        - "d) Se ha caracterizado el comportamiento de diferentes tipos de usuarios."
+        - "e) Se han identificado posibles circunstancias psicológicas generadoras de disfunción del comportamiento."
+        - "f) Se ha valorado la importancia del apoyo psicológico en las diferentes intervenciones."
+        - "g) Se ha determinado la relación de ayuda, sus componentes y las habilidades que hay que desarrollar para poder realizarla."
+        - "h) Se ha valorado la importancia de la cortesía, la amabilidad, el respeto, la discreción, la cordialidad y el interés en la interrelación con la persona."
+        - "i) Se han identificado aspectos relativos al género en cuanto a la salud y enfermedad."
+      - numero: 4
+        enunciado: "Observa parámetros físico-clínicos, relacionándolos con el estado general del paciente."
+        criterios_evaluacion:
+        - "a) Se han identificado los parámetros físico-clínicos que hay que observar."
+        - "b) Se han discriminado las actuaciones propias del técnico en el protocolo o plan de emergencias de la unidad."
+        - "c) Se han descrito los procedimientos para evaluar el nivel de consciencia del paciente."
+        - "d) Se han descrito los signos de posibles alteraciones del estado general."
+        - "e) Se han aplicado las técnicas básicas de cuidados en caso de necesidad, siguiendo los protocolos de la unidad."
+        - "f) Se han registrado los signos y síntomas que han resultado de la observación."
+        - "g) Se ha valorado la importancia del orden y la rigurosidad en la observación de los parámetros."
+      - numero: 5
+        enunciado: "Realiza los procedimientos de preparación del paciente para aplicar la técnica de exploración o el tratamiento prescrito, actuando de acuerdo al protocolo descrito por la unidad."
+        criterios_evaluacion:
+        - "a) Se han identificado las características y las condiciones del estado general del paciente."
+        - "b) Se ha valorado el grado de autonomía del paciente."
+        - "c) Se han seleccionado las actividades que aseguran el confort y el bienestar del paciente, según el protocolo de actuación."
+        - "d) Se ha definido el posicionamiento del paciente según el protocolo que se va a realizar."
+        - "e) Se han realizado técnicas de movilización o transferencia."
+        - "f) Se han aplicado los principios de ergonomía."
+        - "g) Se han descrito las repercusiones de una movilización y un traslado inadecuados."
+        - "h) Se ha demostrado cortesía, respeto, discreción y comunicación eficaz."
+      - numero: 6
+        enunciado: "Resuelve contingencias en equipos y dispositivos que porta el paciente, en función de la técnica de exploración y del protocolo de la unidad."
+        criterios_evaluacion:
+        - "a) Se han identificado los equipos y dispositivos terapéuticos."
+        - "b) Se han definido las características y las técnicas de utilización de los equipos e instrumentos terapéuticos."
+        - "c) Se han discriminado las actuaciones propias del técnico sobre equipos y dispositivos, según criterios de manipulación."
+        - "d) Se ha comprobado la operatividad de los diferentes equipos y dispositivos utilizados según el protocolo de trabajo establecido."
+        - "e) Se han identificado las posibles contingencias en equipos y dispositivos."
+        - "f) Se han identificado procedimientos de resolución de contingencias según protocolos de la unidad."
+        - "g) Se han aplicado las técnicas generales de limpieza y asepsia en la manipulación de equipos y dispositivos."
+      - numero: 7
+        enunciado: "Aplica técnicas de administración de contrastes y radiofármacos, relacionándolas con la vía de administración según protocolo de la unidad."
+        criterios_evaluacion:
+        - "a) Se han identificado los diferentes tipos de contrastes y radiofármacos."
+        - "b) Se han descrito las propiedades, las interacciones y los principales riesgos asociados a los compuestos de contraste."
+        - "c) Se han definido las complicaciones y contraindicaciones de su uso."
+        - "d) Se ha informado al paciente y se han comprobado los antecedentes alérgicos."
+        - "e) Se han enumerado las diferentes vías de administración de contrastes."
+        - "f) Se ha preparado el material y la zona de intervención."
+        - "g) Se ha seleccionado la dosis adecuada en cada caso."
+        - "h) Se ha realizado la técnica de administración de contraste."
+        - "i) Se han realizado operaciones de administración de la medicación sobre maniquíes de entrenamiento."
+        - "j) Se han descrito las actuaciones que hay que realizar en caso de reacciones adversas."
+        - "k) Se han seleccionado técnicas de soporte vital básico."
+      - numero: 8
+        enunciado: "Aplica normas de prevención y protección de enfermedades infecciosas identificando los riesgos y las medidas de prevención."
+        criterios_evaluacion:
+        - "a) Se han identificado las situaciones de riesgo de contaminación."
+        - "b) Se han determinado las medidas preventivas que hay que tomar."
+        - "c) Se ha realizado el lavado de manos sistemático."
+        - "d) Se ha realizado la limpieza y desinfección del material y los equipos."
+        - "e) Se ha eliminado el material desechable y los residuos, aplicando la normativa correspondiente."
+        - "f) Se han empleado las medidas de protección, higiene y seguridad establecidas, tanto para el personal como para el paciente."
+    - codigo: "1346"
+      nombre: "Fundamentos físicos y equipos"
+      horas_totales: 135
+      ects: 13
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Caracteriza las radiaciones ionizantes, no ionizantes y ondas materiales, describiendo su uso diagnóstico y terapéutico."
+        criterios_evaluacion:
+        - "a) Se han reconocido los diferentes tipos de energías utilizadas en imagen para el diagnóstico y radioterapia."
+        - "b) Se han clasificado los distintos tipos de materiales de acuerdo con su comportamiento ante un campo magnético."
+        - "c) Se han identificado las características de las radiaciones ionizantes de origen nuclear y no nuclear."
+        - "d) Se han establecido diferencias entre radiación ionizante electromagnética y radiación de partículas."
+        - "e) Se ha justificado el uso imageneológico y terapéutico de las radiaciones ionizantes."
+        - "f) Se han relacionado las características de las radiaciones no ionizantes con la obtención de imágenes diagnósticas."
+        - "g) Se ha relacionado el uso de ondas materiales con la obtención de imágenes diagnósticas."
+        - "h) Se han definido las unidades y magnitudes utilizadas en radioterapia e imagen para el diagnóstico."
+      - numero: 2
+        enunciado: "Caracteriza los equipos de radiología convencional, identificando sus componentes y sus aplicaciones."
+        criterios_evaluacion:
+        - "a) Se han interpretado los datos de curvas de emisión de rayos X y relacionado estos con las propiedades físicas de la radiación generada."
+        - "b) Se han descrito las diferentes interacciones con la materia y la atenuación que sufre la radiación X."
+        - "c) Se han identificado las densidades radiográficas en imágenes diagnósticas."
+        - "d) Se ha definido la estructura y el funcionamiento del tubo de rayos X."
+        - "e) Se han relacionado las propiedades de la radiación producida con las características del tubo de rayos X."
+        - "f) Se han relacionado los parámetros técnicos con las características de la radiación X producida."
+        - "g) Se han identificado los componentes de los equipos de radiología convencional."
+        - "h) Se ha determinado el tipo de equipo y los dispositivos accesorios que se deben utilizar en función del tipo de exploración."
+        - "i) Se ha identificado la influencia de los parámetros técnicos de los equipos utilizados en la calidad de la imagen obtenida."
+      - numero: 3
+        enunciado: "Procesa y trata imágenes radiográficas, describiendo las características de los receptores y sus aplicaciones."
+        criterios_evaluacion:
+        - "a) Se ha descrito la estructura de las emulsiones fotosensibles y el proceso de captura de imagen en la película radiográfica."
+        - "b) Se ha seleccionado el tipo de película en función del tipo de imagen requerida."
+        - "c) Se han identificado los elementos accesorios de la película radiográfica."
+        - "d) Se han revelado películas radiográficas."
+        - "e) Se ha descrito el procedimiento de captura de imagen en formato digital directo o indirecto."
+        - "f) Se ha procesado la imagen primaria digital para obtener una imagen final de calidad."
+        - "g) Se ha definido el procedimiento que hay que utilizar para llevar a cabo el registro de imagen en radioscopia."
+        - "h) Se ha marcado e identificado la imagen mediante los instrumentos y el equipo adecuado a cada modalidad de captura."
+        - "i) Se han identificado los factores técnicos que diferencian las imágenes radiográficas."
+        - "j) Se han identificado artefactos en las imágenes radiográficas."
+      - numero: 4
+        enunciado: "Caracteriza los equipos de tomografía computarizada (TC), identificando sus componentes y sus aplicaciones."
+        criterios_evaluacion:
+        - "a) Se ha descrito la evolución de la imagen tomográfica y de los equipos de TC."
+        - "b) Se ha identificado la estructura de las salas de exploración y los componentes de los equipos de TC."
+        - "c) Se han diferenciado las características técnicas de una TC convencional y una TC espiral."
+        - "d) Se han definido las características de los equipos de TC multicorte y de tomografía de haz electrónico."
+        - "e) Se han reconocido los usos diagnósticos y terapéuticos de las exploraciones mediante TC."
+        - "f) Se han definido las normas de seguridad en el uso de equipos de TC."
+        - "g) Se han identificado los parámetros de la imagen de TC mediante el uso del software específico."
+        - "h) Se han aplicado normas de postprocesado para obtener imágenes de calidad."
+        - "i) Se han realizado reconstrucciones de imágenes en 2D y 3D."
+        - "j) Se han reconocido artefactos en imágenes de TC."
+      - numero: 5
+        enunciado: "Caracteriza los equipos de resonancia magnética (RM), identificando sus componentes y sus aplicaciones."
+        criterios_evaluacion:
+        - "a) Se ha descrito el origen de las señales utilizadas en la captura de imágenes mediante resonancia magnética."
+        - "b) Se han reconocido los parámetros de captura de la señal en función de las secuencias utilizadas."
+        - "c) Se han identificado imágenes de resonancia magnética obtenidas mediante diferentes secuencias."
+        - "d) Se ha descrito la estructura de las salas de exploración y los componentes de los diferentes equipos de resonancia magnética."
+        - "e) Se han seleccionado los materiales y accesorios necesarios para las exploraciones mediante RM."
+        - "f) Se han reconocido los usos diagnósticos y terapéuticos de las exploraciones mediante resonancia magnética."
+        - "g) Se han definido las normas de seguridad en el uso de equipos de resonancia magnética."
+        - "h) Se ha simulado una exploración mediante RM, utilizando secuencias específicas."
+        - "i) Se han aplicado las normas de postprocesado para obtener imágenes de calidad."
+        - "j) Se han identificado usos de la resonancia magnética en nuevas técnicas diagnósticas y terapéuticas."
+      - numero: 6
+        enunciado: "Caracteriza los equipos de ultrasonografía, identificando sus componentes y aplicaciones."
+        criterios_evaluacion:
+        - "a) Se ha descrito el origen de las señales utilizadas en la formación de imágenes mediante el uso de ultrasonidos."
+        - "b) Se han definido las propiedades de la propagación de ondas sonoras en diferentes medios."
+        - "c) Se han identificado los componentes de los diferentes equipos de ultrasonografía."
+        - "d) Se ha seleccionado el equipo y los accesorios, de acuerdo con el tipo de exploración requerida."
+        - "e) Se han identificado las normas de seguridad en el uso de equipos de ultrasonografía."
+        - "f) Se han diferenciado las imágenes de las diferentes modalidades de ultrasonografía."
+        - "g) Se han manipulado imágenes de ultrasonografía aplicando técnicas de postprocesado obteniendo un producto de calidad."
+        - "h) Se han identificado artefactos en imágenes de US."
+      - numero: 7
+        enunciado: "Realiza tareas de gestión de datos sanitarios, de imágenes diagnósticas y de tratamientos terapéuticos, interpretando la estandarización de la información clínica."
+        criterios_evaluacion:
+        - "a) Se han identificado los condicionantes tecnológicos de los sistemas de comunicación locales y remotos."
+        - "b) Se ha definido el concepto de estándar de manejo e intercambio electrónico de información en sistemas de salud y se han relacionado los principales estándares de gestión de la salud con los criterios internacionales."
+        - "c) Se ha descrito la información aportada por los servicios del estándar DICOM (Digital Imaging and Communication in Medicine)."
+        - "d) Se ha enumerado la información proporcionada por los sistemas HIS (Sistema de Información Hospitalaria) y RIS (Sistema de Información Radiológica) y sus diferencias."
+        - "e) Se han enumerado las especificaciones básicas de los PACS, relacionándolos con las diferentes modalidades de adquisición."
+        - "f) Se han relacionado los estándares HL7 (Health Level Seven) y DICOM con los sistemas HIS, RIS y PACS (Picture Archiving and Communication System)."
+        - "g) Se han identificado los datos de los estudios o tratamientos a través del sistema de gestión, con seguridad y siguiendo los protocolos establecidos."
+        - "h) Se han almacenado, recuperado y procesado estudios e informes."
+        - "i) Se han reconocido, en los procedimientos de gestión de estudios y tratamientos, las normas de confidencialidad requerida."
+    - codigo: "1347"
+      nombre: "Anatomía por la imagen"
+      horas_totales: 135
+      ects: 13
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Localiza las estructuras anatómicas, aplicando sistemas convencionales de topografía corporal."
+        criterios_evaluacion:
+        - "a) Se ha definido la posición anatómica y sus planos de referencia."
+        - "b) Se ha aplicado la terminología de posición, dirección y movimiento."
+        - "c) Se han localizado las regiones corporales."
+        - "d) Se han ubicado las cavidades corporales y definido su contenido."
+        - "e) Se ha establecido la relación entre órganos vecinos."
+        - "f) Se han identificado marcas anatómicas externas como referencia para el posicionamiento del paciente y los equipos."
+        - "g) Se han proyectado los órganos internos sobre la superficie de la piel."
+      - numero: 2
+        enunciado: "Analiza imágenes clínicas, relacionando los protocolos de lectura con la técnica empleada."
+        criterios_evaluacion:
+        - "a) Se han identificado las características de la imagen visualizada según el tipo de exploración."
+        - "b) Se han definido las limitaciones y las aportaciones de cada técnica."
+        - "c) Se ha establecido la lateralidad, la posición y la proyección al visualizar la imagen clínica."
+        - "d) Se ha definido la orientación y la localización del corte en imágenes tomográficas."
+        - "e) Se han identificado las estructuras fundamentales visibles en diferentes técnicas de imagen."
+        - "f) Se han establecido las diferencias gráficas de la representación de los órganos en función de la técnica de exploración."
+        - "g) Se han comparado imágenes normales y patológicas y señalado sus diferencias."
+        - "h) Se han aplicado técnicas para optimizar la visión de la exploración en escalas de grises."
+      - numero: 3
+        enunciado: "Reconoce estructuras anatómicas del aparato locomotor, interpretando las imágenes diagnósticas."
+        criterios_evaluacion:
+        - "a) Se ha definido la estructura y la función de los huesos."
+        - "b) Se han clasificado y ubicado los huesos."
+        - "c) Se han localizado los accidentes anatómicos del esqueleto óseo en modelos anatómicos y en imágenes radiológicas."
+        - "d) Se han descrito los tipos y las características de las articulaciones."
+        - "e) Se han reconocido estructuras articulares en imágenes médicas."
+        - "f) Se ha definido la estructura, los tipos y la ubicación de los músculos."
+        - "g) Se han clasificado las principales patologías de huesos, articulaciones y músculos."
+        - "h) Se han establecido diferencias entre imágenes normales y patológicas."
+      - numero: 4
+        enunciado: "Identifica la estructura, el funcionamiento y las enfermedades del sistema nervioso y de los órganos de los sentidos, relacionándolos con imágenes diagnósticas."
+        criterios_evaluacion:
+        - "a) Se han detallado las bases anatomofisiológicas del sistema nervioso."
+        - "b) Se han identificado los componentes del sistema nervioso central y periférico."
+        - "c) Se ha descrito el sistema ventricular encefálico, la producción y la distribución del LCR."
+        - "d) Se han identificado las estructuras nerviosas en imágenes tomográficas."
+        - "e) Se han clasificado las enfermedades del sistema nervioso."
+        - "f) Se han establecido diferencias entre imágenes normales y patológicas del SNC."
+        - "g) Se han detallado las bases anatomofisiológicas de los órganos de los sentidos."
+        - "h) Se han identificado los componentes de los órganos de los sentidos en imágenes médicas."
+      - numero: 5
+        enunciado: "Reconoce la estructura, el funcionamiento y las enfermedades de los aparatos cardiocirculatorio y respiratorio, relacionándolos con imágenes diagnósticas."
+        criterios_evaluacion:
+        - "a) Se ha descrito la estructura y el contenido de la caja torácica."
+        - "b) Se han establecido las bases anatomofisiológicas del aparato cardiocirculatorio."
+        - "c) Se han identificado las estructuras mediastínicas en imágenes médicas."
+        - "d) Se han identificado y ubicado los principales vasos sanguíneos en imágenes angiográficas."
+        - "e) Se han clasificado las principales patologías cardíacas y vasculares."
+        - "f) Se han establecido las bases anatomofisiológicas del aparato respiratorio."
+        - "g) Se han clasificado las enfermedades respiratorias más frecuentes."
+        - "h) Se han establecido las diferencias entre imágenes torácicas normales y patológicas."
+      - numero: 6
+        enunciado: "Identifica la estructura, el funcionamiento y las enfermedades del aparato digestivo y del sistema urinario, relacionándolos con imágenes diagnósticas."
+        criterios_evaluacion:
+        - "a) Se ha definido la estructura y el contenido de la cavidad abdómino-pélvica."
+        - "b) Se han establecido las bases anatomofisiológicas del aparato digestivo."
+        - "c) Se han identificado los componentes del aparato digestivo en imágenes radiológicas."
+        - "d) Se han clasificado las enfermedades del aparato digestivo."
+        - "e) Se han establecido las bases anatomofisiológicas de los riñones y las vías urinarias."
+        - "f) Se han identificado los componentes del sistema urinario en imágenes radiológicas."
+        - "g) Se han descrito las principales enfermedades del sistema urinario."
+        - "h) Se han identificado los componentes del aparato digestivo y del sistema urinario en imágenes médicas."
+      - numero: 7
+        enunciado: "Reconoce la estructura, el funcionamiento y las enfermedades del sistema endocrino-metabólico y del aparato genital, relacionándolos con imágenes diagnósticas."
+        criterios_evaluacion:
+        - "a) Se han definido las bases del sistema endocrino-metabólico y la función hormonal."
+        - "b) Se han clasificado las alteraciones endocrinas-metabólicas."
+        - "c) Se han establecido las bases anatómicas y fisiopatológicas del aparato genital femenino."
+        - "d) Se han identificado los componentes del aparato genital femenino en imágenes diagnósticas."
+        - "e) Se ha descrito la anatomía y la fisiología de la mama."
+        - "f) Se han clasificado los principales procesos patológicos de la mama."
+        - "g) Se han establecido diferencias entre imágenes normales y patológicas de la mama."
+        - "h) Se han establecido las bases anatómicas y fisiopatológicas del aparato genital masculino."
+        - "i) Se han identificado los componentes del aparato genital masculino en imágenes diagnósticas."
+    - codigo: "1348"
+      nombre: "Protección radiológica"
+      horas_totales: 80
+      ects: 9
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Aplica procedimientos de detección de la radiación, asociándolos a la vigilancia y control de la radiación externa e interna."
+        criterios_evaluacion:
+        - "a) Se han seleccionado las magnitudes y las unidades empleadas en dosimetría y radioprotección."
+        - "b) Se ha descrito la detección de la radiación, basándose en los procesos de interacción de la radiación con la materia."
+        - "c) Se ha diferenciado entre la dosimetría de área o ambiental y la personal."
+        - "d) Se han seleccionado los monitores y los dosímetros más adecuados para efectuar la dosimetría."
+        - "e) Se han realizando las comprobaciones previas al uso de los monitores de radiación."
+        - "f) Se han sistematizado los procedimientos de detección y medida de la contaminación."
+        - "g) Se han efectuado medidas de radiación."
+        - "h) Se han interpretando las lecturas dosimétricas."
+      - numero: 2
+        enunciado: "Detalla la interacción de las radiaciones ionizantes con el medio biológico, describiendo los efectos que producen."
+        criterios_evaluacion:
+        - "a) Se han definido los aspectos generales de la interacción de la radiación con el medio biológico."
+        - "b) Se ha diferenciado entre la acción directa de la radiación y la indirecta."
+        - "c) Se ha definido la interacción de la radiación con la célula y sus componentes."
+        - "d) Se han descrito los factores que influyen en la respuesta celular frente a la radiación."
+        - "e) Se han clasificado los efectos biológicos producidos por la radiación."
+        - "f) Se ha descrito la respuesta sistémica y orgánica a la radiación."
+        - "g) Se han relacionado los límites de la dosis con los efectos biológicos producidos."
+      - numero: 3
+        enunciado: "Aplica los protocolos de protección radiológica operacional, basándose en los criterios generales de protección y tipos de exposiciones."
+        criterios_evaluacion:
+        - "a) Se ha definido el objetivo de la protección radiológica."
+        - "b) Se ha diferenciado entre práctica e intervención."
+        - "c) Se han definido los distintos tipos de exposiciones."
+        - "d) Se han descrito los principios sobre los que se apoya la protección radiológica."
+        - "e) Se han establecido las medidas básicas de protección radiológica."
+        - "f) Se ha establecido la clasificación y los límites de la dosis en función del riesgo de exposición a la radiación."
+        - "g) Se han clasificado los lugares de trabajo y se ha procedido a su señalización."
+        - "h) Se ha explicado la vigilancia y el control de la radiación a nivel individual y del ambiente de trabajo."
+        - "i) Se ha establecido la vigilancia sanitaria del personal profesionalmente expuesto."
+      - numero: 4
+        enunciado: "Caracteriza las instalaciones radiactivas sanitarias de medicina nuclear, radioterapia y radiodiagnóstico, identificando los riesgos radiológicos."
+        criterios_evaluacion:
+        - "a) Se han identificado las fuentes radiactivas empleadas en instalaciones radioactivas y los riesgos radiológicos asociados."
+        - "b) Se han asociado los riesgos radiológicos al uso de fuentes radiactivas encapsuladas y no encapsuladas."
+        - "c) Se han descrito las características de los recintos de trabajo en las instalaciones de medicina nuclear, radiofarmacia y radioterapia."
+        - "d) Se han identificado las zonas de riesgo de una instalación de medicina nuclear, radiofarmacia y radioterapia."
+        - "e) Se ha valorado la importancia del cálculo de blindajes en el diseño estructural de la instalación de radioterapia externa y braquiterapia."
+        - "f) Se han reconocido los dispositivos de seguridad y los dispositivos auxiliares en la instalación de radioterapia externa y braquiterapia."
+        - "g) Se han detallado los requisitos administrativos para cada una de las instalaciones radioactivas."
+      - numero: 5
+        enunciado: "Aplica procedimientos de gestión del material radiactivo, asociando los protocolos operativos al tipo de instalación."
+        criterios_evaluacion:
+        - "a) Se han definido las características de los residuos radiactivos."
+        - "b) Se han clasificado los residuos radiactivos."
+        - "c) Se han justificado las diferentes opciones de gestión del material radiactivo."
+        - "d) Se han identificado los riesgos del transporte de material radiactivo."
+        - "e) Se han clasificado los bultos radiactivos y su señalización."
+        - "f) Se ha definido la documentación requerida para la eliminación de residuos."
+        - "g) Se han descrito las normas de gestión del material radiactivo."
+      - numero: 6
+        enunciado: "Define acciones para la aplicación del plan de garantía de calidad, relacionándolo con cada área y tipo de instalación radiactiva."
+        criterios_evaluacion:
+        - "a) Se han interpretado los aspectos incluidos en el programa de garantía de calidad en función del tipo de instalación."
+        - "b) Se ha interpretado la normativa española sobre calidad, específica para cada instalación."
+        - "c) Se han descrito los procedimientos del control de calidad en medicina nuclear, radioterapia y radiodiagnóstico."
+        - "d) Se han identificado los protocolos de calidad en radiodiagnóstico y en instalaciones radioactivas."
+        - "e) Se ha justificado la optimización de los procedimientos diagnósticos y terapéuticos."
+        - "f) Se han definido las medidas adoptadas en los pacientes para evitar los riesgos de irradiación y de contaminación."
+      - numero: 7
+        enunciado: "Aplica planes de emergencia en las instalaciones radiactivas, identificando los accidentes radiológicos."
+        criterios_evaluacion:
+        - "a) Se ha distinguido entre accidente e incidente."
+        - "b) Se han identificado los accidentes por exposición."
+        - "c) Se han definido los accidentes por contaminación."
+        - "d) Se han descrito los planes de emergencia de cada instalación."
+        - "e) Se han identificado las emergencias en medicina nuclear."
+        - "f) Se han aplicado los protocolos en accidentes y emergencias."
+        - "g) Se ha efectuado el simulacro."
+        - "h) Se han descrito los puntos críticos de evaluación del plan de emergencia."
+    - codigo: "1349"
+      nombre: "Técnicas de radiología simple"
+      horas_totales: 65
+      ects: 8
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Realiza la preparación de un estudio de radiografía simple, seleccionando los equipos y los materiales necesarios."
+        criterios_evaluacion:
+        - "a) Se ha seleccionado el equipo y los materiales según la petición del estudio radiográfico."
+        - "b) Se han elegido los receptores de imagen, de acuerdo con los procedimientos establecidos."
+        - "c) Se han aplicado los protocolos de recepción del paciente, de acuerdo con la petición del estudio."
+        - "d) Se han identificado las características psicofísicas del paciente determinantes en la exploración requerida."
+        - "e) Se ha preparado al paciente para la realización de una exploración determinada."
+        - "f) Se ha definido la información que hay que transmitir al paciente en una exploración determinada."
+      - numero: 2
+        enunciado: "Realiza técnicas de exploración radiológica de la extremidad superior y la cintura escapular, aplicando los protocolos requeridos."
+        criterios_evaluacion:
+        - "a) Se ha detallado la posición del paciente para la exploración requerida."
+        - "b) Se han protegido de la radiación los órganos sensibles, de acuerdo con las características de la exploración."
+        - "c) Se ha situado el tubo a la distancia adecuada, se ha centrado, angulado y colimado el haz de rayos X y se ha situado el receptor de imagen para la obtención de una imagen de calidad."
+        - "d) Se han seleccionado los valores técnicos adecuados para la exploración."
+        - "e) Se han comprobado la posición, los accesorios y los valores técnicos antes de realizar la exposición."
+        - "f) Se ha simulado la exploración."
+        - "g) Se ha capturado o revelado la imagen y se ha comprobado su calidad."
+        - "h) Se ha valorado la necesidad de repetir la exploración, de acuerdo con la calidad de la imagen obtenida."
+        - "i) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+      - numero: 3
+        enunciado: "Realiza técnicas de exploración radiológica de la extremidad inferior y la cintura pélvica, aplicando los protocolos requeridos."
+        criterios_evaluacion:
+        - "a) Se ha detallado la posición del paciente para la exploración requerida."
+        - "b) Se han protegido de la radiación los órganos sensibles, de acuerdo con las características de la exploración."
+        - "c) Se ha situado el tubo a la distancia adecuada, se ha centrado, angulado y colimado el haz de rayos X y se ha situado el receptor de imagen para la obtención de una imagen de calidad."
+        - "d) Se han seleccionado los valores técnicos adecuados para la exploración."
+        - "e) Se han comprobado la posición, los accesorios y los valores técnicos antes de realizar la exposición."
+        - "f) Se ha simulado la exploración."
+        - "g) Se ha capturado o revelado la imagen y se ha comprobado su calidad."
+        - "h) Se ha valorado la necesidad de repetir la exploración, de acuerdo con la calidad de la imagen obtenida."
+        - "i) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+      - numero: 4
+        enunciado: "Realiza técnicas de exploración radiológica de la columna vertebral, el sacro y el coxis, aplicando los protocolos requeridos."
+        criterios_evaluacion:
+        - "a) Se ha detallado la posición del paciente para la exploración requerida."
+        - "b) Se han protegido de la radiación los órganos sensibles, de acuerdo con las características de la exploración."
+        - "c) Se ha situado el tubo a la distancia adecuada, se ha centrado, angulado y colimado el haz de rayos X y se ha situado el receptor de imagen para la obtención de una imagen de calidad."
+        - "d) Se han seleccionado los valores técnicos adecuados para la exploración."
+        - "e) Se han comprobado la posición, los accesorios y los valores técnicos antes de realizar la exposición."
+        - "f) Se ha simulado la exploración."
+        - "g) Se ha capturado o revelado la imagen y se ha comprobado su calidad."
+        - "h) Se ha valorado la necesidad de repetir la exploración, de acuerdo con la calidad de la imagen obtenida."
+        - "i) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+      - numero: 5
+        enunciado: "Realiza técnicas de exploración radiológica de tórax óseo, visceral y abdomen, aplicando los protocolos requeridos."
+        criterios_evaluacion:
+        - "a) Se ha detallado la posición del paciente para la exploración requerida."
+        - "b) Se han protegido de la radiación los órganos sensibles, de acuerdo con las características de la exploración."
+        - "c) Se ha situado el tubo a la distancia adecuada, se ha centrado, angulado y colimado el haz de rayos X y se ha situado el receptor de imagen para la obtención de una imagen de calidad."
+        - "d) Se han seleccionado los valores técnicos adecuados para la exploración."
+        - "e) Se han comprobado la posición, los accesorios y los valores técnicos antes de realizar la exposición."
+        - "f) Se ha simulado la exploración."
+        - "g) Se ha capturado o revelado la imagen y se ha comprobado su calidad."
+        - "h) Se ha valorado la necesidad de repetir la exploración, de acuerdo con la calidad de la imagen obtenida."
+        - "i) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+      - numero: 6
+        enunciado: "Realiza técnicas de exploración radiológica de cabeza y cuello, aplicando los protocolos requeridos."
+        criterios_evaluacion:
+        - "a) Se ha detallado la posición del paciente para la exploración requerida."
+        - "b) Se han protegido de la radiación los órganos sensibles, de acuerdo con las características de la exploración."
+        - "c) Se ha situado el tubo a la distancia adecuada, se ha centrado, angulado y colimado el haz de rayos X y se ha situado el receptor de imagen para la obtención de una imagen de calidad."
+        - "d) Se han seleccionado los valores técnicos adecuados para la exploración."
+        - "e) Se han comprobado la posición, los accesorios y los valores técnicos antes de realizar la exposición."
+        - "f) Se ha simulado la exploración."
+        - "g) Se ha capturado o revelado la imagen y se ha comprobado su calidad."
+        - "h) Se ha valorado la necesidad de repetir la exploración, de acuerdo con la calidad de la imagen obtenida."
+        - "i) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+    - codigo: "1350"
+      nombre: "Técnicas de radiología especial"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Describe la realización de exploraciones radiológicas del aparato digestivo, utilizando los protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se ha preparado el equipo y el material necesario para la exploración requerida."
+        - "b) Se ha definido la información y el procedimiento de preparación del paciente."
+        - "c) Se ha preparado el material de contraste requerido por la exploración."
+        - "d) Se han identificado las medidas de protección en las exploraciones digestivas."
+        - "e) Se han simulado las exploraciones del tracto digestivo alto."
+        - "f) Se han simulado las exploraciones del tracto gastrointestinal medio y bajo."
+        - "g) Se han simulado las exploraciones de las glándulas digestivas."
+        - "h) Se ha valorado la calidad de las imágenes obtenidas y se han aplicado las técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 2
+        enunciado: "Describe la realización de exploraciones radiológicas del sistema genito-urinario, utilizando los protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se ha preparado el equipo y el material necesario para la exploración requerida."
+        - "b) Se ha definido la información y el procedimiento de preparación del paciente."
+        - "c) Se ha preparado el material de contraste requerido por la exploración."
+        - "d) Se han identificado las medidas de protección en las exploraciones del aparato excretor."
+        - "e) Se han simulado las exploraciones urográficas intravenosas."
+        - "f) Se han simulado las exploraciones retrógradas del aparato excretor."
+        - "g) Se han simulado las exploraciones histerosalpingográficas."
+        - "h) Se ha valorado la calidad de las imágenes obtenidas y se han aplicado las técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 3
+        enunciado: "Obtiene imágenes radiológicas del sistema vascular, de procedimientos intervencionistas y de toma de muestras, utilizando protocolos de exploración."
+        criterios_evaluacion:
+        - "a) Se ha preparado el equipo y el material necesario para la exploración requerida."
+        - "b) Se ha definido la información y el procedimiento de preparación del paciente."
+        - "c) Se ha preparado el equipo y el material de contraste requerido por la exploración."
+        - "d) Se han identificado las medidas de protección en las exploraciones vasculares e intervencionistas."
+        - "e) Se han reconocido y seleccionado los materiales necesarios para la realización de técnicas intervencionistas vasculares y no vasculares."
+        - "f) Se han simulado exploraciones en estudios angiográficos y linfografías."
+        - "g) Se han simulado exploraciones en procedimientos intervencionistas vasculares y no vasculares."
+        - "h) Se ha definido e identificado el uso de técnicas de imagen para la obtención de biopsias en diferentes órganos."
+        - "i) Se ha valorado la calidad de las imágenes obtenidas y se han aplicado las técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 4
+        enunciado: "Realiza mamografías utilizando los protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se ha justificado el uso de radiaciones ionizantes en la exploración del tejido mamario."
+        - "b) Se ha definido la información y el procedimiento de preparación del paciente."
+        - "c) Se ha descrito la estructura del mamógrafo y las salas de exploración."
+        - "d) Se han establecido las características técnicas de las exploraciones y de los materiales accesorios."
+        - "e) Se ha preparado el equipo y el material necesario para la exploración requerida."
+        - "f) Se ha definido la información y el procedimiento de preparación del paciente."
+        - "g) Se han simulado las proyecciones mamográficas."
+        - "h) Se han identificado los procedimientos de marcaje prequirúrgico y de toma de muestras para una biopsia."
+        - "i) Se ha valorado la calidad de las imágenes obtenidas y se han aplicado las técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 5
+        enunciado: "Realiza exploraciones radiológicas intraorales y ortopantomográficas, utilizando protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se han identificado los componentes de los equipos radiológicos para exploraciones intraorales."
+        - "b) Se han seleccionado los materiales necesarios para exploraciones intraorales."
+        - "c) Se han simulado proyecciones intraorales."
+        - "d) Se han revelado placas dentales, se ha realizado el procesado de imágenes digitales intraorales y se ha valorado su calidad."
+        - "e) Se han identificado los componentes del ortopantomógrafo."
+        - "f) Se han seleccionado y preparado los materiales necesarios para las exploraciones mediante ortopantomografía."
+        - "g) Se ha valorado la calidad de las imágenes de ortopantomografía y se han aplicado técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 6
+        enunciado: "Realiza exploraciones radiológicas mediante equipos portátiles y equipos móviles quirúrgicos, utilizando protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se han identificado los componentes y los accesorios de los equipos radiológicos portátiles y de los equipos radioscópicos móviles de uso quirúrgico."
+        - "b) Se ha comprobado la carga y la operatividad de los equipos radiológicos portátiles y de los equipos radioscópicos móviles de uso quirúrgico."
+        - "c) Se han identificado las medidas de protección en las exploraciones con equipos portátiles y arcos quirúrgicos."
+        - "d) Se han identificado los factores técnicos y materiales que afectan a la calidad de la imagen en radiología portátil y de quirófano."
+        - "e) Se han simulado proyecciones de diferentes zonas anatómicas con equipos portátiles."
+        - "f) Se ha identificado la estructura de un quirófano, valorando la importancia de la esterilización e identificando las funciones de cada componente del equipo quirúrgico."
+        - "g) Se han simulado proyecciones utilizando un arco en C."
+        - "h) Se ha valorado la calidad de las imágenes de radiología portátil y quirúrgica, y se han aplicado técnicas de postprocesado en las imágenes digitalizadas."
+      - numero: 7
+        enunciado: "Realiza densitometrías óseas utilizando protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se ha justificado el uso de la densitometría en la valoración de los riesgos derivados de la pérdida de masa ósea."
+        - "b) Se han identificado las localizaciones anatómicas para la valoración de la densidad ósea."
+        - "c) Se han caracterizado los equipos densitométricos que utilizan radiación X."
+        - "d) Se ha simulado el posicionamiento del paciente y la obtención de imágenes para la valoración densitométrica en las diferentes localizaciones anatómicas."
+        - "e) Se han calculado los parámetros de masa ósea y el contenido mineral óseo."
+        - "f) Se han calculado los valores T-score y Z-score en diferentes localizaciones anatómicas."
+        - "g) Se han reconocido en las imágenes los artefactos que pueden afectar a las valoraciones densitométricas."
+        - "h) Se han aplicado los métodos de protección radiológica y de control de calidad en las exploraciones densitométricas."
+    - codigo: "1351"
+      nombre: "Técnicas de tomografía computarizada y ecografía"
+      horas_totales: 60
+      ects: 7
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Prepara la exploración, interpretando procedimientos de control establecidos."
+        criterios_evaluacion:
+        - "a) Se ha realizado la puesta en marcha del equipo y se ha comprobado el funcionamiento correcto de todos sus componentes."
+        - "b) Se ha preparado todo el material necesario."
+        - "c) Se han comprobado los datos preceptivos para la realización de la prueba."
+        - "d) Se ha verificado la preparación necesaria para el estudio."
+        - "e) Se ha definido la información de las características de la prueba y la importancia de seguir las instrucciones."
+        - "f) Se ha verificado que se ha cumplimentado el consentimiento informado."
+        - "g) Se han determinado las actuaciones que hay que realizar ante las manifestaciones de ansiedad."
+        - "h) Se han tenido en cuenta las características de los pacientes especiales."
+        - "i) Se ha valorado la importancia de la actitud profesional ante las necesidades del usuario."
+        - "j) Se han aplicado las normas de protección y seguridad personal."
+      - numero: 2
+        enunciado: "Aplica técnicas de administración de los medios de contraste, según protocolo específico de la unidad, identificando los tipos y sus indicaciones de uso."
+        criterios_evaluacion:
+        - "a) Se han clasificado los contrastes del uso específico en TC."
+        - "b) Se han identificado las vías de administración."
+        - "c) Se han establecido las indicaciones y las contraindicaciones."
+        - "d) Se han almacenado correctamente los contrastes antes de su aplicación."
+        - "e) Se ha explicado la finalidad del uso de contrastes y los posibles efectos adversos para la obtención del consentimiento informado."
+        - "f) Se ha preparado la dosis exacta."
+        - "g) Se ha verificado el funcionamiento de las bombas de infusión, se ha realizado la carga del contraste y se han programado los parámetros de aplicación."
+        - "h) Se ha comprobado la disponibilidad de los equipos y los fármacos necesarios para atender las posibles reacciones adversas a los contrastes."
+        - "i) Se han definido las actuaciones que hay que seguir después de una prueba con contraste."
+      - numero: 3
+        enunciado: "Realiza la exploración siguiendo los protocolos específicos de la unidad, interpretando los procedimientos determinados en los mismos."
+        criterios_evaluacion:
+        - "a) Se ha interpretado la petición del examen radiológico."
+        - "b) Se ha establecido la posición requerida sobre la mesa de exploración."
+        - "c) Se han utilizado los accesorios y los soportes adecuados y se ha garantizado la comodidad y la seguridad."
+        - "d) Se ha posicionado el gantry, se ha realizado el centrado y se ha establecido la posición de la mesa para el inicio de la exploración."
+        - "e) Se ha adquirido el topograma de reconocimiento y se han programado los parámetros técnicos de la prueba."
+        - "f) Se ha validado el protocolo de exploración predefinido según la región anatómica que hay que explorar."
+        - "g) Se ha seleccionado la presentación del estudio según las preferencias indicadas."
+        - "h) Se ha cumplimentado la ficha de exploración radiológica, incluyendo las condiciones de la misma, la dosis administrada y las posibles incidencias."
+      - numero: 4
+        enunciado: "Obtiene imágenes de calidad, aplicando técnicas de postprocesado."
+        criterios_evaluacion:
+        - "a) Se han explicado las características de las imágenes TC."
+        - "b) Se han establecido las reglas de lectura de las imágenes TC."
+        - "c) Se ha establecido la correspondencia de números de TC con los órganos que hay que observar en el estudio solicitado."
+        - "d) Se ha determinado la importancia de presentar los estudios en las ventanas de observación que correspondan."
+        - "e) Se han definido los procesos de reconstrucción y de procesado de la imagen."
+        - "f) Se han identificado los artefactos producidos y se han propuesto las medidas correctoras."
+        - "g) Se han valorado los parámetros de calidad de la imagen."
+        - "h) Se han procesado y archivado, en formato digital, las imágenes obtenidas."
+        - "i) Se han obtenido copias impresas cuando han sido solicitadas."
+      - numero: 5
+        enunciado: "Identifica el uso clínico de los ultrasonidos, analizando las características de la imagen."
+        criterios_evaluacion:
+        - "a) Se han identificado los parámetros que influyen en la formación de la imagen."
+        - "b) Se ha relacionado la imagen generada con las características de los tejidos estudiados."
+        - "c) Se han clasificado las imágenes en función de su ecogenicidad y se han diferenciado las estructuras sólidas y líquidas."
+        - "d) Se ha establecido la relación entre la frecuencia empleada y la profundidad de la región explorada."
+        - "e) Se han identificado los posibles artefactos y se han propuesto medidas correctoras."
+        - "f) Se ha valorado el uso de ecopotenciadores para mejorar la calidad de las imágenes."
+        - "g) Se han identificado las aportaciones y las limitaciones de las técnicas ecográficas en sus aplicaciones clínicas."
+      - numero: 6
+        enunciado: "Aplica técnicas de exploración ecográfica siguiendo los protocolos establecidos, interpretando los procedimientos determinados en los mismos."
+        criterios_evaluacion:
+        - "a) Se han comprobado los datos de identificación, la fecha y la exploración solicitada."
+        - "b) Se ha comprobado que el cumplimiento de las instrucciones de preparación para el estudio."
+        - "c) Se ha establecido la posición requerida sobre la mesa de exploración."
+        - "d) Se ha seleccionado el transductor adecuado y se ha aplicado gel sobre la piel de la zona que hay que explorar."
+        - "e) Se han seguido los protocolos de exploración en las diferentes regiones corporales."
+        - "f) Se han obtenido imágenes y se ha verificado la calidad de las mismas."
+        - "g) Se han archivado las imágenes durante el desarrollo de la prueba."
+        - "h) Se ha valorado la importancia de atender las necesidades de los usuarios."
+    - codigo: "1352"
+      nombre: "Técnicas de imagen por resonancia magnética"
+      horas_totales: 55
+      ects: 6
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Prepara la exploración, aplicando los procedimientos de control establecidos."
+        criterios_evaluacion:
+        - "a) Se han comprobado los datos preceptivos para la realización de la prueba."
+        - "b) Se ha confirmado que no existe ninguna contraindicación para la exploración y se han retirado todos los objetos metálicos."
+        - "c) Se ha informado de las características de la prueba, de su duración y de los ruidos generados."
+        - "d) Se ha definido la información de las características de la prueba y la importancia de seguir las instrucciones."
+        - "e) Se ha verificado que se ha cumplimentado el consentimiento informado."
+        - "f) Se ha preparado todo el material necesario para el desarrollo de la prueba."
+        - "g) Se han determinado las actuaciones que hay que realizar ante manifestaciones de ansiedad."
+        - "h) Se han tenido en cuenta las características de los pacientes especiales."
+        - "i) Se ha valorado la importancia de la actitud profesional ante las necesidades del usuario."
+        - "j) Se han aplicado las normas de protección y de seguridad personal."
+      - numero: 2
+        enunciado: "Aplica técnicas de administración de los medios de contraste, según protocolo específico de la unidad, identificando los tipos y sus indicaciones de uso."
+        criterios_evaluacion:
+        - "a) Se han clasificado los contrastes del uso en resonancia magnética y se han identificado las vías de administración."
+        - "b) Se han descrito las propiedades y los principales usos de los contrastes con Gd."
+        - "c) Se han precisado los usos de los contrastes de manganeso, sus propiedades y sus indicaciones."
+        - "d) Se han establecido las propiedades y las indicaciones de los contrastes negativos."
+        - "e) Se han identificado los posibles efectos adversos derivados del uso de los contrastes en resonancia magnética."
+        - "f) Se ha preparado la dosis exacta."
+        - "g) Se ha verificado el funcionamiento de las bombas de infusión, se ha realizado la carga del contraste y se han programado los parámetros de aplicación."
+        - "h) Se ha comprobado la disponibilidad de los equipos y los fármacos necesarios para la asistencia de reacciones adversas a los contrastes."
+        - "i) Se ha informado al paciente de la actitud que debe seguir después de la prueba con contrastes."
+      - numero: 3
+        enunciado: "Realiza la prueba de resonancia magnética, interpretando los protocolos de exploración establecidos."
+        criterios_evaluacion:
+        - "a) Se ha interpretado la hoja de petición de la prueba."
+        - "b) Se ha establecido la posición requerida sobre la mesa de exploración."
+        - "c) Se han utilizado los accesorios y los soportes necesarios."
+        - "d) Se ha seleccionado la bobina correspondiente a la región corporal que se va a explorar y se ha comprobado su correcta colocación y conexión."
+        - "e) Se ha realizado el centrado de la región anatómica y se ha posicionado al paciente para el inicio de la prueba."
+        - "f) Se han configurado los parámetros del estudio o validado el protocolo de exploración predefinido."
+        - "g) Se han tomado las secuencias localizadoras y se han programado los cortes en los diferentes planos, según el estudio solicitado."
+        - "h) Se ha cumplimentado la ficha de exploración, indicando las condiciones de la misma y las posibles incidencias."
+      - numero: 4
+        enunciado: "Aplica los ajustes necesarios, obteniendo una imagen de calidad."
+        criterios_evaluacion:
+        - "a) Se han establecido las diferencias entre las imágenes potenciadas en T1, T2 y Dp."
+        - "b) Se han descrito las características de las principales secuencias y se han clasificado convenientemente."
+        - "c) Se han determinado los elementos que influyen en la calidad de la imagen."
+        - "d) Se han identificado los parámetros modificables que ponderan la imagen en las secuencias."
+        - "e) Se han realizado ajustes para mejorar la calidad de la imagen."
+        - "f) Se han detectado artefactos en la imagen y se han propuesto las medidas correspondientes."
+        - "g) Se ha comprobado la calidad de las imágenes obtenidas."
+        - "h) Se han procesado y archivado en formato digital las imágenes obtenidas."
+        - "i) Se han obtenido copias impresas cuando se han solicitado."
+      - numero: 5
+        enunciado: "Identifica los riesgos asociados a la adquisición de imágenes de resonancia magnética, proponiendo medidas de prevención y control."
+        criterios_evaluacion:
+        - "a) Se han relacionado los riesgos potenciales de la resonancia magnética con las propiedades del equipo manejado."
+        - "b) Se ha interpretado la señalización de advertencia de los peligros potenciales."
+        - "c) Se han tipificado los riesgos derivados de los campos magnéticos estáticos."
+        - "d) Se han identificado los riesgos asociados a los gradientes del campo magnético."
+        - "e) Se han definido los riesgos asociados a la emisión de pulsos de radiofrecuencia."
+        - "f) Se han registrado las contraindicaciones absolutas y relativas en la resonancia magnética."
+        - "g) Se han valorado las situaciones especiales con algún nivel de riesgo en la resonancia magnética."
+        - "h) Se han identificado las complicaciones médicas durante o después de la exploración."
+      - numero: 6
+        enunciado: "Caracteriza las pruebas de resonancia magnética funcional e intervencionista, relacionándolas con los estudios solicitados."
+        criterios_evaluacion:
+        - "a) Se han clasificado las indicaciones de la resonancia magnética en los estudios médicos."
+        - "b) Se han identificado las limitaciones de la técnica y su relación con la modalidad de equipo disponible."
+        - "c) Se han valorado las ventajas de la resonancia magnética respecto otras técnicas diagnósticas."
+        - "d) Se han fundamentado los estudios de angiografía por resonancia magnética en técnicas con contraste y sin contraste."
+        - "e) Se han identificado las posibilidades de estudios morfológicos y funcionales del corazón."
+        - "f) Se ha planificado la sincronización cardíaca y la compensación respiratoria."
+        - "g) Se han identificado los fundamentos y las técnicas de resonancia magnética cerebro-vascular."
+        - "h) Se han descrito las pruebas funcionales neurológicas por RM."
+        - "i) Se ha valorado el uso de la resonancia magnética en intervenciones y terapia."
+    - codigo: "1353"
+      nombre: "Técnicas de imagen en medicina nuclear"
+      horas_totales: 60
+      ects: 7
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Define el campo de actuación de la medicina nuclear, relacionando los radionúclidos con sus aplicaciones médicas."
+        criterios_evaluacion:
+        - "a) Se han definido los fundamentos físico-técnicos para las aplicaciones clínicas de medicina nuclear."
+        - "b) Se han enumerado los principales hitos históricos en la evolución de la medicina nuclear."
+        - "c) Se han identificado los procesos diagnósticos y terapéuticos de la medicina nuclear."
+        - "d) Se han descrito las áreas funcionales para el diseño y la organización de un servicio hospitalario de medicina nuclear."
+        - "e) Se han detallado las funciones que desarrolla el técnico de imagen para el diagnóstico en la medicina nuclear."
+        - "f) Se han identificado las fases del proceso para la asistencia técnico-sanitaria del paciente en medicina nuclear."
+        - "g) Se ha valorado la importancia de la actitud profesional en el resultado de la asistencia técnico-sanitaria prestada."
+      - numero: 2
+        enunciado: "Determina los parámetros de funcionamiento de los equipos de adquisición de imágenes, describiendo su estructura y funcionamiento."
+        criterios_evaluacion:
+        - "a) Se han definido los fundamentos físico-técnicos de los equipos de medicina nuclear."
+        - "b) Se han descrito los componentes, los tipos y las funciones de los equipos en medicina nuclear."
+        - "c) Se han seleccionado los colimadores según el tipo de radiación y la exploración."
+        - "d) Se han definido los parámetros de ventana, la matriz, el zoom y las cuentas que hay que adquirir en cada exploración."
+        - "e) Se ha definido el tiempo por imagen y el tiempo en estudios dinámicos, en la adquisición de imagen gammagráfica."
+        - "f) Se ha establecido la órbita de rotación, la parada angular y el tiempo de adquisición de la tomografía de emisión por fotón único (SPECT) y SPECT-TAC."
+        - "g) Se han definido los parámetros de adquisición por proyección de la PET y la PET-TAC."
+        - "h) Se han definido las características de los equipos híbridos."
+      - numero: 3
+        enunciado: "Determina el procedimiento de puesta a punto de los equipos y del material necesario, interpretando los protocolos de funcionamiento."
+        criterios_evaluacion:
+        - "a) Se han descrito los pasos del procedimiento de puesta a punto para el inicio de la actividad."
+        - "b) Se ha cumplimentado la documentación para el registro de las averías y de las intervenciones sobre el equipo."
+        - "c) Se han descrito las características del archivo de los informes y controles."
+        - "d) Se han definido los criterios y el procedimiento de control de calidad y la dosimetría para los equipos de medicina nuclear."
+        - "e) Se ha seleccionado el material necesario para realizar las exploraciones en función de los protocolos de intervención."
+        - "f) Se han descrito las actividades de finalización de la actividad en los equipos y en la sala de exploración."
+        - "g) Se ha valorado la importancia de la limpieza, el orden y la autonomía en la resolución de los imprevistos."
+      - numero: 4
+        enunciado: "Aplica los protocolos establecidos en la realización de las exploraciones, caracterizando el tipo de estudio y el procedimiento de adquisición de la imagen."
+        criterios_evaluacion:
+        - "a) Se han definido las aplicaciones clínicas de cada exploración."
+        - "b) Se han identificado las características y los requisitos más importantes de las mismas."
+        - "c) Se ha definido el proceso de información, preparación y control del paciente, según la exploración."
+        - "d) Se ha identificado el radiotrazador adecuado para cada exploración."
+        - "e) Se ha definido la posición del paciente y del detector en función de las proyecciones o el estudio solicitado."
+        - "f) Se ha seleccionado el colimador, según el tipo de estudio."
+        - "g) Se han definido los tiempos de espera y de adquisición propios del estudio."
+        - "h) Se han identificado los datos imprescindibles para el registro del estudio en el ordenador."
+        - "i) Se ha seleccionado el procedimiento de adquisición de la imagen para cada exploración."
+      - numero: 5
+        enunciado: "Describe el proceso de registro de la imagen, aplicando los programas de procesado de los estudios."
+        criterios_evaluacion:
+        - "a) Se han identificado las características de la imagen o del estudio normal."
+        - "b) Se han definido los parámetros de calidad de la imagen en la adquisición y en el procesado."
+        - "c) Se han enumerado los artefactos más frecuentes y su resolución."
+        - "d) Se han descrito las fases del procesado de estudios."
+        - "e) Se han seleccionado los parámetros técnicos empleados en el procesado."
+        - "f) Se han definido las proyecciones gammagráficas, las imágenes secuenciales de un estudio dinámico y las curvas de actividad/tiempo."
+        - "g) Se ha descrito el proceso de normalización y la reconstrucción tomográfica en las imágenes tomográficas, tridimensionales o mapas polares."
+        - "h) Se han descrito las formas de presentación y de archivo de imágenes."
+        - "i) Se ha archivado el estudio en el RIS-PACS."
+      - numero: 6
+        enunciado: "Verifica la calidad y la idoneidad de la imagen obtenida, relacionándola con los patrones de normalidad y otros estudios complementarios."
+        criterios_evaluacion:
+        - "a) Se han identificado los criterios de calidad en las exploraciones del sistema músculo-esquelético."
+        - "b) Se han identificado los criterios de calidad en las exploraciones cardiológicas y de patología vascular."
+        - "c) Se han identificado los criterios de calidad en exploraciones neumológicas."
+        - "d) Se han identificado los criterios de calidad en las exploraciones endocrinológicas."
+        - "e) Se han identificado los criterios de calidad en las exploraciones del sistema nervioso central."
+        - "f) Se han identificado los criterios de calidad en las exploraciones del aparato genitourinario."
+        - "g) Se han identificado los criterios de calidad en las exploraciones de patología digestiva, hepatoesplénica y biliar."
+        - "h) Se han identificado los criterios de calidad en las exploraciones cinéticas in vivo, con y sin imagen."
+        - "i) Se ha identificado la necesidad de hacer estudios complementarios en función de los hallazgos obtenidos."
+    - codigo: "1354"
+      nombre: "Técnicas de radiofarmacia"
+      horas_totales: 50
+      ects: 6
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Aplica el procedimiento de obtención de los radiofármacos utilizados en las exploraciones, identificando el proceso de producción y de obtención."
+        criterios_evaluacion:
+        - "a) Se han definido los fundamentos de la producción de radionúclidos empleados con fines médicos."
+        - "b) Se ha descrito el proceso de solicitud, recepción, almacenamiento y renovación del material radiactivo en la gammateca."
+        - "c) Se ha descrito la finalidad y la estructura del generador 99Mo/99mTc y del ciclotrón."
+        - "d) Se ha descrito el procedimiento de elución del generador y el de producción de isótopos en el ciclotrón."
+        - "e) Se ha definido el proceso de verificación del control de calidad del isótopo procedente del generador y del ciclotrón."
+        - "f) Se ha puesto a punto el activímetro para medir el isótopo."
+        - "g) Se ha calculado la actividad de las dosis que se van a preparar en función de su decay."
+        - "h) Se ha valorado la importancia de la seguridad y de la protección del medio ambiente en este tipo de actividad."
+      - numero: 2
+        enunciado: "Determina el procedimiento de marcaje del radiofármaco, relacionando el radionúclido con el vector químico."
+        criterios_evaluacion:
+        - "a) Se han identificado los principales vectores químicos utilizados en el marcaje del radiofármaco."
+        - "b) Se ha realizado el inventario de existencias de los kits fríos."
+        - "c) Se ha definido el procedimiento de actualización del inventario según el protocolo y la demanda."
+        - "d) Se ha realizado el marcaje de kits fríos según el tipo de estudio."
+        - "e) Se ha descrito el procedimiento de marcajes celulares."
+        - "f) Se ha caracterizado el proceso de dispensación del radiofármaco."
+        - "g) Se han descrito las vías de administración y los mecanismos de localización de radiofármacos."
+        - "h) Se han realizado los controles de calidad, de seguridad radiofarmacéutica y de protección radiológica."
+        - "i) Se han registrado los resultados de los controles de calidad y de protección radiológico en varios tipos de soporte."
+      - numero: 3
+        enunciado: "Aplica técnicas de radioinmunoanálisis, interpretando los procedimientos analíticos."
+        criterios_evaluacion:
+        - "a) Se han esquematizado las fases de un procedimiento analítico de un radioinmunoensayo."
+        - "b) Se ha descrito el control y la calibración de los equipos."
+        - "c) Se ha definido la curva de referencia, los tubos de control y los requisitos del control de calidad interno y externo."
+        - "d) Se ha formulado el recuento de la curva de control y de las muestras."
+        - "e) Se ha definido el ajuste del recuento a los valores de la curva control."
+        - "f) Se han transferido los resultados al fichero automático para la emisión de informes."
+        - "g) Se han aplicado las normas de seguridad y de calidad en todas las fases del proceso."
+      - numero: 4
+        enunciado: "Prepara el tratamiento radioisotópico, relacionando el isótopo con las patologías que hay que tratar."
+        criterios_evaluacion:
+        - "a) Se han definido los fundamentos de la terapia metabólica."
+        - "b) Se han diferenciado los tipos y las indicaciones de la terapia metabólica."
+        - "c) Se han clasificado los principales radiofármacos de la aplicación terapéutica."
+        - "d) Se han caracterizado los requisitos administrativos y asistenciales para el inicio del tratamiento."
+        - "e) Se han definido las indicaciones y el procedimiento del tratamiento radioisotópico del dolor óseo metastático."
+        - "f) Se ha definido el objetivo y el procedimiento de la sinoviortesis radioisotópica."
+        - "g) Se ha definido el objetivo y el procedimiento del tratamiento radioisotópico del hipertiroidismo y neoplasias diferenciadas de tiroides."
+        - "h) Se ha caracterizado el proceso de preparación del radiofármaco."
+        - "i) Se ha preparado el radiofármaco para el tratamiento."
+        - "j) Se ha definido el control y las recomendaciones generales de la radioprotección."
+      - numero: 5
+        enunciado: "Establece las medidas que hay que adoptar en la unidad de tratamiento radiometabólico, identificando los tipos y las instalaciones de la terapia metabólica."
+        criterios_evaluacion:
+        - "a) Se han definido las características y el funcionamiento de una unidad de tratamiento metabólico de medicina nuclear."
+        - "b) Se ha caracterizado el proceso de preparación del paciente y de los recursos materiales y humanos."
+        - "c) Se ha esquematizado el funcionamiento de los sistemas de vigilancia y el control de la unidad de tratamientos."
+        - "d) Se han identificado las partes y el funcionamiento de un sistema de vertido controlado de residuos."
+        - "e) Se han aplicado los procedimientos de asistencia técnico-sanitaria en la monitorización."
+        - "f) Se ha caracterizado el procedimiento de actuación ante incidencias que afecten al aislamiento, así como las medidas que hay que adoptar."
+        - "g) Se han descrito las medidas de radioprotección del personal sanitario en este tipo de instalaciones."
+        - "h) Se ha definido el plan de emergencias ante situaciones críticas."
+        - "i) Se ha valorado la importancia de las condiciones de confort y seguridad de la habitación."
+    - codigo: "1355"
+      nombre: "Proyecto de imagen para el diagnóstico y medicina nuclear"
+      horas_totales: 25
+      ects: 5
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer."
+        criterios_evaluacion:
+        - "a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen."
+        - "b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento."
+        - "c) Se han identificado las necesidades más demandadas a las empresas."
+        - "d) Se han valorado las oportunidades de negocio previsibles en el sector."
+        - "e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas."
+        - "f) Se han determinado las características específicas requeridas en el proyecto."
+        - "g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos, y sus condiciones de aplicación."
+        - "h) Se han identificado posibles ayudas o subvenciones para la incorporación de las nuevas tecnologías de producción o de servicio que se proponen."
+        - "i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto."
+      - numero: 2
+        enunciado: "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen."
+        criterios_evaluacion:
+        - "a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto."
+        - "b) Se ha realizado el estudio de viabilidad técnica del mismo."
+        - "c) Se han identificado las fases o partes que componen el proyecto y su contenido."
+        - "d) Se han establecido los objetivos que se pretenden conseguir, identificando su alcance."
+        - "e) Se han previsto los recursos materiales y personales necesarios para realizarlo."
+        - "f) Se ha realizado el presupuesto económico correspondiente."
+        - "g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo."
+        - "h) Se ha definido y elaborado la documentación necesaria para su diseño."
+        - "i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto."
+      - numero: 3
+        enunciado: "Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada."
+        criterios_evaluacion:
+        - "a) Se han secuenciado las actividades ordenándolas en función de las necesidades de su desarrollo."
+        - "b) Se han determinado los recursos y la logística necesaria para cada actividad."
+        - "c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades."
+        - "d) Se han determinado los procedimientos de actuación o ejecución de las actividades."
+        - "e) Se han identificado los riesgos inherentes a la ejecución, definiendo el plan de prevención de riesgos y los medios y equipos necesarios."
+        - "f) Se ha planificado la asignación de recursos materiales y humanos y los tiempos de ejecución."
+        - "g) Se ha hecho la valoración económica que da respuesta a las condiciones de su puesta en práctica."
+        - "h) Se ha definido y elaborado la documentación necesaria para la ejecución."
+      - numero: 4
+        enunciado: "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados."
+        criterios_evaluacion:
+        - "a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones."
+        - "b) Se han definido los indicadores de calidad para realizar la evaluación."
+        - "c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro."
+        - "d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos."
+        - "e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto."
+        - "f) Se ha establecido el procedimiento para la participación de los usuarios o clientes en la evaluación y se han elaborado los documentos específicos."
+        - "g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto, cuando este existe."
+    - codigo: "1356"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 50
+      ects: 5
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Selecciona oportunidades de empleo, identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida."
+        criterios_evaluacion:
+        - "a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación a las exigencias del proceso productivo."
+        - "b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil del título."
+        - "d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo."
+        - "f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título."
+        - "g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de decisiones."
+      - numero: 2
+        enunciado: "Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de los objetivos de la organización."
+        criterios_evaluacion:
+        - "a) Se han valorado las ventajas del trabajo en equipo en situaciones de trabajo relacionadas con el perfil del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo."
+        - "c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces."
+        - "d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros de un equipo."
+        - "e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico de las organizaciones."
+        - "f) Se han identificado los tipos de conflictos y sus fuentes."
+        - "g) Se han determinado procedimientos para la resolución del conflicto."
+      - numero: 3
+        enunciado: "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas en los diferentes contratos de trabajo."
+        criterios_evaluacion:
+        - "a) Se han identificado los conceptos básicos del derecho del trabajo."
+        - "b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores."
+        - "c) Se han determinado los derechos y obligaciones derivados de la relación laboral."
+        - "d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la contratación para determinados colectivos."
+        - "e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar."
+        - "f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral."
+        - "g) Se ha analizado el recibo de salarios, identificando los principales elementos que lo integran."
+        - "h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos."
+        - "i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector relacionado con el título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo."
+      - numero: 4
+        enunciado: "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas, identificando las distintas clases de prestaciones."
+        criterios_evaluacion:
+        - "a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos."
+        - "b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social."
+        - "c) Se han identificado los regímenes existentes en el sistema de Seguridad Social."
+        - "d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social."
+        - "e) Se han identificado en un supuesto sencillo las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y empresario."
+        - "f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos."
+        - "g) Se han determinado las posibles situaciones legales de desempleo."
+        - "h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico."
+      - numero: 5
+        enunciado: "Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral."
+        criterios_evaluacion:
+        - "a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa."
+        - "b) Se han relacionado las condiciones laborales con la salud del trabajador."
+        - "c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos."
+        - "d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "e) Se ha determinado la evaluación de riesgos en la empresa."
+        - "f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo relacionados con el perfil profesional del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+      - numero: 6
+        enunciado: "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados."
+        criterios_evaluacion:
+        - "a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales."
+        - "b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales."
+        - "c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos."
+        - "d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales."
+        - "e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación de actuaciones que se deben realizar en caso de emergencia."
+        - "f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        - "g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector."
+      - numero: 7
+        enunciado: "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del técnico superior en Imagen para el Diagnóstico y Medicina Nuclear."
+        criterios_evaluacion:
+        - "a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables."
+        - "b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad."
+        - "c) Se han analizado los protocolos de actuación en caso de emergencia."
+        - "d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa gravedad."
+        - "e) Se han identificado las técnicas básicas de primeros auxilios que deben ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín."
+        - "f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención."
+    - codigo: "1357"
+      nombre: "Empresa e iniciativa emprendedora"
+      horas_totales: 35
+      ects: 4
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando los requerimientos derivados de los puestos de trabajo y de las actividades empresariales."
+        criterios_evaluacion:
+        - "a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar de los individuos."
+        - "b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar social."
+        - "c) Se ha valorado la importancia de la iniciativa individual, la creatividad, la formación y la colaboración como requisitos indispensables para tener éxito en la actividad emprendedora."
+        - "d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pequeña y mediana empresa relacionada con la imagen para el diagnóstico y la medicina nuclear."
+        - "e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector de la imagen para el diagnóstico y la medicina nuclear."
+        - "f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora."
+        - "g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad empresarial."
+        - "h) Se ha descrito la estrategia empresarial, relacionándola con los objetivos de la empresa."
+        - "i) Se ha definido una determinada idea de negocio en el ámbito de la imagen para el diagnóstico y la medicina nuclear, que sirva de punto de partida para la elaboración de un plan de empresa."
+      - numero: 2
+        enunciado: "Define la oportunidad de creación de una pequeña empresa, valorando el impacto sobre el entorno de actuación e incorporando valores éticos."
+        criterios_evaluacion:
+        - "a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado a la empresa."
+        - "b) Se han identificado los principales componentes del entorno general que rodea a la empresa, en especial el entorno económico, social, demográfico y cultural."
+        - "c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes, con los proveedores y con la competencia, como principales integrantes del entorno específico."
+        - "d) Se han identificado los elementos del entorno de una pyme de imagen para el diagnóstico y medicina nuclear."
+        - "e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos empresariales."
+        - "f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de la estrategia empresarial."
+        - "g) Se ha elaborado el balance social de una empresa relacionada con la imagen para el diagnóstico y la medicina nuclear, y se han descrito los principales costes sociales en que incurren estas empresas, así como los beneficios sociales que producen."
+        - "h) Se han identificado, en empresas relacionadas con la imagen para el diagnóstico y la medicina nuclear, prácticas que incorporan valores éticos y sociales."
+        - "i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme relacionada con la imagen para el diagnóstico y la medicina nuclear."
+      - numero: 3
+        enunciado: "Realiza actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica e identificando las obligaciones legales asociadas."
+        criterios_evaluacion:
+        - "a) Se han analizado las diferentes formas jurídicas de la empresa."
+        - "b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa, en función de la forma jurídica elegida."
+        - "c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa."
+        - "d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una empresa."
+        - "e) Se ha realizado una búsqueda exhaustiva de las diferentes ayudas para la creación de empresas relacionadas con la imagen para el diagnóstico y la medicina nuclear en la localidad de referencia."
+        - "f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica, estudio de viabilidad económico-financiera, trámites administrativos, ayudas y subvenciones."
+        - "g) Se han identificado las vías de asesoramiento y gestión administrativa externas existentes a la hora de poner en marcha una pyme."
+      - numero: 4
+        enunciado: "Realiza actividades de gestión administrativa y financiera de una pyme, identificando las principales obligaciones contables y fiscales y cumplimentando la documentación."
+        criterios_evaluacion:
+        - "a) Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información contable."
+        - "b) Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la solvencia, liquidez y rentabilidad de la empresa."
+        - "c) Se han definido las obligaciones fiscales de una empresa relacionada con la imagen para el diagnóstico y la medicina nuclear."
+        - "d) Se han diferenciado los tipos de impuestos en el calendario fiscal."
+        - "e) Se ha cumplimentado la documentación básica de carácter comercial y contable (facturas, albaranes, notas de pedido, letras de cambio y cheques, entre otros) para una pyme de imagen para el diagnóstico y medicina nuclear, y se han descrito los circuitos que dicha documentación recorre en la empresa."
+        - "f) Se han identificado los principales instrumentos de financiación bancaria."
+        - "g) Se ha incluido toda la documentación citada en el plan de empresa."
+    - codigo: "1358"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 220
+      ects: 22
+      resultados_aprendizaje:
+      - numero: 1
+        enunciado: "Identifica la estructura y organización de la empresa, relacionándolas con el tipo de servicio que presta."
+        criterios_evaluacion:
+        - "a) Se ha identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+        - "b) Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector."
+        - "c) Se han relacionado las características del servicio y el tipo de clientes con el desarrollo de la actividad empresarial."
+        - "d) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio."
+        - "e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad."
+        - "f) Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad."
+      - numero: 2
+        enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional, de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos en la empresa."
+        criterios_evaluacion:
+        - "a) Se han reconocido y justificado la disponibilidad personal y temporal necesaria en el puesto de trabajo; las actitudes personales (puntualidad y empatía, entre otras) y profesionales (orden, limpieza y responsabilidad, entre otras) necesarias para el puesto de trabajo; los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional; los requerimientos actitudinales referidos a la calidad en la actividad profesional; las actitudes relacionadas con el propio equipo de trabajo y con las jerarquías establecidas en la empresa; las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral; y las necesidades formativas para la inserción y reinserción laboral en el ámbito científico y técnico del buen hacer del profesional."
+        - "b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales de aplicación en la actividad profesional."
+        - "c) Se han puesto en marcha los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa."
+        - "d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas."
+        - "e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo de la actividad."
+        - "f) Se ha responsabilizado del trabajo asignado, interpretando y cumpliendo las instrucciones recibidas."
+        - "g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del equipo."
+        - "h) Se ha coordinado con el resto del equipo, comunicando las incidencias relevantes que se presenten."
+        - "i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas."
+        - "j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo."
+      - numero: 3
+        enunciado: "Presta asistencia técnico-sanitaria al paciente durante su estancia en la unidad de diagnóstico por imagen y medicina nuclear."
+        criterios_evaluacion:
+        - "a) Se ha identificado al paciente y se ha verificado la preparación previa necesaria para la actuación."
+        - "b) Se han identificado los diferentes tipos de documentos clínicos y no clínicos, su función y los cauces de tramitación."
+        - "c) Se han realizado los protocolos de seguridad y confort."
+        - "d) Se ha reconocido el tipo de material sanitario y se ha relacionado con su uso y funcionamiento."
+        - "e) Se ha valorado el estado general del paciente, identificando signos y síntomas de alerta."
+        - "f) Se ha realizado la técnica de administración de contrastes según los protocolos de actuación."
+        - "g) Se ha generado un entorno seguro y confortable para la actuación."
+        - "h) Se han aplicado técnicas de comunicación y apoyo psicológico para facilitar la relación óptima con el paciente."
+        - "i) Se ha valorado la importancia de la responsabilidad social y de los principios éticos en los procesos de salud."
+      - numero: 4
+        enunciado: "Realiza exploraciones de radiología, utilizando contrastes y seleccionando los equipos, materiales y accesorios adecuados a la petición y a las características del paciente."
+        criterios_evaluacion:
+        - "a) Se ha seleccionado el equipo y los materiales adecuados para la obtención de imágenes de calidad."
+        - "b) Se ha informado al paciente sobre el procedimiento y se le ha preparado para realizar la exploración requerida."
+        - "c) Se ha posicionado al paciente para realizar la exploración requerida y se han protegido de la radiación los órganos sensibles."
+        - "d) Se ha administrado el contraste requerido por la exploración."
+        - "e) Se ha realizado la exploración de acuerdo con los protocolos establecidos."
+        - "f) Se han obtenido las imágenes requeridas en cada tipo de exploración y se ha valorado su calidad diagnóstica."
+        - "g) Se ha valorado la necesidad de repetir la exploración de acuerdo con la calidad de la imagen obtenida."
+        - "h) Se ha acondicionado la sala de exploración, el equipo y los materiales accesorios para la realización de una nueva exploración."
+      - numero: 5
+        enunciado: "Realiza exploraciones mediante equipos de tomografía computarizada y colabora en la realización de ecografía, según protocolos de la unidad."
+        criterios_evaluacion:
+        - "a) Se han comprobado los datos del/la paciente, se ha comprobado que se ha realizado la preparación necesaria para el estudio y se han tenido en cuenta las características de los pacientes especiales."
+        - "b) Se ha informado de las características de la prueba que se va a realizar, se ha obtenido el consentimiento informado y se ha valorado la actitud profesional ante las necesidades del usuario."
+        - "c) Se han preparado los medios de contraste indicados para la prueba, su dosis exacta y su vía de administración, se ha comprobado el funcionamiento de las bombas de infusión, se han programado estas y se ha comprobado la disponibilidad de fármacos y equipos para atender reacciones adversas."
+        - "d) Se ha interpretado el protocolo de exploración solicitado, se ha colocado al paciente en la posición requerida, garantizando su inmovilidad y su comodidad, se ha realizado el centraje, se ha posicionado la mesa de exploración y se ha adquirido el topograma explorador."
+        - "e) Se han obtenido las imágenes solicitadas y se ha presentado el estudio según las preferencias indicadas, procediendo a su archivado en formato digital para obtener copias impresas cuando sean solicitadas."
+        - "f) Se ha posicionado adecuadamente al paciente para realizar la exploración ecográfica, se ha preparado la zona que se va a explorar y se ha seleccionado el transductor."
+        - "g) Se han seguido los procedimientos de exploración correspondientes a la región anatómica que se va a explorar y se han obtenido imágenes, se ha verificado la calidad de las mismas y se han archivado para su posterior revisión."
+        - "h) Se han valorado adecuadamente las necesidades del usuario durante todo el desarrollo de la prueba."
+      - numero: 6
+        enunciado: "Realiza la exploración mediante equipos de resonancia magnética, siguiendo los protocolos establecidos."
+        criterios_evaluacion:
+        - "a) Se han comprobado en los datos del/la paciente que no existen contraindicaciones para la realización de la prueba y se ha verificado que se han retirado todos los objetos metálicos."
+        - "b) Se ha informado al paciente de las características de la prueba y se ha comprobado que se ha cumplimentado correctamente el consentimiento informado."
+        - "c) Se ha preparado todo el material necesario para el desarrollo de la prueba, se han tenido en cuenta las características de los pacientes especiales y se ha valorado la importancia de la actitud profesional ante las necesidades del usuario."
+        - "d) Se han preparado los medios de contraste indicados para la prueba, se ha comprobado el funcionamiento de las bombas de infusión y se ha comprobado la disponibilidad de fármacos y equipos para atender reacciones adversas."
+        - "e) Se ha interpretado correctamente la hoja de petición de la prueba, se ha establecido la posición requerida para el estudio y se han seleccionado los dispositivos de inmovilización y confort."
+        - "f) Se ha colocado la antena correspondiente a la región anatómica que hay que explorar, realizando el centrado y posicionado al paciente para el inicio de la prueba."
+        - "g) Se han configurado los parámetros requeridos para el estudio, se han tomado las secuencias localizadoras en tres planos y se ha validado el protocolo de la exploración que se va a realizar."
+        - "h) Se han obtenido y procesado las imágenes solicitadas, presentando el estudio según las preferencias indicadas, procediendo a su archivado en formato digital y obteniendo copias impresas cuando han sido solicitadas."
+        - "i) Se han cumplido todas las medidas de seguridad establecidas durante todo el desarrollo de la prueba, identificando los riesgos y los posibles incidentes."
+      - numero: 7
+        enunciado: "Obtiene imágenes médicas mediante equipos de medicina nuclear, utilizando los radiofármacos y siguiendo los protocolos establecidos en cada exploración."
+        criterios_evaluacion:
+        - "a) Se ha aplicado el procedimiento de puesta a punto de los equipos y del material necesario, interpretando los protocolos de funcionamiento."
+        - "b) Se han comprobado los datos del paciente, se le ha informado de las características de la prueba y se ha comprobado que se ha cumplimentado correctamente el consentimiento informado."
+        - "c) Se ha obtenido el radioisótopo y se ha marcado el radiofármaco utilizado en la exploración."
+        - "d) Se han seleccionado los parámetros de adquisición de imágenes en los equipos, en función del tipo de estudio y el procedimiento de adquisición de imagen."
+        - "e) Se ha realizado el procesado de estudios para el registro de la imagen obtenida."
+        - "f) Se ha verificado la calidad y la idoneidad de la imagen obtenida, a partir de los patrones de normalidad y otros estudios complementarios."
+        - "g) Se han aplicado técnicas de radioinmunoanálisis, interpretando los procedimientos analíticos."
+        - "h) Se ha preparado el tratamiento radioisotópico, relacionando el isótopo con las patologías que se van a tratar y el tipo de instalación requerida."
+      - numero: 8
+        enunciado: "Aplica procedimientos de protección radiológica, en función de la instalación y las fuentes radiactivas."
+        criterios_evaluacion:
+        - "a) Se han manejado los equipos de medida y detección de la radiación empleados para la dosimetría ambiental y personal."
+        - "b) Se han reconocido los riesgos radiológicos inherentes a la instalación radiactiva."
+        - "c) Se ha colaborado en los procesos de vigilancia y control de la radiación."
+        - "d) Se ha colaborado en los procesos de vigilancia y control de la contaminación."
+        - "e) Se ha determinado experimentalmente la variación de la dosis absorbida, debida a una fuente puntual, en función de la distancia, el tiempo y el blindaje."
+        - "f) Se han identificado los procedimientos de control de calidad establecidos en el plan de garantía de calidad."
+        - "g) Se ha identificado la línea de autoridad dentro del personal de la instalación."
+        - "h) Se han identificado las posibles emergencias que pueden ocurrir."
+        - "i) Se han aplicado los procedimientos de gestión del material radiactivo."
+        - "j) Se ha cumplimentado el libro de operación y de registro del material radiactivo."
+relaciones:
+  desarrolla_a: [NOR-052]
+  relacionada_con: [NOR-007]
+resumen_ia: "Ciclo formativo de Grado Superior de la familia Sanidad. Contiene 14 módulos profesionales (incluyendo FCT y proyecto) con una duración total de 2.000 horas (120 ECTS). Los módulos cubren radiodiagnóstico, TC, ecografía, RM, medicina nuclear, radiofarmacia y protección radiológica. Este resumen no sustituye la fuente oficial."
+observaciones: "Módulos extraídos el 2026-04-26. RD verificado en BOE.es (TAREA-042, 2026-04-26): el RD correcto que establece el título es el 770/2014 (BOE-A-2014-10067), no el 772/2014 que figuraba en la catalogación inicial (772/2014 corresponde a Radioterapia y Dosimetría). Ver NOR-052 y PREG-005 (resuelta). Extracción completada el 2026-04-26 (TAREA-048): todos los módulos profesionales incluyen resultados de aprendizaje y criterios de evaluación literales extraídos del BOE-A-2014-10067."

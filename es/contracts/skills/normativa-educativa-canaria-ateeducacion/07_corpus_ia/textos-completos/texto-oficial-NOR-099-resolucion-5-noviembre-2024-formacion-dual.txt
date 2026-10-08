@@ -1,0 +1,1797 @@
+ID interno: NOR-099
+Título oficial: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 5 de noviembre de 2024, por la que se dictan instrucciones y orientaciones para la formación dual en empresas u organismos equiparados en los Certificados Profesionales (Grado C), los Ciclos Formativos de Grado Básico, Medio y Superior (Grados D, niveles 1, 2 y 3) y Cursos de Especialización (Grado E, niveles 2 y 3), en aplicación del Real Decreto 659/2023, de 18 de julio, en los centros docentes no universitarios de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-106
+URL origen: https://www.gobiernodecanarias.org/boc/2024/230/3794.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2024-230-3794.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2024-230-3794).
+---
+           Boletín Oficial de Canarias núm. 230             39430                        Lunes 18 de noviembre de 2024
+
+
+
+
+                                                   III. Otras Resoluciones
+
+                     Consejería de Educación, Formación Profesional, Actividad Física y Deportes
+
+              3794 Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.-
+                   Resolución de 5 de noviembre de 2024, por la que se dictan instrucciones y
+                   orientaciones para la formación dual en empresas u organismos equiparados en
+                   los Certificados Profesionales (Grado C), los Ciclos Formativos de Grado Básico,
+                   Medio y Superior (Grados D, niveles 1, 2 y 3) y Cursos de Especialización (Grado E,
+                   niveles 2 y 3), en aplicación del Real Decreto 659/2023, de 18 de julio, en los centros
+                   docentes no universitarios de la Comunidad Autónoma de Canarias.
+
+                   La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+               Profesional, da relevancia a la formación del individuo a lo largo de la vida profesional
+               y personal, acompañándolo en la toma de decisiones en cuanto a formación se refiere,
+               desde la enseñanza básica, pasando por la enseñanza postobligatoria y finalizando en el
+               desarrollo personal, social y profesional, proporcionando la cualificación de calidad y la
+               empleabilidad necesaria para el avance de nuestro país. Se abre así todo un amplio abanico
+               de posibilidades formativas que necesitan de la articulación de una resolución transitoria
+               que dicte instrucciones para cursar la formación en centros de trabajo u organismos
+               equiparados, dirigidas a centros docentes de titularidad pública y privada que impartan
+               Grados C (Certificados Profesionales), Ciclos Formativos de Grados D en los niveles 1
+               (Ciclos Formativos de Grado Básico), 2 (Ciclos Formativos de Grado Medio) y 3 (Ciclos
+               Formativos de Grado Superior), y los Cursos de Especialización de nivel 2 (Especialista) y
+               3 (Máster) en el actual sistema canario de enseñanzas de formación profesional específica,
+               hasta el desarrollo de un nuevo Decreto en la Comunidad Autónoma de Canarias que
+               establezca el nuevo marco de ordenación del Sistema de Formación Profesional en nuestro
+               ámbito educativo, teniendo como referente el Real Decreto 659/2023, de 18 de julio, por
+               el que se desarrolla la ordenación del Sistema de Formación Profesional, que regula el
+               carácter dual a estas enseñanzas.
+
+                  Vista la necesidad de establecer instrucciones y orientaciones para la implantación y
+               desarrollo de la formación de carácter dual en empresa u organismos equiparados en la
+               Comunidad Autónoma de Canarias, y de acuerdo con los siguientes
+
+                                                  ANTECEDENTES DE HECHO
+
+                   Primero.- Con la publicación de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación
+               e integración de la Formación Profesional, en adelante LOOIFP, se regula en España el
+               carácter dual de toda la formación profesional, declarando este carácter a los grados C, D
+               y, en su caso, E del Sistema de Formación Profesional Español. La citada ley ha dado un
+               nuevo enfoque a la formación profesional, pues pone el foco en la corresponsabilidad y la
+               colaboración que, respecto a la formación, tienen los centros y las empresas u organismos
+               equiparados, poniendo de manifiesto la importancia de los derechos y deberes de estas
+               entidades colaboradoras con el Sistema de Formación Profesional y su papel en la acción
+               formativa.
+
+                  Segundo.- La publicación del Real Decreto 659/2023, de 18 de julio, por el que se
+               desarrolla la ordenación del Sistema de Formación Profesional, modificado por el Real
+
+
+https://sede.gobiernodecanarias.org/boc                                                                  boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39431                           Lunes 18 de noviembre de 2024
+
+
+
+
+               Decreto 658/2024, de 9 de julio, conlleva el establecimiento de las reglas generales de
+               la formación práctica, la formalización de los periodos en formación en empresa y todo
+               lo relacionado con su puesta en práctica y las funciones de las tres entidades que en ella
+               confieren: alumnado, centro y empresas u organismos equiparados. Este Real Decreto
+               pone de relieve los requisitos que deben cumplir las personas que realicen este proceso
+               formativo, los mecanismos necesarios que justifiquen su exención y los cometidos que
+               debe llevar a cabo el tutor o tutora de empresa para el seguimiento y evaluación de esta fase
+               con el fin de garantizar el aprovechamiento con éxito del alumnado.
+
+                   Tercero.- Con la implantación del nuevo sistema de formación dual, la enseñanza de
+               formación profesional se extiende de manera teórica y de manera práctica en las empresas
+               u organismos equiparados, lo que supone la práctica extinción del módulo de formación en
+               centros de trabajo, denominado FCT, en el curso 2025-2026, establecido en el artículo 25
+               del Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general
+               de la formación profesional. Sin embargo, el módulo de FCT seguirá impartiéndose en
+               aquellos títulos de formación profesional aún vigentes y que fueron creados bajo el amparo
+               de la Ley Orgánica 1/1990, de 3 de octubre (LOGSE).
+
+                   Cuarto.- El adelanto en la Comunidad Autónoma de Canarias de los ciclos formativos
+               de grado básico [Grado D, nivel 1 (en adelante CFGB)], con el Decreto 9/2023, de 26
+               de enero, en el que se regula y establece el currículo de veintitrés CFGB en el ámbito
+               de gestión de nuestra Comunidad, supone una trayectoria motivadora y accesible para
+               todos los estudiantes que muestren interés desde la adolescencia media por las titulaciones
+               de la Formación Profesional con una clara vocación profesional, permitiendo además el
+               acceso a cualquier Ciclo de Grado Medio [Grado D, nivel 2 (en adelante CFGM)], teniendo
+               preferencia para acceder a los títulos de la misma familia profesional. Al titular en un CFGB
+               dará lugar a la obtención del título de Graduado en Educación Secundaria Obligatoria
+               (ESO) y el título Profesional Básico.
+
+                                             FUNDAMENTOS DE DERECHO
+
+                   Primero.- El artículo 133.3 de la Ley Orgánica 1/2018, de 5 de noviembre, de reforma
+               del Estatuto de Autonomía de Canarias, indica que le corresponde a la Comunidad Autónoma
+               de Canarias la competencia de desarrollo legislativo y de ejecución, entre otras, de la
+               ordenación de las enseñanza y la actividad docente y educativa, así como el establecimiento
+               de los correspondientes planes de estudio, incluida la ordenación curricular.
+
+                   Segundo.- El artículo 42.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en
+               su redacción actual, indica que todos los ciclos formativos “incluirán una fase práctica dual
+               de formación en los centros de trabajo, de la que podrán quedar exentos quienes acrediten
+               una experiencia laboral que se corresponda con los estudios profesionales cursados. Las
+               Administraciones educativas regularán esta fase y la mencionada exención”.
+
+                   Tercero.- El Título III de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación
+               e integración de la Formación Profesional, aborda y regula desde la norma básica el
+               carácter dual de toda la formación profesional de nuestro país, respondiendo con ello al
+               reto de convertir toda la formación profesional en una formación de excelencia, fruto de
+               la corresponsabilidad y la colaboración de centros y empresas u organismos equiparados.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39432                            Lunes 18 de noviembre de 2024
+
+
+
+
+                   Cuarto.- El Real Decreto 278/2023, de 11 de abril, por el que se establece el calendario
+               de implantación del nuevo Sistema de Formación Profesional correspondiente a la LOOIFP,
+               indica en su artículo 11 (Ofertas de Grado D, niveles 1, 2 y 3), que en el año académico
+               2024-2025 se completará la implantación del primer curso de todos los ciclos formativos,
+               lo que supone la necesidad de dictar instrucciones y directrices a los centros que imparten
+               formación profesional para el desarrollo de la formación de carácter dual en empresa u
+               organismo equiparado con el objetivo de desarrollar una formación práctica de excelencia,
+               fruto de la corresponsabilidad y la colaboración de las entidades involucradas. Este Real
+               Decreto también pone de manifiesto en su artículo 10 que la administración competente
+               podrá implantar de manera anticipada la oferta de Grados C en los términos establecidos
+               en el artículo 35 de la LOOIFP, derivados de las ofertas de Grado D y E en vigor en el
+               momento de la anticipación.
+
+                   Quinto.- El Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación
+               del Sistema de Formación Profesional, impulsa la dimensión dual de la Formación Profesional
+               y de sus vínculos con el sistema productivo en un marco de colaboración público-privada entre
+               administraciones, centros, empresas u organismos equiparados, organizaciones empresariales
+               y sindicales, entidades y tercer sector para la creación conjunta de valor, el alineamiento de
+               los objetivos y proyectos estratégicos comunes, la superación de la brecha urbano/rural a
+               través de una adecuada adaptación territorial, y el uso eficaz de los recursos en entornos
+               formativos y profesionales.
+
+                   Sexto.- Respecto a la formación en empresas u organismos equiparados en las ofertas de
+               ciclos formativos de Grado D y E, los siguientes reales decretos que modifican o complementan
+               al Real Decreto 659/2023:
+
+                    - Real Decreto 499/2024, de 21 de mayo, por el que se modifican determinados reales
+               decretos por los que se establecen títulos de Formación Profesional de grado medio y se
+               fijan sus enseñanzas mínimas.
+
+                    - Real Decreto 498/2024, de 21 de mayo, por el que se modifican determinados reales
+               decretos por los que se establecen títulos de Formación Profesional de grado básico y se
+               fijan sus enseñanzas mínimas.
+
+                    - Real Decreto 499/2024, de 21 de mayo, por el que se modifican determinados reales
+               decretos por los que se establecen títulos de Formación Profesional de grado medio y se
+               fijan sus enseñanzas mínimas.
+
+                    - Real Decreto 500/2024, de 21 de mayo, por el que se modifican determinados reales
+               decretos por los que se establecen títulos de Formación Profesional de grado superior y se
+               fijan sus enseñanzas mínimas.
+
+                   - Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto
+               132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros
+               que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación
+               primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que
+               se desarrolla la ordenación del Sistema de Formación Profesional.
+
+                   Séptimo.- La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria, en su
+               artículo 33, puntos 10 y 11, promueve los programas para que el alumnado pueda realizar
+               prácticas de formación profesional inicial en centros de trabajo ubicados en países de la
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39433                           Lunes 18 de noviembre de 2024
+
+
+
+
+               Unión Europea, a la vez que indica que el Gobierno de Canarias promoverá la colaboración
+               con las empresas y entidades empresariales y de profesionales autónomos, principalmente
+               con los sectores emergentes, en crecimiento e innovadores. Como finalidades principales
+               destaca la citada Ley, la formación en empresas con el fin de garantizar que la formación
+               recibida se realice con equipamientos de última generación, así como la formación
+               actualizada de los trabajadores y trabajadoras, y del profesorado, pudiendo incluir estancias
+               temporales en los centros de trabajo.
+
+                   Octavo.- El Decreto 156/1996, de 20 junio, por el que se establece la Ordenación General
+               de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de
+               Canarias, cuyas referencias respecto a la formación en centros de trabajo deben entenderse
+               realizadas al artículo 42.3 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, establece
+               en su artículo 27 que la Consejería competente en materia educativa determinará en las
+               correspondientes reglamentaciones específicas el momento de impartición de la formación
+               en empresas, los requisitos exigidos para acceder a ellas y el momento de su evaluación, en
+               concordancia con el Real Decreto 659/2023.
+
+                   Noveno.- El Decreto 9/2023, de 26 de enero, en el que se regula y establece el
+               currículo de veintitrés CFGB en el ámbito de la Comunidad Autónoma de Canarias,
+               distribuye el módulo profesional de formación en empresas u organismos equiparados
+               en el segundo curso, impartido, con carácter general, en el último trimestre del año
+               académico y lo define como formación práctica con carácter no laboral desarrollada en
+               un entorno productivo real.
+
+                   Por todo lo expuesto, de conformidad con lo establecido en el artículo 20 del Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes,
+               aprobado mediante Decreto 84/2024, de 10 de junio, por el que se asignan competencias
+               generales y específicas a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial,
+
+                                                    R E S U E L V O:
+
+                   Primero.- Dictar instrucciones para la implantación y desarrollo de la formación de
+               carácter dual en empresa u organismo equiparado y modelos documentales para el Plan de
+               formación y la evaluación en las empresas u organismos equiparados, que figuran en los
+               Anexos I, II y III de la presente Resolución, con carácter transitorio hasta el desarrollo de
+               un nuevo marco regulatorio en la Comunidad Autónoma de Canarias que ha de regir en la
+               ordenación del nuevo Sistema de Formación Profesional.
+
+                   Segundo.- Quedan incluidos dentro del ámbito de aplicación de esta Resolución
+               los centros docentes públicos, centros concertados y privados que imparten Ofertas de
+               Formación Profesional de Grado C en sus diferentes niveles, de Grado D en los niveles
+               1 (CFGB), 2 (CFGM) y 3 (CFGS), y E (Cursos de Especialización niveles 2 y 3) en la
+               Comunidad Autónoma de Canarias.
+
+                  Tercero.- El alumnado que inicie el primer curso de formación durante el curso 2024-
+               2025 en los niveles 2 (CFGM) y 3 (CFGS) de los Grados D del Sistema de Formación
+               Profesional y lo finalice en el curso 2025-2026, deberá realizar como mínimo 500 horas de
+               formación en empresas u organismos equiparados.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39434                            Lunes 18 de noviembre de 2024
+
+
+
+
+                   Cuarto.- Encomendar a la Inspección de Educación el asesoramiento sobre aquellos
+               aspectos específicos que le soliciten los equipos directivos de los centros docentes, así como
+               la supervisión del cumplimiento por los centros de lo dictado en la presente Resolución y,
+               en especial, respecto a la dualización de la estructura modular de los ciclos formativos
+               de los Grados D y, donde proceda, los cursos de especialización de los Grados E de la
+               Formación Profesional del Sistema Educativo en la Comunidad Autónoma de Canarias.
+
+                   Quinto.- Ordenar la publicación de la presente Resolución en el Boletín Oficial de
+               Canarias y en la web de la Consejería de Educación, Formación Profesional, Actividad
+               Física y Deportes para su general conocimiento, y encomendar a los equipos directivos de
+               los centros educativos que desarrollen el procedimiento más adecuado para que la presente
+               Resolución sea conocida y difundida entre los distintos sectores de la comunidad educativa.
+
+                   Contra la presente Resolución, que no pone fin a la vía administrativa, cabe interponer
+               en el plazo de un (1) mes recurso de alzada ante la Viceconsejería de Formación Profesional
+               y Cualificaciones Profesionales, a partir del día siguiente de su publicación en el Boletín
+               Oficial de Canarias, sin perjuicio de cualesquiera otros que se estime procedente interponer.
+
+                  Las Palmas de Gran Canaria, a 5 de noviembre de 2024.- La Directora General de
+               Formación Profesional y Enseñanzas de Régimen Especial, Carolina León Martínez.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39435                           Lunes 18 de noviembre de 2024
+
+
+
+
+                                                        ANEXO I
+
+                  INSTRUCCIONES PARA EL PROCEDIMIENTO PARA LA IMPLANTACIÓN Y
+               DESARROLLO DE LA FORMACIÓN DE CARÁCTER DUAL EN EMPRESA U ORGANISMO
+               EQUIPARADO, EN CENTROS NO UNIVERSITARIOS DE LA COMUNIDAD AUTÓNOMA DE
+               CANARIAS PARA LOS CERTIFICADOS PROFESIONALES, LOS CICLOS FORMATIVOS
+               DE GRADO BÁSICO, MEDIO, SUPERIOR Y CURSOS DE ESPECIALIZACIÓN.
+
+                     Primera.- Objeto y ámbito de aplicación.
+
+                   1. Las presentes instrucciones tienen por objeto la implantación y desarrollo de la
+               formación de carácter dual en empresa u organismos equiparado a partir del curso 2024/2025.
+               Serán de aplicación en todos los centros docentes públicos, centros concertados y privados
+               que impartan Ofertas de Formación Profesional de Grado C en sus diferentes niveles, de
+               Grado D en los niveles 1 (CFGB), 2 (CFGM) y 3 (CFGS), y E (Cursos de Especialización
+               niveles 2 y 3) en la Comunidad Autónoma de Canarias.
+
+                   2. La horas de dedicación docente que puedan emanar de estas instrucciones, atenderán
+               a lo que se establezca en las resoluciones que con carácter anual dicten instrucciones de
+               organización y funcionamiento para los centros docentes públicos no universitarios de la
+               Comunidad Autónoma de Canarias, en el área de gestión de la Consejería de Educación,
+               Formación Profesional, Actividad Física y Deportes.
+
+                     Segunda.- Aspectos generales de la formación en empresa.
+
+                   1. Se entiende por formación profesional de carácter dual la desarrollada mediante una
+               distribución adecuada de los procesos formativos entre los centros educativos de formación
+               profesional y las empresas u organismos equiparados, contribuyendo ambos al logro de las
+               competencias previstas en cada oferta de formación.
+
+                   2. De conformidad con lo dispuesto en el Real Decreto 659/2023, de 18 de julio, se
+               distinguirán dos modalidades para la formación en la empresa:
+
+                     Modalidad de formación en régimen general:
+
+                   Las ofertas de formación profesional se entenderán realizadas en régimen general,
+               siempre con carácter dual, cuando no exista relación contractual de carácter laboral entre el
+               alumnado y la empresa y, además, en ella concurra simultáneamente que la duración de la
+               formación en la empresa u organismo equiparado sea entre el 25 y el 35% (entre 500 y 700
+               horas respectivamente) de la duración total de la enseñanza y el porcentaje de resultados de
+               aprendizaje a adquirir en la entidad esté comprendido entre el 10 y el 20% de los módulos
+               profesionales.
+
+                   En el caso de los Grados C, debido a la duración variable de los diferentes certificados
+               profesionales, la formación en empresa en este régimen tendrá una duración de entre el 25 y
+               35% de la duración total prevista en el certificado profesional correspondiente, que incluirá
+               entre el 10 y el 20% de los resultados de aprendizaje de los módulos profesionales, siendo
+               del 20% en el caso de los certificados profesionales de nivel 1 que tendrán este régimen
+               por defecto.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39436                           Lunes 18 de noviembre de 2024
+
+
+
+
+                     Modalidad en régimen intensivo:
+
+                   Las ofertas de formación profesional se entenderán realizadas en régimen intensivo
+               cuando exista relación contractual a través de un contrato de carácter laboral de formación,
+               de acuerdo con lo establecido en la legislación laboral correspondiente y, además, cuando
+               en ellas concurra, acumulativamente, que la duración de la formación en la empresa u
+               organismos equiparado esté comprendida entre el 35% y el 50% (entre 700 y 1000 horas
+               respectivamente) de la duración total del currículo del ciclo formativo y contemplará al
+               menos el 30% de los resultados de aprendizaje de los módulos profesionales.
+
+                   En el caso de los Grados C, la estancia formativa en empresa en este régimen tendrá una
+               duración de entre el 35 y el 50% de la duración total prevista en el certificado profesional,
+               que incluirá al menos el 30% de los resultados de aprendizaje de los módulos profesionales.
+
+                  3. El desarrollo de la formación en empresa u organismo equiparado se regirá, de manera
+               general, por lo dispuesto en los artículos 71 y 72 (Certificados Profesionales), 88 (Ciclos
+               Formativos de Grado Básico), 106 (Ciclos Formativos de Grado Medio y Superior), 116
+               (Cursos de Especialización) y 151 a 164 del Real Decreto 659/2023, de 18 de julio.
+
+                   4. La oferta de formación profesional de los Grados C y D incorporará una formación
+               en empresa u organismo equiparado como parte integrada del currículo previsto en cada
+               oferta formativa.
+
+                   5. Durante el periodo de formación será incompatible la estancia formativa y la
+               contratación laboral con la misma empresa, salvo que la estancia formativa se formalice
+               por sí misma con un contrato formativo específico.
+
+                   6. El momento en el que debe realizarse la estancia de formación en las empresas u
+               organismos equiparados se decidirá en función de las características del programa, de las
+               especificidades de los sectores productivos, de la disponibilidad de puestos formativos y de
+               los periodos establecidos por la Administración educativa.
+
+                   7. Se podrá autorizar la realización de la formación en empresas u organismos equiparados
+               en centros de la Administración, en instituciones públicas o privadas sin fines de lucro y
+               en centros educativos de la Comunidad Autónoma de Canarias, cuando las competencias
+               profesionales de la oferta formativa se desarrolle en el ámbito correspondiente en que estos
+               desarrollan su actividad.
+
+                   8. Se promoverá la participación de las micro y pequeñas empresas con el soporte de los
+               organismos intermedios (asociaciones, federación, confederación, Cámara de Comercio,
+               clúster, …), tal y como se recoge en el artículo 152.4 del Real Decreto 659/2023, de 18
+               de julio, incluyendo la designación mancomunada de la persona que vaya ejercer en ella
+               labores de tutorización.
+
+                  9. Las empresas podrán acogerse a proyectos de internacionalización, incluyendo
+               aquellas pequeñas y medianas empresas (PYMES) del entorno productivo de los centros
+               educativos de la Comunidad Autónoma de Canarias, con el fin de acoger alumnado
+               proveniente de movilidades de internacionalización.
+
+                  10. En el caso de que el tejido empresarial del sector esté conformado por empresas
+               de pequeño tamaño o microempresas (micropymes), estas podrán designar, de manera
+               mancomunada, una persona que actúe como tutor o tutora.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230              39437                         Lunes 18 de noviembre de 2024
+
+
+
+
+                     Tercera.- Conciertos con empresas u organismos equiparados y/o acuerdos.
+
+                  1. Independientemente de la existencia de Convenios marco con asociaciones o
+               confederaciones empresariales u otras entidades, los centros educativos de la Comunidad
+               Autónoma de Canarias y las empresas u organismos equiparados deberán suscribir un
+               concierto específico de formación.
+
+                  2. El concierto deberá contener, como mínimo, lo recogido en el artículo 156 del Real
+               Decreto 659/2023 de 18 de julio, así como:
+
+                   a) La formalización por escrito y conforme al modelo recogido en la aplicación
+               informática correspondiente, firmado y sellado por el director o directora del centro y el
+               representante legal de la empresa u organismo equiparado.
+
+                   b) Las partes podrán proponer a la Dirección General de Formación Profesional y
+               Enseñanzas de Régimen Especial (en adelante DGFPERE) la inclusión de cláusulas adicionales que
+               regulen situaciones determinadas y concretas, siempre que las mismas estén en concordancia
+               con los resultados de aprendizaje de la formación y con las disposiciones legales vigentes en
+               cada momento. Esta Dirección General resolverá si la propuesta se transforma en acuerdo
+               entre las partes.
+
+                   c) A lo largo del periodo de vigencia del concierto, en cada curso escolar el centro
+               remitirá a la empresa la relación nominal de alumnado que accede a la formación en la
+               empresa, conjuntamente con la programación de dicha formación acordada para cada
+               alumno o alumna, incluyendo el periodo formativo de que se trate, las horas de asistencia
+               a la empresa y su alternancia con el centro educativo. Asimismo, se deberán adjuntar las
+               bajas académicas del alumnado y las modificaciones del plan formativo, si procede.
+
+                   d) La duración de estos conciertos será de al menos un año a partir de la fecha de la
+               firma.
+
+                  e) La prórroga del concierto se podrá llevar a cabo antes de la finalización, por acuerdo
+               unánime entre las partes.
+
+                     Cuarta.- Acceso a la formación en la empresa u organismo equiparado.
+
+                   1. Independientemente del grado formativo que se curse, la formación del alumnado en
+               la empresa u organismo equiparado debe llevarse a cabo a partir del segundo trimestre del
+               primer curso, dedicándose en su totalidad el primer trimestre de este curso a la formación
+               en el centro educativo.
+
+                  2. El inicio de la estancia en la empresa u organismo equiparado requerirá que el alumnado
+               cumpla las siguientes condiciones:
+
+                     • Tener cumplidos los dieciséis años.
+
+                     • Haber superado la formación en prevención de riesgos laborales.
+
+                  En todo caso, el alumnado que acceda a esta formación deberá asumir las condiciones
+               que el centro educativo y la empresa u organismo equiparado hayan acordado, sin
+               menoscabo del cumplimiento por parte del alumnado de aquellas condiciones y normas
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39438                           Lunes 18 de noviembre de 2024
+
+
+
+
+               que la empresa tenga establecidas con carácter interno sobre el comportamiento y buen uso
+               de las instalaciones que le sea de aplicación.
+
+                   3. En el caso de los Grados C, la formación en prevención de riesgos laborales debe ser
+               impartida por el profesorado, y superado por el alumnado, en aquel o aquellos módulos que
+               contengan las competencias, riesgos específicos y medidas de protección que se organicen
+               dentro del Certificado Profesional del nivel correspondiente, con carácter previo a la
+               estancia en la empresa u organismo equiparado.
+
+                   4. En los Ciclos de Grado Básico (Grado D, nivel 1), el alumnado, antes de iniciar el
+               periodo de formación en empresa, deberá haber adquirido las competencias y los contenidos
+               relativos a riesgos específicos y las medidas de prevención en las actividades profesionales
+               correspondientes al perfil profesional de cada ciclo. Para ello, el profesorado del módulo de
+               Prevención y Salud Laboral, ubicado en el primer curso, en colaboración con el resto del
+               equipo docente, deberá programar las actividades de enseñanza y aprendizaje, así como los
+               sistemas de evaluación que garanticen dichas competencias.
+
+                   5. En los Ciclos Formativos de Grado Medio (Grado D, nivel 2) y Superior (Grado D,
+               nivel 3), el resultado de aprendizaje que ha de adquirir el alumnado relativo a riesgos
+               específicos y las medidas de prevención en las actividades profesionales correspondientes
+               al perfil profesional es el descrito en el Anexo V (Currículo básico del Módulo Profesional
+               Itinerario Personal para la Empleabilidad I) del Real Decreto 659/2023, de 18 de julio. El
+               profesorado de la especialidad correspondiente programará este resultado de aprendizaje
+               para ser impartido en el primer trimestre del primer curso, al tratarse de un requisito
+               indispensable para su incorporación a la formación práctica en las empresas u organismos
+               equiparados.
+
+                   6. Del mismo modo, todos aquellos módulos profesionales que tengan incorporados
+               resultados de aprendizaje relacionados con la prevención de riesgos laborales priorizarán
+               su impartición y aplicación durante el primer trimestre por el profesorado correspondiente.
+
+                   7. En la primera sesión de evaluación parcial, el equipo educativo tomará la decisión de
+               qué alumnado adquiere las competencias necesarias para el desempeño de las funciones de
+               nivel básico en Prevención de Riesgos Laborales.
+
+                   8. Para el alumnado que no haya alcanzado estas competencias, se elaborarán las
+               medidas de apoyo orientadas a su adquisición y se convocará una sesión de evaluación
+               extraordinaria específica antes de la incorporación al periodo de formación en la empresa
+               con el objetivo de decidir:
+
+                  • Alumnado que ha adquirido las competencias necesarias para el desempeño de las
+               funciones de nivel básico en Prevención de Riesgos Laborales.
+
+                   • Alumnado que no ha adquirido las competencias necesarias, que no podrá acceder a
+               la formación en la empresa, y debe continuar su formación en el centro.
+
+                   9. El alumnado que no acceda a la formación en la empresa deberá continuar su
+               formación en el centro educativo tal y como se recoge en el apartado 3 de la instrucción
+               séptima.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39439                           Lunes 18 de noviembre de 2024
+
+
+
+
+                   10. La concreción de la ubicación temporal de la formación en empresa se determinará
+               por parte de cada centro en función de las características de la oferta formativa, el tipo
+               de régimen dual, las características del tejido empresarial y la disponibilidad de plazas
+               formativas en las empresas u organismos equiparados. En la planificación que se realice para
+               el acceso a esta formación, el centro educativo procurará evitar la coincidencia temporal
+               del alumnado del primer y segundo curso en una misma empresa u organismo equiparado.
+
+                  Quinta.- Desarrollo y distribución de la formación en empresa u organismo
+               equiparado.
+
+                   1. La formación en empresa se podrá realizar en una o varias empresas u organismos
+               equiparados, públicos o privados, pertenecientes al sector productivo de las enseñanzas
+               cursadas.
+
+                  2. En el ámbito de actuación de la Comunidad Autónoma de Canarias, todos los módulos
+               deberán ser impartidos entre el centro educativo y la empresa u organismo equiparado, a
+               excepción del módulo optativo que quedará a decisión del equipo educativo.
+
+                   3. En ningún caso, un módulo podrá desarrollarse en su totalidad en la empresa u
+               organismo equiparado, ni tener asignada una estancia equivalente a más del 65% de la
+               duración total del mismo en la empresa.
+
+                   4. En el régimen general, la formación en empresa u organismo equiparado se concretará
+               del siguiente modo:
+
+                     4.1. En los Certificados Profesionales (Grado C):
+
+                  • Los Certificados Profesionales (Grado C), en cualesquiera de sus niveles, tienen carácter
+               dual e incluyen un periodo de formación en empresa de duración variable en régimen
+               general o intensivo.
+
+                   • La formación en empresa en régimen general tendrá una duración de entre el 25
+               y el 35% de la duración total del certificado profesional, e incluirá entre el 10 y el 20%
+               de los resultados de aprendizaje de los módulos profesionales. En el caso de certificados
+               profesionales de nivel 1, la duración de la formación en la empresa será del 20% de la
+               duración total del certificado, ofertándose por defecto en este régimen.
+
+                     4.2. En los Ciclos Formativos de Grado Básico (nivel 1 de Grado D):
+
+                   • La estancia en empresa u organismo equiparado representará entre el 10 y 20%
+               de los resultados de aprendizaje del ámbito profesional y se realizará, en el ámbito de
+               la Comunidad Autónoma de Canarias, de forma acumulada en el segundo curso con la
+               totalidad de la duración de la estancia. En el primer curso de los Ciclos de Grado Básico, el
+               alumnado cursará la duración completa de los módulos y será evaluado de la totalidad de
+               los resultados de aprendizaje en el centro educativo.
+
+                   • La formación en empresa u organismo equiparado representará el 20% de la duración
+               total de la enseñanza (400 horas). La concreción de la ubicación temporal de la formación
+               en empresa se determinará por parte de cada centro y se desarrollará a partir del segundo
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39440                            Lunes 18 de noviembre de 2024
+
+
+
+
+               trimestre de segundo curso, en jornadas de entre 6 y 8 horas diarias en la empresa durante
+               cuatro días y acudiendo al centro educativo el quinto día. En todo caso, el programa
+               formativo se adaptará a las necesidades de horario y procesos de la empresa, acorde con el
+               perfil profesional del título.
+
+                   • En el caso de centros públicos que imparten CFGB, la formación en empresa por parte
+               del alumnado se podrá llevar a cabo en otros centros docentes de la red pública de Canarias,
+               atendiendo al perfil profesional de nivel 1 de cualificación y los requisitos establecidos
+               para el contacto con menores por la Ley Orgánica 1/1996, de 15 de enero, de Protección
+               Jurídica del Menor. Para ello será necesario que el centro emisor cuente con la colaboración
+               del centro donde se vaya a realizar la formación y que este cuente con un profesional que
+               desempeñe tareas en el mismo del sector de la familia profesional del CFGB.
+
+                     4.3. En los Ciclos Formativos de Grado Medio y Superior (niveles 2 y 3 de Grado D):
+
+                   • La formación en la empresa u organismo equiparado contemplará entre el 10 y el 20%
+               de los resultados de aprendizaje y representará entre el 25 y el 35% de la duración total de
+               la enseñanza (entre 500 y 700 horas), y distribuidas en dos cursos.
+
+                   • Para el primer curso, la formación en empresa u organismo equiparado tendrá una
+               duración que puede oscilar entre un mínimo de 100 y un máximo de 200 horas. El mínimo
+               de jornadas de formación en la empresa durante este curso será de 20.
+
+                   • Para el segundo curso, de aplicación a partir del curso 2025-2026, se realizará lo que
+               resta de formación en empresa u organismo equiparado hasta alcanzar las horas totales
+               acordadas con el centro educativo, preferentemente en dos periodos separados, debiendo
+               finalizar antes de la fecha establecida en el calendario escolar para la celebración de la
+               sesión de evaluación final de ciclo.
+
+                   • Con independencia del Ciclo Formativo de Grado D que se curse, la alternancia con
+               el centro educativo será:
+
+                   a) En el caso del primer curso, la alternancia semanal será de 1 o 2 días de asistencia al
+               centro frente a 4 o 3 días de asistencia a la empresa u organismo equiparado respectivamente
+               (relación empresa/centro: 4/1 o 3/2).
+
+                  b) Durante el segundo curso, la alternancia será de 1 o 2 días de asistencia al centro
+               educativo cada 3, 4 o 9 días de asistencia a la empresa u organismo equiparado (relación
+               empresa/centro: 3/2, 4/1 o 9/1 respectivamente).
+
+                   • El día de asistencia del alumnado al centro, los tutores o tutoras y el resto del equipo
+               docente atenderán al alumnado durante toda la jornada lectiva (6 horas) con el fin de
+               reforzar las competencias profesionales, sociales y personales asociadas a las realizaciones
+               de aprendizaje del plan de formación, así como las dudas que el alumnado plantee y los
+               problemas que el tutor o tutora de empresa haya detectado.
+
+                  Sin menoscabo de lo anterior, una posible distribución de las jornadas diarias en la
+               empresa en este régimen podría ser, a modo de ejemplo, la siguiente:
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230                      39441                           Lunes 18 de noviembre de 2024
+
+
+
+
+                     --Para
+                       Parauna
+                            una  duración
+                               duración      en atorno
+                                        en torno  500 a  500
+                                                      horas    horas (25%):
+                                                            (25%)
+
+
+
+                                             N.º                                  Horas    % Horas
+                              Curso       Jornadas   semanas    Horas/jornada    Totales    Dual     Meses
+                               1º            24          6            6            144                1,5
+                               2º            45        11,25          8            360      25,2      2,8
+
+                                1º          20           5              7         140                 1,3
+                                2º          45         11,25            8         360        25       2,8
+
+                                1º          20           5              8         160                 1,3
+                                2º          44          11              8         352       25,6      2,8
+
+
+
+                    - Para
+                   -Para unauna  duración
+                             duración       ena 600
+                                      en torno tornohoras
+                                                      a 600  horas (30%):
+                                                          (30%):
+                       -Para una duración en torno a 600 horas (30%):
+                                     N.º                                          Horas    % Horas
+                            Curso Jornadas           semanas    Horas/jornada    Totales    Dual     Meses
+                                       N.º                                        Horas    % Horas
+                             1º      28                  7            6            168                 1,8
+                              Curso Jornadas          semanas    Horas/jornada   Totales    Dual     Meses
+                             2º 1º   5228               137           86           416
+                                                                                   168
+                                                                                            29,2       3,3
+                                                                                                      1,8
+                                 2º          52          13            8          416        29,2      3,3
+                              1º           24           6             7           168                   1,5
+                              2º 1º        5224        136            87          416
+                                                                                  168        29,2       3,3
+                                                                                                       1,5
+                                 2º          52          13            8          416        29,2      3,3
+                              1º           24           6             8           192                   1,5
+                              2º 1º        5224        136            88          416
+                                                                                  192        30,4       3,3
+                                                                                                       1,5
+                                 2º          52          13            8          416        30,4      3,3
+                   -Para una duración en torno a (700 horas (35%):
+                    - -Para
+                       Parauna
+                            unaduración
+                                 duración    en atorno
+                                        en torno   (700 a 700(35%):
+                                                        horas  horas (35%):
+                                     N.º                                          Horas    % Horas
+                            Curso Jornadas
+                                       N.º           semanas    Horas/jornada    Totales
+                                                                                  Horas    % Dual
+                                                                                             Horas   Meses
+                              Curso
+                             1º     Jornadas
+                                     28               semanas
+                                                         7       Horas/jornada
+                                                                      6          Totales
+                                                                                   168       Dual    Meses
+                                                                                                       1,8
+                             2º 1º   6428               167           86           168
+                                                                                   512        34      1,8
+                                                                                                       4,0
+                                2º     64                 16           8           512        34      4,0
+                             1º      24                  6            7            168                  1,5
+                             2º 1º   6424               166           87           168
+                                                                                   512       34        1,5
+                                                                                                        4,0
+                                2º     64                 16           8           512       34        4,0
+                              1º           24           6             8           192                   1,5
+                              2º 1º        6024        156            88          192
+                                                                                  480        33,6      1,5
+                                                                                                        3,8
+                                 2º          60          15            8          480        33,6      3,8
+
+
+
+                   En caso de que la empresa u organismo equiparado proponga la contratación laboral
+               de un alumno o alumna que conlleve remuneración, esta debe notificar este hecho al centro
+               educativo dado que el alumnado afectado debe realizar la formación en otra empresa u
+               organismo equiparado en régimen general.
+
+                     5. En el régimen intensivo, la formación en empresa se distribuirá del siguiente modo:
+
+                     5.1. En los Certificados Profesionales (Grado C):
+
+                   La formación en empresa en régimen intensivo tendrá una duración de entre el 35 y
+               el 50% de la duración total del certificado profesional, e incluirá al menos el 30% de los
+               resultados de aprendizaje de los módulos profesionales.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                              boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230                   39442                            Lunes 18 de noviembre de 2024
+
+
+
+
+                     5.2. En los Ciclos Formativos de Grado Medio y Superior (niveles 2 y 3 de Grado D):
+
+                   La duración de la formación en empresa u organismo equiparado contemplará al menos
+               el 30% de los resultados de aprendizaje y representará entre el 35 y 50% de la duración
+               total del ciclo, estableciéndose un mínimo de 700 horas y un máximo de 1.000 horas de
+               formación práctica distribuida entre ambos cursos, preferentemente a partir del mes de
+               febrero, teniendo en cuenta que el segundo curso debe finalizar antes de la fecha establecida
+               en el calendario escolar para la celebración de la sesión de evaluación final de ciclo.
+
+                  Sin menoscabo de lo anterior, una posible distribución de las jornadas diarias en la
+               empresa en este régimen podrían ser, a modo de ejemplo, las siguientes:
+                     régimen podrían ser, a modo de ejemplo, las siguientes:
+                       régimen podrían ser, a modo de ejemplo, las siguientes:
+                     - Para una duración en torno a 700 horas (35%):
+                     - Para una duración en torno a 700 horas (35%):
+                       - Para una duración en torno a 700 horas (35%):
+
+                                              N.º                Horas/                % Horas
+                                  Curso    Jornadas
+                                               N.º   semanas    jornada
+                                                                  Horas/ Horas Totales %Dual
+                                                                                         Horas   Meses
+                                    1º
+                                   Curso      24
+                                            Jornadas     6
+                                                      semanas       6        144
+                                                                 jornada Horas Totales   Dual      1,5
+                                                                                                 Meses
+                                    2º1º      72
+                                               24       186         86       576
+                                                                              144        36        4,5
+                                                                                                   1,5
+                                     2º        72        18          8        576         36       4,5
+                                    1º        20         5          7        140                  1,25
+                                    2º1º      72
+                                               20       185         87       576
+                                                                              140       35,8      4,5
+                                                                                                  1,25
+                                     2º        72        18          8        576        35,8      4,5
+                                    1º        20        5           8        160                  1,25
+                                    2º1º       20
+                                              72        185         88        160
+                                                                             576        36,8      1,25
+                                                                                                  4,5
+                                     2º        72        18          8        576        36,8      4,5
+                     -Para una duración en torno a 1000 horas (50%):
+                     --Para
+                       Parauna
+                             una  duración
+                                duración      en atorno
+                                         en torno   1000 a 1.000
+                                                         horas    horas (50%):
+                                                               (50%):
+
+                                              N.º                Horas/                % Horas
+                                  Curso    Jornadas
+                                                N.º  semanas    jornada
+                                                                  Horas/ Horas Totales %Dual
+                                                                                         Horas   Meses
+                                   Curso
+                                    1º      Jornadas
+                                               28     semanas
+                                                        7        jornada
+                                                                    6    Horas Totales
+                                                                             168         Dual    Meses
+                                                                                                  1,75
+                                    2º1º        28
+                                              104       267         86        168
+                                                                             832         50       1,75
+                                                                                                  6,5
+                                     2º        104       26          8        832         50       6,5
+                                    1º         24       6           7        168                  1,5
+                                    2º1º        24
+                                              104       266         87        168
+                                                                             832         50        1,5
+                                                                                                  6,5
+                                     2º        104       26          8        832         50       6,5
+                                    1º         24       6           8        192                  1,5
+                                    2º1º        24
+                                              100       256         88        192
+                                                                             800        49,6       1,5
+                                                                                                  6,25
+                                     2º        100       25          8        800        49,6     6,25
+
+
+
+                   En el caso de que la empresa u organismo equiparado proponga en algún momento
+               del proceso formativo que un alumno o alumna cambie del régimen general al régimen
+               intensivo, la suma total de horas de formación en la empresa entre ambos regímenes debe
+               alcanzar al finalizar el segundo curso el mínimo de 700 horas.
+
+                     6. Cursos de Especialización (niveles 2 y 3 de Grado E):
+
+                   6.1. En régimen general, en aquellos Cursos de Especialización cuyo currículo así
+               lo establezca, se deberá realizar la formación en empresa u organismo equiparado, que
+               contemplará entre el 10 y el 20% de los resultados de aprendizaje y representará entre el
+               25% y el 35% de la duración total de la enseñanza.
+
+                   6.2. En régimen intensivo, en aquellos Cursos de Especialización cuyo currículo así
+               lo establezca, se deberá realizar la formación en empresa u organismo equiparado, que
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                            boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230             39443                           Lunes 18 de noviembre de 2024
+
+
+
+
+               contemplará al menos el 30% de los resultados de aprendizaje y representará entre el 35 y
+               el 50% de la duración total de la enseñanza.
+
+                   6.3. En los Cursos de Especialización cuyo currículo no contemple específicamente la
+               formación en la empresa, el equipo educativo, previa autorización de la DGFPERE, podrá
+               incorporar un periodo de formación en empresa u organismo equiparado en función de las
+               características de cada formación.
+
+                     Sexta.- Jornada en empresa u organismo equiparado.
+
+                   1. Corresponde a los tutores del centro educativo, de forma consensuada con la empresa
+               u organismo equiparado, fijar la propuesta de calendario y distribución horaria para la fase
+               formativa en la empresa.
+
+                    2. El alumnado acudirá a la empresa u organismo equiparado coincidiendo con los días
+               lectivos del centro educativo, cuya jornada respetará la jornada laboral ordinaria de la
+               entidad colaboradora, sin que en ningún caso pueda sobrepasar las 8 horas diarias o 40
+               horas semanales u otro límite que venga establecido por la normativa laboral.
+
+                  3. El alumnado cuya edad esté comprendida entre los 16 y los 18 años realizará la
+               formación en empresa en jornadas comprendidas entre las 7:00 am y las 22:00 pm.
+
+                   4. Para la realización de la formación en empresa u organismo equiparado fuera de
+               la jornada lectiva (calendario, fines de semana, periodos vacacionales o días festivos y
+               nocturnidades), se solicitará la autorización a la Administración educativa a través de la
+               aplicación habilitada para la formación práctica.
+
+                   5. En el caso de que la empresa u organismo equiparado tenga establecida la modalidad
+               de teletrabajo y considere que la formación práctica pudiera realizarse en esta modalidad,
+               la empresa u organismo equiparado deberá dotar al alumno o alumna de las herramientas
+               informáticas para su realización. Esta modalidad debe estar considerada en el plan de
+               formación establecido para este alumnado.
+
+                   6. En las actividades económicas cuya estacionalidad impida el desarrollo de la
+               estancia formativa de la forma prevista, esta se podrá organizar en otros periodos, previa
+               autorización de la Administración educativa.
+
+                  Séptima.- Situaciones excepcionales en el desarrollo de la formación en empresa u
+               organismo equiparado.
+
+                  1. Se considerarán situaciones excepcionales en el desarrollo de la formación en
+               empresa las siguientes:
+
+                   a) Los periodos de formación en empresa u organismo equiparado que el alumnado
+               realice en movilidad, contemplándose las expuestas a continuación:
+
+                     - Aquellas que se realicen dentro del marco del plan de internacionalización del centro.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                     boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230           39444                            Lunes 18 de noviembre de 2024
+
+
+
+
+                  - Aquellas que se realicen fuera de la isla donde se encuentra situado el centro educativo.
+               En este caso se consideran:
+
+                   • Movilidades puntuales para la realización del plan formativo en empresa u organismo
+               equiparado dentro de la Comunidad Autónoma de Canarias: no necesitan autorización por
+               parte de la DGFPERE, estableciéndose entre el centro y la empresa u organismo equiparado
+               los mecanismos de seguimiento y control que se consideren.
+
+                  • Movilidades para realizar la fase formativa en empresa u organismo equiparado en la
+               Comunidad Autónoma de Canarias: no necesitan autorización por parte de la DGFPERE ya
+               que esta movilidad deberá estar recogida en concierto que establezca el centro educativo
+               con la empresa u organismo equiparado.
+
+                   • Movilidades para realizar la fase formativa en empresa u organismo equiparado en
+               otras Comunidades Autónomas: necesitan, además de lo establecido en el concierto entre
+               la empresa u organismo equiparado con el centro, de autorización expresa de la DGFPERE.
+
+                   En todo caso, el seguimiento del profesorado tutor al alumnado que se encuentre en
+               alguna de estas movilidades se llevará a cabo, preferentemente, de forma telemática.
+
+                   b) Aquellas que se realicen en el marco de ofertas formativas cuyo sector tenga un
+               funcionamiento productivo incompatible con la fragmentación de los tiempos en empresa
+               u organismo equiparado en, al menos, dos cursos.
+
+                  c) Los periodos de formación en empresas u organismos equiparados en la modalidad
+               semipresencial y virtual, cuando concurran circunstancias de trabajo de la persona en
+               formación que dificulten la fragmentación o la alternancia.
+
+                     d) Alumnado que no haya superado la formación en prevención de riesgos laborales.
+
+                   e) Alumnado cuya situación administrativa impida u obstaculice el acceso a la formación
+               en empresa.
+
+                   2. En las situaciones contempladas en esta instrucción se informará a la Inspección
+               Educativa y solicitará autorización a la DGFPERE para el desarrollo de la formación en
+               periodos formativos alternativos, excepto la considerada en el apartado a) para las que
+               no será necesario solicitar autorización. En este caso, se informará a la Administración
+               siguiendo las instrucciones que se dicten al efecto por el Servicio de Internacionalización
+               para la Formación Profesional y Enseñanzas de Régimen Especial (SIFPRE) de la DGFPERE.
+
+                    3. En las situaciones excepcionales d) y e), el alumnado desarrollará la formación en
+               el centro educativo mediante Grados B que le permitan obtener uno o más certificados de
+               competencia. En la situación excepcional d), el alumnado se incorporará inmediatamente
+               a la empresa una vez superada, a juicio del equipo docente, la formación en prevención de
+               riesgos laborales asociada.
+
+                  4. El alumnado que no haya accedido a la formación en la empresa u organismo
+               equiparado realizará esta en otro periodo.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230               39445                             Lunes 18 de noviembre de 2024
+
+
+
+
+                   Octava.- Autorización de las ofertas para las personas con necesidades educativas
+               o formativas especiales.
+
+                   1. Se podrán autorizar organizaciones diferenciadas de la propuesta con carácter
+               general para esta modalidad ampliando la duración de la totalidad de la oferta, así como
+               la duración del periodo de formación en empresas u organismos equiparados. Podrán
+               incorporar módulos específicos vinculados a profundizar en las competencias personales,
+               sociales y para la empleabilidad.
+
+                   2. El tutor o tutora y, en su caso, los cotutores y cotutoras del centro educativo trabajarán
+               de manera conjunta con el personal que desarrolla en el centro labores de orientación,
+               con el fin de determinar en el caso del alumnado con necesidades educativas y formativas
+               especiales, el puesto formativo en las empresas u organismos equiparados más adecuado,
+               así como las medidas y recursos de atención educativa y profesional.
+
+                   3. La Administración educativa podrá aportar aquellos recursos materiales y humanos
+               que faciliten la igualdad de oportunidades para las personas con discapacidad y, en general,
+               de personas y colectivos con dificultades de inserción socio-laboral, para facilitar su
+               formación en las empresas u organismos equiparados. Para ello, podrá contar con el personal
+               de apoyo especializado a personas con discapacidad, definido en el Real Decreto 659/2023,
+               de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional.
+
+                  Novena.- Asignación del alumnado a la formación en empresa u organismo
+               equiparado.
+
+                   1. Las empresas podrán establecer criterios para la incorporación de alumnado a las
+               plazas ofertadas, siendo comunicado a los centros educativos. Dichos criterios serán
+               comunicados a los alumnos y alumnas con carácter previo al inicio de su formación.
+
+                   2. Con carácter previo a la incorporación a la empresa, los centros educativos recogerán
+               las solicitudes de cada alumno o alumna con indicación de la preferencia sobre su
+               participación en el régimen general o intensivo, así como de la preferencia de las empresas
+               u organismos equiparados (Anexo III). Esta elección no será vinculante.
+
+                   3. La asignación del alumnado se realizará conjuntamente por un representante de la
+               empresa u organismo equiparado y los representantes del centro educativo conforme a
+               criterios objetivos de competencia, idoneidad, transparencia y objetividad.
+
+                   4. El centro educativo aprobará en el Consejo Escolar o Consejo Social criterios de
+               prelación para la asignación del alumnado a las empresas u organismos equiparados.
+               Los criterios podrán contemplar el rendimiento, la asistencia a las actividades lectivas en
+               el centro de formación profesional, su capacidad para el trabajo en equipo, la toma de
+               decisiones y la capacidad para la innovación y la creatividad.
+
+                     5. La asignación se trasladará a la aplicación informática puesta a disposición para tal fin.
+
+                  6. La Administración educativa podrá establecer medidas de prelación para las personas
+               con discapacidad en la asignación de las plazas ofertadas por las empresas u organismos
+               equiparados, para la realización de su formación en las mismas, a fin de garantizar sus
+
+
+https://sede.gobiernodecanarias.org/boc                                                                         boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39446                            Lunes 18 de noviembre de 2024
+
+
+
+
+               derechos en relación con lo dispuesto en la normativa vigente en materia de accesibilidad
+               universal y diseño para todos y todas.
+
+                   7. Dada la naturaleza del régimen intensivo, se podrá limitar la participación en el
+               mismo al alumnado que, por razón de convalidaciones, exenciones u otros motivos, no
+               fueran a cursar en el centro educativo todos los módulos profesionales y, en consecuencia,
+               desarrollar los resultados de aprendizaje establecidos en el plan de formación en la empresa
+               u organismo equiparado. En este caso, la formación en empresa u organismo equiparado
+               será la que corresponda en régimen general.
+
+                   8. Corresponde al tutor o tutora del centro educativo la verificación del cumplimiento
+               de los requisitos exigidos al alumnado para la realización de la formación en empresa u
+               organismo equiparado.
+
+                   9. En general, el alumnado podrá realizar movilidades entre islas, entre otras comunidades
+               autónomas e internacionales, atendiendo a lo establecido en la instrucción sexta, apartado 1,
+               de esta Resolución. La asignación dependerá del tutor o tutora del centro educativo según
+               los procedimientos establecidos para tal fin.
+
+                     Décima.- Plan de formación en la empresa u organismo equiparado.
+
+                   1. El Plan de formación es el documento que concreta el desarrollo y evaluación de
+               la formación práctica curricular del alumnado. Este plan contendrá los elementos que se
+               establecen el Anexo II de la presente Resolución.
+
+                   2. El equipo educativo diseñará, de manera coordinada, el Plan de formación a desarrollar
+               que, posteriormente, se consensuará entre el tutor o tutora del centro y el tutor o tutora de
+               empresa u organismo equiparado, de acuerdo con el Anexo II de la presente Resolución.
+
+                   3. El Plan de formación será único e individualizado para cada alumno o alumna
+               en formación, incluido el alumnado en movilidad. Podrá ser modificado, a lo largo del
+               desarrollo del periodo de la formación en empresa u organismo equiparado, cuantas veces se
+               considere necesario para ajustarlo y adaptarlo a las necesidades de la empresa u organismo
+               equiparado. Dichas modificaciones quedarán registradas en la aplicación informática
+               diseñada para fin.
+
+                    4. La Administración educativa pondrá a disposición de los centros educativos, las
+               empresas u organismos equiparados y el alumnado una aplicación informática en la que
+               se desarrollará el Plan de formación y que servirá de comunicación entre las partes implicadas,
+               a la que se tendrá acceso según el rol que desempeñe cada uno de ellos.
+
+                  Undécima.- Seguimiento y evaluación de la formación en empresa u organismo
+               equiparado.
+
+                   1. El seguimiento y la evaluación de los resultados de aprendizaje incorporados al
+               Plan de formación serán coordinados por los tutores o tutoras del centro educativo y
+               de la empresa, en colaboración directa con el profesorado responsable de los módulos
+               profesionales, ajustándose a lo establecido en el artículo 163 del Real Decreto 659/2023,
+               de 18 de julio.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                     boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230             39447                             Lunes 18 de noviembre de 2024
+
+
+
+
+                   2. El informe de evaluación será elaborado por el equipo educativo y se trasladará al
+               tutor o tutora de empresa para su cumplimentación (Anexo II). El informe cualitativo de
+               evaluación será único e individualizado para cada alumno o alumna en formación.
+
+                  3. El tutor o tutora de empresa u organismo equiparado valorará en términos de
+               “superado” o “no superado” cada resultado de aprendizaje, según se recoge en el Plan
+               formativo correspondiente. Esta información se recogerá en el Anexo II de esta Resolución.
+
+                   4. El o la docente responsable de cada módulo profesional recogerá la valoración sobre
+               los resultados de aprendizaje de su módulo profesional y ajustará su evaluación, y posterior
+               calificación, teniendo en cuenta el informe de la estancia en la empresa.
+
+                   5. En caso de discrepancias entre el criterio del tutor o tutora de empresa y el profesor
+               o profesora del módulo, la decisión final sobre la evaluación y calificación será responsabilidad
+               última del o de la docente tomando como referencia la globalidad del módulo.
+
+                  6. El alumnado podrá realizar la estancia formativa en las empresas u organismos
+               equiparados un máximo de dos ocasiones por curso.
+
+                   7. En caso de informe desfavorable, se comunicará al alumnado el resultado de su evaluación,
+               entregando una copia del Anexo II, utilizando para ello la aplicación informática diseñada
+               al efecto.
+
+                  Duodécima.- Funciones a desarrollar por los agentes y empresas u organismos
+               equiparados para el desarrollo de los planes formativos.
+
+                     1. Empresas u organismos equiparados.
+
+                     Se asignan a las empresas u organismos equiparados las siguientes funciones:
+
+                   a) Designar a las personas que tutorizarán el proceso formativo en la empresa u
+               organismo equiparado.
+
+                  b) Favorecer la formación del alumnado cumpliendo con las actividades formativas
+               acordadas en el Plan de formación.
+
+                  c) Supervisar y facilitar el seguimiento individualizado y la valoración del progreso del
+               alumnado que debe realizar el tutor o tutora de empresa u organismo equiparado.
+
+                   d) Facilitar el acceso a las dependencias de la empresa u organismo equiparado al tutor
+               o tutora del centro educativo para realizar las visitas de seguimiento y supervisión de las
+               actividades formativas del alumnado.
+
+                   e) Cumplir con los requisitos que en materia de prevención de riesgos laborales les sean
+               exigibles y proporcionar a la persona en formación, cuando el puesto formativo lo requiera,
+               los equipos de protección correspondientes.
+
+                   f) Informar a la representación legal de las personas trabajadoras de la entidad sobre los
+               acuerdos suscritos, indicando al menos las personas que se van a incorporar a la empresa u
+               organismo equiparado, el puesto o puestos en los que desarrollará la formación, el contenido
+               de la actividad formativa y el tutor o tutora designado o designada.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                       boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39448                            Lunes 18 de noviembre de 2024
+
+
+
+
+                   g) Comunicar al centro, a través del tutor o tutora de la empresa, cualquier incidencia,
+               accidente o aspecto relevante que afecte al alumnado desde el momento de la detección
+               para poder resolverla de manera satisfactoria.
+
+                   h) Conocer e informar al alumnado tutorizado de aquellas circunstancias específicas
+               que puedan influir en el desarrollo de su formación práctica, manteniendo en todo momento
+               la confidencialidad de la información recibida, cumpliendo con la Ley Orgánica 3/2018,
+               de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.
+
+                   i) Dotar al alumno o alumna de las herramientas informáticas para la realización de
+               teletrabajo, en el caso de que la empresa u organismo equiparado desarrolle esta modalidad
+               laboral y considere que la formación práctica pudiera darse bajo estas circunstancias.
+
+                     2. Tutor o tutora de empresa u organismo equiparado.
+
+                   El tutor o tutora de empresa u organismo equiparado será la persona con la cualificación
+               o experiencia profesional adecuada, designada entre la plantilla del centro de trabajo, que
+               guiará la incorporación, formación y desarrollo del alumnado en la misma.
+
+                     Serán funciones del tutor o tutora de empresa:
+
+                  a) Colaborar con el tutor o tutora del centro educativo para consensuar el Plan de
+               formación que desarrollará cada alumno o alumna en la empresa u organismo equiparado.
+
+                   b) Informar, valorar y trasladar la información relativa a la adquisición de los resultados
+               de aprendizaje previstos durante la estancia formativa en la empresa u organismo equiparado
+               al centro educativo, a efectos de evaluación y calificación del módulo profesional.
+
+                   c) Comunicar al tutor o tutora del centro educativo cualquier incidencia o aspecto
+               relevante que pueda influir en la formación del alumnado.
+
+                   d) Informar al alumnado de su evolución durante el periodo formativo en la empresa u
+               organismo equiparado.
+
+                   e) Cumplimentar el informe cualitativo de evaluación del alumnado establecido al
+               efecto (Anexo II).
+
+                  f) Participar e informar de su valoración en la sesión de evaluación de la persona en
+               formación, si así lo desea.
+
+                  Se promoverá el reconocimiento y la formación de las personas que ejerzan funciones
+               como tutores o tutoras de empresa.
+
+                     3. Centros educativos.
+
+                     Se asignan al centro educativo las siguientes funciones:
+
+                  a) Formar al alumnado en las competencias profesionales, personales y sociales, así
+               como para la empleabilidad, que sean propias de las enseñanzas que cursa.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                     boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230             39449                           Lunes 18 de noviembre de 2024
+
+
+
+
+                   b) Verificar el cumplimiento de los requisitos exigidos a las personas candidatas para
+               la formación en empresa u organismo equiparado, así como la organización del Plan de
+               formación y la asignación del alumnado a las empresas.
+
+                   c) Informar a las personas en formación, con carácter previo a la matrícula en cada
+               oferta formativa, de la previsión del régimen en que podrán realizar su formación en la
+               empresa u organismo equiparado, la duración de la formación en función del régimen
+               ofertado, así como de las características de cada régimen y los criterios de adjudicación de
+               empresas u organismos equiparados y condiciones.
+
+                  d) Gestionar la documentación necesaria para el adecuado desarrollo de la estancia
+               formativa en las empresas u organismos equiparados.
+
+                   e) Publicar y difundir la información, de manera objetiva y veraz, en los canales
+               establecidos al efecto.
+
+                  f) Velar por que el alumnado que forma parte del plan de internacionalización del centro
+               desarrolle su formación en empresa con las mismas garantías que el resto de alumnado.
+
+                     4. Equipo docente de centro.
+
+                   De acuerdo con el artículo 62 de la LOOIFP, el equipo docente será el responsable,
+               respecto a la fase de formación en la empresa u organismo equiparado, de:
+
+                     a) Realizar la concreción del currículo a las necesidades del entorno productivo canario.
+
+                   b) Validar, de conformidad con el tutor o tutora, los planes de formación de cada persona
+               en formación y la distribución de los resultados de aprendizaje del currículo entre el centro
+               y la empresa u organismo equiparado.
+
+                  c) Asegurar la coordinación entre el centro educativo y la empresa u organismo
+               equiparado respecto al entorno de trabajo en que se desenvolverá en alumnado.
+
+                   d) Promover la igualdad efectiva de trato y de oportunidades entre las personas a lo
+               largo del desarrollo del proceso formativo, así como promover una formación inclusiva
+               basada en el respeto a los derechos humanos y a la diversidad.
+
+                   e) Asistir al alumnado durante la preparación y el desarrollo de la o las fases en empresa
+               u organismo equiparado.
+
+                   f) Garantizar la integración de los aprendizajes desarrollados entre el centro educativo
+               y la empresa u organismo equiparado.
+
+                  g) Establecer los mecanismos de adaptación metodológica y de recursos del currículo
+               cuando las necesidades del alumnado lo requieran.
+
+                  El equipo docente, además, deberá impulsar en su acción docente aquellas actividades
+               formativas que permitan al alumnado desarrollar las competencias sociales y personales
+               necesarias para su incorporación a la empresa u organismo equiparado.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                     boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230              39450                         Lunes 18 de noviembre de 2024
+
+
+
+
+                     5. Tutorías y cotutorías de centro.
+
+                   1. El tutor o tutora de centro es el profesorado del alumnado que realiza la formación
+               práctica, perteneciente a la familia profesional que forma parte del equipo educativo del
+               grupo clase. Se asignará un tutor o tutora a cada grupo, conjuntamente con otros docentes
+               que ejercerán de cotutores o cotutoras. Para nombrar un cotutor o cotutora, el grupo clase
+               de la oferta formativa de grado correspondiente debe contar con una matrícula superior a
+               diez alumnos o alumnas.
+
+                     2. Serán funciones del tutor o tutora las de:
+
+                   a) Promover el contacto entre el alumnado y la empresa u organismo equiparado asignados,
+               con la mayor antelación posible y una vez superadas las competencias básicas en prevención
+               de riesgos laborales.
+
+                  b) Coordinar la elaboración del Plan de formación entre el equipo educativo y la
+               empresa u organismo equiparado.
+
+                   c) Preparar a la persona en formación para su incorporación a los periodos de formación
+               en empresa u organismo equiparado, poniendo el énfasis en aquellas competencias profesionales,
+               sociales y personales necesarias para esta formación, garantizando la existencia de apoyos
+               precisos en los casos en que sea necesario.
+
+                  d) Gestionar la documentación necesaria para llevar a cabo las acciones derivadas del
+               acuerdo para la actividad formativa.
+
+                   e) Realizar visitas a las empresas u organismos equiparados y llevar a cabo las
+               actuaciones de revisión del plan de formación, así como la valoración y supervisión del
+               proceso formativo de la persona en formación.
+
+                   f) Trasladar al resto del equipo educativo, a efectos de seguimiento, evaluación y
+               calificación del módulo profesional, los resultados de aprendizaje adquiridos por el
+               alumnado.
+
+                   g) Coordinarse con la persona prospectora del centro educativo, en su caso, para el
+               establecimiento de relaciones con las empresas u organismos equiparados.
+
+                   h) Velar por el aprovechamiento correcto del alumno o alumna de su estancia formativa
+               en la empresa, incorporando los ajustes necesarios.
+
+                  i) Incorporar los principios de igualdad de trato y oportunidades entre hombres y
+               mujeres, y de no discriminación por razón de discapacidad, de las personas en relación a la
+               formación en la empresa u organismo equiparado.
+
+                   j) Promover la participación del alumnado en proyectos de internacionalización,
+               gestionando junto a la figura del coordinador o coordinadora de estos proyectos, los trámites
+               necesarios para que el alumnado seleccionado realice las movilidades previstas.
+
+                   k) Informar al alumnado de su evolución durante el periodo formativo en la empresa u
+               organismo equiparado.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39451                             Lunes 18 de noviembre de 2024
+
+
+
+
+                   3. El cotutor o cotutora desempeñará funciones de apoyo al tutor o tutora del grupo
+               atendiendo al trimestre en curso. En este sentido, y según su disponibilidad horaria, se
+               encargará, en todo caso, de:
+
+                     a) Apoyo en el proceso de selección de empresas.
+
+                     b) Apoyo en el proceso de asignación del alumnado.
+
+                  c) Definición del Plan de formación de manera coordinada con el resto del equipo
+               educativo.
+
+                     d) Seguimiento del alumnado en coordinación con las personas tutoras de las empresas.
+
+                   e) Aquellas que, atendiendo a la necesidad específica de cada grupo, le puedan ser
+               atribuidas.
+
+                     6. Alumnado.
+
+                     1. Los deberes asignados al alumnado son los siguientes:
+
+                   a) Asistir a la empresa u organismo equiparado con el objetivo de adquirir las competencias
+               profesionales, sociales y personales, así como para la empleabilidad, establecidos en el Plan de
+               formación.
+
+                  b) Cumplir con la asistencia obligatoria al centro educativo y a la empresa u organismo
+               equiparado, el calendario y horario formativo, del que será informado previamente.
+
+                  c) Cumplir con las normas establecidas por la empresa u organismo equiparado,
+               especialmente las referidas a la prevención de riesgos laborales.
+
+                   d) Aplicar y cumplir adecuadamente con las tareas formativas que se le encomienden en
+               la empresa u organismo equiparado, de acuerdo con el Plan de formación y la programación
+               establecida, respetando el régimen de funcionamiento de la misma.
+
+                  e) Respetar y cuidar los medios materiales que la empresa u organismo equiparado
+               ponga a su disposición.
+
+                   f) Comunicar a la empresa u organismo equiparado con antelación, y al tutor o tutora
+               de centro, cualquier ausencia, incidencia, accidente o aspecto relevante, que tenga lugar
+               durante su estancia de formación práctica.
+
+                    g) Mantener la confidencialidad con la empresa u organismo equiparado y con los
+               trabajadores y trabajadoras, y usuarios de estas, en cumplimiento de la Ley Orgánica que
+               así lo especifica.
+
+                   h) En aquellas entidades de carácter sanitario, educativo y social, donde la formación
+               gira en torno a la atención a las personas, y al carácter especialmente sensible de los datos
+               personales, de salud y el acceso a aspectos íntimos de las personas por los profesionales
+               y por el personal en formación de dichas instituciones, será de aplicación la normativa
+               específica.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                      boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39452                           Lunes 18 de noviembre de 2024
+
+
+
+
+                   i) Otras directrices acordadas con la empresa u organismo equiparado e incorporadas
+               en el convenio y/o concierto de cooperación.
+
+                   j) Aportar al centro educativo el Número Único de la Seguridad Social (NUSS) para ser
+               incluido en el sistema de la Seguridad Social, según la disposición adicional quincuagésima
+               segunda (en lo sucesivo DA 52.ª) del texto refundido de la Ley General de la Seguridad
+               Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre (en adelante
+               TRLGSS), titulada “Inclusión en el sistema de Seguridad Social de alumnos que realicen
+               prácticas formativas o prácticas académicas externas incluidas en programas de formación”.
+
+                   2. Quedará excluido de la formación práctica, dejando sin efecto el Plan de formación
+               acordado entre el centro educativo y la empresa u organismo equiparado para un determinado
+               alumno o alumna, por decisión del centro, de la empresa u organismo equiparado o de
+               manera conjunta entre ambos, cuando concurra cualquiera de los siguientes supuestos:
+
+                     a) Faltas repetidas de asistencia y/o puntualidad no justificadas del alumno o alumna.
+
+                  b) Falta de aprovechamiento en la empresa u organismo equiparado, por falta de un
+               adecuado desarrollo de sus competencias profesionales, sociales y personales.
+
+                     c) Mostrar una conducta inadecuada durante el desarrollo de las actividades formativas.
+
+                   d) Incumplimiento de las medidas que en materia de prevención y protección de riesgos
+               laborales en la empresa u organismo equiparado.
+
+                   e) Incumplimiento del deber de confidencialidad, y secreto profesional en su caso, en
+               relación a la información de la empresa.
+
+                   f) No desarrollar durante las fases iniciales de la formación aquellos resultados de
+               aprendizaje considerados básicos por la empresa u organismo equiparado, independientemente
+               de la superación o no de los mismos en el centro educativo, que conlleve la inaplicación del
+               resto del Plan de formación acordado.
+
+                   g) Cualquier otra circunstancia acordada entre el centro educativo y la empresa u
+               organismo equiparado.
+
+                   Previamente a la exclusión de la formación práctica, se dará audiencia al interesado
+               por el tutor del centro y de empresa con el fin de reconducir la situación o proceder a
+               su exclusión definitiva. Las circunstancias y procedimiento de exclusión de un alumno
+               o alumna de la formación práctica deberán reflejarse en los documentos de evaluación y
+               dejar constancia de las actuaciones en la aplicación informática que gestione la formación
+               en empresa.
+
+                     7. Prospector o prospectora del centro educativo.
+
+                   1. El centro educativo podrá promover la incorporación de la figura del prospector o
+               prospectora de empresa u organismo equiparado.
+
+                   2. El prospector o prospectora es una figura independiente y autónoma para el ejercicio
+               de las funciones que se recogen en el siguiente apartado.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230              39453                            Lunes 18 de noviembre de 2024
+
+
+
+
+                     3. Podrá ser un docente que tendrá entre sus funciones las siguientes:
+
+                   a) Impulsar las relaciones entre los centros educativos y formativos, y el tejido productivo
+               para establecer un contacto real entre ambos agentes.
+
+                   b) Sensibilizar al sector productivo de la importancia de la formación práctica en empresas
+               establecidas por el Sistema de Formación Profesional en nuestra Comunidad Autónoma.
+
+                   c) Buscar y prospectar empresas en los diferentes sectores del tejido productivo con el
+               objeto de vincularlas con el sistema educativo y formativo.
+
+                   d) Detectar las necesidades formativas reales sobre el contexto del entorno productivo
+               para una adecuada definición de cada perfil profesional.
+
+                   e) Apoyar, en los Centros Integrados de Formación Profesional, a los Departamentos
+               de Relaciones con las Empresas en aquellas funciones atribuidas que estén relacionadas
+               directamente con la figura de prospección.
+
+                     Decimotercera.- Exenciones de la formación práctica.
+
+                   1. Podrán quedar exentos, total o parcialmente, de la formación en empresa u organismo
+               equiparado, únicamente en régimen general, quienes acrediten una experiencia laboral
+               correspondiente a un año, en el caso de los Grados D, a tiempo completo o su equivalente,
+               que se corresponda con la misma formación cursada. En el caso de los Grados C y E, se
+               debe acreditar una experiencia laboral mínima de seis meses. La solicitud de exención se
+               presentará, preferentemente, durante el último trimestre del año o al menos un mes antes
+               del inicio de la formación en empresa u organismo equiparado.
+
+                  Para la justificación de la experiencia laboral se podrá aportar la realizada los cinco
+               años anteriores, justificándose de la siguiente manera:
+
+                     1.1. Para trabajadores o trabajadoras asalariados/as se solicitará:
+
+                  a) Vida laboral: certificación de la Tesorería General de la Seguridad Social, del Instituto
+               Social de la Marina o de la mutualidad a la que estuvieran afiliados/as, donde consten la
+               empresa, categoría laboral y el periodo de contratación.
+
+                   b) Funciones desempeñadas: contrato de trabajo o certificación de la empresa donde
+               haya adquirido la experiencia laboral, en la que conste específicamente la duración de los
+               periodos de prestación de contrato, la actividad desarrollada y el intervalo de tiempo en el
+               que se ha desarrollado dicha actividad.
+
+                     1.2. Para trabajadores o trabajadoras autónomos/as o por cuenta propia se solicitará:
+
+                   a) Vida laboral: certificación de la Tesorería de la Seguridad Social o del Instituto
+               Social de la Marina, con los periodos de alta en la Seguridad Social en el régimen especial
+               correspondiente.
+
+                   b) Funciones desempeñadas: descripción de la actividad desarrollada e intervalo de
+               tiempo en el que se ha desarrollado la misma.
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                       boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230            39454                             Lunes 18 de noviembre de 2024
+
+
+
+
+                     1.3. Para becarios:
+
+                   Vida laboral y funciones desempeñadas: certificación de la persona responsable de la
+               organización donde se haya prestado la asistencia en la que consten, específicamente, las
+               actividades y funciones realizadas, el año en el que se han realizado y el número total de
+               horas dedicadas a las mismas.
+
+                     1.4. Para personas voluntarias:
+
+                   Vida laboral y funciones desempeñadas: certificación expedida por la entidad de voluntariado
+               en la que se hayan prestado los servicios voluntarios en la que consten, como mínimo,
+               además de los datos personales e identificativos de la persona voluntaria y la entidad de
+               voluntariado, la fecha de incorporación a la entidad y la duración, descripción de las tareas
+               realizadas o funciones asumidas y el lugar donde se haya llevado a cabo la actividad.
+
+                   2. Podrá quedar exento parcialmente del periodo de formación en la empresa u organismo
+               equiparado, solo en régimen general, aquel alumnado que o bien aporte una acreditación de
+               unidades de competencias superadas en procedimientos de evaluación y acreditación de
+               competencias profesionales o certificados profesionales que estén relacionados con el
+               Grado D que se encuentre cursando. El número de horas requeridas para esta exención
+               dependerá de las horas que conlleven las realizaciones de aprendizaje de los módulos
+               dualizables que se acuerden entre el centro educativo y la empresa u organismo equiparado
+               en el marco del Plan de formación correspondiente.
+
+                   3. La DGFPERE establecerá documentos comunes de actuación, a propuesta de las
+               Familias Profesionales, con criterios que faciliten el proceso de exención al alumnado de la
+               fase práctica curricular en empresas u organismos equiparados.
+
+                   4. La exención del periodo de formación en empresa u organismo equiparado quedará
+               recogida en los documentos de evaluación, no afectando a las calificaciones de los módulos
+               profesionales a los que pertenezcan los resultados de aprendizaje compartidos entre
+               el centro educativo y la empresa u organismo equiparado. Los componentes del equipo
+               docente serán los responsables de la evaluación y calificación de cada persona que haya
+               solicitado la exención parcial o total de la formación práctica.
+
+                     Decimocuarta.- Ciclos LOGSE.
+
+                   En relación con los ciclos LOGSE aún en vigor quedan, con la ordenación del Sistema
+               de Formación Profesional, sin alteración alguna, no viéndose afectados por el Real Decreto
+               659/2023, de 18 de julio. Estos ciclos mantendrán el módulo de FCT y la distribución
+               modular y horaria, desarrollada de acuerdo con la normativa básica y autonómica que
+               les sea de aplicación. En estos ciclos formativos tendrán prioridad al acceso a la FCT
+               el alumnado procedente de los centros educativos de titularidad pública y de titularidad
+               privada debidamente autorizados en la Comunidad Autónoma de Canarias.
+
+                     Decimoquinta.- Formación de carácter dual en el ámbito sanitario.
+
+                  En cuanto al desarrollo de la formación profesional dual en las Gerencias de Atención
+               Primaria, Gerencias de Servicios Sanitarios y Direcciones Gerencias Hospitalarias del
+               Servicio Canario de la Salud, se atenderá a lo establecido en la normativa vigente, teniendo
+
+
+https://sede.gobiernodecanarias.org/boc                                                                      boc-a-2024-230-3794
+           Boletín Oficial de Canarias núm. 230          39455                           Lunes 18 de noviembre de 2024
+
+
+
+
+               preferencia en primer lugar el alumnado procedente de los centros públicos y en segundo
+               lugar el alumnado procedente de centros privados que hayan sido debidamente autorizados
+               por la Administración educativa de la Comunidad Autónoma de Canarias.
+
+                     Decimosexta.- Formación de carácter dual en el ámbito penitenciario.
+
+                  El desarrollo de ofertas formativas que conlleve formación en empresas u organismos
+               equiparados para personas en situación de privación de libertad, atenderá a lo establecido
+               en el Real Decreto 190/1996, de 9 de febrero, por el que se aprueba el Reglamento
+               Penitenciario, y en la Sección 6.ª del Capítulo IV del Real Decreto 659/2023. La presente
+               Resolución tendrá, en lo que afecte, carácter complementario.
+
+                     Decimoséptima.- Formación de carácter dual en el ámbito de los CIEMI.
+
+                   El desarrollo de ofertas educativas que conlleve formación en empresas u organismos
+               equiparados para alumnado que se encuentre cumpliendo medidas de internamiento en
+               Centros de Internamiento Educativo para menores infractores de Canarias (CIEMI),
+               atenderá, en lo que afecte, a lo establecido en la presente Resolución y en la Orden de 1
+               de marzo de 2011, por la que se aprueban las Normas de Funcionamiento Interno de los
+               Centros de Internamiento Educativo para menores infractores de Canarias. La DGFPERE
+               podrá dictar, en coordinación con la Dirección General de Protección a la Infancia y las
+               Familias, instrucciones complementarias que faciliten y garanticen la formación de este
+               alumnado.
+
+                     Decimoctava.- Transición entre la formación de carácter dual y el módulo de FCT
+
+                   1. De acuerdo con el calendario establecido en el artículo 11 del Real Decreto
+               278/2023, de 11 de abril, por el que se establece el calendario de implantación del Sistema
+               de Formación Profesional, establecido por la Ley Orgánica 3/2022, de 31 de marzo, de
+               ordenación e integración de la Formación Profesional, en el curso escolar 2024-2025 se
+               implanta el primer curso de todos los ciclos formativos. Durante este curso académico,
+               para el segundo curso permanece en vigor la ordenación de los Ciclos Formativos de
+               Grado Básico, Medio y Superior previa a la entrada en vigor los Reales Decretos 498/2024,
+               499/2024 y 500/2024, respectivamente.
+
+                   2. De acuerdo con lo anterior, y en aplicación del nuevo marco jurídico aplicable para
+               el primer curso lectivo, el módulo de FCT del segundo curso coexistirá con la formación en
+               empresa del primer curso. En estos términos, la Resolución 50/2024 de la Viceconsejería de
+               Educación y de la Viceconsejería de Formación Profesional y Cualificaciones Profesionales,
+               por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros
+               docentes públicos no universitarios de la Comunidad Autónoma de Canarias para el curso
+               2024-2025, ha establecido el tránsito adecuado entre ambos sistemas de formación en
+               empresa, sin perjuicio de la facultad de la DGFPERE para dictar y remitir a los centros
+               educativos, en el ámbito de sus competencias, orientaciones complementarias sobre esta
+               materia.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                  boc-a-2024-230-3794
+                                                                                                                       ANEXO II
+
+                                                                                    PLAN FORMATIVO EN EMPRESA
+                                                                                                         Anexo U
+                                                                                                               II ORGANISMO EQUIPARADO
+                                                                                        PLAN FORMATIVO EN EMPRESA U ORGANISMO EQUIPARADO
+                                                                                        RÉGIMEN (General/Intensivo)________________
+                                                                                                                                                                                   Dirección General de Formación
+https://sede.gobiernodecanarias.org/boc
+
+
+                                                                                                                                                                                           Profesional y
+                                                                                         CURSO: __________                                                                        Enseñanzas de Régimen Especial.
+
+                                                                                         FECHA:_______________
+                                          DATOS DE IDENTIFICACIÓN:
+                                                                                                                                                                                                                    Boletín Oficial de Canarias núm. 230
+
+
+
+                                          CICLO FORMATIVO                                                                                      CENTRO DE FORMACIÓN:
+                                                                                         Nombre y Apellidos:                                   TELÉFONO:                         Correo electrónico:
+                                          ALUMNO/ ALUMNA
+                                                                                         Requiere adaptaciones puesto de trabajo: Sí/ No       Especificar:                      Requiere autorización: Sí /No
+                                                                                                                                                                                 Especificar:
+
+                                          DATOS TUTOR/A DE CENTRO                                                                              TELÉFONO:                         Correo electrónico:
+                                          EDUCATIVO                                                                                                                                                                 39456
+                                          DATOS EMPRESA:                                                                                       TELÉFONO:                         Correo electrónico:
+                                          DATOS TUTOR/A DE EMPRESA                                                                             TELÉFONO:                         Correo electrónico:
+                                          PERIODOS DE FORMACIÓN EN LA                    FECHAS:                       TOTAL HORAS:            Varias empresas/ ROTACIÓN: Puesto ocupado 1:
+                                          EMPRESA                                                                                                                         Puesto ocupado 2:
+                                                                                                                                                          Sí/NO
+                                          INTERVALO DE FORMACIÓN                         DIARIO:                       SEMANAL:                MENSUAL:                          OTROS:
+                                          (Secuencias)
+                                          PLAN DE COORDINACIÓN TUTORES (mecanismos de seguimiento de los aprendizajes realizados)
+                                          Periodicidad de visitas del tutor/a académico a la empresa u organismo equiparado: Visitas a la empresa, Comunicación telefónica: Fechas y duración
+                                          Comunicación email
+                                          Videollamadas: fechas y duración
+                                          FORMACIÓN ESPECÍFICA NO VINCULADA AL CURRÍCULO/CICLO FORMATIVO
+
+
+
+
+                                                                                                                                                                                                                    Lunes 18 de noviembre de 2024
+
+  boc-a-2024-230-3794
+                                          RESULTADOS DE APRENDIZAJE A IMPLEMENTAR EN LA EMPRESA (Cumplimentar uno por módulo)
+                                           CÓDIGO      MÓDULO                   RESULTADOS DE APRENDIZAJE                HORAS A    DESARROLLADO    DESARROLLADO    SUPERADO      NO
+                                                                                                                         REALIZAR   EN LA EMPRESA    EN EL CENTRO              SUPERADO
+                                                     PROFESIONAL
+
+                                                                   RA 1:
+https://sede.gobiernodecanarias.org/boc
+
+
+
+
+                                                                   RA 2:
+                                                                   RA 3:
+                                          TAREAS A REALIZAR EN LA EMPRESA RELACIONADAS CON EL RESULTADO DE APRENDIZAJE
+                                                                                                                                                                                          Boletín Oficial de Canarias núm. 230
+
+
+
+
+                                                                                                                                                                                          39457
+
+                                          VALORACIÓN CUALITATIVA DE LA ADQUISICIÓN DEL RESULTADO DE APRENDIZAJE
+
+
+
+
+                                                                                                                                                                                          Lunes 18 de noviembre de 2024
+
+  boc-a-2024-230-3794
+                                          RESULTADOS DE APRENDIZAJE A IMPLEMENTAR EN LA EMPRESA (Cumplimentar uno por módulo)
+
+                                            CÓDIGO      MÓDULO                   RESULTADOS DE APRENDIZAJE                HORAS A    DESARROLLADO    DESARROLLADO    SUPERADO      NO
+                                                                                                                          REALIZAR   EN LA EMPRESA    EN EL CENTRO              SUPERADO
+                                                      PROFESIONAL
+https://sede.gobiernodecanarias.org/boc
+
+
+
+                                                                    RA 1:
+                                                                    RA 2:
+                                                                    RA 3:
+                                                                                                                                                                                           Boletín Oficial de Canarias núm. 230
+
+
+                                          TAREAS A REALIZAR EN LA EMPRESA RELACIONADAS CON EL RESULTADO DE APRENDIZAJE
+
+
+
+
+                                                                                                                                                                                           39458
+
+
+                                          VALORACIÓN CUALITATIVA DE LA ADQUISICIÓN DEL RESULTADO DE APRENDIZAJE
+
+
+
+
+                                                                                                                                                                                           Lunes 18 de noviembre de 2024
+
+  boc-a-2024-230-3794
+          Boletín Oficial de Canarias núm. 230                                                39459   Lunes 18 de noviembre de 2024
+
+
+
+
+                                                 Fdo.: Alumno/ Alumna
+
+
+
+
+                                                 Fdo.: Tutor/ tutora de empresa u organismo
+
+
+
+
+                                                                  equiparado
+
+
+
+
+                                                 Fdo.: Tutor/tutora centro de formación
+
+
+                     OBSERVACIONES
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                               boc-a-2024-230-3794
+                                                                                                                ANEXO III
+                                                                                                                ANEXO III.
+                                                  SOLICITUD
+                                                   SOLICITUDDE
+                                                             DEALUMNADO
+                                                                ALUMNADOCON
+                                                                         CONINDICACIÓN
+                                                                             INDICACIÓN DE PREFERENCIA DE
+                                                                                        DE PREFERENCIA DERÉGIMEN
+                                                                                                          RÉGIMENYYASIGNACIÓN
+                                                                                                                    ASIGNACIÓNDE
+                                                                                                                               DEEMPRESA
+                                                                                                                                  EMPRESA.
+
+                                                     SOLICITUD DE ALUMNADO CON INDICACIÓN DE PREFERENCIA DE RÉGIMEN Y ASIGNACIÓN DE EMPRESA.
+https://sede.gobiernodecanarias.org/boc
+
+
+
+
+                                                                                              Fecha______________________/ Curso 20..…../20...…..
+
+
+                                                                                                  DATOS DEL CENTRO EDUCATIVO
+                                                                                                                                                                        Boletín Oficial de Canarias núm. 230
+
+
+
+                                          Nombre de Centro                                                                                          Código del centro
+
+                                          DIRECTOR O DIRECTORA DEL CENTRO EDUCATIVO
+                                          Nombre y Apellidos
+                                          TUTOR O TUTORA DUAL DEL CENTRO EDUCATIVO
+                                          Nombre y Apellidos                                                                                                            39460
+                                          DATOS DEL CICLO FORMATIVO (GB, GM, GS)/CURSOS DE ESPECIALIZACIÓN
+                                          DENOMINACIÓN                                                                                              Curso:
+                                          DATOS DEL ALUMNO O ALUMNA
+                                          Nombre y Apellidos
+                                                                                           MODALIDAD EN LA QUE PREFIERE PARTICIPAR
+                                                Prefiero participar en Modalidad en régimen general.
+                                                Prefiero participar en Modalidad en régimen intensivo.
+
+
+
+
+                                                                                                                                                                        Lunes 18 de noviembre de 2024
+
+  boc-a-2024-230-3794
+                                          Indicar orden de preferencia en la asignación de centros para la formación en empresa u organismo equiparado, de los indicados por el tutor o tutora del
+                                                                                                              centro educativo
+                                          1.
+https://sede.gobiernodecanarias.org/boc
+
+
+                                          2.
+
+                                          3.
+
+                                          4.
+                                                                                                                                                                                                               Boletín Oficial de Canarias núm. 230
+
+
+
+                                          5.
+
+
+                                           (Incluir compromisos con la empresa EJ: el alumno/alumna firmante se compromete a aceptar y cumplirlas condiciones propuestas por la empresa, solicita adaptación
+                                                                                                                 del puesto de trabajo)
+
+                                                       Fdo.: Tutor/a Dual centro de formación.                    Fdo.: Alumno o Alumna.
+
+                                                                                                                                                                                                               39461
+
+
+
+
+                                                                                                                                                                                                               Lunes 18 de noviembre de 2024
+
+  boc-a-2024-230-3794
+

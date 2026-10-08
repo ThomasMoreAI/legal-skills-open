@@ -1,0 +1,36 @@
+name: New Topic Request
+description: Request coverage of a topic not yet in the knowledge base
+labels: ["new-topic"]
+body:
+  - type: dropdown
+    id: pod
+    attributes:
+      label: Which area does this fall under?
+      options:
+        - roles/ (student, parent, teacher, specialist, principal, staff, admin)
+        - operations/ (how schools run)
+        - compliance/ (law, policy, funding)
+        - programs/ (populations and programs)
+        - ai-in-education/
+        - curriculum-instruction/
+        - special-needs/
+        - templates/ (new document template)
+        - commands/ (new slash command)
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What topic should be covered?
+      description: Describe the topic and who would benefit from it.
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Example question a user might ask
+      description: Give 1-2 example questions this topic would answer.
+      placeholder: e.g., "How do I set up a dual-language program in my district?"
+    validations:
+      required: true

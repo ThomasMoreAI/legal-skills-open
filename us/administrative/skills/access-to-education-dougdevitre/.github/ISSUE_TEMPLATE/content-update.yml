@@ -1,0 +1,48 @@
+name: Content Update
+description: Report a factual change (new law, updated data, changed deadline)
+labels: ["content-update"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Missouri statute change (RSMo)
+        - Federal law/regulation change (IDEA, ESSA, FERPA, etc.)
+        - DESE guidance or policy update
+        - Data point change (enrollment, rates, amounts)
+        - Deadline or calendar change
+        - URL or resource link broken/changed
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Affected file(s)
+      description: Which reference file(s) need updating? Check CANONICAL_OWNERS.md for the canonical file.
+      placeholder: e.g., references/roles/students.md
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current content
+      description: What does the repo currently say?
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: Correct content
+      description: What should it say instead?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link or citation for the correct information
+      placeholder: e.g., https://dese.mo.gov/... or RSMo 167.031
+    validations:
+      required: true

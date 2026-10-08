@@ -1,0 +1,183 @@
+# Normativa Educativa Canaria
+
+> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA, sin sustituir nunca las fuentes oficiales publicadas en BOE, BOC y portales institucionales.
+
+Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural, reglas de uso o modelo de datos.
+
+Las rutas internas Markdown/YAML citadas en este archivo quedan publicadas en GitHub Pages bajo la misma ruta relativa: `https://ateeducacion.github.io/normativa_educativa_canaria/<ruta-interna>`.
+
+## Foto Indexada
+
+<!-- inventario-corpus:inicio -->
+Esta sección se genera desde `06_indices/`; los huecos de identificadores se conservan y no implican entidades ausentes.
+
+- 138 fuentes (FTE-001 a FTE-138, con posibles huecos reservados).
+- 129 normas (NOR-001 a NOR-131, con posibles huecos reservados).
+- 58 currículos (CUR-001 a CUR-058, con posibles huecos reservados); bachillerato: 14, eso: 23, formacion-profesional: 8, infantil: 3, primaria: 10.
+- 100 relaciones (REL-001 a REL-103, con posibles huecos reservados).
+- 22 chunks IA (CHUNK-00001 a CHUNK-00022, con posibles huecos reservados).
+- 98 tareas; Hecha: 98.
+- 139 copias locales de textos oficiales (normativa: 102; currículos: 37).
+- [Inventario JSON público](docs/datos/inventario.json): resumen derivado para clientes automáticos.
+<!-- inventario-corpus:fin -->
+
+Capa semántica generada, no editorial: [catálogo JSON-LD](docs/datos/catalogo.jsonld), [legislación](docs/datos/legislacion.jsonld), [currículos](docs/datos/curriculos.jsonld) y [fuentes](docs/datos/fuentes.jsonld). Las URI ELI solo constan cuando el publicador las confirma. Los [pilotos Akoma Ntoso](docs/datos/akoma-ntoso/README.md) no sustituyen la fuente oficial.
+
+## Cobertura Principal
+
+- Marco estatal: LOE (`NOR-001`), LOMLOE (`NOR-002`), RD 217/2022 para ESO (`NOR-003`), RD 243/2022 para Bachillerato (`NOR-006`) y Ley Orgánica 3/2022 de FP (`NOR-007`).
+- Marco autonómico general: Ley Canaria 6/2014 (`NOR-004`), Decreto 30/2023 para ESO y Bachillerato (`NOR-005`), Decreto 211/2022 para Primaria (`NOR-043`) y Decreto 196/2022 para Infantil (`NOR-047`).
+- Organización y convivencia: ROC de centros públicos (`NOR-009`), convivencia escolar (`NOR-010`), inspección educativa (`NOR-011`, `NOR-013`) y CIFP (`NOR-012`).
+- Atención a la diversidad y NEAE: Aulas Enclave y CEE (`NOR-028`), Decreto 25/2018 (`NOR-024`), Orden de 13 de diciembre de 2010 (`NOR-025`), instrucciones anuales 2024-2027 (`NOR-039` a `NOR-041`) y procedimientos NEAE (`NOR-050`).
+- Alumnado, servicios y administración: admisión (`NOR-029`, `NOR-038`), comedores (`NOR-034`), transporte (`NOR-035`), residencias (`NOR-036`) y Reglamento Orgánico de la Consejería (`NOR-033`).
+- Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
+- Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y Bachillerato `CUR-037` a `CUR-045` más `CUR-054` a `CUR-058`.
+- Formación Profesional: 8 ciclos registrados (`CUR-046` a `CUR-053`); `CUR-052` está completado y el resto figura como extracción parcial, con tareas abiertas para correcciones y criterios de evaluación completos.
+- Códigos administrativos de áreas y materias: catálogo transversal en `03_curriculos/codigos-materias-canarias.md`, trazado a `FTE-056`.
+
+## Estilo De Respuesta Y Rigor Jurídico
+
+Al responder consultas, sea rigurosamente trazable: toda afirmación normativa debe ir acompañada de la cita exacta del precepto que la sustenta. No hay afirmación sin cita.
+
+**Regla absoluta sobre códigos internos.** Los identificadores `NOR-NNN`, `CUR-NNN`, `FTE-NNN`, `REL-NNN` y `CHUNK-NNNNN` son **trazabilidad interna del corpus, no referencia jurídica**. PROHIBIDO citarlos como si fueran el nombre de la norma en el texto visible al usuario. La cita siempre es la **denominación oficial + localización** (artículo, apartado, disposición o anexo). Si usa el código interno, va **solo como apoyo**, entre paréntesis y después de la cita oficial. Una respuesta cuyo «fundamento normativo» se reduzca a un listado de `NOR-001`, `CUR-002`… está mal hecha y debe rehacerse.
+
+- Cite siempre norma + localización concreta: artículo, apartado, disposición o anexo aplicable.
+- Añada, cuando exista en el corpus, un enlace directo a la fuente oficial de la norma o currículo: BOE, BOC, sede del BOC o portal oficial del Gobierno de Canarias.
+- Combine, cuando sea útil, dos enlaces: uno al corpus para la trazabilidad interna y otro a la fuente oficial para la verificación jurídica inmediata.
+- Use la denominación oficial completa en la primera mención. En menciones posteriores puede abreviar: LOE, LOMLOE, RD 217/2022, Decreto 30/2023, etc.
+- Distinga explícitamente entre texto literal, resumen, interpretación y orientación práctica. Nunca presente una paráfrasis como cita.
+- Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, dígalo expresamente y remita a BOE/BOC.
+- Cuando un precepto haya sido modificado, derogado o superado, indíquelo y cite tanto la norma original como la modificadora, derogatoria o sustituta.
+
+Formato de respuesta preferido para consultas educativas:
+
+- `### Respuesta breve`
+- `### Fundamento normativo`
+- `### Aplicación práctica en Canarias`
+- `### Enlaces directos`
+- `### Límites o aspectos a verificar`
+
+En `### Enlaces directos`, priorice:
+
+- **Fuente oficial:** URL directa a BOE, BOC, PDF oficial del BOC o portal oficial del Gobierno de Canarias.
+- **Ficha del corpus:** ruta pública de GitHub Pages a la ficha `NOR-NNN`, `FTE-NNN` o `CUR-NNN` usada para localizar la información.
+
+## Ruta Recomendada Para Localizar Contenido
+
+Si necesita encontrar rápido la norma o el contenido más útil, siga este orden:
+
+1. [Índice de normativa](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml) para localizar la norma por materia, etapa o tipo.
+2. [Índice de fuentes](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml) para recuperar la `url_oficial` y el boletín o portal competente.
+3. [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml) para localizar de forma directa HTML oficial, PDF oficial, texto consolidado o copia local rápida.
+4. [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la consulta pide saberes, criterios, competencias o anexos curriculares.
+5. [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si la respuesta depende de qué norma desarrolla, modifica o deroga a otra.
+6. [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo como apoyo de orientación rápida, nunca como sustituto de la fuente oficial.
+
+Use enlaces de **GitHub Pages** para archivos concretos (`.md`, `.yaml`, `llms.txt`) y enlaces de **GitHub** para navegar carpetas completas del corpus.
+Los índices `.yaml` son ficheros estructurados legibles por humanos y máquinas: sirven para inspección directa, descarga o consumo por asistentes/RAG.
+
+## Mapa De Consultas Frecuentes Del Portal
+
+Si la pregunta coincide con los ejemplos públicos del portal, use este patrón:
+
+- **Pregunta**
+- **Norma principal o precepto inicial**
+- **Normas complementarias**
+- **Rutas internas del corpus**
+
+Consultas priorizadas:
+
+- **¿Está vigente la Ley Orgánica 5/2002 de Cualificaciones y Formación Profesional?**
+  - **Norma principal:** Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional (LOFP).
+  - **Normas complementarias:** Cite la **disposición derogatoria única** de la LOFP que deroga explícitamente la Ley Orgánica 5/2002.
+  - **Rutas internas:** `02_normativa/estatal/leyes-organicas/NOR-007-lofp.md`.
+- **¿Cómo se evalúa al alumnado en las Aulas Enclave?**
+  - **Norma principal:** Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias; use los **anexos I, II y III** como referente evaluador.
+  - **Normas complementarias:** Orden de 13 de diciembre de 2010 y Resolución de 9 de febrero de 2011 (**anexo I, instrucciones 12.ª-14.ª**) para procedimiento y escolarización.
+  - **Rutas internas:** `02_normativa/canarias/ordenes/NOR-028-orden-10-02-2016-aulas-enclave.md`, `02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md`, `02_normativa/canarias/resoluciones/NOR-026-resolucion-2011-procedimientos-neae.md`, `07_corpus_ia/chunks/CHUNK-00018-curriculo-adaptado-ae-cee.yaml`.
+- **¿Cuáles son los permisos de conciliación para docentes en 2026?**
+  - **Norma principal:** Resolución de 24 de febrero de 2026, por la que se actualiza y adecua el régimen de vacaciones, permisos y licencias del personal docente no universitario.
+  - **Normas complementarias:** Revise los apartados sobre **permiso parental**, **enfermedad de familiares** y **fuerza mayor**; complemente con el EBEP y la Ley de Función Pública Canaria si la consulta exige base general.
+  - **Rutas internas:** `02_normativa/canarias/resoluciones/NOR-042-resolucion-2026-permisos.md`, `06_indices/normativa.yaml`.
+- **¿Qué criterios de baremo se usan para la admisión de alumnos?**
+  - **Norma principal:** Decreto 9/2022, de 20 de enero, **artículos 9 a 15** (baremo) y **artículo 18** (reserva de plazas para NEAE).
+  - **Normas complementarias:** Orden de 3 de marzo de 2022 para acreditación documental y resolución anual vigente del curso.
+  - **Rutas internas:** `02_normativa/canarias/decretos/NOR-029-decreto-9-2022-admision.md`, `02_normativa/canarias/ordenes/NOR-030-orden-03-03-2022-admision.md`, `06_indices/normativa.yaml`.
+- **¿Qué dice la LOMLOE sobre la promoción en Primaria?**
+  - **Norma principal:** Ley Orgánica 2/2006, de 3 de mayo, de Educación, **artículo 20**, en su redacción dada por la Ley Orgánica 3/2020.
+  - **Normas complementarias:** Orden de 31 de mayo de 2023 sobre evaluación y promoción en Canarias.
+  - **Rutas internas:** `02_normativa/estatal/leyes-organicas/NOR-001-loe.md`, `02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md`, `02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-primaria.md`.
+- **¿Qué establece el artículo 121 de la LOE sobre el Proyecto Educativo de Centro?**
+  - **Norma principal:** Ley Orgánica 2/2006, de 3 de mayo, de Educación, **artículo 121**.
+  - **Normas complementarias:** Reglamento orgánico de centros y normativa canaria de convivencia/atención a la diversidad cuando proceda.
+  - **Rutas internas:** `02_normativa/estatal/leyes-organicas/NOR-001-loe.md`, `02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md`, `02_normativa/canarias/decretos/NOR-010-decreto-114-2011-convivencia.md`, `02_normativa/canarias/ordenes/NOR-037-orden-7-junio-2007-diversidad.md`.
+- **¿Cuál es la norma autonómica vigente que regula el currículo de ESO en Canarias?**
+  - **Norma principal:** Decreto 30/2023, de 16 de marzo, **artículo 1**, **capítulo II**, **disposición transitoria segunda** y **disposición derogatoria única**.
+  - **Normas complementarias:** Real Decreto 217/2022; explique además que la LOMLOE **modifica** la LOE, no la deroga.
+  - **Rutas internas:** `02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md`.
+- **Para Biología y Geología en 3.º de ESO en Canarias...**
+  - **Norma principal:** Decreto 30/2023 y anexo curricular correspondiente de la materia.
+  - **Normas complementarias:** Use la extracción curricular ya cotejada en `CUR-001` para competencias específicas, criterios y saberes por curso.
+  - **Rutas internas:** [`03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md`](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md), [`03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml`](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml), [`01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md`](https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md).
+- **Dime las competencias específicas de Matemáticas en 3.º de Primaria.**
+  - **Norma principal:** Decreto 211/2022, de 10 de noviembre, y anexo curricular de Matemáticas.
+  - **Normas complementarias:** Use `CUR-029`; recuerde que el corpus organiza Primaria por **ciclos**, así que 3.º pertenece al **segundo ciclo**.
+  - **Rutas internas:** `03_curriculos/primaria/materias/CUR-029-matematicas.yaml`, `03_curriculos/primaria/materias/CUR-029-matematicas.md`, `02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md`.
+- **Extrae el currículo de Literatura Canaria en Bachillerato.**
+  - **Norma principal:** Decreto 30/2023 y anexo curricular de Literatura Canaria.
+  - **Normas complementarias:** Use `CUR-057`, materia de **2.º de Bachillerato** en Canarias.
+  - **Rutas internas:** `03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml`, `03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md`, `02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md`.
+- **Compara las modalidades de Bachillerato del RD 243/2022 con la oferta del Decreto 30/2023 en Canarias.**
+  - **Norma principal:** **Capítulo II del Real Decreto 243/2022** y **capítulo III del Decreto 30/2023**.
+  - **Normas complementarias:** Revise también los anexos de materias del decreto canario.
+  - **Rutas internas:** `02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md`, `02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md`.
+- **¿Está vigente el Decreto 114/2011 sobre convivencia?**
+  - **Norma principal:** Decreto 114/2011, de 11 de mayo; cite su publicación en el **BOC n.º 108, de 2 de junio de 2011**.
+  - **Normas complementarias:** Manténgalo como vigente mientras no se documente derogación o sustitución expresa en el corpus o en la fuente oficial.
+  - **Rutas internas:** `02_normativa/canarias/decretos/NOR-010-decreto-114-2011-convivencia.md`.
+- **¿Dime el horario y funciones de la inspección educativa?**
+  - **Norma principal:** Decreto 52/2009, de 12 de mayo, y su reglamento anexo para **funciones**.
+  - **Normas complementarias:** Orden de 22 de mayo de 2011 para organización y funcionamiento; si la consulta pide un **horario semanal concreto**, advierta que el corpus no indexa un cuadrante horario anual consolidado.
+  - **Rutas internas:** `02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md`, `02_normativa/canarias/ordenes/NOR-013-orden-22-mayo-2011-inspeccion.md`.
+- **¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?**
+  - **Norma principal:** Resolución de 20 de junio de 2025 sobre organización y funcionamiento de las escuelas infantiles y centros de Educación Infantil.
+  - **Normas complementarias:** Cite el apartado de **ratios y agrupamientos** aplicable al tramo 0-3.
+  - **Rutas internas:** `02_normativa/canarias/resoluciones/NOR-049-resolucion-iof-infantil-25-26.md`.
+- **¿Cómo se accede a la FP superior desde el mundo laboral?**
+  - **Norma principal:** Orden de 22 de febrero de 2008 sobre acceso a la formación profesional y enseñanzas deportivas.
+  - **Normas complementarias:** Priorice los apartados de **acceso mediante prueba** y **exenciones por experiencia profesional**; complete con la LOFP si la consulta afecta al sistema actual.
+  - **Rutas internas:** `02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md`, `02_normativa/estatal/leyes-organicas/NOR-007-lofp.md`.
+
+## Accesos Rápidos
+
+- [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt)
+- [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt)
+- [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/)
+- [README del proyecto](https://ateeducacion.github.io/normativa_educativa_canaria/README.md)
+- [Índice raíz](https://ateeducacion.github.io/normativa_educativa_canaria/index.md)
+- [Estado del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/status.yaml)
+- [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
+- [Gobierno del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
+
+## Índices Y Corpus
+
+- [Índice de normativa](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml)
+- [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml)
+- [Índice de fuentes](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml)
+- [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
+- [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml)
+- [Índice de chunks IA](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/chunks.yaml)
+- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos)
+- [Códigos administrativos de áreas y materias](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/codigos-materias-canarias.md)
+- [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa)
+- [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos)
+- [Corpus para IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia)
+
+## Reglas De Uso Para IA
+
+- [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md)
+- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/SKILL.md)
+- [Disciplina de evidencia](https://ateeducacion.github.io/normativa_educativa_canaria/metodologia/disciplina-evidencia.md)
+- [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
+- [Guía de validación](https://ateeducacion.github.io/normativa_educativa_canaria/guias/validacion.md)
+- [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales)

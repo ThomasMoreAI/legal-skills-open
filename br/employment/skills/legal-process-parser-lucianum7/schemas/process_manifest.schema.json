@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lucianum7/AuditorProcessual/schemas/process_manifest.schema.json",
+  "title": "Legal Process Parser process manifest",
+  "type": "object",
+  "required": ["schema_version", "process_id", "processed_at", "source", "coverage"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "process_id": {"type": "string"},
+    "processed_at": {"type": "string"},
+    "mode": {"type": "string"},
+    "task": {"enum": ["ingest", "audit", "analyze", "petition", "deadlines", "evidence"]},
+    "scope_confirmation": {"type": "boolean"},
+    "available_tasks": {"type": "array", "items": {"type": "string"}},
+    "vision_policy": {"enum": ["required", "best_effort", "off"]},
+    "vision_review_path": {"type": ["string", "null"]},
+    "encoding": {
+      "type": "object",
+      "properties": {
+        "input": {"type": "string"},
+        "output": {"enum": ["utf-8", "utf-8-sig"]}
+      },
+      "additionalProperties": true
+    },
+    "ocr_requested": {"type": "boolean"},
+    "image_descriptions_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "vision_mode": {"enum": ["always", "auto", "never"]},
+    "vision_provider": {"type": "string"},
+    "render_dpi": {"type": "integer", "minimum": 1},
+    "source": {
+      "type": "object",
+      "required": ["name", "size_bytes", "sha256", "pages"],
+      "properties": {
+        "name": {"type": "string"},
+        "path": {"type": "string"},
+        "size_bytes": {"type": "integer", "minimum": 0},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "pages": {"type": "integer", "minimum": 0},
+        "preserved_path": {"type": "string"},
+        "extraction_backend": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "confidentiality": {"enum": ["normal", "restricted"]},
+    "coverage": {
+      "type": "object",
+      "required": ["pages_total", "pages_processed", "coverage_percent"],
+      "properties": {
+        "pages_total": {"type": "integer", "minimum": 0},
+        "pages_processed": {"type": "integer", "minimum": 0},
+        "pages_native_text": {"type": "integer", "minimum": 0},
+        "pages_ocr_or_vision": {"type": "integer", "minimum": 0},
+        "pages_partial": {"type": "integer", "minimum": 0},
+        "pages_unreadable": {"type": "integer", "minimum": 0},
+        "failed_pages": {"type": "integer", "minimum": 0},
+        "rendered_pages": {"type": "integer", "minimum": 0},
+        "native_text_checked": {"type": "integer", "minimum": 0},
+        "semantic_vision_required": {"type": "integer", "minimum": 0},
+        "semantic_vision_attempted": {"type": "integer", "minimum": 0},
+        "semantic_vision_completed": {"type": "integer", "minimum": 0},
+        "semantic_vision_unavailable": {"type": "integer", "minimum": 0},
+        "consolidated_pages": {"type": "integer", "minimum": 0},
+        "physical_coverage_complete": {"type": "boolean"},
+        "textual_coverage_complete": {"type": "boolean"},
+        "render_coverage_complete": {"type": "boolean"},
+        "semantic_visual_coverage_complete": {"type": "boolean"},
+        "full_conversion_complete": {"type": "boolean"},
+        "conversion_result": {"type": "string"},
+        "coverage_percent": {"type": "number", "minimum": 0, "maximum": 100}
+      },
+      "additionalProperties": true
+    },
+    "pieces": {"type": "array"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "prompt_injection_findings": {"type": "array", "items": {"type": "string"}},
+    "checkpoints": {"type": "array"},
+    "procedural_artifacts": {
+      "type": "object",
+      "properties": {
+        "events": {"type": "integer", "minimum": 0},
+        "deadlines": {"type": "integer", "minimum": 0},
+        "evidence_mentions": {"type": "integer", "minimum": 0},
+        "pending_pages": {"type": "integer", "minimum": 0},
+        "tasks": {"type": "integer", "minimum": 0},
+        "status": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "visual_inventory": {"type": "array", "items": {"$ref": "visual_element.schema.json"}},
+    "visual_coverage": {
+      "type": "object",
+      "properties": {
+        "elements": {"type": "integer", "minimum": 0},
+        "pages": {"type": "integer", "minimum": 0},
+        "reviewed": {"type": "integer", "minimum": 0},
+        "pending": {"type": "integer", "minimum": 0},
+        "semantic_required": {"type": "integer", "minimum": 0},
+        "semantic_completed": {"type": "integer", "minimum": 0},
+        "semantic_unavailable": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "generated_files": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

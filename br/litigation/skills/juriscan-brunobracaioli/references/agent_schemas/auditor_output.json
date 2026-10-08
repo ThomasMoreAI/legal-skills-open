@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/auditor_output.json",
+  "title": "juriscan-auditor-processual output",
+  "description": "Output of the impartial procedural auditor. This is the HIGHEST-VALUE subagent — it catches issues neither advocate has incentive to flag (nullities, art. 942 CPC triggers, OED-worthy omissions, prescription/tempestividade, preclusão). Golden fixture processo_02_sintetico_art942 blocks CI if the auditor fails to detect the art. 942 scenario.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "process_state",
+    "auditor_findings",
+    "checklist_resultado"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "process_state": {
+      "type": "string",
+      "enum": ["ativo", "transito_em_julgado", "suspenso", "arquivado", "desconhecido"],
+      "description": "Current procedural state inferred from the pieces. Consumed by prazo_calculator.py in Phase 5."
+    },
+    "process_state_confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "auditor_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tipo", "fundamento", "impacto", "descricao", "acao_sugerida"],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "NULIDADE",
+              "OMISSAO",
+              "TEMPESTIVIDADE",
+              "RECALCULO_NECESSARIO",
+              "PRECLUSAO",
+              "INCOMPETENCIA",
+              "CITACAO_IRREGULAR",
+              "OUTRO"
+            ]
+          },
+          "fundamento": {
+            "type": "string",
+            "description": "Legal basis, e.g. 'CPC art. 942' or 'Lei 14.905/2024 art. 3'."
+          },
+          "impacto": {
+            "type": "string",
+            "enum": ["ALTO", "MÉDIO", "BAIXO"]
+          },
+          "peca_ref": {
+            "type": "string",
+            "description": "chunk_id or piece label of the primary piece affected."
+          },
+          "pecas_relacionadas": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "descricao": {
+            "type": "string",
+            "minLength": 20,
+            "description": "Factual description of what was found."
+          },
+          "acao_sugerida": {
+            "type": "string",
+            "minLength": 10,
+            "description": "Concrete next step for the practitioner (e.g. 'Oponer embargos de declaração no prazo de 5 dias')."
+          }
+        }
+      }
+    },
+    "checklist_resultado": {
+      "type": "object",
+      "description": "Boolean flags + short justification for each of the mandatory checklist items. The auditor MUST respond to every item explicitly (true/false, never null).",
+      "additionalProperties": false,
+      "required": [
+        "art_942_cpc_triggered",
+        "lei_14905_2024_applicable",
+        "honorarios_post_reform_omission",
+        "tempestividade_all_pieces_ok",
+        "citacao_ok",
+        "preclusao_detected"
+      ],
+      "properties": {
+        "art_942_cpc_triggered": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        },
+        "lei_14905_2024_applicable": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        },
+        "honorarios_post_reform_omission": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        },
+        "tempestividade_all_pieces_ok": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        },
+        "citacao_ok": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        },
+        "preclusao_detected": {
+          "type": "object",
+          "required": ["value", "justificativa"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "justificativa": { "type": "string", "minLength": 10 }
+          }
+        }
+      }
+    },
+    "observacoes": { "type": "string" }
+  }
+}

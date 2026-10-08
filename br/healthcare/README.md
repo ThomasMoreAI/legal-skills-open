@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): healthcare a
 
 Jurisdiction: `br` · Practice: `healthcare` · Skill language: pt
 
-## Skills (5)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
+| [`RELATÓRIO DE ANÁLISE DE ERRO MÉDICO`](skills/analisador-erro-medico-georgemarmelstein/) | Use when analyzing medical cases for malpractice identification, evaluating physician conduct, assessing… |
 | [`/health-medical-legal:clinic-privacy-implementation`](skills/clinic-privacy-implementation-bossmann007/) | Estruturação de Plano de Privacidade e Proteção de Dados Pessoais em saúde para clínica/hospital. Sob… |
 | [`/health-medical-legal:cold-start-interview`](skills/cold-start-interview-health-medical-legal-bossmann007/) | Entrevista de primeira execução que escreve… |
 | [`Controle Regulatório RDC e SUVISA`](skills/controle-regulatorio-rdc-e-suvisa-tiagopgr/) | Criar um sistema de controle dos itens obrigatórios exigidos pela RDC (Resolução da Diretoria Colegiada… |

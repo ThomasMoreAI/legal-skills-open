@@ -1,0 +1,101 @@
+name: Validar corpus
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "01_fuentes/**"
+      - "02_normativa/**"
+      - "03_curriculos/**"
+      - "05_relaciones/**"
+      - "06_indices/**"
+      - "07_corpus_ia/textos-completos/**"
+      - "08_tareas/**"
+      - "schemas/**"
+      - "11_calidad/validar_corpus.py"
+      - "11_calidad/validar_akoma_ntoso.py"
+      - "11_calidad/xsd/**"
+      - "11_calidad/generar_inventario.py"
+      - "11_calidad/generar_interoperabilidad.py"
+      - "README.md"
+      - "llms.txt"
+      - "docs/datos/inventario.json"
+      - "docs/datos/catalogo.jsonld"
+      - "docs/datos/legislacion.jsonld"
+      - "docs/datos/curriculos.jsonld"
+      - "docs/datos/fuentes.jsonld"
+      - "docs/datos/akoma-ntoso/**"
+      - "11_calidad/akoma_ntoso_pilotos.yaml"
+      - "docs/index.html"
+      - ".github/workflows/validar-corpus.yml"
+  pull_request:
+    paths:
+      - "01_fuentes/**"
+      - "02_normativa/**"
+      - "03_curriculos/**"
+      - "05_relaciones/**"
+      - "06_indices/**"
+      - "07_corpus_ia/textos-completos/**"
+      - "08_tareas/**"
+      - "schemas/**"
+      - "11_calidad/validar_corpus.py"
+      - "11_calidad/validar_akoma_ntoso.py"
+      - "11_calidad/xsd/**"
+      - "11_calidad/generar_inventario.py"
+      - "11_calidad/generar_interoperabilidad.py"
+      - "README.md"
+      - "llms.txt"
+      - "docs/datos/inventario.json"
+      - "docs/datos/catalogo.jsonld"
+      - "docs/datos/legislacion.jsonld"
+      - "docs/datos/curriculos.jsonld"
+      - "docs/datos/fuentes.jsonld"
+      - "docs/datos/akoma-ntoso/**"
+      - "11_calidad/akoma_ntoso_pilotos.yaml"
+      - "docs/index.html"
+      - ".github/workflows/validar-corpus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Esquemas e índices
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Preparar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install --quiet pyyaml jsonschema
+
+      - name: Validar corpus contra schemas/ e índices
+        run: python3 11_calidad/validar_corpus.py
+
+      - name: Comprobar inventario público generado
+        run: python3 11_calidad/generar_inventario.py --check
+
+      - name: Comprobar exportaciones interoperables
+        run: python3 11_calidad/generar_interoperabilidad.py --check
+
+      - name: Validar pilotos Akoma Ntoso contra el XSD oficial
+        run: |
+          command -v xmllint >/dev/null || sudo apt-get update -qq && sudo apt-get install -qq -y libxml2-utils
+          python3 11_calidad/validar_akoma_ntoso.py
+
+      - name: Resumen para el informe de ejecución
+        if: always()
+        run: |
+          {
+            echo '## Validación del corpus'
+            echo
+            echo '```'
+            python3 11_calidad/validar_corpus.py --sin-avisos || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

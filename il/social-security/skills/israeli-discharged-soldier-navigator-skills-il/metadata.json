@@ -1,0 +1,93 @@
+{
+  "author": "skills-il",
+  "version": "1.5.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "חייל-משוחרר",
+      "פיקדון-אישי",
+      "מענק-שחרור",
+      "האגף-לחיילים-משוחררים",
+      "נקודות-זיכוי",
+      "חרבות-ברזל",
+      "ממדים-ללימודים",
+      "סעיף-39א",
+      "חוק-קליטת-חיילים-משוחררים",
+      "טופס-101",
+      "משרד-הביטחון",
+      "ישראל"
+    ],
+    "en": [
+      "discharged-soldier",
+      "hayal-meshuchrar",
+      "pikadon",
+      "manak-shichrur",
+      "hachvana",
+      "post-army-benefits",
+      "nekudot-zikui",
+      "iron-swords",
+      "mimadim-lilimudim",
+      "section-39a",
+      "mod",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניווט זכויות לחיילים משוחררים",
+    "en": "Israeli Discharged Soldier Navigator"
+  },
+  "display_description": {
+    "he": "אינו החלטה של האגף לחיילים משוחררים ואינו קובע זכאות. מדריך מקיף לזכויות חייל משוחרר (חובה, מג\"ב, משטרה, שב\"ס, או שירות לאומי-אזרחי) מהאגף לחיילים משוחררים במשרד הביטחון (hachvana.mod.gov.il). מחשב את סכום הפיקדון האישי לפי סוג שירות (לוחם, תומך לחימה, אחר), מסביר את הפער בין 14 ימי הפיקדון ל-60 ימי מענק השחרור, בודק האם משיכה מתוכננת מתאימה ל-6 המטרות החוקיות עד 5 שנים (לימודים אקדמיים, הכשרה מקצועית, לימודי נהיגה, הקמת עסק, נישואין, רכישת דירה, שכירות לא נכללת), מדריך לבקש נקודות זיכוי לפי סעיף 39א דרך טופס 101 וטופס 135 רטרואקטיבי, ומכסה את הטבות חרבות ברזל ללוחמים ששוחררו מאוקטובר 2023 והלאה (חוק שכר לימוד מלא של הכנסת). מתאים כשחייל משוחרר, הורה או מסיים שירות לאומי שואל על פיקדון, מענק שחרור, מה מגיע לי אחרי הצבא, נקודות זיכוי לחייל משוחרר, או אוניברסיטה חינם ללוחמים. לא מתאים למילואים (השתמשו ב-israeli-miluim-manager), חיילים בודדים, מלגות מעבר לממדים, פוסט-טראומה, או משכנתאות.",
+    "en": "Not a decision of the Department for Discharged Soldiers and does not determine eligibility. Navigate post-discharge benefits for IDF, MAGAV, Police, SHABAS, and Sherut Leumi-Ezrachi members via the MoD Department for Discharged Soldiers (hachvana.mod.gov.il). Computes the Pikadon by service tier (lochem, tomech lechima, acher), explains the 14-day deposit vs 60-day manak shichrur timelines, validates withdrawals against the 6 statutory pre-5y purposes (academic studies, vocational training, driving lessons, business, marriage, apartment purchase, rental NOT included), walks Section 39a nekudot zikui via Tofes 101 + Tofes 135 retroactive refund, and covers Iron Swords expanded benefits for combat veterans discharged October 2023+ including the Knesset full-tuition law. Use when a hayal meshuchrar, parent, or SLE completer asks about pikadon, manak shichrur, post-army benefits, nekudot zikui chayal meshuchrar, or free university for combat veterans. Do NOT use for miluim, lone soldiers, scholarships beyond Mimadim, PTSD, or mortgages, route to dedicated skills."
+  },
+  "supported_agents": [
+    "claude-code",
+    "claude-desktop",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "gemini-cli"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.hachvana.mod.gov.il/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/default.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/IronSwords/Pages/sword.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/פיקדון_אישי_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לחיילים_משוחררים_ומסיימי_שירות_לאומי-אזרחי",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/150_023.htm",
+      "type": "statute",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

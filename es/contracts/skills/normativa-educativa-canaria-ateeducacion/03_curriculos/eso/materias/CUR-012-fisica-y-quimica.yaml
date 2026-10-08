@@ -1,0 +1,124 @@
+id: CUR-012
+titulo: "Física y Química — ESO Canarias"
+etapa: "eso"
+materia: "Física y Química"
+ambito: null
+cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno."
+      enunciado_oficial: "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana."
+      descriptores:
+        "2.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
+        "3.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
+        "4.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
+    - codigo: "C2"
+      enunciado_resumido: "Expresar observaciones, formular hipótesis y demostrarlas mediante la experimentación científica."
+      enunciado_oficial: "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y demostrando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas."
+      descriptores:
+        "2.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
+        "3.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
+        "4.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
+    - codigo: "C3"
+      enunciado_resumido: "Manejar las reglas y normas básicas de la física y la química."
+      enunciado_oficial: "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas."
+      descriptores:
+        "2.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
+        "3.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
+        "4.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
+    - codigo: "C4"
+      enunciado_resumido: "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados."
+      enunciado_oficial: "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social, mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje."
+      descriptores:
+        "2.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
+        "3.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
+        "4.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
+    - codigo: "C5"
+      enunciado_resumido: "Utilizar las estrategias propias del trabajo colaborativo."
+      enunciado_oficial: "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medioambiente."
+      descriptores:
+        "2.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
+        "3.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
+        "4.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
+    - codigo: "C6"
+      enunciado_resumido: "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución."
+      enunciado_oficial: "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
+      descriptores:
+        "?": [STEM2, STEM5, CD4, CPSAA1, CPSAA4, CC4, CCEC1]
+  criterios_evaluacion:
+    - curso: "2.º ESO"
+      criterios:
+        - "1.1. Identificar los fenómenos fisicoquímicos cotidianos propuestos a partir de los principios, las teorías y las leyes científicas y expresar razonadamente sus conclusiones en diversos soportes y medios de comunicación, para comprender a través de la ciencia lo que ocurre a su alrededor."
+        - "1.2. Resolver problemas fisicoquímicos en situaciones planteadas mediante las leyes y las teorías científicas aportadas, analizando la validez de los resultados y su adecuada expresión, para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana."
+        - "2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones cotidianas planteadas mediante la experimentación, la indagación, la deducción y la búsqueda de evidencias procedente de diversas fuentes, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental, para adquirir las destrezas científicas necesarias."
+        - "2.2. Seleccionar o desarrollar los procedimientos experimentales que permitan comprobar o refutar las hipótesis formuladas, de acuerdo con la naturaleza de las cuestiones que se traten y el conocimiento científico adquirido, aplicando las leyes y teorías científicas conocidas para obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada."
+        - "3.1. Examinar, contrastar y comunicar datos e información en el formato solicitado relativos a un proceso fisicoquímico concreto, extrayendo en cada caso lo más relevante, con el apoyo de determinadas herramientas digitales y fuentes concretas, fiables y seguras, para la resolución de problemas de su entorno."
+        - "3.2. Utilizar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades y las herramientas matemáticas necesarias, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias."
+        - "3.3. Establecer y respetar las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones."
+        - "4.1. Utilizar de forma segura recursos variados, tradicionales y digitales, trabajando el aprendizaje autónomo, en equipo y la interacción respetuosa con otros miembros de la comunidad educativa, contrastando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y practicar una ciudadanía cívica y reflexiva."
+        - "4.2. Trabajar con los medios propuestos, tradicionales y digitales, en la consulta de información y la creación de contenidos, usando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo."
+        - "5.1. Emplear interacciones constructivas y coeducativas, practicando actividades de cooperación, en aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia."
+        - "5.2. Observar situaciones problemáticas reales, locales o globales, y emprender, de forma guiada, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, explicando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad."
+        - "6.1. Percibir la ciencia como un proceso en construcción, así como reconocer sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, para adoptar un estilo de vida sostenible y responsable."
+        - "6.2. Identificar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales básicas que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía."
+    - curso: "3.º ESO"
+      criterios:
+        - "1.1. Identificar y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, las teorías y las leyes científicas y expresar sus conclusiones en diversos soportes y medios de comunicación, empleando la argumentación para comprender a través de la ciencia lo que ocurre a su alrededor."
+        - "1.2. Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las teorías científicas, seleccionando las estrategias de resolución, razonando los procedimientos utilizados, analizando la validez de los resultados y su adecuada expresión, y reformulando el procedimiento si fuera necesario, para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana."
+        - "2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones mediante la experimentación, la indagación, la deducción, la búsqueda de evidencias procedente de diversas fuentes y el razonamiento lógico-matemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental, para mejorar sus destrezas científicas."
+        - "2.2. Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento científico existente, aplicando las leyes y teorías científicas conocidas, para comprobar o presentar soluciones que creen valor en el ámbito personal, social, cultural y económico."
+        - "3.1. Seleccionar, interpretar y comunicar datos e información en diferentes formatos relativos a un proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y desechando lo irrelevante, con el apoyo de determinadas herramientas digitales y diferentes fuentes fiables y seguras, para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas de su entorno."
+        - "3.2. Aplicar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura básicas, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias."
+        - "3.3. Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones."
+        - "4.1. Elegir y utilizar de forma segura recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa, analizando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva."
+        - "4.2. Trabajar con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, empleando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez, calidad y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo."
+        - "5.1. Establecer interacciones constructivas y coeducativas, desarrollando actividades de cooperación, en aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia."
+        - "5.2. Describir situaciones problemáticas reales, locales o globales, y emprender, de forma guiada, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, razonando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad."
+        - "6.1. Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, para adoptar un estilo de vida sostenible y responsable sopesando los riesgos y los beneficios de las aplicaciones directas derivadas de los avances científicos."
+        - "6.2. Detectar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía."
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. Interpretar los fenómenos fisicoquímicos cotidianos, explicarlos en términos de los principios, las teorías y las leyes científicas y expresar sus conclusiones en diversos soportes y medios de comunicación, empleando la argumentación, para comprender a través de la ciencia lo que ocurre a su alrededor."
+        - "1.2. Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las teorías científicas, seleccionando las estrategias de resolución, razonando los procedimientos utilizados, analizando la coherencia de los resultados, expresándolos con corrección y precisión y reformulando el procedimiento si fuera necesario para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana."
+        - "2.1. Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos científicos a partir de situaciones conocidas tanto observadas en el mundo natural como planteadas a través de enunciados con información textual, gráfica o numérica, mediante la experimentación real o mediante simulación con modelos digitales, la indagación, la deducción, la búsqueda de evidencias procedente de diversas fuentes y el razonamiento lógico-matemático, para mejorar sus destrezas científicas."
+        - "2.2. Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento científico existente, aplicando las leyes y teorías científicas, y el razonamiento lógico-matemático en su proceso de validación, analizando los resultados y reformulando el procedimiento si fuera necesario, para presentar soluciones que creen valor en el ámbito personal, social, cultural y económico."
+        - "3.1. Seleccionar, organizar, interpretar, producir y comunicar datos e información en diversos formatos relativa a un proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y desechando lo irrelevante, con el apoyo de diversas herramientas digitales y fuentes fiables y seguras, para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas."
+        - "3.2. Aplicar e interpretar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias."
+        - "3.3. Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones."
+        - "4.1. Seleccionar y utilizar de forma eficiente y segura recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa, valorando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva."
+        - "4.2. Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez, calidad, actualidad y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo."
+        - "5.1. Establecer y desarrollar interacciones constructivas y coeducativas, emprendiendo actividades de cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, en el aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia."
+        - "5.2. Detectar y describir situaciones problemáticas reales, locales o globales, y emprender, de forma autónoma, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, analizando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad."
+        - "6.1. Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por mujeres y hombres, del conocimiento de las instituciones científicas internacionales, nacionales y canarias, sus líneas de investigación y las personas que en ellas trabajan, para adoptar un estilo de vida sostenible y responsable."
+        - "6.2. Detectar las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía."
+  saberes_basicos:
+    - bloque: "Bloque I — Las destrezas científicas básicas"
+      cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Empleo de metodologías de la investigación científica; trabajo experimental y proyectos de investigación; uso de laboratorio y entornos virtuales; normas de uso de espacios científicos; lenguaje científico universal (Sistema Internacional, herramientas matemáticas, nomenclatura IUPAC); valoración de la cultura científica y del papel de científicos y científicas, con atención al patrimonio científico canario."
+    - bloque: "Bloque II — La materia"
+      cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Teoría cinético-molecular, estados de agregación y mezclas (2.º); estructura atómica, partículas subatómicas y tabla periódica; nomenclatura inorgánica (composición/IUPAC); en 4.º se incorpora la configuración electrónica, los enlaces iónico, covalente y metálico, los moles y la nomenclatura orgánica básica."
+    - bloque: "Bloque III — El cambio"
+      cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Diferenciación entre cambios físicos y químicos; reacciones químicas, ecuaciones, ley de conservación de la masa, cinética química; en 4.º estequiometría con reactivo limitante, tipos de reacciones (síntesis, combustión, neutralización, electroquímicos) y teoría de colisiones."
+    - bloque: "Bloque IV — La interacción"
+      cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Magnitudes del movimiento, fuerzas y deformaciones, fenómenos eléctricos, magnéticos y gravitatorios (2.º); cinemática y dinámica con leyes de Newton (3.º); en 4.º cinemática avanzada, álgebra vectorial de fuerzas, gravitación universal (con valoración del IAC) y fluidos."
+    - bloque: "Bloque V — La energía"
+      cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Concepto de energía, transformaciones, calor y temperatura, fuentes renovables y no renovables (2.º); energía eléctrica y ahorro energético en Canarias (3.º); en 4.º conservación de la energía mecánica, trabajo y calor, ondas (luz y sonido) y consumo energético responsable."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "CP3", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CC1", "CC3", "CC4", "CE1", "CE2", "CE3", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Física y Química en ESO Canarias regulado por el Decreto 30/2023. Materia común en 2.º y 3.º ESO (art. 23.1.d) y disponible en 4.º ESO (art. 24). Seis competencias específicas (C1-C6) y trece criterios de evaluación por curso. Saberes organizados en cinco bloques: «Las destrezas científicas básicas», «La materia», «El cambio», «La interacción» y «La energía», con progresión de profundidad entre 2.º y 4.º ESO e integración de saberes específicos canarios (IAC, ITER, IUBO, IPNA-CSIC, energía y geología insulares)."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Fisica_quimica_ESO.pdf publicado por la Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias. Se han incorporado los enunciados literales de las competencias específicas, los criterios de evaluación de 2.º, 3.º y 4.º de ESO con su vinculación a los descriptores del Perfil de salida y la organización de los saberes básicos por bloques."

@@ -1,0 +1,630 @@
+CUR-001:
+  titulo: "Biología y Geología — ESO Canarias"
+  etapa: "eso"
+  materia: "Biología y Geología"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 tras cotejo con el BOC (Decreto 30/2023). Se han incorporado enunciados literales, criterios de evaluación por curso y vinculación con descriptores operativos."
+
+CUR-002:
+  titulo: "Cultura Clásica — ESO Canarias"
+  etapa: "eso"
+  materia: "Cultura Clásica"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-002-cultura-clasica.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 tras cotejo con el BOC (Decreto 30/2023). Se han incorporado cinco competencias específicas, doce criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Ver TAREA-019."
+
+CUR-003:
+  titulo: "Cultura y Ciudadanía Digital — ESO Canarias"
+  etapa: "eso"
+  materia: "Cultura y Ciudadanía Digital"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye seis competencias específicas, quince criterios de evaluación, descriptores operativos y síntesis de los seis bloques de saberes básicos. Materia optativa de 3.º ESO. Ver TAREA-023."
+
+CUR-004:
+  titulo: "Digitalización — ESO Canarias"
+  etapa: "eso"
+  materia: "Digitalización"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-004-digitalizacion.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-004-digitalizacion.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye cuatro competencias específicas, catorce criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Materia opcional de 4.º ESO. Ver TAREA-023."
+
+CUR-005:
+  titulo: "Economía Personal y Social — ESO Canarias"
+  etapa: "eso"
+  materia: "Economía Personal y Social"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye tres competencias específicas, nueve criterios de evaluación, descriptores operativos y síntesis de los tres bloques de saberes básicos. Materia optativa de 3.º ESO. Ver TAREA-023."
+
+CUR-006:
+  titulo: "Economía y Emprendimiento — ESO Canarias"
+  etapa: "eso"
+  materia: "Economía y Emprendimiento"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye siete competencias específicas, diecisiete criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Materia obligatoria de la Opción C en 4.º ESO. Ver TAREA-023."
+
+CUR-007:
+  titulo: "Educación en Valores Cívicos y Éticos — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación en Valores Cívicos y Éticos"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º ESO con cuatro competencias específicas y siete criterios de evaluación. Ver TAREA-024."
+
+CUR-008:
+  titulo: "Educación Física — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación Física"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-008-educacion-fisica.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º a 4.º ESO con cinco competencias específicas (acrónimo «sONrisas») y seis bloques de saberes que integran la cultura motriz canaria. Ver TAREA-024."
+
+CUR-009:
+  titulo: "Educación Plástica, Visual y Audiovisual — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación Plástica, Visual y Audiovisual"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º, 2.º y 3.º ESO con ocho competencias específicas y cuatro bloques de saberes que integran a artistas canarios (Cristino de Vera, José Aguiar, César Manrique, Maribel Nazco, Pedro González, Martín Chirino, etc.). Ver TAREA-024."
+
+CUR-010:
+  titulo: "Expresión Artística — ESO Canarias"
+  etapa: "eso"
+  materia: "Expresión Artística"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-010-expresion-artistica.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia optativa de 4.º ESO con cuatro competencias específicas, nueve criterios de evaluación y dos bloques de saberes; profundiza los aprendizajes de CUR-009 e integra el patrimonio canario (César Manrique, Manolo Blahnik). Ver TAREA-024."
+
+CUR-011:
+  titulo: "Filosofía — ESO Canarias"
+  etapa: "eso"
+  materia: "Filosofía"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-011-filosofia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-011-filosofia.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Filosofia_ESO.pdf publicado por la Consejería de Educación. Tres competencias específicas, cinco criterios de evaluación y tres bloques de saberes. Materia optativa de 4.º ESO (art. 25.5 Decreto 30/2023). Ver TAREA-028."
+
+CUR-012:
+  titulo: "Física y Química — ESO Canarias"
+  etapa: "eso"
+  materia: "Física y Química"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Fisica_quimica_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas, trece criterios de evaluación por curso (2.º, 3.º y 4.º ESO) y cinco bloques de saberes con integración de saberes científicos canarios (IAC, ITER, IUBO, IPNA-CSIC). Ver TAREA-028."
+
+CUR-013:
+  titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
+  etapa: "eso"
+  materia: "Formación y Orientación Personal y Profesional"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Formacion_orientacion_personal_profesional_ESO.pdf publicado por la Consejería de Educación. Cinco competencias específicas, catorce criterios de evaluación y tres bloques de saberes. Materia del elenco del artículo 25 de 4.º ESO. Ver TAREA-028."
+
+CUR-014:
+  titulo: "Geografía e Historia — ESO Canarias"
+  etapa: "eso"
+  materia: "Geografía e Historia"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Geografia_historia_ESO.pdf publicado por la Consejería de Educación. Nueve competencias específicas (C1-C9) en 1.º-3.º y siete en 4.º ESO; criterios de evaluación de 1.º ESO literales y de 2.º-4.º sintetizados por competencia; tres bloques de saberes con tratamiento específico canario por curso. Materia común en 1.º-3.º ESO (art. 23.1.e) y obligatoria en 4.º (art. 24). Ver TAREA-028."
+
+CUR-015:
+  titulo: "Historia y Geografía de Canarias — ESO Canarias"
+  etapa: "eso"
+  materia: "Historia y Geografía de Canarias"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
+  estado_extraccion: completado
+  observaciones: "Materia propia canaria de 3.º ESO (artículo 23.5 del Decreto 30/2023). 6 CE literales, 25 criterios de evaluación y 3 bloques de saberes básicos extraídos del PDF oficial (Historia_geografia_de_Canarias_ESO.pdf). Ver TAREA-029."
+
+CUR-016:
+  titulo: "Latín — ESO Canarias"
+  etapa: "eso"
+  materia: "Latín"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
+  estado_extraccion: completado
+  observaciones: "Materia optativa de 4.º ESO (artículo 25.2.g del Decreto 30/2023, opción D). 5 CE literales, 14 criterios de evaluación y 4 bloques de saberes básicos extraídos del PDF oficial (Latin_ESO.pdf). Ver TAREA-029."
+
+CUR-017:
+  titulo: "Lengua Castellana y Literatura — ESO Canarias"
+  etapa: "eso"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
+  estado_extraccion: completado
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). CE C1-C10 literales, criterios de 1.º-4.º ESO completos (19 criterios por curso: 1.1-10.2) y saberes básicos de los cuatro bloques extraídos literalmente. Notas: 'preoncebidas' (crit. 1.2 de 3.º y 4.º ESO) y 'guada' (crit. 6.1 de 2.º ESO) son erratas literales del PDF. Ver TAREA-029."
+
+CUR-018:
+  titulo: "Lengua Extranjera — ESO Canarias"
+  etapa: "eso"
+  materia: "Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
+  estado_extraccion: completado
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). CE C1-C6 literales, criterios de 1.º-4.º ESO completos (12 criterios por curso: 1.1-6.1) y 4 bloques de saberes básicos extraídos literalmente. Nota: 'mostendimiento' en crit. 4.1 de 3.º ESO es errata literal del PDF. Ver TAREA-029."
+
+CUR-019:
+  titulo: "Matemáticas — ESO Canarias"
+  etapa: "eso"
+  materia: "Matemáticas"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal completa Decreto 30/2023."
+
+CUR-020:
+  titulo: "Música — ESO Canarias"
+  etapa: "eso"
+  materia: "Música"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-020-musica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-020-musica.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Musica_ESO.pdf publicado por la Consejería de Educación. Cuatro competencias específicas (C1-C4) con descriptores del Perfil de salida; criterios de evaluación literales para 1.º (6), 2.º (7) y 3.º ESO (7). Saberes básicos en tres bloques: escucha y percepción, interpretación-improvisación-creación escénica y contextos y culturas, con tratamiento del patrimonio canario y perspectiva de género. Ver TAREA-030."
+
+CUR-021:
+  titulo: "Segunda Lengua Extranjera — ESO Canarias"
+  etapa: "eso"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal completa Decreto 30/2023."
+
+CUR-022:
+  titulo: "Tecnología — ESO Canarias"
+  etapa: "eso"
+  materia: "Tecnología"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-022-tecnologia.md"
+  estado_extraccion: completado
+  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Tecnologia_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas (C1-C6) con descriptores del Perfil de salida y trece criterios de evaluación literales para 4.º ESO. Saberes básicos en cuatro bloques: proceso de resolución de problemas, operadores tecnológicos, pensamiento computacional/automatización/robótica y tecnología sostenible (con atención a la fragmentación territorial canaria, arquitectura bioclimática y ecotransporte). Ver TAREA-030."
+
+CUR-023:
+  titulo: "Tecnología y Digitalización — ESO Canarias"
+  etapa: "eso"
+  materia: "Tecnología y Digitalización"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal completa Decreto 30/2023."
+
+CUR-024:
+  titulo: "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Conocimiento del Medio Natural, Social y Cultural"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.md"
+  estado_extraccion: completado
+  observaciones: "Nueva catalogación 2026-04-26."
+
+CUR-025:
+  titulo: "Educación Artística — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Artística"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.md"
+  estado_extraccion: completado
+  observaciones: "Incluye Plástica y Música."
+
+CUR-026:
+  titulo: "Educación Física — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Física"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.md"
+  estado_extraccion: completado
+
+CUR-027:
+  titulo: "Lengua Castellana y Literatura — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.md"
+  estado_extraccion: completado
+
+CUR-028:
+  titulo: "Lengua Extranjera — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Lengua Extranjera"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.md"
+  estado_extraccion: completado
+
+CUR-029:
+  titulo: "Matemáticas — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Matemáticas"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-029-matematicas.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-029-matematicas.md"
+  estado_extraccion: completado
+
+CUR-030:
+  titulo: "Educación Emocional y para la Creatividad — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Emocional y para la Creatividad"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.md"
+  estado_extraccion: completado
+  observaciones: "Materia específica de Canarias."
+
+CUR-031:
+  titulo: "Educación en Valores Cívicos y Éticos — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación en Valores Cívicos y Éticos"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-031-valores-civicos.md"
+  estado_extraccion: completado
+  observaciones: "Impartida en Tercer Ciclo."
+
+CUR-032:
+  titulo: "Segunda Lengua Extranjera — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.md"
+  estado_extraccion: completado
+
+CUR-033:
+  titulo: "Religión Católica — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Religión Católica"
+  norma_base: NOR-072
+  fuente: FTE-079
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
+  estado_extraccion: completado
+
+CUR-034:
+  titulo: "Crecimiento en Armonía — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Crecimiento en Armonía"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal Decreto 196/2022."
+
+CUR-035:
+  titulo: "Descubrimiento y Exploración del Entorno — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Descubrimiento y Exploración del Entorno"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal Decreto 196/2022."
+
+CUR-036:
+  titulo: "Comunicación y Representación de la Realidad — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Comunicación y Representación de la Realidad"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.md"
+  estado_extraccion: completado
+  observaciones: "Extracción literal Decreto 196/2022."
+
+# --- BACHILLERATO ---
+
+CUR-037:
+  titulo: "Educación Física — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Educación Física"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md"
+  estado_extraccion: completado
+
+CUR-038:
+  titulo: "Filosofía — 1.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Filosofía"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-038-filosofia.md"
+  estado_extraccion: completado
+
+CUR-039:
+  titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Historia de la Filosofía"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md"
+  estado_extraccion: completado
+
+CUR-040:
+  titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md"
+  estado_extraccion: completado
+
+CUR-041:
+  titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md"
+  estado_extraccion: completado
+
+CUR-042:
+  titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
+  etapa: "bachillerato"
+  materia: "Matemáticas"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md"
+  estado_extraccion: completado
+
+CUR-043:
+  titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
+  etapa: "bachillerato"
+  materia: "Matemáticas Aplicadas a las CCSS"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md"
+  estado_extraccion: completado
+
+CUR-044:
+  titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
+  etapa: "bachillerato"
+  materia: "Latín"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-044-latin.md"
+  estado_extraccion: completado
+
+CUR-045:
+  titulo: "Historia de España — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Historia de España"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
+  estado_extraccion: completado
+
+CUR-046:
+  titulo: "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Sanidad"
+  grado: "gm"
+  materia: "Cuidados Auxiliares de Enfermería"
+  norma_base: NOR-051
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
+  estado_extraccion: completado
+  observaciones: "Capacidades terminales y criterios de evaluacion extraidos el 2026-04-26 de RD 546/1995 (BOE-A-1995-13533). Ciclo LOGSE: usa capacidades terminales en lugar de RAs LOE. 8 modulos, 1.400 h. TAREA-052 completada."
+
+CUR-047:
+  titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Sanidad"
+  grado: "gs"
+  materia: "Imagen para el Diagnóstico y Medicina Nuclear"
+  norma_base: NOR-052
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml"
+  estado_extraccion: completado
+  observaciones: "14 módulos con RAs y CEs completos extraídos de BOE-A-2014-10067 en TAREA-048 (2026-04-26). RD 770/2014 verificado. Ver PREG-005 (resuelta)."
+
+CUR-048:
+  titulo: "Técnico en Gestión Administrativa — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Administración y Gestión"
+  grado: "gm"
+  materia: "Gestión Administrativa"
+  norma_base: NOR-053
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-048-gestion-administrativa.yaml"
+  estado_extraccion: completado
+  observaciones: "12 módulos con RAs y CEs completos extraídos de BOE-A-2009-19148 en TAREA-044 (2026-04-26)."
+
+CUR-049:
+  titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Administración y Gestión"
+  grado: "gs"
+  materia: "Administración y Finanzas"
+  norma_base: NOR-054
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml"
+  estado_extraccion: completado
+  observaciones: "14 módulos. RAs y CEs completos para todos los módulos (0647-0651, 0179, 0652-0658, 0660). Extracción completada el 2026-04-26 desde /tmp/boe_1584_2011.txt (RD 1584/2011)."
+
+CUR-050:
+  titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "gs"
+  materia: "Desarrollo de Aplicaciones Multiplataforma"
+  norma_base: NOR-055
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml"
+  estado_extraccion: completado
+  observaciones: "CEs completos extraídos en TAREA-045 y TAREA-050 (2026-04-26) desde BOE-A-2010-8067 (RD 450/2010). Todos los módulos 0483-0495 con RAs y CEs completos."
+
+CUR-051:
+  titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "gs"
+  materia: "Desarrollo de Aplicaciones Web"
+  norma_base: NOR-056
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml"
+  estado_extraccion: completado
+  observaciones: "CEs extraídos en TAREA-045 (2026-04-26) para módulos 0483, 0484, 0485, 0373, 0487, 0612, 0613 (RAs 1-7) desde HTML oficial BOE-A-2010-9269. Módulos 0614-0619 y 0613-RA8 con CEs [PENDIENTE] por truncamiento del documento HTML."
+
+CUR-052:
+  titulo: "Técnico Superior en Educación Infantil — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "gs"
+  materia: "Educación Infantil"
+  norma_base: NOR-057
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-052-educacion-infantil.yaml"
+  estado_extraccion: completado
+  observaciones: "Extracción completada en TAREA-041 (2026-04-26). 13 módulos profesionales, 71 resultados de aprendizaje y 619 criterios de evaluación extraídos del Anexo I del RD 1394/2007 (BOE-A-2007-20201). Modificado por RD 498/2024."
+
+CUR-053:
+  titulo: "Técnico Superior en Integración Social — FP Canarias"
+  etapa: "formacion-profesional"
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "gs"
+  materia: "Integración Social"
+  norma_base: NOR-058
+  norma_actualizacion: NOR-058
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
+  estado_extraccion: completado
+  observaciones: "TAREA-051 (2026-04-26): completados 5 módulos comunes con códigos, horas y RAs/CEs verificados en BOE-A-2012-10866: 0020 Primeros auxilios (35h, 4 RAs), 0345 Proyecto integración social (25h, 4 RAs), 0346 FOL (50h, 7 RAs), 0347 EIE (35h, 4 RAs), 0348 FCT (220h, 6 RAs). Total 12 módulos, extracción completa."
+
+# --- BACHILLERATO (OPTATIVAS) ---
+
+CUR-054:
+  titulo: "Segunda Lengua Extranjera I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.md"
+  estado_extraccion: completado
+
+CUR-055:
+  titulo: "Historia de Canarias — 1.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Historia de Canarias"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.md"
+  estado_extraccion: completado
+
+CUR-056:
+  titulo: "Psicología — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Psicología"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-056-psicologia.md"
+  estado_extraccion: completado
+
+CUR-057:
+  titulo: "Literatura Canaria — 2.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Literatura Canaria"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md"
+  estado_extraccion: completado
+
+CUR-058:
+  titulo: "Cultura Científica — 1.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Cultura Científica"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.md"
+  estado_extraccion: completado

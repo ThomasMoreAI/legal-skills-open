@@ -1,0 +1,14 @@
+{
+  "name": "lb-family",
+  "displayName": "Family Law — LB",
+  "version": "0.1.0",
+  "description": "Family Law skills for LB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "lb",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/kb-family-law-lb-personal-status-sboghossian"
+  ]
+}

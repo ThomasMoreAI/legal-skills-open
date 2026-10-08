@@ -1,0 +1,11 @@
+id: REL-062
+tipo_relacion: "modifica"
+origen: NOR-076
+destino: NOR-025
+descripcion: "La Orden de 9 de octubre de 2013 modifica el inciso final del artículo 24.2 de la Orden de 13 de diciembre de 2010, que regula la atención al alumnado con necesidades específicas de apoyo educativo."
+evidencia:
+  fuente: FTE-083
+  localizacion: "Disposición final segunda de la Orden de 9 de octubre de 2013."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Es una modificación puntual, no una sustitución. NOR-025 sigue vigente: la derogación que REL-048 le atribuía procedía de NOR-050, una norma inexistente (PREG-012)."

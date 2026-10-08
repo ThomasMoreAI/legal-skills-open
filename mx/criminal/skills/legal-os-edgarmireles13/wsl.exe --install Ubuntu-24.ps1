@@ -1,0 +1,1 @@
+wsl.exe --install Ubuntu-24.04

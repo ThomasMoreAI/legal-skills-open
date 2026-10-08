@@ -1,0 +1,57 @@
+name: incapacidad
+display_name: Incapacidad Temporal y Permanente
+description: >
+  Guía completa sobre incapacidad temporal (baja médica) e incapacidad
+  permanente en el sistema de Seguridad Social español: requisitos, cuánto
+  se cobra, quién paga, duración máxima, contingencia común vs. profesional,
+  grados de incapacidad permanente (parcial, total, absoluta, gran invalidez),
+  procedimiento del INSS y EVI, revisión de grado, compatibilidad con trabajo
+  y casos especiales (recaída, baja durante desempleo).
+organization: Instituto Nacional de la Seguridad Social (INSS)
+tags: [seguridad social, incapacidad temporal, baja médica, incapacidad permanente, invalidez, INSS, EVI, mutua, contingencia]
+
+links:
+  website: https://sede.seg-social.gob.es
+  importass: https://importass.seg-social.es
+
+license:
+  data: Información pública de la Seguridad Social
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a datos personales ni
+    realiza trámites. Proporciona una guía completa sobre incapacidad
+    temporal y permanente y redirige a skills específicas (cotizaciones,
+    laboral-nominas, seguridad-social) para detalle complementario.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Incapacidad temporal (IT) — requisitos, cuánto se cobra, quién paga, duración
+    - Diferencia entre contingencia común y contingencia profesional
+    - Partes de baja, confirmación y alta
+    - Quién puede dar el alta médica y cómo recurrir
+    - Incapacidad permanente — grados (parcial, total, absoluta, gran invalidez)
+    - Prestación económica según grado
+    - Procedimiento (INSS, EVI, dictamen, resolución, recursos)
+    - Revisión de grado
+    - Compatibilidad de la pensión de IP con el trabajo
+    - Casos especiales (recaída, baja durante desempleo, baja durante maternidad)
+    - Requisitos de cotización para IT y para IP
+  not_accessible:
+    - Datos personales de prestaciones del usuario
+    - Trámites reales de solicitud (requiere certificado digital/Cl@ve)
+    - Detalle de bases y tipos de cotización (usar skill cotizaciones)
+    - Cómo afecta la baja a la nómina (usar skill laboral-nominas)
+    - Datos estadísticos agregados (usar skill seguridad-social)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

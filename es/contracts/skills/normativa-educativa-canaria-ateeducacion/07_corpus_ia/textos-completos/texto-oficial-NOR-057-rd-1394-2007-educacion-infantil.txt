@@ -1,0 +1,478 @@
+ID interno: NOR-057
+Título oficial: Real Decreto 1394/2007, de 29 de octubre, por el que se establece el título de Técnico Superior en Educación infantil y se fijan sus enseñanzas mínimas
+Fuente oficial: FTE-054
+URL origen: https://www.boe.es/buscar/act.php?id=BOE-A-2007-20201
+Fecha de consulta: 2026-04-26
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el HTML oficial consolidado del BOE.
+---
+BOE-A-2007-20201 Real Decreto 1394/2007, de 29 de octubre, por el que se establece el título de Técnico Superior en Educación infantil y se fijan sus enseñanzas mínimas.
+
+Agencia Estatal Boletín Oficial del Estado
+
+Ir a contenido
+
+Consultar el diario oficial BOE
+
+Idioma actual:
+
+Castellano
+/
+es
+
+Puede seleccionar otro idioma:
+
+es
+/
+Castellano
+
+ca
+/
+Català
+
+gl
+/
+Galego
+
+eu
+/
+Euskara
+
+va
+/
+Valencià
+
+en
+/
+English
+
+fr
+/
+Français
+
+Buscar
+
+Mi BOE
+Desconectado.
+Pulse para acceder al servicio 'Mi BOE'
+
+Menú
+
+Menú
+
+Diarios Oficiales
+
+BOE
+
+BORME
+
+Otros diarios oficiales
+
+Información Jurídica
+
+Todo el Derecho
+
+Biblioteca Jurídica Digital
+
+Otros servicios
+
+Notificaciones
+
+Edictos judiciales
+
+Portal de subastas
+
+Anunciantes
+
+Datos abiertos
+
+Está
+Vd.
+en
+
+Inicio
+
+Buscar
+
+Documento BOE-A-2007-20201
+
+Documento BOE-A-2007-20201
+
+Real Decreto 1394/2007, de 29 de octubre, por el que se establece el título de Técnico Superior en Educación infantil y se fijan sus enseñanzas mínimas.
+
+Publicado en:
+
+«
+BOE
+»
+núm.
+282, de 24 de noviembre de 2007, páginas 48140 a 48177 (38
+págs.
+)
+
+Sección:
+
+I. Disposiciones generales
+
+Departamento:
+
+Ministerio de Educación y Ciencia
+
+Referencia:
+
+BOE-A-2007-20201
+
+Permalink ELI:
+
+https://www.boe.es/eli/es/rd/2007/10/29/1394
+
+Otros formatos:
+
+PDF
+
+XML
+
+Texto
+
+TEXTO ORIGINAL
+
+La Ley Orgánica 2/2006, de 3 de mayo, de Educación, dispone en el artículo 39.6 que el Gobierno, previa consulta a las Comunidades Autónomas, establecerá las titulaciones correspondientes a los estudios de formación profesional, así como los aspectos básicos del currículo de cada una de ellas.
+La Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional, establece en el artículo 10.1 que la Administración General del Estado, de conformidad con lo dispuesto en el artículo 149.1.30.ª y 7.ª de la Constitución, y previa consulta al Consejo General de la Formación Profesional, determinará los títulos y los certificados de profesionalidad, que constituirán las ofertas de formación profesional referidas al Catálogo Nacional de Cualificaciones Profesionales.
+El Real Decreto 1538/2006, de 15 de diciembre, ha establecido la ordenación general de la formación profesional del sistema educativo y, define en el artículo 6 la estructura de los títulos de formación profesional, tomando como base el Catálogo Nacional de Cualificaciones Profesionales, las directrices fijadas por la Unión Europea y otros aspectos de interés social.
+Por otra parte, del mismo modo, concreta en el artículo 7 el perfil profesional de dichos títulos, que incluirá la competencia general, las competencias profesionales, personales y sociales, las cualificaciones y, en su caso, las unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en los títulos, de modo que cada título incorporará, al menos, una cualificación profesional completa, con el fin de lograr que, en efecto, los títulos de formación profesional respondan a las necesidades demandadas por el sistema productivo y a los valores personales y sociales para ejercer una ciudadanía democrática.
+Este marco normativo hace necesario que ahora el Gobierno, previa consulta a las Comunidades Autónomas, establezca cada uno de los títulos que formarán el Catálogo de títulos de la formación profesional del sistema educativo, sus enseñanzas mínimas y aquellos otros aspectos de la ordenación académica que, sin perjuicio de las competencias atribuidas a las Administraciones educativas en esta materia, constituyan los aspectos básicos del currículo que aseguren una formación común y garanticen la validez de los títulos, en cumplimiento con lo dispuesto en el artículo 6. 2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+A estos efectos, procede determinar para cada título su identificación, su perfil profesional, el entorno profesional, la prospectiva del título en el sector o sectores, las enseñanzas del ciclo formativo, la correspondencia de los módulos profesionales con las unidades de competencia para su acreditación, convalidación o exención, los parámetros básicos de contexto formativo para cada módulo profesional; a saber, los espacios, los equipamientos necesarios, las titulaciones y especialidades del profesorado y sus equivalencias a efectos de docencia, de acuerdo con las Comunidades Autónomas, según lo previsto en el artículo 95 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+Asimismo, en cada título también se determinarán los accesos a otros estudios y en su caso, las modalidades y materias de bachillerato que facilitan la conexión con el ciclo formativo de grado superior, las convalidaciones, exenciones y equivalencias, y la información sobre los requisitos necesarios según la legislación vigente para el ejercicio profesional cuando proceda.
+Con el fin de facilitar el reconocimiento de créditos entre los títulos de técnico superior y las enseñanzas conducentes a títulos universitarios y viceversa, en los ciclos formativos de grado superior se establecerá la equivalencia de cada módulo profesional con créditos europeos, ECTS, tal y como se definen en el Real Decreto 1125/2003, de 5 de septiembre, por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional.
+Así, el presente Real Decreto conforme a lo previsto en el Real Decreto 1538/2006, de 15 de diciembre, establece y regula, en los aspectos y elementos básicos antes indicados, el título de formación profesional del sistema educativo de Técnico Superior en Educación Infantil.
+En el proceso de elaboración de este Real Decreto, han sido consultadas las Comunidades Autónomas y han emitido informe el Consejo General de la Formación Profesional, el Consejo Escolar del Estado, y el Ministerio de Administraciones Públicas.
+En su virtud, a propuesta de la Ministra de Educación y Ciencia y previa deliberación del Consejo de Ministros en su reunión del día 26 de octubre de 2007,
+
+D I S P O N G O :
+
+CAPÍTULO I
+
+Disposiciones generales
+
+Artículo 1. Objeto.
+
+1. El presente Real Decreto tiene por objeto el establecimiento del título de Técnico Superior en Educación Infantil, con carácter oficial y validez en todo el territorio nacional, así como de sus correspondientes enseñanzas mínimas.
+
+2. Lo dispuesto en este Real Decreto sustituye a la regulación del título de la misma denominación, contenido en el Real Decreto 2059/1995, de 22 de diciembre.
+
+CAPÍTULO II
+
+Identificación del título, perfil profesional, entorno profesional y prospectiva del título en el sector o sectores
+
+Artículo 2. Identificación.
+
+El título de Técnico Superior en Educación Infantil queda identificado por los siguientes elementos:
+Denominación: Educación Infantil.
+
+Nivel: Formación Profesional de Grado Superior.
+Duración: 2000 horas.
+Familia Profesional: Servicios Socioculturales y a la Comunidad.
+Referente europeo: CINE -5b (Clasificación Internacional Normalizada de la Educación).
+
+Artículo 3. Perfil profesional del título.
+
+El perfil profesional del título de Técnico Superior en Educación Infantil queda determinado por su competencia general, sus competencias profesionales, personales y sociales, por la relación de cualificaciones y, en su caso, unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+
+Artículo 4. Competencia general.
+
+La competencia general de este título consiste en diseñar, implementar y evaluar proyectos y programas educativos de atención a la infancia en el primer ciclo de educación infantil en el ámbito formal, de acuerdo con la propuesta pedagógica elaborada por un Maestro con la especialización en educación infantil o título de grado equivalente, y en toda la etapa en el ámbito no formal, generando entornos seguros y en colaboración con otros profesionales y con las familias.
+
+Artículo 5. Competencias profesionales, personales y sociales.
+
+Las competencias profesionales, personales y sociales de este título son las que se relacionan a continuación:
+a) Programar la intervención educativa y de atención social a la infancia a partir de las directrices del programa de la institución y de las características individuales, del grupo y del contexto.
+
+b) Organizar los recursos para el desarrollo de la actividad respondiendo a las necesidades y características de los niños y niñas.
+c) Desarrollar las actividades programadas, empleando los recursos y estrategias metodológicas apropiados y creando un clima de confianza.
+d) Diseñar y aplicar estrategias de actuación con las familias, en el marco de las finalidades y procedimientos de la institución, para mejorar el proceso de intervención.
+e) Dar respuesta a las necesidades de los niños y niñas, así como de las familias que requieran la participación de otros profesionales o servicios, utilizando los recursos y procedimientos apropiados.
+f) Actuar ante contingencias relativas a las personas, recursos o al medio, transmitiendo seguridad y confianza y aplicando, en su caso, los protocolos de actuación establecidos.
+g) Evaluar el proceso de intervención y los resultados obtenidos, elaborando y gestionando la documentación asociada al proceso y trasmitiendo la información con el fin de mejorar la calidad del servicio.
+h) Mantener actualizados los conocimientos científicos y técnicos relativos a su actividad profesional, utilizando los recursos existentes para el aprendizaje a lo largo de la vida.
+i) Actuar con autonomía e iniciativa en el diseño y realización de actividades, respetando las líneas pedagógicas y de actuación de la institución en la que desarrolla su actividad.
+j) Mantener relaciones fluidas con los niños y niñas y sus familias, miembros del grupo en el que se esté integrado y otros profesionales, mostrando habilidades sociales, capacidad de gestión de la diversidad cultural y aportando soluciones a conflictos que se presenten.
+k) Generar entornos seguros, respetando la normativa y protocolos de seguridad en la planificación y desarrollo de las actividades.
+l) Ejercer sus derechos y cumplir con las obligaciones que se derivan de las relaciones laborales, de acuerdo con lo establecido en la legislación vigente.
+m) Gestionar su carrera profesional, analizando oportunidades de empleo, autoempleo y aprendizaje.
+n) Crear y gestionar una pequeña empresa, realizando estudio de viabilidad de productos, de planificación de la producción y de comercialización.
+ñ) Participar de forma activa en la vida económica, social y cultural, con una actitud crítica y de responsabilidad.
+
+Artículo 6. Relación de cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales incluidas en el título.
+
+Cualificaciones profesionales completas incluidas en el título:
+a) Educación infantil SSC322_3. (R.D 1368/2007, de 19 de octubre), que comprende las siguientes unidades de competencia:
+UC1027_3: Establecer y mantener relaciones fluidas con la comunidad educativa y coordinación con las familias, el equipo educativo y con otros profesionales.
+
+UC1028_3: Programar, organizar, realizar y evaluar procesos de intervención educativa de centro y de grupo de niños y niñas.
+UC1029_3: Desarrollar programas de adquisición y entrenamiento en hábitos de autonomía y salud, así como otros de intervención en situaciones de riesgo.
+UC1030_3: Promover e implementar situaciones de juego como eje de la actividad y del desarrollo infantil.
+UC1031_3: Desarrollar los recursos expresivos y comunicativos del niño y la niña como medio de crecimiento personal y social.
+UC1032_3: Desarrollar acciones para favorecer la exploración del entorno a través del contacto con los objetos; relaciones del niño o niña con sus iguales y con las personas adultas.
+UC1033_3: Definir, secuenciar y evaluar aprendizajes, interpretándolos en el contexto del desarrollo infantil de cero a seis años.
+
+Artículo 7. Entorno profesional.
+
+1. Este profesional ejerce su actividad en el sector de la educación formal y no formal y en el sector de los servicios sociales de atención a la infancia.
+
+2. Las ocupaciones y puestos de trabajo más relevantes son los siguientes:
+
+Educador o educadora infantil en primer ciclo de educación infantil, siempre bajo la supervisión de un maestro o maestra como educadores en las instituciones dependientes de organismos estatales o autonómicos y locales, y en centros de titularidad privada.
+
+Educador o educadora en instituciones y/o en programas específicos de trabajo con menores (0-6 años) en situación de riesgo social, o en medios de apoyo familiar, siguiendo las directrices de otros profesionales.
+Educador o educadora en programas o actividades de ocio y tiempo libre infantil con menores de 0 a 6 años: ludotecas, casas de cultura, bibliotecas, centros educativos, centros de ocio, granjas escuela, etc.
+
+Artículo 8. Prospectiva del título en el sector o sectores.
+
+1. El perfil profesional de este título evoluciona hacia una mayor capacidad de adaptación a diferentes ámbitos y aumento de las funciones relacionadas con la coordinación y mediación con familias, debido a que las normativas de conciliación de la vida familiar y laboral irán produciendo una diversidad de servicios complementarios de ocio y tiempo libre dirigidos a niños y niñas de estas edades.
+
+2. La creciente demanda de una mayor calidad del servicio provocará un descenso en el número de alumnos por aula, junto a la generalización progresiva de dos profesores impartiendo docencia conjunta, lo que, en consecuencia, supondrá un aumento en el número de puestos de trabajo para estos profesionales.
+3. Las destrezas y conocimientos relacionados con las nuevas tecnologías de la información y la comunicación aplicables a la infancia tendrán un peso cada vez mayor lo que exige a este profesional una actualización permanente de sus capacidades.
+4. La implantación progresiva de sistemas y procesos de calidad que garanticen la eficacia y mejora de los servicios exigirá a este profesional mayores capacidades relacionadas con la elaboración, seguimiento y cumplimentación de protocolos tanto en el ámbito educativo como social.
+
+CAPÍTULO III
+
+Enseñanzas del ciclo formativo y parámetros básicos de contexto
+
+Artículo 9. Objetivos generales.
+
+Los objetivos generales de este ciclo formativo son los siguientes:
+a) Identificar y concretar los elementos de la programación, relacionándolos con las características del grupo y del contexto para programar la intervención educativa y de atención social a la infancia.
+
+b) Identificar y seleccionar los recursos didácticos, describiendo sus características y aplicaciones para organizarlos de acuerdo con la actividad y los destinatarios.
+c) Seleccionar y aplicar recursos y estrategias metodológicas, relacionándolos con las características de los niños y niñas, en el contexto para realizar las actividades programadas.
+d) Seleccionar y aplicar dinámicas de comunicación y participación, analizando las variables del contexto y siguiendo el procedimiento, establecido y las estrategias de intervención con las familias.
+e) Identificar necesidades de los niños y niñas, así como de las familias, que requieran la participación de otros profesionales o servicios, concretando los recursos de diagnóstico y de actuación, para dar una respuesta adecuada.
+f) Seleccionar y aplicar técnicas e instrumentos de evaluación, relacionándolos con las variables relevantes y comparando los resultados con el estándar establecido en el proceso de intervención.
+g) Seleccionar y aplicar estrategias de transmisión de información relacionándolas con los contenidos a transmitir, su finalidad y los receptores para mejorar la calidad del servicio.
+h) Reconocer los diferentes recursos y estrategias de aprendizaje a lo largo de la vida, relacionándolos con los diferentes aspectos de su competencia profesional para mantener actualizados sus conocimientos científicos y técnicos.
+i) Identificar y evaluar su contribución a los objetivos de la Institución, valorando su actividad profesional para la consecución de los mismos.
+j) Identificar las características del trabajo en equipo, valorando su importancia para mejorar la práctica educativa y lograr una intervención planificada, coherente y compartida.
+k) Aplicar dinámicas de grupo y técnicas de comunicación en el equipo de trabajo, intercambiando información y experiencias para facilitar la coherencia en el proyecto.
+m) Analizar los espacios y los materiales para la intervención, actualizando la legislación vigente en materia de prevención de riesgos y de seguridad para, así, preservar la salud e integridad física de los niños y niñas.
+n) Identificar y valorar las oportunidades de aprendizaje y empleo, analizando las ofertas y demandas del mercado laboral para mejorar su empleabilidad.
+ñ) Reconocer sus derechos y deberes como agente activo de la sociedad para el ejercicio de una ciudadanía democrática.
+o) Aplicar técnicas de primeros auxilios, empleando los protocolos establecidos para dar respuesta a situaciones de emergencia y riesgo para la salud en el desarrollo de su actividad profesional.
+
+Artículo 10. Módulos profesionales.
+
+Los módulos profesionales de este ciclo formativo:
+a) Quedan desarrollados en el Anexo I del presente Real Decreto, cumpliendo lo previsto en el artículo 14 del Real Decreto 1538/2006, de 15 de diciembre.
+
+b) Son los que a continuación se relacionan:
+
+Didáctica de la educación infantil.
+
+Autonomía personal y salud infantil.
+El juego infantil y su metodología.
+Expresión y comunicación.
+Desarrollo cognitivo y motor.
+Desarrollo socio afectivo.
+Habilidades sociales.
+Intervención con familias y atención a menores en riesgo social.
+Proyecto de atención a la infancia.
+Primeros auxilios.
+Formación y orientación laboral.
+Empresa e iniciativa emprendedora.
+Formación en centros de trabajo.
+
+c) Las Administraciones educativas establecerán los currículos correspondientes respetando lo establecido en este Real Decreto y de acuerdo con lo dispuesto en el Artículo 17 del Real Decreto 1538/2006, de 5 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo.
+
+Artículo 11. Espacios y equipamientos.
+
+1. Los espacios y equipamientos mínimos necesarios para el desarrollo de las enseñanzas de este ciclo formativo son los establecidos en el Anexo II de este Real Decreto.
+
+2. Los espacios formativos establecidos pueden ser ocupados por diferentes grupos de alumnos que cursen el mismo u otros ciclos formativos, o etapas educativas.
+3. Los diversos espacios formativos identificados no deben diferenciarse necesariamente mediante cerramientos.
+
+Artículo 12. Profesorado.
+
+1. La atribución docente de los módulos profesionales que constituyen las enseñanzas de este ciclo formativo corresponde al profesorado del Cuerpo de Profesores de Enseñanza Secundaria y del Cuerpo de Profesores Técnicos de Formación Profesional, según proceda, de las especialidades establecidas en el Anexo III A) de este Real Decreto.
+
+2. Las titulaciones requeridas al profesorado de los cuerpos docentes, con carácter general, son las establecidas en el artículo 13 del Real Decreto 276/2007, de 23 de febrero. Las titulaciones equivalentes, a efectos de docencia, a las anteriores para las distintas especialidades del profesorado son las recogidas en el Anexo III B) del presente Real Decreto.
+3. Los profesores especialistas tendrán atribuida la competencia docente de los módulos profesionales especificados en el Anexo III A) del presente Real Decreto.
+4. Los profesores especialistas deberán cumplir los requisitos generales exigidos para el ingreso en la función pública docente establecidos en el artículo 12 del Real Decreto 276/2007, de 23 de febrero, por el que se aprueba el Reglamento de ingreso, accesos y adquisición de nuevas especialidades en los cuerpos docentes a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y se regula el régimen transitorio de ingreso a que se refiere la disposición transitoria decimoséptima de la citada ley.
+5. Además, con el fin de garantizar que responden a las necesidades de los procesos involucrados en el módulo profesional, es necesario que acrediten al inicio de cada nombramiento una experiencia profesional reconocida en el campo laboral correspondiente, debidamente actualizada, con al menos dos años de ejercicio profesional en los cuatro años inmediatamente anteriores al nombramiento.
+6. Las titulaciones requeridas y cualesquiera otros requisitos necesarios para la impartición de los módulos profesionales que formen el título, para el profesorado de los centros de titularidad privada o de titularidad pública de otras administraciones distintas de las educativas, se concretan en el Anexo III C) del presente Real Decreto.
+
+CAPÍTULO IV
+
+Accesos y vinculación a otros estudios, y correspondencia de módulos profesionales con las unidades de competencia
+
+Artículo 13. Preferencias para el acceso a este ciclo formativo en relación con las modalidades y materias de Bachillerato cursadas.
+
+Tendrán preferencia para acceder a este ciclo formativo aquellos alumnos que hayan cursado la modalidad de Bachillerato de Humanidades y Ciencias Sociales.
+
+Artículo 14. Acceso y convalidaciones a otros estudios.
+
+1. El título de Técnico Superior en Educación Infantil permite el acceso directo para cursar cualquier otro ciclo formativo de grado superior, en las condiciones de acceso que se establezcan.
+
+2. El título de Técnico Superior en Educación Infantil permite el acceso directo a las enseñanzas conducentes a los títulos universitarios de grado en las condiciones de admisión que se establezcan.
+3. El Gobierno, oído el Consejo de Universidades, regulará, en norma específica, el reconocimiento de créditos entre los títulos técnico superior de la formación profesional y las enseñanzas universitarias de grado. A efectos de facilitar el régimen de convalidaciones, se han asignado 120 créditos ECTS en las enseñanzas mínimas establecidas en este Real Decreto entre los módulos profesionales de este ciclo formativo.
+
+Artículo 15. Convalidaciones y exenciones.
+
+1. Las convalidaciones de módulos profesionales de los títulos de formación profesional establecidos al amparo de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, con los módulos profesionales de los títulos establecidos al amparo de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, se establecen en el Anexo IV del presente Real Decreto.
+
+2. Serán objeto de convalidación los módulos profesionales, comunes a varios ciclos formativos, de igual denominación, contenidos, objetivos expresados como resultados de aprendizaje, criterios de evaluación y similar duración. No obstante lo anterior, y de acuerdo con el artículo 45.2 del Real Decreto 1538/2006, de 15 de diciembre, quienes hubieran superado el módulo profesional de Formación y Orientación Laboral o el módulo profesional de Empresa e Iniciativa Emprendedora en cualquiera de los ciclos formativos correspondientes a los títulos establecidos al amparo de la Ley Orgánica 2/2006, de 3 de mayo, de Educación tendrán convalidados dichos módulos en cualquier otro ciclo formativo establecido al amparo de la misma ley.
+3. El módulo profesional de Formación y Orientación Laboral de cualquier Título de formación profesional podrá ser objeto de convalidación siempre que se cumplan los requisitos establecidos en el artículo 45 punto 3 del Real Decreto 1538/2006, de 15 de diciembre, que se acredite, al menos, un año de experiencia laboral, y se posea el certificado de Técnico en Prevención de Riesgos Laborales, Nivel Básico, expedido de acuerdo con lo dispuesto en el Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención.
+4. De acuerdo con lo establecido en el artículo 49 del Real Decreto 1538/2006, de 15 de diciembre, podrá determinarse la exención total o parcial del módulo profesional de formación en centros de trabajo por su correspondencia con la experiencia laboral, siempre que se acredite una experiencia relacionada con este ciclo formativo en los términos previstos en dicho artículo.
+
+Artículo 16. Correspondencia de los módulos profesionales con las unidades de competencia para su acreditación, convalidación o exención.
+
+1. La correspondencia de las unidades de competencia con los módulos profesionales que forman las enseñanzas del título de Técnico Superior en Educación Infantil para su convalidación o exención queda determinada en el Anexo V A) de este Real Decreto.
+
+2. La correspondencia de los módulos profesionales que forman las enseñanzas del título de Técnico Superior en Educación Infantil con las unidades de competencia para su acreditación, queda determinada en el Anexo V B) de este Real Decreto.
+
+Disposición adicional primera. Referencia del título en el marco europeo.
+
+Una vez establecido el marco nacional de cualificaciones, de acuerdo con las Recomendaciones europeas, se determinará el nivel correspondiente de esta titulación en el marco nacional y su equivalente en el europeo.
+
+Disposición adicional segunda. Oferta a distancia del presente título.
+
+Los módulos profesionales que forman las enseñanzas de este ciclo formativo podrán ofertarse a distancia, siempre que se garantice que el alumno puede conseguir los resultados de aprendizaje de los mismos, de acuerdo con lo dispuesto en el presente Real Decreto. Para ello, las Administraciones educativas, en el ámbito de sus respectivas competencias, adoptarán las medidas que estimen necesarias y dictarán las instrucciones precisas.
+
+Disposición adicional tercera. Titulaciones equivalentes.
+
+1. De acuerdo con lo establecido en la disposición adicional trigésimo primera de la Ley Orgánica 2/2006, de Educación, los títulos de Técnico Especialista en Jardines de Infancia y Técnico Especialista en Educador Infantil, rama Servicios a la Comunidad de la Ley 14/1970, de 4 de agosto, General de Educación y Financiamiento de la Reforma Educativa, tendrán los mismos efectos profesionales y académicos que el título de Técnico Superior en Educación Infantil, establecido en el presente Real Decreto.
+
+2. El título de Técnico Superior en Educación Infantil, establecido por el Real Decreto 2059/1995, de 22 de diciembre, tendrá los mismos efectos profesionales y académicos que el título de Técnico Superior en Educación Infantil establecido en el presente Real Decreto.
+3. La formación establecida en este Real Decreto en el módulo profesional de Formación y Orientación Laboral capacita para llevar a cabo responsabilidades profesionales equivalentes a las que precisan las actividades de nivel básico en prevención de riesgos laborales, establecidas en el Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento de los Servicios de Prevención, siempre que tenga, al menos, 45 horas lectivas.
+4. La formación establecida en el presente Real Decreto en el módulo profesional de Autonomía personal y salud infantil garantiza el nivel de conocimiento necesario para posibilitar unas prácticas correctas de higiene y manipulación de alimentos de acuerdo con la exigencia del artículo 4.6 del Real Decreto 202/2000, de 11 de febrero, por el que se establecen las normas relativas a los manipuladores de alimentos.
+
+Disposición adicional cuarta. Regulación del ejercicio de la profesión.
+
+1. De conformidad con lo establecido en el Real Decreto 1538/2006, de 15 de diciembre, por el que se establece la ordenación general de la formación profesional del sistema educativo, los elementos recogidos en el presente Real Decreto no constituyen una regulación del ejercicio de profesión titulada alguna con respeto al ámbito del ejercicio profesional vinculado por la legislación vigente a las profesiones tituladas.
+
+2. Asimismo, las equivalencias de titulaciones académicas establecidas en el apartado 1 de la disposición adicional tercera de este Real Decreto, se entenderán sin perjuicio del cumplimiento de las disposiciones que habilitan para el ejercicio de las profesiones reguladas.
+
+Disposición adicional quinta. Equivalencias a efectos de docencia en los procedimientos selectivos de ingreso en el Cuerpo de Profesores Técnicos de Formación Profesional.
+
+Se declaran equivalentes a efectos de docencia las titulaciones de Técnico Especialista y Técnico Superior en una especialidad de formación profesional, siempre que se acredite una experiencia docente en la misma de, al menos, dos años en centros educativos públicos dependientes de la Administración educativa convocante, cumplidos a 31 de agosto de 2007.
+
+Disposición adicional sexta. Accesibilidad universal en las enseñanzas de este título.
+
+Las Administraciones educativas, en el ámbito de sus respectivas competencias, incluirán en el currículo de este ciclo formativo los elementos necesarios para garantizar que las personas que lo cursen desarrollen las competencias incluidas en el currículo en diseño para todos.
+
+Asimismo, dichas Administraciones adoptarán las medidas que estimen necesarias para que este alumnado pueda acceder y cursar dicho ciclo formativo en las condiciones establecidas en la disposición final décima de la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad.
+
+Disposición derogatoria única. Derogación de normas.
+
+Quedan derogadas todas y cuantas disposiciones de igual o inferior rango se opongan a lo dispuesto en este Real Decreto.
+
+Disposición final primera. Título competencial.
+
+El presente Real Decreto, tiene carácter de norma básica, al amparo de las competencias que atribuye al Estado el artículo 149.1.1.ª y 30.ª de la Constitución. Se exceptúa del carácter de norma básica el artículo 13.2.
+
+Disposición final segunda. Implantación del Título.
+
+Las Administraciones educativas implantarán el nuevo currículo de estas enseñanzas en el curso escolar 2008/2009.
+
+Disposición final tercera. Entrada en vigor.
+
+El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».
+
+Dado en Madrid, el 29 de octubre de 2007.
+
+JUAN CARLOS R.
+
+La Ministra de Educación y Ciencia,
+MERCEDES CABRERA CALVO-SOTELO
+
+Aquí aparecen varias imágenes en el original. Consulte el documento PDF de esta disposición.
+
+Análisis
+
+ANÁLISIS
+
+Rango: Real Decreto
+
+Fecha de disposición: 29/10/2007
+
+Fecha de publicación: 24/11/2007
+
+Fecha de entrada en vigor: 25/11/2007
+
+Referencias posteriores
+
+Criterio de ordenación:
+
+por contenido
+
+por fecha
+
+SE MODIFICA los arts. 2, 10, 12, 15, anexos I, III y referencias indicadas, por Real Decreto 500/2024, de 21 de mayo (Ref.
+BOE-A-2024-10685
+).
+
+SE DEROGA el anexo indicado, por Real Decreto 1085/2020, de 9 de diciembre (Ref.
+BOE-A-2020-17274
+).
+
+SE DICTA DE CONFORMIDAD estableciendo el currículo del ciclo formativo de Técnico Superior en Educación Infantil: Orden ESD/4066/2008, de 3 de noviembre (Ref.
+BOE-A-2009-3788
+).
+
+Referencias anteriores
+
+DEROGA el Real Decreto 2059/1995, de 22 de diciembre (Ref.
+BOE-A-1996-4022
+).
+
+DE CONFORMIDAD con Real Decreto 1538/2006, de 15 de diciembre (Ref.
+BOE-A-2007-92
+).
+
+CITA:
+
+Ley Orgánica 2/2006, de 3 de mayo (Ref.
+BOE-A-2006-7899
+).
+
+Ley Orgánica 5/2002, de 19 de junio (Ref.
+BOE-A-2002-12018
+).
+
+Materias
+
+Capacitación profesional
+
+Currículo
+
+Educación Infantil
+
+Enseñanza de Formación Profesional
+
+Formación profesional
+
+Títulos académicos y profesionales
+
+subir
+
+Contactar
+
+Sobre la sede electrónica
+
+Mapa
+
+Aviso legal
+
+Accesibilidad
+
+Protección de datos
+
+Sistema Interno de Información
+
+Tutoriales
+
+Empleo en la AEBOE
+
+Agencia Estatal Boletín Oficial del Estado
+
+Avda.
+de Manoteras, 54 - 28050 Madrid

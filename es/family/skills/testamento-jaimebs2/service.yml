@@ -1,0 +1,55 @@
+name: testamento
+display_name: Testamento — Guía Completa
+description: >
+  Guía completa sobre testamentos en España: tipos (abierto, cerrado,
+  ológrafo), sistema de legítimas y los tres tercios, herederos forzosos,
+  desheredación, coste de otorgar testamento ante notario, Registro General
+  de Actos de Última Voluntad, modificación y revocación, y diferencias
+  territoriales del derecho foral (Cataluña, Aragón, Navarra, País Vasco,
+  Baleares, Galicia).
+organization: Consejo General del Notariado
+tags: [justicia, testamento, legítimas, herederos forzosos, tercios, notario, registro últimas voluntades, derecho foral, sucesiones, desheredación]
+
+links:
+  website: https://www.notariado.org
+  registro_ultimas_voluntades: https://sede.mjusticia.gob.es
+
+license:
+  data: Información pública del Consejo General del Notariado y Ministerio de Justicia
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general sobre testamentos. No accede
+    a APIs de datos. Proporciona el marco completo del derecho testamentario
+    en España y redirige a skills específicas para herencias, fiscalidad
+    sucesoria y registro civil.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de testamento y sus características
+    - Sistema de legítimas y los tres tercios (derecho común)
+    - Herederos forzosos y sus cuotas
+    - Causas de desheredación
+    - Diferencias del derecho foral por comunidad autónoma
+    - Coste orientativo de otorgar testamento
+    - Cómo otorgar, modificar y revocar un testamento
+    - Registro General de Actos de Última Voluntad (RGAUV)
+    - Testamento y pareja de hecho
+  not_accessible:
+    - Contenido de testamentos concretos (datos privados)
+    - Redacción de testamentos (requiere notario)
+    - Asesoramiento jurídico individualizado
+    - Trámites de herencia (usar skill herencias)
+    - Impuesto de Sucesiones (usar skill fiscalidad-sucesiones-donaciones)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

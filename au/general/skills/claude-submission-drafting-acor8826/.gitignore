@@ -1,0 +1,8 @@
+# Local Claude Code settings (machine-specific, not part of the skill)
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp

@@ -1,0 +1,21 @@
+{
+  "chunks": [
+    {
+      "index": 0,
+      "label": "PETIÇÃO INICIAL",
+      "tipo_peca": "Petição Inicial",
+      "prazos": [
+        {"tipo": "contestação", "data_inicio": "10/03/2025"},
+        {"tipo": "apelacao", "data_inicio": "15/03/2025"}
+      ]
+    },
+    {
+      "index": 1,
+      "label": "CONTESTAÇÃO",
+      "tipo_peca": "Contestação",
+      "prazos": [
+        {"tipo": "embargos_declaracao", "data_inicio": "20/03/2025"}
+      ]
+    }
+  ]
+}

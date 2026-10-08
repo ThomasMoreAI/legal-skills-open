@@ -1,0 +1,14 @@
+{
+  "name": "mx-employment",
+  "displayName": "Employment & Labor — MX",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for MX (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "mx",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/amparo-emilianomierujed"
+  ]
+}

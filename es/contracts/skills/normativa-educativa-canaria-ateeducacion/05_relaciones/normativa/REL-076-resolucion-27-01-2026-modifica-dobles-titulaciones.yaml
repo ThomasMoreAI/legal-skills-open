@@ -1,0 +1,11 @@
+id: REL-076
+tipo_relacion: "modifica"
+origen: NOR-095
+destino: NOR-085
+descripcion: "La Resolución de 27 de enero de 2026 modifica la Resolución de 26 de noviembre de 2025 sobre la oferta de dobles titulaciones de formación profesional de Grado D."
+evidencia:
+  fuente: FTE-102
+  localizacion: "Antecedentes de hecho y parte dispositiva de la Resolución de 27 de enero de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Es la resolución que NOR-074 y NOR-075 citaban como antecedente sin que el corpus pudiera enlazarla."

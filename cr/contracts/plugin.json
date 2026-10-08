@@ -1,0 +1,15 @@
+{
+  "name": "cr-contracts",
+  "displayName": "Contracts — CR",
+  "version": "0.1.0",
+  "description": "Contracts skills for CR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cr",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/acuerdos-piloto-ariel-gonzaguer",
+    "skills/creacion-contrato-costa-rica-orwel"
+  ]
+}

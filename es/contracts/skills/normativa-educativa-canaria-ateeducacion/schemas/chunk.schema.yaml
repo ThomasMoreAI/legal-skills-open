@@ -1,0 +1,63 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/chunk.schema.yaml"
+title: Fragmento de contexto para IA
+additionalProperties: false
+
+type: object
+required: [id, origen_tipo, origen_id, titulo, texto, metadatos, relaciones, uso_recomendado, nivel_evidencia]
+properties:
+  id:
+    type: string
+    pattern: '^CHUNK-[0-9]{5}$'
+  origen_tipo:
+    type: string
+    enum: [norma, curriculum, analisis]
+  origen_id:
+    type: string
+  titulo:
+    type: string
+  texto:
+    type: string
+  metadatos:
+    type: object
+    additionalProperties: false
+    required: [ambito, etapa, temas, estado_vigencia, fuente, url_oficial, fecha_consulta, fecha_analisis, localizacion]
+    properties:
+      ambito:
+        type: string
+      etapa:
+        type: array
+        items: {type: string}
+      temas:
+        type: array
+        items: {type: string}
+      estado_vigencia:
+        type: string
+      fuente:
+        type: string
+      url_oficial:
+        type: string
+        format: uri
+      fecha_consulta:
+        type: string
+        format: date
+      fecha_analisis:
+        type: string
+        format: date
+      localizacion:
+        type: string
+  relaciones:
+    type: object
+    additionalProperties: false
+    required: [normas, curriculos, chunks_relacionados]
+    properties:
+      normas: {type: array, items: {type: string}}
+      curriculos: {type: array, items: {type: string}}
+      chunks_relacionados: {type: array, items: {type: string}}
+  uso_recomendado:
+    type: array
+    items:
+      type: string
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]
