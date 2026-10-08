@@ -4,7 +4,7 @@ Health-sector law — provider regulation, licensing, and patient-data complianc
 
 Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 
-## Skills (85)
+## Skills (86)
 
 | Skill | What it does |
 |---|---|
@@ -46,6 +46,7 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Kaltstart GOÄ Rechnung prüfen`](skills/kaltstart-goae-rechnung-pruefen/) | Für Kaltstart GOÄ Rechnung prüfen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Krankenhausrechtlichen Auftrag bearbeiten`](skills/kaltstart-krankenhausrecht/) | Für Kaltstart Krankenhausrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`KHEntgG Budgetverhandlung DRG PEPP Abgrenzung`](skills/khentgg-budgetverhandlung-drg-pepp-abgrenzung/) | Für KHEntgG Budgetverhandlung DRG PEPP Abgrenzung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
+| [`KI und Medizinprodukt-Konformität einordnen`](skills/ki-medizinprodukt-konformitaet-klotzkette/) | Ordnet Krankenhaus-KI nach Zweckbestimmung, KI-Verordnung und Medizinprodukterecht ein. Erstellt eine… |
 | [`Kinder- und Jugendmedizin besondere Versorgung`](skills/kinder-und-jugendmedizin-besondere-versorgung/) | Für Kinder- und Jugendmedizin besondere Versorgung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Klage gegen Budgetbescheid oder Schiedsstellenentscheidung`](skills/klage-klinikakten-bescheide-klinikverbund/) | Für Klage gegen Budgetbescheid oder Schiedsstellenentscheidung: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Krankenhaus-MVZ Gründung Zulassung Compliance`](skills/krankenhaus-mvz-gruendung-zulassung-compliance/) | Für Krankenhaus-MVZ Gründung Zulassung Compliance: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
