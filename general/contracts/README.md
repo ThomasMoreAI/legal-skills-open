@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 
-## Skills (192)
+## Skills (190)
 
 | Skill | What it does |
 |---|---|
@@ -96,7 +96,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`NDA（保密协议）起草`](skills/draft-nda/) | 起草两方之间详细的保密协议（NDA），涵盖信息类型、管辖区及需法律审查的条款。适用于创建保密协议或为合作关系准备 NDA 的场景。 |
 | [`NDA (비밀유지계약서) 초안 작성`](skills/draft-nda-lucas-flatwhite/) | 정보 유형, 관할권, 법률 검토가 필요한 조항을 다루는 두 당사자 간 상세한 비밀유지계약서(NDA)를 초안 작성합니다. 기밀 유지 계약 작성 또는 파트너십을 위한 NDA 준비 시 사용하세요. |
 | [`NDA (Non-Disclosure Agreement) Drafting`](skills/draft-nda-phuryn/) | Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction… |
-| [`Draft Strict Contract Breach Clauses`](skills/draft-strict-contract-breach-clauses/) | Modifies or drafts contract clauses (e.g., NDA, Non-Defamation, IP) to include specific severe penalties… |
 | [`US Employment Law Dashboard`](skills/employment-law-dashboard/) | Build a single-file HTML dashboard for any area of US employment law, modeled after the AI Employment… |
 | [`Engagement Letter Drafter`](skills/engagement-letter-drafter-rohasnagpal/) | Drafts a client engagement letter — scope of the retainer, fee arrangement, what is explicitly excluded… |
 | [`Escalation flagger`](skills/escalation-flagger-bossmann007/) | Route a contract issue to the right approver per the escalation matrix in… |
@@ -106,7 +105,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Extract NDA Terms and Generate a Compliance Checklist`](skills/extract-nda-and-generate-checklist/) | Extract key terms from a non-disclosure agreement, then generate a compliance checklist spreadsheet… |
 | [`Extract NDA Terms`](skills/extract-nda-terms/) | Extract parties, obligations, restrictions, permitted disclosures, and expiry dates from non-disclosure… |
 | [`Rom-I-Anwendbarkeit`](skills/fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit/) | Für Rom-I-Anwendbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
-| [`formal_legal_clause_and_strict_breach_drafter`](skills/formal-legal-clause-and-strict-breach-drafter/) | Redrafts user-provided text into formal, binding legal language for contracts, policies, or codes of… |
 | [`Formation Counsel`](skills/formation-counsel/) | Attorney-facing skill for US and Canadian startup formation work. Use this skill whenever the user is… |
 | [`Freelancer Review — Independent Contractor Contract Analysis`](skills/freelancer-review/) | Reviews contracts from a freelancer's perspective across 14 evaluation lenses including… |
 | [`Generate DOCX Contract`](skills/generate-docx-contract/) | Generate an editable DOCX service agreement with parties, terms, and payment schedule. |

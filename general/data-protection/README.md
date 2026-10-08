@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (273)
+## Skills (272)
 
 | Skill | What it does |
 |---|---|
@@ -258,7 +258,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Selecting Privacy-Enhancing Technologies`](skills/selecting-privacy-enhancing-technologies/) | Comprehensive PET selection guide covering differential privacy, homomorphic encryption, secure… |
 | [`Server-Side Tracking with Privacy Controls`](skills/server-side-tracking/) | Implementing server-side tracking with privacy controls using Google Tag Manager server containers.… |
 | [`Singapore PDPA Compliance`](skills/singapore-pdpa/) | Guides compliance with Singapore's Personal Data Protection Act 2012 (PDPA). Covers PDPC advisory… |
-| [`Slovak to English GDPR Translation`](skills/slovak-to-english-gdpr-translation/) | Translates legal articles from Slovak to English with strict terminology mappings for GDPR terms… |
 | [`Special Category Data Classification — GDPR Art. 9`](skills/special-category-data/) | Identifies and classifies GDPR Art. 9 special category data including racial origin, political opinions… |
 | [`US State Privacy Law Tracker`](skills/state-law-tracker/) | Tracks and monitors US state privacy legislation across all 50 states, DC, and territories. Covers… |
 | [`Sub-Processor Management`](skills/sub-processor-management/) | GDPR Article 28(2) sub-processor approval workflow management. Covers prior specific and general… |

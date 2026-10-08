@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `general` · Practice: `general` · Skill language: en
 
-## Skills (473)
+## Skills (471)
 
 | Skill | What it does |
 |---|---|
@@ -263,7 +263,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Legal Risk Visualization`](skills/legal-risk-visualization/) | 法律风险结构化分析与可视化。基于法律分析文本，执行五步风险抽取模型， 生成四层可视化输出（雷达图数据、风险矩阵、影响路径图、决策树）。 适用于：(1) 用户提供法律分析报告要求风险可视化， (2)… |
 | [`Legal Sanity Review Workflow`](skills/legal-sanity-review/) | Legal Sanity Review Workflow — mandatory pre-gate in the cross-review cycle |
 | [`Legal syllogism - make the reasoning explicit`](skills/legal-syllogism-en-matematicsolutions/) | Builds the explicit legal syllogism for an issue - lays out the major premise (the rule and its… |
-| [`Legal Text Explanation and Risk Analysis`](skills/legal-text-explanation-and-risk-analysis/) | Explain legal text in simple terms and identify associated risks, often formatted as short paragraphs. |
 | [`法律文本格式化工具`](skills/legal-text-format/) | 将法律文本（法律条文或法律案例）转换为规范的 Markdown 格式，删除推广冗余信息。本技能应在用户需要处理法律条文（如民法典、刑法等）、整理法律案例（如最高法典型案例、裁判文书等）、或从粘贴文本中格式化法律… |
 | [`Legal Translation Skill  'v0.2.0'`](skills/legal-translation/) | Expert-level legal document translation — understands law, not just language. Use whenever a user wants… |
 | [`Legal Translation`](skills/legal-translation-mikailustuner/) | Hukuki çeviri, terminoloji doğruluğu, yeminli tercüme standartları ve Apostil işlemleri. |
@@ -455,7 +454,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Time narratives`](skills/timenarratives-legalquants/) | Draft concise time-entry narratives from the lawyer's work in the current conversation, selected related… |
 | [`Diplomatic Professional Tone`](skills/tone-diplomatic/) | Applies measured, diplomatic tone to legal writing. Triggers when drafting demand letters, settlement… |
 | [`Tone modes`](skills/tone-modes/) | Switch between lawyer mode and casual mode, apply the read-aloud test, and use scripts as scaffolds… |
-| [`traduccion_juridica_espanol_ingles`](skills/traduccion-juridica-espanol-ingles/) | Traduce textos legales y fiscales del español al inglés jurídico formal, adaptando la terminología a… |
 | [`Trusted sources`](skills/trusted-sources/) | Acquire authoritative reference documents — statutes, regulations, official policies, terms of service… |
 | [`Rom 140 Tutela Fiduciaria Und Pflegevormundschaft Vermögen`](skills/tutela-fiduciaria-pflegevormundschaft/) | Für Rom 140 Tutela Fiduciaria und Pflegevormundschaft Vermögen: ordnet Norm, Beweislast und… |
 | [`Rom 140 Tutela Fiduciaria Und Pflegevormundschaft Vermögen`](skills/tutela-fiduciaria-und-pflegevormundschaft-vermoegen/) | Für Rom 140 Tutela Fiduciaria und Pflegevormundschaft Vermögen: ordnet Norm, Beweislast und… |
