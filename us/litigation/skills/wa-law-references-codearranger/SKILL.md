@@ -5,7 +5,7 @@ description: Use when the user needs to cite, apply, or research Washington civi
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/wa-court-docs/skills/wa-law-references
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation

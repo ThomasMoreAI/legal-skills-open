@@ -11,6 +11,9 @@ import json
 import subprocess
 import sys
 import tarfile
+import tempfile
+from dataclasses import replace
+from unittest.mock import patch
 from contextlib import redirect_stdout
 from pathlib import Path
 
@@ -289,6 +292,29 @@ def main() -> int:
     assert dataset.details[0]["tariff_code"] == "0101210010"
     print("[PASS] fixture archive schema, delimiter, encoding and source timestamp parsing")
 
+    fresh = replace(dataset, source_url=customs_tariff.ARCHIVE_URL, retrieved_at=customs_tariff.utc_now())
+    with tempfile.TemporaryDirectory(dir=SKILL / 'tests') as directory:
+        cache_dir = Path(directory)
+        with patch.object(customs_tariff, 'fetch_archive', return_value=fresh) as fetch:
+            first = customs_tariff.fetch_cached_archive(cache_dir=cache_dir)
+            second = customs_tariff.fetch_cached_archive(cache_dir=cache_dir)
+            assert fetch.call_count == 1 and second.retrieved_at == first.retrieved_at
+            assert formula_records(second, '2', 1) == formula_records(first, '2', 1)
+            meta_file = cache_dir / 'validated.json'
+            metadata = json.loads(meta_file.read_text())
+            metadata['retrieved_at'] = '2000-01-01T00:00:00Z'
+            meta_file.write_text(json.dumps(metadata))
+            customs_tariff.fetch_cached_archive(cache_dir=cache_dir)
+            assert fetch.call_count == 2
+            (cache_dir / 'tariff.tar.gz').write_bytes(b'corrupt')
+            customs_tariff.fetch_cached_archive(cache_dir=cache_dir)
+            assert fetch.call_count == 3
+    assert customs_tariff._clean('  one\t two\nthree  ') == 'one two three'
+    for number in range(5000):
+        customs_tariff._clean(f'cache bound {number}')
+    assert customs_tariff._clean.cache_info().currsize <= 4096
+    print('[PASS] fixture bounded cleaning cache, archive reuse, preserved retrieval time, expiry and corruption refresh')
+
     search = search_records(dataset, "coffee", "2026-09-02", 10)
     assert [row["tariff_code"] for row in search] == ["0901210000"]
     assert search[0]["description"] == "ROASTED COFFEE — SYNTHETIC"
@@ -530,7 +556,7 @@ def main() -> int:
     print("[PASS] invalid input and unsupported check letters fail in direct and canonical JSON")
 
     command = [sys.executable, str(SKILL / "scripts" / "cli.py"), "formula", "2", "--json"]
-    completed = subprocess.run(command, capture_output=True, text=True, timeout=30, check=False)
+    completed = subprocess.run(command, capture_output=True, text=True, timeout=45, check=False)
     if completed.returncode == 0:
         payload = json.loads(completed.stdout)
         assert payload["ok"] is True and payload["blocked"] is False

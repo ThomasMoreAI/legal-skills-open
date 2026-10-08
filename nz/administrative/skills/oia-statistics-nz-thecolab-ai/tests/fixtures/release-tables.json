@@ -1,0 +1,21 @@
+{
+  "Timeliness & publication": [
+    [], ["Official Information Act (OIA) statistics by agency"], [],
+    ["Agency type", null, "OIA requests completed 1 Jan - 30 Jun 2026 (2)", "OIA requests completed within legislated timeframe", "Percent OIA requests completed within legislated timeframe", "OIA request responses published on the agency website (3)", "OIA requests subject to an extension", "Percent OIA requests subject to an extension"],
+    [null, "Agency"], [null, null, "Number", "Number", "Percent", "Number", "Number", "Percent"],
+    ["Public Service Departments"],
+    [42, "Synthetic Agency", 200, 180, 0.9, 10, 4, 0.02],
+    [43, "Ambiguous Agency", 20, 19, 0.95, 0, 0, 0],
+    [null, "Unmatched Police", 500, 400, 0.8, 50, 20, 0.04],
+    ["1.", "Footnote text must not be an agency", 20, 19, 0.95, 0, 0, 0]
+  ],
+  "Other statistics": [
+    [], [], [],
+    ["Agency type", null, "OIA requests completed 1 Jan - 30 Jun 2026 (2)", "Ombudsman complaints notified to the agency (3)", "Final opinions issued by Ombudsman against the agency (4)", "OIA requests transferred in full", "Percent OIA requests transferred in full", "OIA requests refused in full", "Percent OIA requests refused in full"],
+    [null, "Agency"], [null, null, "Number", "Number", "Number", "Number", "Percent", "Number", "Percent"],
+    ["Public Service Departments"],
+    [999, "Synthetic Agency", 200, 3, 1, 5, 0.025, 10, 0.05],
+    [43, "Ambiguous Agency", 20, 0, 0, 0, 0, 0, 0],
+    [null, "Unmatched Police", 500, 30, 2, 1, 0.002, 5, 0.01]
+  ]
+}

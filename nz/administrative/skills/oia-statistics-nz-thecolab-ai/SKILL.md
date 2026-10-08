@@ -5,7 +5,7 @@ description: Query New Zealand Public Service Commission six-monthly OIA complia
 author: thecolab-ai
 author_url: https://github.com/thecolab-ai/.skills/tree/main/skills/oia-statistics-nz
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: nz
 practice: administrative
