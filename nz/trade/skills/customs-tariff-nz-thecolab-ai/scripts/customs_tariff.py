@@ -6,16 +6,21 @@ import datetime as dt
 import decimal
 import functools
 import gzip
+import hashlib
 import http.client
 import io
+import json
+import os
 import re
 import tarfile
+import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
 import zlib
 from collections.abc import Iterator
 from dataclasses import dataclass
+from pathlib import Path
 
 LANDING_URL = "https://www.customs.govt.nz/business/tariffs/tariff-classifications-and-rates/"
 ARCHIVE_URL = "https://www.customs.govt.nz/media/0nmaamqd/tariff.tar.gz"
@@ -26,6 +31,9 @@ MAX_MEMBER_BYTES = 128 * 1024 * 1024
 MAX_ARCHIVE_BYTES = 256 * 1024 * 1024
 MAX_ARCHIVE_MEMBERS = 32
 MAX_DECOMPRESSED_BYTES = MAX_ARCHIVE_BYTES + 4 * 1024 * 1024
+CACHE_DIR = Path(__file__).resolve().parents[1] / ".cache"
+CACHE_MAX_AGE = dt.timedelta(hours=12)
+CACHE_VERSION = 1
 
 DETAILS = "Tariff_Details.csv"
 RATES = "Tariff_Rates.csv"
@@ -82,8 +90,11 @@ def utc_now() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+@functools.lru_cache(maxsize=4096)
 def _clean(value: str | None) -> str:
-    return re.sub(r"\s+", " ", value or "").strip()
+    # The rates table repeats the same short fields millions of times. A bounded
+    # cache avoids repeated regex work without retaining the whole dataset.
+    return " ".join((value or "").split())
 
 
 @functools.lru_cache(maxsize=512)
@@ -485,6 +496,47 @@ def fetch_archive(timeout: int = DEFAULT_TIMEOUT) -> TariffArchive:
     except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError, ValueError) as exc:
         raise SkillError(f"Customs archive is unavailable: {exc}", exit_code=5, kind="upstream_unavailable") from exc
     return parse_archive(blob, final_url, utc_now(), last_modified)
+
+
+def fetch_cached_archive(timeout: int = DEFAULT_TIMEOUT, *, cache_dir: Path = CACHE_DIR) -> TariffArchive:
+    """Reuse a completely validated snapshot for at most 12 hours.
+
+    The checksum binds the validation metadata to the archive bytes. No pickle,
+    stale-on-error fallback or partial validation is used. Queries still parse
+    the relevant source table, and retain the original retrieval timestamp.
+    """
+    blob_path, meta_path = cache_dir / "tariff.tar.gz", cache_dir / "validated.json"
+    try:
+        if meta_path.stat().st_size > 4096 or blob_path.stat().st_size > MAX_DOWNLOAD_BYTES:
+            raise ValueError("cache exceeds bounds")
+        meta = json.loads(meta_path.read_text())
+        retrieved = dt.datetime.fromisoformat(meta["retrieved_at"].replace("Z", "+00:00"))
+        age = dt.datetime.now(dt.timezone.utc) - retrieved
+        blob = blob_path.read_bytes()
+        if (meta["version"] == CACHE_VERSION and dt.timedelta(0) <= age < CACHE_MAX_AGE
+                and hashlib.sha256(blob).hexdigest() == meta["sha256"]):
+            _validate_archive_url(meta["source_url"])
+            # Timestamp validation also rejects malformed local metadata.
+            dt.datetime.fromisoformat(meta["source_timestamp"])
+            return TariffArchive(blob, meta["source_url"], meta["retrieved_at"],
+                                 meta["source_timestamp"], meta.get("http_last_modified"))
+    except (OSError, ValueError, KeyError, TypeError, SkillError):
+        pass
+    archive = fetch_archive(timeout)
+    meta = {"version": CACHE_VERSION, "sha256": hashlib.sha256(archive.blob).hexdigest(),
+            "source_url": archive.source_url, "retrieved_at": archive.retrieved_at,
+            "source_timestamp": archive.source_timestamp, "http_last_modified": archive.http_last_modified}
+    try:
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        for target, data in ((blob_path, archive.blob), (meta_path, json.dumps(meta).encode())):
+            with tempfile.NamedTemporaryFile(dir=cache_dir, delete=False) as handle:
+                temporary = Path(handle.name)
+                handle.write(data)
+            os.replace(temporary, target)
+    except OSError:
+        # A read-only checkout must still be able to query the public source.
+        pass
+    return archive
 
 
 def _public(record: dict[str, object]) -> dict[str, object]:

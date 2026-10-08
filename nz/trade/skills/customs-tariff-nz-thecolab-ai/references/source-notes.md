@@ -10,7 +10,7 @@
 - Declared outbound host: www.customs.govt.nz
 - Access mode: unauthenticated HTTPS public download
 - Authentication: none
-- Last verified: 2026-09-02
+- Last verified: 2026-10-08
 
 On 2026-09-02 both the landing page and archive returned HTTP 200 within a 10-second request timeout. The archive was a gzip-compressed tar with `time_stamp.txt`, `Tariff_Details.csv`, `Tariff_Rates.csv`, `Tariff_Levies.csv`, and `Tariff_Levy_Formulas.csv`. Its embedded update marker was `Thu Sep  3 04:00:01 AM NZST 2026`; the HTTP `Last-Modified` value was `Wed, 02 Sep 2026 16:55:31 GMT`.
 
@@ -40,3 +40,5 @@ The CLI deliberately does not calculate duty, levies, GST or landed cost. The ar
 - DNS, timeout, connection and other upstream HTTP failures return exit code 5.
 - Missing members, unexpected headers, bad encodings, invalid dates and malformed archives return parser/schema exit code 6.
 - The smoke test always runs local fixture assertions first; only the bounded live assertion is skipped during a recognised source outage.
+
+The CLI keeps a checksum-bound, fully validated archive snapshot in the skill’s `.cache/` for up to 12 hours, retaining the original retrieval time. Expired or damaged snapshots are fetched and completely validated again. Repeated short field cleaning uses a bounded 4,096-entry memory cache. The live smoke subprocess allows 45 seconds for a cold full validation, rather than raising network timeouts.
