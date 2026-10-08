@@ -4,7 +4,7 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `gb` · Practice: `real-estate` · Skill language: en
 
-## Skills (7)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
@@ -14,7 +14,6 @@ Jurisdiction: `gb` · Practice: `real-estate` · Skill language: en
 | [`Safe-AI Gate`](skills/safe-ai-gate/) | Supervisor / governance gate for conveyancing AI answers. Run alongside every substantive answer, BEFORE… |
 | [`SDLT Calculator`](skills/sdlt-calculator/) | Calculate UK Stamp Duty Land Tax (SDLT) for residential property purchases in England and Northern… |
 | [`Title Defect Advisor`](skills/title-defect-advisor/) | Analyze HM Land Registry Official Copy Registers (Title Deeds) for conveyancing risks, defects, and… |
-| [`uk_lease_tenant_analysis_translation`](skills/uk-lease-tenant-analysis-translation/) | 依据英国商业法律，代表租户利益分析租赁条款的合理性、公平性及潜在风险，并提供准确的英中法律翻译。 |
 
 ## Cold-start context
 

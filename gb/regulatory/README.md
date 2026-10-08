@@ -4,12 +4,11 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `gb` · Practice: `regulatory` · Skill language: en
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
 | [`/ai-inventory`](skills/ai-inventory-uk-agents/) | Per-system AI inventory — track each AI system's EU AI Act role and risk tier (where EU nexus exists)… |
-| [`Draft British Statutory Instruments`](skills/draft-british-statutory-instruments/) | Drafts hypothetical British Statutory Instruments, Regulations, or Byelaws using formal UK legal… |
 
 ## Cold-start context
 

@@ -2,14 +2,33 @@
 name: paper2patent
 title: Paper2Patent
 description: Turn an academic paper (PDF, LaTeX, pasted text, thesis chapter or technical disclosure) into a Chinese invention patent application draft — 说明书摘要、摘要附图、权利要求书、说明书、说明书附图 — delivered as DOCX/PDF with black-and-white patent drawings, plus a separate drafting-notes file covering novelty/disclosure risk, claim layout and claim-to-paper support. Use whenever the user wants to 论文转专利, 写专利/专利申请书/专利交底书, draft or review 权利要求书, write a 说明书, make 专利附图, or check a patent draft against its source paper, even if they only say "帮我把这篇论文写成专利".
-author: gabrielmoreira
-author_url: https://github.com/gabrielmoreira/agent-skills-mirror/tree/main/mirrors/repos/7toCR@paper2patent/.claude/skills/paper2patent
+author: 7toCR
+author_url: https://github.com/7toCR/paper2patent/tree/main/.claude/skills/paper2patent
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: ip
 language: en
+sources:
+- title: Claims and specification rules
+  path: references/claims-and-specification-rules.md
+- title: Claims drafting
+  path: references/claims-drafting.md
+- title: Document generation
+  path: references/document-generation.md
+- title: Drawing generation
+  path: references/drawing-generation.md
+- title: Input requirements
+  path: references/input-requirements.md
+- title: Patent drafting standard
+  path: references/patent-drafting-standard.md
+- title: Patentability and disclosure
+  path: references/patentability-and-disclosure.md
+- title: Quality checklist
+  path: references/quality-checklist.md
+- title: Text conversion workflow
+  path: references/text-conversion-workflow.md
 ---
 
 # Paper2Patent

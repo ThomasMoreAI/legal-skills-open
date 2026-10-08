@@ -4,13 +4,12 @@ Criminal offenses, defenses, charging, plea practice, sentencing, and post-convi
 
 Jurisdiction: `us` · Practice: `criminal` · Skill language: en
 
-## Skills (22)
+## Skills (21)
 
 | Skill | What it does |
 |---|---|
 | [`2026 Legal Research Agent`](skills/2026-legal-research-agent/) | Expert legal research agent for finding and scraping expungement data state by state. Knows… |
 | [`Notice of Alibi Defense`](skills/alibi-notice/) | Drafts a Notice of Alibi Defense under Fed. R. Crim. P. 12.1 or state equivalents. Triggers on alibi… |
-| [`Analyze Fourth Amendment Search and Seizure Scenarios`](skills/analyze-fourth-amendment-search-and-seizure-scenarios/) | Evaluates legal scenarios to determine if a search is legal or illegal under the Fourth Amendment… |
 | [`Bail Hearing Summary`](skills/bail-hearing-summary/) | Generates structured bail hearing summaries from transcripts and case documents, extracting charges… |
 | [`Motion for Bail Reduction`](skills/bail-reduction-motion/) | Drafts a Motion for Bail Reduction for criminal defense pretrial proceedings. Argues current bail is… |
 | [`Body Camera Incident Summary`](skills/body-camera-incident-summary/) | Transforms police body camera transcripts into structured 10-section legal summaries with… |

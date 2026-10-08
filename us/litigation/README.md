@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 
-## Skills (200)
+## Skills (199)
 
 | Skill | What it does |
 |---|---|
@@ -140,7 +140,6 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`JNOV Motion`](skills/jnov-motion/) | Drafts a Motion for Judgment Notwithstanding the Verdict (JNOV) under FRCP 50(b) or state equivalents… |
 | [`Judgment Summary`](skills/judgment-summary/) | Produces structured U.S. litigation judgment summaries from court opinions or final orders. Use when… |
 | [`Jurisdictional Statement`](skills/jurisdictional-statement/) | Drafts jurisdictional statements for U.S. appellate courts establishing authority to hear an appeal… |
-| [`Jury Duty Exemption Email Generator`](skills/jury-duty-exemption-email-generator/) | Drafts a formal, respectful email to a sheriff requesting exemption from jury duty based on caregiver… |
 | [`Jury Instructions`](skills/jury-instructions/) | Drafts complete proposed jury instruction sets for U.S. litigation, including preliminary charges… |
 | [`Request for Jury Trial`](skills/jury-trial-request/) | Drafts a formal Request for Jury Trial invoking Sixth Amendment (criminal) or Seventh Amendment (civil)… |
 | [`Legal Analytics`](skills/legal-analytics-judicialmind/) | Legal analytics and outcome prediction skill for case assessment and strategy. Use when the user needs… |
