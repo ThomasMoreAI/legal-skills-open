@@ -4,7 +4,7 @@ Construction law — building contracts, procurement, delay/defect claims, and d
 
 Jurisdiction: `de` · Practice: `construction` · Skill language: de
 
-## Skills (255)
+## Skills (271)
 
 | Skill | What it does |
 |---|---|
@@ -13,10 +13,13 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Abnahme des Bauwerks verweigern: wesentliche Maengel als Verweigerungsgrund, Begründungspflicht`](skills/abnahme-verweigerung/) | Für Abnahme Verweigerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Abnahmefiktion nach Paragraf 640 Absatz 2 BGB prüfen`](skills/abnahmefiktion-paragraf-640-bgb-pruefen/) | Prüft die Abnahmefiktion nach Paragraf 640 Absatz 2 BGB anhand Fertigstellung, Fristsetzung… |
 | [`HOAI Querschnitt: Ordnet altverträge vor 2021 und mindestsatz-/eugh-/bgh-risiken`](skills/altvertrag-mindestsatzstreit/) | Für HOAI Querschnitt: Ordnet altverträge vor 2021 und mindestsatz-/EuGH-/BGH-risiken: ordnet Norm… |
+| [`Angebote regimegerecht prüfen und vergleichen`](skills/angebotspruefung-klotzkette/) | Prüft Bau- und Planungsangebote auf formale, technische und kaufmännische Vergleichbarkeit. Trennt… |
+| [`Anordnung und Vollmacht sichern`](skills/anordnung-und-vollmacht-klotzkette/) | Ordnet Änderungsbegehren und Anordnungen dem BGB oder der VOB/B zu und klärt Vertretungsmacht… |
 | [`Anrechenbare Kosten, DIN 276 Und Kostengruppen`](skills/anrechenbare-kosten-din276-baukostengruppen/) | Für Anrechenbare Kosten, DIN 276 und Kostengruppen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`HOAI Querschnitt: Sucht fehler`](skills/anwaltliche-red-team-runde/) | Für HOAI Querschnitt: Sucht fehler: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Architektenhonorar und HOAI-Mindestsatz prüfen`](skills/architektenhonorar-hoai-mindestsatz-eugh-c-377-17/) | Prüft Architekten- und Ingenieurhonorar nach Auftragsdatum, HOAI-Fassung, Honorarvereinbarung… |
 | [`Architektenrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/architektenrecht-tatbestand-beweis-und-belege/) | Für Architektenrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
+| [`Aufmaß und Abrechnung prüffähig machen`](skills/aufmass-pruefung-abrechnung-klotzkette/) | Erstellt nachtragsbezogene Aufmaße und Abrechnungen und trennt technische Prüfung, Prüffähigkeit… |
 | [`Abnahme: technische Abnahme gegen rechtliche Abnahme § 640 BGB, Abnahmevoraussetzungen, Verweigerungsrechte bei wesentli`](skills/bau-abnahme-checkliste-workflow/) | Für Bau Abnahme Checkliste Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Bau- und Architektenrecht einfuehrend: Bauvertrag § 650a BGB, Verbraucherbauvertrag § 650i BGB, Architektenvertrag § 650`](skills/bau-einfuehrung-vertragstypen/) | Für Bau Einführung Vertragstypen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`HOAI in Grundzuegen: Leistungsbilder § 34 ff`](skills/bau-honorar-hoai-grundzuege/) | Für HOAI in Grundzügen: Leistungsbilder Paragraf 34 ff: ordnet Norm, Beweislast und Gegenargument… |
@@ -25,6 +28,7 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Nachtragsmanagement: § 650b BGB Anordnungsrecht, Vergueng nach § 650c BGB, Soll-Ist-Abgleich, Dokumentation Stoerung`](skills/bau-nachtrag-workflow/) | Für Bau Nachtrag Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Spezialfall Schiedsgutachten in Bauvertraegen: §§ 317 ff`](skills/bau-schiedsgutachten-spezial/) | Für Bau Schiedsgutachten Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Sicherungsmittel: § 650f BGB Bauhandwerkersicherung, Vertragserfuellungsbuergschaft, Gewaehrleistungsbuergsc`](skills/bau-sicherungsmittel-spezial/) | Für Bau Sicherungsmittel Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Bauablauf und Zeitansprüche prüfen`](skills/bauablauf-und-kausalitaet-klotzkette/) | Rekonstruiert kausale Bauzeitfolgen und trennt Fristverlängerung, Entschädigung, Schadensersatz und… |
 | [`Bauablauf mit Abhängigkeiten und realistischen Terminen fortschreiben`](skills/bauablauf-und-terminplan-fortschreiben/) | Erstellt oder korrigiert Bauablauf- und Terminpläne anhand von Planlieferungen, Vergabe, Ressourcen… |
 | [`Bauangebote vergleichbar werten und Vergabeentscheidung vorbereiten`](skills/bauangebote-werten-und-vergabevorschlag-erstellen/) | Erstellt Preisspiegel und begründeten Vergabevorschlag aus Bauangeboten, festgelegten Kriterien und… |
 | [`Bauprojektbelege mit Buchhaltung und Bank abgleichen`](skills/baubuchhaltung-und-belege-abgleichen/) | Gleicht Rechnungen, Gutschriften, Buchungen, offene Posten und Bankbewegungen im Bauunternehmen ab und… |
@@ -83,8 +87,11 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Bauvertrag: Schriftsatz-, Brief- und Memo-Bausteine`](skills/bauvertrag-schriftsatz-brief-und-memo-bausteine/) | Für Bauvertrag: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Bauvertrag und gewerkeübergreifende Schnittstellen ausformulieren`](skills/bauvertrag-und-schnittstellen-ausformulieren/) | Erstellt einen vollständigen Bauvertragsentwurf oder eine beauftragte Schnittstellenvereinbarung aus… |
 | [`Verjährung von Bauwerksmängeln prüfen`](skills/bauwerk-maengelverjaehrung-abnahme-pruefen/) | Prüft die Verjährung von Mängelansprüchen bei Bauwerken anhand Vertrag, Abnahme, Leistungszuordnung… |
+| [`Bauzeit-Claims nach Ablauf und Anspruch prüfen`](skills/bauzeit-claim-klotzkette/) | Rekonstruiert Bauzeitstörungen aus Projektunterlagen und prüft konkrete Ablaufwirkung… |
 | [`Prüft Bauzeitentschädigung wegen fehlender Mitwirkung des Bestellers durch taggenauen…`](skills/bauzeitentschaedigung-vorhaltung-und-folgezeiten/) | Prüft Bauzeitentschädigung wegen fehlender Mitwirkung des Bestellers durch taggenauen Abgleich von… |
+| [`Bedenken und Behinderung anzeigen`](skills/bedenken-behinderung-fristen-klotzkette/) | Erstellt konkrete Bedenken- und Behinderungsanzeigen und führt Zugang, Folgemaßnahmen und Wiederaufnahme… |
 | [`Behinderung mit konkreter Bauablaufwirkung dokumentieren`](skills/behinderung-und-bauzeitfolgen-dokumentieren/) | Erstellt Behinderungsanzeige, Antwort und ereignisbezogenen Bauzeitnachweis aus Sollablauf… |
+| [`Behinderungsanzeige aus Fakten entwerfen`](skills/behinderungsanzeige-aus-fakten-entwerfen-klotzkette/) | Formuliert aus Diktat, Bautagesbericht und Terminunterlagen eine konkrete Behinderungsanzeige aus Sicht… |
 | [`BGB: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/bgb-fristen-form-und-zustaendigkeit/) | Für BGB: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Bieterfragen beantworten oder eine konkrete Rüge ausarbeiten`](skills/bieterfragen-und-ruegen-bearbeiten/) | Erstellt Bieterfrage, Antwort oder vergaberechtliche Rüge mit belegtem Sachverhalt, gewünschter Abhilfe… |
 | [`LPH 6 Vorbereitung der Vergabe: Ordnet digitale modelle`](skills/bim-datenraum-dokumentation-belegakte/) | Für LPH 6 Vorbereitung der Vergabe: Ordnet digitale modelle: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -141,12 +148,14 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`LPH 1 Grundlagenermittlung: Prüft bewertungsanteil`](skills/honorar-prozentwert-input-zielcheck/) | Für LPH 1 Grundlagenermittlung: Prüft bewertungsanteil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Honorarzone, Bewertungspunkte Und Objektliste`](skills/honorarzone-bewertungspunkte-objektliste/) | Für Honorarzone, Bewertungspunkte und Objektliste: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`HOAI Querschnitt: Ordnet tga/tragwerk/ingenieurbau-schnittstellen`](skills/ingenieur-perspektive/) | Für HOAI Querschnitt: Ordnet tga/tragwerk/ingenieurbau-schnittstellen: ordnet Norm, Beweislast und… |
+| [`Nachtrag kalkulieren und Kosten belegen`](skills/kalkulation-und-kostenbelege-klotzkette/) | Berechnet Nachtragspreise mit transparentem Kostenmaßstab und kontrolliert Urkalkulation, tatsächliche… |
 | [`HOAI-Mandat anhand der Projektakte bearbeiten`](skills/kanzlei-mandatsintake-hoai/) | Für HOAI Querschnitt: Fragt anwaltlich alle unterlagen für HOAI-/bauprojektmandat ab: ordnet Norm… |
 | [`Kanzlei: Mehrparteienkonflikt und Interessenmatrix`](skills/kanzlei-mehrparteien-konflikt-und-interessen/) | Für Kanzlei: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kontaminierter Baugrund: Haftung, Sanierungspflicht und Kostenverteilung nach BBodSchG`](skills/kontaminierter-baugrund-bbodschg/) | Für Kontaminierter Baugrund: Haftung, Sanierungspflicht und Kostenverteilung nach BBodSchG: ordnet Norm… |
 | [`Kostenobergrenze, Budget Und Haftung`](skills/kostenobergrenze-budget-haftung/) | Für Kostenobergrenze, Budget und Haftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`LPH 3 Entwurfsplanung: Prüft kostenermittlung`](skills/kostensteuerung-mandanten-mangel-claim-04/) | Für LPH 3 Entwurfsplanung: Prüft kostenermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`LPH 9 Objektbetreuung: Prüft kostenermittlung`](skills/kostensteuerung-mandantenbericht-mangel-claim/) | Für LPH 9 Objektbetreuung: Prüft kostenermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Leistungsbeschreibung und Bieterfragen bearbeiten`](skills/leistungsbeschreibung-und-bieterfragen-bearbeiten-klotzkette/) | Unterstützt Vergabestellen bei der Vorprüfung einer Leistungsbeschreibung und beim Bündeln von… |
 | [`Ein ausführbares und prüfbares Leistungsverzeichnis erstellen`](skills/leistungsverzeichnis-erstellen-und-pruefen/) | Erstellt oder bereinigt ein Bauleistungsverzeichnis mit positionsbezogenen Mengen, Einheiten, Planbezug… |
 | [`Leistungsphase 1: Grundlagenermittlung`](skills/lph-01-arbeitsrouter/) | Für HOAI-Leistungsphase 1 Grundlagenermittlung: routet Bedarf, Aufgabenstellung, Ortsbesichtigung… |
 | [`Leistungsphase 2: Vorplanung`](skills/lph-02-arbeitsrouter/) | Für HOAI-Leistungsphase 2 Vorplanung: routet Planungsvarianten, Voruntersuchung, Kostenrahmen, Termine… |
@@ -225,11 +234,14 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Maengelhaftung: Verhandlung, Vergleich und Eskalation`](skills/maengelhaftung-verhandlung-vergleich-und-eskalation/) | Für Mängelhaftung: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Mängelrechte vor und nach Abnahme prüfen`](skills/maengelrechte-vor-und-nach-abnahme-pruefen/) | Prüft Mängelrechte im Werk- und Bauvertrag vor und nach Abnahme, bestimmt Erfüllungs- oder… |
 | [`Ersteinordnung neuer Mandate im Bau- und Architektenrecht: Mangeltyp, Vertragsgrundlage`](skills/mandat-triage-bau-architektenrecht/) | Für Ersteinordnung neuer Mandate im Bau- und Architektenrecht: Mangeltyp, Vertragsgrundlage: routet… |
+| [`Mengen und Leistungsänderungen trennen`](skills/mengen-und-leistungsaenderungen-klotzkette/) | Prüft Mengenabweichungen im Einheitspreisvertrag und grenzt sie gegen qualitative Änderung… |
 | [`Mitzuverarbeitende Bausubstanz Im Bestand`](skills/mitzuverarbeitende-bausubstanz/) | Für Mitzuverarbeitende Bausubstanz im Bestand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Nachbarklage gegen eine Baugenehmigung prüfen`](skills/nachbarklage-baugenehmigung-frist-und-drittschutz/) | Für Nachbarklage gegen eine Baugenehmigung prüfen: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`/baurecht:nachbarrechtlicher-baustreit`](skills/nachbarrechtlicher-baustreit-borghei/) | Nachbarliche Abwehr gegen Bauvorhaben in beiden Spuren: öffentlich-rechtlich Drittanfechtung der… |
 | [`Nachtrag sachlich prüfen, rechnen und vollständig vereinbaren`](skills/nachtraege-pruefen-und-vereinbaren/) | Prüft Bauleistungsänderungen und Nachtragsangebote nach Ursache, Beauftragung, Mengen, Preis und Bauzeit… |
 | [`Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung`](skills/nachtragsmanagement-650b/) | Für Nachtragsmanagement 650b: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Nachtragsmanagement nach dem Zuschlag`](skills/nachtragsmanagement-hauptproblem-klotzkette/) | Führt Auftragnehmer nach dem Zuschlag vom konkreten Nachtragsproblem über die passende Fachprüfung zum… |
+| [`Nachträge dem Grunde und der Höhe nach prüfen`](skills/nachtragspruefung-klotzkette/) | Prüft Nachträge für Bauherren und Projektsteuerung zuerst dem Grunde und danach der Höhe nach. Verknüpft… |
 | [`Nachunternehmerleistung und Sicherheiten nachvollziehbar steuern`](skills/nachunternehmer-und-sicherheiten-steuern/) | Erstellt einen nachunternehmerbezogenen Leistungs-, Nachweis- und Sicherheitenstand mit konkreter… |
 | [`Projektlage in eine entscheidungsfähige Vorlage überführen`](skills/projektbericht-und-entscheidungsvorlage-erstellen/) | Erstellt einen adressatengerechten Bauprojektbericht oder eine Beschlussvorlage mit abgeglichenem… |
 | [`Projektzahlungen und verfügbare Liquidität planen`](skills/projektliquiditaet-und-zahlungsplan-erstellen/) | Erstellt einen fortgeschriebenen Zahlungs- und Liquiditätsplan für Bauvorhaben oder Bauunternehmen mit… |
@@ -253,8 +265,11 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Verbraucherhinweis Und Honorarvereinbarung`](skills/verbraucherhinweis-honorarvereinbarung/) | Für Verbraucherhinweis und Honorarvereinbarung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vergabeverfahren und fachlich begründete Lose vorbereiten`](skills/vergabe-und-losbildung-vorbereiten/) | Erstellt Vergabefahrplan, Auftragswertschätzung und Loskonzept für Bauherren und Vergabeteams. Prüft… |
 | [`Vergaberecht: Zahlen, Schwellenwerte und Berechnung`](skills/vergaberecht-zahlen-schwellen-und-berechnung/) | Für Vergaberecht: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
+| [`Nachtrag verhandeln und abschließen`](skills/verhandlung-vorbehalt-abnahme-klotzkette/) | Formuliert Nachtragsvereinbarungen, Vergleiche und Vorbehalte mit klarer Abgeltungsreichweite und… |
 | [`LPH 8 Objektüberwachung - Bauüberwachung und Dokumentation: Ordnet vertrag`](skills/vertrag-beauftragungsumfang-vertragliche/) | Für LPH 8 Objektüberwachung - Bauüberwachung und Dokumentation: Ordnet vertrag: ordnet Norm, Beweislast… |
+| [`Vertragsbaseline und VOB/B prüfen`](skills/vertragsbaseline-pruefen-klotzkette/) | Prüft nach dem Zuschlag den vereinbarten Leistungserfolg und die wirksame Einbeziehung der VOB/B als… |
 | [`Vertragstypen: Red-Team und Qualitätskontrolle`](skills/vertragstypen-red-team-und-qualitaetskontrolle/) | Für Vertragstypen: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
+| [`VgV-Bewerbungen kriterienscharf ausarbeiten`](skills/vgv-bewerbung-klotzkette/) | Erstellt VgV-Bewerbungen von Planungsbüros mit versionsfester Kriterienmatrix, belegter Referenzauswahl… |
 | [`Bauzeitverzug und Kündigung nach VOB/B prüfen`](skills/vob-b-bauzeitverzug-kuendigung-pruefen/) | Prüft Bauzeitverzug, Behinderung, Vertragsfrist und Entziehung des Auftrags nach VOB/B, rekonstruiert… |
 | [`VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen`](skills/vob-schiedsgutachten-schlichtung/) | Für VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen: ordnet Norm… |
 | [`/baurecht:vob-werkvertrag-mangelpruefung`](skills/vob-werkvertrag-mangelpruefung-borghei/) | Mängelprüfung am Bauwerk: Vertragsregime klären (BGB-Werkvertrag §§ 631 ff., Bauvertrag §§ 650a ff.… |
@@ -262,6 +277,7 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung`](skills/werkmangel-vob-bgb-pruefen/) | Für Werkmangel VOB BGB Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Werkvertrag: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/werkvertrag-dokumentenmatrix-und-lueckenliste/) | Für Werkvertrag: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
 | [`Wiederholungsleistungen Und Planungsänderung`](skills/wiederholungsleistungen-planungsaenderung/) | Für Wiederholungsleistungen und Planungsänderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Zahlung, Sicherung und Eilverfahren prüfen`](skills/zahlung-sicherung-eilverfahren-klotzkette/) | Prüft fällige Nachtragszahlungen, Zinsen, Bauhandwerkersicherung und den begrenzten Anwendungsbereich… |
 | [`Zielfindungsphase Nach BGB 650p Und 650r`](skills/zielfindungsphase-bgb-650p-650r/) | Für Zielfindungsphase nach BGB 650p und 650r: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 
 ## Cold-start context

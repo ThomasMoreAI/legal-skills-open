@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (468)
+## Skills (477)
 
 | Skill | What it does |
 |---|---|
@@ -124,6 +124,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO`](skills/datenschutz-schadensersatz-art-82-dsgvo-gerichtsstreit/) | Führt einen Anspruch nach DSGVO Artikel 82 auf Kläger- oder Beklagtenseite durch Verstoß, materiellen… |
 | [`Datenschutz: SCHUFA-Insolvenzdaten löschen`](skills/datenschutz-schufa-insolvenzdaten-loeschung/) | Für Datenschutz: SCHUFA-Insolvenzdaten löschen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Scoring und Art. 22 DSGVO nach EuGH C-634/21`](skills/datenschutz-scoring-art22-schufa-c63421/) | Für Scoring und Art. 22 DSGVO nach EuGH C-634/21: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Datenschutzinformationen und Patientenrechte bearbeiten`](skills/datenschutzinformationen-betroffenenrechte-klotzkette/) | Erstellt verständliche Datenschutzhinweise für Patienten und Beschäftigte und bearbeitet Auskunfts… |
 | [`Anschluss-Routing`](skills/datenschutzrecht-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/datenschutzrecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/datenschutzrecht-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -150,6 +151,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Dpia: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/dpia-dokumentenmatrix-und-lueckenliste/) | Für Dpia: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`DPIA Management Summary in English`](skills/dpia-en-summary-for-management/) | Für DPIA Management Summary in English: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`DPIA Full Template in English`](skills/dpia-en-template-full-version/) | Für DPIA Full Template in English: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Drittlandzugriffe und TIA bearbeiten`](skills/drittland-transfer-impact-assessment-klotzkette/) | Bewertet Fernwartung und Drittlandtransfers in Krankenhaus-Clouds. Prüft Transfermechanismus und… |
 | [`Drittlandstransfer-Prüfung (Art. 44 ff. DSGVO)`](skills/drittlandstransfer-pruefung/) | Für Drittlandstransfer-Prüfung (Art. 44 ff. DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Drittlandstransfer: Verhandlung, Vergleich und Eskalation`](skills/drittlandstransfer-tia-scc/) | Für Drittlandstransfer: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und… |
 | [`Drittlandstransfer: Verhandlung, Vergleich und Eskalation`](skills/drittlandstransfer-verhandlung-vergleich-und-eskalation/) | Für Drittlandstransfer: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und… |
@@ -172,6 +174,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO`](skills/dsfa-restrisiko-und-art-36-konsultation/) | Für Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`Risikoanalyse Eintrittswahrscheinlichkeit mal Schadenschwere`](skills/dsfa-risikoanalyse/) | Für Risikoanalyse Eintrittswahrscheinlichkeit mal Schadenschwere: ordnet Norm, Beweislast und… |
 | [`Risikoanalyse im Rahmen der DSFA: Eintrittswahrscheinlichkeit mal Schadenschwere für Bedrohungsszenarien systematisch er`](skills/dsfa-risikoanalyse-eintrittswahrscheinlichkeit-schaden/) | Für DSFA Risikoanalyse Eintrittswahrscheinlichkeit Schaden: ordnet Norm, Beweislast und Gegenargument… |
+| [`DSFA und Schutzmaßnahmen erarbeiten`](skills/dsfa-schutzmassnahmen-erarbeiten-klotzkette/) | Erstellt eine Datenschutz-Folgenabschätzung für Krankenhaus-IT und KI mit patientenbezogenen Risiken… |
 | [`Stakeholder-Konsultation nach Art. 35 Abs. 9 DSGVO`](skills/dsfa-stakeholder-konsultation-art-35-9/) | Für Stakeholder-Konsultation nach Art. 35 Abs. 9 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSFA-Vollvorlage Deutsch`](skills/dsfa-template-deutsch-vollvorlage/) | Für DSFA-Vollvorlage Deutsch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Typische Fehler bei der DSFA-Erstpruefung`](skills/dsfa-typische-fehler-bei-erstpruefung/) | Für Typische Fehler bei der DSFA-Erstprüfung: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
@@ -289,6 +292,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Forensische Erstsicherung — Beauftragung und Steuerung`](skills/forensische-erstsicherung/) | Für Forensische Erstsicherung — Beauftragung und Steuerung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Prompt-Injection: Prüfung`](skills/forensische-prompt-gutachten-erstellen/) | Für Prompt-Injection: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prompt-Injection: Prüfung`](skills/forensische-pruefung-prompt-injection/) | Für Prompt-Injection: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`Forschung und Sekundärnutzung abgrenzen`](skills/forschung-sekundaernutzung-abgrenzen-klotzkette/) | Prüft retrospektive Versorgungsforschung und andere Sekundärnutzung von Krankenhausdaten. Trennt… |
 | [`Vertragspruefung: Fristennotiz und nächster Schritt`](skills/fristennotiz-naechster-vorpruefung/) | Für Vertragsprüfung: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Fristverlängerung gegenüber Aufsicht`](skills/fristverlaengerung-behoerde-ohne-nachteile/) | Für Fristverlängerung gegenüber Aufsicht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Funktionsuebertragung versus Auftragsverarbeitung`](skills/funktionsuebertragung-vs-auftragsverarbeitung/) | Für Funktionsübertragung versus Auftragsverarbeitung: ordnet Norm, Beweislast und Gegenargument… |
@@ -335,11 +339,13 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Klauseln: Beweislast, Darlegungslast und Substantiierung`](skills/klauseln-beweislast-verschwiegenheitsklausel/) | Für Klauseln: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Klauselvorschläge — Bausteine`](skills/klauseln-providervertrag/) | Für Klauselvorschläge — Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kommunikationssperre nach Datenschutzvorfall`](skills/kommunikationssperre/) | Für Kommunikationssperre nach Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Krankenhausdigitalisierung vom Vorhaben zum Betrieb steuern`](skills/krankenhaus-digitalisierung-steuern-klotzkette/) | Hauptskill für IT-Verantwortliche eines Krankenhauskonzerns. Führt administrative, medizinische und… |
 | [`Kuendigung Saas § 543 BGB`](skills/kuendigung-saas-paragraf-543-bgb/) | Für Kündigung Saas Paragraf 543 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Federführende Aufsichtsbehörde im Konzern — Art. 56 DSGVO`](skills/lead-authority-konzern/) | Für Federführende Aufsichtsbehörde im Konzern — Art. 56 DSGVO: ordnet Norm, Beweislast und… |
 | [`Legal: Behörden-, Gerichts- oder Registerweg`](skills/legal-behoerden-gericht-und-registerweg/) | Für Legal: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Legal: Behörden-, Gerichts- oder Registerweg`](skills/legal-behoerden-gerichts-registerweg/) | Für Legal: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lessons Learned und Nachbereitung Datenschutzvorfall`](skills/lessons-learned-nachbereitung/) | Für Lessons Learned und Nachbereitung Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument… |
+| [`Lieferanten, AVV und Geheimnisschutz prüfen`](skills/lieferanten-avv-geheimnisschutz-klotzkette/) | Prüft Krankenhaus-IT-Verträge auf Rollen, Auftragsverarbeitung, Unterauftragnehmer, Geheimnisschutz… |
 | [`Lizenz: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/lizenz-risikoampel-und-gegenargumente/) | Für Lizenz: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Mandanten kommunikations log`](skills/mandanten-kommunikations-log/) | Für /mandanten-kommunikations-log: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mandantendaten und KI-Dienstleister (§ 203 StGB, Art. 28 DSGVO)`](skills/mandantendaten-ki/) | Für Mandantendaten und digitale Werkzeuge-Dienstleister (Paragraf 203 StGB, Art. 28 DSGVO): ordnet Norm… |
@@ -378,6 +384,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Rechtsabteilung: Unternehmensgeldbuße nach Deutsche Wohnen`](skills/rechtsabteilung-unternehmensgeldbusse/) | Für Rechtsabteilung: Unternehmensgeldbuße nach Deutsche Wohnen: ordnet Norm, Beweislast und… |
 | [`Rechtsabteilungs-Fachmodul für Unternehmensgeldbuße nach Deutsche Wohnen: Rechtsabteilungen verteidigen Bußgelder ohne d`](skills/rechtsabteilung-unternehmensgeldbusse-nach-deutsche-wohn/) | Für Rechtsabteilung Unternehmensgeldbusse nach Deutsche Wohnen: ordnet Norm, Beweislast und… |
 | [`Rechtsgrundlage: Mandantenkommunikation und Entscheidungsvorlage`](skills/rechtsgrundlage-mandantenentscheidung/) | Für Rechtsgrundlage: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
+| [`Rechtsgrundlagen und Verzeichnis der Verarbeitungstätigkeiten`](skills/rechtsgrundlagen-vvt-pruefen-klotzkette/) | Prüft Zweck und Rechtsgrundlage neuer Krankenhausverarbeitungen einschließlich Gesundheitsdaten und… |
 | [`Rechtsunsicherheit zu § 43e BRAO dokumentieren`](skills/rechtspolitische-unsicherheit-43e-brao/) | Für Rechtsunsicherheit zu Paragraf 43e BRAO dokumentieren: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rechtsunsicherheit zu § 43e BRAO dokumentieren`](skills/rechtspolitische-unsicherheit-rueckfragebrief/) | Für Rechtsunsicherheit zu Paragraf 43e BRAO dokumentieren: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Rechtsprechung BGH und OLG zum immateriellen Schaden Art. 82 DSGVO`](skills/rechtsprechung-immaterieller-schaden-bgh/) | Für Rechtsprechung BGH und OLG zum immateriellen Schaden Art. 82 DSGVO: ordnet Norm, Beweislast und… |
@@ -421,6 +428,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Schnittstellen: Formular, Portal und Einreichungslogik`](skills/schnittstellen-formular-portal-und-einreichung/) | Für Schnittstellen: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Drittlandübermittlung nach Schrems II prüfen`](skills/schrems-ii-drittlandsuebermittlung-c-311-18/) | Prüft Drittlandübermittlungen nach Schrems II und aktuellem Kapitel V der DSGVO. |
 | [`SCHUFA-Zahlungsstörungen: Speicherfrist nach BGH 2025`](skills/schufa-zahlungsstoerungen-speicherfrist-bgh-2025/) | Für SCHUFA-Zahlungsstörungen: Speicherfrist nach BGH 2025: prüft Frist, Form, Zuständigkeit und… |
+| [`Sicherheit, Ausfall und Datenpannen steuern`](skills/sicherheit-stoerungen-vorfaelle-klotzkette/) | Bereitet sichere Krankenhaus-IT und KI auf Ausfälle und Vorfälle vor. Verbindet Wiederanlauf… |
 | [`Sofortmaßnahmen-Checkliste nach Datenschutzvorfall`](skills/sofortmassnahmen-checkliste/) | Für Sofortmaßnahmen-Checkliste nach Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument… |
 | [`Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht`](skills/software-mangel/) | Für Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht: ordnet Norm… |
 | [`Softwarepflege Vertrag § 307 BGB`](skills/softwarepflege-vertrag-paragraf-307-bgb/) | Für Softwarepflege Vertrag Paragraf 307 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -471,6 +479,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Vertrag: Fristennotiz und nächster Schritt`](skills/vertrag-fristennotiz-und-naechster-schritt/) | Für Vertrag: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Vertragspruefung: Fristennotiz und nächster Schritt`](skills/vertragspruefung-fristennotiz-naechster/) | Für Vertragsprüfung: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Vertragsstrafenklausel in IT-Vertraegen auf AGB-Wirksamkeit und Hoechstgrenzen prüfen`](skills/vertragsstrafe-pruefen/) | Für Vertragsstrafenklausel in IT-Verträgen auf AGB-Wirksamkeit und Höchstgrenzen prüfen: ordnet Norm… |
+| [`Vorhaben, Datenflüsse und Verantwortung klären`](skills/vorhaben-datenfluesse-rollen-klotzkette/) | Erfasst neue Krankenhaus-IT und KI vom Behandlungsvorgang bis zu Support und Training. Erstellt eine… |
 | [`Vorpruefung: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vorpruefung-fristen-form-zustaendigkeit-rechtsweg/) | Für Vorprüfung: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Aktualisierung des Verfahrensverzeichnisses nach Datenschutzvorfall`](skills/vvt-update-nach-vorfall/) | Für Aktualisierung des Verfahrensverzeichnisses nach Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Output wählen`](skills/workflow-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

@@ -4,10 +4,50 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 
-## Skills (674)
+## Skills (714)
 
 | Skill | What it does |
 |---|---|
+| [`Mietakte rekonstruieren`](skills/02-mietakte-rekonstruieren-klotzkette/) | Mietvertrag mit Nachträgen rekonstruieren. Wohnraum und Gewerberaum, Form, Indexklausel, Staffelmiete… |
+| [`Chronologie der Fallakte`](skills/05-chronologie-fallakte-klotzkette/) | Chronologie, Ereignisachse und Fristenhistorie aufbauen oder mit neuer Zahlung, Gerichtspost und… |
+| [`Eskalation an externe Anwaltskanzlei`](skills/08-eskalation-an-anwalt-klotzkette/) | Eskalation und Steuerung eigener externer Rechtsanwaltskanzlei. Trigger Insolvenz, Berufung, abweisendes… |
+| [`Mahnschreiben Mietrückstand`](skills/09-mietrueckstand-mahnung-erstellen-klotzkette/) | Mahnung wegen Mietrückstand. Erste Mahnung freundlich. Zweite Mahnung mit Klageandrohung. Verzugszinsen… |
+| [`Ratenvereinbarung Stundung`](skills/10-zahlungsplan-stundungsvereinbarung-klotzkette/) | Zahlungsplan, Ratenplan, Teilzahlungsvereinbarung, Stundung, Schuldanerkenntnis und Verfallklausel… |
+| [`Verzugsschaden berechnen`](skills/11-verzugsschaden-berechnen-klotzkette/) | Verzugsschaden nach Paragraf 280 und 286 BGB. Zinsen, Inkasso- und Anwaltskosten, Bonitätsauskunft und… |
+| [`Vorgerichtliche letzte Frist`](skills/12-vorgerichtliche-letzte-frist-klotzkette/) | Letzte kalendarische Frist mit Klageandrohung aus einer geprüften Mietforderung erstellen. Zugang… |
+| [`Fristlose Kündigung wegen Zahlungsverzug`](skills/13-fristlose-kuendigung-zahlungsverzug-klotzkette/) | Fristlose Kündigung wegen Mietzahlungsverzug nach Paragraf 543 und 569 BGB erstellen.… |
+| [`Ordentliche Kündigung wegen Pflichtverletzung`](skills/14-ordentliche-kuendigung-pflichtverletzung-klotzkette/) | Ordentliche Kündigung wegen schuldhafter Pflichtverletzung nach Paragraf 573 BGB erstellen. Frist… |
+| [`Kündigung Zustellungsnachweis`](skills/15-kuendigung-zustellung-nachweis-klotzkette/) | Pflichtskill nach freigegebenem Kündigungsentwurf. Freigabekarte, Zugang, Botenvermerk, Einwurf, Zeuge… |
+| [`Widerspruch Mieter Paragraf 574 BGB prüfen`](skills/16-widerspruch-mieter-pruefen-klotzkette/) | Sozialwiderspruch des Mieters gegen Kündigung nach Paragraf 574 BGB prüfen. Härtefall, Ersatzwohnraum… |
+| [`Mahnbescheid als optionale Abzweigung`](skills/17-mahnbescheid-online-antrag-klotzkette/) | Optionale Mahnverfahren-Abzweigung für bestimmte Euro-Geldforderung prüfen. Ausschlüsse nach Paragraf… |
+| [`Widerspruch und Einspruch nach Mahnverfahren`](skills/18-widerspruch-vollstreckungsbescheid-klotzkette/) | Mahnbescheid-Widerspruch oder Einspruch gegen Vollstreckungsbescheid auswerten. Abgabe an Streitgericht… |
+| [`Vollstreckungsbescheid als optionale Folge`](skills/19-vollstreckungsbescheid-antrag-klotzkette/) | Vollstreckungsbescheid nur als optionale Folge eines zuvor gewählten Mahnverfahrens prüfen. Fristen… |
+| [`Zahlungsklage Mietrückstand`](skills/20-zahlungsklage-mietrueckstand-erstellen-klotzkette/) | Reine Zahlungsklage wegen Mietrückstand ohne Räumungsantrag erstellen. Mietkonto, Belegmatrix, Rubrum… |
+| [`Streitwert und Gerichtskosten`](skills/21-klage-streitwert-gerichtskosten-klotzkette/) | Streitwert und Gerichtskosten für Zahlungsklage, Räumung, Mieterhöhung und Mietpreisbremse prüfen.… |
+| [`Zuständigkeit Amtsgericht und Anwaltszwang`](skills/22-zustaendigkeit-amtsgericht-pruefen-klotzkette/) | Sachliche und örtliche Zuständigkeit prüfen plus Anwaltszwang nach Paragraf 78 ZPO. Wohnraummietsachen… |
+| [`Gerichtsprozess-Dokumentenproduktion und Übermittlungsweg`](skills/23-klage-egvp-bea-einreichen-klotzkette/) | Gerichtsfertige Dokumentenproduktion für Klage, Replik, Antrag und sonstigen Schriftsatz. Nutze ihn bei… |
+| [`Räumungsklage Wohnraum`](skills/24-raeumungsklage-erstellen-klotzkette/) | Leadskill für Räumungsklage Wohnraum nach Kündigung. Wohnung räumen und herausgeben, Kombiklage mit… |
+| [`Räumungsfrist und Vollstreckung`](skills/25-raeumungsfrist-vollstreckung-klotzkette/) | Räumungstitel, Räumungsfrist Paragraf 721 ZPO, Räumungstermin, Gerichtsvollzieherauftrag, GV-Auftrag… |
+| [`Berliner Modell Paragraf 885a ZPO`](skills/26-berliner-modell-raeumung-klotzkette/) | Berliner Räumung als beschränkten Vollstreckungsauftrag nach Paragraf 885a ZPO prüfen. Besitzübergabe… |
+| [`Schonfristzahlung erkennen`](skills/27-schonfristzahlung-erkennen-klotzkette/) | Schonfristzahlung erst nach Rechtshängigkeit der Räumungsklage prüfen. Jobcenter-Zahlung, vollständige… |
+| [`Mieterhöhung Paragraf 558 BGB vorbereiten`](skills/28-mieterhoehung-bgb-558-vorbereiten-klotzkette/) | Verwenden vor dem ersten Mieterhöhungsverlangen, wenn Ausgangsmiete, Sperrfrist, Kappungsgrenze… |
+| [`Mieterhöhungsverlangen Text`](skills/29-mieterhoehungsverlangen-text-klotzkette/) | Verwenden, wenn die Prüfung aus Skill 28 abgeschlossen ist und das Mieterhöhungsverlangen nach… |
+| [`Zustimmungsklage Mieterhöhung`](skills/30-zustimmungsklage-mieterhoehung-klotzkette/) | Verwenden erst nach wirksamem Mieterhöhungsverlangen und abgelaufener Zustimmungsfrist, wenn Zustimmung… |
+| [`Kappungsgrenze und Mietpreisbremse`](skills/31-kappungsgrenze-mietpreisbremse-klotzkette/) | Kappungsgrenze bei Bestandsmieterhöhung und Mietpreisbremse bei Neuvermietung getrennt prüfen. 15… |
+| [`Datenschutz Mieterdaten`](skills/32-datenschutz-mieterdaten-klotzkette/) | Datenschutz für Miet-, Prozess- und Vollstreckungsakten nach DSGVO und BDSG prüfen. Rechtsgrundlage… |
+| [`Klageerwiderung auswerten`](skills/37-klageerwiderung-auswerten-klotzkette/) | Neue Klageerwiderung, Gerichtspost oder gegnerischen Schriftsatz im laufenden Prozess als Delta… |
+| [`Replik erstellen`](skills/38-replik-erstellen-klotzkette/) | Replik auf Klageerwiderung oder gerichtlichen Hinweis erstellen. Gegenvortrag, Beweise, Anlagen, Anträge… |
+| [`Beweisangebot und gerichtsfester Anlagenplan`](skills/39-beweisangebot-anlagenplan-klotzkette/) | Vor Klage, Replik, Verteidigung oder beA-Paket: ordnet erhebliche Tatsachen Beweismitteln, Beweislast… |
+| [`Urkundsprozess prüfen`](skills/40-urkundsprozess-pruefen-klotzkette/) | Urkundenprozess nach Paragrafen 592 bis 600 ZPO für Mietforderungen prüfen. Bestimmte Geldforderung… |
+| [`Vergleich und Raten im Prozess`](skills/41-vergleich-raten-prozess-klotzkette/) | Außergerichtlichen oder gerichtlichen Vergleich mit Raten, Zahlung, Räumung und Kosten strukturieren.… |
+| [`Mieterklage verteidigen`](skills/42-mieterklage-verteidigen-klotzkette/) | Nur bei umgekehrter Prozesslage: Mieter verklagt Vermieterin oder erhebt Widerklage. Verteidigung gegen… |
+| [`Mieterverein- und Anwaltskorrespondenz`](skills/43-mieterverein-anwalt-korrespondenz-klotzkette/) | Außergerichtliche Schreiben von Mieter, Mieterverein oder Anwalt beantworten. Vollmacht, Datenschutz… |
+| [`Betriebskosten-Rückstand und Streit`](skills/44-betriebskosten-rueckstand-streit-klotzkette/) | Prüft Betriebskosten-Nachforderungen, Vorauszahlungen und Einwendungen. Rechnet Kostenanteile nach… |
+| [`Kostenfestsetzungsantrag vorbereiten`](skills/46-kostenfestsetzung-antrag-klotzkette/) | KFA nach prozessualer Kostengrundentscheidung in Urteil, Beschluss oder Vergleich vorbereiten. Tenor… |
+| [`Kostenfestsetzungsbeschluss prüfen`](skills/47-kostenbeschluss-pruefen-klotzkette/) | KFB und Kostenfestsetzungsbeschluss prüfen. Abweichung vom KFA, Tenor, Betrag, Zinsen, Quote… |
+| [`Titulierte Forderung vollstrecken`](skills/48-titulierte-forderung-vollstrecken-klotzkette/) | Verwenden nach vorhandenem Urteil, Vergleich, Vollstreckungsbescheid oder KFB, wenn eine konkrete… |
+| [`Kontoermittlung und Drittauskunft`](skills/49-kontoermittlung-und-drittauskunft-klotzkette/) | Verwenden nur nach Titel, wenn Bank, Arbeitgeber oder andere pfändbare Spur unbekannt ist und eine… |
+| [`Vollstreckungsakte und Monitoring`](skills/50-vollstreckungsakte-monitoring-klotzkette/) | Vollstreckungsakte nach Titelgewinn führen und bei neuer Zahlung, Rate, GV-Rücklauf, Pfändung oder… |
 | [`Laufzeitende und Exitplan`](skills/ablauf-laufzeitende-erbbaurecht-aktenstruktur/) | Für Laufzeitende und Exitplan: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Abnahme Gemeinschaftseigentum`](skills/abnahme-gemeinschaftseigentum/) | Für Abnahme Gemeinschaftseigentum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Abnahme, Gemeinschaftseigentum, Schlussrate und Mängelrechte`](skills/abnahme-gemeinschaftseigentum-schlussrate-und-maengelrec/) | Für Abnahme, Gemeinschaftseigentum, Schlussrate und Mängelrechte: ordnet Norm, Beweislast und… |

@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 
-## Skills (613)
+## Skills (623)
 
 | Skill | What it does |
 |---|---|
@@ -169,6 +169,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Datenschutz Pruefungsdaten`](skills/datenschutz-pruefungsdaten/) | Für Datenschutz Prüfungsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Datenschutz Prüfungsdaten`](skills/datenschutz-pruefungsdaten-drittversuch/) | Für Datenschutz Prüfungsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Datenschutz Schule`](skills/datenschutz-schule/) | Für Datenschutz Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Deckung und Rückdeckung prüfen`](skills/deckung-und-rueckdeckung-pruefen-klotzkette/) | Liest reale Haftpflicht-, Verbands- und Rückdeckungsunterlagen für den einzelnen Kommunalschaden; prüft… |
 | [`Denkmaleigenschaft feststellen`](skills/denkmaleigenschaft-feststellen/) | Für Denkmaleigenschaft feststellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Denkmalschutz Baden-Württemberg (DSchG-BW)`](skills/denkmalschutz-baden-wuerttemberg-dschg-bw/) | Für Denkmalschutz Baden-Württemberg (DSchG-BW): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Denkmalschutz Bayern (BayDSchG)`](skills/denkmalschutz-bayern-baydschg/) | Für Denkmalschutz Bayern (BayDSchG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -305,6 +306,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Fuehrung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/fuehrung-schriftsatz-brief-memo-bausteine/) | Für Führung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Fuehrung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/fuehrung-schriftsatz-brief-und-memo-bausteine/) | Für Führung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Gastwissenschaftler, Sanktionen und Dual Use`](skills/gastwissenschaftler-sanktionen-dual-use/) | Für Gastwissenschaftler, Sanktionen und Dual Use: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Gebäude- und Veranstaltungsschäden prüfen`](skills/gebaeude-und-veranstaltungsschaeden-pruefen-klotzkette/) | Prüft Sturz- und Besucherschäden an kommunalen Gebäuden und Veranstaltungen anhand konkreter Gefahr… |
 | [`Gehwegparken und behördliches Einschreiten`](skills/gehwegparken-und-behoerdliches-einschreiten/) | Bereitet ein belegtes Einschreitensbegehren gegen erheblich behinderndes Gehwegparken vor und prüft… |
 | [`Geschäftsverteilung Richter § 21e GVG`](skills/geschaeftsverteilung-richter-21e-gvg/) | Für Geschäftsverteilung Richter Paragraf 21e GVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gewaltschutz und schulischer Schutzplan`](skills/gewaltschutz-und-schulischer-schutzplan/) | Für Gewaltschutz und schulischer Schutzplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -323,6 +325,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Gute wissenschaftliche Praxis Verfahren`](skills/gute-wissenschaftliche-praxis-verfahren/) | Für Gute wissenschaftliche Praxis Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gymnasialempfehlung Und Uebergang`](skills/gymnasialempfehlung-uebergang-handyverbot/) | Für Gymnasialempfehlung und Übergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Habilitation`](skills/habilitation-hausrecht-campus-hochschularchiv/) | Für Habilitation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Haftungsweg und Verantwortung klären`](skills/haftungsweg-und-verantwortung-klaeren-klotzkette/) | Bestimmt bei kommunalen Schäden Anspruchsgrundlagen, richtige Rechtsträger, hoheitliche oder… |
 | [`Halten, Parken und Ladeflächen klären`](skills/halten-parken-und-ladeflaechen-klaeren/) | Klärt Halten, Parken und echte Ladetätigkeit anhand von Beschilderung und Ablauf und entwirft nutzbare… |
 | [`Speicherstadt und Kontorhausviertel mit Chilehaus als UNESCO-Welterbe`](skills/hamburg-spezial-speicherstadt-kontorhausviertel/) | Für Speicherstadt und Kontorhausviertel mit Chilehaus als UNESCO-Welterbe: ordnet Norm, Beweislast und… |
 | [`NKR-Handelsregister und elektronische Zustellung`](skills/handelsregister-elektronische-zustellung/) | Für NKR-Handelsregister und elektronische Zustellung: ordnet Norm, Beweislast und Gegenargument… |
@@ -371,6 +374,8 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Kleine: Verhandlung, Vergleich und Eskalation`](skills/kleine-verhandlung-vergleich-und-eskalation/) | Für Kleine: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Satzung Entwerfen Und Pruefen`](skills/kom-006-satzung-entwerfen-und-pruefen/) | Für Satzung Entwerfen und Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Stadtrat Zustaendigkeit Pruefen`](skills/kom-048-stadtrat-zustaendigkeit-pruefen/) | Für Stadtrat Zuständigkeit Prüfen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt… |
+| [`Kommunale Fahrzeugschäden prüfen`](skills/kommunale-fahrzeugschaeden-pruefen-klotzkette/) | Prüft Unfälle kommunaler Fahrzeuge mit Halter, Fahrer, hoheitlichem Einsatz, mehreren Geschädigten… |
+| [`Kommunalen Haftpflichtfall bearbeiten`](skills/kommunalen-haftpflichtfall-bearbeiten-klotzkette/) | Hauptworkflow für die kommunale Schadenbearbeitung vom belegten Sachverhalt über Haftung, Schadenhöhe… |
 | [`Kommunalrecht In Einfacher Sprache`](skills/kommunalrecht-in-einfacher-sprache/) | Für Kommunalrecht in Einfacher Sprache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Kommunalrecht Länder`](skills/kommunalrecht-laender-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Kommunalrecht Länder ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Kommunalrecht der Länder - Allgemeiner Einstieg`](skills/kommunalrecht-laender-kaltstart-triage/) | Für Kommunalrecht der Länder - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
@@ -395,6 +400,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Lehrmittel und Lernmittelfreiheit`](skills/lehrmittel-und-lernmittelfreiheit/) | Für Lehrmittel und Lernmittelfreiheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands`](skills/leitfaden-ermittlung/) | Für NKR-Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands: ordnet Norm, Beweislast und… |
 | [`NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands`](skills/leitfaden-ermittlung-und-darstellung/) | Für NKR-Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands: ordnet Norm, Beweislast und… |
+| [`Leitungswasser- und Gewerbeschäden prüfen`](skills/leitungswasser-und-gewerbeschaeden-pruefen-klotzkette/) | Bearbeitet kommunale Rohrbruchfälle mit Anlagenzuordnung, möglicher Haftung nach HaftPflG, vertraglichen… |
 | [`Backsteingotik Stralsund und Wismar als UNESCO-Welterbe`](skills/mecklenburg-vorpommern-spezial-backsteingotik-stralsund/) | Für Backsteingotik Stralsund und Wismar als UNESCO-Welterbe: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mehrarbeitsverguetung nach § 88 BBG`](skills/mehrarbeitsverguetung-88-bbg/) | Für Mehrarbeitsvergütung nach Paragraf 88 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mehrsprachige Elternkommunikation`](skills/mehrsprachige-elternkommunikation/) | Für Mehrsprachige Elternkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -489,6 +495,8 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Redteam Hochschulrecht Qualitygate`](skills/redteam-hochschulrecht-qualitygate/) | Für Redteam Hochschulrecht Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Redteam Prüfungsrecht Qualitygate`](skills/redteam-pruefungsrecht-qualitygate/) | Für Redteam Prüfungsrecht Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Redteam Schulrecht Qualitygate`](skills/redteam-schulrecht-qualitygate/) | Für Redteam Schulrecht Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
+| [`Regress und Verjährung sichern`](skills/regress-und-verjaehrung-sichern-klotzkette/) | Prüft eigene und übergegangene Rückgriffsansprüche, Vertragspartner, Verjährung, Verhandlungen und… |
+| [`Regulierung und Kommunikation erstellen`](skills/regulierung-und-kommunikation-erstellen-klotzkette/) | Erstellt aus der geprüften kommunalen Schadenakte vollständige Eingangsschreiben, Beleganforderungen… |
 | [`Religionsunterricht Ethik Befreiung`](skills/religionsunterricht-ethik-befreiung/) | Für Religionsunterricht Ethik Befreiung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Reviewer: Beweislast, Darlegungslast und Substantiierung`](skills/reviewer-beweislast-darlegungslast/) | Für Reviewer: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Reviewer: Beweislast, Darlegungslast und Substantiierung`](skills/reviewer-beweislast-und-darlegungslast/) | Für Reviewer: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
@@ -507,6 +515,8 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Sachbeihilfe: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/sachbeihilfe-fristen-form-zustaendigkeit/) | Für Sachbeihilfe: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Bauhaus, Quedlinburg und Lutherstaetten als UNESCO-Welterbe in Sachsen-Anhalt`](skills/sachsen-anhalt-spezial-bauhaus-quedlinburg-luther/) | Für Bauhaus, Quedlinburg und Lutherstätten als UNESCO-Welterbe in Sachsen-Anhalt: ordnet Norm… |
 | [`Montanregion Erzgebirge und Muskauer Park als UNESCO-Welterbe in Sachsen`](skills/sachsen-spezial-montanregion-erzgebirge-muskauer-park/) | Für Montanregion Erzgebirge und Muskauer Park als UNESCO-Welterbe in Sachsen: ordnet Norm, Beweislast… |
+| [`Schaden aufnehmen und Belege sichern`](skills/schaden-aufnehmen-und-belege-sichern-klotzkette/) | Ordnet neue kommunale Schadenmeldungen, widersprechende Belege und Gesundheitsdaten; erstellt Fallkarte… |
+| [`Schadenhöhe und Anspruchsübergänge prüfen`](skills/schadenhoehe-und-anspruchsuebergaenge-pruefen-klotzkette/) | Berechnet Personen-, Sach- und Gewerbeschäden mit Umsatzsteuer, Vorteilen, Teilzahlungen und… |
 | [`Schadensersatz wegen Nichtbefoerderung`](skills/schadensersatz-nichtbefoerderung/) | Für Schadensersatz wegen Nichtbeförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Luebeck, Haithabu-Danewerk und Wattenmeer als UNESCO-Welterbe in Schleswig-Holstein`](skills/schleswig-holstein-spezial-luebeck-haithabu-wattenmeer/) | Für Lübeck, Haithabu-Danewerk und Wattenmeer als UNESCO-Welterbe in Schleswig-Holstein: ordnet Norm… |
 | [`Schnelle Quellenkarte`](skills/schnelle-quellenkarte/) | Für Schnelle Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

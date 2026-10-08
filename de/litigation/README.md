@@ -4,11 +4,12 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (803)
+## Skills (807)
 
 | Skill | What it does |
 |---|---|
 | [`01 Akte Erstdurchsicht Zivil`](skills/01-akte-erstdurchsicht-zivil/) | Für 01 Akte Erstdurchsicht Zivil: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`beA-Ordner annehmen und Werkstatt starten`](skills/01-bea-ordner-annahme-klotzkette/) | Bei Ordner beA-fertig, Schriftsatz versandfertig oder Dateien in Gerichts-PDFs umwandeln: startet die… |
 | [`01 Eingang und Besetzung`](skills/01-eingang-und-besetzung/) | Für 01 Eingang und Besetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`01 Eingangsprüfung Zuständigkeit`](skills/01-eingangspruefung-zustaendigkeit/) | Für 01 Eingangsprüfung Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`02 Große Relation Zivilrecht`](skills/02-grosse-relation-zivilrecht/) | Für 02 Große Relation Zivilrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -28,10 +29,13 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`06 Urteil Großes Zivilurteil`](skills/06-urteil-grosses-zivilurteil/) | Für 06 Urteil Großes Zivilurteil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`07 Berufungsverfahren Paragraf 511 Ff`](skills/07-berufungsverfahren-paragraf-511-ff/) | Für 07 Berufungsverfahren Paragraf 511 Ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`07 Klägerstation Votum`](skills/07-klaegerstation-votum/) | Für 07 Klägerstation Votum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Signatur und tatsächlichen Versandweg prüfen`](skills/07-signatur-versandweg-pruefen-klotzkette/) | Vor beA-Versand bei einfacher Signatur, qeS, Vertretung oder Mitarbeiterzugang: prüft verantwortliche… |
 | [`07 Urteilsentwurf Paragraf 313`](skills/07-urteilsentwurf-paragraf-313/) | Für 07 Urteilsentwurf Paragraf 313: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`beA-Paket prüfen und zur Übergabe vorbereiten`](skills/08-bea-paket-freigeben-klotzkette/) | Unmittelbar vor Übergabe eines konvertierten beA-Pakets an den Versender: gleicht PDFs, Anlagenfolge… |
 | [`08 Beklagtenvortrag Strukturieren`](skills/08-beklagtenvortrag-strukturieren/) | Für 08 Beklagtenvortrag Strukturieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`08 Kostenentscheidung und Streitwert`](skills/08-kostenentscheidung-und-streitwert/) | Für 08 Kostenentscheidung und Streitwert: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`08 Versäumnisurteil und Anerkenntnis`](skills/08-versaeumnisurteil-und-anerkenntnis/) | Für 08 Versäumnisurteil und Anerkenntnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Eingang prüfen und Versandakte sichern`](skills/09-eingang-versandakte-sichern-klotzkette/) | Nach realem beA-Versand mit Nachricht, Exportprotokoll oder Eingangsbestätigung: prüft Gericht… |
 | [`09 Einwendungen Einreden Prüfen`](skills/09-einwendungen-einreden-pruefen/) | Für 09 Einwendungen Einreden Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`09 Vergleich und Erledigung`](skills/09-vergleich-und-erledigung/) | Für 09 Vergleich und Erledigung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`09 Vergleich und Mediation`](skills/09-vergleich-und-mediation/) | Für 09 Vergleich und Mediation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
