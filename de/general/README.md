@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `de` · Practice: `general` · Skill language: de
 
-## Skills (1324)
+## Skills (1348)
 
 | Skill | What it does |
 |---|---|
@@ -50,6 +50,8 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Anfrage-Eingang-Parser`](skills/anfrage-eingang-parser/) | Für Anfrage-Eingang-Parser: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Verträge und AGB: Macht aus whatsapp`](skills/angebot-in-auftrag-verwandeln/) | Für Verträge und AGB: Macht aus whatsapp: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuern und Buchhaltung: Ordnet laptop`](skills/anlagevermoegen-abschreibung/) | Für Steuern und Buchhaltung: Ordnet laptop: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Anlaufstellen: Beweislast, Darlegungslast und Substantiierung`](skills/anlaufstellen-beweislast-anleiter-bono-klotzkette/) | Für Anlaufstellen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und… |
+| [`Anleiter: Formular, Portal und Einreichungslogik`](skills/anleiter-formular-portal-und-einreichung-klotzkette/) | Für Anleiter: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Supervisoren-Prüfwarteschlange (Optional)`](skills/anleiter-pruefwarteschlange/) | Für Supervisoren-Prüfwarteschlange (Optional): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Annaeherung Quellenkarte`](skills/annaeherung-quellenkarte/) | Für Annäherung Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Anonymisierung und Identifizierbarkeit`](skills/anonymisierung-identifizierbarkeit/) | Für Anonymisierung und Identifizierbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -122,6 +124,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Verknuepft zivilrechtliche Methodik mit Verfahrensfairness: rechtliches Gehoer, Parteivortrag, Beweis, Begruendung, Uebe`](skills/begruendung-anhoerung-und-adressatenfaehigkeit/) | Für Begründung Anhörung und Adressatenfähigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung`](skills/behutsame-frech-haeufige-fehler/) | Für Behutsame, frech-wertschätzende Rückfragen — Stil-Anleitung: ordnet Norm, Beweislast und… |
 | [`Bereicherung eines Dritten — § 822 BGB`](skills/bereicherung-eines-dritten-822-bgb/) | Für Bereicherung eines Dritten — Paragraf 822 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Berufliche: Fristennotiz und nächster Schritt`](skills/berufliche-fristennotiz-emotionale-klotzkette/) | Für Berufliche: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Berufliche: Fristennotiz und nächster Schritt`](skills/berufliche-fristennotiz-naechster-schritt/) | Für Berufliche: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Bescheid In Einfacher Sprache`](skills/bescheid-in-einfacher-sprache/) | Für Bescheid in Einfacher Sprache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Beteiligte und Ausweisnachweise für den Termin aufnehmen`](skills/beteiligte-identitaet-vertretung/) | Bereitet Personalien, Ausweisabgleich und Vertretungsnachweise für einen Notartermin vor. Hält Scan… |
@@ -142,6 +145,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`1 Pro-bono-Anliegen prüfen und Beratung ausarbeiten`](skills/bono-erstpruefung-und-mandatsziel/) | Für Bono: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`BORA-Konformitätsprüfung`](skills/bora-konformitaetspruefung-brao-email/) | Für BORA-Konformitätsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`/berufsrecht-anwaltschaft:brao-pflichtenpruefung`](skills/brao-pflichtenpruefung-borghei/) | Checkliste anwaltlicher Grundpflichten vor Mandatsannahme und im laufenden Mandat – Verschwiegenheit §… |
+| [`Briefe: Zahlen, Schwellenwerte und Berechnung`](skills/briefe-erstberatung-rdg-konform-klotzkette/) | Für Briefe: Zahlen, Schwellenwerte und Berechnung: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Kanzlei-Buchhaltung, Konten und Zahlungsabgleich`](skills/buchhaltung-konten-kanzlei-erechnung/) | Für Kanzlei-Buchhaltung, Konten und Zahlungsabgleich: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verl: Buchprojekt Bauleiter`](skills/buchprojekt-bauleiter/) | Für Verl: Buchprojekt Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Buchprojekt- und Kapitelkoordination`](skills/buchprojekt-kapitelkoordination/) | Für Buchprojekt- und Kapitelkoordination: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -180,6 +184,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Practice Group Dashboard`](skills/dashboard-practice-group/) | Für Practice Group Dashboard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dashboard Red Team`](skills/dashboard-red-team/) | Für Dashboard Red Team: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis… |
 | [`Daten: Red-Team und Qualitätskontrolle`](skills/daten-red-team-und-qualitaetskontrolle/) | Für Daten: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
+| [`Datenpunkt: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/datenpunkt-dokument-excel-beweislast-klotzkette/) | Für Datenpunkt: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
 | [`Datenschutz bei Legal-Ops-Tools`](skills/datenschutz-avv-legalops/) | Für Datenschutz bei Legal-Ops-Tools: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Datenschutz und informationelle Selbstbestimmung`](skills/datenschutz-und-informationelle-selbstbestimmung/) | Für Datenschutz und informationelle Selbstbestimmung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Datenschutzanfrage und Dienstleister prüfen`](skills/datenschutzanfrage-und-dienstleister-pruefen/) | Bearbeitet eine konkrete Betroffenenanfrage oder den Datenzugang bei einem Dienstleister bis zum… |
@@ -201,6 +206,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Diskurstheorie und juristische Argumentation (Habermas / Alexy)`](skills/diskurstheorie-habermas-alexy/) | Für Diskurstheorie und juristische Argumentation (Habermas / Alexy): ordnet Norm, Beweislast und… |
 | [`DMS und E-Akten Governance`](skills/dms-eakten-equity-partner-esg/) | Für DMS und E-Akten Governance: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Datenraum Governance`](skills/document-room-governance/) | Für Datenraum Governance: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Dokument: Behörden-, Gerichts- oder Registerweg`](skills/dokument-behoerden-gericht-und-registerweg-klotzkette/) | Für Dokument: Behörden-, Gerichts- oder Registerweg: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Dokumentarchitektur: Vertrag und Schriftsatz`](skills/dokumentarchitektur-vertrag-englischer/) | Für Dokumentarchitektur: Vertrag und Schriftsatz: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Dokumenten-Inventur grob`](skills/dokumenten-inventur-grob/) | Für Dokumenten-Inventur grob: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Dokumententyp Gesellschafterbeschluesse`](skills/dokumententyp-beschluesse/) | Für Dokumententyp Gesellschafterbeschlüsse: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
@@ -317,6 +323,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Evidence Request Pack`](skills/evidence-request-pack/) | Für Evidence Request Pack: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Examensprognose / JPA-Statistik`](skills/examens-prognose/) | Für Examensprognose / JPA-Statistik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Examensvorbereitungs-Fragen`](skills/examensvorbereitung-fragen/) | Für Examensvorbereitungs-Fragen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Excel: Beweislast, Darlegungslast und Substantiierung`](skills/excel-beweislast-und-darlegungslast-klotzkette/) | Für Excel: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Reiter 1 Überblick Statuslage`](skills/excel-reiter-1-ueberblick/) | Für Reiter 1 Überblick Statuslage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Reiter 2 Vorhandene Dokumente`](skills/excel-reiter-2-vorhanden/) | Für Reiter 2 Vorhandene Dokumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Reiter 3 Fehlende Dokumente`](skills/excel-reiter-3-fehlend/) | Für Reiter 3 Fehlende Dokumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -394,6 +401,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Gesetzgeberwille und Materialien: Methodische Disziplin`](skills/gesetzgeberwille-und-materialien-disziplin/) | Für Gesetzgeberwille und Materialien: Methodische Disziplin: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gesetzgebung, Justiz und Wissenschaft: Institutionelle Rollen in der Rechtsbildung`](skills/gesetzgebung-justiz-wissenschaft-rollen/) | Für Gesetzgebung, Justiz und Wissenschaft: Institutionelle Rollen in der Rechtsbildung: ordnet Norm… |
 | [`Gesinderechtsreformen vergleichen`](skills/gesinderechtsreformen-vergleichen/) | Vergleicht PrALR-Gesinderecht, Gesindeordnung und spätere Reformakte. Erstellt eine belegte Zeitfolge zu… |
+| [`Gestapelt: Compliance-Dokumentation und Aktenvermerk`](skills/gestapelt-immobilien-massenpruefung-klotzkette/) | Für Gestapelt: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gewohnheitsrecht und Observanz`](skills/gewohnheitsrecht-und-observanz/) | Für Gewohnheitsrecht und Observanz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Gliederung mit Tiefen-Struktur`](skills/gliederung-mit-tiefenstruktur/) | Für Gliederung mit Tiefen-Struktur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Lernstruktur-Builder`](skills/gliederungs-baukasten/) | Für Lernstruktur-Builder: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -502,6 +510,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Honorarvertrags-Templates`](skills/honorarvertrag-templates-und-abweichungen/) | Für Honorarvertrags-Templates: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`HR und Personalverwaltung`](skills/hr-personal-kanzlei-intake/) | Für HR und Personalverwaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Ideenpool und Priorisierung`](skills/ideenpool-priorisierung-impressum/) | Für Ideenpool und Priorisierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Immobilien: Formular, Portal und Einreichungslogik`](skills/immobilien-formular-portal-und-einreichung-klotzkette/) | Für Immobilien: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Impressums-Pflicht und Prüfung`](skills/impressum-pflicht-und-pruefung/) | Für Impressums-Pflicht und Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Inhouse Counsel Ethics`](skills/inhouse-counsel-ethics/) | Für Inhouse Counsel Ethics: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Inhouse Legal Triage`](skills/inhouse-legal-triage/) | Für Inhouse Legal Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -622,6 +631,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Konferenzmitschnitt zu Tagungsbericht`](skills/konferenzmitschnitt-zu-tagungsbericht/) | Für Konferenzmitschnitt zu Tagungsbericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Konfliktcheck-Vorab`](skills/konfliktcheck-vorab/) | Für Konfliktcheck-Vorab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Konfliktdeeskalation: Formulierungsbausteine`](skills/konfliktdeeskalation-formulierungen/) | Für Konfliktdeeskalation: Formulierungsbausteine: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
+| [`Konform: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/konform-dokumentenmatrix-und-lueckenliste-klotzkette/) | Für Konform: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV`](skills/konkurrenz-bereicherung-vertraglich-deliktisch/) | Für Konkurrenz: Bereicherung neben Vertrag, Delikt und EBV: ordnet Norm, Beweislast und Gegenargument… |
 | [`Konkurrenzen und Anspruchsgrundlagen`](skills/konkurrenzen-anspruchsgrundlagen/) | Für Konkurrenzen und Anspruchsgrundlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Konservative Methodenkritik: Gesetzesbindung und Texttreue`](skills/konservative-methodenkritik-gesetzesbindung/) | Für Konservative Methodenkritik: Gesetzesbindung und Texttreue: ordnet Norm, Beweislast und… |
@@ -711,12 +721,14 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Mandat annehmen und Interessenkollision prüfen`](skills/mandatsannahme-interessenkollision-klotzkette/) | Verwenden, wenn eine neue Anfrage, ein neuer Gegner, ein Zahler neben dem Mandanten, ein… |
 | [`Mandatsbeziehung Qualitygate`](skills/mandatsbeziehung-qualitygate/) | Für Mandatsbeziehung Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Mandatsgeheimnis und Tooling`](skills/mandatsgeheimnis-tooling-market-positioning/) | Für Mandatsgeheimnis und Tooling: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Mandatsuebergabe: Internationaler Bezug und Schnittstellen`](skills/mandatsuebergabe-international-schnittstellen-klotzkette/) | Für Mandatsübergabe: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und… |
 | [`Mandatsvereinbarung und Honorarstart`](skills/mandatsvereinbarung-postlauf/) | Für Mandatsvereinbarung und Honorarstart: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mandatsverhältnis-Hinweis`](skills/mandatsverhaeltnis-hinweis/) | Für Mandatsverhältnis-Hinweis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Manuskript: Behörden-, Gerichts- oder Registerweg`](skills/manuskript-behoerden-gericht-und-registerweg/) | Für Manuskript: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Manuskript-Rettung aus merkwuerdigen Formaten`](skills/manuskript-merkwuerdige-formate-rettung/) | Für Manuskript-Rettung aus merkwürdigen Formaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Manuskriptaufnahme und Materialinventar`](skills/manuskriptaufnahme-materialinventar/) | Für Manuskriptaufnahme und Materialinventar: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Marketing, Presse und Social`](skills/marketing-presse-social/) | Für Marketing, Presse und Social: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Massenpruefung: Mehrparteienkonflikt und Interessenmatrix`](skills/massenpruefung-mehrparteien-konflikt-und-interessen-klotzkette/) | Für Massenprüfung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Materialienarbeit ohne Blindzitat`](skills/materialienarbeit-ohne-blindzitat/) | Für Materialienarbeit ohne Blindzitat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Matter Closeout`](skills/matter-closeout/) | Für Matter Closeout: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Matter Intake Form Builder`](skills/matter-intake-form-builder/) | Für Matter Intake Form Builder: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -844,6 +856,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Objektiv-teleologische Auslegung: Red-Team-Analyse`](skills/objektiv-teleologische-auslegung-red-team/) | Für Objektiv-teleologische Auslegung: Red-Team-Analyse: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Oeffentliches Quellenkarte`](skills/oeffentliches-quellenkarte/) | Für Öffentliches Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Oekonomische Analyse des Rechts (Law and Economics)`](skills/oekonomische-analyse-des-rechts-coase-posner/) | Für Ökonomische Analyse des Rechts (Law and Economics): ordnet Norm, Beweislast und Gegenargument… |
+| [`Onboarding: Mandantenkommunikation und Entscheidungsvorlage`](skills/onboarding-mandantenkommunikation-entscheidungsvorlage/) | Für Onboarding: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Optional: Beweislast, Darlegungslast und Substantiierung`](skills/optional-beweislast-piercing-sonderfall/) | Für Optional: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Orientierung und Drafting-Triage`](skills/orientierung-drafting-partner-kommentar/) | Für Orientierung und Drafting-Triage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Originalismus und Gesetzgebungsmaterialien in Deutschland`](skills/originalismus-gesetzgebungsmaterialien/) | Für Originalismus und Gesetzgebungsmaterialien in Deutschland: ordnet Norm, Beweislast und… |
@@ -868,6 +881,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Persönlichen Angriff entschärfen`](skills/persoenlichen-angriff-sachlichkeitsgebot/) | Für Persönlichen Angriff entschärfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Persönlichkeitsrecht Abwägung`](skills/persoenlichkeitsrecht-abwaegung/) | Für Persönlichkeitsrecht Abwägung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Personelle Kontinuitäten nach 1945`](skills/personelle-kontinuitaeten-nach-1945/) | Für Personelle Kontinuitäten nach 1945: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Perspektiven: Verhandlung, Vergleich und Eskalation`](skills/perspektiven-verhandlung-vergleich-und-eskalation-klotzkette/) | Für Perspektiven: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Piercing: Sonderfall und Edge-Case-Prüfung`](skills/piercing-sonderfall-und-edge-case/) | Für Piercing: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Pinpoint Fehlerkatalog`](skills/pinpoint-fehlerkatalog/) | Für Pinpoint Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Skill: Playbook aus eigenen Daten`](skills/playbook-aus-eigenen-daten/) | Für Skill: Playbook aus eigenen Daten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -903,6 +917,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Prüfungsgespräch nach AG-Tradition`](skills/pruefungsgespraech-ag-rechtsgeschichte/) | Für Prüfungsgespräch nach AG-Tradition: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Prüfungsgespraech: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/pruefungsgespraech-fristen-form-und-zustaendigkeit/) | Für Prüfungsgespräch: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Fristen- und Risikoampel`](skills/pruefungsgespraech-muendlich/) | Für Fristen- und Risikoampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`Prüfwarteschlange: Red-Team und Qualitätskontrolle`](skills/pruefwarteschlange-red-rbst-recherche-klotzkette/) | Für Prüfwarteschlange: Red-Team und Qualitätskontrolle: ordnet Norm, Beweislast und Gegenargument… |
 | [`Qualitätsgate`](skills/qualitaetsgate/) | Für Qualitätsgate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und… |
 | [`Qualitätsgate und Hardening`](skills/qualitaetsgate-hardening-kanzlei/) | Für Qualitätsgate und Hardening: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit… |
 | [`Qualitätsgate`](skills/qualitaetsgate-rechtsnormen-einfach/) | Für Qualitätsgate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis- und… |
@@ -921,6 +936,8 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Rbs: Themen-Map`](skills/rbs-einfuehrung-rdg-rbst-anlaufstellen/) | Für Rbs: Themen-Map: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rbst: Mandantenkommunikation und Entscheidungsvorlage`](skills/rbst-mandantenkommunikation-entscheidungsvorlage/) | Für Rbst: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`/berufsrecht-anwaltschaft:rdg-abgrenzung`](skills/rdg-abgrenzung-borghei/) | Abgrenzung erlaubter Rechtsdienstleistungen Nicht-Anwälte nach RDG – Anwaltsmonopol §§ 1, 3 RDG… |
+| [`RDG: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/rdg-fristen-form-und-zustaendigkeit-klotzkette/) | Für RDG: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
+| [`Recherche: Mehrparteienkonflikt und Interessenmatrix`](skills/recherche-mehrparteien-konflikt-und-interessen-klotzkette/) | Für Recherche: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Recherchefahrplan: Orientierung, keine Recherche`](skills/recherche-start-rechtsberatungsstelle/) | Für Recherchefahrplan: Orientierung, keine Recherche: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rechnungsvorbereitung und Abschluss`](skills/rechnung/) | Für Rechnungsvorbereitung und Abschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rechnungsstreit deeskalieren`](skills/rechnung-streit-deeskalation/) | Für Rechnungsstreit deeskalieren: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
@@ -931,6 +948,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Rechtliche: Internationaler Bezug und Schnittstellen`](skills/rechtliche-internationaler-bezug-und-schnittstellen/) | Für Rechtliche: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Dieses Skill leitet die vollständige Rechtsanwendung vom Tatbestand bis zur Beweisführung und Belegsicherung an`](skills/rechtsanwendung-tatbestand-beweis-und-belege/) | Für Rechtsanwendung Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast… |
 | [`Rechtsberatung: Internationaler Bezug und Schnittstellen`](skills/rechtsberatung-internationaler-bezug-und-schnittstellen/) | Für Rechtsberatung: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
+| [`Übergabe: Schriftsatz-, Brief- und Memo-Bausteine`](skills/rechtsberatung-uebergabe-schriftsatz-brief-memo-bausteine/) | Für Übergabe: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Rechtsberatungsstelle — Allgemein`](skills/rechtsberatungsstelle-anschluss-router/) | Für Rechtsberatungsstelle — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Dokumentenintake`](skills/rechtsberatungsstelle-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`1 Anliegen der Rechtsberatungsstelle bearbeiten`](skills/rechtsberatungsstelle-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -940,6 +958,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Unterlagen und Lücken`](skills/rechtsberatungsstelle-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`1 Beratung aufnehmen und zum Ergebnis führen`](skills/rechtsberatungsstelle-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Rechtsberatungsstelle: Compliance-Dokumentation und Aktenvermerk`](skills/rechtsberatungsstellen/) | Für Rechtsberatungsstelle: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und… |
+| [`Rechtsberatungsstellen: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/rechtsberatungsstellen-tatbestand-beweis-und-belege-klotzkette/) | Für Rechtsberatungsstellen: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und… |
 | [`Rechtschreibung amtlich-aktuell`](skills/rechtschreibung-amtlich-aktuell/) | Für Rechtschreibung amtlich-aktuell: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtsfolge bestimmen`](skills/rechtsfolge-bestimmen-einreden-interaktiver/) | Für Rechtsfolge bestimmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rechtsfolgen: Zahlen, Schwellenwerte und Berechnung`](skills/rechtsfolgen-zahlen-schwellen-und-berechnung/) | Für Rechtsfolgen: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
@@ -1031,6 +1050,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Selbst vorgelegte Subsumtion zerlegen`](skills/selbst-vorgelegte-subsumtion-zerlegen/) | Für Selbst vorgelegte Subsumtion zerlegen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Selbst-Kontrolle vor Abgabe`](skills/selbstkontrolle-vor-abgabe/) | Für Selbst-Kontrolle vor Abgabe: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Semesterübergabe`](skills/semester-uebergabe/) | Für Semesterübergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Semesterende: Verhandlung, Vergleich und Eskalation`](skills/semesterende-verhandlung-vergleich-und-eskalation-klotzkette/) | Für Semesterende: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Seminar und Vortrag Rechtsgeschichte`](skills/seminar-und-vortrag-rechtsgeschichte/) | Für Seminar und Vortrag Rechtsgeschichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Seminararbeit-Modus`](skills/seminararbeit-modus/) | Für Seminararbeit-Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Seriös dynamisieren und animieren`](skills/serioes-animieren/) | Optionaler Bonus für ausdrücklich gewünschte seriöse Animationen juristischer Präsentationen. Plant… |
@@ -1176,6 +1196,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`UStVA- und ELSTER-Simulation`](skills/ustva-simulation/) | Für UStVA- und ELSTER-Simulation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Varianten Fehlerkatalog`](skills/varianten-fehlerkatalog/) | Für Varianten Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Umsatzsteuer bei Legal Fees`](skills/vat-reverse-charge-legalfees/) | Für Umsatzsteuer bei Legal Fees: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Vendor: Red-Team und Qualitätskontrolle`](skills/vendor-red-team-und-qualitaetskontrolle-klotzkette/) | Für Vendor: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Verbraucherschutzgeschichte`](skills/verbraucherschutzgeschichte/) | Für Verbraucherschutzgeschichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verdachtsberichterstattung Prüfung`](skills/verdachtsberichterstattung-pruefung/) | Für Verdachtsberichterstattung Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vereins- und Parteienrecht`](skills/vereins-und-parteienrecht/) | Für Vereins- und Parteienrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -1220,6 +1241,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Verträge vollständig und konsistent gestalten`](skills/vertraege-gestalten-klotzkette/) | Verwenden, wenn ein Vertrag, Nachtrag oder Klauselpaket aus einem belegten Geschäftsmodell neu entworfen… |
 | [`Vertrag prüfen und ändern`](skills/vertrag-pruefen-und-aendern/) | Prüft einen konkreten Wirtschaftsvertrag aus Sicht der vertretenen Partei und formuliert belastbare… |
 | [`Vertragsentwurf und Vertrags-Canvas`](skills/vertragsentwurf/) | Für Vertragsentwurf und Vertrags-Canvas: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Vertragsstapel: Internationaler Bezug und Schnittstellen`](skills/vertragsstapel-vorlage-arbeitsvertrag-klotzkette/) | Für Vertragsstapel: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vertragsstrafe nach §§ 339-345 BGB`](skills/vertragsstrafe-339-bgb/) | Für Vertragsstrafe nach Paragrafen 339-345 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sekretariat muss wissen ab wann die Anwaltsschwiegepflicht gilt`](skills/vertraulichkeit-erinnerung/) | Für Sekretariat muss wissen ab wann die Anwaltsschwiegepflicht gilt: ordnet Norm, Beweislast und… |
 | [`Verwaltungsakte historisch lesen`](skills/verwaltungsakte-historisch-lesen/) | Für Verwaltungsakte historisch lesen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
@@ -1247,6 +1269,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Weimarer Reichsverfassung (WRV, 11. August 1919)`](skills/weimarer-reichsverfassung/) | Für Weimarer Reichsverfassung (WRV, 11. August 1919): ordnet Norm, Beweislast und Gegenargument… |
 | [`Wertungsjurisprudenz nach Larenz und Canaris`](skills/wertungsjurisprudenz-larenz-canaris/) | Für Wertungsjurisprudenz nach Larenz und Canaris: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wiedergutmachung und Restitution (NS-Unrecht)`](skills/wiedergutmachung-und-restitution/) | Für Wiedergutmachung und Restitution (NS-Unrecht): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Wirtschaft: Zahlen, Schwellenwerte und Berechnung`](skills/wirtschaft-wuerfel-zeilenprompts-klotzkette/) | Für Wirtschaft: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wirtschaftsrecht im 20. Jahrhundert`](skills/wirtschaftsrecht-im-20-jahrhundert/) | Für Wirtschaftsrecht im 20. Jahrhundert: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wirtschaftsverfahren Compliance Bericht`](skills/wirtschaftsverfahren-compliance-bericht/) | Für Wirtschaftsverfahren Compliance Bericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Word-Fassung fertigstellen und prüfen`](skills/word-dokument-finish-und-layout/) | Stellt eine vorhandene juristische Word-Fassung für den vorgesehenen Empfänger fertig. Korrigiert… |
@@ -1264,6 +1287,7 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`XML-Paralleldarstellung`](skills/xml-paralleldarstellung/) | Für XML-Paralleldarstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Zahlung, Mängel und Verzug bearbeiten`](skills/zahlung-maengel-und-verzug-bearbeiten/) | Bearbeitet offene Vergütung, mangelhafte Lieferung oder Leistung und Zahlungsverzug bis zur bezifferten… |
 | [`Zahlungen zuordnen und Buchhaltung vorbereiten`](skills/zahlungen-buchhaltung-klotzkette/) | Verwenden, wenn Zahlungseingänge, Vorschüsse, Drittzahlungen, Kostenerstattungen oder Fremdgeld belegt… |
+| [`Zeilenprompts: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/zeilenprompts-risikoampel-und-gegenargumente-klotzkette/) | Für Zeilenprompts: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Zeitnarrative und Timesheet`](skills/zeitnarrative/) | Für Zeitnarrative und Timesheet: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Organisiert Zeitschriftenhefte mit Rubriken, Beitraegen, Autoren, Seitenbudget, Online-first, Korrekturlauf, Anzeigen un`](skills/zeitschriften-heftplanung/) | Für Zeitschriften Heftplanung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verl: Zeitschriftenartikel`](skills/zeitschriftenartikel-leitfaden/) | Für Verl: Zeitschriftenartikel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

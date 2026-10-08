@@ -4,7 +4,7 @@ Insolvency and restructuring — proceedings, creditor rights, and reorganisatio
 
 Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 
-## Skills (732)
+## Skills (735)
 
 | Skill | What it does |
 |---|---|
@@ -413,6 +413,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Kaltstart und Routing`](skills/krisenfrueherkennung-starug-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/krisenfrueherkennung-starug-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Unterlagen- und Lückenliste`](skills/krisenfrueherkennung-starug-workflow-unterlagen-lueckenliste/) | Für Unterlagen- und Lückenliste: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
+| [`Krisenmanagement: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/krisenmanagement-tatbestand-beweis-und-belege-klotzkette/) | Für Krisenmanagement: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Krypto: Mandantenkommunikation und Entscheidungsvorlage im Insolvenz- und Sanierungsrecht: fachlich vertieftes Modul mit`](skills/krypto-mandantenkommunikation-entscheidungsvorlage/) | Für Krypto Mandantenkommunikation Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`Liqui Leasing LP Restrukturierungsplan Starug`](skills/leasing-lp-restrukturierungsplan-starug/) | Für Liqui Leasing LP Restrukturierungsplan StaRUG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Leistungsbegriff: Bewusste und zweckgerichtete Mehrung`](skills/leistungsbegriff-bewusste-zweckgerichtete/) | Für Leistungsbegriff: Bewusste und zweckgerichtete Mehrung: ordnet Norm, Beweislast und Gegenargument… |
@@ -492,6 +493,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Parallel- und Konkurrenzprüfung`](skills/parallel-und-konkurrenz-pruefung/) | Für Parallel- und Konkurrenzprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Patronatserklaerung: Mehrparteienkonflikt und Interessenmatrix`](skills/patronatserklaerung-mehrparteien-konflikt-und-interessen/) | Für Patronatserklärung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`/tabellenreview-3d:pdf-bericht-erzeugen`](skills/pdf-bericht-erzeugen/) | Für /tabellenreview-3d:pdf-bericht-erzeugen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Pflicht: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/pflicht-planung-restrukturierungsplan-klotzkette/) | Für Pflicht: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Pflichtenkollision und Shift of Fiduciary Duties in der Krise`](skills/pflichtenkollision-shift-restructuring-lounge/) | Für Pflichtenkollision und Shift of Fiduciary Duties in der Krise: ordnet Norm, Beweislast und… |
 | [`IV-integrierte Abstimmung und Mehrheiten`](skills/plan-abstimmung-anlagenpaket/) | Für IV-integrierte Abstimmung und Mehrheiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`IV-integrierte Anlagenpaket`](skills/plan-anlagenpaket/) | Für IV-integrierte Anlagenpaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -719,6 +721,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Vorsatzanfechtung nach Paragraf 133 InsO prüfen`](skills/vorsatzanfechtung-paragraf-133-inso-pruefen/) | Prüft eine Vorsatzanfechtung nach Paragraf 133 InsO rechtshandlungsbezogen, trennt kongruente von… |
 | [`Vorschau: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/vorschau-dokumentenmatrix-lueckenliste/) | Für Vorschau: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Vorzeitige Restschuldbefreiung: Kosten, Gläubigerbefriedigung, Anträge und Timing.`](skills/vorzeitige-restschuldbefreiung/) | Für Vorzeitige Restschuldbefreiung: Kosten, Gläubigerbefriedigung, Anträge und Timing: ordnet Norm… |
+| [`Warnpflicht: Schriftsatz-, Brief- und Memo-Bausteine`](skills/warnpflicht-schriftsatz-brief-und-memo-bausteine-klotzkette/) | Für Warnpflicht: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Weitergabe und § 822 BGB Verteidigung`](skills/weitergabe-und-822-verteidigung/) | Für Weitergabe und Paragraf 822 BGB Verteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter`](skills/wenn-prognose-negativ-naechste-schritte/) | Für Wenn Prognose Negativ Nächste Schritte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wertersatz bei Dienstleistung und Gebrauchsvorteil`](skills/wertersatz-dienstleistung-wertveraenderung/) | Für Wertersatz bei Dienstleistung und Gebrauchsvorteil: ordnet Norm, Beweislast und Gegenargument… |

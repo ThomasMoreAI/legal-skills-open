@@ -4,7 +4,7 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 
-## Skills (872)
+## Skills (873)
 
 | Skill | What it does |
 |---|---|
@@ -297,6 +297,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Freundlicher Corporate-Copilot`](skills/freundlicher-copilot-2/) | Für Freundlicher Corporate-Copilot: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Freundlicher Deal-Copilot`](skills/freundlicher-copilot-3/) | Für Freundlicher Deal-Copilot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Freundlicher Corporate-Copilot`](skills/freundlicher-copilot-gesellschaftsrecht/) | Für Freundlicher Corporate-Copilot: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Fristen: Mehrparteienkonflikt und Interessenmatrix`](skills/fristen-mehrparteien-konflikt-und-interessen-klotzkette/) | Für Fristen: Mehrparteienkonflikt und Interessenmatrix: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Fully Diluted, ESOP und Option Pool`](skills/fully-diluted-esop-option-pool/) | Für Fully Diluted, ESOP und Option Pool: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Funds Flow und Closing Payments`](skills/funds-flow-closing-payments/) | Für Funds Flow und Closing Payments: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Fusionskontrolle: Vollzugsverbot und Clean Team`](skills/fusionskontrolle-vollzugsverbot-clean-team/) | Prüft vor Signing und Closing, ob Vetorechte, Integrationsmaßnahmen oder Datenzugriffe einen… |

@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (791)
+## Skills (804)
 
 | Skill | What it does |
 |---|---|
@@ -147,6 +147,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Anspruchsschriftsatz Bausteine`](skills/anspruchsschriftsatz-bausteine/) | Für Anspruchsschriftsatz Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Anspruchstabelle im Zivilprozess`](skills/anspruchstabelle/) | Für Anspruchstabelle im Zivilprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Anspruchstabelle`](skills/anspruchstabelle-beweislast/) | Für Anspruchstabelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
+| [`Anspruchstabelle: Compliance-Dokumentation und Aktenvermerk`](skills/anspruchstabelle-gegenseite-interessen-klotzkette/) | Für Anspruchstabelle: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und… |
 | [`Antragsbefugnis § 47 Abs. 2 VwGO`](skills/antragsbefugnis-eigentuemer-nachbar/) | Für Antragsbefugnis Paragraf 47 Abs. 2 VwGO: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`JVEG-Antragsgenerator`](skills/antragsgenerator/) | Für JVEG-Antragsgenerator: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Vertraulichkeitsschutz-Erstprüfung (Vorlagepflicht und Verschwiegenheit)`](skills/anwaltsgeheimnis-pruefung/) | Für Vertraulichkeitsschutz-Erstprüfung (Vorlagepflicht und Verschwiegenheit): ordnet Norm, Beweislast… |
@@ -176,6 +177,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Befangenheit und Selbstanzeige`](skills/befangenheit-und-selbstanzeige/) | Für Befangenheit und Selbstanzeige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Belegfeste: Formular, Portal und Einreichungslogik`](skills/belegfeste-formular-portal-und-einreichung/) | Für Belegfeste: Formular, Portal und Einreichungslogik: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Belegte Compliance Aktenvermerk`](skills/belegte-compliance-aktenvermerk/) | Für Belegte Compliance Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Beleidigung: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/beleidigung-meinungspruefer-klotzkette/) | Für Beleidigung: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Benennt: Compliance-Dokumentation und Aktenvermerk`](skills/benennt-compliance-dokumentation-aktenvermerk/) | Für Benennt: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Benennt: Compliance-Dokumentation und Aktenvermerk`](skills/benennt-compliance-dokumentation-und-akte/) | Für Benennt: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Beratung und Abstimmung`](skills/beratung-abstimmung-orientierung-sitzung/) | Für Beratung und Abstimmung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -242,6 +244,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Eilrechtsschutz nach § 80 Abs`](skills/eilrechtsschutz-80-abs-5-vwgo/) | Für Eilrechtsschutz nach Paragraf 80 Abs: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eilrechtsschutz § 80 VwGO`](skills/eilrechtsschutz-paragraf-80-vwgo/) | Für Eilrechtsschutz Paragraf 80 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Eilrechtsschutz: Schriftsatz-, Brief- und Memo-Bausteine`](skills/eilrechtsschutz-schriftsatz-brief-und-memo-bausteine/) | Für Eilrechtsschutz: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
+| [`Eilverfahren: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/eilverfahren-risikoampel-und-gegenargumente-klotzkette/) | Für Eilverfahren: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Einarbeitung Fehlerkatalog`](skills/einarbeitung-fehlerkatalog/) | Für Einarbeitung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Einleitungssatz-Generator`](skills/einleitungssatz-generator/) | Für Einleitungssatz-Generator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Einleitungssatz: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/einleitungssatz-risikoampel-und-gegenargumente/) | Für Einleitungssatz: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
@@ -353,6 +356,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`JVEG-Quality-Gate`](skills/gate-rechenblatt/) | Für JVEG-Quality-Gate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Gatekeeper Verhandlung und Vergleich`](skills/gatekeeper-verhandlung-vergleich/) | Für Gatekeeper Verhandlung und Vergleich: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren`](skills/gegendarstellung-presse/) | Für Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren: ordnet Norm… |
+| [`Gegenseite: Mehrparteienkonflikt und Interessenmatrix`](skills/gegenseite-mehrparteien-konflikt-und-interessen-klotzkette/) | Für Gegenseite: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Statusabfrage Externe Bevollmächtigte`](skills/gegenseite-status-mahnbescheid-mahnschreiben/) | Für Statusabfrage Externe Bevollmächtigte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gegenueberstellung: Zahlen, Schwellenwerte und Berechnung`](skills/gegenueberstellung-parteivortraege/) | Für Gegenüberstellung: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wenn Sie verlieren: Vollstreckung abwehren oder mildern`](skills/gegnerische-vollstreckung-abwehr/) | Für Wenn Sie verlieren: Vollstreckung abwehren oder mildern: ordnet Norm, Beweislast und Gegenargument… |
@@ -449,6 +453,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Logik Quellenkarte`](skills/logik-quellenkarte/) | Für Logik Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mahn: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/mahn-fristen-form-und-zustaendigkeit/) | Für Mahn: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Mahnverfahren – Paragrafen 688 ff. ZPO`](skills/mahnbescheid/) | Für Mahnverfahren – Paragrafen 688 ff. ZPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Mahnbescheid: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/mahnbescheid-dokumentenmatrix-und-lueckenliste-klotzkette/) | Für Mahnbescheid: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
 | [`Mahnbescheid: Fristennotiz und nächster Schritt`](skills/mahnbescheid-fristennotiz-zv-titel-zv/) | Für Mahnbescheid: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Mahnbescheid online`](skills/mahnbescheid-online/) | Für Mahnbescheid online: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mahnbescheid (Online-MB)`](skills/mahnbescheid-online-mb/) | Für Mahnbescheid (Online-MB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -468,8 +473,10 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Praxisprofil anpassen`](skills/mandat-arbeitsbereich-abschnitt/) | Für Praxisprofil anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mandat-Intake`](skills/mandat-aufnahme/) | Für Mandat-Intake: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mandat-Briefing`](skills/mandat-briefing-schliessen-portfolio-status/) | Für Mandat-Briefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
+| [`Mandat: Formular, Portal und Einreichungslogik`](skills/mandat-mandate-prozessrecht-klotzkette/) | Für Mandat: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mandat schließen`](skills/mandat-schliessen/) | Für Mandat schließen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen`](skills/mandat-triage-verkehrsrecht/) | Für Neues Verkehrsrechtsmandat kommt rein und Anwalt muss Sachgebiet klären und Fristen prüfen: routet… |
+| [`Mandate: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/mandate-tatbestand-beweis-und-belege-klotzkette/) | Für Mandate: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Massenanlagen, Sampling und Repräsentativität`](skills/massenanlagen-sampling-repraesentativitaet/) | Für Massenanlagen, Sampling und Repräsentativität: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Massenanlagen, Sampling und Repräsentativität`](skills/massenanlagen-sampling-und-repraesentativitaet/) | Für Massenanlagen, Sampling und Repräsentativität: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mehrparteien, Rollen und Präfixe`](skills/mehrparteien-rollen-und-praefixe/) | Für Mehrparteien, Rollen und Präfixe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -532,7 +539,9 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Rechtsquellen-Livecheck`](skills/prozessrecht-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Prozessrecht — Allgemein`](skills/prozessrecht-start-chronologie-fristen/) | Für Prozessrecht — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit… |
 | [`Unterlagen und Lücken`](skills/prozessrecht-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
+| [`Prozessrecht: Verhandlung, Vergleich und Eskalation`](skills/prozessrecht-verhandlung-vergleich-und-eskalation-klotzkette/) | Für Prozessrecht: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Kaltstart und Routing`](skills/prozessrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Prozessrechtliche: Erstprüfung, Rollenklärung und Mandatsziel`](skills/prozessrechtliche-schriftsaetze-status-klotzkette/) | Für Prozessrechtliche: Erstprüfung, Rollenklärung und Mandatsziel: ordnet Norm, Beweislast und… |
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-datenraum-sharepoint/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-naechster-schritt/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfung Sachverständigengutachten — KI-Deklaration und JVEG`](skills/pruefung-sachverstaendigengutachten-ki-deklaration/) | Für Prüfung Sachverständigengutachten — digitale Werkzeuge-Deklaration und JVEG: ordnet Norm, Beweislast… |
@@ -643,6 +652,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Zahlungsklage: Behörden-, Gerichts- oder Registerweg`](skills/spezial-zahlungsklage-behoerden-gericht-und-registerweg/) | Für Zahlungsklage: Behörden-, Gerichts- oder Registerweg: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Zustaendigkeitspruefung: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/spezial-zustaendigkeitspruefung-fristen-form-und-zustaen/) | Für Zuständigkeitsprüfung: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit… |
 | [`Statthaftigkeit § 47 VwGO`](skills/statthaftigkeit-47-vwgo/) | Für Statthaftigkeit Paragraf 47 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Status: Internationaler Bezug und Schnittstellen`](skills/status-internationaler-bezug-und-schnittstellen-klotzkette/) | Für Status: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Stempelt: Internationaler Bezug und Schnittstellen`](skills/stempelt-internationaler-bezug-schnittstellen/) | Für Stempelt: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Stempelt: Internationaler Bezug und Schnittstellen`](skills/stempelt-internationaler-bezug-und-schnittstellen/) | Für Stempelt: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Störung und Nachreichung dokumentieren`](skills/stoerung-und-nachreichung-dokumentieren/) | Erstellt bei technischer Übermittlungsstörung, ungeeignetem elektronischem Dokument oder gerichtlichem… |
@@ -658,6 +668,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Anlagen: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/tatbestandsmerkmale-beweisfragen-beleglage/) | Für Anlagen: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Tatbestandsmerkmale: Mehrparteienkonflikt und Interessenmatrix`](skills/tatbestandsmerkmale-interessen/) | Für Tatbestandsmerkmale: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`Tatbestandsmerkmale: Mehrparteienkonflikt und Interessenmatrix`](skills/tatbestandsmerkmale-interessen-tenor-urteils/) | Für Tatbestandsmerkmale: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
+| [`Tatsache: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/tatsache-dokumentenmatrix-und-lueckenliste-klotzkette/) | Für Tatsache: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Tenor bauen Zivilurteil`](skills/tenor-bauen-zivil/) | Für Tenor bauen Zivilurteil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Tenor: Internationaler Bezug und Schnittstellen`](skills/tenor-internationaler-bezug/) | Für Tenor: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Termin im Amtsgericht: So bereiten Sie sich vor`](skills/terminvorbereitung-checkliste/) | Für Termin im Amtsgericht: So bereiten Sie sich vor: ordnet Norm, Beweislast und Gegenargument… |
@@ -667,6 +678,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Die haeufigsten Fehler — und wie Sie sie vermeiden`](skills/typische-laien-fehler/) | Für Die häufigsten Fehler — und wie Sie sie vermeiden: ordnet Norm, Beweislast und Gegenargument… |
 | [`JVEG-Uebernachtung-Aufwand`](skills/uebernachtung-aufwand/) | Für JVEG-Übernachtung-Aufwand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Übersetzer: Fristennotiz und nächster Schritt`](skills/uebersetzer-fristennotiz-jveg/) | Für Übersetzer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
+| [`Ueble: Behörden-, Gerichts- oder Registerweg`](skills/ueble-verleumdung-klotzkette/) | Für Üble: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Urkundenbeweis: Schriftliche Dokumente als Beweis`](skills/urkundenbeweis-415-ff-zpo/) | Für Urkundenbeweis: Schriftliche Dokumente als Beweis: ordnet Norm, Beweislast und Gegenargument… |
 | [`Urkundenprozess`](skills/urkundenprozess-pruefen/) | Für Urkundenprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Das schriftliche Urteil prüfen`](skills/urteil-pruefen-313-zpo/) | Für Das schriftliche Urteil prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -711,6 +723,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Verjährung und Fristen prüfen`](skills/verjaehrung-fristen-pruefen/) | Für Verjährung und Fristen prüfen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Verjährung prüfen`](skills/verjaehrung-pruefen/) | Für Verjährung prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Ist Ihre Forderung schon verjaehrt?`](skills/verjaehrungsfrist-pruefen-195-bgb/) | Für Ist Ihre Forderung schon verjährt?: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
+| [`Verleumdung: Verhandlung, Vergleich und Eskalation`](skills/verleumdung-verhandlung-vergleich-und-eskalation-klotzkette/) | Für Verleumdung: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Vermögensauskunft`](skills/vermoegensauskunft-gv/) | Für Vermögensauskunft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung`](skills/vermoegensauskunft-vollstreckungsbescheid/) | Für Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verpflichtungsklage: Behörden-, Gerichts- oder Registerweg`](skills/verpflichtungsklage-behoerden-gericht-und-registerweg/) | Für Verpflichtungsklage: Behörden-, Gerichts- oder Registerweg: erstellt Entwurf mit Antrag, Beweis und… |

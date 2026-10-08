@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 
-## Skills (979)
+## Skills (982)
 
 | Skill | What it does |
 |---|---|
@@ -505,6 +505,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Hauptstadtrepraesentanz`](skills/hauptstadtrepraesentanz/) | Für Hauptstadtrepräsentanz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Hausausweis und Anhörung`](skills/hausausweis-anhoerung-interessen/) | Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Hausausweis und Anhoerung`](skills/hausausweis-und-anhoerung/) | Für Hausausweis und Anhörung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Heilmwerbg: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/heilmwerbg-risikoampel-und-gegenargumente-klotzkette/) | Für Heilmwerbg: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`HinSchG Reporting und Fallregister`](skills/hinweisgeberschutz-jahresreport-idev/) | Für HinSchG Reporting und Fallregister: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Hochrisiko-KI: Sicherheitsbauteil — Art. 6 Abs. 1 KI-VO`](skills/hochrisiko-art-6-abs-1-sicherheitsbauteil/) | Für Hochrisiko-digitale Werkzeuge: Sicherheitsbauteil — Art. 6 Abs. 1 europäischer… |
 | [`Patentanwälte: hochschul erfindung und ip policy - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/hochschul-erfindung-und-ip-policy-kaltstart/) | Für Hochschul Erfindung und Ip Policy Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt… |
@@ -783,6 +784,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`RegR: FDL-Regulierung Bauleiter`](skills/regr-finanzdienstleistungsregulierung-bauleiter/) | Für RegR: FDL-Regulierung Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`RegR: MiFID II MAR`](skills/regr-mifid2-regrecht-einfuehrung-internal/) | Für RegR: MiFID II MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Regulation: Mehrparteienkonflikt und Interessenmatrix`](skills/regulation-interessen-werbeaussagen/) | Für Regulation: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
+| [`Regulator: Zahlen, Schwellenwerte und Berechnung`](skills/regulator-zahlen-schwellen-und-berechnung-klotzkette/) | Für Regulator: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Regulatorisches Mandat: Behörden, Fristen und Rollen`](skills/regulatorik-mandatssteckbrief-behoerden-fristen/) | Für Regulatorisches Mandat: Behörden, Fristen und Rollen: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Regulatorisches Recht — Allgemein`](skills/regulatorisches-recht-anschluss-router/) | Für Regulatorisches Recht — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Dokumentenintake`](skills/regulatorisches-recht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
@@ -906,6 +908,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Statistik-Anfrage Red-Team`](skills/statistik-anfrage-redteam/) | Für Statistik-Anfrage Red-Team: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Stellungnahme und Compliance-Aktionsplan`](skills/stellungnahme-und-compliance-aktionsplan/) | Für Stellungnahme und Compliance-Aktionsplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Konsultationsbeiträge`](skills/stellungnahmen/) | Für Konsultationsbeiträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Stellungnahmen: Beweislast, Darlegungslast und Substantiierung`](skills/stellungnahmen-beweislast-und-darlegungslast-klotzkette/) | Für Stellungnahmen: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und… |
 | [`Stellungnahmen und Gutachten Upload`](skills/stellungnahmen-gutachten-suche-open/) | Für Stellungnahmen und Gutachten Upload: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuerberater: vermoegensverfall steuerberater - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/steuerberater-vermoegensverfall-steuerberater-kaltstart/) | Für Steuerberater Vermögensverfall Steuerberater Kaltstart und Fak: routet Rolle, Frist, Unterlagen und… |
 | [`Steuerberater: vermoegensverfall steuerberater - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan`](skills/steuerberater-vermoegensverfall-steuerberater-kammerantw/) | Für Steuerberater Vermögensverfall Steuerberater Kammerantwort und: ordnet Norm, Beweislast und… |
