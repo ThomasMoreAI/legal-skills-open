@@ -4,7 +4,7 @@ Environmental law — permitting, compliance, liability, and remediation.
 
 Jurisdiction: `de` · Practice: `environmental` · Skill language: de
 
-## Skills (51)
+## Skills (49)
 
 | Skill | What it does |
 |---|---|
@@ -52,8 +52,6 @@ Jurisdiction: `de` · Practice: `environmental` · Skill language: de
 | [`/umweltrecht:uvp-verfahrenspruefung`](skills/uvp-verfahrenspruefung-borghei/) | Prüfung der Umweltverträglichkeitsprüfung – UVP-Pflicht nach § 5 UVPG i. V. m. Anlage 1, Vorprüfung des… |
 | [`UwR: BImSchG-Genehmigung`](skills/uwr-bimschg-genehmigung-bauleiter/) | Für UwR: BImSchG-Genehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`UwR: BNatSchG-Eingriff`](skills/uwr-bundesnaturschutzgesetz-eingriff-co2/) | Für UwR: BNatSchG-Eingriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Umwelt: Immissionsschutz-Praxis`](skills/uwr-immissionsschutz-praxis/) | Für Umwelt: Immissionsschutz-Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Leitfaden wasserrechtliche Erlaubnis WHG: Bewirtschaftungsermessen, Benutzung, Stand der Technik`](skills/uwr-wasserrechtliche-erlaubnis-leitfaden/) | Für Uwr Wasserrechtliche Erlaubnis Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Umweltrechtliche Verwaltungs- und Gerichtsverfahren`](skills/verfahren/) | Für Umweltrechtliche Verwaltungs- und Gerichtsverfahren: ordnet Norm, Beweislast und Gegenargument… |
 | [`47 Vwgo Normenkontrolle`](skills/vwgo-normenkontrolle/) | Für 47 VwGO Normenkontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Wasser: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/wasser-abfall-circular-umweltrecht-schulung/) | Für Wasser: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |

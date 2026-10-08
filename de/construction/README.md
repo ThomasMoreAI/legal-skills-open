@@ -4,7 +4,7 @@ Construction law — building contracts, procurement, delay/defect claims, and d
 
 Jurisdiction: `de` · Practice: `construction` · Skill language: de
 
-## Skills (271)
+## Skills (269)
 
 | Skill | What it does |
 |---|---|
@@ -26,7 +26,6 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Spezialfall Kuendigung VOB-Bauvertrag: § 8 VOB/B aus wichtigem Grund, Kuendigung aus freier Entscheidung mit Vergueng, A`](skills/bau-kuendigung-vob-spezial/) | Für Bau Kündigung VOB Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Symptomtheorie BGH zur Mangelruege: Beschreibung Symptom statt Ursache reicht, Bauherr muss nicht Ursache be`](skills/bau-mangelhaftung-spezial-symptomtheorie/) | Für Bau Mangelhaftung Spezial Symptomtheorie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Nachtragsmanagement: § 650b BGB Anordnungsrecht, Vergueng nach § 650c BGB, Soll-Ist-Abgleich, Dokumentation Stoerung`](skills/bau-nachtrag-workflow/) | Für Bau Nachtrag Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Spezialfall Schiedsgutachten in Bauvertraegen: §§ 317 ff`](skills/bau-schiedsgutachten-spezial/) | Für Bau Schiedsgutachten Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Sicherungsmittel: § 650f BGB Bauhandwerkersicherung, Vertragserfuellungsbuergschaft, Gewaehrleistungsbuergsc`](skills/bau-sicherungsmittel-spezial/) | Für Bau Sicherungsmittel Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bauablauf und Zeitansprüche prüfen`](skills/bauablauf-und-kausalitaet-klotzkette/) | Rekonstruiert kausale Bauzeitfolgen und trennt Fristverlängerung, Entschädigung, Schadensersatz und… |
 | [`Bauablauf mit Abhängigkeiten und realistischen Terminen fortschreiben`](skills/bauablauf-und-terminplan-fortschreiben/) | Erstellt oder korrigiert Bauablauf- und Terminpläne anhand von Planlieferungen, Vergabe, Ressourcen… |
@@ -268,7 +267,6 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Nachtrag verhandeln und abschließen`](skills/verhandlung-vorbehalt-abnahme-klotzkette/) | Formuliert Nachtragsvereinbarungen, Vergleiche und Vorbehalte mit klarer Abgeltungsreichweite und… |
 | [`LPH 8 Objektüberwachung - Bauüberwachung und Dokumentation: Ordnet vertrag`](skills/vertrag-beauftragungsumfang-vertragliche/) | Für LPH 8 Objektüberwachung - Bauüberwachung und Dokumentation: Ordnet vertrag: ordnet Norm, Beweislast… |
 | [`Vertragsbaseline und VOB/B prüfen`](skills/vertragsbaseline-pruefen-klotzkette/) | Prüft nach dem Zuschlag den vereinbarten Leistungserfolg und die wirksame Einbeziehung der VOB/B als… |
-| [`Vertragstypen: Red-Team und Qualitätskontrolle`](skills/vertragstypen-red-team-und-qualitaetskontrolle/) | Für Vertragstypen: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`VgV-Bewerbungen kriterienscharf ausarbeiten`](skills/vgv-bewerbung-klotzkette/) | Erstellt VgV-Bewerbungen von Planungsbüros mit versionsfester Kriterienmatrix, belegter Referenzauswahl… |
 | [`Bauzeitverzug und Kündigung nach VOB/B prüfen`](skills/vob-b-bauzeitverzug-kuendigung-pruefen/) | Prüft Bauzeitverzug, Behinderung, Vertragsfrist und Entziehung des Auftrags nach VOB/B, rekonstruiert… |
 | [`VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen`](skills/vob-schiedsgutachten-schlichtung/) | Für VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen: ordnet Norm… |

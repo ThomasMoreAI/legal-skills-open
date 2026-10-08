@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (807)
+## Skills (791)
 
 | Skill | What it does |
 |---|---|
@@ -50,7 +50,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`16 Tenor Formulieren`](skills/16-tenor-formulieren/) | Für 16 Tenor Formulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`17 Tatbestand Schreiben`](skills/17-tatbestand-schreiben/) | Für 17 Tatbestand Schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`18 Entscheidungsgründe Aufbauen`](skills/18-entscheidungsgruende-aufbauen/) | Für 18 Entscheidungsgründe Aufbauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`19 Nebenentscheidungen Kosten Vorläufige Vollstreckbarkeit`](skills/19-nebenentscheidungen-kosten-vorlaeufige-vollstreckbark/) | Für 19 Nebenentscheidungen Kosten Vorläufige Vollstreckbarkeit: ordnet Norm, Beweislast und… |
 | [`20 Urteilsentwurf Finalisieren`](skills/20-urteilsentwurf-finalisieren/) | Für 20 Urteilsentwurf Finalisieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`765a Fehlerkatalog`](skills/765a-fehlerkatalog/) | Für 765a Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`802L: Verhandlung, Vergleich und Eskalation`](skills/802l-verhandlung-vergleich-und-eskalation/) | Für 802L: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
@@ -104,7 +103,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Anlagen formatieren — K1, K2 oben rechts, Schrift 12pt`](skills/anlagen-formatieren-k1-k2-pdf-amtsgericht/) | Für Anlagen formatieren — K1, K2 oben rechts, Schrift 12pt: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anlagen für beA-Versand`](skills/anlagen-fuer-bea-versand/) | Bereitet vorhandene Anlagen tatsächlich für den beA-Versand vor: liest zuerst Schriftsatz und Ordner… |
 | [`Anlagen für Glaubhaftmachung`](skills/anlagen-fuer-glaubhaftmachung/) | Für Anlagen für Glaubhaftmachung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Anlagen für Haftpflichtversicherer`](skills/anlagen-haftpflicht-versicherer/) | Für Anlagen für Haftpflichtversicherer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Anlagen: Konvention mandantenfreundlich`](skills/anlagen-konvention-mandantenfreundlich/) | Für Anlagen: Konvention mandantenfreundlich: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anlagen konvertieren und sichtprüfen`](skills/anlagen-konvertieren-und-sichtpruefen/) | Konvertiert zugeordnete Anlagen aus Office-, Tabellen-, Bild-, E-Mail- und Textformaten in getrennte… |
 | [`Konvertierung, Zahlen und technische Schwellen`](skills/anlagen-konvertierung-zahlen-technische-schwellen/) | Für Konvertierung, Zahlen und technische Schwellen: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
@@ -134,7 +132,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Kaltstart und Routing`](skills/anlagen-zu-schriftsaetzen-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Anlagen vs. Substantiierungspflicht`](skills/anlagen-zur-substantiierung-pflicht/) | Für Anlagen vs. Substantiierungspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anlagenband strukturieren`](skills/anlagenband-strukturieren-anlagenbezug/) | Für Anlagenband strukturieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Anlagenbezug im Schriftsatz`](skills/anlagenbezug-im-schriftsatz/) | Für Anlagenbezug im Schriftsatz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Anlagenkonvolut konsolidieren`](skills/anlagenkonvolut-konsolidieren/) | Konsolidiert mehrere zusammengehörige Belegdateien zu einer gerichtstauglichen Anlage: liest den Bestand… |
 | [`Anlagenkonvolut: Sonderfall und Edge-Case-Prüfung`](skills/anlagenkonvolut-sonderfall-edge-case/) | Für Anlagenkonvolut: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anlagenkonvolut: Sonderfall und Edge-Case-Prüfung`](skills/anlagenkonvolut-sonderfall-und-edge-case/) | Für Anlagenkonvolut: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
@@ -286,7 +283,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Dokumentenintake`](skills/fachanwalt-verwaltungsrecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Drittanfechtung Umwelt-Genehmigung`](skills/fachanwalt-verwaltungsrecht-drittanfechtung-umwelt/) | Für Drittanfechtung Umwelt-Genehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Einstieg und Routing`](skills/fachanwalt-verwaltungsrecht-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`Einstieg, Schnelltriage und Fallrouting im Fachanwalt Verwaltungsrecht-Plugin`](skills/fachanwalt-verwaltungsrecht-einstieg-schnelltriage-fallrouting/) | Für Einstieg, Schnelltriage und Fallrouting in Fachanwalt Verwaltungsrecht: routet Rolle, Frist… |
 | [`Strukturierter Erstgespraechsleitfaden für Allgemeines Verwaltungs- und Bauplanungsrecht: Erfassung der Konstellation, K`](skills/fachanwalt-verwaltungsrecht-erstgespraech-mandatsannahme/) | Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel`](skills/fachanwalt-verwaltungsrecht-erstpruefung-und-mandatsziel/) | Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Juristischer Argumentationskern - Fachanwalt Verwaltungsrecht`](skills/fachanwalt-verwaltungsrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Fachanwalt Verwaltungsrecht ein juristisches Arbeitsprodukt tragfähig… |
@@ -310,7 +306,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Familienrichter: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/familienrichter-risikoampel/) | Für Familienrichter: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Familienrichter: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/familienrichter-risikoampel-und-gegenargumente/) | Für Familienrichter: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`JVEG-Festsetzung-Beschwerde`](skills/festsetzung-beschwerde/) | Für JVEG-Festsetzung-Beschwerde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Festsetzung: Mehrparteienkonflikt und Interessenmatrix`](skills/festsetzung-mehrparteien-konflikt-und-interessen/) | Für Festsetzung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Finance Disputes`](skills/finance-banking-dispute/) | Für Finance Disputes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Fluggastrechte-Anlagen bauen`](skills/fluggastrechte-anlagen-bauen/) | Für Fluggastrechte-Anlagen bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck…`](skills/foerdermittel-zweckbindung-belegabgleich-rueckforderung/) | Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck, Nebenbestimmungen… |
@@ -375,7 +370,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Anlagen für Haftpflichtversicherer`](skills/haftpflicht-versicherer-konvention-k/) | Für Anlagen für Haftpflichtversicherer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Handelsrichter Gesellschafterstreit: Orientierung`](skills/handelsrichter-gesellschafterstreit-orientierung/) | Für Handelsrichter Gesellschafterstreit: Orientierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Handelsrichter in der Kammer für Handelssachen: Orientierung`](skills/handelsrichter-kfh-rolle-orientierung/) | Für Handelsrichter in der Kammer für Handelssachen: Orientierung: ordnet Norm, Beweislast und… |
-| [`Handelsrichter in der Kammer für Handelssachen: Sitzungspraxis`](skills/handelsrichter-kfh-rolle-sitzung/) | Für Handelsrichter in der Kammer für Handelssachen: Sitzungspraxis: ordnet Norm, Beweislast und… |
 | [`Handelsrichter Vertriebsstreit: Sitzungspraxis`](skills/handelsrichter-vertriebsstreit-sitzung/) | Für Handelsrichter Vertriebsstreit: Sitzungspraxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Hauptdokument als PDF endfertigen`](skills/hauptdokument-pdf-endfertigen/) | Endfertigt den bereits freigegebenen Schriftsatz technisch als separates PDF: sichert die maßgebliche… |
 | [`/zwangsvollstreckung:immobiliarvollstreckung-zvg`](skills/immobiliarvollstreckung-zvg-borghei/) | Zwangsvollstreckung in das unbewegliche Vermögen nach dem ZVG – Anordnung der Zwangsversteigerung § 15… |
@@ -443,7 +437,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Kostenfestsetzung: Bei Erfolg Geld zurueckholen`](skills/kostenfestsetzung-103-104-zpo/) | Für Kostenfestsetzung: bei Erfolg Geld zurückholen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kostenfestsetzung mit Belegen, Fristen und Erinnerung`](skills/kostenfestsetzung-belege-und-fristen/) | Für Kostenfestsetzung mit Belegen, Fristen und Erinnerung: prüft Frist, Form, Zuständigkeit und… |
 | [`/kostenrecht-rvg:kostenfestsetzung-erstattung`](skills/kostenfestsetzung-erstattung-borghei/) | Kostenerstattung im Zivilprozess – Kostengrundentscheidung §§ 91 bis 101 ZPO einschließlich Erledigung §… |
-| [`Fristen: Compliance-Dokumentation und Aktenvermerk`](skills/kostenfestsetzung-kostenpruefer/) | Für Fristen: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kostenfeststellungsklage bei erledigter Hauptsache als Verzugsschaden`](skills/kostenfeststellungsklage-verzugsschaden-erledigung/) | Für Kostenfeststellungsklage bei erledigter Hauptsache als Verzugsschaden: erstellt Entwurf mit Antrag… |
 | [`Kostenpruefer: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/kostenpruefer-fristen-form-und-zustaendigkeit/) | Für Kostenprüfer: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Was kostet eine Klage vor dem Amtsgericht?`](skills/kostenrisiko-streitwert-berechnen-gkg/) | Für Was kostet eine Klage vor dem Amtsgericht?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -525,7 +518,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Polizeirecht § 9 Polg`](skills/polizeirecht-paragraf-9-polg/) | Für Polizeirecht Paragraf 9 Polg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prozessportfolio-Status`](skills/portfolio-status/) | Für Prozessportfolio-Status: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Post-M&A Warranty Claims`](skills/post-ma-pre-litigation/) | Für Post-M&A Warranty Claims: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Confidential Exhibits`](skills/protective-measures-confidential-exhibits/) | Für Confidential Exhibits: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Proz: Mediation Gueteverfahren`](skills/proz-mediationsklage-guete-spezial/) | Für Proz: Mediation Güteverfahren: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Proz Quellenkarte`](skills/proz-quellenkarte/) | Für Proz Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Prozessablauf — Papier vs. Elektronisch`](skills/prozessablauf-papier-vs-elektronisch/) | Für Prozessablauf — Papier vs. Elektronisch: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -544,7 +536,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-datenraum-sharepoint/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-naechster-schritt/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfung Sachverständigengutachten — KI-Deklaration und JVEG`](skills/pruefung-sachverstaendigengutachten-ki-deklaration/) | Für Prüfung Sachverständigengutachten — digitale Werkzeuge-Deklaration und JVEG: ordnet Norm, Beweislast… |
-| [`Quality: Mandantenkommunikation und Entscheidungsvorlage`](skills/quality-mandantenkommunikation-entscheidungsvorlage/) | Für Quality: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`Raeumung: Compliance-Dokumentation und Aktenvermerk`](skills/raeumung-compliance-dokumentation-und-akte/) | Für Räumung: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Räumung § 885 ZPO / Berliner Räumung § 885a ZPO`](skills/raeumung-tabellenauszug-inso/) | Für Räumung Paragraf 885 ZPO / Berliner Räumung Paragraf 885a ZPO: ordnet Norm, Beweislast und… |
 | [`JVEG-Rechenblatt`](skills/rechenblatt/) | Für JVEG-Rechenblatt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -581,7 +572,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Ist das Amtsgericht für Ihren Fall sachlich zuständig?`](skills/sachliche-zustaendigkeit-amtsgericht-23-gvg/) | Für Ist das Amtsgericht für Ihren Fall sachlich zuständig?: prüft Frist, Form, Zuständigkeit und… |
 | [`/zwangsvollstreckung:sachpfaendung-vermoegensauskunft`](skills/sachpfaendung-vermoegensauskunft-borghei/) | Zugriff auf bewegliche Sachen und Aufklärung der Vermögenslage – Sachpfändung §§ 803 ff. ZPO mit… |
 | [`Sachverhaltschronologie`](skills/sachverhaltschronologie/) | Für Sachverhaltschronologie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg… |
-| [`Sachverhaltschronologie: Schriftsatz-, Brief- und Memo-Bausteine`](skills/sachverhaltschronologie-textbausteine/) | Für Sachverhaltschronologie: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag… |
 | [`Sachverstaendigen Quellenkarte`](skills/sachverstaendigen-quellenkarte/) | Für Sachverständigen Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sachverstaendigenbeweis: Wenn Fachfrage entscheidet`](skills/sachverstaendigenbeweis-402-zpo/) | Für Sachverständigenbeweis: Wenn Fachfrage entscheidet: ordnet Norm, Beweislast und Gegenargument… |
 | [`JVEG-Sachverstaendigenrechnung`](skills/sachverstaendigenrechnung/) | Für JVEG-Sachverständigenrechnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -596,7 +586,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Häusliche Gewalt Verfahren: Orientierung`](skills/schoeffe-haeusliche-gewalt-orientierung/) | Für Häusliche Gewalt Verfahren: Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schöffe am Strafgericht Kaltstart`](skills/schoeffe-strafgericht-kaltstart/) | Für Schöffe am Strafgericht Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Schöffe in der Strafkammer: Orientierung`](skills/schoeffe-strafkammer-rolle-orientierung/) | Für Schöffe in der Strafkammer: Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Schöffe in der Strafkammer: Sitzungspraxis`](skills/schoeffe-strafkammer-rolle-sitzung/) | Für Schöffe in der Strafkammer: Sitzungspraxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Finale Entscheidung als Volltext (Beratungs-Votum mit Tenor-Vorschlag)`](skills/schoeffen-handelsrichter-praxis-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Beratungs-Votum mit Tenor-Vorschlag): ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - Schöffen Handelsrichter Praxis`](skills/schoeffen-handelsrichter-praxis-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Schöffen Handelsrichter Praxis ein juristisches Arbeitsprodukt tragfähig… |
 | [`Allgemeiner Kaltstart und Routing`](skills/schoeffen-handelsrichter-praxis-kaltstart-routing/) | Für Allgemeiner Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
@@ -646,7 +635,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Proz: Livequellen- und Rechtsprechungscheck`](skills/spezial-proz-livequellen-und-rechtsprechungscheck/) | Für Proz: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rechenprotokolle: Red-Team und Qualitätskontrolle`](skills/spezial-rechenprotokolle-red-team-und-qualitaetskontroll/) | Für Rechenprotokolle: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Sachverstaendigen: Livequellen- und Rechtsprechungscheck`](skills/spezial-sachverstaendigen-livequellen-und-rechtsprechung/) | Für Sachverständigen: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
-| [`Saumselig: Sonderfall und Edge-Case-Prüfung`](skills/spezial-saumselig-sonderfall-und-edge-case/) | Für Saumselig: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tabellarische: Livequellen- und Rechtsprechungscheck`](skills/spezial-tabellarische-livequellen-und-rechtsprechungsche/) | Für Tabellarische: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Uebersetzer: Fristennotiz und nächster Schritt`](skills/spezial-uebersetzer-fristennotiz-und-naechster-schritt/) | Für Übersetzer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Vermoegensauskunft: Zahlen, Schwellenwerte und Berechnung`](skills/spezial-vermoegensauskunft-zahlen-schwellen-und-berechnu/) | Für Vermögensauskunft: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
@@ -657,12 +645,10 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Statthaftigkeit § 47 VwGO`](skills/statthaftigkeit-47-vwgo/) | Für Statthaftigkeit Paragraf 47 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Stempelt: Internationaler Bezug und Schnittstellen`](skills/stempelt-internationaler-bezug-schnittstellen/) | Für Stempelt: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Stempelt: Internationaler Bezug und Schnittstellen`](skills/stempelt-internationaler-bezug-und-schnittstellen/) | Für Stempelt: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
-| [`Stilrichtlinie: Sonderfall und Edge-Case-Prüfung`](skills/stilrichtlinie-sonderfall-und-edge-case/) | Für Stilrichtlinie: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Störung und Nachreichung dokumentieren`](skills/stoerung-und-nachreichung-dokumentieren/) | Erstellt bei technischer Übermittlungsstörung, ungeeignetem elektronischem Dokument oder gerichtlichem… |
 | [`StPO: Biometrischer Internetabgleich und KI-Ermittlung`](skills/stpo-biometrischer-internetabgleich-und-ki-ermittlung/) | Für StPO: Biometrischer Internetabgleich und digitale Werkzeuge-Ermittlung: ordnet Norm, Beweislast und… |
 | [`Strafzumessung für Schöffen (Sitzungspraxis): hilft ehrenamtlichen Richtern bei Schuld, Prävention, Vorleben, Geständnis`](skills/strafzumessung-schoeffe-sitzung/) | Für Strafzumessung Schöffe Sitzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Streitwertfestsetzung – GKG / RVG`](skills/streitwert-verkehrsunfall-vollstreckung/) | Für Streitwertfestsetzung – GKG / RVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Strukturierter: Erstprüfung, Rollenklärung und Mandatsziel`](skills/strukturierter-strafprozess-modus/) | Für Strukturierter: Erstprüfung, Rollenklärung und Mandatsziel: ordnet Norm, Beweislast und… |
 | [`Bestreiten muss substantiiert sein — wie es geht`](skills/substantiiertes-bestreiten-138-iv-zpo/) | Für Bestreiten muss substantiiert sein — wie es geht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Tabellarische Quellenkarte`](skills/tabellarische-quellenkarte/) | Für Tabellarische Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vollstreckung aus Tabellenauszug § 201 InsO`](skills/tabellenauszug-201-inso/) | Für Vollstreckung aus Tabellenauszug Paragraf 201 InsO: ordnet Norm, Beweislast und Gegenargument… |
@@ -680,7 +666,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Titulierung und Streckung`](skills/titulierung-streckung-leitfaden/) | Für Titulierung und Streckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Die haeufigsten Fehler — und wie Sie sie vermeiden`](skills/typische-laien-fehler/) | Für Die häufigsten Fehler — und wie Sie sie vermeiden: ordnet Norm, Beweislast und Gegenargument… |
 | [`JVEG-Uebernachtung-Aufwand`](skills/uebernachtung-aufwand/) | Für JVEG-Übernachtung-Aufwand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Uebernachtung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/uebernachtung-verdienstausfall-vorschuss/) | Für Übernachtung: Schriftsatz-, Brief- und Memo-Bausteine: ordnet Norm, Beweislast und Gegenargument… |
 | [`Übersetzer: Fristennotiz und nächster Schritt`](skills/uebersetzer-fristennotiz-jveg/) | Für Übersetzer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Urkundenbeweis: Schriftliche Dokumente als Beweis`](skills/urkundenbeweis-415-ff-zpo/) | Für Urkundenbeweis: Schriftliche Dokumente als Beweis: ordnet Norm, Beweislast und Gegenargument… |
 | [`Urkundenprozess`](skills/urkundenprozess-pruefen/) | Für Urkundenprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -814,4 +799,3 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Unterlagen und Lücken`](skills/zwangsvollstreckung-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`ZwV: Konto Arbeitseinkommen`](skills/zwv-pfaendung-konto-vollstreckungsschutz/) | Für ZwV: Konto Arbeitseinkommen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`ZwV: Vollstreckungstitel Bauleiter`](skills/zwv-vollstreckungstitel-bauleiter/) | Für ZwV: Vollstreckungstitel Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Spezialfall Zwangsversteigerung Grundstueck ZVG: Anordnung, Termin, Mindestgebot, Geringstes Gebot, geringste Beitrag`](skills/zwv-zwangsversteigerung-grundstueck-spezial/) | Für Zwv Zwangsversteigerung Grundstück Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

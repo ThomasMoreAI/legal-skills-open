@@ -4,7 +4,7 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `eu` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (18)
+## Skills (17)
 
 | Skill | What it does |
 |---|---|
@@ -17,7 +17,6 @@ Jurisdiction: `eu` · Practice: `cybersecurity` · Skill language varies per ski
 | [`DORA Expert`](skills/dora-expert/) | DORA expert for EU financial entities. Deep knowledge of Digital Operational Resilience Act including 5… |
 | [`DORA-IKT-Vertragsprüfung`](skills/dora-ikt-vertragspruefung/) | Für DORA-IKT-Vertragsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`EU Cyber Resilience Act (CRA) Skill`](skills/eu-cra-sushegaad/) | Expert EU Cyber Resilience Act (CRA) advisor for Regulation (EU) 2024/2847 — mandatory cybersecurity and… |
-| [`EU Cybersecurity Act Certification`](skills/eu-cybersecurity-act-certification/) | Für EU Cybersecurity Act Certification: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU NIS2 Compliance`](skills/eu-nis2-compliance-builderced/) | Implement NIS2 Directive (2022/2555) cybersecurity obligations for essential and important entities… |
 | [`EU NIS2 Directive Expert`](skills/eu-nis2-expert/) | EU NIS2 Directive (Directive (EU) 2022/2555) expert. Reference-depth knowledge of essential vs important… |
 | [`Incident Response`](skills/incident-response-arttuan/) | One incident, several regulators, different clocks — build the runbook that computes GDPR, NIS2, CRA and… |

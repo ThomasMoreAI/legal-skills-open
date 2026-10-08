@@ -4,7 +4,7 @@ Commercial and trade transactions between businesses — sale of goods, distribu
 
 Jurisdiction: `cn` · Practice: `commercial` · Skill language: de
 
-## Skills (105)
+## Skills (103)
 
 | Skill | What it does |
 |---|---|
@@ -39,9 +39,7 @@ Jurisdiction: `cn` · Practice: `commercial` · Skill language: de
 | [`Spielzeug und Konsumgüter China: CE/REACH/Produktsicherheit`](skills/china-toy-and-consumer-ip-strategy-before/) | Für Spielzeug und Konsumgüter China: CE/REACH/Produktsicherheit: ordnet Norm, Beweislast und… |
 | [`Chinesische Investoren in Deutschland: Compliance und Verfahren`](skills/chinesische-investoren-in-deutschland/) | Für Chinesische Investoren in Deutschland: Compliance und Verfahren: ordnet Norm, Beweislast und… |
 | [`De Risking Nicht Decoupling`](skills/chn-002-de-risking-nicht-decoupling/) | Für De Risking Nicht Decoupling: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`US EAR China Touchpoints`](skills/chn-020-us-ear-china-touchpoints/) | Für US EAR China Touchpoints: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Force Majeure And Change In Law`](skills/chn-082-force-majeure-and-change-in-law/) | Für Force Majeure And Change in Law: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Abschlussmemo China Deal`](skills/chn-099-abschlussmemo-china-deal/) | Für Abschlussmemo China Deal: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Cloud und ERP in China: ICP/MLPS/Datenlokalisierung`](skills/cloud-and-erp-rollout-china/) | Für Cloud und ERP in China: ICP/MLPS/Datenlokalisierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vertragsrecht China: Sprache/Rechtswahl/Civil Code 2021`](skills/contract-language-arbitration-hk/) | Für Vertragsrecht China: Sprache/Rechtswahl/Civil Code 2021: ordnet Norm, Beweislast und Gegenargument… |
 | [`EU-Antisubventionsverfahren China: Risiken und Verfahren`](skills/countervailing-duty-risk/) | Für EU-Antisubventionsverfahren China: Risiken und Verfahren: ordnet Norm, Beweislast und Gegenargument… |

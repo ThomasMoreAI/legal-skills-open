@@ -4,7 +4,7 @@ Commercial and trade transactions between businesses — sale of goods, distribu
 
 Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 
-## Skills (238)
+## Skills (236)
 
 | Skill | What it does |
 |---|---|
@@ -139,7 +139,6 @@ Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 | [`Kuendigungsfristen 89`](skills/kuendigungsfristen-89/) | Für Kündigungsfristen 89: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. |
 | [`Kündigungsschreiben im Handelsvertretervertrag — Form, Fristen und Inhalt`](skills/kuendigungsschreiben/) | Für Kündigungsschreiben im Handelsvertretervertrag — Form, Fristen und Inhalt: ordnet Norm, Beweislast… |
 | [`Kundendaten im Handelsvertretervertrag: Datenschutz, Geheimnisschutz und Herausgabe`](skills/kundendaten-dsgvo/) | Prüft die Nutzung und Weitergabe von Kundendaten im Handelsvertreterverhältnis nach DSGVO und Paragraf… |
-| [`Kundenliste Herausgabe`](skills/kundenliste-herausgabe/) | Für Kundenliste Herausgabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Kundenliste und Herausgabepflicht bei Vertragsende`](skills/kundenliste-herausgabe-kundenschutz-makler/) | Prüft die Herausgabe von Kundenlisten nach Vertrag und Paragraf 675 Absatz 1 in Verbindung mit Paragraf… |
 | [`Kundenschutz im Handelsvertretervertrag — Abwerbeverbote und Rechtsfolgen`](skills/kundenschutz/) | Für Kundenschutz im Handelsvertretervertrag — Abwerbeverbote und Rechtsfolgen: ordnet Norm, Beweislast… |
 | [`Franchiserecht: Lebensmittel-Franchise, Hygiene und HACCP`](skills/lebensmittel-franchise-hygiene-und-haccp/) | Für Franchiserecht: Lebensmittel-Franchise, Hygiene und HACCP: ordnet Norm, Beweislast und… |
@@ -166,7 +165,6 @@ Jurisdiction: `de` · Practice: `commercial` · Skill language: de
 | [`Franchise: Nachvertragliches Wettbewerbsverbot im Franchise`](skills/nachvertragliches-wettbewerbsverbot-im-franchise/) | Für Franchise: Nachvertragliches Wettbewerbsverbot im Franchise: ordnet Norm, Beweislast und… |
 | [`Geschäftsgeheimnisse und NDA im Handelsvertretervertrag nach Paragraf 90 HGB und GeschGehG`](skills/ndas-und-geschaeftsgeheimnisse/) | Prüft Geheimnisschutz und NDA im Handelsvertretervertrag nach Paragraf 90 HGB und GeschGehG; grenzt… |
 | [`Nebenberuflicher Handelsvertreter — HGB-Recht und Sozialversicherung`](skills/nebenberuflicher-handelsvertreter/) | Für Nebenberuflicher Handelsvertreter — HGB-Recht und Sozialversicherung: ordnet Norm, Beweislast und… |
-| [`Onboarding`](skills/onboarding/) | Für Onboarding: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Onboarding eines neuen Handelsvertreters — Vertragsstart und erste Pflichten nach § 86 HGB`](skills/onboarding-online-vertrieb-pharma-medtech/) | Für Onboarding eines neuen Handelsvertreters — Vertragsstart und erste Pflichten nach Paragraf 86 HGB… |
 | [`Online-Vertriebskonflikt — Bezirksschutz vs. E-Commerce nach § 87 HGB`](skills/online-vertrieb-konflikt/) | Für Online-Vertriebskonflikt — Bezirksschutz vs. E-Commerce nach Paragraf 87 HGB: ordnet Norm… |
 | [`Franchiserecht: Online-Vertrieb, Plattformen und Social Media`](skills/onlinevertrieb-plattformen-und-social-media/) | Für Franchiserecht: Online-Vertrieb, Plattformen und Social Media: ordnet Norm, Beweislast und… |

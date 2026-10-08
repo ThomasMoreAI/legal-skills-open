@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: de
 
-## Skills (51)
+## Skills (50)
 
 | Skill | What it does |
 |---|---|
@@ -43,7 +43,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: d
 | [`Legal Opinion`](skills/draft-legal-opinion-sboghossian/) | Use when drafting a formal legal opinion — a written analysis by counsel on a specific legal question… |
 | [`Mandantenkommunikation`](skills/false-friends/) | Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`False-Friends-Scanner`](skills/false-friends-scanner/) | Für False-Friends-Scanner: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`False: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/false-fristen-form-und-zustaendigkeit/) | Für False: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Governing Law, Jurisdiction und Forum`](skills/governing-law-jurisdiction/) | Für Governing Law, Jurisdiction und Forum: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Low-Key Late-Night Coach`](skills/humor-coach-interpretation-precedent-common/) | Für Low-Key Late-Night Coach: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Interpretation und Precedent`](skills/interpretation-precedent/) | Für Interpretation und Precedent: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

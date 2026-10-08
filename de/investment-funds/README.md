@@ -4,7 +4,7 @@ Investment Funds & Asset Management practice.
 
 Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 
-## Skills (212)
+## Skills (196)
 
 | Skill | What it does |
 |---|---|
@@ -35,8 +35,6 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Commercial DD und Vertragswert`](skills/commercial-dd-contract-value/) | Für Commercial DD und Vertragswert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Clean Team und Kartellrecht im PE-Prozess`](skills/competition-clean-team/) | Für Clean Team und Kartellrecht im PE-Prozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lawful Competitive Intelligence`](skills/competitive-intelligence-lawful/) | Für Lawful Competitive Intelligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Consent Request Workflow`](skills/consent-request-pass-email-rechtsabteilung/) | Für Consent Request Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Consumer, E-Commerce und Plattformen`](skills/consumer-ecommerce-platform/) | Für Consumer, E-Commerce und Plattformen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Corporate VC und Konflikte`](skills/corporate-vc-conflicts/) | Für Corporate VC und Konflikte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Covenants, Defaults und Waiver`](skills/covenants-defaults-waiver/) | Für Covenants, Defaults und Waiver: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Cross-border Fund Investment`](skills/cross-border-fund-investment/) | Für Cross-border Fund Investment: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -56,13 +54,11 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Distressed M&A aus Krise und Insolvenz`](skills/distressed-ma-aus-insolvenz/) | Für Distressed M&A aus Krise und Insolvenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Dividend Recap und Refinancing`](skills/dividend-recap-und-refinancing/) | Für Dividend Recap und Refinancing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dokumenten- und Versionskontrolle`](skills/document-version-control/) | Für Dokumenten- und Versionskontrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Drag, Tag, ROFR und Transfers`](skills/drag-tag-rofr-transfer/) | Für Drag, Tag, ROFR und Transfers: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dual Track: IPO oder Trade Sale`](skills/dual-track-ipo-oder-trade-sale/) | Für Dual Track: IPO oder Trade Sale: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Earn-out Dispute`](skills/earn-out-dispute/) | Für Earn-out Dispute: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Earn-out, Vendor Loan und Seller Note`](skills/earn-out-und-vendor-loan/) | Für Earn-out, Vendor Loan und Seller Note: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`ELTIF 2.0: europäischer Long-Term-Fund für Private Markets`](skills/eltif-private-markets-euveca-fonds-kvg-erlaubnis/) | Für ELTIF 2.0: europäischer Long-Term-Fund für Private Markets: ordnet Norm, Beweislast und… |
 | [`Energy/Infrastructure PE`](skills/energy-infrastructure-pe/) | Für Energy/Infrastructure PE: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`ESG, Impact und Mission`](skills/esg-impact-venture/) | Für ESG, Impact und Mission: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`ESG, SFDR und Lieferketten im PE-Mandat`](skills/esg-sfdr-und-lieferketten-im-pe-mandat/) | Für ESG, SFDR und Lieferketten im PE-Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EuVECA, ELTIF und VC-Fonds`](skills/euveca-eltif-und-vc-fonds/) | Für EuVECA, ELTIF und VC-Fonds: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`EuVECA und VC-Fonds: Wagniskapital richtig etikettieren`](skills/euveca-und-vc-fonds/) | Für EuVECA und VC-Fonds: Wagniskapital richtig etikettieren: ordnet Norm, Beweislast und Gegenargument… |
@@ -76,9 +72,7 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`FinTech, Crypto und regulierte Targets`](skills/fintech-crypto-regulated-target/) | Für FinTech, Crypto und regulierte Targets: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Follow-on IC Memo`](skills/follow-on-ic-memo/) | Für Follow-on IC Memo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Follow-on-Reserve-Strategie`](skills/follow-on-reserve-strategy/) | Für Follow-on-Reserve-Strategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Founder Ask Response`](skills/founder-ask-response/) | Für Founder Ask Response: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Founder-IP und Rechtekette`](skills/founder-ip-chain/) | Für Founder-IP und Rechtekette: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Founder-Konflikt und Abberufung`](skills/founder-konflikt-und-abberufung/) | Für Founder-Konflikt und Abberufung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Founder Reference Calls`](skills/founder-reference-calls/) | Für Founder Reference Calls: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Founder-Update-Anfrage`](skills/founder-update-prompt/) | Für Founder-Update-Anfrage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Founder Vesting und Leaver`](skills/founder-vesting-leaver/) | Für Founder Vesting und Leaver: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -93,17 +87,14 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`UBO und Transparenzregister`](skills/gwg-ubo-transparenzregister/) | Für UBO und Transparenzregister: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`Health, MedTech und Biotech`](skills/health-medtech-biotech/) | Für Health, MedTech und Biotech: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Healthcare-Target im PE-Deal`](skills/healthcare-target-im-pe-deal/) | Für Healthcare-Target im PE-Deal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Investment Committee Memo`](skills/ic-memo-generator/) | Für Investment Committee Memo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Investment Committee Memo`](skills/ic-memo-und-entscheidungsvorlage/) | Für Investment Committee Memo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Information Rights und Reporting`](skills/information-rights-reporting/) | Für Information Rights und Reporting: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Inside Information und Marktmissbrauch`](skills/inside-information-und-marktmissbrauch/) | Für Inside Information und Marktmissbrauch: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Insolvenz, Runway und Krise`](skills/insolvency-runway-crisis/) | Für Insolvenz, Runway und Krise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Insolvenzrisiko für PE-Sponsor`](skills/insolvenzrisiko-fuer-pe-sponsor/) | Für Insolvenzrisiko für PE-Sponsor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Insurance DD und Risk Allocation`](skills/insurance-dd-und-risk/) | Für Insurance DD und Risk Allocation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Intercreditor, Security Agent und Sicherheitenpool`](skills/intercreditor-und-sicherheitenagent/) | Für Intercreditor, Security Agent und Sicherheitenpool: ordnet Norm, Beweislast und Gegenargument… |
 | [`EU und Schweiz Cross-Border`](skills/international-eu-schweiz/) | Für EU und Schweiz Cross-Border: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Investment Committee Minutes`](skills/investment-committee-minutes-task-reminder-system/) | Für Investment Committee Minutes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Investor Reporting ans Family Office`](skills/investor-reporting-ans-family-office/) | Für Investor Reporting ans Family Office: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Investorprofil: Family Office, Fonds, Angel`](skills/investorprofil-family-office-fonds-angel/) | Für Investorprofil: Family Office, Fonds, Angel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Investorprofil: LP, GP, Family Office, Stiftung, Versicherung`](skills/investorprofil-lp-gp-family-office/) | Für Investorprofil: LP, GP, Family Office, Stiftung, Versicherung: ordnet Norm, Beweislast und… |
 | [`IP und Brand DD im PE-Deal`](skills/ip-und-brand-dd-pe/) | Für IP und Brand DD im PE-Deal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -134,7 +125,6 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Minority Investment und Protective Rights`](skills/minority-investment-und-protective-rights/) | Für Minority Investment und Protective Rights: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NDA und Vertraulichkeit im VC-Deal`](skills/nda-und-confidentiality-vc/) | Für NDA und Vertraulichkeit im VC-Deal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Negotiation Playbook PE`](skills/negotiation-playbook-pe/) | Für Negotiation Playbook PE: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Notar, Register und Closing`](skills/notar-register-closing/) | Für Notar, Register und Closing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`NPL-Kauf und Kreditzweitmarktgesetz`](skills/npl-kauf-und-krzwmg/) | Für NPL-Kauf und Kreditzweitmarktgesetz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Open Source und Software-DD`](skills/open-source-software-dd/) | Für Open Source und Software-DD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Output Generator Pack`](skills/output-generator-pack/) | Für Output Generator Pack: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -178,11 +168,9 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Red Team der Investment Thesis`](skills/red-team-investment-thesis/) | Für Red Team der Investment Thesis: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Bank-/FinTech-Target im PE-Deal`](skills/regulated-bank-fintech-target/) | Für Bank-/FinTech-Target im PE-Deal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Regulatory Sector DD`](skills/regulatory-sector-dd/) | Für Regulatory Sector DD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Relationship Map`](skills/relationship-map/) | Für Relationship Map: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Amend & Extend und Restrukturierung`](skills/restructuring-waiver-amend-extend/) | Für Amend & Extend und Restrukturierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rookie-Modus Venture Capital`](skills/rookie-modus-vc-begriffe/) | Für Rookie-Modus Venture Capital: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Runway und Milestone Monitor`](skills/runway-und-milestone-monitor/) | Für Runway und Milestone Monitor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`SAFE/KISS deutsche Adaption`](skills/safe-kiss-deutsche-adaption/) | Für SAFE/KISS deutsche Adaption: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sanktions- und geopolitische Risiken`](skills/sanctions-russia-china-risk/) | Für Sanktions- und geopolitische Risiken: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schuldscheindarlehen: Struktur und Dokumente`](skills/schuldschein-darlehen-struktur/) | Für Schuldscheindarlehen: Struktur und Dokumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Übertragung von Schuldscheindarlehen`](skills/schuldschein-transfer/) | Für Übertragung von Schuldscheindarlehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -190,16 +178,13 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Secondary Buyout`](skills/secondary-buyout-und-sbo/) | Für Secondary Buyout: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Secondary Sale`](skills/secondary-sale/) | Für Secondary Sale: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Deutsches Sicherheitenpaket`](skills/security-package-germany/) | Für Deutsches Sicherheitenpaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Series-A-Term-Sheet`](skills/series-a-term-sheet/) | Für Series-A-Term-Sheet: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Series B und Growth-Runde`](skills/series-b-und-growth-runde/) | Für Series B und Growth-Runde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`SHA und Investment Agreement`](skills/shareholder-agreement-investment-agreement/) | Für SHA und Investment Agreement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Gesellschafterstreit im Portfolio`](skills/shareholder-dispute/) | Für Gesellschafterstreit im Portfolio: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Gesellschafterdarlehen in Krise`](skills/shareholder-loans-in-crisis/) | Für Gesellschafterdarlehen in Krise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`SPA Share Deal: PE-spezifische Key Issues`](skills/spa-share-deal-pe-spezifische-key-issues/) | Für SPA Share Deal: PE-spezifische Key Issues: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Subscription Package und Side Letter`](skills/subscription-package-und-side-letter/) | Für Subscription Package und Side Letter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Supply Chain und Material Contracts`](skills/supply-chain-und-material-contracts/) | Für Supply Chain und Material Contracts: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schweizer Startup-Investment`](skills/swiss-ag-startup-investment/) | Für Schweizer Startup-Investment: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Task- und Reminder-System`](skills/task-reminder-system/) | Für Task- und Reminder-System: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Tax Audit und Post-Closing Tax Claims`](skills/tax-audit-post-closing/) | Für Tax Audit und Post-Closing Tax Claims: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuerliche Investor- und Portfoliothemen`](skills/tax-investor-portfolio/) | Für Steuerliche Investor- und Portfoliothemen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tax Structuring: Deutschland-Fokus`](skills/tax-structuring-deutschland-fokus/) | Für Tax Structuring: Deutschland-Fokus: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -207,7 +192,6 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Tech/Product-DD für VCs`](skills/tech-product-dd-fuer-vcs/) | Für Tech/Product-DD für VCs: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Transition Services Agreement`](skills/transition-services-agreement/) | Für Transition Services Agreement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DE/EN PE-Terms: präzise übersetzen`](skills/translation-de-en-pe-terms/) | Für DE/EN PE-Terms: präzise übersetzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Troubled Portfolio Rescue`](skills/troubled-portfolio-rescue/) | Für Troubled Portfolio Rescue: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Pre-Money, Post-Money und Bewertung`](skills/valuation-pre-post-money/) | Für Pre-Money, Post-Money und Bewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Valuation, Fairness und Bewertungsstreit`](skills/valuation-und-fairness/) | Für Valuation, Fairness und Bewertungsstreit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Prüft tokenisierte Investments, eWpG, MiCAR, Wallets, Register, Verwahrung und Anlegerkommunikation.`](skills/vc-097-tokenisierung-digital-shares/) | Für Vc 097 Tokenisierung Digital Shares: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

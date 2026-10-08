@@ -4,7 +4,7 @@ German public procurement (Vergaberecht) — bidder eligibility, Rüge before aw
 
 Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (383)
+## Skills (377)
 
 | Skill | What it does |
 |---|---|
@@ -215,7 +215,6 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Öffentliche Änderungsgrenzen prüfen`](skills/oeffentliche-aenderungsgrenzen-klotzkette/) | Prüft Nachträge und Vergleiche öffentlicher Bauaufträge nach Paragraf 132 GWB getrennt von der… |
 | [`Sofortige Beschwerde gegen VK-Entscheidung beim OLG-Vergabesenat erstellen: Bieter oder Auftraggeber will VK-Beschluss a`](skills/olg-sofortige-beschwerde/) | Für Olg Sofortige Beschwerde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sofortige Beschwerde des Bieters beim OLG-Vergabesenat begründen`](skills/olg-sofortige-beschwerde-klotzkette/) | OLG-Beschwerdebegründung des Bieters ausarbeiten: VK-Tenor und tragende Gründe angreifen, Anträge… |
-| [`OLG-Vergabesenat und sofortige Beschwerde strategisch vorbereiten: Beschwerdefrist, Begruendung, Eilantraege, Aktenauszu`](skills/olg-vergabesenat-beschwerdebriefing/) | Für Olg Vergabesenat Beschwerdebriefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Sofortige Beschwerde zum OLG vorbereiten`](skills/olg-vergabesenat-beschwerdebriefing-klotzkette/) | OLG-Vergabesenat-Briefing erstellen: Beschwerdefrist, Angriff oder Verteidigung, Eilantrag, Aktenauszug… |
 | [`Orientierung Fehlerkatalog`](skills/orientierung-fehlerkatalog/) | Für Orientierung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Orientierung Fehlerkatalog`](skills/orientierung-fehlerkatalog-bieter-unternehmen-klotzkette/) | Auf Bieterseite: Orientierung Fehlerkatalog: Fehlerbremse; prüft Fristen, Zuständigkeit, Beweislast… |
@@ -228,7 +227,6 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Qualitätsvorsprung nachweisen`](skills/qualitaetsvorsprung-nachweisen-klotzkette/) | Bieter befähigen, trotz höherem Preis das beste Angebot darzustellen: Qualitäts-, Tempo-, Personal… |
 | [`Rechtsquellen-Livecheck`](skills/quellen-livecheck-bieter-unternehmen-klotzkette/) | Auf Bieterseite: Quellen-Live-Check für Vergaberecht: prüft Normen (GWB Paragrafen 97 ff., VgV, VOB/A… |
 | [`Rechtsquellen-Livecheck`](skills/quellen-livecheck-vergabestelle-behoerden-klotzkette/) | Auf Auftraggeberseite: Quellen-Live-Check für Vergaberecht: prüft Normen (GWB Paragrafen 97 ff., VgV… |
-| [`Rahmenvereinbarungen, Abrufe und Mini-Wettbewerbe steuern: Laufzeit, Hoechstmengen, Abrufmechanik, Rangfolge, Transparen`](skills/rahmenvereinbarung-abrufe-mini-wettbewerb/) | Für Rahmenvereinbarung Abrufe Mini Wettbewerb: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rahmenvereinbarung, Abruf und Mini-Wettbewerb steuern`](skills/rahmenvereinbarung-abrufe-mini-wettbewerb-klotzkette/) | Rahmenvereinbarung und Abrufe der Vergabestelle steuern: prüft Beteiligte, Schätz- und Höchstmenge… |
 | [`Rahmenvereinbarung: Internationaler Bezug und Schnittstellen`](skills/rahmenvereinbarung-international-schnittstellen-klotzkette/) | Rahmenvereinbarung mit internationalem Bezug prüfen: Schnittstellen, Abrufe, Laufzeit, Höchstmenge… |
 | [`Rechtsregime und Auftragswert der Bauvergabe bestimmen`](skills/rechtsregime-auftragswert-klotzkette/) | Bestimmen Sie vor der Unterlagenerstellung Auftraggebereigenschaft, Bauauftragsbegriff, Wert und… |
@@ -268,7 +266,6 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Technische Spezifikationen für Bauleistungen gestalten`](skills/technische-spezifikationen-klotzkette/) | Gestalten Sie leistungsbezogene technische Anforderungen so, dass Sicherheitsbedarf, Wettbewerb… |
 | [`Teilnahmeanträge und Angebote prüfen`](skills/teilnahmeantraege-und-angebote-pruefen/) | Prüft den Eingang und die formale Zulässigkeit von Teilnahmeanträgen und Angeboten einer… |
 | [`Teilnahmewettbewerb für Bauvergaben durchführen`](skills/teilnahmewettbewerb-klotzkette/) | Prüfen Sie Bewerbungen und wählen Sie Teilnehmer nach bekannt gemachten Regeln aus, wenn das gewählte… |
-| [`Ungewoehnlich niedriges Angebot prüfen: Aufgreifschwelle, Aufklaerung, Kalkulationsrisiken, Sozial-/Umweltpflichten, Zus`](skills/ungewoehnlich-niedriges-angebot/) | Für Ungewöhnlich Niedriges Angebot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Ungewöhnlich niedriges Angebot aus Bietersicht`](skills/ungewoehnlich-niedriges-angebot-bieter-unternehmen-klotzkette/) | Auf Bieterseite: Ungewöhnlich niedrige Angebote prüfen: Aufgreifschwelle, Aufklärung… |
 | [`Ungewöhnlich niedriges Angebot nach § 60 VgV prüfen`](skills/ungewoehnlich-niedriges-angebot-vergabestelle-behoerden/) | Ungewöhnlich niedrige Angebote auf Auftraggeberseite prüfen: bestimmt Auffälligkeit ohne starre… |
 | [`Bauvergabeunterlagen abschließend prüfen und freigeben`](skills/unterlagen-freigabe-klotzkette/) | Führen Sie den abschließenden Konsistenz-, Rechts- und Kalkulationscheck durch und übergeben Sie einen… |
@@ -308,7 +305,6 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Vergabeakte und Dokumentationsvermerk für Auftraggeber aufbauen: Beschaffungsbedarf, Markterkundung, Verfahrenswahl, Eig`](skills/vergabeakte-dokumentationsvermerk-builder/) | Für Vergabeakte Dokumentationsvermerk Builder: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Vergabeakte und Vergabevermerk aufbauen`](skills/vergabeakte-dokumentationsvermerk-builder-klotzkette/) | Vergabeakte der Behörde reproduzierbar aufbauen: ordnet Originale, Versionen, Kommunikation… |
 | [`Vergabekammer: Sachverhalt und Abstellungsanträge`](skills/vergabekammer-sachverhalt-abstellungsantraege/) | Für Vergabekammer: Sachverhalt und Abstellungsanträge: ordnet Norm, Beweislast und Gegenargument… |
-| [`Vergabekammer-Termin simulieren: Fragenkatalog, Schwachstellen, Vergleichsfenster, Antragstaktik, Mandantenbriefing und `](skills/vergabekammer-termin-simulation/) | Für Vergabekammer Termin Simulation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vergabekammer-Termin aus Bietersicht simulieren`](skills/vergabekammer-termin-simulation-klotzkette/) | Mündliche Verhandlung vor der Vergabekammer aus Bietersicht simulieren: verdichtet Anträge… |
 | [`Vergabekammer: Verhandlung, Vergleich und Eskalation`](skills/vergabekammer-verhandlung-vergleich-und-eskalation/) | Für Vergabekammer: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Vergabekammer: Verhandlung, Vergleich und Eskalation`](skills/vergabekammer-verhandlung-vergleich-und-eskalation-klotzkette/) | Für Bieter im laufenden VK-Termin: mündliche Verhandlung, Hinweise der Vergabekammer, Vergleichsfenster… |
@@ -365,11 +361,9 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 | [`Aufklärung und Verhandlung vor der Vergabekammer bearbeiten`](skills/vk-aufklaerung-vergleich-klotzkette/) | Aufklärungsverfügung und mündliche Verhandlung vor der Vergabekammer bearbeiten: Fragenprotokoll… |
 | [`VOB-A-Bauvergabe (Abschnitte 1 und 2) strukturieren und angreifen: öffentlicher Auftraggeber bei Bauleistungen oder Biet`](skills/vob-a-bauvergabe/) | Für VOB A Bauvergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Bauvergabe nach VOB/A aus Auftraggebersicht steuern`](skills/vob-a-bauvergabe-klotzkette/) | VOB/A-Bauvergabe aus Auftraggebersicht steuern: Regime, Auftragswert, Verfahrensart, Lose… |
-| [`Vorabinformation nach Paragraph 134 GWB und Stillhaltefrist prüfen: Inhalt, Versandweg, Fristlauf, Zuschlagsverbot, Fehl`](skills/vorinformation-134-gwb-stillhaltefrist/) | Für Vorinformation 134 GWB Stillhaltefrist: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Vorabinformation und Stillhaltefrist nach § 134 GWB`](skills/vorinformation-134-gwb-stillhaltefrist-klotzkette/) | Vorabinformation nach Paragraf 134 GWB und Stillhaltefrist prüfen: Inhalt, Versandweg, Fristlauf… |
 | [`1. Zweck und Anwendungsfall`](skills/wertung-bindefrist-und-zuschlag-begleiten-klotzkette/) | Wertung, Bindefrist und Zuschlag begleiten in öffentlichen Bauvergaben. Erstellt ein konkretes… |
 | [`Wertungsangriff und Dokumentationslücken`](skills/wertungsangriff-und-dokumentationsluecken-klotzkette/) | Konkurrent erzwingt neue Wertung: Qualitätswertung, Geschwindigkeit, Lieferzeit, Ausführungszeit… |
-| [`Preis-Qualitaets-Wertung und Bewertungsmatrix bauen oder prüfen: Zuschlagskriterien, Unterkriterien, Gewichtung, Schulno`](skills/wertungspreisqualitaet-matrix/) | Für Wertungspreisqualität Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit… |
 | [`Preis-Qualitäts-Matrix rechtssicher bauen`](skills/wertungspreisqualitaet-matrix-klotzkette/) | Preis-Qualitäts-Wertung und Bewertungsmatrix bauen: Zuschlagskriterien, Unterkriterien, Gewichtung… |
 | [`Wettbewerbsregister, Ausschlussgruende und Selbstreinigung praktisch bearbeiten: Abfragepflicht, Paragraphen 123/124 GWB`](skills/wettbewerbsregister-abfrage-selbstreinigung/) | Für Wettbewerbsregister Abfrage Selbstreinigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wettbewerbsregister und Selbstreinigung des Bieters`](skills/wettbewerbsregister-abfrage-selbstreinigung-bieter-unternehmen/) | Wettbewerbsregisterfall des Bieters bearbeiten: identifiziert Eintrag und Ausschlussgrund, bereitet… |

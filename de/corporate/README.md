@@ -4,7 +4,7 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 
-## Skills (883)
+## Skills (872)
 
 | Skill | What it does |
 |---|---|
@@ -175,7 +175,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Datenraum-Aufbau`](skills/datenraum-aufbau-2/) | Für Datenraum-Aufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Datenraum-Aufbau`](skills/datenraum-aufbau-gap/) | Für Datenraum-Aufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Datenraum-Aufbau`](skills/datenraum-aufbau-gap-deal-intake-team/) | Für Datenraum-Aufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Datenraum: Behörden-, Gerichts- oder Registerweg`](skills/datenraum-behoerden-gericht-und-registerweg/) | Für Datenraum: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Datenraum-Gap-Analyse und Clean Room`](skills/datenraum-gap-clean/) | Für Datenraum-Gap-Analyse und Clean Room: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Datenraum-Lueckenanalyse und Clean-Room-Protokoll für M&A Due Diligence: Anwendungsfall Anwalt oder Mandant stellt fest `](skills/datenraum-gap-clean-room/) | Für Datenraum Gap Clean Room: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Datenraum Gap-Analyse und Clean Room`](skills/datenraum-gap-clean-room-2/) | Für Datenraum Gap-Analyse und Clean Room: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -200,7 +199,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Disclosure Schedules und Guarantees-Abgleich im SPA/APA: Anwendungsfall Verkaeufer-Anwalt erstellt Disclosure Schedules `](skills/disclosure-schedules-2/) | Für Disclosure Schedules: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Disclosure Schedules`](skills/disclosure-schedules-3/) | Für Disclosure Schedules: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Disclosure Schedules`](skills/disclosure-schedules-distressed-ma/) | Für Disclosure Schedules: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Discovery: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/discovery-gesellschafterbeschluesse/) | Für Discovery: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Disclosure Schedules`](skills/distressed-due/) | Für Disclosure Schedules: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Distressed M&A`](skills/distressed-ma/) | Für Distressed M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Unternehmenskäufe in Krise und Insolvenz strukturieren`](skills/distressed-ma-2/) | Für Distressed M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -332,7 +330,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Gesellschafterstreit: Compliance-Dokumentation und Aktenvermerk im Handels- und Gesellschaftsrecht: fachlich vertieftes `](skills/gesellschafterstreit-compliance-dokumentation-und-akte/) | Für Gesellschafterstreit Compliance Dokumentation und Akte: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Gesellschafterstreit — Eilanträge`](skills/gesellschafterstreit-eilantraege/) | Für Gesellschafterstreit — Eilanträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Gesellschafterstreit und einstweiliger Rechtsschutz`](skills/gesellschafterstreit-einstweiliger-rechtsschutz/) | Für Gesellschafterstreit und einstweiliger Rechtsschutz: ordnet Norm, Beweislast und Gegenargument… |
-| [`Gesellschafterstreit: Internationaler Bezug und Schnittstellen`](skills/gesellschafterstreit-international-schnittstellen/) | Für Gesellschafterstreit: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und… |
 | [`Kapitalerhöhung und Bezugsrechte prüfen`](skills/gesellschafterstreit-kapitalerhoehung-und-bezugsrechte-pruefen/) | Prüft eine GmbH-Kapitalmaßnahme im Streit nach Finanzierungszweck, Konditionen, Bezugsposition… |
 | [`Gesellschafterstreit geordnet lösen`](skills/gesellschafterstreit-loesen/) | Hauptskill für einen konkreten GmbH-Gesellschafterstreit vom belegten Streitstand über Beschlüsse… |
 | [`Gesellschafterstreit — Lösungsstrategie`](skills/gesellschafterstreit-loesungsstrategie/) | Für Gesellschafterstreit — Lösungsstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -435,7 +432,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Haftung, Gewährleistung und Freistellung regeln`](skills/haftung-gewaehrleistung-und-freistellung-regeln/) | Stimmt Mängelrechte, Haftungsgrenzen, Freistellungen und Vertragsstrafen in B2B-Verträgen mit… |
 | [`Handels: Tatbestandsmerkmale, Beweisfragen und Beleglage im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul m`](skills/handels-tatbestand-beweis-und-belege/) | Für Handels Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und… |
 | [`Handelsregister-Anmeldung`](skills/handelsregister/) | Für Handelsregister-Anmeldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit… |
-| [`Juristischer Argumentationskern - Handelsregister Praxis`](skills/handelsregister-praxis-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Handelsregister Praxis ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Registervorgang klären und bearbeiten`](skills/handelsregister-praxis-kaltstart-routing/) | Für Kaltstart-Interview und Registerfahrplan: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Handelsregister-Abruf und Registerrecherche für M&A-Transaktionen: Anwendungsfall Anwalt recherchiert offiziellen Regist`](skills/handelsregisterabruf/) | Für Handelsregisterabruf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit… |
 | [`Handelsregisterabruf und -analyse`](skills/handelsregisterabruf-2/) | Für Handelsregisterabruf und -analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -518,7 +514,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Freistehende Liquiditätsvorschau (Mittelstand)`](skills/liquiditaetsvorschau-schreibcanvas/) | Für Freistehende Liquiditätsvorschau (Mittelstand): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Litigation Disputes DD`](skills/litigation-disputes/) | Für Litigation Disputes DD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Litigation und Disputes DD: prüft Prozesse, Schiedsverfahren, Verwaltungsverfahren, Threatened Claims, Rueckstellungen u`](skills/litigation-disputes-dd/) | Für Litigation Disputes Dd: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Livecheck: Sonderfall und Edge-Case-Prüfung`](skills/livecheck-sonderfall-loesungsstrategie-mandat/) | Für Livecheck: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kommandocenter Gesellschaftsgründung`](skills/lizenz-vertriebsstart/) | Für Kommandocenter Gesellschaftsgründung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Deal-Kommandocenter — Corporate/M&A`](skills/lma-facility/) | Für Deal-Kommandocenter — Corporate/M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Corporate: LMA Facility und Transfer`](skills/lma-facility-und-transfer/) | Für Corporate: LMA Facility und Transfer: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -600,7 +595,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Pension bAV Liabilities`](skills/pension-bav/) | Für Pension bAV Liabilities: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Pension und bAV Liabilities in M&A: prüft Pensionszusagen, CTA, PSV, Bilanzierung, Change of Control, Versorgungssysteme`](skills/pension-bav-liabilities/) | Für Pension Bav Liabilities: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`PEP und Mittelherkunft getrennt prüfen`](skills/pep-und-mittelherkunft-trennen/) | Prüft politische Exponiertheit und verstärkte Sorgfalt getrennt von der wirtschaftlichen Berechtigung… |
-| [`Personengesellschaften: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/personengesellschaften-fristen-form-und-zustaendigkeit/) | Für Personengesellschaften: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit… |
 | [`Pilotregime: Sonderfall und Edge-Case-Prüfung im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenra`](skills/pilotregime-sonderfall-edge-case/) | Für Pilotregime Sonderfall Edge Case: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Freigegebene Portalhandlungen und Nachhalten`](skills/portalbedienung-und-nachhalten/) | Begleitet optional Registrierung und Portalbearbeitung bei verfügbarem Werkzeug. Verlangt Berechtigung… |
 | [`Post-Closing Integration`](skills/post-closing/) | Für Post-Closing Integration: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -624,12 +618,10 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Purchase Price Adjustment und Earn-out Skill: modelliert Anpassungen, Earn-out-KPIs, Manipulationsschutz, Covenants und `](skills/purchase-price-adjustment-earn-out/) | Für Purchase Price Adjustment Earn Out: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Kaufpreismechanik Locked Box und Completion Accounts`](skills/purchase-price-mechanik-locked-box-completion-accounts/) | Für Kaufpreismechanik Locked Box und Completion Accounts: ordnet Norm, Beweislast und Gegenargument… |
 | [`Q&and A Katalog`](skills/q-and-a-katalog/) | Für Q&and A Katalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Q&A und Information Requests`](skills/qa-information/) | Für Q&A und Information Requests: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Q&A-Prozess und Information Requests in der Due Diligence steuern: Anwendungsfall Deal-Team muss aus DD-Analyse gezielte`](skills/qa-information-requests/) | Für Qa Information Requests: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Q&A und Information Requests`](skills/qa-information-requests-2/) | Für Q&A und Information Requests: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Qualitätstor Corporate Legal English`](skills/qualitaetsgate-corporate-legal-english/) | Für Qualitätstor Corporate Legal English: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rahmenvertrag mit Einzelaufträgen verknüpfen`](skills/rahmenvertrag-mit-einzelauftraegen-verknuepfen/) | Verknüpft Rahmenvertrag, Bestellungen und Leistungsanlagen durch klare Abschlussmechanik… |
-| [`Real Estate Leases Sites`](skills/real-estate-leases/) | Für Real Estate Leases Sites: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Real Estate, Leases und Sites Due Diligence: prüft Grundstuecke, Mietvertraege, Belastungen, Genehmigungen, Umwelt, Chan`](skills/real-estate-leases-sites/) | Für Real Estate Leases Sites: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Efforts und Covenants`](skills/reasonable-efforts-reps-warranties/) | Für Efforts und Covenants: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rechtsabteilung: Beirat mit Vetorechten in der GmbH`](skills/rechtsabteilung-beirat-mit-vetorechten-in-der-gmbh/) | Für Rechtsabteilung: Beirat mit Vetorechten in der GmbH: ordnet Norm, Beweislast und Gegenargument… |
@@ -678,7 +670,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Registerrecherche und belastbare Auszüge`](skills/registerrecherche-und-auszuege/) | Sucht die richtige Gesellschaft, liest aktuelle und chronologische Auszüge sowie Registerdokumente und… |
 | [`Beschlussmängel im Registervollzug`](skills/registerrecht-beschlussmaengel-und-registervollzug/) | Für Beschlussmängel im Registervollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Handelsregister-Praxis: Anmeldungen, Form (notariell, öffentlich beglaubigt), zuständiges Gericht, elektronische Einreic`](skills/registerrecht-handelsregister-praxis/) | Für Registerrecht Handelsregister Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Registerzeichen verstehen`](skills/registerrecht-registerzeichen-und-aktenzeichen/) | Für Registerzeichen verstehen: ordnet Akte, Belege und Lücken; Ergebnis: Einreichungsplan mit Form- und… |
 | [`Registerschriftverkehr und Zwischenverfügung`](skills/registerschriftverkehr-und-zwischenverfuegung/) | Bearbeitet Beanstandungen, Nachreichungen, Sachstandsanfragen und Rechtsbehelfe mit Fristen und… |
 | [`Registervorgang und Verantwortung klären`](skills/registervorgang-aufnehmen/) | Bestimmt für einen konkreten Transparenzregistervorgang Rechtseinheit, Rolle, Mitteilungspflicht und den… |
 | [`Regulatory Clearance Roadmap`](skills/regulatory-clearance-roadmap/) | Für Regulatory Clearance Roadmap: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -790,7 +781,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Teaser, Information Memorandum und Prozessdokumente`](skills/teaser-im-processdocs-2/) | Für Teaser, Information Memorandum und Prozessdokumente: ordnet Norm, Beweislast und Gegenargument… |
 | [`Teaser, IM und Prozessdokumente`](skills/teaser-processdocs/) | Für Teaser, IM und Prozessdokumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Teaser, IM und Prozessdokumente`](skills/teaser-processdocs-transaktionsstruktur/) | Für Teaser, IM und Prozessdokumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Term: Mehrparteienkonflikt und Interessenmatrix`](skills/term-mehrparteien-konflikt-und-interessen/) | Für Term: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Term Sheet und Investment Agreement`](skills/term-sheet-investment-agreement/) | Für Term Sheet und Investment Agreement: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Term Sheet To SPA Bridge`](skills/term-sheet-to-spa/) | Für Term Sheet To SPA Bridge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Term-Sheet-to-SPA-Bridge: übersetzt Term Sheet, LOI oder MoU in SPA-/APA-Struktur, Klauselarchitektur, offene Punkte und`](skills/term-sheet-to-spa-bridge/) | Für Term Sheet To Spa Bridge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -806,7 +796,6 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Multi-Jurisdiction und Übersetzungen`](skills/translations/) | Für Multi-Jurisdiction und Übersetzungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Multi-Jurisdiction-Koordination und Übersetzungen in grenzüberschreitenden M&A-Transaktionen: Anwendungsfall Transaktion`](skills/translations-multijurisdictional/) | Für Translations Multijurisdictional: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Multijurisdiktionale Übersetzungen und Dokumente`](skills/translations-multijurisdictional-2/) | Für Multijurisdiktionale Übersetzungen und Dokumente: ordnet Norm, Beweislast und Gegenargument… |
-| [`Multi-Jurisdiction und Übersetzungen`](skills/translations-multijurisdictional-3/) | Für Multi-Jurisdiction und Übersetzungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Transparenzregister UBO Chain`](skills/transparenzregister/) | Für Transparenzregister UBO Chain: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`Transparenzregister- und UBO-Chain-Check für M&A: prüft wirtschaftlich Berechtigte, Kontrollketten, PEP-/Sanktionsschnit`](skills/transparenzregister-ubo-chain/) | Für Transparenzregister Ubo Chain: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`BGH II ZR 91 21 Gesellschafterliste`](skills/treuepflicht-bgh-ii-zr-ix/) | Für BGH II ZR 91 21 Gesellschafterliste: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -4,7 +4,7 @@ EU air-passenger-rights law — Regulation (EC) 261/2004 and the CJEU case law o
 
 Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 
-## Skills (74)
+## Skills (68)
 
 | Skill | What it does |
 |---|---|
@@ -17,7 +17,6 @@ Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 | [`Annullierung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/annullierung-schriftsatz-brief-und-memo-bausteine/) | Für Annullierung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Fluggastrechte — Allgemein`](skills/anschluss-router/) | Für Fluggastrechte — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Anschlussflug und Reiseplan`](skills/anschlussflug-und-reiseplan/) | Für Anschlussflug und Reiseplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Ausgleich: Internationaler Bezug und Schnittstellen`](skills/ausgleich-internationaler-bezug-schnittstellen/) | Für Ausgleich: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ausgleich: Internationaler Bezug und Schnittstellen`](skills/ausgleich-internationaler-bezug-und-schnittstellen/) | Für Ausgleich: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004)`](skills/ausnahmen-aussergewoehnliche-umstaende/) | Für Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004): ordnet Norm, Beweislast und… |
 | [`Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004)`](skills/ausnahmen-aussergewoehnliche-umstaende-02/) | Für Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004): ordnet Norm, Beweislast und… |
@@ -46,14 +45,10 @@ Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 | [`Unterlagen und Lücken`](skills/fluggastrechte-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Kaltstart und Routing`](skills/fluggastrechte-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Mandantenkommunikation`](skills/fluggastrechte-workflow-mandantenkommunikation/) | Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder… |
-| [`Forderungsschreiben: Formular, Portal und Einreichungslogik`](skills/forderungsschreiben-airline/) | Für Forderungsschreiben: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
-| [`Forderungsschreiben: Formular, Portal und Einreichungslogik`](skills/forderungsschreiben-formular-portal-und-einreichung/) | Für Forderungsschreiben: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
 | [`Fluggastrechte: Erstprüfung, Rollenklärung und Mandatsziel`](skills/forderungsschreiben-klage/) | Für Fluggastrechte: Erstprüfung, Rollenklärung und Mandatsziel: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Forderungsschreiben — Mahnung (zweite Stufe)`](skills/forderungsschreiben-mahnung-klage-amtsgericht/) | Für Forderungsschreiben — Mahnung (zweite Stufe): erstellt Entwurf mit Antrag, Beweis und Anlagen… |
-| [`Geltend: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/geltend-fristen-form-und-zustaendigkeit/) | Für Geltend: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Geltend: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/geltend-fristen-form-zustaendigkeit-rechtsweg/) | Für Geltend: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Kaltstart: Abschlussprodukt und Übergabe`](skills/kaltstart-abschlussprodukt-und-uebergabe/) | Für Kaltstart: Abschlussprodukt und Übergabe: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
-| [`Klage: Mandantenkommunikation und Entscheidungsvorlage`](skills/klage/) | Für Klage: Mandantenkommunikation und Entscheidungsvorlage: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Klage: Mandantenkommunikation und Entscheidungsvorlage`](skills/klage-mandantenkommunikation-entscheidungsvorlage/) | Für Klage: Mandantenkommunikation und Entscheidungsvorlage: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Live: Sonderfall und Edge-Case-Prüfung`](skills/live-sonderfall-edge-case/) | Für Live: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Live: Sonderfall und Edge-Case-Prüfung`](skills/live-sonderfall-machen-mahnung-red-team-korrektur/) | Für Live: Sonderfall und Edge-Case-Prüfung: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
@@ -79,6 +74,5 @@ Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 | [`Verifikation: Fristennotiz und nächster Schritt`](skills/verifikation-fristennotiz-abtretung-an/) | Für Verifikation: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Verifikation: Fristennotiz und nächster Schritt`](skills/verifikation-fristennotiz-naechster-schritt/) | Für Verifikation: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Verspaetung: Verhandlung, Vergleich und Eskalation`](skills/verspaetung-ticket-fluginformationen/) | Für Verspätung: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument… |
-| [`Verspaetung: Verhandlung, Vergleich und Eskalation`](skills/verspaetung-verhandlung-vergleich-eskalation/) | Für Verspätung: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Vorverlegung als Annullierung`](skills/vorverlegung-flug-rechtsprechung/) | Für Vorverlegung als Annullierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |

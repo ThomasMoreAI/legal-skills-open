@@ -4,7 +4,7 @@ Health-sector law — provider regulation, licensing, and patient-data complianc
 
 Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 
-## Skills (86)
+## Skills (84)
 
 | Skill | What it does |
 |---|---|
@@ -24,7 +24,6 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Begründung über Schwellenwert redigieren`](skills/begruendung-ueber-schwellenwert-redigieren/) | Für Begründung über Schwellenwert redigieren: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`BtM-Rezept Betäubungsmittel Dokumentation`](skills/btm-rezept-betaeubungsmittel-dokumentation/) | Für BtM-Rezept Betäubungsmittel Dokumentation: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Cannabis Medizinalcannabis Abgabe Dokumentation`](skills/cannabis-medizinalcannabis-abgabe-dokumentation/) | Für Cannabis Medizinalcannabis Abgabe Dokumentation: ordnet Akte, Belege und Lücken; Ergebnis… |
-| [`Datenschutz in Apotheke Gesundheitsdaten`](skills/datenschutz-in-apotheke-gesundheitsdaten/) | Für Datenschutz in Apotheke Gesundheitsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Datenschutz Krankenhaus Patientenakte Forschung`](skills/datenschutz-krankenhaus-patientenakte-forschung/) | Für Datenschutz Krankenhaus Patientenakte Forschung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`E-Rezept TI Gematik Apothekenprozess`](skills/e-rezept-erlaubnis-filialverbund/) | Für E-Rezept TI Gematik Apothekenprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Entlassmanagement § 39 Abs. 1a SGB V`](skills/entlassmanagement-39-abs-1a-sgb-v/) | Für Entlassmanagement Paragraf 39 Abs. 1a SGB V: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -36,7 +35,6 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`GOÄ § 5 Bemessung Gebührenrahmen 2,3 1,8 1,15 Schwelle`](skills/goae-5-bemessung-gebuehrenrahmen-2-3-1-8-1-15-schwelle/) | Für GOÄ Paragraf 5 Bemessung Gebührenrahmen 2.3 1.8 1.15 Schwelle: ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - GOÄ Gebührenordnung Ärzte`](skills/goae-gebuehrenordnung-aerzte-juristischer-argumentationskern/) | Schaltet sich ein, wenn in GOÄ Gebührenordnung Ärzte ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`GOÄ-Rechnung anhand der Unterlagen prüfen`](skills/goae-gebuehrenordnung-aerzte-kaltstart-triage/) | Für GOÄ Gebührenordnung für Ärzte — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt… |
-| [`GOÄ § 4 selbständige ärztliche Leistung Zielleistungsprinzip`](skills/goae-selbstaendige-aerztliche-bemessung/) | Für GOÄ Paragraf 4 selbständige ärztliche Leistung Zielleistungsprinzip: ordnet Norm, Beweislast und… |
 | [`Haftpflichtfall Krankenhaus Gutachtenstrategie`](skills/haftpflichtfall-krankenhaus-gutachtenstrategie/) | Für Haftpflichtfall Krankenhaus Gutachtenstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Heimversorgung Versorgungsvertrag`](skills/heimversorgung-versorgungsvertrag-mietvertrag/) | Für Heimversorgung Versorgungsvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Hybrid-DRG § 115f SGB V`](skills/hybrid-drg-insolvenz-intensivmedizin-beatmung/) | Für Hybrid-DRG Paragraf 115f SGB V: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

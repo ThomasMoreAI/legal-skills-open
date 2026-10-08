@@ -4,7 +4,7 @@ Banking and finance — lending, secured transactions, and financial-services re
 
 Jurisdiction: `de` · Practice: `finance` · Skill language: de
 
-## Skills (308)
+## Skills (298)
 
 | Skill | What it does |
 |---|---|
@@ -49,8 +49,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Anfrage an die Bank-Rechtsabteilung bearbeiten`](skills/bankrechtsabteilung-kaltstart-routing/) | Für Kaltstart-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Beratungshaftung: Zahlen, Schwellenwerte und Berechnung`](skills/beratungshaftung-zahlen-schwellen-und-berechnung/) | Für Beratungshaftung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Beschwerde und Anhörung BaFin Factoring`](skills/beschwerde-und-anhoerung-bafin-factoring/) | Für Beschwerde und Anhörung BaFin Factoring: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Beteiligung und M&A`](skills/beteiligungserwerb-bank-ma/) | Für Beteiligung und M&A: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Arbeitsrechtliche Bankprojekte`](skills/betriebsrat-change-projekte/) | Für Arbeitsrechtliche Bankprojekte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leasing von Netzwerkequipment: Router, Switches, Access Points`](skills/bewegliche-sachen-router/) | Für Leasing von Netzwerkequipment: Router, Switches, Access Points: ordnet Norm, Beweislast und… |
 | [`Beweislast: Mandantenkommunikation und Entscheidungsvorlage`](skills/beweislast-mandantenkommunikation-entscheidungsvorlage/) | Für Beweislast: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`BGB: Schriftsatz-, Brief- und Memo-Bausteine`](skills/bgb-schriftsatz-brief-und-memo-bausteine/) | Für BGB: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -130,7 +128,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Kfz-Leasing: Kilometervertrag, Restwertvertrag, Rückgabe`](skills/fahrzeugleasing-kilometervertrag-restwertvertrag-rueck/) | Für Kfz-Leasing: Kilometervertrag, Restwertvertrag, Rückgabe: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fehlerhaft: Fristennotiz und nächster Schritt`](skills/fehlerhaft-fristennotiz-und-naechster-schritt/) | Für Fehlerhaft: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Finanzierungsleasing oder Operating-Lease: Systematische Einordnung`](skills/finanzierungsleasing-oder-operating-lease-einordnen/) | Für Finanzierungsleasing oder Operating-Lease: Systematische Einordnung: ordnet Norm, Beweislast und… |
-| [`Fit and Proper`](skills/fit-proper-organe-mitarbeiter/) | Für Fit and Proper: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Flottenleasing: Schadenmanagement und Minderwertabrechnung`](skills/flottenleasing-schaden-minderwert-und-gutachten/) | Für Flottenleasing: Schadenmanagement und Minderwertabrechnung: ordnet Norm, Beweislast und… |
 | [`Flugzeug-Leasing: Register, Pfand und Wartung`](skills/flugzeugleasing-register-schiffsleasing/) | Für Flugzeug-Leasing: Register, Pfand und Wartung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Forbearance und NPE`](skills/forbearance-npe-risikoklassifizierung/) | Für Forbearance und NPE: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -146,7 +143,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Firmenkunden Risk Exit`](skills/girokonto-firmenkunden-risk-exit/) | Für Firmenkunden Risk Exit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Grenzüberschreitendes Leasing: UNIDROIT und Rechtswahl`](skills/grenzueberschreitendes-leasing-unidroit-und-rechtswahl/) | Für Grenzüberschreitendes Leasing: UNIDROIT und Rechtswahl: ordnet Norm, Beweislast und Gegenargument… |
 | [`Grobe: Formular, Portal und Einreichungslogik`](skills/grobe-online-phishing/) | Für Grobe: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`GwG AML KYC`](skills/gwg-aml-kyc-verdachtsmeldung/) | Für GwG AML KYC: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`/geldwaesche-aml-kyc:gwg-risikoanalyse`](skills/gwg-risikoanalyse-borghei/) | Aufbau und Aktualisierung der institutsspezifischen Risikoanalyse nach § 5 GwG – Risikokategorien (Kunde… |
 | [`Haftung: Beweislast, Darlegungslast und Substantiierung`](skills/haftung-beweislast-und-darlegungslast/) | Für Haftung: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`IBAN-Name-Check`](skills/iban-name-check-verification-payee/) | Für IBAN-Name-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -178,8 +174,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`/geldwaesche-aml-kyc:kyc-identifikationspflicht`](skills/kyc-identifikationspflicht-borghei/) | Identifizierung des Vertragspartners (§§ 10, 11 GwG) und des wirtschaftlich Berechtigten (§§ 3 ff. GwG)… |
 | [`Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe`](skills/lease-005-fahrzeugleasing-km-vertrag-restwert-rueckgabe/) | Für Leasingrecht: Fahrzeugleasing Kilometervertrag Restwertvertrag Rückgabe: ordnet Norm, Beweislast und… |
 | [`Leasingrecht: IT-Leasing Hardware Software Cloud Bundle`](skills/lease-008-it-leasing-hardware-software-cloud-bundle/) | Für Leasingrecht: IT-Leasing Hardware Software Cloud Bundle: ordnet Norm, Beweislast und Gegenargument… |
-| [`Leasingrecht: Sale-and-lease-back Liquidität und Insolvenzanfechtung`](skills/lease-010-sale-and-lease-back-liquiditaet-insolvenzanfec/) | Für Leasingrecht: Sale-and-lease-back Liquidität und Insolvenzanfechtung: ordnet Norm, Beweislast und… |
-| [`Leasingrecht: Leasing in Sanierungsgutachten`](skills/lease-047-leasing-in-sanierungsgutachten/) | Für Leasingrecht: Leasing in Sanierungsgutachten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Leasing beweglicher Sachen Router`](skills/lease-051-bewegliche-sachen-router/) | Für Leasing beweglicher Sachen Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Equipment-Finance-Term-Sheet`](skills/lease-052-equipment-finance-term-sheet/) | Für Equipment-Finance-Term-Sheet: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`CNC-Maschine Abnahme und Mängel`](skills/lease-053-cnc-maschine-abnahme-maengel/) | Für CNC-Maschine Abnahme und Mängel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -247,7 +241,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Prämiensparzinsen neu berechnen`](skills/praemiensparvertrag-zinsanpassung-bgh-xi-zr-234-20/) | Für Prämiensparzinsen neu berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Zinsanpassung im Prämiensparvertrag prüfen`](skills/praemiensparvertrag-zinsanpassung-bgh-xi-zr-44-23/) | Prüft variable Zinsanpassungsklauseln in Prämiensparverträgen, bestimmt Anpassungsintervall… |
 | [`Prip: Sonderfall und Edge-Case-Prüfung`](skills/prip-sonderfall-edge-case/) | Für Prip: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Produktfreigabe NPP`](skills/produktfreigabe-new-restrukturierung/) | Für Produktfreigabe NPP: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Phishing-Vorfall Prüfen`](skills/pruefen/) | Für Phishing-Vorfall Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`PSD2 SCA`](skills/psd2-sca-strong-customer-authentication/) | Für PSD2 SCA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Pushtan: Compliance-Dokumentation und Aktenvermerk`](skills/pushtan-compliance-dokumentation-und-akte/) | Für Pushtan: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -268,7 +261,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Riester-Entnahme für Pflegekosten prüfen`](skills/riester-entnahme-pflegekosten-pruefen/) | Prüft eine Entnahme aus gefördertem Altersvorsorgevermögen für Pflege-, Heim- oder Umbaukosten, trennt… |
 | [`Risiko-Dashboard: Leasingportfolio`](skills/risiko-dashboard-leasingportfolio/) | Für Risiko-Dashboard: Leasingportfolio: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Sale-and-Lease-Back: Liquidität, Bilanzierung und Insolvenzanfechtung`](skills/sale-back-mietkauf-abgrenzung/) | Für Sale-and-Lease-Back: Liquidität, Bilanzierung und Insolvenzanfechtung: ordnet Norm, Beweislast und… |
-| [`Sanktionen und Embargo`](skills/sanktionsscreening-embargo-bank/) | Für Sanktionen und Embargo: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Schiedsverfahren und Gerichtsstand im Leasingrecht`](skills/schieds-oder-gerichtsstand-leasing/) | Für Schiedsverfahren und Gerichtsstand im Leasingrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Schiffsleasing: Schiffsregister, Schiffshypothek und Flagge`](skills/schiffsleasing-schiffshypothek-und-flagge/) | Für Schiffsleasing: Schiffsregister, Schiffshypothek und Flagge: ordnet Norm, Beweislast und… |
 | [`Schlichtung: Sonderfall und Edge-Case-Prüfung`](skills/schlichtung-sonderfall-und-edge-case/) | Für Schlichtung: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -282,7 +274,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Pruefer: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/spezial-pruefer-dokumentenmatrix-und-lueckenliste/) | Für Prüfer: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Vermoegensanlage: Livequellen- und Rechtsprechungscheck`](skills/spezial-vermoegensanlage-livequellen-und-rechtsprechungs/) | Für Vermögensanlage: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Spoofing: Internationaler Bezug und Schnittstellen`](skills/spoofing-internationaler-bezug-und-schnittstellen/) | Für Spoofing: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
-| [`SSM und Bundesbank`](skills/ssm-bundesbank-stablecoin-payment-staking/) | Für SSM und Bundesbank: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Start-up Equipment-Leasing: Covenants und Risikoabsicherung`](skills/start-up-equipment-leasing-covenants/) | Für Start-up Equipment-Leasing: Covenants und Risikoabsicherung: ordnet Norm, Beweislast und… |
 | [`Steuer Umsatzsteuer Factoringgebühren und Forderungsverkauf`](skills/steuer-umsatzsteuer-factoringgebuehren-und-forderungsver/) | Für Steuer Umsatzsteuer Factoringgebühren und Forderungsverkauf: ordnet Norm, Beweislast und… |
 | [`Umsatzsteuer im Leasingrecht`](skills/steuer-umsatzsteuer-immobilienleasing/) | Für Umsatzsteuer im Leasingrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -304,7 +295,6 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 | [`Immobiliardarlehen: Widerruf und Vorfälligkeitsentschädigung`](skills/widerrufsjoker-immobiliendarlehen/) | Prüft Widerruf und Vorfälligkeitsentschädigung bei Immobiliar-Verbraucherdarlehen stichtagsgenau… |
 | [`Wphg: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/wphg-dokumentenmatrix-und-lueckenliste/) | Für Wphg: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Wpig: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/wpig-risikoampel-und-gegenargumente/) | Für Wpig: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
-| [`WpIG-Schnittstelle`](skills/wpig-wertpapierinstitut-schnittstelle/) | Für WpIG-Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`ZAG-Agenten, E-Geld-Agenten und Auslagerung`](skills/zag-agenten-auslagerung-register/) | Für ZAG-Agenten, E-Geld-Agenten und Auslagerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`ZAG-Ausnahmen`](skills/zag-ausnahmen-limited-network-commercial-agent/) | Für ZAG-Ausnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`E-Geld-Institut und E-Geld-Geschäft nach ZAG`](skills/zag-e-geld-institut-emoney/) | Für E-Geld-Institut und E-Geld-Geschäft nach ZAG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

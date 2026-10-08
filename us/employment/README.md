@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `us` · Practice: `employment` · Skill language: en
 
-## Skills (82)
+## Skills (81)
 
 | Skill | What it does |
 |---|---|
@@ -82,7 +82,6 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Confidentiality and Severance Agreement`](skills/severance-agreement/) | Drafts a U.S. Confidentiality and Severance Agreement for employment separations with… |
 | [`Tennessee Employment Law`](skills/tn-employment-codearranger/) | Subject-matter bundle for Tennessee employment matters — discrimination, harassment, retaliation… |
 | [`US Employment-Law Applicability Checker`](skills/us-employment-law-applicability-checker-rohasnagpal/) | Determines which US federal, State and local employment regimes may apply to a worker, employer and… |
-| [`Us Sox Doddfrank Abgrenzung`](skills/us-sox-doddfrank-abgrenzung/) | Für Us Sox Doddfrank Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Washington Employment Law — Subject-Matter Bundle`](skills/wa-employment-codearranger/) | Use when handling a Washington employment matter — wage-and-hour claims, wage payment, WLAD (RCW 49.60)… |
 | [`Wage hour qa`](skills/wage-hour-qa/) | Jurisdiction-aware wage/hour and employment Q&A — classification, overtime, meal/rest breaks, leave… |
 | [`Whistleblower Protection Policy`](skills/whistleblower-policy/) | Drafts board-adoptable whistleblower protection policies for public companies and non-profits. Covers… |

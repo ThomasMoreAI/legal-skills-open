@@ -4,7 +4,7 @@ Family law — marriage, divorce, children, maintenance, and (where relevant) pe
 
 Jurisdiction: `de` · Practice: `family` · Skill language: de
 
-## Skills (230)
+## Skills (219)
 
 | Skill | What it does |
 |---|---|
@@ -30,7 +30,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Beamtenrechtliche Kürzung und Rückausnahme: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/beamtenrechtliche-kuerzung-und-rueckausnahme/) | Für Beamtenrechtliche Kürzung und Rückausnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bericht: Mandantenkommunikation und Entscheidungsvorlage`](skills/bericht-betreuer-betreuerpflichten/) | Für Bericht: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bericht: Mandantenkommunikation und Entscheidungsvorlage`](skills/bericht-mandantenkommunikation/) | Für Bericht: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
-| [`Beschwerde gegen VA-Beschluss FamFG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/beschwerde-gegen-va-beschluss-famfg/) | Für Beschwerde gegen Va Beschluss FamFG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betreuer als Erbe und Beschenkter`](skills/betreuer-registrierung-betreuung/) | Für Betreuer als Erbe und Beschenkter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betreuer: Zahlen, Schwellenwerte und Berechnung`](skills/betreuer-zahlen-schwellen-und-berechnung/) | Für Betreuer: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Betreuer: Zahlen, Schwellenwerte und Berechnung`](skills/betreuer-zahlen-schwellenwerte-berechnung/) | Für Betreuer: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
@@ -44,7 +43,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Betreuer als Erbe`](skills/betreuung-erbe-werden/) | Für Betreuer als Erbe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Grenzueberschreitende Betreuung`](skills/betreuung-grenzueberschreitend/) | Für Grenzüberschreitende Betreuung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Grenzueberschreitende Betreuung`](skills/betreuung-grenzueberschreitend-betreuungsantrag/) | Für Grenzüberschreitende Betreuung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
-| [`Betreuung im Strafverfahren`](skills/betreuung-im-strafverfahren/) | Für Betreuung im Strafverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betreuung: Mehrparteienkonflikt und Interessenmatrix`](skills/betreuung-interessen/) | Für Betreuung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Betreuung: Mehrparteienkonflikt und Interessenmatrix`](skills/betreuung-mehrparteien-konflikt-und-interessen/) | Für Betreuung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Betreuung im Strafverfahren`](skills/betreuung-strafverfahren-kalender-reminder/) | Für Betreuung im Strafverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -68,7 +66,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel`](skills/betreuungsrechtliche-erstpruefung-und-mandatsziel/) | Für Betreuungsrechtliche: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen… |
 | [`Hilfe holen: Betreuungsverein, Behörde, Gericht`](skills/betreuungsverein-behoerde-btr-aufgabenkreise/) | Für Hilfe holen: Betreuungsverein, Behörde, Gericht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Hilfe holen: Betreuungsverein, Behörde, Gericht`](skills/betreuungsverein-behoerde-hilfe-holen/) | Für Hilfe holen: Betreuungsverein, Behörde, Gericht: ordnet Norm, Beweislast und Gegenargument… |
-| [`Betriebliche Altersversorgung Direktzusage Pensionskasse Fonds: prüft die einschlägigen Voraussetzungen, Dokumente, Risi`](skills/betriebliche-altersversorgung-direktzusage-pensionskasse/) | Für Betriebliche Altersversorgung Direktzusage Pensionskasse Fonds: ordnet Norm, Beweislast und… |
 | [`BGB: Verhandlung, Vergleich und Eskalation`](skills/bgb/) | Für BGB: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`BGB: Verhandlung, Vergleich und Eskalation`](skills/bgb-btog-demenz/) | Für BGB: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Btog: Schriftsatz-, Brief- und Memo-Bausteine`](skills/btog-schriftsatz-brief-memo-bausteine/) | Für Btog: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -150,7 +147,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Genehmigungspflicht-Prüfung (§§ 1848 ff. BGB)`](skills/genehmigungspflicht-pruefung/) | Für Genehmigungspflicht-Prüfung (Paragrafen 1848 ff. BGB): ordnet Norm, Beweislast und Gegenargument… |
 | [`Genehmigungspflichten: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/genehmigungspflichten-dokumentenmatrix-und-lueckenliste/) | Für Genehmigungspflichten: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und… |
 | [`Genehmigungspflichten: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/genehmigungspflichten-gericht/) | Für Genehmigungspflichten: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und… |
-| [`Geringfügigkeit Paragraf 18 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/geringfuegigkeit-18-versausglg/) | Für Geringfügigkeit 18 Versausglg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Gewaltschutz und Umgang: Schutzanordnung, Näherungsverbot, Umgangsausschluss, begleiteter Umgang und Beweisführung.`](skills/gewaltschutz-und-umgang-schnittstelle/) | Für Gewaltschutz und Umgang Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Großelternumgang nach Paragraf 1685 BGB prüfen`](skills/grosselternumgang-kindeswohldienlichkeit/) | Für Großelternumgang nach Paragraf 1685 BGB prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Immobilienwert und Darlehen zuordnen`](skills/immobilienwert-und-darlehen-zuordnen/) | Ermittelt Immobilienansätze zum maßgeblichen Stichtag, trennt Eigentumsanteile, Rechte und… |
@@ -169,7 +165,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Kontoanalyse: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/kontoanalyse-risikoampel-und-gegenargumente/) | Für Kontoanalyse: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Kontodaten- und Vertragsverdacht-Prüfung`](skills/kontodaten-vertragsverdacht-pruefung/) | Für Kontodaten- und Vertragsverdacht-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lebenspartnerschaft: Beweislast, Darlegungslast und Substantiierung im Familienrecht: fachlich vertieftes Modul mit Norm`](skills/lebenspartnerschaft-beweislast-und-darlegungslast/) | Für Lebenspartnerschaft Beweislast und Darlegungslast: ordnet Norm, Beweislast und Gegenargument… |
-| [`Lebensversicherung Abgrenzung Zugewinn VA: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/lebensversicherung-abgrenzung-zugewinn-va/) | Für Lebensversicherung Abgrenzung Zugewinn Va: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Literatur: Schriftsatz-, Brief- und Memo-Bausteine im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamF`](skills/literatur-schriftsatz-brief-und-memo-bausteine/) | Für Literatur Schriftsatz Brief und Memo Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Livecheck: Fristennotiz und nächster Schritt`](skills/livecheck-fristennotiz-naechster-schritt/) | Für Livecheck: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Mandantenblatt Versorgungsausgleich in einfacher Sprache: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken un`](skills/mandantenblatt-versorgungsausgleich-in-einfacher-sprache/) | Für Mandantenblatt Versorgungsausgleich in Einfacher Sprache: ordnet Norm, Beweislast und Gegenargument… |
@@ -177,11 +172,8 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Mandate: Risikoampel, Gegenargumente und Verteidigungslinien im Familienrecht: fachlich vertieftes Modul mit Normenradar`](skills/mandate-risikoampel-und-gegenargumente/) | Für Mandate Risikoampel und Gegenargumente: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Familienrechtliche Mediation nach Paragraf 156 FamFG und Cochemer Modell: Vermittlungsverfahren Paragraf 165 FamFG bei U`](skills/mediation-156-famfg-cochemer/) | Für Mediation 156 FamFG Cochemer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Nachträgliche Auskunft und Vollstreckung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/nachtraegliche-auskunft-und-vollstreckung/) | Für Nachträgliche Auskunft und Vollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Nicht ausgleichsreife Anrechte Paragraf 19 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und A`](skills/nicht-ausgleichsreife-anrechte-19-versausglg/) | Für Nicht Ausgleichsreife Anrechte 19 Versausglg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Öffentlicher Dienst Zusatzversorgung VBL: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/oeffentlicher-dienst-zusatzversorgung-vbl/) | Für Öffentlicher Dienst Zusatzversorgung Vbl: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betreuungsrecht Quellenkarte`](skills/quellenkarte/) | Für Betreuungsrecht Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Red-Team VA-Beschluss rechnerisch: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/red-team-va-beschluss-rechnerisch/) | Für Red Team Va Beschluss Rechnerisch: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
-| [`Rentenlücke nach Scheidung Handlungsoptionen: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/rentenluecke-nach-scheidung-handlungsoptionen/) | Für Rentenlücke nach Scheidung Handlungsoptionen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Rentnerfall beide beziehen Rente: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/rentnerfall-beide-beziehen-rente/) | Für Rentnerfall Beide Beziehen Rente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Familiengerichtlichen Beschluss vollständig ausarbeiten`](skills/richter-familiengericht-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Beschluss Familiengericht): ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - Richter Familiengericht`](skills/richter-familiengericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Richter Familiengericht ein juristisches Arbeitsprodukt tragfähig begründet… |
@@ -196,9 +188,7 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Sorgerecht und Kindeswohlgefährdung prüfen`](skills/sorgerecht-kindeswohlgefaehrdung-pruefen/) | Prüft einen beantragten Sorgerechtsentzug anhand konkreter Gefahren, belastbarer Belege und milderer… |
 | [`Betreuungsrecht: Livequellen- und Rechtsprechungscheck`](skills/spezial-betreuungsrecht-livequellen-und-rechtsprechungsc/) | Für Betreuungsrecht: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ergaenzend: Sonderfall und Edge-Case-Prüfung`](skills/spezial-ergaenzend-sonderfall-und-edge-case/) | Für Ergänzend: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Famfg: Livequellen- und Rechtsprechungscheck`](skills/spezial-famfg-livequellen-und-rechtsprechungscheck/) | Für FamFG: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vermoegensverzeichnis: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/spezial-vermoegensverzeichnis-fristen-form-und-zustaendi/) | Für Vermögensverzeichnis: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit… |
-| [`Steuerliche Folgen externe Teilung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/steuerliche-folgen-externe-teilung/) | Für Steuerliche Folgen Externe Teilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tod nach Rechtskraft vor Umsetzung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen`](skills/tod-nach-rechtskraft-vor-umsetzung/) | Für Tod nach Rechtskraft vor Umsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Trennungsbewegungen und Beweislast prüfen`](skills/trennungsbewegungen-und-beweislast-pruefen/) | Klärt Vermögensabflüsse zwischen Trennung und Endstichtag, prüft erfüllende Auskunft und… |
 | [`Trennungsunterhalt belastbar berechnen`](skills/trennungsunterhalt-bedarfspruefung-bgh-xii-zb-25-19/) | Für Trennungsunterhalt belastbar berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -216,7 +206,6 @@ Jurisdiction: `de` · Practice: `family` · Skill language: de
 | [`Vaterschaftsanfechtung Frist Paragraf 1600b BGB BVerfG`](skills/vaterschaftsanfechtung-frist-paragraf-1600b-bgb-bverfg/) | Für Vaterschaftsanfechtung Frist Paragraf 1600b BGB BVerfG: prüft Frist, Form, Zuständigkeit und… |
 | [`Verdachtsvertraege: Behörden-, Gerichts- oder Registerweg`](skills/verdachtsvertraege-behoerden-gericht-und-registerweg/) | Für Verdachtsverträge: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verdachtsvertraege: Behörden-, Gerichts- oder Registerweg`](skills/verdachtsvertraege-pruefung/) | Für Verdachtsverträge: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
-| [`Vereinbarung über Versorgungsausgleich Paragrafen 6 ff VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, R`](skills/vereinbarung-ueber-versorgungsausgleich-6-ff-versausglg/) | Für Vereinbarung über Versorgungsausgleich 6 Ff Versausglg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vermögensbelege bis zur Gesamtberechnung`](skills/vermoegensbelege-bis-zur-gesamtberechnung/) | Berechnet den Zugewinnausgleich beider Ehegatten aus vorhandenen Vermögensbelegen und Stichtagen… |
 | [`Vermögensverzeichnis: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vermoegensverzeichnis-kontodaten/) | Für Vermögensverzeichnis: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und… |
 | [`Vermögensverzeichnis und Rechnungslegung (§§ 1835, 1839, 1865 BGB)`](skills/vermoegensverzeichnis-pruefung/) | Für Vermögensverzeichnis und Rechnungslegung (Paragrafen 1835. 1839. 1865 BGB): ordnet Norm, Beweislast… |

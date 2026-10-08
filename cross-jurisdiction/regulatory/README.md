@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (75)
+## Skills (64)
 
 | Skill | What it does |
 |---|---|
@@ -60,26 +60,15 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Weltraumrecht: Astronautenausbildung Vertrag Haftung Versicherung und Fürsorge`](skills/space-023-astronauten-vertrag-haftung-versicherung-fuers/) | Für Weltraumrecht: Astronautenausbildung Vertrag Haftung Versicherung und Fürsorge: ordnet Norm… |
 | [`Weltraumrecht: Space Mining Ressourcenrechte Eigentum und Sicherheiten`](skills/space-026-space-mining-ressourcen-eigentum-sicherheiten/) | Für Weltraumrecht: Space Mining Ressourcenrechte Eigentum und Sicherheiten: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Insolvenz eines Satellitenbetreibers Nutzlast Frequenz und Betrieb`](skills/space-029-insolvenz-satellitenbetreiber-nutzlast-frequen/) | Für Weltraumrecht: Insolvenz eines Satellitenbetreibers Nutzlast Frequenz und Betrieb: ordnet Norm… |
-| [`Weltraumrecht: Versicherung Launch In-Orbit Third Party Liability`](skills/space-030-versicherung-launch-in-orbit-third-party-liabi/) | Für Weltraumrecht: Versicherung Launch In-Orbit Third Party Liability: ordnet Norm, Beweislast und… |
-| [`Weltraumrecht: Cyberangriff auf Satellit NIS2 BSI KRITIS und Notfallplan`](skills/space-031-cyberangriff-satellit-nis2-bsi-kritis-notfallp/) | Für Weltraumrecht: Cyberangriff auf Satellit NIS2 BSI KRITIS und Notfallplan: ordnet Norm, Beweislast… |
-| [`Weltraumrecht: Exportkontrolle ITAR EAR EU Dual Use bei Raumfahrttechnik`](skills/space-033-exportkontrolle-itar-ear-eu-dual-use-raumfahrt/) | Für Weltraumrecht: Exportkontrolle ITAR EAR EU Dual Use bei Raumfahrttechnik: prüft Ergebnis, Beweislast… |
 | [`Weltraumrecht: Remote Sensing Lizenz Rohdaten und sensible Orte`](skills/space-041-remote-sensing-lizenz-rohdaten-und-sensible-or/) | Für Weltraumrecht: Remote Sensing Lizenz Rohdaten und sensible Orte: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Raumfahrtrechtliche Due Diligence beim Unternehmenskauf`](skills/space-047-raumfahrtrechtliche-due-diligence-beim-ma/) | Für Weltraumrecht: Raumfahrtrechtliche Due Diligence beim Unternehmenskauf: ordnet Norm, Beweislast und… |
-| [`Weltraumrecht: Weltraumdaten Datenbankrecht und AI Training`](skills/space-049-weltraumdaten-datenbankrecht-und-ai-training/) | Für Weltraumrecht: Weltraumdaten Datenbankrecht und digitale Werkzeuge Training: ordnet Norm, Beweislast… |
-| [`Weltraumrecht: Bodeneigentümer Startplatz Lärm Erschütterung und Nachbarrecht`](skills/space-050-bodeneigner-startplatz-laerm-erschuetterung/) | Für Weltraumrecht: Bodeneigentümer Startplatz Lärm Erschütterung und Nachbarrecht: ordnet Norm… |
 | [`Weltraumrecht: Nutzlastvertrag Payload Integration und Schnittstellen`](skills/space-057-nutzlastvertrag-payload-integration-und-schnit/) | Für Weltraumrecht: Nutzlastvertrag Payload Integration und Schnittstellen: ordnet Norm, Beweislast und… |
-| [`Weltraumrecht: Open Source Software im Satelliten`](skills/space-064-open-source-software-im-satelliten/) | Für Weltraumrecht: Open Source Software im Satelliten: ordnet Norm, Beweislast und Gegenargument… |
-| [`Weltraumrecht: KI an Bord Autonomie und AI Act Schnittstelle`](skills/space-065-ki-an-bord-autonomie-und-ai-act-schnittstelle/) | Für Weltraumrecht: digitale Werkzeuge an Bord Autonomie und digitale Werkzeuge Act Schnittstelle: ordnet… |
-| [`Weltraumrecht: Konstellation und Lichtverschmutzung Astronomie Einwendungen`](skills/space-076-konstellation-licht-astronomie-einwendungen/) | Für Weltraumrecht: Konstellation und Lichtverschmutzung Astronomie Einwendungen: ordnet Norm, Beweislast… |
 | [`Weltraumrecht: Luftfahrt Satellitenkommunikation und Safety Case`](skills/space-080-luftfahrt-satellitenkommunikation-und-safety-c/) | Für Weltraumrecht: Luftfahrt Satellitenkommunikation und Safety Case: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Finanzaufsicht Tokenisierung von Satellitenerträgen`](skills/space-081-finanzaufsicht-tokenisierung-von-satellitenert/) | Für Weltraumrecht: Finanzaufsicht Tokenisierung von Satellitenerträgen: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Internationale Streitbeilegung diplomatischer Schutz`](skills/space-087-internationale-streitbeilegung-diplomatischer/) | Für Weltraumrecht: Internationale Streitbeilegung diplomatischer Schutz: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Incident Response Satellitenausfall`](skills/space-094-incident-response-satellitenausfall/) | Für Weltraumrecht: Incident Response Satellitenausfall: ordnet Norm, Beweislast und Gegenargument… |
-| [`Weltraumrecht: Post-Mission Aktenabschluss und Lessons Learned`](skills/space-096-post-mission-aktenabschluss-und-lessons-learne/) | Für Weltraumrecht: Post-Mission Aktenabschluss und Lessons Learned: ordnet Akte, Belege und Lücken… |
 | [`Space Weather: Solarsturm-Haftung und Versicherung`](skills/space-weather-solarsturm-haftung-und-versicherung/) | Für Space Weather: Solarsturm-Haftung und Versicherung: ordnet Norm, Beweislast und Gegenargument… |
-| [`Weltraumrecht: Versicherung: Launch, In-Orbit, Third Party Liability`](skills/versicherung-launch-in-orbit-third-party-liability/) | Für Weltraumrecht: Versicherung: Launch, In-Orbit, Third Party Liability: ordnet Norm, Beweislast und… |
 | [`Web Content Accessibility Guidelines (WCAG) Skill`](skills/wcag-sushegaad/) | Expert WCAG (Web Content Accessibility Guidelines) advisor covering WCAG 2.0, 2.1, and 2.2 — the W3C… |
 | [`Weltraumrecht: Kaltstart: Weltraummandat – Quellenkarte und Risikocockpit`](skills/weltraummandat-quellenkarte/) | Für Weltraumrecht: Kaltstart: Weltraummandat – Quellenkarte und Risikocockpit: ordnet Norm, Beweislast… |
 | [`Juristischer Argumentationskern - Weltraumrecht`](skills/weltraumrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Weltraumrecht ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`Raumfahrtvorhaben einordnen und die Bearbeitung beginnen`](skills/weltraumrecht-kaltstart-triage/) | Ordnet ein Raumfahrtvorhaben anhand von Mission, Betreiber, Start- und Registerstaat ein. Beginnt mit… |
-| [`Weltraumrecht: Weltraumtourismus: Verbraucherrecht, Haftungsverzicht, AGB`](skills/weltraumtourismus-verbraucherrecht-haftungsverzicht-ag/) | Für Weltraumrecht: Weltraumtourismus: Verbraucherrecht, Haftungsverzicht, AGB: ordnet Norm, Beweislast… |

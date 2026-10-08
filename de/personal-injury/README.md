@@ -4,7 +4,7 @@ Bodily-injury and accident claims — liability, causation, and damages.
 
 Jurisdiction: `de` · Practice: `personal-injury` · Skill language: de
 
-## Skills (156)
+## Skills (154)
 
 | Skill | What it does |
 |---|---|
@@ -113,9 +113,7 @@ Jurisdiction: `de` · Practice: `personal-injury` · Skill language: de
 | [`Aufklaerung und Einwilligung in der Praxis: § 630e BGB, Form, Zeitpunkt, Inhalt, Sprachbarrieren, Stellvertretung Minder`](skills/medr-aufklaerung-und-einwilligung-praxis/) | Für Medr Aufklärung und Einwilligung Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Medizinrecht einfuehrend: Arzthaftung, Berufsrecht, Vertragsarztrecht, Krankenhausrecht, Arzneimittel- und Medizinproduk`](skills/medr-einfuehrung-themen/) | Für Medr Einführung Themen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Spezialfall IGeL-Leistungen und Aerztewerbung: § 18 MBO-Aerzte, sachliche berufsbezogene Information, unsachlich-anpreis`](skills/medr-grundpfeiler-igel-und-aerztewerbung-spezial/) | Für Medr Grundpfeiler Igel und Ärztewerbung Spezial: ordnet Norm, Beweislast und Gegenargument… |
-| [`Spezialfall IGeL Individuelle Gesundheitsleistung: GOAE Abrechnung, Aufklaerung wirtschaftlich, Schriftform der Vereinba`](skills/medr-igel-leistung-spezial/) | Für Medr Igel Leistung Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Medr: Mandantenkommunikation und Entscheidungsvorlage`](skills/medr-mandantenkommunikation-entscheidungsvorlage/) | Für Medr: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
-| [`Spezialfall MVZ-Strukturierung: Traegerschaft GmbH, KH, Vertragsarzt, Genossenschaft`](skills/medr-mvz-strukturierung-spezial/) | Für Medr Mvz Strukturierung Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Spezialfall MVZ-Strukturwandel: § 95 SGB V, Investor-MVZ, Anstellungsgenehmigung, Versorgungsauftrag, Konzentrationsverb`](skills/medr-mvz-strukturwandel-spezial/) | Für Medr Mvz Strukturwandel Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Minderjährige und Einwilligung: moderner Medizinrechts-Skill für Einwilligungsfähigkeit Minderjähriger, Elternkonflikt, `](skills/minderjaehrige-einwilligung/) | Für Minderjährige Einwilligung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mindestmengen und Zentrumsbildung: moderner Medizinrechts-Skill für Komplexe Eingriffe, Mindestmengen, Zentrumsbildung, `](skills/mindestmengen-zentrumsbildung/) | Für Mindestmengen Zentrumsbildung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
