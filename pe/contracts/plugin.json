@@ -1,0 +1,14 @@
+{
+  "name": "pe-contracts",
+  "displayName": "Contracts — PE",
+  "version": "0.1.0",
+  "description": "Contracts skills for PE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pe",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-peru-orwel"
+  ]
+}

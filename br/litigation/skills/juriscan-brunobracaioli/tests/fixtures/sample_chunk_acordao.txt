@@ -1,0 +1,68 @@
+ACÓRDÃO
+
+Registro: 2025.0000123456
+
+TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
+5ª Câmara de Direito Privado
+
+Apelação Cível nº 1234567-89.2025.8.26.0100
+Comarca: São Paulo — Foro Central Cível
+Apelante: Empresa Tecnologia S/A
+Apelada: Maria da Silva Santos
+Relator: Des. Ricardo Souza Oliveira
+
+EMENTA: RESPONSABILIDADE CIVIL — Vazamento de dados — Relação de consumo — Responsabilidade objetiva do fornecedor — Art. 14 do CDC — Danos materiais comprovados — Danos morais in re ipsa — Quantum indenizatório adequado — Recurso desprovido.
+
+Vistos, relatados e discutidos estes autos de Apelação Cível, em que são partes as acima indicadas.
+
+ACORDAM, em sessão permanente e virtual da 5ª Câmara de Direito Privado do Tribunal de Justiça de São Paulo, por votação unânime, negar provimento ao recurso, nos termos do voto do Relator.
+
+Sessão de julgamento realizada em 15 de outubro de 2025.
+
+RELATÓRIO
+
+Trata-se de recurso de apelação interposto por EMPRESA TECNOLOGIA S/A contra a r. sentença de fls. 180/195, proferida pelo MM. Juiz Dr. Fernando Almeida Costa, da 2ª Vara Cível do Foro Central de São Paulo, que julgou parcialmente procedente a ação de indenização movida por MARIA DA SILVA SANTOS, condenando a apelante ao pagamento de R$ 18.500,00 por danos materiais e R$ 30.000,00 por danos morais.
+
+A apelante sustenta que: (i) o vazamento decorreu de ataque hacker, configurando fortuito externo que exclui sua responsabilidade; (ii) o valor fixado a título de danos morais é excessivo e desproporcional; (iii) subsidiariamente, os juros de mora sobre danos morais devem incidir a partir do arbitramento.
+
+Contrarrazões às fls. 220/240, pugnando pelo desprovimento do recurso.
+
+É o relatório.
+
+VOTO
+
+Presentes os pressupostos de admissibilidade, conheço do recurso.
+
+I — DA RESPONSABILIDADE
+
+A alegação de fortuito externo não merece acolhimento. O vazamento de dados de clientes configura risco inerente à atividade da apelante, enquadrando-se como fortuito interno.
+
+O STJ, no julgamento do REsp 1.758.799/MG, Rel. Min. Nancy Andrighi, fixou a tese de que "a exposição de dados pessoais do consumidor configura defeito na prestação de serviço, ensejando reparação por danos morais."
+
+Igualmente aplicável a Súmula 479 do STJ.
+
+A LGPD (Lei 13.709/2018), em seu Art. 44, presume a culpa do agente de tratamento quando viola as normas de segurança.
+
+II — DO QUANTUM INDENIZATÓRIO
+
+O valor de R$ 30.000,00 fixado a título de danos morais está em consonância com os precedentes desta Câmara em casos análogos de vazamento de dados:
+
+- Apelação 1000001-00.2024.8.26.0100, Rel. Des. Silva Neto, j. 10/03/2025: R$ 25.000,00
+- Apelação 1000002-00.2024.8.26.0100, Rel. Des. Costa Junior, j. 15/04/2025: R$ 35.000,00
+
+O quantum está adequado aos princípios da razoabilidade e proporcionalidade.
+
+III — DOS JUROS DE MORA
+
+Quanto ao termo inicial dos juros de mora sobre danos morais, assiste razão parcial à apelante. Tratando-se de responsabilidade contratual, os juros devem incidir a partir da citação, como fixado na sentença. A pretensão de incidência a partir do arbitramento contraria a Súmula 54 do STJ.
+
+IV — DISPOSITIVO
+
+Ante o exposto, pelo meu voto, NEGO PROVIMENTO ao recurso de apelação, mantendo integralmente a r. sentença recorrida.
+
+Des. RICARDO SOUZA OLIVEIRA
+Relator
+
+Participaram do julgamento os Exmos. Desembargadores:
+Des. Ana Beatriz Campos — Revisor(a)
+Des. Paulo Roberto Martins — 3º Juiz

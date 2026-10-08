@@ -1,0 +1,17 @@
+{
+  "name": "cl-contracts",
+  "displayName": "Contracts — CL",
+  "version": "0.1.0",
+  "description": "Contracts skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/chilean-contract-legal-elpabloultron",
+    "skills/chilean-notebooklm-grounding-elpabloultron",
+    "skills/creacion-contrato-chile-orwel",
+    "skills/proteccion-datos-chile-eduardoapatat"
+  ]
+}

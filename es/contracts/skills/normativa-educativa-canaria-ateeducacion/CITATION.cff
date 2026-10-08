@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Si utiliza este corpus, cítelo como se indica a continuación."
+title: "Normativa Educativa Canaria"
+abstract: >-
+  Corpus Markdown/YAML que recopila, analiza, resume, indexa y relaciona la
+  normativa educativa y los currículos aplicables a Canarias, preparado para
+  consulta humana y para su uso como contexto en sistemas de inteligencia
+  artificial. Los resúmenes y análisis de este corpus no sustituyen la consulta
+  de las fuentes oficiales publicadas en el BOE y el BOC.
+type: dataset
+authors:
+  - name: "Área de Tecnología Educativa"
+    email: "ate.educacion@gobiernodecanarias.org"
+    website: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/"
+repository-code: "https://github.com/ateeducacion/normativa_educativa_canaria"
+url: "https://ateeducacion.github.io/normativa_educativa_canaria/"
+license: CC0-1.0
+version: "2026"
+date-released: 2026-08-04
+languages:
+  - spa
+keywords:
+  - normativa educativa
+  - Canarias
+  - currículo
+  - LOMLOE
+  - educación
+  - corpus
+  - datos abiertos
+  - inteligencia artificial
+  - RAG

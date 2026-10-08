@@ -1,0 +1,11 @@
+id: REL-092
+tipo_relacion: desarrolla
+origen: NOR-125
+destino: NOR-044
+descripcion: Concreta el procedimiento de evaluación y calificación de la Orden de 31 de mayo de 2023.
+evidencia:
+  fuente: FTE-132
+  localizacion: Antecedentes, p. 1
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

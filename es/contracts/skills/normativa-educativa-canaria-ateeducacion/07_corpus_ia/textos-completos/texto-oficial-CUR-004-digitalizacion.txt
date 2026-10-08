@@ -1,0 +1,565 @@
+ID interno: CUR-004
+Título oficial: Digitalización — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+DIGITALIZACIÓN
+Introducción
+La materia de Digitalización atiende a la importancia que tiene en la sociedad actual, a nivel
+individual y colectivo, tanto la búsqueda y procesamiento de la información como la forma de
+relacionarse en la red, dentro de unos criterios de responsabilidad y de seguridad, con una actitud
+crítica y de manera ética, que permita al alumnado desarrollar una adecuada ciudadanía digital. La
+digitalización  está  presente  en  los  hogares,  en  los  dispositivos  móviles,  en  la  Administración
+electrónica, en el comercio electrónico, en el sector audiovisual, etc., y de ahí que la sociedad
+digital  del  siglo  XXI  precise  que  el  alumnado  desarrolle  hábitos  para  cuidar  su identidad,  su
+seguridad, la privacidad de los datos y su huella digital.
+Esta  materia  debe  contribuir  a  facilitar  que  el  alumnado  pueda  emplear  de  manera  crítica  y
+responsable estrategias y herramientas que permitan detectar, entre otros aspectos, el ciberacoso, la
+violencia de género, actitudes relacionadas con LGTBI+ fobias o la suplantación de identidades,
+para así poder participar en la red de manera segura y realizar con garantías tareas como gestiones
+administrativas en línea y de comercio electrónico, siendo capaces de detectar noticias falsas y
+fraudes. Es de destacar que el uso de las tecnologías digitales en Canarias toma especial relevancia
+debido a nuestra propia condición de insularidad y nuestra orografía. Esta materia de Digitalización
+fomentará que el alumnado disponga de conocimientos que permitan el desarrollo de esta cultura
+digital en consonancia con el modelo de sociedad del siglo XXI, donde se fomentan aspectos tan
+importantes como el consumo responsable, la adquisición de hábitos de reutilización de materiales y
+de ahorro energético, la consecución de una vida saludable, la participación en entornos virtuales
+donde se desarrolle la aceptación de la diversidad personal y cultural, así como la resolución
+pacífica de conflictos.
+El  incremento  del  equipamiento  relativo  a  las  tecnologías  digitales  en  los  hogares,  con  la
+disponibilidad de acceso a internet, hace necesario que desde esta materia de Digitalización se
+facilite  al  alumnado  la  resolución  de  problemas  técnicos  sencillos  mediante  una  actitud
+participativa, escogiendo la mejor solución entre diversas opciones y siempre valorando el bienestar
+emocional personal y colectivo.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran. En esta materia será fundamental, además,
+incidir  en  aprendizajes  relativos  al  conocimiento  del  desarrollo  tecnológico  de  la  Comunidad
+Autónoma de Canarias, de manera que el alumnado integre que el patrimonio canario incluye
+aspectos sociales, culturales, científicos y tecnológicos.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio.
+1
+
+=== Página 2 ===
+
+Contribución a los objetivos de etapa
+Esta materia permite dar continuidad a los saberes propios más relacionados de las materias de
+Tecnología y Digitalización, y de Cultura y Ciudadanía Digital, impartidas en los cursos anteriores
+de la Educación Secundaria Obligatoria, a la vez que contribuye a la adquisición de los objetivos de
+etapa, puesto que implica el desarrollo integral del alumnado para ejercer una ciudadanía digital,
+democrática,  crítica,  ética,  responsable,  ecosocial  y  sostenible.  Esta  materia  permite  que  el
+alumnado  asuma  sus  deberes  de  forma  responsable,  ejerciendo  sus  derechos,  practicando  la
+tolerancia y la cooperación (a). Además, aporta las destrezas básicas para la búsqueda, selección y
+tratamiento  de  la  información  con  espíritu  crítico  y  respetuoso,  para  la  creación  de  nuevos
+conocimientos a partir de fuentes de información veraces (e), mediante la comprensión y expresión
+de la información con corrección, tanto oralmente como por escrito (h). Esta materia contribuye a la
+participación del alumnado en el trabajo colaborativo y en equipo (b), practicando la cooperación
+entre las personas, donde se valora la creación artística de las producciones digitales del alumnado
+(l), al igual que los aspectos básicos de la identidad cultural canaria (j), y donde se respeta la
+diversidad  evitando  comportamientos  discriminatorios  (sexo,  género,  orientación  sexual,  raza,
+religión…) (c). También permite el desarrollo de un espíritu emprendedor en la resolución de
+problemas tecnológicos sencillos (g), aplicando los conocimientos como un saber integrado (f),
+desarrollando habilidades preventivas de seguridad y consolidando hábitos de vida saludables a
+nivel físico y emocional (d), afianzando las medidas preventivas y correctivas para proteger la salud
+corporal (k).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+Esta  materia  contribuye  al  desarrollo  y  la  adquisición  de  la  Competencia  en  comunicación
+lingüística (CCL), porque se fomenta en el alumnado la comunicación de manera coherente y
+adecuada cuando interactúa en espacios virtuales de comunicación y plataformas de aprendizaje
+colaborativo, compartiendo y publicando información. Además, implica la necesidad de ser capaz
+de localizar, seleccionar y contrastar la información, evaluando su veracidad para transformarla en
+nuevo conocimiento.
+Asimismo, la contribución de la materia a la Competencia matemática y competencia en ciencia,
+tecnología e ingeniería (STEM) se basa en la aplicación de los conocimientos y la utilización de
+métodos inductivos y deductivos en el desarrollo de estrategias que permitan entender y explicar
+diferentes situaciones para la resolución de problemas de forma crítica.
+La contribución a la Competencia digital (CD) es clara, ya que el alumnado desarrolla criterios para
+la búsqueda y selección de contenidos en la red de manera crítica y fiable. Además, implica la
+creación,  gestión  y  utilización  de  su  propio  entorno  personal  digital  de  aprendizaje  para  la
+construcción de conocimiento y creación de contenidos digitales. Esta competencia también se
+adquiere con el desarrollo de una adecuada ciudadanía digital activa, cívica y reflexiva, donde se
+tenga  respeto  por  la  privacidad  y  la  propiedad  intelectual.  Además,  implica  el  desarrollo  de
+soluciones tecnológicas creativas, haciendo un uso seguro, saludable y sostenible de las tecnologías
+digitales.
+2
+
+=== Página 3 ===
+
+De la misma forma, la contribución de la materia a la Competencia personal, social y de aprender a
+aprender (CPSAA), se concreta en la utilización de estrategias ágiles de planificación y gestión a
+medio plazo, que faciliten aprender de sus errores para favorecer la construcción del conocimiento y
+reformular  el  procedimiento  si  fuera  necesario,  mostrando  interés,  motivación  y  una  actitud
+proactiva.
+La contribución al desarrollo y adquisición de la Competencia ciudadana (CC) se refleja en el
+fomento del análisis y comprensión del impacto social relacionado con las aportaciones de las
+tecnologías digitales para desarrollar un estilo de vida ecosocialmente responsable, consciente de la
+brecha sociocultural y territorial canaria.
+La Competencia emprendedora (CE) se adquiere a partir de la creación de ideas y soluciones
+creativas e innovadoras para resolver problemas tecnológicos sencillos de manera ética, teniendo en
+cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.
+La Competencia en conciencia y expresión culturales (CCEC) se adquiere a través de la creación de
+productos a partir del conocimiento, selección y uso con creatividad de diversos medios y soportes,
+apreciando y valorando la identidad cultural canaria.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En  el  currículo  de  Digitalización  se  han  establecido  cuatro  competencias  específicas  que  se
+concretan a través de catorce criterios de evaluación. Estos criterios de evaluación tienen una clara
+naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos
+del Perfil de salida a los que contribuye cada una de las competencias específicas, expresando las
+capacidades y los saberes que el alumnado debe adquirir, a la vez que el contexto y el modo de
+aplicación.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+3
+
+=== Página 4 ===
+
+Competencia específica 1 (C1)
+En la competencia específica 1, se hace referencia a la gestión y mantenimiento de los dispositivos
+digitales habituales de uso del alumnado, para lo que debe ser capaz de identificar y resolver
+problemas sencillos y aplicar conocimientos relacionados. Para ello, esta competencia comprende
+tres criterios de evaluación. El primer criterio hace referencia al desarrollo de estrategias por parte
+del alumnado para aplicar los aprendizajes que le permitan conectar dispositivos y gestionar redes
+locales, identificando los riesgos y adoptando las medidas necesarias para preservar la seguridad de
+los dispositivos y de las personas, mientras que el segundo criterio de evaluación va orientado a la
+instalación,  configuración  y  mantenimiento  de  los  sistemas  operativos.  Estos  aprendizajes  se
+complementan con el tercer criterio de evaluación, que aborda la identificación y resolución de
+problemas técnicos sencillos mediante el análisis de los distintos componentes y funcionalidades y
+bajo la aplicación de criterios de reutilización de materiales y de ahorro energético.
+Competencia específica 2 (C2)
+En una sociedad cada vez más digitalizada, se hace necesaria la adquisición de estrategias para
+gestionar el entorno de aprendizaje. Para ello, esta competencia específica 2 trata sobre la necesidad
+de integrar recursos digitales en el proceso formativo del alumnado mediante la configuración de su
+entorno personal de aprendizaje, logrando el nivel de desempeño establecido a partir de los cuatro
+criterios  de  evaluación  que  comprende  esta  competencia  específica.  El  primer  criterio  hace
+referencia a la capacidad del alumnado para gestionar y mantener de forma autónoma y activa un
+aprendizaje  permanente  mediante  la  configuración  de  su  entorno  personal  de  aprendizaje.  El
+segundo  criterio  de  evaluación  está  enfocado  a  la  generación  de  nuevo  contenido  utilizando
+estrategias de búsqueda, selección y archivo de la información, aplicando las normas de seguridad
+establecidas y respetando la propiedad intelectual. Estos aprendizajes se complementan con el tercer
+criterio  de  evaluación,  que  va  orientado  a  la  construcción  de  nuevo  conocimiento,  creando,
+programando, integrando y reelaborando contenidos con sentido crítico, manteniendo el respeto por
+los derechos de la propiedad intelectual y las licencias de uso. Finalmente, el último criterio de
+evaluación incide en la necesidad de desarrollar una participación activa, respetuosa y colaborativa
+en los espacios virtuales de comunicación y plataformas de aprendizaje colaborativo.
+Competencia específica 3 (C3)
+Para mantener una adecuada interacción en la red, se hace necesaria la adquisición de hábitos
+adecuados al uso de la misma. En la competencia específica 3, se establecen los desempeños que el
+alumnado debe poder realizar relacionados con las medidas de seguridad preventivas y correctivas
+que  deben  adoptarse  para  interaccionar  en  la  red  y  que  están  relacionadas,  tanto  con  la
+configuración de los dispositivos como con su protección, la de los datos y la de la salud. Para ello,
+esta competencia comprende tres criterios de evaluación. El primer criterio de evaluación hace
+referencia al desarrollo de estrategias adecuadas por parte del alumnado para realizar una apropiada
+gestión de sus identidades virtuales, relacionadas con la protección de su identidad, su reputación
+digital, su privacidad y su huella digital, para desarrollar una participación comprometida, tolerante
+y  respetuosa  en  los  espacios  virtuales.  El  segundo  criterio  de  evaluación  está  orientado  a  la
+configuración y actualización de sistemas operativos y antivirus de forma periódica, aplicando
+principios de ética y seguridad. El último criterio de evaluación está enfocado a la identificación de
+situaciones de amenazas en la red para desarrollar habilidades preventivas y consolidar hábitos de
+vida  saludables  a  nivel  físico  y  emocional.  De  la  misma  forma,  se  abordan  aprendizajes
+relacionados con el bienestar personal emocional ante posibles amenazas externas en el contexto de
+4
+
+=== Página 5 ===
+
+problemas  como  el  ciberacoso,  la  sextorsión,  la  dependencia  tecnológica,  el  libre  acceso  a
+contenidos inapropiados o el abuso en el juego.
+Competencia específica 4 (C4)
+La  competencia  específica  4  hace  referencia  a  las  acciones  encaminadas  al  desarrollo  de  un
+ejercicio adecuado de la ciudadanía digital de forma responsable en todas las actividades en línea,
+identificando  y  analizando  las  repercusiones  de  las  acciones  que  se  realizan  en  la  red.  Esta
+competencia se concreta en cuatro criterios de evaluación. El primer criterio trata sobre el desarrollo
+adecuado de una ciudadanía digital, aplicando las normas de la etiqueta digital, respetando las
+licencias de uso y la propiedad intelectual, haciendo un uso ético de los datos y de las herramientas
+digitales y desarrollando una actitud dialogante y respetuosa en las interacciones que se realicen. El
+segundo criterio de evaluación hace referencia a la capacidad de realizar con seguridad las gestiones
+administrativas y el comercio electrónico, tomando conciencia del impacto generado y de la brecha
+sociocultural, territorial canaria y de género en el acceso y uso generado por estas tecnologías
+digitales y fomentando estrategias de aplicación y desarrollo de estilos de vida ecosocialmente
+responsables. El tercer criterio de evaluación está enfocado al desarrollo de una actitud dialogante y
+respetuosa  en  las  interacciones  que  se  realicen,  analizando  y  valorando  la  importancia  de  la
+oportunidad que suponen los medios digitales conectados para facilitar la comunicación, además de
+posibilitar la adquisición de estrategias adecuadas para analizar los mensajes emitidos y recibidos y
+detectar  aquellos  contenidos  que  supongan  cualquier  tipo  de  discriminación,  manipulación  de
+información, sesgo, etc. Estos aprendizajes se complementan con el cuarto criterio de evaluación,
+que aborda el análisis sobre el uso y desarrollo ecosocialmente responsable de las tecnologías
+digitales,  valorando  los  beneficios  globales  generados  y  teniendo  en  cuenta  criterios  de
+accesibilidad y sostenibilidad.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Esta  materia  está  organizada  en  torno  a  cuatro  bloques  de  saberes  básicos  que  suponen  la
+integración de conocimientos, destrezas y actitudes, de manera que los aprendizajes que se deriven
+de ellos deben incidir en la formación integral del alumnado desde un tratamiento competencial de
+los  contenidos,  que  permitan  al  profesorado  una  posterior  dinamización  funcional  de  estos
+elementos curriculares en el aula. Existe una relación directa entre los saberes de la materia y las
+competencias específicas y criterios de evaluación, aunque será el equipo docente quien determine,
+en  última  instancia,  y dentro del margen de autonomía del que dispone,  de entre  los saberes
+propuestos, aquellos que se estimen más adecuados para implementar los aprendizajes establecidos
+en cada uno de los bloques competenciales. Estos saberes quedan estructurados de la siguiente
+manera: I, «Dispositivos digitales, sistemas operativos y de comunicación», II, «Digitalización del
+entorno personal de aprendizaje», III, «Seguridad y bienestar digital» y IV , «Ciudadanía digital
+crítica».
+El  Bloque  I,  «Dispositivos  digitales,  sistemas  operativos  y  de  comunicación»,  analiza  la
+arquitectura de ordenadores y otros dispositivos móviles, así como la conexión de sus dispositivos y
+sistemas  operativos.  También  se  incide  aquí  en  la  adquisición  de  hábitos  de  reutilización  de
+materiales y ahorro energético.
+5
+
+=== Página 6 ===
+
+El Bloque II, «Digitalización del entorno personal de aprendizaje», tiene como finalidad afianzar
+los conocimientos de alfabetización digital adquiridos en la Educación Primaria o en cursos previos
+de la Educación Secundaria Obligatoria para introducir mayor cantidad de recursos, tanto para la
+búsqueda  y  selección  de  información  como  para  la  creación  y  reutilización  de  contenidos,
+fomentando la colaboración y difusión de sus aprendizajes con una actitud crítica en la búsqueda de
+información, respetando los derechos de autor y la propiedad intelectual.
+El  Bloque  III,  «Seguridad  y  bienestar  digital»,  trata  sobre  el  desarrollo  e  implementación  de
+medidas preventivas de diferentes riesgos y amenazas que puedan afectar tanto a la seguridad de los
+dispositivos y datos como al bienestar físico y emocional derivado de nuestras relaciones en los
+entornos virtuales. En este bloque también se abordan problemas como los discursos de odio, el
+ciberacoso, la violencia de género, actitudes relacionadas con LGTBI+ fobias, suplantación de
+identidades, contenidos inadecuados y el abuso en los tiempos de conexión, asuntos que pueden
+suponer amenazas para el bienestar físico y emocional del alumnado.
+El Bloque IV , «Ciudadanía digital crítica», permite que el alumnado reflexione sobre la importancia
+que tiene internet en el desarrollo de su aprendizaje a lo largo de toda su vida, fomentando la
+importancia de un uso adecuado de la propiedad intelectual y las licencias de uso de las creaciones
+digitales, así como un uso ético de los datos y herramientas digitales utilizados manteniendo un
+compromiso con la igualdad de género y la accesibilidad. Asimismo, se aborda la importancia de un
+adecuado empleo del comercio electrónico y de las gestiones administrativas que se pueden realizar
+en línea, teniendo en cuenta la condición de zona ultraperiférica y fragmentada del territorio canario
+y la necesidad de construir estructuras administrativas eficaces a escala insular.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+La metodología empleada en la materia de Digitalización debe fomentar el pensamiento creativo en
+el aprendizaje del alumnado como elemento imprescindible que garantice y refuerce la innovación
+en  nuestra  sociedad  mediante  la  aplicación  de  una  actitud  crítica,  responsable  y  ética  de  las
+tecnologías de la información y comunicación, favoreciendo el desarrollo de hábitos de trabajo en
+grupo  y  la  capacidad  de  comunicarse  eficazmente  con  otras  personas  de  manera  respetuosa,
+manteniendo  un  compromiso  con  la  igualdad  de  género,  rechazando  cualquier  tipo  de
+discriminación, siendo tolerante con las opiniones ajenas y aplicando estrategias para la resolución
+pacífica  de  los  conflictos  que  puedan  surgir.  Además,  se  debe  abordar  la  metodología  de
+aprendizaje-servicio  con  la  finalidad  de  integrar  estas  herramientas  digitales  para  potenciar  la
+6
+
+=== Página 7 ===
+
+mejora de su entorno social con el desarrollo de una adecuada ciudadanía digital activa, teniendo en
+cuenta  criterios  de  accesibilidad,  sostenibilidad  e  impacto  social  y  ambiental.  Asimismo,  las
+diferentes  estrategias  de  aprendizaje  se  planificarán  de  manera  que  den  respuesta  a  las
+características individuales del alumnado, a las necesidades educativas específicas del mismo, a los
+condicionantes socioculturales presentes, a los contextos actuales, etc. Es por ello imprescindible
+tener en cuenta los principios del Diseño Universal para el Aprendizaje (DUA) que favorecen la
+capacidad inclusiva de la educación.
+Por tanto, la materia de Digitalización se debe plantear desde una metodología activa, práctica y
+contextualizada  a  la  condición  del  territorio  fragmentado  en  Canarias,  que  sea  participativa,
+cooperativa, colaborativa y que fomente el trabajo por grupos, permitiendo el enfoque práctico y
+competencial del aprendizaje, considerando al profesorado como guía del proceso de enseñanza-
+aprendizaje  y  permitiendo  que  el  alumnado  sea  el  agente  activo  de  este  proceso,  aplicando
+estrategias relacionadas con el aprendizaje por proyectos (ABP), proyectos interdisciplinares, etc. A
+partir del enfoque competencial de esta materia, los saberes básicos se integrarán en situaciones de
+aprendizaje contextualizadas, que permitan el desarrollo de las competencias específicas asociadas a
+los criterios de evaluación y a partir de las inquietudes planteadas por el alumnado durante el uso de
+sus dispositivos tecnológicos.
+Este enfoque competencial se tiene en cuenta en todos los elementos del currículo, en la redacción
+de los criterios de evaluación como referente del nivel de desempeño esperado en el alumnado para
+la adquisición de la competencia específica correspondiente, en la redacción de los saberes básicos
+y en los descriptores del Perfil de salida hacia los que apunta dicha competencia. De este modo, se
+facilitará la evaluación del grado de desarrollo y la adquisición de dichas competencias a través del
+uso  de  técnicas  de  evaluación  como  la  observación  sistemática,  el  análisis  de  documentos,
+producciones, etc.; de herramientas tanto para evaluar los criterios de evaluación como para el nivel
+de adquisición de las competencias, como los registros anecdóticos y descriptivos, diario de clase
+del profesorado, formularios, rúbricas…, e instrumentos de evaluación que permitan evidenciar el
+desarrollo y la adquisición de los aprendizajes esperados y de sus competencias vinculadas. Estas
+técnicas, instrumentos y herramientas deben ser diversos, estar dotados de capacidad diagnóstica y
+de mejora y, por supuesto, adaptados a las distintas situaciones de aprendizaje y permitir una
+valoración objetiva. Por último, también se valorará el proceso de coevaluación y autoevaluación
+del alumnado como una oportunidad para aprender, de modo que le permita reflexionar para valorar
+sus logros y dificultades, contribuyendo a la mejora de la autonomía del alumnado.
+7
+
+=== Página 8 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes
+domésticas, aplicando los conocimientos de hardware y sistemas operativos, para gestionar las
+herramientas e instalaciones informáticas y de comunicación de uso cotidiano.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM2, CD4, CD5, CPSAA1,
+CPSAA5, CE3
+Criterios de evaluación
+1.1.  Conectar  dispositivos  y  gestionar  redes  locales  utilizando  las  herramientas  necesarias  para
+identificar los riesgos y adoptar las medidas de seguridad pertinentes, aplicando los conocimientos y
+procesos  asociados  a  sistemas  de  comunicación  alámbrica  e  inalámbrica  mostrando  una  actitud
+proactiva.
+CD4, CPSAA5, CE3
+1.2.  Instalar  y  mantener  sistemas  operativos,  adoptando  las  medidas  preventivas  necesarias  para
+mantener  la  seguridad  y  configurar  sus  características,  teniendo  en  cuenta  la  evolución  de  las
+tecnologías digitales, permitiendo dar respuesta a sus necesidades personales.
+CD4, CD5
+1.3. Identificar y resolver problemas técnicos sencillos, analizando componentes y funciones de los
+dispositivos digitales, aplicando criterios de reutilización de materiales y ahorro energético, evaluando
+las  soluciones  de  manera  crítica,  identificando  los  riesgos  y  adoptando  las  medidas  necesarias,
+planificando y reformulando el procedimiento si fuera necesario y mostrando interés y motivación
+hacia el aprendizaje para el desarrollo de soluciones tecnológicas creativas.
+STEM1, STEM2, CD4, CPSAA1,
+CPSAA5
+8
+
+=== Página 9 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se persigue constatar que el alumnado es capaz de utilizar estrategias relacionadas con la reutilización de
+materiales, el ahorro energético y la resolución de problemas técnicos sencillos que puedan surgir, fomentando una actitud participativa y libre de
+estereotipos sexistas, escogiendo la mejor solución entre diversas opciones y siempre valorando la seguridad y el bienestar personal y colectivo. Es
+por ello que con este bloque se valorará en qué medida el alumnado es capaz de analizar, seleccionar y emplear diferentes estrategias ágiles de
+planificación y gestión, aprendiendo de sus errores para favorecer la construcción del conocimiento con la finalidad de conectar dispositivos,
+instalar,  configurar,  mantener  y gestionar  sistemas operativos, herramientas  de  comunicación  y redes locales tales como  una  red doméstica,
+mostrando una actitud crítica y proactiva en la identificación y resolución de problemas sencillos, reformulando y aprendiendo de sus errores y
+adoptando medidas preventivas para garantizar la seguridad de los dispositivos y de las personas, así como para asegurar el derecho a la propiedad
+intelectual y fomentar el uso saludable de las tecnologías.
+Competencia específica
+2. Configurar el entorno personal de aprendizaje, interactuando y aprovechando los recursos del
+ámbito digital, para optimizar y gestionar el aprendizaje permanente.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, CCL5, CD1, CD2, CD3,
+CPSAA4, CPSAA5, CC1, CE3, CCEC1,
+CCEC4
+Criterios de evaluación
+2.1. Gestionar el aprendizaje en el ámbito digital, configurando el entorno personal de aprendizaje
+mediante la integración de recursos digitales de manera autónoma y responsable para el desarrollo de
+una adecuada ciudadanía digital.
+CD2, CD3
+9
+
+=== Página 10 ===
+
+2.2. Buscar, localizar, seleccionar y archivar información procedente de diferentes fuentes en función
+de sus necesidades, contrastando la fiabilidad de la información y haciendo uso de las herramientas del
+entorno personal de aprendizaje con sentido crítico para reutilizar la información y generar nuevo
+contenido, respetando la propiedad intelectual y siguiendo las normas básicas de seguridad en la red,
+apreciando y valorando la identidad cultural canaria.
+CCL3, CD1, CPSAA4, CC1, CCEC1
+2.3.  Crear,  programar,  integrar  y  reelaborar  contenidos  digitales  de  forma  individual  o  colectiva
+seleccionando,  de  manera  razonada,  las  herramientas  más  apropiadas  para  generar  nuevo
+conocimiento, y para elaborar productos culturales y artísticos de manera creativa, respetando los
+derechos de autoría y licencias de uso.
+CCL1, CD2, CPSAA5, CE3, CCEC4
+2.4. Interactuar en espacios virtuales de comunicación y plataformas de aprendizaje colaborativo,
+compartiendo y publicando información y datos, adaptándose a diferentes audiencias con una actitud
+participativa  y  respetuosa,  para  desarrollar  estrategias  que  le  permitan  mejorar  en  el  proceso  de
+construcción del conocimiento.
+CCL1, CCL5, CD3, CPSAA5
+Explicación del bloque competencial
+A través de este bloque competencial se persigue verificar que el alumnado es capaz de gestionar y mantener de forma autónoma y activa un
+aprendizaje permanente. Es por ello que se hace necesaria la optimización de la búsqueda y el procesamiento de la información bajo unos criterios de
+responsabilidad y seguridad, desarrollando una actitud crítica que le permita integrar los recursos digitales en su proceso formativo de manera ética y
+responsable siguiendo las normas básicas de seguridad en la red. En este bloque competencial se constatará la capacidad del alumnado de configurar
+su  propio  entorno  personal  de  aprendizaje,  estableciendo  una  gestión  adecuada,  para  construir  nuevo  conocimiento;  creando,  programando,
+integrando y reelaborando contenidos digitales mediante estrategias de búsqueda, selección, archivo y tratamiento de la información; utilizando
+fuentes fiables, validando, contrastando la información y respetando las licencias de uso y la propiedad intelectual en la referencia y generación de
+nuevo contenido, apreciando y valorando la identidad cultural canaria, así como para intercambiar información y transmitir opiniones. Asimismo, se
+valorará su participación activa, respetuosa y colaborativa en los espacios virtuales de comunicación y plataformas de aprendizaje colaborativo.
+10
+
+=== Página 11 ===
+
+Competencia específica
+3.  Desarrollar  hábitos  que  fomenten  el  bienestar  digital,  aplicando  medidas  preventivas  y
+correctivas, para proteger dispositivos, datos personales y la propia salud.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM5, CD1, CD3, CD4,
+CPSAA2, CPSAA5, CC2, CC3
+Criterios de evaluación
+3.1. Proteger los datos personales y la huella digital generada en internet, configurando las condiciones
+de privacidad y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en
+las redes sociales y espacios virtuales de trabajo para desarrollar hábitos de vida saludable a nivel
+físico y mental.
+CD3, CD4, CPSAA2, CC2
+3.2. Configurar y actualizar contraseñas, sistemas operativos y antivirus de forma periódica, para
+proteger los distintos dispositivos digitales de uso habitual y los datos personales, aplicando principios
+de ética y seguridad.
+STEM5, CD4
+3.3. Identificar y analizar, de manera crítica, situaciones que representan una amenaza en la red, saber
+cómo reaccionar y seleccionar la mejor solución entre diversas opciones, valorando la seguridad y el
+bienestar  emocional  personal  y  colectivo,  fomentando  actitudes  dialogantes,  democráticas  y
+respetuosas para consolidar hábitos de vida saludables a nivel físico y mental, desarrollando estrategias
+que le permitan mejorar en el proceso de construcción del conocimiento.
+CCL1, CCL5, CD1, CD4, CPSAA2,
+CPSAA5, CC2, CC3
+Explicación del bloque competencial
+Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de utilizar estrategias que le permitan hacer un uso crítico y
+11
+
+=== Página 12 ===
+
+responsable de las herramientas digitales. Además, en este bloque se constatará que el alumnado desarrolla hábitos de vida saludable a nivel físico y
+mental que fomenten el bienestar digital y emocional, emprendiendo acciones de medidas preventivas y correctivas para hacer frente a riesgos,
+amenazas y ataques a dispositivos. Asimismo, se pretende comprobar que el alumnado dispone de las herramientas necesarias para proteger sus datos
+personales, identificando y analizando los riesgos, aplicando principios de seguridad para la gestión de sus identidades virtuales relacionadas con la
+protección de su identidad, su reputación digital, su privacidad y su huella digital en la participación en actividades comunitarias, favoreciendo con
+ello un uso responsable de las redes. También se verificará la capacidad para detectar situaciones de violencia y de riesgo en la red, como ciberacoso
+o sextorsión, violencia de género y LGTBI+ fobias, así como el conocimiento disponible sobre las estrategias que debe utilizar para actuar en
+consecuencia, localizando y contrastando los riesgos y tomando conciencia de la importancia de las amenazas al bienestar personal.
+Competencia específica
+4. Ejercer una ciudadanía digital crítica, conociendo las posibles acciones que realizar en la red,
+e identificando sus repercusiones, para hacer un uso activo, responsable y ético de la tecnología.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, CCL5, CD1, CD3,
+CD4, CPSAA1, CC1, CC2, CC3, CC4,
+CE1
+Criterios de evaluación
+4.1. Hacer un uso ético de los datos y las herramientas digitales, mostrando interés y motivación hacia
+el aprendizaje, entendiendo la necesidad de mantener una actitud colaborativa y respetuosa en su
+participación activa en la red, aplicando las normas de etiqueta digital y respetando la privacidad, las
+licencias de uso y propiedad intelectual en la comunicación, para desarrollar una adecuada ciudadanía
+digital.
+CCL3, CD1, CD3, CD4, CPSAA1, CC1
+12
+
+=== Página 13 ===
+
+4.2. Identificar, analizar y comprender el  impacto  social  relacionado con las  aportaciones de las
+tecnologías digitales en las gestiones administrativas y el comercio electrónico, siendo consciente de la
+brecha sociocultural, territorial canaria y de género existente para el acceso, uso y aprovechamiento de
+dichas  tecnologías  en  diversos  colectivos  para  desarrollar  un  estilo  de  vida  ecosocialmente
+responsable.
+CCL1, CCL2, CC1, CC4
+4.3. Analizar y valorar la importancia de la oportunidad, facilidad y libertad de expresión que suponen
+los medios digitales conectados, permitiendo la participación en actividades comunitarias, analizando
+de forma crítica los mensajes que se reciben y transmiten, teniendo en cuenta su objetividad, ideología,
+intencionalidad, sesgos, perspectiva de género y caducidad para desarrollar una actitud dialogante y
+respetuosa en las interacciones que se realicen.
+CCL1, CCL2, CCL5, CC2, CC3, CE1
+4.4. Analizar la necesidad de hacer un uso y desarrollo ecosocialmente responsable de las tecnologías
+digitales,  así  como  valorar  los  beneficios  globales  que  generan,  teniendo  en  cuenta  criterios  de
+accesibilidad, sostenibilidad e impacto social y ambiental.
+CCL1, CD4, CC4, CE1
+Explicación del bloque competencial
+Con este bloque competencial se pretende valorar el desarrollo en el alumnado de una adecuada ciudadanía digital a través de la adopción de una
+serie de criterios éticos, responsables, de accesibilidad y seguridad en la comunicación, donde se fomente el empleo de herramientas para detectar el
+ciberacoso,  la  violencia  de  género,  actitudes  relacionadas  con  LGTBI+  fobias  o  la  suplantación  de  identidades.  Por  lo  tanto,  este  bloque
+competencial va dirigido a comprobar en qué medida el alumnado se comunica, participa, colabora e interactúa en la red, aplicando las normas de la
+etiqueta digital, respetando las licencias de uso y la propiedad intelectual y valorando la importancia de ejercer la libertad de expresión de manera
+ética y responsable, desarrollando una actitud dialogante y respetuosa, manteniendo un compromiso con la igualdad de género, analizando de forma
+crítica los mensajes que se reciben y transmiten con la finalidad de ejercer una adecuada ciudadanía digital. Asimismo, se valorará la capacidad de
+realizar gestiones administrativas y acciones relacionadas con el comercio electrónico, identificando, analizando y comprendiendo el impacto social
+de las mismas, teniendo en cuenta la brecha territorial canaria y favoreciendo el desarrollo de herramientas adecuadas para detectar información falsa
+13
+
+=== Página 14 ===
+
+y fraude y actuar en consecuencia, permitiendo hacer un uso crítico, ético, legal, seguro y sostenible tanto de la red como de las herramientas
+relacionadas. De la misma manera, también se identificarán y valorarán los beneficios de la existencia y la participación en actividades de
+cibervoluntariado y de las comunidades de hardware y software libre para entender las bases de un estilo de vida ecosocialmente responsable.
+14
+
+=== Página 15 ===
+
+Saberes básicos
+I. Dispositivos digitales, sistemas operativos y de comunicación
+1. Configuración  y  montaje  de  los  elementos  que  constituyen  la  arquitectura  de  los
+ordenadores  y  desarrollo  de  estrategias  eficaces  para  la  resolución  de  los  problemas
+relacionados que permitan la adquisición de hábitos de reutilización de materiales y ahorro
+energético.
+2. Instalación de sistemas operativos y la configuración de usuario.
+3. Identificación de los dispositivos constituyentes de una red de comunicación doméstica y
+análisis de su funcionamiento para realizar su adecuada conexión y configuración.
+4. Configuración  y  conexión  de  dispositivos  conectados  al  IoT  (internet  de  las  cosas)  y
+dispositivos wearables (dispositivos vestibles).
+II. Digitalización del entorno personal de aprendizaje
+ 1. Aplicación de estrategias básicas para la búsqueda, selección y archivo de la información,
+contrastando críticamente fuentes diversas y evaluando su fiabilidad.
+ 2. Edición y creación de contenidos. 
+ 2.1. Uso  de  aplicaciones  de  productividad  para  favorecer  la  edición  y  creación  de
+contenidos digitales.
+ 2.2. Empleo  de  herramientas  necesarias  para  el  desarrollo  de  aplicaciones  sencillas  en
+dispositivos móviles y web, realidad virtual, aumentada y mixta.
+ 3. Estrategias básicas para la publicación, comunicación, colaboración y difusión responsable
+en redes.
+III. Seguridad y bienestar digital
+1. Identificación  y  análisis  de  los  riesgos,  amenazas  y  ataques  que  pueden  afectar  a  la
+seguridad de los dispositivos para la aplicación de medidas preventivas y correctivas.
+2. Estrategias  para  mejorar  la  seguridad  en  la  red  y  la  protección  de  datos  en  aspectos
+relacionados con la identidad, reputación digital, privacidad y huella digital, que permitan
+aplicar medidas preventivas en la configuración de redes sociales y la gestión de identidades
+virtuales.
+3. Herramientas que permitan la identificación de situaciones de violencia y riesgo en la red
+(ciberacoso,  sextorsión,  acceso  a  contenidos  inadecuados,  dependencia  tecnológica,
+violencia de género, LGTBI+  fobias, racismo, xenofobia, etc.) que afecten al bienestar
+personal. Desarrollo de estrategias que permitan dar respuesta adecuada a estas situaciones,
+preservando la salud física, mental y emocional y adoptando prácticas de uso saludable.
+IV . Ciudadanía digital crítica
+1. Estrategias básicas para ejercer una adecuada ciudadanía digital en la interacción en la red,
+siguiendo las indicaciones de la etiqueta digital y respetando la libertad de expresión, la
+15
+
+=== Página 16 ===
+
+diversidad en las redes sociales y espacios virtuales, la propiedad intelectual y licencias de
+uso.
+2. Formación en la educación mediática mediante el desarrollo de estrategias comunicativas y
+uso crítico de la red, aplicando herramientas para la detección de noticias falsas y fraudes en
+el periodismo digital, blogosfera, etc.
+3. Introducción a  las aplicaciones relacionadas con  las gestiones administrativas,  servicios
+públicos en línea, registros digitales y certificados oficiales para ejercer una ciudadanía
+digital responsable y activa. Implicaciones de la condición de zona ultraperiférica.
+4. Identificación  de  los  principales  elementos  del  comercio  electrónico,  como  facturas
+digitales, formas de pago y criptomonedas.
+5. Aplicación  de criterios éticos en el  uso de  datos, empleo y desarrollo  de herramientas
+digitales  relacionadas  con  la  inteligencia  artificial,  sesgos  algorítmicos  e  ideológicos,
+obsolescencia programada, soberanía tecnológica y digitalización sostenible.
+6. Análisis y valoración de las acciones de activismo en línea relacionadas con la participación
+en plataformas de iniciativa ciudadana, cibervoluntariado y en comunidades de hardware y
+software libres.
+16

@@ -1,0 +1,91 @@
+id: CUR-010
+titulo: "Expresión Artística — ESO Canarias"
+etapa: "eso"
+materia: "Expresión Artística"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Analizar manifestaciones artísticas contextualizándolas para educar la mirada y disfrutar del patrimonio cultural."
+      enunciado_oficial: "Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos esenciales y valorando el proceso de creación y el resultado final, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico."
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA3, CC1, CC2]
+        "2.º ESO": [CCL1, CCL2, CP3, CPSAA3, CC1, CC2, CCEC1]
+        "3.º ESO": [CCL1, CPSAA3, CC1, CC2, CCEC1]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC1, CCEC2]
+    - codigo: "C2"
+      enunciado_resumido: "Explorar las posibilidades expresivas de diferentes técnicas gráfico-plásticas para incorporarlas al repertorio personal."
+      enunciado_oficial: "Explorar las posibilidades expresivas de diferentes técnicas gráfico-plásticas, empleando distintos medios, soportes, herramientas y lenguajes, para incorporarlas al repertorio personal de recursos y desarrollar el criterio de selección de las más adecuadas a cada necesidad o intención."
+      descriptores:
+        "4.º ESO": [CD2, CPSAA1, CC1, CC3, CE1, CCEC3, CCEC4]
+    - codigo: "C3"
+      enunciado_resumido: "Explorar las posibilidades expresivas de medios, técnicas y formatos audiovisuales decodificando sus lenguajes."
+      enunciado_oficial: "Explorar las posibilidades expresivas de diferentes medios, técnicas y formatos audiovisuales, decodificando sus lenguajes, identificando las herramientas y distinguiendo sus fines, para incorporarlos al repertorio personal de recursos y desarrollar el criterio de selección de los más adecuados a cada necesidad o intención."
+      descriptores:
+        "4.º ESO": [CD2, CD5, CPSAA1, CPSAA3, CE1, CCEC3, CCEC4]
+    - codigo: "C4"
+      enunciado_resumido: "Crear producciones artísticas, individuales o grupales, adaptando el diseño al público destinatario."
+      enunciado_oficial: "Crear producciones artísticas, individuales o grupales, realizadas con diferentes técnicas y herramientas, incluido el propio cuerpo, a partir de un motivo o intención previos, adaptando el diseño y el proceso a las necesidades e indicaciones de realización y teniendo en cuenta las características del público destinatario, para compartirlas y valorar las oportunidades de desarrollo personal, social, académico o profesional que pueden derivarse de esta actividad."
+      descriptores:
+        "4.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CC3, CE1, CCEC4]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Analizar y comprender manifestaciones artísticas de diferentes épocas y culturas, contextualizándolas, describiendo sus aspectos esenciales, valorando el proceso de creación, el resultado final y la importancia del legado cultural como riqueza universal, utilizando la búsqueda, selección y tratamiento de información de fuentes diversas y evidenciando una actitud de apertura, interés y respeto en su recepción, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico."
+          descriptores: ["CCL1", "CCL3", "CP3", "CD1", "CD2", "CC1", "CCEC2"]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Valorar críticamente los hábitos, gustos y referentes artísticos de diferente épocas y culturas, teniendo en cuenta los de Canarias, de manera individual, grupal o colaborativa, a través de la búsquedas en fuentes diversas y la selección de los resultados, para reflexionar sobre su evolución, conservación y relación con los del presente."
+          descriptores: ["CCL2", "CCL3", "CP3", "CD1", "CPSAA3", "CCEC1"]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Participar, con iniciativa, confianza y creatividad, teniendo una actitud cooperativa y respetuosa, en la exploración de diferentes técnicas gráfico-plásticas, visuales, audiovisuales, sonoras o corporales, empleando herramientas, medios, soportes y lenguajes, para incorporarlas al repertorio personal de recursos y desarrollar el criterio de selección de las más adecuadas a cada necesidad o intención."
+          descriptores: ["CD2", "CC3", "CCEC2"]
+        - codigo: "2.2"
+          competencia: "C2"
+          enunciado: "Elaborar producciones gráfica-plásticas, participando de manera individual, grupal y colaborativa, con iniciativa, confianza, respeto y creatividad, explorando diferentes técnicas, visuales, audiovisuales, sonoras o corporales, determinando las intenciones expresivas y empleando herramientas, medios, soportes y lenguajes, para incorporarlas al repertorio personal de recursos y utilizar la que más se ajuste a su proceso y resultado final."
+          descriptores: ["CD2", "CPSAA1", "CE1", "CCEC2", "CCEC3"]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Participar, con iniciativa, confianza y creatividad, en la exploración de diferentes medios, técnicas y formatos audiovisuales, decodificando sus lenguajes, identificando las herramientas y distinguiendo sus fines, con actitud cooperativa y respetuosa, para incorporarlos al repertorio personal de recursos y optar por el más apropiado a cada necesidad o intención."
+          descriptores: ["CPSAA1", "CPSAA3", "CCEC4"]
+        - codigo: "3.2"
+          competencia: "C3"
+          enunciado: "Realizar producciones audiovisuales, individuales o colaborativas, asumiendo diferentes funciones, incorporando el uso de las tecnologías digitales con una intención expresiva y un uso ético, buscando un resultado final ajustado al proyecto preparado previamente y seleccionando y empleando, con corrección y de forma creativa y sostenible, las herramientas y medios disponibles más adecuados, para obtener una obra final conforme al objetivo inicial."
+          descriptores: ["CD2", "CD5", "CPSAA1", "CE1", "CCEC3"]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Crear un producto artístico individual o grupal, de forma colaborativa y abierta, diseñando las fases del proceso y seleccionando las técnicas y herramientas más adecuadas para conseguir un resultado adaptado a una intención y a un público determinados, usando diferentes herramientas digitales, y participando en interacciones comunicativas con actitud cooperativa y respetuosa."
+          descriptores: ["STEM3", "CD3", "CE1", "CCEC4"]
+        - codigo: "4.2"
+          competencia: "C4"
+          enunciado: "Exponer el resultado final de la creación de un producto artístico individual o grupal, poniendo en común y valorando críticamente el desarrollo de su elaboración, las dificultades encontradas, los progresos realizados y los logros alcanzados, con el fin de que se adapte el diseño y el proceso a las necesidades e indicaciones de realización y al público destinatario."
+          descriptores: ["CPSAA3", "CPSAA5", "CC3"]
+        - codigo: "4.3"
+          competencia: "C4"
+          enunciado: "Identificar oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico, comprendiendo su valor añadido y expresando la opinión personal de forma razonada, colaborativa y respetuosa, para compartirlas y valorar las oportunidades de desarrollo personal, social, académico o profesional que pueden derivarse de esta actividad."
+          descriptores: ["CCL1", "CC3"]
+  saberes_basicos:
+    - bloque: "I. Técnicas gráfico-plásticas"
+      cursos: ["4.º ESO"]
+      detalles: "Empleo del gesto y del instrumento (herramientas, medios, soportes, cualidades plásticas y efectos visuales); técnicas de dibujo y pintura (secas y húmedas); técnicas mixtas y alternativas de las vanguardias artísticas con conexión canaria; técnicas de estampación (procedimientos directos, aditivos, sustractivos y mixtos); exposición de graffiti y pintura mural; técnicas de creación de volúmenes con esculturas de artistas canarios; arte del reciclaje, productos ecológicos y arte y naturaleza (César Manrique); seguridad y gestión responsable de residuos; aplicación en distintas manifestaciones artísticas y en el ámbito del diseño."
+    - bloque: "II. Fotografía, lenguaje visual, audiovisual y multimedia"
+      cursos: ["4.º ESO"]
+      detalles: "Lenguaje visual y de la percepción (color y composición en el entorno); narrativa de la imagen fija (encuadre, planificación, puntos de vista, angulación, imagen secuenciada); fotografía analógica (cámara oscura), sin cámara (fotogramas) y técnicas experimentales (cianotipia, antotipia); fotografía digital y fotomontaje; seguridad e impacto medioambiental de los materiales; narrativa audiovisual (fotograma, secuencia, escena, toma, plano, montaje, guion y storyboard) con producciones canarias; proceso de creación, presentación y evaluación; publicidad (recursos formales, lingüísticos y persuasivos; estereotipos, sociedad de consumo, sexismo y cánones corporales); ramas del diseño (gráfico, producto, moda, interiores, escenografía) con figuras como Manolo Blahnik; técnicas básicas de animación; recursos digitales para vídeo-arte en espacios culturales y naturales canarios."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CP3", "STEM3", "CD1", "CD2", "CD3", "CD5", "CPSAA1", "CPSAA3", "CPSAA5", "CC1", "CC3", "CE1", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002, CUR-009]
+resumen_ia: "Currículo de Expresión Artística como materia optativa de 4.º ESO en Canarias, regulada por el Decreto 30/2023. Articula cuatro competencias específicas (C1-C4) y nueve criterios de evaluación organizados en dos bloques de saberes (técnicas gráfico-plásticas, y fotografía/lenguaje audiovisual y multimedia). Profundiza los aprendizajes adquiridos en Educación Plástica, Visual y Audiovisual e integra ampliamente el patrimonio canario (César Manrique, Manolo Blahnik, esculturas y producciones audiovisuales canarias)."
+observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. La materia es optativa de 4.º ESO y profundiza los aprendizajes de Educación Plástica, Visual y Audiovisual (CUR-009). Se han incorporado los cuatro enunciados oficiales de competencias específicas con sus descriptores, los nueve criterios de evaluación literales para 4.º ESO y la síntesis de los dos bloques de saberes básicos."

@@ -1,0 +1,10 @@
+id: REL-078
+tipo_relacion: "modifica"
+origen: NOR-096
+destino: NOR-097
+descripcion: "La Resolución de 25 de abril de 2025 amplía la Resolución de 21 de febrero de 2025, que dicta instrucciones para la implantación de los itinerarios de Formación Profesional Adaptada."
+evidencia:
+  fuente: FTE-103
+  localizacion: "Título y parte dispositiva de la Resolución de 25 de abril de 2025."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

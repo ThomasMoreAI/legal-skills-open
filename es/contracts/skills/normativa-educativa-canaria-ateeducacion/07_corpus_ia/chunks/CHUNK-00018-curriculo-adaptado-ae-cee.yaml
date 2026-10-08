@@ -1,0 +1,31 @@
+id: CHUNK-00018
+origen_tipo: "norma"
+origen_id: NOR-028
+titulo: "Currículo adaptado para Aulas Enclave y CEE (Canarias)"
+texto: >-
+  La Orden de 10 de febrero de 2016 establece las concreciones curriculares para el alumnado con necesidades más severas.
+  Puntos clave:
+  1. Anexos por Etapa: Define objetivos y contenidos específicos para Infantil, Primaria y Tránsito a la Vida Adulta (ESO).
+  2. Enfoque Funcional: Prioriza aprendizajes para la autonomía personal, integración social y habilidades laborales básicas.
+  3. Referente de Evaluación: Estos anexos sustituyen al currículo ordinario para la calificación y el Plan de Trabajo Individualizado (PTI).
+  4. Flexibilidad: Permite la máxima adaptación a las capacidades individuales del alumnado escolarizado en modalidades excepcionales.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil, primaria, eso]
+  temas: [nee, aulas-enclave, centros-educacion-especial]
+  estado_vigencia: "Vigente"
+  fuente: FTE-031
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2016/033/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Orden de 10 de febrero de 2016 (BOC 2016/033)."
+relaciones:
+  normas: [NOR-028]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

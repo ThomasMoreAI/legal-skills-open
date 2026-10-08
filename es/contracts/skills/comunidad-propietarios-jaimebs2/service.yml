@@ -1,0 +1,56 @@
+name: vivienda-comunidad-propietarios
+display_name: Vivienda — Comunidad de propietarios
+description: >
+  Guía completa sobre la comunidad de propietarios en España: Ley de
+  Propiedad Horizontal (LPH), juntas de propietarios (ordinarias y
+  extraordinarias, convocatoria, quórums, actas, impugnación), cuotas de
+  participación, presidente y administrador de fincas, obras necesarias
+  y de mejora, accesibilidad y ascensor, morosos (procedimiento
+  monitorio, afección real), derramas, fondo de reserva, y limitación
+  del alquiler turístico en comunidades.
+organization: Legislación española — Ley 49/1960 de Propiedad Horizontal
+tags: [vivienda, comunidad propietarios, LPH, propiedad horizontal, junta propietarios, cuotas comunidad, presidente comunidad, administrador fincas, obras, derramas, morosos, monitorio, accesibilidad, alquiler turístico]
+
+links:
+  boe_lph: https://www.boe.es/buscar/act.php?id=BOE-A-1960-10906
+
+license:
+  data: Información pública — legislación española
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos.
+    Proporciona la guía completa sobre comunidades de propietarios según
+    la LPH y redirige a skills específicas (vivienda-compraventa,
+    vivienda-alquiler, fiscalidad-impuestos-locales) para detalle en
+    cada ámbito.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Regulación de la comunidad de propietarios (LPH)
+    - Juntas (ordinaria, extraordinaria, convocatoria, quórums, actas, impugnación)
+    - Cuotas de participación y gastos comunes
+    - Órganos de la comunidad (presidente, secretario, administrador)
+    - Obras necesarias y de mejora (mayorías requeridas)
+    - Accesibilidad y obligación de instalación de ascensor
+    - Morosos (procedimiento monitorio, afección real, consecuencias)
+    - Derramas y fondo de reserva
+    - Alquiler turístico (limitación por acuerdo de comunidad)
+  not_accessible:
+    - Gestión real de comunidades (requiere administrador de fincas)
+    - Tramitación de procedimientos judiciales (monitorio, impugnación)
+    - Proceso de compraventa (usar skill vivienda-compraventa)
+    - Contratos de alquiler (usar skill vivienda-alquiler)
+    - IBI y plusvalía municipal (usar skill fiscalidad-impuestos-locales)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

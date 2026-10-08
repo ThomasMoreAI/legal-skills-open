@@ -1,0 +1,10 @@
+id: REL-018
+tipo_relacion: "relaciona"
+origen: NOR-022
+destino: NOR-020
+evidencia:
+  fuente: FTE-025
+  localizacion: "[PENDIENTE]"
+descripcion: "El Decreto de Función Directiva se relaciona con el TREBEP en lo referente a la carrera profesional y evaluación del desempeño."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

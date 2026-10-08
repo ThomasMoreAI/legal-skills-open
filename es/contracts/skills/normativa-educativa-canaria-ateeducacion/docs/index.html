@@ -1,0 +1,1398 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Normativa Educativa Canaria · Corpus para IA</title>
+    <meta name="description" content="Resumen estructurado de la normativa y currículos oficiales de Canarias optimizado como contexto para sistemas de Inteligencia Artificial.">
+    <meta property="og:title" content="Normativa Educativa Canaria">
+    <meta property="og:description" content="Resumen estructurado de la normativa y currículos oficiales de Canarias optimizado como contexto para sistemas de Inteligencia Artificial.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ateeducacion.github.io/normativa_educativa_canaria/">
+    <meta property="og:image" content="https://ateeducacion.github.io/normativa_educativa_canaria/assets/img/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Normativa Educativa Canaria para tu inteligencia artificial. Tarjeta del ATE con una captura del portal.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ateeducacion.github.io/normativa_educativa_canaria/assets/img/og-image.jpg">
+    <meta name="twitter:image:alt" content="Normativa Educativa Canaria para tu inteligencia artificial. Tarjeta del ATE con una captura del portal.">
+    <meta name="twitter:title" content="Normativa Educativa Canaria">
+    <meta name="twitter:description" content="Resumen estructurado de la normativa y currículos oficiales de Canarias optimizado como contexto para sistemas de Inteligencia Artificial.">
+
+    <!-- datos-estructurados:inicio -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/#dataset",
+  "@type": "Dataset",
+  "creator": {
+    "@type": "Organization",
+    "name": "Área de Tecnología Educativa"
+  },
+  "description": "Corpus abierto y versionado de normativa y currículos educativos de Canarias, con fuentes oficiales, relaciones y metadatos para reutilización.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/inventario.json",
+      "encodingFormat": "application/json",
+      "name": "Inventario del corpus"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/legislacion.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de legislación"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/curriculos.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de currículos"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/fuentes.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de fuentes"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml",
+      "encodingFormat": "application/yaml",
+      "name": "Índice normativo"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt",
+      "encodingFormat": "text/plain",
+      "name": "Guía para modelos de lenguaje"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-001-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-001 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-007-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-007 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-007-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-007 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-009-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-009 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-009-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-009 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-024-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-024 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-024-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-024 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-septima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional septima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-novena.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional novena"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-duodecima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional duodecima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decimotercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decimotercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decimoctava.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decimoctava"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesimaprimera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesimaprimera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesimasegunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesimasegunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-septima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final septima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-octava.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final octava"
+    }
+  ],
+  "inLanguage": "es",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Catálogo público del corpus",
+    "url": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/catalogo.jsonld"
+  },
+  "isAccessibleForFree": true,
+  "keywords": [
+    "normativa educativa",
+    "Canarias",
+    "currículo",
+    "datos jurídicos",
+    "educación"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Normativa Educativa Canaria",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Área de Tecnología Educativa"
+  },
+  "temporalCoverage": "1987-04-03/2026-10-07",
+  "url": "https://ateeducacion.github.io/normativa_educativa_canaria/"
+}
+    </script>
+    <!-- datos-estructurados:fin -->
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%230E1A2E'/%3E%3Crect x='2' y='3' width='4' height='10' rx='1' fill='%23ffffff'/%3E%3Crect x='6' y='3' width='4' height='10' rx='0' fill='%230072CE'/%3E%3Crect x='10' y='3' width='4' height='10' rx='1' fill='%23F0AB00'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <style>
+      :root {
+        --paper: #FFFFFF;
+        --paper-2: #F5F7FA;
+        --ink: #0E1A2E;
+        --ink-2: #2c3a52;
+        --ink-3: #6b7791;
+        --rule: #0E1A2E14;
+        --rule-2: #0E1A2E26;
+        --accent: #0072CE;          /* Pantone 3005 — azul institucional Canarias */
+        --accent-2: #F0AB00;        /* Pantone 7406 — amarillo bandera */
+        --code-bg: #0E1A2E;
+        --code-ink: #F2F5FA;
+      }
+
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0;
+        background: var(--paper); color: var(--ink);
+        font-family: 'Inter', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      body { font-size: 15px; line-height: 1.55; letter-spacing: -0.005em; }
+
+      a { color: inherit; }
+      ::selection { background: var(--accent); color: var(--paper); }
+
+      .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; letter-spacing: -0.01em; }
+      .serif { font-family: 'Fraunces', Georgia, serif; font-feature-settings: "ss01"; }
+
+      .visually-hidden {
+        position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+        overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+      }
+      .skip-link {
+        position: absolute; left: 1rem; top: 1rem; z-index: 1050;
+        padding: .5rem .75rem; background: #fff; border: 1px solid var(--rule-2);
+        border-radius: .5rem; color: var(--ink); text-decoration: none;
+        transform: translateY(-200%); transition: transform .15s ease;
+      }
+      .skip-link:focus { transform: translateY(0); }
+
+      /* shell */
+      .shell { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+      .topbar {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 18px 32px; border-bottom: 1px solid var(--rule);
+        position: sticky; top: 0;
+        background: color-mix(in oklab, var(--paper) 88%, transparent);
+        backdrop-filter: saturate(140%) blur(8px);
+        -webkit-backdrop-filter: saturate(140%) blur(8px);
+        z-index: 50;
+      }
+      .brand {
+        display: flex; align-items: center; gap: 10px;
+        font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-decoration: none;
+      }
+      .brand-dot {
+        width: 14px; height: 10px; border-radius: 1px;
+        background: linear-gradient(to right,
+          #ffffff 0 33.33%,
+          var(--accent) 33.33% 66.66%,
+          var(--accent-2) 66.66% 100%);
+        border: 1px solid var(--rule-2);
+      }
+      .topbar-actions { display: flex; gap: 8px; }
+
+      /* buttons */
+      .btn {
+        display: inline-flex; align-items: center; gap: 8px;
+        padding: 9px 14px; border-radius: 8px;
+        font-weight: 500; font-size: 13.5px; line-height: 1;
+        border: 1px solid var(--rule-2); background: transparent; color: var(--ink);
+        cursor: pointer; transition: all .15s ease; text-decoration: none;
+        font-family: inherit;
+      }
+      .btn:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+      .btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+      .btn.primary:hover { background: var(--accent); border-color: var(--accent); }
+      .btn.accent { background: var(--accent); color: #fff; border-color: var(--accent); }
+      .btn.accent:hover { background: var(--ink); border-color: var(--ink); }
+      .btn.ghost { border-style: dashed; }
+      .btn.sm { padding: 6px 10px; font-size: 12.5px; border-radius: 6px; }
+
+      /* hero */
+      .hero { padding: 44px 0 36px; border-bottom: 1px solid var(--rule); }
+      .hero-grid {
+        display: grid; grid-template-columns: 1fr 320px;
+        gap: 64px; align-items: start;
+      }
+      .hero h1 {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500; font-size: clamp(32px, 6.2vw, 48px); line-height: 1.02;
+        letter-spacing: -0.025em; margin: 0 0 20px;
+      }
+      .hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
+      .hero p.lead {
+        font-size: 18px; line-height: 1.5; color: var(--ink-2);
+        max-width: 56ch; margin: 0 0 28px;
+      }
+      .hero p.lead strong { color: var(--ink); font-weight: 600; }
+
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+
+      .disclaimer {
+        margin-top: 28px; padding: 14px 16px;
+        border: 1px solid var(--rule-2); border-left: 3px solid var(--accent-2);
+        background: color-mix(in oklab, var(--accent-2) 8%, var(--paper));
+        border-radius: 4px; font-size: 13.5px; color: var(--ink-2);
+        display: flex; gap: 12px; align-items: flex-start;
+      }
+      .disclaimer .ico {
+        flex: 0 0 auto; width: 22px; height: 22px;
+        display: inline-flex; align-items: center; justify-content: center;
+        margin-top: 1px;
+      }
+      .disclaimer .ico svg { display: block; width: 22px; height: 22px; }
+
+      /* QR card */
+      .qr-card {
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        padding: 20px; background: var(--paper);
+        display: flex; flex-direction: column; align-items: center; text-align: center;
+        position: relative;
+      }
+      .qr-card::before {
+        content: ""; position: absolute; inset: 6px;
+        border: 1px dashed var(--rule); border-radius: 4px; pointer-events: none;
+      }
+      .qr-card .qr-label {
+        font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+        letter-spacing: 0.08em; text-transform: uppercase;
+        color: var(--ink-3); margin-bottom: 14px;
+      }
+      .qr-card .qr-frame {
+        background: #fff; padding: 14px; border-radius: 4px;
+        border: 1px solid var(--rule-2);
+      }
+      .qr-card .qr-frame > div { display: flex; align-items: center; justify-content: center; }
+      .qr-card canvas, .qr-card img { display: block; width: 200px !important; height: 200px !important; }
+      .qr-card .qr-url {
+        font-family: 'JetBrains Mono', monospace; font-size: 10.5px;
+        color: var(--ink-2); margin-top: 14px;
+        word-break: break-all; line-height: 1.4;
+      }
+
+      /* section frame */
+      .section { padding: 52px 0; border-bottom: 1px solid var(--rule); }
+      .section-head {
+        display: flex; align-items: baseline; gap: 18px; margin-bottom: 36px;
+        flex-wrap: wrap;
+      }
+      .section-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px; color: var(--ink-3); letter-spacing: 0.06em;
+      }
+      .section-title {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500; font-size: clamp(26px, 4.4vw, 36px); line-height: 1.05;
+        letter-spacing: -0.02em; margin: 0;
+      }
+      .section-title .dot { color: var(--accent); }
+      .section-sub {
+        font-size: 14.5px; color: var(--ink-3);
+        margin-left: auto; max-width: 34ch; text-align: right;
+      }
+
+      /* pregunta del usuario */
+      .ask label {
+        display: block;
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        letter-spacing: 0.06em; text-transform: uppercase;
+        color: var(--ink-3); margin-bottom: 8px;
+      }
+      .ask textarea {
+        width: 100%; font-family: inherit; font-size: 16px; line-height: 1.5;
+        color: var(--ink); padding: 14px 16px;
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        resize: vertical; background: var(--paper);
+        /* mejora progresiva: crece con el texto donde field-sizing esté soportado */
+        field-sizing: content;
+        min-block-size: 2lh; max-block-size: 8lh;
+      }
+      .ask textarea:focus-visible {
+        outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent);
+      }
+
+      /* terminal */
+      .terminal {
+        background: var(--code-bg); color: var(--code-ink);
+        border-radius: 8px; overflow: hidden;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12.5px; line-height: 1.6;
+        border: 1px solid var(--rule-2);
+      }
+      .terminal-head {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 10px 14px; border-bottom: 1px solid #ffffff14; background: #091628;
+        font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+        color: #ffffff80;
+      }
+      .terminal-dots { display: flex; gap: 6px; }
+      .terminal-dots span {
+        width: 9px; height: 9px; border-radius: 50%; background: #ffffff20;
+      }
+      /* puntos del terminal — colores de la bandera de Canarias (blanco · azul · amarillo) */
+      .terminal-dots span:first-child  { background: #FFFFFF; }
+      .terminal-dots span:nth-child(2) { background: var(--accent); }
+      .terminal-dots span:nth-child(3) { background: var(--accent-2); }
+      .terminal-body {
+        padding: 16px 18px; white-space: pre-wrap; word-break: break-word;
+        max-height: 220px; overflow: auto; margin: 0;
+        font-family: 'JetBrains Mono', monospace; color: var(--code-ink);
+      }
+      .terminal-body::-webkit-scrollbar { width: 8px; height: 8px; }
+      .terminal-body::-webkit-scrollbar-thumb { background: #ffffff22; border-radius: 4px; }
+      .terminal-foot {
+        display: flex; justify-content: space-between; align-items: center;
+        flex-wrap: wrap; gap: 10px;
+        padding: 8px 14px; border-top: 1px solid #ffffff14; background: #091628;
+        /* #ffffff8c sobre #091628 ≈ 6:1 — el #ffffff66 del diseño se queda en 3.8:1 */
+        font-size: 11px; color: #ffffff8c;
+      }
+      .terminal-copy {
+        background: var(--accent); color: #fff; border: 1px solid var(--accent);
+        padding: 6px 12px; border-radius: 6px;
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+        display: inline-flex; align-items: center; gap: 7px;
+        transition: all .15s ease;
+      }
+      .terminal-copy:hover { background: #0060ad; border-color: #0060ad; }
+      .terminal-copy svg { width: 14px; height: 14px; display: block; }
+      .terminal-copy.copied {
+        background: var(--accent-2); border-color: var(--accent-2); color: var(--ink);
+      }
+      /* el token de la pregunta dentro del prompt se resalta en amarillo */
+      #prompt-question { color: var(--accent-2); }
+
+      /* AI launchers */
+      .ai-row {
+        display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+        padding-top: 14px; border-top: 1px dashed var(--rule-2);
+      }
+      .ai-row .ai-label {
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        letter-spacing: 0.06em; text-transform: uppercase;
+        color: var(--ink-3); margin-right: 4px;
+      }
+      .ai-btn {
+        display: inline-flex; align-items: center; gap: 7px;
+        padding: 7px 11px; border-radius: 6px;
+        border: 1px solid var(--rule-2); background: var(--paper);
+        color: var(--ink); text-decoration: none;
+        font-size: 12.5px; font-weight: 500;
+        cursor: pointer; transition: all .15s ease;
+        font-family: inherit;
+      }
+      .ai-btn:hover {
+        background: var(--ink); color: var(--paper);
+        border-color: var(--ink); transform: translateY(-1px);
+      }
+      .ai-btn .glyph {
+        width: 18px; height: 18px;
+        display: inline-flex; align-items: center; justify-content: center;
+        border-radius: 4px; color: #fff; flex: 0 0 auto;
+      }
+      .ai-btn .glyph svg { width: 12px; height: 12px; fill: currentColor; display: block; }
+
+      /* aviso para las IA que no admiten el prompt en la URL */
+      .manual-dialog {
+        width: min(420px, calc(100vw - 40px));
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        background: var(--paper); color: var(--ink);
+        box-shadow: 0 24px 80px rgba(14, 26, 46, .22);
+        padding: 22px;
+      }
+      .manual-dialog::backdrop { background: rgba(14, 26, 46, .52); }
+      .manual-dialog h3 {
+        margin: 0 0 8px;
+        font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+        font-size: 20px; line-height: 1.2; letter-spacing: -0.015em;
+      }
+      .manual-dialog p {
+        margin: 0; color: var(--ink-2); line-height: 1.55; font-size: 14px;
+      }
+      .manual-dialog form {
+        display: flex; justify-content: flex-end; gap: 10px; margin: 18px 0 0;
+      }
+
+      /* full-width prompt + skill blocks */
+      .prompt-block, .skill-block {
+        display: flex; flex-direction: column; gap: 18px;
+      }
+      .terminal.wide { width: 100%; }
+      .terminal.wide .terminal-body { max-height: 320px; font-size: 13px; }
+      .skill-intro {
+        font-size: 15px; color: var(--ink-2); line-height: 1.6;
+        max-width: 70ch; margin: 0;
+      }
+      .skill-intro strong { color: var(--ink); font-weight: 600; }
+      .skill-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 4px 0; }
+
+      /* examples */
+      .examples-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .example {
+        display: flex; align-items: center; justify-content: space-between; gap: 16px;
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        padding: 16px 18px; background: var(--paper);
+        transition: all .15s ease; cursor: pointer;
+        text-align: left; font-family: inherit; color: inherit;
+      }
+      .example:hover { border-color: var(--ink); transform: translateY(-1px); }
+      .example .num {
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        color: var(--ink-3); flex: 0 0 auto;
+      }
+      .example .q {
+        font-family: 'Fraunces', Georgia, serif; font-style: italic;
+        font-size: 15px; line-height: 1.4; color: var(--ink); flex: 1;
+      }
+      .example .use-icon {
+        color: var(--ink-3); flex: 0 0 auto;
+        display: inline-flex; align-items: center; gap: 6px;
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+      }
+      .example.used { border-color: var(--accent-2); }
+      .example.used .use-icon { color: var(--accent-2); }
+
+      .examples-foot {
+        display: flex; justify-content: space-between; align-items: center;
+        margin-top: 24px; font-size: 13px; color: var(--ink-3);
+        flex-wrap: wrap; gap: 12px;
+      }
+
+      /* footer */
+      footer { padding: 48px 0 64px; }
+      .foot-grid {
+        display: grid; grid-template-columns: 2fr 1fr 1fr;
+        gap: 32px; margin-bottom: 32px;
+      }
+      .foot-col h4 {
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        letter-spacing: 0.08em; text-transform: uppercase;
+        color: var(--ink-3); margin: 0 0 12px; font-weight: 500;
+      }
+      .foot-col p {
+        margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2);
+        line-height: 1.55; max-width: 42ch;
+      }
+      .foot-col a {
+        display: block; color: var(--ink); text-decoration: none;
+        font-size: 13.5px; padding: 3px 0;
+      }
+      .foot-col a:hover { color: var(--accent); }
+      .foot-col span.muted { display: block; color: var(--ink-3); font-size: 13.5px; padding: 3px 0; }
+      .foot-bottom {
+        padding-top: 24px; border-top: 1px solid var(--rule);
+        display: flex; justify-content: space-between; align-items: center;
+        font-size: 12.5px; color: var(--ink-3);
+        flex-wrap: wrap; gap: 16px;
+      }
+      .foot-bottom .heart { font-style: normal; }
+
+      /* toast */
+      .toast {
+        position: fixed; bottom: 24px; left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: var(--ink); color: var(--paper);
+        padding: 10px 18px; border-radius: 8px;
+        font-size: 13px; opacity: 0;
+        transition: all .25s ease; pointer-events: none;
+        z-index: 200; font-family: 'JetBrains Mono', monospace;
+      }
+      .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+      /* foco visible — DESIGN.md §9 */
+      a:focus-visible, button:focus-visible {
+        outline: 2px solid var(--accent); outline-offset: 2px;
+      }
+
+      /* responsive */
+      @media (max-width: 880px) {
+        .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+        .qr-card { display: none; }
+        .examples-grid { grid-template-columns: 1fr; }
+        .foot-grid { grid-template-columns: 1fr; }
+        .section-sub { display: none; }
+        .shell, .topbar { padding-left: 20px; padding-right: 20px; }
+        .topbar { flex-wrap: wrap; gap: 12px; }
+      }
+
+      /* objetivos táctiles de 44px en punteros gruesos — DESIGN.md §8 */
+      @media (pointer: coarse) {
+        .btn, .ai-btn, .terminal-copy, .example { min-height: 44px; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+          transition-duration: .01ms !important; scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Normativa Educativa Canaria</span>
+      </a>
+      <div class="topbar-actions">
+        <a class="btn sm" href="https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md" target="_blank" rel="noopener">SKILL.md</a>
+        <a class="btn sm" href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" target="_blank" rel="noopener">llms.txt</a>
+        <a class="btn sm primary" href="https://github.com/ateeducacion/normativa_educativa_canaria" target="_blank" rel="noopener">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.96 10.96 0 015.74 0c2.19-1.48 3.15-1.17 3.15-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.05.78 2.12v3.14c0 .3.21.66.79.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="shell">
+          <div class="hero-grid">
+            <div>
+              <h1>Normativa educativa <em>canaria</em> para tu IA.</h1>
+              <p class="lead">
+                Resumen estructurado de la normativa y los currículos oficiales, de Infantil, Primaria,
+                Secundaria, Bachillerato y FP, preparado para usarse como
+                <strong>contexto en cualquier asistente de inteligencia artificial</strong>.
+              </p>
+              <div class="hero-actions">
+                <a class="btn primary" href="#opciones">¿Cómo usarlo?</a>
+                <a class="btn ghost" href="#skill-experto">
+                  ↓ Instalar skill experto
+                </a>
+              </div>
+
+              <div class="disclaimer" role="note">
+                <span class="ico" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#F0AB00">
+                    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Aviso.</strong> Este resumen no reemplaza la consulta obligatoria de las fuentes
+                  oficiales en el <span class="mono">BOE</span> y el <span class="mono">BOC</span>.
+                </span>
+              </div>
+            </div>
+
+            <aside class="qr-card" aria-label="Código QR para compartir el sitio">
+              <div class="qr-label">↗ Compartir / escanear</div>
+              <div class="qr-frame">
+                <div id="qr-holder"></div>
+              </div>
+              <div class="qr-url">ateeducacion.github.io/<br>normativa_educativa_canaria</div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- §01 — Prompt directo (full width, simple) -->
+      <section class="section" id="opciones">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 01</span>
+            <h2 class="section-title">Escribe tu pregunta y pégala en tu IA<span class="dot">.</span></h2>
+            <p class="section-sub">Lo más rápido. Funciona en cualquier asistente sin instalar nada.</p>
+          </div>
+
+          <div class="prompt-block">
+            <div class="ask">
+              <label for="pregunta">Tu pregunta</label>
+              <textarea id="pregunta" rows="2"
+                placeholder="Ej.: ¿Qué competencias específicas tiene Matemáticas en 3.º de Primaria?"></textarea>
+            </div>
+
+            <div class="terminal wide">
+              <div class="terminal-head">
+                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                <div>prompt.txt</div>
+              </div>
+<pre class="terminal-body" id="prompt-body">Usa este índice como mapa de la normativa educativa de Canarias:
+https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt
+
+Mi pregunta es: <span id="prompt-question">[ESCRIBE AQUÍ TU DUDA]</span></pre>
+              <div class="terminal-foot">
+                <span>Se actualiza con lo que escribas arriba.</span>
+                <button class="terminal-copy" type="button" id="copy-prompt" aria-label="Copiar prompt al portapapeles">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span id="copy-prompt-label">Copiar prompt</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="ai-row">
+                <span class="ai-label">→ abrir en</span>
+                <button class="ai-btn" type="button" data-ai="claude" data-launch="https://claude.ai/new?q=" data-name="Claude">
+                  <span class="glyph" style="background:#D97757" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z"/></svg>
+                  </span>Claude
+                </button>
+                <button class="ai-btn" type="button" data-ai="chatgpt" data-launch="https://chat.openai.com/?q=" data-name="ChatGPT">
+                  <span class="glyph" style="background:#10A37F" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg>
+                  </span>ChatGPT
+                </button>
+                <!-- Gemini no admite todavia un parametro directo de prompt; se abre mediante Google Search AI Mode. -->
+                <button class="ai-btn" type="button" data-ai="gemini" data-launch="https://www.google.com/search?udm=50&amp;aep=11&amp;q=" data-name="Gemini">
+                  <span class="glyph" style="background:#4285F4" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81"/></svg>
+                  </span>Gemini
+                </button>
+                <button class="ai-btn" type="button" data-ai="grok" data-launch="https://grok.com/?q=" data-name="Grok">
+                  <span class="glyph" style="background:#161513" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M3 3h4.2l4.9 6.7L17.8 3H21l-7.4 8.7L21 21h-4.2l-5.2-7.1L5.6 21H2.4l7.8-9.2z"/></svg>
+                  </span>Grok
+                </button>
+                <button class="ai-btn" type="button" data-ai="perplexity" data-launch="https://www.perplexity.ai/?q=" data-name="Perplexity">
+                  <span class="glyph" style="background:#20808D" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M22.3977 7.0896h-2.3106V.0676l-7.5094 6.3542V.1577h-1.1554v6.1966L4.4904 0v7.0896H1.6023v10.3976h2.8882V24l6.932-6.3591v6.2005h1.1554v-6.0469l6.9318 6.1807v-6.4879h2.8882V7.0896zm-3.4657-4.531v4.531h-5.355l5.355-4.531zm-13.2862.0676 4.8691 4.4634H5.6458V2.6262zM2.7576 16.332V8.245h7.8476l-6.1149 6.1147v1.9723H2.7576zm2.8882 5.0404v-3.8852h.0001v-2.6488l5.7763-5.7764v7.0111l-5.7764 5.2993zm12.7086.0248-5.7766-5.1509V9.0618l5.7766 5.7766v6.5588zm2.8882-5.0652h-1.733v-1.9723L13.3948 8.245h7.8478v8.087z"/></svg>
+                  </span>Perplexity
+                </button>
+                <button class="ai-btn" type="button" data-ai="mistral" data-launch="https://chat.mistral.ai/chat?q=" data-name="Mistral">
+                  <span class="glyph" style="background:#FA520F" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M17.143 3.429v3.428h-3.429v3.429h-3.428V6.857H6.857V3.43H3.43v13.714H0v3.428h10.286v-3.428H6.857v-3.429h3.429v3.429h3.429v-3.429h3.428v3.429h-3.428v3.428H24v-3.428h-3.43V3.429z"/></svg>
+                  </span>Mistral
+                </button>
+                <!-- TODO: Cambiar Copilot a data-launch cuando soporte parametro directo de prompt en URL. -->
+                <button class="ai-btn" type="button" data-ai="copilot" data-manual-launch="https://copilot.microsoft.com/" data-name="Copilot">
+                  <span class="glyph" style="background:#0078D4" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M23.922 16.997C23.061 18.492 18.063 22.02 12 22.02 5.937 22.02.939 18.492.078 16.997A.641.641 0 0 1 0 16.741v-2.869a.883.883 0 0 1 .053-.22c.372-.935 1.347-2.292 2.605-2.656.167-.429.414-1.055.644-1.517a10.098 10.098 0 0 1-.052-1.086c0-1.331.282-2.499 1.132-3.368.397-.406.89-.717 1.474-.952C7.255 2.937 9.248 1.98 11.978 1.98c2.731 0 4.767.957 6.166 2.093.584.235 1.077.546 1.474.952.85.869 1.132 2.037 1.132 3.368 0 .368-.014.733-.052 1.086.23.462.477 1.088.644 1.517 1.258.364 2.233 1.721 2.605 2.656a.841.841 0 0 1 .053.22v2.869a.641.641 0 0 1-.078.256Zm-11.75-5.992h-.344a4.359 4.359 0 0 1-.355.508c-.77.947-1.918 1.492-3.508 1.492-1.725 0-2.989-.359-3.782-1.259a2.137 2.137 0 0 1-.085-.104L4 11.746v6.585c1.435.779 4.514 2.179 8 2.179 3.486 0 6.565-1.4 8-2.179v-6.585l-.098-.104s-.033.045-.085.104c-.793.9-2.057 1.259-3.782 1.259-1.59 0-2.738-.545-3.508-1.492a4.359 4.359 0 0 1-.355-.508Zm2.328 3.25c.549 0 1 .451 1 1v2c0 .549-.451 1-1 1-.549 0-1-.451-1-1v-2c0-.549.451-1 1-1Zm-5 0c.549 0 1 .451 1 1v2c0 .549-.451 1-1 1-.549 0-1-.451-1-1v-2c0-.549.451-1 1-1Zm3.313-6.185c.136 1.057.403 1.913.878 2.497.442.544 1.134.938 2.344.938 1.573 0 2.292-.337 2.657-.751.384-.435.558-1.15.558-2.361 0-1.14-.243-1.847-.705-2.319-.477-.488-1.319-.862-2.824-1.025-1.487-.161-2.192.138-2.533.529-.269.307-.437.808-.438 1.578v.021c0 .265.021.562.063.893Zm-1.626 0c.042-.331.063-.628.063-.894v-.02c-.001-.77-.169-1.271-.438-1.578-.341-.391-1.046-.69-2.533-.529-1.505.163-2.347.537-2.824 1.025-.462.472-.705 1.179-.705 2.319 0 1.211.175 1.926.558 2.361.365.414 1.084.751 2.657.751 1.21 0 1.902-.394 2.344-.938.475-.584.742-1.44.878-2.497Z"/></svg>
+                  </span>Copilot
+                </button>
+                <button class="ai-btn" type="button" data-ai="qwen" data-launch="https://chat.qwen.ai/?text=" data-name="Qwen">
+                  <span class="glyph" style="background:#615CED" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M23.919 14.545 20.817 9.17l1.47-2.544a.56.56 0 0 0 0-.566l-1.633-2.83a.57.57 0 0 0-.49-.283h-6.207L12.487.402a.57.57 0 0 0-.49-.284H8.732a.56.56 0 0 0-.49.284L5.139 5.775h-2.94a.56.56 0 0 0-.49.284L.077 8.887a.56.56 0 0 0 0 .567L3.18 14.83l-1.47 2.545a.56.56 0 0 0 0 .566l1.634 2.83a.57.57 0 0 0 .49.283h6.205l1.47 2.545a.57.57 0 0 0 .49.284h3.266a.57.57 0 0 0 .49-.284l3.104-5.375h2.94a.57.57 0 0 0 .49-.283l1.634-2.828a.55.55 0 0 0-.004-.568M8.733.686l1.634 2.828-1.634 2.828H21.8L20.164 9.17H7.425L5.63 6.06Zm1.306 19.801-6.205-.002 1.634-2.83h3.265L2.201 6.344h3.267q3.182 5.517 6.367 11.032zm10.124-5.66L18.53 12l-6.532 11.315-1.634-2.83c2.129-3.673 4.25-7.351 6.373-11.028h3.592l3.102 5.374z"/></svg>
+                  </span>Qwen
+                </button>
+                <button class="ai-btn" type="button" data-ai="deepseek" data-launch="https://chat.deepseek.com/?q=" data-name="DeepSeek">
+                  <span class="glyph" style="background:#4D6BFE" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M23.748 4.651c-.254-.124-.364.113-.512.233-.051.04-.094.09-.137.137-.372.397-.806.657-1.373.626-.829-.046-1.537.214-2.163.848-.133-.782-.575-1.248-1.247-1.548-.352-.155-.708-.311-.955-.65-.172-.24-.219-.509-.305-.774-.055-.16-.11-.323-.293-.35-.2-.031-.278.136-.356.276-.313.572-.434 1.202-.422 1.84.027 1.436.633 2.58 1.838 3.393.137.094.172.187.129.323-.082.28-.18.553-.266.833-.055.179-.137.218-.328.14a5.5 5.5 0 0 1-1.737-1.179c-.857-.828-1.631-1.743-2.597-2.46a12 12 0 0 0-.689-.47c-.985-.957.13-1.743.387-1.836.27-.098.094-.433-.778-.428-.872.003-1.67.295-2.687.685a3 3 0 0 1-.465.136 9.6 9.6 0 0 0-2.883-.101c-1.885.21-3.39 1.1-4.497 2.622C.082 8.776-.231 10.854.152 13.02c.403 2.284 1.568 4.175 3.36 5.653 1.857 1.533 3.997 2.284 6.438 2.14 1.482-.085 3.132-.284 4.994-1.86.47.234.962.328 1.78.398.629.058 1.235-.031 1.705-.129.735-.155.684-.836.418-.961-2.155-1.004-1.682-.595-2.112-.926 1.095-1.295 2.768-3.598 3.284-6.733.05-.346.115-.834.108-1.114-.004-.171.035-.238.23-.257a4.2 4.2 0 0 0 1.545-.475c1.397-.763 1.96-2.016 2.093-3.517.02-.23-.004-.467-.247-.588M11.58 18.168c-2.088-1.642-3.101-2.183-3.52-2.16-.39.024-.32.472-.234.763.09.288.207.487.371.74.114.167.192.416-.113.603-.673.416-1.842-.14-1.897-.168-1.361-.801-2.5-1.86-3.301-3.306-.775-1.393-1.225-2.888-1.299-4.482-.02-.385.094-.522.477-.592a4.7 4.7 0 0 1 1.53-.038c2.131.311 3.946 1.264 5.467 2.774.868.86 1.525 1.887 2.202 2.89.72 1.066 1.494 2.082 2.48 2.915.348.291.626.513.892.677-.802.09-2.14.109-3.055-.615zm1.001-6.44a.306.306 0 0 1 .415-.287.3.3 0 0 1 .113.074.3.3 0 0 1 .086.214c0 .17-.136.307-.308.307a.303.303 0 0 1-.306-.307m3.11 1.596c-.2.081-.4.151-.591.16a1.25 1.25 0 0 1-.798-.254c-.274-.23-.47-.358-.551-.758a1.7 1.7 0 0 1 .015-.588c.07-.327-.007-.537-.238-.727-.188-.156-.426-.199-.689-.199a.6.6 0 0 1-.254-.078.253.253 0 0 1-.114-.358a1 1 0 0 1 .192-.21c.356-.202.767-.136 1.146.016.352.144.618.408 1.001.782.392.451.462.576.685.915.176.264.336.536.446.848.066.194-.02.353-.25.45"/></svg>
+                  </span>DeepSeek
+                </button>
+                <!-- Kimi descarta los parametros de la URL (?q= y ?prompt= se ignoran), asi que va con aviso. -->
+                <button class="ai-btn" type="button" data-ai="kimi" data-manual-launch="https://www.kimi.com/" data-name="Kimi">
+                  <span class="glyph" style="background:#1783FF" aria-hidden="true">
+                    <svg viewBox="0 0 24 25"><path d="M21.7202 0.939941C22.9502 0.939941 23.9502 1.93994 23.9502 3.16994C23.9502 4.39994 22.9502 5.39994 21.7202 5.39994H19.7502C19.6002 5.39994 19.4902 5.27994 19.4902 5.13994V3.16994C19.4902 1.93994 20.4902 0.939941 21.7202 0.939941Z"/><path d="M9.39 13.9501L17.82 5.59012C17.98 5.43012 17.89 5.12012 17.68 5.12012H13.14C13.14 5.12012 13.04 5.14012 13 5.18012L3.92 14.1901C3.78 14.3301 3.57 14.2101 3.57 13.9801V5.39012C3.57 5.24012 3.47 5.12012 3.35 5.12012H0.219999C0.0999993 5.12012 0 5.24012 0 5.39012V23.9201C0 24.0701 0.0999993 24.1901 0.219999 24.1901H3.35C3.47 24.1901 3.57 24.0701 3.57 23.9201V20.1401C3.57 20.0601 3.6 19.9801 3.65 19.9301L6.47 17.1401C6.54 17.0701 6.63 17.0601 6.71 17.1101L14.24 22.6501C15.47 23.4801 16.85 23.9901 18.25 24.1401C18.37 24.1501 18.48 24.0301 18.48 23.8701V20.3101C18.48 20.1701 18.4 20.0601 18.29 20.0501C17.47 19.9201 16.66 19.6001 15.94 19.1101L9.42 14.3901C9.28 14.3001 9.27 14.0701 9.39 13.9501Z"/></svg>
+                  </span>Kimi
+                </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- §02 — Examples -->
+      <section class="section">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 02</span>
+            <h2 class="section-title">Preguntas de ejemplo<span class="dot">.</span></h2>
+            <p class="section-sub">Toca cualquiera para usarla como tu pregunta.</p>
+          </div>
+
+          <!-- La lista inicial se sirve en HTML para que funcione sin JavaScript;
+               el botón «Ver otros ejemplos» la reescribe con la API del DOM. -->
+          <div class="examples-grid" id="examples-list">
+            <button type="button" class="example" data-q="Dime las competencias específicas de Matemáticas en 3.º de Primaria.">
+              <span class="num">01</span>
+              <span class="q">Dime las competencias específicas de Matemáticas en 3.º de Primaria.</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Qué dice la LOMLOE sobre la promoción en Primaria?">
+              <span class="num">02</span>
+              <span class="q">¿Qué dice la LOMLOE sobre la promoción en Primaria?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Cómo se evalúa al alumnado en las Aulas Enclave?">
+              <span class="num">03</span>
+              <span class="q">¿Cómo se evalúa al alumnado en las Aulas Enclave?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?">
+              <span class="num">04</span>
+              <span class="q">¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Está vigente el Decreto de convivencia 114/2011?">
+              <span class="num">05</span>
+              <span class="q">¿Está vigente el Decreto de convivencia 114/2011?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="Extrae el currículo de Literatura Canaria en Bachillerato.">
+              <span class="num">06</span>
+              <span class="q">Extrae el currículo de Literatura Canaria en Bachillerato.</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+          </div>
+
+          <div class="examples-foot">
+            <span>Ideas rápidas para probar el corpus con una IA.</span>
+            <button class="btn sm" id="toggle-examples" type="button">↻ Ver otros ejemplos</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- §03 — Skill experto (técnico, uso recurrente) -->
+      <section class="section" id="skill-experto">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 03</span>
+            <h2 class="section-title">¿Vas a usarlo a menudo? Instala el skill experto<span class="dot">.</span></h2>
+          </div>
+
+          <div class="skill-block">
+            <p class="skill-intro">
+              El <strong>skill experto</strong> enseña a la IA a citar siempre la norma exacta y a distinguir el
+              texto literal de la interpretación, sin tener que pegar el prompt en cada conversación. Copia el
+              skill en tu asistente de IA:
+            </p>
+
+            <div class="skill-actions">
+              <a class="btn primary" href="https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md" target="_blank" rel="noopener">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                Ver SKILL.md
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell">
+        <div class="foot-grid">
+          <div class="foot-col">
+            <h4>Sobre el proyecto</h4>
+            <p>
+              Resumen estructurado y mantenido en abierto. No sustituye las fuentes oficiales —
+              consulta siempre el <span class="mono">BOE</span> y el <span class="mono">BOC</span>.
+            </p>
+          </div>
+          <div class="foot-col">
+            <h4>Recursos</h4>
+            <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" target="_blank" rel="noopener">llms.txt ↗</a>
+            <a href="https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md" target="_blank" rel="noopener">SKILL.md ↗</a>
+            <a href="https://github.com/ateeducacion/normativa_educativa_canaria" target="_blank" rel="noopener">Repositorio ↗</a>
+          </div>
+          <div class="foot-col">
+            <h4>Atribución</h4>
+            <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener">Área de Tecnología Educativa</a>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>Hecho con <span class="heart" role="img" aria-label="amor">❤️</span> por <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener">Área de Tecnología Educativa</a></span>
+          <span class="mono" id="foot-meta">v.2026 · CC0 1.0</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <dialog class="manual-dialog" id="manual-ai-dialog" closedby="any" aria-labelledby="manual-ai-title">
+      <h3 id="manual-ai-title">Pegar el prompt a mano</h3>
+      <p id="manual-ai-text"></p>
+      <form method="dialog">
+        <button class="btn" type="submit">Cancelar</button>
+        <button class="btn primary" type="button" id="manual-ai-open" autofocus>Abrir IA</button>
+      </form>
+    </dialog>
+
+    <script>
+      (function () {
+        var SITE_URL = "https://ateeducacion.github.io/normativa_educativa_canaria/";
+        var API_COMMITS = "https://api.github.com/repos/ateeducacion/normativa_educativa_canaria/commits?per_page=1";
+        var PLACEHOLDER = "[ESCRIBE AQUÍ TU DUDA]";
+
+        // La lista inicial de ejemplos se sirve en el HTML; aquí solo la alternativa.
+        var EXAMPLES_ALT = [
+          "¿Qué documentos forman el Proyecto Educativo de Centro?",
+          "Resume las funciones del tutor según la normativa canaria.",
+          "¿Cómo se acredita un FCT en FP de Grado Medio?",
+          "¿Qué establece el Decreto 25/2018 sobre atención a la diversidad?",
+          "Criterios de evaluación de Lengua en 6.º de Primaria.",
+          "Diferencias entre PMAR y diversificación curricular en Canarias."
+        ];
+
+        // ── helpers ──────────────────────────────────────
+        function copyToClipboard(text) {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text).catch(fallback);
+          }
+          return new Promise(function (resolve) { fallback(); resolve(); });
+          function fallback() {
+            var ta = document.createElement('textarea');
+            ta.value = text; ta.setAttribute('readonly', '');
+            ta.style.position = 'absolute'; ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); } catch (e) { /* noop */ }
+            document.body.removeChild(ta);
+          }
+        }
+
+        var toastEl = document.getElementById('toast');
+        var toastTimer = null;
+        function showToast(msg) {
+          if (!toastEl) return;
+          toastEl.textContent = msg;
+          toastEl.classList.add('show');
+          clearTimeout(toastTimer);
+          toastTimer = setTimeout(function () { toastEl.classList.remove('show'); }, 1800);
+        }
+
+        // ── QR generation ────────────────────────────────
+        function renderQR() {
+          var holder = document.getElementById('qr-holder');
+          if (!holder || typeof window.QRCode !== 'function') return;
+          holder.innerHTML = '';
+          new window.QRCode(holder, {
+            text: SITE_URL,
+            width: 200,
+            height: 200,
+            colorDark: "#0E1A2E",
+            colorLight: "#ffffff",
+            correctLevel: window.QRCode.CorrectLevel.M
+          });
+        }
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+          renderQR();
+        } else {
+          document.addEventListener('DOMContentLoaded', renderQR);
+        }
+
+        // ── pregunta del usuario ↔ prompt en vivo ────────
+        var askEl = document.getElementById('pregunta');
+        var questionEl = document.getElementById('prompt-question');
+        var promptEl = document.getElementById('prompt-body');
+
+        // El <pre> contiene el prompt completo, así que su textContent es
+        // exactamente lo que hay que copiar o enviar a la IA.
+        function currentPrompt() {
+          return promptEl ? (promptEl.textContent || '') : '';
+        }
+
+        function syncPrompt() {
+          if (!askEl || !questionEl) return;
+          questionEl.textContent = askEl.value.trim() || PLACEHOLDER;
+        }
+
+        if (askEl) {
+          askEl.addEventListener('input', syncPrompt);
+          syncPrompt(); // el navegador puede restaurar el valor tras recargar
+        }
+
+        // ── copiar prompt ────────────────────────────────
+        var copyBtn = document.getElementById('copy-prompt');
+        var copyLabel = document.getElementById('copy-prompt-label');
+        var copyTimer = null;
+        if (copyBtn && copyLabel) {
+          copyBtn.addEventListener('click', function () {
+            copyToClipboard(currentPrompt());
+            copyBtn.classList.add('copied');
+            copyLabel.textContent = 'Copiado';
+            showToast('Prompt copiado');
+            clearTimeout(copyTimer);
+            copyTimer = setTimeout(function () {
+              copyBtn.classList.remove('copied');
+              copyLabel.textContent = 'Copiar prompt';
+            }, 1400);
+          });
+        }
+
+
+        // ── lanzadores de IA ─────────────────────────────
+        // Se copia siempre el prompt al portapapeles Y se abre el chat con el
+        // prompt codificado en la URL. Algunas plataformas ignoran el parámetro
+        // en silencio: el portapapeles es la red de seguridad para pegarlo.
+        // La ventana se abre de forma síncrona dentro del gesto del usuario
+        // para que el bloqueador de ventanas emergentes no la cancele.
+        document.querySelectorAll('.ai-btn[data-launch]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var promptText = currentPrompt();
+            var name = btn.getAttribute('data-name') || 'IA';
+            copyToClipboard(promptText);
+            window.open(btn.getAttribute('data-launch') + encodeURIComponent(promptText), '_blank', 'noopener');
+            showToast('Abriendo ' + name + ' · prompt copiado');
+          });
+        });
+
+        // Plataformas sin parámetro de prompt en la URL (hoy Copilot y Kimi).
+        // Aquí no vale un toast: como el prompt no viaja en la URL, hay que
+        // avisar de que toca pegarlo a mano y que se lea antes de abrir la
+        // pestaña. showModal() aporta atrapamiento de foco y cierre con Escape.
+        var manualDialog = document.getElementById('manual-ai-dialog');
+        var manualText = document.getElementById('manual-ai-text');
+        var manualOpen = document.getElementById('manual-ai-open');
+        var pendingUrl = '';
+        var pendingName = '';
+
+        if (manualDialog && manualText && manualOpen) {
+          manualDialog.addEventListener('close', function () {
+            pendingUrl = '';
+            pendingName = '';
+          });
+
+          manualOpen.addEventListener('click', function () {
+            // window.open dentro del propio clic, no en el evento 'close', para
+            // conservar el gesto del usuario frente al bloqueador de emergentes.
+            if (pendingUrl) {
+              window.open(pendingUrl, '_blank', 'noopener');
+              showToast('Abriendo ' + pendingName + ' · prompt copiado');
+            }
+            manualDialog.close();
+          });
+
+          // Safari aún no admite closedby: cierre manual al pulsar en el fondo.
+          if (!('closedBy' in HTMLDialogElement.prototype)) {
+            manualDialog.addEventListener('click', function (e) {
+              if (e.target !== manualDialog) return;
+              var r = manualDialog.getBoundingClientRect();
+              var dentro = e.clientX >= r.left && e.clientX <= r.right &&
+                           e.clientY >= r.top && e.clientY <= r.bottom;
+              if (!dentro) manualDialog.close();
+            });
+          }
+
+          document.querySelectorAll('.ai-btn[data-manual-launch]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+              pendingName = btn.getAttribute('data-name') || 'IA';
+              pendingUrl = btn.getAttribute('data-manual-launch');
+              copyToClipboard(currentPrompt());
+              manualText.textContent = pendingName + ' no permite pasar el prompt por la URL. ' +
+                'Ya lo hemos copiado al portapapeles: abre ' + pendingName + ' y pégalo en el chat.';
+              manualOpen.textContent = 'Abrir ' + pendingName;
+              manualDialog.showModal();
+            });
+          });
+        }
+
+        // ── ejemplos ─────────────────────────────────────
+        var listEl = document.getElementById('examples-list');
+        var toggleBtn = document.getElementById('toggle-examples');
+        var altShown = false;
+        var usedTimer = null;
+
+        // La lista inicial está en el HTML: la leemos para poder restaurarla.
+        var EXAMPLES = listEl
+          ? Array.prototype.map.call(listEl.querySelectorAll('.example'), function (b) {
+              return b.getAttribute('data-q') || '';
+            })
+          : [];
+
+        function span(cls, text) {
+          var el = document.createElement('span');
+          el.className = cls;
+          el.textContent = text;
+          return el;
+        }
+
+        function renderExamples() {
+          if (!listEl) return;
+          var items = altShown ? EXAMPLES_ALT : EXAMPLES;
+          var frag = document.createDocumentFragment();
+          items.forEach(function (q, i) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'example';
+            btn.setAttribute('data-q', q);
+            btn.appendChild(span('num', String(i + 1).padStart(2, '0')));
+            btn.appendChild(span('q', q));
+            btn.appendChild(span('use-icon', '↑ usar'));
+            frag.appendChild(btn);
+          });
+          listEl.replaceChildren(frag);
+        }
+
+        if (toggleBtn) {
+          toggleBtn.addEventListener('click', function () {
+            altShown = !altShown;
+            renderExamples();
+            toggleBtn.textContent = altShown ? '↻ Ver ejemplos iniciales' : '↻ Ver otros ejemplos';
+          });
+        }
+
+        if (listEl && askEl) {
+          listEl.addEventListener('click', function (e) {
+            var btn = e.target.closest('.example');
+            if (!btn) return;
+            askEl.value = btn.getAttribute('data-q') || '';
+            syncPrompt();
+            // Desplazamiento mínimo: no salta si el campo ya está a la vista,
+            // pero el foco nunca queda fuera de pantalla al navegar por teclado.
+            askEl.focus({ preventScroll: true });
+            askEl.scrollIntoView({ block: 'nearest' });
+            listEl.querySelectorAll('.example.used').forEach(function (el) { el.classList.remove('used'); });
+            btn.classList.add('used');
+            clearTimeout(usedTimer);
+            usedTimer = setTimeout(function () { btn.classList.remove('used'); }, 1400);
+            showToast('Pregunta cargada arriba');
+          });
+        }
+
+        // ── fecha de última actualización (silenciosa si falla) ──
+        var footMeta = document.getElementById('foot-meta');
+        if (footMeta) {
+          fetch(API_COMMITS)
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (d) {
+              var c = d && d[0] && d[0].commit && d[0].commit.committer;
+              if (!c || !c.date) return;
+              var fecha = new Date(c.date).toLocaleDateString('es-ES', {
+                day: 'numeric', month: 'long', year: 'numeric'
+              });
+              footMeta.textContent = 'última actualización: ' + fecha + ' · v.2026 · CC0 1.0';
+            })
+            .catch(function () { /* sin conexión o límite de la API: se deja el texto base */ });
+        }
+      })();
+    </script>
+  </body>
+</html>

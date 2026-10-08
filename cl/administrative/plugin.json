@@ -1,0 +1,15 @@
+{
+  "name": "cl-administrative",
+  "displayName": "Administrative Procedure & Public Services — CL",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/chilean-administrative-legal-elpabloultron",
+    "skills/chilean-probity-investigation-elpabloultron"
+  ]
+}

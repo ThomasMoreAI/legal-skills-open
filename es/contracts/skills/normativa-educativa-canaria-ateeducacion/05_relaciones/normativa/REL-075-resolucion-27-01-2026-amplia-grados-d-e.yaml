@@ -1,0 +1,10 @@
+id: REL-075
+tipo_relacion: "modifica"
+origen: NOR-094
+destino: NOR-081
+descripcion: "La Resolución de 27 de enero de 2026 amplía el Anexo VI de la Resolución de 30 de octubre de 2024 con dos ciclos formativos nuevos —CFGM Servicios Funerarios y CFGS Centrales Eléctricas— y modifica la distribución horaria de ocho ciclos ya implantados de sus anexos V y VI."
+evidencia:
+  fuente: FTE-101
+  localizacion: "Resuelvo primero a quinto y anexos I a V de la Resolución de 27 de enero de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

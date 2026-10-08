@@ -1,0 +1,196 @@
+# TEMPLATE, Inventário canônico de dados pessoais
+# ==================================================
+# Skill: lgpd-compliance
+# Saída padrão: <projeto>/transparencia/inventario.yaml
+#
+# Este arquivo é a FONTE DA VERDADE do inventário público.
+# Pode ser gerado manualmente OU automaticamente pelo script
+# scripts/gerar-inventario.py (template em automation/).
+#
+# Renderizado em /transparencia/inventario.
+# Validado pelo CI a cada PR (templates/transparencia/automation/ci-check.yml).
+
+meta:
+  versao: "1.0.0"
+  data_atualizacao: "2026-05-24"
+  app_nome: "{{APP_NOME}}"
+  controlador: "{{CONTROLADOR_NOME}}"
+  dpo_contato: "{{DPO_CONTATO}}"
+
+# Lista de categorias do art. 5º LGPD + classificação Apple/Google.
+# Cada item segue o mesmo schema.
+categorias:
+
+  - id: "identidade"
+    nome_publico: "Identidade e contato"
+    sensibilidade: "media"
+    pii: true
+    itens:
+      - nome_tecnico: "users.email"
+        nome_publico: "E-mail"
+        finalidade: ["autenticacao", "comunicacao_transacional"]
+        base_legal_lgpd: "art_7_V_contrato"
+        obrigatorio: true
+        coletado_de: "formulario_cadastro"
+        armazenado_em: "Postgres (provedor X, região UE)"
+        retencao: "ate_exclusao_conta + 5y"
+        retencao_fundamento: "CDC art. 27 (prescrição de relação de consumo)"
+        compartilhado_com:
+          - terceiro: "resend"
+            finalidade: "envio_email_transacional"
+        visivel_para: ["titular", "admin_auditoria"]
+        historico:
+          - { data: "2026-02-10", evento: "adicionado" }
+
+      - nome_tecnico: "users.name"
+        nome_publico: "Nome"
+        finalidade: ["personalizacao", "comunicacao"]
+        base_legal_lgpd: "art_7_V_contrato"
+        obrigatorio: true
+        coletado_de: "formulario_cadastro"
+        armazenado_em: "Postgres (provedor X, região UE)"
+        retencao: "ate_exclusao_conta + 5y"
+        retencao_fundamento: "CDC art. 27"
+        compartilhado_com: []
+        visivel_para: ["titular", "admin_auditoria"]
+
+      - nome_tecnico: "users.cpf"
+        nome_publico: "CPF"
+        finalidade: ["emissao_nf", "kyc"]
+        base_legal_lgpd: "art_7_II_obrigacao_legal"
+        obrigatorio: false
+        coletado_de: "checkout_compra"
+        armazenado_em: "Postgres (provedor X) + Stripe Customer object"
+        retencao: "5y_apos_ultima_compra"
+        retencao_fundamento: "Decreto 7.212/2010 art. 447 + CTN art. 173"
+        compartilhado_com:
+          - terceiro: "stripe"
+            finalidade: "processamento_pagamento_nfe"
+        visivel_para: ["titular", "admin_fiscal"]
+
+  - id: "autenticacao"
+    nome_publico: "Credenciais de acesso"
+    sensibilidade: "critica"
+    pii: true
+    itens:
+      - nome_tecnico: "users.password_hash"
+        nome_publico: "Senha (hash)"
+        finalidade: ["autenticacao"]
+        base_legal_lgpd: "art_7_V_contrato"
+        obrigatorio: true
+        algoritmo: "argon2id (custo 3, memoria 64MB)"
+        observacao: "Senha NUNCA armazenada em texto claro nem em log"
+
+      - nome_tecnico: "sessions.token"
+        nome_publico: "Token de sessão"
+        finalidade: ["autenticacao", "seguranca"]
+        base_legal_lgpd: "art_7_V_contrato"
+        retencao: "30d_sliding_window"
+
+      - nome_tecnico: "totp_secrets.secret"
+        nome_publico: "Segredo de 2FA (TOTP)"
+        finalidade: ["autenticacao_dois_fatores"]
+        base_legal_lgpd: "art_7_V_contrato"
+        retencao: "ate_desativar_2fa"
+        criptografia_repouso: "AES-256 com chave dedicada (envelope encryption)"
+
+  - id: "identificadores_tecnicos"
+    nome_publico: "Identificadores técnicos e telemetria"
+    sensibilidade: "media"
+    pii: true
+    itens:
+      - nome_tecnico: "audit_log.ip_truncated"
+        nome_publico: "IP truncado"
+        finalidade: ["seguranca", "auditoria"]
+        base_legal_lgpd: "art_7_IX_legitimo_interesse"
+        retencao: "6 meses (Marco Civil art. 15)"
+        minimizacao: "Último octeto IPv4 zerado; /48 em IPv6"
+
+      - nome_tecnico: "audit_log.user_agent"
+        nome_publico: "User-Agent (navegador/dispositivo)"
+        finalidade: ["seguranca", "diagnostico"]
+        base_legal_lgpd: "art_7_IX_legitimo_interesse"
+        retencao: "6 meses"
+
+  - id: "geolocalizacao"
+    nome_publico: "Localização"
+    sensibilidade: "alta"
+    pii: true
+    aplicavel: false  # marcar true se o app coleta
+    itens: []
+    declaracao_publica: |
+      Este app NÃO coleta geolocalização precisa (GPS).
+      Eventualmente derivamos cidade aproximada a partir do IP, apenas em logs
+      de segurança (retenção 6 meses).
+
+  - id: "midia_arquivos"
+    nome_publico: "Arquivos enviados"
+    sensibilidade: "media"
+    aplicavel: false
+    itens: []
+
+  - id: "ugc"
+    nome_publico: "Conteúdo que você cria"
+    sensibilidade: "variavel"
+    aplicavel: false
+    itens: []
+
+  - id: "comportamentais"
+    nome_publico: "Uso e navegação"
+    sensibilidade: "media"
+    pii: true
+    itens:
+      - nome_tecnico: "plausible_events"
+        nome_publico: "Métricas de uso anônimas"
+        finalidade: ["analytics_agregado"]
+        base_legal_lgpd: "art_7_IX_legitimo_interesse"
+        observacao: "Plausible, sem cookie, sem fingerprint, agregado"
+        retencao: "indefinida (anônimo)"
+        compartilhado_com:
+          - terceiro: "plausible"
+
+  - id: "sensiveis"
+    nome_publico: "Dados sensíveis (LGPD art. 11)"
+    sensibilidade: "critica"
+    aplicavel: false
+    itens: []
+    declaracao_publica: |
+      Este app NÃO coleta dados sensíveis (origem racial, religião, política,
+      saúde, vida sexual, biometria etc.). Caso passe a coletar, será criada
+      seção específica com consentimento destacado.
+
+  - id: "inferidos"
+    nome_publico: "Dados inferidos por algoritmo"
+    sensibilidade: "alta"
+    aplicavel: false
+    itens: []
+
+  - id: "metadados_comunicacao"
+    nome_publico: "Metadados de mensagens"
+    sensibilidade: "alta_inferencia"
+    aplicavel: false
+    itens: []
+
+  - id: "terceiros"
+    nome_publico: "Dados de terceiros sobre você"
+    sensibilidade: "alta"
+    aplicavel: false
+    itens: []
+
+# Lista de operadores/processadores (cross-ref com terceiros.yaml)
+terceiros_resumo:
+  - id: "resend"
+    nome: "Resend"
+    finalidade: "envio_email_transacional"
+    pais: "UE (Dublin)"
+    base_transferencia: "decisao_adequacao_anpd_res_32_2026"
+  - id: "stripe"
+    nome: "Stripe Inc."
+    finalidade: "processamento_pagamento"
+    pais: "EUA"
+    base_transferencia: "scc_anpd"
+  - id: "plausible"
+    nome: "Plausible Analytics OÜ"
+    finalidade: "analytics_agregado"
+    pais: "UE (provedor X, DE)"
+    base_transferencia: "decisao_adequacao_anpd_res_32_2026"

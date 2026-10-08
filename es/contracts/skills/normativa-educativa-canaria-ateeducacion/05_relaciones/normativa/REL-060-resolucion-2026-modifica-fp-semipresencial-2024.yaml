@@ -1,0 +1,11 @@
+id: REL-060
+tipo_relacion: "modifica"
+origen: NOR-070
+destino: NOR-069
+descripcion: "La Resolución de 8 de julio de 2026 modifica la instrucción sexta del anexo de la Resolución de 10 de diciembre de 2024 sobre FP semipresencial y virtual."
+evidencia:
+  fuente: FTE-077
+  localizacion: "Resuelvo primero, apartados 1, 2 y 3."
+fecha_registro: 2026-07-27
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La modificación sustituye el cuadro horario del apartado 8.c), suprime cronogramas anteriores y añade un apartado 8 bis aplicable desde el curso 2026/2027."

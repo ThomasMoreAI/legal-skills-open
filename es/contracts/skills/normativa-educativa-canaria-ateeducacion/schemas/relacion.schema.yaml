@@ -1,0 +1,42 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/relacion.schema.yaml"
+title: Relación entre entidades del corpus
+additionalProperties: false
+
+# `required` recoge lo que AGENTS.md §11 exige para registrar una relación:
+# tipo, origen, destino, evidencia, fecha de registro y nivel de evidencia.
+# `observaciones` es metadato opcional y ha dejado de ser obligatorio.
+
+type: object
+required: [id, tipo_relacion, origen, destino, descripcion, evidencia, fecha_registro, nivel_evidencia]
+properties:
+  id:
+    type: string
+    pattern: '^REL-[0-9]{3}$'
+  tipo_relacion:
+    type: string
+    enum: [modifica, desarrolla, deroga, corrige, complementa, sustituye, aplica, interpreta, relaciona]
+  origen:
+    type: string
+  destino:
+    type: string
+  descripcion:
+    type: string
+  evidencia:
+    type: object
+    additionalProperties: false
+    required: [fuente, localizacion]
+    properties:
+      fuente:
+        type: string
+        pattern: '^FTE-[0-9]{3}$'
+      localizacion:
+        type: string
+  fecha_registro:
+    type: string
+    format: date
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]
+  observaciones:
+    type: [string, 'null']

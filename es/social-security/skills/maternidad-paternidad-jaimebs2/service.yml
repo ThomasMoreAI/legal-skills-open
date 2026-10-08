@@ -1,0 +1,57 @@
+name: maternidad-paternidad
+display_name: Prestación por Nacimiento y Cuidado de Menor
+description: >
+  Guía completa sobre la prestación por nacimiento y cuidado de menor
+  (antes maternidad/paternidad) en España: duración (16 semanas para cada
+  progenitor), cuantía (100 % base reguladora), requisitos de cotización,
+  prestación no contributiva, autónomos (bonificaciones, tarifa plana),
+  riesgo durante el embarazo y la lactancia natural, adopción y acogimiento,
+  cómo solicitarla y efectos laborales (reserva de puesto, nulidad del
+  despido).
+organization: Instituto Nacional de la Seguridad Social (INSS)
+tags: [seguridad social, maternidad, paternidad, nacimiento, cuidado de menor, 16 semanas, permiso parental, INSS, Import@ss]
+
+links:
+  website: https://sede.seg-social.gob.es
+  importass: https://importass.seg-social.es
+
+license:
+  data: Información pública de la Seguridad Social
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a datos personales ni
+    realiza trámites. Proporciona una guía completa sobre la prestación
+    de nacimiento y cuidado de menor y redirige a skills específicas
+    (vida-laboral, cotizaciones, laboral-contratos, seguridad-social)
+    para detalle complementario.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Prestación por nacimiento y cuidado de menor (duración, cuantía, distribución)
+    - Requisitos de cotización según edad
+    - Prestación no contributiva (42 días al IPREM)
+    - Autónomos (bonificación 100 % cuota, tarifa plana tras reincorporación)
+    - Riesgo durante el embarazo y durante la lactancia natural
+    - Adopción, guarda con fines de adopción y acogimiento familiar
+    - Cómo solicitar la prestación (Import@ss, sede electrónica, CAISS)
+    - Efectos laborales (suspensión del contrato, reserva de puesto, nulidad del despido)
+    - Vacaciones coincidentes con la prestación
+  not_accessible:
+    - Datos personales de prestaciones del usuario
+    - Trámites reales de solicitud (requiere certificado digital/Cl@ve)
+    - Detalle de cotizaciones (usar skill cotizaciones)
+    - Tipos de contratos laborales (usar skill laboral-contratos)
+    - Datos estadísticos agregados (usar skill seguridad-social)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (73)
+## Skills (75)
 
 | Skill | What it does |
 |---|---|
@@ -16,6 +16,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Anti-Satellite-Test-Ban und Orbital-Debris-Pledge`](skills/anti-satellite-test-ban-und-orbital-debris-pledge/) | Für Anti-Satellite-Test-Ban und Orbital-Debris-Pledge: ordnet Norm, Beweislast und Gegenargument… |
 | [`Weltraumrecht: Artemis Accords und Verhältnis zu UN-Verträgen`](skills/artemis-accords-und-verhaeltnis-zu-un-vertraegen/) | Für Weltraumrecht: Artemis Accords und Verhältnis zu UN-Verträgen: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Astronautenrettung: Rückgabe und Statusfragen`](skills/astronautenrettung-rueckgabe-und-statusfragen/) | Für Weltraumrecht: Astronautenrettung: Rückgabe und Statusfragen: ordnet Norm, Beweislast und… |
+| [`CCPA/CPRA — California Consumer Privacy Act & Privacy Rights Act`](skills/ccpa-cpra-es-skills-mauriciodelrio/) | Usa este skill cuando desarrolles software que recolecte, almacene o procese información personal de… |
 | [`Clause`](skills/clause/) | Reviewing legal documents for Terms of Service, Privacy Policy, and Tokushoho compliance. Detects clause… |
 | [`Commercial LEO Destinations - ISS-Nachfolge`](skills/commercial-leo-destinations-iss-nachfolge/) | Für Commercial LEO Destinations - ISS-Nachfolge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Compliance Auditor Skill`](skills/compliance-auditor-belokonm/) | Specialized auditor for SOC2, HIPAA, GDPR, and regulatory compliance frameworks across industries |
@@ -25,6 +26,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Cultural Heritage Protection Summary`](skills/cultural-heritage-summary/) | Produces structured, citation-ready summaries of legal developments in cultural heritage protection… |
 | [`Deploy AI Compliance Engine`](skills/deploy-ai-compliance-engine-frootai/) | Deploy AI Compliance Engine — configure regulatory check framework (GDPR, HIPAA, EU AI Act, SOC 2)… |
 | [`Weltraumrecht: Deutsches Weltraumgesetz: Planungsstand und Übergangsrisiko`](skills/deutsches-weltraumgesetz-planungsstand-und-uebergangsr/) | Für Weltraumrecht: Deutsches Weltraumgesetz: Planungsstand und Übergangsrisiko: ordnet Norm, Beweislast… |
+| [`E-sign compliance — UETA / ESIGN / eIDAS / eIDAS 2.0`](skills/e-sign-compliance-ueta-esign-eidas-craftos-dev/) | E-signature compliance — UETA (US state), ESIGN Act (US federal), eIDAS Regulation 910/2014 + eIDAS 2.0… |
 | [`Ethical Risk Assessment`](skills/ethics-review-poemswe/) | You must use this when identifying ethical risks, ensuring participant privacy, or preparing IRB applications. |
 | [`Europarechtskonformität`](skills/europarechtskonformitaet/) | Für Europarechtskonformität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Weltraumrecht: Haftungsbegrenzung in AGB für Space-as-a-Service`](skills/haftungsbegrenzung-in-agb-fuer-space-as-a-service/) | Für Weltraumrecht: Haftungsbegrenzung in AGB für Space-as-a-Service: ordnet Norm, Beweislast und… |

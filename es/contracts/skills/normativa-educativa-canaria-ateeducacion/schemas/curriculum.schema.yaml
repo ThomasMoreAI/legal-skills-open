@@ -1,0 +1,103 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/curriculum.schema.yaml"
+title: Ficha curricular
+additionalProperties: false
+
+# Todas las fichas curriculares comparten un único contenedor `elementos` (DEC-0007).
+# Dentro conviven dos modelos de contenido según el tipo de enseñanza:
+#
+#   - Régimen general (LOMLOE): competencias_especificas, criterios_evaluacion,
+#     saberes_basicos y descriptores_operativos — los cuatro elementos de DEC-0004.
+#   - Formación Profesional (LOFP 3/2022): modulos_profesionales, con resultados de
+#     aprendizaje y sus criterios de evaluación por módulo.
+#
+# `estado_extraccion` se mide contra el modelo que corresponda y es el campo que
+# declara qué se va a encontrar: `parcial` significa que falta alguno de los
+# elementos obligatorios de su modelo.
+
+type: object
+required: [id, titulo, etapa, materia, norma_base, fuente, url_oficial, fecha_consulta, estado_extraccion, estado_vigencia, elementos, observaciones]
+properties:
+  id:
+    type: string
+    pattern: '^CUR-[0-9]{3}$'
+  titulo:
+    type: string
+  etapa:
+    type: string
+    enum: [infantil, primaria, eso, bachillerato, formacion-profesional, regimen-especial]
+  materia:
+    type: string
+  ambito:
+    type: [string, 'null']
+  cursos:
+    type: array
+    items:
+      type: string
+  norma_base:
+    type: [string, 'null']
+  fuente:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  url_oficial:
+    type: string
+    format: uri
+  fecha_consulta:
+    type: string
+    format: date
+  fecha_analisis:
+    type: [string, 'null']
+    format: date
+  estado_extraccion:
+    type: string
+    enum: [pendiente, en-analisis, parcial, completado, revisado, obsoleto]
+  estado_vigencia:
+    type: string
+    pattern: '^(Vigente|Derogada|Derogada parcialmente|Parcialmente vigente|Superada|Superada parcialmente|Sustituida|Histórica|Pendiente de verificación|No normativa)(\b.*)?$'
+  elementos:
+    type: object
+    additionalProperties: false
+    properties:
+      # Modelo de régimen general (LOMLOE).
+      # `descriptores` de cada competencia es un mapa de curso a lista de códigos
+      # (DEC-0008), porque el decreto asigna descriptores distintos según el curso.
+      # La lista plana se admite como forma transitoria: quedan competencias sin
+      # migrar cuya vinculación no se ha podido verificar contra la fuente, que el
+      # validador reporta como aviso y `TAREA-073` debe resolver.
+      competencias_especificas:
+        type: array
+        items:
+          type: object
+          properties:
+            descriptores:
+              oneOf:
+                - type: object
+                  additionalProperties:
+                    type: array
+                    items: {type: string}
+                - type: array
+                  items: {type: string}
+      criterios_evaluacion: {type: array}
+      saberes_basicos: {type: array}
+      descriptores_operativos: {type: array}
+      situaciones_aprendizaje: {type: array}
+      # Modelo de Formación Profesional (LOFP 3/2022)
+      modulos_profesionales: {type: array}
+      modulos_comunes_base: {type: array}
+      nota: {type: [string, 'null']}
+  familia_profesional:
+    type: string
+  grado:
+    type: string
+  nota_logse:
+    type: [string, 'null']
+  resumen_ia:
+    type: string
+  relaciones:
+    type: object
+    additionalProperties: false
+    properties:
+      desarrolla_a: {type: array, items: {type: string}}
+      relacionada_con: {type: array, items: {type: string}}
+  observaciones:
+    type: [string, 'null']

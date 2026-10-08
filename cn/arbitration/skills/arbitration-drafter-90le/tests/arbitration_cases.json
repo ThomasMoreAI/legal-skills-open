@@ -1,0 +1,222 @@
+[
+  {
+    "id": "economic-compensation-mutual-termination",
+    "claim_types": ["economic_compensation"],
+    "expected_sections": [
+      "parties",
+      "jurisdiction",
+      "limitation",
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory",
+      "filing_checks"
+    ],
+    "expected_source_anchors": [
+      "LDA-2007#art21",
+      "LDA-2007#art28",
+      "LCL-2012#art46",
+      "LCL-2012#art47"
+    ],
+    "expected_evidence_needed": [
+      "labor_contract_and_renewals",
+      "twelve_month_wage_basis"
+    ]
+  },
+  {
+    "id": "unlawful-termination-2n",
+    "claim_types": ["unlawful_termination_compensation"],
+    "expected_sections": [
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art48",
+      "LCL-2012#art87",
+      "LDA-2007#art6",
+      "SPC-LDI-1-2020#art44"
+    ],
+    "expected_evidence_needed": [
+      "termination_notice_exact_reason",
+      "twelve_month_wage_basis"
+    ]
+  },
+  {
+    "id": "guangzhou-economic-layoff-procedure-unlawful-termination",
+    "claim_types": ["unlawful_termination_compensation"],
+    "expected_sections": [
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory",
+      "filing_checks"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art41",
+      "LCL-2012#art43",
+      "LCL-2012#art48",
+      "LCL-2012#art87",
+      "LDA-2007#art6"
+    ],
+    "expected_evidence_needed": [
+      "layoff_threshold_and_plan",
+      "thirty_day_explanation_opinion_report",
+      "guangzhou_layoff_report_package",
+      "priority_retention_and_rehire_evidence",
+      "post_layoff_rehire_or_outsourcing_tracking",
+      "twelve_month_wage_basis"
+    ]
+  },
+  {
+    "id": "article40-no-notice",
+    "claim_types": ["economic_compensation", "substitute_notice_wage"],
+    "expected_sections": [
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory",
+      "filing_checks"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art40",
+      "LCL-2012#art46",
+      "LCL-REG-2008#art20",
+      "LDA-2007#art28"
+    ],
+    "expected_evidence_needed": [
+      "article40_ground_evidence",
+      "notice_or_substitute_wage_evidence"
+    ]
+  },
+  {
+    "id": "forced-resignation-unpaid-wages",
+    "claim_types": ["economic_compensation", "unpaid_wages"],
+    "expected_sections": [
+      "jurisdiction",
+      "limitation",
+      "arbitration_requests",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art30",
+      "LCL-2012#art38",
+      "LCL-2012#art46",
+      "LCL-2012#art85",
+      "LDA-2007#art27"
+    ],
+    "expected_evidence_needed": [
+      "unpaid_wage_or_social_insurance_gap",
+      "payroll_tax_social_insurance_records"
+    ]
+  },
+  {
+    "id": "unsigned-contract-double-wage",
+    "claim_types": ["unsigned_contract_double_wage"],
+    "expected_sections": [
+      "parties",
+      "limitation",
+      "arbitration_requests",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art82",
+      "LCL-REG-2008#art6",
+      "LCL-REG-2008#art7",
+      "LDA-2007#art2",
+      "LDA-2007#art27",
+      "SPC-LDI-1-2020#art44"
+    ],
+    "expected_evidence_needed": [
+      "labor_contract_and_renewals",
+      "payroll_tax_social_insurance_records",
+      "work_access_and_attendance_records"
+    ]
+  },
+  {
+    "id": "non-compete-compensation",
+    "claim_types": ["non_compete_compensation"],
+    "expected_sections": [
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art23",
+      "SPC-LDI-1-2020#art36",
+      "SPC-LDI-1-2020#art37",
+      "SPC-LDI-1-2020#art38"
+    ],
+    "expected_evidence_needed": [
+      "non_compete_agreement",
+      "compensation_payment_records",
+      "performance_of_non_compete"
+    ]
+  },
+  {
+    "id": "non-compete-scope-invalid-or-limited",
+    "claim_types": ["non_compete_scope_invalid_or_limited"],
+    "expected_sections": [
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art23",
+      "LCL-2012#art24",
+      "LCL-2012#art25",
+      "LCL-2012#art90",
+      "SPC-LDI-2-2025#art13",
+      "SPC-LDI-2-2025#art15"
+    ],
+    "expected_evidence_needed": [
+      "non_compete_agreement",
+      "role_and_secret_access_evidence",
+      "new_role_and_competition_scope"
+    ]
+  },
+  {
+    "id": "pregnancy-wage-difference",
+    "claim_types": ["pregnancy_wage_difference"],
+    "expected_sections": [
+      "jurisdiction",
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art30",
+      "WRPL-2022#art48",
+      "FEP-2012#art5",
+      "FEP-2012#art6",
+      "LDA-2007#art2",
+      "LDA-2007#art6"
+    ],
+    "expected_evidence_needed": [
+      "salary_cut_transfer_objection",
+      "pregnancy_or_medical_status_proof",
+      "payroll_tax_social_insurance_records"
+    ]
+  },
+  {
+    "id": "unsigned-contract-worker-refused-risk",
+    "claim_types": ["unsigned_contract_double_wage"],
+    "expected_sections": [
+      "limitation",
+      "arbitration_requests",
+      "facts_and_reasons",
+      "evidence_directory"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art82",
+      "LCL-REG-2008#art6",
+      "LDA-2007#art6",
+      "LDA-2007#art27"
+    ],
+    "expected_evidence_needed": [
+      "labor_contract_and_renewals",
+      "payroll_tax_social_insurance_records"
+    ],
+    "expected_disqualifying_risks": [
+      "worker_intentionally_refused_written_contract_after_employer_requested_signing",
+      "employer_has_delivery_or_renewal_request_evidence"
+    ]
+  }
+]

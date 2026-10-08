@@ -1,0 +1,35 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "$schema_note": "Copy to expert-fiscal/company.json. The expert-fiscal skill needs household-level fields in addition to entity fields.",
+  "legal_name": "Müller-Rossi (foyer fiscal)",
+  "uid": null,
+  "legal_form": "personne_physique",
+  "canton": "GE",
+  "commune": "Carouge",
+  "address": {
+    "street": "Rue Vautier 18",
+    "zip": "1227",
+    "city": "Carouge",
+    "country": "CH"
+  },
+  "household": {
+    "marital_status": "married",
+    "marital_regime": "participation_aux_acquets",
+    "spouse_employed": true,
+    "frontalier": false,
+    "dependants": 2,
+    "children_ages": [9, 6],
+    "religion_taxable": "none",
+    "languages": ["fr", "en"]
+  },
+  "taxation": {
+    "regime": "ordinary",
+    "source_tax": false,
+    "permit": "CH",
+    "tarif": "married_double_income"
+  },
+  "advisors": {
+    "previous_fiduciary": "Fiduciaire du Lac Sàrl",
+    "tax_authority_canton": "Administration fiscale cantonale GE"
+  }
+}

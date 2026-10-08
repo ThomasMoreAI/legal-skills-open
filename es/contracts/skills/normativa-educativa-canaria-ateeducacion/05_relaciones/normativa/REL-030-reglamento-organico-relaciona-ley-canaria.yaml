@@ -1,0 +1,11 @@
+id: REL-030
+tipo_relacion: "relaciona"
+origen: NOR-033
+destino: NOR-004
+descripcion: "El Decreto 84/2024 organiza la Consejería que ejerce competencias educativas autonómicas en el marco de la Ley Canaria de Educación."
+evidencia:
+  fuente: FTE-036
+  localizacion: "Artículo único y anexo, artículos 1 y 2"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

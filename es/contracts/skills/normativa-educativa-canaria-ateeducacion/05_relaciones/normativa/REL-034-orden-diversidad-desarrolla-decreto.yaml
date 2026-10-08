@@ -1,0 +1,11 @@
+id: REL-034
+tipo_relacion: "desarrolla"
+origen: NOR-037
+destino: NOR-024
+descripcion: "La Orden de 7 de junio de 2007 desarrolla el Decreto 25/2018 en lo referente a las medidas de atención a la diversidad en la enseñanza básica, permaneciendo vigente hasta su sustitución por un nuevo desarrollo normativo."
+evidencia:
+  fuente: FTE-040
+  localizacion: "BOC n.º 124 de 21 de junio de 2007, disposición 1001"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Aunque la Orden es anterior al Decreto, la administración educativa mantiene su vigencia como normativa de desarrollo de la enseñanza básica en materia de diversidad."

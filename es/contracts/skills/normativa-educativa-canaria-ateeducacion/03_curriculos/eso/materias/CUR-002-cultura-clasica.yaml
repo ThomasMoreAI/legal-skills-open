@@ -1,0 +1,111 @@
+id: CUR-002
+titulo: "Cultura Clásica — ESO Canarias"
+etapa: "eso"
+materia: "Cultura Clásica"
+ambito: null
+cursos: ["3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Valorar la pervivencia del mundo clásico y producir textos orales, escritos o multimodales para reconocer la huella grecorromana en la cultura occidental."
+      enunciado_oficial: "Valorar la pervivencia del mundo clásico, desarrollando producciones escritas u orales acerca de manifestaciones culturales, artísticas y literarias de la actualidad, para identificar la presencia de Grecia y Roma en el mundo occidental a través de su legado material e inmaterial y apreciarlo como fuente de inspiración permanente para la actividad creadora de todos los tiempos."
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC4, CCEC1, CCEC2, CCEC3]
+    - codigo: "C2"
+      enunciado_resumido: "Reconocer la procedencia griega y latina de alfabetos, lenguas romances, étimos y formantes para ampliar el repertorio lingüístico del alumnado."
+      enunciado_oficial: "Reconocer la procedencia del griego y del latín, así como de sus alfabetos, y el origen común de diferentes lenguas, entre ella, las lengua romances y su mutua influencia, identificando y usando los étimos griegos y los prefijos y sufijos latinos más importantes en las lenguas del alumnado, como estrategia para mejorar y ampliar su repertorio lingüístico individual y su competencia lingüística."
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CCL5, CP2, CP3, STEM1, CD1, CE3]
+    - codigo: "C3"
+      enunciado_resumido: "Describir el marco geográfico e histórico de Grecia y Roma, sus relaciones, hitos y personajes relevantes para desarrollar conciencia histórica e intercultural."
+      enunciado_oficial: "Describir el marco geográfico y el contexto histórico de las civilizaciones griega y romana, reflexionando sobre las relaciones entre ambas sociedades e identificando sus hitos y personajes más relevantes que han trascendido históricamente, con el objetivo de adquirir una perspectiva abierta y global de la Antigüedad grecolatina, y de favorecer el desarrollo de una conciencia histórica e intercultural."
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CP3, CD1, CD2, CPSAA4, CC1, CCEC1]
+    - codigo: "C4"
+      enunciado_resumido: "Comprender la organización política, social y cotidiana de Grecia y Roma, así como sus manifestaciones religiosas, festivas y de ocio, para analizarlas críticamente en relación con el presente."
+      enunciado_oficial: "Comprender las formas de organización política y social, así como la vida cotidiana en Grecia y Roma, identificando los diferentes sistemas políticos y grupos sociales, y describiendo las distintas formas de trabajo y ocio, para analizar críticamente el presente y valorar las civilizaciones griega y romana como pilares básicos sobre los que se construye la identidad y el actual contexto sociopolítico europeos. Asimismo, comparar las manifestaciones y fiestas religiosas de Grecia y Roma con las actuales, para juzgar, desde una perspectiva crítica y formal basada en la tolerancia y el respeto, la diversidad cultural y religiosa de las diferentes sociedades."
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD3, CPSAA3, CC1, CC2]
+    - codigo: "C5"
+      enunciado_resumido: "Conocer personajes y relatos mitológicos grecorromanos e identificarlos en producciones literarias, musicales, plásticas y visuales antiguas o modernas."
+      enunciado_oficial: "Conocer los principales personajes mitológicos grecorromanos y los mitos relacionados con estos, de manera que puedan identificarlos en fragmentos u obras literarias, musicales, plásticas y visuales, antiguas o modernas, valorando la influencia que han ejercido para el proceso creativo y disfrute de las personas y de sus diferentes producciones."
+      descriptores:
+        "?": [CCL1, CCL2, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC1, CCEC1, CCEC2, CCEC3]
+  criterios_evaluacion:
+    - curso: "3.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Apreciar la importancia del mundo grecorromano, a través de la investigación guiada de manifestaciones culturales y artísticas que hayan perdurado hasta la actualidad, con el objetivo de valorar la huella de estas civilizaciones en el entorno más cercano del alumnado, desarrollar la creatividad y construir su identidad cultural y artística."
+          descriptores: [CCL3, CP3, CD1, CC4, CCEC1, CCEC2]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Elaborar producciones orales, escritas o multimodales, individuales o colectivas, partiendo de los conocimientos previos y de la búsqueda de información acerca de las huellas culturales grecolatinas en el mundo, para comparar el pasado clásico con el presente, fomentar el respeto por el patrimonio cultural y artístico, y mejorar la comunicación lingüística."
+          descriptores: [CCL1, CCL3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CCEC1, CCEC3]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Distinguir los alfabetos griego y latino, conociendo sus orígenes, su evolución y su uso en las lenguas actuales, así como percibir la procedencia de estas en las lenguas clásicas, de manera que puede compararlas desde un punto de vista crítico basado en el respeto."
+          descriptores: [CCL1, CCL3, CCL5, CP3]
+        - codigo: "2.2"
+          competencia: "C2"
+          enunciado: "Identificar los étimos griegos y los diferentes formantes latinos en las lenguas de uso del alumnado, preferentemente el español, y, en especial, en la terminología científica y técnica, reconociéndolos en los textos y deduciendo su significado, además de aplicar estrategias y habilidades y reflexionar sobre este proceso de identificación lingüística, con la finalidad de discernir el origen clásico de las lenguas romances y la influencia de aquellas en las lenguas modernas europeas y de ampliar su caudal léxico."
+          descriptores: [CCL3, CP2, CP3, STEM1, CD1, CE3]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Conocer los principales enclaves de la geografía griega y romana así como sus fronteras a lo largo del tiempo, identificándolos en fuentes cartográficas y relacionándolos con sus diferentes épocas históricas y políticas, con el propósito de adquirir una visión general de las civilizaciones griega y romana y valorar su impacto a lo largo de la historia de Europa."
+          descriptores: [CCL3, CD1, CD2, CPSAA4, CC1, CCEC1]
+        - codigo: "3.2"
+          competencia: "C3"
+          enunciado: "Explicar las etapas, los hitos y los personajes históricos y sociales de mayor relevancia de Grecia y Roma, a través de la indagación y búsqueda de información y elaboración de productos escolares para comprender sus repercusiones en el futuro de la civilización occidental, atendiendo especialmente a la romanización de Hispania."
+          descriptores: [CCL1, CCL3, CP3, CD1, CD2, CPSAA4, CC1, CCEC1]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Conocer cómo era la organización política, social, laboral y familiar en la Antigüedad clásica, distinguiendo las características básicas de cada una de ellas, prestando especial atención al papel de la mujer, y relacionándolas con la actualidad para contrastar el presente con el pasado y desarrollar un espíritu crítico hacia las similitudes y las diferencias de las diferentes culturas."
+          descriptores: [CCL2, CCL3, CP3, CD1, CD3, CPSAA3, CC1, CC2]
+        - codigo: "4.2"
+          competencia: "C4"
+          enunciado: "Explicar la importancia de las celebraciones festivas, observando su relación con los cultos religiosos griegos y romanos y comparándolos con las celebraciones actuales, para comprender su influencia en valorar el desarrollo y la identidad colectivos de los pueblos."
+          descriptores: [CCL1, CCL3, CP3, CD1, CD3, CPSAA3, CC1]
+        - codigo: "4.3"
+          competencia: "C4"
+          enunciado: "Describir las formas de ocio en Grecia y Roma y comprender la función que desempeñaban en la vida diaria de los griegos y romanos, estableciendo los puntos en común de los espectáculos y otras formas de entretenimiento con los del mundo actual, con el objetivo de observar y reconocer la base de la sociedad moderna y actual desde un punto de vista crítico."
+          descriptores: [CCL1, CCL2, CCL3, CD1, CD3, CC1]
+        - codigo: "5.1"
+          competencia: "C5"
+          enunciado: "Identificar y reconocer los principales seres mitológicos del mundo grecorromano, tanto dioses y diosas como héroes y heroínas y otras entidades menores, comprendiendo sus mitos y leyendas como el modo de expresión de las civilizaciones antiguas, y valorando su pervivencia en la sociedad actual con el objetivo de fomentar las relaciones culturales de modo empático y equitativo."
+          descriptores: [CCL1, CCL3, CD1, CC1, CCEC1, CCEC2]
+        - codigo: "5.2"
+          competencia: "C5"
+          enunciado: "Descubrir las historias míticas más importantes de las civilizaciones griegas y romanas, prestando especial atención a aquellas relacionadas con Canarias, a través de obras literarias, musicales, plásticas y visuales, para apreciar críticamente las expresiones artísticas y fomentar el enriquecimiento inherente a la diversidad cultural y artística."
+          descriptores: [CCL1, CCL3, CP3, CD1, CC1, CCEC1, CCEC2]
+        - codigo: "5.3"
+          competencia: "C5"
+          enunciado: "Elaborar proyectos individuales o colectivos sobre la mitología grecorromana, produciendo textos escritos, orales, signados o multimodales de forma guiada y partiendo de la consulta en distintos soportes analógicos y digitales, a fin de que el alumnado desarrolle habilidades y destrezas personales, sociales y comunicativas y consolide sus conocimientos sobre la mitología."
+          descriptores: [CCL1, CCL2, CCL3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CCEC1, CCEC3]
+  saberes_basicos:
+    - bloque: "I. Mundo mítico y mundo histórico"
+      curso: "3.º ESO"
+      detalles: "Marco geográfico de Grecia y Roma; eventos y personajes históricos; comparación con otras civilizaciones; mito en la Antigüedad clásica; panteón grecorromano; héroes, heroínas y seres mitológicos; elementos mitológicos en artes plásticas, visuales y musicales; mitos relacionados con Canarias; constelaciones de origen mítico; productos analógicos o digitales sobre mundo mítico, personajes e historia."
+    - bloque: "II. Plurilingüismo y léxico grecolatino"
+      curso: "3.º ESO"
+      detalles: "Alfabetos griego y latino; ramas de la familia indoeuropea; evolución de las lenguas romances; lenguas de España y puesta en valor del habla canaria; helenismos, latinismos, vocablos científico-técnicos y étimos grecolatinos en español, otras lenguas del alumnado y canarismos; productos analógicos o digitales sobre el origen griego y latino de las palabras."
+    - bloque: "III. Sociedad y vida cotidiana"
+      curso: "3.º ESO"
+      detalles: "Sociedad grecolatina, clases sociales, roles, valores, derechos y libertades; familia y papel de la mujer; sistemas políticos de la Antigüedad clásica; formas de trabajo y ocio; fiestas religiosas, juegos deportivos y espectáculos; productos sobre paralelismos entre instituciones políticas, sociales y culturales grecolatinas y sociedades actuales."
+    - bloque: "IV. Legado clásico: arte y literatura"
+      curso: "3.º ESO"
+      detalles: "Productos culturales grecolatinos pervivientes; presencia de la mitología clásica en manifestaciones artísticas; obras artísticas griegas y romanas; patrimonio cultural clásico en el arte, la arquitectura y el urbanismo de Canarias; monumentos clásicos de la Península Ibérica; archipiélago canario en el imaginario clásico; productos sobre la pervivencia de lo clásico en la actualidad."
+  descriptores_operativos: [CCL1, CCL2, CCL3, CCL5, CP2, CP3, STEM1, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC4, CE3, CCEC1, CCEC2, CCEC3]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Cultura Clásica en 3.º ESO Canarias, regulado por el Decreto 30/2023. Integra cinco competencias específicas y doce criterios de evaluación sobre pervivencia del mundo clásico, léxico grecolatino, marco histórico-geográfico, sociedad grecorromana, mitología y legado cultural con atención a Canarias."
+observaciones: "Extracción completada el 2026-04-26 tras cotejo con el anexo del Decreto 30/2023 publicado en el BOC. Se incorporan enunciados oficiales de competencias, los 12 criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos."

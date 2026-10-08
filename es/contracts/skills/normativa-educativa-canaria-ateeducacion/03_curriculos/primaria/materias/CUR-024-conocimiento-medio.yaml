@@ -1,0 +1,437 @@
+id: CUR-024
+titulo: Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias
+etapa: primaria
+materia: Conocimiento del Medio Natural, Social y Cultural
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Utilizar dispositivos y recursos digitales, de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - STEM4
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CD5
+          - CE1
+          - CCEC4
+        Segundo ciclo:
+          - CCL3
+          - STEM4
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CD5
+          - CE1
+          - CCEC4
+        Tercer ciclo:
+          - CCL3
+          - STEM4
+          - CD1
+          - CD2
+          - CD3
+          - CD4
+          - CD5
+          - CE1
+          - CCEC4
+    - codigo: C2
+      enunciado_oficial: Plantear y dar respuesta a cuestiones científicas sencillas, utilizando diferentes técnicas, instrumentos y modelos propios del pensamiento científico, para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL2
+          - CCL3
+          - STEM2
+          - STEM4
+          - CD1
+          - CD2
+        Segundo ciclo:
+          - CCL1
+          - CCL2
+          - CCL3
+          - STEM2
+          - STEM4
+          - CD1
+          - CD2
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - CCL3
+          - STEM2
+          - STEM4
+          - CD1
+          - CD2
+    - codigo: C3
+      enunciado_oficial: Resolver problemas a través de proyectos de diseño y de la aplicación del pensamiento computacional, para generar cooperativamente un producto creativo e innovador que responda a necesidades concretas.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - STEM3
+          - STEM4
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+          - CCEC4
+        Segundo ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - STEM3
+          - STEM4
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+          - CCEC4
+        Tercer ciclo:
+          - CCL1
+          - STEM1
+          - STEM2
+          - STEM3
+          - STEM4
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA4
+          - CPSAA5
+          - CE1
+          - CE3
+          - CCEC4
+    - codigo: C4
+      enunciado_oficial: Conocer y tomar conciencia del propio cuerpo, así como de las emociones y sentimientos propios y ajenos, aplicando el conocimiento científico, para desarrollar hábitos saludables y para conseguir el bienestar físico, emocional y social.
+      descriptores:
+        Primer ciclo:
+          - STEM5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA3
+        Segundo ciclo:
+          - STEM5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA3
+        Tercer ciclo:
+          - STEM5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA3
+    - codigo: C5
+      enunciado_oficial: Identificar las características de los diferentes elementos o sistemas del medio natural, social y cultural, analizando su organización y propiedades y estableciendo relaciones entre los mismos, para reconocer el valor del patrimonio cultural y natural, conservarlo, mejorarlo y emprender acciones para su uso responsable.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - STEM1
+          - STEM2
+          - STEM4
+          - STEM5
+          - CD1
+          - CC4
+          - CE1
+          - CCEC1
+        Segundo ciclo:
+          - CCL3
+          - STEM1
+          - STEM2
+          - STEM4
+          - STEM5
+          - CD1
+          - CC4
+          - CE1
+          - CCEC1
+        Tercer ciclo:
+          - CCL3
+          - STEM1
+          - STEM2
+          - STEM4
+          - STEM5
+          - CD1
+          - CC4
+          - CE1
+          - CCEC1
+    - codigo: C6
+      enunciado_oficial: Identificar las causas y consecuencias de la intervención humana en el entorno, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para mejorar la capacidad de afrontar problemas, buscar soluciones y actuar de manera individual y cooperativa en su resolución, y para poner en práctica estilos de vida sostenibles y consecuentes con el respeto, el cuidado y la protección de las personas y del planeta.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - STEM2
+          - STEM5
+          - CPSAA4
+          - CC1
+          - CC3
+          - CC4
+          - CE1
+          - CE3
+        Segundo ciclo:
+          - CCL5
+          - STEM2
+          - STEM5
+          - CPSAA4
+          - CC1
+          - CC3
+          - CC4
+          - CE1
+          - CE3
+        Tercer ciclo:
+          - CCL5
+          - STEM2
+          - STEM5
+          - CPSAA4
+          - CC1
+          - CC3
+          - CC4
+          - CE1
+          - CE3
+    - codigo: C7
+      enunciado_oficial: Observar, comprender e interpretar continuidades y cambios del medio social y cultural, analizando relaciones de causalidad, simultaneidad y sucesión, para explicar y valorar las relaciones entre diferentes elementos y acontecimientos.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - CP3
+          - STEM4
+          - CPSAA4
+          - CC1
+          - CC3
+          - CE2
+          - CCEC1
+        Segundo ciclo:
+          - CCL3
+          - CP3
+          - STEM4
+          - CPSAA4
+          - CC1
+          - CC3
+          - CE2
+          - CCEC1
+        Tercer ciclo:
+          - CCL3
+          - CP3
+          - STEM4
+          - CPSAA4
+          - CC1
+          - CC3
+          - CE2
+          - CCEC1
+    - codigo: C8
+      enunciado_oficial: Reconocer y valorar la diversidad y la igualdad de género, mostrando empatía y respeto por otras culturas y reflexionando sobre cuestiones éticas, para contribuir al bienestar individual y colectivo de una sociedad en continua transformación y al logro de los valores de integración europea.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CP3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE1
+          - CCEC1
+        Segundo ciclo:
+          - CCL5
+          - CP3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE1
+          - CCEC1
+        Tercer ciclo:
+          - CCL5
+          - CP3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE1
+          - CCEC1
+    - codigo: C9
+      enunciado_oficial: Participar en el entorno y la vida social de forma eficaz y constructiva desde el respeto a los valores democráticos, los derechos humanos y de la infancia y los principios y valores de la Constitución española y la Unión Europea, valorando la función del Estado y sus instituciones en el mantenimiento de la paz y la seguridad integral ciudadana, para generar interacciones respetuosas y equitativas y promover la resolución pacífica y dialogada de los conflictos.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CPSAA1
+          - CC1
+          - CC2
+          - CC3
+          - CCEC1
+        Segundo ciclo:
+          - CCL5
+          - CPSAA1
+          - CC1
+          - CC2
+          - CC3
+          - CCEC1
+        Tercer ciclo:
+          - CCL5
+          - CPSAA1
+          - CC1
+          - CC2
+          - CC3
+          - CCEC1
+  saberes_basicos:
+    - bloque: I. Cultura científica
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Iniciación en la actividad científica; la vida en nuestro planeta (seres vivos, biodiversidad del archipiélago canario); materia, fuerzas y energía. Se vincula principalmente con los bloques competenciales 2, 4 y 5.
+    - bloque: II. Tecnología y digitalización
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Digitalización del entorno personal de aprendizaje; proyectos de diseño y pensamiento computacional. Se vincula principalmente con los bloques competenciales 1 y 3.
+    - bloque: III. Sociedades y territorios
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Retos del mundo actual; sociedades en el tiempo; alfabetización cívica; conciencia ecosocial, con especial atención a la sociedad indígena canaria y a la cultura popular del archipiélago.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Utilizar dispositivos y recursos digitales, de manera pautada y de forma segura, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información sencilla, iniciándose en la adopción de un punto de vista respetuoso con la propiedad intelectual, para comunicarse con personas cercanas en entornos conocidos y seguros, usando vocabulario científico básico, y para trabajar cooperativamente.
+        - 1.2. Reelaborar y crear contenidos digitales sencillos, trabajando de forma individual y en equipo, para expresar ideas, sentimientos y conocimientos, de forma creativa y de acuerdo a las necesidades digitales del contexto educativo.
+        - 2.1. Mostrar curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas, realizando predicciones, participando en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales.
+        - 2.2. Buscar información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera pautada, para intercambiarla y utilizarla de forma comprensiva en investigaciones relacionadas con el medio natural, social y cultural canario.
+        - 2.3. Participar en experimentos pautados utilizando técnicas sencillas de indagación, empleando de forma segura los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor, y registrar las observaciones, de forma clara, en diferentes formatos y aprovechando la cultura digital.
+        - 2.4. Proponer respuestas a las preguntas planteadas, comparando la información y los resultados obtenidos con las predicciones realizadas.
+        - 2.5. Comunicar el resultado de las investigaciones, utilizando vocabulario científico básico y explicando los pasos seguidos, con ayuda de un guion y de herramientas digitales, y adoptando un punto de vista creativo.
+        - 3.1. Realizar, de manera pautada, un producto final sencillo que dé solución a un problema de diseño, utilizando, de forma segura, los materiales adecuados y probando, en equipo, diferentes prototipos creativos, reconociendo y respetando las emociones y experiencias de las demás personas como mejora de su aprendizaje así como sus limitaciones, y buscando ayuda en el proceso.
+        - 3.2. Mostrar interés por el pensamiento computacional, participando en la resolución guiada de problemas sencillos y sostenibles de programación, utilizando destrezas creativas, procurando la participación activa de todo el grupo y reconociendo el valor del esfuerzo.
+        - 3.3. Comunicar el producto final de los proyectos de diseño, explicando los pasos seguidos con ayuda de un guion y de herramientas digitales, y valorar el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación.
+        - 4.1. Identificar las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas; regularlas de forma guiada, estableciendo vínculos emocionales a través de la empatía; entender las relaciones familiares y escolares a las que pertenecen, reconociendo su diversidad, y participar en acciones que favorezcan el bienestar físico, emocional y social.
+        - 4.2. Reconocer estilos de vida saludables, participando en acciones para promover la salud, y demostrar interés por la importancia de una alimentación variada, equilibrada y sostenible, de la higiene, del ejercicio físico, del contacto con la naturaleza, del descanso y del uso adecuado de las tecnologías.
+        - 5.1. Reconocer y apreciar las características, la organización y las propiedades de los elementos del medio natural, social y cultural más representativos de la biodiversidad del archipiélago canario, a través de la indagación y de la búsqueda guiada de información sencilla en internet, utilizando las herramientas y los procesos adecuados, de forma pautada, para transmitir y compartir los conocimientos en diferentes formatos.
+        - 5.2. Reconocer conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario, por medio de la observación, la manipulación y la experimentación.
+        - 5.3. Demostrar y promover actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, reconociendo su diversidad y su carácter de bien común, para contribuir a su conservación y salvaguardia.
+        - 6.1. Demostrar estilos de vida sostenibles y mostrar interés por el respeto, el cuidado, la corresponsabilidad y la protección de los elementos y seres del planeta, identificando la relación de las acciones de las personas sobre los elementos y recursos del medio como el suelo y el agua con la finalidad de favorecer un modelo de isla sostenible para Canarias.
+        - 6.2. Participar en acciones guiadas, de manera individual y cooperativa, para buscar soluciones a problemas ecosociales y poner en práctica estilos de vida sostenibles en el entorno próximo.
+        - 7.1. Ordenar temporalmente hechos del entorno social y cultural cercano, empleando nociones básicas de medida y sucesión, reconociendo las particularidades culturales que caracterizan a la sociedad canaria, y transmitir los elementos más relevantes en diferentes formatos.
+        - 7.2. Reconocer personas y grupos sociales relevantes de la historia, incluyendo algunas de las características de los aborígenes canarios, localizando información sencilla y de forma guiada, y visibilizando las aportaciones y representación de las mujeres.
+        - 8.1. Recoger información, empleando estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto, mostrando interés por la diversidad y riqueza que proporcionan a la sociedad canaria, y apreciándolas como fuente de aprendizaje.
+        - 8.2. Demostrar actitudes y participar en actividades comunitarias, que fomenten la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo modelos positivos en el entorno cercano.
+        - 9.1. Establecer acuerdos de forma democrática como parte de grupos próximos a su entorno, identificando las responsabilidades individuales, siendo consciente de sus emociones, ideas y comportamientos, y empleando un lenguaje inclusivo y no violento.
+        - 9.2. Identificar instituciones cercanas señalando y reconocer de las funciones que realizan en pro de una buena convivencia.
+        - 9.3. Reconocer, interiorizar y aplicar normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como personas usuarias de los medios de locomoción, identificando los medios de transportes marítimos y aéreos que conectan el archipiélago, con la finalidad de tomar conciencia de la importancia de la movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Utilizar dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información, respetando la propiedad intelectual; para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y usando la terminología científica básica, y para trabajar cooperativamente, respetando la privacidad y protección del entorno digital de aprendizaje.
+        - 1.2. Reelaborar y crear contenidos digitales sencillos, con diferentes medios, soportes y formatos, trabajando de forma individual y en equipo, para construir, comunicar y compartir nuevos conocimientos, respetando los derechos de autoría y de acuerdo a las necesidades digitales del contexto educativo.
+        - 2.1. Formular preguntas y realizar predicciones razonadas, demostrando curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales.
+        - 2.2. Buscar, seleccionar y comprender información de diferentes fuentes seguras y fiables, adquiriendo léxico científico básico, y utilizándola en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias.
+        - 2.3. Realizar experimentos guiados utilizando diferentes técnicas de indagación y modelos, empleando de forma segura instrumentos y dispositivos, realizando observaciones y mediciones precisas, y registrándolas correctamente en distintos formatos.
+        - 2.4. Proponer posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación de la información y los resultados obtenidos, comparándolos con las predicciones realizadas.
+        - 2.5. Comunicar los resultados de las investigaciones en diferentes formatos, utilizando lenguaje científico básico y explicando los pasos seguidos, adoptando un punto de vista creativo y personal.
+        - 3.1. Construir, en equipo, de forma empática e inclusiva, un producto final sencillo que dé respuesta a un problema de diseño, proponiendo posibles soluciones creativas, utilizando de forma segura las herramientas, las técnicas y los materiales adecuados, y probando diferentes prototipos.
+        - 3.2. Resolver, de forma guiada y empleando estrategias cooperativas, problemas sencillos y sostenibles de programación, modificando algoritmos, de acuerdo con los principios básicos del pensamiento computacional.
+        - 3.3. Comunicar el producto final de los proyectos de diseño en diferentes formatos, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo, explicando los pasos seguidos, y autoevaluando y coevaluando el proceso realizado y el resultado obtenido.
+        - 4.1. Desarrollar, de forma guiada, actitudes que fomenten el bienestar físico, emocional y social, a través de la conciencia, la regulación y la vinculación emocional, y del establecimiento de relaciones afectivas saludables, inclusivas y corresponsables, potenciando la cultura de los cuidados.
+        - 4.2. Desarrollar estilos de vida saludables, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando en acciones fundamentadas científicamente para preservar la salud.
+        - 5.1. Identificar las características, la organización y las propiedades de los elementos del medio natural, social y cultural, partiendo del reconocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada de información, utilizando las herramientas y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos.
+        - 5.2. Identificar conexiones sencillas entre diferentes elementos del medio natural social y cultural, partiendo del reconocimiento de la formación de las islas Canarias, para comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares.
+        - 5.3. Proteger el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora.
+        - 6.1. Poner en práctica estilos de vida sostenibles, reconociendo comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno, así como un uso sostenible del agua, la energía, los residuos y los recursos naturales, expresando los cambios positivos y negativos causados en el medio por la acción humana, y explicando algunos fenómenos que ocurren a su alrededor, para potenciar un modelo de isla sostenible para Canarias.
+        - 6.2. Identificar problemas ecosociales en el entorno cercano, compartidos a nivel mundial, y proponer posibles soluciones, de manera individual y cooperativa, para poner en práctica estilos de vida sostenibles.
+        - 7.1. Localizar, seleccionar e identificar hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión, para comunicarlos, adoptando un punto de vista creativo.
+        - 7.2. Reconocer personas, grupos sociales relevantes y formas de vida de las sociedades, desde la Prehistoria hasta la Edad Antigua, visibilizando las aportaciones y representación de las mujeres en ellas y de personajes históricos representativos en Canarias.
+        - 8.1. Analizar la importancia demográfica, cultural y económica de las migraciones en la actualidad, demostrando respeto y empatía por el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria.
+        - 8.2. Reconocer y valorar las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres, así como las conductas no sexistas, reconociendo modelos positivos a lo largo de la historia, empleando estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad.
+        - 9.1. Realizar actividades en el contexto de la comunidad escolar, asumiendo responsabilidades, estableciendo acuerdos democráticos y empleando un lenguaje inclusivo y no violento.
+        - 9.2. Reconocer los principales órganos de gobierno, incluyendo los ayuntamientos y cabildos insulares en Canarias, y las funciones de las diversas administraciones y de los servicios públicos, reflexionando sobre la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.
+        - 9.3. Participar en actividades comunitarias, de manera constructiva e inclusiva, para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando las señales de tráfico y tomando conciencia de la importancia de una movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Utilizar dispositivos y recursos digitales, de forma segura, responsable, eficiente, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información, evaluando su fiabilidad y utilidad, y respetando la propiedad intelectual, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, usando la terminología científica apropiada, y para trabajar cooperativamente en equipo y en red.
+        - 1.2. Reelaborar y crear contenidos digitales sencillos, de forma individual, en equipo y en red, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y para resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo.
+        - 2.1. Formular preguntas y realizar predicciones razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural, local y global, demostrando y manteniendo la curiosidad; y participar en interacciones comunicativas para intercambiar información, interpretar y valorar el sentido de diversos tipos de textos.
+        - 2.2. Buscar, seleccionar y contrastar información de diferentes fuentes, seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico y utilizándola en investigaciones relacionadas con el medio natural, social y cultural.
+        - 2.3. Diseñar y realizar experimentos guiados, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura las herramientas digitales, los instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas, y registrándolas correctamente.
+        - 2.4. Proponer posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación de la información y de los resultados obtenidos, valorar la coherencia de las posibles soluciones y compararlas con las predicciones realizadas.
+        - 2.5. Comunicar los resultados de las investigaciones, de manera creativa, personal y crítica, adaptando el mensaje y el formato a la audiencia a la que va dirigido, utilizando el lenguaje científico apropiado y explicando los pasos seguidos.
+        - 3.1. Plantear, cooperativamente, problemas de diseño que se resuelvan con la creación de un prototipo o solución digital sencilla y sostenible, evaluando las necesidades del entorno, adoptando posturas críticas en los procesos de reflexión guiados y estableciendo objetivos concretos y compartidos.
+        - 3.2. Diseñar posibles soluciones, creativas y sostenibles, a los problemas planteados, de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta los recursos necesarios y estableciendo criterios concretos para participar en procesos de auto y coevaluación de los proyectos.
+        - 3.3. Desarrollar un producto final, creativo e innovador, que dé solución a un problema de diseño, probando en equipo diferentes prototipos o soluciones digitales, y utilizando, de forma segura, las herramientas, los dispositivos, las técnicas, los materiales y los recursos digitales adecuados.
+        - 3.4. Comunicar el diseño de un producto final, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada, explicando los pasos seguidos, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con iniciativa emprendedora.
+        - 4.1. Promover actitudes que fomenten el bienestar físico, emocional y social, reconociendo y tomando conciencia del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia, desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional, para establecer relaciones afectivas y sociales saludables.
+        - 4.2. Adoptar estilos de vida saludables, aplicando el conocimiento científico y los principios de ética y seguridad, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo.
+        - 5.1. Identificar y analizar las características, la organización y las propiedades de los elementos del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de la información evaluando su fiabilidad y utilidad, y el pensamiento científico, utilizando las herramientas, los instrumentos y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos.
+        - 5.2. Establecer conexiones sencillas entre diferentes elementos del medio natural, social y cultural, reconociendo la formación de las islas Canarias, mostrando comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local.
+        - 5.3. Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, reconociendo las necesidades y los retos a afrontar, y diseñando propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano.
+        - 6.1. Promover y adoptar estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del análisis de las causas y consecuencias de la intervención humana en el entorno, utilizando el pensamiento científico para favorecer un modelo de isla sostenible para Canarias.
+        - 6.2. Participar, con actitud emprendedora, en la búsqueda, el contraste y la evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de la Comunidad Autónoma de Canarias, buscar soluciones y actuar de manera individual y cooperativa en su resolución.
+        - 7.1. Analizar, adoptando una postura crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, desde la Edad Media hasta la actualidad, situando cronológicamente los hechos para comunicarlos, adoptando un punto de vista creativo.
+        - 7.2. Conocer personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando la información y transmitiendo rasgos sociales significativos de las distintas épocas de la historia, visibilizando las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida.
+        - 8.1. Analizar los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando la diversidad cultural y la cohesión social, mostrando empatía y respeto por otras culturas, y apreciando la riqueza que aportan a la sociedad canaria.
+        - 8.2. Promover acciones para la igualdad efectiva entre mujeres y hombres, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual, analizando y contrastando diferentes modelos en nuestra sociedad, y reflexionando y aplicando las normas de convivencia de manera inclusiva.
+        - 9.1. Resolver, de forma pacífica y comunicativa, los conflictos, promoviendo una interacción respetuosa y equitativa, a partir del lenguaje inclusivo y no violento, explicando y ejercitando las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1978, y de la Unión Europea, y reconociendo la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia.
+        - 9.2. Explicar el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía.
+  descriptores_operativos:
+    - CCL3
+    - STEM4
+    - CD1
+    - CD2
+    - CD3
+    - CD4
+    - CD5
+    - CE1
+    - CCEC4
+    - CCL1
+    - CCL2
+    - STEM2
+    - STEM1
+    - STEM3
+    - CPSAA3
+    - CPSAA4
+    - CPSAA5
+    - CE3
+    - STEM5
+    - CPSAA1
+    - CPSAA2
+    - CC4
+    - CCEC1
+    - CCL5
+    - CC1
+    - CC3
+    - CP3
+    - CE2
+    - CC2
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Conocimiento del Medio Natural, Social y Cultural en Educación Primaria Canarias (Decreto 211/2022), impartida en los seis cursos de la etapa. Nueve competencias específicas (C1-C9) que se concretan en veinticuatro criterios de evaluación por ciclo, con saberes básicos organizados en tres bloques: Cultura científica, Tecnología y digitalización, y Sociedades y territorios. Fuerte enfoque en el patrimonio natural, social y cultural canario.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (nueve) y de criterios de evaluación (veinticuatro por ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos coinciden en los tres ciclos para las nueve competencias; se han recogido igualmente como mapa por ciclo (DEC-0008) para mantener el mismo formato en toda la ficha. Los saberes básicos se recogen a nivel de bloque (I-III) con los títulos y vinculaciones literales del decreto; no se han transcrito los ítems N.M individuales de cada bloque.

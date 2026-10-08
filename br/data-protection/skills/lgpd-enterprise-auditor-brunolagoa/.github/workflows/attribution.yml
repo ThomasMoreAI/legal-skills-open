@@ -1,0 +1,36 @@
+name: Attribution
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  attribution:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0
+      # Mesma checagem do CLAUDE.md ("Git attribution"): nenhum commit pode trazer assinatura de IA.
+      - name: Commits sem assinatura de agente de IA
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          HEAD: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+        run: |
+          # Sem commit de base conhecido (branch nova, histórico reescrito), confere só o commit atual.
+          if [[ -z "$BASE" || "$BASE" =~ ^0+$ ]] || ! git cat-file -e "${BASE}^{commit}" 2> /dev/null; then
+            RANGE=(-1 "$HEAD")
+          else
+            RANGE=("${BASE}..${HEAD}")
+          fi
+          if git log "${RANGE[@]}" --format='%h %an <%ae> | %cn <%ce>%n%B' \
+            | grep -inE '^co-authored-by:|noreply@anthropic\.com|generated with claude|🤖'; then
+            echo "Há commit com assinatura de agente de IA. Reescreva a mensagem antes de mesclar."
+            exit 1
+          fi
+          echo "Nenhuma assinatura de agente de IA em: ${RANGE[*]}"

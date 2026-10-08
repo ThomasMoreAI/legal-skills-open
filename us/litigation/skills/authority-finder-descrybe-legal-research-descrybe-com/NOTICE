@@ -1,0 +1,10 @@
+Descrybe Legal Research Workflows
+Copyright 2026 Descrybe
+
+This project is inspired by the public plugin and workflow structure used by
+Anthropic's Claude for Legal project:
+
+https://github.com/anthropics/claude-for-legal
+
+No Anthropic source files are included in this repository. Descrybe maintains
+this project independently.

@@ -6,10 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): banking and 
 
 Jurisdiction: `br` · Practice: `finance` · Skill language: pt
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`Análise de Relatórios de Inteligência Financeira (RIF/COAF)`](skills/analise-rif-andrevictor23-tech/) | Analisa RIF do COAF e gera o Relatório de Análise Financeira (RAF) em .docx. Use ao receber os CSVs do… |
+| [`Análise de Relatórios de Inteligência Financeira (RIF/COAF)`](skills/analise-rif-diegocamara89/) | Análise completa de Relatórios de Inteligência Financeira (RIF) do COAF com geração de Relatório de… |
 | [`Credit Contract Review`](skills/credit-contract-review-bossmann007/) | Revisão de contrato bancário/crédito — juros, CET (Custo Efetivo Total), capitalização, tarifas, crédito… |
 
 ## Cold-start context

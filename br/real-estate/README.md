@@ -4,10 +4,11 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `br` · Practice: `real-estate` · Skill language: pt
 
-## Skills (4)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
+| [`Análise documental e rol fechado`](skills/analise-documental-e-rol-fechado-sbroggioadv/) | Monta o dossiê documental do ato sem inventar checklist, aplicando o rol fechado da Lei 7.433/1985 e do… |
 | [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-foolhardy45/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas… |
 | [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-ranbot-ai/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas… |
 | [`LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA`](skills/leiloeiro-ia/) | Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado… |

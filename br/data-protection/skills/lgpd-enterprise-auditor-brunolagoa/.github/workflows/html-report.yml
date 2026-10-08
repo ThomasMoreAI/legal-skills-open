@@ -1,0 +1,19 @@
+name: HTML report
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  html-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Modelo do relatório em HTML e exemplo público
+        run: bash scripts/tests/test-html-report.sh

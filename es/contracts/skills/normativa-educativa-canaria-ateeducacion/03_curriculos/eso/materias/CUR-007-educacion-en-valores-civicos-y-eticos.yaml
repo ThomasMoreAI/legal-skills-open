@@ -1,0 +1,83 @@
+id: CUR-007
+titulo: "Educación en Valores Cívicos y Éticos — ESO Canarias"
+etapa: "eso"
+materia: "Educación en Valores Cívicos y Éticos"
+ambito: null
+cursos: ["1.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Inquirir e investigar sobre la propia identidad y cuestiones éticas para promover el autoconocimiento y los juicios morales autónomos."
+      enunciado_oficial: "Inquirir e investigar cuanto se refiere a la propia identidad y a cuestiones éticas relativas al propio proyecto vital, analizando críticamente información fiable y generando una actitud reflexiva al respecto, para promover el autoconocimiento y la elaboración de planteamientos y juicios morales de manera autónoma y razonada."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL3, CD1, CD4, CPSAA1, CPSAA2, CPSAA4, CC3]
+    - codigo: "C2"
+      enunciado_resumido: "Actuar e interactuar conforme a normas y valores cívicos y éticos para una convivencia pacífica y democrática comprometida con el bien común."
+      enunciado_oficial: "Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, a partir del reconocimiento fundado de su importancia para regular la vida comunitaria y su aplicación efectiva y justificada en distintos contextos, para promover una convivencia pacífica, respetuosa, democrática y comprometida con el bien común."
+      descriptores:
+        "1.º ESO": [CCL5, CP3, CD3, CC1, CC2, CC3, CCEC1]
+    - codigo: "C3"
+      enunciado_resumido: "Entender la naturaleza interconectada e ecodependiente de las actividades humanas para promover formas de vida sostenibles."
+      enunciado_oficial: "Entender la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas ecosociales de relevancia, para promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, STEM2, STEM5, CD2, CPSAA2, CC4, CE1, CE3]
+    - codigo: "C4"
+      enunciado_resumido: "Mostrar autoestima y empatía con respecto a las demás personas y a la naturaleza."
+      enunciado_oficial: "Mostrar una adecuada estima de sí mismo y del entorno, reconociendo y valorando los sentimientos y emociones propios y ajenos, para el logro de una actitud empática y cuidadosa con respecto a los demás y a la naturaleza."
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA1, CPSAA3, CC3, CCEC3]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Construir un concepto de sí mismo y de su dimensión cívica y moral reconociendo las múltiples dimensiones de su naturaleza y personalidad, desarrollando la autoestima en armonía con las demás personas, a través de la identificación, gestión y comunicación de emociones, afectos y deseos con respeto y empatía hacia los ajenos y mediante la investigación y el diálogo en torno a diversas concepciones sobre la naturaleza humana, generando un concepto de lo que deben ser las relaciones afectivas y afectivo-sexuales sanas."
+          descriptores: ["CCL1", "CCL2", "CPSAA1", "CPSAA2", "CC3"]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Generar y expresar autonomía moral mediante el ejercicio de la deliberación racional, el uso de conceptos éticos, la resolución cooperativa de dilemas morales y el diálogo respetuoso con las demás personas, en torno a distintos valores y modos de vida, así como a problemas relacionados con los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar a través del análisis crítico de información fiable."
+          descriptores: ["CCL1", "CCL2", "CCL3", "CD1", "CD4", "CPSAA1", "CPSAA2", "CPSAA4", "CC3"]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con el bien común y el fomento del ejercicio de la ciudadanía activa y democrática a partir de la investigación sobre la naturaleza social y política del ser humano, el uso y comprensión crítica de los conceptos de «ley», «poder», «soberanía», «justicia», «Estado», «democracia» y «derechos humanos», y mediante el conocimiento del movimiento asociativo y la participación respetuosa, dialogante y constructiva en actividades de grupo que impliquen tomar decisiones colectivas, planificar acciones coordinadas y resolver problemas aplicando procedimientos y principios cívicos, éticos y democráticos explícitos."
+          descriptores: ["CCL5", "CD3", "CC1", "CC3"]
+        - codigo: "2.2"
+          competencia: "C2"
+          enunciado: "Contribuir a generar un compromiso activo con el bien común mediante el análisis y la toma razonada y dialogante de posición en torno a cuestiones éticas de actualidad como los fines y límites éticos de la investigación científica, la pobreza, el derecho al trabajo, la salud, la educación, la justicia y la lucha contra la desigualdad, tomando consciencia de la lucha por una efectiva igualdad de género y del problema de la violencia y explotación sobre las mujeres, a través del análisis de las diversas olas del feminismo y de las medidas de prevención de la desigualdad, la violencia y la discriminación por razón de género y orientación sexual, mostrando igualmente conocimiento de los derechos LGTBI+ y reconociendo la necesidad de respetarlos."
+          descriptores: ["CCL5", "CP3", "CD3", "CC1", "CC2", "CC3"]
+        - codigo: "2.3"
+          competencia: "C2"
+          enunciado: "Contribuir activamente al bienestar social adoptando una posición propia, explícita, informada y éticamente fundamentada sobre el valor y pertinencia de los derechos humanos, el respeto por la diversidad étnico-cultural, la consideración de los bienes públicos globales, la percepción del valor social de los impuestos, así como con la historia democrática de nuestro país y con el Estado de derecho y sus instituciones, los organismos internacionales, las asociaciones civiles y los cuerpos y fuerzas de seguridad del Estado en sus funciones dirigidas al logro de la paz, la seguridad y la solidaridad entre los pueblos y las personas."
+          descriptores: ["CCL5", "CD1", "CC1", "CC2", "CC3", "CCEC1"]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Comprender las relaciones históricas de interconexión, interdependencia y ecodependencia entre nuestras vidas y el entorno, y valorar distintos planteamientos científicos, políticos y éticos con los que afrontar la emergencia climática y la crisis medioambiental, a través del análisis de las causas y consecuencias de los retos ecosociales que nos afectan, mediante la exposición y el debate argumental en torno a los mismos."
+          descriptores: ["CCL1", "CCL2", "STEM2", "STEM5", "CD2", "CPSAA2", "CC4", "CE1", "CE3"]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado personal, de otras personas y del medioambiente, identificando, analizando y expresando de manera asertiva las propias emociones y reconociendo y valorando las ajenas en distintos contextos y en torno a actividades creativas y de reflexión individual o dialogada, deliberando sobre cuestiones éticas y cívicas."
+          descriptores: ["CCL1", "CPSAA1", "CPSAA3", "CC3", "CCEC3"]
+  saberes_basicos:
+    - bloque: "I. Autoconocimiento y autonomía moral"
+      cursos: ["1.º ESO"]
+      detalles: "Investigación ética y resolución de problemas complejos: reconocimiento de los seres humanos como seres morales, libertad y responsabilidad; diálogo y argumentación con normas y empatía. Educación de las emociones y los sentimientos: autoestima personal, igualdad y respeto mutuo en las relaciones afectivas. Conflicto entre moralidad y legalidad: normas y sentimientos morales, derechos individuales e intimidad, conductas adictivas y ciberacoso."
+    - bloque: "II. Sociedad, democracia y justicia"
+      cursos: ["1.º ESO"]
+      detalles: "Sociedad: ser humano como ser social, egoísmo y altruismo. Democracia: principios, procedimientos e instituciones; memoria democrática; ciudadanía y participación; instituciones políticas de la Comunidad Autónoma de Canarias. Justicia: derechos de la infancia y derechos humanos; explotación y violencia contra niñas y mujeres; desigualdad y lucha contra la pobreza; igualdad de género y corresponsabilidad; fenómenos migratorios en Canarias y respeto a la diversidad étnico-cultural; derechos LGTBI+; fines y límites éticos de la investigación científica; acciones a favor de la paz y papel de ONG y ONGD."
+    - bloque: "III. Desarrollo sostenible y ética ambiental"
+      cursos: ["1.º ESO"]
+      detalles: "Ecodependencia entre nuestras formas de vida y el entorno; planteamientos éticos, científicos y políticos sobre los problemas ecosociales; Objetivos de Desarrollo Sostenible y decrecimiento en consonancia con la Agenda Canaria de Desarrollo Sostenible 2030; ética de los cuidados y ecofeminismo; hábitos de vida sostenible y consumo responsable; compromiso activo con la protección de los animales."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM2", "STEM5", "CD1", "CD2", "CD3", "CD4", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC3"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Educación en Valores Cívicos y Éticos en 1.º ESO Canarias, regulado por el Decreto 30/2023. Articula cuatro competencias específicas (C1-C4) y siete criterios de evaluación en torno al autoconocimiento y autonomía moral, la convivencia democrática, la sostenibilidad y la gestión emocional. Incluye saberes propios de Canarias (instituciones autonómicas, fenómenos migratorios, Agenda Canaria de Desarrollo Sostenible 2030)."
+observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023 publicado por la Consejería de Educación de Canarias. Se incorporan los cuatro enunciados oficiales de competencias específicas, los siete criterios de evaluación con sus descriptores operativos y la síntesis de los tres bloques de saberes básicos. La materia se imparte únicamente en 1.º ESO."

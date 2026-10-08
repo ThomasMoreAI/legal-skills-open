@@ -1,0 +1,15 @@
+{
+  "name": "co-real-estate",
+  "displayName": "Real Estate — CO",
+  "version": "0.1.0",
+  "description": "Real Estate skills for CO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/contrato-arrendamiento-orwel",
+    "skills/promesa-compraventa-orwel"
+  ]
+}

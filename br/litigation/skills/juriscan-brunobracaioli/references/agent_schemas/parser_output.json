@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/parser_output.json",
+  "title": "juriscan-parser output",
+  "description": "Structured analysis of ONE legal piece (chunk). Shape is intentionally compatible with the legacy chunk object produced by scripts/extract_and_chunk.py + per-chunk analysis, so the downstream legacy pipeline can consume parser outputs during the transition (Phase 2). Numeric/date fields live as raw strings here — enrich_deterministic.py normalizes them afterward.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schema_version", "chunk_id", "index", "tipo_peca"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "chunk_id": {
+      "type": "string",
+      "description": "The id from segmenter output (e.g. 'c00')."
+    },
+    "index": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Sequential chunk index (matches index.json)."
+    },
+    "tipo_peca": {
+      "type": "string",
+      "description": "Refined classification from references/piece_type_taxonomy.json. May correct the segmenter's tipo_provavel when content contradicts the header."
+    },
+    "instancia": {
+      "type": "string",
+      "enum": ["1a_instancia", "tj", "trf", "tst", "stj", "stf", "tse", "stm", "desconhecida"],
+      "description": "Judicial instance as inferred from piece content."
+    },
+    "polo": {
+      "type": "string",
+      "enum": ["ativo", "passivo", "ministerial", "juizo", "tribunal", "n/a"]
+    },
+    "primary_date": {
+      "type": ["string", "null"],
+      "description": "Main date of this piece as raw text (DD/MM/YYYY or written Portuguese). Normalized by enrich_deterministic.py."
+    },
+    "dates_found": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "processo_number": {
+      "type": ["string", "null"],
+      "description": "CNJ as raw text. Validated by enrich_deterministic.py."
+    },
+    "partes": {
+      "type": "object",
+      "properties": {
+        "autores": { "type": "array", "items": { "type": "string" } },
+        "reus": { "type": "array", "items": { "type": "string" } },
+        "mp": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "fatos_relevantes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pedidos": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "valores": {
+      "type": "object",
+      "description": "Raw monetary strings. enrich_deterministic.py re-normalizes with utils.monetary.normalize_brl.",
+      "properties": {
+        "causa": { "type": ["string", "null"] },
+        "condenacao": { "type": ["string", "null"] },
+        "honorarios": { "type": ["string", "null"] },
+        "outros": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "descricao": { "type": "string" },
+              "valor": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "jurisprudencia": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Citations found verbatim. Phase 4 verificador checks these against authoritative sources."
+    },
+    "legislacao": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "decisao": {
+      "type": ["string", "null"],
+      "description": "For SENTENÇA/ACÓRDÃO/DECISÃO: the dispositivo in a few sentences."
+    },
+    "acordao_detail": {
+      "type": ["object", "null"],
+      "description": "Tripartite parsing for ACÓRDÃO only.",
+      "properties": {
+        "ementa": { "type": "string" },
+        "relator": { "type": "string" },
+        "camara_turma": { "type": "string" },
+        "session_date": { "type": "string" },
+        "resultado": { "type": "string" },
+        "unanime": { "type": "boolean" },
+        "votacao": { "type": "string" },
+        "votos_divergentes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "julgador": { "type": "string" },
+              "posicao": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "confianca_parsing": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "observacoes": {
+      "type": "string",
+      "description": "Free-form notes from the parser (e.g. 'partial OCR — fatos may be incomplete')."
+    }
+  }
+}

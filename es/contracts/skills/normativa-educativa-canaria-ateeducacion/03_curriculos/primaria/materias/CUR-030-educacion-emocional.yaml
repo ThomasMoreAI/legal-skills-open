@@ -1,0 +1,249 @@
+id: CUR-030
+titulo: Educación Emocional y para la Creatividad — Primaria Canarias
+etapa: primaria
+materia: Educación Emocional y para la Creatividad
+cursos:
+  - 1.º
+  - 2.º
+  - 3.º
+  - 4.º
+  - 5.º
+  - 6.º
+norma_base: NOR-043
+fuente: FTE-046
+url_oficial: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-08-05'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  competencias_especificas:
+    - codigo: C1
+      enunciado_oficial: Analizar y reconocer las emociones como propias, percibiendo las señales corporales y comprendiéndolas, en diferentes situaciones de la vida cotidiana, con la finalidad de desarrollar la conciencia emocional y el autoconocimiento personal.
+      descriptores:
+        Primer ciclo:
+          - CCL2
+          - CCL5
+          - CPSAA1
+          - CPSAA2
+          - CCEC3
+        Segundo ciclo:
+          - CCL2
+          - CCL5
+          - CPSAA1
+          - CPSAA2
+          - CCEC3
+        Tercer ciclo:
+          - CCL1
+          - CCL2
+          - CCL5
+          - STEM5
+          - CPSAA1
+          - CPSAA2
+          - CCEC3
+    - codigo: C2
+      enunciado_oficial: Asumir la responsabilidad de gestionar las propias experiencias emocionales, regulando y cambiando las emociones, en el caso de que sean desadaptativas, para construir una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales.
+      descriptores:
+        Primer ciclo:
+          - CCL5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA5
+          - CCEC3
+        Segundo ciclo:
+          - CCL5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA5
+          - CCEC3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CPSAA1
+          - CPSAA2
+          - CPSAA5
+          - CCEC3
+    - codigo: C3
+      enunciado_oficial: Desarrollar la capacidad empática siendo capaces de comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, estableciendo vínculos afectivos de manera que se desarrolle una sociabilidad emocional auténtica.
+      descriptores:
+        Primer ciclo:
+          - CCL1
+          - CCL5
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE3
+        Segundo ciclo:
+          - CCL1
+          - CCL5
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE3
+        Tercer ciclo:
+          - CCL1
+          - CCL5
+          - CP3
+          - CD2
+          - CD3
+          - CPSAA3
+          - CC1
+          - CC2
+          - CC3
+          - CE3
+    - codigo: C4
+      enunciado_oficial: Expresar el compromiso emocional con las personas y la sociedad implementando proyectos colectivos de carácter emprendedor en el ámbito escolar y social, a través del desarrollo de la creatividad y la utilización múltiples lenguajes, con la finalidad de promover la autoconfianza en las propias capacidades creativas y aportar beneficios para toda la comunidad.
+      descriptores:
+        Primer ciclo:
+          - CCL3
+          - STEM3
+          - STEM5
+          - CD1
+          - CD2
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA5
+          - CE1
+          - CE2
+          - CE3
+          - CCEC3
+          - CCEC4
+        Segundo ciclo:
+          - CCL3
+          - STEM3
+          - STEM5
+          - CD1
+          - CD2
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA5
+          - CE1
+          - CE2
+          - CE3
+          - CCEC3
+          - CCEC4
+        Tercer ciclo:
+          - STEM3
+          - STEM5
+          - CD2
+          - CD3
+          - CD5
+          - CPSAA3
+          - CPSAA5
+          - CE2
+          - CE3
+          - CCEC3
+          - CCEC4
+  saberes_basicos:
+    - bloque: 'I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones'
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Aplicación multimodal y uso de estrategias inclusivas para la integración de vocabulario emocional, identificación, categorización, percepción, reconocimiento, comprensión y expresión de las emociones, con el fin de tomar conciencia de las propias emociones y contribuir al autodescubrimiento.
+    - bloque: II. Autorregulación emocional responsable y resiliencia educativa
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Gestión y regulación de las experiencias emocionales propias, tanto adaptativas como desadaptativas; estrategias emocionales, resiliencia y automotivación; tolerancia a la frustración, autoestima y habilidades socioemocionales para la vida.
+    - bloque: III. Empatía, comunicación e interacción socioemocional
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Vinculación emocional para que las relaciones alcancen el impacto deseado; escucha activa, empatía, diálogo reflexivo y comunicación afectiva para crear un clima emocional apropiado que favorezca el vínculo afectivo y efectivo.
+    - bloque: 'IV. Autoconfianza creativa: técnicas creativas aplicadas a múltiples lenguajes expresivos y estimulación multisensorial'
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Aplicación de técnicas para incrementar el potencial creativo del alumnado atendiendo a la dimensión holística de la persona (cognitiva, afectiva, social, motriz); trabajo de la autoconfianza en las propias capacidades creativas.
+    - bloque: 'V. Emprendeduría social: compromiso y vínculo con las personas como recurso de la creatividad emocional'
+      cursos:
+        - 1.º
+        - 2.º
+        - 3.º
+        - 4.º
+        - 5.º
+        - 6.º
+      detalles: Desarrollo del espíritu emprendedor desde una vertiente social y de compromiso con las demás personas; identificación y gestión de estados emocionales para superar las dificultades en la generación de un proyecto personal, social o medioambiental.
+  criterios_evaluacion:
+    - ciclo: Primer ciclo
+      criterios:
+        - 1.1. Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional.
+        - 1.2. Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada.
+        - 2.1. Actuar con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones y asumiendo las consecuencias de sus actos, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.
+        - 2.2. Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas.
+        - 3.1. Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa.
+        - 3.2. Reconocer las emociones en las demás personas expresando sentimientos hacia ellas, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales.
+        - 4.1. Identificar los principios y las estrategias de pensamiento creativo, iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial; así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.
+        - 4.2. Favorecer el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.
+    - ciclo: Segundo ciclo
+      criterios:
+        - 1.1. Identificar las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas y reconociéndolas como propias, para favorecer el autodescubrimiento personal y la conciencia emocional.
+        - 1.2. Comprender y analizar las emociones que experimenta, reflexionando y estableciendo relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, para adecuar sus reacciones y favorecer su autoconocimiento emocional.
+        - 2.1. Actuar en diferentes contextos, asumiendo la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.
+        - 2.2. Regular las experiencias emocionales desajustadas, adecuando su intensidad, duración y vivencia desagradable, utilizando estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio.
+        - 3.1. Comunicar, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo los sentimientos de las demás personas y demostrando una actitud de respeto y de apertura hacia ellas, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.
+        - 3.2. Reconocer las emociones en las demás personas, expresando sentimientos hacia ellas, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.
+        - 4.1. Experimentar los principios y las estrategias de pensamiento creativo, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, comprendiendo las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.
+        - 4.2. Desarrollar el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.
+    - ciclo: Tercer ciclo
+      criterios:
+        - 1.1. Analizar y asumir las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.
+        - 2.1. Actuar en diferentes contextos, asumiendo la responsabilidad emocional y su influencia en la propia conducta, y reparando, si fuera necesario, los daños causados, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.
+        - 2.2. Cambiar, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas por otras emociones adaptativas, para desarrollar la capacidad de modificación afectiva.
+        - 3.1. Comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, abriéndose a conocerlas y a dejarse conocer, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.
+        - 3.2. Reconocer las emociones en las demás personas y experimentar sentimientos hacia ellas, a través del desarrollo de escucha activa, aplicando modelos empáticos y promoviendo la conciencia emocional, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.
+        - 4.1. Aplicar principios y estrategias de pensamiento creativo, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, y superando los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.
+        - 4.2. Comprometerse emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.
+  descriptores_operativos:
+    - CCL2
+    - CCL5
+    - CPSAA1
+    - CPSAA2
+    - CCEC3
+    - CCL1
+    - STEM5
+    - CPSAA5
+    - CD3
+    - CPSAA3
+    - CC1
+    - CC2
+    - CC3
+    - CE3
+    - CP3
+    - CD2
+    - CCL3
+    - STEM3
+    - CD1
+    - CD5
+    - CE1
+    - CE2
+    - CCEC4
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a:
+    - NOR-043
+  relacionada_con: []
+resumen_ia: 'Currículo de Educación Emocional y para la Creatividad en Educación Primaria Canarias (Decreto 211/2022), materia transversal propia del currículo canario impartida en los seis cursos de la etapa. Cuatro competencias específicas (C1-C4) que se concretan en ocho criterios de evaluación en Primer y Segundo ciclo y siete en Tercer ciclo, con saberes básicos organizados en cinco bloques, no independientes sino interrelacionados: Conciencia emocional, Autorregulación emocional responsable y resiliencia educativa, Empatía, comunicación e interacción socioemocional, Autoconfianza creativa, y Emprendeduría social.'
+observaciones: Extracción literal completada el 2026-08-05 a partir de la reexportación en texto plano del PDF oficial del BOC (07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt, TAREA-077). Los enunciados de competencias específicas y los criterios de evaluación se han extraído literalmente del Anexo 2, contrastando el número de competencias (cuatro) y de criterios de evaluación (ocho en Primer y Segundo ciclo, siete en Tercer ciclo) contra lo declarado explícitamente en el propio decreto. Los descriptores operativos varían según el ciclo en las competencias C1, C2, C3 y C4, conforme a DEC-0008. Los saberes básicos se recogen a nivel de bloque (I-V) con los títulos literales del decreto; no se han transcrito los ítems numerados individuales de cada bloque. Corrige los títulos de los bloques III, IV y V de saberes básicos, que en la ficha anterior no se correspondían con el texto oficial (el decreto los denomina «Empatía, comunicación e interacción socioemocional», «Autoconfianza creativa...» y «Emprendeduría social...», y no «Autonomía emocional y bienestar personal» ni «Competencia social» ni «Creatividad y emprendimiento social» como figuraba antes).

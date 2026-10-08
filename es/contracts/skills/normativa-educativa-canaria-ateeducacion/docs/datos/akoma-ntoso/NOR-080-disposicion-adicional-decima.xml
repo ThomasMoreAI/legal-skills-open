@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2023-07-18/659">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/!dis_adi_decima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2023/07/18/659/con"/>
+          <FRBRdate date="2023-07-18" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="659"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/!dis_adi_decima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@"/>
+          <FRBRdate date="2023-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/xml/!dis_adi_decima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_adi_decima" name="disposicion-adicional">
+        <num>Disposición adicional décima.</num>
+        <heading>Equivalencia de los certificados de profesionalidad.</heading>
+        <paragraph eId="dis_adi_decima__para_1">
+          <num>1.</num>
+          <content><p>Los certificados de profesionalidad de nivel 1 expedidos con arreglo a la regulación prevista en el Real Decreto 34/2008, de 18 de enero, por el que se regulan los certificados de profesionalidad, se consideran equivalentes a todos los efectos, profesionales y de acceso a empleos públicos y privados a los certificados profesionales de nivel 1.</p></content>
+        </paragraph>
+        <paragraph eId="dis_adi_decima__para_2">
+          <num>2.</num>
+          <content><p>Los certificados de profesionalidad de nivel 2 expedidos con arreglo a la regulación prevista en el Real Decreto 34/2008, se consideran equivalentes a todos los efectos, profesionales y de acceso a empleos públicos y privados a los certificados profesionales de nivel 2.</p></content>
+        </paragraph>
+        <paragraph eId="dis_adi_decima__para_3">
+          <num>3.</num>
+          <content><p>Los certificados de profesionalidad de nivel 3 expedidos con arreglo a la regulación prevista en el Real Decreto 34/2008, se consideran equivalentes a todos los efectos profesionales y de acceso a empleos públicos y privados a los certificados profesionales de nivel 3.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `ca` · Practice: `administrative` · Skill language: en
 
-## Skills (5)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
@@ -14,6 +14,7 @@ Jurisdiction: `ca` · Practice: `administrative` · Skill language: en
 | [`User Request`](skills/arckit-ca-atip-tractorjuice/) | [COMMUNITY] Generate a Canada ATIP reconciliation — Access to Information Act exemption mapping, Privacy… |
 | [`User Request`](skills/arckit-ca-ola-tractorjuice/) | [COMMUNITY] Generate an Official Languages Act review — Parts IV (services), V (language of work), VI… |
 | [`BC Judicial Review Guide (RTB / tribunal → BCSC)`](skills/bc-judicial-review-guide-dmang69/) | Use when BC RTB/tribunal JR, Form 66, stay, or ATA s.57/s.58 work is needed. Patent unreasonableness… |
+| [`Compensation Provisions Deep-Dive (s.13-18)`](skills/ontario-expropriations-act-statutory-interpretation-reggiechan74/) | Use when interpreting specific OEA (R.S.O. 1990, c. E.26) provisions — compensation under s.13-18… |
 | [`The Municipal Code of Québec (C-27.1)`](skills/quebec-municipal-law-vezril/) | The Municipal Code of Québec (CQLR c. C-27.1) — the general statute for local (mainly rural)… |
 
 ## Cold-start context

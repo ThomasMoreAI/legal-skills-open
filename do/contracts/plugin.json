@@ -1,0 +1,14 @@
+{
+  "name": "do-contracts",
+  "displayName": "Contracts — DO",
+  "version": "0.1.0",
+  "description": "Contracts skills for DO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "do",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-republica-dominicana-orwel"
+  ]
+}

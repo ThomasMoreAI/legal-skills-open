@@ -1,0 +1,16 @@
+{
+  "name": "co-litigation",
+  "displayName": "Litigation — CO",
+  "version": "0.1.0",
+  "description": "Litigation skills for CO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/calculo-terminos-cgp-orwel",
+    "skills/investigacion-juridica-cadavidalvarado",
+    "skills/redaccion-demanda-orwel"
+  ]
+}

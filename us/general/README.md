@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `us` · Practice: `general` · Skill language: en
 
-## Skills (26)
+## Skills (29)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`$law-student:bar-prep-questions`](skills/bar-prep-questions-alexchlou/) | Bar prep questions — MBE or essay, targeted at your weak subjects and bar jurisdiction. Tracks misses… |
 | [`Billing & Operations`](skills/billing-operations-judicialmind/) | Legal billing and law firm operations skill for time tracking, invoicing, and financial management. Use… |
 | [`Legal Billing Summary`](skills/billing-summary/) | Produces privilege-safe U.S. corporate legal billing summaries from time and expense data. Converts… |
+| [`When to Use`](skills/canada-iiroc-electronic-trading-rules-himanshuj16/) | Use when routing orders to Canadian marketplaces such as TSX, TSX Venture, Cboe Canada or an ATS, where… |
 | [`$law-student:case-brief`](skills/case-brief-alexchlou/) | Brief a case in your preferred format. In drill-me mode, makes the student state the holding first. Use… |
 | [`Case Management`](skills/case-management-judicialmind/) | Legal case and matter management skill for law firm operations. Use when the user needs assistance with… |
 | [`Chain-Cite`](skills/chain-cite-jslandau/) | Use when the user wants to trace a single legal proposition backward through its citation graph to find… |
@@ -19,6 +20,7 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`Legal Client Intake`](skills/client-intake-canhada-labs/) | Legal client intake discipline for conflict-of-interest screening, capacity assessment… |
 | [`Client Intake`](skills/client-intake-judicialmind/) | Client intake and onboarding skill for law firm operations. Use when the user needs assistance with new… |
 | [`Cold call prep`](skills/cold-call-prep-bossmann007/) | Prep for a cold-call — predict the professor's likely questions and drill them Socratically, flagging… |
+| [`/cold-start-interview`](skills/cold-start-interview-lawdroidai/) | Managing attorney's one-time office setup — practice areas, funding sources and eligibility guidelines… |
 | [`Law Standards`](skills/law-standards-sencersoylu/) | Standards and conventions for legal scholarship — law review articles, empirical legal studies… |
 | [`Legal Billing`](skills/legal-billing-canhada-labs/) | Legal billing and time-tracking discipline for law firms and legal departments. Covers billable vs.… |
 | [`Legal Doctrine — Rules, NY Distinctions, Traps`](skills/legal-doctrine-cure-consulting-group/) | Black-letter law and NY practice references with bar-exam traps. Use when analyzing a legal issue… |
@@ -34,3 +36,4 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`Tax Return Summary`](skills/tax-return-summary/) | Produces structured, citation-backed summaries of tax returns (Form 1040, schedules, W-2s, 1099s) for… |
 | [`US Counsel`](skills/us-counsel-rohasnagpal/) | Applies vCLO's United States jurisdiction layer to a US legal matter. Use whenever US federal, State… |
 | [`US/UK Legal Writing für Deutsche`](skills/us-uk-legal-writing-fuer-deutsche/) | Für US/UK Legal Writing für Deutsche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Verify Attorney`](skills/verify-attorney-skill-swapniltamse/) | Use when a user, or someone they are helping, wants to check whether a lawyer, law firm, "immigration… |

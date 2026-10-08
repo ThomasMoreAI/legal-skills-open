@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1280px; height:640px; }
+  body{
+    font-family:"Segoe UI",system-ui,Arial,sans-serif;
+    background:#0b0b0d; color:#fff; width:1280px; height:640px; position:relative; overflow:hidden;
+  }
+  .glow{ position:absolute; width:620px; height:620px; right:-160px; top:-200px;
+    background:radial-gradient(circle, rgba(0,56,168,.18), transparent 62%); }
+  .wrap{ position:absolute; inset:0; padding:78px 84px; display:flex; flex-direction:column; justify-content:center; }
+  .top{ display:flex; align-items:center; gap:20px; margin-bottom:30px; }
+  /* bandera de Uruguay: 9 franjas (5 blancas, 4 azules) + cantón blanco con Sol de Mayo */
+  .flag{ width:174px; height:116px; border-radius:10px; overflow:hidden; position:relative;
+    box-shadow:0 12px 34px rgba(0,0,0,.55); flex:none; background:#fff;
+    background-image:repeating-linear-gradient(#fff 0, #fff 11.11%, #0038a8 11.11%, #0038a8 22.22%);
+    background-size:100% 100%; }
+  /* redibujar franjas correctamente: 9 franjas iguales */
+  .flag .stripes{ position:absolute; inset:0;
+    background:linear-gradient(#fff 0 11.111%, #0038a8 11.111% 22.222%, #fff 22.222% 33.333%,
+      #0038a8 33.333% 44.444%, #fff 44.444% 55.555%, #0038a8 55.555% 66.666%,
+      #fff 66.666% 77.777%, #0038a8 77.777% 88.888%, #fff 88.888% 100%); }
+  .flag .canton{ position:absolute; top:0; left:0; width:38.6%; height:55.55%; background:#fff;
+    display:flex; align-items:center; justify-content:center; }
+  .flag .canton .sun{ color:#fcd116; font-size:40px; line-height:1; text-shadow:0 0 2px #c8920f; }
+  .kicker{ font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#9aa0ab; font-weight:700; }
+  .kicker b{ color:#fff; }
+  h1{ font-size:108px; font-weight:800; letter-spacing:-2px; line-height:1; }
+  h1 .uy{ color:#0038a8; }
+  .tag{ font-size:38px; color:#eef1f6; margin-top:26px; max-width:1060px; line-height:1.25; font-weight:600; }
+  .sub{ font-size:27px; color:#9aa0ab; margin-top:16px; max-width:1040px; line-height:1.3; }
+  .chips{ display:flex; gap:14px; margin-top:42px; flex-wrap:wrap; }
+  .chip{ font-size:23px; padding:12px 22px; border-radius:999px; background:#16171b;
+    border:1px solid #2a2c33; color:#e8eaf0; }
+  .chip b{ color:#fff; }
+  .foot{ position:absolute; right:84px; bottom:46px; font-size:22px; color:#6b7080; letter-spacing:.5px; }
+  .base{ position:absolute; left:0; right:0; bottom:0; height:10px; background:#0038a8; }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="top">
+      <div class="flag"><div class="stripes"></div><div class="canton"><span class="sun">☀</span></div></div>
+      <span class="kicker">Cumplimiento legal · <b>Uruguay</b></span>
+    </div>
+    <h1>compliance<span class="uy">-uy</span></h1>
+    <div class="tag">Audita tu app y deja listos tus documentos de cumplimiento.</div>
+    <div class="sub">Cada hallazgo apunta al artículo de la ley que lo respalda.</div>
+    <div class="chips">
+      <div class="chip">⚖️ Ley <b>18.331</b> · Protección de Datos</div>
+      <div class="chip">🛡️ Ley <b>19.574</b> · Prevención de LA/FT</div>
+      <div class="chip">🔒 Open Source · MIT</div>
+    </div>
+  </div>
+  <div class="foot">Claude Code skill · github.com/compliance-uy/compliance-uy</div>
+  <div class="base"></div>
+</body>
+</html>

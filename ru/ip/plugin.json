@@ -1,0 +1,14 @@
+{
+  "name": "ru-ip",
+  "displayName": "Intellectual Property — RU",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for RU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ru",
+  "practice": "ip",
+  "language": "en",
+  "skills": [
+    "skills/infringement-triage-alskozlov"
+  ]
+}

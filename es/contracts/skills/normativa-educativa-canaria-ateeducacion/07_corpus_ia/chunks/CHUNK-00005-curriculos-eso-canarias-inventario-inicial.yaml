@@ -1,0 +1,25 @@
+id: CHUNK-00005
+origen_tipo: "analisis"
+origen_id: AN-002
+titulo: "Currículos ESO Canarias — inventario inicial"
+texto: >
+  Los currículos ESO de Canarias se han registrado inicialmente con estado de extracción pendiente a partir de la fuente oficial `FTE-002`. La norma autonómica final de currículo ESO/Bachillerato sigue pendiente de confirmación documental; ver `PREG-001`.
+metadatos:
+  ambito: "canarias"
+  etapa: [eso]
+  temas: [curriculo]
+  estado_vigencia: "Pendiente de verificación"
+  fuente: FTE-002
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
+  fecha_consulta: 2026-04-25
+  fecha_analisis: 2026-04-25
+  localizacion: "Portal curricular ESO"
+relaciones:
+  normas: [NOR-003]
+  curriculos: [CUR-001, CUR-023]
+  chunks_relacionados: [CHUNK-00003, CHUNK-00004]
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+nivel_evidencia: "confirmado-fuente-primaria"

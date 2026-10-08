@@ -1,0 +1,57 @@
+name: extranjeria-trabajo
+display_name: Extranjería — Permisos de Trabajo
+description: >
+  Guía completa sobre las autorizaciones de trabajo para extranjeros en
+  España: trabajo por cuenta ajena, trabajo por cuenta propia (autónomo
+  extranjero), Catálogo de Ocupaciones de Difícil Cobertura (CODC),
+  Situación Nacional de Empleo (SNE), Tarjeta Azul UE, trabajo de
+  temporada, modificación de situación (de estudiante a trabajo),
+  compatibilidad de permisos y derechos laborales.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones / SEPE
+tags: [extranjería, permiso de trabajo, cuenta ajena, cuenta propia, CODC, Tarjeta Azul UE, trabajo de temporada, modificación situación, inmigración, España]
+
+links:
+  website: https://extranjeros.inclusion.gob.es
+  codc: https://www.sepe.es/HomeSepe/empresas/informacion-para-empresas/profesiones-de-dificil-cobertura.html
+  sepe: https://www.sepe.es
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+
+license:
+  data: Información pública del Ministerio de Inclusión y del SEPE
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre permisos de trabajo
+    para extranjeros y redirige a skills específicas (extranjeria-residencia,
+    laboral-contratos, seguridad-social) para temas complementarios.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de autorizaciones de trabajo (cuenta ajena, cuenta propia, Tarjeta Azul UE, temporada)
+    - Requisitos del trabajador y del empleador
+    - Situación Nacional de Empleo (SNE) y Catálogo de Ocupaciones de Difícil Cobertura (CODC)
+    - Procedimiento de solicitud y plazos
+    - Trabajo por cuenta propia (autónomo extranjero)
+    - Modificación de situación (de estudiante a trabajo, etc.)
+    - Compatibilidad de permisos de residencia con trabajo
+    - Derechos de ciudadanos UE/EEE/Suiza
+  not_accessible:
+    - Tramitación real de permisos (requiere Oficina de Extranjería)
+    - CODC actualizado en tiempo real (publicación trimestral del SEPE)
+    - Detalle sobre tipos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre el NIE (usar skill extranjeria-nie)
+    - Detalle sobre contratos de trabajo (usar skill laboral-contratos)
+    - Alta en Seguridad Social (usar skill seguridad-social)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

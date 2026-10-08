@@ -1,0 +1,18 @@
+{
+  "name": "gt-general",
+  "displayName": "General — GT",
+  "version": "0.1.0",
+  "description": "General skills for GT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gt",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-guatemala-orwel",
+    "skills/analisis-jurisprudencial-guatemala-orwel",
+    "skills/due-diligence-general-guatemala-orwel",
+    "skills/elaboracion-concepto-juridico-guatemala-orwel",
+    "skills/investigacion-juridica-guatemala-orwel"
+  ]
+}

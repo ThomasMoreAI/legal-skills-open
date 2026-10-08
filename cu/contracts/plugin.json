@@ -1,0 +1,14 @@
+{
+  "name": "cu-contracts",
+  "displayName": "Contracts — CU",
+  "version": "0.1.0",
+  "description": "Contracts skills for CU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cu",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/creacion-contrato-cuba-orwel"
+  ]
+}

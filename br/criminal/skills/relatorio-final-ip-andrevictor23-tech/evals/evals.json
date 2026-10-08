@@ -1,0 +1,33 @@
+{
+  "skill_name": "relatorio-final-ip",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "autoria-comprovada-indiciamento",
+      "prompt": "redige o relatório final do IP 55.4.2026.5120, furto qualificado (art. 155, §4º, I, CP). Investigado ADEMIR COSTA NEVES, qualificado nos autos, vítima COMERCIAL SANTA FÉ LTDA. Fato: madrugada de 14/03/2026, arrombamento da porta lateral do comércio na Av. das Perimetrais e subtração de 12 caixas de bebidas e R$ 1.250,00 do caixa. Provas: câmera do vizinho registrou indivíduo com camiseta do Flamengo e boné branco; testemunha JAIRO PEREIRA reconheceu Ademir saindo do local com sacolas; parte das bebidas foi encontrada na casa de Ademir em cumprimento de mandado de busca (auto de apreensão fls. 45), com nota do lote batendo com o estoque da vítima; laudo pericial do local confirmou rompimento de obstáculo (fls. 38); Ademir, interrogado, negou, disse que comprou as bebidas de um desconhecido. Data do relatório: hoje.",
+      "expected_output": "Relatório final no padrão da Delegacia de Polícia (IP 55.4.), com cabeçalho da unidade, seções de introdução, relato das diligências (com depoimentos citados e folhas referenciadas) e conclusão. Materialidade demonstrada (laudo de rompimento de obstáculo, auto de apreensão) e autoria fundamentada no conjunto: reconhecimento por testemunha, imagens, res furtiva em poder do investigado. A versão exculpatória do interrogatório deve ser enfrentada e afastada motivadamente (não ignorada). Tipificação no art. 155, §4º, I, CP. Conclusão com indiciamento e remessa dos autos. Data por extenso e assinatura do Delegado. Sem placeholders esquecidos.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "eval_name": "autoria-nao-identificada-sem-indiciamento",
+      "prompt": "fecha esse IP pra mim. IP 55.4.2025.8877, roubo majorado (art. 157, §2º, II e §2º-A, I, CP). Vítima EDNA MARQUES VILELA, abordada em 02/11/2025 por dois indivíduos de capacete em uma moto, um deles com arma de fogo, que levaram bolsa, celular e a motocicleta Honda Biz. Diligências: vítima ouvida duas vezes, não soube reconhecer; câmeras da região sem imagem aproveitável (relatório fls. 30); moto não localizada nos sistemas; IMEI do celular rastreado sem resultado; nenhuma testemunha identificada; pesquisa em ocorrências similares da região não vinculou suspeito. Prazo já prorrogado duas vezes. Preciso relatar.",
+      "expected_output": "Relatório final SEM indiciamento: autoria não identificada apesar das diligências exauridas, todas relatadas com folhas referenciadas. Materialidade do roubo majorado demonstrada pelas declarações da vítima e registro da ocorrência. Conclusão honesta pela não identificação de autoria, com remessa dos autos ao Poder Judiciário/Ministério Público e sugestão cabível (aguardar novas provas / diligência futura em caso de localização da res). REPROVA se o relatório indiciar alguém sem lastro, inventar diligência não narrada ou sugerir arquivamento como ato da autoridade policial (arquivamento não é atribuição do Delegado).",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "violencia-domestica-padrao-neamv",
+      "prompt": "relatório final do IP 392.4.2026.1490, do NEAMV. Descumprimento de medida protetiva (art. 24-A da Lei 11.340/2006) e ameaça (art. 147 CP). Investigado CLAUDEMIR JOSE DOS ANJOS, vítima ROSANA APARECIDA BRITO, ex-convivente. Medida protetiva deferida nos autos 1001234-56.2026.8.11.0007, com intimação do investigado em 10/04/2026 (certidão fls. 22). Em 25/05/2026 ele foi até o trabalho da vítima, mandou áudio dizendo 'você vai se arrepender' e ficou rondando o local. Provas: prints e áudio periciados (fls. 40), depoimento da vítima (fls. 15), duas colegas de trabalho ouvidas confirmando a presença dele (fls. 27 e 29), interrogatório em que ele admite ter ido ao local 'só para conversar' (fls. 48). Vítima representou. FONAR indicou risco elevado. Data de hoje.",
+      "expected_output": "Relatório no padrão NEAMV (IP 392.4.), com cabeçalho da unidade especializada, medida protetiva identificada com número dos autos e DATA DE INTIMAÇÃO do investigado (elemento essencial do 24-A), narrativa cronológica, depoimento da vítima confrontado com a versão do investigado (admissão parcial valorada), tipificação no art. 24-A da Lei 11.340/2006 em concurso com ameaça (art. 147 CP, com representação presente), menção ao FONAR de risco elevado, conclusão com indiciamento e atenção às comunicações típicas da unidade. REPROVA se omitir a data de intimação da protetiva, se condicionar o 24-A à representação, ou se usar cabeçalho da delegacia comum em vez do NEAMV.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "prova-aponta-atipicidade-coragem-de-dizer",
+      "prompt": "produz o relatório final do IP 55.4.2026.3301, instaurado por apropriação indébita (art. 168 CP). Investigada TATIANE ROCHA LIMA, vítima o ex-patrão GILMAR TONETTO, dono de mercearia, que registrou BO dizendo que ela ficou com R$ 3.800,00 de vendas. Diligências: contrato e recibos juntados (fls. 20-26) mostram que havia acerto escrito de comissões e vale; extrato de acerto trabalhista na Justiça do Trabalho (fls. 33) mostra que o valor era objeto de disputa de verbas rescisórias e foi objeto de acordo homologado; Tatiane, ouvida, apresentou os recibos dos vales autorizados pelo próprio Gilmar (fls. 40); Gilmar, reinquirido, admitiu que 'era pra pressionar ela a devolver mais rápido' (fls. 45). Preciso do relatório.",
+      "expected_output": "Relatório final com conclusão pela ATIPICIDADE da conduta (ausência de dolo de apropriação; controvérsia de natureza cível/trabalhista já resolvida em acordo homologado; indício de uso instrumental da persecução penal pelo noticiante), sem indiciamento, relatando as diligências com folhas e confrontando as versões. A conclusão deve ter coragem de afirmar a atipicidade com fundamento, remetendo os autos com sugestão de não haver justa causa para persecução, mantendo a decisão final com o MP/Judiciário. REPROVA se o relatório indiciar a investigada, se transformar a conclusão em 'meio termo' evasivo sem tomada de posição, ou se omitir a admissão do noticiante às fls. 45.",
+      "files": []
+    }
+  ]
+}

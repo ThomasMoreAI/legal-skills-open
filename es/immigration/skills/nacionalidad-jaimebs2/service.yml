@@ -1,0 +1,59 @@
+name: extranjeria-nacionalidad
+display_name: Extranjería — Nacionalidad Española
+description: >
+  Guía completa sobre cómo obtener la nacionalidad española: vías de acceso
+  (por residencia, carta de naturaleza, opción), requisitos (residencia legal,
+  buena conducta cívica, pruebas CCSE y DELE A2), plazos por país de origen
+  (10, 5, 2 o 1 año), Ley de Memoria Democrática, doble nacionalidad,
+  procedimiento, documentación, jura o promesa y plazos reales.
+organization: Ministerio de Justicia / Instituto Cervantes
+tags: [extranjería, nacionalidad, ciudadanía española, CCSE, DELE, doble nacionalidad, Memoria Democrática, naturalización, inmigración, España]
+
+links:
+  website: https://www.mjusticia.gob.es/es/ciudadania/nacionalidad
+  consulta_expedientes: https://www.mjusticia.gob.es/es/ciudadania/nacionalidad/consulta-expedientes
+  ccse: https://ccse.cervantes.es
+  dele: https://examenes.cervantes.es/es/dele/que-es
+  cervantes: https://www.cervantes.es
+  sede_justicia: https://sede.mjusticia.gob.es
+
+license:
+  data: Información pública del Ministerio de Justicia y del Instituto Cervantes
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre la obtención de
+    la nacionalidad española y redirige a skills del bloque de extranjería
+    e instituto-cervantes para temas complementarios.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Vías de acceso a la nacionalidad española (residencia, carta de naturaleza, opción, Memoria Democrática)
+    - Requisitos por tipo y tiempo de residencia según origen
+    - Pruebas CCSE y DELE A2 (qué son, cómo prepararse, exenciones)
+    - Procedimiento paso a paso para solicitar la nacionalidad
+    - Documentación necesaria
+    - Doble nacionalidad (países con convenio, renuncia)
+    - Jura o promesa (qué es, plazo, dónde)
+    - Plazos legales y reales de resolución
+    - Nacionalidad para menores nacidos en España
+    - URLs oficiales del Ministerio de Justicia e Instituto Cervantes
+  not_accessible:
+    - Tramitación real de la nacionalidad (requiere Sede Electrónica del Ministerio de Justicia)
+    - Consulta de expedientes individuales (requiere identificación electrónica)
+    - Detalle sobre permisos de residencia (usar skill extranjeria-residencia)
+    - Detalle sobre el NIE (usar skill extranjeria-nie)
+    - Cursos del Instituto Cervantes (usar skill instituto-cervantes)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

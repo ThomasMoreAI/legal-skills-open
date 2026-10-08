@@ -1,0 +1,266 @@
+{
+  "processo_number": "1234567-89.2025.8.26.0100",
+  "generated_at": "2025-07-02T12:00:00",
+  "pdf_info": {"pages": 250, "file_size_mb": 12.5},
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 0,
+      "label": "PETIÇÃO INICIAL",
+      "tipo_peca": "Petição Inicial",
+      "data": "05/02/2025",
+      "primary_date": "05/02/2025",
+      "char_count": 8500,
+      "partes": {
+        "autor": ["Maria da Silva Santos"],
+        "reu": ["Empresa Tecnologia S/A"],
+        "advogados_autor": ["Dr. João Carlos Pereira - OAB/SP 123.456"],
+        "advogados_reu": [],
+        "juiz": null,
+        "vara": null,
+        "perito": null
+      },
+      "numero_processo": "1234567-89.2025.8.26.0100",
+      "classe_processual": "Ação de Indenização",
+      "assunto": "Vazamento de dados pessoais e financeiros",
+      "pedidos": [
+        "Indenização por danos materiais de R$ 25.000,00",
+        "Indenização por danos morais de R$ 50.000,00",
+        "Condenação em custas e honorários"
+      ],
+      "argumentos_chave": [
+        "Responsabilidade objetiva do fornecedor (Art. 14 CDC)",
+        "Violação da LGPD (Arts. 42 e 44)",
+        "Dano moral in re ipsa por vazamento de dados"
+      ],
+      "decisao": null,
+      "valores": {
+        "causa": "R$ 75.000,00",
+        "condenacao": null,
+        "honorarios": null,
+        "outros": [
+          {"descricao": "Danos materiais pleiteados", "valor": "R$ 25.000,00"},
+          {"descricao": "Danos morais pleiteados", "valor": "R$ 50.000,00"}
+        ]
+      },
+      "artigos_lei": [
+        "Art. 14 do CDC (Lei 8.078/90) - responsabilidade objetiva",
+        "Art. 927, parágrafo único, do CC - atividade de risco",
+        "Arts. 42 e 44 da LGPD (Lei 13.709/2018) - proteção de dados"
+      ],
+      "jurisprudencia": [
+        "STJ - REsp 1.758.799/MG - Rel. Min. Nancy Andrighi - vazamento de dados configura falha",
+        "STJ - Súmula 479 - responsabilidade objetiva por fortuito interno"
+      ],
+      "prazos": [],
+      "fatos_relevantes": [
+        "Autora é cliente da ré desde 15/03/2020",
+        "Vazamento de dados em 10/01/2025 atingiu ~50.000 clientes",
+        "Fraudes bancárias em 15 e 20/01/2025 com prejuízo de R$ 25.000,00",
+        "Notificação extrajudicial em 25/01/2025 sem resposta"
+      ],
+      "resumo": "Petição inicial de ação indenizatória por vazamento de dados pessoais e financeiros. Autora alega responsabilidade objetiva da ré (CDC + LGPD) e pleiteia R$ 25.000,00 por danos materiais e R$ 50.000,00 por danos morais."
+    },
+    {
+      "index": 1,
+      "label": "CONTESTAÇÃO",
+      "tipo_peca": "Contestação",
+      "data": "10/03/2025",
+      "primary_date": "10/03/2025",
+      "char_count": 12000,
+      "partes": {
+        "autor": ["Maria da Silva Santos"],
+        "reu": ["Empresa Tecnologia S/A"],
+        "advogados_autor": [],
+        "advogados_reu": ["Dra. Ana Paula Mendes - OAB/SP 654.321"],
+        "juiz": null,
+        "vara": null,
+        "perito": null
+      },
+      "numero_processo": "1234567-89.2025.8.26.0100",
+      "classe_processual": null,
+      "assunto": "Defesa contra ação de indenização por vazamento de dados",
+      "pedidos": [
+        "Improcedência total dos pedidos"
+      ],
+      "argumentos_chave": [
+        "Fortuito externo (ataque hacker sofisticado)",
+        "Ausência de nexo causal comprovado",
+        "Danos materiais efetivos são R$ 18.500,00 (não R$ 25.000,00)"
+      ],
+      "decisao": null,
+      "valores": {
+        "causa": null,
+        "condenacao": null,
+        "honorarios": null,
+        "outros": [
+          {"descricao": "Danos materiais reconhecidos pela ré", "valor": "R$ 18.500,00"}
+        ]
+      },
+      "artigos_lei": [],
+      "jurisprudencia": [],
+      "prazos": [],
+      "fatos_relevantes": [
+        "Ré alega que vazamento foi por ataque hacker sofisticado",
+        "Ré contesta valor de danos materiais: seria R$ 18.500,00 e não R$ 25.000,00",
+        "Ré nega nexo causal entre vazamento e fraudes"
+      ],
+      "resumo": "Contestação alega fortuito externo (ataque hacker), ausência de nexo causal e contesta o valor dos danos materiais, reconhecendo apenas R$ 18.500,00."
+    },
+    {
+      "index": 2,
+      "label": "RÉPLICA",
+      "tipo_peca": "Réplica",
+      "data": "25/03/2025",
+      "primary_date": "25/03/2025",
+      "char_count": 6000,
+      "partes": {
+        "autor": ["Maria da Silva Santos"],
+        "reu": ["Empresa Tecnologia S/A"],
+        "advogados_autor": ["Dr. João Carlos Pereira - OAB/SP 123.456"],
+        "advogados_reu": [],
+        "juiz": null,
+        "vara": null,
+        "perito": null
+      },
+      "numero_processo": null,
+      "classe_processual": null,
+      "assunto": "Réplica à contestação",
+      "pedidos": [],
+      "argumentos_chave": [
+        "Ataque hacker é risco da atividade, configurando fortuito interno",
+        "Comprovação documental das fraudes no valor total de R$ 25.000,00"
+      ],
+      "decisao": null,
+      "valores": {
+        "causa": null,
+        "condenacao": null,
+        "honorarios": null,
+        "outros": []
+      },
+      "artigos_lei": [],
+      "jurisprudencia": [
+        "STJ - Súmula 479 - responsabilidade objetiva por fortuito interno"
+      ],
+      "prazos": [],
+      "fatos_relevantes": [
+        "Autora reitera que o ataque hacker é fortuito interno",
+        "Mantém valor de R$ 25.000,00 com documentação complementar"
+      ],
+      "resumo": "Réplica rebate a tese de fortuito externo e reafirma os valores pleiteados com documentação complementar."
+    },
+    {
+      "index": 3,
+      "label": "SENTENÇA",
+      "tipo_peca": "Sentença",
+      "data": "01/07/2025",
+      "primary_date": "01/07/2025",
+      "char_count": 15000,
+      "partes": {
+        "autor": ["Maria da Silva Santos"],
+        "reu": ["Empresa Tecnologia S/A"],
+        "advogados_autor": [],
+        "advogados_reu": [],
+        "juiz": "Dr. Fernando Almeida Costa",
+        "vara": "2ª Vara Cível do Foro Central de São Paulo",
+        "perito": null
+      },
+      "numero_processo": "1234567-89.2025.8.26.0100",
+      "classe_processual": "Procedimento Comum Cível",
+      "assunto": "Indenização por vazamento de dados",
+      "pedidos": [],
+      "argumentos_chave": [
+        "Responsabilidade objetiva reconhecida",
+        "Fortuito interno, não externo",
+        "Dano moral in re ipsa"
+      ],
+      "decisao": "JULGO PARCIALMENTE PROCEDENTE: danos materiais R$ 18.500,00 + danos morais R$ 30.000,00",
+      "valores": {
+        "causa": "R$ 75.000,00",
+        "condenacao": "R$ 48.500,00",
+        "honorarios": "15% sobre o valor da condenação",
+        "outros": [
+          {"descricao": "Danos materiais", "valor": "R$ 18.500,00"},
+          {"descricao": "Danos morais", "valor": "R$ 30.000,00"}
+        ]
+      },
+      "artigos_lei": [
+        "Art. 14 do CDC - responsabilidade objetiva do fornecedor",
+        "Art. 85, §2º do CPC - honorários de sucumbência"
+      ],
+      "jurisprudencia": [
+        "STJ - REsp 1.758.799/MG - Rel. Min. Nancy Andrighi",
+        "STJ - Súmula 479"
+      ],
+      "prazos": [],
+      "fatos_relevantes": [
+        "Danos materiais comprovados: R$ 18.500,00 (não R$ 25.000,00)",
+        "R$ 6.500,00 em gastos com segurança digital não comprovados",
+        "Danos morais fixados em R$ 30.000,00 (não R$ 50.000,00)"
+      ],
+      "resumo": "Sentença julga parcialmente procedente: condena ré em R$ 18.500,00 (materiais) e R$ 30.000,00 (morais). Reconhece fortuito interno e responsabilidade objetiva, mas reduz danos materiais por insuficiência probatória."
+    },
+    {
+      "index": 4,
+      "label": "ACÓRDÃO",
+      "tipo_peca": "Acórdão",
+      "data": "15/10/2025",
+      "primary_date": "15/10/2025",
+      "char_count": 20000,
+      "partes": {
+        "autor": ["Maria da Silva Santos"],
+        "reu": ["Empresa Tecnologia S/A"],
+        "advogados_autor": [],
+        "advogados_reu": [],
+        "juiz": "Des. Ricardo Souza Oliveira",
+        "vara": "5ª Câmara de Direito Privado — TJSP",
+        "perito": null
+      },
+      "numero_processo": "1234567-89.2025.8.26.0100",
+      "classe_processual": "Apelação Cível",
+      "assunto": "Recurso contra sentença de indenização por vazamento de dados",
+      "pedidos": [],
+      "argumentos_chave": [
+        "Ré reitera fortuito externo (rejeitado)",
+        "Ré alega quantum de danos morais excessivo (rejeitado)",
+        "Ré pede juros de mora a partir do arbitramento (rejeitado)"
+      ],
+      "decisao": "NEGO PROVIMENTO ao recurso de apelação. Sentença mantida integralmente.",
+      "valores": {
+        "causa": null,
+        "condenacao": "R$ 48.500,00",
+        "honorarios": null,
+        "outros": [
+          {"descricao": "Danos materiais mantidos", "valor": "R$ 18.500,00"},
+          {"descricao": "Danos morais mantidos", "valor": "R$ 30.000,00"}
+        ]
+      },
+      "artigos_lei": [
+        "Art. 14 do CDC",
+        "Art. 44 da LGPD (Lei 13.709/2018)"
+      ],
+      "jurisprudencia": [
+        "STJ - REsp 1.758.799/MG - Rel. Min. Nancy Andrighi",
+        "STJ - Súmula 479",
+        "STJ - Súmula 54 - juros moratórios",
+        "TJSP - Apelação 1000001-00.2024.8.26.0100 - Rel. Des. Silva Neto - R$ 25.000,00",
+        "TJSP - Apelação 1000002-00.2024.8.26.0100 - Rel. Des. Costa Junior - R$ 35.000,00"
+      ],
+      "prazos": [],
+      "fatos_relevantes": [
+        "Votação unânime pelo desprovimento",
+        "Quantum de R$ 30.000,00 compatível com precedentes da Câmara"
+      ],
+      "resumo": "Acórdão nega provimento à apelação da ré por unanimidade. Mantém sentença integralmente: fortuito interno reconhecido, quantum de danos morais adequado, juros de mora desde a citação conforme Súmula 54 STJ."
+    }
+  ],
+  "contradictions": [
+    {
+      "tipo": "VALOR_INCONSISTENTE",
+      "impacto": "MÉDIO",
+      "pecas": ["PETIÇÃO INICIAL", "CONTESTAÇÃO"],
+      "descricao": "Valor de danos materiais diverge: Autora alega R$ 25.000,00, Ré reconhece apenas R$ 18.500,00",
+      "sugestao": "Sentença acolheu R$ 18.500,00. Verificar documentação complementar da réplica."
+    }
+  ]
+}

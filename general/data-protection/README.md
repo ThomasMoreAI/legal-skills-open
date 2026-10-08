@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (287)
+## Skills (289)
 
 | Skill | What it does |
 |---|---|
@@ -185,6 +185,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`ISO 27701 Privacy Information Management System Implementation`](skills/iso-27701-pims/) | Guides ISO 27701 Privacy Information Management System implementation extending ISO 27001/27002. Covers… |
 | [`ISO 27701 Privacy Information Management Skill`](skills/iso27701/) | Expert ISO 27701 Privacy Information Management System (PIMS) compliance advisor. Use this skill… |
 | [`Managing Joint Controller Arrangements`](skills/joint-controller-art26/) | Guides the establishment and management of joint controller arrangements under GDPR Article 26… |
+| [`Intellectual Property Analysis`](skills/law-ip-asgard-ai-platform/) | Analyze intellectual property rights across patents, trademarks, copyrights, and trade secrets. Use this… |
 | [`Implementing Lawful Basis Assessment`](skills/lawful-basis-assessment/) | Guides determination of the correct lawful basis under GDPR Article 6(1)(a)-(f) for each processing… |
 | [`Legal advisor`](skills/legal-advisor-v2/) | legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of… |
 | [`Privacy & Terms Generator`](skills/legal-docs/) | Generate jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products, apps, and digital… |
@@ -280,6 +281,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`IAB TCF v2.2 Implementation`](skills/tcf-v2-implementation/) | Implementing the IAB Transparency and Consent Framework v2.2 for programmatic advertising consent… |
 | [`Terms of Service Analyzer`](skills/terms-analyzer/) | Analyze terms of service and privacy policies to identify concerning clauses, hidden permissions, and… |
 | [`Thailand PDPA Compliance`](skills/thailand-pdpa/) | Guides compliance with Thailand's Personal Data Protection Act B.E. 2562 (2019). Covers consent… |
+| [`Decodificador de Términos de Servicio`](skills/tos-decoder-mohitagw15856/) | Decodifica unos términos de servicio o una política de privacidad a lo que realmente estás aceptando… |
 | [`Conducting Transfer Impact Assessment`](skills/transfer-impact-assessment/) | Guides the post-Schrems II Transfer Impact Assessment process following EDPB Recommendations 01/2020… |
 | [`Managing Transfer Records and Documentation`](skills/transfer-records/) | Guides maintenance of cross-border transfer registers, audit trails, and compliance documentation under… |
 | [`Implementing Transparent Communication`](skills/transparent-communication/) | Implements GDPR Article 12 transparent information and communication requirements, covering concise… |

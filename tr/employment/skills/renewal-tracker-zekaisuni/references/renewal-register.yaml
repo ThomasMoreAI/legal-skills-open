@@ -1,0 +1,35 @@
+# Yenileme Kayıt Defteri
+#
+# saas-msa-review ve vendor-agreement-review handoff'ları ile renewal-tracker
+# Mode 3 taramaları tarafından doldurulur. Her kayıt bir sözleşmenin ne zaman
+# yenileneceğini, fesih/yenilememe ihbarının en geç ne zaman ve hangi yöntemle
+# gönderilmesi gerektiğini izler.
+#
+# renewal-watcher ajanı bu dosyayı haftalık okur ve yaklaşan tarihleri raporlar.
+
+renewals: []
+
+# Örnek kayıt (gerçek veri eklendiğinde kaldırılabilir):
+#
+# - counterparty: "Acme Yazılım ve Teknoloji A.Ş."
+#   agreement: "Acme Platform Abonelik Sözleşmesi"
+#   signed_date: 2025-06-15
+#   initial_term_end: 2026-06-15
+#   current_term_end: 2026-06-15
+#   renewal_mechanism: "otomatik yıllık yenileme"
+#   notice_period_days: 60
+#   notice_method: "kep"                  # noter | kep | iadeli_taahhutlu_posta | e-posta | portal | per contract
+#   transit_buffer_days: 0
+#   cancel_by_calendar: 2026-04-16
+#   cancel_by_effective: 2026-04-16
+#   send_by_effective: 2026-04-16
+#   cancel_by_roll_note: ""
+#   cancel_by_provenance: "[model calculation - verify against notice clause]"
+#   price_on_renewal: "TÜFE/ÜFE or then-current list"
+#   annual_value: 48000
+#   currency: "TL"
+#   business_owner: "business-owner@example.com"
+#   clm_id: "CLM-12345"
+#   uyap_no: ""                           # only if litigation/enforcement linked
+#   status: "active"                      # active | cancelled | renewed | lapsed
+#   notes: "Fiyat artışı sınırsız - fesih penceresi kapanmadan pazarlık yapılmalı."

@@ -1,0 +1,138 @@
+// Prisma schema for Turso (libSQL) — use this when deploying to Vercel
+// Migration: cp prisma/schema.turso.prisma prisma/schema.prisma
+// Then: bun run db:generate
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// IMPORTANT: When using Turso, you also need:
+// 1. TURSO_AUTH_TOKEN environment variable
+// 2. Update src/lib/db.ts to use PrismaLibSQL adapter
+// 3. Install: bun add @prisma/adapter-libsql @libsql/client
+//
+// See DEPLOYMENT.md for full migration guide.
+
+model Source {
+  sourceId   Int     @id @map("source_id")
+  sourceName String  @map("source_name")
+  sourceType String? @map("source_type")
+  sourceUrl  String? @map("source_url")
+  description String?
+  license    String?
+
+  judgments   CaseJudgment[]
+
+  @@map("sources")
+}
+
+model Law {
+  lawId         Int     @id @map("law_id")
+  lawNameTh     String  @map("law_name_th")
+  lawNameEn     String? @map("law_name_en")
+  year          String?
+  krisdikaSysid String? @map("krisdika_sysid")
+  lawGoThId     String? @map("law_go_th_id")
+  sourceUrl     String? @map("source_url")
+  status        String? @default("pending")
+  fullText      String? @map("full_text")
+  notes         String?
+  category      String?
+  isLaborLaw    Int     @default(0) @map("is_labor_law")
+
+  sections      LawSection[]
+  caseLawLinks  CaseLawLink[]
+
+  @@map("laws")
+}
+
+model LawSection {
+  sectionId        Int     @id @default(autoincrement()) @map("section_id")
+  lawId            Int     @map("law_id")
+  articleKey       String? @map("article_key")
+  sectionNumber    String? @map("section_number")
+  sectionText      String  @map("section_text")
+  notes            String?
+  isCancelled      Int     @default(0) @map("is_cancelled")
+  chapter          String?
+  isLaborRelated   Int     @default(0) @map("is_labor_related")
+
+  law              Law     @relation(fields: [lawId], references: [lawId])
+  caseLawLinks     CaseLawLink[]
+
+  @@index([lawId])
+  @@index([sectionNumber])
+  @@index([isLaborRelated])
+  @@map("law_sections")
+}
+
+model CaseJudgment {
+  judgmentId     Int     @id @default(autoincrement()) @map("judgment_id")
+  caseNumber     String? @map("case_number")
+  caseYear       String? @map("case_year")
+  court          String?
+  category       String?
+  categoryCode   String? @map("category_code")
+  issueNumber    String? @map("issue_number")
+  lawReferences  String? @map("law_references")
+  fact           String?
+  decision       String?
+  title          String?
+  sourceId       Int?    @map("source_id")
+  sourceUrl      String? @map("source_url")
+  licenseNote    String? @map("license_note")
+
+  source         Source?  @relation(fields: [sourceId], references: [sourceId])
+  caseLawLinks   CaseLawLink[]
+
+  @@index([category])
+  @@map("case_judgments")
+}
+
+model CaseLawLink {
+  linkId      Int     @id @default(autoincrement()) @map("link_id")
+  judgmentId  Int?    @map("judgment_id")
+  sectionId   Int?    @map("section_id")
+  lawId       Int?    @map("law_id")
+  lawCode     String? @map("law_code")
+  sectionRef  String? @map("section_ref")
+
+  judgment    CaseJudgment? @relation(fields: [judgmentId], references: [judgmentId])
+  section     LawSection?   @relation(fields: [sectionId], references: [sectionId])
+  law         Law?          @relation(fields: [lawId], references: [lawId])
+
+  @@index([judgmentId])
+  @@index([sectionId])
+  @@map("case_law_links")
+}
+
+model IngestionLog {
+  id           Int     @id @default(autoincrement())
+  tableName    String? @map("table_name")
+  recordCount  Int?    @map("record_count")
+  sourceFile   String? @map("source_file")
+  notes        String?
+  createdAt    String? @map("created_at")
+
+  @@map("ingestion_log")
+}
+
+model RagChunk {
+  chunkId        Int     @id @default(autoincrement()) @map("chunk_id")
+  sourceType     String? @map("source_type")
+  sourceId       Int?    @map("source_id")
+  lawId          Int?    @map("law_id")
+  sectionId      Int?    @map("section_id")
+  judgmentId     Int?    @map("judgment_id")
+  chunkText      String? @map("chunk_text")
+  chunkMetadata  String? @map("chunk_metadata")
+
+  @@index([sourceType])
+  @@map("rag_chunks")
+}

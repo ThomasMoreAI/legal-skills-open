@@ -1,0 +1,109 @@
+CHUNK-00001:
+  origen_id: NOR-001
+  titulo: "LOE — objeto general"
+  ruta: "07_corpus_ia/chunks/CHUNK-00001-loe-objeto-general.yaml"
+
+CHUNK-00002:
+  origen_id: NOR-002
+  titulo: "LOMLOE — modifica la LOE"
+  ruta: "07_corpus_ia/chunks/CHUNK-00002-lomloe-modifica-la-loe.yaml"
+
+CHUNK-00003:
+  origen_id: NOR-003
+  titulo: "RD 217/2022 — enseñanzas mínimas ESO"
+  ruta: "07_corpus_ia/chunks/CHUNK-00003-rd-217-2022-ensenanzas-minimas-eso.yaml"
+
+CHUNK-00004:
+  origen_id: NOR-004
+  titulo: "Ley Canaria 6/2014 — marco autonómico"
+  ruta: "07_corpus_ia/chunks/CHUNK-00004-ley-canaria-6-2014-marco-autonomico.yaml"
+
+CHUNK-00005:
+  origen_id: AN-002
+  titulo: "Currículos ESO Canarias — inventario inicial"
+  ruta: "07_corpus_ia/chunks/CHUNK-00005-curriculos-eso-canarias-inventario-inicial.yaml"
+
+CHUNK-00006:
+  origen_id: NOR-024
+  titulo: "Atención a la diversidad en Canarias (Decreto 25/2018)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00006-atencion-diversidad-resumen.yaml"
+
+CHUNK-00007:
+  origen_id: NOR-005
+  titulo: "Currículo ESO y Bachillerato en Canarias (Decreto 30/2023)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00007-curriculo-eso-bach-resumen.yaml"
+
+CHUNK-00008:
+  origen_id: AN-001
+  titulo: "Jerarquía normativa educativa en Canarias"
+  ruta: "07_corpus_ia/chunks/CHUNK-00008-jerarquia-normativa-transversal.yaml"
+
+CHUNK-00009:
+  origen_id: NOR-007
+  titulo: "Sistema integrado de Formación Profesional (LOFP 3/2022)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00009-lofp-fp-resumen.yaml"
+
+CHUNK-00010:
+  origen_id: NOR-042
+  titulo: "Permisos y Licencias Personal Docente 2026 (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00010-permisos-docentes-2026.yaml"
+
+CHUNK-00011:
+  origen_id: NOR-029
+  titulo: "Baremo y criterios de Admisión de Alumnado (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00011-admision-alumnado-baremo.yaml"
+
+CHUNK-00012:
+  origen_id: NOR-043
+  titulo: "Resumen del Currículo de Educación Primaria (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00012-curriculo-primaria-resumen.yaml"
+
+CHUNK-00013:
+  origen_id: NOR-047
+  titulo: "Resumen del Currículo de Educación Infantil (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00013-curriculo-infantil-resumen.yaml"
+
+CHUNK-00014:
+  origen_id: NOR-050
+  titulo: "Procedimientos de Atención a la Diversidad y NEAE (Canarias 2023)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00014-procedimientos-neae-2023.yaml"
+
+CHUNK-00015:
+  origen_id: NOR-005
+  titulo: "Identidad lingüística canaria en el currículo (Infantil a Bachillerato)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00015-identidad-linguistica-canaria.yaml"
+
+CHUNK-00016:
+  origen_id: NOR-021
+  titulo: "Gestión de Listas de Empleo y Personal Interino (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00016-listas-interinos-resumen.yaml"
+
+CHUNK-00017:
+  origen_id: NOR-009
+  titulo: "Organización de Centros (ROC) e Instrucciones IOF"
+  ruta: "07_corpus_ia/chunks/CHUNK-00017-organizacion-centros-iof.yaml"
+
+CHUNK-00018:
+  origen_id: NOR-028
+  titulo: "Currículo adaptado para Aulas Enclave y CEE (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00018-curriculo-adaptado-ae-cee.yaml"
+
+CHUNK-00019:
+  origen_id: NOR-034
+  titulo: "Servicios Complementarios: Comedor y Transporte (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00019-servicios-complementarios.yaml"
+
+CHUNK-00020:
+  origen_id: NOR-008
+  titulo: "FP en Canarias: Acceso y Evaluación Autonómica"
+  ruta: "07_corpus_ia/chunks/CHUNK-00020-fp-canarias-acceso-evaluacion.yaml"
+
+CHUNK-00021:
+  origen_id: NOR-031
+  titulo: "Protección del Menor y Bienestar en Centros Educativos"
+  ruta: "07_corpus_ia/chunks/CHUNK-00021-proteccion-menor-bienestar.yaml"
+
+CHUNK-00022:
+  origen_id: NOR-046
+  titulo: "Calendario Escolar y Organización (Canarias 2025-2026)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00022-calendario-iof-25-26.yaml"

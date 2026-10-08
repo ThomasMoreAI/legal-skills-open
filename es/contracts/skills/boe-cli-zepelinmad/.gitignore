@@ -1,0 +1,5 @@
+boe
+boe-cli
+*.exe
+dist/
+docs/boe-api-docs.pdf

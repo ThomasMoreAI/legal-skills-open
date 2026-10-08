@@ -1,0 +1,9 @@
+# Skills de terceros instalados con `gh skill install`.
+# La revisión que usa `gh skill update` está en metadata.github-* de cada SKILL.md.
+# legalize-es y lenguaje-claro son skills de este repositorio: el actualizador los omite.
+#
+# gh skill install OWNER/REPO PATH --dir .agents/skills
+# rsync -a --delete --exclude .DS_Store --exclude .venv .agents/skills/ .claude/skills/
+#
+# repo path licencia aviso
+github/awesome-copilot skills/github-actions-hardening MIT .agents/licenses/github-awesome-copilot-MIT.txt

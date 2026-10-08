@@ -1,0 +1,436 @@
+{
+  "@context": "https://schema.org/",
+  "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/#dataset",
+  "@type": "Dataset",
+  "creator": {
+    "@type": "Organization",
+    "name": "Área de Tecnología Educativa"
+  },
+  "description": "Corpus abierto y versionado de normativa y currículos educativos de Canarias, con fuentes oficiales, relaciones y metadatos para reutilización.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/inventario.json",
+      "encodingFormat": "application/json",
+      "name": "Inventario del corpus"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/legislacion.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de legislación"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/curriculos.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de currículos"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/fuentes.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de fuentes"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml",
+      "encodingFormat": "application/yaml",
+      "name": "Índice normativo"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt",
+      "encodingFormat": "text/plain",
+      "name": "Guía para modelos de lenguaje"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-001-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-001 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-007-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-007 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-043-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-043 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-047-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-047 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-articulo-3.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 artículo 3"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-007-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-007 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-009-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-009 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-009-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-009 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-024-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-024 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-024-articulo-2.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-024 artículo 2"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-disposicion-final-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 disposición final cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-adicional-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición adicional quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-disposicion-final-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 disposición final quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-primera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional primera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-segunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional segunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-tercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional tercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-cuarta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional cuarta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-septima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional septima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-novena.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional novena"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-duodecima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional duodecima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decimotercera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decimotercera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-decimoctava.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional decimoctava"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesimaprimera.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesimaprimera"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-adicional-vigesimasegunda.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición adicional vigesimasegunda"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-quinta.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final quinta"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-septima.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final septima"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-080-disposicion-final-octava.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-080 disposición final octava"
+    }
+  ],
+  "inLanguage": "es",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Catálogo público del corpus",
+    "url": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/catalogo.jsonld"
+  },
+  "isAccessibleForFree": true,
+  "keywords": [
+    "normativa educativa",
+    "Canarias",
+    "currículo",
+    "datos jurídicos",
+    "educación"
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "name": "Normativa Educativa Canaria",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Área de Tecnología Educativa"
+  },
+  "temporalCoverage": "1987-04-03/2026-10-07",
+  "url": "https://ateeducacion.github.io/normativa_educativa_canaria/"
+}

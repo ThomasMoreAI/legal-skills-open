@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 
-## Skills (255)
+## Skills (279)
 
 | Skill | What it does |
 |---|---|
@@ -24,6 +24,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Avoidance Transaction Analyst`](skills/avoidance-transaction-analyst/) | Analyses Indian insolvency transactions for preference, undervalue, extortionate credit and fraudulent… |
 | [`Award Challenge Analyst`](skills/award-challenge-analyst/) | Assesses routes and grounds to set aside, annul, appeal, stay, or resist recognition or enforcement of… |
 | [`Bail Advisor and Drafter (India)`](skills/bail-advisor-and-drafter/) | Determines the correct bail posture in India — anticipatory (pre-arrest), or regular, interim… |
+| [`Beneficial Ownership Data — Expert Reference`](skills/beneficial-ownership-data-stephenabbott/) | Expert reference for beneficial ownership data, policy, and BODS. Trigger on: BODS JSON/schema/tools… |
 | [`Brief section drafter`](skills/brief-section-drafter-anthropics/) | Draft a brief section in house style, consistent with the case theory — every fact cited, every case… |
 | [`Brief Section Drafter`](skills/brief-section-drafter-lsdisconzi/) | Draft sections of legal briefs and petitions for the matter's forums. Produces jurisdiction-specific… |
 | [`Brief section drafter`](skills/brief-section-drafter-zhou210712/) | 按内部风格起草法律文书章节，与案件理论保持一致——每个事实有出处， 每个案例经核实，每个论点绑定理论。当用户说"起草[章节]"、 "写事实部分"、"关于[问题]的代理意见"或需要法律文书章节初稿时使用。 |
@@ -40,7 +41,12 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Case Summary`](skills/case-summary/) | Produces an attorney-ready memo from a corpus of legal documents supplied by the user. Use when a user… |
 | [`Case Summary Report`](skills/case-summary-report/) | Synthesizes multiple case summaries into one unified Case Summary Report. Triggers when the user has two… |
 | [`Caselaw query`](skills/caselaw-query/) | Find appellate cases that cite or interpret a given statute via the CourtListener API (Free Law… |
+| [`Client Q&A Prep — Deposition, Witness Statement, and Mediation Coaching`](skills/casesim-client-q-and-a-prep-sboghossian/) | Use when an attorney needs to prepare a client for a deposition, witness statement, mediation session… |
+| [`Cross-Examination Rehearsal — Build, Practice, and Score Your Cross`](skills/casesim-cross-examination-rehearsal-sboghossian/) | Use when an attorney needs to build and rehearse a cross-examination of a witness — identifying prior… |
 | [`Fact Pattern Builder — Realistic Case Files for Training and Scenario Planning`](skills/casesim-fact-pattern-builder-sboghossian/) | Use when building a realistic fact pattern for litigation training, moot court preparation, bar exam… |
+| [`Judge Bench Perspective — Simulate How a Court Will Receive Your Argument`](skills/casesim-judge-bench-perspective-sboghossian/) | Use when an attorney wants to stress-test a legal argument, brief, or motion by simulating how a judge… |
+| [`Opposing Counsel Simulator — Build the Other Side's Playbook`](skills/casesim-opposing-counsel-simulator-sboghossian/) | Use when an attorney wants to model opposing counsel's strategy, predict their likely motions and… |
+| [`Outcome Probability Estimator — Probabilistic Litigation Assessment`](skills/casesim-outcome-probability-estimator-sboghossian/) | Use when an attorney or client needs a structured probabilistic assessment of likely litigation outcomes… |
 | [`Settlement vs. Trial EV Calculator — Should You Take the Offer?`](skills/casesim-settlement-vs-trial-ev-calculator-sboghossian/) | Use when an attorney or client needs to compare the expected value of accepting a settlement offer… |
 | [`Skill：因果关系推论`](skills/causation-chain/) | 因果关系推论技能，用于构建从对方行为到用户损害的完整因果链，识别中间事实节点、排查替代原因、区分损失类型并生成补证建议。适用于需证明损害因果关系或反驳"非我所致""损失过远""用户自身原因"等抗辩的场景。 |
 | [`Chain of Custody Documenter`](skills/chain-of-custody-documenter/) | Build and audit defensible chain-of-custody records for physical and digital evidence. Use when… |
@@ -59,6 +65,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`클린 법률 DB 검색 (clean-legal-db)`](skills/clean-legal-db/) | 저작권 청정 법률 DB 키워드 검색 (총 18,150여 건) — 현행 법령 56종 1.1만 조문 + 자치법규 + 대법원·하급심 판례 1,140 + 행정심판 재결 792 + 조세심판 결정… |
 | [`Cold start interview`](skills/cold-start-interview-19/) | 诉讼插件首次配置——按角色分流（法务、律所律师、独立执业）、 按立场分流（原告、被告、两者皆有），捕获风险校准、执业背景和文书风格， 写入实践画像… |
 | [`$litigation-legal:cold-start-interview`](skills/cold-start-interview-2/) | House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side… |
+| [`Commercial Dispute Resolution`](skills/commercial-dispute-resolution-construct-ai-primary/) | Evidence gathering, precedent analysis, and position paper generation for commercial dispute resolution… |
 | [`Construire la chronologie`](skills/construire-chronologie-gauthier-huguenin/) | Construire une chronologie juridique sourcée à partir d'un registre de faits et de pièces, distinguer… |
 | [`Contract Reviewer`](skills/contract-reviewer-rohasnagpal/) | Reviews an entire draft or executed commercial contract, or an expressly scoped set of related… |
 | [`Skill：矛盾分析`](skills/contradiction-analysis/) | 识别当事人陈述、证据、时间线、行为逻辑和法律立场之间的矛盾，生成追问和证明策略。 |
@@ -73,10 +80,12 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Damages Quantifier`](skills/damages-quantifier-rohasnagpal/) | Builds a general civil or commercial damages claim head by head, using only the figures actually… |
 | [`Decision Record Verification`](skills/decision-record-verification/) | Cross-references a judge's decision, court opinion, or final order against one or more… |
 | [`Decree Execution and Enforcement Drafter`](skills/decree-execution-and-enforcement-drafter/) | Plans and drafts Indian civil decree execution and enforcement applications, selecting a lawful mode… |
+| [`Delay Claim Letter Skill`](skills/delay-claim-letter-mohitagw15856/) | Draft a construction delay notice or delay claim letter with contract clause citation, cause… |
 | [`Demand Draft`](skills/demand-draft-lsdisconzi/) | Draft jurisdiction-specific demand letters to each defendant in the matter. Language and forum come from… |
 | [`Demand draft`](skills/demand-draft-zhou210712/) | 从已完成的委托登记起草律师函——通过保密/自认风险/和解谈判姿态检查清单门禁， 输出 .docx，附发送后检查清单，并提供创建案件的选项。当用户说… |
 | [`Demand intake`](skills/demand-intake-anthropics/) | Pre-drafting context gathering for a demand letter — parties, facts, basis, leverage, BATNA, and… |
 | [`Demand intake`](skills/demand-intake-zhou210712/) | 律师函起草前的委托背景收集——当事人、事实、依据、筹码、 最佳替代方案和保密过滤——写入结构化的委托登记文件供 律师函起草技能读取。当用户想准备律师函、在起草前进行委托登记，… |
+| [`Demand Letter Skill`](skills/demand-letter-mohitagw15856/) | Draft a firm, professional demand letter that states the facts, the legal/contractual basis, the… |
 | [`Demand Notice Drafter`](skills/demand-notice-drafter-rohasnagpal/) | Drafts a pre-litigation demand notice — the formal letter setting out a claim, particularising the facts… |
 | [`$litigation-legal:demand-received`](skills/demand-received/) | Triage an inbound demand letter — extract fields, cross-check the portfolio, assess merit, present… |
 | [`Demand received`](skills/demand-received-anthropics/) | Triage an inbound demand letter — extract fields, cross-check the portfolio, assess merit, present… |
@@ -98,11 +107,13 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Document Review Protocol Builder`](skills/document-review-protocol-builder-rohasnagpal/) | Designs defensible document-review protocols for litigation, arbitration, investigations, or regulatory… |
 | [`India DPDP Compliance Checker`](skills/dpdp-compliance-checker/) | Assess a processing activity against India's Digital Personal Data Protection Act, 2023, Digital… |
 | [`Draft — Cease and Desist Letter`](skills/draft-cease-and-desist-sboghossian/) | Use when asked to draft a cease-and-desist (C&D) letter demanding that a recipient stop specified… |
+| [`Demand Letter (Letter Before Action / Mise en Demeure)`](skills/draft-demand-letter-sboghossian/) | Use when drafting a formal demand letter (letter before action / mise en demeure) requiring payment… |
 | [`/draft`](skills/draft-lawdroidai/) | First draft of a common civil legal aid document — eviction answers, protective order petitions, demand… |
 | [`Litigation Complaint / Statement of Claim`](skills/draft-litigation-complaint-sboghossian/) | Use when drafting a litigation complaint or statement of claim initiating court proceedings in a civil… |
 | [`Mediation Agreement / Settlement Agreement`](skills/draft-mediation-agreement-sboghossian/) | Use when drafting either a mediation agreement (submitting a dispute to mediation) or a settlement… |
 | [`Settlement Agreement`](skills/draft-settlement-agreement-sboghossian/) | Use when drafting a settlement agreement, release, or deed of settlement to resolve an existing or… |
 | [`Statement of Defense`](skills/draft-statement-of-defense-sboghossian/) | Use when drafting a statement of defense, answer to complaint, or defense filing responding to a civil… |
+| [`Witness Statement`](skills/draft-witness-statement-sboghossian/) | Use when drafting a witness statement — a first-person factual narrative used as evidence in court… |
 | [`Skill：法律要件与证明责任矩阵`](skills/elements-burden-matrix/) | Breaks a legal claim into elements, maps each to facts and evidence, assigns burden of proof, and… |
 | [`Employment Contract Drafter`](skills/employment-contract-drafter/) | Drafts jurisdiction-specific employment agreements and offer terms with coherent compensation, duties… |
 | [`Encumbrance Analyst`](skills/encumbrance-analyst/) | Reads an encumbrance certificate for a property, extracting every entry chronologically, flagging… |
@@ -181,10 +192,15 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Skill：对方视角与抗辩模拟`](skills/opponent-perspective/) | Simulates the opposing party's litigation and negotiation strategy by mapping their likely factual… |
 | [`Opposing Counsel Attack EN - single-pass litigation sparring`](skills/opposing-counsel-attack-en-matematicsolutions/) | Single-pass opposing counsel attack on a legal argument - takes on the role of experienced counsel for… |
 | [`Opposing Counsel: Adversarial Argument Analysis`](skills/opposing-counsel-review-larissa-meredith-flister/) | Act as experienced opposing counsel to attack, undermine, and expose weaknesses in a legal argument… |
+| [`Brief Cite Checker`](skills/pa-workflow-litigation-brief-cite-checker-sboghossian/) | Use when a litigator needs to verify every citation in a court brief before filing. Checks that cases… |
 | [`Case Theory Simulator`](skills/pa-workflow-litigation-case-theory-simulator-sboghossian/) | Use when litigation counsel needs to stress-test competing case theories before committing to a trial or… |
 | [`Discovery First-Pass Tagging`](skills/pa-workflow-litigation-discovery-first-pass-tagging-sboghossian/) | Use when a litigation team faces a large document set in discovery or disclosure and needs to triage… |
+| [`Expert Witness Prep Memo`](skills/pa-workflow-litigation-expert-witness-prep-memo-sboghossian/) | Use when litigation counsel needs a structured preparation memo for an expert witness — either their own… |
+| [`Motion Template Library`](skills/pa-workflow-litigation-motion-template-library-sboghossian/) | Use when a litigator needs a structured starting template for a court motion, adapted to the specific… |
 | [`Privilege Log Drafting`](skills/pa-workflow-litigation-privilege-log-drafting-sboghossian/) | Use when a litigation team must produce a privilege log as part of discovery or disclosure proceedings.… |
+| [`Real-Time Trial Assist API`](skills/pa-workflow-litigation-real-time-trial-assist-api-sboghossian/) | Use during an active trial or arbitration hearing to provide live support to counsel at the counsel… |
 | [`Litigation — Transcript Search and Q&A Indexing`](skills/pa-workflow-litigation-transcript-search-q-and-a-indexing/) | Use when a litigation team needs to index and search deposition transcripts, trial hearing transcripts… |
+| [`Witness Contradiction Finder`](skills/pa-workflow-litigation-witness-contradiction-finder-sboghossian/) | Use when litigation counsel needs to systematically identify contradictions in a witness's statements… |
 | [`India PIL Drafter`](skills/pil-drafter/) | Assess and draft public interest litigation in India under Article 32 or Article 226, establishing… |
 | [`Plaint Drafter`](skills/plaint-drafter/) | Drafts an Indian civil or commercial plaint from verified facts, causes of action, jurisdiction… |
 | [`Pleadings Analyst`](skills/pleadings-analyst-rohasnagpal/) | Analyse claims, defences, replies, counterclaims, amendments, and particulars for causes of action… |
@@ -197,24 +213,32 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`/pressuretest — method v2.9 ('lq.pressuretest.method.v2.9')`](skills/pressuretest-legalquants/) | Pressure-test a legal position against the documents the user supplies. Use only when the user… |
 | [`Privilege Log Builder`](skills/privilege-log-builder-rohasnagpal/) | Builds and audits privilege or withheld-document logs for litigation, arbitration, investigations, and… |
 | [`Privilege log review`](skills/privilege-log-review-anthropics/) | First-pass privilege log review — make the obvious privilege calls and flag the hard ones for attorney… |
+| [`Privilege Preflight EN - prompt check before sending to cloud AI`](skills/privilege-preflight-en-matematicsolutions/) | Pre-flight check for legal content BEFORE it is sent to an external, cloud-based AI tool (browser… |
 | [`Procedural Order Drafter`](skills/procedural-order-drafter/) | Drafts arbitral procedural orders and case-management timetables from tribunal directions, party… |
 | [`Production Set Checker`](skills/production-set-checker-rohasnagpal/) | Audits document productions before or after disclosure for scope, completeness, format, metadata… |
 | [`Case Assessment Memo`](skills/prompt-pack-case-assessment-memo-sboghossian/) | Use when a litigator or disputes lawyer needs to produce a structured case assessment memo for a client… |
 | [`Case Law Research Prompt`](skills/prompt-pack-case-law-research-prompt-sboghossian/) | Use when a disputes lawyer, in-house counsel, or legal researcher needs a structured case law research… |
 | [`Demand Letter`](skills/prompt-pack-demand-letter-sboghossian/) | Use when a lawyer needs to draft a formal demand letter asserting a client's claim against a… |
+| [`Discovery Request`](skills/prompt-pack-discovery-request-sboghossian/) | Use when drafting discovery requests — interrogatories, requests for production of documents, and… |
 | [`Injunction Application`](skills/prompt-pack-injunction-application-sboghossian/) | Use when drafting an application for a preliminary or permanent injunction in court litigation… |
 | [`Legal Hold Management Procedure`](skills/prompt-pack-legal-hold-management-procedure-sboghossian/) | Use when drafting or implementing a legal hold management procedure for a company facing anticipated or… |
+| [`Legal Opinion on Dispute`](skills/prompt-pack-legal-opinion-on-dispute-sboghossian/) | Use when a lawyer or in-house counsel needs to draft a formal legal opinion analyzing the merits of a… |
+| [`Litigation Hold Notice`](skills/prompt-pack-litigation-hold-notice-sboghossian/) | Use when drafting a litigation hold notice to be issued to employees, contractors, and third parties… |
 | [`Motion for Summary Judgment`](skills/prompt-pack-motion-for-summary-judgment-sboghossian/) | Use when drafting a motion for summary judgment (or equivalent dispositive motion) arguing that there is… |
 | [`Post-Hearing Brief`](skills/prompt-pack-post-hearing-brief-sboghossian/) | Use when drafting a post-hearing brief (also called a post-hearing submission or closing written… |
+| [`Settlement Agreement`](skills/prompt-pack-settlement-agreement-sboghossian/) | Use when parties to a dispute need to draft a settlement agreement resolving pending or threatened… |
 | [`Settlement Agreement Template`](skills/prompt-pack-settlement-agreement-template-sboghossian/) | Use when a law firm or legal team needs a reusable settlement agreement template with bracketed… |
 | [`Statement of Claim`](skills/prompt-pack-statement-of-claim-sboghossian/) | Use when counsel needs to draft a statement of claim (or memorial, or claim brief) for a client bringing… |
 | [`Statement of Defense`](skills/prompt-pack-statement-of-defense-sboghossian/) | Use when a defendant or respondent needs to draft a statement of defense to a civil or commercial claim… |
+| [`Witness Statement`](skills/prompt-pack-witness-statement-sboghossian/) | Use when a legal team needs to draft a witness statement for court or tribunal proceedings — setting out… |
 | [`Proposition checking`](skills/proposition-checking/) | Use when users say "does this authority support the point", "check propositions", "fact-check this… |
+| [`Case Summarizer (Public Tool)`](skills/public-tool-case-summarizer-public-sboghossian/) | Use when a user pastes or links a court judgment URL and needs a structured plain-English summary… |
 | [`Quashing Petition Drafter`](skills/quashing-petition-drafter/) | Assesses and drafts Indian petitions to quash criminal proceedings, including maintainability, grounds… |
 | [`Recovery Strategy Planner`](skills/recovery-strategy-planner/) | Compares and sequences lawful recovery routes for a defaulted financial exposure, collateral and obligor… |
 | [`Redaction Reviewer`](skills/redaction-reviewer-rohasnagpal/) | Reviews proposed or completed legal redactions for an identified disclosure, filing, publication… |
 | [`Related Party Analyst (India)`](skills/related-party-analyst/) | Determines whether persons, entities, relationships, and transactions are related-party matters for an… |
 | [`RERA Compliance Checker`](skills/rera-compliance-checker/) | Checks RERA registration and disclosure obligations for a real estate project — registration threshold… |
+| [`Case Law Search`](skills/research-case-law-search-sboghossian/) | Use when a lawyer or researcher needs to find relevant court decisions or arbitral awards on a specific… |
 | [`Precedent Finder`](skills/research-precedent-finder-sboghossian/) | Use when a lawyer or researcher needs the top most-cited or most-relevant cases on a specific legal… |
 | [`Statute of Limitations Lookup`](skills/research-statute-of-limitations-lookup-sboghossian/) | Use when a lawyer or claimant needs to know the limitation period for a specific claim type in a… |
 | [`Resolution Plan Reviewer`](skills/resolution-plan-reviewer/) | Reviews Indian corporate resolution plans for eligibility, statutory compliance, distributions… |

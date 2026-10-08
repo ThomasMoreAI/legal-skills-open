@@ -1,0 +1,1401 @@
+ID interno: NOR-071
+Título oficial: Resolución conjunta n.º 24/2024, de 16 de julio, por la que se dictan instrucciones específicas dirigidas a los centros educativos dependientes de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes en los que se ha autorizado la implantación del primer ciclo de Educación Infantil
+Fuente oficial: FTE-078
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/Instrucciones_organizacion_funcionamiento_primer_ciclo_infantil.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano generado con pdftotext a partir del PDF oficial de instrucciones específicas del primer ciclo de Educación Infantil (Resolución conjunta n.º 24/2024, de 16 de julio de 2024).
+---
+=== Página 1 ===
+
+Programa financiado por el Ministerio de Educación y Formación Profesional y el Mecanismo de Recuperación y Resiliencia
+Programa financiado por la Unión Europea en el marco de dicho Mecanismo
+
+Folio 1/24
+
+RESOLUCIÓN CONJUNTA DE LA DIRECCIÓN GENERAL DE ADMINISTRACIÓN DE
+CENTROS, ESCOLARIZACIÓN Y SERVICIOS COMPLEMENTARIOS Y DIRECCIÓN
+GENERAL DE ORDENACIÓN DE LAS ENSEÑANZAS, INCLUSIÓN E INNOVACIÓN, POR LA
+QUE SE DICTAN INSTRUCCIONES ESPECÍFICAS DIRIGIDAS A LOS CENTROS
+EDUCATIVOS DEPENDIENTES DE LA CONSEJERÍA DE EDUCACIÓN, FORMACIÓN
+PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES EN LOS QUE SE HA AUTORIZADO LA
+IMPLANTACIÓN DEL PRIMER CICLO DE EDUCACIÓN INFANTIL.
+
+Vista la necesidad de dictar unas instrucciones específicas dirigidas a los centros educativos dependientes de
+la Consejería de Educación, Formación Profesional, Actividad Física y Deportes en los que se ha autorizado,
+con carácter de experiencia piloto, la implantación del primer ciclo de Educación Infantil, y teniendo en
+cuenta los siguientes
+ANTECEDENTES DE HECHO
+Primero. La escolarización en la etapa de Educación Infantil está concebida como una medida
+compensadora de los efectos de las desigualdades de origen económico, social, territorial y cultural del
+alumnado, y aporta, por tanto, equidad al sistema educativo, además de favorecer la detección de dificultades
+de aprendizaje y la atención temprana, lo que se traduce, según la Organización para la Cooperación y el
+Desarrollo Económico, en mejores resultados en su futuro académico. Con la universalización del primer
+ciclo de Educación Infantil se contribuye, asimismo, a la conciliación laboral y familiar, lo que va a incidir
+directamente en el tejido productivo de las islas.
+Segundo. Por Orden de 22 de marzo de 2022, se autorizó la implantación, con carácter de experiencia piloto,
+del tercer curso y de aulas mixtas del segundo y tercero curso del primer ciclo de Educación Infantil, en
+determinados centros educativos dependientes de esta Consejería, para el curso 2022-2023.
+Tercero. Por Orden de 24 de marzo de 2023, se autorizó la implantación, con carácter de experiencia piloto,
+del primer ciclo de Educación Infantil, en determinados centros educativos dependientes de esta Consejería,
+en el curso 2023-2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el
+curso 2022-2023; modificada por la Orden de 17 de mayo de 2023 y por la Orden de 15 de marzo de 2024.
+En tal sentido, atendiendo a la experiencia acumulada y dentro del proceso de mejora, se hace preciso dictar
+unas nuevas instrucciones específicas.
+
+1
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 2 ===
+
+Folio 2/24
+
+FUNDAMENTOS DE DERECHO
+Primero. El capítulo I del título I (art. 12-15) de la Ley Orgánica 2/2006, de 3 de mayo, de Educación
+establece, entre otros, los principios generales y los objetivos de la Educación Infantil, así como su
+ordenación y principios pedagógicos.
+Segundo. La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria, en su artículo 29, dedicado
+a la Educación Infantil, así como en su disposición adicional decimonovena.
+Tercero. El Real Decreto 95/2022, de 1 de febrero, por el que se establece la ordenación y las enseñanzas
+mínimas de la Educación Infantil.
+Cuarto. El Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la
+Educación Infantil en la Comunidad Autónoma de Canarias.
+Quinto. El Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros
+docentes públicos no universitarios de la comunidad autónoma de Canarias, y la Orden de 9 de octubre de
+2013, de la Consejería de Educación, Universidades y Sostenibilidad, por la que se desarrolla el Decreto
+81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no
+universitarios de la comunidad autónoma de Canarias, en lo referente a su organización y funcionamiento.
+Sexto. El Decreto 201/2008, de 30 de septiembre, por el que se establecen los contenidos educativos y los
+requisitos de los centros que imparten el primer ciclo de Educación Infantil en la comunidad autónoma de
+Canarias, en lo no derogado por el Decreto 196/2022, de 13 de octubre.
+Séptimo. La Ley 12/2019, de 25 de abril, por la que se regula la atención temprana en Canarias.
+Octavo. El Decreto 25/2018, de 26 de febrero, que regula la atención a la diversidad en el ámbito de las
+enseñanzas no universitarias de la comunidad autónoma de Canarias.
+Noveno. La Orden de 31 de mayo de 2023, por la que se regulan de evaluación y la promoción del alumnado
+que cursa las etapas de la Educación Infantil, la Educación Primaria, la Educación Secundaria Obligatoria y
+el Bachillerato, y se establecen los requisitos para la obtención de los títulos correspondientes, en la
+Comunidad Autónoma de Canarias.
+Décimo. La Resolución de la Dirección General de Centros e Infraestructura Educativa, núm. 1551 de 2 de
+agosto de 2010, por la que se dictan instrucciones sobre el calendario y la jornada escolar en los centros,
+públicos y privados, que imparten el primer ciclo de Educación Infantil.
+Undécimo. La Resolución de la Dirección General de Administración de Centros, Escolarización y Servicios
+Complementarios, de 13 de mayo de 2024, por la que se establece el calendario escolar y se dictan
+instrucciones para la organización y desarrollo de las actividades de comienzo y finalización del curso
+2024/2025, para los centros de enseñanzas no universitarias de la Comunidad Autónoma de Canarias.
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 3 ===
+
+Folio 3/24
+
+En su virtud, y en ejercicio de las competencias atribuidas en los artículos 17.2 y 18.2. del Reglamento
+Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes, aprobado por
+Decreto 84/2024, de 10 de junio, se dictan las presentes
+
+INSTRUCCIONES ESPECÍFICAS DEL PRIMER CICLO DE EDUCACIÓN INFANTIL EN LOS
+CENTROS EDUCATIVOS DEPENDIENTES DE LA CONSEJERÍA DE EDUCACIÓN,
+FORMACIÓN PROFESIONAL, ACTIVIDAD FÍSICA Y DEPORTES
+Primera. Objeto y ámbito de aplicación
+Las presentes instrucciones específicas tienen por objeto regular la organización y funcionamiento del primer
+ciclo de Educación Infantil en los centros educativos dependientes de la Consejería de Educación, Formación
+Profesional, Actividad Física y Deportes (CEFPAFD) en los que se ha autorizado su implantación con
+carácter de experiencia piloto.
+Segunda. Autonomía de los centros educativos
+Los centros educativos deberán modificar y actualizar los documentos de gestión y planificación pedagógica
+para incorporar todo lo referido a los aspectos pedagógicos, organizativos y de gestión del primer ciclo de
+Educación Infantil.
+En particular, se actualizará el Proyecto Educativo (PE), el Proyecto de Gestión (PG), la Propuesta
+Pedagógica de Educación Infantil, la Programación General Anual (PGA) y las Normas de Organización y
+Funcionamiento (NOF).
+Tercera. Personal
+1. La atención educativa de cada unidad del primer ciclo de Educación Infantil se desarrolla por el maestro
+o la maestra de educación infantil, responsable de la tutoría del grupo, el educador o la educadora infantil, el
+o la auxiliar educativo y un maestro o una maestra de educación infantil.
+2. La atención educativa directa de cada unidad del primer ciclo de Educación Infantil correrá a cargo del
+maestro o la maestra de educación infantil, responsable de la tutoría del grupo, el educador o la educadora
+infantil y el maestro o la maestra de educación infantil.
+
+3
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 4 ===
+
+Folio 4/24
+
+Cuarta. Equipo de atención educativa
+1. El equipo de atención educativa, como responsable de la atención de los niños y las niñas, de conformidad
+con la propuesta pedagógica, garantizará el trabajo del equipo y guiará el proceso educativo.
+2. El o la auxiliar educativo realizará labores de apoyo. En ningún caso, podrá ocupar el lugar de los
+profesionales de atención educativa directa.
+Quinta. Equipo de atención educativa directa
+1. En los centros educativos en los que se implante el primer ciclo de Educación Infantil,
+independientemente del número de unidades que tenga, se constituirá el equipo de atención educativa
+directa.
+2. El equipo de atención educativa directa funcionará de igual manera que un equipo docente de grupo.
+Sexta. Tutoría de grupo
+1. Cada unidad del primer ciclo de Educación Infantil contará con un tutor o una tutora responsable de las
+funciones de coordinación del conjunto de personas del equipo de atención educativa y de la elaboración y
+seguimiento de la propuesta pedagógica.
+2. El maestro o la maestra de educación infantil asignado al grupo, será el tutor o la tutora con sus
+atribuciones propias, siendo el referente no solo de los niños y las niñas sino también de las familias.
+Séptima. Sesiones de coordinación semanal
+1. El maestro o la maestra responsable de la tutoría de grupo y el educador o la educadora infantil se reunirán
+semanalmente, en el horario de obligada permanencia del alumnado, durante dos sesiones, cuya duración
+dependerá de la organización del centro.
+2. Durante estas sesiones de coordinación semanal, estará a cargo del grupo el maestro o la maestra de
+educación infantil que es miembro del equipo de atención educativa directa, con el apoyo del o la auxiliar
+educativa.
+Octava. Jornada del personal
+1. La jornada de trabajo del maestro o la maestra que imparte el primer ciclo de Educación Infantil será la
+prevista en la Orden de 9 de octubre de 2013, por la que se desarrolla el Decreto 81/2010, de 8 de julio, por
+el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la
+comunidad autónoma de Canarias, en lo referente a su organización y funcionamiento.
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 5 ===
+
+Folio 5/24
+
+2. La persona responsable de la tutoría del grupo permanecerá en el aula un número mínimo de horas
+atendiendo a lo recogido en la siguiente tabla:
+DISPONIBILIDAD HORARIA DEL TUTOR O DE LA TUTORA DEL PRIMER CURSO DEL PRIMER CICLO
+DE EDUCACIÓN INFANTIL
+Alumnado matriculado
+
+Horas mínimas semanales de obligada
+permanencia en el aula
+
+Horas mínimas diarias de obligada permanencia
+en el aula
+
+1-8
+
+8 horas
+
+1 hora
+
+DISPONIBILIDAD HORARIA DEL TUTOR O DE LA TUTORA DEL SEGUNDO CURSO DEL PRIMER
+CICLO DE EDUCACIÓN INFANTIL
+Alumnado matriculado
+
+Horas mínimas semanales de obligada
+permanencia en el aula
+
+Horas mínimas diarias de obligada permanencia
+en el aula
+
+7-13
+
+12 horas
+
+2 horas
+
+1-6
+
+10 horas
+
+2 horas
+
+DISPONIBILIDAD HORARIA DEL TUTOR O DE LA TUTORA DEL TERCER CURSO DEL PRIMER CICLO
+DE EDUCACIÓN INFANTIL
+Alumnado matriculado
+
+Horas mínimas semanales de obligada
+permanencia en el aula
+
+Horas mínimas diarias de obligada permanencia
+en el aula
+
+13-18
+
+15 horas
+
+2 horas
+
+7-12
+
+12 horas
+
+2 horas
+
+1-6
+
+10 horas
+
+2 horas
+
+DISPONIBILIDAD HORARIA DEL TUTOR O DE LA TUTORA DE AULAS MIXTAS DE PRIMER Y
+SEGUNDO CURSO DEL PRIMER CICLO DE EDUCACIÓN INFANTIL
+
+5
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 6 ===
+
+Folio 6/24
+
+Alumnado matriculado
+
+Horas mínimas semanales de obligada
+permanencia en el aula
+
+Horas mínimas diarias de obligada permanencia
+en el aula
+
+7-9
+
+10 horas
+
+2 horas
+
+1-6
+
+8 horas
+
+1 horas
+
+DISPONIBILIDAD HORARIA DEL TUTOR O DE LA TUTORA DE AULAS MIXTAS DE SEGUNDO Y
+TERCER CURSO DEL PRIMER CICLO DE EDUCACIÓN INFANTIL
+Alumnado matriculado
+
+Horas mínimas semanales de obligada
+permanencia en el aula
+
+Horas mínimas diarias de obligada permanencia
+en el aula
+
+8-14
+
+12 horas
+
+2 horas
+
+1-7
+
+10 horas
+
+2 horas
+
+3. El resto de horas del tutor o de la tutora del grupo se destinará a apoyar a la etapa de Educación Infantil,
+prioritariamente al resto de grupos del primer ciclo, si así fuera. Asimismo, podrá asumir la coordinación de
+proyectos, sin menoscabo de lo enunciado anteriormente.
+4. El personal de atención educativa, organizará sus descansos diarios para asegurar que la atención al
+alumnado quede cubierta en todo momento por dos profesionales, evitando el solapamiento de sus
+descansos. A excepción del maestro o la maestra de educación infantil, responsable de la atención educativa
+directa durante las sesiones de coordinación semanal, que deberá estar a lo previsto en su propio horario.
+Novena. Documento individual de seguimiento diario
+En atención a las características propias del alumnado del primer ciclo de Educación Infantil, y con el
+objetivo de mantener una estrecha comunicación con las familias, el maestro o la maestra responsable de la
+tutoría de grupo y/o el educador o la educadora infantil recogerán diariamente en el aplicativo Pincel Ekade
+la información sobre aspectos relacionados con la atención de las necesidades básicas, tales como higiene,
+alimentación, descanso, o cualquier otra información que considere oportuna, que podrá ser consultada por
+las familias a través de la APP Pincel Alumnado y Familias o Pincel Ekade web.
+
+Décima. Sesiones de evaluación
+La evaluación de los aprendizajes será competencia del maestro o la maestra, responsable de la tutoría de
+grupo, con la participación del maestro o la maestra de educación infantil que imparte docencia al mismo
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 7 ===
+
+Folio 7/24
+
+grupo, teniendo en cuenta las observaciones directas y sistemáticas del educador o de la educadora infantil.
+Undécima. Equipo docente de ciclo
+1. Aquellos centros docentes que cuenten con tres o más unidades del primer ciclo de Educación Infantil
+contarán con el equipo docente de ciclo como órgano de coordinación.
+2. Las reuniones del equipo docente de ciclo, cuya periodicidad no podrá ser menor de una mensual, serán de
+obligada asistencia para todo el profesorado de dicho equipo.
+3. Su regulación se realizará de conformidad con la normativa correspondiente.
+Duodécima. Coordinación de etapa
+1. En aquellos centros que cuenten con una o dos unidades del primer ciclo de Educación Infantil, al no
+contar con equipo docente de ciclo, al objeto de garantizar su coordinación, se establecerá un equipo de
+coordinación de etapa. En esta coordinación deberá participar todo el profesorado que ejerza la tutoría en los
+diferentes grupos de todos los cursos de la etapa y, además, también podrá formar parte de ella el resto del
+profesorado que incida en cada uno de estos grupos. Para el establecimiento de este equipo de coordinación,
+se tendrán en cuenta las características de cada centro educativo, favoreciendo así la coherencia en los
+procesos de enseñanza y aprendizaje entre los dos ciclos.
+2. En estas reuniones se establecerán los acuerdos organizativos, curriculares y metodológicos necesarios
+para la coordinación de la etapa. Dichos acuerdos serán recogidos por el coordinador o la coordinadora en las
+actas correspondientes a cada sesión, llevando un seguimiento de ellos la Comisión de Coordinación
+Pedagógica (CCP). Las sesiones de coordinación se celebrarán, al menos, una vez al mes.
+Decimotercera. Uso de espacios
+1. La sala de usos múltiples, la entrada y salida, así como el patio de juegos podrán ser comunes, aunque
+deberá garantizarse que su uso por parte del alumnado del primer ciclo se hará en horario independiente al
+del segundo ciclo de Educación Infantil y resto de etapas.
+En el caso de contar con espacios diferenciados para el primer ciclo, se podrá hacer uso de los mismos en
+horarios coincidentes con otros grupos del centro.
+2. Los lugares exteriores del aula son también espacios de aprendizaje, por lo que todas las actividades que
+se lleven a cabo en los mismos (juego libre, descanso, actividades dirigidas,…) estarán recogidas en la
+programación de aula y, por tanto, serán dirigidas o supervisadas por el equipo de atención educativa directa.
+
+7
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 8 ===
+
+Folio 8/24
+
+3. En atención a las características del alumnado, se podrá hacer uso del patio de forma variable a lo largo de
+la semana, respondiendo a las necesidades de la programación del aula, puesto que forma parte del horario
+educativo, no debiéndose confundir con un tiempo de recreo.
+Decimocuarta. Calendario escolar
+1. Como consecuencia de la implantación progresiva de aulas del primer ciclo de Educación Infantil en los
+centros docentes dependientes de la consejería competente en materia educativa, la fecha de inicio de las
+actividades propiamente lectivas se encuentra prevista en la Resolución de la Dirección General de
+Administración de Centros, Escolarización y Servicios Complementarios, de 13 de mayo de 2024, por la que
+se establece el calendario escolar y se dictan instrucciones para la organización y desarrollo de las
+actividades de comienzo y finalización del curso 2024-2025, para los centros de enseñanzas no universitarias
+de la Comunidad Autónoma de Canarias.
+2. Excepcionalmente, la fecha de inicio de las actividades propiamente lectivas de las aulas del primer ciclo
+de Educación Infantil que se implanten a lo largo del curso escolar 2024-2025 quedará supeditada a la
+finalización de las obras y la dotación del equipamiento necesario para su apertura y puesta en
+funcionamiento. Esta circunstancia excepcional supondrá que la fecha de inicio pueda ser diferente en cada
+uno de estos centros.
+Decimoquinta. Plan de Acogida
+1. El Plan de Acogida será un documento abierto y flexible, en el que se concreta la planificación de los
+tiempos, los espacios y las acciones dirigidas al alumnado y sus familias, permitiendo una adaptación
+progresiva, inclusiva y respetuosa del alumnado que se incorpora por primera vez al centro educativo.
+2. La elaboración del Plan de Acogida corresponderá al profesorado de la etapa de Educación Infantil,
+pudiéndose concretar con las aportaciones del educador o de la educadora infantil, debiendo estar finalizado
+antes del inicio del curso escolar 2024-2025, atendiendo a las orientaciones previstas en el anexo I recogido
+en la presente resolución.
+3. Este plan recogerá el horario correspondiente al periodo de acogida del alumnado y las familias durante
+los primeros diez días lectivos de inicio del curso escolar, pudiendo ser ampliado atendiendo a las
+características y necesidades del alumnado.
+
+Decimosexta. Horario
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 9 ===
+
+Folio 9/24
+
+1. El horario del primer ciclo de Educación Infantil se entenderá como la distribución en secuencias
+temporales de las actividades que se realizan en los distintos días de la semana, teniendo en cuenta que todos
+los momentos de la jornada tienen carácter educativo:
+
+a) Horario de entrada
+El centro docente deberá ofrecer la flexibilidad en el horario de entrada, pudiendo el alumnado incorporarse
+a lo largo de la hora previa a las horas de obligada permanencia, sin necesidad de prefijar un horario
+determinado.
+Durante esta hora, el alumnado será atendido por el educador o la educadora infantil y por el o la auxiliar
+educativo.
+
+b) Horas de obligada permanencia del alumnado
+El periodo de horas de obligada permanencia en el centro educativo será de cuatro horas diarias que
+coincidirán con las cuatro primeras horas lectivas del centro.
+
+c) Comedor y salida de los no usuarios de comedor
+Tras la finalización de las horas de obligada permanencia, se prestará el servicio de comedor , siendo su
+duración de una hora. El servicio de comedor se adaptará a las peculiaridades del alumnado del primer ciclo
+y será atendido por el o la auxiliar educativo y el educador o la educadora infantil, con el apoyo del personal
+auxiliar de servicios complementarios.
+En aquellos casos en los que no se haga uso de este servicio, el alumnado permanecerá e n el aula con el
+maestro o la maestra responsable de la tutoría de grupo, y deberá ser recogido por la familia a lo largo de esta
+hora.
+
+d) Horario de salida de los usuarios de comedor
+Una vez finalizado el servicio de comedor, el alumnado dispondrá de un periodo de descanso.
+El alumnado usuario del servicio de comedor podrá permanecer en el centro educativo durante una hora más
+de la hora prevista para este servicio. Para ello, el centro docente deberá ofrecer la flexibilidad en el horario
+de salida, pudiendo el alumnado ser recogido a lo largo de este periodo, sin necesidad de prefijar un horario
+determinado.
+La atención del alumnado tras finalizar el servicio de comedor y durante la hora de salida flexible, será
+prestada por el educador o la educadora infantil y por el o la auxiliar educativo.
+
+9
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 10 ===
+
+Folio 10/24
+
+DURACIÓN
+
+OBSERVACIONES
+
+Hora de entrada
+
+1 hora
+
+Horas de obligada permanencia
+
+4 horas
+
+Comedor / Hora de salida no
+usuario comedor
+
+1 hora
+
+Hora previa a las de obligada permanencia (entrada
+flexible a lo largo de la hora).
+Coinciden con las cuatro primeras horas lectivas del
+centro.
+Para el alumnado no usuario del servicio de comedor:
+salida flexible a lo largo de la hora.
+
+Hora de salida usuario de
+comedor
+
+1 hora
+
+Para el alumnado usuario del servicio de comedor:
+salida flexible a lo largo de la hora.
+
+2. En cualquier caso, una vez finalizadas las siete horas previstas en el cuadro anterior, cada centro podrá
+organizar y programar una hora más de estancia, no pudiendo superar la permanencia máxima de ocho horas
+diarias del alumnado en el centro educativo. Durante esta prolongación de jornada se deberá garantizar una
+adecuada atención al alumnado, con un mismo grupo de edad y con las ratios previstas en la Resolución
+sobre el calendario y la jornada escolar en los centros públicos y privados, que imparten el primer ciclo de
+Educación Infantil.
+3. En el primer ciclo de Educación Infantil no se aplicará el régimen de jornada intensiva, manteniendo el
+mismo horario a lo largo de todo el calendario escolar.
+Decimoséptima. Control de asistencia y absentismo
+1. El personal de atención educativa directa controlará la asistencia del alumnado durante el horario de
+obligada permanencia, registrando diariamente las faltas de asistencia e impuntualidad tanto a la entrada
+como a la salida, de tal modo que quede constancia en el sistema de control del centro educativo.
+2. Si durante el primer trimestre del inicio de la actividad lectiva, se observase la no incorporación de
+determinado alumnado, o su inasistencia continuada durante diez días lectivos o de forma discontinua por un
+periodo de veinticinco días lectivos, el equipo directivo se dirigirá al padre, madre, tutor o tutora, o
+guardador o guardadora a fin de conocer las razones de dicho absentismo y procederá, en su caso, a realizar
+una baja de oficio.
+3. Transcurrido el citado plazo, durante el resto del curso académico, solo podrá realizarse la baja de oficio
+de la matrícula cuando, injustificadamente, el alumnado no asista a clase de forma continuada por un periodo
+superior a veinticinco días lectivos o de forma discontinua por un periodo superior a treinta y cinco días
+lectivos.
+4. Dado el carácter no obligatorio de la etapa, una vez realizada una baja de oficio, se procederá a admitir a
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 11 ===
+
+Folio 11/24
+
+aquel alumnado que no hubiera sido admitido inicialmente.
+A tales efectos, deberá quedar constancia fehaciente de la comunicación al padre, madre, tutor o tutora, o
+guardador o guardadora de tal circunstancia administrativa en la secretaría del centro.
+Decimoctava. Detección precoz y atención temprana: educación inclusiva
+1. La detección precoz y la atención temprana son acciones prioritarias en la etapa de Educación Infantil con
+el fin de garantizar la identificación y respuesta a las necesidades de los y las menores lo más tempranamente
+posible, para proporcionarles accesibilidad en contextos naturales inclusivos.
+2. La detección de posibles alteraciones en el desarrollo infantil supone el punto de partida para la ejecución
+de actuaciones orientadas a prevenir otras dificultades. Por tanto, la detección de señales de alerta debe estar
+presente en las funciones de todas las personas profesionales que se dedican a la atención de los niños y las
+niñas así como de su entorno familiar.
+3. La identificación temprana se llevará a cabo por profesionales especialistas y tendrá como objeto la
+intervención y respuesta inmediata a las dificultades detectadas para proporcionar las ayudas que es preciso
+ofrecer.
+4. El primer ciclo de la etapa Educación Infantil contará con el apoyo de los servicios de orientación,
+audición y lenguaje y, en su caso, de aquellos otros profesionales que se precisen. Serán los encargados de
+proporcionar el asesoramiento a las familias y profesorado sobre la atención y respuesta educativa de los
+menores que presenten posibles alteraciones en el desarrollo.
+5. Los centros facilitarán la coordinación del maestro o la maestra responsable de la tutoría de grupo con los
+diferentes profesionales especialistas, así como con las unidades de atención temprana y otros servicios que
+se consideren para facilitar la atención integral de los niños y las niñas.
+Decimonovena. Cooperación entre el centro y las familias
+1. En todas las etapas educativas, la participación de las familias en los centros es un factor de calidad que
+garantiza la mejora de la educación. En la etapa de Educación Infantil esta participación es aún más
+necesaria, ya que a partir de la coordinación y cooperación de todos los agentes que intervienen de forma
+directa en la educación de los niños y las niñas se pueden conseguir mejores resultados para su bienestar y
+desarrollo.
+2. Con el fin de facilitar la coordinación y cooperación con las familias, el centro, además de las reuniones
+previstas en la citada Orden de 9 de octubre de 2013, atenderá especialmente a lo siguiente:
+
+11
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 12 ===
+
+Folio 12/24
+
+a) Antes del inicio del curso escolar 2024-2025, se realizará una reunión informativa con las familias
+del alumnado del primer ciclo de Educación Infantil, para explicar las características de la
+implantación, con carácter de experiencia piloto, del primer ciclo de Educación Infantil, en el curso
+2024-2025. En esta reunión se podrán incluir otros puntos del orden del día que el centro estime
+conveniente.
+b) Durante los primeros días del inicio de curso, se planificará una entrevista inicial de carácter
+individual con las familias del grupo, con el objetivo de recoger aquellos aspectos que se consideren
+necesarios para conocer características e individualidades del alumnado, siendo el punto de partida
+para el diseño de la planificación didáctica.
+Para el desarrollo de la entrevista se podrá utilizar un cuestionario que será el instrumento de
+evaluación inicial y cuyo documento guía se recoge en el anexo II de la presente resolución.
+c) En la Programación General Anual se incluirán, en el plan de comunicación con las familias, los
+aspectos específicos relativos al primer ciclo de Educación Infantil, con el objetivo de promover la
+participación de las familias en el centro. Este documento deberá recoger acciones favorecedoras de
+la implicación familiar, identificando los momentos que requieren especial atención; de esta forma,
+incorporará actuaciones que concreten cómo se realizará el recibimiento, la acogida y el
+acompañamiento de los niños y las niñas durante su estancia en el centro educativo. Asimismo, se
+establecerán los canales de participación de las familias, así como de otros agentes de la comunidad
+educativa, en consonancia con el Proyecto Educativo.
+Vigésima. Lactancia
+1. Se informará a las familias de la posibilidad de llevar a cabo la lactancia directa en el centro educativo y
+de las medidas higiénicas necesarias para la lactancia diferida, debiendo comprometerse las familias a
+adoptar las medidas adecuadas en la preparación, conservación y traslado de los alimentos al centro, así
+como autorizar al personal del centro educativo para la administración de alimentos, de conformidad con el
+anexo III recogido en la presente resolución.
+2. Para hacer efectiva la lactancia materna directa en el tiempo de permanencia del alumnado en el centro, se
+deberá facilitar el acceso de las madres al mismo.
+Vigesimoprimera. Formación
+1. El profesorado de la etapa de Educación Infantil participará en las acciones informativas, formativas,
+jornadas y todas aquellas que se consideren oportunas convocadas por la Dirección General de Ordenación
+de las Enseñanzas, Inclusión e Innovación y la Dirección General de Administración de Centros,
+Escolarización y Servicios Complementarios.
+2. Se desarrollará un plan de formación inicial y continuada en los centros en los que se ha autorizado la
+implantación del primer ciclo de Educación Infantil, para el personal docente, educadores o educadoras
+infantiles y auxiliares educativos, dentro del marco del Plan de Formación del Centro, con un itinerario
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 13 ===
+
+Folio 13/24
+
+diferenciado:
+a) La formación inicial, que consistirá en sesiones sobre:
+●
+●
+●
+
+Información y sensibilización del centro
+Plan de Acogida
+Docencia Compartida
+
+b) La formación continuada se diseñará durante el primer trimestre del curso y se irá impartiendo a lo largo
+del mismo. Las temáticas a tratar serán las siguientes:
+●
+●
+●
+
+Actuación metodológica y curricular
+Atención a las diferencias individuales
+Evaluación y documentación pedagógica
+
+3. Además de la formación en los centros, se ofertará formación individual y específica presencial en los
+centros del profesorado (CEP), en el campus de formación autodirigida y en la plataforma de familias.
+Vigesimosegunda. Comisión de seguimiento de la experiencia piloto
+1. La Agencia Canaria de Calidad Universitaria y Evaluación Educativa (ACCUEE), en colaboración con la
+Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación y la Dirección General de
+Administración de Centros, Escolarización y Servicios Complementarios, aplicará un plan de evaluación de
+la implementación y la consecución de los objetivos de la implantación, con carácter de experiencia piloto,
+del primer ciclo de Educación Infantil en determinados centros educativos dependientes de la CEFPAFD en
+el curso 2024-2025.
+2. La Inspección de Educación participará en dicha evaluación, constituyéndose una comisión para la
+coordinación de las partes implicadas.
+3. La evaluación debe ser entendida como un proceso continuo que visualizará los avances, las dificultades y
+los elementos susceptibles de mejora en el desarrollo de la experiencia piloto.
+4. La comunidad educativa de los centros implicados deberá participar en la evaluación de la experiencia
+piloto, facilitando toda la información que se solicite.
+5. Las conclusiones de este seguimiento y evaluación externa serán publicadas y difundidas por parte de la
+ACCUEE.
+Vigesimotercera. Régimen jurídico
+En todas aquellas cuestiones no previstas específicamente en estas instrucciones se estará a lo dispuesto en
+
+13
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 14 ===
+
+Folio 14/24
+
+las normas correspondientes por razón de la materia, que deberán ser aplicadas teniendo en cuenta la
+identidad propia de este ciclo.
+
+ANEXO I
+ORIENTACIONES PARA LA ELABORACIÓN DEL PLAN DE ACOGIDA DEL PRIMER CICLO
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 15 ===
+
+Folio 15/24
+
+DE EDUCACIÓN INFANTIL
+
+Índice
+1. Introducción
+2. Justificación
+3. Contextualización
+4. Objetivos
+5. Agentes implicados
+6. Acciones previas
+7. Distribución horaria
+8. Organización de los espacios y tiempos
+9. Horario del alumnado durante el periodo de acogida
+10. Actividades durante el periodo de acogida
+11. Recursos
+12. Evaluación y seguimiento
+
+1. Introducción
+En este punto de inicio, se pueden reseñar aquellos aspectos relacionados con las características propias del
+alumnado del primer ciclo de Educación Infantil, tomando como referencia el Plan Estratégico para el Primer
+Ciclo de Educación Infantil en Canarias.
+2. Justificación
+En este apartado se argumenta la necesidad de implementar el Plan de Acogida para el alumnado del primer
+ciclo que se incorpora por primera vez al centro. Se recomienda incluir la normativa de referencia, recogida
+en la presente resolución.
+3. Contextualización
+En esta sección debe figurar el análisis del contexto del centro recogido en el Proyecto Educativo.
+4. Objetivos
+
+15
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 16 ===
+
+Folio 16/24
+
+En este epígrafe se fundamenta lo que se pretende conseguir con este plan.
+5. Agentes implicados
+En este punto deben contemplarse las personas implicadas en este proceso para la organización del periodo
+de acogida.
+6. Acciones previas
+Todo plan de acción precisa de una planificación previa. En este apartado se concretarán las acciones
+previstas para la puesta en marcha del periodo de acogida:
+- Acciones relacionadas con la organización y funcionamiento.
+- Acciones dirigidas a las familias.
+7. Distribución horaria
+En este apartado se contemplará la distribución horaria que se realizará en el centro durante los diez primeros
+días del periodo de acogida del primer ciclo de Educación Infantil. Durante este periodo se realizará una
+incorporación progresiva del alumnado al centro educativo, sus espacios y los elementos que conforman la
+actividad educativa. La distribución horaria del periodo de acogida, así como la incorporación al servicio de
+comedor, para aquel alumnado que vaya a hacer uso del mismo, se informará previamente a las familias.
+La siguiente propuesta es orientativa y podrá ser modificada por los centros educativos, atendiendo a sus
+características.
+Día 1 y 2.
+Número de grupos: tres.
+Duración: 1 hora y 15 minutos por grupo a distribuir en el horario escolar.
+Se recomienda citar a las familias durante el tiempo restante de la jornada para la realización de la
+entrevista inicial.
+Orientaciones
+Las actividades de los primeros días estarán enfocadas al conocimiento del nuevo ambiente educativo y la
+socialización por parte del alumnado y las familias.
+Se aconseja que los primeros días los grupos sean reducidos para favorecer un contacto más cercano con
+las familias, que estarán presentes en el aula.
+Se facilitará la asistencia al centro de un familiar o persona de apego o referencia que acompañe al niño o
+la niña durante el periodo de acogida. Esta persona permanecerá dentro del aula, al menos los cinco
+primeros días, facilitando el proceso de adaptación y el acompañamiento del alumnado.
+Días 3, 4 y 5.
+Número de grupos: dos.
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 17 ===
+
+Folio 17/24
+
+Duración: 2 horas y 30 minutos por grupo a distribuir en el horario escolar.
+Se recomienda citar a las familias durante el tiempo restante de la jornada para la realización de la
+entrevista inicial.
+Orientaciones
+Durante el tercer y cuarto día, se planificarán actividades que contemplen la participación familiar,
+manteniendo de esta manera la presencia de la persona acompañante.
+Además, se contemplará el uso de otros espacios del centro educativo, como puede ser el patio o la sala
+de psicomotricidad.
+A partir del cuarto día, a los acompañantes cuya presencia en el aula por parte del alumnado no sea
+necesaria, se les invitará a esperar en el lugar destinado a tal fin, pudiendo solicitarse su presencia en el
+aula, si fuera necesario.
+Días 6 y 7.
+Todo el grupo clase.
+Duración: 3 horas.
+Se recomienda citar a las familias durante el tiempo restante de la jornada para la realización de la
+entrevista inicial.
+Orientaciones
+Durante estos días, las actividades deberán ser motivadoras para el alumnado y estarán relacionadas con
+los hábitos y las rutinas del aula.
+En el caso del alumnado que no precise de su acompañante en el aula, se invitará a éste a esperar en el
+lugar destinado para ello, solicitando su presencia si fuera necesario. Los acompañantes cuya presencia no
+sea necesaria por parte del alumnado podrán ausentarse del centro educativo durante la franja horaria
+correspondiente, regresando en el momento de la recogida.
+Aquel alumnado que haya solicitado el servicio de comedor escolar podría iniciar la incorporación al
+mismo de forma progresiva durante estos días.
+Días 7 y 8.
+Todo el grupo clase.
+Duración: 3 horas y 30 minutos.
+Se recomienda citar a las familias durante el tiempo restante de la jornada para la realización de la
+entrevista inicial.
+Orientaciones
+Las actividades de estos días deberán ser motivadoras para el alumnado, suscitando el deseo de volver al
+día siguiente.
+Las familias acompañarán al alumnado al aula, no permaneciendo en el centro durante la jornada, y
+regresando a recoger al alumnado en el horario pertinente. Se permitirá la presencia de las personas que
+acompañan al alumnado si hubiera algún alumno o alumna que aún lo precise.
+
+17
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 18 ===
+
+Folio 18/24
+
+Aquel alumnado que haya solicitado el servicio de comedor escolar podría iniciar la incorporación al
+mismo de forma progresiva durante estos días.
+Se valorará la posibilidad de que el alumnado pueda realizar la siesta en el centro educativo, en función
+de su proceso de adaptación.
+Día 10.
+Todo el grupo clase.
+Duración: 4 horas de obligada permanencia.
+Orientaciones
+Se continuará con el desarrollo de hábitos y rutinas del aula a través de actividades motivadoras y que
+favorezcan el desarrollo holístico del alumnado.
+Todo el alumnado que haya solicitado el servicio de comedor escolar y esté preparado para hacer uso del
+mismo, debería de estar utilizando dicho servicio. En el caso de que un alumno o una alumna no esté
+incorporado al servicio de comedor por presentar dificultades en la adaptación, habrá que realizar los ajustes
+pertinentes.
+La incorporación al servicio de comedor escolar y la siesta se realizará de forma gradual, en función de la
+adaptación de los niños y las niñas, favoreciendo la conciliación familiar.
+Para aquel alumnado que, una vez terminado este periodo, presente dificultades de adaptación, se valorará
+continuar con la flexibilización de los horarios el tiempo indispensable.
+8. Organización de los espacios y tiempos
+En función de las normas de organización y funcionamiento de cada centro y sus características propias, se
+realizarán los ajustes pertinentes para que no coincidan los tiempos de patio, las entradas y salidas de las
+familias al centro u otros aspectos a tomar en consideración.
+9. Horario del alumnado durante el periodo de acogida
+En este punto se refleja el tramo horario y la organización de los grupos del alumnado.
+10. Actividades durante el periodo de acogida
+Las actividades de los diez primeros días lectivos deberán ir dirigidas a la acogida del alumnado y sus
+familias, de manera que ambos se sientan partícipes en este periodo de tiempo que acompañarán en el aula.
+11. Recursos
+En esta sección se determinan los elementos espaciales y materiales que se van a utilizar durante este
+periodo.
+12. Evaluación y seguimiento
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 19 ===
+
+Folio 19/24
+
+En este apartado se recogerá un análisis de la puesta en marcha del Plan de Acogida, reseñando los avances,
+dificultades y propuestas de mejora, de manera que quede registrada la evaluación del mismo y se puedan
+realizar los ajustes necesarios en el siguiente curso escolar.
+
+ANEXO II
+DOCUMENTO GUÍA DE ENTREVISTA INDIVIDUAL
+Datos personales del alumno o de la alumna
+Nombre y apellidos:
+Fecha de nacimiento:
+Domicilio:
+¿Ha estado escolarizado anteriormente?
+
+SÍ / NO
+
+En caso afirmativo, indique el nombre del centro al que ha acudido:
+¿Tiene hermanos o hermanas?
+
+SÍ / NO
+
+En caso afirmativo, indique qué lugar ocupa:
+
+19
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 20 ===
+
+Folio 20/24
+
+¿Tiene hermanos o hermanas escolarizados en el centro?
+
+SÍ / NO
+
+En caso afirmativo, ¿en qué curso o cursos?
+¿Va a hacer uso del servicio de comedor?
+
+SÍ / NO
+
+En caso afirmativo, indique si va a realizar la siesta después del
+comedor:
+
+SÍ / NO
+
+Datos familiares (padre, madre, tutor o tutora, guardador o guardadora)
+Parentesco:
+
+DNI:
+
+Nombre y apellidos:
+Fecha de nacimiento:
+Domicilio:
+Profesión:
+
+Horario laboral:
+
+Número de teléfono personal:
+
+Laboral:
+
+Datos familiares (padre, madre, tutor o tutora, guardador o guardadora)
+Parentesco:
+
+DNI:
+
+Nombre y apellidos:
+Fecha de nacimiento:
+Domicilio:
+Profesión:
+
+Horario laboral:
+
+Número de teléfono personal:
+
+Laboral:
+
+Datos médicos del alumno o de la alumna
+¿Ha padecido o padece alguna enfermedad importante?
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+SÍ / NO
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 21 ===
+
+Folio 21/24
+
+En caso afirmativo indica cuál o cuáles:
+¿Tiene alguna alergia?
+
+SÍ / NO
+
+En caso afirmativo indica cuál o cuáles:
+¿Posee algún tipo de tratamiento permanente?
+
+SÍ / NO
+
+En caso afirmativo indica cuál o cuáles:
+¿Se le han introducido todos los alimentos?
+
+SÍ / NO
+
+En caso negativo, indica cuál o cuáles no:
+¿Qué tipo de alimentación realiza: molido, entero, mixta?
+¿Continúa con la lactancia materna?
+En caso afirmativo, señale lo que proceda:
+
+SÍ / NO
+☐ Enviaré la toma
+
+☐ Acudiré al centro
+
+En caso de acudir al centro, indique la franja horaria aproximada en la que acudirá al centro:
+¿Existieron dificultades durante el embarazo, parto o problemas neonatales?
+Observaciones:
+
+¿Cómo definiría/describiría a su hijo/hija?
+
+Desarrollo madurativo del alumno o de la alumna
+
+21
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 22 ===
+
+Folio 22/24
+
+¿A qué edad empezó a gatear?
+¿A qué edad comenzó a caminar con independencia?
+¿Sube y baja escaleras solo o sola?
+
+SÍ / NO
+
+¿Bebe agua con autonomía?
+
+SÍ / NO
+
+¿Es capaz de comer solo o sola?
+
+SÍ / NO
+
+¿Controla esfínteres durante el día?
+
+SÍ / NO
+
+¿Va solo o sola al baño?
+
+SÍ / NO
+
+¿Controla esfínteres durante la noche?
+
+SÍ / NO
+
+¿Utiliza gestos para indicar lo que quiere?
+
+SÍ / NO
+
+¿Se expresa a través de palabras o frases?
+
+SÍ / NO
+
+¿Manifiesta necesidades básicas: sed, hambre, sueño,
+cambio de pañal/ir al baño?
+¿Utiliza un lenguaje entendible para todo el mundo?
+
+SÍ / NO
+SÍ
+
+¿Duerme solo o sola en su propia habitación?
+
+SÍ / NO
+
+/ NO
+
+Otras observaciones:
+
+Hábitos del alumno o de la alumna
+¿Utiliza biberón?
+
+SÍ / NO
+
+¿Usa la chupa?
+
+SÍ / NO
+
+En caso afirmativo indica la frecuencia de su uso
+
+☐ Todo el día
+
+☐ Cuando tiene rabietas o para dormir
+
+¿Suele hacer siesta después de comer?
+
+SÍ / NO
+
+¿Suele tener rabietas?
+
+SÍ / NO
+
+¿Tiene algún objeto de apego?
+
+SÍ / NO
+
+¿Cuál?
+¿Cuáles son sus juegos o juguetes preferidos?
+Otras aclaraciones:
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 23 ===
+
+Folio 23/24
+
+Relaciones sociales y comportamiento en el entorno
+Marcar lo que corresponda.
+¿Se relaciona con los miembros de la unidad familiar?
+
+SÍ / NO
+
+¿Se relaciona con otros miembros de la familia?
+
+SÍ / NO
+
+¿Se relaciona con los niños o niñas de su edad?
+
+SÍ / NO
+
+¿Comprende las instrucciones que se le dan?
+
+SÍ / NO
+
+¿Cumple las normas establecidas?
+
+SÍ / NO
+
+¿Se relaciona bien ante personas desconocidas?
+
+SÍ / NO
+
+Ante una situación de rabieta, ¿qué le calma?
+Observaciones:
+
+¿Qué expectativas tiene de esta nueva etapa?
+
+Anotaciones:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+23
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20
+
+=== Página 24 ===
+
+Folio 24/24
+
+ANEXO III
+INFORMACIÓN Y AUTORIZACIÓN PARA LA ADMINISTRACIÓN
+DE ALIMENTOS
+
+D./D.ª …………………………………. con DNI n.º…………………………… padre/madre/tutor o tutora
+legal/guardador o guardadora de ………………………………., alumno o alumna del CEIP/CEO
+………………...
+DECLARA
+Haber recibido información por parte del equipo de atención educativa directa de la posibilidad de llevar a
+cabo la lactancia directa en el centro educativo o lactancia diferida.
+Asumir la responsabilidad de:
+Llevar a cabo una adecuada preparación, conservación y traslado de los alimentos aportados diariamente
+al centro para el desayuno, para ser administrados al niño o a la niña a lo largo de la jornada escolar.
+En el caso de lactancia diferida, cumplir con las medidas higiénicas establecidas en el «Protocolo para la
+alimentación materna en el primer ciclo de Educación Infantil», realizado en colaboración entre las
+direcciones generales de Salud Pública y Programas Asistenciales del Servicio Canario de la Salud.
+
+AUTORIZA
+Al personal del CEIP/CEO ……………………. a administrar al alumno o a la alumna los alimentos que se
+proporcionarán diariamente al centro educativo, incluida la leche materna en aquellos casos en los que se
+lleve a cabo lactancia diferida, eximiendo a la Consejería de Educación, Formación Profesional, Actividad
+Física y Deportes de la comunidad autónoma de Canarias de las consecuencias derivadas de la inadecuada
+manipulación y/o transporte de la alimentación aportada al centro por las familias.
+Y para que así conste firmo la presente autorización.
+En……….…………………….a…….. de……………………...202..
+Fdo.:
+
+Este documento ha sido firmado electrónicamente por:
+DAVID PABLOS GONZALEZ - DIRECTOR/A GENERAL
+CAROLINA LEON MARTINEZ - DIRECTOR/A GENERAL
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 24 / 2024 - Tomo: 1 - Libro: 2739 - Fecha: 16/07/2024 12:40:20
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+
+0fu1k65YylDRUt_l7feWVHwSRigA8Nh48
+El presente documento ha sido descargado el 16/07/2024 - 12:43:10
+
+Fecha: 16/07/2024 - 12:34:43
+Fecha: 16/07/2024 - 11:59:48
+Fecha: 16/07/2024 - 12:40:20

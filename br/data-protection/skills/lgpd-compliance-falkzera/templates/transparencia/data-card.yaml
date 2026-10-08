@@ -1,0 +1,82 @@
+# TEMPLATE, Data Card (DCAT + Datasheets for Datasets)
+# ========================================================
+# Para projetos que publicam DATASETS (govtech, acadêmico, open data).
+# Skill: lgpd-compliance (Parte 3)
+# Saída: <projeto>/transparencia/datasets/{id}.yaml
+# Renderizado em /transparencia/dados-abertos/{id}
+# Também emitido como JSON-LD schema.org/Dataset pra Google Dataset Search.
+
+dataset_id: "{{DATASET_ID}}"
+titulo: "{{TITULO}}"
+descricao: |
+  {{DESCRICAO_MULTILINHA}}
+
+# === PROCEDÊNCIA ============================================================
+fonte_primaria:
+  - nome: "{{FONTE_NOME}}"           # ex: SI-PNI/DATASUS
+    url: "{{FONTE_URL}}"
+    data_extracao: "{{AAAA-MM-DD}}"
+    licenca_fonte: "{{LICENCA_FONTE}}"  # ex: Lei de Acesso à Informação
+
+# === SCHEMA =================================================================
+schema:
+  - campo: "{{CAMPO_1}}"
+    tipo: "{{TIPO_1}}"               # ex: string(7), float, integer, date
+    descricao: "{{DESCRICAO_1}}"
+    completude: 100.0                # % de não-nulos
+    valores_validos: "{{REGEX_OU_DOMINIO}}"  # opcional
+  - campo: "{{CAMPO_2}}"
+    tipo: "{{TIPO_2}}"
+    descricao: "{{DESCRICAO_2}}"
+    completude: 99.7
+
+# === GRANULARIDADE ==========================================================
+granularidade:
+  temporal: "{{GRANULARIDADE_TEMPORAL}}"     # anual | mensal | diária | tempo real
+  espacial: "{{GRANULARIDADE_ESPACIAL}}"     # nacional | estadual | municipal | local
+
+# === ATUALIZAÇÃO ============================================================
+periodicidade_atualizacao: "{{PERIODICIDADE}}"   # anual (até abril do ano seguinte)
+ultima_atualizacao: "{{AAAA-MM-DD}}"
+proxima_atualizacao: "{{AAAA-MM-DD}}"
+
+# === LICENÇA E USO ==========================================================
+licenca: "CC-BY 4.0"                  # padrão sugerido; ajustar se outra
+licenca_url: "https://creativecommons.org/licenses/by/4.0/deed.pt_BR"
+citacao_sugerida: |
+  {{AUTOR}} ({{ANO}}). {{TITULO}}. Disponível em: {{URL_DATASET}}.
+  Acesso em: {{DATA_ACESSO}}.
+doi: "{{DOI_SE_TIVER}}"
+
+# === PRIVACIDADE / ANONIMIZAÇÃO ============================================
+anonimizacao:
+  contem_pii_original: {{TRUE_OU_FALSE}}
+  metodo: "{{METODO_ANONIMIZACAO}}"   # ex: agregação municipal (k-anonymity, k≥5)
+  risco_reidentificacao: "{{BAIXO_MEDIO_ALTO}}"
+  base_legal_lgpd: "art_7_IV_pesquisa"   # se aplica
+
+# === LIMITAÇÕES =============================================================
+limitacoes_conhecidas:
+  - "{{LIMITACAO_1}}"
+  - "{{LIMITACAO_2}}"
+notas_metodologicas:
+  - "{{NOTA_1}}"
+
+# === CONTATO ================================================================
+contato_responsavel: "{{EMAIL_RESPONSAVEL}}"
+mantenedor_institucional: "{{INSTITUICAO_SE_APLICA}}"
+
+# === VERSIONAMENTO ==========================================================
+versao: "1.0.0"
+changelog:
+  - { versao: "1.0.0", data: "{{AAAA-MM-DD}}", mudanca: "versão inicial" }
+
+# === FORMATOS DISPONÍVEIS ===================================================
+formato_disponivel:
+  - { formato: "CSV", url: "{{URL_CSV}}" }
+  - { formato: "Parquet", url: "{{URL_PARQUET}}" }
+  - { formato: "JSON", url: "{{URL_JSON}}" }
+  - { formato: "API REST", url: "{{URL_API}}", docs: "{{URL_DOCS_API}}" }
+
+# === JSON-LD (schema.org/Dataset), gerado automaticamente =================
+# (a página renderizada injeta no <head> a partir deste YAML)

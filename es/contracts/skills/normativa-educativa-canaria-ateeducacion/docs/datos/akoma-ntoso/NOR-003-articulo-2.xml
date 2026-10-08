@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-03-29/217">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2022/03/29/217/con"/>
+          <FRBRdate date="2022-03-29" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/spa@/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217/spa@"/>
+          <FRBRdate date="2022-03-30" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.</num>
+        <heading>Definiciones.</heading>
+        <paragraph eId="art_2__para_1">
+          <content><p>A efectos de este real decreto, se entenderá por:</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>a)</num>
+          <content><p>Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar la etapa y cuya consecución está vinculada a la adquisición de las competencias clave.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_3">
+          <num>b)</num>
+          <content><p>Competencias clave: desempeños que se consideran imprescindibles para que el alumnado pueda progresar con garantías de éxito en su itinerario formativo, y afrontar los principales retos y desafíos globales y locales. Las competencias clave aparecen recogidas en el Perfil de salida del alumnado al término de la enseñanza básica y son la adaptación al sistema educativo español de las competencias clave establecidas en la Recomendación del Consejo de la Unión Europea de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_4">
+          <num>c)</num>
+          <content><p>Competencias específicas: desempeños que el alumnado debe poder desplegar en actividades o en situaciones cuyo abordaje requiere de los saberes básicos de cada materia o ámbito. Las competencias específicas constituyen un elemento de conexión entre, por una parte, el Perfil de salida del alumnado, y por otra, los saberes básicos de las materias o ámbitos y los criterios de evaluación.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_5">
+          <num>d)</num>
+          <content><p>Criterios de evaluación: referentes que indican los niveles de desempeño esperados en el alumnado en las situaciones o actividades a las que se refieren las competencias específicas de cada materia o ámbito en un momento determinado de su proceso de aprendizaje.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_6">
+          <num>e)</num>
+          <content><p>Saberes básicos: conocimientos, destrezas y actitudes que constituyen los contenidos propios de una materia o ámbito cuyo aprendizaje es necesario para la adquisición de las competencias específicas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_7">
+          <num>f)</num>
+          <content><p>Situaciones de aprendizaje: situaciones y actividades que implican el despliegue por parte del alumnado de actuaciones asociadas a competencias clave y competencias específicas y que contribuyen a la adquisición y desarrollo de las mismas.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

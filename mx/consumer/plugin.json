@@ -1,0 +1,14 @@
+{
+  "name": "mx-consumer",
+  "displayName": "Consumer Protection — MX",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for MX (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "mx",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/telecom-isp-mx-lahh1986"
+  ]
+}

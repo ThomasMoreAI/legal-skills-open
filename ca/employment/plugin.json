@@ -1,0 +1,19 @@
+{
+  "name": "ca-employment",
+  "displayName": "Employment & Labor — CA",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for CA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/accommodation-request-reggiechan74",
+    "skills/constructive-dismissal-reggiechan74",
+    "skills/discrimination-assessment-reggiechan74",
+    "skills/investigation-prep-reggiechan74",
+    "skills/severance-review-reggiechan74",
+    "skills/workplace-documentation-reggiechan74"
+  ]
+}

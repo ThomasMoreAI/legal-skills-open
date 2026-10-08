@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal Process Parser"
+  short_description: "Analise processos e crie minutas rastreáveis."
+  default_prompt: "Inspecione os materiais enviados, o manifesto e relatorio_processual.md. Pergunte somente quando a tarefa estiver ambígua, houver conflito ou faltar dado indispensável; execute uma tarefa por vez (ingestão, análise, prazos, provas, petição ou auditoria), distinguindo fatos, provas, decisões e lacunas."

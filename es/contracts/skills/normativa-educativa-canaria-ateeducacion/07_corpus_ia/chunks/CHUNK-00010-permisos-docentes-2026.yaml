@@ -1,0 +1,31 @@
+id: CHUNK-00010
+origen_tipo: "norma"
+origen_id: NOR-042
+titulo: "Permisos y Licencias Personal Docente 2026 (Canarias)"
+texto: >-
+  La Resolución de 24 de febrero de 2026 actualiza el régimen de permisos del profesorado en Canarias.
+  Novedades principales:
+  1. Permiso Parental: Hasta 8 semanas (no retribuidas) para cuidado de hijos menores de 8 años.
+  2. Enfermedad Familiar: Ampliación a 5 días por accidente o enfermedad grave de familiares de 1er grado o convivientes.
+  3. Digitalización: Obligatoriedad de tramitación vía Portal Docente.
+  4. Conciliación: Se adaptan los permisos al marco del RDL 5/2023.
+metadatos:
+  ambito: "canarias"
+  etapa: [todas]
+  temas: [permisos, licencias, vacaciones, conciliacion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-045
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/751.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Resolución de 24 de febrero de 2026 (BOC 2026/046)."
+relaciones:
+  normas: [NOR-042]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -1,0 +1,34 @@
+id: CHUNK-00022
+origen_tipo: "norma"
+origen_id: NOR-046
+titulo: "Calendario Escolar y Organización (Canarias 2025-2026)"
+texto: >-
+  Resumen de las instrucciones de organización y funcionamiento (IOF) para el curso escolar vigente.
+  Hitos del Calendario:
+  1. Inicio de clases: 1 de septiembre de 2025 para Infantil y Primaria; 9 de septiembre para ESO, Bachillerato y FP.
+  2. Finalización de clases: 19 de junio de 2026 (con ajustes para 2.º de Bachillerato y Ciclos Finales).
+  3. Vacaciones: Navidad (20 dic - 7 ene), Semana Santa (30 mar - 3 abr).
+  Aspectos Organizativos:
+  - Sesiones de Evaluación: Tres sesiones trimestrales obligatorias.
+  - Horarios: Regulación de la jornada continua y los recreos vigilados.
+  - Coordinación: Funcionamiento de Equipos de Nivel y Departamentos.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
+  temas: [organizacion, funcionamiento, instrucciones]
+  estado_vigencia: "Vigente"
+  fuente: FTE-049
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Resoluciones de 20 de junio de 2025 (BOC)."
+relaciones:
+  normas: [NOR-046]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

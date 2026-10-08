@@ -1,0 +1,11 @@
+id: REL-025
+tipo_relacion: "desarrolla"
+origen: NOR-028
+destino: NOR-025
+descripcion: "La Orden de 10 de febrero de 2016 establece concreciones curriculares adaptadas previstas para alumnado de aulas enclave y centros de educación especial."
+evidencia:
+  fuente: FTE-031
+  localizacion: "Preámbulo; artículos 1 y 2"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

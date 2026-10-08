@@ -1,0 +1,23 @@
+{
+  "skill_name": "eu-ai-act-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "revisa en profundidad si este proyecto cumple EU AI Act 2026",
+      "expected_output": "Structured audit report identifying Deporbot as limited-risk AI system (Claude via OpenRouter), classifying org as deployer, flagging Art. 50 transparency gaps, GDPR intersection issues, and providing prioritized remediation with file:line references",
+      "files": [],
+      "expectations": [
+        "Identifies Deporbot / the chat assistant as an AI system",
+        "Identifies Claude Sonnet via OpenRouter as the model used",
+        "Classifies the AI system as limited risk (Art. 50)",
+        "Classifies the organization's role as deployer (not provider)",
+        "Flags the AI disclosure as insufficient for Art. 50(1) — the 10px footer text is not prominent enough",
+        "Flags that the privacy policy does not mention the AI chatbot or data processing through AI",
+        "Flags international data transfers to OpenRouter/Anthropic (US servers) as undocumented",
+        "References specific files and line numbers in findings",
+        "Includes a Sources section with regulatory URLs",
+        "Uses the structured report format with sections: AI Systems, Risk Classification, Compliance Status, Findings, Summary"
+      ]
+    }
+  ]
+}

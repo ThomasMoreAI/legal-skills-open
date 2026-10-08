@@ -4,16 +4,20 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `gb` · Practice: `data-protection` · Skill language: en
 
-## Skills (12)
+## Skills (16)
 
 | Skill | What it does |
 |---|---|
 | [`User Input`](skills/arckit-dpia-tractorjuice/) | Generate Data Protection Impact Assessment (DPIA) for UK GDPR Article 35 compliance |
 | [`/dpa-review`](skills/dpa-review-uk-agents/) | Review a Data Processing Agreement against your UK GDPR Art.28 DPA playbook — auto-detects whether… |
 | [`/dpia-generation`](skills/dpia-generation-uk-agents/) | Generate a Data Protection Impact Assessment (DPIA) under UK GDPR Art.35 in house format for a new… |
+| [`/legal-clinic-uk:draft`](skills/draft-uk-agents/) | First draft of a common UK clinic document — practice-area templates (ET1 claim narratives, housing… |
 | [`Building a Universal DSAR Intake System`](skills/dsar-intake-system/) | Builds a multi-channel DSAR intake system supporting web form, email, phone, and in-person requests with… |
 | [`/dsar-response`](skills/dsar-response-uk-agents/) | Walk through a Data Subject Access Request (or erasure, portability, rectification, restriction, or… |
+| [`FOI Data Request`](skills/foi-data-request-ur-grue/) | Drafts a Freedom of Information request specifically targeting datasets, databases, or digital records… |
 | [`GDPR Privacy Policy & Compliance Document Generator`](skills/gdpr-compliance/) | Generate UK/EU GDPR compliance documents — privacy policies, cookie policies, DPIAs, ROPA, DSAR… |
+| [`GDPR Note Writer`](skills/gdpr-note-writer-ur-grue/) | Drafts a GDPR compliance note for a specific piece of journalistic content or data collection activity… |
+| [`Legal Risk Checker`](skills/legal-risk-checker-ur-grue/) | Reviews a story brief, draft article, or broadcast script and flags potential legal risks — including… |
 | [`UK online legal texts`](skills/legal-uk-clemensjl/) | Use when writing, reviewing, or fixing legally required texts for a UK website, webshop, app, or… |
 | [`/policy-monitor`](skills/policy-monitor-uk-agents/) | Keep the UK privacy notice current with practice. Two modes: sweep of saved DPIAs, DPA reviews, and… |
 | [`/reg-gap-analysis`](skills/reg-gap-analysis-uk-agents/) | Diff a new or changed UK regulation, ICO guidance, or enforcement development against current privacy… |

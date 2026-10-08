@@ -1,0 +1,1340 @@
+ID interno: CUR-023
+Título oficial: Tecnología y Digitalización — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+TECNOLOGÍA Y DIGITALIZACIÓN
+Introducción
+La  materia  de  Tecnología  y  Digitalización  se  presenta,  dentro  de  la  Educación  Secundaria
+Obligatoria, con la finalidad de contribuir a la formación del alumnado en lo relativo a la dimensión
+tecnológica de la cultura. El ser humano se caracteriza por su capacidad creativa e innovadora que
+se  concreta  en  la  creación  de  artefactos,  máquinas  y  dispositivos  diversos.  Estos  van  desde
+elementos tecnológicos simples, como ruedas o palancas, hasta sistemas complejos que han sido
+desarrollados gracias a la progresiva incorporación del desarrollo científico al quehacer tecnológico,
+como equipos informáticos, robots, teléfonos inteligentes o satélites artificiales. Es importante que
+el alumnado asuma que la tecnología tiene muchos puntos en común con la ciencia, pero que
+mientras  esta  última  tiene  como  finalidad  la  creación  de  conocimiento  siguiendo  el  método
+científico, la tecnología utiliza conocimiento y técnicas para crear bienes y servicios siguiendo un
+método de trabajo propio: el método de proyectos. Todas estas creaciones permiten adaptarse al
+medio o modificarlo de acuerdo con sus necesidades, mejorando así sus condiciones y calidad de
+vida. Además, el desarrollo de las tecnologías digitales, y particularmente de internet, justifica la
+necesidad de destacar dentro de la materia, un espacio específico e integrado destinado al campo de
+la digitalización, relacionado con el empleo adecuado de códigos sociales y la etiqueta digital, el
+dominio de aspectos culturales y paralingüísticos o textuales, etc. que permiten el desarrollo de una
+ciudadanía activa, intercultural, plurilingüe, democrática, sostenible y comprometida.
+Por lo tanto, para entender y desenvolverse de manera eficaz en el mundo en el que vivimos, es
+necesario que los ciudadanos y las ciudadanas actuales adquieran una cultura tecnológica que les
+permita  una  incorporación  activa  en  la  sociedad,  haciendo  un uso adecuado  de la  tecnología,
+sustentado en una profunda reflexión crítica sobre cómo, más allá de las dicotomías que se nos
+presentan sobre sus bondades y carencias, ha contribuido a la evolución de las sociedades hasta
+llegar a la época actual. En el caso particular de nuestra comunidad, dadas sus condiciones de
+insularidad y orografía, se hace especialmente necesaria una cultura tecnológica que facilite la
+comunicación y la internacionalización, al tiempo que sensibilice a la población sobre la creación
+de empresas tecnológicas, las fuentes productoras de energía, la obtención de agua, el impacto de la
+acción humana y su importancia para que Canarias se adhiera a la consecución de los Objetivos de
+Desarrollo Sostenible a través de las metas canarias que responden a los retos identificados en la
+Agenda Canaria de Desarrollo Sostenible 2030.
+Esta materia garantiza la continuidad a competencias tecnológicas y saberes introducidos en la
+educación primaria y ofrece la formación necesaria para proyectarse hacia estudios posteriores
+relacionados  con  los  campos  tecnológicos,  científicos  e  industriales,  conectando  todas  las
+dimensiones de las áreas STEM. En este sentido, se presenta como un contexto ideal para incentivar
+al alumnado desde edades tempranas en campos relacionados con las ingenierías y la formación
+profesional tecnológica, en especial a las alumnas, donde se demanda cada vez más una mayor
+presencia.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+1
+
+=== Página 2 ===
+
+sostenibilidad y la de los valores que en él perduran. En esta materia será fundamental, además,
+incidir  en  aprendizajes  relativos  al  conocimiento  del  desarrollo  tecnológico  de  la  Comunidad
+Autónoma de Canarias, de manera que el alumnado integre que el patrimonio canario incluye
+aspectos sociales, culturales, científicos y tecnológicos.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio.
+Contribución a los objetivos de etapa
+La materia de Tecnología y Digitalización posee un carácter instrumental e interdisciplinar en el que
+se combinan conocimientos procedentes de varias disciplinas con una finalidad práctica, lo que
+favorece la consecución del Perfil de salida y la adquisición de los objetivos de la etapa. Con el
+desarrollo de esta materia se facilita el contexto para que el alumnado, que debe colaborar y
+cooperar (a) en la resolución conjunta de los problemas propuestos (b), superando estereotipos de
+género sexistas que supongan discriminación entre las personas (c), asuma de manera responsable
+sus  derechos  y  sea  tolerante  con  las  opiniones  ajenas,  fortaleciendo  además  sus  capacidades
+afectivas y de resolución pacífica de conflictos (d). En este sentido, cobra especial relevancia la
+comprensión y expresión eficaz (h), además de rigurosa, de la información en diferentes formatos y
+modalidades. Al mismo tiempo, el alumnado que cursa esta materia desarrolla su competencia para
+acceder a información procedente de distintas fuentes y seleccionarla con sentido crítico (e) y rigor
+científico  (f),  de  forma  que  le  permita  adquirir  los  conocimientos  necesarios  para  hallar  las
+soluciones creativas (g) requeridas para resolver los problemas propuestos, así como para conocer,
+valorar y respetar los aspectos básicos de la cultura y la historia propias (j) vinculados al desarrollo
+tecnológico sostenible y en la que toma especial relevancia las particularidades de un territorio
+fragmentado  como  el  nuestro,  además  de  la  importancia  del  arte  y  la  estética  asociada  a  las
+construcciones (l). Finalmente, la dimensión técnica de esta materia supone el marco ideal para
+desarrollar la importancia del cuidado del bienestar emocional y del entorno (k), por cuanto todas
+las acciones deben llevarse a cabo siguiendo normas de seguridad adecuadas.
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La  materia  de  Tecnología  y  Digitalización  contribuye  al  desarrollo  de  la  Competencia  en
+comunicación  lingüística  (CCL),  porque  la  metodología  inherente  a  la  misma  fomenta  la
+intercomunicación  del  alumnado  en  la  búsqueda  conjunta  de  soluciones  y  para  ello  se  hace
+necesario que se produzca de manera eficaz, y se realice con un espíritu creativo, además de que sea
+ética y respetuosa, incorporando códigos sociales como la etiqueta digital.
+Respecto  al  desarrollo  de  la  Competencia  matemática  y  competencia  en  ciencia,  tecnología  e
+ingeniería (STEM), desde la materia se fomenta la comprensión y análisis del entorno aplicando el
+método científico en la búsqueda de soluciones. Además, en el diseño de soluciones se contemplan
+destrezas matemáticas que facilitan las mediciones y cálculos necesarios para alcanzar los objetivos
+prefijados de la manera más eficiente posible, y todo ello con la finalidad de encontrar solución a
+los retos-problemas con un enfoque responsable y desde el compromiso de la sostenibilidad.
+2
+
+=== Página 3 ===
+
+Por otro lado, la contribución al desarrollo de la Competencia digital (CD) se hace explícita en la
+utilización de aplicaciones y herramientas digitales del entorno personal de aprendizaje para la
+búsqueda  y  tratamiento  de  la  información  de  manera  crítica,  tanto  de  forma  individual  como
+colaborativa, en un contexto de seguridad referida tanto al bienestar digital y emocional, como a la
+ciberseguridad, además de a la sostenibilidad y la responsabilidad. Esta aportación también se hace
+patente a través de la creación de contenido digital en múltiples formatos y plataformas, respetando
+los derechos de autoría y licencias de uso, y mediante el desarrollo del pensamiento computacional
+para la resolución de problemas, contribuyendo así al ejercicio de una ciudadanía digital plena.
+La Competencia personal, social y de aprender a aprender (CPSAA) se promueve a través de la
+propia metodología de la materia en la que el alumnado debe ser capaz de autorregularse con el
+objetivo de alcanzar los propósitos fijados en cada uno de sus grupos de trabajo, pero también
+individualmente.  En este  sentido,  cobra  especial  relevancia  la  aportación  constructiva  de cada
+estudiante al grupo y el autoconocimiento para aportar sus potencialidades y regular sus conductas
+en beneficio de un objetivo común.
+La  Competencia  ciudadana  (CC)  se  fomenta  a  través  del  análisis  y  comprensión  del  impacto
+generado por el desarrollo y la aplicación de la tecnología en la sociedad, en particular en la canaria,
+junto a la necesidad de propiciar un estilo de vida ecosocialmente responsable.
+En lo referente al desarrollo de la Competencia emprendedora (CE), desde esta materia se plantean
+constantemente  situaciones-problema que deben ser resueltas de manera sostenible, eficiente  e
+innovadora. Para ello es necesario aprender estrategias que sistematicen el análisis y la evaluación
+de  las  mismas,  que  faciliten  la  identificación  de  necesidades  y  oportunidades,  al  tiempo  que
+permitan generar nuevas ideas y compartirlas con otros.
+Finalmente, la Competencia en conciencia y expresión culturales (CCEC) se adquiere a partir del
+desarrollo y expresión de ideas propias y del respeto por las ajenas, así como la materialización de
+soluciones creativas e innovadoras que resuelven problemas tecnológicos de manera ética teniendo
+en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+3
+
+=== Página 4 ===
+
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Tecnología y Digitalización se han establecido siete competencias específicas que
+se concretan en quince criterios de evaluación para cada uno de los niveles. Estos criterios tienen un
+carácter longitudinal, de manera que la complejidad de los aprendizajes relacionados aumenta de
+manera progresiva y se incorporan nuevas dimensiones de cada una de las competencias clave. Los
+criterios  de  evaluación  definidos  tienen  un  marcado  carácter  competencial,  de  manera  que  se
+relacionan  directamente  con los descriptores  operativos del  Perfil  de salida  para la  Educación
+Secundaria Obligatoria.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La competencia específica 1 afronta la necesidad de definir la situación o problema al que se
+pretende dar solución con un proyecto técnico, para lo que el alumnado deberá desarrollar y adquirir
+las  estrategias  necesarias  para  identificar  los  problemas,  definirlos  y  buscar  soluciones  en
+condiciones  de  seguridad  tanto  personal  como  de  los  dispositivos  empleados.  Para  ello,  esta
+competencia  se  concreta  en  tres  criterios  de  evaluación.  El  primero  aborda  los  aprendizajes
+necesarios para la definición de las situaciones-problema, para lo que el alumnado debe acudir a
+fuentes diversas de información, muchas de ellas procedentes de internet, lo que exige hacerlo con
+una actitud crítica y aplicando estrategias adecuadas para verificar la confiabilidad y precisión de la
+información. El segundo criterio hace referencia al análisis de productos, junto a los procesos y
+materiales que intervienen en su construcción, para entender las relaciones entre sus características
+y las necesidades que determinaron su ideación y sus repercusiones en el entorno y así poder
+aprovecharlos en nuevas situaciones, garantizando de este modo un aprendizaje competencial. En
+esta constante transmisión de información se precisa también tomar precauciones para proteger la
+información personal, aspectos que se consiguen a través del tercer criterio de evaluación, evitando
+situaciones que supongan cualquier tipo de amenaza para la privacidad y el bienestar personal
+(fraude, suplantación de identidad, ciberacoso, violencia machista, sexteo, etc.) solicitando ayuda o
+denunciando de manera efectiva y haciendo un uso ético y saludable de la tecnología implicada. El
+grado de autonomía requerido en el alumnado, el número de fuentes de información empleadas, el
+nivel de profundización en los análisis realizados, así como las medidas de protección utilizadas,
+deberán ir aumentando según aumenta el nivel educativo en el que nos encontremos.
+Competencia específica 2 (C2)
+La creatividad y el emprendimiento son dos habilidades fundamentales para el abordaje de todo
+proyecto técnico. A través del desarrollo de la competencia específica 2, el alumnado pondrá en
+práctica las habilidades mencionadas para encontrar soluciones a los problemas propuestos a través
+de  la  planificación  y  del  uso  de  las  herramientas  necesarias  para  el  diseño  y  la  creación  de
+soluciones. Esta competencia específica 2 se concreta en dos criterios de evaluación que aumentan
+su nivel de exigencia y autonomía al avanzar en el nivel educativo. El primero de los criterios de
+evaluación se refiere a la capacidad del alumnado para la ideación y comunicación coherente de
+soluciones  a  los  problemas  que  se  planteen  haciendo  uso  de  las  herramientas  de  diseño  y
+4
+
+=== Página 5 ===
+
+comunicación necesarias, además de hacer un uso correcto del vocabulario preciso. El segundo
+criterio  permite  evaluar  la  capacidad  del  alumnado  para  seleccionar,  planificar  y  compartir  la
+información necesaria relativa a los materiales, herramientas y tareas implicados en el trabajo
+previo a la construcción o materialización de una determinada solución a un problema.
+Competencia específica 3 (C3)
+La competencia específica 3 hace referencia a dos factores clave a la hora de materializar los
+diseños  planificados:  por  un  lado,  al  conocimiento  de  las  técnicas  necesarias  para  afrontar  la
+fabricación manual o mecánica en las que han de tenerse en cuenta las normas de seguridad e
+higiene tanto para preservar la salud personal como el entorno y, por el otro, al conocimiento de los
+materiales y de los operadores implicados en cada prototipo para alcanzar soluciones eficaces. Así,
+esta competencia específica 3 se concreta en un único criterio de evaluación que busca constatar la
+capacidad  del  alumnado  para  seleccionar  los  materiales  y  los  operadores  adecuados  en  cada
+solución y aplicar las técnicas de manipulación y conformación a los materiales y herramientas
+necesarios para la fabricación de los objetos, haciendo uso de las normas de seguridad y salud que
+correspondan. En el primer nivel educativo, los procedimientos deberán ser más guiados y los
+operadores más sencillos, aumentando su complejidad o combinación a medida que se aumenta de
+curso. También se tendrán en cuenta los materiales que se trabajan según cada curso y las técnicas
+de manipulación vinculadas a dichos materiales, que deben ir adquiriendo mayor complejidad al
+avanzar el nivel educativo.
+Competencia específica 4 (C4)
+La competencia específica 4 completa los desempeños que el alumnado debe adquirir en relación
+con el trabajo por proyectos, por lo que contempla los elementos asociados a la comunicación y la
+expresión  de  ideas  y  soluciones  a  los  problemas  que  se  propongan  para  el  desarrollo  de  los
+aprendizajes de la materia. Incluye tanto el manejo de herramientas digitales para la elaboración,
+distribución  y  divulgación  de  la  información  asociada  a  cada  proyecto,  como  las  habilidades
+necesarias para gestionar las emociones, los debates y la manifestación de opiniones, para llegar a
+consensos en la búsqueda conjunta de soluciones, tanto de manera presencial como a través de la
+utilización de herramientas digitales de comunicación. El desarrollo de esta competencia específica
+4 se comprobará a través de un único criterio en el que la colaboración debe estar presente en todos
+los procesos de representación y comunicación de soluciones con las herramientas y el vocabulario
+adecuados, poniendo además en valor que dicha terminología procede de distintos campos que
+intervienen en la materia, además de la incorporación de la expresión gráfica para garantizar una
+comunicación eficaz. Al avanzar en cada nivel educativo se irá aumentando el nivel de complejidad
+de los diferentes documentos que se desarrollen, así como el nivel de autonomía en la elaboración
+de los mismos.
+Competencia específica 5 (C5)
+La  competencia  específica  5  incide  en  la  utilización  de  las  estrategias  de  pensamiento
+computacional en la resolución de problemas. De este modo, el alumnado aprende a descomponer
+un problema, a encontrar patrones que faciliten la estructuración de la información, a extraer los
+elementos  relevantes  para  su  solución  y  finalmente  a  diseñar  algoritmos  y  aplicaciones  que
+permitan su resolución. Se concreta en tres criterios de evaluación en los que se establecen las
+etapas a seguir de manera secuenciada para alcanzar el nivel de desempeño establecido y cuya
+complejidad,  además,  varía  en  función  del  nivel  educativo,  ya sea  en  el  uso del  software  de
+programación como en el nivel de complejidad de los problemas presentados al alumnado para su
+5
+
+=== Página 6 ===
+
+resolución.  El  primero  de  estos  criterios  hace  referencia  a  la  descripción  de  los  problemas
+informáticos y al diseño de soluciones a los mismos. Con el segundo criterio se pone el foco en la
+programación de aplicaciones haciendo uso del software de programación necesario según el nivel
+del alumnado, y el tercero involucra, además, la automatización de procesos y la programación de
+robots. Esta competencia 5 contempla también las implicaciones que las tecnologías emergentes
+suponen para la captación de información de la vida de las personas y la gestión de la misma a
+través de internet.
+Competencia específica 6 (C6)
+En una sociedad digitalizada, se hace necesario que el alumnado sea capaz de comprender el
+entorno digital de trabajo y adquiera estrategias para realizar un uso adecuado del mismo. Es por
+ello que la competencia específica 6 hace referencia a la gestión apropiada de estos entornos
+digitales  de  aprendizaje,  tanto  a  través  del  conocimiento  de  los  componentes  físicos  que  lo
+constituyen  como  de  las  aplicaciones  de  software  que  en  ellos  se  instalan  con  una  finalidad
+concreta, como son la creación y difusión de contenidos en entornos controlados y la organización
+de la información. Esta competencia se concreta en tres criterios de evaluación. El primero se
+orienta al acceso eficiente y seguro de los dispositivos digitales, el segundo aborda la creación de
+contenidos  teniendo  en  cuenta  todos  los  parámetros  que  deben  intervenir  en  la  producción,
+recopilación y comunicación de los mismos y el tercero está orientado a la organización y el
+almacenamiento seguro de la información. Esta competencia 6 es, por tanto, fundamental para dotar
+a  las  ciudadanas  y  ciudadanos  de  las  habilidades  necesarias  para  garantizar  un  aprendizaje
+permanente y fomentar su progreso en una sociedad cada vez más digitalizada.
+Competencia específica 7 (C7)
+El  avance  de  la  tecnología  y su  inclusión  en  la  sociedad  hacen  preciso que  se  adquieran  las
+habilidades y estrategias necesarias para hacer un uso responsable de ella. Es por ello que la
+competencia específica 7 hace referencia al conocimiento y valoración de las repercusiones que la
+tecnología tiene en el entorno y en las personas, y a potenciar su empleo con una actitud ética,
+responsable y sostenible, destacando la relevancia existente para las especificidades de un territorio
+insular como Canarias. Esta competencia se concreta en dos criterios de evaluación, en el primero
+de ellos se considera la repercusión de la actividad tecnológica en la sociedad y en el desarrollo
+sostenible, y en el segundo se hace hincapié en las tecnologías emergentes. En este sentido, se
+contempla el análisis del impacto que los procesos de digitalización tienen sobre los seres humanos,
+prestando atención a la ciudadanía digital y a las implicaciones de las tecnologías en la vida social y
+laboral.  El  desarrollo  de  esta  competencia  específica  aparece  vinculado  transversalmente  al
+desarrollo de todas las competencias de este currículo, por lo que su nivel de desempeño queda
+establecido por todos y cada uno de los elementos curriculares propios de cada nivel educativo.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+La materia se organiza en torno a cinco bloques de saberes básicos que suponen la integración de
+conocimientos, destrezas y actitudes, de manera que los aprendizajes que se deriven de ellos deben
+incidir en la formación integral del alumnado desde un tratamiento competencial de los contenidos
+6
+
+=== Página 7 ===
+
+de cada uno de ellos: I, «Proceso de resolución de problemas»; II, «Comunicación y difusión de
+ideas»; III, «Pensamiento computacional, programación y robótica»; IV , «Digitalización del entorno
+personal de aprendizaje» y V , «Tecnología sostenible».
+En última instancia corresponderá al profesorado su combinación e integración coherente según las
+situaciones de aprendizaje que se diseñen para llevar a cabo el desarrollo de los aprendizajes
+programados para los distintos niveles.
+El Bloque I, «Proceso de resolución de problemas», contempla un componente científico y técnico
+implícito, y debe considerarse como un eje vertebrador a lo largo de toda la materia, por lo que ha
+de  contemplarse  al  trabajar  todos  los  bloques  competenciales.  En  él  se  trata  el  desarrollo  de
+habilidades y métodos que permitan avanzar desde la identificación y formulación de un problema
+técnico hasta su solución constructiva, todo ello a través de un proceso planificado y que busque la
+optimización de recursos y de soluciones. Se aborda desde este bloque el método de proyectos que
+se desarrollará a lo largo de toda la etapa de manera espiral.
+El Bloque II, «Comunicación y difusión de ideas», propio de la cultura digital, implica el desarrollo
+de habilidades en la interacción personal mediante herramientas digitales para interpretar y producir
+documentos  técnicos,  avanzar  en  el  manejo  de  programas  de  diseño  gráfico  y  divulgar  la
+información relativa a los proyectos planteados.
+El Bloque III, «Pensamiento computacional, programación y robótica», abarca los fundamentos de
+algorítmica para el diseño y desarrollo de aplicaciones informáticas sencillas para ordenador y
+dispositivos móviles, siguiendo con la automatización programada de procesos, la conexión de
+objetos cotidianos a internet y la robótica.
+Un aspecto importante de la competencia digital se aborda en el Bloque IV , «Digitalización del
+entorno personal de aprendizaje», enfocado tanto a la configuración, ajuste y mantenimiento de
+equipos y aplicaciones para que sean de utilidad al alumnado y optimice su capacidad para el
+aprendizaje  a  lo  largo  de  la  vida,  como  a  la  necesidad  de  hacer  un  uso  responsable  de  las
+tecnologías, cuidando las medidas de protección, respetando la propiedad intelectual y manteniendo
+una actitud respetuosa y tolerante con el entorno.
+En el Bloque V , «Tecnología sostenible», se contempla el diseño e implementación de proyectos
+que supongan la puesta en marcha de acciones para desarrollar estrategias sostenibles, incorporando
+un  punto  de  vista  ético  de  la  tecnología  para  solucionar  problemas  ecosociales  desde  la
+transversalidad.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+7
+
+=== Página 8 ===
+
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Esta materia se desarrolla en dos niveles de manera obligatoria, 1.º y 2.º de la ESO, y en 3.º de
+manera opcional, por ello el alumnado debe alcanzar el nivel competencial propuesto al acabar el
+segundo curso. El nivel de 3.º de la ESO debe servir para profundizar en los aprendizajes adquiridos
+anteriormente. Dada las características de la materia, se recomienda un desarrollo en espiral del
+currículo en toda la etapa.
+En cuanto a los bloques de aprendizaje de los diferentes niveles, las diferencias fundamentales se
+centran en la profundización de los saberes básicos y en el grado de autonomía que debe darse al
+alumnado para, a través de la metodología de proyectos, abordar las diferentes situaciones de
+aprendizaje a lo largo del curso. De este modo, en 1.º de la ESO se deben plantear proyectos
+sencillos  y  cortos  en  el  tiempo,  con  un  mayor  guiado  por  parte  del  profesorado,  para
+progresivamente ir aumentando la autonomía dada al alumnado a medida que se avanza en el nivel,
+con el componente de reto, motivación y responsabilidad que lleva aparejado. En el caso de 3.º de la
+ESO conviene tener muy presente que se abarcan todos los aprendizajes anteriores y que el desafío
+se centra en la aplicación de los mismos, teniendo en cuenta que los nuevos aprendizajes que se
+proponen  para  este  nivel  tienen  que  ver  con  nuevos  materiales,  electrónica,  programación  y
+herramientas de diseño y conformado.
+Dado el carácter competencial de la enseñanza de la tecnología que, por su propia definición,
+buscará proporcionar soluciones eficaces y sostenibles a los problemas que se planteen, se hace
+necesario que las distintas situaciones de aprendizaje que se propongan a lo largo del curso se
+planifiquen  desde un punto  de  vista  eminentemente  práctico,  tomando  como  punto  de  partida
+situaciones, problemas y necesidades próximos a la realidad del alumnado, considerando para ello
+el patrimonio natural, social y cultural canario como un referente ineludible, a los que, aplicando el
+método de proyectos, sean capaces de dar respuestas satisfactorias.
+Con la puesta en práctica del método de proyectos para buscar las mejores soluciones, el alumnado
+debe ser capaz de interactuar de manera adecuada con sus iguales, por lo que se hace especialmente
+significativa la organización de dinámicas y técnicas cooperativas por parte del personal docente
+que permitan sistematizar la forma de interaccionar de una manera óptima. En este contexto, el
+profesorado deberá  ejercer  como  guía  del  proceso de enseñanza-aprendizaje  y permitir que el
+alumnado sea el agente activo, aplicando estrategias relacionadas con el aprendizaje basado en
+proyectos (ABP), proyectos interdisciplinares, etc.
+El  diseño  de  las  diferentes  situaciones  de  aprendizaje  debe  propiciar  la  creatividad  en  el
+aprendizaje,  el  desarrollo  del  espíritu  crítico  y  emprendedor  en  las  soluciones  tecnológicas
+propuestas, su reformulación y sostenibilidad, los hábitos de trabajo en grupo, la capacidad de
+comunicarse  eficazmente  con  otras  personas  de  manera  respetuosa,  la  resolución  pacífica  de
+conflictos que puedan surgir, la responsabilidad en la mejora de la comunidad en la que conviven y
+la autonomía en la aplicación de los conocimientos.
+Otro aspecto que cabe destacar es la necesidad de propiciar de manera continuada la reflexión sobre
+lo  aprendido  y  cómo  se  ha  aprendido  al  término  de  las  diferentes  situaciones  de  aprendizaje
+propuestas, con el fin de contribuir a la mejora de la autonomía del alumnado. En este sentido, el
+proceso evaluador debe ser concebido como un elemento esencial para la mejora continua del
+sistema educativo, tanto en lo referente al diseño e implementación de las diferentes situaciones de
+8
+
+=== Página 9 ===
+
+aprendizaje como al nivel de logro conseguido por cada estudiante. En este último caso es de suma
+importancia  contar  con  técnicas,  herramientas  e  instrumentos  variados  que  den  respuesta  a  la
+diversidad  del  alumnado.  Asimismo,  se  utilizarán  instrumentos  de  evaluación  heterogéneos  y
+adaptados a las distintas situaciones de aprendizaje que permitan una valoración objetiva, y se
+asumirá el proceso de coevaluación y autoevaluación como una oportunidad para aprender.
+En definitiva, el diseño de situaciones de aprendizaje tendrá como fin el desarrollo integral del
+alumnado durante el proceso de estudio y búsqueda de soluciones a problemas o necesidades
+concretas  y que,  cuando  las  características  de cada  proyecto  o  problema  lo  requieran,  llevará
+aparejado el diseño, construcción y evaluación de prototipos y artefactos materializables, haciendo
+uso de la maquinaria y herramientas específicas de la materia que permitan resolver las situaciones-
+problemas planteadas. Este desarrollo integral se abordará favoreciendo su autonomía, crecimiento
+personal y social, motivación hacia el aprendizaje, respeto con el entorno y tolerancia con los
+demás,  evitando  cualquier  tipo  de  discriminación.  Para  ello  se  tomarán  como  referente  los
+principios del Diseño Universal para el Aprendizaje (DUA), que favorecen la capacidad inclusiva
+de la educación, pues permiten dar respuesta a las características individuales del alumnado, a las
+necesidades educativas específicas del mismo, a los condicionantes socioculturales presentes, a los
+contextos actuales, etc.
+9
+
+=== Página 10 ===
+
+1.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera
+crítica  y  segura,  aplicando  procesos  de  investigación,  métodos  de  análisis  de  productos  y
+experimentando con herramientas de simulación, para definir problemas tecnológicos e iniciar
+procesos de creación de soluciones a partir de la información obtenida.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM2, STEM5, CD1,
+CD4, CPSAA4, CE1
+Criterios de evaluación
+1.1. Definir problemas o necesidades planteadas, buscando y contrastando información procedente de
+fuentes propuestas de manera crítica y segura, evaluando su fiabilidad y pertinencia para presentar
+soluciones innovadoras y sostenibles.
+CCL1, CCL3, STEM2, CD1, CD4,
+CPSAA4, CE1
+1.2. Comprender y examinar productos tecnológicos sencillos de uso habitual a través del análisis
+básico de objetos y sistemas empleando el método científico.
+STEM2, CE1
+1.3. Identificar problemas y riesgos relacionados con el  uso de la  tecnología y adoptar medidas
+preventivas para la protección personal y de los dispositivos.
+CCL3, STEM2, STEM5, CD1, CD4,
+CPSAA4, CE1
+Explicación del bloque competencial
+A través de este bloque competencial se valorará que el alumnado sea capaz, de manera individual y colaborativa y evitando sesgos de género, de
+definir problemas planteados e iniciar la búsqueda de soluciones a partir de la información dada, y desde una perspectiva interdisciplinar, utilizando
+10
+
+=== Página 11 ===
+
+el pensamiento  científico  y estrategias de investigación que le permitan  analizar, comprender y examinar  productos y sistemas  tecnológicos
+conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y
+adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal. En este nivel cobra importancia el hecho de que
+las fuentes proporcionadas como referencia hayan sido previamente seleccionadas y se haga explícito el procedimiento aplicado para identificar la
+fiabilidad, veracidad y relevancia de las mismas.
+Competencia específica
+2. Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos
+interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar
+soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM3, STEM4, CD2,
+CD3, CPSAA3, CPSAA5, CE1, CE3
+Criterios de evaluación
+2.1. Idear, diseñar y comunicar con coherencia y corrección, haciendo uso de bocetos y croquis,
+soluciones  originales  a  problemas  sencillos,  aplicando  conceptos,  técnicas  y  procedimientos
+interdisciplinares con actitud emprendedora, perseverante y creativa.
+CCL1, STEM1, STEM3, CD2, CPSAA5,
+CE1, CE3
+2.2. Seleccionar, planificar y organizar de manera guiada los materiales y herramientas, así como las
+tareas necesarias, con sentido crítico, empleando técnicas predeterminadas para la construcción de una
+solución a un problema planteado, trabajando individualmente o en grupo de manera cooperativa y
+colaborativa, compartiendo la información necesaria.
+STEM1, STEM3, STEM4, CD3, CPSAA3,
+CE1, CE3
+Explicación del bloque competencial
+11
+
+=== Página 12 ===
+
+A través de este bloque competencial se comprobará el desarrollo por parte del alumnado de las habilidades blandas que la sociedad demanda. Para
+ello, este debe ser capaz de trabajar de manera cooperativa y colaborativa, desde una perspectiva interdisciplinar y evitando situaciones que
+supongan cualquier tipo de discriminación, con la finalidad de planificar, seleccionar y organizar los materiales y herramientas necesarios para
+construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas y bajo criterios de sostenibilidad,
+utilizando  aplicaciones de software para la  representación  de esquemas, circuitos, diseños y objetos necesarios, con un enfoque dirigido  de
+aprendizaje-servicio como introducción en la metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es
+capaz de comunicar la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento con coherencia y
+corrección, siguiendo unas pautas establecidas.
+Competencia específica
+3. Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares
+utilizando operadores, sistemas tecnológicos y herramientas, teniendo en cuenta la planificación
+y  el  diseño  previo,  para  construir o  fabricar  soluciones  tecnológicas  y  sostenibles  que  den
+respuesta a necesidades en diferentes contextos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE3
+Criterios de evaluación
+3.1. Fabricar objetos o modelos de invención individual o grupal de manera guiada mediante técnicas
+dirigidas  de  manipulación  y  conformación  de  materiales,  empleando  herramientas  y  máquinas
+adecuadas,  aplicando  fundamentos  básicos  de  estructuras,  mecanismos  y  circuitos  eléctricos  y
+respetando las normas de seguridad y salud con actitud perseverante para obtener las soluciones
+óptimas a los objetivos planteados, siendo capaz de justificar la elección de un determinado material
+según sus propiedades.
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE3
+12
+
+=== Página 13 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado conoce las propiedades de los materiales empleados y desarrolla habilidades
+técnicas para la fabricación de soluciones tecnológicas creativas, sostenibles y eficaces de manera colaborativa, y evitando sesgos de género, que den
+respuesta a las necesidades planteadas, siguiendo criterios de seguridad e higiene en el trabajo y aplicando conocimientos relativos a estructuras y
+operadores mecánicos y eléctricos básicos. También se valorará su capacidad para evaluar de manera guiada el proceso seguido y redefinirlo en caso
+necesario.
+Competencia específica
+4. Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales,
+utilizando  medios  de  representación,  simbología  y  vocabulario  adecuados,  así  como  los
+instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para
+comunicar y difundir información y propuestas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+Criterios de evaluación
+4.1. Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y
+haciendo uso de medios, soportes y herramientas digitales específicas, el proceso de creación de
+productos sencillos desde su diseño hasta su difusión, elaborando la documentación técnica y gráfica
+de carácter básico, empleando la simbología, los formatos y el vocabulario técnico adecuados, con la
+finalidad de producir una comunicación eficaz con todos los agentes involucrados.
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+Explicación del bloque competencial
+13
+
+=== Página 14 ===
+
+A través de este bloque competencial se pretende evaluar la capacidad del alumnado para representar y comunicar el proceso seguido, desde la fase
+de ideación hasta la obtención de la solución, utilizando las herramientas digitales adecuadas para diseñar, editar y crear contenido, así como la
+simbología y el vocabulario técnico apropiados para transmitir la información de manera eficaz. Asimismo, se busca valorar la capacidad para seguir
+los protocolos establecidos en el trabajo cooperativo y colaborativo y la aplicación de códigos de comunicación y comportamiento específicos del
+ámbito digital.
+Competencia específica
+5.  Desarrollar  algoritmos  y  aplicaciones  informáticas  en  distintos  entornos,  aplicando  los
+principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear
+soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en
+robótica.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+Criterios de evaluación
+5.1. Describir, interpretar y diseñar soluciones a problemas informáticos sencillos. STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+5.2. Programar haciendo uso de diagramas de bloques, aplicaciones sencillas para dispositivos básicos. STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+5.3. Automatizar procesos mediante el análisis, construcción y programación de robots educativos,
+valorando su aplicación en la sociedad.
+STEM1, STEM3, CD2, CD5, CE3
+14
+
+=== Página 15 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de aplicar los principios del pensamiento computacional, aplicables en
+múltiples contextos, para desarrollar programas sencillos que den respuesta a problemas concretos y que permitan su aplicación en robótica
+educativa, así como para la comprensión del funcionamiento de los distintos dispositivos digitales que conforman el entorno, permitiendo un
+aprendizaje integral de la materia. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus
+implicaciones sociales.
+Competencia específica
+6. Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones habituales
+de su entorno digital de aprendizaje, analizando sus componentes y funciones y ajustándolos a
+sus necesidades, para hacer un uso más eficiente y seguro de los mismos y para detectar y
+resolver problemas técnicos sencillos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CD1, CD2, CD4, CD5, CPSAA2,
+CPSAA4, CC2, CE1
+Criterios de evaluación
+6.1. Emplear de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución
+de problemas sencillos.
+CD2, CD4, CD5, CPSAA2
+6.2. Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando las
+herramientas digitales necesarias del entorno de aprendizaje y respetando los derechos de autoría y la
+etiqueta digital.
+CCL1, CD2, CD4, CD5, CPSAA4, CC2,
+CE1
+6.3. Organizar la información aplicando técnicas de almacenamiento seguro. CD1, CD2, CD4
+15
+
+=== Página 16 ===
+
+Explicación del bloque competencial
+En este bloque competencial se comprobará que el alumnado conoce los dispositivos presentes en su entorno digital de aprendizaje y es capaz de
+identificar los elementos del hardware y del software para utilizarlos de manera segura, adoptando las medidas preventivas necesarias, con el fin de
+identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar, de manera guiada, herramientas de búsqueda
+de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información
+y adoptando las medidas adecuadas de protección de datos y de información apropiadas para garantizar el derecho a la propiedad intelectual y el
+bienestar emocional y digital.
+Competencia específica
+7.  Hacer un  uso  responsable  y  ético  de  la  tecnología,  mostrando  interés  por un  desarrollo
+sostenible,  identificando  sus  repercusiones  y  valorando  la  contribución  de  las  tecnologías
+emergentes,  para  identificar  las  aportaciones  y  el  impacto  del  desarrollo  tecnológico  en  la
+sociedad y en el entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+Criterios de evaluación
+7.1. Reconocer la influencia de la actividad tecnológica en la sociedad, identificando de manera básica
+sus aportaciones y repercusiones y valorando su importancia para el desarrollo sostenible.
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+7.2. Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la
+igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+16
+
+=== Página 17 ===
+
+mismas.
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado comprende las repercusiones de la actividad tecnológica en general y de las
+tecnologías emergentes en particular en las condiciones de vida actuales, y que es capaz de analizar y valorar el impacto de las mismas en la
+sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, haciendo referencia, entre otros aspectos, a la
+igualdad e inclusión social, accesibilidad, obsolescencia e impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de
+la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la
+Agenda Canaria de Desarrollo Sostenible 2030.
+17
+
+=== Página 18 ===
+
+Saberes básicos
+I. Proceso de resolución de problemas
+ 1. Desarrollo de estrategias y técnicas básicas para la identificación y resolución de problemas
+en diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de
+proyectos.
+ 2. Uso guiado de estrategias eficientes para la búsqueda crítica de información durante la fase
+de investigación del proyecto y de definición de problemas planteados.
+ 3. Observación y análisis guiado de productos y de sistemas tecnológicos sencillos para la
+construcción de conocimiento desde enfoques y ámbitos específicos.
+ 4. Construcción de modelos y prototipos sencillos aplicando las técnicas básicas de diseño de
+los distintos tipos de estructuras. Estabilidad de estructuras e identificación de esfuerzos en
+estructuras simples y triangulación para aumentar la rigidez de las mismas.
+ 5. Montaje físico o simulado de sistemas y operadores mecánicos básicos.
+ 6. Interpretación, cálculo y diseño de esquemas y circuitos sencillos de electricidad. Montaje
+físico y aplicación en proyectos.
+ 7. Análisis y estudio de las propiedades básicas y aplicaciones de la madera. Uso de la madera
+y materiales derivados en los proyectos sugeridos. Consideraciones previas de ahorro e
+impacto ambiental.
+ 8. Utilización de herramientas y técnicas de manipulación y mecanizado de los materiales
+empleados en la construcción de objetos y prototipos. 
+ 8.1. Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo
+de los proyectos.
+ 9. Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de
+estrategias relacionadas con la perseverancia y la creatividad.
+II. Comunicación y difusión de ideas
+ 1. Uso  de  habilidades  básicas  de  comunicación  interpersonal  mediante  la  utilización  de
+vocabulario técnico ajustado al nivel y la aplicación de las pautas de etiqueta digital propias
+del entorno virtual.
+ 2. Aplicación práctica de las normas básicas de acotación en la representación gráfica de las
+soluciones ideadas y representadas mediante bocetos y croquis.
+ 3. Utilización de aplicaciones sencillas de software para la representación de los esquemas,
+circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas asequibles.
+ 4. Uso  de  herramientas  digitales  básicas  para  la  elaboración,  publicación  y  difusión  de
+documentación técnica y para la edición de información multimedia relativa a los proyectos.
+ 5. Elaboración de documentación técnica básica asociada al proceso de ideación, desarrollo y
+construcción de proyectos.
+18
+
+=== Página 19 ===
+
+III. Pensamiento computacional, programación y robótica
+ 1. Diseño, uso y aplicación de algoritmos y diagramas de flujo para la resolución de problemas
+tecnológicos sencillos.
+ 2. Montaje y control programado de robots educativos. Introducción a la programación por
+bloques.
+ 3. Iniciación en la aplicación de estrategias de abordaje del error y la reevaluación como parte
+del proceso de aprendizaje en la resolución de problemas y proyectos.
+IV . Digitalización del entorno personal de aprendizaje
+ 1. Identificación  de  los  elementos  de  hardware  y  software de  los  dispositivos  digitales.
+Resolución de problemas técnicos sencillos relacionados con su conexión y uso.
+ 2. Utilización  de  sistemas  de  comunicación  digital  de  uso  común  para  la  transmisión  y
+recepción de datos e información, empleando sistemas de mensajería y correo electrónico
+adecuados a la edad. 
+ 2.1. Identificación de tecnologías inalámbricas para la comunicación.
+ 3. Uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.
+ 4. Uso responsable de las distintas herramientas de edición y creación de contenidos. Respeto
+por la propiedad intelectual y los derechos de autoría.
+ 5. Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la
+información. Creación de copias de seguridad para salvaguardar información relevante.
+ 6. Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,
+posibilitando la protección de datos y de información. Gestión básica de contraseñas y
+sistemas de autentificación. 
+ 6.1. Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida
+de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que
+permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar
+emocional y digital.
+V . Tecnología sostenible
+ 1. Reconocimiento  de  la  importancia  de  la  investigación,  innovación  y  creatividad  en  el
+desarrollo tecnológico. 
+ 1.1. Valoración del impacto social y ambiental generado por las tecnologías en el mundo en
+general y en Canarias en particular.
+ 1.2. Aspectos éticos relacionados con el desarrollo y obsolescencia programada.
+19
+
+=== Página 20 ===
+
+2.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera
+crítica  y  segura,  aplicando  procesos  de  investigación,  métodos  de  análisis  de  productos  y
+experimentando con herramientas de simulación, para definir problemas tecnológicos e iniciar
+procesos de creación de soluciones a partir de la información obtenida.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM2, STEM5, CD1,
+CD2, CD4, CPSAA4, CE1
+Criterios de evaluación
+1.1. Definir problemas o necesidades planteadas, buscando y contrastando información procedente de
+diferentes fuentes de manera crítica y segura, evaluando su fiabilidad y pertinencia para presentar
+soluciones innovadoras y sostenibles.
+CCL1, CCL3, STEM2, CD1, CD4,
+CPSAA4, CE1
+1.2. Comprender y examinar productos tecnológicos de uso habitual a través del análisis de objetos y
+sistemas, empleando el método científico y utilizando herramientas de simulación en la construcción
+de conocimiento para analizar y valorar su impacto en el entorno.
+STEM2, CD2, CE1
+1.3. Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud personal,
+identificando problemas y riesgos relacionados con el uso de la tecnología y analizándolos de manera
+ética y crítica.
+CCL3, STEM2, STEM5, CD1, CD4,
+CPSAA4, CE1
+Explicación del bloque competencial
+20
+
+=== Página 21 ===
+
+A través de este bloque competencial se comprobará que el alumnado es capaz, aplicando técnicas de trabajo individual y colaborativo y evitando
+sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones, a partir de la información obtenida desde una perspectiva
+interdisciplinar, utilizando el pensamiento científico y estrategias variadas de investigación en las que se tenga en cuenta la fiabilidad de las fuentes,
+su veracidad y su relevancia. Además, hará uso de herramientas de simulación que le permitan analizar, comprender y examinar productos y sistemas
+tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías
+digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal.
+Competencia específica
+2. Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos
+interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar
+soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM3, STEM4, CD2,
+CD3, CPSAA3, CPSAA5, CE1, CE3
+Criterios de evaluación
+2.1.  Idear,  diseñar  y  comunicar  con  coherencia  y  corrección  soluciones  originales  a  problemas
+definidos, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud emprendedora,
+perseverante y creativa.
+CCL1, STEM1, STEM3, CD2, CPSAA5,
+CE1, CE3
+2.2. Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas necesarias
+con sentido crítico, empleando técnicas variadas y creativas para la construcción de una solución a un
+problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa
+compartiendo la información necesaria.
+STEM1, STEM3, STEM4, CD3, CPSAA3,
+CE1, CE3
+21
+
+=== Página 22 ===
+
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de planificar, seleccionar y organizar los materiales y herramientas
+necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas, utilizando
+aplicaciones CAD en dos y tres dimensiones para la representación de esquemas, circuitos, planos y objetos necesarios, con un enfoque de
+aprendizaje-servicio como metodología para aprender y aplicar lo aprendido en un entorno cercano. Asimismo, se verificará que desarrolla sus
+habilidades blandas a través del trabajo cooperativo y colaborativo desde una perspectiva interdisciplinar y evitando situaciones que supongan
+cualquier tipo de discriminación. También se valorará si es capaz de comunicar, con coherencia, corrección y siguiendo unas pautas establecidas, la
+información relativa a los procesos desarrollados para intercambiar información y crear conocimiento.
+Competencia específica
+3. Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares
+utilizando operadores, sistemas tecnológicos y herramientas, teniendo en cuenta la planificación
+y  el  diseño  previo,  para  construir o  fabricar  soluciones  tecnológicas  y  sostenibles  que  den
+respuesta a necesidades en diferentes contextos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE3
+Criterios de evaluación
+3.1.  Fabricar  objetos  o  modelos  de  invención  individual  o  grupal  mediante  la  manipulación  y
+conformación de materiales siguiendo el plan de trabajo, previo conocimiento de sus propiedades y
+justificación de su empleo en las soluciones ideadas, empleando herramientas y máquinas adecuadas,
+aplicando los fundamentos de estructuras, mecanismos y electricidad y respetando las normas de
+seguridad  y  salud  con  actitud  perseverante,  para  obtener  las  soluciones  óptimas  a  los  objetivos
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE3
+22
+
+=== Página 23 ===
+
+planteados.
+Explicación del bloque competencial
+En este bloque competencial se comprobará que el alumnado conoce las propiedades principales de los materiales empleados y es capaz de aplicar
+conocimientos relativos a conformación de materiales, estructuras, operadores mecánicos y eléctricos para construir colaborativamente, evitando
+sesgos de género, soluciones tecnológicas creativas, sostenibles y eficaces que den respuesta a las necesidades planteadas, empleando técnicas de
+fabricación apropiadas, siguiendo las normas de seguridad e higiene en el trabajo que correspondan en cada momento. Asimismo, se valorará su
+capacidad para evaluar el proceso seguido y redefinirlo en caso necesario.
+Competencia específica
+4. Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales,
+utilizando  medios  de  representación,  simbología  y  vocabulario  adecuados,  así  como  los
+instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para
+comunicar y difundir información y propuestas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+Criterios de evaluación
+4.1. Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y
+haciendo uso de diversos medios, soportes y herramientas digitales, el proceso de creación de un
+producto  desde  su  diseño  hasta  su  difusión,  elaborando  la  documentación  técnica  y  gráfica  y
+empleando tanto los formatos como el vocabulario técnico adecuados con la finalidad de producir una
+comunicación eficaz con todos los agentes involucrados.
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+23
+
+=== Página 24 ===
+
+Explicación del bloque competencial
+Este bloque competencial tiene el propósito de evaluar la capacidad del alumnado para emplear las herramientas digitales necesarias para diseñar,
+editar y crear contenido, haciendo uso, además, del vocabulario técnico apropiado para transmitir la información relativa a todo el proceso, desde la
+fase de ideación hasta la obtención de la solución, de manera eficaz. Asimismo, se valorará la capacidad para seguir tanto los protocolos establecidos
+en el trabajo cooperativo y colaborativo como las pautas propias de la participación en los entornos virtuales, es decir, la etiqueta digital.
+Competencia específica
+5.  Desarrollar  algoritmos  y  aplicaciones  informáticas  en  distintos  entornos,  aplicando  los
+principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear
+soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en
+robótica.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+Criterios de evaluación
+5.1. Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y
+diagramas de flujo, aplicando los elementos, técnicas de programación y procesos de corrección de
+errores que permitan favorecer la construcción del conocimiento de manera más eficiente.
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+5.2. Programar  aplicaciones sencillas para  distintos dispositivos como  ordenadores y dispositivos
+móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de
+edición y módulos de inteligencia artificial que incorporen los propios dispositivos utilizados y que
+añadan funcionalidades a la solución.
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+24
+
+=== Página 25 ===
+
+5.3.  Automatizar  procesos,  máquinas  y  objetos,  con  conexión  a  internet,  mediante  el  análisis,
+construcción  y  programación  de  robots  y  sistemas  de  control,  valorando  la  evolución  de  las
+tecnologías digitales y su aplicación en la sociedad.
+STEM1, STEM3, CD2, CD5, CE3
+Explicación del bloque competencial
+Este bloque competencial tiene como propósito valorar la capacidad del alumnado para comprender el funcionamiento de los distintos dispositivos
+digitales que conforman el entorno, con la consiguiente transferencia de estrategias a otros contextos, así como de aplicar los principios del
+pensamiento computacional, que contribuye a la adquisición de estrategias sistemáticas para abordar y resolver problemas de diversa índole, para
+desarrollar algoritmos y aplicaciones informáticas que den respuesta a problemas concretos y que permitan la automatización de procesos, y su
+aplicación en sistemas de control y robótica. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las
+soluciones y sus implicaciones sociales, reformulando el procedimiento si fuera necesario.
+Competencia específica
+6. Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones habituales
+de su entorno digital de aprendizaje, analizando sus componentes y funciones y ajustándolos a
+sus necesidades, para hacer un uso más eficiente y seguro de los mismos y para detectar y
+resolver problemas técnicos sencillos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CD1, CD2, CD4, CD5, CPSAA2,
+CPSAA4, CPSAA5, CC2, CE1
+Criterios de evaluación
+6.1. Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución de
+problemas sencillos, analizando los componentes y los sistemas de comunicación, conociendo los
+CD2, CD4, CD5, CPSAA2
+25
+
+=== Página 26 ===
+
+riesgos y adoptando medidas de seguridad para la protección de datos y equipos.
+6.2. Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando las
+herramientas digitales habituales del entorno de aprendizaje para validar y contrastar la información,
+favoreciendo  el  proceso  de  adquisición  de  los  aprendizajes,  ajustándolas  a  sus  necesidades  y
+respetando los derechos de autoría y la etiqueta digital.
+CCL1, CD2, CD4, CD5, CPSAA4,
+CPSAA5, CC2, CE1
+6.3. Organizar la información aplicando técnicas de almacenamiento seguro. CD1, CD2, CD4
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de identificar los elementos del hardware y del software presentes en los
+dispositivos de su entorno digital de aprendizaje para utilizarlos de manera eficiente y segura, adoptando las medidas preventivas necesarias, con el
+fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar herramientas de búsqueda de
+información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y
+adoptando las medidas pertinentes de protección de datos y de información para garantizar el derecho a la propiedad intelectual y el bienestar
+emocional y digital.
+Competencia específica
+7.  Hacer un  uso  responsable  y  ético  de  la  tecnología,  mostrando  interés  por un  desarrollo
+sostenible,  identificando  sus  repercusiones  y  valorando  la  contribución  de  las  tecnologías
+emergentes,  para  identificar  las  aportaciones  y  el  impacto  del  desarrollo  tecnológico  en  la
+sociedad y en el entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+26
+
+=== Página 27 ===
+
+Criterios de evaluación
+7.1. Reconocer la influencia en la sociedad de los distintos sistemas de producción de electricidad y de
+la  actividad  tecnológica  en  general  a  lo  largo  de  su  historia,  identificando  sus  aportaciones  y
+repercusiones y valorando su importancia para el desarrollo sostenible.
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+7.2. Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la
+igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las
+mismas.
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+Explicación del bloque competencial
+Con  este  bloque  competencial  se  comprobará  que  el  alumnado  comprende  el  funcionamiento  de  los  principales  sistemas  de  producción  de
+electricidad y que es capaz de aplicar el pensamiento crítico para analizar y valorar las repercusiones de la actividad tecnológica en general y de las
+tecnologías emergentes en particular en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica y
+haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, a la accesibilidad, la obsolescencia y el impacto ambiental. Asimismo,
+deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las
+metas canarias que responden a los retos de la Agenda Canaria de Desarrollo Sostenible 2030.
+27
+
+=== Página 28 ===
+
+Saberes básicos
+I. Proceso de resolución de problemas
+ 1. Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en
+diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de
+proyectos.
+ 2. Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de
+investigación del proyecto y de definición de problemas planteados.
+ 3. Observación y análisis de productos y de sistemas tecnológicos para la construcción de
+conocimiento desde distintos enfoques y ámbitos.
+ 4. Construcción de modelos y prototipos aplicando las técnicas básicas de diseño de estructuras.
+ 5. Montaje físico y simulado de sistemas y operadores mecánicos básicos. Identificación de los
+mismos en sistemas tradicionales utilizados en Canarias para la producción y extracción de
+recursos, como molinos de viento, molinos de agua, etc.
+ 6. Interpretación, cálculo y diseño de esquemas y circuitos básicos de electricidad. Montaje
+físico o simulado y aplicación en proyectos. Identificación y descripción básica de sistemas
+de producción de electricidad, con especial referencia a Canarias.
+ 7. Uso de metales y plásticos, previo análisis de sus propiedades y aplicaciones, además de
+madera y sus derivados en los proyectos propuestos. Consideraciones previas de impacto
+ambiental y ahorro de materiales.
+ 8. Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la
+construcción  de  objetos  y  prototipos.  Introducción  a  la  fabricación  digital  mediante  el
+empleo de la impresión 3D. 
+ 8.1. Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo
+de los proyectos.
+ 9. Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de
+estrategias  relacionadas  con  el  emprendimiento,  la  resiliencia,  la  perseverancia  y  la
+creatividad.
+II. Comunicación y difusión de ideas
+ 1. Uso  de  habilidades  básicas  de  comunicación  interpersonal  mediante  la  utilización  de
+vocabulario técnico apropiado y la aplicación de las pautas de etiqueta digital propias del
+entorno virtual.
+ 2. Aplicación práctica de las normas básicas de acotación y escalas en la representación gráfica
+mediante la proyección de las vistas de las soluciones ideadas. Representación de soluciones
+mediante perspectiva caballera.
+ 3. Utilización de aplicaciones sencillas de  software  CAD en dos y tres dimensiones para la
+representación  de  los  esquemas,  circuitos, planos  y objetos  requeridos  en el  diseño  de
+soluciones tecnológicas.
+28
+
+=== Página 29 ===
+
+4. Uso de herramientas digitales para la elaboración, publicación y difusión de documentación
+técnica y para la edición de información multimedia relativa a los proyectos.
+ 5. Elaboración  de  documentación  técnica  asociada  al  proceso  de  ideación,  desarrollo  y
+construcción de proyectos.
+III. Pensamiento computacional, programación y robótica
+ 1. Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas
+tecnológicos cercanos al alumnado.
+ 2. Uso  de  aplicaciones  informáticas  sencillas,  para  ordenador  y  dispositivos  móviles,  que
+permitan  la  implementación  de  soluciones  programadas  a  los  problemas  planteados.
+Introducción a la inteligencia artificial.
+ 3. Programación y simulación de dispositivos sencillos conectados a internet de uso cercano al
+alumnado.
+ 4. Montaje y control programado de robots de manera física o por medio de simuladores.
+ 5. Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores
+como parte del proceso de aprendizaje en la resolución de problemas y proyectos.
+IV . Digitalización del entorno personal de aprendizaje
+ 1. Identificación  de  los  elementos  de  hardware y  software de  los  dispositivos  digitales.
+Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.
+ 2. Utilización  de  sistemas  de  comunicación  digital  de  uso  común  para  la  transmisión  y
+recepción de datos e información, empleando sistemas de mensajería y correo electrónico
+adecuados a la edad. 
+ 2.1. Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo
+de aplicaciones prácticas sencillas.
+ 3. Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de
+aprendizaje utilizadas.
+ 4. Instalación,  configuración  y  uso  responsable  de  las  distintas  herramientas  de  edición  y
+creación de contenidos. Respeto por la propiedad intelectual y los derechos de autoría.
+ 5. Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la
+información. Creación de copias de seguridad para salvaguardar información relevante.
+ 6. Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,
+posibilitando la protección de datos y de información. Gestión de contraseñas y sistemas de
+autentificación. 
+ 6.1. Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida
+de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que
+permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar
+emocional y digital.
+29
+
+=== Página 30 ===
+
+V . Tecnología sostenible
+ 1. Reconocimiento  de  la  importancia  de  la  investigación,  innovación  y  creatividad  en  el
+desarrollo tecnológico. 
+ 1.1. Valoración del impacto social y ambiental generado por las tecnologías en el mundo en
+general y en Canarias en particular.
+ 1.2. Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con
+el desarrollo y obsolescencia programada.
+ 1.3. Identificación de sistemas tradicionales no eléctricos de aprovechamiento de energía en
+Canarias para la producción de bienes como molinos, molinas, etc.
+ 2. Valoración crítica de la contribución de la tecnología a la consecución de los Objetivos de
+Desarrollo Sostenible, en el mundo en general y en Canarias en particular.
+30
+
+=== Página 31 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera
+crítica  y  segura,  aplicando  procesos  de  investigación,  métodos  de  análisis  de  productos  y
+experimentando con herramientas de simulación, para definir problemas tecnológicos e iniciar
+procesos de creación de soluciones a partir de la información obtenida.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL3, STEM2, STEM5, CD1,
+CD2, CD4, CPSAA4, CE1
+Criterios de evaluación
+1.1.  Definir  problemas  o  necesidades  planteadas,  reales  o  ficticias,  buscando  y  contrastando
+información procedente de fuentes variadas de manera crítica y segura, evaluando su fiabilidad y
+pertinencia para presentar soluciones creativas, innovadoras y sostenibles.
+CCL1, CCL3, STEM2, CD1, CD4,
+CPSAA4, CE1
+1.2.  Comprender  y  examinar  productos  tecnológicos  a  través  del  análisis  de  objetos  y  sistemas,
+empleando  el  método  científico  y  utilizando  herramientas  de  simulación  en  la  construcción  de
+conocimiento para analizar y valorar su impacto en el entorno.
+STEM2, CD2, CE1
+1.3. Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud personal,
+identificando problemas y riesgos relacionados con el uso de la tecnología y analizándolos de manera
+ética y crítica.
+CCL3, STEM2, STEM5, CD1, CD4,
+CPSAA4, CE1
+Explicación del bloque competencial
+31
+
+=== Página 32 ===
+
+A través de este bloque competencial se valorará que el alumnado sea capaz, aplicando técnicas de trabajo individual y colaborativo y evitando
+sesgos de género, de identificar los elementos relevantes de un problema e iniciar la búsqueda de soluciones, a partir de la información obtenida en
+múltiples fuentes, en las que se tenga en cuenta su fiabilidad, veracidad y relevancia, desde una perspectiva interdisciplinar y utilizando el
+pensamiento científico. Asimismo, debe ser capaz de emplear estrategias variadas de investigación y herramientas de simulación que le permitan
+analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial
+atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, datos y
+la salud personal.
+Competencia específica
+2. Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos
+interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar
+soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM3, STEM4, CD2,
+CD3, CPSAA3, CPSAA5, CE1, CE3
+Criterios de evaluación
+2.1.  Idear,  diseñar  y  comunicar  con  coherencia  y  corrección,  soluciones  originales  a  problemas
+definidos, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud emprendedora,
+perseverante y creativa.
+CCL1, STEM1, STEM3, CD2, CPSAA5,
+CE1, CE3
+2.2. Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas necesarias
+con sentido crítico, empleando técnicas variadas y creativas para la construcción de una solución a un
+problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa
+compartiendo la información necesaria.
+STEM1, STEM3, STEM4, CD3, CPSAA3,
+CE1, CE3
+32
+
+=== Página 33 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial, se comprobará la adquisición por parte del alumnado de estrategias que le permitan aplicar la creatividad y ser
+eficientes en la organización y planificación de tareas que requieran el empleo de materiales y herramientas en la investigación, en el diseño y en la
+ideación de soluciones de manera eficaz y desde una perspectiva interdisciplinar. Para ello se comprobará que el alumnado es capaz de trabajar de
+manera cooperativa y colaborativa, evitando situaciones que supongan cualquier tipo de discriminación, para construir las soluciones previamente
+ideadas y diseñadas conforme a las técnicas de representación gráfica dadas, utilizando aplicaciones CAD en dos y tres dimensiones para la
+representación de esquemas, circuitos, planos y objetos necesarios, con un enfoque de aprendizaje servicio como metodología para aprender y
+aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar, con coherencia, corrección y siguiendo unas pautas
+establecidas, la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento.
+Competencia específica
+3. Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares
+utilizando operadores, sistemas tecnológicos y herramientas, teniendo en cuenta la planificación
+y  el  diseño  previo,  para  construir o  fabricar  soluciones  tecnológicas  y  sostenibles  que  den
+respuesta a necesidades en diferentes contextos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE2, CE3
+Criterios de evaluación
+3.1.  Fabricar  objetos  o  modelos  de  invención  individual  o  grupal  mediante  la  manipulación  y
+conformación de materiales siguiendo el plan de trabajo, conociendo las propiedades de los materiales
+que  justifican  su  incorporación  al  prototipo,  así  como  sus  implicaciones  económicas,  empleando
+herramientas  y  máquinas  adecuadas,  aplicando  los  fundamentos  de  estructuras,  mecanismos,
+electricidad y electrónica y respetando las normas de seguridad y salud con actitud perseverante para
+CCL5, STEM2, STEM3, STEM5, CD2,
+CD5, CPSAA3, CC1, CE2, CE3
+33
+
+=== Página 34 ===
+
+obtener las soluciones óptimas a los objetivos planteados.
+Explicación del bloque competencial
+En este bloque competencial se verificará que el alumnado es capaz de justificar el uso de los materiales en las soluciones propuestas basándose en
+sus propiedades, y de aplicar conocimientos relativos a conformación de materiales, estructuras, operadores mecánicos, eléctricos y electrónicos para
+encontrar soluciones a problemas concretos y, de manera colaborativa y evitando sesgos de género, emplear las técnicas de fabricación adecuadas y
+sus correspondientes normas de seguridad e higiene, para materializar dichas propuestas, construyendo soluciones tecnológicas creativas, sostenibles
+y eficaces. Asimismo, se valorará su capacidad para evaluar el proceso seguido y redefinirlo en caso necesario.
+Competencia específica
+4. Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales,
+utilizando  medios  de  representación,  simbología  y  vocabulario  adecuados,  así  como  los
+instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para
+comunicar y difundir información y propuestas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+Criterios de evaluación
+4.1. Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y
+haciendo uso de medios, soportes y herramientas digitales variadas, el proceso de creación de un
+producto desde su diseño hasta su difusión, elaborando la documentación técnica y gráfica empleando
+los formatos y el vocabulario técnico adecuados, con la finalidad de producir una comunicación eficaz
+con todos los agentes involucrados.
+CCL1, STEM4, CD2, CD3, CPSAA3,
+CPSAA4, CC1, CE3, CCEC4
+34
+
+=== Página 35 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se debe verificar que el alumnado es capaz de hacer uso de los medios digitales para elaborar información que
+permita definir ideas y soluciones, intercambiarla de manera eficaz para facilitar los aprendizajes y difundirla, todo ello haciendo uso de los formatos
+y el vocabulario técnico pertinente. Además, debe ser capaz de, en estos procesos de interacción que involucran trabajo colaborativo y cooperativo,
+respetar los códigos de comunicación y de comportamiento específicos del ámbito digital, en clara referencia a las reglas de la netiqueta.
+Competencia específica
+5.  Desarrollar  algoritmos  y  aplicaciones  informáticas  en  distintos  entornos,  aplicando  los
+principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear
+soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en
+robótica.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+Criterios de evaluación
+5.1. Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y
+diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa, utilizando
+procesos de corrección de errores que permitan favorecer la construcción del conocimiento de manera
+más eficiente.
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+5.2. Programar  aplicaciones sencillas para  distintos dispositivos como  ordenadores y dispositivos
+móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de
+edición y módulos de inteligencia artificial que incorporen los propios dispositivos utilizados y que
+STEM1, STEM3, CD2, CD5, CPSAA5,
+CE3
+35
+
+=== Página 36 ===
+
+añadan funcionalidades a la solución.
+5.3.  Automatizar  procesos,  máquinas  y  objetos,  con  conexión  a  internet,  mediante  el  análisis,
+construcción  y  programación  de  robots  y  sistemas  de  control,  valorando  la  evolución  de  las
+tecnologías digitales y su aplicación en la sociedad.
+STEM1, STEM3, CD2, CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de aplicar los principios del pensamiento computacional para
+comprender el funcionamiento de los distintos dispositivos digitales que conforman el entorno y desarrollar algoritmos y aplicaciones informáticas
+que den respuesta a problemas concretos y que permitan la automatización de procesos, así como su aplicación en sistemas de control y robótica de
+diferente nivel de complejidad. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus
+implicaciones sociales, reformulando el procedimiento si fuera necesario.
+Competencia específica
+6. Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones habituales
+de su entorno digital de aprendizaje, analizando sus componentes y funciones y ajustándolos a
+sus necesidades, para hacer un uso más eficiente y seguro de los mismos y para detectar y
+resolver problemas técnicos sencillos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CD1, CD2, CD4, CD5, CPSAA2,
+CPSAA4, CPSAA5, CC2, CE1
+Criterios de evaluación
+6.1. Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución de
+problemas, analizando los componentes y los sistemas de comunicación, conociendo los riesgos y
+CD2, CD4, CD5, CPSAA2
+36
+
+=== Página 37 ===
+
+adoptando medidas de seguridad para la protección de datos y equipos.
+6.2.  Crear  contenidos,  elaborar  materiales  y  difundirlos  en  distintas  plataformas,  configurando
+correctamente las herramientas digitales habituales del entorno de aprendizaje para validar y contrastar
+la  información,  favoreciendo  el  proceso  de  adquisición  de  los  aprendizajes,  ajustándolas  a  sus
+necesidades y respetando los derechos de autoría y la etiqueta digital.
+CCL1, CD2, CD4, CD5, CPSAA4,
+CPSAA5, CC2, CE1
+6.3. Organizar la información aplicando técnicas de almacenamiento seguro. CD1, CD2, CD4
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de identificar los elementos del hardware y del software presentes en
+los dispositivos de su entorno digital de aprendizaje para utilizarlos de manera eficiente y segura, adoptando las medidas preventivas necesarias, con
+el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar herramientas variadas de búsqueda de
+información, edición y creación de contenidos y de difundirlos en distintas plataformas, aplicando estrategias adecuadas de organización de la
+información y adoptando las medidas pertinentes de protección de datos y de información adecuadas para garantizar el derecho a la propiedad
+intelectual y el bienestar emocional y digital.
+Competencia específica
+7.  Hacer un  uso  responsable  y  ético  de  la  tecnología,  mostrando  interés  por un  desarrollo
+sostenible,  identificando  sus  repercusiones  y  valorando  la  contribución  de  las  tecnologías
+emergentes,  para  identificar  las  aportaciones  y  el  impacto  del  desarrollo  tecnológico  en  la
+sociedad y en el entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+37
+
+=== Página 38 ===
+
+Criterios de evaluación
+7.1. Identificar y describir los sistemas de producción energética y reconocer la influencia de la
+actividad  tecnológica  en  la  sociedad  a  lo  largo  de  su  historia,  identificando  sus  aportaciones  y
+repercusiones y valorando su importancia para el desarrollo sostenible.
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+7.2. Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la
+igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las
+mismas.
+CCL1, CCL2, STEM2, STEM5, CD4,
+CC2, CC4
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado identifica y describe los sistemas de producción energética y aplica el pensamiento
+crítico para analizar y valorar las repercusiones que la actividad tecnológica en general y las tecnologías emergentes en particular, tienen en el
+bienestar emocional de las personas directamente o a través de las consecuencias de estas en el entorno, teniendo en cuenta la particularidad de
+Canarias  como  zona  ultraperiférica,  en  una  clara  referencia,  entre  otros  aspectos,  a  la  igualdad  e  inclusión  social,  a  la  accesibilidad,  a  la
+obsolescencia y al impacto ambiental, para promover de esta manera una mejora de las soluciones conforme a la consecución de los Objetivos de
+Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.
+38
+
+=== Página 39 ===
+
+Saberes básicos
+I. Proceso de resolución de problemas
+ 1. Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en
+diferentes contextos, haciendo explícitas las fases del método de proyectos.
+ 2. Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de
+investigación del proyecto y de definición de problemas planteados.
+ 3. Observación  y  análisis  de  productos  de  diferente  complejidad  para  la  construcción  de
+conocimiento desde distintos enfoques y ámbitos.
+ 4. Construcción de modelos y prototipos aplicando las técnicas de diseño de estructuras, así
+como las técnicas apropiadas de conformación, mecanizado y unión en función del material
+o materiales utilizados y su finalidad.
+ 5. Montaje físico y simulado de sistemas y operadores mecánicos combinados. Cálculo de
+magnitudes asociadas a la transmisión y transformación de movimientos.
+ 6. Interpretación,  cálculo  y  diseño  de  esquemas  y  circuitos  de  electricidad  y  electrónica.
+Montajes físicos o simulados y aplicación en proyectos. Identificación y descripción de
+sistemas de producción  energética  mundial  y en Canarias con especial referencia a las
+condiciones de insularidad.
+ 7. Uso  de  materiales  tecnológicos  variados  en  los  proyectos  propuestos.  Consideraciones
+previas de impacto ambiental y de ahorro de material.
+ 8. Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la
+construcción de objetos y prototipos. Aplicación de procesos de fabricación digital de piezas
+para los proyectos. 
+ 8.1. Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo
+de los proyectos.
+ 9. Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de
+estrategias  relacionadas  con  el  emprendimiento,  la  resiliencia,  la  perseverancia  y  la
+creatividad
+II. Comunicación y difusión de ideas
+ 1. Uso de habilidades de comunicación interpersonal mediante la utilización de vocabulario
+técnico apropiado y la aplicación de las pautas de etiqueta digital propias del entorno virtual.
+ 2. Aplicación práctica de las normas de acotación y escalas en la representación gráfica de las
+soluciones ideadas.
+ 3. Utilización  de  aplicaciones  de  software CAD  en  dos  y  tres  dimensiones  para  la
+representación  de  los  esquemas,  circuitos, planos  y objetos  requeridos  en el  diseño  de
+soluciones tecnológicas.
+ 4. Representación de objetos mediante la utilización de perspectivas isométricas y caballeras
+combinadas con el sistema diédrico.
+39
+
+=== Página 40 ===
+
+5. Uso de herramientas digitales para la elaboración, publicación y difusión de documentación
+técnica y para la edición de información multimedia relativa a los proyectos.
+ 6. Elaboración de documentación técnica combinando distintos tipos de esquemas y sistemas de
+representación asociados al proceso de ideación, desarrollo y construcción de proyectos.
+III. Pensamiento computacional, programación y robótica
+ 1. Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas
+tecnológicos.
+ 2. Uso  de  aplicaciones  informáticas  sencillas,  para  ordenador  y  dispositivos  móviles,  que
+permitan  la  implementación  de  soluciones  programadas  a  los  problemas  planteados.
+Desarrollo de soluciones sencillas mediante el uso de inteligencia artificial.
+ 3. Programación, montaje y simulación de dispositivos sencillos conectados a Internet.
+ 4. Montaje y control programado de robots y placas electrónicas simples de manera física o por
+medio de simuladores.
+ 5. Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores
+como parte del proceso de aprendizaje en la resolución de problemas y proyectos, mostrando
+autoconfianza e iniciativa.
+IV . Digitalización del entorno personal de aprendizaje
+ 1. Identificación  de  los  elementos  de  hardware y  software de  los  dispositivos  digitales.
+Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.
+ 2. Utilización  de  sistemas  de  comunicación  digital  de  uso  común  para  la  transmisión  y
+recepción de datos e información, empleando sistemas de mensajería y correo electrónico
+adecuados a la edad. 
+ 2.1. Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo
+de aplicaciones prácticas.
+ 3. Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de
+aprendizaje utilizadas.
+ 4. Instalación,  configuración  y  uso  responsable  de  las  distintas  herramientas  de  edición  y
+creación de contenidos. Identificación de derechos de autoría y respeto por la propiedad
+intelectual.
+ 5. Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la
+información. Creación de copias de seguridad para salvaguardar información relevante.
+ 6. Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,
+posibilitando la protección de datos y de información mediante cifrado y establecimiento de
+contraseñas. 
+ 6.1. Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida
+de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que
+40
+
+=== Página 41 ===
+
+permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar
+emocional y digital.
+V . Tecnología sostenible
+ 1. Reconocimiento  de  la  importancia  de  la  investigación,  innovación  y  creatividad  en  el
+desarrollo tecnológico. 
+ 1.1. Valoración del impacto social y ambiental generado por las tecnologías en el mundo en
+general y en Canarias en particular, destacando aspectos relacionados con su desarrollo
+agrícola e industrial.
+ 1.2. Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con
+el desarrollo y la obsolescencia programada.
+ 2. Valoración crítica de la contribución de la Tecnología a la consecución de los Objetivos de
+Desarrollo Sostenible, en el mundo en general y en Canarias en particular.
+41

@@ -1,0 +1,11 @@
+interface:
+  display_name: "RISE with SAP SLA and Vendor Risk Review"
+  short_description: "Advisory review of RISE with SAP and SAP cloud service contracts: responsibility split, SLA tiers and credit mechanisms, availability and DR commitments, data residency, exit and portability provisions, shared security responsibilities, and audit rights."
+  default_prompt: "Use $sap-rise-sla-vendor-risk-review to assess the provided RISE with SAP or SAP cloud service contract for SLA gaps and vendor risk. Classify each finding by contract domain (responsibility split, SLA and credits, availability and DR, data residency, exit and portability, security responsibilities, audit rights), assign a risk level (critical/high/medium/low), and recommend specific contractual or operational remediation actions. State evidence level for each finding and escalate to legal counsel when contract interpretation is required."
+dependencies:
+  tools:
+    - type: "web"
+      value: "https://www.sap.com/about/trust-center/cloud-service-agreements.html"
+      description: "SAP Trust Center cloud service agreements — primary reference for RISE with SAP contractual framework, SLA schedules, and shared responsibility model"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,49 @@
+{
+  "skill": "israeli-discharged-soldier-navigator",
+  "cycles": [
+    {
+      "date": "2026-08-27",
+      "version": "1.5.0",
+      "summary": "Five Expert CRITICALs and five gate findings fixed. The headline correction reverses v1.3.0: s.19(a1)(1)'s ten-year window attaches to the s.7(a)/7A study funds for active reservists AND lone soldiers, not to the Pikadon, whose restricted-purpose window is five years for everyone. Added the s.19(b)-(d) forfeiture chain, the return-to-work statute, and the direct-payment rule.",
+      "lessons": [
+        "RESOLVED [CARRY]: the 85/15 Mimadim disbursement note is now in Step 8 with the real figures (ceiling 12,017, 85% = 10,214.45, residual 1,802.5).",
+        "RESOLVED [CARRY]: Grant.aspx is now its own row in Reference Links, and it is where the five-tier grant table lives (the grant merges orfi and SLE; the Pikadon table has six tiers).",
+        "CRITICAL fixed: the legal notice named the National Insurance Institute for a skill whose paying authority is the MoD Department. verify_legal.py passed it because it only checks that a notice EXISTS, not that it names the right regulator. Worth checking on every skill whose notice was copied from a template.",
+        "CRITICAL fixed: v1.3.0 attached the 10-year window to the Pikadon and dated it to Iron Swords. It is s.19(a1)(1), Amendment 19 of 2017 re-enacted by Amendment 24 of 2022, and s.7(a)/s.7A are the study funds, not the Pikadon. This contradicted israeli-lone-soldier-rights, which was right; the sibling is now the authority on that window.",
+        "CRITICAL fixed: the skill described all six purposes as a withdrawal to the user. ss.15(a) and 17(b) pay the institution and the seller directly.",
+        "CRITICAL fixed: keva. Every Pikadon clock runs from the end of CHOVA, and credit points run during keva with the 36 months starting after chova. Ask when chova ended, never when they left the army.",
+        "CRITICAL fixed: hesder/SHLAT counts total service for credit points although unpaid service does not accrue Pikadon. The two rules had been conflated.",
+        "CRITICAL fixed: the female cap is contested (hachvana 24, s.11(a) 28 with conditional commencement). Now flagged rather than asserted.",
+        "BUG fixed: the service-classification appeal was routed to a 'Mador Iturim' that appears in no source. It is the IDF public-enquiries officer, 1111 ext 5.",
+        "A prior cycle removed Tofes 116 as unverifiable after gov.il returned 404 on three candidate URLs. It is published verbatim on the Kol Zchut nekudot-zikui page. A dead gov.il page is not evidence a form does not exist; search the aggregator before deleting a form number.",
+        "SCOPE-REOPEN applied: the mortgage service supplement (1% per service month, joint cap 46%/65%) is now stated in Step 8.5 instead of being routed away blind.",
+        "Deferred (MAJOR): the Department's own s.7(a) scholarships (dmei kiyum 'משפיעים בלימודים', periphery grants 44/45/46, technician/handesai funding, mechina and psychometric funding) are currently routed to israeli-academic-scholarships alongside third-party scholarships. They are the same Fund and the same personal area, so the split is wrong. Bring them in next cycle.",
+        "Deferred (MINOR): SKILL.md sat at 4,918 words at HEAD and this cycle's additions forced roughly 900 words out into references/. Two more sections (Step 5's purpose table, Step 6's mechanics) are candidates if the next cycle needs room."
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "1.3.0",
+      "lessons": [
+        "COVERAGE (MAJOR): added the up-to-10-year entitlement window for active reservists (and discharged lone soldiers, whose full rights live in israeli-lone-soldier-rights). The skill previously stated a flat 5-year window everywhere; hachvana extends it to 10 years for a discharged soldier doing active reserve duty (post-Oct-2023).",
+        "COVERAGE (MAJOR): added the Mimadim scholarship window extensions the skill's own domain-checklist had flagged unverified: base 5 years, +1 for a mechina, +2 for a year+ of keva service, +3 combined, up to 8 years.",
+        "CONSISTENCY FIX: the HE Gotcha cited a stale April-2026 pikadon rate (993.46) while the EN body and script used the correct May-2026 rate (990.63). Fixed the HE body and purged the April rate set (993.46/827.89/662.31) from evidence.json, which was carrying both April and May sets.",
+        "EVIDENCE HYGIENE: refreshed the expired Mimadim registration deadline (31.08.2025) to the current תשפ\"ו cycle (registration 31.07.2026, upload 31.08.2026); the body correctly does not hardcode a deadline.",
+        "CONFIRMED CURRENT 2026 (research): all 6 pikadon tiers (990.63/825.52/660.42/660.42/495.38/330.25) + 5 grant tiers, training reclassification (4 combat / 2 support months down-tiered), caps 32M/24F, 14-day/60-day timelines, 6 permitted purposes, credit point 242/§39a, Tikkun 25 100% tuition. discharge-pikadon checker: no regeneration needed.",
+        "Deferred (MINOR): add the 85/15 Mimadim disbursement note; add the Grant.aspx deep link to Reference Links."
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "version": "1.1.0",
+      "summary": "Refreshed Pikadon monthly rates to current hachvana.mod.gov.il values (combat 978.34 to 993.46, support 815.28 to 827.89, rear 652.23 to 662.31) and FIXED the female accrual cap from 28 to 24 months (a structural error; the law caps women at 24 paid service months, matching mandatory service length).",
+      "lessons": [
+        "Pikadon rates are CPI-indexed and drift monthly; the skill correctly caveats this and routes to the official calculator, but the stated anchor values must still be refreshed.",
+        "The female accrual cap (24, not 28) is a structural fact, not drift; the wrong value over-credited any woman who served more than 24 months. Surfaced by a fresh-eyes audit of the discharge-pikadon checker tool."
+      ],
+      "buckets": {
+        "persistent_fail": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+id: CHUNK-00016
+origen_tipo: "norma"
+origen_id: NOR-021
+titulo: "Gestión de Listas de Empleo y Personal Interino (Canarias)"
+texto: >-
+  El Decreto 74/2010 regula cómo se organizan las listas de reserva para sustituciones docentes.
+  Aspectos clave:
+  1. Ordenación: Basada en la nota de oposición y la experiencia docente previa.
+  2. Disponibilidad: Posibilidad de pasar a "No disponible" por causas justificadas (hijos, enfermedad) sin perder el puesto.
+  3. Llamamientos: Se realizan de forma telemática; el rechazo injustificado conlleva la exclusión de la lista.
+  4. Estabilización: El marco actual está afectado por la Ley 20/2021 de reducción de temporalidad.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil, primaria, eso, bachillerato, formacion-profesional]
+  temas: [personal-interino, seleccion, nombramiento, listas-empleo]
+  estado_vigencia: "Vigente"
+  fuente: FTE-024
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/136/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 74/2010 (BOC 2010/136)."
+relaciones:
+  normas: [NOR-021]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -4,7 +4,7 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 
-## Skills (882)
+## Skills (883)
 
 | Skill | What it does |
 |---|---|
@@ -165,6 +165,7 @@ Jurisdiction: `de` · Practice: `corporate` · Skill language: de
 | [`Multijurisdiktionale Uebersetzungen und Dokumente`](skills/corporate-kanzlei-translations-multijurisdictional/) | Für Multijurisdiktionale Übersetzungen und Dokumente: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kaltstart und Routing`](skills/corporate-kanzlei-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Corporate-Rechtsprechungsrecherche`](skills/corporate-rechtsprechungsrecherche/) | Für Corporate-Rechtsprechungsrecherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Corporate Transactions / M&A Specialist`](skills/corporate-transactions-ma-specialist-githublarskomo/) | Analysiert M&A-, Beteiligungs-, Asset-/Share-Deal-, Umwandlungs- und sonstige… |
 | [`Corporate-Rechtsprechungsrecherche`](skills/cp-kalender-beirat/) | Für Corporate-Rechtsprechungsrecherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Darlehen und Vertretung prüfen`](skills/darlehen-und-vertretung-pruefen/) | Prüft Gesellschafterdarlehen, Rückzahlungen, Gesamtvertretung, Prokura und Beiratszustimmung getrennt… |
 | [`Data Protection Transfer DD für M&A: prüft DSGVO-Risiken, Datenuebertragung, Datenraumzugriff, Kunden-/Mitarbeiterdaten,`](skills/data-protection-transfer-dd/) | Für Data Protection Transfer Dd: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

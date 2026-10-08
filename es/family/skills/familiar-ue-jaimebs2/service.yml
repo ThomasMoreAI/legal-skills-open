@@ -1,0 +1,55 @@
+name: extranjeria-familiar-ue
+display_name: Extranjería — Tarjeta de Familiar de Ciudadano UE
+description: >
+  Guía completa sobre la tarjeta de familiar de ciudadano de la Unión Europea
+  en España: régimen comunitario (RD 240/2007), quién tiene derecho,
+  diferencia con el régimen general de extranjería, procedimiento, documentación,
+  derecho a trabajar, residencia permanente, situaciones especiales (divorcio,
+  fallecimiento) y preguntas frecuentes.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones
+tags: [extranjería, familiar UE, régimen comunitario, tarjeta comunitaria, RD 240/2007, cónyuge UE, residencia permanente, inmigración, España]
+
+links:
+  website: https://extranjeros.inclusion.gob.es
+  regimen_comunitario: https://www.inclusion.gob.es/web/migraciones
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+  sede_electronica: https://sede.inclusion.gob.es
+
+license:
+  data: Información pública del Ministerio de Inclusión, Seguridad Social y Migraciones
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre el régimen
+    comunitario para familiares de ciudadanos UE y redirige a
+    extranjeria-reagrupacion para el régimen general y a extranjeria-nie
+    para el NIE.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Qué es el régimen comunitario y diferencia con el régimen general
+    - Quién tiene derecho (cónyuge, descendientes, ascendientes de ciudadano UE)
+    - Tarjeta de familiar de ciudadano de la Unión (qué es, vigencia, derechos)
+    - Procedimiento paso a paso y documentación
+    - Derecho a trabajar
+    - Residencia permanente tras 5 años
+    - Situaciones especiales (divorcio, fallecimiento, parejas de hecho)
+    - Preguntas frecuentes
+  not_accessible:
+    - Tramitación real de la tarjeta (requiere Oficina de Extranjería)
+    - Reagrupación familiar del régimen general (usar skill extranjeria-reagrupacion)
+    - Detalle sobre el NIE (usar skill extranjeria-nie)
+    - Detalle sobre permisos de residencia del régimen general (usar skill extranjeria-residencia)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

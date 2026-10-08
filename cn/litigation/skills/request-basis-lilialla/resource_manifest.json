@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "purpose": "Logical resource registry for the request-basis skill. Runtime instructions should use these logical ids instead of embedding local or package-specific paths.",
+  "resolution_rule": "Resolve paths relative to the skill package root when the resource is present. If a resource is absent in a distributed package, continue with the fallback rule attached to its logical id.",
+  "modes": {
+    "exam": {
+      "path": "modes/exam_mode.md",
+      "fallback": "Use the global request-basis method with given study facts and mark missing mode instructions as unavailable."
+    },
+    "litigation": {
+      "path": "modes/litigation_mode.md",
+      "fallback": "Use strict fact/evidence separation, claim-goal-first analysis, and verification-task output."
+    },
+    "arbitration": {
+      "path": "modes/arbitration_mode.md",
+      "fallback": "Use litigation discipline plus jurisdiction, tribunal, procedure, and award-enforceability checks."
+    },
+    "research": {
+      "path": "modes/research_mode.md",
+      "fallback": "Create verification tasks and do not state current law or practice as verified without authority research."
+    },
+    "catalog_builder": {
+      "path": "modes/catalog_builder_mode.md",
+      "fallback": "Extract source assertions, concept candidates, rule-obligation candidates, and review tasks without storing real case facts."
+    }
+  },
+  "references": {
+    "lite_runtime": {
+      "path": "references/lite_runtime.md",
+      "fallback": "Keep runtime to scenario, claim goal, fact/evidence separation, lifecycle gates, concept cards, temporary rule-obligation groups, and source/verification labels."
+    },
+    "source_policy": {
+      "path": "references/source_policy.md",
+      "fallback": "Use verified/platform_found/case_file_claim/model_inference/unverified labels."
+    },
+    "discretion_policy": {
+      "path": "references/discretion.md",
+      "fallback": "Keep hard guardrails fixed and mark exploratory analysis as provisional."
+    },
+    "request_basis_concept": {
+      "path": "references/concept.md",
+      "fallback": "Distinguish request basis from cause of action, claim, legal relationship, and evidence."
+    },
+    "concept_cards": {
+      "path": "references/concept_cards.md",
+      "fallback": "Use temporary concept cards for material professional terms."
+    },
+    "request_lifecycle": {
+      "path": "references/request_lifecycle.md",
+      "fallback": "Analyze each detailed request basis through right arises, not extinguished, exercisable, and defense/counter-defense gates."
+    },
+    "classification": {
+      "path": "references/classification.md",
+      "fallback": "Treat causes of action as filing/retrieval labels, not substitutes for request bases."
+    },
+    "rule_obligation_groups": {
+      "path": "references/rule_obligation_groups.md",
+      "fallback": "Bridge claim goals to candidate bases, elements, defenses, evidence targets, and verification tasks."
+    },
+    "source_integration": {
+      "path": "references/source_integration.md",
+      "fallback": "Convert new materials into atomic source assertions before merging into reusable structures."
+    },
+    "source_synthesis": {
+      "path": "references/source_synthesis.md",
+      "fallback": "Group sources by request-basis family with concept triggers, lifecycle focus, evidence axes, verification questions, and coverage gaps."
+    },
+    "real_case_testing": {
+      "path": "references/real_case_testing.md",
+      "fallback": "Do not store live matter facts; record only abstract reusable workflow defects."
+    },
+    "verification": {
+      "path": "references/verification.md",
+      "fallback": "Output authority-research tasks for statutes, judicial interpretations, and case-law paths."
+    },
+    "retrieval": {
+      "path": "references/retrieval.md",
+      "fallback": "Search or filter local materials by targeted terms; never load large source materials wholesale."
+    },
+    "methodology": {
+      "path": "references/methodology.md",
+      "fallback": "Apply right-arises, not-extinguished, exercisable, defense/counter-defense analysis."
+    },
+    "output_templates": {
+      "path": "references/output_templates.md",
+      "fallback": "Use compact tables for parties, claim goals, bases, elements, evidence, gaps, and verification tasks."
+    },
+    "norm_decomposition": {
+      "path": "references/norm_decomposition.md",
+      "fallback": "For high-precision analysis, recursively unpack the selected request basis into main norms, auxiliary norms, defenses, counter-defenses, extinguishment, and exercisability, marking unverified law as verification tasks."
+    }
+  },
+  "data_roles": {
+    "authority_coverage": {
+      "path": "../../data/authority_coverage_seed.jsonl",
+      "fallback": "Treat authority coverage as unavailable and generate authority verification tasks instead of claiming statute coverage."
+    },
+    "authority_instrument_candidates": {
+      "path": "../../data/authority_instrument_candidates_seed.jsonl",
+      "fallback": "List candidate statutes, judicial interpretations, and guidance documents as verification tasks without claiming current validity."
+    },
+    "request_basis_seed": {
+      "path": "../../data/request_basis_seed.jsonl",
+      "fallback": "Generate candidate request bases as model inference."
+    },
+    "rule_obligation_seed": {
+      "path": "../../data/rule_obligation_groups_seed.jsonl",
+      "fallback": "Generate temporary rule-obligation groups as model inference."
+    },
+    "request_basis_synthesis": {
+      "path": "../../data/request_basis_synthesis_seed.jsonl",
+      "fallback": "Summarize request-basis families from available seeds and mark the synthesis as model inference."
+    },
+    "source_digests": {
+      "path": "../../data/source_digests_seed.jsonl",
+      "fallback": "Use source registry primary_use and targeted retrieval to infer how a source should be used."
+    },
+    "concept_card_seed": {
+      "path": "../../data/concept_cards_seed.jsonl",
+      "fallback": "Generate temporary concept cards as model inference."
+    },
+    "concept_candidate_index": {
+      "path": "../../data/concept_candidates.jsonl",
+      "fallback": "Use targeted local retrieval or temporary concept cards."
+    },
+    "verification_queue": {
+      "path": "../../data/verification_queue_seed.jsonl",
+      "fallback": "List verification tasks in the output instead of mutating data."
+    },
+    "source_registry": {
+      "path": "../../data/source_index.jsonl",
+      "fallback": "Ask the operator to provide source metadata or proceed with unverified labels."
+    },
+    "source_locator_index": {
+      "path": "../../data/source_chunk_index.jsonl",
+      "fallback": "Use targeted search over available materials or skip local retrieval."
+    },
+    "catalog_review_batches": {
+      "path": "../../data/catalog_review_batches.jsonl",
+      "fallback": "Review one user-provided catalog candidate at a time."
+    },
+    "norm_decomposition_seed": {
+      "path": "../../data/norm_decomposition_seed.jsonl",
+      "fallback": "Create a temporary norm tree from the selected request basis and mark it model_inference/unverified."
+    }
+  },
+  "tools": {
+    "validate": {
+      "path": "../../scripts/validate_repo.py",
+      "fallback": "Run whatever repository validation is available in the target package."
+    },
+    "retrieval_search": {
+      "path": "../../scripts/search_retrieval_index.py",
+      "fallback": "Use platform search or line-filtering over available source locators."
+    },
+    "concept_extraction": {
+      "path": "../../scripts/extract_concept_candidates.py",
+      "fallback": "Manually extract concept candidates from targeted source snippets."
+    },
+    "source_digest_build": {
+      "path": "../../scripts/build_source_digests.py",
+      "fallback": "Manually summarize each source into claim goals, concept triggers, defenses, evidence issues, eval targets, and next extraction tasks."
+    },
+    "authority_coverage_build": {
+      "path": "../../scripts/build_authority_coverage.py",
+      "fallback": "Manually create article-level placeholders and link only verified or explicitly referenced artifacts."
+    },
+    "authority_coverage_report": {
+      "path": "../../scripts/report_authority_coverage.py",
+      "fallback": "Count linked and unlinked authority rows manually."
+    },
+    "source_integration_audit": {
+      "path": "../../scripts/audit_source_integration.py",
+      "fallback": "Manually compare source registry, locator index, candidate batches, seeds, rule groups, verification queue, and synthesis entries."
+    },
+    "norm_decomposition_report": {
+      "path": "../../scripts/report_norm_decomposition.py",
+      "fallback": "Count norm atoms and analysis programs manually if the script is unavailable."
+    }
+  }
+}

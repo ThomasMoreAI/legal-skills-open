@@ -1,0 +1,65 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "$schema_note": "Copy to notaire-cantonal/company.json. The notaire skill needs constitution data (founders, capital, canton-specific rules).",
+  "legal_name": "Acme SA (en constitution)",
+  "trade_name": "Acme",
+  "uid": null,
+  "legal_form": "SA",
+  "notarial_canton": "VD",
+  "notary": {
+    "name": "Me Sophie Burgener",
+    "office": "Étude Burgener & Associés",
+    "address": "Place St-François 5, 1003 Lausanne",
+    "register_number": "VD-NOT-2014-0245"
+  },
+  "address_siege": {
+    "street": "Avenue de la Gare 12",
+    "zip": "1003",
+    "city": "Lausanne",
+    "country": "CH"
+  },
+  "share_capital": {
+    "currency": "CHF",
+    "total": 100000,
+    "paid_in": 100000,
+    "shares_count": 1000,
+    "nominal_value": 100,
+    "shares_type": "nominatives"
+  },
+  "founders": [
+    {
+      "type": "personne_physique",
+      "name": "Anna Müller",
+      "address": "Limmatstrasse 87, 8005 Zürich",
+      "nationality": "CH",
+      "shares_subscribed": 600,
+      "amount_chf": 60000
+    },
+    {
+      "type": "personne_physique",
+      "name": "Marco Rossi",
+      "address": "Via Nassa 12, 6900 Lugano",
+      "nationality": "CH",
+      "shares_subscribed": 300,
+      "amount_chf": 30000
+    },
+    {
+      "type": "personne_morale",
+      "name": "Brunner Family Holding SA",
+      "uid": "CHE-678.901.234",
+      "shares_subscribed": 100,
+      "amount_chf": 10000
+    }
+  ],
+  "directors": [
+    { "name": "Anna Müller", "role": "Présidente", "signature": "individuelle" }
+  ],
+  "purpose": "Édition de logiciels SaaS B2B; toutes opérations commerciales, financières et immobilières en rapport avec le but.",
+  "audit": { "regime": "opting_out" },
+  "bank_depot": {
+    "bank": "BCV",
+    "iban_blocage": "CH18 0076 7000 K089 1234 5",
+    "deposit_confirmed_on": "2025-04-22"
+  },
+  "languages": ["fr", "de", "en"]
+}

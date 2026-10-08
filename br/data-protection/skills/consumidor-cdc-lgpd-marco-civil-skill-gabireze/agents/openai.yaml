@@ -1,0 +1,6 @@
+interface:
+  display_name: "Consumidor CDC Brasil"
+  short_description: "CDC, LGPD e Marco Civil para produtos digitais"
+  default_prompt: "Use $consumidor-cdc-br para analisar uma questao brasileira de consumo, privacidade ou plataforma digital com fontes oficiais e linguagem cautelosa."
+policy:
+  allow_implicit_invocation: true

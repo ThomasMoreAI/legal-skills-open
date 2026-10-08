@@ -1,0 +1,10 @@
+id: REL-010
+tipo_relacion: "desarrolla"
+origen: NOR-010
+destino: NOR-004
+evidencia:
+  fuente: FTE-018
+  localizacion: "[PENDIENTE]"
+descripcion: "El Decreto de Convivencia desarrolla los aspectos relativos a los derechos y deberes del alumnado y la convivencia escolar previstos en la Ley Canaria de Educación."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

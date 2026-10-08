@@ -1,0 +1,57 @@
+name: herencias
+display_name: Herencias — Guía Práctica
+description: >
+  Guía práctica para tramitar una herencia en España: pasos tras un
+  fallecimiento, herencia con y sin testamento, declaración de herederos
+  abintestato, aceptación (pura y simple o a beneficio de inventario),
+  renuncia irrevocable, escritura de adjudicación, Impuesto de Sucesiones,
+  plusvalía municipal, inscripción en Registro de la Propiedad, cambio de
+  titularidad en bancos y vehículos.
+organization: Consejo General del Notariado / Colegio de Registradores
+tags: [justicia, herencias, sucesiones, testamento, abintestato, aceptación herencia, renuncia herencia, beneficio de inventario, impuesto sucesiones, notario, registro propiedad]
+
+links:
+  website: https://www.notariado.org
+  registradores: https://www.registradores.org
+  ultimas_voluntades: https://sede.mjusticia.gob.es
+
+license:
+  data: Información pública del Consejo General del Notariado y Colegio de Registradores
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación práctica sobre herencias. No accede
+    a APIs de datos ni tramita herencias. Proporciona los pasos completos
+    para gestionar una herencia y redirige a skills específicas para
+    testamentos, fiscalidad sucesoria y registro civil.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Pasos tras un fallecimiento (certificados necesarios)
+    - Herencia con testamento vs. sin testamento
+    - Orden de sucesión intestada (abintestato)
+    - Declaración de herederos (ante notario o juzgado)
+    - Aceptación pura y simple, a beneficio de inventario, renuncia
+    - Escritura de adjudicación de herencia
+    - Impuestos (Sucesiones, plusvalía municipal, orientación general)
+    - Inscripción en Registro de la Propiedad y Catastro
+    - Cambio de titularidad en bancos y vehículos
+    - Plazos clave de cada trámite
+  not_accessible:
+    - Tramitación real de herencias (requiere notario)
+    - Cálculo del Impuesto de Sucesiones (usar skill fiscalidad-sucesiones-donaciones)
+    - Redacción de testamentos (usar skill testamento)
+    - Datos del Registro de la Propiedad individuales
+    - Asesoramiento jurídico individualizado
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

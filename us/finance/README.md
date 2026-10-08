@@ -4,7 +4,7 @@ Lending, credit, payments, secured financing, and banking regulation.
 
 Jurisdiction: `us` · Practice: `finance` · Skill language: en
 
-## Skills (34)
+## Skills (35)
 
 | Skill | What it does |
 |---|---|
@@ -33,6 +33,7 @@ Jurisdiction: `us` · Practice: `finance` · Skill language: en
 | [`Pledge Agreement (Securities)`](skills/pledge-agreement-securities/) | Drafts perfected-security-interest Pledge Agreements for securities collateral under UCC Article 9. Use… |
 | [`Promissory Note (Residential)`](skills/promissory-note-residential/) | Drafts enforceable residential promissory notes with party identification, principal/interest terms… |
 | [`Revolving Credit Agreement`](skills/revolving-credit-agreement/) | Drafts a market-standard U.S. revolving credit agreement for bilateral or syndicated facilities. Covers… |
+| [`AI Not-Privileged Disclaimer — US`](skills/safety-compliance-ai-not-privileged-disclaimer-us-sboghossian/) | Use when generating legal work product using AI for US-jurisdiction matters or advising US-based law… |
 | [`Secured Promissory Note`](skills/secured-promissory-note/) | Drafts U.S. secured promissory notes for commercial lending with lender-protective terms, UCC Article 9… |
 | [`Security Agreement (Granting Lien)`](skills/security-agreement/) | Drafts UCC Article 9 security agreements granting first-priority liens on specified collateral. Covers… |
 | [`Subordination Agreement`](skills/subordination-agreement/) | Drafts debt subordination agreements establishing senior/junior creditor priority, payment waterfalls… |

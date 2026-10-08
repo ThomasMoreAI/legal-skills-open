@@ -1,0 +1,70 @@
+id: CUR-039
+titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Historia de la Filosofía"
+cursos: ["2.º Bachillerato"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Buscar, analizar, interpretar, producir y transmitir información relativa a hechos histórico-filosóficos, a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación, para generar conocimientos y producciones propias acerca de la historia de los problemas e ideas filosóficos."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CD1, CD3, CPSAA5, CC3, CE3]
+    - codigo: "C2"
+      enunciado_oficial: "Reconocer las normas y pautas de la argumentación y el diálogo filosóficos, mediante la identificación y análisis de las mismas en distintos soportes y a través de diversas actividades, para aplicarlas con rigor en la construcción y exposición de argumentos y en el ejercicio del diálogo con los demás."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL5, STEM1, CD3, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2]
+    - codigo: "C3"
+      enunciado_oficial: "Comprender y expresar diferentes concepciones filosóficas históricamente dadas, mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte esencial del patrimonio cultural común y del bagaje intelectual de una ciudadanía ilustrada."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CC1, CC2, CC3, CCEC1]
+    - codigo: "C4"
+      enunciado_oficial: "Reconocer la naturaleza esencialmente plural y diversa de las concepciones filosóficas históricamente dadas, mediante su puesta en relación dialéctica, de confrontación y complementariedad, para generar una concepción compleja y dinámica de la historia del pensamiento, y promover una actitud tolerante y comprometida con la resolución racional y dialogada de los conflictos."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CC1, CC2, CC3]
+    - codigo: "C5"
+      enunciado_oficial: "Reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y concepciones filosóficas, los mismos problemas filosóficos, mediante el análisis e interpretación de textos y otros modos de expresión filosófica o más ampliamente cultural históricamente dados, para afrontar tales problemas a partir de la reflexión crítica sobre el conocimiento de lo aportado por la tradición."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CC1, CC2, CC3, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Reconocer las formas diversas en que los interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, mediante el análisis interpretativo de textos y otras manifestaciones pertenecientes a esos ámbitos, para promover una concepción sistemática, relacional y compleja de la historia de la cultura occidental y del papel de las ideas filosóficas en ella."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CC1, CC2, CC3, CE1, CCEC1]
+    - codigo: "C7"
+      enunciado_oficial: "Analizar desde un punto de vista filosófico problemas fundamentales y de actualidad, mediante la exposición crítica de distintas posiciones histórico-filosóficas con respecto a los mismos, para desarrollar la autonomía de juicio y promover actitudes y acciones cívica y éticamente consecuentes."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CPSAA4, CC1, CC2, CC3, CC4, CE1, CCEC1]
+  criterios_evaluacion:
+    - curso: "2.º Bachillerato"
+      criterios:
+        - "1.1. Generar un conocimiento de fuentes y documentos filosóficamente relevantes, aplicando técnicas de búsqueda, organización, análisis, comparación e interpretación de estos, y relacionándolos correctamente con contextos históricos, problemas, tesis, autores y autoras, así como con elementos pertenecientes a otros ámbitos culturales."
+        - "1.2. Elaborar y presentar distintas producciones tanto de manera individual como cooperativa, con la finalidad de emitir juicios propios acerca de problemas planteados en la historia de la filosofía, haciendo uso preciso de herramientas de investigación."
+        - "2.1. Desarrollar el uso de los argumentos, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas, y detectando y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, manteniendo el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento a través de la participación activa, respetuosa y colaborativa."
+        - "3.1. Adquirir y expresar un conocimiento de las propuestas filosóficas más importantes a lo largo de la historia a través de la indagación, identificando las cuestiones a las que responden, comprendiendo y debatiendo sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento y del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la filosofía."
+        - "4.1. Generar una concepción plural, compleja, dialéctica, abierta y crítica de la historia del pensamiento a través de la comprensión y expresión de las relaciones de oposición y complementariedad entre tesis, escuelas, filósofos y filósofas de las mismas o distintas épocas y tradiciones."
+        - "5.1. Afrontar los grandes problemas filosóficos en su dimensión temporal y espacial, comprendiendo su doble aspecto histórico y universal, a través del análisis y exposición crítica de las condiciones culturales que han permitido su aparición y evolución en distintos momentos de la historia, comparándolos mediante esquemas u otros documentos o actividades, y discerniendo el tratamiento filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones, autores y autoras."
+        - "6.1. Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las ideas filosóficas en ella mediante el análisis y el comentario comparativo de textos literarios, historiográficos, periodísticos, científicos o religiosos, así como de manifestaciones culturales de todo tipo, en los que se expresen problemas y concepciones relevantes de la historia de la filosofía."
+        - "7.1. Analizar los problemas fundamentales de la actualidad a través de diversos productos de carácter crítico y personal, fundamentados en ideas, doctrinas y controversias dadas en la historia de la filosofía, que le permita clarificar tales problemas, desarrollando un juicio autónomo y una actitud ética y emocional propia de una ciudadanía responsable."
+  saberes_basicos:
+    - bloque: "Bloque I — Del origen de la Filosofía en Grecia hasta el fin de la Antigüedad"
+      cursos: ["2.º Bachillerato"]
+      detalles: "Surgimiento de la filosofía occidental en Grecia: cosmovisión mítica, presocráticos, Sócrates y los sofistas, y aportaciones de Aspasia de Mileto. Conceptos de idea y naturaleza, y de conocimiento y realidad en Platón y Aristóteles: la justicia platónica, el intelectualismo moral, la teoría de las virtudes, y la metafísica, física, ética y política aristotélicas. Paso de las polis griegas al imperio de Alejandro Magno: helenismo, escuelas filosóficas, el Museo de Alejandría e Hipatia de Alejandría."
+    - bloque: "Bloque II — De la Edad Media a la Modernidad Europea"
+      cursos: ["2.º Bachillerato"]
+      detalles: "Etapas, métodos y cuestiones fundamentales en la filosofía medieval: Agustín de Hipona, Tomás de Aquino, Guillermo de Ockham, Hildegard von Bingen, filosofía árabe y judía, y la relación entre fe y razón. Nacimiento de la modernidad europea: revolución científica, protestantismo, racionalismo y empirismo. Origen y fundamento de la sociedad y el poder: pensamiento político medieval y teoría del contrato social en Hobbes, Locke y Rousseau."
+    - bloque: "Bloque III — De la Modernidad a la Postmodernidad"
+      cursos: ["2.º Bachillerato"]
+      detalles: "Proyecto ilustrado y límites de la razón: Derechos del Hombre, primera ola feminista (Wollstonecraft y Olympe de Gouges), filosofía crítica de Kant, y ética kantiana frente al utilitarismo. Crítica del capitalismo: Marx, Escuela de Fráncfort y Hannah Arendt. Desarrollo de la deconstrucción en la tradición occidental: Nietzsche, Wittgenstein, el existencialismo de Heidegger y Sartre, Ortega y Gasset, María Zambrano y el feminismo contemporáneo de Simone de Beauvoir."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "STEM1", "CD1", "CD3", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3.2"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+resumen_ia: "Currículo de Historia de la Filosofía en 2.º de Bachillerato Canarias (materia común obligatoria), regulado por el Decreto 30/2023, con siete competencias específicas (C1-C7) y siete criterios de evaluación. Saberes organizados en tres bloques cronológicos: de Grecia al fin de la Antigüedad, de la Edad Media a la Modernidad europea, y de la Modernidad a la Postmodernidad."
+observaciones: "Extracción completada el 2026-08-05 a partir del texto oficial 07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt (líneas ~52377-53026). Materia común de 2.º de Bachillerato exclusivamente. Competencias con enunciado literal, descriptores por curso y los siete criterios de evaluación oficiales."

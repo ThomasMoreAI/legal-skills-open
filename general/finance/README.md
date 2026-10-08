@@ -4,7 +4,7 @@ Lending, credit, payments, secured financing, and banking regulation.
 
 Jurisdiction: `general` · Practice: `finance` · Skill language: en
 
-## Skills (28)
+## Skills (31)
 
 | Skill | What it does |
 |---|---|
@@ -15,6 +15,7 @@ Jurisdiction: `general` · Practice: `finance` · Skill language: en
 | [`Guarantee (Surety / Personal)`](skills/draft-guarantee-sboghossian/) | Use when drafting a guarantee (surety or personal) whereby a guarantor undertakes to satisfy the… |
 | [`KYC / Customer Due Diligence Procedure`](skills/draft-kyc-procedure-sboghossian/) | Use when drafting or reviewing a Know Your Customer (KYC) procedure for a financial institution… |
 | [`Loan Agreement / Facility Agreement`](skills/draft-loan-agreement-sboghossian/) | Use when drafting a loan agreement or facility agreement between a lender and borrower for a commercial… |
+| [`Promissory Note (سند أذني / Billet à Ordre)`](skills/draft-promissory-note-sboghossian/) | Use when drafting a promissory note — an unconditional written promise to pay a certain sum on demand or… |
 | [`SAFE — Simple Agreement for Future Equity`](skills/draft-safe-sboghossian/) | Use when drafting a SAFE (Simple Agreement for Future Equity) for a startup funding round — based on the… |
 | [`Security Agreement`](skills/draft-security-agreement-sboghossian/) | Use when drafting a security agreement, charge, pledge, mortgage, or any instrument that grants a… |
 | [`VC Term Sheet (Priced Round)`](skills/draft-term-sheet-vc-sboghossian/) | Use when drafting a non-binding term sheet for a priced VC investment round (Seed, Series A, or later).… |
@@ -34,6 +35,8 @@ Jurisdiction: `general` · Practice: `finance` · Skill language: en
 | [`Payment Facilitator Agreement`](skills/prompt-pack-payment-facilitator-agreement-sboghossian/) | Use when drafting an agreement between a payment facilitator (PayFac) and an acquiring bank (or sponsor… |
 | [`Payment Services Agreement`](skills/prompt-pack-payment-services-agreement-sboghossian/) | Use when drafting an agreement between a payment service provider (PSP) and a merchant for processing… |
 | [`Stablecoin Issuance Framework`](skills/prompt-pack-stablecoin-issuance-framework-sboghossian/) | Use when a company planning to issue a stablecoin needs a legal framework memo covering reserve… |
+| [`AI Disclosure Requirements Before Tribunals`](skills/safety-ai-disclosure-required-tribunals-sboghossian/) | Use when a lawyer or user indicates that AI-assisted work product (research, drafts, briefs, or… |
+| [`Bar Rule 1.1 — Competence and AI Use`](skills/safety-bar-rule-1-1-competence-ai-sboghossian/) | Use when a lawyer user needs guidance on the professional-responsibility duty of competence as it… |
 | [`Security Documenter`](skills/security-documenter-rohasnagpal/) | Designs, drafts and closes security packages over transaction assets and rights. Use for mortgages… |
 | [`Forensic Deposit Tracking`](skills/track-deposits/) | Traces deposits from receipt through disbursement across bank statements and financial records… |
 

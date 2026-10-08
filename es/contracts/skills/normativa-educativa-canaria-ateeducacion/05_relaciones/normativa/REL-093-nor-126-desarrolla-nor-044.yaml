@@ -1,0 +1,11 @@
+id: REL-093
+tipo_relacion: desarrolla
+origen: NOR-126
+destino: NOR-044
+descripcion: Establece las rúbricas previstas en el artículo 4.4 de la Orden de evaluación.
+evidencia:
+  fuente: FTE-133
+  localizacion: Fundamento quinto, p. 3, y resuelvo único, p. 4
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

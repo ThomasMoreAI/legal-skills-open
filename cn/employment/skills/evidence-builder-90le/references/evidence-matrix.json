@@ -1,0 +1,528 @@
+{
+  "schema_version": "0.1.0",
+  "retrieved_at": "2026-06-16",
+  "priority_levels": {
+    "P0_immediate": "因存在材料灭失、签署、删除或时间线风险，应在 24 小时内保全或形成。",
+    "P1_core": "用于判断争议性质、请求依据或金额的核心证据。",
+    "P2_supporting": "用于增强可信度、事实连续性或协商筹码的辅助证据。",
+    "P3_local_verify": "需要核验当地规则、政府记录或由专业人士复核的事项。"
+  },
+  "status_values": [
+    "available",
+    "missing",
+    "employer_controlled",
+    "third_party",
+    "create_now"
+  ],
+  "global_safety_rules": [
+    "不要捏造、篡改、倒签证据，也不要诱导他人提供虚假证据。",
+    "不要绕过账号权限，也不要复制公司秘密、源代码、客户名单或无关个人信息。",
+    "对用人单位掌握的材料，应书面申请提供，或在仲裁中申请仲裁庭责令提供。",
+    "仅从劳动者可以合法访问的材料中保留截图、导出文件和时间线记录。",
+    "明确区分事实、推测和法律判断。"
+  ],
+  "common_bundles": {
+    "identity_and_relationship": {
+      "source_anchors": [
+        "LDA-2007#art2",
+        "LDA-2007#art6"
+      ],
+      "items": [
+        {
+          "id": "labor_contract_and_renewals",
+          "label": "劳动合同及续签文件",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "劳动关系、合同期限、岗位、工作地点、工资约定和续签历史",
+          "lawful_source": "劳动者持有的副本、入职文件、电子邮件，或劳动者有权访问的公司人力资源系统",
+          "collection_note": "保留完整副本及各次续签版本；不要为补齐缺失合同而倒签。"
+        },
+        {
+          "id": "payroll_tax_social_insurance_records",
+          "label": "工资、个税、社保和公积金记录",
+          "priority": "P1_core",
+          "default_status": "third_party",
+          "proves": "工资水平、支付连续性、用人单位身份及社保缴费情况",
+          "lawful_source": "银行记录、个人所得税 App、社保系统、公积金系统和工资单",
+          "collection_note": "尽可能按月导出或截图，并保留时间戳。"
+        },
+        {
+          "id": "work_access_and_attendance_records",
+          "label": "工作权限和考勤记录",
+          "priority": "P2_supporting",
+          "default_status": "available",
+          "proves": "实际提供劳动、最后工作日、权限停用及考勤争议",
+          "lawful_source": "考勤应用、门禁记录、工作邮箱和依法取得的截图",
+          "collection_note": "仅保留与劳动者本人及争议时间线有关的记录。"
+        }
+      ]
+    },
+    "timeline_and_communications": {
+      "source_anchors": [
+        "LDA-2007#art6",
+        "SPC-LDI-1-2020#art44"
+      ],
+      "items": [
+        {
+          "id": "chronology_memo",
+          "label": "争议时间线备忘录",
+          "priority": "P0_immediate",
+          "default_status": "create_now",
+          "proves": "协商方案、通知、异议、交接、权限停用和付款等事件的一致时间线",
+          "lawful_source": "劳动者依据现有记录自行制作的事实备忘录",
+          "collection_note": "写明日期、参与人、原话、文件和待确认问题；不要补充没有记忆或记录支持的事实。"
+        },
+        {
+          "id": "hr_chat_email_meeting_records",
+          "label": "人力资源沟通和会议记录",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "用人单位表述、解除或终止理由、辞职压力、和解条件及通知时间",
+          "lawful_source": "劳动者本人的聊天记录、电子邮件、会议邀请和合法形成的笔记",
+          "collection_note": "保留完整对话上下文，不要只截取孤立片段。"
+        },
+        {
+          "id": "written_objection_or_request",
+          "label": "书面异议或说明请求",
+          "priority": "P0_immediate",
+          "default_status": "create_now",
+          "proves": "劳动者的异议、要求书面理由及要求继续工作或提供文件的记录",
+          "lawful_source": "劳动者如实发送的电子邮件、消息或函件",
+          "collection_note": "表述应客观、克制，并要求提供书面依据、付款明细和文件副本。"
+        }
+      ]
+    },
+    "money_basis": {
+      "source_anchors": [
+        "LCL-2012#art46",
+        "LCL-2012#art47",
+        "LCL-REG-2008#art20",
+        "LCL-REG-2008#art27"
+      ],
+      "items": [
+        {
+          "id": "twelve_month_wage_basis",
+          "label": "近 12 个月工资基数材料",
+          "priority": "P1_core",
+          "default_status": "third_party",
+          "proves": "月平均工资、奖金、津贴、补助、提成、加班费和扣款",
+          "lawful_source": "银行流水、工资单、个税记录、工资邮件和奖金文件",
+          "collection_note": "保留解除或终止前 12 个月的记录；工作不满 12 个月的，保留实际工作期间记录。"
+        },
+        {
+          "id": "service_years_proof",
+          "label": "工作年限证明",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "入职日期、连续工作年限、关联主体之间的转移和续签历史",
+          "lawful_source": "劳动合同、录用通知、入职记录、社保、个税和电子邮件",
+          "collection_note": "标记关联公司调动、业务外包或劳务派遣事实，供律师复核。"
+        },
+        {
+          "id": "local_average_wage_source",
+          "label": "当地平均工资官方来源",
+          "priority": "P3_local_verify",
+          "default_status": "third_party",
+          "proves": "当地高工资封顶标准及计算基准",
+          "lawful_source": "当地官方统计数据或人力资源社会保障部门数据",
+          "collection_note": "使用当前城市和解除或终止年度的数据，不要套用其他城市的封顶标准。"
+        }
+      ]
+    }
+  },
+  "termination_maps": {
+    "mutual_termination": {
+      "source_anchors": [
+        "LCL-2012#art36",
+        "LCL-2012#art46",
+        "SPC-LDI-1-2020#art35"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "separation_agreement_versions",
+          "label": "解除、终止或和解协议各版本",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "协议条款、权利放弃范围、付款日期、放弃权利表述及用人单位提出解除的事实",
+          "lawful_source": "协议草稿、签署版、人力资源邮件，或劳动者有权访问的文件系统",
+          "collection_note": "签署前保留每一版本，并检查“全部争议已结清”等表述。"
+        },
+        {
+          "id": "proposal_origin_evidence",
+          "label": "协商解除方案提出方证据",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "是否由用人单位提出协商解除，从而影响经济补偿路径",
+          "lawful_source": "人力资源聊天、电子邮件、会议笔记和日历邀请",
+          "collection_note": "没有书面或上下文证据时，不要推定方案由用人单位提出。"
+        }
+      ]
+    },
+    "employee_resignation": {
+      "source_anchors": [
+        "LCL-2012#art37",
+        "LCL-2012#art38",
+        "LCL-2012#art46",
+        "SPC-LDI-1-2020#art45",
+        "SPC-LDI-2-2025#art19"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "resignation_text_and_delivery",
+          "label": "辞职表述及送达记录",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "辞职理由、时间、收件人及属于自愿辞职还是基于法定事由解除",
+          "lawful_source": "辞职信、电子邮件、OA 提交记录和送达证明",
+          "collection_note": "尚未发送时，表述必须如实反映实际存在且有证据支持的用人单位法定情形。"
+        },
+        {
+          "id": "employer_breach_evidence",
+          "label": "用人单位可能违法情形证据",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "欠薪、未缴社保、不安全劳动条件、胁迫、无效规章制度或其他法定情形",
+          "lawful_source": "工资单、银行、个税和社保记录，以及消息和通知",
+          "collection_note": "解除理由应与实际证据相符，不要改写历史。"
+        }
+      ]
+    },
+    "fault_dismissal": {
+      "source_anchors": [
+        "LCL-2012#art4",
+        "LCL-2012#art21",
+        "LCL-2012#art39",
+        "LCL-2012#art43",
+        "LCL-2012#art48",
+        "LCL-2012#art87",
+        "SPC-LDI-1-2020#art44",
+        "SPC-LDI-1-2020#art50"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "termination_notice_exact_reason",
+          "label": "解除或终止通知及准确理由",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "用人单位主张的过错解除事由和解除日期",
+          "lawful_source": "解除或终止通知、电子邮件、人力资源消息和解除或终止证明",
+          "collection_note": "用人单位仅口头说明时，要求提供书面理由。"
+        },
+        {
+          "id": "rules_democratic_publication_proof",
+          "label": "规章制度民主程序和公示证明",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "用作严重违纪依据的规章制度是否经过有效程序并已公示",
+          "lawful_source": "员工手册、规章制度签收记录、工会或职工代表大会记录",
+          "collection_note": "依法提出调取请求；民主程序记录通常由用人单位掌握。"
+        },
+        {
+          "id": "misconduct_investigation_and_proportionality",
+          "label": "违纪调查和处分相当性材料",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "违纪事实、损害、处理一致性、处分相当性及举证责任",
+          "lawful_source": "调查记录、警告记录、绩效材料和类似情形处理记录",
+          "collection_note": "不要拿取无关保密文件；需要时依法申请对方提供。"
+        }
+      ]
+    },
+    "non_fault_dismissal": {
+      "source_anchors": [
+        "LCL-2012#art40",
+        "LCL-2012#art42",
+        "LCL-2012#art43",
+        "LCL-2012#art46",
+        "LCL-2012#art47",
+        "LCL-REG-2008#art20",
+        "LCL-REG-2008#art27",
+        "SPC-LDI-2-2025#art16",
+        "SPC-LDI-2-2025#art17"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "termination_notice_exact_reason",
+          "label": "解除或终止通知及准确理由",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "用人单位主张的准确非过失性解除理由，以及其按第四十条而非经济性裁员处理的事实",
+          "lawful_source": "解除或终止通知、优化通知、人力资源邮件和会议纪要",
+          "collection_note": "用人单位仅口头称 AI 转型、岗位不匹配或客观情况变化时，要求书面说明理由。"
+        },
+        {
+          "id": "article40_ground_evidence",
+          "label": "《劳动合同法》第四十条事由证据",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "医疗期满、培训或调岗后仍不能胜任，或客观情况发生重大变化的依据",
+          "lawful_source": "书面通知、绩效记录、医疗限制材料和客观情况变化文件",
+          "collection_note": "将用人单位主张的法定事由与一般经营偏好区分开。"
+        },
+        {
+          "id": "training_transfer_or_consultation_records",
+          "label": "培训、调岗或协商记录",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "培训、调岗、重新考核或变更劳动合同协商未果",
+          "lawful_source": "培训记录、调岗通知、会议纪要和电子邮件",
+          "collection_note": "对用人单位掌握但缺失的文件，书面要求提供。"
+        },
+        {
+          "id": "notice_or_substitute_wage_evidence",
+          "label": "提前通知或代通知金证据",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "提前 30 日书面通知或额外支付一个月工资",
+          "lawful_source": "通知日期、工资记录、结算单和银行记录",
+          "collection_note": "核验代通知金时使用解除前一个月工资。"
+        }
+      ]
+    },
+    "economic_layoff": {
+      "source_anchors": [
+        "LCL-2012#art35",
+        "LCL-2012#art41",
+        "LCL-2012#art42",
+        "LCL-2012#art43",
+        "LCL-2012#art46",
+        "LCL-2012#art47",
+        "LCL-2012#art48",
+        "LCL-2012#art87",
+        "LCL-REG-2008#art19"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "termination_notice_exact_reason",
+          "label": "解除或终止通知及准确理由",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "用人单位表述的经济性裁员理由、实施日期，以及其按经济性裁员而非第四十条非过失性解除处理的事实",
+          "lawful_source": "解除或终止通知、裁员通知、优化通知、人力资源邮件、会议纪要和解除或终止证明",
+          "collection_note": "用人单位仅口头称业务调整、AI 转型、人员冗余或优化时，要求书面说明理由。"
+        },
+        {
+          "id": "layoff_threshold_and_plan",
+          "label": "裁员人数门槛和裁员方案",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "被裁减人数或比例及法定裁员理由",
+          "lawful_source": "裁员方案、公告、职工人数记录及可取得的公开备案材料",
+          "collection_note": "合法保留面向群体的通知；不要收集无关人员档案。"
+        },
+        {
+          "id": "ai_transformation_contract_change_and_internal_alternatives",
+          "label": "AI 转型、合同变更和内部替代方案材料",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "AI 转型或技术、经营方式重大调整、拟议的劳动合同变更、内部替代安排，以及最终仍需裁员的原因",
+          "lawful_source": "转型方案、修订后的组织架构、新岗位说明、协商记录、内部调岗或技能提升通知",
+          "collection_note": "对《劳动合同法》第四十一条路径，应核验劳动合同变更与内部替代安排的事实链；除非用人单位依据第四十条主张不能胜任，不要把普通入职培训概括为一律必需的法定步骤。"
+        },
+        {
+          "id": "thirty_day_explanation_opinion_report",
+          "label": "提前 30 日说明、听取意见和报告记录",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "提前 30 日向工会或全体职工说明情况、听取意见及向劳动行政部门报告",
+          "lawful_source": "工会通知、职工会议通知、意见记录和向劳动行政部门报告的凭证",
+          "collection_note": "无法取得时，列为用人单位掌握并书面申请提供。"
+        },
+        {
+          "id": "guangzhou_layoff_report_package",
+          "label": "广州经济性裁员书面报告材料包",
+          "priority": "P1_core",
+          "default_status": "employer_controlled",
+          "proves": "广州地区用人单位在实施前提交的书面报告材料，包括裁员理由、被裁减人员基本信息、向工会或全体职工说明及听取意见记录、负责人联系方式、最终裁员方案、证明材料、对人社部门反馈的回应，以及向全体职工公布最终方案的情况",
+          "lawful_source": "用人单位书面报告、裁员方案、意见记录、人社部门收件凭证、对人社部门意见或建议的回应及最终方案公告",
+          "collection_note": "书面要求提供或在仲裁中申请调取；不要复制无关人事、财务、客户、源代码或经营策略文件。"
+        },
+        {
+          "id": "priority_retention_and_rehire_evidence",
+          "label": "优先留用和再次招用证据",
+          "priority": "P2_supporting",
+          "default_status": "available",
+          "proves": "优先留用条件及 6 个月内同等条件下优先招用资格",
+          "lawful_source": "劳动合同期限、家庭负担证明、招聘信息和再次招用通知",
+          "collection_note": "跟踪裁员后 6 个月内的新招聘；保留带时间戳的公开招聘信息和用人单位通知。"
+        },
+        {
+          "id": "post_layoff_rehire_or_outsourcing_tracking",
+          "label": "裁员后再次招用、外包或派遣跟踪记录",
+          "priority": "P2_supporting",
+          "default_status": "available",
+          "proves": "经济性裁员后 6 个月内，用人单位是否再次招聘、使用实质相似的外包或派遣用工，或补充被裁岗位",
+          "lawful_source": "官方招聘页面、公开招聘网站、劳动者收到的招聘人员消息、同岗位招聘的合法截图、再次招用通知，以及通过公开或劳动者可合法访问渠道了解的外包或派遣事实",
+          "collection_note": "仅收集公开或可合法访问的材料；不要抓取私密账号、冒充求职者、复制内部人员配置名单或拿取无关商业秘密。"
+        }
+      ]
+    },
+    "contract_expiry": {
+      "source_anchors": [
+        "LCL-2012#art14",
+        "LCL-2012#art44",
+        "LCL-2012#art45",
+        "LCL-2012#art46",
+        "LCL-2012#art47",
+        "LCL-REG-2008#art13",
+        "SPC-LDI-1-2020#art34",
+        "SPC-LDI-2-2025#art8",
+        "SPC-LDI-2-2025#art10"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "contract_expiry_and_renewal_history",
+          "label": "合同期满和续签历史",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "到期日、续签要约、拒绝续签理由、连续订立两次固定期限合同及无固定期限劳动合同条件",
+          "lawful_source": "劳动合同、续签邮件、OA 流程和人力资源通知",
+          "collection_note": "保留全部合同版本和续签沟通。"
+        },
+        {
+          "id": "post_expiry_work_continuation",
+          "label": "合同期满后继续用工记录",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "合同期满后继续用工及用人单位认可该用工状态",
+          "lawful_source": "考勤、工资、任务分配、工作邮件和访问日志",
+          "collection_note": "按日期和任务记录合同期满后的工作情况。"
+        }
+      ]
+    },
+    "constructive_dismissal": {
+      "source_anchors": [
+        "LCL-2012#art30",
+        "LCL-2012#art35",
+        "LCL-2012#art38",
+        "LCL-2012#art46",
+        "LCL-2012#art85",
+        "LDA-2007#art9",
+        "SIL-2018#art60",
+        "WRPL-2022#art48",
+        "FEP-2012#art5",
+        "FEP-2012#art6",
+        "SPC-LDI-1-2020#art45",
+        "SPC-LDI-2-2025#art19"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "salary_cut_transfer_objection",
+          "label": "降薪调岗及书面异议",
+          "priority": "P0_immediate",
+          "default_status": "create_now",
+          "proves": "单方降薪、调岗、职责或工作地点变化及劳动者异议",
+          "lawful_source": "调岗通知、降薪通知、劳动合同条款和书面异议",
+          "collection_note": "及时、如实提出异议，并确保考勤应对方式合法。"
+        },
+        {
+          "id": "unpaid_wage_or_social_insurance_gap",
+          "label": "欠薪或社保缴费缺口",
+          "priority": "P1_core",
+          "default_status": "third_party",
+          "proves": "欠薪、迟延支付、未缴社保或断缴月份",
+          "lawful_source": "银行、个税、工资和社保记录及公积金记录",
+          "collection_note": "核验当地对社保少缴、迟缴和未缴的处理规则。"
+        },
+        {
+          "id": "lockout_or_forced_leave_evidence",
+          "label": "停用权限或强制休假证据",
+          "priority": "P1_core",
+          "default_status": "available",
+          "proves": "用人单位将劳动者排除在工作之外，并可能将该状态表述为辞职或借此施压",
+          "lawful_source": "账号停用截图、拒绝进入记录、强制休假通知和人力资源聊天",
+          "collection_note": "保留时间戳和完整上下文；不要绕过访问控制。"
+        },
+        {
+          "id": "pregnancy_or_medical_status_proof",
+          "label": "孕产哺乳、医疗期、工伤或职业病状态证明",
+          "priority": "P1_core",
+          "default_status": "third_party",
+          "proves": "与受保护状态或工资差额请求有关的孕期、产期、哺乳期、医疗期、工伤或职业病状态",
+          "lawful_source": "劳动者持有的医疗证明、孕产记录、法定通知、工伤或职业病文件",
+          "collection_note": "仅使用必要的最少证明；在仲裁、诉讼等正式渠道之外分享前，遮盖无关诊断、家庭、地址、身份证号、电话和第三方信息。"
+        }
+      ]
+    },
+    "unclear_or_mixed": {
+      "source_anchors": [
+        "LCL-2012#art43",
+        "LCL-2012#art48",
+        "LCL-2012#art50",
+        "LCL-2012#art87",
+        "LDA-2007#art6",
+        "LDA-2007#art27",
+        "SPC-LDI-1-2020#art44"
+      ],
+      "include_common_bundles": [
+        "identity_and_relationship",
+        "timeline_and_communications",
+        "money_basis"
+      ],
+      "items": [
+        {
+          "id": "document_conflict_set",
+          "label": "相互冲突的离职文件集合",
+          "priority": "P0_immediate",
+          "default_status": "available",
+          "proves": "辞职文件、解除或终止通知、协议、证明和人力资源表述之间的冲突",
+          "lawful_source": "全部通知、协议、辞职文件、证明和人力资源聊天",
+          "collection_note": "将相互冲突的文件一并保留，不要让单一标签决定争议性质。"
+        },
+        {
+          "id": "written_reason_request",
+          "label": "要求书面说明理由的记录",
+          "priority": "P0_immediate",
+          "default_status": "create_now",
+          "proves": "劳动者已经要求用人单位说明依据、日期和结算计算",
+          "lawful_source": "劳动者发给人力资源或管理人员的电子邮件、函件或消息",
+          "collection_note": "在签署新的性质认定文件前，先要求书面说明理由。"
+        },
+        {
+          "id": "limitation_and_filing_timeline",
+          "label": "仲裁时效和提交时间线",
+          "priority": "P1_core",
+          "default_status": "create_now",
+          "proves": "仲裁时效、工资争议的特殊时间规则及紧迫性",
+          "lawful_source": "劳动者制作的时间线，以及解除、终止和工资日期",
+          "collection_note": "仲裁时效可能临近时，标记律师复核。"
+        }
+      ]
+    }
+  }
+}

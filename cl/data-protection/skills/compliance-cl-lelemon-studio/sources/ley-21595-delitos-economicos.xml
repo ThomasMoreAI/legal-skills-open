@@ -1,0 +1,3051 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1195119" esTratado="no tratado" fechaVersion="2025-09-29" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2023-08-07" fechaPublicacion="2023-08-17">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21595</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>LEY DE DELITOS ECON&#211;MICOS</TituloNorma>
+    <Materias>
+      <Materia>Delitos Econ&#243;micos</Materia>
+      <Materia>Penas Privativas de Libertad</Materia>
+      <Materia>Penas Restrictivas de Libertad</Materia>
+      <Materia>Multa</Materia>
+      <Materia>Circunstancias Atenuantes de Responsabilidad penal</Materia>
+      <Materia>Circunstancias Agravantes de Responsabilidad penal</Materia>
+      <Materia>Circunstancias Modificatorias de Responsabilidad penal</Materia>
+      <Materia>Comiso de Ganancias</Materia>
+      <Materia>Medio Ambiente</Materia>
+      <Materia>Responsabilidad Penal de las Personas Jur&#237;dicas</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>43629</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2023-08-17" derogado="no derogado">
+    <Texto>LEY N&#218;M. 21.595
+ 
+LEY DE DELITOS ECON&#211;MICOS
+      
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente proyecto de ley que tuvo su
+origen en mociones refundidas; la primera, correspondiente
+al bolet&#237;n N&#176; 13.204-07, del exdiputado se&#241;or Marcelo
+Schilling Rodr&#237;guez; de los diputados se&#241;ores Boris
+Barrera Moreno y Leonardo Soto Ferrada; de los exdiputados
+se&#241;ores Gabriel Ascencio Mansilla, Ricardo Celis Araya,
+Mario Desbordes Jim&#233;nez y Mat&#237;as Walker Prieto, y de las
+exdiputadas se&#241;oras Natalia Castillo Mu&#241;oz, Marcela
+Hernando P&#233;rez y Alejandra Sep&#250;lveda Orbenes; y, la
+segunda, correspondiente al bolet&#237;n N&#176; 13.205-07, del
+exdiputado se&#241;or Mat&#237;as Walker Prieto; del diputado se&#241;or
+Leonardo Soto Ferrada; de las exdiputadas se&#241;oras Natalia
+Castillo Mu&#241;oz y Paulina N&#250;&#241;ez Urrutia; y, de los
+exdiputados se&#241;ores Marcelo D&#237;az D&#237;az, Gonzalo Fuenzalida
+Figueroa, Luciano Cruz-Coke Carvallo, Marcelo Schilling
+Rodr&#237;guez, Gabriel Silber Romo y Pablo Vidal Rojas,
+      
+     Proyecto de ley:
+</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449613">
+      <Texto>     "T&#205;TULO I
+
+     DELITOS ECON&#211;MICOS
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO I DELITOS ECON&#211;MICOS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449614">
+          <Texto>     Art&#237;culo 1.- Primera categor&#237;a. Para efectos de esta
+ley ser&#225;n considerados como delitos econ&#243;micos, en toda
+circunstancia, los hechos previstos en las siguientes
+disposiciones legales:
+
+     1. Los art&#237;culos 59, 60, 61 y 62 de la ley N&#176; 18.045,
+de Mercado de Valores.
+
+     2. Los art&#237;culos 35, 43 y 58 del decreto ley N&#176;
+3.538, que crea la Comisi&#243;n para el Mercado Financiero.
+
+     3. El art&#237;culo 59 de la ley N&#176; 18.840, org&#225;nica
+constitucional del Banco Central de Chile.
+
+     4. Los art&#237;culos 39 literal h); 39 bis, inciso sexto,
+y 62 del decreto ley N&#176; 211, de 1973, cuyo texto refundido,
+coordinado y sistematizado fue fijado por el decreto con
+fuerza de ley N&#176; 1, de 2004, del Ministerio de Econom&#237;a,
+Fomento y Reconstrucci&#243;n.
+
+     5. El inciso final del art&#237;culo 2 y los art&#237;culos 39,
+141, 142, 154, 157, 158, 159 y 161 de la Ley General de
+Bancos, cuyo texto refundido, sistematizado y concordado fue
+fijado por el decreto con fuerza de ley N&#176; 3, de 1997, del
+Ministerio de Hacienda.
+
+     6. El art&#237;culo 12 y el inciso sexto del art&#237;culo 24,
+ambos de la ley de Reorganizaci&#243;n o cierre de micro y
+peque&#241;as empresas en crisis, contenida en el art&#237;culo
+und&#233;cimo de la ley N&#176; 20.416, que Fija normas especiales
+para las empresas de menor tama&#241;o.
+
+     7. Los art&#237;culos 4 y 13 de la ley N&#176; 20.345, sobre
+Sistemas de compensaci&#243;n y liquidaci&#243;n de instrumentos
+financieros.
+
+     8. El art&#237;culo 49 del decreto con fuerza de ley N&#176;
+251, de 1931, del Ministerio de Hacienda, sobre Compa&#241;&#237;as
+de seguros, sociedades an&#243;nimas y bolsas de comercio.
+
+     9. Los art&#237;culos 134 y 134 bis de la ley N&#176; 18.046,
+sobre Sociedades An&#243;nimas.
+
+     10. Los n&#250;meros 2, 3, 4 y 7 del art&#237;culo 240, y los
+art&#237;culos 251 bis, 285, 286, 287 bis, 287 ter, 463 ter y
+464 del C&#243;digo Penal.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2025-09-29" derogado="no derogado" idParte="10449615">
+          <Texto>     Art&#237;culo 2.- Segunda categor&#237;a. Ser&#225;n, asimismo,
+considerados como delitos econ&#243;micos los hechos previstos
+en las disposiciones legales que a continuaci&#243;n se indican,
+siempre que el hecho fuere perpetrado en ejercicio de un
+cargo, funci&#243;n o posici&#243;n en una empresa, o cuando lo
+fuere en beneficio econ&#243;mico o de otra naturaleza para una
+empresa:
+
+     1. El art&#237;culo 30 de la ley N&#176; 19.884, org&#225;nica
+constitucional sobre Transparencia, l&#237;mite y control del
+gasto electoral, cuyo texto refundido, coordinado y
+sistematizado fue fijado por el decreto con fuerza de ley
+N&#176; 3, de 2017, del Ministerio Secretar&#237;a General de la
+Presidencia.
+
+     2. El inciso cuarto del art&#237;culo 8 ter; los n&#250;meros
+4, 5, 8, 9, 12, 13, 14, 18, 22, 23, 24, 25 y 26 del
+art&#237;culo 97, y el art&#237;culo 100, todos del C&#243;digo
+Tributario.
+
+     3. El inciso quinto del art&#237;culo 134 y los art&#237;culos
+168, 169 y 182 del decreto con fuerza de ley N&#176; 30, de
+2004, del Ministerio de Hacienda, que aprueba el texto
+refundido, coordinado y sistematizado del decreto con fuerza
+de ley N&#176; 213 del Ministerio de Hacienda, de 1953, sobre
+Ordenanza de Aduanas.
+
+     4. El inciso segundo del art&#237;culo 14 y los art&#237;culos
+110 y 160 de la Ley General de Bancos, cuyo texto refundido,
+sistematizado y concordado fue fijado por el decreto con
+fuerza de ley N&#176; 3, de 1997, del Ministerio de Hacienda.
+
+     5. Los art&#237;culos 22 y 43 de la ley sobre Cuentas
+corrientes bancarias y cheques, cuyo texto refundido,
+coordinado y sistematizado fue fijado por el decreto con
+fuerza de ley N&#176; 707, de 1982, del Ministerio de Justicia.
+
+     6. El art&#237;culo 110 de la ley N&#176; 18.092, que dicta
+Nuevas normas sobre letras de cambio y pagar&#233; y deroga
+disposiciones del C&#243;digo de Comercio.
+
+     7. El art&#237;culo 7, letras a) y b), de la ley N&#186;
+20.009, que Establece un r&#233;gimen de limitaci&#243;n de
+responsabilidad para titulares o usuarios de tarjetas de
+pago y transacciones electr&#243;nicas en caso de extrav&#237;o,
+hurto, robo o fraude.
+
+     8. Los art&#237;culos 18, 21, 22, 22 bis y 22 ter del
+decreto N&#176; 4.363, de 1931, del Ministerio de Tierras y
+Colonizaci&#243;n, que aprueba texto definitivo de la Ley de
+Bosques.
+
+     9. Los art&#237;culos 49 y 50 de la ley N&#176; 20.283, sobre
+Recuperaci&#243;n del bosque nativo y fomento forestal.
+
+     10. Los art&#237;culos 64-D, 64-F, 120-B, 135, 135 bis,
+136, 136 bis, 136 ter, 137, 137 bis, 138 bis, 139, 139 bis,
+139 ter y 140 de la ley N&#176; 18.892, General de Pesca y
+Acuicultura, cuyo texto refundido, coordinado y
+sistematizado fue fijado por el decreto N&#176; 430, de 1991,
+del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n.
+
+     11. Los art&#237;culos 29, 30 y 31 del art&#237;culo primero de
+la ley N&#176; 19.473, que sustituye el texto de la ley N&#176;
+4.601, sobre caza.
+
+     12. Los art&#237;culos 11 y 12, inciso primero, de la ley
+N&#176; 20.962, que aplica Convenci&#243;n sobre el Comercio
+Internacional de Especies Amenazadas de Flora y Fauna
+Silvestre.
+
+     13. Los art&#237;culos 38 y 38 bis de la ley N&#176; 17.288,
+que legisla sobre monumentos nacionales, modifica las leyes
+16.617 y 16.719; deroga el decreto ley N&#176; 651, de 17 de
+octubre de 1925.
+
+     14. Los art&#237;culos 73, 118 y 119 del C&#243;digo de
+Miner&#237;a.
+
+     15. El art&#237;culo 280 del C&#243;digo de Aguas.
+
+     16. Los art&#237;culos 36 B y 37 de la ley N&#176; 18.168,
+General de Telecomunicaciones.
+
+     17. Los art&#237;culos 138 y 140 del decreto N&#176; 458, de
+1975, del Ministerio de Vivienda y Urbanismo, que aprueba
+nueva Ley General de Urbanismo y Construcciones.
+
+     18. Los art&#237;culos 35, 36, 37 y 38 de la ley N&#176;
+18.690, sobre Almacenes Generales de Dep&#243;sito.
+
+     19. El art&#237;culo 44 de la ley N&#176; 19.342, que Regula
+derechos de obtentores de nuevas variedades vegetales.
+
+     20. Los art&#237;culos 1&#186;, 2&#186;, 3&#186;, 4&#186;, 5&#186;, 6&#186;, 7&#186; y
+8&#186; de la ley N&#176; 21.459, que establece Normas sobre delitos
+inform&#225;ticos, deroga la ley N&#186; 19.223 y modifica otros
+cuerpos legales, con el objeto de adecuarlos al Convenio de
+Budapest.
+
+     21. Los art&#237;culos 13 y 13 bis de la ley N&#176; 17.322,
+sobre Normas para la cobranza judicial de cotizaciones,
+aportes y multas de las instituciones de seguridad social.
+
+     22. Los art&#237;culos 19, 23 y 25, el inciso duod&#233;cimo
+del art&#237;culo 61 bis y el art&#237;culo 159 del decreto ley N&#176;
+3.500 de 1980, que Establece un Nuevo Sistema de Pensiones.
+
+     23. El inciso segundo del art&#237;culo 110, el inciso
+tercero del art&#237;culo 174 y el art&#237;culo 228 del decreto con
+fuerza de ley N&#176; 1, de 2005, del Ministerio de Salud, que
+fija el texto refundido, coordinado y sistematizado del
+decreto ley N&#176; 2.763, de 1979, y de las leyes N&#176; 18.933 y
+N&#176; 18.469.
+
+     24. El art&#237;culo 39 de la ley que dicta normas sobre
+prenda sin desplazamiento y crea el registro de prendas sin
+desplazamiento, contenida en el art&#237;culo 14 de la ley N&#176;
+20.190, que Introduce adecuaciones tributarias e
+institucionales para el fomento de la industria de capital
+de riesgo y contin&#250;a el proceso de modernizaci&#243;n del
+mercado de capitales.
+
+     25. Los art&#237;culos 41, 46, 48 y 51 del decreto con
+fuerza de ley N&#176; 251, de 1931, del Ministerio de Hacienda,
+sobre Compa&#241;&#237;as de Seguro, Sociedades An&#243;nimas y Bolsas
+de Comercio.
+
+     26. El art&#237;culo 44 de la ley N&#176; 20.920, que Establece
+marco para la gesti&#243;n de residuos, la responsabilidad
+extendida del productor y el fomento al reciclaje.
+
+     27. Los art&#237;culos 194, 196, 197, 198; el n&#250;mero 6 del
+art&#237;culo 240; el inciso segundo del art&#237;culo 247 bis, los
+art&#237;culos 250, 250 bis, 273, 274, 276, 277, 280, 281, 282,
+283, 284, 284 bis, 284 ter, 287, 289, 290, 291, 291 bis y
+291 ter, los n&#250;meros 1 y 2 del art&#237;culo 296, los
+art&#237;culos 297, 297 bis, 305, 306, 307, 308, 309, 310, 311,
+313 d, 314, 315, 316, 317, 318, 318 ter, 438, 459, 460, 460
+bis, 461, 463, 463 bis, 463 qu&#225;ter, 464 ter, 467, 468, 469,
+470; el n&#250;mero 2 del art&#237;culo 471; los art&#237;culos 472, 472
+bis, 473; los n&#250;meros 2, 3, 5, 6 y 7 del art&#237;culo 485, y
+el art&#237;culo 486 en tanto se refiera a las circunstancias
+expresadas en los n&#250;meros antes se&#241;alados del art&#237;culo
+485, todos del C&#243;digo Penal.
+
+     28. Los art&#237;culos 490, 491 y 492 del C&#243;digo Penal,
+cuando el hecho se realice con infracci&#243;n de los deberes de
+cuidado impuestos por un giro de la empresa.
+
+     29. Los art&#237;culos 79, 79 bis, 80 y 81 de la ley N&#186;
+17.336, sobre Propiedad Intelectual.
+
+     30. El art&#237;culo 54 de la ley N&#186; 21.255, que establece
+el Estatuto Chileno Ant&#225;rtico.
+
+     31. Los art&#237;culos 37 bis y 37 ter del art&#237;culo
+segundo de la ley N&#186; 20.417, que crea el Ministerio, el
+Servicio de Evaluaci&#243;n Ambiental y la Superintendencia del
+Medio Ambiente.
+
+     32. Los art&#237;culos 28, 28 bis, 52, 61, 67, 85 y 105 del
+art&#237;culo &#250;nico del decreto con fuerza de ley N&#186; 4, de
+2022, del Ministerio de Econom&#237;a, Fomento y Turismo, que
+fija el texto refundido, coordinado y sistematizado de la
+ley N&#186; 19.039, de Propiedad Industrial.
+
+     33. El inciso tercero del art&#237;culo 12 y el art&#237;culo
+38 de la Ley Marco de Autorizaciones Sectoriales.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2025-09-29" derogado="no derogado" idParte="10449616">
+          <Texto>     Art&#237;culo 3.- Tercera categor&#237;a. Ser&#225;n asimismo
+considerados como delitos econ&#243;micos los hechos previstos
+en las disposiciones legales que a continuaci&#243;n se indican,
+siempre que en la perpetraci&#243;n del hecho hubiere
+intervenido, en alguna de las formas previstas en los
+art&#237;culos 15 o 16 del C&#243;digo Penal, alguien en ejercicio
+de un cargo, funci&#243;n o posici&#243;n en una empresa, o cuando
+el hecho fuere perpetrado en beneficio econ&#243;mico o de otra
+naturaleza para una empresa:
+
+     1. El art&#237;culo 31 de la ley N&#176; 19.884 org&#225;nica
+constitucional sobre Transparencia, l&#237;mite y control del
+gasto electoral, cuyo texto refundido, coordinado y
+sistematizado fue fijado por el decreto con fuerza de ley
+N&#176; 3, de 2017, del Ministerio Secretar&#237;a General de la
+Presidencia.
+
+     2. El art&#237;culo 40 de la ley N&#176; 20.283, sobre
+Recuperaci&#243;n del bosque nativo y fomento forestal.
+
+     3. El inciso primero del art&#237;culo 64-J de la ley N&#176;
+18.892, General de Pesca y Acuicultura, cuyo texto
+refundido, coordinado y sistematizado fue fijado por el
+decreto N&#176; 430, de 1991, del Ministerio de Econom&#237;a,
+Fomento y Reconstrucci&#243;n.
+
+     4. El art&#237;culo 48 ter de la ley N&#176; 19.300, que
+aprueba ley sobre Bases Generales del Medio Ambiente.
+
+     5. Los art&#237;culos 193, 233, 234, 235, 236, 237, 239;
+240, n&#250;mero 1; 240 bis, 241, 241 bis, 242, 243, 244, 246,
+247; 247 bis, inciso primero; 248, 248 bis y 249 del C&#243;digo
+Penal.
+
+     6. El art&#237;culo 45 de la Ley Marco de Autorizaciones
+Sectoriales.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449617">
+          <Texto>     Art&#237;culo 4.- Cuarta categor&#237;a. Receptaci&#243;n, lavado y
+blanqueo de activos. Ser&#225;n tambi&#233;n considerados delitos
+econ&#243;micos los hechos previstos en el art&#237;culo 456 bis A
+del C&#243;digo Penal y en el art&#237;culo 27 de la ley N&#176; 19.913,
+que crea la Unidad de An&#225;lisis Financiero y modifica
+diversas disposiciones en materia de lavado y blanqueo de
+activos, cuando los hechos de los que provienen las
+especies, adem&#225;s de ser constitutivos de los delitos a que
+se refieren los art&#237;culos citados precedentemente, sean:
+
+     1. Considerados como delitos econ&#243;micos conforme al
+art&#237;culo 1.
+
+     2. Considerados como delitos econ&#243;micos conforme a los
+art&#237;culos 2 o 3.
+
+     3. Constitutivos de alguno de los delitos se&#241;alados en
+los art&#237;culos 2 y 3, siempre que la receptaci&#243;n de bienes
+o el lavado o blanqueo de activos fueren perpetrados en
+ejercicio de un cargo, funci&#243;n o posici&#243;n en una empresa,
+o cuando lo fueren en beneficio econ&#243;mico o de otra
+naturaleza para una empresa.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">4 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449618">
+          <Texto>     Art&#237;culo 5.- Doble consideraci&#243;n de circunstancias.
+La concurrencia de cualquiera de las circunstancias
+se&#241;aladas en los art&#237;culos 2, 3 y 4 producir&#225; el efecto
+de que se considere el hecho respectivo como delito
+econ&#243;mico, aunque la ley que lo prev&#233; la haya expresado al
+describirlo y penarlo, o aunque sea de tal manera inherente
+al delito que sin su concurrencia no pueda cometerse.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">5 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449619">
+          <Texto>     Art&#237;culo 6.- Inaplicabilidad a micro y peque&#241;as
+empresas. Las disposiciones de los T&#237;tulos II y III no
+ser&#225;n aplicables a los delitos considerados como
+econ&#243;micos conforme a los art&#237;culos 2 y 3 y a los n&#250;meros
+2 y 3 del art&#237;culo 4 que se perpetren en el contexto o en
+beneficio de una empresa que tenga el car&#225;cter de micro o
+peque&#241;a empresa conforme al art&#237;culo segundo de la ley N&#176;
+20.416.
+     En el caso de que la empresa involucrada forme parte de
+un grupo empresarial, deber&#225;n sumarse los ingresos del
+grupo para determinar si califica como micro o peque&#241;a
+empresa conforme a la disposici&#243;n antes citada. Por grupo
+empresarial se entender&#225; lo dispuesto en el art&#237;culo 96 de
+la ley N&#176; 18.045.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">6 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449620">
+          <Texto>     Art&#237;culo 7.- Concursos. En caso de ser aplicable el
+art&#237;culo 75 del C&#243;digo Penal o el art&#237;culo 351 del
+C&#243;digo Procesal Penal por la concurrencia de un delito
+econ&#243;mico y de uno o m&#225;s delitos de otra clase, las
+disposiciones del T&#237;tulo II de esta ley ser&#225;n aplicables a
+todos ellos.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">7 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449621">
+      <Texto>     T&#205;TULO II
+
+     PENAS Y CONSECUENCIAS ADICIONALES A LA PENA APLICABLES
+A LAS PERSONAS RESPONSABLES DE LOS DELITOS ECON&#211;MICOS
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO II PENAS Y CONSECUENCIAS ADICIONALES A LA PENA APLICABLES A LAS PERSONAS RESPONSABLES DE LOS DELITOS ECON&#211;MICOS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449622">
+          <Texto>     &#167; 1. Reglas generales      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">&#167; 1. Reglas generales</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449623">
+              <Texto>     Art&#237;culo 8.- &#193;mbito de aplicaci&#243;n personal. Las
+disposiciones del presente T&#237;tulo ser&#225;n aplicables a las
+personas responsables de los delitos econ&#243;micos.
+     Son responsables de delitos econ&#243;micos:
+
+     1. Todas las personas penalmente responsables conforme
+a las reglas generales por un hecho considerado como delito
+econ&#243;mico conforme al art&#237;culo 1 y al n&#250;mero 1 del
+art&#237;culo 4.
+
+     2. Las personas penalmente responsables conforme a las
+reglas generales por un hecho considerado como delito
+econ&#243;mico seg&#250;n los art&#237;culos 2 y 3 y los n&#250;meros 2 y 3
+del art&#237;culo 4, que al momento de su intervenci&#243;n hubieren
+tenido conocimiento de la concurrencia de las circunstancias
+a que esos art&#237;culos se refieren.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">8 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449624">
+              <Texto>     Art&#237;culo 9.- Penas privativas o restrictivas de
+libertad o de otros derechos. Las penas privativas o
+restrictivas de libertad o de otros derechos que corresponda
+imponer al responsable de un delito econ&#243;mico son las
+se&#241;aladas por la ley que lo sanciona, sin perjuicio de las
+consecuencias adicionales establecidas en el P&#225;rrafo 5 del
+presente T&#237;tulo.
+     No obstante, la determinaci&#243;n de la pena de presidio o
+reclusi&#243;n que deba ser impuesta, as&#237; como de su
+sustituci&#243;n, se har&#225;n conforme con la presente ley. En
+subsidio ser&#225;n aplicables las reglas generales de
+determinaci&#243;n y ejecuci&#243;n de las penas, en tanto no sean
+incompatibles con la presente ley.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">9 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449625">
+              <Texto>     Art&#237;culo 10.- Multa. Todo delito econ&#243;mico conlleva
+adem&#225;s una pena de multa, cuya cuant&#237;a y determinaci&#243;n se
+establecer&#225; conforme a la presente ley, as&#237; como la
+imposici&#243;n de las inhabilitaciones y prohibiciones
+previstas en el P&#225;rrafo 5 del presente T&#237;tulo. Ni la multa
+ni las prohibiciones e inhabilitaciones podr&#225;n ser
+sustituidas.
+     La multa por imponer se fijar&#225; en un n&#250;mero de
+d&#237;as-multa que corresponda a la extensi&#243;n de las penas
+privativas o restrictivas de libertad, conforme a lo
+dispuesto en el art&#237;culo 27.
+     La cuant&#237;a de la multa por aplicar ser&#225; la que
+corresponda al valor que el tribunal fije para cada
+d&#237;a-multa, de conformidad con el art&#237;culo 27, multiplicado
+por el n&#250;mero de d&#237;as-multa que corresponda. El producto
+se expresar&#225; en una suma de dinero fijada en moneda de
+curso legal.
+     Con todo, si la ley que describe el hecho punible le
+se&#241;ala una pena de multa superior al m&#225;ximo por imponer
+conforme a esta ley, el tribunal se atendr&#225; a lo que
+disponga dicha ley respecto a esa multa, en el margen que
+exceda al m&#225;ximo antedicho.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">10 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449626">
+              <Texto>     Art&#237;culo 11.- Sanciones o medidas administrativas y
+penas. Cuando un hecho constitutivo de delito pueda,
+asimismo, dar lugar a una o m&#225;s sanciones o medidas
+administrativas, se estar&#225; a lo dispuesto en el art&#237;culo
+78 bis del C&#243;digo Penal.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">11 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449627">
+          <Texto>     &#167; 2. Determinaci&#243;n de las penas privativas de
+libertad
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">&#167; 2. Determinaci&#243;n de las penas privativas de libertad</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449628">
+              <Texto>     Art&#237;culo 12.- R&#233;gimen especial. En la determinaci&#243;n
+de la pena aplicable a un delito econ&#243;mico no se
+considerar&#225; lo dispuesto por los art&#237;culos 65 a 69 del
+C&#243;digo Penal, ni ser&#225;n aplicables las atenuantes y
+agravantes previstas en los art&#237;culos 11 a 13 del C&#243;digo
+Penal. En su lugar, se aplicar&#225;n las reglas dispuestas en
+los art&#237;culos siguientes.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">12 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449629">
+              <Texto>     Art&#237;culo 13.- Atenuantes. Son circunstancias
+atenuantes de un delito econ&#243;mico las siguientes:
+
+     1.&#170; La culpabilidad disminuida del condenado,
+establecida siempre que concurra cualquiera de los
+siguientes supuestos:
+
+     a) El condenado no busc&#243; obtener provecho econ&#243;mico
+de la perpetraci&#243;n del hecho para s&#237; o para un tercero.
+
+     b) El condenado, estando en una posici&#243;n intermedia o
+superior al interior de una organizaci&#243;n, se limit&#243; a
+omitir la realizaci&#243;n de alguna acci&#243;n que habr&#237;a
+impedido la perpetraci&#243;n del delito, sin favorecerla
+directamente.
+
+     2.&#170; Que el hecho haya ocasionado un perjuicio
+limitado. Se entender&#225; que ello tiene lugar cuando el
+perjuicio total supere las 40 unidades tributarias mensuales
+y no pase de 400, sin que se aplique lo dispuesto en el
+literal b) de la circunstancia 2.&#170; del art&#237;culo 16.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">13 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449630">
+              <Texto>     Art&#237;culo 14.- Atenuantes muy calificadas. Son
+circunstancias atenuantes muy calificadas de un delito
+econ&#243;mico las siguientes:
+
+     1.&#170; La culpabilidad muy disminuida del condenado,
+establecida siempre que concurra cualquiera de los
+siguientes supuestos:
+
+     a) El condenado actu&#243; en inter&#233;s de personas
+necesitadas o por necesidad personal apremiante.
+
+     b) El condenado tom&#243; oportuna y voluntariamente
+medidas orientadas a prevenir o mitigar sustancialmente la
+generaci&#243;n de da&#241;os a la v&#237;ctima o a terceros.
+
+     c) El condenado actu&#243; bajo presi&#243;n y en una
+situaci&#243;n de subordinaci&#243;n al interior de una
+organizaci&#243;n.
+
+     d) El condenado actu&#243; en una situaci&#243;n de
+subordinaci&#243;n y con conocimiento limitado de la ilicitud de
+su actuar.
+
+     2.&#170; Que el hecho haya tenido una cuant&#237;a de bagatela.
+Se entender&#225; especialmente que ello es as&#237;, cuando:
+
+     a) El perjuicio total irrogado no supere 40 unidades
+tributarias mensuales.
+
+     b) Concurra cualquiera de las causales atenuantes
+se&#241;aladas en el inciso primero del art&#237;culo 111 del
+C&#243;digo Tributario, respecto de delitos econ&#243;micos que
+constituyan infracci&#243;n a las normas tributarias.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">14 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449631">
+              <Texto>     Art&#237;culo 15.- Agravantes. Son circunstancias
+agravantes de un delito econ&#243;mico las siguientes:
+
+     1.&#170; La culpabilidad elevada del condenado, establecida
+siempre que concurra cualquiera de los siguientes supuestos:
+
+     a) El condenado particip&#243; activamente en una posici&#243;n
+intermedia en la organizaci&#243;n en la que se perpetr&#243; el
+delito.
+
+     En el caso de organizaciones privadas o de empresas o
+universidades del Estado, se entender&#225; que el condenado se
+encuentra en una posici&#243;n intermedia cuando ejerce un poder
+relevante de mando sobre otros en la organizaci&#243;n, sin
+estar en una posici&#243;n jer&#225;rquica superior. Este supuesto
+no ser&#225; aplicable trat&#225;ndose de medianas empresas conforme
+al art&#237;culo segundo de la ley N&#176; 20.416.
+
+     Trat&#225;ndose de &#243;rganos del Estado, se entender&#225; que
+el condenado se encuentra en una posici&#243;n intermedia cuando
+ejerce un poder relevante de mando sobre otros en la
+organizaci&#243;n, sin estar en alguna de las situaciones
+previstas en el n&#250;mero 1&#176; del art&#237;culo 251 quinquies del
+C&#243;digo Penal, aunque no haya sido condenado por alguno de
+los delitos all&#237; mencionados.
+
+     b) El condenado ejerci&#243; abusivamente autoridad o poder
+al perpetrar el hecho.
+
+     c) El condenado hab&#237;a sido sancionado anteriormente
+por perpetrar un delito econ&#243;mico.
+
+     d) El condenado por delito econ&#243;mico constitutivo de
+infracci&#243;n a las normas tributarias se encuentra en
+cualquiera de las situaciones se&#241;aladas por los incisos
+segundo y tercero del art&#237;culo 111 del C&#243;digo Tributario.
+
+     2.&#170; Que el hecho haya ocasionado un perjuicio o
+reportado un beneficio relevante. Se entender&#225; que ello
+tiene lugar cuando el perjuicio o beneficio agregado total
+supere las 400 unidades tributarias mensuales y no supere
+las 40.000, sin que se aplique alguno de los casos de la
+circunstancia 2.&#170; del art&#237;culo 16.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">15 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449632">
+              <Texto>     Art&#237;culo 16.- Agravantes muy calificadas. Son
+circunstancias agravantes muy calificadas de un delito
+econ&#243;mico las siguientes:
+
+     1.&#170; La culpabilidad muy elevada del condenado,
+establecida siempre que concurra cualquiera de los
+siguientes supuestos:
+
+     a) El condenado particip&#243; activamente en una posici&#243;n
+jer&#225;rquica superior en la organizaci&#243;n en la que se
+perpetr&#243; el delito.
+
+     Trat&#225;ndose de organizaciones privadas o de empresas o
+universidades del Estado, se entender&#225; que el condenado se
+encuentra en una posici&#243;n jer&#225;rquica superior en la
+organizaci&#243;n cuando ejerza como gerente general o miembro
+del &#243;rgano superior de administraci&#243;n, o como jefe de una
+unidad o divisi&#243;n, s&#243;lo subordinado al &#243;rgano superior de
+administraci&#243;n, as&#237; como cuando ejerza como director,
+socio administrador o accionista o socio con poder de
+influir en la administraci&#243;n.
+
+     En el caso de los delitos a los que se refiere el
+art&#237;culo 1, esta agravante s&#243;lo ser&#225; aplicable respecto
+de quienes intervinieren en el hecho en ejercicio de un
+cargo, funci&#243;n o posici&#243;n en una empresa cuyos ingresos
+anuales sean iguales o superiores a los de una mediana
+empresa conforme al art&#237;culo segundo de la ley N&#186; 20.416,
+o cuando lo fuere en beneficio econ&#243;mico o de otra
+naturaleza de una empresa que tenga esa condici&#243;n.
+
+     Trat&#225;ndose de organizaciones p&#250;blicas, se entender&#225;
+que el condenado se encuentra en una posici&#243;n jer&#225;rquica
+superior cuando se encontrare en alguna de las situaciones
+previstas en el n&#250;mero 1&#186; del art&#237;culo 251 quinquies del
+C&#243;digo Penal, aunque no haya sido condenado por alguno de
+los delitos all&#237; mencionados.
+
+     b) El condenado ejerci&#243; presi&#243;n sobre sus
+subordinados en la organizaci&#243;n para que colaboraran en la
+perpetraci&#243;n del delito.
+
+     2.&#170; Que el hecho haya ocasionado un perjuicio muy
+elevado. Se entender&#225; que ello tiene lugar en las
+siguientes circunstancias:
+
+     a) Cuando el hecho haya ocasionado perjuicio a personas
+naturales o jur&#237;dicas, p&#250;blicas o privadas, que en total
+supere las 40.000 unidades tributarias mensuales, o haya
+reportado un beneficio de esta cuant&#237;a.
+
+     b) Cuando el hecho haya afectado el suministro de
+bienes de primera necesidad o de consumo masivo.
+
+     c) Cuando el hecho haya afectado abusivamente a
+individuos que pertenecen a un grupo vulnerable.
+
+     d) Cuando concurrieren las circunstancias previstas en
+el n&#250;mero 2&#176; del art&#237;culo 251 quinquies o en el art&#237;culo
+260 ter del C&#243;digo Penal.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">16 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449633">
+              <Texto>     Art&#237;culo 17.- Efectos de las atenuantes y agravantes.
+En caso de concurrir una atenuante muy calificada respecto
+de un marco penal que incluya una pena de presidio o
+reclusi&#243;n de un solo grado, &#233;ste se aplicar&#225; en su
+m&#237;nimum. De estar compuesto de dos o m&#225;s grados, no se
+aplicar&#225; el grado superior.
+     De concurrir dos o m&#225;s atenuantes muy calificadas
+respecto de un delito cuyo marco est&#233; compuesto por un solo
+grado, &#233;ste se rebajar&#225; en un grado. De estar compuesto de
+dos o m&#225;s grados, el marco se fijar&#225; en el grado
+inmediatamente inferior al grado m&#225;s bajo del marco legal.
+     En caso de concurrir una agravante muy calificada
+respecto de un marco penal que incluya una pena de presidio
+o reclusi&#243;n de un solo grado, &#233;ste se aplicar&#225; en su
+m&#225;ximum. De estar compuesto de dos o m&#225;s grados, no se
+aplicar&#225; el grado inferior.
+     De concurrir dos o m&#225;s agravantes muy calificadas
+respecto de un delito cuyo marco est&#233; compuesto por un solo
+grado, &#233;ste se incrementar&#225; en un grado. De estar
+compuesto de dos o m&#225;s grados, el marco se fijar&#225; en el
+inmediatamente superior al grado m&#225;s alto del marco legal. 
+    
+     De concurrir atenuantes muy calificadas y agravantes
+muy calificadas, el tribunal deber&#225; compensarlas en
+consideraci&#243;n a su n&#250;mero. En caso de que concurran en
+igual n&#250;mero, no producir&#225;n efecto de atenuar o agravar la
+pena.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">17 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449634">
+              <Texto>     Art&#237;culo 18.- Determinaci&#243;n judicial de la pena.
+Dentro de los l&#237;mites de cada grado el tribunal
+determinar&#225; la cuant&#237;a de la pena en atenci&#243;n a la
+concurrencia de circunstancias atenuantes o agravantes
+previstas en los art&#237;culos 13 y 15, a la mayor o menor
+intensidad de la culpabilidad del responsable y a la mayor o
+menor extensi&#243;n del mal que importe el delito.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">18 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449635">
+          <Texto>     &#167; 3. Penas sustitutivas de los delitos econ&#243;micos    
+ 
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">&#167; 3. Penas sustitutivas de los delitos econ&#243;micos</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449636">
+              <Texto>     Art&#237;culo 19.- R&#233;gimen especial. La procedencia de
+penas sustitutivas a las de presidio o reclusi&#243;n se
+determinar&#225; de conformidad con lo dispuesto en los
+art&#237;culos siguientes. Las disposiciones de la ley N&#176;
+18.216 s&#243;lo ser&#225;n aplicables supletoriamente respecto de
+los aspectos no regulados en esta ley y en la medida en que
+no se opongan a ella.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">19 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449637">
+              <Texto>     Art&#237;culo 20.- Penas sustitutivas. La ejecuci&#243;n de las
+penas privativas o restrictivas de libertad de los delitos
+econ&#243;micos podr&#225; sustituirse por el tribunal que las
+imponga, por alguna de las siguientes:
+
+     1. Remisi&#243;n condicional.
+
+     2. Reclusi&#243;n parcial en domicilio.
+
+     3. Reclusi&#243;n parcial en establecimiento especial.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">20 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449638">
+              <Texto>     Art&#237;culo 21.- Remisi&#243;n condicional. La remisi&#243;n
+condicional consiste en la sustituci&#243;n del cumplimiento de
+la pena privativa de libertad por la discreta observaci&#243;n y
+asistencia del condenado ante la autoridad administrativa
+durante cierto tiempo.
+     La remisi&#243;n condicional s&#243;lo podr&#225; decretarse si:
+
+     1. La pena privativa o restrictiva de libertad que
+impusiere la sentencia no excediere de tres a&#241;os y el
+condenado se viere beneficiado por una atenuante muy
+calificada, de conformidad con lo dispuesto en el art&#237;culo
+14; y,
+
+     2. El penado no hubiese sido condenado anteriormente
+por crimen o simple delito. En todo caso, no se
+considerar&#225;n para estos efectos las condenas cumplidas diez
+o cinco a&#241;os antes, respectivamente, de la comisi&#243;n del
+nuevo il&#237;cito.
+
+     Para los efectos de determinar el cumplimiento de los
+requisitos establecidos en el n&#250;mero 1 se considerar&#225; que
+concurre, en su caso, la atenuante muy calificada de la
+circunstancia 2.&#170; del art&#237;culo 14, aun cuando ella no
+tuviere incidencia en la determinaci&#243;n de la pena por
+tratarse de una circunstancia inherente al delito.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">21 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449639">
+              <Texto>     Art&#237;culo 22.- Condiciones impuestas por la remisi&#243;n
+condicional. Al aplicar la remisi&#243;n condicional, el
+tribunal establecer&#225; un plazo de observaci&#243;n que no ser&#225;
+inferior al de la duraci&#243;n de la pena, con un m&#237;nimo de un
+a&#241;o y un m&#225;ximo de tres, e impondr&#225; al condenado las
+siguientes condiciones:
+
+     1. Residencia en un lugar determinado, que podr&#225; ser
+propuesto por el tribunal. Aquel podr&#225; ser cambiado, en
+casos especiales, seg&#250;n la calificaci&#243;n efectuada por
+Gendarmer&#237;a de Chile.
+
+     2. Sujeci&#243;n al control administrativo y a la
+asistencia de Gendarmer&#237;a de Chile, en la forma que
+establece el reglamento de la ley N&#176; 18.216. Al efecto,
+dicho servicio recabar&#225; anualmente un certificado de
+antecedentes prontuariales.
+
+     3. Ejercicio de una profesi&#243;n, oficio, empleo, arte,
+industria o comercio, si el condenado careciere de medios
+conocidos y honestos de subsistencia y no poseyere la
+calidad de estudiante.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">22 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449640">
+              <Texto>     Art&#237;culo 23.- Reclusi&#243;n parcial en domicilio. La pena
+de reclusi&#243;n parcial en domicilio consiste en el encierro
+en el domicilio del condenado. La reclusi&#243;n parcial podr&#225;
+ser diurna o de fin de semana, conforme a los siguientes
+criterios:
+
+     1. La reclusi&#243;n diurna consistir&#225; en el encierro en
+el domicilio del condenado, durante el lapso de ocho horas
+diarias y continuas, el que se fijar&#225; entre las ocho y las
+veintid&#243;s horas.
+
+     2. La reclusi&#243;n de fin de semana consistir&#225; en el
+encierro en el domicilio del condenado entre las veintid&#243;s
+horas del d&#237;a viernes y las seis horas del d&#237;a lunes
+siguiente.
+
+     En aquellos casos en que la pena de reclusi&#243;n parcial
+diurna pusiera en riesgo la subsistencia econ&#243;mica del
+condenado, de su c&#243;nyuge o conviviente civil, hijos o hijas
+o de cualquier otra persona que dependa econ&#243;micamente del
+condenado o por otro motivo grave que as&#237; lo amerite, se
+deber&#225; imponer la pena de reclusi&#243;n de fin de semana.
+
+     Para el cumplimiento de la reclusi&#243;n parcial en
+domicilio, el tribunal establecer&#225; como mecanismo de
+control de ella el sistema de monitoreo telem&#225;tico, salvo
+que Gendarmer&#237;a de Chile informe desfavorablemente la
+factibilidad t&#233;cnica de su imposici&#243;n, de conformidad a lo
+dispuesto en los art&#237;culos 23 bis y siguientes de la ley
+N&#176; 18.216. En tal caso, entendido como excepcional, se
+podr&#225;n decretar otros mecanismos de control similares, en
+la forma que determine el tribunal.
+
+     Para los efectos de esta ley, se entender&#225; por
+domicilio la residencia regular que el condenado utilice
+para fines habitacionales.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">23 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449641">
+              <Texto>     Art&#237;culo 24.- Requisitos para disponer la pena de
+reclusi&#243;n parcial en domicilio. La reclusi&#243;n parcial en
+domicilio s&#243;lo podr&#225; disponerse si:
+
+     1. La pena privativa o restrictiva de libertad que
+impusiere la sentencia no excediere de tres a&#241;os y no fuere
+aplicable una agravante muy calificada.
+
+     2. El penado no hubiese sido condenado anteriormente
+por crimen o simple delito. En todo caso, no se
+considerar&#225;n para estos efectos las condenas cumplidas diez
+o cinco a&#241;os antes, respectivamente, de la comisi&#243;n del
+nuevo il&#237;cito, y
+
+     3. Existieren antecedentes laborales, educacionales o
+de otra naturaleza que justifiquen esta sustituci&#243;n, as&#237;
+como si los antecedentes personales del condenado, su
+conducta anterior y posterior al hecho punible y la
+naturaleza, modalidades y m&#243;viles determinantes del delito,
+permitieren presumir que la pena de reclusi&#243;n parcial lo
+disuadir&#225; de cometer nuevos il&#237;citos.
+
+     Para los efectos de determinar el cumplimiento de los
+requisitos establecidos en el n&#250;mero 1, se considerar&#225; que
+concurre, en su caso, la agravante muy calificada de la
+circunstancia 2.&#170; del art&#237;culo 16, aun cuando ella no
+tuviere incidencia en la determinaci&#243;n de la pena en virtud
+de lo dispuesto en el art&#237;culo 63 del C&#243;digo Penal.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">24 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449642">
+              <Texto>     Art&#237;culo 25.- Reclusi&#243;n parcial en establecimiento
+especial. La pena de reclusi&#243;n parcial en establecimiento
+especial consiste en el encierro en un lugar especialmente
+dispuesto para ello durante cincuenta y seis horas
+semanales. Un reglamento determinar&#225; los establecimientos
+que podr&#225;n ser utilizados para estos efectos y las
+condiciones de su instalaci&#243;n y funcionamiento.
+     La reclusi&#243;n parcial podr&#225; ser diurna, o de fin de
+semana, o nocturna. La reclusi&#243;n nocturna consistir&#225; en el
+encierro del condenado en el establecimiento especial entre
+las veintid&#243;s horas de cada d&#237;a hasta las seis horas del
+d&#237;a siguiente.
+     En aquellos casos en que la pena de reclusi&#243;n parcial
+diurna ponga en riesgo la subsistencia econ&#243;mica del
+condenado, de su c&#243;nyuge o conviviente civil, hijos o hijas
+o de cualquier otra persona que dependa econ&#243;micamente del
+condenado, o por otro motivo grave que as&#237; lo amerite, se
+deber&#225; imponer la pena de reclusi&#243;n parcial nocturna o de
+fin de semana.
+      </Texto>
+              <Metadatos>
+                <NombreParte presente="si">25 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449643">
+              <Texto>     Art&#237;culo 26.- Requisitos para disponer la pena de
+reclusi&#243;n parcial en establecimiento especial. La pena de
+reclusi&#243;n parcial en establecimiento especial s&#243;lo podr&#225;
+decretarse si:
+
+     1. La pena privativa o restrictiva de libertad que
+impusiere la sentencia fuere superior a dos a&#241;os y no
+excediere de cinco, y siempre que no fuere aplicable una
+agravante muy calificada de conformidad con lo dispuesto en
+el art&#237;culo 16.
+
+     2. El penado no hubiere sido condenado anteriormente
+por crimen o simple delito. No se considerar&#225;n para estos
+efectos las condenas cumplidas diez o cinco a&#241;os antes,
+respectivamente, del il&#237;cito sobre el que recayere la nueva
+condena, y
+
+     3. Existieren antecedentes laborales, educacionales o
+de otra naturaleza similar que justificaren la pena, as&#237;
+como si los antecedentes personales del condenado, su
+conducta anterior y posterior al hecho punible y la
+naturaleza, modalidades y m&#243;viles determinantes del delito,
+permitieren presumir que la pena de reclusi&#243;n parcial lo
+disuadir&#225; de cometer nuevos il&#237;citos.
+
+     Para los efectos de determinar el cumplimiento de los
+requisitos establecidos en el n&#250;mero 1, se considerar&#225; que
+concurre, en su caso, la agravante muy calificada de la
+circunstancia 2.&#170; del art&#237;culo 16, aun cuando ella no
+tuviere incidencia en la determinaci&#243;n de la pena en virtud
+de lo dispuesto en el art&#237;culo 63 del C&#243;digo Penal.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">26 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449644">
+          <Texto>     &#167; 4. Determinaci&#243;n de la pena de multa      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">&#167; 4. Determinaci&#243;n de la pena de multa</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449645">
+              <Texto>     Art&#237;culo 27.- Determinaci&#243;n del n&#250;mero de
+d&#237;as-multa. El n&#250;mero de d&#237;as-multa aplicable a un delito
+econ&#243;mico ser&#225; determinado a partir del grado de la pena
+privativa de libertad prevista por la ley para el delito
+respectivo, del grado m&#225;ximo de ella si constara de m&#225;s de
+un grado o, de concurrir atenuantes o agravantes muy
+calificadas, del grado que resulte de aplicarle lo dispuesto
+en el art&#237;culo 17, de acuerdo con la siguiente tabla de
+conversi&#243;n:
+      
+     Prisi&#243;n: 1 a 10 d&#237;as-multa.
+
+     Presidio o reclusi&#243;n menor en su grado m&#237;nimo: 11 a
+50 d&#237;as-multa.
+
+     Presidio o reclusi&#243;n menor en su grado medio: 51 a 100
+d&#237;as-multa.
+
+     Presidio o reclusi&#243;n menor en su grado m&#225;ximo: 101 a
+150 d&#237;as-multa.
+
+     Presidio o reclusi&#243;n mayor en su grado m&#237;nimo: 151 a
+200 d&#237;as-multa.
+
+     Presidio o reclusi&#243;n mayor en su grado medio: 201 a
+250 d&#237;as-multa.
+
+     Presidio o reclusi&#243;n mayor en su grado m&#225;ximo a
+presidio perpetuo calificado: 251 a 300 d&#237;as-multa.
+
+     Si la ley s&#243;lo prev&#233; para el delito respectivo la
+aplicaci&#243;n de multa o de una pena no privativa de libertad,
+el n&#250;mero de d&#237;as-multa ser&#225; establecido en el marco
+aplicable a delitos castigados con prisi&#243;n.
+
+     Dentro de ese marco, el tribunal individualizar&#225; la
+pena de multa en un n&#250;mero de d&#237;as-multa de conformidad a
+lo dispuesto en el art&#237;culo 18.
+
+     En caso de ser aplicable el art&#237;culo 74 del C&#243;digo
+Penal, la multa total no podr&#225; exceder de 300 d&#237;as-multa.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">27 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449646">
+              <Texto>     Art&#237;culo 28.- Determinaci&#243;n del valor del d&#237;a-multa.
+El valor del d&#237;a-multa corresponder&#225; al ingreso diario
+promedio l&#237;quido que el condenado haya tenido en el
+per&#237;odo de un a&#241;o antes de que la investigaci&#243;n se dirija
+en su contra, considerando sus remuneraciones, rentas,
+r&#233;ditos del capital o ingresos de cualquier otra clase.
+     El valor del d&#237;a-multa no podr&#225; ser inferior a media
+unidad tributaria mensual ni superior a mil. La pena m&#237;nima
+de multa es de un d&#237;a-multa.
+      </Texto>
+              <Metadatos>
+                <NombreParte presente="si">28 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449647">
+              <Texto>     Art&#237;culo 29.- Aumento del valor en consideraci&#243;n al
+patrimonio. Si el ingreso diario promedio l&#237;quido
+determinado en los t&#233;rminos se&#241;alados en el art&#237;culo
+anterior resultare desproporcionadamente bajo en relaci&#243;n
+con el patrimonio del condenado, el tribunal podr&#225; aumentar
+hasta en dos veces el valor del d&#237;a-multa.
+     Para los efectos de lo dispuesto en este art&#237;culo, los
+ingresos, las obligaciones, las cargas y el patrimonio del
+condenado ser&#225;n estimados por el tribunal sobre la base de
+los antecedentes aportados al procedimiento respecto de sus
+rentas, gastos, modo de vida u otros factores relevantes.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">29 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449648">
+          <Texto>     &#167; 5. Inhabilitaciones      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="no">&#160;</NombreParte>
+            <TituloParte presente="si">&#167; 5. Inhabilitaciones</TituloParte>
+            
+          </Metadatos>
+          <EstructurasFuncionales>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449649">
+              <Texto>     Art&#237;culo 30.- Aplicaci&#243;n copulativa. Junto con la
+imposici&#243;n de las penas principales que corresponda, el
+tribunal deber&#225; imponer todas las inhabilitaciones que
+siguen respecto de todo condenado por un delito econ&#243;mico.
+     Si la ley que describe el hecho punible le asignare una
+pena de inhabilitaci&#243;n de otra naturaleza, o si ella fuera
+procedente de conformidad con los art&#237;culos 28 y 29 del
+C&#243;digo Penal, el tribunal deber&#225; imponerlas junto con las
+inhabilitaciones previstas en este P&#225;rrafo.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">30 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449650">
+              <Texto>     Art&#237;culo 31.- Inhabilitaci&#243;n para el ejercicio de
+cargos u oficios p&#250;blicos. La inhabilitaci&#243;n para el
+ejercicio de una funci&#243;n o cargo p&#250;blico produce el efecto
+previsto en los n&#250;meros 1&#176; y 3&#176; del art&#237;culo 38 del
+C&#243;digo Penal, por la extensi&#243;n que corresponda.
+     De ser aplicable, el tribunal deber&#225; imponer la
+inhabilitaci&#243;n en la extensi&#243;n dispuesta en el art&#237;culo
+28 del C&#243;digo Penal. En caso contrario, el tribunal la
+impondr&#225; en la extensi&#243;n resultante de la aplicaci&#243;n de
+los art&#237;culos 34 y 35 de esta ley.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">31 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449651">
+              <Texto>     Art&#237;culo 32.- Inhabilitaci&#243;n para el ejercicio de
+cargos gerenciales. La inhabilitaci&#243;n para el ejercicio de
+cargos gerenciales afecta del mismo modo la capacidad del
+condenado para desempe&#241;arse como director o ejecutivo
+principal en cualquier entidad incluida en el art&#237;culo 3
+del decreto ley N&#186; 3.538, de 1980, que crea la Comisi&#243;n
+para el Mercado Financiero, o en una empresa del Estado o en
+que &#233;ste tenga participaci&#243;n mayoritaria.
+     El tribunal deber&#225; comunicar la imposici&#243;n de la
+inhabilitaci&#243;n a la Comisi&#243;n para el Mercado Financiero.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">32 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449652">
+              <Texto>     Art&#237;culo 33.- Inhabilitaci&#243;n para contratar con el
+Estado. La inhabilitaci&#243;n para contratar con el Estado
+impide al condenado contratar con cualquiera de sus &#243;rganos
+o servicios reconocidos por la Constituci&#243;n Pol&#237;tica de la
+Rep&#250;blica o creados por ley, con cualquiera de los &#243;rganos
+o empresas p&#250;blicas que conforme a la ley constituyen al
+Estado y con las empresas o sociedades en las que el Estado
+participe con al menos la mitad de las acciones que
+comprenden su capital, de los derechos sociales o de los
+derechos de administraci&#243;n.
+     La inhabilitaci&#243;n para contratar con el Estado produce
+tambi&#233;n la extinci&#243;n de pleno derecho de los efectos de
+los actos y contratos que el Estado haya celebrado con el
+condenado y que se encuentren vigentes en el momento de la
+condena.
+     La inhabilitaci&#243;n no comprende los actos y contratos
+relativos a las prestaciones personales de salud previsional
+o seguridad social, ni los servicios b&#225;sicos que el Estado
+ofrece indiscriminadamente a la poblaci&#243;n.
+     Si se impusiere la inhabilitaci&#243;n para contratar con
+el Estado a una persona natural, ninguna sociedad,
+fundaci&#243;n o corporaci&#243;n en la que el condenado fuere
+directa o indirectamente socio, accionista, miembro o
+part&#237;cipe con poder de influir en la administraci&#243;n podr&#225;
+contratar con el Estado mientras el condenado mantenga su
+participaci&#243;n en ella.
+     La inhabilitaci&#243;n regir&#225; a contar de la fecha en que
+la resoluci&#243;n se encuentre ejecutoriada. El tribunal
+comunicar&#225; tal circunstancia a la Direcci&#243;n de Compras y
+Contrataci&#243;n P&#250;blica.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">33 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449653">
+              <Texto>     Art&#237;culo 34.- Extensi&#243;n. Las inhabilitaciones
+previstas en este P&#225;rrafo tendr&#225;n una extensi&#243;n de entre
+tres y diez a&#241;os. La inhabilitaci&#243;n para contratar con el
+Estado podr&#225; imponerse a perpetuidad.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">34 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449654">
+              <Texto>     Art&#237;culo 35.- Determinaci&#243;n judicial de la extensi&#243;n
+de la inhabilitaci&#243;n. Para la determinaci&#243;n de la
+extensi&#243;n de la inhabilitaci&#243;n el tribunal estar&#225; a lo
+dispuesto en el P&#225;rrafo 2 de este T&#237;tulo. La que se
+impusiere a cada interviniente en el delito ser&#225;
+determinada independientemente.
+     Si la pena impuesta no incluyere la ejecuci&#243;n efectiva
+de una pena privativa de libertad, las inhabilitaciones no
+podr&#225;n durar m&#225;s de cinco a&#241;os trat&#225;ndose de la
+inhabilitaci&#243;n para el ejercicio de un cargo o funci&#243;n
+p&#250;blica o para el ejercicio de cargos gerenciales. La
+prohibici&#243;n para contratar con el Estado podr&#225; imponerse
+siempre en toda su extensi&#243;n.
+     Si la inhabilitaci&#243;n se impusiere juntamente con una
+pena efectiva de presidio o reclusi&#243;n, la extensi&#243;n
+determinada por el tribunal se aumentar&#225; de pleno derecho
+en todo el tiempo de ejecuci&#243;n efectiva de esa pena, si
+fuere mayor.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">35 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449655">
+              <Texto>     Art&#237;culo 36.- Duraci&#243;n. Toda inhabilitaci&#243;n
+comenzar&#225; a producir sus efectos desde la fecha en que
+quede ejecutoriada la sentencia que la impusiere, y su
+duraci&#243;n se computar&#225; desde ese momento.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">36 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449656">
+              <Texto>     Art&#237;culo 37.- Rehabilitaci&#243;n. Todo sentenciado a
+inhabilitaci&#243;n para el ejercicio de una funci&#243;n o cargo
+p&#250;blico o para el ejercicio de cargos gerenciales tendr&#225;
+derecho a solicitar al tribunal su rehabilitaci&#243;n una vez
+cumplida la mitad de la condena.
+     El tribunal acceder&#225; a la solicitud si se acompa&#241;aren
+antecedentes que permitan presumir que el condenado no
+volver&#225; a delinquir y que ejercer&#225; en el futuro en forma
+responsable la actividad a la que se refiera la
+inhabilitaci&#243;n.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">37 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449657">
+              <Texto>     Art&#237;culo 38.- Reincidencia. En los casos en que se
+hubiere concedido la rehabilitaci&#243;n conforme al art&#237;culo
+precedente y el beneficiado perpetrare un nuevo delito por
+el cual corresponda imponer una inhabilitaci&#243;n de la misma
+clase, el tribunal la determinar&#225; dentro de la mitad
+superior de su extensi&#243;n. El sentenciado a tal
+inhabilitaci&#243;n no tendr&#225; derecho a obtener una nueva
+rehabilitaci&#243;n.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">38 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+            <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449658">
+              <Texto>     Art&#237;culo 39.- Abono. El tiempo por el cual el
+condenado hubiere sufrido una privaci&#243;n de derechos
+distinta de la privaci&#243;n de libertad impuesta como medida
+cautelar en el mismo proceso ser&#225; &#237;ntegramente abonado a
+la inhabilitaci&#243;n que se le impusiere conforme a este
+P&#225;rrafo, siempre que tal privaci&#243;n de derechos hubiere
+impedido al condenado realizar las actividades a que se
+refiriere la inhabilitaci&#243;n.
+</Texto>
+              <Metadatos>
+                <NombreParte presente="si">39 </NombreParte>
+                <TituloParte presente="no">&#160;</TituloParte>
+                
+              </Metadatos>
+            </EstructuraFuncional>
+          </EstructurasFuncionales>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449659">
+      <Texto>     T&#205;TULO III
+
+     COMISO DE GANANCIAS      
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO III COMISO DE GANANCIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449660">
+          <Texto>     Art&#237;culo 40.- Comiso con condena previa. Toda condena
+por delito econ&#243;mico conlleva el comiso de las ganancias.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">40 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449661">
+          <Texto>     Art&#237;culo 41.- Comiso sin condena previa. Se impondr&#225;
+asimismo el comiso de las ganancias obtenidas a trav&#233;s de
+un hecho il&#237;cito que corresponda a un delito econ&#243;mico
+aunque:
+
+     1. Se dicte sobreseimiento temporal conforme a las
+letras b) y c) del inciso primero y al inciso segundo del
+art&#237;culo 252 del C&#243;digo Procesal Penal.
+
+     2. Se dicte sentencia absolutoria fundada en la falta
+de convicci&#243;n a que se refiere el art&#237;culo 340 del C&#243;digo
+Procesal Penal o sobreseimiento definitivo fundado en la
+letra b) del art&#237;culo 250 del mismo C&#243;digo.
+
+     3. Se dicte sobreseimiento definitivo o sentencia
+absolutoria fundados en la concurrencia de circunstancias
+eximentes de responsabilidad que no excluyen la ilicitud del
+hecho.
+
+     4. Se dicte sobreseimiento definitivo o sentencia
+absolutoria fundados en haberse extinguido la
+responsabilidad penal o en haber sobrevenido un hecho que,
+con arreglo a la ley, ponga fin a esa responsabilidad.
+
+     El comiso de ganancias sin condena previa ser&#225;
+impuesto tambi&#233;n respecto de aquellas personas que no
+hubieren intervenido en la realizaci&#243;n del hecho il&#237;cito
+que se encontraren en cualquiera de las circunstancias
+se&#241;aladas en el art&#237;culo 24 ter del C&#243;digo Penal.
+     El comiso de ganancias sin condena previa ser&#225;
+impuesto de conformidad al procedimiento especial previsto
+en el T&#237;tulo III bis del Libro IV del C&#243;digo Procesal
+Penal.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">41 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449662">
+          <Texto>     Art&#237;culo 42.- Medidas cautelares solicitadas por el
+Ministerio P&#250;blico. El Ministerio P&#250;blico podr&#225; solicitar
+al juez competente las medidas que sean necesarias para
+asegurar activos patrimoniales con el fin de hacer el comiso
+de ganancias conforme a este T&#237;tulo.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">42 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449663">
+          <Texto>     Art&#237;culo 43.- Medidas cautelares solicitadas por otras
+autoridades. El Consejo de Defensa del Estado y las
+autoridades del Estado facultadas por ley para denunciar la
+perpetraci&#243;n de un delito econ&#243;mico o querellarse contra
+sus responsables podr&#225;n tambi&#233;n solicitar al juez las
+medidas se&#241;aladas en el art&#237;culo 42.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">43 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449664">
+          <Texto>     Art&#237;culo 44.- Proporcionalidad. En caso de recaer
+sobre bienes de una empresa, el comiso y las medidas a que
+se refiere el art&#237;culo 42 se har&#225;n efectivos de
+preferencia sobre aquellos cuya afectaci&#243;n no obstaculice
+sus actividades econ&#243;micas.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">44 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449665">
+          <Texto>     Art&#237;culo 45.- Prescripci&#243;n. La acci&#243;n para obtener
+el comiso de ganancias conforme a este T&#237;tulo prescribir&#225;
+en el plazo de cuatro a&#241;os, contado desde que hubiere
+transcurrido el plazo de prescripci&#243;n de la acci&#243;n penal
+respectiva.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">45 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449666">
+          <Texto>     Art&#237;culo 46.- Acci&#243;n civil. La acci&#243;n para obtener
+indemnizaci&#243;n de perjuicios de la v&#237;ctima de un delito
+econ&#243;mico, o de un hecho il&#237;cito que corresponde a un
+delito econ&#243;mico, podr&#225; ejercerse sobre los bienes
+decomisados conforme a este T&#237;tulo o el producto de su
+realizaci&#243;n, siempre que exista una relaci&#243;n directa entre
+el perjuicio irrogado y las ganancias obtenidas.
+     La acci&#243;n antedicha prescribir&#225; en el plazo de cuatro
+a&#241;os, contado a partir de la fecha en que la resoluci&#243;n
+que impone el comiso quede ejecutoriada.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">46 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449667">
+          <Texto>     Art&#237;culo 47.- Excepciones al ejercicio de la acci&#243;n
+civil. Cualquiera sea el procedimiento en que se ejerza la
+acci&#243;n en cuesti&#243;n, se dar&#225; traslado al Consejo de
+Defensa del Estado, por el plazo de treinta d&#237;as,
+prorrogable a su solicitud por otros treinta d&#237;as, hasta
+por dos veces.
+     El Consejo de Defensa del Estado podr&#225; oponer la
+excepci&#243;n de falta de relaci&#243;n directa entre perjuicio y
+ganancias, la excepci&#243;n de ejecuci&#243;n negligente y la
+excepci&#243;n de ejecuci&#243;n inadecuada.
+     Las excepciones de falta de relaci&#243;n directa entre
+perjuicio y ganancias y de ejecuci&#243;n negligente ser&#225;n
+tramitadas como incidente de previo y especial
+pronunciamiento. Acogida la excepci&#243;n, no proceder&#225; lo
+dispuesto en el art&#237;culo precedente.
+     La oposici&#243;n de la excepci&#243;n de ejecuci&#243;n inadecuada
+se har&#225; indicando otros bienes del demandado. Para este
+efecto, el Consejo de Defensa del Estado podr&#225; solicitar
+las medidas precautorias conducentes a su aseguramiento,
+incluso antes de interponer la excepci&#243;n, anunci&#225;ndola. En
+este &#250;ltimo caso las medidas quedar&#225;n sin efecto si el
+plazo vence sin oposici&#243;n de la excepci&#243;n. Opuesta la
+excepci&#243;n, ser&#225;n pagadas las indemnizaciones con los
+bienes identificados. De haber saldo insoluto, proceder&#225; lo
+dispuesto en el art&#237;culo precedente.
+     Para la identificaci&#243;n de los bienes del responsable,
+el Ministerio P&#250;blico, a solicitud del Consejo de Defensa
+del Estado, estar&#225; facultado para requerir la informaci&#243;n
+pertinente del Servicio de Impuestos Internos y de la
+Comisi&#243;n para el Mercado Financiero, as&#237; como de bancos,
+instituciones financieras, compa&#241;&#237;as de seguros y personas
+jur&#237;dicas sujetas a su fiscalizaci&#243;n.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">47 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449668">
+      <Texto>     T&#205;TULO IV
+
+     MODIFICACIONES A OTROS CUERPOS LEGALES      
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO IV MODIFICACIONES A OTROS CUERPOS LEGALES</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449669">
+          <Texto>     Art&#237;culo 48.- Modificaciones al C&#243;digo Penal.
+Introd&#250;cense las siguientes modificaciones en el C&#243;digo
+Penal:
+
+     1. Sustit&#250;yese el art&#237;culo 24 bis, por el siguiente:
+
+     "Art&#237;culo 24 bis.- Toda sentencia condenatoria en
+materia criminal lleva consigo el comiso de las ganancias
+provenientes del delito. Por el comiso de ganancias se priva
+a una persona de activos patrimoniales cuyo valor
+corresponda a la cuant&#237;a de las ganancias obtenidas a
+trav&#233;s del delito, o bien para o por perpetrarlo. Lo
+obtenido en virtud de lo se&#241;alado precedentemente ser&#225;
+transferido al Fisco.
+     Las ganancias obtenidas comprenden los frutos y las
+utilidades que se hubieren originado, cualquiera sea su
+naturaleza jur&#237;dica. Las ganancias comprenden tambi&#233;n el
+equivalente a los costos evitados mediante el hecho
+il&#237;cito.
+     En la determinaci&#243;n del valor de las ganancias no se
+descontar&#225;n los gastos que hubieren sido necesarios para
+perpetrar el delito y obtenerlas.
+     La acci&#243;n para obtener el comiso de ganancias se
+sujetar&#225; a las reglas de la prescripci&#243;n de la acci&#243;n
+penal respectiva.
+     Si un mismo bien pudiere ser objeto de comiso conforme
+a este art&#237;culo y conforme a otras disposiciones de este
+C&#243;digo, s&#243;lo se aplicar&#225; lo dispuesto en este
+art&#237;culo.".
+
+     2. Incorp&#243;rase el siguiente art&#237;culo 78 bis:
+
+     "Art&#237;culo 78 bis.- La circunstancia de que un hecho
+constitutivo de delito pueda asimismo dar lugar a una o m&#225;s
+sanciones o medidas de las establecidas en el art&#237;culo 20
+no obsta a la imposici&#243;n de las penas que procedan.
+     Con todo, el monto de la pena de multa pagada ser&#225;
+abonado a la multa no constitutiva de pena que se imponga al
+condenado por el mismo hecho. Si el condenado hubiere pagado
+una multa no constitutiva de pena como consecuencia del
+mismo hecho, el monto pagado ser&#225; abonado a la pena de
+multa impuesta.      
+     La extensi&#243;n de la suspensi&#243;n o inhabilitaci&#243;n
+impuesta al condenado como consecuencia adicional a la pena
+ser&#225; deducida de la extensi&#243;n de la suspensi&#243;n o
+inhabilitaci&#243;n de la misma naturaleza que fuere impuesta
+como sanci&#243;n administrativa o disciplinaria. Si el
+condenado hubiere sido sometido a una suspensi&#243;n o
+inhabilitaci&#243;n como sanci&#243;n administrativa o
+disciplinaria, la extensi&#243;n de &#233;sta ser&#225; deducida de la
+suspensi&#243;n o inhabilitaci&#243;n de la misma naturaleza que se
+le impusiere.".
+
+     3. En el art&#237;culo 240:
+
+     a) Interc&#225;lase en el n&#250;mero 7&#176; del inciso primero,
+entre las palabras "an&#243;nima" y "que", la expresi&#243;n
+"abierta o especial".
+
+     b) Sustit&#250;yese en el inciso segundo la frase "personas
+enumeradas en el inciso precedente" por "personas
+mencionadas en los n&#250;meros 1 a 6 del inciso precedente".
+
+     c) Sustit&#250;yese en el inciso tercero la frase "alguna
+de las personas enumeradas en el inciso primero" por "alguna
+de las personas mencionadas en los n&#250;meros 1 a 6 del inciso
+primero".
+
+     d) Introd&#250;cese el siguiente inciso cuarto:
+
+     "Trat&#225;ndose de una sociedad an&#243;nima abierta o
+especial, las mismas penas referidas en el inciso primero se
+aplicar&#225;n al director o gerente que diere o dejare tomar
+inter&#233;s a personas consideradas por la ley como partes
+relacionadas.".
+
+     4. Incorp&#243;rase en el art&#237;culo 247 bis el siguiente
+inciso segundo:
+
+     "Con las mismas penas ser&#225;n castigados los que,
+ejerciendo alguna de las profesiones que requieren t&#237;tulo,
+obtuvieren un beneficio econ&#243;mico para s&#237; o para un
+tercero haciendo uso de los secretos que por raz&#243;n de su
+profesi&#243;n se les hubiere confiado. Trat&#225;ndose de un
+abogado, si el hecho perjudicare a su cliente, se impondr&#225;n
+adem&#225;s las penas privativas de derechos se&#241;aladas en el
+art&#237;culo 231.".
+
+     5. Sustit&#250;yese el art&#237;culo 284 por los siguientes
+art&#237;culos 284, 284 bis, 284 ter, 284 qu&#225;ter, 284 quinquies
+y 284 sexies:
+
+     "Art&#237;culo 284.- El que sin el consentimiento de su
+leg&#237;timo poseedor accediere a un secreto comercial mediante
+intromisi&#243;n indebida con el prop&#243;sito de revelarlo o
+aprovecharse econ&#243;micamente de &#233;l ser&#225; castigado con
+presidio o reclusi&#243;n menor en su grado medio.
+     Para efectos de lo dispuesto en el inciso anterior, se
+entender&#225; por intromisi&#243;n:
+
+     1. El ingreso a dependencias de la empresa o la
+captaci&#243;n visual o sonora mediante dispositivos t&#233;cnicos
+de lo que tuviere lugar al interior de dependencias de la
+empresa, siempre que ello no fuere perceptible desde su
+exterior sin la utilizaci&#243;n de dispositivos t&#233;cnicos como
+los empleados en la captaci&#243;n o sin recurrir a escalamiento
+o a alg&#250;n otro modo de vencimiento de un obst&#225;culo a la
+percepci&#243;n.
+
+     2. La captaci&#243;n visual o sonora mediante dispositivos
+t&#233;cnicos del contenido de la comunicaci&#243;n que dos o m&#225;s
+personas mantuvieren de la ejecuci&#243;n de una acci&#243;n o del
+desarrollo de una situaci&#243;n por parte de una persona cuando
+los involucrados tuvieren una expectativa leg&#237;tima de no
+estar siendo vistos, escuchados, filmados o grabados,
+manifestada en las circunstancias de la comunicaci&#243;n, la
+acci&#243;n o la situaci&#243;n y que &#233;sta concerniere a la
+empresa.
+
+     3. El acceso a un sistema inform&#225;tico sin
+autorizaci&#243;n o excediendo la autorizaci&#243;n que se posea y
+superando barreras t&#233;cnicas o medidas tecnol&#243;gicas de
+seguridad.
+
+     La pena se&#241;alada en el inciso primero se impondr&#225;
+tambi&#233;n al que sin el consentimiento de su leg&#237;timo
+poseedor reprodujere la fijaci&#243;n en cualquier formato de
+informaci&#243;n constitutiva de un secreto comercial con el
+prop&#243;sito de revelarlo o aprovecharse econ&#243;micamente de
+&#233;l.
+
+     El que, habiendo perpetrado cualquiera de los hechos
+previstos en los incisos anteriores, sin el consentimiento
+de su leg&#237;timo poseedor revelare o consintiere en que otro
+accediere al secreto comercial ser&#225; sancionado con la pena
+de presidio o reclusi&#243;n menor en su grado m&#225;ximo.
+
+     Art&#237;culo 284 bis.- Ser&#225; castigado con presidio o
+reclusi&#243;n menor en su grado medio el que sin el
+consentimiento de su leg&#237;timo poseedor revelare o
+consintiere que otra persona accediere a un secreto
+comercial que hubiere conocido:
+
+     1. Bajo un deber de confidencialidad con ocasi&#243;n del
+ejercicio de un cargo o una funci&#243;n p&#250;blica o de una
+profesi&#243;n cuyo t&#237;tulo se encontrare legalmente reconocido
+y siempre que el deber de confidencialidad profesional
+estuviere fundado en la ley o en un reglamento, o en las
+reglas que definen su correcto ejercicio.
+
+     2. En raz&#243;n o a consecuencia de una relaci&#243;n
+contractual o laboral con la empresa afectada o con otra que
+le haya prestado servicios.
+
+     Art&#237;culo 284 ter.- El que sin el consentimiento de su
+leg&#237;timo poseedor se aprovechare econ&#243;micamente de un
+secreto comercial que hubiere conocido en alguna de las
+circunstancias previstas en los incisos primero o segundo
+del art&#237;culo 284 o en el art&#237;culo 284 bis, o sabiendo que
+su conocimiento del secreto proviene de alguno de esos
+hechos, ser&#225; sancionado con presidio o reclusi&#243;n menor en
+su grado m&#225;ximo.
+
+     Art&#237;culo 284 qu&#225;ter.- Sin perjuicio de las penas
+previstas en los art&#237;culos precedentes, cuando el delito se
+cometa con ocasi&#243;n del ejercicio de una de las profesiones
+a que se refiere el art&#237;culo 284 bis se impondr&#225;, adem&#225;s,
+la pena accesoria de suspensi&#243;n o inhabilitaci&#243;n del
+ejercicio de su profesi&#243;n.
+     La pena y su duraci&#243;n ser&#225;n determinadas atendiendo a
+la pena principal impuesta conforme a las reglas previstas
+por los art&#237;culos 29 y 30 para la inhabilitaci&#243;n o
+suspensi&#243;n de cargo u oficio p&#250;blico.
+
+     Art&#237;culo 284 quinquies.- No incurre en el delito
+previsto en los art&#237;culos 284 bis y 284 ter quien en el
+ejercicio de su profesi&#243;n, oficio, trabajo o actividad
+econ&#243;mica usa la experiencia y las competencias
+leg&#237;timamente adquiridas en conocimiento l&#237;cito de un
+secreto comercial.
+
+     Art&#237;culo 284 sexies.- Para efectos de lo dispuesto en
+los art&#237;culos precedentes, se entender&#225; por secreto
+comercial la informaci&#243;n que re&#250;na los requisitos exigidos
+por la ley de propiedad industrial.".
+
+     6. Sustit&#250;yense los art&#237;culos 285 y 286, por los
+siguientes:
+
+     "Art&#237;culo 285.- El que por medios fraudulentos
+alterare el precio de bienes o servicios sufrir&#225; las penas
+de presidio o reclusi&#243;n menor en sus grados medio a
+m&#225;ximo.
+
+     Art&#237;culo 286.- Se impondr&#225; la pena de presidio o
+reclusi&#243;n menor en su grado m&#225;ximo a presidio o reclusi&#243;n
+mayor en su grado m&#237;nimo cuando el fraude expresado en el
+art&#237;culo anterior recayere sobre el precio de bienes o
+servicios de primera necesidad o de consumo masivo.".
+
+     7. Sustit&#250;yese en los art&#237;culos 287 bis y 287 ter la
+expresi&#243;n "empleado o mandatario" por "director,
+administrador, mandatario o empleado de una empresa".
+
+     8. Sustit&#250;yese el P&#225;rrafo 13 del T&#237;tulo VI del Libro
+II, por el siguiente:
+
+     "&#167; 13. Atentados contra el medio ambiente
+
+     Art&#237;culo 305.- Ser&#225; sancionado con presidio o
+reclusi&#243;n menor en sus grados m&#237;nimo a medio el que sin
+haber sometido su actividad a una evaluaci&#243;n de impacto
+ambiental a sabiendas de estar obligado a ello:
+
+     1. Vierta sustancias contaminantes en aguas mar&#237;timas
+o continentales.
+
+     2. Extraiga aguas continentales, sean superficiales o
+subterr&#225;neas, o aguas mar&#237;timas.
+
+     3. Vierta o deposite sustancias contaminantes en el
+suelo o subsuelo, continental o mar&#237;timo.
+
+     4. Vierta tierras u otros s&#243;lidos en humedales.
+
+     5. Extraiga componentes del suelo o subsuelo.
+
+     6. Libere sustancias contaminantes al aire.
+
+     La pena ser&#225; de presidio o reclusi&#243;n menor en sus
+grados medio a m&#225;ximo si el infractor perpetra el hecho
+estando obligado a someter su actividad a un estudio de
+impacto ambiental.
+
+     Art&#237;culo 306.- Las penas se&#241;aladas en el inciso
+primero del art&#237;culo anterior ser&#225;n aplicables al que,
+contando con autorizaci&#243;n para verter, liberar o extraer
+cualquiera de las sustancias o elementos mencionados en los
+n&#250;meros 1 a 6 del art&#237;culo 305, incurra en cualquiera de
+los hechos all&#237; previstos, contraviniendo una norma de
+emisi&#243;n o de calidad ambiental, incumpliendo las medidas
+establecidas en un plan de prevenci&#243;n, de descontaminaci&#243;n
+o de manejo ambiental, incumpliendo una resoluci&#243;n de
+calificaci&#243;n ambiental, o cualquier condici&#243;n asociada al
+otorgamiento de la autorizaci&#243;n, y siempre que el infractor
+hubiere sido sancionado administrativamente en, al menos,
+dos procedimientos sancionatorios distintos, por
+infracciones graves o grav&#237;simas, dentro de los diez a&#241;os
+anteriores al hecho punible y cometidas en relaci&#243;n con una
+misma unidad sometida a control de la autoridad.
+
+     Art&#237;culo 307.- Las penas se&#241;aladas en el inciso
+primero del art&#237;culo 305 ser&#225;n tambi&#233;n aplicables al que,
+contando con autorizaci&#243;n para extraer aguas continentales,
+superficiales o subterr&#225;neas, las extraiga infringiendo las
+reglas de su distribuci&#243;n y aprovechamiento en cualquiera
+de las siguientes circunstancias:
+
+     1. Habi&#233;ndose establecido por la autoridad la
+reducci&#243;n temporal del ejercicio de esos derechos de
+aprovechamiento.
+
+     2. En una zona que haya sido declarada zona de
+prohibici&#243;n para nuevas explotaciones acu&#237;feras, haya sido
+decretada &#225;rea de restricci&#243;n del sector hidrogeol&#243;gico,
+que se haya declarado a su respecto el agotamiento de las
+fuentes naturales de aguas o se la haya declarado zona de
+escasez h&#237;drica.
+
+     Art&#237;culo 308.- El que, vertiendo, depositando o
+liberando sustancias contaminantes, o extrayendo aguas o
+componentes del suelo o subsuelo, afectare gravemente las
+aguas mar&#237;timas o continentales, superficiales o
+subterr&#225;neas, el suelo o el subsuelo, fuere continental o
+mar&#237;timo, o el aire, o bien la salud animal o vegetal, la
+existencia de recursos h&#237;dricos o el abastecimiento de agua
+potable, o que afectare gravemente humedales vertiendo en
+ellos tierras u otros s&#243;lidos, ser&#225; sancionado:
+
+     1. Con la pena de presidio o reclusi&#243;n mayor en su
+grado m&#237;nimo, si la afectaci&#243;n grave fuere perpetrada
+concurriendo las circunstancias previstas en los art&#237;culos
+305, 306 o 307.
+
+     2. Con la pena de presidio o reclusi&#243;n menor en su
+grado m&#225;ximo a presidio mayor en su grado m&#237;nimo en los
+casos no comprendidos en el n&#250;mero precedente, y siempre
+que no estuviere autorizado para ello.
+
+     Art&#237;culo 309.- El que por imprudencia temeraria o por
+mera imprudencia o negligencia con infracci&#243;n de los
+reglamentos incurriere en los hechos se&#241;alados en el
+art&#237;culo anterior, ser&#225; sancionado:
+
+     1. Con la pena de presidio o reclusi&#243;n menor en su
+grado m&#225;ximo, si la afectaci&#243;n grave fuere perpetrada
+concurriendo las circunstancias previstas en los art&#237;culos
+305, 306 o 307.
+
+     2. Con la pena de presidio o reclusi&#243;n menor en
+cualquiera de sus grados en los casos no comprendidos en el
+n&#250;mero precedente.
+
+     Art&#237;culo 310.- El que afectare gravemente uno o m&#225;s
+de los componentes ambientales de una reserva de regi&#243;n
+virgen, un parque nacional, un monumento natural, una
+reserva nacional o un humedal de importancia internacional,
+ser&#225; sancionado con presidio o reclusi&#243;n mayor en su grado
+m&#237;nimo.
+     La misma pena se impondr&#225; al que, infringiendo una
+resoluci&#243;n de calificaci&#243;n ambiental o sin haber sometido
+su actividad a una evaluaci&#243;n de impacto ambiental estando
+obligado a ello, afectare gravemente un glaciar.      
+     La pena ser&#225; de presidio o reclusi&#243;n menor en su
+grado m&#225;ximo si cualquiera de los hechos se&#241;alados en los
+incisos anteriores fuere perpetrado por imprudencia
+temeraria o por mera imprudencia o negligencia con
+infracci&#243;n de los reglamentos.
+
+     Art&#237;culo 310 bis.- Para los efectos de los tres
+art&#237;culos precedentes se entender&#225; por afectaci&#243;n grave
+de uno o m&#225;s componentes ambientales el cambio adverso
+producido en alguno de ellos, siempre que concurra alguna de
+las siguientes circunstancias:
+
+     1. Tener una extensi&#243;n espacial de relevancia, seg&#250;n
+las caracter&#237;sticas ecol&#243;gicas o geogr&#225;ficas de la zona
+afectada.
+
+     2. Tener efectos prolongados en el tiempo.
+
+     3. Ser irreparable o dif&#237;cilmente reparable.
+
+     4. Alcanzar a un conjunto significativo de especies,
+seg&#250;n las caracter&#237;sticas de la zona afectada.
+
+     5. Incidir en especies categorizadas como extintas,
+extintas en grado silvestre, en peligro cr&#237;tico o en
+peligro o vulnerables.
+
+     6. Poner en serio riesgo de grave da&#241;o la salud de una
+o m&#225;s personas.
+
+     7. Afectar significativamente los servicios o funciones
+ecosist&#233;micas del elemento o componente ambiental.
+
+     Trat&#225;ndose de los hechos previstos en el n&#250;mero 1 del
+art&#237;culo 308 y en los incisos primero y segundo del
+art&#237;culo 310, si la afectaci&#243;n grave causa un da&#241;o
+irreversible a un ecosistema, se impondr&#225; el m&#225;ximum de
+las penas a ellos se&#241;aladas.
+
+     Art&#237;culo 310 ter.- Adem&#225;s de las penas se&#241;aladas en
+las disposiciones de este P&#225;rrafo, el tribunal impondr&#225; la
+pena de multa:
+
+     1. De ciento veinte a sesenta mil unidades tributarias
+mensuales, si la pena m&#225;xima se&#241;alada fuere inferior a la
+de presidio o reclusi&#243;n menor en su grado m&#225;ximo.
+
+     2. De doce mil a noventa mil unidades tributarias
+mensuales, si la pena m&#237;nima se&#241;alada fuere inferior a la
+de presidio o reclusi&#243;n menor en su grado m&#225;ximo.
+
+     3. De veinticuatro mil a ciento veinte mil unidades
+tributarias mensuales, si la pena m&#237;nima se&#241;alada fuere
+igual o superior a la de presidio o reclusi&#243;n menor en su
+grado m&#225;ximo.
+
+     El monto de la pena de multa pagada ser&#225; abonado a la
+sanci&#243;n de multa no constitutiva de pena que le fuere
+impuesta por el mismo hecho. Si el condenado hubiere pagado
+una multa no constitutiva de pena por el mismo hecho, el
+monto pagado ser&#225; abonado a la pena de multa impuesta.
+
+     Art&#237;culo 311.- Trat&#225;ndose de los hechos previstos en
+los art&#237;culos 305, 306 o 307, la pena s&#243;lo ser&#225; la multa
+de ciento veinte a doce mil unidades tributarias mensuales
+cuando:
+
+     1. La cantidad vertida, liberada o extra&#237;da en exceso
+no supere en forma significativa el l&#237;mite permitido o
+autorizado, atendidas las caracter&#237;sticas de la sustancia y
+la condici&#243;n del medio ambiente que pudieren verse
+afectadas por el exceso y, adem&#225;s,
+
+     2. El infractor hubiere obrado con diligencia para
+restablecer las emisiones o extracciones al valor permitido
+o autorizado y para evitar las consecuencias da&#241;inas del
+hecho.
+
+     El tribunal podr&#225; imponer una multa inferior a la
+se&#241;alada, desde una unidad tributaria mensual, cuando el
+hecho fuere perpetrado extrayendo aguas continentales,
+superficiales o subterr&#225;neas, se cumpliere la condici&#243;n
+se&#241;alada en el n&#250;mero 1 y la extracci&#243;n hubiere estado
+destinada a las bebidas y usos dom&#233;sticos de subsistencia.
+
+     Art&#237;culo 311 bis.- Trat&#225;ndose de los hechos previstos
+en el art&#237;culo 310, el tribunal impondr&#225; al condenado como
+pena accesoria la prohibici&#243;n perpetua de ingresar al &#225;rea
+afectada, y podr&#225; extenderla mediante resoluci&#243;n fundada a
+otras &#225;reas de las se&#241;aladas en dicho art&#237;culo que
+exhiban caracter&#237;sticas ecosist&#233;micas similares.
+     El tribunal podr&#225; autorizar el ingreso al &#225;rea con el
+&#250;nico objeto de recorrer un trayecto entre dos lugares
+ubicados fuera de ella, cuando no hubiere v&#237;as alternativas
+disponibles.
+      
+     Art&#237;culo 311 ter.- Fuera de los casos se&#241;alados en el
+art&#237;culo 310, el tribunal podr&#225; apreciar la concurrencia
+de una atenuante muy calificada conforme al art&#237;culo 68 bis
+cuando el hechor repare el da&#241;o ambiental causado por el
+hecho.
+
+     Art&#237;culo 311 qu&#225;ter.- Las penas previstas en las
+disposiciones de este P&#225;rrafo para los atentados contra el
+medio ambiente perpetrados extrayendo aguas continentales,
+superficiales o subterr&#225;neas, ser&#225;n impuestas sin
+perjuicio de la aplicaci&#243;n de las penas que correspondan
+por el delito de usurpaci&#243;n.
+
+     Art&#237;culo 311 quinquies.- Cuando la persona obligada
+por las normas ambientales o el infractor a que se refieren
+las disposiciones de este P&#225;rrafo fuere una persona
+jur&#237;dica, se entender&#225; que esa calidad concurre respecto
+de quienes hubieren intervenido por ella en el hecho
+punible.
+
+     Art&#237;culo 311 sexies.- Para efectos de lo dispuesto en
+este P&#225;rrafo, cuenta con la autorizaci&#243;n correspondiente
+quien la tiene en el momento del hecho, aun cuando ella sea
+posteriormente declarada inv&#225;lida.
+     No vale como autorizaci&#243;n la que hubiere sido obtenida
+mediante enga&#241;o, coacci&#243;n o cohecho, ni aquella que la
+persona autorizada sabe que es o ha devenido manifiestamente
+improcedente.
+     La declaraci&#243;n administrativa de no estar obligado a
+someter la actividad a una evaluaci&#243;n de impacto ambiental
+exime de responsabilidad conforme al art&#237;culo 305, a menos
+que concurran las circunstancias se&#241;aladas en el inciso
+precedente.
+
+     Art&#237;culo 312.- Si con ocasi&#243;n de la investigaci&#243;n o
+el juicio por los hechos previstos en las disposiciones del
+presente P&#225;rrafo, el tribunal estimare procedente la
+imposici&#243;n al imputado o condenado de condiciones
+destinadas a evitar o reparar el da&#241;o ambiental,
+consultar&#225; a los organismos t&#233;cnicos competentes. Si las
+impusiere, oficiar&#225; a la autoridad reguladora pertinente
+para la fiscalizaci&#243;n de su cumplimiento, y &#233;sta &#250;ltima
+quedar&#225; obligada a informar al tribunal. La autoridad
+requerida podr&#225; ejercer todas las competencias
+fiscalizadoras establecidas por la ley para tal efecto, y
+quedar&#225; obligada a informar al tribunal.".
+
+     9. En el art&#237;culo 459:
+
+     a) En el encabezamiento sustit&#250;yese la expresi&#243;n
+"presidio menor en sus grados m&#237;nimo a medio" por "presidio
+menor en sus grados medio a m&#225;ximo".
+
+     b) Incorp&#243;rase el siguiente inciso final:
+
+     "Las sanciones establecidas en este art&#237;culo no se
+aplicar&#225;n a quienes hagan uso del agua para consumo
+personal o familiar en los t&#233;rminos se&#241;alados en el
+art&#237;culo 56 del C&#243;digo de Aguas.".
+
+     10. Sustit&#250;yese el art&#237;</Texto>
+          <Metadatos>
+            <NombreParte presente="si">48 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449670">
+          <Texto>     Art&#237;culo 49.- Modificaciones al C&#243;digo Procesal
+Penal. Introd&#250;cense las siguientes modificaciones en el
+C&#243;digo Procesal Penal:
+
+     1. Sustit&#250;yese el art&#237;culo 468 bis, por el siguiente:
+
+     "Art&#237;culo 468 bis.- Ejecuci&#243;n del comiso de
+ganancias. Toda sentencia que imponga el comiso de las
+ganancias provenientes del delito ser&#225; ejecutada como
+decisi&#243;n civil dictada por un tribunal con competencia en
+lo penal.
+     Si los bienes decomisados son dinero o derechos a sumas
+de dinero, se los transferir&#225; al Fisco. Los fondos
+obtenidos mediante la realizaci&#243;n de los bienes decomisados
+tambi&#233;n ser&#225;n transferidos al Fisco.
+     El comiso de inmuebles o de bienes de propiedad
+registral conlleva la facultad de realizar aquellas
+inscripciones necesarias para ejecutar eficazmente el bien
+decomisado.
+     El Conservador de Bienes Ra&#237;ces respectivo, efectuadas
+las cancelaciones e inscripciones que procedan, deber&#225;
+remitir copia de dichas inscripciones al tribunal que
+decret&#243; el comiso, el que deber&#225; oficiar a la Direcci&#243;n
+General del Cr&#233;dito Prendario y acompa&#241;ar copia de las
+nuevas inscripciones de propiedad a nombre del Fisco de
+Chile y copia autorizada de la sentencia para que proceda a
+rematarlo en subasta p&#250;blica.
+     Los notarios, archiveros, conservadores de bienes
+ra&#237;ces, el Servicio de Registro Civil e Identificaci&#243;n y
+dem&#225;s organismos, autoridades y empleados p&#250;blicos
+deber&#225;n realizar las actuaciones y diligencias y otorgar
+las copias de los instrumentos que les sean solicitados para
+efectuar la subasta o destrucci&#243;n de las especies, seg&#250;n
+corresponda, en forma gratuita y exentas de toda clase de
+derechos, tasas e impuestos.
+     Toda actuaci&#243;n o diligencia previa a la subasta
+p&#250;blica que deba efectuar la Direcci&#243;n General del
+Cr&#233;dito Prendario con el objeto de que los bienes queden en
+condiciones de ser subastados, se efectuar&#225; con auxilio de
+la fuerza p&#250;blica a solicitud de la referida instituci&#243;n.
+     Lo dispuesto en el presente art&#237;culo ser&#225; aplicable
+tambi&#233;n a la ejecuci&#243;n de todo comiso impuesto sin condena
+previa.".
+
+     2. Sustit&#250;yese el inciso primero del art&#237;culo 469,
+por el siguiente:
+
+     "Art&#237;culo 469.- Destino de las especies decomisadas.
+Fuera de los casos previstos en el art&#237;culo precedente, los
+dineros y otros valores decomisados se destinar&#225;n a la
+Corporaci&#243;n Administrativa del Poder Judicial.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">49 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449671">
+          <Texto>     Art&#237;culo 50.- Modificaciones a la ley N&#176; 20.393.
+Introd&#250;cense las siguientes modificaciones en la ley N&#176;
+20.393, que Establece la responsabilidad penal de las
+personas jur&#237;dicas en los delitos que indica:
+
+     1. Sustit&#250;yese el art&#237;culo 1&#176;, por el siguiente:
+
+     "Art&#237;culo 1.- Contenido de la ley. La presente ley
+regula la responsabilidad penal de las personas jur&#237;dicas
+por los delitos se&#241;alados en el inciso siguiente, el
+procedimiento para la investigaci&#243;n y establecimiento de
+dicha responsabilidad penal, la determinaci&#243;n de las
+sanciones procedentes y su ejecuci&#243;n.
+     Los delitos por los cuales la persona jur&#237;dica
+responde penalmente conforme a la presente ley son los
+siguientes:
+
+     1. Los delitos a que se refieren los art&#237;culos 1, 2, 3
+y 4 de la Ley de Delitos Econ&#243;micos, sean o no considerados
+como delitos econ&#243;micos por esa ley.
+
+     2. Los previstos en el art&#237;culo 8 de la ley N&#176; 18.314
+que determina conductas terroristas y fija su penalidad; en
+el T&#237;tulo II de la ley N&#186; 17.798, sobre Control de Armas,
+y en los art&#237;culos 411 qu&#225;ter, 448 septies y 448 octies
+del C&#243;digo Penal.
+
+     En lo no previsto por esta ley ser&#225;n aplicables,
+supletoriamente, las disposiciones contenidas en el Libro I
+del C&#243;digo Penal y en el C&#243;digo Procesal Penal, en lo que
+resulte pertinente.
+
+     Para los efectos de esta ley no ser&#225; aplicable lo
+dispuesto en el inciso segundo del art&#237;culo 58 del C&#243;digo
+Procesal Penal.".
+
+     2. Sustit&#250;yese el art&#237;culo 2&#176;, por el siguiente:
+
+     "Art&#237;culo 2.- &#193;mbito de aplicaci&#243;n personal. Ser&#225;n
+penalmente responsables en los t&#233;rminos de esta ley las
+personas jur&#237;dicas de derecho privado, las empresas
+p&#250;blicas creadas por ley; las empresas, sociedades y
+universidades del Estado; los partidos pol&#237;ticos y las
+personas jur&#237;dicas religiosas de derecho p&#250;blico.".
+
+     3. Sustit&#250;yese el art&#237;culo 3&#176;, por el siguiente:
+
+     "Art&#237;culo 3.- Presupuestos de la responsabilidad
+penal. Una persona jur&#237;dica ser&#225; penalmente responsable
+por cualquiera de los delitos se&#241;alados en el art&#237;culo 1,
+perpetrado en el marco de su actividad por o con la
+intervenci&#243;n de alguna persona natural que ocupe un cargo,
+funci&#243;n o posici&#243;n en ella, o le preste servicios
+gestionando asuntos suyos ante terceros, con o sin su
+representaci&#243;n, siempre que la perpetraci&#243;n del hecho se
+vea favorecida o facilitada por la falta de implementaci&#243;n
+efectiva de un modelo adecuado de prevenci&#243;n de tales
+delitos, por parte de la persona jur&#237;dica.
+     Si concurrieren los requisitos previstos en el inciso
+anterior, una persona jur&#237;dica tambi&#233;n ser&#225; responsable
+por el hecho perpetrado por o con la intervenci&#243;n de una
+persona natural relacionada en los t&#233;rminos previstos por
+dicho inciso con una persona jur&#237;dica distinta, siempre que
+&#233;sta le preste servicios gestionando asuntos suyos ante
+terceros, con o sin su representaci&#243;n, o carezca de
+autonom&#237;a operativa a su respecto, cuando entre ellas
+existan relaciones de propiedad o participaci&#243;n.
+     Lo dispuesto en este art&#237;culo no tendr&#225; aplicaci&#243;n
+cuando el hecho punible se perpetre exclusivamente en contra
+de la propia persona jur&#237;dica.".
+
+     4. Sustit&#250;yese el art&#237;culo 4&#176;, por el siguiente:
+
+     "Art&#237;culo 4.- Modelo de prevenci&#243;n de delitos. Se
+entender&#225; que un modelo de prevenci&#243;n de delitos
+efectivamente implementado por la persona jur&#237;dica es
+adecuado para los efectos de eximirla de responsabilidad
+penal cuando, en la medida exigible a su objeto social,
+giro, tama&#241;o, complejidad, recursos y a las actividades que
+desarrolle, considere seria y razonablemente los siguientes
+aspectos:
+
+     1. Identificaci&#243;n de las actividades o procesos de la
+persona jur&#237;dica que impliquen riesgo de conducta
+delictiva.
+
+     2. Establecimiento de protocolos y procedimientos para
+prevenir y detectar conductas delictivas en el contexto de
+las actividades a que se refiere el n&#250;mero anterior, los
+que deben considerar necesariamente canales seguros de
+denuncia y sanciones internas para el caso de
+incumplimiento.
+
+     Estos protocolos y procedimientos, incluyendo las
+sanciones internas, deber&#225;n comunicarse a todos los
+trabajadores. La normativa interna deber&#225; ser incorporada
+expresamente en los respectivos contratos de trabajo y de
+prestaci&#243;n de servicios de todos los trabajadores,
+empleados y prestadores de servicios de la persona
+jur&#237;dica, incluidos sus m&#225;ximos ejecutivos.
+
+     3. Asignaci&#243;n de uno o m&#225;s sujetos responsables de la
+aplicaci&#243;n de dichos protocolos, con la adecuada
+independencia, dotados de facultades efectivas de direcci&#243;n
+y supervisi&#243;n y acceso directo a la administraci&#243;n de la
+persona jur&#237;dica para informarla oportunamente de las
+medidas y planes implementados en el cumplimiento de su
+cometido, para rendir cuenta de su gesti&#243;n y requerir la
+adopci&#243;n de medidas necesarias para su cometido que
+pudieran ir m&#225;s all&#225; de su competencia. La persona
+jur&#237;dica deber&#225;</Texto>
+          <Metadatos>
+            <NombreParte presente="si">50 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449672">
+          <Texto>     Art&#237;culo 51.- Modificaciones a la ley N&#176; 18.046.
+Introd&#250;cense las siguientes modificaciones en la ley N&#176;
+18.046, sobre Sociedades An&#243;nimas:
+
+     1. Sustit&#250;yese el art&#237;culo 134, por el siguiente:
+
+     "Art&#237;culo 134.- Los directores, gerentes,
+administradores o ejecutivos principales de una sociedad
+an&#243;nima que en la memoria, balances u otros documentos
+destinados a los socios, a terceros o a la Administraci&#243;n,
+exigidos por ley o por la reglamentaci&#243;n aplicable, que
+deban reflejar la situaci&#243;n legal, econ&#243;mica y financiera
+de la sociedad, dieren o aprobaren dar informaci&#243;n falsa
+sobre aspectos relevantes para conocer el patrimonio y la
+situaci&#243;n financiera o jur&#237;dica de la sociedad, ser&#225;n
+sancionados con la pena de presidio o reclusi&#243;n menores en
+sus grados medio a m&#225;ximo.
+     Con la misma pena ser&#225;n sancionados quienes lleven la
+contabilidad de la sociedad, o los peritos, auditores
+externos o inspectores de cuenta ajenos a la sociedad, que
+colaboraren al hecho descrito en el inciso anterior. La pena
+se impondr&#225;, asimismo, a quienes colaboren al hecho con
+ocasi&#243;n de la prestaci&#243;n de servicios de auditor&#237;a
+externa por una persona jur&#237;dica.
+     Si el hecho se refiere a una sociedad an&#243;nima abierta,
+la pena podr&#225; ser aumentada en un grado.
+     Lo dispuesto en los incisos precedentes ser&#225; aplicable
+siempre que la conducta no constituyere otro delito
+sancionado con mayor pena.".
+
+     2. Introd&#250;cese en el T&#237;tulo XIV el siguiente
+art&#237;culo 134 bis:
+
+     "Art&#237;culo 134 bis.- Los que prevali&#233;ndose de su
+posici&#243;n mayoritaria en el directorio de una sociedad
+an&#243;nima adoptaren un acuerdo abusivo, para beneficiarse o
+beneficiar econ&#243;micamente a otro, en perjuicio de los
+dem&#225;s socios y sin que el acuerdo reporte un beneficio a la
+sociedad, ser&#225;n sancionados con la pena de presidio o
+reclusi&#243;n menores en cualquiera de sus grados.
+     La misma pena se impondr&#225; a los que prevali&#233;ndose de
+su condici&#243;n de controlador de la sociedad indujeren el
+acuerdo abusivo del directorio, o con su acuerdo o decisi&#243;n
+concurrieren a su ejecuci&#243;n.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">51 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449673">
+          <Texto>     Art&#237;culo 52.- Modificaciones a la ley N&#176; 18.045.
+Introd&#250;cense las siguientes modificaciones en la ley N&#176;
+18.045, de Mercado de Valores:
+
+     1. Sustit&#250;yense los art&#237;culos 59 a 62, por los
+siguientes:
+ 
+     "Art&#237;culo 59.- Con pena de presidio menor en su grado
+m&#225;ximo a presidio mayor en su grado m&#237;nimo ser&#225;
+sancionado:
+
+     a) El que actuando por cuenta de un emisor de valores
+de oferta p&#250;blica proporcionare informaci&#243;n falsa al
+mercado sobre la situaci&#243;n financiera, jur&#237;dica,
+patrimonial o de negocios del respectivo emisor.
+
+     b) El que a sabiendas otorgare una clasificaci&#243;n de
+riesgo que no corresponda al riesgo de los valores que
+clasifique.
+
+     c) El que, siendo socio de una empresa de auditor&#237;a
+externa, dictaminare falsamente o entregare antecedentes
+falsos sobre la situaci&#243;n financiera o patrimonial u otras
+materias sobre las cuales hubieren manifestado su opini&#243;n,
+certificaci&#243;n, dictamen o informe de una entidad sujeta a
+la fiscalizaci&#243;n de la Comisi&#243;n para el Mercado
+Financiero.
+
+     d) El director, gerente o apoderado de una bolsa de
+valores que diere certificaci&#243;n falsa sobre las operaciones
+que se realicen en ella y el corredor de bolsa o agente de
+valores que diere certificaci&#243;n falsa sobre las operaciones
+en que haya intervenido.
+
+     e) El que efectuare transacciones en valores con el
+objeto de mantener o alterar artificialmente en el mercado
+el precio de uno o varios valores.
+
+     f)  El que efectuare cotizaciones o transacciones
+ficticias, divulgare informaci&#243;n falsa o se valiere de
+cualquier otra conducta enga&#241;osa semejante de un modo apto
+para transmitir se&#241;ales falsas al mercado en cuanto a la
+oferta, la demanda o el precio de uno o varios valores, o
+que de otro modo sean id&#243;neas para incidir en las
+decisiones del p&#250;blico inversor.
+
+     g) El que, fuera de los casos previstos en las letras
+anteriores, proporcionare informaci&#243;n falsa al mercado por
+cuenta de una persona sujeta a la fiscalizaci&#243;n de la
+Comisi&#243;n para el Mercado Financiero, en registros,
+prospectos, declaraciones o informes exigidos por ley o por
+la referida autoridad con car&#225;cter general, de un modo apto
+para incidir en las decisiones del p&#250;blico inversor u
+ocultar aspectos relevantes para conocer el patrimonio o la
+situaci&#243;n financiera o jur&#237;dica de la persona.
+
+     Art&#237;culo 60.- El que realizare una operaci&#243;n usando
+informaci&#243;n privilegiada, ya sea adquiriendo o cediendo,
+por cuenta propia o de otro, directa o indirectamente, los
+valores a los que esa informaci&#243;n se refiere, o bien
+cancelando o modificando una orden relativa a esos valores,
+ser&#225; sancionado:
+
+     1. Con pena de presidio menor en su grado m&#225;ximo a
+presidio mayor en su grado m&#237;nimo, en caso de poseer la
+informaci&#243;n privilegiada en alguna de las circunstancias
+se&#241;aladas en el art&#237;culo 166.
+
+     2. Con pena de presidio menor en sus grados medio a
+m&#225;ximo en los dem&#225;s casos.
+
+     Con las mismas penas ser&#225; sancionado, respectivamente,
+el que revelare indebidamente informaci&#243;n privilegiada.
+
+     El que poseyendo informaci&#243;n privilegiada en alguna de
+las circunstancias se&#241;aladas en el art&#237;culo 166
+recomendare a otro la realizaci&#243;n de las operaciones a que
+se refiere el inciso primero, ser&#225; sancionado con pena de
+presidio menor en sus grados medio a m&#225;ximo.
+
+     Art&#237;culo 61.- Con pena de presidio menor en sus grados
+medio a m&#225;ximo ser&#225; sancionado:
+
+     a) El que defraudare a otro adquiriendo acciones de una
+sociedad an&#243;nima abierta, sin efectuar una oferta p&#250;blica
+de adquisici&#243;n de acciones en los casos que ordena la ley.
+
+     b) El que indebidamente utilizare en beneficio propio o
+de otros valores entregados en custodia o su producto.
+
+     c) El que, conociendo o debiendo conocer el estado de
+insolvencia en que se encuentra un emisor de valores,
+acordare, decidiere o permitiere que &#233;ste haga oferta
+p&#250;blica de valores, efectuare una oferta p&#250;blica sobre
+esos valores o continuare intermedi&#225;ndolos, habiendo sido
+suspendida su transacci&#243;n por la Comisi&#243;n para el Mercado
+Financiero.
+
+     d) El que, fuera del caso previsto en el inciso segundo
+del art&#237;culo 60, revelare indebidamente a otro la
+informaci&#243;n de un emisor que hubiere conocido en raz&#243;n de
+su cargo o posici&#243;n en una sociedad clasificadora o una
+empresa de auditor&#237;a externa.
+
+     Art&#237;culo 62.- Con pena de presidio menor en cualquier
+de sus grados ser&#225; sancionado:
+
+     a) El que sin la correspondiente autorizaci&#243;n o
+registro realizare oferta p&#250;blica de valores o actuare como
+corredor de bolsa, agente de valores, empresa de auditor&#237;a
+externa o clasificadora de riesgos.
+
+     b) El que sin la correspondiente autorizaci&#243;n o
+registro usare las denominaciones de corredor de bolsa,
+agentes de valores o clasificadora de riesgos, o el que de
+cualquier otro modo se atribuya la calidad de aquellas
+entidades.
+
+     c) El que eliminare, alterare, modificare, ocultare o
+destruyere registros, documentos, soportes tecnol&#243;gicos o
+antecedentes de cualquier naturaleza, impidiendo o
+dificultando con ello las posibilidades de fiscalizaci&#243;n de
+la Comisi&#243;n para el Mercado Financiero.
+
+     d) El director, administrador, gerente o ejecutivo
+principal de un emisor de valores de oferta p&#250;blica, de una
+bolsa de valores o de un intermediario de valores, que
+entregare antecedentes falsos o efectuare declaraciones
+falsas al directorio o a los &#243;rganos de la administraci&#243;n
+de la entidad a la que pertenece, o a quienes realicen la
+auditor&#237;a externa o clasificaci&#243;n de riesgo de esa
+entidad.
+
+     e) El que, prestando servicios en una sociedad
+clasificadora o empresa de auditor&#237;a externa, alterare,
+ocultare o destruyere informaci&#243;n de un emisor clasificado
+o auditado.
+
+     f) El que fuera de los casos previstos en el art&#237;culo
+59 proporcionare a la Comisi&#243;n para el Mercado Financiero
+informaci&#243;n falsa relativa a un emisor sujeto su
+fiscalizaci&#243;n.".
+
+     2. Der&#243;ganse los incisos segundo y tercero del
+art&#237;culo 63.
+
+     3. Sustit&#250;yese en el inciso segundo del art&#237;culo 85
+la oraci&#243;n "Lo anterior es sin perjuicio de lo dispuesto en
+las letras e) del art&#237;culo 59 y d) del art&#237;culo 60.", por
+la siguiente: "Lo anterior es sin perjuicio de lo dispuesto
+en el art&#237;culo 60 y en la letra d) del art&#237;culo 61.".
+
+     4. Sustit&#250;yese el art&#237;culo 165, por el siguiente:
+
+     "Art&#237;culo 165.- Cualquier persona que en raz&#243;n de su
+cargo, posici&#243;n, actividad o relaci&#243;n posea informaci&#243;n
+privilegiada, deber&#225; guardar reserva y no podr&#225; utilizarla
+en beneficio propio o ajeno, ni adquirir o enajenar, para
+s&#237; o para terceros, directamente o a trav&#233;s de otras
+personas, los valores sobre los cuales posea informaci&#243;n
+privilegiada. Asimismo, deber&#225; velar para que tampoco
+ocurra a trav&#233;s de subordinados o terceros de su confianza
+lo se&#241;alado anteriormente y en el inciso siguiente.
+     A cualquiera que posea informaci&#243;n privilegiada se le
+proh&#237;be realizar una operaci&#243;n utiliz&#225;ndola, ya sea
+adquiriendo o cediendo, por cuenta propia o de otro, directa
+o indirectamente, los valores a los que esa informaci&#243;n se
+refiere, o bien cancelando o modificando una orden relativa
+a esos valores. Igualmente, se abstendr&#225; de comunicar dicha
+informaci&#243;n a terceros o de recomendar la adquisici&#243;n o
+enajenaci&#243;n de los valores citados.
+     No obstante lo dispuesto precedentemente, los
+intermediarios de valores que posean informaci&#243;n
+privilegiada podr&#225;n hacer operaciones respecto de los
+valores a que ella se refiere, por cuenta de terceros, no
+relacionados a ellos, siempre que la orden y las condiciones
+espec&#237;ficas de la operaci&#243;n provengan del cliente, sin
+asesor&#237;a ni recomendaci&#243;n del intermediario, y la
+operaci&#243;n se ajuste a su norma interna, establecida de
+conformidad al art&#237;culo 33.
+     Tambi&#233;n podr&#225; realizar las operaciones a que se
+refieren los incisos primero y segundo el que opere en
+cumplimiento de una orden de adquirir o ceder valores,
+cuando dicha orden hubiere estado contemplada en un acuerdo
+celebrado antes de que hubiere pose&#237;do informaci&#243;n
+privilegiada la persona que la imparti&#243;.
+     Para los efectos de este art&#237;culo, las transacciones
+se entender&#225;n realizadas en la fecha en que se efect&#250;e la
+adquisici&#243;n o enajenaci&#243;n, con independencia de la fecha
+en que se registren en el emisor.".
+
+     5. Incorp&#243;rase en el literal f) del inciso segundo del
+art&#237;culo 166, a continuaci&#243;n de la expresi&#243;n "c&#243;nyuges",
+la frase ", convivientes civiles".
+
+     6. Sustit&#250;yese en la letra b) del art&#237;culo 241 la
+frase "a los art&#237;culos 59 a 61 de esta ley o al art&#237;culo
+134 de la ley N&#186; 18.046", por la siguiente: "a los
+art&#237;culos 59 a 62 de esta ley o a los art&#237;culos 134 o 134
+bis de la ley N&#176; 18.046".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">52 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449674">
+          <Texto>     Art&#237;culo 53.- Modificaciones al decreto ley N&#176; 3.500
+de 1980. Introd&#250;cense las siguientes modificaciones en el
+decreto ley N&#176; 3.500, de 1980, que Establece Nuevo Sistema
+de Pensiones:
+
+     1. En el art&#237;culo 19:
+
+     a) Interc&#225;lase en el inciso decimonoveno, a
+continuaci&#243;n de la coma que sigue al guarismo "12", la
+expresi&#243;n "13, 13 bis,".
+
+     b) Incorp&#243;rase el siguiente inciso vigesimocuarto,
+nuevo, pasando los actuales incisos vigesimocuarto y
+vigesimoquinto a ser vigesimoquinto y vigesimosexto,
+respectivamente:
+
+     "Con la misma pena establecida en el inciso anterior se
+sancionar&#225; al empleador que, sin el consentimiento del
+trabajador, omita retener o enterar las cotizaciones
+previsionales de un trabajador o declare ante las
+instituciones de seguridad social, pagarle una renta
+imponible o bruta menor a la real, disminuyendo el monto de
+las cotizaciones que debe descontar y enterar. La conducta
+ser&#225; sancionada igualmente, si el consentimiento del
+trabajador ha sido obtenido por el empleador con abuso grave
+de su situaci&#243;n de necesidad, inexperiencia o incapacidad
+de discernimiento.".
+
+     2. Introd&#250;cese el siguiente inciso cuarto en el
+art&#237;culo 103:
+
+     "Si el hecho constitutivo de la infracci&#243;n o
+contravenci&#243;n a que se refieren los incisos precedentes
+constituyere tambi&#233;n delito conforme al art&#237;culo 60 de la
+ley N&#176; 18.045 o al art&#237;culo 284 del C&#243;digo Penal, se
+estar&#225; a la pena se&#241;alada en esas disposiciones.".
+
+     3. Sustit&#250;yese en el inciso primero del art&#237;culo 152
+la frase "162 de la ley N&#176; 18.045", por la siguiente: "22
+de la ley N&#176; 20.712".
+
+     4. En el art&#237;culo 159:
+
+     a) En el encabezamiento de su inciso primero:
+
+     i.  Sustit&#250;yese la expresi&#243;n "medio" por "m&#225;ximo".
+
+     ii. Sustit&#250;yese la coma que sigue a la palabra
+"liquidadores" por la conjunci&#243;n "y".
+
+     iii. Elim&#237;nase la expresi&#243;n ", y trabajadores".
+
+     b) Incorp&#243;rase el siguiente inciso segundo, nuevo,
+pasando el actual inciso segundo a ser inciso tercero:
+
+     "Si el hecho constitutivo de la infracci&#243;n o
+contravenci&#243;n a que se refieren las letras a) o b) del
+inciso precedente constituye tambi&#233;n delito conforme a lo
+dispuesto en los incisos primero o segundo del art&#237;culo 60
+de la ley N&#176; 18.045, o en el art&#237;culo 284 del C&#243;digo
+Penal, las dem&#225;s personas que lo perpetren responder&#225;n
+penalmente seg&#250;n lo dispuesto en dichos preceptos.".
+
+     5. Introd&#250;cese en el T&#237;tulo XIV, el siguiente
+art&#237;culo 159 bis:
+
+     "Art&#237;culo 159 bis.- Sufrir&#225;n la pena de presidio
+menor en sus grados medio a m&#225;ximo los directores,
+gerentes, apoderados, liquidadores u operadores de mesa de
+dinero de una Administradora de Fondos de Pensiones que,
+poseyendo informaci&#243;n privilegiada de aqu&#233;lla que trata el
+T&#237;tulo XXI de la ley N&#176; 18.045 en raz&#243;n de su cargo o
+posici&#243;n, recomendaren a otro la realizaci&#243;n de las
+operaciones a que se refiere la letra a) del inciso primero
+del art&#237;culo 159.
+     Las dem&#225;s personas que perpetren el hecho previsto en
+el inciso precedente responder&#225;n penalmente seg&#250;n lo
+dispuesto en el inciso tercero del art&#237;culo 60 de la ley
+N&#176; 18.045.".
+
+     6. Introd&#250;cese en el art&#237;culo 168, el siguiente
+inciso d&#233;cimo, pasando el actual a ser inciso final:
+
+     "Si el hecho constitutivo de la infracci&#243;n o
+contravenci&#243;n a que se refieren los incisos precedentes
+constituye tambi&#233;n delito conforme al art&#237;culo 60 de la
+ley N&#176; 18.045 o al art&#237;culo 284 del C&#243;digo Penal, se
+estar&#225; a la pena se&#241;alada en esas disposiciones.".
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">53 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449675">
+          <Texto>     Art&#237;culo 54.- Modificaciones a la ley N&#176; 20.712.
+Introd&#250;cense las siguientes modificaciones en el art&#237;culo
+22 contenido en el art&#237;culo primero de la ley N&#176; 20.712,
+que aprueba la ley que regula la administraci&#243;n de fondos
+de terceros y carteras individuales:
+
+     1. Sustit&#250;yese la letra d) por la siguiente:
+
+     "d) La infracci&#243;n a lo dispuesto en el T&#237;tulo XXI de
+la ley N&#176; 18.045.".
+
+     2. Introd&#250;cese el siguiente inciso final, nuevo:
+
+     "En todo caso, la infracci&#243;n se&#241;alada en la letra d)
+originar&#225; las responsabilidades previstas en la ley N&#176;
+18.045.".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">54 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449676">
+          <Texto>     Art&#237;culo 55.- Modificaciones a la Ley N&#176; 17.322.
+Introd&#250;cese el siguiente art&#237;culo 13 bis en la ley N&#176;
+17.322, sobre Normas para la cobranza judicial de
+cotizaciones, aportes y multas de las instituciones de
+seguridad social:
+
+     "Art&#237;culo 13 bis.- Con la misma pena establecida en el
+art&#237;culo anterior se sancionar&#225; al empleador que, sin el
+consentimiento del trabajador, omita retener o enterar las
+cotizaciones previsionales de un trabajador o declare ante
+las instituciones de seguridad social pagarle una renta
+imponible o bruta menor a la real, disminuyendo el monto de
+las cotizaciones que debe descontar y enterar. La conducta
+ser&#225; sancionada igualmente, si el consentimiento del
+trabajador ha sido obtenido por el empleador con abuso grave
+de su situaci&#243;n de necesidad, inexperiencia o incapacidad
+de discernimiento.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">55 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449677">
+          <Texto>     Art&#237;culo 56.- Modificaciones a la ley N&#176; 19.913.
+Sustit&#250;yese la letra a) del inciso primero del art&#237;culo 27
+de la ley N&#176; 19.913, que Crea la Unidad de An&#225;lisis
+Financiero y modifica diversas disposiciones en materia de
+lavado y blanqueo de activos, por la siguiente:
+
+     "a) El que de cualquier forma oculte o disimule el
+origen il&#237;cito de determinados bienes, a sabiendas de que
+provienen, directa o indirectamente, de la perpetraci&#243;n de
+hechos constitutivos de alguno de los delitos contemplados
+en la ley N&#186; 20.000, que Sanciona el tr&#225;fico il&#237;cito de
+estupefacientes y sustancias psicotr&#243;picas; en la ley N&#186;
+18.314, que Determina conductas terroristas y fija su
+penalidad; en el art&#237;culo 10 de la ley N&#186; 17.798, sobre
+Control de Armas; en el T&#237;tulo XI de la ley N&#186; 18.045,
+sobre Mercado de Valores; en el inciso primero del art&#237;culo
+39 y en el T&#237;tulo XVII del decreto con fuerza de ley N&#186; 3,
+de 1997, del Ministerio de Hacienda, Ley General de Bancos;
+en el art&#237;culo 168 en relaci&#243;n con el art&#237;culo 178,
+n&#250;meros 2 y 3, ambos del decreto con fuerza de ley N&#186; 30,
+de 2004, del Ministerio de Hacienda, que aprueba el texto
+refundido, coordinado y sistematizado del decreto con fuerza
+de ley N&#186; 213, de 1953, del Ministerio de Hacienda, sobre
+Ordenanza de Aduanas; en el inciso segundo del art&#237;culo 81
+de la ley N&#186; 17.336, sobre Propiedad Intelectual; en los
+art&#237;culos 59 y 64 de la ley N&#186; 18.840, org&#225;nica
+constitucional del Banco Central de Chile; en el T&#237;tulo I
+de la ley 21.459, que Establece normas sobre delitos
+inform&#225;ticos, deroga la ley N&#176; 19.223 y modifica otros
+cuerpos legales con el objeto de adecuarlos al Convenio de
+Budapest; en el p&#225;rrafo tercero del n&#250;mero 4&#186; del
+art&#237;culo 97 del C&#243;digo Tributario y en los n&#250;meros 8 y 9
+del mismo art&#237;culo respecto de los delitos contemplados en
+los P&#225;rrafos 4 bis y IV ter del T&#237;tulo IX del Libro II del
+C&#243;digo Penal; en los P&#225;rrafos 4, 5, 6, 9 y 9 bis del
+T&#237;tulo V y 10 del T&#237;tulo VI, todos del Libro II del
+C&#243;digo Penal; en los art&#237;culos 141, 142, 367, 367 qu&#225;ter,
+367 septies, 411 bis, 411 ter, 411 qu&#225;ter, 411 quinquies, y
+en los art&#237;culos 467 n&#250;mero 1 del inciso primero e inciso
+final, 468 y 470, numerales 1&#176;, 8&#176; y 11, en relaci&#243;n con
+el referido n&#250;mero 1 del inciso primero y con su inciso
+final del art&#237;culo 467, todos del C&#243;digo Penal; en las
+letras f) y h) del art&#237;culo 7 de la ley N&#186; 20.009; en los
+art&#237;culos 305, 306, 307, 308 y 310, en relaci&#243;n con los
+n&#250;meros 2 y 5 del art&#237;culo 305, todos del C&#243;digo Penal;
+en los art&#237;culos 139, 139 bis y 139 ter de la ley N&#176;
+18.892, General de Pesca y Acuicultura; en los art&#237;culos 30
+y 31 de la ley N&#176; 19.473; en el art&#237;culo 21 del decreto
+N&#176; 4.363, de 1931, del Ministerio de Tierras y
+Colonizaci&#243;n, que aprueba texto definitivo de la Ley de
+Bosques; en el art&#237;culo 11 de la ley N&#186; 20.962, que aplica
+Convenci&#243;n sobre el Comercio Internacional de Especies
+Amenazadas de Flora y Fauna Silvestre; o bien, a sabiendas
+de dicho origen, oculte o disimule estos bienes.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">56 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449678">
+          <Texto>     Art&#237;culo 57.- Modificaciones a la ley N&#176; 20.417.
+Incorp&#243;ranse los siguientes art&#237;culos 37 bis y 37 ter en
+el art&#237;culo segundo de la ley N&#176; 20.417, que crea el
+Ministerio, el Servicio de Evaluaci&#243;n Ambiental y la
+Superintendencia del Medio Ambiente:
+
+     "Art&#237;culo 37 bis.- Sin perjuicio de las sanciones que
+corresponda aplicar conforme a las normas del presente
+T&#237;tulo, ser&#225; sancionado con la pena de presidio menor en
+sus grados m&#237;nimo a medio y multa de 100 a 1.000 unidades
+tributarias mensuales:
+
+     a) El que maliciosamente en la evaluaci&#243;n ambiental de
+un proyecto presentare informaci&#243;n que ocultare,
+morigerare, alterare o disminuyere los efectos o impactos
+ambientales futuros determinados en la evaluaci&#243;n
+ambiental, de un modo tal que pudiere conducir a una
+incorrecta aprobaci&#243;n de la resoluci&#243;n de calificaci&#243;n
+ambiental.
+
+     b) El que maliciosamente fraccionare sus proyectos o
+actividades para eludir el sistema de evaluaci&#243;n de impacto
+ambiental o hacer variar la v&#237;a de ingreso a &#233;l.
+
+     c) El que maliciosamente presentare a la
+Superintendencia del Medio Ambiente informaci&#243;n falsa o
+incompleta para acreditar el cumplimiento de obligaciones
+impuestas en una resoluci&#243;n de calificaci&#243;n ambiental,
+normas de emisi&#243;n, planes de reparaci&#243;n, programas de
+cumplimiento, planes de prevenci&#243;n o de descontaminaci&#243;n,
+o cualquier otro instrumento de gesti&#243;n ambiental de su
+competencia.
+
+     Art&#237;culo 37 ter.- Sin perjuicio de las sanciones que
+corresponda aplicar conforme a las normas del presente
+T&#237;tulo, ser&#225; sancionado con la pena de presidio menor en
+su grado m&#237;nimo y multa de 50 a 500 unidades tributarias
+mensuales:
+
+     a) El que incumpliere las sanciones de clausura
+impuestas por la Superintendencia del Medio Ambiente o las
+medidas impuestas en virtud de las letras b), c), d) y e)
+del art&#237;culo 48.
+
+     b) El que impidiere u obstaculizare significativamente
+las actividades de fiscalizaci&#243;n que efectuare la
+Superintendencia del Medio Ambiente.".
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">57 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449679">
+          <Texto>     Art&#237;culo 58.- Modificaciones a la ley N&#176; 20.009.
+Introd&#250;cense las siguientes modificaciones en el art&#237;culo
+7 de la ley N&#176; 20.009, que Establece un r&#233;gimen de
+limitaci&#243;n de responsabilidad para titulares o usuarios de
+tarjetas de pago y transacciones electr&#243;nicas en caso de
+extrav&#237;o, hurto, robo o fraude:
+
+     1. En el inciso primero:
+
+     a) Der&#243;ganse las letras a), b), c), d), e) y g).
+
+     b) Sustit&#250;yese la letra f) por la siguiente:
+
+     "f) Usar maliciosamente una tarjeta de pago o clave y
+dem&#225;s credenciales de seguridad o autenticaci&#243;n,
+bloqueadas, para realizar pagos, transacciones electr&#243;nicas
+o cualquier otra operaci&#243;n que corresponda exclusivamente
+al titular o usuario de ellas.".
+
+     2. Der&#243;gase el inciso segundo.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">58 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449680">
+          <Texto>     Art&#237;culo 59.- Modificaciones al decreto ley N&#186; 211,
+de 1973. Introd&#250;cense las siguientes modificaciones en el
+decreto ley N&#186; 211, de 1973, cuyo texto refundido,
+coordinado y sistematizado fue fijado por el decreto con
+fuerza de ley N&#186; 1, de 2004, del Ministerio de Econom&#237;a,
+Fomento y Reconstrucci&#243;n:
+
+     1. Der&#243;ganse los incisos segundo, tercero y cuarto del
+art&#237;culo 62.
+
+     2. En el art&#237;culo 63:
+
+     a) Sustit&#250;yese el inciso cuarto, por el siguiente:
+
+     "Se atenuar&#225; con arreglo a la ley la pena que
+corresponda aplicar a aquellas personas que hayan aportado
+antecedentes adicionales a la Fiscal&#237;a Nacional Econ&#243;mica,
+de conformidad con lo dispuesto en el inciso cuarto del
+art&#237;culo 39 bis. El requerimiento del Fiscal Nacional
+Econ&#243;mico individualizar&#225; a los beneficiarios de rebaja de
+la pena, y dicha calidad ser&#225; as&#237; declarada por el
+Tribunal de Defensa de la Libre Competencia.".
+
+     b) Reempl&#225;zase el inciso quinto, por el siguiente:
+
+     "Para efectos de que proceda la atenuaci&#243;n dispuesta
+en el inciso anterior, dichas personas deber&#225;n comparecer
+ante el Ministerio P&#250;blico y el tribunal competente,
+ratificando su declaraci&#243;n prestada ante la Fiscal&#237;a
+Nacional Econ&#243;mica. La atenuaci&#243;n no proceder&#225; en caso de
+que el requerimiento de la Fiscal&#237;a Nacional Econ&#243;mica
+hubiese involucrado &#250;nicamente a dos competidores entre
+s&#237;, y que uno de dichos competidores tenga la calidad de
+acreedor del beneficio de exenci&#243;n de multa declarada por
+el Tribunal de Defensa de la Libre Competencia, en los
+t&#233;rminos del art&#237;culo 39 bis.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">59 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449681">
+      <Texto>     T&#205;TULO FINAL
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO FINAL</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449682">
+          <Texto>     Art&#237;culo 60.- Vigencia. Las disposiciones de la
+presente ley entrar&#225;n en vigor el d&#237;a de su publicaci&#243;n
+en el Diario Oficial, salvo las excepciones siguientes:
+
+     1.&#176; Las modificaciones que el art&#237;culo 50 de la
+presente ley introduce en la ley N&#176; 20.393, que Establece
+la responsabilidad penal de las personas jur&#237;dicas en los
+delitos que indica, entrar&#225;n en vigor el primer d&#237;a del
+decimotercer mes siguiente al de su publicaci&#243;n.
+
+     2.&#176; Las modificaciones que los n&#250;meros 10, 11, 12,
+13, 14, 15 y 16 del art&#237;culo 48 de la presente ley
+introducen en el C&#243;digo Penal entrar&#225;n en vigor el d&#237;a
+siguiente a la fecha prevista por el art&#237;culo primero
+transitorio de la ley N&#176; 21.563, que Moderniza los
+procedimientos concursales contemplados en la ley N&#176; 20.720
+y crea nuevos procedimientos para micro y peque&#241;as
+empresas, si dicha fecha fuere posterior al d&#237;a de
+publicaci&#243;n de la presente ley en el Diario Oficial. En
+caso contrario, se estar&#225; a lo dispuesto en el
+encabezamiento de este art&#237;culo.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">60 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449683">
+          <Texto>     Art&#237;culo 61.- Reglamento para la supervisi&#243;n de la
+persona jur&#237;dica. El Presidente de la Rep&#250;blica dictar&#225;
+el reglamento a que se refiere el art&#237;culo 17 qu&#225;ter de la
+ley N&#186; 20.393, introducido por el n&#250;mero 22 del art&#237;culo
+50 de esta ley, dentro del plazo de un a&#241;o a contar de la
+fecha de publicaci&#243;n de la presente ley en el Diario
+Oficial.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">61 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449684">
+          <Texto>     Art&#237;culo 62.- Monitoreo telem&#225;tico. Mientras no se
+encuentre en funciones el control telem&#225;tico a que se
+refiere el inciso tercero del art&#237;culo 23, el tribunal
+podr&#225; decretar otros mecanismos de control similares al
+cumplimiento de la reclusi&#243;n parcial en domicilio.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">62 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449685">
+          <Texto>     Art&#237;culo 63.- Atenuantes por reglas de cooperaci&#243;n.
+Mientras no se dicte una ley que regule exhaustivamente la
+cooperaci&#243;n eficaz respecto de delitos econ&#243;micos y de
+organizaciones criminales, las reglas previstas en los
+distintos cuerpos legales que reconocen atenuantes o
+eximentes de responsabilidad penal por cooperar con el
+esclarecimiento del hecho punible ser&#225;n aplicables cuando
+deban ser tratados como delitos econ&#243;micos, de conformidad
+con las reglas que siguen.
+     Si la ley le otorga a la cooperaci&#243;n eficaz el efecto
+de atenuar la pena, el juez la tratar&#225; como una
+circunstancia que determina la culpabilidad muy disminuida
+del condenado de conformidad con el art&#237;culo 14,
+circunstancia 1.&#170;, y podr&#225; rebajar en un grado adicional
+el marco penal.
+     Si la ley le otorga el efecto de eximir al condenado de
+toda pena, el juez deber&#225; reconocer ese efecto.
+     Se consideran reglas de cooperaci&#243;n incluidas en este
+art&#237;culo aquellas contenidas en el art&#237;culo 260 qu&#225;ter
+del C&#243;digo Penal; en el P&#225;rrafo 4 del T&#237;tulo IV del
+decreto ley N&#186; 3.538, de 1980, que crea la Comisi&#243;n para
+el Mercado Financiero; en el art&#237;culo 9&#186; de la ley N&#186;
+21.459; en el art&#237;culo 63 del decreto ley N&#186; 211, de 1973,
+y la regla establecida en el art&#237;culo siguiente.
+     La aplicabilidad de las atenuantes y eximentes en
+cuesti&#243;n quedar&#225;n sujetas a las reglas de procedimiento
+establecidas en los cuerpos legales respectivos.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">63 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-09-04" derogado="derogado" idParte="10449686">
+          <Texto>     Art&#237;culo 64.- Derogado.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">64 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+            <FechaDerogacion>2024-09-04</FechaDerogacion>
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449687">
+          <Texto>     Art&#237;culo 65.- Responsabilidad de las personas
+jur&#237;dicas por el delito de colusi&#243;n. Mientras la ley no
+coordine la concurrencia de las distintas penas, sanciones y
+medidas que pueden ser aplicables a una persona jur&#237;dica
+por la comisi&#243;n de la infracci&#243;n y del delito de
+colusi&#243;n, previstos en la letra a) del inciso segundo del
+art&#237;culo 3&#176; y en el art&#237;culo 62 del decreto ley N&#186; 211,
+de 1973, las personas jur&#237;dicas no responder&#225;n penalmente
+por el delito de colusi&#243;n.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">65 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449688">
+          <Texto>     Art&#237;culo 66.- Aplicaci&#243;n temporal. Los hechos
+perpetrados con anterioridad a la entrada en vigor de la
+presente ley, las penas y las dem&#225;s consecuencias que
+corresponda imponer por ellos, ser&#225;n determinados conforme
+a la ley vigente al momento de su perpetraci&#243;n.
+     Si la aplicaci&#243;n de esta ley resulta m&#225;s favorable al
+imputado o acusado por un hecho perpetrado con anterioridad
+a su entrada en vigor, se estar&#225; a lo dispuesto en ella.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">66 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449689">
+          <Texto>     Art&#237;culo 67.- Prohibici&#243;n de fraccionamiento. Para
+determinar si la aplicaci&#243;n de la presente ley resulta m&#225;s
+favorable se deber&#225; considerar todas las normas que fueren
+pertinentes al juzgamiento del hecho.
+     La pertinencia de las disposiciones de esta ley para el
+juzgamiento de los hechos perpetrados antes de su vigencia
+no requiere continuidad entre sus t&#233;rminos y los de las
+disposiciones antes vigentes, modificadas o derogadas por
+ella.
+     Las normas que la presente ley introduce en los incisos
+primero, segundo y tercero del art&#237;culo 24 bis del C&#243;digo
+Penal, ser&#225;n pertinentes para la determinaci&#243;n del comiso
+que correspond&#237;a imponer como pena accesoria antes de su
+entrada en vigor. El comiso de ganancias cuya ejecuci&#243;n se
+encuentre pendiente al momento de entrar en vigor la
+presente ley ser&#225; ejecutado conforme a lo dispuesto por las
+normas que &#233;sta introduce en el art&#237;culo 468 bis del
+C&#243;digo Procesal Penal, as&#237; como por el art&#237;culo 171 del
+C&#243;digo Org&#225;nico de Tribunales. El comiso impuesto por
+sentencia condenatoria firme que se encuentre ejecutado al
+momento de entrar en vigor esta ley no se ver&#225; afectado por
+ello.
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">67 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-08-17" derogado="no derogado" idParte="10449690">
+          <Texto>     Art&#237;culo 68.- Tiempo del hecho. Para efectos de lo
+dispuesto en el art&#237;culo 66, el delito se entiende
+perpetrado en el momento o durante el lapso en el cual se
+ejecuta la acci&#243;n punible o se incurre en la omisi&#243;n
+punible.
+     Si la presente ley entra en vigor durante la
+perpetraci&#243;n del hecho se estar&#225; a lo dispuesto en ella,
+siempre que en la fase de perpetraci&#243;n posterior se realice
+&#237;ntegramente la nueva descripci&#243;n legal del hecho.".
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">68 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2023-08-17" derogado="no derogado">
+    <Texto>     Habi&#233;ndose cumplido con lo establecido en el N&#186; 1 del
+art&#237;culo 93 de la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica
+y por cuanto he tenido a bien aprobarlo y sancionarlo; por
+tanto, prom&#250;lguese y ll&#233;vese a efecto como ley de la
+Rep&#250;blica.
+      
+     Santiago, 7 de agosto de 2023.- GABRIEL BORIC FONT,
+Presidente de la Rep&#250;blica.- Luis Cordero Vega, Ministro de
+Justicia y Derechos Humanos.- Carolina Toh&#225; Morales,
+Ministra del Interior y Seguridad P&#250;blica.- Mario Marcel
+Cullell, Ministro de Hacienda.- Nicol&#225;s Grau Veloso,
+Ministro de Econom&#237;a, Fomento y Turismo.- Mar&#237;a Helo&#237;sa
+Rojas Corradi, Ministra del Medio Ambiente.
+     Lo que transcribo a Ud., para su conocimiento.- Saluda
+atentamente a Ud., Jaime Gajardo Falc&#243;n, Subsecretario de
+Justicia.</Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="2023-08-17" derogado="no derogado" idParte="10449692" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>Proyecto de ley que modifica diversos cuerpos legales para ampliar la responsabilidad penal de las personas jur&#237;dicas, y regular el ejercicio de la acci&#243;n penal, respecto de los delitos contra el orden socioecon&#243;mico que indica, correspondiente a los Boletines N&#176; 13.204-07 y 13.205-07, refundidos</Titulo>
+        
+      </Metadatos>
+      <Texto>     TRIBUNAL CONSTITUCIONAL
+
+     Proyecto de ley que modifica diversos cuerpos legales
+para ampliar la responsabilidad penal de las personas
+jur&#237;dicas, y regular el ejercicio de la acci&#243;n penal,
+respecto de los delitos contra el orden socioecon&#243;mico que
+indica, correspondiente a los Boletines N&#176; 13.204-07 y
+13.205-07, refundidos
+
+     La Secretaria del Tribunal Constitucional, quien
+suscribe, certifica que la Honorable C&#225;mara de Diputados y
+Diputadas envi&#243; el proyecto de ley enunciado en el rubro,
+aprobado por el Congreso Nacional, a fin de que este
+Tribunal, ejerciera el control preventivo de
+constitucionalidad respecto de los art&#237;culos 42; 47, inciso
+quinto; 49, n&#250;mero 1; 50, n&#250;meros 22 y 29; 59, n&#250;mero 2,
+letra a), y 64, inciso tercero, del Proyecto de Ley; y por
+sentencia de 1 de agosto de 2023, en los autos Rol N&#186;
+14.455-23-CPR.
+
+     Se declara:
+
+     1&#176;. Que los art&#237;culos 50, N&#176; 2, y 64, inciso
+tercero, del proyecto de ley que sistematiza los delitos
+econ&#243;micos y atentados contra el Medio Ambiente, modifica
+diversos cuerpos legales que tipifican delitos contra el
+orden socioecon&#243;mico, y adecua las penas aplicables a todos
+ellos, correspondiente a los Boletines N&#176;s. 13.204-07 y
+13.205-07, refundidos, son conformes con la constituci&#243;n
+pol&#237;tica de la Rep&#250;blica.
+     2&#176;. Que el art&#237;culo 47, inciso quinto, del Proyecto
+de Ley es constitucional en el entendido de lo se&#241;alado en
+el considerando trig&#233;simo quinto.
+     3&#176;. Que el art&#237;culo 50 N&#186; 9 del Proyecto de Ley es
+constitucional en el entendido de lo se&#241;alado en el
+considerando trig&#233;simo sexto.
+     4&#176;. Que no se emite pronunciamiento, en examen
+preventivo de constitucionalidad, de las restantes
+disposiciones del Proyecto de Ley, por no versar sobre
+materias que inciden en ley org&#225;nica constitucional.
+
+     Santiago, 2 de agosto de 2023.- Mar&#237;a Ang&#233;lica
+Barriga Meza, Secretaria.</Texto>
+    </Anexo>
+  </Anexos>
+</Norma>

@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Espropriazione per pubblica utilità: fasi, indennità, decreto (DPR 327/2001)"
+short_description: Supporto documentale al procedimento di espropriazione per pubblica utilità secondo il D.P.R. 8 giugno 2001, n. 327 (Testo unico). Inquadra le fasi e i presupposti del decreto di esproprio (vincolo preordinato all'esproprio, dichiarazione di pubblica utilità, indennità anche provvisoria - art. 8), gli atti che comportano la dichiarazione di pubblica utilità (approvazione del progetto definitivo o dei piani - art. 12), la determinazione provvisoria dell'indennità (elenco beni entro 30 giorni, offerta, condivisione irrevocabile, acconto 80%, deposito Cassa depositi e prestiti - art. 20) e quella urgente (casi L. 443/2001, oltre 50 destinatari, 60 giorni - art. 22), l'occupazione d'urgenza preordinata all'esproprio (decreto motivato, immissione in possesso entro 3 mesi, indennità di occupazione, decadenza - art. 22-bis), il contenuto e gli effetti del decreto di esproprio (passaggio di proprietà sotto condizione, notifica 7 giorni prima, trascrizione, opposizione del terzo - art. 23) e l'acquisizione sanante (indennizzo con forfait 10%/20%, Corte dei conti - art. 42-bis). NON calcola l'indennità, non redige gli atti o il decreto e non sostituisce l'autorità espropriante, il promotore, il tecnico stimatore o il legale.
+default_prompt: |
+  Devo gestire un'espropriazione per pubblica utilità secondo il D.P.R. 327/2001: quali sono le fasi
+  e i presupposti del decreto di esproprio, da cosa deriva la dichiarazione di pubblica utilità, come
+  si determina l'indennità (provvisoria o urgente), quando è possibile l'occupazione d'urgenza e cosa
+  deve contenere il decreto di esproprio?

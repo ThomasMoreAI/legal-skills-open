@@ -1,0 +1,11 @@
+id: REL-049
+tipo_relacion: "desarrolla"
+origen: NOR-061
+destino: NOR-007
+descripcion: "La Resolución de 9 de junio de 2025 dicta instrucciones autonómicas de evaluación para Grados C, D y E en Canarias en aplicación del nuevo Sistema de Formación Profesional."
+evidencia:
+  fuente: FTE-068
+  localizacion: "Fundamentos de derecho primero y segundo; resuelve primero."
+fecha_registro: 2026-06-01
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La resolución cita expresamente la LOOIFP y el Real Decreto 659/2023 como marco básico."

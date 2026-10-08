@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2018-02-26/25">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2018-02-26/25/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2018-02-26/25"/>
+          <FRBRdate date="2018-02-26" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="25"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2018-02-26/25/spa@/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2018-02-26/25/spa@"/>
+          <FRBRdate date="2018-03-06" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2018-02-26/25/spa@/xml/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2018-02-26/25/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_1">
+        <num>Artículo 1.-</num>
+        <heading>Objeto y ámbito.</heading>
+        <paragraph eId="art_1__para_1">
+          <num>1.</num>
+          <content><p>El presente Decreto tiene por objeto regular la atención a la diversidad en el ámbito de la enseñanza no universitaria de la Comunidad Autónoma de Canarias en la etapa de Educación Infantil, en la educación básica, así como en el Bachillerato en los términos previstos en esta norma. Para el resto de enseñanzas no universitarias previstas en artículo 3.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE) se estará a lo previsto en su normativa específica y, supletoriamente, a lo establecido en este Decreto.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_2">
+          <num>2.</num>
+          <content><p>Se establecen medidas para favorecer el desarrollo de una atención a la diversidad, desde un enfoque inclusivo, que dé respuesta a las características y necesidades de todo el alumnado y, en especial, a aquel que pueda encontrarse en situación de riesgo de abandono escolar temprano y, por ende, de exclusión social.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_3">
+          <num>3.</num>
+          <content><p>Será de aplicación en los centros docentes sostenidos con fondos públicos y en los que les afecte, en los privados, que imparten enseñanza no universitaria del sistema educativo español en el ámbito de gestión de la Comunidad Autónoma de Canarias.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): outside any 
 
 Jurisdiction: `lb` · Practice: `general` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Justinian — Lebanon Bar Prep (Concours d'Avocat)`](skills/justinian-bar-exam-prep-lb-sboghossian/) | Use when a user is preparing for the Lebanese bar concours d'avocat — the competitive entry examination… |
+| [`Lebanon Commercial Register (Sijil al-Tijari)`](skills/tool-lb-commercial-register-sboghossian/) | Use when performing KYC, counterparty verification, or corporate due diligence on a Lebanese entity.… |
 
 ## Cold-start context
 

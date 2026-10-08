@@ -1,0 +1,17 @@
+{
+  "name": "co-contracts",
+  "displayName": "Contracts — CO",
+  "version": "0.1.0",
+  "description": "Contracts skills for CO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/analisis-contratos-cadavidalvarado",
+    "skills/analisis-riesgo-contrato-orwel",
+    "skills/creacion-contrato-colombia-orwel",
+    "skills/redaccion-escritos-cadavidalvarado"
+  ]
+}

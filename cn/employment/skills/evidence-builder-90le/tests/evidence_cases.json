@@ -1,0 +1,130 @@
+[
+  {
+    "id": "mutual-termination-low-offer",
+    "termination_maps": ["mutual_termination"],
+    "expected_item_ids": [
+      "separation_agreement_versions",
+      "proposal_origin_evidence",
+      "twelve_month_wage_basis"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art36",
+      "LCL-2012#art46",
+      "SPC-LDI-1-2020#art35"
+    ]
+  },
+  {
+    "id": "forced-resignation-unpaid-wages",
+    "termination_maps": ["employee_resignation", "constructive_dismissal"],
+    "expected_item_ids": [
+      "resignation_text_and_delivery",
+      "employer_breach_evidence",
+      "unpaid_wage_or_social_insurance_gap",
+      "chronology_memo"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art38",
+      "LCL-2012#art46",
+      "LCL-2012#art85",
+      "SPC-LDI-1-2020#art45",
+      "SPC-LDI-2-2025#art19"
+    ]
+  },
+  {
+    "id": "fault-dismissal-probation",
+    "termination_maps": ["fault_dismissal"],
+    "expected_item_ids": [
+      "termination_notice_exact_reason",
+      "rules_democratic_publication_proof",
+      "misconduct_investigation_and_proportionality"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art21",
+      "LCL-2012#art39",
+      "LCL-2012#art87",
+      "SPC-LDI-1-2020#art44"
+    ]
+  },
+  {
+    "id": "economic-layoff-procedure-gap",
+    "termination_maps": ["economic_layoff"],
+    "expected_item_ids": [
+      "layoff_threshold_and_plan",
+      "thirty_day_explanation_opinion_report",
+      "guangzhou_layoff_report_package",
+      "priority_retention_and_rehire_evidence"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art41",
+      "LCL-2012#art42",
+      "LCL-2012#art46",
+      "LCL-2012#art48",
+      "LCL-2012#art87"
+    ]
+  },
+  {
+    "id": "guangzhou-economic-layoff-report-package",
+    "termination_maps": ["economic_layoff"],
+    "expected_item_ids": [
+      "layoff_threshold_and_plan",
+      "thirty_day_explanation_opinion_report",
+      "guangzhou_layoff_report_package",
+      "priority_retention_and_rehire_evidence",
+      "post_layoff_rehire_or_outsourcing_tracking",
+      "twelve_month_wage_basis"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art41",
+      "LCL-2012#art43",
+      "LCL-2012#art48",
+      "LCL-2012#art87",
+      "LCL-REG-2008#art19"
+    ]
+  },
+  {
+    "id": "guangzhou-post-layoff-rehire-tracking",
+    "termination_maps": ["economic_layoff"],
+    "expected_item_ids": [
+      "priority_retention_and_rehire_evidence",
+      "post_layoff_rehire_or_outsourcing_tracking",
+      "layoff_threshold_and_plan",
+      "termination_notice_exact_reason"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art41",
+      "LCL-2012#art48",
+      "LCL-2012#art87",
+      "LDA-2007#art6"
+    ]
+  },
+  {
+    "id": "salary-cut-transfer-constructive-dismissal",
+    "termination_maps": ["constructive_dismissal"],
+    "expected_item_ids": [
+      "salary_cut_transfer_objection",
+      "unpaid_wage_or_social_insurance_gap",
+      "lockout_or_forced_leave_evidence"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art30",
+      "LCL-2012#art35",
+      "LCL-2012#art38",
+      "LDA-2007#art9"
+    ]
+  },
+  {
+    "id": "unclear-mixed-documents",
+    "termination_maps": ["unclear_or_mixed"],
+    "expected_item_ids": [
+      "document_conflict_set",
+      "written_reason_request",
+      "limitation_and_filing_timeline"
+    ],
+    "expected_source_anchors": [
+      "LCL-2012#art48",
+      "LCL-2012#art87",
+      "LDA-2007#art6",
+      "LDA-2007#art27"
+    ]
+  }
+]

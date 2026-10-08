@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2014-07-25/6">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"/>
+          <FRBRdate date="2014-07-25" name="Generation"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="Ley"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@"/>
+          <FRBRdate date="2014-08-07" name="Publication"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/xml/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="parlamento-canarias" href="https://www.parcan.es/" showAs="Parlamento de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_1">
+        <num>Artículo 1.</num>
+        <heading>Objeto y ámbito.</heading>
+        <paragraph eId="art_1__para_1">
+          <num>1.</num>
+          <content><p>La presente ley tiene por objeto regular el sistema educativo canario y su evaluación, de modo que pueda convertirse en un instrumento eficaz para hacer efectivo el derecho a una educación de calidad, inclusiva e integradora, que garantice la equidad y la excelencia, la prestación de un servicio público esencial y convertirse, a la vez, en uno de los motores del desarrollo social, económico y cultural del archipiélago.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_2">
+          <num>2.</num>
+          <content><p>El ámbito de aplicación de la presente ley es todo el sistema educativo canario, a excepción del universitario, en consonancia con las competencias asumidas en el Estatuto de Autonomía de Canarias y en el desarrollo de las normas básicas aprobadas por el Estado.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

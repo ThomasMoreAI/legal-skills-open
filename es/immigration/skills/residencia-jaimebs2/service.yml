@@ -1,0 +1,55 @@
+name: extranjeria-residencia
+display_name: Extranjería — Permisos de Residencia
+description: >
+  Guía completa sobre los permisos de residencia para extranjeros en España:
+  residencia temporal, residencia temporal y trabajo, residencia de larga
+  duración, visa de nómada digital, residencia por inversión (golden visa),
+  visa de emprendedor, residencia no lucrativa, residencia por estudios,
+  certificado de registro de ciudadano UE, renovaciones, plazos y procedimiento.
+organization: Ministerio de Inclusión, Seguridad Social y Migraciones
+tags: [extranjería, residencia, permiso de residencia, nómada digital, golden visa, emprendedor, residencia temporal, larga duración, inmigración, España]
+
+links:
+  website: https://extranjeros.inclusion.gob.es
+  sede_electronica: https://sede.inclusion.gob.es
+  procedimientos: https://extranjeros.inclusion.gob.es/es/informacioninteres/informacionprocedimientos/
+  cita_previa: https://sede.administracionespublicas.gob.es/pagina/index/directorio/icpplus
+
+license:
+  data: Información pública del Ministerio de Inclusión, Seguridad Social y Migraciones
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona guía completa sobre los distintos tipos
+    de permisos de residencia y redirige a skills específicas del bloque
+    de extranjería para trámites relacionados.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de permisos de residencia (temporal, larga duración, inversión, nómada digital, emprendedor, no lucrativa, estudios)
+    - Requisitos generales y específicos de cada tipo
+    - Procedimiento de solicitud y dónde presentarla
+    - Plazos de resolución y silencio administrativo
+    - Renovación de permisos (plazos, documentación, causas de denegación)
+    - Régimen de ciudadanos UE/EEE/Suiza
+    - URLs de trámites y portales oficiales
+  not_accessible:
+    - Tramitación real de permisos (requiere Oficina de Extranjería o consulado)
+    - Consulta del estado de expedientes (requiere identificación electrónica)
+    - Detalle sobre el NIE (usar skill extranjeria-nie)
+    - Detalle sobre permisos de trabajo (usar skill extranjeria-trabajo)
+    - Trámites de nacionalidad (usar skill extranjeria-nacionalidad)
+    - Arraigo (usar skill extranjeria-arraigo)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

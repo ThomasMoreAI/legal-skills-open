@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (235)
+## Skills (237)
 
 | Skill | What it does |
 |---|---|
@@ -50,6 +50,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Interactive mode — asks questions step by step`](skills/classify-ai-system-abdelstark/) | Use when the user asks about EU AI Act risk classification, wants to know what risk tier their AI system… |
 | [`Verhaltenskodizes, harmonisierte Normen und ISO-Standards`](skills/code-of-practice-und-harmonisierte-normen/) | Für Verhaltenskodizes, harmonisierte Normen und ISO-Standards: ordnet Norm, Beweislast und… |
 | [`Verificación de cumplimiento normativo`](skills/compliance-check/) | Usar para verificar cumplimiento RGPD, NIS2 y CRA. También: verificar RGPD, cumplimiento normativo… |
+| [`/compliance-check — GDPR + ePrivacy Compliance`](skills/compliance-check-me2resh/) | GDPR + ePrivacy audit — consent, privacy policy, data handling, right-to-deletion, DPAs. Deep-dive for… |
 | [`View full checklist for a tier`](skills/compliance-checklist-abdelstark/) | Use when the user needs to track EU AI Act compliance obligations, wants to see what requirements apply… |
 | [`Compliance Gates`](skills/compliance-gates-arttuan/) | Wire the brief into CI so the code cannot drift away from it — new vendors, new fields, expired… |
 | [`Connector — EUR-Lex`](skills/connector-eur-lex-sboghossian/) | Use when a lawyer or compliance professional needs to retrieve, read, or cite official EU legal texts… |
@@ -57,6 +58,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Deepfake Offenlegung`](skills/deepfake-offenlegung/) | Prüft künstlich erzeugte oder manipulierte Bilder, Audio und Video auf Deepfake-Eigenschaft und entwirft… |
 | [`Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/denkfehler-fristen-form-und-zustaendigkeit/) | Für Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Deploy Enterprise AI Governance Hub`](skills/deploy-enterprise-ai-governance-hub-frootai/) | Deploy Enterprise AI Governance Hub — AI system registry, EU AI Act risk classification, model lifecycle… |
+| [`DORA Compliance Expert`](skills/dora-compliance-expert-borghei/) | DORA (EU 2022/2554) digital operational resilience compliance for financial entities, covering all 5… |
 | [`Drafting: Internationaler Bezug und Schnittstellen`](skills/drafting-internationaler-bezug-und-schnittstellen/) | Für Drafting: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Einführer-Pflichten (Importer) — Art. 23 KI-VO`](skills/einfuehrer-importer-eu-datenbank-fallfremde/) | Für Einführer-Pflichten (Importer) — Art. 23 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Einführer-Pflichten (Importer) — Art. 23 KI-VO`](skills/einfuehrer-importer-pflichten-art-23/) | Für Einführer-Pflichten (Importer) — Art. 23 europäischer Technikregulierungsrahmen: ordnet Norm… |

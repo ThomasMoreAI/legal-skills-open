@@ -1,0 +1,54 @@
+name: legalizacion-documentos
+display_name: Legalización de Documentos Extranjeros
+description: >
+  Guía completa sobre cómo dar validez legal en España a documentos
+  emitidos en el extranjero: legalización según el tipo de país (Convenio
+  de La Haya, convenios bilaterales, cadena consular completa),
+  traducciones juradas para la Administración española, lista de
+  traductores jurados del MAEC, excepciones de traducción y ejemplos
+  prácticos paso a paso para distintos escenarios.
+organization: Ministerio de Asuntos Exteriores, Unión Europea y Cooperación (MAEC) / Ministerio de Justicia
+tags: [legalización, documentos extranjeros, traducción jurada, MAEC, apostilla, convenio bilateral, Registro Civil, nacionalidad, extranjería]
+
+links:
+  sede_maec: https://sede.exteriores.gob.es
+  traductores_jurados: https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx
+  convenio_haya_status: https://www.hcch.net/es/instruments/conventions/status-table/?cid=41
+
+license:
+  data: Información pública del MAEC y Ministerio de Justicia
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No realiza legalizaciones ni
+    traducciones. Complementaria a la skill apostilla (que cubre la
+    dirección inversa: documentos españoles para el extranjero).
+    Redirige a extranjeria-nacionalidad para el proceso de nacionalidad
+    y a antecedentes-penales para el certificado de penales.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Proceso de legalización de documentos extranjeros para España
+    - Tres vías según el país (Convenio de La Haya, convenios bilaterales, cadena consular)
+    - Traducciones juradas (quién las hace, cuándo son necesarias, excepciones)
+    - Lista de traductores jurados del MAEC
+    - Convenios bilaterales de exención (UE, Atenas, La Paz)
+    - Ejemplos prácticos paso a paso
+    - Preguntas frecuentes (coste, caducidad, fotocopias, estados desaparecidos)
+  not_accessible:
+    - Realización de legalizaciones o traducciones (trámite externo)
+    - Homologación de títulos académicos (procedimiento educativo detallado)
+    - Trámites de nacionalidad completos (usar skill extranjeria-nacionalidad)
+    - Trámites de extranjería detallados (usar skills extranjeria-nie, extranjeria-nacionalidad)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

@@ -1,0 +1,11 @@
+id: REL-029
+tipo_relacion: "relaciona"
+origen: NOR-032
+destino: NOR-010
+descripcion: "La Ley 2/2021 se relaciona con el marco de convivencia educativa por igualdad, no discriminación y atención a la diversidad de género."
+evidencia:
+  fuente: FTE-035
+  localizacion: "Objeto, principios y medidas de igualdad y no discriminación"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Los protocolos derivados se tratarán como fuentes no normativas si procede."

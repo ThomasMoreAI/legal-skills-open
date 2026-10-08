@@ -1,0 +1,16 @@
+{
+  "name": "citas-barberia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "App de citas para barberia. Demo de clase: pide datos de mas y su boton de eliminar cuenta no elimina nada.",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings app.js",
+    "seed": "node --no-warnings db.js --seed",
+    "forense": "node --no-warnings forense.js",
+    "reset": "node --no-warnings db.js --reset"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "pa-litigation",
+  "displayName": "Litigation — PA",
+  "version": "0.1.0",
+  "description": "Litigation skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/cronologia-betobetico",
+    "skills/entrevista-inicial-procesal-3636-betobetico",
+    "skills/intake-procesal-betobetico",
+    "skills/investigacion-betobetico",
+    "skills/plazos-clinica-juridica-betobetico",
+    "skills/plazos-procesal-betobetico",
+    "skills/portfolio-procesal-4149-betobetico",
+    "skills/requerimiento-recibido-betobetico"
+  ]
+}

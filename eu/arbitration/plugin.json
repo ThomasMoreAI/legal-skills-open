@@ -1,0 +1,14 @@
+{
+  "name": "eu-arbitration",
+  "displayName": "Arbitration & ADR — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "arbitration",
+  "language": "en",
+  "skills": [
+    "skills/prompt-pack-expert-report-arbitration-sboghossian"
+  ]
+}

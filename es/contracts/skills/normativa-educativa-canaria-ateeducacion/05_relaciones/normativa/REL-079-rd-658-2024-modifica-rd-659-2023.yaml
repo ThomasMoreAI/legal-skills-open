@@ -1,0 +1,11 @@
+id: REL-079
+tipo_relacion: "modifica"
+origen: NOR-101
+destino: NOR-080
+descripcion: "El Real Decreto 658/2024 modifica el Real Decreto 659/2023, que desarrolla la ordenación del Sistema de Formación Profesional, y también el Real Decreto 132/2010 de requisitos mínimos de los centros."
+evidencia:
+  fuente: FTE-108
+  localizacion: "Título y parte dispositiva del Real Decreto 658/2024."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Sin esta relación, la ficha del RD 659/2023 mostraría una redacción que ya no es la vigente."

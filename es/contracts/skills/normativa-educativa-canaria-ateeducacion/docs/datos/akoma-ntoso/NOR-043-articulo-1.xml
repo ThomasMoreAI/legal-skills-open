@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2022-11-10/211">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211"/>
+          <FRBRdate date="2022-11-10" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="211"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@"/>
+          <FRBRdate date="2022-11-23" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/xml/!art_1"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_1">
+        <num>Artículo 1.</num>
+        <heading>Objeto y ámbito de aplicación.</heading>
+        <paragraph eId="art_1__para_1">
+          <num>1.</num>
+          <content><p>El presente Decreto tiene por objeto establecer la ordenación y el currículo de la etapa de Educación Primaria, en desarrollo de lo dispuesto en el Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la Educación Primaria.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_2">
+          <num>2.</num>
+          <content><p>Este Decreto será de aplicación en todos los centros docentes sostenidos con fondos públicos y privados que impartan las enseñanzas de esta etapa en el ámbito territorial de la Comunidad Autónoma de Canarias.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

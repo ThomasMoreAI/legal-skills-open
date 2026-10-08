@@ -1,0 +1,62 @@
+{
+  "nacionais_fixos": [
+    {"dia": 1, "mes": 1, "nome": "Confraternização Universal"},
+    {"dia": 21, "mes": 4, "nome": "Tiradentes"},
+    {"dia": 1, "mes": 5, "nome": "Dia do Trabalho"},
+    {"dia": 7, "mes": 9, "nome": "Independência do Brasil"},
+    {"dia": 12, "mes": 10, "nome": "Nossa Senhora Aparecida"},
+    {"dia": 2, "mes": 11, "nome": "Finados"},
+    {"dia": 15, "mes": 11, "nome": "Proclamação da República"},
+    {"dia": 25, "mes": 12, "nome": "Natal"},
+    {"dia": 8, "mes": 12, "nome": "Dia da Justiça (Lei 5.010/66)"},
+    {"dia": 11, "mes": 8, "nome": "Dia do Advogado (Feriado Forense)"}
+  ],
+  "moveis": {
+    "descricao": "Carnaval (seg+ter antes da Quarta de Cinzas), Sexta-feira Santa, Corpus Christi. Todos calculados a partir da data da Páscoa.",
+    "regras_pascoa": "Páscoa = primeiro domingo após a primeira lua cheia de primavera (hemisfério norte). Usar algoritmo de Butcher/Meeus.",
+    "offsets_from_easter": {
+      "carnaval_segunda": -48,
+      "carnaval_terca": -47,
+      "quarta_cinzas_manha": -46,
+      "sexta_santa": -2,
+      "corpus_christi": 60
+    }
+  },
+  "estaduais": {
+    "SP": [
+      {"dia": 25, "mes": 1, "nome": "Aniversário de São Paulo (capital)"},
+      {"dia": 9, "mes": 7, "nome": "Revolução Constitucionalista de 1932"}
+    ],
+    "RJ": [
+      {"dia": 23, "mes": 4, "nome": "São Jorge"},
+      {"dia": 20, "mes": 11, "nome": "Dia da Consciência Negra"}
+    ],
+    "MG": [
+      {"dia": 21, "mes": 4, "nome": "Data Magna de Minas Gerais"}
+    ],
+    "RS": [
+      {"dia": 20, "mes": 9, "nome": "Revolução Farroupilha"}
+    ],
+    "PR": [
+      {"dia": 19, "mes": 12, "nome": "Emancipação Política do Paraná"}
+    ],
+    "SC": [
+      {"dia": 11, "mes": 8, "nome": "Dia de Santa Catarina"}
+    ],
+    "BA": [
+      {"dia": 2, "mes": 7, "nome": "Independência da Bahia"}
+    ],
+    "PE": [
+      {"dia": 6, "mes": 3, "nome": "Revolução Pernambucana de 1817"}
+    ]
+  },
+  "pascoa_por_ano": {
+    "2024": "2024-03-31",
+    "2025": "2025-04-20",
+    "2026": "2026-04-05",
+    "2027": "2027-03-28",
+    "2028": "2028-04-16",
+    "2029": "2029-04-01",
+    "2030": "2030-04-21"
+  }
+}

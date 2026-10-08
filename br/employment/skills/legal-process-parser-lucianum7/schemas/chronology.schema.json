@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chronology event",
+  "type": "object",
+  "required": ["date_text", "event", "sources"],
+  "properties": {
+    "date_text": {"type": "string"},
+    "date_normalized": {"type": ["string", "null"], "format": "date"},
+    "event": {"type": "string"},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "certainty": {"enum": ["explicit", "uncertain", "not_identified"]}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+ANONIMIZADOR DE EXPEDIENTES — TRIFUERZA v7 (macOS)
+==================================================
+
+INSTALACIÓN (doble clic, sin Python):
+
+  Opción A — DMG (recomendado)
+    1. Abre Anonimizador-Trifuerza-macOS.dmg
+    2. Arrastra Anonimizador-Trifuerza.app a la carpeta Aplicaciones
+    3. Abre la app desde Launchpad o Aplicaciones
+
+  Opción B — ZIP
+    1. Descomprime Anonimizador-Trifuerza-mac.zip
+    2. Mueve Anonimizador-Trifuerza.app a Aplicaciones
+    3. Abre la app
+
+PRIMERA VEZ (si macOS la bloquea):
+  - Ajustes del sistema → Privacidad y seguridad → «Abrir igualmente»
+  - O clic derecho en la app → Abrir → Abrir
+
+USO:
+  1. Selecciona archivos (.docx .txt .md .pdf) o una carpeta
+  2. ANALIZAR → ANONIMIZAR → revisa y confirma
+
+Tus reemplazos manuales se guardan en:
+  ~/Library/Application Support/Anonimizador-Trifuerza/reemplazos.json
+
+PDF: solo con texto seleccionable (no escaneados).
+
+RESULTADO (junto a cada documento):
+  expediente_ANONIMIZADO.{docx|pdf|txt}  <- sube ESTE a la IA
+  expediente_EQUIVALENCIAS.csv             <- NUNCA lo subas

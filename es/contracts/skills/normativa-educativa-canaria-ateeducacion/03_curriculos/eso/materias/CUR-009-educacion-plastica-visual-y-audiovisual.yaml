@@ -1,0 +1,115 @@
+id: CUR-009
+titulo: "Educación Plástica, Visual y Audiovisual — ESO Canarias"
+etapa: "eso"
+materia: "Educación Plástica, Visual y Audiovisual"
+ambito: null
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Analizar manifestaciones artísticas contextualizándolas y valorando el proceso de creación."
+      enunciado_oficial: "Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos esenciales y valorando el proceso de creación y el resultado final, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico."
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA3, CC1, CC2]
+        "2.º ESO": [CCL1, CCL2, CP3, CPSAA3, CC1, CC2, CCEC1]
+        "3.º ESO": [CCL1, CPSAA3, CC1, CC2, CCEC1]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC1, CCEC2]
+    - codigo: "C2"
+      enunciado_resumido: "Explicar las producciones plásticas, visuales y audiovisuales propias comparándolas con otras."
+      enunciado_oficial: "Explicar las producciones plásticas, visuales y audiovisuales propias, comparándolas con las de sus iguales y con algunas de las que conforman el patrimonio cultural y artístico, justificando las opiniones y teniendo en cuenta el progreso desde la intención hasta la realización, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos."
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CC3, CCEC1, CCEC3]
+        "3.º ESO": [CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC1]
+    - codigo: "C3"
+      enunciado_resumido: "Analizar diferentes propuestas plásticas, visuales y audiovisuales con respeto y disfrute estético."
+      enunciado_oficial: "Analizar diferentes propuestas plásticas, visuales y audiovisuales, mostrando respeto y desarrollando la capacidad de observación e interiorización de la experiencia y del disfrute estético, para enriquecer la cultura artística individual y alimentar el imaginario."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CD1, CPSAA4, CC1, CC3, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CD1, CD2, CPSAA4, CC1, CC3, CCEC2]
+        "3.º ESO": [CCL1, CCL2, CD1, CPSAA4, CC1, CC3, CCEC2]
+    - codigo: "C4"
+      enunciado_resumido: "Explorar técnicas, lenguajes e intenciones de producciones culturales y artísticas como fuente generadora de ideas."
+      enunciado_oficial: "Explorar las técnicas, los lenguajes y las intenciones de diferentes producciones culturales y artísticas, analizando, de forma abierta y respetuosa, tanto el proceso como el producto final, su recepción y su contexto, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas."
+      descriptores:
+        "1.º ESO": [CCL2, CD1, CD2, CPSAA3, CC3, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC3, CCEC2]
+        "3.º ESO": [CCL2, CD1, CD2, CPSAA3, CC3, CCEC2]
+    - codigo: "C5"
+      enunciado_resumido: "Realizar producciones artísticas con creatividad e imaginación para expresar la visión propia."
+      enunciado_oficial: "Realizar producciones artísticas individuales o colectivas con creatividad e imaginación, seleccionando y aplicando herramientas, técnicas y soportes en función de la intencionalidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica y la autoconfianza."
+      descriptores:
+        "1.º ESO": [CCL2, CPSAA1, CPSAA4, CC3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, CCL2, CD2, CPSAA1, CPSAA3, CPSAA4, CC3, CCEC3, CCEC4]
+        "3.º ESO": [CCL2, CPSAA3, CPSAA4, CC3, CCEC3, CCEC4]
+    - codigo: "C6"
+      enunciado_resumido: "Apropiarse de las referencias culturales y artísticas del entorno para enriquecer las creaciones propias."
+      enunciado_oficial: "Apropiarse de las referencias culturales y artísticas del entorno, identificando sus singularidades, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social."
+      descriptores:
+        "1.º ESO": [CCL2, CD1, CPSAA3, CC1, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC3]
+        "3.º ESO": [CCL2, CD1, CPSAA3, CC1, CCEC3]
+    - codigo: "C7"
+      enunciado_resumido: "Aplicar técnicas, recursos y convenciones de los lenguajes artísticos integrando diversas tecnologías."
+      enunciado_oficial: "Aplicar las principales técnicas, recursos y convenciones de los lenguajes artísticos, incorporando, de forma creativa, las posibilidades que ofrecen las diversas tecnologías, para integrarlos y enriquecer el diseño y la realización de un proyecto artístico."
+      descriptores:
+        "1.º ESO": [CCL3, STEM3, CD1, CD5, CC1, CC3, CCEC4]
+        "2.º ESO": [CCL2, CCL3, STEM3, CD1, CD2, CD5, CPSAA3, CPSAA4, CC1, CC3, CE1, CE2, CCEC4]
+        "3.º ESO": [CCL2, CCL3, STEM3, CD1, CD5, CC1, CC3, CCEC4]
+    - codigo: "C8"
+      enunciado_resumido: "Compartir producciones y manifestaciones artísticas adaptándolas al público destinatario."
+      enunciado_oficial: "Compartir producciones y manifestaciones artísticas, adaptando el proyecto a la intención y a las características del público destinatario, para valorar distintas oportunidades de desarrollo personal."
+      descriptores:
+        "1.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CCEC4]
+        "2.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CPSAA5, CE3, CCEC4]
+        "3.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CE3, CCEC4]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Reconocer, de forma guiada, los factores históricos, sociales y culturales que rodean algunas producciones plásticas, explicando de manera escrita, con interés, respeto y actitud cooperativa, desde una perspectiva de género, para entender la necesidad de protección y conservación del patrimonio cultural y artístico, con especial atención al de Canarias."
+        - "2.1. Explicar la importancia del proceso que media entre la realidad, el imaginario y la producción, participando activamente en el trabajo en grupo, identificando hechos, conceptos, pensamientos, opiniones o sentimientos de manera escrita, superando estereotipos y mostrando un comportamiento respetuoso con la diversidad cultural, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural."
+        - "2.2. Analizar, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, especialmente el de Canarias, así como las propias y las de sus iguales, con interés y con una actitud cooperativa, iniciándose en una mirada estética hacia el mundo y respetando la diversidad de las expresiones culturales, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos."
+        - "3.1. Seleccionar propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, describiéndolas de forma escrita y de manera individual, grupal o colaborativa, e identificándolas con curiosidad y respeto desde una perspectiva de género, para enriquecer la cultura artística personal y alimentar el imaginario."
+        - "3.2. Argumentar el disfrute producido por la recepción del arte en todas sus formas y vertientes, a través de la identificación de diferentes propuestas plásticas, visuales y audiovisuales, incluidas las contemporáneas, y del uso de diferentes herramientas digitales, en cualquier medio o soporte, mostrando, con respeto, impresiones y emociones, y expresando la opinión personal de forma abierta, para fomentar la curiosidad y la creatividad."
+        - "4.1. Reconocer e interpretar de forma guiada los rasgos particulares de diversas técnicas y lenguajes artísticos, utilizando textos escritos, así como sus distintos procesos y resultados en función de los contextos sociales, históricos, geográficos y tecnológicos, buscando, mediante el uso de diferentes herramientas digitales, la información con interés y eficacia, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas."
+        - "4.2. Analizar y reconocer, de forma guiada, las especificidades de los lenguajes de diferentes producciones culturales y artísticas, de manera individual, grupal y colaborativa, demostrando respeto por las normas, empatía, equidad y espíritu constructivo, y mostrando interés por las manifestaciones artísticas y culturales más destacadas del patrimonio histórico de Canarias, para descubrir las diversas posibilidades que ofrecen los métodos y las técnicas artísticas como fuentes generadoras de ideas."
+        - "5.1. Expresar de forma guiada ideas y sentimientos en diferentes producciones plásticas, visuales y audiovisuales, probando diversas herramientas, técnicas y soportes, con respeto a la propiedad intelectual y con actitud cooperativa y respetuosa, y desarrollando la capacidad de comunicación, para potenciar la autoconfianza."
+        - "5.2. Realizar diferentes tipos de producciones artísticas individuales o colectivas con las técnicas y los soportes adecuados al propósito, con actitud cooperativa y respetuosa, reconociendo el proceso creativo, mostrando iniciativa y autoconfianza, integrando racionalidad, empatía y sensibilidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica."
+        - "6.1. Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el de Canarias, utilizando la búsqueda, selección y tratamiento de información de fuentes diversas, a través de la observación de los aspectos formales y de los factores sociales que determinan diversas producciones culturales y artísticas actuales, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social."
+        - "6.2. Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, mediante el uso de diferentes herramientas digitales, mostrando una visión personal con una actitud respetuosa y opuesta a cualquier tipo de discriminación o violencia, para enriquecer las creaciones artísticas y desarrollar una cultura emprendedora."
+        - "7.1. Realizar un proyecto artístico creativo, de manera individual, grupal y colaborativa, valorando la importancia de la sostenibilidad, ajustándose al objetivo propuesto, utilizando de forma guiada distintas técnicas visuales o audiovisuales, seleccionadas en la generación de mensajes propios, y mostrando interés y curiosidad por la evolución de las tecnologías digitales e iniciativa en el empleo de lenguajes, materiales, soportes y herramientas, para enriquecer el diseño y aprender de sus errores en el proceso de construcción del conocimiento."
+        - "8.1. Reconocer los diferentes usos y funciones de las producciones y manifestaciones artísticas, así como las oportunidades que pueden generar, mostrando una actitud abierta, cooperativa y respetuosa, interés por conocer su importancia en la sociedad, con especial atención a la de Canarias, y curiosidad por la evolución de las tecnologías digitales, para valorar distintas oportunidades de desarrollo personal."
+        - "8.2. Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma individual o colectiva, aprendiendo de sus errores en el proceso de construcción del conocimiento, conociendo las diferentes etapas y considerando las características del público destinatario, para valorar las oportunidades personales, sociales y económicas que se le ofrecen."
+    - curso: "2.º ESO"
+      criterios:
+        - "Mantiene la estructura de catorce criterios paralela a la de 1.º ESO con leves matices en la perspectiva analítica (descripciones orales, escritas, signadas o multimodales) y mayor énfasis en el patrimonio cultural y artístico de Canarias y de los artistas canarios. Para el detalle literal, consultar el anexo oficial del Decreto 30/2023."
+    - curso: "3.º ESO"
+      criterios:
+        - "Reduce el número total a quince criterios distribuidos entre las ocho competencias específicas, con una progresión hacia la autonomía y el dominio técnico. Para el detalle literal por criterio (1.1 a 8.3), consultar el anexo oficial del Decreto 30/2023."
+  saberes_basicos:
+    - bloque: "I. Patrimonio artístico y cultural"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Análisis de las formas geométricas en el arte y el entorno; patrimonio arquitectónico (1.º); análisis de los géneros artísticos (2.º y 3.º); manifestaciones culturales más destacadas del entorno con atención al patrimonio canario."
+    - bloque: "II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Elementos básicos del lenguaje visual: punto, línea y plano; obras de artistas canarios (Cristino de Vera, José Aguiar, Lola Massieu, Pepe Dámaso, César Manrique); forma, color y textura; esquemas compositivos."
+    - bloque: "III. Expresión artística y gráfico-plástica: técnicas y procedimientos"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Operaciones plásticas (reproducir, aislar, transformar, asociar); geometría plana y trazados básicos (incluida la construcción de polígonos regulares e irregulares); técnicas secas, húmedas y mixtas; estudio de artistas como Lola Massieu, Pepe Dámaso, Maribel Nazco, Pedro González, Manolo Sánchez, Martín Chirino, Óscar Domínguez y Felo Monzón; arte prehispánico canario."
+    - bloque: "IV. Imagen y comunicación visual y audiovisual"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Análisis del lenguaje y la comunicación visual y audiovisual; finalidades informativa, comunicativa, expresiva y estética; lectura y análisis de imágenes visuales y audiovisuales; mensajes audiovisuales publicitarios; grados de iconicidad."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM3", "CD1", "CD2", "CD3", "CD5", "CPSAA1", "CPSAA3", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CE1", "CE2", "CE3", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Educación Plástica, Visual y Audiovisual en ESO Canarias (1.º, 2.º y 3.º), regulado por el Decreto 30/2023. Establece ocho competencias específicas (C1-C8) y se concreta en catorce criterios de evaluación para 1.º y 2.º ESO y quince para 3.º ESO, organizados en cuatro bloques de saberes. Integra explícitamente artistas canarios (Cristino de Vera, José Aguiar, Lola Massieu, Pepe Dámaso, César Manrique, Maribel Nazco, Pedro González, Martín Chirino, Óscar Domínguez, Felo Monzón) y el patrimonio histórico-artístico canario."
+observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Se han incorporado los ocho enunciados oficiales de competencias específicas con sus descriptores, los criterios de evaluación literales para 1.º ESO y referencia al anexo oficial para 2.º y 3.º (no se reproducen aquí íntegros), y la síntesis de los cuatro bloques de saberes básicos. La materia se imparte en 1.º, 2.º y 3.º de ESO. Re-extracción del 2026-08-05 (TAREA-073) sobre la copia local del Decreto 30/2023: los descriptores de C6, C7 y C8 se han migrado a mapa por curso conforme a DEC-0008 tras comprobar bloque a bloque los tres bloques competenciales de cada una. La lista plana anterior reproducía en los tres casos la vinculación de 2.º ESO, que es la más amplia; 1.º y 3.º ESO tienen listas más cortas. Los enunciados oficiales de C6, C7 y C8 ya eran literales y no se han modificado."

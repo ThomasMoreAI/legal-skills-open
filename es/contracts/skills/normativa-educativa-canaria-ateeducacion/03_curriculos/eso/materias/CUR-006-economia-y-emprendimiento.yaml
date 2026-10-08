@@ -1,0 +1,141 @@
+id: CUR-006
+titulo: "Economía y Emprendimiento — ESO Canarias"
+etapa: "eso"
+materia: "Economía y Emprendimiento"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Analizar y valorar las fortalezas y debilidades propias y de los demás, gestionando las emociones para adaptarse a entornos cambiantes y diseñar un proyecto personal único."
+      enunciado_oficial: "Analizar y valorar las fortalezas y debilidades propias y de los demás, reflexionando sobre las aptitudes y gestionando de forma eficaz las emociones y las destrezas necesarias, para adaptarse a entornos cambiantes y diseñar un proyecto personal único que genere valor para los demás."
+      descriptores:
+        "4.º ESO": [CCL1, CCL3, CD1, CD2, CPSAA1, CPSAA5, CC1, CE2, CE3, CCEC3]
+    - codigo: "C2"
+      enunciado_resumido: "Utilizar estrategias de conformación de equipos y habilidades sociales aplicándolas con autonomía a las dinámicas de trabajo para constituir grupos eficaces."
+      enunciado_oficial: "Utilizar estrategias de conformación de equipos, así como habilidades sociales, de comunicación e innovación ágil, aplicándolas con autonomía y motivación a las dinámicas de trabajo en distintos contextos, para constituir grupos de trabajo eficaces y descubrir el valor de cooperar con otras personas durante el proceso de ideación y desarrollo de soluciones emprendedoras."
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, CP1, CP2, CD3, CPSAA1, CPSAA3, CC1, CE2]
+    - codigo: "C3"
+      enunciado_resumido: "Elaborar ideas y soluciones innovadoras y sostenibles que respondan a necesidades locales y globales utilizando metodologías ágiles de ideación."
+      enunciado_oficial: "Elaborar, con sentido ético y solidario, ideas y soluciones innovadoras y sostenibles que den respuesta a las necesidades locales y globales detectadas, utilizando metodologías ágiles de ideación y analizando tanto sus puntos fuertes y débiles como el impacto que puedan generar esas ideas en el entorno, para lograr la superación de retos relacionados con la preservación y cuidado del entorno natural, social, cultural y artístico."
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM3, CD1, CPSAA1, CC4, CE1, CE2, CE3, CCEC3]
+    - codigo: "C4"
+      enunciado_resumido: "Seleccionar y reunir los recursos disponibles aplicando estrategias de captación para poner en marcha el proyecto que lleve a la realidad la solución emprendedora."
+      enunciado_oficial: "Seleccionar y reunir los recursos disponibles en el proceso de desarrollo de la idea o solución creativa propuesta, que proporcionan dichos recursos y aplicando estrategias de captación de los mismos, para poner en marcha el proyecto que lleve a la realidad la solución emprendedora."
+      descriptores:
+        "?": [CCL1, CCL3, STEM3, CD1, CD2, CPSAA3, CE1, CE2]
+    - codigo: "C5"
+      enunciado_resumido: "Presentar y exponer ideas y soluciones creativas utilizando estrategias comunicativas ágiles para transmitir mensajes convincentes y validar las ideas presentadas."
+      enunciado_oficial: "Presentar y exponer ideas y soluciones creativas, utilizando estrategias comunicativas ágiles y valorando la importancia de una comunicación efectiva y respetuosa, para transmitir mensajes convincentes adecuados al contexto y a los objetivos concretos de cada situación y validar las ideas y soluciones presentadas."
+      descriptores:
+        "?": [CCL1, CCL2, CCL3, CP1, CD1, CD2, CD3, CPSAA1, CC1, CE1, CE2]
+    - codigo: "C6"
+      enunciado_resumido: "Comprender aspectos básicos de la economía y las finanzas, valorando críticamente la escasez de recursos y los principios de interacción social."
+      enunciado_oficial: "Comprender aspectos básicos de la economía y las finanzas, valorando críticamente el problema de la escasez de recursos y la necesidad de elegir, así como los principios de interacción social desde el punto de vista económico, para relacionar dichos aspectos con la búsqueda y planificación de los recursos necesarios en el desarrollo de la idea o solución emprendedora que afronte el reto planteado de manera eficaz, equitativa y sostenible."
+      descriptores:
+        "?": [CCL1, STEM2, CC1, CC4, CE1, CE2, CE3]
+    - codigo: "C7"
+      enunciado_resumido: "Construir y analizar de manera cooperativa, autónoma y ágil prototipos innovadores y sostenibles aplicando estrategias de diseño y ejecución."
+      enunciado_oficial: "Construir y analizar de manera cooperativa, autónoma y ágil prototipos innovadores y sostenibles, aplicando estrategias eficaces de diseño y ejecución, evaluando todas las fases del proceso de manera crítica y ética, y validando los resultados obtenidos tanto para la mejora y perfeccionamiento de los prototipos creados como para el aprendizaje y el desarrollo personal y colectivo."
+      descriptores:
+        "?": [STEM2, STEM3, CD5, CPSAA3, CPSAA4, CPSAA5, CE2, CE3]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - codigo: "1.1"
+          competencia: "C1"
+          enunciado: "Valorar las fortalezas y debilidades personales, así como la iniciativa y creatividad propia y ajena, haciendo uso de estrategias de autoconocimiento y autoeficacia, para aprender a valorarlas como fuente de crecimiento personal que le permitan afrontar futuros retos personales."
+          descriptores: [CCL1, CPSAA1, CE2, CCEC3]
+        - codigo: "1.2"
+          competencia: "C1"
+          enunciado: "Gestionar de forma eficaz las emociones aplicando estrategias de gestión de la incertidumbre y toma de decisiones adaptadas a contextos cambiantes y utilizando el error y la validación como oportunidades para aprender con la finalidad de fortalecer el optimismo, la resiliencia y la autoestima y poder aplicarlas en distintas situaciones de la vida."
+          descriptores: [CCL3, CD1, CPSAA1, CPSAA5, CE2, CCEC3]
+        - codigo: "1.3"
+          competencia: "C1"
+          enunciado: "Diseñar un proyecto personal generador de valor potenciando las aptitudes y destrezas personales, desarrollando las actitudes creativas y reflexionando sobre el valor estratégico de su marca personal con la finalidad de generar nuevas oportunidades personales y favorecer avances sociales, culturales, artísticos y económicos."
+          descriptores: [CCL1, CD2, CPSAA1, CC1, CE2, CE3]
+        - codigo: "2.1"
+          competencia: "C2"
+          enunciado: "Constituir equipos de trabajo basados en principios de equidad, coeducación e igualdad entre hombres y mujeres, con actitud participativa, motivación y visualización de metas comunes, utilizando técnicas de conformación de equipos y estrategias ágiles de trabajo durante el proceso de desarrollo de soluciones emprendedoras que conduzcan a la consecución del reto propuesto."
+          descriptores: [CCL1, CCL5, CD3, CPSAA1, CPSAA3, CC1, CE2]
+        - codigo: "2.2"
+          competencia: "C2"
+          enunciado: "Poner en práctica habilidades sociales, de comunicación abierta y de liderazgo, cooperación e innovación ágil, valorando las aportaciones y experiencias ajenas y respetando las normas y decisiones tomadas de forma colectiva para descubrir el valor de cooperar con otras personas con espíritu constructivo y empatía en distintos contextos de los ámbitos personal, social, educativo y profesional."
+          descriptores: [CCL1, CCL5, CP1, CP2, CD3, CPSAA3, CC1, CE2]
+        - codigo: "3.1"
+          competencia: "C3"
+          enunciado: "Superar los retos propuestos sobre la preservación y cuidado del entorno natural, social, cultural y artístico, aportando ideas creativas, innovadoras y sostenibles y analizando las ventajas e inconvenientes de las soluciones adoptadas para evaluar el impacto que pudieran generar a nivel personal y en el entorno socioeconómico canario y global al que van dirigidas."
+          descriptores: [CCL1, CCL2, CCL3, STEM1, CD1, CC4, CE1, CE2, CCEC3]
+        - codigo: "3.2"
+          competencia: "C3"
+          enunciado: "Aplicar metodologías ágiles siguiendo los criterios y pautas establecidos en el proceso de construcción de ideas, que den solución ética y solidaria a las necesidades detectadas, atendiendo a razonamientos y resultados científicos, con la finalidad de promover el desarrollo sostenible con visión creativa, emprendedora y comprometida."
+          descriptores: [CCL1, STEM3, CPSAA1, CC4, CE1, CE3, CCEC3]
+        - codigo: "4.1"
+          competencia: "C4"
+          enunciado: "Diseñar de forma cooperativa un proyecto de conversión de las ideas en acciones emprendedoras, seleccionando y reuniendo los recursos materiales, inmateriales y digitales disponibles para poner en marcha un proceso creativo que lleve a la realidad una solución innovadora, ética y sostenible para la necesidad o problema que se plantea en su entorno."
+          descriptores: [CCL3, STEM3, CD1, CD2, CPSAA3, CE1, CE2]
+        - codigo: "4.2"
+          competencia: "C4"
+          enunciado: "Utilizar estrategias de captación y gestión de los medios de producción y de las fuentes financieras, aplicando conocimientos económicos y financieros fundamentales para planificar la organización, distribución, uso y optimización de los recursos necesarios para la puesta en marcha de la idea o solución propuesta."
+          descriptores: [CCL1, CCL3, STEM3, CD1, CD2, CE1, CE2]
+        - codigo: "5.1"
+          competencia: "C5"
+          enunciado: "Validar las ideas y soluciones desarrolladas empleando mensajes convincentes y adecuados al contexto y objetivos concretos, utilizando estrategias comunicativas ágiles para participar en la toma de decisiones sobre la elección final con actitud cooperativa y respetuosa en el intercambio de información y creación de conocimiento respecto a las situaciones propuestas."
+          descriptores: [CCL2, CCL3, CD1, CD2, CD3, CPSAA1, CC1, CE2]
+        - codigo: "5.2"
+          competencia: "C5"
+          enunciado: "Presentar y exponer en el entorno las ideas y soluciones creativas adoptadas, utilizando herramientas y estrategias de difusión ágil para valorar la importancia de mantener una comunicación efectiva y respetuosa."
+          descriptores: [CCL1, CP1, CD2, CD3, CE1]
+        - codigo: "6.1"
+          competencia: "C6"
+          enunciado: "Desarrollar una idea o emprendedora utilizando los conocimientos, destrezas y actitudes adquiridos desde el ámbito de la economía y las finanzas, con la finalidad de tomar decisiones sobre la búsqueda y planificación de los recursos escasos, necesarios y disponibles en el entorno que permitan su desarrollo."
+          descriptores: [CCL1, CE1, CE2, CE3]
+        - codigo: "6.2"
+          competencia: "C6"
+          enunciado: "Analizar el comportamiento financiero de las personas utilizando herramientas financieras para comprender con precisión el entorno económico y financiero que les permita optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora de valor."
+          descriptores: [CCL1, STEM2, CC1, CC4, CE2]
+        - codigo: "6.3"
+          competencia: "C6"
+          enunciado: "Valorar los principios de interacción social desde un punto de vista macroeconómico y microeconómico analizando el entorno general y específico y situaciones de negocios reales o simuladas para aplicar conocimientos económicos y financieros a actividades y situaciones concretas."
+          descriptores: [CCL1, STEM2, CC1, CC4, CE2, CE3]
+        - codigo: "7.1"
+          competencia: "C7"
+          enunciado: "Valorar la contribución del prototipo final, tanto para el aprendizaje como para el desarrollo personal y colectivo, evaluando de manera crítica y ética todas las fases del proceso llevado a cabo, así como la adecuación de las estrategias empleadas en la construcción del mismo para alcanzar objetivos a través de la eficacia tanto en las relaciones personales e interpersonales como en la gestión de nuevos proyectos."
+          descriptores: [CPSAA3, CPSAA4, CPSAA5, CE3]
+        - codigo: "7.2"
+          competencia: "C7"
+          enunciado: "Analizar de manera crítica el proceso de diseño y ejecución llevado a cabo en la realización de los prototipos creados, estableciendo comparaciones entre la efectividad, viabilidad y adecuación lograda en los procesos y los resultados obtenidos, para llevar a término el proceso de creación de prototipos innovadores y de valor en el ámbito personal, académico y profesional."
+          descriptores: [STEM2, CPSAA4, CPSAA5, CE2, CE3]
+        - codigo: "7.3"
+          competencia: "C7"
+          enunciado: "Utilizar estrategias eficaces de diseño y ejecución seleccionando aquellas que faciliten la construcción del prototipo final de manera ágil, cooperativa y autónoma para desarrollar habilidades de organización y control de tiempos y autonomía en el aprendizaje proactivo."
+          descriptores: [STEM2, STEM3, CD5, CE3]
+  saberes_basicos:
+    - bloque: "I. El perfil de la persona emprendedora, destrezas para el trabajo en equipo, iniciativa y creatividad"
+      curso: "4.º ESO"
+      detalles: "Identificación del perfil emprendedor: autoconfianza, autoconocimiento, empatía, perseverancia, iniciativa y resiliencia; uso del DAFO personal y otras técnicas de diagnóstico; gestión de las emociones y estrategias de gestión de la incertidumbre; el error y la validación como aprendizaje; diseño de un proyecto personal generador de valor; motivación, habilidades sociales, negociación, liderazgo y comunicación; equipos emprendedores en empresas y organizaciones; conformación y funcionamiento interno de equipos eficaces; estrategias ágiles de trabajo en equipo; entrenamiento de la iniciativa y creatividad mediante design thinking y técnicas de ideación e innovación."
+    - bloque: "II. El entorno como fuente de ideas y oportunidades"
+      curso: "4.º ESO"
+      detalles: "Estrategias de exploración del entorno y visión emprendedora; búsqueda y gestión de la información para identificar oportunidades de mercado y tendencias sociales; influencia del entorno: DAFO empresarial y otros métodos; análisis del entorno social, cultural y ambiental desde la perspectiva económica: huella ecológica, economía circular y colaborativa; emprendimiento en torno al bienestar (economía social y solidaria); ODS y desarrollo local en Canarias; emprendimiento cultural; estrategia empresarial: misión, visión, valores, RSC y contribución a los ODS; análisis del entorno y toma de decisiones de los consumidores; problema económico, principios de elección, racionalidad económica; análisis económico-empresarial: flujo circular de la renta, mercados, sistema financiero e intermediarios."
+    - bloque: "III. Recursos para llevar a cabo un proyecto emprendedor"
+      curso: "4.º ESO"
+      detalles: "Estudio de la organización y gestión en entidades emprendedoras: áreas funcionales; selección ética, eficiente y sostenible de recursos productivos; control y gestión del dinero en finanzas personales y proyecto emprendedor; presupuestos personales; recursos financieros a corto y largo plazo y bienestar financiero; gestión del endeudamiento; tipología, ventajas e inconvenientes de fuentes de financiación y formas de captación; gestión del riesgo y contratos de seguros."
+    - bloque: "IV. La realización del proyecto emprendedor"
+      curso: "4.º ESO"
+      detalles: "Reto o desafío como objetivo en el desarrollo de soluciones emprendedoras; planificación, gestión y ejecución cooperativa de un proyecto grupal: del reto al prototipo; aplicación de técnicas y herramientas de prototipado rápido para representar la solución a validar; presentación e introducción del prototipo en el entorno con estrategias ágiles de difusión y comunicación; validación y testado de prototipos: metodologías ágiles, iterativas e incrementales; evaluación del aprendizaje y retroalimentación; derechos sobre el prototipo: modalidades de propiedad intelectual e industrial."
+  descriptores_operativos: [CCL1, CCL2, CCL3, CCL5, CP1, CP2, STEM1, STEM2, STEM3, CD1, CD2, CD3, CD5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC4, CE1, CE2, CE3, CCEC3]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Economía y Emprendimiento en 4.º ESO Canarias, materia regulada por el Decreto 30/2023, con siete competencias específicas y diecisiete criterios de evaluación distribuidos en cuatro bloques: perfil de la persona emprendedora; el entorno como fuente de ideas; recursos para el proyecto emprendedor; y realización del proyecto emprendedor. Integra metodologías ágiles (Design Thinking, Lean Startup, Scrum), DAFO, lienzo de negocios, ODS, Agenda Canaria 2030 y atención al emprendimiento cultural y a la realidad económica canaria."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación en su portal de currículos ESO (Decreto 30/2023). Se han incorporado los enunciados literales de competencias específicas, los 17 criterios de evaluación con sus descriptores operativos y la síntesis de los cuatro bloques de saberes básicos. Materia obligatoria de la Opción C en 4.º ESO según el artículo 25 del Decreto 30/2023."

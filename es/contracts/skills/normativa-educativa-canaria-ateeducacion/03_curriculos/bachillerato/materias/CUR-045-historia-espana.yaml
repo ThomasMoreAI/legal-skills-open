@@ -1,0 +1,152 @@
+id: CUR-045
+titulo: "Historia de España — 2.º Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Historia de España"
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Valorar los movimientos y acciones que han promovido las libertades en la historia de España, utilizando términos y conceptos históricos, a través del análisis comparado de los distintos regímenes políticos, para reconocer el legado democrático de la Constitución de 1978 como fundamento de nuestra convivencia y garantía de nuestros derechos."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, CD1, CPSAA1.2, CPSAA3.1, CPSAA4, CC1, CC2]
+    - codigo: "C2"
+      enunciado_oficial: "Reconocer y valorar la diversidad de nuestro país, por medio del contraste de la información y la revisión crítica de fuentes, tomando conciencia del papel que juega en la actualidad, para respetar los sentimientos de pertenencia, la existencia de identidades múltiples, y las normas y símbolos que establece nuestro marco común de convivencia."
+      descriptores:
+        "2.º Bachillerato": [CCL3, CD1, CPSAA3.1, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C3"
+      enunciado_oficial: "Analizar y valorar la idea de progreso desde la perspectiva del bienestar social y de la sostenibilidad, a través de la interpretación de los factores modernizadores de la economía española, el uso de métodos cuantitativos y el análisis crítico de las desigualdades sociales y territoriales, para considerar el emprendimiento, la innovación y el aprendizaje permanente como elementos fundamentales en un entorno económico y profesional en constante cambio."
+      descriptores:
+        "2.º Bachillerato": [STEM1, STEM4, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1]
+    - codigo: "C4"
+      enunciado_oficial: "Tomar conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española a lo largo del tiempo, la evolución de la población, los niveles y modos de vida, las condiciones laborales y los movimientos y conflictos sociales, para valorar el alcance de las medidas adoptadas y los progresos y limitaciones para avanzar en la igualdad, el bienestar, la justicia y la cohesión social."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, STEM4, CD1, CPSAA3.2, CPSAA4, CC1, CC3, CCEC2]
+    - codigo: "C5"
+      enunciado_oficial: "Analizar críticamente el papel de las creencias y de las ideologías en la articulación social, en el uso del poder y en la configuración de identidades y proyectos políticos contrapuestos, a través del estudio de fuentes primarias y textos historiográficos y la fundamentación de juicios propios, para debatir sobre problemas actuales, transferir conocimiento, valorar la diversidad cultural y mostrar actitudes respetuosas ante ideas legítimas diferentes a las propias."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, STEM4, CD1, CPSAA3.1, CPSAA3.2, CPSAA4, CC1, CC2, CC3, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Interpretar el valor geoestratégico de España y su conexión con la historia mundial, señalando las analogías y singularidades de su evolución histórica en un contexto global cambiante, por medio de la búsqueda y el tratamiento de información, para avalar los compromisos de nuestro país en materias de cooperación y seguridad, promover actitudes solidarias y asumir los valores del europeísmo."
+      descriptores:
+        "2.º Bachillerato": [CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C7"
+      enunciado_oficial: "Incorporar la perspectiva de género en el análisis de la España actual y de su historia, a través de la contextualización histórica de fuentes literarias y artísticas y la investigación sobre el movimiento feminista, para reconocer su presencia en la historia y promover actitudes en defensa de la igualdad efectiva de mujeres y hombres."
+      descriptores:
+        "2.º Bachillerato": [CCL3, CCL4, CCL5, CD1, CPSAA1.1, CPSAA1.2, CPSAA3.1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C8"
+      enunciado_oficial: "Valorar el patrimonio histórico y cultural como legado y expresión de la memoria colectiva, identificando los significados y usos públicos que reciben determinados acontecimientos y procesos del pasado, por medio del análisis de la historiografía y del pensamiento histórico para el desarrollo de la iniciativa, el trabajo en equipo, la creatividad y la implicación en cuestiones de interés social y cultural."
+      descriptores:
+        "2.º Bachillerato": [CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "STEM1", "STEM3", "STEM4", "CD1", "CD2", "CPSAA1.1", "CPSAA1.2", "CPSAA2", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3.2"]
+  criterios_evaluacion:
+    - curso: "2.º Bachillerato"
+      criterios:
+        - id: "1.1"
+          texto: "Conocer la tradición democrática y los movimientos favorables a la libertad, contrastando y comparando los diferentes regímenes políticos, desde la difícil implantación del estado liberal en España hasta la actualidad."
+        - id: "1.2"
+          texto: "Conocer el legado constitucional en España, desde la Constitución de 1812 hasta la actual Constitución española de 1978, contrastando y valorando el grado de consecución de derechos y libertades de dichos textos y su aplicación real."
+        - id: "1.3"
+          texto: "Buscar y contrastar información sobre el proceso de Transición democrática en España y la Constitución española de 1978 como garante de los derechos y libertades de la ciudadanía española, elaborando juicios propios objetivos y fundamentados sobre los principales debates que afectan al sistema constitucional."
+        - id: "2.1"
+          texto: "Reconocer la pluralidad identitaria en España y Canarias, mediante la búsqueda y contraste de la información, para analizar de forma crítica el origen y la evolución de las diferentes identidades nacionales y autonómicas o locales, que se han originado en la historia de España y los diferentes sentimientos de pertenencia."
+        - id: "2.2"
+          texto: "Conocer el proceso de formación del estado y la construcción de la nación española mediante el análisis de los diferentes procesos políticos, culturales y administrativos."
+        - id: "2.3"
+          texto: "Conocer y respetar las diferentes identidades dentro de España, los símbolos y las normas, valorando las acciones, los logros, los resultados y las reacciones ocasionadas."
+        - id: "3.1"
+          texto: "Contrastar y comparar mediante gráficas y recursos digitales el desarrollo económico en España y Canarias, con sus ciclos de crecimiento para determinar el grado de progreso respecto a países de su entorno."
+        - id: "3.2"
+          texto: "Conocer el desarrollo industrial en España para entender los debates historiográficos, teniendo en cuenta el papel de la emprendeduría, la innovación, la actualización y la reconversión para alcanzar los estándares de los cambiantes entornos económico y profesional."
+        - id: "3.3"
+          texto: "Estudiar, de manera multicausal, los diferentes modelos de desarrollo económico aplicados en la España contemporánea y su incidencia en Canarias, para comprender los diferentes significados de la idea de progreso."
+        - id: "3.4"
+          texto: "Analizar críticamente la idea de modernización de España y Canarias, identificando las consecuencias relacionadas con la desigualdad social, los desequilibrios territoriales que ocasionan dependencia y el deterioro del medio ambiente, para buscar soluciones que contemplen los Objetivos de Desarrollo Sostenible y los comportamientos ecosociales."
+        - id: "4.1"
+          texto: "Reconocer la enorme evolución que se ha producido en España a lo largo de su historia en los ámbitos sociales y las diferentes maneras de participación en la vida política, desde la crisis del Antiguo Régimen a la conformación de la nueva sociedad burguesa."
+        - id: "4.2"
+          texto: "Conocer el origen y evolución del concepto de ciudadanía y de las nuevas maneras de sociabilidad, e identificar las desigualdades y acumulación de poder de determinados grupos sociales, analizando fuentes y usando la terminología propia histórica."
+        - id: "4.3"
+          texto: "Estudiar y analizar la diversidad social existente en la historia contemporánea de España y Canarias, para entender la evolución de la población y las transformaciones en las condiciones y modos de vida, profundizando en las causas de la conflictividad social y las consecuencias que derivan en la formación de determinados movimientos sociales, así como las diferentes medidas adoptadas por el Estado."
+        - id: "4.4"
+          texto: "Concluir, a partir del análisis y contraste de noticias y datos estadísticos, sobre la evolución del estado social, identificando y valorando los avances y retrocesos que se han producido y las acciones tomadas por el Estado hasta el presente, el desarrollo en relación con el nivel de vida y el estado de bienestar, argumentando los desafíos y retos que afectan a España, a Canarias y al mundo, mediante una conducta tendente al compromiso social hacia las minorías."
+        - id: "5.1"
+          texto: "Conocer la repercusión que han tenido las creencias religiosas y la influencias de las instituciones eclesiásticas en la configuración territorial y política de España, realizando un juicio crítico objetivo sobre los momentos de uniformidad religiosa y la intolerancia a las minorías étnicas y religiosas."
+        - id: "5.2"
+          texto: "Reconocer las diferentes opciones de organización política que han tenido lugar a lo largo de la historia de España y los proyectos políticos que representaban, mostrando una actitud de respeto ante ideas diferentes a las propias."
+        - id: "5.3"
+          texto: "Identificar, mediante el empleo de fuentes rigurosas y trabajos históricos contrastados, las reformas estructurales efectuadas por la II República, para reflexionar sobre los avances y también los movimientos antidemocráticos que ocasionaron el golpe de estado de 1936, la Guerra Civil y la dictadura franquista."
+        - id: "5.4"
+          texto: "Conocer, a través de la lectura de textos historiográficos, la función que han tenido las diferentes ideologías en la España contemporánea, en los aspectos políticos y sociales, para transmitir ese conocimiento mediante opiniones objetivas y argumentadas."
+        - id: "6.1"
+          texto: "Buscar y seleccionar información de fuentes fiables y contrastadas sobre los retos globales y los compromisos de España en el ámbito internacional, particularmente los que suponen su integración en la Unión Europea."
+        - id: "6.2"
+          texto: "Identificar los valores de la cooperación, la seguridad, la solidaridad, el europeísmo y el ejercicio de una ciudadanía responsable y ética."
+        - id: "6.3"
+          texto: "Conocer el papel que ha jugado España, y concretamente Canarias, en la cartografía, por su situación geoestratégica en el contexto internacional y su relación con procesos históricos relevantes, caracterizando la singularidad de España e identificando los mitos y estereotipos, como la leyenda negra o la idea de decadencia tras el fin del imperio colonial."
+        - id: "7.1"
+          texto: "Estudiar las diferencias entre hombres y mujeres a lo largo de la historia de España mediante el análisis de fuentes fiables para identificar los mecanismos de dominación, los roles asignados y las tareas desempeñadas históricamente por la mujer."
+        - id: "7.2"
+          texto: "Verificar, mediante el tratamiento de la información, contrastando fuentes literarias y artísticas, el papel relegado de muchas mujeres en la historia."
+        - id: "7.3"
+          texto: "Conocer el movimiento feminista en sus diferentes olas y las acciones en favor de la liberación de las mujeres, para valorar y recuperar a las figuras individuales y colectivas como las protagonistas olvidadas y silenciadas."
+        - id: "8.1"
+          texto: "Adquirir un compromiso en la conservación y difusión del patrimonio histórico, su valor patrimonial, social y cultural de la memoria colectiva, considerándolo un bien común que se debe proteger mediante el conocimiento de la memoria colectiva sobre acontecimientos, personajes o elementos patrimoniales."
+        - id: "8.2"
+          texto: "Conocer la memoria colectiva mediante trabajos de investigación, uso de la metodología histórica y la historiografía para generar productos que contribuyan a su difusión."
+  saberes_basicos:
+    - curso: "2.º Bachillerato"
+      bloque: "I. Sociedades en el tiempo"
+      contenido: |
+        1. Métodos de investigación para la construcción del conocimiento de la Historia.
+        1.1. Introducción al proceso de trabajo en la investigación histórica, la historiografía y la metodología histórica. Conciencia histórica y conexión entre el pasado y el presente.
+        1.2. Reconocimiento del uso público de la historia: las interpretaciones historiográficas sobre determinados procesos y acontecimientos relevantes de la historia de España y el análisis de los conocimientos históricos presentes en los debates de la sociedad actual.
+        1.3. Aproximación al significado geoestratégico de la Península Ibérica y de las islas Canarias y la importancia del legado histórico y cultural. Asimilación de la importancia del Mediterráneo, el Atlántico y la Europa continental en las raíces de la historia contemporánea.
+        1.4. Reconocimiento del proceso de construcción nacional en España: de la centralización política y administrativa a la formación y desarrollo del estado liberal.
+        1.5. Análisis del significado de la monarquía hispánica y de la herencia colonial en la España contemporánea. Detección de los estereotipos y singularidades de la historia de España en el contexto internacional. Estudio del papel histórico de Canarias.
+        1.6. Conocimiento del papel del catolicismo en la configuración cultural y política de España y en los movimientos políticos y sociales. La situación de las minorías religiosas. Estudio sobre las relaciones entre la Iglesia y el Estado liberal. Análisis de los conceptos nacionalcatolicismo, laicismo, librepensamiento, secularización y anticlericalismo.
+        1.7. Estudio comparado de los regímenes liberales y del constitucionalismo en España: de los inicios del régimen liberal y la constitución de 1812, los orígenes de la democracia, hasta la Constitución democrática de 1931. Aprendizaje de los términos y conceptos de la historia para el estudio de los sistemas políticos.
+        1.8. Aprendizaje y clasificación de las ideologías y doctrinas políticas en la España contemporánea, desde la conflictividad, pasando por los sistemas políticos y los distintos usos del poder. Estudio de textos y contextos de las facciones, partidos y movimientos políticos, desde el carlismo y las distintas fuerzas monárquicas al republicanismo y el obrerismo revolucionario. Reflexión sobre el papel de los exilios en la España contemporánea y su contribución a la construcción de la Europa de las libertades.
+        2. Sociedad, recursos, territorios y distribución de la riqueza. Los movimientos sociales.
+        2.1. Análisis de los debates historiográficos acerca de la industrialización del país y de su dependencia exterior, dentro de la transición al capitalismo en España. Identificación del modelo de desarrollo económico español, sus ritmos y ciclos de crecimiento.
+        2.2. Las distintas interpretaciones de la transformación de la sociedad estamental y el desarrollo del nuevo concepto de ciudadanía, mediante el reconocimiento de los cambios sociales y sus nuevas formas de sociabilidad.
+        2.3. Indagación sobre la evolución de la sociedad española desde la visión del mundo laboral y sus condiciones de vida. Explicación sobre las características de la población, familias y ciclos de vida. Descripción de servidumbre señorial, proletarización industrial, el nacimiento de las clases medias y el estado del bienestar.
+        2.4. Estudio de las relaciones de interdependencia y de reciprocidad entre el campo y la ciudad desde una perspectiva histórica. Evolución desde la sociedad agraria al éxodo rural y a la España vaciada.
+        2.5. Reconocimiento de la lucha por la igualdad y la justicia social: conflictividad, movimientos sociales y asociacionismo obrero.
+        2.6. Reflexión sobre la acción del sujeto en la historia. La acción del estado y las políticas sociales.
+        2.7. Análisis de las grandes reformas estructurales y el origen histórico de las mismas, dentro de la II República. Descripción de las transformaciones democráticas de España: realizaciones sociales, políticas y culturales; reacciones antidemocráticas contra las reformas.
+        2.8. Aproximación a la historiografía sobre el golpe de estado de 1936, la Guerra Civil y el Franquismo: y al marco conceptual de los sistemas totalitarios y autoritarios. Descripción de los fundamentos ideológicos del régimen franquista, sus relaciones internacionales y las etapas políticas y económicas. Reconocimiento y valoración de la represión, la resistencia, el exilio y los movimientos de protesta contra la dictadura por la recuperación de los valores, derechos y libertades democráticas.
+        3. Igualdad de género.
+        3.1. Identificación de los mecanismos de dominación, roles de género, espacios de actividad y escenarios de sociabilidad de las mujeres en la historia de España y la lucha por la emancipación de la mujer y los movimientos feministas.
+        3.2. Reconocimiento de protagonistas femeninas individuales y colectivas. Aproximación al estudio de fuentes literarias y artísticas en los estudios de género.
+    - curso: "2.º Bachillerato"
+      bloque: "II. Retos del mundo actual"
+      contenido: |
+        1. Conocimiento y valoración de las acciones y movimientos en favor de la libertad en la historia contemporánea de España y Canarias y la concienciación de los hechos traumáticos y dolorosos del pasado y la reflexión sobre el deber de no repetirlos. Reconocimiento, reparación y dignificación de las víctimas de la violencia y del terrorismo en España. Identificación de las políticas de memoria en España y de los lugares de memoria.
+        2. Estudio sobre la conciencia histórica y valoración crítica de fuentes para abordar el origen y la evolución de los nacionalismos y regionalismos en la España contemporánea.
+        3. Crecimiento económico y sostenibilidad.
+        3.1. Utilización y manejo de datos, aplicaciones y gráficos para el análisis de la evolución de la economía española desde el Desarrollismo hasta la actualidad.
+        3.2. Análisis de los desequilibrios sociales, territoriales y ambientales.
+        4. Identificación de los retos, logros dificultades, y resistencias del fin de la dictadura y el establecimiento de la democracia a través del proceso de Transición y la Constitución española de 1978. La normalización democrática y la amenaza del terrorismo. España y Canarias en Europa: derivaciones económicas, sociales y políticas del proceso de integración en la Unión Europea, situación actual y expectativas de futuro.
+        5. España y el mundo.
+        5.1. Estudio de la contribución de España a la seguridad y cooperación mundial y su participación en los organismos internacionales.
+        5.2. Reflexión sobre el compromiso institucional, social y ciudadano ante los Objetivos de Desarrollo Sostenible.
+    - curso: "2.º Bachillerato"
+      bloque: "III. Compromiso cívico"
+      contenido: |
+        1. Conocimiento de los principios y normas constitucionales, ejercicio de los valores cívicos y democráticos y participación ciudadana.
+        2. Reconocimiento de las identidades múltiples y de los símbolos y normas comunes del estado español. Análisis sobre el comportamiento ecosocial y el compromiso con los Objetivos de Desarrollo Sostenible.
+        3. Valoración sobre la ciudadanía ética digital: respeto a la propiedad intelectual. Participación y ejercicio de la ciudadanía global a través de las tecnologías digitales. Prevención y defensa ante la desinformación y la manipulación.
+        4. Conocimiento y asimilación de los valores del europeísmo: principios que guían la idea de la Unión Europea y actitud participativa ante los programas y proyectos comunitarios.
+        5. La puesta en valor de la solidaridad y cooperación: los grandes desafíos que afectan a España, a Canarias y al mundo y conductas tendentes al compromiso social, el asociacionismo y el voluntariado.
+        6. Comprensión de la cultura de seguridad nacional e internacional; instrumentos estatales e internacionales para preservar los derechos, las libertades y el bienestar de la ciudadanía.
+        7. Reconocimiento del valor patrimonial, social y cultural de la memoria colectiva. Concienciación de su conservación y difusión: archivos, museos y centros de divulgación e interpretación histórica.
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Extracción completada el 2026-08-05 a partir de 07_corpus_ia/textos-completos/texto-oficial-CUR-045-historia-espana.txt (texto plano oficial del PDF curricular Historia de España, FTE-012/FTE-009). Las 8 competencias específicas llevan enunciado_oficial literal y descriptores operativos (DEC-0008); la materia solo se imparte en 2.º de Bachillerato. criterios_evaluacion recoge los 26 criterios oficiales (3+3+4+4+4+3+3+2), con id y texto literal completo. saberes_basicos recoge íntegros los tres bloques oficiales (I. Sociedades en el tiempo; II. Retos del mundo actual; III. Compromiso cívico), preservando la numeración original del decreto. Los cuatro elementos de DEC-0004 quedan completos."

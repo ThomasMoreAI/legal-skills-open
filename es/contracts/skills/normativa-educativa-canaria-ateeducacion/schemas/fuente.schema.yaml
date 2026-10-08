@@ -1,0 +1,52 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/fuente.schema.yaml"
+title: Ficha de fuente oficial
+additionalProperties: false
+
+# `required` refleja lo que AGENTS.md §7 exige para dar de alta una fuente.
+# `nivel_evidencia`, `relacionadas` y `fecha_analisis` son recomendados, no
+# obligatorios: una fuente recién catalogada puede no tener aún análisis ni
+# relaciones. El validador los reporta como aviso (11_calidad/validar_corpus.py).
+
+type: object
+required: [id, titulo, tipo_fuente, autoridad, url_oficial, fecha_consulta]
+properties:
+  id:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  titulo:
+    type: string
+  tipo_fuente:
+    type: string
+  autoridad:
+    type: string
+  url_oficial:
+    type: string
+    format: uri
+  fecha_consulta:
+    type: string
+    format: date
+  fecha_analisis:
+    type: [string, 'null']
+    format: date
+  estado_fuente:
+    type: string
+    enum: [Activa, Histórica, Superada, Pendiente de verificación]
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]
+  relacionadas:
+    type: array
+    items:
+      type: string
+  ruta:
+    type: string
+  texto_oficial:
+    type: object
+    additionalProperties: false
+    properties:
+      url_html: {type: string, format: uri}
+      url_pdf: {type: string, format: uri}
+      url_texto_consolidado: {type: string, format: uri}
+      url_anexo: {type: string, format: uri}
+      ruta_texto_plano_local: {type: string}

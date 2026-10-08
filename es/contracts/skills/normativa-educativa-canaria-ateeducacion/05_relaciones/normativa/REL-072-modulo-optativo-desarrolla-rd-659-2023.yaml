@@ -1,0 +1,10 @@
+id: REL-072
+tipo_relacion: "desarrolla"
+origen: NOR-078
+destino: NOR-080
+descripcion: "La Resolución de 25 de febrero de 2026 sobre el módulo profesional optativo concreta en Canarias la optatividad que el Real Decreto 659/2023 prevé para los currículos de grado medio y superior."
+evidencia:
+  fuente: FTE-085
+  localizacion: "Antecedentes de hecho, apartado segundo, de la Resolución de 25 de febrero de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

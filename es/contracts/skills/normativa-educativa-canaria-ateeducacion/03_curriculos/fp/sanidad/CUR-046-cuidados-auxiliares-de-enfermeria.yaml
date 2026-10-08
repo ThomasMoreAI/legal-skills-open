@@ -1,0 +1,489 @@
+id: CUR-046
+titulo: "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias"
+etapa: "formacion-profesional"
+familia_profesional: "Sanidad"
+grado: "gm"
+materia: "Cuidados Auxiliares de Enfermería"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-051
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-13533"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+nota_logse: >
+  Este ciclo formativo pertenece a la era LOGSE (1995). Usa capacidades terminales y
+  criterios de evaluacion en lugar de los Resultados de Aprendizaje (RA) y Criterios de
+  Evaluacion (CE) propios de la era LOE/LOMLOE. Las capacidades terminales estan establecidas
+  en el RD 546/1995 (BOE-A-1995-13533, ensenanzas minimas); los contenidos, en el RD
+  558/1995 (BOE-A-1995-13592, curriculo).
+elementos:
+  modulos_profesionales:
+    - codigo: "M01"
+      nombre: "Operaciones administrativas y documentacion sanitaria"
+      horas_totales: 65
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Relacionar los diferentes tipos de documentacion clinica con sus aplicaciones,
+            describiendo los cauces de tramitacion y manejo de los mismos en funcion del tipo
+            de servicio o institucion sanitaria.
+          criterios_evaluacion:
+            - "Interpretar documentos de citacion senalando el procedimiento adecuado para realizarla, en funcion de los servicios o unidades de diagnostico."
+            - "Enumerar los items de identificacion personal, de la institucion y del servicio de referencia que son necesarios cumplimentar para citar o solicitar pruebas complementarias a los pacientes/clientes."
+            - "Describir la estructura de los documentos y los codigos al uso para realizar el registro de documentos sanitarios, precisando los mecanismos de circulacion de la documentacion en instituciones sanitarias."
+            - "Explicar el significado y estructura de una historia clinica tipo, describiendo la estructura y secuencia logica de guarda de documentos y pruebas diagnosticas."
+            - "Realizar esquemas de instituciones sanitarias, organica y jerarquicamente, describiendo sus relaciones y sus dependencias, tanto internas como generales o de contorno."
+            - "Analizar manuales de normas internas identificando y describiendo las que hacen referencia al desarrollo de su actividad profesional."
+        - numero: 2
+          enunciado: >
+            Seleccionar tecnicas de almacenamiento, distribucion y control de existencias
+            de medios materiales que permitan el correcto funcionamiento de una unidad,
+            gabinete o servicio de atencion a pacientes/clientes.
+          criterios_evaluacion:
+            - "Explicar los metodos de control de existencias y sus aplicaciones para la realizacion de inventarios de materiales."
+            - "Explicar los documentos de control de existencias de almacen, asociando cada tipo con la funcion que desempena en el funcionamiento del almacen."
+            - "Describir las aplicaciones que los programas informaticos de gestion de consultas sanitarias tienen para el control y gestion del almacen."
+            - "En un supuesto practico de gestion de almacen sanitario (consulta/servicio), debidamente caracterizado: identificar las necesidades de reposicion acordes al supuesto descrito, efectuar ordenes de pedido precisando el tipo de material y el/la agente/unidad suministradora, introducir los datos necesarios para el control de existencias en la base de datos, especificar las condiciones de conservacion del material en funcion de sus caracteristicas y necesidades de almacenamiento."
+        - numero: 3
+          enunciado: >
+            Elaborar presupuestos y facturas detalladas de intervenciones/actos sanitarios,
+            relacionando el tipo de acto sanitario con la tarifa y teniendo en cuenta las
+            normas de funcionamiento definidas.
+          criterios_evaluacion:
+            - "Explicar que criterios mercantiles y elementos definen los documentos contables de uso comun en clinicas de atencion sanitaria."
+            - "Describir el funcionamiento y las prestaciones basicas de los programas informaticos aplicados a la elaboracion de presupuestos y facturas."
+            - "Enumerar las normas fiscales que deben cumplir este tipo de documentos mercantiles."
+            - "En un supuesto practico de facturacion, debidamente caracterizado: determinar las partidas que deben ser incluidas en el documento (presupuesto o factura), realizar los calculos necesarios para determinar el importe total y el desglose correcto cumpliendo las normas fiscales vigentes, confeccionar adecuadamente el documento presupuesto o factura segun el supuesto definido."
+
+    - codigo: "M02"
+      nombre: "Tecnicas basicas de enfermeria"
+      horas_totales: 350
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Analizar los requerimientos tecnicos necesarios para realizar la higiene personal
+            de un paciente/cliente en funcion del estado y/o situacion del mismo.
+          criterios_evaluacion:
+            - "Explicar los productos, materiales y utensilios de uso comun en las distintas tecnicas de higiene personal."
+            - "Precisar los cuidados higienicos requeridos por un paciente/cliente, explicando los criterios de seleccion de las tecnicas en funcion del estado y necesidades del mismo."
+            - "Explicar los criterios que permiten clasificar a los pacientes/clientes en los grados de bajo y medio nivel de dependencia fisica."
+            - "Describir los procedimientos de bano y lavado del paciente/cliente, precisando los materiales necesarios para su realizacion en funcion del estado y necesidades del mismo."
+            - "Describir los procedimientos de recogida de excretas, precisando los materiales necesarios para su realizacion en funcion del estado y necesidades del mismo."
+            - "Senalar la secuencia de actividades a realizar para que pueda ser trasladado, convenientemente, un cadaver al tanatorio."
+            - "Describir los procedimientos de amortajamiento de cadaveres, precisando los materiales y productos necesarios para su correcta realizacion."
+            - "Registrar en el soporte adecuado las incidencias acaecidas durante la ejecucion de las tecnicas."
+            - "En un supuesto practico de higiene personal convenientemente caracterizado: seleccionar los medios materiales que se van a utilizar en funcion del supuesto, realizar tecnicas de bano parcial, bano total, lavado de cabello y de boca y dientes, efectuar la recogida de excretas con utilizacion de la cuna y/o de la botella, efectuar las tecnicas de amortajamiento."
+        - numero: 2
+          enunciado: >
+            Adaptar los protocolos de traslado, movilizacion y deambulacion de un
+            paciente/cliente en funcion del estado y necesidades del mismo.
+          criterios_evaluacion:
+            - "Describir las caracteristicas tecnicas y las aplicaciones mas frecuentes de las tecnicas de posicionamiento de pacientes/clientes encamados, en funcion del estado o condiciones del mismo."
+            - "Explicar la tecnica idonea de traslado de un paciente/cliente en funcion del estado y condiciones del mismo, explicando los criterios aplicados para su adaptacion."
+            - "Describir el contenido de la documentacion clinica que debe acompanar al paciente/cliente en su traslado."
+            - "Explicar la tecnica idonea de movilizacion de un paciente/cliente en funcion del estado y condiciones del mismo, explicando los criterios aplicados para su adaptacion."
+            - "Explicar los mecanismos de produccion de las ulceras por presion y los lugares anatomicos de aparicion mas frecuente."
+            - "Explicar las principales medidas preventivas para evitar la aparicion de ulceras por presion y senalar los productos sanitarios para su tratamiento y/o prevencion."
+            - "Describir los criterios que permitan detectar signos de cambio morboso en la piel de personas encamadas."
+            - "En un supuesto practico de movilizacion/traslado debidamente caracterizado: seleccionar los medios materiales y productos que se van a utilizar, informar al paciente/cliente sobre la tecnica que se le va a realizar y su participacion durante la misma, efectuar maniobras de incorporacion, acercamiento al borde de la cama, colocacion en decubito lateral y otras posiciones anatomicas, efectuar traslados en silla de ruedas de cama a camilla y viceversa (con sabana de arrastre y varios asistentes) y de silla a cama."
+        - numero: 3
+          enunciado: >
+            Analizar los requerimientos tecnicos necesarios para facilitar la observacion y/o
+            exploracion medica de un paciente/cliente en funcion de su estado o condiciones
+            fisicas.
+          criterios_evaluacion:
+            - "Explicar las propiedades y las indicaciones de las posiciones anatomicas de uso mas normalizadas para la observacion y/o exploracion de pacientes/clientes, en funcion del estado o condiciones del mismo."
+            - "Explicar, y en su caso, realizar la preparacion de los materiales utilizados en las distintas tecnicas de exploracion medica."
+            - "Describir los medios materiales necesarios que hay que preparar para una exploracion medica, teniendo en cuenta la posicion anatomica en la que esta se efectua."
+            - "Explicar las caracteristicas fisiologicas de las constantes vitales (pulso, respiracion, temperatura y presion arterial) efectuando, en su caso, su medicion entre los alumnos."
+            - "Delimitar los lugares anatomicos mas frecuentes para la obtencion de cada una de las constantes vitales y el material necesario para su correcta realizacion."
+            - "En un supuesto practico de medicion de constantes vitales debidamente caracterizado: seleccionar los medios necesarios para la obtencion de los valores de las constantes vitales a medir, obtener valores reales de temperatura, presion sanguinea, frecuencia cardiaca y respiratoria."
+            - "Confeccionar la grafica de registro de constantes vitales, medir y anotar los valores obtenidos para el balance hidrico, elaborando el registro grafico oportuno."
+        - numero: 4
+          enunciado: >
+            Interpretar ordenes de tratamiento, precisando la via de administracion y el
+            material a utilizar en funcion de la tecnica demandada.
+          criterios_evaluacion:
+            - "Describir las acciones terapeuticas del frio y del calor sobre el organismo humano, explicando sus indicaciones."
+            - "Explicar las aplicaciones terapeuticas de las tecnicas hidrotermales, relacionando las caracteristicas de las aguas minero-medicinales con sus posibles indicaciones."
+            - "Describir las caracteristicas anatomofisiologicas de las vias mas frecuentes de administracion de farmacos."
+            - "Explicar las caracteristicas de los materiales necesarios para la administracion de medicacion por las distintas vias."
+            - "Explicar los procedimientos de aplicacion de tecnicas en aerosolterapia y oxigenoterapia, asi como los materiales necesarios para su correcta aplicacion."
+            - "Describir los principales riesgos asociados a la administracion de medicamentos, en funcion del tipo de farmaco y de la via de administracion."
+            - "En un supuesto practico de tratamiento debidamente caracterizado: interpretar ordenes de tratamiento y seleccionar el equipo de material necesario para su administracion, seleccionar el metodo de aplicacion de frio y calor especificado en el supuesto, preparar la medicacion y hacer el calculo de la dosis a administrar, realizar la administracion de farmacos por via oral, rectal y topica, realizar la administracion de enemas, aplicar tecnicas de tratamiento de aerosolterapia y oxigenoterapia, cumplimentar a su nivel la hoja de medicacion con datos supuestos."
+        - numero: 5
+          enunciado: >
+            Analizar las indicaciones en cuanto a la administracion de dietas, proponiendo
+            y aplicando, en su caso, la tecnica de apoyo a la ingesta mas adecuada en funcion
+            del grado de dependencia.
+          criterios_evaluacion:
+            - "Clasificar los tipos de alimentos por las caracteristicas basicas de sus nutrientes, explicando sus principios inmediatos constitutivos."
+            - "Describir las caracteristicas nutritivas de los distintos tipos de dietas: normal y especiales (blanda, astringente, liquida, de exencion o absoluta, hipo e hipercalorica)."
+            - "En supuestos practicos de apoyo a la ingesta debidamente caracterizados: identificar los materiales necesarios para la administracion de alimentacion enteral y parenteral, posicionar al paciente en la postura anatomica adecuada en funcion de la via de administracion del alimento, especificar las medidas higienico-sanitarias que hay que tener en cuenta durante la realizacion de tecnicas de alimentacion parenteral, efectuar la administracion de comidas en distintos tipos de pacientes relacionando el tipo de dieta con cada paciente y grado de dependencia del mismo, efectuar la alimentacion de un paciente a traves de una sonda nasogastrica, cumplimentar plantillas de dietas segun las necesidades de cada paciente anotando su distribucion y la necesidad o no de apoyo."
+        - numero: 6
+          enunciado: >
+            Analizar las tecnicas de asistencia sanitaria de urgencia determinando la mas
+            adecuada en funcion de la situacion y grado de aplicabilidad.
+          criterios_evaluacion:
+            - "Explicar los signos y sintomas mas comunes que producen los traumatismos: fracturas, esguinces y luxaciones, determinando las maniobras de inmovilizacion oportunas."
+            - "Describir y poner a punto el material necesario para realizar vendajes y colocar/aplicar ferulas."
+            - "Explicar los contenidos y secuencias de aplicacion de las tecnicas de reanimacion cardiopulmonar."
+            - "Explicar los distintos tipos de quemaduras en funcion de su extension y profundidad, describiendo las medidas de asistencia sanitaria de urgencia mas adecuadas para cada una de ellas."
+            - "Explicar los distintos tipos de heridas y clases de hemorragias, describiendo las maniobras de actuacion inmediata en funcion del tipo y situacion de las mismas."
+            - "Precisar las variables que aconsejan la realizacion de un torniquete en una situacion de emergencia."
+            - "Describir el contenido minimo y sus indicaciones de los elementos que debe contener generalmente un botiquin de urgencias."
+            - "Diferenciar las principales clases de intoxicaciones por sus sintomas mas representativos, enumerando las vias de penetracion y metodos de eliminacion."
+            - "Explicar la informacion que, sobre el suceso y aspecto del accidentado, puede ser demandada por el facultativo en una consulta a distancia."
+            - "En un supuesto practico de primeros auxilios debidamente caracterizado: efectuar vendajes y colocar ferulas simples, ejecutar maniobras basicas de RCP, efectuar maniobras de inmovilizacion de fracturas de diversa localizacion (columna vertebral, miembro superior, miembro inferior y politraumatizado), confeccionar el listado basico de material y productos sanitarios que debe contener un botiquin de urgencias, efectuar maniobras de inhibicion de hemorragias."
+
+    - codigo: "M03"
+      nombre: "Higiene del medio hospitalario y limpieza de material"
+      horas_totales: 155
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Analizar las tecnicas de limpieza, desinfeccion y esterilizacion que deben
+            aplicarse a los materiales e instrumentos de uso comun en la asistencia sanitaria
+            a pacientes.
+          criterios_evaluacion:
+            - "Explicar el proceso de desinfeccion, describiendo los metodos a utilizar en funcion de las caracteristicas de los medios materiales utilizables."
+            - "Describir la secuencia de operaciones para efectuar la limpieza de los medios materiales de uso clinico."
+            - "Enumerar los criterios que permiten clasificar el material en funcion de su origen, en septico y no septico."
+            - "Explicar el proceso de esterilizacion, describiendo los metodos a emplear en funcion de las caracteristicas y composicion de los instrumentos."
+            - "Explicar los diferentes metodos de control de la calidad de los procedimientos de esterilizacion, indicando en cada caso el mas adecuado."
+            - "En un caso practico de higiene hospitalaria debidamente caracterizado: decidir la tecnica de higiene adecuada a las caracteristicas del caso, seleccionar los medios y productos de limpieza en funcion de la tecnica, aplicar correctamente tecnicas de limpieza adecuadas al tipo de material, aplicar correctamente tecnicas de desinfeccion, aplicar correctamente tecnicas de esterilizacion, comprobar la calidad de la esterilizacion efectuada."
+        - numero: 2
+          enunciado: >
+            Analizar las condiciones higienico-sanitarias que debe cumplir una unidad de
+            paciente, describiendo los metodos y tecnicas para conseguirlas.
+          criterios_evaluacion:
+            - "Describir los medios materiales y accesorios que integran las consultas y/o las unidades de paciente, describiendo la funcion que desempenan en la misma."
+            - "Explicar los tipos de camas y accesorios que son de uso mas frecuente en ambito hospitalario."
+            - "Describir los diferentes tipos de colchones y ropa de cama, describiendo las tecnicas de doblaje y de preparacion para su posterior utilizacion."
+            - "Describir los procedimientos de limpieza de camas y criterios de sustitucion de accesorios en situaciones especiales."
+            - "Explicar la secuencia de operaciones e informaciones a transmitir a los pacientes/clientes en el acto de recepcion y alojamiento en la unidad de paciente."
+            - "Explicar las tecnicas de realizacion de los distintos tipos de cama, en funcion del estado del paciente, que garanticen las necesidades de confort del paciente/cliente."
+            - "En un supuesto practico de cuidado de una unidad de paciente, debidamente caracterizado: preparar la ropa de cama necesaria para ordenar y/o preparar distintos tipos de cama, limpiar y ordenar la unidad de paciente, realizar tecnicas de preparacion y de apertura de la cama en sus distintas modalidades."
+        - numero: 3
+          enunciado: >
+            Analizar los procedimientos de aislamiento, determinando sus usos concretos en
+            el control/prevencion de infecciones hospitalarias.
+          criterios_evaluacion:
+            - "Describir las caracteristicas fisiopatologicas de las enfermedades transmisibles y enumerar las medidas generales de prevencion."
+            - "Explicar los metodos de aislamiento, indicando sus aplicaciones en pacientes con enfermedades transmisibles."
+            - "Describir los principios a cumplir en relacion a las tecnicas de aislamiento, en funcion de la unidad/servicio y/o del estado del paciente/cliente."
+            - "Describir los medios materiales al uso en la realizacion de las tecnicas de aislamiento."
+            - "En un supuesto practico de aislamiento, debidamente caracterizado: determinar el procedimiento adecuado a la situacion, seleccionar los medios materiales que son necesarios, realizar tecnicas de lavado de manos basico y quirurgico, realizar tecnicas de puesta de gorro, bata, calzas, guantes, etc., empleando el metodo adecuado."
+        - numero: 4
+          enunciado: >
+            Explicar los procesos de recogida de muestras, precisando los medios y tecnicas
+            precisas en funcion del tipo de muestra a recoger.
+          criterios_evaluacion:
+            - "Describir los medios materiales a utilizar en funcion del origen de la muestra biologica a recoger."
+            - "Definir los diferentes tipos de residuos clinicos explicando los procedimientos de eliminacion."
+            - "Explicar los requerimientos tecnicos de los procedimientos de recogida de muestras en funcion de su origen biologico."
+            - "Describir los riesgos sanitarios asociados a los residuos clinicos en el medio hospitalario."
+            - "En un supuesto practico de recogida y eliminacion de residuos, debidamente caracterizado: escoger los medios necesarios para la recogida de muestras de sangre y de orina, efectuar tecnicas de recogida de eliminaciones de orina y heces, limpiar y desinfectar los medios de recogida de muestras de orina y de heces."
+
+    - codigo: "M04"
+      nombre: "Promocion de la salud y apoyo psicologico al paciente"
+      horas_totales: 130
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Analizar circunstancias psicologicas que pueden provocar disfunciones de
+            comportamiento en pacientes con condiciones especiales.
+          criterios_evaluacion:
+            - "Explicar que es la ansiedad, enumerar sus causas etiologicas y precisar que factores la pueden generar durante la estancia en un hospital."
+            - "Describir las etapas que definen el desarrollo evolutivo y afectivo del nino."
+            - "Describir cual es el rol del enfermo y enunciar las reacciones anomalas que potencian esa sensacion."
+            - "Explicar el rol profesional del personal sanitario de este nivel de cualificacion."
+            - "Describir los principales mecanismos para evitar o disminuir el grado de ansiedad en los pacientes."
+            - "Explicar las teorias psicologicas existentes sobre la formacion y desarrollo de la personalidad."
+            - "Explicar el sentido del concepto comunicacion y describir los elementos que la constituyen."
+            - "Describir las fases que se dan en la relacion paciente-sanitario y que factores pueden alterar esta relacion."
+            - "Explicar los mecanismos de ayuda que pueden ser empleados en pacientes terminales o con enfermedades cronicas o de larga duracion."
+        - numero: 2
+          enunciado: >
+            Analizar las condiciones psicologicas de pacientes de grupos de riesgo o con
+            caracteristicas especiales.
+          criterios_evaluacion:
+            - "Especificar las caracteristicas comunes de los ancianos y los modos de relacionarse con pacientes geriatricos."
+            - "Explicar las peculiaridades psicologicas de los ninos y adolescentes enfermos, precisando los modos adecuados de relacion con ellos."
+            - "En un supuesto practico de relacion con enfermos de caracteristicas especiales, debidamente caracterizado: enumerar las variables psicologicas que hay que observar en un paciente con VIH y/o procesos neoformativos para mejorar su estado animico, afrontar diversas situaciones de relacion con pacientes con caracteristicas fisiopatologicas peculiares o patologia especial, elaborar un resumen sobre los factores de riesgo y conducta a seguir con pacientes portadores del VIH, enunciar las fases evolutivas de un enfermo moribundo y como relacionarse con los familiares en cada una de ellas."
+        - numero: 3
+          enunciado: >
+            Explicar los metodos y medios materiales usados en actividades de educacion
+            sanitaria, describiendo las aplicaciones de los mismos en funcion del tipo de
+            programa.
+          criterios_evaluacion:
+            - "Explicar las caracteristicas fundamentales de los programas de promocion de la salud en estados fisiologicos."
+            - "Describir las caracteristicas elementales de los programas de prevencion de enfermedades especificas."
+            - "Enumerar los objetivos que debe reunir todo programa de promocion de la salud."
+            - "Enumerar los colectivos organizados de pacientes con patologias especificas describiendo los rasgos basicos de sus actividades de ayuda."
+            - "Explicar los metodos de transmision de informacion de uso comun en actividades de informacion sanitaria."
+            - "En un supuesto practico de informacion sanitaria, debidamente caracterizado: identificar las actividades a realizar, seleccionar los materiales de apoyo en funcion del colectivo al que se dirige, simular y ejemplificar ante los companeros estrategias de transmision de la informacion sanitaria descrita en el supuesto."
+
+    - codigo: "M05"
+      nombre: "Tecnicas de ayuda odontologica/estomatologica"
+      horas_totales: 130
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Analizar los procedimientos tecnicos necesarios para la preparacion y conservacion
+            de materiales dentales que permitan la utilizacion/aplicacion directa por el
+            facultativo.
+          criterios_evaluacion:
+            - "Describir las caracteristicas fisico-quimicas de los materiales dentales de uso comun en consultas odontologicas, describiendo sus indicaciones y procedimientos de preparacion."
+            - "Describir los procedimientos de conservacion de los materiales dentales que permiten optimizar los rendimientos."
+            - "Explicar las operaciones de preparacion de materiales dentales que hay que realizar previas a la solicitud de dispensacion por parte del facultativo."
+            - "En un caso practico de preparacion de materiales dentales, debidamente caracterizado: identificar el tipo o tipos de material que se requieren, preparar las cantidades y proporciones adecuadas de material, mezclar, espatular y/o batir tanto manual como mecanicamente los componentes de material dental que hay que preparar consiguiendo la textura optima en funcion del tipo de solicitaciones descritas, dispensar el material preparado utilizando los medios de soporte adecuados al tipo de material."
+        - numero: 2
+          enunciado: >
+            Analizar las caracteristicas de los equipos e instrumental dental, realizando las
+            operaciones necesarias para la preparacion y dispensacion del instrumental dental
+            y la prestacion de apoyo durante la actuacion bucodental.
+          criterios_evaluacion:
+            - "Describir el instrumental dental de mano, sus condiciones de preparacion y su aplicacion en las distintas tecnicas operatorias."
+            - "Explicar los soportes de anotacion y registro en clinicas dentales, empleando la nomenclatura utilizada en anatomia dental."
+            - "Describir las tecnicas operatorias a cuatro y seis manos, describiendo las operaciones que debe realizar cada miembro del equipo."
+            - "Describir las tecnicas de aislamiento absoluto y relativo del campo operatorio dental, enumerando los medios necesarios para cada operatoria dental."
+            - "Describir las caracteristicas, utilidades, mantenimiento preventivo y manejo del equipo dental y del instrumental rotatorio."
+            - "Explicar los procedimientos de limpieza y desinfeccion especificos del medio bucodental, describiendo el adecuado en funcion de las caracteristicas del material y del uso al que se destina."
+            - "En un supuesto practico de asistencia al odontoestomatologo, debidamente caracterizado: preparar la historia clinica y comprobar que no le falta informacion imprescindible, efectuar si no se ha definido la ficha dental del caso sometido a estudio, seleccionar y preparar el material que se necesitara en funcion de la tecnica que se quiere realizar, disponer el equipo dental y el instrumental rotatorio especifico para la tecnica indicada asegurando el nivel de limpieza y esterilizacion del mismo, fijar el nivel de iluminacion que requiere la tecnica, dispensar el material e instrumental necesario en el tiempo y forma adecuados a la ejecucion de la tecnica, aspirar e iluminar adecuadamente el campo operatorio durante la intervencion del facultativo, efectuar aislamientos del campo operatorio mediante la aplicacion de diques de goma, efectuar tecnicas de ayuda de cuatro y seis manos en diversas situaciones operatorias."
+        - numero: 3
+          enunciado: >
+            Explicar las caracteristicas de los diferentes tipos de pelicula radiografica
+            utilizados en equipos de diagnostico bucodental, precisando el adecuado en
+            funcion del tipo de exploracion.
+          criterios_evaluacion:
+            - "Explicar los procedimientos de revelado y archivo de exposiciones y registros radiograficos bucodentales."
+            - "Escoger los elementos materiales necesarios para obtener registros radiograficos de la boca, enumerandolos en funcion del tipo de proyeccion y zona anatomica examinada."
+            - "Precisar, y en su caso aplicar, las normas generales y personales de radioproteccion en consultas bucodentales describiendo los elementos necesarios en funcion de los distintos tipos de radiografias dentales."
+            - "En un supuesto practico de realizacion de varias proyecciones de radiografia dental, debidamente caracterizado: seleccionar el tipo de pelicula en funcion de los casos propuestos, preparar los posicionadores y elementos auxiliares necesarios, preparar y colocar sobre el modelo los elementos de radioproteccion protocolizados para cada tecnica definida, revelar fijar y secar correctamente una pelicula radiografica previamente impresionada, efectuar correctamente las medidas de identificacion de conservacion y archivado que deben seguirse con los distintos tipos de radiografias."
+        - numero: 4
+          enunciado: >
+            Analizar las necesidades de cuidados fisicos y psicologicos que es preciso tener
+            en cuenta durante el proceso de intervencion dental segun el tipo de paciente.
+          criterios_evaluacion:
+            - "Describir las caracteristicas anatomofisiologicas de la inervacion del aparato estomatognatico."
+            - "Explicar las acciones e indicaciones que deben reunir los anestesicos de uso comun en cavidad oral."
+            - "Enumerar las principales complicaciones que pueden producirse durante la realizacion de una tecnica de anestesia local."
+            - "Describir tecnicas de relajacion y apoyo psicologico para disminuir la ansiedad previa y durante una intervencion dental."
+            - "Explicar los requisitos que deben cumplir las maniobras de acondicionamiento de pacientes en el sillon dental."
+            - "Explicar los contenidos que deben suministrarse a los pacientes despues de una intervencion dental, para favorecer el proceso postoperatorio, en funcion del tipo de tecnica dental aplicada."
+
+    - codigo: "M06"
+      nombre: "Relaciones en el equipo de trabajo"
+      horas_totales: 65
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Utilizar eficazmente las tecnicas de comunicacion para recibir y transmitir
+            instrucciones e informacion.
+          criterios_evaluacion:
+            - "Describir los elementos basicos de un proceso de comunicacion."
+            - "Clasificar y caracterizar las etapas del proceso de comunicacion."
+            - "Identificar las barreras e interferencias que dificultan la comunicacion."
+            - "En supuestos practicos de recepcion de instrucciones analizar su contenido distinguiendo: el objetivo fundamental de la instruccion, el grado de autonomia para su realizacion, los resultados que se deben obtener, las personas a las que se debe informar y quien, como y cuando se debe controlar el cumplimiento de la instruccion."
+            - "Transmitir la ejecucion practica de ciertas tareas, operaciones o movimientos comprobando la eficacia de la comunicacion."
+            - "Demostrar interes por la descripcion verbal precisa de situaciones y por la utilizacion correcta del lenguaje."
+        - numero: 2
+          enunciado: >
+            Afrontar los conflictos y resolver, en el ambito de sus competencias, problemas
+            que se originen en el entorno de un grupo de trabajo.
+          criterios_evaluacion:
+            - "En casos practicos, identificar los problemas, factores y causas que generan un conflicto."
+            - "Definir el concepto y los elementos de la negociacion."
+            - "Demostrar tenacidad y perseverancia en la busqueda de soluciones a los problemas."
+            - "Discriminar entre datos y opiniones."
+            - "Exigir razones y argumentaciones en las tomas de postura propias y ajenas."
+            - "Presentar ordenada y claramente el proceso seguido y los resultados obtenidos en la resolucion de un problema."
+            - "Identificar los tipos y la eficacia de los posibles comportamientos en una situacion de negociacion."
+            - "Superar equilibrada y armonicamente las presiones e intereses entre los distintos miembros de un grupo."
+            - "Explicar las diferentes posturas e intereses que pueden existir entre los trabajadores y la direccion de una organizacion."
+            - "Respetar otras opiniones demostrando un comportamiento tolerante ante conductas, pensamientos o ideas no coincidentes con las propias."
+            - "Comportarse en todo momento de manera responsable y coherente."
+        - numero: 3
+          enunciado: >
+            Trabajar en equipo y, en su caso, integrar y coordinar las necesidades del grupo
+            de trabajo en unos objetivos, politicas y/o directrices predeterminados.
+          criterios_evaluacion:
+            - "Describir los elementos fundamentales de funcionamiento de un grupo y los factores que pueden modificar su dinamica."
+            - "Explicar las ventajas del trabajo en equipo frente al individual."
+            - "Analizar los estilos de trabajo en grupo."
+            - "Describir las fases de desarrollo de un equipo de trabajo."
+            - "Identificar la tipologia de los integrantes de un grupo."
+            - "Describir los problemas mas habituales que surgen entre los equipos de trabajo a lo largo de su funcionamiento."
+            - "Describir el proceso de toma de decisiones en equipo: la participacion y el consenso."
+            - "Adaptarse e integrarse en un equipo colaborando, dirigiendo o cumpliendo las ordenes segun los casos."
+            - "Aplicar tecnicas de dinamizacion de grupos de trabajo."
+            - "Participar en la realizacion de un trabajo o en la toma de decisiones que requieran un consenso."
+            - "Demostrar conformidad con las normas aceptadas por el grupo."
+        - numero: 4
+          enunciado: >
+            Participar y/o moderar reuniones colaborando activamente o consiguiendo la
+            colaboracion de los participantes.
+          criterios_evaluacion:
+            - "Describir los diferentes tipos y funciones de las reuniones."
+            - "Identificar la tipologia de participantes en una reunion."
+            - "Describir las etapas de desarrollo de una reunion."
+            - "Aplicar tecnicas de moderacion de reuniones."
+            - "Exponer las ideas propias de forma clara y concisa."
+        - numero: 5
+          enunciado: >
+            Analizar el proceso de motivacion relacionandolo con su influencia en el clima
+            laboral.
+          criterios_evaluacion:
+            - "Describir las principales teorias de la motivacion."
+            - "Definir la motivacion y su importancia en el entorno laboral."
+            - "Identificar las tecnicas de motivacion aplicables en el entorno laboral."
+            - "Definir el concepto de clima laboral y relacionarlo con la motivacion."
+
+    - codigo: "M07"
+      nombre: "Formacion y orientacion laboral"
+      horas_totales: 65
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Detectar las situaciones de riesgo mas habituales en el ambito laboral que puedan
+            afectar a su salud y aplicar las medidas de proteccion y prevencion
+            correspondientes.
+          criterios_evaluacion:
+            - "Identificar, en situaciones de trabajo tipo, los factores de riesgo existentes."
+            - "Describir los danos a la salud en funcion de los factores de riesgo que los generan."
+            - "Identificar las medidas de proteccion y prevencion en funcion de la situacion de riesgo."
+        - numero: 2
+          enunciado: >
+            Aplicar las medidas sanitarias basicas inmediatas en el lugar del accidente en
+            situaciones simuladas.
+          criterios_evaluacion:
+            - "Identificar la prioridad de intervencion en el supuesto de varios lesionados o de multiples lesionados, conforme al criterio de mayor riesgo vital intrinseco de lesiones."
+            - "Identificar la secuencia de medidas que deben ser aplicadas en funcion de las lesiones existentes."
+            - "Realizar la ejecucion de las tecnicas sanitarias (RCP, inmovilizacion, traslado...), aplicando los protocolos establecidos."
+        - numero: 3
+          enunciado: >
+            Diferenciar las formas y procedimientos de insercion en la realidad laboral como
+            trabajador por cuenta ajena o por cuenta propia.
+          criterios_evaluacion:
+            - "Identificar las distintas modalidades de contratacion laboral existentes en su sector productivo que permite la legislacion vigente."
+            - "Describir el proceso que hay que seguir y elaborar la documentacion necesaria para la obtencion de un empleo, partiendo de una oferta de trabajo de acuerdo con su perfil profesional."
+            - "Identificar y cumplimentar correctamente los documentos necesarios, de acuerdo con la legislacion vigente, para constituirse en trabajador por cuenta propia."
+        - numero: 4
+          enunciado: >
+            Orientarse en el mercado de trabajo, identificando sus propias capacidades e
+            intereses y el itinerario profesional mas idoneo.
+          criterios_evaluacion:
+            - "Identificar y evaluar las capacidades, actitudes y conocimientos propios con valor profesionalizador."
+            - "Definir los intereses individuales y sus motivaciones, evitando, en su caso, los condicionamientos por razon de sexo o de otra indole."
+            - "Identificar la oferta formativa y la demanda laboral referida a sus intereses."
+        - numero: 5
+          enunciado: >
+            Interpretar el marco legal del trabajo y distinguir los derechos y obligaciones
+            que se derivan de las relaciones laborales.
+          criterios_evaluacion:
+            - "Emplear las fuentes basicas de informacion del derecho laboral (Constitucion, Estatuto de los trabajadores, Directivas de la Union Europea, convenio colectivo) distinguiendo los derechos y las obligaciones que le incumben."
+            - "Interpretar los diversos conceptos que intervienen en una liquidacion de haberes."
+            - "En un supuesto de negociacion colectiva tipo: describir el proceso de negociacion, identificar las variables (salariales, seguridad e higiene, productividad, tecnologicas) objeto de negociacion, describir las posibles consecuencias y medidas resultado de la negociacion."
+            - "Identificar las prestaciones y obligaciones relativas a la Seguridad Social."
+
+    - codigo: "FCT"
+      nombre: "Formacion en centros de trabajo"
+      horas_totales: 440
+      capacidades_terminales:
+        - numero: 1
+          enunciado: >
+            Asistir al facultativo en una consulta dental durante la realizacion de tecnicas
+            intervencionistas extra e intrabucales.
+          criterios_evaluacion:
+            - "Comprobar que las existencias de material cumplen las condiciones de calidad y esterilidad precisa."
+            - "Seleccionar el tipo y cantidad que se necesita para realizar operaciones de obturacion."
+            - "Disponer los instrumentos necesarios y secuenciarlos en funcion de la tecnica que se realiza."
+            - "Recoger los restos de material y limpiar los instrumentos utilizados, dejando el sillon dental en condiciones de recibir al siguiente cliente/paciente."
+        - numero: 2
+          enunciado: >
+            Revelar y archivar exposiciones y registros radiograficos bucodentales.
+          criterios_evaluacion:
+            - "Escoger el tipo de pelicula radiografica que corresponde a las diferentes tecnicas exploratorias."
+            - "Disponer sobre el paciente/cliente los medios de proteccion radiologica que requiere la tecnica que se ejecuta y realizar las medidas de autoproteccion."
+            - "Revelar, secar e identificar el registro de forma univoca."
+            - "Archivar junto con la ficha dental de intervencion en la historia clinica del individuo atendido."
+        - numero: 3
+          enunciado: >
+            Transmitir a pacientes y familiares los conocimientos necesarios para la mejora
+            de conductas y fomentar habitos saludables.
+          criterios_evaluacion:
+            - "Transmitir a los pacientes y/o sus familiares la informacion sanitaria que precisa para fomentar habitos saludables y de apoyo al individuo enfermo."
+            - "Potenciar los efectos terapeuticos, informando y siguiendo las instrucciones y etapas del proceso senaladas por el facultativo."
+        - numero: 4
+          enunciado: >
+            Realizar tecnicas de limpieza de material clinico e instrumental sanitario.
+          criterios_evaluacion:
+            - "Clasificar el instrumental clinico no desechable en funcion del procedimiento y productos necesarios para su limpieza, desinfeccion y posterior esterilizacion."
+            - "Verificar el grado de esterilizacion del material e instrumental mediante la lectura de test quimicos y/o biologicos."
+            - "Eliminar los residuos, organicos e inorganicos, que se generan en el funcionamiento de una consulta, aplicando las tecnicas idoneas en funcion de su naturaleza."
+            - "Desinfectar instrumental sanitario aplicando tecnicas fisicas y quimicas en funcion del tipo y uso destinado del material."
+        - numero: 5
+          enunciado: >
+            Realizar tecnicas de higiene de pacientes encamados y cambiar la ropa de la cama
+            ocupada y/o desocupada.
+          criterios_evaluacion:
+            - "Preparar los medios materiales necesarios para realizar la limpieza y aseo de pacientes encamados (ropa de cama y ropa del paciente)."
+            - "Realizar tecnicas de aislamiento y prevencion de infecciones hospitalarias, vistiendose adecuadamente."
+            - "Ejecutar el cambio de ropa en camas desocupadas."
+            - "Ejecutar el cambio de ropa en camas ocupadas con pacientes de medio y bajo nivel de dependencia fisica, solicitando su colaboracion si esta es posible."
+            - "Asistir al personal diplomado en enfermeria en la realizacion del cambio de ropa e higiene de pacientes con nivel alto de dependencia fisica y/o en unidades especiales."
+            - "Preparar y aplicar tecnicas de higiene y prevencion de escaras a pacientes encamados."
+            - "Limpiar y ordenar unidades de pacientes en diversos servicios y unidades."
+            - "Realizar tecnicas de bano parcial, bano total, lavado de cabello y de boca y dientes a pacientes encamados."
+        - numero: 6
+          enunciado: >
+            Medir constantes vitales, efectuar el registro de los datos y generar los graficos
+            correspondientes.
+          criterios_evaluacion:
+            - "Preparar el material de toma de tension arterial y temperatura."
+            - "Informar al paciente de lo que se le va a hacer y efectuar la medida de las constantes vitales marcadas en su hoja de enfermeria (temperatura, presion sanguinea, frecuencia cardiaca y frecuencia respiratoria)."
+            - "Registrar los datos en la hoja de enfermeria, comunicando al superior jerarquico cualquier incidencia que se haya producido."
+            - "Obtener muestras de excretas, anotando el valor medido en la hoja de enfermeria para la realizacion del balance hidrico del paciente."
+        - numero: 7
+          enunciado: >
+            Aplicar tecnicas basicas de enfermeria a pacientes en diferentes situaciones y
+            unidades.
+          criterios_evaluacion:
+            - "Movilizar pacientes encamados, siguiendo las indicaciones y momentos prescritos, poniendoles en diferentes posiciones anatomicas."
+            - "Trasladar pacientes desde la cama al sillon aplicando la tecnica adecuada."
+            - "Efectuar operaciones de incorporacion, acercamiento al borde de la cama, colocacion en decubito lateral y demas posiciones anatomicas, previo informe al paciente, para su movilizacion o traslado."
+            - "Realizar aplicaciones locales de frio y/o calor, disponiendo los medios materiales y preparando la zona anatomica del paciente para su aplicacion."
+            - "Interpretar ordenes de tratamiento seleccionando el material necesario para administrar medicamentos y/o farmacos por via oral, rectal y topica, efectuando los calculos necesarios para adaptar la dosis a la prescripcion."
+            - "Alimentar a pacientes portadores de sonda nasogastrica, preparando y retirando los medios materiales precisos para este tipo de tecnica de alimentacion."
+        - numero: 8
+          enunciado: >
+            Efectuar operaciones de gestion administrativa y control de almacen, en un
+            servicio y/o consulta medica.
+          criterios_evaluacion:
+            - "Ordenar adecuadamente el almacen de planta, efectuando las ordenes de pedido precisas para mantener operativo el mismo."
+            - "Elaborar presupuestos sobre intervenciones sanitarias, cumplimentando todos los requisitos legales de este tipo de documentos mercantiles."
+            - "Elaborar facturas sobre intervenciones dentales, cumplimentando todos los requisitos legales de este tipo de documentos mercantiles."
+            - "Organizar el archivo de historias clinicas de la consulta y solicitar del archivo central las historias necesarias para la consulta diaria."
+
+relaciones:
+  desarrolla_a: [NOR-051]
+  relacionada_con: [NOR-007]
+resumen_ia: >
+  Ciclo formativo de Grado Medio de la familia Sanidad, era LOGSE (1995). Contiene 8 modulos
+  profesionales (incluyendo FCT) con una duracion total de 1.400 horas. Usa capacidades
+  terminales en lugar de resultados de aprendizaje (nomenclatura LOE). Los modulos cubren
+  tecnicas basicas de enfermeria (M02, 350 h), higiene hospitalaria (M03, 155 h),
+  documentacion sanitaria (M01, 65 h), promocion de la salud (M04, 130 h), tecnicas
+  odontologicas (M05, 130 h), relaciones de equipo (M06, 65 h), FOL (M07, 65 h) y FCT
+  (440 h). Las capacidades terminales y criterios de evaluacion estan establecidos en el
+  RD 546/1995 (BOE-A-1995-13533, ensenanzas minimas); los contenidos en el RD 558/1995
+  (BOE-A-1995-13592, curriculo). Este resumen no sustituye la fuente oficial.
+observaciones: >
+  Capacidades terminales y criterios de evaluacion extraidos el 2026-04-26 de RD 546/1995
+  (BOE-A-1995-13533). Contenidos de modulos verificados tambien en RD 558/1995
+  (BOE-A-1995-13592). Ciclo LOGSE: estructura conceptual diferente a ciclos LOE/LOMLOE.
+  Ver NOR-051 y PREG-005 (resuelta). TAREA-052 completada el 2026-04-26.

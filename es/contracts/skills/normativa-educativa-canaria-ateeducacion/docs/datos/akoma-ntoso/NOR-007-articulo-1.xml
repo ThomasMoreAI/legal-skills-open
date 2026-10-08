@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-03-31/3">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/!art_1"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/lo/2022/03/31/3/con"/>
+          <FRBRdate date="2022-03-31" name="Generation"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="3"/>
+          <FRBRname value="Ley Orgánica"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/spa@/!art_1"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3/spa@"/>
+          <FRBRdate date="2022-04-01" name="Publication"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/spa@/xml/!art_1"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="jefatura-estado" href="https://www.boe.es/" showAs="Jefatura del Estado"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_1">
+        <num>Artículo 1.</num>
+        <heading>Objeto y finalidad.</heading>
+        <paragraph eId="art_1__para_1">
+          <num>1.</num>
+          <content><p>Esta ley tiene por objeto la constitución y ordenación de un sistema único e integrado de formación profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_2">
+          <num>2.</num>
+          <content><p>La finalidad de la norma es regular un régimen de formación y acompañamiento profesionales que, sirviendo al fortalecimiento, la competitividad y la sostenibilidad de la economía española, sea capaz de responder con flexibilidad a los intereses, las expectativas y las aspiraciones de cualificación profesional de las personas a lo largo de su vida y a las competencias demandadas por las nuevas necesidades productivas y sectoriales tanto para el aumento de la productividad como para la generación de empleo.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_3">
+          <num>3.</num>
+          <content><p>Cuantas medidas y acciones se programen y desarrollen en el marco del Sistema de Formación Profesional deberán responder a la finalidad a la que éste sirve, con la flexibilidad que exige la generación de itinerarios formativos y profesionales versátiles.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

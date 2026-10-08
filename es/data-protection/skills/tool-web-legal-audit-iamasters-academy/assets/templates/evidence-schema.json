@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Web Legal Audit — Evidence",
+  "description": "Esquema de referencia del JSON que consume scripts/generate-docx.mjs. Úsalo como guía al construir el evidence.json de la auditoría.",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "auditDate": { "type": "string", "format": "date", "description": "YYYY-MM-DD" },
+        "urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+        "domain": { "type": "string" },
+        "stack": { "type": "string", "description": "p.ej. 'WordPress + Elementor Pro'" },
+        "jurisdiction": { "type": "string", "description": "default 'España / UE'" }
+      },
+      "required": ["auditDate", "urls"]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "description": "p.ej. COOKIES-001" },
+          "category": { "type": "string", "enum": ["rgpd", "lssi", "cookies", "forms", "accessibility", "security", "advertising", "other"] },
+          "severity": { "type": "string", "enum": ["critical", "high", "medium", "low"] },
+          "title": { "type": "string" },
+          "evidence": { "type": "string", "description": "Texto literal observado o descripción factual de la ausencia/presencia" },
+          "norm": { "type": "string", "description": "Artículo y norma infringida" },
+          "url": { "type": "string", "format": "uri", "description": "URL concreta donde se detectó" },
+          "recommendation": { "type": "string" },
+          "recommendationRef": { "type": "string", "description": "Ruta relativa a assets/templates/*" },
+          "requiresHumanReview": { "type": "boolean" }
+        },
+        "required": ["id", "category", "severity", "title", "evidence", "norm"]
+      }
+    },
+    "trackers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "urls": { "type": "array", "items": { "type": "string" } },
+          "triggered": { "type": "string" },
+          "country": { "type": "string" },
+          "purposes": { "type": "array", "items": { "type": "string" } },
+          "normCited": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "revenue": {
+      "type": "object",
+      "properties": {
+        "reported": { "type": "number" },
+        "source": { "type": "string" },
+        "relevance": { "type": "string" }
+      }
+    },
+    "exposureScenarios": {
+      "type": "object",
+      "properties": {
+        "conservative": { "$ref": "#/definitions/range" },
+        "medium": { "$ref": "#/definitions/range" },
+        "aggravated": { "$ref": "#/definitions/range" }
+      }
+    }
+  },
+  "required": ["metadata", "findings"],
+  "definitions": {
+    "range": {
+      "type": "object",
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "description": { "type": "string" }
+      }
+    }
+  }
+}

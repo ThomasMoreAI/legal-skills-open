@@ -1,0 +1,84 @@
+# TEMPLATE, Catálogo de finalidades + bases legais
+# ===================================================
+# Cada finalidade do tratamento que aparece no inventario.yaml
+# DEVE estar declarada aqui, com base legal explícita.
+#
+# Validação CI: campo `@finalidade=X` deve existir aqui.
+
+finalidades:
+
+  - id: "autenticacao"
+    nome_publico: "Autenticação"
+    descricao: "Verificar que você é quem diz ser ao entrar na conta"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+    base_legal_descricao: "Necessário pra prestar o serviço que você contratou"
+
+  - id: "autenticacao_dois_fatores"
+    nome_publico: "Autenticação de dois fatores (2FA)"
+    descricao: "Proteger sua conta contra acesso indevido"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+
+  - id: "comunicacao_transacional"
+    nome_publico: "Comunicação transacional"
+    descricao: "Avisos sobre sua conta, pedidos, recuperação de senha"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+
+  - id: "personalizacao"
+    nome_publico: "Personalização da experiência"
+    descricao: "Te chamar pelo nome, lembrar suas preferências"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+
+  - id: "emissao_nf"
+    nome_publico: "Emissão de nota fiscal"
+    descricao: "Cumprir obrigação fiscal de emitir documento de venda"
+    base_legal_lgpd: "art_7_II_obrigacao_legal"
+    fundamento_legal: "Decreto 7.212/2010 art. 447"
+
+  - id: "kyc"
+    nome_publico: "Identificação cadastral (KYC)"
+    descricao: "Confirmar identidade pra prevenir fraude e cumprir regulação"
+    base_legal_lgpd: "art_7_II_obrigacao_legal"
+    fundamento_legal: "Lei 9.613/1998 (PLD/FT) + Resoluções BCB"
+
+  - id: "processamento_pagamento"
+    nome_publico: "Processamento de pagamento"
+    descricao: "Cobrar pelo serviço contratado"
+    base_legal_lgpd: "art_7_V_execucao_contrato"
+
+  - id: "seguranca"
+    nome_publico: "Segurança da plataforma"
+    descricao: "Detectar e prevenir fraude, ataque, abuso"
+    base_legal_lgpd: "art_7_IX_legitimo_interesse"
+    teste_balanceamento: "RIPD em transparencia/ripd/seguranca-plataforma.md"
+
+  - id: "auditoria"
+    nome_publico: "Auditoria de acessos"
+    descricao: "Rastreabilidade de operações pra cumprir Marco Civil e LGPD"
+    base_legal_lgpd: "art_7_II_obrigacao_legal"
+    fundamento_legal: "Lei 12.965/2014 art. 15 (Marco Civil)"
+
+  - id: "diagnostico"
+    nome_publico: "Diagnóstico técnico"
+    descricao: "Corrigir bugs e melhorar o produto"
+    base_legal_lgpd: "art_7_IX_legitimo_interesse"
+
+  - id: "analytics_agregado"
+    nome_publico: "Análise agregada de uso"
+    descricao: "Entender quais features são usadas pra evoluir o produto"
+    base_legal_lgpd: "art_7_IX_legitimo_interesse"
+    teste_balanceamento: |
+      Plausible, coleta sem cookie, sem fingerprint, agregada,
+      não vinculada a pessoa. Direito de oposição garantido na política.
+
+  - id: "marketing_direto"
+    nome_publico: "Marketing direto"
+    descricao: "Envio de newsletter e promoções"
+    base_legal_lgpd: "art_7_I_consentimento"
+    requer_opt_in: true
+
+  - id: "publicidade_personalizada"
+    nome_publico: "Publicidade personalizada (cookies de marketing)"
+    descricao: "Anúncios direcionados em outros sites"
+    base_legal_lgpd: "art_7_I_consentimento"
+    requer_opt_in: true
+    aplicavel: false  # mudar pra true se o app passar a usar

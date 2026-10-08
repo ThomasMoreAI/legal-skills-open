@@ -1,0 +1,10 @@
+id: REL-077
+tipo_relacion: "modifica"
+origen: NOR-095
+destino: NOR-086
+descripcion: "La misma Resolución de 27 de enero de 2026 modifica también la Resolución de 2 de mayo de 2025 sobre dobles titulaciones con primer curso en común."
+evidencia:
+  fuente: FTE-102
+  localizacion: "Antecedentes de hecho y parte dispositiva de la Resolución de 27 de enero de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

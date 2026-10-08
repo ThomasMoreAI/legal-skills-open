@@ -1,0 +1,57 @@
+{
+  "skill_name": "foi-data-request",
+  "status": "passed",
+  "eval_score": 4.5,
+  "test_cases": [
+    {
+      "id": "tc1",
+      "description": "Infrastructure contracts database request \u2014 national agency, EU jurisdiction",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.67,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'facilitate'). Within EN=4 threshold.",
+      "case_mean": 4.57
+    },
+    {
+      "id": "tc2",
+      "description": "Police use-of-force incident records \u2014 local constabulary, UK jurisdiction",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.33,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'facilitate'). Within EN=4 threshold.",
+      "case_mean": 4.29
+    },
+    {
+      "id": "tc3",
+      "description": "School exclusion database \u2014 education authority, seeking pupil-level data",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.5,
+      "editorial_naturalness_note": "EN backfill: 1 minor tell(s) detected (lexical: 'facilitate'). Within EN=4 threshold.",
+      "case_mean": 4.43
+    }
+  ],
+  "overall_mean": 4.43,
+  "editorial_naturalness_mean": 4.0
+}

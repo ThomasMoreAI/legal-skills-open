@@ -1,0 +1,1789 @@
+ID interno: CUR-018
+Título oficial: Lengua Extranjera — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+LENGUA EXTRANJERA
+Introducción
+Las sociedades presentes, envueltas en una constante y rápida evolución, exigen competencias que
+contribuyan  al  desarrollo  de  una  ciudadanía  activa,  participativa,  intercultural,  plurilingüe,
+democrática  y comprometida  con la  realidad  cada  vez  más  global  e  interconectada  en  la  que
+vivimos. Durante siglos, comunicarse en una lengua extranjera estaba al alcance de un número
+limitado de personas. Sin embargo, en la actualidad esta oportunidad se ha universalizado gracias en
+gran  parte  al  creciente  proceso  de  globalización  y  a  las  tecnologías  de  la  información  y  la
+comunicación (TIC). Cualquier persona usuaria de las mismas tiene innumerables opciones de
+exponerse a una lengua extranjera en contextos reales y aprenderla de manera no formal, a través de
+una variedad de medios y recursos propios. No obstante, el sistema educativo debe garantizar que el
+alumnado sea capaz de comunicarse en una primera lengua extranjera con cierta eficacia al finalizar
+la Educación Secundaria Obligatoria, y contribuir, de esta manera, a su competencia comunicativa.
+Además, no ha de olvidarse la función que tiene la escuela como garante del equilibrio social.
+Aprender una lengua extranjera implica no solo manejar los aspectos lingüísticos, sino también
+emplear  pertinentemente  códigos  sociales  y  la  etiqueta  digital;  dominar  aspectos  culturales  y
+paralingüísticos o textuales; conocer y aplicar estrategias que permitan aprender de manera más
+eficiente; integrar valores asociados a la lengua y a la cultura… El contexto escolar y la guía y
+retroalimentación por parte del profesorado son instrumentos útiles para allanar este recorrido en el
+que resulta imprescindible el empleo de la lengua extranjera como vehículo de comunicación en el
+aula y como herramienta para el aprendizaje.
+Conforme avancen en la lengua, los aprendices y las aprendices de una primera lengua extranjera en
+esta  etapa,  con  la  ayuda  de  entornos  virtuales,  verán  incrementadas  sus  relaciones  sociales,
+enriquecerán  su  tiempo  de  ocio,  adquirirán  un  mayor  bagaje  cultural,  mejorarán  su  bienestar
+emocional y autoestima, y desterrarán actitudes que fomenten la violencia o los estereotipos, entre
+otros múltiples aspectos. Consecuentemente, transformarán su forma de pensar y mejorarán en la
+toma  de  decisiones,  gestionando  adecuadamente  las  emociones  para  actuar  responsablemente.
+Además, desarrollarán un aspecto crucial en la etapa de la adolescencia: el autoconocimiento. Estos
+factores no solo hacen del aprendizaje de una primera lengua extranjera un elemento central en la
+educación de las discentes y los discentes, sino que también serán una plataforma para acceder a
+otras lenguas y profundizar en sus conocimientos sobre la lengua castellana, acercándoles así al
+contexto plurilingüe que buscan promover las políticas lingüísticas de la Unión Europea.
+Para la elaboración del presente currículo se ha empleado como guía el Marco común europeo de
+referencia  para  las  lenguas:  aprendizaje,  enseñanza,  evaluación  (MCER)  y  su  enfoque
+comunicativo  orientado  a  la  acción.  Bajo  esta  perspectiva,  el  «saber»  una  lengua  se  hace
+imprescindible, al igual que el «saber hacer», «saber ser», y «saber aprender», ya que junto con las
+competencias  comunicativa,  plurilingüe  y  pluricultural  desarrollan  todas  las  dimensiones  del
+alumnado: agente social, aprendiente autónomo, hablante intercultural, sujeto emocional y creativo,
+e individuo consciente y reflexivo.
+Posiblemente, Canarias nunca antes en la historia había sido un mayor punto de encuentro de
+culturas y de transferencia de valores entre las mismas como lo es actualmente. Los continuos flujos
+migratorios en su doble vertiente de entrada y salida confieren al aprendizaje de lenguas extranjeras
+1
+
+=== Página 2 ===
+
+una dimensión extraordinaria en términos de relaciones sociales, estudios en el extranjero, ocio,
+salidas profesionales y oportunidades de vida en el extranjero, así como de puente entre culturas.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio; pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización  paulatina  en  aspectos  específicos  relacionados  con  el  patrimonio  canario  y  en
+especial su relación con la herencia histórica, cultural y patrimonial de los países en los que se habla
+la lengua objeto de estudio.
+Contribución a los objetivos de etapa
+La materia de Lengua Extranjera integra de manera inclusiva los objetivos de etapa y contribuye a
+un desarrollo competencial del alumnado. Por tanto, los últimos no solo son un aspecto esencial en
+el proceso de enseñanza y de aprendizaje, puesto que son una herramienta eficaz para seleccionar,
+organizar y conducir los aprendizajes, sino también son un punto de referencia para decidir la
+promoción y la titulación del alumnado al final de la etapa. El objetivo que está vinculado de
+manera más directa a la materia de Lengua Extranjera es el (i), que tiende a la comprensión y
+expresión en una o más lenguas extranjeras de manera apropiada.
+No  obstante,  la  materia  contribuye  al  resto  de  objetivos  de  etapa,  puesto  que  los  mismos  se
+encuentran recogidos explícita o implícitamente en la redacción de los bloques competenciales,
+tanto en los criterios de evaluación como en las competencias específicas. Así, se promueve el
+ejercicio de los derechos y responsabilidades (a) al igual que los hábitos de trabajo y disciplina (b).
+Otro aspecto fundamental es el tratamiento de la igualdad de género y el rechazo a los estereotipos
+de  hombres  y  mujeres  (c),  ya  que  se  encuentran  implícitos  en  ciertos  descriptores  operativos
+asociados a los criterios  de  evaluación.  Lo  mismo  ocurre  con el  refuerzo  de  sus capacidades
+afectivas y el rechazo a la violencia (d). Aspectos como el uso de las fuentes de información y
+destrezas tecnológicas básicas (e), el desarrollo del sentido crítico y la autonomía (g), así como el
+conocimiento y valoración de aspectos culturales (j), además del conocimiento y respeto por la
+herencia patrimonial (j), el cuidado de la salud en su sentido global (k) y el respeto por la creación
+artística (l), entre otros, se trabajan de forma recurrente, profundizando en ellos conforme se avanza
+en  los  distintos  cursos.  El  objetivo  (f),  vinculado  al  desarrollo  del  pensamiento  científico,  se
+fomenta desde la formulación de hipótesis, la comparación entre lenguas y el uso de estrategias que
+conduzcan a un aprendizaje efectivo de la lengua. Finalmente, y también directamente asociado a
+esta materia y a su dimensión plurilingüe, se desarrolla el objetivo (h) a través del empleo del
+castellano para establecer analogías y transferencias con la lengua extranjera objeto de estudio y con
+otras, mediante la lectura de obras literarias, entre otros aspectos. Como añadido, los objetivos de
+etapa nos guiarán en la toma de decisiones sobre qué enseñar y cómo hacerlo, a fin de que el
+alumnado reciba una formación integral y holística que les capacite para su incorporación a estudios
+posteriores y para su inserción  laboral,  y que les habilite para  el ejercicio de  sus derechos y
+obligaciones para participar adecuadamente en el ámbito social, ayudando a prevenir además el
+fracaso y el abandono escolar temprano.
+2
+
+=== Página 3 ===
+
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+El  Perfil  de  salida  de  la  Educación  Secundaria  Obligatoria  se  concreta  en  determinadas
+competencias clave que, desglosadas en descriptores operativos, reflejan los principios y fines
+educativos  explicitados  en  la  Ley  Orgánica  de  Educación  2/2006,  de  3  de  mayo  (LOE)  y
+modificados por la Ley Orgánica 3/2020, de 29 de diciembre. Este Perfil de salida emana de la
+Recomendación  del  Consejo  de  la  Unión  Europea  de  22  de  mayo  de  2018  relativa  a  las
+competencias clave para el aprendizaje permanente. Además, indica el grado de desarrollo personal,
+social,  y  formativo  del  alumnado  a  alcanzar  al  concluir  la  educación  obligatoria.  Uno  de  sus
+propósitos principales es dotar a los distintos sistemas educativos de unas referencias comunes para
+que su ciudadanía pueda estudiar y trabajar a lo largo de la vida, tanto en su propio país como en
+otros países de su entorno. El Perfil de salida también servirá para tomar decisiones fundamentadas
+sobre  la  promoción  y titulación  del  alumnado,  adoptando  un  enfoque  competencial  donde los
+saberes están  supeditados principalmente a su puesta en  práctica en  situaciones cotidianas, en
+consonancia con los retos del siglo XXI y los Ôbjetivos de Desarrollo Sostenible de la Agenda
+2030. Además, se considera pertinente señalar que todas ellas tienen un carácter eminentemente
+transversal y que carecen de jerarquía las unas sobre las otras. Del mismo modo, no existe una
+exclusividad de una materia o ámbito con una o unas competencias determinadas. A continuación,
+se referencian cada una de las competencias y sus características:
+La materia de Lengua Extranjera contribuye a la adquisición de la Competencia en comunicación
+lingüística (CCL), puesto que el alumnado deberá desenvolverse de manera oral o escrita con
+coherencia y adecuación en diferentes ámbitos y contextos. Para ello, el alumnado tendrá que
+conocer y aplicar los géneros discursivos relacionados con las distintas áreas de conocimiento, al
+igual que los elementos funcionales de la lengua, empleándola para reflexionar y organizar el
+pensamiento adecuadamente. Además, esta competencia contribuye a desarrollar aquello relativo a
+la búsqueda y gestión de la información y la transformación de la misma en conocimiento, evitando
+o minimizando los riesgos de desinformación o manipulación informativa. Cabe destacar también
+que esta competencia fomenta el desarrollo personal y social a través del aprecio estético de la
+lengua mediante la lectura de obras literarias.
+La Competencia plurilingüe (CP) tiene como meta destacada manejar distintas lenguas de manera
+oral o escrita para responder a sus necesidades comunicativas de manera apropiada. Se trata de
+establecer  analogías  y  transferencias  entre  distintas  lenguas  (oficiales,  familiares,  segundas
+lenguas…) para mediar, comunicarse y aumentar el propio repertorio lingüístico. Esta competencia
+pretende, además, contribuir a que el alumnado valore y aprecie otras lenguas y desarrolle actitudes
+favorecedoras del diálogo entre culturas y la cohesión social, así como el enriquecimiento y la
+expansión de su conciencia intercultural.
+La materia de Lengua Extranjera desarrolla la Competencia matemática y competencia en ciencia,
+tecnología e ingeniería (STEM) cuando el alumnado emplea métodos inductivos o deductivos para
+extraer conclusiones sobre los mecanismos de las distintas lenguas. Lo mismo ocurre con el empleo
+de hipótesis para inferir o completar significados, entre otros elementos.
+3
+
+=== Página 4 ===
+
+La Competencia digital (CD) trasciende la mera creación de contenidos digitales o el manejo de
+herramientas digitales. El alumnado ha de convertirse en usuario solvente en la localización de
+información a la par que crítico con su gestión y uso, tomando medidas de seguridad en la red y
+respetando  la  etiqueta  digital.  También  cubre  aspectos  relacionados  con  las  alfabetizaciones
+múltiples y el respeto a la propiedad intelectual. La transversalidad de esta competencia se puede
+apreciar, a su vez, en el fomento de la creación de entornos virtuales de aprendizaje y en su
+potencialidad para establecer y mantener relaciones sociales a través de herramientas digitales,
+capacitando a las personas para seguir aprendiendo a lo largo de toda la vida.
+La  materia  de  Primera  Lengua  Extranjera  contribuye  a  la  Competencia  personal,  social  y  de
+aprender a aprender (CPSAA) a través de prácticas de reflexión y autoevaluación sobre el uso de la
+lengua, autocorrección, autorreparación, autogestión de las emociones y desempeño adecuado en
+cuanto al trabajo en equipo.
+La  Competencia  ciudadana  (CC)  también  se  adquiere  a  través  de  esta  materia  con  acciones
+vinculadas al compromiso por la convivencia y la diversidad, el respeto por las normas y la muestra
+de empatía, así como la participación en actividades sociales desde una cultura democrática.
+El fomento de la Competencia emprendedora (CE) se alcanza estableciendo metas, cumpliendo con
+los plazos, demostrando implicación y capacidad de liderazgo, al tiempo que empleando destrezas
+que implican capacidad de negociación y habilidades de comunicación, promoviendo la creatividad
+del alumnado y su resiliencia.
+Finalmente,  la  Competencia  en  conciencia  y  expresión  culturales  (CCEC)  supone  expresar
+sentimientos e ideas de forma creativa, aproximándose a diferentes realidades culturales y artísticas,
+así como al medio natural desde el interés y el aprecio. Hablar una lengua extranjera facilita el
+intercambio social, artístico y cultural, por lo que habilita para participar en contextos sociales
+amplios manteniendo, ampliando o modificando ideas propias, al mismo tiempo que respetando e
+integrando las de otras personas o culturas.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+4
+
+=== Página 5 ===
+
+Competencias específicas y criterios de evaluación
+En el currículo de Lengua Extranjera se han establecido seis competencias específicas que hacen
+vislumbrar el carácter competencial que adquiere la propia materia. Además, junto a doce criterios
+de evaluación por curso escolar descritos de manera gradual a lo largo de la etapa, concretan la
+especificidad de la materia desde un enfoque holístico y atendiendo al perfil del alumnado como
+sujeto activo en el aprendizaje de una lengua extranjera.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La competencia específica de comprensión se caracteriza por comprender e interpretar textos orales,
+escritos  y  multimodales.  La  comprensión,  como  destreza  fundamental  en  la  adquisición  y
+aprendizaje de cualquier lengua extranjera, implica, en este nivel, entender e interpretar los textos y
+extraer  su  sentido  general  y  los  detalles  más  relevantes  para  satisfacer  sus  necesidades
+comunicativas. Para ello, se deben activar las estrategias más adecuadas al desarrollo psicoevolutivo
+y a las necesidades del alumnado. En esta etapa, esta competencia específica se ha secuenciado a
+través de los distintos criterios de evaluación, tomando como referencia la diversidad y extensión de
+los textos, su complejidad lingüística y los contextos en los que se desarrollan, principalmente. En
+lo que respecta a las estrategias implicadas, se ha tenido en especial consideración el desarrollo
+progresivo de la autonomía del alumnado.
+Competencia específica 2 (C2)
+La  competencia  específica  de  producción  engloba  tanto  la  expresión  oral  y  escrita,  como  la
+multimodal. Las actividades vinculadas con la producción de textos cumplen funciones importantes
+en los ámbitos personal, social, educativo y profesional. En esta etapa, la producción debe dar lugar
+a la redacción y la exposición de textos sobre temas cotidianos, de relevancia personal o de interés
+público próximo a la experiencia del alumnado, con creatividad, coherencia y adecuación. Esta
+competencia específica se gradúa en esta etapa fundamentalmente a través de los distintos criterios
+de evaluación, tomando como referencia la diversidad y extensión de los textos, su complejidad
+lingüística y los contextos en los que se desarrollan, principalmente. En lo que respecta a las
+estrategias  implicadas,  se  ha  tenido  en  especial  consideración  el  desarrollo  progresivo  de  la
+autonomía del alumnado.
+Competencia específica 3 (C3)
+La competencia específica de interacción implica la negociación de significado entre dos o más
+personas para construir un discurso. Esta competencia específica es crucial en el aprendizaje, pues
+incluye estrategias de cooperación, de inicio, mantenimiento o conclusión de conversaciones, de
+cesión y toma de turnos de palabra, así como estrategias para preguntar con el objetivo de solicitar
+clarificación o repetición. Esta competencia se desarrolla en los criterios de evaluación a lo largo de
+la  etapa,  aumentando  gradualmente  la  complejidad  de  las  interacciones,  su  duración  y  su
+espontaneidad, así como los elementos lingüísticos implicados.
+Competencia específica 4 (C4)
+La competencia de mediación explicita y facilita la comprensión de mensajes o textos a partir de
+estrategias como la reformulación, de manera oral o escrita. Este proceso facilita el desarrollo del
+5
+
+=== Página 6 ===
+
+pensamiento estratégico, ya que permite elegir las destrezas y estrategias más adecuadas para lograr
+una  comunicación  eficaz  y  favorecer  la  participación  propia  y  de  otras  personas  en  entornos
+cooperativos de intercambios de información. La complejidad lingüística, la diversidad de contextos
+y temáticas, así como el grado de autonomía con respecto al uso de estrategias, son los aspectos
+primordiales que se han definido para distribuir los criterios de evaluación asociados a lo largo de la
+etapa.
+Competencia específica 5 (C5)
+La  competencia  específica  de  plurilingüismo  se  basa  en  el  uso del  repertorio  lingüístico  y  la
+reflexión  sobre  el  funcionamiento  de  la  lengua.  En  la  Educación  Secundaria  Obligatoria  el
+alumnado profundiza en esa reflexión sobre las lenguas y establece relaciones entre ellas con el fin
+de ampliar sus conocimientos y estrategias. De este modo, se favorece el aprendizaje de nuevas
+lenguas y se mejora la competencia comunicativa. Esta competencia específica se distribuye en
+dificultad  a  lo  largo  de  los  distintos  niveles  mediante  la  implicación  de  diferentes  procesos
+cognitivos y de la necesidad de involucrar una mayor autonomía con respecto al uso de estrategias
+conforme se avanza de curso.
+Competencia específica 6 (C6)
+La competencia intercultural supone experimentar la diversidad lingüística, cultural y artística de la
+sociedad, analizándola y beneficiándose de ella. La conciencia de la diversidad proporciona la
+posibilidad de relacionar distintas culturas. Además, favorece el desarrollo de una sensibilidad
+artística y cultural y la capacidad de identificar y emplear una gran variedad de estrategias que
+permitan establecer relaciones con personas de otras culturas. A medida que el alumnado avance por
+los distintos cursos de esta etapa, tendrá que aplicar, de modo progresivo, mayor autonomía en su
+repertorio de estrategias, así como incluir valoraciones y juicio crítico en situaciones interculturales
+cada vez más complejas y variadas.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+En la materia de Lengua Extranjera, los saberes básicos son decisivos para la consecución de los
+objetivos  de  etapa  y  las  competencias  clave,  constituyendo  el  conjunto  de  conocimientos,
+capacidades, destrezas y actitudes imprescindibles  para  el  desarrollo de cualquier  situación de
+comunicación. No constituyen un fin en sí mismos, sino que son una herramienta de carácter
+eminentemente procedimental o actitudinal que ayudará al alumnado a comunicarse de manera más
+eficiente, precisa y correcta, a reflexionar sobre la lengua y a adquirir o profundizar en valores…
+Partiendo del MCER y teniendo en cuenta las dimensiones del alumnado, es determinante que estén
+contextualizados en situaciones reales, de manera que puedan ser útiles y que el alumnado los pueda
+utilizar en situaciones comunicativas. En la materia de Lengua Extranjera, una buena parte de los
+saberes básicos se tratan de manera recurrente, pues siempre se repasan a lo largo de todas las
+etapas educativas, si bien se van tratando con mayor profundidad y complejidad de manera gradual.
+En todos los cursos de la Educación Secundaria Obligatoria se distinguen cuatro bloques de saberes:
+I. «Comunicación», II. «Plurilingüismo», III. «Interculturalidad» y IV . «Dimensiones interpersonal
+e intrapersonal».
+6
+
+=== Página 7 ===
+
+En el Bloque I, denominado «Comunicación», se tratan las funciones comunicativas junto a los
+modelos contextuales y géneros discursivos, además del reconocimiento del contexto (participantes
+y situación), todo ello de manera básica, usando léxico común y de interés para el alumnado. Con el
+fin de favorecer la comunicación oral, se deben cubrir patrones sonoros, acentuales, rítmicos y de
+entonación  básicos,  y  significados  e  intenciones  comunicativas  generales  asociadas  a  dichos
+patrones,  así  como  convenciones  y  estrategias  conversacionales  básicas.  Para  promover  la
+comunicación  escrita,  se  deben  emplear  convenciones  ortográficas  básicas  y  significados  e
+intenciones comunicativas asociados a los formatos, patrones y elementos gráficos. Además, este
+bloque  abarca estrategias básicas para mejorar  la  comprensión, producción  y coproducción  de
+textos orales, escritos y multimodales. También incluye la mediación en situaciones cotidianas
+sencillas. Los saberes básicos para esta etapa deben incluir recursos para el aprendizaje y estrategias
+básicas de búsqueda de información, identificación de la autoría de las fuentes consultadas y los
+contenidos  utilizados,  y  la  adquisición  de  herramientas  analógicas  y  digitales  básicas,  como
+plataformas virtuales de interacción y colaboración educativa (aulas virtuales, videoconferencias,
+herramientas digitales colaborativas…) para el aprendizaje, la comunicación y el desarrollo de
+proyectos con hablantes o estudiantes de la lengua extranjera.
+En el Bloque II, denominado «Plurilingüismo», sobre la reflexión del aprendizaje, se incluyen
+estrategias y técnicas para responder eficazmente a una necesidad comunicativa básica y concreta
+de forma comprensible, a pesar de las limitaciones derivadas del nivel de competencia en la lengua
+extranjera y en las lenguas familiares. Asimismo, se incluyen estrategias básicas para identificar,
+organizar,  retener,  recuperar  y  utilizar  creativamente  unidades  lingüísticas  (léxico,  morfemas,
+patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades lingüísticas que
+conforman  el  repertorio  lingüístico  personal.  Con  la  finalidad  de  fomentar  que  el  alumnado
+reflexione y sea responsable de su propio aprendizaje, se tratarán estrategias y herramientas básicas
+de autoevaluación y coevaluación, analógicas y digitales, individuales y cooperativas. Además, se
+deben  abordar  léxico  y  expresiones  de  uso  común  para  comprender  enunciados  sobre  la
+comunicación,  la  lengua,  el  aprendizaje  y  las  herramientas  de  comunicación  y  aprendizaje
+(metalenguaje), y la comparación básica entre lenguas a partir de elementos de la lengua extranjera
+y otras lenguas. Otro aspecto fundamental es el tratamiento del error como instrumento de mejora.
+En el Bloque III, denominado «Interculturalidad», se trata la lengua extranjera como medio de
+comunicación interpersonal e internacional, como fuente de información y como herramienta para
+el enriquecimiento personal, fomentando el interés y la iniciativa en la realización de intercambios
+comunicativos a través de diferentes medios con hablantes o estudiantes de la lengua extranjera, así
+como el deseo de conocer informaciones culturales de los países donde se habla dicha lengua, y
+compartir  aspectos  relevantes  relacionados  con  Canarias.  También  incluye  patrones  culturales
+básicos  propios  de  la  lengua  extranjera,  aspectos  socioculturales  y  sociolingüísticos  básicos
+relativos a la vida cotidiana, las condiciones de vida y las relaciones interpersonales; convenciones
+sociales básicas; lenguaje no verbal, cortesía lingüística y etiqueta digital; cultura, costumbres y
+valores propios de países donde se habla la lengua extranjera, así como estrategias básicas para
+entender y apreciar la diversidad lingüística, cultural y artística atendiendo a valores ecosociales y
+democráticos.
+Por último, el Bloque IV , denominado «Dimensiones interpersonal e intrapersonal», integra los
+saberes que el alumnado, como sujeto emocional y creativo, ha de movilizar para contribuir al
+aprendizaje  efectivo.  Son  saberes  relativos  a  factores  internos  y  sociales  que  actúan  como
+7
+
+=== Página 8 ===
+
+catalizadores indispensables para un crecimiento personal y social óptimo en el desarrollo de  
+vínculos con las demás personas y de relación personal.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+En el marco competencial en el que nos encontramos, y en concordancia con el marco normativo
+vigente, a la hora de diseñar situaciones de aprendizaje se deben contemplar una serie de premisas
+que  deben  ir  encaminadas  a  dotar  a  las  situaciones  de  aprendizaje  de  contextos  variados  y
+contextualizados en los que el alumnado de la lengua extranjera pueda desempeñar un papel activo.
+En  este  sentido,  las  situaciones  han  de  relacionarse  con  planes  y  proyectos  del  centro  o  con
+programas y ejes temáticos establecidos por la Consejería de Educación de Canarias. De la misma
+manera, se deben establecer suficientes oportunidades para integrar la interdisciplinariedad como
+forma óptima de contribuir a alcanzar los objetivos de etapa y desarrollar las competencias clave. 
+Otro aspecto reseñable es la necesidad de planificar las situaciones de aprendizaje teniendo en
+cuenta los objetivos y metas a conseguir al final de las mismas. Esto debe evidenciarse desde el
+primer momento, ya que facilitará la evaluación formativa, permitiendo al alumnado reflexionar
+sobre su propio aprendizaje y establecer metas, favoreciendo así un proceso de evaluación justo y
+objetivo.
+Conviene también destacar la relevancia de la inmersión lingüística plena en el aula. Se deben
+favorecer todas las oportunidades para emplear recursos dirigidos a que las discentes y los discentes
+estén expuestos a la lengua meta el máximo tiempo posible, haciendo de esta la lengua vehicular en
+el aula. En relación con esto, el componente lingüístico, los ejercicios y las tareas deben estar
+secuenciados en base a su dificultad, partiendo de lo más sencillo a lo más complicado de forma
+gradual y generando las suficientes oportunidades de práctica y revisión durante el proceso de
+aprendizaje.
+Los materiales y recursos didácticos  seleccionados por cada docente  deberán  ser innovadores,
+variados, flexibles y adaptados a los intereses, necesidades y gustos del grupo, acordes con el
+contexto  concreto  de  aplicación  y  pertinentes  para  las  tareas  programadas.  Además,  deberán
+promover la igualdad de género y dar oportunidades para tratar de forma crítica el uso del género o
+de los roles sexuales. Ambos deben, a su vez, operar como puente entre el alumnado y la realidad de
+la lengua y la cultura extranjera, proporcionando experiencias fortalecedoras de su autoestima y
+favoreciendo la valoración y el respeto por la lengua objeto de estudio y su cultura. Asimismo, el
+8
+
+=== Página 9 ===
+
+profesorado deberá tener en cuenta en el diseño y planificación los distintos modelos de enseñanza
+(directa,  no  directiva,  juegos  de  rol,  investigación…)  agrupamientos  variados  (individual,  por
+parejas, en pequeños grupos, en gran  grupo…), de igual  manera  que los diferentes estilos de
+aprendizaje (visual, auditivo, sensorial) o las inteligencias múltiples del alumnado. La presencia de
+las TIC en el diseño de las situaciones de aprendizaje es primordial, pues, por sus características,
+ofrecen una variedad ilimitada de recursos para el aula, permiten la aproximación inmediata y real a
+lenguas  diferentes  y  culturas  lejanas  y  potencian  el  lenguaje  oral  y  escrito,  la  adopción  de
+estrategias de autoaprendizaje, el conocimiento de la lengua extranjera y su cultura, así como el
+acercamiento a personas de otras zonas geográficas (eTwinning, entre otras posibilidades).
+Se  tomarán  medidas  conducentes  a  atender  a  aquel  alumnado  que  requiera  una  atención  más
+específica. Estas podrán ir dirigidas a dar apoyo y andamiaje al alumnado con más dificultades, para
+posteriormente retirarlo de forma progresiva, a primar el empleo de actividades abiertas sobre
+aquellas que sean cerradas, a proveer material de refuerzo o ampliación y a realizar un seguimiento
+más constante de estos alumnos y alumnas, entre otras actuaciones, siempre observando el principio
+de inclusividad y el Diseño Universal para el Aprendizaje (DUA).
+Asimismo,  se invita  al profesorado  a integrar  en su práctica  docente  el uso de alguna  de las
+plataformas digitales que oferta la Consejería de Educación de Canarias. Estas van a permitir una
+mayor flexibilidad para enfrentar casuísticas diversas de manera eficiente, harán más transparentes
+los procesos de enseñanza, e incluso pueden aumentar el sentido de pertenencia de las familias a los
+centros educativos. Reflejar nuestras clases de manera digital, además, aumentará las posibilidades
+de éxito del alumnado y añadirá mayor eficiencia a nuestro trabajo.
+Por último, la evaluación de la materia de Lengua Extranjera es un elemento transcendental del
+currículo y, por tanto, pieza determinante en el proceso de enseñanza y de aprendizaje. En este
+sentido, los criterios de evaluación son la pieza clave para conseguir que el alumnado progrese
+satisfactoriamente en el uso de la lengua extranjera. Planificar teniendo como punto de partida los
+procesos de evaluación permitirá al profesorado orientar su práctica pedagógica a la consecución de
+los objetivos de etapa y a la contribución de las competencias específicas y a los descriptores
+operativos  del  Perfil  de  salida  de  las  competencias  clave.  Para  lograr  estos  resultados,  el
+profesorado aplicará en sus propuestas pedagógicas no solo la combinación de los diferentes tipos
+de evaluación (la heteroevaluación, la autoevaluación y la coevaluación), sino que también usará
+diferentes  técnicas,  herramientas  e  instrumentos  de  evaluación  que  beneficien  un  aprendizaje
+inclusivo y adaptado a las características y necesidades del alumnado. Además, se ha de tener en
+consideración que los criterios relativos a las estrategias, incardinados en cada una de las cuatro
+primeras competencias específicas, han de desarrollarse junto a, al menos, uno de los criterios que
+le preceden, pues se entienden como un todo unificado y único en el desarrollo de las situaciones de
+comunicación  que  se  originen.  Asimismo,  los  criterios  de  evaluación  de  las  competencias
+específicas 5 y 6 también funcionan como catalizadores de esas situaciones de comunicación, por lo
+que su presencia con otros criterios de evaluación en las distintas situaciones de aprendizaje es
+imprescindible para que el alumnado desarrolle todas sus dimensiones como sujeto de aprendizaje
+de una lengua extranjera.
+9
+
+=== Página 10 ===
+
+1.º ESO
+Bloques competenciales
+Competencia específica
+1. Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados
+de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias
+como la inferencia de significados, para responder a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, CP2, STEM1, CD1,
+CPSAA4
+Criterios de evaluación
+1.1.  Identificar  información  pertinente,  interpretar  el  sentido  global,  las  ideas  principales  y  el
+contenido  de  textos  orales  breves  y  sencillos  sobre  temas  frecuentes  y  cotidianos,  de  relevancia
+personal y próximos a su experiencia, expresados de forma clara y sencilla a través de diversos
+soportes, utilizando una o más lenguas, además de las familiares, con el fin de construir conocimiento
+y responder a necesidades comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+1.2.  Identificar  información  pertinente,  interpretar  el  sentido  global,  las  ideas  principales  y  el
+contenido de textos escritos, breves y sencillos sobre temas frecuentes y cotidianos, de relevancia
+personal y próximos a su experiencia, expresados de forma clara a través de diversos soportes, así
+como de textos literarios adaptados al nivel de madurez del alumnado, aplicando criterios de validez y
+utilizando  una o más  lenguas,  además  de  las familiares,  con el  fin  de  construir  conocimiento  y
+responder a necesidades comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+1.3. Aplicar de manera guiada los conocimientos y las estrategias elementales más adecuadas en cada
+situación comunicativa, para comprender el sentido general, la información esencial y los detalles más
+STEM1, CD1, CPSAA4
+10
+
+=== Página 11 ===
+
+relevantes  de  los  textos,  interpretar  elementos  no  verbales,  así  como  realizar  búsquedas  para
+seleccionar información y enriquecer su repertorio lingüístico individual.
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de identificar información pertinente y específica, así como de
+interpretar el sentido global y las ideas principales de textos breves y sencillos, utilizando recursos para el aprendizaje, como diccionarios u otros
+tipos de recursos. Además, también se pretende corroborar que el alumnado interpreta el contenido de textos orales, escritos o multimodales, breves
+y sencillos sobre temas cotidianos, poniendo en marcha un repertorio de estrategias elementales como apoyarse en imágenes y palabras clave o
+aplicar técnicas de búsqueda de información específica para mejorar la comprensión. Asimismo, se trata de verificar que el alumnado aplica, de
+manera guiada, los conocimientos y las estrategias elementales de búsqueda y selección de información para adquirir conocimiento y para ampliar su
+repertorio lingüístico individual, con léxico de uso común y de interés para el alumnado. Además, se trata de corroborar que el alumnado reconoce  
+modelos contextuales frecuentes en la comprensión de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios, relativos a
+la salud, la actividad física, el medioambiente, la comunicación y la tecnología, entre otros, que le ayuden a mejorar progresivamente el nivel de
+comprensión.
+Competencia específica
+2. Producir textos originales, de extensión media, sencillos y con una organización clara, usando
+estrategias tales como la planificación, la compensación o la autorreparación, para expresar de
+forma  creativa,  adecuada  y  coherente,  mensajes  relevantes  y  responder  a  propósitos
+comunicativos concretos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CP1, CP2, STEM1, CD2, CPSAA5,
+CCEC3
+Criterios de evaluación
+11
+
+=== Página 12 ===
+
+2.1. Expresar oralmente y de forma guiada textos breves, sencillos, estructurados, comprensibles y
+adecuados a la situación comunicativa que versen sobre asuntos cotidianos de relevancia e interés para
+el alumnado, en diferentes soportes, haciéndolo de forma creativa y mostrando empatía y aprecio por
+las producciones de los demás, con el fin de describir, narrar e informar sobre temas concretos.
+CCL1, CP1, CCEC3
+2.2. Organizar y redactar de forma guiada textos propios, sencillos, breves y comprensibles, con
+claridad, coherencia, cohesión y adecuación a la situación comunicativa propuesta, que versen sobre
+asuntos cotidianos y frecuentes de relevancia para el alumnado y que sean próximos a su experiencia,
+siguiendo pautas establecidas, haciéndolo de forma creativa y mostrando empatía y aprecio por las
+producciones de los demás, a través de herramientas analógicas y digitales, con el fin de responder a
+propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.3. Seleccionar y aplicar de forma guiada conocimientos y estrategias elementales en la elaboración
+de textos comprensibles, coherentes y adecuados a las intenciones comunicativas, a las características
+contextuales y a la tipología textual, haciendo uso de su repertorio lingüístico individual, con ayuda de
+los recursos físicos o digitales más  adecuados en  función de la  tarea y las necesidades de cada
+momento, teniendo en cuenta el contexto y la persona a quien va dirigido el texto, para planificar,
+producir, revisar y seguir progresando en el proceso de aprendizaje.
+CP2, STEM1, CD2, CPSAA5
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de organizar y expresar de forma guiada textos orales y escritos en
+diferentes soportes sobre temas cotidianos y frecuentes próximos a su experiencia, que sean breves y sencillos y que estén estructurados con
+claridad, empleando elementos lingüísticos de uso común que los doten de la apropiada cohesión y coherencia, produciéndolos con originalidad y
+adaptándolos a la intención comunicativa y a las convenciones sociolingüísticas, haciendo uso de su repertorio lingüístico para responder de esta
+manera a propósitos comunicativos concretos en los que se adopte un punto de vista que invite a la reflexión. Además, se buscará constatar que el
+alumnado selecciona y aplica de forma guiada estrategias elementales que impliquen la planificación, la coevaluación y la autoevaluación, la
+12
+
+=== Página 13 ===
+
+compensación, la comunicación no verbal o la autorreparación, tales como el empleo de lenguaje gestual o imágenes que refuercen el discurso,
+organizadores gráficos para organizar las ideas o seguir instrucciones para realizar una tarea. Por otro lado, se comprobará que se adopte una actitud
+adecuada en la que se incluya el respeto por las producciones de los demás y la motivación, así como una aceptable gestión de las emociones y el
+aprecio y respeto por las normas.
+Competencia específica
+3. Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y
+empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos
+en intercambios respetuosos con las normas de cortesía.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, CP1, CP2, STEM1, CD3,
+CPSAA3, CC3
+Criterios de evaluación
+3.1. Planificar y participar de manera guiada en situaciones interactivas, orales y escritas, breves y
+sencillas, que versen sobre temas cotidianos, de relevancia personal y cercanos a su experiencia,
+haciendo uso de la cortesía lingüística y mostrando iniciativa, empatía y respeto por las diferentes
+necesidades, ideas, inquietudes y motivaciones de los interlocutores y las interlocutoras, con el fin de
+responder a propósitos comunicativos concretos y establecer vínculos personales.
+CCL1, CCL5, CP1, CPSAA3
+3.2. Seleccionar y utilizar, de forma guiada y en entornos próximos, estrategias elementales que le
+permitan, haciendo uso de su repertorio lingüístico, iniciar, mantener y terminar la comunicación,
+tomar y ceder la palabra y solicitar y ofrecer aclaraciones y explicaciones, con el fin de desenvolverse
+de manera simple pero efectiva en situaciones interactivas sencillas en la lengua extranjera a través de
+diferentes soportes.
+CP2, STEM1, CD3, CC3
+13
+
+=== Página 14 ===
+
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado puede desenvolverse en situaciones interactivas, breves y sencillas, como
+conversaciones en las que se traslada información o situaciones en las que se toman notas o se cumplimentan formularios, ajustándose a la función
+comunicativa y empleando convenciones y elementos lingüísticos de uso común o más habitual. Además, se buscará constatar que planifica y
+participa siguiendo pautas en actividades grupales, tanto en el aula como fuera de ella, en las que utiliza herramientas o plataformas virtuales con
+suficiencia. También se tratará de verificar que muestra respeto y empatía por los interlocutores y las interlocutoras. Del mismo modo, se pretenderá
+confirmar que pone en marcha, de forma guiada y en entornos próximos, un repertorio de estrategias elementales como el empleo de lenguaje
+prefabricado simple, organizadores gráficos, mapas conceptuales, guiones o esquemas o la transferencia léxica o morfosintáctica, además de otros
+recursos, para así ajustarse a la tarea. Consecuentemente, durante su desarrollo deberá emplear métodos que impliquen procesos de autoevaluación,
+coevaluación y autorreparación, siendo capaz de incorporar las experiencias de los demás en su aprendizaje. Finalmente, se buscará constatar que
+mantiene la motivación y el interés por llevar a cabo intercambios comunicativos en la lengua extranjera, que le permitan ampliar su repertorio
+lingüístico.
+Competencia específica
+4. Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos
+sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de
+manera eficaz, clara y responsable.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP1, CP2, CP3, CD2, CPSAA1
+Criterios de evaluación
+4.1. Comprender y explicar textos, conceptos y comunicaciones muy breves y sencillas, de manera
+guiada, de forma oral o escrita, en situaciones cotidianas del ámbito personal, social y educativo,
+mostrando empatía por los interlocutores y las interlocutoras y respeto por las lenguas empleadas,
+CCL5, CP1, CP3
+14
+
+=== Página 15 ===
+
+apoyándose en diversos recursos y soportes, para así construir conocimiento y transmitir información
+de manera clara.
+4.2. Aplicar, de forma guiada y con una aceptable gestión emocional, estrategias elementales que
+ayuden a crear puentes y faciliten la comprensión y producción de información y la comunicación,
+adecuadas a las intenciones comunicativas, haciendo uso de su repertorio lingüístico y usando recursos
+y apoyos físicos o digitales en función de las necesidades de cada momento, con la finalidad de
+explicar y simplificar textos, conceptos y mensajes.
+CP2, CD2, CPSAA1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de mediar de forma guiada, oralmente o por escrito, entre distintas
+lenguas, utilizando estrategias y conocimientos sencillos orientados a comprender y explicar conceptos, textos o comunicaciones muy breves de
+manera simple para transmitir información de forma activa mediante textos dotados de coherencia, cohesión y corrección en situaciones en las que se
+atiende a la diversidad. A su vez, se persigue constatar que el alumnado es capaz de mostrar respeto y empatía por las interlocutoras y los
+interlocutores y aprecio por las lenguas empleadas, al igual que hacer uso de la motivación y de una aceptable gestión emocional. Del mismo modo,
+se tratará de verificar que participa con interés en la solución de problemas de intercomprensión y de entendimiento, en los que adoptará un punto de
+vista progresivamente crítico para así transmitir información de manera clara y con un repertorio lingüístico relativamente variado. También se
+verificará que el alumnado pueda aplicar estrategias elementales de forma guiada que ayuden a crear puentes y que faciliten la comunicación, como
+realizar transferencias léxicas o morfosintácticas, o razonar estratégicamente, adecuándose a las intenciones comunicativas, a las características
+contextuales y al tipo de texto en situaciones cotidianas y frecuentes próximas a la experiencia del alumnado, así como optimizando el uso de
+recursos y apoyos físicos o digitales en función de las necesidades de cada momento, con la finalidad de explicar y simplificar de manera activa e
+informada, textos, conceptos y mensajes.
+Competencia específica Descriptores operativos de las
+15
+
+=== Página 16 ===
+
+5. Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de
+forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos
+propios, para mejorar la respuesta a necesidades comunicativas concretas.
+competencias clave. Perfil de salida
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Criterios de evaluación
+5.1.  Identificar  y  registrar,  siguiendo  modelos,  los  progresos  y  dificultades  de  aprendizaje  más
+destacados  de  la  lengua  extranjera  con  apoyo  de  otros  participantes  y  de  soportes  analógicos  y
+digitales,  seleccionando  de  forma  guiada  las  estrategias  más  eficaces  en  las  actividades  de
+autoevaluación y coevaluación, como las que se proponen en el Portfolio Europeo de las Lenguas
+(PEL) o en diarios de aprendizaje, así como comparar y contrastar siguiendo pautas las semejanzas y
+diferencias entre distintas lenguas, reflexionando de manera progresivamente autónoma sobre aspectos
+relevantes de su funcionamiento, de modo que se produzca una transferencia de conocimientos y
+estrategias a diferentes contextos sociales cotidianos y próximos que le permita ampliar su repertorio
+lingüístico individual, superar las adversidades y progresar en su aprendizaje en la lengua extranjera.
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado enriquece su repertorio lingüístico individual, estableciendo relaciones entre
+las distintas lenguas, a las que aplica métodos inductivos, deductivos o lógicos, apoyándose en elementos como el contexto y el cotexto, para así
+extraer la información más relevante. Asimismo, se pretende comprobar que emplea herramientas y estrategias, de manera individual o en grupo, de
+forma guiada, como la producción y corrección de borradores, el seguimiento de modelos, la escucha activa, la realización de ensayos y la detección
+de errores comunes; u otras como el empleo de la perseverancia, la toma de decisiones o el uso de expresiones y léxico más habitual para
+intercambiar ideas sobre la propia comunicación y el aprendizaje (preguntar por el significado de una palabra o expresión, solicitar aclaraciones,
+manejar términos lingüísticos…). A su vez, se persigue corroborar que plantea metas a corto y medio plazo respecto a las tareas y que documenta los
+procesos de planificación y evaluación más relevantes de sus aprendizajes, señalando las reflexiones y emociones derivadas e integrando las
+16
+
+=== Página 17 ===
+
+experiencias de aprendizaje de los demás. De la misma manera, se pretende evidenciar que se utilizan herramientas digitales y analógicas como
+organizadores gráficos, lectores inmersivos, traductores digitales, diccionarios, webs, dosieres, porfolios…, las cuales integra en su entorno personal
+de  aprendizaje,  de  modo  que todo  ello  le  permita  tanto  mantener  la  motivación  como  progresar  en  el  aprendizaje  de  la  lengua  extranjera,
+transfiriendo conocimientos y estrategias a diferentes contextos sociales próximos.
+Competencia específica
+6. Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la
+lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y
+culturas, para actuar de forma empática y respetuosa en situaciones interculturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Criterios de evaluación
+6.1. Valorar de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de
+Canarias y de países donde se habla la lengua extranjera, aplicando estrategias básicas de manera
+guiada  en  situaciones  comunicativas,  interculturales,  sencillas,  cotidianas,  con  resiliencia,
+construyendo vínculos entre el patrimonio canario y el de otras culturas y favoreciendo el desarrollo de
+una  cultura  compartida  y  una  ciudadanía  comprometida  con  la  sostenibilidad,  para  afrontar  las
+diferencias  morales  o  culturales  con  actitud  dialogante,  argumentativa,  respetuosa  y  opuesta  a
+cualquier tipo de discriminación o violencia.
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de valorar la diversidad lingüística, cultural y artística y de mostrar
+respeto y aprecio por la cultura canaria y por otras, utilizando para ello la lengua extranjera en contextos cotidianos sencillos como medio de
+17
+
+=== Página 18 ===
+
+comunicación y de enriquecimiento personal. También se verificará que el alumnado identifica y comparte las semejanzas y diferencias entre
+lenguas y entre la cultura canaria y otras culturas, y que promueve aspectos esenciales del patrimonio cultural, natural y artístico canario, aplicando
+estrategias básicas, de manera guiada, con el fin de atender a valores ecosociales y democráticos que fomenten la sostenibilidad, la defensa de la
+libertad de expresión, la igualdad (con especial atención a la de género y a los derechos humanos) y el enriquecimiento inherente a la diversidad.
+18
+
+=== Página 19 ===
+
+Saberes básicos
+I. Comunicación
+1. Empleo de estrategias básicas para la planificación, ejecución, control y reparación de la
+comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+2. Aplicación de conocimientos, destrezas y actitudes que permitan detectar y colaborar en
+actividades de mediación en situaciones cotidianas sencillas.
+3. Uso de funciones comunicativas básicas adecuadas al ámbito y al contexto comunicativo:
+saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; situar
+eventos en el tiempo; situar objetos, personas y lugares en el espacio; pedir e intercambiar
+información  sobre  cuestiones  cotidianas;  dar  y  pedir  instrucciones  y  órdenes;  ofrecer,
+aceptar y rechazar ayuda, expresar parcialmente el gusto o el interés y emociones básicas;
+narrar  acontecimientos  pasados,  describir  situaciones  presentes,  expresar  la  opinión,  la
+capacidad, la obligación y la prohibición.
+4. Identificación  y  uso  de  modelos  contextuales  y  géneros  discursivos  básicos  en  la
+comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y
+sencillos,  literarios  y  no  literarios:  características  y  reconocimiento  del  contexto
+(participantes y situación).
+5. Manejo de unidades lingüísticas básicas y significados asociados a dichas unidades, tales
+como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio y las
+relaciones  espaciales,  el  tiempo,  la  afirmación,  la  negación,  la  interrogación  y  la
+exclamación, relaciones lógicas básicas.
+6. Identificación y empleo de léxico de uso común y de interés para el alumnado relativo a
+identificación  personal,  relaciones  interpersonales,  lugares  y  entornos  cercanos,  ocio  y
+tiempo libre, vida cotidiana, actividad física, vivienda y hogar, clima, tecnologías de la
+información y la comunicación.
+7. Reconocimiento y reproducción de patrones sonoros, acentuales, rítmicos y de entonación
+básicos,  y  de  significados  e  intenciones  comunicativas  generales  asociadas  a  dichos
+patrones.
+8. Reconocimiento y uso de convenciones ortográficas básicas y significados e intenciones
+comunicativas asociados a los formatos, patrones y elementos gráficos.
+9. Reconocimiento y uso de convenciones y estrategias conversacionales básicas, en formato
+síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la
+palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, resumir, colaborar,
+etc.
+10. Selección  de recursos para  el  aprendizaje y uso de  estrategias  básicas de búsqueda  de
+información: diccionarios, libros de consulta, bibliotecas, recursos digitales e informáticos,
+etc.
+11. Identificación  y  atribución  de  la  propiedad  intelectual  de  las  fuentes  consultadas  y
+contenidos utilizados.
+19
+
+=== Página 20 ===
+
+12. Uso  de  herramientas  analógicas  y  digitales  básicas  para  la  comprensión,  producción  y
+coproducción  oral,  escrita  y  multimodal;  uso  de  plataformas  virtuales  de  interacción,
+cooperación  y  colaboración  educativa  (aulas  virtuales,  videoconferencias,  herramientas
+digitales  colaborativas,  etc.)  para  el  aprendizaje,  la  comunicación  y  el  desarrollo  de
+proyectos con hablantes o estudiantes de la lengua extranjera.
+II. Plurilingüismo
+1. Selección  y  uso  de  estrategias  y  técnicas  para  responder  eficazmente  a  una  necesidad
+comunicativa básica y concreta de forma comprensible, a pesar de las limitaciones derivadas
+del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio
+lingüístico propio.
+2. Selección y empleo de estrategias básicas para identificar, organizar, retener y recuperar
+léxico, morfosintaxis, patrones sonoros, etc., a partir de la comparación de las lenguas y
+variedades que conforman el repertorio lingüístico personal.
+3. Identificación y uso de estrategias y herramientas básicas de autoevaluación y coevaluación,
+analógicas y digitales, individuales y cooperativas.
+4. Reconocimiento del error como instrumento de mejora y propuesta de reparación.
+5. Utilización de léxico y expresiones de uso común para comprender enunciados sobre la
+comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje
+(metalenguaje).
+6. Comparación básica entre lenguas a partir de elementos de la lengua extranjera y otras
+lenguas.
+III. Interculturalidad
+1. Reconocimiento y aprecio por aspectos socioculturales y sociolingüísticos básicos relativos
+a la vida cotidiana y las condiciones de vida; convenciones sociales básicas; lenguaje no
+verbal, cortesía lingüística y etiqueta digital; cultura y costumbres de países donde se habla
+la lengua extranjera y de Canarias.
+2. Identificación y aplicación de estrategias básicas para entender la diversidad lingüística,
+cultural, natural y artística.
+3. Identificación  de  estrategias  básicas  de detección  de usos discriminatorios del  lenguaje
+verbal  y  no  verbal,  con  especial  atención  a  la  discriminación  por  razón  de  género  o
+diversidad funcional.
+IV . Dimensiones interpersonal e intrapersonal
+1. Aprecio por la lengua extranjera como medio de comunicación interpersonal e internacional
+y como herramienta para el enriquecimiento personal.
+2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo relativas a las
+relaciones interpersonales.
+3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+20
+
+=== Página 21 ===
+
+4. Interés en la realización de intercambios comunicativos a través de diferentes medios con
+hablantes o estudiantes de la lengua extranjera.
+5. Desarrollo de la autoestima, la autoconfianza y la iniciativa.
+6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+7. Visión creativa y emocional del aprendizaje.
+8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+9. Aprecio por la diversidad y el patrimonio natural, lingüístico, cultural y artístico en lo
+referente a las relaciones interpersonales en países donde se habla la lengua extranjera, y
+diferencias destacadas con aquel de Canarias.
+21
+
+=== Página 22 ===
+
+2.º ESO
+Bloques competenciales
+Competencia específica
+1. Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados
+de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias
+como la inferencia de significados, para responder a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, CP2, STEM1, CD1,
+CPSAA4
+Criterios de evaluación
+1.1. Interpretar y analizar el sentido global, la información específica y explícita y el contenido de
+textos  orales  breves  y  sencillos,  sobre  temas  frecuentes  y  cotidianos,  de  relevancia  personal  y
+próximos a su experiencia, expresados de forma clara a través de diversos soportes, utilizando con
+cierta adecuación una o más lenguas, además de las familiares, con el fin de construir conocimiento y
+responder a necesidades comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+1.2. Interpretar y analizar el sentido global, la información específica y explícita, y el contenido y los
+rasgos discursivos de textos escritos y multimodales, breves y sencillos, sobre temas frecuentes y
+cotidianos, de relevancia personal y próximos a su experiencia, expresados de forma clara a través de
+diversos soportes, así como de textos literarios adaptados al nivel de madurez del alumnado, aplicando
+criterios de validez y calidad y utilizando con cierta adecuación una o más lenguas, además de las
+familiares, con el fin de construir conocimiento y responder a necesidades comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+1.3. Aplicar con cierta autonomía los conocimientos y las estrategias básicas más adecuadas en cada
+situación comunicativa para comprender el sentido general, la información esencial y los detalles más
+STEM1, CD1, CPSAA4
+22
+
+=== Página 23 ===
+
+relevantes de los textos, inferir significados e interpretar elementos no verbales, así como realizar
+búsquedas para seleccionar información y enriquecer su repertorio lingüístico individual.
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de interpretar y analizar el sentido global y la información específica y
+explícita de textos orales, escritos y multimodales, breves y sencillos, utilizando recursos para el aprendizaje como diccionarios u otros recursos
+digitales. Además, también se pretende corroborar que el alumnado interpreta información de textos orales, escritos o multimodales, breves y
+sencillos, sobre temas cotidianos, poniendo en marcha un repertorio de estrategias básicas como hacer uso de sus conocimientos previos, apoyarse en
+pistas textuales para localizar información en un texto, asociar formatos a los diferentes tipos de textos o realizar de hipótesis y suposiciones para
+mejorar la comprensión. Asimismo, se trata de verificar que el alumnado aplica, con cierta autonomía, los conocimientos y las estrategias básicas de
+búsqueda y selección de información, para adquirir conocimiento y para ampliar su repertorio lingüístico individual con léxico de uso común y de
+interés para el alumnado. Además, se trata de corroborar que el alumnado reconoce modelos contextuales y géneros discursivos frecuentes en la
+comprensión de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios, relativos a la salud, la actividad física, el
+medioambiente, la comunicación y la tecnología, entre otros, que le ayuden a mejorar progresivamente el nivel de comprensión.
+Competencia específica
+2. Producir textos originales, de extensión media, sencillos y con una organización clara, usando
+estrategias tales como la planificación, la compensación o la autorreparación, para expresar de
+forma  creativa,  adecuada  y  coherente,  mensajes  relevantes  y  responder  a  propósitos
+comunicativos concretos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CP1, CP2, STEM1, CD2, CPSAA5,
+CCEC3
+Criterios de evaluación
+23
+
+=== Página 24 ===
+
+2.1. Expresar oralmente con cierta autonomía textos breves, sencillos, estructurados, comprensibles y
+adecuados a la situación comunicativa que versen sobre asuntos cotidianos, de uso frecuente y de
+relevancia para el alumnado, en diferentes soportes, haciéndolo de forma creativa y mostrando empatía
+y aprecio por las producciones de los demás, con el fin de describir, narrar e informar sobre temas
+concretos.
+CCL1, CP1, CCEC3
+2.2. Organizar y redactar con cierta autonomía textos propios, sencillos, breves y comprensibles, con
+claridad, coherencia, cohesión y adecuación a la situación comunicativa propuesta, que versen sobre
+asuntos cotidianos de uso frecuente y de relevancia para el alumnado y que sean próximos a su
+experiencia,  siguiendo  pautas  establecidas,  haciéndolo  de  forma  creativa  y  mostrando  empatía  y
+aprecio por las producciones de los demás, así como empleando herramientas analógicas y digitales,
+con el fin de responder a propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.3.  Seleccionar,  organizar  y  aplicar  con  cierta  autonomía  conocimientos  y  estrategias  en  la
+elaboración de textos comprensibles, coherentes y adecuados a las intenciones comunicativas, a las
+características contextuales y a la tipología textual, haciendo uso de su repertorio lingüístico y con
+ayuda de los recursos físicos o digitales más adecuados en función de la tarea y las necesidades de
+cada momento, teniendo en cuenta la persona a quien va dirigido el texto, para planificar, producir,
+revisar y seguir progresando en el proceso de aprendizaje.
+CP2, STEM1, CD2, CPSAA5
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de organizar y expresar con cierta autonomía textos orales y escritos
+escritos en diferentes soportes sobre temas cotidianos y frecuentes de relevancia para el alumnado en los ámbitos personal, público y educativo, que
+sean breves y sencillos y estén estructurados con claridad, empleando elementos lingüísticos de uso común que los doten de la apropiada cohesión y
+coherencia, produciéndolos con originalidad y adaptándolos a la intención comunicativa y a las convenciones sociolingüísticas, haciendo uso de su
+repertorio lingüístico para responder de esta manera a propósitos comunicativos concretos en los que se adopte un punto de vista reflexivo. Además,
+24
+
+=== Página 25 ===
+
+se buscará constatar que el alumnado selecciona, organiza y aplica con cierta autonomía estrategias básicas que impliquen la planificación, la
+coevaluación y la autoevaluación, la compensación, la comunicación no verbal o la autorreparación, tales como respetar los pasos de una tarea,
+emplear palabras clave o usar una lista de control para reajustar su trabajo. Por otro lado, se comprobará que se adopte una actitud adecuada, en la
+que se incluya el respeto por las producciones de los demás y la motivación, así como una aceptable gestión de las emociones y el aprecio y respeto
+por las normas.
+Competencia específica
+3. Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y
+empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos
+en intercambios respetuosos con las normas de cortesía.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, CP1, CP2, STEM1, CD3,
+CPSAA3, CC3
+Criterios de evaluación
+3.1. Planificar y participar a través de diversos soportes en situaciones interactivas, orales y escritas,
+breves  y  sencillas,  que  versen  sobre  temas  cotidianos  de  relevancia  personal  y  cercanos  a  su
+experiencia, haciendo uso de la cortesía lingüística y mostrando proactividad, empatía y respeto por las
+diferentes necesidades, iniciativas y motivaciones de los interlocutores y las interlocutoras, con el fin
+de responder a propósitos comunicativos concretos, establecer vínculos personales y participar de
+manera básica en la vida social.
+CCL1, CCL5, CP1, CPSAA3
+3.2. Seleccionar, organizar y utilizar, de forma guiada y en entornos próximos, estrategias adecuadas
+que  le  permitan,  haciendo  uso  de  su  repertorio  lingüístico,  iniciar,  mantener  y  terminar  la
+comunicación, tomar y ceder la palabra y solicitar y ofrecer aclaraciones y explicaciones, con el fin de
+CP2, STEM1, CD3, CC3
+25
+
+=== Página 26 ===
+
+desenvolverse en situaciones interactivas breves y sencillas en la lengua extranjera a través de diversos
+soportes.
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado puede desenvolverse en situaciones interactivas, breves y sencillas, como
+conversaciones en las que se traslada información, en las que se solicita algo o en las que se produce intercambio de correspondencia personal,
+ajustándose a la función comunicativa y usando convenciones y elementos lingüísticos de uso común o más habitual. Además, se buscará confirmar
+que planifica y participa en actividades grupales, tanto en el aula como fuera de ella, empleando herramientas o plataformas virtuales con suficiencia.
+También se tratará de verificar que muestra respeto y empatía por los interlocutores y las interlocutoras. Del mismo modo, se pretenderá verificar
+que este pone en marcha de forma guiada y en entornos próximos un repertorio de estrategias como el empleo de lenguaje prefabricado, modelos,
+ensayos previos, o la transferencia léxica o morfosintáctica, además de otros recursos, para así ajustarse a la tarea. Consecuentemente, durante su
+desarrollo deberá utilizar métodos que impliquen procesos de autoevaluación, coevaluación y autorreparación, siendo capaz de incorporar las
+experiencias de los demás en su aprendizaje. Finalmente, se buscará constatar que mantiene la motivación y el interés por llevar a cabo intercambios
+comunicativos en la lengua extranjera que le permitan ampliar su repertorio lingüístico.
+Competencia específica
+4. Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos
+sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de
+manera eficaz, clara y responsable.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP1, CP2, CP3, CD2, CPSAA1
+Criterios de evaluación
+4.1. Inferir y explicar textos, conceptos y comunicaciones breves y sencillas de forma progresivamente CCL5, CP1, CP3
+26
+
+=== Página 27 ===
+
+autónoma, de forma oral o escrita, en situaciones cotidianas del ámbito personal, social y educativo,
+mostrando empatía por los interlocutores y las interlocutoras y respeto por las lenguas empleadas, así
+como interés por participar en la solución de problemas de intercomprensión y de entendimiento en el
+entorno próximo,  apoyándose en diversos recursos y soportes, para  así  construir  conocimiento y
+transmitir información de manera clara y responsable.
+4.2. Aplicar, de forma progresivamente autónoma y con una aceptable gestión emocional, estrategias
+básicas que ayuden a crear puentes y faciliten la comprensión, la producción de información y la
+comunicación, adecuadas a las intenciones comunicativas, haciendo uso de su repertorio lingüístico y
+de recursos y apoyos físicos o digitales en función de las necesidades de cada momento, con la
+finalidad de explicar y simplificar textos, conceptos y mensajes.
+CP2, CD2, CPSAA1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de mediar, oralmente o por escrito y de forma progresivamente
+autónoma, usando estrategias y conocimientos sencillos orientados a inferir y explicar conceptos, textos o comunicaciones de manera simple para
+transmitir información de forma activa mediante textos dotados de coherencia, cohesión y corrección en situaciones en las que se atiende a la
+diversidad. A su vez, se persigue constatar que el alumnado es capaz de mostrar respeto y empatía por las interlocutoras y los interlocutores y aprecio
+por las lenguas empleadas, al igual que hacer uso de la motivación y de una aceptable gestión emocional. Del mismo modo, se tratará de verificar
+que participa con interés en la solución de problemas de intercomprensión y de entendimiento en los que adoptará un punto de vista progresivamente
+crítico para así transmitir información de manera clara y responsable y con un repertorio lingüístico relativamente variado. También se verificará que
+el alumnado pueda aplicar estrategias básicas de forma progresivamente autónoma que ayuden a crear puentes y que faciliten la comunicación, como
+realizar transferencias léxicas o morfosintácticas, o razonar estratégicamente, adecuándose a las intenciones comunicativas, a las características
+contextuales y al tipo de texto en situaciones cotidianas y frecuentes próximas a la experiencia del alumnado, así como optimizando el uso de
+recursos y apoyos físicos o digitales en función de las necesidades de cada momento, con la finalidad de explicar y simplificar de manera activa e
+informada, textos, conceptos y mensajes.
+27
+
+=== Página 28 ===
+
+Competencia específica
+5. Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de
+forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos
+propios, para mejorar la respuesta a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Criterios de evaluación
+5.1. Identificar y registrar, siguiendo modelos, los progresos y dificultades de aprendizaje de la lengua
+extranjera con apoyo de otros participantes y de soportes analógicos y digitales, seleccionando con
+cierta autonomía las estrategias más eficaces en las actividades de autoevaluación y coevaluación,
+como las que se proponen en el Portfolio Europeo de las Lenguas o en diarios de aprendizaje, así como
+comparar y contrastar las semejanzas y diferencias entre distintas lenguas, reflexionando de manera
+progresivamente autónoma sobre su funcionamiento, de modo que se produzca una transferencia de
+conocimientos y estrategias a diferentes contextos sociales cotidianos y próximos que le permita
+ampliar su repertorio lingüístico individual, superar las adversidades y progresar en su aprendizaje en
+la lengua extranjera.
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado enriquece su repertorio lingüístico individual, estableciendo relaciones entre
+las distintas lenguas, a las que aplica métodos inductivos, deductivos o lógicos, para así extraer la información más relevante. Asimismo, se pretende
+comprobar que emplea herramientas y estrategias, de manera individual o en grupo, con cierta autonomía, como la producción y corrección de
+borradores, la toma de notas, la escucha activa, la realización de ensayos y la detección de errores comunes; u otras como el empleo de la
+perseverancia, la toma de decisiones o el uso de expresiones y léxico más habitual para intercambiar ideas sobre la propia comunicación y el
+aprendizaje (preguntar por el significado de una palabra o expresión, solicitar aclaraciones, manejar términos lingüísticos, etc.). A su vez, se persigue
+28
+
+=== Página 29 ===
+
+corroborar que plantea metas a corto y medio plazo respecto a las tareas y que documenta los procesos de planificación y evaluación de sus
+aprendizajes, tomando nota de las reflexiones y emociones derivadas e integrando las experiencias de aprendizaje de los demás. De la misma
+manera, se pretende evidenciar que se utilizan herramientas digitales y analógicas como lectores inmersivos, traductores digitales, diccionarios,
+webs, dosieres, porfolios…, las cuales integra en su entorno personal de aprendizaje, de modo que todo ello le permita tanto mantener la motivación
+como progresar, consolidar y avanzar en el aprendizaje de la lengua extranjera, transfiriendo conocimientos y estrategias a diferentes contextos
+sociales.
+Competencia específica
+6. Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la
+lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y
+culturas, para actuar de forma empática y respetuosa en situaciones interculturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Criterios de evaluación
+6.1. Valorar de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de
+Canarias y de países donde se habla la lengua extranjera, aplicando estrategias con cierta autonomía en
+situaciones comunicativas interculturales cotidianas con resiliencia, construyendo vínculos entre el
+patrimonio canario y el de otras culturas y favoreciendo el desarrollo de una cultura compartida y una
+ciudadanía  comprometida  con  la  sostenibilidad  y  los  valores  democráticos,  para  afrontar  las
+diferencias  morales  o  culturales  con  actitud  dialogante,  argumentativa,  respetuosa  y  opuesta  a
+cualquier tipo de discriminación o violencia.
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Explicación del bloque competencial
+29
+
+=== Página 30 ===
+
+Mediante este bloque competencial se confirmará que el alumnado es capaz de valorar la diversidad lingüística, cultural y artística y de mostrar
+respeto y aprecio por la cultura canaria y por otras, utilizando para ello la lengua extranjera en contextos cotidianos como medio de comunicación y
+de enriquecimiento personal. También se verificará que el alumnado identifica y comparte las semejanzas y diferencias entre lenguas y entre la
+cultura canaria y otras culturas, y que promueve aspectos esenciales del patrimonio cultural, natural y artístico canario, aplicando estrategias con
+cierta autonomía, con el fin de atender a valores ecosociales y democráticos que fomenten la sostenibilidad, la defensa de la libertad de expresión, la
+igualdad (con especial atención a la de género y a los derechos humanos) y el enriquecimiento inherente a la diversidad.
+30
+
+=== Página 31 ===
+
+Saberes básicos
+I. Comunicación
+1. Empleo de estrategias básicas para la planificación, ejecución, control y reparación de la
+comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+2. Aplicación de conocimientos, destrezas y actitudes que permitan detectar y colaborar en
+actividades de mediación en situaciones cotidianas sencillas.
+3. Uso de funciones comunicativas básicas adecuadas al ámbito y al contexto comunicativo:
+saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; situar
+eventos en el tiempo; situar objetos, personas y lugares en el espacio; pedir e intercambiar
+información  sobre  cuestiones  cotidianas;  dar  y  pedir  instrucciones  y  órdenes;  ofrecer,
+aceptar y rechazar ayuda, proposiciones o sugerencias; expresar parcialmente el gusto o el
+interés y emociones básicas; narrar acontecimientos pasados, describir situaciones presentes
+y enunciar sucesos futuros; expresar la opinión, la posibilidad, la capacidad, la obligación y
+la prohibición.
+4. Identificación  y  uso  de  modelos  contextuales  y  géneros  discursivos  básicos  en  la
+comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y
+sencillos,  literarios  y  no  literarios:  características  y  reconocimiento  del  contexto
+(participantes  y  situación),  expectativas  generadas  por  el  contexto;  organización  y
+estructuración según el género y la función textual.
+5. Manejo de unidades lingüísticas básicas y significados asociados a dichas unidades, tales
+como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio y las
+relaciones espaciales, el tiempo y las relaciones temporales, la afirmación, la negación, la
+interrogación y la exclamación, relaciones lógicas básicas.
+6. Identificación y empleo de léxico de uso común y de interés para el alumnado relativo a
+identificación  personal,  relaciones  interpersonales,  lugares  y  entornos  cercanos,  ocio  y
+tiempo libre, vida cotidiana, salud y actividad física, vivienda y hogar, clima y entorno
+natural, tecnologías de la información y la comunicación.
+7. Reconocimiento y reproducción de patrones sonoros, acentuales, rítmicos y de entonación
+básicos,  y  de  significados  e  intenciones  comunicativas  generales  asociadas  a  dichos
+patrones.
+8. Reconocimiento y uso de convenciones ortográficas básicas y significados e intenciones
+comunicativas asociados a los formatos, patrones y elementos gráficos.
+9. Uso  de  convenciones  y  estrategias  conversacionales  básicas,  en  formato  síncrono  o
+asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir
+y dar aclaraciones y explicaciones, reformular, comparar y contrastar, resumir, colaborar,
+debatir, etc.
+10. Selección y uso de recursos para el aprendizaje y de estrategias básicas de búsqueda de
+información: diccionarios, libros de consulta, bibliotecas, recursos digitales e informáticos,
+etc.
+31
+
+=== Página 32 ===
+
+11. Identificación  y  atribución  de  la  autoría  de  las  fuentes  consultadas  y  los  contenidos
+utilizados.
+12. Uso  de  herramientas  analógicas  y  digitales  básicas  para  la  comprensión,  producción  y
+coproducción  oral,  escrita  y  multimodal;  uso  de  plataformas  virtuales  de  interacción,
+cooperación  y  colaboración  educativa  (aulas  virtuales,  videoconferencias,  herramientas
+digitales  colaborativas,  etc.)  para  el  aprendizaje,  la  comunicación  y  el  desarrollo  de
+proyectos con hablantes o estudiantes de la lengua extranjera.
+II. Plurilingüismo
+ 1. Selección  y  uso  de  estrategias  y  técnicas  para  responder  eficazmente  a  una  necesidad
+comunicativa básica y concreta de forma comprensible, a pesar de las limitaciones derivadas
+del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio
+lingüístico propio.
+ 2. Empleo  de  estrategias  básicas  para  identificar,  organizar,  retener,  recuperar  y  utilizar
+creativamente unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de
+la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.
+ 3. Identificación y uso de estrategias y herramientas básicas de autoevaluación y coevaluación,
+analógicas y digitales, individuales y cooperativas.
+ 4. Reconocimiento del error como instrumento de mejora y propuesta de reparación.
+ 5. Identificación y empleo de léxico y expresiones de uso común para comprender enunciados
+sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y
+aprendizaje (metalenguaje).
+ 6. Comparación básica entre lenguas a partir de elementos de la lengua extranjera y otras
+lenguas: origen y parentescos.
+III. Interculturalidad
+1. Reconocimiento y aprecio por aspectos socioculturales y sociolingüísticos básicos relativos
+a la vida cotidiana y las condiciones de vida; convenciones sociales básicas; lenguaje no
+verbal, cortesía lingüística y etiqueta digital; cultura, costumbres y valores propios de países
+donde se habla la lengua extranjera y de Canarias.
+2. Identificación y utilización de estrategias básicas para entender la diversidad lingüística,
+cultural y artística, atendiendo a valores ecosociales y democráticos compatibles con el
+desarrollo sostenible.
+3. Selección  y  empleo  de  estrategias  básicas  de  detección  y  actuación  ante  usos
+discriminatorios del lenguaje verbal y no verbal, con especial atención a la discriminación
+por razón de género o diversidad funcional.
+IV . Dimensiones interpersonal e intrapersonal
+1. Aprecio por la lengua extranjera como medio de comunicación interpersonal e internacional,
+como fuente de información y como herramienta para el enriquecimiento personal.
+32
+
+=== Página 33 ===
+
+2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo relativas a las
+relaciones interpersonales.
+3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+4. Interés e iniciativa en la realización de intercambios comunicativos a través de diferentes
+medios con hablantes o estudiantes de la lengua extranjera.
+5. Desarrollo de la autoestima, la autoconfianza y la iniciativa.
+6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+7. Visión creativa y emocional del aprendizaje.
+8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+9. Aprecio por la diversidad y el patrimonio natural, lingüístico, cultural y artístico en lo
+referente a las relaciones interpersonales en países donde se habla la lengua extranjera, y
+diferencias destacadas con aquel propio de Canarias.
+33
+
+=== Página 34 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados
+de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias
+como la inferencia de significados, para responder a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, CP2, STEM1, CD1,
+CPSAA4
+Criterios de evaluación
+1.1. Seleccionar información pertinente, analizar y extraer el sentido global y la información específica
+y explícita, e interpretar y valorar el contenido y los rasgos discursivos de textos orales sencillos, sobre
+temas cotidianos, de relevancia personal o de interés público próximos a su experiencia, expresados de
+forma clara a través de diversos soportes, utilizando con fluidez y adecuación una o más lenguas
+además de las familiares con el fin de construir conocimiento y responder a necesidades comunicativas
+concretas.
+CCL2, CCL3, CP1, CP2
+1.2. Seleccionar información pertinente, extraer el sentido global y las ideas principales, e interpretar y
+valorar el contenido y los rasgos discursivos de textos escritos y multimodales, sencillos, sobre temas
+cotidianos, de relevancia personal o de interés público próximos a su experiencia, expresados de forma
+clara a través de diversos soportes, así como de textos literarios adaptados al nivel de madurez del
+alumnado, aplicando criterios de validez y calidad, y utilizando con fluidez y adecuación una o más
+lenguas además de las familiares, con el fin de construir conocimiento y responder a necesidades
+comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+34
+
+=== Página 35 ===
+
+1.3. Aplicar de manera progresivamente autónoma los conocimientos y las estrategias más adecuadas
+en cada situación comunicativa para comprender el sentido general, la información esencial y los
+detalles más relevantes de los textos, inferir significados e interpretar elementos no verbales, así como
+realizar  búsquedas  para  seleccionar  y  gestionar  información  veraz  y  enriquecer  su  repertorio
+lingüístico individual.
+STEM1, CD1, CPSAA4
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de seleccionar información pertinente, así como de analizar y extraer el
+sentido global y las ideas principales de textos escritos, orales y multimodales, utilizando recursos para el aprendizaje como diccionarios u otros
+recursos digitales. Además, también se pretende comprobar que el alumnado interpreta y valora información de textos sencillos sobre temas
+cotidianos, poniendo en marcha un repertorio de estrategias como apoyarse en pistas textuales y paratextuales para localizar información, o el
+empleo de suposiciones para mejorar la comprensión. Asimismo, se trata de verificar que el alumnado aplica, de manera progresivamente autónoma,
+conocimientos y estrategias de uso común, de búsqueda y selección de información, para adquirir conocimiento y para ampliar su repertorio
+lingüístico individual con léxico de uso común y de interés para el alumnado. Además, se trata de corroborar que el alumnado reconoce   modelos
+contextuales y géneros discursivos frecuentes en la comprensión de textos orales, escritos y multimodales, sencillos, literarios y no literarios,
+relativos a la salud, actividad física, el medioambiente, la comunicación y la tecnología, entre otros, que le ayuden a mejorar progresivamente el
+nivel de comprensión.
+Competencia específica
+2. Producir textos originales, de extensión media, sencillos y con una organización clara, usando
+estrategias tales como la planificación, la compensación o la autorreparación, para expresar de
+forma  creativa,  adecuada  y  coherente,  mensajes  relevantes  y  responder  a  propósitos
+comunicativos concretos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CP1, CP2, STEM1, CD2, CPSAA5,
+CCEC3
+35
+
+=== Página 36 ===
+
+Criterios de evaluación
+2.1.  Elaborar  y  expresar  oralmente  textos  sencillos,  estructurados,  comprensibles,  coherentes  y
+adecuados a la situación comunicativa, que versen sobre asuntos cotidianos y que sean de relevancia
+personal o de interés público y próximos a la experiencia del alumnado, empleando diferentes soportes
+y haciéndolo de forma creativa, así como mostrando empatía y aprecio por las producciones de los
+demás, con el fin de responder a propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.2. Redactar y difundir textos propios de extensión media sobre asuntos cotidianos, de relevancia
+personal o de interés público y próximos a la experiencia del alumnado, haciéndolo con aceptable
+claridad, coherencia, cohesión, corrección y adecuación a la situación comunicativa propuesta, a la
+tipología textual y a las herramientas analógicas y digitales utilizadas, empleando la creatividad y
+mostrando empatía y aprecio por las producciones de los demás, así como respetando la propiedad
+intelectual y evitando el plagio, con el fin de responder a propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.3.  Seleccionar,  organizar  y  aplicar  conocimientos  y  estrategias  en  la  elaboración  de  textos
+coherentes, cohesionados y adecuados a las intenciones comunicativas, las características contextuales,
+los aspectos socioculturales y la tipología textual, haciendo uso de su repertorio lingüístico y usando
+los recursos físicos o digitales más adecuados en función de la tarea y de las necesidades de la
+audiencia o del lector potencial a quien se dirige el texto, para planificar, producir, revisar y cooperar,
+así como para seguir progresando en el proceso de aprendizaje.
+CP2, STEM1, CD2, CPSAA5
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de redactar, expresar y difundir de forma progresivamente autónoma
+textos orales y escritos en diferentes soportes sobre temas de relevancia para el alumnado en los ámbitos personal, educativo, o público próximos a la
+experiencia del alumnado, que sean sencillos y estén estructurados con claridad, empleando elementos lingüísticos de uso común que los doten de la
+36
+
+=== Página 37 ===
+
+apropiada cohesión y coherencia, produciéndolos con originalidad y adaptándolos a la intención comunicativa y a las convenciones sociolingüísticas,
+haciendo uso de su repertorio lingüístico para responder de esta manera a propósitos comunicativos concretos en los que se adopte un punto de vista
+crítico y reflexivo. Además, se buscará constatar que el alumnado selecciona, organiza y aplica estrategias que impliquen la planificación, la
+coevaluación y la autoevaluación, la compensación, la comunicación no verbal o la autorreparación, tales como el uso de borradores para elaborar su
+discurso o la comprobación de listas de control o rúbricas para ajustarse adecuadamente a la tarea. Por otro lado, se comprobará que se adopte una
+actitud adecuada en la que se incluya el respeto por las producciones de los demás, la motivación y la resiliencia, así como una buena gestión de las
+emociones y el aprecio y respeto por las normas.
+Competencia específica
+3. Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y
+empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos
+en intercambios respetuosos con las normas de cortesía.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, CP1, CP2, STEM1, CD3,
+CPSAA3, CC3
+Criterios de evaluación
+3.1. Planificar, participar y colaborar en situaciones interactivas, orales y escritas sencillas sobre temas
+cotidianos, de relevancia personal o de interés público cercanos a su experiencia, haciendo uso de la
+cortesía lingüística y mostrando proactividad, empatía y respeto por las diferentes necesidades, ideas,
+inquietudes,  iniciativas  y  motivaciones  de  los  interlocutores  y  las  interlocutoras,  con  el  fin  de
+responder a propósitos comunicativos concretos, fortalecer vínculos personales y participar en la vida
+social.
+CCL1, CCL5, CP1, CPSAA3
+3.2. Seleccionar, organizar y utilizar, de forma progresivamente autónoma, estrategias adecuadas que CP2, STEM1, CD3, CC3
+37
+
+=== Página 38 ===
+
+le  permitan,  haciendo  uso  de  su  repertorio  lingüístico,  anticipar,  iniciar,  mantener  y  terminar  la
+comunicación,  como  tomar  y  ceder  la  palabra,  solicitar  y  ofrecer  aclaraciones  y  explicaciones,
+reformular  el  discurso  y  colaborar,  debatir  y  resolver  problemas,  con  el  fin  de  expresarse  en
+situaciones interactivas sencillas en la lengua extranjera a través de diversos soportes.
+Explicación del bloque competencial
+A través  de  este  bloque  competencial  se  comprobará  que  el  alumnado  puede  desenvolverse  en  situaciones  interactivas  como  entrevistas,
+conversaciones telefónicas, discusiones dentro de un grupo de trabajo o aquellas en las que se origina intercambio de correspondencia informal
+sencilla, ajustándose a la función comunicativa, y usando convenciones y elementos lingüísticos de uso común o frecuente. Además, se buscará
+verificar que participa y coopera en actividades grupales, tanto en el aula como fuera de ella, empleando herramientas o plataformas virtuales de
+manera diligente y creativa. También se tratará de confirmar que muestra empatía por los interlocutores y las interlocutoras, siendo capaz de resolver
+problemas y manejar situaciones comprometidas. Del mismo modo, se pretenderá verificar que pone en marcha, de manera progresivamente
+autónoma, un repertorio de estrategias como el empleo de lenguaje prefabricado, guiones o esquemas, ensayos previos o la transferencia léxica o
+morfosintáctica, además de otros recursos, para así ajustarse a la tarea. Consecuentemente, durante su desarrollo deberá emplear métodos que
+impliquen procesos de autoevaluación, coevaluación y autorreparación, siendo capaz de incorporar las experiencias de los demás en su aprendizaje.
+Finalmente, se buscará constatar que mantiene la motivación y el interés por llevar a cabo intercambios comunicativos en la lengua extranjera que le
+permitan ampliar su repertorio lingüístico.
+Competencia específica
+4. Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos
+sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de
+manera eficaz, clara y responsable.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP1, CP2, CP3, CD2, CPSAA1
+38
+
+=== Página 39 ===
+
+Criterios de evaluación
+4.1. Inferir y explicar textos, conceptos y comunicaciones sencillas, con cierta autonomía, de forma
+oral o escrita, en situaciones cotidianas del ámbito personal, social, educativo y profesional, mostrando
+empatía por los interlocutores y las interlocutoras, y respeto por las lenguas empleadas, así como
+participando en la solución de problemas de intercomprensión y de entendimiento en el entorno,
+apoyándose en diversos recursos y soportes, para así construir conocimiento y transmitir información
+de manera clara y responsable.
+CCL5, CP1, CP3
+4.2. Aplicar, con cierta autonomía, estrategias que ayuden a crear puentes, faciliten la comunicación y
+sirvan para explicar y simplificar textos, conceptos y mensajes y que sean adecuadas a las intenciones
+comunicativas, a las características contextuales y a la tipología textual, haciendo uso de su repertorio
+lingüístico y de una buena gestión emocional, así como de recursos y apoyos físicos o digitales en
+función  de  las  necesidades  de  cada  momento,  con  la  finalidad  de  explicar  y  simplificar  textos,
+conceptos y mensajes.
+CP2, CD2, CPSAA1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de mediar, oralmente o por escrito y con cierta autonomía, usando
+estrategias  y  conocimientos  sencillos  orientados  a  inferir  y  explicar  conceptos,  textos  o  comunicaciones  de  manera  simple  para  transmitir
+información de forma activa e informada, mediante textos dotados de coherencia, cohesión y corrección en situaciones en las que se atiende a la
+diversidad. A su vez, se persigue constatar que el alumnado es capaz de mostrar respeto y empatía por las interlocutoras y los interlocutores y aprecio
+por las lenguas empleadas, al igual que de hacer uso de la motivación y de una buena gestión emocional. Del mismo modo, se tratará de verificar que
+participa con interés en la solución de problemas de intercomprensión y de entendimiento en los que adoptará un punto de vista progresivamente
+crítico y reflexivo, para así transmitir información de manera clara y responsable y con un repertorio lingüístico variado. También se verificará que el
+alumnado pueda aplicar estrategias, con cierta autonomía, que ayuden a crear puentes y que faciliten la comunicación, como realizar transferencias
+léxicas o morfosintácticas o razonar estratégicamente, adecuándose a las intenciones comunicativas, a las características contextuales y al tipo de
+39
+
+=== Página 40 ===
+
+texto en situaciones cotidianas en los ámbitos personal, social y educativo, y optimizando el uso de recursos y apoyos físicos o digitales en función
+de las necesidades de cada momento.
+Competencia específica
+5. Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de
+forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos
+propios, para mejorar la respuesta a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Criterios de evaluación
+5.1. Identificar, registrar y compartir los progresos y dificultades de aprendizaje de la lengua extranjera
+con apoyo de otros participantes y de soportes analógicos y digitales, seleccionando las estrategias más
+eficaces en las actividades de planificación, autoevaluación y coevaluación, como las que se proponen
+en el Portfolio Europeo de las Lenguas o en diarios de aprendizaje, así como comparar y argumentar
+las  semejanzas  y  diferencias  entre  distintas  lenguas,  reflexionando  de  manera  progresivamente
+autónoma sobre su funcionamiento, de modo que se produzca una transferencia de conocimientos y
+estrategias a diferentes contextos sociales cotidianos que le permita ampliar su repertorio lingüístico
+individual, superar las adversidades y consolidar su aprendizaje en la lengua extranjera.
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado enriquece su repertorio lingüístico individual estableciendo relaciones entre las
+distintas lenguas, a las que aplica métodos inductivos, deductivos o lógicos, para así extraer información relevante, apoyándose en elementos como
+el contexto y el cotexto o la derivación léxica. Asimismo, se pretende comprobar que emplea herramientas y estrategias, de manera individual o en
+40
+
+=== Página 41 ===
+
+grupo, como la producción y corrección de borradores, la toma de notas, la escucha activa, la realización de ensayos y la detección de errores
+comunes; u otras como el empleo de la perseverancia, la toma de decisiones o el uso de expresiones y léxico para intercambiar ideas sobre la propia
+comunicación y el aprendizaje (preguntar por el significado de una palabra o expresión, solicitar aclaraciones, manejar términos lingüísticos…). A su
+vez, se persigue corroborar que plantea metas a corto y medio plazo respecto a las tareas y que documenta los procesos de planificación y evaluación
+de sus aprendizajes, compartiendo las reflexiones y emociones derivadas e integrando las experiencias de aprendizaje de los demás. De la misma
+manera, se pretende evidenciar que se utilizan herramientas digitales y analógicas como lectores inmersivos, traductores digitales, diccionarios,
+webs, dosieres, porfolios…, las cuales integra en su entorno personal de aprendizaje, de modo que todo ello le permita tanto mantener la motivación
+como consolidar y avanzar en el aprendizaje de la lengua extranjera, transfiriendo conocimientos y estrategias a diferentes contextos sociales.
+Competencia específica
+6. Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la
+lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y
+culturas, para actuar de forma empática y respetuosa en situaciones interculturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Criterios de evaluación
+6.1. Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística
+propia de Canarias y de los países donde se habla la lengua extranjera, aplicando estrategias de manera
+progresivamente autónoma en situaciones comunicativas interculturales cotidianas, con resiliencia,
+mostrando  interés  por  proponer  vías  de  solución  a  dificultades  comunicativas  socioculturales,
+construyendo vínculos entre el patrimonio canario y el de otras culturas y favoreciendo el desarrollo de
+una  cultura  compartida  y  de  una  ciudadanía  comprometida  con  la  sostenibilidad  y  los  valores
+democráticos, para afrontar las diferencias morales o culturales con actitud dialogante, argumentativa,
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+41
+
+=== Página 42 ===
+
+respetuosa y opuesta a cualquier tipo de discriminación o violencia.
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de valorar críticamente la diversidad lingüística, cultural y artística y de
+mostrar respeto y aprecio por la cultura canaria y por otras, utilizando para ello la lengua extranjera en contextos cotidianos como medio de
+comunicación y de enriquecimiento personal. También se verificará que el alumnado identifica y comparte las semejanzas y diferencias entre
+lenguas y entre la cultura canaria y otras culturas, y que promueve aspectos relevantes del patrimonio cultural, natural y artístico canario, aplicando
+estrategias de manera progresivamente autónoma, con el fin de atender a valores ecosociales y democráticos que fomenten la sostenibilidad, la
+defensa de la libertad de expresión, la igualdad (con especial atención a la de género y a los derechos humanos) y el enriquecimiento inherente a la
+diversidad.
+42
+
+=== Página 43 ===
+
+Saberes básicos
+I. Comunicación
+1. Empleo de estrategias de uso común para la planificación, ejecución, control y reparación de
+la comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+2. Aplicación de conocimientos, destrezas y actitudes que permiten llevar a cabo actividades
+de mediación en situaciones cotidianas.
+3. Uso  de  funciones  comunicativas  de  uso  común  adecuadas  al  ámbito  y  al  contexto
+comunicativo: saludar y despedirse, presentar y presentarse; describir personas, objetos,
+lugares, fenómenos y acontecimientos; situar eventos en el tiempo; situar objetos, personas y
+lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; dar y
+pedir instrucciones, consejos y órdenes; ofrecer, aceptar y rechazar ayuda, proposiciones o
+sugerencias;  expresar  parcialmente  el  gusto  o  el  interés  y  las  emociones;  narrar
+acontecimientos  pasados,  describir  situaciones  presentes  y  enunciar  sucesos  futuros;
+expresar la opinión, la posibilidad, la capacidad, la obligación y la prohibición; expresar
+argumentaciones sencillas; reformular y resumir.
+4. Identificación y uso de modelos contextuales y géneros discursivos de uso común en la
+comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y
+sencillos,  literarios  y  no  literarios:  características  y  reconocimiento  del  contexto
+(participantes  y  situación),  expectativas  generadas  por  el  contexto;  organización  y
+estructuración según el género y la función textual.
+5. Manejo de unidades lingüísticas de uso común y significados asociados a dichas unidades,
+tales como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio
+y las relaciones espaciales, el tiempo y las relaciones temporales, la afirmación, la negación,
+la interrogación y la exclamación, relaciones lógicas habituales.
+6. Identificación y empleo de léxico de uso común y de interés para el alumnado relativo a
+identificación personal, relaciones interpersonales, lugares y entornos, ocio y tiempo libre,
+salud  y  actividad  física,  vida  cotidiana,  vivienda  y  hogar,  clima  y  entorno  natural,
+tecnologías de la información y la comunicación.
+7. Identificación y reproducción de patrones sonoros, acentuales, rítmicos y de entonación de
+uso común, y de significados e intenciones comunicativas generales asociadas a dichos
+patrones.
+8. Reconocimiento  y  uso  de  convenciones  ortográficas  de  uso  común  y  significados  e
+intenciones comunicativas asociados a los formatos, patrones y elementos gráficos.
+9. Selección y uso de convenciones y estrategias conversacionales de uso común, en formato
+síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la
+palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, resumir, colaborar,
+debatir, etc.
+10. Selección y uso de recursos para el aprendizaje y estrategias de uso común de búsqueda y
+selección de información: diccionarios, libros de consulta, bibliotecas, recursos digitales e
+informáticos, etc.
+43
+
+=== Página 44 ===
+
+11. Respeto de la propiedad intelectual de las fuentes consultadas y contenidos utilizados.
+12. Selección y uso de herramientas analógicas y digitales de uso común para la comprensión,
+producción  y coproducción  oral,  escrita  y  multimodal;  uso de  plataformas  virtuales de
+interacción,  cooperación  y  colaboración  educativa  (aulas  virtuales,  videoconferencias,
+herramientas  digitales  colaborativas,  etc.)  para  el  aprendizaje,  la  comunicación  y  el
+desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera.
+II. Plurilingüismo
+1. Selección  y  uso  de  estrategias  y  técnicas  para  responder  eficazmente  y  con  niveles
+crecientes de fluidez, adecuación y corrección a una necesidad comunicativa concreta, a
+pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las
+demás lenguas del repertorio lingüístico propio.
+2. Empleo de estrategias de uso común para identificar, organizar, retener, recuperar y utilizar
+creativamente unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de
+la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.
+3. Selección y uso de estrategias y herramientas de uso común para la autoevaluación, la
+coevaluación y la autorreparación, analógicas y digitales, individuales y cooperativas.
+4. Reconocimiento del error como instrumento de mejora y propuesta de reparación.
+5. Identificación y empleo de léxico y expresiones de uso común para intercambiar ideas sobre
+la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje
+(metalenguaje).
+6. Comparación entre lenguas a partir de elementos de la lengua extranjera y otras lenguas:
+origen y parentescos.
+III. Interculturalidad
+1. Reconocimiento y respeto por aspectos socioculturales y sociolingüísticos de uso común
+relativos a la vida cotidiana y las condiciones de vida; convenciones sociales de uso común;
+lenguaje  no  verbal,  cortesía  lingüística  y  etiqueta  digital;  cultura,  normas,  actitudes,
+costumbres y valores propios de países donde se habla la lengua extranjera y de Canarias.
+2. Utilización de estrategias de uso común para entender la diversidad lingüística, cultural y
+artística, atendiendo a valores ecosociales y democráticos compatibles con el desarrollo
+sostenible.
+3. Selección  y  empleo  de  estrategias  de  uso  común  de  detección  y  actuación  ante  usos
+discriminatorios  del  lenguaje  verbal  y  no  verbal,  con  especial  consideración  a  la
+discriminación por razón de género o diversidad funcional.
+IV . Dimensiones interpersonal e intrapersonal
+1. Aprecio por la lengua extranjera como medio de comunicación interpersonal e internacional,
+como fuente de información y como herramienta para el enriquecimiento personal.
+2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo relativas a las
+relaciones interpersonales.
+44
+
+=== Página 45 ===
+
+3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+4. Interés e iniciativa en la realización de intercambios comunicativos a través de diferentes
+medios con hablantes o estudiantes de la lengua extranjera.
+5. Desarrollo de la autoestima, la autoconfianza y la iniciativa.
+6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+7. Visión creativa y emocional del aprendizaje.
+8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+9. Aprecio por la diversidad y el patrimonio lingüístico, cultural y artístico en lo relativo a las
+relaciones interpersonales en países donde se habla la lengua extranjera, y diferencias y
+similitudes destacadas con aquel propio de Canarias.
+45
+
+=== Página 46 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados
+de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias
+como la inferencia de significados, para responder a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, CP1, CP2, STEM1, CD1,
+CPSAA4
+Criterios de evaluación
+1.1. Seleccionar información pertinente, extraer el sentido global y las ideas principales e interpretar y
+valorar con actitud crítica el contenido y los rasgos discursivos de textos orales progresivamente más
+complejos  sobre  temas  cotidianos,  de  relevancia  personal  o  de  interés  público  próximos  a  su
+experiencia,  expresados  de  forma  clara  a  través  de  diversos  soportes,  utilizando  con  fluidez,
+adecuación y con cierta corrección una o más lenguas además de las familiares, con el fin de construir
+conocimiento y responder a necesidades comunicativas concretas.
+CCL2, CCL3, CP1, CP2
+1.2. Seleccionar información pertinente, extraer el sentido global y las ideas principales e interpretar y
+valorar con actitud crítica el contenido y los rasgos discursivos de textos escritos y multimodales
+progresivamente más complejos sobre temas cotidianos, de relevancia personal o de interés público
+próximos a su experiencia, expresados de forma clara a través de diversos soportes, así como de textos
+literarios  adaptados  al  nivel  de  madurez  del  alumnado,  aplicando  criterios  de  validez,  calidad  y
+fiabilidad y utilizando con fluidez, adecuación y con cierta corrección una o más lenguas además de
+las  familiares,  con  el  fin  de  construir  conocimiento  y  responder  a  necesidades  comunicativas
+CCL2, CCL3, CP1, CP2
+46
+
+=== Página 47 ===
+
+concretas.
+1.3. Aplicar los conocimientos y las estrategias más adecuadas en cada situación comunicativa para
+comprender el sentido general, la información esencial y los detalles más relevantes de los textos,
+inferir significados e interpretar elementos no verbales, así como realizar búsquedas para seleccionar y
+gestionar información veraz y enriquecer su repertorio lingüístico individual.
+STEM1, CD1, CPSAA4
+Explicación del bloque competencial
+Mediante este bloque competencial se confirmará que el alumnado es capaz de comprender y seleccionar información pertinente, de manera
+progresivamente autónoma, y analizar y extraer el sentido global y las ideas principales de textos escritos, orales y multimodales, utilizando recursos
+para el aprendizaje como diccionarios u otras herramientas digitales. Además, también se pretende comprobar que el alumnado interpreta y valora
+críticamente información de textos sobre temas cotidianos, poniendo en marcha un repertorio de estrategias como la inferencia o la realización de
+hipótesis y suposiciones para mejorar la comprensión. Asimismo, se trata de verificar que el alumnado aplica conocimientos y estrategias de uso
+común de búsqueda y selección de información de manera fiable y crítica, para adquirir conocimiento y para ampliar su repertorio lingüístico
+individual con léxico de uso común y de interés para el alumnado. Además, se trata de corroborar que el alumnado reconoce modelos contextuales y
+géneros discursivos frecuentes en la comprensión de textos orales, escritos y multimodales, literarios y no literarios, relativos a la salud, la actividad
+física, el medioambiente, la comunicación y la tecnología, entre otros, que le ayuden a mejorar progresivamente el nivel de comprensión. 
+Competencia específica
+2. Producir textos originales, de extensión media, sencillos y con una organización clara, usando
+estrategias tales como la planificación, la compensación o la autorreparación, para expresar de
+forma  creativa,  adecuada  y  coherente,  mensajes  relevantes  y  responder  a  propósitos
+comunicativos concretos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CP1, CP2, STEM1, CD2, CPSAA5,
+CCEC3
+47
+
+=== Página 48 ===
+
+Criterios de evaluación
+2.1.  Elaborar  y  expresar  oralmente  textos  sencillos,  estructurados,  comprensibles,  coherentes  y
+adecuados a  la situación comunicativa  que versen sobre asuntos cotidianos y sean de  relevancia
+personal o de interés público próximos a la experiencia del alumnado, empleando diferentes soportes,
+y haciéndolo de forma creativa y mostrando empatía y aprecio por las producciones ajenas, con el fin
+de responder a propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.2. Redactar y difundir textos propios de extensión media sobre asuntos cotidianos, de relevancia
+personal o de interés público próximos a la experiencia del alumnado, haciéndolo con aceptable
+claridad, coherencia, cohesión, corrección y adecuación a la situación comunicativa propuesta, a la
+tipología  textual  y  a  las  herramientas  analógicas  y  digitales  utilizadas,  empleando  creatividad,
+mostrando  empatía  y  aprecio  por  las  producciones  ajenas,  respetando  la  propiedad  intelectual  y
+evitando el plagio, con el fin de responder a propósitos comunicativos concretos.
+CCL1, CP1, CCEC3
+2.3.  Seleccionar,  organizar  y  aplicar  conocimientos  y  estrategias  en  la  elaboración  de  textos
+coherentes, cohesionados y adecuados a las intenciones comunicativas, las características contextuales,
+los aspectos socioculturales y la tipología textual, haciendo uso de su repertorio lingüístico y usando
+los recursos físicos o digitales más adecuados en función de la tarea y de las necesidades de la
+audiencia o del lector o lectora potencial a quien se dirige el texto, para planificar, producir, revisar y
+seguir progresando en el proceso de aprendizaje.
+CP2, STEM1, CD2, CPSAA5
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de elaborar, expresar y difundir textos, tanto orales como escritos, en
+diferentes soportes sobre temas de relevancia para el alumnado en los ámbitos personal, educativo, público o profesional, que sean de extensión
+media y estén estructurados con claridad, empleando elementos lingüísticos de uso común que los doten de la apropiada cohesión y coherencia,
+48
+
+=== Página 49 ===
+
+produciéndolos con originalidad y adaptándolos a la intención comunicativa y a las convenciones sociolingüísticas, haciendo uso de su repertorio
+lingüístico para responder de esta manera a propósitos comunicativos concretos en los que se adopte un punto de vista crítico y reflexivo. Además, se
+buscará constatar que el alumnado selecciona, organiza y aplica estrategias tales como la planificación, la coevaluación y la autoevaluación, la
+compensación, la cooperación, la comunicación no verbal o la autorreparación. Por otro lado, se comprobará que adopta una actitud adecuada en la
+que se incluya el respeto por las producciones ajenas, la motivación y la resiliencia, así como una buena gestión de las emociones y el aprecio y
+respeto por las normas.
+Competencia específica
+3. Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y
+empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos
+en intercambios respetuosos con las normas de cortesía.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, CP1, CP2, STEM1, CD3,
+CPSAA3, CC3
+Criterios de evaluación
+3.1.  Planificar,  participar  y  colaborar  activamente  en  situaciones  interactivas,  orales,  escritas  o
+multimodales,  sobre  temas  cotidianos  de  relevancia  personal  o  de  interés  público  cercanos  a  su
+experiencia, haciendo uso de la cortesía lingüística y mostrando proactividad, empatía y respeto por las
+diferentes  necesidades,  ideas,  inquietudes,  iniciativas  y  motivaciones  de  los  interlocutores  y  las
+interlocutoras,  con  el  fin  de  responder  a  propósitos  comunicativos  concretos,  fortalecer  vínculos
+personales y participar en la vida social con cierta autonomía.
+CCL1, CCL5, CP1, CPSAA3
+3.2.  Seleccionar,  organizar  y  utilizar  estrategias  adecuadas  que  le  permitan,  haciendo  uso  de  su
+repertorio lingüístico, anticipar, iniciar, mantener y terminar la comunicación, tomar y ceder la palabra,
+CP2, STEM1, CD3, CC3
+49
+
+=== Página 50 ===
+
+solicitar y ofrecer aclaraciones y explicaciones y reformular el discurso, así como colaborar, debatir,
+resolver  problemas  y  gestionar  situaciones  comprometidas,  con  el  fin  de  expresarse  de  manera
+espontánea en la lengua extranjera a través de diversos soportes y recursos analógicos y digitales.
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado puede desenvolverse en situaciones de interacción como debates, discusiones
+en grupos de trabajo, transacciones comerciales, entrevistas formales, o participaciones en foros e intercambio de correspondencia,   ajustándose a la
+función comunicativa y usando convenciones y elementos lingüísticos de uso común. Además, se verificará que participa y coopera en actividades
+grupales, tanto en el aula como fuera de ella, empleando herramientas o plataformas virtuales de manera diligente y creativa. También se confirmará
+que muestra respeto y empatía por los interlocutores y las interlocutoras, siendo capaz de resolver problemas y manejar situaciones comprometidas.
+Del mismo modo, se verificará que pone en marcha un repertorio de estrategias, como el empleo de lenguaje prefabricado, el uso de mapas
+conceptuales, guiones o esquemas, ensayos previos o la transferencia léxica o morfosintáctica, además de otros recursos, para así ajustarse a la tarea.
+Consecuentemente, durante su desarrollo deberá emplear métodos que impliquen procesos de autoevaluación, coevaluación y autorreparación,
+siendo capaz de incorporar las experiencias de otras personas en su aprendizaje. Finalmente, se buscará constatar que mantiene la motivación y el
+interés por llevar a cabo intercambios comunicativos en la lengua extranjera que le permitan ampliar su repertorio lingüístico.
+Competencia específica
+4. Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos
+sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de
+manera eficaz, clara y responsable.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP1, CP2, CP3, CD2, CPSAA1
+Criterios de evaluación
+50
+
+=== Página 51 ===
+
+4.1. Inferir y sintetizar de manera simple textos, conceptos y comunicaciones sencillas, de forma oral o
+escrita, en situaciones cotidianas del ámbito personal, social, educativo y profesional en las que se
+deba atender a la diversidad, mostrando empatía por los interlocutores e interlocutoras y respeto por
+las  lenguas  empleadas,  así  como  participando  con  interés  en  la  solución  de  problemas  de
+intercomprensión y de entendimiento en el entorno, apoyándose en diversos recursos y soportes, para
+así adquirir conocimiento y transmitir información de manera ética, clara y responsable.
+CCL5, CP1, CP3
+4.2. Aplicar estrategias que ayuden a crear puentes, faciliten la comunicación y sirvan para explicar y
+simplificar textos, conceptos y mensajes y que sean adecuadas a las intenciones comunicativas, las
+características contextuales y la tipología textual, haciendo uso de su repertorio lingüístico y una buena
+gestión  emocional,  así  como  empleando  recursos  y  apoyos  físicos  o  digitales  en  función  de  las
+necesidades de cada momento, con la finalidad de explicar y simplificar textos, conceptos y mensajes.
+CP2, CD2, CPSAA1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de mediar, oralmente o por escrito, usando estrategias y conocimientos
+sencillos orientados a inferir y sintetizar conceptos, textos o comunicaciones de manera simple para transmitir información de manera activa e
+informada mediante textos dotados de coherencia, cohesión y corrección en situaciones en las que se atiende a la diversidad. A su vez, se persigue
+constatar que el alumnado es capaz de mostrar respeto y empatía por las interlocutoras y los interlocutores y aprecio por las lenguas empleadas, al
+igual que hacer uso de la motivación y de una buena gestión emocional. Del mismo modo, se tratará de verificar que participa con interés en la
+solución de problemas de intercomprensión y de entendimiento en los que adoptará un punto de vista progresivamente crítico, reflexivo y ético para
+así transmitir información de manera eficaz, clara y responsable y con un repertorio lingüístico variado. También se comprobará que el alumnado
+aplica estrategias que ayuden a crear puentes y que faciliten la comunicación, como realizar transferencias léxicas o morfosintácticas, o razonar
+estratégicamente, adecuándose a las intenciones comunicativas, a las características contextuales y al tipo de texto en situaciones cotidianas en los
+ámbitos personal, social, educativo y profesional, así como optimizando el uso de recursos y apoyos físicos o digitales en función de las necesidades
+de cada momento.
+51
+
+=== Página 52 ===
+
+Competencia específica
+5. Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de
+forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos
+propios, para mejorar la respuesta a necesidades comunicativas concretas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Criterios de evaluación
+5.1. Registrar, analizar y compartir los progresos y dificultades de aprendizaje de la lengua extranjera
+con apoyo de otros y otras participantes y de soportes analógicos y digitales, seleccionando de forma
+creativa  las  estrategias  más  eficaces  en  las  actividades  de  planificación,  autoevaluación  y
+coevaluación, como las que se proponen en el Portfolio Europeo de las Lenguas o en diarios de
+aprendizaje, así como comparar y argumentar las semejanzas y diferencias entre distintas lenguas,
+reflexionando  de  manera  progresivamente  autónoma  sobre  su  funcionamiento,  de  modo  que  se
+produzca una transferencia de conocimientos y estrategias a diferentes contextos sociales cotidianos
+que le permita ampliar su repertorio lingüístico individual, superar las adversidades y consolidar su
+aprendizaje en la lengua extranjera.
+CP2, STEM1, CD2, CPSAA1, CPSAA4,
+CPSAA5, CE2
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado enriquece su repertorio lingüístico individual, estableciendo relaciones entre
+las distintas lenguas, a las que aplica métodos inductivos, deductivos o lógicos apoyándose en elementos como el contexto y el cotexto o la
+derivación léxica, para así extraer información relevante. Asimismo, se pretende comprobar que emplea herramientas y estrategias, de manera
+individual o en grupo, como la producción y corrección de borradores, la toma de notas, la escucha activa, la realización de ensayos y la detección de
+errores comunes; u otras como la perseverancia, la toma de decisiones o el uso de expresiones y léxico para intercambiar ideas sobre la propia
+comunicación y el aprendizaje (preguntar por el significado de una palabra o expresión, solicitar aclaraciones, manejar términos lingüísticos…). A su
+52
+
+=== Página 53 ===
+
+vez, se persigue corroborar que plantea metas respecto a las tareas y que documenta los procesos de planificación y evaluación de sus aprendizajes,
+compartiendo las reflexiones y emociones derivadas e integrando las experiencias de aprendizaje del resto de componentes del equipo. De la misma
+manera, se pretende evidenciar que se utilizan herramientas digitales y analógicas como lectores inmersivos, traductores digitales, diccionarios,
+webs, dosieres, porfolios…, las cuales integra en su entorno personal de aprendizaje, de modo que todo ello le permita tanto mantener la motivación
+como consolidar y avanzar en el aprendizaje de la lengua extranjera, transfiriendo conocimientos y estrategias a diferentes contextos sociales.
+Competencia específica
+6. Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la
+lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y
+culturas, para actuar de forma empática y respetuosa en situaciones interculturales.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Criterios de evaluación
+6.1. Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística
+propia de Canarias y de países donde se habla la lengua extranjera, aplicando estrategias en situaciones
+comunicativas, interculturales, cotidianas, con resiliencia, proponiendo vías de solución a dificultades
+comunicativas socioculturales, construyendo vínculos entre el patrimonio canario y el de otras culturas
+y favoreciendo y justificando el desarrollo de una cultura compartida y una ciudadanía comprometida
+con la sostenibilidad y los valores democráticos, para afrontar las diferencias morales o culturales con
+actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia.
+CCL5, CP3, CPSAA1, CC2, CC3, CE1,
+CCEC1
+Explicación del bloque competencial
+53
+
+=== Página 54 ===
+
+Mediante este bloque competencial, se confirmará que el alumnado es capaz de valorar críticamente la diversidad lingüística, cultural y artística, y
+mostrar respeto y aprecio por la cultura canaria y por otras, utilizando para ello la lengua extranjera en contextos cotidianos como medio de
+comunicación y de enriquecimiento personal. También se verificará que el alumnado identifica y comparte las semejanzas y diferencias entre
+lenguas y entre la cultura canaria y otras culturas, y que promueve aspectos relevantes del patrimonio cultural, natural y artístico canario, aplicando
+estrategias de uso común, con el fin de atender a valores ecosociales y democráticos que fomenten la sostenibilidad, la defensa de la libertad de
+expresión, la igualdad, con especial atención a la de género y a los derechos humanos, y el enriquecimiento inherente a la diversidad.
+54
+
+=== Página 55 ===
+
+Saberes básicos
+I. Comunicación
+1. Empleo de estrategias de uso común para la planificación, ejecución, control y reparación de
+la comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+2. Aplicación de conocimientos, destrezas y actitudes que permiten llevar a cabo actividades
+de mediación en situaciones cotidianas.
+3. Uso  de  funciones  comunicativas  de  uso  común  adecuadas  al  ámbito  y  al  contexto
+comunicativo: saludar y despedirse, presentar y presentarse; describir personas, objetos,
+lugares, fenómenos y acontecimientos; situar eventos en el tiempo; situar objetos, personas y
+lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; dar y
+pedir instrucciones, consejos y órdenes; ofrecer, aceptar y rechazar ayuda, proposiciones o
+sugerencias;  expresar  parcialmente  el  gusto  o  el  interés  y  las  emociones;  narrar
+acontecimientos  pasados,  describir  situaciones  presentes  y  enunciar  sucesos  futuros;
+expresar la opinión, la posibilidad, la capacidad, la obligación y la prohibición; expresar
+argumentaciones sencillas; realizar hipótesis y suposiciones; expresar la incertidumbre y la
+duda; reformular y resumir.
+4. Identificación y uso de modelos contextuales y géneros discursivos de uso común en la
+comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y
+sencillos,  literarios  y  no  literarios:  características  y  reconocimiento  del  contexto
+(participantes  y  situación),  expectativas  generadas  por  el  contexto;  organización  y
+estructuración según el género y la función textual.
+5. Manejo de unidades lingüísticas de uso común y significados asociados a dichas unidades,
+tales como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio
+y las relaciones espaciales, el tiempo y las relaciones temporales, la afirmación, la negación,
+la interrogación y la exclamación, relaciones lógicas habituales.
+6. Identificación y empleo de léxico de uso común y de interés para el alumnado relativo a
+identificación personal, relaciones interpersonales, lugares y entornos, ocio y tiempo libre,
+salud  y  actividad  física,  vida  cotidiana,  vivienda  y  hogar,  clima  y  entorno  natural,
+tecnologías de la información y la comunicación, sistema escolar y formación.
+7. Identificación y reproducción de patrones sonoros, acentuales, rítmicos y de entonación de
+uso común, y de significados e intenciones comunicativas generales asociadas a dichos
+patrones.
+8. Reconocimiento  y  uso  de  convenciones  ortográficas  de  uso  común  y  significados  e
+intenciones comunicativas asociados a los formatos, patrones y elementos gráficos.
+9. Selección y uso de convenciones y estrategias conversacionales de uso común, en formato
+síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la
+palabra, pedir y dar aclaraciones y explicaciones, reformular, comparar y contrastar, resumir,
+colaborar, debatir, etc.
+55
+
+=== Página 56 ===
+
+10. Gestión y uso de recursos para el aprendizaje y estrategias de uso común de búsqueda y
+selección de información: diccionarios, libros de consulta, bibliotecas, recursos digitales e
+informáticos, etc.
+11. Respeto de la propiedad intelectual de las fuentes consultadas y contenidos utilizados.
+12. Gestión y uso de herramientas analógicas y digitales de uso común para la comprensión,
+producción  y coproducción  oral,  escrita  y  multimodal;  uso de  plataformas  virtuales de
+interacción,  cooperación  y  colaboración  educativa  (aulas  virtuales,  videoconferencias,
+herramientas  digitales  colaborativas,  etc.)  para  el  aprendizaje,  la  comunicación  y  el
+desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera.
+II. Plurilingüismo
+1. Selección  y  uso  de  estrategias  y  técnicas  para  responder  eficazmente  y  con  niveles
+crecientes de fluidez, adecuación y corrección a una necesidad comunicativa concreta, a
+pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las
+demás lenguas del repertorio lingüístico propio.
+2. Empleo de estrategias de uso común para identificar, organizar, retener, recuperar y utilizar
+creativamente unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de
+la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.
+3. Uso de estrategias y herramientas de uso común para la autoevaluación, la coevaluación y la
+autorreparación, analógicas y digitales, individuales y cooperativas.
+4. Reconocimiento del error como instrumento de mejora y propuesta de reparación.
+5. Identificación y empleo de expresiones y léxico específico de uso común para intercambiar
+ideas sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y
+aprendizaje (metalenguaje).
+6. Comparación entre lenguas a partir de elementos de la lengua extranjera y otras lenguas:
+origen y parentescos.
+III. Interculturalidad
+1. Reconocimiento y respeto por aspectos socioculturales y sociolingüísticos de uso común
+relativos a la vida cotidiana y las condiciones de vida; convenciones sociales de uso común;
+lenguaje  no  verbal,  cortesía  lingüística  y  etiqueta  digital;  cultura,  normas,  actitudes,
+costumbres y valores propios de países donde se habla la lengua extranjera y de Canarias.
+2. Utilización de estrategias de uso común para entender la diversidad lingüística, cultural y
+artística, atendiendo a valores ecosociales y democráticos compatibles con el desarrollo
+sostenible.
+3. Selección  y  empleo  de  estrategias  de  uso  común  de  detección  y  actuación  ante  usos
+discriminatorios  del  lenguaje  verbal  y  no  verbal,  con  especial  consideración  a  la
+discriminación por razón de género o diversidad funcional.
+IV . Dimensiones interpersonal e intrapersonal
+56
+
+=== Página 57 ===
+
+1. Aprecio por la lengua extranjera como medio de comunicación interpersonal e internacional
+y como fuente de información y como herramienta para el enriquecimiento personal.
+2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo relativas a las
+relaciones interpersonales.
+3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+4. Interés e iniciativa en la realización de intercambios comunicativos a través de diferentes
+medios con hablantes o estudiantes de la lengua extranjera.
+5. Desarrollo de la autoestima, la autoconfianza y la iniciativa.
+6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+7. Visión creativa y emocional del aprendizaje.
+8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+9. Aprecio por la diversidad y patrimonio lingüístico, cultural y artístico en lo relativo a las
+relaciones interpersonales en países donde se habla la lengua extranjera, y diferencias y
+similitudes con aquel propio de Canarias .
+57

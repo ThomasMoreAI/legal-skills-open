@@ -1,0 +1,127 @@
+id: CUR-040
+titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Lengua Castellana y Literatura"
+cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Explicar y apreciar la diversidad lingüística del mundo a partir del conocimiento de la realidad plurilingüe y pluricultural de España y la riqueza dialectal del español, así como de la reflexión sobre los fenómenos del contacto entre lenguas, para favorecer la reflexión interlingüística, para refutar los estereotipos y prejuicios lingüísticos y para valorar esta diversidad como fuente de patrimonio cultural."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1]
+        "2.º Bachillerato": [CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1]
+    - codigo: "C2"
+      enunciado_oficial: "Comprender e interpretar textos orales y multimodales, con especial atención a los textos académicos y de los medios de comunicación, recogiendo el sentido general y la información más relevante, identificando el punto de vista y la intención del emisor y valorando su fiabilidad, su forma y su contenido, para construir conocimiento, para formarse opinión y para ensanchar las posibilidades de disfrute y ocio."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3]
+        "2.º Bachillerato": [CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3]
+    - codigo: "C3"
+      enunciado_oficial: "Producir textos orales y multimodales, con atención preferente a textos de carácter académico, con rigor, fluidez, coherencia, cohesión y el registro adecuado, atendiendo a las convenciones propias de los diferentes géneros discursivos, y participar en interacciones orales con actitud cooperativa y respetuosa, tanto para construir conocimiento y establecer vínculos personales, como para intervenir de manera activa e informada en diferentes contextos sociales."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1]
+        "2.º Bachillerato": [CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1]
+    - codigo: "C4"
+      enunciado_oficial: "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura, con especial atención a textos académicos y de los medios de comunicación, reconociendo el sentido global y las ideas principales y secundarias, integrando la información explícita y realizando las inferencias necesarias, identificando la intención del emisor, reflexionando sobre el contenido y la forma y evaluando su calidad y fiabilidad, para dar respuesta a necesidades e intereses comunicativos diversos y para construir conocimiento."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
+        "2.º Bachillerato": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
+    - codigo: "C5"
+      enunciado_oficial: "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos, con especial atención a los géneros discursivos del ámbito académico, para construir conocimiento y dar respuesta de manera informada, eficaz y creativa a demandas comunicativas concretas."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, STEM1, CD2, CD3, CPSAA4, CPSAA5, CC2]
+        "2.º Bachillerato": [CCL1, CCL3, CCL5, STEM1, CD2, CD3, CPSAA4, CPSAA5, CC2]
+    - codigo: "C6"
+      enunciado_oficial: "Seleccionar y contrastar información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, e integrarla y transformarla en conocimiento para comunicarla, con un punto de vista crítico y personal a la par que respetuoso con la propiedad intelectual, especialmente en el marco de la realización de trabajos de investigación sobre temas del currículo o vinculados a las obras literarias leídas."
+      descriptores:
+        "1.º Bachillerato": [CCL3, CD1, CD2, CD3, CD4, CPSAA3.2, CPSAA4, CPSAA5, CC2, CE3]
+        "2.º Bachillerato": [CCL3, CD1, CD2, CD3, CD4, CPSAA3.2, CPSAA4, CPSAA5, CC2, CE3]
+    - codigo: "C7"
+      enunciado_oficial: "Seleccionar y leer de manera autónoma obras relevantes de la literatura contemporánea como fuente de placer y conocimiento, configurando un itinerario lector que se enriquezca progresivamente en cuanto a diversidad, complejidad y calidad de las obras, y compartir experiencias lectoras para construir la propia identidad lectora y disfrutar de la dimensión social de la lectura."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL4, CD3, CPSAA1.1, CCEC2, CCEC3.1, CCEC3.2]
+        "2.º Bachillerato": [CCL1, CCL4, CD3, CPSAA1.1, CCEC2, CCEC3.1, CCEC3.2]
+    - codigo: "C8"
+      enunciado_oficial: "Leer, interpretar y valorar obras relevantes de la literatura española e hispanoamericana, utilizando un metalenguaje específico y movilizando la experiencia biográfica y los conocimientos literarios y culturales para establecer vínculos entre textos diversos, para conformar un mapa cultural, para ensanchar las posibilidades de disfrute de la literatura y para crear textos de intención literaria."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL4, CD2, CPSAA4, CC1, CCEC1, CCEC2, CCEC3.1, CCEC3.2, CCEC4.2]
+        "2.º Bachillerato": [CCL1, CCL3, CCL4, CD2, CPSAA4, CC1, CCEC1, CCEC2, CCEC3.1, CCEC3.2, CCEC4.2]
+    - codigo: "C9"
+      enunciado_oficial: "Consolidar y profundizar en el conocimiento explícito y sistemático sobre la estructura de la lengua y sus usos, y reflexionar de manera autónoma sobre las selecciones lingüísticas y discursivas, con la terminología adecuada, para desarrollar la conciencia lingüística, para aumentar el repertorio comunicativo y para mejorar las destrezas tanto de producción oral y escrita como de comprensión e interpretación crítica."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP2, STEM1, STEM2, CPSAA5]
+        "2.º Bachillerato": [CCL1, CCL2, CP2, STEM1, STEM2, CPSAA5]
+    - codigo: "C10"
+      enunciado_oficial: "Poner las propias prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, utilizando un lenguaje no discriminatorio y desterrando los abusos de poder a través de la palabra para favorecer un uso no solo eficaz sino también ético y democrático del lenguaje."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP3, CD3, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3]
+        "2.º Bachillerato": [CCL1, CCL5, CP3, CD3, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - "1.1. Reconocer, valorar y respetar la diversidad lingüística de España, con especial atención a la variedad dialectal canaria, reconociendo las características que corresponden a una variedad de registro, variedad social o variedad geográfica en manifestaciones orales, escritas y multimodales, para ampliar su repertorio lingüístico individual y adoptar una actitud de respeto hacia el español de Canarias como variedad de prestigio de la lengua española y fuente de riqueza lingüística y cultural."
+        - "1.2. Identificar y refutar prejuicios, estereotipos y usos discriminatorios de la lengua a partir de la interacción con las demás personas en diferentes contextos socioinstitucionales, con especial atención al papel de las redes sociales y los medios de comunicación en los procesos de normalización lingüística, y al estudio de los derechos lingüísticos individuales y colectivos para desarrollar un juicio propio, argumentado, respetuoso y opuesto a cualquier tipo de discriminación lingüística."
+        - "2.1. Comprender, analizar e interpretar de manera crítica el sentido global del texto y la relación entre sus partes; seleccionar, retener y analizar de forma reflexiva la información más relevante y la intención del emisor de textos orales o multimodales complejos, a partir de la aplicación consciente de métodos inductivos, deductivos y metacognitivos."
+        - "2.2. Analizar y reflexionar sobre la forma y el contenido de textos orales y multimodales complejos, valorando mecanismos de referencia interna y distintos procedimientos lingüísticos, así como la eficacia de los procedimientos comunicativos empleados, para construir y explicar una opinión crítica y reflexiva sobre la forma y el significado del mensaje."
+        - "3.1. Producir textos orales y multimodales complejos de carácter formal ajustándose a las convenciones propias de los diversos géneros discursivos, con especial atención a los expositivos y argumentativos, respetando las características del español de Canarias, utilizando de manera eficaz recursos verbales y no verbales."
+        - "3.2. Participar de manera activa y eficaz en interacciones comunicativas orales formales e informales, con actitudes de escucha activa y estrategias de cooperación conversacional y cortesía lingüística para reconocer la comunicación oral como medio para transmitir conocimientos e ideas, y para ejercer una ciudadanía activa."
+        - "4.1. Comprender, interpretar y reflexionar de manera razonada en torno al sentido global, la estructura, la información relevante de textos escritos o multimodales complejos, con especial atención a textos académicos y de los medios de comunicación, interpretando la intención de la persona emisora y la relación entre sus partes; realizando las inferencias necesarias y con diferentes propósitos de lectura."
+        - "4.2. Analizar y valorar de manera crítica la forma y el contenido de textos escritos o multimodales complejos, determinando si su contenido cumple con las expectativas de calidad, certeza, veracidad y pertinencia y reflexionando sobre la eficacia de los procedimientos lingüísticos utilizados."
+        - "5.1. Producir textos escritos y multimodales coherentes, cohesionados y con el registro adecuado sobre temas curriculares o de interés social y cultural, precedidos de un proceso de planificación que atienda a la situación comunicativa ajustándose a las convenciones propias de los diversos géneros discursivos, con especial atención a los expositivos y argumentativos."
+        - "6.1. Elaborar, individualmente y de forma cooperativa, trabajos o proyectos de investigación de complejidad creciente sobre diversos temas de interés académico, personal o social que impliquen localizar, seleccionar, analizar contrastar y evaluar de manera autónoma la veracidad de la información procedente de diferentes fuentes."
+        - "7.1. Elaborar interpretaciones personales a partir de la lectura de obras de la literatura universal contemporánea, seleccionadas grupalmente o de manera autónoma, para enriquecer su itinerario lector, establecer vínculos argumentados con otras obras y otras experiencias artísticas y participar activamente en situaciones comunicativas culturales."
+        - "8.1. Explicar y argumentar la interpretación de obras o fragmentos representativos de los clásicos de la literatura canaria, española y universal justificando, con un metalenguaje específico, la vinculación del contenido y la forma con el contexto sociohistórico y con la tradición literaria de cada obra, la intención del autor o autora, el tema y los rasgos propios del género y del subgénero."
+        - "8.2. Desarrollar proyectos de investigación orales, escritos o multimodales, argumentando de manera autónoma la conexión existente entre los textos literarios leídos, así como con otros textos y con otras manifestaciones artísticas y culturales clásicas o contemporáneas y de los medios de comunicación."
+        - "8.3. Crear textos orales, escritos y multimodales con intención literaria, sentido estético y conciencia de estilo, en los que se movilicen los conocimientos literarios adquiridos, utilizando de manera eficaz las convenciones del lenguaje literario, y la experiencia lectora."
+        - "9.1. Formular generalizaciones sobre aspectos del funcionamiento de la lengua como sistema interconectado con diferentes niveles para aumentar su repertorio lingüístico y su reflexión interlingüística, mejorar las destrezas de recepción crítica y profundizar de manera consciente en las distintas fases de construcción del conocimiento sobre el sistema de la lengua y su uso en la comunicación."
+        - "9.2. Elaborar y presentar las conclusiones propias de proyectos de investigación sobre aspectos relevantes del funcionamiento de la lengua, formulando hipótesis y estableciendo generalizaciones, utilizando los conceptos y la terminología lingüística adecuada y consultando de manera autónoma, eficaz e instintiva diccionarios, manuales y gramáticas."
+        - "9.3. Revisar y reformular los textos propios con actitud reflexiva, hacer propuestas de mejora, argumentando los cambios a partir de la reflexión metalingüística e interlingüística, e identificar y subsanar con rigor problemas de comprensión lectora utilizando los conocimientos explícitos de la lengua y su uso para mejorar las destrezas de producción oral y escrita."
+        - "10.1. Manejar de manera consciente y responsable estrategias comunicativas para la resolución dialogada de los conflictos y la búsqueda de consensos, en diferentes contextos del ámbito personal, educativo y social, con una disposición constructiva y respetuosa, así como considerada con la diversidad lingüística y cultural."
+        - "10.2. Utilizar el lenguaje como herramienta para la comunicación positiva en contextos diversos, incluidos los virtuales, evitando cualquier uso discriminatorio, con el fin de afianzar las posibilidades que ofrece en el desarrollo individual y social de las personas, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas."
+    - curso: "2.º Bachillerato"
+      criterios:
+        - "1.1. Reconocer, valorar y respetar la diversidad lingüística de España, con especial atención a la variedad dialectal canaria, analizando las características que corresponden a una variedad de registro, variedad social o variedad geográfica en manifestaciones orales, escritas y multimodales, para ampliar su repertorio lingüístico individual y adoptar una actitud de legitimación hacia el español de Canarias como variedad de prestigio de la lengua española y fuente de riqueza lingüística y cultural."
+        - "1.2. Refutar y desterrar prejuicios, estereotipos y usos discriminatorios de la lengua, así como abusos de poder a través de la misma, a partir de la interacción con las demás personas en diferentes contextos socioinstitucionales, con especial atención a la relevancia actual de los medios de comunicación y las redes sociales en los procesos de normalización lingüística."
+        - "2.1. Comprender, analizar e interpretar de manera crítica y justificada el sentido global del texto y la relación entre sus partes; seleccionar, retener y analizar de forma reflexiva y pertinente la información más relevante y la intención del emisor de textos orales o multimodales especializados, a partir de la apropiación de métodos inductivos, deductivos y metacognitivos."
+        - "2.2. Analizar y reflexionar sobre la forma y el contenido de textos orales y multimodales especializados, valorando mecanismos de referencia interna y distintos procedimientos lingüísticos, así como la eficacia de los procedimientos comunicativos empleados, para construir y desarrollar una opinión crítica y reflexiva sobre la forma y el significado del mensaje."
+        - "3.1. Producir textos orales y multimodales complejos y extensos de carácter formal ajustándose a las convenciones propias de los diversos géneros discursivos, con especial atención a los argumentativos, respetando las características del español de Canarias, utilizando de manera eficaz recursos verbales y no verbales."
+        - "3.2. Participar de manera activa y eficaz en interacciones comunicativas orales formales e informales, con actitudes de escucha activa y estrategias de cooperación conversacional y cortesía lingüística para reconocer la comunicación oral como medio para transmitir conocimientos e ideas, y para ejercer una ciudadanía activa."
+        - "4.1. Comprender, interpretar y reflexionar de manera razonada y crítica en torno al sentido global, la estructura, la información relevante de textos escritos o multimodales especializados, con especial atención a textos académicos y de los medios de comunicación, interpretando de manera justificada la intención de la persona emisora y la relación entre sus partes."
+        - "4.2. Analizar y valorar de manera crítica y pertinente la forma y el contenido de textos escritos o multimodales especializados, determinando si su contenido cumple con las expectativas de calidad, certeza, veracidad y pertinencia reflexionando sobre la eficacia de los procedimientos lingüísticos utilizados."
+        - "5.1. Producir textos escritos y multimodales coherentes, cohesionados y con el registro adecuado sobre temas curriculares o de interés social y cultural, precedidos de un proceso de planificación que atienda a la situación comunicativa ajustándose a las convenciones propias de los diversos géneros discursivos, con especial atención a los argumentativos."
+        - "6.1. Elaborar, individualmente y de forma cooperativa, trabajos o proyectos de investigación de complejidad creciente sobre diversos temas de interés académico, personal o social que impliquen localizar, seleccionar, analizar contrastar y evaluar de manera autónoma la veracidad de la información procedente de diferentes fuentes."
+        - "7.1. Elaborar interpretaciones personales a partir de la lectura de obras literarias que se relacionen con las propuestas de lectura guiada, para acrecentar su itinerario lector, establecer vínculos argumentados con otras obras y otras experiencias artísticas y participar activamente en situaciones comunicativas culturales."
+        - "8.1. Explicar y argumentar de manera crítica la interpretación de obras o fragmentos representativos de los clásicos de la literatura canaria, española, y universal, justificando, con un metalenguaje específico, la vinculación del contenido y la forma con el contexto sociohistórico y con la tradición literaria de cada obra."
+        - "8.2. Desarrollar proyectos de investigación orales, escritos o multimodales, argumentando de manera autónoma la conexión existente entre los textos literarios españoles o hispanoamericanos contemporáneos con otros textos y con otras manifestaciones artísticas y culturales clásicas o contemporáneas y de los medios de comunicación."
+        - "8.3. Crear textos orales escritos y multimodales con intención literaria, sentido estético y conciencia de estilo, en los que se movilicen los conocimientos literarios adquiridos, integrando con rigor las convenciones del lenguaje literario, y la experiencia lectora."
+        - "9.1. Formular generalizaciones sobre aspectos del funcionamiento de la lengua como sistema interconectado con diferentes niveles para consolidar su repertorio lingüístico y su reflexión interlingüística, mejorar las destrezas de recepción crítica y profundizar de manera consciente y razonada en las distintas fases de construcción del conocimiento sobre el sistema de la lengua y su uso en la comunicación."
+        - "9.2. Elaborar y presentar las conclusiones propias de proyectos de investigación sobre aspectos relevantes del funcionamiento de la lengua, formulando hipótesis y estableciendo generalizaciones, utilizando los conceptos y la terminología lingüística adecuada y consultando de manera autónoma, eficaz e instintiva diccionarios, manuales y gramáticas."
+        - "9.3. Revisar y reformular los textos propios con actitud crítica y reflexiva y hacer propuestas de mejora, argumentando los cambios a partir de la reflexión metalingüística e interlingüística; e identificar y subsanar con rigor y eficiencia problemas de comprensión lectora utilizando los conocimientos explícitos de la lengua y su uso para mejorar las destrezas de producción oral y escrita."
+        - "10.1. Manejar de manera consciente y responsable estrategias comunicativas para la resolución dialogada de los conflictos y la búsqueda de consensos, en diferentes contextos del ámbito personal, educativo y social, con una disposición constructiva y respetuosa, así como considerada con la diversidad lingüística y cultural."
+        - "10.2. Utilizar el lenguaje como herramienta para la comunicación positiva en contextos diversos, incluidos los virtuales, evitando cualquier uso discriminatorio, con el fin de afianzar las posibilidades que ofrece en el desarrollo individual y social de las personas, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas."
+  saberes_basicos:
+    - bloque: "Bloque I — La lengua y sus hablantes"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Desarrollo sociohistórico y situación actual de las lenguas de España; variedades dialectales del español en España y América tomando como referente el español de Canarias; estrategias de reflexión interlingüística; diferencias entre rasgos dialectales, sociolectales y de registro; papel de los medios de comunicación y las redes sociales en la normalización lingüística; rechazo argumentado de prejuicios y estereotipos lingüísticos; fenómenos del contacto entre lenguas (bilingüismo, préstamos, interferencias, diglosia); derechos lingüísticos y sostenibilidad lingüística."
+    - bloque: "Bloque II — Comunicación"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales atendiendo al contexto comunicativo, los géneros discursivos (con especial atención a los expositivos y argumentativos y a los textos académicos y de los medios de comunicación), los procesos de comprensión y producción oral y escrita, la alfabetización mediática e informacional, y el reconocimiento y uso discursivo de los elementos lingüísticos (subjetividad, objetividad, cohesión, corrección lingüística)."
+    - bloque: "Bloque III — Educación literaria"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Lectura autónoma de obras relevantes de la literatura universal contemporánea, y lectura guiada de clásicos de la literatura canaria, española y universal inscritos en itinerarios temáticos o de género, configurando una panorámica de la literatura española (hasta el tercer cuarto del siglo XIX en 1.º, y del último cuarto del XIX y los siglos XX y XXI en 2.º), con construcción compartida de la interpretación, análisis de los elementos del género literario y creación de textos de intención literaria."
+    - bloque: "Bloque IV — Reflexión sobre la lengua"
+      cursos: ["1.º Bachillerato", "2.º Bachillerato"]
+      detalles: "Elaboración de conclusiones propias sobre el funcionamiento del sistema lingüístico con metalenguaje específico: diferencias entre lengua oral y escrita, la lengua como sistema interconectado (niveles fonológico, morfológico, sintáctico y semántico), distinción entre categorías gramaticales y funciones sintácticas, estructura semántica de la oración, procedimientos de formación de palabras y relaciones semánticas, y manejo de diccionarios y gramáticas."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "CP2", "CP3", "STEM1", "STEM2", "CD1", "CD2", "CD3", "CD4", "CPSAA1.1", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3.1", "CCEC3.2", "CCEC4.2"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+resumen_ia: "Currículo de Lengua Castellana y Literatura I y II en Bachillerato Canarias (materia común), regulado por el Decreto 30/2023, con diez competencias específicas (C1-C10) impartidas en 1.º y 2.º de Bachillerato, y veinte criterios de evaluación (diez por curso). Los enunciados de las competencias son idénticos en ambos cursos; varían los criterios de evaluación (mayor exigencia en 2.º) y, puntualmente, algún descriptor operativo. Saberes organizados en cuatro bloques: la lengua y sus hablantes, comunicación, educación literaria y reflexión sobre la lengua. Foco propio de Canarias en la variedad dialectal canaria y en la literatura canaria."
+observaciones: "Extracción completada el 2026-08-05 a partir del texto oficial 07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt (1.º Bachillerato líneas ~57324-57858; 2.º Bachillerato líneas ~58028-58564). Competencias con enunciado literal, descriptores por curso y los veinte criterios de evaluación oficiales (diez por curso)."

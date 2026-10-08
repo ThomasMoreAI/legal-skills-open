@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans-thai);
+  --font-mono: var(--font-ibm-plex-serif), Georgia, serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* Dark premium theme — Navy + Gold (default dark) */
+:root {
+  --radius: 0.75rem;
+  /* Backgrounds */
+  --background: oklch(0.16 0.02 260);          /* deep navy-black */
+  --foreground: oklch(0.96 0.01 60);           /* warm off-white */
+  --card: oklch(0.20 0.025 260);               /* slightly lighter navy */
+  --card-foreground: oklch(0.96 0.01 60);
+  --popover: oklch(0.20 0.025 260);
+  --popover-foreground: oklch(0.96 0.01 60);
+  /* Primary = Gold */
+  --primary: oklch(0.82 0.13 84);              /* rich gold */
+  --primary-foreground: oklch(0.18 0.02 260);  /* deep navy text on gold */
+  /* Secondary = navy-soft */
+  --secondary: oklch(0.26 0.03 260);
+  --secondary-foreground: oklch(0.92 0.01 60);
+  --muted: oklch(0.24 0.025 260);
+  --muted-foreground: oklch(0.70 0.02 60);
+  --accent: oklch(0.30 0.04 260);
+  --accent-foreground: oklch(0.92 0.02 84);
+  --destructive: oklch(0.65 0.22 25);
+  --border: oklch(0.30 0.02 260 / 50%);
+  --input: oklch(0.24 0.02 260);
+  --ring: oklch(0.82 0.13 84 / 60%);
+  /* Charts */
+  --chart-1: oklch(0.82 0.13 84);              /* gold */
+  --chart-2: oklch(0.65 0.18 200);             /* cyan */
+  --chart-3: oklch(0.70 0.15 150);             /* green */
+  --chart-4: oklch(0.65 0.20 25);              /* red-orange */
+  --chart-5: oklch(0.75 0.15 290);             /* purple */
+  --sidebar: oklch(0.18 0.025 260);
+  --sidebar-foreground: oklch(0.92 0.01 60);
+  --sidebar-primary: oklch(0.82 0.13 84);
+  --sidebar-primary-foreground: oklch(0.18 0.02 260);
+  --sidebar-accent: oklch(0.26 0.03 260);
+  --sidebar-accent-foreground: oklch(0.92 0.02 84);
+  --sidebar-border: oklch(0.30 0.02 260 / 50%);
+  --sidebar-ring: oklch(0.82 0.13 84 / 60%);
+  --font-serif: var(--font-ibm-plex-serif), Georgia, serif;
+  /* Brand-specific */
+  --gold: oklch(0.82 0.13 84);
+  --gold-soft: oklch(0.82 0.13 84 / 12%);
+  --navy: oklch(0.16 0.02 260);
+  --navy-soft: oklch(0.20 0.025 260);
+}
+
+/* Optional light theme (for future toggle) */
+.theme-light {
+  --radius: 0.75rem;
+  --background: oklch(0.98 0.005 60);
+  --foreground: oklch(0.18 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 260);
+  --primary: oklch(0.55 0.13 75);
+  --primary-foreground: oklch(0.98 0.01 60);
+  --secondary: oklch(0.95 0.01 60);
+  --secondary-foreground: oklch(0.20 0.02 260);
+  --muted: oklch(0.96 0.005 60);
+  --muted-foreground: oklch(0.45 0.02 260);
+  --accent: oklch(0.92 0.02 84);
+  --accent-foreground: oklch(0.20 0.02 260);
+  --destructive: oklch(0.55 0.24 27);
+  --border: oklch(0.88 0.01 260);
+  --input: oklch(0.92 0.005 60);
+  --ring: oklch(0.55 0.13 75);
+  --gold: oklch(0.55 0.13 75);
+  --gold-soft: oklch(0.55 0.13 75 / 12%);
+  --navy: oklch(0.18 0.02 260);
+  --navy-soft: oklch(0.95 0.01 60);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html, body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background-image:
+      radial-gradient(circle at 0% 0%, oklch(0.82 0.13 84 / 4%) 0px, transparent 50%),
+      radial-gradient(circle at 100% 100%, oklch(0.65 0.18 200 / 3%) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+  /* Custom scrollbar — gold accent on navy */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: oklch(0.16 0.02 260);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: oklch(0.30 0.04 260);
+    border-radius: 5px;
+    border: 2px solid oklch(0.16 0.02 260);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.82 0.13 84 / 50%);
+  }
+}
+
+@layer components {
+  .text-gold { color: var(--gold); }
+  .bg-gold { background-color: var(--gold); }
+  .border-gold { border-color: var(--gold); }
+  .text-navy { color: var(--navy); }
+  .bg-navy { background-color: var(--navy); }
+  .bg-card-soft { background-color: oklch(0.20 0.025 260); }
+  .bg-card-softer { background-color: oklch(0.22 0.025 260); }
+
+  /* Gold gradient text for headlines */
+  .text-gradient-gold {
+    background: linear-gradient(135deg, oklch(0.92 0.10 84) 0%, oklch(0.75 0.15 75) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Premium card with subtle gold border + glow */
+  .card-premium {
+    background: linear-gradient(135deg, oklch(0.22 0.025 260) 0%, oklch(0.19 0.025 260) 100%);
+    border: 1px solid oklch(0.30 0.02 260 / 60%);
+    box-shadow:
+      0 1px 0 oklch(0.82 0.13 84 / 5%) inset,
+      0 4px 20px oklch(0 0 0 / 30%);
+    transition: all 0.2s ease;
+  }
+  .card-premium:hover {
+    border-color: oklch(0.82 0.13 84 / 30%);
+    box-shadow:
+      0 1px 0 oklch(0.82 0.13 84 / 8%) inset,
+      0 8px 30px oklch(0 0 0 / 40%),
+      0 0 0 1px oklch(0.82 0.13 84 / 10%);
+  }
+
+  /* Section number badge */
+  .badge-gold {
+    background: oklch(0.82 0.13 84 / 12%);
+    color: oklch(0.92 0.10 84);
+    border: 1px solid oklch(0.82 0.13 84 / 30%);
+  }
+  .badge-labor {
+    background: oklch(0.65 0.20 25 / 15%);
+    color: oklch(0.75 0.18 25);
+    border: 1px solid oklch(0.65 0.20 25 / 30%);
+  }
+
+  /* Reading-optimized Thai text */
+  .prose-thai {
+    line-height: 1.85;
+    letter-spacing: 0.005em;
+    overflow-wrap: anywhere;
+  }
+  .prose-thai p {
+    margin-bottom: 0.85em;
+  }
+
+  /* Glow effect for primary CTAs */
+  .btn-glow {
+    box-shadow:
+      0 0 0 1px oklch(0.82 0.13 84 / 30%),
+      0 4px 20px oklch(0.82 0.13 84 / 20%);
+  }
+  .btn-glow:hover {
+    box-shadow:
+      0 0 0 1px oklch(0.82 0.13 84 / 50%),
+      0 6px 30px oklch(0.82 0.13 84 / 30%);
+  }
+}

@@ -1,0 +1,11 @@
+id: REL-002
+tipo_relacion: "desarrolla"
+origen: NOR-003
+destino: NOR-001
+descripcion: "El RD 217/2022 desarrolla para la ESO el marco básico de la LOE tras su modificación por la LOMLOE."
+evidencia:
+  fuente: FTE-007
+  localizacion: "Título y articulado sobre ordenación y enseñanzas mínimas de ESO"
+fecha_registro: 2026-04-25
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Relacionado también con NOR-002 como marco modificador."

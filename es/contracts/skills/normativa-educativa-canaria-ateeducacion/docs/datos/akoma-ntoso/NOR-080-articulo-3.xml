@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2023-07-18/659">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/!art_3"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2023/07/18/659/con"/>
+          <FRBRdate date="2023-07-18" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="659"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/!art_3"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@"/>
+          <FRBRdate date="2023-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/xml/!art_3"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_3">
+        <num>Artículo 3.</num>
+        <heading>Función y objetivos generales del Sistema de Formación Profesional.</heading>
+        <paragraph eId="art_3__para_1">
+          <num>1.</num>
+          <content><p>En cumplimiento de los principios prescritos en el artículo 3 y de la función legal prevista en el artículo 5, apartados 1 y 2, de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional, es función del Sistema de Formación Profesional el desarrollo personal y profesional de la persona, la mejora continuada de su cualificación a lo largo de toda la vida y la garantía de la satisfacción de las necesidades formativas del sistema productivo y del empleo. Son objetivos del Sistema de Formación Profesional:</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_2">
+          <num>1.a)</num>
+          <content><p>Garantizar a todas las personas, en condiciones de equidad y a lo largo de la vida, una Formación Profesional de calidad, en diferentes modalidades, significativa personal y socialmente, que satisfaga tanto el desarrollo de la personalidad como las necesidades individuales de cualificación y recualificación permanentes con arreglo a itinerarios diversificados, y de respuesta a sus necesidades formativas a medida que se producen, atendiendo a sus circunstancias personales, sociales y laborales.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_3">
+          <num>1.b)</num>
+          <content><p>Cualificar a las personas para el ejercicio de actividades profesionales, promoviendo la adquisición, consolidación y ampliación de competencias profesionales y básicas con la polivalencia y funcionalidad necesarias para el acceso al empleo, la continuidad en el mismo y la progresión y el desarrollo profesionales, así como la rápida adaptación a los retos de futuro derivados de entornos de trabajo complejos, todo ello orientado a la promoción y formación profesional dirigida a su adaptación a las modificaciones operadas en el puesto de trabajo, así como al desarrollo de planes y acciones formativas tendentes a favorecer su mayor empleabilidad,</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_4">
+          <num>1.c)</num>
+          <content><p>Desarrollar, en el marco del Sistema de Formación Profesional, el derecho a la formación de las personas trabajadoras ocupadas o en situación de desempleo, de acuerdo con el artículo 4.2.b) del Estatuto de los Trabajadores.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_5">
+          <num>1.d)</num>
+          <content><p>Proveer a las empresas y los sectores productivos con los perfiles profesionales necesarios en cada momento, con su participación efectiva en el Sistema de Formación Profesional, teniendo en cuenta el carácter determinante y la creación sostenida de valor para las personas y las empresas, de la cualificación de las personas trabajadoras, su flexibilidad, rapidez de adaptación, polivalencia y transversalidad, desde el obligado respeto al medioambiente.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_6">
+          <num>1.e)</num>
+          <content><p>Observar de manera continua la evolución de la demanda y la oferta de profesiones, ocupaciones y perfiles en el mercado de trabajo para la prospección e identificación de las necesidades de cualificación.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_7">
+          <num>1.f)</num>
+          <content><p>Ofertar formación actualizada y suficiente, que incorpore de manera proactiva y ágil tanto las competencias profesionales emergentes, como la innovación, la investigación aplicada, el emprendimiento, incluyendo el emprendimiento colectivo en economía social, la digitalización, la sostenibilidad y la emergencia climática, en tanto que factores estructurales de éxito en el nuevo modelo económico.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_8">
+          <num>1.g)</num>
+          <content><p>Configurar la Formación Profesional de manera flexible, modular y acorde con los planteamientos a escala de la Unión Europea, sobre la base de itinerarios formativos accesibles, progresivos, acumulables y adaptados a las necesidades individuales y colectivas, teniendo en cuenta la edad, el sexo, la discapacidad en su caso, y la situación personal, familiar o laboral, y dirigidos a un abanico de perfiles profesionales comprensivo, desde los generalistas hasta los altamente especializados.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_9">
+          <num>1.h)</num>
+          <content><p>Impulsar la dimensión dual de la Formación Profesional y de sus vínculos con el sistema productivo en un marco de colaboración público-privada entre administraciones, centros, empresas u organismos equiparados, organizaciones empresariales y sindicales, entidades y tercer sector para la creación conjunta de valor, el alineamiento de los objetivos y proyectos estratégicos comunes, la superación de la brecha urbano/rural a través de una adecuada adaptación territorial, y el uso eficaz de los recursos en entornos formativos y profesionales.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_10">
+          <num>1.i)</num>
+          <content><p>Operar con arreglo a un modelo de gobernanza que, respetando las competencias de las administraciones concernidas, incorpore el papel de las organizaciones empresariales y sindicales más representativas y su participación y cooperación con los poderes públicos en las políticas del Sistema de Formación Profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_11">
+          <num>1.j)</num>
+          <content><p>Facilitar la acreditación y el reconocimiento de las competencias profesionales vinculadas al Catálogo Nacional de Estándares de Competencias Profesionales, adquiridas mediante la experiencia laboral u otras vías no formales o informales.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_12">
+          <num>1.k)</num>
+          <content><p>Proveer orientación profesional que facilite a las personas, a lo largo de la vida, la toma de decisiones en la elección y gestión de sus carreras formativas y profesionales, combatiendo los estereotipos de género, los relacionados con la discapacidad o con las necesidades específicas de apoyo educativo o formativo, y colaborando en la construcción de una identidad profesional motivadora de futuros aprendizajes y adaptaciones a la evolución de los procesos productivos y al cambio social, y favoreciendo el conocimiento de las oportunidades existentes o emergentes en los entornos rurales y las zonas en declive demográfico.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_13">
+          <num>1.l)</num>
+          <content><p>Fomentar la igualdad efectiva de oportunidades entre las personas en el acceso y desarrollo de su proceso de formación profesional para todo tipo de opciones profesionales, y la eliminación del sesgo formativo existente entre mujeres y hombres.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_14">
+          <num>1.m)</num>
+          <content><p>Promover la igualdad de oportunidades de las personas con discapacidad y, en general, de personas y colectivos con dificultades de inserción socio-laboral en el acceso y el proceso de formación profesional habilitante y facilitadora de la inserción en el mercado laboral.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_15">
+          <num>1.n)</num>
+          <content><p>Incrementar la presencia social de la formación profesional como opción de valor para el empleo y la progresión académica, tanto reforzando la relación y cooperación entre los sistemas de formación profesional y universitario, como contribuyendo a la erradicación del abandono temprano sin una cualificación profesional que garantice una empleabilidad sostenida.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_16">
+          <num>1.ñ)</num>
+          <content><p>Impulsar la participación de las personas adultas, para su cualificación o recualificación, en acciones de formación profesional como elemento integrado en el desempeño profesional y la vida laboral y única forma de lograr el mayor grado de especialización que demandan ámbitos cada vez más complejos.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_17">
+          <num>1.o)</num>
+          <content><p>Promover la planificación integrada en cada territorio de una oferta de formación profesional a lo largo de la vida, así como de la complementariedad de las redes de centros del Sistema de Formación Profesional y el uso compartido de sus instalaciones y recursos.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_18">
+          <num>1.p)</num>
+          <content><p>Generar circuitos inter-autonómicos y transnacionales de trasferencia de conocimiento entre centros, empresas u organismos equiparados, entidades, docentes, y personas en formación, promoviendo proyectos de movilidad.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_19">
+          <num>1.q)</num>
+          <content><p>Extender el conocimiento de lenguas extranjeras en el ámbito profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_20">
+          <num>1.r)</num>
+          <content><p>Actualizar permanentemente las competencias del personal docente y formador que les permitan diseñar y adecuar los procesos formativos de acuerdo con las nuevas necesidades productivas y sectoriales, así como las propias del alumnado, especialmente el alumnado con necesidades específicas de apoyo educativo o formativo.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_21">
+          <num>1.s)</num>
+          <content><p>Poner en marcha y mantener un proceso de evaluación y mejora continua de la calidad del Sistema de Formación Profesional, en particular su carácter dual, que proporcione información sobre su funcionamiento y adecuación a las necesidades formativas individuales y del sistema productivo, y promueva la investigación sobre el modelo de formación profesional, así como su impacto sobre las dimensiones de mejora del empleo y de la productividad.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_22">
+          <num>1.t)</num>
+          <content><p>Impulsar una oferta pública suficiente y adaptada a las necesidades y demandas de los sectores productivos.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_23">
+          <num>2.</num>
+          <content><p>Para la consecución de los objetivos fijados en el apartado anterior, la Administración General del Estado y las de las comunidades autónomas, deben cooperar en la definición, aplicación y evaluación de las políticas públicas de promoción del desarrollo económico y social y adecuación de las acciones formativas a las necesidades y proyectos estratégicos territoriales. Asimismo, las administraciones locales cooperarán en el ámbito de competencias que se determine en esta norma.</p><p>Cada administración autonómica definirá los mecanismos de cooperación entre aquellas administraciones con competencia en materia de formación profesional o, en su caso, de su gestión, garantizando el buen funcionamiento del Sistema de Formación Profesional para toda la ciudadanía, tanto jóvenes como personas trabajadoras, ocupadas o desempleadas.</p><p>En lo tocante a la Administración del Estado, el Ministerio de Educación y Formación profesional, en materia de políticas de formación profesional, cooperará con las políticas de promoción del desarrollo económico y social y las políticas activas de empleo y los departamentos competentes al efecto.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

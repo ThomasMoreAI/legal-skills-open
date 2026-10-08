@@ -9,12 +9,18 @@
   "practice": "tax",
   "language": "en",
   "skills": [
+    "skills/brasil-legal-skills-alissonsantos1",
     "skills/divida-ativa-estadual-sbroggioadv",
     "skills/execucao-fiscal-lef-sbroggioadv",
+    "skills/guerra-fiscal-e-beneficios-sbroggioadv",
+    "skills/icms-conteudo-sbroggioadv",
+    "skills/ipva-e-itcmd-sbroggioadv",
     "skills/itcmd-como-efeito-do-ato-sbroggioadv",
     "skills/prescricao-intercorrente-sbroggioadv",
     "skills/protesto-e-cobranca-extrajudicial-sbroggioadv",
     "skills/redirecionamento-socios-sbroggioadv",
-    "skills/transicao-icms-ibs-sbroggioadv"
+    "skills/transicao-icms-ibs-sbroggioadv",
+    "skills/transicao-iss-ibs-sbroggioadv",
+    "skills/tributario-alissonsantos1"
   ]
 }

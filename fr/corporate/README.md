@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): corporate la
 
 Jurisdiction: `fr` · Practice: `corporate` · Skill language: fr
 
-## Skills (6)
+## Skills (7)
 
 | Skill | What it does |
 |---|---|
@@ -15,6 +15,7 @@ Jurisdiction: `fr` · Practice: `corporate` · Skill language: fr
 | [`Toutes mes échéances d'entreprise des prochains mois`](skills/calendrier-obligations-fr-originlabs-app/) | Toutes mes échéances d'entreprise des prochains mois. Méthode professionnelle française, avec ses pièges… |
 | [`Legal Structure`](skills/ideation-legal-structure-prendstapart/) | Utiliser quand l'utilisateur veut choisir le statut juridique adapté à son projet (parcours idéation… |
 | [`Faire voter les associés et préparer le procès-verbal`](skills/pv-decisions-associes-fr-originlabs-app/) | Faire voter les associés et préparer le procès-verbal. Méthode professionnelle française, avec ses… |
+| [`sirene-lookup`](skills/sirene-lookup-thewatcher01/) | Search French companies and associations via the SIRENE registry. Use when the user asks to find a… |
 | [`Quel statut choisir pour créer mon entreprise`](skills/statut-juridique-choisir-fr-originlabs-app/) | Quel statut choisir pour créer mon entreprise. Méthode professionnelle française, avec ses pièges et ses… |
 
 ## Cold-start context

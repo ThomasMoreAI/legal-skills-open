@@ -4,11 +4,12 @@ Labour and employment — hiring, contracts, policies, termination, and workplac
 
 Jurisdiction: `cn` · Practice: `employment` · Skill language: zh
 
-## Skills (13)
+## Skills (14)
 
 | Skill | What it does |
 |---|---|
 | [`/cold-start-interview`](skills/cold-start-interview-employment-legal-zhou210712/) | 首次配置访谈——从你的劳动规章制度和解除备忘录中学习你的管辖范围 和上报规则。询问哪些省/直辖市有员工，阅读种子文件，并构建 管辖地感知的上报表。在首次安装、CLAUDE.md 中仍有… |
+| [`Evidence Builder`](skills/evidence-builder-90le/) | Build worker-side evidence checklists, evidence gap plans, lawful preservation steps, and… |
 | [`Handbook Updates（规章制度更新）`](skills/handbook-updates-zhou210712/) | 将拟议的规章制度变更与现行版本进行diff对比，标记连锁影响 和省级补充条款影响。当用户说"更新规章制度"、"将此添加到规章制度"、 "规章制度变更"或有一项制度准备纳入时使用。 |
 | [`/hiring-review`](skills/hiring-review-zhou210712/) | 审查录用通知书及竞业限制/保密条款——含管辖地检查。实质性规则（竞业限制可执行性、 工时制度分类、个人信息保护）在每次录用时研究提取，不预先存储。当用户提出… |
 | [`Investigation add`](skills/investigation-add-zhou210712/) | 向进行中的调查添加数据——文件、访谈记录或观察意见。 按已记录的筛选标准批量处理，浮现重要事项，记录所有已审查内容 以供覆盖验证。当新的证据、访谈记录或文件材料进入进行中的调查时使用。 |

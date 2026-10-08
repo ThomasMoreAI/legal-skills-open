@@ -1,0 +1,233 @@
+{
+  "skill": "telecom-isp-mx",
+  "version": "1.0",
+  "corpus_base": "/Volumes/Storage/sistemia-skills-mx/research/telecom/",
+  "corpus_size_mb": 96,
+  "corpus_files": 64,
+  "last_updated": "2026-06-03",
+  "intents": {
+    "concesion_unica": {
+      "label": "Concesión Única para operar ISP",
+      "docs": [
+        "ift/concesion_unica_comercial.pdf",
+        "ift/triptico_concesion_unica_comercial.pdf",
+        "ift/lineamientos_concesion_unica_reforma_2021.pdf",
+        "dof/lineamientos_rpc_5576709.html"
+      ],
+      "authority": "CRT",
+      "key_facts": {
+        "tipo": "Tipo A Comercial",
+        "duration": "30 años",
+        "cobertura": "nacional",
+        "trámite": "Ventanilla Electrónica en portal.crt.gob.mx"
+      }
+    },
+    "ley_vigente": {
+      "label": "Ley en Materia de Telecomunicaciones y Radiodifusión (LMTR)",
+      "docs": [
+        "sct-leyes/LMTR.pdf",
+        "sct-leyes/LFTR_abrogada_16jul2025.pdf",
+        "dof/decreto_LMTR_16jul2025.html"
+      ],
+      "authority": "Congreso de la Unión",
+      "key_facts": {
+        "publicada": "DOF 16-jul-2025",
+        "vigor": "17-jul-2025",
+        "abroga": "LFTR 2014"
+      }
+    },
+    "compartición_postes_telnor": {
+      "label": "Compartición de infraestructura pasiva (AEP postes Telnor/Telmex en BCS)",
+      "docs": [
+        "ift/marco_ofertas_referencia_aep.html",
+        "ift/oferta_referencia_aep_telmex_2026_dir.html",
+        "dof/lineamientos_despliegue_comparticion_2020.html",
+        "ift/lineamientos_comparticion_infraestructura.doc"
+      ],
+      "authority": "CRT",
+      "key_facts": {
+        "aep_bcs": "Telnor (filial noroeste de Telmex)",
+        "instrumento": "Oferta de Referencia 2026 (tarifas reguladas pre-aprobadas)",
+        "url_2026": "portal.crt.gob.mx/docs-bin/ofertas-de-referencia/2026/"
+      }
+    },
+    "compartición_postes_cfe": {
+      "label": "Compartición de postes CFE",
+      "docs": [
+        "cfe-postes/lineamientos_telecom_distribucion_cfe.pdf",
+        "cfe-postes/E0000-35_cables_fibra_para_postes.pdf",
+        "cfe-postes/E1000-21_cable_guarda_fibras_opticas.pdf",
+        "dof/cre_acuerdo_postes_cfe_2018.html"
+      ],
+      "authority": "CFE Distribución + CRE",
+      "key_facts": {
+        "altura_telecom": "5.5 m mínimo desde piso",
+        "norma_técnica": "CFE E0000-35"
+      }
+    },
+    "contratos_cliente": {
+      "label": "Contratos de adhesión y NOMs aplicables",
+      "docs": [
+        "ift/NOM-184-SCFI-2018_normasoficiales.html",
+        "ift/NOM-184-platiica.html",
+        "dof/NOM_184_dof_5552286.html",
+        "ift/carta_derechos_minimos_usuarios_2023.pdf",
+        "dof/carta_derechos_dof_5641266.html"
+      ],
+      "authority": "Secretaría de Economía + PROFECO + CRT",
+      "key_facts": {
+        "nom_contratos": "NOM-184-SCFI-2018 (DOF 5552286, 08-mar-2019)",
+        "nom_equipo": "NOM-208-SCFI-2016 (DOF 5471010, 07-feb-2017) — solo para homologación de equipo, no contratos",
+        "carta_derechos_dof": "5641266 (25-ene-2022)"
+      }
+    },
+    "homologacion_equipo": {
+      "label": "Homologación de routers/CPE WiFi para entregar a clientes",
+      "docs": [
+        "dof/NOM_208_dof_5471010.html",
+        "ift/NOM-208-SCFI-2016_normasoficiales.html"
+      ],
+      "authority": "Secretaría de Economía + CRT",
+      "key_facts": {
+        "nom": "NOM-208-SCFI-2016",
+        "bandas": "902-928 MHz, 2.4 GHz, 5.7 GHz"
+      }
+    },
+    "privacidad_datos": {
+      "label": "Aviso de privacidad + retención de logs",
+      "docs": [
+        "sct-leyes/LFPDPPP.pdf",
+        "sct-leyes/Reg_LFPDPPP.pdf",
+        "dof/modificacion_lineamientos_colaboracion_2025.html"
+      ],
+      "authority": "SABG (Secretaría Anticorrupción y Buen Gobierno) — sustituye al INAI desde mar-2025",
+      "key_facts": {
+        "ley_vigente": "LFPDPPP nueva, DOF 20-mar-2025, vigor 21-mar-2025",
+        "retencion_metadatos": "~24 meses (obligación en LMTR, no en LFPDPPP)",
+        "geolocalizacion": "entrega bajo oficio formal de autoridad",
+        "responsable_24_7": "designación obligatoria en plataforma del regulador"
+      }
+    },
+    "calidad_servicio": {
+      "label": "Calidad de servicio y neutralidad de red",
+      "docs": [
+        "ift/lineamientos_calidad_servicio_fijo_2020.pdf",
+        "ift/lineamientos_calidad_dof_5587522.html",
+        "dof/lineamientos_neutralidad_red_2021.html"
+      ],
+      "authority": "CRT"
+    },
+    "registro_tarifas": {
+      "label": "Registro de tarifas antes de comercializar",
+      "docs": [
+        "ift/registro_tarifas_dof_5374179.html",
+        "ift/registro_tarifas_dof_5507819.html"
+      ],
+      "authority": "CRT",
+      "key_facts": {
+        "sistema_online": "sert.ift.org.mx/tarifasVE/",
+        "plazo_antelacion": "15 días mínimos antes de comercializar"
+      }
+    },
+    "snii_infraestructura": {
+      "label": "Reporte de infraestructura al SNII (obligación de operadores)",
+      "docs": [
+        "atdt/SNII_entrega_inicial.pdf",
+        "atdt/SNII_actualizacion.pdf",
+        "ift/lineamientos_snii_2024.pdf"
+      ],
+      "authority": "CRT/ATDT"
+    },
+    "interconexion": {
+      "label": "Tarifas y condiciones de interconexión",
+      "docs": [
+        "dof/condiciones_tecnicas_interconexion.html"
+      ],
+      "authority": "CRT",
+      "key_facts": {
+        "frequency": "Acuerdo anual publicado en último trimestre del año previo",
+        "aplicabilidad": "Solo si ofreces voz/VoIP"
+      }
+    },
+    "portabilidad": {
+      "label": "Portabilidad numérica (si ofreces voz)",
+      "docs": [
+        "ift/reglas_portabilidad_numerica_2023.pdf",
+        "ift/portabilidad_dof_5578768.html"
+      ],
+      "authority": "CRT"
+    },
+    "bcs_estatal": {
+      "label": "Marco estatal BCS (construcción, obras públicas)",
+      "docs": [
+        "bcs-estatal/reglamento_construcciones_bcs.pdf",
+        "bcs-estatal/constitucion_politica_bcs.pdf"
+      ],
+      "authority": "Gobierno de BCS",
+      "key_facts": {
+        "nota": "La Paz NO tiene reglamento de construcción propio; aplica el estatal"
+      }
+    },
+    "lapaz_municipal": {
+      "label": "Reglamentos municipales La Paz BCS",
+      "docs": [
+        "lapaz-municipal/reglamento_imagen_urbana_2017.pdf",
+        "lapaz-municipal/PDUCP_lapaz_2018.pdf",
+        "lapaz-municipal/reglamento_transito_lapaz_2022.pdf",
+        "lapaz-municipal/reglamento_malecon_lapaz.pdf"
+      ],
+      "authority": "Ayuntamiento de La Paz BCS",
+      "key_facts": {
+        "imagen_urbana_art_52": "Calles peatonalizadas del centro exigen instalaciones subterráneas",
+        "zonas_protegidas": ["Centro Histórico", "Malecón", "Centro Comercial"]
+      }
+    },
+    "cobertura_bcs": {
+      "label": "Datos de cobertura y competencia en BCS",
+      "docs": [
+        "inegi-conectividad/ENDUTIH_2024_RR.pdf",
+        "atdt/plan_nacional_conectividad_2026-2030.html",
+        "atdt/programa_cobertura_social_2026.html",
+        "ift/diagnostico_internet_mexico_2024.pdf"
+      ],
+      "authority": "INEGI + ATDT + CRT",
+      "key_facts": {
+        "bcs_penetracion": "90.4% (3º lugar nacional)",
+        "operadores_la_paz": ["Megacable (dominante fibra)", "Telnor (AEP postes)", "izzi", "Totalplay", "Blue Telecomm", "Starlink (rural)", "INTELVID (en RPC)"],
+        "oportunidad": "Colonias periféricas + rural BCS"
+      }
+    },
+    "tarifas_tramites_lfd": {
+      "label": "Costo de trámites federales",
+      "docs": [
+        "sct-leyes/LFD_ley_federal_derechos.pdf"
+      ],
+      "authority": "SHCP / Congreso"
+    }
+  },
+  "errores_compliance_top5": [
+    "Operar sin Concesión Única inscrita en RPC",
+    "Vender un paquete antes de registrar tarifa en SERT (15 días antelación)",
+    "No designar Responsable de Colaboración con la Justicia 24/7",
+    "Contrato pirata sin folio NOM-184 registrado ante PROFECO",
+    "Colgar fibra en postes Telnor/CFE sin convenio (retiro forzoso)"
+  ],
+  "cross_skills": {
+    "legal-pyme-mx": ["constituir_empresa", "validar_rfc_69b", "isn_por_estado_bcs", "aviso_privacidad_lfpdppp", "imss_infonavit_alta", "nom_035_psicosocial"],
+    "contador-pyme-mx": ["cfdi_4_0_facturar_clientes", "rmf_2026", "regimen_isr_sapi"],
+    "precios-mx": ["benchmark_precio_internet_lapaz", "comparativa_megacable_telnor"],
+    "nse-mx": ["nse_colonias_lapaz", "perfil_amai_clientes_target"],
+    "mercado-local-mx": ["caracterizacion_lapaz_bcs", "barrios_objetivo"],
+    "focus-group-mx": ["validar_copy_landing_fibrium", "test_planes_precios", "anuncios_meta_google"],
+    "habitos-digitales-mx": ["endutih_uso_internet_bcs", "perfil_consumidor_streaming"]
+  },
+  "tramites_lapaz_olvidados": [
+    "Dictamen Protección Civil La Paz para NOC (huracanes BCS)",
+    "Permiso de excavación/canalización municipal + fianza",
+    "Zonas protegidas Centro/Malecón requieren canalización subterránea",
+    "OOMSAPAS visto bueno si cruza agua/drenaje",
+    "Permisos vialidades estatales (Blvd. Forjadores)",
+    "Impacto ambiental cerca de manglares/Balandra",
+    "Impuesto sobre nóminas estatal BCS"
+  ]
+}

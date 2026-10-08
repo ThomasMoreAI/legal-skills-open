@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-03-31/3">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/lo/2022/03/31/3/con"/>
+          <FRBRdate date="2022-03-31" name="Generation"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="3"/>
+          <FRBRname value="Ley Orgánica"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/spa@/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3/spa@"/>
+          <FRBRdate date="2022-04-01" name="Publication"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-03-31/3/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es/act/2022-03-31/3/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="jefatura-estado" href="https://www.boe.es/" showAs="Jefatura del Estado"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.</num>
+        <heading>Definiciones.</heading>
+        <paragraph eId="art_2__para_1">
+          <content><p>A los efectos de la presente ley, se entenderá por:</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>1.</num>
+          <content><p>Aprendizaje o educación formal: el proceso de formación estructurado conducente a una titulación, acreditación o certificación oficial.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_3">
+          <num>2.</num>
+          <content><p>Aprendizaje o educación no formal: el proceso de formación estructurado que no conduce a una titulación, acreditación o certificación oficial.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_4">
+          <num>3.</num>
+          <content><p>Aprendizaje informal: el aprendizaje derivado del desarrollo y práctica de actividades cuya intencionalidad no está vinculada a procesos de formación formales o no formales, entre los que se incluye el voluntariado.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_5">
+          <num>4.</num>
+          <content><p>Competencias básicas: aquellas que son consideradas necesarias para la realización y desarrollo personal, para participar activamente en la sociedad o mejorar la empleabilidad. El desarrollo de estas competencias se realiza por múltiples vías, y queda incorporado en cualquier oferta de formación profesional en tanto que promueve el desarrollo integral de la persona.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_6">
+          <num>5.</num>
+          <content><p>Competencia profesional: el conjunto de conocimientos y destrezas que permiten el ejercicio de la actividad profesional conforme a las exigencias de la producción y el empleo. Las competencias profesionales se recogen en los estándares de competencia profesional, que servirán para el diseño de cualquier oferta de formación profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_7">
+          <num>6.</num>
+          <content><p>Cualificación: la competencia para el desempeño de una actividad profesional acreditada oficialmente por títulos, certificados o acreditaciones.</p><p>Exclusivamente en su uso en lo referido al Marco Español de las Cualificaciones (MECU), cualquier título o certificado emitido por una institución educativa que acredita haber adquirido un conjunto de resultados del aprendizaje, después de haber superado satisfactoriamente un programa de formación en una institución legalmente reconocida en el ámbito del Sistema de Formación Profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_8">
+          <num>7.</num>
+          <content><p>Elemento de competencia: cada realización profesional que describe el comportamiento esperado de la persona, en forma de consecuencias o resultados de las actividades que realiza en el desempeño de una profesión. Constituye la parte menor de un estándar de competencia.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_9">
+          <num>8.</num>
+          <content><p>Estándar de competencia: el conjunto detallado de elementos de competencia que describen el desempeño de las actividades y las tareas asociadas al ejercicio de una determinada actividad profesional con el estándar de calidad requerido. Será la unidad o elemento de referencia para diseñar, desarrollar y actualizar ofertas de formación profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_10">
+          <num>9.</num>
+          <content><p>Formación a lo largo de la vida: el conjunto de la formación inicial y continua de una persona durante su trayectoria vital.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_11">
+          <num>10.</num>
+          <content><p>Formación continua: cualquier tipo de formación realizada después de la formación inicial y de la incorporación a la vida activa, dentro o fuera del sistema educativo. Tiene como objetivo permitir a la persona adquirir, ampliar o actualizar sus conocimientos o competencias de cara a una adaptación, promoción profesional o reconversión de su itinerario de desarrollo personal o profesional. Esta denominación no está asociada al tipo de oferta de formación, sino al proceso de aprendizaje en el itinerario formativo de cada persona, después de la formación inicial y de la incorporación a la vida laboral activa.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_12">
+          <num>11.</num>
+          <content><p>Formación inicial: el itinerario de formación realizada, dentro del sistema educativo, desde el inicio de la escolarización hasta la finalización de la permanencia en el mismo, para la incorporación al mundo laboral. Esta denominación no está asociada al tipo de oferta de formación, sino al momento en el itinerario formativo de cada persona, durante la formación inicial y previa a la incorporación a la vida laboral activa.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_13">
+          <num>12.</num>
+          <content><p>Formación profesional dual: la formación profesional que se realiza armonizando los procesos de enseñanza y aprendizaje entre el centro de formación profesional y la empresa u organismo equiparado, en corresponsabilidad entre ambos agentes, con la finalidad de la mejora de la empleabilidad de la persona en formación.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_14">
+          <num>13.</num>
+          <content><p>Formador o formadora: toda persona que ejerza una o varias actividades ligadas a la función de formación, sea en el seno de un centro de formación profesional sin pertenecer a los cuerpos docentes del sistema educativo, sea en la empresa u organismo equiparado.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_15">
+          <num>14.</num>
+          <content><p>Indicador de calidad: el criterio que establece el nivel mínimo exigido en el ámbito profesional para el desempeño de una actividad o tarea, en tanto que satisface los objetivos de las organizaciones productivas. Constituye una guía para la evaluación de la competencia profesional conjuntamente con los elementos de competencia.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_16">
+          <num>15.</num>
+          <content><p>Itinerario formativo: el proyecto construido por cada persona, con la ayuda, si se precisa, de los servicios de orientación profesional, para adquirir, actualizar, completar y ampliar sus competencias a lo largo de su vida.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_17">
+          <num>16.</num>
+          <content><p>Marco Español de las Cualificaciones: el instrumento, internacionalmente reconocido, que orienta la nivelación coherente de las titulaciones para su clasificación, relación y comparación y que sirve, asimismo, para facilitar la movilidad de las personas en el espacio europeo y en el mercado laboral internacional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_18">
+          <num>17.</num>
+          <content><p>Módulo profesional asociado a estándares de competencia: la unidad coherente de formación cuya superación garantiza la consecución de las competencias asociadas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_19">
+          <num>18.</num>
+          <content><p>Módulo profesional no asociado a estándares de competencia: la unidad coherente de formación, de carácter teórico o práctico, considerado imprescindible para la consecución de las competencias profesionales previstas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_20">
+          <num>19.</num>
+          <content><p>Orientación profesional: el proceso de información y acompañamiento en la planificación personal del itinerario formativo y profesional en el marco del Sistema de Formación Profesional, que incluye, al menos, los siguientes ámbitos: posibilidades de formación profesional, elección de una profesión, perfeccionamiento, cambio de profesión, evolución del mercado laboral y oportunidades de emprendimiento, y desarrollo de habilidades para la gestión de la carrera profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_21">
+          <num>20.</num>
+          <content><p>Organismo equiparado: entidad u organización, cualquiera que sea su naturaleza jurídica, que, no teniendo la condición de empresa, disponga al menos de un centro de trabajo en el que puedan desarrollarse, en las condiciones requeridas, actividades de formación tutorizada en el marco de las ofertas de formación profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_22">
+          <num>21.</num>
+          <content><p>Organismo intermedio: toda entidad, asociación, federación, confederación, Cámara de Comercio, clúster, etc. que participe en el asesoramiento y apoyo a empresas para su participación en formación profesional, facilitando su contacto con administraciones y centros educativos.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_23">
+          <num>22.</num>
+          <content><p>Persona trabajadora: toda persona trabajadora por cuenta ajena, autónoma, socia trabajadora o en cooperativas.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_24">
+          <num>23.</num>
+          <content><p>Resultado del aprendizaje: elemento básico del currículo que describe lo que se espera que un estudiante conozca, comprenda y sea capaz de hacer, asociado a un elemento de competencia y que orienta el resto de elementos curriculares, incluidos los criterios de evaluación que permitan constatar que el estudiante ha alcanzado el mismo.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_25">
+          <num>24.</num>
+          <content><p>Diseño Universal para el Aprendizaje (DUA). Modelo de enseñanza para la educación inclusiva que reconoce la singularidad del aprendizaje de cada alumno y que promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje, mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje de la diversidad del alumnado.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

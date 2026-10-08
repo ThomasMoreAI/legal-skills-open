@@ -1,0 +1,11 @@
+id: REL-097
+tipo_relacion: modifica
+origen: NOR-131
+destino: NOR-130
+descripcion: Mantiene al CEIP San Vicente en el CER Santa Cruz de La Palma y da nueva redacción al anexo.
+evidencia:
+  fuente: FTE-138
+  localizacion: Resuelvo primero y segundo, pp. 36297-36298 del BOC
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

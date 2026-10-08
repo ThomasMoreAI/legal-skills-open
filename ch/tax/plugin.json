@@ -1,0 +1,15 @@
+{
+  "name": "ch-tax",
+  "displayName": "Tax — CH",
+  "version": "0.1.0",
+  "description": "Tax skills for CH (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/controleur-afc-0xjustben",
+    "skills/expert-fiscal-0xjustben"
+  ]
+}

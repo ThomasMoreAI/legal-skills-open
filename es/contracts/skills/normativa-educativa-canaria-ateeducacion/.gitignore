@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+# Se ignora .claude/ salvo skills/, copia completa de .agents/skills/.
+.claude/*
+!.claude/skills/
+
+# Corpus local de legalize-es. Consulta, no se versiona.
+.legalize-es/
+.omc/
+_site/
+
+# Artefactos de ejecución del monitor de normativa (TAREA-057)
+/input/
+/output/
+11_calidad/monitor/nuevas.json
+11_calidad/monitor/nuevas.md

@@ -1,0 +1,11 @@
+# Supervisor Review Queue — legal-clinic-uk
+# Everything flagged waits here. Supervising solicitor or barrister approves or returns.
+# All actions logged — this is a clinic record and an SRA/BSB supervision compliance record.
+
+queue: []
+
+approved: []
+
+log: []
+
+# See SKILL.md for entry structure.

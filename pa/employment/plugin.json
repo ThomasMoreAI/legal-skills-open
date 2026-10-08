@@ -1,0 +1,17 @@
+{
+  "name": "pa-employment",
+  "displayName": "Employment & Labor — PA",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/entrevista-inicial-laboral-2851-betobetico",
+    "skills/indemnizacion-betobetico",
+    "skills/politica-betobetico",
+    "skills/revision-despido-4025-betobetico"
+  ]
+}

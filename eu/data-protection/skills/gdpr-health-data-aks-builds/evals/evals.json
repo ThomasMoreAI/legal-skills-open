@@ -1,0 +1,88 @@
+{
+  "skill_name": "gdpr-health-data",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're a UK-based digital therapeutics company expanding into Germany and France. What GDPR / health-data obligations do we need to plan for?",
+      "expected_output": "Should attempt to read healthcare-context.md first. Should distinguish UK GDPR (post-Brexit) from EU GDPR; both apply for the respective territories. Should identify health data as special category data under Article 9 (cross-reference article-9-conditions.md). Should walk through: controller vs. processor determination, lawful basis stack (Art. 6(1) basis + Art. 9(2) condition), DPO requirement triggered by large-scale special-category processing, DPIA before processing, Member State derogations under Art. 9(4) (German BDSG, French CSP/CNIL guidance), patient/data-subject rights (Art. 15-22) with appropriate response time, breach notification (72 hours to supervisory authority), records of processing (Art. 30), cross-border transfer (UK adequacy bridge to EU, EU outside EEA via SCCs/TIA — cross-reference cross-border-transfer.md). Should defer Member-State-specific framing to local counsel and recommend the DPO be appointed early.",
+      "assertions": [
+        "Attempts to read healthcare-context.md",
+        "Distinguishes UK GDPR from EU GDPR",
+        "Identifies health data as Article 9 special category",
+        "References article-9-conditions.md and cross-border-transfer.md",
+        "Mentions DPO trigger and DPIA",
+        "Mentions Article 9(4) Member State derogations",
+        "Cites 72-hour breach notification (Art. 33)",
+        "Routes Member-State specifics to local counsel"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "A French hospital is sending us pseudonymized patient data for a research collaboration. We're a US company. What needs to be in place?",
+      "expected_output": "Should identify: pseudonymized data is still personal data under GDPR (Recital 26 — pseudonymization is not anonymization). The flow is a cross-border transfer from the EEA to the US. Required mechanisms: Art. 28 controller-processor contract (or Art. 26 joint controller arrangement), Art. 9 condition for processing health data + Art. 6 lawful basis (likely research-related conditions — verify Member State derogations), Standard Contractual Clauses 2021/914 with a Transfer Impact Assessment per Schrems II, supplementary measures (encryption, pseudonymization, contractual measures), possibly an Article 89 research safeguards layer. Should reference cross-border-transfer.md. Should flag whether the EU-US Data Privacy Framework applies (the US company may have certified to it — verify current status). Should require DPO and counsel sign-off.",
+      "assertions": [
+        "Identifies pseudonymized data as personal data under GDPR",
+        "Identifies as cross-border EEA-to-US transfer",
+        "Lists Art. 28 / Art. 9 / Art. 6 / SCCs / TIA",
+        "References cross-border-transfer.md",
+        "Mentions EU-US Data Privacy Framework (verify status)",
+        "Routes to DPO and counsel"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "patient in ireland asked us to delete all their data. can we say no because we need it for safety?",
+      "expected_output": "Should respond proportionally to the casual phrasing. Should explain that Art. 17 (right to erasure) has several exceptions relevant to healthcare: processing necessary for the establishment, exercise, or defence of legal claims; processing for reasons of public interest in the area of public health; processing for archiving / scientific research purposes under Art. 89; compliance with a legal obligation. The 'safety' rationale typically maps to either a legal-obligation basis (medical device vigilance, pharmacovigilance) or a public-interest-public-health basis under Art. 9(2)(i), and these can override the erasure request — but the rationale must be specific, documented, and proportionate. Should require the response to be issued within Art. 12 timing (one month, extendable to three with notification). Should route the binding determination to the DPO and counsel; should not categorically refuse without that analysis.",
+      "assertions": [
+        "Responds proportionally to casual phrasing",
+        "Identifies the Art. 17 exceptions",
+        "Maps 'safety' to specific legal/public-interest bases",
+        "Notes the one-month response window",
+        "Refuses to give a binary answer without DPO/counsel review"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Design our GDPR program for a multi-country EU health analytics platform. We process pseudonymized claims and clinical data from hospitals in DE, FR, IT, ES, NL. We're the processor.",
+      "expected_output": "Should provide a structured plan: governance (DPO appointment, privacy-by-design SDLC, Art. 30 records of processing, multilingual privacy notices), legal (Art. 28 processor contracts with each hospital controller, sub-processor approvals, Art. 26 if any joint-controller arrangements, Article 9 conditions confirmed per Member State derogation, SCCs and TIAs for any non-EEA infrastructure), technical (encryption, pseudonymization, access controls, audit logging, data residency in EU regions, breach detection for 72-hour clock), DPIAs per processing activity (large-scale special category triggers), data subject rights workflows (with controller pass-through where the controller owns the relationship), training, vendor management. Should cross-reference article-9-conditions.md, cross-border-transfer.md, phi-handling, audit-logging, healthcare-cybersecurity, hitrust-csf. Should explicitly flag each Member State's derogation regime (DE BDSG, FR CSP/CNIL, IT Codice Privacy, ES LOPDGDD, NL UAVG) — defer specifics to local counsel.",
+      "assertions": [
+        "Comprehensive program covering governance, legal, technical, ops",
+        "Art. 28 / Art. 30 / Art. 9 / DPIAs explicitly addressed",
+        "DPO appointment included",
+        "EU data residency and SCC/TIA for non-EEA",
+        "Cross-references local reference files and related skills",
+        "Calls out per-Member-State derogations and routes to local counsel"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Can you draft our DPIA for us?",
+      "expected_output": "Should explain that a DPIA is a fact-specific assessment that requires the organization's actual processing activities, lawful basis selection, technical and organizational measures, stakeholder consultation (including the DPO), and residual risk treatment — it cannot be drafted in the abstract. Should describe the DPIA structure per Art. 35(7): description of the envisaged processing operations and purposes, assessment of the necessity and proportionality, assessment of the risks to data subjects, the measures envisaged to address the risks. Should mention prior consultation with the supervisory authority under Art. 36 if residual risk is high. Should recommend the DPO lead the DPIA and reference the supervisory authority's published DPIA template (EDPB / national SA). Should not produce a fabricated DPIA.",
+      "assertions": [
+        "Refuses to produce a fabricated DPIA",
+        "Lists Art. 35(7) DPIA components",
+        "Mentions Art. 36 prior consultation",
+        "Recommends DPO lead",
+        "Points to EDPB / SA template"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Our US business hires EU residents who are then in our occupational-health database. Does GDPR apply to us in the US for that data?",
+      "expected_output": "Should explain GDPR territorial scope (Art. 3): GDPR applies to processing in the context of the activities of an establishment in the EU, regardless of where the processing takes place; AND it applies to processing of EU data subjects' personal data by a controller/processor not established in the EU where the activity relates to offering goods/services to those data subjects or monitoring their behaviour. For an EU-resident employee of a US employer, the analysis depends on whether the US employer has an EU establishment (subsidiary, branch, registered office) — if so, GDPR likely applies. Even without an establishment, if the US entity is processing EU residents' data and the processing is in the context of employment that exists in the EU (e.g., remote-from-EU employee), GDPR very likely applies. Health data (occupational health) is Article 9 special category. Should require an Art. 27 EU representative if applicable. Should route the territorial-scope determination to counsel — these cases are fact-intensive.",
+      "assertions": [
+        "Walks through Art. 3 territorial scope",
+        "Distinguishes the 'establishment' test from the 'targeting/monitoring' test",
+        "Notes Art. 27 EU representative requirement where applicable",
+        "Identifies occupational health as Art. 9 special category",
+        "Routes the determination to counsel"
+      ],
+      "files": []
+    }
+  ]
+}

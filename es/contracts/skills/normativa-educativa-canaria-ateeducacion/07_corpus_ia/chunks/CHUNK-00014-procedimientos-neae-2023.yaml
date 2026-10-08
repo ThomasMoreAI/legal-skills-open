@@ -1,0 +1,38 @@
+id: CHUNK-00014
+origen_tipo: "norma"
+origen_id: NOR-050
+titulo: "Procedimientos de Atención a la Diversidad y NEAE (Canarias 2023)"
+texto: >-
+  [PENDIENTE] (2026-08-05, PREG-012) ESTE CHUNK NO DEBE USARSE. La norma que resume, la
+  supuesta Orden de 29 de mayo de 2023, no se ha localizado en el BOC: se recorrieron los
+  sumarios de los 255 boletines de 2023 sin encontrarla. Mientras no se verifique, el marco
+  procedimental NEAE aplicable sigue siendo el del Decreto 25/2018, la Orden de 13 de diciembre
+  de 2010 (NOR-025) y la Resolución de 9 de febrero de 2011 (NOR-026).
+
+  Contenido original sin verificar:
+  La Orden de 29 de mayo de 2023 es la norma operativa vigente para la respuesta al alumnado con NEAE.
+  Claves operativas:
+  1. Evaluación Psicopedagógica: Regula el papel de los EOEP y los plazos para informes.
+  2. Dictamen de Escolarización: Define el proceso para asignar modalidades (ordinaria, aulas enclave, CEE).
+  3. Plan de Trabajo Individualizado (PTI): Obligatoriedad de este documento para concretar las medidas y adaptaciones.
+  4. Recursos: Procedimiento para la asignación de profesorado de PT, AL y auxiliares educativos.
+metadatos:
+  ambito: "canarias"
+  etapa: [infantil, primaria, eso, bachillerato]
+  temas: [neae, inclusion, procedimientos, evaluacion-psicopedagogica]
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+  fuente: FTE-053
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Orden de 29 de mayo de 2023 (BOC 2023/105)."
+relaciones:
+  normas: [NOR-050]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "pendiente-verificacion"

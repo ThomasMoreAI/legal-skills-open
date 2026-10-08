@@ -1,0 +1,1401 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-aliyah-navigator",
+  "generated_at": "2026-08-27T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "passport-2-years-validity",
+      "claim": "Aliyah passport recommended valid at least 2 years",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
+      "raw_snippet": "The passport must be valid for at least another 2 years.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "marriage-cert-pre-marriage-status-2024",
+      "claim": "Effective Sept 30 2024, marriage certificate must show pre-marriage civil status of both spouses",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348704-documents-for-aliyah",
+      "raw_snippet": "Olim who make aliyah after September 30, 2024 must present a marriage certificate stating their status prior to marriage (whether single, divorced or widowed).",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "background-check-shinui-maamad-2024",
+      "claim": "From Nov 2024 Shinui Ma'amad applicants (aliyah from within Israel) need background checks from every country they lived in for more than one year, dropping the standard rule's after-age-14 qualifier",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348703-background-check",
+      "raw_snippet": "From Nov 2024 onward, people who undergo Shinui Ma’amad - Aliyah from within Israel, directly with the Misrad HaPnim - Ministry of Interior will be asked to present background checks from all countries where they have lived for more than one year.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "background-check-country-coverage",
+      "claim": "Background check required from country of birth, every country of continuous residence over 1 year after age 14, and every country of current citizenship",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348703-background-check",
+      "raw_snippet": "and any country whose citizenship you currently hold, even if you have never lived there.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "ezrach-oleh-7-year-residence-proof",
+      "claim": "Ezrach Oleh applicants need proof of residence outside Israel for the past 7 years and a 7-year table of entries and exits",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
+      "raw_snippet": "You have to prove that you resided outside of Israel during the last 7 years, such as a certificate of residence, a valid foreign passport, school documents or other proofs.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "ezrach-oleh-definition",
+      "claim": "Ezrach Oleh is someone born outside of Israel to an Israeli father or mother who held Israeli citizenship at the time of your birth",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348811-child-of-an-israeli-ezrach-oleh",
+      "raw_snippet": "If you were born outside of Israel to an Israeli father or mother (who held Israeli citizenship at the time of your birth), you have a special status called Ezrach Oleh.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "katin-chozer-under-14-departure",
+      "claim": "Katin Chozer is a returning minor who departed Israel before turning 14",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
+      "raw_snippet": "If you were born in Israel or made Aliyah as a child and left Israel before the age of 14, you have a special status called Katin Chozer/Returning Minor.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "katin-chozer-under-30-parental-docs",
+      "claim": "Katin Chozer applicants under 30 need parental documentation including parents' declaration, work proof for past 5 years, parents' entry/exit records, proof parents resided abroad during applicant's ages 14-18",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348812-returning-minor-katin-chozer",
+      "raw_snippet": "If you are under 30 years old, additional documents from your parents are required:",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "aliyah-bashenit-individual-review",
+      "claim": "Aliyah BaShenit is not granted automatically; each case is reviewed individually by Misrad HaPnim, Bituach Leumi, Misrad HaKlita, and Rashut HaMisim independently",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348803-aliyah-bashenit",
+      "raw_snippet": "Aliyah BaShenit is not granted automatically, and each case is reviewed individually",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "arli-3-month-window",
+      "claim": "Olim have a guaranteed right to declare ARLI (renouncing Israeli citizenship) within 3 months of their aliyah date",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
+      "raw_snippet": "Olim have a guaranteed right to declare ARLI up to three months from their Aliyah date.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "arli-18-or-older",
+      "claim": "ARLI declaration is for individuals over 18 who made Aliyah or are foreign residents; one parent can declare for family with both spouses' consent",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348802-arli-renouncing-israeli-citizenship",
+      "raw_snippet": "ARLI can only be declared by a person over 18 years old who made Aliyah or is a foreign resident.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "apostille-hague-convention",
+      "claim": "Apostille is an official government authentication certificate; required from Hague Convention signatory countries; non-Hague countries use consular legalisation",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348702-apostille",
+      "raw_snippet": "An Apostille is an official government authentication certificate added to documents so they will be recognized when presented in another country.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "sal-klita-eligibility-law-of-return",
+      "claim": "Olim making aliyah to Israel are entitled to a sal klita (absorption basket) in their first year.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "בשנה הראשונה לעלייתם, זכאים העולים לישראל לסל קליטה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "tax-foreign-income-exemption-10-years",
+      "claim": "Section 14 of the Income Tax Ordinance provides a ten-year exemption on foreign-source income for new olim and veteran returning residents (toshav chozer vatik), since the 2008 amendment",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000361627-tax-reform-2026",
+      "raw_snippet": "Ten-Year Exemption on Foreign Income Tax exemption on income from abroad for 10 years from your aliyah date",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/tax-benefits-olim.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita",
+      "claim": "Misrad HaAliyah V'HaKlita is the Ministry of Aliyah and Integration",
+      "source_url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "Ministry of Aliyah and Integration",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-rashut-hamisim",
+      "claim": "Israel Tax Authority (Rashut HaMisim) handles Section 14 exemptions",
+      "source_url": "https://www.gov.il/en/departments/israel_tax_authority",
+      "raw_snippet": "Israel Tax Authority My taxes Reception units Scheduling an appointment Contact Us The Justice Line Additional links",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "ref-link-rashut-hamisim-he",
+      "claim": "רשות המסים אחראית על סעיף 14",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים בישראל אזור אישי רשות המסים יחידות קבלת קהל זימון תור פנו אלינו קו הצדק פרסומים",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "source_note": "gov.il returns 403 to curl; read in Playwright with location.href asserted.",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "ref-link-jewish-agency-en",
+      "claim": "Jewish Agency (Sochnut) handles file opening and document upload",
+      "source_url": "https://www.jewishagency.org/aliyah/",
+      "raw_snippet": "Aliyah",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-jewish-agency-he",
+      "claim": "הסוכנות היהודית מטפלת בפתיחת תיק והעלאת מסמכים",
+      "source_url": "https://www.jewishagency.org/he/aliyah/",
+      "raw_snippet": "עלייה",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-klita-portal",
+      "claim": "klita.gov.il is the personal area portal for olim",
+      "source_url": "https://www.klita.gov.il/",
+      "raw_snippet": "אזור אישי, סל קליטה",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-kolzchut-olim",
+      "claim": "Kol Zchut hub page for olim, listing the benefit pages: income-tax credit points, tax benefits, purchase-tax discount, arnona discount and National Insurance exemption.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "נקודות זיכוי ממס הכנסה לעולה חדש הטבות מס לעולים הנחה במס רכישה לעולים הנחה בארנונה לעולים חדשים פטור מתשלום דמי ביטוח לאומי לעולים חדשים",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "ref-link-nbn",
+      "claim": "Nefesh B'Nefesh provides flight subsidies and rights summaries for English-speaking olim",
+      "source_url": "https://www.nbn.org.il/",
+      "raw_snippet": "Nefesh B'Nefesh",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-btl",
+      "claim": "Bituach Leumi handles registration and benefit eligibility",
+      "source_url": "https://www.btl.gov.il/",
+      "raw_snippet": "ביטוח לאומי",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-link-shivat-zion-hub",
+      "claim": "Shivat Zion knowledge base provides plain-English explainers for aliyah procedures",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/501000214842",
+      "raw_snippet": "Aliyah Benefits, Aliyah Within Israel, Plan your Integration, Special Procedures, Special Status, Law of Return",
+      "fetched_at": "2026-05-24T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bringing-money-nis-50k-100k-thresholds",
+      "claim": "The cash declaration threshold depends on the crossing, not a single pair of figures: 12,000 NIS at the Jordan River, Yitzhak Rabin and Taba crossings, 2,000 dinar (about 10,000 NIS) at Allenby, and 50,000 NIS at all other crossings. \"Funds\" covers cash, bank and traveller cheques, negotiable securities and instruments, and immediate-debit payment cards.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%A2%D7%9C_%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%90%D7%95_%D7%94%D7%9B%D7%A0%D7%A1%D7%AA_%D7%9B%D7%A1%D7%A4%D7%99%D7%9D_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+      "raw_snippet": "בכניסה או ביציאה דרך מעבר אלנבי - 2000 דינר (כ-10,000 ₪). בכניסה או ביציאה דרך יתר מעברי הגבול - 50,000 ₪. כספים מוגדרים כמזומנים, המחאות בנקאיות, המחאות נוסעים, ניירות ערך סחירים, שטרות סחירים וכרטיסי תשלום",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/aliyah-additional-procedures.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "olim-vehicle-3-year-window",
+      "claim": "An oleh's import/purchase-tax entitlement runs for three years from the date oleh status is received, and the window is extendable for regular IDF or national service and through an exceptions committee.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "עולה זכאי לפטור ממיסי ייבוא על חפצים שהוא מייבא מיום קבלת מעמד עולה ועד 3 שנים מהעלייה.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/aliyah-additional-procedures.md"
+      ],
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "pets-veterinary-import-rules",
+      "claim": "Dogs and cats entering Israel must be vaccinated against rabies no more than one year and no less than 30 days before arrival, with Oceania, Great Britain, Japan and Cyprus excepted.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "All dogs/cats require a veterinary confirmation that they have been vaccinated against rabies no more than one year and no less than 30 days, if it is the primary vaccination, prior to their arrival in Israel with the exception of arrivals from Oceania, Great Britain, Japan, and Cyprus",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "references/aliyah-additional-procedures.md"
+      ],
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061 (pdftotext); replaces a department landing page that now 404s",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "drivers-license-5-year-conversion-window",
+      "claim": "Conversion of a foreign licence must be done within the first 5 years in Israel, and the applicant must have at least 5 years of seniority on the foreign licence; the foreign licence itself is drivable for only one year from entry.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%A8%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%96%D7%A8_%D7%9C%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99",
+      "raw_snippet": "ההמרה מתבצעת במהלך 5 שנות השהייה הראשונות בארץ. למבקש יש ותק של לפחות 5 שנים ברישיון הנהיגה הזר לפני הכניסה לארץ. עולה חדש עם ותק של פחות מ-5 שנים נדרש לעבור מבחן נהיגה מעשי (טסט)",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/driver-license-conversion.md"
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API (page existence confirmed via action=query)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "bituach-leumi-phone-6050",
+      "claim": "Bituach Leumi service phone is *6050",
+      "source_url": "https://www.btl.gov.il/snifim/mokdimrashi/Pages/abroad.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-08-10",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "a1-visa-1-year-renewable",
+      "claim": "A1 visa is a temporary residency visa for Aliyah-eligible candidates, valid for 1 year and renewable annually; no Aliyah benefits, no military service",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348808-a1-and-oleh-visas",
+      "raw_snippet": "The passport must be valid for at least 1 year.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-converts-and-extras.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "aliyah-benifrad-sal-klita-per-family",
+      "claim": "When family members make aliyah separately within less than one year (Aliyah BeNifrad), Sal Klita is calculated per family unit, so the later-arriving group receives only the remainder of the family allocation",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348807-aliyah-benifrad-split-aliyah",
+      "raw_snippet": "there will be changes in the benefits granted to the second group because Sal Klita is calculated per family unit.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-converts-and-extras.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "converts-four-letters-required",
+      "claim": "Olim who converted must provide four letters: rabbi's letter on pre-conversion preparation, rabbi's letter on communal participation, external Beit Din letter (if applicable), and a personal letter from the applicant; all dated, ink-signed, and stamped",
+      "source_url": "https://shivatzion-support.freshdesk.com/en/support/solutions/articles/501000348706-letters-required-from-oleh-who-converted",
+      "raw_snippet": "Where the Beit Din took place and who were the members of the Beit Din, as this information is not always clear on the Conversion Certificate.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/visa-converts-and-extras.md"
+      ],
+      "verified_via": "page text read via same-origin fetch of the raw article HTML (the rendered view collapses section bodies)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "2026-tax-reform-exemption-schedule",
+      "claim": "2026 tax reform grants olim arriving Nov 5 2025 to Dec 31 2026 a tiered Israeli-source earned-income exemption: 600K NIS (2026), 1M NIS/yr (2027-2028), 350K NIS (2029), 150K NIS (2030)",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The exemption ceilings are as follows: 2026: up to 600,000 NIS 2027-2028: up to 1,000,000 NIS per year 2029: up to 350,000 NIS 2030: up to 150,000 NIS",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "2026-tax-reform-140k-related-party-cap",
+      "claim": "When working for a related party the 2026 reform caps the earned-income exemption at NIS 140,000 per year; the ministry states no year range",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "In that case, the exemption is limited to a lower ceiling: Up to 140,000 NIS per year",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "2026-tax-reform-75-days-2028-2029",
+      "claim": "2026 reform eligibility is lost if you spend fewer than 75 days in Israel during 2028 and 2029, or cease being an Israeli tax resident in those years",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "Anyone who will leave the country and cease to be an Israeli resident in 2028 or 2029, and in addition, will spend fewer than 75 days in the country during 2028 and 2029 – will not have the reform provisions apply to them.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "child-savings-plan-nis-55-monthly",
+      "claim": "National Insurance deposits 58 NIS a month for each child up to age 18 under the \"Savings for Every Child\" programme, and a parent may add a further 58 NIS from the child allowance. The 55 NIS figure previously stated here was wrong.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA_%22%D7%97%D7%99%D7%A1%D7%9B%D7%95%D7%9F_%D7%9C%D7%9B%D7%9C_%D7%99%D7%9C%D7%93%22",
+      "raw_snippet": "הביטוח הלאומי מפקיד כל חודש 58 ₪ עבור ילדים עד גיל 18 בתוכנית \"חיסכון לכל ילד\". יש אפשרות להוסיף עוד 58 ₪ מתוך קצבת הילדים",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/aliyah-additional-procedures.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "2026-tax-reform-nis-350000-2029",
+      "claim": "2026 tax reform 2029 ceiling on Israeli-source earned income for olim is NIS 350,000",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2029: up to 350,000 NIS",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "2026-tax-reform-nis-150000-2030",
+      "claim": "2026 tax reform 2030 ceiling on Israeli-source earned income for olim is NIS 150,000",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2030: up to 150,000 NIS",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "2026-tax-reform-nis-1000000-2027-2028",
+      "claim": "2026 tax reform 2027 and 2028 ceiling on Israeli-source earned income for olim is NIS 1,000,000 per year",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "2027-2028: up to 1,000,000 NIS per year",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "2026-tax-reform-nis-600000-year-1",
+      "claim": "2026 tax reform Year 1 (2026) ceiling on Israeli-source earned income for olim is NIS 600,000 / 600,000 ש\"ח",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The exemption ceilings are as follows: 2026: up to 600,000 NIS",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "vat-rate-18-percent-2025",
+      "claim": "Israeli VAT is 18% of the purchase or service price from 01.01.2025; it was 17% until 31.12.2024.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_%28%D7%9E%D7%A2%22%D7%9E%29",
+      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה או הסחורה, והחל מיום 01.01.2025 הוא עומד על 18% ממחיר הרכישה או השירות. עד 31.12.2024 היה שיעור המע\"מ 17%",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "credit-point-value-nis-235",
+      "claim": "An income-tax credit point is worth 2,904 NIS per year and 242 NIS per month as of 2026. The 235 NIS monthly figure previously stated here was the 2023 value.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99",
+      "raw_snippet": "ערכה השנתי של נקודת זיכוי הוא 2,904 ₪ וערכה החודשי הוא 242 ₪ (נכון לשנת 2026)",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "oleh-credit-points-3-2-1-schedule",
+      "claim": "Olim receive 1/4 of an annual credit point for each of the first 18 months after aliyah (about 726 NIS per month) and 1/6 of an annual point for each of the following 12 months (about 484 NIS per month). Expressed annually this is the 3 / 2 / 1 point schedule; the source states it per month.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%9C%D7%A2%D7%95%D7%9C%D7%94_%D7%97%D7%93%D7%A9",
+      "raw_snippet": "במשך כל אחד מ-18 החודשים הראשונים מאז עלייתם זכאים העולים ל-1/4 נקודת זיכוי שנתית (כלומר בממוצע 726 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הבאים זכאים העולים ל-1/6 נקודת זיכוי שנתית (כלומר בממוצע 484 ₪ לכל",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/tax-benefits-olim.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "oleh-cumulative-credit-points-30-50k",
+      "claim": "DERIVED, not a published figure: the cumulative oleh credit-point benefit over the 3.5-year schedule is computed from the annual credit-point value, which is 2,904 NIS as of 2026. Any total quoted must be recomputed from the current value rather than an older one.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A0%D7%A7%D7%95%D7%93%D7%AA_%D7%96%D7%99%D7%9B%D7%95%D7%99",
+      "raw_snippet": "ערכה השנתי של נקודת זיכוי הוא 2,904 ₪ וערכה החודשי הוא 242 ₪ (נכון לשנת 2026)",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "form-101-employer-notification",
+      "claim": "Form 101 (\"employee card and request for relief and tax coordination by the employer\") is an ITA form every salaried employee must complete and submit to their employer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%98%D7%95%D7%A4%D7%A1_101",
+      "raw_snippet": "טופס 101 (\"כרטיס עובד ובקשה להקלה ולתיאום מס על-ידי המעביד\") הוא טופס של רשות המסים שכל העובדים השכירים חייבים למלא ולהגיש למעסיק",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "arnona-discount-90-percent-olim",
+      "claim": "New olim are entitled to a discount of up to 90% of arnona on 100 sq m of their apartment, for one year. The 100 sq m area cap and the one-year duration are part of the entitlement, not optional detail.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%A2%D7%95%D7%9C%D7%99%D7%9D_%D7%97%D7%93%D7%A9%D7%99%D7%9D",
+      "raw_snippet": "עולים חדשים זכאים להנחה של עד 90% מתשלום הארנונה עבור שטח של 100 מ\"ר מדירתם, לתקופה של שנה",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/aliyah-checklist.py"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "mas-rechisha-oleh-brackets-2024",
+      "claim": "Under reformed Purchase Tax Regulation 12a (in force from 15 August 2024), an oleh buying a single residential home pays 0% up to 1,978,745, 0.5% from 1,978,745 to 6,055,070, 8% to 20,183,565, and 10% above; granted once only, single home, from 1 year before to 7 years after aliyah. The older track charged 5% on the part above 2,347,040.",
+      "source_url": "https://cpa-dray.com/he/blog/%D7%9E%D7%A1-%D7%A8%D7%9B%D7%99%D7%A9%D7%94-%D7%9C%D7%A2%D7%95%D7%9C%D7%99%D7%9D-%D7%97%D7%93%D7%A9%D7%99%D7%9D/",
+      "raw_snippet": "עד כ-2,000,000 ש\"ח 0%, מ-2,000,000 עד כ-6,000,000 ש\"ח 0.5%, מעל 8%",
+      "fetched_at": "2026-06-13T22:40:55.006313+00:00",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ]
+    },
+    {
+      "claim_id": "2026-tax-reform-earned-income-only",
+      "claim": "2026 reform exemption applies only to earned income (employment salary and self-employment), not to passive income (rental, interest, dividends); 10-year foreign-income exemption remains intact",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "The benefit does not apply to passive income, such as rental income, accrued interest, or dividends.",
+      "fetched_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "Ministry of Aliyah and Integration official tax-reform page (upgraded from a nonprofit help-desk article)",
+      "verified_at": "2026-08-14"
+    },
+    {
+      "claim_id": "mas-rechisha-standard-2026",
+      "claim": "2026 standard single-home (dira yechida) purchase-tax brackets: 0% up to 1,978,745, 3.5% to 2,347,040, 5% to 6,055,070, 8% to 20,183,565, 10% above 20,183,565.",
+      "source_url": "https://klikatnadlan.co.il/masrechishay2026/",
+      "raw_snippet": "עד 1,978,745 ש\"ח פטור, 1,978,745 עד 2,347,040 - 3.5%, 2,347,040 עד 6,055,070 - 5%, 6,055,070 עד 20,183,565 - 8%, מעל 20,183,565 - 10%",
+      "fetched_at": "2026-06-13T22:40:55.006313+00:00",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ]
+    },
+    {
+      "claim_id": "oleh-income-exemption-2026",
+      "claim": "2026 new-oleh / returning-resident reform: a tiered exemption on Israeli-source EARNED income (not passive) for those establishing residency between 5 November 2025 and the end of 2026. Ceilings: 600,000 in 2026 (prorated), 1,000,000 ש\"ח (מיליון) each in 2027 and 2028, 350,000 in 2029, 150,000 in 2030; income from a related party is capped at 140,000/year.",
+      "source_url": "https://www.grantthornton.co.il/insights1/tax-insignths/2026/New_tax_benefits/",
+      "raw_snippet": "2026 עד לתקרה של 600,000 ש\"ח, 2027-2028 עד מיליון ש\"ח לכל שנה, 2029 עד 350,000 ש\"ח, 2030 עד 150,000 ש\"ח; מקרוב 140,000 ש\"ח",
+      "fetched_at": "2026-06-13T22:45:49.663627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-olim-hub",
+      "claim": "Kol Zchut hub page for olim, listing the benefit pages: income-tax credit points, tax benefits, purchase-tax discount, arnona discount and National Insurance exemption.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "נקודות זיכוי ממס הכנסה לעולה חדש הטבות מס לעולים הנחה במס רכישה לעולים הנחה בארנונה לעולים חדשים פטור מתשלום דמי ביטוח לאומי לעולים חדשים",
+      "fetched_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser-playwright (same-origin fetch)",
+      "verified_at": "2026-08-13"
+    },
+    {
+      "claim_id": "sal-klita-standard-2026",
+      "claim": "Sal klita 2026, standard (working-age) track: single -- 1,250 airport prepaid card + 1,544 bank top-up + 6 x 3,150 = 21,694 NIS / 21,694 ש\"ח. Single parent -- 2,300 + 1,631 + 6 x 5,190 = 35,071. Couple -- 2,500 + 4,023 + 6 x 5,806 = 41,359.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "לוח סיוע כספי בסל הקליטה תשלומים יחיד (ב-₪) משפחה חד הורית (ב-₪) זוגות (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,544 1,631 4,023 תשלום 1 3,150 5,190 5,806",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-prepension-2026",
+      "claim": "Sal klita 2026, pre-pension track (reaches statutory retirement age within 5 years of aliyah): single 1,250 + 1,583 + 6 x 3,992 = 26,785; single parent 2,300 + 1,690 + 6 x 6,201 = 41,196; couple 2,500 + 3,904 + 6 x 7,414 = 50,888.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "טרום פנסיה 2026 למי שתוך 5 שנים מתאריך העלייה או קבלת מעמד כעולה יגיע ל גיל הפרישה תשלומים יחיד טרום פנסיה* (ב-₪) חד הורי טרום פנסיה* (ב-₪) זוגות טרום פנסיה* (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 1,583 1,690 3,904 תשלום 1 3,992 6,201 7,414",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-pensioner-2026",
+      "claim": "Sal klita 2026, pensioner track (already at the statutory retirement age set by law): single 1,250 + 2,305 + 6 x 3,204 = 22,779; single parent 2,300 + 1,606 + 6 x 4,030 = 28,086; couple 2,500 + 3,785 + 6 x 4,663 = 34,263.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "גמלאים 2026 לפי גיל הפרישה שנקבע בחוק תשלומים גמלאי יחיד (ב-₪) גמלאי חד הורי (ב-₪) זוגות גמלאים (ב-₪) נתב\"ג (כרטיס נטען) 1,250 2,300 2,500 השלמה לחשבון בנק 2,305 1,606 3,785 תשלום 1 3,204 4,030 4,663",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-supplements-2026",
+      "claim": "Sal klita 2026 supplements (added to the family basket, never a basket of their own): household of 6 or more adds 6 x 986 = 5,918; a person aged 18-21 adds 250 + 3,106 + 6 x 1,324 = 11,039; a child 4-18 adds 250 + 3,051 + 6 x 870 = 8,521; a child 0-4 adds 250 + 3,095 + 6 x 1,581 = 12,831.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "לוח תוספות לסל קליטה 2026 תשלומים תוספת למשפחה 6 נפשות (ב-₪) בן/בת 18-21 (ב-₪) ילד 4-18 (ב-₪) ילד 0-4 (ב-₪) נתב\"ג (כרטיס נטען) --- 250 250 250 השלמה לחשבון בנק --- 3,106 3,051 3,095 תשלום 1 986 1,324 870 1,581",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-structure",
+      "claim": "The sal klita is paid as a prepaid card at Ben Gurion (a bank deposit for those changing status inside Israel), a one-time bank top-up into the Israeli account (a couple must open a joint account), and SIX monthly instalments. There is NO seventh payment: after six months the oleh is checked for income support (havtachat hachnasa).",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "המשך המענק ניתן ב - 6 תשלומים חודשיים. בתום שישה חודשים לעלייה ניתן לבדוק זכאות לסיוע לצרכי הקיום באמצעות הבטחת הכנסה.",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-no-income-test",
+      "claim": "Entitlement to sal klita does not depend on income; the ministry page states no capital declaration (hatzharat hon) and no asset ceiling. Leaving the country stops the payments, and they resume only on return within the first aliyah year.",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "הזכאות לסל קליטה אינה תלויה בגובה ההכנסה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "oleh-credit-points-2022",
+      "claim": "Oleh tax credit points, current regime (arrived 2022 or later): 1/12 of an annual point per month for months 1-12, 1/4 per month for the next 18 months, 1/6 per month for the next 12, and 1/12 per month for the last 12. Total 8.5 points over 54 months. Olim who arrived before 2022 are on the legacy 42-month / 7.5-point ladder, which starts at the 1/4 rung.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לעולה_חדש",
+      "raw_snippet": "במשך כל אחד מ-12 החודשים הראשונים מאז עלייתם זכאים העולים ל-1/12 נקודת זיכוי שנתית (כלומר בממוצע 242 ₪ לכל חודש). במשך כל אחד מ-18 החודשים הבאים זכאים העולים ל-1/4 נקודת זיכוי שנתית (כלומר בממוצע 726 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הבאים זכאים העולים ל-1/6 נקודת זיכוי שנתית (כלומר בממוצע 484 ₪ לכל חודש). במשך כל אחד מ-12 החודשים הנותרים זכאים העולים ל-1/12 נקודת זיכוי שנתית (כלומר בממוצע 242 ₪ לכל חודש).",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "credit-point-value-2026",
+      "claim": "The value of one income-tax credit point in 2026 is NIS 242 / 242 NIS / 242 ש\"ח per month, i.e. NIS 2,904 / 2,904 ש\"ח a year. Monthly values on the oleh ladder: 1/12 of a point = 242 NIS / 242 ש\"ח, 1/4 = 726 NIS / 726 ש\"ח, 1/6 = 484 NIS / 484 ש\"ח. Full use of the post-2022 ladder is worth about NIS 24,700 / 24,700 NIS / 24,700 ש\"ח of tax (12 x 242 + 18 x 726 + 12 x 484 + 12 x 242 = 24,684); the legacy 42-month ladder is worth about NIS 21,800.",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-monthly-deductions-booklet/he/generalInformation_income-tax-monthly-deductions-booklet_monthly-deductions-booklet-2026.pdf",
+      "raw_snippet": "פרק ג - סכומים מתואמים לשנת המס 2026 א. נקודת זיכוי 242 נקודת זיכוי 33א לחודש",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ],
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "credit-points-clock-pause",
+      "claim": "Regular IDF service and post-secondary study are excluded from the 54 months automatically: the clock pauses and the unused remainder of the benefit resumes on discharge or graduation. Otherwise the clock runs continuously from the teudat oleh, including months with no income. The credit applies to all taxable income, not only earned income, and a refund can be claimed up to 6 years back. The oleh points are on top of the 2.25 resident points.",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לעולה_חדש",
+      "raw_snippet": "תקופה של שירות סדיר בצה\"ל או תקופת לימודים במוסד על-תיכוני לא תיספר בתוך 54 החודשים",
+      "fetched_at": "2026-07-14T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md",
+        "scripts/sal-klita-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "ref-link-misrad-haklita-he",
+      "claim": "Reference link: the Ministry of Aliyah and Integration gov.il department page (Hebrew), https://www.gov.il/he/departments/ministry_of_aliyah_and_integration . The ministry provides assistance to olim and returning residents, sets policy and procedures, allocates assistance budgets and provides services in housing, employment and culture.",
+      "source_url": "https://www.gov.il/he/departments/ministry_of_aliyah_and_integration",
+      "raw_snippet": "משרד העלייה והקליטה מעניק סיוע לעולים ולתושבים חוזרים. המשרד קובע מדיניות ונהלים, מקצה תקציבי סיוע לעולים ומעניק שירותים מיוחדים בתחום הדיור, התעסוקה והתרבות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-4-year-use",
+      "claim": "The car may only be sold after 4 years of the oleh actually using it in Israel, and more than 12 months spent abroad during that period must be made up first.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "את הרכב ניתן למכור רק לאחר 4 שנים שבהן הרכב היה בשימוש העולה בישראל. אם במהלך 4 השנים העולה שהה בחו\"ל יותר מ-12 חודשים, יהיה עליו להשלים את התקופה החסרה כדי למכור את הרכב ללא תשלום המסים.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-one-per-couple",
+      "claim": "Spouses release only one reduced-tax car between them even if both are eligible, and no one outside the couple may drive it.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "בני-זוג, אף אם שניהם זכאים, יוכלו לשחרר רכב אחד בלבד בתשלום מסים מופחתים, ואין לאף אחד מלבדם הזכות לנהוג בו.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "olim-vehicle-self-use-4-years",
+      "claim": "The self-use requirement is 6 years for goods generally and 4 years for a vehicle.",
+      "source_url": "https://www.gov.il/he/pages/guide-for-immigrants-and-foreign-residents",
+      "raw_snippet": "שימוש עצמי - הטובין, שזכאים מייבאים או רוכשים בזכויותיהם, יהיו לשימושם העצמי בישראל לתקופה של 6 שנים לפחות מיום שחרורם או רכישתם . רכב - לתקופה של 4 שנים לשימוש עצמי בישראל.",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Israel Tax Authority guide for immigrants and foreign residents (official gov.il page)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "drivers-license-test-exemption-classes",
+      "claim": "The exemption from the practical test applies only to licence categories 1, A, A1, A2 and B, and only with at least 5 years on a permanent foreign licence; any other case requires passing the practical test.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9E%D7%A8%D7%AA_%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%96%D7%A8_%D7%9C%D7%A8%D7%99%D7%A9%D7%99%D7%95%D7%9F_%D7%A0%D7%94%D7%99%D7%92%D7%94_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99",
+      "raw_snippet": "מי שעומד בשני התנאים הבאים פטור מ מבחן נהיגה מעשי : הוא בעל רישיון נהיגה זר קבוע במשך 5 שנים לפחות. הוא מבקש להמיר את רישיונו לרישיון מסוג 1, A, A1, A2, B. בכל מקרה אחר, המבקש יצטרך לעמוד בהצלחה במבחן נהיגה מעשי (טסט).",
+      "fetched_at": "2026-08-14",
+      "verified_via": "kolzchut page text read through the site MediaWiki parse API",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md",
+        "references/driver-license-conversion.md"
+      ]
+    },
+    {
+      "claim_id": "pets-minimum-age",
+      "claim": "A pet must be at least 4 months old on arrival in Israel; from Oceania, Great Britain, Japan and Cyprus the minimum is 3 months.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "על חיית המחמד להיות בן לא פחות מ‪ 4‬חודשים",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061, Hebrew section (pdftotext, snippet taken verbatim from the extraction so it matches on re-check)",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "pets-serology-titer",
+      "claim": "The rabies antibody titer must be at least 0.5 IU/ml, measured on a blood sample taken at least 30 days after vaccination by an OIE-approved laboratory.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/moag-pro-061/en/import_pet-import_imp_cats_dogs1.pdf",
+      "raw_snippet": "0.5 IU/ml",
+      "fetched_at": "2026-08-14",
+      "verified_via": "Ministry of Agriculture import procedure moag-pro-061",
+      "verified_at": "2026-08-14",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "sal-klita-24-month-presence-test",
+      "claim": "Sal klita eligibility requires no more than 24 months in Israel, consecutive or cumulative, in the 3 years before receiving oleh status; Ezrach Oleh and Katin Chozer meeting the same rules also qualify",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "השוהים בישראל לא יותר מ - 24 חודשים רצופים או מצטברים, בשלוש השנים שקדמו לקבלת מעמד עולה, או זכאות כעולה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-dmei-michya-ulpan",
+      "claim": "The six sal klita instalments are paid as living costs (dmei michya) during the ulpan period, over six months",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "הסיוע ניתן כדמי מחיה בתקופת הלימודים באולפן, במשך שישה חודשים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-hesderat-chov",
+      "claim": "An overpaid sal klita is recovered through a promissory note issued by the oleh's personal adviser, payable at Bank HaDoar or by credit card online",
+      "source_url": "https://www.gov.il/he/pages/absorption_basket",
+      "raw_snippet": "להסדרת החוב למשרד העלייה והקליטה עבור תשלום שניתן שלא כדין יש ליצור קשר עם היועץ האישי או הלשכה על מנת שינפיקו שטר חוב",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sal-klita-rates.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-420-450-hours",
+      "claim": "Ulpan Aleph funding covers 420 to 450 study hours, for olim aged 17 and over (not 500 hours)",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "הזכאות היא ללימודים בהיקף שבין 420 ל-450 שעות לימוד (אולפן בסיסי/אולפן ראשוני/אולפן א')",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/aliyah-timeline-guide.md",
+        "scripts/aliyah-checklist.py"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-entitlement-period-18-24-months",
+      "claim": "18 months from aliyah is the ulpan entitlement PERIOD, extended to 24 months for olim on havtachat hachnasa, and extendable on request for pregnancy or childbirth, childcare, a move, family distress or illness",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "תקופת הזכאות ללמוד באולפן נמשכת 18 חודשים (שנה וחצי) מיום העלייה. עולים שנתמכים או מקבלים הבטחת הכנסה מהמוסד לביטוח לאומי זכאים ללמוד באולפן בתקופה של 24 חודשים (שנתיים) מיום העלייה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/aliyah-timeline-guide.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-age-17-minimum",
+      "claim": "Ulpan funding eligibility starts at age 17",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "עולים חדשים מגיל 17 ומעלה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-voucher-5000-cap",
+      "claim": "The private-institution Hebrew-study voucher reimburses actual course cost up to 5,000 NIS, for a course of up to 6 months, 8 by prior written approval",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "השובר ללימוד השפה העברית יהיה בסכום ששולם לקורס בפועל, ולא יותר מ-5,000 ₪. הקורס יימשך עד 6 חודשים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-voucher-80-percent-final-30",
+      "claim": "The 80% attendance condition belongs to the private voucher route: the final 30% of the voucher is released against a certificate showing at least 80% attendance",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "30% שנותרו יועברו בגמר הקורס אחרי שתוצג תעודה שמעידה על השתתפות במבחן סיום מטעם המשרד ועל לפחות 80% נוכחות בקורס",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/aliyah-timeline-guide.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "ulpan-voucher-10-15-year-window",
+      "claim": "Voucher eligibility runs while 10 years since aliyah have not elapsed, and 15 years for olim from Ethiopia, Yemen and Bnei Menashe",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_לימודי_השפה_העברית_באולפן_לעולים_חדשים",
+      "raw_snippet": "למי שעלו מאתיופיה או מתימן ולבני מנשה - טרם חלפו 15 שנים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "arnona-12-of-24-months",
+      "claim": "The oleh arnona discount of up to 90% on 100 sq m is given for 12 months out of the 24 that begin on the day of registration as an oleh, at the municipality's discretion",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בארנונה_לעולים_חדשים",
+      "raw_snippet": "ההנחה תינתן במשך 12 חודשים מתוך 24 החודשים שמתחילים ביום שהעולה נרשם במרשם האוכלוסין כעולה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/aliyah-checklist.py"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "arnona-80-percent-dependency",
+      "claim": "Olim receiving a long-term-care benefit or a dependency-based disability benefit get up to 80% arnona discount on the whole apartment",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_בארנונה_לעולים_חדשים",
+      "raw_snippet": "עולים שמקבלים גמלת סיעוד או קצבת נכות בגלל תלות בזולת זכאים להנחה של עד 80% בתשלום הארנונה לכל שטח הדירה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "drivers-license-under-5-years-practical-test",
+      "claim": "An oleh with under 5 years on the foreign licence must pass a full practical driving test (test), not a short control test",
+      "source_url": "https://www.kolzchut.org.il/he/המרת_רישיון_נהיגה_זר_לרישיון_נהיגה_ישראלי",
+      "raw_snippet": "עולה חדש עם ותק של פחות מ-5 שנים נדרש לעבור מבחן נהיגה מעשי (טסט)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/driver-license-conversion.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "drivers-license-theory-after-two-failures",
+      "claim": "Two practical attempts are allowed; only after failing the practical twice is a theory test required, followed by a further practical, and the applicant is exempt from the minimum-lessons requirement",
+      "source_url": "https://www.kolzchut.org.il/he/המרת_רישיון_נהיגה_זר_לרישיון_נהיגה_ישראלי",
+      "raw_snippet": "אם המבקש נכשל פעמיים במבחן המעשי, עליו לעמוד בהצלחה ב מבחן נהיגה עיוני (תיאוריה) ולאחר מכן במבחן מעשי נוסף, ככל מבקש רישיון נהיגה אחר (אך הוא פטור מחובת שיעורי מינימום)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/driver-license-conversion.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "drivers-license-nahag-chadash-under-2",
+      "claim": "An applicant with under 2 years of licence seniority is classified as a nahag chadash (new driver)",
+      "source_url": "https://www.kolzchut.org.il/he/המרת_רישיון_נהיגה_זר_לרישיון_נהיגה_ישראלי",
+      "raw_snippet": "אם יש לו ותק של פחות משנתיים הוא ייחשב \"נהג חדש\"",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/driver-license-conversion.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "drivers-license-one-year-from-entry",
+      "claim": "A foreign licence may be used to drive in Israel for one year from the date of entry (there is no 6-month-absence reset for an oleh)",
+      "source_url": "https://www.kolzchut.org.il/he/המרת_רישיון_נהיגה_זר_לרישיון_נהיגה_ישראלי",
+      "raw_snippet": "רשאים לנהוג בארץ עם רישיון נהיגה זר בתוקף, במשך שנה מיום הכניסה לארץ",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/driver-license-conversion.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mas-rechisha-oleh-ceiling-no-top-bracket",
+      "claim": "The oleh single-home purchase-tax track applies only where the price does not exceed 20,183,565 NIS; there is no oleh bracket above it",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_במס_רכישה_לעולים",
+      "raw_snippet": "דירת מגורים (או בית) שהעולה יתגורר בה, בתנאי שהיא דירתם היחידה (ראו הגדרה בהמשך ) ומחירה לא עולה על 20,183,565 ₪",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "mas-rechisha-business-track-2026",
+      "claim": "The oleh business-premises purchase-tax track is 0.5% up to 1,988,090 NIS and 5% above it; olim who made aliyah before 15.08.2024 may elect it for a dwelling too, including a non-sole dwelling with no price ceiling",
+      "source_url": "https://www.kolzchut.org.il/he/הנחה_במס_רכישה_לעולים",
+      "raw_snippet": "עד 1,988,090 ₪ 0.5% מעל 1,988,090 ₪ 5% (*) מי שעלו לארץ לפני 15.08.2024 יכולים לבחור במסלול זה גם לרכישת דירה (כולל דירה שאינה דירתם היחידה וללא הגבלה במחיר)",
+      "appears_in": [
+        "references/tax-benefits-olim.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "acclimatization-year-available-to-olim",
+      "claim": "New olim, not only returning residents, may elect an Acclimatization Year (shnat histaglut) for income-tax purposes",
+      "source_url": "https://www.gov.il/en/service/application_for_year_of_acclimatization",
+      "raw_snippet": "New immigrants or returning residents (in accordance with the determination by the Tax Authority) can choose to have their first year considered as an acclimation and settling in year for the purpose of the directive of the income tax.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "acclimatization-year-90-days-once",
+      "claim": "The Acclimatization Year application must be completed within 90 days of receiving the status and may be submitted only once",
+      "source_url": "https://www.gov.il/en/service/application_for_year_of_acclimatization",
+      "raw_snippet": "It is necessary to complete filling in all of the details in the online form within 90 days from the date of receiving the status",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "reform-75-days-cumulative-limbs",
+      "claim": "The 2026 reform anti-abuse clause has two cumulative limbs: the person must both cease to be an Israeli resident in 2028 or 2029 AND spend fewer than 75 days in Israel during 2028 and 2029",
+      "source_url": "https://www.gov.il/en/pages/tax-reform-for-new-olim",
+      "raw_snippet": "Anyone who will leave the country and cease to be an Israeli resident in 2028 or 2029, and in addition, will spend fewer than 75 days in the country during 2028 and 2029 - will not have the reform provisions apply to them.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/tax-benefits-olim.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "cash-declaration-five-land-crossings",
+      "claim": "The 12,000 NIS cash-declaration threshold applies at five land crossings: Nitzana, Erez, Jordan River, Yitzhak Rabin and Taba",
+      "source_url": "https://www.kolzchut.org.il/he/דיווח_על_הוצאת_או_הכנסת_כספים_לישראל",
+      "raw_snippet": "מסוף מעבר יבשתי (מעבר ניצנה, מעבר ארז, מעבר נהר הירדן, מעבר יצחק רבין, מעבר טאבה) - 12,000 ₪",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "resident-credit-points-2-25-2-75",
+      "claim": "Israeli residents get 2.25 credit points; every woman gets half a point more, so a woman resident of Israel gets 2.75 in total",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לתושב_ישראל",
+      "raw_snippet": "תושבי ישראל זכאים ל-2.25 נקודות זיכוי , מתוכן 2 נקודות זיכוי על היותם תושבים ו-1/4 נקודת זיכוי כזיכוי נסיעה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "woman-extra-half-credit-point",
+      "claim": "Every woman is entitled to half a credit point, so a woman resident of Israel is entitled to 2.75 credit points in total",
+      "source_url": "https://www.kolzchut.org.il/he/נקודות_זיכוי_ממס_הכנסה_לתושב_ישראל",
+      "raw_snippet": "כל אישה זכאית ל חצי נקודות זיכוי ולכן נשים תושבות ישראל זכאיות בסה\"כ ל-2.75 נקודות זיכוי",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-assistance-month-7-to-30",
+      "claim": "Olim who made aliyah from 01.03.2024 are automatically entitled to a rent allowance from the Ministry of Construction and Housing from the seventh month of aliyah, until month 30; those who made aliyah up to 29.02.2024 get it from the eighth month, generally to the end of year 5 (single parents year 6)",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "מי שעלו החל מתאריך ה-1.3.2024 זכאים אוטומטית לקצבת שכר דירה מטעם משרד הבינוי והשיכון החל מהחודש השביעי לעלייתם",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "rent-assistance-30-month-cap",
+      "claim": "For olim from 01.03.2024 the rent assistance runs until month 30 of aliyah; those enlisting within 30 months get it for the service period up to 36 months, and NAALE graduates from the first month",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "לגבי מי שעלו החל מתאריך ה-1.3.2024: הסיוע ניתן עד לחודש ה-30 לעלייתם לארץ",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "rent-assistance-95-percent-cap",
+      "claim": "Rent assistance is capped at 95% of the rent and declines with time in Israel",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "גובה הסיוע משתנה בהתאם לנתונים האישיים, ולא יעלה על 95% ממחיר השכירות",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "rent-assistance-not-auto-past-retirement",
+      "claim": "Rent assistance is not automatic for someone who made aliyah after reaching retirement age; they qualify only if living on an old-age pension with income supplement, or as Nazi victims with up to 49% disability",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "מי שעלו לארץ אחרי שהגיעו ל גיל פרישה יהיו זכאים לסיוע אם הם מתקיימים מ קצבת זיקנה (קצבת אזרח ותיק) עם השלמת הכנסה , או אם הם נפגעי הנאצים עם עד 49% נכות",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "rent-assistance-excluded-while-on-basket",
+      "claim": "Olim still receiving sal klita are excluded from the housing-ministry rent allowance, as are recipients of MoD rent aid, subsidised public-housing tenants and residents of state sheltered housing",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "עולים הנמצאים בשנת הקליטה הישירה ומקבלים סל קליטה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "rent-assistance-hotline-2310",
+      "claim": "The rent-assistance hotline for olim is *2310",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_בשכר_דירה_לעולים",
+      "raw_snippet": "מוקד סיוע בשכר דירה לעולים בטלפון *2310",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "havtachat-kiyum-six-tracks",
+      "claim": "Misrad HaAliyah V'HaKlita pays havtachat kiyum in the second half of the first aliyah year, after the basket ends, in six tracks: ill or hospitalised olim, an oleh caring for a sick family member, a pregnant oleh, olim under 65, single-parent oleh families, and olim with a disability or blindness",
+      "source_url": "https://www.kolzchut.org.il/he/סל_קליטה",
+      "raw_snippet": "משרד העלייה והקליטה מעניק לזכאים סיוע כלכלי (הבטחת קיום) במחצית השנייה של שנת העלייה הראשונה, לאחר סיום קבלת סל הקליטה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-procedure-14-211",
+      "claim": "The governing instrument for the sal klita is Ministry of Aliyah and Integration procedure no. 14.211",
+      "source_url": "https://www.kolzchut.org.il/he/סל_קליטה",
+      "raw_snippet": "נוהל משרד העלייה והקליטה מס' 14.211 - סל קליטה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-no-account-change",
+      "claim": "The ministry advises not to change the bank account number in the first years of aliyah, and to report a forced change immediately",
+      "source_url": "https://www.kolzchut.org.il/he/סל_קליטה",
+      "raw_snippet": "לא רצוי לשנות את מספר החשבון בשנים הראשונות לעלייה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-cash-component-holidays",
+      "claim": "During industrial action, strikes, Jewish holidays and emergencies the cash component of the first airport payment is increased",
+      "source_url": "https://www.kolzchut.org.il/he/סל_קליטה",
+      "raw_snippet": "בתקופת עיצומים/שביתה/חגי ישראל ומצבי חירום יוגדל מרכיב הכסף המזומן בתשלום הראשוני של סל הקליטה שניתן בנמל התעופה",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/aliyah-checklist.py"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "sal-klita-no-retroactive-after-abroad",
+      "claim": "Sal klita payments resume only for someone returning within the first aliyah year, with no retroactive payment for the months spent abroad, and resumption requires attending the local Misrad HaKlita office with a passport showing the entry stamp",
+      "source_url": "https://www.kolzchut.org.il/he/סל_קליטה",
+      "raw_snippet": "לא יתקבל תשלום רטרואקטיבי עבור החודשים בהם העולה שהה מחוץ לישראל",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "references/troubleshooting.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "special-old-age-pension-rates-2026",
+      "claim": "The special old-age pension for olim and returning residents who are not insured for old age is paid at the basic single old-age rate: 1,838 NIS to age 80 and 1,941 NIS from age 80, as of 2026",
+      "source_url": "https://www.kolzchut.org.il/he/גמלת_זיקנה_מיוחדת_לעולים_ולתושבים_חוזרים",
+      "raw_snippet": "1,838 ₪ עד גיל 80 ו- 1,941 ₪ מגיל 80 ומעלה, נכון לשנת 2026",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "special-old-age-pension-eligibility",
+      "claim": "Men not insured for old age because they made aliyah after age 60 to 62 by birth date, and women who made aliyah after retirement age (62 to 65 by birth date), are entitled to the special old-age pension",
+      "source_url": "https://www.kolzchut.org.il/he/גמלת_זיקנה_מיוחדת_לעולים_ולתושבים_חוזרים",
+      "raw_snippet": "עולים - גברים שלא מבוטחים בביטוח זיקנה כי עלו לארץ אחרי גיל 62-60, בהתאם לתאריך לידתם",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "daycare-tier-3-no-income-test",
+      "claim": "An oleh parent who at the start of the school year has been in Israel up to two years since aliyah may be entitled to tier 3 of the daycare tuition table for each of their children, with no income test",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_להורים_שהם_עולים_חדשים_במימון_מעונות_יום_ומשפחתונים",
+      "raw_snippet": "עולה חדש עשוי להיות זכאי (בהתאם לתנאים שיפורטו בהמשך) ל השתתפות בדרגה 3 בטבלת שכר הלימוד עבור כל אחד מילדיו - ללא תלות במבחן הכנסות",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "daycare-24-hour-ulpan-condition",
+      "claim": "The daycare tier-3 entitlement requires both parents to be either studying at an ulpan for at least 24 weekly hours or registered as job-seekers at the Employment Service or Misrad HaKlita, or one of each",
+      "source_url": "https://www.kolzchut.org.il/he/סיוע_להורים_שהם_עולים_חדשים_במימון_מעונות_יום_ומשפחתונים",
+      "raw_snippet": "שניהם לומדים באולפן בהיקף של לפחות 24 שעות שבועיות",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "student-authority-tuition-funding",
+      "claim": "Misrad HaAliyah V'HaKlita funds tuition for olim admitted to an institution recognized by the Student Authority (המינהל לסטודנטים עולים)",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_שכר_לימוד_לסטודנטים_עולים",
+      "raw_snippet": "משרד העלייה והקליטה מממן את שכר הלימוד לעולים שהתקבלו ללימודים במוסד לימודי המוכר על-ידי המינהל לסטודנטים עולים",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    },
+    {
+      "claim_id": "student-authority-36-month-clock",
+      "claim": "Studies must begin within 36 months of receiving oleh, ezrach oleh or katin chozer status, excluding IDF service (with up to one year of permanent service), national service, and up to 4 years of hesder yeshiva",
+      "source_url": "https://www.kolzchut.org.il/he/מימון_שכר_לימוד_לסטודנטים_עולים",
+      "raw_snippet": "יש להתחיל את הלימודים בתוך 36 חודשים מקבלת המעמד (עולה/אזרח עולה/קטין חוזר)",
+      "fetched_at": "2026-08-27T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/post-basket-entitlements.md"
+      ],
+      "verified_via": "text",
+      "verified_at": "2026-08-27T00:00:00Z"
+    }
+  ]
+}

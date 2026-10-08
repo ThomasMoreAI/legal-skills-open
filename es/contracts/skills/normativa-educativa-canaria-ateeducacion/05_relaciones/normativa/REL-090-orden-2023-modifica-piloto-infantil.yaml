@@ -1,0 +1,10 @@
+id: REL-090
+tipo_relacion: "modifica"
+origen: NOR-115
+destino: NOR-114
+descripcion: "La Orden de 17 de mayo de 2023 modifica la Orden de 24 de marzo de 2023 de la experiencia piloto del primer ciclo de Infantil, en relación con las plazas vacantes."
+evidencia:
+  fuente: FTE-122
+  localizacion: "BOC n.º 101, de 25 de mayo de 2023, anuncio 1683."
+fecha_registro: 2026-08-23
+nivel_evidencia: "confirmado-fuente-primaria"

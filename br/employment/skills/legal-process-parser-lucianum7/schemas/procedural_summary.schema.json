@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lucianum7/AuditorProcessual/schemas/procedural_summary.schema.json",
+  "title": "Legal Process Parser procedural summary",
+  "type": "object",
+  "required": ["schema_version", "status", "classification", "coverage", "events", "deadlines", "evidence", "pending_pages", "tasks"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "status": {"enum": ["draft", "reviewed"]},
+    "classification": {"type": "object"},
+    "coverage": {"type": "object"},
+    "pieces": {"type": "array"},
+    "events": {"type": "array"},
+    "deadlines": {"type": "array"},
+    "evidence": {"type": "array"},
+    "pending_pages": {"type": "array"},
+    "tasks": {"type": "array"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

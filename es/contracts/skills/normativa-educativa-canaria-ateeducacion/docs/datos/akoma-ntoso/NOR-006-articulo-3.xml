@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-04-05/243">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/!art_3"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2022/04/05/243/con"/>
+          <FRBRdate date="2022-04-05" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="243"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/!art_3"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@"/>
+          <FRBRdate date="2022-04-06" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-04-05/243/spa@/xml/!art_3"/>
+          <FRBRuri value="/akn/es/act/2022-04-05/243/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_3">
+        <num>Artículo 3.</num>
+        <heading>La etapa de Bachillerato en el marco del sistema educativo.</heading>
+        <paragraph eId="art_3__para_1">
+          <num>1.</num>
+          <content><p>La educación secundaria se divide en educación secundaria obligatoria y educación secundaria postobligatoria.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_2">
+          <num>2.</num>
+          <content><p>El Bachillerato es una de las enseñanzas que conforman la educación secundaria postobligatoria, junto con la Formación Profesional de Grado Medio, las Enseñanzas Artísticas Profesionales, tanto de Música y de Danza como de Artes Plásticas y Diseño de Grado Medio, y las Enseñanzas Deportivas de Grado Medio.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_3">
+          <num>3.</num>
+          <content><p>Sin perjuicio de lo previsto en el artículo 15, la etapa comprende dos cursos, se desarrolla en modalidades diferentes y se organiza de modo flexible en materias comunes, materias de modalidad y materias optativas, a fin de que pueda ofrecer una preparación especializada a los alumnos y alumnas acorde con sus perspectivas e intereses de formación o permita la incorporación a la vida activa una vez finalizado el mismo.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

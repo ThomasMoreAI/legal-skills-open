@@ -1,0 +1,11 @@
+id: REL-052
+tipo_relacion: "sustituye"
+origen: NOR-063
+destino: NOR-062
+descripcion: "La Resolución n.º 254/2026 establece el listado definitivo de módulos optativos de diseño propio de FP para 2026/2027 y sustituye al listado provisional de la Resolución n.º 234/2026 una vez concluido el plazo de subsanación."
+evidencia:
+  fuente: FTE-070
+  localizacion: "Antecedentes de hecho segundo y tercero; resuelvo primero."
+fecha_registro: 2026-06-29
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "El listado provisional (NOR-062) queda superado por el definitivo; ambos forman parte del mismo procedimiento del curso 2026/2027."

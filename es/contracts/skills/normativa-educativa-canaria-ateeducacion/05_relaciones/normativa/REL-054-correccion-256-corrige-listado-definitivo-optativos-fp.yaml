@@ -1,0 +1,11 @@
+id: REL-054
+tipo_relacion: "corrige"
+origen: NOR-064
+destino: NOR-063
+descripcion: "La Resolución n.º 256/2026 corrige errores materiales y de hecho en los anexos de la Resolución n.º 254/2026, listado definitivo de módulos optativos de diseño propio de FP para 2026/2027."
+evidencia:
+  fuente: FTE-071
+  localizacion: "Resuelvo primero; modificación del Anexo I (familia profesional de Administración y Gestión)."
+fecha_registro: 2026-06-29
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Primera corrección del listado definitivo; complementada por la Resolución n.º 272/2026 (REL-055)."

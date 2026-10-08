@@ -1,0 +1,78 @@
+id: CUR-021
+titulo: "Segunda Lengua Extranjera — ESO Canarias"
+etapa: "eso"
+materia: "Segunda Lengua Extranjera"
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados, para responder a necesidades comunicativas concretas."
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "2.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "3.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "4.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+    - codigo: "C2"
+      enunciado_oficial: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias tales como la planificación, la compensación o la autorreparación, para expresar de forma creativa, adecuada y coherente mensajes relevantes y responder a propósitos comunicativos concretos."
+      descriptores:
+        "1.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "2.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "3.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "4.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+    - codigo: "C3"
+      enunciado_oficial: "Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos en intercambios respetuosos con las normas de cortesía."
+      descriptores:
+        "1.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "2.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "3.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "4.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+    - codigo: "C4"
+      enunciado_oficial: "Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable."
+      descriptores:
+        "1.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "2.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "3.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "4.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+    - codigo: "C5"
+      enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas."
+      descriptores:
+        "1.º ESO": [CCL5, CP3, CPSAA1, CC2, CC3, CE1, CCEC1]
+        "2.º ESO": [CCL5, CP3, CPSAA1, CC2, CC3, CE1, CCEC1]
+        "3.º ESO": [CCL5, CP3, CPSAA1, CC2, CC3, CE1, CCEC1]
+        "4.º ESO": [CCL5, CP3, CPSAA1, CC2, CC3, CE1, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y culturas, para actuar de forma empática y respetuosa en situaciones interculturales."
+      descriptores:
+        "1.º ESO": [CP2, STEM1, CD2, CPSAA1, CPSAA4, CPSAA5, CE2]
+        "2.º ESO": [CP2, STEM1, CD2, CPSAA1, CPSAA4, CPSAA5, CE2]
+        "3.º ESO": [CP2, STEM1, CD2, CPSAA1, CPSAA4, CPSAA5, CE2]
+        "4.º ESO": [CP2, STEM1, CD2, CPSAA1, CPSAA4, CPSAA5, CE2]
+  saberes_basicos:
+    - id: comunicacion
+      nombre: "I. Comunicación"
+      descripcion: "Estrategias de comprensión, producción, interacción y mediación."
+    - id: plurilinguismo
+      nombre: "II. Plurilingüismo"
+      descripcion: "Reflexión interlingüística y estrategias para el aprendizaje."
+    - id: interculturalidad
+      nombre: "III. Interculturalidad"
+      descripcion: "Aspectos socioculturales, aprecio de la diversidad y patrimonio."
+  criterios_evaluacion:
+    - curso: "1º-4º ESO"
+      criterios:
+        - id: 1.1
+          texto: "Extraer información esencial y el sentido global en textos de dificultad progresiva."
+        - id: 3.1
+          texto: "Participar en situaciones comunicativas cotidianas utilizando expresiones elementales."
+        - id: 6.1
+          texto: "Mostrar aprecio por la diversidad lingüística y cultural, identificando semejanzas y diferencias."
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Materia optativa impartida en 1.º a 4.º de ESO. Las seis competencias específicas (C1-C6) llevan ahora el enunciado literal del Decreto 30/2023 y sus descriptores operativos del perfil de salida por curso (DEC-0008), verificados con 11_calidad/extraer_descriptores.py; el decreto asigna el mismo conjunto de descriptores en los cuatro cursos para cada competencia. Los criterios de evaluación y los saberes básicos ya recogidos en la ficha se mantienen sin cambios; no reproducen los criterios íntegros del anexo, solo una selección representativa."

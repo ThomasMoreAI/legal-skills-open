@@ -1,0 +1,53 @@
+name: fiscalidad-iva
+display_name: Fiscalidad — IVA (Impuesto sobre el Valor Añadido)
+description: >
+  Orientación sobre obligaciones del IVA en España: Modelo 303 (declaración
+  trimestral), tipos impositivos (21%, 10%, 4%), regímenes especiales
+  (simplificado, recargo de equivalencia, criterio de caja, REAGYP),
+  actividades exentas, Modelo 390 (resumen anual) y cálculo del IVA
+  devengado menos deducible. Aplica a autónomos y sociedades.
+organization: Agencia Estatal de Administración Tributaria (AEAT)
+tags: [fiscalidad, IVA, modelo 303, modelo 390, impuestos, autónomos, sociedades, AEAT]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/iva.html
+  modelo_303: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G414.shtml
+  modelo_390: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G412.shtml
+  regimenes: https://sede.agenciatributaria.gob.es/Sede/iva/regimenes-tributacion-iva.html
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Información pública de la AEAT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni a la
+    Sede Electrónica para trámites. Puede usar WebFetch para enlazar o
+    consultar páginas informativas oficiales de la AEAT.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de IVA vigentes y qué productos/servicios aplican a cada tipo
+    - Plazos y periodos de presentación del Modelo 303
+    - Método de cálculo del IVA trimestral (devengado − deducible)
+    - Regímenes especiales del IVA y a quién aplican
+    - Actividades exentas de IVA (art. 20 Ley 37/1992)
+    - Modelo 390 resumen anual y quién está exonerado
+    - Casillas principales del Modelo 303
+  not_accessible:
+    - Presentación real de declaraciones (requiere certificado digital/Cl@ve)
+    - Datos fiscales individuales del contribuyente
+    - Estadísticas agregadas del IVA (usar skill aeat)
+    - Texto legal de la Ley del IVA (usar skill boe)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

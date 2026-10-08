@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Arquivos criados ao reproduzir a auditoria com o instalador do framework
+.agents/
+.claude/
+.cursor/
+.opencode/
+.github/prompts/

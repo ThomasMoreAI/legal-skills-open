@@ -1,0 +1,71 @@
+{
+  "empresa": {
+    "razon_social": "Pyme Demo SRL",
+    "rut": "210000000000",
+    "domicilio": "Av. 18 de Julio 0000, Montevideo",
+    "contacto": "privacidad@pymedemo.uy",
+    "representante": "Juana Pérez",
+    "responsable_datos": "[verificar contra fuente oficial]"
+  },
+  "fecha": "2026-06-23",
+  "version_skill": "0.1.0",
+  "fuentes": [
+    "sources/ley-18331.md",
+    "sources/ley-19670-arts-37-40.md",
+    "sources/decreto-414-009.md",
+    "sources/decreto-64-020.md",
+    "sources/urcdp-guias.md"
+  ],
+  "controles": [
+    {
+      "id": "C-02",
+      "nombre": "Base de legitimación / Consentimiento",
+      "estado": "no_cumple",
+      "riesgo": "alto",
+      "base_legal": ["Ley 18.331 art. 9 — sources/ley-18331.md"],
+      "evidencia": [
+        {"archivo": "src/models/user.js", "linea": 12, "nota": "Se guardan email y teléfono sin rastro de consentimiento."}
+      ],
+      "remediacion": "Registrar base legal por tratamiento y agregar captura de consentimiento informado.",
+      "verificar": false
+    },
+    {
+      "id": "C-06",
+      "nombre": "Seguridad de los datos",
+      "estado": "parcial",
+      "riesgo": "alto",
+      "base_legal": [
+        "Ley 18.331 art. 12 (red. art. 39 Ley 19.670) — sources/ley-18331.md",
+        "Decreto 64/020 art. 5 — sources/decreto-64-020.md"
+      ],
+      "evidencia": [
+        {"archivo": ".env.example", "linea": 3, "nota": "STRIPE_SECRET en texto plano (ejemplo)."}
+      ],
+      "remediacion": "Gestionar secretos fuera del repo; documentar medidas (responsabilidad proactiva).",
+      "verificar": false
+    },
+    {
+      "id": "C-10",
+      "nombre": "Transferencias internacionales",
+      "estado": "requiere_revision",
+      "riesgo": "alto",
+      "base_legal": ["Ley 18.331 art. 23 — sources/ley-18331.md", "Res. URCDP 70/2023 — sources/urcdp-guias.md"],
+      "evidencia": [
+        {"archivo": "infra/aws.tf", "linea": 5, "nota": "Región us-east-1: datos fuera de Uruguay."},
+        {"archivo": "package.json", "linea": 20, "nota": "Stripe (EE. UU.)."}
+      ],
+      "remediacion": "Mapear transferencias; determinar base legal del art. 23; informar al titular.",
+      "verificar": true
+    },
+    {
+      "id": "C-13",
+      "nombre": "Delegado de Protección de Datos (condicional)",
+      "estado": "no_aplica",
+      "riesgo": "bajo",
+      "base_legal": ["Ley 19.670 art. 40 — sources/ley-19670-arts-37-40.md"],
+      "evidencia": [],
+      "remediacion": "No trata datos sensibles como negocio principal ni grandes volúmenes (estimado).",
+      "verificar": true
+    }
+  ]
+}

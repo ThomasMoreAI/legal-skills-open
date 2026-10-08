@@ -1,0 +1,12 @@
+interface:
+  display_name: "DGA Launch Gate"
+  short_description: "Pre-launch compliance gate for go-live"
+  brand_color: "#1B8354"
+  default_prompt: "Use $dga-launch-gate to check whether this service is ready to launch."
+
+policy:
+  # Codex defaults this to true. Pinned rather than inherited: these are compliance
+  # skills, and the failure mode of a changed default is that Codex stops invoking them
+  # AUTOMATICALLY. The skill would still load - it just never fires unless someone types
+  # $dga-launch-gate by hand, and a team then ships believing it was checked.
+  allow_implicit_invocation: true

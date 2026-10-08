@@ -1,0 +1,11 @@
+id: REL-069
+tipo_relacion: "corrige"
+origen: NOR-084
+destino: NOR-083
+descripcion: "La Resolución de 17 de abril de 2026 corrige la omisión del Anexo III en la publicación de la Resolución de 26 de marzo de 2026, que contiene la distribución horaria del certificado profesional Actividades auxiliares en agricultura (AGAX0208)."
+evidencia:
+  fuente: FTE-091
+  localizacion: "Antecedentes de hecho, apartado tercero, de la Resolución de 17 de abril de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Sin esta corrección, ese itinerario de FP Adaptada no tenía distribución horaria publicada."

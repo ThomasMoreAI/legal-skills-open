@@ -1,0 +1,14 @@
+{
+  "name": "ca-constitutional",
+  "displayName": "Constitutional & Public Law — CA",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills for CA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "constitutional",
+  "language": "en",
+  "skills": [
+    "skills/quebec-charter-rights-vezril"
+  ]
+}

@@ -1,0 +1,60 @@
+name: vivienda-alquiler
+display_name: Vivienda — Alquiler de vivienda
+description: >
+  Guía completa sobre el alquiler de vivienda en España: Ley de
+  Arrendamientos Urbanos (LAU), Ley 12/2023 por el derecho a la
+  vivienda, contrato de arrendamiento (duración, prórrogas), fianza
+  obligatoria y garantías adicionales, actualización de renta (nuevo
+  índice de referencia desde 2025, sustituyendo al IPC), derechos del
+  inquilino (desistimiento, prórroga, tanteo y retracto), derechos del
+  arrendador (recuperación por necesidad, desahucio por impago), zonas
+  tensionadas (limitación de rentas, gran tenedor), deducciones fiscales
+  por alquiler (inquilino y arrendador), y alquiler de habitación.
+organization: Legislación española — LAU y Ley 12/2023
+tags: [vivienda, alquiler, arrendamiento, LAU, Ley 12/2023, fianza, actualización renta, zona tensionada, gran tenedor, inquilino, arrendador, desahucio, deducción alquiler, IPC, índice referencia]
+
+links:
+  boe_lau: https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003
+  boe_ley_vivienda: https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203
+
+license:
+  data: Información pública — legislación española
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    gestiona contratos. Proporciona la guía completa sobre arrendamiento
+    de vivienda y redirige a skills específicas (vivienda-compraventa,
+    vivienda-comunidad-propietarios, fiscalidad-impuestos-locales) para
+    detalle en cada ámbito.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Contrato de alquiler (duración mínima, prórrogas, forma)
+    - Fianza legal y garantías adicionales (máximo, depósito autonómico)
+    - Actualización de renta (IPC, nuevo índice desde 2025)
+    - Derechos del inquilino (prórroga, desistimiento, obras, tanteo y retracto)
+    - Derechos del arrendador (recuperación, desahucio por impago)
+    - Zonas tensionadas y limitación de rentas (Ley 12/2023)
+    - Gran tenedor (definición y efectos)
+    - Deducciones fiscales por alquiler (inquilino y arrendador)
+    - Alquiler de habitación (régimen del Código Civil)
+  not_accessible:
+    - Gestión real de contratos (requiere acuerdo entre partes)
+    - Tramitación de procedimientos judiciales (desahucio)
+    - Datos de zonas tensionadas declaradas (depende de cada CCAA)
+    - Proceso de compraventa (usar skill vivienda-compraventa)
+    - Comunidad de propietarios (usar skill vivienda-comunidad-propietarios)
+    - IBI y plusvalía (usar skill fiscalidad-impuestos-locales)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

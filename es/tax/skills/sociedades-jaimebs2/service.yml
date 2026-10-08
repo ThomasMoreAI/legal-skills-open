@@ -1,0 +1,58 @@
+name: fiscalidad-sociedades
+display_name: Fiscalidad -- Impuesto de Sociedades
+description: >
+  Guia completa del Impuesto de Sociedades (IS) en Espana: quien tributa
+  (SL, SA, cooperativas, fundaciones), tipos impositivos (general 25 %,
+  reducido 15 % nuevas empresas), declaracion anual Modelo 200 (julio),
+  pagos fraccionados Modelo 202, calculo de la base imponible (resultado
+  contable +/- ajustes), principales deducciones (I+D+i, ERD, Canarias),
+  compensacion de perdidas, y obligaciones contables (PGC, Registro
+  Mercantil).
+organization: Agencia Estatal de Administracion Tributaria (AEAT)
+tags: [fiscalidad, sociedades, impuesto de sociedades, modelo 200, modelo 202, IS, SL, SA, contabilidad, PGC, deducciones, AEAT]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/impuesto-sobre-sociedades.html
+  modelo_200: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/GE04.shtml
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Informacion publica de la AEAT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre el Impuesto de
+    Sociedades. No accede a APIs de datos ni a la Sede Electronica para
+    tramites. Proporciona el marco general del IS y redirige a skills
+    especificas para IVA (fiscalidad-iva) y retenciones (fiscalidad-retenciones).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Que es el IS y quien esta obligado a declarar
+    - Tipos impositivos (general 25 %, reducido 15 %, cooperativas 20 %, etc.)
+    - Modelo 200 (declaracion anual) y plazos
+    - Modelo 202 (pagos fraccionados) y plazos
+    - Calculo de la base imponible (resultado contable +/- ajustes)
+    - Principales deducciones y bonificaciones (I+D+i, ERD, Canarias)
+    - Compensacion de bases imponibles negativas
+    - Obligaciones contables (PGC, libros, Registro Mercantil)
+    - Calendario fiscal del IS
+  not_accessible:
+    - Presentacion real de declaraciones (requiere certificado digital)
+    - Datos fiscales individuales de la entidad
+    - Contabilidad ni elaboracion de cuentas anuales
+    - Detalle del IVA para sociedades (usar skill fiscalidad-iva)
+    - Retenciones practicadas por la sociedad (usar skill fiscalidad-retenciones)
+    - Tramites de constitucion de empresa
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

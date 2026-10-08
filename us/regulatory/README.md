@@ -4,13 +4,16 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `us` · Practice: `regulatory` · Skill language: en
 
-## Skills (22)
+## Skills (25)
 
 | Skill | What it does |
 |---|---|
 | [`Client Advisory Summary`](skills/advisory-summary/) | Drafts U.S. regulatory client advisory summaries translating legal developments into actionable risk and… |
 | [`Legal Audit Summary`](skills/audit-summary/) | Produces structured U.S. legal audit summaries that distill compliance findings into executive-ready… |
+| [`Auditar a Conformidade`](skills/auditar-a-conformidade-gethouston/) | Verifique se a sua conformidade jurídica continua em dia. Escolha o que revisar: sua política de… |
+| [`Auditar el cumplimiento`](skills/auditar-el-cumplimiento-gethouston/) | Verifica que tu cumplimiento legal siga en buena forma. Elige qué revisar: tu política de privacidad, tu… |
 | [`AWA Compliance Audit (USDA/APHIS)`](skills/awa-compliance-audit/) | Produces an enforcement-aware Animal Welfare Act compliance audit for USDA/APHIS-regulated facilities.… |
+| [`BIA Appeals — Appealing an Immigration Judge's Decision`](skills/bia-appeals-codearranger/) | Use this skill to appeal an immigration judge's decision to the Board of Immigration Appeals (BIA)… |
 | [`Legislative Bill Summary`](skills/bill-summary/) | Produces neutral, section-pinned U.S. legislative bill summaries translating statutory language into… |
 | [`Client Advisory Summary`](skills/client-advisory-summary/) | Produces client-ready U.S. regulatory advisory summaries translating legal developments into actionable… |
 | [`Compliance Checker`](skills/compliance-checker/) | Check affiliate content for FTC compliance and platform rules. Triggers on: "check my content for… |

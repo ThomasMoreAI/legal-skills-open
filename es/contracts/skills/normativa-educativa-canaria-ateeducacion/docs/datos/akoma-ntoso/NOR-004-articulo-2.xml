@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2014-07-25/6">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"/>
+          <FRBRdate date="2014-07-25" name="Generation"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="Ley"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@"/>
+          <FRBRdate date="2014-08-07" name="Publication"/>
+          <FRBRauthor href="#parlamento-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/xml/!art_2"/>
+          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="parlamento-canarias" href="https://www.parcan.es/" showAs="Parlamento de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_2">
+        <num>Artículo 2.</num>
+        <heading>Configuración del sistema educativo canario.</heading>
+        <paragraph eId="art_2__para_1">
+          <num>1.</num>
+          <content><p>El sistema educativo de Canarias comprende las enseñanzas reguladas en el título II de la presente ley, los centros que las imparten y los servicios educativos, sean cuales sean los destinatarios de las enseñanzas, la titularidad del centro o su sistema de financiación.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_2">
+          <num>2.</num>
+          <content><p>Las características del sistema educativo, los principios rectores y los objetivos definidos en esta ley orientan el ordenamiento de los componentes del sistema educativo y conforman el modelo educativo de Canarias.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_3">
+          <num>3.</num>
+          <content><p>Todos los componentes del sistema educativo en Canarias se ordenan de un modo singular para respetar sus particularidades y lograr que las diferentes enseñanzas puedan alcanzar sus objetivos, contribuyendo a que las personas adquieran o mejoren sus capacidades y competencias.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_4">
+          <num>4.</num>
+          <content><p>Los órganos consultivos y de participación que tengan asignadas funciones relacionadas con la educación y que hayan sido regulados en las distintas leyes de la Comunidad Autónoma de Canarias también formarán parte del sistema educativo. Entre los mencionados órganos se incluirá el Consejo Escolar de Canarias y el Consejo Canario de Formación Profesional.</p></content>
+        </paragraph>
+        <paragraph eId="art_2__para_5">
+          <num>5.</num>
+          <content><p>El sistema educativo de Canarias está compuesto por la red pública y la red privada.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

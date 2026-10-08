@@ -1,0 +1,134 @@
+{
+  "prazos_legais": [
+    {
+      "ato": "contestação",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 335",
+      "observacoes": "Contados da audiência de conciliação/mediação ou do protocolo da petição de que não se deseja autocomposição",
+      "excecoes": [
+        {"contexto": "Fazenda Pública", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 183"},
+        {"contexto": "Juizado Especial Cível", "dias": 15, "unidade": "corridos", "fundamento": "Lei 9.099/95 Art. 30"},
+        {"contexto": "Defensoria Pública", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 186"},
+        {"contexto": "Litisconsortes com advogados diferentes (autos físicos)", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 229"}
+      ]
+    },
+    {
+      "ato": "réplica",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 351",
+      "observacoes": "Apenas quando há preliminares ou fatos novos na contestação"
+    },
+    {
+      "ato": "apelação",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.003 §5º",
+      "excecoes": [
+        {"contexto": "Fazenda Pública", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 183"},
+        {"contexto": "Ministério Público", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 180"},
+        {"contexto": "Defensoria Pública", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 186"},
+        {"contexto": "Juizado Especial Cível", "dias": 10, "unidade": "corridos", "fundamento": "Lei 9.099/95 Art. 42"}
+      ]
+    },
+    {
+      "ato": "contrarrazões_apelação",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.010 §1º",
+      "excecoes": [
+        {"contexto": "Fazenda Pública", "dias": 30, "unidade": "úteis", "fundamento": "CPC Art. 183"}
+      ]
+    },
+    {
+      "ato": "agravo_instrumento",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.003 §5º"
+    },
+    {
+      "ato": "agravo_interno",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.021"
+    },
+    {
+      "ato": "embargos_declaração",
+      "dias": 5,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.023",
+      "observacoes": "Interrompe o prazo para interposição de outros recursos"
+    },
+    {
+      "ato": "recurso_especial",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.003 §5º"
+    },
+    {
+      "ato": "recurso_extraordinário",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 1.003 §5º"
+    },
+    {
+      "ato": "impugnação_cumprimento",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 525 §1º"
+    },
+    {
+      "ato": "manifestação_sobre_cálculos",
+      "dias": 5,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 535 §2º"
+    },
+    {
+      "ato": "cumprimento_voluntário",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 523",
+      "observacoes": "Pagamento espontâneo para evitar multa de 10% e honorários de 10%"
+    },
+    {
+      "ato": "reconvenção",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 343",
+      "observacoes": "Mesmo prazo da contestação, apresentada no mesmo ato"
+    },
+    {
+      "ato": "exceção_incompetência",
+      "dias": 15,
+      "unidade": "úteis",
+      "fundamento": "CPC Art. 64 §1º"
+    }
+  ],
+  "regras_gerais": {
+    "contagem_dias_uteis": {
+      "fundamento": "CPC Art. 219",
+      "regra": "Na contagem de prazo em dias, computam-se somente os dias úteis"
+    },
+    "inicio_prazo": {
+      "fundamento": "CPC Art. 224",
+      "regra": "Exclui-se o dia do começo e inclui-se o dia do vencimento"
+    },
+    "prorrogacao_expediente": {
+      "fundamento": "CPC Art. 224 §1º",
+      "regra": "Se o vencimento cair em dia sem expediente forense, prorroga-se para o primeiro dia útil seguinte"
+    },
+    "recesso_forense": {
+      "fundamento": "CPC Art. 220",
+      "inicio_dia": 20,
+      "inicio_mes": 12,
+      "fim_dia": 20,
+      "fim_mes": 1,
+      "regra": "Suspensão dos prazos entre 20 de dezembro e 20 de janeiro"
+    },
+    "intimacao_eletronica": {
+      "fundamento": "CPC Art. 231 §§2-3",
+      "regra": "Intimação eletrônica: prazo inicia na data do envio da intimação + 10 dias, ou na data da consulta, o que ocorrer primeiro"
+    }
+  }
+}

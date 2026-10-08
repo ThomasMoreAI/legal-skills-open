@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/sintetizador_output.json",
+  "title": "juriscan-sintetizador output",
+  "description": "Final consolidation of the dialectic layer. The synthesizer may organize and contextualize but MUST NOT drop auditor_findings — the preservation invariant is enforced post-hoc by scripts/confidence_rules.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "resumo_executivo",
+    "perspectives",
+    "auditor_findings",
+    "dissensos"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "resumo_executivo": {
+      "type": "string",
+      "minLength": 30,
+      "description": "3–5 sentence executive summary of the case state."
+    },
+    "perspectives": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["autor", "reu"],
+      "properties": {
+        "autor": { "$ref": "#/definitions/perspective" },
+        "reu": { "$ref": "#/definitions/perspective" }
+      }
+    },
+    "auditor_findings": {
+      "type": "array",
+      "description": "Findings from the auditor — MUST be a superset of the auditor input. confidence_rules.py enforces len(output) >= len(input).",
+      "items": {
+        "type": "object",
+        "required": ["tipo", "fundamento", "impacto", "descricao", "acao_sugerida"],
+        "additionalProperties": true
+      }
+    },
+    "dissensos": {
+      "type": "array",
+      "description": "Points where advogado-autor and advogado-reu disagreed substantively. Each item summarizes the contrast without taking sides.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tema", "posicao_autor", "posicao_reu"],
+        "properties": {
+          "tema": { "type": "string" },
+          "posicao_autor": { "type": "string" },
+          "posicao_reu": { "type": "string" },
+          "comentario_neutro": { "type": "string" }
+        }
+      }
+    },
+    "observacoes": { "type": "string" }
+  },
+  "definitions": {
+    "perspective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["risk_level", "risk_score", "forcas", "fraquezas", "recursos_cabiveis"],
+      "properties": {
+        "risk_level": {
+          "type": "string",
+          "enum": ["MUITO_BAIXO", "BAIXO", "MÉDIO", "ALTO", "MUITO_ALTO"]
+        },
+        "risk_score": { "type": "number", "minimum": 0.0, "maximum": 10.0 },
+        "forcas": { "type": "array", "items": { "type": "object" } },
+        "fraquezas": { "type": "array", "items": { "type": "object" } },
+        "recursos_cabiveis": { "type": "array", "items": { "type": "object" } }
+      }
+    }
+  }
+}

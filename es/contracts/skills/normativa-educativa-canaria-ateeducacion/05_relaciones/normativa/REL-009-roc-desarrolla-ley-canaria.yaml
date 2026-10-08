@@ -1,0 +1,10 @@
+id: REL-009
+tipo_relacion: "desarrolla"
+origen: NOR-009
+destino: NOR-004
+evidencia:
+  fuente: FTE-017
+  localizacion: "[PENDIENTE]"
+descripcion: "El Reglamento Orgánico de Centros (ROC) desarrolla los principios de organización y participación establecidos en la Ley Canaria de Educación (Ley 6/2014)."
+fecha_registro: 2026-04-26
+nivel_evidencia: "pendiente-verificacion"

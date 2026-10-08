@@ -1,0 +1,59 @@
+name: transferencia-vehiculos
+display_name: Compraventa de Vehículos Usados — Transferencia
+description: >
+  Guía completa sobre compraventa de vehículos usados en España:
+  proceso de transferencia (cambio de titular) en la DGT, documentación
+  necesaria (contrato, permiso de circulación, ficha técnica, ITV, DNI/NIE),
+  tramitación electrónica vs presencial vs gestoría, ITP sobre vehículos
+  usados (Modelo 620, tablas de valoración de Hacienda), comprobaciones
+  previas (cargas, embargos, multas pendientes), notificación de venta,
+  baja temporal y definitiva, e importación de vehículos.
+organization: Dirección General de Tráfico (DGT)
+tags: [vehículos, transferencia, compraventa, cambio de titular, DGT, ITP, modelo 620, contrato compraventa, importación, baja vehículo]
+
+links:
+  website: https://sede.dgt.gob.es/es/vehiculos/cambio-de-titularidad/
+  informe_vehiculo: https://sede.dgt.gob.es/es/vehiculos/informe-vehiculo/
+  notificacion_venta: https://sede.dgt.gob.es/es/vehiculos/notificacion-de-venta/
+
+license:
+  data: Información pública de la DGT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa sobre el proceso de compraventa y transferencia de
+    vehículos. No accede a APIs de datos ni realiza trámites. Para detalle
+    sobre ITP usar fiscalidad-itp-ajd; para ITV usar itv; para permisos
+    de conducir usar carnet-conducir.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Proceso completo de transferencia (cambio de titular) paso a paso
+    - Documentación necesaria para la transferencia en la DGT
+    - Comprobaciones previas del comprador (informe DGT, cargas, embargos)
+    - Contenido mínimo del contrato de compraventa
+    - ITP sobre vehículos usados (Modelo 620, base imponible, tipo, plazo)
+    - Vías de tramitación (electrónica, presencial, gestoría)
+    - Notificación de venta (protección del vendedor)
+    - Baja temporal y definitiva de vehículos
+    - Importación de vehículos (UE y extra-UE)
+    - Tasas DGT para transferencias
+  not_accessible:
+    - Tramitación real de transferencias (requiere Cl@ve/certificado)
+    - Datos de un vehículo concreto (informe DGT requiere pago y autenticación)
+    - Tablas de valoración exactas de Hacienda (varían por año)
+    - Normativa ITP por comunidad autónoma en detalle (usar fiscalidad-itp-ajd)
+    - ITV del vehículo (usar skill itv)
+    - Permisos de conducir (usar skill carnet-conducir)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

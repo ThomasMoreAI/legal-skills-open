@@ -1,0 +1,21 @@
+{
+  "name": "pa-corporate",
+  "displayName": "Corporate — PA",
+  "version": "0.1.0",
+  "description": "Corporate skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/constitucion-4102-betobetico",
+    "skills/entrevista-inicial-societario-betobetico",
+    "skills/entrevista-inicial-startups-3696-betobetico",
+    "skills/extraccion-incidencias-betobetico",
+    "skills/incentivos-betobetico",
+    "skills/revision-tabular-betobetico",
+    "skills/ronda-4125-betobetico",
+    "skills/stock-options-betobetico"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cl-general",
+  "displayName": "General — CL",
+  "version": "0.1.0",
+  "description": "General skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-chile-orwel",
+    "skills/analisis-jurisprudencial-chile-orwel",
+    "skills/chilean-forensic-evidence-elpabloultron",
+    "skills/due-diligence-general-chile-orwel",
+    "skills/elaboracion-concepto-juridico-chile-orwel",
+    "skills/investigacion-juridica-chile-orwel"
+  ]
+}

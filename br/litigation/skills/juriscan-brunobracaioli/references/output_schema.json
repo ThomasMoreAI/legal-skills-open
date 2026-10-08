@@ -1,0 +1,298 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ForensicLegalAnalysis",
+  "description": "Schema v2 — Output da análise forense de processo jurídico brasileiro",
+  "type": "object",
+  "properties": {
+    "analysis_version": { "type": "string", "const": "2.0" },
+    "processo_number": { "type": ["string", "null"], "description": "Número CNJ do processo" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "pdf_info": {
+      "type": "object",
+      "properties": {
+        "pages": { "type": "integer" },
+        "file_size_mb": { "type": "number" },
+        "title": { "type": ["string", "null"] }
+      }
+    },
+    "processo_metadata": {
+      "type": "object",
+      "description": "Metadados consolidados do processo",
+      "properties": {
+        "classe_processual": { "type": ["string", "null"] },
+        "assunto_principal": { "type": ["string", "null"] },
+        "comarca": { "type": ["string", "null"] },
+        "vara": { "type": ["string", "null"] },
+        "fase_atual": {
+          "type": ["string", "null"],
+          "enum": ["conhecimento", "recursal", "executiva", "encerrado", null]
+        },
+        "instancia_atual": {
+          "type": ["string", "null"],
+          "enum": ["1a_instancia", "tj", "stj", "stf", null]
+        },
+        "distribuicao_date": { "type": ["string", "null"], "description": "ISO 8601" }
+      }
+    },
+    "integrity_report": {
+      "type": "object",
+      "description": "Relatório de integridade documental",
+      "properties": {
+        "overall_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "ocr_scores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "chunk_index": { "type": "integer" },
+              "label": { "type": "string" },
+              "score": { "type": "number" }
+            }
+          }
+        },
+        "anomalies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tipo": { "type": "string" },
+              "descricao": { "type": "string" },
+              "impacto": { "type": "string", "enum": ["ALTO", "MÉDIO", "BAIXO"] }
+            }
+          }
+        },
+        "page_gaps": { "type": "array", "items": { "type": "object" } }
+      }
+    },
+    "total_chunks": { "type": "integer" },
+    "chunks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": { "type": "integer" },
+          "label": { "type": "string", "description": "Tipo da peça processual" },
+          "tipo_peca": { "type": "string" },
+          "data": { "type": ["string", "null"], "description": "DD/MM/YYYY" },
+          "primary_date": { "type": ["string", "null"] },
+          "char_count": { "type": "integer" },
+          "instancia": {
+            "type": ["string", "null"],
+            "enum": ["1a_instancia", "tj", "stj", "stf", null],
+            "description": "Instância judicial a que pertence esta peça"
+          },
+          "confidence_score": {
+            "type": ["number", "null"],
+            "minimum": 0, "maximum": 1,
+            "description": "OCR/extraction confidence"
+          },
+          "partes": {
+            "type": "object",
+            "properties": {
+              "autor": { "type": "array", "items": { "type": "string" } },
+              "reu": { "type": "array", "items": { "type": "string" } },
+              "advogados_autor": { "type": "array", "items": { "type": "string" } },
+              "advogados_reu": { "type": "array", "items": { "type": "string" } },
+              "juiz": { "type": ["string", "null"] },
+              "vara": { "type": ["string", "null"] },
+              "perito": { "type": ["string", "null"] }
+            }
+          },
+          "numero_processo": { "type": ["string", "null"] },
+          "classe_processual": { "type": ["string", "null"] },
+          "assunto": { "type": "string" },
+          "pedidos": { "type": "array", "items": { "type": "string" } },
+          "argumentos_chave": { "type": "array", "items": { "type": "string" } },
+          "decisao": { "type": ["string", "null"] },
+          "valores": {
+            "type": "object",
+            "properties": {
+              "causa": { "type": ["string", "null"] },
+              "condenacao": { "type": ["string", "null"] },
+              "honorarios": { "type": ["string", "null"] },
+              "outros": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "descricao": { "type": "string" },
+                    "valor": { "type": "string" }
+                  }
+                }
+              }
+            }
+          },
+          "artigos_lei": { "type": "array", "items": { "type": "string" } },
+          "jurisprudencia": { "type": "array", "items": { "type": "string" } },
+          "prazos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipo": { "type": "string" },
+                "data_inicio": { "type": ["string", "null"] },
+                "data_fim": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "fatos_relevantes": { "type": "array", "items": { "type": "string" } },
+          "resumo": { "type": "string" },
+          "citation_spans": {
+            "type": "array",
+            "description": "Trechos do texto original que fundamentam cada afirmação",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assertion": { "type": "string" },
+                "source_text": { "type": "string" },
+                "char_start": { "type": "integer" },
+                "char_end": { "type": "integer" }
+              }
+            }
+          },
+          "binding_precedents": {
+            "type": "array",
+            "description": "Precedentes vinculantes detectados",
+            "items": {
+              "type": "object",
+              "properties": {
+                "tipo": {
+                  "type": "string",
+                  "enum": ["SUMULA_VINCULANTE", "IRDR", "IAC", "REPERCUSSAO_GERAL", "RECURSO_REPETITIVO"]
+                },
+                "numero": { "type": "string" },
+                "tribunal": { "type": "string" },
+                "tese": { "type": "string" },
+                "alinhamento": {
+                  "type": "string",
+                  "enum": ["FAVORAVEL_AUTOR", "FAVORAVEL_REU", "NEUTRO", "INAPLICAVEL"]
+                }
+              }
+            }
+          },
+          "acordao_structure": {
+            "type": ["object", "null"],
+            "description": "Estrutura tripartite de acórdão (quando aplicável)",
+            "properties": {
+              "ementa": { "type": ["string", "null"] },
+              "relatorio": { "type": ["string", "null"] },
+              "voto_relator": { "type": ["string", "null"] },
+              "votos_divergentes": { "type": "array", "items": { "type": "string" } },
+              "dispositivo": { "type": ["string", "null"] },
+              "resultado": {
+                "type": ["string", "null"],
+                "enum": ["PROVIDO", "DESPROVIDO", "PARCIALMENTE_PROVIDO", "NÃO_CONHECIDO", null]
+              },
+              "votacao": {
+                "type": ["string", "null"],
+                "enum": ["UNÂNIME", "MAIORIA", null]
+              }
+            }
+          }
+        },
+        "required": ["index", "label"]
+      }
+    },
+    "instance_tracking": {
+      "type": "object",
+      "description": "Rastreamento de argumentos entre instâncias",
+      "properties": {
+        "instances": {
+          "type": "object",
+          "properties": {
+            "1a_instancia": { "type": "object" },
+            "tj": { "type": "object" },
+            "stj": { "type": "object" },
+            "stf": { "type": "object" }
+          }
+        },
+        "argument_tracks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "argumento": { "type": "string" },
+              "primeira_aparicao": { "type": "object" },
+              "evolucao": { "type": "array", "items": { "type": "object" } },
+              "status_final": {
+                "type": "string",
+                "enum": ["mantido", "reformado", "parcialmente_reformado", "não_apreciado"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "prazos_calculados": {
+      "type": "array",
+      "description": "Prazos processuais calculados conforme CPC",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tipo": { "type": "string" },
+          "fundamento_legal": { "type": "string" },
+          "data_intimacao": { "type": "string", "description": "ISO 8601" },
+          "data_limite": { "type": "string", "description": "ISO 8601" },
+          "dias": { "type": "integer" },
+          "unidade": { "type": "string", "enum": ["úteis", "corridos"] },
+          "status": { "type": "string", "enum": ["em_prazo", "vencido", "ultimo_dia"] },
+          "dias_restantes": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "risk_assessment": {
+      "type": "object",
+      "description": "Avaliação de risco litigioso",
+      "properties": {
+        "risk_level": { "type": "string", "enum": ["ALTO", "MÉDIO", "BAIXO"] },
+        "overall_score": { "type": "number", "minimum": 0, "maximum": 10 },
+        "procedural_risk": { "type": "object" },
+        "merit_indicators": { "type": "object" },
+        "monetary_exposure": {
+          "type": "object",
+          "properties": {
+            "max_exposure": { "type": ["string", "null"] },
+            "likely_range": {
+              "type": "object",
+              "properties": {
+                "min": { "type": ["string", "null"] },
+                "max": { "type": ["string", "null"] }
+              }
+            },
+            "costs": { "type": "object" }
+          }
+        },
+        "strategic_recommendations": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": ["FATO_DIVERGENTE", "VALOR_INCONSISTENTE", "DATA_CONFLITANTE", "ARGUMENTO_CONTRADITÓRIO", "JURISPRUDÊNCIA_CONFLITANTE"]
+          },
+          "impacto": { "type": "string", "enum": ["ALTO", "MÉDIO", "BAIXO"] },
+          "pecas": { "type": "array", "items": { "type": "string" } },
+          "descricao": { "type": "string" },
+          "sugestao": { "type": "string" },
+          "citation_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "peca": { "type": "string" },
+                "source_text": { "type": "string" },
+                "char_start": { "type": "integer" },
+                "char_end": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["chunks"]
+}

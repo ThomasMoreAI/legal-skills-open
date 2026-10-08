@@ -1,0 +1,11 @@
+id: REL-020
+tipo_relacion: "desarrolla"
+origen: NOR-024
+destino: NOR-004
+descripcion: "El Decreto 25/2018 desarrolla en Canarias el marco de atención a la diversidad previsto por la Ley Canaria de Educación."
+evidencia:
+  fuente: FTE-027
+  localizacion: "Preámbulo y artículo 1"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

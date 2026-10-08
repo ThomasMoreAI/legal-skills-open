@@ -1,0 +1,236 @@
+{
+  "piece_types": {
+    "PETIÇÃO INICIAL": {
+      "phase": "postulatória",
+      "polo": "ativo",
+      "instance": "1a_instancia",
+      "aliases": ["EXORDIAL", "INICIAL"],
+      "expected_fields": ["pedidos", "fatos_relevantes", "valores.causa", "artigos_lei"],
+      "typical_char_range": [5000, 50000]
+    },
+    "CONTESTAÇÃO": {
+      "phase": "postulatória",
+      "polo": "passivo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["argumentos_chave", "fatos_relevantes", "artigos_lei"],
+      "typical_char_range": [3000, 40000]
+    },
+    "RÉPLICA": {
+      "phase": "postulatória",
+      "polo": "ativo",
+      "instance": "1a_instancia",
+      "aliases": ["IMPUGNAÇÃO À CONTESTAÇÃO"],
+      "expected_fields": ["argumentos_chave", "fatos_relevantes"],
+      "typical_char_range": [2000, 20000]
+    },
+    "RECONVENÇÃO": {
+      "phase": "postulatória",
+      "polo": "passivo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["pedidos", "fatos_relevantes", "valores.causa"],
+      "typical_char_range": [3000, 30000]
+    },
+    "ATA DE AUDIÊNCIA": {
+      "phase": "instrutória",
+      "polo": "juízo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["fatos_relevantes", "decisao"],
+      "typical_char_range": [500, 15000]
+    },
+    "LAUDO PERICIAL": {
+      "phase": "instrutória",
+      "polo": "neutro",
+      "instance": "1a_instancia",
+      "aliases": ["PERÍCIA", "LAUDO DO PERITO"],
+      "expected_fields": ["fatos_relevantes", "resumo"],
+      "typical_char_range": [5000, 100000]
+    },
+    "PARECER MP": {
+      "phase": "instrutória",
+      "polo": "neutro",
+      "instance": "any",
+      "aliases": ["PARECER DO MINISTÉRIO PÚBLICO", "PARECER DA PROCURADORIA"],
+      "expected_fields": ["argumentos_chave", "artigos_lei"],
+      "typical_char_range": [2000, 30000]
+    },
+    "SENTENÇA": {
+      "phase": "decisória",
+      "polo": "juízo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["decisao", "valores.condenacao", "artigos_lei", "jurisprudencia"],
+      "typical_char_range": [3000, 50000]
+    },
+    "ACÓRDÃO": {
+      "phase": "decisória",
+      "polo": "juízo",
+      "instance": "tj_or_superior",
+      "has_tripartite_structure": true,
+      "aliases": [],
+      "expected_fields": ["decisao", "jurisprudencia", "acordao_structure"],
+      "typical_char_range": [3000, 80000]
+    },
+    "DESPACHO": {
+      "phase": "decisória",
+      "polo": "juízo",
+      "instance": "any",
+      "aliases": ["DECISÃO INTERLOCUTÓRIA"],
+      "expected_fields": ["decisao"],
+      "typical_char_range": [200, 5000]
+    },
+    "APELAÇÃO": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "tj",
+      "aliases": [],
+      "expected_fields": ["argumentos_chave", "pedidos", "artigos_lei"],
+      "typical_char_range": [5000, 50000]
+    },
+    "AGRAVO": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "any",
+      "aliases": ["AGRAVO DE INSTRUMENTO", "AGRAVO INTERNO"],
+      "expected_fields": ["argumentos_chave", "pedidos"],
+      "typical_char_range": [3000, 30000]
+    },
+    "EMBARGOS": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "any",
+      "aliases": ["EMBARGOS DE DECLARAÇÃO", "EMBARGOS INFRINGENTES", "EMBARGOS DE TERCEIRO"],
+      "expected_fields": ["argumentos_chave"],
+      "typical_char_range": [1000, 15000]
+    },
+    "RECURSO ESPECIAL": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "stj",
+      "aliases": ["RESP"],
+      "expected_fields": ["argumentos_chave", "artigos_lei", "jurisprudencia"],
+      "typical_char_range": [5000, 50000]
+    },
+    "RECURSO EXTRAORDINÁRIO": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "stf",
+      "aliases": ["RE"],
+      "expected_fields": ["argumentos_chave", "artigos_lei", "jurisprudencia"],
+      "typical_char_range": [5000, 50000]
+    },
+    "CONTRARRAZÕES": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "any",
+      "aliases": [],
+      "expected_fields": ["argumentos_chave", "artigos_lei"],
+      "typical_char_range": [3000, 30000]
+    },
+    "MEMORIAIS": {
+      "phase": "recursal",
+      "polo": "any",
+      "instance": "any",
+      "aliases": ["RAZÕES FINAIS", "ALEGAÇÕES FINAIS"],
+      "expected_fields": ["argumentos_chave", "pedidos"],
+      "typical_char_range": [3000, 30000]
+    },
+    "CUMPRIMENTO DE SENTENÇA": {
+      "phase": "executória",
+      "polo": "ativo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["valores.condenacao", "prazos"],
+      "typical_char_range": [2000, 15000]
+    },
+    "IMPUGNAÇÃO AO CUMPRIMENTO": {
+      "phase": "executória",
+      "polo": "passivo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["argumentos_chave", "valores"],
+      "typical_char_range": [2000, 15000]
+    },
+    "PENHORA": {
+      "phase": "executória",
+      "polo": "juízo",
+      "instance": "1a_instancia",
+      "aliases": ["TERMO DE PENHORA", "AUTO DE PENHORA"],
+      "expected_fields": ["valores"],
+      "typical_char_range": [500, 5000]
+    },
+    "ALVARÁ": {
+      "phase": "executória",
+      "polo": "juízo",
+      "instance": "1a_instancia",
+      "aliases": [],
+      "expected_fields": ["valores"],
+      "typical_char_range": [500, 3000]
+    },
+    "MANDADO/CARTA": {
+      "phase": "comunicação",
+      "polo": "juízo",
+      "instance": "any",
+      "aliases": ["MANDADO DE CITAÇÃO", "CARTA PRECATÓRIA"],
+      "expected_fields": ["prazos"],
+      "typical_char_range": [500, 5000]
+    },
+    "CERTIDÃO": {
+      "phase": "comunicação",
+      "polo": "juízo",
+      "instance": "any",
+      "aliases": [],
+      "expected_fields": [],
+      "typical_char_range": [200, 3000]
+    },
+    "OFÍCIO": {
+      "phase": "comunicação",
+      "polo": "juízo",
+      "instance": "any",
+      "aliases": [],
+      "expected_fields": [],
+      "typical_char_range": [200, 3000]
+    },
+    "PROCURAÇÃO": {
+      "phase": "comunicação",
+      "polo": "any",
+      "instance": "any",
+      "aliases": ["SUBSTABELECIMENTO"],
+      "expected_fields": [],
+      "typical_char_range": [200, 3000]
+    },
+    "TUTELA": {
+      "phase": "postulatória",
+      "polo": "ativo",
+      "instance": "any",
+      "aliases": ["TUTELA ANTECIPADA", "TUTELA DE URGÊNCIA", "TUTELA PROVISÓRIA"],
+      "expected_fields": ["pedidos", "argumentos_chave"],
+      "typical_char_range": [2000, 15000]
+    },
+    "LIMINAR/CAUTELAR": {
+      "phase": "postulatória",
+      "polo": "ativo",
+      "instance": "any",
+      "aliases": ["LIMINAR", "MEDIDA CAUTELAR"],
+      "expected_fields": ["pedidos", "argumentos_chave"],
+      "typical_char_range": [2000, 15000]
+    },
+    "DOCUMENTO_COMPLETO": {
+      "phase": "unknown",
+      "polo": "unknown",
+      "instance": "unknown",
+      "aliases": [],
+      "expected_fields": [],
+      "typical_char_range": [100, 1000000]
+    }
+  },
+  "phases_order": ["postulatória", "instrutória", "decisória", "recursal", "executória", "comunicação"],
+  "polo_classification": {
+    "ativo": ["PETIÇÃO INICIAL", "RÉPLICA", "APELAÇÃO", "MEMORIAIS", "CUMPRIMENTO DE SENTENÇA", "TUTELA", "LIMINAR/CAUTELAR"],
+    "passivo": ["CONTESTAÇÃO", "RECONVENÇÃO", "CONTRARRAZÕES", "IMPUGNAÇÃO AO CUMPRIMENTO"],
+    "juízo": ["SENTENÇA", "ACÓRDÃO", "DESPACHO", "ATA DE AUDIÊNCIA", "PENHORA", "ALVARÁ", "MANDADO/CARTA", "CERTIDÃO", "OFÍCIO"],
+    "neutro": ["LAUDO PERICIAL", "PARECER MP"]
+  }
+}

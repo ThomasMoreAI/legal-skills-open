@@ -1,0 +1,18 @@
+{
+  "name": "pe-general",
+  "displayName": "General — PE",
+  "version": "0.1.0",
+  "description": "General skills for PE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pe",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-peru-orwel",
+    "skills/analisis-jurisprudencial-peru-orwel",
+    "skills/due-diligence-general-peru-orwel",
+    "skills/elaboracion-concepto-juridico-peru-orwel",
+    "skills/investigacion-juridica-peru-orwel"
+  ]
+}

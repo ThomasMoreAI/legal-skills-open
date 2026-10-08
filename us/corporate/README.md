@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 
-## Skills (112)
+## Skills (115)
 
 | Skill | What it does |
 |---|---|
@@ -35,6 +35,8 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Closing Resolutions`](skills/closing-resolutions/) | Drafts unanimous written consent resolutions authorizing a buyer or seller entity to execute an asset… |
 | [`Code of Business Conduct and Ethics`](skills/code-of-conduct/) | Drafts a Code of Business Conduct and Ethics satisfying SEC, SOX §406, and exchange listing… |
 | [`Code of Conduct and Ethics`](skills/code-of-conduct-and-ethics/) | Drafts a U.S. corporate Code of Business Conduct and Ethics with governance controls, enforcement… |
+| [`Configurar mi información legal`](skills/configurar-mi-informacion-legal-gethouston/) | Cuéntame lo básico sobre tu empresa para poder darte una mejor asesoría legal. Te hago unas cuantas… |
+| [`Configurar minhas informações jurídicas`](skills/configurar-minhas-informacoes-juridicas-gethouston/) | Me conte o básico sobre a sua empresa para que eu possa te dar uma assessoria jurídica melhor. Eu faço… |
 | [`Conflict of Interest Policy`](skills/conflict-of-interest-policy/) | Drafts U.S. corporate and nonprofit conflict-of-interest policies with disclosure mechanics… |
 | [`Corporate Practice`](skills/corporate/) | Advises on corporate law matters including entity formation, governance, finance, M&A, securities… |
 | [`Corporate Bylaws`](skills/corporate-bylaws/) | Drafts complete U.S. corporate bylaws harmonized with Articles of Incorporation and tailored to state… |
@@ -74,6 +76,7 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Initial Board Resolutions`](skills/initial-board-resolutions/) | Drafts initial board resolutions (organizational meeting minutes) for newly formed U.S. corporations.… |
 | [`Client Intake Summary (Corporate)`](skills/intake-summary/) | Produces a structured U.S. corporate client intake summary from intake forms, consultation notes, and… |
 | [`Jurisdiction Advisor`](skills/jurisdiction-advisor/) | Advise startup founders on choosing the best jurisdiction and legal entity for their business. Triggers… |
+| [`Kevin — Your Legal Sidekick for AI Startups`](skills/kevin-kcass16/) | Kevin is your AI legal sidekick for AI startups. Use this skill for ANY legal, compliance, or regulatory… |
 | [`SaaS Legal & Business Formation`](skills/legal-whawkinsiv/) | Use this skill when the user needs to form a business entity, choose between LLC and C-Corp, create… |
 | [`Letter of Intent (LOI)`](skills/letter-of-intent/) | Drafts corporate Letters of Intent for M&A and business transactions, structuring binding vs.… |
 | [`Letter of Intent (LOI)`](skills/letter-of-intent-loi/) | Drafts U.S. corporate transaction Letters of Intent (LOI) for mergers, acquisitions, investments, and… |

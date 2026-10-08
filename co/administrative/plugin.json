@@ -1,0 +1,18 @@
+{
+  "name": "co-administrative",
+  "displayName": "Administrative Procedure & Public Services — CO",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills for CO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/derecho-peticion-orwel",
+    "skills/nulidad-restablecimiento-orwel",
+    "skills/pp-anexos-cespial",
+    "skills/queja-disciplinaria-orwel",
+    "skills/recurso-reposicion-apelacion-orwel"
+  ]
+}

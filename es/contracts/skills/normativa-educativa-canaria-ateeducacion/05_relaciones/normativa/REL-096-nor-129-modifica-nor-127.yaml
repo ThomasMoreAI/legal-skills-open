@@ -1,0 +1,12 @@
+id: REL-096
+tipo_relacion: modifica
+origen: NOR-129
+destino: NOR-127
+descripcion: Añade la recogida excepcional de menores por sus hermanos o hermanas menores con autorización y valoración de
+  circunstancias.
+evidencia:
+  fuente: FTE-136
+  localizacion: Punto 1, p. 1, Anexo I.3.7
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

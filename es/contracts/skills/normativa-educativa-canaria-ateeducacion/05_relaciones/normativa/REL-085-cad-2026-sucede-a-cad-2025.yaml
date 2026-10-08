@@ -1,0 +1,11 @@
+id: REL-085
+tipo_relacion: "relaciona"
+origen: NOR-073
+destino: NOR-098
+descripcion: "La Resolución de 25 de junio de 2026 sobre los cursos de acceso directo CAD2 y CAD3 sucede a la Resolución de 9 de julio de 2025 de igual objeto para el curso 2025-2026, sin derogarla expresamente."
+evidencia:
+  fuente: FTE-080
+  localizacion: "Antecedentes de hecho de la Resolución de 25 de junio de 2026, que cita la de 9 de julio de 2025."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "[INTERPRETACIÓN] Se registra como relación, no como derogación: el texto no deroga expresamente la anterior, sólo la desplaza de hecho al regular el curso siguiente."

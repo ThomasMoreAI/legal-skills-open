@@ -4,10 +4,11 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `gb` · Practice: `corporate` · Skill language: en
 
-## Skills (9)
+## Skills (10)
 
 | Skill | What it does |
 |---|---|
+| [`Basel 3.1 — PRA PS1/26 Regulatory Reference`](skills/basel31-openafterhours/) | Look up Basel 3.1 / PRA PS1/26 credit risk rules. Use when you need new SA risk weights (including RE… |
 | [`Companies house UK`](skills/companies-house-uk-nolpak14/) | Look up UK companies for free via the official Companies House public REST API - company profile… |
 | [`Connector — Companies House UK`](skills/connector-companies-house-uk-sboghossian/) | Use when a lawyer or due-diligence analyst needs to retrieve corporate information about a UK-registered… |
 | [`Corporate registry investigation`](skills/corporate-registry-investigation/) | Use when users say "Companies House search", "investigate this UK company", "check… |

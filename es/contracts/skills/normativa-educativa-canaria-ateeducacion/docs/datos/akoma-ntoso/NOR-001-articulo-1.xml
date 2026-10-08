@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2006-05-03/2">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2006-05-03/2/!art_1"/>
+          <FRBRuri value="/akn/es/act/2006-05-03/2"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/lo/2006/05/03/2/con"/>
+          <FRBRdate date="2006-05-03" name="Generation"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="2"/>
+          <FRBRname value="Ley Orgánica"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2006-05-03/2/spa@/!art_1"/>
+          <FRBRuri value="/akn/es/act/2006-05-03/2/spa@"/>
+          <FRBRdate date="2020-12-30" name="Publication"/>
+          <FRBRauthor href="#jefatura-estado"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2006-05-03/2/spa@/xml/!art_1"/>
+          <FRBRuri value="/akn/es/act/2006-05-03/2/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="jefatura-estado" href="https://www.boe.es/" showAs="Jefatura del Estado"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_1">
+        <num>Artículo 1.</num>
+        <heading>Principios.</heading>
+        <paragraph eId="art_1__para_1">
+          <content><p>El sistema educativo español, configurado de acuerdo con los valores de la Constitución y asentado en el respeto a los derechos y libertades reconocidos en ella, se inspira en los siguientes principios: El sistema educativo español, configurado de acuerdo con los valores de la Constitución y asentado en el respeto a los derechos y libertades reconocidos en ella, se inspira en los siguientes principios:</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_2">
+          <num>a)</num>
+          <content><p>El cumplimiento efectivo de los derechos de la infancia según lo establecido en la Convención sobre los Derechos del Niño, adoptada por Naciones Unidas el 20 de noviembre de 1989, ratificada el 30 de noviembre de 1990, y sus Protocolos facultativos, reconociendo el interés superior del menor, su derecho a la educación, a no ser discriminado y a participar en las decisiones que les afecten y la obligación del Estado de asegurar sus derechos.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_3">
+          <num>a bis)</num>
+          <content><p>La calidad de la educación para todo el alumnado, sin que exista discriminación alguna por razón de nacimiento, sexo, origen racial, étnico o geográfico, discapacidad, edad, enfermedad, religión o creencias, orientación sexual o identidad sexual o cualquier otra condición o circunstancia personal o social.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_4">
+          <num>b)</num>
+          <content><p>La equidad, que garantice la igualdad de oportunidades para el pleno desarrollo de la personalidad a través de la educación, la inclusión educativa, la igualdad de derechos y oportunidades, también entre mujeres y hombres, que ayuden a superar cualquier discriminación y la accesibilidad universal a la educación, y que actúe como elemento compensador de las desigualdades personales, culturales, económicas y sociales, con especial atención a las que se deriven de cualquier tipo de discapacidad, de acuerdo con lo establecido en la Convención sobre los Derechos de las Personas con Discapacidad, ratificada en 2008, por España.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_5">
+          <num>c)</num>
+          <content><p>La transmisión y puesta en práctica de valores que favorezcan la libertad personal, la responsabilidad, la ciudadanía democrática, la solidaridad, la tolerancia, la igualdad, el respeto y la justicia, así como que ayuden a superar cualquier tipo de discriminación.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_6">
+          <num>d)</num>
+          <content><p>La concepción de la educación como un aprendizaje permanente, que se desarrolla a lo largo de toda la vida.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_7">
+          <num>e)</num>
+          <content><p>La flexibilidad para adecuar la educación a la diversidad de aptitudes, intereses, expectativas y necesidades del alumnado, así como a los cambios que experimentan el alumnado y la sociedad.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_8">
+          <num>f)</num>
+          <content><p>La orientación educativa y profesional de los estudiantes, como medio necesario para el logro de una formación personalizada, que propicie una educación integral en conocimientos, destrezas y valores.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_9">
+          <num>g)</num>
+          <content><p>El esfuerzo individual y la motivación del alumnado.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_10">
+          <num>h)</num>
+          <content><p>El esfuerzo compartido por alumnado, familias, profesores, centros, Administraciones, instituciones y el conjunto de la sociedad.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_11">
+          <num>h bis)</num>
+          <content><p>El reconocimiento del papel que corresponde a los padres, madres y tutores legales como primeros responsables de la educación de sus hijos.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_12">
+          <num>i)</num>
+          <content><p>La autonomía para establecer y adecuar las actuaciones organizativas y curriculares en el marco de las competencias y responsabilidades que corresponden al Estado, a las Comunidades Autónomas, a las corporaciones locales y a los centros educativos.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_13">
+          <num>j)</num>
+          <content><p>La participación de la comunidad educativa en la organización, gobierno y funcionamiento de los centros docentes.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_14">
+          <num>k)</num>
+          <content><p>La educación para la convivencia, el respeto, la prevención de conflictos y la resolución pacífica de los mismos, así como para la no violencia en todos los ámbitos de la vida personal, familiar y social, y en especial en el del acoso escolar y ciberacoso con el fin de ayudar al alumnado a reconocer toda forma de maltrato, abuso sexual, violencia o discriminación y reaccionar frente a ella.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_15">
+          <num>l)</num>
+          <content><p>El desarrollo de la igualdad de derechos, deberes y oportunidades, el respeto a la diversidad afectivo-sexual y familiar, el fomento de la igualdad efectiva de mujeres y hombres a través de la consideración del régimen de la coeducación de niños y niñas, la educación afectivo-sexual, adaptada al nivel madurativo, y la prevención de la violencia de género, así como el fomento del espíritu crítico y la ciudadanía activa.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_16">
+          <num>m)</num>
+          <content><p>La consideración de la función docente como factor esencial de la calidad de la educación, el reconocimiento social del profesorado y el apoyo a su tarea.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_17">
+          <num>n)</num>
+          <content><p>El fomento y la promoción de la investigación, la experimentación y la innovación educativa. ñ) La evaluación del conjunto del sistema educativo, tanto en su programación y organización y en los procesos de enseñanza y aprendizaje como en sus resultados.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_18">
+          <num>o)</num>
+          <content><p>La cooperación entre el Estado y las Comunidades Autónomas en la definición, aplicación y evaluación de las políticas educativas.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_19">
+          <num>p)</num>
+          <content><p>La cooperación y colaboración de las Administraciones educativas con las corporaciones locales en la planificación e implementación de la política educativa.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_20">
+          <num>q)</num>
+          <content><p>La libertad de enseñanza, que reconozca el derecho de los padres, madres y tutores legales a elegir el tipo de educación y el centro para sus hijos, en el marco de los principios constitucionales.</p></content>
+        </paragraph>
+        <paragraph eId="art_1__para_21">
+          <num>r)</num>
+          <content><p>La educación para la transición ecológica con criterios de justicia social como contribución a la sostenibilidad ambiental, social y económica.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

@@ -1,0 +1,58 @@
+name: laboral-desempleo
+display_name: Prestación por desempleo
+description: >
+  Guía completa sobre la prestación por desempleo en España: prestación
+  contributiva (requisitos, duración, cuantía), subsidio por desempleo
+  (modalidades), Renta Activa de Inserción (RAI), Ingreso Mínimo Vital
+  (IMV), capitalización del desempleo (pago único para emprender), cómo
+  solicitar la prestación, obligaciones del perceptor y compatibilidad
+  con trabajo.
+organization: Servicio Público de Empleo Estatal (SEPE) / Ministerio de Trabajo y Economía Social
+tags: [laboral, desempleo, paro, prestación contributiva, subsidio, RAI, IMV, capitalización, SEPE, IPREM]
+
+links:
+  prestaciones_sepe: https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones.html
+  cobrar_paro: https://www.sepe.es/HomeSepe/Personas/distributiva-prestaciones/quiero-cobrar-el-paro.html
+  capitalizacion: https://www.sepe.es/HomeSepe/autonomos/capitaliza-tu-prestacion.html
+  imv: https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/72702
+
+license:
+  data: Información pública del SEPE y Seguridad Social
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación sobre prestaciones por desempleo.
+    No accede a APIs de datos ni gestiona solicitudes. Proporciona una
+    visión completa del sistema de protección por desempleo (contributiva,
+    asistencial, RAI, IMV) y redirige a skills hermanas para estadísticas
+    de paro, contratos, nóminas, etc.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Prestación contributiva (requisitos, duración, cuantía, topes)
+    - Subsidio por desempleo (modalidades, requisitos, cuantía)
+    - Renta Activa de Inserción (RAI)
+    - Ingreso Mínimo Vital (IMV) — orientación básica
+    - Capitalización del desempleo (pago único para emprender)
+    - Cómo solicitar la prestación (plazos, documentación)
+    - Obligaciones del perceptor (renovar demanda, etc.)
+    - Compatibilidad con trabajo a tiempo parcial y por cuenta propia
+    - IPREM como referencia para topes
+  not_accessible:
+    - Datos estadísticos de paro registrado (usar skill sepe)
+    - Gestión de solicitudes o trámites online (requiere Cl@ve/certificado)
+    - Tipos de contrato y despido (usar skill laboral-contratos)
+    - ERE/ERTE (usar skill laboral-ere-erte)
+    - Cálculo individualizado de la prestación
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

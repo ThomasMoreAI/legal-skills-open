@@ -1,0 +1,10 @@
+id: REL-073
+tipo_relacion: "desarrolla"
+origen: NOR-073
+destino: NOR-080
+descripcion: "La Resolución de 25 de junio de 2026 sobre los cursos de acceso directo CAD2 y CAD3 desarrolla los artículos 7.2, 108, 109, 112 y 113 del Real Decreto 659/2023."
+evidencia:
+  fuente: FTE-080
+  localizacion: "Fundamentos de derecho de la Resolución de 25 de junio de 2026."
+fecha_registro: 2026-08-05
+nivel_evidencia: "confirmado-fuente-primaria"

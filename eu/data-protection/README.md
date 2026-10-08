@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 
-## Skills (59)
+## Skills (67)
 
 | Skill | What it does |
 |---|---|
@@ -14,7 +14,10 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`AI System Pre-Deployment Privacy Checklist`](skills/ai-deployment-checklist/) | Pre-deployment privacy compliance checklist for AI/ML systems covering DPIA completion, lawful basis… |
 | [`AI Transparency Requirements`](skills/ai-transparency-reqs/) | Implements AI transparency requirements under EU AI Act Arts. 13-14 and GDPR Arts. 13-14. Covers user… |
 | [`Analisi fornitori — screening privacy del mastrino`](skills/analisi-fornitori-capazme/) | Usa questa skill quando il cliente invia il mastrino fornitori (o un elenco fatture/fornitori) e serve… |
+| [`User Input`](skills/arckit-eu-rgpd-tractorjuice/) | [COMMUNITY] Generate GDPR (EU 2016/679) compliance assessment for EU/EEA data processing — legal basis… |
+| [`User Input`](skills/arckit-fr-rgpd-tractorjuice/) | [COMMUNITY] Assess CNIL-specific GDPR obligations for French deployments — cookies, health data (HDS)… |
 | [`Audit GDPR Compliance`](skills/audit-gdpr-compliance-jeffreytse/) | Use when assessing an organization's compliance with the General Data Protection Regulation |
+| [`GOLDEN RULES`](skills/business-privacy-doc-generator-acaprino/) | Draft and audit data-protection documents from a ROPA-driven model. TRIGGER WHEN: the user needs a… |
 | [`/datenwirtschaftsrecht:cloud-anbieterwechsel`](skills/cloud-anbieterwechsel-borghei/) | Anbieterwechsel bei Datenverarbeitungsdiensten nach Kapitel VI der EU-Datenverordnung – Beseitigung von… |
 | [`/it-recht:cloud-auftragsverarbeitung`](skills/cloud-auftragsverarbeitung-borghei/) | Datenschutzkonforme Gestaltung der Cloud-Nutzung: Auftragsverarbeitung nach Art. 28 DSGVO, technische… |
 | [`Cold-start privacy`](skills/cold-start-privacy-pixari/) | Intervista cold-start per profilo privacy: ruoli GDPR, sistemi, processo DSAR, template informativa/DPA.… |
@@ -27,12 +30,15 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`/datenwirtschaftsrecht:data-act-vertragsklauseln`](skills/data-act-vertragsklauseln-borghei/) | Vertragsgestaltung und Klauselkontrolle nach der EU-Datenverordnung – Bedingungen der Bereitstellung an… |
 | [`Data Breach`](skills/data-breach-capazme/) | Gestione data breach GDPR con valutazione rischio, notifica al Garante entro 72h e stima sanzioni. Usa… |
 | [`Data Breach Response`](skills/data-breach-response-borghei/) | Data breach incident response with ENISA severity scoring, notification timelines, and compliance… |
+| [`Data policy`](skills/data-policy-ericrisco/) | Use when building internal data-governance machinery: a retention schedule (period, lawful basis, expiry… |
 | [`/datenwirtschaftsrecht:datenzugang-oeffentliche-stellen`](skills/datenzugang-oeffentliche-stellen-borghei/) | Datenzugang öffentlicher Stellen und Datenintermediäre – Bereitstellungspflicht wegen außergewöhnlicher… |
 | [`Design Data Retention`](skills/design-data-retention-jeffreytse/) | Use when establishing or reviewing a data retention and deletion policy for personal or business data |
 | [`Design GDPR Compliance Program`](skills/design-gdpr-compliance-program-jeffreytse/) | Use when designing or auditing a GDPR compliance program for an organization that processes personal… |
 | [`DPIA Assessment`](skills/dpia-assessment-borghei/) | GDPR Art. 35 Data Protection Impact Assessment with threshold checking, risk registers, and EDPB… |
 | [`DPIA Documenter`](skills/dpia-documenter-rohasnagpal/) | Screen, conduct, and document data-protection or privacy impact assessments for new or changed… |
 | [`Data Processing Agreement (GDPR — Article 28)`](skills/draft-dpa-gdpr-sboghossian/) | Use when drafting a Data Processing Agreement (DPA) compliant with GDPR Article 28. Covers all mandatory… |
+| [`EU AI Act Compliance Audit`](skills/eu-ai-act-audit-aios-labs/) | Perform a full codebase audit for EU AI Act (Regulation 2024/1689) compliance. This skill scans the… |
+| [`When to Use`](skills/eu-gdpr-felipepepe-ai-labs/) | Apply GDPR when handling EU personal data. Trigger: personal data, user fields, cookies, tracking… |
 | [`Fascicolo privacy (matter workspace)`](skills/fascicolo-privacy-pixari/) | Matter workspace privacy: fascicoli DSAR, DPA, violazioni, DPIA. Struttura cartelle, matter.md… |
 | [`Gap normativo privacy`](skills/gap-normativo-privacy-pixari/) | Gap analysis tra documentazione interna (informativa, registro, policy) e requisiti richiesti… |
 | [`GDPR Skill`](skills/gdpr/) | Use when the user asks about GDPR — lawful bases for processing, data subject rights (DSRs), Records of… |
@@ -50,7 +56,9 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`GDPR DSAR EN - data subject rights requests (Art. 12, 15-22)`](skills/gdpr-dsar-en-matematicsolutions/) | Data subject rights request (DSAR) assistant grounded in GDPR Art. 12 and 15-22. Identifies the request… |
 | [`GDPR/DSGVO Expert`](skills/gdpr-dsgvo-expert-alirezarezvani/) | GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA… |
 | [`GDPR Expert`](skills/gdpr-expert/) | GDPR expert for EU privacy compliance. Deep knowledge of General Data Protection Regulation including 99… |
+| [`GDPR for Health Data`](skills/gdpr-health-data-aks-builds/) | When the user is processing health, genetic, or biometric data of people in the EU/EEA, UK, or other… |
 | [`GDPR — General Data Protection Regulation`](skills/gdpr-mauriciodelrio/) | Use this skill when the software processes personal data from users. Although GDPR is EU legislation… |
+| [`GDPR privacy`](skills/gdpr-privacy-ericrisco/) | Use when producing the GDPR artifacts a product publishes or hands over: a privacy policy true to what… |
 | [`GDPR Records of Processing`](skills/gdpr-records-of-processing-open-legal-products/) | Build and validate the records of processing activities (RoPA) required by GDPR Article 30: the… |
 | [`GDPR RoPA + DPA EN - records of processing (Art. 30) and processor contracts (Art. 28)`](skills/gdpr-ropa-dpa-en-matematicsolutions/) | Records of processing (RoPA, GDPR Art. 30) and data processing agreement (DPA, Art. 28) review… |
 | [`Generazione DPIA (bozza)`](skills/generazione-dpia-pixari/) | Bozza struttura DPIA (art. 35 GDPR) allineata a prassi Garante/EDPB: descrizione, necessità, rischi… |

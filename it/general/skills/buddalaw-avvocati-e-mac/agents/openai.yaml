@@ -1,0 +1,13 @@
+interface:
+  display_name: "BuddaLaw"
+  short_description: "Ricerca legale italiana con fonti live"
+  default_prompt: "Usa $buddalaw per cercare giurisprudenza italiana aggiornata e citare le fonti con link verificabili."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "buddalaw"
+      description: "Server MCP BuddaLaw per giurisprudenza, normativa, contratti e atti processuali italiani."
+
+policy:
+  allow_implicit_invocation: true

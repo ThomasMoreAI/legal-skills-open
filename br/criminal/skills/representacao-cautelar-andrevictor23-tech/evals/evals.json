@@ -1,0 +1,26 @@
+{
+  "skill_name": "representacao-cautelar",
+  "evals": [
+    {
+      "id": 0,
+      "eval_name": "preventiva-vd-descumprimento-protetiva",
+      "prompt": "representa pela preventiva. Ocorrência 2026.198432, plantão de hoje. Conduzido JOSE CARLOS FERREIRA DA SILVA, vulgo Zé Carlos, foi preso em flagrante pela PM depois de invadir a casa da ex-companheira MARIA APARECIDA GOMES por volta das 22h, quebrou o portão, ameaçou ela de morte na frente dos dois filhos menores dizendo que se ela não voltasse ele ia matar ela. Ele tem medida protetiva vigente deferida nos autos 1002345-67.2026.8.11.0007 (proibição de aproximação 300 metros e de contato). Já foi autuado em flagrante duas vezes esse ano por descumprimento (APF em fevereiro e abril). Vítima preencheu o FONAR com risco elevado. IP vai ser do NEAMV. Preciso da representação completa pra mandar junto com o APF pra audiência de custódia.",
+      "expected_output": "Representação por prisão preventiva endereçada ao Juízo competente (NEAMV/vara de VD), com estrutura I. Dos Fatos / II. Do Direito / III. Do Pedido, fumus commissi delicti, periculum libertatis fundado em descumprimento de protetiva (art. 312 §1º) e reiteração com números de processo, cabimento no art. 313 III, contemporaneidade, parágrafo de insuficiência das cautelares do art. 319, menção ao art. 24-A da Lei 11.340/06, FONAR como elemento objetivo, pedidos numerados, fecho da unidade sem travessões, e Notas ao Delegado.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "eval_name": "busca-apreensao-trafico-denuncia-anonima",
+      "prompt": "monta a representação de busca e apreensão. IP 55.4.2026.7112, tráfico. Recebemos denúncia anônima de que o RODRIGO ALVES MOREIRA, vulgo Digão, estaria vendendo droga na casa dele na Rua F-8, nº 122, bairro Cidade Bela, casa de muro verde com portão de ferro preto, em frente ao mercadinho do Zico. Fizemos duas campanas, dia 02/07 e dia 05/07, e a equipe viu movimentação típica de boca, várias pessoas chegando de bicicleta e moto, ficando menos de 2 minutos e saindo, inclusive usuário conhecido da polícia (o Marquinhos do Pó) que foi abordado saindo de lá no dia 05 com uma porção de pasta base e disse informalmente que comprou na casa do Digão. O Digão tem passagem por tráfico em 2023 (APF 55.4.2023.4401). Quero pedir também pra acessar os celulares que forem apreendidos.",
+      "expected_output": "Representação de busca e apreensão domiciliar com fundadas razões que corroboram a denúncia anônima (campanas datadas, abordagem do usuário), individualização completa do imóvel e morador, finalidade vinculada, pedido de cumprimento diurno (5h-21h), pedido expresso de autorização de acesso/extração/análise dos dados dos dispositivos apreendidos com cadeia de custódia, busca pessoal e veicular, pedidos numerados, estrutura e fecho da unidade.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "sigilo-telematico-celular-apreendido",
+      "prompt": "preciso representar pela quebra de sigilo. IP 55.4.2026.6890, estelionato eletrônico (art. 171 §2º-A), vítima IVONE TERESINHA SCHMITZ, que fez PIX de R$ 48.500,00 em 3 transferências pra conta de terceiro depois de golpe do falso funcionário do banco no dia 12/06/2026. Temos o número que ligou pra vítima (66 99988-7766, Vivo) e prendemos em flagrante um suspeito, LEANDRO SOUZA PRATES, com um celular Samsung A54 (IMEI 358799112233445, lacre POLITEC 0091) apreendido no auto de exibição e apreensão. Quero o extrato de chamadas e ERBs da linha que ligou pra vítima de maio até hoje, os dados cadastrais dessa linha, e autorização pra acessar o conteúdo do celular apreendido do Leandro.",
+      "expected_output": "Peça que separa corretamente as medidas: dados cadastrais por requisição direta da autoridade policial (sem representação, ou nota explicando), representação judicial para extratos de chamadas/ERBs com período delimitado (maio a julho/2026) e linha individualizada com operadora, e pedido de autorização de acesso/extração forense do celular apreendido individualizado por IMEI e lacre com cadeia de custódia. Fundamentos no Marco Civil art. 22, utilidade e período, pedido de sigilo dos autos, estrutura e fecho da unidade.",
+      "files": []
+    }
+  ]
+}

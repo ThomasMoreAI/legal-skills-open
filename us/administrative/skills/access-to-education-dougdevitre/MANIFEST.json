@@ -1,0 +1,119 @@
+{
+  "name": "access-to-education",
+  "version": "7.1.0",
+  "last_updated": "2026-03-28",
+  "description": "Comprehensive Missouri K-12 education navigator",
+  "maintainer": "Doug Devitre",
+  "file_count": 84,
+  "word_count": 120759,
+  "structure": {
+    "root": ["SKILL.md", "CLAUDE.md", "README.md", "GETTING_STARTED.md", "LICENSE", ".gitignore", "CANONICAL_OWNERS.md", "LAST_VERIFIED.md", "CHANGELOG.md", "MANIFEST.json"],
+    "commands": ["commands/COMMANDS.md"],
+    "scripts": ["scripts/calculators.md", "scripts/run-evals.sh"],
+    "examples": ["examples/sample-outputs.md"],
+    "evals": ["evals/test-cases.json"]
+  },
+  "references": {
+    "roles": [
+      { "id": "students", "file": "references/roles/students.md" },
+      { "id": "teachers", "file": "references/roles/teachers.md" },
+      { "id": "specialists", "file": "references/roles/specialists.md" },
+      { "id": "building-leaders", "file": "references/roles/building-leaders.md" },
+      { "id": "school-staff", "file": "references/roles/school-staff.md" },
+      { "id": "administrators", "file": "references/roles/administrators.md" },
+      { "id": "school-counseling", "file": "references/roles/school-counseling.md" },
+      { "id": "substitute-teachers", "file": "references/roles/substitute-teachers.md" }
+    ],
+    "operations": [
+      { "id": "assessments", "file": "references/operations/assessments.md" },
+      { "id": "crisis-emergency", "file": "references/operations/crisis-emergency.md" },
+      { "id": "discipline-behavior", "file": "references/operations/discipline-behavior.md" },
+      { "id": "health-wellness", "file": "references/operations/health-wellness.md" },
+      { "id": "technology-digital-learning", "file": "references/operations/technology-digital-learning.md" },
+      { "id": "athletics-activities", "file": "references/operations/athletics-activities.md" },
+      { "id": "career-pathways", "file": "references/operations/career-pathways.md" },
+      { "id": "data-reporting", "file": "references/operations/data-reporting.md" },
+      { "id": "facilities-operations", "file": "references/operations/facilities-operations.md" },
+      { "id": "school-culture-climate", "file": "references/operations/school-culture-climate.md" }
+    ],
+    "compliance": [
+      { "id": "mo-education-law", "file": "references/compliance/mo-education-law.md" },
+      { "id": "compliance-calendar", "file": "references/compliance/compliance-calendar.md" },
+      { "id": "governance-policy", "file": "references/compliance/governance-policy.md" },
+      { "id": "funding-programs", "file": "references/compliance/funding-programs.md" },
+      { "id": "equity-access", "file": "references/compliance/equity-access.md" }
+    ],
+    "programs": [
+      { "id": "special-populations", "file": "references/programs/special-populations.md" },
+      { "id": "early-childhood", "file": "references/programs/early-childhood.md" },
+      { "id": "alternative-education", "file": "references/programs/alternative-education.md" },
+      { "id": "family-community", "file": "references/programs/family-community.md" },
+      { "id": "educator-workforce", "file": "references/programs/educator-workforce.md" },
+      { "id": "professional-learning", "file": "references/programs/professional-learning.md" },
+      { "id": "rural-education", "file": "references/programs/rural-education.md" },
+      { "id": "mo-districts-regions", "file": "references/programs/mo-districts-regions.md" },
+      { "id": "english-learners", "file": "references/programs/english-learners.md" }
+    ],
+    "ai-in-education": {
+      "index": "references/ai-in-education/INDEX.md",
+      "sub_files": [
+        { "id": "ai-teaching-learning", "file": "references/ai-in-education/ai-teaching-learning.md" },
+        { "id": "ai-policy-governance", "file": "references/ai-in-education/ai-policy-governance.md" },
+        { "id": "ai-literacy-career", "file": "references/ai-in-education/ai-literacy-career.md" }
+      ]
+    },
+    "curriculum-instruction": {
+      "index": "references/curriculum-instruction/INDEX.md",
+      "sub_files": [
+        { "id": "mo-learning-standards", "file": "references/curriculum-instruction/mo-learning-standards.md" },
+        { "id": "instructional-practice", "file": "references/curriculum-instruction/instructional-practice.md" }
+      ]
+    },
+    "special-needs": {
+      "index": "references/special-needs/INDEX.md",
+      "sub_files": [
+        { "id": "vision-impairment", "file": "references/special-needs/vision-impairment.md" },
+        { "id": "hearing-impairment", "file": "references/special-needs/hearing-impairment.md" },
+        { "id": "motor-impairment", "file": "references/special-needs/motor-impairment.md" }
+      ]
+    },
+    "standalone": [
+      { "id": "glossary", "file": "references/glossary.md" },
+      { "id": "faq", "file": "references/faq.md" },
+      { "id": "links-and-resources", "file": "references/links-and-resources.md" },
+      { "id": "scenario-walkthroughs", "file": "references/scenario-walkthroughs.md" },
+      { "id": "mo-data-tables", "file": "references/mo-data-tables.md" },
+      { "id": "guia-padres-espanol", "file": "references/guia-padres-espanol.md" }
+    ]
+  },
+  "templates": {
+    "parent": [{ "file": "templates/parent/letters.md", "count": 5 }],
+    "admin": [
+      { "file": "templates/admin/csip-template.md", "count": 1 },
+      { "file": "templates/admin/ai-policy-template.md", "count": 1 },
+      { "file": "templates/admin/safety-plan-outline.md", "count": 1 },
+      { "file": "templates/admin/threat-assessment-form.md", "count": 1 },
+      { "file": "templates/admin/plans-and-reports.md", "count": 3 },
+      { "file": "templates/admin/operational-forms.md", "count": 5 }
+    ],
+    "specialist": [
+      { "file": "templates/specialist/iep-compliance-checklist.md", "count": 1 },
+      { "file": "templates/specialist/plans-and-forms.md", "count": 2 },
+      { "file": "templates/specialist/iep-meeting-prep.md", "count": 3 }
+    ],
+    "teacher": [
+      { "file": "templates/teacher/plans.md", "count": 2 },
+      { "file": "templates/teacher/classroom-communication.md", "count": 9 },
+      { "file": "templates/teacher/observation-prep.md", "count": 3 },
+      { "file": "templates/teacher/ell-planning.md", "count": 4 },
+      { "file": "templates/teacher/sub-binder.md", "count": 8 },
+      { "file": "templates/teacher/classroom-admin.md", "count": 6 }
+    ],
+    "counselor": [
+      { "file": "templates/counselor/graduation-audit.md", "count": 1 },
+      { "file": "templates/counselor/checklists.md", "count": 2 },
+      { "file": "templates/counselor/caseload-management.md", "count": 5 }
+    ],
+    "staff": [{ "file": "templates/staff/checklists.md", "count": 2 }]
+  }
+}

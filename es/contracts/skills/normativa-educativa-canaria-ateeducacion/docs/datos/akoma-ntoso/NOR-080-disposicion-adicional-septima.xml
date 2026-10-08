@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2023-07-18/659">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/!dis_adi_septima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2023/07/18/659/con"/>
+          <FRBRdate date="2023-07-18" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="659"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/!dis_adi_septima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@"/>
+          <FRBRdate date="2023-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/xml/!dis_adi_septima"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_adi_septima" name="disposicion-adicional">
+        <num>Disposición adicional séptima.</num>
+        <heading>Ratio alumnado/profesorado en ofertas de grados D y E.</heading>
+        <paragraph eId="dis_adi_septima__para_1">
+          <num>1.</num>
+          <content><p>Las administraciones competentes reducirán progresivamente, en las distintas ofertas de formación profesional de grados D y E, preferentemente las que requieran el uso de aulas-taller, laboratorios, y otros espacios singulares de trabajo, la ratio de alumnado en modalidad presencial hasta el máximo de veinticinco alumnos por profesor, para los ciclos formativos de Grado Medio, de Grado Superior y Cursos de Especialización, y hasta un máximo de veinte alumnos por profesor o profesora para los ciclos formativos de Grado Básico con las mismas características, debiendo alcanzarse dicha ratio al inicio del curso 2028-2029.</p></content>
+        </paragraph>
+        <paragraph eId="dis_adi_septima__para_2">
+          <num>2.</num>
+          <content><p>En la impartición de módulos profesionales que por sus espacios, recursos y materiales a manejar lo aconsejen, las administraciones podrán establecer desdobles con el fin de garantizar una enseñanza de calidad y la adecuada atención educativa y formativa.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

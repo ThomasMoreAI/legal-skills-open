@@ -1,0 +1,65 @@
+name: crear-empresa
+display_name: Crear una Empresa en España — Guía Paso a Paso
+description: >
+  Guía completa para constituir una empresa en España: formas jurídicas
+  comparadas (SL, SA, SLU, SLL, cooperativa, comunidad de bienes,
+  sociedad civil), proceso paso a paso para crear una SL (certificación
+  de nombre, notario, Registro Mercantil, NIF), vía telemática
+  CIRCE/PAE, la SL de 1 euro (Ley Crea y Crece), costes y plazos
+  orientativos, y obligaciones tras la constitución.
+organization: Varios (Registro Mercantil, Notariado, AEAT, CIRCE)
+tags: [emprendimiento, crear empresa, SL, sociedad limitada, sociedad anónima, CIRCE, PAE, Registro Mercantil, notario, formas jurídicas, constituir empresa]
+
+links:
+  circe: https://www.circe.es
+  registradores: https://www.registradores.org
+  rmc: https://www.rmc.es
+  notariado: https://www.notariado.org
+  sede_aeat: https://sede.agenciatributaria.gob.es
+  importass: https://importass.seg-social.es
+  eugo: https://eugo.es
+
+license:
+  data: Información pública de varios organismos
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni
+    realiza trámites. Proporciona la guía paso a paso para constituir
+    una empresa (especialmente SL) y redirige a skills específicas para
+    temas relacionados (alta-autonomo, fiscalidad-autonomos,
+    licencias-actividad, borme, seguridad-social).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Formas jurídicas en España comparadas (SL, SA, SLU, SLL, cooperativa, CB, SC)
+    - Tabla comparativa (capital mínimo, socios, responsabilidad, fiscalidad)
+    - Proceso paso a paso para constituir una SL
+    - Certificación negativa de nombre (Registro Mercantil Central)
+    - Escritura pública ante notario
+    - Inscripción en el Registro Mercantil Provincial
+    - Alta censal y NIF provisional/definitivo en la AEAT
+    - Vía telemática CIRCE y PAE
+    - La SL de 1 euro (Ley Crea y Crece)
+    - Costes y plazos orientativos de constitución
+    - Obligaciones tras la constitución (fiscal, contable, SS)
+    - Criterios de decisión SL vs. autónomo
+  not_accessible:
+    - Realización de trámites de constitución
+    - Consulta de empresas ya registradas (usar skill borme)
+    - Obligaciones fiscales de sociedades en detalle (Modelo 200)
+    - Obligaciones fiscales de autónomos (usar skill fiscalidad-autonomos)
+    - Alta como autónomo persona física (usar skill alta-autonomo)
+    - Licencias de actividad y apertura (usar skill licencias-actividad)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

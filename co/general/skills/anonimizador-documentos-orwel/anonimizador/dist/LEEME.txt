@@ -1,0 +1,53 @@
+ANONIMIZADOR DE EXPEDIENTES — TRIFUERZA v7
+==========================================
+
+USO (sin instalar nada):
+
+  1. Doble clic en Anonimizador-Trifuerza.exe
+  2. Selecciona uno o varios archivos (.docx .txt .md .pdf)
+     o una carpeta completa con el boton "Carpeta..."
+  3. Clic en ANALIZAR (detecta nombres, cedulas, empresas, etc.)
+  4. Clic en ANONIMIZAR -> revisa cada documento y confirma
+  5. Elige carpeta de salida (o junto al original) y confirma
+  6. Listo
+
+NOVEDADES v7:
+  - Varios archivos a la vez (seleccion multiple o carpeta)
+  - Soporte PDF con texto seleccionable (no escaneados)
+  - Revision por pestaña cuando hay mas de un documento
+  - Carpeta de salida configurable (con predeterminada guardada)
+
+NOVEDADES v6:
+  - Telefonos: detecta el numero aunque este en otra linea del Word
+  - Nombres: detecta tras "el senor", "doctor", "empleado", etc.
+  - Gazetteer: nombres y apellidos hispanos frecuentes
+  - Una sola etiqueta por persona ([PERSONA_1], [PERSONA_2]...)
+  - Menos falsos positivos (frases legales ya no se marcan como persona)
+  - Verificacion final: avisa si quedo algun dato visible
+
+DETECTA AUTOMATICAMENTE:
+  - Nombres de personas y empresas (S.A., S.A.S., S.A. E.S.P., Ltda., etc.)
+  - Cedulas, NIT (con validacion DIAN), tarjeta profesional, pasaporte
+  - Correos, telefonos, direcciones, radicados, cuentas contrato
+  - Cualquier numero largo no publico (red de seguridad)
+
+REVISION INVERTIDA (pestaña Pendientes):
+  Muestra numeros y nombres que QUEDARON visibles. Marca los que
+  quieras anonimizar antes de confirmar.
+
+NO ANONIMIZA (datos publicos):
+  - Cortes, juzgados, tribunales, fiscalia
+  - Leyes, codigos, decretos, sentencias
+
+PDF:
+  Solo PDF con texto que puedas seleccionar con el cursor.
+  Si es escaneado (foto), conviertelo a Word con OCR antes.
+
+RESULTADO (carpeta elegida o junto al original):
+
+  expediente_ANONIMIZADO.{docx|pdf|txt}  <- sube ESTE a la IA
+  expediente_EQUIVALENCIAS.csv             <- NUNCA lo subas
+
+PREFERENCIAS (junto al .exe):
+  preferencias.json  -> carpeta de salida predeterminada
+  reemplazos.json    -> reemplazos manuales guardados

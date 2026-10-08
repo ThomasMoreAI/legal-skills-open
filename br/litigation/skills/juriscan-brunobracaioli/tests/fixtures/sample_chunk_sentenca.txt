@@ -1,0 +1,53 @@
+SENTENÇA
+
+Processo nº 1234567-89.2025.8.26.0100
+Classe: Procedimento Comum Cível
+Requerente: Maria da Silva Santos
+Requerido: Empresa Tecnologia S/A
+
+Vistos.
+
+MARIA DA SILVA SANTOS ajuizou ação de indenização por danos morais e materiais em face de EMPRESA TECNOLOGIA S/A, alegando, em síntese, que seus dados pessoais foram vazados por falha de segurança da ré, causando-lhe prejuízos materiais de R$ 25.000,00 e danos morais.
+
+A ré foi citada e apresentou contestação (fls. 45/78), alegando que o vazamento decorreu de ataque hacker sofisticado, configurando caso fortuito externo, e que a autora não comprovou adequadamente o nexo causal entre o vazamento e as fraudes bancárias alegadas. Sustentou que o valor de R$ 25.000,00 a título de danos materiais é excessivo e não corresponde ao efetivamente comprovado, que seria de R$ 18.500,00.
+
+Réplica às fls. 90/105.
+
+Audiência de instrução realizada em 15 de maio de 2025, com oitiva de duas testemunhas da autora e uma da ré.
+
+É o relatório. DECIDO.
+
+I — RESPONSABILIDADE
+
+A relação entre as partes é de consumo, aplicando-se o Código de Defesa do Consumidor. A responsabilidade do fornecedor é objetiva nos termos do Art. 14 do CDC.
+
+O vazamento de dados configura falha na prestação do serviço, não se enquadrando como caso fortuito externo, conforme entendimento consolidado do STJ (REsp 1.758.799/MG).
+
+A Súmula 479 do STJ é aplicável ao caso por analogia: a ré responde objetivamente pelos danos causados por falha de segurança.
+
+II — DANOS MATERIAIS
+
+Os documentos de fls. 15/30 comprovam transferências fraudulentas de R$ 18.500,00 da conta da autora. O valor de R$ 25.000,00 alegado na inicial inclui R$ 6.500,00 referentes a supostos gastos com segurança digital, cuja comprovação é insuficiente.
+
+Fixo os danos materiais em R$ 18.500,00 (dezoito mil e quinhentos reais).
+
+III — DANOS MORAIS
+
+O vazamento de dados pessoais e financeiros, por si só, causa dano moral in re ipsa. Considerando a extensão do dano, a capacidade econômica das partes e o caráter pedagógico da condenação, fixo a indenização por danos morais em R$ 30.000,00 (trinta mil reais).
+
+IV — DISPOSITIVO
+
+Ante o exposto, JULGO PARCIALMENTE PROCEDENTE a ação para condenar a ré EMPRESA TECNOLOGIA S/A a pagar à autora:
+
+a) R$ 18.500,00 (dezoito mil e quinhentos reais) a título de danos materiais, com correção monetária pela tabela prática do TJSP desde o efetivo prejuízo e juros de mora de 1% ao mês desde a citação;
+b) R$ 30.000,00 (trinta mil reais) a título de danos morais, com correção monetária desde a data desta sentença e juros de mora de 1% ao mês desde a citação.
+
+Condeno a ré ao pagamento das custas processuais e honorários advocatícios, que fixo em 15% sobre o valor da condenação, nos termos do Art. 85, §2º, do CPC.
+
+P.R.I.C.
+
+São Paulo, 1 de julho de 2025.
+
+Dr. Fernando Almeida Costa
+Juiz de Direito
+2ª Vara Cível do Foro Central de São Paulo

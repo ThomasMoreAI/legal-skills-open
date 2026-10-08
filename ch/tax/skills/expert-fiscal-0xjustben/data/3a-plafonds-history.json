@@ -1,0 +1,20 @@
+{
+  "_disclaimer": "Illustrative — verify against AFC/OFAS publications before production use",
+  "_source": "https://www.bsv.admin.ch/bsv/fr/home/assurances-sociales/bv/grundlagen-und-gesetze/grundlagen/eckwerte.html",
+  "currency": "CHF",
+  "notes": "Pillar 3a (prévoyance individuelle liée) annual deductible ceilings. 'with_lpp' = salarié affilié à une caisse LPP; 'without_lpp' = indépendant sans 2e pilier, plafond = 20% du revenu net professionnel jusqu'à un maximum.",
+  "history": [
+    {"year": 2015, "with_lpp": 6768, "without_lpp_max": 33840},
+    {"year": 2016, "with_lpp": 6768, "without_lpp_max": 33840},
+    {"year": 2017, "with_lpp": 6768, "without_lpp_max": 33840},
+    {"year": 2018, "with_lpp": 6768, "without_lpp_max": 33840},
+    {"year": 2019, "with_lpp": 6826, "without_lpp_max": 34128},
+    {"year": 2020, "with_lpp": 6826, "without_lpp_max": 34128},
+    {"year": 2021, "with_lpp": 6883, "without_lpp_max": 34416},
+    {"year": 2022, "with_lpp": 6883, "without_lpp_max": 34416},
+    {"year": 2023, "with_lpp": 7056, "without_lpp_max": 35280},
+    {"year": 2024, "with_lpp": 7056, "without_lpp_max": 35280},
+    {"year": 2025, "with_lpp": 7258, "without_lpp_max": 36288},
+    {"year": 2026, "with_lpp": 7258, "without_lpp_max": 36288}
+  ]
+}

@@ -1,0 +1,11 @@
+id: REL-057
+tipo_relacion: "desarrolla"
+origen: NOR-067
+destino: NOR-007
+descripcion: "La Resolución de 16 de junio de 2026 (publicación del Protocolo CEFPAFD-FECAM) desarrolla en Canarias el marco de colaboración para la formación en empresa u organismo equiparado previsto en la LOOIFP."
+evidencia:
+  fuente: FTE-074
+  localizacion: "Resuelvo y anexo del protocolo; exponen segundo y tercero (referencia expresa a LOE art. 42 bis y LOOIFP)."
+fecha_registro: 2026-07-07
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Relación de desarrollo funcional; no modifica ni deroga NOR-007."

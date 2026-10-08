@@ -1,0 +1,57 @@
+name: jubilacion
+display_name: Pensión de Jubilación
+description: >
+  Guía completa sobre la pensión de jubilación en España: requisitos de edad
+  y cotización, cálculo de la base reguladora y el porcentaje, jubilación
+  anticipada (voluntaria e involuntaria), jubilación parcial y contrato de
+  relevo, jubilación activa, jubilación demorada, complemento de brecha de
+  género, complemento a mínimos, pensión máxima y mínima, cómo solicitarla
+  y calendario transitorio hasta 2027.
+organization: Instituto Nacional de la Seguridad Social (INSS) / Tesorería General de la Seguridad Social (TGSS)
+tags: [seguridad social, jubilación, pensión, anticipada, activa, demorada, base reguladora, INSS, Import@ss]
+
+links:
+  website: https://sede.seg-social.gob.es
+  importass: https://importass.seg-social.es
+
+license:
+  data: Información pública de la Seguridad Social
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general. No accede a APIs de datos
+    ni realiza trámites. Proporciona una guía completa sobre la pensión de
+    jubilación y redirige a las skills específicas (cotizaciones, vida-laboral,
+    seguridad-social) para detalle complementario.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Requisitos de edad y cotización para la jubilación (con calendario transitorio)
+    - Cálculo de la pensión (base reguladora y porcentaje según años cotizados)
+    - Jubilación anticipada voluntaria e involuntaria (coeficientes reductores)
+    - Jubilación parcial y contrato de relevo
+    - Jubilación activa (compatibilizar pensión y trabajo)
+    - Jubilación demorada (incentivos por retrasar)
+    - Complemento de brecha de género y complemento a mínimos
+    - Pensión máxima y mínima vigentes (orientativas)
+    - Cómo solicitar la jubilación (Import@ss, presencial)
+    - Simulador de pensión de la Seguridad Social
+    - Pensión no contributiva de jubilación
+  not_accessible:
+    - Datos personales de cotización del usuario (requiere identificación en Import@ss)
+    - Cálculo exacto personalizado de la pensión (usar simulador de Import@ss)
+    - Datos estadísticos agregados de pensiones (usar skill seguridad-social)
+    - Detalle de bases y tipos de cotización (usar skill cotizaciones)
+    - Trámites reales de solicitud (requiere certificado digital/Cl@ve)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

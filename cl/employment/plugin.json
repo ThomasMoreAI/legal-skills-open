@@ -1,0 +1,15 @@
+{
+  "name": "cl-employment",
+  "displayName": "Employment & Labor — CL",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for CL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cl",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/chile-sebitabravo",
+    "skills/chilean-employment-legal-elpabloultron"
+  ]
+}

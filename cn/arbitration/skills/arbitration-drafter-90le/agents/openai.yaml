@@ -1,0 +1,6 @@
+interface:
+  display_name: "Arbitration Drafter"
+  short_description: "Draft labor arbitration filings"
+  default_prompt: "Use $arbitration-drafter to draft a worker-side labor arbitration application from case facts, claims, and evidence."
+policy:
+  allow_implicit_invocation: false

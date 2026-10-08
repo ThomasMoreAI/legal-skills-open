@@ -1,0 +1,47 @@
+<!--
+  Snippet mínimo de consentimiento para formularios de captación.
+  Sustituir {{ url_politica_privacidad }} y {{ responsable }}.
+  Añade tantos checkboxes separados como finalidades distintas.
+-->
+
+<form action="/api/lead" method="post">
+  <label>
+    Nombre
+    <input type="text" name="first_name" required autocomplete="given-name">
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="email" required autocomplete="email">
+  </label>
+
+  <label>
+    Teléfono
+    <input type="tel" name="phone" autocomplete="tel">
+  </label>
+
+  <!-- Información resumida del tratamiento (art. 13 RGPD) -->
+  <div class="privacy-info" style="font-size: 12px; color: #555; margin: 12px 0;">
+    <p><strong>Responsable</strong>: {{ responsable }} · <strong>Finalidad</strong>: atender su solicitud y enviarle la información requerida · <strong>Legitimación</strong>: su consentimiento · <strong>Destinatarios</strong>: no se cederán datos a terceros salvo obligación legal · <strong>Derechos</strong>: acceso, rectificación, supresión, oposición, portabilidad, limitación. Más información en nuestra <a href="{{ url_politica_privacidad }}">Política de Privacidad</a>.</p>
+  </div>
+
+  <!-- Consentimiento principal (obligatorio) -->
+  <label style="display:flex; gap:8px; align-items:flex-start; margin: 8px 0;">
+    <input type="checkbox" name="consent_privacy" required>
+    <span>He leído y acepto la <a href="{{ url_politica_privacidad }}">Política de Privacidad</a>.</span>
+  </label>
+
+  <!-- Consentimiento marketing email (opcional, separado) -->
+  <label style="display:flex; gap:8px; align-items:flex-start; margin: 8px 0;">
+    <input type="checkbox" name="consent_marketing_email">
+    <span>Quiero recibir novedades y contenido por email. Puedo revocar este consentimiento en cualquier momento.</span>
+  </label>
+
+  <!-- Consentimiento WhatsApp / SMS (opcional, separado; art. 21 LSSI) -->
+  <label style="display:flex; gap:8px; align-items:flex-start; margin: 8px 0;">
+    <input type="checkbox" name="consent_marketing_whatsapp">
+    <span>Autorizo a {{ responsable }} a enviarme comunicaciones comerciales por WhatsApp o SMS.</span>
+  </label>
+
+  <button type="submit">Enviar</button>
+</form>

@@ -1,0 +1,1633 @@
+metadata:
+  proyecto: Normativa Educativa Canaria
+  repositorio: ateeducacion/normativa_educativa_canaria
+  objetivo: Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML
+  fase_actual: Fase 1 — Inventario y Catalogación
+  fecha_actualizacion: '2026-08-23'
+  agente_actual: '@.agents/skills/control-calidad-documental'
+tareas:
+  TAREA-001:
+    titulo: Puesta en marcha del repositorio
+    estado: Hecha
+    prioridad: Crítica
+    tipo: puesta-en-marcha
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas:
+    - DEC-0001
+    - DEC-0002
+    - DEC-0003
+    siguiente_accion: null
+  TAREA-002:
+    titulo: Catalogar fuentes iniciales
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-001
+    - FTE-002
+    - FTE-003
+    - FTE-004
+    - FTE-009
+    - FTE-010
+    - PREG-001
+    siguiente_accion: null
+  TAREA-003:
+    titulo: Crear fichas normativas iniciales
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas:
+    - NOR-001
+    - NOR-002
+    - NOR-003
+    - NOR-004
+    siguiente_accion: null
+  TAREA-004:
+    titulo: Crear índice inicial de currículos ESO
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-001
+    - CUR-023
+    - PREG-001
+    - PREG-002
+    - DEC-0004
+    siguiente_accion: null
+  TAREA-005:
+    titulo: Preparar primeros chunks IA
+    estado: Hecha
+    prioridad: Media
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas:
+    - CHUNK-00001
+    - CHUNK-00002
+    - CHUNK-00003
+    - CHUNK-00004
+    - CHUNK-00005
+    siguiente_accion: null
+  TAREA-006:
+    titulo: Revisar vigencia de normas iniciales
+    estado: Hecha
+    prioridad: Alta
+    tipo: vigencia
+    responsable: '@.agents/skills/control-vigencia'
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-001
+    - NOR-002
+    - NOR-003
+    - NOR-004
+    siguiente_accion: null
+  TAREA-007:
+    titulo: Redactar ficha normativa NOR-005 (Decreto 30/2023, Canarias)
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-009
+    - NOR-002
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - REL-004
+    - REL-005
+    - PREG-001
+    siguiente_accion: null
+  TAREA-008:
+    titulo: Normalizar el frontmatter YAML de NOR-001 a NOR-004
+    estado: Hecha
+    prioridad: Media
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-001
+    - NOR-002
+    - NOR-003
+    - NOR-004
+    siguiente_accion: null
+  TAREA-009:
+    titulo: Redactar ficha normativa NOR-006 (RD 243/2022, Bachillerato)
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-011
+    - NOR-001
+    - NOR-002
+    - NOR-005
+    - NOR-006
+    - REL-006
+    - REL-007
+    siguiente_accion: null
+  TAREA-010:
+    titulo: Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-001
+    - NOR-005
+    - NOR-003
+    - FTE-009
+    - DEC-0004
+    siguiente_accion: null
+  TAREA-011:
+    titulo: Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de
+      CUR-001
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-001
+    - NOR-005
+    - FTE-009
+    - TAREA-010
+    - DEC-0004
+    siguiente_accion: null
+  TAREA-012:
+    titulo: Normalizar el frontmatter YAML de FTE-001 a FTE-008
+    estado: Hecha
+    prioridad: Media
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-001
+    - FTE-002
+    - FTE-003
+    - FTE-004
+    - FTE-005
+    - FTE-006
+    - FTE-007
+    - FTE-008
+    - TAREA-008
+    siguiente_accion: null
+  TAREA-013:
+    titulo: Catalogar fuentes oficiales adicionales (CDC e Inspección Educativa)
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-012
+    - FTE-013
+    - FTE-014
+    - FTE-015
+    siguiente_accion: null
+  TAREA-014:
+    titulo: Inventariar y catalogar normativa de Centros y Organización y funcionamiento
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/experto-normativa-canaria'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-013
+    - NOR-004
+    - NOR-009
+    - NOR-010
+    - NOR-011
+    - NOR-012
+    - NOR-013
+    siguiente_accion: null
+  TAREA-015:
+    titulo: Inventariar y catalogar normativa de Personal docente
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/experto-normativa-canaria'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-013
+    - NOR-001
+    - NOR-002
+    - NOR-004
+    - NOR-019
+    - NOR-020
+    - NOR-021
+    - NOR-022
+    - NOR-023
+    siguiente_accion: null
+  TAREA-016:
+    titulo: Inventariar y catalogar normativa de Atención a la diversidad y Alumnado
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/experto-normativa-canaria'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-013
+    - FTE-027
+    - FTE-028
+    - FTE-029
+    - FTE-030
+    - FTE-031
+    - FTE-032
+    - FTE-033
+    - FTE-040
+    - FTE-041
+    - FTE-042
+    - FTE-043
+    - FTE-044
+    - NOR-002
+    - NOR-004
+    - NOR-010
+    - NOR-024
+    - NOR-025
+    - NOR-026
+    - NOR-027
+    - NOR-028
+    - NOR-029
+    - NOR-030
+    - NOR-037
+    - NOR-038
+    - NOR-039
+    - NOR-040
+    - NOR-041
+    - REL-020
+    - REL-021
+    - REL-022
+    - REL-023
+    - REL-024
+    - REL-025
+    - REL-026
+    - REL-027
+    - REL-034
+    - REL-035
+    - REL-036
+    - REL-037
+    - REL-038
+    siguiente_accion: null
+  TAREA-017:
+    titulo: Inventariar y catalogar normativa de Formación Profesional en Canarias
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-014
+    - FTE-015
+    - FTE-016
+    - NOR-002
+    - NOR-007
+    - NOR-008
+    - NOR-014
+    - NOR-015
+    - NOR-016
+    - REL-008
+    - REL-012
+    - TAREA-020
+    siguiente_accion: null
+  TAREA-018:
+    titulo: Inventariar y catalogar normativa de Marco general, Administración y Servicios complementarios
+    estado: Hecha
+    prioridad: Media
+    tipo: analisis
+    responsable: '@.agents/skills/experto-normativa-canaria'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-013
+    - FTE-034
+    - FTE-035
+    - FTE-036
+    - FTE-037
+    - FTE-038
+    - FTE-039
+    - NOR-004
+    - NOR-010
+    - NOR-027
+    - NOR-031
+    - NOR-032
+    - NOR-033
+    - NOR-034
+    - NOR-035
+    - NOR-036
+    - REL-028
+    - REL-029
+    - REL-030
+    - REL-031
+    - REL-032
+    - REL-033
+    - DEC-0005
+    siguiente_accion: null
+  TAREA-019:
+    titulo: Iniciar extracción curricular de CUR-002 (Cultura Clásica, ESO Canarias)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-002
+    - NOR-005
+    - NOR-003
+    - FTE-009
+    - DEC-0004
+    siguiente_accion: null
+  TAREA-020:
+    titulo: Catalogar las órdenes y resoluciones canarias de Formación Profesional listadas en FTE-015
+    estado: Hecha
+    prioridad: Media
+    tipo: analisis
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-015
+    - NOR-007
+    - NOR-008
+    - NOR-014
+    - NOR-015
+    - NOR-016
+    - REL-012
+    - TAREA-017
+    siguiente_accion: null
+  TAREA-021:
+    titulo: Validar calidad documental tras el inventario normativo inicial
+    estado: Hecha
+    prioridad: Media
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - TAREA-014
+    - TAREA-015
+    - TAREA-016
+    - TAREA-017
+    - TAREA-018
+    - TAREA-019
+    siguiente_accion: null
+  TAREA-022:
+    titulo: Consolidar cambios de agentes paralelos
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - TAREA-016
+    - TAREA-021
+    - FTE-027
+    - FTE-028
+    - FTE-029
+    - FTE-030
+    - FTE-040
+    - FTE-041
+    - FTE-042
+    - FTE-043
+    - FTE-044
+    - NOR-037
+    - NOR-038
+    - NOR-039
+    - NOR-040
+    - NOR-041
+    - REL-034
+    - REL-035
+    - REL-036
+    - REL-037
+    - REL-038
+    siguiente_accion: null
+  TAREA-023:
+    titulo: Completar fichas normativas básicas de centros y personal docente
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-009
+    - NOR-010
+    - NOR-011
+    - NOR-012
+    - NOR-013
+    - NOR-019
+    - NOR-020
+    - NOR-021
+    - NOR-022
+    - NOR-023
+    - NOR-034
+    - NOR-035
+    - NOR-036
+    siguiente_accion: null
+  TAREA-024:
+    titulo: 'Extracción curricular ESO: CUR-007 a CUR-010'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-007
+    - CUR-008
+    - CUR-009
+    - CUR-010
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-025:
+    titulo: 'Extracción curricular ESO: CUR-003 a CUR-014'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-003
+    - CUR-004
+    - CUR-005
+    - CUR-006
+    - CUR-011
+    - CUR-012
+    - CUR-013
+    - CUR-014
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-026:
+    titulo: 'Extracción curricular ESO: CUR-015 a CUR-018'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-015
+    - CUR-016
+    - CUR-017
+    - CUR-018
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-027:
+    titulo: 'Extracción curricular ESO: CUR-019 a CUR-023'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-019
+    - CUR-020
+    - CUR-021
+    - CUR-022
+    - CUR-023
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-028:
+    titulo: 'Cotejo curricular ESO: CUR-011 a CUR-014 (segunda pasada)'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-011
+    - CUR-012
+    - CUR-013
+    - CUR-014
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-029:
+    titulo: 'Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-015
+    - CUR-016
+    - CUR-017
+    - CUR-018
+    - NOR-005
+    - FTE-009
+    siguiente_accion: Se ha completado la extracción base; ver TAREA-036 para materias tecnológicas pendientes.
+  TAREA-030:
+    titulo: 'Cotejo curricular ESO: CUR-019 a CUR-023 (segunda pasada)'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-019
+    - CUR-020
+    - CUR-021
+    - CUR-022
+    - CUR-023
+    - NOR-005
+    - FTE-009
+    siguiente_accion: null
+  TAREA-031:
+    titulo: Catalogar normativa de Educación Primaria e Infantil (NOR-043 a NOR-049)
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis
+    responsable: '@.agents/skills/experto-primaria'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-043
+    - NOR-044
+    - NOR-045
+    - NOR-046
+    - NOR-047
+    - NOR-044
+    - NOR-046
+    siguiente_accion: null
+  TAREA-032:
+    titulo: Extracción literal de currículos de Educación Primaria (CUR-024 a CUR-033)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-024
+    - CUR-033
+    siguiente_accion: null
+  TAREA-033:
+    titulo: Extracción literal de currículos de Educación Infantil (CUR-034 a CUR-036)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-034
+    - CUR-035
+    - CUR-036
+    siguiente_accion: null
+  TAREA-034:
+    titulo: Catalogación y extracción literal de Bachillerato (CUR-037 a CUR-045)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-bachillerato'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-037
+    - CUR-045
+    siguiente_accion: null
+  TAREA-035:
+    titulo: Generar nuevos chunks IA (CHUNK-00010 a CHUNK-00013)
+    estado: Hecha
+    prioridad: Media
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CHUNK-00010
+    - CHUNK-00013
+    siguiente_accion: null
+  TAREA-036:
+    titulo: 'Finalizar extracciones ESO: CUR-023 y remanentes'
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-023
+    siguiente_accion: null
+  TAREA-037:
+    titulo: Catalogar RD de títulos FP más comunes en Canarias (fase acotada)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-007
+    - FTE-015
+    - FTE-016
+    - FTE-054
+    - NOR-051
+    - NOR-058
+    - CUR-046
+    - CUR-053
+    siguiente_accion: null
+  TAREA-038:
+    titulo: Extraer módulos profesionales FP — Familia Sanidad (CUR-046, CUR-047)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-051
+    - NOR-052
+    - CUR-046
+    - CUR-047
+    - PREG-005
+    siguiente_accion: null
+  TAREA-039:
+    titulo: Extraer módulos profesionales FP — Familia Administración y Gestión (CUR-048, CUR-049)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-053
+    - NOR-054
+    - CUR-048
+    - CUR-049
+    siguiente_accion: null
+  TAREA-040:
+    titulo: Extraer módulos profesionales FP — Familia Informática y Comunicaciones (CUR-050, CUR-051)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-055
+    - NOR-056
+    - CUR-050
+    - CUR-051
+    siguiente_accion: null
+  TAREA-041:
+    titulo: Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052,
+      CUR-053)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-057
+    - NOR-058
+    - CUR-052
+    - CUR-053
+    siguiente_accion: null
+  TAREA-042:
+    titulo: Resolver PREG-005 — Verificar y corregir RDs de ciclos de Sanidad (NOR-051, NOR-052)
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-051
+    - NOR-052
+    - CUR-046
+    - CUR-047
+    - PREG-005
+    siguiente_accion: null
+  TAREA-043:
+    titulo: Completar CUR-053 (Integración Social) con módulos del título base RD 1074/2012
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-053
+    - NOR-058
+    - NOR-060
+    siguiente_accion: null
+  TAREA-044:
+    titulo: Extraer CEs completos — Familia Administración y Gestión (CUR-048, CUR-049)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-053
+    - NOR-054
+    - CUR-048
+    - CUR-049
+    siguiente_accion: null
+  TAREA-045:
+    titulo: Extraer CEs completos — Familia Informática y Comunicaciones (CUR-050, CUR-051)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - NOR-055
+    - NOR-056
+    - CUR-050
+    - CUR-051
+    siguiente_accion: null
+  TAREA-046:
+    titulo: Extracción literal de materias optativas de Bachillerato (CUR-054 a CUR-058)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-054
+    - CUR-058
+    siguiente_accion: null
+  TAREA-047:
+    titulo: Consolidación final del repositorio multietapa y resolución de dudas
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - DEC-0006
+    - PREG-004
+    siguiente_accion: null
+  TAREA-048:
+    titulo: Completar RAs y CEs de CUR-047 — Imagen para el Diagnóstico y Medicina Nuclear
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-047
+    - NOR-052
+    siguiente_accion: null
+  TAREA-049:
+    titulo: Completar RAs y CEs pendientes de CUR-049 — Administración y Finanzas (2.º año)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-049
+    - NOR-054
+    siguiente_accion: null
+  TAREA-050:
+    titulo: Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-050
+    - CUR-051
+    - NOR-055
+    - NOR-056
+    siguiente_accion: null
+  TAREA-051:
+    titulo: Completar módulos comunes de CUR-053 — Integración Social
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-053
+    - NOR-060
+    siguiente_accion: Completada. 5 módulos comunes (0020, 0345, 0346, 0347, 0348) verificados en BOE-A-2012-10866.
+  TAREA-052:
+    titulo: Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)
+    estado: Hecha
+    prioridad: Baja
+    tipo: curriculo
+    responsable: '@.agents/skills/experto-formacion-profesional'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - CUR-046
+    - NOR-051
+    siguiente_accion: null
+  TAREA-053:
+    titulo: Indexar textos oficiales y crear copias rápidas iniciales
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas:
+    - FTE-005
+    - FTE-007
+    - FTE-009
+    - NOR-001
+    - NOR-003
+    - NOR-005
+    siguiente_accion: null
+  TAREA-054:
+    titulo: Publicar copias locales rápidas de currículos ESO y Bachillerato
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-04-27
+    fecha_actualizacion: 2026-04-27
+    relacionadas:
+    - FTE-002
+    - FTE-009
+    - FTE-012
+    - CUR-001
+    - CUR-023
+    - CUR-037
+    - CUR-058
+    - TAREA-053
+    siguiente_accion: null
+  TAREA-055:
+    titulo: Ampliar copias rápidas de texto oficial al resto de normas
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-04-27
+    fecha_actualizacion: 2026-04-27
+    relacionadas:
+    - TAREA-053
+    - NOR-002
+    - NOR-039
+    - NOR-040
+    - NOR-041
+    - NOR-042
+    - NOR-045
+    - NOR-046
+    - NOR-046
+    - NOR-059
+    - NOR-060
+    siguiente_accion: null
+  TAREA-056:
+    titulo: Catalogar portales oficiales de programas y marcos operativos canarios (FTE-057 a FTE-067)
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-05-01
+    fecha_actualizacion: 2026-05-01
+    relacionadas:
+    - FTE-057
+    - FTE-058
+    - FTE-059
+    - FTE-060
+    - FTE-061
+    - FTE-062
+    - FTE-063
+    - FTE-064
+    - FTE-065
+    - FTE-066
+    - FTE-067
+    siguiente_accion: null
+  TAREA-057:
+    titulo: Pipeline de vigilancia semanal de normativa canaria con conversión DocDigester2MD
+    estado: Hecha
+    prioridad: Media
+    tipo: automatizacion
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-05-22
+    fecha_actualizacion: 2026-05-22
+    relacionadas:
+    - FTE-001
+    - FTE-013
+    - FTE-014
+    - FTE-015
+    siguiente_accion: null
+  TAREA-058:
+    titulo: Catalogar novedades del monitor normativo de FP detectadas el 2026-06-01
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-06-01
+    fecha_actualizacion: 2026-06-01
+    relacionadas:
+    - FTE-068
+    - FTE-069
+    - NOR-059
+    - NOR-061
+    - NOR-062
+    - REL-049
+    - REL-050
+    - REL-051
+    - PREG-006
+    siguiente_accion: null
+  TAREA-059:
+    titulo: Catalogar novedades del monitor normativo de FP detectadas el 2026-06-29 (PR 25)
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-06-29
+    fecha_actualizacion: 2026-06-29
+    relacionadas:
+    - FTE-070
+    - FTE-071
+    - FTE-072
+    - FTE-073
+    - NOR-062
+    - NOR-063
+    - NOR-064
+    - NOR-065
+    - NOR-066
+    - REL-052
+    - REL-053
+    - REL-054
+    - REL-055
+    - REL-056
+    - PREG-006
+    siguiente_accion: null
+  TAREA-060:
+    titulo: Catalogar novedad del monitor detectada el 2026-07-06 (BOC 2026/129/2245 — protocolo FP CEFPAFD-FECAM)
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-07-07
+    fecha_actualizacion: 2026-07-07
+    relacionadas:
+    - FTE-074
+    - NOR-067
+    - REL-057
+    siguiente_accion: null
+  TAREA-061:
+    titulo: Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital
+      docente
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-07-20
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-075
+    - NOR-068
+    - REL-058
+    siguiente_accion: null
+  TAREA-062:
+    titulo: Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC
+      2026/144
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-07-27
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-076
+    - FTE-077
+    - NOR-069
+    - NOR-070
+    - REL-059
+    - REL-060
+    siguiente_accion: null
+  TAREA-063:
+    titulo: Hacer descubribles las skills del repositorio y poner en marcha la validación automática del
+      corpus
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-007
+    - TAREA-061
+    - TAREA-062
+    siguiente_accion: null
+  TAREA-064:
+    titulo: Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - TAREA-061
+    - TAREA-063
+    siguiente_accion: null
+  TAREA-065:
+    titulo: Normalizar las fichas curriculares, recalibrar los avisos del validador y cerrar los huecos
+      de índice
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-007
+    - DEC-0007
+    - TAREA-063
+    - TAREA-066
+    - TAREA-067
+    - TAREA-068
+    - TAREA-069
+    siguiente_accion: null
+  TAREA-066:
+    titulo: Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a
+      CUR-058)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-009
+    - NOR-005
+    - TAREA-065
+    - PREG-007
+    siguiente_accion: null
+  TAREA-067:
+    titulo: Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-046
+    - NOR-043
+    - TAREA-065
+    - PREG-007
+    siguiente_accion: null
+  TAREA-068:
+    titulo: Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-009
+    - NOR-005
+    - TAREA-065
+    - PREG-007
+    siguiente_accion: null
+  TAREA-069:
+    titulo: Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    fecha_cierre: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - FTE-050
+    - NOR-047
+    - TAREA-065
+    - PREG-007
+    siguiente_accion: null
+  TAREA-070:
+    titulo: Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-045
+    - FTE-048
+    - FTE-049
+    - FTE-051
+    - TAREA-065
+    siguiente_accion: null
+  TAREA-071:
+    titulo: Preparar la extracción de descriptores operativos y verificar el conjunto de control
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - NOR-005
+    - TAREA-066
+    - TAREA-067
+    - TAREA-068
+    - TAREA-069
+    siguiente_accion: null
+  TAREA-072:
+    titulo: Auditar los descriptores operativos de las 18 fichas de ESO marcadas como completadas
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-071
+    - TAREA-073
+    siguiente_accion: null
+  TAREA-073:
+    titulo: Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - FTE-009
+    - TAREA-072
+    siguiente_accion: null
+  TAREA-074:
+    titulo: Reparar el doble encodeo de las copias locales de texto oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-043
+    - NOR-047
+    - PREG-008
+    - TAREA-072
+    siguiente_accion: null
+  TAREA-076:
+    titulo: Consolidar la extracción curricular ejecutada en paralelo y corregir el auditor de descriptores
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-009
+    - DEC-0008
+    - TAREA-066
+    - TAREA-067
+    - TAREA-068
+    - TAREA-069
+    - TAREA-070
+    - TAREA-073
+    - TAREA-077
+    siguiente_accion: null
+  TAREA-077:
+    titulo: Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-043
+    - FTE-046
+    - TAREA-067
+    - TAREA-076
+    siguiente_accion: null
+  TAREA-078:
+    titulo: Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación
+      Infantil
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-009
+    - FTE-049
+    - FTE-051
+    - NOR-046
+    siguiente_accion: null
+  TAREA-079:
+    titulo: Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0008
+    - DEC-0009
+    - CUR-034
+    - CUR-035
+    - CUR-036
+    - NOR-047
+    - TAREA-069
+    siguiente_accion: null
+  TAREA-080:
+    titulo: Añadir la comprobación de integridad referencial al validador y corregir REL-058
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - REL-058
+    - FTE-075
+    - NOR-046
+    - NOR-068
+    - PREG-009
+    siguiente_accion: null
+  TAREA-081:
+    titulo: Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-047
+    - FTE-050
+    - TAREA-079
+    - TAREA-077
+    siguiente_accion: null
+  TAREA-082:
+    titulo: Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - CUR-033
+    - NOR-043
+    - FTE-046
+    - TAREA-067
+    siguiente_accion: null
+  TAREA-083:
+    titulo: Fusionar las fichas normativas desdobladas por etapa y detectar el patrón en el validador
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0010
+    - PREG-009
+    - NOR-044
+    - NOR-046
+    - NOR-047
+    - FTE-047
+    - FTE-051
+    siguiente_accion: null
+  TAREA-084:
+    titulo: Re-exportar las trece copias locales que contienen una norma distinta de la que declaran
+    estado: Hecha
+    prioridad: Crítica
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: '2026-08-05'
+    relacionadas:
+    - NOR-044
+    - NOR-028
+    - NOR-050
+    - NOR-060
+    - TAREA-074
+    - TAREA-077
+    - TAREA-081
+    siguiente_accion: null
+  TAREA-075:
+    titulo: Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0008
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-072
+    - TAREA-073
+    siguiente_accion: null
+  TAREA-085:
+    titulo: Verificar o retirar las tres normas que no se han localizado en fuente oficial
+    estado: Hecha
+    prioridad: Crítica
+    tipo: control-vigencia
+    responsable: '@.agents/skills/control-vigencia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-017
+    - NOR-018
+    - NOR-050
+    - FTE-053
+    - REL-047
+    - REL-048
+    - PREG-010
+    - PREG-011
+    - PREG-012
+    - TAREA-084
+    siguiente_accion: null
+  TAREA-086:
+    titulo: Catalogar las disposiciones que el monitor detectó y nunca se ficharon
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-079
+    - NOR-080
+    - NOR-081
+    - NOR-085
+    - FTE-086
+    - FTE-087
+    - TAREA-064
+    - TAREA-084
+    - PREG-006
+    siguiente_accion: null
+  TAREA-087:
+    titulo: Ampliar JSON-LD, ELI y Akoma Ntoso al resto del corpus
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-063
+    - NOR-001
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - NOR-006
+    - NOR-007
+    - NOR-079
+    - PREG-013
+    siguiente_accion: null
+  TAREA-088:
+    titulo: Ampliar los pilotos Akoma Ntoso del núcleo curricular
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-087
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - NOR-006
+    - NOR-007
+    - NOR-043
+    - NOR-047
+    - NOR-079
+    - NOR-080
+    siguiente_accion: null
+  TAREA-089:
+    titulo: Validar los pilotos Akoma Ntoso contra el XSD oficial en CI
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    fecha_cierre: 2026-08-22
+    relacionadas:
+    - TAREA-087
+    - TAREA-088
+    - TAREA-090
+    siguiente_accion: null
+  TAREA-090:
+    titulo: Ampliar la cobertura Akoma Ntoso (artículos 3+, normas nuevas, disposiciones y LOFP art. 2)
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-088
+    - TAREA-089
+    - TAREA-090
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - NOR-006
+    - NOR-007
+    - NOR-009
+    - NOR-018
+    - NOR-024
+    - NOR-043
+    - NOR-047
+    - NOR-079
+    - NOR-080
+    siguiente_accion: null
+  TAREA-091:
+    titulo: Auditar y normalizar el corpus — estados de tarea, resúmenes sangrados, chunks fuera de esquema, frontmatters ausentes y puntos ciegos del validador
+    estado: Hecha
+    fecha_cierre: 2026-08-23
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    relacionadas:
+    - TAREA-010
+    - TAREA-069
+    - TAREA-075
+    - TAREA-089
+    - TAREA-090
+    - DEC-0010
+    siguiente_accion: null
+  TAREA-092:
+    titulo: Resolver los avisos del validador sobre copias locales contaminadas y alinear textos-oficiales.yaml
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-084
+    - TAREA-085
+    - TAREA-091
+    - DEC-0011
+    - PREG-010
+    - PREG-011
+    - PREG-012
+    siguiente_accion: null
+  TAREA-093:
+    titulo: Resolver los pendientes del corpus — PREG-013, marcadores PENDIENTE verificados y fichas históricas reconstruidas
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    - PREG-013
+    siguiente_accion: null
+  TAREA-094:
+    titulo: Catalogar la deuda documental verificada — órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada
+    estado: Hecha
+    fecha_cierre: 2026-08-23
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    relacionadas:
+    - NOR-071
+    - FTE-057
+    - FTE-058
+    - FTE-061
+    - FTE-065
+    - FTE-066
+    - FTE-067
+    - PREG-013
+
+  TAREA-095:
+    titulo: Ampliar el análisis detallado de las fichas mínimas de inventario (NOR-117 a NOR-124)
+    estado: Hecha
+    prioridad: Media
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    siguiente_accion: null
+  TAREA-096:
+    titulo: Ampliar la cobertura Akoma Ntoso a nuevas normas del corpus
+    estado: Hecha
+    prioridad: Media
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-090
+    - TAREA-091
+    siguiente_accion: null
+  TAREA-097:
+    titulo: Revisión periódica de vigencia — auditoría de copias locales y contraste con el BOC
+    estado: Hecha
+    prioridad: Alta
+    tipo: control-vigencia
+    responsable: '@.agents/skills/control-vigencia'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    - DEC-0011
+    siguiente_accion: null
+  TAREA-098:
+    titulo: Revisar e incorporar novedades de evaluación y organización para 2026-2027
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis-normativo
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: '2026-10-07'
+    fecha_actualizacion: '2026-10-07'
+    fecha_cierre: '2026-10-07'
+    relacionadas:
+    - NOR-125
+    - NOR-126
+    - NOR-127
+    - NOR-128
+    - NOR-129
+    - NOR-130
+    - NOR-131
+    - NOR-046
+    - PREG-014
+    siguiente_accion: null
+bloqueos: []
+reglas:
+- No crear contenido normativo sin fuente oficial.
+- No borrar historial.
+- Actualizar índices YAML con cada nueva entidad.
+- Marcar toda duda como PREG-NNN.

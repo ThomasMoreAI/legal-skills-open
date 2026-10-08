@@ -1,0 +1,2169 @@
+fecha_contraste: '2026-08-23'
+pilotos:
+- id: NOR-001
+  articulo: '1'
+  num: Artículo 1.
+  heading: Principios.
+  work_uri: /akn/es/act/2006-05-03/2
+  frbr_name: Ley Orgánica
+  frbr_number: '2'
+  country: es
+  work_date: '2006-05-03'
+  expression_date: '2020-12-30'
+  author_eid: jefatura-estado
+  author_href: https://www.boe.es/
+  author_show: Jefatura del Estado
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-001-loe-consolidada.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2006-7899) el 2026-08-23.
+    Porción incorporada por TAREA-096.
+  parrafos:
+  - text: 'El sistema educativo español, configurado de acuerdo con los valores de
+      la Constitución y asentado en el respeto a los derechos y libertades reconocidos
+      en ella, se inspira en los siguientes principios: El sistema educativo español,
+      configurado de acuerdo con los valores de la Constitución y asentado en el respeto
+      a los derechos y libertades reconocidos en ella, se inspira en los siguientes
+      principios:'
+  - num: a)
+    text: El cumplimiento efectivo de los derechos de la infancia según lo establecido
+      en la Convención sobre los Derechos del Niño, adoptada por Naciones Unidas el
+      20 de noviembre de 1989, ratificada el 30 de noviembre de 1990, y sus Protocolos
+      facultativos, reconociendo el interés superior del menor, su derecho a la educación,
+      a no ser discriminado y a participar en las decisiones que les afecten y la
+      obligación del Estado de asegurar sus derechos.
+  - num: a bis)
+    text: La calidad de la educación para todo el alumnado, sin que exista discriminación
+      alguna por razón de nacimiento, sexo, origen racial, étnico o geográfico, discapacidad,
+      edad, enfermedad, religión o creencias, orientación sexual o identidad sexual
+      o cualquier otra condición o circunstancia personal o social.
+  - num: b)
+    text: La equidad, que garantice la igualdad de oportunidades para el pleno desarrollo
+      de la personalidad a través de la educación, la inclusión educativa, la igualdad
+      de derechos y oportunidades, también entre mujeres y hombres, que ayuden a superar
+      cualquier discriminación y la accesibilidad universal a la educación, y que
+      actúe como elemento compensador de las desigualdades personales, culturales,
+      económicas y sociales, con especial atención a las que se deriven de cualquier
+      tipo de discapacidad, de acuerdo con lo establecido en la Convención sobre los
+      Derechos de las Personas con Discapacidad, ratificada en 2008, por España.
+  - num: c)
+    text: La transmisión y puesta en práctica de valores que favorezcan la libertad
+      personal, la responsabilidad, la ciudadanía democrática, la solidaridad, la
+      tolerancia, la igualdad, el respeto y la justicia, así como que ayuden a superar
+      cualquier tipo de discriminación.
+  - num: d)
+    text: La concepción de la educación como un aprendizaje permanente, que se desarrolla
+      a lo largo de toda la vida.
+  - num: e)
+    text: La flexibilidad para adecuar la educación a la diversidad de aptitudes,
+      intereses, expectativas y necesidades del alumnado, así como a los cambios que
+      experimentan el alumnado y la sociedad.
+  - num: f)
+    text: La orientación educativa y profesional de los estudiantes, como medio necesario
+      para el logro de una formación personalizada, que propicie una educación integral
+      en conocimientos, destrezas y valores.
+  - num: g)
+    text: El esfuerzo individual y la motivación del alumnado.
+  - num: h)
+    text: El esfuerzo compartido por alumnado, familias, profesores, centros, Administraciones,
+      instituciones y el conjunto de la sociedad.
+  - num: h bis)
+    text: El reconocimiento del papel que corresponde a los padres, madres y tutores
+      legales como primeros responsables de la educación de sus hijos.
+  - num: i)
+    text: La autonomía para establecer y adecuar las actuaciones organizativas y curriculares
+      en el marco de las competencias y responsabilidades que corresponden al Estado,
+      a las Comunidades Autónomas, a las corporaciones locales y a los centros educativos.
+  - num: j)
+    text: La participación de la comunidad educativa en la organización, gobierno
+      y funcionamiento de los centros docentes.
+  - num: k)
+    text: La educación para la convivencia, el respeto, la prevención de conflictos
+      y la resolución pacífica de los mismos, así como para la no violencia en todos
+      los ámbitos de la vida personal, familiar y social, y en especial en el del
+      acoso escolar y ciberacoso con el fin de ayudar al alumnado a reconocer toda
+      forma de maltrato, abuso sexual, violencia o discriminación y reaccionar frente
+      a ella.
+  - num: l)
+    text: El desarrollo de la igualdad de derechos, deberes y oportunidades, el respeto
+      a la diversidad afectivo-sexual y familiar, el fomento de la igualdad efectiva
+      de mujeres y hombres a través de la consideración del régimen de la coeducación
+      de niños y niñas, la educación afectivo-sexual, adaptada al nivel madurativo,
+      y la prevención de la violencia de género, así como el fomento del espíritu
+      crítico y la ciudadanía activa.
+  - num: m)
+    text: La consideración de la función docente como factor esencial de la calidad
+      de la educación, el reconocimiento social del profesorado y el apoyo a su tarea.
+  - num: n)
+    text: El fomento y la promoción de la investigación, la experimentación y la innovación
+      educativa. ñ) La evaluación del conjunto del sistema educativo, tanto en su
+      programación y organización y en los procesos de enseñanza y aprendizaje como
+      en sus resultados.
+  - num: o)
+    text: La cooperación entre el Estado y las Comunidades Autónomas en la definición,
+      aplicación y evaluación de las políticas educativas.
+  - num: p)
+    text: La cooperación y colaboración de las Administraciones educativas con las
+      corporaciones locales en la planificación e implementación de la política educativa.
+  - num: q)
+    text: La libertad de enseñanza, que reconozca el derecho de los padres, madres
+      y tutores legales a elegir el tipo de educación y el centro para sus hijos,
+      en el marco de los principios constitucionales.
+  - num: r)
+    text: La educación para la transición ecológica con criterios de justicia social
+      como contribución a la sostenibilidad ambiental, social y económica.
+- id: NOR-003
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  parrafos:
+  - text: El presente real decreto tiene por objeto establecer la ordenación y las
+      enseñanzas mínimas de la etapa de Educación Secundaria Obligatoria.
+- id: NOR-004
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto y ámbito.
+  work_uri: /akn/es-cn/act/2014-07-25/6
+  frbr_name: Ley
+  frbr_number: '6'
+  country: es-cn
+  work_date: '2014-07-25'
+  expression_date: '2014-08-07'
+  author_eid: parlamento-canarias
+  author_href: https://www.parcan.es/
+  author_show: Parlamento de Canarias
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-004-ley-canaria-6-2014.txt
+  parrafos:
+  - num: '1.'
+    text: La presente ley tiene por objeto regular el sistema educativo canario y
+      su evaluación, de modo que pueda convertirse en un instrumento eficaz para hacer
+      efectivo el derecho a una educación de calidad, inclusiva e integradora, que
+      garantice la equidad y la excelencia, la prestación de un servicio público esencial
+      y convertirse, a la vez, en uno de los motores del desarrollo social, económico
+      y cultural del archipiélago.
+  - num: '2.'
+    text: El ámbito de aplicación de la presente ley es todo el sistema educativo
+      canario, a excepción del universitario, en consonancia con las competencias
+      asumidas en el Estatuto de Autonomía de Canarias y en el desarrollo de las normas
+      básicas aprobadas por el Estado.
+- id: NOR-005
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto y ámbito de aplicación.
+  work_uri: /akn/es-cn/act/2023-03-16/30
+  frbr_name: Decreto
+  frbr_number: '30'
+  country: es-cn
+  work_date: '2023-03-16'
+  expression_date: '2023-03-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2023/058/001.html
+  parrafos:
+  - num: '1.'
+    text: El presente Decreto tiene por objeto establecer la ordenación y el currículo
+      de las etapas educativas de la ESO y el Bachillerato en la Comunidad Autónoma
+      de Canarias.
+  - num: '2.'
+    text: Lo establecido en este Decreto será de aplicación en todos los centros educativos,
+      públicos y privados, que impartan las citadas etapas educativas en el ámbito
+      de la Comunidad Autónoma de Canarias.
+- id: NOR-006
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  parrafos:
+  - text: El presente real decreto tiene por objeto establecer la ordenación y las
+      enseñanzas mínimas de la etapa de Bachillerato.
+- id: NOR-007
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto y finalidad.
+  work_uri: /akn/es/act/2022-03-31/3
+  frbr_name: Ley Orgánica
+  frbr_number: '3'
+  country: es
+  work_date: '2022-03-31'
+  expression_date: '2022-04-01'
+  author_eid: jefatura-estado
+  author_href: https://www.boe.es/
+  author_show: Jefatura del Estado
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-007-lofp.txt
+  parrafos:
+  - num: '1.'
+    text: Esta ley tiene por objeto la constitución y ordenación de un sistema único
+      e integrado de formación profesional.
+  - num: '2.'
+    text: La finalidad de la norma es regular un régimen de formación y acompañamiento
+      profesionales que, sirviendo al fortalecimiento, la competitividad y la sostenibilidad
+      de la economía española, sea capaz de responder con flexibilidad a los intereses,
+      las expectativas y las aspiraciones de cualificación profesional de las personas
+      a lo largo de su vida y a las competencias demandadas por las nuevas necesidades
+      productivas y sectoriales tanto para el aumento de la productividad como para
+      la generación de empleo.
+  - num: '3.'
+    text: Cuantas medidas y acciones se programen y desarrollen en el marco del Sistema
+      de Formación Profesional deberán responder a la finalidad a la que éste sirve,
+      con la flexibilidad que exige la generación de itinerarios formativos y profesionales
+      versátiles.
+- id: NOR-079
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto.
+  work_uri: /akn/es/act/2022-03-01/157
+  frbr_name: Real Decreto
+  frbr_number: '157'
+  country: es
+  work_date: '2022-03-01'
+  expression_date: '2022-03-02'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-079-rd-157-2022-ensenanzas-minimas-primaria.txt
+  parrafos:
+  - text: El presente real decreto tiene por objeto establecer la ordenación y las
+      enseñanzas mínimas de la etapa de Educación Primaria.
+- id: NOR-003
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  parrafos:
+  - text: 'A efectos de este real decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      la etapa y cuya consecución está vinculada a la adquisición de las competencias
+      clave.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo,
+      y afrontar los principales retos y desafíos globales y locales. Las competencias
+      clave aparecen recogidas en el Perfil de salida del alumnado al término de la
+      enseñanza básica y son la adaptación al sistema educativo español de las competencias
+      clave establecidas en la Recomendación del Consejo de la Unión Europea de 22
+      de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones cuyo abordaje requiere de los saberes básicos
+      de cada materia o ámbito. Las competencias específicas constituyen un elemento
+      de conexión entre, por una parte, el Perfil de salida del alumnado, y por otra,
+      los saberes básicos de las materias o ámbitos y los criterios de evaluación.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones o actividades a las que se refieren
+      las competencias específicas de cada materia o ámbito en un momento determinado
+      de su proceso de aprendizaje.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes que constituyen los
+      contenidos propios de una materia o ámbito cuyo aprendizaje es necesario para
+      la adquisición de las competencias específicas.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue
+      por parte del alumnado de actuaciones asociadas a competencias clave y competencias
+      específicas y que contribuyen a la adquisición y desarrollo de las mismas.'
+- id: NOR-004
+  articulo: '2'
+  num: Artículo 2.
+  heading: Configuración del sistema educativo canario.
+  work_uri: /akn/es-cn/act/2014-07-25/6
+  frbr_name: Ley
+  frbr_number: '6'
+  country: es-cn
+  work_date: '2014-07-25'
+  expression_date: '2014-08-07'
+  author_eid: parlamento-canarias
+  author_href: https://www.parcan.es/
+  author_show: Parlamento de Canarias
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-004-ley-canaria-6-2014.txt
+  parrafos:
+  - num: '1.'
+    text: El sistema educativo de Canarias comprende las enseñanzas reguladas en el
+      título II de la presente ley, los centros que las imparten y los servicios educativos,
+      sean cuales sean los destinatarios de las enseñanzas, la titularidad del centro
+      o su sistema de financiación.
+  - num: '2.'
+    text: Las características del sistema educativo, los principios rectores y los
+      objetivos definidos en esta ley orientan el ordenamiento de los componentes
+      del sistema educativo y conforman el modelo educativo de Canarias.
+  - num: '3.'
+    text: Todos los componentes del sistema educativo en Canarias se ordenan de un
+      modo singular para respetar sus particularidades y lograr que las diferentes
+      enseñanzas puedan alcanzar sus objetivos, contribuyendo a que las personas adquieran
+      o mejoren sus capacidades y competencias.
+  - num: '4.'
+    text: Los órganos consultivos y de participación que tengan asignadas funciones
+      relacionadas con la educación y que hayan sido regulados en las distintas leyes
+      de la Comunidad Autónoma de Canarias también formarán parte del sistema educativo.
+      Entre los mencionados órganos se incluirá el Consejo Escolar de Canarias y el
+      Consejo Canario de Formación Profesional.
+  - num: '5.'
+    text: El sistema educativo de Canarias está compuesto por la red pública y la
+      red privada.
+- id: NOR-005
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es-cn/act/2023-03-16/30
+  frbr_name: Decreto
+  frbr_number: '30'
+  country: es-cn
+  work_date: '2023-03-16'
+  expression_date: '2023-03-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2023/058/001.html
+  parrafos:
+  - num: '1.'
+    text: A los efectos de lo dispuesto en este Decreto, se entiende por currículo
+      de la ESO y del Bachillerato, el conjunto de objetivos, competencias, contenidos
+      enunciados en forma de saberes básicos, criterios de evaluación, y métodos pedagógicos.
+      Todo ello ha de regular la práctica docente, de forma que se desarrollen de
+      manera integral las capacidades del alumnado.
+  - num: '2.'
+    text: 'En relación con lo dispuesto en este Decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      cada una de las etapas educativas reguladas en este Decreto y cuya consecución
+      está vinculada al proceso de desarrollo y adquisición de las competencias clave
+      y de las competencias específicas de cada materia o ámbito.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo
+      y afrontar los principales retos y desafíos globales y locales. Las competencias
+      clave aparecen recogidas en el Perfil de salida del alumnado al término de la
+      enseñanza básica, en el caso de la ESO, y en los descriptores operativos que
+      establecen el nivel de desarrollo y de adquisición esperado de las mismas, al
+      término de Bachillerato. Estos marcos de referencia constituyen la adaptación
+      al sistema educativo español de las competencias clave establecidas en la Recomendación
+      del Consejo de la Unión Europea, de 22 de mayo de 2018, relativa a las competencias
+      clave para el aprendizaje permanente.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones de aprendizaje, cuyo abordaje requiere de los
+      saberes básicos de cada materia o ámbito. Las competencias específicas constituyen
+      un elemento de conexión entre, por una parte, el Perfil de salida del alumnado
+      y los descriptores operativos de Bachillerato; y, por otra, los saberes básicos
+      y los criterios de evaluación de las materias y de los ámbitos. Las competencias
+      específicas presentan un carácter finalista, por lo que deberán ser alcanzadas
+      por el alumnado al término de la etapa educativa correspondiente. Su grado de
+      consecución en cada uno de los niveles de ambas etapas viene determinado por
+      los criterios de evaluación que se establecen para cada una de ellas.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones de aprendizaje o actividades a las
+      que se refieren las competencias específicas de cada materia o ámbito, en un
+      momento determinado de su proceso de aprendizaje. Constituyen los referentes
+      para la evaluación tanto de los saberes propios de las materias o los ámbitos,
+      como del grado de desarrollo y adquisición de las competencias específicas y
+      clave.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes, que constituyen
+      los contenidos propios de una materia o un ámbito, y cuyo aprendizaje es necesario
+      para la adquisición de las competencias específicas.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue,
+      por parte del alumnado, de actuaciones asociadas a competencias clave y competencias
+      específicas, y que contribuyen a la adquisición y el desarrollo de las mismas.'
+- id: NOR-006
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  parrafos:
+  - text: 'A efectos de este real decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      la etapa y cuya consecución está vinculada a la adquisición de las competencias
+      clave.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo,
+      y afrontar los principales retos y desafíos globales y locales. Son la adaptación
+      al sistema educativo español de las competencias clave establecidas en la Recomendación
+      del Consejo de la Unión Europea, de 22 de mayo de 2018, relativa a las competencias
+      clave para el aprendizaje permanente.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones cuyo abordaje requiere de los saberes básicos
+      de cada materia. Las competencias específicas constituyen un elemento de conexión
+      entre, por una parte, las competencias clave, y por otra, los saberes básicos
+      de las materias y los criterios de evaluación.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones o actividades a las que se refieren
+      las competencias específicas de cada materia en un momento determinado de su
+      proceso de aprendizaje.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes que constituyen los
+      contenidos propios de una materia y cuyo aprendizaje es necesario para la adquisición
+      de las competencias específicas.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue
+      por parte del alumnado de actuaciones asociadas a competencias clave y competencias
+      específicas, y que contribuyen a la adquisición y desarrollo de las mismas.'
+- id: NOR-079
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es/act/2022-03-01/157
+  frbr_name: Real Decreto
+  frbr_number: '157'
+  country: es
+  work_date: '2022-03-01'
+  expression_date: '2022-03-02'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-079-rd-157-2022-ensenanzas-minimas-primaria.txt
+  parrafos:
+  - text: 'A efectos de este real decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      la etapa y cuya consecución está vinculada a la adquisición de las competencias
+      clave.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo,
+      y afrontar los principales retos y desafíos globales y locales. Las competencias
+      clave aparecen recogidas en el Perfil de salida del alumnado al término de la
+      enseñanza básica y son la adaptación al sistema educativo español de las competencias
+      clave establecidas en la Recomendación del Consejo de la Unión Europea de 22
+      de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones cuyo abordaje requiere de los saberes básicos
+      de cada área o ámbito. Las competencias específicas constituyen un elemento
+      de conexión entre, por una parte, el Perfil de salida del alumnado, y, por otra,
+      los saberes básicos de las áreas o ámbitos y los criterios de evaluación.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones o actividades a las que se refieren
+      las competencias específicas de cada área en un momento determinado de su proceso
+      de aprendizaje.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes que constituyen los
+      contenidos propios de un área o ámbito y cuyo aprendizaje es necesario para
+      la adquisición de las competencias específicas.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue
+      por parte del alumnado de actuaciones asociadas a competencias clave y competencias
+      específicas y que contribuyen a la adquisición y desarrollo de las mismas.'
+- id: NOR-043
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto y ámbito de aplicación.
+  work_uri: /akn/es-cn/act/2022-11-10/211
+  frbr_name: Decreto
+  frbr_number: '211'
+  country: es-cn
+  work_date: '2022-11-10'
+  expression_date: '2022-11-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+  parrafos:
+  - num: '1.'
+    text: El presente Decreto tiene por objeto establecer la ordenación y el currículo
+      de la etapa de Educación Primaria, en desarrollo de lo dispuesto en el Real
+      Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las
+      enseñanzas mínimas de la Educación Primaria.
+  - num: '2.'
+    text: Este Decreto será de aplicación en todos los centros docentes sostenidos
+      con fondos públicos y privados que impartan las enseñanzas de esta etapa en
+      el ámbito territorial de la Comunidad Autónoma de Canarias.
+- id: NOR-043
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es-cn/act/2022-11-10/211
+  frbr_name: Decreto
+  frbr_number: '211'
+  country: es-cn
+  work_date: '2022-11-10'
+  expression_date: '2022-11-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+  parrafos:
+  - num: '1.'
+    text: A los efectos de lo dispuesto en este Decreto, se entiende por currículo
+      de la Educación Primaria el conjunto de objetivos, competencias, contenidos
+      enunciados en forma de saberes básicos, criterios de evaluación, situaciones
+      de aprendizaje y métodos pedagógicos. Todo ello ha de regular la práctica docente,
+      de forma que se desarrollen de manera integral las capacidades del alumnado.
+  - num: '2.'
+    text: 'En base a lo explicitado en el apartado anterior, y en relación a lo dispuesto
+      en este Decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      la etapa y cuya consecución está vinculada al proceso de desarrollo y adquisición
+      de las competencias clave y de las competencias específicas de cada área.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo,
+      y afrontar los principales retos y desafíos globales y locales. Las competencias
+      clave aparecen recogidas en el Perfil de salida del alumnado al término de la
+      enseñanza básica (en adelante, Perfil de salida) y son la adaptación al sistema
+      educativo español de las competencias clave establecidas en la Recomendación
+      del Consejo de la Unión Europea, de 22 de mayo de 2018 relativa a las competencias
+      clave para el aprendizaje permanente. Este perfil de salida ha sido adaptado,
+      además, al nivel de desempeño esperado para el alumnado que finaliza la Educación
+      Primaria.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones cuyo abordaje requiere de los saberes básicos
+      de cada área. Las competencias específicas constituyen un elemento de conexión
+      entre, por una parte, el Perfil de salida del alumnado, y, por otra, los saberes
+      básicos de las áreas y los criterios de evaluación. Las competencias específicas
+      de cada área, que serán comunes para todos los ciclos de la etapa, presentan
+      un carácter finalista. Su grado de consecución en cada uno de los ciclos de
+      la etapa viene determinado por los criterios de evaluación que se establecen
+      para cada una de ellas.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones o actividades a las que se refieren
+      las competencias específicas de cada área en un momento determinado de su proceso
+      de aprendizaje. Constituyen los referentes para la evaluación tanto de los saberes
+      propios de las áreas, como del grado de desarrollo y adquisición de las competencias
+      específicas y clave.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes que constituyen los
+      contenidos propios de un área y cuyo aprendizaje es necesario para la adquisición
+      de las competencias específicas.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue,
+      por parte del alumnado, de actuaciones asociadas a competencias clave y competencias
+      específicas, y que contribuyen a la adquisición y desarrollo de las mismas.'
+- id: NOR-047
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto y ámbito de aplicación.
+  work_uri: /akn/es-cn/act/2022-10-13/196
+  frbr_name: Decreto
+  frbr_number: '196'
+  country: es-cn
+  work_date: '2022-10-13'
+  expression_date: '2022-10-26'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/212/001.html
+  parrafos:
+  - num: '1.'
+    text: El presente Decreto tiene por objeto establecer la ordenación y el currículo
+      en la etapa de Educación Infantil.
+  - num: '2.'
+    text: Este Decreto será de aplicación a todos los centros docentes sostenidos
+      con fondos públicos y privados que impartan la citada etapa educativa en el
+      ámbito de la Comunidad Autónoma de Canarias.
+- id: NOR-047
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es-cn/act/2022-10-13/196
+  frbr_name: Decreto
+  frbr_number: '196'
+  country: es-cn
+  work_date: '2022-10-13'
+  expression_date: '2022-10-26'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/212/001.html
+  parrafos:
+  - num: '1.'
+    text: A los efectos de lo dispuesto en este Decreto, se entiende por currículo
+      de la Educación Infantil el conjunto de objetivos, competencias clave, competencias
+      específicas, criterios de evaluación, contenidos, enunciados en forma de saberes
+      básicos y métodos pedagógicos, que han de configurar las programaciones didácticas
+      del profesorado y regular su práctica docente, de forma que contribuyan al desarrollo
+      armónico e integral del alumnado desde el nacimiento hasta los 6 años de edad.
+  - num: '2.'
+    text: 'En relación a lo dispuesto en este Decreto, se entenderá por:'
+  - num: a)
+    text: 'Objetivos: logros que se espera que el alumnado haya alcanzado al finalizar
+      la etapa y cuya consecución está vinculada al proceso de desarrollo y adquisición
+      de las competencias clave, que se inicia en esta etapa, y de las competencias
+      específicas de cada área.'
+  - num: b)
+    text: 'Competencias clave: desempeños que se consideran imprescindibles para que
+      el alumnado pueda progresar con garantías de éxito en su itinerario formativo
+      y afrontar los principales retos y desafíos, tanto globales como locales.'
+  - num: c)
+    text: 'Competencias específicas: desempeños que el alumnado debe poder desplegar
+      en actividades o en situaciones cuyo abordaje requiere de los saberes básicos
+      de cada área. Las competencias específicas constituyen un elemento de conexión
+      entre, por una parte, las competencias clave y, por otra, los saberes básicos
+      y los criterios de evaluación de las áreas. Las competencias específicas, que
+      serán comunes para los dos ciclos de la etapa, presentan carácter finalista,
+      por lo que deberán ser alcanzadas por el alumnado al término de la etapa. Su
+      grado de consecución en cada uno de los ciclos viene determinado por los criterios
+      de evaluación que se establecen para cada una de ellas.'
+  - num: d)
+    text: 'Criterios de evaluación: referentes que indican los niveles de desempeño
+      esperados en el alumnado en las situaciones o actividades a las que se refieren
+      las competencias específicas de cada área en un momento determinado de su proceso
+      de aprendizaje. Constituyen los referentes para la evaluación tanto de los saberes
+      propios de las áreas como del grado de desarrollo y adquisición de las competencias
+      específicas.'
+  - num: e)
+    text: 'Saberes básicos: conocimientos, destrezas y actitudes que constituyen los
+      contenidos propios de un área, y cuyo aprendizaje es necesario para la adquisición
+      de las competencias específicas y clave.'
+  - num: f)
+    text: 'Situaciones de aprendizaje: situaciones y actividades que implican el despliegue,
+      por parte del alumnado, de actuaciones asociadas a competencias clave y competencias
+      específicas, y que contribuyen a la adquisición y al desarrollo de las mismas.'
+- id: NOR-080
+  articulo: '1'
+  num: Artículo 1.
+  heading: Objeto.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: La presente disposición tiene por objeto el desarrollo de un sistema único
+      e integrado de Formación Profesional regulado por la Ley Orgánica 3/2022, de
+      31 de marzo, de ordenación e integración de la Formación Profesional.
+- id: NOR-080
+  articulo: '2'
+  num: Artículo 2.
+  heading: Finalidades del Sistema de Formación Profesional.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: 'Son finalidades del Sistema de Formación Profesional:'
+  - num: a)
+    text: La apertura de la Formación Profesional a toda la población, incluyendo
+      la preparación para el primer acceso al mundo laboral, la formación profesional
+      continua y la readaptación profesional, con la orientación profesional y acompañamiento
+      que cada persona precise.
+  - num: b)
+    text: La aportación, mediante ofertas formativas ordenadas, acumulables y acreditables,
+      los conocimientos y las habilidades profesionales necesarios para una actividad
+      profesional cualificada en un mundo laboral cambiante.
+  - num: c)
+    text: Garantizar la formación profesional de personas trabajadoras, incluida la
+      dirigida a la adaptación a las modificaciones operadas en el puesto de trabajo,
+      así como al desarrollo de planes y acciones formativas tendentes a favorecer
+      la empleabilidad, de acuerdo con el artículo 4.2.b) del Estatuto de los Trabajadores.
+  - num: d)
+    text: La adquisición, mantenimiento, adaptación o ampliación de las habilidades
+      y competencias profesionales y el progreso en la carrera profesional.
+  - num: e)
+    text: La reconversión profesional y la reconducción del itinerario profesional
+      a un sector de actividad distinto de aquellas personas trabajadoras que necesiten
+      o deseen dirigirse hacia otro sector profesional.
+  - num: f)
+    text: El reconocimiento y acreditación de las competencias profesionales adquiridas
+      por experiencia laboral u otras vías no formales o informales.
+  - num: g)
+    text: La promoción de la cooperación y gestión coordinada de las distintas administraciones
+      públicas responsables de las políticas formativas de jóvenes y de personas trabajadoras,
+      ocupadas o desempleadas, y la colaboración de la iniciativa privada.
+- id: NOR-003
+  articulo: '3'
+  num: Artículo 3.
+  heading: La etapa de Educación Secundaria Obligatoria en el marco del sistema educativo.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado además con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: La Educación Secundaria Obligatoria es una etapa educativa que constituye,
+      junto con la Educación Primaria y los Ciclos Formativos de Grado Básico, la
+      Educación Básica.
+  - num: '2.'
+    text: Esta etapa comprende cuatro cursos y se organiza en materias y en ámbitos.
+  - num: '3.'
+    text: El cuarto curso tendrá carácter orientador, tanto para los estudios postobligatorios
+      como para la incorporación a la vida laboral.
+- id: NOR-004
+  articulo: '3'
+  num: Artículo 3.-
+  heading: Principios rectores.
+  work_uri: /akn/es-cn/act/2014-07-25/6
+  frbr_name: Ley
+  frbr_number: '6'
+  country: es-cn
+  work_date: '2014-07-25'
+  expression_date: '2014-08-07'
+  author_eid: parlamento-canarias
+  author_href: https://www.parcan.es/
+  author_show: Parlamento de Canarias
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-004-ley-canaria-6-2014.txt
+  nota: Contrastado además con el BOC núm. 152, de 07/08/2014 (https://www.gobiernodecanarias.org/boc/2014/152/002.html)
+    el 2026-08-22.
+  parrafos:
+  - text: 'Los principios rectores que regirán el sistema educativo canario serán:'
+  - num: a)
+    text: Un sistema educativo de calidad, entendido como un sistema que garantice
+      la equidad y la excelencia, con capacidad de ofrecer a cada persona el tipo
+      de atención pedagógica que necesita, garantizar una amplia igualdad de oportunidades,
+      facilitar la participación social, promover la eficacia en todos los centros
+      para atender a las necesidades educativas del alumnado y alcanzar los mejores
+      resultados de aprendizaje en todo el alumnado.
+  - num: b)
+    text: La equidad del sistema educativo para evitar que las desigualdades económicas
+      y sociales limiten las oportunidades de aprendizaje y se conviertan en un determinante
+      del éxito escolar.
+  - num: c)
+    text: La mejora continua de los centros y servicios educativos para que en cada
+      momento puedan ofrecer la respuesta más adecuada dadas las características del
+      alumnado y las condiciones disponibles, aportando su propio valor añadido a
+      las condiciones definidas para el conjunto del sistema educativo.
+  - num: d)
+    text: La educación en y para la convivencia basada en el respeto, la solidaridad
+      y la igualdad, la construcción de una cultura de paz dirigida a la prevención
+      de los conflictos y su resolución mediante el diálogo, la coeducación y la igualdad
+      efectiva entre hombres y mujeres.
+  - num: e)
+    text: La corresponsabilidad de todos los agentes educativos para lograr que la
+      educación sea considerada como uno de los bienes más preciados dentro de la
+      sociedad y que toda la población pueda formarse a lo largo de la vida.
+  - num: f)
+    text: 'La cooperación entre las administraciones públicas, así como entre las
+      administraciones públicas y los agentes económicos y sociales para impulsar
+      el desarrollo, la investigación y la innovación. Esta cooperación tendrá como
+      ejes prioritarios los siguientes: la reducción del absentismo escolar, la mejora
+      del rendimiento escolar, la promoción de la educación no formal y de los aprendizajes
+      que tienen lugar en contextos informales y la prestación de aquellos servicios
+      complementarios que la ley considere adecuados para una gestión compartida.'
+- id: NOR-005
+  articulo: '3'
+  num: Artículo 3.
+  heading: Currículo.
+  work_uri: /akn/es-cn/act/2023-03-16/30
+  frbr_name: Decreto
+  frbr_number: '30'
+  country: es-cn
+  work_date: '2023-03-16'
+  expression_date: '2023-03-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2023/058/001.html
+  parrafos:
+  - num: '1.'
+    text: El currículo de la ESO y del Bachillerato se organiza en materias o ámbitos,
+      en su caso, que garantizarán un tratamiento integrador de los aprendizajes,
+      vertebrados estos con el tratamiento de contenidos de carácter transversal,
+      para asegurar que el alumnado alcance los objetivos previstos para la etapa,
+      así como el grado de desarrollo y adquisición de las competencias clave, definidas
+      a través de los descriptores operativos establecidos en el Perfil de salida
+      del alumnado al término de la enseñanza básica y de los determinados para el
+      Bachillerato.
+  - num: '2.'
+    text:
+    - El currículo de las materias y los ámbitos, en su caso, se organiza, para los
+      diferentes cursos de la ESO y del Bachillerato, en bloques competenciales que
+      integran las competencias específicas, los criterios de evaluación asociados
+      y la vinculación de estos elementos con los descriptores operativos del Perfil
+      de salida en la ESO, y con los descriptores operativos establecidos para la
+      etapa de Bachillerato.
+    - Estos bloques competenciales incluyen, asimismo, una explicación que orienta
+      sobre el proceso de evaluación de los aprendizajes incluidos en cada uno de
+      los bloques competenciales, recogiendo, asimismo, orientaciones de tipo metodológico
+      y facilitando, de manera general, la vinculación con los saberes básicos. El
+      currículo determina, asimismo, los saberes básicos establecidos para cada nivel
+      en ambas etapas.
+  - num: '3.'
+    text: Los aprendizajes referidos al conocimiento, la valoración y la conservación
+      del patrimonio cultural, histórico, natural, social y lingüístico de la Comunidad
+      Autónoma de Canarias, se han integrado de manera transversal en los currículos
+      de las diferentes materias o ámbitos.
+  - num: '4.'
+    text: En los anexos 2 y 3 de este Decreto se establecen, para el ámbito de la
+      Comunidad Autónoma de Canarias, los currículos de cada una de las materias y
+      los cursos de la ESO y del Bachillerato, respectivamente.
+  - num: '5.'
+    text: Los centros docentes, en el uso de su autonomía, desarrollarán y completarán
+      estos currículos, y los concretarán en las programaciones didácticas, formando
+      parte del proyecto educativo del centro y de la programación general anual.
+  - num: '6.'
+    text: La programación didáctica será el instrumento de planificación curricular
+      que permita desarrollar los procesos de enseñanza y aprendizaje, de manera coordinada
+      entre todo el profesorado que integra un departamento de coordinación didáctica.
+      La programación didáctica, en estas etapas educativas, se estructurará en situaciones
+      de aprendizaje, y deberá estar centrada en el desarrollo y la adquisición de
+      las competencias clave y específicas, tomándose como referencia los criterios
+      de evaluación establecidos para cada materia o ámbito en el presente Decreto.
+      La Consejería competente en materia de educación dictará instrucciones sobre
+      los elementos que deberán conformar las programaciones didácticas y su contenido.
+  - num: '7.'
+    text: Para la adquisición y el desarrollo, tanto de las competencias clave como
+      de las competencias específicas, el equipo docente planificará y diseñará situaciones
+      de aprendizaje, en los términos que se dispongan desde la Consejería competente
+      en materia de educación.
+  - num: '8.'
+    text: El Anexo 4 del presente Decreto, que no presenta carácter prescriptivo,
+      establece el marco general para el diseño de situaciones de aprendizaje en el
+      seno de la etapa de la ESO y del Bachillerato. La Consejería competente en materia
+      de educación podrá concretar lo establecido de manera general en dicho anexo.
+- id: NOR-006
+  articulo: '3'
+  num: Artículo 3.
+  heading: La etapa de Bachillerato en el marco del sistema educativo.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado además con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: La educación secundaria se divide en educación secundaria obligatoria y
+      educación secundaria postobligatoria.
+  - num: '2.'
+    text: El Bachillerato es una de las enseñanzas que conforman la educación secundaria
+      postobligatoria, junto con la Formación Profesional de Grado Medio, las Enseñanzas
+      Artísticas Profesionales, tanto de Música y de Danza como de Artes Plásticas
+      y Diseño de Grado Medio, y las Enseñanzas Deportivas de Grado Medio.
+  - num: '3.'
+    text: Sin perjuicio de lo previsto en el artículo 15, la etapa comprende dos cursos,
+      se desarrolla en modalidades diferentes y se organiza de modo flexible en materias
+      comunes, materias de modalidad y materias optativas, a fin de que pueda ofrecer
+      una preparación especializada a los alumnos y alumnas acorde con sus perspectivas
+      e intereses de formación o permita la incorporación a la vida activa una vez
+      finalizado el mismo.
+- id: NOR-043
+  articulo: '3'
+  num: Artículo 3.-
+  heading: Principios generales.
+  work_uri: /akn/es-cn/act/2022-11-10/211
+  frbr_name: Decreto
+  frbr_number: '211'
+  country: es-cn
+  work_date: '2022-11-10'
+  expression_date: '2022-11-23'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+  parrafos:
+  - num: '1.'
+    text: La Educación Primaria tiene carácter obligatorio y gratuito, abarca seis
+      cursos académicos y se cursará, con carácter general, entre los 6 y los 12 años.
+  - num: '2.'
+    text: La Educación Primaria proporcionará a todos los niños y las niñas una educación
+      de calidad, en condiciones de equidad y con garantía de igualdad de oportunidades.
+  - num: '3.'
+    text: El conjunto de la actividad educativa contribuirá al desarrollo pleno del
+      alumnado a través de la integración de las distintas experiencias y aprendizajes
+      desde una perspectiva global, que permita asimismo la adaptación de los procesos
+      de enseñanza y de aprendizaje a los diferentes ritmos de trabajo y estilos de
+      aprendizaje del alumnado.
+  - num: '4.'
+    text: Las medidas organizativas, metodológicas y curriculares que se adopten se
+      regirán por los principios del Diseño Universal para el Aprendizaje, de manera
+      que se posibilite el acceso al currículo para todo el alumnado y que se responda
+      a las fortalezas y necesidades de este en función de sus características individuales.
+      Para ello, se contará con los recursos materiales y humanos necesarios y adecuados.
+  - num: '5.'
+    text: La actividad educativa, que implica la participación de toda la comunidad,
+      contribuirá al desarrollo pleno del alumnado a través de la integración curricular
+      de los valores y los aprendizajes que incidan en el desarrollo y la adquisición
+      de las competencias clave, que le permitan el ejercicio de una ciudadanía responsable,
+      consciente y respetuosa de los derechos y las libertades fundamentales, de la
+      igualdad efectiva de derechos y oportunidades entre hombres y mujeres, y de
+      la diversidad afectivo sexual; una ciudadanía crítica con las desigualdades,
+      los comportamientos sexistas y todas clase de discriminaciones por razón de
+      sexo, edad, religión, cultura, opción afectivo-sexual, capacidad.
+  - num: '6.'
+    text: Las relaciones interpersonales se sustentarán en el ejercicio de la tolerancia
+      y de la libertad, propio de una ciudadanía democrática donde la participación
+      sea la estrategia para lograr la corresponsabilidad de toda la comunidad educativa
+      y donde la convivencia positiva, la prevención de conflictos y su resolución
+      pacífica sean los principios rectores insertados, de manera transversal, en
+      los procesos de enseñanza y aprendizaje.
+- id: NOR-047
+  articulo: '3'
+  num: Artículo 3.-
+  heading: Fines.
+  work_uri: /akn/es-cn/act/2022-10-13/196
+  frbr_name: Decreto
+  frbr_number: '196'
+  country: es-cn
+  work_date: '2022-10-13'
+  expression_date: '2022-10-26'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2022/212/001.html
+  nota: Hay corrección de errores en el BOC núm. 214, de 28/10/2022, que solo afecta
+    al preámbulo.
+  parrafos:
+  - num: '1.'
+    text: 'La finalidad de la Educación Infantil es contribuir al desarrollo integral
+      y armónico del alumnado en todas sus dimensiones: física, emocional, sexual,
+      afectiva, social, cognitiva y artística.'
+  - num: '2.'
+    text: Se atenderá al progresivo desarrollo afectivo del alumnado, facilitando
+      la construcción de nuevos vínculos y relaciones, e iniciando a los niños y a
+      las niñas en la educación emocional. Se propiciará, además, que los niños y
+      las niñas elaboren progresivamente una autoimagen positiva y equilibrada, y
+      que adquieran gradualmente autonomía personal y hábitos de control corporal,
+      así como de salud, cuidado y bienestar propios de un estilo de vida saludable.
+      Se promoverán la adquisición de pautas elementales de convivencia, relación
+      social y gestión de las emociones; así como el desarrollo de la comunicación
+      y el lenguaje, iniciándose en la comunicación en una primera lengua extranjera
+      y en el proceso de alfabetización digital y mediática, así como en las destrezas
+      del pensamiento computacional.
+  - num: '3.'
+    text: Se promoverá, asimismo, el descubrimiento de las características físicas,
+      sociales y culturales del medio. De esta manera, el currículo de la Educación
+      Infantil, en la Comunidad Autónoma de Canarias, contribuirá a que el alumnado
+      se inicie en el conocimiento, aprecio y respeto de los aspectos culturales,
+      históricos, geográficos, naturales, sociales y lingüísticos más relevantes de
+      Canarias, así como los de su entorno, según lo requieran las diferentes áreas,
+      comenzando a integrar las posibilidades de acción para su conservación.
+  - num: '4.'
+    text: 'La implementación del currículo de la Educación Infantil en la Comunidad
+      Autónoma de Canarias se orientará, además, a la consecución de los siguientes
+      fines:'
+  - num: 4.a)
+    text: La incorporación de aprendizajes, valores y actitudes que contribuyan a
+      que el alumnado se inicie en actitudes en pro de la sostenibilidad ambiental
+      y del cuidado del medio natural, social y cultural.
+  - num: 4.b)
+    text: El desarrollo en los niños y en las niñas de la capacidad para adquirir
+      hábitos y valores solidarios y de equidad.
+  - num: 4.c)
+    text: La no discriminación de las personas por razones de identidad y orientación
+      sexual, religión, procedencia o cultura.
+  - num: 4.d)
+    text: La eliminación de los prejuicios, estereotipos y roles en función del sexo
+      o de la orientación sexual o de la identidad y expresión de género, la integración
+      del saber de las mujeres y su contribución social e histórica al desarrollo
+      de la humanidad, la prevención de la violencia de género, el fomento vínculos
+      afectivos saludables y la coeducación.
+  - num: 4.e)
+    text: El desarrollo progresivo del autoconocimiento, la autoestima, la gestión
+      de las emociones y los sentimientos, en pro del desarrollo personal y social.
+  - num: 4.f)
+    text: La atención al alumnado desde el principio de inclusión, equidad y compensación
+      de las posibles situaciones de vulnerabilidad que puedan incidir en su desarrollo
+      personal, social y educativo.
+- id: NOR-079
+  articulo: '3'
+  num: Artículo 3.
+  heading: La etapa de Educación Primaria en el marco del sistema educativo.
+  work_uri: /akn/es/act/2022-03-01/157
+  frbr_name: Real Decreto
+  frbr_number: '157'
+  country: es
+  work_date: '2022-03-01'
+  expression_date: '2022-03-02'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-079-rd-157-2022-ensenanzas-minimas-primaria.txt
+  nota: Contrastado además con el BOE-A-2022-3296 el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: La Educación Primaria es una etapa educativa que constituye, junto con la
+      Educación Secundaria Obligatoria y los Ciclos Formativos de Grado Básico, la
+      Educación Básica.
+  - num: '2.'
+    text: La Educación Primaria comprende tres ciclos de dos años académicos cada
+      uno y se organiza en áreas que tendrán un carácter global e integrador, estarán
+      orientadas al desarrollo de las competencias del alumnado y podrán organizarse
+      en ámbitos.
+- id: NOR-080
+  articulo: '3'
+  num: Artículo 3.
+  heading: Función y objetivos generales del Sistema de Formación Profesional.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  nota: Texto original de 22/07/2023; la corrección de errores del BOE núm. 124, de
+    23/05/2025 no afecta a este artículo.
+  parrafos:
+  - num: '1.'
+    text: 'En cumplimiento de los principios prescritos en el artículo 3 y de la función
+      legal prevista en el artículo 5, apartados 1 y 2, de la Ley Orgánica 3/2022,
+      de 31 de marzo, de ordenación e integración de la Formación Profesional, es
+      función del Sistema de Formación Profesional el desarrollo personal y profesional
+      de la persona, la mejora continuada de su cualificación a lo largo de toda la
+      vida y la garantía de la satisfacción de las necesidades formativas del sistema
+      productivo y del empleo. Son objetivos del Sistema de Formación Profesional:'
+  - num: 1.a)
+    text: Garantizar a todas las personas, en condiciones de equidad y a lo largo
+      de la vida, una Formación Profesional de calidad, en diferentes modalidades,
+      significativa personal y socialmente, que satisfaga tanto el desarrollo de la
+      personalidad como las necesidades individuales de cualificación y recualificación
+      permanentes con arreglo a itinerarios diversificados, y de respuesta a sus necesidades
+      formativas a medida que se producen, atendiendo a sus circunstancias personales,
+      sociales y laborales.
+  - num: 1.b)
+    text: Cualificar a las personas para el ejercicio de actividades profesionales,
+      promoviendo la adquisición, consolidación y ampliación de competencias profesionales
+      y básicas con la polivalencia y funcionalidad necesarias para el acceso al empleo,
+      la continuidad en el mismo y la progresión y el desarrollo profesionales, así
+      como la rápida adaptación a los retos de futuro derivados de entornos de trabajo
+      complejos, todo ello orientado a la promoción y formación profesional dirigida
+      a su adaptación a las modificaciones operadas en el puesto de trabajo, así como
+      al desarrollo de planes y acciones formativas tendentes a favorecer su mayor
+      empleabilidad,
+  - num: 1.c)
+    text: Desarrollar, en el marco del Sistema de Formación Profesional, el derecho
+      a la formación de las personas trabajadoras ocupadas o en situación de desempleo,
+      de acuerdo con el artículo 4.2.b) del Estatuto de los Trabajadores.
+  - num: 1.d)
+    text: Proveer a las empresas y los sectores productivos con los perfiles profesionales
+      necesarios en cada momento, con su participación efectiva en el Sistema de Formación
+      Profesional, teniendo en cuenta el carácter determinante y la creación sostenida
+      de valor para las personas y las empresas, de la cualificación de las personas
+      trabajadoras, su flexibilidad, rapidez de adaptación, polivalencia y transversalidad,
+      desde el obligado respeto al medioambiente.
+  - num: 1.e)
+    text: Observar de manera continua la evolución de la demanda y la oferta de profesiones,
+      ocupaciones y perfiles en el mercado de trabajo para la prospección e identificación
+      de las necesidades de cualificación.
+  - num: 1.f)
+    text: Ofertar formación actualizada y suficiente, que incorpore de manera proactiva
+      y ágil tanto las competencias profesionales emergentes, como la innovación,
+      la investigación aplicada, el emprendimiento, incluyendo el emprendimiento colectivo
+      en economía social, la digitalización, la sostenibilidad y la emergencia climática,
+      en tanto que factores estructurales de éxito en el nuevo modelo económico.
+  - num: 1.g)
+    text: Configurar la Formación Profesional de manera flexible, modular y acorde
+      con los planteamientos a escala de la Unión Europea, sobre la base de itinerarios
+      formativos accesibles, progresivos, acumulables y adaptados a las necesidades
+      individuales y colectivas, teniendo en cuenta la edad, el sexo, la discapacidad
+      en su caso, y la situación personal, familiar o laboral, y dirigidos a un abanico
+      de perfiles profesionales comprensivo, desde los generalistas hasta los altamente
+      especializados.
+  - num: 1.h)
+    text: Impulsar la dimensión dual de la Formación Profesional y de sus vínculos
+      con el sistema productivo en un marco de colaboración público-privada entre
+      administraciones, centros, empresas u organismos equiparados, organizaciones
+      empresariales y sindicales, entidades y tercer sector para la creación conjunta
+      de valor, el alineamiento de los objetivos y proyectos estratégicos comunes,
+      la superación de la brecha urbano/rural a través de una adecuada adaptación
+      territorial, y el uso eficaz de los recursos en entornos formativos y profesionales.
+  - num: 1.i)
+    text: Operar con arreglo a un modelo de gobernanza que, respetando las competencias
+      de las administraciones concernidas, incorpore el papel de las organizaciones
+      empresariales y sindicales más representativas y su participación y cooperación
+      con los poderes públicos en las políticas del Sistema de Formación Profesional.
+  - num: 1.j)
+    text: Facilitar la acreditación y el reconocimiento de las competencias profesionales
+      vinculadas al Catálogo Nacional de Estándares de Competencias Profesionales,
+      adquiridas mediante la experiencia laboral u otras vías no formales o informales.
+  - num: 1.k)
+    text: Proveer orientación profesional que facilite a las personas, a lo largo
+      de la vida, la toma de decisiones en la elección y gestión de sus carreras formativas
+      y profesionales, combatiendo los estereotipos de género, los relacionados con
+      la discapacidad o con las necesidades específicas de apoyo educativo o formativo,
+      y colaborando en la construcción de una identidad profesional motivadora de
+      futuros aprendizajes y adaptaciones a la evolución de los procesos productivos
+      y al cambio social, y favoreciendo el conocimiento de las oportunidades existentes
+      o emergentes en los entornos rurales y las zonas en declive demográfico.
+  - num: 1.l)
+    text: Fomentar la igualdad efectiva de oportunidades entre las personas en el
+      acceso y desarrollo de su proceso de formación profesional para todo tipo de
+      opciones profesionales, y la eliminación del sesgo formativo existente entre
+      mujeres y hombres.
+  - num: 1.m)
+    text: Promover la igualdad de oportunidades de las personas con discapacidad y,
+      en general, de personas y colectivos con dificultades de inserción socio-laboral
+      en el acceso y el proceso de formación profesional habilitante y facilitadora
+      de la inserción en el mercado laboral.
+  - num: 1.n)
+    text: Incrementar la presencia social de la formación profesional como opción
+      de valor para el empleo y la progresión académica, tanto reforzando la relación
+      y cooperación entre los sistemas de formación profesional y universitario, como
+      contribuyendo a la erradicación del abandono temprano sin una cualificación
+      profesional que garantice una empleabilidad sostenida.
+  - num: 1.ñ)
+    text: Impulsar la participación de las personas adultas, para su cualificación
+      o recualificación, en acciones de formación profesional como elemento integrado
+      en el desempeño profesional y la vida laboral y única forma de lograr el mayor
+      grado de especialización que demandan ámbitos cada vez más complejos.
+  - num: 1.o)
+    text: Promover la planificación integrada en cada territorio de una oferta de
+      formación profesional a lo largo de la vida, así como de la complementariedad
+      de las redes de centros del Sistema de Formación Profesional y el uso compartido
+      de sus instalaciones y recursos.
+  - num: 1.p)
+    text: Generar circuitos inter-autonómicos y transnacionales de trasferencia de
+      conocimiento entre centros, empresas u organismos equiparados, entidades, docentes,
+      y personas en formación, promoviendo proyectos de movilidad.
+  - num: 1.q)
+    text: Extender el conocimiento de lenguas extranjeras en el ámbito profesional.
+  - num: 1.r)
+    text: Actualizar permanentemente las competencias del personal docente y formador
+      que les permitan diseñar y adecuar los procesos formativos de acuerdo con las
+      nuevas necesidades productivas y sectoriales, así como las propias del alumnado,
+      especialmente el alumnado con necesidades específicas de apoyo educativo o formativo.
+  - num: 1.s)
+    text: Poner en marcha y mantener un proceso de evaluación y mejora continua de
+      la calidad del Sistema de Formación Profesional, en particular su carácter dual,
+      que proporcione información sobre su funcionamiento y adecuación a las necesidades
+      formativas individuales y del sistema productivo, y promueva la investigación
+      sobre el modelo de formación profesional, así como su impacto sobre las dimensiones
+      de mejora del empleo y de la productividad.
+  - num: 1.t)
+    text: Impulsar una oferta pública suficiente y adaptada a las necesidades y demandas
+      de los sectores productivos.
+  - num: '2.'
+    text:
+    - Para la consecución de los objetivos fijados en el apartado anterior, la Administración
+      General del Estado y las de las comunidades autónomas, deben cooperar en la
+      definición, aplicación y evaluación de las políticas públicas de promoción del
+      desarrollo económico y social y adecuación de las acciones formativas a las
+      necesidades y proyectos estratégicos territoriales. Asimismo, las administraciones
+      locales cooperarán en el ámbito de competencias que se determine en esta norma.
+    - Cada administración autonómica definirá los mecanismos de cooperación entre
+      aquellas administraciones con competencia en materia de formación profesional
+      o, en su caso, de su gestión, garantizando el buen funcionamiento del Sistema
+      de Formación Profesional para toda la ciudadanía, tanto jóvenes como personas
+      trabajadoras, ocupadas o desempleadas.
+    - En lo tocante a la Administración del Estado, el Ministerio de Educación y Formación
+      profesional, en materia de políticas de formación profesional, cooperará con
+      las políticas de promoción del desarrollo económico y social y las políticas
+      activas de empleo y los departamentos competentes al efecto.
+- id: NOR-007
+  articulo: '2'
+  num: Artículo 2.
+  heading: Definiciones.
+  work_uri: /akn/es/act/2022-03-31/3
+  frbr_name: Ley Orgánica
+  frbr_number: '3'
+  country: es
+  work_date: '2022-03-31'
+  expression_date: '2022-04-01'
+  author_eid: jefatura-estado
+  author_href: https://www.boe.es/
+  author_show: Jefatura del Estado
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-007-lofp.txt
+  nota: Contrastado además con el texto consolidado del BOE (BOE-A-2022-5139) el 2026-08-22.
+    La definición 6 incluye su segundo párrafo, sin numeración propia.
+  parrafos:
+  - text: 'A los efectos de la presente ley, se entenderá por:'
+  - num: '1.'
+    text: 'Aprendizaje o educación formal: el proceso de formación estructurado conducente
+      a una titulación, acreditación o certificación oficial.'
+  - num: '2.'
+    text: 'Aprendizaje o educación no formal: el proceso de formación estructurado
+      que no conduce a una titulación, acreditación o certificación oficial.'
+  - num: '3.'
+    text: 'Aprendizaje informal: el aprendizaje derivado del desarrollo y práctica
+      de actividades cuya intencionalidad no está vinculada a procesos de formación
+      formales o no formales, entre los que se incluye el voluntariado.'
+  - num: '4.'
+    text: 'Competencias básicas: aquellas que son consideradas necesarias para la
+      realización y desarrollo personal, para participar activamente en la sociedad
+      o mejorar la empleabilidad. El desarrollo de estas competencias se realiza por
+      múltiples vías, y queda incorporado en cualquier oferta de formación profesional
+      en tanto que promueve el desarrollo integral de la persona.'
+  - num: '5.'
+    text: 'Competencia profesional: el conjunto de conocimientos y destrezas que permiten
+      el ejercicio de la actividad profesional conforme a las exigencias de la producción
+      y el empleo. Las competencias profesionales se recogen en los estándares de
+      competencia profesional, que servirán para el diseño de cualquier oferta de
+      formación profesional.'
+  - num: '6.'
+    text:
+    - 'Cualificación: la competencia para el desempeño de una actividad profesional
+      acreditada oficialmente por títulos, certificados o acreditaciones.'
+    - Exclusivamente en su uso en lo referido al Marco Español de las Cualificaciones
+      (MECU), cualquier título o certificado emitido por una institución educativa
+      que acredita haber adquirido un conjunto de resultados del aprendizaje, después
+      de haber superado satisfactoriamente un programa de formación en una institución
+      legalmente reconocida en el ámbito del Sistema de Formación Profesional.
+  - num: '7.'
+    text: 'Elemento de competencia: cada realización profesional que describe el comportamiento
+      esperado de la persona, en forma de consecuencias o resultados de las actividades
+      que realiza en el desempeño de una profesión. Constituye la parte menor de un
+      estándar de competencia.'
+  - num: '8.'
+    text: 'Estándar de competencia: el conjunto detallado de elementos de competencia
+      que describen el desempeño de las actividades y las tareas asociadas al ejercicio
+      de una determinada actividad profesional con el estándar de calidad requerido.
+      Será la unidad o elemento de referencia para diseñar, desarrollar y actualizar
+      ofertas de formación profesional.'
+  - num: '9.'
+    text: 'Formación a lo largo de la vida: el conjunto de la formación inicial y
+      continua de una persona durante su trayectoria vital.'
+  - num: '10.'
+    text: 'Formación continua: cualquier tipo de formación realizada después de la
+      formación inicial y de la incorporación a la vida activa, dentro o fuera del
+      sistema educativo. Tiene como objetivo permitir a la persona adquirir, ampliar
+      o actualizar sus conocimientos o competencias de cara a una adaptación, promoción
+      profesional o reconversión de su itinerario de desarrollo personal o profesional.
+      Esta denominación no está asociada al tipo de oferta de formación, sino al proceso
+      de aprendizaje en el itinerario formativo de cada persona, después de la formación
+      inicial y de la incorporación a la vida laboral activa.'
+  - num: '11.'
+    text: 'Formación inicial: el itinerario de formación realizada, dentro del sistema
+      educativo, desde el inicio de la escolarización hasta la finalización de la
+      permanencia en el mismo, para la incorporación al mundo laboral. Esta denominación
+      no está asociada al tipo de oferta de formación, sino al momento en el itinerario
+      formativo de cada persona, durante la formación inicial y previa a la incorporación
+      a la vida laboral activa.'
+  - num: '12.'
+    text: 'Formación profesional dual: la formación profesional que se realiza armonizando
+      los procesos de enseñanza y aprendizaje entre el centro de formación profesional
+      y la empresa u organismo equiparado, en corresponsabilidad entre ambos agentes,
+      con la finalidad de la mejora de la empleabilidad de la persona en formación.'
+  - num: '13.'
+    text: 'Formador o formadora: toda persona que ejerza una o varias actividades
+      ligadas a la función de formación, sea en el seno de un centro de formación
+      profesional sin pertenecer a los cuerpos docentes del sistema educativo, sea
+      en la empresa u organismo equiparado.'
+  - num: '14.'
+    text: 'Indicador de calidad: el criterio que establece el nivel mínimo exigido
+      en el ámbito profesional para el desempeño de una actividad o tarea, en tanto
+      que satisface los objetivos de las organizaciones productivas. Constituye una
+      guía para la evaluación de la competencia profesional conjuntamente con los
+      elementos de competencia.'
+  - num: '15.'
+    text: 'Itinerario formativo: el proyecto construido por cada persona, con la ayuda,
+      si se precisa, de los servicios de orientación profesional, para adquirir, actualizar,
+      completar y ampliar sus competencias a lo largo de su vida.'
+  - num: '16.'
+    text: 'Marco Español de las Cualificaciones: el instrumento, internacionalmente
+      reconocido, que orienta la nivelación coherente de las titulaciones para su
+      clasificación, relación y comparación y que sirve, asimismo, para facilitar
+      la movilidad de las personas en el espacio europeo y en el mercado laboral internacional.'
+  - num: '17.'
+    text: 'Módulo profesional asociado a estándares de competencia: la unidad coherente
+      de formación cuya superación garantiza la consecución de las competencias asociadas.'
+  - num: '18.'
+    text: 'Módulo profesional no asociado a estándares de competencia: la unidad coherente
+      de formación, de carácter teórico o práctico, considerado imprescindible para
+      la consecución de las competencias profesionales previstas.'
+  - num: '19.'
+    text: 'Orientación profesional: el proceso de información y acompañamiento en
+      la planificación personal del itinerario formativo y profesional en el marco
+      del Sistema de Formación Profesional, que incluye, al menos, los siguientes
+      ámbitos: posibilidades de formación profesional, elección de una profesión,
+      perfeccionamiento, cambio de profesión, evolución del mercado laboral y oportunidades
+      de emprendimiento, y desarrollo de habilidades para la gestión de la carrera
+      profesional.'
+  - num: '20.'
+    text: 'Organismo equiparado: entidad u organización, cualquiera que sea su naturaleza
+      jurídica, que, no teniendo la condición de empresa, disponga al menos de un
+      centro de trabajo en el que puedan desarrollarse, en las condiciones requeridas,
+      actividades de formación tutorizada en el marco de las ofertas de formación
+      profesional.'
+  - num: '21.'
+    text: 'Organismo intermedio: toda entidad, asociación, federación, confederación,
+      Cámara de Comercio, clúster, etc. que participe en el asesoramiento y apoyo
+      a empresas para su participación en formación profesional, facilitando su contacto
+      con administraciones y centros educativos.'
+  - num: '22.'
+    text: 'Persona trabajadora: toda persona trabajadora por cuenta ajena, autónoma,
+      socia trabajadora o en cooperativas.'
+  - num: '23.'
+    text: 'Resultado del aprendizaje: elemento básico del currículo que describe lo
+      que se espera que un estudiante conozca, comprenda y sea capaz de hacer, asociado
+      a un elemento de competencia y que orienta el resto de elementos curriculares,
+      incluidos los criterios de evaluación que permitan constatar que el estudiante
+      ha alcanzado el mismo.'
+  - num: '24.'
+    text: Diseño Universal para el Aprendizaje (DUA). Modelo de enseñanza para la
+      educación inclusiva que reconoce la singularidad del aprendizaje de cada alumno
+      y que promueve la accesibilidad de los procesos y entornos de enseñanza y aprendizaje,
+      mediante un currículo flexible, ajustado a las necesidades y ritmos de aprendizaje
+      de la diversidad del alumnado.
+- id: NOR-009
+  articulo: '1'
+  num: Artículo 1.-
+  heading: Carácter y enseñanzas de los centros docentes.
+  work_uri: /akn/es-cn/act/2010-07-08/81
+  frbr_name: Decreto
+  frbr_number: '81'
+  country: es-cn
+  work_date: '2010-07-08'
+  expression_date: '2010-07-22'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2010/143/001.html
+  nota: El Decreto 81/2010 contiene un artículo único; los artículos 1 y 2 pertenecen
+    al Reglamento Orgánico que aprueba por anexo. La porción publicada pertenece a
+    dicho anexo.
+  parrafos:
+  - num: '1.'
+    text: Los centros docentes públicos son instituciones escolares dependientes de
+      la Consejería competente en materia educativa en las que se desarrolla el proceso
+      de enseñanza, aprendizaje y de formación del alumnado, las actividades de innovación
+      de la práctica educativa, el perfeccionamiento del personal docente y la participación
+      de toda la comunidad educativa.
+  - num: '2.'
+    text: Los centros docentes públicos imparten las enseñanzas autorizadas de régimen
+      general de educación infantil, primaria, secundaria obligatoria, bachillerato
+      y formación profesional y están abiertos a la colectividad con autonomía de
+      gestión y de funcionamiento y arraigo en su entorno, contando con un proyecto
+      educativo propio, un proyecto de gestión y unas normas de organización y funcionamiento.
+      La autorización para impartir dichas enseñanzas corresponde a la Administración
+      competente en materia educativa.
+  - num: '3.'
+    text: La estructura, organización y gestión de los centros docentes públicos habrá
+      de regirse por las normas contenidas en el presente Reglamento Orgánico.
+- id: NOR-009
+  articulo: '2'
+  num: Artículo 2.-
+  heading: Creación, transformación y supresión de los centros docentes.
+  work_uri: /akn/es-cn/act/2010-07-08/81
+  frbr_name: Decreto
+  frbr_number: '81'
+  country: es-cn
+  work_date: '2010-07-08'
+  expression_date: '2010-07-22'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2010/143/001.html
+  nota: El Decreto 81/2010 contiene un artículo único; los artículos 1 y 2 pertenecen
+    al Reglamento Orgánico que aprueba por anexo. La porción publicada pertenece a
+    dicho anexo.
+  parrafos:
+  - num: '1.'
+    text: La creación, transformación y supresión de los centros a que se refiere
+      el artículo anterior, o cualquier otro tipo de modificación, tales como integración
+      o desdoblamiento o cambios de ubicación, corresponde al Gobierno de Canarias
+      mediante Decreto, a propuesta de la Consejería competente en materia educativa.
+  - num: '2.'
+    text: Las Entidades que integran la Administración Local podrán proponer o solicitar
+      la creación de los centros a los que se refiere el artículo anterior, de acuerdo
+      con las disposiciones específicas que se establezcan y que tendrán, a todos
+      los efectos, el carácter de centros públicos.
+- id: NOR-024
+  articulo: '1'
+  num: Artículo 1.-
+  heading: Objeto y ámbito.
+  work_uri: /akn/es-cn/act/2018-02-26/25
+  frbr_name: Decreto
+  frbr_number: '25'
+  country: es-cn
+  work_date: '2018-02-26'
+  expression_date: '2018-03-06'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2018/046/001.html
+  parrafos:
+  - num: '1.'
+    text: El presente Decreto tiene por objeto regular la atención a la diversidad
+      en el ámbito de la enseñanza no universitaria de la Comunidad Autónoma de Canarias
+      en la etapa de Educación Infantil, en la educación básica, así como en el Bachillerato
+      en los términos previstos en esta norma. Para el resto de enseñanzas no universitarias
+      previstas en artículo 3.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación
+      (LOE) se estará a lo previsto en su normativa específica y, supletoriamente,
+      a lo establecido en este Decreto.
+  - num: '2.'
+    text: Se establecen medidas para favorecer el desarrollo de una atención a la
+      diversidad, desde un enfoque inclusivo, que dé respuesta a las características
+      y necesidades de todo el alumnado y, en especial, a aquel que pueda encontrarse
+      en situación de riesgo de abandono escolar temprano y, por ende, de exclusión
+      social.
+  - num: '3.'
+    text: Será de aplicación en los centros docentes sostenidos con fondos públicos
+      y en los que les afecte, en los privados, que imparten enseñanza no universitaria
+      del sistema educativo español en el ámbito de gestión de la Comunidad Autónoma
+      de Canarias.
+- id: NOR-024
+  articulo: '2'
+  num: Artículo 2.-
+  heading: Principios de actuación.
+  work_uri: /akn/es-cn/act/2018-02-26/25
+  frbr_name: Decreto
+  frbr_number: '25'
+  country: es-cn
+  work_date: '2018-02-26'
+  expression_date: '2018-03-06'
+  author_eid: gobierno-canarias
+  author_href: https://www.gobiernodecanarias.org/
+  author_show: Gobierno de Canarias
+  fuente_texto: https://www.gobiernodecanarias.org/boc/2018/046/001.html
+  parrafos:
+  - text: 'El contenido del presente Decreto se sustenta en los principios que a continuación
+      se exponen:'
+  - num: '1.'
+    text: La atención a la diversidad como derecho de todo el alumnado, de forma que
+      se garantice la no discriminación y la igualdad de oportunidades en el acceso,
+      la permanencia, la promoción y la continuidad a través de propuestas y procesos
+      de enseñanza de calidad.
+  - num: '2.'
+    text: La inclusión educativa como valor imprescindible y marco de actuación que
+      ha de regir la práctica docente y el derecho del alumnado a compartir un mismo
+      currículo y espacio para conseguir un mismo fin, adaptado a sus características
+      y necesidades.
+  - num: '3.'
+    text: La adecuación de los procesos educativos, para lo que se favorecerá una
+      organización del centro y del aula flexible, variada, individualizada y ajustada
+      a las necesidades del alumnado, de forma que se propicie la equidad y excelencia
+      en el sistema educativo.
+  - num: '4.'
+    text: La prevención mediante una actuación eficaz que permita, a través de la
+      detección e identificación de las barreras que dificultan el aprendizaje y la
+      participación, ofrecer lo más tempranamente posible la respuesta educativa que
+      necesita cada alumna o alumno.
+  - num: '5.'
+    text: La organización y utilización de los recursos, espacios y tiempos para dar
+      una respuesta inclusiva al alumnado en los entornos más cercanos y significativos
+      posibles.
+  - num: '6.'
+    text: La colaboración y el fomento de la participación de todos los sectores de
+      la comunidad educativa, de las instituciones y de la sociedad para alcanzar
+      una educación de calidad.
+  - num: '7.'
+    text: El aprendizaje colaborativo que permita aprender de la diversidad, potenciando
+      la adecuada autoestima y autonomía, y capaz de generar expectativas positivas
+      en el profesorado, en el alumnado y en su entorno sociofamiliar.
+- id: NOR-003
+  tipo: disposicion_adicional
+  ordinal: segunda
+  num: Disposición adicional segunda.
+  heading: Enseñanzas del sistema educativo español impartidas en lenguas extranjeras.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: Las administraciones educativas podrán autorizar que una parte de las materias
+      del currículo se impartan en lenguas extranjeras sin que ello suponga modificación
+      de los aspectos básicos del currículo regulados en el presente real decreto.
+      En este caso, procurarán que a lo largo de la etapa los alumnos y alumnas adquieran
+      la terminología propia de las materias en la lengua extranjera y en la lengua
+      o lenguas oficiales de la comunidad autónoma.
+  - num: '2.'
+    text: Los centros públicos y privados concertados que impartan una parte de las
+      materias del currículo en lenguas extranjeras aplicarán, en todo caso, los criterios
+      generales para la admisión del alumnado establecidos en el artículo 84 de la
+      Ley Orgánica 2/2006, de 3 de mayo. Entre tales criterios no se incluirán requisitos
+      lingüísticos.
+- id: NOR-003
+  tipo: disposicion_adicional
+  ordinal: cuarta
+  num: Disposición adicional cuarta.
+  heading: Calendario.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - text: El calendario escolar, que fijarán anualmente las administraciones educativas,
+      comprenderá un mínimo de 175 días lectivos para las enseñanzas obligatorias.
+- id: NOR-003
+  tipo: disposicion_final
+  ordinal: primera
+  num: Disposición final primera.
+  heading: Título competencial.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - text:
+    - El presente real decreto tiene carácter básico y se dicta al amparo de las competencias
+      que atribuye al Estado el artículo 149.1.30.ª de la Constitución Española, sobre
+      la regulación de las condiciones de obtención, expedición y homologación de
+      títulos académicos y profesionales y normas básicas para el desarrollo del artículo
+      27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones
+      de los poderes públicos en esta materia.
+    - El anexo III carece del carácter de normativa básica.
+- id: NOR-003
+  tipo: disposicion_final
+  ordinal: segunda
+  num: Disposición final segunda.
+  heading: Aplicación.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - text: Corresponde a la persona titular del Ministerio de Educación y Formación
+      Profesional dictar, en el ámbito de sus competencias, cuantas disposiciones
+      sean precisas para la ejecución y aplicación de lo establecido en este real
+      decreto, sin perjuicio de las competencias que corresponden a las comunidades
+      autónomas.
+- id: NOR-003
+  tipo: disposicion_final
+  ordinal: tercera
+  num: Disposición final tercera.
+  heading: Calendario de implantación.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: Lo dispuesto en este real decreto se implantará, para los cursos primero
+      y tercero de Educación Secundaria Obligatoria en el curso escolar 2022-2023
+      y para los cursos segundo y cuarto en el curso 2023-2024.
+  - num: '2.'
+    text: Lo dispuesto en este real decreto se implantará para el primer curso de
+      los Ciclos Formativos de Grado Básico en el curso escolar 2022-2023 y para el
+      segundo curso, en el curso escolar 2023-2024.
+- id: NOR-003
+  tipo: disposicion_final
+  ordinal: cuarta
+  num: Disposición final cuarta.
+  heading: Entrada en vigor.
+  work_uri: /akn/es/act/2022-03-29/217
+  frbr_name: Real Decreto
+  frbr_number: '217'
+  country: es
+  work_date: '2022-03-29'
+  expression_date: '2022-03-30'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-003-rd-217-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-4975) el 2026-08-22.
+  parrafos:
+  - text: El presente real decreto entrará en vigor el día siguiente al de su publicación
+      en el «Boletín Oficial del Estado».
+- id: NOR-006
+  tipo: disposicion_adicional
+  ordinal: segunda
+  num: Disposición adicional segunda.
+  heading: Enseñanzas del sistema educativo español impartidas en lenguas extranjeras.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - num: '1.'
+    text: Las administraciones educativas podrán autorizar que una parte de las materias
+      del currículo se impartan en lenguas extranjeras sin que ello suponga modificación
+      de los aspectos básicos del currículo regulados en este real decreto. En este
+      caso, procurarán que a lo largo de ambos cursos los alumnos y alumnas adquieran
+      la terminología propia de las materias en la lengua extranjera y en la lengua
+      o lenguas oficiales de la comunidad autónoma.
+  - num: '2.'
+    text: El hecho de que los centros públicos y privados concertados impartan sus
+      enseñanzas conforme a lo previsto en el apartado anterior en ningún caso podrá
+      suponer modificación de los criterios para la admisión del alumnado establecidos
+      en el artículo 86 de la Ley Orgánica 2/2006, de 3 de mayo.
+- id: NOR-006
+  tipo: disposicion_adicional
+  ordinal: cuarta
+  num: Disposición adicional cuarta.
+  heading: Obtención de nuevas modalidades de Bachillerato.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: Quienes hayan obtenido el título de Bachiller podrán obtener cualquiera
+      de las otras modalidades mediante la superación de las materias de modalidad
+      de primer y segundo curso que, conforme a lo previsto en este real decreto,
+      se requieren para la modalidad elegida.
+- id: NOR-006
+  tipo: disposicion_adicional
+  ordinal: quinta
+  num: Disposición adicional quinta.
+  heading: Simultaneidad de estudios.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: En el marco de lo establecido en este real decreto, las administraciones
+      educativas facilitarán la posibilidad de cursar simultáneamente las enseñanzas
+      artísticas profesionales y la educación secundaria. Con este fin, se podrán
+      adoptar las oportunas medidas de organización y de ordenación académica que
+      incluirán, entre otras, las convalidaciones y la creación de centros integrados.
+- id: NOR-006
+  tipo: disposicion_final
+  ordinal: primera
+  num: Disposición final primera.
+  heading: Prueba de acceso a la universidad.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: El Gobierno, previa consulta a las comunidades autónomas, a la Conferencia
+      General de Política Universitaria, y con informe previo del Consejo de Universidades
+      y del Consejo Escolar del Estado, establecerá las características básicas de
+      la prueba de acceso a la universidad que establece el artículo 38 de la Ley
+      Orgánica 2/2006, de 3 de mayo.
+- id: NOR-006
+  tipo: disposicion_final
+  ordinal: segunda
+  num: Disposición final segunda.
+  heading: Título competencial.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text:
+    - El presente real decreto tiene carácter básico y se dicta al amparo de las competencias
+      que atribuye al Estado el artículo 149.1.30.ª de la Constitución Española, sobre
+      la regulación de las condiciones de obtención, expedición y homologación de
+      títulos académicos y profesionales y normas básicas para el desarrollo del artículo
+      27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones
+      de los poderes públicos en esta materia.
+    - El anexo III carece del carácter de normativa básica.
+- id: NOR-006
+  tipo: disposicion_final
+  ordinal: tercera
+  num: Disposición final tercera.
+  heading: Aplicación.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: Corresponde a la persona titular del Ministerio de Educación y Formación
+      Profesional dictar, en el ámbito de sus competencias, cuantas disposiciones
+      sean precisas para la ejecución y aplicación de lo establecido en este real
+      decreto, sin perjuicio de las competencias que corresponden a las comunidades
+      autónomas.
+- id: NOR-006
+  tipo: disposicion_final
+  ordinal: cuarta
+  num: Disposición final cuarta.
+  heading: Calendario de implantación.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: Lo dispuesto en este real decreto se implantará para primer curso de Bachillerato
+      en el año académico 2022-2023, y para segundo de Bachillerato, en el curso 2023-2024.
+- id: NOR-006
+  tipo: disposicion_final
+  ordinal: quinta
+  num: Disposición final quinta.
+  heading: Entrada en vigor.
+  work_uri: /akn/es/act/2022-04-05/243
+  frbr_name: Real Decreto
+  frbr_number: '243'
+  country: es
+  work_date: '2022-04-05'
+  expression_date: '2022-04-06'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+  nota: Contrastado con el texto consolidado del BOE (BOE-A-2022-5521) el 2026-08-22.
+  parrafos:
+  - text: El presente real decreto entrará en vigor el día siguiente al de su publicación
+      en el «Boletín Oficial del Estado».
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: primera
+  num: Disposición adicional primera.
+  heading: Centro de Innovación y Tecnificación de Alto Rendimiento (CITAR).
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  nota: Texto original de 22/07/2023; la corrección de errores del BOE núm. 124, de
+    23/05/2025 no afecta a estos bloques.
+  parrafos:
+  - text: El Centro de Innovación y Tecnificación de Alto Rendimiento de la Formación
+      Profesional (CITAR), desarrollará las funciones previstas en el Real Decreto
+      498/2020, de 28 de abril, por el que se desarrolla la estructura orgánica básica
+      del Ministerio de Educación y Formación Profesional, o norma que lo sustituya.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: segunda
+  num: Disposición adicional segunda.
+  heading: Ofertas del Centro para la Innovación y Desarrollo de la Educación a Distancia
+    (CIDEAD).
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: El Gobierno, en el marco de la regulación establecida en el presente real
+      decreto, determinará las características específicas de la oferta de acciones
+      formativas del Sistema de Formación Profesional que se realicen a través del
+      Centro para la Innovación y Desarrollo de la Educación a Distancia (CIDEAD).
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: tercera
+  num: Disposición adicional tercera.
+  heading: Colaboración entre los centros de Formación Profesional y los centros universitarios.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Mediante los instrumentos normativos o jurídicos que correspondan, y sin
+      perjuicio de las competencias de las administraciones educativas y de las universidades,
+      los ministerios de Educación y Formación Profesional, y de Universidades, promoverán
+      la colaboración entre los centros de formación profesional y los centros universitarios
+      con el objeto de desarrollar nuevos modelos de relaciones entre el tejido productivo,
+      las universidades y la formación profesional, con el fin de crear innovación
+      científica y empresarial y optimizar recursos.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: cuarta
+  num: Disposición adicional cuarta.
+  heading: Acceso a los estudios de grado universitario de los titulados de Formación
+    Profesional de Grado Superior.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Los egresados de formación profesional de grado superior que quisieran acceder
+      a los estudios de grado universitario, mejorando la calificación obtenida para
+      dicho acceso en el ciclo formativo que han cursado, podrán concurrir a las pruebas
+      de acceso a la universidad, de acuerdo con la normativa reguladora de dichas
+      pruebas.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: septima
+  num: Disposición adicional séptima.
+  heading: Ratio alumnado/profesorado en ofertas de grados D y E.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - num: '1.'
+    text: Las administraciones competentes reducirán progresivamente, en las distintas
+      ofertas de formación profesional de grados D y E, preferentemente las que requieran
+      el uso de aulas-taller, laboratorios, y otros espacios singulares de trabajo,
+      la ratio de alumnado en modalidad presencial hasta el máximo de veinticinco
+      alumnos por profesor, para los ciclos formativos de Grado Medio, de Grado Superior
+      y Cursos de Especialización, y hasta un máximo de veinte alumnos por profesor
+      o profesora para los ciclos formativos de Grado Básico con las mismas características,
+      debiendo alcanzarse dicha ratio al inicio del curso 2028-2029.
+  - num: '2.'
+    text: En la impartición de módulos profesionales que por sus espacios, recursos
+      y materiales a manejar lo aconsejen, las administraciones podrán establecer
+      desdobles con el fin de garantizar una enseñanza de calidad y la adecuada atención
+      educativa y formativa.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: novena
+  num: Disposición adicional novena.
+  heading: Exigencia de la experiencia profesional requerida al personal formador
+    en el ámbito de los certificados de profesionalidad en vigor.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: No será exigible como requisito imprescindible sino como mérito la experiencia
+      profesional a los formadores y formadoras para impartir docencia en los certificados
+      de profesionalidad regulados con anterioridad a la entrada en vigor del presente
+      real decreto, cuando cuenten con la acreditación o titulación requerida que
+      figura en cada uno de los reales decretos por los que se establece cada Certificado
+      de profesionalidad.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: decima
+  num: Disposición adicional décima.
+  heading: Equivalencia de los certificados de profesionalidad.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - num: '1.'
+    text: Los certificados de profesionalidad de nivel 1 expedidos con arreglo a la
+      regulación prevista en el Real Decreto 34/2008, de 18 de enero, por el que se
+      regulan los certificados de profesionalidad, se consideran equivalentes a todos
+      los efectos, profesionales y de acceso a empleos públicos y privados a los certificados
+      profesionales de nivel 1.
+  - num: '2.'
+    text: Los certificados de profesionalidad de nivel 2 expedidos con arreglo a la
+      regulación prevista en el Real Decreto 34/2008, se consideran equivalentes a
+      todos los efectos, profesionales y de acceso a empleos públicos y privados a
+      los certificados profesionales de nivel 2.
+  - num: '3.'
+    text: Los certificados de profesionalidad de nivel 3 expedidos con arreglo a la
+      regulación prevista en el Real Decreto 34/2008, se consideran equivalentes a
+      todos los efectos profesionales y de acceso a empleos públicos y privados a
+      los certificados profesionales de nivel 3.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: duodecima
+  num: Disposición adicional duodécima.
+  heading: Actualización de los títulos de formación profesional anteriores a la entrada
+    en vigor del presente real decreto.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Las actualizaciones necesarias para los títulos de Formación Profesional
+      existentes con anterioridad a la entrada en vigor del presente real decreto,
+      se realizará de acuerdo con la normativa vigente.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: decimotercera
+  num: Disposición adicional decimotercera.
+  heading: Incentivo para el acceso de la población activa al procedimiento de acreditación
+    de competencias profesionales adquiridas por la experiencia laboral y otras vías
+    no formales de formación.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Las administraciones competentes podrán establecer incentivos para las personas
+      que accedan a los procedimientos de acreditación previstos en el título VI del
+      presente real decreto.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: decimoctava
+  num: Disposición adicional decimoctava.
+  heading: Conferencia Sectorial de Formación Profesional para Personas Trabajadoras.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: La Conferencia Sectorial del Sistema de Cualificaciones y Formación Profesional
+      para el Empleo, constituida e inscrita en el Registro electrónico Estatal de
+      Órganos e Instrumentos de Cooperación, pasa a denominarse Conferencia Sectorial
+      de Formación Profesional para Personas Trabajadoras.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: vigesima
+  num: Disposición adicional vigésima.
+  heading: Titulaciones de formación profesional de la familia profesional de Sanidad.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Los títulos de la familia profesional de Sanidad tendrán reserva de denominación
+      y no podrán coincidir en su denominación con otros títulos o certificados de
+      formación profesional o con títulos universitarios o de especialista en Ciencias
+      de la salud que habiliten para el ejercicio de una profesión sanitaria, conforme
+      a lo regulado en los artículos 2 y 3 de la Ley 44/2003, de 21 de noviembre,
+      de Ordenación de las Profesiones Sanitarias.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: vigesimaprimera
+  num: Disposición adicional vigesimoprimera.
+  heading: Centros o entidades de formación acreditados para impartir formación profesional
+    para el empleo.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Los centros o entidades de formación públicos o privados acreditados para
+      impartir formación profesional para el empleo se consideran autorizados para
+      impartir ofertas formativas del Sistema de Formación Profesional de Grado A,
+      B y C, en las familias profesionales y especialidades en que estuvieran autorizadas.
+- id: NOR-080
+  tipo: disposicion_adicional
+  ordinal: vigesimasegunda
+  num: Disposición adicional vigesimosegunda.
+  heading: Impartición de nuevos módulos profesionales en los ciclos formativos de
+    Grado D.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Las titulaciones requeridas para impartir los nuevos módulos profesionales
+      que conforman los ciclos formativos de Grado D para los centros de titularidad
+      privada, de otras administraciones distintas a la educativa y orientaciones
+      para la Administración educativa, así como las titulaciones equivalentes a efectos
+      de docencia y las especialidades del profesorado con atribución docente en dichos
+      módulos profesionales serán reguladas en su normativa específica.
+- id: NOR-080
+  tipo: disposicion_final
+  ordinal: quinta
+  num: Disposición final quinta.
+  heading: Homologación de titulaciones y acreditaciones extranjeras por sus equivalentes
+    españoles en el ámbito de la Formación Profesional.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: El Gobierno desarrollará reglamentariamente los requisitos y procedimientos
+      para la homologación de titulaciones y acreditaciones extranjeras, a que hace
+      referencia el artículo 129, por sus equivalentes españolas en el ámbito de la
+      Formación Profesional.
+- id: NOR-080
+  tipo: disposicion_final
+  ordinal: septima
+  num: Disposición final séptima.
+  heading: Habilitación normativa.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: Se autoriza a la persona titular del Ministerio de Educación y Formación
+      Profesional a dictar, en el ámbito de sus competencias, cuantas disposiciones
+      sean necesarias para el desarrollo y ejecución de este real decreto.
+- id: NOR-080
+  tipo: disposicion_final
+  ordinal: octava
+  num: Disposición final octava.
+  heading: Entrada en vigor.
+  work_uri: /akn/es/act/2023-07-18/659
+  frbr_name: Real Decreto
+  frbr_number: '659'
+  country: es
+  work_date: '2023-07-18'
+  expression_date: '2023-07-22'
+  author_eid: gobierno-espana
+  author_href: https://www.boe.es/
+  author_show: Gobierno de España
+  fuente_texto: https://www.boe.es/eli/es/rd/2023/07/18/659/con
+  parrafos:
+  - text: El presente real decreto entrará en vigor el día siguiente al de su publicación
+      en el «Boletín Oficial del Estado».

@@ -1,0 +1,56 @@
+name: fiscalidad-retenciones
+display_name: Fiscalidad -- Retenciones e Ingresos a Cuenta
+description: >
+  Guia completa sobre retenciones e ingresos a cuenta en Espana: quien
+  esta obligado a retener, tipos de retencion (profesionales 15 %/7 %,
+  alquileres 19 %, capital mobiliario 19 %, administradores 35 %),
+  Modelo 111 (trimestral, retenciones trabajo y profesionales), Modelo
+  115 (trimestral, retenciones alquileres), Modelo 190 y 180 (resumenes
+  anuales, enero), tablas de retencion IRPF sobre nominas, y calendario
+  de presentacion.
+organization: Agencia Estatal de Administracion Tributaria (AEAT)
+tags: [fiscalidad, retenciones, modelo 111, modelo 115, modelo 190, modelo 180, IRPF, nominas, profesionales, alquileres, ingresos a cuenta, AEAT]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/irpf/retenciones-ingresos-cuenta-pagos-fraccionados.html
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Informacion publica de la AEAT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre retenciones. Cubre
+    la perspectiva del pagador/retenedor. Complementa
+    fiscalidad-irpf-autonomos (que cubre la perspectiva del autonomo que
+    soporta retenciones) y fiscalidad-irpf-asalariados (como afectan
+    las retenciones en la Renta del asalariado).
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de retencion (profesionales, alquileres, capital, administradores, premios)
+    - Modelo 111 (retenciones trabajo/profesionales) y plazos
+    - Modelo 115 (retenciones alquileres) y plazos
+    - Modelo 190 (resumen anual retenciones) y plazo
+    - Modelo 180 (resumen anual retenciones alquileres) y plazo
+    - Tablas orientativas de retencion IRPF sobre nominas
+    - Quien esta obligado a retener y cuando no
+    - Calendario de presentacion
+  not_accessible:
+    - Calculo preciso de retencion sobre nomina (usar simulador AEAT)
+    - Presentacion real de declaraciones (requiere certificado digital)
+    - Datos fiscales individuales
+    - Aspectos laborales de nominas (usar skill laboral-nominas)
+    - Retenciones a no residentes (usar skill fiscalidad-no-residentes)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

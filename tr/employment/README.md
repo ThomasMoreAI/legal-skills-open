@@ -4,7 +4,7 @@
 
 Plugin `tr-employment`. Skills live under `skills/<slug>/SKILL.md`.
 
-## Skills (12)
+## Skills (13)
 
 | Skill | What it does |
 |---|---|
@@ -17,6 +17,7 @@ Plugin `tr-employment`. Skills live under `skills/<slug>/SKILL.md`.
 | [`/leave-tracker`](skills/leave-tracker-zekaisuni/) | Açık izin, rapor ve devamsızlık kayıtlarını Türk iş hukuku uygulamasına göre izler. Yıllık izin, iş… |
 | [`/log-leave`](skills/log-leave-zekaisuni/) | Leave register'a yeni yıllık izin, rapor, analık, ücretsiz izin, mazeret izni, askerlik, devamsızlık… |
 | [`/policy-drafting`](skills/policy-drafting-zekaisuni/) | Türk iş hukuku uygulamasına uygun işyeri politikası, personel yönetmeliği bölümü veya prosedür taslağı… |
+| [`/renewal-tracker`](skills/renewal-tracker-zekaisuni/) | Show contracts with non-renewal or termination-notice deadlines coming up and warn before notice windows… |
 | [`/termination-review`](skills/termination-review-zekaisuni/) | Türk iş hukuku kapsamında fesih, ikale, istifa, performans/discipline çıkışı, haklı nedenle derhal… |
 | [`/wage-hour-qa`](skills/wage-hour-qa-zekaisuni/) | Türk iş hukuku ücret ve çalışma süresi sorularını yanıtlar: asgari ücret, fazla çalışma, fazla sürelerle… |
 | [`/worker-classification`](skills/worker-classification-zekaisuni/) | Çalışma ilişkisinin işçi, bağımsız çalışan/freelancer, danışman, stajyer, alt işveren işçisi, geçici iş… |

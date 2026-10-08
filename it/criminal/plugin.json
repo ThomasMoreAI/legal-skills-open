@@ -1,0 +1,16 @@
+{
+  "name": "it-criminal",
+  "displayName": "Criminal Law — IT",
+  "version": "0.1.0",
+  "description": "Criminal Law skills for IT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/penalista-cautelare-synthos-logic",
+    "skills/penalista-inizia-synthos-logic",
+    "skills/penalista-strategia-synthos-logic"
+  ]
+}

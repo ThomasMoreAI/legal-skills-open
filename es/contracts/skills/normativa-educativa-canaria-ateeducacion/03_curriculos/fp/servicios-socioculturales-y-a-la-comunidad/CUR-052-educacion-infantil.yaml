@@ -1,0 +1,1191 @@
+id: CUR-052
+titulo: Técnico Superior en Educación Infantil — FP Canarias
+etapa: "formacion-profesional"
+familia_profesional: Servicios Socioculturales y a la Comunidad
+grado: gs
+materia: Educación Infantil
+ambito: null
+cursos:
+- 1.º
+- 2.º
+norma_base: NOR-057
+fuente: FTE-054
+url_oficial: https://www.boe.es/buscar/doc.php?id=BOE-A-2007-20201
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-04-26'
+estado_extraccion: completado
+estado_vigencia: Vigente
+elementos:
+  modulos_profesionales:
+  - codigo: '0011'
+    nombre: Didáctica de la educación infantil
+    horas_totales: 125
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Contextualiza la intervención educativa relacionándola con el marco legislativo y los fines de la institución
+      criterios_evaluacion:
+      - a) Se ha identificado la información sobre el entorno social económico y cultural que es útil para la intervención
+      - b) Se ha analizado la legislación vigente en relación a los servicios educativos de atención a la infancia a nivel
+        autonómico estatal y europeo
+      - c) Se han comparado los diferentes tipos de centros y programas de educación formal y no formal que existen en la
+        actualidad
+      - d) Se han definido las características objetivos organización y tipo de funcionamiento de una escuela infantil
+      - e) Se han descrito las características objetivos organización y tipo de funcionamiento de una institución de educación
+        no formal
+      - f) Se ha valorado la actividad profesional del Técnico de Educación Infantil en el contexto de la intervención educativa
+      - g) Se ha utilizado y valorado el uso de las nuevas tecnologías como fuente de información
+      - h) Se ha mostrado iniciativa y disposición ante nuevas situaciones de la profesión
+    - numero: 2
+      enunciado: Determina los objetivos de la intervención educativa relacionándolo con los niveles de planificación los
+        elementos que la componen y los criterios de formulación en los ámbitos formales y no formales
+      criterios_evaluacion:
+      - a) Se han identificado los elementos de un curriculum
+      - b) Se han identificado los elementos de un proyecto de intervención educativa no formal
+      - c) Se han analizado los elementos del currículo de Educación infantil
+      - d) Se han descrito las bases en las que se apoya el currículo de Educación Infantil
+      - e) Se han identificado los diferentes niveles de concreción curricular
+      - f) Se han identificado los diferentes niveles de planificación de una actividad de educación no formal plan programa
+        y proyecto
+      - g) Se han comparado documentos de planificación de distintos tipos de institución en el ámbito formal y no formal
+      - h) Se han seleccionado objetivos y contenidos partiendo del marco curricular o del plan o programa y las características
+        de los niños y niñas para conseguir el desarrollo de sus capacidades individuales
+      - i) Se ha valorado la importancia de la planificación en el proceso de intervención educativa
+    - numero: 3
+      enunciado: Determina las estrategias metodológicas que deben aplicarse de acuerdo con los modelos psicopedagógicos
+      criterios_evaluacion:
+      - a) Se han identificado los modelos didácticos específicos de educación infantil
+      - b) Se han interpretado los principios que fundamentan los diferentes modelos de atención a la infancia
+      - c) Se han analizado los principios psicopedagógicos que sustentan los modelos más recientes en relación con la educación
+        formal de educación infantil
+      - d) Se han comparado experiencias educativas relevantes para deànir la propia intervención educativa
+      - e) Se han integrado los temas transversales en la elaboración de unidades didácticas
+      - f) Se han seleccionado criterios metodológicos de acuerdo con los objetivos de la Institución el marco curricular
+        y las necesidades e intereses de los niños y niñas
+      - g) Se han diseñado las adaptaciones curriculares teniendo en cuenta las recomendaciones de las entidades o profesionales
+        implicados y la información obtenida
+      - h) Se ha valorado la participación en las actividades en equipo el contraste de opiniones y el intercambio de experiencias
+    - numero: 4
+      enunciado: Determina y organiza los recursos materiales y personales los espacios y los tiempos analizando la normativa
+        legal y aplicando criterios pedagógicos en la intervención educativa en la infancia
+      criterios_evaluacion:
+      - a) Se han identificado los diferentes materiales didácticos espacios y tiempos de acuerdo con la intervención educativa
+      - b) Se ha descrito la normativa que regula el uso de espacios recursos y tiempos en el ámbito formal y no formal según
+        el marco estatal y regional
+      - c) Se ha definido la organización del tiempo y del espacio como recurso didáctico
+      - d) Se ha reconocido y valorado la necesidad de organizar las tareas
+      - e) Se han analizado los diferentes modelos de agrupación de acuerdo con el número de participantes edad metodología
+        y programación prevista
+      - f) Se han analizado los espacios y materiales didácticos y mobiliario comprobando el cumplimiento de las normas de
+        seguridad e higiene y las condiciones de accesibilidad
+      - g) Se han seleccionado materiales didácticos y didáctico-interactivos adecuados a los objetivos contenidos y criterios
+        metodológicos
+      - 'h) Se han establecido los espacios materiales recursos humanos tiempos teniendo en cuenta la edad número de niños
+        y niñas y en su caso las necesidades educativas especiales: SWPSU rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ'
+      - i) Se ha responsabilizado de la importancia de generar entornos seguros
+    - numero: 5
+      enunciado: Planifica las actividades de educación formal y no formal relacionándolas con los objetivos de la programación
+        y con las características de los niños y niñas
+      criterios_evaluacion:
+      - a) Se han relacionado las actividades con los objetivos contenidos metodología y necesidades individuales de los niños
+        y niñas
+      - b) Se han integrado los diferentes temas transversales en las actividades programadas
+      - c) Se han diseñado diferentes actividades para el tratamiento de atención a la diversidad y la compensación de desigualdades
+        sociales
+      - d) Se han identificado posibles diàcultades y propuesto soluciones viables
+      - e) Se han elaborado adaptaciones curriculares en función de las características individuales y necesidades específicas
+        de apoyo educativo al grupo destinatarios
+      - f) Se han analizado adaptaciones curriculares en relación a supuestos de necesidades educativas especiales permanentes
+        o temporales
+      - g) Se ha valorado la coherencia de la planificación de las actividades de educación formal y no formal con los objetivos
+        de la programación
+    - numero: 6
+      enunciado: Diseña la evaluación de los procesos de intervención argumentado la selección del modelo las estrategias
+        y las técnicas e instrumentos utilizados
+      criterios_evaluacion:
+      - a) Se han identificado los diferentes modelos de evaluación
+      - b) Se han definido las estrategias y técnicas de evaluación teniendo en cuenta la planificación de la intervención
+        y los momentos de la intervención
+      - c) Se han seleccionado las estrategias y técnicas de evaluación en diferentes momentos a lo largo del proceso de intervención
+      - d) Se han diseñado las actividades de evaluación teniendo en cuenta los criterios y procedimientos establecidos dentro
+        del marco curricular en el caso de la educación formal y del plan o programa en el caso de la educación no formal
+      - e) Se han establecido indicadores de evaluación en diferentes momentos del proceso de intervención que valoren la
+        adecuación de los objetivos y criterios metodológicos la selección y secuenciación de los contenidos y actividades
+        y la funcionalidad y adecuación de los espacios y materiales empleados
+      - f) Se ha valorado la importancia de la evaluación en los diferentes momentos del proceso
+      - g) Se ha valorado la importancia de mantener una actitud permanente de mejora en la eàcacia y calidad del servicio
+      - h) Se han identificado los recursos para la formación permanente de los educadores y educadoras
+  - codigo: '0012'
+    nombre: Autonomía personal y salud infantil
+    horas_totales: 105
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica actividades educativas de atención a las necesidades básicas de los niños y niñas analizando las
+        pautas de alimentación higiene y descanso y los patrones de crecimiento y desarrollo físico
+      criterios_evaluacion:
+      - a) Se han identificado las fases del desarrollo físico y los factores que influyen en el mismo
+      - b) Se han descrito las características y necesidades de los niños y niñas en relación con la alimentación la higiene
+        y el descanso
+      - c) Se han elaborado distintos tipos de dietas y menús adaptados a las características del niño o niña edad alergias
+        intolerancias alimentarias y otras
+      - d) Se han descrito las pautas de actuación en relación al aseo higiene vestido descanso y sueÒo infantil
+      - e) Se han identificado los principales trastornos y conflictos relacionados con la alimentación la higiene y el descanso
+      - f) Se han propuesto actividades recursos y estrategias adecuadas para la satisfacción de las necesidades básicas de
+        los niños y niñas
+      - g) Se han diseñado ambientes aptos y seguros para la satisfacción de las necesidades de alimentación higiene y descanso
+      - h) Se han establecido los elementos materiales espaciales y temporales que intervienen en la planificación y desarrollo
+        de las rutinas diarias
+      - i) Se ha relacionado la forma de atención de cada una de las necesidades básicas con las características de los niños
+        y las niñas
+      - j) Se ha valorado la importancia educativa de las actividades relacionadas con la satisfacción de las necesidades
+        básicas
+    - numero: 2
+      enunciado: Programa intervenciones educativas para favorecer el desarrollo de hábitos de autonomía personal en los niños
+        SWPSW rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ y niñas relacionándolas con las estrategias de planificación educativa
+        y los ritmos de desarrollo infantil
+      criterios_evaluacion:
+      - a) Se han descrito las fases del proceso de adquisición de hábitos
+      - b) Se han formulado objetivos acordes a las posibilidades de autonomía de los niños y niñas
+      - c) Se han secuenciado los aprendizajes de autonomía personal a partir de las características evolutivas de los niños
+        y niñas
+      - d) Se han diseñado ambientes favorecedores de la autonomía personal
+      - e) Se han establecido estrategias e instrumentos para la detección de elementos que diàcultan la adquisición de la
+        autonomía personal de los niños y niñas
+      - f) Se han propuesto actividades adecuadas para la adquisición de hábitos de autonomía personal
+      - g) Se han identificado los posibles conflictos y trastornos relacionados con la adquisición de hábitos de autonomía
+        personal
+      - h) Se ha valorado la importancia de la adquisición de la autonomía personal para la construcción de una autoimagen
+        positiva y de su desarrollo integral por parte del niño y la niña
+      - i) Se ha valorado la importancia de la colaboración de la familia en la adquisición y consolidación de hábitos de
+        autonomía personal
+      - j) Se ha explicado el papel de las personas adultas en la adquisición de la autonomía infantil
+    - numero: 3
+      enunciado: Organiza los espacios tiempos y recursos de la intervención relacionándolos con los ritmos infantiles y la
+        necesidad de las rutinas de los niños y niñas de 0 a 6 aÒos y en su caso con las ayudas técnicas que se precisen
+      criterios_evaluacion:
+      - a) Se ha explicado el papel de las rutinas en el desarrollo infantil y su influencia en la organización temporal de
+        la actividad del centro
+      - b) Se han establecido las rutinas diarias para la alimentación higiene y descanso
+      - c) Se ha preparado el espacio y las condiciones más adecuadas para el descanso la higiene y la alimentación
+      - d) Se han organizado los tiempos respetando los ritmos infantiles y el equilibro entre los periodos de actividad y
+        descanso
+      - e) Se han aportado soluciones ante diàcultades detectadas
+      - f) Se han seleccionado los objetos y recursos materiales necesarios para trabajar los distintos hábitos de alimentación
+        higiene descanso u otros
+      - g) Se han seleccionado las ayudas técnicas necesarias
+      - h) Se ha comprobado que el ambiente los materiales y equipos específicos cumplen con las normas de higiene y seguridad
+        establecidas en la normativa legal vigente
+      - i) Se ha valorado la importancia de respetar los ritmos individuales de los niños y niñas
+    - numero: 4
+      enunciado: Realiza actividades de atención a las necesidades básicas y adquisición de hábitos de autonomía de los niños
+        y niñas justificando las pautas de actuación
+      criterios_evaluacion:
+      - a) Se ha llevado a cabo la intervención adecuándola a las características individuales de los niños y niñas criterios
+        metodológicos previstos y recursos disponibles
+      - b) Se han descrito las estrategias para satisfacer las necesidades de relación en las rutinas diarias
+      - c) Se han aplicado las técnicas de alimentación aseo e higiene infantil de los bebés
+      - d) Se ha establecido una relación educativa con el niño o la niña
+      - e) Se han aplicado estrategias metodológicas para favorecer el desarrollo de la autonomía personal en los niños y
+        niñas
+      - f) Se han respetado los ritmos individuales de los niños y niñas
+      - g) Se han utilizado las ayudas técnicas siguiendo los protocolos establecidos
+      - h) Se han respetado las normas de higiene prevención y seguridad
+      - i) Se ha respondido adecuadamente ante las contingencias
+      - j) Se ha valorado el papel del educador o educadora en la satisfacción de las necesidades básicas y el desarrollo
+        de la autonomía del niño y la niña
+    - numero: 5
+      enunciado: Interviene en situaciones de especial diàcultad o riesgo para la salud y la seguridad de los niños y niñas
+        relacionando su actuación con los protocolos establecidos para la prevención e intervención en casos de enfermedad
+        o accidente
+      criterios_evaluacion:
+      - a) Se han identificado las características y necesidades básicas de los niños y niñas de 0 a 6 aÒos en materia de
+        salud y seguridad relacionándolas con la etapa evolutiva en la que se encuentran y los instrumentos adecuados
+      - b) Se han descrito las condiciones y medidas sanitarias y preventivas que hay que adoptar para la promoción de la
+        salud y el bienestar en los centros de atención a la infancia
+      - c) Se ha valorado la importancia del estado de salud y la higiene personal del educador o educadora en la prevención
+        de riesgos para la salud
+      - "d) Se han indicado los criterios y\x10o síntomas más relevantes para la identificación de las principales enfermedades\
+        \ infantiles describiendo los protocolos de actuación a seguir"
+      - e) Se han identificado los accidentes infantiles más frecuentes
+      - f) Se han descrito las estrategias de prevención de los accidentes infantiles
+      - g) Se ha valorado el papel de las actitudes del educador o educadora infantil ante las situaciones de enfermedad y
+        accidente
+      - 'h) Se ha comprobado que el ambiente los materiales y equipos específicos cumplen las normas de calidad y seguridad
+        establecidas: and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPSX'
+      - i) Se han establecido y mantenido relaciones de comunicación efectivas con las familias y en su caso otros profesionales
+        siguiendo los procedimientos previstos
+      - j) Se ha valorado el papel de la persona técnica en educación infantil como agente de salud y seguridad
+    - numero: 6
+      enunciado: EvalÙa el proceso y el resultado de la intervención en relación con la satisfacción de las necesidades básicas
+        y adquisición de hábitos de autonomía personal justificando la selección de las estrategias e instrumentos empleados
+      criterios_evaluacion:
+      - a) Se han identificado las fuentes de información y las técnicas de seguimiento del desarrollo físico y la adquisición
+        de hábitos y la detección de situaciones de riesgo
+      - b) Se han seleccionado los indicadores e instrumentos apropiados para el control y seguimiento de la evolución de
+        los niños y niñas y del proceso de intervención
+      - c) Se ha aplicado el instrumento de evaluación siguiendo el procedimiento correcto
+      - d) Se han registrado los datos en el soporte establecido
+      - e) Se ha interpretado correctamente la información recogida
+      - f) Se han identificado las posibles causas de una intervención no adecuada
+      - g) Se han identificado las situaciones en las que es necesario la colaboración de las familias y de otros profesionales
+      - "h) Se han elaborado informes sobre la evolución en la adquisición de hábitos la satisfacción de las necesidades básicas\
+        \ y\x10o trastornos en estos ámbitos dirigidos a las familias y otros profesionales"
+      - i) Se ha valorado la importancia de la evaluación para dar una respuesta adecuada a las necesidades básicas de los
+        niños y niñas
+  - codigo: '0013'
+    nombre: El juego infantil y su metodología
+    horas_totales: 105
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Contextualiza el modelo lúdico en la intervención educativa valorándolo con las diferentes teorías sobre
+        el juego su evolución e importancia en el desarrollo infantil y su papel como eje metodológico
+      criterios_evaluacion:
+      - a) Se han identificado las características del juego en los niños y niñas
+      - b) Se ha analizado la evolución del juego durante el desarrollo infantil
+      - c) Se ha analizado la importancia del juego en el desarrollo infantil
+      - d) Se ha valorado la importancia de incorporar aspectos lúdicos en el proceso de enseñanza aprendizaje
+      - e) Se han establecido similitudes y diferencias entre las diversas teorías del juego
+      - f) Se ha relacionado el juego con las diferentes dimensiones del desarrollo infantil
+      - g) Se ha reconocido la importancia del juego como factor de integración adaptación social igualdad y convivencia
+      - h) Se han analizado proyectos que utilicen el juego como eje de intervención en el ámbito formal y no formal
+      - i) Se han incorporado elementos lúdicos en la intervención educativa
+      - 'j) Se ha valorado la importancia del juego en el desarrollo infantil y como eje metodológico de la intervención educativa:
+        and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPTP'
+    - numero: 2
+      enunciado: Diseña proyectos de intervención lúdicos relacionándolos con el contexto y equipamiento o servicio en el
+        que se desarrolla y los principios de la animación infantil
+      criterios_evaluacion:
+      - a) Se han descrito los principios objetivos y modalidades de la animación infantil
+      - b) Se han identificado los diferentes tipos de centros que ofrecen actividades de juego infantil
+      - c) Se ha analizado la legislación características requisitos mínimos de funcionamiento funciones que cumplen y personal
+      - d) Se han identificado las características y prestaciones del servicio o equipamiento lúdico
+      - e) Se han aplicado los elementos de la programación en el diseÒo del proyecto lúdico
+      - f) Se han establecido espacios de juego teniendo en cuenta el tipo de institución los objetivos previstos las características
+        de los niños y niñas los materiales de que se dispone el presupuesto y el tipo de actividad a realizar en ellos
+      - g) Se han valorado las nuevas tecnologías como fuente de información en la planificación de proyectos lúdico-recreativos
+      - h) Se han definido los criterios de selección de materiales actividades a realizar de organización y recogida de materiales
+        técnicas de evaluación y elementos de seguridad en los lugares de juegos
+      - i) Se ha tenido en cuenta la gestión y organización de recursos humanos y materiales en el diseÒo del proyecto lúdico
+      - j) Se ha adaptado un proyecto-tipo de intervención lúdico-recreativa para un programa centro o institución determinada
+      - k) Se ha valorado la importancia de generar entornos seguros
+    - numero: 3
+      enunciado: Diseña actividades lúdicas relacionándolas con las teorías del juego y con el momento evolutivo en el que
+        se encuentre el niño o niña
+      criterios_evaluacion:
+      - a) Se ha tenido en cuenta el momento evolutivo de los niños y niñas en el diseÒo de las actividades lúdicas
+      - b) Se ha enumerado y clasificado diferentes actividades lúdicas atendiendo a criterios como son entre otros edades
+        espacios rol del técnico número de participantes capacidades que desarrollan relaciones que se establecen y materiales
+        necesarios
+      - c) Se han tenido en cuenta las características y el nivel de desarrollo de los niños y niñas para la programación
+        de actividades lúdico-recreativas
+      - d) Se han recopilado juegos tradicionales relacionándolos con la edad
+      - e) Se han analizado los elementos de la planificación de actividades lúdicas
+      - f) Se ha relacionado el significado de los juegos más frecuentes en la etapa infantil con las capacidades que desarrollan
+      - g) Se han valorado las nuevas tecnologías como fuente de información
+      - h) Se ha valorado la actitud del profesional con respecto al tipo de intervención
+    - numero: 4
+      enunciado: Selecciona juguetes para actividades lúdicas relacionando las características de los mismos con las etapas
+        del desarrollo infantil
+      criterios_evaluacion:
+      - a) Se han analizado diferentes tipos de juguetes sus características su función y las capacidades que contribuyen
+        a desarrollar en el proceso evolutivo del niño y de la niña
+      - b) Se han valorado las nuevas tecnologías como fuente de información
+      - c) Se ha elaborado un dossier de juguetes infantiles adecuados a la edad
+      - d) Se han recopilado juguetes tradicionales relacionándolos con la edad
+      - e) Se han identificado juguetes para espacios cerrados y abiertos adecuados a la edad
+      - f) Se han enumerado y clasificado diferentes juguetes atendiendo a los criterios de edad espacio de realización rol
+        del educador o educadora número de participantes capacidades que desarrollan relaciones que se establecen y materiales
+        necesarios
+      - g) Se han establecido criterios para la disposición utilización y conservación de materiales lúdicos
+      - h) Se ha analizado la legislación vigente en materia de uso y seguridad de juguetes
+      - i) Se ha reconocido la necesidad de la adecuación a las condiciones de seguridad de los juguetes infantiles
+    - numero: 5
+      enunciado: Implementa actividades lúdicas relacionándolas con los objetivos establecidos y los recursos necesarios
+      criterios_evaluacion:
+      - a) Se ha tenido en cuenta la adecuación de las actividades con los objetivos establecidos en la implementación de
+        las mismas
+      - b) Se ha justificado la necesidad de diversidad en el desarrollo de actividades lúdicas
+      - c) Se han organizado los espacios recursos y materiales adecuándose a las características evolutivas de los destinatarios
+        en función de la edad de los mismos y acordes con los objetivos previstos
+      - d) Se ha establecido una distribución temporal de las actividades en función de la edad de los destinatarios
+      - e) Se han identificado los trastornos más comunes y las alternativas de intervención
+      - f) Se han realizado juguetes con distintos materiales adecuados a la etapa
+      - g) Se han realizado las actividades lúdico-recreativa ajustándose a la planificación temporal
+      - h) Se ha valorado la importancia de generar entornos seguros
+    - numero: 6
+      enunciado: 'EvalÙa proyectos y actividades de intervención lúdica justificando las técnicas e instrumentos de observación
+        seleccionados: SWPTQ rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ'
+      criterios_evaluacion:
+      - a) Se han identificado las condiciones y los métodos necesarios para realizar una evaluación de la actividad lúdica
+      - b) Se han seleccionado los indicadores de evaluación
+      - c) Se han aplicado distintas técnicas e instrumentos de evaluación a distintas situaciones lúdicas teniendo en cuenta
+        entre otros criterios de àabilidad validez utilidad y practicidad para los usuarios de la información
+      - d) Se ha elegido y aplicado la técnica adecuada según la ànalidad del registro
+      - e) Se han extraído las conclusiones y explicado las consecuencias que se derivan para el ajuste o modificación del
+        proyecto
+      - f) Se ha valorado el uso de las nuevas tecnologías como fuente de información
+      - g) Se han identificado las adaptaciones que requiere el juego en un supuesto práctico de observación de actividad
+        lúdica
+  - codigo: '0014'
+    nombre: Expresión y comunicación
+    horas_totales: 100
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica estrategias y actividades favorecedoras del desarrollo de la expresión y comunicación relacionándolas
+        con las características individuales y del grupo al que van dirigidos
+      criterios_evaluacion:
+      - a) Se han identificado las características de los diferentes tipos de expresión en función de la edad de los destinatarios
+      - b) Se han analizado las teorías sobre la conexión y la relación de lenguaje y pensamiento en niños y niñas de 0-6
+        aÒos
+      - c) Se han formulado objetivos favorecedores del desarrollo de la expresión y comunicación acordes a las características
+        evolutivas de los niños y niñas
+      - d) Se han propuesto actividades favorecedoras del desarrollo de la expresión y la comunicación apropiadas a las características
+        evolutivas de los niños y niñas
+      - e) Se han definido espacios favorecedores del desarrollo de la expresión y comunicación adecuándose a las características
+        evolutivas de los niños y niñas
+      - f) Se ha establecido una distribución temporal de las actividades favorecedoras del desarrollo de la expresión y comunicación
+        para adaptarse a las características evolutivas de los niños y niñas
+      - g) Se han hecho propuestas creativas en el diseÒo de actividades para la expresión y la comunicación infantil
+      - h) Se ha valorado la expresión como elemento esencial para la observación del desarrollo infantil
+    - numero: 2
+      enunciado: Selecciona recursos de expresión y comunicación dirigidos a los niños y niñas relacionando las características
+        de los mismos con el momento evolutivo de los destinatarios
+      criterios_evaluacion:
+      - a) Se han identificado los recursos de las diferentes formas de expresión y comunicación dirigidos a la población
+        infantil
+      - b) Se han identificado las características del recurso
+      - c) Se han justificado las posibilidades didácticas y el valor educativo de los recursos seleccionados
+      - d) Se han descrito las normas de seguridad aplicables a cada recuso
+      - e) Se han definido los criterios relevantes que en cada recurso permiten seleccionarlo
+      - f) Se han relacionado el momento evolutivo de los niños y niñas con las características del recurso seleccionado
+      - g) Se ha valorado la importancia de adecuar los recursos a las características evolutivas de los niños y niñas
+    - numero: 3
+      enunciado: Implementa estrategias y actividades favorecedoras del desarrollo de la expresión oral relacionándolas con
+        los objetivos previstos
+      criterios_evaluacion:
+      - a) Se han organizado los espacios en función de la actividad y de las características del grupo
+      - b) Se han realizado las actividades de desarrollo de la expresión oral ajustándose a la planificación temporal
+      - c) Se han preparado los recursos materiales propios de la actividad
+      - d) Se han elaborado materiales que potencian la adquisición y desarrollo de la expresión oral en niños y niñas
+      - e) Se han respetado los ritmos y necesidades individuales en el desarrollo de la actividad
+      - f) Se han identificado los principales trastornos y alteraciones en el desarrollo de la expresión oral
+      - g) Se han seleccionado estrategias de intervención promotoras de un clima de afecto y conàanza
+      - h) Se ha valorado la importancia de respetar la lengua materna de los niños y niñas
+      - i) Se ha valorado la coherencia de la realización de las actividades con la planificación
+      - j) Se han identificado los trastornos más comunes y las alternativas de intervención
+    - numero: 4
+      enunciado: Implementa actividades favorecedoras del desarrollo de la expresión plástica grÃàca rítmico-musical lógico
+        matemática y corporal relacionándolas con los objetivos previstos y las estrategias y recursos apropiados
+      criterios_evaluacion:
+      - 'a) Se han organizado los espacios en función de la actividad y de las características del grupo: SWPTS rá#"%0 QS
+        /07*&.#3& QOOV and /ú.M QWQ'
+      - b) Se han realizado las actividades ajustándose a la planificación temporal
+      - c) Se han preparado los recursos materiales propios de la actividad
+      - d) Se han elaborado materiales que potencian la adquisición y desarrollo de la expresión plástica grÃàca rítmico-musical
+        y corporal en la infancia
+      - e) Se han respetado los ritmos y necesidades individuales
+      - f) Se han seleccionado estrategias de intervención promotoras de un clima de afecto y conàanza
+      - g) Se ha valorado la coherencia de la realización de las actividades con la planificación
+      - h) Se ha respondido ante las contingencias
+      - i) Se han generado entornos de intervención seguros
+      - j) Se han valorado las expresiones de aproximación al lenguaje grÃàco
+    - numero: 5
+      enunciado: EvalÙa el proceso y el resultado de la intervención realizada en el ámbito de la expresión y comunicación
+        argumentando las variables relevantes y los instrumentos de evaluación
+      criterios_evaluacion:
+      - a) Se han seleccionado los indicadores de evaluación
+      - "b) Se ha seleccionado el instrumento de evaluación apropiado a las características individuales y a la edad del niño\x10\
+        a"
+      - c) Se han elaborado instrumentos de observación en el seguimiento de la evolución expresiva y comunicativa de los
+        niños y de las niñas
+      - d) Se ha aplicado el instrumento de evaluación siguiendo el procedimiento correcto
+      - e) Se han registrado los datos derivados de la evaluación en el soporte establecido
+      - f) Se ha interpretado la información recogida del proceso de evaluación
+      - g) Se han identificado las situaciones en las que es necesario la colaboración de otros profesionales
+      - h) Se ha elaborado la documentación dirigida a las familias y a otros profesionales
+      - i) Se han identificado las posibles causas de una intervención no adecuada
+  - codigo: '0015'
+    nombre: Desarrollo cognitivo y motor
+    horas_totales: 105
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica estrategias actividades y recursos de intervención en el ámbito sensorial analizando las teorías
+        explicativas y las características específicas del grupo al que va dirigido
+      criterios_evaluacion:
+      - a) Se han identificado las teorías explicativas del ámbito sensorial
+      - b) Se han identificado las características evolutivas en el ámbito sensorial de los destinatarios en función de la
+        edad de los mismos
+      - c) Se han identificado las principales alteraciones y trastornos del desarrollo sensorial
+      - d) Se han formulado objetivos acordes a las características evolutivas en el ámbito sensorial de los destinatarios
+        en función de la edad de los mismos
+      - e) Se han propuesto actividades apropiadas a las características evolutivas en el ámbito sensorial de los destinatarios
+        en función de la edad de los mismos
+      - f) Se han seleccionado recursos apropiados a las características evolutivas en el ámbito sensorial de los destinatarios
+        en función de la edad de los mismos
+      - g) Se han organizado los espacios adecuándose a las características evolutivas en el ámbito sensorial de los destinatarios
+        en función de la edad de los mismos
+      - h) Se ha establecido una distribución temporal de las actividades para adaptarse a las características evolutivas
+        en el ámbito sensorial de los destinatarios en función de la edad de los mismos
+      - i) Se han realizado propuestas creativas e innovadoras en la planificación de la intervención
+      - j) Se ha valorado la importancia de la intervención en el ámbito sensorial como medio para favorecer la exploración
+        del entorno por parte del niño y de la niña
+    - numero: 2
+      enunciado: Planifica estrategias actividades y recursos de intervención en el ámbito motor relacionándolos con las características
+        individuales y del grupo al que va dirigido
+      criterios_evaluacion:
+      - a) Se han identificado las características motrices de los destinatarios en función de la edad de los mismos
+      - b) Se han formulado objetivos acordes a las características motrices de los destinatarios en función de la edad de
+        los mismos
+      - c) Se han propuesto actividades apropiadas a las características motrices de los destinatarios en función de la edad
+        de los mismos
+      - d) Se han seleccionado recursos apropiados a las características motrices de los destinatarios en función de la edad
+        de los mismos
+      - e) Se han organizado los espacios adecuándose a las características motrices de los destinatarios en función de la
+        edad de los mismos
+      - f) Se ha establecido una distribución temporal de las actividades para adaptarse a las características motrices de
+        los destinatarios en función de la edad de los mismos
+      - g) Se han seleccionado las ayudas técnicas que es preciso emplear
+      - h) Se ha valorado la importancia del desarrollo motor en la adquisición de la autonomía personal
+    - numero: 3
+      enunciado: Planifica estrategias actividades y recursos de intervención en el ámbito cognitivo relacionándolos con las
+        teorías del desarrollo cognitivo y las características individuales y del grupo al que va dirigido
+      criterios_evaluacion:
+      - a) Se han identificado las diferentes teorías explicativas del desarrollo cognitivo
+      - b) Se han identificado las características evolutivas en el ámbito cognitivo de los destinatarios en función de la
+        edad de los mismos
+      - 'c) Se han identificado los principales trastornos y alteraciones en el desarrollo cognitivo: SWPTU rá#"%0 QS /07*&.#3&
+        QOOV and /ú.M QWQ'
+      - d) Se han formulado objetivos acordes a las características evolutivas en el ámbito cognitivo de los niños y niñas
+      - e) Se han propuesto actividades apropiadas a las características evolutivas en el ámbito cognitivo de los niños y
+        niñas
+      - f) Se han seleccionado recursos apropiados a las características evolutivas en el ámbito cognitivo de los niños y
+        niñas
+      - g) Se han definido los espacios adecuándose a las características evolutivas en el ámbito cognitivo de los niños y
+        niñas
+      - h) Se ha establecido una distribución temporal de las actividades para adaptarse a las características evolutivas
+        de los niños y niñas
+      - i) Se han hecho propuestas creativas e innovadoras
+    - numero: 4
+      enunciado: Planifica estrategias actividades y recursos psicomotrices relacionándolos con los principios de la educación
+        psicomotriz y las características individuales y del grupo al que va dirigido
+      criterios_evaluacion:
+      - a) Se han identificado los principios de la educación psicomotriz
+      - b) Se han identificado las características psicomotrices de los destinatarios en función de la edad de los mismos
+      - c) Se han formulado objetivos acordes a las características psicomotrices de los destinatarios en función de la edad
+        de los mismos
+      - d) Se han seleccionado actividades apropiadas a las características psicomotrices de los destinatarios en función
+        de la edad de los mismos
+      - e) Se han seleccionado recursos apropiados a las características psicomotrices de los destinatarios en función de
+        la edad de los mismos
+      - f) Se han organizado los espacios adecuándose a las características psicomotrices de los destinatarios en función
+        de la edad de los mismos
+      - g) Se ha establecido una distribución temporal de las actividades para adaptarse a las características psicomotrices
+        de los destinatarios en función de la edad de los mismos
+      - h) Se han identificado los principios y ámbitos de actuación de la educación psicomotriz
+      - i) Se ha valorado la importancia de la psicomotricidad en la educación infantil
+    - numero: 5
+      enunciado: Implementa actividades de intervención en el ámbito sensorial motor cognitivo y psicomotor relacionándolas
+        con los objetivos previstos y con las características de los niños y niñas
+      criterios_evaluacion:
+      - a) Se han descrito las principales diàcultades que pueden surgir en la realización de las actividades
+      - b) Se han organizado los espacios en función de la actividad y de las características del grupo
+      - c) Se han preparado los recursos materiales propios de la actividad
+      - d) Se han realizado las actividades ajustándose a la planificación temporal
+      - e) Se han respetado los ritmos y necesidades individuales en el desarrollo de la actividad
+      - f) Se han seleccionado estrategias de intervención promotoras de un clima de afecto y conàanza
+      - g) Se ha valorado la coherencia de la implantación de las actividades con la planificación
+      - h) Se ha respondido ante las contingencias
+      - i) Se han generado entornos de intervención seguros
+    - numero: 6
+      enunciado: EvalÙa el proceso y el resultado de la intervención realizada en el ámbito sensorial motor cognitivo y psicomotor
+        argumentando las variables relevantes en el proceso y justiàcando su elección
+      criterios_evaluacion:
+      - a) Se han seleccionado los indicadores de evaluación
+      - "b) Se ha seleccionado el instrumento de evaluación apropiado a las características individuales y a la edad del niño\x10\
+        a"
+      - c) Se ha aplicado el instrumento de evaluación siguiendo el procedimiento correcto
+      - d) Se han registrado los datos extraídos del proceso de evaluación en el soporte establecido
+      - e) Se ha interpretado la información recogida del proceso de evaluación de la intervención
+      - f) Se han identificado las situaciones en las que es necesario la colaboración de otros profesionales
+      - g) Se han identificado las posibles causas de una intervención no adecuada
+      - h) Se ha ajustado la actuación y actitud del profesional a la pauta prevista
+  - codigo: '0016'
+    nombre: Desarrollo socioafectivo
+    horas_totales: 75
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica intervenciones para favorecer el desarrollo afectivo de los niños y niñas analizando las teorías
+        explicativas y las características individuales y del grupo al que van dirigidas
+      criterios_evaluacion:
+      - a) Se han identificado las diferentes concepciones teóricas acerca del desarrollo afectivo de los niños y niñas
+      - b) Se han descrito las principales características de la afectividad infantil su evolución y los trastornos más frecuentes
+      - c) Se ha valorado la importancia del apego en el desarrollo integral de los niños y niñas
+      - d) Se han identificado y considerado las variables relevantes para el diseÒo de la intervención
+      - 'e) Se han formulado objetivos pertinentes a las características evolutivas de los niños y niñas: SWPTW rá#"%0 QS
+        /07*&.#3& QOOV and /ú.M QWQ'
+      - f) Se han propuesto actividades recursos y estrategias coherentes con los objetivos y las características de los niños
+        y niñas
+      - g) Se han descrito estrategias adecuadas para organizar el periodo de adaptación
+      - h) Se han propuesto actividades favorecedoras del desarrollo de la identidad personal y de una autoimagen positiva
+      - i) Se ha valorado la importancia de las personas adultas y los padres en la construcción de una identidad personal
+        ajustada
+      - j) Se ha valorado la importancia de la afectividad en el desarrollo integral del sujeto
+    - numero: 2
+      enunciado: Planifica intervenciones para favorecer el desarrollo social de los niños y niñas relacionándolas con los
+        factores influyentes y las características individuales y del grupo al que van dirigidas
+      criterios_evaluacion:
+      - a) Se han identificado las diferentes teorías acerca del desarrollo social de los niños y niñas
+      - b) Se han identificado y descrito las funciones de los agentes sociales que intervienen en el desarrollo social
+      - c) Se han descrito las principales pautas evolutivas en el desarrollo social afectividad evolución apego trastornos
+      - d) Se han identificado y considerado las variables sociales relevantes para el diseÒo de la intervención
+      - e) Se han formulado objetivos acordes a las características evolutivas de los niños y niñas en el ámbito social
+      - f) Se han propuesto actividades recursos y estrategias coherentes con los objetivos y las características de los niños
+        y niñas
+      - g) Se han propuesto actividades y estrategias para el desarrollo de habilidades sociales en los niños y niñas
+      - h) Se han propuesto actividades favorecedoras de la observación y exploración del entorno social
+      - i) Se ha valorado el papel de la escuela en la socialización de los niños y niñas
+      - j) Se ha valorado la importancia de la afectividad en el desarrollo integral infantil
+    - numero: 3
+      enunciado: Planifica intervenciones para favorecer el desarrollo en valores de los niños y niñas relacionándolas con
+        las teorías explicativas y las características individuales y del grupo al que van dirigidas
+      criterios_evaluacion:
+      - a) Se han identificado las diferentes concepciones teóricas acerca del desarrollo en valores de los niños y niñas
+      - b) Se han descrito las características y la evolución de la moralidad infantil
+      - c) Se han identificado y considerado las variables sociales relevantes para el diseÒo de la intervención
+      - d) Se han formulado objetivos acordes a las características evolutivas de los niños y niñas
+      - e) Se han propuesto actividades recursos y estrategias coherentes con los objetivos y las características evolutivas
+        de los niños y niñas
+      - f) Se han propuesto programas y actividades de educación en valores favorecedoras del desarrollo integral
+      - g) Se ha valorado la actitud de las personas adultas en la interiorización de valores y normas en los niños y niñas
+        de 0-6 aÒos
+    - numero: 4
+      enunciado: Planifica intervenciones para favorecer el desarrollo sexual de los niños y niñas analizando las características
+        evolutivas de la sexualidad infantil y la influencia de los estereotipos sociales
+      criterios_evaluacion:
+      - a) Se han identificado las diferentes concepciones acerca del desarrollo sexual de los niños y niñas
+      - b) Se han identificado y descrito los factores que influyen en la adquisición de la identidad sexual y de género
+      - c) Se han descrito las principales características de la sexualidad infantil
+      - d) Se ha valorado el papel de los estereotipos en la construcción de la identidad sexual y de género Se han formulado
+        objetivos adecuados a las características evolutivas de los niños y niñas
+      - e) Se han propuesto actividades recursos y estrategias favorecedoras del desarrollo de una identidad sexual
+      - f) Se han identificado y descrito los elementos contextuales personales y organizativos que favorecen o diàcultan
+        una práctica pedagógica no sexista
+      - g) Se han establecido estrategias y mecanismos para la detección de elementos que diàcultan la igualdad de género
+      - h) Se han descrito programas actividades y estrategias de actuación promotoras de igualdad
+      - i) Se han seleccionado recursos didácticos no sexistas para la intervención
+      - j) Se ha valorado la necesidad de analizar las propias actitudes y comportamientos relacionados con la igualdad de
+        género
+    - numero: 5
+      enunciado: Programa estrategias de intervención en los trastornos habituales de conducta y los conflictos en las relaciones
+        infantiles analizando las teorías y técnicas de la modificación de conducta
+      criterios_evaluacion:
+      - a) Se han descrito las principales teorías y técnicas de modificación de conducta
+      - b) Se han identificado los trastornos de conducta y conflictos en las relaciones interpersonales más frecuentes en
+        la infancia
+      - c) Se han establecido y descrito las diferentes fases del programa de intervención
+      - d) Se ha valorado la importancia del diagnóstico en la programación de la intervención
+      - 'e) Se han establecido las estrategias e instrumentos para identificar las causas de los trastornos de conducta o
+        de relación: and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPTX'
+      - f) Se han identificado las técnicas de intervención más adecuadas a cada situación
+      - g) Se han descrito estrategias de mediación que propician el consenso entre los niños
+      - h) Se han descrito los instrumentos más adecuados para el seguimiento de la intervención
+      - i) Se han descrito las pautas de actuación correcta por parte del educador o educadora ante los problemas de conducta
+        y los conflictos en las relaciones infantiles
+      - j) Se han valorado las limitaciones de los niños y niñas para modular y controlar la conducta
+    - numero: 6
+      enunciado: Implementa programas y actividades de intervención en el ámbito socioafectivo relacionándolas con los objetivos
+        las estrategias metodológicas y el papel del educador o educadora
+      criterios_evaluacion:
+      - a) Se han descrito las actitudes y el papel que debe desempeÒar el educador o educadora para favorecer el desarrollo
+        socioafectivo de los niños y niñas
+      - b) Se han identificado estilos de relación favorecedores de la creación de una identidad positiva
+      - c) Se han identificado las habilidades sociales necesarias para relacionarse adecuadamente con los niños y las niñas
+      - d) Se ha potenciado la expresión e identificación de emociones por parte de los niños y niñas
+      - e) Se han organizado los espacios atendiendo a las necesidades socioafectivas de los niños y niñas
+      - f) Se han dispuesto los recursos y agrupamientos propiciando la interacción libre de los niños y de las niñas
+      - g) Se ha respondido adecuadamente ante las contingencias relativas al ámbito socioafectivo
+      - h) Se ha analizado y valorado el papel de la persona educadora en la creación de un clima de afecto y conàanza
+      - i) Se ha respetado el principio de igualdad de género en el desarrollo de la intervención
+      - j) Se han aplicado estrategias que favorecen el desempeÒo de roles variados que no reproduzcan una asignación sexista
+        de los mismos
+    - numero: 7
+      enunciado: EvalÙa la intervención realizada en el ámbito socioafectivo justificando la selección de las variables e
+        instrumentos empleados
+      criterios_evaluacion:
+      - a) Se han identificado los indicadores de evaluación más pertinentes en el ámbito socioafectivo
+      - b) Se han diseñado o seleccionado instrumentos adecuados para obtener información sobre la situación socioafectiva
+        del niño y la niña
+      - c) Se ha justificado la importancia de la evaluación inicial
+      - d) Se han registrado los datos extraídos del proceso de evaluación en el soporte establecido
+      - e) Se ha valorado la importancia de la objetividad en la obtención y registro de la información
+      - f) Se ha interpretado correctamente la información recogida de los procesos de evaluación
+      - g) Se han identificado las situaciones que requieren la participación de otros profesionales y las pautas de actuación
+        a seguir
+      - h) Se han elaborado informes coherentes con la información a transmitir y el receptor de la misma
+      - i) Se han identificado las posibles causas de una intervención no adecuada
+      - j) Se ha valorado la importancia de la evaluación para corregir las desviaciones y mejorar la intervención
+  - codigo: '0017'
+    nombre: Habilidades sociales
+    horas_totales: 60
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Implementa estrategias y técnicas para favorecer la comunicación y relación social con su entorno relacionándolas
+        con los principios de la inteligencia emocional y social
+      criterios_evaluacion:
+      - a) Se han descrito los principios de la inteligencia emocional y social
+      - b) Se ha valorado la importancia de las habilidades sociales en el desempeÒo de la labor profesional
+      - c) Se han caracterizado las distintas etapas de un proceso comunicativo
+      - d) Se han identificado los diferentes estilos de comunicación sus ventajas y limitaciones
+      - e) Se ha valorado la importancia del uso de la comunicación tanto verbal como no verbal en las relaciones interpersonales
+      - 'f) Se ha establecido una eàcaz comunicación para asignar tareas recibir instrucciones e intercambiar ideas o información:
+        and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPUP'
+      - g) Se han utilizado las habilidades sociales adecuadas a la situación y atendiendo a la diversidad cultural
+      - h) Se ha demostrado interés por no juzgar a las personas y respetar sus elementos diferenciadores personales emociones
+        sentimientos personalidad
+      - i) Se ha demostrado una actitud positiva hacia el cambio y a aprender de todo lo que sucede
+      - j) Se ha valorado la importancia de la autocrítica y la autoevaluación en el desarrollo de habilidades de relación
+        interpersonal y de comunicación adecuadas
+    - numero: 2
+      enunciado: Dinamiza el trabajo del grupo aplicando las técnicas adecuadas y justificando su selección en función de
+        las características situación y objetivos del grupo
+      criterios_evaluacion:
+      - a) Se han descrito los elementos fundamentales de un grupo su estructura y dinámica asÎ como los factores que pueden
+        modiàcarlas
+      - b) Se han analizado y seleccionado las diferentes técnicas de dinamización y funcionamiento de grupos
+      - c) Se han explicado las ventajas del trabajo en equipo frente al individual
+      - d) Se han diferenciado los diversos roles que pueden darse en un grupo y las relaciones entre ellos
+      - e) Se han identificado las principales barreras de comunicación grupal
+      - f) Se han planteado diferentes estrategias de actuación para aprovechar la función de liderazgo y los roles en la
+        estructura y funcionamiento del grupo
+      - g) Se ha definido el reparto de tareas como procedimiento para el trabajo grupo
+      - h) Se ha valorado la importancia de una actitud tolerante y de empatía para conseguir la conàanza del grupo
+      - i) Se ha logrado un ambiente de trabajo relajado y cooperativo
+      - j) Se han respetado las opiniones diferentes a la propia y los acuerdos de grupo
+    - numero: 3
+      enunciado: Conduce reuniones analizando las distintas formas o estilos de intervención y de organización en función
+        de las características de los destinatarios y el contexto
+      criterios_evaluacion:
+      - a) Se han descrito los diferentes tipos y funciones de las reuniones
+      - b) Se han descrito las etapas del desarrollo de una reunión
+      - c) Se han aplicado técnicas de moderación de reuniones justiàcándolas
+      - d) Se ha demostrado la importancia de la capacidad de exponer ideas de manera clara y concisa
+      - e) Se han descrito los factores de riesgo los sabotajes posibles de una reunión justificando las estrategias de resolución
+      - f) Se ha valorado la necesidad de una buena y diversa información en la convocatoria de reuniones
+      - g) Se ha descrito la importancia de la motivación y de las estrategias empleadas para conseguir la participación en
+        las reuniones
+      - h) Se han aplicado técnicas de recogida de información y evaluación de resultados de una reunión
+      - i) Se han demostrado actitudes de respeto y tolerancia en la conducción de reuniones
+    - numero: 4
+      enunciado: Implementa estrategias de gestión de conflictos y resolución de problemas seleccionándolas en función de
+        las características del contexto y analizando los diferentes modelos
+      criterios_evaluacion:
+      - a) Se han analizado e identificado las principales fuentes de los problemas y conflictos grupales
+      - b) Se han descrito las principales técnicas y estrategias para la gestión de conflictos
+      - c) Se han identificado y descrito las estrategias más adecuadas para la bÙsqueda de soluciones y resolución de problemas
+      - d) Se han descrito las diferentes fases del proceso de toma de decisiones
+      - e) Se han resuelto problemas y conflictos aplicando los procedimientos adecuados a cada caso
+      - f) Se han respetado las opiniones de los demás respecto a las posibles vías de solución de problemas y conflictos
+      - g) Se han aplicado correctamente técnicas de mediación y negociación
+      - h) Se ha tenido en cuenta a las personas usuarios sea cual sea su edad o condición física y mental en el proceso de
+        toma de decisiones
+      - i) Se ha planificado la tarea de toma de decisiones y la autoevaluación del proceso
+      - j) Se ha valorado la importancia del intercambio comunicativo en la toma de decisiones
+    - numero: 5
+      enunciado: EvalÙa los procesos de grupo y la propia competencia social para el desarrollo de sus funciones profesionales
+        identiàcando los aspectos susceptibles de mejora
+      criterios_evaluacion:
+      - a) Se han seleccionado los indicadores de evaluación
+      - b) Se han aplicado técnicas de investigación social y sociométricas
+      - c) Se ha autoevaluado la situación personal y social de partida del profesional
+      - d) Se han diseñado instrumentos de recogida de información
+      - e) Se han registrado los datos en soportes establecidos
+      - f) Se ha interpretado los datos recogidos
+      - g) Se han identificado las situaciones que necesiten mejorar
+      - h) Se han marcado las pautas a seguir en la mejora
+      - i) Se ha realizado una autoevaluación ànal del proceso trabajado por el profesional
+  - codigo: 0018
+    nombre: Intervención con familias y atención a menores en riesgo social
+    horas_totales: 60
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica programas y actividades de intervención socioeducativa dirigidos a niños y niñas acogidos en centros
+        de menores analizando el modelo de atención a la infancia de la institución y la normativa legal vigente
+      criterios_evaluacion:
+      - a) Se han identificado las diferencias entre los diversos tipos de modelos de atención a la infancia en la Unión Europea
+      - b) Se han identificado y descrito las características más significativas de la red de servicios sociales de atención
+        a la infancia
+      - c) Se ha analizado la legislación vigente en relación a los servicios de atención a la infancia
+      - d) Se ha descrito la estructura organizativa y funcional de los diferentes centros de atención a la infancia
+      - e) Se han identificado los documentos que regulan la intervención socioeducativa en los centros de menores
+      - f) Se han formulado objetivos acordes con las características de los niños y niñas y del modelo socio-educativo del
+        centro
+      - g) Se han propuesto actividades recursos y estrategias de intervención adecuadas
+      - h) Se han previsto los espacios y los tiempos necesarios
+      - i) Se han establecido los canales y mecanismos de coordinación e intercambio de información con otros profesionales
+        implicados en el proceso
+      - j) Se ha valorado la importancia del trabajo en equipo en el éxito de la intervención
+    - numero: 2
+      enunciado: Planifica programas y actividades de intervención con familias justificando el papel de la misma en la educación
+        y el desarrollo integral del niño y la niña
+      criterios_evaluacion:
+      - a) Se ha identificado y descrito la influencia de las pautas de crianza en la familia en el desarrollo integral del
+        niño y de la niña
+      - b) Se han descrito programas de ayuda e intervención con familias desde los ámbitos educativo y social
+      - c) Se han propuesto estrategias actividades y recursos para favorecer la participación de la familia y en su caso
+        mejorar su competencia educativa
+      - d) Se han identificado los criterios educativos aspectos formales y actitudes que se deben tener en cuenta en relación
+        a la colaboración con las familias
+      - e) Se ha valorado la importancia de la colaboración familia-institución en los primeros aÒos
+      - f) Se han descrito las problemáticas e indicadores asociados a las familias en situación de riesgo social
+      - g) Se han identificado los indicadores y requisitos que seÒalan la existencia de maltrato
+      - h) Se han concretado los protocolos de actuación tras la detección de situación de riesgo o maltrato en la familia
+      - "i) Se ha valorado el papel de la persona educadora en la detección y comunicación de las situaciones de riesgo y\x10\
+        o maltrato infantil"
+      - j) Se ha valorado la necesidad de mantener una actitud respetuosa hacia las diversas situaciones familiares
+    - numero: 3
+      enunciado: Implementa actividades socioeducativas dirigidas a niños y niñas en situación de riesgo o acogidos en centros
+        de menores relacionándolas con los objetivos y las estrategias metodológicas de la intervención
+      criterios_evaluacion:
+      - a) Se han empleado técnicas e instrumentos para la obtención de información
+      - b) Se han identificado las características y necesidades del grupo y el contexto asignado
+      - c) Se han organizado los espacios y recursos materiales y humanos
+      - d) Se han aplicado estrategias metodológicas
+      - e) Se ha valorado la necesidad de generar un clima familiar de seguridad afectiva y conàanza
+      - f) Se ha favorecido la conciliación de las rutinas del centro con los ritmos individuales
+      - g) Se han resuelto las situaciones de urgencia e imprevistos
+      - h) Se han adoptado medidas de prevención y seguridad
+      - i) Se han adoptado actitudes de escucha a las propuestas de los niños y niñas permitiéndoles participar activamente
+        en las decisiones que les afectan
+      - j) Se ha justificado la necesidad del trabajo en equipo y de la colaboración con otros profesionales
+    - numero: 4
+      enunciado: Implementa actividades y estrategias que favorecen la colaboración de la familia en el proceso socio-educativo
+        de los niños y niñas relacionándolas con las características y necesidades de las mismas y los objetivos de la intervención
+      criterios_evaluacion:
+      - a) Se han identificado los canales de participación de las familias en la institución
+      - "b) Se han identificado las necesidades educativas y\x10o de participación de la familia"
+      - c) Se han preparado guiones para reuniones y entrevistas con las familias
+      - d) Se han realizado reuniones y entrevistas siguiendo objetivos y guiones establecidos
+      - e) Se ha mantenido una actitud receptiva a las iniciativas y propuestas de participación de las familias
+      - f) Se han organizado los recursos espacios y tiempos de acuerdo a los objetivos de la actividad
+      - g) Se ha respondido ante situaciones imprevistas
+      - 'h) Se ha mantenido actitud positiva en la relación con las familias: SWPUS rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ'
+      - i) Se ha valorado la importancia de las habilidades sociales de la persona educadora en las relaciones con la familia
+      - j) Se ha adaptado la comunicación a las características de las familias
+    - numero: 5
+      enunciado: EvalÙa el proceso y el resultado de las intervenciones socioeducativas con los niños y niñas acogidos en
+        centros de menores relacionando la evaluación con las variables relevantes y los protocolos establecidos en la institución
+      criterios_evaluacion:
+      - a) Se han diseñado o seleccionado instrumentos adecuados para obtener información de los niños y niñas
+      - b) Se han establecido las estrategias técnicas e instrumentos de seguimiento y evaluación de la intervención
+      - c) Se han aplicado los instrumentos de evaluación siguiendo el procedimiento correcto
+      - d) Se ha interpretado correctamente la información obtenida
+      - e) Se han identificado los aspectos que hay que modiàcar en la intervención
+      - f) Se han propuesto las medidas necesarias para mejorar la intervención
+      - g) Se ha informado a los miembros del equipo siguiendo los protocolos establecidos
+      - h) Se han identificado situaciones que requieren la participación de otros profesionales y las pautas de actuación
+        a seguir
+      - i) Se ha informado a las familias del progreso del niño o niña de forma individualizada y comprensible
+      - j) Se ha valorado la importancia de destacar los aspectos positivos de la evolución del niño y la niña en las informaciones
+        facilitadas a la familia
+    - numero: 6
+      enunciado: EvalÙa el proceso y el resultado de las intervenciones con familias identificando las variables relevantes
+        en el proceso y justificando su elección
+      criterios_evaluacion:
+      - a) Se han seleccionado los indicadores de evaluación
+      - b) Se han diseñado o seleccionado instrumentos adecuados para obtener información sobre la situación familiar las
+        necesidades educativas de la familia las posibilidades y deseos familiares de participación
+      - c) Se han aplicado correctamente los instrumentos de evaluación
+      - d) Se han recogido e interpretado correctamente los datos
+      - e) Se han identificado las desviaciones respecto a lo previsto en la intervención
+      - f) Se han propuesto medidas de corrección en situaciones problemáticas
+      - g) Se han valorado la necesidad de la participación de la familia en la evaluación de la intervención
+      - h) Se ha valorado la importancia de mantener una actitud permanente de mejora en la eàcacia y calidad del servicio
+  - codigo: 0019
+    nombre: Proyecto de atención a la infancia
+    horas_totales: 25
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer
+      criterios_evaluacion:
+      - a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio
+        que ofrecer
+      - b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento
+      - c) Se han identificado las necesidades más demandadas a las empresas
+      - d) Se han valorado las oportunidades de negocio previsibles en el sector
+      - e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas
+      - f) Se han determinado las características específicas requeridas al proyecto
+      - g) Se han determinado las obligaciones fiscales laborales y de prevención de riesgos y sus condiciones de aplicación
+      - h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o
+        de servicio que se proponen
+      - i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto
+    - numero: 2
+      enunciado: 'Diseña proyectos relacionados con las competencias expresadas en el título incluyendo y desarrollando las
+        fases que lo componen: SWPUU rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ'
+      criterios_evaluacion:
+      - a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto
+      - b) Se ha realizado el estudio de viabilidad técnica del mismo
+      - c) Se han identificado las fases o partes que componen el proyecto y su contenido
+      - d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance
+      - e) Se han previsto los recursos materiales y personales necesarios para realizarlo
+      - f) Se ha realizado el presupuesto económico correspondiente
+      - g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo
+      - h) Se ha definido y elaborado la documentación necesaria para su diseÒo
+      - i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto
+    - numero: 3
+      enunciado: Planifica la implementación o ejecución del proyecto determinando el plan de intervención y la documentación
+        asociada
+      criterios_evaluacion:
+      - a) Se han secuenciado las actividades ordenándolas en función de las necesidades de implementación
+      - b) Se han determinado los recursos y la logística necesaria para cada actividad
+      - c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades
+      - 'd) Se han determinado los procedimientos de actuación o ejecución de las actividades: Se han identiàcado los riesgos
+        inherentes a la implementación deàniendo el plan de prevención de riesgos y los medios y equipos necesarios'
+      - e) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución
+      - f) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación
+      - g) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución
+    - numero: 4
+      enunciado: Deàne los procedimientos para el seguimiento y control en la ejecución del proyecto justificando la selección
+        de variables e instrumentos empleados
+      criterios_evaluacion:
+      - a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones
+      - b) Se han definido los indicadores de calidad para realizar la evaluación
+      - c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización
+        de las actividades su posible solución y registro
+      - d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades incluyendo
+        el sistema de registro de los mismos
+      - e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto
+      - f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado
+        los documentos específicos
+      - g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este
+        existe
+  - codigo: '0020'
+    nombre: Primeros auxilios
+    horas_totales: 35
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: 'Realiza la valoración inicial de la asistencia en una urgencia describiendo riesgos recursos disponibles
+        y tipo de ayuda necesaria: and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPUV'
+      criterios_evaluacion:
+      - a) Se ha asegurado la zona según el procedimiento oportuno
+      - b) Se han identificado las técnicas de autoprotección en la manipulación de personas accidentadas
+      - c) Se ha descrito el contenido mínimo de un botiquín de urgencias y las indicaciones de los productos y medicamentos
+      - d) Se han establecido las prioridades de actuación en mÙltiples víctimas
+      - e) Se han descrito los procedimientos para verificar la permeabilidad de las vías aéreas
+      - f) Se han identificado las condiciones de funcionamiento adecuadas de la ventilación-oxigenación
+      - g) Se han descrito y ejecutado los procedimientos de actuación en caso de hemorragias
+      - h) Se han descrito procedimientos para comprobar el nivel de consciencia
+      - i) Se han tomado las constantes vitales
+      - j) Se ha identificado la secuencia de actuación según protocolo establecido por el ILCOR ComitÊ de Coordinación Internacional
+        sobre la Resucitación
+    - numero: 2
+      enunciado: Aplica técnicas de soporte vital básico describiéndolas y relacionándolas con el objetivo a conseguir
+      criterios_evaluacion:
+      - a) Se han descrito los fundamentos de la resucitación cardio-pulmonar
+      - b) Se han aplicado técnicas de apertura de la vía aérea
+      - c) Se han aplicado técnicas de soporte ventilatorio y circulatorio
+      - d) Se ha realizado desfibrilación externa semiautomática DEA
+      - e) Se han aplicado medidas post-reanimación
+      - f) Se han indicado las lesiones patologías o traumatismos más frecuentes
+      - g) Se ha descrito la valoración primaria y secundaria del accidentado
+      - h) Se han aplicado primeros auxilios ante lesiones por agentes físicos químicos y biológicos
+      - i) Se han aplicado primeros auxilios ante patologías orgánicas de urgencia
+      - j) Se han especificado casos o circunstancias en los que no se debe intervenir
+    - numero: 3
+      enunciado: Aplica procedimientos de inmovilización y movilización de víctimas seleccionando los medios materiales y
+        las técnicas
+      criterios_evaluacion:
+      - a) Se han efectuado las maniobras necesarias para acceder a la víctima
+      - b) Se han identificado los medios materiales de inmovilización y movilización
+      - c) Se han caracterizado las medidas posturales ante un lesionado
+      - d) Se han descrito las repercusiones de una movilización y traslado inadecuados
+      - "e) Se han confeccionado sistemas para la inmovilización y movilización de enfermos\x10accidentados con materiales\
+        \ convencionales e inespecíficos o medios de fortuna"
+      - f) Se han aplicado normas y protocolos de seguridad y de autoprotección personal
+    - numero: 4
+      enunciado: Aplica técnicas de apoyo psicológico y de autocontrol al accidentado y acompaÒantes describiendo y aplicando
+        las estrategias de comunicación adecuadas
+      criterios_evaluacion:
+      - a) Se han descrito las estrategias básicas de comunicación con el accidentado y sus acompaÒantes
+      - b) Se han detectado las necesidades psicológicas del accidentado
+      - c) Se han aplicado técnicas básicas de soporte psicológico para mejorar el estado emocional del accidentado
+      - d) Se ha valorado la importancia de infundir conàanza y optimismo al accidentado durante toda la actuación
+      - e) Se han identificado los factores que predisponen a la ansiedad en las situaciones de accidente emergencia y duelo
+      - f) Se han especificado las técnicas a emplear para controlar una situación de duelo ansiedad y angustia o agresividad
+      - g) Se han especificado las técnicas a emplear para superar psicológicamente el fracaso en la prestación del auxilio
+      - h) Se ha valorado la importancia de autocontrolarse ante situaciones de estrés
+  - codigo: '0021'
+    nombre: Formación y orientación laboral
+    horas_totales: 50
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Selecciona oportunidades de empleo identificando las diferentes posibilidades de inserción y las alternativas
+        de aprendizaje a lo largo de la vida
+      criterios_evaluacion:
+      - a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación
+        a las exigencias del proceso productivo
+      - b) Se han identificado los itinerarios formativos-profesionales relacionados con el peràl profesional del educador
+        o educadora infantil
+      - c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el peràl
+        del título
+      - d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el técnico superior en educación
+        infantil
+      - e) Se han determinado las técnicas utilizadas en el proceso de bÙsqueda de empleo
+      - f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título
+      - g) Se ha realizado la valoración de la personalidad aspiraciones actitudes y formación propia para la toma de decisiones
+    - numero: 2
+      enunciado: Aplica las estrategias del trabajo en equipo valorando su eàcacia y eàciencia para la consecución de los
+        objetivos de la organización
+      criterios_evaluacion:
+      - a) Se han valorado las ventajas de trabajo en equipo en situaciones de trabajo relacionadas con el peràl del educador
+        o educadora infantil
+      - b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo
+      - c) Se han determinado las características del equipo de trabajo eàcaz frente a los equipos ineàcaces
+      - d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros
+        de un equipo
+      - e) Se ha reconocido la posible existencia de conáicto entre los miembros de un grupo como un aspecto característico
+        de las organizaciones
+      - f) Se han identificado los tipos de conflictos y sus fuentes
+      - g) Se han determinado procedimientos para la resolución del conflicto
+    - numero: 3
+      enunciado: Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales reconociéndolas
+        en los diferentes contratos de trabajo
+      criterios_evaluacion:
+      - a) Se han identificado los conceptos básicos del derecho del trabajo
+      - b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores
+      - 'c) Se han determinado los derechos y obligaciones derivados de la relación laboral: and /ú.M QWQ rá#"%0 QS /07*&.#3&
+        QOOV SWPUX'
+      - d) Se han clasificado las principales modalidades de contratación identificando las medidas de fomento de la contratación
+        para determinados colectivos
+      - e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar
+      - f) Se han identificado las causas y efectos de la modificación suspensión y extinción de la relación laboral
+      - g) Se ha analizado el recibo de salarios identificando los principales elementos que lo integran
+      - h) Se han analizado las diferentes medidas de conáicto colectivo y los procedimientos de solución de conflictos
+      - i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable a un sector profesional
+        relacionado con el título de técnico superior en educación infantil
+      - j) Se han identificado las características deànitorias de los nuevos entornos de organización del trabajo
+    - numero: 4
+      enunciado: Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas
+        identiàcando las distintas clases de prestaciones
+      criterios_evaluacion:
+      - a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los
+        ciudadanos
+      - b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social
+      - c) Se han identificado los régimenes existentes en el sistema de Seguridad Social
+      - d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social
+      - e) Se han identificado en un las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y
+        empresario
+      - f) Se han clasificado las prestaciones del sistema de Seguridad Social identificando los requisitos
+      - g) Se han determinado las posibles situaciones legales de desempleo
+      - h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico
+    - numero: 5
+      enunciado: EvalÙa los riesgos derivados de su actividad analizando las condiciones de trabajo y los factores de riesgo
+        presentes en su entorno laboral
+      criterios_evaluacion:
+      - a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa
+      - b) Se han relacionado las condiciones laborales con la salud del trabajador
+      - c) Se han clasificado los factores de riesgo en la actividad y los daÒos derivados de los mismos
+      - d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del técnico superior en
+        educación infantil
+      - e) Se ha determinado la evaluación de riesgos en la empresa
+      - f) Se han determinado las condiciones de trabajo con signiàcación para la prevención en los entornos de trabajo relacionados
+        con el peràl profesional del técnico superior en educación infantil
+      - g) Se han clasificado y descrito los tipos de daÒos profesionales con especial referencia a accidentes de trabajo
+        y enfermedades profesionales relacionados con el peràl profesional del técnico superior en educación infantil
+    - numero: 6
+      enunciado: Participa en la elaboración de un plan de prevención de riesgos en una pequeÒa empresa identificando las
+        responsabilidades de todos los agentes implicados
+      criterios_evaluacion:
+      - a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales
+      - b) Se han clasificado las distintas formas de gestión de la prevención en la empresa en función de los distintos criterios
+        establecidos en la normativa sobre prevención de riesgos laborales
+      - c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos
+      - d) Se han identificado los organismos pÙblicos relacionados con la prevención de riesgos laborales
+      - e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación
+        de actuaciones que se deben realizar en caso de emergencia
+      - f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional
+        del técnico superior en educación infantil
+      - g) Se ha proyectado un plan de emergencia y evacuación de un centro de educación infantil formal y no formal
+    - numero: 7
+      enunciado: Aplica las medidas de prevención y protección analizando las situaciones de riesgo en el entorno laboral
+        del técnico superior en educación infantil
+      criterios_evaluacion:
+      - a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar
+        los daÒos en su origen y minimizar sus consecuencias en caso de que sean inevitables
+      - b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad
+      - c) Se han analizado los protocolos de actuación en caso de emergencia
+      - d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa
+        gravedad
+      - e) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia
+        como medida de prevención
+  - codigo: '0022'
+    nombre: Empresa e iniciativa emprendedora
+    horas_totales: 35
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Reconoce las capacidades asociadas a la iniciativa emprendedora analizando los requerimientos derivados de
+        los puestos de trabajo y de las actividades empresariales
+      criterios_evaluacion:
+      - a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar
+        de los individuos
+      - b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar
+        social
+      - c) Se ha valorado la importancia de la iniciativa individual la creatividad la formación y la colaboración como requisitos
+        indispensables para tener éxito en la actividad emprendedora
+      - d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pequeÒa y mediana empresa
+        pyme relacionada con la educación infantil formal o no formal
+      - e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector de la educación
+        Infantil
+      - f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora
+      - g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad
+        empresarial
+      - h) Se ha descrito la estrategia empresarial relacionándola con los objetivos de la empresa
+      - i) Se ha definido una determinada idea de negocio del ámbito de la educación infantil que servirÃ de punto de partida
+        para la elaboración de un plan de empresa
+    - numero: 2
+      enunciado: Deàne la oportunidad de creación de una pequeÒa empresa valorando el impacto sobre el entorno de actuación
+        e incorporando valores éticos
+      criterios_evaluacion:
+      - a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado
+        a la empresa
+      - b) Se han identificado los principales componentes del entorno general que rodea a la empresa en especial el entorno
+        económico social demogrÃàco y cultural
+      - c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes con los proveedores
+        y con la competencia como principales integrantes del entorno específico
+      - d) Se han identificado los elementos del entorno de una pyme relacionada con la educación infantil formal y no formal
+      - e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos empresariales
+      - f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de la
+        estrategia empresarial
+      - g) Se ha elaborado el balance social de una empresa relacionada con la educación infantil formal y no formal y se
+        han descrito los principales costes sociales en que incurren estas empresas asÎ como los beneàcios sociales que producen
+      - h) Se han identificado en empresas relacionadas con la educación infantil formal y no formal prácticas que incorporan
+        valores éticos y sociales
+      - i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme relacionada con la educación infantil
+        formal y no formal
+    - numero: 3
+      enunciado: Realiza actividades para la constitución y puesta en marcha de una empresa seleccionando la forma jurídica
+        e identificando las obligaciones legales asociadas
+      criterios_evaluacion:
+      - a) Se han analizado las diferentes formas jurídicas de la empresa
+      - b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa en función de la forma jurídica
+        elegida
+      - c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa
+      - d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una empresa
+      - e) Se ha realizado una bÙsqueda exhaustiva de las diferentes ayudas para la creación de empresas relacionadas con
+        la educación infantil formal y no formal en la localidad de referencia
+      - f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica estudio de viabilidad
+        económico-financiera trámites administrativos ayudas y subvenciones
+      - g) Se han identificado las vías de asesoramiento y gestión administrativa externos existentes a la hora de poner en
+        marcha una pyme
+    - numero: 4
+      enunciado: Realiza actividades de gestión administrativa y financiera de una pyme identificando las principales obligaciones
+        contables y fiscales y cumplimentando la documentación
+      criterios_evaluacion:
+      - a) Se han analizado los conceptos básicos de contabilidad asÎ como las técnicas de registro de la información contable
+      - b) Se han descrito las técnicas básicas de análisis de la información contable en especial en lo referente a la solvencia
+        liquidez y rentabilidad de la empresa
+      - c) Se han definido las obligaciones fiscales de una empresa relacionada con la educación infantil formal y no formal
+      - d) Se han diferenciado los tipos de impuestos en el calendario fiscal
+      - 'e) Se ha cumplimentado la documentación básica de carácter comercial y contable facturas albaranes notas de pedido
+        letras de cambio cheques etc: para una pyme de educación infantil formal SWPVQ rá#"%0 QS /07*&.#3& QOOV and /ú.M QWQ
+        y no formal y se han descrito los circuitos que dicha documentación recorre en la empresa'
+      - f) Se han identificado los principales instrumentos de financiación bancaria
+      - g) Se ha incluido la anterior documentación en el plan de empresa
+  - codigo: '0023'
+    nombre: Formación en centros de trabajo
+    horas_totales: 220
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Identifica la estructura y organización de la empresa relacionándola con el tipo de servicio que presta
+      criterios_evaluacion:
+      - a) Se ha interpretado la influencia de las características del mercado clientes proveedores y servicios entre otros
+        en las actividades de la empresa
+      - b) Se han interpretado valores de parámetros tales como productividad calidad de servicio entre otros que permiten
+        relacionar la situación de la empresa en el contexto productivo
+      - c) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio
+      - d) Se ha analizado la prestación del servicio determinando sus aspectos positivos y negativos
+      - e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo Óptimo de la actividad de
+        la empresa
+      - f) Se han identificado los canales de difusión más frecuentes en esta actividad valorando su idoneidad
+      - g) Se han relacionado ventajas e inconvenientes de la estructura de la empresa frente a otro tipo de organizaciones
+        empresariales
+    - numero: 2
+      enunciado: 'Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características
+        del puesto de trabajo y procedimientos establecidos de la empresa: and /ú.M QWQ rá#"%0 QS /07*&.#3& QOOV SWPVR'
+      criterios_evaluacion:
+      - 'a) Se han reconocido y justificado 3 La disponibilidad personal y temporal necesarias en el puesto de trabajo: 3
+        Las actitudes personales puntualidad empatía entre otras y profesionales orden limpieza responsabilidad entre otras
+        necesarias para el puesto de trabajo: 3 Los requerimientos actitudinales ante la prevención de riesgos en la actividad
+        profesional: 3 Los requerimientos actitudinales referidos a la calidad en la actividad profesional: 3 Las actitudes
+        relacionales con el propio equipo de trabajo y con las jerarquías establecidas en la empresa: 3 Las actitudes relacionadas
+        con la documentación de las actividades realizadas en el ámbito laboral: 3 Las necesidades formativas para la inserción
+        y reinserción laboral en el ámbito cientÎàco y técnico del buen hacer del profesional'
+      - b) Se han identificado las normas de prevención de riesgos laborales que hay que aplicar en actividad profesional
+        y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales
+      - c) Se han aplicado los equipos de protección individual según los riesgos de la actividad profesional y las normas
+        de la empresa
+      - d) Se ha mantenido una actitud clara de respeto al medio ambiente en las actividades desarrolladas y aplicado las
+        normas internas y externas vinculadas a la misma
+      - e) Se ha mantenido organizado limpia y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo
+        de la actividad
+      - f) Se han interpretado y cumplido las instrucciones recibidas responsabilizándose del trabajo asignado
+      - g) Se ha establecido una comunicación y relación eàcaz con la persona responsable en cada situación y miembros de
+        su equipo manteniendo un trato áuido y correcto
+      - h) Se ha coordinado con el resto del equipo informando de cualquier cambio necesidad relevante o imprevisto que se
+        presente
+      - i) Se ha valorado la importancia de su actividad y la adaptación a los cambios de tareas asignados en el desarrollo
+        de la prestación del servicio integrándose en las nuevas funciones
+      - j) Se ha comprometido responsablemente en la aplicación de las normas y procedimientos en el desarrollo de cualquier
+        actividad o tarea
+    - numero: 3
+      enunciado: Programa actividades dirigidas a los niños y niñas siguiendo las directrices establecidas en los documentos
+        que organizan la institución en la que estÃ integrado y colaborando con el equipo responsable del centro
+      criterios_evaluacion:
+      - a) Se han identificado las características propias del centro de trabajo y del programa o programas que desarrolla
+      - b) Se ha obtenido información sobre los destinatarios del programa
+      - c) Se ha definido una propuesta teniendo en cuenta los recursos humanos y materiales de los que dispone
+      - d) Se han propuesto actividades adaptadas a las características de los niños y niñas
+      - e) Se han seleccionado las estrategias de intervención acordes con los objetivos y los destinatarios
+      - f) Se ha diseñado la evaluación de la intervención que se va a realizar
+    - numero: 4
+      enunciado: Implementa actividades dirigidas a los niños y niñas siguiendo las directrices establecidas en la programación
+        y adaptándolas a las características de los niños y niñas
+      criterios_evaluacion:
+      - a) Se han identificado las características del grupo de niños y niñas asignado
+      - b) Se han determinado las características del contexto asignado utilizando medios y técnicas adecuados
+      - c) Se han organizado los espacios siguiendo los criterios establecidos en la programación
+      - d) Se ha distribuido el tiempo respetando las directrices establecidas en la programación y los ritmos individuales
+      - e) Se han seleccionado los recursos en función de los criterios metodológicos previstos
+      - f) Se han aplicado las estrategias metodológicas
+      - g) Se ha conseguido un clima de afecto y conàanza
+      - h) Se han aplicado estrategias de gestión de conáictos
+      - i) Se ha respondido adecuadamente a las contingencias
+      - j) Se ha realizado el control y seguimiento de la actividad
+    - numero: 5
+      enunciado: EvalÙa programas y actividades interviniendo en el equipo de trabajo asegurando la calidad en el proceso
+        y en la intervención
+      criterios_evaluacion:
+      - a) Se han determinado las actividades de evaluación y los momentos de su aplicación
+      - b) Se ha evaluado el entorno del trabajo identificando las relaciones laborales en el marco organizativo y de funcionamiento
+        de la empresa
+      - c) Se han aplicado los instrumentos de evaluación establecidos modiàcando el proyecto la actividad o su propia intervención
+        cuando ha sido necesario
+      - d) Se han elaborado los informes de evaluación donde se reflejen los cambios producidos en los niños y niñas a raíz
+        de su intervención
+      - e) Se ha organizado la información recogida siguiendo los cauces establecidos
+      - f) Se ha comunicado la información recogida permitiendo la toma de decisiones al equipo de trabajo
+      - g) Se ha reflexionado sobre su propia intervención valorando la aplicación de los conocimientos habilidades y actitudes
+        desarrolladas
+relaciones:
+  desarrolla_a:
+  - NOR-057
+  relacionada_con:
+  - NOR-007
+  - CUR-053
+resumen_ia: Ciclo formativo de Grado Superior de Técnico en Educación Infantil, establecido por el RD 1394/2007 (LOE) y modificado
+  por RD 498/2024. Total de 13 módulos profesionales con 1100 horas de enseñanzas mínimas (el ciclo completo es de 2000 horas).
+  Los módulos desarrollan competencias para la atención y educación de niños de 0 a 6 años en centros formales y no formales.
+  Extraídos 71 resultados de aprendizaje y 619 criterios de evaluación del Anexo I del RD. Este resumen no sustituye la fuente
+  oficial.
+observaciones: Extracción completada el 2026-04-26 (TAREA-041). Se extrajeron los 13 módulos profesionales del Anexo I del
+  RD 1394/2007, con 71 resultados de aprendizaje y 619 criterios de evaluación. El RD 1394/2007 fue modificado por RD 498/2024
+  (puede haber actualizaciones en módulos). Las horas indicadas corresponden a las enseñanzas mínimas estatales; Canarias
+  puede ampliarlas. La extracción del texto se realizó desde el PDF del BOE con decodificación CID (97,6% de fidelidad).

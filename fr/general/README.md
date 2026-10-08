@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `fr` · Practice: `general` · Skill language: fr
 
-## Skills (14)
+## Skills (16)
 
 | Skill | What it does |
 |---|---|
@@ -12,9 +12,11 @@ Jurisdiction: `fr` · Practice: `general` · Skill language: fr
 | [`Connector — Légifrance`](skills/connector-legifrance-sboghossian/) | Use when a lawyer or compliance professional needs to retrieve official French legal texts — statutes… |
 | [`Contrôler le livrable`](skills/controler-livrable-gauthier-huguenin/) | Effectuer une revue contradictoire et traçable d'un projet de courrier, note, consultation ou trame… |
 | [`Calculer une date limite et connaître les jours fériés`](skills/delais-jours-feries-fr-originlabs-app/) | Calculer une date limite et connaître les jours fériés. Méthode professionnelle française, avec ses… |
+| [`Notariat France`](skills/fr-notariat-builderced/) | Navigate French notarial acts — fee calculation (emoluments), succession, donation, SCI creation… |
 | [`Humanizer Juridique : Supprimer les Traces d'Écriture IA dans les Textes de Droit Français`](skills/humaniseur-juridique-gary-haas/) | Les LLM écrivent du juridique qui ressemble à du juridique sans en être. Formules creuses, attributions… |
 | [`Justinian — French Bar Prep (CRFPA)`](skills/justinian-bar-exam-prep-fr-crfpa-sboghossian/) | Use when a user is preparing for the French bar admission exam — the CRFPA (Centre Régional de Formation… |
 | [`Discipline de citation juridique`](skills/legal-citations-allcolor/) | Discipline de citation juridique systématique — jamais d'affirmation de droit sans source exacte… |
+| [`Legal Docs FR`](skills/legal-docs-fr-kernel8901/) | Générateur de documents juridiques français pour freelances/micro-entrepreneurs. Génère des CGV… |
 | [`Workflows sur demande`](skills/legal-workflows/) | Workflows sur demande du cabinet d'avocat qui exigent un jugement (intake de dossier, relecture de… |
 | [`Note juridique — [sujet]`](skills/note-juridique-zevra-tech/) | À utiliser quand l'utilisateur demande une note de synthèse juridique structurée combinant code… |
 | [`Piloter un dossier`](skills/piloter-dossier-gauthier-huguenin/) | Orchestrer le traitement complet d'un dossier juridique à partir de pièces fournies, depuis l'ouverture… |

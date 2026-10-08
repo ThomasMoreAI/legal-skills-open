@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Skill development artifacts
+*-workspace/
+iteration-*/
+benchmark.json
+feedback.json
+timing.json
+grading.json
+
+# Test outputs
+evals/results/
+
+# Build artifacts
+*.tmp

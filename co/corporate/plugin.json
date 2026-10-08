@@ -1,0 +1,16 @@
+{
+  "name": "co-corporate",
+  "displayName": "Corporate — CO",
+  "version": "0.1.0",
+  "description": "Corporate skills for CO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/analisis-sociedad-orwel",
+    "skills/due-diligence-empresa-orwel",
+    "skills/titulos-valores-orwel"
+  ]
+}

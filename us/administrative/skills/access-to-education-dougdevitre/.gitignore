@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Skill archive (the repo replaces this)
+*.skill
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Eval results (generated, not committed)
+evals/results-*.json

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "description": "Authoritative sources for juriscan-verificador. Any source_url in verificador output whose host does not match one of these domains (or a subdomain thereof) is REJECTED by scripts/agent_io.py validate --agent verificador. Updates to this file are versioned in git — expanding the whitelist is a deliberate decision.",
+  "version": "1.0",
+  "last_reviewed": "2026-04-11",
+  "categories": {
+    "precedentes_superiores": [
+      "stf.jus.br",
+      "portal.stf.jus.br",
+      "redir.stf.jus.br",
+      "jurisprudencia.stf.jus.br",
+      "stj.jus.br",
+      "processo.stj.jus.br",
+      "scon.stj.jus.br"
+    ],
+    "tribunais_estaduais": [
+      "tjsp.jus.br",
+      "esaj.tjsp.jus.br",
+      "tjrj.jus.br",
+      "tjmg.jus.br",
+      "tjrs.jus.br",
+      "tjpr.jus.br",
+      "tjsc.jus.br",
+      "tjba.jus.br",
+      "tjpe.jus.br",
+      "tjdft.jus.br"
+    ],
+    "tribunais_federais": [
+      "jf.jus.br",
+      "trf1.jus.br",
+      "trf2.jus.br",
+      "trf3.jus.br",
+      "trf4.jus.br",
+      "trf5.jus.br",
+      "trf6.jus.br"
+    ],
+    "tribunais_especializados": [
+      "tst.jus.br",
+      "tse.jus.br",
+      "stm.jus.br"
+    ],
+    "legislacao": [
+      "planalto.gov.br",
+      "www4.planalto.gov.br",
+      "lexml.gov.br",
+      "www.lexml.gov.br"
+    ],
+    "administrativo": [
+      "cnj.jus.br",
+      "www.cnj.jus.br",
+      "atos.cnj.jus.br"
+    ],
+    "sumulas": [
+      "portal.stf.jus.br",
+      "stj.jus.br",
+      "tst.jus.br"
+    ]
+  },
+  "notes": [
+    "Subdomains are accepted automatically — e.g. 'scon.stj.jus.br' matches any host ending in '.stj.jus.br' OR equal to 'stj.jus.br'.",
+    "http vs https is ignored during matching.",
+    "IP addresses are never allowed, even if they resolve to a whitelisted domain."
+  ]
+}

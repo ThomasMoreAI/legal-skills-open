@@ -1,0 +1,10 @@
+# Manifesto — `eca-digital`
+
+- `module`: eca-digital
+- `required`: false
+- `files`: `legal/eca-digital.md`
+- `inputs`: faixa etária da base de usuários, fluxo de cadastro, mecanismo de aferição de idade, configurações padrão de perfil, regras de publicidade e recomendação, mecânicas de jogo e monetização, fluxo de moderação/denúncia, volume de usuários menores registrados
+- `prerequisites`: core, legal
+- `activates_when`: cenário `eca_digital_platform`, cenário `full_audit`, ou gatilho normativo de público infantojuvenil — serviço direcionado ou **de acesso provável** por menores nos termos do art. 1º, parágrafo único (probabilidade de uso e atratividade, facilidade de acesso, grau de risco), cadastro sem bloqueio etário, jogos eletrônicos, loja de aplicativos, sistema operacional de terminal, app classificado abaixo de 18 anos
+- `primary_outputs`: conformidade com a Lei nº 15.211/2025 (ECA Digital) e o Decreto nº 12.880/2026 — prevenção de riscos de conteúdo (art. 6º), privacidade por padrão (art. 7º), gestão de risco e classificação indicativa (art. 8º), verificação de idade a cada acesso em conteúdo impróprio (art. 9º), aferição de idade e API de sinal de idade em lojas/SO (art. 12), finalidade exclusiva dos dados de verificação (art. 13), relatório de impacto (art. 16), supervisão parental (arts. 17 e 18), monitoramento infantil (art. 19), loot boxes e jogos (arts. 20 e 21), publicidade e perfilamento (arts. 22, 23 e 26), vinculação de conta até 16 anos (art. 24), remoção e retenção pelo prazo do art. 15 do MCI (art. 27), notificação e contestação (arts. 28 a 30), relatório semestral de transparência (art. 31), uso abusivo de denúncias (arts. 32 e 33), representante legal no País (art. 40), modulação e dispensa editorial (art. 39), exposição ao regime sancionatório do art. 35
+- `notes`: o arquivo do módulo é `legal/eca-digital.md` — trata-se de módulo normativo derivado de lei própria, não de um diretório de domínio técnico. Todo `finding` deve citar o dispositivo do ECA Digital e o correlato na LGPD.

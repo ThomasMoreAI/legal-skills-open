@@ -1,0 +1,1702 @@
+ID interno: NOR-109
+Título oficial: Folio 1 de 32 RESOLUCIÓN DE DE LA DIRECCIÓN GENERAL DE FORMACIÓN PROFESIONAL Y ENSEÑANZAS DE RÉGIMEN ESPECIAL POR LA QUE SE DICTAN INSTRUCCIONES PARA EL PROCEDIMIENTO DE ADMISIÓN Y DESARROLLO DE LOS CURSOS DE ESPECIALIZACIÓN DE FORMACIÓN PROFESIONAL (GRADO E, NIVELES 2 Y 3) EN EL CURSO ACADÉMICO 2025/2026, ASÍ COMO SU OFERTA EN LOS CENTROS DOCENTES SOSTENIDOS CON FONDOS PÚBLICOS.
+Fuente oficial: FTE-116
+URL origen: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica
+PDF oficial: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Resolucion-305_2025_admision_cursos_especializacion_25-26.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF publicado por la Consejería. No es una disposición publicada en el BOC (ver DEC-0012).
+---
+   F
+
+                                                                                                    Folio 1 de 32
+
+
+
+
+                  RESOLUCIÓN DE DE LA DIRECCIÓN GENERAL DE FORMACIÓN PROFESIONAL
+                  Y ENSEÑANZAS DE RÉGIMEN ESPECIAL POR LA QUE SE DICTAN
+                  INSTRUCCIONES PARA EL PROCEDIMIENTO DE ADMISIÓN Y DESARROLLO
+                  DE LOS CURSOS DE ESPECIALIZACIÓN DE FORMACIÓN PROFESIONAL
+                  (GRADO E, NIVELES 2 Y 3) EN EL CURSO ACADÉMICO 2025/2026, ASÍ COMO SU
+                  OFERTA EN LOS CENTROS DOCENTES SOSTENIDOS CON FONDOS PÚBLICOS
+                  EN LA COMUNIDAD AUTÓNOMA DE CANARIAS.
+
+
+                  Examinado el expediente tramitado en la Dirección General de Formación Profesional y Enseñanzas
+                  de Régimen Especial relativo a la aprobación de instrucciones para el desarrollo en el curso académico
+                  2025/2026 de determinados cursos de especialización de Formación Profesional, y a la determinación
+                  del procedimiento de admisión del alumnado y otros aspectos de su organización en centros docentes
+                  públicos de la Comunidad Autónoma de Canarias, y teniendo en cuenta los siguientes
+
+
+                                                                         ANTECEDENTES DE HECHO
+
+                  Primero. La Formación Profesional en el sistema educativo tiene por finalidad preparar al alumnado
+                  para la actividad en un campo profesional y facilitar su adaptación a las modificaciones laborales que
+                  puedan producirse a lo largo de la vida, contribuir a su desarrollo personal y al ejercicio de una
+                  ciudadanía democrática y pacífica, y permitir su progresión en el sistema educativo, en el marco del
+                  aprendizaje a lo largo de la vida.
+
+                  Segundo. Los cursos de especialización tienen por objeto complementar las competencias de quienes
+                  ya dispongan de un título de formación profesional o cumplan las condiciones de acceso que para cada
+                  uno de los cursos se determinen, y facilitar el aprendizaje a lo largo de la vida. El Gobierno, mediante
+                  real decreto, y previa consulta a las Comunidades Autónomas y al Consejo General de la Formación
+                  Profesional, podrá crear cursos de especialización (Grado E). En este sentido mediante sucesivos
+                  Reales Decretos se han establecido distintos cursos de especialización y se han fijado los aspectos
+                  básicos de los respectivos currículos.
+
+                  Tercero. La nueva Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+                  Profesional, introduce dentro de las diferentes tipologías de las ofertas educativas, los cursos de
+                  especialización, denominándose Grados E, con sus niveles 2 y 3, del Catálogo Nacional de Estándares
+                  de Competencias Profesionales. Tal como se indica en el artículo 54 de la mencionada Ley Orgánica:
+
+                  1.    El nivel 2, Grado E, corresponde a un curso de especialización de Formación Profesional de
+                  grado medio.
+                  2.    El nivel 3, Grado E, corresponde a los cursos de especialización de Formación Profesional de
+                  grado superior.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                      Folio 2 de 32
+
+                  Cuarto. Se ha publicado el Real Decrero 497/2024, de 21 de mayo, por el que se modifican
+                  determinados reales decretos por los que se establecen, en el ámbito de la Formación Profesional,
+                  cursos de especialización de grado medio y superior y se fijan sus enseñanzas mínimas.
+
+                  Quinto. Publicada la resolución de 24 de febrero de 2025, por la que se convoca el procedimiento de
+                  admisión del alumnado a Ciclos Formativos de Grado Básico, Medio y Superior (niveles 1, 2 y 3,
+                  respectivamente) de las Enseñanzas de Formación Profesional Grado D, Enseñanzas Profesionales de
+                  Artes Plásticas y Diseño, Enseñanzas Elementales y Profesionales de Música, Enseñanzas de Idiomas
+                  y Enseñanzas Deportivas en centros docentes sostenidos con fondos Públicos en la Comunidad
+                  Autónoma de Canarias para el curso escolar 2025/2026 (BOC N.º 47, 7/03/25).
+
+                  Sexto. Vista la necesidad de dictar instrucciones para el desarrollo de los cursos de especialización de
+                  Formación Profesional en el curso 2025/2026 y de determinar el procedimiento de admisión del
+                  alumnado y otros aspectos de la organización de los mismos en los centros docentes públicos de la
+                  Comunidad Autónoma de Canarias.
+
+
+                                                                       FUNDAMENTOS DE DERECHO
+
+
+                  Primero. La Ley Orgánica 2/2006, de 3 de mayo, de Educación, dispone en el artículo 39.3. que « La
+                  formación profesional en el sistema educativo comprende los ciclos formativos de grado básico, de
+                  grado medio y de grado superior, así como los cursos de especialización. Todos ellos tendrán una
+                  organización modular, de duración variable, que integre los contenidos teórico- prácticos adecuados a
+                  los diversos campos profesionales», y en el artículo 41.7 que «Podrán acceder a un curso de
+                  especialización de formación profesional quienes estén en posesión de un título de Técnico o de
+                  Técnico Superior asociados al mismo o cumplan los requisitos que para cada curso de especialización
+                  se determinen». Por su parte, en el último apartado del artículo 42.2 determina que «Los cursos de
+                  especialización complementarán o profundizarán en las competencias de quienes ya dispongan de un
+                  título de formación profesional o cumplan las condiciones de acceso que para todos se determinen».
+
+                  Segundo. La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+                  Profesional, determina que tendrán carácter modular y podrán formar parte de la educación secundaria
+                  postobligatoria o de la educación superior, en función del nivel de las titulaciones previas exigidas
+                  para el acceso. Por su parte, en los apartados 1 y 2 del artículo 52, establece que «Los cursos tendrán
+                  una duración entre 300 a 900 horas, pudiéndose desarrollar en modalidad dual, y que la duración se
+                  determinará teniendo en cuenta el régimen excepcional previsto en el artículo 6.5 de la Ley Orgánica
+                  2/2006, de 3 de mayo, de Educación».
+
+
+                  Tercero. A su vez, el artículo 54 de la Ley Orgánica 3/2022, de 31 de marzo, de ordenación e
+                  integración de la Formación Profesional, en sus apartados 1 y 2, determina que quienes superen un
+                  curso de especialización de Formación Profesional de grado medio obtendrán el título de Especialista
+                  del perfil profesional correspondiente, y quienes superen un curso de especialización de Formación
+                  Profesional de grado superior obtendrán el título de Máster de Formación Profesional del perfil
+                  profesional correspondiente.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                      Folio 3 de 32
+
+                  Cuarto. El Real Decreto 659/2023, de 18 de julio , por el que se desarrolla la ordenación del Sistema
+                  de Formación Profesional, en su disposición adicional undécima, valida los cursos de especialización,
+                  cuando dice en el punto número 4 que « Los títulos correspondientes a cursos de especialización
+                  (Grado E) de Grado Medio y de Grado Superior, expedidos con arreglo a la regulación prevista en el
+                  Real Decreto 1147/2011, de 29 de julio, se consideran equivalentes respectivamente, y a todos los
+                  efectos académicos, profesionales y de acceso a empleos públicos y privados a los títulos de
+                  Especialista y de Máster de Formación Profesional.»
+
+                  Quinto. El Real Decreto 497/2024, de 21 de mayo, por el que se modifican determinados reales
+                  decretos por los que se establecen, en el ámbito de la Formación Profesional, cursos de especialización
+                  de grado medio y superior y se fijan sus enseñanzas, adapta estas enseñanzas a lo establecido en el
+                  Real decreto 659/2023, de 18 de julio. Las modificaciones contenidas en este real decreto son de
+                  aplicación, en los términos que se indican en cada norma regulada para cada una de las enseñanzas en
+                  cuanto a la ordenación de cada uno de los cursos de especialización definidos por sus propios reales
+                  decretos y modificados a través de esta manifestación de decisiones.
+
+                  Sexto. En la Resolución de la Dirección General de Formación Profesional y Régimen Especial de 30
+                  de octubre de 2024, se dictan las instrucciones y orientaciones para la implantación y desarrollo de los
+                  grados D y E, a partir del curso escolar 2024/2025, estableciéndose en su anexo VII la distribución
+                  horaria y modular de los currículos, de los Grados E, en el ámbito de la Comunidad Autónoma de
+                  Canarias (BOC n.º 226, 13/11/).
+
+
+                  Por todo lo expuesto, de acuerdo con la atribución prevista en la disposición adicional tercera de la
+                  Orden de 3 de marzo de 2022, y en ejercicio de las competencias atribuidas en el artículo 20.2.d) del
+                  Reglamento de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes,
+                  aprobado por el Decreto 84/2024, de 10 de junio,
+
+
+
+                                                                                    RESUELVO
+
+                  Primero. Dictar instrucciones para el desarrollo de los cursos de especialización de Formación
+                  Profesional (Grados E, niveles 2 y 3), así como la regulación del procedimiento y calendario de
+                  admisión, así como determinados aspectos de la evaluación y acreditación académica de los mismos,
+                  según anexo I de la presente resolución, en el curso escolar 2025/2026 en centros docentes públicos de
+                  la Comunidad Autónoma de Canarias.
+
+                  Segundo. La relación de cursos de especialización (Grado E) y centros docentes públicos de la
+                  Comunidad Autónoma de Canarias para el curso escolar 2025/2026 es la indicada en el anexo II de la
+                  presente resolución.
+
+                  Tercero. Los requisitos de acceso a los cursos de especialización (Grado E) establecidos en los reales
+                  decretos que los regulan se detallan en el anexo III.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                      Folio 4 de 32
+
+                  Cuarto. Aprobar el impreso de solicitud de plaza para los cursos de especialización (Grado E), según
+                  lo establecido en el anexo IV de la presente resolución.
+
+                  Quinto. Establecer el calendario del proceso de admisión y matrícula de los cursos de especialización
+                  (Grado E), según lo establecido en el anexo V de la presente resolución.
+
+                  Sexto. La Inspección Educativa asesorará a los centros educativos, supervisará y velará por el
+                  cumplimiento de todo lo reflejado en las presentes instrucciones.
+
+                  Séptimo. Ordenar la publicación de la presente Resolución en la web de la Consejería de Educación,
+                  Formación Profesional, Actividad Física y Deportes para su general conocimiento. La dirección de los
+                  centros educativos garantizará, así mismo, la debida difusión de las presentes instrucciones entre el
+                  profesorado, el alumnado y la familia.
+
+
+                  Contra el presente acto, que no pone fin a la vía administrativa, cabe interponer recurso de alzada ante
+                  la Viceconsejería de Formación Profesional y Cualificaciones Profesionales, en el plazo de un (1) mes,
+                  a contar desde el día siguiente al de su publicación, sin perjuicio de cualquier otro que se estime
+                  procedente interponer.
+
+                   La Directora General de Formación Profesional y Enseñanzas de Régimen Especial.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                       Folio 5 de 32
+
+                                                                               ANEXO I
+                                                                           INSTRUCCIONES
+
+                  Primera. Objeto y ámbito de aplicación.
+
+                  El objeto de la presente resolución es dictar instrucciones para el desarrollo de los cursos de
+                  especialización (Grado E, niveles 2 y 3), los criterios y el procedimiento de admisión, así como otros
+                  aspectos organizativos de determinados cursos de especialización autorizados para su impartición en el
+                  curso 2025/2026 en centros docentes públicos en la Comunidad Autónoma de Canarias.
+
+                  Segunda. Enseñanzas y centros autorizados.
+
+                  1. Se autoriza en el curso 2025/2026, en los centros que se relacionan en el anexo II de esta resolución,
+                  la impartición de los cursos de especialización (Grado E) de formación profesional en modalidad
+                  presencial.
+
+                  2. En la fecha que se indica en el calendario del procedimiento de admisión y matrícula que figura
+                  como anexo V, los centros remitirán por registro a la Dirección General de Formación Profesional y
+                  Enseñanzas de Régimen Especial certificación con los datos de matrícula.
+
+                  3. Los centros que, habiendo sido autorizados para la impartición de cursos de especialización en el
+                  curso 2025/2026, no lleguen a implantarlos por cualquier motivo o circunstancia deberán ponerlo en
+                  conocimiento de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial,
+                  antes del 29 de julio de 2025 a través de sistema de comunicación establecido (HIPERREG).
+
+                  Tercera. Requisitos del alumnado participante.
+
+                  Según el Real Decreto 659/2023 de 18 de julio, por el que se desarrolla la ordenación del Sistema de
+                  Formación Profesional, podrán acceder a los cursos de especialización (Grado E) que se desarrollen,
+                  todas aquellas personas que cumplan con los requisitos establecidos:
+
+                 1. Poseer el titulo de Técnico o Técnico especificado en la normativa básica que establece el curso de
+                especialización y los aspectos básicos del currículo.
+
+                  2. No obstante a lo dispuesto en el apartado anterior, en caso de contar con disponibilidad de plazas y
+                  siguiendo lo establecido en los artículos 120 y 121 del Real Decreto 659/2023, los centros educativos
+                  podrán facilitar el acceso a cursos de especialización a las personas que no cuenten con la titulación
+                  requerida, pero que cumplan con los requisitos siguientes y orden de prelación:
+
+                  2.1. Para el nivel 2:
+
+                  Se podrá admitir a personas que no cuenten con los títulos requeridos sin superar el 20% de las plazas,
+                  cumpliendo los requisitos siguientes, enumerados por orden de prelación:
+
+                  a) Título de Técnico o Técnico Superior de Formación Profesional diferente de los que den acceso al
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                        Folio 6 de 32
+
+                  curso de especialización acreditando experiencia en el área profesional asociada a dicho curso.
+
+                  b) Título de Técnico o Técnico Superior de Formación Profesional diferente de los que den acceso al
+                  curso de especialización, pero que acrediten conocimientos previos que garanticen su competencia
+                  para seguir con éxito el curso de especialización.
+
+                  c) Personas que no dispongan de título de Técnico de Formación profesional y que puedan acreditar
+                  conocimientos previos que garantice su competencia a seguir con éxito el curso de especialización.
+
+                  2.2. Para el nivel 3:
+
+                  a) Título Técnico Superior de Formación Profesional diferente de los que den acceso al curso de
+                  especialización acreditando experiencia en el área profesional asociada a dicho curso.
+
+                  b) Título Técnico Superior de Formación Profesional diferente de los que den acceso al curso de
+                  especialización, pero que acrediten conocimientos previos que garanticen su competencia para seguir
+                  con éxito el curso de especialización.
+
+                  c) Personas que no dispongan de título de Técnico Superior de Formación profesional y que puedan
+                  acreditar conocimientos previos que garantice su competencia a seguir con éxito el curso de
+                  especialización.
+
+                  En este supuesto, estas personas podrán cursar el curso de especialización, obteniendo una
+                  certificación académica de realización con aprovechamiento que sustituirá al Título de Especialista,
+                  que no podrá obtenerse sin una titulación previa de Técnico de Formación Profesional.
+
+                  3. En los Reales Decretos, detallados en el anexo III, se regulan los Cursos de Especialización (Grado
+                  E) y se establece el título específico para el acceso al mismo.
+
+                  Cuarta. Plazas ofertadas y criterios de admisión.
+
+                  1. Los grupos se constituirán con un máximo de 20 plazas y mínimo 10.
+
+                  2. En el caso de que el número de solicitudes supere la oferta de plazas ofertadas en el curso de
+                  especialización y centro solicitado, las solicitudes se ordenarán de acuerdo con los siguientes criterios:
+
+                  a) Del total de plazas ofertadas se deberá reservar un 5% para el alumnado con discapacidad igual o
+                  superior al 33% en la fecha de la solicitud y otro 5% para los deportistas que en la fecha de la
+                  solicitud tengan la condición de deportistas de alto nivel o alto rendimiento.
+
+                  b) El total de plazas restantes, se asignará a las personas que reúnan los requisitos establecidos para
+                  cada curso de especialización, ordenado por el alumnado que acredite mayor nota media en el título
+                  aportado, para el caso.
+                  En el caso, de que se produzca algún empate se resolverá aplicando los siguientes criterios:
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                         Folio 7 de 32
+
+
+                  1. Técnico o Técnico especificado en la normativa básica.
+
+                  1º. Mayor nota obtenida en el módulo de proyecto intermodular cursado.
+                  2º. Mayor nota media obtenida de segundo curso del ciclo formativo cursado.
+                  3º. Letra de desempate: primera letra, y de forma sucesiva en los apellidos y en el nombre del alumno
+                  o alumna. La consideración de los apellidos y del nombre se hará de acuerdo a la transcripción literal
+                  de los citados datos en el documento acreditativo de su identidad.
+
+                  La letra que se aplicará para los supuestos de empate será la “H”, de acuerdo con el resultado del
+                  sorteo efectuado en la sede de la Dirección General de Administración de Centros, Escolarización y
+                  Servicios Complementarios publicado en la Resolución de convocatoria de admisión para el curso
+                  2025/2026.
+
+                  2. Título Técnico Superior de Formación Profesional diferente de los que den acceso al curso de
+                  especialización acreditando experiencia en el área profesional asociada a dicho curso.
+
+                  Se acreditará dicha experiencia profesional a través de la vida laboral y un certificado de empresa en
+                  donde consten las funciones desempeñadas relacionadas con la formación. Se ordenarán por nota
+                  media de dicho título.
+
+                  3. Para los casos de los apartados b) y c), de la disposición cuarta, apartado 2.1 y 2.2, el orden de
+                  prelación será:
+
+                  3.1. Vida laboral y certificado de empresa en donde consten las funciones realizadas relacionadas con
+                  la formación a realizar.
+                  3.2. Prueba de capacidad realizada y evaluada por el departamento al que pertenezca el curso de
+                  especialización a impartir.
+                  3.3. Curriculum vitae y entrevista personal, realizada por el departamento al que pertenezca el curso de
+                  especialización a impartir, en donde el interesado pueda dar veracidad al currículum vitae presentado.
+
+                  c) Las plazas escolares reservadas a las personas a las que se refiere el apartado a) que no resulten
+                  cubiertas por las mismas, se acumularán a las establecidas en el apartado b) y c) respectivamente.
+
+                  Quinta. Procedimiento de participación en la admisión a los cursos de especialización (Grado E).
+
+                  1. El alumnado que desee cursar un curso de especialización (Grado E) deberá participar en el
+                  procedimiento de admisión, presentando la correspondiente solicitud en el centro en el que se imparta
+                  el curso que se desea realizar, según el anexo IV, en el plazo previsto en el anexo V de esta resolución.
+
+                  2. Se podrá realizar una solicitud para cada centro y curso de especialización ofertado.
+
+                  3. La acreditación del cumplimiento de los requisitos para participar en la presente convocatoria se
+                  efectuará en los siguientes términos:
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                        Folio 8 de 32
+
+
+                  a) Para la acreditación del requisito de titulación de acceso a los cursos de especialización (Grado E,
+                  niveles 2 y 3) establecido en el anexo III, se tendrá que aportar, junto con la solicitud, certificación
+                  académica que indique de forma explícita la nota media del expediente académico y el centro donde
+                  cursó la enseñanza, salvo que esta documentación obre en poder del centro donde se solicita la plaza.
+
+                  b) Para la condición de discapacidad deberá aportar la correspondiente documentación acreditativa.
+
+                  c) Para la condición de deportista de alto nivel o de alto rendimiento se deberá aportar la
+                  documentación acreditativa del reconocimiento por la Administración correspondiente.
+
+                  La dirección de los centros educativos podrá recabar de las personas solicitantes la documentación
+                  que estime oportuna en orden a la justificación de las situaciones y circunstancias alegadas.
+
+                  4. En la fecha que se indica en el calendario que figura como anexo V de la presente resolución, los
+                  centros que impartan cursos de especialización (Grado E, niveles 2 y 3) publicarán en el tablón de
+                  anuncios las listas provisionales de alumnado admitido, reserva, alumnado excluido del procedimiento
+                  por no reunir los requisitos establecidos y solicitudes que requieren subsanación. Las personas
+                  interesadas dispondrán del plazo de tres días hábiles para presentar reclamación y/o subsanación a las
+                  listas provisionales en el mismo centro en el que se presentó la solicitud contados a partir del mismo
+                  día de la publicación.
+
+                  5. En la fecha que se indica en el mencionado anexo V los centros educativos publicarán las listas
+                  definitivas de alumnado admitido, reserva y alumnado excluido del procedimiento.
+
+                  6. La matrícula se realizará en el centro en que se imparta la oferta en la fecha que se determina en el
+                  calendario. El alumnado que no formalice su matrícula en el periodo ordinario perderá su derecho a la
+                  plaza adjudicada.
+
+                  7. A través de la presentación de la solicitud de participación en la presente convocatoria el solicitante
+                  acepta que los datos personales recogidos en la misma sean incorporados a la base de datos de la
+                  Administración de la Comunidad Autónoma de Canarias. Las personas interesadas podrán ejercitar los
+                  derechos de acceso, rectificación, cancelación y oposición dirigiendo un escrito a la Dirección General
+                  de Modernización y Calidad de los Servicios de la Consejería de Presidencia, Administraciones
+                  Públicas, Justicia y Seguridad del Gobierno de Canarias.
+
+                  Sexta. Calendario de desarrollo de la enseñanza.
+
+                  El periodo lectivo para los cursos de especialización (Grado E, niveles 2 y 3) se iniciará el día 1 de
+                  octubre de 2025 y finalizará el día 29 de mayo de 2026 (30 semanas). Concluido el periodo lectivo, se
+                  realizará la sesión de Evaluación Final Extraordinaria prevista en el apartado 2 de la Instrucción
+                  Novena.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                Folio 9 de 32
+
+                  Séptima. Titulación y acreditación.
+
+                  La superación del curso de especialización (Grado E, niveles 2 y 3), se acreditará mediante la
+                  expedición de los títulos de Especialistas y Máster de Formación Profesional, respectivamente, y
+                  tendrá validez en todo el territorio nacional, de acuerdo con el Real Decreto 659/2023.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                               Folio 10 de 32
+
+                                                         ANEXO II
+                                RELACIÓN DE CURSOS DE ESPECIALIZACIÓN (GRADO E, NIVELES
+                                          2 y 3) Y CENTROS EDUCATIVOS POR ISLA
+
+
+
+                                                                                    Lanzarote
+                Municipio                  Centro                                                                             Familia
+                                                             Acceso             Curso Especialización
+                                           /código                                                                           Profesional
+                                                                                Ciberseguridad en Entornos de las            Electricidad y
+                                           CIFP                                    Tecnologías de Operación.                  Electrónica.
+                                         Zonzamas.               GS
+                   Arrecife                                                         Inteligencia Artificial y Big Data.        Informática y
+                                                                                                                             Comunicaciones.
+                                          35015531
+                                                                GM                     Panadería y Bollería                Hostelería y Turismo.
+                                                                                           Artesanales.
+
+
+
+
+                                                                                Fuerteventura
+                  Municipio                  Centro/                  Acceso              Curso Especialización                Familia
+                                             código                                                                           Profesional
+                                                                                          Inteligencia Artificial y Big       Informática y
+                                                                                                      Data.                  Comunicaciones.
+                                            CIFP Majada
+                                                                         GS               Ciberseguridad en Entornos         Informática y
+                                              Marcial.                                      de las Tecnologías de la        Comunicaciones.
+                                             35014676                                             Información.
+                   Puerto del
+                                                                                             Robótica Colaborativa.          Electricidad y
+                    Rosario
+                                                                                                                              Electrónica.
+
+                                          IES Puerto del                                 Coordinación del Personal en
+                                                                                          Reuniones Profesionales,        Hostelería y Turismo.
+                                             Rosario.                    GM
+                                                                                             Congresos, Ferias,
+                                            35006187                                       Exposiciones y eventos
+
+                                          CIFP en                                             Panadería y Bollería
+                      Pájara                                             GM                                               Hostelería y Turismo
+                                          Morrojable.                                            Artesanales.
+                                          35016031
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                              Folio 11 de 32
+
+
+
+
+                                                                              Gran Canaria
+                    Municipio               Centro/                 Acceso               Curso Especialización                 Familia
+                                            Código                                                                            Profesional
+                                                                                    Ciberseguridad en Entornos de
+                                                                                        las Tecnologías de la
+                                               IES El                                       Información.
+                                               Rincón.                 GS
+                                                                                      Desarrollo de Aplicación en            Informática y
+                                             35009577                                     Lenguaje Python.                  Comunicaciones.
+                                                                                    Inteligencia Artificial y Big Data.
+                                                                                    Desarrollo de Videojuegos y
+                                                                                         Realidad Virtual.
+                                            CIFP Felo
+                                             Monzón
+                                              Grau                     GS                 Auditoría Energética.             Energía y Agua.
+                                             Bassas.
+                   Las Palmas               35015875
+                   de Gran
+                   Canaria                   CIFP San                 GM            Panadería y Bollería Artesanales      Hostelería y Turismo.
+                                            Cristóbal.                                           (GM).
+                                            35014652                   GS                                                    Electricidad y
+                                                                                         Robótica Colaborativa.
+                                                                                                                              Electrónica.
+                                                                                       Mantenimiento de                    Transporte y
+                                                                      GM              Vehículos Híbridos y                Mantenimiento
+                                                                                       Eléctricos (GM).                   de Vehículos.
+                                           CIFP Cruz                                                                       Transporte y
+                                                                                       Mantenimiento y
+                                           de Piedra                                Seguridad en Sistemas de              Mantenimiento
+                                            35014640                  GS              Vehículos Híbridos y                de Vehículos.
+                                                                                           Eléctricos.
+                                                                                    Redacción de Contenidos                  Comercio y
+                                                                                    Digitales para Marketing                 Marketing.
+                                                                                           y Ventas .
+                                             IES Ana                                Ciberseguridad en Entornos de            Informática y
+                                              Luisa                     GS              las Tecnologías de la               Comunicaciones.
+                                             Benítez.                                       Información.
+                                            35007842
+                                                                       GS           Aeronaves Pilotadas de Forma               Transporte y
+                                               IES
+                                                                                    Remota-Drones.                          Mantenimiento de
+                                           Politécnico.
+                                                                                                                                Vehículos.
+                                            35002984                                Ciberseguridad en Entornos de             Informática y
+                                                                                    las Tecnologías de Operación.           Comunicaciones.
+                   Santa María                CIFP En                 GM                                                   Transporte y
+                   de Guía                     Guía.                                Mantenimiento de
+                                                                                    Vehículos Híbridos y                  Mantenimiento
+                                             35004130                                                                     de Vehículos.
+                                                                                    Eléctricos .
+                   Gáldar                   IES Roque                  GS           Ciberseguridad en Entornos de             Informática y
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                               Folio 12 de 32
+
+                                             Amagro.                                las Tecnologías de la                    Comunicaciones.
+                                            35009334.                               Información.
+                                                                                    Ciberseguridad en Entornos de         Informática y
+                                           IES Lomo de                              las Tecnologías de la                 Comunicaciones.
+                                                La                     GS           Información
+                                            Herradura.                              Inteligencia Artificial y BI Data.         Informática y
+                         Telde               35010154
+                                                                                                                             Comunicaciones.
+                                              CIFP en                 GM                                                  Electricidad y
+                                                                                    Implementación de Redes 5G.
+                                               Telde.                                                                     Electrónica.
+                                             35016016
+
+                                                                                    Mantenimiento y                       Transporte y
+                   Santa Lucía               IES José                  GS
+                                                                                    Seguridad en Sistemas de              Mantenimiento
+                   de Tirajana                Zerpa
+                                                                                    Vehículos Híbridos y                  de Vehículos.
+                                            35009401
+                                                                                    Eléctricos.
+                                                                                    Redacción de Contenidos                Comercio y
+                                                                                    Digitales para Marketing               marketing
+                                                                                    y Ventas.
+                                                                                    Ciberseguridad en Entornos de          Informática y
+                                           CIFP                                     las Tecnologías de la                  Comunicaciones.
+                   Agüimes                                            GS            Información.
+                                           Villa de
+                                           Agüime                                   Auditoría Energética.                 Energía y Agua.
+                                           s
+                                           35014664                                 Inteligencia Artificial y Big Data.   Informática y
+                                                                                                                          Comunicaciones.
+                                                                      GM            Panadería y Bollería Artesanales.     Hostelería y Turismo.
+                  San Bartolomé           IES Faro                    GM            Panadería y Bollería Artesanales.     Hostelería y Turismo.
+                  de Tirajana             Maspalomas
+                                          35006643
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                        Folio 13 de 32
+
+
+
+                                                                               Tenerife
+                     Municipio                Centro/                     Acceso   Curso Especialización                  Familia
+                                              Código                                                                     Profesional
+                                               IES El                       GS      Mantenimiento y Seguridad       Transporte y
+                                             Sobradillo.                            en Sistemas de Vehículos        Mantenimiento de
+                                                                                    Híbridos y Eléctricos (GS).     Vehículos.
+                                             38010839
+                                                                                    Ciberseguridad en Entornos       Informática y
+                                                                                    de las Tecnologías de la         Comunicaciones.
+                                                                                    Información (GS).
+                                               CIFP César                GS         Ciberseguridad en
+                                               Manrique.                                                            Electricidad y
+                                                                                    Entornos de las
+                                               38016571                                                             Electrónica.
+                                                                                    Tecnologías de
+                   Santa Cruz de
+                                                                                    Operaciones (GS).
+                   Tenerife
+                                                                            GM       Instalación y                  Electricidad y
+                                                                                     mantenimiento de sistemas      Electrónica.
+                                                                                     conectados a internet (IoT)
+                                                                                     (GM).
+                                              CIFP
+                                            Virgen de                     GM        Panadería y Bollería            Hostelería y Turismo.
+                                            Candelaria.                             Artesanales (GM).
+                                              38017573
+                                             CEAD Santa
+                                               Cruz de                              Redacción de Contenidos         Comercio y
+                                               Tenerife                     GS      Digitales para Marketing y      Marketing.
+                                              Mercedes                              Ventas.
+                                                Pinto.
+                                              38010141
+
+                                              CIFP La                       GS      Mantenimiento y Seguridad       Transporte y
+                                              Laguna.                               en Sistemas de Vehículos        Mantenimiento de
+                   San Cristóbal
+                                                                                    Híbridos y Eléctricos (GS).     Vehículos.
+                   de La Laguna
+                                             38017093
+                                             IES Geneto.                    GS      Modelado de la Información      Instalación y
+                                                                                    de la Construcción              Mantenimiento.
+                                                38010414
+
+                                              IES Manuel                            Mantenimiento y Seguridad       Transporte y
+                                                                           GS       en Sistemas de Vehículos        Mantenimiento de
+                   Guía de Isora                Martín
+                                               González.                            Híbridos y Eléctricos           Vehículos.
+                                               38001553
+
+                                                                            GS      Panadería y Bollería            Hostelería y
+                                                                                    Artesanales                     Turismo.
+                         Adeje             CIFP en Adeje.
+                                             38016763
+                                                                                    Inteligencia Artificial y Big   Informática y
+                                                                            GM
+                                                                                    Data.                           Comunicaciones.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                     Folio 14 de 32
+
+
+
+
+                                                                                       La Palma
+                     Municipio                  Centro/              Acceso           Curso Especialización           Familia
+                                                Código                                                               Profesional
+                                                                                    Ciberseguridad en Entornos de    Informática y
+                                                 IES José                GS         las Tecnologías de la           Comunicaciones.
+                    Los Llanos de                 María                             Información.
+                    Aridane                       Pérez                             Mantenimiento de                  Transporte y
+                                                  Pulido                 GM
+                                                                                    Vehículos Híbridos y            Mantenimiento de
+                                                38003276                            Eléctricos.                        Vehículos.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                     Folio 15 de 32
+
+
+
+
+                                                                                    ANEXO III
+
+                                                     REQUISITOS DE ACCESO PARA LOS CURSOS DE
+                                                      ESPECIALIZACIÓN (GRADO E, NIVELES 2 y 3)
+
+
+
+                        Curso de                                            Requisito de Acceso: Titulación de acceso al curso
+                       Especialización
+
+                                                        Título de Técnico en Electromecánica de Vehículos Automóviles, establecido
+                                                        por el Real Decreto 453/2010, de 16 de abril, por el que se establece el Título
+                                                        de Técnico en Electromecánica de Vehículos Automóviles y se fijan sus
+                                                        enseñanzas mínimas.
+
+                     Mantenimiento de
+                                                        Título de Técnico en Electromecánica de Maquinaria, establecido por el Real
+                     vehículos híbridos
+                                                        Decreto 255/2011, de 28 de febrero, por el que se establece el Título de
+                        y eléctricos
+                                                        Técnico en Electromecánica de Maquinaria y se fijan sus enseñanzas
+                           (GM)
+                                                        mínimas.
+
+
+                                                        Título de Técnico en Mantenimiento de Material Rodante Ferroviario,
+                                                        establecido por el Real Decreto 1145/2012, de 27 de julio, por el que se
+                                                        establece el Título de Técnico en Mantenimiento de Material Rodante
+                                                        Ferroviario y se fijan sus enseñanzas mínimas.
+
+
+                                                        Título de Técnico en Cocina y Gastronomía establecido en el Real Decreto
+                                                        1396/2007, de 29 de octubre, por el que se establece el título de Técnico en
+                                                        Cocina y Gastronomía y se fijan sus enseñanzas mínimas.
+
+
+                                                        Título de Técnico en Panadería, repostería y confitería establecido en el Real
+                                                        Decreto 1399/2007, de 29 de octubre, por el que se establece el título de
+                                                        Técnico en Panadería, repostería y confitería y se fijan sus enseñanzas
+                                                        mínimas.
+                        Panadería y
+                    bollería artesanales
+                           (GM)                         Título de Técnico en Comercialización de Productos Alimentarios establecido
+                                                        en el Real Decreto 189/2018, de 6 de abril, por el que se establece el título de
+                                                        Técnico en Comercialización de productos alimentarios y se fijan los
+                                                        aspectos básicos del currículo.
+
+
+                                                        Título de Técnico Superior en Dirección de Cocina establecido en el Real
+                                                        Decreto 687/2010, de 20 de mayo, por el que se establece el título de Técnico
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 16 de 32
+
+
+                                                        Superior en Dirección de Cocina y se fijan sus enseñanzas mínimas.
+
+                                                        Título de Técnico en Sistemas Microinformáticos y Redes, establecido en el
+                                                        Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de
+                                                        Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas
+                                                        mínimas.
+                                                        Título de Técnico en Instalaciones Eléctricas y Automáticas, establecido en el
+                                                        Real Decreto 177/2008, de 8 de febrero, por el que se establece el título de
+                                                        Técnico en Instalaciones Eléctricas y Automáticas y se fijan sus enseñanzas
+                                                        mínimas.
+                                                        Título de Técnico en Planta Química, establecido en el Real Decreto 178/2008,
+                                                        de 8 de febrero, por el que se establece el título de Técnico en Planta Química
+                                                        y se fijan sus enseñanzas mínimas.
+                                                        Título de Técnico en Instalaciones de Telecomunicaciones, establecido en el
+                                                        Real Decreto 1632/2009, de 30 de octubre, por el que se establece el título de
+                                                        Técnico en Instalaciones de Telecomunicaciones y se fijan sus enseñanzas
+                                                        mínimas.
+
+                                                        Título de Técnico en Producción Agroecológica, establecido en el Real Decreto
+                       Instalación y
+                                                        1633/2009, de 30 de octubre, por el que se establece el título de Técnico en
+                     mantenimiento de
+                                                        Producción Agroecológica y se fijan sus enseñanzas mínimas.
+                         sistemas
+                       conectados a                     Título de Técnico en Producción Agropecuaria, establecido en el Real Decreto
+                      internet (IoT)                    1634/2009, de 30 de octubre, por el que se establece el título de Técnico en
+                           (GM)                         Producción Agropecuaria y se fijan sus enseñanzas mínimas.
+                                                        Título de Técnico en Jardinería y Floristería, establecido en el Real Decreto
+                                                        11u29/2010, de 10 de septiembre, por el que se establece el título de Técnico en
+                                                        Jardinería y Floristería y se fijan sus enseñanzas mínimas.
+                                                        Título de Técnico en Instalaciones de Producción de Calor, establecido en el
+                                                        Real Decreto 1792/2010, de 30 de diciembre, por el que se establece el título de
+                                                        Técnico en Instalaciones de Producción de Calor y se fijan sus enseñanzas
+                                                        mínimas.
+                                                        Título de Técnico Instalaciones Frigoríficas y de Climatización, establecido en
+                                                        el Real Decreto 1793/2010, de 30 de diciembre, por el que se establece el título
+                                                        de Técnico en Instalaciones Frigoríficas y de Climatización y se fijan sus
+                                                        enseñanzas mínimas.
+                                                        Título de Técnico en Mantenimiento Electromecánico, establecido en el Real
+                                                        Decreto 1589/2011, de 4 de noviembre, por el que se establece el título de
+                                                        Técnico en Mantenimiento Electromecánico y se fijan sus enseñanzas
+                                                        mínimas.
+                                                        Título de Técnico en redes y estaciones de tratamiento de aguas, establecido en
+                                                        el Real Decreto 114/2017, de 17 de febrero, por el que se establece el título de
+                                                        Técnico en redes y estaciones de tratamiento de aguas y se fijan los aspectos
+                                                        básicos del currículo.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 17 de 32
+
+                                                        Título de Técnico en Montaje de estructuras e instalación de sistemas
+                                                        aeronáuticos, establecido en el Real Decreto 74/2018, de 19 de febrero, por el
+                                                        que se establece el título de Técnico en Montaje de estructuras e instalación
+                                                        de sistemas aeronáuticos y se fijan los aspectos básicos del currículo.
+
+                                                        Título de Técnico en Sistemas Microinformáticos y Redes, establecido por el
+                                                        Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de
+                                                        Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas
+                                                        mínimas.
+                    Implementación de
+                                                        Título de Técnico en Instalaciones Eléctricas y Automáticas, establecido por el
+                        redes 5G
+                                                        Real Decreto 177/2008, de 8 de febrero, por el que se establece el título de
+                               (GM)                     Técnico en Instalaciones Eléctricas y Automáticas y se fijan sus enseñanzas
+                                                        mínimas.
+
+                                                        Título de Técnico en Instalaciones de Telecomunicaciones, establecido por el
+                                                        Real Decreto 1632/2009, de 30 de octubre, por el que se establece el título de
+                                                        Técnico en Instalaciones de Telecomunicaciones y se fijan sus enseñanzas
+                                                        mínimas.
+
+
+
+
+                                                        Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                        establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                        establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                        Automatizados y se fijan sus enseñanzas mínimas.
+
+                                                        Título de Técnico Superior en Mecatrónica Industrial, establecido por el Real
+                                                        Decreto 1576/2011, de 4 de noviembre, por el que se establece el título de
+                                                        Técnico Superior en Mecatrónica Industrial y se fijan sus enseñanzas
+                                                        mínimas.
+
+
+                     Ciberseguridad                     Título de Técnico Superior en Automatización y Robótica Industrial,
+                      en entornos de                    establecido por el Real Decreto 1581/2011, de 4 de noviembre, por el que se
+                    las tecnologías de                  establece el título de Técnico Superior en Automatización y Robótica
+                         operación                      Industrial y se fijan sus enseñanzas mínimas.
+                           (GS)
+                                                        Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                        establecido por el Real Decreto 883/2011, de 24 de junio, por el que se
+                                                        establece el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                        Informáticos y se fijan sus enseñanzas mínimas.
+
+                                                        Título de Técnico Superior en Mantenimiento Electrónico, establecido por el
+                                                        Real Decreto 1578/2011, de 4 de noviembre, por el que se establece el título de
+                                                        Técnico Superior en Mantenimiento Electrónico y se fijan sus enseñanzas
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                   Folio 18 de 32
+
+                                                        mínimas.
+
+
+
+                                                        Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                        establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                        establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                        Automatizados y se fijan sus enseñanzas mínimas.
+                                                        Título de Técnico Superior en Mecatrónica Industrial, establecido por el Real
+                                                        Decreto 1576/2011, de 4 de noviembre, por el que se establece el título de
+                                                        Técnico Superior en Mecatrónica Industrial y se fijan sus enseñanzas
+                                                        mínimas.
+                     Ciberseguridad                     Título de Técnico Superior en Automatización y Robótica Industrial,
+                      en entornos de                    establecido por el Real Decreto 1581/2011, de 4 de noviembre, por el que se
+                    las tecnologías de                  establece el título de Técnico Superior en Automatización y Robótica
+                      la información                    Industrial y se fijan sus enseñanzas mínimas.
+                            (GS)                        Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                        establecido por el Real Decreto 883/2011, de 24 de junio, por el que se
+                                                        establece el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                        Informáticos y se fijan sus enseñanzas mínimas.
+                                                        Título de Técnico Superior en Mantenimiento Electrónico, establecido por el
+                                                        Real Decreto 1578/2011, de 4 de noviembre, por el que se establece el título de
+                                                        Técnico Superior en Mantenimiento Electrónico y se fijan sus enseñanzas
+                                                        mínimas.
+
+                                                        Técnico Superior en Administración de Sistemas Informáticos en Red,
+                                                        establecido por el Real Decreto 1629/2009, de 30 de octubre, por el que se
+                                                        establece el título de Técnico Superior en Administración de Sistemas
+                                                        Informáticos en Red y se fijan sus enseñanzas mínimas.
+                                                        Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, establecido
+                                                        por el Real Decreto 450/2010, de 16 de abril, por el que se establece el título de
+                                                        Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan
+                                                        sus enseñanzas mínimas.
+                                                        Técnico Superior en Desarrollo de Aplicaciones Web, establecido por el Real
+                        Inteligencia                    Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico
+                                                        Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas
+                       artificial y big
+                                                        mínimas.
+                             data
+                             (GS)                       Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                        establecido por el Real Decreto 883/2011, de 24 de junio, por el que se
+                                                        establece el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                        Informáticos y se fijan sus enseñanzas mínimas.
+                                                        Título Técnico Superior en Mecatrónica Industrial, establecido por el Real
+                                                        Decreto 1576/2011, de 4 de noviembre, por el que se establece el Título de
+                                                        Técnico Superior en Mecatrónica Industrial y se fijan sus enseñanzas
+                                                        mínimas .
+
+                                                        Título de Técnico Superior en Automatización y Robótica Industrial,
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 19 de 32
+
+
+                                                        establecido por el Real Decreto 1581/2011, de 4 de noviembre, por el que se
+                                                        establece el Título de Técnico Superior en Automatización y Robótica
+                                                        Industrial y se fijan sus enseñanzas mínimas.
+
+                                                        Título de Técnico Superior en Administración de Sistemas Informáticos en Red
+                                                        establecido por el Real Decreto 1629/2009, de 30 de octubre, por el que se
+                                                        establece el título de Técnico Superior en Administración de Sistemas
+                                                        Informáticos en Red y se fijan sus enseñanzas mínimas.
+
+                                                        Título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma,
+                                                        establecido por el Real Decreto 450/2010, de 16 de abril, por el que se establece
+                      Desarrollo de
+                                                        el título de Técnico Superior en Desarrollo de Aplicaciones
+                      videojuegos y                     Multiplataforma y se fijan sus enseñanzas mínimas.
+                         realidad
+                          virtual
+                                                        Título de Técnico Superior en Desarrollo de Aplicaciones Web, establecido por
+                           (GS)
+                                                        el Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de
+                                                        Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus
+                                                        enseñanzas mínimas.
+
+                                                        Título de Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos,
+                                                        establecido por el Real Decreto 1583/2011, de 4 de noviembre, por el que se
+                                                        establece el título de Técnico Superior en Animaciones 3D, Juegos y
+                                                        Entornos Interactivos, y se fijan sus enseñanzas mínimas.
+
+
+
+
+                                                       Título de Técnico Superior en Automoción establecido por el Real Decreto
+                                                       1796/2008, de 3 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Automoción y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Mantenimiento de Sistemas Electrónicos y
+                                                       Aviónicos en Aeronaves establecido por el Real Decreto 1448/2018, de 14 de
+                    Mantenimiento y                    diciembre, por el que se establece el Título de Técnico Superior en
+                     seguridad en                      Mantenimiento de Sistemas Electrónicos y Aviónicos en Aeronaves y se
+                      sistemas de                      fijan los aspectos básicos del currículo.
+                       vehículos
+                       híbridos y                      Título de Técnico Superior en Mantenimiento Aeromecánico de aviones con
+                       eléctricos                      motor de pistón, establecido por el Real Decreto 1444/2018, de 14 de diciembre,
+                          (GS)                         por el que se establece el Título de Técnico Superior en Mantenimiento
+                                                       Aeromecánico de aviones con motor de pistón y se fijan los aspectos básicos
+                                                       del currículo.
+
+                                                       Título de Técnico Superior en Mantenimiento Aeromecánico de aviones con
+                                                       motor de turbina, establecido por el Real Decreto 1445/2018, de 14 de
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                 Folio 20 de 32
+
+
+                                                       diciembre, por el que se establece el Título de Técnico Superior en
+                                                       Mantenimiento Aeromecánico de aviones con motor de turbina y se fijan los
+                                                       aspectos básicos del currículo.
+
+                                                       Título de Técnico Superior en Desarrollo de Proyectos de Instalaciones
+                                                       Térmicas y de Fluidos, establecido por el Real Decreto 219/2008, de 15 de
+                                                       febrero, por el que se establece el título de Técnico Superior en Desarrollo de
+                                                       Proyectos de Instalaciones Térmicas y de Fluidos y se fijan sus enseñanzas
+                                                       mínimas.
+
+                                                       Título de Técnico Superior en Mantenimiento de Instalaciones Térmicas y de
+                                                       Fluidos, establecido por el Real Decreto 220/2008, de 15 de febrero, por el que
+                                                       se establece el título de Técnico Superior en Mantenimiento de Instalaciones
+                                                       Térmicas y de Fluidos y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Eficiencia Energética y Eficiencia Solar Térmica,
+                                                       establecido por el Real Decreto 1177/2008, de 11 de julio, por el que se
+                                                       establece el título de Técnico Superior en Eficiencia Energética y Energía
+                                                       Solar Térmica y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Proyectos de Edificación, establecido por el Real
+                                                       Decreto 690/2010, de 20 de mayo, por el que se establece el título de Técnico
+                                                       Superior en Proyectos de Edificación y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                       establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                       establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                       Automatizados y se fijan sus enseñanzas mínimas.
+                        Auditoría
+                        Energética                     Título de Técnico Superior en Centrales Eléctricas, establecido por el Real
+                          (GS)                         Decreto 258/2011, de 28 de febrero, por el que se establece el título de Técnico
+                                                       Superior en Centrales Eléctricas y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Energías Renovables, establecido por el Real
+                                                       Decreto 385/2011, de 18 de marzo, por el que se establece el título de Técnico
+                                                       Superior en Energías Renovables y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Proyectos de Obra Civil, establecido por el Real
+                                                       Decreto 386/2011, de 18 de marzo, por el que se establece el título de Técnico
+                                                       Superior en Proyectos de Obra Civil y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Organización y Control de Obras de
+                                                       Construcción, establecido por el Real Decreto 636/2015, de 10 de julio, por el
+                                                       que se establece el título de Técnico Superior en Organización y Control de
+                                                       Obras de Construcción y se fijan los aspectos básicos del currículo.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                Folio 21 de 32
+
+
+                                                       Título de Técnico Superior en Gestión del Agua, establecido por el Real Decreto
+                                                       113/2017, de 17 de febrero, por el que se establece el título de Técnico
+                                                       Superior en Gestión del Agua y se fijan los aspectos básicos del currículo.
+
+                                                       Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                       establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el
+                                                       que se establece el título de Técnico Superior en Sistemas
+                                                       Electrotécnicos y Automatizados y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                       establecido por Real Decreto 883/2011, de 24 de junio, por el que se
+                                                       establece el título de Técnico Superior en Sistemas de
+                                                       Telecomunicaciones e Informáticos y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Mecatrónica Industrial, establecido por el Real
+                                                       Decreto 1576/2011, de 4 de noviembre, por el que se establece el Título
+                                                       de Técnico Superior en Mecatrónica Industrial y se fijan sus
+                          Robótica                     enseñanzas mínimas.
+                        colaborativa
+                                                       Técnico Superior en Mantenimiento Electrónico, establecido por el Real
+                            (GS)
+                                                       Decreto 1578/2011, de 4 de noviembre, por el que se establece el Título
+                                                       de Técnico Superior en Mantenimiento Electrónico y se fijan sus
+                                                       enseñanzas mínimas.
+                                                       Técnico Superior en Automatización y Robótica Industrial, establecido
+                                                       por el Real Decreto 1581/2011, de 4 de noviembre, por el que se establece
+                                                       el Título de Técnico Superior en Automatización y Robótica
+                                                       Industrial y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Electromedicina Clínica, establecido por el Real
+                                                       Decreto 838/2015, de 21 de septiembre, por el que se establece el título de
+                                                       Técnico Superior en Electromedicina Clínica y se fijan los aspectos
+                                                       básicos del currículo.
+                                                       Técnico Superior en Administración de Sistemas Informáticos en Red,
+                                                       establecido por el Real Decreto 1629/2009, de 30 de octubre, por el que se
+                                                       establece el título de Técnico Superior en Administración de Sistemas
+                                                       Informáticos en Red y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Automatización y Robótica Industrial, establecido por el
+                                                       Real Decreto 1581/2011, de 4 de noviembre, por el que se establece el Título de
+                         Aeronaves                     Técnico Superior en Automatización y Robótica Industrial y se fijan sus
+                        pilotadas de                   enseñanzas mínimas.
+                           forma
+                       remota-Drones                   Técnico Superior en Automoción, establecido por el Real Decreto 1796/2008, de
+                            (GS)                       3 de noviembre, por el que se establece el título de Técnico Superior en
+                                                       Automoción y se fijan sus enseñanzas mínimas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 22 de 32
+
+                                                       Técnico Superior en Centrales Eléctricas, establecido por el Real Decreto
+                                                       258/2011, de 28 de febrero, por el que se establece el título de Técnico Superior
+                                                       en Centrales Eléctricas y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Desarrollo de Proyectos de Instalaciones Térmicas y de
+                                                       Fluidos, establecido por el Real Decreto 219/2008, de 15 de febrero, por el que
+                                                       se establece el título de Técnico Superior en Desarrollo de Proyectos de
+                                                       Instalaciones Térmicas y de Fluidos y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Diseño en Fabricación Mecánica, establecido por el Real
+                                                       Decreto 1630/2009, de 30 de octubre, por el que se establece el título de Técnico
+                                                       Superior en Diseño en Fabricación Mecánica y se fijan sus enseñanzas
+                                                       mínimas.
+                                                       Técnico Superior en Electromedicina Clínica, establecido por el Real Decreto
+                                                       838/2015, de 21 de septiembre, por el que se establece el título de Técnico
+                                                       Superior en Electromedicina Clínica y se fijan los aspectos básicos del
+                                                       currículo.
+                                                       Técnico Superior en Energías Renovables, establecido por el Real Decreto
+                                                       385/2011, de 18 de marzo, por el que se establece el título de Técnico Superior
+                                                       en Energías Renovables y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Iluminación, Captación y Tratamiento de Imagen,
+                                                       establecido por el Real Decreto 1686/2011, de 18 de noviembre, por el que se
+                                                       establece el título de Técnico Superior en Iluminación, Captación y
+                                                       Tratamiento de Imagen y se fijan sus enseñanzas mínimas.
+                         Aeronaves
+                        pilotadas de                   Técnico Superior en Mantenimiento Aeromecánico de Aviones con Motor de
+                           forma                       Pistón, establecido por el Real Decreto 1444/2018, de 14 de diciembre, por el
+                       remota-Drones                   que se establece el título de Técnico Superior en mantenimiento
+                            (GS)                       aeromecánico de aviones con motor de pistón y se fijan los aspectos básicos
+                                                       del currículo.
+
+                                                       Técnico Superior en Mantenimiento Aeromecánico de Aviones con Motor de
+                                                       turbina, establecido por el Real Decreto 1445/2018, de 14 de diciembre, por el
+                                                       que se establece el título de Técnico Superior en mantenimiento
+                                                       aeromecánico de aviones con motor de turbina y se fijan los aspectos básicos
+                                                       del currículo.
+
+                                                       Técnico Superior en Mantenimiento Aeromecánico de Helicópteros con Motor
+                                                       de Pistón, por el que se establece el título de Real Decreto 1446/2018, de 14 de
+                                                       diciembre, por el que se establece el título de Técnico Superior en
+                                                       mantenimiento aeromecánico de helicópteros con motor de pistón y se fijan
+                                                       los aspectos básicos del currículo.
+
+                                                       Técnico Superior en Mantenimiento Aeromecánico de Helicópteros con Motor
+                                                       de Turbina, establecido por el Real Decreto 1447/2018, de 14 de diciembre, por
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 23 de 32
+
+                                                       el que se establece el título de Técnico Superior en mantenimiento
+                                                       aeromecánico de helicópteros con motor de turbina y se fijan los aspectos
+                                                       básicos del currículo.
+
+                                                       Técnico Superior en Mantenimiento de Instalaciones Térmicas y de Fluidos,
+                                                       establecido por el Real Decreto 220/2008, de 15 de febrero, por el que se
+                                                       establece el título de Técnico Superior en Mantenimiento de Instalaciones
+                                                       Térmicas y de Fluidos y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Mantenimiento de Sistemas Electrónicos y Aviónicos de
+                                                       Aeronaves, establecido por el Real Decreto 1448/2018, de 14 de diciembre, por
+                                                       el que se establece el título de Técnico Superior en mantenimiento de
+                                                       sistemas electrónicos y aviónicos en aeronaves y se fijan los aspectos básicos
+                                                       del currículo.
+
+                                                       Técnico Superior en Mantenimiento Electrónico, establecido por el Real Decreto
+                                                       1578/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Mantenimiento Electrónico y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Mecatrónica Industrial, establecido por el Real Decreto
+                                                       1576/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Mecatrónica Industrial y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Organización del Mantenimiento de Maquinaria de Buques
+                                                       y Embarcaciones, establecido por el Real Decreto 1075/2012, de 13 de julio, por
+                                                       el que se establece el título de Técnico Superior en Organización del
+                         Aeronaves                     Mantenimiento de Maquinaria de Buques y Embarcaciones y se fijan sus
+                        pilotadas de                   enseñanzas mínimas.
+                           forma
+                       remota-Drones                   Técnico Superior en Programación de la Producción en Fabricación Mecánica,
+                            (GS)                       establecido por el Real Decreto 1687/2007, de 14 de diciembre, por el que se
+                                                       establece el título de Técnico Superior en Programación de la Producción en
+                                                       Fabricación Mecánica y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Sistemas de Telecomunicaciones e Informáticos y se fijan
+                                                       sus enseñanzas mínimas, establecido por el Real Decreto 883/2011, de 24 de
+                                                       junio, por el que se establece el título de Técnico Superior en Sistemas de
+                                                       Telecomunicaciones e Informáticos y se fijan sus enseñanzas mínimas.
+
+
+                                                       Técnico Superior en Sistemas Electrotécnicos y Automatizados, establecido por
+                                                       el Real Decreto 1127/2010, de 10 de septiembre, por el que se establece el título
+                                                       de Técnico Superior en Sistemas Electrotécnicos y Automatizados y se
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 24 de 32
+
+
+                                                       fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Vitivinicultura, establecido por el Real Decreto 1688/2007,
+                                                       de 14 de diciembre, por el que se establece el título de Técnico Superior en
+                                                       Vitivinicultura y se fijan sus enseñanzas mínimas, incluidas sus posteriores
+                                                       actualizaciones.
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos, establecido por el Real
+                                                       Decreto 1686/2007, de 14 de diciembre, por el que se establece el título de
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos y se fijan sus
+                                                       enseñanzas mínimas.
+                                                       Técnico Superior en Agencias de Viajes y Gestión de Eventos, Real Decreto
+                                                       1254/2009, de 24 de julio, por el que se establece el título de Técnico Superior
+                                                       en Agencias de Viajes y Gestión de Eventos y se fijan sus enseñanzas
+                     Posicionamiento                   mínimas.
+                      en buscadores
+                                                       Técnico Superior en Guía, Información y Asistencia Turísticas, establecido por
+                      (SEO/SEM) y
+                     comunicación en                   el Real Decreto 1255/2009, de 24 de julio, por el que se establece el título de
+                       redes sociales                  Técnico Superior en Guía, Información y Asistencia Turísticas y se fijan sus
+                           (GS)                        enseñanzas mínimas.
+                                                       Técnico Superior en Procesos y Calidad en la Industria Alimentaria, establecido
+                                                       por el Real Decreto 451/2010, de 16 de abril, por el que se establece el título de
+                                                       Técnico Superior en Procesos y Calidad en la Industria Alimentaria y se
+                                                       fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Asistencia a la Dirección, establecido por el Real Decreto
+                                                       1582/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Asistencia a la Dirección y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Administración y Finanzas, establecido por el Real Decreto
+                                                       1584/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Administración y Finanzas y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Marketing y Publicidad, establecido por el Real Decreto
+                                                       1571/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Marketing y Publicidad y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Transporte y Logística, establecido por el Real Decreto
+                                                       1572/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Transporte y Logística y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Gestión de Ventas y Espacios Comerciales, establecido por
+                                                       el Real Decreto 1573/2011, de 4 de noviembre, por el que se establece el Título
+                                                       de Técnico Superior en Gestión de Ventas y Espacios Comerciales y se fijan
+                                                       sus enseñanzas mínimas.
+                                                       Técnico Superior en Comercio Internacional, establecido por el Real Decreto
+                                                       1574/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Comercio Internacional y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Estilismo y Dirección de Peluquería, establecido por el Real
+                                                       Decreto 1577/2011, de 4 de noviembre, por el que se establece el Título de
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 25 de 32
+
+                                                       Técnico Superior en Estilismo y Dirección de Peluquería y se fijan sus
+                                                       enseñanzas mínimas.
+                                                       Técnico Superior en Producción de Audiovisuales y Espectáculos, establecido
+                                                       por el Real Decreto 1681/2011, de 18 de noviembre, por el que se establece el
+                                                       título de Técnico Superior en Producción de audiovisuales y espectáculos y
+                                                       se fijan sus enseñanzas mínimas.
+                     Posicionamiento                   Técnico Superior en Asesoría de Imagen Personal y Corporativa, establecido por
+                      en buscadores                    el Real Decreto 1685/2011, de 18 de noviembre, por el que se establece el título
+                      (SEO/SEM) y                      de Técnico Superior en Asesoría de Imagen Personal y Corporativa y se
+                     comunicación en
+                                                       fijan sus enseñanzas mínimas.
+                       redes sociales
+                                                       Técnico Superior en Diseño y Edición de Publicaciones Impresas y Multimedia,
+                           (GS)
+                                                       establecido por el Real Decreto 174/2013, de 8 de marzo, por el que se establece
+                                                       el título de Técnico Superior en Diseño y Edición de Publicaciones Impresas
+                                                       y Multimedia y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Diseño y Gestión de la Producción Gráfica, establecido por
+                                                       el Real Decreto 175/2013, de 8 de marzo, por el que se establece el título de
+                                                       Técnico Superior en Diseño y Gestión de la Producción Gráfica y se fijan sus
+                                                       enseñanzas mínimas.
+
+                                                       Técnico Superior en Vitivinicultura, establecido por el Real Decreto 1688/2007,
+                                                       de 14 de diciembre, por el que se establece el título de Técnico Superior en
+                                                       Vitivinicultura y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos, establecido por el Real
+                                                       Decreto 1686/2007, de 14 de diciembre, por el que se establece el título de
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos y se fijan sus
+                                                       enseñanzas mínimas.
+                        Redacción de
+                                                       Técnico Superior en Agencias de Viajes y Gestión de Eventos, Real Decreto
+                         contenidos
+                                                       1254/2009, de 24 de julio, por el que se establece el título de Técnico Superior
+                        digitales para
+                                                       en Agencias de Viajes y Gestión de Eventos y se fijan sus enseñanzas
+                         marketing y
+                                                       mínimas.
+                         ventas (GS)
+                                                       Técnico Superior en Guía, Información y Asistencia Turísticas, establecido por
+                                                       el Real Decreto 1255/2009, de 24 de julio, por el que se establece el título de
+                                                       Técnico Superior en Guía, Información y Asistencia Turísticas y se fijan sus
+                                                       enseñanzas mínimas.
+                                                       Técnico Superior en Procesos y Calidad en la Industria Alimentaria, establecido
+                                                       por el Real Decreto 451/2010, de 16 de abril, por el que se establece el título de
+                                                       Técnico Superior en Procesos y Calidad en la Industria Alimentaria y se
+                                                       fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Asistencia a la Dirección, establecido por el Real Decreto
+                                                       1582/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Asistencia a la Dirección y se fijan sus enseñanzas mínimas.
+                                                       Técnico Superior en Administración y Finanzas, establecido por el Real Decreto
+                                                       1584/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                 Folio 26 de 32
+
+                                                       Superior en Administración y Finanzas y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Marketing y Publicidad, establecido por el Real Decreto
+                                                       1571/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Marketing y Publicidad y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Transporte y Logística, establecido por el Real Decreto
+                                                       1572/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                                       Superior en Transporte y Logística y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Gestión de Ventas y Espacios Comerciales, establecido por
+                                                       el Real Decreto 1573/2011, de 4 de noviembre, por el que se establece el Título
+                        Redacción de                   de Técnico Superior en Gestión de Ventas y Espacios Comerciales y se fijan
+                         contenidos                    sus enseñanzas mínimas.
+                        digitales para
+                         marketing y                   Técnico Superior en Comercio Internacional, establecido por el Real Decreto
+                            ventas                     1574/2011, de 4 de noviembre, por el que se establece el Título de Técnico
+                                (GS)                   Superior en Comercio Internacional y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Estilismo y Dirección de Peluquería establecido por el Real
+                                                       Decreto 1577/2011, de 4 de noviembre, por el que se establece el Título de
+                                                       Técnico Superior en Estilismo y Dirección de Peluquería y se fijan sus
+                                                       enseñanzas mínimas.
+
+                                                       Técnico Superior en Producción de Audiovisuales y Espectáculos, establecido
+                                                       por el Real Decreto 1681/2011, de 18 de noviembre, por el que se establece el
+                                                       título de Técnico Superior en Producción de audiovisuales y espectáculos y
+                                                       se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Asesoría de Imagen Personal y Corporativa, establecido por
+                                                       el Real Decreto 1685/2011, de 18 de noviembre, por el que se establece el título
+                                                       de Técnico Superior en Asesoría de Imagen Personal y Corporativa y se
+                                                       fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Diseño y Edición de Publicaciones Impresas y Multimedia,
+                                                       establecido por el Real Decreto 174/2013, de 8 de marzo, por el que se establece
+                                                       el título de Técnico Superior en Diseño y Edición de Publicaciones Impresas
+                                                       y Multimedia y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Diseño y Gestión de la Producción Gráfica, establecido por
+                                                       el Real Decreto 175/2013, de 8 de marzo, por el que se establece el título de
+                                                       Técnico Superior en Diseño y Gestión de la Producción Gráfica y se fijan sus
+                                                       enseñanzas mínimas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                 Folio 27 de 32
+
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos, establecido por el Real
+                                                       Decreto1686/2007, de 14 de diciembre, por el que se establece el título de
+                                                       Técnico Superior en Gestión de Alojamientos Turísticos y se fijan sus
+                                                       enseñanzas mínimas.
+
+                                                       Técnico en Servicios en Restauración, establecido por el Real Decreto
+                                                       1690/2007, de 14 de diciembre, por el que se establece el título de Técnico en
+                                                       Servicios en Restauración y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico en Gestión Administrativa, establecido por el Real Decreto 1631/2009,
+                                                       de 30 de octubre, por el que se establece el título de Técnico en Gestión
+                                                       Administrativa y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Agencias de Viajes y Gestión de Eventos, establecido por el
+                                                       Real Decreto 1254/2009, de 24 de julio, por el que se establece el título de
+                                                       Técnico Superior en Agencias de Viajes y Gestión de Eventos y se fijan sus
+                    Coordinación del                   enseñanzas mínimas.
+                       personal en
+                        reuniones                      Técnico Superior en Guía, Información y Asistencia Turísticas, establecido por
+                      profesionales,                   el Real Decreto 1255/2009, de 24 de julio, por el que se establece el título de
+                    congresos, ferias,                 Técnico Superior en Guía, Información y Asistencia Turísticas y se fijan sus
+                     exposiciones y                    enseñanzas mínimas.
+                         eventos
+                                                       Técnico Superior en Dirección de Servicios de Restauración, establecido por el
+                          (GM)
+                                                       Real Decreto 688/2010, de 20 de mayo, por el que se establece el título de
+                                                       Técnico Superior en Dirección de Servicios de Restauración y se fijan sus
+                                                       enseñanzas mínimas.
+
+                                                       Técnico en Actividades Comerciales, establecido por el Real Decreto
+                                                       1688/2011, de 18 de noviembre, por el que se establece el título de Técnico en
+                                                       Actividades Comerciales y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico en Comercialización de Productos Alimentarios, establecido por el Real
+                                                       Decreto 189/2018, de 6 de abril, por el que se establece el título de Técnico en
+                                                       comercialización de productos alimentarios y se fijan los aspectos básicos del
+                                                       currículo.
+
+                                                       Título de Técnico Superior en Desarrollo de Proyectos de Instalaciones
+                                                       Térmicas y de Fluidos, establecido por el Real Decreto 219/2008, de 15 de
+                                                       febrero, por el que se establece el título de Técnico Superior en Desarrollo de
+                                                       Proyectos de Instalaciones Térmicas y de Fluidos y se fijan sus enseñanzas
+                       Desarrollo de                   mínimas.
+                      aplicaciones en
+                     lenguaje Python                   Título de Técnico Superior en Mantenimiento de Instalaciones Térmicas y de
+                           (GS)                        Fluidos, establecido por el Real Decreto 220/2008, de 15 de febrero, por el que
+                                                       se establece el título de Técnico Superior en Mantenimiento de Instalaciones
+                                                       Térmicas y de Fluidos y se fijan sus enseñanzas mínimas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 28 de 32
+
+                                                       Técnico Superior en Administración de Sistemas Informáticos en Red
+                                                       establecido por el Real Decreto 1629/2009, de 30 de octubre, por el que se
+                                                       establece el título de Técnico Superior en Administración de Sistemas
+                                                       Informáticos en Red y se fijan sus enseñanzas mínimas.
+
+                                                       Técnico Superior en Desarrollo de Aplicaciones Web, establecido por el Real
+                                                       Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico
+                                                       Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas
+                                                       mínimas.
+
+                                                       Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, establecido
+                                                       por el Real Decreto 450/2010, de 16 de abril, por el que se establece el título de
+                                                       Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan
+                                                       sus enseñanzas mínimas.
+
+
+                                                       Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                       establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                       establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                       Automatizados y se fijan sus enseñanzas mínimas.
+
+
+                                                       Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                       establecido por el Real Decreto 883/2011, de 24 de junio, por el que se establece
+                                                       el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                       Informáticos y se fijan sus enseñanzas mínimas.
+                       Desarrollo de
+                      aplicaciones en
+                                                       Título de Técnico Superior en Mecatrónica Industrial, establecido por el Real
+                     lenguaje Python
+                                                       Decreto 1576/2011, de 4 de noviembre, por el que se establece el título de
+                           (GS)                        Técnico Superior en Mecatrónica Industrial y se fijan sus enseñanzas
+                                                       mínimas.
+
+
+                                                       Título de Técnico Superior en Mantenimiento Electrónico, establecido por el
+                                                       Real Decreto 1578/2011, de 4 de noviembre, por el que se establece el título de
+                                                       Técnico Superior en Mantenimiento Electrónico y se fijan sus enseñanzas
+                                                       mínimas.
+
+
+
+                                                       Título de Técnico Superior en Automatización y Robótica Industrial,
+                                                       establecido por el Real Decreto 1581/2011, de 4 de noviembre, por el que se
+                                                       establece el título de Técnico Superior en Automatización y Robótica
+                                                       Industrial y se fijan sus enseñanzas mínimas.
+
+
+                                                       Técnico Superior en Electromedicina Clínica, establecido por el Real Decreto
+                                                       838/2015, de 21 de septiembre, por el que se establece el título de Técnico
+                                                       Superior en Electromedicina Clínica y se fijan los aspectos básicos del
+                                                       currículo.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 29 de 32
+
+                                                       Técnico Superior en Construcciones Metálicas, establecido por el Real Decreto
+                                                       174/2008, de 8 de febrero, por el que se establece el título de Técnico Superior
+                                                       en Construcciones Metálicas y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Desarrollo de Proyectos de Instalaciones
+                                                       Térmicas y de Fluidos, establecido por el Real Decreto 219/2008, de 15 de
+                                                       febrero, por el que se establece el título de Técnico Superior en Desarrollo de
+                                                       Proyectos de Instalaciones Térmicas y de Fluidos y se fijan sus enseñanzas
+                                                       mínimas.
+
+                                                       Título de Técnico Superior en Mantenimiento de Instalaciones Térmicas y de
+                                                       Fluidos, establecido por el Real Decreto 220/2008, de 15 de febrero, por el que
+                                                       se establece el título de Técnico Superior en Mantenimiento de Instalaciones
+                                                       Térmicas y de Fluidos y se fijan sus enseñanzas mínimas.
+                     Modelado de la
+                    información en la                  Título de Técnico Superior en Eficiencia Energética y Eficiencia Solar Térmica,
+                       construcción                    establecido por el Real Decreto 1177/2008, de 11 de julio, por el que se
+                          (BIM)                        establece el título de Técnico Superior en Eficiencia Energética y Energía
+                                                       Solar Térmica y se fijan sus enseñanzas mínimas.
+                               (GS)
+                                                       Título de Técnico Superior en Proyectos de Edificación, establecido por el Real
+                                                       Decreto 690/2010, de 20 de mayo, por el que se establece el título de Técnico
+                                                       Superior en Proyectos de Edificación y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                       establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                       establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                       Automatizados y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Centrales Eléctricas, establecido por el Real
+                                                       Decreto 258/2011, de 28 de febrero, por el que se establece el título de Técnico
+                                                       Superior en Centrales Eléctricas y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Energías Renovables, establecido por el Real
+                                                       Decreto 385/2011, de 18 de marzo, por el que se establece el título de Técnico
+                                                       Superior en Energías Renovables y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Proyectos de Obra Civil, establecido por el Real
+                                                       Decreto 386/2011, de 18 de marzo, por el que se establece el título de Técnico
+                                                       Superior en Proyectos de Obra Civil y se fijan sus enseñanzas mínimas.
+                                                       Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                       establecido por el Real Decreto 883/2011, de 24 de junio, por el que se establece
+                                                       el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                       Informáticos y se fijan sus enseñanzas mínimas.
+                                                       Título de Técnico Superior en Sistemas Electrotécnicos y Automatizados,
+                                                       establecido por el Real Decreto 1127/2010, de 10 de septiembre, por el que se
+                                                       establece el título de Técnico Superior en Sistemas Electrotécnicos y
+                                                       Automatizados y se fijan sus enseñanzas mínimas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                  Folio 30 de 32
+
+
+                                                       Título de Técnico Superior en Centrales Eléctricas, establecido por el Real
+                                                       Decreto 258/2011, de 28 de febrero, por el que se establece el título de Técnico
+                                                       Superior en Centrales Eléctricas y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Energías Renovables, establecido por el Real
+                     Modelado de la                    Decreto 385/2011, de 18 de marzo, por el que se establece el título de Técnico
+                    información en la                  Superior en Energías Renovables y se fijan sus enseñanzas mínimas.
+                       construcción
+                          (BIM)                        Título de Técnico Superior en Proyectos de Obra Civil, establecido por el Real
+                                                       Decreto 386/2011, de 18 de marzo, por el que se establece el título de Técnico
+                               (GS)                    Superior en Proyectos de Obra Civil y se fijan sus enseñanzas mínimas.
+
+                                                       Título de Técnico Superior en Sistemas de Telecomunicaciones e Informáticos,
+                                                       establecido por el Real Decreto 883/2011, de 24 de junio, por el que se establece
+                                                       el título de Técnico Superior en Sistemas de Telecomunicaciones e
+                                                       Informáticos y se fijan sus enseñanzas mínimas.
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                                     Folio 31 de 32
+
+                                                                                    ANEXO IV
+
+                                        SOLICITUD DE PLAZA CURSOS DE ESPECIALIZACIÓN
+                                                    (GRADO E, NIVELES 2 Y 3)
+                                                        CURSO 2025/2026
+
+           1                                          DATOS PERSONALES DEL ALUMNO/A SOLICITANTE:
+                             NOMBRE                                             1ºAPELLIDO                                  2º APELLIDO
+
+
+
+                      DNI/NIE/PASAPORTE                            TELÉFONO                   CIAL                   CORREO ELECTRÓNICO:
+
+
+
+           2                    DATOS DEL PADRE/MADRE O TUTOR/A DEL SOLICITANTE: (En caso de ser menor de edad)
+                             NOMBRE                                            1º APELLIDO                                  2º APELLIDO
+
+
+
+                      DNI/NIE/PASAPORTE                                         TELÉFONO                             CORREO ELECTRÓNICO
+
+
+
+           3                                                   DOMICILIO HABITUAL DEL ALUMNO/A
+                              CALLE                                          Nº/PISO/PUERTA                                 LOCALIDAD
+
+
+
+                            MUNICIPIO                                        CÓDIGO POSTAL                                  PROVINCIA
+
+
+
+           4                        CENTRO EDUCATIVO                                                      ESTUDIO: GRADO E
+
+
+          5 DATOS ACADÉMICOS DEL ALUMNO O ALUMNA. DOCUMENTACIÓN QUE APORTA:                                                                    SI   NO
+
+          Certificado académico con la nota media del título con el que solicita plaza (solo en caso de que no haya cursado el estudio en el
+          centro que solicita plaza).
+
+          Certificación oficial de discapacidad del organismo público competente.
+
+          Certificación de Deportista de alto nivel o alto rendimiento
+
+          La persona firmante de la presente solicitud declara bajo su responsabilidad que los datos contenidos en la misma son ciertos.
+
+
+
+
+          Fdo: interesado/a si es mayor de edad/padre/madre/tutor/a legal:
+               DNI:____________________________
+
+
+                 Protección de datos:
+                 Los datos personales recogidos serán tratados exclusivamente a efectos de gestión educativa, con las
+                 garantías previstas en la disposición adicional vigésimotercera de la Ley Orgánica 2/2006, de 3 de mayo,
+                 de Educación. El órgano responsable de los ficheros es la Consejería de Educación, Formación Profesional,
+                 Actividad Física y Deportes del Gobierno de Canarias. Los interesados podrán acudir al centro en el que se
+                 haya formalizado la matrícula de Formación Profesional, para ejercer los derechos de acceso, rectificación,
+                 cancelación y oposición, en los términos establecidos en la Ley Orgánica 3/2018, de 5 de diciembre, de
+                 Protección de Datos Personales y garantía de los derechos digitales. Información adicional:
+                 https://www.gobiernodecanarias.org/protecciondedatos/registrotratamiento/eucd/ceucd/Admision-del-
+                 alumnado/
+
+
+
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+                                                                                                                              Folio 32 de 32
+
+
+
+                                                                                           ANEXO V
+                                                    CALENDARIO DEL PROCEDIMIENTO DE ADMISIÓN Y
+                                                       MATRÍCULA CURSOS DE ESPECIALIZACIÓN
+                                                              (GRADO E, NIVELES 2 Y 3)
+                                                                  CURSO 2025/2026
+
+                                            PERIODO                                                         ACTIVIDAD
+
+                                 Del 23 de junio al 07 de julio                            Periodo de solicitud de plazas para los Grados E.
+
+
+                                             14 de julio                             Publicación de las listas provisionales de admitidos, reserva y
+                                                                                                                excluidos.
+
+                                       14, 15 y 16 de julio                         Plazo de reclamación/subsanación a las listas provisionales en el
+                                                                                              mismo centro donde se presentó la solicitud.
+
+                                             21 de julio                              Publicación de las listas definitivas de admitidos, reserva y
+                                                                                     excluidos en los centros educativos donde se imparte el curso
+                                                                                                     de especialización (Grado E).
+
+                                 Del 21 de julio al 28 de julio                               Plazo de matrícula para alumnado admitido.
+
+                                                                                       Plazo para enviar por registro a la Dirección General de
+                                             29 de julio                             Formación Profesional y Enseñanzas de Régimen Especial la
+                                                                                              certificación con los datos de matrícula.
+
+
+
+
+Este documento ha sido firmado electrónicamente por:
+CAROLINA LEON MARTINEZ - DIRECTORA GRAL DE FORMACIÓN PROF. Y EDUCACIÓN ADULTOS                                                              Fecha: 09/06/2025 - 13:10:59
+Este documento ha sido registrado electrónicamente:
+RESOLUCION - Nº: 305 / 2025 - Tomo: 1 - Libro: 570 - Fecha: 09/06/2025 13:46:41                                                             Fecha: 09/06/2025 - 13:46:41
+
+En la dirección https://sede.gobiernodecanarias.org/sede/verifica_doc?codigo_nde=
+puede ser comprobada la autenticidad de esta copia, mediante el número de
+documento electrónico siguiente:
+ RP001-000f/cNwSyuO8lxYx1YY8gsig==
+El presente documento ha sido descargado el 09/06/2025 - 13:47:08
+

@@ -1,0 +1,25 @@
+id: CHUNK-00001
+origen_tipo: "norma"
+origen_id: NOR-001
+titulo: "LOE — objeto general"
+texto: >
+  La LOE es la norma marco del sistema educativo español y debe consultarse en su texto consolidado oficial. En Canarias actúa como base estatal sobre la que se apoyan normas autonómicas y curriculares.
+metadatos:
+  ambito: "estatal"
+  etapa: [transversal]
+  temas: [curriculo, evaluacion]
+  estado_vigencia: "Vigente con modificaciones"
+  fuente: FTE-005
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+  fecha_consulta: 2026-04-25
+  fecha_analisis: 2026-04-25
+  localizacion: "Título preliminar"
+relaciones:
+  normas: [NOR-002, NOR-003, NOR-004]
+  curriculos: []
+  chunks_relacionados: [CHUNK-00002]
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+nivel_evidencia: "confirmado-fuente-primaria"

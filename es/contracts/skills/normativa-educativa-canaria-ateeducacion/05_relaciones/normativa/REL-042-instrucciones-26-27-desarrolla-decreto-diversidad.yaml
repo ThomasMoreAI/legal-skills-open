@@ -1,0 +1,11 @@
+id: REL-042
+tipo_relacion: "desarrolla"
+origen: NOR-041
+destino: NOR-024
+descripcion: "Las instrucciones dictadas para el curso 2026-2027 concretan la aplicación del Decreto 25/2018 en los centros educativos."
+evidencia:
+  fuente: FTE-044
+  localizacion: "Instrucción primera de la Resolución n.º 584/2026."
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Normativa de gestión anual indispensable para la interpretación práctica del decreto de diversidad."

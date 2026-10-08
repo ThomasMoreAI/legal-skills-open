@@ -1,0 +1,42 @@
+schema_version: 1
+skill: espropriazione-pubblica-utilita-dpr327
+last_verified: 2026-07-17
+
+# Fonte per le FASI del procedimento espropriativo, la DICHIARAZIONE DI PUBBLICA UTILITÀ, la
+# determinazione dell'INDENNITÀ (provvisoria/urgente), l'OCCUPAZIONE D'URGENZA, il DECRETO DI
+# ESPROPRIO e l'ACQUISIZIONE SANANTE. Fonte: D.P.R. 8 giugno 2001, n. 327 (T.U. espropriazione).
+
+sources:
+  - id: dpr-327-2001-artt-8-12-20-22-22bis-23-42bis
+    title: "D.P.R. 8 giugno 2001, n. 327 - artt. 8, 12, 20, 22, 22-bis, 23, 42-bis (T.U. espropriazione per pubblica utilità) (testo vigente al 2026-07-17)"
+    type: dpr
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-08;327!vig=2026-07-17
+    accessed: 2026-07-17
+    sha256: b52bf6e1a58840619595d43710b82ec72f45c8d01bf33f7cc26540fdbfbf4abd
+    license: public-domain
+    binary_path: not_in_repo/dpr327.html
+    md_path: references/fonti/dpr-327-2001-artt-8-12-20-22-22bis-23-42bis.md
+    excerpt_path: references/estratti/espropriazione-checklist.md
+    notes: |
+      Codice redazionale 001G0372 (G.U. 16 agosto 2001). Pagina indice Normattiva pinnata a
+      !vig=2026-07-17 (hash stabile, doppio download: b52bf6e1...). Articoli caricati via AJAX
+      (caricaArticolo, dataPubblicazioneGazzetta 2001-08-16) e trascritti verbatim in
+      references/fonti/dpr-327-2001-artt-8-12-20-22-22bis-23-42bis.md:
+      - Art. 8 (v1, grp2): fasi del procedimento (vincolo preordinato all'esproprio + dichiarazione
+        di pubblica utilità + indennità anche provvisoria come presupposti del decreto).
+      - Art. 12 (v2, grp4): atti che comportano la dichiarazione di pubblica utilità (approvazione
+        del progetto definitivo o di piani; equivalenze; varianti; efficacia).
+      - Art. 20 (v4, grp7): determinazione provvisoria dell'indennità (elenco beni entro 30 gg,
+        notifica, osservazioni, condivisione irrevocabile, acconto 80%, cessione volontaria,
+        deposito Cassa DD.PP., decreto).
+      - Art. 22 (v3, grp7): determinazione urgente dell'indennità provvisoria (urgenza; casi L.
+        443/2001 e > 50 destinatari; pagamento entro 60 gg; opposizione alla stima).
+      - Art. 22-bis (v2, grp7, idSottoArticolo 2): occupazione d'urgenza preordinata all'esproprio
+        (decreto motivato, immissione in possesso entro 3 mesi, indennità di occupazione, decadenza).
+      - Art. 23 (v2, grp8): contenuto ed effetti del decreto di esproprio (elementi a-h, passaggio
+        di proprietà sotto condizione, notifica almeno 7 gg prima, trascrizione, pubblicazione).
+      - Art. 42-bis (v1, grp14, idSottoArticolo 2): utilizzazione senza titolo / acquisizione
+        sanante (indennizzo, forfait 10% pregiudizio non patrimoniale, 20% per ERP, Corte dei conti).
+      LIMITE DI RESA (Regola zero): i criteri di STIMA dell'indennità (valore venale, aree
+      edificabili/agricole - artt. 37, 40, 45) non sono riprodotti; artt. 9-11, 13, 21, 24 citati e
+      non trascritti. La skill inquadra le fasi/presupposti procedurali e non determina gli importi.

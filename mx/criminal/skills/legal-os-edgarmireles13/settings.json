@@ -1,0 +1,28 @@
+{
+  "env": {
+    "OLLAMA_API_KEY": "ollama"
+  },
+  "model": {
+    "name": "gemma4:26b"
+  },
+  "modelProviders": {
+    "openai": [
+      {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "envKey": "OLLAMA_API_KEY",
+        "id": "gemma4:26b",
+        "name": "gemma4:26b (Ollama)"
+      }
+    ]
+  },
+  "security": {
+    "auth": {
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "selectedType": "openai"
+    }
+  },
+  "$version": 4,
+  "ui": {
+    "autoModeAcknowledged": true
+  }
+}

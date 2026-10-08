@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-administrative",
+  "displayName": "Administrative Procedure & Public Services — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/transparencia-joselito412"
+  ]
+}

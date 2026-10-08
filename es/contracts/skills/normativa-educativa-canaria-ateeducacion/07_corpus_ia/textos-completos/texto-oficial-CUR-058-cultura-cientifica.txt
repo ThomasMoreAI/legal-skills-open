@@ -1,0 +1,767 @@
+ID interno: CUR-058
+Título oficial: Cultura Científica — 1.º Bachillerato
+Fuente oficial: FTE-012 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.pdf
+URL de acceso oficial: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+CULTURA CIENTÍFICA
+Introducción
+En la sociedad actual se pone en cuestión el saber científico y sus metodologías. Las herramientas  
+digitales han traído consigo un exceso de información y una rapidez en su difusión, que en la  
+mayoría de las ocasiones no es contrastada por falta de tiempo o bien por falta de cultura científica,  
+y  es  aquí  donde  materias  optativas  como  esta,  tienen  un  papel  fundamental  en  el  currículo  
+LOMLOE. La posibilidad de que el alumnado de Bachillerato de cualquier opción curse esta  
+materia es una oportunidad para dotarlo de la capacidad de análisis y de pensamiento crítico y  
+analítico que le ayude a la hora de tomar decisiones y poner en cuestión corrientes como las de las  
+pseudociencias. Por ello es importante mostrar, continuamente, escenarios reales y aplicaciones  
+directas de los contenidos expuestos, con el fin de que el alumnado valore la necesidad de contar  
+con conocimientos científicos en su vida cotidiana.
+En el siglo XXI la humanidad se enfrenta a grandes retos y su superación pasa por que ciencia y  
+humanismo vayan de la mano. Es, por ello, que en las competencias específicas de la materia de  
+Cultura Científica se pone especial interés en el trabajo de los valores que pueden vincularse al  
+conocimiento  científico  y  tecnológico;  en  el  trabajo  cooperativo,  que  es  imprescindible  en  la  
+generación  del  saber;  en  que  el  alumnado  sea  capaz  de  debatir  las  ideas  y  buscar  puntos  de 
+encuentro a través del diálogo y el respeto; o en buscar soluciones a problemas de carácter científico 
+que afectan a otras comunidades, como puede ser la sobreexplotación de recursos para el desarrollo  
+de nuevas tecnologías, las hambrunas, las enfermedades raras… En definitiva, hay multitud de  
+cuestiones que requieren de la empatía para comprender la realidad de la otra persona. Buscar,  
+seleccionar y discernir la información con rigor científico, comunicar de manera eficaz los logros  
+obtenidos o las dificultades encontradas son, también, capacidades fundamentales que se trabajan en 
+la materia de Cultura Científica y que hacen de ella un espacio fundamental para la puesta en acción  
+de saberes, no solo del campo de la ciencia y la tecnología, sino del resto de materias.
+Actualmente, la sucesión de acontecimientos cuyas soluciones dependen de los progresos de la  
+ciencia y la tecnología, como son la crisis energética, las pandemias, el cambio climático, la escasez  
+de recursos, han venido a ratificar que es imprescindible el avance científico para la transformación  
+de la sociedad, y para ello, además de una comunidad científica de nivel, es importante contar con  
+una ciudadanía responsable y formada en estos campos del saber. Las tecnologías digitales han  
+provocado cambios profundos en la vida cotidiana de las personas y en su forma de aprender,  
+comunicarse y manejar información, por lo que es necesario que el alumnado adopte medidas para  
+usarlas de forma crítica, responsable, segura, saludable y sostenible.
+El  archipiélago  canario  ofrece  múltiples  posibilidades  de  progreso,  algunas  derivadas  de  sus  
+características geográficas, como es el caso del clima y las corrientes marinas que son fuentes  
+importantes de energías renovables; y otras, de los institutos de investigación y universidades que  
+son auténticos viveros de conocimiento científico, como por ejemplo los vinculados a la economía  
+azul. El alumnado debe conocer estos recursos y otros muchos para contemplar la ciencia que se  
+hace en Canarias como un horizonte de futuro laboral, económico y social.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque  
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la  
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y  
+76
+
+=== Página 2 ===
+
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como  
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su  
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una  
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+Los objetivos de etapa se encuentran recogidos en el art. 21 del Decreto 30/2023, de 16 de marzo,  
+por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del  
+Bachillerato  en  la  Comunidad  Autónoma  de  Canarias  y  para  su  correcta  identificación  se  
+referencian con la letra correspondiente entre paréntesis. 
+El currículo de la materia Cultura Científica contribuye a la consecución de todos de los objetivos  
+de la etapa desde las competencias específicas, los criterios de evaluación y los saberes básicos.
+La materia de Cultura Científica está directamente relacionada con la consecución de los objetivos  
+(h),  (i)  y  (j),  al  abordar  los  aprendizajes  a  través  de  procedimientos  fundamentales  de  la  
+investigación y de los métodos científicos para comprender los grandes problemas con los que se  
+enfrenta actualmente la humanidad y contribuir a la mejora de su entorno natural y social. La  
+relación entre la ciencia, la tecnolog ía, la sociedad y el medioambiente permite reflexionar sobre la  
+actual situación de emergencia socio-climática, con el fin de generar una actitud comprometida y  
+responsable  en  la  lucha  contra  el  cambio  climático  y  en  defensa  del  desarrollo  sostenible,  
+contribuyendo, de esta manera, a los objetivos (m), (n) y (o).
+Por otro lado, esta materia favorece que el alumnado adquiera conocimientos y valores para tomar  
+decisiones  reflexivas  sobre  temas  cient ífico-técnicos  de  incuestionable  trascendencia  social  y  
+resuelva  los  conflictos  de  manera  pacífica,  para  as í  poder  participar  democr áticamente  en  la 
+sociedad y avanzar hacia un futuro basado en la sostenibilidad de la humanidad. Además, fomenta  
+una igualdad efectiva de derechos y oportunidades a hombres y mujeres, a través del conocimiento  
+de la biografía de las personas que se han dedicado a la ciencia y la tecnología en el pasado y en la  
+actualidad en Canarias, mencionando ejemplos de mujeres relevantes en las disciplinas citadas.  
+Asimismo, la materia de Cultura Científica presta especial atención al análisis y valoración de las  
+desigualdades existentes, como la brecha digital de género, haciendo propuestas para su reducción,  
+con lo que se promueve, de esta manera, la adquisición de los objetivos (a), (b) y (c).
+El uso de las metodologías científicas requiere de la movilizaci ón de destrezas y habilidades para  
+plantearse  preguntas,  acceder  a  información  fidedigna,  seleccionarla,  interpretarla,  integrarla  y  
+contrastarla,  y  comunicar  con  corrección,  de  forma  oral,  escrita  y  multimodal,  las  principales 
+conclusiones extraídas. Para ello, es fundamental la lectura y comprensi ón de textos divulgativos y  
+científicos en distintas lenguas. De este modo, desde la materia se contribuye al desarrollo de los  
+objetivos (d), (e), (f) y (l). 
+Por otro lado, la materia favorece el espíritu emprendedor, actitudes de creatividad e iniciativa y el  
+sentido  crítico  mediante  el  trabajo  en  equipo  y  la  utilización  responsable  de  las  tecnologías  
+digitales, contribuyendo así a los objetivos (g) y (k).
+77
+
+=== Página 3 ===
+
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado  
+conforme  a  los  descriptores  operativos  establecidos  en  la  progresión  del  Perfil  de  salida  del  
+alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de  
+las competencias clave para el Bachillerato.
+La contribución de esta materia a la Competencia en comunicación lingüística (CCL) se realiza a  
+través de la interpretación, elaboración y transmisión de ideas e información sobre los fenómenos  
+científico-tecnológicos donde se explicitan relaciones entre conceptos, se describen observaciones y  
+procedimientos experimentales, se discuten ideas, hipótesis o teorías, y se comunican resultados y  
+conclusiones en el marco del estudio de la ciencia, la tecnología, la sociedad y el medioambiente.  
+Esto  requiere  precisión  y  el  uso  de  vocabulario  científico  en  los  términos  utilizados,  el  
+encadenamiento adecuado de las ideas y la coherencia en la expresión oral o escrita en las distintas  
+producciones  (biografías  científicas,  planteamiento  y  resolución  de  problemas,  exposiciones...), 
+siendo para ello, el desarrollo y adquisición de la competencia en alfabetización informacional  
+imprescindible de cara a la correcta comunicación del trabajo científico.
+El  conocimiento  científico-tecnológico  está  en  constante  generación.  Se  publican  artículos  
+científicos a diario en diferentes idiomas, sobre todo en inglés, al ser el idioma universal de las  
+ciencias, que vienen a ampliar o sustituir las ideas afirmadas tiempo atrás. Dichas publicaciones  
+pueden tardar semanas en traducirse, por lo que para su estudio en el aula, el alumnado deberá ser  
+capaz de comprenderlas, con lo que, además de actualizar la información, estará desarrollando la  
+Competencia plurilingüe (CP).
+Este currículo contribuye al desarrollo de la Competencia matemática y competencia en ciencia,  
+tecnología e ingeniería (STEM), al posibilitar una comprensión del mundo utilizando los métodos  
+científicos, el pensamiento y la representación matemáticos, la tecnología y los métodos de la  
+ingeniería,  para  transformar  el  entorno  de  forma  comprometida,  responsable  y  sostenible.  Se  
+fomenta la adquisición de destrezas propias de las metodologías científicas: la capacidad de indagar, 
+de  enunciar  preguntas,  de  identificar  problemas,  de  formular  hipótesis,  para,  a  posteriori,  
+contrastarlas mediante la observación, la toma de datos, la búsqueda, selección y organización de  
+información, la sistematización y análisis de los resultados, la obtención de conclusiones y la  
+comunicación…  Se  trata  de  aplicar  estas  estrategias  a  la  resolución  de  problemas  de  carácter 
+científico que afectan a la sociedad, contribuyendo así a poner en valor el conocimiento científico y  
+tecnológico como fuente de progreso social.
+La contribución de la materia de Cultura Científica al desarrollo de la Competencia digital (CD) se  
+evidencia a través de la utilización de las tecnologías digitales para la búsqueda, la selección, el  
+tratamiento  y  la  presentación  de  la  información  como  procesos  básicos  vinculados  al  trabajo  
+científico, así como para simular y visualizar fenómenos de difícil observación y experimentación.  
+Además, la adquisición de la Competencia digital desarrolla destrezas imprescindibles en el campo  
+de las ciencias experimentales, e incluye el uso crítico, creativo, ético y seguro de los canales de  
+comunicación y de las fuentes de información consultadas.
+La Competencia personal, social y de aprender a aprender (CPSAA) es inherente a la forma de  
+construir el conocimiento científico. Las estrategias propias de las metodologías científicas están  
+íntimamente  ligadas  al  planteamiento  de  interrogantes,  su  análisis  y  el  establecimiento  de  
+secuencias de tareas dirigidas a la consecución de un objetivo, la determinación de un método de  
+trabajo, la distribución de tareas cuando sean compartidas y, finalmente, la toma de conciencia  
+78
+
+=== Página 4 ===
+
+sobre la eficacia del proceso seguido, lo que favorece el desarrollo de destrezas tales como la  
+capacidad de gestionar el tiempo, los recursos y la información eficazmente; de colaborar con otras  
+personas de forma constructiva; de hacer frente a la incertidumbre y a la complejidad; de adaptarse  
+a los cambios; de aprender a gestionar los procesos metacognitivos... Todas estas habilidades se  
+ponen  en  acción  cuando  el  alumnado  desarrolla  proyectos  de  carácter  científico  de  forma  
+cooperativa, que le llevan a buscar alternativas y soluciones creativas a problemas relacionados con  
+los saberes de la materia.
+La aportación de Cultura Científica a la Competencia ciudadana (CC) está ligada a dos aspectos  
+fundamentales.  En  primer  lugar,  la  alfabetización  científica  de  la  ciudadanía  permitirá  su  
+participación en la toma fundamentada de decisiones frente a problemas de interés que suscitan el  
+debate social, desde la astrobiología, biomedicina e ingeniería genética, hasta aspectos relacionados  
+con la salud, el medioambiente o el desarrollo sostenible. En segundo lugar, con Cultura Científica  
+se hará una reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y sobre el  
+desarrollo de un estilo de vida sostenible, acorde con los Objetivos de Desarrollo Sostenible y  
+concretados en la Agenda Canaria de Desarrollo Sostenible 2030. La finalidad última del trabajo de  
+esta competencia en la materia será el fomento del compromiso activo con la sostenibilidad del  
+planeta y el logro de una ciudadanía mundial ecosocialmente responsable.
+La materia contribuye también al desarrollo de la Competencia emprendedora (CE), al usar el  
+conocimiento científico necesario para plantear soluciones de valor a los actuales problemas de  
+carácter social y científico a los que se enfrenta la humanidad. Así, cuestiones como la situación de  
+emergencia climática, las limitaciones de los recursos naturales, los problemas asociados a la huella  
+digital, la infoxicación, entre otras, deben abordarse en el aula para desarrollar en el alumnado el  
+conocimiento  científico  y  tecnológico,  crear  y  replantear  ideas  utilizando  la  imaginación,  la  
+creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva, y despertando la  
+disposición a aprender, a arriesgar y a afrontar la incertidumbre.
+Cultura Científica facilita la adquisición de la Competencia en conciencia y expresión culturales  
+(CCEC), ya que la exposición de datos, el diseño de experiencias, la comunicación de conclusiones  
+de los trabajos de investigación, la expresión de las propias ideas..., requieren la elaboración de  
+producciones (esquemas, paneles, presentaciones en diferentes formatos…), que dan la oportunidad  
+al alumnado de desarrollar su creatividad y de innovar, vinculando de esta forma las disciplinas  
+científica y artística y demostrando que, en definitiva, la ciencia y la tecnolog ía son parte esencial  
+de la cultura y que no hay cultura sin un mínimo conocimiento científico y tecnológico. Igualmente, 
+la indagación sobre los principales centros de investigación de Canarias y figuras referentes de la  
+ciencia canaria implica también la valoración como parte del patrimonio natural, social y cultural de  
+las islas.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las  
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los  
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión  
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de  
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el  
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de  
+79
+
+=== Página 5 ===
+
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y  
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las  
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la  
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias  
+específicas como de las competencias clave; y ofrecen, además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de  
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques  
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la  
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Cultura Científica se han establecido cinco competencias específicas que se  
+concretan en un total de dieciséis criterios de evaluación. Estos criterios de evaluación presentan  
+una  marcada  naturaleza  competencial,  de  manera  que  se  relacionan  directamente  con  los  
+descriptores  operativos  del  perfil  de  salida  a  los  que  contribuye  la  competencia  específica,  
+expresando tanto las capacidades y los saberes a adquirir, como el contexto y modo de aplicación de 
+dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.  
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+Con  el  desarrollo  de  esta  competencia  específica,  se  persigue  que  el  alumnado  adquiera  las  
+destrezas necesarias para buscar, seleccionar e interpretar información de carácter científico, extraer  
+las ideas más relevantes y comunicarlas de manera clara y con rigor, defendiendo a través de una  
+argumentación  sólida  la  propia  postura,  pero  manteniendo,  a  su  vez,  una  actitud  flexible  y  
+respetuosa ante la opinión de las demás personas. 
+Esta competencia está asociada a tres criterios de evaluación que tratan sobre el análisis crítico de  
+conceptos relacionados con los saberes de la materia y la interpretación de la información para  
+obtener las ideas más relevantes y elaborar conclusiones que puedan ser comunicadas haciendo uso  
+de diferentes formatos y con una argumentación razonada, abierta y flexible.
+Competencia específica 2 (C2)
+Esta competencia específica se centra en la búsqueda de fuentes fiables. Actualmente, estamos  
+asistiendo a una vorágine de información, conviviendo la información veraz con bulos, teorías  
+conspiratorias e informaciones incompletas o pseudocientíficas, que, en muchos casos, no puede ser  
+contrastada por falta de tiempo o bien de destrezas para ello. Esta competencia pretende dotar al  
+alumnado de la capacidad de evaluar críticamente la información y utilizarla con rigurosidad a  
+través del uso de diferentes plataformas digitales de búsqueda y comunicación. 
+Esta competencia se detalla en tres criterios de evaluación, los dos primeros tienen que ver con la  
+búsqueda y selección de información de rigor, contrastando la veracidad y la fiabilidad de las  
+fuentes para explicar los procesos científico-técnicos; y el tercero hace referencia a la puesta en  
+valor del papel de la ciencia y de las personas que se dedican a ella, con especial atención a la labor  
+de la mujer en el avance de la sociedad.
+Competencia específica 3 (C3)
+80
+
+=== Página 6 ===
+
+El fin que persigue el desarrollo de esta competencia específica es aplicar las destrezas propias del  
+trabajo científico con rigor; y el empleo de los procedimientos, materiales e instrumentos necesarios  
+para  la  ejecución  de  proyectos  de  investigación  que  lleven  al  alumnado  a  generar  su  propio  
+aprendizaje de manera sólida y fundamentada, desarrollando destrezas y actitudes para el trabajo  
+cooperativo, el análisis crítico, la curiosidad, el espíritu crítico y emprendedor y la mejora de la  
+resiliencia necesaria para desenvolverse frente a situaciones de incertidumbre y afrontar diferentes  
+retos,  proponiendo  soluciones  innovadoras  a  los  actuales  problemas  a  los  que  se  enfrenta  el  
+territorio canario. 
+Esta  competencia  se  materializa  en  cuatro  criterios  de  evaluación,  los  tres  primeros  están  
+directamente relacionados con procesos vinculados a la ejecución de proyectos de investigación,  
+como son plantearse preguntas y buscar respuestas a través de la observación y de la recopilación de 
+información en fuentes diversas…, y comunicar de manera eficaz los resultados; y el cuarto criterio  
+se refiere a la necesidad de establecer colaboraciones, valorando la importancia de la cooperaci ón 
+en la investigación y respetando la diversidad y favoreciendo la inclusión.
+Competencia específica 4 (C4)
+Esta competencia específica profundiza en las estrategias para la resolución de problemas y en la  
+búsqueda de explicaciones coherentes a diferentes fenómenos, no solo en contextos científicos, sino 
+también en contextos de la vida cotidiana, desarrollando en el alumnado destrezas y actitudes para  
+el trabajo cooperativo, el análisis, la curiosidad y el espíritu crítico y emprendedor, y mejorando así  
+la  resiliencia  necesaria  para  desenvolverse  frente  a  situaciones  de  incertidumbre  y  afrontar  
+diferentes retos. 
+Esta competencia específica se concreta en dos criterios que detallan los procesos que conlleva la  
+resolución  de  problemas,  la  búsqueda  de  explicaciones  y  el  análisis  crítico  de  las  soluciones  
+científico-tecnológicas  a  procesos  biológicos,  geológicos  o  ambientales,  para  colaborar,  
+desenvolverse en situaciones de incertidumbre y participar en los retos sociales del siglo XXI, como 
+el calentamiento global o las desigualdades económicas.
+Competencia específica 5 (C5)
+Esta  competencia  específica  incentiva  al  alumnado  a  participar  en  la  construcción  de  su  
+conocimiento científico, aplicándolo en su entorno cercano al tener que investigar y analizar las  
+consecuencias de determinadas acciones humanas y de los avances científico-tecnológicos sobre el  
+medio y la vida de las personas, al tiempo que propone soluciones innovadoras alternativas en las  
+que se prioriza la preservación del medioambiente y la salud pública, el desarrollo económico  
+sostenible y la búsqueda de una sociedad igualitaria, haciendo especial referencia a la realidad  
+canaria. 
+Esta competencia se materializa a través de cuatro criterios de evaluación que están relacionados  
+con la indagación y el análisis crítico que el alumnado debe llevar a cabo sobre las repercusiones  
+que sus hábitos de vida tienen sobre el medioambiente y las personas, como pueden ser el excesivo  
+consumo de energía lumínica, de internet, de dispositivos electrónicos, de alimentos transgénicos o  
+procesados…, proponiendo alternativas que fomenten estilos de vida sostenibles y saludables a  
+nivel individual, colectivo y local, y argumentando sobre sus efectos positivos y la urgencia de  
+adoptarlos, con el fin de difundir el conocimiento científico y contribuir al logro de los Objetivos de  
+Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030.
+81
+
+=== Página 7 ===
+
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en  
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y  
+secuenciados, a continuación de los mismos.
+Los saberes se organizan en cuatro bloques de aprendizaje: I. «Construyendo ciencia», II. «El  
+Universo y la vida», III. «La revolución genética» y IV . «Los avances tecnológicos y su impacto  
+ambiental».
+Son saberes que, además de tener interés por sí mismos, suponen el contexto ideal para conectar  
+aprendizajes trabajados en otras materias. Su tratamiento debe permitir que el alumnado avance en  
+la adquisición de las ideas más relevantes del conocimiento de la materia de Cultura Científica, en  
+su organización y estructura, como un todo articulado y coherente.
+El Bloque I, «Construyendo ciencia», tiene carácter eminentemente transversal, e incluye saberes de 
+tipo procedimental y actitudinal como la utilización de los conceptos y las técnicas básicas del  
+trabajo  científico:  la  búsqueda,  la  selección,  el  análisis  y  la  interpretación  de  la  información,  
+utilizando diversas fuentes, entre ellas, las tecnologías digitales; la formulación de hipótesis, el  
+diseño y desarrollo de una investigación; la sistematización y el análisis de los resultados: la  
+extracción de conclusiones; y, por último, su comunicación. Todos ellos deben estar presentes de  
+forma contextualizada en el desarrollo de los saberes de tipo conceptual que así lo requieran. En  
+definitiva, deber án ser el instrumento b ásico de trabajo y referente de todos y cada uno de los  
+bloques de saberes durante todo el curso.
+En el Bloque II, «El Universo y la vida», se hace una aproximación al origen de la vida, desde el  
+estudio del universo, donde se tratan aspectos como su génesis, composición y estructura, hasta las  
+teorías evolutivas más relevantes. En este bloque se recogen otros saberes de carácter actitudinal  
+como la necesidad de apreciar, valorar, respetar y proteger la calidad astronómica del cielo de  
+Canarias y los descubrimientos paleontológicos del archipiélago, como recurso científico, pero  
+también como parte del acervo sociocultural.
+En el Bloque III, «La revolución genética», se aborda la importancia biológica del ADN, así como  
+los acontecimientos más relevantes en el estudio de la genética y sus aplicaciones médicas a través  
+de su utilidad y relevancia, relacionándolo, a su vez, con la salud y el medioambiente. Además, se  
+consideran  los  límites  de  la  investigación  científica  y  los  principios  bioéticos,  analizando  las  
+posibles  repercusiones  morales,  sociales  y  culturales  que  conllevan  la  utilización  de  los  
+conocimientos aportados por la genética molecular en los últimos tiempos.
+Finalmente, en el Bloque IV , «Los avances tecnológicos y su impacto ambiental», se estudia la  
+transformación tecnológica de la sociedad moderna, sus consecuencias para la salud individual y  
+colectiva, y su relación con la actual situación de emergencia socio-climática. Con esto, se pretende  
+que el alumnado sea capaz de poner en valor los beneficios aportados por estos avances, pero sin  
+dejar de cuestionar los costes de carácter ambiental y social que generan, y de proponer y adoptar  
+estilos de vida sostenibles y saludables, con el fin de convertirse en agentes activos y promotores de  
+la difusión del pensamiento científico y de la preservación del medioambiente y la salud pública,  
+contribuyendo así al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda  
+Canaria de Desarrollo Sostenible 2030.
+82
+
+=== Página 8 ===
+
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en  
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,  
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y  
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por  
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la  
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar 
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice  
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con 
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que  
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del  
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+El diseño de las situaciones de aprendizaje debe partir de los criterios de evaluación e integrar los  
+distintos  elementos  curriculares  de  la  materia  mediante  tareas  y  actividades  competenciales,  
+significativas  y  relevantes,  que  generen  aprendizajes  transferibles  y  duraderos,  y  fomenten  la  
+conexión emocional con el entorno, la sociedad y la cultura del territorio insular canario, así como  
+con el planeta en el que vivimos.
+La materia de Cultura Científica debe orientarse a fomentar la curiosidad y el interés del alumnado  
+sobre temas científicos que afectan a su vida diaria, de modo que les dote de herramientas de  
+pensamiento para enfocar la realidad física, natural y tecnológica con una mirada crítica y ética, con  
+el fin de ayudarlo a ejercer una ciudadanía responsable y proactiva frente a la desinformación en la  
+que la sociedad actual está inmersa. Por ello, es importante mostrar continuamente escenarios reales  
+y aplicaciones directas de los saberes expuestos, con el fin de que el alumnado valore la necesidad  
+de contar con conocimientos científicos en su vida cotidiana.
+Asimismo,  es  importante  que  en  todas  las  situaciones  de  aprendizaje  se  incorpore  el  Dise ño 
+Universal para el Aprendizaje (DUA), con el fin de lograr una inclusión real en el aula, que tenga en 
+cuenta  los  diferentes  ritmos  de  aprendizaje,  las  diferentes  capacidades  y  la  diversidad  de  
+motivaciones, mediante el uso de recursos diversos y accesibles, el dise ño de experiencias en las  
+que  todo  el  alumnado  pueda  demostrar  lo  aprendido  y  la  aplicación  de  metodologías  activas  
+(Aprendizaje  basado  en  proyectos,  Aprendizaje  cooperativo,  Aprendizaje-servicio,  Aprendizaje  
+basado en problemas, Design thinking, Aprendizaje basado en el pensamiento...). 
+La materia Cultura Científica se debe basar en la investigación como elemento clave, lo que supone, 
+plantear preguntas, anticipar respuestas o hipótesis para su comprobación, tratar distintas fuentes de  
+información, identificar los conocimientos previos, realizar experiencias, confrontar lo que se sab ía 
+en  función  de  nuevas  evidencias  experimentales;  usar  herramientas  para  recoger,  analizar  e  
+interpretar  los  datos,  con  la  finalidad  de  proponer  posibles  respuestas,  explicaciones,  
+argumentaciones, demostraciones y comunicar los resultados. Con todo esto se favorece que el  
+alumnado se convierta en el protagonista de la generación significativa de su conocimiento y que,  
+de forma progresiva y guiada por el profesorado, tome conciencia de su proceso de aprendizaje y  
+pueda saber en qué situaciones se siente más competente y en cuáles aún debe mejorar.
+No debemos olvidar que el empleo de las tecnolog ías digitales merece un tratamiento espec ífico en 
+el estudio de esta materia al contar con un bloque de saberes propio (Bloque IV . «Los avances  
+83
+
+=== Página 9 ===
+
+tecnológicos y su impacto ambiental»). Además, el alumnado de primero de Bachillerato está  
+familiarizado  con  la  presentación  y  transferencia  digital  de  información  y  el  uso  de  entornos 
+virtuales de aprendizaje que favorecen el trabajo cooperativo, y que facilitan el uso de vídeos y  
+material  audiovisual,  así  como  con  la  realización  de  experiencias  prácticas  con  aplicaciones  
+virtuales interactivas que, por razones de infraestructura, no serían viables en otras circunstancias.  
+Por otro lado, la posibilidad de acceder a una gran cantidad de información implica la necesidad de  
+clasificarla según criterios de relevancia y rigor, lo que permite desarrollar el espíritu crítico del  
+alumnado, preparándose para poder contribuir a la construcción de una sociedad, más justa, libre y  
+solidaria, en la que los avances científicos y tecnológicos estén al servicio de toda la sociedad.
+La enseñanza de la Cultura Científica debe también ofrecer una ciencia con rostro humano, que  
+introduzca las biografías de personas científicas de relevancia en Canarias, en el resto de España o  
+en el extranjero; en especial, se tendrá en cuenta la contribución de las mujeres a la ciencia,  
+visibilizando y valorando sus aportaciones en los diferentes temas abordados. De este modo, se  
+contribuirá a recuperar su memoria y sus principales aportaciones, relacionando vida y obra con la  
+sociedad de su tiempo, resaltando cuando sea posible los premios Canarias de investigación, o sus  
+líneas y sus centros de trabajo tales como el Instituto Astrofísico de Canarias (IAC), el Instituto  
+Tecnológico de Canarias (ITC), el Instituto Tecnológico de Energías Renovables (ITER), Instituto  
+Universitario de Enfermedades Tropicales y Salud Pública de Canarias (IUETSPC), Instituto de  
+Medicina Legal y Ciencias Forenses (IMLCF), el Instituto Universitario de Bioorgánica Antonio  
+González (IUBO-AG) o el Instituto Canario de Bioantropología.
+Finalmente, cabe destacar que el diseño de las situaciones de aprendizaje debe integrar, desde su  
+inicio, la evaluación y la calificación, prestando una especial atención a la selección de instrumentos 
+de evaluación variados que permitan evidenciar, de forma clara y conjunta, no solo la adquisición  
+de los aprendizajes, sino también el nivel de logro de las competencias vinculadas en los criterios de 
+evaluación, combinando la heteroevaluación llevada a cabo por el profesorado, con momentos de  
+autoevaluación y coevaluación como procesos de reflexión del alumnado sobre su aprendizaje, pero  
+no para su calificación.
+84
+
+=== Página 10 ===
+
+1.º Bachillerato
+Competencia específica
+1.  Interpretar  y  transmitir  información  y  datos  científicos,  argumentando  sobre  estos  con  
+precisión  y  utilizando  diferentes  formatos  para  analizar procesos,  métodos,  experimentos  o  
+resultados relacionados con la ciencia y la tecnología.
+Descriptores operativos de las 
+competencias clave.
+CCL1, CCL2, CCL3, CP2, STEM2, 
+STEM4, CD1, CD3, CPSAA4, CC3, 
+CCEC3.2
+Criterios de evaluación
+1.1.  Analizar  críticamente  conceptos  y  procesos  relacionados  con  los  saberes  de  la  materia,  
+interpretando información en diferentes formatos, para extraer las ideas más relevantes y obtener  
+conclusiones lógicas, t valorando la fiabilidad de las fuentes.
+CCL2, CCL3, CP2, STEM2, STEM4, 
+CD1, CPSAA4
+1.2. Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia o con  
+trabajos cient íficos, transmitiéndolas de forma clara y rigurosa, y utilizando la terminolog ía y el  
+formato adecuados, tanto de forma analógica como a través de herramientas digitales, con el fin de dar  
+respuesta de manera fundamentada a las cuestiones que puedan surgir durante el proceso y crear  
+conocimiento de forma colectiva.
+CCL1, CCL2, STEM2, STEM4, CD3, 
+CC3, CCEC3.2
+1.3. Argumentar sobre aspectos relacionados con los saberes de la materia, defendiendo una postura  
+razonada y con una actitud abierta, flexible, receptiva y respetuosa ante la opinión de otras personas,  
+con la finalidad de desarrollar la resiliencia frente a retos, as í como la flexibilidad para dar un giro a  
+las propias ideas ante argumentos ajenos, respetando la diversidad.
+CCL1, CCL2, STEM2, CPSAA4, CC3, 
+CCEC3.2
+Explicación del bloque competencial
+85
+
+=== Página 11 ===
+
+A través de este bloque competencial, se comprobará si el alumnado es capaz de analizar críticamente conceptos, procesos y experimentos  
+relacionados con los saberes básicos de cualquiera de los bloques de la materia, interpretando información de carácter científico en diferentes  
+formatos  (artículos,  gráficos,  tablas,  diagramas,  fórmulas,  esquemas…)  e  idiomas;  extrayendo  las  ideas  más  relevantes  para  comunicar  sus  
+conclusiones y opiniones de forma razonada, precisa y veraz; y utilizando la terminología científica y formatos variados (exposición oral, pósteres,  
+plataformas virtuales, presentación...), tanto de forma analógica como a través de medios digitales. Igualmente, se pretende evaluar si el alumnado  
+argumenta (en debates, foros u otras v ías de comuniciación) sobre los conocimientos adquiridos, defendiendo de manera lógica y fundamentada su  
+postura, con una actitud abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas, y desarrollando la resiliencia frente a retos,  
+así como la flexibilidad para dar un giro a las propias ideas ante argumentos ajenos.
+Competencia específica
+2. Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando informaci ón, 
+evaluándola  críticamente  y  contrastando  su  veracidad,  para  resolver  preguntas  planteadas  
+relacionadas con la ciencia y la tecnología de forma autónoma.
+Descriptores operativos de las 
+competencias clave.
+CCL2, CCL3, CP2, STEM4, CD1, CD2, 
+CD3, CD4, CPSAA4, CC3
+Criterios de evaluación
+2.1. Plantear y resolver cuestiones relacionadas con los saberes de la materia, localizando y citando  
+fuentes  adecuadas,  respetando  los  derechos  de  autoría  digital  y  seleccionando,  y  organizando,  
+analizando y evaluando críticamente la información para poder interpretar y explicar la relación entre  
+la ciencia, la tecnología, la sociedad y el medioambiente.
+CCL2, CCL3, CP2, STEM4, CD1, CD2, 
+CD3, CD4, CPSAA4
+2.2. Contrastar y justificar la veracidad de información relacionada con los saberes de la materia,  
+utilizando fuentes fiables y haciendo un uso razonado, legal, seguro, saludable y sostenible de las  
+tecnologías, con el fin de aportar datos fidedignos y adoptar una actitud crítica y escéptica hacia  
+informaciones sin una base científica.
+CCL2, CCL3, CP2, STEM4, CD1, CD3, 
+CD4, CPSAA4, CC3
+86
+
+=== Página 12 ===
+
+2.3. Argumentar sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a  
+ella, visibilizando a las mujeres en este campo y mostrando sus logros a lo largo de la historia, para  
+construir una opini ón propia basada en razonamientos y evidencias científicas, y entender que la  
+investigación es una labor colectiva e interdisciplinar en constante evoluci ón e influida por el contexto 
+político y los recursos económicos.
+CCL2, CCL3, STEM4, CD1, CPSAA4, 
+CC3
+Explicación del bloque competencial
+A través de este bloque competencial, se comprobará que el alumnado es capaz de plantear y resolver cuestiones de forma autónoma, siguiendo su  
+propia curiosidad y mostrando iniciativa, sobre procesos propios de la ciencia y de la tecnología, relacionadas con cualquiera de los bloques de  
+saberes básicos de la materia; y seleccionando, organizando, analizando y evaluando críticamente la información procedente de fuentes diversas  
+(libros, revistas y artículos científicos, entrevistas, webs, videos, motores de búsqueda…). También se quiere constatar que el alumnado contrasta la  
+veracidad de la información utilizando fuentes fiables; aplicando criterios de validez, calidad, actualidad y fiabilidad y que respeta los derechos de  
+autoría; y citando las fuentes en todos sus informes, presentaciones y comunicaciones. Asimismo, se quiere valorar si el alumnado adopta una actitud 
+crítica y escéptica hacia informaciones sin una base científica, y si argumenta sobre la contribución de la ciencia y de la tecnología a la sociedad, y la 
+labor de las personas dedicadas a ella, destacando a las mujeres científicas. Finalmente, se evaluará si el alumnado valora la importancia del trabajo  
+colectivo, interdisciplinar y en continua construcción que realizan las personas científicas; si realiza indagaciones de forma cooperativa, utilizando  
+diferentes plataformas digitales de búsqueda sobre algunas figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad; y si  
+identifica  y  localiza  los  principales  centros  de  investigación  de  Canarias,  presentando  el  resultado  mediante  exposiciones,  comunicaciones,  
+informes... y en diferentes soportes.
+Competencia específica
+3.  Dise ñar,  planear  y  desarrollar  proyectos  de  investigaci ón  siguiendo  los  pasos  de  las  
+metodologías  cient íficas,  teniendo  en  cuenta  los  recursos  disponibles  de  forma  realista  y  
+buscando  vías  de  colaboración,  para  indagar  en  aspectos  relacionados  con  la  ciencia  y  la  
+tecnología.
+Descriptores operativos de las 
+competencias clave.
+CCL1, CCL3, CCL5, STEM1, STEM2, 
+STEM3, STEM4, CD1, CD2, CD3, 
+CPSAA3.2, CE3
+87
+
+=== Página 13 ===
+
+Criterios de evaluación
+3.1.  Plantear  preguntas,  realizar  predicciones  y  formular  hipótesis  que  puedan  ser  respondidas  o 
+contrastadas, utilizando el pensamiento y los métodos científicos para intentar describir y explicar, y  
+haciendo un uso ético y no discriminatorio del lenguaje, procesos relacionados con la ciencia y la  
+tecnología.
+CCL1, CCL5, STEM1, STEM2, CD1, 
+CD2, CE3
+3.2. Diseñar y realizar proyectos de investigación sobre la relación entre la ciencia, la tecnología, la  
+sociedad y el medioambiente, aplicando los conocimientos y las habilidades del trabajo científico, así  
+como  las  estrategias  apropiadas  para  el  análisis  y  la  toma  de  datos  cuantitativos  y  cualitativos,  
+seleccionando y utilizando los instrumentos, las herramientas o las técnicas adecuadas con corrección  
+y  precisión,  para  poder  dar  respuesta  a  preguntas  concretas  y  contrastar  una  hipótesis  previa,  
+minimizando los sesgos y errores, en la medida de lo posible, y reformulando el procedimiento, si  
+fuera necesario.
+CCL1, CCL3, CCL5, STEM1, STEM2, 
+STEM3, CD1, CD2, CE3
+3.3. Interpretar, analizar y comunicar los resultados obtenidos en proyectos de investigación, utilizando 
+el  vocabulario  científico  y,  cuando  sea  necesario,  las  herramientas  matemáticas  y  tecnológicas,  
+reconociendo su alcance y limitaciones, y obteniendo conclusiones razonadas y fundamentadas, o  
+valorando la imposibilidad de hacerlo, con el fin de reflexionar sobre el método científico aplicado y  
+argumentar o defender su validez y resultados.
+CCL1, CCL5, STEM1, STEM2, STEM4, 
+CD2, CD3
+3.4. Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto  
+científico, con la finalidad de trabajar con mayor eficiencia, utilizando las herramientas tecnol ógicas 
+adecuadas, valorando la importancia de la cooperaci ón en la investigaci ón, respetando la diversidad y  
+favoreciendo la inclusión.
+CCL5, STEM3, CD3, CPSAA3.2
+Explicación del bloque competencial
+A través de este bloque competencial, se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación de forma  
+88
+
+=== Página 14 ===
+
+cooperativa que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas, especialmente  
+de las tecnologías digitales; así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las  
+destrezas y los procedimientos esenciales de las metodologías científicas, como el planteamiento de preguntas, la formulación y el contraste de  
+hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, el análisis y la comunicación de resultados, o la reformulación de los  
+procedimientos, en caso necesario, para indagar y explicar diferentes aspectos de la ciencia y la tecnología, relacionados con todos los bloques de  
+saberes básicos de la materia, aportando soluciones a problemas, y aceptando y respondiendo adecuadamente ante la incertidumbre. También se  
+quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el  
+cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia… y que hace un uso correcto del vocabulario  
+científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones, o de crear y compartir contenidos, aplicando medidas de  
+seguridad y respetando, en todo momento, los derechos de autor ía digital. Por último, se pretende evaluar si el alumnado valora la importancia del  
+trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando 
+su desempeño individual y el de sus iguales, desde la fase de diseño hasta su ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto  
+de roles, normas de funcionamiento del grupo...), respetando la diversidad y favoreciendo la inclusión.
+Competencia específica
+4.  Buscar  y  utilizar  estrategias  en  la  resolución  de  problemas  analizando  críticamente  las  
+soluciones  y  respuestas  halladas  y  reformulando  el  procedimiento  si  fuera  necesario,  para  
+proponer alternativas de carácter científico-tecnológico a los actuales retos de la humanidad.
+Descriptores operativos de las 
+competencias clave.
+CCL1, CCL2, CCL3, STEM1, STEM2, 
+CD1, CD5, CPSAA1.1, CPSAA5, CE1
+Criterios de evaluación
+4.1.  Resolver  problemas  o  dar  explicaci ón  a  procesos  biol ógicos,  geol ógicos,  ambientales  y  
+tecnológicos relacionados con el medio natural canario, a partir de los conocimientos propios y de  
+datos e informaci ón recabados de diversas fuentes, aplicando el razonamiento l ógico, el pensamiento  
+computacional o las herramientas digitales para desarrollar el análisis crítico, colaborar, desenvolverse  
+frente a situaciones de incertidumbre, participar plenamente en la sociedad y afrontar los retos del  
+CCL1, CCL2, CCL3, STEM1, STEM2, 
+CD1, CD5, CE1
+89
+
+=== Página 15 ===
+
+siglo XXI, como el calentamiento global o las desigualdades socioeconómicas.
+4.2.  Analizar  cr íticamente  la  soluci ón  a  un  problema  sobre  fen ómenos  biológicos,  geológicos, 
+ambientales  o  procesos  tecnológicos,  y  modificar  los  procedimientos  utilizados  o  conclusiones  
+obtenidas  si  dicha  soluci ón  no  fuese  viable,  o  ante  nuevos  datos  aportados  o  recabados  con  
+posterioridad, con la finalidad de fomentar la reflexión, el razonamiento lógico y el pensamiento  
+científico, y de desarrollar procesos autorregulados de aprendizaje.
+CCL2, STEM1, STEM2, CPSAA1.1, 
+CPSAA5, CE1
+Explicación del bloque competencial
+A través de este bloque competencial, se comprobará que el alumnado es capaz de resolver problemas o dar explicaciones coherentes a procesos de  
+carácter científico-tecnológico, de forma individual o cooperativa, relacionados con cualquiera de los bloques de saberes básicos de la materia (el  
+universo y la vida, la revolución genética y los avances tecnológicos), a partir de los conocimientos propios y de datos e informaci ón, recabados de 
+diversas fuentes: observación directa del entorno, o indirecta, a través de animaciones y simulaciones; webs; artículos científicos…; de aplicar el  
+razonamiento lógico, la metodología científica y el pensamiento computacional para contrastar las hipótesis; y de representar y analizar cr íticamente 
+las soluciones y respuestas halladas. Se trata de verificar que el alumnado reflexiona sobre los procedimientos utilizados y los reformula si la  
+solución propuesta no es viable o ante nuevos datos aportados, mostrando creatividad, apertura a la colaboración y resiliencia para continuar, a pesar  
+de la falta de éxito inmediato. Finalmente, se pretende comprobar que el alumnado desarrolla procesos autorregulados de aprendizaje y transmite el  
+conocimiento adquirido, junto con el procedimiento seguido, ante las demás personas, utilizando para ello diversas formas de expresión (informes,  
+murales, artículos…) y diferentes soportes, preferiblemente digitales.
+Competencia específica
+5. Investigar y analizar críticamente las consecuencias de determinadas acciones humanas y de  
+los  avances  científico-tecnológicos  sobre  el  medio  y  la  vida  de  las  personas,  para  proponer 
+soluciones  innovadoras  que  tengan  en  cuenta  la  preservación  del  medioambiente,  la  salud  
+pública,  el  desarrollo  económico  sostenible  y  la  búsqueda  de  una  sociedad  igualitaria,  
+Descriptores operativos de las 
+competencias clave.
+CCL1, CCL3, CP2, STEM1, STEM2, 
+STEM5, CD1, CD4, CD5, CPSAA2, CC4, 
+CE1
+90
+
+=== Página 16 ===
+
+difundiendo el conocimiento científico desde una perspectiva holística.
+Criterios de evaluación
+5.1. Investigar y analizar críticamente las repercusiones que determinadas acciones humanas del día a  
+día tienen sobre el entorno y la vida de las personas, con el fin de proponer alternativas de forma  
+argumentada y de participar en la construcción de una sociedad más sostenible, justa, e igualitaria  
+centrada en el bienestar de la personas y la conservación del medioambiente.
+CCL3, STEM1, STEM5, CD1, CD4, CC4
+5.2. Investigar y analizar con actitud crítica el impacto de los avances científico-tecnológicos sobre el  
+medioambiente y la humanidad, para poner en valor la importancia que tiene el progreso en ciencia y  
+tecnología, como motor de desarrollo y en el cambio de las condiciones de vida de los seres vivos.
+CCL3, CP2, STEM2, CD1, CPSAA4, CC4, 
+CE1
+5.3. Indagar sobre las soluciones tecnológicas alternativas a los problemas socioambientales, como el  
+cambio climático y la escasez de recursos, que se estén adoptando en otras comunidades o países, para  
+valorar su posible aplicación en el archipiélago canario.
+CCL3, CP2, STEM2, CD1, CC4
+5.4. Proponer soluciones innovadoras, basándose en los saberes de la materia, que promuevan estilos  
+de vida sostenibles y saludables a nivel individual, colectivo y local, argumentando sobre sus efectos  
+positivos  y  la  urgencia  de  adoptarlos,  con  la  finalidad  de  difundir  el  conocimiento  científico  y  
+contribuir al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de  
+Desarrollo Sostenible 2030.
+CCL1, STEM1, STEM5, CD5, CC4, CE1
+Explicación del bloque competencial
+A través de este bloque competencial, se pretende evaluar si el alumnado es capaz de identificar y analizar críticamente, a partir de los datos y de la  
+información recopilada en fuentes diversas (webs, artículos e informes científicos, artículos divulgativos, foros especializados…), las repercusiones  
+sociales, económicas y medioambientales de determinadas acciones humanas del día a día (consumo de energía y agua, generación de residuos,  
+consumo compulsivo de ropa y de dispositivos electrónicos, transporte en vehículos contaminantes…), adoptando una actitud crítica y escéptica  
+91
+
+=== Página 17 ===
+
+hacia informaciones sin una base científica como las pseudociencias. También se quiere constatar si el alumnado aplica la metodología científica y  
+moviliza sus conocimientos científicos y tecnológicos, relacionados con cualquiera de los bloques de saberes básicos de la materia, para desarrollar  
+un proyecto de investigación que suponga el uso de fuentes fiables para la búsqueda, selección, análisis y contraste de información (entrevistas a  
+personas expertas o investigadoras sobre temáticas científico-tecnológicas de su entorno próximo, webs, libros, artículos científicos…), y la  
+comunicación oral o escrita (presentaciones, debates, campañas de difusión, diario de contaminación…) de las conclusiones, sobre el impacto en la  
+sociedad  de  los  avances  tecnológicos  y  los  descubrimientos  que  la  comunidad  científica  ha  acometido  en  el  transcurso  de  la  historia;  las  
+consecuencias derivadas de la escasez de recursos naturales en la población, local y global, (migraciones climáticas, pobreza energética…) y las  
+medidas científico-tecnológicas alternativas que diferentes comunidades y países han puesto en práctica para paliar estos problemas, valorando  
+cuáles de dichas medidas tienen cabida en el archipiélago canario. Finalmente, se quiere verificar que el alumnado es capaz de proponer soluciones  
+innovadoras que promuevan estilos de vida sostenibles y saludables, a nivel individual, colectivo y local, argumentando sobre sus efectos positivos y  
+la urgencia de adoptarlos; y de difundir, a través de campañas publicitarias, mesas redondas, debates, exposiciones, programas de radio…, dentro y  
+fuera del centro, el conocimiento científico, contribuyendo así al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria  
+de Desarrollo Sostenible 2030. Todo ello, con el propósito de que el alumnado se convierta en un agente activo de transformación ecosocial, que  
+comparta y ponga en práctica iniciativas, fundamentadas científicamente, que ayuden a prevenir el deterioro del planeta y que promuevan un  
+desarrollo económico sostenible y la búsqueda de una sociedad justa e igualitaria.
+92
+
+=== Página 18 ===
+
+Saberes básicos
+I. Construyendo ciencia
+1. Búsqueda, selección, análisis e interpretación de información relacionada con la ciencia, la  
+tecnología, la sociedad y el medioambiente (Relaciones CTSA).
+2. Desarrollo  de  los  procedimientos  del  trabajo  científico:  planteamiento  de  problemas,  
+formulación de hipótesis, estrategias y diseños experimentales, análisis e interpretación y  
+comunicación de resultados e ideas.
+3. Análisis  de  la  evolución  histórica  del  saber  científico:  la  ciencia  como  labor  colectiva,  
+interdisciplinar y en continua construcción. Valoración de la cultura científica para entender  
+la sociedad actual.
+4. Clasificación de la ciencia y su importancia. Ciencia y pseudociencia.
+5. Indagación sobre los principales centros de investigación de Canarias y de las biografías de  
+las figuras referentes de la ciencia canaria a lo largo de la historia, con especial atención a  
+las mujeres científicas y a los premios Canarias de Investigación, para mejorar la cultura  
+científica del alumnado.
+II. El universo y la vida
+1. Análisis  de  la  evolución  histórica  del  origen,  de  la  composición  y  de  la  estructura  del  
+Universo para conocer la génesis de los elementos que nos rodean.
+2. El cielo en Canarias:
+2.1. Estudio de las condiciones naturales del cielo en Canarias.
+2.2. Indagación sobre los principales instrumentos para la observación astronómica.
+2.3. Valoración  de  las  condiciones  astronómicas  de  Canarias  como  recurso  turístico  
+sostenible.
+2.4. Investigación sobre la importancia de «la ley del Cielo» para la protección de la calidad  
+astronómica de los observatorios del Instituto Astrofísico de Canarias: 
+2.4.1. Contaminación lumínica.
+2.4.2. Contaminación radioeléctrica.
+2.4.3. Contaminación lumínica.
+2.4.4. Rutas aéreas.
+2.5. Apreciación  de  la  relevancia  de  los  estudios  realizados  en  los  observatorios  
+astronómicos de Canarias y del trabajo de las personas científicas para el conocimiento  
+del Universo.
+3. Reconocimiento de la astrobiología como disciplina científica multidisciplinar que estudia el  
+origen,  la  evolución  y  la  distribución  de  la  vida  en  el  universo.  Conocimiento  de  las  
+principales líneas de investigación en el campo de la astrobiología.
+93
+
+=== Página 19 ===
+
+4. Análisis y discusión de las hipótesis sobre el origen y las condiciones para la vida en la  
+Tierra,  diferenciando  las  que  tienen  base  científica  de  las  influenciadas  por  las  ideas  
+religiosas de la época.
+5. Argumentación  acerca  de  las  pruebas  de  la  evolución  y  de  sus  principales  teorías,  
+diferenciando el lamarckismo, darwinismo y neodarwinismo, y  valorando el carácter no  
+dogmático de las teorías científicas.
+6. Identificación y valoración de los descubrimientos paleontológicos en Canarias para conocer  
+y conservar los yacimientos actuales, además de como recurso científico como parte del  
+acervo sociocultural.
+III. La revolución genética
+1. Reconocimiento  de  la  importancia  biológica  del  ADN  como  molécula  responsable  del  
+almacenamiento, conservación y transmisión de la información genética.
+2. Estudio de la evolución de la ingeniería genética y sus aplicaciones:
+2.1. Análisis  de  los  condicionantes  de  la  investigación  médica  y  farmacéutica.  
+Profundización sobre los fármacos y su uso responsable.
+2.2. Investigación sobre la reproducción asistida, la selección embrionaria y sus técnicas y  
+aplicaciones.
+2.3. Indagación sobre la obtención de células madre y su utilización para generar tejidos,  
+órganos y organismos completos.
+2.4. Investigación sobre los usos y las aplicaciones de organismos transgénicos, y la terapia  
+génica.
+2.5. Valoración de las ventajas e inconvenientes de la clonación de seres vivos.
+2.6. Reflexión  sobre  las  repercusiones  sociales,  económicas  y  medioambientales  de  las  
+técnicas de ingeniería genética: organismos transgénicos, células madre, reproducción  
+asistida, selección y conservación de embriones y la clonación.
+3. Consideración sobre los límites de la investigación científica y los principios de la bioética  
+para analizar los problemas morales, sociales y culturales que conlleva la aplicación de la  
+ingeniería genética.
+4. Profundización en la investigación biomédica en Canarias y sobre la base genética de las  
+enfermedades prevalentes en el archipiélago, para valorar su implicación en la mejora de la  
+calidad de vida.
+IV . Los avances tecnológicos y su impacto ambiental
+1. Investigación  sobre  los  avances  tecnológicos  (generación  de  electricidad,  industria  
+automovilística, telecomunicaciones…), valorando sus beneficios y perjuicios en la sociedad 
+actual.
+2. Identificación y valoración de los beneficios que proporcionan las tecnologías digitales para  
+el bienestar personal y de la sociedad, y de los riesgos de aislamiento, exclusión por brecha  
+94
+
+=== Página 20 ===
+
+digital (de género, de edad, cultural, económica y geográfica) y propuestas para reducirla.  
+Análisis  de  las  tendencias  emergentes  en  tecnologías  digitales  (inteligencia  artificial,  
+realidad aumentada y virtual, robótica...).
+3. Reflexión sobre los riesgos y las amenazas asociados al uso de Internet, las redes sociales y  
+los medios digitales (delitos informáticos, ciberadicción, huella digital y la consiguiente  
+pérdida  de  privacidad,  sobreinformación  o  infoxicación,  infodemia,  uso  de  fuentes  
+fiables...). Aplicación de medidas de actuación y prevención para el uso seguro de las  
+tecnologías digitales.
+4. Estudio de los límites del planeta como proveedor de recursos y como sumidero de residuos.  
+Identificación de la huella ecológica y digital de las acciones humanas en el planeta y toma  
+de conciencia de sus repercusiones en el patrimonio natural canario. Adopción de medidas  
+individuales y colectivas que contribuyan a la adaptación y mitigación de la actual situación  
+de emergencia climática.
+5. Reflexión sobre la relevancia de los Objetivos de Desarrollo Sostenible acordados en el  
+marco de las Naciones Unidas, la emergencia climática y la Agenda Canaria de Desarrollo  
+Sostenible  2030.  Valoración  de  la  importancia  del  cumplimiento  por  parte  de  las  
+administraciones competentes de los acuerdos en materia medioambiental y la implicación  
+de la ciudadanía en el logro de los mismos.
+6. Valoración  de  la  urgencia  de  adoptar  estrategias  sostenibles  sobre  el  impacto  ambiental 
+producido por las tecnologías digitales tales como el consumo energético desproporcionado,  
+la generación de residuos tecnológicos, la lucha por las materias primas… Desarrollo de  
+debates  sobre  planteamientos  éticos,  científicos  y  políticos  en  torno  a  los  problemas  
+ecosociales que se manifiestan en Canarias como consecuencia de la actual situación de  
+emergencia climática.
+95

@@ -10,7 +10,11 @@
   "language": "en",
   "skills": [
     "skills/asset-liability-summaries",
+    "skills/conversation-intake-divorce-petition-sboghossian",
     "skills/custody-evaluation-summary",
+    "skills/draft-custody-agreement-sboghossian",
+    "skills/draft-divorce-petition-sboghossian",
+    "skills/draft-prenup-sboghossian",
     "skills/maintenance-calculator-rohasnagpal"
   ]
 }

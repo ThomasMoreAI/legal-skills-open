@@ -1,0 +1,31 @@
+id: CHUNK-00012
+origen_tipo: "norma"
+origen_id: NOR-043
+titulo: "Resumen del Currículo de Educación Primaria (Canarias)"
+texto: >-
+  El Decreto 211/2022 establece el currículo LOMLOE para Primaria (6-12 años) en Canarias.
+  Puntos fundamentales:
+  1. Estructura: 3 ciclos de dos años. Promoción preferente (la repetición es excepcional y solo al final de ciclo).
+  2. Áreas: 10 áreas, incluyendo la específica "Educación Emocional y para la Creatividad".
+  3. Enfoque: Basado en Perfil de Salida, Competencias Específicas y Situaciones de Aprendizaje.
+  4. Identidad: Integración obligatoria de contenidos canarios en todas las áreas.
+metadatos:
+  ambito: "canarias"
+  etapa: [primaria]
+  temas: [primaria, curriculo, ordenacion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-046
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/231/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 211/2022 (BOC 2022/231)."
+relaciones:
+  normas: [NOR-043]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

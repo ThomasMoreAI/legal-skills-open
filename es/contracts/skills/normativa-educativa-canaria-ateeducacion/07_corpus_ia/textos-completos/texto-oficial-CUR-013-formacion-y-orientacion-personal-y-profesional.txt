@@ -1,0 +1,586 @@
+ID interno: CUR-013
+Título oficial: Formación y Orientación Personal y Profesional — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+FORMACIÓN Y ORIENTACIÓN PERSONAL Y PROFESIONAL
+Introducción
+El sistema educativo constituye un pilar fundamental para el pleno desarrollo de las personas. Para
+ello se incide en el desarrollo de la personalidad del alumnado a través del conocimiento del
+individuo, de los grupos en los que interacciona y de los contextos en los que se desenvuelve. La
+materia de Formación y Orientación Personal y Profesional se ofertará como materia de opción
+dentro de las posibles a elegir por el alumnado del 4.º curso de la ESO.
+Esta materia viene a reforzar el carácter orientador de dicho curso y a facilitar en el alumnado la
+adquisición  de  las  competencias  necesarias  para  afrontar  con  garantías  de  éxito  la  toma  de
+decisiones relacionadas con su futuro personal, académico y profesional. Para ello, se propone una
+aproximación al conocimiento de lo humano a partir de diferentes disciplinas que lo analizan,
+partiendo del conocimiento de los procesos biológicos, psicológicos e intelectuales que regulan la
+conducta, la cognición y el aprendizaje, para continuar con un acercamiento al individuo como parte
+de una construcción social y cultural, y profundizar en el análisis de los elementos que definen las
+organizaciones sociales y los grupos humanos, trabajando en la igualdad de género y el respeto a la
+diversidad y poniendo siempre en valor, entre otros, el patrimonio social y cultural canario. Con
+esta aproximación se pretende que el alumnado se interese por cómo se desarrolla su aprendizaje y
+cómo  este se ve  influido  por el entorno,  de manera que mejoren su autonomía,  autoestima y
+autoconfianza y construya su itinerario vital, académico y profesional.
+Esta materia concuerda y se desarrolla con lo recogido en la Recomendación del Consejo de 22 de
+mayo  de  2018,  relativa  a  las  competencias  clave  para  el  aprendizaje  permanente,  y  con  los
+Objetivos de Desarrollo Sostenible de la Agenda 2030 adoptada por la Asamblea General de las
+Naciones Unidas en septiembre de 2015. Por ello, se diseña aludiendo a los descriptores operativos
+del Perfil de salida del alumnado del 4.º curso de ESO así como los objetivos fijados para la etapa
+de la Educación Secundaria Obligatoria.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+A través de la comprensión de los procesos físicos y psicológicos implicados en la cognición,
+motivación y el aprendizaje, se contribuye al conocimiento y aceptación del funcionamiento del
+propio cuerpo y el de los demás (k), así como al desarrollo y consolidación de hábitos de disciplina,
+estudio y trabajo individual y en equipo (b) y a la asunción progresiva de responsabilidades y
+deberes (a).
+1
+
+=== Página 2 ===
+
+El  alumnado  comprenderá  las  principales  características  del  momento  evolutivo  en  el  que  se
+encuentra y sus implicaciones en las relaciones sociales. Eso le permitirá desarrollar y fortalecer sus
+capacidades afectivas en todos los ámbitos de la personalidad, en sus relaciones con otras personas
+(d) y valorar críticamente los hábitos sociales relacionados con la salud, el consumo, el cuidado y la
+empatía (k).
+Tomar conciencia de la dimensión social y antropológica del ser humano y que este se mueve en
+contextos cambiantes y grupos diferentes posibilitará al alumnado conocer, valorar y respetar los
+aspectos  básicos  de  la  cultura  propia  y  de  los  demás  (j),  respetar  las  diferencias  y  rechazar
+estereotipos que promuevan cualquier tipo de discriminación (c).
+Para el diseño de un proyecto personal, académico y profesional propio y con garantías de éxito, el
+alumnado desarrollará destrezas básicas en la utilización de fuentes de información, competencias
+tecnológicas básicas (e) y, de forma paralela, el espíritu emprendedor, la confianza en la propia
+persona, la iniciativa personal y la capacidad para aprender a aprender, planificar, tomar decisiones
+y asumir responsabilidades (g).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La materia de Formación y Orientación Personal y Profesional viene a contribuir de forma especial
+al Perfil de salida y las competencias clave que se espera que haya alcanzado el alumnado al
+finalizar la enseñanza básica.
+Se contribuye a la Competencia plurilingüe (CP), ya que el alumnado integrará en su desarrollo
+personal el respeto por la diversidad lingüística y cultural propias de la sociedad canaria y de los
+contextos nacional y europeo de los que forma parte. Se contribuye al desarrollo de la Competencia
+digital  (CD)  a  través  del  uso  y  dominio  de  herramientas  digitales  como  las  tecnologías  de
+información y comunicación, tecnologías del aprendizaje y del conocimiento y las tecnologías para
+el  empoderamiento  y  la  participación  (en  adelante,  TIC,  TAC  y  TEP),  tanto  a  nivel  social  y
+académico como para el diseño de un itinerario formativo y la búsqueda activa de empleo. Es
+indiscutible que el uso de estas tecnologías es inherente al momento social, económico y cultural
+actual.  Se  contribuye  a  la  Competencia  personal,  social  y  de  aprender  a  aprender  (CPSAA)
+generando oportunidades para la reflexión sobre uno mismo, el autoconocimiento, propiciando el
+crecimiento personal, abordando la gestión del tiempo y de la información de forma eficaz, entre
+otros  aspectos.  Asimismo,  mantiene  estrecha  relación  con  la  Competencia  ciudadana  (CC),  al
+favorecer la comprensión de los principales cambios que se producen en la adolescencia con la
+finalidad de ayudar al alumnado a buscar respuestas y soluciones a los conflictos que se le van
+planteando, comprender sus experiencias en relación con los demás, construir su autoconcepto para
+potenciar sus cualidades, enfrentar retos y, en definitiva, ir adquiriendo nuevas responsabilidades y
+compromisos característicos de la vida adulta. Finalmente, se contribuye a la adquisición de la
+Competencia emprendedora (CE) desde el momento en que se plantea al alumnado explorar las
+oportunidades académicas y profesionales del entorno y la realización de un proyecto personal,
+académico-profesional y de aproximación a la búsqueda de empleo, todo ello concebido como una
+herramienta permanente y necesaria en la vida de cualquier persona en una sociedad cambiante
+2
+
+=== Página 3 ===
+
+como la nuestra. Promover el espíritu emprendedor, junto a valores democráticos y conductas
+prosociales, es garantía para la creación de empleo, riqueza y cohesión social.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+Esta materia está organizada en cinco competencias específicas y los aprendizajes se desarrollan en
+catorce criterios de evaluación, a través de cuya adquisición el alumnado conocerá los mecanismos
+que intervienen en los procesos de razonamiento, toma de decisiones, resolución de problemas y
+gestión emocional, con la finalidad de mejorar en el ámbito personal, social y académico. Se
+promoverá el conocimiento del ser humano analizando la diversidad y despertando el espíritu
+crítico,  desarrollando  estrategias  y  habilidades  sociales  adecuadas  a  contextos  cambiantes.  El
+alumnado profundizará de forma paralela en el estudio de los comportamientos humanos, sociales y
+culturales  y  se  le  capacitará  para  la  exploración  del  entorno  en  relación  con  oportunidades
+académicas y profesionales, así como para la toma de decisiones vocacionales con el objetivo de
+diseñar un proyecto personal, académico y profesional propio y ajustado a su realidad.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+A través de esta competencia el alumnado comprenderá los diferentes procesos implicados en la
+conducta  y  desarrollará  estrategias  de  gestión  emocional  y  de  aprendizaje  para  emplearlas
+adecuadamente  en  los  procesos  de  motivación,  razonamiento,  aprendizaje  y  regulación  de  la
+conducta y lograr un mejor desempeño en todos los ámbitos, tanto personal como social, académico
+y profesional.
+Esta  competencia  comprende  cuatro  criterios  de  evaluación  que  permitirán  comprobar  que  el
+alumnado conoce y aplica estrategias de gestión emocional, identifica y aplica los procesos que
+intervienen en el aprendizaje, es consciente de la importancia del componente emocional en el
+3
+
+=== Página 4 ===
+
+aprendizaje, desarrolla estrategias de mejora y conoce y es capaz de analizar la relación entre la
+conducta y la cognición, la motivación y el aprendizaje.
+Competencia específica 2 (C2)
+A través de esta competencia específica el alumnado comprenderá que las personas pasan, a lo largo
+de la vida, por cambios físicos, cognitivos, psicológicos y sociales que condicionan sus decisiones,
+comportamientos  y  reacciones  dentro  de  un  contexto  cambiante  e  incierto.  Esto  permitirá  al
+alumnado encontrar respuestas y soluciones a los conflictos que se van planteando a lo largo del
+ciclo vital. A partir de estas experiencias, el alumnado irá construyendo su propia identidad.
+Esta competencia específica comprende tres criterios de evaluación que permitirán comprobar que
+el alumnado es capaz de afrontar de forma eficaz nuevos retos, evaluar fortalezas y debilidades
+propias usando estrategias de autoconocimiento y autoeficacia, autoevaluar su propio aprendizaje y
+asumir nuevas responsabilidades que le faciliten la transición de la adolescencia a la edad adulta
+con progresiva autonomía.
+Competencia específica 3 (C3)
+A través de esta competencia específica el alumnado adquirirá conocimientos acerca del individuo,
+las sociedades y la cultura. Además, se promoverán actitudes de respeto y empatía ante la realidad
+transcultural y el pluralismo social, fomentando el respeto por las minorías y la igualdad de género
+como elementos de diversidad necesarios en la vida democrática.
+Esta  competencia  comprende  dos  criterios  de  evaluación  que  permitirán  comprobar  que  el
+alumnado es capaz de resolver problemas éticos con soluciones innovadoras y sostenibles usando
+estrategias de planificación y que es capaz de trabajar en equipo distribuyendo y aceptando tareas y
+responsabilidades.
+Competencia específica 4 (C4)
+A través de esta competencia específica el alumnado tomará conciencia de cómo la cultura y la
+sociedad aportan modelos y referentes que condicionan las percepciones, actitudes, interpretaciones
+y respuestas ante los acontecimientos y situaciones que surgen a lo largo de la vida. Además, el
+alumnado desarrollará estrategias y habilidades personales y sociales para analizar con sentido
+crítico y responsabilidad cuestiones y problemas actuales como los referidos a la cohesión y la
+justicia  social,  la  ciudadanía  global,  la  efectiva  igualdad  de  género  o  el  cumplimiento  de  los
+derechos humanos.
+Esta  competencia  comprende  tres  criterios  de  evaluación  que  permitirán  comprobar  que  el
+alumnado es capaz de adaptarse a nuevos grupos y contextos, entender los factores personales y
+socioculturales  que  intervienen  en  la  configuración  psicológica  de  las  personas  y  valorar  la
+diversidad como elemento enriquecedor a nivel personal, social y cultural.
+Competencia específica 5 (C5)
+A través de esta competencia específica el alumnado será capaz de diseñar un proyecto personal,
+académico y profesional propio partiendo de las oportunidades académicas y profesionales que
+ofrece  el  entorno,  considerando  sus  características  personales  y  vocacionales,  aplicando  las
+destrezas necesarias para la toma de decisiones y mostrando espíritu de iniciativa y superación.
+4
+
+=== Página 5 ===
+
+Esta competencia se desarrolla a través de dos criterios de evaluación que permitirán comprobar que
+el alumnado se aproxima al proceso de búsqueda activa de empleo e identifica las oportunidades
+académicas y profesionales que ofrecen diversos entornos.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los saberes básicos que contribuyen a adquirir las competencias específicas se organizan en tres
+bloques: en el Bloque I, denominado «El ser humano y el conocimiento de uno mismo», se aborda
+el conocimiento del ser humano desde la perspectiva de las ciencias humanas y sociales como la
+Psicología, la Antropología y la Sociología.
+En el Bloque II, denominado «Formación y orientación personal y profesional hacia la vida adulta»,
+se promueve el conocimiento sobre cualidades personales, propias y de los demás; la orientación
+hacia su futuro académico y profesional para conocer la oferta formativa del entorno y optimizar el
+diseño y la gestión de los itinerarios de aprendizaje; la orientación profesional vinculada a la
+exploración de contextos de trabajo que permitan conocer el funcionamiento del mercado laboral, el
+tejido productivo de Canarias, las formas de empleo; la importancia de la iniciativa emprendedora y
+la incorporación de las tecnologías y herramientas digitales valorando su utilidad en la búsqueda y
+creación de oportunidades.
+El  Bloque  III,  denominado  «Proyecto  personal,  académico-profesional  y  aproximación  a  la
+búsqueda activa de empleo», persigue el diseño de tres planes individuales en los que se concreten
+decisiones adoptadas respecto al futuro personal, académico y profesional y en los que se integren
+las características personales con los recursos disponibles y las oportunidades que ofrece el entorno.
+La integración de los saberes básicos de los tres bloques y, por lo tanto, el desarrollo de las
+competencias específicas asociadas, contribuirán a la formación de personas con espíritu crítico,
+responsable y tolerante capaces de afrontar los retos y desafíos de la vida adulta.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+5
+
+=== Página 6 ===
+
+Para  la  adquisición  y  desarrollo  tanto  de  las  competencias  clave  como  de  las  competencias
+específicas,  el  equipo  docente  planificará  situaciones  de  aprendizaje  aplicando  aquellas
+metodologías didácticas que reconozcan al alumnado como agente de su propio aprendizaje.
+Para ello es imprescindible la implementación de propuestas pedagógicas que, partiendo de los
+centros de interés de los alumnos y las alumnas, permitan construir el conocimiento con autonomía
+y creatividad, con la idea de descubrir y valorar nuevas opciones y oportunidades tanto académicas
+como  profesionales  que  enriquezcan  las  opciones  que  se  habían  planteado  inicialmente.  Las
+situaciones  de  aprendizaje  representan  una  herramienta  eficaz  para  integrar  los  elementos
+curriculares  de  las  distintas  materias  o  ámbitos  mediante  tareas  y  actividades  significativas  y
+relevantes para resolver problemas de manera creativa y cooperativa, reforzando la autoestima, la
+autonomía, la reflexión crítica y la responsabilidad. Asimismo, deben estar compuestas por tareas
+complejas cuya resolución conlleve la construcción de nuevos aprendizajes. Con estas situaciones
+de aprendizaje se busca ofrecer al alumnado la oportunidad de integrar lo aprendido y aplicarlo en
+contextos cercanos a la vida real. Así planteadas, constituyen un elemento que, alineado con los
+principios del Diseño Universal para el Aprendizaje, permite aprender a aprender y, por lo tanto,
+sentar las bases para el aprendizaje a lo largo de la vida gracias a procesos pedagógicos flexibles y
+accesibles que se ajusten a las necesidades, las características y los diferentes ritmos de aprendizaje
+del alumnado.
+6
+
+=== Página 7 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Comprender los procesos físicos y psicológicos implicados en la cognición, la motivación y el
+aprendizaje, analizando sus implicaciones en la conducta y desarrollando estrategias de gestión
+emocional  y  del  propio  proceso  de  aprendizaje,  para  mejorar  el  desempeño  en  el  ámbito
+personal, social y académico y lograr mayor control sobre las acciones y sus consecuencias.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CPSAA1, CPSAA3, CPSAA4, CPSAA5
+Criterios de evaluación
+1.1.  Conocer  los  procesos  que  intervienen  en  el  aprendizaje,  analizando  sus  implicaciones  y
+desarrollando estrategias que favorezcan la adquisición de conocimientos.
+CPSAA3, CPSAA4
+1.2. Analizar la importancia del componente emocional, tomando conciencia de su repercusión en el
+aprendizaje y desarrollando estrategias que mejoren los procesos cognitivos implicados en el mismo.
+CPSAA1, CPSAA4
+1.3. Conocer las bases teóricas fundamentales de los procesos físicos y psicológicos que intervienen en
+la cognición, la motivación, el aprendizaje y la gestión emocional, reflexionando sobre la relación de
+estos con la conducta propia y de los demás.
+CPSAA1, CPSAA5
+1.4. Aplicar estrategias de aprendizaje y gestión emocional manifestando mayor control sobre las
+acciones  y  sus  consecuencias,  planteando  objetivos  y  desarrollando  procesos  metacognitivos  de
+retroalimentación que permitan aprender de los errores para mejorar el desempeño personal, social y
+CPSAA1
+7
+
+=== Página 8 ===
+
+académico.
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado conoce aquellos conceptos básicos de neurociencia que explican cómo se
+regulan los procesos que intervienen en el aprendizaje, esto es, las funciones ejecutivas como la atención, la motivación y la memoria, que
+comprende el componente emocional y su relación con la conducta y que usa dichos procesos para la adquisición de conocimientos. Se contribuye
+así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de identificar las cualidades personales propias y
+de los demás, todo ello con la finalidad de mejorar el desempeño personal, social y académico desarrollando el pensamiento causal y consecuencial.
+El alumnado tomará conciencia del papel que juegan sus emociones y sus motivaciones en la toma de decisiones, para lo cual será necesario el
+conocimiento y el desarrollo de estrategias que planifiquen y guíen el propio proceso de aprendizaje y estudio. Se contribuye así a la adquisición de
+los descriptores del Perfil de salida referenciados en el bloque ya que el alumnado debe ser capaz de establecer metas y gestionar retos y cambios,
+comprenderá  las  experiencias  de  los  demás  y  las  incorporará  a  su  propio  aprendizaje,  trabajando  en  grupo,  aceptando  responsabilidades  y
+autoevaluándose para sacar conclusiones relevantes que le permitan plantear objetivos a medio plazo.
+Competencia específica
+2. Comprender las principales características del desarrollo evolutivo de la persona, analizando
+aquellos elementos de  la  madurez  que  condicionan los  comportamientos e  identificando las
+cualidades personales y de relación social propias y de los demás, para potenciar aquellas que
+favorecen la autonomía y permiten afrontar de forma eficaz los nuevos retos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CPSAA1, CPSAA2, CPSAA3, CPSAA5,
+CC1
+Criterios de evaluación
+2.1. Afrontar, de forma eficaz y con progresiva autonomía, nuevos retos, identificando las cualidades CPSAA1, CPSAA2, CPSAA3, CC1
+8
+
+=== Página 9 ===
+
+personales  y  sociales  propias  y  de  los  demás,  analizando  los  elementos  que  condicionan  los
+comportamientos y actuaciones en el proceso de desarrollo evolutivo.
+2.2. Conocer el  desarrollo  evolutivo  de las personas analizando  y comprendiendo las  principales
+características de la madurez que van conformando a la persona en distintos planos: cognitivo, social y
+emocional. Evaluar las fortalezas y debilidades propias, usando estrategias de autoconocimiento y
+autoeficacia.
+CPSAA2, CPSAA3, CC1
+2.3. Identificar cualidades personales y de los demás reflexionando sobre la importancia de potenciar
+aquellas que  resultan  necesarias para  afrontar  con  eficacia  nuevos  retos  y autoevaluar  su propio
+aprendizaje para validar, sustentar y contrastar la información y obtener conclusiones relevantes.
+CPSAA1, CPSAA5
+Explicación del bloque competencial
+Se comprobará que el alumnado comprende los cambios físicos, sociales, cognitivos y psicológicos que condicionan la toma de decisiones y
+comportamientos dentro de un contexto que es cambiante e incierto. Se comprobará que conoce los cambios propios de la adolescencia y que es
+capaz de encontrar respuestas y soluciones a conflictos e interpretar sus experiencias en relación con las de los demás. Se verificará que asume
+responsabilidades  para  obtener  mayor  grado  de  autonomía  adaptándose  a  los  diferentes  contextos  que  se  presenten.  Se  contribuye  así  a  la
+competencia específica, ya que se evaluará que el alumnado autoevalúa su propio aprendizaje identificando sus fortalezas y debilidades, desarrolla
+estrategias y habilidades para el trabajo colaborativo y en equipo libre de roles y estereotipos y, además, asume responsabilidades personales y
+sociales adaptadas a nuevos contextos y momentos evolutivos en que se encuentra. Estos aprendizajes favorecerán la adquisición de los descriptores
+del Perfil de salida referenciados en el bloque, puesto que el alumnado será capaz de gestionar retos y cambios armonizados con sus propios
+objetivos, aprenderá a trabajar en grupo distribuyendo y aceptando responsabilidades de manera equitativa y cooperativa, mostrando respeto por las
+normas, empatía y espíritu constructivo. Autoevaluará su proceso de aprendizaje desarrollando procesos metacognitivos de retroalimentación,
+optimizando los recursos necesarios.
+9
+
+=== Página 10 ===
+
+Competencia específica
+3. Conocer y comprender al ser humano, sus sociedades y cultura, analizando con empatía su
+diversidad y complejidad desde diferentes perspectivas, para fomentar el espíritu crítico sobre
+aspectos que dirigen el funcionamiento humano, social y cultural.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP3, CPSAA3, CC1, CC2, CC3, CE3
+Criterios de evaluación
+3.1. Reflexionar de manera crítica sobre la condición humana, la sociedad y la cultura a partir del
+conocimiento que proporcionan las ciencias humanas y sociales para presentar ideas y soluciones
+innovadoras, éticas y sostenibles utilizando estrategias ágiles de planificación.
+CPSAA3, CC1, CC2, CC3, CE3
+3.2. Analizar la diversidad personal, social y cultural desde distintas perspectivas a partir de los
+conocimientos que proporcionan las ciencias humanas y sociales, mostrando actitudes de respeto y
+empatía por lo diferente y valorando la equidad y la no discriminación para participar en el trabajo en
+grupo, distribuyendo y aceptando tareas y responsabilidades empleando estrategias cooperativas.
+CP3, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado reflexiona de manera crítica a partir del conocimiento que proporcionan las
+ciencias humanas y sociales acerca del ser humano como ser cultural y social. Se verificará que analiza la diversidad desde distintas perspectivas
+mostrando actitudes de respeto y empatía por lo diferente, valorando la equidad y la no discriminación y diferenciando, por lo tanto, entre conductas
+prosociales y antisociales. Para ello, se comprobará que el alumnado es capaz de identificar, comprender y analizar el papel que juegan las normas
+sociales, los roles y los estereotipos de género. Se verificará que el alumnado comprende y analiza el papel que juega el uso de las herramientas
+digitales en la interacción con los demás. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado
+conoce los elementos socioculturales propios, considera la influencia de los agentes sociales, su experiencia como miembro del grupo, siente
+curiosidad respecto al conocimiento del individuo, las sociedades y la cultura. Se verificará que presenta actitudes de respeto y empatía ante la
+10
+
+=== Página 11 ===
+
+diversidad  transcultural, el  pluralismo social y la  igualdad  de género  como elementos  de diversidad  enriquecedores y necesarios  en la vida
+democrática a través del desarrollo de habilidades de comunicación, organización y gestión. Estos aprendizajes contribuirán a la adquisición de los
+descriptores del Perfil de salida referenciados en el bloque, puesto que el alumnado debe ser capaz de comprender proactivamente las perspectivas y
+las experiencias ajenas e incorporarlas a su aprendizaje, entender la dimensión social y ciudadana de su propia identidad, tomando conciencia de los
+hechos sociales, históricos y normativos que la determinan. Mostrará una actitud respetuosa y democrática propia de los valores que emanan de la
+Constitución española y del contexto europeo del que forma parte, desarrollando en todo momento juicios propios con una actitud dialogante,
+argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia.
+Competencia específica
+4.  Conocer la  dimensión  social  y  antropológica  del  ser humano  y  desarrollar estrategias  y
+habilidad sociales adecuadas a contextos cambiantes y a grupos diferentes, considerando los
+factores  personales  y  socioculturales  que  intervienen  en  la  configuración  psicológica  de  la
+persona, para comprenderse a uno mismo e interactuar con los demás desde el respeto a la
+diversidad personal, social y cultural.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP3, CC1, CC2, CC3, CE2
+Criterios de evaluación
+4.1. Desarrollar estrategias y habilidades que faciliten la adaptación a nuevos grupos y contextos a
+partir del conocimiento social y antropológico del ser humano y analizar los principios que emanan del
+proceso  de  integración  europeo,  la  Constitución  española  y  los  derechos  humanos  y  del  niño,
+participando en actividades comunitarias como la resolución de conflictos con actitud democrática.
+CP3, CC1, CC3
+4.2. Analizar y comprender ideas relativas a la dimensión social y ciudadana de su propia identidad, CC1, CC2
+11
+
+=== Página 12 ===
+
+así como a los hechos sociales, históricos y normativos que la determinan, para entender los factores
+personales y socioculturales que intervienen en la configuración psicológica de la persona a partir del
+conocimiento comparado de la dimensión social y antropológica del ser humano.
+4.3. Valorar la diversidad, desde el respeto, la inclusión y la igualdad real y efectiva entre hombres y
+mujeres, considerándola un elemento enriquecedor a nivel personal, social y cultural.
+CC2, CC3, CE2
+Explicación del bloque competencial
+A través de este bloque competencial el alumnado será capaz de comprender el concepto antropológico de cultura y del ser humano como
+construcción cultural para la consecución de un desarrollo individual y una integración sociocultural completa y óptima. Se comprobará que
+identifica y valora los diferentes agentes de socialización y los contextos de aprendizaje formal e informal. Se constatará que desarrolla estrategias y
+habilidades sociales que le permitan conocerse, comprenderse e interactuar con los demás. Se verificará que es consciente de que el desarrollo de
+habilidades socioemocionales es indispensable para el proceso de socialización, ya que estas guiarán un proceso de toma de decisiones desde el
+respeto a la diversidad, la defensa de los derechos humanos, la protección del menor, la igualdad de género, la diversidad cultural, etc. Se constatará
+que el alumnado comprende y valora el papel que las políticas de inclusión y cohesión social juegan a la hora de mejorar la calidad de vida de las
+personas.  Esto  le  permitirá  adaptarse  a  grupos  y  contextos  considerando  factores  personales,  socioculturales  y  antropológicos.  Asimismo  se
+verificará su capacidad para tomar decisiones respetando la diversidad lingüística y cultural, las normas, mostrando empatía, resolviendo conflictos
+de manera democrática contribuyendo así a la cohesión social y atendiendo a la diversidad e igualdad efectiva.
+Competencia específica
+5. Explorar las oportunidades académicas y profesionales que ofrece el entorno, descubriendo y
+priorizando las necesidades e intereses personales y vocacionales y desarrollando el espíritu de
+iniciativa y de superación y las destrezas necesarias en la toma de decisiones, para llevar a cabo
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CD3, CPSAA4, CPSAA5, CE1, CE2, CE3
+12
+
+=== Página 13 ===
+
+un proyecto personal, académico y profesional propio y realizar una primera aproximación al
+diseño de un plan de búsqueda activa de empleo.
+Criterios de evaluación
+5.1. Realizar un proyecto personal, académico y profesional propio y aproximarse al proceso de
+búsqueda activa de empleo, priorizando las necesidades y descubriendo los intereses personales y
+vocacionales mediante la exploración de las oportunidades académicas y profesionales que ofrece el
+entorno y desarrollando las destrezas necesarias en el proceso de toma de decisiones.
+CD3, CPSAA4, CPSAA5, CE1, CE2
+5.2. Explorar el entorno próximo identificando las oportunidades académicas y profesionales que
+ofrece, valorando aquellas que mejor se adaptan a las cualidades e intereses personales y potenciando
+el espíritu de iniciativa y superación.
+CPSAA4, CPSAA5, CE2, CE3
+Explicación del bloque competencial
+A través de este bloque competencial el alumnado conseguirá realizar un proyecto propio personal, académico y profesional a partir de sus destrezas
+en la toma de decisiones, sus necesidades e intereses personales y vocacionales y la exploración del entorno próximo. Para ello se comprobará que el
+alumnado es capaz de diseñar un proyecto personal, académico y profesional propio a través de la priorización de sus necesidades, intereses
+personales  y  vocacionales,  conocimiento  de  sus  fortalezas  y  debilidades,  la  exploración  y  diagnóstico  de  las  oportunidades  académicas  y
+profesionales del entorno de forma realista, por mediante la consulta de estadísticas de mercado de trabajo en Canarias a través de herramientas y
+plataformas virtuales y utilizando estrategias de tratamiento de la información que le permitan, por un lado, la búsqueda de recursos y ayudas para
+superar posibles carencias y, por otro, aproximarse al plan de búsqueda activa de empleo planeando, de esta forma, objetivos a medio plazo. Se
+verificará que el alumnado utiliza herramientas digitales para la creación de porfolios digitales, curriculum vitae, etc.
+13
+
+=== Página 14 ===
+
+Saberes básicos
+I. El ser humano y el conocimiento de sí mismo
+ 1. Visión y conocimiento del ser humano desde la perspectiva psicológica. 
+ 1.1. Descripción  de  las  distintas  etapas  de  desarrollo  evolutivo.  Identificación  de
+características cognitivas y de la personalidad propias de la adolescencia y su relación
+con la gestión emocional en esta etapa.
+ 2. Visión y conocimiento del ser humano desde la perspectiva sociológica. 
+ 2.1. Descripción,  análisis  y  valoración  de  las  relaciones  sociales  en  la  adolescencia.
+Definición de los conceptos de normas, roles y estereotipos, análisis y estimación de sus
+implicaciones en contextos sociales cercanos.
+ 2.2. Análisis de la influencia del grupo en el individuo y valoración del sentimiento de
+pertenencia  como  elemento  fundamental  para  la  cohesión  social.  Identificación  de
+valores, intereses y metas comunes de los diferentes grupos a los que se pertenece
+(familia, grupo clase, equipos deportivos, clubes, etc.).
+ 2.3. Análisis y valoración de la diversidad como elemento enriquecedor para la convivencia
+positiva y democrática dentro de los grupos.
+ 2.4. Análisis y valoración de los roles y estereotipos de género a lo largo de la historia y su
+papel en la vida de hombres y mujeres. Reconocimiento y promoción de la igualdad de
+derechos y oportunidades entre hombres y mujeres en todos los ámbitos de la vida:
+personal, social, académico y profesional.
+ 2.5. Distinción  entre  conductas  prosociales  y  antisociales.  Asunción  progresiva  de
+responsabilidades para la búsqueda de la autonomía.
+ 2.6. Comprensión  del  concepto  de  sociedad  y  visión del  ser  humano  como  ser social.
+Análisis crítico de los elementos y factores favorecedores de la integración y cohesión
+social.
+ 2.7. Identificación de los factores que determinan los procesos de transición a la vida adulta
+en el contexto europeo y español.
+ 3. Visión y conocimiento del ser humano desde la perspectiva antropológica. 
+ 3.1. Comprensión del concepto antropológico de cultura y análisis del ser humano como ser
+cultural (costumbres, mitos, creencias, normas y valores que guían su comportamiento
+como  miembro  de  un  grupo  social).  Relación  entre  humanización  y  cultura.
+Reconocimiento y valoración de la diversidad cultural haciendo hincapié en la realidad
+canaria (migraciones, multiculturalidad y mestizaje en sociedades abiertas).
+ 3.2. Reflexión sobre formas de identificación cultural (la Constitución española de 1978, la
+integración  en  la  Unión  Europea,  el  fenómeno  de  la  globalización…).  Análisis  y
+valoración positiva de la diversidad social, etnocultural, funcional y de género, entre
+otras. Conocimiento de políticas y medidas estratégicas para la inclusión, la igualdad de
+género y cohesión social, con el objetivo de mejorar la calidad de vida de las personas en
+14
+
+=== Página 15 ===
+
+el contexto autonómico, nacional y europeo (partidas económicas, programas de becas,
+programas  de  movilidad,  proyectos  de  integración  social,  desarrollo  de  vocaciones
+científicas en las alumnas, etc.)
+II. Formación y orientación personal y profesional hacia la vida adulta
+ 1. Aprendizaje y ser humano 
+ 1.1. Descripción de los procesos de atención, motivación y memoria y explicación de su
+relación con el aprendizaje.
+ 1.2. Explicación de diferentes estrategias de aprendizaje y estudio y selección y aplicación
+de las mismas.
+ 1.3. Definición de inteligencia emocional. Identificación y reconocimiento de las emociones
+propias y ajenas y selección y aplicación de estrategias de regulación de las mismas de
+forma  adaptativa  en  función  de  las  demandas  del  entorno.  Comprensión  del
+funcionamiento de los sistemas de recompensa y su relación con las adicciones.
+ 1.4. Definición de las funciones ejecutivas y su papel en el establecimiento y logro de
+metas.
+ 1.5. Relación entre lo heredado y lo aprendido: biología y cultura.
+ 2. Construcción del sentido de competencia y logro. 
+ 2.1. Definición y comprensión del autoconcepto y la autoestima. Identificación y valoración
+de  conceptos  como  estilo  atribucional,  capacidad  autocrítica,  iniciativa  personal,
+pensamiento creativo, perseverancia, confianza y seguridad personal, como elementos
+indispensables en el desarrollo de un autoconcepto positivo y una autoestima alta como
+medio para superar situaciones de fracaso y tolerar la frustración.
+ 2.2. Identificación  y  valoración  de  las  cualidades  académicas,  análisis  de  fortalezas  y
+debilidades propias y selección y desarrollo de estrategias para superar las debilidades.
+ 3. Relaciones e interacciones con las demás personas. 
+ 3.1. Desarrollo de habilidades sociales necesarias para afrontar nuevos retos: flexibilidad,
+adaptabilidad, estrategias de resolución de conflictos.
+ 3.2. Desarrollo de habilidades comunicativas: asertividad, escucha activa, comunicación no
+verbal.  Evaluación  de  las  barreras  propias  en  la  comunicación  y  adquisición  de
+estrategias para superarlas.
+ 3.3. Desarrollo  de  habilidades  comunicativas  como  el  diálogo,  la  argumentación  y  la
+empatía para la resolución pacífica de conflictos y la convivencia positiva dentro de los
+grupos.
+ 3.4. Comprensión  de  la  estructura  y  funcionamiento  de  grupos  sociales  y  de  trabajo.
+Desarrollo de habilidades para la organización y gestión: reparto de funciones y tareas,
+planificación,  tipos  de  liderazgo,  diferencias  entre  grupos  de  trabajo  y  equipos  de
+trabajo.
+15
+
+=== Página 16 ===
+
+3.5. Conocimiento y manejo responsable de herramientas digitales para la interacción con
+los demás. Comprensión de los conceptos de huella y reputación digital. Identificación y
+reflexión sobre los nuevos comportamientos en la sociedad de la información y reflexión
+sobre los valores, principios, derechos y deberes que deben regir la ciudadanía ética
+digital.
+ 3.6. Identificación de barreras en la comunicación en contextos académicos y profesionales
+y planificación de acciones para superarlas.
+ 3.7. Gestión  de  la  identidad  digital  personal  y  profesional:  selección  de  herramientas
+digitales adecuadas a la finalidad que se persigue, elaboración de un perfil acorde a la
+misma y conocimiento de los procedimientos de actualización y mantenimiento de los
+perfiles.
+ 4. Orientación  hacia  la  formación  académica  y  profesional.  Exploración  del  entorno
+profesional. 
+ 4.1. Conocimiento  y  valoración  de  programas  y  servicios  de  orientación  académica  y
+profesional y búsqueda de oportunidades y ayudas para la formación.
+ 4.2. Valoración  de  la  formación  permanente  a  lo  largo  de  la  vida  como  elemento
+indispensable para el desarrollo personal y laboral en un contexto social y laboral en
+continuo cambio.
+ 4.3. Comprensión de las ventajas de un clima laboral positivo gracias a las habilidades
+sociales,  comunicativas  y  de  organización  y  gestión  como  garantía  para  el
+establecimiento de relaciones laborales positivas.
+ 4.4. Conocimiento del Espacio Europeo de Educación y reflexión sobre las implicaciones
+en  el  propio  proceso  de  socialización  y  en  el  aprendizaje  formal  e  informal.
+Conocimiento de los valores del europeísmo y fórmulas de participación en programas
+educativos europeos.
+ 4.5. Exploración y descubrimiento de las tendencias laborales y demandas del mercado.
+Retos  de  la  revolución  digital.  Conocimiento  y  comprensión  de  los  conceptos  de
+emprendimiento e intraemprendimiento.
+ 4.6. El ser humano como homo œconomicus y teorías críticas. Reconocimiento y valoración
+de  la  participación  social  activa  a  través  de  acciones  como  la  colaboración  y  el
+voluntariado, por un lado, como instrumentos para favorecer la cohesión social y, por
+otro, como una primera aproximación al mundo laboral.
+III. Proyecto personal, académico-profesional y aproximación a la búsqueda activa de empleo
+ 1. Comprensión y valoración de la diversidad como elemento enriquecedor de los equipos de
+trabajo.
+ 2. Aplicación de las fases de diseño de un plan personal de autoconocimiento y de formación
+académica y profesional. 
+16
+
+=== Página 17 ===
+
+2.1. Identificación  y  diagnóstico  de  cualidades  personales  académicas  y  profesionales,
+distinguiendo entre fortalezas y debilidades para potenciar las primeras y solventar las
+últimas.
+ 2.2. Exploración de las ofertas académicas y profesionales, sus respectivos perfiles y su
+relación con las aspiraciones y metas propias.
+ 2.3. Toma de decisiones con respecto al futuro académico y profesional a corto plazo, así
+como búsqueda y selección de ayudas y recursos para superar carencias y afrontar los
+nuevos retos personales y profesionales. Aproximación a un plan de búsqueda activa de
+empleo  con  proyección  hacia  el  futuro  mediante  las  estrategias  e  instrumentos  de
+búsqueda de empleo.
+ 3. Aproximación a  un plan de  búsqueda  activa de empleo  con proyección  hacia  el  futuro
+mediante las estrategias e instrumentos de búsqueda de empleo.
+17

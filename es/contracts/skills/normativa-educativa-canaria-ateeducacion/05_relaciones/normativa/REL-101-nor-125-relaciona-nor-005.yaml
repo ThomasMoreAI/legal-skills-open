@@ -1,0 +1,11 @@
+id: REL-101
+tipo_relacion: relaciona
+origen: NOR-125
+destino: NOR-005
+descripcion: Remisión expresa al decreto que establece la ordenación y el currículo de la etapa.
+evidencia:
+  fuente: FTE-132
+  localizacion: Antecedentes, p. 1
+fecha_registro: '2026-10-07'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

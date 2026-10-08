@@ -1,0 +1,11 @@
+id: REL-031
+tipo_relacion: "desarrolla"
+origen: NOR-034
+destino: NOR-004
+descripcion: "La Orden de 24 de abril de 2009 desarrolla la gestión de plazas y subvenciones de comedores escolares como servicio complementario."
+evidencia:
+  fuente: FTE-037
+  localizacion: "Artículo 1 y anexos I-II"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

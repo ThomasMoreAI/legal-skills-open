@@ -1,0 +1,11 @@
+id: REL-041
+tipo_relacion: "relaciona"
+origen: NOR-028
+destino: NOR-024
+descripcion: "La Orden de Aulas Enclave de 2016 se integra como una medida de escolarización específica dentro del marco de atención a la diversidad del Decreto 25/2018."
+evidencia:
+  fuente: FTE-031
+  localizacion: "Disposiciones transitorias del Decreto 25/2018."
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "La orden es previa al decreto pero sigue vigente en sus concreciones curriculares adaptadas."

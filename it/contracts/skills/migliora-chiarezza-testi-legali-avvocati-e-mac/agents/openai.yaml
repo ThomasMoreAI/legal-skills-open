@@ -1,0 +1,7 @@
+interface:
+  display_name: "Migliora chiarezza testi legali"
+  short_description: "Rende più chiari contratti, pareri e atti"
+  default_prompt: "Usa $migliora-chiarezza-testi-legali per rendere più chiaro, leggibile e meno ambiguo un testo legale italiano."
+
+policy:
+  allow_implicit_invocation: true

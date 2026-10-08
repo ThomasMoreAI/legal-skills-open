@@ -1,0 +1,11 @@
+id: REL-087
+tipo_relacion: "modifica"
+origen: NOR-111
+destino: NOR-076
+descripcion: "La Orden de 16 de julio de 2019 modifica el Reglamento Orgánico desarrollado por la Orden de 9 de octubre de 2013 en materia de jornada del profesorado (artículos 36 y 37; 18 horas lectivas en secundaria)."
+evidencia:
+  fuente: FTE-118
+  localizacion: "BOC n.º 145, de 30 de julio de 2019, anuncio 3854."
+fecha_registro: 2026-08-23
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Registrada al resolver el marcador [PENDIENTE] de NOR-076 (TAREA-093)."

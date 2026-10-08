@@ -1,0 +1,54 @@
+name: laboral-contratos
+display_name: Tipos de contratos de trabajo
+description: >
+  Guía completa sobre los tipos de contratos de trabajo en España tras
+  la reforma laboral de 2022 (RDL 32/2021): contrato indefinido ordinario
+  y fijo-discontinuo, contratos temporales (circunstancias de la producción
+  y sustitución), contratos formativos, periodo de prueba, preaviso,
+  indemnización por despido y conversión de temporal a indefinido.
+organization: Servicio Público de Empleo Estatal (SEPE) / Ministerio de Trabajo y Economía Social
+tags: [laboral, contratos, reforma laboral, indefinido, temporal, formativo, fijo-discontinuo, despido, indemnización, periodo de prueba, Estatuto de los Trabajadores]
+
+links:
+  contratos_sepe: https://www.sepe.es/HomeSepe/empresas/Contratos-de-trabajo.html
+  estatuto_trabajadores: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430
+  contratacion_electronica: https://www.sepe.es/HomeSepe/empresas/comunica-contratacion.html
+
+license:
+  data: Información pública del SEPE y BOE
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación sobre tipos de contratos de trabajo.
+    No accede a APIs de datos. Proporciona una visión completa del panorama
+    contractual post-reforma 2022 y redirige a skills hermanas para nóminas,
+    desempleo, ERE/ERTE, convenios e inspección.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de contrato vigentes tras la reforma laboral 2022
+    - Contrato indefinido ordinario, fijo-discontinuo y adscrito a obra
+    - Contratos temporales (circunstancias de la producción y sustitución)
+    - Contratos formativos (formación en alternancia y práctica profesional)
+    - Contrato a tiempo parcial y de alta dirección
+    - Periodo de prueba, preaviso e indemnizaciones por despido
+    - Conversión de temporal a indefinido (encadenamiento)
+    - Modelos oficiales de contrato del SEPE
+  not_accessible:
+    - Datos estadísticos de contratos registrados (usar skill sepe)
+    - Contenido de nóminas o salarios (usar skill laboral-nominas)
+    - Prestación por desempleo (usar skill laboral-desempleo)
+    - Convenios colectivos específicos (usar skill laboral-convenios)
+    - Texto completo del Estatuto de los Trabajadores (usar skill boe)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

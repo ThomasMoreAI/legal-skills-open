@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light dark">
+<!-- Arquivo único e offline: nenhum recurso externo é carregado ao abrir o relatório. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>Relatório de auditoria LGPD</title>
+<style>
+/* Modelo do relatório visual do LGPD Enterprise Auditor.
+   Não editar ao gerar um relatório: preencher apenas o bloco de dados "lgpd-dados"
+   (regras em reports/html-report.md). */
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --surface-2:#F7F9FA; --line:#DCE2E8; --line-soft:#E8EDF1;
+  --ink:#0F1722; --ink-2:#36414F; --ink-3:#5E6A79;
+  --accent:#0B6E7A; --accent-soft:#DFF1F3; --accent-ink:#07525C;
+  --banner:#0B1929; --banner-ink:#FFFFFF; --banner-2:#A9B8C9; --banner-line:rgba(255,255,255,.14);
+  --crit:#C62828; --crit-soft:#FCE9E9; --crit-ink:#9F1C1C;
+  --alto:#D9590B; --alto-soft:#FDEEE2; --alto-ink:#9C3F08;
+  --medio:#C29200; --medio-soft:#FBF2D3; --medio-ink:#735700;
+  --baixo:#2F7D50; --baixo-soft:#E2F3E9; --baixo-ink:#21603C;
+  --exc:#0B6E7A;
+  --mute:#8A95A3; --mute-soft:#ECEFF3; --mute-ink:#4B5665;
+  --shadow:0 1px 2px rgba(15,23,34,.05),0 8px 24px rgba(15,23,34,.05);
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+  --r:14px; --wrap:1180px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1218; --surface:#151B24; --surface-2:#1A212C; --line:#2A3442; --line-soft:#222B37;
+    --ink:#E9EDF2; --ink-2:#C3CBD6; --ink-3:#93A0B1;
+    --accent:#52C2CE; --accent-soft:#12343A; --accent-ink:#8FDDE6;
+    --banner:#101824;
+    --crit:#EF5350; --crit-soft:#3A1616; --crit-ink:#FF9E9B;
+    --alto:#F5823A; --alto-soft:#3A2110; --alto-ink:#FFB684;
+    --medio:#E0B429; --medio-soft:#332A0A; --medio-ink:#F2D675;
+    --baixo:#4CAF78; --baixo-soft:#12301F; --baixo-ink:#8FDDB0;
+    --exc:#52C2CE;
+    --mute:#6D7A8B; --mute-soft:#202834; --mute-ink:#A9B4C2;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0D1218; --surface:#151B24; --surface-2:#1A212C; --line:#2A3442; --line-soft:#222B37;
+  --ink:#E9EDF2; --ink-2:#C3CBD6; --ink-3:#93A0B1;
+  --accent:#52C2CE; --accent-soft:#12343A; --accent-ink:#8FDDE6;
+  --banner:#101824;
+  --crit:#EF5350; --crit-soft:#3A1616; --crit-ink:#FF9E9B;
+  --alto:#F5823A; --alto-soft:#3A2110; --alto-ink:#FFB684;
+  --medio:#E0B429; --medio-soft:#332A0A; --medio-ink:#F2D675;
+  --baixo:#4CAF78; --baixo-soft:#12301F; --baixo-ink:#8FDDB0;
+  --exc:#52C2CE;
+  --mute:#6D7A8B; --mute-soft:#202834; --mute-ink:#A9B4C2;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15.5px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+h1,h2,h3,h4,h5{margin:0;line-height:1.25}
+p{margin:0 0 12px}
+a{color:var(--accent)}
+code{font-family:var(--mono);font-size:.86em;background:var(--mute-soft);color:var(--ink-2);padding:1px 5px;border-radius:5px;overflow-wrap:anywhere}
+button{font:inherit;color:inherit}
+[hidden]{display:none!important}
+
+/* faixa de cabeçalho */
+.banner{background:var(--banner);color:var(--banner-ink);padding:26px 0 30px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.brand{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-bottom:18px;margin-bottom:22px;border-bottom:1px solid var(--banner-line);
+  font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--banner-2)}
+.brand b{color:#fff;font-weight:600}
+.conf{margin-left:auto;border:1px solid #F0B429;color:#F9D270;border-radius:999px;padding:4px 12px;font-size:11px;letter-spacing:.16em}
+.banner-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:end}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#7FD6E0;margin:0 0 10px}
+.banner h1{font-size:clamp(28px,4.2vw,44px);font-weight:700;letter-spacing:-.02em}
+.banner .sub{color:var(--banner-2);margin:10px 0 0;max-width:60ch}
+.meta{margin:0;display:grid;grid-template-columns:auto 1fr;gap:5px 16px;font-size:13px}
+.meta dt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#7B8CA1;padding-top:2px}
+.meta dd{margin:0;color:#DCE4EE}
+
+/* navegação */
+.nav{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:4px;height:52px;overflow-x:auto;scrollbar-width:none}
+.nav a{flex:none;text-decoration:none;color:var(--ink-3);font-size:13.5px;padding:6px 11px;border-radius:999px;border:1px solid transparent;white-space:nowrap}
+.nav a:hover{color:var(--ink)}
+.nav a.on{color:var(--accent-ink);background:var(--accent-soft);border-color:var(--accent)}
+.nav .sp{flex:1}
+.tbtn{flex:none;display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--ink-3);cursor:pointer;white-space:nowrap}
+.tbtn:hover{color:var(--ink);border-color:var(--ink-3)}
+.tbtn svg{flex:none;width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+/* botão de tema: mostra o tema para o qual a página muda; segue as mesmas regras das cores acima */
+.tema span{display:inline-flex;align-items:center;gap:6px}
+.tema .p-claro{display:none}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .tema .p-escuro{display:none}
+  :root:not([data-theme="light"]) .tema .p-claro{display:inline-flex}
+}
+:root[data-theme="dark"] .tema .p-escuro{display:none}
+:root[data-theme="dark"] .tema .p-claro{display:inline-flex}
+
+/* estrutura */
+main{padding:26px 0 40px}
+section{padding:34px 0 6px}
+.eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin:0 0 4px}
+h2{font-size:26px;letter-spacing:-.015em;margin-bottom:16px}
+h3{font-size:17px;margin:22px 0 10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:16px}
+.grid>*,.fd,.act>div{min-width:0}
+.g2{grid-template-columns:1fr 1fr}
+.hero{grid-template-columns:1.55fr 1fr;align-items:start}
+.note{border-left:4px solid var(--accent);background:var(--accent-soft);color:var(--ink);padding:12px 16px;border-radius:0 10px 10px 0;margin:0 0 16px}
+.note.warn{border-color:var(--medio);background:var(--medio-soft)}
+.note.err{border-color:var(--crit);background:var(--crit-soft)}
+.note .md>:last-child{margin-bottom:0}
+.muted{color:var(--ink-3)}
+.small{font-size:13px}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0 0 6px}
+
+/* texto vindo dos dados */
+.md>:first-child{margin-top:0}
+.md>:last-child{margin-bottom:0}
+.md h4{font-size:15.5px;margin:18px 0 8px}
+.md h5{font-size:14px;margin:14px 0 6px;color:var(--ink-2)}
+.md ul,.md ol{margin:0 0 12px;padding-left:22px}
+.md li{margin:3px 0}
+.md li>ul,.md li>ol{margin:4px 0 4px}
+.md blockquote{margin:0 0 12px;padding:8px 14px;border-left:3px solid var(--line);color:var(--ink-2)}
+pre.code{margin:0 0 14px;background:#0F1722;color:#E4EAF1;border-radius:10px;padding:14px 16px;overflow:auto;font-size:13px;line-height:1.55;
+  print-color-adjust:exact;-webkit-print-color-adjust:exact}
+pre.code code{background:none;color:inherit;padding:0;font-size:inherit}
+.tw{overflow-x:auto;margin:0 0 14px;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--line-soft)}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);background:var(--surface-2);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+a.ref{font-family:var(--mono);font-size:.84em;text-decoration:none;background:var(--accent-soft);color:var(--accent-ink);
+  padding:1px 6px;border-radius:999px;white-space:nowrap}
+a.ref:hover{outline:1px solid var(--accent)}
+
+/* etiquetas */
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;line-height:1.5;padding:1px 9px;border-radius:999px;
+  background:var(--mute-soft);color:var(--mute-ink);white-space:nowrap;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.chip.crit{background:var(--crit-soft);color:var(--crit-ink)}
+.chip.alto{background:var(--alto-soft);color:var(--alto-ink)}
+.chip.medio{background:var(--medio-soft);color:var(--medio-ink)}
+.chip.baixo{background:var(--baixo-soft);color:var(--baixo-ink)}
+.chip.exc{background:var(--accent-soft);color:var(--accent-ink)}
+.chip.line{background:none;border:1px solid var(--line);color:var(--ink-3);font-weight:500;white-space:normal;border-radius:12px}
+.chips{display:inline-flex;gap:6px;flex-wrap:wrap;align-items:center}
+
+/* cartão do score */
+.score-n{display:flex;align-items:baseline;gap:8px;margin:2px 0 6px}
+.score-n b{font-size:68px;line-height:1;font-weight:800;letter-spacing:-.04em}
+.score-n span{font-size:20px;color:var(--ink-3)}
+.c-crit{color:var(--crit)} .c-alto{color:var(--alto)} .c-medio{color:var(--medio)} .c-baixo{color:var(--baixo)} .c-exc{color:var(--exc)}
+.gauge{position:relative;margin:18px 0 6px}
+.gauge .bands{display:flex;height:10px;border-radius:999px;overflow:hidden;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.gauge .bands i{display:block}
+.gauge .mark{position:absolute;top:-5px;width:4px;height:20px;margin-left:-2px;border-radius:2px;background:var(--ink);box-shadow:0 0 0 2px var(--surface)}
+.gauge-s{display:flex;font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+.gauge-s span{display:block}
+.bars{margin:16px 0 0;display:grid;grid-template-columns:auto 1fr auto;gap:7px 12px;align-items:center;font-size:13.5px}
+.bar{height:8px;border-radius:999px;background:var(--mute-soft);overflow:hidden;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.bar i{display:block;height:100%;border-radius:999px;background:var(--mute)}
+.b-crit{background:var(--crit)!important} .b-alto{background:var(--alto)!important} .b-medio{background:var(--medio)!important}
+.b-baixo{background:var(--baixo)!important} .b-exc{background:var(--exc)!important}
+.bars b{font-variant-numeric:tabular-nums}
+
+/* indicadores */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.kpi b{display:block;font-size:24px;line-height:1.15;font-weight:750;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi p{margin:2px 0 0;font-size:12px;line-height:1.4;color:var(--ink-3)}
+.stack{display:flex;height:10px;border-radius:999px;overflow:hidden;margin:0 0 8px;background:var(--mute-soft);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.stack i{display:block}
+.leg{display:flex;gap:4px 14px;flex-wrap:wrap;font-size:12.5px;color:var(--ink-2)}
+.leg span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:var(--mute)}
+.leg .l-ok::before{background:var(--baixo)} .leg .l-pa::before{background:var(--medio)} .leg .l-nc::before{background:var(--crit)}
+
+/* o que fazer agora */
+.acts{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.act{display:grid;grid-template-columns:38px 1fr;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;box-shadow:var(--shadow)}
+.act .n{width:38px;height:38px;border-radius:50%;background:var(--accent-soft);color:var(--accent-ink);display:grid;place-items:center;font-weight:700;
+  print-color-adjust:exact;-webkit-print-color-adjust:exact}
+.act h4{font-size:15.5px;font-weight:650;margin:0 0 4px;line-height:1.45}
+.act .why{color:var(--ink-2);margin:0 0 8px;font-size:14.5px}
+
+/* áreas do score */
+.areas{display:grid;gap:2px}
+.area{display:grid;grid-template-columns:minmax(150px,220px) 1fr 62px;gap:6px 16px;align-items:center;padding:11px 0;border-bottom:1px solid var(--line-soft)}
+.area:last-child{border-bottom:0}
+.area .nm{font-weight:600}
+.area .nm code{display:block;width:max-content;margin-top:2px;font-size:11px;background:none;padding:0;color:var(--ink-3)}
+.area .v{font-size:19px;font-weight:750;text-align:right;font-variant-numeric:tabular-nums}
+.area .sub{grid-column:2/4;font-size:12.5px;color:var(--ink-3);display:flex;gap:6px 14px;flex-wrap:wrap;align-items:center}
+.area.na{opacity:.75}
+.area.na .sub{grid-column:2/4}
+dl.kv{margin:0;display:grid;grid-template-columns:minmax(120px,200px) 1fr;gap:8px 16px}
+dl.kv dt{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);padding-top:3px}
+dl.kv dd{margin:0}
+
+/* filtros */
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+.fchip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink-2);cursor:pointer}
+.fchip b{font-weight:600;color:var(--ink-3);margin-left:4px}
+.fchip.on{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.fchip.on b{color:inherit;opacity:.75}
+.tools input,.tools select{font:inherit;font-size:13.5px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-width:0}
+.tools input{flex:1 1 200px;max-width:320px}
+.tools .cnt{font-size:12.5px;color:var(--ink-3);margin-left:auto}
+
+/* fichas: itens do checklist e não conformidades */
+details.it{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--mute);border-radius:10px;margin:0 0 8px;break-inside:avoid}
+details.it>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:6px 12px;align-items:start;padding:12px 16px}
+details.it>summary::-webkit-details-marker{display:none}
+details.it>summary:hover{background:var(--surface-2)}
+details.it[open]>summary{border-bottom:1px solid var(--line-soft)}
+details.it .id{font-family:var(--mono);font-size:12.5px;font-weight:600;color:var(--ink-2);white-space:nowrap;padding-top:2px}
+details.it .tt{font-weight:600;line-height:1.45}
+details.it .body{padding:16px 18px 6px}
+details.it.s-crit{border-left-color:var(--crit)} details.it.s-alto{border-left-color:var(--alto)}
+details.it.s-medio{border-left-color:var(--medio)} details.it.s-baixo{border-left-color:var(--baixo)}
+details.it.hit{outline:2px solid var(--accent);outline-offset:2px}
+details.it.longa{break-inside:auto}
+.fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4px 28px}
+.fd{margin:0 0 14px}
+.fd.full{grid-column:1/-1}
+.evt{display:inline-block;font-family:var(--mono);font-size:11.5px;background:var(--mute-soft);color:var(--mute-ink);padding:2px 8px;border-radius:6px;margin:0 0 6px}
+.grp{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:22px 0 10px}
+.grp h3{margin:0}
+.box{border:1px dashed var(--line);border-radius:10px;padding:12px 14px;background:var(--surface-2)}
+
+/* riscos e plano */
+.risk h3{margin:0 0 8px}
+.plan{grid-template-columns:repeat(3,1fr);align-items:start}
+.plan h3{margin:0 0 2px}
+.step{border-top:1px solid var(--line-soft);padding:12px 0 10px}
+.step p{margin:0 0 7px}
+.step .n{font-family:var(--mono);font-size:12px;color:var(--ink-3);margin-right:6px}
+.gloss{columns:2;column-gap:32px;margin:0}
+.gloss div{break-inside:avoid;margin:0 0 10px}
+.gloss dt{font-weight:650;display:inline}
+.gloss dd{display:inline;margin:0;color:var(--ink-2)}
+footer{border-top:1px solid var(--line);margin-top:30px;padding:22px 0 40px;color:var(--ink-3);font-size:13.5px}
+footer p{max-width:90ch}
+
+@media (max-width:900px){
+  .banner-grid,.hero,.g2,.plan{grid-template-columns:1fr}
+  .fields{grid-template-columns:minmax(0,1fr)}
+  .gloss{columns:1}
+}
+@media (max-width:560px){
+  body{font-size:15px}
+  .wrap{padding:0 16px}
+  .conf{margin-left:0}
+  details.it>summary{grid-template-columns:auto 1fr}
+  details.it>summary .chips{grid-column:1/-1}
+  .area{grid-template-columns:1fr 62px}
+  .area .bar{grid-column:1/-1;grid-row:2}
+  .area .sub{grid-column:1/-1}
+  .score-n b{font-size:56px}
+  dl.kv,.meta{grid-template-columns:1fr}
+  .tw table{min-width:620px}
+}
+@media print{
+  html{scroll-padding-top:0}
+  body{background:#fff;font-size:11.5pt}
+  .nav,.tools,.tbtn,.dica{display:none!important}
+  .card,.act,details.it{box-shadow:none}
+  section{padding-top:18px}
+  h2,h3,.grp{break-after:avoid}
+  .act,.step,.area,tr{break-inside:avoid}
+  .tw{overflow:visible}
+  pre.code{white-space:pre-wrap}
+}
+</style>
+</head>
+<body>
+
+<header class="banner">
+  <div class="wrap">
+    <div class="brand"><b>LGPD Enterprise Auditor</b><span>relatório de auditoria</span><span class="conf">CONFIDENCIAL — uso interno</span></div>
+    <div class="banner-grid">
+      <div>
+        <p class="kicker" id="kicker">Relatório de auditoria LGPD</p>
+        <h1 id="titulo">Relatório de auditoria LGPD</h1>
+        <p class="sub" id="subtitulo"></p>
+      </div>
+      <dl class="meta" id="meta"></dl>
+    </div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Seções do relatório"><div class="wrap" id="nav"></div></nav>
+<!-- ícones do botão de tema, desenhados aqui para o arquivo continuar sem nenhum endereço externo -->
+<template id="icone-lua"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></template>
+<template id="icone-sol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></template>
+
+<main><div class="wrap" id="app">
+  <noscript><p class="note warn">Este relatório precisa de JavaScript para ser exibido. Abra o arquivo em um navegador com JavaScript ativo.</p></noscript>
+</div></main>
+
+<footer><div class="wrap">
+  <p>Este relatório foi gerado com apoio de IA pelo LGPD Enterprise Auditor, a partir das evidências disponíveis no momento da análise. Ele apoia, mas não substitui, a avaliação do encarregado (DPO) e a assessoria jurídica especializada. As conclusões dependem da completude e da atualidade das evidências fornecidas.</p>
+  <p><b>CONFIDENCIAL — uso interno.</b> O relatório descreve falhas que podem estar abertas: não publique nem versione em repositório público, e compartilhe só com quem precisa agir sobre os achados.</p>
+</div></footer>
+
+<!-- DADOS DO RELATÓRIO: substituir a linha abaixo pelo JSON descrito em reports/html-report.md.
+     Dentro do JSON, escrever o caractere "menor que" como \u003c. Nada mais neste arquivo deve ser alterado. -->
+<script type="application/json" id="lgpd-dados">
+{"_modelo": true}
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  var app = document.getElementById('app');
+
+  /* ── utilitários ─────────────────────────────────────────────────────────
+     Todo texto dos dados entra na página por nós de texto, nunca por HTML:
+     a evidência pode trazer trechos de código do sistema auditado. */
+  function h(tag, attrs) {
+    var el = document.createElement(tag), k, v, i;
+    if (attrs) for (k in attrs) {
+      v = attrs[k];
+      if (v == null || v === false) continue;
+      if (k === 'class') el.className = v;
+      else if (k === 'text') el.textContent = v;
+      else el.setAttribute(k, v === true ? '' : v);
+    }
+    for (i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c == null || c === false || c === '') return;
+    if (Array.isArray(c)) c.forEach(function (x) { add(el, x); });
+    else el.appendChild(c.nodeType ? c : document.createTextNode(String(c)));
+  }
+  function arr(x) { return Array.isArray(x) ? x : (x == null || x === '' ? [] : [x]); }
+  function txt(x) { return Array.isArray(x) ? x.join('; ') : (x == null ? '' : String(x)); }
+  function has(x) { return Array.isArray(x) ? x.length > 0 : (x != null && x !== ''); }
+  function isNum(x) { return x != null && x !== '' && !isNaN(Number(x)); }
+  function num(x, d) { return isNum(x) ? Number(x).toFixed(d == null ? 1 : d).replace('.', ',') : '—'; }
+  function pct(x, d) { return isNum(x) ? num(x, d == null ? 1 : d).replace(/,0$/, '') + '%' : '—'; }
+  function slug(x) { return String(x == null ? '' : x).replace(/[^A-Za-z0-9_]+/g, '-'); }
+  function up(x) { return String(x == null ? '' : x).trim().toUpperCase(); }
+
+  function fail(titulo, detalhe) {
+    add(app, h('div', { class: 'note err' }, h('p', null, h('b', { text: titulo })), h('p', { text: detalhe })));
+  }
+
+  /* ── dados ─────────────────────────────────────────────────────────────── */
+  var D;
+  try { D = JSON.parse(document.getElementById('lgpd-dados').textContent); }
+  catch (e) {
+    fail('Os dados do relatório não puderam ser lidos.',
+      'O bloco "lgpd-dados" não é um JSON válido (' + e.message + '). Corrija o bloco de dados e abra o arquivo de novo.');
+    return;
+  }
+  if (!D || D._modelo) {
+    fail('Este é o modelo do relatório, ainda sem dados.',
+      'Copie este arquivo para a pasta do relatório e substitua o bloco "lgpd-dados" pelo JSON da auditoria, conforme reports/html-report.md.');
+    return;
+  }
+
+  var META = D.meta || {}, RES = D.resumo_executivo || {}, SC = D.score_lgpd || {}, NOTES = D.notes || {};
+  var ITEMS = arr(D.checklist_conformidade), NCS = arr(D.nao_conformidades);
+
+  /* rótulos legíveis; o valor canônico fica no atributo title */
+  var L = {
+    status: { CONFORME: 'Conforme', PARCIAL: 'Parcial', NAO_CONFORME: 'Não conforme' },
+    sev: { CRITICO: 'Crítico', ALTO: 'Alto', MEDIO: 'Médio', BAIXO: 'Baixo' },
+    cls: { CRITICO: 'Crítico', BAIXO_NIVEL: 'Baixo nível', PARCIALMENTE_CONFORME: 'Parcialmente conforme',
+      ALTA_CONFORMIDADE: 'Alta conformidade', EXCELENTE: 'Excelente' },
+    area: { bases_legais: 'Bases legais', seguranca: 'Segurança', direitos_titular: 'Direitos do titular',
+      governanca: 'Governança', infraestrutura: 'Infraestrutura', apis_integracoes: 'APIs e integrações', ai_llm: 'IA e LLM',
+      eca_digital: 'ECA Digital', plataformas_digitais: 'Plataformas digitais' },
+    appl: { NAO_APLICAVEL: 'Não aplicável', NAO_VERIFICADO: 'Não verificado' },
+    prazo: { IMEDIATO: 'Imediato (até 7 dias)', '30_DIAS': '30 dias', '90_DIAS': '90 dias', '180_DIAS': '180 dias' },
+    esforco: { P: 'Esforço P · até 1 dia', M: 'Esforço M · até 1 semana', G: 'Esforço G · mais de 1 semana' },
+    tipo: { TECNICO: 'Técnico', DOCUMENTAL: 'Documental' }
+  };
+  var CSEV = { CRITICO: 'crit', ALTO: 'alto', MEDIO: 'medio', BAIXO: 'baixo' };
+  var CST = { CONFORME: 'baixo', PARCIAL: 'medio', NAO_CONFORME: 'crit' };
+  var CCLS = { CRITICO: 'crit', BAIXO_NIVEL: 'alto', PARCIALMENTE_CONFORME: 'medio', ALTA_CONFORMIDADE: 'baixo', EXCELENTE: 'exc' };
+  var SEVS = ['CRITICO', 'ALTO', 'MEDIO', 'BAIXO'];
+  var AREAS = ['bases_legais', 'seguranca', 'direitos_titular', 'governanca', 'infraestrutura', 'apis_integracoes', 'ai_llm',
+    'eca_digital', 'plataformas_digitais'];
+
+  /* regras de core/scoring-engine.md, usadas para conferir os números declarados */
+  var VALOR = { CONFORME: 1, PARCIAL: 0.5, NAO_CONFORME: 0 };
+  var PESO_ITEM = { CRITICO: 4, ALTO: 3, MEDIO: 2, BAIXO: 1 };
+  var PESO_AREA = { bases_legais: 12, seguranca: 20, direitos_titular: 12, governanca: 12, infraestrutura: 8, apis_integracoes: 8, ai_llm: 8,
+    eca_digital: 10, plataformas_digitais: 10 };
+  /* teto de classificação: com achado CRITICO aberto, a classificação não passa deste rótulo */
+  var ORDEM_CLS = ['CRITICO', 'BAIXO_NIVEL', 'PARCIALMENTE_CONFORME', 'ALTA_CONFORMIDADE', 'EXCELENTE'], TETO = 'PARCIALMENTE_CONFORME';
+  function classe(score) {
+    return score < 50 ? 'CRITICO' : score < 70 ? 'BAIXO_NIVEL' : score < 85 ? 'PARCIALMENTE_CONFORME' : score < 95 ? 'ALTA_CONFORMIDADE' : 'EXCELENTE';
+  }
+  function faixa(score) { return isNum(score) ? CCLS[classe(Number(score))] : ''; }
+
+  function chip(label, cls, title) { return h('span', { class: 'chip' + (cls ? ' ' + cls : ''), title: title }, label); }
+  function chipSev(s) { s = up(s); return chip(L.sev[s] || s, CSEV[s], 'severidade ' + s); }
+  function chipStatus(s) { s = up(s); return chip(L.status[s] || s, CST[s], 'status ' + s); }
+  function chipPrazo(p) { p = up(p); return p ? chip(L.prazo[p] || p, 'line', 'prazo ' + p) : null; }
+  function chipEsforco(e) {
+    var k = up(e).charAt(0);
+    return has(e) ? chip(L.esforco[k] && up(e).length === 1 ? L.esforco[k] : 'Esforço ' + e, 'line', 'esforço ' + e) : null;
+  }
+  function areaNome(a) { return L.area[a] || a || '—'; }
+
+  /* ── índices e cálculo ───────────────────────────────────────────────── */
+  var itemById = {}, ncByItem = {};
+  ITEMS.forEach(function (it) { if (it && it.id) itemById[it.id] = it; });
+  NCS.forEach(function (f) { if (f && f.item_id) ncByItem[f.item_id] = f; });
+
+  function aplicavel(it) { return up(it.applicability || 'APLICAVEL') === 'APLICAVEL'; }
+  var calc = (function () {
+    var a = {}, tot = { n: 0, nv: 0, na: 0, CONFORME: 0, PARCIAL: 0, NAO_CONFORME: 0 }, tipo = { TECNICO: [0, 0], DOCUMENTAL: [0, 0] }, ok = true;
+    function area(id) { return a[id] || (a[id] = { n: 0, nv: 0, na: 0, soma: 0, peso: 0 }); }
+    ITEMS.forEach(function (it) {
+      var ar = area(it.score_area || '?'), ap = up(it.applicability || 'APLICAVEL'), st = up(it.status), w = PESO_ITEM[up(it.criticality)];
+      if (ap === 'NAO_APLICAVEL') { ar.na++; tot.na++; return; }
+      if (ap === 'NAO_VERIFICADO') { ar.nv++; tot.nv++; return; }
+      if (!(st in VALOR) || !w) { ok = false; return; }
+      ar.n++; tot.n++; tot[st]++;
+      ar.soma += VALOR[st] * w; ar.peso += w;
+      var t = tipo[up(it.control_type)];
+      if (t) { t[0] += VALOR[st] * w; t[1] += w; }
+    });
+    var num_ = 0, den = 0;
+    Object.keys(a).forEach(function (id) {
+      var x = a[id];
+      x.score = x.peso ? 100 * x.soma / x.peso : null;
+      x.cob = (x.n + x.nv) ? 100 * x.n / (x.n + x.nv) : null;
+      if (x.score != null && PESO_AREA[id]) { num_ += x.score * PESO_AREA[id]; den += PESO_AREA[id]; }
+    });
+    Object.keys(a).forEach(function (id) { a[id].ajustado = (a[id].score != null && PESO_AREA[id] && den) ? 100 * PESO_AREA[id] / den : null; });
+    return {
+      ok: ok && ITEMS.length > 0, areas: a, tot: tot,
+      score: den ? num_ / den : null,
+      cob: (tot.n + tot.nv) ? 100 * tot.n / (tot.n + tot.nv) : null,
+      tec: tipo.TECNICO[1] ? 100 * tipo.TECNICO[0] / tipo.TECNICO[1] : null,
+      doc: tipo.DOCUMENTAL[1] ? 100 * tipo.DOCUMENTAL[0] / tipo.DOCUMENTAL[1] : null
+    };
+  })();
+  function decl(v, c) { return isNum(v) ? Number(v) : c; }
+  var SCORE = decl(SC.score, calc.score == null ? null : Math.round(calc.score));
+  var COB = decl(SC.coverage, calc.cob);
+  var PARCIAL = SC.partial === true || (COB != null && COB < 80);
+  var sevN = { CRITICO: 0, ALTO: 0, MEDIO: 0, BAIXO: 0 };
+  NCS.forEach(function (f) { var s = up(f.severity); if (s in sevN) sevN[s]++; });
+  var CRITICOS = NCS.filter(function (f) { return up(f.severity) === 'CRITICO'; });
+  function classeFinal(score) {
+    var c = classe(score);
+    return CRITICOS.length && ORDEM_CLS.indexOf(c) > ORDEM_CLS.indexOf(TETO) ? TETO : c;
+  }
+  var CLS_CALC = SCORE == null ? '' : classeFinal(SCORE);
+  var CLS = up(SC.classification) || CLS_CALC;
+  var LIMITADA = SCORE != null && classe(SCORE) !== classeFinal(SCORE);
+  var CENARIO = String(META.scenario == null ? '' : META.scenario).trim();
+  var DIRECIONADO = CENARIO !== '' && CENARIO !== 'full_audit';
+
+  /* ── texto: marcação leve (negrito, `código`, listas, tabelas, blocos) ── */
+  var RE_ID = /\b[A-Z]{2,5}-\d{1,3}\b/g;
+  function alvo(id) { return ncByItem[id] ? 'nc-' + slug(id) : (itemById[id] ? 'ci-' + slug(id) : null); }
+  function ref(id) {
+    var t = alvo(id);
+    return t ? h('a', { class: 'ref', href: '#' + t, 'data-goto': t }, id) : document.createTextNode(id);
+  }
+  function linkify(s, parent) {
+    var last = 0, m;
+    RE_ID.lastIndex = 0;
+    while ((m = RE_ID.exec(s))) {
+      if (!alvo(m[0])) continue;
+      if (m.index > last) parent.appendChild(document.createTextNode(s.slice(last, m.index)));
+      parent.appendChild(ref(m[0]));
+      last = m.index + m[0].length;
+    }
+    if (last < s.length) parent.appendChild(document.createTextNode(s.slice(last)));
+  }
+  function inline(text, parent) {
+    var s = txt(text), i = 0, cur = parent, buf = '', j;
+    function flush() { if (buf) { linkify(buf, cur); buf = ''; } }
+    while (i < s.length) {
+      if (s[i] === '`' && (j = s.indexOf('`', i + 1)) > i) {
+        flush(); cur.appendChild(h('code', { text: s.slice(i + 1, j) })); i = j + 1; continue;
+      }
+      if (s[i] === '*' && s[i + 1] === '*') {
+        flush();
+        if (cur !== parent) cur = parent; else { cur = h('strong'); parent.appendChild(cur); }
+        i += 2; continue;
+      }
+      buf += s[i++];
+    }
+    flush();
+    return parent;
+  }
+  function celulas(linha) {
+    var s = linha.trim().replace(/^\|/, '').replace(/\|$/, ''), out = [], cur = '', code = false, i;
+    for (i = 0; i < s.length; i++) {
+      if (s[i] === '`') code = !code;
+      if (s[i] === '\\' && s[i + 1] === '|') { cur += '|'; i++; continue; }
+      if (s[i] === '|' && !code) { out.push(cur.trim()); cur = ''; continue; }
+      cur += s[i];
+    }
+    out.push(cur.trim());
+    return out;
+  }
+  function tabela(cab, linhas) {
+    var t = h('table', null, h('thead', null, h('tr', null, cab.map(function (c) { return inline(c, h('th')); }))));
+    var tb = h('tbody');
+    linhas.forEach(function (r) {
+      tb.appendChild(h('tr', null, r.map(function (c) { return (c && c.nodeType) ? h('td', null, c) : inline(c, h('td')); })));
+    });
+    t.appendChild(tb);
+    return h('div', { class: 'tw' }, t);
+  }
+  var RE_LI = /^(\s*)([-*]|\d+\.)\s+(.*)$/;
+  function md(text) {
+    var root = h('div', { class: 'md' }), lines = txt(Array.isArray(text) ? text.join('\n\n') : text).replace(/\r/g, '').split('\n'), i = 0, m;
+    function bloco(l) { return !l.trim() || /^(```|#{1,6}\s|>|\s*\|)/.test(l) || RE_LI.test(l); }
+    while (i < lines.length) {
+      var ln = lines[i];
+      if (!ln.trim()) { i++; continue; }
+      if (/^\s*```/.test(ln)) {
+        var cod = [];
+        for (i++; i < lines.length && !/^\s*```\s*$/.test(lines[i]); i++) cod.push(lines[i]);
+        i++;
+        root.appendChild(h('pre', { class: 'code' }, h('code', { text: cod.join('\n') })));
+        continue;
+      }
+      if ((m = /^(#{1,6})\s+(.*)$/.exec(ln))) { root.appendChild(inline(m[2], h(m[1].length <= 3 ? 'h4' : 'h5'))); i++; continue; }
+      if (/^\s*\|/.test(ln) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
+        var cab = celulas(ln), rows = [];
+        for (i += 2; i < lines.length && /^\s*\|/.test(lines[i]); i++) rows.push(celulas(lines[i]));
+        root.appendChild(tabela(cab, rows));
+        continue;
+      }
+      if (/^>/.test(ln)) {
+        var q = [];
+        for (; i < lines.length && /^>/.test(lines[i]); i++) q.push(lines[i].replace(/^>\s?/, ''));
+        root.appendChild(inline(q.join(' '), h('blockquote')));
+        continue;
+      }
+      if (RE_LI.test(ln)) {
+        var pilha = [], li = null;
+        for (; i < lines.length && lines[i].trim(); i++) {
+          m = RE_LI.exec(lines[i]);
+          if (!m) {
+            if (/^\s+/.test(lines[i]) && li) { li.appendChild(document.createTextNode(' ')); inline(lines[i].trim(), li); continue; }
+            break;
+          }
+          var ind = m[1].length;
+          while (pilha.length && pilha[pilha.length - 1].ind > ind) pilha.pop();
+          if (!pilha.length || pilha[pilha.length - 1].ind < ind) {
+            var lista = h(/\d/.test(m[2]) ? 'ol' : 'ul');
+            (pilha.length && li ? li : root).appendChild(lista);
+            pilha.push({ ind: ind, el: lista });
+          }
+          li = inline(m[3], h('li'));
+          pilha[pilha.length - 1].el.appendChild(li);
+        }
+        continue;
+      }
+      var par = [];
+      for (; i < lines.length && !bloco(lines[i]); i++) par.push(lines[i].trim());
+      if (!par.length) { par.push(ln.trim()); i++; }
+      root.appendChild(inline(par.join(' '), h('p')));
+    }
+    return root;
+  }
+  function refs(ids) {
+    var box = h('span', { class: 'chips' });
+    arr(ids).forEach(function (id) { linkify(String(id), box); box.appendChild(document.createTextNode(' ')); });
+    return box;
+  }
+  function campo(rotulo, conteudo, full) {
+    if (!has(conteudo)) return null;
+    return h('div', { class: 'fd' + (full ? ' full' : '') }, h('p', { class: 'lbl', text: rotulo }),
+      conteudo.nodeType ? conteudo : md(conteudo));
+  }
+  function evidencia(o) {
+    var partes = [];
+    if (has(o.evidence_type)) partes.push(up(o.evidence_type) + (has(o.evidence_source) ? ' (' + up(o.evidence_source) + ')' : ''));
+    if (has(o.evidence_confidence)) partes.push('confiança ' + up(o.evidence_confidence));
+    if (!partes.length && !has(o.evidence)) return null;
+    return h('div', null, partes.length ? h('span', { class: 'evt', text: partes.join(', ') }) : null, md(txt(o.evidence)));
+  }
+
+  /* ── seções ─────────────────────────────────────────────────────────── */
+  var nav = document.getElementById('nav'), secoes = [];
+  function secao(id, rotulo, titulo, curto) {
+    var s = h('section', { id: id }, h('p', { class: 'eyebrow', text: rotulo }), h('h2', { text: titulo }));
+    app.appendChild(s);
+    var a = h('a', { href: '#' + id }, curto || titulo);
+    nav.appendChild(a);
+    secoes.push([s, a]);
+    return s;
+  }
+  function vazio(s) { add(s, h('p', { class: 'muted', text: 'Sem registros nesta seção.' })); }
+  function nota(s, chave) { if (has(NOTES[chave])) add(s, h('div', { class: 'box', style: 'margin-top:14px' }, md(NOTES[chave]))); }
+
+  /* cabeçalho */
+  (function () {
+    var nome = META.audited || META.title || 'Relatório de auditoria LGPD';
+    document.title = 'Relatório de auditoria LGPD — ' + nome;
+    document.getElementById('titulo').textContent = nome;
+    document.getElementById('kicker').textContent = 'Relatório de auditoria LGPD' + (META.scenario ? ' · ' + META.scenario : '');
+    document.getElementById('subtitulo').textContent = META.subtitle || '';
+    var dl = document.getElementById('meta');
+    [['data', META.date], ['comando', META.command], ['cenário', META.scenario],
+      ['módulos', txt(arr(META.modules).join(', '))], ['framework', META.framework_version && 'LGPD Enterprise Auditor ' + META.framework_version],
+      ['método', META.method]].forEach(function (p) {
+      if (has(p[1])) add(dl, [h('dt', { text: p[0] }), h('dd', { text: p[1] })]);
+    });
+  })();
+
+  if (has(META.notice)) add(app, h('div', { class: 'note' }, md(META.notice)));
+  if (has(D.context)) {
+    add(app, h('details', { class: 'it longa' }, h('summary', null, h('span', { class: 'id', text: 'contexto' }),
+      h('span', { class: 'tt', text: 'Contexto e escopo da auditoria' }), h('span', { class: 'muted small dica', text: 'abrir' })),
+      h('div', { class: 'body' }, md(D.context))));
+  }
+
+  /* 1 · resumo executivo */
+  (function () {
+    var s = secao('resumo', '1 · resumo_executivo', 'Resumo executivo', 'Resumo');
+    var c = CCLS[CLS] || '';
+    var card = h('div', { class: 'card' },
+      h('p', { class: 'lbl', text: 'Score LGPD' }),
+      h('div', { class: 'score-n' }, h('b', { class: c ? 'c-' + c : '', text: SCORE == null ? '—' : String(SCORE) }), h('span', { text: '/ 100' })),
+      h('div', { class: 'chips' }, CLS ? chip(L.cls[CLS] || CLS, c, 'classificação ' + CLS) : null, CLS ? h('code', { text: CLS }) : null,
+        PARCIAL ? chip('score parcial', 'medio', 'cobertura global abaixo de 80%') : null,
+        LIMITADA ? chip('classificação limitada por achado crítico', 'crit', 'teto de classificação: há não conformidade CRITICO aberta') : null,
+        DIRECIONADO ? chip('escopo direcionado', 'line', 'cenário ' + CENARIO + ': a classificação vale para o escopo auditado') : null));
+    if (SCORE != null) {
+      var bandas = [[50, 'crit'], [20, 'alto'], [15, 'medio'], [10, 'baixo'], [5, 'exc']];
+      card.appendChild(h('div', { class: 'gauge', role: 'img', 'aria-label': 'Score ' + SCORE + ' de 100' },
+        h('div', { class: 'bands' }, bandas.map(function (b) { return h('i', { class: 'b-' + b[1], style: 'width:' + b[0] + '%' }); })),
+        h('div', { class: 'mark', style: 'left:' + Math.max(0, Math.min(100, SCORE)) + '%' })));
+      card.appendChild(h('div', { class: 'gauge-s' }, [['0', 50], ['50', 20], ['70', 15], ['85', 10], ['95', 5]].map(function (b) {
+        return h('span', { style: 'width:' + b[1] + '%', text: b[0] });
+      })));
+    }
+    var max = Math.max(1, sevN.CRITICO, sevN.ALTO, sevN.MEDIO, sevN.BAIXO), bars = h('div', { class: 'bars' });
+    SEVS.forEach(function (sv) {
+      add(bars, [h('span', { text: L.sev[sv] }),
+        h('div', { class: 'bar' }, h('i', { class: 'b-' + CSEV[sv], style: 'width:' + (100 * sevN[sv] / max) + '%' })),
+        h('b', { text: String(sevN[sv]) })]);
+    });
+    add(card, [h('p', { class: 'lbl', style: 'margin-top:18px', text: 'Não conformidades por severidade' }), bars]);
+
+    var t = calc.tot, total = t.n || 1;
+    add(card, [h('p', { class: 'lbl', style: 'margin-top:18px', text: 'Checklist · ' + ITEMS.length + (ITEMS.length === 1 ? ' item' : ' itens') }),
+      h('div', { class: 'stack' },
+        h('i', { class: 'b-baixo', style: 'width:' + (100 * t.CONFORME / total) + '%' }),
+        h('i', { class: 'b-medio', style: 'width:' + (100 * t.PARCIAL / total) + '%' }),
+        h('i', { class: 'b-crit', style: 'width:' + (100 * t.NAO_CONFORME / total) + '%' })),
+      h('div', { class: 'leg' }, h('span', { class: 'l-ok', text: t.CONFORME + (t.CONFORME === 1 ? ' conforme' : ' conformes') }),
+        h('span', { class: 'l-pa', text: t.PARCIAL + (t.PARCIAL === 1 ? ' parcial' : ' parciais') }),
+        h('span', { class: 'l-nc', text: t.NAO_CONFORME + (t.NAO_CONFORME === 1 ? ' não conforme' : ' não conformes') }),
+        h('span', { text: (t.na + t.nv) + ' fora do cálculo' })),
+      h('div', { class: 'kpis' },
+        h('div', { class: 'kpi' }, h('b', { text: pct(COB) }), h('p', { text: PARCIAL ? 'cobertura: abaixo de 80%, score parcial' : 'cobertura da análise' })),
+        h('div', { class: 'kpi' }, h('b', { text: num(decl(SC.score_tecnico, calc.tec)) }), h('p', { text: 'score técnico (informativo)' })),
+        h('div', { class: 'kpi' }, h('b', { text: num(decl(SC.score_documental, calc.doc)) }), h('p', { text: 'score documental (informativo)' })))]);
+
+    add(s, h('div', { class: 'grid hero' },
+      h('div', { class: 'card' }, h('p', { class: 'lbl', text: 'Nível geral de conformidade' }),
+        has(RES.overview) ? md(RES.overview) : h('p', { class: 'muted', text: 'Sem resumo.' }),
+        has(RES.strengths) ? [h('p', { class: 'lbl', style: 'margin-top:16px', text: 'Pontos fortes' }), md(RES.strengths)] : null),
+      card));
+
+    if (arr(RES.actions).length) {
+      add(s, h('h3', { text: 'O que fazer agora' }));
+      var ol = h('ol', { class: 'acts' });
+      arr(RES.actions).forEach(function (a, i) {
+        ol.appendChild(h('li', { class: 'act' }, h('div', { class: 'n', text: String(i + 1) }),
+          h('div', null, inline(a.action, h('h4')), has(a.why) ? inline(a.why, h('p', { class: 'why' })) : null,
+            h('div', { class: 'chips' }, chipEsforco(a.effort), chipPrazo(a.deadline), refs(a.items)))));
+      });
+      add(s, ol);
+    }
+    if (has(RES.accepted_risks)) add(s, [h('h3', { text: 'Riscos aceitos' }), h('div', { class: 'note warn' }, md(RES.accepted_risks))]);
+    nota(s, 'resumo_executivo');
+  })();
+
+  /* 2 · score */
+  (function () {
+    var s = secao('score', '2 · score_lgpd', 'Score LGPD', 'Score');
+    var decls = {}, ids = AREAS.slice();
+    arr(SC.areas).forEach(function (a) { if (a && a.id) { decls[a.id] = a; if (ids.indexOf(a.id) < 0) ids.push(a.id); } });
+    Object.keys(calc.areas).forEach(function (id) { if (ids.indexOf(id) < 0 && id !== '?') ids.push(id); });
+
+    var lista = h('div', { class: 'areas' }), difs = [];
+    ids.forEach(function (id) {
+      var d = decls[id] || {}, c = calc.areas[id] || {};
+      var na = up(d.applicability) === 'NAO_APLICAVEL' || (!isNum(d.score) && c.score == null);
+      if (na) {
+        if (!decls[id] && !calc.areas[id] && !arr(SC.areas).length) return;
+        lista.appendChild(h('div', { class: 'area na' },
+          h('div', { class: 'nm' }, areaNome(id), h('code', { text: id })),
+          h('div', null, chip(up(d.applicability) === 'NAO_APLICAVEL' ? 'Não aplicável' : 'Sem item avaliado', '',
+            up(d.applicability) || 'cobertura insuficiente')),
+          h('div', { class: 'v muted', text: '—' }),
+          has(d.justification) ? h('div', { class: 'sub' }, inline(d.justification, h('span'))) : null));
+        return;
+      }
+      var sc = decl(d.score, c.score), cob = decl(d.coverage, c.cob), aj = decl(d.adjusted_weight, c.ajustado), f = faixa(sc);
+      if (calc.ok && isNum(d.score) && c.score != null && Math.abs(Number(d.score) - c.score) > 0.06)
+        difs.push(areaNome(id) + ': declarado ' + num(d.score) + ', recalculado ' + num(c.score));
+      lista.appendChild(h('div', { class: 'area' },
+        h('div', { class: 'nm' }, areaNome(id), h('code', { text: id })),
+        h('div', { class: 'bar' }, h('i', { class: 'b-' + f, style: 'width:' + Math.max(0, Math.min(100, sc)) + '%' })),
+        h('div', { class: 'v c-' + f, text: num(sc) }),
+        h('div', { class: 'sub' },
+          h('span', { text: 'peso ' + pct(decl(d.weight, PESO_AREA[id]), 2) + (isNum(aj) ? ' · ajustado ' + pct(aj, 2) : '') }),
+          c.n != null ? h('span', { text: c.n + (c.n === 1 ? ' item avaliado' : ' itens avaliados') }) : null,
+          isNum(cob) ? h('span', { text: 'cobertura ' + pct(cob) }) : null,
+          isNum(cob) && cob < 50 ? chip('cobertura baixa', 'medio', 'cobertura da área abaixo de 50%') : null)));
+    });
+    if (calc.ok && isNum(SC.score) && calc.score != null && Number(SC.score) !== Math.round(calc.score))
+      difs.unshift('Score global: declarado ' + SC.score + ', recalculado ' + Math.round(calc.score) + ' (' + num(calc.score, 3) + ')');
+    if (calc.ok && isNum(SC.coverage) && calc.cob != null && Math.abs(Number(SC.coverage) - calc.cob) > 0.06)
+      difs.push('Cobertura: declarada ' + pct(SC.coverage) + ', recalculada ' + pct(calc.cob));
+    if (calc.ok && has(SC.classification) && CLS_CALC && up(SC.classification) !== CLS_CALC)
+      difs.push('Classificação: declarada ' + up(SC.classification) + ', esperada ' + CLS_CALC + (LIMITADA ? ' (teto por achado crítico)' : ''));
+    if (difs.length) {
+      add(s, h('div', { class: 'note warn' }, h('p', null, h('b', { text: 'Conferir o cálculo. ' }),
+        'Os números declarados diferem do recálculo feito a partir do checklist deste arquivo:'),
+        h('ul', { style: 'margin:0;padding-left:20px' }, difs.map(function (d) { return h('li', { text: d }); }))));
+    }
+    add(s, h('div', { class: 'card' }, h('p', { class: 'lbl', text: 'Score por área' }), lista));
+    if (calc.ok && !difs.length) add(s, h('p', { class: 'muted small', style: 'margin:8px 2px 0',
+      text: 'Conferência automática: os números batem com o recálculo feito a partir do checklist (fórmula de core/scoring-engine.md).' }));
+
+    if (LIMITADA) add(s, h('div', { class: 'note warn' }, h('p', null, h('b', { text: 'Classificação limitada por achado crítico. ' }),
+      'Pelo score, a faixa seria "' + (L.cls[classe(SCORE)] || classe(SCORE)) + '"; com não conformidade de severidade crítica aberta, a classificação não passa de "' +
+      L.cls[TETO] + '". Achados: ', refs(CRITICOS.map(function (f) { return f.item_id || f.id; })))));
+    if (DIRECIONADO || arr(SC.out_of_scope).length) {
+      add(s, [h('h3', { text: 'Escopo do score' }), h('div', { class: 'card' },
+        h('p', { text: DIRECIONADO ? 'Escopo direcionado (cenário ' + CENARIO + '): o score e a classificação valem para o que este cenário auditou, não para a organização inteira.'
+          : 'Auditoria completa: o cenário cobre os 17 domínios.' }),
+        arr(SC.out_of_scope).length ? [h('p', { class: 'lbl', style: 'margin-top:12px', text: 'Domínios fora do escopo' }),
+          h('ul', { style: 'margin:0;padding-left:20px' }, arr(SC.out_of_scope).map(function (d) { return inline(d, h('li')); }))] : null)]);
+    }
+
+    var kv = h('dl', { class: 'kv' });
+    [['Natureza do agente', SC.agent_nature], ['Papel do agente', SC.agent_role], ['Modulação de severidade', SC.severity_modulation]].forEach(function (p) {
+      if (has(p[1])) add(kv, [h('dt', { text: p[0] }), inline(p[1], h('dd'))]);
+    });
+    if (kv.childNodes.length) add(s, [h('h3', { text: 'Natureza e papel do agente de tratamento' }), h('div', { class: 'card' }, kv)]);
+
+    var nv = ITEMS.filter(function (it) { return up(it.applicability) === 'NAO_VERIFICADO'; }), pend = arr(SC.pending_checks);
+    if (nv.length || pend.length) {
+      add(s, h('h3', { text: 'Verificações pendentes que podem alterar o score' }));
+      if (nv.length) add(s, [h('p', { class: 'muted small', text: 'Itens não verificados: ficam fora do cálculo até a verificação.' }),
+        tabela(['Item', 'O que falta conferir', 'Justificativa ou acesso necessário'], nv.map(function (it) {
+          return [ref(it.id), it.item, it.justification];
+        }))]);
+      if (pend.length) add(s, [h('p', { class: 'muted small', text: 'Itens cujo status ou severidade dependem de verificação ainda não feita.' }),
+        tabela(['Item', 'Situação atual', 'O que pode mudar', 'Verificação'], pend.map(function (p) {
+          return [refs(p.item), p.current, p.may_change, p.check];
+        }))]);
+    }
+    if (has(NOTES.score_lgpd)) add(s, h('details', { class: 'it longa' },
+      h('summary', null, h('span', { class: 'id', text: 'cálculo' }), h('span', { class: 'tt', text: 'Regras aplicadas e memória de cálculo' }),
+        h('span', { class: 'muted small dica', text: 'abrir' })),
+      h('div', { class: 'body' }, md(NOTES.score_lgpd))));
+  })();
+
+  /* barra de filtros compartilhada pelo checklist e pelas não conformidades */
+  function filtros(s, fichas, opcoes, attr, rotuloBusca, select) {
+    var estado = { f: 'all', q: '', a: '' }, cnt = h('span', { class: 'cnt' }), bar = h('div', { class: 'tools' });
+    var chips = opcoes.map(function (o) {
+      var b = h('button', { class: 'fchip' + (o[0] === 'all' ? ' on' : ''), type: 'button', 'data-f': o[0] }, o[1], h('b', { text: String(o[2]) }));
+      b.addEventListener('click', function () { estado.f = o[0]; aplica(); });
+      return b;
+    });
+    var busca = h('input', { type: 'search', placeholder: rotuloBusca, 'aria-label': rotuloBusca });
+    busca.addEventListener('input', function () { estado.q = busca.value.trim().toLowerCase(); aplica(); });
+    if (select) select.addEventListener('change', function () { estado.a = select.value; aplica(); });
+    var todas = h('button', { class: 'fchip', type: 'button' }, 'abrir todas');
+    todas.addEventListener('click', function () {
+      var abrir = todas.textContent === 'abrir todas';
+      fichas.forEach(function (f) { if (!f.hidden) f.open = abrir; });
+      todas.textContent = abrir ? 'fechar todas' : 'abrir todas';
+    });
+    function aplica() {
+      var n = 0;
+      chips.forEach(function (c) { c.classList.toggle('on', c.getAttribute('data-f') === estado.f); });
+      fichas.forEach(function (f) {
+        var ok = (estado.f === 'all' || f.getAttribute(attr) === estado.f) &&
+          (!estado.a || f.getAttribute('data-area') === estado.a) &&
+          (!estado.q || (f.getAttribute('data-q') || '').indexOf(estado.q) !== -1);
+        f.hidden = !ok; if (ok) n++;
+      });
+      [].forEach.call(s.querySelectorAll('.grupo'), function (g) { g.hidden = !g.querySelector('details.it:not([hidden])'); });
+      cnt.textContent = n + ' de ' + fichas.length;
+    }
+    add(bar, [chips, select, busca, todas, cnt]);
+    aplica();
+    return { el: bar, limpa: function () { estado.f = 'all'; estado.q = ''; estado.a = ''; busca.value = ''; if (select) select.value = ''; aplica(); } };
+  }
+  var limpar = [];
+
+  /* 3 · checklist */
+  (function () {
+    var s = secao('checklist', '3 · checklist_conformidade', 'Checklist de conformidade', 'Checklist');
+    var dentro = ITEMS.filter(aplicavel), fora = ITEMS.filter(function (it) { return !aplicavel(it); });
+    if (!ITEMS.length) { vazio(s); return; }
+    var fichas = [], grupos = h('div'), porArea = {}, ordem = [];
+    dentro.forEach(function (it) {
+      var a = it.score_area || '—';
+      if (!porArea[a]) { porArea[a] = []; ordem.push(a); }
+      porArea[a].push(it);
+    });
+    ordem.sort(function (a, b) { return (AREAS.indexOf(a) + 99) % 99 - (AREAS.indexOf(b) + 99) % 99; });
+    ordem.forEach(function (a) {
+      var c = calc.areas[a] || {}, g = h('div', { class: 'grupo' },
+        h('div', { class: 'grp' }, h('h3', { text: areaNome(a) }), h('code', { text: a }),
+          c.score != null ? h('span', { class: 'muted small', text: 'score da área ' + num(c.score) }) : null));
+      porArea[a].forEach(function (it) {
+        var st = up(it.status), f = ncByItem[it.id];
+        var d = h('details', { class: 'it s-' + (CST[st] || ''), id: 'ci-' + slug(it.id), 'data-status': st, 'data-area': a,
+          'data-q': (txt(it.id) + ' ' + txt(it.item) + ' ' + txt(it.evidence) + ' ' + txt(it.domain)).toLowerCase() },
+          h('summary', null, h('span', { class: 'id', text: it.id || '' }), inline(it.item, h('span', { class: 'tt' })),
+            h('span', { class: 'chips' }, chipStatus(st), /^EX-/.test(txt(it.id)) ? chip('item extra', 'line', 'item fora do catálogo') : null,
+              has(it.criticality) ? chip('peso ' + (PESO_ITEM[up(it.criticality)] || '?') + ' · ' + (L.sev[up(it.criticality)] || it.criticality), 'line',
+                'criticality ' + up(it.criticality)) : null)),
+          h('div', { class: 'body' }, h('div', { class: 'fields' },
+            campo('Evidência', evidencia(it), true),
+            campo('Impacto', it.impact),
+            campo('Recomendação', it.recommendation),
+            h('div', { class: 'fd full chips' }, chip('área ' + a, 'line'), has(it.control_type) ? chip('controle ' + (L.tipo[up(it.control_type)] || it.control_type).toLowerCase(), 'line', 'control_type ' + up(it.control_type)) : null,
+              has(it.domain) ? chip('domínio ' + it.domain, 'line') : null,
+              f ? h('a', { class: 'ref', href: '#nc-' + slug(it.id), 'data-goto': 'nc-' + slug(it.id) }, 'ver não conformidade' + (f.id ? ' ' + f.id : '')) : null))));
+        fichas.push(d); g.appendChild(d);
+      });
+      grupos.appendChild(g);
+    });
+    var t = calc.tot, sel = h('select', { 'aria-label': 'Filtrar por área' }, h('option', { value: '' }, 'Todas as áreas'),
+      ordem.map(function (a) { return h('option', { value: a }, areaNome(a)); }));
+    var fl = filtros(s, fichas, [['all', 'Todos', dentro.length], ['NAO_CONFORME', 'Não conformes', t.NAO_CONFORME], ['PARCIAL', 'Parciais', t.PARCIAL],
+      ['CONFORME', 'Conformes', t.CONFORME]], 'data-status', 'Buscar item ou evidência', sel);
+    limpar.push(fl.limpa);
+    add(s, [h('p', { class: 'muted small', text: 'Só os itens aplicáveis têm status e entram no score. Abra um item para ver evidência, impacto e recomendação.' }), fl.el, grupos]);
+    if (fora.length) {
+      add(s, [h('h3', { text: 'Itens fora do cálculo' }),
+        tabela(['Item', 'Área', 'Aplicabilidade', 'Justificativa ou acesso necessário'], fora.map(function (it) {
+          var ap = up(it.applicability), c0 = h('span', { id: 'ci-' + slug(it.id) }, h('b', { text: (it.id || '') + ' ' }));
+          inline(it.item, c0);
+          return [c0, h('span', null, areaNome(it.score_area)), chip(L.appl[ap] || ap, ap === 'NAO_VERIFICADO' ? 'medio' : '', ap), it.justification];
+        }))]);
+    }
+    nota(s, 'checklist_conformidade');
+  })();
+
+  /* 4 · não conformidades */
+  (function () {
+    var s = secao('nao-conformidades', '4 · nao_conformidades', 'Não conformidades', 'Não conformidades');
+    if (!NCS.length) { vazio(s); nota(s, 'nao_conformidades'); return; }
+    var ord = NCS.slice().sort(function (a, b) { return SEVS.indexOf(up(a.severity)) - SEVS.indexOf(up(b.severity)); });
+    var fichas = ord.map(function (f) {
+      var sv = up(f.severity), ra = f.risk_acceptance, mo = f.severity_modulation, it = itemById[f.item_id] || {};
+      return h('details', { class: 'it s-' + (CSEV[sv] || ''), id: 'nc-' + slug(f.item_id || f.id), 'data-sev': sv,
+        'data-q': [f.id, f.item_id, f.title, f.problem, f.lgpd_article, f.module, f.owner].map(txt).join(' ').toLowerCase() },
+        h('summary', null, h('span', { class: 'id', text: [f.id, f.item_id].filter(has).join(' · ') }), inline(f.title || f.problem, h('span', { class: 'tt' })),
+          h('span', { class: 'chips' }, chipSev(sv), ra ? chip('risco aceito', 'line') : null, chipPrazo(f.deadline_suggestion))),
+        h('div', { class: 'body' }, h('div', { class: 'fields' },
+          campo('Problema', f.problem, true),
+          campo('Severidade', h('div', null, h('div', { class: 'chips', style: 'margin-bottom:6px' }, chipSev(sv),
+            has(it.status) ? chip('item ' + (L.status[up(it.status)] || it.status).toLowerCase(), 'line', 'status ' + up(it.status)) : null),
+            has(f.severity_note) ? md(f.severity_note) : null)),
+          campo('Fundamento legal', f.lgpd_article),
+          campo('Evidência', evidencia(f), true),
+          campo('Impacto técnico', f.technical_impact),
+          campo('Impacto jurídico', f.legal_impact),
+          campo('Correção recomendada', h('div', null, md(f.recommendation),
+            h('div', { class: 'chips', style: 'margin-top:8px' }, chipEsforco(f.effort), chipPrazo(f.deadline_suggestion),
+              has(f.owner) ? chip('responsável: ' + txt(f.owner), 'line') : null)), true),
+          mo ? campo('Modulação de severidade', h('div', { class: 'box' }, h('div', { class: 'chips', style: 'margin-bottom:6px' },
+            chipSev(mo.original), '→', chipSev(mo.applied)), md(mo.justification)), true) : null,
+          ra ? campo('Aceite de risco', h('div', { class: 'box' }, (function () {
+            var kv = h('dl', { class: 'kv' });
+            [['Aceito por', ra.accepted_by], ['Data do aceite', ra.accepted_at], ['Justificativa', ra.justification],
+              ['Prazo aceito', L.prazo[up(ra.accepted_deadline)] || ra.accepted_deadline], ['Revisão em', ra.review_at]].forEach(function (p) {
+              if (has(p[1])) add(kv, [h('dt', { text: p[0] }), inline(p[1], h('dd'))]);
+            });
+            return kv;
+          })(), h('p', { class: 'muted small', style: 'margin:10px 0 0', text: 'O aceite não altera status, severidade nem score.' })), true) : null)));
+    });
+    var fl = filtros(s, fichas, [['all', 'Todas', NCS.length]].concat(SEVS.map(function (sv) { return [sv, L.sev[sv], sevN[sv]]; })),
+      'data-sev', 'Buscar por título, item ou artigo');
+    limpar.push(fl.limpa);
+    add(s, [fl.el, fichas]);
+    nota(s, 'nao_conformidades');
+  })();
+
+  /* 5 · itens obrigatórios ausentes */
+  (function () {
+    var s = secao('ausentes', '5 · itens_obrigatorios_ausentes', 'Itens obrigatórios ausentes', 'Ausentes'), l = arr(D.itens_obrigatorios_ausentes);
+    if (!l.length) vazio(s);
+    else add(s, tabela(['Requisito', 'Norma', 'Item'], l.map(function (x) {
+      return typeof x === 'string' ? [x, '', ''] : [x.requirement, x.norm, refs(x.items)];
+    })));
+    nota(s, 'itens_obrigatorios_ausentes');
+  })();
+
+  /* 6 · riscos */
+  (function () {
+    var s = secao('riscos', '6 · riscos_identificados', 'Riscos identificados', 'Riscos'), R = D.riscos_identificados || {};
+    var g = h('div', { class: 'grid g2' });
+    [['tecnicos', 'Técnicos'], ['juridicos', 'Jurídicos'], ['operacionais', 'Operacionais'], ['reputacionais', 'Reputacionais']].forEach(function (p) {
+      var l = arr(R[p[0]]);
+      g.appendChild(h('div', { class: 'card risk' }, h('h3', { text: p[1] }),
+        l.length ? h('div', { class: 'md' }, h('ul', null, l.map(function (x) { return inline(x, h('li')); }))) : h('p', { class: 'muted', text: 'Nenhum risco registrado.' })));
+    });
+    add(s, g);
+    var aceitos = NCS.filter(function (f) { return f.risk_acceptance; });
+    add(s, h('h3', { text: 'Riscos aceitos' }));
+    if (!aceitos.length) add(s, h('p', { class: 'muted', text: 'Nenhum risco aceito registrado.' }));
+    else add(s, [tabela(['Item', 'Severidade', 'Aceito por', 'Data', 'Justificativa', 'Prazo sugerido', 'Prazo aceito', 'Revisão'], aceitos.map(function (f) {
+      var ra = f.risk_acceptance;
+      return [h('span', null, refs(f.item_id || f.id), inline(f.title, h('span'))), chipSev(f.severity), ra.accepted_by, ra.accepted_at, ra.justification,
+        chipPrazo(f.deadline_suggestion), chipPrazo(ra.accepted_deadline), ra.review_at];
+    })), h('p', { class: 'muted small', text: 'O aceite fica registrado para prestação de contas e não altera status, severidade nem score.' })]);
+    nota(s, 'riscos_identificados');
+  })();
+
+  /* 7 · plano de adequação */
+  (function () {
+    var s = secao('plano', '7 · plano_adequacao', 'Plano de adequação', 'Plano'), l = arr(D.plano_adequacao);
+    if (!l.length) { vazio(s); nota(s, 'plano_adequacao'); return; }
+    var fases = [['Curto prazo', '0 a 30 dias', ['IMEDIATO', '30_DIAS']], ['Médio prazo', '30 a 90 dias', ['90_DIAS']], ['Longo prazo', '90 a 180 dias', ['180_DIAS']]];
+    var g = h('div', { class: 'grid plan' }), n = 0;
+    fases.forEach(function (f, i) {
+      var acoes = l.filter(function (a) { var p = up(a.deadline); return f[2].indexOf(p) >= 0 || (i === 0 && !p); });
+      var col = h('div', { class: 'card' }, h('h3', { text: f[0] }), h('p', { class: 'muted small', text: f[1] + ' · ' + acoes.length + (acoes.length === 1 ? ' ação' : ' ações') }));
+      acoes.forEach(function (a) {
+        n++;
+        col.appendChild(h('div', { class: 'step' }, inline(a.action, h('p', null, h('span', { class: 'n', text: String(n).padStart(2, '0') }))),
+          h('div', { class: 'chips' }, chipEsforco(a.effort), chipPrazo(a.deadline), has(a.owner) ? chip(txt(a.owner), 'line', 'responsável sugerido') : null, refs(a.items))));
+      });
+      g.appendChild(col);
+    });
+    add(s, g);
+    nota(s, 'plano_adequacao');
+  })();
+
+  /* 8 · recomendações técnicas */
+  (function () {
+    var s = secao('recomendacoes', '8 · recomendacoes_tecnicas', 'Recomendações técnicas', 'Recomendações');
+    if (!has(D.recomendacoes_tecnicas)) vazio(s); else add(s, h('div', { class: 'card' }, md(D.recomendacoes_tecnicas)));
+  })();
+
+  /* glossário (anexo) */
+  (function () {
+    var l = arr(D.glossary);
+    if (!l.length) return;
+    var s = secao('glossario', 'anexo', 'Glossário', 'Glossário'), dl = h('dl', { class: 'gloss' });
+    l.forEach(function (x) { dl.appendChild(h('div', null, inline(txt(x.term) + ': ', h('dt')), inline(x.definition, h('dd')))); });
+    add(s, h('div', { class: 'card' }, dl));
+  })();
+
+  /* ── comportamento ──────────────────────────────────────────────────── */
+  var root = document.documentElement;
+  add(nav, h('span', { class: 'sp' }));
+  function icone(id) { return document.getElementById(id).content.firstElementChild.cloneNode(true); }
+  var bPrint = h('button', { class: 'tbtn', type: 'button' }, 'imprimir / PDF');
+  var bTema = h('button', { class: 'tbtn tema', type: 'button' },
+    h('span', { class: 'p-escuro' }, icone('icone-lua'), 'tema escuro'),
+    h('span', { class: 'p-claro' }, icone('icone-sol'), 'tema claro'));
+  add(nav, [bPrint, bTema]);
+  bPrint.addEventListener('click', function () { window.print(); });
+  try { var salvo = localStorage.getItem('lgpd-relatorio-tema'); if (salvo) root.setAttribute('data-theme', salvo); } catch (e) {}
+  bTema.addEventListener('click', function () {
+    var atual = root.getAttribute('data-theme') || (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var novo = atual === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', novo);
+    try { localStorage.setItem('lgpd-relatorio-tema', novo); } catch (e) {}
+  });
+
+  /* seção visível marcada na navegação */
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        secoes.forEach(function (p) { p[1].classList.toggle('on', p[0] === e.target); });
+      });
+    }, { rootMargin: '-30% 0px -65% 0px' });
+    secoes.forEach(function (p) { io.observe(p[0]); });
+  }
+
+  /* referência a um item: limpa os filtros, abre a ficha e rola até ela */
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest ? ev.target.closest('[data-goto]') : null;
+    if (!a) return;
+    var el = document.getElementById(a.getAttribute('data-goto'));
+    if (!el) return;
+    ev.preventDefault();
+    limpar.forEach(function (f) { f(); });
+    var ficha = el.closest('details.it') || el;
+    if (ficha.tagName === 'DETAILS') ficha.open = true;
+    ficha.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    ficha.classList.add('hit');
+    setTimeout(function () { ficha.classList.remove('hit'); }, 1800);
+  });
+
+  /* impressão: nada fica recolhido nem filtrado, e o tema é sempre o claro */
+  var temaAntes = null;
+  window.addEventListener('beforeprint', function () {
+    limpar.forEach(function (f) { f(); });
+    [].forEach.call(document.querySelectorAll('details'), function (d) { d.open = true; });
+    temaAntes = root.getAttribute('data-theme');
+    root.setAttribute('data-theme', 'light');
+  });
+  window.addEventListener('afterprint', function () {
+    if (temaAntes) root.setAttribute('data-theme', temaAntes); else root.removeAttribute('data-theme');
+  });
+})();
+</script>
+</body>
+</html>

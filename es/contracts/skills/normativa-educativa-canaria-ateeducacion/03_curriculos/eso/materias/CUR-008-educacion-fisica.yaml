@@ -1,0 +1,104 @@
+id: CUR-008
+titulo: "Educación Física — ESO Canarias"
+etapa: "eso"
+materia: "Educación Física"
+ambito: null
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Adoptar un estilo de vida activo y saludable a partir de la práctica motriz."
+      enunciado_oficial: "Adoptar un estilo de vida activo y saludable, seleccionando e incorporando intencionalmente actividades físicas y deportivas en las rutinas diarias a partir de un análisis crítico de los modelos corporales y del rechazo de las prácticas que carezcan de base científica, para hacer un uso saludable y autónomo del tiempo libre y así mejorar la calidad de vida."
+      descriptores:
+        "1.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "2.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "3.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "4.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+    - codigo: "C2"
+      enunciado_resumido: "Adaptar capacidades, habilidades y destrezas motrices a retos motores de dificultad variable."
+      enunciado_oficial: "Adaptar, con progresiva autonomía en su ejecución, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones con dificultad variable, para resolver situaciones de carácter motor vinculadas con distintas actividades físicas funcionales, deportivas, expresivas y recreativas, y para consolidar actitudes de superación, crecimiento y resiliencia al enfrentarse a desafíos físicos."
+      descriptores:
+        "1.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "2.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "3.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "4.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+    - codigo: "C3"
+      enunciado_resumido: "Compartir espacios de práctica físico-deportiva con respeto, autorregulación emocional y compromiso ético."
+      enunciado_oficial: "Compartir espacios de práctica físico-deportiva con independencia de las diferencias culturales, sociales, de género y de habilidad, priorizando el respeto entre participantes y a las reglas sobre los resultados, adoptando una actitud crítica ante comportamientos antideportivos o contrarios a la convivencia y desarrollando procesos de autorregulación emocional que canalicen el fracaso y el éxito en estas situaciones, para contribuir con progresiva autonomía al entendimiento social y al compromiso ético en los diferentes espacios en los que se participa."
+      descriptores:
+        "1.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "2.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "3.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "4.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+    - codigo: "C4"
+      enunciado_resumido: "Practicar y valorar las manifestaciones de la cultura motriz desde una perspectiva crítica, de género e intercultural."
+      enunciado_oficial: "Practicar, analizar y valorar distintas manifestaciones de la cultura motriz aprovechando las posibilidades y recursos expresivos que ofrecen el cuerpo y el movimiento y profundizando en las consecuencias del deporte como fenómeno social, analizando críticamente sus manifestaciones desde la perspectiva de género y desde los intereses económico-políticos que lo rodean, para alcanzar una visión más realista, contextualizada y justa de la motricidad en el marco de las sociedades actuales."
+      descriptores:
+        "1.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "2.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "3.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "4.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+    - codigo: "C5"
+      enunciado_resumido: "Adoptar un estilo de vida sostenible y ecosocialmente responsable mediante la práctica motriz."
+      enunciado_oficial: "Adoptar un estilo de vida sostenible y ecosocialmente responsable aplicando medidas de seguridad individuales y colectivas en la práctica físico-deportiva según el entorno y desarrollando colaborativa y cooperativamente acciones de servicio a la comunidad vinculadas a la actividad física y al deporte, para contribuir activamente a la conservación del medio natural y urbano."
+      descriptores:
+        "1.º ESO": [STEM5, CC4, CE1, CE3]
+        "2.º ESO": [STEM5, CC4, CE1, CE3]
+        "3.º ESO": [STEM5, CC4, CE1, CE3]
+        "4.º ESO": [STEM5, CC4, CE1, CE3]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Participar en prácticas de acondicionamiento físico y prácticas introyectivas relacionadas con la salud y bajo pautas de seguridad, con la posibilidad de utilizar recursos y aplicaciones digitales que ayuden y faciliten su práctica, partiendo de su realidad individual, necesidades y expectativas, para incorporarlas a un estilo de vida saludable, con responsabilidad, conciencia y actitud cívica."
+        - "2.1. Practicar retos motores, con distintos grados de interacción, participación e incertidumbre, evaluando su desempeño y el de sus iguales, a través de la aplicación de los mecanismos de percepción, toma de decisiones y ejecución, incidiendo en aquellos aspectos que condicionan su práctica, así como consolidando actitudes de superación y resiliencia, para favorecer su transferencia a otros contextos."
+        - "3.1. Participar en diferentes situaciones motrices desde una perspectiva inclusiva y respetuosa con las diferencias individuales y las normas establecidas, mostrando tolerancia y fomentando el juego limpio, para aprender a gestionar emociones y habilidades sociales en contextos variados de práctica motriz."
+        - "4.1. Vivenciar las distintas manifestaciones motrices de la cultura canaria y de otras culturas, favoreciendo su conservación mediante procesos reflexivos en el marco social en el que se generan para contribuir al desarrollo de una visión contextualizada, abierta y diversa."
+        - "4.2. Utilizar los recursos expresivos del cuerpo y el movimiento, disfrutando con imaginación y creatividad para enriquecer su desarrollo personal y social."
+        - "5.1. Participar en situaciones motrices en entornos naturales y urbanos, con la posibilidad de prestar acciones al servicio de la comunidad, aportando ideas, codiseñando, aplicando normas de seguridad y disfrutando de manera sostenible para preservar la salud, el bienestar emocional y el medioambiente."
+    - curso: "2.º ESO"
+      criterios:
+        - "1.1. Desarrollar prácticas de acondicionamiento físico y prácticas introyectivas, relacionadas con la salud y bajo pautas de seguridad, con la posibilidad de explorar recursos y aplicaciones digitales que ayuden y faciliten su práctica, partiendo de su realidad individual, necesidades y expectativas, para incorporarlas a un estilo de vida saludable, con responsabilidad, conciencia y actitud cívica."
+        - "2.1. Explorar y practicar retos motrices diversos, con distintos grados de interacción, participación e incertidumbre, evaluando su desempeño y el de sus iguales, a través de la aplicación de los mecanismos de percepción, toma de decisiones y ejecución, incidiendo en aquellos aspectos que condicionan su práctica, así como consolidando actitudes de superación y resiliencia, para favorecer su transferencia a otros contextos."
+        - "3.1. Vivenciar diferentes situaciones motrices desde una perspectiva inclusiva y respetuosa con las diferencias individuales y las normas establecidas, mostrando tolerancia y fomentando el juego limpio, para aprender a gestionar emociones y habilidades sociales en contextos variados de práctica motriz."
+        - "4.1. Practicar las distintas manifestaciones motrices de la cultura canaria y de otras culturas, favoreciendo su conservación mediante procesos reflexivos en el marco social en el que se generan para contribuir al desarrollo de una visión contextualizada, abierta y diversa."
+        - "4.2. Experimentar los recursos expresivos del cuerpo y el movimiento, disfrutando con imaginación y creatividad para enriquecer su desarrollo personal y social."
+        - "5.1. Vivenciar situaciones motrices en entornos naturales y urbanos, con la posibilidad de prestar acciones al servicio de la comunidad, aportando ideas, codiseñando, aplicando normas de seguridad y disfrutando de manera sostenible para preservar la salud, el bienestar emocional y el medioambiente."
+    - curso: "3.º ESO"
+      criterios:
+        - "1.1, 2.1, 3.1, 4.1, 4.2, 5.1: Continuidad longitudinal de los criterios anteriores, con progresiva autonomía y complejidad, conforme a la organización del Decreto 30/2023 (los enunciados específicos por curso se consultan en el anexo oficial)."
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1, 2.1, 3.1, 4.1, 4.2, 5.1: Continuidad longitudinal de los criterios anteriores, con progresiva autonomía y complejidad, conforme a la organización del Decreto 30/2023 (los enunciados específicos por curso se consultan en el anexo oficial)."
+  saberes_basicos:
+    - bloque: "I. Vida saludable y gestión de la actividad física"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Acondicionamiento físico saludable; activación y vuelta a la calma; prácticas introyectivas; prevención, alimentación, educación postural, primeros auxilios; gestión de la actividad física con herramientas digitales."
+    - bloque: "II. Retos motores"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Capacidades condicionales (físicas y coordinativas); desafíos individuales, cooperativos, de oposición y de cooperación-oposición."
+    - bloque: "III. Inclusión y autorregulación emocional en las situaciones motrices"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Actividades motrices bajo criterios de inclusión; autoconocimiento, gestión emocional y habilidades sociales en la actividad física."
+    - bloque: "IV. Manifestaciones motrices socioculturales"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Cultura motriz canaria (juegos motores infantiles, bola canaria, juego del palo, lucha canaria, lucha del garrote, pelotamano, salto del pastor, vela latina canaria) y bailes tradicionales (baile del vivo, berlina, folía, isa, seguidillas, saltonas); cultura motriz de otras culturas."
+    - bloque: "V. Manifestaciones motrices expresivas"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Prácticas con finalidad artístico-expresiva y rítmico-expresiva."
+    - bloque: "VI. Desarrollo sostenible desde la motricidad en distintos entornos"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Acciones motrices bajo criterios de sostenibilidad en entornos urbanos y naturales; movilidad sostenible y segura; prácticas vinculadas al tiempo libre, la ciudadanía activa y el compromiso cívico."
+  descriptores_operativos: ["CCL3", "CCL5", "STEM2", "STEM5", "CD4", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CPSAA5", "CC2", "CC3", "CC4", "CE1", "CE2", "CE3", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Educación Física en ESO Canarias (1.º a 4.º), regulado por el Decreto 30/2023. Estructura cinco competencias específicas (C1-C5, acrónimo «sONrisas») y seis criterios de evaluación longitudinales por curso, organizados en seis bloques de saberes. Integra ampliamente la cultura motriz canaria (lucha canaria, salto del pastor, juego del palo, vela latina, bailes tradicionales) y la Agenda Canaria de Desarrollo Sostenible 2030."
+observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Se han incorporado los cinco enunciados oficiales de competencias específicas, los criterios de evaluación literales para 1.º y 2.º ESO con referencia al anexo oficial para 3.º y 4.º (no se reproducen aquí íntegros), y la síntesis de los seis bloques de saberes básicos con énfasis en la cultura motriz canaria. La materia se imparte en los cuatro cursos de la ESO."

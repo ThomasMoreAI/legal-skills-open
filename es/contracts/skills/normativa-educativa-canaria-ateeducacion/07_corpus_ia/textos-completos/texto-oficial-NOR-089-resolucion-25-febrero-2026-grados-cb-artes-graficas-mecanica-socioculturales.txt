@@ -1,0 +1,2058 @@
+ID interno: NOR-089
+Título oficial: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Artes Gráficas; Fabricación Mecánica; y Servicios Socioculturales y a la Comunidad, en el ámbito de la Comunidad Autónoma de Canarias.
+Fuente oficial: FTE-096
+URL origen: https://www.gobiernodecanarias.org/boc/2026/045/735.html
+PDF oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-735.pdf
+Fecha de consulta: 2026-08-05
+Fecha de exportación local: 2026-08-05
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto extraído con pdftotext -layout desde el PDF oficial firmado del BOC (BOC-A-2026-045-735).
+---
+           Boletín Oficial de Canarias núm. 45                8344                               Viernes 6 de marzo de 2026
+
+
+
+
+                                                  III. Otras Resoluciones
+
+                     Consejería de Educación, Formación Profesional, Actividad Física y Deportes
+
+              735        Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución
+                         de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura
+                         modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados
+                         B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales
+                         de Artes Gráficas; Fabricación Mecánica; y Servicios Socioculturales y a la
+                         Comunidad, en el ámbito de la Comunidad Autónoma de Canarias.
+
+                   La Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación
+               Profesional, establece en su artículo 5.1 y en los apartados a) y b) de su artículo 5.3
+               que el Sistema de Formación Profesional se configura como un conjunto articulado de
+               actuaciones orientadas a la identificación de las competencias profesionales demandadas
+               por el mercado laboral, a la garantía de una oferta formativa adecuada, a la adquisición de
+               la correspondiente formación o, en su caso, al reconocimiento de dichas competencias,
+               así como a la prestación de un servicio de orientación y acompañamiento profesional que
+               permita el diseño de itinerarios formativos individuales y colectivos. Dicho sistema se
+               organiza conforme a un modelo basado en itinerarios formativos que facilitan la progresión
+               en la formación, estructurado en una doble escala: cinco Grados ascendentes (A, B, C, D y
+               E) y tres niveles de competencia profesional (1, 2 y 3), de acuerdo con el Catálogo Nacional
+               de Estándares de Competencias Profesionales.
+
+                   Por su parte, el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la
+               ordenación del Sistema de Formación Profesional, regula en su artículo 4 la organización
+               de las distintas ofertas formativas que integran dicho sistema, estableciendo el marco
+               general para su implantación y desarrollo por las administraciones competentes.
+
+                   En este contexto normativo, y con el fin de garantizar una implantación homogénea,
+               coherente y adaptada a las necesidades del tejido productivo y de los centros del Sistema de
+               Formación Profesional de la Comunidad Autónoma de Canarias, resulta necesario concretar
+               la distribución horaria y la estructura modular de los Grados C y de sus correspondientes
+               Grados B, como paso previo al dictado de las instrucciones necesarias para su efectiva
+               puesta en funcionamiento.
+
+                     A tal efecto y de conformidad con los siguientes
+
+                                                 ANTECEDENTES DE HECHO
+
+                   Primero.- El 8 de abril de 2025 se publicó el Real Decreto 208/2025, de 18 de marzo,
+               por el que se regulan aspectos específicos de los Grados A, B y C de Formación Profesional
+               para las familias profesionales de Artes Gráficas; Fabricación Mecánica; Servicios
+               Socioculturales y a la Comunidad; y Vidrio y Cerámica.
+
+                   El artículo 30.1 del Real Decreto citado en el párrafo anterior dispone que las
+               administraciones competentes deberán determinar la duración de los Grados A, B y C
+               vinculados a Grados D de los que tuvieran desarrollo autonómico, estableciendo la misma
+
+
+https://sede.gobiernodecanarias.org/boc                                                                       boc-a-2026-045-735
+           Boletín Oficial de Canarias núm. 45              8345                             Viernes 6 de marzo de 2026
+
+
+
+
+               duración horaria para cada módulo profesional en el ámbito autonómico, con independencia
+               del grado en el que se integren.
+
+                   Asimismo, el artículo 30.5 determina que cuando un Grado C incorpore un módulo
+               profesional no incluido en el currículo básico del Grado D, su duración será la fijada para
+               el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.
+
+                   Segundo.- El 9 de julio de 2025 se publicó el Real Decreto 533/2025, de 24 de junio,
+               por el que se establece el título de Formación Profesional de Grado Medio de Técnico en
+               Servicios Funerarios, se fijan los aspectos básicos del currículo y las ofertas de grados C,
+               B y A incluidos en este título.
+
+                   El artículo 18.1 del Real Decreto citado en el párrafo anterior dispone que las
+               administraciones competentes deberán determinar la duración de los Grados A, B y C
+               vinculados a Grados D de los que tuvieran desarrollo autonómico, estableciendo la misma
+               duración horaria para cada módulo profesional en el ámbito autonómico, con independencia
+               del grado en el que se integren.
+
+                   Asimismo, el artículo 18.5 determina que, cuando un Grado C incorpore un módulo
+               profesional no incluido en el currículo básico del Grado D, su duración será la fijada para
+               el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.
+
+                   Tercero.- Tras la entrada en vigor de los Reales Decretos que regulan los aspectos
+               específicos de los Grados A, B y C, y como consecuencia del proceso progresivo de
+               implantación de estas enseñanzas, se ha evidenciado la necesidad de desarrollar los
+               currículos de los nuevos Grados C y Grados B, con el objeto de asegurar su adecuada
+               adaptación a las características de los sectores productivos implicados y a las necesidades
+               organizativas de los centros que impartan ofertas del sistema de formación profesional.
+
+                   Cuarto.- En este marco, se considera imprescindible definir la distribución horaria y
+               la estructura modular de los Grados C y sus correspondientes Grados B de niveles 2 y 3 de
+               las familias profesionales señaladas, en el ámbito territorial de la Comunidad Autónoma
+               de Canarias.
+
+                     A los antecedentes expuestos les son de aplicación los siguientes
+
+                                                 FUNDAMENTOS DE DERECHO
+
+                    Primero.- La Ley Orgánica 1/2018, de 5 de noviembre, de reforma del Estatuto de
+               Autonomía de Canarias, en su artículo 133.1, establece que “Corresponde a la Comunidad
+               Autónoma de Canarias la competencia de desarrollo legislativo y de ejecución, en materia de
+               enseñanza no universitaria, con relación a las enseñanzas obligatorias y no obligatorias que
+               conducen a la obtención de un título académico o profesional con validez en todo el Estado
+               (...)”. Dicha competencia comprende, asimismo, el establecimiento de los correspondientes
+               planes de estudio y la ordenación curricular de las enseñanzas, de conformidad con lo
+               previsto en el artículo 133.3.c) del citado texto legal.
+
+                   Segundo.- La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria,
+               dispone en su artículo 33.3 que, de acuerdo con la normativa básica del Estado, una vez
+
+
+https://sede.gobiernodecanarias.org/boc                                                                   boc-a-2026-045-735
+           Boletín Oficial de Canarias núm. 45             8346                               Viernes 6 de marzo de 2026
+
+
+
+
+               aprobado el Real Decreto correspondiente a un título de formación profesional y hasta que
+               sea completado el currículo propio de la Comunidad Autónoma, dicho real decreto actuará
+               como norma subsidiaria.
+
+                  Tercero.- El Real Decreto 208/2025, de 18 de marzo, por el que se regulan aspectos
+               específicos de los Grados A, B y C de Formación Profesional para las familias profesionales
+               de Artes Gráficas; Fabricación Mecánica; Servicios Socioculturales y a la Comunidad; y
+               Vidrio y Cerámica.
+
+                  Cuarto.- El Real Decreto 533/2025, de 24 de junio, por el que se establece el título de
+               Formación Profesional de Grado Medio de Técnico en Servicios Funerarios, se fijan los
+               aspectos básicos del currículo y las ofertas de grados C, B y A incluidos en este título.
+
+                   Quinto.- El Real Decreto 1379/2008, de 1 de agosto, por el que se establecen dos
+               certificados de profesionalidad de la familia profesional Servicios Socioculturales y a la
+               Comunidad que se incluyen en el Repertorio Nacional de certificados de profesionalidad.
+
+                   Al certificado profesional con código SSCS0208, establecido en el citado Real Decreto
+               e incluido en el Anexo III de la presente Resolución, le es de aplicación la disposición
+               transitoria primera del Real Decreto 659/2023, de 18 de julio, por el que se desarrolla
+               la ordenación del Sistema de Formación Profesional, así como la disposición adicional
+               cuarta del Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos
+               integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional,
+               y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto
+               Nacional de las Cualificaciones.
+
+                   Sexto.- El Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos
+               integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional,
+               y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto
+               Nacional de las Cualificaciones, establece en su artículo 12, relativo a la naturaleza del
+               Catálogo Nacional de Ofertas de Formación Profesional, el marco estructural de dichas
+               ofertas.
+
+                   En particular, el apartado 2 dispone la organización de las ofertas del Sistema de
+               Formación Profesional como dimensión vertical definitoria, estructurada de forma
+               escalonada en una serie ascendente de Grados. Esta ordenación es descriptiva de la amplitud
+               de cada oferta formativa diseñada a partir del estándar de competencias profesionales de
+               mayor nivel del Catálogo Nacional de Estándares de Competencias Profesionales.
+
+                   Así mismo, en el punto 5 del citado artículo establece que todas las ofertas de Formación
+               Profesional tendrán carácter acreditable y acumulable, permitiendo progresar en itinerarios
+               de formación conducentes a otros de mayor grado.
+
+                  Séptimo.- El Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y
+               Deportes, atribuye a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial las competencias generales y específicas en materia de ordenación,
+               implantación y desarrollo de las enseñanzas de formación profesional en el ámbito de la
+               Comunidad Autónoma de Canarias.
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2026-045-735
+           Boletín Oficial de Canarias núm. 45             8347                               Viernes 6 de marzo de 2026
+
+
+
+
+                   Octavo.- Mediante Resolución de 30 de octubre de 2024, de la Dirección General
+               de Formación Profesional y Enseñanzas de Régimen Especial, se dictaron instrucciones
+               y orientaciones para la implantación y desarrollo de los Grados D y E, a partir del curso
+               escolar 2024/2025, estableciéndose, asimismo, la distribución horaria y modular de dichos
+               currículos en el ámbito autonómico de la Comunidad Autónoma de Canarias.
+
+                   Noveno.- Con fecha 27 de enero de 2026, se aprobó la Resolución de la Dirección
+               General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se amplía
+               y modifica la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones
+               para la implantación y desarrollo de los Grados de Formación D y E, a partir del curso
+               escolar 2024/2025, y establece la distribución horaria y modular de los currículos, en el
+               ámbito de la Comunidad Autónoma de Canarias.
+
+                   En atención a lo anteriormente indicado, en ejercicio de las competencias atribuidas a
+               la Viceconsejería de Formación Profesional y Cualificaciones Profesionales en el artículo
+               9, apartado 2, del Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento
+               Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y
+               Deportes, y el desempeño de las funciones previstas en los artículos 11 y 20.1 del Decreto
+               212/1991, de 11 de septiembre, de organización de los Departamentos de la Administración
+               Autonómica de Canarias,
+
+                                                    R E S U E L V O:
+
+                   Primero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Artes Gráficas, en los términos recogidos en el
+               Anexo I de la presente Resolución.
+
+                   Segundo.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Fabricación Mecánica, en los términos recogidos
+               en el Anexo II de la presente Resolución.
+
+                   Tercero.- Aprobar la distribución horaria y la estructura modular de los Grados C
+               (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia)
+               de niveles 2 y 3 de la familia profesional de Servicios Socioculturales y a la Comunidad, en
+               los términos recogidos en el Anexo III de la presente Resolución.
+
+                   Cuarto.- La distribución horaria y estructura modular establecida en la presente
+               Resolución será de aplicación en todos los centros del Sistema de Formación Profesional
+               de la Comunidad Autónoma de Canarias.
+
+                   Quinto.- Facultar a la Dirección General de Formación Profesional y Enseñanzas de
+               Régimen Especial para que, en el ámbito de sus competencias dentro del sistema educativo
+               no universitario, dictamine cuantas resoluciones sean necesarias respecto a esta Resolución
+               y lleve a cabo la planificación de la oferta de los Grados C y B en los centros educativos
+               públicos no universitarios de la Comunidad Autónoma de Canarias.
+
+                   Sexto.- Encomendar a la Inspección de Educación el asesoramiento a los equipos
+               directivos de los centros del sistema educativo no universitario en aquellos aspectos
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                    boc-a-2026-045-735
+           Boletín Oficial de Canarias núm. 45               8348                                  Viernes 6 de marzo de 2026
+
+
+
+
+               específicos relacionados con la aplicación de la presente Resolución, así como la supervisión
+               de su adecuado cumplimiento.
+
+                   Séptimo.- Ordenar la publicación de la presente Resolución en el Boletín Oficial de
+               Canarias, así como en la página web de la Consejería de Educación, Formación Profesional,
+               Actividad Física y Deportes, para su general conocimiento. Asimismo, se encomienda a
+               los equipos directivos de los centros docentes que adopten las medidas oportunas para
+               garantizar su difusión entre los distintos sectores de la comunidad educativa.
+
+                   Contra la presente Resolución, que no pone fin a la vía administrativa, podrá interponerse
+               recurso de alzada ante el Consejero de Educación, Formación Profesional, Actividad Física y
+               Deportes, de conformidad con los artículos 121 y 122 de la Ley 39/2015, de 1 de octubre, del
+               Procedimiento Administrativo Común de las Administraciones Públicas, en el plazo de un mes,
+               a partir del día siguiente al de su publicación en el Boletín Oficial de Canarias, sin perjuicio de
+               cualquier otro que se estime procedente.
+
+                  Las Palmas de Gran Canaria, a 25 de febrero de 2026.- El Viceconsejero de Formación
+               Profesional y Cualificaciones Profesionales, Francisco Rodríguez Machado.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8349                                        Viernes 6 de marzo de 2026
+
+
+
+
+                                                                ANEXO
+                                                                ANEXO II
+
+                                               FAMILIA PROFESIONAL: ARTES GRÁFICAS
+
+             DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C (CERTIFICADOS
+                  PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B (CERTIFICADOS DE
+                                    COMPETENCIA) DE NIVELES 2 Y 3
+
+
+             Certificado profesional: Operaciones de preimpresión y obtención de la forma impresora.
+                • Código: ARG_C_001_4B.
+                • Título de Formación Profesional asociado: Técnico en Preimpresión Digital.
+                • Nivel: 2.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                          Tratamiento de textos
+                0866                                                                          206                     6
+                          Código del certificado de competencia: ARG_B_0866
+                          Tratamiento de imagen en mapa de bits
+                0867                                                                          270                     8
+                          Código del certificado de competencia: ARG_B_0867
+                          Imposición y obtención digital de la forma impresora
+                0868                                                                            96                    3
+                          Código del certificado de competencia: ARG_B_0868
+                          Compaginación
+                0870                                                                          238                     7
+                          Código del certificado de competencia: ARG_B_0870
+                1782      Prevención de riesgos laborales                                       30                    1
+                                                                           Duración           840                    25
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 210 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 295 horas
+
+
+             Certificado profesional: Impresión en sistemas digitales.
+                • Código: ARG_C_002_4B.
+                • Título de Formación Profesional asociado: Técnico en Preimpresión Digital.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (18 semanas) (33 semanas)
+
+                           Impresión digital
+                0869                                                                       242             14             7
+                           Código del certificado de competencia: ARG_B_0869
+                0871       Identificación de materiales en preimpresión                    96               6             3
+                           Ilustración vectorial
+                0873                                                                       147              8             4
+                           Código del certificado de competencia: ARG_B_0873
+                1782       Prevención de riesgos laborales                                 30               2             1
+                                                                           Duración        515             30             15
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                      8350                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Compaginación y ensamblado de publicaciones electrónicas.
+                • Código: ARG_C_003_4B.
+                • Título de Formación Profesional asociado: Técnico en Preimpresión Digital.
+                • Nivel: 2.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (17 semanas)
+
+                          Compaginación
+                0870                                                                          238                    14
+                          Código del certificado de competencia: ARG_B_0870
+                0872      Ensamblado de publicaciones electrónicas                            207                    12
+                1782      Prevención de riesgos laborales                                       30                    2
+                                                                          Duración            475                    28
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 120 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+
+
+
+             Certificado profesional: Impresión en offset.
+                • Código: ARG_C_004_4B.
+                • Título de Formación Profesional asociado: Técnico en Impresión Gráfica.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Preparación y regulación de máquinas offset
+                0877                                                                       241             10             7
+                           Código del certificado de competencia: ARG_B_0877
+                           Desarrollo de la tirada offset
+                0878                                                                       237              9             7
+                           Código del certificado de competencia: ARG_B_0878
+                           Preparación de materiales para impresión
+                0882                                                                       237              9             7
+                           Código del certificado de competencia: ARG_B_0882
+                1782       Prevención de riesgos laborales                                 30               2             1
+                                                                           Duración        745             30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 265 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                      8351                                       Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Impresión en flexografía.
+                • Código: ARG_C_005_4B.
+                • Título de Formación Profesional asociado: Técnico en Impresión Gráfica.
+                • Nivel: 2.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (18 semanas) (33 semanas)
+
+                           Impresión en flexografía
+                0879                                                                       243           14             7
+                           Código del certificado de competencia: ARG_B_0879
+                           Preparación de materiales para impresión
+                0882                                                                       242           14             7
+                           Código del certificado de competencia: ARG_B_0882
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                           Duración        515           30            15
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+
+
+
+             Certificado profesional: Impresión en serigrafía y tampografía.
+                • Código: ARG_C_006_4B.
+                • Título de Formación Profesional asociado: Técnico en Impresión Gráfica.
+                • Nivel: 2.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (20 semanas) (33 semanas)
+
+                           Impresión en serigrafía
+                0880                                                                       206           11             6
+                           Código del certificado de competencia: ARG_B_0880
+                           Preparación de materiales para impresión
+                0882                                                                       238           12             7
+                           Código del certificado de competencia: ARG_B_0882
+                0883       Impresión en bajorrelieve                                       96             5             3
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                           Duración        570           30            17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                        8352                                     Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Desarrollo de productos gráficos.
+                • Código: ARG_C_001_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Diseño y Edición de
+                     Publicaciones Impresas y Multimedia.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (18 semanas) (33 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       174           10             5
+                           Código del certificado de competencia: ARG_B_1417
+                           Diseño de productos gráficos
+                1479                                                                       240           13             7
+                           Código del certificado de competencia: ARG_B_1479
+                           Comercialización de productos gráficos y atención al
+                1480                                                                       96             5             3
+                           cliente
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                            Duración       540           30            16
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+             Certificado profesional: Desarrollo de proyectos de diseño estructural de envases y embalajes de papel
+             y cartón.
+                 • Código: ARG_C_002_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Diseño y Edición de
+                     Publicaciones Impresas y Multimedia.
+                 • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (12 semanas) (17 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       175           14            10
+                           Código del certificado de competencia: ARG_B_1417
+                           Comercialización de productos gráficos y atención al
+                1480                                                                       96             8             6
+                           cliente
+                           Diseño estructural de envase y embalaje
+                1483                                                                       64             5             4
+                           Código del certificado de competencia: ARG_B_1483
+                1782       Prevención de riesgos laborales                                 30             3             2
+                                                                            Duración       365           30            22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 130 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                      8353                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Desarrollo de proyectos editoriales multimedia.
+                • Código: ARG_C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Diseño y Edición de
+                     Publicaciones Impresas y Multimedia.
+                • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                              MÓDULOS PROFESIONALES                                   totales
+                                                                                                                      semanales
+               Decreto                                                                                              (33 semanas)
+
+                           Organización de los procesos de preimpresión digital
+                1478                                                                                          270        8
+                           Código del certificado de competencia: ARG_B_1478
+                           Gestión de la producción en procesos de edición
+                1481                                                                                          138        4
+                           Código del certificado de competencia: ARG_B_1481
+                           Diseño y planificación de proyectos editoriales multimedia
+                1484                                                                                          138        4
+                           Código del certificado de competencia: ARG_B_1484
+                           Desarrollo y publicación de productos editoriales multimedia
+                1485                                                                                          234        7
+                           Código del certificado de competencia: ARG_B_1485
+                1782       Prevención de riesgos laborales                                                    30         1
+                                                                                              Duración        810       24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+             Certificado profesional: Planificación y seguimiento de la producción editorial.
+                • Código: ARG_C_004_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Diseño y Edición de
+                     Publicaciones Impresas y Multimedia.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (20 semanas) (33 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       173            9              5
+                           Código del certificado de competencia: ARG_B_1417
+                           Comercialización de productos gráficos y atención al
+                1480                                                                       96             5              3
+                           cliente
+                           Gestión de la producción en procesos de edición
+                1481                                                                       138            7              4
+                           Código del certificado de competencia: ARG_B_1481
+                           Producción editorial
+                1482                                                                       138            7              4
+                           Código del certificado de competencia: ARG_B_1482
+                1782       Prevención de riesgos laborales                                 30             2              1
+                                                                             Duración      575           30             17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8354                                      Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Organización y supervisión de la producción en procesos de preimpresión y
+             gestión del color.
+                 • Código: ARG_C_005_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Diseño y Gestión de la
+                     Producción Gráfica.
+                 • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (22 semanas) (33 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       173            8             5
+                           Código del certificado de competencia: ARG_B_1417
+                           Organización de los procesos de preimpresión digital
+                1478                                                                       270           12             8
+                           Código del certificado de competencia: ARG_B_1478
+                           Comercialización de productos gráficos y atención al
+                1480                                                                       96             4             3
+                           cliente
+                           Gestión del color
+                1539                                                                       96             4             3
+                           Código del certificado de competencia: ARG_B_1539
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                              Duración     665           30            20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 235 horas
+
+
+             Certificado profesional: Planificación de la fabricación de productos gráficos y organización de los
+             procesos de impresión.
+                • Código: ARG_C_006_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Diseño y Gestión de la
+                     Producción Gráfica.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (22 semanas) (33 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       175            8             5
+                           Código del certificado de competencia: ARG_B_1417
+                           Gestión de la producción en la industria gráfica
+                1538                                                                       142            6             4
+                           Código del certificado de competencia: ARG_B_1538
+                           Gestión del color
+                1539                                                                       96             4             3
+                           Código del certificado de competencia: ARG_B_1539
+                           Organización de los procesos de impresión gráfica
+                1540                                                                       237           10             7
+                           Código del certificado de competencia: ARG_B_1540
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                              Duración     680           30            20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8355                                      Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Gestión de la producción en procesos de encuadernación industrial y
+             transformados de papel y cartón.
+                 • Código: ARG_C_007_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Diseño y Gestión de la
+                     Producción Gráfica.
+                 • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (20 semanas) (33 semanas)
+
+                           Materiales de producción gráfica
+                1417                                                                       174            9             5
+                           Código del certificado de competencia: ARG_B_1417
+                           Gestión de la producción en la industria gráfica
+                1538                                                                       142            7             4
+                           Código del certificado de competencia: ARG_B_1538
+                           Organización de los procesos de postimpresión,
+                1541       transformados y acabados                                        239           12             7
+                           Código del certificado de competencia: ARG_B_1541
+                1782       Prevención de riesgos laborales                                 30             2             1
+                                                                              Duración     585           30            17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 150 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                         8356                                        Viernes 6 de marzo de 2026
+
+
+
+
+                                                                  ANEXO
+                                                                   ANEXO IIII
+
+                                          FAMILIA PROFESIONAL: FABRICACIÓN MECÁNICA
+
+                          DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C
+                         (CERTIFICADOS PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B
+                                 (CERTIFICADOS DE COMPETENCIA) DE NIVELES 2 Y 3
+
+             Certificado de competencia: Definición de procesos de construcciones metálicas.
+                • Código: FME_B_0247.
+                • Título de Formación Profesional asociado: Técnico Superior en Construcciones Metálicas.
+                  •     Nivel: 3
+
+                                Código
+                                                                                                              Horas
+                                 Real                   MÓDULOS PROFESIONALES                                 totales
+                                Decreto
+
+                                          Definición de procesos de construcciones metálicas
+                                 0247                                                                          170
+                                          Código del certificado de competencia: FME_B_0247
+
+
+
+             Certificado profesional: Ejecución de procedimientos de mecanizado, conformado y especiales en
+             fabricación mecánica.
+                 • Código: FME_C_001_4B.
+                 • Título de Formación Profesional asociado: Técnico en Mecanizado.
+                 • Nivel: 2.
+
+               Código                                                                                        Horas        Horas
+                                                                                               Horas
+                Real                       MÓDULOS PROFESIONALES                               totales
+                                                                                                           semanales    semanales
+               Decreto                                                                                   (24 semanas) (33 semanas)
+
+                           Procesos de mecanizado
+                0001                                                                            142           6            4
+                           Código del certificado de competencia: FME_B_0001
+                           Fabricación por abrasión, electroerosión, corte y conformado y
+                0003       por procesos especiales                                              272          11            8
+                           Código del certificado de competencia: FME_B_0003
+                           Fabricación por arranque de viruta
+                0004                                                                            271          11            8
+                           Código del certificado de competencia: FME_B_0004
+                1782       Prevención de riesgos laborales                                      30            2            1
+                                                                                  Duración      715          30           21
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 255 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8357                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Preparación y programación de máquinas herramientas en fabricación
+             mecánica.
+                • Código: FME_C_002_4B.
+                • Título de Formación Profesional asociado: Técnico en Mecanizado.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                           Procesos de mecanizado
+                0001                                                                          142           6            4
+                           Código del certificado de competencia: FME_B_0001
+                           Mecanizado por control numérico
+                0002                                                                          270          12            8
+                           Código del certificado de competencia: FME_B_0002
+                           Sistemas automatizados
+                0005                                                                          238          10            7
+                           Código del certificado de competencia: FME_B_0005
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      680          30           20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+
+             Certificado profesional: Fabricación de tuberías y construcciones y carpintería metálica.
+                • Código: FME_C_003_4B.
+                • Título de Formación Profesional asociado: Técnico en Soldadura y Calderería.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (18 semanas) (33 semanas)
+                           Interpretación gráfica
+                0007       Código del certificado de competencia: FME_B_0007
+                                                                                              96            5            3
+
+                           Trazado, corte y conformado
+                0091       Código del certificado de competencia: FME_B_0091
+                                                                                              207          12            6
+
+                           Mecanizado
+                0092       Código del certificado de competencia: FME_B_0092
+                                                                                              207          11            6
+
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      540          30           16
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8358                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Soldadura en atmósfera natural y protegida.
+                • Código: FME_C_004_4B.
+                • Título de Formación Profesional asociado: Técnico en Soldadura y Calderería.
+                • Nivel: 2.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Interpretación gráfica
+                0007                                                                          98            4              3
+                           Código del certificado de competencia: FME_B_0007
+                           Soldadura en atmósfera natural
+                0093                                                                          270          11              8
+                           Código del certificado de competencia: FME_B_0093
+                           Soldadura en atmósfera protegida
+                0094                                                                          302          13              9
+                           Código del certificado de competencia: FME_B_0094
+                1782       Prevención de riesgos laborales                                    30            2              1
+                                                                                Duración      700          30             21
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 175 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 245 horas
+
+
+
+             Certificado profesional: Montaje de instalaciones de tuberías y construcciones y carpintería metálica.
+                • Código: FME_C_005_4B.
+                • Título de Formación Profesional asociado: Técnico en Soldadura y Calderería.
+                • Nivel: 2.
+
+               Código                                                                                                     Horas
+                                                                                                            Horas
+                Real                            MÓDULOS PROFESIONALES                                       totales
+                                                                                                                        semanales
+               Decreto                                                                                                (17 semanas)
+
+                           Interpretación gráfica
+                0007                                                                                            96         6
+                           Código del certificado de competencia: FME_B_0007
+                           Montaje
+                0095                                                                                         269          16
+                           Código del certificado de competencia: FME_B_0095
+                1782       Prevención de riesgos laborales                                                      30         2
+                                                                                              Duración       395          24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 100 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 140 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8359                                          Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Programación y diseño de procesos de mecanizado, conformado y montaje.
+                • Código: FME_C_001_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Programación de la
+                     Producción en Fabricación Mecánica.
+                • Nivel: 3.
+
+               Código                                                                                                     Horas
+                                                                                                        Horas
+                Real                         MÓDULOS PROFESIONALES                                      totales
+                                                                                                                        semanales
+               Decreto                                                                                                (33 semanas)
+
+                           Mecanizado por control numérico
+                0002                                                                                     270               8
+                           Código del certificado de competencia: FME_B_0002
+                           Definición de procesos de mecanizado, conformado y montaje
+                0160                                                                                     170               5
+                           Código del certificado de competencia: FME_B_0160
+                           Fabricación asistida por ordenador (CAM)
+                0161                                                                                     138               4
+                           Código del certificado de competencia: FME_B_0161
+                           Ejecución de procesos de fabricación
+                0164                                                                                     202               6
+                           Código del certificado de competencia: FME_B_0164
+                1782       Prevención de riesgos laborales                                               30                1
+                                                                                         Duración        810              24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+             Certificado profesional: Planificación y control en fabricación mecánica.
+                • Código: FME_C_002_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Programación de la
+                     Producción en Fabricación Mecánica.
+                • Nivel: 3.
+
+               Código                                                                                                     Horas
+                                                                                                           Horas
+                Real                            MÓDULOS PROFESIONALES                                      totales
+                                                                                                                        semanales
+               Decreto                                                                                                (17 semanas)
+
+                           Programación de la producción
+                0163                                                                                        138            8
+                           Código del certificado de competencia: FME_B_0163
+                           Gestión de la calidad, prevención de riesgos laborales y protección
+                0165                                                                                        139            8
+                           ambiental
+                0166       Verificación de productos                                                        138            8
+                                                                                              Duración      415           24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 105 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 150 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8360                                      Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: : Diseño de productos de construcciones metálicas.
+                • Código: FME_C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Construcciones Metálicas.
+                • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                           MÓDULOS PROFESIONALES                                      totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                          Representación gráfica en fabricación mecánica
+                0245                                                                                       170          10
+                          Código del certificado de competencia: FME_B_0245
+                          Diseño de construcciones metálicas
+                0246                                                                                       235          14
+                          Código del certificado de competencia: FME_B_0246
+                1782      Prevención de riesgos laborales                                                   30           2
+                                                                                              Duración     435          26
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 110 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 155 horas
+
+
+
+             Certificado profesional: Programación de la producción, de sistemas automatizados y gestión de la
+             calidad.
+                 • Código: FME_C_004_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Construcciones Metálicas.
+                 • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                          Horas
+                Real                            MÓDULOS PROFESIONALES                                     totales
+                                                                                                                      semanales
+               Decreto                                                                                              (17 semanas)
+
+                           Programación de sistemas automáticos de fabricación mecánica
+                0162                                                                                       204          12
+                           Código del certificado de competencia: FME_B_0162
+                           Programación de la producción
+                0163                                                                                       138           8
+                           Código del certificado de competencia: FME_B_0163
+                           Gestión de la calidad, prevención de riesgos laborales y protección
+                0165                                                                                       138           8
+                           ambiental
+                                                                                              Duración     480          28
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 120 horas
+              En régimen intensivo la formación en empresa u organismo equiparado tendrá una duración mínima de 170 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                       boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8361                       Viernes 6 de marzo de 2026
+
+
+
+
+                                                                 ANEXO III
+                                                                ANEXO III
+
+                      FAMILIA PROFESIONAL: SERVICIOS SOCIOCULTURALES Y A LA COMUNIDAD
+
+
+             DISTRIBUCIÓN HORARIA Y ESTRUCTURA MODULAR DE LOS GRADOS C (CERTIFICADOS
+                  PROFESIONALES) Y SUS CORRESPONDIENTES GRADOS B (CERTIFICADOS DE
+                                    COMPETENCIA) DE NIVELES 2 Y 3
+
+
+             Certificado de competencia: Didáctica de la educación infantil.
+                • Código: SSC_B_0011.
+                • Título de Formación Profesional asociado: Técnico Superior en Educación infantil.
+                • Nivel: 3.
+
+               Código
+                                                                                               Horas
+                Real                        MÓDULOS PROFESIONALES                              totales
+               Decreto
+
+                           Didáctica de la educación infantil
+                0011                                                                            202
+                           Código del certificado de competencia: SSC_B_0011
+
+
+
+
+             Certificado de competencia: Desarrollo cognitivo y motor.
+                • Código: SSC_B_0015.
+                • Título de Formación Profesional asociado: Técnico Superior en Educación infantil.
+                • Nivel: 3.
+
+               Código
+                                                                                               Horas
+                Real                        MÓDULOS PROFESIONALES                              totales
+               Decreto
+
+                           Desarrollo cognitivo y motor
+                0015                                                                            170
+                           Código del certificado de competencia: SSC_B_0015
+
+
+
+
+             Certificado de competencia: Actividades de ocio y tiempo libre.
+                • Código: SSC_B_1123.
+                • Título de Formación Profesional asociado: Técnico Superior en Animación Sociocultural y
+                     Turística.
+                • Nivel: 3.
+
+               Código
+                                                                                               Horas
+                Real                        MÓDULOS PROFESIONALES                              totales
+               Decreto
+
+                           Actividades de ocio y tiempo libre
+                1123                                                                            202
+                           Código del certificado de competencia: SSC_B_1123
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                     boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                        8362                                     Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado de competencia: SSC_B_1651. Tráfico, circulación de vehículos y transporte por carretera.
+                • Código: SSC_B_1651.
+                • Título de Formación Profesional asociado: Técnico Superior en Formación para la Movilidad
+                     Segura y Sostenible.
+                • Nivel: 3.
+
+               Código
+                                                                                                              Horas
+                Real                         MÓDULOS PROFESIONALES                                            totales
+               Decreto
+
+                           Tráfico, circulación de vehículos y transporte por carretera
+                1651                                                                                           205
+                           Código del certificado de competencia: SSC_B_1651
+
+
+
+             Certificado profesional: Atención al cliente y organización de actos de protocolo en servicios
+             funerarios.
+                • Código: SSC_C_001_4B
+                • Títulos de Formación Profesional asociados: Técnico en Servicios Funerarios.
+                • Nivel: 2.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (24 semanas) (33 semanas)
+
+                          Prestaciones de servicios funerarios
+                1686                                                                       170            7             5
+                          Código del certificado de competencia: SSC_B_1686
+                          Protocolo y ceremonias funerarias
+                1687                                                                       160            7             5
+                          Código del certificado de competencia: SSC_B_1687
+                          Información y operaciones administrativas y de
+                1689      contabilidad de servicios funerarios                             140            5             4
+                          Código del certificado de competencia: SSC_B_1689
+                          Ofimática aplicada
+                1693                                                                       235            9             7
+                          Código del certificado de competencia: SSC_B_1693
+                1782      Prevención de riesgos laborales                                  30             2             1
+                                                                               Duración    735           30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                        8363                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Operaciones en servicios funerarios.
+                • Código: SSC_C_002_4B
+                • Títulos de Formación Profesional asociados: Técnico en Servicios Funerarios.
+                • Nivel: 2.
+
+               Código                                                                                        Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                           semanales    semanales
+               Decreto                                                                                   (26 semanas) (33 semanas)
+
+                           Cremación
+                1688                                                                          138             5             4
+                           Código del certificado de competencia: SSC_B_1688
+                           Mantenimiento de instalaciones y gestión de almacén
+                1690                                                                          138             5             4
+                           Código del certificado de competencia: SSC_B_1690
+                           Tanatoestética
+                1691                                                                          236            10             7
+                           Código del certificado de competencia: SSC_B_1691
+                           Transporte, manipulación y exposición del féretro
+                1692                                                                          138             5             4
+                           Código del certificado de competencia: SSC_B_1692
+                           Conducción y mantenimiento básico de vehículos
+                1736       funerarios* (1)                                                     80             3             3
+                           Código del certificado de competencia: SSC_B_1736
+                1732       Nivel básico de Prevención de riesgos laborales                     50             2             2
+                                                                               Duración       780            30             24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 195 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 275 horas
+              (1) Dadas las características del módulo profesional 1736. Conducción y mantenimiento básico de vehículos
+              funerarios para cursar el mismo es necesario estar en posesión del permiso de conducción B (para este tipo de
+              vehículos), establecido en el artículo 4 del Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento
+              General de Conductores.
+              En cuanto a los espacios, tal y como se recoge en el Real Decreto 533/2025, de 24 de junio, por el que se establece el
+              título de Formación Profesional de Grado Medio de Técnico en Servicios funerarios, se fijan los aspectos básicos del
+              currículo y las ofertas de grados C, B y A incluidos en este título, para la impartición de módulo profesional 1736.
+              Conducción y mantenimiento básico de vehículos funerarios, se hará uso de la vía pública y se contará al menos con
+              un furgón funerario y un coche fúnebre.
+
+
+             *Módulo profesional 1736. Conducción y mantenimiento básico de vehículos funerarios.
+             En este certificado profesional se incluye el módulo profesional 1736. Conducción y mantenimiento básico
+             de vehículos funerarios, cuyo currículo básico se recoge a continuación:
+
+             Módulo Profesional: Conducción y mantenimiento básico de vehículos funerarios.
+             Duración: 80 horas.
+             Código: 1736.
+
+             Resultados de aprendizaje y criterios de evaluación.
+
+             1. Reconoce la normativa, documentación del transporte funerario, del vehículo y de los conductores,
+             garantizando las normas de seguridad en la vía pública en los servicios funerarios.
+
+             Criterios de evaluación:
+             a) Se ha definido el contrato del seguro del automóvil (elementos de seguro, derecho del contrato de seguro,
+             el siniestro, metodología aseguradora).
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                           boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                    8364                                      Viernes 6 de marzo de 2026
+
+
+
+
+             b) Se han definido los convenios de trasporte y derechos y deberes de las partes.
+             c) Se han identificado los protocolos establecidos de trasporte funerario en los servicios funerarios.
+             d) Se ha realizado y comprobado la documentación del servicio funerario.
+             e) Se ha identificado la documentación (permiso de circulación, permiso para circular, entre otras) del
+             conductor/a o conductores/as verificando su legalidad e idoneidad según el tipo de vehículo.
+             f) Se han identificado los tipos de vehículos del transporte funerarios.
+             g) Se han descrito las características de los tipos de vehículos.
+             h) Se ha identificado la documentación del vehículo legalmente exigida: ficha técnica, permiso circulación,
+             justificante de la ITV, póliza de seguro, parte de accidente, entendiendo el contenido y finalidad de cada uno
+             de ellos.
+
+             2. Maneja los mandos, mecanismos y dispositivos de señalización, sistemas de alumbrado, claxon,
+             entre otros, del vehículo funerario, describiendo el uso apropiado a cada circunstancia y situación
+             específica.
+
+             Criterios de evaluación:
+             a) Se ha identificado la ubicación y posición de los mandos, mecanismos y dispositivos del vehículo
+             funerario.
+             b) Se ha interpretado el significado de todos los indicadores y las luces testigo del tablero de instrumentos
+             del vehículo funerario.
+             c) Se han regulado todos los sistemas de acomodación del conductor o la conductora que posibiliten una
+             conducción segura.
+             d) Se ha comprobado que los dispositivos de alumbrado y de señalización óptica cumplen con su función de
+             ver y de ser vistos.
+             e) Se han identificado los dispositivos de señalización de vehículos según su carácter prioritario o especial y
+             según el tipo de transporte funerario.
+             f) Se han utilizado los mandos, mecanismos y dispositivos del vehículo siguiendo los requerimientos
+             establecidos por la normativa sobre tráfico, circulación y seguridad vial.
+
+             3. Conduce vehículos de transporte funerario en la prestación de un servicio funerario, cumpliendo las
+             normas de seguridad atendiendo las demandas de la persona solicitante y/o familiares.
+
+             Criterios de evaluación:
+             a) Se ha reconocido el conjunto de vehículos funerarios de la empresa y su uso en función de las
+             particularidades del servicio funerario y normas de seguridad.
+             b) Se han realizado maniobras durante la conducción del vehículo de transporte funerario: adelantamientos,
+             giros, cambios de sentido, entre otros.
+             c) Se han cumplido los criterios de calidad y las demandas de la persona solicitante y/o familiares.
+             d) Se ha establecido una hoja de ruta acorde a las demandas de la persona solicitante y/o familiares.
+             e) Se ha realizado el servicio de traslado establecido en la hoja de ruta según los criterios de calidad y los
+             protocolos de actuación de la empresa.
+             f) Se ha realizado el aparcamiento del vehículo en las instalaciones de la empresa o donde proceda, una vez
+             finalizado el servicio de la empresa.
+             g) Se ha elaborado un informe de incidencias, en caso necesario, dirigido a la persona responsable, una vez
+             finalizado el servicio de transporte funerario.
+             h) Se ha cumplimentado, en caso de accidente, el parte amistoso con los datos necesarios (nombre del
+             conductor/a y asegurado/a, marca, modelo y matrícula del vehículo, n.º de póliza y compañía aseguradora,
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                    8365                                      Viernes 6 de marzo de 2026
+
+
+
+
+             croquis del accidente precisando situación, dirección de los vehículos, entre otros), tanto del vehículo propio
+             y del contrario.
+             i) Se ha informado del parte de accidentes y solicitado instrucciones a la persona responsable.
+             j) Se ha dado parte del accidente a la compañía de seguros para que el vehículo sea remolcado si fuese
+             necesario.
+             k) Se han documentado todos los procesos realizados en el servicio funerario.
+             l) Se ha seguido el reglamento general de vehículos aplicable y el protocolo de traslados y conducciones
+             afines en la conducción de vehículos de transporte funerario.
+
+             4. Verifica el estado técnico del vehículo funerario y sus equipos auxiliares realizando las
+             comprobaciones necesarias, garantizando las condiciones óptimas de funcionamiento y seguridad en la
+             vía pública.
+
+             Criterios de evaluación:
+             a) Se han realizado las inspecciones de seguridad básica del vehículo al inicio del servicio funerario
+             conforme a las hojas y formularios o documentos de control en función de las características del servicio y la
+             normativa vigente.
+             b) Se han realizado las operaciones de prueba, verificación, control y puesta en marcha en la comprobación
+             del funcionamiento de los equipos y sistemas auxiliares del vehículo funerario.
+             c) Se han descrito las disfunciones encontradas en el funcionamiento del vehículo funerario para su posterior
+             reparación.
+             d) Se ha realizado la reparación de las disfunciones encontradas en el funcionamiento del vehículo que
+             puedan resolverse personalmente y no requieran la intervención de otro personal.
+             e) Se han cumplimentado de forma legible los formularios y hojas de control de las comprobaciones
+             efectuadas.
+             f) Se ha efectuado la entrega de los formularios y hojas de control a la persona o departamento responsable.
+             g) Se han identificado los distintos tipos de conexión de vehículos eléctricos, los tiempos de carga en función
+             de la fuente (tipología de cargador o corriente alterna directa), cuándo el vehículo está en carga y los avisos
+             que el sistema proporciona.
+             h) Se ha comprobado el estado del volumen de combustible.
+             i) Se ha conectado el cargador, en el caso de los vehículos eléctricos, verificando que se activa la carga.
+             j) Se ha desconectado el cargador del vehículo eléctrico antes de su uso recogiendo la manguera de conexión
+             tomando las precauciones necesarias para evitar daños.
+
+             5. Realiza las operaciones de conservación y mantenimiento preventivo básico del vehículo funerario
+             respetando las normas de seguridad, salud laboral y medioambiental y aplicando los procedimientos e
+             instrucciones establecidos.
+
+             Criterios de evaluación:
+             a) Se han identificado las normas de protección medioambiental, salud laboral y las medidas de protección
+             personal y colectivas estipuladas en las normas de seguridad, en las operaciones de conservación y
+             mantenimiento regular del vehículo funerario.
+             b) Se han descrito las normas de seguridad aplicables en la organización del espacio y la preparación de los
+             materiales y herramientas necesarios para la realización de las operaciones de mantenimiento y conservación
+             del vehículo funerario.
+             c) Se ha realizado el mantenimiento preventivo de un vehículo de transporte funerario: motor, sistema de
+             refrigeración, sistema de lubricación y sistema de alimentación, entre otros.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                    8366                                      Viernes 6 de marzo de 2026
+
+
+
+
+             d) Se han identificado los avisos, las alarmas y averías que comunica el vehículo, su nivel de importancia y
+             la relación con sus posibles causas.
+             e) Se han descrito las operaciones de reposición de niveles de los vehículos (sistema de depuración de gases
+             –adblue–, niveles de líquidos -aceite, refrigerante, líquido de frenos, agua destilada), la eliminación y
+             sustitución de líquidos o de otros residuos que pudieran resultar contaminantes teniendo en cuenta las normas
+             de protección medioambiental.
+             f) Se ha conducido el vehículo funerario a los servicios técnicos oportunos (ITV, equipos auxiliares, entre
+             otros) para su revisión en los plazos y supuestos legalmente establecidos.
+             g) Se han realizado el acondicionamiento, la limpieza y desinfección del interior y exterior del vehículo
+             funerario a la terminación de cada servicio funerario, siguiendo los protocolos y la normativa aplicable de
+             prevención de riesgos laborales, según la técnica y/o productos a emplear.
+             h) Se han descrito los productos y sistemas de desinfección, su uso, riesgos para la salud, efectos sobre los
+             materiales y diferentes técnicas de aplicación (fricción, pulverización, nebulización, ozonización, aplicación
+             de UVC, entre otras).
+             i) Se han cumplimentado de forma precisa y legible los documentos de control establecidos y las fichas de
+             mantenimiento del vehículo de transporte funerario.
+
+             6. Detecta y localiza averías del vehículo funerario en ruta, aplicando técnicas y procedimientos
+             establecidos en los manuales de instrucción del fabricante y procediendo a su reparación para la
+             consecución de la prestación del servicio funerario.
+
+             Criterios de evaluación:
+             a) Se han identificado las averías o fallos del vehículo.
+             b) Se ha realizado la retirada del vehículo funerario a un lugar seguro para no interferir la circulación.
+             c) Se ha realizado la inmovilización del vehículo orientando las ruedas en caso de rampas o pendientes,
+             parando el motor de forma inmediata, colocándose la prenda reflectante preceptiva y asegurándolo mediante
+             los propios sistemas de frenado o calzos a fin de cumplir la normativa de circulación aplicable y de acuerdo
+             con los protocolos de seguridad.
+             d) Se ha efectuado la activación de los dispositivos de señalización de averías así como la colocación de los
+             dispositivos de preseñalización de peligro, en caso de inmovilización del vehículo por accidente o avería
+             según establece la normativa del reglamento general de vehículos (los triángulos se colocan, uno por delante
+             y otro por detrás del vehículo, a una distancia mínima y en forma tal que sean visibles; además, se encenderá
+             la luz de emergencia, si el vehículo la lleva; entre otros) de acuerdo con la normativa actual y los protocolos
+             establecidos.
+             e) Se ha efectuado el contacto con la empresa con prontitud, informando de la incidencia ocurrida y
+             solicitando la sustitución del vehículo de transporte funerario para la continuación con la prestación del
+             servicio.
+             f) Se ha identificado el procedimiento que hay que seguir en el caso de asistencia técnica en carretera del
+             vehículo de trasporte funerario según tipo de seguro del vehículo y tipo de asistencia.
+             g) Se ha efectuado la solicitud de la asistencia técnica del vehículo de transporte funerario conforme a los
+             protocolos de la empresa para la retirada, sustitución y reparación del vehículo de transporte funerario
+             averiado.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                  boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8367                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Educador o educadora en instituciones y/o en programas específicos de
+             trabajo con menores (0-6 años) en situación de riesgo social o en medios de apoyo familiar.
+                 • Código: SSC_C_001_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Educación infantil.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                           Autonomía personal y salud infantil
+                0012                                                                          202           8            6
+                           Código del certificado de competencia: SSC_B_0012
+                           Desarrollo socioafectivo
+                0016                                                                          173           7            5
+                           Código del certificado de competencia: SSC_B_0016
+                           Habilidades sociales
+                0017                                                                          96            4            3
+                           Código del certificado de competencia: SSC_B_0017
+                           Intervención con familias y atención a menores en riesgo social
+                0018                                                                          209           9            6
+                           Código del certificado de competencia: SSC_B_0018
+                1782       Prevención de riesgos laborales                                    30            2            1
+                                                                                Duración      710          30           21
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 180 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 250 horas
+
+
+
+             Certificado profesional: Educador o educadora de ocio y tiempo libre infantil con menores de 0 a 6 en
+             el ámbito de la educación no formal.
+                 • Código: SSC_C_002_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Educación infantil.
+                 • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (20 semanas) (33 semanas)
+
+                          El juego infantil y su metodología
+                0013                                                                          176           9            5
+                          Código del certificado de competencia: SSC_B_0013
+                          Expresión y comunicación
+                0014                                                                          204          10            6
+                          Código del certificado de competencia: SSC_B_0014
+                          Habilidades sociales
+                0017                                                                          96            5            3
+                          Código del certificado de competencia: SSC_B_0017
+                0020      Primeros auxilios                                                   64            4            2
+                1782      Prevención de riesgos laborales                                     30            2            1
+                                                                                Duración      570          30           17
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 145 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 200 horas
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8368                                        Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Animación y dinamización en el ámbito turístico.
+                • Código: SSC_C_003_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Animación Sociocultural y
+                     Turística.
+                • Nivel: 3
+
+               Código                     MÓDULOS PROFESIONALES                           Horas            Horas        Horas
+                Real                                                                      totales        semanales    semanales
+               Decreto                                                                                 (18 semanas) (33 semanas)
+
+                0020       Primeros auxilios                                                64              4            2
+                0179       Inglés Profesional (GS)                                          96              5            3
+                           Dinamización grupal
+                1124                                                                       139              8            4
+                           Código del certificado de competencia: SSC_B_1124
+                           Animación turística
+                1126                                                                       206             11            6
+                           Código del certificado de competencia: SSC_B_1126
+                1782       Prevención de riesgos laborales                                  30              2            1
+                                                                               Duración    535             30            16
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+
+
+
+             Certificado profesional: Animación sociocultural comunitaria.
+                • Código: SSC_C_004_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Animación Sociocultural y
+                     Turística.
+                • Nivel: 3
+
+               Código                                                                                               Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                  semanales
+               Decreto                                                                                          (33 semanas)
+
+                0179      Inglés Profesional (GS)                                                96                  3
+                          Metodología de la intervención social
+                0344                                                                          138                    4
+                          Código del certificado de competencia: SSC_B_0344
+                          Dinamización grupal
+                1124                                                                          138                    4
+                          Código del certificado de competencia: SSC_B_1124
+                          Animación y gestión cultural
+                1125                                                                          170                    5
+                          Código del certificado de competencia: SSC_B_1125
+                          Desarrollo comunitario
+                1128                                                                             97                  3
+                          Código del certificado de competencia: SSC_B_1128
+                          Información juvenil
+                1129                                                                          173                    5
+                          Código del certificado de competencia: SSC_B_1129
+                          Intervención socioeducativa con jóvenes
+                1130                                                                          173                    5
+                          Código del certificado de competencia: SSC_B_1130
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8369                                           Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                                  Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                     semanales
+               Decreto                                                                                             (33 semanas)
+
+                1782      Prevención de riesgos laborales                                       30                      1
+                                                                           Duración          1015                       30
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 255 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 360 horas
+
+
+             Certificado profesional: Intervención social y mediación en el ámbito comunitario y convivencial.
+                • Código: SSC_C_005_5B.
+                • Título de Formación Profesional asociado: Técnico Superior en Integración Social.
+                • Nivel: 3.
+
+               Código                                                                                                   Horas
+                                                                                                    Horas
+                Real                       MÓDULOS PROFESIONALES                                    totales
+                                                                                                                      semanales
+               Decreto                                                                                              (33 semanas)
+
+                0017       Habilidades sociales                                                      96                  3
+                0020       Primeros auxilios                                                         64                  2
+                           Contexto de la intervención social
+                0337                                                                                 96                  3
+                           Código del certificado de competencia: SSC_B_0337
+                           Atención a las unidades de convivencia
+                0339                                                                                 206                 6
+                           Código del certificado de competencia: SSC_B_0339
+                           Mediación comunitaria
+                0340                                                                                 138                 4
+                           Código del certificado de competencia: SSC_B_0340
+                           Sistemas aumentativos y alternativos de comunicación
+                0343                                                                                 173                 5
+                           Código del certificado de competencia: SSC_B_0343
+                           Metodología de la intervención social
+                0344                                                                                 142                 4
+                           Código del certificado de competencia: SSC_B_0344
+                1782       Prevención de riesgos laborales                                           30                  1
+                                                                                Duración             945                28
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 335 horas
+
+
+             Certificado profesional: Intervención socioeducativa y de promoción de la autonomía con personas en
+             situación de dependencia.
+                 • Código: SSC_C_006_5B.
+                 • Título de Formación Profesional asociado: Técnico Superior en Integración Social.
+                 • Nivel: 3.
+
+               Código                                                                                         Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                            semanales    semanales
+               Decreto                                                                                    (24 semanas) (33 semanas)
+
+                0017      Habilidades sociales                                             96                  4             3
+                          Contexto de la intervención social
+                0337                                                                       96                  4             3
+                          Código del certificado de competencia: SSC_B_0337
+                          Promoción de la autonomía personal
+                0342                                                                       202                 8             6
+                          Código del certificado de competencia: SSC_B_0342
+                          Sistemas aumentativos y alternativos de comunicación
+                0343                                                                       173                 7             5
+                          Código del certificado de competencia: SSC_B_0343
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                            boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                      8370                                       Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (24 semanas) (33 semanas)
+
+                          Metodología de la intervención social
+                0344                                                                       138            5             4
+                          Código del certificado de competencia: SSC_B_0344
+                1782      Prevención de riesgos laborales                                   30            2             1
+                                                                              Duración     735           30            22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 185 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 260 horas
+
+
+
+             Certificado profesional: Inserción sociolaboral de colectivos en riesgo de exclusión.
+                • Código: SSC_C_007_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Integración Social.
+                • Nivel: 3.
+
+               Código                                                                                    Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                       semanales    semanales
+               Decreto                                                                               (22 semanas) (33 semanas)
+
+                          Contexto de la intervención social
+                0337                                                                        96            4             3
+                          Código del certificado de competencia: SSC_B_0337
+                          Inserción sociolaboral
+                0338                                                                       202            9             6
+                          Código del certificado de competencia: SSC_B_0338
+                          Sistemas aumentativos y alternativos de comunicación
+                0343                                                                       174            8             5
+                          Código del certificado de competencia: SSC_B_0343
+                          Metodología de la intervención social
+                0344                                                                       138            7             4
+                          Código del certificado de competencia: SSC_B_0344
+                1782      Prevención de riesgos laborales                                   30            2             1
+                                                                              Duración     640           30            19
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 225 horas
+
+
+
+             Certificado profesional: Apoyo a la intervención socioeducativa del alumnado con necesidad específica
+             de apoyo educativo (ACNEAE)
+                 • Código: SSC_C_008_5B.
+                 • Títulos de Formación Profesional asociados: Técnico Superior en Integración Social.
+                 • Nivel: 3.
+
+               Código                                                                                   Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                      semanales    semanales
+               Decreto                                                                              (22 semanas) (33 semanas)
+
+                0017      Habilidades sociales                                             96             4             3
+                          Apoyo a la intervención educativa
+                0341                                                                       173            7             5
+                          Código del certificado de competencia: SSC_B_0341
+                          Promoción de la autonomía personal
+                0342                                                                       202            9             6
+                          Código del certificado de competencia: SSC_B_0342
+                          Sistemas aumentativos y alternativos de comunicación
+                0343                                                                       174            8             5
+                          Código del certificado de competencia: SSC_B_0343
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8371                                        Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (22 semanas) (33 semanas)
+
+                1782      Prevención de riesgos laborales                                  30               2             1
+                                                                              Duración     675             30             20
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 170 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 240 horas
+
+
+
+
+             Certificado profesional: Intervención para la promoción de la igualdad de género en el ámbito
+             comunitario y organizacional y la participación social de las mujeres.
+                • Código: SSC_C_009_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Promoción de Igualdad de
+                     Género.
+                • Nivel: 3.
+
+               Código                                                                                               Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                  semanales
+               Decreto                                                                                          (33 semanas)
+
+                          Desarrollo comunitario
+                1128                                                                          106                     3
+                          Código del certificado de competencia: SSC_B_1128
+                          Información y comunicación con perspectiva de género
+                1401                                                                          172                     5
+                          Código del certificado de competencia: SSC_B_1401
+                          Promoción del empleo femenino
+                1403                                                                          234                     7
+                          Código del certificado de competencia: SSC_B_1403
+                          Ámbitos de intervención para la promoción de igualdad
+                1404                                                                          172                     5
+                          Código del certificado de competencia: SSC_B_1404
+                          Participación social de las mujeres
+                1405                                                                            96                    3
+                          Código del certificado de competencia: SSC_B_1405
+                1782      Prevención de riesgos laborales                                       30                    1
+                                                                           Duración           810                    24
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 205 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 285 horas
+
+
+
+             Certificado profesional: Intervención preventiva y actuación en situaciones de violencia de género.
+                • Código: SSC_C_010_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Promoción de Igualdad de
+                     Género.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                0017      Habilidades sociales                                             106              4             3
+                0020      Primeros auxilios                                                64               3             2
+                          Metodología de la intervención social
+                0344                                                                       138              5             4
+                          Código del certificado de competencia: SSC_B_0344
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                        boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                          8372                                     Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+
+                          Prevención de la violencia de género
+                1402                                                                       204              8             6
+                          Código del certificado de competencia: SSC_B_1402
+                1406      Intervención socioeducativa para la igualdad                     203              8             6
+                1782      Prevención de riesgos laborales                                   30              2             1
+                                                                               Duración    745             30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 190 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 265 horas
+
+
+
+             Certificado profesional: Promoción y participación de la comunidad sorda y sordociega.
+                • Código: SSC_C_011_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Mediación Comunicativa.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (24 semanas) (33 semanas)
+                          Metodología de la integración social de las personas con
+                1111      dificultades de comunicación, lenguaje y habla                   66               3             2
+                          Código del certificado de competencia: SSC_B_1111
+                          Sensibilización social y participación
+                1112      Código del certificado de competencia: SSC_B_1112
+                                                                                           96               4             3
+
+                          Lengua de signos
+                1115      Código del certificado de competencia: SSC_B_1115
+                                                                                           238             10             7
+
+                          Ámbitos de aplicación de la lengua de signos
+                1116      Código del certificado de competencia: SSC_B_1116
+                                                                                           270             11             8
+
+                1782      Prevención de riesgos laborales                                  30               2             1
+                                                                               Duración    700             30             21
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 175 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 245 horas
+
+
+
+             Certificado profesional: Mediación entre personas sordas, sordociegas y con dificultades de
+             comunicación y la comunidad.
+                • Código: SSC_C_012_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Mediación Comunicativa.
+                • Nivel: 3.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                          Intervención socioeducativa con personas sordociegas
+                1113                                                                           142                    4
+                          Código del certificado de competencia: SSC_B_1113
+                          Contexto de la mediación comunicativa con personas
+                1114      sordociegas                                                          142                    4
+                          Código del certificado de competencia: SSC_B_1114
+                1115      Lengua de signos                                                     238                    7
+                          Código del certificado de competencia: SSC_B_1115
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                       8373                                        Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (33 semanas)
+
+                          Ámbitos de aplicación de la lengua de signos
+                1116                                                                           270                    8
+                          Código del certificado de competencia: SSC_B_1116
+                          Intervención con personas con dificultades de
+                1117                                                                           142                    4
+                          comunicación
+                1118      Técnicas de intervención comunicativa                                96                     3
+                1782      Prevención de riesgos laborales                                      30                     1
+                                                                              Duración        1060                   31
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 265 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 375 horas
+
+
+
+             Certificado profesional: Desarrollo de programas de educación vial en instituciones públicas y
+             privadas.
+                 • Código: SSC_C_013_5B.
+                 • Títulos de Formación Profesional asociados: Técnico Superior en Formación para la Movilidad
+                     Segura y Sostenible.
+                 • Nivel: 3.
+
+               Código                                                                                                Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                                   semanales
+               Decreto                                                                                           (17 semanas)
+
+                          Primeros auxilios
+                0020                                                                             66                   4
+                          Código del certificado de competencia: SSC_B_0020
+                1656      Educación vial                                                       144                    8
+                          Seguridad vial
+                1657                                                                           205                   12
+                          Código del certificado de competencia: SSC_B_1657
+                1782      Prevención de riesgos laborales                                        30                   2
+                                                                              Duración         445                   26
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 115 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 160 horas
+
+
+
+             Certificado profesional: Asesoría en movilidad segura y sostenible.
+                • Código: SSC_C_014_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Formación para la Movilidad
+                     Segura y Sostenible.
+                • Nivel: 3.
+
+               Código                                                                                      Horas        Horas
+                                                                                          Horas
+                Real                      MÓDULOS PROFESIONALES                           totales
+                                                                                                         semanales    semanales
+               Decreto                                                                                 (12 semanas) (17 semanas)
+
+                          Seguridad vial
+                1657                                                                       205             16             12
+                          Código del certificado de competencia: SSC_B_1657
+                1659      Movilidad segura y sostenible                                    140             11             8
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                         boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                         8374                                        Viernes 6 de marzo de 2026
+
+
+
+
+               Código                                                                                        Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                           semanales    semanales
+               Decreto                                                                                   (12 semanas) (17 semanas)
+
+                1782      Prevención de riesgos laborales                                      30             3              2
+                                                                              Duración        375            30             22
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 95 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 135 horas
+
+
+
+             Certificado profesional: Monitor de cursos de conducción segura y eficiente.
+                • Código: SSC_C_015_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Formación para la Movilidad
+                     Segura y Sostenible.
+                • Nivel: 3.
+
+               Código                                                                                        Horas        Horas
+                                                                                             Horas
+                Real                      MÓDULOS PROFESIONALES                              totales
+                                                                                                           semanales    semanales
+               Decreto                                                                                   (20 semanas) (33 semanas)
+
+                1653      Técnicas de conducción (2)(3)                                        96             5              3
+                          Didáctica de la enseñanza práctica de la conducción (1)(3)
+                1655                                                                          266            13              8
+                          Código del certificado de competencia: SSC_B_1655
+                          Seguridad vial
+                1657                                                                          208            10              6
+                          Código del certificado de competencia: SSC_B_1657
+                1782      Prevención de riesgos laborales                                      30             2              1
+                                                                              Duración        600            30             18
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 150 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 210 horas
+              (1) Dadas las características del módulo profesional 1655. Didáctica de la enseñanza práctica de la conducción, para
+              cursar el mismo es necesario estar en posesión de los permisos de conducción B y A2, establecidos en el artículo 4 del
+              Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores.
+
+              (2) El alumnado que esté en posesión de los permisos de conducción de las clases A2 y B simultáneamente, obtenido
+              en cualquier país de la Unión Europea y registrado en la DGT, estará exento de cursar el módulo profesional 1653.
+              Técnicas de conducción.
+
+              (3) Los módulos profesionales 1653. Técnicas de conducción y 1655. Didáctica de la enseñanza práctica de la
+              conducción que deberán ser impartidos necesariamente de forma presencial. (Disposición adicional segunda. Oferta a
+              distancia de este título. Real Decreto 174/2021, de 23 de marzo, por el que se establece el título de Técnico Superior
+              en Formación para la movilidad segura y sostenible y se fijan los aspectos básicos del currículo).
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                           boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                        8375                                         Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Certificado de aptitud de profesor de formación vial.
+                • Código: SSC_C_016_5B.
+                • Títulos de Formación Profesional asociados: Técnico Superior en Formación para la Movilidad
+                     Segura y Sostenible.
+                • Nivel: 3.
+
+               Código                                                                                                  Horas
+                                                                                                 Horas
+                Real                      MÓDULOS PROFESIONALES                                  totales
+                                                                                                                     semanales
+               Decreto                                                                                             (33 semanas)
+
+                          Organización de la formación de las personas conductoras
+                1652                                                                              138                    4
+                          Código del certificado de competencia: SSC_B_1652
+                1653      Técnicas de conducción (2)(3)                                           96                     3
+                          Didáctica de la enseñanza práctica de la conducción (1)(3)
+                1655                                                                              266                    8
+                          Código del certificado de competencia: SSC_B_1655
+                          Seguridad vial
+                1657                                                                              205                    6
+                          Código del certificado de competencia: SSC_B_1657
+                          Didáctica de la formación para la seguridad vial
+                1658                                                                              170                    5
+                          Código del certificado de competencia: SSC_B_1658
+                1782      Prevención de riesgos laborales                                         30                     1
+                                                                              Duración            905                   27
+              En régimen general la formación en la empresa u organismo equiparado tendrá una duración mínima de 230 horas
+              En régimen intensivo la formación en la empresa u organismo equiparado tendrá una duración mínima de 320 horas
+              (1) Dadas las características del módulo profesional 1655. Didáctica de la enseñanza práctica de la conducción, para
+              cursar el mismo es necesario estar en posesión de los permisos de conducción B y A2, establecidos en el artículo 4 del
+              Real Decreto 818/2009, de 8 de mayo, por el que se aprueba el Reglamento General de Conductores.
+
+              (2) El alumnado que esté en posesión de los permisos de conducción de las clases A2 y B simultáneamente, obtenido
+              en cualquier país de la Unión Europea y registrado en la DGT, estará exento de cursar el módulo profesional 1653.
+              Técnicas de conducción.
+
+              (3) Los módulos profesionales 1653. Técnicas de conducción y 1655. Didáctica de la enseñanza práctica de la
+              conducción que deberán ser impartidos necesariamente de forma presencial. (Disposición adicional segunda. Oferta a
+              distancia de este título. Real Decreto 174/2021, de 23 de marzo, por el que se establece el título de Técnico Superior
+              en Formación para la movilidad segura y sostenible y se fijan los aspectos básicos del currículo).
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                           boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                               8376                                                Viernes 6 de marzo de 2026
+
+
+
+
+             Certificado profesional: Atención sociosanitaria a personas dependientes en instituciones sociales.
+                • Código: SSCS0208 (Real Decreto 1379/2008, de 1 de agosto).
+                • Nivel: 2.
+
+                                                                                                                                       Horas
+                Código                                                                                                   Horas
+              Real Decreto                           MÓDULOS PROFESIONALES                                               totales
+                                                                                                                                     semanales
+                                                                                                                                   (25 semanas)
+              MF1016_2         Apoyo en la organización de intervenciones en el ámbito institucional                      125           5
+              MF1017_2         Intervención en la atención higiénico-alimentaria en instituciones                         100           4
+              MF1018_2         Intervención en la atención sociosanitaria en instituciones                                100           4
+              MF1019_2         Apoyo psicosocial, atención relacional y comunicativa en instituciones                     150           6
+                               Prevención de riesgos laborales**
+                               (Resultado de aprendizaje 2, Itinerario personal para la empleabilidad I, Anexo V, Real     30           1
+                               Decreto 659/2023, de 18 de julio)
+                                                                                                           Duración       505           20
+              Incluye 126 horas de formación en empresa u organismo equiparado (FEOE) en régimen general
+
+
+             **Módulo profesional de Prevención de riesgos laborales.
+             Duración: 30 horas.
+
+             1. Currículo.
+             El currículo básico del módulo se recoge a continuación:
+
+             Resultados de aprendizaje y criterios de evaluación.
+             Adquiere las competencias necesarias para el desempeño de las funciones de nivel básico en
+             Prevención de Riesgos Laborales.
+
+             Criterios de evaluación.
+             a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos actividades de la empresa u
+             organismo equiparado relacionado las condiciones laborales con la salud de la persona trabajadora
+             identificando y clasificando los factores de riesgo en la actividad y los daños derivados de los mismos,
+             especialmente las situaciones de riesgo más habituales en los entornos de trabajo del sector profesional
+             relacionado con el título.
+             b) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de
+             trabajo y enfermedades profesionales, relacionados con el perfil profesional del título.
+             c) Se ha determinado la evaluación de riesgos en la empresa u organismo equiparado y definido las técnicas
+             de prevención y de protección que deben aplicarse para evitar los daños en su origen y minimizar sus
+             consecuencias.
+             d) Se han analizado los protocolos de actuación en caso de emergencia.
+             e) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales.
+             f) Se han clasificado las distintas formas de gestión de la prevención en la empresa u organismo equiparado,
+             en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales y
+             determinado las formas de representación de las personas trabajadoras en la empresa u organismo equiparado
+             en materia de prevención de riesgos.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                                       boc-a-2026-045-735
+          Boletín Oficial de Canarias núm. 45                   8377                                     Viernes 6 de marzo de 2026
+
+
+
+
+             g) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa u organismo
+             equiparado que incluya la secuenciación de actuaciones a realizar en caso de emergencia y reflexionado
+             sobre el contenido del mismo.
+             h) Se han determinado los requisitos y condiciones para la vigilancia de la salud de la persona trabajadora y
+             su importancia como medida de prevención.
+             i) Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del
+             accidente ante distintos tipos de daños y la composición y uso del botiquín.
+
+             2. Requisitos para la realización de la estancia en empresa u organismo equiparado.
+             Antes del inicio de la estancia en empresa u organismo equiparado deberá garantizarse que el alumnado haya
+             cursado el módulo Prevención de riesgos laborales, formación que permite alcanzar las competencias
+             necesarias para el desempeño de las funciones de nivel básico en Prevención de Riesgos Laborales,
+             establecidas en el artículo 35 del Real Decreto 39/1997, de 17 de enero, por el que se aprueba el Reglamento
+             de los Servicios de Prevención, sin perjuicio de lo establecido en el artículo 153.2.d). del Real Decreto
+             659/2023, de 18 de julio.
+
+
+
+
+https://sede.gobiernodecanarias.org/boc                                                                                boc-a-2026-045-735
+

@@ -1,0 +1,2390 @@
+ID interno: CUR-014
+Título oficial: Geografía e Historia — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+GEOGRAFÍA E HISTORIA
+Introducción
+La materia de Geografía e Historia, que se imparte en toda la etapa de Educación Secundaria
+Obligatoria,  facilita  al  alumnado  las  herramientas  adecuadas  para  introducirle  en  procesos  de
+investigación, a partir del análisis, la interpretación y el manejo de fuentes diversas válidas para
+estructurar su aprendizaje, y análisis de los hechos históricos y fenómenos y aspectos geográficos,
+además  de  favorecer  la  capacidad  crítica  sobre  una  realidad  cambiante,  teniendo  presente  los
+procesos históricos que han conformado la sociedad globalizada actual, desde la realidad más
+cercana del entorno canario al mundo. Por otro lado, el conocimiento de las relaciones humanas
+resulta esencial para la adquisición de competencias sociales y medioambientales. Esta materia debe
+contribuir de manera específica a la adquisición del conocimiento espacio-temporal de los procesos,
+tanto geográficos como históricos, para la comprensión de los cambios que se producen en las
+sociedades y en la organización del territorio a lo largo del tiempo y el impacto humano en el
+medio.
+La vinculación de la materia de Geografía e Historia en la Educación Secundaria Obligatoria con el
+proceso de desarrollo competencial del área de Conocimiento del Medio Natural, Social y Cultural
+de la Educación Primaria determina la capacidad que tienen tanto la geografía como la historia para
+contribuir a los objetivos y a la adquisición de las competencias que marcan el Perfil de salida del
+alumnado al término de la enseñanza básica. Son las competencias específicas las que establecen y
+confieren el perfil pertinente en el desarrollo de las dimensiones fundamentales del aprendizaje,
+como son el trabajo sobre la información y sus fuentes a través de recursos variados, incluyendo los
+digitales; la contextualización de los aprendizajes en el entorno local y global; el interés por los
+Objetivos de Desarrollo Sostenible, el ejercicio de la solidaridad y la cohesión social, el respeto a la
+diversidad cultural y las identidades, la valoración y conservación del patrimonio, la defensa de la
+igualdad real entre mujeres y hombres y la lucha contra la discriminación. Todo ello mediante el
+trabajo colaborativo que proporciona al alumnado la adquisición de conocimientos en procesos
+geográficos e históricos de la realidad canaria y del mundo.
+El análisis geográfico del medio canario y del resto del mundo favorece las actitudes ecológicas
+para comprender la necesidad de proteger el planeta. El descubrimiento, el conocimiento y la
+preservación del patrimonio natural, social, cultural e histórico canario debe ser utilizado como
+recurso didáctico  para  el  aprendizaje de valores que  permitirá un acercamiento  a la identidad
+cultural canaria. En todos los elementos del currículo queda reflejada la visión funcional y activa de
+los aprendizajes propios de la materia. Se establecen las etapas históricas y ámbitos temáticos en los
+distintos cursos, con la progresión de saberes condicionada principalmente por la complejidad de
+los procesos y la madurez personal y cívica del alumnado, acorde a su desarrollo y capacidades.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+1
+
+=== Página 2 ===
+
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+Los objetivos de la Educación Secundaria Obligatoria contribuirán a desarrollar en el alumnado las
+capacidades  que  le  permitan  el  diseño  y  la  realización  de  las  actividades  necesarias  para  la
+consecución de las grandes finalidades educativas. El carácter integrador y global de la materia hace
+que desde ella se trabaje para alcanzar, en mayor o menor medida, prácticamente todos los objetivos
+de la etapa. Se pretende que el alumnado asuma responsablemente sus deberes, conozca y ejerza sus
+derechos en el respeto a las demás personas para el ejercicio de la ciudadanía democrática (a). Este
+es el eje vertebrador de Geografía e Historia, puesto que ello implica comprender la realidad social
+en la que se vive como sujetos activos, aprender a afrontar los conflictos mediante el diálogo, así
+como rechazar la violencia (d).
+El alumnado construirá su propio aprendizaje desarrollando y consolidando hábitos de disciplina,
+estudio y trabajo individual y en equipo (b). Fortalecerá sus capacidades afectivas, respetará las
+diferencias de sexos y la igualdad de los derechos y oportunidades (c). Se pretende que el alumnado
+desarrolle la madurez mediante el manejo de las fuentes de información que le permita adquirir
+nuevos  saberes  para  identificar  los  problemas  en  los  distintos  campos  del  conocimiento  y  la
+experiencia (e) y (f).
+Es importante también valorar y respetar los aspectos básicos de la cultura y la historia de Canarias
+(h), así como el patrimonio cultural, apreciar la creación y comprender el lenguaje de las distintas
+manifestaciones culturales (j), utilizando diversos medios de expresión y representación (l). Todo
+ello sin dejar de lado el espíritu emprendedor y la confianza de cada persona en sí misma, la
+participación, el sentido crítico, la iniciativa personal y la capacidad para aprender a aprender,
+planificar, tomar decisiones y asumir responsabilidades.
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+La adquisición y el desarrollo de las competencias desde la materia de Geografía e Historia han de
+contribuir a la consecución, a través de los descriptores operativos, del Perfil de salida que tendrá el
+alumnado que lograr al finalizar la etapa de enseñanza básica.
+La  Competencia  en  comunicación  lingüística  (CCL)  es  necesaria  para  identificar,  comprender,
+expresar ideas, opiniones y sentimientos, con diferentes propósitos educativos. Geografía y Historia
+contribuyen para garantizar su aprendizaje mediante la construcción personal del conocimiento, lo
+que se consigue con el desarrollo de una serie de destrezas, habilidades y estrategias intelectuales
+como la comprensión lectora, la interpretación de fuentes diversas y el análisis crítico y objetivo.
+Por otra parte, la transmisión de los conocimientos adquiridos conlleva la utilización de técnicas del
+discurso tales como la descripción, narración, exposición y argumentación.
+Para ello es necesario potenciar una metodología basada en el trabajo colaborativo, que fomente las
+experiencias de investigación mediante un aprendizaje por descubrimiento guiado. El alumnado
+2
+
+=== Página 3 ===
+
+será el gran protagonista de su proceso de aprendizaje para lo que es necesaria la comunicación oral
+y escrita, multimodal o signada, en distintos tipos de soportes y medios. Esta competencia está
+conectada con las competencias específicas C1, C2, C3, C5, C6 y C9.
+La Competencia plurilingüe (CP) implica el manejo de diversas lenguas correcta y eficientemente
+para el aprendizaje y la comunicación. En la materia de Geografía e Historia esta competencia
+implica conocer y respetar los perfiles lingüísticos individuales aportados por las diferentes culturas
+a lo largo de la historia, la puesta en valor del patrimonio material e inmaterial compartido para
+conservarlo  y  respetar  los  sentimientos  de  pertenencia.  Integra  dimensiones  históricas  e
+interculturales orientadas a conocer, valorar y respetar la diversidad lingüística y cultural de la
+sociedad con el objetivo de fomentar la convivencia democrática. También favorece procesos que
+contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y la
+Declaración Universal de los Derechos Humanos. Esta competencia está explícitamente relacionada
+con las competencias específicas C5, C6 y C7.
+La  Competencia  matemática  y  competencia  en  ciencia,  tecnología  e  ingeniería  (STEM)  hace
+referencia  a  comprender  y  transformar  el  entorno  de  un  modo  comprometido,  responsable  y
+sostenible usando el método científico, el pensamiento y representación matemático, la tecnología y
+las técnicas de la ingeniería. La aportación de Geografía e Historia a esta competencia supone el
+empleo de estrategias matemáticas, para el estudio del medio natural y social, así como la puesta en
+práctica del método científico en procesos de investigación que conllevan el tratamiento de las
+fuentes y el empleo de herramientas propias de la materia, dirigidas a interpretar, sintetizar y
+comunicar la información y conocimiento, donde el alumnado participa de manera empírica en
+proyectos para interpretar la realidad, plantearse preguntas y extraer conclusiones.
+Se  contribuye  a  ella  fundamentalmente  a  través  de  la  geografía,  cuyo  objeto  de  estudio  es
+precisamente el espacio físico en el que se desarrolla la actividad humana, así como la interacción
+que  se  produce  entre  ambos.  Esta  competencia  está  explícitamente  relacionada  con  las
+competencias específicas C1, C3, C4 y C8.
+La  Competencia  digital (CD) radica en hacer un uso seguro, saludable,  sostenible  y crítico y
+responsable de las tecnologías digitales, tanto en el ámbito educativo como en el laboral y social. En
+la materia de Geografía e Historia la competencia digital implica seleccionar, tratar y organizar
+información sobre temas relevantes del presente y a lo largo del tiempo. Entrenar esta competencia
+resulta esencial para la adquisición e incorporación de datos, la creación de contenidos digitales y
+saberes, lo que implica el desarrollo de estrategias complejas asociadas a la utilización de sistemas
+de búsqueda, bases de datos y plataformas de recursos en entornos digitales accesibles al alumnado.
+También permite trabajar asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad
+intelectual, la resolución de problemas y el pensamiento computacional y crítico. Esta competencia
+se encuentra conectada con las competencias específicas C1, C2 y C3.
+La Competencia personal, social y de aprender a aprender (CPSAA) es la relacionada con la
+habilidad de reflexionar sobre uno mismo y una misma, aceptarse y promover un crecimiento
+personal constante, una buena gestión del tiempo, adaptarse a los cambios y a la incertidumbre,
+cooperar e interactuar con la gente de nuestro alrededor y favorecer la capacidad de aprendizaje y
+crecimiento personal a lo largo de la vida. La contribución de la materia a esta competencia queda
+reflejada en el aprendizaje a través de proyectos, retos o problemas que facilitan al alumnado, tanto
+individual como grupalmente, a poner en acción estrategias y habilidades diversas para analizar y
+comprender los fenómenos, situaciones o acontecimientos que tienen una especial relevancia o
+3
+
+=== Página 4 ===
+
+interés en el mundo en el que vive. Esta competencia se encuentra conectada con las competencias
+específicas C3, C4, C5, C6, C7 y C8.
+La Competencia ciudadana (CC) se refiere a participar de un modo activo, responsable y cívico en
+el desarrollo de la sociedad, además de fomentar una ciudadanía mundial y adquirir un compromiso
+con la sostenibilidad. La implicación de la materia a esta competencia está referida a la toma de
+conciencia de los ciclos demográficos, las formas de vida y las relaciones intergeneracionales y de
+dependencia en la sociedad actual y su evolución a lo largo del tiempo analizándolas de forma
+crítica.  Asimismo  se  busca  promover  alternativas  saludables,  sostenibles,  enriquecedoras  y
+respetuosas con la dignidad humana y el compromiso con la sociedad y el entorno.
+También se pretende asumir el compromiso colectivo de formar parte de programas y misiones para
+la seguridad, la paz y la cooperación con otros países en situaciones de emergencia o pobreza, o el
+logro de los Objetivos de Desarrollo Sostenibles, promoviendo el interés del alumnado por la
+realidad internacional y los problemas existentes. Para ello se hace necesario la realización de
+trabajos colaborativos, debates, mesas redondas… que potencien los valores democráticos en el
+alumnado. Esta competencia se encuentra conectada con las competencias específicas C1, C2, C3,
+C4, C5, C6, C7, C8 y C9.
+La Competencia emprendedora (CE) es la capacidad de identificar las oportunidades y utilizar los
+conocimientos  adquiridos  anteriormente  para  idear  procesos  que  contribuyan  a  alcanzar  unos
+objetivos preestablecidos o aportar valor añadido a algo, tener creatividad e iniciativa, pasar de las
+ideas a la acción. La contribución de la materia a esta competencia se logra a partir del fomento de
+tareas  activas  y  participativas  de  programas  de  la  vida  real  llevadas  a  cabo  en  contextos
+colaborativos, en las que el alumnado ponga en práctica los conocimientos adquiridos, realizando
+un planteamiento de los objetivos y una planificación para conseguirlos.
+Con  ello  se  desarrollarán  capacidades  como  las  de  análisis,  organización,  gestión,  toma  de
+decisiones, etc. y valores como la creatividad, la responsabilidad, el compromiso por transformar su
+realidad más cercana y el espíritu crítico. Todo ello, a partir del trabajo por proyectos, mediante la
+elaboración de productos que reflejen la comprensión de los fenómenos y problemas abordados.
+Esta competencia se encuentra conectada con las competencias específicas C2, C3, C4 y C9.
+La Competencia en conciencia y expresión culturales (CCEC) se fundamenta en tener una actitud
+crítica, positiva, respetuosa y abierta al diálogo ante las diferentes manifestaciones culturales y
+artísticas que existen. La adquisición de esta competencia en la materia de Geografía e Historia
+conlleva implicarse en la comprensión, el desarrollo y la expresión de las ideas propias y del lugar
+que cada cual ocupa o del papel que desarrolla en la sociedad. Requiere comprender la propia
+identidad en continuo desarrollo, el patrimonio en un contexto de diversidad y el modo en el que el
+arte y otras manifestaciones culturales son una forma de ver el mundo y transformarlo.
+Para  ello,  el  alumnado  se  comprometerá  en  la  conservación  del  patrimonio  cultural  mediante
+proyectos reales con la comunidad, valorando la diversidad cultural. Aprenderá a mirar una obra de
+arte mediante el análisis de sus aspectos formales, identificando sus lenguajes y elementos técnicos
+en distintos medios y soportes y la contextualización en el sentido artístico y el período histórico en
+el  que  se  insertan.  También  expresará  ideas  y  opiniones  de  manera  creativa  y  abierta  para
+desarrollar la autoestima, la creatividad y el sentido de pertenencia a través de la producción
+cultural y artística. Esta competencia se encuentra conectada con las competencias específicas C1,
+C2, C3, C5, C6, C7 y C9.
+4
+
+=== Página 5 ===
+
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Geografía e Historia, se han establecido nueve competencias específicas para los
+tres primeros cursos de la etapa, que se concretan en un total de treinta criterios de evaluación para
+1.º y 2.º de la ESO y veintidós para 3.º ESO. En 4.º de la ESO hay siete competencias específicas,
+que se concretan en diecinueve criterios de evaluación. Estos criterios de evaluación presentan una
+marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores
+operativos del Perfil de salida a los que contribuye la competencia específica, expresando tanto las
+capacidades y los saberes a adquirir, así como el contexto y modo de aplicación de dichos aspectos. 
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La  competencia  específica  1  se  centra,  preferentemente,  en  la  Competencia  en  comunicación
+lingüística  (CCL)  y  en  la  Competencia  digital  (CD),  que  conllevan  la  búsqueda,  selección,
+tratamiento y organización de las fuentes históricas y geográficas. Esta competencia permite valorar
+e interpretar las fuentes y su fiabilidad, además de elaborar productos propios con originalidad y
+creatividad, usando formatos diversos. Por sus características, está vinculada con los tres bloques de
+saberes.
+Los criterios de evaluación están fundamentados en el uso de herramientas propias de la geografía y
+la historia (búsqueda, selección y tratamiento de la información) con las que el alumnado pueda
+elaborar, expresar y presentar contenidos. La complejidad de las herramientas estará definida por
+los cursos de la etapa, donde los elementos que conforman los criterios de evaluación indican la
+graduación que han de tener los aprendizajes.
+Competencia específica 2 (C2)
+5
+
+=== Página 6 ===
+
+La competencia específica 2 aborda la investigación, la argumentación y la creación de productos
+propios sobre los principales problemas y retos a los que se enfrenta la humanidad. Lo hará con
+pensamiento  crítico,  buscando  contribuir  a  la  construcción  de  la  propia  identidad  y  al
+enriquecimiento  del  rico  acervo  común.  Para  ello  se  trabajan,  sobre  todo,  la  Competencia  en
+comunicación lingüística (CCL) y la Competencia digital (CD). Por su desarrollo transversal, está
+vinculada a los tres bloques de saberes.
+En esta competencia específica los criterios de evaluación tienen como objetivo que el alumnado,
+mediante  una  paulatina  graduación  durante  los  cuatro  cursos,  se  inicie  en  la  investigación,
+argumentación y generación de productos originales y creativos mediante la elaboración partiendo
+de conocimientos previos, a través de herramientas de investigación y uso de varias fuentes, donde
+es clave el desarrollo del pensamiento crítico, que se adquirirá durante toda la etapa.
+Competencia específica 3 (C3)
+La competencia específica 3 aborda el conocimiento histórico, que tendrá como principal producto
+el desarrollo de proyectos, tanto individuales como cooperativos, fomentando la puesta en acción de
+estrategias y habilidades para el análisis y la comprensión de los problemas y desafíos pasados,
+actuales o futuros de las distintas sociedades a través de la historia. Los criterios de evaluación
+evolucionan  desde  la  adquisición  y  construcción  de  conocimientos,  la  identificación  de  los
+principales problemas, retos y desafíos o la representación adecuada de la información geográfica e
+histórica, hasta la realización de propuestas, en los dos últimos cursos, donde el alumnado aplica
+métodos  y  proyectos  de  investigación,  dándose  gran  importancia  al  trabajo  colaborativo.  Está
+relacionada, sobre todo, con el Bloque II, de «Sociedades y territorios».
+Competencia específica 4 (C4)
+La competencia específica 4 hace referencia a la geografía, a la identificación de elementos del
+paisaje y su análisis, fundamentándose en la explicación multicausal de las transformaciones y en la
+asunción de una actitud responsable en la conservación, mejora y uso sostenible del medioambiente.
+La identificación y análisis se hará mediante métodos básicos de investigación para la construcción
+del  conocimiento  de  la  geografía  —localización  y  distribución,  comparación  y generalización,
+conexión y evolución—. La puesta en práctica y la participación se hará a través del planteamiento
+y desarrollo de proyectos, planes y otras acciones de colaboración dentro del centro, o con otros
+organismos de la zona. Está relacionada prioritariamente con el Bloque I de saberes básicos, «Retos
+del mundo actual».
+Los criterios de evaluación de esta competencia específica se desarrollan durante los tres primeros
+cursos de la etapa. Parten de la interpretación del entorno, identificando sus principales elementos e
+interrelaciones para, a continuación, valorar el grado de sostenibilidad y de equilibrio, con el fin de
+argumentar la necesidad de acciones de defensa, protección, conservación y mejora del entorno, que
+evolucionan en el tercer curso hacia la experimentación de comportamientos y desarrollo de esas
+acciones.
+Competencia específica 5 (C5)
+La competencia específica 5 refiere los procesos históricos o geográficos, desde una perspectiva
+crítica y democrática, basada en los derechos y deberes dentro de la comunidad, a través de las
+constituciones, que suponen el actual modelo de convivencia y garantía de libertades y de esos
+derechos. Esta labor se hará a través del estudio de la Transición y de la Constitución española de
+6
+
+=== Página 7 ===
+
+1978 y del correspondiente ordenamiento jurídico. Supone también la comprensión de la memoria
+democrática y la lucha por la libertad, la igualdad y los derechos humanos, y la acción de los
+movimientos sociales en el mundo contemporáneo. Esta competencia específica (C5) se trabaja,
+sobre todo, en el Bloque II de saberes básicos, «Sociedades y territorios», y en el Bloque III,
+«Compromiso cívico local y global».
+Los criterios de evaluación de esta competencia específica abordan, en los dos primeros cursos, la
+identificación, interpretación y análisis de los mecanismos que han regulado la convivencia y la
+vida en común a lo largo de la historia, desde la Edad Antigua hasta la Edad Moderna. Por otro
+lado, señalan y explican aquellas experiencias históricas más destacables. En los dos últimos cursos
+de la etapa, los criterios de evaluación se centran en conocer, valorar y ejercitar responsabilidades,
+derechos  y  deberes,  además  de  poner  en  práctica  actuaciones  en  favor  de  su  desarrollo,
+reconociendo  los  movimientos  y  las  causas  que  generan  conciencia  solidaria,  promoviendo  la
+cohesión social y la eliminación de la desigualdad, especialmente por cuestión de género. A lo largo
+de todos los cursos de la etapa se trabaja la construcción y el desarrollo de la ciudadanía, mediante
+la  adquisición  de  conocimientos  y  la  gradual  asimilación  de  los  valores  democráticos  y  de
+convivencia, siendo de gran importancia el trabajo en equipo.
+Competencia específica 6 (C6)
+La  competencia  específica  6  se  estructura  en  el  conocimiento  y  la  comprensión  de  procesos
+geográficos, históricos o culturales, destacando la multiculturalidad, la diversidad y la igualdad
+como ejes de los saberes, que supone el reconocimiento de la diversidad en la propia sociedad, tal y
+como ocurre en Canarias, y que es un elemento esencial en la formación ciudadana del alumnado.
+El objetivo es alcanzar el respeto y aceptación de otras personas mediante comportamientos no
+discriminatorios y contrarios a cualquier posición segregadora, y el fomento de actitudes y acciones
+favorables a la igualdad real de mujeres y hombres y la convivencia con personas diferentes. Esta
+competencia está relacionada, esencialmente, con el Bloque III de saberes básicos, «Compromiso
+cívico local y global».
+En los dos primeros cursos de la etapa, los criterios de evaluación tienen como objetivo que el
+alumnado pueda situar —espacial y temporalmente— las distintas civilizaciones y reinos, desde la
+prehistoria hasta la Edad Moderna, Las alumnas y los alumnos han de reconocer las desigualdades
+sociales  existentes,  valorando  la  diversidad  social  y  cultural  para,  finalmente,  argumentar  e
+intervenir  acerca  de  la  igualdad  real  de  hombres  y  mujeres,  actuando  contra  cualquier
+comportamiento discriminatorio. En los dos últimos cursos de la etapa, el alumnado tendrá que
+conocer y analizar la relación entre los aspectos geográficos, históricos, ecosociales y culturales de
+la sociedad globalizada y multicultural actual. La contribución al bienestar individual y colectivo se
+cristaliza en el diseño, exposición y puesta en práctica de iniciativas, cuyo fin es el compromiso
+activo con la mejora del entorno y el servicio a la comunidad.
+Competencia específica 7 (C7)
+La competencia específica 7 se enlaza con la anterior por el conocimiento y la identificación de
+elementos culturales y de diversidad, pero desde un enfoque de valores universales de cohesión y
+solidaridad entre territorios, donde deben comprender los distintos elementos que han contribuido a
+la construcción y la evolución de las distintas identidades colectivas que se han desarrollado en
+España  y  en  Canarias.  Es,  además,  la  única  competencia  específica  que  se  relaciona  con  la
+competencia plurilingüe, ya que el alumnado ha de comprender los elementos de identificación
+7
+
+=== Página 8 ===
+
+común,  como  son  la  historia,  el  arte,  la  lengua  y  la  cultura.  Se  relaciona  con  el  Bloque  II,
+«Sociedades y territorio», y el Bloque III, «Compromiso cívico local y global».
+En esta competencia específica, los criterios de evaluación vuelven a estar divididos en dos partes
+muy diferenciadas. Los dos primeros cursos están centrados en la relación entre las culturas y las
+civilizaciones a lo largo de la Historia Antigua hasta la Edad Moderna. Se pretende que el alumnado
+identifique el origen histórico de las distintas identidades de España y Canarias durante los periodos
+anteriores, señalando los fundamentos de la idea de Europa. En los dos siguientes cursos, los
+criterios de evaluación abordan el conocimiento y la contribución a la conservación del patrimonio
+material e inmaterial común, sobre todo el canario, con el objetivo que el alumnado respete los
+sentimientos de pertenencia, sin olvidar los compromisos de solidaridad territorial y los valores del
+europeísmo y de la Declaración Universal de los Derechos Humanos.
+Competencia específica 8 (C8)
+La  competencia  específica  8  se  fundamenta  en  el  desarrollo  personal  del  alumnado,  tomando
+conciencia  del  papel  de  los  ciclos  demográficos,  las  formas  de  vida  y  las  relaciones
+intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo. Lo
+hace a través del conocimiento de las sociedades, a través del estudio y toma de conciencia dentro
+de la geografía humana y su evolución histórica. Esta competencia específica trabaja, sobre todo,
+con el Bloque III de saberes básicos, «Compromiso cívico local y global», ya que integra, además
+de valores y actitudes, otros ámbitos asociados al desarrollo personal del alumnado.
+Los criterios de evaluación de esta competencia específica se desarrollan solo en los tres primeros
+cursos, ya que tienen un marcado carácter geográfico. Se parte del conocimiento y la interpretación
+de los comportamientos demográficos de la población y sus cambios experimentados, y, finalmente,
+la  adquisición  de  un  papel  activo  y  comprometido  con  el  entorno,  partiendo  de  la  realidad
+económica local y global. Un segundo tipo de criterios de evaluación se centra en la toma de
+conciencia del ciclo vital por parte del alumnado, que evoluciona hacia la incorporación de hábitos
+responsables,  saludables,  sostenibles  y  respetuosos,  que  fomentan  la  adopción  de  actitudes  de
+participación y transformación en el ámbito local y comunitario.
+Competencia específica 9 (C9)
+Por último, la competencia específica 9 se basa en el conocimiento y la valoración del papel de la
+cultura  española  y,  por  consiguiente,  canaria,  las  culturas  europea  y  mundial,  incluyendo  sus
+dimensiones  de  cooperación,  desarrollo  sostenible  y  ciudadanía.  El  objetivo  principal  de  esta
+competencia es, por tanto, conocer y comprender la evolución histórica de nuestro país, situarlo
+dentro de los grandes flujos comerciales internacionales y de difusión de la cultura y de la técnica,
+teniendo en cuenta el contexto político y diplomático de las relaciones internacionales. En esta
+última competencia, por sus características, predominan los saberes del Bloques II, «Sociedades y
+territorio», y del Bloque III, «Compromiso cívico local y global».
+En esta competencia específica los criterios de evaluación vuelven a estar divididos en dos grandes
+grupos. El primero —que coincide con los dos primeros cursos— está enfocado en dos elementos:
+la identificación, la interpretación y la valoración de la conexión de España y Canarias con los
+grandes procesos históricos, desde la Edad Antigua hasta la Edad Moderna, y en la interpretación —
+con enfoque desde el desarrollo sostenible y la ciudadanía global— de los principales desafíos del
+mundo actual y la búsqueda de posibles soluciones. En cambio, el segundo grupo de los criterios de
+evaluación —los dos últimos cursos de la etapa— está orientado a la contribución en favor de un
+8
+
+=== Página 9 ===
+
+mundo más seguro, justo y solidario, mediante el análisis y el reconocimiento de los compromisos
+internacionales de nuestro país —sobre todo de los Objetivos de Desarrollo Sostenible—, y la
+valoración de sus aportaciones, profundizando en la singularidad de Canarias en el ámbito europeo,
+como es su integración como región ultraperiférica.
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los saberes básicos, estructurados en tres bloques, son concebidos como una meta y no solo como
+una base de la que partir, situando en el alumnado el protagonismo donde se les dota de significado
+y comprenden con esos saberes el mundo en el que vive. Se trata de no incurrir en enfoques
+exclusivamente academicistas en la presentación y organización de los saberes, tradicionalmente
+dispuestos  en  campos  disciplinares  estancos,  excesivamente  concretos,  cerrados  en  ámbitos
+temáticos y a través de secuencias diacrónicas sucesivas, promoviendo una perspectiva más abierta
+y  flexible,  en  la  que  las  dimensiones  del  espacio  y  del  tiempo  puedan  ser  interpretadas  y
+desarrolladas a lo largo de todos los cursos, permitiendo combinar la geografía y la historia y
+conectar sus métodos y campos de estudio.
+La presencia del Bloque I, de «Retos del mundo actual», contribuye a que en todos los cursos se
+preste especial atención a los desafíos y problemas del presente y del entorno local canario, español
+y global, destinado a despertar en el alumnado una mirada crítica y responsable. También a incidir
+en el desarrollo de procesos de aprendizaje relacionados con la sociedad de la información y del
+conocimiento, que exigen una constante actualización y puesta al día, así como a disponer de las
+habilidades y actitudes necesarias para actuar adecuadamente en las plataformas digitales y redes de
+comunicación.  A través  de  este  enfoque  basado  en  problemas  sociales  relevantes  se  pretende
+despertar la conciencia histórica sobre problemas, conflictos e incertidumbres actuales. De este
+modo se complementan las visiones geográfica e histórica de la sociedad a través de su dinámica y
+evolución en el tiempo. Se persigue con ello que los juicios propios y la capacidad de diálogo y de
+debate estén fundamentados y argumentados, previniendo la desinformación, la falta de criterio y
+las actitudes intolerantes.
+El Bloque II, «Sociedades y territorios», está orientado a la aplicación de estrategias y métodos de
+las ciencias sociales y, en concreto, de los procedimientos y las técnicas que aportan la geografía y
+la historia, a través de metodologías como pueden ser el trabajo por proyectos, el desarrollo de
+experiencias  de  investigación  y  otras  propuestas  basadas  en  el  aprendizaje  inductivo  y  la
+experimentación. Tales estrategias y métodos se organizan en torno a las grandes cuestiones que
+preocupan a la humanidad y que contribuyen a explicar el origen y evolución de las sociedades a lo
+largo del tiempo y del espacio. Tales cuestiones se presentan, de manera transversal, a través de las
+distintas etapas históricas, desde la Prehistoria hasta la Edad Moderna en los dos primeros cursos, y
+el mundo contemporáneo en el cuarto, contribuyendo en todos los casos a la comprensión general
+de permanencias y cambios, y contextualizando y mostrando la conexión con el presente de los
+fenómenos analizados desde una perspectiva global y local canaria.
+El Bloque III de saberes básicos, «Compromiso cívico local y global», subraya la importancia de
+este componente que integra, además de valores y actitudes, otros ámbitos asociados al desarrollo
+personal del alumnado. Estas dimensiones son fundamentales para la formación integral, tanto por
+9
+
+=== Página 10 ===
+
+el sentido que otorga al resto de los saberes, a los que complementa y da significado, como por su
+proyección social y ciudadana.
+La organización de estos saberes, su programación y secuenciación puede plantearse desde una
+perspectiva cronológica o más transversal, en función de los objetivos didácticos y las situaciones
+de  aprendizaje  propuestas,  incidiendo  en  la  contextualización  histórica  y  geográfica  desde  un
+enfoque multicausal y desde la perspectiva del estudio comparado. En cualquier caso, la atención a
+la individualidad y diversidad del alumnado, a sus intereses y aptitudes, ha de permitir la necesaria
+diversificación de los itinerarios de aprendizaje, así como la aplicación de criterios de flexibilidad
+que permitan poner en acción propuestas e iniciativas educativas que favorezcan la inclusividad. De
+otro lado, el papel vertebrador de procesos y contenidos diversos, que incorpora campos temáticos,
+recursos y procedimientos de diferentes áreas de conocimiento, confiere a esta materia un papel
+central a la hora de plantear estrategias interdisciplinares a lo largo de los cuatro cursos de la etapa.
+La capacidad de contextualizar los aprendizajes y conectarlos con problemas actuales y retos del
+presente, desde una perspectiva interpretativa del tiempo y comprensiva del espacio, profundizando
+en la realidad canaria, facilita el dotarlos de funcionalidad, interés y utilidad para el alumnado, y
+permite crear escenarios diversos en los que desarrollar iniciativas y proyectos en situaciones reales
+que propicien la participación y el compromiso con el entorno y la comunidad.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Para que el alumnado adquiera y desarrolle, tanto las competencias clave como las competencias
+específicas, se deben concretar situaciones de aprendizajes que incluyan metodologías didácticas
+que sitúen al alumnado como agente de su propio aprendizaje.
+Dicho  enfoque  metodológico  propuesto,  en  la  Educación  Secundaria  Obligatoria,  da  gran
+importancia a la capacidad comunicativa del alumnado, al trabajo colaborativo a través de tareas y a
+los diversos procesos de pensamiento del alumnado, que abordarán el análisis de información, la
+toma de decisiones, el pensamiento crítico, el trabajo creativo y la reflexión.
+Además, las propuestas pedagógicas partirán de centros de interés de los alumnos y las alumnas. A
+través de los trabajos por proyectos, las experiencias de investigación y el aprendizaje inductivo y la
+experimentación. Se busca la conexión con el presente de los fenómenos históricos y geográficos,
+algunos de ellos vinculados a Canarias, para construir el conocimiento con autonomía y creatividad
+desde sus propios aprendizajes y experiencias.
+10
+
+=== Página 11 ===
+
+Las situaciones de aprendizaje integrarán los elementos curriculares planteando tareas y actividades
+complejas  y  relevantes  para  resolver  problemas  reales  y  se  desarrollarán  partiendo  de  una
+perspectiva  cronológica  o  transversal,  mediante  un  enfoque  multicausal  y  con  estrategias
+interdisciplinares a lo largo de los distintos cursos de la etapa. Para que sean efectivas, deben estar
+debidamente contextualizadas al entorno, con atención a los distintos ritmos de aprendizaje en
+alineación  con  el  Diseño  Universal  para  el  Aprendizaje  (DUA).  Contemplarán  tres  grandes
+elementos: Qué se va a aprender, es la relación de los aprendizajes esperados, extraídos de los
+criterios de evaluación y competencias específicas vinculados a la misma, y los saberes básicos de
+la materia, a trav és de los cuales se desarrollar án estos aprendizajes previstos. Cómo se va a
+aprender, es la explicación de cómo se va a activar y a motivar al alumnado, a través de qué
+contextos de aprendizaje, especificando los productos finales, recursos y espacios. Para qué, es la
+descripción de la finalidad de los aprendizajes con objetivos claros.
+El diseño de las situaciones de aprendizaje debe contemplar distintos tipos de agrupamiento, desde
+el trabajo individual a la construcción grupal del aprendizaje que incluya tanto los conocimientos,
+las destrezas y las actitudes propios de la etapa; con un punto de vista de trabajo colaborativo,
+mediante la creación de equipos de trabajos heterogéneos que realizarán tareas variadas, donde cada
+miembro tendrá labores coordinadas y asumirá responsabilidades personales que sumen un esfuerzo
+final a modo de producto.
+Se partirá de iniciativas y proyectos en situaciones o retos reales, que suponen un compromiso con
+el entorno y la comunidad, permitiendo la participación democrática del alumnado, mediante la
+sociabilización y el respeto a las opiniones diferentes.
+Tanto las situaciones de aprendizaje como su evaluación han de ser diseñadas para que los recursos,
+espacios y agrupamientos se puedan adaptar a las diferencias individuales en cuanto a motivaciones,
+intereses, capacidades y estilos de aprendizaje, atendiendo siempre a la diversidad y proponiendo
+flexibilizaciones curriculares que favorezcan la inclusividad. Por otra parte, las metodologías e hilos
+conductores se basarán en el desarrollo emocional del alumnado y su integración en el grupo, tanto
+en la diversidad de agrupamientos y tareas propuestos como en la combinación de lenguajes y
+soportes, que persiguen permitir su desarrollo individual.
+11
+
+=== Página 12 ===
+
+1.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del
+pasado,  usando  críticamente  fuentes  históricas  y  geográficas,  para  adquirir  conocimientos,
+elaborar y expresar contenidos en varios formatos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CC1
+Criterios de evaluación
+1.1. Elaborar, expresar y presentar contenidos propios en forma de esquemas, tablas informativas y
+otros  formatos  mediante  el  desarrollo  de  estrategias  de  búsqueda,  selección  y  tratamiento  de
+información relativas a procesos y acontecimientos relevantes del presente y del pasado.
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CC1
+1.2. Contrastar y argumentar sobre temas y acontecimientos de la Prehistoria y la Edad Antigua,
+localizando y analizando de forma crítica fuentes primarias y secundarias como pruebas históricas.
+CCL2, CCL3, CD1, CD2, CD3, CC1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de buscar y seleccionar información, para comparar y contrastar dicha
+información, usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes diversas, teniendo en cuenta el problema de la
+desinformación. Se pretende que el alumnado sea capaz de empezar a construir conocimiento partiendo de los métodos de investigación en el ámbito
+de la geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas).
+También se constatará que analiza, identificando las principales ideas, algunos tipos de texto, tanto de la Prehistoria como de la Edad Antigua, y que
+construye líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por último, se valorará que elabore esquemas, tablas
+12
+
+=== Página 13 ===
+
+comparativas, informes, estudios o dosieres informativos, paneles divulgativos o cualquier otro producto, comunicando la información, participando,
+colaborando y compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la sociedad de la información.
+Competencia específica
+2. Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y
+sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un
+pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia
+identidad y a enriquecer el acervo común.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+Criterios de evaluación
+2.1. Identificar, valorar y mostrar interés por los principales problemas que afectan a la sociedad,
+adoptando una posición crítica y proactiva hacia los mismos.
+CD1, CD2, CC1, CC3, CE3, CCEC3
+2.2. Argumentar de forma crítica sobre problemas de actualidad a través de conocimientos geográficos
+e históricos, contrastando y valorando fuentes diversas, valorando el legado histórico y cultural canario
+y del resto de España.
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+2.3. Incorporar y utilizar adecuadamente términos, conceptos y acontecimientos relacionados con la
+geografía, la historia y otras disciplinas de las ciencias sociales, a través de intervenciones orales,
+textos escritos y otros productos, mostrando planteamientos originales y propuestas creativas.
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+2.4. Elaborar juicios argumentados, respetando las opiniones de los demás y enriqueciendo el acervo CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+13
+
+=== Página 14 ===
+
+común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y
+global.
+CCEC3
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de indagar y argumentar información sobre problemas geográficos,
+históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global —partiendo de la propia realidad canaria, de España y del
+resto  del  mundo—,  mediante  un  uso  contrastado  de  fuentes  históricas  y  arqueológicas  seleccionadas,  como  base  para  la  construcción  del
+conocimiento histórico usándose una metodología basada en el trabajo colaborativo, que fomente las experiencias de investigación mediante un
+aprendizaje guiado y de experimentación. Se verificará, asimismo, que conoce el valor de los archivos, bibliotecas o museos, así como el legado
+histórico y cultural canario y del resto de España como patrimonio colectivo. El objetivo es el análisis de la información de problemas de actualidad
+como la violencia y conflictos armados, contextualizados históricamente y la defensa y exposición crítica de los mismos a través de presentaciones,
+paneles divulgativos, entrevistas y debates. Por último, se valorará asimismo la construcción de su propia personalidad, en su dimensión social y
+ciudadana y el enriquecimiento del acervo común, entendiendo el patrimonio como bien y como recurso, a través de su puesta en valor, difusión y
+administración de esa riqueza patrimonial con producciones y planteamientos éticos que incluyan la gestión de las emociones y su repercusión en
+comportamientos individuales y colectivos.
+Competencia específica
+3. Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del
+tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los
+que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso
+de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+Criterios de evaluación
+14
+
+=== Página 15 ===
+
+3.1. Adquirir y construir conocimiento relevante del mundo actual y de la historia, a través de procesos
+inductivos, de la investigación y del trabajo por proyectos, retos o problemas, mediante la elaboración
+de productos que reflejen la comprensión de los fenómenos y problemas abordados.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+3.2. Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo
+largo de la historia, los cambios producidos, sus causas y consecuencias, así como los que, en la
+actualidad, debemos plantear y resolver en torno a los Objetivos de Desarrollo Sostenible.
+STEM3, STEM4, STEM5, CPSAA3, CC3,
+CC4, CE1, CCEC1
+3.3. Representar adecuadamente información geográfica e histórica a través de diversas formas de
+representación gráfica, cartográfica y visual.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CC3, CC4, CE1, CCEC1
+3.4. Utilizar una secuencia cronológica con objeto de examinar la relación entre hechos y procesos en
+diferentes períodos y lugares históricos (simultaneidad y duración), utilizando términos y conceptos
+apropiados.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+3.5. Analizar procesos de cambio histórico de relevancia a través del uso de diferentes fuentes de
+información, teniendo en cuenta las continuidades y permanencias en diferentes períodos y lugares,
+con especial atención a las distintas culturas insulares anteriores al proceso de conquista de Canarias.
+STEM3, STEM4, STEM5, CPSAA3, CC3,
+CC4, CE1, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado
+distintas sociedades a lo largo del tiempo, como pueden ser la complejidad social y nacimiento de la autoridad (familia, clan, tribu, casta, linaje y
+estamentos) así como la desigualdad social y disputa por el poder desde la Prehistoria y la Antigüedad y que comprende, interpreta y valora con
+objetividad crítica los textos y las diversas fuentes. Esta tarea se plantea mediante proyectos, retos o problemas que facilitan al alumnado, tanto
+15
+
+=== Página 16 ===
+
+individual como grupal,  donde ponga en acción estrategias y habilidades  diversas para analizar y comprender  los fenómenos, situaciones  o
+acontecimientos que tienen una especial relevancia o interés en el mundo en el que vive. Por otro lado, se constatará que utiliza tecnologías de la
+información, como pueden ser el manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales, para realizar propuestas a
+los Objetivos de Desarrollo Sostenible, desde un enfoque encaminado a la conciencia ambiental así como el respeto, protección y cuidado de los
+seres vivos y del planeta. Finalmente, se valorará la responsabilidad ecosocial del alumnado, que ha de comprender y analizar problemas éticos
+fundamentales y de actualidad, tales como la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, y que es
+capaz de entender las grandes migraciones humanas y nacimiento de las primeras civilizaciones, teniendo como referencia a las distintas culturas
+insulares anteriores al proceso de conquista de Canarias. Por último, promoverá el desarrollo una ciudadanía ética digital, mediante el uso seguro de
+las redes de comunicación así como una lectura crítica de la información.
+Competencia específica
+4.  Identificar  y  analizar  los  elementos  del  paisaje  y  su  articulación  en  sistemas  complejos
+naturales, rurales y urbanos, así como su evolución en el tiempo, interpretando las causas de las
+transformaciones y valorando el grado de equilibrio existente en los distintos ecosistemas, para
+promover su conservación, mejora y uso sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+Criterios de evaluación
+4.1. Interpretar el entorno desde una perspectiva sistémica e integradora, a través del concepto de
+paisaje, identificando sus principales elementos y las interrelaciones existentes.
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+4.2. Valorar el grado de sostenibilidad y de equilibrio de los diferentes espacios y desde distintas
+escalas, tomando como referencia el patrimonio natural de Canarias, España y global, y analizar su
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+16
+
+=== Página 17 ===
+
+transformación y degradación a través del tiempo por la acción humana en la explotación de los
+recursos, su relación con la evolución de la población y las estrategias desarrolladas para su control y
+dominio y los conflictos que ha provocado.
+4.3. Argumentar la necesidad de acciones de defensa, protección, conservación y mejora del entorno
+(natural, rural y urbano) a través de propuestas e iniciativas que reflejen compromisos y conductas en
+favor de la sostenibilidad y del reparto justo y solidario de los recursos.
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+Explicación del bloque competencial
+Este bloque competencial servirá para verificar que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en
+sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, mediante la iniciación a los métodos básicos de investigación
+para la construcción del conocimiento de la geografía, como es el descubrimiento y análisis del entorno, que permitirá al alumnado identificar sus
+elementos y relaciones, así como su equilibrio y evolución. El objetivo es conocer las dinámicas y amenazas de los ecosistemas planetarios y las
+formas y procesos de modificación de la superficie terrestre. Por otro lado, se constatará que el alumnado es capaz de valorar la riqueza y el
+patrimonio natural de Canarias, de España y del resto del mundo, a través de metodologías del pensamiento geográfico (localización y distribución,
+comparación y generalización, conexión y evolución) para verificar la influencia humana en la alteración de los ecosistemas en el pasado y la
+actualidad, realizando propuestas y participando en iniciativas en favor de la sostenibilidad y el reparto justo.
+Competencia específica
+5. Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción
+de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así
+como  asumiendo  los  deberes  y  derechos  propios  de  nuestro  marco  de  convivencia,  para
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CC1, CC2, CC3, CCEC1
+17
+
+=== Página 18 ===
+
+promover la participación ciudadana y la cohesión social.
+Criterios de evaluación
+5.1. Identificar, interpretar y analizar los mecanismos que han regulado la convivencia y la vida en
+común a lo largo de la historia, desde el origen de la sociedad a las distintas civilizaciones dentro de la
+Edad  Antigua,  señalando  los  principales  modelos  de  organización  social,  política,  económica  y
+religiosa que se han gestado.
+CC1, CC2, CC3, CCEC1
+5.2. Señalar y explicar aquellas experiencias históricas más destacables, hasta la Edad Antigua, en las
+que se logró establecer sistemas políticos que favorecieron el ejercicio de derechos y libertades de los
+individuos y de  la colectividad,  considerándolas  como antecedentes de las  posteriores conquistas
+democráticas y referentes históricos de las libertades actuales.
+CCL5, CC1, CC2, CC3, CCEC1
+5.3. Mostrar actitudes pacíficas y respetuosas y asumir las normas como marco necesario para la
+convivencia, demostrando capacidad crítica e identificando y respondiendo de manera asertiva ante las
+situaciones de injusticia y desigualdad.
+CCL5, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de analizar planteamientos históricos, explicando los mecanismos que han
+regulado la convivencia y la vida común a lo largo de largo de la historia, y que comprende los deberes y derechos propios de nuestro marco de
+convivencia  para  promover  la  incorporación  e  implicación  de  la  sociedad  civil  en  procesos  democráticos  y  la  participación  en  proyectos
+comunitarios. Se verificará que conoce las formulaciones estatales en el mundo antiguo, tales como las democracias, repúblicas, imperios y reinos.
+Por otro lado, se podrá visualizar que analiza los principios y valores de la dignidad humana y derechos universales, como puede ser la Convención
+sobre los Derechos del Niño y la acción de los movimientos sociales, a través de la participación, trabajo en equipo (mediante acciones informativas
+como dosieres, paneles divulgativos, murales, preparación, difusión de entrevistas u otro tipo de intervenciones), mediación y resolución pacífica de
+18
+
+=== Página 19 ===
+
+conflictos.
+Competencia específica
+6. Comprender los procesos geográficos, históricos y culturales que han conformado la realidad
+multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías
+étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la
+igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y
+violencia, y reconocer la riqueza de la diversidad.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+6.1. Situar el nacimiento y desarrollo de distintas civilizaciones y ubicarlas en el espacio y en el
+tiempo,  integrando  los  elementos  históricos,  culturales,  institucionales  y  religiosos  que  las  han
+conformado, explicando la realidad multicultural generada a lo largo del tiempo e identificando sus
+aportaciones  más  relevantes  a  la  cultura  universal,  así  como  en  la  formación  de  las  identidades
+colectivas de España y Canarias.
+CPSAA3, CC1, CC2, CC3, CCEC1
+6.2. Reconocer las desigualdades sociales existentes desde la Prehistoria hasta la Edad Antigua y los
+mecanismos de dominación y control que se han aplicado, identificando aquellos grupos que se han
+visto sometidos y silenciados, destacando la presencia de mujeres y de personajes pertenecientes a
+otros colectivos discriminados.
+CPSAA3, CC1, CC2, CC3, CCEC1
+6.3. Valorar la diversidad social y cultural, argumentando e interviniendo en favor de la inclusión, así CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+19
+
+=== Página 20 ===
+
+como  rechazando  y actuando  en contra  de  cualquier  actitud  o comportamiento  discriminatorio  o
+basado en estereotipos.
+6.4. Argumentar e intervenir acerca de la igualdad real de hombres y mujeres actuando en contra de
+cualquier actitud y comportamiento discriminatorio por razón de género.
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que
+han conformado la realidad multicultural en la que vivimos, a través del estudio del legado histórico y el acervo cultural en la formación de las
+identidades colectivas de España y Canarias. Se podrá verificar que puede identificar las situaciones discriminatorias de las personas invisibilizadas
+desde la Prehistoria a la Edad Antigua: mujeres, esclavos y extranjeros así como la marginación, segregación, control y sumisión en la historia de la
+humanidad de las niñas y de las mujeres en el mundo y los roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura. El
+objetivo es alcanzar el respeto y aceptación del otro mediante comportamientos no discriminatorios y contrarios a cualquier actitud segregadora, a
+través de argumentaciones (exposiciones orales y por escrito, debates, entrevistas) e intervenciones, valorándose las actitudes de respeto por la
+diversidad, y el compromiso con la igualdad de género y las manifestaciones y conductas no sexistas, el alumnado debe concebir que la comunidad
+es la suma de todos y cada uno, y que debemos convivir en igualdad de derechos, de oportunidades y de responsabilidades.
+Competencia específica
+7. Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a
+través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos
+para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos
+que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+20
+
+=== Página 21 ===
+
+la Declaración Universal de los Derechos Humanos.
+Criterios de evaluación
+7.1. Relacionar las culturas y civilizaciones que se han desarrollado a lo largo de la Historia Antigua,
+con las diversas identidades colectivas que se han ido construyendo hasta la actualidad, reflexionando
+sobre los múltiples significados que adoptan y sus aportaciones a la cultura humana universal.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.2. Identificar el origen histórico de distintas identidades colectivas que se han desarrollado en España
+y Canarias interpretando el uso que se ha hecho de las mismas y mostrando una actitud de respeto
+hacia los diferentes sentidos de pertenencia, promoviendo la solidaridad y la cohesión social.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.3. Señalar los fundamentos de la idea de Europa a través de las diferentes experiencias históricas del
+pasado e identificar el legado histórico, institucional, artístico y cultural como patrimonio común de la
+ciudadanía europea.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.4. Valorar, proteger y conservar el patrimonio social, cultural e histórico como fundamento de la
+identidad colectiva insular, autonómica, nacional, europea y universal, considerándolo un bien para el
+disfrute recreativo y cultural y un recurso para el desarrollo de los pueblos.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas identidades propias
+y las  ajenas, reconociendo  el  significado  y función  de  las expresiones  artísticas y culturales  en  las distintas  civilizaciones,  reconociendo  el
+significado y mostrando respeto por la conservación del patrimonio material e inmaterial, desde la Prehistoria hasta las primeras civilizaciones, así
+como promover acciones tendentes a su conservación, promoción y puesta en valor. Se verificará que analiza las ideas relativas a la dimensión social
+y ciudadana a lo largo de la Historia Antigua, con las diversas identidades colectivas que se han ido construyendo hasta la actualidad, reflexionando
+21
+
+=== Página 22 ===
+
+sobre los múltiples significados que adoptan y sus aportaciones a la cultura humana universal, recogidas en la Declaración Universal de los Derechos
+Humanos. También se constatarán las estrategias para identificar el origen histórico de distintas identidades colectivas que se han desarrollado en
+España y Canarias, interpretando el uso que se ha hecho de las mismas y mostrando una actitud de respeto hacia los diferentes sentidos de
+pertenencia, promoviendo la solidaridad y la cohesión social, mediante la puesta en valor, difusión y gestión de esa riqueza social y patrimonial con
+producciones donde se hagan también planteamientos éticos. como pueden ser síntesis, exposiciones, infografías, pósteres y murales digitales o en
+papel, lapbook o paneles informativos.
+Competencia específica
+8. Tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las
+relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo
+del tiempo, analizándolas de forma crítica, para promover alternativas saludables, sostenibles,
+enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el
+entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+Criterios de evaluación
+8.1. Conocer e interpretar los comportamientos demográficos de la población, los cambios que ha
+experimentado y sus ciclos, identificando y analizando los principales problemas y retos a los que nos
+enfrentamos en el mundo y en España.
+STEM5, CD4, CC1, CC2, CC3
+8.2. Tomar conciencia del ciclo vital y analizar cómo han cambiado sus características, necesidades y
+obligaciones en distintos momentos históricos, así como las raíces de la distribución por motivos de
+género del trabajo doméstico, asumiendo las responsabilidades y compromisos propios de la edad en el
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+22
+
+=== Página 23 ===
+
+ámbito familiar, en el entorno escolar y en la comunidad, y valorando la riqueza que aportan las
+relaciones intergeneracionales.
+8.3. Relacionar los cambios en los estilos de vida tradicional y contrastarlos con los que son saludables
+y sostenibles en el entorno, a través de comportamientos respetuosos con la salud propia, con la de los
+demás y con otros seres vivos, tomando conciencia de la importancia de promover el propio desarrollo
+personal.
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, el ciclo
+vital, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual, y su evolución a lo largo del tiempo. Se
+verificará que conoce la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, de los ciclos demográficos, de
+los modos de vida y de los modelos de organización social a lo largo del periodo histórico analizado. También se evaluará el conocimiento de la
+riqueza y valor del patrimonio natural, la influencia humana en la alteración de los ecosistemas en el pasado y la actualidad y la conservación y
+mejora del entorno local canario. Se comprobará que el alumnado es capaz de analizar, preferentemente de forma colaborativa, los dilemas del
+mundo actual como punto de partida para el pensamiento crítico y el desarrollo de juicios propios, así como la presentación de ideas y soluciones
+innovadoras, éticas y sostenibles a través de dosieres, paneles divulgativos, murales digitales o cualquier otro producto. Por último, se fomentará
+entre el alumnado los estilos de vida y hábitos que se adquiere individual y colectivamente en el entorno cultural y familiar y se les hará visualizar
+cómo mejoran la esperanza y la calidad de vida.
+Competencia específica
+9.  Conocer  y  valorar  la  importancia  de  la  seguridad  integral  ciudadana  en  la  cultura  de
+convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y
+otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al
+desarrollo  sostenible,  para  promover  la  consecución  de  un  mundo  más  seguro,  solidario,
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+23
+
+=== Página 24 ===
+
+sostenible y justo.
+Criterios de evaluación
+9.1. Identificar e interpretar la conexión de España con los grandes procesos históricos de la época
+antigua,  valorando  lo  que  han  supuesto  para  su  evolución  y  señalando  las  aportaciones  de  sus
+habitantes a lo largo de la historia.
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+9.2. Interpretar desde la perspectiva del desarrollo sostenible y la ciudadanía global los principales
+desafíos del mundo actual, expresando la importancia de implicarse en la búsqueda de soluciones y en
+el  modo  de  concretarlos  desde  su  capacidad  de  acción  tanto  local  como  global,  valorando  la
+contribución del Estado, sus instituciones y las asociaciones civiles en programas y misiones dirigidos
+por  organismos  nacionales  e  internacionales  para  el  logro  de  la  paz,  la  seguridad  integral,  la
+convivencia social y la cooperación entre los pueblos.
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la importancia de la seguridad integral ciudadana
+en la cultura de convivencia nacional e internacional, a través de la interpretación de la conexión de España con los grandes procesos históricos de la
+época antigua, valorando lo que han supuesto para su evolución y señalando las aportaciones de sus habitantes a lo largo de la historia, al estar
+situada en el escenario de los grandes flujos de difusión cultural y técnica, así como en el de la evolución del comercio internacional y en el contexto
+de las relaciones políticas y diplomáticas. Asimismo, se comprobará que el alumnado valora la contribución de nuestro país a la consecución de un
+mundo más seguro, justo, solidario y sostenible, a través del análisis de la concentración y distribución de la riqueza, las formas y modos de percibir
+y representar la desigualdad. También se evaluará la comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la
+comprensión de ideas y actitudes en el proyecto de construcción de una identidad común. Se comprobará que el alumnado es capaz de analizar las
+ideas y actitudes en el proyecto de construcción de una identidad común y la seguridad y la cooperación internacional. así como la presentación
+mediante exposiciones, infografías, pósteres, dosieres, murales o cualquier otro recurso que ayude a difundir ideas y soluciones innovadoras, éticas y
+24
+
+=== Página 25 ===
+
+sostenibles.
+25
+
+=== Página 26 ===
+
+Saberes básicos
+I. Retos del mundo actual
+ 1. Ubicación espacial. 
+ 1.1. Representación del espacio, orientación y escalas.
+ 1.2. Utilización de recursos digitales e interpretación y elaboración de mapas, esquemas,
+imágenes y representaciones gráficas.
+ 1.3. Uso de las Tecnologías de la Información Geográfica (TIG).
+ 2. Emergencia climática. 
+ 2.1. Identificación de elementos y factores que condicionan el clima y el impacto de las
+actividades humanas.
+ 2.2. Métodos de recogida de datos meteorológicos e interpretación de gráficos.
+ 2.3. Identificar los componentes básicos de su relieve, clima, aguas y vegetación.
+ 2.4. Reconocimiento de riesgos y catástrofes climáticas en el presente, en el pasado y en el
+futuro.
+ 2.5. Reflexión sobre la vulnerabilidad, prevención y resiliencia de la población ante las
+catástrofes naturales y los efectos del cambio climático.
+ 2.6. El clima y la emergencia climática en Canarias, el impacto por la acción antrópica.
+ 3. Biodiversidad. 
+ 3.1. Reconocimiento de las dinámicas y amenazas de los ecosistemas planetarios.
+ 3.2. Identificación de formas y procesos de modificación de la superficie terrestre.
+ 3.3. Explicación de la riqueza y valor del patrimonio natural.
+ 3.4. Reflexión crítica de la influencia humana en la alteración de los ecosistemas en el
+pasado y la actualidad.
+ 3.5. Análisis de la biodiversidad en las Islas Canarias. Análisis de los jardines botánicos
+canarios  como  reservorio  de  la  diversidad  vegetal  canaria.  Laurisilva  canaria  como
+recuerdo del pasado.
+ 3.6. Identificación de especies endémicas en peligro de extinción.
+ 4. El espacio humano. 
+ 4.1. Localización de los espacios naturales canarios.
+ 4.2. Interpretación de mapa y explicación de su situación actual.
+ 5. Tecnologías de la información. 
+ 5.1. Utilización y manejo de dispositivos, aplicaciones informáticas y plataformas digitales.
+26
+
+=== Página 27 ===
+
+5.2. Búsqueda, tratamiento de la información y elaboración de conocimiento.
+ 5.3. Uso seguro de las redes de comunicación.
+ 5.4. Lectura crítica de la información.
+ 6. Sociedad del conocimiento. 
+ 6.1. Introducción a los objetivos y estrategias de las Ciencias Sociales y al uso de sus
+procedimientos, términos y conceptos.
+ 6.2. Uso de plataformas digitales específicas de las Ciencias Sociales.
+ 7. Igualdad. 
+ 7.1. Reflexión sobre situaciones discriminatorias de las niñas y de las mujeres en el mundo.
+ 7.2. Las mujeres rurales y su impacto en la sociedad canaria en el pasado y en el presente.
+ 7.3. Identificación  de  roles  de  género  y  su  manifestación  en  todos  los  ámbitos  de  la
+sociedad y la cultura.
+ 8. Objetivos de Desarrollo Sostenible. 
+ 8.1. Reconocimiento y visión de los dilemas del mundo actual, punto de partida para el
+pensamiento crítico y el desarrollo de juicios propios.
+II. Sociedades y territorios
+ 1. Métodos básicos de investigación para la construcción del conocimiento de la Geografía y la
+Historia. 
+ 1.1. Investigación sobre las metodologías del pensamiento geográfico y del pensamiento
+histórico.
+ 1.2. Conocimiento  de  algunas  instituciones  científicas  canarias  implicadas  en  el
+conocimiento geográfico e histórico.
+ 2. Las fuentes históricas y arqueológicas como base para la construcción del conocimiento
+histórico. 
+ 2.1. Ilustración de objetos y artefactos como fuente para la historia y el legado inmaterial.
+ 2.2. Valoración del significado de los archivos, bibliotecas y museos, especialmente en el
+archipiélago,y del legado histórico y cultural como patrimonio colectivo.
+ 3. Tiempo histórico. 
+ 3.1. Construcción e interpretación de líneas de tiempo a través de la linealidad, cronología,
+simultaneidad y duración.
+ 4. Análisis interdisciplinar del origen del ser humano y del nacimiento de la sociedad. 
+ 4.1. Reconocimiento de las grandes migraciones humanas y nacimiento de las primeras
+culturas.
+27
+
+=== Página 28 ===
+
+5. Violencia y conflictos armados. 
+ 5.1. Análisis del crecimiento de los ejércitos y la evolución del armamento. Los civiles
+durante las guerras.
+ 6. Complejidad  social  y  nacimiento  de  la  autoridad:  familia,  clan,  tribu,  casta,  linaje  y
+estamento. 
+ 6.1. Desigualdad social y disputa por el poder desde la Prehistoria hasta la Antigüedad.
+Formación de oligarquías, la imagen del poder y la evolución de la aristocracia.
+ 7. Las personas invisibilizadas de la historia. 
+ 7.1. Identificación de los roles de las mujeres, las personas esclavas  y extranjeras.
+ 7.2. Reconocimiento de situaciones de marginación, segregación, control y sumisión en la
+historia de la humanidad.
+ 7.3. Valoración de los personajes femeninos en la historia.
+ 7.4. Identificación de la resistencia a la opresión.
+ 8. La organización política del ser humano y las formulaciones estatales en el mundo antiguo. 
+ 8.1. Identificación y análisis de democracias, repúblicas, imperios y reinos en el mundo
+antiguo.
+ 8.2. Conocimiento de la evolución de la teoría del poder.
+ 9. Las raíces clásicas de la cultura occidental. 
+ 9.1. Valoración de la construcción de las identidades culturales, de la idea de Europa y del
+eurocentrismo, a través del pensamiento y del arte.
+ 10. El papel de la religión en la organización social, la legitimación del poder y la formación de
+identidades. 
+ 10.1. Identificación de politeísmo, monoteísmo y el surgimiento de las grandes religiones.
+ 11. La transformación humana del territorio y la distribución desigual de los recursos y del
+trabajo. 
+ 11.1. Reconocimiento  de  la  evolución  de  los  sistemas  económicos,  de  los  ciclos
+demográficos, de los modos de vida y de los modelos de organización social.
+ 11.2. Reconocimiento  de  la  lucha  por  la  supervivencia  y  el  estatus  social  desde  la
+Prehistoria hasta la Antigüedad.
+ 12. España en el tiempo y su conexión con los grandes procesos de la historia de la humanidad. 
+ 12.1. Identificación e interpretación del legado histórico y el acervo cultural en la formación
+de las identidades colectivas.
+ 12.2. La insularidad.
+28
+
+=== Página 29 ===
+
+13. Significado  y  función  de  las  expresiones  artísticas  y  culturales  en  las  distintas
+civilizaciones. 
+ 13.1. Reconocimiento y valoración de la diversidad y riqueza cultural.
+ 13.2. Respeto y conservación del patrimonio material e inmaterial.
+III. Compromiso cívico y social
+ 1. Dignidad humana y derechos universales. 
+ 1.1. Análisis de la Convención sobre los Derechos del Niño.
+ 2. Alteridad: respeto y aceptación del otro. 
+ 2.1. Valoración crítica de comportamientos no discriminatorios y contrarios a cualquier
+actitud segregadora.
+ 3. Igualdad de género. Identificación de las manifestaciones y conductas no sexistas.
+ 4. Las redes sociales. 
+ 4.1. Utilización segura y con actitud preventiva de las tecnologías de la información y de la
+comunicación.
+ 5. Convivencia cívica y cultura democrática. 
+ 5.1. Incorporación e implicación de la sociedad civil en procesos democráticos.
+ 5.2. Participación en proyectos comunitarios.
+ 6. Conciencia ambiental. 
+ 6.1. Concienciación hacia el respeto, protección y cuidado de los seres vivos y del planeta.
+ 6.2. Estudio de los principales problemas y las amenazas medioambientales de Canarias.
+ 6.3. Sensibilización por el respeto, protección y cuidado de la biodiversidad.
+ 7. Conservación y defensa del patrimonio social, cultural e histórico.
+ 8. Implicación  solidaria,  con  empatía  y  acciones  de  apoyo  a  colectivos  en  situaciones  de
+pobreza, vulnerabilidad y exclusión social.
+ 9. Identificación y gestión de las emociones y su repercusión en comportamientos individuales
+y colectivos.
+ 10. Ciclos vitales, uso del tiempo libre y hábitos de consumo. 
+ 10.1. Diferenciación y análisis de cambios en las formas de vida en las sociedades actuales
+y en las del pasado.
+ 11. Reconocimiento de la contribución del Estado y sus instituciones a la paz, a la seguridad
+integral ciudadana y a la convivencia social.
+ 12. Seguridad vial y movilidad segura, saludable y sostenible. El espacio público.
+29
+
+=== Página 30 ===
+
+2.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del
+pasado,  usando  críticamente  fuentes  históricas  y  geográficas,  para  adquirir  conocimientos,
+elaborar y expresar contenidos en varios formatos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CC1
+Criterios de evaluación
+1.1. Elaborar, expresar y presentar contenidos propios en forma de esquemas, tablas informativas y
+otros formatos mediante el desarrollo de estrategias de búsqueda y selección de información relativas a
+procesos y acontecimientos relevantes del presente y del pasado.
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CC1
+1.2. Contrastar y argumentar sobre temas y acontecimientos de la Edad Media y la Edad Moderna,
+localizando y analizando de forma crítica fuentes primarias y secundarias como pruebas históricas.
+CCL2, CCL3, CD1, CD2, CD3, CC1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de utilizar las herramientas adecuadas para una aproximación al
+conocimiento científico, buscando y seleccionando información sobre temas relevantes del presente y del pasado, para elaborar, expresar y presentar
+contenidos propios en forma de esquemas, tablas informativas y otros formatos usando los datos en entornos digitales y evaluando la fiabilidad de
+las fuentes, teniendo en cuenta el problema de la desinformación. Se pretende que el alumnado aprenda a construir conocimiento partiendo de los
+métodos de investigación en el ámbito de la geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas,
+tablas, diagramas, esquemas). También se constatará que analiza distintos tipos de textos sobre la Edad Media y Edad Moderna, contrastando la
+30
+
+=== Página 31 ===
+
+interpretación de historiadores y que construye e interpreta líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por
+último, se valorará que elabore esquemas y tablas comparativas (informes, estudios, dosieres informativos, paneles divulgativos, infografías),
+comunicando la información, participando, colaborando y compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la
+sociedad de la información.
+Competencia específica
+2. Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y
+sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un
+pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia
+identidad y a enriquecer el acervo común.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+Criterios de evaluación
+2.1. Identificar, valorar y mostrar interés por los principales problemas que afectan a la sociedad,
+adoptando una posición crítica y proactiva hacia los mismos.
+CD1, CD2, CC1, CC3, CE3, CCEC3
+2.2. Argumentar de forma crítica sobre problemas de actualidad a través de conocimientos geográficos
+e históricos, contrastando y valorando fuentes diversas.
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+2.3. Incorporar y utilizar adecuadamente términos, conceptos y acontecimientos relacionados con la
+geografía, la historia y otras disciplinas de las ciencias sociales, a través de intervenciones orales,
+textos escritos y otros productos, mostrando planteamientos originales y propuestas creativas.
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3
+31
+
+=== Página 32 ===
+
+2.4. Elaborar juicios argumentados, respetando las opiniones de los demás y enriqueciendo el acervo
+común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y
+global.
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de indagar y argumentar información sobre problemas geográficos,
+históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, partiendo de la propia realidad canaria, de España y del resto
+del mundo, mediante un uso contrastado de la información haciendo una lectura crítica como base para la construcción del conocimiento histórico,
+que se consigue con el desarrollo de una serie de destrezas, habilidades y estrategias intelectuales como la comprensión lectora, la interpretación de
+fuentes diversas y el análisis crítico y objetivo de los problemas presentes y pasados de la humanidad. Se verificará que conoce incorpora y utiliza
+adecuadamente términos, conceptos y acontecimientos relacionados con la geografía, la historia y otras disciplinas de las ciencias sociales, mediante
+el trabajo colaborativo, en grupos base, con aprendizaje guiado, y que realiza intervenciones orales y presenta textos escritos y otros productos,
+mostrando planteamientos comparados y contrastados. El objetivo es que el alumnado elabore juicios argumentados, respetando las opiniones de los
+demás y enriqueciendo el acervo común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y global. Por
+último, se valorará la construcción  de  su propia  personalidad, en su dimensión  social y ciudadana y el  enriquecimiento del acervo común,
+entendiendo el patrimonio —partiendo del canario y siguiendo con el resto de España— como bien y como recurso, a través de su puesta en valor,
+difusión y gestión de esa riqueza patrimonial, con producciones (presentaciones, paneles divulgativos, murales digitales, ferias…) y planteamiento
+éticos que incluyan la gestión de las emociones y su repercusión en comportamientos individuales y colectivos.
+Competencia específica
+3. Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del
+tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los
+que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+32
+
+=== Página 33 ===
+
+de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible.
+Criterios de evaluación
+3.1. Adquirir y construir conocimiento relevante del mundo actual y de la historia, a través de procesos
+inductivos, de la investigación y del trabajo por proyectos, retos o problemas, mediante la elaboración
+de productos que reflejen la comprensión de los fenómenos y problemas abordados.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+3.2 Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo
+largo de la historia, los cambios producidos, sus causas y consecuencias, así como los que, en la
+actualidad, debemos plantear y resolver en torno a los Objetivos de Desarrollo Sostenible.
+STEM3, STEM4, STEM5, CPSAA3
+3.3. Representar adecuadamente información geográfica e histórica a través de diversas formas de
+representación gráfica, cartográfica y visual.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CC3, CC4, CE1, CCEC1
+3.4. Utilizar una secuencia cronológica con objeto de examinar la relación entre hechos y procesos en
+diferentes períodos y lugares históricos (simultaneidad y duración), utilizando términos y conceptos
+apropiados.
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+3.5. Analizar procesos de cambio histórico de relevancia a través del uso de diferentes fuentes de
+información, teniendo en cuenta las continuidades y permanencias en diferentes períodos y lugares.
+STEM3, STEM4, STEM5, CPSAA3, CC3,
+CC4, CE1, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado distintas
+sociedades a lo largo del tiempo, como pueden ser los desafíos demográficos en el mundo actual y la competencia y los conflictos por los recursos y
+33
+
+=== Página 34 ===
+
+el territorio. También que el alumno o la alumna comprende, interpreta y valora con objetividad los textos y las diversas fuentes para analizar las
+tensiones internacionales, choques y alianzas entre civilizaciones. Por otro lado, se constatará que utiliza tecnologías de la información, como
+pueden ser el manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales para realizar propuestas a los Objetivos de
+Desarrollo Sostenible, desde un enfoque encaminado a la conciencia ambiental así como el respeto, protección y cuidado de los seres vivos y del
+planeta, donde se les plantearán proyectos, retos o problemas que facilitan al alumnado, tanto individual como grupal, poner en acción estrategias y
+habilidades diversas para analizar y comprender los fenómenos, situaciones o acontecimientos que tienen una especial relevancia o interés en el
+mundo en el que vive. Finalmente, se valorará la responsabilidad ecosocial del alumnado, que ha de comprender y analizar problemas éticos
+fundamentales y de actualidad, tales como la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, y que es
+capaz de entender las grandes migraciones humanas teniendo como referencia la realidad de Canarias, en el contexto del proceso de conquista y
+colonización, además de desarrollar una ciudadanía ética digital, mediante el uso seguro de las redes de comunicación así como una lectura crítica de
+la información.
+Competencia específica
+4.  Identificar  y  analizar  los  elementos  del  paisaje  y  su  articulación  en  sistemas  complejos
+naturales, rurales y urbanos, así como su evolución en el tiempo, interpretando las causas de las
+transformaciones y valorando el grado de equilibrio existente en los distintos ecosistemas, para
+promover su conservación, mejora y uso sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+Criterios de evaluación
+4.1. Interpretar el entorno desde una perspectiva sistémica e integradora, a través del concepto de
+paisaje, identificando sus principales elementos y las interrelaciones existentes.
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+34
+
+=== Página 35 ===
+
+4.2. Valorar el grado de sostenibilidad y de equilibrio de los diferentes espacios y desde distintas
+escalas, y analizar su transformación y degradación a través del tiempo por la acción humana en la
+explotación de los recursos, su relación con la evolución de la población y las estrategias desarrolladas
+para su control y dominio y los conflictos que ha provocado.
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+4.3 Argumentar la necesidad de acciones de defensa, protección, conservación y mejora del entorno
+(natural, rural y urbano) a través de propuestas e iniciativas que reflejen compromisos y conductas en
+favor de la sostenibilidad y del reparto justo y solidario de los recursos.
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en
+sistemas complejos rurales y urbanos, así como su evolución en el tiempo, mediante métodos básicos de investigación para la construcción del
+conocimiento de la Geografía (localización y distribución, comparación y generalización, conexión y evolución). El objetivo es alcanzar una
+interpretación  del  territorio  y  del  paisaje  mediante  las  Tecnologías  de  la  Información  Geográfica  (TIG)  para  analizar  el  fenómeno  de  las
+aglomeraciones urbanas y la ruralidad, así como la despoblación y el sostenimiento del mundo rural. Por otro lado, se verificará que comprende el
+desarrollo urbano sostenible y que identifica la ciudad como un espacio de convivencia, respetando los diferentes modos y estilos de vida en el
+contexto de la globalización. Finalmente se constatará que el alumnado es capaz de valorar la riqueza y el patrimonio natural de Canarias, de España
+y del resto del mundo, mediante metodologías del pensamiento geográfico (localización y representación del espacio geográfico y obtención de
+información a partir de mapas, datos estadísticos y gráficos) para potenciar la protección del patrimonio natural, histórico, artístico y cultural.
+Competencia específica
+5. Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción
+de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así
+Descriptores operativos de las
+competencias clave. Perfil de salida
+35
+
+=== Página 36 ===
+
+como  asumiendo  los  deberes  y  derechos  propios  de  nuestro  marco  de  convivencia,  para
+promover la participación ciudadana y la cohesión social.
+CCL5, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+5.1. Identificar, interpretar y analizar los mecanismos que han regulado la convivencia y la vida en
+común  desde  la  Edad  Media  hasta  la  Edad  Moderna,  señalando  los  principales  modelos  de
+organización social, política, económica y religiosa que se han gestado.
+CC1, CC2, CC3, CCEC1
+5.2. Señalar y explicar aquellas experiencias históricas más destacables, desde la Edad Media hasta la
+Edad Moderna, en las que se logró establecer sistemas políticos que favorecieron el ejercicio de
+derechos y libertades de los individuos y de la colectividad, considerándolas como antecedentes de las
+posteriores conquistas democráticas y referentes históricos de las libertades actuales.
+CCL5, CC1, CC2, CC3, CCEC1
+5.3. Mostrar actitudes pacíficas y respetuosas y asumir las normas como marco necesario para la
+convivencia, demostrando capacidad crítica e identificando y respondiendo de manera asertiva ante las
+situaciones de injusticia y desigualdad.
+CCL5, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica planteamientos históricos y geográficos
+explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como la contribución
+del Estado y sus instituciones a la paz, a la seguridad integral ciudadana y a la convivencia social, analizando desde la Edad Media hasta la Edad
+Moderna. El objetivo es comprobar que el alumnado conoce la incorporación e implicación de la sociedad civil en procesos democráticos y que
+participa en proyectos comunitarios. Se verificará que conoce, las formulaciones estatales en el mundo medieval y moderno, tales como las
+repúblicas, imperios y reinos. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los principios y valores de la dignidad
+humana y derechos universales, como puede ser la Convención sobre los Derechos del Niño y la acción de los movimientos sociales, mediante la
+36
+
+=== Página 37 ===
+
+participación, trabajo en equipo (con tareas informativas como dosieres, paneles divulgativos, murales, preparación, difusión de entrevistas u otro
+tipo de intervenciones), mediación y resolución pacífica de conflictos.
+Competencia específica
+6. Comprender los procesos geográficos, históricos y culturales que han conformado la realidad
+multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías
+étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la
+igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y
+violencia, y reconocer la riqueza de la diversidad.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+6.1. Situar el nacimiento y desarrollo de los distintos reinos e civilizaciones y ubicarlos en el espacio y
+en el tiempo, integrando los elementos históricos, culturales, institucionales y religiosos que las han
+conformado, explicando la realidad multicultural generada a lo largo del tiempo e identificando sus
+aportaciones más relevantes a la cultura universal.
+CPSAA3, CC1, CC2, CC3, CCEC1
+6.2. Reconocer las desigualdades sociales existentes desde la Edad Media hasta la Edad Moderna y los
+mecanismos de dominación y control que se han aplicado, identificando aquellos grupos que se han
+visto sometidos y silenciados, destacando la presencia de mujeres y de personajes pertenecientes a
+otros colectivos discriminados.
+CPSAA3, CC1, CC2, CC3, CCEC1
+6.3. Valorar la diversidad social y cultural, argumentando e interviniendo en favor de la inclusión, así
+como  rechazando  y actuando  en contra  de  cualquier  actitud  o comportamiento  discriminatorio  o
+basado en estereotipos.
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+37
+
+=== Página 38 ===
+
+6.4. Argumentar e intervenir acerca de la igualdad real de hombres y mujeres actuando en contra de
+cualquier actitud y comportamiento discriminatorio por razón de género.
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que
+han conformado la realidad multicultural en la que vivimos, a través del estudio del legado histórico y el acervo cultural desde la Edad Media hasta
+la Edad Moderna en la formación de las identidades colectivas de España y Canarias como pueden ser el papel de la religión en la organización
+social, la legitimización del poder y la formación de identidades. Se podrá verificar que puede identificar las situaciones discriminatorias de las
+personas invisibilizadas de la historia: mujeres, esclavos y extranjeros así como la marginación, segregación, control y sumisión en la historia de la
+humanidad de las niñas y de las mujeres en el mundo y los roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura. El
+objetivo es alcanzar el respeto y aceptación del otro mediante comportamientos no discriminatorios y contrarios a cualquier actitud segregadora,
+valorándose las actitudes de respeto por la diversidad, y el compromiso con la igualdad de género y las manifestaciones y conductas no sexistas
+mediante la elaboración —de forma individual o en grupo— de paneles y murales divulgativos, exposiciones, pósteres, infografías o cualquier otro
+recurso.
+Competencia específica
+7. Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a
+través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos
+para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos
+que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de
+la Declaración Universal de los Derechos Humanos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+38
+
+=== Página 39 ===
+
+7.1. Relacionar las culturas y civilizaciones que se han desarrollado a lo largo de la historia medieval y
+moderna con las diversas identidades colectivas que se han ido construyendo hasta la actualidad,
+reflexionando sobre los múltiples significados que adoptan y sus aportaciones a la cultura humana
+universal.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.2. Identificar el origen histórico de distintas identidades colectivas que se han desarrollado en España
+y Canarias, interpretando el uso que se ha hecho de las mismas y mostrando una actitud de respeto
+hacia los diferentes sentidos de pertenencia, promoviendo la solidaridad y la cohesión social.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.3. Señalar los fundamentos de la idea de Europa a través de las diferentes experiencias a lo largo de
+la historia medieval y moderna e identificar el legado histórico, institucional, artístico y cultural como
+patrimonio común de la ciudadanía europea.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+7.4. Valorar, proteger y conservar el patrimonio natural, social, cultural e histórico como fundamento
+de la identidad colectiva local, autonómica, nacional, europea y universal, considerándolo un bien para
+el disfrute recreativo y cultural y un recurso para el desarrollo de los pueblos.
+CP3, CPSAA1, CC1, CC2, CC3, CCEC1
+Explicación del bloque competencial
+Por medio de este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas
+identidades propias y las ajenas, reconociendo el significado y función de las expresiones artísticas y culturales a lo largo de la historia medieval y
+moderna, mostrando respeto por la conservación del patrimonio material e inmaterial. Se verificará que analiza las ideas relativas a la influencia de
+las civilizaciones judía e islámica en la cultura europea. También se constatarán las estrategias para identificar el significado y función de las
+expresiones artísticas y culturales en las distintas civilizaciones y el origen histórico de distintas identidades colectivas que se han desarrollado en
+España y Canarias. Se valorará que interpreta el uso que se ha hecho de esas expresiones mediante la elaboración de síntesis y productos explicativos
+(informes, estudios, dosieres informativos, murales, lapbook, presentaciones, paneles divulgativos), comunicando la información, empezando a
+adoptar un punto de vista creativo, crítico y personal, y mostrando una actitud de respeto hacia los diferentes sentidos de pertenencia, promoviendo
+39
+
+=== Página 40 ===
+
+la solidaridad y la cohesión social.
+Competencia específica
+8. Tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las
+relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo
+del tiempo, analizándolas de forma crítica, para promover alternativas saludables, sostenibles,
+enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el
+entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+Criterios de evaluación
+8.1. Conocer e interpretar los comportamientos demográficos de la población, los cambios que ha
+experimentado y sus ciclos, identificando y analizando los principales problemas y retos a los que nos
+enfrentamos en el mundo, en España y Canarias.
+STEM5, CD4, CC1, CC2, CC3
+8.2. Tomar conciencia del ciclo vital y analizar cómo han cambiado sus características, necesidades y
+obligaciones en distintos momentos históricos, desde la Edad Media hasta la Edad Moderna, así como
+las  raíces  de  la  distribución  por  motivos  de  género  del  trabajo  doméstico,  asumiendo  las
+responsabilidades y compromisos propios de la edad en el ámbito familiar, en el entorno escolar y en
+la comunidad, y valorando la riqueza que aportan las relaciones intergeneracionales.
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+8.3. Relacionar los cambios en los estilos de vida tradicional y contrastarlos con los que son saludables
+y sostenibles en el entorno, a través de comportamientos respetuosos con la salud propia, con la de los
+demás y con otros seres vivos, tomando conciencia de la importancia de promover el propio desarrollo
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+40
+
+=== Página 41 ===
+
+personal.
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, el ciclo vital,
+las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo, usando una
+perspectiva canaria.  Se verificará  que conoce  los desafíos demográficos en el mundo actual  y la  transformación humana  del  territorio  y la
+distribución desigual de los recursos y del trabajo y la evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de
+los modelos de organización social. También se evaluará el conocimiento de la riqueza y valor del patrimonio natural, la influencia humana en la
+alteración de los ecosistemas en el pasado, así como la lucha por la supervivencia y el estatus social en la Edad Media y en la Edad Moderna. Se
+comprobará que el alumnado es capaz de analizar los dilemas del mundo actual como punto de partida para el pensamiento crítico y el desarrollo de
+juicios propios, así como la presentación de ideas y soluciones innovadoras, éticas y sostenibles, con la elaboración, por ejemplo, de paneles
+divulgativos, murales digitales, conferencias, congresos o ferias escolares. Por último, se pretende seguir fomentando los estilos de vida y hábitos
+que se adquieren individual y colectivamente en el entorno cultural y familiar les hará visualizar cómo mejoran la esperanza y la calidad de vida.
+Competencia específica
+9.  Conocer  y  valorar  la  importancia  de  la  seguridad  integral  ciudadana  en  la  cultura  de
+convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y
+otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al
+desarrollo  sostenible,  para  promover  la  consecución  de  un  mundo  más  seguro,  solidario,
+sostenible y justo.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+Criterios de evaluación
+9.1. Identificar e interpretar la conexión de España y Canarias con los grandes procesos históricos de la CCL2, CC1, CC2, CC3, CC4, CE1,
+41
+
+=== Página 42 ===
+
+Edad Media y de la Edad Moderna, valorando lo que han supuesto para su evolución y señalando las
+aportaciones de sus habitantes a lo largo de la historia.
+CCEC1
+9.2. Interpretar desde la perspectiva del desarrollo sostenible y la ciudadanía global los principales
+desafíos del mundo actual, expresando la importancia de implicarse en la búsqueda de soluciones y en
+el  modo  de  concretarlos  desde  su  capacidad  de  acción  tanto  local  como  global,  valorando  la
+contribución del Estado, sus instituciones y las asociaciones civiles en programas y misiones dirigidos
+por  organismos  nacionales  e  internacionales  para  el  logro  de  la  paz,  la  seguridad  integral,  la
+convivencia social y la cooperación entre los pueblos.
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la importancia de la seguridad integral ciudadana en la
+cultura de convivencia nacional e internacional, a través de la interpretación de la conexión de España y Canarias con los grandes procesos históricos
+a largo de la historia medieval y moderna, en el escenario de los grandes flujos de difusión cultural y técnica, así como en el de la evolución del
+comercio internacional y en el contexto de sus relaciones políticas y diplomáticas, pretendiendo que se valore lo que han supuesto para la evolución
+de nuestro país y señalando las aportaciones de sus habitantes a lo largo de la historia, adentrándose en la contribución de Canarias en el proceso del
+descubrimiento de América. Por otro lado, se comprobará que el alumnado reconoce la contribución de nuestro país a la consecución de un mundo
+más seguro, justo, solidario y sostenible, a través del análisis de la concentración y distribución de la riqueza, las formas y modos de percibir y
+representar la desigualdad. También se evaluará la comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la
+comprensión de ideas y actitudes en el proyecto de construcción de una identidad común y la seguridad y la cooperación internacional, incluidos los
+grandes compromisos contenidos en los Objetivos de Desarrollo Sostenible, así como la exposición de ideas y soluciones innovadoras, éticas y
+sostenibles mediante, entre otros recursos, de presentaciones, debates, conferencias o paneles y murales divulgativos.
+42
+
+=== Página 43 ===
+
+Saberes básicos
+I. Retos del mundo actual
+ 1. Biodiversidad. 
+ 1.1. Análisis  y  argumentación  crítica  de  las  dinámicas  y  amenazas  de  los  ecosistemas
+planetarios.
+ 1.2. Interpretación de las formas y procesos de modificación de la superficie terrestre.
+ 1.3. Análisis de la riqueza y el valor del patrimonio natural.
+ 1.4. Constatación de la influencia humana en la alteración de los ecosistemas en el pasado y
+la actualidad.
+ 1.5. Concienciación para la conservación y mejora del entorno local, insular, regional y
+global.
+ 2. Tecnologías de la información. 
+ 2.1. Manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales.
+ 2.2. Búsqueda, tratamiento de la información y elaboración de conocimiento.
+ 2.3. Uso seguro de las redes de comunicación.
+ 2.4. Lectura crítica de la información.
+ 3. Sociedad del conocimiento. 
+ 3.1. Introducción a los objetivos y estrategias de las Ciencias Sociales y al uso de sus
+procedimientos, términos y conceptos.
+ 3.2. Uso de plataformas digitales.
+ 4. Desafíos demográficos en el mundo actual. 
+ 4.1. Causalidad y comparación en el estudio de la diversidad social y cultural y de las
+estructuras  demográficas  a  distintas  escalas  (local,  regional,  autonómico,  nacional,
+europea y planetaria).
+ 5. Aglomeraciones urbanas y ruralidad. 
+ 5.1. Análisis y reflexión sobre la despoblación y el sostenimiento del mundo rural.
+ 5.2. Argumentación y debate sobre el desarrollo urbano sostenible: la ciudad, espacio de
+convivencia.
+ 5.3. Análisis práctico del espacio rural y urbano en Canarias.
+ 5.4. Reflexión crítica sobre los modos y estilos de vida en el contexto de la globalización.
+ 6. Competencia y conflicto por los recursos y el territorio. 
+ 6.1. Mercados regionales, políticas comerciales y movimientos migratorios.
+43
+
+=== Página 44 ===
+
+6.2. Tensiones internacionales, choques y alianzas entre civilizaciones.
+ 7. Concentración y distribución de la riqueza. 
+ 7.1. Formas y modos de percibir y representar la desigualdad.
+ 7.2. Líneas de acción para un reparto justo.
+ 7.3. La cuestión del mínimo vital.
+ 8. Igualdad.
+ 8.1. Situaciones discriminatorias de las niñas y de las mujeres en el mundo.
+ 8.2. Roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura.
+ 9. Objetivos de Desarrollo Sostenible. 
+ 9.1. La visión de los dilemas del mundo actual, punto de partida para el pensamiento crítico
+y el desarrollo de juicios propios aplicados al ámbito canario.
+II. Sociedades y territorios
+1. Métodos básicos de investigación para la construcción del conocimiento de la Geografía y la
+Historia. Metodologías del pensamiento geográfico y del pensamiento histórico. 
+ 1.1. Instituciones científicas canarias implicadas en el conocimiento geográfico e histórico.
+ 2. Las fuentes históricas y arqueológicas como base para la construcción del conocimiento
+histórico. 
+ 2.1. Uso de fuentes primarias y secundarias para estudiar a los indígenas canarios y su
+forma de organización política, social, económica, cultural y artística.
+ 3. Tiempo histórico. 
+ 3.1. Construcción e interpretación de líneas de tiempo a través de la linealidad, cronología,
+simultaneidad y duración.
+ 4. Las grandes rutas comerciales y las estrategias por el control de los recursos: talasocracias e
+imperios, conquista y colonización.
+ 5. Violencia y conflictos armados. 
+ 5.1. El crecimiento de los ejércitos y la evolución del armamento.
+ 5.2. Los civiles durante las guerras.
+III. Compromiso cívico
+ 1. Dignidad humana y derechos universales. 
+ 1.1. Análisis de la Convención sobre los Derechos del Niño.
+ 2. Alteridad: respeto y aceptación del otro. 
+44
+
+=== Página 45 ===
+
+2.1. Valoración crítica de comportamientos no discriminatorios y contrarios a cualquier
+actitud segregadora.
+ 3. Igualdad de género. 
+ 3.1. Análisis de las manifestaciones y conductas no sexistas.
+ 4. Análisis y reflexión ante los retos y problemas de actualidad en el entorno local, regional y
+global.
+ 5. Las redes sociales. 
+ 5.1. Concienciación en relación a la seguridad y prevención ante los riesgos y peligros del
+uso de las tecnologías de la información y de la comunicación.
+ 6. Convivencia cívica y cultura democrática. 
+ 6.1. Incorporación e implicación de la sociedad civil en procesos democráticos.
+ 6.2. Participación en proyectos comunitarios.
+ 7. Conciencia ambiental 
+ 7.1. Planificación de acciones de respeto, protección y cuidado de los seres vivos y del
+planeta.
+ 8. Conservación y defensa del patrimonio natural, social, cultural e histórico. 
+ 8.1. Concienciación  de  la  fragilidad  del  patrimonio  arqueológico  de  las  sociedades
+indígenas.
+ 8.2. Valoración de los yacimientos arqueológicos canarios y los bienes custodiados en los
+distintos museos y parques arqueológicos como fuente de estudio.
+ 9. Emociones y contexto cultural: El impacto que los procesos de conquista supusieron en la
+población indígena.
+ 10. Planificación de acciones de solidaridad, empatía y apoyo a colectivos en situaciones de
+pobreza, vulnerabilidad y exclusión social.
+ 11. Identificación y gestión de las emociones y su repercusión en comportamientos individuales
+y colectivos.
+ 12. Ciclos vitales, uso del tiempo libre y hábitos de consumo. 
+ 12.1. Diferenciación y análisis de cambios en las formas de vida en las sociedades actuales
+y en las del pasado.
+ 13. Análisis de la contribución del Estado y sus instituciones a la paz, a la seguridad integral
+ciudadana y a la convivencia social. 
+ 13.1. Reconocimiento de la posición ultraperiférica de las islas entre tres continentes.
+ 14. Ciudadanía europea. 
+45
+
+=== Página 46 ===
+
+14.1. Ideas y actitudes en el proyecto de construcción de una identidad común. Ciudadanía
+canaria como resultado del mestizaje de herencia europea, índigena y africana.
+ 14.2. La seguridad y la cooperación internacional.
+ 15. Seguridad vial y movilidad segura, saludable y sostenible. El espacio público.
+46
+
+=== Página 47 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del
+pasado,  usando  críticamente  fuentes  históricas  y  geográficas,  para  adquirir  conocimientos,
+elaborar y expresar contenidos en varios formatos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CC1
+Criterios de evaluación
+1.1. Buscar, tratar y organizar seleccionar información sobre temas relevantes para elaborar contenidos
+propios en distintos formatos, mediante aplicaciones y estrategias de recogida y representación de
+datos, usando y contrastando fuentes fiables, identificando la desinformación y las falsas noticias, a
+partir de proveedores tanto analógicos como digitales.
+CCL2, CCL3, CD1, CD2, CC1
+1.2.  Establecer  conexiones  y  relaciones  entre  los  conocimientos  e  informaciones  adquiridos,
+elaborando síntesis interpretativas y explicativas, mediante informes, estudios o dosieres informativos,
+que reflejen los aprendizajes tratados.
+CCL2, CCL3, STEM4, CD2, CC1
+1.3.  Comunicar  la  información  y  el  nuevo  conocimiento  por  medio  de  narraciones,  pósteres,
+presentaciones, exposiciones orales, medios audiovisuales y otros productos digitales.
+CCL3, STEM4, CD1, CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de buscar, seleccionar, tratar y organizar información, elaborando
+47
+
+=== Página 48 ===
+
+contenidos propios en distintos formatos (murales, informes, tablas), usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes,
+teniendo en cuenta el problema de la desinformación. El objetivo será construir conocimiento partiendo de los métodos de investigación en el ámbito
+de la Geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas), de gran
+importancia en la enseñanza de la Geografía. También se verificará que empieza a analizar y comprender la dimensión social y ciudadana de su
+propia identidad. Por último, se valorará que elaboren síntesis y productos explicativos (informes, estudios, murales, infografías, exposiciones,
+dosieres informativos), comunicando la información, empezando a adoptar un punto de vista creativo, crítico y personal, participando, colaborando y
+compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la sociedad de la información.
+Competencia específica
+2. Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y
+sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un
+pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia
+identidad y a enriquecer el acervo común.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CD1, CD2, CC1, CC3, CE3,
+CCEC3
+Criterios de evaluación
+2.1. Investigar, argumentar y generar productos originales y creativos mediante la reelaboración de
+conocimientos previos, a través de herramientas de investigación y uso de varias fuentes que permitan
+explicar problemas presentes y pasados de la humanidad a distintas escalas temporales y espaciales,
+partiendo desde el contexto geográfico canario y español al global, utilizando conceptos, situaciones y
+datos relevantes.
+CCL1, CD1, CD2, CC1
+2.2. Construir la propia identidad y enriquecer el acervo común en el contexto del mundo actual, de CCL1, CCL2, CC1, CC3, CE3, CCEC3
+48
+
+=== Página 49 ===
+
+sus retos y conflictos, desde una perspectiva sistémica y global, a través de la producción y expresión
+discursiva y abierta al diálogo de juicios y planteamientos personales, críticos y argumentados
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de indagar, argumentar y elaborar productos propios sobre problemas
+geográficos y sociales tales como la desigualdad e injusticia en el contexto local y global (desde Canarias, España y el resto del mundo), con el uso
+crítico de mapas, textos, gráficas, tablas, diagramas o cualquier otro documento de las ciencias sociales, además de búsquedas en internet. Tendrá
+que ir seleccionando los resultados de manera progresivamente crítica y construyendo conocimiento, creando contenidos digitales originales, como
+son los juicios propios y argumentados ante problemas de actualidad contextualizados de forma espacial y temporal. Para ello es necesario potenciar
+una  metodología  basada  en  el  trabajo  colaborativo,  que  fomente  las  experiencias  de  investigación  mediante  un  aprendizaje  guiado  y  de
+experimentación. Posteriormente, deberá defender de forma crítica de los mismos a través de presentaciones y debates. Por último, se valorará la
+construcción de su propia personalidad, en su dimensión social y ciudadana y enriquecimiento del acervo común, entendiendo el patrimonio como
+bien y como recurso, a través de la puesta en valor, difusión y gestión de esa riqueza patrimonial con producciones —como pueden ser la realización
+de pequeños cortos, exposiciones, coloquios, pódcast, murales o paneles divulgativos— y la puesta en común de planteamientos éticos que incluyan
+el diálogo, la empatía y la actitud colaborativa e inclusiva.
+Competencia específica
+3. Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del
+tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los
+que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso
+de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CPSAA3, CC3, CC4, CE1, CCEC1
+Criterios de evaluación
+49
+
+=== Página 50 ===
+
+3.1. Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo
+largo de la historia, analizando los cambios producidos, sus causas y consecuencias, desde un enfoque
+geográfico.
+CCL2, CCL3, CC3
+3.2. Realizar propuestas que contribuyan al logro de los Objetivos de Desarrollo Sostenible, aplicando
+métodos  y  proyectos  de  investigación,  preferentemente  colaborativos,  manejo  de  mapas  y  otras
+representaciones gráficas, así como de medios accesibles de interpretación de imágenes.
+STEM3, STEM4, STEM5, CPSAA3, CC3,
+CE1
+3.3. Entender y afrontar, desde un enfoque ecosocial, problemas y desafíos pasados, actuales o futuros
+de  las  sociedades  contemporáneas  teniendo  en  cuenta  sus  relaciones  de  interdependencia  y
+ecodependencia, teniendo como referencia la realidad de Canarias.
+CPSAA3, CC3, CC4, CE1, CCEC1
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se enfrentan las distintas
+sociedades en la actualidad y a lo largo del tiempo, como pueden ser la emergencia climática, la sostenibilidad o los conflictos ideológicos, étnicos y
+culturales. Para ello se comprobará que puede analizar los cambios, las causas y consecuencias y que comprende, interpreta y valora con actitud
+crítica los distintos documentos, especialmente los geográficos, y las diversas fuentes. Por otro lado, se constatará que utiliza métodos y proyectos de
+investigación, preferentemente colaborativos, haciendo uso de mapas y otras representaciones gráficas, para realizar propuestas a los Objetivos de
+Desarrollo Sostenible, a través de recursos audiovisuales tales como las presentaciones, paneles y murales divulgativos, ferias, congresos o debates.
+Se constatará que utilizan un enfoque ecosocial sobre los problemas y los desafíos pasados, actuales o futuros, tales como la diversidad social,
+étnico-cultural y de género, las migraciones, la multiculturalidad y el mestizaje en sociedades abiertas, teniendo como referencia la realidad de
+Canarias. Por último, se pretende que el alumnado desarrolle una ciudadanía ética digital, dentro de los nuevos comportamientos en la sociedad de la
+información.
+50
+
+=== Página 51 ===
+
+Competencia específica
+4.  Identificar  y  analizar  los  elementos  del  paisaje  y  su  articulación  en  sistemas  complejos
+naturales, rurales y urbanos, así como su evolución en el tiempo, interpretando las causas de las
+transformaciones y valorando el grado de equilibrio existente en los distintos ecosistemas, para
+promover su conservación, mejora y uso sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM3, CPSAA2, CC1, CC2, CC3, CC4,
+CE1
+Criterios de evaluación
+4.1. Identificar los elementos del entorno, partiendo de lo local hacia lo global, y comprender su
+funcionamiento  como  un  sistema  complejo  por  medio  del  análisis  multicausal  de  sus  relaciones
+naturales y humanas, presentes y pasadas.
+STEM3, CPSAA2, CC1
+4.2.  Analizar  críticamente  el  grado  de  sostenibilidad  y  de  equilibrio  dinámico  de  los  diferentes
+espacios y desde distintas escalas y analizar e investigar su transformación y degradación a través del
+tiempo por la acción humana.
+STEM3, CC2, CC3, CC4, CE1
+4.3. Experimentar comportamientos y desarrollar acciones que contribuyan a la conservación y mejora
+del entorno natural cercano, rural y urbano, a través del respeto a todos los seres vivos, mostrando
+hábitos orientados al logro de un desarrollo sostenible de dichos entornos, especialmente el de las Islas
+Canarias y defendiendo el acceso universal, justo y equitativo a los recursos que nos ofrece el planeta.
+CPSAA2, CC2, CC4
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en
+sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, desde el éxodo rural hasta la concentración urbana, pasando por
+51
+
+=== Página 52 ===
+
+el problema de la despoblación rural en España, así como la ordenación del territorio y la transformación del espacio, especialmente en el caso de
+Canarias. Se llevará a la práctica por medio del análisis multicausal de sus relaciones naturales y humanas, presentes y pasadas. También se
+verificará que analiza e investiga la huella humana, en su proceso de transformación y degradación a lo largo del tiempo y la protección del medio
+natural,  estudiando  críticamente  su  grado  de  sostenibilidad  y  equilibrio,  donde  se  valorará  su  implicación  en  la  defensa  y  protección  del
+medioambiente, a través del planteamiento y desarrollo de proyectos y otras acciones de colaboración de ntro del centro, mediante proyectos o
+planes, o con otros organismos de la zona —ONG o entidades locales—, que contribuyan a la conservación y mejora del entorno natural cercano,
+rural y urbano, que favorecerán a un estilo de vida sostenible y ecosocialmente responsable.
+Competencia específica
+5. Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción
+de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así
+como  asumiendo  los  deberes  y  derechos  propios  de  nuestro  marco  de  convivencia,  para
+promover la participación ciudadana y la cohesión social.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+5.1. Conocer, valorar y ejercitar responsabilidades, derechos y deberes y poner en práctica actuaciones
+en favor de su desarrollo y afirmación a través del conocimiento de nuestro ordenamiento jurídico,
+constitucional y de la Comunidad Autónoma de Canarias.
+CCL5, CC1, CC2, CCEC1
+5.2. Reconocer movimientos y causas que generen una conciencia solidaria, promuevan la cohesión
+social, y trabajen para la eliminación de la desigualdad, especialmente la motivada por cuestión de
+género,  y  el  pleno  desarrollo  de  la  ciudadanía,  mediante  la  incorporación  de  conocimientos  y
+CC2, CC3, CCEC1
+52
+
+=== Página 53 ===
+
+estrategias de participación, trabajo en equipo, mediación y resolución pacífica de conflictos.
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica los planteamientos históricos y
+geográficos de los actuales sistemas democráticos y sus principios constitucionales, conociendo los actuales derechos individuales y colectivos en
+España. Se verificará que conoce, valora y ejercita responsabilidades, derechos y deberes a través del estudio guiado de nuestro ordenamiento
+normativo autonómico canario, constitucional y supranacional. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los
+principios y valores, como son la lucha por la libertad, la igualdad y los derechos humanos, y la acción de los movimientos sociales en el mundo
+contemporáneo, mediante la participación, trabajo en equipo, mediación y resolución pacífica de conflictos, realizándose exposiciones, debates,
+entrevistas, mesas redondas o integrándose el alumnado en equipos de resolución de conflictos en su propio centro educativo.
+Competencia específica
+6. Comprender los procesos geográficos, históricos y culturales que han conformado la realidad
+multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías
+étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la
+igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y
+violencia, y reconocer la riqueza de la diversidad.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CPSAA3, CC1, CC2, CC3, CCEC1
+Criterios de evaluación
+6.1. Conocer y analizar la relación entre los aspectos geográficos, históricos, ecosociales y culturales
+que han conformado la sociedad globalizada y multicultural actual, con especial incidencia en las
+CCL5, CC1, CCEC1
+53
+
+=== Página 54 ===
+
+sociedades canaria y española.
+6.2. Reconocer la riqueza de la diversidad y rechazar actitudes discriminatorias, a partir del estudio de
+la  aportación  de  los  movimientos  en  defensa  de  los  derechos  de  las  minorías  y  en  favor  de  la
+inclusividad y la igualdad real, especialmente de las mujeres.
+CCL5, CC1, CC2, CC3
+6.3. Contribuir al bienestar individual y colectivo a través del diseño, exposición y puesta en práctica
+de iniciativas orientadas a promover un compromiso activo con los valores comunes, la mejora del
+entorno y el servicio a la comunidad.
+CCL5, CPSAA3, CC2, CC3
+Explicación del bloque competencial
+Por medio de este bloque competencial se comprobará que el alumnado es capaz de conocer y comprender los procesos geográficos, históricos y
+culturales que han conformado la sociedad contemporánea, a través del análisis de los aspectos geográficos, históricos, ecosociales y culturales, así
+como las transformaciones científicas y tecnológicas que han conformado la actual comunidad globalizada, prestando especial atención a su
+incidencia en España y Canarias. Se hará por medio de tareas de síntesis, realizándose exposiciones en clase o en el centro con proyecciones, paneles
+divulgativos, murales, gráficos o cualquier otro recurso. Se podrá verificar que es capaz de asumir un compromiso cívico y participativo, a través del
+diseño, exposición y puesta en práctica de iniciativas para la gestión pacífica de los conflictos —colaborando en el propio centro y en entorno más
+cercano— y el apoyo a las víctimas en favor de la igualdad y la inclusión, valorándose las actitudes de respeto por la diversidad, y el compromiso
+con la igualdad de género, la cohesión social y la libertad de expresión.
+Competencia específica
+7. Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a
+través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos
+Descriptores operativos de las
+competencias clave. Perfil de salida
+54
+
+=== Página 55 ===
+
+para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos
+que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de
+la Declaración Universal de los Derechos Humanos.
+CP3, CPSAA1, CC1, CC2, CCEC1
+Criterios de evaluación
+7.1. Conocer y contribuir a conservar el patrimonio material e inmaterial común, de una enorme
+riqueza en Canarias.
+CP3, CC2, CCEC1
+7.2. Respetar los sentimientos de pertenencia, partiendo de la propia realidad canaria y adoptando
+compromisos  con  principios  y  acciones  orientadas  a  la  cohesión  y  solidaridad  territorial  de  la
+comunidad  política,  los  valores  del  europeísmo  y  de  la  Declaración  Universal  de  los  Derechos
+Humanos.
+CP3, CPSAA1, CC1, CC2
+Explicación del bloque competencial
+Con este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas identidades propias
+y las ajenas, partiendo del conocimiento del patrimonio material e inmaterial común de nuestros pueblos, partiendo del canario, prestando especial
+atención a su competencia para contribuir en su conservación, mediante tareas e investigación que incluyen trabajos de campo en museos, archivos,
+el uso de información digital y analógica y la realización de informes, dosieres, infografías o cualquier otro recurso. Por otro lado, se constatará que
+conoce la realidad canaria, respetando los sentimientos de pertenencia, y que puede adoptar compromisos basados en los principios de igualdad de
+género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, poniendo en práctica acciones de cohesión y solidaridad
+territorial, donde se incluye el conocimiento de las instituciones más cercanas, los valores del europeísmo y de la Declaración Universal de los
+Derechos Humanos.
+55
+
+=== Página 56 ===
+
+Competencia específica
+8. Tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las
+relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo
+del tiempo, analizándolas de forma crítica, para promover alternativas saludables, sostenibles,
+enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el
+entorno.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+STEM5, CD4, CPSAA2, CPSAA5, CC1,
+CC2, CC3
+Criterios de evaluación
+8.1. Adquirir un papel activo y comprometido con el entorno, de acuerdo a aptitudes, aspiraciones,
+intereses y valores propios, a partir del análisis crítico de la realidad económica local y global , de la
+distribución de la riqueza y la conciliación en la gestión del trabajo.
+CPSAA2, CC1, CC2, CC3
+8.2. Incorporar hábitos responsables, saludables, sostenibles y respetuosos con la dignidad humana y la
+de  otros  seres  vivos,  así  como  reflexionar  críticamente  sobre  el  uso  ético  de  la  tecnología  y
+experimentar en el tiempo libre acciones enriquecedoras.
+STEM5, CD4, CPSAA2, CC2, CC3
+8.3. Reconocer las iniciativas de la sociedad civil, reflejadas en asociaciones y entidades sociales,
+partiendo  del  análisis  de  las  del  entorno  más  cercano,  adoptando  actitudes  de  participación  y
+transformación en el ámbito local y comunitario, planificando relaciones intergeneracionales.
+CPSAA5, CC1, CC2
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, las formas de
+vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo. Se verificará que conoce la
+56
+
+=== Página 57 ===
+
+evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de los modelos de organización social, así como la lucha
+por los derechos laborales y sociales, que quedan reflejados en el estado del bienestar. Esto también implica el análisis y conocimiento previos que
+les hará comprender las razones por las que se produce la división del trabajo, para tratar la corresponsabilidad en el ámbito familiar y analizar
+críticamente los roles del género y edad. Se partirá del análisis crítico de la realidad económica, de la distribución y gestión del trabajo, construyendo
+conocimiento, que le servirá para incorporar hábitos responsables, saludables, sostenibles y respetuosos con la dignidad humana, así como de la
+reflexión ética ante los usos de la tecnología y la gestión del tiempo libre. Le será útil llevar a cabo trabajos preferentemente colaborativos, donde se
+presentará mediante recursos audiovisuales y la puesta en acción de debates, coloquios o entrevistas. La finalidad será transformar su entorno
+próximo de forma sostenible, inmerso en una sociedad de la información, donde se pretende constatar que asume que el aprendizaje es un proceso de
+adquisición de nuevos conocimientos, que se lleva a cabo a lo largo de toda la vida.
+Competencia específica
+9.  Conocer  y  valorar  la  importancia  de  la  seguridad  integral  ciudadana  en  la  cultura  de
+convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y
+otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al
+desarrollo  sostenible,  para  promover  la  consecución  de  un  mundo  más  seguro,  solidario,
+sostenible y justo.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+Criterios de evaluación
+9.1. Contribuir a la consecución de un mundo más seguro, justo, solidario y sostenible, a través del
+análisis de los principales problemas del presente y el reconocimiento de las instituciones del Estado, y
+de  las  asociaciones  civiles  que  garantizan  la  convivencia  social,  así  como  de  los  compromisos
+internacionales de nuestro país en favor de la cooperación, la sostenibilidad, los valores democráticos
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+57
+
+=== Página 58 ===
+
+y los Objetivos de Desarrollo Sostenible.
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la aportación y los compromisos internacionales
+de España como estado en la consecución de un mundo más seguro, justo, solidario y sostenible, a través del análisis de los principales problemas
+actuales, tales como la emergencia climática, la globalización o los movimientos migratorios. También se evaluará la comprensión e interpretación
+de textos y otros tipos de documentos para participar en diferentes contextos, el análisis y la comprensión de ideas relativas a la dimensión social y
+ciudadana de su propia identidad. Se comprobará que el alumnado puede analizar y valorar los principios y valores que emanan del proceso de
+integración europeo, conociendo sus instituciones y sus principales logros, la integración de Canarias como región ultraperiférica, además de los
+Objetivos  de  Desarrollo  Sostenible.  Por  último,  se  valorará  que  participa  en  actividades  comunitarias,  incluyendo  los  programas  educativos
+europeos, así como en la presentación de ideas y soluciones innovadoras, éticas y sostenibles, como pueden ser murales o paneles divulgativos,
+ferias, exposiciones o lapbook, entre otros.
+58
+
+=== Página 59 ===
+
+Saberes básicos
+I. Retos del mundo actual
+ 1. Objetivos de Desarrollo Sostenible. 
+ 1.1. Emergencia climática y sostenibilidad. Relación entre factores naturales y antrópicos
+en la Tierra.
+ 1.2. Reflexión  y  valoración  sobre  la  globalización,  movimientos  migratorios  e
+interculturalidad.
+ 1.3. Reconocimiento de los avances tecnológicos y la conciencia ecosocial.
+ 1.4. Identificación de los conflictos ideológicos y etnoculturales.
+ 2. Sociedad de la información. 
+ 2.1. Búsqueda,  tratamiento  de  la  información,  uso  de  datos  en  entornos  digitales  y
+evaluación y contraste de la fiabilidad de las fuentes.
+ 2.2. Reflexión crítica sobre el problema de la desinformación.
+ 2.3. Uso específico del léxico relativo a los ámbitos histórico, artístico y geográfico.
+ 3. Cultura mediática.
+ 3.1. Utilización  de  técnicas  y  métodos  de  las  Ciencias  Sociales:  análisis  de  textos,
+interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e
+interpretación de imágenes a través de medios digitales accesibles.
+ 3.2. Utilización de tecnologías de la información geográfica.
+ 4. Lo global y lo local. 
+ 4.1. Reconocimiento y análisis crítico de la investigación en Ciencias Sociales, el estudio
+multicausal y el análisis comparado del espacio natural, rural y urbano, su evolución y
+los retos del futuro.
+ 4.2. Análisis  e  interpretación  de  conceptos  espaciales:  localización,  escala,  conexión  y
+proximidad espacial.
+ 5. Estructuras  económicas  en  el  mundo  actual,  cambios  en  los  sectores  productivos  y
+funcionamiento de los mercados. 
+ 5.1. Análisis  de  dilemas  e  incertidumbres  ante  el  crecimiento,  la  empleabilidad  y  la
+sustentabilidad.
+ 6. Igualdad de género y formas de violencia contra las mujeres. 
+ 6.1. Análisis de las actitudes y comportamientos sexistas.
+ 7. Diversidad social, etnocultural y de género. 
+ 7.1. Análisis de las migraciones, multiculturalidad y mestizaje en sociedades abiertas.
+59
+
+=== Página 60 ===
+
+7.2. Historia y reconocimiento del pueblo gitano y otras minorías étnicas de nuestro país.
+ 7.3. Reconocimiento de nuevas formas de identificación cultural.
+II. Sociedades y territorios
+ 1. Métodos de investigación en el ámbito de la Geografía. 
+ 1.1. Identificación de metodologías del pensamiento geográfico.
+ 2. La transformación humana del territorio y la distribución desigual de los recursos y del
+trabajo. 
+ 2.1. Evolución de los sistemas económicos, de los ciclos demográficos, de los modos de
+vida y de los modelos de organización social.
+ 2.2. Conocimiento de la lucha por los derechos laborales y sociales: el estado del bienestar.
+ 2.3. Las  formaciones  identitarias:  ideologías,  nacionalismos  y  movimientos
+supranacionales.
+ 2.4. Análisis crítico de ciudadanía europea y cosmopolita.
+ 3. Interpretación del territorio y del paisaje. 
+ 3.1. Reflexión crítica del éxodo rural a la concentración urbana.
+ 3.2. Identificación del reto demográfico en España y Canarias.
+ 3.3. Análisis del problema de la despoblación rural.
+ 3.4. Conocimiento de ordenación del territorio y transformación del espacio.
+ 3.5. Reconocimiento de la ciudad como espacio de convivencia.
+ 3.6. Importancia y cuidado del espacio público
+ 3.7. Reconocimiento de la huella humana y la protección del medio natural y su patrimonio
+cultural.
+ 4. Las transformaciones científicas y tecnológicas. 
+ 4.1. Valoración de la dimensión ética de la ciencia y la tecnología.
+ 4.2. Análisis de los cambios culturales y movimientos sociales.
+ 4.3. Implicación ética de los medios de comunicación y las redes sociales.
+ 5. El proceso de construcción europea. 
+ 5.1. Reflexión sobre el proceso de integración económica, monetaria y ciudadana.
+ 5.2. Reconocimiento de las instituciones europeas.
+ 5.3. Valoración de las políticas de futuro de Europa.
+ 5.4. Tratamiento diferenciado de Canarias como región ultraperiférica.
+60
+
+=== Página 61 ===
+
+6. La ley como contrato social. 
+ 6.1. Análisis de la Constitución española de 1978.
+ 6.2. Reconocimiento de los distintos ordenamientos normativos autonómico, constitucional
+y supranacional como garante del desarrollo de derechos y libertades para el ejercicio de
+la ciudadanía.
+ 7. La organización territorial de Canarias: planteamientos históricos y geográficos. 
+ 7.1. Evolución de sus instituciones.
+ 7.2. Conocimiento del Estatuto de Autonomía de Canarias.
+III. Compromiso cívico local y global
+ 1. Dignidad humana y derechos universales. 
+ 1.1. Reflexión crítica del impacto de la Declaración Universal de los Derechos Humanos.
+ 2. Diversidad social y multiculturalidad. 
+ 2.1. Conocimiento de la integración y cohesión social.
+ 3. Responsabilidad ecosocial. 
+ 3.1. Compromiso y acción ante los Objetivos del Desarrollo Sostenible.
+ 3.2. Concienciación del papel de la juventud como agente de cambio para el desarrollo
+sostenible.
+ 4. Implicación en la defensa y protección del medio ambiente. 
+ 4.1. Acción y posición ante la emergencia climática.
+ 5. Ciudadanía ética digital.
+ 5.1. Identificación y reflexión crítica de los nuevos comportamientos en la sociedad de la
+información.
+ 6. Compromiso cívico y participación ciudadana. 
+ 6.1. Valoración de la mediación y gestión pacífica de conflictos y apoyo a las víctimas de la
+violencia y del terrorismo.
+ 7. Servicio a la comunidad. 
+ 7.1. Reflexión crítica sobre la corresponsabilidad en los cuidados.
+ 7.2. Reconocimiento de la importancia de las relaciones intergeneracionales.
+ 7.3. Concienciación sobre la responsabilidad colectiva e individual.
+ 7.4. Valoración del asociacionismo y el voluntariado.
+61
+
+=== Página 62 ===
+
+7.5. Análisis crítico de los entornos digitales y las redes sociales.
+ 8. El patrimonio cultural como bien y como recurso. 
+ 8.1. Puesta  en valor,  difusión y gestión  de  la  riqueza patrimonial, especialmente en el
+ámbito autonómico canario.
+ 9. Cohesión social e integración. 
+ 9.1. Análisis de las medidas y acciones en favor de la igualdad y de la plena inclusión.
+ 10. La igualdad real de mujeres y hombres. 
+ 10.1. Identificación de situaciones de discriminación por motivo de diversidad sexual y de
+género.
+ 10.2. Reflexión  sobre  la  conquista  de  derechos  en  las  sociedades  democráticas
+contemporáneas.
+ 10.3. Identificación de las instituciones del Estado que garantizan la seguridad integral y la
+convivencia social.
+ 10.4. Análisis  de  tipologías  de  empleo  y  trabajo  en  la  sociedad  de  la  información,
+aprendizaje permanente y a lo largo de toda la vida.
+ 11. Los valores del europeísmo. 
+ 11.1. Identificación de las fórmulas de participación en programas educativos europeos.
+62
+
+=== Página 63 ===
+
+4.º ESO
+Bloques competenciales
+Competencia específica
+1. Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del
+pasado,  usando  críticamente  fuentes  históricas  y  geográficas,  para  adquirir  conocimientos,
+elaborar y expresar contenidos en varios formatos.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM4, CD1, CD2, CD3,
+CD4, CD5, CC1, CCEC4
+Criterios de evaluación
+1.1.  Buscar,  seleccionar,  tratar  y  organizar  información  sobre  temas  relevantes  para  elaborar
+contenidos  propios  en  distintos  formatos,  mediante  aplicaciones  y  estrategias  de  recogida  y
+representación  de  datos  más  complejas,  usando  y  contrastando  críticamente  fuentes  fiables,
+identificando la desinformación y las falsas noticias, a partir de proveedores tanto analógicos como
+digitales, del presente y de la historia contemporánea.
+CCL2, CCL3, CD1, CD2, CC1, CCEC4
+1.2.  Establecer  conexiones  y  relaciones  entre  los  conocimientos  e  informaciones  adquiridos,
+elaborando  síntesis  interpretativas  y  explicativas,  mediante  informes,  estudios  o  dossieres
+informativos, que reflejen un dominio e integración de los aprendizajes tratados.
+CCL2, CCL3, STEM4, CD2, CD3, CD4,
+CD5, CC1, CCEC4
+1.3.  Comunicar  la  información  y  el  nuevo  conocimiento  por  medio  de  narraciones,  pósteres,
+presentaciones, exposiciones orales, medios audiovisuales y otros productos digitales.
+CCL3, STEM4, CD1, CD2, CD3, CD4,
+CD5, CCEC4
+Explicación del bloque competencial
+63
+
+=== Página 64 ===
+
+A través de este bloque competencial se comprobará que el alumnado es capaz de buscar, seleccionar, tratar y organizar información, elaborando
+contenidos propios en distintos formatos usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes, teniendo en cuenta el
+problema de la desinformación. El objetivo será construir conocimiento partiendo de los métodos de investigación en el ámbito de la historia, con
+razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas). También se verificará que analiza y
+comprende la dimensión social y ciudadana de su propia identidad, así como los hechos culturales, históricos y normativos que la determinan, a
+través de análisis crítico de todo tipo de textos, contrastando la interpretación de historiadores e historiadoras y la construcción y la interpretación de
+líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por último, se valorará que elabore síntesis y productos explicativos
+(informes,  dramatizaciones, exposiciones,  murales  y  paneles  divulgativos,  dosieres  informativos, pódcast,  etc.),  comunicando  la  información,
+adoptando un punto de vista creativo, crítico y personal, participando, colaborando y compartiendo contenidos, datos y conocimiento desde la ética
+de los nuevos comportamientos en la sociedad de la información.
+Competencia específica
+2. Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y
+sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un
+pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia
+identidad y a enriquecer el acervo común.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, CD1, CD2, CC1,
+CC3, CE3, CCEC3
+Criterios de evaluación
+2.1. Investigar, argumentar y generar productos originales y creativos mediante la reelaboración de
+conocimientos previos, a través de herramientas de investigación y uso crítico de fuentes diversas que
+permitan explicar problemas presentes y pasados de la humanidad a distintas escalas temporales y
+espaciales, partiendo desde el contexto histórico y geográfico canario y español al global, utilizando
+conceptos, situaciones y datos relevantes.
+CCL1, CCL3, CD1, CD2, CC1
+64
+
+=== Página 65 ===
+
+2.2. Construir la propia identidad y enriquecer el acervo común en el contexto del mundo actual, de
+sus retos y conflictos, desde una perspectiva sistémica y global, a través de la producción y expresión
+discursiva y abierta al diálogo de juicios y planteamientos personales, críticos y argumentados.
+CCL1, CCL2, CD2, CC1, CC3, CE3,
+CCEC3
+Explicación del bloque competencial
+Mediante este bloque competencial se verificará que el alumnado es capaz de indagar, argumentar y elaborar productos propios sobre problemas
+históricos y sociales tales como la desigualdad e injusticia en el contexto local y global (desde Canarias, España y el resto del mundo), con el uso
+crítico de textos y búsquedas en internet, seleccionando los resultados de manera crítica y construyendo conocimiento —siendo necesario potenciar
+una metodología de aprendizaje guiado, apoyada en el trabajo colaborativo entre el alumnado— creando contenidos digitales originales, como son
+los juicios propios y argumentados ante problemas de actualidad contextualizados históricamente y la defensa y exposición orales de los mismos a
+través, entre otros, de presentaciones, debates, exposiciones, dramatizaciones, entrevistas, infografías o paneles y murales divulgativos. Por último,
+se valorará asimismo la construcción de su propia personalidad, en su dimensión social y ciudadana y enriquecimiento del acervo común canario,
+entendiendo el patrimonio como bien y como recurso, a través de su puesta en valor, difusión y con propuestas de gestión de esa riqueza patrimonial
+con producciones y planteamientos éticos que incluyan el diálogo, la empatía y la actitud colaborativa e inclusiva.
+Competencia específica
+3. Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del
+tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los
+que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso
+de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL3, STEM3, STEM4, STEM5,
+CD1, CD2, CPSAA3, CC3, CC4, CE1,
+CCEC1
+Criterios de evaluación
+65
+
+=== Página 66 ===
+
+3.1. Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo
+largo de la historia, analizando los cambios producidos, sus causas y consecuencias.
+CCL2, CCL3, CD1, CC3
+3.2. Realizar propuestas que contribuyan al logro de los Objetivos de Desarrollo Sostenible, aplicando
+métodos  y  proyectos  de  investigación,  preferentemente  colaborativos,  manejo  de  mapas  y  otras
+representaciones gráficas, así como de medios accesibles de interpretación de imágenes.
+STEM3, STEM4, STEM5, CD2, CPSAA3,
+CC3, CC4, CE1
+3.3. Entender y afrontar, desde un enfoque ecosocial, problemas y desafíos pasados, actuales o futuros
+de las sociedades contemporáneas relaciones de interdependencia y ecodependencia, teniendo como
+referencia la realidad de Canarias.
+CCL2, CPSAA3, CC3, CC4, CE1, CCEC1
+3.4. Analizar procesos de cambio histórico y comparar casos de la historia y la geografía a través del
+uso de fuentes de información diversas, teniendo en cuenta las transformaciones de corta y larga
+duración, coyunturales o estructurales, las continuidades y permanencias en diferentes períodos y
+lugares, con especial atención a Canarias.
+CCL2, CCL3, STEM4, CPSAA3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos (mediante, entre otros, trabajos de
+síntesis, informes, ejes cronológicos, comentarios de texto, de imágenes, de datos o documentales) a los que se han enfrentado distintas sociedades a
+lo largo del tiempo, como pueden ser la emergencia climática, la sostenibilidad o los conflictos ideológicos, étnicos y culturales. Para ello se
+comprobará que analiza los cambios, las causas y consecuencias, y que comprende, interpreta y valora con actitud crítica los textos y las diversas
+fuentes con la finalidad de elaborar productos significativos (informes, dosieres, exposiciones, etc.). Por otro lado, se constatará que utiliza métodos
+y proyectos de investigación, preferentemente colaborativos, haciendo uso de mapas y otras representaciones gráficas, para realizar propuestas a los
+Objetivos de Desarrollo Sostenible, desde un enfoque ecosocial, problemas y desafíos pasados, actuales o futuros, tales como la diversidad social,
+étnico-cultural y de género, las migraciones, la multiculturalidad y el mestizaje en sociedades abiertas, con el objetivo de expresarlo a través de la
+elaboración de paneles divulgativos, murales digitales, conferencias, congresos, ferias escolares, etc. Finalmente, se valorará la responsabilidad
+66
+
+=== Página 67 ===
+
+ecosocial del alumnado, que ha de comprender y analizar problemas éticos fundamentales y de actualidad, y que es capaz de entender las relaciones
+sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, teniendo como referencia la realidad de
+Canarias, además de desarrollar una ciudadanía ética digital, dentro de los nuevos comportamientos en la sociedad de la información con la
+producción de imágenes o decálogos interactivos, entre otros.
+Competencia específica
+5. Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción
+de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así
+como  asumiendo  los  deberes  y  derechos  propios  de  nuestro  marco  de  convivencia,  para
+promover la participación ciudadana y la cohesión social.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CCL5, CP3, CPSAA3, CC1, CC2,
+CC3, CCEC1
+Criterios de evaluación
+5.1. Conocer, valorar y ejercitar responsabilidades, derechos y deberes y poner en práctica actuaciones
+en favor de su desarrollo y afirmación a través del conocimiento de nuestro ordenamiento jurídico y
+constitucional.
+CCL2, CCL5, CP3, CC1, CC2, CCEC1
+5.2. Comprender y valorar la memoria democrática y de la contribución de los hombres y mujeres a la
+misma, y la defensa de nuestros valores constitucionales.
+CCL2, CCL5, CC2, CC3
+5.3. Reconocer movimientos y causas que generen una conciencia solidaria, promuevan la cohesión
+social, y trabajen para la eliminación de la desigualdad, especialmente la motivada por cuestión de
+género,  y  el  pleno  desarrollo  de  la  ciudadanía,  mediante  la  incorporación  de  conocimientos  y
+CCL5, CP3, CPSAA3, CC2, CC3, CCEC1
+67
+
+=== Página 68 ===
+
+estrategias de participación, trabajo en equipo, mediación y resolución pacífica de conflictos.
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado es capaz de analizar, de forma crítica, planteamientos históricos y geográficos
+para  explicar  los  sistemas  democráticos  y  principios  constitucionales,  conociendo  la  transformación  política  (transiciones,  revoluciones  y
+resistencias, y cambios en la época contemporánea), la conquista de los derechos individuales y colectivos de este mismo periodo histórico y el
+origen, evolución y adaptación de los sistemas liberales en España y la implicación y repercusión en Canarias. Se verificará que conoce, valora y
+ejercita responsabilidades, derechos y deberes a través del estudio de la Transición y de la Constitución española de 1978 y de nuestro ordenamiento
+jurídico. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los principios y valores, como son la comprensión de la memoria
+democrática y la lucha por la libertad, la igualdad y los derechos humanos, y la acción de los movimientos sociales en el mundo contemporáneo,
+mediante la participación social, el trabajo en equipo, la mediación y la resolución pacífica de conflictos, así como debates, pódcast o entrevistas a
+representantes de la ciudadanía, etc.
+Competencia específica
+6. Comprender los procesos geográficos, históricos y culturales que han conformado la realidad
+multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías
+étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la
+igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y
+violencia, y reconocer la riqueza de la diversidad.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL5, CP3, CPSAA3, CC1, CC2, CC3,
+CCEC1
+Criterios de evaluación
+68
+
+=== Página 69 ===
+
+6.1. Conocer y analizar la relación entre los aspectos geográficos, históricos, ecosociales y culturales
+que han conformado la sociedad globalizada y multicultural actual, con especial incidencia en las
+sociedades canaria y española.
+CCL5, CP3, CPSAA3, CC1, CCEC1
+6.2. Reconocer la riqueza de la diversidad y rechazar actitudes discriminatorias, a partir del estudio de
+la  aportación  de  los  movimientos  en  defensa  de  los  derechos  de  las  minorías  y  en  favor  de  la
+inclusividad y la igualdad real, especialmente de las mujeres.
+CCL5, CP3, CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se podrá comprobar que el alumnado es capaz de conocer y comprender los procesos geográficos, históricos y
+culturales que han conformado la realidad multicultural, a través del análisis de los aspectos geográficos, históricos, ecosociales y culturales que han
+conformado la sociedad globalizada y la incidencia en España y en Canarias. Se podrá verificar que puede diferenciar las alianzas e instituciones
+internacionales, la mediación y misiones de paz, y que es capaz de asumir un compromiso cívico y participativo, a través del diseño, exposición y
+puesta en práctica de propuestas para la gestión pacífica de los conflictos y el apoyo a las víctimas en favor de la igualdad y la inclusión, donde el
+alumnado identifique prejuicios y estereotipos, teniendo como fin la prevención de toda discriminación. Como productos de difusión se podrán usar
+exposiciones, murales, paneles divulgativos, presentaciones, dramatizaciones o conferencias, entre otras. Se valorarán las actitudes de respeto por la
+diversidad, y el compromiso con la igualdad de género, la cohesión social y la libertad de expresión.
+Competencia específica
+7. Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a
+través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos
+para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos
+que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CP3, CD1, CPSAA1, CC1, CC2, CC3,
+CCEC1
+69
+
+=== Página 70 ===
+
+la Declaración Universal de los Derechos Humanos.
+Criterios de evaluación
+7.1. Reconocer los rasgos que van conformando la identidad propia y de las demás personas, partiendo
+de la canaria, la riqueza de las identidades múltiples en relación con distintas escalas espaciales, a
+través  de  la  investigación  y  el  análisis  de  sus  fundamentos  geográficos,  históricos,  artísticos,
+ideológicos y lingüísticos, y el reconocimiento de sus expresiones culturales.
+CP3, CD1, CC1, CCEC1
+7.2 Conocer y contribuir a conservar el rico patrimonio material e inmaterial común de Canarias. CP3, CCEC1
+7.3. Respetar los sentimientos de pertenencia, partiendo de la propia realidad canaria y adoptando
+compromisos  con  principios  y  acciones  orientadas  a  la  cohesión  y  solidaridad  territorial  de  la
+comunidad  política,  los  valores  del  europeísmo  y  de  la  Declaración  Universal  de  los  Derechos
+Humanos.
+CP3, CPSAA1, CC1, CC2, CC3
+Explicación del bloque competencial
+Mediante este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen nuestras identidades
+colectivas y las de otros, reconociendo los rasgos que van conformando la identidad propia canaria y la de las demás personas. Se verificará que
+realiza búsquedas en internet con el fin de analizar las ideas relativas a la dimensión social y ciudadana de su propia identidad y la de hechos
+culturales e históricos, el compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial
+creando producciones para difundir las conclusiones. También se constatarán las estrategias para la identificación de los fundamentos del proceso de
+transformación de la España contemporánea en la formación de una identidad multicultural compatible, las formaciones identitarias, el nacimiento
+de las nuevas expresiones artísticas, el patrimonio como bien y como recurso, especialmente en Canarias; la perspectiva histórica del componente
+emocional plasmando las conclusiones en la elaboración de exposiciones, conferencias, debates, congresos, coloquios, catálogos artísticos, etc.
+70
+
+=== Página 71 ===
+
+Competencia específica
+9.  Conocer  y  valorar  la  importancia  de  la  seguridad  integral  ciudadana  en  la  cultura  de
+convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y
+otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al
+desarrollo  sostenible,  para  promover  la  consecución  de  un  mundo  más  seguro,  solidario,
+sostenible y justo.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+Criterios de evaluación
+9.1. Analizar y reconocer los compromisos internacionales de nuestro país en favor de la paz, la
+seguridad, la cooperación, la sostenibilidad, los valores democráticos y los Objetivos de Desarrollo
+Sostenibles, para contribuir a la consecución de un mundo más seguro, justo, solidario y sostenible
+CCL2, CC1, CC2, CC3, CC4, CE1,
+CCEC1
+9.2. Valorar las aportaciones de nuestro país y sus instituciones a la cultura europea y mundial, y
+juzgar la singularidad de Canarias en el ámbito europeo.
+CCL2, CC2, CC4, CCEC1
+Explicación del bloque competencial
+Por medio de este bloque competencial se verificará que el alumnado es capaz de conocer y valorar la aportación de nuestro país a la cultura
+europea, mundial y la singularidad de Canarias en el contexto europeo, a través de la interpretación y explicación, de forma argumentada, de la
+conexión de España con los grandes procesos históricos de la época contemporánea. Se verificará el conocimiento del sistema capitalista, desde el
+colonialismo pasando por el imperialismo hasta las nuevas subordinaciones económicas y culturales, el estudio crítico y comparativo de la primera
+mitad del siglo XX, con especial atención al enfrentamiento entre los totalitarismos y los sistemas democráticos, y los fundamentos geoestratégicos
+desde la segunda mitad del siglo XX hasta la actualidad elaborando paneles divulgativos, pósteres en diferentes formatos, infografías interactivas,
+etc. Asimismo, se comprobará que el alumnado valora la contribución de nuestro país a la consecución de un mundo más seguro, justo, solidario y
+71
+
+=== Página 72 ===
+
+sostenible, a través del análisis de los conflictos actuales y los compromisos internacionales de España en su solución. También se evaluará la
+comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la comprensión de ideas relativas a la dimensión social y
+ciudadana de su propia identidad. Se comprobará que el alumnado es capaz de analizar y valorar los principios y valores que emanan del proceso de
+integración europeo y los derechos humanos y de la infancia, especialmente el logro de los grandes compromisos contenidos en los Objetivos de
+Desarrollo Sostenible. Por último, se comprobará que participa en actividades comunitarias, así como en la generación de ideas y soluciones
+innovadoras, éticas y sostenibles, usando productos como son las presentaciones orales, audiovisuales, dramatizaciones o multimedia.
+72
+
+=== Página 73 ===
+
+Saberes básicos
+I. Retos del mundo actual
+ 1. Objetivos de Desarrollo Sostenible. 
+ 1.1. Reconocimiento de la emergencia climática y la sostenibilidad.
+ 1.2. Relación entre factores naturales y antrópicos en la Tierra.
+ 1.3. Análisis  de  las  repercusiones  de  la  globalización,  movimientos  migratorios  e
+interculturalidad.
+ 1.4. Reflexión crítica sobre los avances tecnológicos y la conciencia ecosocial.
+ 1.5. Indagación sobre los conflictos ideológicos y etnoculturales.
+ 2. Sociedad de la información. 
+ 2.1. Búsqueda,  tratamiento  de  la  información,  uso  de  datos  en  entornos  digitales  y
+evaluación y contraste de la fiabilidad de las fuentes.
+ 2.2. Valoración del problema de la desinformación.
+ 2.3. Uso específico del léxico relativo a los ámbitos histórico, artístico y geográfico.
+ 3. Los avances tecnológicos y la conciencia ecosocial. 
+ 3.1. Identificación y explicación del proceso industrializador en España y en Canarias y
+análisis de sus consecuencias.
+ 4. Geopolítica y principales conflictos en el presente. 
+ 4.1. Identificación de los genocidios y crímenes contra la humanidad.
+ 4.2. Indagación sobre las guerras, terrorismo y otras formas de violencia política.
+ 4.3. Valoración de las alianzas e instituciones internacionales, mediación y misiones de paz.
+ 4.4. Reflexión crítica sobre injerencia humanitaria y Justicia Universal.
+ 5. Desigualdad e injusticia en el contexto local y global. 
+ 5.1. Valoración sobre la solidaridad, la cohesión social y la cooperación para el desarrollo.
+ 6. Igualdad de género y formas de violencia contra las mujeres. 
+ 6.1. Análisis crítico de las actitudes y los comportamientos sexistas.
+ 7. Diversidad social, etnocultural y de género. 
+ 7.1. Estudio de los fenómenos migratorios, la multiculturalidad y el mestizaje en sociedades
+abiertas.
+ 7.2. Historia y reconocimiento del pueblo gitano y otras minorías étnicas de nuestro país.
+ 7.3. Reconocimiento y análisis de nuevas formas de identificación cultural.
+73
+
+=== Página 74 ===
+
+II. Sociedades y territorios
+ 1. Métodos de investigación en el ámbito de la Historia. 
+ 1.1. Utilización de metodologías del pensamiento histórico.
+ 2. Las fuentes históricas como base para la construcción del conocimiento sobre el pasado
+contemporáneo.
+ 2.1. Estudio de la situación en Europa, España y Canarias.
+ 2.2. Reflexión crítica del contraste entre interpretaciones de historiadores e historiadoras.
+ 3. Tiempo histórico: construcción e interpretación de líneas de tiempo a través de la linealidad,
+cronología, simultaneidad y duración.
+ 4. Conciencia histórica.
+ 4.1. Elaboración  de  juicios  propios  y  argumentados  ante  problemas  de  actualidad
+contextualizados históricamente. Defensa y exposición crítica de los mismos a través de
+presentaciones y debates.
+ 5. La transformación política de los seres humanos: de la servidumbre a la ciudadanía. 
+ 5.1. Estudio de las transiciones, revoluciones y resistencias: permanencias y cambios en la
+época contemporánea.
+ 5.2. Reconocimiento de la conquista de los derechos individuales y colectivos en la época
+contemporánea.
+ 5.3. Indagación del origen, evolución y adaptación de los sistemas liberales en España y en
+el mundo a través de las fuentes.
+ 6. Relaciones  multicausales  en  la  construcción  de  la  democracia  y  los  orígenes  del
+totalitarismo: los movimientos por la libertad, la igualdad y los derechos humanos. 
+ 6.1. Conocimiento de la acción de los movimientos sociales en el mundo contemporáneo.
+ 6.2. Reflexión sobre los procesos de evolución e involución: la perspectiva emancipadora
+de la interpretación del pasado.
+ 7. Interpretación del sistema capitalista desde sus orígenes hasta la actualidad. 
+ 7.1. Análisis crítico del colonialismo, imperialismo y nuevas subordinaciones económicas y
+culturales.
+ 8. El Atlántico a través de Canarias. 
+ 8.1. Indagación sobre las relaciones históricas, económicas, sociales y culturales con África
+y América.
+ 9. Las relaciones internacionales y el estudio crítico y comparativo de conflictos y violencias de
+la primera mitad del siglo XX. 
+ 9.1. Valoración crítica del Holocausto.
+74
+
+=== Página 75 ===
+
+10. Los fundamentos geoestratégicos desde la segunda mitad del siglo XX hasta la actualidad,
+la política de bloques, los conflictos de la descolonización y el nuevo orden mundial. 
+ 10.1. Estudio y análisis del papel de los organismos internacionales.
+ 11. España ante la modernidad. 
+ 11.1. Estrategias para la identificación de los fundamentos del proceso de transformación de
+la España y Canarias contemporáneas y contextualización y explicación de los aspectos
+políticos,  económicos,  sociales  y  culturales  en  la  formación  de  una  identidad
+multicultural compartida.
+ 12. Las formaciones identitarias: ideologías, nacionalismos y movimientos supranacionales. 
+ 12.1. Valoración de la ciudadanía europea y cosmopolita.
+ 12.2. Indagación sobre los movimientos sociales en Canarias en la Edad Contemporánea.
+ 13. La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género.
+ 13.1. Investigación sobre mujeres relevantes de la historia contemporánea.
+ 14. El  nacimiento  de  las  nuevas  expresiones  artísticas  y  culturales  contemporáneas  y  su
+relación con las artes clásicas. 
+ 14.1. Valoración de la diversidad cultural en el mundo actual.
+ 14.2. Respeto y conservación del patrimonio material e inmaterial canario.
+ 15. De la Constitución de 1812 a la Constitución Española de 1978.
+ 16. La memoria democrática. 
+ 16.1. Reflexión  sobre  las  experiencias  históricas  dolorosas  del  pasado  reciente  y
+reconocimiento y reparación a las víctimas de la violencia especialmente en el caso de
+Canarias.
+ 16.2. Estudio y análisis del principio de Justicia Universal.
+III. Compromiso cívico local y global
+ 1. Responsabilidad ecosocial. 
+ 1.1. Compromiso y acción ante los Objetivos del Desarrollo Sostenible.
+ 1.2. Valoración de la juventud como agente de cambio para el desarrollo sostenible.
+ 2. Ciudadanía ética digital. 
+ 2.1. Identificación y valoración crítica de nuevos comportamientos en la sociedad de la
+información.
+ 3. Compromiso cívico y participación ciudadana. 
+ 3.1. Reflexión sobre la mediación y gestión pacífica de conflictos, y el apoyo a las víctimas
+de la violencia y del terrorismo.
+75
+
+=== Página 76 ===
+
+4. El patrimonio cultural como bien y como recurso. 
+ 4.1. Puesta  en valor,  difusión y gestión  de  la  riqueza patrimonial, singularmente la de
+Canarias.
+ 4.2. Estudio y concienciación sobre la cohesión social e integración.
+ 4.3. Análisis de las medidas y acciones en favor de la igualdad y de la plena inclusión.
+ 5. La igualdad real de mujeres y hombres. 
+ 5.1. Valoración crítica de la discriminación por motivo de diversidad sexual y de género.
+ 5.2. La conquista de derechos en las sociedades democráticas contemporáneas.
+ 6. Valoración crítica de los compromisos internacionales de nuestro país en favor de la paz, la
+seguridad y la cooperación internacional.
+ 7. Las emociones y el contexto cultural. 
+ 7.1. Reconocimiento de la perspectiva histórica del componente emocional.
+76

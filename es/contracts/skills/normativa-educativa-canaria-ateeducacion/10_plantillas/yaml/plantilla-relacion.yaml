@@ -1,0 +1,11 @@
+id: REL-XXX
+tipo_relacion: "modifica"
+origen: NOR-XXX
+destino: NOR-YYY
+descripcion: ""
+evidencia:
+  fuente: FTE-XXX
+  localizacion: ""
+fecha_registro: YYYY-MM-DD
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

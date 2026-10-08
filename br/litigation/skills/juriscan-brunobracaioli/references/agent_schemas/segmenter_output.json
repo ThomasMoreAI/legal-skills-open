@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/segmenter_output.json",
+  "title": "juriscan-segmenter output",
+  "description": "Result of the juriscan-segmenter subagent: full segmentation of a raw extracted text into legal pieces (peças processuais). Char offsets are end-exclusive into raw_text. Coverage of the raw text must be total and non-overlapping — scripts/persist_chunks.py verifies that post-hoc.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "raw_text_length", "chunks"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "raw_text_length": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Length in characters of the raw text that was segmented. persist_chunks.py cross-checks this against len(raw_text.txt) to detect stale inputs."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional free-form notes (e.g. 'detected 2 page headers that were preserved as DESCONHECIDO chunks')."
+    },
+    "chunks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "start_char", "end_char", "tipo_provavel", "confianca"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^c[0-9]{2,4}$",
+            "description": "Sequential id c00, c01, ... used for downstream references."
+          },
+          "start_char": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Inclusive start offset into raw_text (characters, not bytes)."
+          },
+          "end_char": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Exclusive end offset into raw_text."
+          },
+          "tipo_provavel": {
+            "type": "string",
+            "description": "Legal piece type from references/piece_type_taxonomy.json, uppercase. Use 'DESCONHECIDO' when uncertain — downstream will handle it.",
+            "minLength": 1
+          },
+          "confianca": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "Calibrated confidence: 0.9+ = piece header/footer clearly identified; 0.5-0.9 = inferred from content; <0.5 = last-resort guess."
+          },
+          "page_range": {
+            "type": "array",
+            "items": { "type": "integer", "minimum": 1 },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Optional [first_page, last_page] covered by this chunk when page_map is available."
+          },
+          "evidencia": {
+            "type": "string",
+            "description": "Short literal snippet (≤120 chars) from the raw text that motivated the classification. Enables auditing and retry-with-feedback."
+          }
+        }
+      }
+    }
+  }
+}

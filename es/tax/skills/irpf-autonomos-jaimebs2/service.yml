@@ -1,0 +1,53 @@
+name: fiscalidad-irpf-autonomos
+display_name: Fiscalidad — IRPF Pagos Fraccionados para Autónomos
+description: >
+  Orientación sobre los pagos fraccionados trimestrales del IRPF para
+  trabajadores autónomos en España: Modelo 130 (estimación directa),
+  Modelo 131 (estimación objetiva/módulos), retenciones en factura
+  (15 %/7 %), gastos deducibles y plazos de presentación.
+organization: Agencia Estatal de Administración Tributaria (AEAT)
+tags: [fiscalidad, IRPF, autónomos, modelo 130, modelo 131, pagos fraccionados, retenciones, gastos deducibles]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/irpf.html
+  modelo_130: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G601.shtml
+  modelo_131: https://sede.agenciatributaria.gob.es/Sede/procedimientoini/G602.shtml
+  pagos_fraccionados: https://sede.agenciatributaria.gob.es/Sede/irpf/retenciones-ingresos-cuenta-pagos-fraccionados/pagos-fraccionados.html
+  folleto_actividades: https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/folleto-actividades-economicas.html
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Información pública de la AEAT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación. No accede a APIs de datos ni a la
+    Sede Electrónica para trámites. Puede usar WebFetch para enlazar o
+    consultar páginas informativas oficiales de la AEAT.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Cálculo de pagos fraccionados trimestrales (Modelos 130 y 131)
+    - Retenciones aplicables en facturas de profesionales (15 %, 7 %)
+    - Gastos deducibles para autónomos en estimación directa
+    - Plazos de presentación trimestrales
+    - Diferencia entre estimación directa y estimación objetiva (módulos)
+    - Excepciones a la obligación de presentar pagos fraccionados
+  not_accessible:
+    - Presentación real de declaraciones (requiere certificado digital/Cl@ve)
+    - Datos fiscales individuales del contribuyente
+    - Obligaciones del Impuesto de Sociedades (Modelos 200/202)
+    - Declaración anual de la Renta (Modelo 100)
+    - Cuotas de la Seguridad Social (usar skill seguridad-social)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

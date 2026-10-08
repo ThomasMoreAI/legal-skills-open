@@ -9,12 +9,18 @@
   "practice": "data-protection",
   "language": "es",
   "skills": [
+    "skills/aepd-betobetico",
+    "skills/brecha-betobetico",
     "skills/derechos",
     "skills/eipd",
+    "skills/eipd-proteccion-datos-1943-betobetico",
     "skills/encargo",
     "skills/entrevista-inicial-2",
+    "skills/entrevista-inicial-proteccion-datos-1467-betobetico",
     "skills/gap",
+    "skills/proteccion-datos-jaimebs2",
     "skills/rat",
+    "skills/tool-web-legal-audit-iamasters-academy",
     "skills/triaje"
   ]
 }

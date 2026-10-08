@@ -1,0 +1,200 @@
+             DIARIO OFICIAL                                                 I
+                      DE LA REPUBLICA DE CHILE
+                                          Ministerio del Interior          SECCIÓN
+
+             LEYES, REGLAMENTOS, DECRETOS Y RESOLUCIONES DE ORDEN GENERAL
+
+Núm. 44.328  |  Viernes 19 de Diciembre de 2025           |        Página 1 de 3
+
+                Normas Generales
+
+                                             CVE 2742586
+
+                    MINISTERIO DE ECONOMÍA, FOMENTO Y TURISMO
+
+                       Subsecretaría de Economía y Empresas de Menor Tamaño
+
+            APRUEBA LAS CLÁUSULAS CONTRACTUALES MODELO PARA
+                    TRANSFERENCIAS INTERNACIONALES QUE INDICA
+
+                                                   (Resolución)
+
+      Núm. RAEX202503748 exenta.- Santiago, 11 de diciembre de 2025.
+
+      Visto:
+
+      Lo dispuesto en el artículo 19 Nº 4 del decreto supremo Nº 100, de 2005, del Ministerio
+Secretaría General de la Presidencia, que fija el texto refundido, coordinado y sistematizado de la
+Constitución Política de la República de Chile; en el decreto con fuerza de ley Nº 1/19.653, de
+2000, del Ministerio Secretaría General de la Presidencia, que fija el texto refundido, coordinado
+y sistematizado de la Ley Nº 18.575, Orgánica Constitucional de Bases Generales de la
+Administración del Estado; en la ley Nº 19.628, sobre protección de la vida privada; en la ley Nº
+21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de
+Protección de Datos Personales; en el literal h) del artículo 3º del decreto Nº 747 del Ministerio
+de Economía; en el artículo 1º del DFL Nº 88, de 1953, del Ministerio de Hacienda, y en la
+resolución Nº 36, de 2024, de la Contraloría General de la República, que fija normas sobre
+exención del trámite de toma de razón.
+
+      Considerando:
+
+      1. Que la ley Nº 21.719, que regula la protección y el tratamiento de los datos personales y
+crea la Agencia de Protección de Datos Personales (en adelante, "APDP"), reformó la ley Nº
+19.628 sobre Protección de la Vida Privada en cumplimiento de lo dispuesto por el artículo 19 Nº
+4 de la Constitución Política de la República. Con esta finalidad, la ley Nº 21.719 estableció
+requisitos más estrictos para el tratamiento de datos personales, sanciones para el caso de
+infracciones a la ley y un nuevo organismo descentralizado que tendrá la función de fiscalizar la
+actividad de los responsables de datos y proteger los derechos de las personas en este ámbito.
+
+      2. Que, entre otras materias, la ley Nº 21.719 establece reglas relativas a la transferencia
+internacional de datos personales. En efecto, los artículos 27 y 28 de la ley Nº 19.628, en su texto
+reformado por la ley Nº 21.719, regulan los casos en que es lícito realizar transferencias
+internacionales de datos personales, y los mecanismos a través de los que puede acreditarse el
+cumplimiento de los requisitos que la ley establece para dichas transferencias.
+
+      3. Que, el artículo 27 de la ley Nº 19.628, en su texto reformado por la ley Nº 21.719,
+establece los casos en que las operaciones de transferencia internacional de datos son lícitas.
+Entre dichos casos, el legislador ha reconocido la transferencia de datos personales a
+responsables o encargados de datos sujetos a un ordenamiento jurídico que proporcione niveles
+adecuados de protección de datos personales; la adopción de normas corporativas vinculantes; la
+adopción de un modelo de cumplimiento o mecanismo de certificación que establezca garantías
+adecuadas, y el uso de cláusulas contractuales tipo.
+
+      4. Que, de conformidad con lo dispuesto en los artículos primero y cuarto transitorios de la
+ley Nº 21.719, tanto su entrada en vigencia como la entrada en funciones del Consejo Directivo
+de la APDP se producirá el día primero del mes vigésimo cuarto posterior a la publicación de la
+ley en el Diario Oficial, es decir, el día 1 de diciembre de 2026. En este contexto, es posible
+anticipar que, a la fecha de entrada en vigencia de las obligaciones en materia de transferencia
+internacional de datos personales, la APDP no va a haber tenido oportunidad de regular los
+
+| | CVE 2742586 Director: Felipe Andrés Peroti Díaz Mesa Central: 600 712 0001 Email: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl  Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.328  DIARIO OFICIAL DE LA REPUBLICA DE CHILE       Página 2 de 3
+                          Viernes 19 de Diciembre de 2025
+
+mecanismos que autorizan el flujo transfronterizo de datos, de conformidad con los artículos 27 y
+28 de la citada ley. Esta situación provocará que los responsables de datos que en esa fecha se
+encuentren transfiriendo datos personales internacionalmente no van a contar con las reglas
+necesarias para adaptar sus operaciones de flujo transfronterizo a la nueva ley y que,
+eventualmente, producirá que se encuentren en situación de incumplimiento automático de la ley
+por el mero hecho de su entrada en vigencia.
+
+      5. Que esta situación causa una grave falta de certeza jurídica a los responsables de datos
+personales respecto de la licitud de las operaciones de transferencia internacional que se
+encuentren realizando al momento de la entrada en vigencia de la ley Nº 21.719 y mientras la
+APDP no dicte las regulaciones necesarias para implementar los mecanismos de los artículos 27
+y 28 de la ley. Dicha falta de certeza puede afectar la actividad económica internacional, las
+operaciones de transferencia internacional de datos que realicen los organismos públicos, a la vez
+que supone desproteger los derechos de los titulares de datos.
+
+      6. Que la falta de certeza respecto de las reglas sobre flujo transfronterizo de datos
+personales que provoca la vacancia prevista en la ley Nº 21.719 ya ha sido puesta de relieve y
+alertada, por ejemplo, por el Gobierno de Estados Unidos en el Informe de Barreras al Comercio
+(2024), el que señala: "Chile publicó su Ley de Protección de Datos (DPL) en diciembre de
+2024. La ley requiere que los países a los que se transferirán datos demuestren niveles
+'adecuados' de protección, similares a los estándares de la ley chilena. En ausencia de una
+decisión sobre los niveles de protección 'adecuados', las empresas deberán usar cláusulas
+contractuales previamente aprobadas para transferir datos. Existe preocupación por parte de
+incumbentes estadounidenses respecto de la falta de claridad de los lineamientos para el uso de
+cláusulas contractuales, y de la falta de definiciones de conceptos clave, lo que está causando
+incerteza para las empresas. Estados Unidos sigue colaborando con Chile, incluso a través de su
+participación en arreglos multilaterales de certificación en materia de privacidad de datos, los
+cuales proporcionan un mecanismo para que las empresas faciliten transferencias internacionales
+de datos personales en cumplimiento con las leyes de las jurisdicciones participantes".
+
+      7. Que, en este contexto, mientras la declaración de país adecuado o la adopción de un
+modelo de cumplimiento o mecanismo de certificación requieren de un estudio casuístico
+respecto del ordenamiento jurídico o de las medidas que un determinado responsable de datos ha
+adoptado, la adopción de cláusulas contractuales tipo permite poner a disposición de todos los
+responsables de datos, preventivamente, un modelo que aquéllos pueden utilizar para realizar
+transferencias internacionales de datos personales dando cumplimiento a los requisitos que
+establece la ley Nº 21.719.
+
+      8. Que, si bien la nueva ley también contempla la posibilidad de que la Agencia de
+Protección de Datos Personales ponga a disposición de los interesados otros instrumentos
+jurídicos con la misma finalidad, la adopción de cláusulas contractuales tipo tiene la ventaja de
+que ya existen modelos ampliamente difundidos y utilizados en otras jurisdicciones con leyes
+similares a la ley Nº 21.719. Se trata de instrumentos disponibles libremente, respecto de los que
+basta su aprobación o reconocimiento oficial para que cumplan su función, por lo que su
+adopción es especialmente eficiente para países que, como el nuestro, no cuentan todavía con
+este tipo de instrumentos, con una experiencia institucional desarrollada, ni con una
+institucionalidad especializada en esta materia. Asimismo, además de contribuir a otorgar
+certeza, el uso de cláusulas contractuales tipo para operaciones de transferencia internacional de
+datos personales permite reducir costos de transacción en las relaciones entre responsables de
+datos en distintas jurisdicciones, lo que es especialmente importante para las pequeñas y
+medianas empresas que realizan operaciones de este tipo.
+
+      9. Que, el segundo informe de la Comisión Asesora Ministerial para la implementación de
+la ley Nº 21.719 ha destacado la necesidad de abordar esta situación y ha recomendado adoptar
+cláusulas contractuales tipo con anterioridad a la vigencia de dicha ley, con los objetivos
+mencionados en la presente resolución.
+
+      10. Que, entre otros modelos, la Red Ibero-Americana de Protección de Datos elaboró
+cláusulas contractuales tipo para la transferencia internacional de datos entre responsables y entre
+responsable y encargado. Dichas cláusulas tipo ya han sido reconocidas por otros países de la
+región, como Argentina (Resolución 198/2023 de la Agencia de Acceso a la Información
+Pública), Uruguay (Resolución Nº 50/2022 de la Unidad Reguladora y de Control de Datos
+Personales) o Perú (Resolución Directoral Nº 074-2022- JUS/DGTAIPD de la Autoridad
+Nacional de Protección de Datos Personales), lo que les ha permitido poner a disposición de los
+responsables de datos, mecanismos certeros para la ejecución de este tipo de tratamiento de datos
+personales.
+
+      11. Que, la APDP se relacionará con el Presidente de la República por intermedio del
+Ministerio de Economía, Fomento y Turismo, según lo dispone el artículo 30 de la ley Nº 19.628
+
+| | CVE 2742586 Director: Felipe Andrés Peroti Díaz Mesa Central: 600 712 0001 Email: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl  Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+Núm. 44.328  DIARIO OFICIAL DE LA REPUBLICA DE CHILE       Página 3 de 3
+                          Viernes 19 de Diciembre de 2025
+
+en su texto reformado por la ley Nº 21.719. Que, a su vez, el literal h) del artículo 3º del decreto
+Nº 747 del Ministerio de Economía, que aprueba el reglamento orgánico de la Subsecretaría de
+Comercio e Industrias del Ministerio de Economía, dispone que corresponde al Subsecretario de
+Comercio e Industrias (Subsecretario de Economía y Empresas de Menor Tamaño): "h) Dictar
+las resoluciones destinadas al cumplimiento de las actividades que le corresponde supervisar y
+dictar órdenes de carácter administrativo obligatorias para los funcionarios de los Servicios de su
+dependencia". Es decir, las normas que establece la ley Nº 19.628 son de aquéllas que
+corresponde supervisar al Ministerio de Economía, en cuanto la APDP es un organismo
+descentralizado, con autonomía legal, según establece la misma disposición.
+
+      12. Que, a su vez, el literal l) del artículo 1º del DFL Nº 88 de 1953, del Ministerio de
+Hacienda establece que corresponderá especialmente al Ministerio de Economía: "Adoptar las
+medidas necesarias para fomentar las inversiones extranjeras en Chile", función que se vincula
+directamente con el rol que cumplen las reglas sobre flujo transfronterizo de datos personales y
+que cumple un rol fundamental en el fomento de la economía digital en el país.
+
+      13. Que, por los motivos señalados, resulta oportuno y conveniente aprobar cláusulas
+contractuales modelo con anterioridad a la entrada en vigencia de la ley Nº 21.719, de manera
+que se permita a los responsables de datos realizar las acciones necesarias para adaptar sus
+procesos a los estándares que la nueva ley establece, mientras la APDP no dicte, en el ejercicio
+de sus funciones, una norma que cumpla una función equivalente. Por tanto,
+
+      Resuelvo:
+
+      Artículo primero.- Apruébanse las cláusulas contractuales modelo para transferencias
+internacionales incluidas en la "Guía de Implementación de Cláusulas Contractuales Modelo
+para la Transferencia Internacional de Datos Personales" ("TIDP") que se acompañan como
+anexo a la presente resolución.
+
+      Artículo segundo.- La presente resolución se encontrará vigente desde su publicación en el
+Diario Oficial y hasta que la Agencia de Protección de Datos Personales ejerza la atribución que
+le otorga el inciso segundo del artículo 28 de la ley Nº 19.628, en su texto reformado por la ley
+Nº 21.719.
+
+      Artículo tercero.- Publíquese la presente resolución sin su anexo en el Diario Oficial, y a
+texto íntegro en el sitio web del Ministerio de Economía, Fomento y Turismo.
+
+      Anótese y publíquese.- Javiera Petersen Muga, Subsecretaria de Economía y Empresas de
+Menor Tamaño.
+
+| | CVE 2742586 Director: Felipe Andrés Peroti Díaz Mesa Central: 600 712 0001 Email: consultas@diarioficial.cl
+             Sitio Web: www.diarioficial.cl  Dirección: Dr. Torres Boonen N°511, Providencia, Santiago, Chile.
+
+Este documento ha sido firmado electrónicamente de acuerdo con la ley N°19.799 e incluye sellado de tiempo y firma electrónica
+avanzada. Para verificar la autenticidad de una representación impresa del mismo, ingrese este código en el sitio web www.diarioficial.cl
+

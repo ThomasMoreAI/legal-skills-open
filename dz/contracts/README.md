@@ -4,11 +4,13 @@ Contract drafting, negotiation, and review under Algerian law.
 
 Jurisdiction: `dz` · Practice: `contracts` · Skill language: fr
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Agent Négociation de Contrats v2`](skills/agent-contract-negotiator-v2-ziri22/) | Expert en négociation de contrats v2 (terms, SLAs, renouvellement, PI, responsabilité, contexte juridique DZ) |
+| [`Legal Tech Contracts Specialist IA`](skills/agent-legal-tech-contracts-ziri22/) | Legal Tech Contracts Specialist IA — Expert en technologies juridiques contractuelles (contract… |
+| [`Legal Tech Specialist IA`](skills/agent-legal-tech-ziri22/) | Legal tech — contrats, conformité, DPI, INAPI, marques, propriété intellectuelle DZ |
 
 ## Cold-start context
 

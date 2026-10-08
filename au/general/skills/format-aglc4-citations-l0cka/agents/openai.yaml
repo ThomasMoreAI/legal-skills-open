@@ -1,0 +1,4 @@
+interface:
+  display_name: "AGLC4 Legal Citation"
+  short_description: "Draft and check citations in AGLC4 format"
+  default_prompt: "Use $format-aglc4-citations to draft or check these legal citations in AGLC4 format."

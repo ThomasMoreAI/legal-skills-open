@@ -1,0 +1,1027 @@
+id: CUR-051
+titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
+etapa: "formacion-profesional"
+familia_profesional: "Informática y Comunicaciones"
+grado: "gs"
+materia: "Desarrollo de Aplicaciones Web"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-056
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  modulos_profesionales:
+    - codigo: "0483"
+      nombre: "Sistemas Informáticos"
+      horas_totales: 100
+      creditos_ects: 10
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Evalúa sistemas informáticos identificando sus componentes y características."
+          criterios_evaluacion:
+            - "a) Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión."
+            - "b) Se ha verificado el proceso de puesta en marcha de un equipo."
+            - "c) Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos."
+            - "d) Se han identificado los tipos de redes y sistemas de comunicación."
+            - "e) Se han identificado los componentes de una red informática."
+            - "f) Se han interpretado mapas físicos y lógicos de una red informática."
+        - numero: 2
+          enunciado: "Instala sistemas operativos planificando el proceso e interpretando documentación técnica."
+          criterios_evaluacion:
+            - "a) Se han identificado los elementos funcionales de un sistema informático."
+            - "b) Se han analizado las características, funciones y arquitectura de un sistema operativo."
+            - "c) Se han comparado sistemas operativos en lo que se refiere a sus requisitos, características, campos de aplicación y licencias de uso."
+            - "d) Se han instalado diferentes sistemas operativos."
+            - "e) Se han aplicado técnicas de actualización y recuperación del sistema."
+            - "f) Se han utilizado máquinas virtuales para instalar y probar sistemas operativos."
+            - "g) Se han documentado los procesos realizados."
+        - numero: 3
+          enunciado: "Gestiona información del sistema identificando y aplicando criterios para su organización e integridad."
+          criterios_evaluacion:
+            - "a) Se han comparado sistemas de archivos."
+            - "b) Se ha identificado la estructura y función de los directorios del sistema operativo."
+            - "c) Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos."
+            - "d) Se han creado diferentes tipos de particiones y unidades lógicas."
+            - "e) Se han realizado copias de seguridad."
+            - "f) Se han automatizado tareas."
+            - "g) Se han instalado y evaluado utilidades relacionadas con la gestión de información."
+        - numero: 4
+          enunciado: "Gestiona sistemas operativos utilizando comandos y herramientas gráficas."
+          criterios_evaluacion:
+            - "a) Se han configurado cuentas de usuario locales y de grupos."
+            - "b) Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas."
+            - "c) Se han identificado, arrancado y detenido servicios y procesos."
+            - "d) Se ha protegido el acceso a la información mediante el uso de permisos locales."
+            - "e) Se han utilizado comandos para realizar las tareas básicas de configuración del sistema."
+            - "f) Se ha monitorizado el sistema."
+            - "g) Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema."
+            - "h) Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones."
+        - numero: 5
+          enunciado: "Interconecta sistemas en red configurando dispositivos y protocolos."
+          criterios_evaluacion:
+            - "a) Se ha configurado el protocolo TCP/IP."
+            - "b) Se han configurado redes de área local cableadas."
+            - "c) Se han configurado redes de área local inalámbricas."
+            - "d) Se han utilizado dispositivos de interconexión de redes."
+            - "e) Se ha configurado el acceso a redes de área extensa."
+            - "f) Se han gestionado puertos de comunicaciones."
+            - "g) Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas."
+            - "h) Se han aplicado protocolos seguros de comunicaciones."
+        - numero: 6
+          enunciado: "Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad."
+          criterios_evaluacion:
+            - "a) Se ha configurado el acceso a recursos locales y recursos de red."
+            - "b) Se han identificado los derechos de usuario y directivas de seguridad."
+            - "c) Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones."
+            - "d) Se ha accedido a los servidores utilizando técnicas de conexión remota."
+            - "e) Se ha evaluado la necesidad de proteger los recursos y el sistema."
+            - "f) Se han instalado y evaluado utilidades de seguridad básica."
+        - numero: 7
+          enunciado: "Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general."
+          criterios_evaluacion:
+            - "a) Se ha clasificado software en función de su licencia y propósito."
+            - "b) Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos."
+            - "c) Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas."
+            - "d) Se han utilizado sistemas de correo y mensajería electrónica."
+            - "e) Se han utilizado los servicios de transferencia de ficheros."
+            - "f) Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet."
+    - codigo: "0484"
+      nombre: "Bases de Datos"
+      horas_totales: 105
+      creditos_ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores."
+          criterios_evaluacion:
+            - "a) Se han analizado los sistemas lógicos de almacenamiento y sus características."
+            - "b) Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado."
+            - "c) Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información."
+            - "d) Se ha evaluado la utilidad de un sistema gestor de bases de datos."
+            - "e) Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos."
+            - "f) Se han clasificado los sistemas gestores de bases de datos."
+            - "g) Se ha reconocido la utilidad de las bases de datos distribuidas."
+            - "h) Se han analizado las políticas de fragmentación de la información."
+        - numero: 2
+          enunciado: "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional."
+          criterios_evaluacion:
+            - "a) Se ha analizado el formato de almacenamiento de la información."
+            - "b) Se han creado las tablas y las relaciones entre ellas."
+            - "c) Se han seleccionado los tipos de datos adecuados."
+            - "d) Se han definido los campos clave en las tablas."
+            - "e) Se han implantado las restricciones reflejadas en el diseño lógico."
+            - "f) Se han creado vistas."
+            - "g) Se han creado los usuarios y se les han asignado privilegios."
+            - "h) Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
+        - numero: 3
+          enunciado: "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos."
+          criterios_evaluacion:
+            - "a) Se han identificado las herramientas y sentencias para realizar consultas."
+            - "b) Se han realizado consultas simples sobre una tabla."
+            - "c) Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas."
+            - "d) Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas."
+            - "e) Se han realizado consultas resumen."
+            - "f) Se han realizado consultas con subconsultas."
+        - numero: 4
+          enunciado: "Modifica la información almacenada en la base de datos utilizando el lenguaje de manipulación de datos."
+          criterios_evaluacion:
+            - "a) Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos."
+            - "b) Se han insertado, borrado y actualizado datos en las tablas."
+            - "c) Se ha incluido en una tabla la información resultante de la ejecución de una consulta."
+            - "d) Se han diseñado guiones de sentencias para llevar a cabo tareas complejas."
+            - "e) Se ha reconocido el funcionamiento de las transacciones."
+            - "f) Se han anulado parcial o totalmente los cambios producidos por una transacción."
+            - "g) Se han identificado los efectos de las distintas políticas de bloqueo de registros."
+            - "h) Se han adoptado medidas para mantener la integridad y consistencia de la información."
+        - numero: 5
+          enunciado: "Desarrolla procedimientos almacenados evaluando y utilizando las sentencias del lenguaje incorporado en el sistema gestor de bases de datos."
+          criterios_evaluacion:
+            - "a) Se han identificado las diversas formas de automatizar tareas."
+            - "b) Se han reconocido los métodos de ejecución de guiones."
+            - "c) Se han identificado las herramientas disponibles para editar guiones."
+            - "d) Se han definido y utilizado guiones para automatizar tareas."
+            - "e) Se ha hecho uso de las funciones proporcionadas por el sistema gestor."
+            - "f) Se han definido funciones de usuario."
+            - "g) Se han utilizado estructuras de control de flujo."
+            - "h) Se han definido disparadores."
+            - "i) Se han utilizado cursores."
+        - numero: 6
+          enunciado: "Diseña modelos relacionales normalizados interpretando diagramas entidad/relación."
+          criterios_evaluacion:
+            - "a) Se han utilizado herramientas gráficas para representar el diseño lógico."
+            - "b) Se han identificado las tablas del diseño lógico."
+            - "c) Se han identificado los campos que forman parte de las tablas del diseño lógico."
+            - "d) Se han analizado las relaciones entre las tablas del diseño lógico."
+            - "e) Se han identificado los campos clave."
+            - "f) Se han aplicado reglas de integridad."
+            - "g) Se han aplicado reglas de normalización."
+            - "h) Se han analizado y documentado las restricciones que no pueden plasmarse en el diseño lógico."
+        - numero: 7
+          enunciado: "Gestiona la información almacenada en bases de datos objeto-relacionales, evaluando y utilizando las posibilidades que proporciona el sistema gestor."
+          criterios_evaluacion:
+            - "a) Se han identificado las características de las bases de datos objeto-relacionales."
+            - "b) Se han creado tipos de datos objeto, sus atributos y métodos."
+            - "c) Se han creado tablas de objetos y tablas de columnas tipo objeto."
+            - "d) Se han creado tipos de datos colección."
+            - "e) Se han realizado consultas."
+            - "f) Se ha modificado la información almacenada manteniendo la integridad y consistencia de los datos."
+    - codigo: "0485"
+      nombre: "Programación"
+      horas_totales: 135
+      creditos_ects: 14
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce la estructura de un programa informático identificando y relacionando los elementos propios del lenguaje de programación utilizado."
+          criterios_evaluacion:
+            - "a) Se han identificado los bloques que componen la estructura de un programa informático."
+            - "b) Se han creado proyectos de desarrollo de aplicaciones."
+            - "c) Se han utilizado entornos integrados de desarrollo."
+            - "d) Se han identificado los distintos tipos de variables y la utilidad específica de cada uno."
+            - "e) Se ha modificado el código de un programa para crear y utilizar variables."
+            - "f) Se han creado y utilizado constantes y literales."
+            - "g) Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje."
+            - "h) Se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas."
+            - "i) Se han introducido comentarios en el código."
+        - numero: 2
+          enunciado: "Escribe y prueba programas sencillos reconociendo y aplicando los fundamentos de la programación orientada a objetos."
+          criterios_evaluacion:
+            - "a) Se han identificado los fundamentos de la programación orientada a objetos."
+            - "b) Se han escrito programas simples."
+            - "c) Se han instanciado objetos a partir de clases predefinidas."
+            - "d) Se han utilizado métodos y propiedades de los objetos."
+            - "e) Se han escrito llamadas a métodos estáticos."
+            - "f) Se han utilizado parámetros en la llamada a métodos."
+            - "g) Se han incorporado y utilizado librerías de objetos."
+            - "h) Se han utilizado constructores."
+            - "i) Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples."
+        - numero: 3
+          enunciado: "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje."
+          criterios_evaluacion:
+            - "a) Se ha escrito y probado código que haga uso de estructuras de selección."
+            - "b) Se han utilizado estructuras de repetición."
+            - "c) Se han reconocido las posibilidades de las sentencias de salto."
+            - "d) Se ha escrito código utilizando control de excepciones."
+            - "e) Se han creado programas ejecutables utilizando diferentes estructuras de control."
+            - "f) Se han probado y depurado los programas."
+            - "g) Se ha comentado y documentado el código."
+        - numero: 4
+          enunciado: "Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la sintaxis, estructura y componentes típicos de una clase."
+            - "b) Se han definido clases."
+            - "c) Se han definido propiedades y métodos."
+            - "d) Se han creado constructores."
+            - "e) Se han desarrollado programas que instancien y utilicen objetos de las clases creadas anteriormente."
+            - "f) Se han utilizado mecanismos para controlar la visibilidad de las clases y de sus miembros."
+            - "g) Se han definido y utilizado clases heredadas."
+            - "h) Se han creado y utilizado métodos estáticos."
+            - "i) Se han definido y utilizado interfaces."
+            - "j) Se han creado y utilizado conjuntos y librerías de clases."
+        - numero: 5
+          enunciado: "Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases."
+          criterios_evaluacion:
+            - "a) Se ha utilizado la consola para realizar operaciones de entrada y salida de información."
+            - "b) Se han aplicado formatos en la visualización de la información."
+            - "c) Se han reconocido las posibilidades de entrada/salida del lenguaje y las librerías asociadas."
+            - "d) Se han utilizado ficheros para almacenar y recuperar información."
+            - "e) Se han creado programas que utilicen diversos métodos de acceso al contenido de los ficheros."
+            - "f) Se han utilizado las herramientas del entorno de desarrollo para crear interfaces gráficos de usuario simples."
+            - "g) Se han programado controladores de eventos."
+            - "h) Se han escrito programas que utilicen interfaces gráficos para la entrada y salida de información."
+        - numero: 6
+          enunciado: "Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos."
+          criterios_evaluacion:
+            - "a) Se han escrito programas que utilicen arrays."
+            - "b) Se han reconocido las librerías de clases relacionadas con tipos de datos avanzados."
+            - "c) Se han utilizado listas para almacenar y procesar información."
+            - "d) Se han utilizado iteradores para recorrer los elementos de las listas."
+            - "e) Se han reconocido las características y ventajas de cada una de la colecciones de datos disponibles."
+            - "f) Se han creado clases y métodos genéricos."
+            - "g) Se han utilizado expresiones regulares en la búsqueda de patrones en cadenas de texto."
+            - "h) Se han identificado las clases relacionadas con el tratamiento de documentos XML."
+            - "i) Se han realizado programas que realicen manipulaciones sobre documentos XML."
+        - numero: 7
+          enunciado: "Desarrolla programas aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación."
+          criterios_evaluacion:
+            - "a) Se han identificado los conceptos de herencia, superclase y subclase."
+            - "b) Se han utilizado modificadores para bloquear y forzar la herencia de clases y métodos."
+            - "c) Se ha reconocido la incidencia de los constructores en la herencia."
+            - "d) Se han creado clases heredadas que sobrescriban la implementación de métodos de la superclase."
+            - "e) Se han diseñado y aplicado jerarquías de clases."
+            - "f) Se han probado y depurado las jerarquías de clases."
+            - "g) Se han realizado programas que implementen y utilicen jerarquías de clases."
+            - "h) Se ha comentado y documentado el código."
+        - numero: 8
+          enunciado: "Utiliza bases de datos orientadas a objetos analizando sus características y aplicando técnicas para gestionar la persistencia de los objetos."
+          criterios_evaluacion:
+            - "a) Se han identificado las características de las bases de datos orientadas a objetos."
+            - "b) Se ha analizado su aplicación en el desarrollo de aplicaciones mediante lenguajes orientados a objetos."
+            - "c) Se han instalado sistemas gestores de bases de datos orientados a objetos."
+            - "d) Se han clasificado y analizado los distintos métodos soportados por los sistemas gestores para la gestión de la información almacenada."
+            - "e) Se han creado bases de datos y las estructuras necesarias para el almacenamiento de objetos."
+            - "f) Se han programado aplicaciones que almacenen objetos en las bases de datos creadas."
+            - "g) Se han realizado programas para recuperar, actualizar y eliminar objetos de las bases de datos."
+            - "h) Se han realizado programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados."
+        - numero: 9
+          enunciado: "Gestiona información almacenada en bases de datos relacionales manteniendo la integridad y consistencia de los datos."
+          criterios_evaluacion:
+            - "a) Se han identificado las características y métodos de acceso a sistemas gestores de bases de datos relacionales."
+            - "b) Se han programado conexiones con bases de datos."
+            - "c) Se ha escrito código para almacenar información en bases de datos."
+            - "d) Se han creado programas para recuperar y mostrar información almacenada en bases de datos."
+            - "e) Se han efectuado borrados y modificaciones sobre la información almacenada."
+            - "f) Se han creado aplicaciones que ejecuten consultas sobre bases de datos."
+            - "g) Se han creado aplicaciones para posibilitar la gestión de información presente en bases de datos relacionales."
+    - codigo: "0373"
+      nombre: "Lenguajes de Marcas y Sistemas de Gestión de Información"
+      horas_totales: 70
+      creditos_ects: 7
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce las características de los lenguajes de marcas analizando e interpretando fragmentos de código."
+          criterios_evaluacion:
+            - "a) Se han identificado las características generales de los lenguajes de marcas."
+            - "b) Se han reconocido las ventajas que proporcionan en el tratamiento de la información."
+            - "c) Se han clasificado los lenguajes de marcas e identificado los más relevantes."
+            - "d) Se han diferenciado sus ámbitos de aplicación."
+            - "e) Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general."
+            - "f) Se han analizado las características propias del lenguaje XML."
+            - "g) Se han identificado la estructura de un documento XML y sus reglas sintácticas."
+            - "h) Se han contrastado la necesidad de crear documentos XML bien formados y la influencia en su procesamiento."
+            - "i) Se han identificado las ventajas que aportan los espacios de nombres."
+        - numero: 2
+          enunciado: "Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la Web."
+          criterios_evaluacion:
+            - "a) Se han identificado y clasificado los lenguajes de marcas relacionados con la web y sus diferentes versiones."
+            - "b) Se ha analizado la estructura de un documento HTML y se han identificado las secciones que lo componen."
+            - "c) Se han reconocido la funcionalidad de las principales etiquetas y los atributos del lenguaje HTML."
+            - "d) Se han establecido las semejanzas y diferencias entre los lenguajes HTML y XHTML."
+            - "e) Se ha reconocido la utilidad de XHTML en los sistemas de gestión de información."
+            - "f) Se han utilizado herramientas en la creación de documentos web."
+            - "g) Se han identificado las ventajas que aporta la utilización de hojas de estilo."
+            - "h) Se han aplicado hojas de estilo."
+        - numero: 3
+          enunciado: "Genera canales de contenidos analizando y utilizando tecnologías de sindicación."
+          criterios_evaluacion:
+            - "a) Se han identificado las ventajas que aporta la sindicación de contenidos en la gestión y transmisión de la información."
+            - "b) Se han definido sus ámbitos de aplicación."
+            - "c) Se han analizado las tecnologías en que se basa la sindicación de contenidos."
+            - "d) Se han identificado la estructura y la sintaxis de un canal de contenidos."
+            - "e) Se han creado y validado canales de contenidos."
+            - "f) Se ha comprobado la funcionalidad y el acceso a los canales."
+            - "g) Se han utilizado herramientas específicas como agregadores y directorios de canales."
+        - numero: 4
+          enunciado: "Establece mecanismos de validación para documentos XML utilizando métodos para definir su sintaxis y estructura."
+          criterios_evaluacion:
+            - "a) Se ha establecido la necesidad de describir la información transmitida en los documentos XML y sus reglas."
+            - "b) Se han identificado las tecnologías relacionadas con la definición de documentos XML."
+            - "c) Se ha analizado la estructura y sintaxis específica utilizada en la descripción."
+            - "d) Se han creado descripciones de documentos XML."
+            - "e) Se han utilizado descripciones en la elaboración y validación de documentos XML."
+            - "f) Se han asociado las descripciones con los documentos."
+            - "g) Se han utilizado herramientas específicas."
+            - "h) Se han documentado las descripciones."
+        - numero: 5
+          enunciado: "Realiza conversiones sobre documentos XML utilizando técnicas y lenguajes de transformación."
+          criterios_evaluacion:
+            - "a) Se ha identificado la necesidad de la conversión de documentos XML."
+            - "b) Se han establecido ámbitos de aplicación."
+            - "c) Se han analizado las tecnologías implicadas y su modo de funcionamiento."
+            - "d) Se ha descrito la sintaxis específica utilizada en la conversión y adaptación de documentos XML."
+            - "e) Se han creado especificaciones de conversión."
+            - "f) Se han identificado y caracterizado herramientas específicas relacionadas con la conversión de documentos XML."
+            - "g) Se han realizado conversiones con distintos formatos de salida."
+            - "h) Se han documentado y depurado las especificaciones de conversión."
+        - numero: 6
+          enunciado: "Gestiona la información en formato XML analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta."
+          criterios_evaluacion:
+            - "a) Se han identificado los principales métodos de almacenamiento de la información usada en documentos XML."
+            - "b) Se han identificado los inconvenientes de almacenar información en formato XML."
+            - "c) Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características."
+            - "d) Se han utilizado sistemas gestores de bases de datos relacionales en el almacenamiento de información en formato XML."
+            - "e) Se han utilizado técnicas específicas para crear documentos XML a partir de información almacenada en bases de datos relacionales."
+            - "f) Se han identificado las características de los sistemas gestores de bases de datos nativas XML."
+            - "g) Se han instalado y analizado sistemas gestores de bases de datos nativas XML."
+            - "h) Se han utilizado técnicas para gestionar la información almacenada en bases de datos nativas XML."
+            - "i) Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos XML."
+        - numero: 7
+          enunciado: "Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información."
+          criterios_evaluacion:
+            - "a) Se han reconocido las ventajas de los sistemas de gestión y planificación de recursos empresariales."
+            - "b) Se han evaluado las características de las principales aplicaciones de gestión empresarial."
+            - "c) Se han instalado aplicaciones de gestión empresarial."
+            - "d) Se han configurado y adaptado las aplicaciones."
+            - "e) Se ha establecido y verificado el acceso seguro a la información."
+            - "f) Se han generado informes."
+            - "g) Se han realizado tareas de integración con aplicaciones ofimáticas."
+            - "h) Se han realizado procedimientos de extracción de información para su tratamiento e incorporación a diversos sistemas."
+            - "i) Se han realizado tareas de asistencia y resolución de incidencias."
+            - "j) Se han elaborado documentos relativos a la explotación de la aplicación."
+    - codigo: "0487"
+      nombre: "Entornos de Desarrollo"
+      horas_totales: 50
+      creditos_ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en que actúan."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros."
+            - "b) Se han identificado las fases de desarrollo de una aplicación informática."
+            - "c) Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable."
+            - "d) Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales."
+            - "e) Se han clasificado los lenguajes de programación."
+            - "f) Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en programación."
+        - numero: 2
+          enunciado: "Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables."
+          criterios_evaluacion:
+            - "a) Se han instalado entornos de desarrollo, propietarios y libres."
+            - "b) Se han añadido y eliminado módulos en el entorno de desarrollo."
+            - "c) Se ha personalizado y automatizado el entorno de desarrollo."
+            - "d) Se ha configurado el sistema de actualización del entorno de desarrollo."
+            - "e) Se han generado ejecutables a partir de código fuente de diferentes lenguajes en un mismo entorno de desarrollo."
+            - "f) Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo."
+            - "g) Se han identificado las características comunes y específicas de diversos entornos de desarrollo."
+        - numero: 3
+          enunciado: "Verifica el funcionamiento de programas diseñando y realizando pruebas."
+          criterios_evaluacion:
+            - "a) Se han identificado los diferentes tipos de pruebas."
+            - "b) Se han definido casos de prueba."
+            - "c) Se han identificado las herramientas de depuración y prueba de aplicaciones ofrecidas por el entorno de desarrollo."
+            - "d) Se han utilizado herramientas de depuración para definir puntos de ruptura y seguimiento."
+            - "e) Se han utilizado las herramientas de depuración para examinar y modificar el comportamiento de un programa en tiempo de ejecución."
+            - "f) Se han efectuado pruebas unitarias de clases y funciones."
+            - "g) Se han implementado pruebas automáticas."
+            - "h) Se han documentado las incidencias detectadas."
+        - numero: 4
+          enunciado: "Optimiza código empleando las herramientas disponibles en el entorno de desarrollo."
+          criterios_evaluacion:
+            - "a) Se han identificado los patrones de refactorización más usuales."
+            - "b) Se han elaborado las pruebas asociadas a la refactorización."
+            - "c) Se ha revisado el código fuente usando un analizador de código."
+            - "d) Se han identificado las posibilidades de configuración de un analizador de código."
+            - "e) Se han aplicado patrones de refactorización con las herramientas que proporciona el entorno de desarrollo."
+            - "f) Se ha realizado el control de versiones integrado en el entorno de desarrollo."
+            - "g) Se han utilizado herramientas del entorno de desarrollo para documentar las clases."
+        - numero: 5
+          enunciado: "Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno."
+          criterios_evaluacion:
+            - "a) Se han identificado los conceptos básicos de la programación orientada a objetos."
+            - "b) Se ha instalado el módulo del entorno integrado de desarrollo que permite la utilización de diagramas de clases."
+            - "c) Se han identificado las herramientas para la elaboración de diagramas de clases."
+            - "d) Se ha interpretado el significado de diagramas de clases."
+            - "e) Se han trazado diagramas de clases a partir de las especificaciones de las mismas."
+            - "f) Se ha generado código a partir de un diagrama de clases."
+            - "g) Se ha generado un diagrama de clases mediante ingeniería inversa."
+        - numero: 6
+          enunciado: "Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno."
+          criterios_evaluacion:
+            - "a) Se han identificado los distintos tipos de diagramas de comportamiento."
+            - "b) Se ha reconocido el significado de los diagramas de casos de uso."
+            - "c) Se han interpretado diagramas de interacción."
+            - "d) Se han elaborado diagramas de interacción sencillos."
+            - "e) Se ha interpretado el significado de diagramas de actividades."
+            - "f) Se han elaborado diagramas de actividades sencillos."
+            - "g) Se han interpretado diagramas de estados."
+            - "h) Se han planteado diagramas de estados sencillos."
+    - codigo: "0612"
+      nombre: "Desarrollo Web en Entorno Cliente"
+      horas_totales: 80
+      creditos_ects: 9
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona las arquitecturas y tecnologías de programación sobre clientes Web, identificando y analizando las capacidades y características de cada una."
+          criterios_evaluacion:
+            - "a) Se han caracterizado y diferenciado los modelos de ejecución de código en el servidor y en el cliente Web."
+            - "b) Se han identificado las capacidades y mecanismos de ejecución de código de los navegadores Web."
+            - "c) Se han identificado y caracterizado los principales lenguajes relacionados con la programación de clientes Web."
+            - "d) Se han reconocido las particularidades de la programación de guiones y sus ventajas y desventajas sobre la programación tradicional."
+            - "e) Se han verificado los mecanismos de integración de los lenguajes de marcas con los lenguajes de programación de clientes Web."
+            - "f) Se han reconocido y evaluado las herramientas de programación sobre clientes Web."
+        - numero: 2
+          enunciado: "Escribe sentencias simples aplicando la sintaxis del lenguaje y verificando su ejecución sobre navegadores Web."
+          criterios_evaluacion:
+            - "a) Se ha seleccionado un lenguaje de programación de clientes Web en función de sus posibilidades."
+            - "b) Se han utilizado los distintos tipos de variables y operadores disponibles en el lenguaje."
+            - "c) Se han identificado los ámbitos de utilización de las variables."
+            - "d) Se han reconocido y comprobado las peculiaridades del lenguaje respecto a las conversiones entre distintos tipos de datos."
+            - "e) Se han utilizado mecanismos de decisión en la creación de bloques de sentencias."
+            - "f) Se han utilizado bucles y se ha verificado su funcionamiento."
+            - "g) Se han añadido comentarios al código."
+            - "h) Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código."
+        - numero: 3
+          enunciado: "Escribe código JavaScript identificando y utilizando las funcionalidades aportadas por los objetos predefinidos del lenguaje."
+          criterios_evaluacion:
+            - "a) Se han identificado los objetos predefinidos del lenguaje."
+            - "b) Se han analizado los objetos referentes a las ventanas del navegador y los documentos web que contienen."
+            - "c) Se han escrito sentencias que utilicen los objetos predefinidos del lenguaje para cambiar el aspecto del navegador y el documento que contiene."
+            - "d) Se han generado textos y etiquetas como resultado de la ejecución de código en el navegador."
+            - "e) Se han escrito sentencias que utilicen los objetos predefinidos del lenguaje para interactuar con el usuario."
+            - "f) Se han utilizado las características propias del lenguaje en documentos compuestos por varias ventanas y marcos."
+            - "g) Se han utilizado \"cookies\" para almacenar información y recuperar su contenido."
+            - "h) Se ha depurado y documentado el código."
+        - numero: 4
+          enunciado: "Programa código para clientes Web analizando y utilizando estructuras definidas por el usuario."
+          criterios_evaluacion:
+            - "a) Se han clasificado y utilizado las funciones predefinidas del lenguaje."
+            - "b) Se han creado y utilizado funciones definidas por el usuario."
+            - "c) Se han reconocido las características del lenguaje relativas a la creación y uso de arrays."
+            - "d) Se han creado y utilizado arrays."
+            - "e) Se han reconocido las características de orientación a objetos del lenguaje."
+            - "f) Se ha creado código para definir la estructura de objetos."
+            - "g) Se han creado métodos y propiedades."
+            - "h) Se ha creado código que haga uso de objetos definidos por el usuario."
+            - "i) Se ha depurado y documentado el código."
+        - numero: 5
+          enunciado: "Desarrolla aplicaciones Web interactivas integrando mecanismos de manejo de eventos."
+          criterios_evaluacion:
+            - "a) Se han reconocido las posibilidades del lenguaje de marcas relativas a la captura de los eventos producidos."
+            - "b) Se han identificado las características del lenguaje de programación relativas a la gestión de los eventos."
+            - "c) Se han diferenciado los tipos de eventos que se pueden manejar."
+            - "d) Se ha creado un código que capture y utilice eventos."
+            - "e) Se han reconocido las capacidades del lenguaje relativas a la gestión de formularios Web."
+            - "f) Se han validado formularios web utilizando eventos."
+            - "g) Se han utilizado expresiones regulares para facilitar los procedimientos de validación."
+            - "h) Se ha probado y documentado el código."
+        - numero: 6
+          enunciado: "Desarrolla aplicaciones Web analizando y aplicando las características del modelo de objetos del documento."
+          criterios_evaluacion:
+            - "a) Se ha reconocido el modelo de objetos del documento de una página Web."
+            - "b) Se han identificado los objetos del modelo, sus propiedades y métodos."
+            - "c) Se ha creado y verificado un código que acceda a la estructura del documento."
+            - "d) Se han creado nuevos elementos de la estructura y modificado elementos ya existentes."
+            - "e) Se han asociado acciones a los eventos del modelo."
+            - "f) Se han identificado las diferencias que presenta el modelo en diferentes navegadores."
+            - "g) Se han programado aplicaciones Web de forma que funcionen en navegadores con diferentes implementaciones del modelo."
+            - "h) Se han independizado las tres facetas (contenido, aspecto y comportamiento), en aplicaciones Web."
+        - numero: 7
+          enunciado: "Desarrolla aplicaciones Web dinámicas, reconociendo y aplicando mecanismos de comunicación asíncrona entre cliente y servidor."
+          criterios_evaluacion:
+            - "a) Se han evaluado las ventajas e inconvenientes de utilizar mecanismos de comunicación asíncrona entre cliente y servidor Web."
+            - "b) Se han analizado los mecanismos disponibles para el establecimiento de la comunicación asíncrona."
+            - "c) Se han utilizado los objetos relacionados."
+            - "d) Se han identificado sus propiedades y sus métodos."
+            - "e) Se ha utilizado comunicación asíncrona en la actualización dinámica del documento Web."
+            - "f) Se han utilizado distintos formatos en el envío y recepción de información."
+            - "g) Se han programado aplicaciones Web asíncronas de forma que funcionen en diferentes navegadores."
+            - "h) Se han clasificado y analizado librerías que faciliten la incorporación de las tecnologías de actualización dinámica a la programación de páginas Web."
+            - "i) Se han creado y depurado programas que utilicen estas librerías."
+    - codigo: "0613"
+      nombre: "Desarrollo Web en Entorno Servidor"
+      horas_totales: 120
+      creditos_ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona las arquitecturas y tecnologías de programación Web en entorno servidor, analizando sus capacidades y características propias."
+          criterios_evaluacion:
+            - "a) Se han caracterizado y diferenciado los modelos de ejecución de código en el servidor y en el cliente Web."
+            - "b) Se han reconocido las ventajas que proporciona la generación dinámica de páginas Web y sus diferencias con la inclusión de sentencias de guiones en el interior de las páginas Web."
+            - "c) Se han identificado los mecanismos de ejecución de código en los servidores Web."
+            - "d) Se han reconocido las funcionalidades que aportan los servidores de aplicaciones y su integración con los servidores Web."
+            - "e) Se han identificado y caracterizado los principales lenguajes y tecnologías relacionados con la programación Web en entorno servidor."
+            - "f) Se han verificado los mecanismos de integración de los lenguajes de marcas con los lenguajes de programación en entorno servidor."
+            - "g) Se han reconocido y evaluado las herramientas de programación en entorno servidor."
+        - numero: 2
+          enunciado: "Escribe sentencias ejecutables por un servidor Web reconociendo y aplicando procedimientos de integración del código en lenguajes de marcas."
+          criterios_evaluacion:
+            - "a) Se han reconocido los mecanismos de generación de páginas Web a partir de lenguajes de marcas con código embebido."
+            - "b) Se han identificado las principales tecnologías asociadas."
+            - "c) Se han utilizado etiquetas para la inclusión de código en el lenguaje de marcas."
+            - "d) Se ha reconocido la sintaxis del lenguaje de programación que se ha de utilizar."
+            - "e) Se han escrito sentencias simples y se han comprobado sus efectos en el documento resultante."
+            - "f) Se han utilizado directivas para modificar el comportamiento predeterminado."
+            - "g) Se han utilizado los distintos tipos de variables y operadores disponibles en el lenguaje."
+            - "h) Se han identificado los ámbitos de utilización de las variables."
+        - numero: 3
+          enunciado: "Escribe bloques de sentencias embebidos en lenguajes de marcas, seleccionando y utilizando las estructuras de programación del lenguaje."
+          criterios_evaluacion:
+            - "a) Se han utilizado mecanismos de decisión en la creación de bloques de sentencias."
+            - "b) Se han utilizado bucles y se ha verificado su funcionamiento."
+            - "c) Se han utilizado \"arrays\" para almacenar y recuperar conjuntos de datos."
+            - "d) Se han creado y utilizado funciones."
+            - "e) Se han utilizado formularios web para interactuar con el usuario del navegador web."
+            - "f) Se han empleado métodos para recuperar la información introducida en el formulario."
+            - "g) Se han añadido comentarios al código."
+        - numero: 4
+          enunciado: "Desarrolla aplicaciones Web embebidas en lenguajes de marcas analizando e incorporando funcionalidades según especificaciones."
+          criterios_evaluacion:
+            - "a) Se han identificado los mecanismos disponibles para el mantenimiento de la información que concierne a un cliente web concreto y se han señalado sus ventajas."
+            - "b) Se han utilizado sesiones para mantener el estado de las aplicaciones Web."
+            - "c) Se han utilizado \"cookies\" para almacenar información en el cliente Web y para recuperar su contenido."
+            - "d) Se han identificado y caracterizado los mecanismos disponibles para la autentificación de usuarios."
+            - "e) Se han escrito aplicaciones que integren mecanismos de autentificación de usuarios."
+            - "f) Se han realizado adaptaciones a aplicaciones Web existentes como gestores de contenidos u otras."
+            - "g) Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código."
+        - numero: 5
+          enunciado: "Desarrolla aplicaciones Web identificando y aplicando mecanismos para separar el código de presentación de la lógica de negocio."
+          criterios_evaluacion:
+            - "a) Se han identificado las ventajas de separar la lógica de negocio de los aspectos de presentación de la aplicación."
+            - "b) Se han analizado tecnologías y mecanismos que permiten realizar esta separación y sus características principales."
+            - "c) Se han utilizado objetos y controles en el servidor para generar el aspecto visual de la aplicación web en el cliente."
+            - "d) Se han utilizado formularios generados de forma dinámica para responder a los eventos de la aplicación Web."
+            - "e) Se han identificado y aplicado los parámetros relativos a la configuración de la aplicación Web."
+            - "f) Se han escrito aplicaciones Web con mantenimiento de estado y separación de la lógica de negocio."
+            - "g) Se han aplicado los principios de la programación orientada a objetos."
+            - "h) Se ha probado y documentado el código."
+        - numero: 6
+          enunciado: "Desarrolla aplicaciones de acceso a almacenes de datos, analizando el contexto de aplicación e identificando las funcionalidades necesarias."
+          criterios_evaluacion:
+            - "a) Se han analizado las tecnologías que permiten el acceso mediante programación a la información disponible en almacenes de datos."
+            - "b) Se han creado aplicaciones que establezcan conexiones con bases de datos."
+            - "c) Se ha recuperado información almacenada en bases de datos."
+            - "d) Se ha publicado en aplicaciones web la información recuperada."
+            - "e) Se han utilizado conjuntos de datos para almacenar la información."
+            - "f) Se han creado aplicaciones web que permitan la actualización y la eliminación de información disponible en una base de datos."
+            - "g) Se han utilizado transacciones para mantener la consistencia de la información."
+            - "h) Se han probado y documentado las aplicaciones."
+        - numero: 7
+          enunciado: "Desarrolla servicios Web reutilizables y accesibles mediante protocolos estándar, verificando su funcionamiento."
+          criterios_evaluacion:
+            - "a) Se han reconocido las características propias y el ámbito de aplicación de los servicios Web."
+            - "b) Se han reconocido las ventajas de utilizar servicios Web para proporcionar acceso a funcionalidades incorporadas a la lógica de negocio de una aplicación."
+            - "c) Se han identificado las tecnologías y los protocolos implicados en la publicación y utilización de servicios Web."
+            - "d) Se ha programado un servicio Web."
+            - "e) Se ha creado el documento de descripción del servicio Web."
+            - "f) Se ha verificado el funcionamiento del servicio Web."
+            - "g) Se ha consumido el servicio Web."
+        - numero: 8
+          enunciado: "Genera páginas Web dinámicas analizando y utilizando tecnologías del servidor Web que añadan código al lenguaje de marcas."
+          criterios_evaluacion:
+            - "a) Se han identificado las diferencias entre la ejecución de código en el servidor y en el cliente Web."
+            - "b) Se han reconocido las ventajas de unir ambas tecnologías en el proceso de desarrollo de programas."
+            - "c) Se han identificado las librerías y las tecnologías relacionadas con la generación por parte del servidor de páginas Web con guiones embebidos."
+            - "d) Se han utilizado estas tecnologías para generar páginas Web que incluyan interacción con el usuario en forma de advertencias y peticiones de confirmación."
+            - "e) Se han utilizado estas tecnologías, para generar páginas Web que incluyan verificación de formularios."
+            - "f) Se han utilizado estas tecnologías para generar páginas web que incluyan modificación dinámica de su contenido y su estructura."
+            - "g) Se han aplicado estas tecnologías en la programación de aplicaciones Web."
+        - numero: 9
+          enunciado: "Desarrolla aplicaciones Web híbridas seleccionando y utilizando librerías de código y repositorios heterogéneos de información."
+          criterios_evaluacion:
+            - "a) Se han reconocido las ventajas que proporciona la reutilización de código y el aprovechamiento de información ya existente."
+            - "b) Se han identificado librerías de código y tecnologías aplicables en la creación de aplicaciones web híbridas."
+            - "c) Se ha creado una aplicación web que recupere y procese repositorios de información ya existentes."
+            - "d) Se han creado repositorios específicos a partir de información existente en Internet y en almacenes de información."
+            - "e) Se han utilizado librerías de código para incorporar funcionalidades específicas a una aplicación web."
+            - "f) Se han programado servicios y aplicaciones web utilizando como base información y código generados por terceros."
+            - "g) Se han probado, depurado y documentado las aplicaciones generadas."
+    - codigo: "0614"
+      nombre: "Despliegue de Aplicaciones Web"
+      horas_totales: 50
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Implanta arquitecturas Web analizando y aplicando criterios de funcionalidad."
+          criterios_evaluacion:
+            - "a) Se han analizado aspectos generales de arquitecturas Web, sus características, ventajas e inconvenientes."
+            - "b) Se han descrito los fundamentos y protocolos en los que se basa el funcionamiento de un servidor Web."
+            - "c) Se ha realizado la instalación y configuración básica de servidores Web."
+            - "d) Se han clasificado y descrito los principales servidores de aplicaciones."
+            - "e) Se ha realizado la instalación y configuración básica de servidores de aplicaciones."
+            - "f) Se han realizado pruebas de funcionamiento de los servidores web y de aplicaciones."
+            - "g) Se ha analizado la estructura y recursos que componen una aplicación Web."
+            - "h) Se han descrito los requerimientos del proceso de implantación de una aplicación Web."
+            - "i) Se han documentado los procesos de instalación y configuración realizados sobre los servidores Web y sobre las aplicaciones."
+        - numero: 2
+          enunciado: "Gestiona servidores Web, evaluando y aplicando criterios de configuración para el acceso seguro a los servicios."
+          criterios_evaluacion:
+            - "a) Se han reconocido los parámetros de administración más importantes del servidor Web."
+            - "b) Se ha ampliado la funcionalidad del servidor mediante la activación y configuración de módulos."
+            - "c) Se han creado y configurado sitios virtuales."
+            - "d) Se han configurado los mecanismos de autenticación y control de acceso del servidor."
+            - "e) Se han obtenido e instalado certificados digitales."
+            - "f) Se han establecido mecanismos para asegurar las comunicaciones entre el cliente y el servidor."
+            - "g) Se han realizado pruebas de funcionamiento y rendimiento del servidor Web."
+            - "h) Se ha elaborado documentación relativa a la configuración, administración segura y recomendaciones de uso del servidor."
+            - "i) Se han realizado los ajustes necesarios para la implantación de aplicaciones en el servidor Web."
+        - numero: 3
+          enunciado: "Implanta aplicaciones Web en servidores de aplicaciones, evaluando y aplicando criterios de configuración para su funcionamiento seguro."
+          criterios_evaluacion:
+            - "a) Se han descrito los componentes y el funcionamiento de los servicios proporcionados por el servidor de aplicaciones."
+            - "b) Se han identificado los principales archivos de configuración y de bibliotecas compartidas."
+            - "c) Se ha configurado el servidor de aplicaciones para cooperar con el servidor Web."
+            - "d) Se han configurado y activado los mecanismos de seguridad del servidor de aplicaciones."
+            - "e) Se han configurado y utilizado los componentes web del servidor de aplicaciones."
+            - "f) Se han realizado los ajustes necesarios para el despliegue de aplicaciones sobre el servidor."
+            - "g) Se han realizado pruebas de funcionamiento y rendimiento de la aplicación Web desplegada."
+            - "h) Se ha elaborado documentación relativa a la administración y recomendaciones de uso del servidor de aplicaciones."
+            - "i) Se ha elaborado documentación relativa al despliegue de aplicaciones sobre el servidor de aplicaciones."
+        - numero: 4
+          enunciado: "Administra servidores de transferencia de archivos, evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio."
+          criterios_evaluacion:
+            - "a) Se han instalado y configurado servidores de transferencia de archivos."
+            - "b) Se han creado usuarios y grupos para el acceso remoto al servidor."
+            - "c) Se ha configurado el acceso anónimo."
+            - "d) Se ha comprobado el acceso al servidor, tanto en modo activo como en modo pasivo."
+            - "e) Se han realizado pruebas con clientes en línea de comandos y clientes en modo gráfico."
+            - "f) Se ha utilizado el protocolo seguro de transferencia de archivos."
+            - "g) Se han configurado y utilizado servicios de transferencia de archivos integrados en servidores web."
+            - "h) Se ha utilizado el navegador como cliente del servicio de transferencia de archivos."
+            - "i) Se ha elaborado documentación relativa a la configuración y administración del servicio de transferencia de archivos."
+        - numero: 5
+          enunciado: "Verifica la ejecución de aplicaciones Web comprobando los parámetros de configuración de servicios de red."
+          criterios_evaluacion:
+            - "a) Se ha descrito la estructura, nomenclatura y funcionalidad de los sistemas de nombres jerárquicos."
+            - "b) Se han identificado las necesidades de configuración del servidor de nombres en función de los requerimientos de ejecución de las aplicaciones Web desplegadas."
+            - "c) Se han identificado la función, elementos y estructuras lógicas del servicio de directorio."
+            - "d) Se ha analizado la configuración y personalización del servicio de directorio."
+            - "e) Se ha analizado la capacidad del servicio de directorio como mecanismo de autenticación centralizada de los usuarios en una red."
+            - "f) Se han especificado los parámetros de configuración en el servicio de directorios adecuados para el proceso de validación de usuarios de la aplicación Web."
+            - "g) Se ha elaborado documentación relativa a las adaptaciones realizadas en los servicios de red."
+        - numero: 6
+          enunciado: "Elabora la documentación de la aplicación Web evaluando y seleccionando herramientas de generación de documentación y control de versiones."
+          criterios_evaluacion:
+            - "a) Se han identificado diferentes herramientas de generación de documentación."
+            - "b) Se han documentado los componentes software utilizando los generadores específicos de las plataformas."
+            - "c) Se han utilizado diferentes formatos para la documentación."
+            - "d) Se han utilizado herramientas colaborativas para la elaboración y mantenimiento de la documentación."
+            - "e) Se ha instalado, configurado y utilizado un sistema de control de versiones."
+            - "f) Se ha garantizado la accesibilidad y seguridad de la documentación almacenada por el sistema de control de versiones."
+            - "g) Se ha documentado la instalación, configuración y uso del sistema de control de versiones utilizado."
+    - codigo: "0615"
+      nombre: "Diseño de Interfaces Web"
+      horas_totales: 60
+      creditos_ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Planifica la creación de una interfaz Web valorando y aplicando especificaciones de diseño."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la importancia de la comunicación visual y sus principios básicos."
+            - "b) Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla."
+            - "c) Se han analizado alternativas para la presentación de la información en documentos Web."
+            - "d) Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación Web."
+            - "e) Se han utilizado y valorado distintas aplicaciones para el diseño de documentos Web."
+            - "f) Se han utilizado marcos, tablas y capas para presentar la información de manera ordenada."
+            - "g) Se han creado y utilizado plantillas de diseño."
+        - numero: 2
+          enunciado: "Crea interfaces Web homogéneos definiendo y aplicando estilos."
+          criterios_evaluacion:
+            - "a) Se han reconocido las posibilidades de modificar las etiquetas HTML."
+            - "b) Se han definido estilos de forma directa."
+            - "c) Se han definido y asociado estilos globales en hojas externas."
+            - "d) Se han definido hojas de estilos alternativas."
+            - "e) Se han redefinido estilos."
+            - "f) Se han identificado las distintas propiedades de cada elemento."
+            - "g) Se han creado clases de estilos."
+            - "h) Se han utilizado herramientas de validación de hojas de estilos."
+            - "i) Se ha utilizado y actualizado la guía de estilo."
+        - numero: 3
+          enunciado: "Prepara archivos multimedia para la Web, analizando las posibilidades de cada formato y su repercusión en el resultado."
+          criterios_evaluacion:
+            - "a) Se han reconocido las implicaciones de las licencias y los derechos de autor en el uso de material multimedia."
+            - "b) Se han identificado los formatos de imagen, audio y vídeo a utilizar."
+            - "c) Se han analizado las herramientas disponibles para generar contenido multimedia."
+            - "d) Se han empleado herramientas para el tratamiento digital de la imagen."
+            - "e) Se han utilizado herramientas para manipular audio y vídeo."
+            - "f) Se han realizado animaciones a partir de imágenes fijas."
+            - "g) Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad."
+            - "h) Se ha aplicado la guía de estilo."
+        - numero: 4
+          enunciado: "Integra contenido multimedia en documentos Web valorando su aportación y adecuándolo a los requerimientos establecidos."
+          criterios_evaluacion:
+            - "a) Se han reconocido y analizado las tecnologías relacionadas con la inclusión de contenido multimedia e interactivo."
+            - "b) Se han identificado las necesidades específicas de configuración de los navegadores Web para soportar contenido multimedia e interactivo."
+            - "c) Se han utilizado herramientas gráficas para el desarrollo de contenido multimedia interactivo."
+            - "d) Se ha analizado el código generado por las herramientas de desarrollo de contenido interactivo."
+            - "e) Se han agregado elementos multimedia a documentos Web."
+            - "f) Se ha añadido interactividad a elementos de un documento Web."
+            - "g) Se ha verificado el funcionamiento de los elementos multimedia e interactivos en distintos navegadores."
+        - numero: 5
+          enunciado: "Desarrolla interfaces Web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la necesidad de diseñar webs accesibles."
+            - "b) Se ha analizado la accesibilidad de diferentes documentos Web."
+            - "c) Se han identificado las principales pautas de accesibilidad al contenido."
+            - "d) Se han analizado los posibles errores según los puntos de verificación de prioridad."
+            - "e) Se ha alcanzado el nivel de conformidad deseado."
+            - "f) Se han verificado los niveles alcanzados mediante el uso de test externos."
+            - "g) Se ha verificado la visualización del interfaz con diferentes navegadores y tecnologías."
+        - numero: 6
+          enunciado: "Desarrolla interfaces Web amigables analizando y aplicando las pautas de usabilidad establecidas."
+          criterios_evaluacion:
+            - "a) Se ha analizado la usabilidad de diferentes documentos Web."
+            - "b) Se ha valorado la importancia del uso de estándares en la creación de documentos Web."
+            - "c) Se ha modificado el interfaz Web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido."
+            - "d) Se ha verificado la facilidad de navegación de un documento Web mediante distintos periféricos."
+            - "e) Se han analizado diferentes técnicas para verificar la usabilidad de un documento Web."
+            - "f) Se ha verificado la usabilidad del interfaz Web creado en diferentes navegadores y tecnologías."
+    - codigo: "0616"
+      nombre: "Proyecto de Desarrollo de Aplicaciones Web"
+      horas_totales: 40
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer."
+          criterios_evaluacion:
+            - "a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen."
+            - "b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento."
+            - "c) Se han identificado las necesidades más demandadas a las empresas."
+            - "d) Se han valorado las oportunidades de negocio previsibles en el sector."
+            - "e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas."
+            - "f) Se han determinado las características específicas requeridas al proyecto."
+            - "g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación."
+            - "h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o de servicio que se proponen."
+            - "i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto."
+        - numero: 2
+          enunciado: "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen."
+          criterios_evaluacion:
+            - "a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto."
+            - "b) Se ha realizado el estudio de viabilidad técnica del mismo."
+            - "c) Se han identificado las fases o partes que componen el proyecto y su contenido."
+            - "d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance."
+            - "e) Se han previsto los recursos materiales y personales necesarios para realizarlo."
+            - "f) Se ha realizado el presupuesto económico correspondiente."
+            - "g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo."
+            - "h) Se ha definido y elaborado la documentación necesaria para su diseño."
+            - "i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto."
+        - numero: 3
+          enunciado: "Planifica la ejecución del proyecto determinando el plan de intervención y la documentación asociada."
+          criterios_evaluacion:
+            - "a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución."
+            - "b) Se han determinado los recursos y la logística necesarios para cada actividad."
+            - "c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades."
+            - "d) Se han determinado los procedimientos de actuación o ejecución de las actividades."
+            - "e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención de riesgos y los medios y equipos necesarios."
+            - "f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución."
+            - "g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación."
+            - "h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución."
+        - numero: 4
+          enunciado: "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados."
+          criterios_evaluacion:
+            - "a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones."
+            - "b) Se han definido los indicadores de calidad para realizar la evaluación."
+            - "c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro."
+            - "d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos."
+            - "e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto."
+            - "f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado los documentos específicos."
+            - "g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este existe."
+    - codigo: "0617"
+      nombre: "Formación y Orientación Laboral"
+      horas_totales: 90
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona oportunidades de empleo identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida."
+          criterios_evaluacion:
+            - "a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación a las exigencias del proceso productivo."
+            - "b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil del título."
+            - "d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo."
+            - "f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título."
+            - "g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de decisiones."
+        - numero: 2
+          enunciado: "Aplica las estrategias del trabajo en equipo valorando su eficacia y eficiencia para la consecución de los objetivos de la organización."
+          criterios_evaluacion:
+            - "a) Se han valorado las ventajas de trabajo en equipo en situaciones de trabajo relacionadas con el perfil del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo."
+            - "c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces."
+            - "d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros de un equipo."
+            - "e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico de las organizaciones."
+            - "f) Se han identificado los tipos de conflictos y sus fuentes."
+            - "g) Se han determinado procedimientos para la resolución del conflicto."
+        - numero: 3
+          enunciado: "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales reconociéndolas en los diferentes contratos de trabajo."
+          criterios_evaluacion:
+            - "a) Se han identificado los conceptos básicos del derecho del trabajo."
+            - "b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores."
+            - "c) Se han determinado los derechos y obligaciones derivados de la relación laboral."
+            - "d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la contratación para determinados colectivos."
+            - "e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar."
+            - "f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral."
+            - "g) Se ha analizado el recibo de salarios identificando los principales elementos que lo integran."
+            - "h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos."
+            - "i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector relacionado con el Título de Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo."
+        - numero: 4
+          enunciado: "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas identificando las distintas clases de prestaciones."
+          criterios_evaluacion:
+            - "a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos."
+            - "b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social."
+            - "c) Se han identificado los regímenes existentes en el sistema de Seguridad Social."
+            - "d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social."
+            - "e) Se han identificado en un supuesto sencillo las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y empresario."
+            - "f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos."
+            - "g) Se han determinado las posibles situaciones legales de desempleo."
+            - "h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico."
+        - numero: 5
+          enunciado: "Evalúa los riesgos derivados de su actividad analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral."
+          criterios_evaluacion:
+            - "a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa."
+            - "b) Se han relacionado las condiciones laborales con la salud del trabajador."
+            - "c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos."
+            - "d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "e) Se ha determinado la evaluación de riesgos en la empresa."
+            - "f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+        - numero: 6
+          enunciado: "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados."
+          criterios_evaluacion:
+            - "a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales."
+            - "b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales."
+            - "c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos."
+            - "d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales."
+            - "e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación de actuaciones que se deben realizar en caso de emergencia."
+            - "f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector."
+        - numero: 7
+          enunciado: "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del Técnico Superior en Desarrollo de Aplicaciones Web."
+          criterios_evaluacion:
+            - "a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables."
+            - "b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad."
+            - "c) Se han analizado los protocolos de actuación en caso de emergencia."
+            - "d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa gravedad."
+            - "e) Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín."
+            - "f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención."
+    - codigo: "0618"
+      nombre: "Empresa e Iniciativa Emprendedora"
+      horas_totales: 60
+      creditos_ects: 4
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Desarrolla su espíritu emprendedor identificando las capacidades asociadas al mismo y definiendo ideas emprendedoras caracterizadas por la innovación y la creatividad."
+          criterios_evaluacion:
+            - "a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar de los individuos."
+            - "b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar social."
+            - "c) Se ha valorado la importancia de la iniciativa individual, la creatividad, la formación y la colaboración como requisitos indispensables para tener éxito en la actividad emprendedora."
+            - "d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pequeña y mediana empresa relacionada con la informática."
+            - "e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector informático."
+            - "f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora."
+            - "g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad empresarial."
+            - "h) Se ha descrito la estrategia empresarial relacionándola con los objetivos de la empresa."
+            - "i) Se ha definido una determinada idea de negocio del ámbito de la informática que servirá de punto de partida para la elaboración de un plan de empresa."
+        - numero: 2
+          enunciado: "Decide la oportunidad de creación de una pequeña empresa para el desarrollo de la actividad emprendedora, analizando el mercado y valorando formas de inserción."
+          criterios_evaluacion:
+            - "a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado a la empresa."
+            - "b) Se han identificado los principales componentes del entorno general que rodea a la empresa, en especial el entorno económico, social, demográfico y cultural."
+            - "c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes, con los proveedores y con la competencia, como principales integrantes del entorno específico."
+            - "d) Se han identificado los elementos del entorno de una pyme informática."
+            - "e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos empresariales."
+            - "f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de la estrategia empresarial."
+            - "g) Se ha elaborado el balance social de una empresa relacionada con la informática, y se han descrito los principales costes sociales en que incurren estas empresas, así como los beneficios sociales que producen."
+            - "h) Se han identificado, en empresas relacionadas con la informática, prácticas que incorporan valores éticos y sociales."
+            - "i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme relacionada con la informática."
+        - numero: 3
+          enunciado: "Realiza las actividades para la constitución y puesta en marcha de una empresa determinando la forma jurídica e identificando las obligaciones legales asociadas."
+          criterios_evaluacion:
+            - "a) Se han analizado las diferentes formas jurídicas de la empresa."
+            - "b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa, en función de la forma jurídica elegida."
+            - "c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa."
+            - "d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una empresa."
+            - "e) Se ha realizado una búsqueda exhaustiva de las diferentes ayudas para la creación de empresas relacionadas con la informática en la localidad de referencia."
+            - "f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica, estudio de viabilidad económico-financiera, trámites administrativos, ayudas y subvenciones."
+            - "g) Se han identificado las vías de asesoramiento y gestión administrativa externas existentes a la hora de poner en marcha una pyme."
+        - numero: 4
+          enunciado: "Realiza actividades de gestión administrativa y financiera básica de una pyme, identificando las principales obligaciones contables y fiscales."
+          criterios_evaluacion:
+            - "a) Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información contable."
+            - "b) Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la solvencia, liquidez y rentabilidad de la empresa."
+            - "c) Se han definido las obligaciones fiscales de una empresa relacionada con la informática."
+            - "d) Se han diferenciado los tipos de impuestos en el calendario fiscal."
+            - "e) Se ha cumplimentado la documentación básica de carácter comercial y contable (facturas, albaranes, notas de pedido, letras de cambio, cheques, etc.) para una pyme de informática, y se han descrito los circuitos que dicha documentación recorre en la empresa."
+            - "f) Se han identificado los principales instrumentos de financiación bancaria."
+            - "g) Se ha incluido la anterior documentación en el plan de empresa."
+    - codigo: "0619"
+      nombre: "Formación en Centros de Trabajo"
+      horas_totales: 380
+      creditos_ects: 22
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrece."
+          criterios_evaluacion:
+            - "a) Se han identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+            - "b) Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector."
+            - "c) Se han identificado los elementos que constituyen la red logística de la empresa: proveedores, clientes, sistemas de producción y almacenaje, entre otros."
+            - "d) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio."
+            - "e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad."
+            - "f) Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad."
+        - numero: 2
+          enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos por la empresa."
+          criterios_evaluacion:
+            - "a) Se han reconocido y justificado la disponibilidad personal y temporal necesarias en el puesto de trabajo, las actitudes personales (puntualidad y empatía, entre otras) y profesionales (orden, limpieza, responsabilidad, entre otras), los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional, los requerimientos actitudinales referidos a la calidad en la actividad profesional, las actitudes relacionales con el propio equipo de trabajo y con las jerarquías establecidas en la empresa, las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral, y las necesidades formativas para la inserción y reinserción laboral en el ámbito científico y técnico del buen hacer del profesional."
+            - "b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales de aplicación en la actividad profesional."
+            - "c) Se han aplicado los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa."
+            - "d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas."
+            - "e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo de la actividad."
+            - "f) Se ha responsabilizado del trabajo asignado interpretando y cumpliendo las instrucciones recibidas."
+            - "g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del equipo."
+            - "h) Se ha coordinado con el resto del equipo comunicando las incidencias relevantes que se presenten."
+            - "i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas."
+            - "j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo."
+        - numero: 3
+          enunciado: "Organiza los trabajos que se han de desarrollar, identificando las tareas asignadas a partir de la planificación de proyectos e interpretando documentación específica."
+          criterios_evaluacion:
+            - "a) Se ha interpretado la normativa o bibliografía adecuada al tipo de tarea a desarrollar."
+            - "b) Se ha reconocido en qué fases del proceso o proyecto se encuadran las tareas que se van a realizar."
+            - "c) Se ha planificado el trabajo para cada tarea, secuenciando y priorizando sus fases."
+            - "d) Se han identificado los equipos y servicios auxiliares necesarios para el desarrollo de la tarea encomendada."
+            - "e) Se ha organizado el aprovisionamiento y almacenaje de los recursos materiales."
+            - "f) Se ha valorado el orden y el método en la realización de las tareas."
+            - "g) Se han identificado las normativas que sea preciso observar según cada tarea."
+        - numero: 4
+          enunciado: "Gestiona y utiliza sistemas informáticos y entornos de desarrollo, evaluando sus requerimientos y características en función del propósito de uso."
+          criterios_evaluacion:
+            - "a) Se ha trabajado sobre diferentes sistemas informáticos, identificando en cada caso su hardware, sistemas operativos y aplicaciones instaladas y las restricciones o condiciones específicas de uso."
+            - "b) Se ha gestionado la información en diferentes sistemas, aplicando medidas que aseguren la integridad y disponibilidad de los datos."
+            - "c) Se ha participado en la gestión de recursos en red identificando las restricciones de seguridad existentes."
+            - "d) Se han utilizado aplicaciones informáticas para elaborar, distribuir y mantener documentación técnica y de asistencia a usuarios."
+            - "e) Se han utilizado entornos de desarrollo, para editar, depurar, probar y documentar código, además de generar ejecutables."
+            - "f) Se han gestionado entornos de desarrollo añadiendo y empleando complementos específicos en las distintas fases de proyectos de desarrollo."
+        - numero: 5
+          enunciado: "Participa en la gestión de bases de datos y servidores de aplicaciones, evaluando y planificando su configuración en función del proyecto de desarrollo Web al que dan soporte."
+          criterios_evaluacion:
+            - "a) Se ha interpretado el diseño lógico de bases de datos que aseguran la accesibilidad a los datos."
+            - "b) Se ha participado en la materialización del diseño lógico sobre algún sistema gestor de bases de datos."
+            - "c) Se han utilizado bases de datos aplicando técnicas para mantener la persistencia de la información."
+            - "d) Se han ejecutado consultas directas y procedimientos capaces de gestionar y almacenar objetos y datos de la base de datos."
+            - "e) Se han establecido conexiones con bases de datos para ejecutar consultas y recuperar los resultados en objetos de acceso a datos."
+            - "f) Se ha participado en la gestión de servidores para la publicación de aplicaciones Web."
+            - "g) Se ha comprobado la configuración de los servicios de red para garantizar la ejecución segura de las aplicaciones Web."
+            - "h) Se ha intervenido en la configuración de sistemas de gestión de bases de datos y su interconexión con el servidor de aplicaciones Web."
+            - "i) Se han elaborado manuales de servicio y mantenimiento del servidor de aplicaciones y del sistema gestor de bases de datos."
+        - numero: 6
+          enunciado: "Interviene en el desarrollo y despliegue de aplicaciones Web del lado del servidor, empleando las herramientas y lenguajes específicos y cumpliendo los requerimientos establecidos."
+          criterios_evaluacion:
+            - "a) Se han interpretado el diseño y el modelo de las aplicaciones Web que se van a desarrollar, atendiendo a las indicaciones del equipo de diseño."
+            - "b) Se han editado y probado bloques de sentencias embebidos en lenguajes de marcas que formen total o parcialmente aplicaciones Web."
+            - "c) Se han desarrollado aplicaciones con acceso a almacenes de datos aplicando medidas para mantener la seguridad e integridad de la información."
+            - "d) Se ha participado en el desarrollo de aplicaciones Web que hagan uso de servicios Web y en el desarrollo de servicios Web propios."
+            - "e) Se ha intervenido en el despliegue y mantenimiento de aplicaciones Web, realizando el pertinente control de versiones."
+            - "f) Se ha participado en la configuración de los servidores para permitir el despliegue de aplicaciones bajo protocolos seguros u otras necesidades específicas."
+            - "g) Se ha colaborado estrechamente con los encargados del diseño y desarrollo de la parte cliente de las aplicaciones Web, unificando criterios y coordinando el desarrollo en ambos lados de la aplicación."
+            - "h) Se ha participado en la definición y elaboración de la documentación y del resto de componentes empleados en los protocolos de asistencia al usuario de la aplicación."
+        - numero: 7
+          enunciado: "Interviene en el desarrollo y prueba de la interfaz para aplicaciones Web, empleando las herramientas y lenguajes específicos y cumpliendo los requerimientos establecidos."
+          criterios_evaluacion:
+            - "a) Se ha interpretado el diseño y la guía de estilo para la interfaz de las aplicaciones Web que se han de desarrollar, atendiendo a las indicaciones del equipo de diseño."
+            - "b) Se han editado y probado bloques de sentencias en lenguajes de marcas que formen total o parcialmente la interfaz de aplicaciones Web, administrando estilos desde hojas externas."
+            - "c) Se han empleado hojas de transformación para convertir y adaptar información a los formatos de presentación adecuados en la parte cliente."
+            - "d) Se ha participado en la preparación e integración de materiales multimedia para la interfaz de una aplicación Web, siguiendo las instrucciones del equipo de diseño."
+            - "e) Se ha colaborado en el desarrollo de aplicaciones web interactivas, basadas en el manejo de eventos y en la integración de elementos interactivos y animaciones."
+            - "f) Se han verificado la accesibilidad y usabilidad de las aplicaciones web, colaborando en los cambios y medidas necesarias para cumplir los niveles exigidos."
+            - "g) Se ha colaborado estrechamente con los encargados del diseño y desarrollo de la parte servidor de las aplicaciones Web, unificando criterios y coordinando el desarrollo en ambos lados de la aplicación."
+            - "h) Se ha participado en la definición y elaboración de la documentación y del resto de componentes empleados en los protocolos de asistencia al usuario de la aplicación."
+relaciones:
+  desarrolla_a: [NOR-056]
+  relacionada_con: [NOR-007, CUR-050]
+resumen_ia: >
+  Ciclo formativo de Grado Superior de Técnico Superior en Desarrollo de Aplicaciones
+  Web (DAW), regulado por el RD 686/2010 (BOE-A-2010-9269). Consta de 13 módulos
+  profesionales con una duración total de 2000 horas. Los módulos de primer curso
+  incluyen Sistemas Informáticos, Bases de Datos, Programación, Lenguajes de Marcas,
+  Entornos de Desarrollo y Desarrollo Web en Entorno Cliente; los de segundo incluyen
+  Desarrollo Web en Entorno Servidor, Despliegue de Aplicaciones Web, Diseño de
+  Interfaces Web, FOL, EIE, el Proyecto y la FCT (380 h). Título de la familia
+  Informática y Comunicaciones. No sustituye a la fuente oficial.
+observaciones: >
+  Extracción completada en TAREA-050 (2026-04-26). Criterios de evaluación (CEs) de los
+  módulos 0483, 0484, 0485, 0373, 0487, 0612 y 0613 extraídos del HTML oficial del BOE
+  (BOE-A-2010-9269) en TAREA-045. Los CEs de los módulos 0615 (Diseño de Interfaces Web,
+  6 RAs), 0616 (Proyecto DAW, 4 RAs), 0617 (FOL, 7 RAs), 0618 (EIE, 4 RAs) y 0619 (FCT,
+  7 RAs) han sido extraídos del PDF oficial del RD 686/2010 (BOE-A-2010-9269) en
+  TAREA-050. Nota: el módulo 0617 (FOL) contiene 7 RAs en el PDF oficial, incluyendo un
+  RA 7 sobre medidas de prevención y protección; el módulo 0619 (FCT) contiene 7 RAs en
+  el PDF oficial. Todos los criterios de evaluación están completos y trazados a la fuente
+  oficial.

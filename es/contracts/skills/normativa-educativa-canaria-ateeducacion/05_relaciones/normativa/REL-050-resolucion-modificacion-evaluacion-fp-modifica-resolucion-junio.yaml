@@ -1,0 +1,11 @@
+id: REL-050
+tipo_relacion: "modifica"
+origen: NOR-059
+destino: NOR-061
+descripcion: "La Resolución de 3 de diciembre de 2025 modifica la Resolución de 9 de junio de 2025 sobre evaluación en ciclos formativos y cursos de especialización."
+evidencia:
+  fuente: FTE-055
+  localizacion: "Antecedentes de hecho primero y segundo; resuelve primero."
+fecha_registro: 2026-06-01
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Se corrige la URL oficial de FTE-055/NOR-059 al BOC 2025/249/4298."

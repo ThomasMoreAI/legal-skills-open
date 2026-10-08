@@ -1,0 +1,7 @@
+interface:
+  display_name: "Memo legale strutturato"
+  short_description: "Redige memo legali italiani chiari"
+  default_prompt: "Usa $memo-legale-strutturato per preparare un memo legale italiano chiaro, sintetico e operativo."
+
+policy:
+  allow_implicit_invocation: true

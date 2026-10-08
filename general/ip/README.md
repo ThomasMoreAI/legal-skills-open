@@ -4,13 +4,14 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `general` · Practice: `ip` · Skill language: en
 
-## Skills (94)
+## Skills (97)
 
 | Skill | What it does |
 |---|---|
 | [`Agentische datenbank recherche`](skills/agentische-datenbank-recherche/) | Für agentische-datenbank-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`AI知识产权文件生成`](skills/ai-copyright-skill/) | AI-native IP skill: generate patent applications, software copyright materials, or technical disclosures… |
 | [`IPランドスケープの評価`](skills/assess-ip-landscape/) | 技術ドメインまたは製品分野の知的財産ランドスケープをマッピングする。特許クラスター 分析、ホワイトスペース特定、競合他社IPポートフォリオ評価、実施自由（FTO）予備… |
+| [`Assess IP Landscape`](skills/assess-ip-landscape-pjt222/) | Mapear el panorama de propiedad intelectual para un dominio tecnológico o área de producto. Cubre… |
 | [`Cease desist`](skills/cease-desist-anthropics/) | Draft a cease-and-desist letter (send mode) or triage one you received (receive mode). Use when… |
 | [`Cease and Desist Drafter`](skills/cease-desist-drafter-rohasnagpal/) | Draft proportionate, source-backed intellectual-property cease and desist notices. Use when a rights… |
 | [`Claims Drafting: The Core Patent Skill`](skills/claims-drafting/) | Draft patent claims for an invention. Use when user says "撰写权利要求", "draft claims", "写权利要求书", "claim… |
@@ -34,6 +35,7 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`Exclusive Patent License Agreement`](skills/exclusive-patent-license/) | Drafts an Exclusive Patent License Agreement granting a Licensee exclusive rights to commercialize… |
 | [`Field of Use Restriction Clause`](skills/field-of-use-restriction/) | Drafts field-of-use restriction clauses for IP licensing agreements. Covers grant language, prohibited… |
 | [`Figure Description for Patents`](skills/figure-description/) | Process user-provided patent figures and generate formal drawing descriptions. Use when user says… |
+| [`File Trademark`](skills/file-trademark-pjt222/) | Trademark filing procedures covering EUIPO (EU), USPTO (US), and WIPO Madrid Protocol (international).… |
 | [`专利检索 Skill — 由智慧芽 MCP 提供支持`](skills/free-patent-search-zhcn/) | 由智慧芽免费 MCP 提供支持的专利检索 Skill。覆盖新颖性检索、FTO 分析、专利挖掘、风险筛查、无效检索、竞争情报、法律状态核验与组合研究。包含 API Key 注册指引、意图分流，以及面向… |
 | [`Fto triage`](skills/fto-triage-anthropics/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion.… |
 | [`Invention Structuring`](skills/invention-structuring/) | Structure a raw invention idea into a formal invention disclosure. Use when user says "构建发明", "structure… |
@@ -89,6 +91,7 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`IP Ownership Clarity Review`](skills/review-ip-ownership-clarity-sboghossian/) | Use when reviewing contract clauses governing intellectual property ownership, assignment, and licensing… |
 | [`Review Open Source License`](skills/review-open-source-license-jeffreytse/) | Use when evaluating open source software licenses for commercial use, distribution, or modification rights |
 | [`Royalty Report Form`](skills/royalty-report/) | Drafts auditable royalty report forms for IP licensing agreements, calculating tiered royalties, minimum… |
+| [`Screen Trademark`](skills/screen-trademark-pjt222/) | Screen a proposed trademark for conflicts and distinctiveness before filing. Covers trademark database… |
 | [`Search Prior Art`](skills/search-prior-art/) | Search for prior art relevant to a specific invention or patent claim. Covers patent literature… |
 | [`Search Prior Art`](skills/search-prior-art-2/) | Prior art search for invention\|patent claim. Patent + non-patent (academic, products, OSS), defensive… |
 | [`搜尋先前技術`](skills/search-prior-art-3/) | Search for prior art relevant to a specific invention or patent claim. Covers patent literature… |

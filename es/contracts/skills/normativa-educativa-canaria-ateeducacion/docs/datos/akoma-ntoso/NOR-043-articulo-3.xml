@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es-cn/act/2022-11-10/211">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211"/>
+          <FRBRdate date="2022-11-10" name="Generation"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRcountry value="es-cn"/>
+          <FRBRnumber value="211"/>
+          <FRBRname value="Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@"/>
+          <FRBRdate date="2022-11-23" name="Publication"/>
+          <FRBRauthor href="#gobierno-canarias"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es-cn/act/2022-11-10/211/spa@/xml/!art_3"/>
+          <FRBRuri value="/akn/es-cn/act/2022-11-10/211/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-canarias" href="https://www.gobiernodecanarias.org/" showAs="Gobierno de Canarias"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_3">
+        <num>Artículo 3.-</num>
+        <heading>Principios generales.</heading>
+        <paragraph eId="art_3__para_1">
+          <num>1.</num>
+          <content><p>La Educación Primaria tiene carácter obligatorio y gratuito, abarca seis cursos académicos y se cursará, con carácter general, entre los 6 y los 12 años.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_2">
+          <num>2.</num>
+          <content><p>La Educación Primaria proporcionará a todos los niños y las niñas una educación de calidad, en condiciones de equidad y con garantía de igualdad de oportunidades.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_3">
+          <num>3.</num>
+          <content><p>El conjunto de la actividad educativa contribuirá al desarrollo pleno del alumnado a través de la integración de las distintas experiencias y aprendizajes desde una perspectiva global, que permita asimismo la adaptación de los procesos de enseñanza y de aprendizaje a los diferentes ritmos de trabajo y estilos de aprendizaje del alumnado.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_4">
+          <num>4.</num>
+          <content><p>Las medidas organizativas, metodológicas y curriculares que se adopten se regirán por los principios del Diseño Universal para el Aprendizaje, de manera que se posibilite el acceso al currículo para todo el alumnado y que se responda a las fortalezas y necesidades de este en función de sus características individuales. Para ello, se contará con los recursos materiales y humanos necesarios y adecuados.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_5">
+          <num>5.</num>
+          <content><p>La actividad educativa, que implica la participación de toda la comunidad, contribuirá al desarrollo pleno del alumnado a través de la integración curricular de los valores y los aprendizajes que incidan en el desarrollo y la adquisición de las competencias clave, que le permitan el ejercicio de una ciudadanía responsable, consciente y respetuosa de los derechos y las libertades fundamentales, de la igualdad efectiva de derechos y oportunidades entre hombres y mujeres, y de la diversidad afectivo sexual; una ciudadanía crítica con las desigualdades, los comportamientos sexistas y todas clase de discriminaciones por razón de sexo, edad, religión, cultura, opción afectivo-sexual, capacidad.</p></content>
+        </paragraph>
+        <paragraph eId="art_3__para_6">
+          <num>6.</num>
+          <content><p>Las relaciones interpersonales se sustentarán en el ejercicio de la tolerancia y de la libertad, propio de una ciudadanía democrática donde la participación sea la estrategia para lograr la corresponsabilidad de toda la comunidad educativa y donde la convivencia positiva, la prevención de conflictos y su resolución pacífica sean los principios rectores insertados, de manera transversal, en los procesos de enseñanza y aprendizaje.</p></content>
+        </paragraph>
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>

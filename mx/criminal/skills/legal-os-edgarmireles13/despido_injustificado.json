@@ -1,0 +1,8 @@
+{
+  "scenario": "despido injustificado basico",
+  "input": {
+    "event": {"type":"despido","date":"2026-01-10","facts":{"justified":false}},
+    "actors": {"trabajador":{"name":"Juan Pérez"},"empleador":{"name":"Empresa X"}}
+  },
+  "expected": {"classification":"despido_injustificado"}
+}

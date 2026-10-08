@@ -1,0 +1,11 @@
+{
+  "skill": "notaire-cantonal",
+  "rubric": "Grade notarial responses on: correct identification of cantonal notarial system (Latin/free/mixed), correct CC or CO article cited, numerically accurate fees / capital / shares, no French (Code civil français / notariat français) or German (BGB / BeurkG) references.",
+  "criteria": [
+    { "name": "canton_system", "weight": 0.25 },
+    { "name": "legal_basis", "weight": 0.35 },
+    { "name": "numeric_accuracy", "weight": 0.30 },
+    { "name": "no_foreign_law", "weight": 0.10 }
+  ],
+  "pass_threshold": 0.7
+}

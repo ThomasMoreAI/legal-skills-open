@@ -1,0 +1,57 @@
+name: fiscalidad-no-residentes
+display_name: Fiscalidad -- No Residentes (IRNR)
+description: >
+  Guia completa de la fiscalidad para no residentes en Espana: quien es
+  no residente fiscal (regla 183 dias), IRNR con y sin establecimiento
+  permanente, Modelo 210 (autoliquidacion), Modelo 720 (bienes en el
+  extranjero), convenios de doble imposicion (90+ paises), Ley Beckham
+  (regimen especial de impatriados, 24 % fijo), no residente con inmueble
+  en Espana (imputacion, alquiler, venta con retencion del 3 %), y
+  representante fiscal.
+organization: Agencia Estatal de Administracion Tributaria (AEAT)
+tags: [fiscalidad, no residentes, IRNR, modelo 210, modelo 720, Ley Beckham, impatriados, doble imposicion, retencion 3%, residencia fiscal, extranjero]
+
+links:
+  website: https://sede.agenciatributaria.gob.es/Sede/no-residentes.html
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Informacion publica de la AEAT
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre la fiscalidad de no
+    residentes. Materia tecnica que requiere asesoramiento profesional.
+    No accede a APIs de datos ni permite presentar declaraciones. Redirige
+    a fiscalidad-irpf-asalariados si el usuario es residente fiscal.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Determinacion de la residencia fiscal (regla 183 dias, centro de intereses)
+    - IRNR sin establecimiento permanente (tipos, rentas gravadas)
+    - IRNR con establecimiento permanente (25 %)
+    - Modelo 210 y plazos de presentacion
+    - Modelo 720 (bienes en el extranjero, umbrales, plazos)
+    - Convenios de doble imposicion (funcionamiento, tipos reducidos)
+    - Ley Beckham (requisitos, ventajas, como solicitarlo)
+    - No residente con inmueble en Espana (imputacion, alquiler, venta)
+    - Retencion del 3 % en venta de inmueble por no residente
+    - Representante fiscal
+  not_accessible:
+    - Presentacion real de declaraciones (requiere certificado digital)
+    - Datos fiscales individuales
+    - Texto completo de cada CDI (orientar al BOE)
+    - Estatus migratorio (usar skill extranjeria-residencia)
+    - IRPF de residentes (usar skill fiscalidad-irpf-asalariados)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

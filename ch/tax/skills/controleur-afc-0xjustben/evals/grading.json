@@ -1,0 +1,11 @@
+{
+  "skill": "controleur-afc",
+  "rubric": "Grade audit responses on: correct Swiss tax law cited (LTVA, LIFD, LIA, LT), correct article number for the violation, accurate description of penalty range, no French (CGI/DGFIP) or German (UStG/AO) references.",
+  "criteria": [
+    { "name": "legal_basis", "weight": 0.4 },
+    { "name": "penalty_range", "weight": 0.3 },
+    { "name": "procedural_correctness", "weight": 0.2 },
+    { "name": "no_foreign_law", "weight": 0.1 }
+  ],
+  "pass_threshold": 0.7
+}

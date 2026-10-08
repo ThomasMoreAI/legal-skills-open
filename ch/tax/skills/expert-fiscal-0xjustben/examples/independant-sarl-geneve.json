@@ -1,0 +1,40 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "_note": "Designer freelance Lausanne incorporated via Sàrl — salary vs dividend trade-off in canton VD.",
+  "company": {
+    "legal_name": "Atelier Pixel Sàrl",
+    "uid": "CHE-789.012.345",
+    "canton": "VD",
+    "share_capital_chf": 20000,
+    "activity": "Studio de design web"
+  },
+  "associe_gerant": {
+    "first_name": "Camille",
+    "last_name": "Rochat",
+    "canton_residence": "VD",
+    "ahv_number": "756.5544.3322.11",
+    "shares_pct": 100,
+    "civil_status": "single",
+    "dependants": 0
+  },
+  "income_arrangement_chf": {
+    "salary_gross_annual": 84000,
+    "lpp_employee_share": 3360,
+    "ahv_alv_employee_share": 5712,
+    "salary_net_approx": 71500,
+    "dividend_declared": 30000,
+    "anticipated_tax_pct": 35,
+    "dividend_net": 19500
+  },
+  "expected_treatment": {
+    "salary_taxation": "Revenu salarié ordinaire — déclaration cantonale VD",
+    "dividend_taxation_federal": "70% imposable (participation qualifiée 100%)",
+    "dividend_taxation_vd": "70% imposable",
+    "ahv_requalification_risk": "Faible si salaire ≥ 60-80k (marché designer Lausanne)"
+  },
+  "checks": [
+    "Vérifier proportionnalité salaire/dividende",
+    "Confirmer rachat LPP optionnel (max env. 11k)",
+    "Pilier 3a max 7'056 CHF (salarié avec LPP)"
+  ]
+}

@@ -1,0 +1,10 @@
+Indexador;cpfCnpjEnvolvido;nomeEnvolvido;tipoEnvolvido;agenciaEnvolvido;contaEnvolvido;DataAberturaConta;DataAtualizacaoConta;bitPepCitado;bitPessoaObrigadaCitado;intServidorCitado
+1;12.345.678/0001-90;MERCADO BOM PRECO LTDA;Titular;2411;456789;03/02/2025;03/02/2025;-;Nao;-
+1;111.222.333-44;JOSE RIBAMAR TORRES;Responsavel;-;-;-;-;Nao;Nao;Nao
+1;555.666.777-88;MARINALVA SOUZA CRUZ;Depositante;-;-;-;-;Nao;Nao;Nao
+2;12.345.678/0001-90;MERCADO BOM PRECO LTDA;Titular;2411;456789;03/02/2025;03/02/2025;-;Nao;-
+2;111.222.333-44;JOSE RIBAMAR TORRES;Sacador;-;-;-;-;Nao;Nao;Nao
+3;12.345.678/0001-90;MERCADO BOM PRECO LTDA;Titular;0834;112233;10/06/2025;10/06/2025;-;Nao;-
+3;111.222.333-44;JOSE RIBAMAR TORRES;Beneficiario;0834;998877;15/03/2019;20/01/2026;Nao;Nao;Nao
+
+a41bb2c9de07f1358c6a2d90e4b7c515

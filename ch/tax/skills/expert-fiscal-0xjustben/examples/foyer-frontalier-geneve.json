@@ -1,0 +1,26 @@
+{
+  "_note": "Example household: French frontalier working in Geneva. Anonymized.",
+  "household": {
+    "country_of_residence": "FR",
+    "country_of_work": "CH",
+    "canton_of_work": "GE",
+    "civil_status": "couple_married",
+    "children": 2
+  },
+  "income_chf": {
+    "gross_annual_salary": 95000,
+    "withholding_tax_paid": 7800,
+    "other_swiss_income": 0
+  },
+  "expected_treatment": {
+    "regime": "Imposition à la source (Genève) — convention 1973",
+    "retrocession_to_french_communes_pct": 4.5,
+    "tax_credit_in_france": "credit for Swiss withholding tax paid",
+    "home_office_cap_pct": 25
+  },
+  "checks": [
+    "Verify residence ≥ 1 day/week return (frontalier status)",
+    "Issue attestation-quittance for declaration in France",
+    "Confirm 2023 FR-CH home-office accord still in force"
+  ]
+}

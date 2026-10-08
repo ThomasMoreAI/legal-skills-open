@@ -1,0 +1,22 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/analisis.schema.yaml"
+title: Análisis documental
+additionalProperties: false
+
+type: object
+required: [id, titulo, fecha_analisis, relacionadas, resumen]
+properties:
+  id:
+    type: string
+    pattern: '^AN-[0-9]{3}$'
+  titulo:
+    type: string
+  fecha_analisis:
+    type: string
+    format: date
+  relacionadas:
+    type: array
+    items:
+      type: string
+  resumen:
+    type: string

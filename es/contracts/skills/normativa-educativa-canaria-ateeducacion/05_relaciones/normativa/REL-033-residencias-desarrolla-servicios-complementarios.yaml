@@ -1,0 +1,11 @@
+id: REL-033
+tipo_relacion: "desarrolla"
+origen: NOR-036
+destino: NOR-004
+descripcion: "El Decreto 40/2005 ordena las residencias escolares como servicio educativo singular y compensador de desigualdades."
+evidencia:
+  fuente: FTE-039
+  localizacion: "Preámbulo y artículo 1"
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: null

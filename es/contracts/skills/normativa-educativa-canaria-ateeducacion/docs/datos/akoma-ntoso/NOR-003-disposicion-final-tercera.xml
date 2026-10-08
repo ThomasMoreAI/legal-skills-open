@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2022-03-29/217">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2022/03/29/217/con"/>
+          <FRBRdate date="2022-03-29" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/spa@/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217/spa@"/>
+          <FRBRdate date="2022-03-30" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2022-03-29/217/spa@/xml/!dis_fin_tercera"/>
+          <FRBRuri value="/akn/es/act/2022-03-29/217/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_fin_tercera" name="disposicion-final">
+        <num>Disposición final tercera.</num>
+        <heading>Calendario de implantación.</heading>
+        <paragraph eId="dis_fin_tercera__para_1">
+          <num>1.</num>
+          <content><p>Lo dispuesto en este real decreto se implantará, para los cursos primero y tercero de Educación Secundaria Obligatoria en el curso escolar 2022-2023 y para los cursos segundo y cuarto en el curso 2023-2024.</p></content>
+        </paragraph>
+        <paragraph eId="dis_fin_tercera__para_2">
+          <num>2.</num>
+          <content><p>Lo dispuesto en este real decreto se implantará para el primer curso de los Ciclos Formativos de Grado Básico en el curso escolar 2022-2023 y para el segundo curso, en el curso escolar 2023-2024.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

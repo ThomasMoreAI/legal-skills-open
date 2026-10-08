@@ -1,0 +1,11 @@
+Legal Aid Plugin
+Copyright 2026 LawDroid Ltd.
+https://lawdroid.ai
+
+This product includes software developed by LawDroid Ltd.
+
+If you redistribute this plugin or derivative works, you must retain this NOTICE file and the copyright notice above per the Apache License, Version 2.0.
+
+Civil-legal-aid-specific design: supervision model, eligibility-screening skill, funder-restriction flag system, case-transfer pattern, LSC reporting — is original to this plugin.
+
+This is an independent community plugin published by LawDroid Ltd. It is not affiliated with Anthropic and is not part of the anthropics/claude-for-legal official suite.

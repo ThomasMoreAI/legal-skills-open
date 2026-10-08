@@ -1,0 +1,46 @@
+{
+  "author": "skills-il",
+  "version": "1.7.0",
+  "category": "government-services",
+  "tags": {
+    "he": [
+      "עלייה",
+      "קליטה",
+      "עולים-חדשים",
+      "סל-קליטה",
+      "אולפן",
+      "משרד-הקליטה",
+      "ביטוח-לאומי",
+      "הכרה-מקצועית",
+      "ישראל"
+    ],
+    "en": [
+      "aliyah",
+      "absorption",
+      "new-immigrants",
+      "sal-klita",
+      "ulpan",
+      "misrad-haklita",
+      "bituach-leumi",
+      "professional-recognition",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "נווט עלייה לישראל",
+    "en": "Israeli Aliyah Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי או מיסויי. מדריך מלא לעולים חדשים בישראל. מכסה את כל תהליך העלייה מרגע ההחלטה ועד להשתקעות, כולל סל קליטה, אולפן, דיור, בנקאות, ביטוח לאומי, הטבות מס, המרת רישיון נהיגה והכרה מקצועית. השתמשו כשמשתמש שואל על עלייה לישראל, זכויות עולים, סל קליטה, או הליכים ביורוקרטיים לעולים חדשים.",
+    "en": "Not legal or tax advice. Comprehensive guide for new immigrants (olim) to Israel covering the full aliyah journey from pre-arrival to settlement. Use when user asks about \"aliyah to Israel\", \"sal klita\", \"absorption basket\", \"misrad haklita\", \"klitat aliyah\", \"teudat oleh\", \"ulpan enrollment\", \"oleh chadash rights\", \"tax benefits for olim\", or \"driver's license conversion in Israel\". Covers Misrad HaKlita processes, sal klita tracking, Ulpan, housing, banking, Bituach Leumi, tax exemptions, license conversion, and professional recognition. Do NOT use for general Israeli bureaucracy unrelated to immigration (use israeli-gov-services instead) or tourist visa questions."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

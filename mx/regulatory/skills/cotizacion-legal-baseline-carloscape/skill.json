@@ -1,0 +1,7 @@
+{
+  "kind": "skill",
+  "name": "cotizacion-legal-baseline",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Baseline Mexico B2B legal clauses that EVERY quote or proposal carries from draft 1: intellectual property, LFPDPPP, confidentiality, liability cap, warranty, licensing and VAT."
+}

@@ -1,0 +1,55 @@
+name: fiscalidad-itp-ajd
+display_name: Fiscalidad -- ITP y AJD (Transmisiones Patrimoniales y Actos Juridicos Documentados)
+description: >
+  Guia completa del Impuesto de Transmisiones Patrimoniales y Actos
+  Juridicos Documentados (ITP-AJD) en Espana: TPO (compraventa de
+  vivienda de segunda mano, vehiculos usados), AJD (hipotecas, escrituras),
+  OS (operaciones societarias), tipos impositivos por CCAA, quien paga,
+  Modelo 600 y 620, regla de incompatibilidad IVA/TPO, y plazos de
+  presentacion (30 dias habiles).
+organization: Agencia Estatal de Administracion Tributaria (AEAT)
+tags: [fiscalidad, ITP, AJD, transmisiones patrimoniales, actos juridicos documentados, TPO, compraventa vivienda, modelo 600, modelo 620, hipoteca, vehiculos usados]
+
+links:
+  website: https://www.boe.es/buscar/act.php?id=BOE-A-1993-25359
+  calendario: https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026.html
+
+license:
+  data: Informacion publica (BOE y portales autonomicos)
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientacion general sobre el ITP-AJD. No accede
+    a APIs de datos ni permite liquidar el impuesto. Explica el marco
+    general y los rangos de tipos impositivos por CCAA. Redirige a
+    fiscalidad-iva para operaciones entre empresarios y a
+    fiscalidad-impuestos-locales para la plusvalia municipal.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tres modalidades del ITP-AJD (TPO, AJD, OS) y cuando se aplica cada una
+    - Tipos impositivos orientativos por CCAA
+    - Regla de incompatibilidad IVA/TPO
+    - Modelos 600 y 620 y plazos
+    - Quien paga en cada caso (comprador, banco en hipotecas desde 2018)
+    - Resumen fiscal de compraventa de vivienda (nueva y segunda mano)
+    - Vehiculos usados entre particulares
+    - Base imponible (valor de referencia del Catastro, tablas de vehiculos)
+  not_accessible:
+    - Liquidacion real del impuesto (requiere acceso a la hacienda autonomica)
+    - Tipos exactos actualizados de cada CCAA
+    - Tramite de transferencia de vehiculos en la DGT
+    - Plusvalia municipal (usar skill fiscalidad-impuestos-locales)
+    - IVA (usar skill fiscalidad-iva)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

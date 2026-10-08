@@ -1,0 +1,25 @@
+id: CHUNK-00002
+origen_tipo: "norma"
+origen_id: NOR-002
+titulo: "LOMLOE — modifica la LOE"
+texto: >
+  La LOMLOE modifica la LOE y actualiza el marco estatal sobre currículo, evaluación e inclusión. No sustituye la LOE, sino que debe leerse junto al texto consolidado de esta.
+metadatos:
+  ambito: "estatal"
+  etapa: [transversal]
+  temas: [curriculo, evaluacion, inclusion]
+  estado_vigencia: "Vigente"
+  fuente: FTE-006
+  url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+  fecha_consulta: 2026-04-25
+  fecha_analisis: 2026-04-25
+  localizacion: "Artículo único"
+relaciones:
+  normas: [NOR-001, NOR-003]
+  curriculos: []
+  chunks_relacionados: [CHUNK-00001, CHUNK-00003]
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+nivel_evidencia: "confirmado-fuente-primaria"

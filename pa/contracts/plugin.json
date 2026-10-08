@@ -1,0 +1,28 @@
+{
+  "name": "pa-contracts",
+  "displayName": "Contracts — PA",
+  "version": "0.1.0",
+  "description": "Contracts skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/calendario-4013-betobetico",
+    "skills/consulta-consumo-4171-betobetico",
+    "skills/consulta-fiscal-betobetico",
+    "skills/consulta-laboral-2704-betobetico",
+    "skills/contratacion-administrativo-4074-betobetico",
+    "skills/contratacion-startups-4019-betobetico",
+    "skills/creacion-contrato-panama-orwel",
+    "skills/demanda-betobetico",
+    "skills/entrevista-inicial-gobernanza-ia-3907-betobetico",
+    "skills/fundacion-interes-privado-betobetico",
+    "skills/gap-gobernanza-ia-4023-betobetico",
+    "skills/intake-clinica-juridica-betobetico",
+    "skills/proveedor-betobetico",
+    "skills/revision-contratacion-betobetico",
+    "skills/revision-mercantil-betobetico"
+  ]
+}

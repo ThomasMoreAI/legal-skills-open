@@ -1,0 +1,186 @@
+id: CUR-054
+titulo: "Segunda Lengua Extranjera I y II — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Segunda Lengua Extranjera"
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Comprender e interpretar las ideas principales y las líneas argumentales básicas de textos expresados en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias de inferencia y comprobación de significados, para responder a las necesidades comunicativas planteadas."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+    - codigo: "C2"
+      enunciado_oficial: "Producir textos originales, de creciente extensión, claros, bien organizados y detallados, usando estrategias tales como la planificación, la síntesis, la compensación o la autorreparación, para expresar ideas y argumentos de forma creativa, adecuada y coherente, de acuerdo con propósitos comunicativos concretos."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA5, CCEC3.1]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA5, CCEC3.1]
+    - codigo: "C3"
+      enunciado_oficial: "Interactuar activamente con otras personas, con suficiente fluidez y precisión y con espontaneidad, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos en intercambios respetuosos con las normas de cortesía."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+    - codigo: "C4"
+      enunciado_oficial: "Mediar entre distintas lenguas o variedades, o entre las modalidades o registros de una misma lengua, usando estrategias y conocimientos eficaces orientados a explicar conceptos y opiniones o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable, y crear una atmósfera positiva que facilite la comunicación."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+    - codigo: "C5"
+      enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas y variedades, reflexionando de forma crítica sobre su funcionamiento, y haciendo explícitos y compartiendo las estrategias y los conocimientos propios, para mejorar la respuesta a sus necesidades comunicativas."
+      descriptores:
+        "1.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+        "2.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+    - codigo: "C6"
+      enunciado_oficial: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera, reflexionando y compartiendo las semejanzas y las diferencias entre lenguas y culturas, para actuar de forma empática, respetuosa y eficaz, y fomentar la comprensión mutua en situaciones interculturales."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CP3, CPSAA3.1, CC2, CC3, CE1, CCEC1]
+        "2.º Bachillerato": [CCL5, CP3, CPSAA3.1, CCEC1]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "CP2", "CP3", "STEM1", "CD1", "CD2", "CD3", "CPSAA1.1", "CPSAA3.1", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE1", "CE2", "CCEC1", "CCEC3.1"]
+  criterios_evaluacion:
+    - curso: "1.º Bachillerato"
+      criterios:
+        - id: "1.1"
+          texto: "Localizar información pertinente, identificar el sentido global y las ideas principales e interpretar y valorar con actitud crítica el contenido de textos orales sencillos, progresivamente más complejos, sobre temas frecuentes y cotidianos de relevancia personal y próximos a su experiencia que estén expresados de forma clara y sencilla a través de diversos soportes, utilizando con fluidez, adecuación y con aceptable corrección una o más lenguas, además de las familiares, con el fin de construir conocimiento y responder a las necesidades comunicativas planteadas."
+        - id: "1.2"
+          texto: "Localizar información pertinente, identificar el sentido global y las ideas principales e interpretar y valorar con actitud crítica el contenido y los rasgos discursivos de textos escritos y multimodales sencillos, progresivamente más complejos, sobre temas frecuentes y cotidianos que sean de relevancia personal y próximos a su experiencia y que estén expresados de forma clara a través de diversos soportes, así como de textos literarios adecuados al nivel de madurez del alumnado, aplicando criterios de validez y calidad y utilizando con fluidez, adecuación y con aceptable corrección una o más lenguas, además de las familiares, con el fin de construir conocimiento y responder a las necesidades comunicativas planteadas."
+        - id: "1.3"
+          texto: "Seleccionar, organizar y aplicar los conocimientos y las estrategias más adecuadas en cada situación comunicativa para comprender el sentido general, la información esencial y los detalles más relevantes de los textos; inferir significados e interpretar elementos no verbales; realizar búsquedas avanzadas pautadas para seleccionar y gestionar información veraz y enriquecer su repertorio lingüístico individual."
+        - id: "2.1"
+          texto: "Expresar oralmente de forma progresivamente autónoma, y en diferentes soportes, textos sencillos de extensión media sobre asuntos de relevancia personal o de interés público próximos a la experiencia del alumnado que sean claros, coherentes, bien organizados y adecuados a la situación comunicativa, mostrando una actitud cooperativa, respetuosa y ética y utilizando recursos verbales y no verbales con el fin de describir, explicar, narrar, argumentar e informar."
+        - id: "2.2"
+          texto: "Redactar y difundir de forma progresivamente autónoma y con cierta fluidez textos sobre asuntos de relevancia personal o de interés público próximos a la experiencia del alumnado, de extensión media y de estructura clara, adecuados a la situación comunicativa, a la tipología textual y a las herramientas analógicas y digitales, evitando errores que dificulten o impidan la comprensión, respetando la propiedad intelectual y evitando el plagio para explicar y expresar ideas, argumentos u otras comunicaciones."
+        - id: "2.3"
+          texto: "Seleccionar, organizar y aplicar de forma progresivamente autónoma, conocimientos y estrategias gradualmente más complejos de planificación, producción, revisión y cooperación en la elaboración de textos de estructura clara y adecuados a las intenciones comunicativas, las características contextuales, los aspectos socioculturales y la tipología textual, usando los recursos físicos o digitales más adecuados en función de la tarea y de los interlocutores reales o potenciales, a la vez que ampliando su repertorio lingüístico individual para componer textos."
+        - id: "3.1"
+          texto: "Planificar, participar y colaborar asertiva y activamente en situaciones interactivas sencillas, orales, escritas o multimodales, sobre temas de relevancia personal o de interés público conocidos por el alumnado, mostrando iniciativa, empatía y respeto por la cortesía lingüística y la etiqueta digital, así como por las diferentes necesidades, ideas, inquietudes, iniciativas y motivaciones de los interlocutores e interlocutoras, y ofreciendo explicaciones, opiniones y comentarios con el fin de fortalecer y ampliar vínculos personales, al igual que participar de la vida social con cierta autonomía."
+        - id: "3.2"
+          texto: "Seleccionar, organizar y utilizar, de forma flexible y en diferentes entornos, estrategias adecuadas que le permitan poner en uso su repertorio lingüístico individual para así iniciar, mantener y terminar la comunicación, tomar y ceder la palabra con amabilidad, solicitar y formular aclaraciones y explicaciones, reformular, comparar y contrastar, resumir, colaborar, debatir y resolver problemas, respetando la etiqueta digital, con el fin de expresarse de manera espontánea en la lengua extranjera a través de diversos soportes."
+        - id: "4.1"
+          texto: "Interpretar y explicar textos, conceptos y comunicaciones de extensión media con cierta complejidad en situaciones en las que se deba atender a la diversidad, mostrando respeto y aprecio por las interlocutoras y los interlocutores y por las lenguas, variedades lingüisticas o registros empleados, participando en la solución de problemas frecuentes de intercomprensión y de entendimiento, a partir de diversos recursos y soportes, para así construir conocimiento y transmitir información de manera eficaz, clara y responsable, así como para crear una atmósfera positiva que facilite la comunicación."
+        - id: "4.2"
+          texto: "Aplicar un reportorio variado de estrategias que ayuden de forma progresiva a crear puentes, faciliten la comunicación y que sean adecuadas a las intenciones comunicativas, a las características contextuales, a los aspectos socioculturales y a la tipología textual, usando recursos y apoyos físicos o digitales en función de la tarea y el conocimiento previo de las interlocutoras y los interlocutores, y ampliando su repertorio lingüístico individual para explicar y simplificar textos, conceptos y mensajes."
+        - id: "5.1"
+          texto: "Registrar, reflexionar y compartir, a través de medios analógicos y digitales, los progresos y dificultades de aprendizaje de la lengua extranjera, utilizando con iniciativa y de forma creativa estrategias y conocimientos de mejora de la capacidad de comunicar y de aprender, así como las estrategias más adecuadas y eficaces en las actividades de planificación, autoevaluación y coevaluación, como las que se proponen en el Portfolio Europeo de las Lenguas o en diarios de aprendizaje, comparando y contrastando las semejanzas y diferencias entre distintas lenguas, al igual que reflexionando sobre su funcionamiento y estableciendo relaciones entre ellas, haciéndolo con apoyo de otros interlocutores e interlocutoras, para así ampliar su repertorio lingüístico individual, superar las adversidades y consolidar su aprendizaje en la lengua extranjera."
+        - id: "6.1"
+          texto: "Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de Canarias y de los países donde se habla la lengua extranjera, aplicando estrategias en situaciones comunicativas interculturales cotidianas con resiliencia, proponiendo vías de solución a dificultades comunicativas socioculturales, reflexionando sobre sus semejanzas y diferencias, analizando y rechazando cualquier tipo de discriminación, prejuicio o estereotipo, actuando de forma adecuada y construyendo vínculos entre el patrimonio canario y el de otras culturas y favoreciendo el desarrollo de una cultura compartida y una ciudadanía comprometida con la sostenibilidad y los valores democráticos, para defender la libertad de expresión, la igualdad y el enriquecimiento inherente a la diversidad y respetando los principios de justicia, equidad e igualdad."
+    - curso: "2.º Bachillerato"
+      criterios:
+        - id: "1.1"
+          texto: "Interpretar y analizar el sentido global y la información específica y explícita, e interpretar y valorar con actitud crítica el contenido de textos orales sencillos, progresivamente más complejos, sobre temas frecuentes y cotidianos de relevancia personal que sean próximos a su experiencia y que estén expresados de forma clara a través de diversos soportes, utilizando con fluidez, adecuación y corrección una o más lenguas, además de las familiares, con el fin de construir conocimiento y responder a las necesidades comunicativas planteadas."
+        - id: "1.2"
+          texto: "Interpretar y analizar el sentido global y la información específica y explícita, e interpretar y valorar con actitud crítica el contenido y los rasgos discursivos de textos escritos y multimodales sencillos progresivamente más complejos, sobre temas frecuentes y cotidianos de relevancia personal próximos a su experiencia y que estén expresados de forma clara a través de diversos soportes, así como de textos literarios adecuados al nivel de madurez del alumnado, aplicando criterios de validez, calidad y fiabilidad y utilizando con fluidez, adecuación y corrección una o más lenguas, además de las familiares, con el fin de construir conocimiento y responder a las necesidades comunicativas planteadas."
+        - id: "1.3"
+          texto: "Seleccionar, organizar y aplicar de manera sistemática los conocimientos y las estrategias más adecuados en cada situación comunicativa para comprender el sentido general, la información esencial y los detalles más relevantes de los textos, para inferir significados e interpretar elementos no verbales y para realizar búsquedas avanzadas pautadas para seleccionar y gestionar información veraz y enriquecer su repertorio lingüístico individual."
+        - id: "2.1"
+          texto: "Expresar oralmente en diferentes soportes y con suficiente fluidez y corrección textos sencillos, claros, coherentes y bien organizados, que sean adecuados a la situación comunicativa y a diferentes registros y que traten sobre asuntos de relevancia personal o de interés público, haciéndolo con actitud cooperativa, respetuosa y ética y utilizando recursos verbales y no verbales, con el fin de describir, explicar, narrar, argumentar, e informar."
+        - id: "2.2"
+          texto: "Redactar y difundir con fluidez textos sobre asuntos de relevancia personal o de interés público conocidos por el alumnado, de extensión media y de estructura clara, adecuados a la situación comunicativa, a la tipología textual y a las herramientas analógicas y digitales utilizadas, evitando errores que dificulten o impidan la comprensión, reformulando y organizando de manera coherente y con respeto información e ideas de diversas fuentes, justificando las propias opiniones, haciendo un uso ético del lenguaje y respetando la propiedad intelectual y evitando el plagio para expresar ideas y argumentos."
+        - id: "2.3"
+          texto: "Seleccionar, organizar y aplicar conocimientos y estrategias complejas de planificación, producción, revisión y cooperación en la elaboración de textos de estructura clara y adecuados a las intenciones comunicativas, a las características contextuales, a los aspectos socioculturales y a la tipología textual, usando de manera autónoma los recursos físicos o digitales más adecuados en función de la tarea y de los interlocutores reales o potenciales, a la vez que ampliando su repertorio lingüístico individual para componer textos."
+        - id: "3.1"
+          texto: "Planificar, participar y colaborar asertiva y activamente, a través de diversos soportes, en situaciones interactivas, orales, escritas o multimodales sobre temas cotidianos de relevancia personal o de interés público cercanos a su experiencia, mostrando iniciativa, empatía y respeto por la cortesía lingüística y la etiqueta digital, así como por las diferentes necesidades, ideas, inquietudes, iniciativas y motivaciones de los interlocutores o interlocutoras, expresando ideas, comentarios y opiniones, así como argumentando, con el fin de ampliar vínculos personales y participar en la vida social con autonomía."
+        - id: "3.2"
+          texto: "Seleccionar, organizar y utilizar de forma eficaz, espontánea y en diferentes entornos estrategias adecuadas que le permitan poner en uso su repertorio lingüístico individual, para así iniciar, mantener y terminar la comunicación, tomar y ceder la palabra con amabilidad, ajustar la propia contribución a la de los interlocutores e interlocutoras percibiendo sus reacciones, solicitar y formular aclaraciones y explicaciones, reformular, comparar y contrastar, resumir, colaborar, debatir, resolver problemas y gestionar situaciones comprometidas, respetando la etiqueta digital, con el fin de responder a propósitos comunicativos de manera espontánea en diversos soportes."
+        - id: "4.1"
+          texto: "Interpretar y explicar textos, conceptos y comunicaciones de extensión media y progresivamente más complejos en situaciones en las que se deba atender a la diversidad, mostrando respeto y aprecio por las interlocutoras y los interlocutores y por las lenguas, variedades o registros empleados, participando en la solución de problemas frecuentes de intercomprensión y de entendimiento a partir de diversos recursos y soportes, para así transmitir información de manera eficaz, clara y responsable, y crear una atmósfera positiva que facilite la comunicación."
+        - id: "4.2"
+          texto: "Aplicar un amplio repertorio de estrategias que ayuden a crear puentes, faciliten la comunicación y que sean adecuadas a las intenciones comunicativas, a las características contextuales, a los aspectos socioculturales y a la tipología textual, usando recursos y apoyos físicos o digitales en función de la tarea y el conocimiento previo de las interlocutoras y los interlocutores, así como ampliando su repertorio lingüístico individual para explicar, simplificar y transmitir textos, conceptos y mensajes."
+        - id: "5.1"
+          texto: "Registrar, reflexionar y compartir, a través de medios analógicos y digitales, los progresos y dificultades de aprendizaje de la lengua extranjera, utilizando con iniciativa y de forma creativa estrategias y conocimientos de mejora de la capacidad de comunicar y de aprender, así como las estrategias más adecuadas y eficaces en las actividades de planificación, autoevaluación y coevaluación, como las que se proponen en el Portfolio Europeo de las Lenguas o en diarios de aprendizaje, comparando y contrastando las semejanzas y diferencias entre distintas lenguas, reflexionando de forma sistemática sobre su funcionamiento y estableciendo relaciones entre ellas, haciéndolo con apoyo o sin apoyo de otros interlocutores e interlocutoras y con optimismo, resiliencia y autoeficacia, para así ampliar su repertorio lingüístico individual, superar las adversidades y consolidar su aprendizaje en la lengua extranjera."
+        - id: "6.1"
+          texto: "Valorar críticamente y de forma empática y respetuosa la diversidad lingüística, cultural y artística propia de Canarias y de países donde se habla la lengua extranjera, aplicando de forma sistemática estrategias en situaciones comunicativas interculturales cotidianas con resiliencia, solucionando dificultades comunicativas socioculturales, reflexionando sobre sus semejanzas y diferencias, rechazando y evaluando cualquier tipo de discriminación, prejuicio o estereotipo, actuando de forma adecuada y construyendo vínculos entre el patrimonio canario y el de otras culturas, favoreciendo y justificando el desarrollo de una cultura compartida y de una ciudadanía comprometida con la sostenibilidad y los valores democráticos, para defender la libertad de expresión, la igualdad y el enriquecimiento inherente a la diversidad, respetando los principios de justicia, equidad e igualdad."
+  saberes_basicos:
+    - curso: "1.º Bachillerato"
+      bloque: "I. Comunicación"
+      contenido: |
+        1. Empleo de estrategias de autorreparación y autoevaluación como forma de consolidar el aprendizaje autónomo de la lengua extranjera.
+        2. Utilización de estrategias para la planificación, ejecución, control y reparación de la comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+        3. Aplicación de conocimientos, destrezas y actitudes que permitan llevar a cabo actividades de mediación en situaciones cotidianas.
+        4. Uso de funciones comunicativas adecuadas al ámbito y al contexto comunicativo: describir acontecimientos; dar instrucciones y consejos; narrar acontecimientos pasados, puntuales y habituales, describir estados y situaciones presentes y expresar sucesos futuros y de predicciones a corto, medio y largo plazo; expresar emociones; expresar la opinión; expresar argumentaciones; reformular, presentar las opiniones de otros, resumir.
+        5. Integración de modelos contextuales y géneros discursivos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales sencillos, literarios y no literarios: características y reconocimiento del contexto (participantes y situación), expectativas generadas por el contexto; organización y estructuración según el género y la función textual.
+        6. Manejo de unidades lingüísticas y significados asociados a dichas unidades, tales como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio y las relaciones espaciales, el tiempo y las relaciones temporales, la afirmación, la negación, la interrogación y la exclamación, las relaciones lógicas.
+        7. Identificación y empleo de léxico común de interés para el alumnado relativo a tiempo y espacio; estados, eventos y acontecimientos; actividades, procedimientos y procesos; relaciones personales, sociales, académicas y profesionales; educación, trabajo y emprendimiento; lengua y comunicación intercultural; ciencia y tecnología; historia y cultura; así como estrategias de enriquecimiento léxico (derivación, familias léxicas, polisemia, sinonimia, antonimia).
+        8. Reconocimiento y reproducción de patrones sonoros, acentuales, rítmicos y de entonación, y significados e intenciones comunicativas generales asociadas a dichos patrones.
+        9. Reconocimiento y uso de convenciones ortográficas y significados e intenciones comunicativas asociados a los formatos, patrones y elementos gráficos.
+        10. Integración de convenciones y estrategias conversacionales, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, reformular, comparar y contrastar, resumir y parafrasear, colaborar, negociar significados, detectar la ironía, etc.
+        11. Acopio y uso de recursos para el aprendizaje y estrategias de búsqueda y selección de información y curación de contenidos: diccionarios, libros de consulta, bibliotecas, mediatecas, etiquetas en la red, recursos digitales e informáticos, etc.
+        12. Respeto por la propiedad intelectual y los derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.
+        13. Gestión y uso de herramientas analógicas y digitales para la comprensión, producción y coproducción oral, escrita y multimodal y de plataformas virtuales de interacción, colaboración y cooperación educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera.
+    - curso: "1.º Bachillerato"
+      bloque: "II. Plurilingüismo"
+      contenido: |
+        1. Manejo de estrategias y empleo de técnicas para responder eficazmente y con autonomía, adecuación y corrección a una necesidad comunicativa concreta, superando las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio.
+        2. Selección y empleo de estrategias para identificar, organizar, retener, recuperar y utilizar creativamente unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.
+        3. Gestión y uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas para la autoevaluación, la coevaluación y la autorreparación.
+        4. Utilización de expresiones y léxico habitual para reflexionar y compartir la reflexión sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).
+        5. Comparación sistemática entre lenguas a partir de elementos de la lengua extranjera y otras lenguas: origen y parentescos.
+    - curso: "1.º Bachillerato"
+      bloque: "III. Interculturalidad"
+      contenido: |
+        1. Valoración e integración de aspectos socioculturales y sociolingüísticos relativos a convenciones sociales, normas de cortesía y registros; instituciones, costumbres y rituales; valores, normas, creencias y actitudes; estereotipos y tabúes; lenguaje no verbal; historia, cultura y comunidades; y su comparación con aquellos característicos de Canarias; procesos de globalización en países donde se habla la lengua extranjera.
+        2. Gestión y aplicación de estrategias para entender y apreciar la diversidad lingüística, cultural y artística, atendiendo a valores ecosociales, de desarrollo sostenible y democráticos.
+        3. Selección y elaboración de estrategias de detección, rechazo y actuación ante usos discriminatorios del lenguaje verbal y no verbal, prestando especial atención a la discriminación por razón de género o diversidad funcional.
+    - curso: "1.º Bachillerato"
+      bloque: "IV. Dimensiones interpersonal e intrapersonal"
+      contenido: |
+        1. Aprecio y valoración de la lengua extranjera como medio de comunicación y entendimiento entre pueblos, como facilitador del acceso a otras culturas y otras lenguas y como herramienta de participación social e interpersonal y de enriquecimiento propio.
+        2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo, relativas a las relaciones interpersonales.
+        3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+        4. Interés e iniciativa en la realización de intercambios comunicativos a través de diferentes medios con hablantes o estudiantes de la lengua extranjera, así como por conocer informaciones culturales de los países donde se habla la lengua extranjera y compartir aquellas relativas a Canarias.
+        5. Desarrollo de la autoconfianza, la iniciativa y la asertividad.
+        6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+        7. Visión creativa y emocional del aprendizaje.
+        8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+        9. Aprecio por la diversidad y el patrimonio natural, lingüístico, cultural y artístico en lo referente a las relaciones interpersonales en países donde se habla la lengua extranjera, y diferencias destacadas con aquel de Canarias.
+    - curso: "2.º Bachillerato"
+      bloque: "I. Comunicación"
+      contenido: |
+        1. Empleo de estrategias de autorreparación y autoevaluación como forma de consolidar en el aprendizaje autónomo de la lengua extranjera.
+        2. Utilización de estrategias para la planificación, ejecución, control y reparación de la comprensión, la producción y la coproducción de textos orales, escritos y multimodales.
+        3. Aplicación de conocimientos, destrezas y actitudes que permiten llevar a cabo actividades de mediación en situaciones cotidianas y habituales.
+        4. Uso de funciones comunicativas adecuadas al ámbito y al contexto comunicativo: describir fenómenos y acontecimientos; dar instrucciones y consejos; narrar acontecimientos pasados, puntuales y habituales, describir estados y situaciones presentes y expresar sucesos futuros y predicciones a corto, medio y largo plazo; expresar emociones; expresar la opinión; expresar argumentaciones; reformular, presentar las opiniones de otros, resumir.
+        5. Integración de modelos contextuales y géneros discursivos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales sencillos, literarios y no literarios: características y reconocimiento del contexto (participantes y situación), expectativas generadas por el contexto, organización y estructuración según el género y la función textual.
+        6. Manejo de unidades lingüísticas y significados asociados a dichas unidades, tales como la expresión de la entidad y sus propiedades, la cantidad y la cualidad, el espacio y las relaciones espaciales, el tiempo y las relaciones temporales, la afirmación, la negación, la interrogación y la exclamación, las relaciones lógicas.
+        7. Identificación y empleo de léxico común y específico de interés para el alumnado relativo a tiempo y espacio; estados, eventos y acontecimientos; actividades, procedimientos y procesos; relaciones personales, sociales, académicas y profesionales; educación, trabajo y emprendimiento; lengua y comunicación intercultural; ciencia y tecnología; historia y cultura; estrategias de enriquecimiento léxico (derivación, familias léxicas, polisemia, sinonimia, antonimia).
+        8. Reconocimiento y reproducción de patrones sonoros, acentuales, rítmicos y de entonación, y significados e intenciones comunicativas generales asociadas a dichos patrones.
+        9. Reconocimiento y uso de convenciones ortográficas y significados e intenciones comunicativas asociados a los formatos, patrones y elementos gráficos.
+        10. Integración de convenciones y estrategias conversacionales, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, reformular, comparar y contrastar, resumir y parafrasear, colaborar, negociar significados, detectar la ironía, etc.
+        11. Acopio y uso de recursos para el aprendizaje y estrategias de búsqueda y selección de información y curación de contenidos: diccionarios, libros de consulta, bibliotecas, mediatecas, etiquetas en la red, recursos digitales e informáticos, etc.
+        12. Respeto por la propiedad intelectual y los derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.
+        13. Gestión y uso de herramientas analógicas y digitales para la comprensión, producción y coproducción oral, escrita y multimodal; y de plataformas virtuales de interacción, colaboración y cooperación educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera.
+    - curso: "2.º Bachillerato"
+      bloque: "II. Plurilingüismo"
+      contenido: |
+        1. Manejo de estrategias y empleo de técnicas para responder eficazmente y con un alto grado de autonomía, adecuación y corrección a una necesidad comunicativa concreta, superando las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio.
+        2. Selección y empleo de estrategias para identificar, organizar, retener, recuperar y utilizar creativamente unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.
+        3. Gestión y uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas para la autoevaluación, la coevaluación y la autorreparación.
+        4. Utilización de expresiones y léxico habitual y específico para reflexionar y compartir la reflexión sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).
+        5. Comparación sistemática entre lenguas a partir de elementos de la lengua extranjera y otras lenguas: origen y parentescos.
+    - curso: "2.º Bachillerato"
+      bloque: "III. Interculturalidad"
+      contenido: |
+        1. Valoración e integración de aspectos socioculturales y sociolingüísticos relativos a convenciones sociales, normas de cortesía y registros; instituciones, costumbres y rituales; valores, normas, creencias y actitudes; estereotipos y tabúes; lenguaje no verbal; historia, cultura y comunidades, y su comparación con los característicos de Canarias; relaciones interpersonales y procesos de globalización en países donde se habla la lengua extranjera.
+        2. Gestión y aplicación de estrategias para entender y apreciar la diversidad lingüística, cultural y artística, atendiendo a valores ecosociales, de desarrollo sostenible y democráticos.
+        3. Selección y elaboración de estrategias de prevención, detección, rechazo y actuación ante usos discriminatorios del lenguaje verbal y no verbal, prestando especial atención a la discriminación por razón de género o diversidad funcional.
+    - curso: "2.º Bachillerato"
+      bloque: "IV. Dimensiones interpersonal e intrapersonal"
+      contenido: |
+        1. Aprecio y valoración de la lengua extranjera como medio de comunicación y entendimiento entre pueblos, como facilitador del acceso a otras culturas y otras lenguas y como herramienta de participación social y de enriquecimiento personal.
+        2. Empleo de estrategias colaborativas y de dinámicas de trabajo de grupo relativas a las relaciones interpersonales.
+        3. Empatía, valoración y respeto por las opiniones de los demás y sus puntos de vista.
+        4. Interés e iniciativa en la realización de intercambios comunicativos a través de diferentes medios con hablantes o estudiantes de la lengua extranjera, así como por conocer informaciones culturales de los países donde se habla la lengua extranjera y compartir aquellas relativas a Canarias.
+        5. Desarrollo de la autoconfianza, la iniciativa y la asertividad.
+        6. Fomento de la motivación por el aprendizaje de la lengua extranjera.
+        7. Visión creativa y emocional del aprendizaje.
+        8. Empleo de estrategias de aprendizaje autónomo y pensamiento crítico.
+        9. Aprecio y valoración de la diversidad y el patrimonio natural, lingüístico, cultural y artístico en lo referente a las relaciones interpersonales en países donde se habla la lengua extranjera, y diferencias y similitudes con aquel propio de Canarias.
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "Extracción completada el 2026-08-05 a partir de 07_corpus_ia/textos-completos/texto-oficial-CUR-054-segunda-lengua-extranjera.txt (texto plano oficial del PDF curricular Segunda Lengua Extranjera I y II, FTE-012/FTE-009; materia de oferta obligatoria en Alemán, Francés o Italiano). Las 6 competencias específicas llevan enunciado_oficial literal y descriptores operativos por curso (DEC-0008). criterios_evaluacion recoge los 12 criterios de 1.º Bachillerato y los 12 de 2.º Bachillerato (3+3+2+2+1+1 en cada curso), agrupados por curso con id y texto literal completo. saberes_basicos recoge íntegros los cuatro bloques oficiales (I. Comunicación; II. Plurilingüismo; III. Interculturalidad; IV. Dimensiones interpersonal e intrapersonal) para cada uno de los dos cursos, preservando la numeración original del decreto. Los cuatro elementos de DEC-0004 quedan completos."

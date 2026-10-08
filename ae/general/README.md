@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): outside any 
 
 Jurisdiction: `ae` · Practice: `general` · Skill language: ar, en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`Inst — UAE Ministry of Justice Integration`](skills/inst-uae-moj-integration-sboghossian/) | Use when a matter or query involves the UAE Ministry of Justice, emirate-level court systems (Dubai… |
 | [`Justinian — UAE Bar Exam Prep`](skills/justinian-bar-exam-prep-uae-sboghossian/) | Use when a user is preparing for the UAE legal profession qualification examination under the UAE… |
 | [`Social Media / Knowledge Content Prompt`](skills/prompt-pack-social-media-knowledge-content-prompt-sboghossian/) | Use when a law firm, legal team, or lawyer needs to create accessible knowledge content for professional… |
 

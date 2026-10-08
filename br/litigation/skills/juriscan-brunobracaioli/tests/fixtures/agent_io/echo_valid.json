@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "agent": "juriscan-echo",
+  "input_echo": "selftest ping",
+  "notes": "happy path"
+}

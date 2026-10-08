@@ -1,0 +1,18 @@
+{
+  "name": "bo-general",
+  "displayName": "General — BO",
+  "version": "0.1.0",
+  "description": "General skills for BO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "bo",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-bolivia-orwel",
+    "skills/analisis-jurisprudencial-bolivia-orwel",
+    "skills/due-diligence-general-bolivia-orwel",
+    "skills/elaboracion-concepto-juridico-bolivia-orwel",
+    "skills/investigacion-juridica-bolivia-orwel"
+  ]
+}

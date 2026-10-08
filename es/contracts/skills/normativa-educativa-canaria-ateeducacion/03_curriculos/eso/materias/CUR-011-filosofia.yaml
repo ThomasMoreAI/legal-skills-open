@@ -1,0 +1,55 @@
+id: CUR-011
+titulo: "Filosofía — ESO Canarias"
+etapa: "eso"
+materia: "Filosofía"
+ambito: null
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Investigar y seleccionar información significativa sobre interrogantes, problemas y conceptos fundamentales de la filosofía."
+      enunciado_oficial: "Investigar y seleccionar información significativa sobre interrogantes, problemas y conceptos fundamentales de la filosofía, para desarrollar una actitud indagadora y crítica que reconozca el papel del pensamiento filosófico como saber crítico que aspira a fundamentar y argumentar sobre los problemas de la vida y de la realidad, tanto desde una vertiente teórica como práctica."
+      descriptores:
+        "4.º ESO": [CCL2, CCL3, STEM1, CD1, CD2]
+    - codigo: "C2"
+      enunciado_resumido: "Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática."
+      enunciado_oficial: "Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática a través de coloquios u otras actividades para resolver supuestos prácticos contextualizados en los que se apliquen sus deliberaciones, evitando modos dogmáticos y falaces, intercambiando ideas y desarrollando un criterio propio para el ejercicio de una ciudadanía activa y democrática."
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, CP3, CD3, CPSAA3, CPSAA4, CC3, CE1]
+    - codigo: "C3"
+      enunciado_resumido: "Investigar acerca de los principales interrogantes de la filosofía política."
+      enunciado_oficial: "Investigar acerca de los principales interrogantes de la filosofía política, atendiendo a la utilidad del pensamiento utópico y los conceptos de justicia, libertad y creatividad, a través de la creación de proyectos o afrontando retos y problemas de interés personal y colectivo, para valorar la dimensión práctica de la razón como orientadora de la acción humana y de la libertad como condición básica de la capacidad creadora."
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, STEM1, CD3, CPSAA3, CPSAA4, CC3, CE1, CE3, CCEC3]
+  criterios_evaluacion:
+    - curso: "4.º ESO"
+      criterios:
+        - "1.1. Construir un adecuado concepto de la filosofía y de su dimensión crítica, reconociendo las diversas reflexiones y soluciones dadas en el pensamiento filosófico sobre la realidad, la ciencia, el ser humano y la sociedad, utilizando distintas fuentes de información (internet, textos filosóficos, textos literarios, etc.), desarrollando así, una actitud indagadora y crítica en armonía con las demás personas."
+        - "2.1. Diferenciar en debates, tertulias u otros foros de comunicación, algunas de las aportaciones de la filosofía a la definición del ser humano y su relación con la naturaleza y la cultura. Además, explicar, a través de lecturas comprensivas de textos sencillos y empleando el trabajo cooperativo, algunas teorías psicológicas y filosóficas sobre la personalidad, las emociones y la identidad."
+        - "2.2. Reconocer, a través de lecturas y comentarios de diferentes tipos de textos, la dimensión social, cultural, creativa e innovadora del ser humano como transformador del medio y el papel de la cultura como instrumento de adaptación, así como argumentar las propias opiniones sobre las teorías relativas al origen de la sociedad, la dicotomía individuo-sociedad, el proceso de socialización y el análisis crítico de los conceptos de civilización, etnocentrismo, relativismo cultural y la influencia de la tecnología digital en la vida cotidiana."
+        - "3.1. Valorar la justicia y la libertad, a partir de la investigación y el análisis crítico de distintas formas de gobierno, la función de las utopías, justificando sus propias ideas y proponiendo posibles alternativas."
+        - "3.2. Utilizar el arte como expresión de las ideas filosóficas, desarrollando proyectos que incluyan recursos tanto analógicos como digitales integrando un pensamiento creativo y racional con un fin crítico y transformador de la realidad, fomentando la reflexión estética en torno al ideal de belleza."
+  saberes_basicos:
+    - bloque: "Bloque I — La Filosofía y sus preguntas"
+      cursos: ["4.º ESO"]
+      detalles: "El origen de la reflexión filosófica. La pregunta por la realidad: soluciones de los presocráticos y más allá de los mitos. Análisis y disertación en torno a Sócrates y los Sofistas; el discurso filosófico y la retórica. Identificación de las relaciones entre ciencia y filosofía; las pseudociencias."
+    - bloque: "Bloque II — Identidad y socialización"
+      cursos: ["4.º ESO"]
+      detalles: "Identidad personal: aportaciones de la filosofía a la definición del ser humano (filosofía griega); teorías psicológicas y filosóficas sobre la personalidad (¿quién soy?); naturaleza y cultura (esencialismo y constructivismo, dimensión social y cultural de la identidad, roles de género); las emociones, la inteligencia emocional y el control de la frustración. Socialización: relación individuo-sociedad; origen de la sociedad (naturalismo y contractualismo, civilización, etnocentrismo y relativismo cultural); reflexión crítica sobre cultura y tecnologías digitales."
+    - bloque: "Bloque III — Pensamiento y transformación. Filosofía práctica"
+      cursos: ["4.º ESO"]
+      detalles: "Reflexión sobre la posibilidad de la libertad: determinismo, azar y voluntad; concepto de justicia y regímenes políticos totalitarios; utopías y distopías, utopías feministas y la mujer en las sociedades distópicas; estética, cánones de belleza y creatividad; valoración del arte como expresión de las ideas filosóficas."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM1", "CD1", "CD2", "CD3", "CPSAA3", "CPSAA4", "CC3", "CE1", "CE3", "CCEC3"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Filosofía en 4.º de ESO Canarias, materia optativa regulada por el Decreto 30/2023 (art. 25.5), con tres competencias específicas (C1-C3) y cinco criterios de evaluación. Saberes organizados en tres bloques: «La filosofía y sus preguntas», «Identidad y socialización» y «Pensamiento y transformación. Filosofía práctica»."
+observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación, Universidades, Cultura y Deportes del Gobierno de Canarias (Filosofia_ESO.pdf). Los enunciados de competencias específicas, criterios de evaluación y saberes básicos se han recogido literalmente."

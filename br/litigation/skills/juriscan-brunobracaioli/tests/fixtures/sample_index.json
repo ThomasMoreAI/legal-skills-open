@@ -1,0 +1,55 @@
+{
+  "generated_at": "2025-07-02T10:00:00",
+  "source_file": "processo_teste.pdf",
+  "pdf_info": {"pages": 250, "file_size_mb": 12.5, "title": null},
+  "processo_number": "1234567-89.2025.8.26.0100",
+  "total_characters": 150000,
+  "total_chunks": 5,
+  "chunks": [
+    {
+      "index": 0,
+      "label": "PETIÇÃO INICIAL",
+      "char_count": 8500,
+      "primary_date": "05/02/2025",
+      "dates_found": ["05/02/2025", "15/03/2020", "10/01/2025"],
+      "processo_number": "1234567-89.2025.8.26.0100",
+      "chunk_file": "chunks/00-peticao-inicial.txt"
+    },
+    {
+      "index": 1,
+      "label": "CONTESTAÇÃO",
+      "char_count": 12000,
+      "primary_date": "10/03/2025",
+      "dates_found": ["10/03/2025"],
+      "processo_number": "1234567-89.2025.8.26.0100",
+      "chunk_file": "chunks/01-contestacao.txt"
+    },
+    {
+      "index": 2,
+      "label": "RÉPLICA",
+      "char_count": 6000,
+      "primary_date": "25/03/2025",
+      "dates_found": ["25/03/2025"],
+      "processo_number": null,
+      "chunk_file": "chunks/02-replica.txt"
+    },
+    {
+      "index": 3,
+      "label": "SENTENÇA",
+      "char_count": 15000,
+      "primary_date": "01/07/2025",
+      "dates_found": ["01/07/2025", "15/05/2025"],
+      "processo_number": "1234567-89.2025.8.26.0100",
+      "chunk_file": "chunks/03-sentenca.txt"
+    },
+    {
+      "index": 4,
+      "label": "ACÓRDÃO",
+      "char_count": 20000,
+      "primary_date": "15/10/2025",
+      "dates_found": ["15/10/2025"],
+      "processo_number": "1234567-89.2025.8.26.0100",
+      "chunk_file": "chunks/04-acordao.txt"
+    }
+  ]
+}

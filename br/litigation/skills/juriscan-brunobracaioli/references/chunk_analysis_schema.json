@@ -1,0 +1,195 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChunkAnalysis",
+  "description": "Schema for per-chunk analysis files (chunks/NN.analysis.json) produced during SKILL.md Step 3b. Each file represents the semantic enrichment of one physical chunk, to be merged into analyzed.json by merge_chunk_analysis.py.",
+  "type": "object",
+  "required": ["index", "tipo_peca"],
+  "additionalProperties": false,
+  "properties": {
+    "index": {
+      "type": ["integer", "string"],
+      "description": "Chunk index matching index.json. May be a string with suffix (e.g. '2a', '2b') when split-semantic is used for chunks grouping multiple pieces."
+    },
+    "tipo_peca": {
+      "type": "string",
+      "enum": [
+        "PETIÇÃO INICIAL",
+        "CONTESTAÇÃO",
+        "RÉPLICA",
+        "RECONVENÇÃO",
+        "ATA DE AUDIÊNCIA",
+        "LAUDO PERICIAL",
+        "PARECER MP",
+        "SENTENÇA",
+        "ACÓRDÃO",
+        "DESPACHO",
+        "APELAÇÃO",
+        "AGRAVO",
+        "EMBARGOS",
+        "RECURSO ESPECIAL",
+        "RECURSO EXTRAORDINÁRIO",
+        "CONTRARRAZÕES",
+        "MEMORIAIS",
+        "CUMPRIMENTO DE SENTENÇA",
+        "IMPUGNAÇÃO AO CUMPRIMENTO",
+        "PENHORA",
+        "ALVARÁ",
+        "MANDADO/CARTA",
+        "CERTIDÃO",
+        "OFÍCIO",
+        "PROCURAÇÃO",
+        "TUTELA",
+        "LIMINAR/CAUTELAR",
+        "DOCUMENTO_COMPLETO"
+      ],
+      "description": "Canonical piece type from piece_type_taxonomy.json. No variants allowed."
+    },
+    "chunk_file_override": {
+      "type": "string",
+      "description": "Optional. When using split-semantic (multiple pieces in one physical chunk), set this to the original chunk_file path. The merge script will reuse the same physical file for all entries with the same chunk_file_override."
+    },
+    "primary_date": {
+      "type": ["string", "null"],
+      "description": "Main date of this specific piece in DD/MM/YYYY format. Critical for split-semantic: each piece should declare its own date (sentença 12/12/2024, apelação 15/01/2025, etc.), otherwise the merge script will inherit the parent chunk's date which may be wrong. Used for chronological sorting in the final report."
+    },
+    "dates_found": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "All dates mentioned in this piece (optional). Parallel to primary_date but lists every date for completeness."
+    },
+    "partes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "autor": { "type": "array", "items": { "type": "string" } },
+        "reu": { "type": "array", "items": { "type": "string" } },
+        "advogados_autor": { "type": "array", "items": { "type": "string" } },
+        "advogados_reu": { "type": "array", "items": { "type": "string" } },
+        "juiz": { "type": ["string", "null"] },
+        "vara": { "type": ["string", "null"] },
+        "perito": { "type": ["string", "null"] }
+      }
+    },
+    "pedidos": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Required for PETIÇÃO INICIAL, RECONVENÇÃO, and all recursos."
+    },
+    "argumentos_chave": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "valores": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "causa": { "type": ["string", "null"] },
+        "condenacao": { "type": ["string", "null"] },
+        "honorarios": { "type": ["string", "null"] },
+        "outros": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["descricao", "valor"],
+            "properties": {
+              "descricao": { "type": "string" },
+              "valor": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "fatos_relevantes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "decisao": {
+      "type": ["string", "null"],
+      "description": "Required for SENTENÇA, ACÓRDÃO, DESPACHO."
+    },
+    "resumo": {
+      "type": "string",
+      "description": "One-paragraph narrative summary of what this piece contains."
+    },
+    "acordao_structure": {
+      "type": ["object", "null"],
+      "description": "Required for ACÓRDÃO. Tripartite parsing.",
+      "additionalProperties": false,
+      "properties": {
+        "ementa": { "type": ["string", "null"] },
+        "relatorio": { "type": ["string", "null"] },
+        "voto_relator": { "type": ["string", "null"] },
+        "votos_divergentes": { "type": "array", "items": { "type": "string" } },
+        "dispositivo": { "type": ["string", "null"] },
+        "resultado": {
+          "type": ["string", "null"],
+          "enum": ["PROVIDO", "DESPROVIDO", "PARCIALMENTE_PROVIDO", "NÃO_CONHECIDO", null]
+        },
+        "votacao": {
+          "type": ["string", "null"],
+          "enum": ["UNÂNIME", "MAIORIA", null]
+        }
+      }
+    },
+    "artigos_lei": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cited law articles. Ex: 'CPC art. 942', 'CF art. 5º, LV'."
+    },
+    "jurisprudencia": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cited precedents. Ex: 'STJ REsp 1.234.567/SP'."
+    },
+    "binding_precedents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tipo", "numero"],
+        "properties": {
+          "tipo": {
+            "type": "string",
+            "enum": ["SUMULA_VINCULANTE", "IRDR", "IAC", "REPERCUSSAO_GERAL", "RECURSO_REPETITIVO"]
+          },
+          "numero": { "type": "string" },
+          "tribunal": { "type": "string" },
+          "tese": { "type": "string" },
+          "alinhamento": {
+            "type": "string",
+            "enum": ["FAVORAVEL_AUTOR", "FAVORAVEL_REU", "NEUTRO", "INAPLICAVEL"]
+          }
+        }
+      }
+    },
+    "prazos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tipo"],
+        "properties": {
+          "tipo": { "type": "string" },
+          "data_inicio": { "type": ["string", "null"] },
+          "data_fim": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "citation_spans": {
+      "type": "array",
+      "description": "Verbatim quotes from the source chunk grounding structured claims.",
+      "items": {
+        "type": "object",
+        "required": ["assertion", "source_text"],
+        "properties": {
+          "assertion": { "type": "string" },
+          "source_text": { "type": "string" },
+          "char_start": { "type": ["integer", "null"] },
+          "char_end": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "instancia": {
+      "type": ["string", "null"],
+      "enum": ["1a_instancia", "tj", "stj", "stf", null]
+    }
+  }
+}

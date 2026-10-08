@@ -1,0 +1,4 @@
+interface:
+  display_name: "Copilota Jurídica"
+  short_description: "Adaptador Codex para tutoria jurídica por voz"
+  default_prompt: "Use $copilota-juridica como adaptador Codex para organizar meu semestre e iniciar uma tutoria socrática por voz."

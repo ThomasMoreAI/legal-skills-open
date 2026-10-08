@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "juriscan/agent_schemas/echo_output.json",
+  "title": "juriscan-echo output",
+  "description": "Trivial output produced by the juriscan-echo subagent during /juriscan --selftest. Verifies the end-to-end contract (Task call -> JSON file -> validate -> audit log) before real subagents exist.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ok", "agent", "input_echo"],
+  "properties": {
+    "ok": { "type": "boolean", "const": true },
+    "agent": { "type": "string", "const": "juriscan-echo" },
+    "input_echo": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pa-consumer",
+  "displayName": "Consumer Protection — PA",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/condiciones-generales-4008-betobetico",
+    "skills/entrevista-inicial-consumo-3335-betobetico",
+    "skills/lanzamiento-3990-betobetico"
+  ]
+}

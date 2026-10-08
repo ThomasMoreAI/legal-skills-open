@@ -1,0 +1,44 @@
+{
+  "description": "Processo sintético com ACÓRDÃO DE APELAÇÃO POR MAIORIA (2x1) reformando parcialmente sentença de mérito. Caso crítico: dispara obrigatoriedade do art. 942 CPC (técnica de ampliação do colegiado). O auditor processual (Phase 3) DEVE detectar. Legacy pipeline não detecta — fixture fica como smoke-test baseline.",
+  "pipeline_compat": ["legacy", "agents"],
+  "extraction": {
+    "min_chars": 7000
+  },
+  "chunks": {
+    "min_count": 5,
+    "max_count": 8
+  },
+  "piece_types_present": [
+    "PETIÇÃO INICIAL",
+    "CONTESTAÇÃO",
+    "SENTENÇA",
+    "ACÓRDÃO"
+  ],
+  "text_must_contain": [
+    "MARIA OLIVEIRA TESTE",
+    "CONSTRUTORA EXEMPLO S/A",
+    "DANOS MATERIAIS",
+    "DANOS MORAIS",
+    "27.000",
+    "60.000",
+    "30.000",
+    "15ª Câmara de Direito Privado",
+    "18 de março de 2025",
+    "PARCIAL PROVIMENTO",
+    "maioria",
+    "2 x 1",
+    "VOTO DIVERGENTE",
+    "Des. Terceiro Julgador"
+  ],
+  "multi_instance": true,
+  "instances_present": ["1a_instancia", "tj"],
+  "decision_flow": [
+    "sentenca_condenou_87000",
+    "acordao_reduziu_para_57000"
+  ],
+  "monetary_flow": {
+    "sentenca_total_min": 87000,
+    "acordao_total_min": 57000
+  },
+  "notes": "Invariantes estruturais baseline. A detecção de art. 942 é um invariante SEPARADO em expected_art_942.json e só roda quando pipeline=agents (Phase 3+)."
+}

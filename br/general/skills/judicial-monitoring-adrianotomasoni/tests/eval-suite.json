@@ -1,0 +1,27 @@
+{
+  "version": "4.0",
+  "description": "Suite de avaliação para a skill de monitoramento judicial",
+  "casos": [
+    {
+      "id": "eval-001",
+      "input": "Penhora sobre conta bancária no valor de R$ 200.000,00",
+      "nivel_esperado": "A",
+      "score_min": 75,
+      "score_max": 95
+    },
+    {
+      "id": "eval-002",
+      "input": "Concluso para despacho",
+      "nivel_esperado": "D",
+      "score_min": 0,
+      "score_max": 20
+    },
+    {
+      "id": "eval-003",
+      "input": "Sentença condenatória prolatada – R$ 1.200.000,00",
+      "nivel_esperado": "A",
+      "score_min": 85,
+      "score_max": 100
+    }
+  ]
+}

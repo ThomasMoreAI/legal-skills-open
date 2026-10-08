@@ -1,0 +1,5 @@
+interface:
+  display_name: "Corporate Transactions Ma Specialist"
+  short_description: "Analysiert M&A-, Beteiligungs-, Asset-/Share-Deal-, Umwandlungs- und sonstige Corporate-Transaction-Matters von Struk..."
+policy:
+  allow_implicit_invocation: true

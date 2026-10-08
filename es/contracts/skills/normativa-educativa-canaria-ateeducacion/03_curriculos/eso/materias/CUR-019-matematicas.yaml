@@ -1,0 +1,135 @@
+id: CUR-019
+titulo: "Matemáticas — ESO Canarias"
+etapa: "eso"
+materia: "Matemáticas"
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO (Matemáticas A)", "4.º ESO (Matemáticas B)"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_oficial: "Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas, aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de proceder y obtener posibles soluciones."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "2.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "3.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+    - codigo: "C2"
+      enunciado_oficial: "Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad desde un punto de vista matemático y su repercusión global."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "2.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "3.º ESO": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD2, CPSAA4, CPSAA5, CC2, CC3, CE3]
+    - codigo: "C3"
+      enunciado_oficial: "Formular y comprobar conjeturas sencillas o plantear problemas de forma autónoma, reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento."
+      descriptores:
+        "1.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "2.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "3.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+    - codigo: "C4"
+      enunciado_oficial: "Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar situaciones y resolver problemas de forma eficaz."
+      descriptores:
+        "1.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "2.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "3.º ESO": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA4, CE3]
+    - codigo: "C5"
+      enunciado_oficial: "Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando conceptos y procedimientos, para desarrollar una visión de las matemáticas como un todo integrado."
+      descriptores:
+        "1.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "2.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "3.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "4.º ESO (Matemáticas A)": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "4.º ESO (Matemáticas B)": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para aplicarlos en situaciones diversas."
+      descriptores:
+        "1.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "2.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "3.º ESO": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "4.º ESO (Matemáticas A)": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+        "4.º ESO (Matemáticas B)": [CCL3, STEM1, STEM2, STEM3, STEM5, CD2, CD3, CC4, CE3, CCEC1]
+    - codigo: "C7"
+      enunciado_oficial: "Representar, de forma individual y colectiva, conceptos, procedimientos, información y resultados matemáticos, usando diferentes tecnologías, para visualizar ideas y estructurar procesos matemáticos."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "3.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+    - codigo: "C8"
+      enunciado_oficial: "Comunicar de forma individual y colectiva conceptos, procedimientos y argumentos matemáticos, usando lenguaje oral, escrito o gráfico, utilizando la terminología matemática apropiada, para dar significado y coherencia a las ideas matemáticas."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "3.º ESO": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL2, CCL3, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC3, CCEC4]
+    - codigo: "C9"
+      enunciado_oficial: "Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el disfrute en el aprendizaje de las matemáticas."
+      descriptores:
+        "1.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "2.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "3.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+    - codigo: "C10"
+      enunciado_oficial: "Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y grupal y crear relaciones saludables."
+      descriptores:
+        "1.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "2.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "3.º ESO": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "4.º ESO (Matemáticas A)": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+        "4.º ESO (Matemáticas B)": [CCL1, CCL5, STEM3, STEM5, CPSAA1, CPSAA3, CPSAA4, CPSAA5, CC1, CC2, CC3, CE2, CE3]
+  saberes_basicos:
+    - id: sentido-numerico
+      nombre: "I. Sentido numérico"
+      descripcion: "Conteo, cantidad, operaciones, relaciones y razonamiento proporcional."
+    - id: sentido-medida
+      nombre: "II. Sentido de la medida"
+      descripcion: "Magnitud, estimación, medición y probabilidad como medida de incertidumbre."
+    - id: sentido-espacial
+      nombre: "III. Sentido espacial"
+      descripcion: "Figuras geométricas, localización y sistemas de representación."
+    - id: sentido-algebraico
+      nombre: "IV. Sentido algebraico"
+      descripcion: "Patrones, modelo matemático, variable y pensamiento computacional."
+    - id: sentido-estocastico
+      nombre: "V. Sentido estocástico"
+      descripcion: "Organización y análisis de datos, incertidumbre y probabilidad."
+    - id: sentido-socioafectivo
+      nombre: "VI. Sentido socioafectivo"
+      descripcion: "Creencias, actitudes, emociones y trabajo en equipo."
+  criterios_evaluacion:
+    - curso: "1º-3º ESO"
+      criterios:
+        - id: 1.1
+          texto: "Interpretar problemas matemáticos identificando datos y objetivos con herramientas manuales o digitales."
+        - id: 4.1
+          texto: "Descomponer problemas en partes más sencillas para facilitar su interpretación computacional."
+    - curso: "4º ESO A"
+      criterios:
+        - id: 1.1
+          texto: "Analizar problemas cotidianos identificando datos y compartiendo soluciones prácticas."
+        - id: 6.1
+          texto: "Identificar las matemáticas en situaciones reales de consumo o finanzas personales."
+    - curso: "4º ESO B"
+      criterios:
+        - id: 1.2
+          texto: "Seleccionar y aplicar estrategias de resolución analizando su eficiencia y rigor."
+        - id: 3.1
+          texto: "Formular conjeturas de forma autónoma reconociendo el valor de la argumentación."
+relaciones:
+  desarrolla_a: [NOR-005]
+  relacionada_con: []
+observaciones: "En 1.º a 3.º de ESO el Decreto 30/2023 agrupa las diez competencias específicas de dos en dos (C1+C2, C3+C4, C5+C6, C7+C8, C9+C10) bajo un único bloque competencial y un único conjunto de descriptores por curso; en 4.º ESO la materia se desdobla en dos itinerarios, Matemáticas A y Matemáticas B, cada uno con su propio bloque competencial. Las diez competencias (C1-C10) llevan ahora el enunciado literal del decreto y sus descriptores operativos del perfil de salida por curso e itinerario (DEC-0008), verificados con 11_calidad/extraer_descriptores.py; el decreto asigna el mismo conjunto de descriptores en los cinco bloques para cada pareja de competencias. Los criterios de evaluación y los saberes básicos ya recogidos en la ficha se mantienen sin cambios; no reproducen los criterios íntegros del anexo, solo una selección representativa."

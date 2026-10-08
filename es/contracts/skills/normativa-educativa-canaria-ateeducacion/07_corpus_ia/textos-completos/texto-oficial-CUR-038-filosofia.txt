@@ -1,0 +1,804 @@
+ID interno: CUR-038
+Título oficial: Filosofía — 1.º Bachillerato Canarias
+Fuente oficial: FTE-012 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.pdf
+URL de acceso oficial: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+FILOSOFÍA
+Introducción
+La materia de Filosofía en Bachillerato ofrece al alumnado un escenario abierto a sus inquietudes y
+facilitador de la reflexión en torno a los grandes interrogantes vitales que los acompañan en este
+período  de  sus  vidas.  El  quehacer  filosófico  debe  servir  para  despertar  y  potenciar  los
+cuestionamientos propios de la edad. Además, supone ofrecer al alumnado herramientas necesarias
+para  abordar  dichas  preocupaciones  desde  perspectivas  plurales  y  con  rigor  argumentativo
+creciente.  Al  mismo  tiempo,  genera  entornos  en  los  que  compartir  las  preocupaciones  más
+profundas, visibilizar los problemas sociales más acuciantes, utilizando el diálogo para contribuir a
+una convivencia adecuada y a la mejora del entorno social y natural.
+Todos estos rasgos del saber filosófico hacen que la materia ofrezca un espacio idóneo para el
+desarrollo integrado de las competencias clave y los objetivos de etapa de Bachillerato. En este
+sentido, la indagación en torno a problemas universales y fundamentales, tales como los referidos a
+la naturaleza última de la realidad, la verdad, la justicia, la belleza o la propia identidad y dignidad
+humanas, junto a la reflexión crítica sobre las ideas y prácticas que constituyen nuestro entorno
+cultural,  sirven,  simultáneamente,  al  propósito  de  promover  la  madurez  personal  y  social  del
+alumnado y al desarrollo tanto de su dimensión intelectual como de aquellos otros aspectos éticos,
+políticos, cívicos, emocionales y estéticos que configuran su personalidad. La educación filosófica
+resulta imprescindible para la articulación de una sociedad democrática en torno a los principios,
+valores y prácticas éticas, políticas y cívicas cuya legitimidad y eficacia precisan de la deliberación
+dialógica, la convicción racional y la autonomía de juicio de la ciudadanía. La filosofía, por último,
+supone una reflexión crítica sobre los sentimientos y emociones, presentes en todos los ámbitos,
+desde la estética a la teorética, pasando por la ética.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+La  contribución  de  la  materia  a  los  objetivos  de  etapa  de  Bachillerato  la  encontramos  en  el
+escenario de diálogo e intercambio de ideas que proporciona la praxis de la filosofía en el aula
+como un laboratorio experimental idóneo para el ejercicio de hábitos democráticos (a), para la
+canalización de las iniciativas del alumnado y el trabajo en equipo (k), así como para el análisis y
+valoración crítica de las realidades del mundo contemporáneo (h). Asimismo, la materia se nutre de
+textos y discursos que sirven para afianzar hábitos de estudio y de lectura (d), contribuyendo al
+dominio de la expresión lingüística (e). De igual forma, potencia el uso de las tecnologías digitales,
+principalmente para la búsqueda de información y la presentación de productos propios (g).
+1
+
+=== Página 2 ===
+
+Las  dimensiones estéticas, éticas y políticas de  la temática filosófica  ponen el foco  sobre  los
+prejuicios sociales y sexuales, desvelándose para su deconstrucción. Todo ello refuerza el respeto
+hacia la diversidad sexual, la igualdad de género y el enriquecimiento intercultural, alejando al
+alumnado de posiciones dogmáticas y fomentando el rechazo por todas las formas de violencia y
+discriminación (b) y (c).
+La  materia  también  se  centra  en  el  análisis  de  los  fundamentos  y  métodos  de  conocimiento
+científico, promoviendo, de  esa  manera,  la elección de explicaciones derivadas de los saberes
+racionales, valorando críticamente tanto las ventajas adaptativas de los avances tecnológicos (i)
+como sus efectos en el medioambiente, alejándose de discursos pseudocientíficos y falaces (j).
+Finalmente, la estética, como rama de la filosofía, favorece la curiosidad y el acercamiento a
+expresiones  de  carácter  artístico,  lo  que  incide  en  el  cultivo  de  la  sensibilidad  artística  y  la
+valoración crítica del concepto de belleza (l).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme  a  los  descriptores  operativos  establecidos  en  la  progresión  del  Perfil  de  salida  del
+alumnado al término de la enseñanza básica, que identifica el grado de desarrollo y adquisición de
+las competencias clave para el Bachillerato.
+La propia naturaleza abierta y plural de la filosofía constituye una oportunidad para el abordaje y
+logro de todas y cada una de las competencias clave. Desde la reflexión sobre la identidad, la
+cultura, las reglas lógicas de la comunicación verbal y el pensamiento, la verdad y los fundamentos
+del conocimiento, la naturaleza de las normas, leyes y valores morales, hasta las manifestaciones
+culturales, con especial mención al arte y la belleza, conectan con dichas competencias y, a su vez,
+con los objetivos de Bachillerato.
+La materia de Filosofía otorga un espacio privilegiado al manejo de las destrezas requeridas para el
+desarrollo de la Competencia en comunicación lingüística (CCL), tanto por su contribución al
+hábito de la lectura como por su vinculación con la identificación de problemas filosóficos en los
+textos,  el  análisis  argumental  de  discursos  orales  y  escritos,  la  elaboración  de  comentarios,
+disertaciones,  la  participación  en  debates,  presentaciones,  confrontación  de  ideas,  etc.  Esta
+competencia presupone, además, el desarrollo de destrezas vinculadas con el tratamiento de la
+información (resúmenes, esquemas, mapas conceptuales, tablas comparativas, cronológicas, etc.),
+con el uso de diferentes fuentes (internet, biblioteca escolar, etc.), así como con la selección y el
+contraste de información y la producción de textos en distintos formatos.
+En cuanto a la Competencia matemática y competencia en ciencia tecnología e ingeniería (STEM),
+la  materia  contribuye  a su desarrollo  en la medida  en que, por un lado,  el alumnado analiza
+críticamente diferentes tipos de saberes, reconociendo la validez y rigor del método científico,
+reflexionando sobre su alcance, límites, posibles consecuencias éticas del avance tecnológico e
+implicaciones filosóficas. Por otro lado, se refuerzan actitudes y valores basados en el rigor, el
+respeto a los datos y la fiabilidad, así como el aprecio a la lógica como condición fundamental de la
+comunicación y como  instrumento para  desarrollar  juicios  y argumentos críticos sobre hechos
+científicos y tecnológicos. La materia supone, además, un acercamiento a textos científicos sobre el
+universo, la vida y el lugar del ser humano en el cosmos como vía para el pensamiento crítico.
+2
+
+=== Página 3 ===
+
+El desarrollo de la Competencia digital (CD) se ve favorecido al propiciar el uso creativo, crítico y
+seguro de las tecnologías digitales en la realización de tareas de la materia. Estas tareas suponen la
+movilización de saberes relacionados con el uso de los recursos tecnológicos disponibles con el fin
+de seleccionar información sobre los conceptos fundamentales de la materia en función de su
+validez y fiabilidad, manejar motores de búsqueda y bases de datos, identificar los programas y
+aplicaciones más adecuados al tipo de producción seleccionando los formatos apropiados para su
+comunicación (texto, audio, vídeo, imágenes, etc.), interaccionar socialmente con las tecnologías
+digitales para la creación de contenidos, etc. Exige, en definitiva, una actitud activa, crítica y
+realista hacia las tecnologías, respetando los principios éticos en su uso.
+En lo que se refiere a la Competencia personal, social y de aprender a aprender (CPSAA), la
+materia, al perseguir una reflexión profunda, al abrir grandes interrogantes, suscitar la duda y el
+asombro, contribuye al razonamiento crítico sobre la propia identidad, el manejo inteligente de las
+emociones, el ejercicio dialéctico y el diseño de propuestas constructivas para afrontar los retos
+futuros. A través del planteamiento dialógico de las cuestiones filos óficas, promueve el contraste e
+intercambio de ideas, favoreciendo el juicio propio, la autonomía de criterio, la madurez personal y
+la sensibilización ante los problemas sociales. Al ser una materia eminentemente reflexiva, ofrece
+pautas para la identificación de los propios procesos de conocimiento, ayudando a la transferencia y
+aplicación de los mismos en situaciones de la vida cotidiana.
+La materia potencia el desarrollo de la Competencia ciudadana (CC) a través del análisis crítico de
+los problemas éticos y de convivencia de nuestro tiempo, haciendo uso del diálogo y de los nuevos
+saberes movilizados por la actividad filosófica. Refuerza, por ello, las destrezas necesarias para la
+interpretación  y  contextualización  sociocultural  de  las  problemáticas  y  posturas  tratadas.  Esta
+competencia exige habilidades para el debate y la argumentación crítica como herramientas contra
+el dogmatismo, la arbitrariedad, los prejuicios, el autoritarismo y la violencia. Al mismo tiempo,
+requiere habilidades para el trabajo colaborativo, así como la capacidad para expresar y comprender
+puntos  de  vista  diferentes  y  comunicarse  de  manera  constructiva,  en  distintos  entornos  y
+situaciones, favoreciendo la eliminación de los prejuicios, estereotipos y roles en función del sexo.
+La  Competencia  emprendedora  (CE)  se  favorece  a  través  del  desarrollo  de  iniciativas  que
+promueven la capacidad de pensar de forma creativa. También a través de la valoración del trabajo
+de  personas  emprendedoras  e  innovadoras  que  han  facilitado  el  avance  de  la  cultura  y  la
+transformación de la realidad, reconociendo y utilizando las aportaciones y oportunidades de la
+disciplina,  como  la  razón  crítica  y  la  lógica,  en  la  elaboración  en  equipo  de  producciones  y
+proyectos, por ejemplo, el diseño de un plan empresarial en el que se gestionen recursos similar al
+modelo del comercio justo y de las empresas sociales, integrando la defensa de valores éticos que
+deben regir en el mundo laboral, social y natural. Estas producciones movilizan en el alumnado su
+capacidad para tomar decisiones, cumplir y comunicar objetivos, así como habilidades para afrontar
+el riesgo y la incertidumbre, desarrollar la capacidad de liderazgo y delegación, el sentido de la
+responsabilidad, la capacidad de adaptación al cambio, la resolución de problemas, etc.
+Finalmente, la materia contribuye a la Competencia en conciencia y expresiones culturales (CCEC)
+a través del conocimiento de las aportaciones al campo de la estética, descubriendo sus relaciones
+con las artes plásticas, escénicas, la literatura y la música. Se fomenta la reflexión y valoración de la
+capacidad simbólica y creativa para el avance y transformación cultural y social y para la utilización
+como  medio  de  comunicación  y  expresión  de  proyectos  y  tareas  individuales  y  cooperativas.
+Impulsa, además, actitudes y valores relacionados con la libertad de expresión, la actitud abierta y
+respetuosa ante la diversidad cultural y la valoración del patrimonio artístico, especialmente el
+3
+
+=== Página 4 ===
+
+canario.  Filosofía,  finalmente,  propicia  el  disfrute,  la  participación  y  utilización  de  diversas
+manifestaciones culturales y artísticas para compartir conocimientos, reflexiones y sentimientos.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Filosofía se han establecido nueve competencias específicas que se concretan en
+un total de once  criterios de evaluación. Estos criterios  de evaluación presentan  una marcada
+naturaleza competencial, de manera que se relacionan directamente con los descriptores operativos
+del Perfil de salida a los que contribuye la competencia específica, expresando tanto las capacidades
+y los saberes a adquirir como el contexto y modo de aplicación de dichos aspectos.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+La filosofía nace del asombro y la admiración y se materializa en forma de preguntas radicales,
+universales  y  últimas.  El  reconocimiento  de  dichas  cuestiones  en  los  propios  textos  para  su
+identificación,  razonamiento  y reflexión  es  central,  y  sirve  para  espolear  los cuestionamientos
+naturales propios del alumnado de Bachillerato, despertando el interés por las cuestiones que dan
+sentido y razón a la materia. El ejercicio filosófico, en su cuestionamiento de lo que comúnmente se
+considera verdadero, otorga al conocimiento nuevas perspectivas que sitúan al alumnado en un
+marco idóneo para su discusión. Por medio de la práctica del análisis e interpretación de los textos u
+otros medios de expresión de las ideas filosóficas se canalizan dichas inquietudes y se le acerca a un
+nuevo universo de significados, ofreciéndole las pautas metodológicas necesarias para la reflexión
+en torno a la existencia, la realidad, el valor y el sentido.
+El objetivo fundamental que persigue esta competencia es la toma de conciencia del papel central
+que juegan en la historia de la humanidad y la cultura los grandes interrogantes filosóficos acerca de
+la realidad, de la propia entidad e identidad humana, de sus relaciones teóricas, prácticas y estéticas
+4
+
+=== Página 5 ===
+
+con el entorno, de su universalidad, trascendencia y su carácter ineludible, lo que finalmente supone
+la obligación de afrontar esa experiencia problemática del mundo, de manera consciente reflexiva,
+crítica y rigurosa.
+Competencia específica 2 (C2)
+Para la puesta en práctica de las habilidades fundamentales para la investigación filosófica es
+imprescindible, en el desarrollo  de esta competencia, el manejo  de  recursos que  impliquen  la
+elección  de  criterios  y  el  empleo  de  técnicas  y  procedimientos  de  búsqueda,  organización  y
+evaluación de informaci ón segura y pertinente, tanto digital como en otros formatos y en niveles
+más  formales  y  académicos,  así  como  aquellas  informaciones  y  saberes  generados  por  las
+experiencias de  la  vida  cotidiana.  Para  ello,  es  indispensable  apreciar  el  valor  enriquecedor  e
+insustituible de la lectura, hacer uso de técnicas de estudio básicas y de metodologías específicas
+que sirvan para el desarrollo de actividades de an álisis, interpretación, recensión, evaluación cr ítica
+y filosófica de fuentes escritas u orales, textuales o audiovisuales, ya sean filosóficas o no.
+Los  productos  resultantes  requieren,  a  su  vez,  del  establecimiento  de  pautas  a  seguir  para  la
+realización  y  exposición  pública  de  proyectos  que  pueden  cobrar  la  forma  de  disertaciones
+filosóficas, presentaciones, documentos audiovisuales u otros formatos más innovadores. El fin
+último es proveer al alumnado de una comprensi ón básica e informada de las principales tesis y
+concepciones filosóficas para que de este modo le sea posible, por medio de la argumentación y el
+diálogo, el desarrollo autónomo de criterios, elabore juicios propios y apuntale su madurez.
+Competencia específica 3 (C3)
+En el ámbito filosófico hallamos específicamente los elementos descriptivos y explicativos para la
+identificación, uso y desarrollo de las reglas básicas del pensamiento lógico tanto formal como
+informal. Este hecho supone un privilegio y una ventaja en nuestra materia, puesto que, desde ella,
+con el desarrollo de esta competencia específica, dotamos al alumnado de recursos transversales que
+contribuyen  a  la  comprensión  de  los  distintos  usos  del  lenguaje  y,  de  esta  forma,  orientar  la
+comprensión y construcción de discursos que puedan emplearse en otras áreas. Es inherente a la
+filosofía el estudio detallado y crítico de los fundamentos, condiciones, normas, tipos, propiedades
+y  límites  de  la  argumentación  formal  e  informal,  así  como  evidenciar  su  papel  en  el
+desenvolvimiento del conocimiento científico y racional en general, ayudando a emerger una forma
+de pensar que otorgue veracidad a lo que se presenta con coherencia y trasfondo argumental y
+rechace  dogmas,  opiniones  sesgadas  o  explicaciones  sin  fundamento  lógico.  Finalmente,  es
+indispensable  el  diálogo  filosófico  como  actividad  de  referencia  para  deponer  y  no  otorgar
+credibilidad a los simples discursos persuasivos que buscan la adhesión sentimental de sus oyentes,
+siempre desde el respeto por todas las posiciones y perspectivas basadas en la razón, abiertas al
+diálogo y al cuestionamiento.
+Competencia específica 4 (C4)
+El carácter dialógico del saber filosófico se revela desde sus inicios y, aunque también la filosofía
+sea  entendida  como  contemplación  o  especulación  racional,  el  discurso  oral  empleado  en  la
+conversación y el diálogo es la pieza fundamental para indagar en los supuestos de los que parte
+nuestra concepción del mundo, de la naturaleza y del ser humano. Con esta competencia específica,
+este quehacer compartido contribuye al hábito de la escucha, la apertura hacia enfoques diversos y
+el respeto por las ideas de los demás. En definitiva, se trata de una actividad indispensable para la
+formación de una ciudadanía tolerante y democrática.
+5
+
+=== Página 6 ===
+
+El  diálogo filosófico  potencia  la  aplicación de los saberes, mide  el  grado de comprensión de
+aquellos, volviendo significativo el aprendizaje. Exige, a su vez, una actitud activa y atenta, pone en
+relación  a  los  miembros  del  grupo,  proporcionando  un  espacio  para  el  desenvolvimiento  de
+relaciones sociales sanas y, además, posibilita la actividad colaborativa entre el alumnado, siendo
+útil para desmontar prejuicios y experimentar una sociabilidad que solo puede ser entendida desde
+el respeto y la empatía.
+Competencia específica 5 (C5)
+El carácter abierto, plural y radical de la actividad filosófica permite establecer diferencias con otras
+formas  de  conocimiento.  Con  el  desarrollo  de  esta  competencia  específica  el  alumnado,
+acostumbrado a asumir como verdadero lo que ha sido demostrado por medio de la investigación
+científica, descubre cómo la reflexión filosófica y las respuestas a los grandes interrogantes, sin
+dejar de ser racionales, son diversas, pueden ser opuestas o bien complementarias. Esta singular
+cualidad será tomada no como una desventaja o un defecto, sino como una oportunidad, pues dota
+al pensamiento de una flexibilidad y apertura que lleva al diálogo, a la revisión de lo conjuntamente
+asumido, a la reflexión en torno a la manera de relacionarnos con las demás personas, con el
+entorno,  los  problemas  sociales,  éticos  y  políticos  que  genera  la  convivencia,  así  como  la
+indagación acerca del origen y naturaleza de los valores estéticos.
+Esta competencia, junto con la anteriormente descrita, promueve significativamente la capacidad
+empática del alumnado, su capacidad para comprender y respetar el punto de vista de las demás
+personas, valorar aquellos discursos apoyados en argumentos lógicos y racionales dentro del marco
+de valores éticos universalmente compartidos, observar y participar con criterio en los debates
+públicos, para de esta manera combatir las formas de injusticia y discriminación que no tienen
+cabida en una sociedad democrática.
+Competencia específica 6 (C6)
+No puede darse un verdadero diálogo filosófico y un cuestionamiento profundo de los supuestos
+subyacentes en las ideas acerca de la realidad, la sociedad o el ser humano sin el conocimiento de
+las más importantes y diversas doctrinas aportadas por las pensadoras y pensadores en su intento
+por responder a las cuestiones que acucian al ser humano desde los comienzos de la filosofía. Este
+conjunto de ideas supone una parte primordial del legado cultural, considerando innegable el papel
+fundamental de la filosofía y del conocimiento racional general para la comprensión de nuestra
+situación actual, para entender el pasado y proyectar las bases del futuro. La familiaridad con los
+conceptos, términos e ideas filosóficas heredadas repercuten en una mejor comprensión de los
+problemas que afectan a la sociedad, la convivencia y la definición de lo que nos hace humanos,
+posibilitando  la  actividad  de  filosofar  entendida  como  diálogo  o  reflexión.  Esta  competencia
+específica exige al alumnado un esfuerzo intelectual, un compromiso por el saber y la toma de
+conciencia de la importancia de nuestra materia para construir, desde el diálogo, una sociedad justa
+alejada de imposiciones dogmáticas, enmarcada por los valores democráticos y el respeto por los
+derechos humanos.
+Competencia específica 7 (C7)
+Esta competencia específica enseña a pensar de una forma más global, a establecer vínculos entre
+los  elementos  de  un  sistema,  contribuyendo  así  a  la  comprensión  del  carácter  universal  de
+cuestiones fundamentales acerca de la naturaleza humana, el cosmos, los presupuestos y métodos de
+la ciencia, el fenómeno religioso o la experiencia estética, entre otras. Su modo radical y general
+6
+
+=== Página 7 ===
+
+colabora  a  la  consecución  de  una  comprensión  interdisciplinar,  transdisciplinar  y  sistémica,
+cumpliendo así con el objetivo de una enseñanza integradora de todos los saberes, útil para el
+análisis y entendimiento de aquellos fenómenos sociales, políticos y culturales que conforman los
+diversos modos de vida.
+Dicha utilidad coopera en la aprehensión del modo complejo e interrelacionado en el que se dan las
+cuestiones  ecosociales,  las  consecuencias  económicas  y  políticas  de  la  digitalización  y
+virtualización del entorno, sus implicaciones éticas y los desequilibrios que puede traer consigo el
+avance tecnológico. En este sentido la filosofía práctica, en su vertiente antropológica, sociológica,
+ética,  política  y  estética,  aporta  un  nivel  mayor  de  aprendizaje  significativo  de  aquellos
+acontecimientos de orden mundial o más cercanos que atañen al alumnado y a la ciudadanía en
+general, contribuyendo, así, a la identificación de los vínculos entre lo local y lo global y a una
+perspectiva enriquecedora de la multiculturalidad, llevando al alumnado al conocimiento de las
+controversias y debates en torno a la ciencia, las problemáticas derivadas del contacto entre culturas
+distintas,  y  a  que  pueda  aportar  con  su  creatividad,  en  colaboración  con  los  demás,  nuevas
+perspectivas que confronten los retos de la realidad social en la que vive.
+Competencia específica 8 (C8)
+La  actividad  filosófica  no  se  agota  en  su  vertiente  teórica  de  comprensión  de  los  grandes
+interrogantes en torno al sentido y valor de nuestra existencia, la naturaleza de lo real, las cuestiones
+de carácter ontológico en general y los fundamentos y límites del conocimiento humano. Antes
+bien, su vertiente práctica es clave para esclarecer, someter a juicio, debatir y proponer soluciones a
+la dificultades y problemáticas generadas por las acciones individuales y colectivas sobre el medio
+natural y social, posibilitando, de este modo, una mayor autonomía moral y un criterio propio entre
+el alumnado. Esta competencia se enmarca en un ideario ético revisable y perfectible, fruto de la
+reflexión profunda, el diálogo y el respeto por los derechos humanos fundamentales, auxiliando en
+la labor de la conquista de una mayor cohesión social, de la extinción de las lacras sociales como el
+hambre, la enfermedad y la explotación, así como la lucha a favor de la igualdad de género, la
+protección del medioambiente y el desarrollo sostenible.
+Competencia específica 9 (C9)
+Con esta competencia el desarrollo de la sensibilidad y del valor de lo estético no solamente forman
+parte de la formación de la personalidad, sino que ha sido tema de la reflexión filosófica. El arte en
+su vertiente conceptual ha servido para la expresión de las ideas filosóficas y, a su vez, las ideas
+filosóficas han sido plasmadas en diferentes manifestaciones artísticas. Además, el carácter estético
+se relaciona íntimamente con los aspectos emocionales, pero también con la racionalidad. Por ello,
+el fenómeno estético comporta tanto un análisis intelectual como emocional.
+La  práctica  filosófica  es  el  medio  idóneo  para  interrelacionar  lo  intelectual  y  lo  emocional  y
+promover una relación armoniosa entre ambas que posibilite no solo la educación emocional sino la
+educación estética, la reflexión sobre lo bello, la experiencia estética y la interdependencia que
+tienen, como actividad humana, con la ética, la reflexión política y la naturaleza.
+En definitiva, la filosofía ofrece un espacio de reflexión, investigación y sensibilización por lo
+estético en todos sus ámbitos, como representación y transformación de la realidad —destacando la
+importancia  de  la  cultura  audiovisual  y  la  imagen—,  en  la  transmisión  de  ideas  y  en  la
+comunicación de pensamientos y sentimientos.
+7
+
+=== Página 8 ===
+
+Saberes básicos
+Los saberes básicos de la materia aparecen integrados tanto en los criterios de evaluación como en
+las explicaciones de los bloques competenciales. No obstante, quedan establecidos, organizados y
+secuenciados, a continuación de los mismos.
+Los saberes básicos, distribuidos en tres grandes bloques, están dirigidos a dotar al alumnado de una
+visión básica y de conjunto del rico y complejo campo de estudio que comprende la filosofía. Si
+bien en cada caso, y atendiendo a la idiosincrasia del alumnado, al contexto educativo o a otros
+criterios pedagógicos o científicos, se podrá profundizar en unos más que en otros, además de
+agruparlos y articularlos a conveniencia. Así, tras un Bloque I de saberes denominado «La filosofía
+y el ser humano», dedicado a la naturaleza de la propia actividad filosófica y su enraizamiento en
+torno  a  los  problemas  de  la  condición  humana,  se  despliega  un  Bloque  II,  denominado
+«Conocimiento  y  la  realidad»,  de  naturaleza  especialmente  teórica  dedicado  al  análisis  de
+cuestiones básicas sobre el conocimiento y la realidad, y un bloque III, denominado «Acción y
+creación», consagrado a la filosofía práctica, esto es, al análisis de los problemas relativos a la ética,
+la filosofía política y la estética.
+En esta distribución de bloques y saberes se ha buscado el equilibrio y el diálogo entre distintos
+planteamientos y corrientes, el desarrollo de las competencias específicas ya enunciadas y el intento
+de reparar aquellas situaciones que, como han sido la marginación y ocultamiento histórico de la
+mujer o los prejuicios culturales de carácter etnocéntrico y antropocéntrico, han lastrado hasta
+épocas recientes el desarrollo de la disciplina.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieran los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición por parte del profesorado de estas situaciones de aprendizaje contextualizadas.
+El modelo y la práctica pedagógicos canarios, acorde con el Diseño Universal para el Aprendizaje
+(DUA), se nutren de una premisa crucial: la necesaria integración de la evaluación en el proceso de
+planificación  y  diseño  de  estas  situaciones  de  aprendizaje  para  asegurar  una  evaluación
+competencial  del  alumnado.  Es  necesario,  por  tanto,  que  el  profesorado  utilice  variedad  de
+8
+
+=== Página 9 ===
+
+instrumentos,  técnicas  y  herramientas  de  evaluación  en  diferentes  contextos,  con  soportes  y
+formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que siente y
+piensa,  lo  que  puede  hacer,  etc.,  atendiéndose,  así,  de  manera  inclusiva,  a  la  diversidad  del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+La filosofía, en su dedicación acerca de la experiencia humana y sus principales problemas, no debe
+consistir en una mera exposición programática de temas y cuestiones, sino, más bien, en generar en
+el  alumnado  una  experiencia  real  de  descubrimiento  de  los  interrogantes  filosóficos  y  una
+investigación en torno a los mismos, evaluando críticamente las diversas respuestas que se les han
+dado mediante el desarrollo de una praxis consecuente de sus posicionamientos y reflexiones de
+cara a posibilitar una orientación de su vida personal, social y profesional.
+La metodología debe perseguir la consecución de un aprendizaje por competencias. En este sentido,
+las competencias específicas van a condicionar la selección de las estrategias metodológicas. Una
+enseñanza  que  fomente  la  creatividad,  la  inquietud  por  conocer  el  mundo  que  nos  rodea,  la
+curiosidad, la pregunta, la posibilidad de aportar soluciones a la problemática vital, personal o
+social es una enseñanza que tiene como protagonista al alumnado, que no recibe información de
+manera pasiva ni meramente memorística, sino que forma parte activa de su propio aprendizaje
+conscientemente, siendo el docente un guía.
+El alumnado posee rasgos plurales, no hay un único estilo de aprendizaje, las inteligencias son
+múltiples y los intereses diversos. Para dar respuesta adecuada a las diferencias, la innovación, la
+inclusión de elementos novedosos, la variedad de métodos, de modelos de aprendizaje, recursos e
+instrumentos de evaluación resultan cruciales.
+Para el desarrollo de sus competencias necesitamos una cultura de aula que fomente rutinas de
+pensamiento  y  trabaje  la  metacognición,  que  incite  al  alumnado  a  considerar,  identificar  y
+reflexionar sobre su propia cognición de forma paralela a la realización de las tareas, de manera que
+sea capaz de transferir esos procesos a otras situaciones.
+Las emociones juegan un papel fundamental en los procesos de aprendizaje e instan al logro de la
+autorregulación emocional del alumnado y el fomento de emociones positivas. En este sentido, el
+trabajo cooperativo integra en el proceso de aprendizaje dichas emociones procurando así el alcance
+de un aprendizaje ético.
+Las situaciones de aprendizaje serán planteadas en contextos cercanos a la realidad o que se le
+puedan presentar al alumnado dentro y fuera del aula, y que sirvan para utilizar y transferir los
+saberes. Algunas tareas pueden organizarse desde centros de interés vinculados a los criterios de
+evaluación, al estudio de casos reales o simulados o a la búsqueda de soluciones a situaciones
+problemáticas que el alumnado debe resolver, haciendo un uso adecuado de los distintos saberes de
+la materia.
+9
+
+=== Página 10 ===
+
+1.º Bachillerato
+Bloques competenciales
+Competencia específica
+1. Identificar problemas y formular preguntas acerca del fundamento, valor y sentido de la
+realidad y la existencia humana, a partir del análisis e interpretación de textos y otras formas de
+expresión filosófica y cultural, para reconocer la radicalidad y trascendencia de tales cuestiones,
+así como la necesidad de afrontarlos para desarrollar una vida reflexiva y consciente de sí.
+Descriptores operativos de las
+competencias clave
+CCL2, CCL3, STEM1, CD1, CD2,
+CPSAA1.1, CPSAA1.2, CPSAA4, CC1,
+CC3, CCEC1
+Criterios de evaluación
+1.1.  Reconocer  un  adecuado  concepto  de  la  filosofía  desde  su  radicalidad  y  trascendencia  y  su
+dimensión crítica en el tratamiento de los problemas filosóficos, reconociendo y analizando diversas
+fuentes de información, reconociendo tanto textos propiamente filosóficos como culturales en general.
+CCL2, CCL3, STEM1, CD1, CD2,
+CPSAA1.1, CPSAA1.2, CPSAA4, CC1,
+CC3, CCEC1
+Explicación del bloque competencial
+Este bloque competencial pretende desarrollar en el alumnado su capacidad para expresar sus inquietudes vitales y existenciales por medio del
+planteamiento de interrogantes acerca de la realidad, la entidad e identidad humana, constatando que reconoce la radicalidad y trascendencia de los
+problemas filosóficos, reflexiona sobre la utilidad y vigencia de la filosofía y su relación con otras áreas del saber, mediante la identificación y
+análisis de dichas cuestiones en textos, documentos de diversos formatos y otros medios de expresión filosófica y cultural, generando, de esta forma,
+un juicio propio alejado de todo tipo de discriminación, analizando hechos, normas e ideas relativas a la naturaleza humana, la dimensión social,
+histórica, cívica y moral de su propia identidad, y de este modo contribuir al desarrollo de una personalidad autónoma.
+10
+
+=== Página 11 ===
+
+Competencia específica
+2. Buscar, gestionar, interpretar, producir y transmitir correctamente informaci ón relativa a
+cuestiones filos óficas, a partir del empleo contrastado y seguro de fuentes, el uso y an álisis
+riguroso  de  las  mismas,  y  el  empleo  de  procedimientos  elementales  de  investigaci ón  y
+comunicación, para desarrollar una actitud indagadora, aut ónoma, rigurosa y creativa en el
+ámbito de la reflexión filosófica.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL2, CCL3, STEM1, CD1, CD2,
+CD3, CPSAA1.1, CPSAA3.1, CPSAA4,
+CC3
+Criterios de evaluación
+2.1.  Demostrar  un  conocimiento  práctico  de  los  procedimientos  elementales  de  la  investigación
+filosófica en el desarrollo de una actitud indagadora a través de tareas como la identificación de
+fuentes fiables, la búsqueda eficiente y segura de información, y la correcta organización, análisis,
+interpretación y evaluación de dicha información mediante la producción y comunicación de trabajos
+de investigación, disertaciones, comentarios de texto, tanto digitalmente como de forma analógica.
+CCL1, CCL2, CCL3, STEM1, CD1, CD2,
+CD3, CPSAA1.1, CPSAA3.1, CPSAA4,
+CC3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado desarrolle una comprensión básica e informada de las principales tesis filosóficas,
+completando un ejercicio dialéctico de ellas, con una propuesta constructiva, mediante el formato de trabajo de investigación u otro similar, a través
+de la argumentación y del diálogo, verificando que conoce y emplea procedimientos y técnicas elementales de investigación con rigor, y que busca y
+gestiona las tesis e ideas a partir del empleo contrastado y seguro de fuentes. De esta manera, se comprobará que produce y comunica de forma
+creativa trabajos de investigación, disertaciones, comentarios de texto, tanto digitalmente como de forma analógica, individual o colectiva, en torno a
+los principales interrogantes acerca la propia filosofía, el ser humano, el conocimiento, la realidad y la acción en sus dimensiones ética, estética y
+política.
+11
+
+=== Página 12 ===
+
+Competencia específica
+3. Usar y valorar adecuadamente argumentos y estructuras argumentales, a partir de su an álisis
+tanto formal como informal, para producir y apreciar distintos tipos de discurso de forma
+rigurosa, y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL5, STEM1, CC3
+Criterios de evaluación
+3.1. Producir y evaluar discursos argumentativos, orales y escritos acerca de cuestiones y problemas
+filosóficos, demostrando el uso de normas y pautas lógicas, retóricas y argumentativas, detectando y
+evitando modos dogmáticos, falaces y sesgados en la defensa de opiniones e hipótesis, y ejercitar las
+virtudes argumentativas, explicando la naturaleza de dichas falacias y sesgos.
+CCL1, CCL5, STEM1, CC3
+3.2.  Reconocer  la  importancia  de  la  cooperación,  el  compromiso  con  la  verdad,  el  respeto  a  la
+pluralidad y el rechazo de toda actitud discriminatoria o arbitraria, aplicando dichos principios a la
+práctica argumentativa y al diálogo con las demás personas.
+CCL1, CCL5, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de producir y reconocer argumentos lógica y retóricamente correctos y
+bien fundados, que detecta falacias, sesgos y prejuicios en diferentes entornos comunicativos, demostrando dicho aprendizaje en la defensa de
+opiniones e hipótesis, reconociendo la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad y el rechazo de toda
+actitud discriminatoria o arbitraria. De este modo se comprobará que puede usar y valorar argumentos a partir del análisis tanto formal como
+informal  para  producir  y  apreciar  distintos  tipos  de  discurso  de  forma  rigurosa,  poniendo  dichas  habilidades  al  servicio  de  la  convivencia
+democrática y siendo capaces de insertarlas en el proceso completo del conocimiento, a través del estudio de la lógica formal, de la argumentación
+en general y de los métodos del conocimiento racional.
+12
+
+=== Página 13 ===
+
+Competencia específica
+4. Practicar el ejercicio del diálogo filosófico de manera rigurosa, crítica, tolerante y empática,
+interiorizando  las  pautas  éticas  y  formales  que  este  requiere,  mediante  la  participación  en
+actividades grupales y a través del planteamiento dialógico de las cuestiones filosóficas, para
+promover  el  contraste  e  intercambio  de  ideas  y  el  ejercicio  de  una  ciudadanía  activa  y
+democrática.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL5, STEM1, CPSAA3.1,
+CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1
+Criterios de evaluación
+4.1. Promover el contraste e intercambio de ideas y el ejercicio de una ciudadanía activa y democrática
+a través del ejercicio de la participación en actividades grupales y del diálogo racional, respetuoso,
+abierto, constructivo y comprometido con la verdad, acerca de cuestiones y problemas filosóficamente
+relevantes.
+CCL1, CCL5, STEM1, CPSAA1.1,
+CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de practicar el ejercicio del diálogo filosófico de manera rigurosa,
+crítica, tolerante y empática, interiorizando las pautas éticas y formales que este requiere, mediante la participación en actividades grupales y del
+diálogo racional, respetuoso, abierto, constructivo y comprometido con la verdad, acerca de cuestiones y problemas filosóficamente relevantes, con
+la finalidad de promover el contraste e intercambio de ideas y el ejercicio de una ciudadanía activa y democrática. Además, se constatará que adopta
+un juicio propio y argumentado ante problemas éticos y filosóficos fundamentales y de actualidad, respetando la pluralidad de valores, promoviendo
+la igualdad efectiva entre mujeres y hombres y rechazando todo tipo de discriminación y violencia.
+13
+
+=== Página 14 ===
+
+Competencia específica
+5. Reconocer el carácter plural de las concepciones, ideas y argumentos en torno a cada uno de
+los  problemas  fundamentales  de  la  filosofía,  mediante  el  análisis  crítico  y  dialéctico  de  las
+diversas tesis filosóficamente relevantes y relativas a los mismos, para generar una concepción
+compleja  y  no  dogmática  de  dichas  cuestiones  e  ideas,  promoviendo  una  actitud  abierta,
+tolerante, y comprometida con la resolución racional y pacífica de los conflictos.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL5, CC1, CC2, CC3
+Criterios de evaluación
+5.1. Analizar y exponer distintas tesis y teorías filosóficas como momentos de un proceso dinámico y
+siempre abierto de reflexión y diálogo a través del análisis comparativo de los argumentos, principios,
+metodologías y enfoques de dichas tesis y teorías, generando una concepción compleja y no dogmática
+de los problemas filosóficos tratados.
+CCL1, CCL5, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado reconozca el carácter plural de las concepciones, ideas y argumentos en torno a
+cada uno de los problemas fundamentales de la filosofía. Se constatará que lo consigue analizando y exponiendo distintas tesis y doctrinas filosóficas
+desde un proceso dinámico y siempre abierto de reflexión y diálogo, a través del análisis comparativo de los argumentos, principios, metodologías y
+enfoques de dichas doctrinas, generando una concepción compleja y no dogmática de los problemas filosóficos tratados. Además, de esta manera se
+contribuye a la consolidación de su madurez personal y social, a la adquisición de su conciencia ciudadana y responsable, desarrollando la
+autonomía y el espíritu crítico, y estableciendo una interacción pacífica y respetuosa con las demás personas y con el entorno, poniendo sus prácticas
+comunicativas al servicio de la convivencia democrática, la resolución dialogada de conflictos y la igualdad de derechos de todas las personas.
+14
+
+=== Página 15 ===
+
+Competencia específica
+6. Comprender las principales ideas y teorías filosóficas de los más importantes pensadores y
+pensadoras, mediante el examen crítico y dialéctico de dichas ideas y teorías y de los problemas
+fundamentales a los que responden, para generar un concepción rigurosa y crítica de la riqueza
+e influencia de la filosofía como parte esencial del patrimonio cultural común.
+Descriptores operativos de las
+competencias clave
+CCL2, CC1, CC3, CCEC2
+Criterios de evaluación
+6.1. Tomar consciencia de la riqueza e influencia del pensamiento filosófico identificando y analizando
+las principales ideas y teorías filosóficas en textos pertenecientes a cualquier ámbito cultural, así como
+en relación con experiencias, acciones o acontecimientos comunes y de actualidad.
+CCL2, CC1, CCEC2
+6.2. Obtener y demostrar un conocimiento de las ideas y teorías filosóficas de los pensadores y las
+pensadoras más importantes de la historia mediante el uso y el análisis crítico de aquellas en el
+contexto de la práctica individual o colectiva de la indagación filosófica.
+CCL2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial se constatará que el alumnado es capaz de comprender, identificar y analizar las principales ideas y doctrinas
+filosóficas de los pensadores y pensadoras más importantes mediante un examen crítico y dialéctico de los problemas fundamentales a los que
+responden, para generar así una concepción rigurosa de la riqueza y de la influencia cultural, social e histórica de la filosofía, de su vigencia y
+utilidad, y su aportación al patrimonio común. Para ello, utilizará textos pertenecientes a cualquier ámbito cultural, relacionados con experiencias,
+acciones o acontecimientos de actualidad, mediante la indagación filosófica en contextos tanto individuales como colectivos. Además, se verificará
+si investiga las especificidades e intencionalidades de manifestaciones artísticas y culturales del patrimonio mediante una postura de recepción activa
+y de deleite, distinguiendo y analizando sus lenguajes y elementos técnicos y plásticos, en distintos contextos, medios y soportes.
+15
+
+=== Página 16 ===
+
+Competencia específica
+7. Adquirir una perspectiva global, sistémica y transdisciplinar en el planteamiento de cuestiones
+fundamentales y de actualidad, analizando y categorizando sus múltiples aspectos, distinguiendo
+lo  substancial  de  lo  accidental,  e  integrando  información  e  ideas  de  distintos  ámbitos
+disciplinares, desde la perspectiva fundamental de la  filosofía,  para poder tratar cuestiones
+complejas de modo creativo, emprendedor y transformador de la realidad.
+Descriptores operativos de las
+competencias clave
+CCL2, CCL3, CD1, CPSAA2, CPSAA3.1,
+CPSAA4, CC1, CC3, CC4, CCEC1
+Criterios de evaluación
+7.1. Afrontar temas complejos, de carácter fundamental y de actualidad, de modo interdisciplinar,
+sistémico y transformador, utilizando conceptos, ideas y procedimientos provenientes de distintos
+campos del saber, orientándolos y articulándolos críticamente desde una perspectiva filosófica.
+CCL2, CCL3, CD1, CPSAA2, CPSAA3.1,
+CPSAA4, CC1, CC4, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de adquirir una perspectiva global, sistémica y transdisciplinar en el
+planteamiento de cuestiones tales como la especificidad e identidad humana, la naturaleza última del cosmos y las condiciones y consecuencia de la
+investigación  científica.  Para  ello  se  verificará  que  analiza  y  comprende  hechos,  normas  e  ideas  provenientes  de  textos  orales,  escritos  y
+multimodales de distintos campos del saber y de los medios de comunicación, para desarrollar razonamientos y conclusiones lógicas de forma
+autónoma, adoptando un juicio propio y argumentado desde el compromiso ético los problemas filosóficos derivados, demostrándolos, orientándolos
+y articulándolos críticamente, de manera creativa, emprendedora y transformadora de la realidad.
+16
+
+=== Página 17 ===
+
+Competencia específica
+8. Analizar problemas éticos y políticos mediante la exposición crítica y dialéctica de todas las
+posiciones filosóficamente  pertinentes en la  interpretación  y resolución de los mismos, para
+desarrollar el juicio propio y la autonomía moral.
+Descriptores operativos de las
+competencias clave
+CCL1, CCL5, CPSAA1.1, CPSAA2, CC1,
+CC2, CC3, CC4, CE1, CCEC1
+Criterios de evaluación
+8.1. Desarrollar el propio juicio y la autonomía moral mediante el análisis filosófico de problemas
+éticos  y  políticos fundamentales  y de  actualidad,  considerando  las distintas  posiciones  en liza  y
+elaborando, argumentando, exponiendo y sometiendo al diálogo con las demás personas las propias
+tesis al respecto.
+CCL1, CCL5, CPSAA1.1, CPSAA2, CC1,
+CC2, CC3, CC4, CE1, CCEC1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado analiza hechos, normas e ideas relativas a la dimensión social, histórica, cívica y
+moral de su propia identidad, ofreciendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los
+conflictos y la igualdad de derechos de todas las personas, rechazando todo tipo de discriminación. Para ello se constatará que elabora, argumenta y
+expone de manera crítica, dialéctica y autónoma todas las posiciones pertinentes en la interpretación y resolución de problemas éticos y políticos de
+actualidad, constatando que conoce y asume de forma crítica y consecuente los ideales y valores relativos al proceso de integración europeo, la
+Constitución española de 1978, los derechos humanos, la historia y el patrimonio cultural propios, exponiéndose y sometiéndose al diálogo con las
+demás personas, participando en actividades grupales y presentando y ejecutando ideas y soluciones innovadoras. Con la finalidad de que evalúe las
+necesidades y oportunidades, afrontando retos como la sostenibilidad, tanto en los ámbitos locales como globales y tanto personales como sociales,
+con proyección profesional, académica y emprendedora, contribuyendo así a la consolidación de su madurez personal y social.
+Competencia específica Descriptores operativos de las
+17
+
+=== Página 18 ===
+
+9. Desarrollar la sensibilidad y la comprensi ón crítica del arte y otras manifestaciones con valor
+estético  mediante  el  ejercicio  del  pensamiento  filos ófico  acerca  de  la  belleza  y  la  creaci ón
+artística, para contribuir a la educaci ón de los sentimientos est éticos y al desarrollo de una
+actitud reflexiva con respecto al lenguaje y sentido de las imágenes.
+competencias clave
+CD2, CPSAA1.1, CPSAA3.1, CC2, CC3,
+CCEC1, CCEC2, CCEC3.1, CCEC3.2
+Criterios de evaluación
+9.1. Generar un equilibrio entre el aspecto racional y emotivo en la consideración de los problemas
+filosóficos, especialmente los referidos al ámbito de la estética, a través de la reflexión expresa en
+torno a la experiencia, en general, del arte, y el análisis del papel de las imágenes y el lenguaje
+audiovisual en la cultura contemporánea.
+CD2, CPSAA1.1, CPSAA3.1, CC2, CC3,
+CCEC1, CCEC2, CCEC3.1
+Explicación del bloque competencial
+A través de este bloque competencial se verificará que el alumnado es capaz de generar un equilibrio entre el aspecto racional y el aspecto emotivo
+en la consideración de los problemas filosóficos, la sensibilidad y la comprensión crítica del arte y otras manifestaciones con valor estético mediante
+el ejercicio del pensamiento filosófico acerca de la belleza y la creación artística, a través de la reflexión expresa en torno a la experiencia, en
+general, del arte y el análisis del papel de las imágenes y el lenguaje audiovisual en la cultura contemporánea. Para ello, se evaluará que participa en
+actividades grupales con una actitud fundada en los principios y procedimientos democráticos, el compromiso ético con la igualdad y la cohesión
+social, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas, rechazando todo tipo de discriminación y violencia y expresando
+ideas, opiniones, sentimientos y emociones con creatividad y espíritu crítico, investigando las especificidades e intencionalidades de manifestaciones
+artísticas y culturales del patrimonio, mostrando una postura de recepción activa y deleite, distinguiendo y analizando sus lenguajes y elementos
+técnicos y plásticos, en distintos contextos, medios y soportes. Con la finalidad de consolidar una personalidad empática e independiente y
+desarrollar su inteligencia.
+18
+
+=== Página 19 ===
+
+Saberes básicos
+I. La filosofía y el ser humano
+1. La reflexión filosófica. 
+1.1. Aproximación a la filosofía y su propuesta como problema.
+1.2. Identificación de las circunstancias que rodean el origen y condiciones del nacimiento
+de la filosofía.
+1.3. Comprensión de las características y concepciones del saber filosófico.
+1.4. Establecimiento de relaciones de la filosofía en relación con otros campos del saber y la
+actividad humana.
+1.5. Reconocimiento de los diversos métodos filosóficos.
+1.6. Desarrollo del debate en torno a la vigencia y utilidad de la filosofía. 
+1.6.1. Reconocimiento  de  la  discriminación  social,  de  género,  etnia  y  edad  en  la
+tradición filosófica.
+1.6.2. Reflexión crítica sobre la discriminación de la mujer en la historia de la filosofía.
+1.6.3. Identificación de la oposición entre la actitud filosófica y las diversas formas de
+discriminación como el etnocentrismo, y su valoración en el contexto actual.
+2. El ser humano como sujeto de la experiencia filosófica. 
+2.1. Interrelación entre las aportaciones de la filosofía y el valor y sentido de la existencia
+humana.
+2.2. Comprensión de las diferentes concepciones filosóficas acerca del ser humano.
+2.3. Reconocimiento de la estructura psicosomática de la personalidad.
+2.4. Establecimiento de las relaciones entre conciencia y lenguaje.
+2.5. Formulación del problema de la identidad personal.
+II. El conocimiento y la realidad
+1. El problema filosófico del conocimiento y la verdad. 
+1.1. Planteamiento del problema sobre el conocimiento.
+1.2. Identificación y comprensión de las diversas formas de conceptualizar la verdad.
+1.3. Análisis  del  fenómeno  de  la  desinformación  y  la  posverdad,  y  detección  y
+caracterización de las noticias falsas.
+1.4. Interpretación y ejemplificación de las principales teorías del conocimiento y búsqueda
+cooperativa en los medios digitales y más tradicionales.
+1.5. Conocimiento de las reglas del razonamiento correcto y la argumentación.
+19
+
+=== Página 20 ===
+
+1.6. Identificación y desarrollo ejemplificado de la argumentación formal e informal.
+1.7. La Filosofía de la ciencia. 
+1.7.1. Enumeración y explicación de los pasos del método científico.
+1.7.2. Participación dialogada y debatida acerca de la naturaleza, problemas y límites del
+conocimiento científico.
+1.7.3. Identificación de las conexiones y relaciones del conocimiento científico con otros
+modos de saber.
+1.7.4. Conocimiento y debate acerca de la problemática sobre la posibilidad del saber
+metafísico.
+1.7.5. Identificación de la dimensión social y política del conocimiento en el contexto
+actual.
+1.7.6. Elaboración de proyectos colaborativos sobre el papel de la mujer en la ciencia y
+en los otros saberes.
+2. El problema filosófico de la naturaleza y la realidad. 
+2.1. Observación y distinción, desde la cotidianeidad, de los ámbitos de lo real y lo aparente.
+2.2. Planteamiento de la pregunta por la naturaleza.
+2.3. Elaboración de presentaciones colaborativas de los principales sistemas cosmológicos.
+2.4. Comprensión y explicación del problema entre la unidad y pluralidad.
+2.5. Presentación, en lenguaje audiovisual y variadas expresiones artísticas, del problema
+mente-cuerpo.
+2.6. Elaboración  colaborativa  de  cuadros  comparativos  de  las  explicaciones  monistas,
+dualistas y pluralistas sobre la naturaleza.
+2.7. Discusión y debate sobre la inteligencia artificial, desde el uso de las reglas básicas para
+la construcción y defensa del discurso.
+2.8. Dramatización debatida entre determinismo versus indeterminismo.
+2.9. Identificación de las posiciones teístas, ateístas y agnósticas.
+III. Acción y creación
+1. La acción humana: filosofía ética y política. 
+1.1. Definición del problema ético. 
+1.1.1. Análisis y diferenciación entre ser y deber ser.
+1.1.2. Descripción y dramatización sobre la deliberación moral y el diálogo ético.
+1.2. Diferenciación entre cognitivismo, emotivismo y relativismo moral.
+1.3. Formulación de la ética universal de mínimos.
+20
+
+=== Página 21 ===
+
+1.4. Elaboración de mapas mentales de las principales respuestas al problema ético. 
+1.4.1. Identificación de las éticas de la virtud.
+1.4.2. Reconocimiento de las éticas del deber.
+1.4.3. Valoración de las éticas del cuidado.
+1.4.4. Formación colaborativo-ejemplificativa de algunas teorías éticas aplicadas.
+1.4.5. Planteamiento del problema de las morales tradicionales, y discusión acerca de la
+amoralidad.
+1.5. Identificación  de  las  distintas  generaciones  de  La  Declaración  Universal  de  Los
+Derechos Humanos.
+1.6. Establecimiento de los grandes problemas éticos de nuestro tiempo 
+1.6.1. Debate en torno a la desigualdad y pobreza.
+1.6.2. Elaboración  de  proyectos  colaborativos  sobre  la  guerra  y  otras  formas  de
+violencia.
+1.6.3. Investigación y presentación de trabajos acerca de la lucha por la igualdad entre
+hombres y mujeres.
+1.6.4. Identificación de las actitudes de discriminación y del respeto a las minorías.
+1.6.5. Investigación y elaboración de dosieres informativos en torno a los problemas
+ecosociales, medioambientales y los derechos de los animales.
+1.7. Establecimiento de las cuestiones más relevantes acerca de la reflexión filosófica y la
+justicia.
+1.8. .Búsqueda de información sobre la condición social del ser humano 
+1.8.1. Comprensión  de  los  conceptos  de  legalidad,  legitimidad  y  definición  de  lo
+político.
+1.8.2. Elaboración de infografías que resumen las principales formas de organización
+social y del poder político.
+1.8.3. Identificación de las tesis contractualistas en los textos filosóficos.
+1.8.4. Reflexión filosófica en torno a la democracia. 
+1. Establecimiento de las relaciones entre individuo y Estado.
+2. Debate en torno al problema de la igualdad y la libertad.
+3. Elaboración de tareas de investigación sobre el concepto de trabajo, el derecho a la
+propiedad y la distribución de la riqueza.
+1.9. El debate político contemporáneo. 
+1.9.1. Clasificación y conceptualización del liberalismo, utilitarismo y comunitarismo.
+21
+
+=== Página 22 ===
+
+1.9.2. Reconocimiento, en diversos documentos y formatos, de los ideales, utopías y
+distopías.
+1.9.3. Búsqueda de información sobre feminismo y perspectiva de género en filosofía.
+2. La reflexión filosófica en torno a la creación artística. 
+2.1. Conceptualización de los problemas de la estética: arte, belleza y gusto, por medio de la
+selección y análisis de obras representativas.
+2.2. Elaboración de mapas mentales de algunas de las más importantes teorías acerca de la
+belleza y el arte.
+2.3. Debate en torno a la imagen y la cultura audiovisual.
+2.4. Realización de trabajos de investigación en torno a la relación entre lo estético y lo
+ético, la cultura y el papel político del arte.
+22

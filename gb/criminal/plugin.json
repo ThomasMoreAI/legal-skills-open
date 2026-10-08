@@ -1,0 +1,16 @@
+{
+  "name": "gb-criminal",
+  "displayName": "Criminal Law — GB",
+  "version": "0.1.0",
+  "description": "Criminal Law skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/research-start-uk-agents",
+    "skills/status-uk-agents",
+    "skills/supervisor-review-queue-uk-agents"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigacao Policial"
+  short_description: "Guia operacional para coleta de provas, cruzamento de IPs e estabelecimento de autoria"
+  default_prompt: "Use esta skill para planejar coleta de provas, rastrear o que esta pendente, montar tabelas de cruzamento de IPs, expandir redes de suspeitos por IMEI/Pix e produzir relatorios de diligencias em .docx."

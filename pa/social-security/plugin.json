@@ -1,0 +1,14 @@
+{
+  "name": "pa-social-security",
+  "displayName": "Social Security & Welfare — PA",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills for PA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pa",
+  "practice": "social-security",
+  "language": "en",
+  "skills": [
+    "skills/acuerdo-social-betobetico"
+  ]
+}

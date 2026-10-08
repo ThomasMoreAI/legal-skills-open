@@ -1,0 +1,91 @@
+id: CUR-020
+titulo: "Música — ESO Canarias"
+etapa: "eso"
+materia: "Música"
+ambito: null
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "completado"
+estado_vigencia: "Vigente"
+elementos:
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Analizar obras musicales y dancísticas valorando el patrimonio."
+      enunciado_oficial: "Analizar obras de diferentes épocas y culturas, identificando sus principales rasgos estilísticos y estableciendo relaciones con su contexto, para valorar el patrimonio musical y dancístico como fuente de disfrute y enriquecimiento personal."
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "3.º ESO": [CCL1, CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CC1, CC2, CCEC1, CCEC2]
+    - codigo: "C2"
+      enunciado_resumido: "Explorar técnicas musicales y dancísticas mediante improvisación."
+      enunciado_oficial: "Explorar las posibilidades expresivas de diferentes técnicas musicales y dancísticas, a través de actividades de improvisación, para incorporarlas al repertorio personal de recursos y desarrollar el criterio de selección de las técnicas más adecuadas a la intención expresiva."
+      descriptores:
+        "1.º ESO": [CPSAA3, CC1, CCEC3]
+        "2.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
+        "3.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
+        "4.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
+    - codigo: "C3"
+      enunciado_resumido: "Interpretar piezas musicales y dancísticas gestionando emociones."
+      enunciado_oficial: "Interpretar piezas musicales y dancísticas, gestionando adecuadamente las emociones y empleando diversas estrategias y técnicas vocales, corporales o instrumentales, para ampliar las posibilidades de expresión personal."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "3.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "4.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+    - codigo: "C4"
+      enunciado_resumido: "Crear propuestas artístico-musicales potenciando la creatividad."
+      enunciado_oficial: "Crear propuestas artístico-musicales, empleando la voz, el cuerpo, instrumentos musicales y herramientas tecnológicas, para potenciar la creatividad e identificar oportunidades de desarrollo personal, social, académico y profesional."
+      descriptores:
+        "1.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
+        "3.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
+        "4.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Identificar los parámetros del sonido, así como reconocer los instrumentos de obras o fragmentos musicales sencillos de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, a través de la audición activa de propuestas diversas, con una actitud de interés y respeto, para potenciar el disfrute por la música."
+        - "1.2. Identificar manifestaciones musicales y dancísticas de diferentes estilos, géneros, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, a través de la audición y el visionado activo con actitud abierta y respetuosa, para valorar el patrimonio cultural como fuente de enriquecimiento y crecimiento personal."
+        - "2.1. Explorar técnicas y recursos musicales y dancísticos elementales, a través de improvisaciones rítmicas, guiadas y colectivas, empleando la voz, el cuerpo e instrumentos musicales, con actitud respetuosa y cooperativa, para expresar ideas, sentimientos y emociones."
+        - "3.1. Identificar los parámetros del sonido y su representación gráfica, a través de la lectura y escritura musical guiada, así como de la interpretación de partituras sencillas, con notación convencional y no convencional, con el fin de comprender el lenguaje de la música y ampliar las posibilidades de expresión musical."
+        - "3.2. Interpretar piezas o fragmentos musicales y dancísticos sencillos, de manera grupal, a través de la iniciación en el empleo de diferentes técnicas elementales de interpretación vocal, corporal o instrumental, valorando el proceso de ensayo como fuente de aprendizaje y respetando las normas necesarias para hacer música en grupo, para potenciar la autoconfianza y la gestión de emociones."
+        - "4.1. Participar en el desarrollo y ejecución de propuestas musicales y escénicas breves y sencillas, de forma grupal, a través de la voz, diversos instrumentos, del cuerpo y de herramientas tecnológicas, mostrando respeto y empatía con las ideas, las emociones y los sentimientos del grupo, con la finalidad de desarrollar la capacidad creativa e identificar oportunidades de desarrollo personal, social, académico y profesional."
+    - curso: "2.º ESO"
+      criterios:
+        - "1.1. Identificar y describir los elementos rítmicos, melódicos y formales, así como reconocer y clasificar instrumentos y voces de obras o fragmentos musicales de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, a través de la audición activa de propuestas diversas, con una actitud de interés y respeto, para potenciar el disfrute por la música."
+        - "1.2. Explicar la relación entre la música y la danza en propuestas de diferentes estilos, géneros, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, estableciendo la relación entre sus elementos a través de la audición y el visionado activo con actitud abierta y respetuosa, para valorar el patrimonio cultural como fuente de enriquecimiento y crecimiento personal."
+        - "2.1. Explorar técnicas y recursos musicales y dancísticos elementales, a través de improvisaciones rítmicas guiadas, individuales o colectivas, empleando la voz, el cuerpo, los instrumentos musicales o herramientas tecnológicas, con actitud respetuosa y cooperativa, para enriquecer el repertorio personal de recursos y potenciar el desarrollo de la creatividad."
+        - "2.2. Expresar ideas, sentimientos y emociones, mediante la puesta en práctica de técnicas elementales y recursos adquiridos en las actividades de improvisación rítmica llevadas a cabo en el aula, para desarrollar la autoestima y la creatividad a través de la expresión artística."
+        - "3.1. Identificar los elementos del lenguaje musical, a través de la lectura y la escritura musical, así como de la interpretación de partituras sencillas, con el fin de comprender el lenguaje de la música y ampliar las posibilidades de expresión musical."
+        - "3.2. Interpretar piezas o fragmentos, musicales y dancísticos, de manera individual o en grupo, dentro y fuera del aula, a través del empleo guiado de diferentes técnicas elementales de interpretación vocal, corporal o instrumental, con o sin apoyo de la partitura, valorando el proceso de ensayo como fuente de aprendizaje y respetando las normas necesarias para hacer música en grupo, para potenciar la autoconfianza y la gestión de emociones."
+        - "4.1. Participar en el desarrollo y ejecución de propuestas musicales y escénicas sencillas, de forma individual o grupal, a través de la voz, diversos instrumentos, del cuerpo y de herramientas tecnológicas, asumiendo diferentes funciones y mostrando respeto y empatía con las ideas, las emociones y los sentimientos del grupo, con la finalidad de desarrollar la capacidad creativa e identificar oportunidades de desarrollo personal, social, académico y profesional."
+    - curso: "3.º ESO"
+      criterios:
+        - "1.1. Explicar los principales rasgos estilísticos de obras musicales o dancísticas de diferentes géneros, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, vinculándolas con su contexto histórico, social y cultural, a través de la audición y visionado activo de propuestas diversas, con una actitud de interés y respeto, para potenciar el disfrute por la música."
+        - "1.2. Explicar la relación entre la música y la danza con otras formas de expresión artística, en propuestas de diferentes estilos, géneros, épocas y culturas, con especial atención a las de Canarias y a las producciones de las mujeres artistas y compositoras, estableciendo la relación entre sus elementos y lenguajes a través de la audición y el visionado activo con actitud abierta y respetuosa, para valorar el patrimonio cultural como fuente de enriquecimiento y crecimiento personal."
+        - "2.1. Explorar técnicas y recursos musicales y dancísticos, a través de improvisaciones melódicas y rítmicas guiadas, individuales o colectivas, empleando la voz, el cuerpo, los instrumentos musicales o herramientas tecnológicas, con actitud respetuosa y cooperativa, para enriquecer el repertorio personal de recursos y potenciar el desarrollo de la creatividad."
+        - "2.2. Expresar ideas, sentimientos y emociones, a través de la selección guiada de técnicas y recursos adquiridos en las actividades de improvisación melódica y rítmica llevadas a cabo en el aula, para desarrollar la autoestima y la creatividad a través de la expresión artística."
+        - "3.1. Identificar los elementos del lenguaje musical, a través de la lectura y escritura musical, así como de la interpretación de partituras sencillas y del análisis guiado de la estructura de piezas musicales diversas, con el fin de comprender el lenguaje de la música y ampliar las posibilidades de expresión musical."
+        - "3.2. Interpretar piezas musicales y dancísticas, de manera individual o en grupo, dentro y fuera del aula, a través del empleo de diferentes técnicas elementales de interpretación vocal, corporal o instrumental, con o sin apoyo de la partitura, valorando el proceso de ensayo como fuente de aprendizaje y respetando las normas necesarias para hacer música en grupo, para potenciar la autoconfianza y la gestión de emociones."
+        - "4.1. Participar en la planificación, desarrollo y ejecución de propuestas musicales, escénicas y audiovisuales, de forma individual o grupal, a través de la voz, de diversos instrumentos, del cuerpo y de herramientas tecnológicas, asumiendo diferentes funciones y mostrando respeto y empatía con las ideas, las emociones y los sentimientos del grupo, con la finalidad de desarrollar la capacidad creativa e identificar oportunidades de desarrollo personal, social, académico y profesional."
+  saberes_basicos:
+    - bloque: "I. Escucha y percepción"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Análisis de obras musicales y dancísticas diversas (hábitos saludables de escucha, audición y visionado activo con respeto, identificación de instrumentos y elementos del lenguaje musical con especial atención a Canarias, vocabulario técnico). Análisis de productos culturales y artísticos con perspectiva de género (mitos, estereotipos y roles, actitud reflexiva ante mensajes contrarios a la igualdad). Herramientas digitales para la recepción musical (uso saludable y sostenible, propiedad intelectual, consumo responsable en plataformas digitales). En 3.º ESO se incorporan rasgos estilísticos de obras y elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica, formas musicales)."
+    - bloque: "II. Interpretación, improvisación y creación escénica"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Interpretación (hábitos saludables, ergonomía postural, técnicas elementales de interpretación vocal, instrumental y dancística del patrimonio cultural y de la música culta, tradicional y popular de Canarias, exploración de propiedades sonoras del cuerpo y objetos cotidianos, técnicas de estudio, normas básicas para hacer música en grupo). Improvisación (técnicas y recursos guiados rítmicos y, en cursos superiores, melódicos, empleo de la voz, cuerpo, instrumentos y herramientas tecnológicas). Creación (propuestas musicales, escénicas y audiovisuales con voz, cuerpo, instrumentos y herramientas digitales de grabación, edición y reproducción de sonido)."
+    - bloque: "III. Contextos y culturas"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "Identificación o descripción de elementos característicos de la música culta occidental (géneros, voces e instrumentos, con especial atención a España y Canarias), música popular (con especial atención a las músicas y danzas urbanas y contemporáneas), música y danza tradicional (instrumentos, voces, agrupaciones, estilos, canciones, danzas y bailes de España y Canarias). Reflexión sobre el patrimonio musical y artístico de Canarias. Empleo responsable de tecnologías digitales para investigación con respeto a la propiedad intelectual y cultural. Audición y visionado de obras de compositores y compositoras internacionales, nacionales y canarios, visibilizando la contribución de las mujeres a la producción cultural y artística. En 3.º ESO se trabaja la evolución histórica (períodos, géneros, voces, instrumentos y agrupaciones)."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM3", "CD2", "CD3", "CPSAA1", "CPSAA3", "CC1", "CC2", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005]
+resumen_ia: "Currículo de Música en ESO Canarias (Decreto 30/2023, NOR-005). Materia obligatoria en 1.º y 2.º y optativa en 3.º; en 4.º se desarrolla dentro de la opción E «Expresión Artística y Música». Cuatro competencias específicas (C1-C4) con seis criterios de evaluación en 1.º y siete en 2.º y 3.º, organizadas en torno al análisis del patrimonio, la improvisación, la interpretación y la creación. Saberes básicos en tres bloques: escucha y percepción, interpretación-improvisación-creación escénica y contextos y culturas, con saberes propios de Canarias (música culta, popular y tradicional) y perspectiva de género. Marco estatal: RD 217/2022 (NOR-003)."
+observaciones: "Extracción cotejada el 2026-04-26 contra el PDF oficial publicado por la Consejería de Educación de Canarias (Anexo II del Decreto 30/2023, materia Música). Se han incorporado los enunciados literales de las cuatro competencias específicas con sus descriptores del Perfil de salida y los criterios de evaluación literales para 1.º, 2.º y 3.º ESO. Saberes básicos sintetizados por bloque integrando la secuenciación oficial de 1.º a 3.º."

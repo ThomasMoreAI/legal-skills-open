@@ -7,15 +7,18 @@ Plugin `cross-jurisdiction-general`. Skills live under `skills/<slug>/SKILL.md`.
 - [`multi-jurisdictional-research-zacharie-laik`](skills/multi-jurisdictional-research-zacharie-laik/) —
   multi-jurisdiction legal-research workflow.
 
-## Skills (34)
+## Skills (37)
 
 | Skill | What it does |
 |---|---|
 | [`vCLO`](skills/ask-vclo-rohasnagpal/) | Always invoke this skill whenever the user's prompt contains vCLO, VCLO, cVLO, cvlo or virtual CLO… |
 | [`Comparative Analyst`](skills/comparative-analyst-rohasnagpal/) | Compares how a specific legal question is treated across specified jurisdictions or statutes, sourcing… |
 | [`Inst — Legal Aid Routing`](skills/inst-legal-aid-routing-sboghossian/) | Use when a user cannot afford a lawyer or explicitly asks about free legal help, pro bono services, or… |
+| [`Inst — MENA Notary Integration`](skills/inst-notary-integration-mena-sboghossian/) | Use when a matter requires notarization, authentication, or apostille of a legal document across MENA… |
 | [`Intel — Access to Justice Gap`](skills/intel-a2j-gap-sboghossian/) | Use when responding to questions about the access-to-justice gap, the global and MENA-specific unmet… |
 | [`Intel — Global Legal Market Size`](skills/intel-market-size-global-sboghossian/) | Use when answering questions about the size of the global legal services market, key revenue figures… |
+| [`Jurisdiction Research`](skills/jurisdiction-research-danielmc09/) | [JURISDICTION] Investiga el marco legal de una jurisdiccion contra fuentes oficiales y llena… |
+| [`Jurisdiction Setup`](skills/jurisdiction-setup-danielmc09/) | [JURISDICTION] Configura el perfil legal preguntando pais, departamento, municipio, sector y… |
 | [`Justice — Human Handoff`](skills/justice-human-handoff-sboghossian/) | Use when Louis determines that a user's legal matter exceeds AI-only assistance and requires human… |
 | [`Justice Intent — Legal Research`](skills/justice-intent-legal-research-sboghossian/) | Use when the public-facing assistant detects that a user wants to conduct legal research — asking about… |
 | [`Justinian — Saudi Bar Exam Prep (KSA)`](skills/justinian-bar-exam-prep-ksa/) | Use when a user is preparing for the Saudi bar qualification exam administered by the Saudi Authority… |

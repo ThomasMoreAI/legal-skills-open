@@ -4,10 +4,13 @@ Insolvency and restructuring — proceedings, creditor rights, and reorganisatio
 
 Jurisdiction: `es` · Practice: `bankruptcy` · Skill language: es
 
-## Skills (1)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
+| [`/creditos`](skills/creditos-4041-betobetico/) | Clasifica créditos concursales según las categorías del TRLC: privilegio especial (art. 270), privilegio… |
+| [`/diagnostico`](skills/diagnostico-betobetico/) | Analiza la situación de un deudor frente al Texto Refundido de la Ley Concursal (TRLC) para determinar… |
+| [`/entrevista-inicial`](skills/entrevista-inicial-concursal-3244-betobetico/) | Ejecuta la entrevista de configuración inicial del plugin concursal. Aprende tu práctica y escribe… |
 | [`/plan`](skills/plan/) | Estructura un plan de reestructuración conforme al Libro II del TRLC (arts. 614 y ss.). Genera el… |
 
 ## Cold-start context

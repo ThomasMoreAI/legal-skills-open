@@ -1,0 +1,11 @@
+id: REL-046
+tipo_relacion: "deroga"
+origen: NOR-042
+destino: NOR-023
+descripcion: "La Resolución de 24 de febrero de 2026 actualiza integralmente el régimen de permisos y licencias, derogando y sustituyendo la anterior Resolución de 16 de junio de 2020."
+evidencia:
+  fuente: FTE-045
+  localizacion: "Apartado de disposiciones finales / objeto de la Resolución de 2026."
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Consolida todas las modificaciones parciales de 2023-2025."

@@ -1,0 +1,51 @@
+{
+  "_disclaimer": "Illustrative framework — verify each cantonal implementation against current loi cantonale and AFC circulars before production use",
+  "_source": "https://www.estv.admin.ch/estv/fr/accueil/impot-federal-direct/loi-traf.html",
+  "_year": 2026,
+  "currency": "CHF",
+  "overview": "Loi fédérale relative à la réforme fiscale et au financement de l'AVS (RFFA / TRAF), entrée en vigueur 01.01.2020. Abolit les statuts spéciaux (holding, domicile, mixte) et introduit des outils de remplacement: patent box, super-déduction R&D, déduction NID (intérêt notionnel), step-up.",
+  "patent_box": {
+    "federal_max_reduction_pct": 90,
+    "cantons": {
+      "ZH": {"reduction_pct": 90, "qualifying_income": "patents and similar rights per OECD nexus"},
+      "GE": {"reduction_pct": 10, "qualifying_income": "patents and similar rights"},
+      "VD": {"reduction_pct": 60, "qualifying_income": "patents and similar rights"},
+      "BE": {"reduction_pct": 90, "qualifying_income": "patents and similar rights"},
+      "TI": {"reduction_pct": 90, "qualifying_income": "patents and similar rights"},
+      "ZG": {"reduction_pct": 90, "qualifying_income": "patents and similar rights"},
+      "BS": {"reduction_pct": 90, "qualifying_income": "patents and similar rights"},
+      "LU": {"reduction_pct": 10, "qualifying_income": "patents and similar rights"}
+    }
+  },
+  "rd_super_deduction": {
+    "federal_max_uplift_pct": 50,
+    "cantons": {
+      "ZH": {"uplift_pct": 50, "qualifying_costs": "personnel R&D in CH + 35% overhead + 80% subcontracted CH R&D"},
+      "GE": {"uplift_pct": 50},
+      "VD": {"uplift_pct": 50},
+      "BE": {"uplift_pct": 50},
+      "TI": {"uplift_pct": 50},
+      "ZG": {"uplift_pct": 50},
+      "BS": {"uplift_pct": 0},
+      "LU": {"uplift_pct": 0}
+    }
+  },
+  "overall_relief_cap_pct": 70,
+  "step_up": {
+    "description": "Transitional step-up rules upon loss of cantonal special tax status (holding/domicile/mixte) at 01.01.2020 or for newly immigrated entities. Reserves latentes are taxed at a separate reduced rate over 5 years.",
+    "cantons": {
+      "ZH": {"separate_rate_pct": 0.5, "duration_years": 5, "method": "old-law step-up at year-end 2019"},
+      "GE": {"separate_rate_pct": 13.0, "duration_years": 10, "method": "two-rate system on disclosed reserves"},
+      "VD": {"separate_rate_pct": 1.0, "duration_years": 5, "method": "old-law step-up"},
+      "BE": {"separate_rate_pct": 0.5, "duration_years": 5, "method": "old-law step-up"},
+      "TI": {"separate_rate_pct": 2.5, "duration_years": 10, "method": "two-rate system"},
+      "ZG": {"separate_rate_pct": 0.5, "duration_years": 5, "method": "old-law step-up"},
+      "BS": {"separate_rate_pct": 3.0, "duration_years": 5, "method": "two-rate system"},
+      "LU": {"separate_rate_pct": 0.5, "duration_years": 5, "method": "old-law step-up"}
+    }
+  },
+  "notional_interest_deduction_nid": {
+    "available_in": ["ZH"],
+    "notes": "Only available in cantons with statutory ordinary cantonal tax burden >= 13.5% (currently only ZH qualifies)."
+  }
+}

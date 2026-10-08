@@ -1,0 +1,53 @@
+name: poder-notarial
+display_name: Poder Notarial — Guía Completa
+description: >
+  Guía completa sobre poderes notariales en España: tipos (general, especial,
+  para pleitos, preventivo), cuándo se necesitan, cómo se otorgan ante
+  notario, documentación, coste orientativo, revocación, poder preventivo
+  para incapacidad futura, y uso internacional (Apostilla de La Haya,
+  legalización, consulado).
+organization: Consejo General del Notariado
+tags: [justicia, poder notarial, notario, apoderado, poder general, poder especial, poder preventivo, apostilla, representación, revocación]
+
+links:
+  website: https://www.notariado.org
+
+license:
+  data: Información pública del Consejo General del Notariado
+  code: MIT
+
+api:
+  type: knowledge
+  auth:
+    required: false
+  notes: >
+    Skill informativa y de orientación general sobre poderes notariales.
+    No accede a APIs de datos ni gestiona poderes. Proporciona el marco
+    completo de tipos de poder, otorgamiento, revocación y uso
+    internacional.
+
+data:
+  scope:
+    national: true
+  accessible:
+    - Tipos de poder notarial (general, especial, pleitos, preventivo)
+    - Cuándo se necesita un poder
+    - Proceso de otorgamiento ante notario
+    - Documentación necesaria
+    - Coste orientativo según tipo de poder
+    - Revocación y extinción del poder
+    - Poder preventivo (Ley 8/2021 de apoyo a personas con discapacidad)
+    - Uso internacional (Apostilla de La Haya, legalización, consulado)
+    - Poder desde el extranjero para actos en España
+  not_accessible:
+    - Otorgamiento real de poderes (requiere presencia ante notario)
+    - Consulta de poderes vigentes de una persona
+    - Asesoramiento jurídico individualizado
+    - Trámites de herencia (usar skill herencias)
+    - Trámites de apostilla específicos (proceso presencial)
+
+implementations:
+  skill:
+    available: true
+    path: skill/
+    requires_install: false

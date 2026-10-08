@@ -1,0 +1,2472 @@
+ID interno: CUR-019
+Título oficial: Matemáticas — ESO Canarias
+Fuente oficial: FTE-002 / FTE-009
+URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf
+URL de acceso oficial: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+Fecha de consulta: 2026-04-27
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el PDF curricular oficial publicado por el Gobierno de Canarias para el desarrollo del Decreto 30/2023.
+---
+
+=== Página 1 ===
+
+MATEMÁTICAS
+Introducción
+La formación matemática es fundamental en toda sociedad que pretenda alcanzar un nivel aceptable
+de desarrollo. Las matemáticas propiciarán que el alumnado adquiera habilidades para la vida, y es
+difícil pensar en cualquier área que no tenga ningún vínculo con ellas. Resulta importante que la
+materia de Matemáticas contribuya a desarrollar en el alumnado aquellas destrezas que le permitan
+desenvolverse satisfactoriamente, tanto en contextos personales, académicos y científicos como
+sociales y laborales. Por ello, el dominio del espacio y del tiempo, la organización y optimización
+de recursos, formas y proporciones, la capacidad de previsión y control de la incertidumbre o el uso
+correcto de la tecnología digital son características de las matemáticas a implementar, así como
+también  el  razonamiento,  la  argumentación,  la  comunicación,  la  perseverancia,  la  toma  de
+decisiones o la creatividad.
+La adquisición de las competencias clave establecidas en el Perfil de salida del alumnado al término
+de la enseñanza básica es una condición indispensable para lograr el desarrollo personal, social y
+profesional  del  alumnado,  y  constituye  el  marco  de  referencia  para  la  definición  de  las
+competencias específicas de la materia. En Matemáticas tienen especial relevancia  las destrezas
+socioafectivas y la resolución de problemas, así como la formulación de conjeturas, el razonamiento
+matemático, la comunicación matemática de ideas y el establecimiento de conexiones entre los
+distintos elementos matemáticos, conexiones con otras materias y con la realidad.
+Parte  del  alumnado  ha  percibido  tradicionalmente  una  barrera  ante  el  aprendizaje  de  las
+matemáticas,  asociada,  en  gran  medida,  a  ideas  preconcebidas  sobre  la  materia,  tanto  a  nivel
+individual o social como por la aparición de emociones negativas derivadas de estas creencias. Es
+por ello por lo que el dominio de destrezas socioafectivas para identificar y manejar emociones,
+afrontar los desafíos, mantener la motivación y la perseverancia y desarrollar el autoconcepto, entre
+otras,  permitirá  al  alumnado  aumentar  su  bienestar  general,  construir  resiliencia  y  mejorar  su
+rendimiento.  Por  otro  lado,  resolver  problemas  no  es  solo  un  objetivo  del  aprendizaje  de  las
+matemáticas,  sino  que  es  también  una  de  las  principales  formas  de  hacer  matemáticas.  El
+planteamiento de problemas debe tomar como referencia el entorno cotidiano del alumnado y
+permitir procesos de investigación y de debate en el aula. Asimismo, relacionado con la resolución
+de problemas está el pensamiento computacional que incluye el análisis y la organización lógica de
+datos, la búsqueda de soluciones en secuencias de pasos ordenados y la obtención de soluciones con
+instrucciones que puedan ser ejecutadas por una herramienta tecnológica programable, una persona
+o una combinación de ambas, promoviendo el uso eficiente de recursos digitales.
+Atendiendo  a  la  diversidad  de  motivaciones  e  intereses  sociales,  culturales,  académicos  y
+tecnológicos, la materia de Matemáticas del último curso de la etapa se ha configurado en dos
+opciones, A y B. Las Matemáticas A se desarrollan preferentemente mediante la resolución de
+problemas, la investigación y el análisis matemático de situaciones de la vida cotidiana, mientras
+que  las  Matemáticas  B  profundizan,  además,  en  los  procedimientos  algebraicos  incorporando
+contextos matemáticos, científicos y sociales.
+Los saberes propios de Canarias se han incluido en el currículo de la materia desde un enfoque
+centrado en la educación patrimonial. Este enfoque presenta un carácter transversal y nace con la
+premisa de concienciar y sensibilizar al alumnado canario de la importancia del cuidado, disfrute y
+1
+
+=== Página 2 ===
+
+transmisión del patrimonio, pone el acento en la identificación y puesta en valor del mismo como
+parte inseparable de la sociedad, y apuesta por la implicación de la ciudadanía para lograr su
+sostenibilidad y la de los valores que en él perduran.
+En  esta  etapa,  junto  con  su  tratamiento  como  contextos  de  aprendizaje,  se  propone  una
+profundización paulatina en aprendizajes específicos relacionados con el patrimonio canario.
+Contribución a los objetivos de etapa
+El desarrollo curricular de la materia de Matemáticas se orienta a la consecución de los objetivos
+generales de la etapa, lo cual está ligado necesariamente al desarrollo y la adquisición de las
+competencias clave identificadas y definidas en el Perfil de salida al término de la Educación
+Secundaria  Obligatoria  y  cuyos  descriptores  han  constituido  el  marco  de  referencia  para  la
+definición de las competencias específicas de la materia.
+Las matemáticas contribuyen en gran medida a la consecución de los objetivos de etapa a través de
+la resolución de problemas, de la formulación de conjeturas, del razonamiento matemático, de la
+comunicación matemática de ideas y del establecimiento de conexiones.
+El alumnado desarrolla la confianza en sí mismo, así como la iniciativa personal, a la hora de
+enfrentarse a situaciones problemáticas, pues debe interpretarlas, seleccionar la mejor estrategia y
+utilizar distintas herramientas para su resolución (g). Todo esto propicia la consolidación de hábitos
+de  disciplina,  estudio  y  trabajo  individual  (b).  Además,  el  alumnado  aprende  a  establecer
+conexiones entre Matemáticas y otras materias, concibiendo el conocimiento científico como un
+saber integrado e interdisciplinar (f), favoreciendo el reconocimiento, valoración y respeto del
+patrimonio cultural y artístico, en particular, el de la Comunidad Autónoma de Canarias (j).
+Es fundamental que el alumnado comprenda y exprese con corrección, oralmente y por escrito, el
+proceso seguido y sus conclusiones (h), reflexionando sobre las diferentes estrategias empleadas y
+la coherencia de las soluciones, aceptando la crítica y aprendiendo de los errores cometidos.
+Asimismo, a la hora de resolver situaciones problemáticas, el alumnado desarrolla destrezas básicas
+en la búsqueda, selección e interpretación de información, así como en el uso de herramientas
+digitales adquiriendo de este modo nuevos conocimientos con sentido crítico (e).
+A través del trabajo en equipo esta materia fomenta la tolerancia, la cooperación y la solidaridad
+entre personas ejercitando el diálogo, la escucha activa y la toma de decisiones con el fin de
+resolver pacíficamente el reto planteado (a). El alumnado adquiere habilidades sociales, tales como
+el rechazo a la violencia, a los prejuicios de cualquier tipo y a los comportamientos sexistas,
+fortaleciendo de esta manera sus capacidades afectivas tanto personales como en sus relaciones con
+los demás y favoreciendo la igualdad de derechos y oportunidades entre mujeres y hombres (c) y
+(d).
+Contribución a las competencias clave
+La propuesta curricular de esta materia tiene un marcado carácter competencial y se ha desarrollado
+conforme a los descriptores operativos establecidos en el Perfil de salida del alumnado al término
+de la enseñanza básica, que identifica el grado de desarrollo y adquisición de las competencias clave
+para todo el alumnado que finaliza la Educación Secundaria Obligatoria.
+2
+
+=== Página 3 ===
+
+Desde la materia de matemáticas se trabajará la adquisición de la Competencia en comunicación
+lingüística (CCL), promoviendo que el alumnado comunique de forma oral y escrita, con precisión
+y rigor, utilizando la terminología apropiada, ideas, procedimientos y resultados matemáticos. Para
+ello se fomentará el análisis y la justificación del razonamiento y del proceso seguido, así como el
+establecimiento de conexiones entre los distintos elementos matemáticos, con otras materias y con
+la realidad, a la hora de resolver problemas y la formulación de conjeturas sencillas de manera
+guiada.
+Esta materia desarrolla, de manera directa, la Competencia matemática y competencia en ciencia,
+tecnología  e  ingeniería  (STEM),  ya  que  permite  que  el  alumnado  adquiera  y  aplique  el
+razonamiento matemático con el fin de resolver problemas en situaciones cotidianas. Para integrarla
+es necesario asimilar saberes básicos sobre números, medida, geometría, álgebra, computación,
+estadística y probabilidad para su posterior puesta en práctica. Además, la resolución de retos
+matemáticos y el trabajo en equipo potencian la autoestima del alumnado, motivando y mejorando
+su resiliencia y confianza para iniciar y culminar con éxito el aprendizaje a lo largo de la vida, lo
+que favorece la superación de estereotipos de género en la orientación académica y profesional,
+impulsando así la presencia de las mujeres en estudios vinculados a la ciencia y a la tecnología.
+Las matemáticas contribuyen notablemente a la adquisición de la Competencia digital (CD), puesto
+que integran la tecnología como medio para alcanzar los aprendizajes deseados. La resolución de
+problemas, así como la formulación y comprobación de conjeturas, favorecen el uso y creación de
+distintas herramientas y contenidos digitales (calculadora, hojas de cálculo, GeoGebra, etc.) para
+modelizar situaciones y representar ideas, procedimientos y resultados matemáticos, desarrollando
+así el pensamiento computacional del alumnado. Además, la materia trabaja destrezas relacionadas
+con la recogida, clasificación y análisis de la información obtenida de diferentes fuentes ayudando a
+que el alumnado tenga una visión crítica de la validez, la fiabilidad y el impacto de la información y
+los datos obtenidos por medios digitales y a que sean conscientes de los principios legales y éticos
+que implican el uso de las tecnologías digitales.
+Afrontar retos y resolver problemas contribuye a la adquisición de la Competencia personal, social
+y de aprender a aprender (CPSAA), pues el alumnado afianza su autoestima trabajando multitud de
+destrezas personales: haciendo frente a situaciones de incertidumbre, abordando la complejidad de
+un reto de forma positiva y perseverante, reflexionando de forma crítica, tomando decisiones, etc.
+Además,  la  habilidad  de  aprender  y  trabajar  de  forma  tanto  colaborativa  y  cooperativa  como
+autónoma, aceptando el error, aprendiendo de él y gestionando de manera asertiva las críticas,
+contribuye a un crecimiento personal constante del alumnado. Asimismo, el trabajo en equipo
+propicia el aprendizaje de habilidades sociales, tales como saber escuchar, respetar la diversidad de
+opiniones y las necesidades individuales, expresar empatía, llegar a acuerdos, etc., fundamentales
+para el desarrollo personal y social del alumnado.
+Las matemáticas ayudan a la adquisición de la Competencia ciudadana (CC) desde dos puntos de
+vista: por una parte, el análisis y desarrollo de conexiones con otras materias, con la vida real y con
+las propias experiencias del alumnado para afrontarlas de una manera eficaz, valorando también las
+grandes  aportaciones  de  las  matemáticas  al  progreso;  y,  por  otra  parte,  el  trabajo  en  equipo
+contribuye a la adquisición de valores que ayudarán al alumnado a integrarse de forma responsable
+en la sociedad, tomando decisiones fundamentadas, participando activamente en la resolución de
+conflictos, así como comprometiéndose con la igualdad de género y la cohesión social.
+3
+
+=== Página 4 ===
+
+La materia contribuye a la Competencia emprendedora (CE) a través de la formulación de ideas y
+soluciones creativas que potencian la imaginación, el pensamiento estratégico, la resolución de
+problemas y la reflexión crítica y constructiva dentro de los procesos creativos y la innovación.
+La adquisición de la Competencia en conciencia y expresión culturales (CCEC) se fomenta en el
+alumnado a través del desarrollo de habilidades para expresar ideas, opiniones, sentimientos y
+emociones, de forma natural y asertiva, así como habilidades para realizar y presentar proyectos con
+creatividad,  utilizando  para  ello  diversos  medios  y  soportes;  propiciando,  además, una  actitud
+respetuosa hacia las distintas manifestaciones culturales y artísticas, en particular las de Canarias.
+Bloques competenciales
+El bloque competencial es el eje del currículo de cada materia: integra la enunciación de las
+competencias específicas, su vinculación con los descriptores operativos del Perfil de salida, los
+criterios de evaluación y la explicación del bloque competencial.
+Las competencias específicas, que tienen carácter finalista, constituyen un elemento de conexión
+entre las competencias clave y los saberes propios de la materia. En cuanto a los criterios de
+evaluación, estos constituyen los referentes que indican el nivel de desempeño a alcanzar por el
+alumnado. Se establece, además, la contribución de cada criterio a los descriptores del Perfil de
+salida, de manera que se facilita la evaluación conjunta de los aprendizajes propios de la materia y
+del grado de desarrollo y adquisición de las competencias en el alumnado. En lo relativo a las
+explicaciones  de  los  bloques  competenciales,  estas  integran  los  aprendizajes  recogidos  en  la
+totalidad del bloque, orientan sobre el proceso de desarrollo y adquisición tanto de las competencias
+específicas  como de las  competencias  clave;  y ofrecen,  además, indicaciones metodológicas –
+siempre con una perspectiva abierta, flexible e inclusiva– para el diseño y la implementación de
+situaciones  de  aprendizaje  competenciales.  Es  por  ello  que  las  explicaciones  de  los  bloques
+competenciales se constituyen como los referentes más adecuados para la concreción curricular y la
+elaboración de la programación didáctica.
+Competencias específicas y criterios de evaluación
+En el currículo de Matemáticas se han establecido diez competencias específicas que se concretan
+en  un  total  de  dieciocho  criterios  de  evaluación.  Estos  criterios  de  evaluación  presentan  una
+marcada naturaleza competencial, de manera que se relacionan directamente con los descriptores
+operativos del Perfil de salida a los que contribuye la competencia específica.
+La enunciación de la competencia específica se recoge en el bloque competencial correspondiente.
+A continuación, se ofrece una explicación de cada una de ellas.
+Competencia específica 1 (C1)
+Con  el  desarrollo  de  esta  competencia  específica  se trabajará  la  resolución  de  problemas  que
+constituye un eje fundamental en el aprendizaje de las matemáticas, pues es un proceso central en la
+construcción del conocimiento matemático. Tanto los problemas de la vida cotidiana en diferentes
+contextos  como  los  problemas  propuestos  en  el  ámbito  de  las  matemáticas  permiten  ser
+catalizadores de nuevo conocimiento, ya que las reflexiones que se realizan durante su resolución
+ayudan a la construcción de conceptos y al establecimiento de conexiones entre ellos.
+4
+
+=== Página 5 ===
+
+Los tres criterios de evaluación relacionados con esta competencia específica se centran, por tanto,
+en la resolución de problemas: su interpretación, modelización y posterior resolución por medio de
+diferentes herramientas y estrategias que, utilizadas de forma adecuada, llevan a la solución del
+problema a partir de los conocimientos necesarios. A medida que aumenta el nivel curricular se
+exigirá  que  el  alumnado  seleccione  y  aplique,  de  manera  autónoma,  dichas  estrategias  y
+herramientas, analizando sus limitaciones e idoneidad.
+Competencia específica 2 (C2)
+La finalidad de esta competencia específica es analizar las soluciones obtenidas de un problema, lo
+que constituye la fase final de su resolución, potenciando así la reflexión crítica sobre su validez.
+Los razonamientos científico y matemático serán las herramientas principales para realizar esa
+validación, pero también lo son la lectura atenta, la realización de preguntas adecuadas, la elección
+de estrategias para verificar la pertinencia de las soluciones obtenidas según la situación planteada,
+la conciencia sobre los propios progresos y la autoevaluación. El desarrollo de esta competencia
+conlleva  procesos  reflexivos  propios  de  la  metacognición  como  la  autoevaluación  y  la
+coevaluación, la utilización de estrategias sencillas de aprendizaje autorregulado, la verbalización o
+explicación del proceso y la selección entre diferentes métodos de comprobación o de estrategias
+para validar las soluciones y su alcance.
+El criterio de evaluación que compone esta competencia específica está dirigido a la comprobación
+de la validez de las soluciones, la selección de las soluciones óptimas y la justificación de las
+mismas  en  toda  la  etapa  de  la  ESO,  trabajando  en  los  dos  últimos  años  sus  aplicaciones  en
+diferentes contextos, valorando tanto la corrección matemática como aspectos relacionados con la
+sostenibilidad, la igualdad de género, el consumo responsable, la equidad o la no discriminación,
+entre otros.
+Competencia específica 3 (C3)
+Esta competencia persigue plantear, razonar, argumentar y demostrar conjeturas, procedimientos
+que han estado siempre inherentes al quehacer matemático. Desde un punto de vista histórico, los
+desafíos  que  han  supuesto  las  demostraciones  de  ciertos  resultados  matemáticos,  así  como  la
+resolución de algunos problemas han sido, y siguen siendo, una importante fuente de inspiración
+para  la  obtención  de  nuevos  conocimientos  y  técnicas  matemáticas.  El  razonamiento  y  el
+pensamiento analítico incrementan la percepción de patrones, estructuras y regularidades tanto en
+situaciones del mundo real como abstractas, favoreciendo la formulación de conjeturas sobre su
+naturaleza.
+Por otro lado, el planteamiento de problemas es otro componente importante en el aprendizaje y
+enseñanza de las matemáticas. Cuando el alumnado plantea problemas mejora el razonamiento y la
+reflexión, al  tiempo que construye su propio conocimiento,  traduciéndose en un alto nivel  de
+compromiso, curiosidad y entusiasmo hacia el proceso de aprendizaje de las matemáticas.
+El  primero  de  los  criterios  vinculados  a  esta  competencia  específica  se  centra  en  el  uso  de
+conjeturas para el estudio de propiedades y relaciones matemáticas, por medio de la investigación
+de las mismas, comenzando la etapa simplemente con la formulación y comprobación de ciertas
+conjeturas vinculadas a situaciones cotidianas y cercanas a la realidad del alumnado y finalizándola
+con un mayor análisis y profundización en el estudio de hipótesis, incluso referidas a situaciones
+abstractas. El segundo criterio alude al planteamiento y a la creación de variantes de problemas ya
+dados. En los niveles del comienzo de la etapa se propone el planteamiento de nuevos problemas
+5
+
+=== Página 6 ===
+
+que conlleven variaciones en los datos o en las condiciones iniciales, así como el análisis de los
+casos particulares del mismo, mientras que al final de la etapa se persigue que el alumnado cree
+variantes que supongan una generalización de la situación problemática de partida.
+Competencia específica 4 (C4)
+Esta competencia específica desarrolla el pensamiento computacional, que entronca directamente
+con la resolución de problemas y el planteamiento de procedimientos, utilizando la abstracción para
+identificar los aspectos más relevantes, y la descomposición en tareas más simples con el objetivo
+de llegar a una solución del problema que pueda ser ejecutada por un sistema informático. Llevar el
+pensamiento computacional a la vida diaria supone relacionar los aspectos fundamentales de la
+informática con las necesidades del alumnado.
+Retomando la resolución de problemas, los criterios asociados a esta competencia específica tratan
+de evaluar la organización de los datos, el reconocimiento de patrones y su descomposición en
+partes más simples para facilitar su interpretación computacional, creando algoritmos sencillos que
+permitan llegar a la solución de problemas por medio de la modelización de diversas situaciones. En
+los niveles  iniciales se pretende  simplemente que el alumnado  sepa  identificar las partes más
+simples en las que un problema se puede descomponer, así como que modelice situaciones y
+resuelva problemas a partir de algoritmos simples que sea capaz de interpretar; mientras que en los
+últimos niveles de la etapa se busca que el alumnado descomponga el problema en partes más
+simples, así como que cree, modifique, generalice y evalúe distintos algoritmos y aplicaciones
+informáticas sencillas a fin de modelizar situaciones y resolver problemas.
+Competencia específica 5 (C5)
+Esta competencia específica estudia las conexiones entre los diferentes conceptos, procedimientos e
+ideas matemáticas, lo que aportará una comprensión más profunda y duradera de los conocimientos
+adquiridos,  proporcionando  así  una  visión  más  amplia  sobre  el  propio  conocimiento.  Que  el
+alumnado comience reconociendo dichas conexiones para terminar estableciéndolas y utilizándolas
+es indicativo de que el logro de su aprendizaje ha sido significativo.
+El  criterio  de  evaluación  establecido  en  la  quinta  competencia  específica  alude  a  la  relación
+existente entre los distintos conocimientos y experiencias que componen las matemáticas, para
+evitar que se trabajen de forma disociada e inconexa.
+Competencia específica 6 (C6)
+Esta competencia específica se centra en reconocer y utilizar, en la resolución de problemas, las
+conexiones existentes entre Matemáticas, el resto de las materias y la vida real, lo que terminará de
+cerrar el círculo del conocimiento y dará sentido al mismo, aumentando considerablemente el
+bagaje  matemático  del  alumnado.  Es  importante  que  el  alumnado  tenga  la  oportunidad  de
+experimentar  las  matemáticas  en  diferentes  contextos  (personal,  escolar,  social,  científico  y
+humanístico),  estudiando  la  implicación  de  las  matemáticas  en  la  resolución  de  los  grandes
+objetivos globales de desarrollo, con perspectiva histórica.
+Los criterios de evaluación de esta competencia específica tratan sobre los nexos entre la materia
+que nos ocupa, el resto de las materias y el mundo real, lo que lleva a reconocer en los primeros
+niveles  de  la  etapa  y  a  analizar  y  valorar  en  los  últimos  la  importancia  que  han  tenido  las
+matemáticas en el progreso de la humanidad, así como la de las matemáticas y los matemáticos a lo
+6
+
+=== Página 7 ===
+
+largo de la historia, y a apreciar su contribución en la superación de retos que se presentan en la
+sociedad actual, en particular en la sociedad canaria.
+Competencia específica 7 (C7)
+La representación de ideas, conceptos, procedimientos e información matemáticos es fundamental
+en el proceso de aprendizaje y también tiene cabida en este currículo. Concretamente, en esta
+competencia específica 7, la cual fomenta la adquisición de un conjunto de recursos que amplía
+significativamente la capacidad para interpretar y resolver problemas de la vida real.
+El criterio de evaluación vinculado a esta competencia específica trabaja la representación, la cual
+incluye  dos  facetas:  la  representación  propiamente  dicha  de  un  resultado  o  concepto  y  la
+representación de los procesos que se realizan durante la práctica de las matemáticas. En el último
+curso de la etapa se exigirá la selección entre diferentes herramientas, incluidas las digitales, y
+formas de representación, valorando su utilidad para compartir información.
+Competencia específica 8 (C8)
+Esta competencia desarrolla la comunicación tanto escrita como oral, de forma rigurosa y con la
+terminología adecuada, de las ideas, conceptos, procedimientos y argumentos matemáticos, lo cual
+es  una  parte  esencial  de  la  educación  científica  y  matemática.  La  comunicación  de  procesos
+matemáticos contribuye a colaborar, cooperar, afianzar y generar nuevos conocimientos, ya que las
+ideas se convierten en objeto de reflexión, perfeccionamiento, debate y rectificación.
+Los  criterios  de  esta  competencia  específica  se  centran  en  la  comunicación  de  información
+matemática, incidiendo así de manera singular en la comunicación lingüística. A medida que el
+alumnado avance por la etapa se le pedirá una mayor coherencia, corrección y precisión a la hora de
+expresarse.
+Competencia específica 9 (C9)
+Resolver  problemas  matemáticos o retos más globales en  los que intervienen  las matemáticas
+debería  ser  una  tarea  gratificante.  En  esta  competencia  específica  se  trabajarán  destrezas
+emocionales fomentando el bienestar del alumnado, la regulación emocional y el interés por el
+aprendizaje de las matemáticas, favoreciendo la ruptura de estereotipos e ideas preconcebidas sobre
+las matemáticas asociadas a cuestiones individuales como, por ejemplo, el género o la aptitud para
+esta disciplina.
+Con  los  criterios  formulados  con  respecto  a  la  novena  competencia,  el  alumnado  pasará  de
+identificar a evaluar y gestionar las emociones; de detectar situaciones de incertidumbre a adaptarse
+a ellas, reconociendo fuentes de estrés y mejorando la resiliencia y la perseverancia a lo largo de la
+etapa; de escuchar la crítica razonada para entender el error a aceptarla con el objetivo de convertir
+ese error en una nueva oportunidad de aprendizaje, desarrollando así a una manera crítica y creativa
+de pensar.
+Competencia específica 10 (C10)
+Esta competencia específica trabaja los valores de respeto y resolución pacífica de conflictos, al
+tiempo que se resuelven retos matemáticos, desarrollando destrezas de comunicación efectiva, de
+planificación, de indagación, de motivación y confianza en las habilidades propias, lo que permitirá
+al alumnado mejorar la autoconfianza y normalizar situaciones de convivencia en igualdad, creando
+relaciones y entornos de trabajo saludables.
+7
+
+=== Página 8 ===
+
+Esta competencia específica trae consigo criterios de evaluación asociados al trabajo en equipo que
+se realizará de manera guiada al principio de la etapa y de forma más autónoma en los últimos
+cursos. Esto implica la colaboración de manera activa en el reparto y realización de las tareas, la
+inclusión de todos los componentes, la responsabilidad individual, la comunicación efectiva y la
+toma de decisiones de forma conjunta, entre otros.
+Saberes básicos
+El conjunto de saberes básicos integra conocimientos, destrezas y actitudes que ayudarán a la
+adquisición de las competencias específicas a lo largo de la etapa de secundaria.
+Los saberes básicos de la materia no están directamente asociados de manera biunívoca a los
+criterios de evaluación. Esto permitirá desarrollar los aprendizajes de las competencias específicas
+en distintos contextos y de manera continua a lo largo del curso. 
+Los  saberes  quedan  establecidos,  organizados  y  secuenciados  a  continuación  de  los  bloques
+competenciales. El profesorado tendrá que vincular los bloques competenciales con los saberes
+básicos que estime más adecuados para que el alumnado adquiera los aprendizajes establecidos.
+Los saberes se han agrupado en torno al concepto de «sentido matemático» como conjunto de
+destrezas relacionadas con los diferentes ámbitos de las matemáticas: numérico, medida, espacial,
+algebraico,  estocástico  y  socioafectivo.  Dichos  sentidos  permiten  emplear  los  saberes  de  una
+manera funcional proporcionando la flexibilidad necesaria para establecer conexiones entre ellos.
+Debe tenerse en cuenta, además, que la organización de los saberes en el currículo no implica
+ninguna temporalización ni orden cronológico en su tratamiento en el aula.
+El  Bloque  I,  «Sentido  numérico»,  se  caracteriza  por  la  aplicación  del  conocimiento  sobre
+numeración y cálculo en distintos contextos y por el desarrollo de habilidades y modos de pensar
+basados en la comprensión, la representación y el uso flexible de los números y las operaciones.
+El Bloque II, «Sentido de la medida», se centra en la comprensión y comparación de atributos de
+los objetos del mundo natural. Entender y elegir las unidades adecuadas para estimar, medir y
+comparar  magnitudes,  utilizar  los  instrumentos  apropiados  para  realizar  mediciones,  comparar
+objetos físicos y comprender las relaciones entre formas y medidas son los ejes sobre los que gira.
+Asimismo, se introduce el concepto de probabilidad como medida de la incertidumbre.
+El Bloque III, «Sentido espacial», aborda la comprensión de los aspectos geométricos de nuestro
+mundo. Registrar y representar formas y figuras, reconocer sus propiedades, identificar relaciones
+entre ellas, ubicarlas, describir sus movimientos, elaborar o descubrir imágenes de formas y figuras,
+clasificarlas y razonar con ellas son elementos fundamentales de la enseñanza y aprendizaje de la
+geometría.
+El  Bloque  IV ,  «Sentido  algebraico»,  proporciona  el  lenguaje  en  el  que  se  comunican  las
+matemáticas. Ver lo general en lo particular, reconociendo patrones y relaciones de dependencia
+entre variables y expresándolas mediante diferentes representaciones, así como la modelización de
+situaciones  matemáticas  o  del  mundo  real  con  expresiones  simbólicas,  son  características
+fundamentales del sentido algebraico, pero también del pensamiento computacional, el cual sirve
+para formular, representar y resolver problemas a través de herramientas digitales y conceptos
+propios de la informática. Por razones organizativas, en el sentido algebraico se han incorporado
+dos apartados denominados «Pensamiento computacional» y «Modelo matemático», que no son
+8
+
+=== Página 9 ===
+
+exclusivos del sentido algebraico y, por lo tanto, deben trabajarse de forma transversal a lo largo de
+todo el proceso de enseñanza de la materia.
+El  Bloque  V ,  «Sentido  estocástico»,  comprende  el  análisis  y  la  interpretación  de  datos,  la
+elaboración  de  conjeturas  y  la  toma  de  decisiones  a  partir  de  la  información  estadística,  su
+valoración  crítica  y  la  comprensión  y  comunicación  de  fenómenos  aleatorios  en  una  amplia
+variedad  de  situaciones cotidianas.  Se  considera  fundamental  el  manejo  de  la  tecnología  para
+acceder a datos, para su análisis crítico, comunicación y difusión.
+El Bloque VI, «Sentido socioafectivo», integra conocimientos, destrezas y actitudes para entender y
+manejar las emociones, establecer y alcanzar metas, aumentar la capacidad de tomar decisiones
+responsables  e  informadas,  lo  que  se  dirige  a  la  mejora  del  rendimiento  del  alumnado  en
+Matemáticas, a la disminución de actitudes negativas hacia ellas, a promover un aprendizaje activo
+y  a  erradicar  ideas  preconcebidas  relacionadas  con  el  género  o  el  mito  del  talento  innato
+indispensable. Para  lograr estos fines se pueden  desarrollar  estrategias como  dar a conocer al
+alumnado el papel de las mujeres en las matemáticas a lo largo de la historia y en la actualidad,
+normalizar el error como parte del aprendizaje, fomentar el diálogo equitativo y las actividades no
+competitivas en el aula.
+Situaciones de aprendizaje, orientaciones metodológicas, estrategias y recursos didácticos
+Las competencias específicas explicitan desempeños que el alumnado debe poder llevar a cabo en
+situaciones de aprendizaje para cuyo abordaje se requieren los saberes básicos de cada materia,
+dentro de un marco de atención inclusiva a las diferencias individuales, y a las singularidades y
+necesidades de cada alumno o alumna. La implementación del currículo de la materia implica, por
+tanto, la definición, por parte del profesorado, de estas situaciones de aprendizaje contextualizadas.
+El modelo pedagógico canario se nutre de una premisa crucial: la necesaria integración de la
+evaluación en el proceso de planificación y diseño de estas situaciones de aprendizaje, para asegurar
+una evaluación competencial del alumnado. Es necesario, por tanto, que el profesorado utilice
+variedad  de  instrumentos,  técnicas  y  herramientas  de  evaluación,  en  diferentes  contextos,  con
+soportes y formatos diversos, que permitan que el alumnado pueda demostrar lo que sabe, lo que
+siente y piensa, lo que puede hacer…, atendiéndose así, de manera inclusiva, a la diversidad del
+alumnado, a su ritmo de aprendizaje y a su forma de aprender.
+El profesorado puede utilizar como instrumentos de evaluación para obtener la información sobre el
+nivel de logro alcanzado en relación con los aprendizajes recogidos en las competencias específicas
+por parte del alumnado: pruebas escritas u orales, presentaciones y representaciones, producciones
+visuales o audiovisuales (vídeos, fotos, planos, pódcasts, reportajes, etc.), documentos (informes de
+investigación, soluciones a problemas planteados, tablas y gráficas, etc.) y artefactos (murales,
+maquetas, etc.), entre otros. Para valorar de manera objetiva y formativa tanto los instrumentos
+como otros momentos y aspectos del aprendizaje, el profesorado deberá usar diversas herramientas
+de evaluación: rúbricas, cuestionarios, pautas de observación (registro anecdótico, lista de control,
+escala de valoración, lista de cotejo, etc.), diario de clase, cuaderno del profesor o profesora,
+portafolio o carpeta de evidencias, etc. La autoevaluación, la heteroevaluación y la coevaluación
+son tipos de evaluación con diferentes agentes, fundamentales en este modelo pedagógico.
+El currículo tiene en la resolución de problemas la pieza clave de su desarrollo, unas veces como
+fin, otras como vía por la cual se genera el conocimiento, y otras como nexo entre las diferentes
+9
+
+=== Página 10 ===
+
+partes del currículo o materias. Pero no se trata de resolver problemas o ejercicios numéricos de
+manera mecánica al finalizar cada situación de aprendizaje, sino de poner énfasis en las diferentes
+estrategias  que  permiten  resolver  problemas  y  en  las  fases  de  resolución  de  estos,  en  los
+aprendizajes y en los procesos cognitivos. Los problemas deben ser del entorno cotidiano del
+alumnado, haciendo hincapié en el marco social y cultural de Canarias, con un planteamiento que
+permita la investigación, el debate en el aula y el desarrollo de las destrezas socioafectivas del
+alumnado, así como la atención a los distintos ritmos de aprendizaje en alineación con el Diseño
+Universal para el Aprendizaje (DUA).
+Todo esto conlleva  un cambio de rol  por parte del profesorado, que deberá poner en  marcha
+distintos modelos de enseñanza: expositivo, investigación guiada, investigación grupal, deductivo,
+etc., y múltiples metodologías: aprendizaje basado en problemas, gamificación, flipped classroom,
+aprendizaje basado en proyectos o aprendizaje-servicio, entre otros; así como considerar diferentes
+rutinas de trabajo y tipos de agrupamientos: gran grupo, trabajo individual, pequeño grupo, grupos
+de expertos, etc., para permitir al alumnado comunicar y hacer matemáticas y generar la capacidad
+de reflexionar y crear nuevo conocimiento.
+Las tecnologías digitales jugarán un papel importante: desde la calculadora en el aula, no solo para
+resolver operaciones, sino también para generar conocimiento, hasta la utilización de programas
+como hojas de cálculo, representación gráfica o geometría dinámica, realización de presentaciones,
+o elaboración de vídeos o fotografías entre otros, sin olvidarnos de los entornos de aprendizaje
+virtual, aulas virtuales, webs, etc. El alumnado no solo debe conocerlas, sino entender su utilidad al
+facilitar la comprensión de las matemáticas, de otras áreas del conocimiento relacionadas con las
+matemáticas y del mundo que nos rodea. No debemos olvidar otro tipo de materiales que permitan
+dar un enfoque más manipulativo: regletas, fichas, dados, revistas, folletos publicitarios, facturas,
+etc.
+Por último, por su papel integrador, esta materia contribuirá a la participación del profesorado en los
+diferentes  proyectos  y  redes  del  centro,  así  como  al  diseño  de  situaciones  de  aprendizaje
+interdisciplinares con otros departamentos.
+10
+
+=== Página 11 ===
+
+1.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas,
+aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de
+proceder y obtener posibles soluciones. 
+2. Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando
+las  respuestas  obtenidas,  para  verificar  su  validez  e  idoneidad  desde  un  punto  de  vista
+matemático y su repercusión global.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM1, STEM2, STEM3,
+STEM4, CD2, CPSAA4, CPSAA5, CC2,
+CC3, CE3
+Criterios de evaluación
+1.1. Interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación
+que existe entre ellos y representando la información mediante herramientas manuales o digitales,
+compartiendo ideas y escuchando las de las demás personas y los diferentes enfoques del mismo
+problema con el fin de comprender el enunciado y explorar distintas maneras de proceder.
+CCL1, CCL2, STEM1, CD2, CC2, CE3
+1.2. Aplicar estrategias y herramientas apropiadas superando bloqueos e inseguridades, reflexionando
+sobre el proceso realizado, buscando un cambio de estrategia, cuando sea necesario y transformando el
+error en oportunidad de aprendizaje para desarrollar ideas y soluciones valiosas.
+STEM1, STEM2, STEM3, CD2, CPSAA5,
+CE3
+1.3.  Obtener  soluciones  matemáticas  de  un  problema,  mostrando  perseverancia  en  su  búsqueda,
+autoconfianza y usando los conocimientos necesarios para resolver problemas de la vida cotidiana y
+STEM1, STEM2, STEM3, STEM4,
+11
+
+=== Página 12 ===
+
+propios de las matemáticas. CPSAA5, CE3
+2.1. Seleccionar las soluciones óptimas de un problema comprobando, interpretando y reflexionando
+sobre su validez para obtener conclusiones y elaborar respuestas a las preguntas planteadas.
+CCL2, STEM1, STEM2, CD2, CPSAA4,
+CC3, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas
+de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de herramientas manuales o digitales,
+como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros. Para ello se
+comprobará que el alumnado sea capaz de interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe
+entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además,
+se pretende comprobar si el alumnado aplica estrategias apropiadas, como la analogía con otros problemas, estimación, ensayo y error, resolución de
+manera inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., buscando un cambio de estrategia cuando
+sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener las soluciones óptimas de un
+problema.
+Competencia específica
+3.  Formular  y  comprobar  conjeturas  sencillas  o  plantear  problemas  de  forma  autónoma,
+reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento. 
+4. Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en
+partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar
+situaciones y resolver problemas de forma eficaz.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CD5, CPSAA4, CE3
+12
+
+=== Página 13 ===
+
+Criterios de evaluación
+3.1.  Formular  y  comprobar  conjeturas  sencillas  de  forma  guiada  buscando  en  varias  fuentes  de
+información,  reconociendo  y  comprendiendo  patrones,  propiedades  y  relaciones  en  situaciones
+conocidas,  planteándose  preguntas  y  comprobando  hipótesis  mediante  la  experimentación  y  la
+indagación, confirmando su validez utilizando distintos recursos materiales y digitales, con el fin de
+obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+CCL1, STEM1, STEM2, STEM4, CD1,
+CD2, CD5, CPSAA4, CE3
+3.2. Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del
+problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos
+digitales o manuales, estudiando casos particulares cuando la situación lo requiera y reflexionando
+sobre los distintos resultados obtenidos, con el objetivo de encontrar ideas y soluciones, a fin de
+potenciar  la  adquisición  de  conocimientos,  estrategias  y  métodos  propios  del  razonamiento
+matemático.
+CCL1, STEM1, STEM2, CD1, CD2, CD5,
+CE3
+4.1. Identificar las partes simples en las que se puede dividir un problema, organizando los datos y
+reconociendo patrones para facilitar su interpretación y su tratamiento computacional.
+STEM1, STEM2, CD2, CE3
+4.2.  Modelizar  situaciones  y  fenómenos  que  ocurren  a  nuestro  alrededor  interpretando  distintos
+algoritmos y aplicaciones informáticas sencillas para desarrollar soluciones tecnológicas y resolver
+problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías digitales y gestionando
+de manera responsable su uso.
+STEM1, STEM2, STEM3, CD2, CD3,
+CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento
+matemático, sea capaz de identificar y comprobar, de forma guiada por medio de la experimentación y la indagación, conjeturas numéricas y
+13
+
+=== Página 14 ===
+
+algebraicas sencillas, utilizando para tal fin herramientas digitales o manuales. Del mismo modo, se persigue que pueda reconocer patrones, analizar
+relaciones cuantitativas, así como desarrollar métodos con los que resolver problemas, actuando con curiosidad y perseverancia, para obtener e
+intercambiar conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar, por un lado, que el
+alumnado es capaz de reconocer las partes más simples en las que se puede descomponer un problema para facilitar su interpretación y su
+tratamiento computacional, así como las posibles variantes del mismo; y por otro, que sabe modelizar diferentes situaciones y fenómenos de la vida
+cotidiana, apoyándose en representaciones matemáticas y en el lenguaje algebraico.
+Competencia específica
+5. Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando
+conceptos  y  procedimientos,  para  desarrollar una  visión  de  las  matemáticas  como  un  todo
+integrado. 
+6. Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles
+de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para
+aplicarlos en situaciones diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM3, STEM5,
+CD2, CD3, CC4, CE3, CCEC1
+Criterios de evaluación
+5.1.  Reconocer  conexiones  entre  diferentes  procesos  matemáticos  a  partir  de  conocimientos  y
+experiencias previas, mediante métodos propios del razonamiento matemático, reflexionando sobre el
+proceso  realizado  y  las  soluciones  obtenidas,  con  sentido  crítico,  para  conectar  los  aprendizajes
+matemáticos  adquiridos y desarrollar  una  visión  coherente  e integrada  de  las matemáticas  en  su
+totalidad.
+CCL3, STEM1, STEM2, STEM3, CD2
+14
+
+=== Página 15 ===
+
+6.1.  Identificar  conexiones  coherentes  entre  el  mundo  real,  las  matemáticas  y  otras  materias,
+reconociendo  situaciones  susceptibles  de  ser  formuladas  y  resueltas  mediante  herramientas  y
+estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir,
+comunicar y clasificar, y las herramientas digitales necesarias, para afrontar y resolver situaciones
+problemáticas diversas.
+CCL3, STEM1, STEM2, CD2, CD3, CE3
+6.2. Reconocer la aportación de las matemáticas al progreso de la humanidad y su contribución a la
+superación de los retos que demanda la sociedad actual, para apreciar y respetar aspectos esenciales
+del patrimonio cultural y artístico.
+CCL3, STEM2, STEM5, CC4, CCEC1
+Explicación del bloque competencial
+Se persigue con este bloque competencial constatar que el alumnado es capaz de detectar conexiones entre diferentes procesos matemáticos,
+comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras
+materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento
+científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la
+humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda
+la sociedad actual.
+Competencia específica
+7.  Representar,  de  forma  individual  y  colectiva,  conceptos,  procedimientos,  información  y
+resultados  matemáticos,  usando  diferentes  tecnologías,  para  visualizar  ideas  y  estructurar
+procesos matemáticos. 
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, STEM3,
+STEM4, CD1, CD2, CD3, CD5, CE3,
+15
+
+=== Página 16 ===
+
+8.  Comunicar  de  forma  individual  y  colectiva  conceptos,  procedimientos  y  argumentos
+matemáticos,  usando  lenguaje  oral,  escrito  o gráfico,  utilizando  la  terminología  matemática
+apropiada, para dar significado y coherencia a las ideas matemáticas.
+CCEC3, CCEC4
+Criterios de evaluación
+7.1. Representar, utilizando un lenguaje matemático apropiado, individual o colectivamente, ideas,
+conceptos,  procedimientos, información  y  resultados  matemáticos  de modos  distintos,  empleando
+diferentes  medios  y  soportes  en  su  presentación  para  visualizar  ideas  y  estructurar  procesos
+matemáticos.
+CCL1, CCL2, STEM3, STEM4, CD1,
+CD2, CD5, CE3, CCEC4
+8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos
+matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales,
+para dar significado y coherencia a las representaciones matemáticas.
+CCL1, CCL3, STEM2, STEM4, CD2,
+CD3, CE3, CCEC3
+8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes
+con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo
+requiera, para compartir y construir nuevos conocimientos.
+CCL1, CCL2, CCL3, STEM2, STEM4,
+CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas,
+conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje
+oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como
+reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.
+16
+
+=== Página 17 ===
+
+Competencia específica
+9. Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica
+estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante
+situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el
+disfrute en el aprendizaje de las matemáticas. 
+10. Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los
+demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles
+asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el
+bienestar personal y grupal y crear relaciones saludables.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM3, STEM5, CPSAA1,
+CPSAA3, CPSAA4, CPSAA5, CC1, CC2,
+CC3, CE2, CE3
+Criterios de evaluación
+9.1. Identificar  las emociones, las  fortalezas  y  debilidades propias,  y  desarrollar  el  autoconcepto
+matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la resiliencia, proteger
+la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos.
+STEM5, CPSAA1, CE2
+9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, escuchando
+la crítica razonada y entendiendo los errores al hacer frente a las diferentes situaciones problemáticas,
+para mejorar el disfrute en el aprendizaje de las matemáticas.
+CPSAA1, CPSAA4, CPSAA5, CE2, CE3
+10.1.  Colaborar  y  construir  relaciones  en  equipos  heterogéneos  con  empatía,  comunicándose  de
+manera adecuada, con actitud cooperativa y respetuosa, pensando de forma crítica, tomando decisiones
+argumentadas y evitando los conflictos, para construir una identidad positiva como estudiante de
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+17
+
+=== Página 18 ===
+
+matemáticas y fomentar el bienestar personal y social.
+10.2. Ayudar en el reparto de tareas del equipo, empleando estrategias cooperativas, aportando valor al
+grupo, favoreciendo la inclusión, la igualdad de género y la escucha activa, asumiendo el rol asignado
+y su contribución dentro del equipo, reconociendo proactivamente las perspectivas y las experiencias
+de  los  demás  e  incorporándolas  a  su  aprendizaje,  para  crear  relaciones  y  entornos  de  trabajo
+saludables.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado
+desarrolle destrezas personales y sociales, así como actitudes con las que entender e identificar las emociones propias y las de los y las demás al
+trabajar individualmente o en grupo, identificando fortalezas y debilidades, mostrando actitud positiva y perseverante, reconociendo las situaciones
+de incertidumbre y escuchando la crítica razonada para entender el error como una oportunidad de aprendizaje. Asimismo, se evaluará que al trabajar
+en grupos heterogéneos el alumnado participa comunicándose de manera adecuada, evitando los conflictos, ayudando en el reparto de tareas,
+asumiendo el rol asignado y reconociendo la diversidad presente en el aula y en la sociedad.
+18
+
+=== Página 19 ===
+
+Saberes básicos
+I. Sentido numérico
+ 1. Conteo. 
+ 1.1. Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño
+de los números en situaciones de la vida cotidiana.
+ 2. Cantidad. 
+ 2.1. Estimaciones y aproximaciones por defecto y por exceso con la precisión requerida.
+Redondeo y truncamiento.
+ 2.2. Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en
+contextos de la vida cotidiana con la precisión requerida.
+ 2.3. Diferentes formas de representación de números enteros, fraccionarios y decimales
+(diagramas, recta numérica, material manipulativo, etc.).
+ 2.4. Interpretación de porcentajes mayores que 100 y menores que 1.
+ 3. Sentido de las operaciones. 
+ 3.1. Aplicación  de  estrategias  de  cálculo  mental  con  números  naturales,  fracciones,
+decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y
+25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como
+el doble del 10 %, etc.).
+ 3.2. Operaciones sencillas (no más de dos operaciones encadenadas y un paréntesis) con
+números enteros, fraccionarios o decimales en situaciones contextualizadas.
+ 3.3. Comprensión y utilización de las relaciones inversas, entre la adición y la sustracción,
+la  multiplicación  y  la  división,  elevar  al  cuadrado  y  extraer  la  raíz  cuadrada,  para
+simplificar y resolver problemas.
+ 3.4. Interpretación del significado de los efectos de las operaciones aritméticas con números
+enteros, fracciones y expresiones decimales (por ejemplo: multiplicar para aumentar y
+reducir y dividir para repartir, agrupar, reducir, comparar, y reducir a la unidad).
+ 3.5. Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación):
+cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales,
+tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.
+ 4. Relaciones. 
+ 4.1. Utilización de factores, múltiplos y divisores. Factorización en números primos para
+resolver problemas mediante estrategias o herramientas diversas.
+ 4.2. Comparación  y  ordenación  de  enteros,  fracciones  y  decimales:  situación  exacta  o
+aproximada en la recta numérica. Utilización de la expresión decimal de una fracción
+para comparar y ordenar fracciones.
+19
+
+=== Página 20 ===
+
+4.3. Selección y utilización de la representación más adecuada de una misma cantidad para
+cada situación o problema.
+ 4.4. Relación entre fracción, porcentaje y decimal.
+ 4.5. Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones
+geométricos, numéricos, números triangulares, cuadrados, pentagonales, etc.).
+ 5. Razonamiento proporcional. 
+ 5.1. Razones y proporciones: comprensión, interpretación y representación de relaciones
+cuantitativas.
+ 5.2. Proporcionalidad directa e inversa: comprensión y resolución de problemas sencillos
+relacionados con proporciones entre dos magnitudes en diferentes contextos (escalas,
+cambio de divisas, velocidad y tiempo, etc.), y con diferentes métodos (reducción a la
+unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad, etc.).
+ 5.3. Porcentajes:  comprensión  y  resolución  de  problemas  sencillos  relacionados  con
+aumentos y disminuciones porcentuales en distintos contextos (rebajas y subidas de
+precios, impuestos, etc.) y con diferentes métodos.
+ 6. Educación financiera. 
+ 6.1. Métodos para la toma de decisiones de consumo responsable: relaciones calidad-precio
+y valor-precio en contextos cotidianos.
+II. Sentido de la medida
+ 1. Magnitud. 
+ 1.1. Atributos mensurables de los objetos físicos y matemáticos: investigación y relación
+entre los mismos.
+ 1.2. Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.
+ 2. Estimación y relaciones. 
+ 2.1. Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en
+estimaciones.
+ 2.2. Toma de decisión justificada del grado de precisión requerida en situaciones de medida.
+ 3. Medición. 
+ 3.1. Longitudes  y  áreas  en  figuras  planas:  deducción,  interpretación  y  aplicación  a
+situaciones  reales.  Composición  y  descomposición  de  figuras  complejas  en  figuras
+simples.
+ 3.2. Representaciones de objetos geométricos con propiedades fijadas, como las longitudes
+de los lados o las medidas de los ángulos.
+ 3.3. La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.
+III. Sentido espacial
+20
+
+=== Página 21 ===
+
+1. Formas geométricas de dos y tres dimensiones. 
+ 1.1. Figuras geométricas planas: descripción y clasificación en función de sus propiedades o
+características.
+ 1.2. Construcciones geométricas con herramientas manipulativas y digitales (programas de
+geometría dinámica, realidad aumentada, etc.).
+ 2. Visualización, razonamiento y modelización geométrica. 
+ 2.1. Modelización  geométrica:  relaciones  numéricas  y  algebraicas  en  la  resolución  de
+problemas  con  herramientas  manipulativas  y  digitales  (programas  de  geometría
+dinámica, realidad aumentada, etc.).
+ 2.2. Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida
+diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.
+IV . Sentido algebraico
+ 1. Patrones. 
+ 1.1. Patrones: identificación y comprensión, determinando la regla de formación de diversas
+estructuras en casos sencillos.
+ 2. Modelo matemático. 
+ 2.1. Modelización de situaciones de la vida cotidiana usando representaciones matemáticas
+y el lenguaje algebraico.
+ 2.2. Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez
+modelizada.
+ 3. Variable. 
+ 3.1. Variable: comprensión del concepto en sus diferentes naturalezas.
+ 3.2. Valor numérico contextualizado en situaciones reales sencillas.
+ 4. Igualdad y desigualdad. 
+ 4.1. Relaciones lineales en situaciones de la vida cotidiana o matemáticamente relevantes:
+expresión mediante álgebra simbólica.
+ 4.2. Equivalencia de expresiones algebraicas en la resolución de problemas basados en
+relaciones lineales.
+ 4.3. Estrategias de búsqueda de soluciones en ecuaciones lineales en situaciones de la vida
+cotidiana.
+ 4.4. Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones
+diversas.
+ 5. Pensamiento computacional. 
+21
+
+=== Página 22 ===
+
+5.1. Generalización  y  transferencia  de  procesos  de  resolución  de  problemas  a  otras
+situaciones.
+V . Sentido estocástico
+ 1. Organización y análisis de datos. 
+ 1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+involucran una sola variable.
+ 1.2. Análisis  e interpretación  de  tablas  y  gráficos estadísticos de  variables  cualitativas,
+cuantitativas discretas y cuantitativas continuas en contextos reales.
+ 1.3. Gráficos  estadísticos:  representación  mediante  diferentes  medios  incluidos  los
+tecnológicos  (calculadora,  hoja  de  cálculo,  aplicaciones,  etc.)  y  elección  del  más
+adecuado.
+ 1.4. Medidas  de  centralización:  interpretación  y  cálculo  con  apoyo  tecnológico  en
+situaciones reales. Media y moda. Mediana solo para variables cuantitativas discretas.
+ 1.5. Medidas de dispersión (rango): significado e interpretación.
+ 2. Incertidumbre. 
+ 2.1. Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos
+(equiprobables y no equiprobables).
+ 2.2. Interpretación  de  la  probabilidad  asociada  a  la  incertidumbre  de  experimentos
+aleatorios.
+ 2.3. Asignación de probabilidades mediante la regla de Laplace.
+ 2.4. Asignación  de  la  probabilidad  a  partir  de  la  experimentación  y  el  concepto  de
+frecuencia relativa.
+ 2.5. Planificación y realización de experiencias sencillas para analizar el comportamiento de
+fenómenos aleatorios.
+ 3. Inferencia. 
+ 3.1. Formulación de preguntas adecuadas que permitan conocer las características de interés
+de una población.
+ 3.2. Datos  relevantes  para  dar  respuesta  a  cuestiones  planteadas  en  investigaciones
+estadísticas:  presentación  de  la  información  procedente  de  una  muestra  mediante
+herramientas digitales.
+ 3.3. Extracción de conclusiones a partir de una muestra.
+VI. Sentido socioafectivo
+ 1. Creencias, actitudes y emociones. 
+ 1.1. Autoconciencia  y  autorregulación:  reconocimiento  y gestión  de  las emociones  que
+intervienen en el aprendizaje.
+22
+
+=== Página 23 ===
+
+1.2. Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el
+aprendizaje de las matemáticas.
+ 1.3. Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia, cuando sea
+necesario, transformando el error en oportunidad de aprendizaje.
+ 2. Trabajo en equipo y toma de decisiones. 
+ 2.1. Técnicas  cooperativas para optimizar  el  trabajo  en equipo y compartir  y construir
+conocimiento matemático.
+ 2.2. Conductas empáticas y estrategias de gestión de conflictos.
+ 3. Inclusión, respeto y diversidad. 
+ 3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.
+ 3.2. La  contribución  de  las  matemáticas  al  desarrollo  de  los  distintos  ámbitos  del
+conocimiento humano desde una perspectiva de género.
+23
+
+=== Página 24 ===
+
+2.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas,
+aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de
+proceder y obtener posibles soluciones. 
+2. Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando
+las  respuestas  obtenidas,  para  verificar  su  validez  e  idoneidad  desde  un  punto  de  vista
+matemático y su repercusión global.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM1, STEM2, STEM3,
+STEM4, CD2, CPSAA4, CPSAA5, CC2,
+CC3, CE3
+Criterios de evaluación
+1.1. Interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación
+que existe entre ellos y representando la información mediante herramientas manuales o digitales,
+compartiendo ideas y escuchando las de las demás personas y los diferentes enfoques del mismo
+problema con el fin de comprender el enunciado y explorar distintas maneras de proceder.
+CCL1, CCL2, STEM1, CD2, CC2, CE3
+1.2. Aplicar estrategias y herramientas apropiadas superando bloqueos e inseguridades, reflexionando
+sobre el proceso realizado, buscando un cambio de estrategia, cuando sea necesario y transformando el
+error en oportunidad de aprendizaje para desarrollar ideas y soluciones valiosas.
+STEM1, STEM2, STEM3, CD2, CPSAA5,
+CE3
+1.3.  Obtener  soluciones  matemáticas  de  un  problema,  mostrando  perseverancia  en  su  búsqueda,
+autoconfianza y empleando los conocimientos necesarios para resolver problemas de la vida cotidiana
+STEM1, STEM2, STEM3, STEM4,
+24
+
+=== Página 25 ===
+
+y propios de las matemáticas. CPSAA5, CE3
+2.1. Seleccionar las soluciones óptimas de un problema comprobando, interpretando y reflexionando
+sobre su validez para obtener conclusiones y elaborar respuestas a las preguntas planteadas.
+CCL2, STEM1, STEM2, CD2, CPSAA4,
+CC3, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas
+de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de herramientas manuales o digitales,
+como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros. Para ello se
+comprobará que el alumnado sea capaz de interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe
+entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además,
+se pretende comprobar si el alumnado aplica estrategias, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera
+inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., buscando un cambio de estrategia cuando sea
+necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener las soluciones óptimas de un
+problema.
+Competencia específica
+3.  Formular  y  comprobar  conjeturas  sencillas  o  plantear  problemas  de  forma  autónoma,
+reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento.
+4. Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en
+partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar
+situaciones y resolver problemas de forma eficaz.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CD5, CPSAA4, CE3
+25
+
+=== Página 26 ===
+
+Criterios de evaluación
+3.1.  Formular  y  comprobar  conjeturas  sencillas  de  forma  guiada  buscando  en  varias  fuentes  de
+información,  reconociendo  y  comprendiendo  patrones,  propiedades  y  relaciones  en  situaciones
+conocidas,  planteándose  preguntas  y  comprobando  hipótesis  mediante  la  experimentación  y  la
+indagación, confirmando su validez utilizando distintos recursos materiales y digitales, con el fin de
+obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+CCL1, STEM1, STEM2, STEM4, CD1,
+CD2, CD5, CPSAA4, CE3
+3.2. Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del
+problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos
+digitales o manuales, estudiando casos particulares cuando la situación lo requiera y reflexionando
+sobre los distintos resultados obtenidos, con el objetivo de encontrar ideas y soluciones, a fin de
+potenciar  la  adquisición  de  conocimientos,  estrategias  y  métodos  propios  del  razonamiento
+matemático.
+CCL1, STEM1, STEM2, CD1, CD2, CD5,
+CE3
+4.1. Reconocer las partes simples en las que se puede dividir un problema, organizando los datos e
+identificando patrones para facilitar su interpretación y su tratamiento computacional.
+STEM1, STEM2, CD2, CE3
+4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando y modificando
+distintos algoritmos y aplicaciones informáticas sencillas para desarrollar soluciones tecnológicas y
+resolver problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías digitales y
+gestionando de manera responsable su uso.
+STEM1, STEM2, STEM3, CD2, CD3,
+CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento
+matemático, sea capaz de formular y comprobar, de forma guiada, por medio de la experimentación y la indagación, conjeturas sencillas; utilizando
+26
+
+=== Página 27 ===
+
+para tal fin distintos materiales y herramientas digitales. Del mismo modo, se persigue que pueda reconocer patrones numéricos, analizar relaciones
+cuantitativas, así como desarrollar métodos con los que resolver problemas, actuando con curiosidad y perseverancia, para obtener e intercambiar
+conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar que el alumnado sabe reconocer las
+variantes de un problema y las partes más simples en las que este se puede descomponer, a fin de facilitar su interpretación y su tratamiento
+computacional, y también, que el alumnado es capaz de modelizar diferentes situaciones de la vida cotidiana, apoyándose en representaciones
+matemáticas, en el lenguaje algebraico, y en aplicaciones informáticas sencillas. 
+Competencia específica
+5. Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando
+conceptos  y  procedimientos,  para  desarrollar una  visión  de  las  matemáticas  como  un  todo
+integrado. 
+6. Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles
+de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para
+aplicarlos en situaciones diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM3, STEM5,
+CD2, CD3, CC4, CE3, CCEC1
+Criterios de evaluación
+5.1. Reconocer y realizar conexiones entre diferentes procesos matemáticos a partir de conocimientos
+y experiencias previas, mediante métodos propios del razonamiento matemático, reflexionando sobre
+el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar los aprendizajes
+matemáticos  adquiridos y desarrollar  una  visión  coherente  e integrada  de  las matemáticas  en  su
+totalidad.
+CCL3, STEM1, STEM2, STEM3, CD2
+27
+
+=== Página 28 ===
+
+6.1.  Identificar  y  establecer  conexiones  coherentes  entre  el  mundo  real,  las  matemáticas  y  otras
+materias, reconociendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y
+estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir,
+comunicar,  clasificar  y  predecir,  y  las  herramientas  digitales  necesarias,  para  afrontar  y  resolver
+situaciones problemáticas diversas.
+CCL3, STEM1, STEM2, CD2, CD3, CE3
+6.2. Reconocer la aportación de las matemáticas al progreso de la humanidad y su contribución a la
+superación de los retos que demanda la sociedad actual, para apreciar y respetar aspectos esenciales
+del patrimonio cultural y artístico e identificar las consecuencias de las soluciones dadas en el entorno.
+CCL3, STEM2, STEM5, CC4, CCEC1
+Explicación del bloque competencial
+Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos,
+comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras
+materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento
+científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la
+humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda
+la sociedad actual.
+Competencia específica
+7.  Representar,  de  forma  individual  y  colectiva,  conceptos,  procedimientos,  información  y
+resultados  matemáticos,  usando  diferentes  tecnologías,  para  visualizar  ideas  y  estructurar
+procesos matemáticos. 
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, STEM3,
+STEM4, CD1, CD2, CD3, CD5, CE3,
+28
+
+=== Página 29 ===
+
+8.  Comunicar  de  forma  individual  y  colectiva  conceptos,  procedimientos  y  argumentos
+matemáticos,  usando  lenguaje  oral,  escrito  o gráfico,  utilizando  la  terminología  matemática
+apropiada, para dar significado y coherencia a las ideas matemáticas.
+CCEC3, CCEC4
+Criterios de evaluación
+7.1. Representar, utilizando un lenguaje matemático apropiado, individual o colectivamente, ideas,
+conceptos,  procedimientos, información  y  resultados  matemáticos  de modos  distintos,  empleando
+diferentes  medios  y  soportes  en  su  presentación  para  visualizar  ideas  y  estructurar  procesos
+matemáticos.
+CCL1, CCL2, STEM3, STEM4, CD1,
+CD2, CD5, CE3, CCEC4
+8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos
+matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales,
+para dar significado y coherencia a las representaciones matemáticas.
+CCL1, CCL3, STEM2, STEM4, CD2,
+CD3, CE3, CCEC3
+8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes
+con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo
+requiera, para compartir y construir nuevos conocimientos.
+CCL1, CCL2, CCL3, STEM2, STEM4,
+CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas,
+conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje
+oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como
+reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.
+29
+
+=== Página 30 ===
+
+Competencia específica
+9. Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica
+estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante
+situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el
+disfrute en el aprendizaje de las matemáticas. 
+10. Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los
+demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles
+asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el
+bienestar personal y grupal y crear relaciones saludables.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM3, STEM5, CPSAA1,
+CPSAA3, CPSAA4, CPSAA5, CC1, CC2,
+CC3, CE2, CE3
+Criterios de evaluación
+9.1. Identificar las emociones, seleccionando las fortalezas y debilidades propias, y desarrollar el
+autoconcepto  matemático  con  estrategias  de  autoconocimiento  y  autoeficacia  para  fortalecer  la
+resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos.
+STEM5, CPSAA1, CE2
+9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, aceptando
+la crítica razonada y reconociendo los errores al hacer frente a las diferentes situaciones problemáticas,
+para mejorar el disfrute en el aprendizaje de las matemáticas.
+CPSAA1, CPSAA4, CPSAA5, CE2, CE3
+10.1.  Colaborar  activamente  y  construir  relaciones  en  equipos  heterogéneos  con  empatía,
+comunicándose de manera adecuada, con actitud cooperativa y respetuosa, pensando de forma crítica,
+tomando decisiones argumentadas y gestionando los conflictos que puedan surgir pacíficamente, para
+construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+30
+
+=== Página 31 ===
+
+social.
+10.2. Ayudar en el reparto de tareas del equipo, empleando estrategias cooperativas, aportando valor al
+grupo, favoreciendo la inclusión, la igualdad de género y la escucha activa, asumiendo el rol asignado
+y su contribución dentro del equipo, reconociendo proactivamente las perspectivas y las experiencias
+de  los  demás  e  incorporándolas  a  su  aprendizaje,  para  crear  relaciones  y  entornos  de  trabajo
+saludables.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado
+desarrolle destrezas personales y sociales, así como actitudes con las que entender y gestionar las emociones propias y las de los y las demás al
+trabajar individualmente o en grupo, seleccionando fortalezas y debilidades, mostrando actitud positiva y perseverante, gestionando las situaciones
+de incertidumbre y aceptando la crítica razonada para reconocer el error como una oportunidad de aprendizaje. Asimismo, se evaluará que el
+alumnado participa de manera activa, al trabajar en grupos heterogéneos, comunicándose de manera adecuada, practicando la escucha activa,
+realizando el trabajo en equipo, gestionando los conflictos y ayudando en el reparto de tareas, asumiendo el rol asignado, así como reconociendo y
+aceptando la diversidad presente en el aula y en la sociedad. 
+31
+
+=== Página 32 ===
+
+Saberes básicos
+I. Sentido numérico
+ 1. Conteo. 
+ 1.1. Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño
+de los números en situaciones de la vida cotidiana.
+ 2. Cantidad. 
+ 2.1. Interpretación  de  números grandes y pequeños,  reconocimiento  y  utilización  de  la
+notación exponencial, científica y de la calculadora.
+ 2.2. Estimaciones  y  aproximaciones  con  la  precisión  requerida  en  problemas
+contextualizados.
+ 2.3. Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en
+contextos de la vida cotidiana con la precisión requerida.
+ 2.4. Diferentes formas de representación de números enteros, fraccionarios y decimales
+(diagramas, recta numérica, material manipulativo, etc.).
+ 2.5. Interpretación de porcentajes mayores que 100 y menores que 1.
+ 3. Sentido de las operaciones. 
+ 3.1. Aplicación  de  estrategias  de  cálculo  mental  con  números  naturales,  fracciones,
+decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y
+25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como
+el doble del 10 %, etc.).
+ 3.2. Operaciones  con  números  enteros,  fraccionarios  o  decimales  en  situaciones
+contextualizadas.
+ 3.3. Comprensión y utilización de las relaciones inversas, entre la adición y la sustracción,
+la  multiplicación  y  la  división,  elevar  al  cuadrado  y  extraer  la  raíz  cuadrada,  para
+simplificar y resolver problemas.
+ 3.4. Interpretación del significado de los efectos de las operaciones aritméticas con números
+enteros, fracciones y expresiones decimales (por ejemplo: multiplicar para aumentar y
+reducir y dividir para repartir, agrupar, reducir, comparar, y reducir a la unidad).
+ 3.5. Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación):
+cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales
+tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.
+ 4. Relaciones. 
+ 4.1. Selección y utilización de la representación más adecuada de una misma cantidad para
+cada situación o problema.
+ 4.2. Relación entre fracción, porcentaje y decimal.
+32
+
+=== Página 33 ===
+
+4.3. Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones
+geométricos, numéricos, etc.).
+ 5. Razonamiento proporcional. 
+ 5.1. Proporcionalidad  directa  e  inversa:  comprensión  y  resolución  de  problemas
+relacionados con proporciones entre dos magnitudes en diferentes contextos (escalas,
+cambio de divisas, velocidad y tiempo, etc.), y con diferentes métodos (reducción a la
+unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad, etc.).
+ 5.2. Porcentajes:  comprensión  y  resolución  de  problemas  relacionados  con  aumentos  y
+disminuciones  porcentuales  en  distintos  contextos  (rebajas  y  subidas  de  precios,
+impuestos, etc.) y con diferentes métodos.
+ 6. Educación financiera. 
+ 6.1. Métodos para la toma de decisiones de consumo responsable: relaciones calidad-precio
+y valor-precio en contextos cotidianos.
+II. Sentido de la medida
+ 1. Magnitud. 
+ 1.1. Atributos mensurables de los objetos físicos y matemáticos: investigación y relación
+entre los mismos. Medidas canarias.
+ 1.2. Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.
+ 2. Estimación y relaciones. 
+ 2.1. Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en
+estimaciones.
+ 2.2. Toma de decisión justificada del grado de precisión requerida en situaciones de medida.
+ 2.3. Interpretación y cálculo del error. Error absoluto y error relativo.
+ 3. Medición. 
+ 3.1. Longitudes y áreas en figuras planas y tridimensionales: deducción, interpretación y
+aplicación. Composición y descomposición de figuras complejas en figuras simples.
+ 3.2. Longitudes, áreas y volúmenes en figuras tridimensionales sencillas: prisma, pirámide
+y cilindro.
+ 3.3. Representaciones planas de objetos tridimensionales en la visualización y resolución de
+problemas de áreas.
+ 3.4. Representaciones de objetos geométricos con propiedades fijadas, como las longitudes
+de los lados o las medidas de los ángulos.
+ 3.5. La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.
+III. Sentido espacial
+33
+
+=== Página 34 ===
+
+1. Formas geométricas de dos y tres dimensiones. 
+ 1.1. Figuras geométricas planas y tridimensionales: descripción y clasificación en función
+de sus propiedades o características.
+ 1.2. Relación pitagórica en figuras planas: identificación y aplicación.
+ 1.3. Construcción  de  figuras  geométricas  con  herramientas  manipulativas  y  digitales
+(programas de geometría dinámica, realidad aumentada, etc.).
+ 2. Localización y sistemas de representación. 
+ 2.1. Relaciones espaciales: localización y descripción mediante coordenadas cartesianas y
+otros sistemas de representación.
+ 3. Visualización, razonamiento y modelización geométrica. 
+ 3.1. Modelización  geométrica:  relaciones  numéricas  y  algebraicas  en  la  resolución  de
+problemas  con  herramientas  manipulativas  y  digitales  (programas  de  geometría
+dinámica, realidad aumentada, etc.).
+ 3.2. Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida
+diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.
+IV . Sentido algebraico
+ 1. Patrones. 
+ 1.1. Patrones: identificación y comprensión, determinando la regla de formación de diversas
+estructuras.
+ 2. Modelo matemático. 
+ 2.1. Modelización de situaciones de la vida cotidiana usando representaciones matemáticas
+y el lenguaje algebraico.
+ 2.2. Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez
+modelizada.
+ 3. Variable. 
+ 3.1. Variable: comprensión del concepto en sus diferentes naturalezas.
+ 3.2. Valor numérico contextualizado en situaciones reales.
+ 4. Igualdad y desigualdad. 
+ 4.1. Relaciones lineales en situaciones de la vida cotidiana o matemáticamente relevantes:
+expresión mediante álgebra simbólica.
+ 4.2. Equivalencia de expresiones algebraicas en la resolución de problemas basados en
+relaciones lineales.
+ 4.3. Estrategias de búsqueda de soluciones en ecuaciones y sistemas lineales en situaciones
+de la vida cotidiana.
+34
+
+=== Página 35 ===
+
+4.4. Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones
+diversas.
+ 5. Relaciones y funciones. 
+ 5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que
+las modelizan.
+ 5.2. Relaciones lineales: identificación y comparación en diferentes contextos de varios
+modos de representación: tablas, gráficas o expresiones algebraicas, y sus propiedades a
+partir de ellas.
+ 5.3. Gráficas  de  funciones  contextualizadas.  Estudio  del  crecimiento  y  decrecimiento,
+continuidad y discontinuidad. Identificación de los puntos de corte con los ejes y de los
+máximos y mínimos relativos.
+ 5.4. Deducción de la información relevante de una función mediante el uso de diferentes
+representaciones simbólicas.
+ 6. Pensamiento computacional. 
+ 6.1. Generalización  y  transferencia  de  procesos  de  resolución  de  problemas  a  otras
+situaciones.
+ 6.2. Estrategias  de  formulación  de  cuestiones  susceptibles  de  ser  analizadas  mediante
+programas y otras herramientas.
+V . Sentido estocástico
+ 1. Organización y análisis de datos. 
+ 1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+involucran una sola variable. Diferencia entre variable y valores individuales.
+ 1.2. Análisis  e interpretación  de  tablas  y  gráficos estadísticos de  variables  cualitativas,
+cuantitativas discretas y cuantitativas continuas en contextos reales.
+ 1.3. Gráficos  estadísticos:  representación  mediante  diferentes  medios,  incluidos  los
+tecnológicos  (calculadora,  hoja  de  cálculo,  aplicaciones,  etc.),  y  elección  del  más
+adecuado.
+ 1.4. Medidas  de  centralización:  interpretación  y  cálculo  con  apoyo  tecnológico  en
+situaciones reales. Media y moda. Mediana solo para variables cuantitativas discretas.
+ 1.5. Medidas de dispersión (rango): significado e interpretación.
+ 1.6. Estudio y comparación de dos conjuntos de datos de la misma variable a partir de su
+representación gráfica.
+ 2. Incertidumbre. 
+ 2.1. Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos
+(equiprobables y no equiprobables).
+35
+
+=== Página 36 ===
+
+2.2. Interpretación  de  la  probabilidad  asociada  a  la  incertidumbre  de  experimentos
+aleatorios.
+ 2.3. Asignación de probabilidades mediante la regla de Laplace.
+ 2.4. Asignación  de  la  probabilidad  a  partir  de  la  experimentación  y  el  concepto  de
+frecuencia relativa.
+ 2.5. Planificación y realización de experiencias sencillas para analizar el comportamiento de
+fenómenos aleatorios.
+ 3. Inferencia. 
+ 3.1. Formulación de preguntas adecuadas que permitan conocer las características de interés
+de una población.
+ 3.2. Datos  relevantes  para  dar  respuesta  a  cuestiones  planteadas  en  investigaciones
+estadísticas:  presentación  de  la  información  procedente  de  una  muestra  mediante
+herramientas digitales.
+ 3.3. Extracción de conclusiones a partir de una muestra, con el fin de emitir juicios y tomar
+decisiones adecuadas.
+VI. Sentido socioafectivo
+ 1. Creencias, actitudes y emociones. 
+ 1.1. Autoconciencia  y  autorregulación:  reconocimiento  y gestión  de  las emociones  que
+intervienen en el aprendizaje.
+ 1.2. Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el
+aprendizaje de las matemáticas.
+ 1.3. Desarrollo  de flexibilidad cognitiva,  abierto  a un cambio de  estrategia cuando  sea
+necesario, transformando el error en oportunidad de aprendizaje.
+ 2. Trabajo en equipo y toma de decisiones. 
+ 2.1. Técnicas  cooperativas para optimizar  el  trabajo  en equipo y compartir  y construir
+conocimiento matemático.
+ 2.2. Conductas empáticas y estrategias de gestión de conflictos.
+ 3. Inclusión, respeto y diversidad. 
+ 3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.
+ 3.2. La  contribución  de  las  matemáticas  al  desarrollo  de  los  distintos  ámbitos  del
+conocimiento humano desde una perspectiva de género.
+36
+
+=== Página 37 ===
+
+3.º ESO
+Bloques competenciales
+Competencia específica
+1. Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas,
+aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de
+proceder y obtener posibles soluciones. 
+2. Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando
+las  respuestas  obtenidas,  para  verificar  su  validez  e  idoneidad  desde  un  punto  de  vista
+matemático y su repercusión global.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM1, STEM2, STEM3,
+STEM4, CD2, CPSAA4, CPSAA5, CC2,
+CC3, CE3
+Criterios de evaluación
+1.1. Interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación
+que existe entre ellos y representando la información mediante herramientas manuales o digitales,
+compartiendo ideas y enjuiciando con crítica razonada las de las demás personas y los diferentes
+enfoques del mismo problema con el fin de comprender el enunciado y explorar distintas maneras de
+proceder.
+CCL1, CCL2, STEM1, CD2, CC2, CE3
+1.2.  Aplicar  estrategias  apropiadas  analizando  sus  limitaciones  e  idoneidad,  utilizando  distintas
+herramientas en su ejecución, superando bloqueos e inseguridades, reflexionando sobre el proceso
+realizado,  buscando  un  cambio  de  estrategia,  cuando  sea  necesario  y  transformando  el  error  en
+oportunidad de aprendizaje para desarrollar ideas y soluciones valiosas.
+STEM1, STEM2, STEM3, CD2, CPSAA5,
+CE3
+37
+
+=== Página 38 ===
+
+1.3.  Obtener  todas  las  soluciones  matemáticas  de  un  problema,  mostrando  perseverancia  en  su
+búsqueda, autoconfianza y activando los conocimientos necesarios para resolver problemas de la vida
+cotidiana y propios de las matemáticas.
+STEM1, STEM2, STEM3, STEM4,
+CPSAA5, CE3
+2.1. Seleccionar las soluciones óptimas de un problema comprobando, analizando e interpretando, con
+actitud crítica, dichas soluciones, reflexionando sobre su validez y sobre su aplicación en diferentes
+contextos,  valorando  tanto  la  corrección  matemática  como  sus  implicaciones  desde  diferentes
+perspectivas para obtener conclusiones relevantes y elaborar respuestas a las preguntas planteadas.
+CCL2, STEM1, STEM2, CD2, CPSAA4,
+CC3, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas
+de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de diferentes herramientas manuales o
+digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros,
+seleccionando la más adecuada en función de la tarea. Para ello se comprobará que el alumnado sea capaz de interpretar problemas matemáticos,
+identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de
+modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado aplica estrategias, como la
+analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), descomposición en problemas más sencillos,
+búsqueda de patrones, etc., valorando su eficacia e idoneidad en la resolución de problemas, buscando un cambio de estrategia cuando sea necesario
+y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener todas las soluciones posibles de un problema,
+así como seleccionar de entre ellas las óptimas, valorando tanto la corrección matemática como sus implicaciones desde diferentes perspectivas (de
+género, de sostenibilidad, de consumo responsable, etc.).
+Competencia específica Descriptores operativos de las
+38
+
+=== Página 39 ===
+
+3.  Formular  y  comprobar  conjeturas  sencillas  o  plantear  problemas  de  forma  autónoma,
+reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento.
+ 4. Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en
+partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar
+situaciones y resolver problemas de forma eficaz.
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CD5, CPSAA4, CE3
+Criterios de evaluación
+3.1.  Formular  y  comprobar  conjeturas  sencillas  de  forma  guiada  buscando  en  varias  fuentes  de
+información, analizando y comprendiendo patrones, propiedades y relaciones tanto en situaciones
+conocidas  como  abstractas,  planteándose  preguntas  y  comprobando  hipótesis  mediante  la
+experimentación y la indagación, confirmando su validez utilizando distintos recursos materiales y
+digitales, con el fin de obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+CCL1, STEM1, STEM2, STEM4, CD1,
+CD2, CD5, CPSAA4, CE3
+3.2. Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del
+problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos
+digitales o manuales y reflexionando sobre la relación entre los distintos resultados obtenidos, con el
+objetivo de encontrar ideas y soluciones valiosas, generalizando y estudiando casos particulares a fin
+de  potenciar  la  adquisición  de  conocimientos,  estrategias  y  métodos  propios  del  razonamiento
+matemático.
+CCL1, STEM1, STEM2, CD1, CD2, CD5,
+CE3
+4.1. Descomponer un problema en partes más simples organizando los datos y reconociendo patrones
+para facilitar su interpretación y su tratamiento computacional.
+STEM1, STEM2, CD2, CE3
+4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando y modificando
+distintos algoritmos y aplicaciones informáticas sencillas para desarrollar soluciones tecnológicas y
+STEM1, STEM2, STEM3, CD2, CD3,
+39
+
+=== Página 40 ===
+
+resolver problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías digitales y
+gestionando de manera responsable su uso.
+CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento
+matemático, sea capaz de formular, comprobar y valorar, de forma guiada, por medio de la experimentación y la indagación, conjeturas sencillas;
+utilizando para tal fin diversos materiales y herramientas digitales, así como que sepa reconocer patrones. Además, se trata de comprobar que es
+capaz de plantear variantes de un problema, seleccionando distintas estrategias para su resolución, y que sabe descomponer un problema en partes
+más simples para facilitar su interpretación y su tratamiento computacional, haciendo un uso responsable de las tecnologías digitales que tiene a su
+alcance. Por último, se persigue que el alumnado sea capaz de modelizar diferentes situaciones y fenómenos de la vida cotidiana interpretando,
+modificando y generalizando distintos algoritmos.
+Competencia específica
+5. Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando
+conceptos  y  procedimientos,  para  desarrollar una  visión  de  las  matemáticas  como  un  todo
+integrado. 
+6. Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles
+de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para
+aplicarlos en situaciones diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM3, STEM5,
+CD2, CD3, CC4, CE3, CCEC1
+Criterios de evaluación
+40
+
+=== Página 41 ===
+
+5.1. Reconocer y realizar conexiones entre diferentes procesos matemáticos a partir de conocimientos
+y experiencias previas, mediante métodos propios del razonamiento matemático, reflexionando sobre
+el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar los aprendizajes
+matemáticos  adquiridos y desarrollar  una  visión  coherente  e integrada  de  las matemáticas  en  su
+totalidad.
+CCL3, STEM1, STEM2, STEM3, CD2
+6.1.  Identificar  y  establecer  conexiones  coherentes  entre  el  mundo  real,  las  matemáticas  y  otras
+materias, reconociendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y
+estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir,
+comunicar,  clasificar  y  predecir,  y  las  herramientas  digitales  necesarias,  para  afrontar  y  resolver
+situaciones problemáticas diversas realizando un análisis crítico.
+CCL3, STEM1, STEM2, CD2, CD3, CE3
+6.2. Reconocer la aportación de las matemáticas al progreso de la humanidad y su contribución a la
+superación de los retos que demanda la sociedad actual, para apreciar y respetar aspectos esenciales
+del patrimonio cultural y artístico, valorar el impacto de las soluciones dadas en el entorno y el
+enriquecimiento personal que supone poseer conocimientos matemáticos y saberlos aplicar.
+CCL3, STEM2, STEM5, CC4, CCEC1
+Explicación del bloque competencial
+Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos,
+comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras
+materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento
+científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la
+humanidad. En particular su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda
+la sociedad actual.
+41
+
+=== Página 42 ===
+
+Competencia específica
+7.  Representar,  de  forma  individual  y  colectiva,  conceptos,  procedimientos,  información  y
+resultados  matemáticos,  usando  diferentes  tecnologías,  para  visualizar  ideas  y  estructurar
+procesos matemáticos. 
+8.  Comunicar  de  forma  individual  y  colectiva  conceptos,  procedimientos  y  argumentos
+matemáticos,  usando  lenguaje  oral,  escrito  o gráfico,  utilizando  la  terminología  matemática
+apropiada, para dar significado y coherencia a las ideas matemáticas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, STEM3,
+STEM4, CD1, CD2, CD3, CD5, CE3,
+CCEC3, CCEC4
+Criterios de evaluación
+7.1. Representar, utilizando un lenguaje matemático apropiado, individual o colectivamente, ideas,
+conceptos,  procedimientos, información  y  resultados  matemáticos  de modos  distintos,  empleando
+diferentes  medios  y  soportes  en  su  presentación  para  visualizar  ideas  y  estructurar  procesos
+matemáticos, valorando su utilidad para compartir información.
+CCL1, CCL2, STEM3, STEM4, CD1,
+CD2, CD5, CE3, CCEC4
+8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos
+matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales,
+para dar significado y coherencia a las representaciones matemáticas.
+CCL1, CCL3, STEM2, STEM4, CD2,
+CD3, CE3, CCEC3
+8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes
+con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo
+requiera, para compartir y construir nuevos conocimientos.
+CCL1, CCL2, CCL3, STEM2, STEM4,
+CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas,
+42
+
+=== Página 43 ===
+
+conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje
+oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como
+reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.
+Competencia específica
+9. Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica
+estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante
+situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el
+disfrute en el aprendizaje de las matemáticas. 
+10. Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los
+demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles
+asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el
+bienestar personal y grupal y crear relaciones saludables.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM3, STEM5, CPSAA1,
+CPSAA3, CPSAA4, CPSAA5, CC1, CC2,
+CC3, CE2, CE3
+Criterios de evaluación
+9.1. Identificar y gestionar las emociones, valorando las fortalezas y debilidades propias, y desarrollar
+el autoconcepto matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la
+resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos.
+STEM5, CPSAA1, CE2
+9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, aceptando
+la crítica razonada y reconociendo los errores al hacer frente a las diferentes situaciones problemáticas,
+CPSAA1, CPSAA4, CPSAA5, CE2, CE3
+43
+
+=== Página 44 ===
+
+para mejorar el disfrute en el aprendizaje de las matemáticas.
+10.1.  Colaborar  activamente  y  construir  relaciones  en  equipos  heterogéneos  con  empatía,
+comunicándose de manera asertiva, con actitud cooperativa y respetuosa, pensando de forma crítica,
+tomando decisiones argumentadas y gestionando los conflictos que puedan surgir pacíficamente, para
+construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y
+social.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+10.2. Participar en el reparto de tareas del equipo, empleando estrategias cooperativas, aportando valor
+al grupo, favoreciendo la inclusión, la igualdad de género y la escucha activa, responsabilizándose del
+rol asignado y de su contribución dentro del equipo, comprendiendo proactivamente las perspectivas y
+las experiencias de los demás e incorporándolas a su aprendizaje, para crear relaciones y entornos de
+trabajo saludables.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado
+desarrolle destrezas personales y sociales, así como actitudes con las que entender, identificar y gestionar las emociones propias y las de los y las
+demás al trabajar individualmente o en grupo, valorando fortalezas y debilidades, mostrando actitud positiva y perseverante, gestionando las
+situaciones de incertidumbre y aceptando la crítica razonada para reconocer el error como una oportunidad de aprendizaje. Asimismo, se evaluará
+que el alumnado participa de manera activa y reflexiva al trabajar en grupos heterogéneos, comunicándose de forma asertiva, practicando la escucha
+activa, realizando el trabajo en equipo, gestionando los conflictos y el reparto de tareas, responsabilizándose del rol asignado y favoreciendo la
+aceptación de la diversidad presente en el aula y en la sociedad.
+44
+
+=== Página 45 ===
+
+Saberes básicos
+I. Sentido numérico
+ 1. Conteo. 
+ 1.1. Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño
+de los números en situaciones de la vida cotidiana.
+ 2. Cantidad. 
+ 2.1. Interpretación  de  números grandes y pequeños,  reconocimiento  y  utilización  de  la
+notación exponencial, científica y de la calculadora.
+ 2.2. Estimaciones  y  aproximaciones  con  la  precisión  requerida  en  problemas
+contextualizados.
+ 2.3. Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en
+contextos de la vida cotidiana con la precisión requerida.
+ 2.4. Estimación de raíces aproximadas.
+ 3. Sentido de las operaciones. 
+ 3.1. Aplicación  de  estrategias  de  cálculo  mental  con  números  naturales,  fracciones,
+decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y
+25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como
+el doble del 10 %, etc.).
+ 3.2. Operaciones  con  números  enteros,  fraccionarios  o  decimales  en  situaciones
+contextualizadas.
+ 3.3. Operaciones con cantidades en notación científica usando la calculadora.
+ 3.4. Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación):
+cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales
+tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.
+ 4. Relaciones. 
+ 4.1. Selección y utilización de la representación más adecuada de una misma cantidad para
+cada situación o problema.
+ 4.2. Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones
+geométricos, numéricos, etc.).
+ 5. Educación financiera. 
+ 5.1. Interpretación de la información numérica en contextos financieros sencillos.
+ 5.2. Métodos para la toma de decisiones de consumo responsable: relaciones calidad- precio
+y valor-precio en contextos cotidianos.
+II. Sentido de la medida
+45
+
+=== Página 46 ===
+
+1. Magnitud. 
+ 1.1. Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.
+ 2. Estimación y relaciones. 
+ 2.1. Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en
+estimaciones.
+ 2.2. Toma de decisión justificada del grado de precisión requerida en situaciones de medida.
+ 2.3. Interpretación y cálculo del error. Error absoluto y error relativo.
+ 3. Medición. 
+ 3.1. Longitudes,  áreas  y  volúmenes  en  figuras  planas  y  tridimensionales:  deducción,
+interpretación y aplicación.
+ 3.2. Representaciones planas de objetos tridimensionales en la visualización y resolución de
+problemas de áreas.
+ 3.3. Representaciones de objetos geométricos con propiedades fijadas, como las longitudes
+de los lados o las medidas de los ángulos.
+ 3.4. La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.
+III. Sentido espacial
+ 1. Formas geométricas de dos y tres dimensiones. 
+ 1.1. Relaciones geométricas como la congruencia, la semejanza, cálculo de la razón de
+semejanza y uso de la escala.
+ 1.2. Relación pitagórica en figuras planas y tridimensionales: identificación y aplicación.
+ 1.3. Construcción  de  figuras  geométricas  con  herramientas  manipulativas  y  digitales
+(programas de geometría dinámica, realidad aumentada, etc.).
+ 2. Localización y sistemas de representación. 
+ 2.1. Relaciones espaciales: localización y descripción mediante coordenadas cartesianas y
+otros sistemas de representación. Orientación en planos reales.
+ 3. Movimientos y transformaciones. 
+ 3.1. Transformaciones  elementales  como  giros,  traslaciones  y  simetrías  en  situaciones
+diversas utilizando herramientas digitales o manipulativas.
+ 4. Visualización, razonamiento y modelización geométrica. 
+ 4.1. Modelización  geométrica:  relaciones  numéricas  y  algebraicas  en  la  resolución  de
+problemas  con  herramientas  manipulativas  y  digitales  (programas  de  geometría
+dinámica, realidad aumentada, etc.).
+ 4.2. Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida
+diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.
+46
+
+=== Página 47 ===
+
+IV . Sentido algebraico
+ 1. Patrones. 
+ 1.1. Patrones: identificación y comprensión, determinando la regla de formación de diversas
+estructuras.
+ 1.2. Fórmulas  y  términos  generales:  obtención  mediante  la  observación  de  pautas  y
+regularidades sencillas y su generalización en la resolución de problemas o ejemplos de
+la vida cotidiana.
+ 2. Modelo matemático. 
+ 2.1. Modelización de situaciones de la vida cotidiana usando representaciones matemáticas
+y el lenguaje algebraico.
+ 2.2. Operaciones sencillas con polinomios. Suma, resta y multiplicación.
+ 2.3. Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez
+modelizada.
+ 3. Variable. 
+ 3.1. Variable: comprensión del concepto en sus diferentes naturalezas.
+ 4. Igualdad y desigualdad. 
+ 4.1. Relaciones  lineales  y  cuadráticas  en  situaciones  de  la  vida  cotidiana  o
+matemáticamente relevantes: expresión mediante álgebra simbólica.
+ 4.2. Equivalencia de expresiones algebraicas en la resolución de problemas basados en
+relaciones lineales y cuadráticas.
+ 4.3. Estrategias de búsqueda de soluciones en ecuaciones y sistemas lineales y ecuaciones
+cuadráticas en situaciones de la vida cotidiana.
+ 4.4. Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones
+diversas.
+ 5. Relaciones y funciones. 
+ 5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que
+las modelizan.
+ 5.2. Relaciones lineales y cuadráticas: identificación y comparación en diferentes contextos
+de varios modos de representación, tablas, gráficas o expresiones algebraicas, y sus
+propiedades a partir de ellas.
+ 5.3. Identificación  e  interpretación  de  las  características  más  relevantes  de  una  gráfica
+comprobando  los  resultados  con  la  ayuda  de  medios  tecnológicos  en  situaciones
+abstractas y problemas contextualizados.
+ 5.4. Deducción de la información relevante de una función mediante el uso de diferentes
+representaciones simbólicas.
+47
+
+=== Página 48 ===
+
+6. Pensamiento computacional. 
+ 6.1. Generalización  y  transferencia  de  procesos  de  resolución  de  problemas  a  otras
+situaciones.
+ 6.2. Estrategias útiles en la interpretación y modificación de algoritmos.
+ 6.3. Estrategias  de  formulación  de  cuestiones  susceptibles  de  ser  analizadas  mediante
+programas y otras herramientas.
+V . Sentido estocástico
+ 1. Organización y análisis de datos. 
+ 1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+involucran una sola variable. Diferencia entre variable y valores individuales.
+ 1.2. Análisis  e interpretación  de  tablas  y  gráficos estadísticos de  variables  cualitativas,
+cuantitativas discretas y cuantitativas continuas en contextos reales.
+ 1.3. Gráficos estadísticos: representación mediante diferentes tecnologías (calculadora, hoja
+de cálculo, aplicaciones, etc.) y elección del más adecuado.
+ 1.4. Medidas  de  centralización:  interpretación  y  cálculo  con  apoyo  tecnológico  en
+situaciones reales.
+ 1.5. Variabilidad: interpretación y cálculo, con apoyo tecnológico, de medidas de dispersión
+en situaciones reales.
+ 1.6. Comparación de dos conjuntos de datos atendiendo a las medidas de localización y
+dispersión.
+ 2. Incertidumbre. 
+ 2.1. Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos
+(equiprobables y no equiprobables).
+ 2.2. Interpretación  de  la  probabilidad  asociada  a  la  incertidumbre  de  experimentos
+aleatorios.
+ 2.3. Asignación de probabilidades mediante la regla de Laplace.
+ 2.4. Asignación  de  la  probabilidad  a  partir  de  la  experimentación  y  el  concepto  de
+frecuencia relativa.
+ 2.5. Planificación y realización de experiencias sencillas para analizar el comportamiento de
+fenómenos aleatorios.
+ 3. Inferencia. 
+ 3.1. Formulación de preguntas adecuadas que permitan conocer las características de interés
+de una población.
+48
+
+=== Página 49 ===
+
+3.2. Datos  relevantes  para  dar  respuesta  a  cuestiones  planteadas  en  investigaciones
+estadísticas:  presentación  de  la  información  procedente  de  una  muestra  mediante
+herramientas digitales.
+ 3.3. Extracción de conclusiones a partir de una muestra con el fin de emitir juicios y tomar
+decisiones adecuadas.
+VI. Sentido socioafectivo
+ 1. Creencias, actitudes y emociones 
+ 1.1. Autoconciencia  y  autorregulación:  reconocimiento  y gestión  de  las emociones  que
+intervienen en el aprendizaje.
+ 1.2. Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el
+aprendizaje de las matemáticas.
+ 1.3. Desarrollo  de flexibilidad cognitiva,  abierto  a un cambio de  estrategia cuando  sea
+necesario, transformando el error en oportunidad de aprendizaje.
+ 2. Trabajo en equipo y toma de decisiones. 
+ 2.1. Técnicas  cooperativas para optimizar  el  trabajo  en equipo y compartir  y construir
+conocimiento matemático.
+ 2.2. Conductas empáticas y estrategias de gestión de conflictos.
+ 3. Inclusión, respeto y diversidad. 
+ 3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.
+ 3.2. La  contribución  de  las  matemáticas  al  desarrollo  de  los  distintos  ámbitos  del
+conocimiento humano desde una perspectiva de género.
+49
+
+=== Página 50 ===
+
+Matemáticas A
+Bloques competenciales
+Competencia específica
+1. Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas,
+aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de
+proceder y obtener posibles soluciones. 
+2. Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando
+las  respuestas  obtenidas,  para  verificar  su  validez  e  idoneidad  desde  un  punto  de  vista
+matemático y su repercusión global.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM1, STEM2, STEM3,
+STEM4, CD2, CPSAA4, CPSAA5, CC2,
+CC3, CE3
+Criterios de evaluación
+1.1. Analizar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que
+existe  entre  ellos  y  representando  la  información  mediante  herramientas  manuales  o  digitales,
+compartiendo ideas y enjuiciando con crítica razonada las de las demás personas y los diferentes
+enfoques del mismo problema con el fin de comprender el enunciado y explorar distintas maneras de
+proceder.
+CCL1, CCL2, STEM1, CD2, CC2, CE3
+1.2. Seleccionar y aplicar estrategias variadas tomando decisiones de forma razonada, analizando sus
+limitaciones e idoneidad, utilizando distintas herramientas en su ejecución, superando bloqueos e
+inseguridades, reflexionando sobre el proceso realizado, buscando un cambio de estrategia, cuando sea
+necesario y transformando el error en oportunidad de aprendizaje para desarrollar ideas y soluciones
+valiosas.
+STEM1, STEM2, STEM3, CD2, CPSAA5,
+CE3
+50
+
+=== Página 51 ===
+
+1.3.  Obtener  todas  las  soluciones  matemáticas  de  un  problema,  mostrando  perseverancia  en  su
+búsqueda, autoconfianza y activando los conocimientos necesarios para resolver problemas de la vida
+cotidiana y propios de las matemáticas.
+STEM1, STEM2, STEM3, STEM4,
+CPSAA5, CE3
+2.1. Seleccionar las soluciones óptimas de un problema comprobando, analizando e interpretando, con
+actitud crítica, dichas soluciones, reflexionando sobre su validez y sobre su aplicación en diferentes
+contextos,  valorando  tanto  la  corrección  matemática  como  sus  implicaciones  desde  diferentes
+perspectivas para obtener conclusiones relevantes y elaborar respuestas a las preguntas planteadas.
+CCL2, STEM1, STEM2, CD2, CPSAA4,
+CC3, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas
+de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de diferentes herramientas manuales o
+digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros,
+seleccionando y configurando la más adecuada en función de la tarea. Para ello se comprobará que el alumnado sea capaz de analizar problemas
+matemáticos,  identificando  los  datos  y  el  objetivo,  definiendo  la  relación  que  existe  entre  ellos  y  representando  la  información  mediante
+herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado selecciona y
+aplica estrategias elaboradas, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás),
+descomposición en problemas más sencillos, búsqueda de patrones, etc., valorando su eficacia e idoneidad en la resolución de problemas, buscando
+un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener
+todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, valorando tanto la corrección matemática como sus
+implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable, etc.).
+Competencia específica Descriptores operativos de las
+51
+
+=== Página 52 ===
+
+3.  Formular  y  comprobar  conjeturas  sencillas  o  plantear  problemas  de  forma  autónoma,
+reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento. 
+4. Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en
+partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar
+situaciones y resolver problemas de forma eficaz.
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CD5, CPSAA4, CE3
+Criterios de evaluación
+3.1. Formular, comprobar e investigar conjeturas sencillas de forma guiada buscando en varias fuentes
+de información, estudiando, analizando y comprendiendo patrones, propiedades y relaciones tanto en
+situaciones conocidas como abstractas, planteándose preguntas y comprobando hipótesis mediante la
+experimentación y la indagación, confirmando su validez utilizando distintos recursos materiales y
+digitales, con el fin de obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+CCL1, STEM1, STEM2, STEM4, CD1,
+CD2, CD5, CPSAA4, CE3
+3.2. Crear variantes de un problema dado modificando alguno de sus datos o alguna condición del
+problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos
+digitales o manuales y reflexionando sobre la relación entre los distintos resultados obtenidos, con el
+objetivo de encontrar ideas y soluciones valiosas, generalizando o estudiando casos particulares a fin
+de  potenciar  la  adquisición  de  conocimientos,  estrategias  y  métodos  propios  del  razonamiento
+matemático.
+CCL1, STEM1, STEM2, CD1, CD2, CD5,
+CE3
+4.1.  Descomponer  un  problema  en  partes  más  simples  organizando  los  datos,  reconociendo  e
+investigando patrones para facilitar su interpretación y su tratamiento computacional.
+STEM1, STEM2, CD2, CE3
+4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando, modificando y
+creando  distintos  algoritmos  y  aplicaciones  informáticas  sencillas  para  desarrollar  soluciones
+STEM1, STEM2, STEM3, CD2, CD3,
+52
+
+=== Página 53 ===
+
+tecnológicas y resolver problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías
+digitales y gestionando de manera responsable su uso.
+CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento
+matemático,  sea  capaz  de  formular  y  comprobar,  por  medio  de  la  experimentación  y  la  indagación,  conjeturas  sencillas  fundamentalmente
+relacionadas con propiedades geométricas; utilizando para tal fin herramientas digitales. Del mismo modo, se persigue que pueda reconocer patrones
+numéricos, analizar relaciones cuantitativas, interpretar, modificar y crear algoritmos, así como desarrollar métodos con los que resolver problemas
+(referentes a proporciones,  aumentos o disminuciones  porcentuales, intereses, etc.), actuando  con curiosidad  y perseverancia, para  obtener e
+intercambiar conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar, por un lado, que el
+alumnado es capaz de descomponer un problema en partes más simples para facilitar su interpretación y su tratamiento computacional haciendo un
+uso responsable de las tecnologías digitales y por otro, de modelizar diferentes situaciones de la vida cotidiana o abstractas, apoyándose en
+representaciones matemáticas y en el lenguaje algebraico, en distintos tipos de funciones elementales y en herramientas digitales como programas de
+geometría dinámica o de realidad aumentada, entre otros.
+Competencia específica
+5. Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando
+conceptos  y  procedimientos,  para  desarrollar una  visión  de  las  matemáticas  como  un  todo
+integrado. 
+6. Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles
+de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para
+aplicarlos en situaciones diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM3, STEM5,
+CD2, CD3, CC4, CE3, CCEC1
+53
+
+=== Página 54 ===
+
+Criterios de evaluación
+5.1. Deducir, analizar y poner en práctica conexiones entre diferentes procesos matemáticos a partir de
+conocimientos  y  experiencias  previas,  mediante  métodos  propios  del  razonamiento  matemático,
+reflexionando sobre el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar
+los  aprendizajes  matemáticos  adquiridos  y  desarrollar  una  visión  coherente  e  integrada  de  las
+matemáticas en su totalidad.
+CCL3, STEM1, STEM2, STEM3, CD2
+6.1. Identificar, establecer y aplicar conexiones coherentes entre el mundo real, las matemáticas y otras
+materias, proponiendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y
+estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir,
+comunicar,  clasificar  y  predecir,  y  las  herramientas  digitales  necesarias,  para  afrontar  y  resolver
+situaciones problemáticas diversas realizando un análisis crítico.
+CCL3, STEM1, STEM2, CD2, CD3, CE3
+6.2. Analizar y valorar la aportación de las matemáticas al progreso de la humanidad y su contribución
+a la superación de los retos que demanda la sociedad actual, para conocer, apreciar y respetar aspectos
+esenciales del patrimonio cultural y artístico, valorar el impacto de las soluciones dadas en el entorno y
+el enriquecimiento personal que supone poseer conocimientos matemáticos y saberlos aplicar.
+CCL3, STEM2, STEM5, CC4, CCEC1
+Explicación del bloque competencial
+Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos,
+comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar y aplicar las matemáticas implicadas en
+otras materias y en contextos reales proponiendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento
+científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado analiza y valora la aportación de las matemáticas al
+progreso de la humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias, y su contribución a la superación de los
+54
+
+=== Página 55 ===
+
+retos que demanda la sociedad actual.
+Competencia específica
+7.  Representar,  de  forma  individual  y  colectiva,  conceptos,  procedimientos,  información  y
+resultados  matemáticos,  usando  diferentes  tecnologías,  para  visualizar  ideas  y  estructurar
+procesos matemáticos. 
+8.  Comunicar  de  forma  individual  y  colectiva  conceptos,  procedimientos  y  argumentos
+matemáticos,  usando  lenguaje  oral,  escrito  o gráfico,  utilizando  la  terminología  matemática
+apropiada, para dar significado y coherencia a las ideas matemáticas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, STEM3,
+STEM4, CD1, CD2, CD3, CD5, CE3,
+CCEC3, CCEC4
+Criterios de evaluación
+7.1.  Representar  individual  o  colectivamente  ideas,  conceptos,  procedimientos,  información  y
+resultados matemáticos utilizando un lenguaje matemático apropiado, seleccionando con actitud crítica
+entre diferentes fuentes de información, herramientas y formas de representación, empleando diversos
+medios  y  soportes  en  su  presentación  para  visualizar  ideas  y  estructurar  procesos  matemáticos,
+valorando su utilidad para compartir información.
+CCL1, CCL2, STEM3, STEM4, CD1,
+CD2, CD5, CE3, CCEC4
+8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos
+matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales,
+para dar significado y coherencia a las representaciones matemáticas.
+CCL1, CCL3, STEM2, STEM4, CD2,
+CD3, CE3, CCEC3
+8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes CCL1, CCL2, CCL3, STEM2, STEM4,
+55
+
+=== Página 56 ===
+
+con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo
+requiera, para compartir y construir nuevos conocimientos.
+CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas,
+conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje
+oral, escrito o gráfico, con coherencia, claridad y terminología apropiada, usando diferentes formas de representación (pictórica, gráfica, verbal,
+simbólica, etc.) y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la
+vida cotidiana y en los diferentes contextos.
+Competencia específica
+9. Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica
+estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante
+situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el
+disfrute en el aprendizaje de las matemáticas. 
+10. Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los
+demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles
+asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el
+bienestar personal y grupal y crear relaciones saludables.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM3, STEM5, CPSAA1,
+CPSAA3, CPSAA4, CPSAA5, CC1, CC2,
+CC3, CE2, CE3
+Criterios de evaluación
+56
+
+=== Página 57 ===
+
+9.1. Identificar y gestionar las emociones, evaluando las fortalezas y debilidades propias, y desarrollar
+el autoconcepto matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la
+resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos.
+STEM5, CPSAA1, CE2
+9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, aceptando
+la  crítica  razonada  y  aprendiendo  de  los  errores  al  hacer  frente  a  las  diferentes  situaciones
+problemáticas, para mejorar el disfrute en el aprendizaje de las matemáticas.
+CPSAA1, CPSAA4, CPSAA5, CE2, CE3
+10.1.  Colaborar  activamente  y  construir  relaciones  en  equipos  heterogéneos  con  empatía,
+comunicándose de manera efectiva, con actitud cooperativa y respetuosa, pensando de forma crítica,
+tomando decisiones argumentadas y resolviendo los conflictos que puedan surgir pacíficamente, para
+construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y
+social.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+10.2.  Planificar  y  gestionar  el  reparto  de  tareas  del  equipo,  empleando  estrategias  cooperativas,
+aportando  valor  al  grupo,  favoreciendo  la  inclusión,  la  igualdad  de  género  y  la  escucha  activa,
+responsabilizándose  del  rol  asignado  y  de  su  contribución  dentro  del  equipo,  comprendiendo
+proactivamente las perspectivas y las experiencias de los demás e incorporándolas a su aprendizaje,
+para crear relaciones y entornos de trabajo saludables.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado
+desarrolle destrezas personales y sociales, así como actitudes con las que entender y gestionar las emociones propias y las de los y las demás al
+trabajar individualmente o en grupo, evaluando fortalezas y debilidades, mostrando actitud positiva y perseverante, adaptándose a las situaciones de
+incertidumbre y aceptando la crítica razonada para transformar el error en una oportunidad de aprendizaje. Asimismo, se evaluará que el alumnado
+participa de manera activa, creativa y reflexiva al trabajar en grupos heterogéneos, comunicándose de forma efectiva, practicando la escucha activa,
+57
+
+=== Página 58 ===
+
+optimizando el trabajo en equipo, gestionando los conflictos y el reparto de tareas, responsabilizándose del rol asignado y favoreciendo actitudes
+inclusivas que impliquen la aceptación de la diversidad presente en el aula y en la sociedad.
+58
+
+=== Página 59 ===
+
+Saberes básicos
+I. Sentido numérico
+ 1. Conteo. 
+ 1.1. Resolución de situaciones y problemas de la vida cotidiana: estrategias para el recuento
+sistemático.
+ 2. Cantidad. 
+ 2.1. Realización  de  estimaciones  en  diversos  contextos  analizando  y  acotando  el  error
+cometido.
+ 2.2. Uso de los números reales para expresar cantidades en contextos diversos, incluidos los
+de la vida cotidiana, con la precisión requerida.
+ 2.3. Identificación del conjunto numérico que sirve para responder a diferentes necesidades:
+contar, medir, comparar, etc.
+ 3. Sentido de las operaciones. 
+ 3.1. Operaciones con números reales en la resolución de situaciones contextualizadas.
+ 3.2. Propiedades de las operaciones aritméticas: cálculos con números reales, incluyendo
+con herramientas digitales.
+ 3.3. Reconocimiento de algunos números irracionales en situaciones de la vida cotidiana.
+ 4. Relaciones. 
+ 4.1. Patrones y regularidades numéricas en las que intervengan números reales.
+ 4.2. Orden en la recta numérica. Intervalos
+ 5. Razonamiento proporcional. 
+ 5.1. Situaciones de proporcionalidad directa e inversa en diferentes contextos: desarrollo y
+análisis de métodos para la resolución de problemas.
+ 6. Educación financiera. 
+ 6.1. Desarrollo,  análisis  y  explicación  de  métodos  para  la  resolución  de  problemas
+relacionados con aumentos y disminuciones porcentuales, intereses y tasas en contextos
+financieros.
+II. Sentido de la medida
+ 1. Medición. 
+ 1.1. Relación  entre  la  pendiente  y  el  ángulo  de  inclinación  en  situaciones  sencillas:
+deducción y aplicación.
+ 2. Cambio. 
+59
+
+=== Página 60 ===
+
+2.1. Estudio gráfico del crecimiento y decrecimiento de funciones en contextos de la vida
+cotidiana con el apoyo de herramientas tecnológicas: tasas de variación absoluta, relativa
+y media.
+III. Sentido espacial
+ 1. Figuras geométricas de dos y tres dimensiones. 
+ 1.1. Representación e investigación de las propiedades geométricas de objetos de dos o tres
+dimensiones de la vida cotidiana mediante programas de geometría dinámica.
+ 2. Movimientos y transformaciones. 
+ 2.1. Transformaciones elementales (giros, traslaciones y simetrías) y sus combinaciones en
+la vida cotidiana: investigación con herramientas digitales como programas de geometría
+dinámica, realidad aumentada, etc
+ 3. Visualización, razonamiento y modelización geométrica. 
+ 3.1. Representación  y explicación  de  relaciones numéricas y algebraicas  en situaciones
+diversas a partir de modelos geométricos.
+ 3.2. Modelización de elementos geométricos de la vida cotidiana con herramientas digitales
+como programas de geometría dinámica, realidad aumentada, etc.
+ 3.3. Elaboración y comprobación de conjeturas sobre propiedades geométricas mediante
+programas de geometría dinámica u otras herramientas.
+IV . Sentido algebraico
+ 1. Patrones 
+ 1.1. Patrones, pautas y regularidades: observación, generalización y término general en
+casos sencillos.
+ 2. Modelo matemático. 
+ 2.1. Modelización y resolución de problemas de la vida cotidiana mediante representaciones
+matemáticas y lenguaje algebraico, haciendo uso de distintos tipos de funciones.
+ 2.2. Operaciones con polinomios. Suma, resta, multiplicación y división (Regla de Ruffini).
+ 2.3. Deducción y análisis de conclusiones razonables de una situación contextualizada una
+vez modelizada.
+ 3. Variable. 
+ 3.1. Identificación de variables en distintos contextos: asociación de expresiones simbólicas
+al contexto del problema y diferentes usos.
+ 3.2. Características  del  cambio  en  la  representación  gráfica  de  relaciones  lineales  y
+cuadráticas dependiendo de los parámetros con apoyo de herramientas digitales.
+ 4. Igualdad y desigualdad. 
+60
+
+=== Página 61 ===
+
+4.1. Relaciones lineales, cuadráticas y de proporcionalidad inversa en situaciones de la vida
+cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.
+ 4.2. Formas equivalentes de expresiones algebraicas en la resolución de ecuaciones lineales
+y cuadráticas, y sistemas de ecuaciones e inecuaciones lineales.
+ 4.3. Estrategias de discusión y búsqueda de soluciones en ecuaciones lineales y cuadráticas
+en situaciones de la vida cotidiana.
+ 4.4. Ecuaciones,  sistemas  de  ecuaciones  e  inecuaciones:  resolución  e  interpretación
+mediante el uso de la tecnología en situaciones diversas.
+ 5. Relaciones y funciones. 
+ 5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que
+las modelizan.
+ 5.2. Relaciones  lineales,  cuadráticas  y  de  proporcionalidad  inversa  en  contextos:
+identificación y comparación de diferentes modos de representación, tablas, gráficas o
+expresiones algebraicas, y sus propiedades a partir de ellas.
+ 5.3. Representación de funciones: interpretación de sus propiedades en situaciones de la
+vida cotidiana.
+ 6. Pensamiento computacional. 
+ 6.1. Resolución de problemas mediante la descomposición en partes, la automatización y el
+pensamiento  algorítmico  (descomposición  en  pasos  sencillos,  reconocimiento  de
+patrones, abstracción y diseño de algoritmos).
+ 6.2. Estrategias en la interpretación, modificación y creación de algoritmos.
+ 6.3. Formulación y análisis de problemas de la vida cotidiana mediante programas y otras
+herramientas.
+V . Sentido estocástico
+ 1. Organización y análisis de datos. 
+ 1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+involucran una variable bidimensional. Tablas de contingencia.
+ 1.2. Análisis  e  interpretación  de  tablas  y  gráficos  estadísticos  de  una  y  dos  variables
+cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.
+ 1.3. Medidas de localización y dispersión: interpretación y análisis de la variabilidad.
+ 1.4. Gráficos  estadísticos  de  una  y  dos  variables:  representación  mediante  diferentes
+tecnologías  (calculadora,  hoja  de  cálculo,  aplicaciones…),  análisis,  interpretación  y
+obtención de conclusiones razonadas.
+ 1.5. Interpretación  de  la  relación  entre  dos  variables,  valorando  gráficamente  con
+herramientas digitales la pertinencia de realizar una regresión lineal. Ajuste lineal con
+herramientas digitales.
+61
+
+=== Página 62 ===
+
+2. Incertidumbre. 
+ 2.1. Experimentos compuestos:  planificación,  realización  y  análisis  de  la  incertidumbre
+asociada.
+ 2.2. Probabilidad:  cálculo  aplicando  la  regla  de  Laplace  y  técnicas  de  recuento  en
+experimentos  simples  y  compuestos  (mediante  diagramas  de  árbol,  tabla,  etc.)  y
+aplicación a la toma de decisiones fundamentadas.
+ 3. Inferencia. 
+ 3.1. Diferentes etapas del diseño de estudios estadísticos.
+ 3.2. Estrategias  y  herramientas  de  presentación  e  interpretación  de  datos  relevantes  en
+investigaciones estadísticas mediante herramientas digitales adecuadas.
+ 3.3. Análisis  del  alcance  de  las  conclusiones  de  un  estudio  estadístico  valorando  la
+representatividad de la muestra.
+VI. Sentido socioafectivo
+ 1. Creencias, actitudes y emociones. 
+ 1.1. Gestión emocional: emociones que intervienen en el aprendizaje de las matemáticas.
+Autoconciencia  y  autorregulación.  Superación  de  bloqueos  emocionales  en  el
+aprendizaje de las matemáticas.
+ 1.2. Estrategias de fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia
+en el aprendizaje de las matemáticas.
+ 1.3. Estrategias de fomento de la flexibilidad cognitiva: apertura a cambios de estrategia y
+transformación del error en oportunidad de aprendizaje.
+ 2. Trabajo en equipo y toma de decisiones. 
+ 2.1. Asunción de responsabilidades y participación activa, optimizando el trabajo en equipo.
+Estrategias de gestión de conflictos: pedir, dar y gestionar ayuda.
+ 2.2. Métodos  para  la  gestión  y  la  toma  de  decisiones  adecuadas  en  la  resolución  de
+situaciones propias del quehacer matemático en el trabajo en equipo.
+ 3. Inclusión, respeto y diversidad. 
+ 3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.
+ 3.2. La  contribución  de  las  matemáticas  al  desarrollo  de  los  distintos  ámbitos  del
+conocimiento humano desde una perspectiva de género.
+62
+
+=== Página 63 ===
+
+Matemáticas B
+Bloques competenciales
+Competencia específica
+1. Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas,
+aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de
+proceder y obtener posibles soluciones. 
+2. Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando
+las  respuestas  obtenidas,  para  verificar  su  validez  e  idoneidad  desde  un  punto  de  vista
+matemático y su repercusión global.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, STEM1, STEM2, STEM3,
+STEM4, CD2, CPSAA4, CPSAA5, CC2,
+CC3, CE3
+Criterios de evaluación
+1.1. Analizar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que
+existe  entre  ellos  y  representando  la  información  mediante  herramientas  manuales  o  digitales,
+compartiendo ideas y enjuiciando con crítica razonada las de las demás personas y los diferentes
+enfoques del mismo problema con el fin de comprender el enunciado y explorar distintas maneras de
+proceder.
+CCL1, CCL2, STEM1, CD2, CC2, CE3
+1.2. Seleccionar y aplicar estrategias variadas tomando decisiones de forma razonada, analizando sus
+limitaciones e idoneidad, utilizando distintas herramientas en su ejecución, superando bloqueos e
+inseguridades, reflexionando sobre el proceso realizado, buscando un cambio de estrategia, cuando sea
+necesario y transformando el error en oportunidad de aprendizaje para desarrollar ideas y soluciones
+valiosas.
+STEM1, STEM2, STEM3, CD2, CPSAA5,
+CE3
+63
+
+=== Página 64 ===
+
+1.3.  Obtener  todas  las  soluciones  matemáticas  de  un  problema,  mostrando  perseverancia  en  su
+búsqueda, autoconfianza y activando los conocimientos necesarios para resolver problemas de la vida
+cotidiana y propios de las matemáticas.
+STEM1, STEM2, STEM3, STEM4,
+CPSAA5, CE3
+2.1. Seleccionar las soluciones óptimas de un problema comprobando, analizando e interpretando, con
+actitud crítica, dichas soluciones, reflexionando sobre su validez y sobre su aplicación en diferentes
+contextos,  valorando  tanto  la  corrección  matemática  como  sus  implicaciones  desde  diferentes
+perspectivas para obtener conclusiones relevantes y elaborar respuestas a las preguntas planteadas.
+CCL2, STEM1, STEM2, CD2, CPSAA4,
+CC3, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas
+de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de diferentes herramientas manuales o
+digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros,
+seleccionando y configurando la más adecuada en función de la tarea. Para ello se comprobará que el alumnado sea capaz de analizar problemas
+matemáticos,  identificando  los  datos  y  el  objetivo,  definiendo  la  relación  que  existe  entre  ellos  y  representando  la  información  mediante
+herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado selecciona y
+aplica estrategias elaboradas, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás),
+descomposición en problemas más sencillos, búsqueda de patrones, etc., valorando su eficacia e idoneidad en la resolución de problemas, buscando
+un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener
+todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, valorando tanto la corrección matemática como sus
+implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable, etc.).
+Competencia específica Descriptores operativos de las
+64
+
+=== Página 65 ===
+
+3.  Formular  y  comprobar  conjeturas  sencillas  o  plantear  problemas  de  forma  autónoma,
+reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento. 
+4. Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en
+partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar
+situaciones y resolver problemas de forma eficaz.
+competencias clave. Perfil de salida
+CCL1, STEM1, STEM2, STEM3, STEM4,
+CD1, CD2, CD3, CD5, CPSAA4, CE3
+Criterios de evaluación
+3.1. Formular, comprobar e investigar conjeturas sencillas de forma guiada buscando en varias fuentes
+de información, estudiando, analizando y comprendiendo patrones, propiedades y relaciones tanto en
+situaciones conocidas como abstractas, planteándose preguntas y comprobando hipótesis mediante la
+experimentación y la indagación, confirmando su validez utilizando distintos recursos materiales y
+digitales, con el fin de obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+CCL1, STEM1, STEM2, STEM4, CD1,
+CD2, CD5, CPSAA4, CE3
+3.2. Crear variantes de un problema dado modificando alguno de sus datos o alguna condición del
+problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos
+digitales o manuales y reflexionando sobre la relación entre los distintos resultados obtenidos, con el
+objetivo de encontrar ideas y soluciones valiosas, generalizando o estudiando casos particulares a fin
+de  potenciar  la  adquisición  de  conocimientos,  estrategias  y  métodos  propios  del  razonamiento
+matemático.
+CCL1, STEM1, STEM2, CD1, CD2, CD5,
+CE3
+4.1.  Descomponer  un  problema  en  partes  más  simples  organizando  los  datos  y  reconociendo,
+investigando y generalizando patrones para facilitar su interpretación y su tratamiento computacional.
+STEM1, STEM2, CD2, CE3
+4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando, modificando,
+generalizando, creando y evaluando distintos algoritmos y aplicaciones informáticas sencillas para
+STEM1, STEM2, STEM3, CD2, CD3,
+65
+
+=== Página 66 ===
+
+desarrollar  soluciones  tecnológicas  y  resolver  problemas  de  forma  eficaz,  mostrando  interés  y
+curiosidad por las tecnologías digitales y gestionando de manera responsable su uso.
+CD5, CE3
+Explicación del bloque competencial
+A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento
+matemático,  sea  capaz  de  formular  y  comprobar,  por  medio  de  la  experimentación  y  la  indagación,  conjeturas  sencillas  fundamentalmente
+relacionadas con propiedades geométricas; utilizando para tal fin herramientas digitales. Del mismo modo, se persigue que pueda reconocer patrones
+numéricos, analizar relaciones cuantitativas, interpretar, modificar, generalizar, crear y evaluar algoritmos, así como desarrollar métodos con los que
+resolver problemas, actuando con curiosidad y perseverancia, para obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento.
+Asimismo, este bloque competencial trata de comprobar que el alumnado es capaz de descomponer un problema en partes más simples para facilitar
+su interpretación y su tratamiento computacional, haciendo un uso responsable de las tecnologías digitales, que puede crear variantes del mismo y
+que sabe modelizar diferentes situaciones de la vida cotidiana o abstractas, apoyándose en representaciones matemáticas y en el lenguaje algebraico,
+en distintos tipos de funciones elementales y en herramientas digitales como programas de geometría dinámica o de realidad aumentada, entre otros.
+Competencia específica
+5. Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando
+conceptos  y  procedimientos,  para  desarrollar una  visión  de  las  matemáticas  como  un  todo
+integrado. 
+6. Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles
+de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para
+aplicarlos en situaciones diversas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL3, STEM1, STEM2, STEM3, STEM5,
+CD2, CD3, CC4, CE3, CCEC1
+66
+
+=== Página 67 ===
+
+Criterios de evaluación
+5.1. Deducir, analizar y poner en práctica conexiones entre diferentes procesos matemáticos a partir de
+conocimientos  y  experiencias  previas,  mediante  métodos  propios  del  razonamiento  matemático,
+reflexionando sobre el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar
+los  aprendizajes  matemáticos  adquiridos  y  desarrollar  una  visión  coherente  e  integrada  de  las
+matemáticas en su totalidad.
+CCL3, STEM1, STEM2, STEM3, CD2
+6.1. Establecer, aplicar y analizar conexiones coherentes entre el mundo real, las matemáticas y otras
+materias, proponiendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y
+estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir,
+comunicar,  clasificar  y  predecir,  y  las  herramientas  digitales  necesarias,  para  afrontar  y  resolver
+situaciones problemáticas diversas realizando un análisis crítico.
+CCL3, STEM1, STEM2, CD2, CD3, CE3
+6.2. Analizar y valorar la aportación de las matemáticas al progreso de la humanidad y su contribución
+a la superación de los retos que demanda la sociedad actual, para conocer, apreciar y respetar aspectos
+esenciales del patrimonio cultural y artístico, valorar el impacto de las soluciones dadas en el entorno y
+el enriquecimiento personal que supone poseer conocimientos matemáticos y saberlos aplicar.
+CCL3, STEM2, STEM5, CC4, CCEC1
+Explicación del bloque competencial
+Se persigue con este bloque competencial constatar que el alumnado es capaz de analizar y conectar aprendizajes matemáticos y desarrollar una
+visión coherente e integrada de las matemáticas, así como de identificar las matemáticas implicadas en otras materias y en situaciones reales
+resolviendo problemas de la vida cotidiana mediante métodos propios del razonamiento científico y estrategias de búsqueda, reflexionando con
+sentido crítico y comunicando el proceso seguido. También se evaluará que el alumnado analiza y valora la aportación de las matemáticas al
+progreso de la humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los
+67
+
+=== Página 68 ===
+
+retos que demanda la sociedad actual.
+Competencia específica
+7.  Representar,  de  forma  individual  y  colectiva,  conceptos,  procedimientos,  información  y
+resultados  matemáticos,  usando  diferentes  tecnologías,  para  visualizar  ideas  y  estructurar
+procesos matemáticos. 
+8.  Comunicar  de  forma  individual  y  colectiva  conceptos,  procedimientos  y  argumentos
+matemáticos,  usando  lenguaje  oral,  escrito  o gráfico,  utilizando  la  terminología  matemática
+apropiada, para dar significado y coherencia a las ideas matemáticas.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL2, CCL3, STEM2, STEM3,
+STEM4, CD1, CD2, CD3, CD5, CE3,
+CCEC3, CCEC4
+Criterios de evaluación
+7.1.  Representar  individual  o  colectivamente  ideas,  conceptos,  procedimientos,  información  y
+resultados matemáticos utilizando un lenguaje matemático apropiado, seleccionando con actitud crítica
+entre diferentes fuentes de información, herramientas y formas de representación, empleando diversos
+medios  y  soportes  en  su  presentación  para  visualizar  ideas  y  estructurar  procesos  matemáticos,
+valorando su utilidad para compartir información.
+CCL1, CCL2, STEM3, STEM4, CD1,
+CD2, CD5, CE3, CCEC4
+8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos
+matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales,
+para dar significado y coherencia a las representaciones matemáticas.
+CCL1, CCL3, STEM2, STEM4, CD2,
+CD3, CE3, CCEC3
+8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes CCL1, CCL2, CCL3, STEM2, STEM4,
+68
+
+=== Página 69 ===
+
+con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo
+requiera, para compartir y construir nuevos conocimientos.
+CD2, CD3
+Explicación del bloque competencial
+A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas,
+conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje
+oral, escrito o gráfico, con coherencia, claridad y terminología apropiada, usando diferentes formas de representación (pictórica, gráfica, verbal,
+simbólica, etc.) y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la
+vida cotidiana y en los diferentes contextos.
+Competencia específica
+9. Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica
+estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante
+situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el
+disfrute en el aprendizaje de las matemáticas. 
+10. Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los
+demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles
+asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el
+bienestar personal y grupal y crear relaciones saludables.
+Descriptores operativos de las
+competencias clave. Perfil de salida
+CCL1, CCL5, STEM3, STEM5, CPSAA1,
+CPSAA3, CPSAA4, CPSAA5, CC1, CC2,
+CC3, CE2, CE3
+Criterios de evaluación
+69
+
+=== Página 70 ===
+
+9.1. Identificar y gestionar las emociones, evaluando las fortalezas y debilidades propias, y desarrollar
+el autoconcepto matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la
+resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos.
+STEM5, CPSAA1, CE2
+9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, aceptando
+la  crítica  razonada  y  aprendiendo  de  los  errores  al  hacer  frente  a  las  diferentes  situaciones
+problemáticas, para mejorar el disfrute en el aprendizaje de las matemáticas.
+CPSAA1, CPSAA4, CPSAA5, CE2, CE3
+10.1.  Colaborar  activamente  y  construir  relaciones  en  equipos  heterogéneos  con  empatía,
+comunicándose de manera efectiva, con actitud cooperativa y respetuosa, pensando de forma crítica,
+tomando decisiones argumentadas y resolviendo los conflictos que puedan surgir pacíficamente, para
+construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y
+social.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+10.2. Planificar y gestionar en el reparto de tareas del equipo, empleando estrategias cooperativas,
+aportando  valor  al  grupo,  favoreciendo  la  inclusión,  la  igualdad  de  género  y  la  escucha  activa,
+responsabilizándose  del  rol  asignado  y  de  su  contribución  dentro  del  equipo,  comprendiendo
+proactivamente las perspectivas y las experiencias de los demás e incorporándolas a su aprendizaje,
+para crear relaciones y entornos de trabajo saludables.
+CCL1, CCL5, STEM3, CPSAA1,
+CPSAA3, CC1, CC2, CC3
+Explicación del bloque competencial
+A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado
+desarrolle destrezas personales y sociales, así como actitudes con las que entender y gestionar las emociones propias y las de los y las demás al
+trabajar individualmente o en grupo, evaluando fortalezas y debilidades, mostrando actitud positiva y perseverante, adaptándose a las situaciones de
+incertidumbre y aceptando la crítica razonada para transformar el error en una oportunidad de aprendizaje. Asimismo, se evaluará que el alumnado
+participa de manera activa, creativa y reflexiva al trabajar en grupos heterogéneos, comunicándose de forma efectiva, practicando la escucha activa,
+70
+
+=== Página 71 ===
+
+optimizando el trabajo en equipo, gestionando los conflictos y el reparto de tareas, responsabilizándose del rol asignado y favoreciendo actitudes
+inclusivas que impliquen la aceptación de la diversidad presente en el aula y en la sociedad.
+71
+
+=== Página 72 ===
+
+Saberes básicos
+I. Sentido numérico
+ 1. Cantidad. 
+ 1.1. Realización  de  estimaciones  en  diversos  contextos  analizando  y  acotando  el  error
+cometido.
+ 1.2. Uso de los números reales para expresar cantidades en contextos diversos, incluidos los
+de la vida cotidiana, con la precisión requerida.
+ 1.3. Selección y utilización de la representación más adecuada de una misma cantidad
+expresada por un número real, para cada situación o problema.
+ 2. Sentido de las operaciones. 
+ 2.1. Operaciones con números reales en la resolución de situaciones contextualizadas.
+ 2.2. Propiedades y relaciones inversas de las operaciones: cálculos con números reales,
+incluyendo con herramientas digitales.
+ 3. Relaciones. 
+ 3.1. Los conjuntos numéricos (naturales, enteros, racionales y reales): relaciones entre ellos
+y propiedades.
+ 3.2. Orden en la recta numérica. Intervalos.
+II. Sentido de la medida
+ 1. Medición. 
+ 1.1. Razones  trigonométricas  de  un  ángulo  agudo  y  sus  relaciones:  aplicación  a  la
+resolución de problemas.
+ 2. Cambio. 
+ 2.1. Estudio gráfico del crecimiento y decrecimiento de funciones en contextos de la vida
+cotidiana con el apoyo de herramientas digitales: tasas de variación absoluta, relativa y
+media.
+III. Sentido espacial
+ 1. Figuras geométricas de dos y tres dimensiones. 
+ 1.1. Representación e investigación de las propiedades geométricas de objetos de dos o tres
+dimensiones de la vida cotidiana mediante programas de geometría dinámica.
+ 2. Localización y sistemas de representación. 
+ 2.1. Figuras y objetos geométricos de dos dimensiones, vectores: representación y análisis
+de sus propiedades utilizando la geometría analítica.
+72
+
+=== Página 73 ===
+
+2.2. Expresiones algebraicas de una recta: selección de la más adecuada en función de la
+situación a resolver.
+ 3. Movimientos y transformaciones. 
+ 3.1. Transformaciones elementales (giros, traslaciones y simetrías) y sus combinaciones en
+la vida cotidiana: investigación con herramientas digitales como programas de geometría
+dinámica, realidad aumentada, etc.
+ 4. Visualización, razonamiento y modelización geométrica. 
+ 4.1. Representación  y explicación  de  relaciones numéricas y algebraicas  en situaciones
+diversas a partir de modelos geométricos.
+ 4.2. Modelización de elementos geométricos con herramientas digitales como programas de
+geometría dinámica, realidad aumentada, etc.
+ 4.3. Elaboración y comprobación de conjeturas sobre propiedades geométricas mediante
+programas de geometría dinámica u otras herramientas.
+IV . Sentido algebraico
+ 1. Patrones. 
+ 1.1. Patrones, pautas y regularidades: observación, generalización y término general en
+casos sencillos.
+ 2. Modelo matemático. 
+ 2.1. Modelización y resolución de problemas de la vida cotidiana mediante representaciones
+matemáticas y lenguaje algebraico, haciendo uso de distintos tipos de funciones.
+ 2.2. Operaciones con polinomios. Suma, resta, multiplicación y división (Regla de Ruffini).
+ 2.3. Deducción y análisis de conclusiones razonables de una situación contextualizada una
+vez modelizada.
+ 3. Variable. 
+ 3.1. Identificación de variables en distintos contextos: asociación de expresiones simbólicas
+al contexto del problema y diferentes usos.
+ 3.2. Relaciones entre los valores que toma la variable y las tasas de cambio.
+ 4. Igualdad y desigualdad. 
+ 4.1. Relaciones  funcionales  en  situaciones  de  la  vida  cotidiana  o  matemáticamente
+relevantes: expresión mediante álgebra simbólica.
+ 4.2. Formas  equivalentes  de  expresiones  algebraicas  en  la  resolución  de  ecuaciones,
+sistemas de ecuaciones lineales y no lineales sencillos e inecuaciones y sistemas de
+inecuaciones lineales y no lineales sencillas con una variable.
+ 4.3. Estrategias de discusión y búsqueda de soluciones en ecuaciones lineales y no lineales
+sencillas en situaciones de la vida cotidiana.
+73
+
+=== Página 74 ===
+
+4.4. Ecuaciones, sistemas e inecuaciones: resolución e interpretación mediante el uso de la
+tecnología en situaciones diversas.
+ 5. Relaciones y funciones. 
+ 5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y las clases de funciones
+que las modelizan.
+ 5.2. Relaciones  lineales  y  no  lineales  en  contextos:  identificación  y  comparación  de
+diferentes modos de representación, tablas, gráficas o expresiones algebraicas, y sus
+propiedades a partir de ellas.
+ 5.3. Representación de funciones, incluidas las funciones a trozos: interpretación de sus
+propiedades en situaciones de la vida cotidiana y otros contextos.
+ 6. Pensamiento computacional. 
+ 6.1. Resolución de problemas mediante la descomposición en partes, la automatización y el
+pensamiento  algorítmico  (descomposición  en  pasos  sencillos,  reconocimiento  de
+patrones, abstracción y diseño de algoritmos).
+ 6.2. Estrategias en la interpretación, modificación y creación de algoritmos.
+ 6.3. Formulación y análisis de problemas de la vida cotidiana mediante programas y otras
+herramientas.
+V . Sentido estocástico
+ 1. Organización y análisis de datos. 
+ 1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+involucran una variable estadística bidimensional. Tablas de contingencia.
+ 1.2. Análisis  e  interpretación  de  tablas  y  gráficos  estadísticos  de  una  y  dos  variables
+cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.
+ 1.3. Medidas de localización y dispersión: interpretación y análisis de la variabilidad.
+ 1.4. Gráficos  estadísticos  de  una  y  dos  variables:  representación  mediante  diferentes
+tecnologías  (calculadora,  hoja  de  cálculo,  aplicaciones…),  análisis,  interpretación  y
+obtención de conclusiones razonadas.
+ 1.5. Interpretación  de  la  relación  entre  dos  variables,  valorando  gráficamente  con
+herramientas digitales la pertinencia de realizar una regresión lineal. Ajuste lineal con
+herramientas digitales.
+ 2. Incertidumbre. 
+ 2.1. Experimentos compuestos:  planificación,  realización  y  análisis  de  la  incertidumbre
+asociada.
+ 2.2. Probabilidad:  cálculo  aplicando  la  regla  de  Laplace  y  técnicas  de  recuento  en
+experimentos  simples  y  compuestos  (mediante  diagramas  de  árbol,  tablas,  etc.)  y
+aplicación a la toma de decisiones fundamentadas.
+74
+
+=== Página 75 ===
+
+3. Inferencia. 
+ 3.1. Diferentes etapas del diseño de estudios estadísticos.
+ 3.2. Estrategias  y  herramientas  de  presentación  e  interpretación  de  datos  relevantes  en
+investigaciones estadísticas mediante herramientas digitales adecuadas.
+ 3.3. Análisis  del  alcance  de  las  conclusiones  de  un  estudio  estadístico  valorando  la
+representatividad de la muestra.
+VI. Sentido socioafectivo
+ 1. Creencias, actitudes y emociones. 
+ 1.1. Gestión emocional: emociones que intervienen en el aprendizaje de las matemáticas.
+Autoconciencia y autorregulación.
+ 1.2. Estrategias de fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia
+en el aprendizaje de las matemáticas.
+ 1.3. Estrategias de fomento de la flexibilidad cognitiva: apertura a cambios de estrategia y
+transformación del error en oportunidad de aprendizaje.
+ 2. Trabajo en equipo y toma de decisiones. 
+ 2.1. Asunción de responsabilidades y participación activa, optimizando el trabajo en equipo.
+Estrategias de gestión de conflictos: pedir, dar y gestionar ayuda.
+ 2.2. Métodos  para  la  gestión  y  la  toma  de  decisiones  adecuadas  en  la  resolución  de
+situaciones propias del quehacer matemático en el trabajo en equipo.
+ 3. Inclusión, respeto y diversidad. 
+ 3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.
+ 3.2. La  contribución  de  las  matemáticas  al  desarrollo  de  los  distintos  ámbitos  del
+conocimiento humano desde una perspectiva de género.
+75

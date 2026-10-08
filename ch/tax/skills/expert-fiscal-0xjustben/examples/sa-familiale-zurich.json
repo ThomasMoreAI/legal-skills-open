@@ -1,0 +1,42 @@
+{
+  "_disclaimer": "Sample data — illustrative only",
+  "_note": "Family-owned SA in Zurich with qualified dividend distributions to four family members.",
+  "company": {
+    "legal_name": "Brunner Family Holding SA",
+    "uid": "CHE-678.901.234",
+    "legal_form": "SA",
+    "canton": "ZH",
+    "address": "Bahnhofstrasse 78, 8001 Zürich",
+    "share_capital_chf": 250000,
+    "incorporated": "2008-11-04",
+    "activity": "Holding familiale — participations PME"
+  },
+  "shareholders_residence_ch": [
+    { "name": "Hans Brunner", "canton": "ZH", "shares_pct": 60, "qualified": true },
+    { "name": "Maria Brunner", "canton": "ZH", "shares_pct": 20, "qualified": true },
+    { "name": "Lukas Brunner", "canton": "BE", "shares_pct": 10, "qualified": true },
+    { "name": "Sarah Brunner", "canton": "GE", "shares_pct": 10, "qualified": true }
+  ],
+  "dividend_chf": {
+    "year": 2024,
+    "declared_total": 400000,
+    "anticipated_tax_pct": 35,
+    "anticipated_tax_amount": 140000,
+    "net_paid": 260000,
+    "per_shareholder_gross": {
+      "Hans": 240000, "Maria": 80000, "Lukas": 40000, "Sarah": 40000
+    }
+  },
+  "expected_treatment": {
+    "federal_relief_pct": 70,
+    "zh_relief_pct": 50,
+    "be_relief_pct": 50,
+    "ge_relief_pct": 70,
+    "anticipated_tax_recovery": "Récupération sur déclaration résident CH",
+    "ce_que_le_fiscaliste_doit_verifier": [
+      "Participation qualifiée ≥ 10% pour chaque actionnaire",
+      "Imposition partielle dans canton de résidence",
+      "Code 32 (revenus mobiliers privés) bien rempli avec demande de remboursement"
+    ]
+  }
+}

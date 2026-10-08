@@ -1,0 +1,17 @@
+{
+  "name": "es-social-security",
+  "displayName": "Social Security & Welfare — ES",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills for ES (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "social-security",
+  "language": "en",
+  "skills": [
+    "skills/desempleo-jaimebs2",
+    "skills/incapacidad-jaimebs2",
+    "skills/jubilacion-jaimebs2",
+    "skills/maternidad-paternidad-jaimebs2"
+  ]
+}

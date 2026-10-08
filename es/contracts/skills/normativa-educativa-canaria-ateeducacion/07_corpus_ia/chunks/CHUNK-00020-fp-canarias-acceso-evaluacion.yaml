@@ -1,0 +1,31 @@
+id: CHUNK-00020
+origen_tipo: "norma"
+origen_id: NOR-008
+titulo: "FP en Canarias: Acceso y Evaluación Autonómica"
+texto: >-
+  Canarias desarrolla el marco estatal de FP mediante una normativa propia en transición hacia la LOFP.
+  Claves del sistema:
+  1. Ordenación: El Decreto 156/1996 sigue siendo la base histórica de la estructura de ciclos específicos.
+  2. Acceso: Regulado por la Orden de 22 de febrero de 2008 (pruebas directas y exenciones).
+  3. Evaluación: Se rige por la Orden de 20 de octubre de 2000 y sus actualizaciones técnicas de 2003.
+  4. Actualización 2025: Las nuevas instrucciones de junio de 2025 adaptan la evaluación a los Grados D y E de la nueva ley.
+metadatos:
+  ambito: "canarias"
+  etapa: [formacion-profesional]
+  temas: [formacion-profesional, ordenacion, ensenanzas-especificas]
+  estado_vigencia: "Vigente (supletorio/histórico)"
+  fuente: FTE-015
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Bloque normativo de Formación Profesional en Canarias."
+relaciones:
+  normas: [NOR-008]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

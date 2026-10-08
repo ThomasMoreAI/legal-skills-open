@@ -1,0 +1,11 @@
+id: REL-055
+tipo_relacion: "corrige"
+origen: NOR-066
+destino: NOR-063
+descripcion: "La Resolución n.º 272/2026 corrige un error material en el Anexo I de la Resolución n.º 254/2026 (familia profesional de Química), listado definitivo de módulos optativos de diseño propio de FP para 2026/2027."
+evidencia:
+  fuente: FTE-073
+  localizacion: "Resuelvo primero; corrección del Anexo I, epígrafe 17. QUÍMICA."
+fecha_registro: 2026-06-29
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Segunda corrección del listado definitivo, posterior a la Resolución n.º 256/2026 (REL-054)."

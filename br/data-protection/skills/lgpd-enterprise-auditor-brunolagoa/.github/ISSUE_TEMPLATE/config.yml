@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Dúvidas e discussões
+    url: https://github.com/BrunoLagoa/lgpd-enterprise-auditor/discussions
+    about: Perguntas de uso, ideias ainda sem proposta concreta e conversas gerais vão para o GitHub Discussions.
+  - name: Relatar vulnerabilidade
+    url: https://github.com/BrunoLagoa/lgpd-enterprise-auditor/security/advisories/new
+    about: Vulnerabilidades devem ser relatadas de forma privada, nunca em issue pública (veja o SECURITY.md).

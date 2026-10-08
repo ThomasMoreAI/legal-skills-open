@@ -1,0 +1,18 @@
+{
+  "name": "do-general",
+  "displayName": "General — DO",
+  "version": "0.1.0",
+  "description": "General skills for DO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "do",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/analisis-archivo-documentos-republica-dominicana-orwel",
+    "skills/analisis-jurisprudencial-republica-dominicana-orwel",
+    "skills/due-diligence-general-republica-dominicana-orwel",
+    "skills/elaboracion-concepto-juridico-republica-dominicana-orwel",
+    "skills/investigacion-juridica-republica-dominicana-orwel"
+  ]
+}

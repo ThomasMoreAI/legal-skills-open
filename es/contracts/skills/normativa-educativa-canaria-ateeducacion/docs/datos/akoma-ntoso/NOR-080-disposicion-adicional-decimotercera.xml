@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="/akn/es/act/2023-07-18/659">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/!dis_adi_decimotercera"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659"/>
+          <FRBRalias name="ELI" value="https://www.boe.es/eli/es/rd/2023/07/18/659/con"/>
+          <FRBRdate date="2023-07-18" name="Generation"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRcountry value="es"/>
+          <FRBRnumber value="659"/>
+          <FRBRname value="Real Decreto"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/!dis_adi_decimotercera"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@"/>
+          <FRBRdate date="2023-07-22" name="Publication"/>
+          <FRBRauthor href="#gobierno-espana"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/es/act/2023-07-18/659/spa@/xml/!dis_adi_decimotercera"/>
+          <FRBRuri value="/akn/es/act/2023-07-18/659/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="gobierno-espana" href="https://www.boe.es/" showAs="Gobierno de España"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <hcontainer eId="dis_adi_decimotercera" name="disposicion-adicional">
+        <num>Disposición adicional decimotercera.</num>
+        <heading>Incentivo para el acceso de la población activa al procedimiento de acreditación de competencias profesionales adquiridas por la experiencia laboral y otras vías no formales de formación.</heading>
+        <paragraph eId="dis_adi_decimotercera__para_1">
+          <content><p>Las administraciones competentes podrán establecer incentivos para las personas que accedan a los procedimientos de acreditación previstos en el título VI del presente real decreto.</p></content>
+        </paragraph>
+      </hcontainer>
+    </portionBody>
+  </portion>
+</akomaNtoso>

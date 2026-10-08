@@ -1,0 +1,11 @@
+id: REL-039
+tipo_relacion: "relaciona"
+origen: NOR-012
+destino: NOR-007
+descripcion: "El Reglamento Orgánico de los Centros Integrados de Formación Profesional (CIFP) de Canarias se encuadra en el nuevo sistema integrado de FP establecido por la LOFP (Ley Orgánica 3/2022)."
+evidencia:
+  fuente: FTE-020
+  localizacion: "Disposiciones adicionales del Decreto 112/2011 y marco general de la LO 3/2022."
+fecha_registro: 2026-04-26
+nivel_evidencia: "confirmado-fuente-primaria"
+observaciones: "Pendiente de analizar si la nueva normativa estatal de centros integrados de 2024 modifica aspectos del ROC canario."

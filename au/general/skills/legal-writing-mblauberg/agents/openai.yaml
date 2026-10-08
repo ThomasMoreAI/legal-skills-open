@@ -1,0 +1,4 @@
+interface:
+  display_name: "Australian Legal Writing"
+  short_description: "Concise Australian legal prose and document checks"
+  default_prompt: "Use $legal-writing to draft, review, condense or final-scrub an Australian filing-facing or solicitor-facing legal document."
