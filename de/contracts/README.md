@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 
-## Skills (709)
+## Skills (667)
 
 | Skill | What it does |
 |---|---|
@@ -22,7 +22,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Agb Anwaltsvertrag Und Allg Mandatsbedingungen`](skills/agb-anwaltsvertrag-allg-mandatsbedingungen/) | Für AGB Anwaltsvertrag und Allg Mandatsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Agb Anwaltsvertrag Und Allg Mandatsbedingungen`](skills/agb-anwaltsvertrag-und-allg-mandatsbedingungen/) | Für AGB Anwaltsvertrag und Allg Mandatsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Agb Arbeitnehmerueberlassung Aueg`](skills/agb-arbeitnehmerueberlassung-aueg/) | Für AGB Arbeitnehmerüberlassung AÜG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Auditrechte`](skills/agb-auditrechte/) | Für Auditrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`AGB Begriff Vorformuliert 305`](skills/agb-begriff-vorformuliert-305/) | Für AGB Begriff Vorformuliert 305: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Agb Bei Digitalen Produkten 327F Update`](skills/agb-bei-digitalen-produkten-327f-update/) | Für AGB bei Digitalen Produkten 327F Update: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Agb Bei Iso Vertraegen International`](skills/agb-bei-iso-vertraegen-international/) | Für AGB bei Iso Verträgen International: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -36,7 +35,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`AGB-Einbeziehung und Inhaltskontrolle — §§ 305 bis 310 BGB`](skills/agb-einbeziehung-schnittstelle/) | Für AGB-Einbeziehung und Inhaltskontrolle — Paragrafen 305 bis 310 BGB: ordnet Norm, Beweislast und… |
 | [`Agb Einbeziehung Schnittstelle Paragraphen 305 310`](skills/agb-einbeziehung-schnittstelle-paragraphen-305-310/) | Für AGB Einbeziehung Schnittstelle Paragraphen 305 310: ordnet Norm, Beweislast und Gegenargument… |
 | [`AGB Entwurf Kaltstart`](skills/agb-entwurf-kaltstart/) | Für AGB Entwurf Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`Exklusivität`](skills/agb-exklusivitaet/) | Für Exklusivität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Formulararbeitsvertrag`](skills/agb-formulararbeitsvertrag-305ff-bgb/) | Für Formulararbeitsvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit… |
 | [`Agb Für Vereinsausschluss Und Haftung`](skills/agb-fuer-vereinsausschluss-und-haftung/) | Für AGB für Vereinsausschluss und Haftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gerichtsstand`](skills/agb-gerichtsstand/) | Für Gerichtsstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -50,10 +48,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Agb In Kapitalanlagen Effektenhandel`](skills/agb-in-kapitalanlagen-effektenhandel/) | Für AGB in Kapitalanlagen Effektenhandel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Indexierung`](skills/agb-indexierung/) | Für Indexierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`/vertragsrecht:agb-kontrolle`](skills/agb-kontrolle-borghei/) | Inhaltskontrolle Allgemeiner Geschäftsbedingungen nach §§ 305–310 BGB – Einbeziehung (§ 305)… |
-| [`Konzernklausel`](skills/agb-konzernklausel-datenaustausch-haftung/) | Für Konzernklausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Lagerbedingungen`](skills/agb-lagerbedingungen-haftung-pflichten/) | Für Lagerbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Agb Im Leasingvertrag Fortwirkung`](skills/agb-leasingvertrag-fortwirkung-schiedsklausel/) | Für AGB im Leasingvertrag Fortwirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Mindestabnahme`](skills/agb-mindestabnahme-bezugspflichten/) | Für Mindestabnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mitwirkungspflichten`](skills/agb-mitwirkungspflichten-leistungsstoerung/) | Für Mitwirkungspflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Agb Preisanpassung Energie Stromgvv Gasgvv`](skills/agb-preisanpassung-energie-stromgvv-gasgvv/) | Für AGB Preisanpassung Energie Stromgvv Gasgvv: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`AGB-Prüfung – Einbeziehung und Inhaltskontrolle`](skills/agb-pruefung/) | Für AGB-Prüfung – Einbeziehung und Inhaltskontrolle: ordnet Norm, Beweislast und Gegenargument… |
@@ -61,11 +56,9 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Juristischer Argumentationskern - Agb Recht Prüfer`](skills/agb-recht-pruefer-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Agb Recht Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`AGB-Auftrag klären und bearbeiten`](skills/agb-recht-pruefer-kaltstart-triage/) | Ordnet vorgelegte AGB, Vertragsfassungen und Korrespondenz einem konkreten Prüf-, Entwurfs… |
 | [`Agb Rechtswahl Schweizer Recht Rom I`](skills/agb-rechtswahl-schweizer-recht-rom-i/) | Für AGB Rechtswahl Schweizer Recht Rom I: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Referenznennung`](skills/agb-referenznennung-werbung-zustimmung/) | Für Referenznennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Reisebedingungen`](skills/agb-reisebedingungen-pauschalreise/) | Für Reisebedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`AGB Risikoklassifizierung Ampel`](skills/agb-risikoklassifizierung-ampel/) | Für AGB Risikoklassifizierung Ampel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rügeobliegenheit`](skills/agb-ruegeobliegenheit-377hgb/) | Für Rügeobliegenheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Sicherungsrechte`](skills/agb-sicherungsrechte-abtretung-pfand/) | Für Sicherungsrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Subunternehmer`](skills/agb-subunternehmer-einsatz-haftung/) | Für Subunternehmer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Agb Und 242 Bgb Eingriffsnorm`](skills/agb-und-242-bgb-eingriffsnorm/) | Für AGB und 242 BGB Eingriffsnorm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Agb Und Cookie Einwilligung Dsgvo`](skills/agb-und-cookie-einwilligung-dsgvo/) | Für AGB und Cookie Einwilligung DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -77,7 +70,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Agentur Marketing AGB`](skills/agentur-marketing-agb/) | Für Agentur Marketing AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Altvertraege: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/altvertraege-dokumentenmatrix-und-lueckenliste/) | Für Altverträge: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
 | [`Altvertrag nachziehen`](skills/altvertrag-nachziehen/) | Für Altvertrag nachziehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Ampelmatrix: Internationaler Bezug und Schnittstellen`](skills/ampelmatrix-internationaler-bezug-schnittstellen/) | Für Ampelmatrix: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ampelmatrix: Internationaler Bezug und Schnittstellen`](skills/ampelmatrix-internationaler-bezug-und-schnittstellen/) | Für Ampelmatrix: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Amtlicher BGB-BT-Normcheck`](skills/amtlicher-bgb-auftrag-unentgeltliche/) | Für Amtlicher BGB-BT-Normcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Amtlicher BGB/ZPO-Normcheck`](skills/amtlicher-bgb-zpo-normcheck/) | Für Amtlicher BGB/ZPO-Normcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
@@ -143,7 +135,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Materielle Form und Prozessform trennen`](skills/bgb-at-form-und-prozessform/) | Für Materielle Form und Prozessform trennen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Minderjährigenrecht: Fehlsubsumtion erkennen`](skills/bgb-at-minderjaehrige-fehlsubsumtion/) | Für Minderjährigenrecht: Fehlsubsumtion erkennen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bgb At Output Gutachten Memo Schriftsatz`](skills/bgb-at-output-gutachten-memo-schriftsatz/) | Für BGB At Output Gutachten Memo Schriftsatz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
-| [`Juristischer Argumentationskern - BGB At Prüfer`](skills/bgb-at-pruefer-juristischer-argumentationskern/) | Schaltet sich ein, wenn in BGB At Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`Willenserklärung, Vertretung und Wirksamkeitsproblem bestimmen`](skills/bgb-at-pruefer-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rechtsscheinvollmacht Red-Team`](skills/bgb-at-rechtsschein-redteam/) | Für Rechtsscheinvollmacht Red-Team: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bgb At Training Fallvarianten`](skills/bgb-at-training-fallvarianten/) | Für BGB At Training Fallvarianten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -166,7 +157,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Bürgschaft, Verbraucherdarlehen und andere strenge Formen`](skills/buergschaft-verbraucherdarlehen-und-andere-strenge-formen/) | Für Bürgschaft, Verbraucherdarlehen und andere strenge Formen: ordnet Norm, Beweislast und… |
 | [`Business Summary AGB`](skills/business-summary-agb/) | Für Business Summary AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Change Reqüst`](skills/change-request/) | Für Change Reqüst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Changes: Abschlussprodukt und Übergabe`](skills/changes-abschlussprodukt-uebergabe/) | Für Changes: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Changes: Abschlussprodukt und Übergabe`](skills/changes-abschlussprodukt-und-uebergabe/) | Für Changes: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Changes: Beweislast, Darlegungslast und Substantiierung`](skills/changes-beweislast-docx-erkennen/) | Für Changes: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Chirurgisch Quellenkarte`](skills/chirurgisch-quellenkarte/) | Für Chirurgisch Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -218,12 +208,8 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Dokumentations- und Beweisarchitektur`](skills/dokumentations-und-beweisarchitektur/) | Für Dokumentations- und Beweisarchitektur: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und… |
 | [`Dokumentenfamilie Rangfolge`](skills/dokumentenfamilie-rangfolge/) | Für Dokumentenfamilie Rangfolge: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Duldungs- und Anscheinsvollmacht — Rechtsscheinvollmacht nach BGH`](skills/duldungs-anscheinsvollmacht/) | Für Duldungs- und Anscheinsvollmacht — Rechtsscheinvollmacht nach BGH: ordnet Norm, Beweislast und… |
-| [`Mehrparteienkonflikt und Interessenmatrix im NDA-Abgleich`](skills/durch-interessen/) | Für Mehrparteienkonflikt und Interessenmatrix im NDA-Abgleich: ordnet Norm, Beweislast und… |
-| [`Echten: Sonderfall und Edge-Case-Prüfung`](skills/echten-sonderfall-edge-case/) | Für Echten: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Echten: Sonderfall und Edge-Case-Prüfung`](skills/echten-sonderfall-und-edge-case/) | Für Echten: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Geschäftseckpunkte und wirksame Vertretung vertraglich festlegen`](skills/eckpunkte-form-und-vertretung-festlegen/) | Verdichtet die Eckpunkte eines einzelnen B2B-Geschäfts zu einem verwendbaren Vertragsanfang oder Term… |
 | [`Ecommerce Shop AGB`](skills/ecommerce-shop-agb/) | Für Ecommerce Shop AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/eigenen-risikoampel-gegenargumente/) | Für Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Eigenschaftsirrtum — § 119 Abs. 2 BGB`](skills/eigenschaftsirrtum-paragraph-119-2/) | Für Eigenschaftsirrtum — Paragraf 119 Abs. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eigenschaftsirrtum — § 119 Abs. 2 BGB`](skills/eigenschaftsirrtum-paragraph-einseitige/) | Für Eigenschaftsirrtum — Paragraf 119 Abs. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eigentumsvorbehalt`](skills/eigentumsvorbehalt-einbeziehung-hinweis/) | Für Eigentumsvorbehalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -240,7 +226,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Elektronische Form BeA QES Formfiktion`](skills/elektronische-form-bea-qes-formfiktion/) | Für Elektronische Form BeA QES Formfiktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Elektronische Form Paragraf 126a BGB — Qualifizierte elektronische Signatur`](skills/elektronische-paragraph-formerfordernisse/) | Für Elektronische Form Paragraf 126a BGB — Qualifizierte elektronische Signatur: ordnet Norm, Beweislast… |
 | [`Elektronischer Zugang und Plattformen — § 130 BGB digital`](skills/elektronischer-zugang-und-plattformen/) | Für Elektronischer Zugang und Plattformen — Paragraf 130 BGB digital: ordnet Norm, Beweislast und… |
-| [`Energieversorgung AGB`](skills/energieversorgung-agb/) | Für Energieversorgung AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Entgelt Nebenkosten Service Fees`](skills/entgelt-nebenkosten-service-fees/) | Für Entgelt Nebenkosten Service Fees: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/entwurf-tatbestand-beweis-und-belege/) | Für Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/entwurf-tatbestandsmerkmale-beweisfragen-beleglage/) | Für Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -252,12 +237,10 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Ermächtigung zu Erwerbsgeschäften — §§ 112 und 113 BGB`](skills/erwerbsgeschaeft-dienst-arbeit/) | Für Ermächtigung zu Erwerbsgeschäften — Paragrafen 112 und 113 BGB: ordnet Norm, Beweislast und… |
 | [`Erwerbsgeschaeft Dienst Arbeit Paragraphen 112 113`](skills/erwerbsgeschaeft-dienst-arbeit-paragraphen-112-113/) | Für Erwerbsgeschäft Dienst Arbeit Paragraphen 112 113: ordnet Norm, Beweislast und Gegenargument… |
 | [`Erwerbsgeschäft und Dienst- oder Arbeitsverhältnis`](skills/erwerbsgeschaeft-dienst-formnichtigkeit/) | Prüft die Teilgeschäftsfähigkeit Minderjähriger beim selbständigen Erwerbsgeschäft und im Dienst- oder… |
-| [`Erzeugen: Red-Team und Qualitätskontrolle`](skills/erzeugen-red-fassungen-sonderfall-felder/) | Für Erzeugen: Red-Team und Qualitätskontrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eskalationsregeln`](skills/eskalations-marker/) | Für Eskalationsregeln: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Eskalations Quellenkarte`](skills/eskalations-quellenkarte/) | Für Eskalations Quellenkarte: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Software-Mangel`](skills/fachanwalt-it-recht-software-mangel/) | Für Software-Mangel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Vertragsstrafe prüfen`](skills/fachanwalt-it-recht-vertragsstrafe-pruefen/) | Für Vertragsstrafe prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Factoring AGB`](skills/factoring-agb/) | Für Factoring AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Fallaufnahme und Prüfprogramm — BGB Allgemeiner Teil`](skills/fallaufnahme-pruefprogramm-prozessform/) | Für Fallaufnahme und Prüfprogramm — BGB Allgemeiner Teil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fallaufnahme und Prüfprogramm — BGB Allgemeiner Teil`](skills/fallaufnahme-und-pruefprogramm/) | Für Fallaufnahme und Prüfprogramm — BGB Allgemeiner Teil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fassungen: Sonderfall und Edge-Case-Prüfung`](skills/fassungen-sonderfall-und-edge-case/) | Für Fassungen: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -276,14 +259,11 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Fragebogen AGB Automation`](skills/fragebogen-agb-automation/) | Für Fragebogen AGB Automation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Franchise AGB`](skills/franchise-agb/) | Für Franchise AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Fristenberechnung — §§ 186 bis 193 BGB`](skills/fristen-berechnung-paragraphen-186-193/) | Für Fristenberechnung — Paragrafen 186 bis 193 BGB: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
-| [`Fuehren: Mehrparteienkonflikt und Interessenmatrix`](skills/fuehren-interessen-mappen-nachfrage/) | Für Führen: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gaming AGB`](skills/gaming-agb/) | Für Gaming AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Garantie Beschaffenheit`](skills/garantie-beschaffenheit/) | Für Garantie Beschaffenheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Gegen: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/gegen-dokumentenmatrix-und-lueckenliste/) | Für Gegen: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Gegen: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/gegen-gelb-gleicht/) | Für Gegen: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gegenseite: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/gegenseite-fristen-form-zustaendigkeit-rechtsweg/) | Für Gegenseite: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
-| [`Gegenseite: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/gegenseite-tracked-fristennotiz-nda/) | Für Gegenseite: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
-| [`Gelb: Formular, Portal und Einreichungslogik`](skills/gelb-formular-portal-einreichungslogik/) | Für Gelb: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gelb: Formular, Portal und Einreichungslogik`](skills/gelb-formular-portal-und-einreichung/) | Für Gelb: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gesamtschuld und Regress BGB BT`](skills/gesamtschuld-und-regress-bgb-bt/) | Für Gesamtschuld und Regress BGB BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Geschäftsbesorgung, Auftrag und Mandat`](skills/geschaeftsbesorgung-auftrag-mandat/) | Für Geschäftsbesorgung, Auftrag und Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -309,8 +289,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Mängelrechte und Haftung ohne widersprüchliche Ausschlüsse regeln`](skills/haftung-und-maengelrechte-abstimmen/) | Formuliert zusammenpassende Mängel- und Haftungsklauseln für ein deutsches B2B-Einzelgeschäft. Verwenden… |
 | [`Haftungsbegrenzung prüfen und formulieren`](skills/haftungsbegrenzung-pruefen-und-formulieren/) | Prüft und formuliert die zusammenhängende Haftungsregel in AGB: geschützte Schäden, Verschulden… |
 | [`Haftungsdeckel für Daten- und Modelldienste prüfen`](skills/haftungsdeckel-fuer-daten-und-modelldienste-pruefen/) | Bewertet Haftungshöchstbeträge bei Datenverlust, fehlerhaften Modellausgaben und Ausfällen digitaler… |
-| [`Haltelinien: Verhandlung, Vergleich und Eskalation`](skills/haltelinien-setzt-standard/) | Für Haltelinien: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument… |
-| [`Haltelinien: Verhandlung, Vergleich und Eskalation`](skills/haltelinien-verhandlung-vergleich-eskalation/) | Für Haltelinien: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Handeln im fremden Namen und Offenkundigkeit — § 164 BGB`](skills/handeln-im-fremden-namen-offenkundigkeit/) | Für Handeln im fremden Namen und Offenkundigkeit — Paragraf 164 BGB: ordnet Norm, Beweislast und… |
 | [`Handelsvertreter AGB`](skills/handelsvertreter-agb/) | Für Handelsvertreter AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Hinweisgeberschutz NDA Konflikt`](skills/hinweisgeberschutz-nda-konflikt/) | Für Hinweisgeberschutz NDA Konflikt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -379,7 +357,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Kündigungsfiktion und Nachfrist 308`](skills/kuendigungsfiktion-und-nachfrist-308/) | Für Kündigungsfiktion und Nachfrist 308: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Kurzfristige Preiserhöhung 309`](skills/kurzfristige-preiserhoehung-309/) | Für Kurzfristige Preiserhöhung 309: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Kurzfristige Preiserhöhung 309`](skills/kurzfristige-preiserhoehung-lieferfrist/) | Für Kurzfristige Preiserhöhung 309: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
-| [`Lagerbedingungen`](skills/lagerbedingungen-laufzeit-verlaengerung/) | Für Lagerbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Laufzeit und Vertragsende mit funktionsfähiger Übergabe regeln`](skills/laufzeit-und-vertragsende-regeln/) | Gestaltet Beginn, Bindungsdauer, Kündigungswege und geordnete Abwicklung eines einzelnen B2B-Vertrags.… |
 | [`Laufzeit Verlängerung 309`](skills/laufzeit-verlaengerung-309/) | Für Laufzeit Verlängerung 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leasing AGB`](skills/leasing-agb/) | Für Leasing AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -391,10 +368,8 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Lieferanten-/Dienstleistervertrag-Prüfung`](skills/lieferantenvertrag-pruefung/) | Für Lieferanten-/Dienstleistervertrag-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lieferfrist Teillieferung`](skills/lieferfrist-teillieferung/) | Für Lieferfrist Teillieferung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Liquidated Damages`](skills/liquidated-damages/) | Für Liquidated Damages: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Liquidated Damages US Uk Vergleich`](skills/liquidated-damages-us-uk-vergleich/) | Für Liquidated Damages US Uk Vergleich: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Workflow: Live-Quellen und Rechtsstand`](skills/live-quellen-rechtsstand/) | Für Workflow: Live-Quellen und Rechtsstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Logistik Spedition AGB`](skills/logistik-spedition-agb/) | Für Logistik Spedition AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Logistik Spedition AGB`](skills/logistik-spedition-maengelrechte/) | Für Logistik Spedition AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mängelrechte 309`](skills/maengelrechte-309/) | Für Mängelrechte 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mahngebuehren Und Zinsanpassung Agb`](skills/mahngebuehren-und-zinsanpassung-agb/) | Für Mahngebühren und Zinsanpassung AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Maklervertrag nach Paragraf 656a BGB prüfen`](skills/maklervertrag-paragraf-656a-bgb-textform-pruefen/) | Prüft Maklerverträge über Wohnungen und Einfamilienhäuser auf Textform, elektronischen Vertragsschluss… |
@@ -421,7 +396,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Einen bestimmten Nachtrag mit allen notwendigen Folgeänderungen erstellen`](skills/nachtrag-mit-folgeaenderungen-erstellen/) | Schreibt einen begrenzten Nachtrag zu einem vorhandenen B2B-Vertrag und führt die notwendigen Änderungen… |
 | [`Anschluss-Routing`](skills/nda-abgleich-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/nda-abgleich-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
-| [`Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/nda-abgleich-eigenen-risikoampel-und-gegenargumente/) | Für Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Einstieg und Routing`](skills/nda-abgleich-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`NDA + GeschGehG-Maßnahmen`](skills/nda-abgleich-geschaeftsgeheimnis-geschgehg/) | Für NDA + GeschGehG-Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Juristischer Argumentationskern - Nda Abgleich`](skills/nda-abgleich-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Nda Abgleich ein juristisches Arbeitsprodukt tragfähig begründet werden muss… |
@@ -430,7 +404,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Output wählen`](skills/nda-abgleich-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsquellen-Livecheck`](skills/nda-abgleich-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Red-Team Qualitygate`](skills/nda-abgleich-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
-| [`Standard: Behörden-, Gerichts- oder Registerweg`](skills/nda-abgleich-standard/) | Für Standard: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`NDA Abgleich — Allgemein`](skills/nda-abgleich-start-chronologie-fristen/) | Für NDA Abgleich — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit… |
 | [`Unterlagen und Lücken`](skills/nda-abgleich-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`NDA Abschlussbericht Playbook`](skills/nda-abschlussbericht-playbook/) | Für NDA Abschlussbericht Playbook: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -444,7 +417,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`NDA: International Arbitration`](skills/nda-international-arbitration-spezial/) | Für NDA: International Arbitration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NDA mit IT-/SaaS-Vendor`](skills/nda-it-saas-vendor/) | Für NDA mit IT-/SaaS-Vendor: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`NDA: Laufzeit/Survival`](skills/nda-laufzeit-und-survival/) | Für NDA: Laufzeit/Survival: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`NDA: M-and-A Clean-Team`](skills/nda-m-und-a-clean-team-spezial/) | Für NDA: M-and-A Clean-Team: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`NDA + GeschGehG-Maßnahmen`](skills/nda-mit-geschaeftsgeheimnis-geschgehg/) | Für NDA + GeschGehG-Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kartellsensitive Daten in NDA`](skills/nda-mit-kartellsensitiven-daten/) | Für Kartellsensitive Daten in NDA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NDA: Mitarbeiter/Need-to-Know`](skills/nda-mitarbeiter-need-to-know/) | Für NDA: Mitarbeiter/Need-to-Know: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -455,13 +427,11 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Juristischer Argumentationskern - Nda Verschwiegenheit Generator Checker`](skills/nda-verschwiegenheit-generator-c-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Nda Verschwiegenheit Generator Checker ein juristisches Arbeitsprodukt… |
 | [`Allgemein Kaltstart`](skills/nda-verschwiegenheit-generator-checker-kaltstart-routing/) | Für Allgemein Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`NDA: Vertragsstrafe prüfen`](skills/nda-vertragsstrafe-pruefen/) | Für NDA: Vertragsstrafe prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`NDA für M&A-Data-Room`](skills/nda-vor-m-a-data-room/) | Für NDA für M&A-Data-Room: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Negative Feststellung AGB`](skills/negative-feststellung-agb/) | Für Negative Feststellung AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Neue: Internationaler Bezug und Schnittstellen`](skills/neue-rueckfragen-strippen/) | Für Neue: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Non Solicitation`](skills/non-solicitation/) | Für Non Solicitation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Norm Live Check Gesetze Im Internet`](skills/norm-live-check-gesetze-im-internet/) | Für Norm Live Check Gesetze im Internet: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Notarielle Beurkundung und Öffentliche Beglaubigung`](skills/notarielle-beurkundung-prozessablauf-papier/) | Für Notarielle Beurkundung und Öffentliche Beglaubigung: ordnet Norm, Beweislast und Gegenargument… |
-| [`Offenlegung In Pitch Und Datenraum`](skills/offenlegung-in-pitch-und-datenraum/) | Für Offenlegung in Pitch und Datenraum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Open Source Komponenten`](skills/open-source-komponenten/) | Für Open Source Komponenten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Output-Formate — Gutachten, Memo, Schriftsatz im BGB AT`](skills/output-gutachten-memo-schriftsatz/) | Für Output-Formate — Gutachten, Memo, Schriftsatz im BGB AT: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Pacht, Leihe und Verwahrung BGB`](skills/pacht-leihe-schnittstelle-at/) | Für Pacht, Leihe und Verwahrung BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -548,7 +518,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Schweigen und Erklärungswert`](skills/schweigen-erklaerungswert-stellvertretung/) | Für Schweigen und Erklärungswert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schweigen und Erklärungswert`](skills/schweigen-und-erklaerungswert/) | Für Schweigen und Erklärungswert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Security Incidents`](skills/security-incidents/) | Für Security Incidents: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Setzt: Schriftsatz-, Brief- und Memo-Bausteine`](skills/setzt-schriftsatz-brief-memo-bausteine/) | Für Setzt: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Setzt: Schriftsatz-, Brief- und Memo-Bausteine`](skills/setzt-schriftsatz-brief-und-memo-bausteine/) | Für Setzt: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`SfTf: Nachweisgesetz Arbeit`](skills/sftf-arbeitsvertraege-nachweisgesetz/) | Für SfTf: Nachweisgesetz Arbeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`SfTf: Doppelschriftform-Aufhebung`](skills/sftf-doppelschriftform-aufhebung-spezial/) | Für SfTf: Doppelschriftform-Aufhebung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -561,7 +530,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Softwarelizenz AGB`](skills/softwarelizenz-agb/) | Für Softwarelizenz AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Sperrung Suspendierung`](skills/sperrung-suspendierung/) | Für Sperrung Suspendierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Chirurgisch: Livequellen- und Rechtsprechungscheck`](skills/spezial-chirurgisch-livequellen-und-rechtsprechungscheck/) | Für Chirurgisch: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
-| [`Durch: Mehrparteienkonflikt und Interessenmatrix`](skills/spezial-durch-mehrparteien-konflikt-und-interessen/) | Für Durch: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Eskalations: Livequellen- und Rechtsprechungscheck`](skills/spezial-eskalations-livequellen-und-rechtsprechungscheck/) | Für Eskalations: Livequellen- und Rechtsprechungscheck: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Gruen: Red-Team und Qualitätskontrolle`](skills/spezial-gruen-red-team-und-qualitaetskontrolle/) | Für Grün: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Paragraph: Red-Team und Qualitätskontrolle`](skills/spezial-paragraph-red-team-und-qualitaetskontrolle/) | Für Paragraph: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
@@ -574,7 +542,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Stellvertretung — Routing §§ 164 bis 181 BGB`](skills/stellvertretung-routing-paragraphen-164-181/) | Für Stellvertretung — Routing Paragrafen 164 bis 181 BGB: routet Rolle, Frist, Unterlagen und… |
 | [`Steürn Umsatzsteür`](skills/steuern-umsatzsteuer/) | Für Steuern Umsatzsteuer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`/vertragsrecht:stoerung-geschaeftsgrundlage`](skills/stoerung-geschaeftsgrundlage-borghei/) | Prüfung der Störung der Geschäftsgrundlage nach § 313 BGB – reales und hypothetisches Element… |
-| [`Strippen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/strippen-risikoampel-und-gegenargumente/) | Für Strippen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Stummer Upload AGB Dokumente`](skills/stummer-upload-agb-dokumente/) | Für Stummer Upload AGB Dokumente: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Subscription Abonnement`](skills/subscription-abonnement/) | Für Subscription Abonnement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Subscription Box AGB`](skills/subscription-box-agb/) | Für Subscription Box AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -585,17 +552,14 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Taschengeldparagraph — § 110 BGB`](skills/taschengeld-paragraph-uebermittlungsirrtum/) | Für Taschengeldparagraph — Paragraf 110 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tausch und Schenkung §§ 480 und 516 ff. BGB`](skills/tausch-schenkung-unechte-goa/) | Für Tausch und Schenkung Paragrafen 480 und 516 ff. BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Tausch und Schenkung §§ 480 und 516 ff. BGB`](skills/tausch-und-schenkung/) | Für Tausch und Schenkung Paragrafen 480 und 516 ff. BGB: ordnet Norm, Beweislast und Gegenargument… |
-| [`Technische Organisatorische Schutzmassnahmen`](skills/technische-organisatorische-uk/) | Für Technische Organisatorische Schutzmassnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Telekommunikation AGB`](skills/telekommunikation-agb/) | Für Telekommunikation AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Template-Erkennung`](skills/template-erkennung-format-track-changes/) | Für Template-Erkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`VAF: Template-Format und Quelle`](skills/template-format-und-source/) | Für VAF: Template-Format und Quelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Term: Verhandlung, Vergleich und Eskalation`](skills/term-track-vertraege/) | Für Term: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Term-Sheet-Mapping`](skills/termsheet-mapping/) | Für Term-Sheet-Mapping: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Textform: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/textform-dokumentenmatrix-und-lueckenliste/) | Für Textform: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Textform Paragraf 126b BGB — Dauerhafter Datenträger`](skills/textform-paragraph-verteidigungsstrategie/) | Für Textform Paragraf 126b BGB — Dauerhafter Datenträger: ordnet Norm, Beweislast und Gegenargument… |
 | [`Themenrisiko und Freigabebedarf bestimmen`](skills/themenrisiken-entscheiden/) | Aggregiert vollständige Regelbewertungen mit ausdrücklicher UND-/ODER-Logik zu Themenrisiken, hält… |
 | [`Track Changes nur nach Frage`](skills/track-changes-nur-nach-frage/) | Für Track Changes nur nach Frage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Tracked: Fristennotiz und nächster Schritt`](skills/tracked-fristennotiz-naechster-schritt/) | Für Tracked: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Tracked: Fristennotiz und nächster Schritt`](skills/tracked-fristennotiz-und-naechster-schritt/) | Für Tracked: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Training mit Fallvarianten — BGB Allgemeiner Teil Examen`](skills/training-fallvarianten/) | Für Training mit Fallvarianten — BGB Allgemeiner Teil Examen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Training mit Fallvarianten — BGB Allgemeiner Teil Examen`](skills/training-fallvarianten-digitale-elemente/) | Für Training mit Fallvarianten — BGB Allgemeiner Teil Examen: ordnet Norm, Beweislast und Gegenargument… |
@@ -611,7 +575,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`User Content Moderation`](skills/user-content-moderation/) | Für User Content Moderation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Bilinguale Vertraege`](skills/vaf-fremdsprachige-vertraege-bilingual/) | Für Bilinguale Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`VAF: Mehrsprachige Vertraege`](skills/vaf-mehrsprachige-vertraege-spezial/) | Für VAF: Mehrsprachige Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Spezialfall Versionierung und Änderungsverfolgung in Vertragsdokumenten: Track Changes, Blackline, automatisierter Diff`](skills/vaf-versionierung-aenderungsverfolgung-spezial/) | Für Vaf Versionierung Änderungsverfolgung Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`VDuG Abhilfeklage AGB Schnittstelle`](skills/vdug-abhilfeklage-agb-schnittstelle/) | Für VDuG Abhilfeklage AGB Schnittstelle: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Verbraucherbesonderheiten 310 Abs. 3`](skills/verbraucherbesonderheiten-310-abs3/) | Für Verbraucherbesonderheiten 310 Abs. 3: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verbraucherschutz Schnellcheck`](skills/verbraucherschutz-schnellcheck/) | Für Verbraucherschutz Schnellcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -677,13 +640,11 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Vertraulichkeit Klausel`](skills/vertraulichkeit-klausel/) | Für Vertraulichkeit Klausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vertreter ohne Vertretungsmacht — §§ 177 bis 179 BGB`](skills/vertreter-ohne-vertretungsmacht/) | Für Vertreter ohne Vertretungsmacht — Paragrafen 177 bis 179 BGB: ordnet Norm, Beweislast und… |
 | [`Vertreter ohne Vertretungsmacht — §§ 177 bis 179 BGB`](skills/vertreter-ohne-vertretungsmacht-paragraphen-177-179/) | Für Vertreter ohne Vertretungsmacht — Paragrafen 177 bis 179 BGB: ordnet Norm, Beweislast und… |
-| [`Vertriebsvertraege: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vertriebsvertraege-fristen-form-und-zustaendigkeit/) | Für Vertriebsverträge: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`/vertragsrecht:verzug-mahnung`](skills/verzug-mahnung-borghei/) | Prüfung von Schuldnerverzug und Mahnung – Verzugseintritt durch Mahnung § 286 Abs. 1 BGB… |
 | [`Vollmacht: Erteilung, Umfang und Erlöschen`](skills/vollmacht-erteilung-umfang-erloeschen/) | Prüft Erteilung, Form, Umfang, Widerruf und Erlöschen einer Vollmacht sowie den Schutz des… |
 | [`Vollmacht Vertretung`](skills/vollmacht-vertretung/) | Für Vollmacht Vertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vorkasse Abschlag Sicherheit`](skills/vorkasse-abschlag-sicherheit/) | Für Vorkasse Abschlag Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorkasse Abschlag Sicherheit`](skills/vorkasse-abschlag-wartung-maintenance-website/) | Für Vorkasse Abschlag Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Vorlagen: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vorlagen-vertragsausfueller-vaf-altvertrag/) | Für Vorlagen: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`/vertragsrecht:vorvertragliche-phase`](skills/vorvertragliche-phase-borghei/) | Gestaltung und Haftungsprüfung der vorvertraglichen Phase – vorvertragliches Schuldverhältnis § 311 Abs.… |
 | [`Vertragsrecht: AGB-Recht`](skills/vr-agb-recht-grundzuege/) | Für Vertragsrecht: AGB-Recht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vertragsrecht: Leistungsstoerungen`](skills/vr-leistungsstoerungen-widerruf-fernabsatz/) | Für Vertragsrecht: Leistungsstörungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -701,17 +662,14 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Willenserklärung — Tatbestand §§ 116 ff. BGB`](skills/willenserklaerung-wucher-ausbeutung-zugang/) | Für Willenserklärung — Tatbestand Paragrafen 116 ff. BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wohnraummiete AGB`](skills/wohnraummiete-agb/) | Für Wohnraummiete AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Word: Zahlen, Schwellenwerte und Berechnung`](skills/word-zahlen-schwellen-und-berechnung/) | Für Word: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
-| [`Word: Zahlen, Schwellenwerte und Berechnung`](skills/word-zahlen-schwellenwerte-berechnung/) | Für Word: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Anfängercoach Schuldrecht BT`](skills/workflow-anfangercoach-schuldrecht-bt/) | Für Anfängercoach Schuldrecht BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Workflow: Anspruchslandkarte BGB BT`](skills/workflow-anspruchslandkarte/) | Für Workflow: Anspruchslandkarte BGB BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Workflow: Beweislast und Belegmatrix`](skills/workflow-beweislast-und-belegmatrix/) | Für Workflow: Beweislast und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit… |
 | [`Fristen für Rücktritt, Kündigung, Minderung, Mängelrechte`](skills/workflow-fristen-ruecktritt-kuendigung/) | Für Fristen für Rücktritt, Kündigung, Minderung, Mängelrechte: prüft Frist, Form, Zuständigkeit und… |
 | [`Livequellen- und Rechtsstandscheck BGB BT`](skills/workflow-livequellen-rechtsstand/) | Für Livequellen- und Rechtsstandscheck BGB BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Output-Wahl BGB BT`](skills/workflow-output-gutachten-klage-brief/) | Für Output-Wahl BGB BT: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Red-Team Gegenseite BGB BT`](skills/workflow-red-team-gegenseite/) | Für Red-Team Gegenseite BGB BT: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Workflow: Vergleich und Verhandlungsplan`](skills/workflow-vergleich-und-verhandlungsplan/) | Für Workflow: Vergleich und Verhandlungsplan: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Wucher und Ausbeutung — § 138 Abs. 2 BGB`](skills/wucher-und-ausbeutung-paragraph-138-2/) | Für Wucher und Ausbeutung — Paragraf 138 Abs. 2 BGB: ordnet Norm, Beweislast und Gegenargument… |
-| [`Zahlungsdienste AGB`](skills/zahlungsdienste-agb/) | Für Zahlungsdienste AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Zahlungsmittel Chargeback`](skills/zahlungsmittel-chargeback/) | Für Zahlungsmittel Chargeback: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zahlungsverzug Mahnkosten`](skills/zahlungsverzug-mahnkosten/) | Für Zahlungsverzug Mahnkosten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB`](skills/zugang-empfangsbeduerftiger-formgerechter/) | Für Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB: ordnet Norm, Beweislast und… |

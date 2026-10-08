@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): TMT as the i
 
 Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 
-## Skills (238)
+## Skills (222)
 
 | Skill | What it does |
 |---|---|
@@ -98,7 +98,6 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Deployer-Pflichten Robotik`](skills/ki-vo-deployer-pflichten-robotik/) | Für Deployer-Pflichten Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`KI-VO Integrationscheck`](skills/ki-vo-integrationscheck/) | Für europäischer Technikregulierungsrahmen Integrationscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verbotene Praktiken Robotik`](skills/ki-vo-verbotene-praktiken-robotik/) | Für Verbotene Praktiken Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Klinische Bewertung Robotik`](skills/klinische-bewertung-robotik/) | Für Klinische Bewertung Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Cobot Safety`](skills/kollaborierende-roboter-cobot-safety/) | Für Cobot Safety: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Kommunal- und Behördenrobotik`](skills/kommunal-behoerdenrobotik/) | Für Kommunal- und Behördenrobotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kommunal- und Behördenrobotik`](skills/kommunal-und-behoerdenrobotik/) | Für Kommunal- und Behördenrobotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -108,11 +107,7 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Laienmodus Robotikrecht`](skills/laienmodus-robotikrecht/) | Für Laienmodus Robotikrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Landwirtschaftsroboter`](skills/landwirtschaftsroboter-autonome-feldtechnik/) | Für Landwirtschaftsroboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Landwirtschaftsroboter`](skills/landwirtschaftsroboter-und-autonome-feldtechnik/) | Für Landwirtschaftsroboter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Lieferantenqualifizierung Sensor Cloud`](skills/lieferantenqualifizierung-sensor/) | Für Lieferantenqualifizierung Sensor Cloud: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Lieferantenqualifizierung Sensor Cloud`](skills/lieferantenqualifizierung-sensor-cloud/) | Für Lieferantenqualifizierung Sensor Cloud: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lieferantenregress und Indemnity`](skills/lieferantenregress-und-indemnity/) | Für Lieferantenregress und Indemnity: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Litigation-Vorbereitung`](skills/litigation-vorbereitung/) | Für Litigation-Vorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Logging und Traceability`](skills/logging-traceability-marktueberwachung/) | Für Logging und Traceability: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Logging und Traceability`](skills/logging-und-traceability-robotik/) | Für Logging und Traceability: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Marktanalyse und beträchtliche Marktmacht`](skills/marktanalyse-tk-meldepflicht/) | Für Marktanalyse und beträchtliche Marktmacht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Marktüberwachung Dialog`](skills/marktueberwachung-dialog/) | Für Marktüberwachung Dialog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -122,14 +117,12 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Maschinenverordnung Anhang III`](skills/maschinenverordnung-annex-iii-hochrisiko/) | Für Maschinenverordnung Anhang III: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`MDR und Gesundheitsrobotik`](skills/mdr-gesundheitsrobotik/) | Für MDR und Gesundheitsrobotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Medizinprodukt-Software-KI-Roboter`](skills/medizinprodukt-software-ki-roboter/) | Für Medizinprodukt-Software-digitale Werkzeuge-Roboter: ordnet Norm, Beweislast und Gegenargument… |
-| [`Medizinprodukt-Software-KI-Roboter`](skills/medizinprodukt-software-mitbestimmung/) | Für Medizinprodukt-Software-digitale Werkzeuge-Roboter: ordnet Norm, Beweislast und Gegenargument… |
 | [`IT-Sicherheitsvorfall und Meldepflicht`](skills/meldepflicht-it-sicherheitsvorfall/) | Für IT-Sicherheitsvorfall und Meldepflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mindestlaufzeit, Verlängerung, Kündigung`](skills/mindestvertragslaufzeit-tk-umzug/) | Für Mindestlaufzeit, Verlängerung, Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`TK-Missbrauchsaufsicht als Sonderkartellrecht`](skills/missbrauchsaufsicht-tk-mitnutzung/) | Für TK-Missbrauchsaufsicht als Sonderkartellrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mitbestimmung Betriebsrat Robotik`](skills/mitbestimmung-betriebsrat-robotik/) | Für Mitbestimmung Betriebsrat Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Mitnutzung von Gebäudenetzen und passiver Infrastruktur`](skills/mitnutzung-gebaeude-netze/) | Für Mitnutzung von Gebäudenetzen und passiver Infrastruktur: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mobile Roboter AMR AGV`](skills/mobile-roboter-amr-agv/) | Für Mobile Roboter AMR AGV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Mobile Roboter AMR AGV`](skills/mobile-roboter-nis2-betreiber/) | Für Mobile Roboter AMR AGV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Netzneutralität, Zero-Rating und Drosselung`](skills/netzneutralitaet-tk-nis2/) | Für Netzneutralität, Zero-Rating und Drosselung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NIS2 Betreiber kritische Sektoren`](skills/nis2-betreiber-kritische-sektoren/) | Für NIS2 Betreiber kritische Sektoren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`NIS2, KRITIS und BSI-Schnittstelle`](skills/nis2-kritis-bsi-schnittstelle/) | Für NIS2, KRITIS und BSI-Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -147,7 +140,6 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Pilotbetrieb und Beta Robotik`](skills/pilotbetrieb-und-beta-robotik/) | Für Pilotbetrieb und Beta Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Post-Market-Monitoring`](skills/post-market-monitoring/) | Für Post-Market-Monitoring: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Presse und Krisenkommunikation`](skills/presse-krisenkommunikation/) | Für Presse und Krisenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Privacy-by-Design-Sprint`](skills/privacy-by-design-sprint/) | Für Privacy-by-Design-Sprint: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`ProdHaftG und neue PLD`](skills/prodhaftg-und-neue-pld-vergleich/) | Für ProdHaftG und neue PLD: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Produkt- und Rollenprofil`](skills/produkt-rollenprofil/) | Für Produkt- und Rollenprofil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Produktakte Gap-Analyse`](skills/produktakte-gap-analyse/) | Für Produktakte Gap-Analyse: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -160,13 +152,10 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`/it-recht:providerhaftung`](skills/providerhaftung-borghei/) | Prüfung der Verantwortlichkeit von Diensteanbietern für fremde/nutzergenerierte Inhalte: beschränkte… |
 | [`QM Robotikhersteller`](skills/qualitaetsmanagement-robotikhersteller/) | Für QM Robotikhersteller: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung mit Beweis… |
 | [`Quasihersteller und Private Label`](skills/quasihersteller-private-label-robotik/) | Für Quasihersteller und Private Label: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Rechtsregime-Matrix`](skills/rechtsregime-matrix/) | Für Rechtsregime-Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Regulierungsrisiko Red-Team`](skills/redteam-regulierungsrisiko/) | Für Regulierungsrisiko Red-Team: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Reha- und Exoskelett-Robotik`](skills/rehabilitations-exoskelett-remote-update/) | Für Reha- und Exoskelett-Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Reha- und Exoskelett-Robotik`](skills/rehabilitations-und-exoskelett-robotik/) | Für Reha- und Exoskelett-Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Remote Update und Secure Channel`](skills/remote-update-und-secure-channel/) | Für Remote Update und Secure Channel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Risikobeurteilung EN ISO 12100`](skills/risikobeurteilung-en-iso-12100/) | Für Risikobeurteilung EN ISO 12100: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Risikoklassifizierung Schnelltest`](skills/risikoklassifizierung-schnelltest/) | Für Risikoklassifizierung Schnelltest: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Robot-as-a-Service-Vertrag`](skills/robot-as-a-service-vertrag/) | Für Robot-as-a-Service-Vertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Abschlussqualität und Red-Team`](skills/robotik-abschluss-ce-haftung/) | Für Abschlussqualität und Red-Team: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Gutachten und Memo Output`](skills/robotik-gutachten-memo-output/) | Für Gutachten und Memo Output: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
@@ -190,7 +179,6 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`/it-recht:saas-vertrag`](skills/saas-vertrag-borghei/) | Prüfung von Software-as-a-Service-Verträgen: vertragstypologische Einordnung als Mietvertrag (§ 535 BGB… |
 | [`Safety Gate und öffentliche Warnung`](skills/safety-gate-und-oeffentliche-warnung/) | Für Safety Gate und öffentliche Warnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Satellitenkommunikation und NTN`](skills/satellite-tk-schlichtung/) | Für Satellitenkommunikation und NTN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`SBOM und Cyber-Dokumentation`](skills/sbom-cyber-serviceroboter-haushalt/) | Für SBOM und Cyber-Dokumentation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`SBOM und Cyber-Dokumentation`](skills/sbom-und-cyber-dokumentation/) | Für SBOM und Cyber-Dokumentation: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Schadensberechnung Produktionsausfall`](skills/schadensberechnung-produktionsausfall/) | Für Schadensberechnung Produktionsausfall: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Verbraucherschlichtung Telekommunikation`](skills/schlichtung-verbraucher/) | Für Verbraucherschlichtung Telekommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -217,7 +205,6 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Testdaten und Validierung`](skills/testdaten-und-validierung-vor-marktstart/) | Für Testdaten und Validierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`TowerCo und Mobilfunkstandortmiete`](skills/towerco-tk-traffic/) | Für TowerCo und Mobilfunkstandortmiete: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verkehrs- und Standortdaten`](skills/traffic-location-data-privacy/) | Für Verkehrs- und Standortdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Transparenz und Nutzerinformation`](skills/transparenz-nutzerinformation-unfallanalyse/) | Für Transparenz und Nutzerinformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Transparenz und Nutzerinformation`](skills/transparenz-und-nutzerinformation/) | Für Transparenz und Nutzerinformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Umzug und Telekommunikationsvertrag`](skills/umzug-vertragsanpassung/) | Für Umzug und Telekommunikationsvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Incident Response Robotik`](skills/unfall-incident-response/) | Für Incident Response Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -230,13 +217,11 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Vorhersehbarer Gebrauch`](skills/vernunftigerweise-vorhersehbarer-gebrauch/) | Für Vorhersehbarer Gebrauch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Versicherung und Regress`](skills/versicherungs-regressakte/) | Für Versicherung und Regress: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Versicherungsdeckung Robotik`](skills/versicherungsdeckung-robotik/) | Für Versicherungsdeckung Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Vertrags- und Lieferkettenintake`](skills/vertrags-lieferkettenintake/) | Für Vertrags- und Lieferkettenintake: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Anfechtung von BNetzA-Beschlüssen`](skills/verwaltungsrecht-anfechtung-bnetza/) | Für Anfechtung von BNetzA-Beschlüssen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vigilanz Medizinrobotik`](skills/vigilanz-medizinrobotik/) | Für Vigilanz Medizinrobotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vigilanz Medizinrobotik`](skills/vigilanz-medizinrobotik-vulnerability/) | Für Vigilanz Medizinrobotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vorratsdaten und Speicherpflichten`](skills/vorratsdaten-tk-wegerecht/) | Für Vorratsdaten und Speicherpflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vulnerability Disclosure und Reporting`](skills/vulnerability-disclosure-und-reporting/) | Für Vulnerability Disclosure und Reporting: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Wartungs- und Servicevertrag`](skills/wartungs-servicevertrag-beweislast/) | Für Wartungs- und Servicevertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
 | [`Wartungs- und Servicevertrag`](skills/wartungs-und-servicevertrag-robotik/) | Für Wartungs- und Servicevertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wegerecht für öffentliche Wege`](skills/wegerecht-oeffentliche-wege/) | Für Wegerecht für öffentliche Wege: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wesentliche Veränderung digital`](skills/wesentliche-veraenderung-digital/) | Für Wesentliche Veränderung digital: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -247,7 +232,6 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Zusammenschaltung und Interconnection`](skills/zusammenschaltung-interconnection/) | Für Zusammenschaltung und Interconnection: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zuständigkeit: BNetzA, Verwaltungsgericht, Zivilgericht, Kartellspur`](skills/zustaendigkeits-router-bnetza-vg-lg/) | Für Zuständigkeit: BNetzA, Verwaltungsgericht, Zivilgericht, Kartellspur: prüft Frist, Form… |
 | [`Zweckbestimmung und Nutzungsbedingungen`](skills/zweckbestimmung-enge-nutzungsbedingungen/) | Für Zweckbestimmung und Nutzungsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Zweckbestimmung und Use Case`](skills/zweckbestimmung-usecase/) | Für Zweckbestimmung und Use Case: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 
 ## Cold-start context
 

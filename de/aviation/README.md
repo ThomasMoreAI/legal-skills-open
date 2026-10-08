@@ -4,7 +4,7 @@ Aviation & Aerospace practice.
 
 Jurisdiction: `de` · Practice: `aviation` · Skill language: de
 
-## Skills (123)
+## Skills (122)
 
 | Skill | What it does |
 |---|---|
@@ -92,7 +92,6 @@ Jurisdiction: `de` · Practice: `aviation` · Skill language: de
 | [`Flugzeugleasing und Kapstadt-Bezüge`](skills/leasing-und-cape-town-bezuege/) | Prüft Flugzeugleasing und internationale Sicherungsrechte ohne vorschnelle Anwendungsannahme; liefert… |
 | [`Flugzeugleasing Mandantenmemo Schreibe`](skills/luft-050-flugzeugleasing-mandantenmemo-schreibe/) | Für Flugzeugleasing Mandantenmemo Schreibe: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Ersatzteillager Pfaendung Planen`](skills/luft-064-ersatzteillager-pfaendung-planen/) | Für Ersatzteillager Pfändung Planen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Bodenabfertigung Sicherheitsauflage Be`](skills/luft-116-bodenabfertigung-sicherheitsauflage-be/) | Für Bodenabfertigung Sicherheitsauflage Be: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Luftfahrzeugpfandrecht – Bestellung, Rang und Vollstreckung`](skills/luftfahrzeugpfandrecht/) | Für Luftfahrzeugpfandrecht – Bestellung, Rang und Vollstreckung: ordnet Norm, Beweislast und… |
 | [`Luftfracht – Dashboard bauen`](skills/luftfracht-dashboard-mandantenmemo/) | Für Luftfracht – Dashboard bauen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Luftfracht – Genehmigung prüfen`](skills/luftfracht-genehmigung-pruefen/) | Für Luftfracht – Genehmigung prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

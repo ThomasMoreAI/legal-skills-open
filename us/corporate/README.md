@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 
-## Skills (115)
+## Skills (114)
 
 | Skill | What it does |
 |---|---|
@@ -116,7 +116,6 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Stock Purchase Agreement (M&A)`](skills/stock-purchase-agreement/) | Drafts a Stock Purchase Agreement for 100% stock acquisitions in middle-market M&A transactions. Covers… |
 | [`VC Term Sheet Review`](skills/term-sheet-review/) | Review VC term sheets for pre-seed, seed, and Series A rounds. Analyzes each clause from investor or… |
 | [`Transitional Services Agreement`](skills/transitional-services-agreement/) | Drafts a Transitional Services Agreement (TSA) for post-closing seller-to-buyer service delivery in U.S.… |
-| [`US Investoren Adr`](skills/us-investoren-adr/) | Für US Investoren Adr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Shareholder Voting Agreement`](skills/voting-agreement/) | Drafts enforceable shareholder Voting Agreements coordinating director elections, fundamental… |
 | [`Write Board Resolution`](skills/write-board-resolution-jeffreytse/) | Use when drafting a formal board resolution to authorize corporate actions, approve transactions… |
 | [`Write Shareholder Agreement`](skills/write-shareholder-agreement-jeffreytse/) | Use when drafting or reviewing a shareholder agreement for a startup, private company, or joint venture |

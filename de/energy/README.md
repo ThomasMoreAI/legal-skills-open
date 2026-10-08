@@ -4,7 +4,7 @@ German energy law — EEG/KWKG remuneration, grid connection and access, network
 
 Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (71)
+## Skills (70)
 
 | Skill | What it does |
 |---|---|
@@ -71,7 +71,6 @@ Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see
 | [`Netzanschluss: Formular, Portal und Einreichungslogik`](skills/netzanschluss-formular-portal-und-einreichung/) | Für Netzanschluss: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Projektfinanzierung Energie`](skills/projektfinanzierung/) | Für Projektfinanzierung Energie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verfahren: Livequellen- und Rechtsprechungscheck`](skills/spezial-verfahren-livequellen-und-rechtsprechungscheck/) | Für Verfahren: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
-| [`Energie: Stakeholder-Mapping`](skills/stakeholder-mapping-energie/) | Für Energie: Stakeholder-Mapping: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Energie-Transaktionen und Due Diligence`](skills/transaktionen-dd-2/) | Für Energie-Transaktionen und Due Diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verfahren — Behörden und Gerichte`](skills/verfahren-2/) | Für Verfahren — Behörden und Gerichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verfahren Quellenkarte`](skills/verfahren-quellenkarte/) | Für Verfahren Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

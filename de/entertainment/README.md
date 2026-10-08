@@ -4,7 +4,7 @@ Media & Entertainment practice.
 
 Jurisdiction: `de` · Practice: `entertainment` · Skill language: de
 
-## Skills (71)
+## Skills (70)
 
 | Skill | What it does |
 |---|---|
@@ -40,7 +40,6 @@ Jurisdiction: `de` · Practice: `entertainment` · Skill language: de
 | [`Anbieterinformationen und erreichbare Anschrift für Creator`](skills/impressumspflicht-und-ladungsfaehige-anschrift/) | Prüft Anbieterinformationen für Creator-Accounts, Websites, Shops und Link-in-Bio-Seiten nach Paragraf 5… |
 | [`Influencer-Recht: Agenturvertrag Exklusivität Provision und Kündigung`](skills/infl-010-agenturvertrag-exklusivitaet-provision-und-kuen/) | Für Influencer-Recht: Agenturvertrag Exklusivität Provision und Kündigung: ordnet Norm, Beweislast und… |
 | [`Influencer-Recht: EU-Ausland Brand Reverse Charge und OSS`](skills/infl-045-eu-ausland-brand-reverse-charge-und-oss/) | Für Influencer-Recht: EU-Ausland Brand Reverse Charge und OSS: ordnet Norm, Beweislast und… |
-| [`Influencer-Recht: Arbeitsrecht Social Media Manager`](skills/infl-053-arbeitsrecht-social-media-manager/) | Für Influencer-Recht: Arbeitsrecht Social Media Manager: ordnet Norm, Beweislast und Gegenargument… |
 | [`Influencer-Recht: Influencer als Testimonial in Kapitalmarktkommunikation`](skills/influencer-beauty-filter-medienanstalt/) | Für Influencer-Recht: Influencer als Testimonial in Kapitalmarktkommunikation: ordnet Norm, Beweislast… |
 | [`Juristischer Argumentationskern - Influencer Recht`](skills/influencer-recht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Influencer Recht ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`Veröffentlichung, Kooperation und rechtliches Anliegen einordnen`](skills/influencer-recht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |

@@ -4,7 +4,7 @@ Insolvency and restructuring — proceedings, creditor rights, and reorganisatio
 
 Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 
-## Skills (751)
+## Skills (732)
 
 | Skill | What it does |
 |---|---|
@@ -179,7 +179,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Familienbudget und Haushaltsplan: realistische Raten, Kinder, Unterhalt, Pflege, Krankheit und Nachweise.`](skills/familienbudget-und-haushaltsplan/) | Für Familienbudget und Haushaltsplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`FBP: Stresstest-Szenarien`](skills/fbp-stresstest-szenarien-leitfaden/) | Für FBP: Stresstest-Szenarien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`FBP: Zahlungsunfaehigkeit Ueberschuldung`](skills/fbp-zahlungsunfaehigkeit/) | Für FBP: Zahlungsunfähigkeit Überschuldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Feststellung: Internationaler Bezug und Schnittstellen`](skills/feststellung-forderungsgrund-rang-grund/) | Für Feststellung: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Feststellung: Sonderfall und Edge-Case-Prüfung`](skills/feststellung-sonderfall-glaeubigerantrag-inso/) | Für Feststellung: Sonderfall und Edge-Case-Prüfung: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Forderungen prüfen und Tabelle vorbereiten`](skills/forderungen-pruefen-und-tabelle-vorbereiten/) | Bearbeitet Forderungsanmeldungen vom Akteneingang bis zum begründeten Prüfvorschlag je Gläubiger mit… |
 | [`Forderungsanmeldung im Insolvenzverfahren — Gläubiger-Sicht (§§ 174-177 InsO)`](skills/forderungsanmeldung-glaeubiger-174-177-inso/) | Für Forderungsanmeldung im Insolvenzverfahren — Gläubiger-Sicht (Paragrafen 174-177 InsO): ordnet Norm… |
@@ -256,7 +255,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Bargeschäft — § 142 InsO`](skills/inso-bargeschaeft-142/) | Für Bargeschäft — Paragraf 142 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`DSGVO Art. 17 nach Restschuldbefreiung`](skills/inso-dsgvo-art17-nach-restschuldbefreiung/) | Für DSGVO Art. 17 nach Restschuldbefreiung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Forderung, Verfahrensstand und Fristen`](skills/inso-forderungsanmeldung-start-chronologie-fristen/) | Für Insolvenzforderungsanmeldungsprüfung — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
-| [`InsO: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/inso-fristen-form-und-zustaendigkeit/) | Für InsO: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Gerichtliche und aufsichtsrechtliche Wege gegen Auskunfteien`](skills/inso-gerichtliche-aufsichtswege/) | Für Gerichtliche und aufsichtsrechtliche Wege gegen Auskunfteien: ordnet Norm, Beweislast und… |
 | [`Gesellschafterdarlehen — § 135 InsO`](skills/inso-gesellschafterdarlehen-135/) | Für Gesellschafterdarlehen — Paragraf 135 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gesellschafterdarlehen — § 135 InsO`](skills/inso-gesellschafterdarlehen-grundtatbestand/) | Für Gesellschafterdarlehen — Paragraf 135 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -314,7 +312,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Juristischer Argumentationskern - Insolvenzforderungsanmeldungsprüfung`](skills/insolvenzforderungsanmeldungspru-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Insolvenzforderungsanmeldungsprüfung ein juristisches Arbeitsprodukt… |
 | [`Forderungsanmeldung bearbeiten`](skills/insolvenzforderungsanmeldungsprue-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/insolvenzforderungsanmeldungspruefu-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
-| [`Ifap: Mandantenkommunikation und Entscheidungsvorlage`](skills/insolvenzforderungsanmeldungspruefung/) | Für Ifap: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anschluss-Routing`](skills/insolvenzforderungsanmeldungspruefung-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/insolvenzforderungsanmeldungspruefung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/insolvenzforderungsanmeldungspruefung-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -388,7 +385,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`KFE: Stabilisierungsanordnung`](skills/kfe-stabilisierungsanordnung-spezial/) | Für KFE: Stabilisierungsanordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Klageantrag: Zahlung, Herausgabe, Zug um Zug`](skills/klageantrag-zahlung-herausgabe-zug-um-zug/) | Für Klageantrag: Zahlung, Herausgabe, Zug um Zug: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Klageantrag: Zahlung, Herausgabe, Zug um Zug`](skills/klageantrag-zahlung-kondiktion-schwarzarbeit/) | Für Klageantrag: Zahlung, Herausgabe, Zug um Zug: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
-| [`Klassen: Verhandlung, Vergleich und Eskalation`](skills/klassen-verhandlung-vergleich-und-eskalation/) | Für Klassen: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Gläubigerkommunikation: keine unnötigen Schuldanerkenntnisse, Zustellnachweis, Antworttabellen und Planbegleitschreiben.`](skills/kommunikation-mit-glaeubigern/) | Für Kommunikation mit Gläubigern: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kondiktion bei Schwarzarbeit und Illegalität`](skills/kondiktion-bei-schwarzarbeit-und-illegalitaet/) | Für Kondiktion bei Schwarzarbeit und Illegalität: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kondiktionskarte: vollständiger Fallaufbau`](skills/kondiktionskarte-vollstaendiger-fallaufbau/) | Für Kondiktionskarte: vollständiger Fallaufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -466,14 +462,12 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Masseunzulaenglichkeit § 208 InsO`](skills/masseunzulaenglichkeit-paragraf-208-inso/) | Für Masseunzulänglichkeit Paragraf 208 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Masseverbindlichkeit abgrenzen`](skills/masseverbindlichkeit-abgrenzen/) | Für Masseverbindlichkeit abgrenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Masseverbindlichkeit: Sonderfall und Edge-Case-Prüfung`](skills/masseverbindlichkeit-sonderfall-und-edge-case/) | Für Masseverbindlichkeit: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
-| [`Mehrblatt: Sonderfall und Edge-Case-Prüfung`](skills/mehrblatt-sonderfall-edge-case/) | Für Mehrblatt: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mehrblatt: Sonderfall und Edge-Case-Prüfung`](skills/mehrblatt-sonderfall-onboarding-perspektiven/) | Für Mehrblatt: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mehrpersonenverhältnisse — Direkt- und Durchgriffskondiktion`](skills/mehrpersonenverhaeltnisse-direkt/) | Für Mehrpersonenverhältnisse — Direkt- und Durchgriffskondiktion: ordnet Norm, Beweislast und… |
 | [`Miet- und pachtrechtliche Rückabwicklung`](skills/miet-und-pachtrechtliche-rueckabwicklung/) | Für Miet- und pachtrechtliche Rückabwicklung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mietkaution und Genossenschaftsanteile: Masse, Wohnungserhalt, Freigabe und Kündigungsrisiken.`](skills/mietkaution-und-genossenschaftsanteil/) | Für Mietkaution und Genossenschaftsanteil: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Minderheitenschutz`](skills/minderheitenschutz-planbetroffene/) | Für Minderheitenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Minderjährige und Schutzwertung`](skills/minderjaehrige-schutzwertung/) | Für Minderjährige und Schutzwertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Minderjährige und Schutzwertung`](skills/minderjaehrige-und-schutzwertung/) | Für Minderjährige und Schutzwertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)`](skills/mittelstand-ma-insolvenzreife/) | Für Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand): ordnet Norm, Beweislast und… |
 | [`Monats Quellenkarte`](skills/monats-quellenkarte/) | Für Monats Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Muster-Schuldenbereinigungsplan: Nullplan, Quotenplan, Drittmittelplan und Begründung in Alltagssprache.`](skills/muster-schuldenbereinigungsplan/) | Für Muster Schuldenbereinigungsplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -489,7 +483,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Nutzungen, Zinsen, Früchte und Gebrauchsvorteile`](skills/nutzungen-zinsen-fruechte-gebrauchsvorteile/) | Für Nutzungen, Zinsen, Früchte und Gebrauchsvorteile: ordnet Norm, Beweislast und Gegenargument… |
 | [`Obliegenheiten in der Wohlverhaltensphase: Erwerbsobliegenheit, Erbschaft, Umzug, Zahlung an Treuhänder und Informations`](skills/obliegenheiten-295-inso/) | Für Obliegenheiten 295 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Öffentlich-rechtliche Rückforderung abgrenzen`](skills/oeffentlich-rechtliche-parallel-konkurrenz/) | Für Öffentlich-rechtliche Rückforderung abgrenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Öffentlich-rechtliche Rückforderung abgrenzen`](skills/oeffentlich-rechtliche-rueckforderung/) | Für Öffentlich-rechtliche Rückforderung abgrenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Überführt offene Posten, streitige Vollstreckungstitel und Bankbewegungen in eine…`](skills/opos-titelabgleich-dreiwochen-liquiditaetsbruecke/) | Überführt offene Posten, streitige Vollstreckungstitel und Bankbewegungen in eine abgestimmte… |
 | [`Bereitet die Organhaftung für Zahlungen nach Insolvenzreife durch Einzelbuchungsabgleich…`](skills/organhaftung-zahlungen-masseabgleich/) | Bereitet die Organhaftung für Zahlungen nach Insolvenzreife durch Einzelbuchungsabgleich, Zeitfenster… |
 | [`Output: Anfechtungsanzeige des Insolvenzverwalters`](skills/output-anfechtungsanzeige-insolvenzverwalter/) | Für Output: Anfechtungsanzeige des Insolvenzverwalters: ordnet Norm, Beweislast und Gegenargument… |
@@ -499,7 +492,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Parallel- und Konkurrenzprüfung`](skills/parallel-und-konkurrenz-pruefung/) | Für Parallel- und Konkurrenzprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Patronatserklaerung: Mehrparteienkonflikt und Interessenmatrix`](skills/patronatserklaerung-mehrparteien-konflikt-und-interessen/) | Für Patronatserklärung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`/tabellenreview-3d:pdf-bericht-erzeugen`](skills/pdf-bericht-erzeugen/) | Für /tabellenreview-3d:pdf-bericht-erzeugen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Perspektiven: Verhandlung, Vergleich und Eskalation`](skills/perspektiven-verhandlung-vergleich-eskalation/) | Für Perspektiven: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Pflichtenkollision und Shift of Fiduciary Duties in der Krise`](skills/pflichtenkollision-shift-restructuring-lounge/) | Für Pflichtenkollision und Shift of Fiduciary Duties in der Krise: ordnet Norm, Beweislast und… |
 | [`IV-integrierte Abstimmung und Mehrheiten`](skills/plan-abstimmung-anlagenpaket/) | Für IV-integrierte Abstimmung und Mehrheiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`IV-integrierte Anlagenpaket`](skills/plan-anlagenpaket/) | Für IV-integrierte Anlagenpaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -597,7 +589,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Sanierungsgewinn — Verlustvortrag und Paragraph 3a Absatz 3 EStG vorab prüfen`](skills/sanierungsgewinn-verlustvortrag-und-3a-iii-vorab/) | Für Sanierungsgewinn — Verlustvortrag und Paragraph 3a Absatz 3 EStG vorab prüfen: ordnet Norm… |
 | [`Sanierungsgewinn — Forderungsverzicht im Plan, bilanzielle Folgen`](skills/sanierungsgewinn-verzicht-bilanz-im-plan/) | Für Sanierungsgewinn — Forderungsverzicht im Plan, bilanzielle Folgen: ordnet Norm, Beweislast und… |
 | [`Sanierungskonzept`](skills/sanierungskonzept/) | Für Sanierungskonzept: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Sanierungskonzept: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/sanierungskonzept-starug-spezial-teil/) | Für Sanierungskonzept: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Sanierungsmoderation § 94 StaRUG`](skills/sanierungsmoderation-94-starug/) | Für Sanierungsmoderation Paragraf 94 StaRUG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sanierungsrecht: Fristen, Form, Zuständigkeit und Rechtsweg im Insolvenz- und Sanierungsrecht: fachlich vertieftes Modul`](skills/sanierungsrecht-fristen-form-und-zustaendigkeit/) | Für Sanierungsrecht Fristen Form und Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Scheme of Arrangement`](skills/scheme-of-arrangement/) | Für Scheme of Arrangement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -618,10 +609,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Sicherung und Betriebsfortführung`](skills/sicherung-iv-tabelle/) | Für Sicherung und Betriebsfortführung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Sicht: Tatbestandsmerkmale, Beweisfragen und Beleglage im Insolvenzverwaltung: fachlich vertieftes Modul mit Normenradar`](skills/sicht-tatbestand-beweis-und-belege/) | Für Sicht Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und… |
 | [`Liqui Sondereffekt Grossauftrag Stundungs`](skills/sondereffekt-grossauftrag-stundungs/) | Für Liqui Sondereffekt Grossauftrag Stundungs: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Liqui: Sonderfall und Edge-Case-Prüfung`](skills/sonderfall-edge-case/) | Für Liqui: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`/tabellenreview-3d:spaltenprompts-definieren`](skills/spaltenprompts-definieren/) | Für /tabellenreview-3d:spaltenprompts-definieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Spaltenprompts: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/spaltenprompts-fristen-form-und-zustaendigkeit/) | Für Spaltenprompts: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
-| [`Spaltenprompts: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/spaltenprompts-fristen-form-zustaendigkeit/) | Für Spaltenprompts: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Darstellender: Livequellen- und Rechtsprechungscheck`](skills/spezial-darstellender-livequellen-und-rechtsprechungsche/) | Für Darstellender: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Geschaeftsfuehrerhaftung: Livequellen- und Rechtsprechungscheck`](skills/spezial-geschaeftsfuehrerhaftung-livequellen-check/) | Für Geschäftsführerhaftung: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und… |
 | [`Glaeubigerausschuss: Fristennotiz und nächster Schritt`](skills/spezial-glaeubigerausschuss-fristennotiz-und-naechster-s/) | Für Gläubigerausschuss: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und… |
@@ -668,7 +656,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Juristischer Argumentationskern - Tabellenreview 3D`](skills/tabellenreview-3d-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Tabellenreview 3D ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`/tabellenreview-3d:kaltstart-interview`](skills/tabellenreview-3d-kaltstart-interview/) | Für /tabellenreview-3d:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Tabellenbestand und konkrete Prüfaufgabe bestimmen`](skills/tabellenreview-3d-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Onboarding: Mandantenkommunikation und Entscheidungsvorlage`](skills/tabellenreview-3d-onboarding-mandantenkommunikation/) | Für Onboarding: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Output wählen`](skills/tabellenreview-3d-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsquellen-Livecheck`](skills/tabellenreview-3d-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Tabellenreview 3D — Allgemein`](skills/tabellenreview-3d-start-chronologie-fristen/) | Für Tabellenreview 3D — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie… |
@@ -676,7 +663,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Kaltstart und Routing`](skills/tabellenreview-3d-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Dokument: Behörden-, Gerichts- oder Registerweg`](skills/tabellenreview-dokument-behoerden-gerichts-registerweg/) | Für Dokument: Behörden-, Gerichts- oder Registerweg: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Tabellenreview: Erstprüfung, Rollenklärung und Mandatsziel`](skills/tabellenreview-erstpruefung-und-mandatsziel/) | Für Tabellenreview: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
-| [`Teil: Compliance-Dokumentation und Aktenvermerk`](skills/teil-compliance-dokumentation-und-akte/) | Für Teil: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`TR3D: Massearmut Tabelle`](skills/tr3d-massearmut-tabelle-spezial/) | Für TR3D: Massearmut Tabelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kommunikation mit Treuhänder/Insolvenzverwalter: Unterlagen, Nachfragen, Konto, Verwertung, Obliegenheiten.`](skills/treuhaender-kommunikation/) | Für Treuhänder Kommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Triage: Mandantenkommunikation und Entscheidungsvorlage`](skills/triage-verbraucherinsolvenz/) | Für Triage: Mandantenkommunikation und Entscheidungsvorlage: routet Rolle, Frist, Unterlagen und… |
@@ -696,7 +682,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Verbraucherinsolvenz: 3-Jahres-Restschuldbefreiung`](skills/verbraucherinsolvenz-3-jahres-restschuldbefreiung/) | Für Verbraucherinsolvenz: 3-Jahres-Restschuldbefreiung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Aussergerichtlicher Schuldenbereinigungsplan nach §§ 305 InsO`](skills/verbraucherinsolvenz-aussergerichtl-schuldenbereinigung/) | Für Aussergerichtlicher Schuldenbereinigungsplan nach Paragrafen 305 InsO: ordnet Norm, Beweislast und… |
 | [`Schuldnerberatungsstelle: Strukturierung des Belegchaos`](skills/verbraucherinsolvenz-belegchaos-strukturieren/) | Für Schuldnerberatungsstelle: Strukturierung des Belegchaos: ordnet Akte, Belege und Lücken; Ergebnis… |
-| [`Verbraucherinsolvenz: Mehrparteienkonflikt und Interessenmatrix`](skills/verbraucherinsolvenz-mehrparteienkonflikt/) | Für Verbraucherinsolvenz: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`Verbraucherinsolvenz: Nachtraegliche Gläubiger nach Restschuldbefreiung`](skills/verbraucherinsolvenz-nachtraegliche-glaeubiger/) | Für Verbraucherinsolvenz: Nachträgliche Gläubiger nach Restschuldbefreiung: ordnet Norm, Beweislast und… |
 | [`Verbraucherinsolvenz: Pfaendungsschutzkonto P-Konto`](skills/verbraucherinsolvenz-pfaendungsschutzkonto/) | Für Verbraucherinsolvenz: Pfändungsschutzkonto P-Konto: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Verbraucherinsolvenz Schuldenbereinigung`](skills/verbraucherinsolvenz-schuldenber-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Verbraucherinsolvenz Schuldenbereinigung ein juristisches Arbeitsprodukt… |
@@ -719,7 +704,6 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Verschärfte Haftung — § 819 BGB bei Bösgläubigkeit`](skills/verschaerfte-haftung-819-bgb-bosglaeubigkeit/) | Für Verschärfte Haftung — Paragraf 819 BGB bei Bösgläubigkeit: ordnet Norm, Beweislast und… |
 | [`Verschärfte Haftung — § 819 BGB bei Bösgläubigkeit`](skills/verschaerfte-haftung-abgetretene-forderung/) | Für Verschärfte Haftung — Paragraf 819 BGB bei Bösgläubigkeit: ordnet Norm, Beweislast und… |
 | [`Verspätete Anmeldungen und Termine bearbeiten`](skills/verspaetete-anmeldungen-und-termine-bearbeiten/) | Bearbeitet verspätete Forderungsanmeldungen und Änderungen mit dem zutreffenden Prüfweg. Unterscheidet… |
-| [`Verteidigung gegen Bereicherungsklage`](skills/verteidigung-gegen-bereicherungsklage/) | Für Verteidigung gegen Bereicherungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Verteidigung gegen Bereicherungsklage`](skills/verteidigung-verwendungen-erlangte/) | Für Verteidigung gegen Bereicherungsklage: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verteilung bei bestrittenen Forderungen`](skills/verteilung-bestrittene-189/) | Für Verteilung bei bestrittenen Forderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verteilung Fehlerkatalog`](skills/verteilung-fehlerkatalog/) | Für Verteilung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -737,10 +721,8 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Vorzeitige Restschuldbefreiung: Kosten, Gläubigerbefriedigung, Anträge und Timing.`](skills/vorzeitige-restschuldbefreiung/) | Für Vorzeitige Restschuldbefreiung: Kosten, Gläubigerbefriedigung, Anträge und Timing: ordnet Norm… |
 | [`Weitergabe und § 822 BGB Verteidigung`](skills/weitergabe-und-822-verteidigung/) | Für Weitergabe und Paragraf 822 BGB Verteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter`](skills/wenn-prognose-negativ-naechste-schritte/) | Für Wenn Prognose Negativ Nächste Schritte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Wertersatz bei Dienstleistung und Gebrauchsvorteil`](skills/wertersatz-dienstleistung-gebrauchsvorteil/) | Für Wertersatz bei Dienstleistung und Gebrauchsvorteil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wertersatz bei Dienstleistung und Gebrauchsvorteil`](skills/wertersatz-dienstleistung-wertveraenderung/) | Für Wertersatz bei Dienstleistung und Gebrauchsvorteil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wertveränderung und Bewertungsstichtag`](skills/wertveraenderung-und-stichtag/) | Für Wertveränderung und Bewertungsstichtag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Wirtschaft: Zahlen, Schwellenwerte und Berechnung`](skills/wirtschaft-zahlen-schwellenwerte-berechnung/) | Für Wirtschaft: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Wochen: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/wochen-fristen-form-zustaendigkeit-rechtsweg/) | Für Wochen: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Wochen Liqui Ausgabengruppen Cash`](skills/wochen-liqui-ausgabengruppen-cash/) | Für Wochen Liqui Ausgabengruppen Cash: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Wohnung, Miete und Energie: Mietrückstand, Kündigung, Stromsperre, Kaution und Haushaltsstabilisierung.`](skills/wohnung-miete-energie/) | Für Wohnung Miete Energie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -756,6 +738,5 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Gerichtsfeste Prüfung des Eröffnungsgrundes § 17 InsO (Zahlungsunfähigkeit)`](skills/zahlungsunfaehigkeit-pruefung-17-inso/) | Für Gerichtsfeste Prüfung des Eröffnungsgrundes Paragraf 17 InsO (Zahlungsunfähigkeit): ordnet Norm… |
 | [`Zahlungsunfaehigkeit: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/zahlungsunfaehigkeit-tatbestand-beweis-und-belege/) | Für Zahlungsunfähigkeit: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und… |
 | [`Zeilenprompts für einzelne Prüfpositionen im 3D-Tabellenreview definieren`](skills/zeilenprompts-definieren/) | Für Zeilenprompts für einzelne Prüfpositionen im 3D-Tabellenreview definieren: ordnet Norm, Beweislast… |
-| [`Zeilenprompts: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/zeilenprompts-risikoampel-gegenargumente/) | Für Zeilenprompts: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Fortbestehensprognose zusammenführen`](skills/zusammenfuehren/) | Für Fortbestehensprognose zusammenführen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zweckverfehlung und Kondiktionszweck`](skills/zweckverfehlung-und-kondiktionszweck/) | Für Zweckverfehlung und Kondiktionszweck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

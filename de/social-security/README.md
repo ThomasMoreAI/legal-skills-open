@@ -4,7 +4,7 @@ German social-security law (Sozialrecht) — Erwerbsminderungsrente, SGB II (Bü
 
 Jurisdiction: `de` · Practice: `social-security` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (508)
+## Skills (505)
 
 | Skill | What it does |
 |---|---|
@@ -267,8 +267,6 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Kurzfristige Beschäftigung`](skills/kurzfristige-beschaeftigung-obligatorisches/) | Für Kurzfristige Beschäftigung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Bescheid, Rechnung und Leistungsfrist prüfen`](skills/kv-001-kaltstart-krankenversicherung-bescheid-rechnung-u/) | Für Krankenversicherung: Kaltstart Krankenversicherung Bescheid Rechnung und Frist: routet Rolle, Frist… |
 | [`Krankenversicherung: Grenzgänger Auslandskrankenversicherung und Koordinierungsrecht`](skills/kv-019-grenzgaenger-auslandskv-koordination/) | Für Krankenversicherung: Grenzgänger Auslandskrankenversicherung und Koordinierungsrecht: ordnet Norm… |
-| [`Krankenversicherung: PKV Krankentagegeld Berufsunfähigkeit und Arbeitsunfähigkeit`](skills/kv-032-pkv-ktg-bu-au-pkv-ktg-bu-au/) | Für Krankenversicherung: PKV Krankentagegeld Berufsunfähigkeit und Arbeitsunfähigkeit: ordnet Norm… |
-| [`Krankenversicherung: Kostenerstattung Privatarzt in der GKV`](skills/kv-054-kostenerstattung-privatarzt-in-der-gkv/) | Für Krankenversicherung: Kostenerstattung Privatarzt in der GKV: ordnet Norm, Beweislast und… |
 | [`Krankenversicherung: Klagebegründung Sozialgericht Gesundheitsakte`](skills/kv-068-klagebegruendung-sozialgericht-gesundheitsakte/) | Für Krankenversicherung: Klagebegründung Sozialgericht Gesundheitsakte: erstellt Entwurf mit Antrag… |
 | [`Qualitätssicherung und Schlusscheck für Krankenversicherungsakte: vollständige Unterlagenprüfung, Fristen, Rechtswegerkl`](skills/kv-080-qualitaetsgate-krankenversicherungsakte/) | Für Kv 080 Qualitätsgate Krankenversicherungsakte: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`KVdR Nettorente Abzüge`](skills/kvdr-nettorente-abzuege/) | Für KVdR Nettorente Abzüge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -389,7 +387,6 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Anwalt erstellt PKH-Antrag für Sozialgerichtsverfahren und muss alle Belege korrekt zusammenstellen`](skills/prozesskostenhilfe-antrag/) | Für Prozesskostenhilfe Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Rahmenvertrag und Einzelauftrag`](skills/rahmenvertrag-einzelauftrag/) | Für Rahmenvertrag und Einzelauftrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtsprechungschat Sozialgericht`](skills/rechtsprechungschat-sozialgericht/) | Für Rechtsprechungschat Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Red team rentenbescheid`](skills/red-team-rentenbescheid/) | Für red-team-rentenbescheid: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Red-Team Status Qualitygate`](skills/redteam-status-qualitygate/) | Für Red-Team Status Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Reha vor Rente: Zuständigkeit Krankenkasse vs. Rentenversicherung`](skills/reha-vor-rente-zustaendigkeit-krankenkasse-rentenversich/) | Für Reha vor Rente: Zuständigkeit Krankenkasse vs. Rentenversicherung: prüft Frist, Form, Zuständigkeit… |
 | [`Rentenanpassung § 65 sgb vi`](skills/rentenanpassung-paragraf-65-sgb-vi/) | Für Rentenanpassung Paragraf 65 SGB vi: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

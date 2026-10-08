@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 
-## Skills (623)
+## Skills (582)
 
 | Skill | What it does |
 |---|---|
@@ -24,7 +24,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Abgabe Frist Upload`](skills/abgabe-frist-fristverlaengerung/) | Für Abgabe Frist Upload: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. |
 | [`Abitur Und Abschlusspruefungen`](skills/abitur-und-abschlusspruefungen/) | Für Abitur und Abschlussprüfungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Abiturzulassung und Fehlkurse`](skills/abiturzulassung-und-fehlkurse/) | Für Abiturzulassung und Fehlkurse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Abschlussarbeit Betreuung`](skills/abschlussarbeit-betreuung/) | Für Abschlussarbeit Betreuung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/adaptive-dokumentenmatrix-lueckenliste/) | Für Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/adaptive-dokumentenmatrix-und-lueckenliste/) | Für Adaptive: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`AGG und § 9 BBG — Anspruchskonkurrenz im Auswahlverfahren`](skills/agg-vs-9-bbg-auswahlverfahren/) | Für AGG und Paragraf 9 BBG — Anspruchskonkurrenz im Auswahlverfahren: ordnet Norm, Beweislast und… |
@@ -86,8 +85,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten`](skills/beamtenrecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`/beamten-disziplinarrecht:beamtenstatusrecht`](skills/beamtenstatusrecht-borghei/) | Statusfragen des Beamtenverhältnisses – Ernennung und ihre Fehler §§ 11, 12 BeamtStG, Probezeit… |
 | [`BeamtStG, BBG und Landesrecht richtig abgrenzen`](skills/beamtstg-bbg-beforderung-erprobung-begrenzte/) | Für BeamtStG, BBG und Landesrecht richtig abgrenzen: ordnet Norm, Beweislast und Gegenargument… |
-| [`Befangenheit Prüfer`](skills/befangenheit-pruefer/) | Für Befangenheit Prüfer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Befreiung von Schulveranstaltung`](skills/befreiung-schulveranstaltung/) | Für Befreiung von Schulveranstaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Begrenzte Dienstfaehigkeit nach § 27 BBG`](skills/begrenzte-dienstfaehigkeit-27-bbg/) | Für Begrenzte Dienstfähigkeit nach Paragraf 27 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Begruendung Der Note`](skills/begruendung-der-note/) | Für Begründung der Note: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Beihilfe bei chronischer Krankheit`](skills/beihilfe-chronische-krankheit/) | Für Beihilfe bei chronischer Krankheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -107,7 +104,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in…`](skills/berlin-sekundarstufe-schulplatz-wechsel/) | Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in Klasse 8 mit… |
 | [`Berufungsvereinbarung und Ausstattung`](skills/berufungsvereinbarung-ausstattung/) | Für Berufungsvereinbarung und Ausstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berufungsverfahren Professur`](skills/berufungsverfahren-professur-gute/) | Für Berufungsverfahren Professur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Beschwerde gegen Lehrkraft`](skills/beschwerde-gegen-lehrkraft/) | Für Beschwerde gegen Lehrkraft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Besold Amtsangemessene Alimentation Fuenf Parameter`](skills/besold-amtsangemessene-alimentation-fuenf-parameter/) | Für Besold Amtsangemessene Alimentation Fünf Parameter: ordnet Norm, Beweislast und Gegenargument… |
 | [`Besold Auslandszuschlag Auslandseinsatz Und Kaufkraftaus`](skills/besold-auslandszuschlag-auslandseinsatz-und-kaufkraftaus/) | Für Besold Auslandszuschlag Auslandseinsatz und Kaufkraftaus: ordnet Norm, Beweislast und Gegenargument… |
 | [`Besold Beihilfe Pkv Restkosten Und Kostendaempfung`](skills/besold-beihilfe-pkv-restkosten-und-kostendaempfung/) | Für Besold Beihilfe Pkv Restkosten und Kostendämpfung: ordnet Norm, Beweislast und Gegenargument… |
@@ -164,7 +160,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Chancengleichheit und Störung`](skills/chancengleichheit-stoerung/) | Für Chancengleichheit und Störung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Chronologie für Behörde`](skills/chronologie-fuer-behoerde/) | Für Chronologie für Behörde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg… |
 | [`Cloud-Plattform Schule und M365`](skills/cloud-plattform-schule-m365/) | Für Cloud-Plattform Schule und M365: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Cybermobbing Schule`](skills/cybermobbing-schule/) | Für Cybermobbing Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Datenschutz Hochschule`](skills/datenschutz-hochschule/) | Für Datenschutz Hochschule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Datenschutz Pruefungsdaten`](skills/datenschutz-pruefungsdaten/) | Für Datenschutz Prüfungsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Datenschutz Prüfungsdaten`](skills/datenschutz-pruefungsdaten-drittversuch/) | Für Datenschutz Prüfungsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
@@ -217,13 +212,11 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`KI, Ethik und Forschungsdaten`](skills/dfg-ki-ethik-forschungsdaten/) | Für digitale Werkzeuge, Ethik und Forschungsdaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`DFG: Kollegen-Review organisieren`](skills/dfg-kollegen-review-organisieren/) | Für DFG: Kollegen-Review organisieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Reinhart-Koselleck-Check`](skills/dfg-koselleck-500k-125m/) | Für Reinhart-Koselleck-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Praeregistrierung und Replikation`](skills/dfg-praeregistrierung-replication-studies/) | Für Präregistrierung und Replikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Projektbeschreibung und Arbeitsprogramm`](skills/dfg-projektbeschreibung-arbeitsprogramm/) | Für Projektbeschreibung und Arbeitsprogramm: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Publikationsstrategie Projekt`](skills/dfg-publikationsstrategie-projekt/) | Für Publikationsstrategie Projekt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs… |
 | [`DFG: Statistik nach Replikationskrise`](skills/dfg-replikationskrise-statistik-spezial/) | Für DFG: Statistik nach Replikationskrise: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Reviewer-Red-Team`](skills/dfg-reviewer-red-team/) | Für Reviewer-Red-Team: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis… |
 | [`Sachbeihilfe und elan-Formalia`](skills/dfg-sachbeihilfe-elan-formalia/) | Für Sachbeihilfe und elan-Formalia: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`DFG: Software-Veroeffentlichung`](skills/dfg-software-veroeffentlichung-spezial/) | Für DFG: Software-Veröffentlichung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wiedereinreichung nach Ablehnung`](skills/dfg-wiedereinreichung-nach-ablehnung/) | Für Wiedereinreichung nach Ablehnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zeitplan und Meilensteine`](skills/dfg-zeitplan-und-meilensteine/) | Für Zeitplan und Meilensteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dienstgericht für Richter`](skills/dienstgericht-richter-dienstliche-beurteilung/) | Für Dienstgericht für Richter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
@@ -255,8 +248,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Eintragungsverfahren allgemein`](skills/eintragungsverfahren-allgemein/) | Für Eintragungsverfahren allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Elan: Formular, Portal und Einreichungslogik`](skills/elan-ethik-finanzplan/) | Für Elan: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Elan: Formular, Portal und Einreichungslogik`](skills/elan-formular-portal-einreichungslogik/) | Für Elan: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Elternabend, Protokoll und Beschluss`](skills/elternabend-protokoll-und-beschluss/) | Für Elternabend, Protokoll und Beschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Elternbeitrag OGS/Ganztag`](skills/elternbeitrag-ogts-ganztag/) | Für Elternbeitrag OGS/Ganztag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Elterngeld`](skills/elterngeld-email-an-energie-sperre-ermessen/) | Für Elterngeld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Elternrechte Und Sorgerecht`](skills/elternrechte-und-sorgerecht/) | Für Elternrechte und Sorgerecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Elternzeit — Auswirkungen auf Versorgungsanwartschaft`](skills/elternzeit-versorgungsanwartschaft-entfernung/) | Für Elternzeit — Auswirkungen auf Versorgungsanwartschaft: ordnet Norm, Beweislast und Gegenargument… |
@@ -282,11 +273,9 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`NKR-Evaluierung, Befristung, Sunset-Klausel`](skills/evaluierung-befristung-verfahrensgang/) | Für NKR-Evaluierung, Befristung, Sunset-Klausel: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Exmatrikulation`](skills/exmatrikulation/) | Für Exmatrikulation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Exmatrikulation wegen Beitragsrückstand`](skills/exmatrikulation-beitragsrueckstand/) | Für Exmatrikulation wegen Beitragsrückstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Exmatrikulation Nach Nichtbestehen`](skills/exmatrikulation-nach-nichtbestehen/) | Für Exmatrikulation nach Nichtbestehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Fahrradverkehr und Abstellnutzung abgrenzen`](skills/fahrradverkehr-und-abstellnutzung-abgrenzen/) | Unterscheidet Radfahren, Schieben und gewöhnliches Abstellen von betrieblichen Einrichtungen und… |
 | [`NKR-Fallzahlen — Schaetzung und Bandbreiten`](skills/fallzahlen-schaetzung-bandbreiten/) | Für NKR-Fallzahlen — Schätzung und Bandbreiten: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Familienzuschlag dritte und weitere Kinder — verfassungsrechtliches Minimum`](skills/familienzuschlag-drittes-kinder/) | Für Familienzuschlag dritte und weitere Kinder — verfassungsrechtliches Minimum: ordnet Norm, Beweislast… |
-| [`Ferienbefreiung und Reise`](skills/ferienbefreiung-reise-foerderausschuss/) | Für Ferienbefreiung und Reise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Finanzplan: Mandantenkommunikation und Entscheidungsvorlage`](skills/finanzplan-mandantenkommunikation/) | Für Finanzplan: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Finanzplan: Mandantenkommunikation und Entscheidungsvorlage`](skills/finanzplan-mandantenkommunikation-entscheidungsvorlage/) | Für Finanzplan: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Föderalismusreform - Kompetenzmatrix Beamtenrecht`](skills/foederalismusreform-kompetenzmatrix-beamtenrecht/) | Für Föderalismusreform - Kompetenzmatrix Beamtenrecht: ordnet Norm, Beweislast und Gegenargument… |
@@ -295,7 +284,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`DFG-Förderstrategie: schnell, schlank oder groß?`](skills/foerderstrategie-schnell-grossgeraete-cluster/) | Für DFG-Förderstrategie: schnell, schlank oder groß?: ordnet Norm, Beweislast und Gegenargument… |
 | [`Förderung und steuerliche Abschreibung`](skills/foerderung-und-steuerliche-abschreibung/) | Für Förderung und steuerliche Abschreibung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Formalia Fehlerkatalog`](skills/formalia-fehlerkatalog/) | Für Formalia Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Formalia: Red-Team und Qualitätskontrolle`](skills/formalia-red-team-und-qualitaetskontrolle/) | Für Formalia: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Forschungsdaten und Datenschutz`](skills/forschungsdaten-datenschutz/) | Für Forschungsdaten und Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Forschungsdaten: Fristennotiz und nächster Schritt`](skills/forschungsdaten-fristennotiz-naechster/) | Für Forschungsdaten: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Forschungsdaten: Fristennotiz und nächster Schritt`](skills/forschungsdaten-fristennotiz-und-naechster-schritt/) | Für Forschungsdaten: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
@@ -309,7 +297,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Gebäude- und Veranstaltungsschäden prüfen`](skills/gebaeude-und-veranstaltungsschaeden-pruefen-klotzkette/) | Prüft Sturz- und Besucherschäden an kommunalen Gebäuden und Veranstaltungen anhand konkreter Gefahr… |
 | [`Gehwegparken und behördliches Einschreiten`](skills/gehwegparken-und-behoerdliches-einschreiten/) | Bereitet ein belegtes Einschreitensbegehren gegen erheblich behinderndes Gehwegparken vor und prüft… |
 | [`Geschäftsverteilung Richter § 21e GVG`](skills/geschaeftsverteilung-richter-21e-gvg/) | Für Geschäftsverteilung Richter Paragraf 21e GVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Gewaltschutz und schulischer Schutzplan`](skills/gewaltschutz-und-schulischer-schutzplan/) | Für Gewaltschutz und schulischer Schutzplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`/gewerberecht:gewerbeanzeige-reisegewerbe`](skills/gewerbeanzeige-reisegewerbe-borghei/) | Gewerbeanzeige und Reisegewerbe – Anzeigepflicht für stehendes Gewerbe § 14 GewO bei Beginn, Verlegung… |
 | [`/gewerberecht:gewerbeerlaubnis-34-gewo`](skills/gewerbeerlaubnis-34-gewo-borghei/) | Erlaubnispflichtige Gewerbe der GewO – Bewachungsgewerbe § 34a mit Sachkundeprüfung vor der IHK… |
 | [`/gewerberecht:gewerbeuntersagung-35-gewo`](skills/gewerbeuntersagung-35-gewo-borghei/) | Gewerbeuntersagung wegen Unzuverlässigkeit nach § 35 GewO – gebundene Entscheidung bei Unzuverlässigkeit… |
@@ -322,7 +309,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Grundsteuerbescheid für Laien`](skills/grundsteuerbescheid-laie-hundesteuer/) | Für Grundsteuerbescheid für Laien: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gruppierungsplan Und Funktionenplan`](skills/gruppierungsplan-funktionenplan/) | Für Gruppierungsplan und Funktionenplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gute Wissenschaftliche Praxis`](skills/gute-wissenschaftliche-praxis/) | Für Gute Wissenschaftliche Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Gute wissenschaftliche Praxis Verfahren`](skills/gute-wissenschaftliche-praxis-verfahren/) | Für Gute wissenschaftliche Praxis Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gymnasialempfehlung Und Uebergang`](skills/gymnasialempfehlung-uebergang-handyverbot/) | Für Gymnasialempfehlung und Übergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Habilitation`](skills/habilitation-hausrecht-campus-hochschularchiv/) | Für Habilitation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Haftungsweg und Verantwortung klären`](skills/haftungsweg-und-verantwortung-klaeren-klotzkette/) | Bestimmt bei kommunalen Schäden Anspruchsgrundlagen, richtige Rechtsträger, hoheitliche oder… |
@@ -332,7 +318,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`NKR-Handelsregister und elektronische Zustellung`](skills/handelsregister-und-elektronische-zustellung/) | Für NKR-Handelsregister und elektronische Zustellung: ordnet Norm, Beweislast und Gegenargument… |
 | [`/gewerberecht:handwerksrolle-hwo`](skills/handwerksrolle-hwo-borghei/) | Handwerksrecht – Eintragungspflicht in die Handwerksrolle für zulassungspflichtige Handwerke § 1 Abs. 1… |
 | [`Handyverbot Und Digitalgeraete`](skills/handyverbot-und-digitalgeraete/) | Für Handyverbot und Digitalgeräte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Hausaufgaben und Betreuungspflichten`](skills/hausaufgaben-und-betreuungspflichten/) | Für Hausaufgaben und Betreuungspflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Juristischer Argumentationskern - Haushaltsrecht Bho Bund Länder`](skills/haushaltsrecht-bho-bund-laender-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Haushaltsrecht Bho Bund Länder ein juristisches Arbeitsprodukt tragfähig… |
 | [`Haushaltsrecht BHO Bund und Länder - Allgemeiner Einstieg`](skills/haushaltsrecht-bho-bund-laender-kaltstart-triage/) | Für Haushaltsrecht BHO Bund und Länder - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
 | [`Hausrecht Campus`](skills/hausrecht-campus/) | Für Hausrecht Campus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -356,12 +341,10 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Juristischer Argumentationskern - Informationsfreiheit Presseauskunft`](skills/informationsfreiheit-presseausku-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Informationsfreiheit Presseauskunft ein juristisches Arbeitsprodukt tragfähig… |
 | [`Informationsfreiheit und Presseauskunft - Allgemeiner Einstieg`](skills/informationsfreiheit-presseauskunft-kaltstart-triage/) | Für Informationsfreiheit und Presseauskunft - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
 | [`Inklusion Sgb Schnittstelle`](skills/inklusion-sgb-schnittstelle/) | Für Inklusion SGB Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Inklusion Sonderpaedagogischer Foerderbedarf`](skills/inklusion-sonderpaedagogischer-transport/) | Für Inklusion Sonderpädagogischer Förderbedarf: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Inklusion, Transport und Assistenz`](skills/inklusion-transport-und-assistenz/) | Für Inklusion, Transport und Assistenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`International Office Und Visa`](skills/international-office-und-visa/) | Für International Office und Visa: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Investitionslinie Sperre Bewerten`](skills/investitionslinie-sperre-bewerten/) | Für Investitionslinie Sperre Bewerten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Jugendamt-Meldung durch Schule`](skills/jugendamt-meldung-schule/) | Für Jugendamt-Meldung durch Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Juniorprofessur Tenure Track`](skills/juniorprofessur-tenure-track/) | Für Juniorprofessur Tenure Track: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kaltstart Bundeshaushalt Verstehen`](skills/kaltstart-bundeshaushalt-verstehen/) | Für Kaltstart Bundeshaushalt Verstehen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Kaltstart Kommunalrechtsfall`](skills/kaltstart-kommunalrechtsfall/) | Für Kaltstart Kommunalrechtsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Kaltstart Strassenrechtsfall`](skills/kaltstart-strassenrechtsfall/) | Für Kaltstart Strassenrechtsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
@@ -384,26 +367,21 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Konkurrentenschutz — Bestenauslese nach Art. 33 Abs. 2 GG`](skills/konkurrentenschutz-bestenauslese-art-richter/) | Prüft beamtenrechtlichen Konkurrentenschutz nach GG Artikel 33 Absatz 2: Anforderungsprofil, dienstliche… |
 | [`Konkurrentenschutz richter professoren fuehrungsaemter`](skills/konkurrentenschutz-richter-professoren-fuehrungsaemter/) | Für konkurrentenschutz-richter-professoren-fuehrungsaemter: ordnet Norm, Beweislast und Gegenargument… |
 | [`/beamten-disziplinarrecht:konkurrentenstreit`](skills/konkurrentenstreit-borghei/) | Beamtenrechtlicher Konkurrentenstreit um ein Beförderungs- oder Einstellungsamt – Bestenauslese Art. 33… |
-| [`Konkurrentenstreit Professur`](skills/konkurrentenstreit-professur-kunst/) | Für Konkurrentenstreit Professur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Koselleck: Mehrparteienkonflikt und Interessenmatrix`](skills/koselleck-interessen/) | Für Koselleck: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Koselleck: Mehrparteienkonflikt und Interessenmatrix`](skills/koselleck-mehrparteien-konflikt-und-interessen/) | Für Koselleck: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
-| [`Krankheit Und Ruecktritt`](skills/krankheit-und-ruecktritt/) | Für Krankheit und Rücktritt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Krankheitsbedingte Urlaubsuebertragung`](skills/krankheitsbedingte-urlaubsuebertragung/) | Für Krankheitsbedingte Urlaubsübertragung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kunst Und Musikhochschulen`](skills/kunst-und-musikhochschulen/) | Für Kunst und Musikhochschulen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Ladeninhaber und fremde Falschparker abgrenzen`](skills/ladeninhaber-und-fremdparker-abgrenzen/) | Prüft behördliche Pflichten eines Ladeninhabers bei fremden Falschparkern und trennt eigene Hindernisse… |
 | [`Landeshochschulgesetz Router`](skills/landeshochschulgesetz-router/) | Für Landeshochschulgesetz Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Landesrecht - 16-Länder-Routenplan`](skills/landesrecht-16-laender-routenplan/) | Für Landesrecht - 16-Länder-Routenplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Landesrecht Router`](skills/landesrecht-lehrmittel-lernmittelfreiheit/) | Für Landesrecht Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Landrat Landesrecht Routen`](skills/landrat-landesrecht-routen/) | Für Landrat Landesrecht Routen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Laufbahnrecht Laender Matrix`](skills/laufbahnrecht-laender-matrix/) | Für Laufbahnrecht Länder Matrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Lehrbeauftragte Und Status`](skills/lehrbeauftragte-status-lehrverpflichtung/) | Für Lehrbeauftragte und Status: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Lehrmittel und Lernmittelfreiheit`](skills/lehrmittel-und-lernmittelfreiheit/) | Für Lehrmittel und Lernmittelfreiheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands`](skills/leitfaden-ermittlung/) | Für NKR-Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands: ordnet Norm, Beweislast und… |
 | [`NKR-Leitfaden zur Ermittlung und Darstellung des Erfuellungsaufwands`](skills/leitfaden-ermittlung-und-darstellung/) | Für NKR-Leitfaden zur Ermittlung und Darstellung des Erfüllungsaufwands: ordnet Norm, Beweislast und… |
 | [`Leitungswasser- und Gewerbeschäden prüfen`](skills/leitungswasser-und-gewerbeschaeden-pruefen-klotzkette/) | Bearbeitet kommunale Rohrbruchfälle mit Anlagenzuordnung, möglicher Haftung nach HaftPflG, vertraglichen… |
 | [`Backsteingotik Stralsund und Wismar als UNESCO-Welterbe`](skills/mecklenburg-vorpommern-spezial-backsteingotik-stralsund/) | Für Backsteingotik Stralsund und Wismar als UNESCO-Welterbe: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mehrarbeitsverguetung nach § 88 BBG`](skills/mehrarbeitsverguetung-88-bbg/) | Für Mehrarbeitsvergütung nach Paragraf 88 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Mehrsprachige Elternkommunikation`](skills/mehrsprachige-elternkommunikation/) | Für Mehrsprachige Elternkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`NKR-Mittelstandsfreundlichkeit / KMU-Test`](skills/mittelstandsfreundlichkeit-kmu-test/) | Für NKR-Mittelstandsfreundlichkeit / KMU-Test: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mobbing und Fürsorgepflicht im öffentlichen Dienst`](skills/mobbing-fuersorgepflicht-78-bbg/) | Für Mobbing und Fürsorgepflicht im öffentlichen Dienst: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mobbing Und Gewalt`](skills/mobbing-und-gewalt/) | Für Mobbing und Gewalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -442,14 +420,12 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Pferdestall Vergleich Suchen`](skills/pferdestall-vergleich-suchen/) | Für Pferdestall Vergleich Suchen: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
 | [`Plausibilisierung gleicher Gesamtnoten`](skills/plausibilisierung-gleicher-gesamtnoten/) | Für Plausibilisierung gleicher Gesamtnoten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Politische Maessigungspflicht § 60 BBG`](skills/politische-maessigung-60-bbg/) | Für Politische Mäßigungspflicht Paragraf 60 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Polizei in der Schule`](skills/polizei-in-der-schule/) | Für Polizei in der Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Poller, Sperren und Schlüsselzugang prüfen`](skills/poller-sperren-und-schluesselzugang-pruefen/) | Ordnet Poller und Zufahrtssperren nach Funktion und Rechtsgrundlage ein, prüft Schlüsselzugang und… |
 | [`Praesidialrat — Mitwirkung bei Richterernennungen`](skills/praesidialrat-mitwirkung-richterernennung/) | Für Präsidialrat — Mitwirkung bei Richterernennungen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Praesidium Rektorat Kanzler`](skills/praesidium-rektorat-kanzler/) | Für Präsidium Rektorat Kanzler: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NKR-Praktikabilitaet im Vollzug`](skills/praktikabilitaet-vollzug-test/) | Für NKR-Praktikabilität im Vollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Praktikum Und Praxissemester`](skills/praktikum-praxissemester-proctoring/) | Für Praktikum und Praxissemester: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Private Hochschule`](skills/private-hochschule/) | Für Private Hochschule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Private Hochschule und Anerkennung`](skills/private-hochschule-anerkennung/) | Für Private Hochschule und Anerkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Privatschule Und Ersatzschule`](skills/privatschule-und-ersatzschule/) | Für Privatschule und Ersatzschule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Proctoring Und Videoaufsicht`](skills/proctoring-und-videoaufsicht/) | Für Proctoring und Videoaufsicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen…`](skills/professur-berufung-und-konkurrenz/) | Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen aus Bewerbersicht… |
@@ -467,7 +443,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Profi: Behörden-, Gerichts- oder Registerweg`](skills/profi-reviewer-beweislast-strategien/) | Für Profi: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Projektfoerderung Deckung Finden`](skills/projektfoerderung-deckung-finden/) | Für Projektförderung Deckung Finden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Promotion und Disputation`](skills/promotion-disputation/) | Für Promotion und Disputation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Promotion Und Promotionsordnung`](skills/promotion-promotionsordnung/) | Für Promotion und Promotionsordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Promotionspruefung Disputation`](skills/promotionspruefung-disputation/) | Für Promotionsprüfung Disputation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`NKR-Prüfumfang — was prüft der NKR nicht`](skills/pruefumfang-was-prueft-der-nicht/) | Für NKR-Prüfumfang — was prüft der NKR nicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NKR-Prüfumfang — was prüft der NKR nicht`](skills/pruefumfang-was-standardkostenmodell-skm/) | Für NKR-Prüfumfang — was prüft der NKR nicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -480,7 +455,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Juristischer Argumentationskern - Prüfungsrecht Hochschule`](skills/pruefungsrecht-hochschule-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Prüfungsrecht Hochschule ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Allgemein`](skills/pruefungsrecht-hochschule-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Prüfungsordnung Router`](skills/pruefungsrecht-pruefungsordnung-baden/) | Für Prüfungsordnung Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
-| [`Pruefungsrecht Saarland`](skills/pruefungsrecht-saarland/) | Für Prüfungsrecht Saarland: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Pruefungsrecht Thueringen`](skills/pruefungsrecht-thueringen/) | Für Prüfungsrecht Thüringen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Vergleich Und Prüfungsrecht`](skills/pruefungsrecht-vorlaeufige-zulassung/) | Für Vergleich und Prüfungsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`PTBS und Dienstunfall im Vollzugsdienst`](skills/ptbs-polizei-reaktivierung-bbg-remonstration/) | Für PTBS und Dienstunfall im Vollzugsdienst: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -490,7 +464,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Quellenhygiene im Beamten- und Richterrecht`](skills/quellenhygiene-beamtenrecht-fundstellen-red-team-korrekt/) | Für Quellenhygiene im Beamten- und Richterrecht: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Reaktivierung nach § 29 BBG — Rueckkehr aus dem Ruhestand`](skills/reaktivierung-29-bbg-rechtsanspruch/) | Für Reaktivierung nach Paragraf 29 BBG — Rückkehr aus dem Ruhestand: ordnet Norm, Beweislast und… |
 | [`Rechtsprechungsanker Denkmalrecht`](skills/rechtsprechungsanker-denkmalrecht/) | Für Rechtsprechungsanker Denkmalrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Rechtsschutz Hochschule`](skills/rechtsschutz-hochschule/) | Für Rechtsschutz Hochschule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Red Team Beamtenrecht`](skills/red-team-beamtenrecht/) | Für Red Team Beamtenrecht: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Redteam Hochschulrecht Qualitygate`](skills/redteam-hochschulrecht-qualitygate/) | Für Redteam Hochschulrecht Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Redteam Prüfungsrecht Qualitygate`](skills/redteam-pruefungsrecht-qualitygate/) | Für Redteam Prüfungsrecht Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
@@ -520,9 +493,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Schadensersatz wegen Nichtbefoerderung`](skills/schadensersatz-nichtbefoerderung/) | Für Schadensersatz wegen Nichtbeförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Luebeck, Haithabu-Danewerk und Wattenmeer als UNESCO-Welterbe in Schleswig-Holstein`](skills/schleswig-holstein-spezial-luebeck-haithabu-wattenmeer/) | Für Lübeck, Haithabu-Danewerk und Wattenmeer als UNESCO-Welterbe in Schleswig-Holstein: ordnet Norm… |
 | [`Schnelle Quellenkarte`](skills/schnelle-quellenkarte/) | Für Schnelle Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Schuelerbefoerderung`](skills/schuelerbefoerderung/) | Für Schülerbeförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Schuelervertretung Und Demonstration`](skills/schuelervertretung-und-demonstration/) | Für Schülervertretung und Demonstration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Schülerzeitung und Pressefreiheit`](skills/schuelerzeitung-pressefreiheit-schulaufnahme/) | Für Schülerzeitung und Pressefreiheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Schulaufnahme Und Schulbezirk`](skills/schulaufnahme-und-schulbezirk/) | Für Schulaufnahme und Schulbezirk: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schulaufsicht und Akteneinsicht der Eltern`](skills/schulaufsicht-akteneinsicht-eltern/) | Für Schulaufsicht und Akteneinsicht der Eltern: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Schulaufsichtsbeschwerde`](skills/schulaufsichtsbeschwerde/) | Für Schulaufsichtsbeschwerde: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -541,11 +512,8 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Schultraeger Gebaeude Und Ausstattung`](skills/schultraeger-gebaeude-und-ausstattung/) | Für Schulträger Gebäude und Ausstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schulverweis Und Umschulung`](skills/schulverweis-und-umschulung/) | Für Schulverweis und Umschulung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schulwechsel`](skills/schulwechsel-schulweg-unfall/) | Für Schulwechsel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Schulweg, Unfall und Versicherung`](skills/schulweg-unfall-versicherung/) | Für Schulweg, Unfall und Versicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Schwerbehinderte Bewerber im oeffentlichen Dienst — § 165 SGB IX`](skills/schwerbehinderte-bewerber-165-sgb-9/) | Für Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX: ordnet Norm, Beweislast und… |
 | [`Schwerbehinderte Bewerber im öffentlichen Dienst — Paragraf 165 SGB IX`](skills/schwerbehinderte-bewerber-schwerbehinderung/) | Prüft die Bewerbung eines schwerbehinderten oder gleichgestellten Menschen beim öffentlichen… |
-| [`Schwimmunterricht und Befreiung`](skills/schwimmunterricht-befreiung/) | Für Schwimmunterricht und Befreiung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Selbstbewirtschaftungsmittel Sperre Be`](skills/selbstbewirtschaftungsmittel-sperre-be/) | Für Selbstbewirtschaftungsmittel Sperre Be: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Semesterticket und Mobilitätsbeitrag`](skills/semesterticket-mobilitaetsbeitrag-senat/) | Für Semesterticket und Mobilitätsbeitrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Senat Fakultaetsrat Gremien`](skills/senat-fakultaetsrat-gremien/) | Für Senat Fakultätsrat Gremien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sexualerziehung Und Elterninformation`](skills/sexualerziehung-und-elterninformation/) | Für Sexualerziehung und Elterninformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -553,9 +521,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Grosse: Compliance-Dokumentation und Aktenvermerk`](skills/spezial-grosse-compliance-dokumentation-und-akte/) | Für Große: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Schnelle: Livequellen- und Rechtsprechungscheck`](skills/spezial-schnelle-livequellen-und-rechtsprechungscheck/) | Für Schnelle: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Sportbefreiung Und Gesundheit`](skills/sportbefreiung-gesundheit-sprachfoerderung/) | Für Sportbefreiung und Gesundheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Sprachförderung und Willkommensklasse`](skills/sprachfoerderung-willkommensklasse/) | Für Sprachförderung und Willkommensklasse: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sprachpruefung Und Eignung`](skills/sprachpruefung-und-eignung/) | Für Sprachprüfung und Eignung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
-| [`Staatsexamen Schnittstelle`](skills/staatsexamen-schnittstelle-taeuschung-plagiat/) | Für Staatsexamen Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`NKR-Standardkostenmodell (SKM)`](skills/standardkostenmodell-skm/) | Für NKR-Standardkostenmodell (SKM): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NKR-Stellungnahme — Aufbau und Format`](skills/stellungnahme-aufbau-ergebnis/) | Für NKR-Stellungnahme — Aufbau und Format: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NKR-Stellungnahme — Aufbau und Format`](skills/stellungnahme-aufbau-und-format/) | Für NKR-Stellungnahme — Aufbau und Format: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -579,7 +545,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Stufenfeststellung Besoldung nach § 27 BBesG`](skills/stufenfeststellung-besoldung-27-bbesg/) | Für Stufenfeststellung Besoldung nach Paragraf 27 BBesG: ordnet Norm, Beweislast und Gegenargument… |
 | [`Suspendierung und Bezügeeinbehalt nach BDG`](skills/suspendierung-38-bdg-63-bdg-eilrechtsschutz/) | Für Suspendierung und Bezügeeinbehalt nach BDG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Taeuschung Schulpruefung`](skills/taeuschung-schulpruefung/) | Für Täuschung Schulprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
-| [`Taeuschung Und Plagiat`](skills/taeuschung-und-plagiat/) | Für Täuschung und Plagiat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Team: Sonderfall und Edge-Case-Prüfung`](skills/team-sonderfall-edge-case/) | Für Team: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Teilzeit Beurlaubung Familienpflege`](skills/teilzeit-beurlaubung-umsetzung-versetzung/) | Für Teilzeit Beurlaubung Familienpflege: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tenure Track Evaluation`](skills/tenure-track-evaluation/) | Für Tenure Track Evaluation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -592,7 +557,6 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`UNESCO-Welterbe und ICOMOS`](skills/unesco-welterbe-und-icomos/) | Für UNESCO-Welterbe und ICOMOS: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Unfallruhegehalt nach § 36 BeamtVG`](skills/unfallruhegehalt-36-beamtvg/) | Für Unfallruhegehalt nach Paragraf 36 BeamtVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Unterlagen sortieren`](skills/unterlagen-sortieren/) | Für Unterlagen sortieren: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit Nachforderungsliste. |
-| [`Unterrichtsausschluss`](skills/unterrichtsausschluss/) | Für Unterrichtsausschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Urlaubssemester Und Teilzeit`](skills/urlaubssemester-und-teilzeit/) | Für Urlaubssemester und Teilzeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Praxisraster Verwaltungsgericht`](skills/v392-praxisraster-richter-verwaltungsgericht/) | Für Praxisraster Verwaltungsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`NKR-Verfahrensgang Referentenentwurf bis Bundestag`](skills/verfahrensgang-referentenentwurf/) | Für NKR-Verfahrensgang Referentenentwurf bis Bundestag: ordnet Norm, Beweislast und Gegenargument… |
@@ -605,13 +569,11 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`NKR-Verhältnismäßigkeit aus NKR-Sicht`](skills/verhaeltnismaessigkeit-sicht-zeitwerttabelle/) | Für NKR-Verhältnismäßigkeit aus NKR-Sicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verpflichtungsermaechtigung Prüfen`](skills/verpflichtungsermaechtigung-pruefen/) | Für Verpflichtungsermächtigung Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`/verwaltungsrecht:verpflichtungsklage`](skills/verpflichtungsklage-borghei/) | Verpflichtungsklage auf Erlass eines abgelehnten oder unterlassenen Verwaltungsakts. Klagebefugnis § 42… |
-| [`Versammlung und Polizei auf dem Campus`](skills/versammlung-polizei-campus/) | Für Versammlung und Polizei auf dem Campus: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versetzung gegen den Willen § 28 BBG`](skills/versetzung-gegen-willen-28-bbg/) | Für Versetzung gegen den Willen Paragraf 28 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versetzung Und Nachpruefung`](skills/versetzung-nachpruefung-verwaltungsakt/) | Für Versetzung und Nachprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Versorgungsabschlag § 14 Abs. 3 BeamtVG`](skills/versorgungsabschlag-14-beamtvg/) | Für Versorgungsabschlag Paragraf 14 Abs. 3 BeamtVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versorgungsakte dokumentenintake und berechnung`](skills/versorgungsakte-dokumentenintake/) | Für versorgungsakte-dokumentenintake-und-berechnung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Versorgungslastenteilung bei Dienstherrenwechsel`](skills/versorgungslastenteilung-107b-beamtvg/) | Für Versorgungslastenteilung bei Dienstherrenwechsel: ordnet Norm, Beweislast und Gegenargument… |
-| [`Verwaltungsakt Oder Realakt Schule`](skills/verwaltungsakt-oder-realakt-schule/) | Für Verwaltungsakt oder Realakt Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`/verwaltungsrecht:verwaltungsvollstreckung`](skills/verwaltungsvollstreckung-borghei/) | Prüfung der Durchsetzung von Verwaltungsakten im gestreckten Vollstreckungsverfahren nach dem VwVG… |
 | [`Vorlaeufige Dienstenthebung § 38 BDG`](skills/vorlaeufige-dienstenthebung/) | Für Vorläufige Dienstenthebung Paragraf 38 BDG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vorlaeufiger rechtsschutz 80`](skills/vorlaeufiger-rechtsschutz-80-borghei/) | Vorläufiger Rechtsschutz gegen Verwaltungsakte nach § 80 VwGO. Aufschiebende Wirkung und ihre Ausnahmen… |
@@ -627,12 +589,9 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Zeitplan und Meilensteine`](skills/zeitplan-meilensteine-zwischen/) | Für Zeitplan und Meilensteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NKR-Zeitwerttabelle und Fallzahlen`](skills/zeitwerttabelle-und-fallzahlen/) | Für NKR-Zeitwerttabelle und Fallzahlen: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Zeugnis Und Notenangriff`](skills/zeugnis-notenangriff-zeugnisbemerkung-arbeits/) | Für Zeugnis und Notenangriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
-| [`Zeugnisbemerkung Arbeits- und Sozialverhalten`](skills/zeugnisbemerkung-arbeits-sozialverhalten/) | Für Zeugnisbemerkung Arbeits- und Sozialverhalten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zinsausgaben Dashboard Bauen`](skills/zinsausgaben-dashboard-bauen/) | Für Zinsausgaben Dashboard Bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zulassung NC Und Kapazitaet`](skills/zulassung-nc-und-kapazitaet/) | Für Zulassung NC und Kapazität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NKR-Zusammenarbeit mit Bundesregierung und Ressorts`](skills/zusammenarbeit-bundesregierung-ressorts/) | Für NKR-Zusammenarbeit mit Bundesregierung und Ressorts: ordnet Norm, Beweislast und Gegenargument… |
-| [`Zuwendung An Verband Brh Frage Formuli`](skills/zuwendung-an-verband-brh-frage-formuli/) | Für Zuwendung an Verband BRH Frage Formuli: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Zweitkorrektur Und Neubewertung`](skills/zweitkorrektur-neubewertung-zweitpruefer/) | Für Zweitkorrektur und Neubewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 
 ## Cold-start context
 

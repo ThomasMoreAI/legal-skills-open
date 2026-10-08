@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `us` · Practice: `contracts` · Skill language: en
 
-## Skills (37)
+## Skills (36)
 
 | Skill | What it does |
 |---|---|
@@ -42,7 +42,6 @@ Jurisdiction: `us` · Practice: `contracts` · Skill language: en
 | [`Revisar un contrato`](skills/revisar-un-contrato-gethouston/) | Leo un contrato que alguien te envió y te digo qué contiene. Elige qué tan a fondo: un veredicto rápido… |
 | [`Technology Services Agreement Skill`](skills/technology-services-agreement-everyone-needs-a-copilot/) | Technology professional services agreement review and negotiation. Use for SOW integration, acceptance… |
 | [`Terms of Service Agreement`](skills/terms-of-service/) | Drafts enforceable U.S. Terms of Service agreements for websites, apps, platforms, and SaaS with… |
-| [`US NDA Delaware New York`](skills/us-nda-delaware-new-york/) | Für US NDA Delaware New York: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`UK vs US Drafting`](skills/us-vs-uk-drafting/) | Für UK vs US Drafting: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Volunteer Waiver and Release of Liability Agreement`](skills/volunteer-waiver-release/) | Drafts a Volunteer Waiver and Release of Liability Agreement covering assumption of risk, liability… |
 

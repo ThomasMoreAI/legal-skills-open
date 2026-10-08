@@ -4,7 +4,7 @@ Intellectual property — patents, trademarks, copyright, designs, and trade sec
 
 Jurisdiction: `de` · Practice: `ip` · Skill language: de
 
-## Skills (684)
+## Skills (673)
 
 | Skill | What it does |
 |---|---|
@@ -94,10 +94,6 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Datenbankrecht: Kaltstart Datenbankrecht Werk oder Herstellerrecht`](skills/db-001-kaltstart-datenbankrecht-werk-oder-herstellerrech/) | Für Datenbankrecht: Kaltstart Datenbankrecht Werk oder Herstellerrecht: routet Rolle, Frist, Unterlagen… |
 | [`Datenbankrecht: Datenbank in Insolvenz Asset Deal und Rechtekette`](skills/db-018-datenbank-in-insolvenz-asset-deal-und-rechtekette/) | Für Datenbankrecht: Datenbank in Insolvenz Asset Deal und Rechtekette: ordnet Norm, Beweislast und… |
 | [`Datenbankrecht: Datenbankrecht im E-Commerce Marktplatz`](skills/db-026-datenbankrecht-im-e-commerce-marktplatz/) | Für Datenbankrecht: Datenbankrecht im E-Commerce Marktplatz: ordnet Norm, Beweislast und Gegenargument… |
-| [`Datenbankrecht: Grenzüberschreitende Datenbank EU UK USA`](skills/db-031-grenzueberschreitende-datenbank-eu-uk-usa/) | Für Datenbankrecht: Grenzüberschreitende Datenbank EU UK USA: ordnet Norm, Beweislast und Gegenargument… |
-| [`Datenbankrecht: Backup Export und Vendor Lock-in`](skills/db-037-backup-export-und-vendor-lock-in/) | Für Datenbankrecht: Backup Export und Vendor Lock-in: ordnet Norm, Beweislast und Gegenargument… |
-| [`Datenbankrecht: Datenbankrecht in AGB-Klauseln`](skills/db-042-datenbankrecht-in-agb-klauseln/) | Für Datenbankrecht: Datenbankrecht in AGB-Klauseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Datenbankrecht: Red-Team keine Sweat-of-the-brow-Verwechslung`](skills/db-050-red-team-keine-sweat-of-the-brow-verwechslung/) | Für Datenbankrecht: Red-Team keine Sweat-of-the-brow-Verwechslung: prüft Ergebnis, Beweislast und… |
 | [`Designneuheit und Offenbarung prüfen`](skills/design-neuheit-offenbarung-pruefen/) | Prüft Neuheit und Eigenart eines deutschen oder unionsweiten Designs anhand Offenbarung… |
 | [`Design Und Patent Gebrauchsmuster Abgrenzung`](skills/design-patent-urheberrecht/) | Für Design und Patent Gebrauchsmuster Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Design Und Urheberrecht Angewandte Kunst`](skills/design-und-urheberrecht-angewandte-kunst/) | Für Design und Urheberrecht Angewandte Kunst: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -167,7 +163,6 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`EV-Vollzug 008: Schutzschrift, Register und Forumstrategie (Antragsgegnerperspektive)`](skills/evvollzug-neu-008-schutzschrift-register-und-forumstrate/) | Für EV-Vollzug 008: Schutzschrift, Register und Forumstrategie (Antragsgegnerperspektive): ordnet Norm… |
 | [`EV-Vollzug 003: Zustellung durch Gerichtsvollzieher im IP-Verfahren`](skills/evvollzug-zustellung-durch-bea-einstweiliger/) | Für EV-Vollzug 003: Zustellung durch Gerichtsvollzieher im IP-Verfahren: ordnet Norm, Beweislast und… |
 | [`Exportkontrolle — Dual-Use und Lizenz`](skills/exportkontrolle-dual-use-eu-2021-821/) | Für Exportkontrolle — Dual-Use und Lizenz: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
-| [`Fachanwalt Gewerblicher Rechtsschutz: EV-Vollziehungscheck Dringlichkeit Titel Zustellung`](skills/fachanwalt-gewerblicher-faevvollzug-neu-001-ev-vollziehungscheck/) | Für Fachanwalt Gewerblicher Rechtsschutz: EV-Vollziehungscheck Dringlichkeit Titel Zustellung: ordnet… |
 | [`FAO-Dokumentenmatrix: Nachweise für Fachanwaltschaft gewerblicher Rechtsschutz § 14k FAO`](skills/fachanwalt-gewerblicher-re-fao-dokumentenmatrix-und-lueckenliste/) | Für FAO-Dokumentenmatrix: Nachweise für Fachanwaltschaft gewerblicher Rechtsschutz Paragraf 14k FAO… |
 | [`Chronologie und Belegmatrix im gewerblichen Rechtsschutz: Zeitachse aufbauen, Dokumente chronologisch sortieren, Lücken `](skills/fachanwalt-gewerblicher-rec-workflow-chronologie-und-belegmatrix/) | Für Workflow Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit… |
 | [`Einstieg, Schnelltriage und Fallrouting im Fachanwalt Gewerblicher Rechtsschutz-Plugin`](skills/fachanwalt-gewerblicher-recht-einstieg-schnelltriage-fallrouting/) | Für Einstieg, Schnelltriage und Fallrouting in Fachanwalt Gewerblicher Rechtsschutz: routet Rolle… |
@@ -300,7 +295,6 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Immobiliendaten, Portale und Lead-Datenbanken — Datenbankrecht`](skills/immobiliendaten-portal-und-lead-datenbank/) | Für Immobiliendaten, Portale und Lead-Datenbanken — Datenbankrecht: ordnet Norm, Beweislast und… |
 | [`Influencer-Marketing und UWG: Kennzeichnungspflicht Werbung § 5a UWG, § 6 TMG, MStV, BGH 'Influencer'-Entscheidungen, or`](skills/influencer-marketing-uwg-spezial/) | Für Influencer Marketing Uwg Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Lizenzvertrag und Insolvenz`](skills/insolvenz-fortbestand-paragraf-103-inso-lizenz/) | Prüft Lizenzverträge bei Insolvenz von Lizenzgeber oder Lizenznehmer; trennt eingeräumtes Nutzungsrecht… |
-| [`International Expansion Us Uk`](skills/international-expansion-us-uk/) | Für International Expansion Us Uk: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Internationaler Patent- und Ländercheck`](skills/internationaler-patentrechts-und-laendercheck/) | Für Internationaler Patent- und Ländercheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Internationales Urheberrecht und Kollisionsrecht`](skills/internationales-urheberrecht-ki-act-ki/) | Für Internationales Urheberrecht und Kollisionsrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`IP-Identifikation und Bestandsaufnahme`](skills/ip-identifikation-und-bestandsaufnahme/) | Für IP-Identifikation und Bestandsaufnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -364,7 +358,6 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Loeschung Erwiderung Inhaber`](skills/loeschung-erwiderung-inhaber/) | Für Löschung Erwiderung Inhaber: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Löschung, Widerruf, Nichtigkeit: globale Route`](skills/loeschung-widerruf-nichtigkeit-global-route/) | Für Löschung, Widerruf, Nichtigkeit: globale Route: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Loeschungsantrag Dpma`](skills/loeschungsantrag-dpma-mandantenmemo/) | Für Löschungsantrag Dpma: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
-| [`Luxus: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/luxus-agb-haendlervertrag-rechtsabteilung/) | Für Luxus: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`M&A-Datenraum und Datenbankrechte — Due Diligence und Transaktion`](skills/m-a-open-source-kollektive-datensammlung/) | Für M&A-Datenraum und Datenbankrechte — Due Diligence und Transaktion: ordnet Norm, Beweislast und… |
 | [`Verl-011 · Mängelexemplare, Remittenden und Preisbindung`](skills/maengelexemplar-remittenden-und-preisbindung/) | Für Verl-011 · Mängelexemplare, Remittenden und Preisbindung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mandantenmemo Urheberrecht`](skills/mandantenmemo-urheberrecht/) | Für Mandantenmemo Urheberrecht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
@@ -587,9 +580,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Freedom: Schriftsatz-, Brief- und Memo-Bausteine`](skills/spezial-freedom-schriftsatz-brief-und-memo-bausteine/) | Für Freedom: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Gegendarstellung: Red-Team und Qualitätskontrolle`](skills/spezial-gegendarstellung-red-team-und-qualitaetskontroll/) | Für Gegendarstellung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Lanham: Livequellen- und Rechtsprechungscheck`](skills/spezial-lanham-livequellen-und-rechtsprechungscheck/) | Für Lanham: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Medienstaatsvertrag: Livequellen- und Rechtsprechungscheck`](skills/spezial-medienstaatsvertrag-livequellen-und-rechtsprechu/) | Für Medienstaatsvertrag: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und… |
 | [`Open: Formular, Portal und Einreichungslogik`](skills/spezial-open-formular-portal-und-einreichung/) | Für Open: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Patentscreening: Livequellen- und Rechtsprechungscheck`](skills/spezial-patentscreening-livequellen-und-rechtsprechungsc/) | Für Patentscreening: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rechtsschutz: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/spezial-rechtsschutz-tatbestand-beweis-und-belege/) | Für Rechtsschutz: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Schutzrechts: Fristennotiz und nächster Schritt`](skills/spezial-schutzrechts-fristennotiz-und-naechster-schritt/) | Für Schutzrechts: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Urheberrechts: Zahlen, Schwellenwerte und Berechnung`](skills/spezial-urheberrechts-zahlen-schwellen-und-berechnung/) | Für Urheberrechts: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
@@ -612,14 +603,12 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Transaktionsstruktur visualisieren — ASCII`](skills/transaktionsstruktur-visualisieren-ascii/) | Für Transaktionsstruktur visualisieren — ASCII: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Türkei: TURKPATENT und IP-Gerichte`](skills/tuerkei-patentrecht-turkpatent-ip-courts/) | Für Türkei: TURKPATENT und IP-Gerichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Übersetzungsrechte, Auslandslizenz und Co-Edition`](skills/uebersetzungsrechte-auslandslizenz-und-co-edition/) | Klärt Rechtekette, Sprachgebiet, Nutzungsarten, Übersetzervergütung und Rückfallmechanik bei… |
-| [`Uebertragung Und Sicherheit`](skills/uebertragung-sicherheit-us-provisional/) | Für Übertragung und Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Umweltwerbung auf Irreführung prüfen`](skills/umweltwerbung-irrefuehrung-pruefen/) | Prüft Umwelt- und Klimawerbung nach Verkehrsverständnis, Tatsachengrundlage, Bilanzgrenze und… |
 | [`Unionsmarken-Anmeldung beim EUIPO`](skills/unionsmarken-anmeldung/) | Für Unionsmarken-Anmeldung beim EUIPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Abmahnung`](skills/unterlassungsverlangen/) | Für Abmahnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Unternehmenskennzeichen, Werktitel und Domains`](skills/unternehmenskennzeichen-werktitel-domain/) | Für Unternehmenskennzeichen, Werktitel und Domains: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Unwesentliche Teile — wiederholte und systematische Entnahme als Verletzung`](skills/unwesentliche-teile-datenabruf-website-ki/) | Für Unwesentliche Teile — wiederholte und systematische Entnahme als Verletzung: ordnet Norm, Beweislast… |
 | [`UPC: Einstweilige Maßnahmen`](skills/upc-einstweilige-massnahmen-verletzung-rechtsbestand/) | Für UPC: Einstweilige Maßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Unified Patent Court UPC seit 2023 Spezial: Zuständigkeit, Opt-out, Klage- und Nichtigkeitsverfahren, Local und Central `](skills/upc-unified-patent-court-spezial/) | Für Upc Unified Patent Court Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`UPC: Verletzung, Rechtsbestand und Zuständigkeit`](skills/upc-verletzung-und-rechtsbestand/) | Für UPC: Verletzung, Rechtsbestand und Zuständigkeit: ordnet Norm, Beweislast und Gegenargument… |
 | [`UPC: Widerruf und Revocation Counterclaim`](skills/upc-widerruf-und-widerklage-revocation/) | Für UPC: Widerruf und Revocation Counterclaim: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen`](skills/urheber-abmahnung-pruefen/) | Für Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen: ordnet Norm… |

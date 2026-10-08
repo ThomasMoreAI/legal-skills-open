@@ -4,7 +4,7 @@ Commercial and trade transactions between businesses — sale of goods, distribu
 
 Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: de
 
-## Skills (171)
+## Skills (159)
 
 | Skill | What it does |
 |---|---|
@@ -25,7 +25,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`CISG Anwendungsbereich (Art. 1-13)`](skills/cisg-anwendungsbereich/) | Für CISG Anwendungsbereich (Art. 1-13): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`CISG-Ausschluss und Rechtswahl`](skills/cisg-ausschluss-und-rechtswahl/) | Für CISG-Ausschluss und Rechtswahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften…`](skills/cisg-deckungskauf-lieferchargen-schaden/) | Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen.… |
-| [`Cisg: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/cisg-dokumentenmatrix-und-lueckenliste/) | Für Cisg: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Rechtsbehelfe des Käufers (CISG Art. 45-52)`](skills/cisg-nacherfuellung-remedies-ware-dokumente-i/) | Für Rechtsbehelfe des Käufers (CISG Art. 45-52): ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Fristen und Notices: Untersuchung und Rüge (CISG Art. 38-44)`](skills/cisg-notices-vertragsschluss-wesentliche/) | Für Fristen und Notices: Untersuchung und Rüge (CISG Art. 38-44): ordnet Norm, Beweislast und… |
 | [`Fachanwalt Internationales Wirtschaftsrecht Cisg Prüfung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte`](skills/cisg-pruefung/) | Für Cisg Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. |
@@ -36,7 +35,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Claim-Letter unter CISG`](skills/claim-letter-under-cisg/) | Für Claim-Letter unter CISG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`EU-Handelsvertreterrecht`](skills/commercial-agent-eu/) | Für EU-Handelsvertreterrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Commodity Trade`](skills/commodity-trade/) | Für Commodity Trade: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Compliance: Sonderfall und Edge-Case-Prüfung`](skills/compliance-sonderfall-edge-case/) | Für Compliance: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vertraulichkeit und Geschäftsgeheimnisse`](skills/confidentiality-and-trade-secrets/) | Für Vertraulichkeit und Geschäftsgeheimnisse: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Contract Playbook für Exporteure`](skills/contract-playbook-exporter/) | Für Contract Playbook für Exporteure: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Contract Playbook für Importeure`](skills/contract-playbook-importer/) | Für Contract Playbook für Importeure: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -85,8 +83,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Icsid Quellenkarte`](skills/icsid-quellenkarte/) | Für Icsid Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Internationalen Handelsauftrag ausarbeiten`](skills/ihl-001-kaltstart-internationaler-handelsfall/) | Für Kaltstart Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`CISG Anwendungsbereich`](skills/ihl-002-cisg-anwendungsbereich/) | Für CISG Anwendungsbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`IP License In Supply Chain`](skills/ihl-069-ip-license-in-supply-chain/) | Für IP License in Supply Chain: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Incoterms 2020 fca Versendungskauf`](skills/incoterms-2020-fca-versendungskauf/) | Für Incoterms 2020 fca Versendungskauf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Incoterms 2020: Klauselauswahl und Systematik`](skills/incoterms-2020-klauselauswahl-und-systematik/) | Für Incoterms 2020: Klauselauswahl und Systematik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Incoterms und Gefahrübergang`](skills/incoterms-und-gefahruebergang/) | Für Incoterms und Gefahrübergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Insolvenz des ausländischen Käufers`](skills/insolvency-of-foreign-retention-and-setoff/) | Für Insolvenz des ausländischen Käufers: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -101,10 +97,8 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Investitionsschiedsverfahren mit Unionsbezug prüfen`](skills/intra-eu-investitionsschiedsverfahren-achmea/) | Prüft Investitionsschiedsverfahren mit Unionsbezug nach Achmea, Komstroy und PL Holdings. |
 | [`Prüfraster CISG / UN-Kaufrecht: sachlicher und persönlicher Anwendungsbereich, Vertragsschluss, Lieferpflichten, Pflicht`](skills/intwr-cisg-pruefraster/) | Für Intwr Cisg Prüfraster: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Spezialfall EU-Sanktionen Russland / Belarus / Iran und Trade Compliance: Embargos Dual-Use-VO, Sektorbezogene Beschraen`](skills/intwr-eu-sanktionen-trade-compliance-spezial/) | Für Intwr EU Sanktionen Trade Compliance Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Intwr: Red-Team und Qualitätskontrolle`](skills/intwr-red-team-und-qualitaetskontrolle/) | Für Intwr: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Leitfaden Rom I und Rom II: Anknuepfungsregeln vertragliche und ausservertragliche Schuldverhaeltnisse, Eingriffsnormen `](skills/intwr-rom-i-ii-leitfaden/) | Für Intwr Rom I Ii Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Schiedsklausel und New Yorker UEbereinkommen: Wirksamkeit Schiedsvereinbarung, Anerkennung und Vollstreckung`](skills/intwr-schiedsklausel-newyork-spezial/) | Für Intwr Schiedsklausel Newyork Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Investitionsschutz: Verhandlung, Vergleich und Eskalation`](skills/investitionsschutz-verhandlung-vergleich-und-eskalation/) | Für Investitionsschutz: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und… |
 | [`IP-Lizenzen in der Lieferkette`](skills/ip-license-supply-confidentiality-and-trade/) | Für IP-Lizenzen in der Lieferkette: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall internationale Schiedsgerichtsbarkeit nach New York Convention 1958: Vollstreckung im Ausland, Prüfung Versa`](skills/iwr-arbitration-ny-convention-spezial/) | Für Iwr Arbitration Ny Convention Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Grenzüberschreitender Rechtsstreit: Gläubigerseite oder Beklagter fragt vor Klageerhebung welches EU-Gericht zuständig i`](skills/iwr-brussels-ia-zustaendigkeit/) | Für Iwr Brussels Ia Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt… |
@@ -117,14 +111,12 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Rechtswahl und Gerichtsstand in der Praxis: Prüfraster Art`](skills/iwr-rechtswahl-gerichtsstand-praxis/) | Für Rechtswahl und Gerichtsstand in der Praxis: Prüfraster Art: ordnet Norm, Beweislast und… |
 | [`Joint Venture im internationalen Handel`](skills/joint-venture-trade-manufacturing-agreement-oem/) | Für Joint Venture im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Internationalen Handelsfall prüfen`](skills/kaltstart-internationaler-handelsfall/) | Für Kaltstart: Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
-| [`Kanzlei: Internationaler Bezug und Schnittstellen`](skills/kanzlei-internationaler-bezug-und-schnittstellen/) | Für Kanzlei: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Konnossement und Seefrachtbrief`](skills/konnossement-und-seefrachtbrief/) | Für Konnossement und Seefrachtbrief: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Lager- und Zolllager`](skills/lager-zolllager-transportversicherung/) | Für Lager- und Zolllager: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Langfristige Lieferverträge (LSA)`](skills/langfristige-liefervertraege-lsa/) | Für Langfristige Lieferverträge (LSA): prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Lieferverzug und Liquidated Damages`](skills/late-delivery-liquidated-damages/) | Für Lieferverzug und Liquidated Damages: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lex Mercatoria: Geltungsbereich und Grenzen`](skills/lex-mercatoria-einsatzgrenzen-unidroit-hardship/) | Für Lex Mercatoria: Geltungsbereich und Grenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lex Mercatoria im Schiedsspruch`](skills/lex-mercatoria-in-award/) | Für Lex Mercatoria im Schiedsspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Lksg: Compliance-Dokumentation und Aktenvermerk`](skills/lksg-compliance-dokumentation-und-akte/) | Für Lksg: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Produktionsvertrag International`](skills/manufacturing-agreement/) | Für Produktionsvertrag International: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Mediation und Singapur-Konvention 2019`](skills/mediation-singapore-convention/) | Für Mediation und Singapur-Konvention 2019: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`OEM, ODM und Private Label`](skills/oem-odm-private-label/) | Für OEM, ODM und Private Label: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -149,7 +141,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Schiedsklausel: Formular, Portal und Einreichungslogik`](skills/schiedsklausel-formular-portal-und-einreichung/) | Für Schiedsklausel: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Schiedsklauseln: ICC und DIS`](skills/schiedsklausel-icc-dis/) | Für Schiedsklauseln: ICC und DIS: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schiedsspruch Aufhebung § 1059 zpo`](skills/schiedsspruch-aufhebung-paragraf-1059-zpo/) | Für Schiedsspruch Aufhebung Paragraf 1059 ZPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Schiedsverfahren: Behörden-, Gerichts- oder Registerweg`](skills/schiedsverfahren-behoerden-gericht-und-registerweg/) | Für Schiedsverfahren: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Grenzüberschreitende Vergleiche`](skills/settlement-crossborder/) | Für Grenzüberschreitende Vergleiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Software- und SaaS-Verträge im grenzüberschreitenden B2B`](skills/software-and-saas-agency-distribution-franchise/) | Für Software- und SaaS-Verträge im grenzüberschreitenden B2B: ordnet Norm, Beweislast und Gegenargument… |
 | [`Spediteur- und Logistikvertrag`](skills/spediteur-logistikvertrag-cisg-schadensersatz/) | Für Spediteur- und Logistikvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -160,13 +151,11 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Steuerrecht im internationalen Handel`](skills/tax-vat-import-settlement-crossborder-cisg/) | Für Steuerrecht im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vertragsbeendigung International`](skills/termination-crossborder/) | Für Vertragsbeendigung International: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Werkzeuge und Formen im internationalen Liefervertrag`](skills/tooling-and-molds/) | Für Werkzeuge und Formen im internationalen Liefervertrag: ordnet Norm, Beweislast und Gegenargument… |
-| [`Trade: Beweislast, Darlegungslast und Substantiierung`](skills/trade-beweislast-und-darlegungslast/) | Für Trade: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Handelsbräuche: Nachweis und Evidenz`](skills/trade-custom-evidence-lex-mercatoria-award/) | Für Handelsbräuche: Nachweis und Evidenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Transportversicherung im internationalen Handel`](skills/transportversicherung/) | Für Transportversicherung im internationalen Handel: ordnet Norm, Beweislast und Gegenargument… |
 | [`Lufttransportrecht: Montrealer Übereinkommen 1999`](skills/transportvertrag-luft/) | Für Lufttransportrecht: Montrealer Übereinkommen 1999: ordnet Norm, Beweislast und Gegenargument… |
 | [`Seetransportrecht: Haag-Visby, Hamburg, Rotterdam`](skills/transportvertrag-see/) | Für Seetransportrecht: Haag-Visby, Hamburg, Rotterdam: ordnet Norm, Beweislast und Gegenargument… |
 | [`CMR: Straßengütertransport international`](skills/transportvertrag-strasse-cmr/) | Für CMR: Straßengütertransport international: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Uncitral: Schriftsatz-, Brief- und Memo-Bausteine`](skills/uncitral-schriftsatz-brief-und-memo-bausteine/) | Für Uncitral: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Force Majeure: PICC Art. 7.1.7 und CISG Art. 79`](skills/unidroit-force-majeure/) | Für Force Majeure: PICC Art. 7.1.7 und CISG Art. 79: ordnet Norm, Beweislast und Gegenargument… |
 | [`Hardship (Leistungserschwernis) nach UNIDROIT Principles Art. 6.2.1-6.2.3`](skills/unidroit-hardship/) | Für Hardship (Leistungserschwernis) nach UNIDROIT Principles Art. 6.2.1-6.2.3: ordnet Norm, Beweislast… |
 | [`UNIDROIT Principles 2016 als Vertragsrecht`](skills/unidroit-principles-als-transportvertrag-see/) | Für UNIDROIT Principles 2016 als Vertragsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -176,6 +165,5 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Quellenmatrix Internationales Handelsrecht`](skills/vertiefung-01-quellenmatrix/) | Für Quellenmatrix Internationales Handelsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Praxisfall-Auswertung Internationales Handelsrecht`](skills/vertiefung-praxisfall-dashboard-naechster/) | Für Praxisfall-Auswertung Internationales Handelsrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Warentransit und Gefahrübergang`](skills/warentransit-und-gefahruebergang/) | Für Warentransit und Gefahrübergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Wirtschaftsrecht: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/wirtschaftsrecht-fristen-form-und-zustaendigkeit/) | Für Wirtschaftsrecht: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Zahlungsbedingungen: Open Account und Trade Finance`](skills/zahlungsbedingungen-open-account-akkreditiv-ucp/) | Für Zahlungsbedingungen: Open Account und Trade Finance: ordnet Norm, Beweislast und Gegenargument… |
 | [`Zolltarif und nicht-präferenzieller Ursprung`](skills/zolltarif-und-ursprung/) | Für Zolltarif und nicht-präferenzieller Ursprung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

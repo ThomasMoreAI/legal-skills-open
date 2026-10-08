@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `general` · Practice: `general` · Skill language: en
 
-## Skills (515)
+## Skills (494)
 
 | Skill | What it does |
 |---|---|
@@ -16,10 +16,8 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Römisches Recht: Römisches Sachenrecht im mittelalterlichen Lehnskontext`](skills/021-roemisches-sachenrecht/) | Für Römisches Recht: Römisches Sachenrecht im mittelalterlichen Lehnskontext: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Römische Obligationenlehre im Handelsrecht des Mittelalters`](skills/022-roemische-obligationenlehre/) | Für Römisches Recht: Römische Obligationenlehre im Handelsrecht des Mittelalters: ordnet Norm… |
 | [`Römisches Recht: Römisches Recht in griechischer Sprache Terminologie`](skills/025-roemisches-griechischer-sprache/) | Für Römisches Recht: Römisches Recht in griechischer Sprache Terminologie: ordnet Norm, Beweislast und… |
-| [`Rom Roemisches Recht In Griechischer Sprache Terminologi`](skills/025-roemisches-recht-in-griechischer-sprache-terminologi/) | Für Rom Römisches Recht in Griechischer Sprache Terminologi: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rom Archaisches Formularrecht Legis Actiones Vertiefen`](skills/027-archaisches-formularrecht-legis-actiones-vertiefen/) | Für Rom Archaisches Formularrecht Legis Actiones Vertiefen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Römisches Recht: Pontifikalrecht Kalender und Rechtszugang`](skills/028-pontifikalrecht-kalender/) | Für Römisches Recht: Pontifikalrecht Kalender und Rechtszugang: ordnet Norm, Beweislast und… |
-| [`Rom Zwoelftafelrecht In Heutiger Didaktik Ohne Scheinsic`](skills/029-zwoelftafelrecht-in-heutiger-didaktik-ohne-scheinsic/) | Für Rom Zwölftafelrecht in Heutiger Didaktik ohne Scheinsic: ordnet Norm, Beweislast und Gegenargument… |
 | [`Abwägung und Rationalität`](skills/abwaegung-transparenz-rationalitaet/) | Für Abwägung und Rationalität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Academic Bluebook Citation Skill`](skills/academic-bluebook/) | Citation formatting rules for law review articles using The Bluebook (21st ed.) academic style |
 | [`Justinian Tutor — Legal Education through Socratic AI Coaching`](skills/academy-justinian-tutor-sboghossian/) | Use when a law student, bar candidate, or junior lawyer needs legal education support through the… |
@@ -162,9 +160,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Legal Document Translation Skill`](skills/en-us-legal-translation-wouter-van-den-berg/) | Translate legal documents from any language into English while preserving .docx formatting and… |
 | [`Engagement Letter Review`](skills/engagement-letter-review/) | Reviews attorney engagement letters for completeness, fee clarity, scope definition, and potential… |
 | [`Entrevista inicial`](skills/entrevista-inicial/) | Ejecuta la entrevista inicial del módulo de clínica jurídica — aprende la estructura de la clínica, el… |
-| [`Entwurf eines hierarchischen Rekurses`](skills/entwurf-eines-hierarchischen-rekurses/) | Für Entwurf eines hierarchischen Rekurses: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eucharistie und Kommunionzulassung`](skills/eucharistie-und-kommunionzulassung/) | Für Eucharistie und Kommunionzulassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Exceptiones Und Repliken`](skills/exceptiones-und-repliken/) | Für Exceptiones und Repliken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Executive Summaries`](skills/executive-summaries/) | Generates decision-ready executive summaries from complex legal documents for senior lawyers… |
 | [`Exkommunikation, Apostasie, Häresie, Schisma`](skills/exkommunikation-apostasie-haresie-schisma/) | Für Exkommunikation, Apostasie, Häresie, Schisma: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fallnarrativ, Tatsachen, Beweis`](skills/fallnarrativ-tatsachen-beweis/) | Für Fallnarrativ, Tatsachen, Beweis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast… |
@@ -284,7 +280,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`法律文本格式化工具`](skills/legal-text-format/) | 将法律文本（法律条文或法律案例）转换为规范的 Markdown 格式，删除推广冗余信息。本技能应在用户需要处理法律条文（如民法典、刑法等）、整理法律案例（如最高法典型案例、裁判文书等）、或从粘贴文本中格式化法律… |
 | [`Legal Translation Skill  'v0.2.0'`](skills/legal-translation/) | Expert-level legal document translation — understands law, not just language. Use whenever a user wants… |
 | [`Legal Translation`](skills/legal-translation-mikailustuner/) | Hukuki çeviri, terminoloji doğruluğu, yeminli tercüme standartları ve Apostil işlemleri. |
-| [`Legal Document Translation Skill`](skills/legal-translation-uk-english-wouter-van-den-berg/) | Translate legal documents from any language into English while preserving .docx formatting and… |
 | [`Legal Verified Research Memo`](skills/legal-verified-research-memo/) | Generate a legal research memo with claim-level source verification, confidence flags, and… |
 | [`Legal writing`](skills/legal-writing-anthropics/) | Structural feedback on a legal writing draft (memo, brief, paper, exam essay) — organization, analysis… |
 | [`Legal writing`](skills/legal-writing-zhou210712/) | 对法律写作草稿（备忘录、代理词、论文、法考主观题答案）的结构性反馈—— 组织结构、分析深度、清晰度、引注格式。绝不代写重写。当用户说"给我的备忘录 提反馈""读一下我的草稿""批评我的代理词"时使用。 |
@@ -330,7 +325,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`NIST AI Risk Management Framework`](skills/nist-ai-rmf-legalquants/) | Apply the NIST AI Risk Management Framework (NIST AI 100-1 + the NIST AI 600-1 Generative AI Profile) to… |
 | [`Objektivität und Methodenpluralismus`](skills/objektivitaet-methodenpluralismus/) | Für Objektivität und Methodenpluralismus: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Office word diff`](skills/office-word-diff/) | Use when you need to apply word-level tracked changes to Microsoft Word documents programmatically… |
-| [`Offizialat, Richter und Tribunal`](skills/offizialat-richter-und-tribunal/) | Für Offizialat, Richter und Tribunal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`OSINT Collector`](skills/osint-collector-rohasnagpal/) | Plan and document lawful, ethical, reproducible open-source intelligence collection. Use for public web… |
 | [`Output: Alltagssprache (Deutsch)`](skills/output-alltagssprache-de/) | Für Output: Alltagssprache (Deutsch): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Bilingual Formatting (Arabic–English)`](skills/output-bilingual-formatting-sboghossian/) | Use when formatting a legal document, contract, or analysis that must appear in both Arabic and English… |
@@ -341,7 +335,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Output scoring - a scorecard before you send`](skills/output-scoring-en-matematicsolutions/) | Scores the quality of an AI legal output before it goes out, in two layers: objective (mechanically… |
 | [`Outside Counsel Billing & Performance Reviewer`](skills/outside-counsel-billing-and-performance-reviewer-carl-ditzler/) | Reviews outside counsel invoices and related billing data for an in-house legal department, including… |
 | [`Ouvrir un dossier`](skills/ouvrir-dossier-gauthier-huguenin/) | Cadrer l'ouverture ou la reprise d'un dossier juridique, vérifier les risques liés aux données… |
-| [`Papst, Primat und Communio`](skills/papst-primat-und-communio/) | Für Papst, Primat und Communio: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Pastorale Triage: Sakrament, Status, Lehre oder Recht`](skills/pastorale-triage-sakrament-status-lehre-oder-recht/) | Für Pastorale Triage: Sakrament, Status, Lehre oder Recht: routet Rolle, Frist, Unterlagen und… |
 | [`Patria Potestas Und Hausgewalt`](skills/patria-potestas-und-hausgewalt/) | Für Patria Potestas und Hausgewalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Rom 118 Paulianische Anfechtung Fortwirkung Anfg Inso`](skills/paulianische-anfechtung-fortwirkung/) | Für Rom 118 Paulianische Anfechtung Fortwirkung Anfg InsO: ordnet Norm, Beweislast und Gegenargument… |
@@ -355,7 +348,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Policy monitor`](skills/policy-monitor/) | Keep the AI policy current with practice — weekly sweep of saved AIAs, triage results, and vendor… |
 | [`Policy starter`](skills/policy-starter/) | Draft a firm AI usage policy from published model policies, adapted to your practice profile — a… |
 | [`Policy Summary`](skills/policy-summary/) | Summarizes policy documents, regulations, and legislative materials into structured briefings with… |
-| [`Portugiesische Pastoralantworten`](skills/portugiesische-pastoralantworten/) | Für Portugiesische Pastoralantworten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Positivismus ohne Moralautomat`](skills/positivismus-normgeltung-ohne-moralautomat/) | Für Positivismus ohne Moralautomat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Pan-EU GDPR Privacy Notice Generator`](skills/privacy-notice-eu/) | Draft GDPR/DSGVO-compliant privacy notices as .docx for any EU/EEA jurisdiction and audience. Use when… |
 | [`Skill：隐私与范围守门`](skills/privacy-scope-guard/) | 隐私与范围守门技能，用于在用户描述纠纷或上传材料前，对敏感信息进行脱敏处理、确认法域和程序阶段、识别时效与高风险点，并过滤违法请求，为后续分析提供安全清晰的输入边界。 |
@@ -368,7 +360,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Draft Reply to Department Notice`](skills/prompt-pack-draft-reply-to-department-notice-sboghossian/) | Use when drafting a formal professional reply to a notice, inquiry, or assessment issued by a government… |
 | [`Engagement Letter`](skills/prompt-pack-engagement-letter-sboghossian/) | Use when drafting an engagement letter from a law firm to a client confirming the scope of… |
 | [`Outside Counsel Guidelines`](skills/prompt-pack-outside-counsel-guidelines-sboghossian/) | Use when drafting outside counsel guidelines (OCGs) for a company's legal department governing how… |
-| [`Quellenkritik: Digesten und Institutionen`](skills/quellenkritik-digesten-und-institutionen/) | Für Quellenkritik: Digesten und Institutionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`/ramp`](skills/ramp/) | 学生学期导入——诊所程序、工具导览、真实案件之前的实践练习。 读取指导老师在设置时上传的手册并以互动方式教学。 当新诊所学生说"帮我导入""我是诊所新人""开始"，或每学期开始时使用； 传入 --card… |
 | [`$legal-clinic:ramp`](skills/ramp-alexchlou/) | Student semester onboarding — clinic procedures, tool walkthrough, practice exercises before real cases.… |
 | [`/ramp`](skills/ramp-anthropics/) | Student semester onboarding — clinic procedures, tool walkthrough, practice exercises before real cases.… |
@@ -381,8 +372,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Rechtssicherheit und Rückwirkung`](skills/rechtssicherheit-vertrauen-rueckwirkung/) | Für Rechtssicherheit und Rückwirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Rechtstheorie Rechtsphilosophie`](skills/rechtstheorie-rechtsphilosophie-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Rechtstheorie Rechtsphilosophie ein juristisches Arbeitsprodukt tragfähig… |
 | [`Rechtstheoretische Argumentation ausarbeiten`](skills/rechtstheorie-rechtsphilosophie-kaltstart-triage/) | Für Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`Red-Team einer Ehenichtigkeitsakte`](skills/red-team-einer-ehenichtigkeitsakte/) | Für Red-Team einer Ehenichtigkeitsakte: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
-| [`Red-Team einer kirchlichen Antwort`](skills/red-team-einer-kirchlichen-antwort/) | Für Red-Team einer kirchlichen Antwort: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Red Team: Grenzen der Modernisierung des römischen Rechts`](skills/red-team-modernisierung/) | Für Red Team: Grenzen der Modernisierung des römischen Rechts: prüft Ergebnis, Beweislast und… |
 | [`Redfern Schedule`](skills/redfern-schedule/) | Use whenever the user is working on document production in international arbitration: drafting requests… |
 | [`redlines — Word Document Redlining Library`](skills/redlines/) | Use when you need to generate tracked changes in Word documents from diff output, apply redlines from AI… |
@@ -403,13 +392,11 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Rom 121 Restitutio In Integrum Ob Aetatem Vermögensschutz`](skills/restitutio-integrum-seehandel-lex-fenus/) | Für Rom 121 Restitutio in Integrum Ob Aetatem Vermögensschutz: ordnet Norm, Beweislast und… |
 | [`Skill：复盘、事项记忆与迭代学习`](skills/review-learning-loop/) | 在新证据、新陈述、新合同版本、新程序节点、新报价或用户目标变化出现后，需要延续同一事项记忆并更新报告时使用。 |
 | [`审查意见生成助手（T824）`](skills/review-opinion-generator/) | 用于信托领域合同与法务中的审查意见生成助手场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
-| [`Rezeption In Deutschland`](skills/rezeption-in-deutschland/) | Für Rezeption in Deutschland: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Risk Analysis Summary`](skills/risk-analysis/) | Generates structured risk analysis summaries for legal matters, identifying and evaluating risks by… |
 | [`Risk and Issues Manager`](skills/risk-and-issues-manager-scott-margetts/) | RAID log methodology with decision extraction from emails and meeting notes. Use when asked to identify… |
 | [`Legal Risk Assessment`](skills/risk-assessment/) | Generates structured legal risk assessment reports with categorized risks, 5x5 scoring matrices, and… |
 | [`Juristischer Argumentationskern - Römisch Katholisches Kirchenrecht`](skills/roemisch-katholisches-kirchenrec-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Römisch Katholisches Kirchenrecht ein juristisches Arbeitsprodukt tragfähig… |
 | [`Kaltstart Institutionensystem`](skills/rom-001-kaltstart-institutionensystem/) | Für Kaltstart Institutionensystem: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
-| [`Roemisches Recht In Hausarbeit`](skills/rom-086-roemisches-recht-in-hausarbeit/) | Für Römisches Recht in Hausarbeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zwölftafelgesetz - Quellenkritik und Einordnung`](skills/rom-100-zwoelftafelgesetz-quellenkritik/) | Für Zwölftafelgesetz - Quellenkritik und Einordnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Zwölftafelgesetz - Prozess und Vollstreckung`](skills/rom-101-zwoelftafelgesetz-prozess-und-vollstreckung/) | Für Zwölftafelgesetz - Prozess und Vollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zwölftafelgesetz - Familie, Erbe und Nachbarschaft`](skills/rom-102-zwoelftafelgesetz-familie-erbe-nachbarschaft/) | Für Zwölftafelgesetz - Familie, Erbe und Nachbarschaft: ordnet Norm, Beweislast und Gegenargument… |
@@ -421,15 +408,12 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Byzantinische Rezeption und Osteuropa`](skills/rom-108-byzantinische-rezeption-und-osteuropa/) | Für Byzantinische Rezeption und Osteuropa: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Romanisch-byzantinische Synopse`](skills/rom-109-romanisch-byzantinische-synopse/) | Für Romanisch-byzantinische Synopse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Römisches Recht: Frühformen Zwölftafelrecht sakrale Spruchform und Prozessformel`](skills/rom-neu-001-fruehformen-zwoelftafeln-sakrale-spruchform/) | Für Römisches Recht: Frühformen Zwölftafelrecht sakrale Spruchform und Prozessformel: ordnet Norm… |
-| [`Römisches Recht: Zwölftafelgesetz Textzeugen Rekonstruktion und Vorsicht`](skills/rom-neu-002-zwoelftafelgesetz-textzeugen-rekonstruktion/) | Für Römisches Recht: Zwölftafelgesetz Textzeugen Rekonstruktion und Vorsicht: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Zwölftafelrecht Schuldhaft nexum und soziale Ordnung`](skills/rom-neu-005-zwoelftafeln-schuldhaft-nexum-soziale-ordnun/) | Für Römisches Recht: Zwölftafelrecht Schuldhaft nexum und soziale Ordnung: ordnet Norm, Beweislast und… |
-| [`Römisches Recht: Etruskische Rechtsvorformen Quellenarmut und Ritualrecht`](skills/rom-neu-006-etruskisch-vorformen-quellenarmut-ritualrech/) | Für Römisches Recht: Etruskische Rechtsvorformen Quellenarmut und Ritualrecht: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Faliskische Spuren Sprache Siedlung und Rechtskontakt`](skills/rom-neu-007-faliskisch-spuren-sprache-siedlung-rechtskon/) | Für Römisches Recht: Faliskische Spuren Sprache Siedlung und Rechtskontakt: ordnet Norm, Beweislast und… |
 | [`Römisches Recht: Samnitische Rechtskultur Bundesgenossen und Militärordnung`](skills/rom-neu-009-samnitisch-rechtskultur-bundesgenossen-milit/) | Für Römisches Recht: Samnitische Rechtskultur Bundesgenossen und Militärordnung: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Byzantinisches Recht Theodosianus Justinian und Basiliken`](skills/rom-neu-012-byzanz-recht-theodosianus-justinian-basilike/) | Für Römisches Recht: Byzantinisches Recht Theodosianus Justinian und Basiliken: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Basiliken Prochiron Epanagoge und spätere Rezeption`](skills/rom-neu-013-basiliken-prochiron-epanagoge-und-spaetere-r/) | Für Römisches Recht: Basiliken Prochiron Epanagoge und spätere Rezeption: ordnet Norm, Beweislast und… |
 | [`Römisches Recht: Novellen Justinians Verwaltungsrecht Ehe Erbrecht Kirche`](skills/rom-neu-014-novellen-justinians-verwaltung-ehe-erbrecht/) | Für Römisches Recht: Novellen Justinians Verwaltungsrecht Ehe Erbrecht Kirche: ordnet Norm, Beweislast… |
-| [`Römisches Recht: Byzantinisches Prozessrecht Richter Kanzlei und Petition`](skills/rom-neu-015-byzanz-prozess-richter-kanzlei-petition/) | Für Römisches Recht: Byzantinisches Prozessrecht Richter Kanzlei und Petition: ordnet Norm, Beweislast… |
 | [`Römisches Recht: Mittelalterliches römisches Recht Glossatoren Bologna`](skills/rom-neu-016-mittelalter-roemisches-recht-glossatoren-bol/) | Für Römisches Recht: Mittelalterliches römisches Recht Glossatoren Bologna: ordnet Norm, Beweislast und… |
 | [`Römisches Recht: Kanonisches Recht und römisches Recht Wechselwirkung`](skills/rom-neu-018-kanonisch-recht-roemisches-recht-wechselwirk/) | Für Römisches Recht: Kanonisches Recht und römisches Recht Wechselwirkung: ordnet Norm, Beweislast und… |
 | [`Römisches Recht: Ius commune lokale Statuten und gelehrtes Recht`](skills/rom-neu-019-ius-commune-lokale-statuten-und-gelehrtes-re/) | Für Römisches Recht: Ius commune lokale Statuten und gelehrtes Recht: ordnet Norm, Beweislast und… |
@@ -437,12 +421,10 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Römisches Recht: Römische Obligationenlehre im Handelsrecht des Mittelalters`](skills/rom-neu-022-roemische-obligationen-handelsrecht-mittelal/) | Für Römisches Recht: Römische Obligationenlehre im Handelsrecht des Mittelalters: ordnet Norm… |
 | [`Römisches Recht: Römisches Recht in griechischer Sprache Terminologie`](skills/rom-neu-025-roemisches-recht-griechischer-sprache-termin/) | Für Römisches Recht: Römisches Recht in griechischer Sprache Terminologie: ordnet Norm, Beweislast und… |
 | [`Römisches Recht: Zwölftafelrecht in heutiger Didaktik ohne Scheinsicherheit`](skills/rom-neu-029-zwoelftafeln-heutiger-didaktik-ohne-scheinsi/) | Für Römisches Recht: Zwölftafelrecht in heutiger Didaktik ohne Scheinsicherheit: ordnet Norm, Beweislast… |
-| [`Römisches Recht: Red-Team antike Quelle modern überdehnt`](skills/rom-neu-030-red-team-antike-quelle-modern-ueberdehnt/) | Für Römisches Recht: Red-Team antike Quelle modern überdehnt: prüft Ergebnis, Beweislast und… |
 | [`Falsche Freunde zwischen römischem und modernem Recht`](skills/roman-law-fallloesung-institutionensystem/) | Für Falsche Freunde zwischen römischem und modernem Recht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rule by Law vs. Rechtsstaat`](skills/rule-by-law-vs-rechtsstaat/) | Für Rule by Law vs. Rechtsstaat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schutz, Missbrauch und Meldepflichten`](skills/schutz-missbrauch-und-meldepflichten/) | Für Schutz, Missbrauch und Meldepflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Scope Change Controller`](skills/scope-change-controller-scott-margetts/) | Scope management for legal matters — baseline capture, in-flight change control, OOS documentation, and… |
-| [`Rom 122 Seehandel Lex Rhodia De Iactu`](skills/seehandel-lex-rhodia-de-iactu/) | Für Rom 122 Seehandel Lex Rhodia De Iactu: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Self-Improving Legal Skill`](skills/self-improving-legal/) | Captures clause risks, compliance gaps, precedent shifts, contract deviations, regulatory changes, and… |
 | [`Semester handoff`](skills/semester-handoff/) | End-of-semester case handoff memos — the mirror of /ramp. Produces per-case transition memos and a… |
 | [`$legal-clinic:semester-handoff`](skills/semester-handoff-alexchlou/) | End-of-semester case handoff memos — the mirror of /ramp. Produces per-case transition memos and a… |
@@ -457,7 +439,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`spec-contract — what must be in a design doc`](skills/spec-contract-broomva/) | The content contract for a design doc — what must be IN it, as against make-spec which owns how it… |
 | [`⏱️ Legal Billing & Time Tracking Agent`](skills/specialized-legal-billing-time-tracking/) | Comprehensive legal billing and time tracking specialist for accurate time capture, invoice generation… |
 | [`📋 Legal Client Intake Agent`](skills/specialized-legal-client-intake/) | Comprehensive legal client intake specialist for qualifying prospects, collecting case information… |
-| [`Spenden, Stiftungen und Zweckbindung`](skills/spenden-stiftungen-und-zweckbindung/) | Für Spenden, Stiftungen und Zweckbindung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spontane Ordnung, Gewohnheit und Custom: Red-Team`](skills/spontane-ordnung-gewohnheit-custom-red-team/) | Für Spontane Ordnung, Gewohnheit und Custom: Red-Team: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Sprache, Begriffe und Fiktionen`](skills/sprache-begriffe-fiktionen/) | Für Sprache, Begriffe und Fiktionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Prüft starke-Staat- und Ordnungsmacht-Argumente anti-autoritaer: Handlungsfaehigkeit ja, Selbstermächtigung nein`](skills/staat-als-ordnungsmacht-anti-autoritaerer-check/) | Für Staat als Ordnungsmacht Anti Autoritärer Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -502,13 +483,11 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Unrecht und Gehorsamsgrenzen`](skills/unrecht-und-grenzen-des-gehorsams/) | Für Unrecht und Gehorsamsgrenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`US State Privacy Navigator`](skills/us-state-privacy-navigator/) | Cross-jurisdictional analysis engine for the US state consumer privacy law patchwork (CCPA/CPRA, VCDPA… |
 | [`Using legal toolkit`](skills/using-legal-toolkit/) | Router for legal-toolkit (Taiwan in-house 法務) — recognises intent across Playbook / Template / Runbook /… |
-| [`Usucapio Ersitzung`](skills/usucapio-ersitzung/) | Für Usucapio Ersitzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Lesefreude Rechtstheorie und Rechtsphilosophie`](skills/v392-lesefreude-rechtstheorie-rechtsphilosophie/) | Erschließt eine rechtstheoretische Streitfrage über präzise These, stärkste Gegenposition, Methodenwahl… |
 | [`Lesefreude Kanonisches Recht`](skills/v392-lesefreude-roemisch-katholisches-kirchenrecht/) | Erschließt einen kirchenrechtlichen Fall über Zuständigkeit, Rechtsstellung, Verfahrensweg und… |
 | [`Lesefreude Römisches Recht`](skills/v392-lesefreude-roemisches-recht/) | Erschließt einen römisch-rechtlichen Begriff oder Fall über Klageformel, Rechtsstellung, Tatbestand… |
 | [`Vergebung, Vererbung oder Vergabe`](skills/vergebung-vererbung-vergabe-begriffsklaerung/) | Für Vergebung, Vererbung oder Vergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verwaltungsaufgabe versus Rechtsform`](skills/verwaltungsaufgaben-versus-rechtsformen/) | Für Verwaltungsaufgabe versus Rechtsform: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Rom 110 Vollstreckungsrecht Personal Und Vermögen`](skills/vollstreckungsrecht-personal/) | Für Rom 110 Vollstreckungsrecht Personal und Vermögen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rom 110 Vollstreckungsrecht Personal Und Vermögen`](skills/vollstreckungsrecht-personal-und-vermoegen/) | Für Rom 110 Vollstreckungsrecht Personal und Vermögen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Voruntersuchung nach can. 1717`](skills/voruntersuchung-nach-can-1717/) | Für Voruntersuchung nach can. 1717: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`White Swan`](skills/white-swan/) | White Swan integration. Manage data, records, and automate workflows. Use when the user wants to… |

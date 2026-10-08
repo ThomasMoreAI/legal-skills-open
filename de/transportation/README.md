@@ -4,7 +4,7 @@ German transport, freight-forwarding and transport-infrastructure law — carrie
 
 Jurisdiction: `de` · Practice: `transportation` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (127)
+## Skills (123)
 
 | Skill | What it does |
 |---|---|
@@ -72,7 +72,6 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Multimodaler Transport § 452 HGB`](skills/multimodaler-transport-paragraf-452-hgb/) | Für Multimodaler Transport Paragraf 452 HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`/verkehrsrecht:ordnungswidrigkeit-stvo`](skills/ordnungswidrigkeit-stvo-borghei/) | Prüfung eines Bußgeldbescheids wegen Verstoßes gegen die StVO – formelle Anforderungen § 66 OWiG… |
 | [`Paketdienst Haftung § 449 HGB`](skills/paketdienst-haftung-paragraf-449-hgb/) | Für Paketdienst Haftung Paragraf 449 HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Parkraum: Schriftsatz-, Brief- und Memo-Bausteine`](skills/parkraum-planfeststellung-strassenbahn/) | Für Parkraum: Schriftsatz-, Brief- und Memo-Bausteine: ordnet Norm, Beweislast und Gegenargument… |
 | [`Parkraumbewirtschaftung`](skills/parkraumbewirtschaftung/) | Für Parkraumbewirtschaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Parkraumbewirtschaftung: Formular, Portal und Einreichungslogik`](skills/parkraumbewirtschaftung-verkehr/) | Für Parkraumbewirtschaftung: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
 | [`Planfeststellung und Plangenehmigung — Verkehrsinfrastruktur`](skills/planfeststellung/) | Für Planfeststellung und Plangenehmigung — Verkehrsinfrastruktur: ordnet Norm, Beweislast und… |
@@ -91,7 +90,6 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Uebereinkommen: Livequellen- und Rechtsprechungscheck`](skills/spezial-uebereinkommen-livequellen-und-rechtsprechungsch/) | Für Übereinkommen: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verkehr: Livequellen- und Rechtsprechungscheck`](skills/spezial-verkehr-livequellen-und-rechtsprechungscheck/) | Für Verkehr: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Strassenbahn und OEPNV — Infrastrukturrecht`](skills/strassenbahn/) | Für Strassenbahn und ÖPNV — Infrastrukturrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Strassenbahn: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/strassenbahn-risikoampel-und-gegenargumente/) | Für Strassenbahn: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Strassenrecht: Internationaler Bezug und Schnittstellen`](skills/strassenrecht-verkehrs-verkehrswende/) | Für Strassenrecht: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Strassenverkehrsrecht Stvo`](skills/strassenverkehrsrecht-stvo-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Strassenverkehrsrecht Stvo ein juristisches Arbeitsprodukt tragfähig… |
 | [`Straßenverkehrsrecht StVO - Allgemeiner Einstieg`](skills/strassenverkehrsrecht-stvo-kaltstart-triage/) | Für Straßenverkehrsrecht StVO - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
@@ -126,10 +124,8 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Sondernutzung oeffentlicher Strassenflaechen`](skills/verkehr-infrastrukturrecht-sondernutzung/) | Für Sondernutzung öffentlicher Strassenflächen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Unterlagen und Lücken`](skills/verkehr-infrastrukturrecht-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Verkehr Quellenkarte`](skills/verkehr-quellenkarte/) | Für Verkehr Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Verkehrsplanung: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/verkehrsplanung-verfahren-vertragsmodell/) | Für Verkehrsplanung: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und… |
 | [`Verkehrsplanung und Projektstrategie`](skills/verkehrsplanung-verkehrswende/) | Für Verkehrsplanung und Projektstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verkehrswende und Verkehrsberuhigung — Rechtliche Umsetzung`](skills/verkehrswende/) | Für Verkehrswende und Verkehrsberuhigung — Rechtliche Umsetzung: ordnet Norm, Beweislast und… |
-| [`Verkehrswende: Verhandlung, Vergleich und Eskalation`](skills/verkehrswende-verhandlung-vergleich-und-eskalation/) | Für Verkehrswende: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`VI: Rechtsquellen-Übersicht`](skills/vi-rechtsquellen-uebersicht/) | Für VI: Rechtsquellen-Übersicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`ViFR: AEG-Bahnrecht`](skills/vifr-aeg-bahnrecht-deutschlandticket/) | Für ViFR: AEG-Bahnrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Bauleiter Planfeststellung Strasse FStrG: Antragsunterlagen, UVP, Anhörungsverfahren, Beschluss`](skills/vifr-planfeststellung-strasse-bauleiter/) | Für Vifr Planfeststellung Strasse Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

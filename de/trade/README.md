@@ -4,7 +4,7 @@ German/EU foreign-trade law (Außenwirtschaftsrecht) — export control and dual
 
 Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (102)
+## Skills (100)
 
 | Skill | What it does |
 |---|---|
@@ -65,7 +65,6 @@ Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see 
 | [`Lieferanten-Onboarding: Aussenwirtschaftliche Compliance und Sanktionspruefung`](skills/aussenwirtschaft-lieferanten-onboarding-aussenhandel/) | Für Lieferanten-Onboarding: Außenwirtschaftliche Compliance und Sanktionsprüfung: ordnet Norm… |
 | [`Lieferkettensorgfaltspflichten im Aussenhandel: LkSG und CSDDD`](skills/aussenwirtschaft-lieferkettensorgfalt-aussenhandel/) | Für Lieferkettensorgfaltspflichten im Außenhandel: LkSG und CSDDD: ordnet Norm, Beweislast und… |
 | [`M und A Exportkontroll- und Sanktions-Due-Diligence`](skills/aussenwirtschaft-ma-sanctions-export-dd/) | Für M und A Exportkontroll- und Sanktions-Due-Diligence: ordnet Norm, Beweislast und Gegenargument… |
-| [`Nichtpraeferenzieller Ursprung Made In`](skills/aussenwirtschaft-nichtpraeferenzieller-ursprung-made-in/) | Für Nichtpräferenzieller Ursprung Made in: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`US-OFAC-Sanktionen für EU-Unternehmen: SDN, Sektoral und Secondary Sanctions`](skills/aussenwirtschaft-ofac-sdn-non-sdn/) | Für US-OFAC-Sanktionen für EU-Unternehmen: SDN, Sektoral und Secondary Sanctions: ordnet Norm… |
 | [`Post-Merger ICP-Integration: Harmonisierung und Lueckenschliessung`](skills/aussenwirtschaft-post-merger-icp-integration/) | Für Post-Merger ICP-Integration: Harmonisierung und Lückenschliessung: ordnet Norm, Beweislast und… |
 | [`Praeferenzkalkulation und Lieferantenerklaerung: Nachweis des Praeferenzursprungs`](skills/aussenwirtschaft-praeferenzkalkulation-lieferantenerklae/) | Für Präferenzkalkulation und Lieferantenerklärung: Nachweis des Präferenzursprungs: ordnet Norm… |
@@ -83,7 +82,6 @@ Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see 
 | [`Technologietransfer durch Cloud und Downloads: Exportkontrolle immaterieller Gueter`](skills/aussenwirtschaft-technologie-transfer-cloud-download/) | Für Technologietransfer durch Cloud und Downloads: Exportkontrolle immaterieller Güter: ordnet Norm… |
 | [`Trade Finance und Sanktionen: Akkreditive Garantien und Finanzhilfe-Verbote`](skills/aussenwirtschaft-trade-finance-lc-guarantees/) | Für Trade Finance und Sanktionen: Akkreditive Garantien und Finanzhilfe-Verbote: ordnet Norm, Beweislast… |
 | [`Zollwert und Verrechnungspreise: Konsistenzpruefung und Nacherhebungsrisiko`](skills/aussenwirtschaft-transferpricing-zollwert-abgleich/) | Für Zollwert und Verrechnungspreise: Konsistenzprüfung und Nacherhebungsrisiko: ordnet Norm, Beweislast… |
-| [`UK Sanctions Touchpoint`](skills/aussenwirtschaft-uk-sanctions-touchpoint/) | Für UK Sanctions Touchpoint: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`NCTS-Versandverfahren T1/T2: Anmeldung Sicherheitsleistung und Bestimmungsstelle`](skills/aussenwirtschaft-versandverfahren-ncts/) | Für NCTS-Versandverfahren T1/T2: Anmeldung Sicherheitsleistung und Bestimmungsstelle: ordnet Norm… |
 | [`Voruebergehende Verwendung und ATA-Carnet: Messeware und Berufsausruestung`](skills/aussenwirtschaft-voruebergehende-verwendung-ata-carnet/) | Für Vorübergehende Verwendung und ATA-Carnet: Messeware und Berufsausrüstung: ordnet Norm, Beweislast… |
 | [`VZTA Antrag Qualitaetsgate`](skills/aussenwirtschaft-vzta-antrag-qualitaetsgate/) | Für VZTA Antrag Qualitätsgate: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Gegenprüfung… |

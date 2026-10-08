@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (477)
+## Skills (464)
 
 | Skill | What it does |
 |---|---|
@@ -26,7 +26,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Auskunft: Behörden-, Gerichts- oder Registerweg`](skills/auskunft-behoerden-gericht-und-registerweg/) | Für Auskunft: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Auskunft: Behörden-, Gerichts- oder Registerweg`](skills/auskunft-behoerden-gerichts-registerweg/) | Für Auskunft: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`/datenschutzrecht:auskunftsersuchen-art-15`](skills/auskunftsersuchen-art-15-borghei/) | Bearbeitung eines DSGVO-Auskunftsersuchens nach Art. 15 DSGVO – Identitätsprüfung, Umfang der Auskunft… |
-| [`Ausländische Mutter und deutsche Tochter`](skills/auslaendische-mutter-und-deutsche-tochter/) | Für Ausländische Mutter und deutsche Tochter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Automatisierte Entscheidungen Art. 22 DSGVO`](skills/automatisierte-entscheidungen-art-22-dsgvo/) | Für Automatisierte Entscheidungen Art. 22 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Joint-Controller-Vereinbarung Art. 26 DSGVO – deutsche Vertragsfassung`](skills/avv-art-26-joint-controllership-deutsch/) | Für Joint-Controller-Vereinbarung Art. 26 DSGVO – deutsche Vertragsfassung: ordnet Norm, Beweislast und… |
 | [`Auftragsverarbeitung Art. 28 DSGVO – Grundtatbestand`](skills/avv-art-28-dsgvo-grundtatbestand/) | Für Auftragsverarbeitung Art. 28 DSGVO – Grundtatbestand: ordnet Norm, Beweislast und Gegenargument… |
@@ -75,7 +74,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Besondere Datenkategorien Art. 9`](skills/besondere-datenkategorien-art-9/) | Für Besondere Datenkategorien Art. 9: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Beweisrecht im Datenschutz-OWiG`](skills/beweisrecht-stpo-im-owig-datenschutz/) | Für Beweisrecht im Datenschutz-OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast… |
 | [`Beweissicherung nach Datenschutzvorfall — Chain of Custody`](skills/beweissicherung/) | Für Beweissicherung nach Datenschutzvorfall — Chain of Custody: ordnet Norm, Beweislast und… |
-| [`Bnoto: Mehrparteienkonflikt und Interessenmatrix`](skills/bnoto-interessen/) | Für Bnoto: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Berufsrecht KI-Vertragspruefung — Allgemein`](skills/br-ki-vertragspruefung-brki-rollout-chronologie/) | Für Berufsrecht digitale Werkzeuge-Vertragsprüfung — Allgemein: ordnet Norm, Beweislast und… |
 | [`Brao: Zahlen, Schwellenwerte und Berechnung`](skills/brao-zahlen-schwellen-und-berechnung/) | Für BRAO: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Brao: Zahlen, Schwellenwerte und Berechnung`](skills/brao-zahlen-schwellenwerte-berechnung/) | Für BRAO: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
@@ -192,8 +190,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`DSGVO-rechtswidriges Produkt`](skills/dsgvo-rechtswidriges-produkt/) | Für DSGVO-rechtswidriges Produkt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DSR: Betroffenenrechte-Prozess`](skills/dsr-betroffenenrechte-prozess-leitfaden/) | Für DSR: Betroffenenrechte-Prozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DSR: Internationaler Datentransfer`](skills/dsr-internationaler-datentransfer-spezial/) | Für DSR: Internationaler Datentransfer: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`DSR: Rechtsgrundlage Bauleiter`](skills/dsr-rechtsgrundlage-bauleiter/) | Für DSR: Rechtsgrundlage Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`DSR: Art-82-Schadensersatz`](skills/dsr-schadensersatz-art82-spezial/) | Für DSR: Art-82-Schadensersatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bewertet einen Datenschutzvorfall mit besonderen Kategorien personenbezogener Daten nach Art`](skills/dsv-art-9-besondere-kategorien/) | Für Dsv Art 9 Besondere Kategorien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Erstellt nach einem gemeldeten Datenschutzvorfall eine knappe Statusinformation an Mandant und Datenschutzbeauftragten i`](skills/dsv-aufnahme-statusinformation/) | Für Dsv Aufnahme Statusinformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prüft die Ausnahmen von der Benachrichtigungspflicht nach Art`](skills/dsv-benachrichtigung-art-34-ausnahmen/) | Für Prüft die Ausnahmen von der Benachrichtigungspflicht nach Art: ordnet Norm, Beweislast und… |
@@ -291,7 +287,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Red-Team Qualitygate`](skills/fachanwalt-it-recht-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Forensische Erstsicherung — Beauftragung und Steuerung`](skills/forensische-erstsicherung/) | Für Forensische Erstsicherung — Beauftragung und Steuerung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Prompt-Injection: Prüfung`](skills/forensische-prompt-gutachten-erstellen/) | Für Prompt-Injection: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Prompt-Injection: Prüfung`](skills/forensische-pruefung-prompt-injection/) | Für Prompt-Injection: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Forschung und Sekundärnutzung abgrenzen`](skills/forschung-sekundaernutzung-abgrenzen-klotzkette/) | Prüft retrospektive Versorgungsforschung und andere Sekundärnutzung von Krankenhausdaten. Trennt… |
 | [`Vertragspruefung: Fristennotiz und nächster Schritt`](skills/fristennotiz-naechster-vorpruefung/) | Für Vertragsprüfung: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Fristverlängerung gegenüber Aufsicht`](skills/fristverlaengerung-behoerde-ohne-nachteile/) | Für Fristverlängerung gegenüber Aufsicht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
@@ -360,15 +355,12 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Nachmeldung und Aktualisierung nach Art. 33 Abs. 4 DSGVO`](skills/nachmeldung-aktualisierung-art-33-abs-4/) | Für Nachmeldung und Aktualisierung nach Art. 33 Abs. 4 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`Nis2 Quellenkarte`](skills/nis2-quellenkarte/) | Für Nis2 Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Notare Quellenkarte`](skills/notare-quellenkarte/) | Für Notare Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Open: Mehrparteienkonflikt und Interessenmatrix`](skills/open-mehrparteien-konflikt-und-interessen/) | Für Open: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM`](skills/open-source-compliance-audit/) | Für Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM: ordnet Norm… |
 | [`Organisationsverschulden ersteinschätzen`](skills/organisationsverschulden-ersteinschaetzung/) | Für Organisationsverschulden ersteinschätzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Paket: Internationaler Bezug und Schnittstellen`](skills/paket-internationaler-bezug-schnittstellen/) | Für Paket: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Paket: Internationaler Bezug und Schnittstellen`](skills/paket-internationaler-bezug-und-schnittstellen/) | Für Paket: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`§ 203 StGB Berufsgeheimnis im Datenschutzvorfall`](skills/paragraf-203-stgb-berufsgeheimnis/) | Für Paragraf 203 StGB Berufsgeheimnis im Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument… |
 | [`Parallelnormen — alle fünf Berufe`](skills/parallelnormen-andere-ai-act-art-vo/) | Für Parallelnormen — alle fünf Berufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
-| [`Patentanwälte: Verhandlung, Vergleich und Eskalation`](skills/patentanwaelte-verhandlung-vergleich-eskalation/) | Für Patentanwälte: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
-| [`Patentanwälte: Verhandlung, Vergleich und Eskalation`](skills/patentanwaelte-verhandlung-vergleich-und-eskalation/) | Für Patentanwälte: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Plattformmoderation und Rechtsbehelf`](skills/plattform-dsa-art-14-eu-2022-2065/) | Steuert Plattformfälle nach der Verordnung (EU) 2022/2065 von Nutzungsbedingungen und Meldung bis… |
 | [`Pressemitteilung und Krisenkommunikation bei Datenschutzvorfall`](skills/pressemitteilung-krisenkommunikation/) | Für Pressemitteilung und Krisenkommunikation bei Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Privacy Policy and GDPR Transparency`](skills/privacy-policy-maltehedderich/) | Draft, review, or debug EU privacy policies and GDPR transparency notices for SaaS products. Use when… |
@@ -411,17 +403,12 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Sammelklagen-Prävention nach Massendatenpanne`](skills/sammelklagen-praevention/) | Für Sammelklagen-Prävention nach Massendatenpanne: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Akteneinsicht § 49 OWiG und § 147 StPO`](skills/sanktion-akteneinsicht-49-owig-147-stpo/) | Für Akteneinsicht Paragraf 49 OWiG und Paragraf 147 StPO: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Anhörung nach § 55 OWiG`](skills/sanktion-anhoerung-55-owig/) | Für Anhörung nach Paragraf 55 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Anwesenheit und Entbindung § 73 OWiG`](skills/sanktion-anwesenheit-73-owig-vertretung/) | Für Anwesenheit und Entbindung Paragraf 73 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Beschlussverfahren § 72 OWiG`](skills/sanktion-beschlussverfahren-72-owig/) | Für Beschlussverfahren Paragraf 72 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bußgeldbescheid § 65 OWiG analysieren`](skills/sanktion-bussgeldbescheid-65-owig-analyse/) | Für Bußgeldbescheid Paragraf 65 OWiG analysieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einspruch § 67 OWiG Frist und Form`](skills/sanktion-einspruch-67-owig-frist-und-form/) | Für Einspruch Paragraf 67 OWiG Frist und Form: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Hauptverhandlung § 71 OWiG`](skills/sanktion-hauptverhandlung-71-owig/) | Für Hauptverhandlung Paragraf 71 OWiG: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
-| [`Parallelverfahren Art. 82 DSGVO und Massenklagen`](skills/sanktion-parallelverfahren-art-82/) | Für Parallelverfahren Art. 82 DSGVO und Massenklagen: ordnet Norm, Beweislast und Gegenargument… |
-| [`Rechtsbeschwerde § 79 OWiG`](skills/sanktion-rechtsbeschwerde-79-owig/) | Für Rechtsbeschwerde Paragraf 79 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtsweg-Router Bußgeld Verwaltungsgericht Zivilverfahren`](skills/sanktion-rechtsweg-router/) | Für Rechtsweg-Router Bußgeld Verwaltungsgericht Zivilverfahren: prüft Frist, Form, Zuständigkeit und… |
 | [`Scope Cut Behördenfragen einhegen`](skills/sanktion-scope-cut-behoerdenfragen/) | Für Scope Cut Behördenfragen einhegen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Staatsanwaltschaft im DSGVO-OWiG-Verfahren`](skills/sanktion-staatsanwaltschaft-im-dsgvo-owig/) | Für Staatsanwaltschaft im DSGVO-OWiG-Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Zwischenverfahren § 69 OWiG`](skills/sanktion-zwischenverfahren-69-owig/) | Für Zwischenverfahren Paragraf 69 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Schadensersatz nach Art. 82 DSGVO — Verteidigung`](skills/schadensersatz-art-82/) | Für Schadensersatz nach Art. 82 DSGVO — Verteidigung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Schatten-KI-Governance und Sanktionslogik`](skills/schatten-ki-governance-und-sanktionslogik/) | Für Schatten-digitale Werkzeuge-Governance und Sanktionslogik: ordnet Norm, Beweislast und… |
 | [`Schnelltriage Risikoeinschätzung nach Datenschutzvorfall`](skills/schnelltriage-risiko/) | Für Schnelltriage Risikoeinschätzung nach Datenschutzvorfall: routet Rolle, Frist, Unterlagen und… |

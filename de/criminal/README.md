@@ -4,7 +4,7 @@ Criminal law and procedure — offences, defence, prosecution, and appeals.
 
 Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 
-## Skills (714)
+## Skills (707)
 
 | Skill | What it does |
 |---|---|
@@ -62,7 +62,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Adhaesion: Formular, Portal und Einreichungslogik`](skills/adhaesion-formular-portal-und-einreichung/) | Für Adhäsion: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Adhäsionsverfahren Paragraf 403 StPO im Strafverfahren vorbereiten: Anwendungsfall Opfer will im Strafverfahren gleichze`](skills/adhaesionsverfahren/) | Adhäsionsverfahren: Prüft Anspruch aus der Straftat, Verletztenstellung, Antrag, Bezifferung oder… |
 | [`Aktenanlage Fehlerkatalog`](skills/aktenanlage-fehlerkatalog/) | Für Aktenanlage Fehlerkatalog: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Aktenaufbereiter: Beweislast, Darlegungslast und Substantiierung`](skills/aktenaufbereiter-beweislast-und-darlegungslast/) | Für Aktenaufbereiter: Beweislast, Darlegungslast und Substantiierung: ordnet Akte, Belege und Lücken… |
 | [`Aktenaufbereiter: Erstprüfung, Rollenklärung und Mandatsziel`](skills/aktenaufbereiter-erstpruefung-und-mandatsziel/) | Für Aktenaufbereiter: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Fristen: Mehrparteienkonflikt und Interessenmatrix`](skills/aktenaufbereiter-strafr-fristen-mehrparteien-konflikt-und-intere/) | Für Fristen: Mehrparteienkonflikt und Interessenmatrix: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Aktenaufbereiter Strafrecht`](skills/aktenaufbereiter-strafrecht/) | Für Aktenaufbereiter Strafrecht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -263,7 +262,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Luecken: Mandantenkommunikation und Entscheidungsvorlage`](skills/luecken-mandantenkommunikation-entscheidungsvorlage/) | Für Lücken: Mandantenkommunikation und Entscheidungsvorlage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Mandantenkommunikation`](skills/mandant-redteam-gate/) | Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Strukturierte Eingangs-Abfrage für Strafmandate`](skills/mandat-triage-strafrecht/) | Für Strukturierte Eingangs-Abfrage für Strafmandate: routet Rolle, Frist, Unterlagen und Fachschritt… |
-| [`Messakte: Formular, Portal und Einreichungslogik`](skills/messakte-formular-portal-und-einreichung/) | Für Messakte: Formular, Portal und Einreichungslogik: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi`](skills/messung-fahrverbot-punkte/) | Für Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi: ordnet Norm, Beweislast und… |
 | [`Methodenlehre — Strafrecht`](skills/methodenlehre-strafrecht/) | Für Methodenlehre — Strafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Minder schwerer Fall und besonders schwerer Fall`](skills/minder-schwerer-fall-und-besonders-schwerer-fall/) | Für Minder schwerer Fall und besonders schwerer Fall: ordnet Norm, Beweislast und Gegenargument… |
@@ -316,7 +314,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Verkehrsordnungswidrigkeiten: Fahrverbot, Punkte, Messung, Halter- und Fahrerfrage aus StA-Sicht`](skills/owi-verkehrsowi-fahrverbot-punkte/) | Für Owi Verkehrsowi Fahrverbot Punkte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verkehrsordnungswidrigkeiten: Fahrverbot, Punkte, Messung, Halter- und Fahrerfrage aus StA-Sicht`](skills/owi-verkehrsowi-vorlage-an/) | Für Owi Verkehrsowi Vorlage an: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorlage der OWi-Akte an das Amtsgericht: Staatsanwaltschaft als Filter, nicht als Anklageschreiberin`](skills/owi-vorlage-an-amtsgericht-sta-check/) | Für Owi Vorlage an Amtsgericht Sta Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Owig In Einfacher Sprache`](skills/owig-in-einfacher-sprache/) | Für Owig in Einfacher Sprache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`§ 46 StGB — Grundsatz der Strafzumessung`](skills/paragraph-46-stgb-grundsatz-strafzumessung/) | Für Paragraf 46 StGB — Grundsatz der Strafzumessung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Personenschaden § 249 BGB`](skills/personenschaden-paragraf-249-bgb/) | Für Personenschaden Paragraf 249 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Personenverzeichnis: Verhandlung, Vergleich und Eskalation`](skills/personenverzeichnis-verhandlung-vergleich-und-eskalation/) | Für Personenverzeichnis: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und… |
@@ -628,7 +625,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Tierschutzstrafrecht § 17 TierSchG`](skills/tierschutz-ueblerede/) | Für Tierschutzstrafrecht Paragraf 17 TierSchG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`U-Haft: Fluchtgefahr, Verdunkelung und Verhältnismäßigkeit`](skills/u-haft-fluchtgefahr-verhaeltnismaessigkeit/) | Für U-Haft: Fluchtgefahr, Verdunkelung und Verhältnismäßigkeit: ordnet Norm, Beweislast und… |
 | [`U-Haft-Fristenwacht`](skills/u-haft-fristenwacht/) | Für U-Haft-Fristenwacht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. |
-| [`U Haft In Btm Sache`](skills/u-haft-in-btm-sache/) | Für U Haft in Btm Sache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`U-Haft: Fluchtgefahr, Verdunkelung und Verhältnismäßigkeit`](skills/u-haft-umweltstrafrecht-behoerdenakten/) | Für U-Haft: Fluchtgefahr, Verdunkelung und Verhältnismäßigkeit: ordnet Akte, Belege und Lücken… |
 | [`Uebersichten: Behörden-, Gerichts- oder Registerweg`](skills/uebersichten-behoerden-gericht-und-registerweg/) | Für Übersichten: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Üble Nachrede und Verleumdung vermeiden`](skills/ueblerede-verleumdung-186-187/) | Für Üble Nachrede und Verleumdung vermeiden: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -684,8 +680,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Polizeibeamten als Zeugen im OWi-Verfahren`](skills/verkehrsowi-zeugen-polizei-strategie/) | Für Polizeibeamten als Zeugen im OWi-Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verkehrsprozess-Versandmappe endfertigen`](skills/verkehrsprozess-versandmappe-endfertigen/) | Endfertigt Verkehrsunfall-, Kaskoversicherungs-, Fahrerlaubnis- und Bußgeldschriftsätze: trennt Zivil… |
 | [`Verkehrsrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/verkehrsrecht-tatbestand-beweis-und-belege/) | Für Verkehrsrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
-| [`Verkehrsstrafrecht: Mehrparteienkonflikt und Interessenmatrix`](skills/verkehrsstrafrecht-mehrparteien-konflikt-und-interessen/) | Für Verkehrsstrafrecht: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
-| [`Verkehrsunfall § 7 StVG`](skills/verkehrsunfall-paragraf-7-stvg/) | Für Verkehrsunfall Paragraf 7 StVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verkehrsunfall: Schriftsatz-, Brief- und Memo-Bausteine`](skills/verkehrsunfall-schriftsatz-brief-und-memo-bausteine/) | Für Verkehrsunfall: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Unfallflucht § 142 StGB`](skills/verkehrsunfall-video/) | Für Unfallflucht Paragraf 142 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Strafrecht: Dritt-Arrest`](skills/vermoegensabschoepfung-dritt-einziehung/) | Für Strafrecht: Dritt-Arrest: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -697,7 +691,6 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Verstaendigung im Strafverfahren § 257c StPO und Strafzumessung`](skills/verstaendigung-257c-stpo-strafzumessung/) | Für Verständigung im Strafverfahren Paragraf 257c StPO und Strafzumessung: ordnet Norm, Beweislast und… |
 | [`Verständigung, Täter-Opfer-Ausgleich und konsensuale Erledigung`](skills/verstaendigung-257c-toa-46a/) | Prüft Verständigung, Täter-Opfer-Ausgleich und Einstellung getrennt nach Verfahrensstand, Beweislage… |
 | [`Verständigung im Strafverfahren kontrollieren`](skills/verstaendigung-paragraf-257c-stpo-bverfg-2-bvr-2628-10/) | Prüft Vorbereitung, Durchführung und Revision einer Verständigung im Strafverfahren. |
-| [`Verstaendigung: Sonderfall und Edge-Case-Prüfung`](skills/verstaendigung-sonderfall-und-edge-case/) | Für Verständigung: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verteidiger Aussage § 148 StPO`](skills/verteidiger-aussage-paragraf-148-stpo/) | Für Verteidiger Aussage Paragraf 148 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verteidigung: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/verteidigung-wiedereinsetzung-zeugenstrategie/) | Für Verteidigung: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und… |
 | [`Video, Audio, KUG und § 201 StGB`](skills/video-audio-kug-201/) | Für Video, Audio, KUG und Paragraf 201 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

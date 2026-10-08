@@ -4,7 +4,7 @@ Competition law — agreements, abuse of dominance, merger control, and enforcem
 
 Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 
-## Skills (65)
+## Skills (62)
 
 | Skill | What it does |
 |---|---|
@@ -20,7 +20,6 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Elastizitäten und Diversion Ratios`](skills/elastizitaeten-diversion-ratios/) | Für Elastizitäten und Diversion Ratios: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`EuGH-Rechtsprechung — Leitentscheidungen zur Marktdefinition`](skills/eugh-rechtsprechung-beweislast-jurisdiktion/) | Für EuGH-Rechtsprechung — Leitentscheidungen zur Marktdefinition: ordnet Norm, Beweislast und… |
 | [`Evidenz: Internationaler Bezug und Schnittstellen`](skills/evidenz-internationaler-bezug-und-schnittstellen/) | Für Evidenz: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
-| [`Flags: Red-Team und Qualitätskontrolle`](skills/flags-red-team-und-qualitaetskontrolle/) | Für Flags: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Fusionskontrolle Anmeldung Routing`](skills/fusionskontrolle-anmeldung-routing/) | Für Fusionskontrolle Anmeldung Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Fusionskontrolle — Modus`](skills/fusionskontrolle-modus-geoblocking/) | Für Fusionskontrolle — Modus: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`§ 19 GWB Behinderungs Ausbeutungsmissbrauch`](skills/gwb-behinderungs-ausbeutungsmissbrauch/) | Für Paragraf 19 GWB Behinderungs Ausbeutungsmissbrauch: ordnet Norm, Beweislast und Gegenargument… |
@@ -53,7 +52,6 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Missbrauchsverbot — Modus`](skills/missbrauchsverbot-modus/) | Für Missbrauchsverbot — Modus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Nachfrage Quellenkarte`](skills/nachfrage-quellenkarte/) | Für Nachfrage Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`§ 18 GWB — Marktbeherrschung: Prüfung`](skills/paragraf-18-gwb-pruefung/) | Für Paragraf 18 GWB — Marktbeherrschung: Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Paragraf: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/paragraf-raeumlicher-ssnip-test/) | Für Paragraf: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Potenzieller Wettbewerb und Markteintrittsschranken`](skills/potenzieller-wettbewerb-marktzutritt/) | Für Potenzieller Wettbewerb und Markteintrittsschranken: ordnet Norm, Beweislast und Gegenargument… |
 | [`Produktmarkt — Nachfragesubstitution`](skills/produktmarkt-nachfragesubstitution/) | Für Produktmarkt — Nachfragesubstitution: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Prüfinstanz: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/pruefinstanz-franchise-vertrag/) | Für Prüfinstanz: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument… |
@@ -70,6 +68,5 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Selektiver Vertrieb für Luxusgüter nach Coty`](skills/selektiver-vertrieb-coty/) | Für Selektiver Vertrieb für Luxusgüter nach Coty: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Nachfrage: Livequellen- und Rechtsprechungscheck`](skills/spezial-nachfrage-livequellen-und-rechtsprechungscheck/) | Für Nachfrage: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Pruefinstanz: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/spezial-pruefinstanz-fristen-form-und-zustaendigkeit/) | Für Prüfinstanz: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
-| [`Ssnip: Schriftsatz-, Brief- und Memo-Bausteine`](skills/ssnip-schriftsatz-brief-und-memo-bausteine/) | Für Ssnip: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Test: Verhandlung, Vergleich und Eskalation`](skills/test-verhandlung-vergleich-und-eskalation/) | Für Test: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Vertikale Preisbindung und Vertikal-GVO`](skills/vertikale-preisbindung-vbe-vo/) | Für Vertikale Preisbindung und Vertikal-GVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

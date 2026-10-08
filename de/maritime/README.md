@@ -4,7 +4,7 @@ Maritime & Admiralty practice.
 
 Jurisdiction: `de` · Practice: `maritime` · Skill language: de
 
-## Skills (77)
+## Skills (70)
 
 | Skill | What it does |
 |---|---|
@@ -36,13 +36,11 @@ Jurisdiction: `de` · Practice: `maritime` · Skill language: de
 | [`Konnossement – Schiffshypothek bestellen`](skills/konnossement-hypothek-bestellen/) | Für Konnossement – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Konnossement – Kaufvertrag scopen`](skills/konnossement-kaufvertrag-scopen/) | Für Konnossement – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Konnossement – Registerprüfung`](skills/konnossement-register-pruefen/) | Für Konnossement – Registerprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Konnossement – Risiko-Memo schreiben`](skills/konnossement-risiko-memo-schreiben/) | Für Konnossement – Risiko-Memo schreiben: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Konnossement – Wrackbeseitigungspflicht prüfen`](skills/konnossement-wrackpflicht-pruefen/) | Für Konnossement – Wrackbeseitigungspflicht prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kreuzfahrtschiff – Schiffshypothek bestellen`](skills/kreuzfahrtschiff-hypothek-bestellen/) | Für Kreuzfahrtschiff – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kreuzfahrtschiff – Kaufvertrag scopen`](skills/kreuzfahrtschiff-kaufvertrag-scopen/) | Für Kreuzfahrtschiff – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kreuzfahrtschiff – Local Counsel instruieren`](skills/kreuzfahrtschiff-local-counsel-instrui/) | Für Kreuzfahrtschiff – Local Counsel instruieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kreuzfahrtschiff – Registerprüfung`](skills/kreuzfahrtschiff-register-pruefen/) | Für Kreuzfahrtschiff – Registerprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Kreuzfahrtschiff – Risiko-Memo schreiben`](skills/kreuzfahrtschiff-risiko/) | Für Kreuzfahrtschiff – Risiko-Memo schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Offshore-Schiff – Schiffshypothek bestellen`](skills/offshore-schiff-arrest-vorbereiten/) | Für Offshore-Schiff – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Offshore-Schiff – Kaufvertrag scopen`](skills/offshore-schiff-binnenschiff/) | Für Offshore-Schiff – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Offshore-Schiff – Registerprüfung`](skills/offshore-schiff-register-pruefen/) | Für Offshore-Schiff – Registerprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -55,7 +53,6 @@ Jurisdiction: `de` · Practice: `maritime` · Skill language: de
 | [`Schiffbauwerk – Schiffshypothek bestellen`](skills/schiffbauwerk-hypothek-bestellen/) | Für Schiffbauwerk – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schiffbauwerk – Kaufvertrag scopen`](skills/schiffbauwerk-kaufvertrag-scopen/) | Für Schiffbauwerk – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Schiffbauwerk – Registerprüfung`](skills/schiffbauwerk-register-pruefen/) | Für Schiffbauwerk – Registerprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Schiffbauwerk – Risiko-Memo schreiben`](skills/schiffbauwerk-risiko-yachtkauf-register/) | Für Schiffbauwerk – Risiko-Memo schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schiffbauwerk – Wrackbeseitigungspflicht prüfen`](skills/schiffbauwerk-wrackpflicht-versicherung/) | Für Schiffbauwerk – Wrackbeseitigungspflicht prüfen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Schiffshypothek – Schiffshypothek bestellen`](skills/schiffshypothek-hypothek-bestellen/) | Für Schiffshypothek – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schiffshypothek – Kaufvertrag scopen`](skills/schiffshypothek-kaufvertrag-scopen/) | Für Schiffshypothek – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -68,7 +65,6 @@ Jurisdiction: `de` · Practice: `maritime` · Skill language: de
 | [`Offshore Schiff Risiko Memo Schreiben`](skills/see-080-offshore-schiff-risiko-memo-schreiben/) | Für Offshore Schiff Risiko Memo Schreiben: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Binnenschiff Register Pruefen`](skills/see-081-binnenschiff-register-pruefen/) | Für Binnenschiff Register Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
 | [`Seearbeitsrecht – Heurvertrag und MLC-Compliance`](skills/seearbeitsrecht-schnittstelle/) | Für Seearbeitsrecht – Heurvertrag und MLC-Compliance: ordnet Norm, Beweislast und Gegenargument… |
-| [`Juristischer Argumentationskern - Seerecht Schifffahrtsrecht`](skills/seerecht-schifffahrtsrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Seerecht Schifffahrtsrecht ein juristisches Arbeitsprodukt tragfähig… |
 | [`See- und Schifffahrtsrecht - Allgemeiner Einstieg`](skills/seerecht-schifffahrtsrecht-kaltstart-triage/) | Für See- und Schifffahrtsrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Seeschiff oder Binnenschiff – Klassifizierungsprüfung`](skills/seeschiff-oder-binnenschiff/) | Für Seeschiff oder Binnenschiff – Klassifizierungsprüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Umwelt und MARPOL – Öleinleitung und Strafverfolgung`](skills/umwelt-marpol-itlos-hamburg-dokumenten/) | Für Umwelt und MARPOL – Öleinleitung und Strafverfolgung: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -82,9 +78,6 @@ Jurisdiction: `de` · Practice: `maritime` · Skill language: de
 | [`Yachtkauf – Schiffshypothek bestellen`](skills/yachtkauf-hypothek-bestellen/) | Für Yachtkauf – Schiffshypothek bestellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Yachtkauf – Kaufvertrag scopen`](skills/yachtkauf-kaufvertrag-scopen/) | Für Yachtkauf – Kaufvertrag scopen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Yachtkauf – Klagepfad wählen`](skills/yachtkauf-klagepfad-waehlen/) | Für Yachtkauf – Klagepfad wählen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
-| [`Yachtkauf – Registerprüfung`](skills/yachtkauf-register-pruefen/) | Für Yachtkauf – Registerprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan… |
-| [`Yachtkauf – Risiko-Memo schreiben`](skills/yachtkauf-risiko-memo-schreiben/) | Für Yachtkauf – Risiko-Memo schreiben: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
-| [`Yachtkauf – Wrackbeseitigungspflicht prüfen`](skills/yachtkauf-wrackpflicht-pruefen/) | Für Yachtkauf – Wrackbeseitigungspflicht prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 
 ## Cold-start context
 

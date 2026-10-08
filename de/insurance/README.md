@@ -4,7 +4,7 @@ Insurance coverage and regulation — policies, claims, and insurer compliance.
 
 Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 
-## Skills (168)
+## Skills (167)
 
 | Skill | What it does |
 |---|---|
@@ -123,7 +123,6 @@ Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 | [`Schnittstelle: Zahlen, Schwellenwerte und Berechnung`](skills/schnittstelle-zahlen-schwellen-und-berechnung/) | Für Schnittstelle: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Solvency II, SCR und ORSA für Versicherer`](skills/solvency-ii-scr-orsa-aufsichtsrecht/) | Für Solvency II, SCR und ORSA für Versicherer: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Haftpflicht: Livequellen- und Rechtsprechungscheck`](skills/spezial-haftpflicht-livequellen-und-rechtsprechungscheck/) | Für Haftpflicht: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
-| [`Versr: Red-Team und Qualitätskontrolle`](skills/spezial-versr-red-team-und-qualitaetskontrolle/) | Für Versr: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Regress und Legalzession § 86 VVG`](skills/subrogation-regress-transportversicherung/) | Für Regress und Legalzession Paragraf 86 VVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Themen: Fristennotiz und nächster Schritt`](skills/themen-fristennotiz-und-naechster-schritt/) | Für Themen: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Transportversicherung: Ware, Lagerung, Lieferkette`](skills/transportversicherung-ware-lagerung/) | Für Transportversicherung: Ware, Lagerung, Lieferkette: ordnet Norm, Beweislast und Gegenargument… |

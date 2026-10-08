@@ -4,7 +4,7 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 
-## Skills (715)
+## Skills (674)
 
 | Skill | What it does |
 |---|---|
@@ -69,8 +69,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Aufforderungsschreiben an Bauträger und Notar`](skills/aufforderungsschreiben-bautraeger-und-notar/) | Für Aufforderungsschreiben an Bauträger und Notar: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Aufforderungsschreiben an den Nachbarn`](skills/aufforderungsschreiben-nachbar/) | Für Aufforderungsschreiben an den Nachbarn: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Auflassungsvormerkung und Grundbuch`](skills/auflassungsvormerkung-und-grundbuch/) | Für Auflassungsvormerkung und Grundbuch: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Aufrechnung/Zurückbehaltung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/aufrechnung-zurueckbehaltung/) | Für Aufrechnung/Zurückbehaltung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
-| [`Aufzugskosten: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/aufzugskosten/) | Für Aufzugskosten: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Ausschließlich: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/ausschliesslich-dokumentenmatrix-und-lueckenliste/) | Für Ausschließlich: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
 | [`Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum`](skills/bad-umbau-bodengleiche-dusche-sondereigentum/) | Für Bad-Umbau: Bodengleiche Dusche im Sondereigentum und Gemeinschaftseigentum: ordnet Norm, Beweislast… |
 | [`Bodengleiche Dusche, Haltegriffe und unterfahrbares Waschbecken im Sondereigentum (Stand 06/2026): SE/GE-Abgrenzung, Bes`](skills/bad-umbau-bodengleiche-dusche-sondereigentum-gemeinschaf/) | Für Bad Umbau Bodengleiche Dusche Sondereigentum Gemeinschaft: ordnet Norm, Beweislast und… |
@@ -128,7 +126,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Betriebskostenabrechnung prüfen`](skills/betriebskostenabrechnung-pruefen-asset-management/) | Für Betriebskostenabrechnung prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Betrkv: Mehrparteienkonflikt und Interessenmatrix im Miet- und WEG-Recht: fachlich vertieftes Modul mit Normenradar (BGB`](skills/betrkv-mehrparteien-konflikt-und-interessen/) | Für Betrkv Mehrparteien Konflikt und Interessen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beurkundung, Verbraucherfrist, Notar und Bezugsurkunden`](skills/beurkundung-verbraucherfrist-notar-und-bezugsurkunden/) | Für Beurkundung, Verbraucherfrist, Notar und Bezugsurkunden: prüft Frist, Form, Zuständigkeit und… |
-| [`Beweise: Red-Team und Qualitätskontrolle`](skills/beweise-red-team-und-qualitaetskontrolle/) | Für Beweise: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Beweissicherung, Ortstermin und Fotos`](skills/beweissicherung-ortstermin-fotos/) | Für Beweissicherung, Ortstermin und Fotos: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`BFSG: Barrierefreiheitspflicht für Verwalter-Websites und Eigentümer-Portale`](skills/bfsg-hausverwalter-website-portal-2025/) | Für BFSG: Barrierefreiheitspflicht für Verwalter-Websites und Eigentümer-Portale: ordnet Norm… |
 | [`Bieterangebot Bewerten`](skills/bieterangebot-bewertung/) | Für Bieterangebot Bewerten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -217,7 +214,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Fertigstellungssicherheit Paragraf 650m Absatz 2 BGB prüfen`](skills/fertigstellungssicherheit-650m-pruefen/) | Für Fertigstellungssicherheit Paragraf 650m Absatz 2 BGB prüfen: ordnet Norm, Beweislast und… |
 | [`Festsetzungskatalog nach BauGB Paragraf 9 und BauNVO`](skills/festsetzungskatalog-9-baugb-baunvo/) | Für Festsetzungskatalog nach BauGB Paragraf 9 und BauNVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`Flächen und Umlageschlüssel prüfen`](skills/flaechen-und-umlageschluessel-pruefen/) | Prueft Wohnflaechen, Verbrauchs- und WEG-Schluessel sowie Leerstand und Nutzerwechsel und berechnet die… |
-| [`Prüfer: Fristennotiz und nächster Schritt`](skills/fristennotiz-naechster-ueberbau-akten/) | Für Prüfer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`/mietrecht:fristlose-kuendigung-543`](skills/fristlose-kuendigung-543-borghei/) | Außerordentliche fristlose Kündigung des Mietverhältnisses aus wichtigem Grund – wichtiger Grund und… |
 | [`Fristlose Kündigung wegen Störung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/fristlose-kuendigung-stoerung/) | Für Fristlose Kündigung wegen Störung: Fachmodul im Miet- und Wohnungseigentumsrecht: prüft Frist, Form… |
 | [`Gartenpflege/Baumfällung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/gartenpflege-baumfaellung/) | Für Gartenpflege/Baumfällung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
@@ -239,7 +235,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Gläubiger-, Schuldner- und Drittschuldnerkommunikation`](skills/glaeubiger-schuldner-kommunikation/) | Für Gläubiger-, Schuldner- und Drittschuldnerkommunikation: ordnet Norm, Beweislast und Gegenargument… |
 | [`Glasfaser/Kabel-TV: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/glasfaser-kabel-tv/) | Für Glasfaser/Kabel-TV: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Grenzbaum und Grenzanlage`](skills/grenzbaum-grenzanlage-hammerschlags/) | Für Grenzbaum und Grenzanlage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Grenzbaum: Schriftsatz-, Brief- und Memo-Bausteine`](skills/grenzbaum-schriftsatz-brief-und-memo-bausteine/) | Für Grenzbaum: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Großakte und Konfliktlandkarte`](skills/grossakte-konfliktlandkarte/) | Für Großakte und Konfliktlandkarte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Großstadt-Mietspiegel, Kappungsgrenze und Vergleichsmiete`](skills/grossstadt-mietspiegel-und-kappung/) | Für Großstadt-Mietspiegel, Kappungsgrenze und Vergleichsmiete: ordnet Norm, Beweislast und… |
 | [`Quality Gate vor Einreichung`](skills/grundbuch-qualitygate-vor-vollzug/) | Für Quality Gate vor Einreichung: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
@@ -277,10 +272,8 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Hausmeisterkosten in Betriebskostenabrechnungen: umlagefähige laufende Tätigkeiten von Verwaltung, Instandhaltung, Insta`](skills/hausmeisterkosten/) | Für Hausmeisterkosten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Hausordnung: Tauben, Fahrrad, Kinder, Weihnachtsbaum`](skills/hausordnung-tauben-fahrrad-kinder/) | Für Hausordnung: Tauben, Fahrrad, Kinder, Weihnachtsbaum: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ordnet Alltagskonflikte in WEG-Anlagen: Tauben auf Balkonen, Fahrradkeller, Diebstahl, Kinderlärm, Spielhof, Weihnachtsb`](skills/hausordnung-tauben-fahrrad-kinder-weihnachtsbaum/) | Für Hausordnung Tauben Fahrrad Kinder Weihnachtsbaum: ordnet Norm, Beweislast und Gegenargument… |
-| [`Haustiere im Mietverhältnis: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/haustiere-mietvertrag/) | Für Haustiere im Mietverhältnis: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Hausverwaltungs: Fristen, Form, Zuständigkeit und Rechtsweg im WEG- und Hausverwaltungsrecht: fachlich vertieftes Modul `](skills/hausverwaltungs-fristen-form-und-zustaendigkeit/) | Für Hausverwaltungs Fristen Form und Zuständigkeit: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Hecke: Zahlen, Schwellenwerte und Berechnung`](skills/hecke-zahlen-schwellen-und-berechnung/) | Für Hecke: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
-| [`Heizkostenverordnung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/heizkostenverordnung/) | Für Heizkostenverordnung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Schaden, Versicherung, Diebstahl und Schädlingsbefall`](skills/heizung-schaden-versicherung-notmassnahme/) | Bearbeitet Heizungsausfall, Wasser- oder Einbruchschaden und Schädlingsbefall in der WEG; trennt… |
 | [`Heizung und Warmwasser: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/heizung-warmwasser/) | Für Heizung und Warmwasser: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`HOAI, Bauüberwachung und private Bauüberwachung`](skills/hoai-bauueberwachung-private-bauueberwachung/) | Für HOAI, Bauüberwachung und private Bauüberwachung: ordnet Norm, Beweislast und Gegenargument… |
@@ -299,7 +292,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Rechtsquellen-Livecheck`](skills/immobilienrechtspraxis-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Immobilienrechtspraxis — Allgemein`](skills/immobilienrechtspraxis-start-chronologie-fristen/) | Für Immobilienrechtspraxis — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Unterlagen und Lücken`](skills/immobilienrechtspraxis-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
-| [`ImmoR: Bauvertrag VOB BGB`](skills/immor-bauvertrag-vob-erbbaurecht-vertrag/) | Für ImmoR: Bauvertrag VOB BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`ImmoR: Bodenrichtwert-Bewertung`](skills/immor-bodenrichtwert-betriebskostenabrechnung/) | Für ImmoR: Bodenrichtwert-Bewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Indexmiete Anpassung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/indexmiete-anpassung/) | Für Indexmiete Anpassung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Insolvenz Mieter/Vermieter: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/insolvenz-mieter-vermieter/) | Für Insolvenz Mieter/Vermieter: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
@@ -327,7 +319,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Kündigungsform/Vollmacht/Zugang: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/kuendigung-form-vollmacht-zugang/) | Für Kündigungsform/Vollmacht/Zugang: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
 | [`Kündigung Quellenkarte`](skills/kuendigung-quellenkarte/) | Für Kündigung Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Endtermin und Vertragsschutz bestimmen`](skills/kuendigungsfristen-und-vertragsschutz-pruefen/) | Bestimmt den frühesten Kündigungstermin aus Zugang, Überlassungsdauer und Vertragsschutz. Prüft… |
-| [`Lärm/Geruch/Störung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/laerm-geruch-stoerung/) | Für Lärm/Geruch/Störung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Nach: Laermimmissionen`](skills/laermimmissionen-mediation-vorrang/) | Für Nach: Lärmimmissionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Lage und Ausstattung erheben`](skills/lage-ausstattung-mahnung-zahlungsverzug/) | Für Lage und Ausstattung erheben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Landesnachbarrecht-Router`](skills/landesnachbarrecht-router/) | Für Landesnachbarrecht-Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -342,7 +333,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Mandantengutachten Aufbau`](skills/mandantengutachten-aufbau/) | Für Mandantengutachten Aufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mandantenkorrespondenz — Form und Zugang: Templates`](skills/mandantenkorrespondenz-form-und-zugang-templates/) | Für Mandantenkorrespondenz — Form und Zugang: Templates: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis`](skills/mandantenwarnung-qes-per-email-whatsapp-und-zugang/) | Für Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis: ordnet Norm, Beweislast… |
-| [`Hausverwaltungs: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/mandat-belege-fristen/) | Für Hausverwaltungs: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Mandat- und Objekt-Triage`](skills/mandat-objekt-triage/) | Für Mandat- und Objekt-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Mietrechtlichen Streit einordnen und lösen`](skills/mandat-triage-mietrecht/) | Für Mandat-Triage Mietrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Marketing: Akquise neuer WEG-Verwaltungsmandate`](skills/marketing-akquise-neue-weg-mandate/) | Für Marketing: Akquise neuer WEG-Verwaltungsmandate: ordnet Norm, Beweislast und Gegenargument… |
@@ -390,7 +380,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Dokumentenintake`](skills/mietrecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einfuehrung Vertragstypen Mietrecht: Wohnraum-, Gewerbe-, Pacht-, Untermiete, Staffel-, Index-, Zeitmiete`](skills/mietrecht-einfuehrung-vertragstypen/) | Für Mietrecht Einführung Vertragstypen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Mietrechtliche Unterlagen zum Ergebnis führen`](skills/mietrecht-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`Auslands-/EU-Bezug Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/mietrecht-eu-ausland/) | Für Auslands-/EU-Bezug Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Juristischer Argumentationskern - Mietrecht`](skills/mietrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Mietrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss… |
 | [`Modernisierung und Erhaltung abgrenzen: Modernisierungsumlage 8 Prozent (Kappung 3 Euro/qm in 6 Jahren), Erhaltungsaufwa`](skills/mietrecht-modernisierung-und-erhalt/) | Für Mietrecht Modernisierung und Erhalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Output wählen`](skills/mietrecht-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -408,7 +397,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Mietspiegel-Quellen (amtlich)`](skills/mietspiegel-quellen/) | Für Mietspiegel-Quellen (amtlich): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mietvergleich mit Belegen abgleichen`](skills/mietvergleich-mit-belegen-abgleichen/) | Kontrolliert eine bereits vorliegende Mietberechnung auf Rechenfehler, falsche Quellen, doppelte… |
 | [`Mietvertrag AGB-Klauseln: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/mietvertrag-agb-klauseln/) | Für Mietvertrag AGB-Klauseln: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`Milieuschutz/Umwandlung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/milieuschutz-umwandlung/) | Für Milieuschutz/Umwandlung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Spezialfall Milieuschutzgebiet (soziale Erhaltungssatzung § 172 BauGB): Genehmigungspflicht von Modernisierungen und Auf`](skills/milieuschutz-und-genehmigung-veraendert/) | Für Milieuschutz und Genehmigung Verändert: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mischmiete Wohn/Gewerbe: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/mischmiete-wohn-gewerbe/) | Für Mischmiete Wohn/Gewerbe: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Mittlere Art und Güte und DIN-Normen`](skills/mittlere-art-und-guete-und-din/) | Für Mittlere Art und Güte und DIN-Normen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -420,7 +408,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Modernisierungsumlage § 559 BGB`](skills/modernisierungsumlage-paragraf-559-bgb/) | Für Modernisierungsumlage Paragraf 559 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Möblierte Vermietung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/moeblierte-vermietung/) | Für Möblierte Vermietung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Mietrecht: Betriebskosten-Fehler`](skills/mr-betriebskostenabrechnung-mr/) | Für Mietrecht: Betriebskosten-Fehler: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Mietrecht: Vertragstypen`](skills/mr-einfuehrung-klageentwurf-beweislast/) | Für Mietrecht: Vertragstypen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Mietrecht: Kuendigungsschutz`](skills/mr-kuendigungsschutz-praxis/) | Für Mietrecht: Kündigungsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mietrecht: Modernisierung-Rolling-Rent`](skills/mr-modernisierung-und-rolling-rent-spezial/) | Für Mietrecht: Modernisierung-Rolling-Rent: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Müllsortierung/Kosten: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/muellsortierung-kosten/) | Für Müllsortierung/Kosten: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
@@ -513,9 +500,7 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Portal: Livequellen- und Rechtsprechungscheck`](skills/spezial-portal-livequellen-und-rechtsprechungscheck/) | Für Portal: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Pruefer: Fristennotiz und nächster Schritt`](skills/spezial-pruefer-fristennotiz-und-naechster-schritt/) | Für Prüfer: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Pruefung: Red-Team und Qualitätskontrolle`](skills/spezial-pruefung-red-team-und-qualitaetskontrolle/) | Für Prüfung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
-| [`Universitaetsstaedte: Livequellen- und Rechtsprechungscheck`](skills/spezial-universitaetsstaedte-livequellen-check/) | Für Universitätsstädte: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und… |
 | [`Staffel, Index und Sonderfälle trennen`](skills/staffel-index-und-sonderfaelle-trennen/) | Erkennt Vertragsmodelle, für die ein gewöhnlicher Mietspiegelvergleich allein nicht reicht. Prüft… |
-| [`Staffelmiete Wirksamkeit: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/staffelmiete-wirksamkeit/) | Für Staffelmiete Wirksamkeit: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Steckersolar, Wallbox, Barrierefreiheit und Co.`](skills/steckersolar-wallbox-barrierefreiheit/) | Für Steckersolar, Wallbox, Barrierefreiheit und Co: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Steuer-Schnittstelle Vermietung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/steuer-schnittstelle-vermietung/) | Für Steuer-Schnittstelle Vermietung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
 | [`Steuerliche Schnittstellen`](skills/steuern-grunderwerbsteuer-entschaedigung/) | Für Steuerliche Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
@@ -541,7 +526,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Verbraucherbauvertrag, Bauträgervertrag, Widerruf und Unterlagen`](skills/verbraucherbauvertrag-650i-650u-widerruf-und-unterlagen/) | Für Verbraucherbauvertrag, Bauträgervertrag, Widerruf und Unterlagen: ordnet Akte, Belege und Lücken… |
 | [`Verbraucherstatus prüfen`](skills/verbraucherstatus-pruefen/) | Für Verbraucherstatus prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vergleich, Mediation und Nachbarschaftsfrieden`](skills/vergleich-mediation-nachbarschaftsfrieden/) | Für Vergleich, Mediation und Nachbarschaftsfrieden: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
-| [`Vergleich: Sonderfall und Edge-Case-Prüfung`](skills/vergleich-sonderfall-und-edge-case/) | Für Vergleich: Sonderfall und Edge-Case-Prüfung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Verhandlung und Drei-Dokumente-Paket`](skills/verhandlung-drei-dokumente-paket/) | Für Verhandlung und Drei-Dokumente-Paket: ordnet Akte, Belege und Lücken; Ergebnis: Verhandlungs- oder… |
 | [`Verjährung nach Paragraf 634a BGB und Hemmung`](skills/verjaehrung-634a-bgb-hemmung/) | Berechnet die Verjährung von Bauträger- und Bauwerksmängelansprüchen nach Paragraf 634a BGB und prüft… |
 | [`Verjährung Mietforderungen: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/verjaehrung-mietforderungen/) | Für Verjährung Mietforderungen: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
@@ -553,7 +537,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Vermieter und Bedarfsperson bestimmen`](skills/vermieter-und-bedarfsperson-pruefen/) | Klärt Vermieterstellung und die Person, für die Eigenbedarf geltend gemacht wird. Unterscheidet… |
 | [`Vermieterzutritt: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/vermieterzutritt/) | Für Vermieterzutritt: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Versicherungen und Gefahren`](skills/versicherungen-gefahren-zvg/) | Für Versicherungen und Gefahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Versicherungskosten: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/versicherungskosten/) | Für Versicherungskosten: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Versteigerung: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/versteigerung-tatbestand-beweis-und-belege/) | Für Versteigerung: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Teilnahme am Versteigerungstermin`](skills/versteigerungsteilnahme/) | Für Teilnahme am Versteigerungstermin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verteilungsplan § 155 ZVG`](skills/verteilungsplan-155/) | Für Verteilungsplan Paragraf 155 ZVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -575,9 +558,7 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Datenpaket WEG-Abrechnung zu Mietern: übersetzt Jahresabrechnung, Einzelabrechnung, Wirtschaftsplan, Heizkosten, CO2-Dat`](skills/weg-abrechnung-mieterschnittstelle-datenpaket/) | Für WEG Abrechnung Mieterschnittstelle Datenpaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`WEG Anfechtungsbegründung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-anfechtung-begruendung/) | Für WEG Anfechtungsbegründung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Fachanwalt Miet Wohnungseigentumsrecht Weg Anfechtungsklage 44: ordnet Normen, Nutzerangaben, Fristen, Belege und verifi`](skills/weg-anfechtungsklage-44/) | Für WEG Anfechtungsklage 44: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
-| [`WEG Balkonkraftwerk: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-balkonkraftwerk/) | Für WEG Balkonkraftwerk: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Bauliche: Formular, Portal und Einreichungslogik`](skills/weg-bauliche-formular-portal-einreichungslogik/) | Für Bauliche: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
-| [`Baum/Fassade/Dach: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-baum-fassade-dach/) | Für Baum/Fassade/Dach: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`WEG Baumängel/Gemeinschaft: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-baumaengel-gemeinschaft/) | Für WEG Baumängel/Gemeinschaft: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Verwaltungsbeirat Haftung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-beirat-haftung/) | Für Verwaltungsbeirat Haftung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Beschlüsse: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/weg-beschluesse-dokumentenmatrix-lueckenliste-nachforder/) | Für Beschlüsse: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |
@@ -593,10 +574,8 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`WEG Einladung/Tagesordnung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-einladung-tagesordnung/) | Für WEG Einladung/Tagesordnung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Fahrraddiebstahl/Sicherheit: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-fahrraddiebstahl-sicherheit/) | Für Fahrraddiebstahl/Sicherheit: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Handwerker: Internationaler Bezug und Schnittstellen`](skills/weg-handwerker-internationaler-bezug-schnittstellen/) | Für Handwerker: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
-| [`Handwerkervergabe: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-handwerkervergabe/) | Für Handwerkervergabe: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Hausgeld: Zahlen, Schwellenwerte und Berechnung`](skills/weg-hausgeld-zahlen-schwellenwerte-berechnung/) | Für Hausgeld: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Hausordnung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-hausordnung/) | Für Hausordnung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`Chronologie und Belegmatrix`](skills/weg-hausverwaltung-chronologie-und-belegmatrix/) | Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und… |
 | [`Dokumentenintake`](skills/weg-hausverwaltung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/weg-hausverwaltung-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Juristischer Argumentationskern - WEG Hausverwaltung`](skills/weg-hausverwaltung-juristischer-argumentationskern/) | Schaltet sich ein, wenn in WEG Hausverwaltung ein juristisches Arbeitsprodukt tragfähig begründet werden… |
@@ -612,10 +591,8 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`WEG Kostenverteilung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-kostenverteilung/) | Für WEG Kostenverteilung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Prüft Beschlüsse zur Kostenverteilung und Rücklagenzuführung nach § 16 Abs`](skills/weg-kostenverteilung-ruecklage-und-gewerbeprivileg/) | Für Prüft Beschlüsse zur Kostenverteilung und Rücklagenzuführung nach Paragraf 16 Abs: erstellt Entwurf… |
 | [`Kurzzeitvermietung in WEG: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-kurzzeitvermietung/) | Für Kurzzeitvermietung in WEG: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
-| [`WEG Ladeinfrastruktur: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-ladeinfrastruktur/) | Für WEG Ladeinfrastruktur: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`WEG Mehrheiten/Stimmrechte: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-mehrheiten-stimmrechte/) | Für WEG Mehrheiten/Stimmrechte: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Mieter in Versammlung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-mieter-in-versammlung/) | Für Mieter in Versammlung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`WEG Nichtigkeit: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-nichtigkeit/) | Für WEG Nichtigkeit: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Notgeschäftsführung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-notgeschaeftsfuehrung/) | Für Notgeschäftsführung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Operatives: Erstprüfung, Rollenklärung und Mandatsziel`](skills/weg-operatives-erstpruefung-rollenklaerung-mandatsziel/) | Für Operatives: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Output-Router Miet/WEG`](skills/weg-output-router/) | Für Output-Router Miet/WEG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -623,19 +600,15 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Privilegierte Maßnahmen § 20 WEG: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-privilegierte-massnahmen/) | Für Privilegierte Maßnahmen Paragraf 20 WEG: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
 | [`Protokoll: Behörden-, Gerichts- oder Registerweg`](skills/weg-protokoll-behoerden-gerichts-registerweg/) | Für Protokoll: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Restaurant/Geruch/Lärm in Anlage: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-restaurant-geruch-laerm/) | Für Restaurant/Geruch/Lärm in Anlage: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
-| [`Sondereigentum/Gemeinschaftseigentum: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-sondereigentum-gemeinschaftseigentum/) | Für Sondereigentum/Gemeinschaftseigentum: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
 | [`Sondernutzungsrecht: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-sondernutzungsrecht/) | Für Sondernutzungsrecht: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`WEG Sonderumlage: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-sonderumlage/) | Für WEG Sonderumlage: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Sonderumlage: Compliance-Dokumentation und Aktenvermerk`](skills/weg-sonderumlage-compliance-dokumentation-aktenvermerk/) | Für Sonderumlage: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`WEG: Tatbestandsmerkmale, Beweisfragen und Beleglage im WEG- und Hausverwaltungsrecht: fachlich vertieftes Modul mit Nor`](skills/weg-tatbestand-beweis-und-belege/) | Für WEG Tatbestand Beweis und Belege: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und… |
 | [`WEG: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/weg-tatbestandsmerkmale-beweisfragen-beleglage/) | Für WEG: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Tauben/Schädlinge: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-tauben-schaedlinge/) | Für Tauben/Schädlinge: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`Online-/Hybridversammlung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-teilnahme-online-hybrid/) | Für Online-/Hybridversammlung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Umlaufbeschluss: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-umlaufbeschluss/) | Für Umlaufbeschluss: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`WEG Unterlassungsklage: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-unterlassungsklage/) | Für WEG Unterlassungsklage: Fachmodul im Miet- und Wohnungseigentumsrecht: erstellt Entwurf mit Antrag… |
-| [`Vermietete Eigentumswohnung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-vermietete-eigentumswohnung/) | Für Vermietete Eigentumswohnung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`WEG Versicherungsfall: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-versicherungsfall/) | Für WEG Versicherungsfall: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`Verwalterbestellung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-verwalterbestellung/) | Für Verwalterbestellung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Verwalterpflichtverletzung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-verwalterpflichtverletzung/) | Für Verwalterpflichtverletzung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Beiratskommunikation: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-verwaltungsbeirat-kommunikation/) | Für Beiratskommunikation: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`WEG Wärmepumpe/GEG: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/weg-waermepumpe-geg/) | Für WEG Wärmepumpe/GEG: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
@@ -668,45 +641,31 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Abschlusskontrolle Miet/WEG: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-abschlusskontrolle-miet-weg/) | Für Abschlusskontrolle Miet/WEG: Prüfungslinie für Miet- und WEG-Recht: prüft Ergebnis, Beweislast und… |
 | [`Balkonkraftwerk und Solar: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-balkonkraftwerk-solar/) | Für Balkonkraftwerk und Solar: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Barrierereduzierung in Miete und WEG steuern`](skills/workflow-barrierefreiheit-weg-miete/) | Für Barrierereduzierung in Miete und WEG steuern: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Bauliche-Veränderung-Routing: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-bauliche-veraenderung-routing/) | Für Bauliche-Veränderung-Routing: Prüfungslinie für Miet- und WEG-Recht: routet Rolle, Frist, Unterlagen… |
-| [`Betriebskosten-Schnellscan: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-betriebskosten-schnellscan/) | Für Betriebskosten-Schnellscan: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`CO2-Kosten-Routing: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-co2-kosten-routing/) | Für CO2-Kosten-Routing: Prüfungslinie für Miet- und WEG-Recht: routet Rolle, Frist, Unterlagen und… |
 | [`Datenschutz in Hausverwaltung und Wohnanlage prüfen`](skills/workflow-datenschutz-hausverwaltung/) | Für Datenschutz in Hausverwaltung und Wohnanlage prüfen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Dokumentenstapel sortieren: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-dokumentenstapel-sortieren/) | Für Dokumentenstapel sortieren: Prüfungslinie für Miet- und WEG-Recht: ordnet Akte, Belege und Lücken… |
 | [`First-Year-Associate-Coach Mietrecht: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-first-year-associate-mietrecht/) | Für First-Year-Associate-Coach Mietrecht: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast… |
 | [`Fotobeweis-Mangel: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-fotobeweis-mangel/) | Für Fotobeweis-Mangel: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und Gegenargument… |
-| [`Fristenrettung Miet/WEG: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-fristenrettung-miet-weg/) | Für Fristenrettung Miet/WEG: Prüfungslinie für Miet- und WEG-Recht: prüft Frist, Form, Zuständigkeit und… |
 | [`GEG/Wärmepumpe-Routing: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-geg-waermepumpe-routing/) | Für GEG/Wärmepumpe-Routing: Prüfungslinie für Miet- und WEG-Recht: routet Rolle, Frist, Unterlagen und… |
 | [`Gerichtstermin Vorbereitung: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-gerichtstermin-vorbereitung/) | Für Gerichtstermin Vorbereitung: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Gewerberaum-Intake: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-gewerberaum-intake/) | Für Gewerberaum-Intake: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Haustier-/Nachbarkonflikt: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-haustier-nachbar-konflikt/) | Für Haustier-/Nachbarkonflikt: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Hausverwaltungs-Intake: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-hausverwaltung-intake/) | Für Hausverwaltungs-Intake: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Heizungsausfall sofort: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-heizungsausfall-sofort/) | Für Heizungsausfall sofort: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Index-/Staffelmiete: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-indexmiete-staffelmiete/) | Für Index-/Staffelmiete: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Inkasso/Mahnung Miete: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-inkasso-mahnung-miete/) | Für Inkasso/Mahnung Miete: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Kaution nach Auszug: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-kaution-nach-auszug/) | Für Kaution nach Auszug: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Kosten und Streitwert: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-kosten-streitwert/) | Für Kosten und Streitwert: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Kündigung-Zugang-Check: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-kuendigung-zugang-check/) | Für Kündigung-Zugang-Check: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Ladestation Tiefgarage: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-ladestation-tiefgarage/) | Für Ladestation Tiefgarage: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Laienmodus Wohnraummiete: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-laienmodus-wohnraummiete/) | Für Laienmodus Wohnraummiete: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Mandantenbrief einfach: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-mandantenbrief-einfach/) | Für Mandantenbrief einfach: Prüfungslinie für Miet- und WEG-Recht: erstellt Entwurf mit Antrag, Beweis… |
 | [`Mieterhöhung-Entscheidung: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-mieterhoehung-entscheidung/) | Für Mieterhöhung-Entscheidung: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`One-Shot-Verbraucherprüfung Bauträgervertrag`](skills/workflow-one-shot-verbraucherpruefung/) | Für One-Shot-Verbraucherprüfung Bauträgervertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rechtsmittel Miet/WEG: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-rechtsmittel-miet-weg/) | Für Rechtsmittel Miet/WEG: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Red-Team Miet/WEG: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-redteam-miet-weg/) | Für Red-Team Miet/WEG: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Restaurant in WEG-Anlage: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-restaurant-in-weg-anlage/) | Für Restaurant in WEG-Anlage: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Räumungsrisiko-Ampel: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-risikoampel-raeumung/) | Für Räumungsrisiko-Ampel: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Schimmel/Lüften/Heizen: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-schimmel-lueften-heizen/) | Für Schimmel/Lüften/Heizen: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Schriftsatz aus Stapel: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-schriftsatz-aus-stapel/) | Für Schriftsatz aus Stapel: Prüfungslinie für Miet- und WEG-Recht: erstellt Entwurf mit Antrag, Beweis… |
-| [`Teilungserklärung auslesen: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-teilungsordnung-auslesen/) | Für Teilungserklärung auslesen: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Untervermietung-Entscheidung: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-untervermietung-entscheidung/) | Für Untervermietung-Entscheidung: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
-| [`Vergleichsfenster Mietstreit: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-vergleichsfenster-mietstreit/) | Für Vergleichsfenster Mietstreit: Prüfungslinie für Miet- und WEG-Recht: entwickelt Ziel, Vergleich und… |
 | [`WhatsApp-/E-Mail-Beweis: Prüfungslinie für Miet- und WEG-Recht`](skills/workflow-whatsapp-email-beweis/) | Für WhatsApp-/E-Mail-Beweis: Prüfungslinie für Miet- und WEG-Recht: ordnet Norm, Beweislast und… |
 | [`Wurzeln: Behörden-, Gerichts- oder Registerweg`](skills/wurzeln-behoerden-gericht-und-registerweg/) | Für Wurzeln: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zahlungsverzug, Kündigung und Schonfrist: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/zahlungsverzug-kuendigung-schonfrist/) | Für Zahlungsverzug, Kündigung und Schonfrist: Fachmodul im Miet- und Wohnungseigentumsrecht: prüft… |
-| [`Zaun: Verhandlung, Vergleich und Eskalation`](skills/zaun-verhandlung-vergleich-und-eskalation/) | Für Zaun: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Zeitmietvertrag: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/zeitmietvertrag/) | Für Zeitmietvertrag: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
-| [`Zwangsversteigerung Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/zwangsversteigerung-mietrecht/) | Für Zwangsversteigerung Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
 | [`Zwangsverwaltung: Erstprüfung, Rollenklärung und Mandatsziel`](skills/zwangsverwaltung-erstpruefung-und-mandatsziel/) | Für Zwangsverwaltung: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Zwangsverwaltung Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/zwangsverwaltung-mietrecht/) | Für Zwangsverwaltung Mietrecht: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Anschluss-Routing`](skills/zwangsverwaltung-zvg-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |

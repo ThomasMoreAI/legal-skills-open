@@ -4,7 +4,7 @@ Sports law — player and athlete contracts, anti-doping defence, disputes befor
 
 Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 
-## Skills (70)
+## Skills (65)
 
 | Skill | What it does |
 |---|---|
@@ -47,23 +47,19 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Fifa: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/fifa-dokumentenmatrix-und-lueckenliste/) | Für Fifa: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Fußballtransfer und Vertragsbeendigung`](skills/fussballtransfer-vertragsbruch-und-rstp/) | Bearbeitet internationale Fußballtransfers mit vorzeitiger Vertragsbeendigung, Entschädigung… |
 | [`Gesellschaftsrecht: Beweislast, Darlegungslast und Substantiierung`](skills/gesellschaftsrecht-beweislast-und-darlegungslast/) | Für Gesellschaftsrecht: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und… |
-| [`Mandat: Abschlussprodukt und Übergabe`](skills/mandat-abschlussprodukt-und-uebergabe/) | Für Mandat: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Persoenlichkeitsrechte: Formular, Portal und Einreichungslogik`](skills/persoenlichkeitsrechte-formular-portal-und-einreichung/) | Für Persönlichkeitsrechte: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
 | [`Schiedsklausel Csport`](skills/schiedsklausel-csport/) | Für Schiedsklausel Csport: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Schiedsverfahren: Schriftsatz-, Brief- und Memo-Bausteine`](skills/schiedsverfahren-schriftsatz-brief-und-memo-bausteine/) | Für Schiedsverfahren: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Doping: Livequellen- und Rechtsprechungscheck`](skills/spezial-doping-livequellen-und-rechtsprechungscheck/) | Für Doping: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Veranstalterhaftung: Red-Team und Qualitätskontrolle`](skills/spezial-veranstalterhaftung-red-team-und-qualitaetskontr/) | Für Veranstalterhaftung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Einsatzschwelle, Option und Prämien`](skills/spielereinsaetze-optionsschwelle-praemienbeweis/) | Prüft einsatzabhängige Vertragsverlängerung und Prämien im deutschen Profifußball anhand von… |
-| [`Spielervertraege: Verhandlung, Vergleich und Eskalation`](skills/spielervertraege-verhandlung-vergleich-und-eskalation/) | Für Spielerverträge: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Fachanwalt Sportrecht Spielervertrag: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu e`](skills/spielervertrag/) | Für Spielervertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Sponsoring: Internationaler Bezug und Schnittstellen`](skills/sponsoring-internationaler-bezug-und-schnittstellen/) | Für Sponsoring: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Sportanlagenlärm und Nachbarschutz prüfen`](skills/sportanlagenlaerm-nachbarschutz-pruefen/) | Prüft Lärmkonflikte zwischen Sportanlage und Nachbarschaft anhand Anlagenart, Gebietscharakter… |
 | [`Anti-Doping in der Praxis: NADA-Code, WADA-Code, Strict Liability, Verfahrensgang vor Schiedsgericht der NADA und CAS in`](skills/sportr-anti-doping-praxis/) | Für Sportr Anti Doping Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leitfaden Arbeitsrecht im Sport: Spielervertrag als befristeter Arbeitsvertrag, Befristungsrecht BAG, Transferregeln FIF`](skills/sportr-arbeitsrecht-im-sport-leitfaden/) | Für Sportr Arbeitsrecht im Sport Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bauleiter Athletenvertrag: Vergütung, Image- und Vermarktungsrechte, Trainingspflichten, Wettkampfteilnahme, Dopingklaus`](skills/sportr-athletenvertrag-bauleiter/) | Für Sportr Athletenvertrag Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Spezialfall Doping-Disziplinarverfahren CAS / NADA: Beweisregeln, Strict Liability, Whereabouts, Verkuerzungsruende, The`](skills/sportr-doping-disziplinarverfahren-spezial/) | Für Sportr Doping Disziplinarverfahren Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Sportrecht einfuehrend: Sportverbandsrecht, Verbandsstrafrecht, Anti-Doping, Sportarbeitsvertraege (Profisport), Sponsor`](skills/sportr-einfuehrung-rechtsfelder/) | Für Sportr Einführung Rechtsfelder: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Sportr: Sonderfall und Edge-Case-Prüfung`](skills/sportr-sonderfall-edge-case/) | Für Sportr: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Spielerberater-Rechtsverhaeltnis: FIFA-Reglement RWFC 2023, DFB-Reglement, Klauseln Exclusive Mandate, Commi`](skills/sportr-spielerberater-rechtsverhaeltnis-spezial/) | Für Sportr Spielerberater Rechtsverhältnis Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Stadionverbot und Fanrechte: bundesweite und oertliche Stadionverbote, BGH-Rechtsprechung zu Anhörung, gleic`](skills/sportr-stadionverbot-fanrechte-spezial/) | Für Sportr Stadionverbot Fanrechte Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Stadionverbot und Fan-Rechte: Hausrecht des Vereins, bundesweites Stadionverbot, Anhörungspflicht, Klage Anf`](skills/sportr-stadionverbot-und-fan-rechte-spezial/) | Für Sportr Stadionverbot und Fan Rechte Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -71,7 +67,6 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Sportverfahren-Versandmappe endfertigen`](skills/sportverfahren-versandmappe-endfertigen/) | Endfertigt Verbandsrechtsbehelf, DIS- oder CAS-Schriftsatz und staatlichen Eilantrag: trennt interne… |
 | [`Fan erhaelt bundesweites Stadion-Hausverbot und will dieses anfechten`](skills/stadion-hausverbot/) | Für Fan erhält bundesweites Stadion-Hausverbot und will dieses anfechten: ordnet Norm, Beweislast und… |
 | [`Profi-Sportler will Verein wechseln und braucht Prüfung von Transfervertrag Ausstiegsklausel Transferperiode`](skills/transferklausel/) | Für Transferklausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Uefa: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/uefa-risikoampel-und-gegenargumente/) | Für Uefa: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Veranstalterhaftung Fehlerkatalog`](skills/veranstalterhaftung-fehlerkatalog/) | Für Veranstalterhaftung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verbandsrecht: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/verbandsrecht-fristen-form-und-zustaendigkeit/) | Für Verbandsrecht: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Vereinsrechtliche sanktion`](skills/vereinsrechtliche-sanktion/) | Anfechtung sportrechtlicher Vereins- und Verbandssanktionen – Vereinsausschluss (BGB §§ 25, 39)… |

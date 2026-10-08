@@ -4,7 +4,7 @@ Consumer protection and fair-trading law — unfair commercial practices, mislea
 
 Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 
-## Skills (156)
+## Skills (154)
 
 | Skill | What it does |
 |---|---|
@@ -111,7 +111,6 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Rechtsabteilung: Influencer- und Affiliate-Shop`](skills/rechtsabteilung-influencer-omnibus/) | Für Rechtsabteilung: Influencer- und Affiliate-Shop: ordnet Norm, Beweislast und Gegenargument… |
 | [`Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation`](skills/rechtsabteilung-omnibus-preisangaben-und-rabattkommunika/) | Für Rechtsabteilung: Omnibus-Preisangaben und Rabattkommunikation: ordnet Norm, Beweislast und… |
 | [`Rechtsabteilung: Online-Marktplatz nach DSA`](skills/rechtsabteilung-online-marktplatz-nach-dsa/) | Für Rechtsabteilung: Online-Marktplatz nach DSA: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Rechtstexte-Versionierung Deployment`](skills/rechtstexte-versionierung-retourenmanagement/) | Für Rechtstexte-Versionierung Deployment: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Red-Team Shop vor Launch`](skills/red-team-shop-vor-launch/) | Für Red-Team Shop vor Launch: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Reise, Flug und Zug Problem`](skills/reise-flug-reparatur-statt-vermerk-mustertext/) | Für Reise, Flug und Zug Problem: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`/reise-fluggastrecht:reiseruecktritt-insolvenzschutz`](skills/reiseruecktritt-insolvenzschutz-borghei/) | Rücktritt vor Reisebeginn und Absicherung der Vorauszahlungen – Rücktrittsrecht des Reisenden § 651h… |
@@ -155,7 +154,6 @@ Jurisdiction: `de` · Practice: `consumer` · Skill language: de
 | [`Juristischer Argumentationskern - Verbraucherschutzrecht Prüfer`](skills/verbraucherschutzrecht-pruefer-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Verbraucherschutzrecht Prüfer ein juristisches Arbeitsprodukt tragfähig… |
 | [`Verbraucherschutzrecht Prüfer - Allgemeiner Einstieg`](skills/verbraucherschutzrecht-pruefer-kaltstart-triage/) | Für Verbraucherschutzrecht Prüfer - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
 | [`Juristischer Argumentationskern - Verbraucherschutzverband Durchsetzung`](skills/verbraucherschutzverband-durchse-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Verbraucherschutzverband Durchsetzung ein juristisches Arbeitsprodukt… |
-| [`Verbraucherschutzverband Durchsetzung - Allgemeiner Einstieg`](skills/verbraucherschutzverband-durchsetzung-kaltstart-triage/) | Für Verbraucherschutzverband Durchsetzung - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
 | [`VDG 102 Inkasso Konzerninkasso Musterfeststellung`](skills/verbraucherverband-inkasso-konzerninkasso-musterfeststel/) | Für VDG 102 Inkasso Konzerninkasso Musterfeststellung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vergleichsangebot prüfen`](skills/vergleichsangebot-pruefen/) | Für Vergleichsangebot prüfen: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Versicherung lehnt ab`](skills/versicherung-lehnt-vorladung-polizei-zahnarzt/) | Für Versicherung lehnt ab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

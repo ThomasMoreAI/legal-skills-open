@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (237)
+## Skills (236)
 
 | Skill | What it does |
 |---|---|
@@ -85,7 +85,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`/csrd:eu-taxonomie`](skills/eu-taxonomie-borghei/) | Einordnung von Wirtschaftstätigkeiten nach der Taxonomie-VO (EU) 2020/852 – Taxonomiefähigkeit und… |
 | [`EU transparency register`](skills/eu-transparency-register-nolpak14/) | Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the… |
 | [`EU: Petitionsausschuss`](skills/eur-anrufung-state-beihilfen-vergaben/) | Für EU: Petitionsausschuss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
-| [`EU: Vertragsverletzung Art. 258`](skills/eur-kommissionsverfahren-art-258-spezial/) | Für EU: Vertragsverletzung Art. 258: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU: Zuständigkeiten`](skills/eur-mandant-uebersicht-zustaendigkeiten/) | Für EU: Zuständigkeiten: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Schnittstellenkarte… |
 | [`EU: State-Aid-Notifikation`](skills/eur-state-aid-notifikation-spezial/) | Für EU: State-Aid-Notifikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Beihilfen, Förderungen und Vergabe`](skills/europarecht-beihilfen-vergaben/) | Für Beihilfen, Förderungen und Vergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

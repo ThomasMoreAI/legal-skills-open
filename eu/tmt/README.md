@@ -4,7 +4,7 @@ Technology, Media & Telecommunications practice.
 
 Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 
-## Skills (54)
+## Skills (52)
 
 | Skill | What it does |
 |---|---|
@@ -47,8 +47,6 @@ Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 | [`Cyber Resilience Act Software`](skills/eu-cyber-resilience-act-software/) | Für Cyber Resilience Act Software: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU-DE Rechtsstand Livecheck`](skills/eu-de-umsetzung-und-rechtsstand-livecheck/) | Für EU-DE Rechtsstand Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU Electronic Communications Code Router`](skills/eu-eecc-router/) | Für EU Electronic Communications Code Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`EU-Konformitäts- und Einbauerklärung`](skills/eu-konformitaetserklaerung-einbauerklaerung/) | Für EU-Konformitäts- und Einbauerklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`EU-Konformitäts- und Einbauerklärung`](skills/eu-konformitaetserklaerung-foss-open/) | Für EU-Konformitäts- und Einbauerklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gatekeeper: Schriftsatz-, Brief- und Memo-Bausteine`](skills/gatekeeper-schriftsatz-brief-und-memo-bausteine/) | Für Gatekeeper: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Klage gegen Designations-Beschluss — Art. 263 AEUV`](skills/klage-gegen-vlop-einordnung-art-263-aeuv/) | Bereitet die Nichtigkeitsklage eines adressierten Unternehmens gegen eine VLOP- oder… |
 | [`Klagewege: Mandantenkommunikation und Entscheidungsvorlage`](skills/klagewege-mandantenkommunikation-entscheidungsvorlage/) | Für Klagewege: Mandantenkommunikation und Entscheidungsvorlage: erstellt Entwurf mit Antrag, Beweis und… |

@@ -37,13 +37,11 @@
     "skills/konnossement-hypothek-bestellen",
     "skills/konnossement-kaufvertrag-scopen",
     "skills/konnossement-register-pruefen",
-    "skills/konnossement-risiko-memo-schreiben",
     "skills/konnossement-wrackpflicht-pruefen",
     "skills/kreuzfahrtschiff-hypothek-bestellen",
     "skills/kreuzfahrtschiff-kaufvertrag-scopen",
     "skills/kreuzfahrtschiff-local-counsel-instrui",
     "skills/kreuzfahrtschiff-register-pruefen",
-    "skills/kreuzfahrtschiff-risiko",
     "skills/offshore-schiff-arrest-vorbereiten",
     "skills/offshore-schiff-binnenschiff",
     "skills/offshore-schiff-register-pruefen",
@@ -56,7 +54,6 @@
     "skills/schiffbauwerk-hypothek-bestellen",
     "skills/schiffbauwerk-kaufvertrag-scopen",
     "skills/schiffbauwerk-register-pruefen",
-    "skills/schiffbauwerk-risiko-yachtkauf-register",
     "skills/schiffbauwerk-wrackpflicht-versicherung",
     "skills/schiffshypothek-hypothek-bestellen",
     "skills/schiffshypothek-kaufvertrag-scopen",
@@ -69,7 +66,6 @@
     "skills/see-080-offshore-schiff-risiko-memo-schreiben",
     "skills/see-081-binnenschiff-register-pruefen",
     "skills/seearbeitsrecht-schnittstelle",
-    "skills/seerecht-schifffahrtsrecht-juristischer-argumentationskern",
     "skills/seerecht-schifffahrtsrecht-kaltstart-triage",
     "skills/seeschiff-oder-binnenschiff",
     "skills/umwelt-marpol-itlos-hamburg-dokumenten",
@@ -82,9 +78,6 @@
     "skills/werftvertrag-wrackpflicht-pruefen",
     "skills/yachtkauf-hypothek-bestellen",
     "skills/yachtkauf-kaufvertrag-scopen",
-    "skills/yachtkauf-klagepfad-waehlen",
-    "skills/yachtkauf-register-pruefen",
-    "skills/yachtkauf-risiko-memo-schreiben",
-    "skills/yachtkauf-wrackpflicht-pruefen"
+    "skills/yachtkauf-klagepfad-waehlen"
   ]
 }
