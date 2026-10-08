@@ -1,0 +1,20 @@
+{
+  "name": "operacoes",
+  "description": "Skills de operacoes - SOPs, POPs, delegacao, onboarding, planejamento trimestral, gestao de projetos e diagnostico de gargalos.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tiago PGR",
+    "email": "tiagopgr22@gmail.com"
+  },
+  "homepage": "https://github.com/tiagopgr/skills-ia",
+  "repository": "https://github.com/tiagopgr/skills-ia",
+  "license": "MIT",
+  "keywords": [
+    "operacoes",
+    "sop",
+    "processos",
+    "onboarding",
+    "gestao",
+    "planejamento"
+  ]
+}

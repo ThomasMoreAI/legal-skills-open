@@ -20,7 +20,9 @@ Search patents and published applications.
 async with PublicSearchClient() as client:
     page = await client.search_biblio(query="machine learning")
 
-    page.num_found        # total result count
+    page.num_found        # families on this page
+    page.num_families     # total families matching the query
+    page.num_documents    # total documents matching the query
     page.per_page         # results per page
     page.page             # current page number
 
@@ -38,8 +40,8 @@ async with PublicSearchClient() as client:
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | `query` | str | required | Search query (PPUBS syntax) |
-| `start` | int | 0 | Result offset |
-| `limit` | int | 500 | Max results (capped at 500) |
+| `start` | int | 0 | Family offset |
+| `limit` | int | 20 | Max families per page (capped at 20); each family returns all its matching documents |
 | `sort` | str | "date_publ desc" | Sort order |
 | `default_operator` | str | "OR" | Default boolean operator |
 | `sources` | list[str] | ["US-PGPUB", "USPAT", "USOCR"] | Databases to search |

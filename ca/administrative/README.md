@@ -6,11 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `ca` · Practice: `administrative` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
 | [`Administrative Law — Canadian Doctrine`](skills/administrative-law-canada-dmang69/) | Canadian administrative law doctrine — the Vavilov framework for judicial review, standards of review… |
+| [`User Request`](skills/arckit-ca-atip-tractorjuice/) | [COMMUNITY] Generate a Canada ATIP reconciliation — Access to Information Act exemption mapping, Privacy… |
+| [`User Request`](skills/arckit-ca-ola-tractorjuice/) | [COMMUNITY] Generate an Official Languages Act review — Parts IV (services), V (language of work), VI… |
 | [`BC Judicial Review Guide (RTB / tribunal → BCSC)`](skills/bc-judicial-review-guide-dmang69/) | Use when BC RTB/tribunal JR, Form 66, stay, or ATA s.57/s.58 work is needed. Patent unreasonableness… |
 | [`The Municipal Code of Québec (C-27.1)`](skills/quebec-municipal-law-vezril/) | The Municipal Code of Québec (CQLR c. C-27.1) — the general statute for local (mainly rural)… |
 

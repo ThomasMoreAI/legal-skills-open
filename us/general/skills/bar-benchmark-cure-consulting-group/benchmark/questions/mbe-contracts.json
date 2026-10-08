@@ -1,0 +1,368 @@
+{
+  "set": "mbe-contracts",
+  "title": "MBE-style — Contracts (common law and UCC Article 2)",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-K-001",
+      "subject": "Contracts",
+      "area": "Scope of Article 2 — mixed contracts",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A homeowner signed a single contract with a heating company for a new furnace, installed, for a total price of $12,000; the invoice allocated $10,000 to the furnace unit and $2,000 to installation labor. The furnace was delivered and installed on the same day. Five years and two months later, the homeowner sued for breach of warranty, alleging the heat exchanger was defective from the start. The contract contains no warranty of future performance. The jurisdiction's general limitations period for contract actions is six years and it has enacted the UCC. Which is the most accurate statement about the timeliness of the claim?",
+      "choices": {
+        "A": "The claim is timely, because the contract included installation services and is therefore governed by the six-year common-law period.",
+        "B": "The claim is timely, because a warranty claim under the UCC accrues when the buyer discovers the defect.",
+        "C": "The claim is untimely, because the predominant purpose of the contract was the sale of goods and the UCC's four-year period ran from tender of delivery.",
+        "D": "The claim is timely, because a furnace installed in a house is a fixture, so the contract concerns real property rather than goods."
+      },
+      "answer": "C",
+      "cite": "UCC 2-102, 2-105, 2-725(1)-(2); predominant-purpose test",
+      "why": "C: goods were 83% of price, so Article 2 governs the whole contract and 2-725 runs four years from tender. A misapplies the test (incidental services do not flip the contract). B is wrong because 2-725 accrual is on tender regardless of knowledge absent an explicit future-performance warranty. D is wrong because the goods were movable when identified to the contract.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-002",
+      "subject": "Contracts",
+      "area": "Battle of the forms",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A restaurant-supply distributor sent a purchase order to a manufacturer for 500 stainless steel prep tables at a stated price. The purchase order said nothing about dispute resolution and did not limit acceptance to its terms. The manufacturer returned its standard acknowledgment form, which stated 'We accept your order' and added, in its fine print, that all disputes would be resolved by binding arbitration. Arbitration is not customary in their trade, and the parties had no prior dealings. The distributor did not respond to the acknowledgment. The tables were shipped and paid for. When a dispute arose over the tables' gauge, the distributor sued in court and the manufacturer moved to compel arbitration. Is the arbitration term part of the contract?",
+      "choices": {
+        "A": "No, because an arbitration clause materially alters the contract and therefore did not become part of it even between merchants.",
+        "B": "Yes, because between merchants additional terms in an acceptance become part of the contract unless the offeror objects, and the distributor never objected.",
+        "C": "No, because the acknowledgment did not mirror the purchase order, so no contract was formed until shipment, and the terms are then only those the writings share.",
+        "D": "Yes, because the manufacturer's acknowledgment was the last form sent and the distributor accepted its terms by taking and paying for the tables."
+      },
+      "answer": "A",
+      "cite": "UCC 2-207(1)-(2)",
+      "why": "A: the acknowledgment was a definite expression of acceptance (not expressly conditional), so a contract formed on the PO terms; the added term is a proposal that fails 2-207(2)(b) because arbitration is a material alteration. B ignores the material-alteration exception. C applies the mirror-image rule 2-207 displaces. D is the common-law last-shot rule, rejected by 2-207.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-003",
+      "subject": "Contracts",
+      "area": "Merchant's firm offer",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "On March 1, a lumber dealer sent a signed letter to a builder: 'We offer 100,000 board feet of kiln-dried pine at $0.90 per foot. This offer will remain open until September 1.' The builder gave nothing for the promise. On May 15 the dealer notified the builder that the offer was withdrawn. On May 20 the builder sent an unequivocal acceptance. Is there a contract?",
+      "choices": {
+        "A": "Yes, because the dealer's signed promise made the offer irrevocable until September 1.",
+        "B": "No, because an offer may be revoked at any time before acceptance unless the offeree gives consideration for an option.",
+        "C": "No, because the builder had not relied on the offer before it was revoked.",
+        "D": "Yes, because a merchant's signed written assurance that an offer will be held open makes it irrevocable for the stated time up to three months, and May 20 fell within that period."
+      },
+      "answer": "D",
+      "cite": "UCC 2-205",
+      "why": "D: a signed merchant firm offer needs no consideration but is irrevocable only for the stated period capped at three months (here through June 1), so the May 15 revocation was ineffective. A reaches the right result on a wrong rule (irrevocability cannot run to September 1). B is the common-law option rule 2-205 displaces. C imports a reliance requirement the firm-offer rule does not have.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-004",
+      "subject": "Contracts",
+      "area": "Statute of frauds — merchant confirmation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A textile mill and a clothing manufacturer agreed by telephone that the mill would sell the manufacturer 8,000 yards of denim for $40,000. The next day the mill mailed the manufacturer a signed memo reciting the quantity, price, and delivery date. The manufacturer's purchasing agent read the memo on receipt and filed it without responding. Three weeks later the manufacturer told the mill it would not take the denim. The mill sued, and the manufacturer pleaded the statute of frauds. What is the effect of the memo?",
+      "choices": {
+        "A": "The manufacturer prevails, because it never signed any writing evidencing the contract.",
+        "B": "The manufacturer may not rely on the statute of frauds, but the mill must still prove that the oral contract was made.",
+        "C": "The mill prevails, because the unanswered memo conclusively establishes the contract and its terms.",
+        "D": "The manufacturer prevails, because even between merchants the writing must be signed by the party to be charged."
+      },
+      "answer": "B",
+      "cite": "UCC 2-201(1)-(2)",
+      "why": "B: a merchant's written confirmation, sufficient against the sender, satisfies 2-201 against a merchant recipient who has reason to know its contents and does not object within 10 days, but it only removes the statute-of-frauds defense. A and D state the general signed-by-the-party-to-be-charged rule that 2-201(2) excepts. C overstates the effect: the confirmation is not conclusive proof of the contract.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-005",
+      "subject": "Contracts",
+      "area": "Perfect tender and cure",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A furniture maker contracted to deliver 200 navy-blue dining chairs to a hotel by June 30. On June 10 it delivered 200 chairs in a noticeably lighter blue. The hotel rejected them on June 11. On June 12 the maker told the hotel it would deliver conforming navy chairs by June 25. The hotel replied that it was canceling the contract and would buy elsewhere. Is the hotel entitled to cancel?",
+      "choices": {
+        "A": "No, because the time for performance had not expired and the maker seasonably notified the hotel of its intent to cure with a conforming delivery.",
+        "B": "Yes, because under the perfect tender rule a buyer may reject nonconforming goods and cancel the contract.",
+        "C": "No, but only if the maker had reasonable grounds to believe the lighter chairs would be acceptable.",
+        "D": "No, because the color difference did not substantially impair the value of the goods, so the hotel had to accept them."
+      },
+      "answer": "A",
+      "cite": "UCC 2-508(1), 2-601",
+      "why": "A: when a tender is rejected before the contract time expires, the seller may cure by notifying and making a conforming delivery within the contract time. B ignores the cure right that limits perfect tender. C states the 2-508(2) test for cure after the contract time, which does not apply. D imports the installment-contract substantial-impairment standard (2-612) into a single-delivery contract.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-006",
+      "subject": "Contracts",
+      "area": "Risk of loss",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A consumer bought a refrigerator from an appliance store and paid the full price. The contract said nothing about risk of loss or delivery. The consumer said she would come back with a truck the next morning. The store tagged the refrigerator with her name and moved it to the loading dock. That night, without fault by anyone, a fire destroyed the store's loading dock and the refrigerator. Who bears the loss?",
+      "choices": {
+        "A": "The consumer, because title passed to her when the goods were identified to the contract and paid for.",
+        "B": "The consumer, because the store tendered delivery by holding the conforming refrigerator at her disposal.",
+        "C": "The store, because a merchant seller keeps the risk of loss until the buyer receives the goods.",
+        "D": "The loss is divided equally, because neither party was at fault."
+      },
+      "answer": "C",
+      "cite": "UCC 2-509(3)",
+      "why": "C: with no carrier or bailee, risk passes on the buyer's receipt when the seller is a merchant; the consumer never took physical possession. A is wrong because Article 2 allocates risk independent of title. B states the non-merchant rule (risk passes on tender). D has no basis in Article 2.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-007",
+      "subject": "Contracts",
+      "area": "Buyer's remedies — cover",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A bakery contracted to buy flour from a mill for $50,000, delivery April 1. On March 1 the mill repudiated. On March 10, acting reasonably and in good faith, the bakery bought substitute flour for $58,000. It incurred $500 in reasonable expenses finding the substitute and saved $200 in freight it would have paid under the original contract. On April 1 the market price of comparable flour was $60,000. The bakery suffered no consequential loss. What is the bakery's recovery?",
+      "choices": {
+        "A": "$10,000.",
+        "B": "$8,000.",
+        "C": "$10,300.",
+        "D": "$8,300."
+      },
+      "answer": "D",
+      "cite": "UCC 2-712(2), 2-715(1)",
+      "why": "D: cover damages are cover price minus contract price ($8,000) plus incidental damages ($500) minus expenses saved ($200). A uses the April 1 market differential, which a buyer who covered does not get. B omits incidentals and savings. C adds incidentals to the wrong (market) measure and ignores the savings.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-008",
+      "subject": "Contracts",
+      "area": "Offer and acceptance — mailbox rule",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An art dealer mailed a collector an offer to sell a painting for $30,000, stating no method of acceptance. On Monday the collector mailed a letter rejecting the offer. On Tuesday, having changed his mind, the collector telephoned the dealer and accepted. The dealer received the rejection letter on Wednesday and then refused to sell. Is there a contract?",
+      "choices": {
+        "A": "No, because the rejection was effective when mailed on Monday, terminating the offer.",
+        "B": "Yes, because the acceptance reached the dealer before the rejection did.",
+        "C": "Yes, because an acceptance is effective on dispatch and prevails over any earlier rejection.",
+        "D": "No, because once a rejection is dispatched, a later acceptance operates only as a counteroffer."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Contracts §§40, 63",
+      "why": "B: when a rejection is sent first, the mailbox rule does not apply to the later acceptance; whichever communication arrives first controls, and the acceptance arrived first. A is wrong because rejections are effective only on receipt. C misstates the rule for the rejection-then-acceptance sequence. D describes an acceptance arriving after the rejection, which did not happen.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-009",
+      "subject": "Contracts",
+      "area": "Promissory estoppel — subcontractor bids",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A general contractor preparing a bid for a school project solicited electrical subcontract bids. An electrician submitted a bid of $410,000, the lowest of five bids that ranged up to $470,000; nothing about it suggested an error. The contractor used the electrician's figure in computing its prime bid, which the school district accepted. Before the contractor formally accepted the electrician's bid, the electrician discovered a computation error and withdrew. The contractor hired the next-lowest bidder for $445,000 and sued the electrician. Under the prevailing modern approach, what result?",
+      "choices": {
+        "A": "The electrician prevails, because an offer not supported by consideration may be revoked any time before acceptance.",
+        "B": "The contractor recovers $35,000, because the electrician should reasonably have expected the contractor to rely on its bid, making the bid irrevocable.",
+        "C": "The electrician prevails, because its unilateral mistake in computation allows it to avoid the bid.",
+        "D": "The contractor recovers $35,000, because the electrician's bid was a merchant's firm offer."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Contracts §87(2); Drennan v. Star Paving Co. (Cal. 1958)",
+      "why": "B: foreseeable, actual reliance on a subcontractor's bid makes it irrevocable to the extent necessary to avoid injustice. A states the traditional rule the modern approach displaces for bids. C fails because a unilateral mistake is not a ground for avoidance where the other party neither knew nor had reason to know of it. D is wrong because electrical work is services and the bid contained no signed assurance of irrevocability.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-010",
+      "subject": "Contracts",
+      "area": "Consideration — pre-existing duty",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A painter agreed to paint a house for $5,000. Halfway through, with no change in the scope of work and no unforeseen difficulty, the painter said he would stop unless the owner agreed to pay $6,000. The owner orally agreed. The painter finished and the owner paid $5,000. Can the painter recover the additional $1,000?",
+      "choices": {
+        "A": "Yes, because a modification made in good faith needs no consideration.",
+        "B": "Yes, because the painter relied on the owner's promise by completing the work.",
+        "C": "No, because a modification of a contract must be in writing.",
+        "D": "No, because the painter was already bound to finish the work, so the owner's promise was unsupported by consideration."
+      },
+      "answer": "D",
+      "cite": "Restatement (Second) of Contracts §§73, 89",
+      "why": "D: performing a pre-existing duty is not consideration, and the §89 exception requires unanticipated circumstances. A is the UCC 2-209 rule, which does not govern services. B fails because doing what one was already bound to do is not detrimental reliance. C invents a writing requirement; this contract is not within the statute of frauds.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-011",
+      "subject": "Contracts",
+      "area": "Statute of frauds — one-year provision",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A company's founder orally promised a key engineer that she would be employed 'for the rest of your life' if she turned down a competitor's offer. She did. Four years later the company fired her without cause and argued that the promise was unenforceable under the statute of frauds. Under the majority common-law rule, which statement is most accurate?",
+      "choices": {
+        "A": "The promise is outside the statute, because the engineer could die within a year, which would fully perform the contract.",
+        "B": "The promise is within the statute, because the parties expected the employment to last longer than one year.",
+        "C": "The promise is within the statute, because all employment contracts must be in writing.",
+        "D": "The promise is outside the statute, but only because the engineer's four years of work was part performance."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Contracts §130",
+      "why": "A: the one-year provision covers only contracts that cannot possibly be performed within a year of making; a lifetime contract can be. B applies an expectation test the rule rejects. C overstates the statute. D misattributes the result to part performance, which is a land-contract doctrine. (NY differs: GOL 5-701(a)(1) expressly covers lifetime agreements.)",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-012",
+      "subject": "Contracts",
+      "area": "Parol evidence rule",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A buyer purchased a small printing business under a detailed written agreement that stated, 'This writing is the entire agreement of the parties and supersedes all prior negotiations.' The agreement contained no representations about revenue. The buyer later sued to rescind, offering testimony that before signing, the seller knowingly overstated the business's annual revenue by 60% to induce the purchase. The seller objected under the parol evidence rule. How should the court rule?",
+      "choices": {
+        "A": "Exclude the testimony, because the merger clause shows the writing is a complete integration.",
+        "B": "Admit the testimony only if the court first finds the written agreement ambiguous.",
+        "C": "Admit the testimony, because the parol evidence rule does not bar evidence that the contract was induced by fraud.",
+        "D": "Exclude the testimony, because it contradicts the terms of the written agreement."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Contracts §214(d)",
+      "why": "C: extrinsic evidence of fraud is admissible to show the agreement is voidable, even against a general merger clause. A overreads the merger clause. B confuses the fraud exception with the interpretation exception. D is wrong because the testimony does not vary a term; it attacks formation. (A specific disclaimer of reliance on revenue representations could change the result in some jurisdictions, e.g., NY under Danann.)",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-013",
+      "subject": "Contracts",
+      "area": "Substantial performance",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A builder contracted to build a house for $400,000, with specifications calling for copper piping of a named brand. Through a supplier's inadvertent substitution, the builder installed a different brand of identical grade and quality. The owner discovered the substitution after the walls were closed. Replacing the pipe would cost $80,000; the substitution does not reduce the house's market value. The owner refused to pay the final $40,000 installment. What may the builder recover?",
+      "choices": {
+        "A": "Nothing, because the owner is entitled to offset the $80,000 cost of replacing the pipe.",
+        "B": "Nothing, because use of the named brand was an express condition of payment.",
+        "C": "The $40,000 balance less any diminution in value, because the builder substantially performed and replacement cost would be grossly disproportionate to the benefit.",
+        "D": "Only the reasonable value of its services in quantum meruit, because it did not perform as specified."
+      },
+      "answer": "C",
+      "cite": "Jacob & Youngs v. Kent (N.Y. 1921); Restatement (Second) of Contracts §348(2)",
+      "why": "C: an innocent, trivial deviation is substantial performance, and damages are measured by diminution in value where cost of completion is grossly disproportionate. A uses cost of completion, which would be economic waste. B wrongly treats a specification as an express condition. D ignores that a substantially performing builder recovers on the contract.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-014",
+      "subject": "Contracts",
+      "area": "Anticipatory repudiation — retraction",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A caterer agreed to provide food for a company's June 1 conference. On May 1 the caterer emailed the company that it would not perform. On May 5, before the company had responded, made other arrangements, or otherwise acted, the caterer emailed that it withdrew its repudiation and would perform. On May 6 the company hired a different caterer and later refused the original caterer's performance. The original caterer sued. What result?",
+      "choices": {
+        "A": "The original caterer prevails, because it retracted the repudiation before the company materially changed position or indicated it considered the repudiation final.",
+        "B": "The company prevails, because a repudiation that has been communicated is final and entitles the other party to treat the contract as ended.",
+        "C": "The company prevails, because a retraction is effective only if the non-repudiating party consents to it.",
+        "D": "The company prevails, because after a repudiation its only obligation was to demand adequate assurance of performance."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Contracts §256; UCC 2-611",
+      "why": "A: a repudiating party may retract until the other party materially relies or signals it treats the repudiation as final; neither occurred by May 5, so the company's later refusal was its own breach. B ignores the retraction right. C invents a consent requirement. D misstates adequate assurance, which is an option, and the retraction mooted it.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-015",
+      "subject": "Contracts",
+      "area": "Excuse — impracticability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A fuel distributor agreed to supply a trucking company with diesel at a fixed price for two years. Diesel prices in the region have historically swung by 30% or more within a year. Eight months into the term, market prices rose 40%, and the distributor would lose money on every delivery. It notified the trucking company that it would stop deliveries, citing impracticability. Is the distributor excused?",
+      "choices": {
+        "A": "Yes, because performance has become substantially more costly than the parties anticipated.",
+        "B": "Yes, because the principal purpose of the contract, a profitable sale, has been frustrated.",
+        "C": "Yes, provided it notifies the buyer and allocates its available supply fairly among customers.",
+        "D": "No, because increased cost alone, particularly from a risk of price fluctuation the fixed-price contract allocated to the seller, does not excuse performance."
+      },
+      "answer": "D",
+      "cite": "UCC 2-615 & cmt. 4; Restatement (Second) of Contracts §261",
+      "why": "D: a foreseeable market price rise is exactly the risk a fixed-price contract allocates, and increased cost alone is not impracticability. A states the argument courts reject. B misuses frustration, which concerns the value of counter-performance, not the seller's profit. C describes the allocation procedure that applies only after an excuse exists.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-016",
+      "subject": "Contracts",
+      "area": "Excuse — frustration of purpose",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A company rented a hotel's rooftop terrace for the evening of a city's scheduled harbor fireworks show so that its clients could watch. Both the hotel and the company understood the rental was for viewing the show, and the price was triple the terrace's ordinary rate. The day before, the city canceled the fireworks. The terrace remained available. The company refused to pay, and the hotel sued. What result?",
+      "choices": {
+        "A": "The hotel prevails, because it remained able to provide the terrace exactly as promised.",
+        "B": "The company prevails, because its principal purpose, known to both parties, was substantially frustrated by an event whose non-occurrence was a basic assumption of the contract.",
+        "C": "The company prevails, because performance became impossible when the fireworks were canceled.",
+        "D": "The hotel prevails, because a party renting space always bears the risk that a third party's event will not take place."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Contracts §265; Krell v. Henry (Eng. 1903)",
+      "why": "B: frustration applies where both parties knew the purpose, it was substantially frustrated, and the event's occurrence was a basic assumption. A describes why impossibility fails, not frustration. C mislabels the doctrine; the hotel's performance remained possible. D states an absolute risk allocation the law does not impose.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-017",
+      "subject": "Contracts",
+      "area": "Damages — foreseeability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A manufacturer ordered a replacement gear assembly from a parts supplier for delivery in 14 days. The manufacturer did not tell the supplier that it had a pending $200,000 contract with a customer that depended on the gear, and nothing about the order suggested such a dependency. The supplier delivered 10 days late, and the customer canceled its contract with the manufacturer. The manufacturer sued the supplier for the profit lost on the canceled customer contract. What result?",
+      "choices": {
+        "A": "The manufacturer cannot recover that lost profit, because the loss was not reasonably foreseeable to the supplier when the contract was made.",
+        "B": "The manufacturer can recover, because loss of downstream business is a natural consequence of late delivery of machine parts.",
+        "C": "The manufacturer can recover, because it may recover all losses caused in fact by the breach.",
+        "D": "The manufacturer cannot recover, because lost profits are never recoverable for breach of contract."
+      },
+      "answer": "A",
+      "cite": "Hadley v. Baxendale (Eng. 1854); Restatement (Second) of Contracts §351; UCC 2-715(2)(a)",
+      "why": "A: consequential damages require that the loss be foreseeable at formation, from ordinary course or special circumstances known to the breacher; neither applies. B overstates what follows in the ordinary course. C substitutes causation for foreseeability. D is overbroad; foreseeable, reasonably certain lost profits are recoverable.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-018",
+      "subject": "Contracts",
+      "area": "Liquidated damages",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A software reseller's contract with a customer provided that for 'any breach of any term, however minor,' the breaching party would pay $100,000 as liquidated damages. When the contract was made, the likely harm from most breaches was small and readily calculable. The customer paid one monthly invoice five days late, causing the reseller about $40 in lost interest. The reseller sued for $100,000. What result?",
+      "choices": {
+        "A": "The reseller recovers $100,000, because sophisticated parties freely negotiated the clause.",
+        "B": "The reseller recovers $100,000, but only if its actual damages later prove equal to that amount.",
+        "C": "The reseller recovers $100,000, because the parties labeled the sum liquidated damages.",
+        "D": "The reseller recovers only its actual damages, because the clause is an unenforceable penalty."
+      },
+      "answer": "D",
+      "cite": "Restatement (Second) of Contracts §356; UCC 2-718(1)",
+      "why": "D: a fixed sum for any breach, however trivial, where harm was easily estimable is not a reasonable forecast and is a penalty. A is wrong because freedom of contract does not save penalties. B describes a condition that would make the clause pointless. C is wrong because the label does not control.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-019",
+      "subject": "Contracts",
+      "area": "Third-party beneficiaries — vesting",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A debtor owed a lender $20,000. The debtor sold his boat to a buyer, who promised in the written sale contract to pay the $20,000 directly to the lender. The debtor sent the lender a copy. Relying on the buyer's promise, the lender released its security interest in the debtor's truck. The debtor and the buyer then agreed to rescind the buyer's promise to pay the lender. The lender sued the buyer. What result?",
+      "choices": {
+        "A": "The buyer prevails, because the lender was not a party to the sale contract.",
+        "B": "The lender prevails, because its rights vested when it materially changed position in justifiable reliance on the promise, so the later rescission was ineffective against it.",
+        "C": "The buyer prevails, because the lender is only an incidental beneficiary.",
+        "D": "The buyer prevails, because the lender may look only to the debtor for payment."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Contracts §§302, 311; Lawrence v. Fox (N.Y. 1859)",
+      "why": "B: the lender is an intended (creditor) beneficiary, and its reliance vested its rights before the rescission. A ignores that intended beneficiaries may sue. C mischaracterizes a beneficiary the promise was expressly made to pay. D overlooks the promisor's direct liability; the debtor also remains liable, but not exclusively.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "MBE-K-020",
+      "subject": "Contracts",
+      "area": "Assignment — anti-assignment clauses",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "An owner hired a contractor to renovate an office for $50,000, payable on completion. The contract stated: 'Contractor shall not assign this contract.' The contractor completed the work satisfactorily and then assigned its right to the $50,000 payment to a bank as security for a loan, and the bank notified the owner. The owner paid the contractor instead, citing the clause. The bank sued the owner. What result?",
+      "choices": {
+        "A": "The owner prevails, because the clause made any assignment by the contractor void.",
+        "B": "The owner prevails, because it did not consent to the assignment.",
+        "C": "The bank prevails, because a clause barring assignment of 'the contract' is construed to bar only delegation of performance, and the right to payment for completed work was assignable.",
+        "D": "The owner prevails, because only the contractor, as the party in privity, can enforce the payment obligation."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Contracts §§317, 322; UCC 9-406(d)",
+      "why": "C: absent contrary language, a ban on assigning 'the contract' bars only delegation, and a right to payment for full performance is freely assignable; after notice the owner could discharge only by paying the bank (and UCC 9-406(d) independently overrides restrictions on assigning an account). A requires express 'void' language, and even then 9-406 would override it. B invents a consent requirement. D ignores that an assignee steps into the assignor's shoes.",
+      "ref": "contracts.md"
+    }
+  ]
+}

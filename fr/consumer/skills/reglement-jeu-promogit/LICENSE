@@ -1,0 +1,11 @@
+{
+  "name": "my-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal agent skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USER/YOUR_REPO"
+  },
+  "license": "MIT"
+}

@@ -4,10 +4,11 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `gb` · Practice: `data-protection` · Skill language: en
 
-## Skills (11)
+## Skills (12)
 
 | Skill | What it does |
 |---|---|
+| [`User Input`](skills/arckit-dpia-tractorjuice/) | Generate Data Protection Impact Assessment (DPIA) for UK GDPR Article 35 compliance |
 | [`/dpa-review`](skills/dpa-review-uk-agents/) | Review a Data Processing Agreement against your UK GDPR Art.28 DPA playbook — auto-detects whether… |
 | [`/dpia-generation`](skills/dpia-generation-uk-agents/) | Generate a Data Protection Impact Assessment (DPIA) under UK GDPR Art.35 in house format for a new… |
 | [`Building a Universal DSAR Intake System`](skills/dsar-intake-system/) | Builds a multi-channel DSAR intake system supporting web form, email, phone, and in-person requests with… |

@@ -6,7 +6,7 @@ description: 'IP data research tools for patents, trademarks, and related USPTO/
 author: parkerhancock
 author_url: https://github.com/parkerhancock/patent-client-agents/tree/main/src/patent_client_agents/skills/ip_research
 license: Apache-2.0
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: general
 practice: ip

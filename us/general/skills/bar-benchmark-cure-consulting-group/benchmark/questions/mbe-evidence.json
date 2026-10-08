@@ -1,0 +1,368 @@
+{
+  "set": "mbe-evidence",
+  "title": "MBE-style — Evidence",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-EV-001",
+      "subject": "Evidence",
+      "area": "Character — other acts",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A defendant is on trial for robbing a pharmacy. The robber wore a surgical mask printed with a cartoon tiger, handed the clerk a note written in green crayon, and left behind a single playing card, the queen of spades. The defendant claims he was misidentified. The prosecution offers evidence, after giving proper written notice, that two years earlier the defendant robbed a convenience store in the same way: tiger mask, green-crayon note, and a queen of spades left on the counter. Is the evidence admissible?",
+      "choices": {
+        "A": "No, because evidence of other crimes may not be used to show that the defendant acted in conformity with his character.",
+        "B": "Yes, because the defendant put his character in issue by pleading not guilty.",
+        "C": "Yes, to prove identity, because the earlier robbery shares a distinctive method with the charged robbery.",
+        "D": "No, unless the defendant was convicted of the earlier robbery."
+      },
+      "answer": "C",
+      "cite": "FRE 404(b)(2), 403; Huddleston v. United States (U.S. 1988)",
+      "why": "C: a signature modus operandi proves identity through a non-propensity chain of reasoning, subject to Rule 403. A states the general bar but ignores the 404(b)(2) purposes. B is wrong because a not-guilty plea does not open the door to character evidence. D is wrong because Huddleston requires only evidence sufficient for a jury to find the act occurred, not a conviction.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-002",
+      "subject": "Evidence",
+      "area": "Impeachment — convictions",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "In a civil contract action, the defendant calls a non-party witness. On cross-examination, the plaintiff seeks to ask the witness about his conviction five years ago for misdemeanor filing of a false insurance claim, an offense whose elements require proof of a false statement. The defendant objects. How should the court rule?",
+      "choices": {
+        "A": "Allow the question, because a conviction for a crime whose elements require a dishonest act or false statement must be admitted.",
+        "B": "Allow the question only if its probative value substantially outweighs its prejudicial effect.",
+        "C": "Exclude the question, because only felony convictions may be used to impeach.",
+        "D": "Exclude the question, because conviction impeachment is limited to criminal defendants."
+      },
+      "answer": "A",
+      "cite": "FRE 609(a)(2)",
+      "why": "A: crimen falsi convictions under ten years old are automatically admissible for any witness, whatever the grade of the offense, with no balancing. B imports a balancing test that 609(a)(2) does not use. C states the 609(a)(1) limit, which applies only to non-crimen-falsi crimes. D is wrong because Rule 609 applies to any witness.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-003",
+      "subject": "Evidence",
+      "area": "Impeachment — specific instances",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "In a negligence action, the defense cross-examines the plaintiff's eyewitness: 'Isn't it true that you falsely claimed a college degree on your job application last year?' The witness answers, 'No.' The defense then offers the job application, which falsely lists a degree. The plaintiff objects. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because it is a prior inconsistent statement.",
+        "B": "Admit it, because lying on an application is a crime of dishonesty.",
+        "C": "Admit it, because the application is highly probative of the witness's untruthfulness.",
+        "D": "Exclude it, because extrinsic evidence of specific instances of conduct may not be used to attack a witness's character for truthfulness."
+      },
+      "answer": "D",
+      "cite": "FRE 608(b)",
+      "why": "D: under Rule 608(b), the examiner may ask about such acts but must take the witness's answer, so no extrinsic proof is allowed. A is wrong because the application contradicts nothing the witness said about the accident; it concerns a collateral credibility matter. B is wrong because Rule 609 requires a conviction. C restates relevance and does not overcome the 608(b) bar.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-004",
+      "subject": "Evidence",
+      "area": "Hearsay — prior statements of witnesses",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Testifying under oath before a grand jury, a witness said she saw the defendant holding a pistol outside the bar. At trial, called by the prosecution, she testified that the defendant had nothing in his hands. The prosecution offers a transcript of her grand jury testimony. For what purpose is it admissible?",
+      "choices": {
+        "A": "Only to impeach her credibility.",
+        "B": "Both to impeach her and as substantive evidence that the defendant held a pistol.",
+        "C": "For no purpose, because it is hearsay.",
+        "D": "As substantive evidence only if the witness is now unavailable."
+      },
+      "answer": "B",
+      "cite": "FRE 801(d)(1)(A), 607",
+      "why": "B: a prior inconsistent statement made under penalty of perjury in a proceeding, which includes grand jury testimony, by a declarant who testifies and can be cross-examined is not hearsay and comes in substantively. A states the rule for unsworn statements, and New York's rule. C ignores 801(d)(1)(A). D confuses this with the former-testimony exception, which requires unavailability.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-005",
+      "subject": "Evidence",
+      "area": "Hearsay — opposing party's statement",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A delivery van rear-ended a car. At the scene, the van's driver, an employee on his delivery route, told the responding officer, 'I was reading a text; this is on me.' The injured motorist sued only the delivery company. The driver has no authority to speak for the company. At trial, the motorist calls the officer to repeat the driver's statement. The company objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because the driver was not authorized to make statements on the company's behalf.",
+        "B": "Admit it, because it was made by the company's employee about a matter within the scope of that employment while he was employed.",
+        "C": "Admit it only against the driver, who is not a party.",
+        "D": "Admit it only as an excited utterance, if the driver is shown to have been under stress."
+      },
+      "answer": "B",
+      "cite": "FRE 801(d)(2)(D)",
+      "why": "B: Rule 801(d)(2)(D) requires only that the statement concern a matter within the scope of the employment and be made during the relationship; no speaking authority is needed. A states the New York speaking-authority rule (Loschiavo). C is wrong because the statement is offered against the company, which is the party. D is wrong because the statement is already not hearsay, so no exception is needed.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-006",
+      "subject": "Evidence",
+      "area": "Hearsay — present sense impression",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "While talking on the phone with her sister, a woman said, 'A red pickup just blew through the stop sign and clipped the cyclist!' No other witness saw the collision, and there is no physical evidence of which vehicle ran the sign. In the cyclist's suit against the pickup's driver, the cyclist calls the sister to repeat the statement. The driver objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because the declarant is available and must testify herself.",
+        "B": "Exclude it, because it is hearsay and no exception applies.",
+        "C": "Exclude it, because a present sense impression must be corroborated by independent evidence.",
+        "D": "Admit it as a present sense impression."
+      },
+      "answer": "D",
+      "cite": "FRE 803(1)",
+      "why": "D: a statement describing an event made while or immediately after the declarant perceived it fits Rule 803(1), and declarant availability is immaterial under Rule 803. A imposes an unavailability requirement that Rule 803 does not have. B ignores the exception. C states the New York corroboration rule (People v. Brown), which the Federal Rules do not require.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-007",
+      "subject": "Evidence",
+      "area": "Hearsay — medical diagnosis",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A plaintiff injured in a forklift accident was referred by her lawyer to a physician who examined her only so he could testify as an expert and gave no treatment. During the exam, she told the physician, 'Since the accident I have had shooting pain down my left leg every morning.' At trial, the plaintiff offers the physician's testimony repeating her statement to prove her symptoms. The defendant objects. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because statements made for medical diagnosis are covered even when the diagnosis is sought for litigation.",
+        "B": "Exclude it, because the exception covers only statements made to a treating physician.",
+        "C": "Exclude it, because statements about past symptoms are statements of memory.",
+        "D": "Admit it only to show the basis of the physician's opinion, not to prove her symptoms."
+      },
+      "answer": "A",
+      "cite": "FRE 803(4) and advisory committee note",
+      "why": "A: Rule 803(4) covers statements 'made for — and reasonably pertinent to — medical diagnosis or treatment,' including past symptoms, and the drafters deliberately included diagnosis for litigation. B states the New York rule (Davidson v. Cornell). C is wrong because 803(4) expressly covers past symptoms and sensations. D describes the Rule 703 approach, which is unnecessary when an exception applies.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-008",
+      "subject": "Evidence",
+      "area": "Hearsay — business and public records",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In a civil suit over an intersection collision, the plaintiff offers the police accident report through its records custodian. The report includes the officer's note: 'Bystander (name unknown) stated the defendant's truck ran the red light.' The plaintiff offers the report to prove that the truck ran the light. The defendant objects to that portion. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because police reports are public records.",
+        "B": "Admit it, because the officer had a duty to record what witnesses said.",
+        "C": "Exclude it, because the bystander's statement is hearsay within hearsay and the bystander had no duty to report.",
+        "D": "Exclude it, because police reports are never admissible in civil cases."
+      },
+      "answer": "C",
+      "cite": "FRE 805, 803(6), 803(8); Johnson v. Lutz (N.Y. 1930) (principle)",
+      "why": "C: the report may cover the officer's own act of recording, but the bystander's statement is a second layer that needs its own exception, and the bystander was not acting under any business or public duty. A and B cover only the outer layer. D overstates the rule; Rule 803(8) admits many police reports in civil cases.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-009",
+      "subject": "Evidence",
+      "area": "Hearsay — dying declaration",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A hiker was crushed by a falling boulder at a quarry-owned trail. Believing he was dying, he told a paramedic, 'The quarry blasted right as I passed the warning sign.' He survived but has been in a permanent coma. In his guardian's civil suit against the quarry, the guardian offers the statement through the paramedic. The quarry objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because dying declarations are admissible only in homicide prosecutions.",
+        "B": "Exclude it, because the declarant did not die.",
+        "C": "Admit it only if the hiker dies before trial.",
+        "D": "Admit it, because in a civil case a dying declaration is admissible when the declarant is unavailable."
+      },
+      "answer": "D",
+      "cite": "FRE 804(a)(4), 804(b)(2)",
+      "why": "D: Rule 804(b)(2) applies in civil cases and homicide prosecutions and requires only that the declarant be unavailable, which a coma satisfies, and that he spoke believing death was imminent about its cause. A and B state the New York rule (homicide only, with actual death). C invents a death requirement that Rule 804(b)(2) does not have.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-010",
+      "subject": "Evidence",
+      "area": "Hearsay — former testimony",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A drug maker was sued by a first patient, whose counsel deposed a company chemist. At that deposition, the maker's lawyer cross-examined the chemist at length to defend the safety of the drug's formulation. The chemist has since died. A second patient now sues the maker over the same formulation and offers the chemist's deposition against the maker. The maker objects that the second patient was not a party to the first case. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because former testimony is admissible only between the same parties.",
+        "B": "Admit it, because the maker had an opportunity and similar motive to develop the testimony.",
+        "C": "Exclude it, because deposition testimony is not given at a trial or hearing.",
+        "D": "Admit it only if the second patient shows that the first patient was her predecessor in interest."
+      },
+      "answer": "B",
+      "cite": "FRE 804(b)(1), 804(a)(4)",
+      "why": "B: the rule looks at the party against whom the testimony is offered, here the maker, which had the chance and a similar motive to develop it. The declarant is unavailable because he died. A is wrong because identity of the offering party is not required. C is wrong because Rule 804(b)(1) expressly includes depositions. D misapplies the predecessor-in-interest clause, which concerns the party against whom the testimony is offered.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-011",
+      "subject": "Evidence",
+      "area": "Confrontation Clause",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "In a cocaine-possession prosecution, the government offers a sworn certificate from a state lab analyst stating that the seized powder was cocaine. The analyst is available but is not called, and the defendant never had a chance to cross-examine her. The defendant objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because the certificate is testimonial and the defendant has not had a chance to cross-examine the analyst.",
+        "B": "Admit it as a public record.",
+        "C": "Admit it, because forensic results are reliable scientific data.",
+        "D": "Admit it, if a supervisor from the lab testifies to the lab's procedures."
+      },
+      "answer": "A",
+      "cite": "Melendez-Diaz v. Massachusetts (U.S. 2009); Bullcoming v. New Mexico (U.S. 2011); Crawford v. Washington (U.S. 2004)",
+      "why": "A: forensic certificates prepared for prosecution are testimonial, so the analyst must be available for cross-examination. B is wrong because a hearsay exception cannot override the Confrontation Clause, and Rule 803(8) excludes law-enforcement matters in criminal cases. C uses the reliability test that Crawford rejected. D is wrong because Bullcoming held that a surrogate witness does not satisfy the Clause.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-012",
+      "subject": "Evidence",
+      "area": "Confrontation Clause",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A woman called 911 and said, crying, 'He's kicking the door in — it's my ex, Dale Price — please hurry!' She does not testify at Price's trial for burglary. The prosecution offers the 911 recording. Price objects on hearsay and Confrontation Clause grounds. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because the caller identified the defendant, which makes the statement testimonial.",
+        "B": "Exclude it, because the caller is available and was not cross-examined.",
+        "C": "Admit it, because the call's primary purpose was to meet an ongoing emergency, making it nontestimonial, and it qualifies as an excited utterance.",
+        "D": "Admit it only if the prosecution shows that the caller is unavailable."
+      },
+      "answer": "C",
+      "cite": "Davis v. Washington (U.S. 2006); FRE 803(2)",
+      "why": "C: statements made to obtain help with an ongoing emergency are nontestimonial, so only hearsay law applies, and the caller's excitement satisfies Rule 803(2). A is wrong because naming the assailant does not change the emergency purpose. B wrongly applies the Crawford requirement to a nontestimonial statement. D is wrong because Rule 803(2) and the Confrontation Clause impose no unavailability requirement for nontestimonial statements.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-013",
+      "subject": "Evidence",
+      "area": "Hearsay — statement against interest",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In an arson prosecution, the defendant offers testimony from a jail inmate that the defendant's cousin said to the inmate, 'I set that warehouse fire myself; my cousin had nothing to do with it.' The cousin invokes the Fifth Amendment and refuses to testify. There is no other evidence tying the cousin to the fire. The prosecution objects. What is the correct ruling?",
+      "choices": {
+        "A": "Admit it, because a statement against penal interest by an unavailable declarant is automatically admissible when offered by the accused.",
+        "B": "Exclude it, because statements against interest may be offered only by the prosecution.",
+        "C": "Exclude it, because in a criminal case a statement against penal interest requires corroborating circumstances that clearly indicate its trustworthiness, and none are shown.",
+        "D": "Exclude it, because the cousin is not unavailable when he is merely refusing to testify."
+      },
+      "answer": "C",
+      "cite": "FRE 804(a)(1), 804(b)(3)(B); Williamson v. United States (U.S. 1994)",
+      "why": "C: in a criminal case, a penal-interest statement requires corroborating circumstances clearly indicating trustworthiness, whichever side offers it. A privilege claim makes the cousin unavailable, but with no corroboration exclusion is proper, and the exculpatory clause about the defendant is not self-inculpatory. A omits the corroboration requirement, which Rule 804(b)(3)(B) applies to statements offered by the accused as well as by the prosecution. B reverses the rule. D is wrong because a valid privilege claim is unavailability under Rule 804(a)(1).",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-014",
+      "subject": "Evidence",
+      "area": "Privileges — attorney-client",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "After a product recall, a manufacturer's general counsel sent questionnaires to mid-level engineers asking what they knew about the defect, so she could give the company legal advice. The engineers answered in confidence. In a federal-question suit, the plaintiff seeks the completed questionnaires. How should the court rule?",
+      "choices": {
+        "A": "Deny discovery, because the communications are protected by the corporation's attorney-client privilege.",
+        "B": "Order production, because only members of the corporate 'control group' can make privileged communications.",
+        "C": "Order production, because underlying facts are never privileged, so the documents must be disclosed.",
+        "D": "Deny discovery only if the engineers personally retained the general counsel."
+      },
+      "answer": "A",
+      "cite": "Upjohn Co. v. United States (U.S. 1981); FRE 501",
+      "why": "A: Upjohn protects confidential communications from employees of any rank, made at a superior's direction so counsel can give the corporation legal advice. B states the control-group test Upjohn rejected. C confuses facts with communications: the facts can be obtained through other discovery, but the communications themselves stay privileged. D is wrong because the privilege belongs to the corporation, not the employees.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-015",
+      "subject": "Evidence",
+      "area": "Privileges — spousal",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "In a federal prosecution for tax fraud, the government calls the defendant's wife, who is willing to testify that she watched the defendant shred bank statements in their garage. He said nothing to her at the time. The defendant invokes spousal privilege. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because the defendant holds the privilege against adverse spousal testimony.",
+        "B": "Exclude it, because all observations made during marriage are confidential marital communications.",
+        "C": "Exclude it unless the defendant consents, because both spouses hold the privilege.",
+        "D": "Allow the testimony, because the witness-spouse holds the testimonial privilege and the observed acts were not a confidential communication."
+      },
+      "answer": "D",
+      "cite": "Trammel v. United States (U.S. 1980); FRE 501",
+      "why": "D: under Trammel, only the witness-spouse may refuse to testify adversely, and the marital-communications privilege covers communications, not observed conduct that was not intended as a communication. A states the pre-Trammel rule. B overextends the communications privilege. C wrongly gives the defendant a veto over the testimonial privilege.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-016",
+      "subject": "Evidence",
+      "area": "Policy exclusions — subsequent remedial measures",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A shopper slipped on a loading ramp and sued the building owner. The owner denies that it controlled the ramp and claims the tenant did. The shopper offers evidence that, a week after the fall, the owner's maintenance crew installed a handrail and anti-slip strips on the ramp. The owner objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude it, because subsequent remedial measures are never admissible.",
+        "B": "Admit it to prove control of the ramp, with a limiting instruction on request.",
+        "C": "Admit it to prove the owner's negligence, because the repair shows the ramp was dangerous.",
+        "D": "Exclude it, because the repairs were made before the lawsuit was filed."
+      },
+      "answer": "B",
+      "cite": "FRE 407, 105",
+      "why": "B: Rule 407 allows such evidence for another purpose, such as ownership or control, when that issue is disputed, with a limiting instruction on request. A ignores the listed exceptions. C is the forbidden purpose. D misreads the timing rule: measures taken after the injury are 'subsequent' whether or not suit has been filed.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-017",
+      "subject": "Evidence",
+      "area": "Expert testimony",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In a federal toxic-tort case, the defendant moved to exclude the plaintiff's causation expert, arguing that the expert's dose calculations rest on exposure data he never verified and that his conclusion does not follow from his cited studies. The judge ruled: 'The expert is qualified and uses an accepted method. Whether his data are sufficient and whether he applied the method correctly are questions of weight for the jury.' Under the current Federal Rules, was the ruling correct?",
+      "choices": {
+        "A": "Yes, because questions about the sufficiency of an expert's basis go to weight, not admissibility.",
+        "B": "Yes, because the method is generally accepted in the relevant scientific community.",
+        "C": "No, because a court must exclude any expert whose conclusions are disputed by the opposing expert.",
+        "D": "No, because the court must find it more likely than not that the opinion rests on sufficient facts and reflects a reliable application of the method to the facts."
+      },
+      "answer": "D",
+      "cite": "FRE 702 (as amended Dec. 1, 2023); Daubert v. Merrell Dow (U.S. 1993); GE v. Joiner (U.S. 1997)",
+      "why": "D: amended Rule 702 makes sufficiency of basis and reliable application admissibility requirements that the proponent must establish to the court by a preponderance. A states the practice the 2023 amendment was written to correct. B states the Frye test, which New York uses, not the federal gatekeeping standard. C is wrong because a mere disagreement between experts is a matter of weight.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-018",
+      "subject": "Evidence",
+      "area": "Best evidence rule",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "In a dispute over whether a signed lease contains an option to renew, the landlord's property manager offers to testify from memory to what the lease says. The signed lease is in the landlord's file cabinet, and no explanation is given for not producing it. The tenant objects. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because the manager has personal knowledge of the lease.",
+        "B": "Admit it, because the best evidence rule applies only to recordings and photographs.",
+        "C": "Exclude it, because the original is required to prove the lease's contents and its absence is not excused.",
+        "D": "Admit it, because the manager is testifying under oath."
+      },
+      "answer": "C",
+      "cite": "FRE 1002, 1004",
+      "why": "C: the contents of the writing are directly at issue, so Rule 1002 requires the original or an admissible duplicate unless an excuse under Rule 1004 applies, and none is shown. A is wrong because personal knowledge does not overcome Rule 1002. B misstates the rule's scope, which expressly includes writings. D is wrong because the oath is irrelevant to the rule.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-019",
+      "subject": "Evidence",
+      "area": "Sexual assault — propensity",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A former employee sues her supervisor in federal court for civil damages, alleging he sexually assaulted her at a company retreat. After giving timely notice, she offers testimony from another woman that the supervisor sexually assaulted her at a conference three years earlier. The supervisor objects that the evidence shows only propensity. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because in a civil case based on sexual assault, evidence that the party committed another sexual assault may be considered for any relevant purpose, subject to Rule 403.",
+        "B": "Exclude it, because Rule 404(b) bars other-acts evidence offered to show propensity.",
+        "C": "Exclude it, because the propensity rules for sexual assault apply only in criminal cases.",
+        "D": "Admit it only if the supervisor was convicted of the earlier assault."
+      },
+      "answer": "A",
+      "cite": "FRE 415, 413(d), 403",
+      "why": "A: Rule 415 extends the Rule 413 propensity rule to civil cases involving sexual assault, subject to Rule 403 and notice. B states the general rule that Rule 415 displaces. C overlooks Rule 415. D is wrong because no conviction is required. New York has no counterpart to Rules 413–415.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "MBE-EV-020",
+      "subject": "Evidence",
+      "area": "Character — methods of proof",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "At an assault trial, the defendant calls a neighbor who testifies, 'In my opinion, he is a peaceful person.' On cross, the prosecutor, who has a good-faith basis, asks, 'Did you know the defendant was arrested last year for starting a bar fight?' The defense objects. How should the court rule?",
+      "choices": {
+        "A": "Sustain the objection, because an arrest that did not lead to a conviction may not be mentioned.",
+        "B": "Overrule the objection, because a character witness may be cross-examined about relevant specific instances of conduct to test the basis of the opinion.",
+        "C": "Sustain the objection, because only reputation witnesses, not opinion witnesses, may be asked about specific acts.",
+        "D": "Overrule the objection, and the prosecutor may then prove the arrest with the police report if the witness denies knowing of it."
+      },
+      "answer": "B",
+      "cite": "FRE 404(a)(2)(A), 405(a); Michelson v. United States (U.S. 1948)",
+      "why": "B: Rule 405(a) allows inquiry on cross-examination into relevant specific instances, with a good-faith basis, to test a character witness. A is wrong because arrests may be asked about. C reflects the old reputation-only practice; Rule 405(a) applies to both reputation and opinion witnesses. D is wrong because the examiner is limited to the question, and extrinsic proof of the act is not allowed.",
+      "ref": "evidence.md"
+    }
+  ]
+}

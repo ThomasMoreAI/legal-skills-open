@@ -2,7 +2,8 @@
 
 Sources : Guide de légistique, fiches 3.1.1 (exposé des motifs), 3.1.2 (notice), 3.1.3 (intitulé),
 3.1.4 (ministres rapporteurs), 3.1.5 (visas), 3.5.1 et 3.5.3 (renvois au règlement, subdélégation),
-3.8.1 (entrée en vigueur), 3.8.2 (situations en cours), 3.8.3 (abrogations) ; cours, leçon 3.
+3.8.1 (entrée en vigueur), 3.8.2 (situations en cours), 3.8.3 (abrogations), 5.6 (sanctions) ;
+cours, leçon 3.
 
 ## 1. Intitulé
 
@@ -95,7 +96,7 @@ Sur le rapport du ministre de …,
 Vu le code … , notamment son article … ;
 Vu la loi n° … du … relative à …, notamment son article … ;
 Vu le décret n° … du … modifié relatif à … ;
-Vu l'avis du … en date du … ;
+Vu l'avis du … en date du … ;                     [« , » si c'est la dernière ligne avant « Décrète : »]
 Le Conseil d'Etat (section …) entendu,            [décret en Conseil d'Etat seulement]
 Décrète :
 
@@ -111,10 +112,19 @@ Par le Premier ministre :
 Le ministre de …,
 ```
 
+- La dernière ligne avant « Décrète : » ou « Arrête : » se termine par une virgule, quelle qu'elle
+  soit : dernier visa, « Le Conseil d'Etat entendu, », « Le conseil des ministres entendu, »,
+  « Vu l'urgence, ». Toutes les lignes précédentes se terminent par un point-virgule.
+- Décret en Conseil d'Etat obligatoire, même si la demande dit seulement « décret » : création ou
+  modification d'un article de code en « R. » (un article en « D. » relève du décret simple) ; création
+  d'une contravention (article R. 610-1 du code pénal, fiche 5.6) ; renvoi de la loi à « un décret en
+  Conseil d'Etat » ; modification d'un décret pris « le Conseil d'Etat entendu ».
 - Ministres rapporteurs (« Sur le rapport de ») : seulement le ou les ministres qui ont piloté le texte,
   un suffit, jamais plus de trois, avec leur titre officiel exact, au féminin s'il y a lieu ; pas de
   ministres délégués ni de secrétaires d'Etat rattachés. Quand un texte impose le rapport d'un ministre
-  déterminé, son omission est une illégalité.
+  déterminé, son omission est une illégalité. Le titre officiel change avec chaque Gouvernement : s'il
+  n'est pas fourni, laisser « le ministre de … » plutôt que d'écrire « le ministre chargé de … »,
+  tournure réservée au dispositif.
 - Article d'exécution : un seul ministre : « Le ministre de … est chargé de l'exécution du présent
   décret, qui sera publié au Journal officiel de la République française. » Plusieurs : « sont chargés,
   chacun en ce qui le concerne ». Il est toujours le dernier article et n'est jamais déplacé.
@@ -148,7 +158,7 @@ NOR : …
 Le ministre de … [et la ministre de …],
 Vu le code … ;
 Vu le décret n° … du … relatif à …, notamment son article … ;
-Vu l'avis de … en date du … ;
+Vu l'avis de … en date du …,
 Arrête[nt] :
 
 Article 1er
@@ -160,7 +170,9 @@ Fait le …
 ```
 
 Un arrêté ne peut prévoir sa propre entrée en vigueur immédiate ; un décret non contresigné publié le
-même jour le fait à sa place.
+même jour le fait à sa place. Un arrêté signé par le ministre lui-même peut se terminer par le seul
+article « Le présent arrêté sera publié au Journal officiel de la République française. » : cette
+formule est correcte et se conserve.
 
 ## 3. Visas (fiche 3.1.5)
 
@@ -185,7 +197,9 @@ justifient la compétence, éclairent le lecteur et attestent les procédures pr
   date (et lieu) de signature, sans le texte d'approbation ni le décret de publication.
 - Dans un décret en Conseil d'Etat, pas de décret simple (sauf nécessité de compréhension) ; dans un
   décret, pas d'arrêté (sauf délégation de signature).
-- Peines contraventionnelles : « Vu le code pénal, notamment son article R. 610-1 ; ».
+- Peines contraventionnelles : « Vu le code pénal, notamment son article R. 610-1 ; », dans un décret
+  en Conseil d'Etat (fiche 5.6). Rédaction de l'incrimination : « Le fait de … est puni de l'amende
+  prévue pour les contraventions de la … classe. »
 - Décret de déclassement : « Vu la Constitution, notamment le second alinéa de son article 37 ; » en
   tête, et « Vu la décision n° … L du … du Conseil constitutionnel ; ».
 - Décision de justice à exécuter par des dispositions rétroactives.
@@ -206,8 +220,8 @@ justifient la compétence, éclairent le lecteur et attestent les procédures pr
   Conseil d'Etat (section des finances) entendu, » ; « Le Conseil d'Etat (sections … et … réunies)
   entendu, » ; « Après avis du Conseil d'Etat (section …), » si la consultation était facultative ; « Sur
   l'avis conforme du Conseil d'Etat (section …), » si un avis conforme est requis.
-- Chaque visa se termine par un point-virgule ; le dernier élément avant « Décrète : » se termine par une
-  virgule.
+- Chaque visa se termine par un point-virgule ; le dernier élément avant « Décrète : » ou « Arrête : »
+  se termine par une virgule, même quand c'est un simple visa.
 
 ### Ordre
 

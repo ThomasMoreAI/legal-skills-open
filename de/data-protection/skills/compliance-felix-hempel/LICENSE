@@ -1,0 +1,12 @@
+{
+  "name": "claromind",
+  "displayName": "Claromind Skills",
+  "description": "Sammlung von Skills fuer den gesamten Entwicklungs-Workflow: Bugfix, Feature-Spec, Sprint-Planung/-Execution/-Review, Code-Review, Security-Audit, Deploy, Refactoring, Migration und mehr.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claromind",
+    "email": "info@claromind.de"
+  },
+  "keywords": ["workflow", "sprint", "review", "bugfix", "spec", "productivity"],
+  "license": "MIT"
+}

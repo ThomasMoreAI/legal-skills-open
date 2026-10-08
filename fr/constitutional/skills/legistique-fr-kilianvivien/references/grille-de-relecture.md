@@ -14,7 +14,9 @@ sanctionnée).
 | Aucune disposition ne renvoie vers le bas sans encadrement (loi → ministre ; décret → arrêté « pour fixer les modalités d'application ») | B | 3.5.1, 3.5.3 |
 | Aucun renvoi à un texte de niveau inférieur ou de procédure différente sans figer la version | B | 3.4.2 |
 | Une loi ne désigne pas un ministre pour une décision non réglementaire (« l'autorité administrative ») | R | 3.3.2 |
-| Sanctions : contraventions seulement par décret (et visa de l'article R. 610-1 du code pénal) ; délits par la loi ; éléments constitutifs énoncés sans « notamment » | B | 3.3.2, 5.6 |
+| Sanctions : contraventions seulement par décret en Conseil d'Etat (et visa de l'article R. 610-1 du code pénal) ; délits et sanctions administratives par la loi ; éléments constitutifs énoncés sans « notamment » | B | 3.3.2, 5.6 |
+| Articles de code en « R. » créés ou modifiés par décret en Conseil d'Etat (« Le Conseil d'Etat entendu, »), en « D. » par décret simple ; un décret en Conseil d'Etat n'est modifié que par un décret de même niveau | B | 3.6.1, 3.1.5 |
+| Chaque désignation du texte modifié (article, alinéa, mots cités, bornes d'un renvoi) a été lue dans la version en vigueur ; sinon elle est marquée « [à vérifier] », pas validée ni effacée | B | 3.4.1, legifrance.md |
 | Le texte modifié fourni est bien la version consolidée en vigueur | B | 3.4.1 |
 | Toute référence précise (article, numéro, date, intitulé de texte) ajoutée par le rédacteur ou le relecteur est vérifiée ou marquée « [à vérifier] » ; aucune n'est complétée de mémoire | B | SKILL.md, legifrance.md |
 
@@ -40,9 +42,9 @@ sanctionnée).
 | Décret / arrêté : formule d'ouverture (« Le Premier ministre, / Sur le rapport de … »), « Décrète : » / « Arrête : », article d'exécution en dernier avec « chargé(s), chacun en ce qui le concerne, de l'exécution du présent décret, qui sera publié au Journal officiel de la République française » | R | 3.1.4, 3.9.x |
 | Visas : présents pour les textes fondant la compétence, appliqués, dérogés, modifiés (jamais un texte abrogé en entier, jamais un texte modificatif, « modifié » ajouté au texte d'origine) | R | 3.1.5 |
 | Visas : ordre hiérarchique puis chronologique (Constitution, conventions, règlements puis directives UE, lois organiques, codes par ordre alphabétique, lois et ordonnances, décrets) ; consultations après les textes ; Conseil constitutionnel ; Conseil d'Etat ; conseil des ministres ; « Vu l'urgence, » en dernier | R | 3.1.5 |
-| Visas : rédaction (numéro, date, intitulé exact ; « notamment son article … » ; code par son seul intitulé ; point-virgule final, virgule avant « Décrète ») | S | 3.1.5 |
+| Visas : rédaction (numéro, date, intitulé exact ; « notamment son article … » ; code par son seul intitulé, sans le décret ou l'ordonnance de codification ; point-virgule à la fin de chaque visa, virgule à la dernière ligne avant « Décrète : » ou « Arrête : ») | S | 3.1.5 |
 | Consultations obligatoires visées avec leur date ; lettre de saisine si pas d'avis ; formule Conseil d'Etat adaptée (entendu / section / après avis / avis conforme) ; repérage des consultations selon `procedure-et-documents.md`, section 2 | R (B si consultation obligatoire omise) | 3.1.5, 2.1.3 |
-| Ministres rapporteurs : ceux qui ont piloté, trois au plus, titre exact | R | 3.1.4 |
+| Ministres rapporteurs : ceux qui ont piloté, trois au plus, titre officiel exact (pas « le ministre chargé de … », réservé au dispositif) ; même titre dans l'article d'exécution, qui cite tous les ministres dont le texte appelle des mesures | R | 3.1.4, 3.9.2 |
 | Entrée en vigueur immédiate : visa du code civil, « Vu l'urgence, », article d'exécution complété | R | 3.8.1 |
 
 ## 4. Grammaire des modifications (texte modificatif)
@@ -52,7 +54,8 @@ sanctionnée).
 | Verbes exacts : abrogé (texte, division numérotée), supprimé (alinéa, phrase, mots), remplacé par les dispositions suivantes (règlement) / ainsi rédigé (loi), inséré … ainsi rédigé, complété par, rétabli | R | 3.4.1 |
 | Pas d'« abrogé et remplacé », « rédigé ainsi qu'il suit », « ainsi conçu » | R | 3.4.1 |
 | Passage désigné avec précision (alinéa, phrase, mots, référence, taux, date) et cité entre guillemets après deux-points | R | 3.4.1 |
-| Emplacement d'insertion indiqué (après l'article X ; au début / à la fin du chapitre Y) ; insertion groupée d'un seul mouvement | R | 3.4.1 |
+| Emplacement d'insertion indiqué (après l'article X ; au début / à la fin du chapitre Y) ; insertion groupée d'un seul mouvement ; numéro de l'article inséré libre dans le texte en vigueur | R (B si le numéro est pris) | 3.4.1 |
+| Élément ajouté à la fin d'une énumération : ponctuation du dernier élément ajustée, texte consolidé cohérent | S | 3.2.2, annexe typo |
 | Chaque modification se réfère au texte en vigueur, sans anticiper les autres modifications du projet (ou le dit expressément : « tel qu'il résulte du 2° ») | B | 3.4.1 |
 | Texte modifié désigné correctement : « du … susvisé » (décret, arrêté, ordonnance, présent dans les visas), intitulé complet à la première mention dans une loi, code jamais « susvisé », « du même code / décret » ensuite | R | 3.4.1, 3.3.2 |
 | Aucun « susvisé » dans une disposition insérée dans un code ou dans un texte dont les visas d'origine ne mentionnent pas le texte désigné | B | 3.1.5, 3.4.1 |
@@ -121,4 +124,6 @@ Détail : `references/amendements.md`.
 Pour chaque constat retenu : emplacement (article, alinéa), constat, correction proposée, règle et
 fiche, gravité. Regrouper les constats répétitifs (« futur employé aux articles 2, 4, 7 et 9 ») en une
 ligne. Les choix de fond que l'on ne partage pas (seuil, délai, autorité) ne sont pas des corrections :
-ils vont dans « Questions au rédacteur ».
+ils vont dans « Questions au rédacteur ». Une correction qui ferme une liste ouverte (« etc. »,
+« notamment ») ou lève une ambiguïté (lequel de deux délais est suspendu) touche au fond : la faire,
+et poser la question correspondante.

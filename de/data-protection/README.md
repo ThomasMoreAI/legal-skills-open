@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (464)
+## Skills (465)
 
 | Skill | What it does |
 |---|---|
@@ -84,6 +84,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall`](skills/bussgeldverteidigung-art-83/) | Für Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Drittstaatliches Herausgabeverlangen datenschutzrechtlich prüfen`](skills/cloud-act-vs-dsgvo-art-48-dsgvo/) | Prüft Herausgabeverlangen einer Drittstaatsbehörde an Anbieter oder Konzerngesellschaften. |
 | [`Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk`](skills/compliance-dokumentation-und-akte/) | Für Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken… |
+| [`Compliance: $ARGUMENTS`](skills/compliance-felix-hempel/) | DSGVO + Legal Compliance-Check. Datenschutz, Impressum, Cookie-Consent, Tracking, Drittanbieter-Dienste… |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-datentransfer-eu-erforderlichkeit/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-vs-43e-dienstleister/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack`](skills/cyber-vorfall-sofortmassnahmen/) | Für Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack: ordnet Norm, Beweislast und Gegenargument… |

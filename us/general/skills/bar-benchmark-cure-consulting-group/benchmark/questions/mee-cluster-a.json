@@ -1,0 +1,86 @@
+{
+  "set": "mee-cluster-a",
+  "title": "MEE-style — Civil Procedure and Conflict of Laws",
+  "component": "mee",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MEE-CP-001",
+      "subject": "Civil Procedure",
+      "area": "Subject-matter jurisdiction, personal jurisdiction, Erie",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Paula, domiciled in State A, was seriously injured when the motor of her home treadmill overheated and caught fire. She bought the treadmill online from FitCo LLC and had it shipped to her State A home. FitCo is a limited liability company organized under State D law with its headquarters in State M. FitCo's two members are Ann, an individual domiciled in State M, and Bex Holdings, Inc., a corporation incorporated in State D with its principal place of business in State A. FitCo sells about 2,000 treadmills a year to State A residents through its website and targeted State A advertising.\n\nThe treadmill's motor was made by MotorCo, a company incorporated and based in Country T. MotorCo sold 50,000 motors to FitCo, delivering them to FitCo's State M assembly plant. MotorCo knew that FitCo sells treadmills nationwide. MotorCo has no offices, sales agents, or advertising in State A and has never sold anything directly to anyone there.\n\nPaula sued FitCo and MotorCo in State A state court on state-law product liability claims, seeking $400,000. FitCo, with MotorCo's consent, timely removed the case to the U.S. District Court for State A. MotorCo then moved to dismiss for lack of personal jurisdiction. State A's long-arm statute reaches as far as the Due Process Clause allows. A State A statute also requires every product liability complaint to be accompanied by an affidavit from a qualified engineer attesting that the claim has merit, and it requires dismissal if no affidavit is filed. Paula filed no affidavit, and FitCo moved to dismiss on that ground.\n\n1. Does the federal court have subject-matter jurisdiction? If not, what should happen to the case, and does it matter that Paula has not objected?\n2. Assuming the court has subject-matter jurisdiction, should MotorCo's motion to dismiss for lack of personal jurisdiction be granted?\n3. Assuming the case remains in federal court, should FitCo's motion to dismiss for failure to file the engineer's affidavit be granted?",
+      "rubric": [
+        {
+          "point": "States diversity requirements: complete diversity plus more than $75,000 (§1332(a)); an LLC takes the citizenship of each member; a corporate member is a citizen of its state of incorporation and principal place of business.",
+          "weight": 1.5
+        },
+        {
+          "point": "Applies them: Bex is a citizen of State D and State A, so FitCo is a citizen of State A (and M and D), and complete diversity with Paula (A) is lacking. There is no federal question, so the removal was improper. (Also credit: because FitCo is a State A citizen, the forum-defendant rule, §1441(b)(2), independently barred removal of this diversity-only case.)",
+          "weight": 1.5
+        },
+        {
+          "point": "Remedy: the court must remand under §1447(c). Lack of subject-matter jurisdiction may be raised at any time, by the court on its own, and cannot be waived or consented to, so Paula's silence is irrelevant.",
+          "weight": 1
+        },
+        {
+          "point": "Personal jurisdiction framework: long-arm statute coextensive with due process; no general jurisdiction over MotorCo, which is not at home in State A (Daimler); specific jurisdiction requires purposeful availment and a claim that arises out of or relates to the contacts (Ford), plus fairness.",
+          "weight": 1.5
+        },
+        {
+          "point": "Applies the stream-of-commerce split (Asahi O'Connor plurality vs Brennan; J. McIntyre plurality): mere awareness of nationwide distribution through an intermediary is likely not purposeful availment of State A; notes the contrary Brennan argument based on volume. Concludes that dismissal is likely, and notes that Paula's own contacts do not count (Walden).",
+          "weight": 2
+        },
+        {
+          "point": "Erie/Hanna: first ask whether a valid Federal Rule answers the question; Rule 8 (and Rules 9 and 12) govern what a complaint must contain and do not require supporting evidence.",
+          "weight": 1.5
+        },
+        {
+          "point": "Rule 8 is valid under the Rules Enabling Act because it really regulates procedure, so it displaces the state affidavit requirement and FitCo's motion should be denied. Berk v. Choy (U.S. 2026) so holds for a medical affidavit-of-merit statute; full credit also for reaching the same result from Hanna and Shady Grove without citing Berk. A Rules of Decision Act 'twin aims' analysis is not reached.",
+          "weight": 1
+        }
+      ],
+      "model_answer": "1. Subject-matter jurisdiction. Removal requires original jurisdiction (§1441(a)). With no federal claim, jurisdiction depends on diversity, which requires complete diversity and more than $75,000 (§1332(a)). The $400,000 claim meets the amount requirement. But an LLC is a citizen of every state of which its members are citizens (Carden). Bex, a corporation, is a citizen of State D, where it is incorporated, and State A, its principal place of business (§1332(c)(1)). So FitCo is a citizen of State A, as is Paula, and complete diversity fails (Strawbridge). The court lacks subject-matter jurisdiction and must remand to State A court (§1447(c)). The defect is never waived or cured by consent, so Paula's silence is irrelevant.\n\n2. Personal jurisdiction over MotorCo. The long-arm statute reaches the limits of due process, so the question is constitutional. There is no general jurisdiction: MotorCo is at home only in Country T (Daimler; Goodyear). Specific jurisdiction requires that MotorCo purposefully availed itself of State A and that Paula's claim arises out of or relates to those contacts (Ford), consistent with fair play. MotorCo sold motors to FitCo in State M, knowing only that FitCo sells nationwide. Under Justice O'Connor's Asahi view and the J. McIntyre plurality, placing goods into the stream of commerce with awareness that they may reach the forum is not enough; something more, such as advertising, design for the forum, or distributors there, is required. Justice Brennan's view (awareness plus regular flow) favors jurisdiction given the volume, but no majority adopted it. FitCo's State A contacts cannot be attributed to MotorCo, and Paula's residence is irrelevant (Walden). Dismissal is likely correct.\n\n3. The affidavit requirement. Under Hanna, if a valid Federal Rule answers the question in dispute, it controls. Rule 8 sets out what a complaint must contain (a short and plain statement) and does not require evidentiary support at filing. It is valid under the Rules Enabling Act. In Berk v. Choy (2026), the Supreme Court held that Rule 8 displaces a state affidavit-of-merit requirement for medical malpractice claims, and the same reasoning applies to this engineer's affidavit; the Hanna/Shady Grove analysis alone reaches the same result. The motion should be denied.",
+      "cite": "28 U.S.C. §§1332, 1441, 1447(c); Carden v. Arkoma (U.S. 1990); Daimler AG v. Bauman (U.S. 2014); Asahi Metal v. Superior Court (U.S. 1987); J. McIntyre v. Nicastro (U.S. 2011); Ford Motor v. Montana Eighth Jud. Dist. (U.S. 2021); Walden v. Fiore (U.S. 2014); Hanna v. Plumer (U.S. 1965); Berk v. Choy (U.S. 2026)",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MEE-CL-001",
+      "subject": "Conflict of Laws",
+      "area": "Tort choice of law (NY interest analysis), borrowing statute",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Dan, domiciled in New Jersey, and his coworker Gina, domiciled in New York, drove in Dan's New Jersey-registered car to a conference in State X. Dan was driving. In State X, Dan drove 20 mph over the posted limit, lost control on a curve, and struck a guardrail. Gina suffered serious injuries.\n\nState X caps noneconomic damages in all personal-injury actions at $250,000. State X's legislative history says the cap was adopted to hold down liability insurance premiums for State X drivers and insureds. Neither New Jersey nor New York caps noneconomic damages. State X also has a statute making it negligence per se to exceed the posted speed limit by more than 15 mph, while New York and New Jersey treat speeding only as some evidence of negligence. State X's statute of limitations for personal injury is two years; New York's is three years (CPLR 214(5)); New Jersey's is two years.\n\nTwo years and six months after the accident, Gina sued Dan in New York Supreme Court, which has personal jurisdiction over Dan. The New York court applies New York choice-of-law rules.\n\n1. Is Gina's action timely?\n2. Which state's law governs whether Dan's speeding is negligence per se?\n3. Which state's law governs the cap on noneconomic damages?",
+      "rubric": [
+        {
+          "point": "Limitations periods are treated as procedural, so the forum applies its own statute subject to its borrowing statute, CPLR 202: a claim accruing outside New York must be timely under both New York's period and that of the place of accrual, unless it accrued in favor of a New York resident.",
+          "weight": 1.5
+        },
+        {
+          "point": "Applies it: the personal-injury claim accrued in State X, where the injury occurred, but Gina is a New York resident, so New York's three-year period (CPLR 214(5)) alone applies and a suit at 2.5 years is timely. The shorter periods of State X and New Jersey are irrelevant.",
+          "weight": 1.5
+        },
+        {
+          "point": "New York interest analysis: first determine whether there is an actual conflict, then classify the rule as conduct-regulating or loss-allocating (Padula; Schultz; Babcock). Depeçage: each issue is analyzed separately.",
+          "weight": 1.5
+        },
+        {
+          "point": "The negligence-per-se speeding statute is a conduct-regulating rule of the road, so the law of the place of the tort (State X) governs because State X has the predominant interest in regulating conduct on its roads (Babcock; Padula).",
+          "weight": 1.5
+        },
+        {
+          "point": "The damages cap is loss-allocating (Edwards v. Erie Coach Lines (N.Y. 2011) treats caps on noneconomic damages as loss-allocating). The parties are domiciled in different states, and the accident occurred in a third state, so the third Neumeier rule applies: lex loci normally governs unless displacing it advances the relevant substantive law purposes without impairing the multistate system or producing great uncertainty.",
+          "weight": 2
+        },
+        {
+          "point": "Applies it and reaches a reasoned conclusion. Full credit for either defensible answer: (a) no cap applies, because State X's stated purpose (protecting State X drivers and insurers) is not served when Dan is a New Jersey driver insured in New Jersey, and neither domicile caps damages, so displacing State X law advances New York and New Jersey policies without impairing State X's interests or the multistate system; or (b) State X's cap applies, because rule 3 presumptively selects the law of the place of the tort and the displacement exception is narrow. Credit for noting the other side, and for noting that the public-policy exception (Loucks) is a weak alternative argument for rejecting the cap.",
+          "weight": 2
+        }
+      ],
+      "model_answer": "1. Timeliness. Under CPLR 202, a claim that accrues outside New York must be timely under both New York law and the law of the place of accrual, unless it accrued in favor of a New York resident. A personal-injury claim accrues where the injury occurs. But Gina is a New York resident, so only New York's three-year period (CPLR 214(5)) applies. An action filed 2.5 years after the accident is timely.\n\n2. Negligence per se. New York uses interest analysis and considers each issue separately (Babcock; Padula). There is an actual conflict: State X treats this speeding as negligence per se, while New York and New Jersey treat it only as evidence of negligence. A rule setting standards of conduct on the road is conduct-regulating, and for such rules the place of the tort has the predominant interest (Babcock; Padula). State X law governs, so Dan's speeding is negligence per se.\n\n3. Damages cap. A cap on damages allocates loss after the tort occurs, so the Neumeier rules apply (Schultz; Cooney). Dan (New Jersey) and Gina (New York) have different domiciles, and the accident occurred in a third state, so the third Neumeier rule governs: normally the law of the place of the tort, unless displacing it will advance the relevant substantive law purposes without impairing the smooth working of the multistate system or producing great uncertainty. State X's stated purpose is to protect State X drivers and insurers, and neither party is a State X driver or insured, so State X has no real interest in applying its cap. New York and New Jersey both allow uncapped recovery. Declining to apply the cap advances both domiciliary states' policies without frustrating State X's policy or creating uncertainty. The better answer is that no cap applies. A court applying the rule 3 lex loci presumption strictly could defensibly apply State X's cap, because the exception is narrow. Public policy (Loucks) is a weaker route.",
+      "cite": "CPLR 202, 214(5); Babcock v. Jackson (N.Y. 1963); Neumeier v. Kuehner (N.Y. 1972); Schultz v. Boy Scouts of Am. (N.Y. 1985); Padula v. Lilarn Props. (N.Y. 1994); Cooney v. Osgood Mach. (N.Y. 1993); Edwards v. Erie Coach Lines (N.Y. 2011); Loucks v. Standard Oil (N.Y. 1918)",
+      "ref": "conflict-of-laws.md"
+    }
+  ]
+}

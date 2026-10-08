@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 
-## Skills (190)
+## Skills (191)
 
 | Skill | What it does |
 |---|---|
@@ -118,6 +118,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Legal Audit`](skills/legal-audit/) | Audits PUBLIC, CUSTOMER-FACING web app legal pages (terms of service, privacy policy, HIPAA notice… |
 | [`Legal Contract Negotiation Review`](skills/legal-contract-negotiation-review/) | Analyze counterparty contract changes against agreement/schedules, flag conflicts, and produce… |
 | [`Legal Demand Letter Response Draft`](skills/legal-demand-letter-response-draft/) | Map allegations to contract language and draft a response letter with no unintended admissions. |
+| [`Legal Document Scaffold`](skills/legal-doc-scaffold-cure-consulting-group/) | Drafts first-pass ToS, privacy policy, SOW, NDA, DPA, EULA, and refund policy for attorney review. Use… |
 | [`Legal Docs Pro — Agent Skill`](skills/legal-docs-pro/) | Your landlord just sent a 12-page lease renewal and you have no idea what half the clauses mean. Or you… |
 | [`LegalEagle Agent`](skills/legal-eagle/) | Activates LegalEagle for legal document analysis and contract intelligence. Use when you need contract… |
 | [`Legal Guidance Vault — Setup Interview`](skills/legal-guidance-vault/) | Helps a lawyer build and use a personalized Legal Guidance Vault — a local folder of structured… |

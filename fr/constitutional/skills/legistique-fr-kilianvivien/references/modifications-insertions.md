@@ -1,7 +1,7 @@
 # Modifications, insertions, abrogations et renvois
 
 Sources : Guide de légistique, fiches 3.4.1 (modifications et insertions), 3.4.2 (renvois au droit
-positif), 3.8.3 (abrogations) ; cours, leçons 1 et 2.
+positif), 3.8.3 (abrogations), 3.6.1 (extension outre-mer) ; cours, leçons 1 et 2.
 
 ## 1. Principes
 
@@ -113,6 +113,19 @@ Art. 7. – A l'article 2, après les mots : « la commission se prononce », so
 Un ensemble d'articles qui se suivent ou une division nouvelle s'insèrent d'un seul mouvement (une
 seule annonce, puis le contenu), non article par article.
 
+**Numéro d'un article inséré dans un code.** « Après l'article L. 12-3 » ne garantit pas que le numéro
+L. 12-3-1 soit libre : un article intercalaire peut déjà l'occuper. Lire le sommaire du chapitre sur
+Légifrance, insérer après le dernier article intercalaire existant et prendre le numéro suivant ;
+sans accès, laisser le numéro en blanc et écrire pourquoi.
+
+**Ajouter un élément à la fin d'une énumération.** Le dernier élément actuel finit par un point, le
+nouveau doit le suivre d'un point-virgule. Deux rédactions donnent un texte consolidé correct : réécrire
+le dernier élément avec le nouveau (« Le 3° est remplacé par les dispositions suivantes : / « 3° … ; /
+« 4° … . » »), ou insérer le 4° et ajuster la ponctuation du 3° (« A la fin du 3°, le signe : « . » est
+remplacé par le signe : « ; » »). La première ne touche qu'une fois à l'énumération. Le guide ne
+dispense de retoucher la ponctuation que pour l'abrogation du dernier élément. Dans tous les cas, le
+texte consolidé montré à l'utilisateur porte la ponctuation exacte.
+
 ### Abrogation et suppression
 
 ```
@@ -126,8 +139,10 @@ Art. 13. – Sont abrogés :
 
 - Abroger explicitement, après recensement exhaustif. **Proscrire** « toutes dispositions contraires
   sont abrogées » : sans effet juridique propre, cette formule trahit une analyse insuffisante du droit
-  en vigueur. Tolérance quand le recensement est incertain : « Sont abrogées toutes les dispositions
-  contraires à la présente loi, notamment l'article … du code …, les articles … de la loi n° … ».
+  en vigueur. La formule nue reste un constat Bloquant en relecture. Seule tolérance, à ne proposer
+  qu'en dernier recours et dans une loi : quand un recensement complet est impossible, citer tout ce
+  qui a été identifié (« Sont abrogées toutes les dispositions contraires à la présente loi, notamment
+  l'article … du code …, les articles … de la loi n° … ») et le signaler dans les points à arbitrer.
 - Abroger le texte A dans sa rédaction actuelle, non le texte B qui l'a modifié (abroger B ne fait pas
   revivre A). Pour revenir sur B, corriger A ou écrire « l'article A est rétabli dans sa rédaction
   antérieure à la loi n° … » (moins lisible).
@@ -255,3 +270,36 @@ modification ultérieure.
   bougent.
 - Vérifier l'articulation exacte : quelle dérogation, quelle réserve, les termes du texte renvoyé
   ont-ils un sens dans le nouveau contexte.
+
+## 10. Étendre outre-mer la modification d'un code (fiches 3.6.1 et 3.6.5 à 3.6.10)
+
+Résumé pour le cas courant ; les compétences de chaque collectivité, les consultations et les
+adaptations se lisent dans le guide complet (`guide/3.6.1-…`, puis la fiche de la collectivité).
+
+- **Spécialité législative** : en Polynésie française, dans les îles Wallis et Futuna, en
+  Nouvelle-Calédonie et dans les Terres australes et antarctiques françaises, un texte ne s'applique
+  que sur mention expresse (hors textes « de souveraineté »). Saint-Barthélemy, Saint-Martin,
+  Saint-Pierre-et-Miquelon et les collectivités de l'article 73 reçoivent les textes de plein droit,
+  sauf exceptions de leur statut.
+- **Modifier un article déjà applicable ne suffit pas** : la modification doit elle-même être étendue,
+  sinon l'ancienne rédaction continue de s'appliquer localement. Même règle pour une abrogation.
+- **L'extension s'écrit dans le code**, pas dans un article autonome du texte modificatif : on met à
+  jour l'article d'application à la collectivité (ou la ligne de son tableau) pour y inscrire la
+  rédaction applicable. C'est le « compteur » : « L'article R. … est applicable dans les îles Wallis et
+  Futuna dans sa rédaction résultant du décret n° … du … . » (numéro et date du texte modificatif,
+  sans son intitulé). La formule « Le présent décret est applicable à … » est à proscrire pour des
+  dispositions codifiées.
+- **Le compteur ne couvre pas les dispositions non codifiées** du texte (entrée en vigueur différée,
+  mesures transitoires) : ajouter à la fin un article « Les articles … du présent décret sont
+  applicables à … ».
+- Même niveau de norme : un article en « R. » s'étend par décret en Conseil d'Etat, un article en
+  « D. » par décret simple. Extension partielle : un compteur par disposition, ou une ligne de tableau
+  par article.
+- À vérifier avant de rédiger, et à lister dans les points à arbitrer : la matière relève-t-elle de
+  l'Etat dans cette collectivité ; l'article d'application existe-t-il, sous forme de phrase ou de
+  tableau, et que dit son compteur actuel (le lire sur Légifrance) ; une consultation de l'assemblée
+  locale est-elle requise (en général non pour une simple mention d'applicabilité, oui en cas
+  d'adaptation, selon le statut). Les numéros d'articles restent en blanc tant qu'ils n'ont pas été lus.
+- Sans date fixée par le texte, les lois et décrets entrent en vigueur le dixième jour suivant leur
+  publication en Polynésie française, dans les îles Wallis et Futuna et en Nouvelle-Calédonie.
+

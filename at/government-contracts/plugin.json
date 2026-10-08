@@ -1,0 +1,14 @@
+{
+  "name": "at-government-contracts",
+  "displayName": "Government Contracts & Procurement — AT",
+  "version": "0.1.0",
+  "description": "Government Contracts & Procurement skills for AT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "government-contracts",
+  "language": "en",
+  "skills": [
+    "skills/arckit-at-bvergg-tractorjuice"
+  ]
+}

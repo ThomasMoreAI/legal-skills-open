@@ -5,11 +5,11 @@ description: Entrevista conversacional breve (5-10 minutos) que aprende como sua
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/banking-fintech-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: regulatory
-language: pt
+language: en
 ---
 
 # Cold Start: Banking & Fintech Legal Practice Interview

@@ -1,0 +1,242 @@
+{
+  "set": "nyle-cluster-d",
+  "title": "NYLE-style — Family, Trusts & Estates, Professional Responsibility",
+  "component": "nyle",
+  "jurisdiction": "NY",
+  "questions": [
+    {
+      "id": "NYLE-FAM-001",
+      "subject": "Matrimonial and Family Law",
+      "area": "Marital agreements — formalities",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two years into their marriage, a New York couple signed a typed postnuptial agreement providing that the husband's accounting practice would remain his separate property. Both signed it at their kitchen table; neither signature was notarized or otherwise acknowledged. In the wife's later divorce action, the husband offers the agreement, and the wife admits at trial that she signed it voluntarily with full knowledge of its terms. Is the agreement enforceable?",
+      "choices": {
+        "A": "Yes, because the wife's admission satisfies any proof requirement.",
+        "B": "Yes, because acknowledgment is required only for agreements made before the marriage.",
+        "C": "No, because an agreement under DRL 236(B)(3) must be acknowledged or proven in the manner required to record a deed, and an unacknowledged agreement is unenforceable even if signing is conceded.",
+        "D": "No, because postnuptial agreements concerning professional practices are void as against public policy."
+      },
+      "answer": "C",
+      "cite": "DRL 236(B)(3); Matisoff v. Dobi (N.Y. 1997)",
+      "why": "C: DRL 236(B)(3) requires a writing subscribed and acknowledged like a deed; Matisoff held an unacknowledged postnuptial agreement unenforceable despite undisputed execution. A: admission does not substitute for the acknowledgment formality. B: the statute covers agreements made before or during marriage. D: parties may opt out of equitable distribution by a valid agreement.",
+      "ref": "family-law.md"
+    },
+    {
+      "id": "NYLE-FAM-002",
+      "subject": "Matrimonial and Family Law",
+      "area": "Child support — CSSA computation",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In a New York divorce, the parents have two children who live with the mother. The father's income is $240,000 and the mother's is $60,000, each already net of FICA and local income taxes, and no maintenance is awarded. Assume the statutory combined parental income cap is $193,000. The court finds no reason to deviate on income up to the cap and, after considering the statutory factors, declines to award any additional support on combined income above the cap. What is the father's basic annual child support obligation?",
+      "choices": {
+        "A": "$60,000",
+        "B": "$38,600",
+        "C": "$48,250",
+        "D": "$26,240"
+      },
+      "answer": "B",
+      "cite": "DRL 240(1-b)(b)(3), (c)(2)-(3); FCA 413",
+      "why": "B: 25% (two children) × $193,000 capped combined income = $48,250, pro-rated by the father's 80% share ($240,000/$300,000) = $38,600. A: applies 25% to the full $300,000 and the 80% share (or 25% of his whole income) — ignores the cap. C: charges the father the entire capped obligation without pro-rating. D: uses the one-child 17% rate.",
+      "ref": "family-law.md"
+    },
+    {
+      "id": "NYLE-FAM-003",
+      "subject": "Matrimonial and Family Law",
+      "area": "Child support — duration",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Under a New York judgment of divorce, the father pays child support for his daughter. She turns 18, graduates from high school, and enrolls as a full-time college student living in a dormitory; she is not self-supporting and has not married or entered military service. The father moves to terminate support. How should the court rule?",
+      "choices": {
+        "A": "Grant the motion, because the duty of support ends at 18.",
+        "B": "Grant the motion, because the child has left the custodial parent's home.",
+        "C": "Deny the motion only if the father agreed in writing to pay college expenses.",
+        "D": "Deny the motion, because a parent's duty to support a child continues until age 21 absent emancipation."
+      },
+      "answer": "D",
+      "cite": "DRL 32, 240(1-b)(b)(2); FCA 413(1)",
+      "why": "D: New York defines a child for support purposes as under 21, and attending college away from home is not emancipation. A: states the majority age-18 rule, not NY. B: living in a dormitory is not emancipation. C: the basic duty to 21 does not depend on agreement (college add-ons are separately discretionary).",
+      "ref": "family-law.md"
+    },
+    {
+      "id": "NYLE-FAM-004",
+      "subject": "Matrimonial and Family Law",
+      "area": "Equitable distribution — enhanced earning capacity",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A wife supported the household while the husband completed medical school and residency during the marriage. The husband commenced a divorce action in New York in 2024. The wife seeks a distributive award equal to a share of the present value of the husband's medical license and enhanced earning capacity. How should the court treat that claim?",
+      "choices": {
+        "A": "The value of the license and enhanced earning capacity is not marital property, but the court must consider the wife's direct and indirect contributions to his career in distributing the marital property.",
+        "B": "The license is marital property to be valued and distributed under O'Brien v. O'Brien.",
+        "C": "The license is the husband's separate property, and the wife's contributions may not be considered for any purpose.",
+        "D": "The wife's only remedy is a claim for reimbursement of tuition paid with marital funds."
+      },
+      "answer": "A",
+      "cite": "DRL 236(B)(5)(d)(7) (as amended 2016); O'Brien v. O'Brien (N.Y. 1985)",
+      "why": "A: the 2016 amendment directs that enhanced earning capacity from a license or degree is not marital property, while directing the court to consider the other spouse's contributions to it in making the distribution. B: O'Brien's rule was abrogated for actions commenced after the amendment. C: overstates — contributions remain a distribution factor. D: no such exclusive remedy in NY.",
+      "ref": "family-law.md"
+    },
+    {
+      "id": "NYLE-TE-001",
+      "subject": "Trusts, Wills and Estates",
+      "area": "Intestacy — spouse and issue",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A New York domiciliary dies intestate survived by his wife and their two adult children. None of them is disqualified. His net distributable estate is $450,000. How is the estate distributed?",
+      "choices": {
+        "A": "All $450,000 to the wife, because both children are also her children.",
+        "B": "$250,000 to the wife and $100,000 to each child.",
+        "C": "$225,000 to the wife and $112,500 to each child.",
+        "D": "$150,000 to the wife and $150,000 to each child."
+      },
+      "answer": "B",
+      "cite": "EPTL 4-1.1(a)(1)",
+      "why": "B: spouse and issue: $50,000 plus one-half of the residue to the spouse ($50,000 + $200,000), balance ($200,000) to issue by representation. A: states the UPC 2-102 rule, not NY. C: omits the $50,000 preference. D: equal per capita division among all survivors is not the statute.",
+      "ref": "trusts-estates.md"
+    },
+    {
+      "id": "NYLE-TE-002",
+      "subject": "Trusts, Wills and Estates",
+      "area": "Will execution — 30-day attestation",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A New York testator signed her typed will at the end, and told the two people present that it was her will and asked them to witness it. Witness 1 signed that day. Witness 2 watched her sign but, as the dated signatures and both witnesses' undisputed testimony show, did not sign until 45 days later, while the testator was still alive and competent. Is the will validly executed?",
+      "choices": {
+        "A": "No, because the attesting witnesses did not both sign within one 30-day period.",
+        "B": "Yes, because both witnesses saw the testator sign and she published the will.",
+        "C": "Yes, because clear and convincing evidence shows she intended the document to be her will.",
+        "D": "No, because the witnesses were required to sign in each other's presence."
+      },
+      "answer": "A",
+      "cite": "EPTL 3-2.1(a)(4)",
+      "why": "A: EPTL 3-2.1(a)(4) requires at least two attesting witnesses who sign within one 30-day period; the statutory presumption that the period was met is rebutted by the undisputed proof. B: publication and observation don't cure the timing defect. C: NY has no harmless-error doctrine (cf. UPC 2-503). D: NY does not require witnesses to sign in each other's presence.",
+      "ref": "trusts-estates.md"
+    },
+    {
+      "id": "NYLE-TE-003",
+      "subject": "Trusts, Wills and Estates",
+      "area": "Anti-lapse — scope",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A New York testator's will leaves '$100,000 to my niece Nora' and 'the residue to my friend Frank.' Nora dies before the testator, survived by her son. The testator is survived by Frank and by his own sister, Nora's mother. Who takes the $100,000?",
+      "choices": {
+        "A": "Nora's son, under the anti-lapse statute.",
+        "B": "The testator's distributees in intestacy.",
+        "C": "Frank, as residuary beneficiary, because the gift to Nora lapses.",
+        "D": "Nora's estate."
+      },
+      "answer": "C",
+      "cite": "EPTL 3-3.3(a); EPTL 3-3.4",
+      "why": "C: NY's anti-lapse statute saves only gifts to the testator's issue, brothers, or sisters; a niece is outside it, so the gift lapses into the residue. A: would be right under UPC 2-603 (descendant of a grandparent), not NY. B: a lapsed general gift falls into the residue, not intestacy. D: a predeceased beneficiary's estate takes nothing.",
+      "ref": "trusts-estates.md"
+    },
+    {
+      "id": "NYLE-TE-004",
+      "subject": "Trusts, Wills and Estates",
+      "area": "Lifetime trusts — revocability",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In 2022 a New York settlor signed and acknowledged a trust agreement with a bank as trustee, for the benefit of her two adult children. The instrument says nothing about revocation or amendment. In 2026 she sends the bank a signed, acknowledged letter purporting to revoke the trust; one child objects. Is the trust revoked?",
+      "choices": {
+        "A": "Yes, because a trust is revocable unless it expressly states it is irrevocable.",
+        "B": "Yes, but only if she revokes it in a will that specifically refers to the trust.",
+        "C": "No, but a court may permit revocation if the settlor shows changed circumstances.",
+        "D": "No, because a lifetime trust is irrevocable unless it expressly provides otherwise, and she may revoke only with the written, acknowledged consent of all persons beneficially interested."
+      },
+      "answer": "D",
+      "cite": "EPTL 7-1.16; EPTL 7-1.9(a)",
+      "why": "D: EPTL 7-1.16 makes a lifetime trust irrevocable unless it expressly provides it is revocable; EPTL 7-1.9 lets the creator revoke on the acknowledged written consent of all beneficially interested persons, which is lacking. A: states UTC 602, not NY. B: revocation by will under 7-1.16 applies only to trusts that are revocable. C: there is no changed-circumstances revocation right.",
+      "ref": "trusts-estates.md"
+    },
+    {
+      "id": "NYLE-TE-005",
+      "subject": "Trusts, Wills and Estates",
+      "area": "Elective share — testamentary substitutes",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A New York decedent's will leaves his wife $100,000 outright and the rest of his probate estate to his son. His net probate estate (after debts, expenses, and taxes) is $900,000. Before death he also opened a $300,000 payable-on-death bank account naming the son. The wife timely elects against the will. What does the wife receive?",
+      "choices": {
+        "A": "$300,000, one-third of the net probate estate, in addition to the $100,000 bequest.",
+        "B": "$400,000 in total — one-third of the net estate including the payable-on-death account — with the $100,000 bequest credited against it.",
+        "C": "$500,000 — one-third of $1,200,000 plus the $100,000 bequest.",
+        "D": "$100,000 only, because her bequest exceeds the $50,000 statutory minimum."
+      },
+      "answer": "B",
+      "cite": "EPTL 5-1.1-A(a)(1)-(2), (a)(4)",
+      "why": "B: the elective share is the greater of $50,000 or one-third of the net estate, which includes testamentary substitutes such as POD accounts: 1/3 × $1,200,000 = $400,000; property she takes outright under the will counts toward it. A: excludes the POD account and double-counts the bequest. C: the bequest is credited, not added. D: the $50,000 is a floor, not a cap.",
+      "ref": "trusts-estates.md"
+    },
+    {
+      "id": "NYLE-PR-001",
+      "subject": "Professional Responsibility",
+      "area": "Fees — nonrefundable retainer",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A New York lawyer's signed engagement letter for a commercial dispute requires a '$25,000 nonrefundable retainer, earned upon receipt.' Two weeks later, after the lawyer has done about $4,000 of work, the client discharges her and asks for a refund. The lawyer refuses, citing the letter. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "No, because the client agreed to the term in a signed writing.",
+        "B": "No, if $25,000 is a reasonable fee for the full engagement.",
+        "C": "Yes, because nonrefundable retainer fees are prohibited, and she must refund the unearned portion, though a plain-language minimum-fee clause could have been permissible.",
+        "D": "Yes, but only because the engagement letter did not advise the client of the right to fee arbitration."
+      },
+      "answer": "C",
+      "cite": "NY RPC 1.5(d)(4), 1.16(e); Matter of Cooperman (N.Y. 1994)",
+      "why": "C: NY 1.5(d)(4) bars nonrefundable retainers (codifying Cooperman) but allows a reasonable, clearly defined minimum-fee clause; unearned fees must be refunded on discharge (1.16(e)). A: client consent does not validate a prohibited fee. B: reasonableness is not the test for this per se ban. D: the Part 1215 arbitration notice is a separate requirement and not the reason for discipline here.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "NYLE-PR-002",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — lateral screening in litigation",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "At her former firm, Lawyer K was lead counsel with day-to-day responsibility for Defendant Corp. in a pending New York breach-of-contract action. K moves to the firm representing the plaintiff in the same action. The new firm immediately screens K, apportions her no part of the fee, notifies firm personnel, and gives Defendant Corp. prompt written notice. Defendant Corp. does not consent. Under the New York Rules of Professional Conduct, may the new firm continue representing the plaintiff?",
+      "choices": {
+        "A": "Yes, because the screen, fee exclusion, and written notice prevent imputation.",
+        "B": "Yes, if K certifies she will not share any confidential information.",
+        "C": "No, because New York never permits screening to cure a lateral lawyer's conflict.",
+        "D": "No, because screening does not prevent imputation in litigation where the lateral lawyer substantially participated in managing the matter or had day-to-day decision-making responsibility."
+      },
+      "answer": "D",
+      "cite": "NY RPC 1.9(a), 1.10(a), 1.10(c)(2)-(3) (as amended eff. 2025)",
+      "why": "D: NY 1.10(c)(2) now permits screening laterals, but 1.10(c)(3) withholds that cure in litigation, arbitration, or adjudicative matters where the lateral substantially participated in management and direction or had day-to-day decision-making responsibility. A: states ABA 1.10(a)(2), which has no such carve-out. B: certification is not a recognized cure. C: states the pre-amendment NY rule.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "NYLE-PR-003",
+      "subject": "Professional Responsibility",
+      "area": "Solicitation — personal-injury waiting period",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Ten days after a bus crash in Albany injured several passengers, a New York personal-injury lawyer mails each injured passenger a letter labeled 'Attorney Advertising' offering a free consultation. The letter is truthful and was properly filed. No filing deadline within 30 days applies to the claims. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "Yes, because no solicitation relating to a specific incident involving potential personal-injury claims may be disseminated before the 30th day after the incident.",
+        "B": "No, because targeted written solicitations are permitted if labeled and filed.",
+        "C": "No, because the rule applies only to in-person and telephone solicitation.",
+        "D": "Yes, because written solicitation of accident victims is prohibited at any time."
+      },
+      "answer": "A",
+      "cite": "NY RPC 7.3(e)",
+      "why": "A: NY 7.3(e) bars any solicitation about a specific incident involving potential personal-injury or wrongful-death claims before the 30th day (15th if a 30-day filing prerequisite applies). B: states the ABA approach, which has no waiting period. C: 7.3(e) applies to all solicitations, including mail. D: after 30 days, compliant written solicitation is permitted.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "NYLE-PR-004",
+      "subject": "Professional Responsibility",
+      "area": "Communications with represented persons — client-to-party contact",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A New York lawyer represents a buyer in a contract dispute with a seller who is represented by counsel. The buyer wants to meet the seller privately to discuss settlement. The lawyer prepares a list of talking points for the buyer and coaches him on what to say, but tells no one else about the planned meeting. The seller is competent. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "No, because parties to a matter may always communicate directly with each other.",
+        "B": "Yes, because the lawyer counseled the client about the communication without giving reasonable advance notice to the seller's counsel.",
+        "C": "Yes, because a lawyer may never counsel a client about communicating with a represented person.",
+        "D": "No, because the seller's lawyer's consent is not needed when the client initiates the contact."
+      },
+      "answer": "B",
+      "cite": "NY RPC 4.2(a)-(b)",
+      "why": "B: NY 4.2(b) lets a lawyer cause a client to communicate with a represented person and counsel the client about it only if the lawyer gives reasonable advance notice to the represented person's counsel. A: the direct-contact freedom doesn't cover a lawyer scripting the communication without notice. C: overstates — 4.2(b) permits it with notice. D: the NY requirement is notice, and it applies regardless of who initiates.",
+      "ref": "professional-responsibility.md"
+    }
+  ]
+}

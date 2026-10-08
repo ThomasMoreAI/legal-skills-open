@@ -1,0 +1,368 @@
+{
+  "set": "mbe-civil-procedure",
+  "title": "MBE-style — Civil Procedure",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-CP-001",
+      "subject": "Civil Procedure",
+      "area": "Subject-matter jurisdiction",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A wholesaler that is a citizen only of Texas sued a limited liability company in federal district court in Texas, alleging breach of a supply contract and seeking $900,000. The LLC is organized under Delaware law and has its headquarters in New York. It has three members: two individuals domiciled in New York and one individual domiciled in Texas. The LLC moves to dismiss for lack of subject-matter jurisdiction. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because the LLC is a citizen of Delaware and New York, its state of organization and principal place of business.",
+        "B": "Grant the motion, because the LLC is a citizen of Texas.",
+        "C": "Deny the motion, because the amount in controversy exceeds $75,000 and a majority of the LLC's members are diverse from the plaintiff.",
+        "D": "Grant the motion, because an unincorporated association may never be a party in a diversity action."
+      },
+      "answer": "B",
+      "cite": "28 U.S.C. §1332(a); Strawbridge v. Curtiss (U.S. 1806); Carden v. Arkoma Assocs. (U.S. 1990)",
+      "why": "B: an LLC takes the citizenship of every member, so the Texas member makes the LLC a Texas citizen and destroys complete diversity. A applies the corporate test (§1332(c)(1)) to an LLC. C invents a majority-of-members rule; complete diversity requires every member to be diverse. D is wrong because LLCs can sue and be sued in diversity when all members are diverse.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-002",
+      "subject": "Civil Procedure",
+      "area": "Subject-matter jurisdiction",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two passengers, both citizens of Oregon, were injured when a bus owned by a Nevada corporation crashed. They sued the corporation together in federal court under Rule 20. Each passenger seeks $50,000 in damages for her own injuries. No federal claim is asserted. Does the court have subject-matter jurisdiction?",
+      "choices": {
+        "A": "Yes, because the plaintiffs' claims together exceed $75,000.",
+        "B": "Yes, because the claims arise from the same accident and so fall within supplemental jurisdiction.",
+        "C": "Yes, because joinder under Rule 20 allows plaintiffs to combine their claims to meet the amount-in-controversy requirement.",
+        "D": "No, because neither plaintiff's claim exceeds $75,000."
+      },
+      "answer": "D",
+      "cite": "28 U.S.C. §1332(a), §1367; Exxon Mobil Corp. v. Allapattah Servs. (U.S. 2005)",
+      "why": "D: multiple plaintiffs cannot add up separate and distinct claims, and with no claim over $75,000 there is no anchor claim for original jurisdiction. A describes forbidden aggregation. B fails because §1367 needs at least one claim within original jurisdiction; under Allapattah, supplemental jurisdiction reaches co-plaintiffs only when one plaintiff meets the amount. C is wrong because Rule 20 governs joinder, not jurisdiction.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-003",
+      "subject": "Civil Procedure",
+      "area": "Removal",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A defendant was formally served with a state-court summons and complaint on March 1. The case satisfied the requirements for diversity jurisdiction from the start. The defendant filed a notice of removal in federal court on April 15. On April 20, the plaintiff moved to remand on the ground that the removal was untimely. How should the court rule?",
+      "choices": {
+        "A": "Grant the motion, because the notice of removal was filed more than 30 days after service and the plaintiff objected promptly.",
+        "B": "Deny the motion, because timeliness objections are waived once the federal court has diversity jurisdiction.",
+        "C": "Deny the motion, because remand is available only for lack of subject-matter jurisdiction.",
+        "D": "Grant the motion, because a defect in removal procedure requires remand no matter when the plaintiff raises it."
+      },
+      "answer": "A",
+      "cite": "28 U.S.C. §1446(b)(1), §1447(c); Murphy Bros. v. Michetti Pipe Stringing (U.S. 1999)",
+      "why": "A: removal must be filed within 30 days of formal service, and a procedural defect supports remand if the plaintiff moves within 30 days after the removal notice, which happened here. B is wrong because a timely objection is not waived just because diversity exists. C ignores that §1447(c) expressly allows remand for procedural defects. D is wrong because procedural defects are waived unless raised within 30 days.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-004",
+      "subject": "Civil Procedure",
+      "area": "Removal",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A citizen of Ohio sued two defendants in Pennsylvania state court for $300,000 on state-law claims. One defendant is a Pennsylvania citizen and the other is a New Jersey citizen, and both were properly joined and served. The New Jersey defendant filed a timely notice of removal to federal court, and the Pennsylvania defendant consented in writing. The plaintiff moved to remand within 30 days. Should the court remand?",
+      "choices": {
+        "A": "No, because there is complete diversity and the amount in controversy is met.",
+        "B": "No, because all served defendants joined in or consented to removal.",
+        "C": "Yes, because a properly joined and served defendant is a citizen of the forum state.",
+        "D": "Yes, because only a defendant who is a citizen of the forum state may remove a diversity case."
+      },
+      "answer": "C",
+      "cite": "28 U.S.C. §1441(b)(2), §1447(c)",
+      "why": "C: the forum-defendant rule bars removal of a diversity-only case when any properly joined and served defendant is a forum citizen, and the plaintiff raised the defect in time. A and B describe requirements that are met but do not overcome the §1441(b)(2) bar. D reverses the rule.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-005",
+      "subject": "Civil Procedure",
+      "area": "Personal jurisdiction",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "An appliance maker is incorporated in Delaware and has its principal place of business in Georgia. It sells heavily in California, which accounts for 15% of its national revenue, and it has a large warehouse there. An Oregon resident bought one of its heaters from a store in Oregon and was burned when the heater malfunctioned in her Oregon home. She sued the maker in California state court. The maker moved to dismiss for lack of personal jurisdiction. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because the maker's continuous and systematic business in California supports general jurisdiction.",
+        "B": "Deny the motion, because the maker sells the same model of heater in California.",
+        "C": "Grant the motion, because the maker is not at home in California and the claim does not arise out of or relate to its California contacts.",
+        "D": "Deny the motion, because the plaintiff chose the forum and the maker can easily defend in California."
+      },
+      "answer": "C",
+      "cite": "Daimler AG v. Bauman (U.S. 2014); BNSF Ry. v. Tyrrell (U.S. 2017); Bristol-Myers Squibb v. Superior Court (U.S. 2017); Ford Motor Co. v. Montana Eighth Jud. Dist. (U.S. 2021)",
+      "why": "C: general jurisdiction over a corporation lies where it is at home (Delaware and Georgia), and specific jurisdiction fails because the Oregon plaintiff's Oregon purchase and injury have no link to California. A applies the pre-Daimler 'continuous and systematic' test. B misreads Ford, which relied on the plaintiff being injured in the forum. D uses fairness factors, which cannot substitute for the defendant's forum-related contacts.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-006",
+      "subject": "Civil Procedure",
+      "area": "Personal jurisdiction",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A snowmobile manufacturer based in Quebec advertises in Montana, sells through Montana dealers, and services and supplies parts for its models there. A Montana resident bought a used snowmobile of one of those models from a private seller in Montana. The snowmobile had first been sold new by a dealer in Idaho. The rider was injured in Montana when the throttle stuck, and he sued the manufacturer in Montana. Can the Montana court exercise specific jurisdiction over the manufacturer?",
+      "choices": {
+        "A": "Yes, because the manufacturer systematically served a Montana market for this model and the claim relates to those contacts.",
+        "B": "No, because the snowmobile was designed, made, and first sold outside Montana, so the claim does not arise from the manufacturer's Montana contacts.",
+        "C": "No, because a foreign manufacturer is subject to suit only where it is at home.",
+        "D": "Yes, because the plaintiff lives in Montana and was injured there, whatever the manufacturer's contacts."
+      },
+      "answer": "A",
+      "cite": "Ford Motor Co. v. Montana Eighth Jud. Dist. (U.S. 2021); Walden v. Fiore (U.S. 2014)",
+      "why": "A: under Ford, 'relate to' does not require strict causation, and a defendant that cultivates a forum market for a model is subject to suit there when that model injures a forum resident in the forum. B requires a causal link that Ford rejected. C confuses general with specific jurisdiction. D makes the plaintiff's contacts controlling, which Walden forbids.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-007",
+      "subject": "Civil Procedure",
+      "area": "Venue",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A plaintiff sued two individuals in federal court on a diversity claim arising from a failed construction project in Kansas City, in the Western District of Missouri. All of the relevant events took place there. One defendant is domiciled in the Northern District of Illinois and the other in the Southern District of Indiana. Both defendants would be subject to personal jurisdiction in Illinois. The plaintiff filed suit in the Northern District of Illinois, and the Indiana defendant timely objected to venue. Is venue proper?",
+      "choices": {
+        "A": "Yes, because one of the defendants resides in the Northern District of Illinois.",
+        "B": "Yes, because both defendants are subject to personal jurisdiction in Illinois.",
+        "C": "Yes, because in a diversity case the plaintiff may choose any district where the plaintiff resides.",
+        "D": "No, because the defendants do not all reside in one state and no substantial part of the events occurred in the Northern District of Illinois."
+      },
+      "answer": "D",
+      "cite": "28 U.S.C. §1391(b)(1)–(3)",
+      "why": "D: residence-based venue under §1391(b)(1) requires all defendants to reside in the same state, and events-based venue under (b)(2) points only to the Western District of Missouri. A drops the all-defendants requirement. B misapplies the (b)(3) fallback, which is available only when no district qualifies under (b)(1) or (b)(2). C states a rule that was repealed in 1990.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-008",
+      "subject": "Civil Procedure",
+      "area": "Erie doctrine",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A patient sued a surgeon in federal court on a state-law medical malpractice claim, with jurisdiction based on diversity. A statute of the forum state requires every medical malpractice complaint to be accompanied by an affidavit from a qualified physician attesting that the claim has merit, and a complaint without one must be dismissed. The patient filed no affidavit. The surgeon moved to dismiss under the state statute. How should the court rule?",
+      "choices": {
+        "A": "Grant the motion, because the requirement is outcome-determinative and therefore substantive under Erie.",
+        "B": "Deny the motion, because Federal Rule of Civil Procedure 8 governs what a complaint must contain and validly displaces the state requirement.",
+        "C": "Grant the motion, because a federal court sitting in diversity applies the forum state's choice-of-law rules.",
+        "D": "Deny the motion, because federal courts sitting in diversity never apply a state statute that is labeled procedural."
+      },
+      "answer": "B",
+      "cite": "Berk v. Choy (U.S. 2026); Hanna v. Plumer (U.S. 1965); Shady Grove v. Allstate (U.S. 2010)",
+      "why": "B: under Hanna, when a valid Federal Rule answers the question in dispute, it controls. Berk v. Choy (U.S. 2026) holds that Rule 8, which requires only a short and plain statement of the claim, displaces a state affidavit-of-merit requirement in federal court. The same answer follows from the Hanna/Shady Grove framework alone: Rule 8 answers what a complaint must contain and is valid under the Rules Enabling Act, so no Erie 'twin aims' analysis is reached. A skips the Hanna first step of asking whether a Federal Rule is on point. C invokes Klaxon, which is about which state's substantive law applies, not pleading requirements. D overstates the rule: federal courts do apply some state rules labeled procedural, such as statutes of limitations.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-009",
+      "subject": "Civil Procedure",
+      "area": "Pleadings and Rule 12",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A defendant filed a pre-answer motion under Rule 12(b)(6) for failure to state a claim, and the court denied it. In her answer, the defendant then asserted for the first time that the court lacked personal jurisdiction over her. The plaintiff moved to strike the defense. How should the court rule?",
+      "choices": {
+        "A": "Grant the motion, because the defense was waived when it was left out of the defendant's first Rule 12 motion.",
+        "B": "Deny the motion, because personal jurisdiction may be raised at any time before trial.",
+        "C": "Deny the motion, because a defense omitted from a pre-answer motion may still be raised in the answer.",
+        "D": "Grant the motion, because personal jurisdiction must be raised within 21 days of service no matter how."
+      },
+      "answer": "A",
+      "cite": "Fed. R. Civ. P. 12(g)(2), 12(h)(1)",
+      "why": "A: lack of personal jurisdiction is waived if it was available but left out of a Rule 12 motion. B describes defenses preserved under Rule 12(h)(2) and (h)(3), not personal jurisdiction. C is true only when no Rule 12 motion was made first. D invents a fixed 21-day rule; the waiver comes from the consolidation requirement, not a deadline.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-010",
+      "subject": "Civil Procedure",
+      "area": "Amendments and relation back",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A passenger injured on a cruise sued 'Oceanic Cruise Holdings,' the company named on her ticket, one week before the limitations period ran. The ticket's fine print identified 'Oceanic Cruise Lines, Ltd.,' an affiliate with the same counsel and offices, as the carrier. Within the Rule 4(m) period, Oceanic Cruise Lines learned of the suit and of the naming error. After the limitations period expired, the passenger amended her complaint to substitute Oceanic Cruise Lines. Oceanic Cruise Lines argues that the claim is time-barred because the passenger had the ticket all along. Does the amendment relate back?",
+      "choices": {
+        "A": "No, because the passenger knew or should have known of the proper defendant's identity before the limitations period ran.",
+        "B": "No, because an amendment that changes the named defendant never relates back.",
+        "C": "Yes, because the new defendant received timely notice and knew or should have known that it would have been sued but for a mistake about the proper party's identity.",
+        "D": "Yes, because the amended claim arises from the same occurrence as the original claim, which is all Rule 15(c) requires."
+      },
+      "answer": "C",
+      "cite": "Fed. R. Civ. P. 15(c)(1)(C); Krupski v. Costa Crociere S.p.A. (U.S. 2010)",
+      "why": "C: Rule 15(c)(1)(C) asks what the new defendant knew or should have known within the Rule 4(m) period, and Krupski holds that the plaintiff's own knowledge does not matter. A applies the plaintiff-knowledge test Krupski rejected. B ignores Rule 15(c)(1)(C). D states only the same-occurrence element and leaves out the notice and mistake requirements that apply when a party is changed.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-011",
+      "subject": "Civil Procedure",
+      "area": "Joinder — impleader",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A pedestrian sued a driver in federal court for injuries from a collision. The driver filed a third-party complaint against a road contractor, alleging that the contractor's defective signage alone caused the accident and that the contractor, not the driver, is liable to the pedestrian. The contractor moved to dismiss the third-party complaint. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because the third-party claim arises from the same occurrence as the main claim.",
+        "B": "Deny the motion, because a defendant may implead anyone who may be liable to the plaintiff.",
+        "C": "Grant the motion, because impleader is allowed only with the plaintiff's consent.",
+        "D": "Grant the motion, because impleader is limited to a nonparty who is or may be liable to the defendant for all or part of the claim against it."
+      },
+      "answer": "D",
+      "cite": "Fed. R. Civ. P. 14(a)(1)",
+      "why": "D: Rule 14 covers only derivative liability, such as indemnity or contribution owed to the defendant, and a claim that 'the contractor is liable instead of me' is a denial of liability, not impleader. A states the test for other kinds of joinder and is not enough under Rule 14. B misstates the rule. C invents a consent requirement; leave of court is needed only after 14 days from the original answer.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-012",
+      "subject": "Civil Procedure",
+      "area": "Joinder — counterclaims",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A cyclist sued a motorist in federal court for injuries from a collision. The motorist answered but asserted no counterclaim, and the case went to final judgment for the cyclist. The motorist then filed a new federal action against the cyclist for damage to his car from the same collision. The cyclist moved to dismiss. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because counterclaims in federal court are permissive.",
+        "B": "Grant the motion, because the claim arose from the same transaction or occurrence and was a compulsory counterclaim in the first action.",
+        "C": "Deny the motion, because the motorist was not the plaintiff in the first action and so is not bound by claim preclusion.",
+        "D": "Deny the motion, because property-damage claims are distinct from personal-injury claims."
+      },
+      "answer": "B",
+      "cite": "Fed. R. Civ. P. 13(a)",
+      "why": "B: a claim arising from the same transaction or occurrence that the pleader has against an opposing party must be asserted, or it is lost. A states the rule for claims that do not arise from the same transaction or occurrence. C ignores Rule 13(a), which binds defendants. D is wrong because both claims arise from the same collision. Note: New York has no compulsory counterclaim rule (CPLR 3019).",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-013",
+      "subject": "Civil Procedure",
+      "area": "Supplemental jurisdiction",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A citizen of New York sued a New Jersey retailer in federal court for $200,000 on a state-law products claim, invoking diversity jurisdiction. The retailer impleaded the product's distributor, a New York citizen, seeking contribution under Rule 14. The plaintiff then asserted a state-law claim directly against the distributor for $200,000. Which statement correctly describes the court's jurisdiction?",
+      "choices": {
+        "A": "The court has supplemental jurisdiction over both the retailer's claim against the distributor and the plaintiff's claim against the distributor.",
+        "B": "The court has supplemental jurisdiction over the retailer's claim against the distributor but not over the plaintiff's claim against the distributor.",
+        "C": "The court lacks jurisdiction over both claims against the distributor, because the distributor and the plaintiff are both New York citizens.",
+        "D": "The court has jurisdiction over the plaintiff's claim against the distributor but not over the retailer's claim, because contribution claims are not part of the same case or controversy."
+      },
+      "answer": "B",
+      "cite": "28 U.S.C. §1367(a)–(b); Owen Equipment & Erection Co. v. Kroger (U.S. 1978)",
+      "why": "B: §1367(b) bars supplemental jurisdiction only over claims by plaintiffs against persons made parties under Rule 14 in a diversity-only case, so the retailer's contribution claim is within §1367(a) while the plaintiff's claim is excluded (codifying Kroger). A overlooks §1367(b). C wrongly applies the bar to the defendant's claim. D gets both halves backward.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-014",
+      "subject": "Civil Procedure",
+      "area": "Class actions",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A federal court certified a class under Rule 23(b)(3) of 40,000 consumers seeking damages for an allegedly deceptive fee. What must class members receive?",
+      "choices": {
+        "A": "Nothing, because the named representatives adequately protect absent members.",
+        "B": "Notice by publication only, because individual notice to a large class is never required.",
+        "C": "Notice, but members may exclude themselves only with the court's permission.",
+        "D": "The best notice practicable, including individual notice to members who can be identified with reasonable effort, and the right to opt out."
+      },
+      "answer": "D",
+      "cite": "Fed. R. Civ. P. 23(c)(2)(B); Eisen v. Carlisle & Jacquelin (U.S. 1974)",
+      "why": "D: (b)(3) classes require the best notice practicable, including individual notice to identifiable members, plus the right to request exclusion. A describes (b)(1) and (b)(2) classes, where notice is discretionary. B misstates the rule; Eisen requires individual notice to identifiable members. C is wrong because opt-out in a (b)(3) class is a right that needs no court permission.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-015",
+      "subject": "Civil Procedure",
+      "area": "Discovery — work product",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "The day after a warehouse fire, the owner's insurer, expecting a lawsuit, hired an investigator who took written statements from three eyewitnesses. One of those eyewitnesses has since died, and the other two now say they cannot remember the events. In the resulting suit, the plaintiff requests the statements. The owner objects on work-product grounds. How should the court rule?",
+      "choices": {
+        "A": "Order production, because the plaintiff has substantial need and cannot obtain the substantial equivalent without undue hardship.",
+        "B": "Deny production, because materials prepared in anticipation of litigation are absolutely protected.",
+        "C": "Deny production, because the statements were prepared by an investigator rather than an attorney.",
+        "D": "Order production, because witness statements are never work product."
+      },
+      "answer": "A",
+      "cite": "Fed. R. Civ. P. 26(b)(3)(A); Hickman v. Taylor (U.S. 1947)",
+      "why": "A: fact work product can be discovered on a showing of substantial need and undue hardship, and a dead witness plus two witnesses who no longer remember meets that showing. B overstates the protection, which is near-absolute only for mental impressions and opinions. C is wrong because Rule 26(b)(3) covers materials prepared by a party's representative, including an insurer or agent. D is wrong because such statements are work product that is merely discoverable on this showing.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-016",
+      "subject": "Civil Procedure",
+      "area": "Discovery — physical and mental examinations",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A plaintiff alleges that her employer's harassment caused her severe, ongoing psychiatric injury. The employer wants a psychiatrist of its choosing to examine her. How may the employer obtain the examination?",
+      "choices": {
+        "A": "By serving a notice of examination on the plaintiff, as with a deposition.",
+        "B": "It may not, because Rule 35 examinations are limited to physical conditions.",
+        "C": "By court order on motion for good cause, because the plaintiff's mental condition is in controversy.",
+        "D": "Only if the plaintiff consents, because a party cannot be compelled to undergo an examination."
+      },
+      "answer": "C",
+      "cite": "Fed. R. Civ. P. 35(a); Schlagenhauf v. Holder (U.S. 1964)",
+      "why": "C: Rule 35 requires a court order on motion, showing that the condition is in controversy and that there is good cause. A describes deposition practice, not examinations. B is wrong because Rule 35 expressly covers mental conditions. D is wrong because a court order compels the examination without the party's consent.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-017",
+      "subject": "Civil Procedure",
+      "area": "Summary judgment",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "In a toxic-exposure case, discovery closed and the defendant moved for summary judgment. The defendant pointed out that the plaintiff had disclosed no expert or other evidence that the chemical caused her illness. The plaintiff responded by relying on the allegations of causation in her verified complaint, which were based on her belief rather than personal knowledge, and on her jury demand. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because the defendant offered no affirmative evidence disproving causation.",
+        "B": "Deny the motion, because causation is a question of fact for the jury.",
+        "C": "Deny the motion, because summary judgment is unavailable once a jury has been demanded.",
+        "D": "Grant the motion, because the plaintiff failed to identify admissible evidence creating a genuine dispute on an element she must prove."
+      },
+      "answer": "D",
+      "cite": "Fed. R. Civ. P. 56(a), (c); Celotex Corp. v. Catrett (U.S. 1986)",
+      "why": "D: a movant without the burden of proof may point to the absence of evidence, and the nonmovant must then cite admissible materials, which belief-based allegations are not. A rejects Celotex. B ignores that summary judgment decides whether a genuine factual dispute exists. C is wrong because summary judgment does not violate the Seventh Amendment.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-018",
+      "subject": "Civil Procedure",
+      "area": "Post-trial motions",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "At a jury trial, the defendant never moved for judgment as a matter of law. The jury returned a verdict for the plaintiff, and judgment was entered. Twenty days later, the defendant filed a renewed motion for judgment as a matter of law under Rule 50(b), arguing that the evidence of damages was legally insufficient. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because a Rule 50(b) motion may renew only a Rule 50(a) motion made before the case went to the jury.",
+        "B": "Grant the motion if the evidence was legally insufficient, because the motion was filed within 28 days after judgment.",
+        "C": "Deny the motion, because Rule 50(b) motions must be filed within 10 days after the verdict.",
+        "D": "Grant the motion, because sufficiency of the evidence may be raised at any time."
+      },
+      "answer": "A",
+      "cite": "Fed. R. Civ. P. 50(a)–(b); Unitherm Food Sys. v. Swift-Eckrich (U.S. 2006)",
+      "why": "A: a renewed motion requires a pre-submission Rule 50(a) motion on the same ground. B has the timing right but misses the prerequisite. C uses the old 10-day period; the current period is 28 days. D is wrong because sufficiency challenges are forfeited without proper Rule 50 motions (Dupree covers only purely legal issues decided at summary judgment).",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-019",
+      "subject": "Civil Procedure",
+      "area": "Preclusion",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "After a chemical spill, fifty neighbors sued a plant operator in one federal action, and the jury found the operator negligent. A different neighbor had been invited to join that suit but deliberately waited to see how it came out. She then sued the operator and moved for partial summary judgment on negligence based on issue preclusion. The operator had litigated the issue fully and vigorously in the first action. What is the court's best course?",
+      "choices": {
+        "A": "Grant the motion, because mutuality of parties is no longer required.",
+        "B": "Deny the motion, because issue preclusion may never be used offensively by a nonparty.",
+        "C": "Deny the motion in its discretion, because the plaintiff could easily have joined the first action.",
+        "D": "Grant the motion, because the operator had a full and fair opportunity to litigate negligence."
+      },
+      "answer": "C",
+      "cite": "Parklane Hosiery Co. v. Shore (U.S. 1979); Blonder-Tongue Labs. v. Univ. of Ill. Found. (U.S. 1971)",
+      "why": "C: Parklane gives trial courts broad discretion to deny offensive nonmutual issue preclusion, especially to a plaintiff who could easily have joined the earlier action and chose to wait and see. A and D state necessary conditions but ignore that discretion. B is wrong because offensive nonmutual preclusion is permitted in federal court, subject to the Parklane factors.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "MBE-CP-020",
+      "subject": "Civil Procedure",
+      "area": "Appeals",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A federal district court denied a foreign defendant's motion to dismiss for lack of personal jurisdiction and set the case for discovery. The defendant immediately filed a notice of appeal. The district court did not certify any question for appeal. Does the court of appeals have jurisdiction?",
+      "choices": {
+        "A": "Yes, under the collateral order doctrine, because personal jurisdiction is separate from the merits.",
+        "B": "No, because the order is not a final decision and can be reviewed after final judgment.",
+        "C": "Yes, because orders on jurisdiction are appealable as of right under 28 U.S.C. §1292(a).",
+        "D": "Yes, because the defendant can obtain immediate review as of right by requesting entry of partial judgment under Rule 54(b)."
+      },
+      "answer": "B",
+      "cite": "28 U.S.C. §1291, §1292(a)–(b); Van Cauwenberghe v. Biard (U.S. 1988)",
+      "why": "B: denial of a motion to dismiss for lack of personal jurisdiction is interlocutory and can be reviewed effectively after final judgment. A fails the 'effectively unreviewable' prong of Cohen. C is wrong because §1292(a) covers injunctions, receiverships, and admiralty, not jurisdictional rulings. D is wrong because Rule 54(b) applies to final judgment on fewer than all claims or parties, not to a denial of dismissal, and is not available as of right. Contrast New York: CPLR 5701(a)(2) allows an appeal as of right from such an order.",
+      "ref": "civil-procedure.md"
+    }
+  ]
+}

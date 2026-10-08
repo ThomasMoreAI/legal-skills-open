@@ -1,0 +1,188 @@
+{
+  "set": "nyle-cluster-c",
+  "title": "NYLE-style — Torts, Criminal Law and Procedure",
+  "component": "nyle",
+  "jurisdiction": "NY",
+  "questions": [
+    {
+      "id": "NYLE-TORT-001",
+      "subject": "Torts and Tort Damages (NY)",
+      "area": "Labor Law 240(1) — comparative fault",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An ironworker employed by a subcontractor was bolting steel on the fourth floor of an office building under construction in Albany. The general contractor supplied an unsecured extension ladder that slid out from under him, and he fell. The ironworker had not asked a coworker to foot the ladder, as his training recommended. He sued the building owner under Labor Law §240(1). A jury found his damages to be $1,000,000 and found him 40% at fault. The owner did not supervise the work. What judgment should be entered against the owner?",
+      "choices": {
+        "A": "$1,000,000, because the worker's comparative negligence is not a defense to Labor Law §240(1) liability.",
+        "B": "$600,000, because CPLR 1411 reduces every personal-injury recovery by the plaintiff's share of fault.",
+        "C": "Nothing, because the owner did not direct or control the work.",
+        "D": "$600,000, because the claim sounds in Labor Law §241(6), under which comparative fault applies."
+      },
+      "answer": "A",
+      "cite": "Labor Law §240(1); Blake v. Neighborhood Hous. Servs. of N.Y. City (N.Y. 2003)",
+      "why": "A: §240(1) imposes absolute liability on owners and contractors for gravity-related injuries caused by inadequate safety devices; the worker's comparative negligence does not reduce recovery unless his conduct was the sole proximate cause, which a defective ladder rules out. B: CPLR 1411 does not apply to §240(1) absolute liability. C: supervision and control matter for Labor Law §200, not §240(1) (and the one- and two-family dwelling exemption does not reach an office building). D: the claim was brought under §240(1); comparative fault applies under §241(6), not here.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "NYLE-TORT-002",
+      "subject": "Torts and Tort Damages (NY)",
+      "area": "CPLR Article 16 — limited joint and several liability",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A shopper was injured when a display shelf collapsed in a Rochester store. She sued the store and the shelf installer. The jury assigned 20% of the fault to the store and 80% to the installer, found the shopper free of fault, and awarded $400,000 in economic damages and $600,000 in non-economic damages. No exception under CPLR 1602 applies. The installer is insolvent. What is the maximum amount the shopper can collect from the store?",
+      "choices": {
+        "A": "$200,000.",
+        "B": "$1,000,000.",
+        "C": "$520,000.",
+        "D": "$400,000."
+      },
+      "answer": "C",
+      "cite": "CPLR 1601, 1602",
+      "why": "C: under CPLR 1601, a defendant 50% or less at fault is liable for non-economic damages only to its proportionate share (20% of $600,000 = $120,000) but remains jointly and severally liable for all economic damages ($400,000), for a total of $520,000. A: applies proportionate liability to economic damages, which Article 16 does not limit. B: ignores CPLR 1601's non-economic limit. D: omits the store's own share of non-economic damages.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "NYLE-TORT-003",
+      "subject": "Torts and Tort Damages (NY)",
+      "area": "Emotional distress — zone of danger",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A driver negligently ran a red light in Buffalo and struck a 10-year-old boy in a crosswalk, seriously injuring him. The boy's father was walking beside him in the crosswalk and jumped back just in time to avoid being hit. The boy's mother watched the collision from the far sidewalk, out of the car's path. Neither parent was physically touched. Both sue the driver for emotional distress from witnessing their son's injury. Under New York law:",
+      "choices": {
+        "A": "Both parents may recover, because both are immediate family members who contemporaneously observed the injury.",
+        "B": "Only the father may recover, because only he was himself within the zone of danger.",
+        "C": "Neither parent may recover, because New York does not allow bystander recovery for emotional distress.",
+        "D": "Only the mother may recover, because she observed the entire collision."
+      },
+      "answer": "B",
+      "cite": "Bovsun v. Sanperi (N.Y. 1984); Greene v. Esplanade Venture P'ship (N.Y. 2021)",
+      "why": "B: New York limits bystander recovery to immediate family members who were themselves in the zone of danger and contemporaneously observed the serious injury. A: states the Dillon/Thing approach, which New York rejects. C: overstates the bar; Bovsun permits recovery inside the zone. D: observation without being in the zone is insufficient in New York.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "NYLE-TORT-004",
+      "subject": "Torts and Tort Damages (NY)",
+      "area": "Privacy — Civil Rights Law §§50-51",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A New York weekly published an accurate news feature about a local music teacher that revealed, without her consent, that she had received treatment for a serious illness. The article was not used in any advertisement, and the teacher had not previously disclosed her condition. She sues the publisher for invasion of privacy. The court should:",
+      "choices": {
+        "A": "Deny dismissal, because public disclosure of embarrassing private facts is actionable.",
+        "B": "Deny dismissal, because the publisher lacked her written consent under Civil Rights Law §51.",
+        "C": "Deny dismissal on a false light theory.",
+        "D": "Dismiss the claim, because New York recognizes no common-law right of privacy and the article was not a use for advertising or trade purposes."
+      },
+      "answer": "D",
+      "cite": "Civil Rights Law §§50, 51; Howell v. New York Post Co. (N.Y. 1993); Messenger v. Gruner + Jahr Printing & Publ'g (N.Y. 2000)",
+      "why": "D: New York's only privacy cause of action is statutory, covering commercial use of name, portrait, picture, or voice for advertising or trade; newsworthy reporting is not trade use. A: the private-facts tort does not exist in New York. B: written consent matters only for advertising or trade uses. C: New York does not recognize false light, and the article was accurate.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "NYLE-TORT-005",
+      "subject": "Torts and Tort Damages (NY)",
+      "area": "Settlement — GOL §15-108",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A pedestrian injured in Queens sued two contractors whose negligence combined to cause a trench collapse. Before trial, she settled with Contractor A for $50,000 and gave A a general release. At trial against Contractor B, the jury found total damages of $500,000 and apportioned fault 40% to A and 60% to B. What judgment should be entered against B, and may B seek contribution from A?",
+      "choices": {
+        "A": "$450,000; B may seek contribution from A for any excess over B's share.",
+        "B": "$500,000; B may seek contribution from A.",
+        "C": "$300,000; B may not seek contribution from A.",
+        "D": "$450,000; B may not seek contribution from A."
+      },
+      "answer": "C",
+      "cite": "GOL §15-108(a), (b); CPLR 1401",
+      "why": "C: GOL §15-108(a) reduces the claim by the greatest of the amount paid ($50,000) or the released tortfeasor's equitable share (40% of $500,000 = $200,000), leaving $300,000; §15-108(b) relieves the settling tortfeasor of contribution liability. A and D: a dollar-for-dollar credit applies only when it exceeds the equitable share. B: ignores the statutory reduction and the contribution bar.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "NYLE-CRIM-001",
+      "subject": "Criminal Law and Procedure (NY)",
+      "area": "Exclusionary rule — good-faith exception rejected",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A Nassau County judge issued a search warrant for a defendant's home. On a suppression motion in state court, the court concluded the supporting affidavit did not establish probable cause, though the officers who executed the warrant relied on it in objective good faith. The drugs found are the prosecution's only evidence. The court should:",
+      "choices": {
+        "A": "Deny suppression, because the officers relied in good faith on a warrant issued by a neutral judge.",
+        "B": "Deny suppression, because under the totality of the circumstances the affidavit was close enough.",
+        "C": "Grant suppression only if the officers acted in bad faith.",
+        "D": "Grant suppression, because New York does not recognize a good-faith exception to the exclusionary rule."
+      },
+      "answer": "D",
+      "cite": "People v. Bigelow (N.Y. 1985); N.Y. Const. art. I, §12; contrast United States v. Leon (U.S. 1984)",
+      "why": "D: under Bigelow, the New York Constitution requires suppression of evidence seized under a warrant lacking probable cause, whatever the officers' good faith. A: that is the federal Leon rule. B: once probable cause is found lacking, there is no 'close enough.' C: officer good faith or bad faith does not affect the outcome in New York.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "NYLE-CRIM-002",
+      "subject": "Criminal Law and Procedure (NY)",
+      "area": "Conspiracy — no Pinkerton liability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two men agreed to sell stolen catalytic converters in Syracuse, and one of them rented a storage unit to hold the parts. Without telling his partner, the other man later robbed a scrap dealer at gunpoint to get more parts. The partner who rented the unit knew nothing of the robbery and did not aid it. Under the New York Penal Law, the partner is guilty of:",
+      "choices": {
+        "A": "Conspiracy only, because New York does not impose liability on a conspirator for a co-conspirator's substantive crimes absent accomplice liability.",
+        "B": "Conspiracy and robbery, because the robbery was a foreseeable act in furtherance of the conspiracy.",
+        "C": "Neither crime, because no overt act was committed.",
+        "D": "Conspiracy and robbery, because New York follows the unilateral approach to conspiracy."
+      },
+      "answer": "A",
+      "cite": "Penal Law §§20.00, 105.20; People v. McGee (N.Y. 1979)",
+      "why": "A: New York rejects Pinkerton; a conspirator is liable for a co-conspirator's crime only if he meets Penal Law §20.00 accomplice requirements. B: states the federal Pinkerton rule. C: renting the storage unit was an overt act under Penal Law §105.20. D: the unilateral approach concerns whether an agreement exists, not liability for other crimes.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "NYLE-CRIM-003",
+      "subject": "Criminal Law and Procedure (NY)",
+      "area": "Right to counsel — indelible right",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A felony complaint charging a defendant with robbery was filed in Bronx Criminal Court, and a warrant issued for his arrest. Detectives arrested him before arraignment, read him Miranda warnings, and he signed a waiver and confessed. He had no lawyer and never asked for one. At his trial in Supreme Court, he moves to suppress the confession. The court should:",
+      "choices": {
+        "A": "Deny the motion, because he knowingly waived his Miranda rights.",
+        "B": "Grant the motion, because his right to counsel attached when the accusatory instrument was filed and could not be waived outside counsel's presence.",
+        "C": "Grant the motion only if he had requested counsel.",
+        "D": "Deny the motion, because the right to counsel attaches only at arraignment."
+      },
+      "answer": "B",
+      "cite": "N.Y. Const. art. I, §6; People v. Samuels (N.Y. 1980); People v. Settles (N.Y. 1978); contrast Montejo v. Louisiana (U.S. 2009)",
+      "why": "B: under New York's indelible right to counsel, filing an accusatory instrument commences formal proceedings and the right cannot be waived unless counsel is present. A: a Miranda waiver suffices federally (Montejo) but not in New York once the right has indelibly attached. C: no request is needed after formal proceedings begin. D: the right attaches on filing, not at arraignment.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "NYLE-CRIM-004",
+      "subject": "Criminal Law and Procedure (NY)",
+      "area": "Felony murder — affirmative defense",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A defendant drove two friends to a Brooklyn bodega and waited in the car while they robbed it. He carried no weapon. Before they went in, he saw one friend tuck a loaded pistol into his waistband. During the robbery, that friend shot and killed the clerk. The defendant is charged with felony murder under Penal Law §125.25(3). Can he establish the statutory affirmative defense?",
+      "choices": {
+        "A": "No, because he had reasonable ground to believe a participant was armed with a deadly weapon.",
+        "B": "Yes, because he was unarmed and did not commit or aid the homicidal act itself.",
+        "C": "Yes, because he never entered the bodega.",
+        "D": "No, because the defense is available only when the defendant was the sole participant in the felony."
+      },
+      "answer": "A",
+      "cite": "Penal Law §125.25(3)(a)-(d)",
+      "why": "A: the defendant must prove all four elements, including that he had no reasonable ground to believe another participant was armed; seeing the pistol defeats the defense. B: being unarmed and not causing the homicidal act are only two of the four elements. C: staying outside is not an element and does not satisfy the others. D: reverses the rule — the defense is available only when the defendant was not the sole participant.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "NYLE-CRIM-005",
+      "subject": "Criminal Law and Procedure (NY)",
+      "area": "Justification — duty to retreat",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "During a traffic dispute on a Manhattan street, a man came at the defendant with a knife. The defendant, standing next to the open door of a staffed pharmacy, knew he could step inside and lock the door with complete safety. Instead he drew a licensed handgun and fatally shot the attacker. He is charged with manslaughter and claims justification. Under the Penal Law:",
+      "choices": {
+        "A": "The defendant was justified, because a person facing imminent deadly force has no duty to retreat.",
+        "B": "The defendant was justified, because the attacker was the initial aggressor.",
+        "C": "The defendant was not justified, because he knew he could retreat with complete safety and was not in his dwelling.",
+        "D": "The defendant was not justified, because deadly physical force may not be used against a knife-wielding attacker."
+      },
+      "answer": "C",
+      "cite": "Penal Law §35.15(2)(a); People v. Goetz (N.Y. 1986)",
+      "why": "C: Penal Law §35.15(2)(a) bars deadly force when the actor knows he can retreat with complete safety, unless he is in his dwelling and not the initial aggressor (or is a police officer or assisting one); the People must disprove justification beyond a reasonable doubt, and his admitted knowledge of safe retreat does so. A: the no-retreat rule is the majority and MBE approach, not New York's. B: the attacker's being the aggressor does not excuse the retreat duty. D: a knife attack can justify deadly force when retreat is not safely available.",
+      "ref": "criminal-law-procedure.md"
+    }
+  ]
+}

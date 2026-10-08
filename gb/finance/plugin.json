@@ -1,0 +1,16 @@
+{
+  "name": "gb-finance",
+  "displayName": "Finance & Banking — GB",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "finance",
+  "language": "en",
+  "skills": [
+    "skills/arckit-uk-fs-consumer-duty-tractorjuice",
+    "skills/arckit-uk-fs-safeguarding-tractorjuice",
+    "skills/arckit-uk-fs-sca-rts-tractorjuice"
+  ]
+}

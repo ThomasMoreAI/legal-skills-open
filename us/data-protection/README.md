@@ -4,10 +4,11 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `us` · Practice: `data-protection` · Skill language: en
 
-## Skills (29)
+## Skills (30)
 
 | Skill | What it does |
 |---|---|
+| [`User Input`](skills/arckit-us-privacy-pia-tractorjuice/) | [COMMUNITY] Generate a Privacy Impact Assessment under E-Government Act §208 and OMB M-03-22 for a US… |
 | [`Data Breach Notification Letter`](skills/breach-notification/) | Drafts legally compliant data breach notification letters to affected consumers under multi-state and… |
 | [`BYOD Policy`](skills/byod-policy/) | Drafts a Bring Your Own Device (BYOD) policy for U.S. employers governing personal device access to… |
 | [`CCPA/CPRA Compliance Advisor`](skills/ccpa/) | California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) compliance advisor… |

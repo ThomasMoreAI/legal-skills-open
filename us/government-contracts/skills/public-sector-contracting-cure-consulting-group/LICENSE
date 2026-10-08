@@ -1,0 +1,50 @@
+{
+  "name": "cure-product-engineering",
+  "description": "Cure Consulting Group's complete product engineering skill library \u2014 106 production-grade skills (organized into 9 domain folders: engineering, platform, product, business, finance, marketing, security, legal, tax), 41 custom agents, 4 personas (cross-domain engagement archetypes: tech-lead, product-lead, engagement-pm, solo-consultant), 11 path-specific rules, 9 output styles, multi-layer hooks (command + prompt) with a quality gate and skill security guard, MCP server configs, LSP server configs, and bundled stdlib Python tooling for executable skills. Standards across Android, iOS, Web, Firebase, Python, Go, Rust, and cloud infrastructure.",
+  "version": "7.13.0",
+  "skills": [
+    "./skills/business",
+    "./skills/engineering",
+    "./skills/finance",
+    "./skills/legal",
+    "./skills/marketing",
+    "./skills/platform",
+    "./skills/product",
+    "./skills/security",
+    "./skills/tax"
+  ],
+  "author": {
+    "name": "Cure Consulting Group",
+    "url": "https://github.com/Cure-Consulting-Group"
+  },
+  "repository": "https://github.com/Cure-Consulting-Group/ProductEngineeringSkills",
+  "homepage": "https://github.com/Cure-Consulting-Group/ProductEngineeringSkills#readme",
+  "license": "MIT",
+  "keywords": [
+    "claude-code-plugin",
+    "product-engineering",
+    "android",
+    "ios",
+    "web",
+    "firebase",
+    "python",
+    "go",
+    "rust",
+    "clean-architecture",
+    "sdlc",
+    "security",
+    "devops",
+    "compliance",
+    "observability",
+    "consulting",
+    "finops",
+    "llmops",
+    "infrastructure",
+    "testing",
+    "stitch",
+    "design-system"
+  ],
+  "experimental": {
+    "evals": "plugin-evals"
+  }
+}

@@ -4,11 +4,12 @@ Consumer Protection practice.
 
 Jurisdiction: `eu` · Practice: `consumer` · Skill language: de
 
-## Skills (14)
+## Skills (15)
 
 | Skill | What it does |
 |---|---|
 | [`Katalog der DB-Ablehnungsgründe und Gegenargumente`](skills/db-ablehnungsgruende-pruefen/) | Für Katalog der DB-Ablehnungsgründe und Gegenargumente: ordnet Norm, Beweislast und Gegenargument… |
+| [`EAA Compliance`](skills/eaa-compliance-beshkenadze/) | Use when auditing digital products or services for European Accessibility Act (EAA) compliance, checking… |
 | [`Eigenbeförderung und Betreuung (Art. 18, 20 VO; § 11 EVO)`](skills/eigenbefoerderung-und-betreuung-art-18/) | Für Eigenbeförderung und Betreuung (Art. 18. 20 VO; Paragraf 11 EVO): ordnet Norm, Beweislast und… |
 | [`Einführung VO (EU) 2021/782 — Fahrgastrechte Eisenbahn`](skills/einfuehrung-vo-2021-782/) | Für Einführung VO (EU) 2021/782 — Fahrgastrechte Eisenbahn: ordnet Norm, Beweislast und Gegenargument… |
 | [`Entschädigung berechnen`](skills/entschaedigung-berechnen/) | Für Entschädigung berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

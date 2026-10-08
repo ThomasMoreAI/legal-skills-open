@@ -1,0 +1,368 @@
+{
+  "set": "mbe-real-property",
+  "title": "MBE-style — Real Property",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-RP-001",
+      "subject": "Real Property",
+      "area": "Defeasible fees",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A landowner conveyed a parcel 'to the Township School District so long as the land is used for school purposes.' Twenty years later the district closed the school and began using the building solely as a vehicle maintenance garage. The landowner, still alive, has taken no action. Who owns the parcel?",
+      "choices": {
+        "A": "The district, until the landowner re-enters or sues to recover the land.",
+        "B": "The landowner, because the district's estate ended automatically when the school use ceased.",
+        "C": "The district, because a grantor's retained interest in a conveyance to a public body is unenforceable.",
+        "D": "The district, because the landowner's future interest is void under the Rule Against Perpetuities."
+      },
+      "answer": "B",
+      "cite": "Restatement (First) of Property §§23, 44",
+      "why": "B: 'so long as' creates a fee simple determinable; the grantor's possibility of reverter becomes possessory automatically on breach. A describes a right of entry following a fee subject to condition subsequent. C has no basis. D is wrong because possibilities of reverter are exempt from the RAP.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-002",
+      "subject": "Real Property",
+      "area": "Rule Against Perpetuities",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A testator devised land 'to my daughter for life, then to those of my daughter's children who reach the age of 25.' At the testator's death the daughter was 40 and had two children, ages 3 and 6. The jurisdiction applies the common-law Rule Against Perpetuities without modification. What is the status of the gift to the daughter's children?",
+      "choices": {
+        "A": "It is valid, because the daughter is a life in being and her children will be identified at her death.",
+        "B": "It is valid as to the two living children and void as to any later-born children.",
+        "C": "It is valid, because under the wait-and-see approach the children will very likely reach 25 within the perpetuities period.",
+        "D": "It is void, because the daughter could have another child who reaches 25 more than 21 years after the death of every life in being."
+      },
+      "answer": "D",
+      "cite": "Common-law RAP; Restatement (Second) of Property (Donative Transfers) §1.4",
+      "why": "D: the class is open while the daughter lives; an afterborn child could be under 4 at her death and reach 25 more than 21 years later, and class gifts are all-or-nothing. A ignores the age contingency exceeding 21. B violates the all-or-nothing class rule. C invokes wait-and-see, which the stem excludes.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-003",
+      "subject": "Real Property",
+      "area": "Joint tenancy — severance",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Three siblings held a farm as joint tenants with right of survivorship. The first sibling conveyed her interest to a friend by deed. Later, the second sibling died intestate, survived by a son. Who owns the farm?",
+      "choices": {
+        "A": "The third sibling owns an undivided two-thirds and the friend an undivided one-third, as tenants in common.",
+        "B": "The third sibling and the friend each own an undivided one-half as joint tenants.",
+        "C": "The third sibling owns the entire farm by survivorship.",
+        "D": "The third sibling, the friend, and the second sibling's son each own an undivided one-third."
+      },
+      "answer": "A",
+      "cite": "Restatement (Third) of Property; common-law severance by conveyance",
+      "why": "A: the conveyance severed only the first sibling's share, making the friend a one-third tenant in common; the other two remained joint tenants of two-thirds, so the third sibling took the second sibling's share by survivorship. B wrongly treats the friend as a joint tenant. C ignores the severance. D ignores survivorship between the remaining joint tenants.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-004",
+      "subject": "Real Property",
+      "area": "Joint tenancy — mortgage by one tenant",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two cousins owned a lake cabin as joint tenants with right of survivorship. Without the other's knowledge, one cousin borrowed $60,000 from a bank and gave the bank a mortgage on her interest in the cabin. She died a year later without repaying the loan. The jurisdiction follows the lien theory of mortgages. What is the state of title?",
+      "choices": {
+        "A": "The surviving cousin owns the cabin subject to the bank's mortgage.",
+        "B": "The mortgage severed the joint tenancy, so the surviving cousin and the deceased cousin's estate own the cabin as tenants in common.",
+        "C": "The surviving cousin owns the cabin free of the mortgage.",
+        "D": "The bank owns an undivided one-half interest in the cabin."
+      },
+      "answer": "C",
+      "cite": "Harms v. Sprague (Ill. 1984); lien-theory majority",
+      "why": "C: in a lien-theory state a mortgage does not sever; the mortgagor's interest ended at her death and the lien died with it. A ignores that the lien attached only to an interest that no longer exists. B states the title-theory result. D confuses a lien with ownership.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-005",
+      "subject": "Real Property",
+      "area": "Recording acts — race-notice",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An owner conveyed a lot to a first buyer, who did not record. A month later the owner conveyed the same lot to a second buyer, who paid fair value and had no notice of the first deed. The first buyer then recorded. A week later the second buyer recorded. The jurisdiction's statute provides: 'No conveyance of real property is valid against a subsequent purchaser for value without notice whose conveyance is first recorded.' Who owns the lot?",
+      "choices": {
+        "A": "The second buyer, because she purchased for value without notice of the first deed.",
+        "B": "The second buyer, because the first deed was unrecorded when she purchased.",
+        "C": "The first buyer, because the second buyer did not record before the first buyer did.",
+        "D": "The first buyer, because the first grantee in time always prevails."
+      },
+      "answer": "C",
+      "cite": "Race-notice recording statute",
+      "why": "C: a race-notice statute protects a subsequent bona fide purchaser only if she also records first, and she did not. A states a pure notice result. B misreads the statute's timing. D gives the right winner for the wrong reason; first-in-time applies only because the later purchaser failed to qualify for protection.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-006",
+      "subject": "Real Property",
+      "area": "Recording acts — shelter rule",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "An owner conveyed land to a first buyer, who did not record. The owner then sold the same land to a second buyer for value; the second buyer had no notice of the first deed and promptly recorded. The first buyer then recorded. The second buyer later sold the land to a third buyer, who had heard about the first buyer's deed before purchasing. The jurisdiction has a notice statute. Between the first and third buyers, who owns the land?",
+      "choices": {
+        "A": "The third buyer, because she takes the protected status of the second buyer from whom she purchased.",
+        "B": "The first buyer, because the third buyer had actual notice of the first deed.",
+        "C": "The first buyer, because the first buyer's deed was recorded before the third buyer purchased.",
+        "D": "The third buyer, but only if she recorded before the first buyer did."
+      },
+      "answer": "A",
+      "cite": "Shelter rule",
+      "why": "A: the second buyer was a protected bona fide purchaser, and under the shelter rule her transferee takes her title even with notice. B and C would let the first buyer benefit from his own failure to record once the second buyer's title was secure. D imports a race requirement a notice statute does not have.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-007",
+      "subject": "Real Property",
+      "area": "Recording acts — inquiry notice",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An owner sold a rural house to a first buyer, who moved in, planted a garden, and lived there openly, but did not record the deed. Six months later the owner sold the same house to a second buyer for value. The second buyer never visited the property, relied solely on a clean record title search, and recorded. The jurisdiction has a notice recording statute. Who prevails?",
+      "choices": {
+        "A": "The second buyer, because she recorded and the first buyer did not.",
+        "B": "The second buyer, because she had no actual notice of the first deed.",
+        "C": "The first buyer, because the first grantee in time prevails regardless of notice.",
+        "D": "The first buyer, because the second buyer is charged with inquiry notice of the first buyer's open possession."
+      },
+      "answer": "D",
+      "cite": "Notice recording statute; inquiry notice from possession",
+      "why": "D: a purchaser is charged with what a reasonable inspection would reveal, including a possessor's rights, so the second buyer is not a purchaser without notice. A applies a race rule. B ignores constructive and inquiry notice. C states the common-law rule the recording act modifies.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-008",
+      "subject": "Real Property",
+      "area": "Equitable servitudes — common scheme",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A developer subdivided a tract into 100 lots under a recorded plat marketed as a 'residential community.' The deeds to the first 90 lots, all recorded, restricted use to single-family residences. By oversight, the deed to lot 91 contained no restriction. Lot 91's buyer, who had seen the restricted deeds in the title report, began building a gas station. A lot 10 owner sued to enjoin it. What result?",
+      "choices": {
+        "A": "The buyer prevails, because no restriction appears in his deed or chain of title, as the statute of frauds requires.",
+        "B": "The lot 10 owner prevails, because a common scheme plus the buyer's notice creates an implied reciprocal servitude on lot 91.",
+        "C": "The lot 10 owner prevails, but only if there is horizontal privity between the developer and the buyer.",
+        "D": "The buyer prevails, because restrictions on land are construed in favor of free use."
+      },
+      "answer": "B",
+      "cite": "Sanborn v. McLean (Mich. 1925); Restatement (Third) of Property: Servitudes §2.14",
+      "why": "B: the developer's general plan impliedly burdened its retained lots, and the buyer took with notice, so the servitude is enforceable in equity. A overlooks the common-scheme exception to the writing requirement. C imports a legal-covenant privity requirement equitable servitudes do not need. D is a construction canon that cannot override an implied servitude.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-009",
+      "subject": "Real Property",
+      "area": "Easements — necessity",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "An owner of a large tract sold the rear half, which had no access to any public road except across the owner's retained front half. The deed said nothing about access. The buyer crossed the front half for 12 years. Then the county opened a new public road along the rear half's boundary. The front-half owner blocked the path. Does the rear-half owner still have an easement?",
+      "choices": {
+        "A": "No, because an easement by necessity ends when the necessity ends.",
+        "B": "Yes, because an easement once created lasts forever unless released in writing.",
+        "C": "Yes, because the easement became an easement implied from prior use.",
+        "D": "No, because the easement never existed since it was not created in writing."
+      },
+      "answer": "A",
+      "cite": "Restatement (Third) of Property: Servitudes §2.15",
+      "why": "A: severance of common ownership that landlocked a parcel created an easement by necessity, which terminates when the necessity ends. B overstates permanence. C fails because there was no pre-severance quasi-easement use by the common owner. D ignores that implied easements need no writing.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-010",
+      "subject": "Real Property",
+      "area": "Adverse possession — disabilities",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "In 2005 a neighbor entered and began openly, continuously, and exclusively farming a field belonging to a competent owner, without permission. In 2008 the owner was adjudicated mentally incompetent, and he remains incompetent. The limitations period for recovering land is 10 years, with a tolling provision for owners under a disability. In 2016 the owner's guardian sued to eject the neighbor. What result?",
+      "choices": {
+        "A": "The owner prevails, because the period does not run while the owner is under a disability.",
+        "B": "The owner prevails, because title cannot be acquired against an incompetent person.",
+        "C": "The neighbor prevails only if the owner knew of the neighbor's possession before becoming incompetent.",
+        "D": "The neighbor prevails, because a disability that arises after adverse possession begins does not toll the limitations period."
+      },
+      "answer": "D",
+      "cite": "Common-law disability rule",
+      "why": "D: only a disability existing when adverse possession begins tolls the statute; the period ran from 2005 to 2015. A misstates the timing rule. B has no basis. C adds a knowledge element the majority objective test does not require.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-011",
+      "subject": "Real Property",
+      "area": "Landlord-tenant — warranty of habitability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A tenant in a residential apartment told the landlord in writing, in early January, that the unit had no heat. The landlord did nothing for six weeks of winter. The tenant stayed in the unit, used space heaters, and withheld rent for those weeks. The lease contains no repair covenant. The landlord sued for the unpaid rent. What is the tenant's best argument?",
+      "choices": {
+        "A": "None; the tenant's duty to pay rent is independent of the landlord's obligations.",
+        "B": "The tenant was constructively evicted.",
+        "C": "The landlord breached the implied warranty of habitability, entitling the tenant to withhold or reduce rent.",
+        "D": "The landlord breached an express covenant to repair."
+      },
+      "answer": "C",
+      "cite": "Javins v. First National Realty Corp. (D.C. Cir. 1970); Restatement (Second) of Property: Landlord & Tenant §5.1",
+      "why": "C: a residential landlord impliedly warrants habitability, heat in winter is essential, and after notice the tenant may withhold or abate rent while remaining in possession. A states the outdated independent-covenants rule. B fails because constructive eviction requires vacating. D fails because the lease has no repair covenant.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-012",
+      "subject": "Real Property",
+      "area": "Landlord-tenant — assignment liability",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A tenant with a 10-year lease assigned the lease to a first assignee, who took possession but made no promise to the landlord to perform the lease. The first assignee later assigned to a second assignee, who took possession and then stopped paying rent. The landlord has not released anyone. From whom may the landlord recover the unpaid rent?",
+      "choices": {
+        "A": "Only the second assignee.",
+        "B": "The original tenant and the second assignee, but not the first assignee.",
+        "C": "The original tenant, the first assignee, and the second assignee.",
+        "D": "Only the original tenant."
+      },
+      "answer": "B",
+      "cite": "Privity of contract and privity of estate",
+      "why": "B: the original tenant stays liable in privity of contract; the second assignee is liable in privity of estate while in possession; the first assignee's privity of estate ended when it reassigned, and it never assumed. A ignores the original tenant's contract liability. C wrongly includes a non-assuming prior assignee. D ignores the current assignee's privity of estate.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-013",
+      "subject": "Real Property",
+      "area": "Landlord-tenant — abandonment and mitigation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A residential tenant abandoned her apartment with two years left on the lease and sent the landlord the keys. The landlord did not accept a surrender, left the unit vacant, and turned away two qualified applicants who offered to rent at the same rate. At the end of the term the landlord sued for two years' rent. Under the modern majority rule, what may the landlord recover?",
+      "choices": {
+        "A": "Rent for the remaining term, reduced by the rent it reasonably could have obtained by reletting.",
+        "B": "The full two years' rent, because a landlord has no duty to relet.",
+        "C": "Nothing, because the tenant's return of the keys effected a surrender.",
+        "D": "Only rent that accrued before the tenant abandoned."
+      },
+      "answer": "A",
+      "cite": "Sommer v. Kridel (N.J. 1977); modern majority",
+      "why": "A: the modern majority imposes a duty to make reasonable efforts to mitigate, and damages are reduced by the amount a reasonable reletting would have produced. B is the traditional rule. C fails because surrender requires the landlord's acceptance. D ignores post-abandonment liability.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-014",
+      "subject": "Real Property",
+      "area": "Land-sale contracts — risk of loss",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A seller and a buyer signed a valid contract for the sale of a house, closing in 60 days. The buyer did not take possession. Two weeks before closing, lightning struck and the house burned down, through no fault of either party. The contract is silent on risk of loss, and the jurisdiction has no statute on the subject. The seller's insurer paid the seller $250,000. The seller tendered a deed and demanded the full price. What result under the traditional majority rule?",
+      "choices": {
+        "A": "The buyer may rescind and recover the deposit, because the seller still held legal title.",
+        "B": "The buyer may rescind, because the seller was in possession and therefore bore the risk.",
+        "C": "The contract is discharged by impossibility, because the house no longer exists.",
+        "D": "The buyer must close, because under equitable conversion the risk passed to the buyer at signing, but most courts credit the seller's insurance proceeds against the price."
+      },
+      "answer": "D",
+      "cite": "Equitable conversion; Restatement (Second) of Contracts §263 cmt.",
+      "why": "D: equitable conversion puts the risk of casualty on the buyer once the contract is signed, and to avoid a windfall most courts credit the seller's insurance proceeds. A reflects legal-title thinking the doctrine rejects. B states the Uniform Vendor and Purchaser Risk Act rule (minority, including NY). C is wrong because land remains and the buyer bears the risk.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-015",
+      "subject": "Real Property",
+      "area": "Land-sale contracts — marketable title",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A buyer contracted to buy a house. The contract said nothing about zoning. Before closing, the buyer learned that the seller's detached garage was built two feet inside the minimum side-yard setback required by the local zoning ordinance, and the town had never granted a variance. The buyer refused to close. The seller sued for specific performance. What result?",
+      "choices": {
+        "A": "The seller prevails, because zoning ordinances do not affect the marketability of title.",
+        "B": "The buyer prevails, because an existing violation of a zoning ordinance renders title unmarketable.",
+        "C": "The seller prevails, but the buyer receives an abatement for the cost of moving the garage.",
+        "D": "The buyer prevails only if the contract expressly warranted zoning compliance."
+      },
+      "answer": "B",
+      "cite": "Implied covenant of marketable title",
+      "why": "B: the mere existence of zoning restrictions does not make title unmarketable, but an existing violation does, because it exposes the buyer to litigation. A states the rule for restrictions, not violations. C is a remedy the buyer need not accept. D ignores the implied covenant.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-016",
+      "subject": "Real Property",
+      "area": "Deeds — delivery through escrow",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A widower signed a deed conveying his cabin to his niece and handed it to his attorney with written instructions: 'Deliver this deed to my niece when I die. I give up any right to take it back.' The niece paid nothing. A year later the widower, still alive, gave a second deed to the same cabin to his neighbor as a gift; the neighbor recorded. The widower then died, and the attorney delivered the first deed to the niece. Who owns the cabin?",
+      "choices": {
+        "A": "The neighbor, because the widower kept legal title until his death and the neighbor's deed was recorded first.",
+        "B": "The widower's estate, because the first deed was an attempted will that failed to satisfy the wills statute.",
+        "C": "The niece, because handing the deed to the attorney with irrevocable instructions was an effective delivery that passed a future interest immediately.",
+        "D": "The niece, but only if she recorded before the neighbor."
+      },
+      "answer": "C",
+      "cite": "Death escrow doctrine",
+      "why": "C: delivery to a third party with no power of recall shows present intent to pass an interest, with possession postponed until death, so nothing remained for the second deed to convey. A ignores the effective escrow delivery; the neighbor, a donee, is not protected by a recording act anyway. B fails because the grantor gave up control, so the deed is not testamentary. D imports a recording requirement that does not protect the neighbor, who gave no value.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-017",
+      "subject": "Real Property",
+      "area": "Mortgages — future advances",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A bank recorded a mortgage securing a line of credit of up to $200,000; the bank was not obligated to make any advance. It advanced $50,000. A second lender then made a $75,000 loan secured by a recorded second mortgage and sent the bank written notice of it. Afterward the bank advanced another $100,000 under the line. On foreclosure the property sold for $180,000. What is the correct priority?",
+      "choices": {
+        "A": "The bank's entire $150,000 is paid first, because its mortgage was recorded first.",
+        "B": "The second lender's $75,000 is paid before any of the bank's advances.",
+        "C": "The two lenders share the proceeds in proportion to their debts.",
+        "D": "The bank's first $50,000 is paid first, then the second lender's $75,000, then the bank's later $100,000."
+      },
+      "answer": "D",
+      "cite": "Majority rule on optional future advances",
+      "why": "D: an optional advance made with actual notice of an intervening mortgage loses priority to it, while the pre-notice advance keeps the bank's original priority. A treats the optional advance as obligatory. B subordinates even the earlier advance. C has no basis in recording priority.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-018",
+      "subject": "Real Property",
+      "area": "Mortgages — foreclosure effects",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A property is encumbered by three recorded mortgages, held by a first, second, and third lender in that order of priority. The second lender forecloses, joining all necessary parties. A buyer purchases at the foreclosure sale. What does the buyer take?",
+      "choices": {
+        "A": "Title subject to the first mortgage and free of the second and third mortgages.",
+        "B": "Title free of all three mortgages.",
+        "C": "Title subject to the first and third mortgages.",
+        "D": "Title free of all three mortgages, with the first lender paid first from the sale proceeds."
+      },
+      "answer": "A",
+      "cite": "Foreclosure priority rules",
+      "why": "A: foreclosure extinguishes the foreclosing interest and properly joined junior interests, but senior interests are unaffected. B and D wrongly extinguish the senior lien (seniors are not paid from a junior's sale). C wrongly preserves the joined junior.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-019",
+      "subject": "Real Property",
+      "area": "Mortgages — transfer subject to mortgage",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An owner who had given a bank a mortgage on her condominium sold it to a buyer by a deed stating that the buyer took 'subject to' the existing mortgage. The buyer made payments for a while and then defaulted. The bank foreclosed, and the sale left a $30,000 deficiency. The bank sought a deficiency judgment. Against whom?",
+      "choices": {
+        "A": "The buyer only, because he owned the property at default.",
+        "B": "The owner and the buyer, jointly and severally.",
+        "C": "The original owner only, because a grantee who takes 'subject to' a mortgage does not become personally liable on the debt.",
+        "D": "Neither, because the bank is limited to the property."
+      },
+      "answer": "C",
+      "cite": "Subject-to vs. assumption",
+      "why": "C: the original mortgagor remains personally liable on the note; a subject-to grantee risks the property but not a personal judgment. A and B would be right only if the buyer had assumed. D ignores the original mortgagor's note liability absent an anti-deficiency statute.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "MBE-RP-020",
+      "subject": "Real Property",
+      "area": "Land use — regulatory takings",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A couple bought two beachfront lots for $900,000 intending to build a house. A state statute later banned all permanent structures on their lots to prevent erosion, leaving the lots with no economically beneficial use. Nothing in the state's nuisance or property law would have barred a house before the statute. The couple sued, claiming a taking. What result?",
+      "choices": {
+        "A": "No taking, because the statute substantially advances a legitimate environmental interest.",
+        "B": "A taking, because the regulation deprived the lots of all economically beneficial use and is not justified by background principles of state property or nuisance law.",
+        "C": "No taking, because the state did not physically occupy the lots.",
+        "D": "No taking, because under ad hoc balancing the owners' investment-backed expectations are outweighed by the public interest."
+      },
+      "answer": "B",
+      "cite": "Lucas v. South Carolina Coastal Council (U.S. 1992)",
+      "why": "B: a regulation that eliminates all economically beneficial use is a per se taking unless background principles already prohibited the use. A applies a means-ends test the Court has rejected as a takings test. C ignores regulatory takings. D applies Penn Central balancing, which does not govern a total wipeout.",
+      "ref": "real-property.md"
+    }
+  ]
+}

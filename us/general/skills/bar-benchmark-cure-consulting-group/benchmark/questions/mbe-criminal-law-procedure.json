@@ -1,0 +1,368 @@
+{
+  "set": "mbe-criminal-law-procedure",
+  "title": "MBE-style — Criminal Law and Procedure",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-CRIM-001",
+      "subject": "Criminal Law and Procedure",
+      "area": "Mens rea — MPC default culpability",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A state has adopted the Model Penal Code's culpability provisions. A statute makes it a crime to 'damage any public monument' but specifies no mental state. A defendant, backing her car out of a parking space, carelessly failed to notice a small bronze plaque at knee height and dented it. She was unaware of any risk of hitting it. Is she guilty?",
+      "choices": {
+        "A": "Yes, because the statute imposes strict liability when it is silent as to mental state.",
+        "B": "No, because when a statute is silent the Model Penal Code requires at least recklessness, and she was merely negligent.",
+        "C": "Yes, because she acted negligently in failing to perceive the plaque.",
+        "D": "No, because the Model Penal Code requires purpose for all property offenses."
+      },
+      "answer": "B",
+      "cite": "Model Penal Code §2.02(3)",
+      "why": "B: under MPC §2.02(3), a statute silent on culpability requires at least recklessness (conscious disregard); failing to perceive a risk is negligence. A: the MPC disfavors strict liability outside violations or clear legislative intent. C: negligence does not satisfy the default recklessness floor. D: there is no MPC purpose requirement for property offenses.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-002",
+      "subject": "Criminal Law and Procedure",
+      "area": "Homicide — felony murder, agency theory",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two men robbed a convenience store at gunpoint. As they fled, a police officer arrived and fired at them, missing and killing a customer standing near the door. The jurisdiction follows the majority approach to killings committed by non-felons during a felony. The surviving robber is charged with felony murder of the customer. He should be:",
+      "choices": {
+        "A": "Acquitted, because under the agency theory a felon is not liable for a killing committed by a non-felon.",
+        "B": "Convicted, because the killing was a foreseeable result of the armed robbery.",
+        "C": "Convicted, because the victim was an innocent bystander rather than a co-felon.",
+        "D": "Acquitted, because the killing occurred during flight rather than during the robbery."
+      },
+      "answer": "A",
+      "cite": "State v. Canola (N.J. 1977); majority agency rule",
+      "why": "A: under the majority agency theory, felony murder covers only killings by a felon or co-felon, not by police or victims. B: foreseeability is the minority proximate-cause approach. C: the victim's innocence matters under some proximate-cause jurisdictions, not under the agency rule. D: immediate flight is part of the felony for felony-murder purposes.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-003",
+      "subject": "Criminal Law and Procedure",
+      "area": "Homicide — merger limitation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "During a bar fight, a defendant struck a man repeatedly with a pool cue, intending only to injure him seriously. The man died. The prosecutor, unsure whether the jury will find malice, charges felony murder, using aggravated assault as the underlying felony. The jurisdiction follows the common-law approach. The defendant's best argument against the felony-murder charge is that:",
+      "choices": {
+        "A": "Aggravated assault is not an inherently dangerous felony.",
+        "B": "He lacked intent to kill.",
+        "C": "The killing did not occur during the commission of the felony.",
+        "D": "The assault merges into the homicide and cannot serve as the predicate felony."
+      },
+      "answer": "D",
+      "cite": "People v. Ireland (Cal. 1969); merger doctrine",
+      "why": "D: the merger rule bars using an assault that is an integral part of the killing as the felony-murder predicate. A: aggravated assault is inherently dangerous; that is not the obstacle. B: felony murder never requires intent to kill (and intent to cause serious injury is itself malice). C: the death flowed directly from the assault.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-004",
+      "subject": "Criminal Law and Procedure",
+      "area": "Homicide — heat of passion",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A defendant's coworker taunted him for weeks, and one afternoon told him, falsely, that he had been sleeping with the defendant's wife. Enraged, the defendant immediately stabbed and killed the coworker. The jurisdiction follows the common law. The defendant's most likely conviction is:",
+      "choices": {
+        "A": "Voluntary manslaughter, because he killed in the heat of passion without time to cool.",
+        "B": "Involuntary manslaughter, because he did not premeditate.",
+        "C": "Murder, because words alone are not adequate provocation.",
+        "D": "Voluntary manslaughter, because the statement concerned adultery."
+      },
+      "answer": "C",
+      "cite": "Common-law provocation; Maher v. People (Mich. 1862)",
+      "why": "C: at common law, mere words — even of infidelity — are not adequate provocation, so the intentional killing is murder. A: heat of passion requires legally adequate provocation, not just rage. B: involuntary manslaughter involves no intent to kill. D: the adultery category requires discovering it, not being told about it (and the MPC EED rule is not stated).",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-005",
+      "subject": "Criminal Law and Procedure",
+      "area": "Defenses — voluntary intoxication",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "After drinking heavily at a party, a guest took another guest's expensive jacket from a coat rack, believing in his drunken state that it was his own. He was charged with larceny. The jurisdiction follows the common law. Evidence of his intoxication is:",
+      "choices": {
+        "A": "Admissible to show he lacked the intent to steal, because larceny is a specific-intent crime.",
+        "B": "Inadmissible, because voluntary intoxication is never a defense.",
+        "C": "Admissible only if his intoxication was involuntary.",
+        "D": "Inadmissible, because his mistake about ownership was unreasonable."
+      },
+      "answer": "A",
+      "cite": "Common-law voluntary intoxication rule; Montana v. Egelhoff (U.S. 1996) (states may restrict)",
+      "why": "A: voluntary intoxication can negate the specific intent required for larceny. B: overstates the rule; it is a defense to specific-intent crimes. C: involuntary intoxication is not required for specific-intent crimes. D: a mistake of fact negating specific intent need not be reasonable.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-006",
+      "subject": "Criminal Law and Procedure",
+      "area": "Parties — accomplice liability",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A woman knew that her roommate planned to shoplift from a department store. She rode with the roommate to the store, waited in the car listening to music, and said nothing. She did not act as a lookout and received none of the stolen goods. Is she guilty as an accomplice to the theft?",
+      "choices": {
+        "A": "Yes, because she knew of the crime and did not prevent it.",
+        "B": "No, because mere presence and knowledge, without aid or encouragement intended to promote the crime, is insufficient.",
+        "C": "Yes, because she accompanied the principal to the scene.",
+        "D": "No, because she received none of the proceeds."
+      },
+      "answer": "B",
+      "cite": "Model Penal Code §2.06(3); common-law accomplice liability",
+      "why": "B: accomplice liability requires intentional assistance or encouragement; presence plus knowledge is not enough. A: there is no general duty to prevent a crime. C: accompanying without intent to aid is mere presence. D: sharing in proceeds is not an element; an accomplice who aided would be guilty without them.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-007",
+      "subject": "Criminal Law and Procedure",
+      "area": "Inchoate crimes — Pinkerton liability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A and B agreed to sell stolen prescription drugs. Without telling A, B robbed a pharmacy at gunpoint to replenish their supply. A was in another city at the time. The jurisdiction follows federal conspiracy law on co-conspirator liability. A is charged with conspiracy and armed robbery. A is most likely guilty of:",
+      "choices": {
+        "A": "Conspiracy only, because A did not participate in the robbery.",
+        "B": "Neither crime, because B exceeded the scope of the agreement.",
+        "C": "Both, if the robbery was committed in furtherance of the conspiracy and was reasonably foreseeable.",
+        "D": "Both, because every conspirator is automatically liable for every crime committed by any co-conspirator."
+      },
+      "answer": "C",
+      "cite": "Pinkerton v. United States (U.S. 1946)",
+      "why": "C: under Pinkerton, a conspirator is liable for co-conspirators' crimes committed in furtherance and reasonably foreseeable. A: states the MPC/non-Pinkerton rule. B: the agreement's scope limits liability only if the crime was unforeseeable or not in furtherance; the conspiracy itself is complete. D: liability is limited by furtherance and foreseeability.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-008",
+      "subject": "Criminal Law and Procedure",
+      "area": "Inchoate crimes — conspiracy, bilateral approach",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A defendant proposed to an acquaintance that they burn down a rival's store. The acquaintance was an undercover officer who pretended to agree and helped buy gasoline. The defendant was arrested before any fire was set. The jurisdiction adheres to the traditional common-law definition of conspiracy. Can the defendant be convicted of conspiracy?",
+      "choices": {
+        "A": "Yes, because the defendant believed he had reached an agreement.",
+        "B": "Yes, because buying the gasoline was an overt act.",
+        "C": "No, because no fire was set.",
+        "D": "No, because the common law requires a genuine agreement between at least two guilty minds."
+      },
+      "answer": "D",
+      "cite": "Common-law bilateral conspiracy; contrast Model Penal Code §5.03 (unilateral)",
+      "why": "D: the bilateral common-law rule requires two parties who actually agree; a feigning officer supplies no second guilty mind. A: that is the MPC unilateral approach. B: an overt act cannot substitute for a real agreement. C: conspiracy does not require completing the target crime (the defendant may be guilty of solicitation or attempt).",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-009",
+      "subject": "Criminal Law and Procedure",
+      "area": "Inchoate crimes — attempt, specific intent",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Intending to frighten a neighbor, a defendant fired a rifle toward the neighbor's lighted living room window, knowing people were inside but not wishing to hit anyone. The bullet grazed the neighbor, who recovered fully. The defendant is charged with attempted murder. The jurisdiction follows the common law. He should be:",
+      "choices": {
+        "A": "Acquitted, because attempted murder requires a specific intent to kill.",
+        "B": "Convicted, because firing into an occupied room shows a depraved heart.",
+        "C": "Convicted, because he would have been guilty of murder had the neighbor died.",
+        "D": "Acquitted, because he did not come dangerously close to killing the neighbor."
+      },
+      "answer": "A",
+      "cite": "Common-law attempt; Model Penal Code §5.01(1)",
+      "why": "A: attempt requires intent to bring about the result; depraved-heart recklessness cannot support attempted murder. B: depraved heart supports murder if death results, not attempt. C: the hypothetical-murder test is wrong because attempt demands specific intent. D: grazing the neighbor was dangerously close; the missing element is intent, not proximity.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-010",
+      "subject": "Criminal Law and Procedure",
+      "area": "Inchoate crimes — legal impossibility",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A tourist bought a bottle of wine and carried it across a state line, believing that transporting any alcohol between states without a permit was a federal felony. In fact, no such law exists. Customs officers learned of his statements and he was charged with attempting to violate federal liquor laws. The jurisdiction applies the common-law approach to impossibility. The tourist should be:",
+      "choices": {
+        "A": "Convicted, because factual impossibility is not a defense.",
+        "B": "Convicted, because he believed he was committing a crime and took a substantial step.",
+        "C": "Acquitted, because his conduct, even as he understood it, was not a crime (true legal impossibility).",
+        "D": "Acquitted, because he abandoned the attempt."
+      },
+      "answer": "C",
+      "cite": "Common-law impossibility doctrine; Model Penal Code §5.01(1)",
+      "why": "C: pure legal impossibility — the intended act is not criminal — is a defense everywhere, including under the MPC. A: this is not factual impossibility; no fact prevented completion of a crime. B: a belief that lawful conduct is criminal cannot create an offense. D: he completed his intended conduct; there was no abandonment.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-011",
+      "subject": "Criminal Law and Procedure",
+      "area": "Property crimes — false pretenses vs larceny by trick",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A man told a jeweler that he was a licensed appraiser and asked to borrow a diamond ring overnight to appraise it for a customer. The jeweler handed it over, expecting it back the next day. The man had planned from the start to keep it, and he pawned it. The jurisdiction retains the common-law property crimes. The man is guilty of:",
+      "choices": {
+        "A": "False pretenses, because he obtained the ring by a misrepresentation.",
+        "B": "Larceny by trick, because he obtained only possession by deceit, intending to keep the ring.",
+        "C": "Embezzlement, because he lawfully possessed the ring before converting it.",
+        "D": "No crime, because the jeweler voluntarily handed over the ring."
+      },
+      "answer": "B",
+      "cite": "Common-law larceny by trick; King v. Pear (1779)",
+      "why": "B: when deceit induces transfer of possession only, with intent to permanently deprive at the time, the crime is larceny by trick. A: false pretenses requires obtaining title, not just possession. C: embezzlement requires lawful possession without fraudulent intent at the outset. D: consent procured by fraud is no consent to the taking.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-012",
+      "subject": "Criminal Law and Procedure",
+      "area": "Property crimes — common-law burglary",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "At midnight, a houseguest invited to stay overnight walked through the open door of his host's home. At 3 a.m., he decided to steal the host's watch, took it from the nightstand, and left. The jurisdiction follows the common-law definition of burglary. He is guilty of:",
+      "choices": {
+        "A": "Burglary, because he entered a dwelling of another at night and committed a felony.",
+        "B": "Burglary, because he broke out of the house with the watch.",
+        "C": "Robbery, because he took the watch from the host's bedroom.",
+        "D": "Larceny only, because he lacked the intent to commit a felony at the time of entry, and there was no breaking."
+      },
+      "answer": "D",
+      "cite": "Common-law burglary elements",
+      "why": "D: common-law burglary requires a breaking and entry with contemporaneous intent to commit a felony; he entered by consent and formed intent later. A: omits breaking and the timing of intent. B: breaking out is not a common-law breaking in (most jurisdictions). C: robbery requires force or fear against a person.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-013",
+      "subject": "Criminal Law and Procedure",
+      "area": "Fourth Amendment — curbside trash",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Without a warrant, police picked up opaque garbage bags that a suspect had placed at the curb for regular collection, searched them, and found drug residue. The suspect moves to suppress. The court should:",
+      "choices": {
+        "A": "Deny the motion, because there is no reasonable expectation of privacy in trash left at the curb for collection.",
+        "B": "Grant the motion, because the bags were opaque and closed.",
+        "C": "Grant the motion, because the bags were on the suspect's property.",
+        "D": "Deny the motion only if police had reasonable suspicion."
+      },
+      "answer": "A",
+      "cite": "California v. Greenwood (U.S. 1988)",
+      "why": "A: curbside trash is exposed to the public, so its search is not a Fourth Amendment search. B: opacity does not create a reasonable expectation of privacy once abandoned for collection. C: curbside placement is outside the curtilage for this purpose. D: no suspicion is required because there is no search.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-014",
+      "subject": "Criminal Law and Procedure",
+      "area": "Fourth Amendment — vehicle search incident to arrest",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Police stopped a driver for speeding and discovered an outstanding warrant for unpaid parking fines. They arrested him, handcuffed him, and locked him in the back of a patrol car. An officer then searched the passenger compartment and found cocaine in a closed backpack on the rear seat. The officers had no other information about drugs. Is the cocaine admissible?",
+      "choices": {
+        "A": "Yes, because police may search the passenger compartment incident to any lawful custodial arrest of an occupant.",
+        "B": "Yes, under the automobile exception.",
+        "C": "No, because the arrestee was secured and it was not reasonable to believe evidence of the offense of arrest was in the car.",
+        "D": "No, because the arrest itself was unlawful for a parking offense."
+      },
+      "answer": "C",
+      "cite": "Arizona v. Gant (U.S. 2009)",
+      "why": "C: Gant limits vehicle searches incident to arrest to when the arrestee is unsecured within reach or it is reasonable to believe evidence of the crime of arrest is inside. A: this is the pre-Gant rule from Belton. B: the automobile exception requires probable cause of contraband, which was absent. D: arrest on a valid warrant is lawful regardless of the underlying offense.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-015",
+      "subject": "Criminal Law and Procedure",
+      "area": "Fourth Amendment — standing",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Police illegally entered an apartment without a warrant and found stolen firearms. Present were the leaseholder; her brother, who had been staying there for a week and kept his belongings there; and a visitor who had arrived an hour earlier to buy one of the firearms. All three are charged. Who may successfully move to suppress the firearms?",
+      "choices": {
+        "A": "Only the leaseholder.",
+        "B": "The leaseholder and the brother, but not the visitor.",
+        "C": "All three, because each was present during the illegal entry.",
+        "D": "All three, because the evidence is being used against each of them."
+      },
+      "answer": "B",
+      "cite": "Minnesota v. Olson (U.S. 1990); Minnesota v. Carter (U.S. 1998); Rakas v. Illinois (U.S. 1978)",
+      "why": "B: a resident and an overnight guest have a legitimate expectation of privacy in the home; a brief commercial visitor does not. A: overnight guests have standing (Olson). C: presence alone does not confer standing. D: target standing was rejected in Rakas.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-016",
+      "subject": "Criminal Law and Procedure",
+      "area": "Exclusionary rule — good-faith exception",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A magistrate issued a warrant based on an affidavit that a reviewing court later held did not establish probable cause, although it was a close question and the affidavit was not misleading. Officers executed the warrant in objectively reasonable reliance on it and found stolen jewelry. In federal court, the defendant moves to suppress. The court should:",
+      "choices": {
+        "A": "Grant the motion, because the warrant lacked probable cause.",
+        "B": "Grant the motion, because good faith applies only to warrantless searches.",
+        "C": "Deny the motion, because the defendant lacks standing to challenge the magistrate's decision.",
+        "D": "Deny the motion, because the officers relied in objective good faith on a warrant issued by a neutral magistrate."
+      },
+      "answer": "D",
+      "cite": "United States v. Leon (U.S. 1984)",
+      "why": "D: Leon admits evidence obtained in objectively reasonable reliance on a later-invalidated warrant. A: a warrant defect does not trigger exclusion where reliance was reasonable. B: the good-faith exception was born in the warrant context. C: the defendant has standing in his own premises; the issue is remedy. (NY would suppress under People v. Bigelow, but this is a federal case.)",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-017",
+      "subject": "Criminal Law and Procedure",
+      "area": "Fifth Amendment — Edwards rule",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A suspect arrested for burglary received Miranda warnings and said, 'I want a lawyer.' Questioning stopped. He remained in jail. Two days later, a detective investigating an unrelated arson, unaware of the earlier request, gave fresh Miranda warnings. The suspect waived his rights and confessed to the arson. His lawyer had not yet been appointed. Is the arson confession admissible?",
+      "choices": {
+        "A": "No, because after an unambiguous request for counsel police may not initiate interrogation on any crime while he remains in continuous custody.",
+        "B": "Yes, because the right to counsel is offense-specific.",
+        "C": "Yes, because he received fresh Miranda warnings and knowingly waived his rights.",
+        "D": "Yes, because the detective did not know of the earlier request."
+      },
+      "answer": "A",
+      "cite": "Edwards v. Arizona (U.S. 1981); Arizona v. Roberson (U.S. 1988); Maryland v. Shatzer (U.S. 2010)",
+      "why": "A: Edwards bars police-initiated interrogation about any offense after an invocation of the Miranda right to counsel, absent a 14-day break in custody. B: offense-specificity governs the Sixth Amendment right, not the Miranda-Edwards right. C: a waiver after police re-initiation is presumed invalid. D: Roberson imputes knowledge; the detective's ignorance does not matter.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-018",
+      "subject": "Criminal Law and Procedure",
+      "area": "Sixth Amendment — deliberate elicitation",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "After a defendant was indicted for bank robbery and counsel appointed, police placed an informant in his cell with instructions to ask about the robbery and about an unsolved car theft. The informant repeatedly questioned the defendant, who admitted both crimes. The defendant moves to suppress his statements at his robbery trial and at a later car-theft trial. How should the court rule?",
+      "choices": {
+        "A": "Suppress both, because the informant was acting as a government agent.",
+        "B": "Admit both, because the defendant spoke voluntarily to a fellow inmate.",
+        "C": "Suppress the robbery statements but admit the car-theft statements, because the Sixth Amendment right is offense-specific.",
+        "D": "Suppress the car-theft statements only, because no counsel had been appointed for that crime."
+      },
+      "answer": "C",
+      "cite": "Massiah v. United States (U.S. 1964); Maine v. Moulton (U.S. 1985); Texas v. Cobb (U.S. 2001)",
+      "why": "C: deliberate elicitation on the charged robbery violates the Sixth Amendment, but the right is offense-specific, so uncharged car-theft statements are usable (no custodial interrogation by a known officer for Miranda). A: agency matters only for the charged offense. B: voluntariness is not the test once the right has attached. D: reverses the rule.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-019",
+      "subject": "Criminal Law and Procedure",
+      "area": "Fifth Amendment — double jeopardy",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A defendant was tried for joyriding (taking a vehicle without the owner's consent) and acquitted. The prosecutor then charged him in the same state court with auto theft of the same car on the same day, which requires proof of the same taking plus intent to permanently deprive. May the state proceed?",
+      "choices": {
+        "A": "Yes, because auto theft requires proof of an element joyriding does not.",
+        "B": "No, because joyriding is a lesser included offense of auto theft, so they are the same offense for double jeopardy purposes.",
+        "C": "Yes, because an acquittal of a lesser offense never bars prosecution for a greater one.",
+        "D": "No, but only because the prosecutor acted in bad faith."
+      },
+      "answer": "B",
+      "cite": "Blockburger v. United States (U.S. 1932); Brown v. Ohio (U.S. 1977)",
+      "why": "B: under Blockburger, a lesser included offense and the greater offense are the same offense, so prosecution for one bars the other. A: the test asks whether each requires an element the other does not; joyriding has no element auto theft lacks. C: states the opposite of Brown v. Ohio. D: double jeopardy does not depend on bad faith.",
+      "ref": "criminal-law-procedure.md"
+    },
+    {
+      "id": "MBE-CRIM-020",
+      "subject": "Criminal Law and Procedure",
+      "area": "Sixth Amendment — confrontation, forensic reports",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "At a drug-possession trial, the prosecution offered a sworn laboratory certificate stating that the seized substance was fentanyl. The analyst who performed the test did not testify, and the prosecution did not show that she was unavailable or that the defendant had an opportunity to cross-examine her. The defendant objected. The certificate is:",
+      "choices": {
+        "A": "Admissible as a business record.",
+        "B": "Admissible, because the analyst's scientific findings are neutral and reliable.",
+        "C": "Admissible if a supervisor testifies that the lab followed proper procedures.",
+        "D": "Inadmissible, because it is testimonial hearsay and the defendant had no opportunity to confront the analyst."
+      },
+      "answer": "D",
+      "cite": "Melendez-Diaz v. Massachusetts (U.S. 2009); Bullcoming v. New Mexico (U.S. 2011); Crawford v. Washington (U.S. 2004)",
+      "why": "D: a forensic certificate prepared for prosecution is testimonial; the Confrontation Clause requires the analyst's live testimony absent unavailability and prior cross. A: a hearsay exception cannot override the Confrontation Clause for testimonial statements. B: reliability is not the test after Crawford. C: surrogate testimony does not satisfy the right (Bullcoming; Smith v. Arizona).",
+      "ref": "criminal-law-procedure.md"
+    }
+  ]
+}

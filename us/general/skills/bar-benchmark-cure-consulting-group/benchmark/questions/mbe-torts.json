@@ -1,0 +1,368 @@
+{
+  "set": "mbe-torts",
+  "title": "MBE-style — Torts",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-TORT-001",
+      "subject": "Torts",
+      "area": "Intentional torts — transferred intent",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "During an argument in a parking lot, a man hurled a heavy wrench at his neighbor, intending to hit him. The neighbor ducked, and the wrench struck a bystander standing behind him, fracturing her wrist. The man never saw the bystander. In the bystander's action against the man, what is her strongest claim?",
+      "choices": {
+        "A": "Battery, because the man's intent toward the neighbor transfers to the bystander.",
+        "B": "Negligence only, because the man did not know the bystander was present.",
+        "C": "No intentional tort, because intent must be directed at the person actually harmed.",
+        "D": "Assault, because the bystander was placed in apprehension of contact."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Torts §§13, 16; transferred intent doctrine",
+      "why": "A: intent to batter one person transfers to an unintended victim. B: negligence is available but not the strongest claim; intent is established by transfer. C: states the rule transferred intent rejects. D: assault requires awareness/apprehension, and nothing shows the bystander saw the wrench coming.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-002",
+      "subject": "Torts",
+      "area": "Intentional torts — assault",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A contractor, angry that a homeowner refused to pay an invoice, called the homeowner and said, 'Next week, when you least expect it, I'll come by and break your arm.' The homeowner was frightened and installed security cameras. The contractor never came. Is the contractor liable to the homeowner for assault?",
+      "choices": {
+        "A": "Yes, because the contractor intended to cause fear of a harmful contact.",
+        "B": "Yes, because the homeowner reasonably feared the threatened contact.",
+        "C": "No, because the threatened contact was not imminent.",
+        "D": "No, because words alone can never constitute an assault."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Torts §§21, 29",
+      "why": "C: assault requires apprehension of imminent contact; a threat for next week is future harm. A: intent alone does not supply imminence. B: reasonable fear of future contact is insufficient. D: overstates the rule; words plus circumstances can create imminent apprehension, and the issue here is timing, not words.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-003",
+      "subject": "Torts",
+      "area": "Intentional torts — false imprisonment",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "As a practical joke, a coworker locked the door of a windowless storage room while a colleague was sorting files inside, and unlocked it ten minutes later. The colleague, wearing noise-canceling headphones, never tried the door, never learned it had been locked, and suffered no harm. In a false imprisonment action by the colleague, the coworker will most likely:",
+      "choices": {
+        "A": "Be liable, because the confinement was intentional and complete.",
+        "B": "Not be liable, because the colleague was neither aware of the confinement nor harmed by it.",
+        "C": "Be liable for nominal damages, because false imprisonment is actionable per se.",
+        "D": "Not be liable, because the confinement lasted only ten minutes."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Torts §§35, 42",
+      "why": "B: false imprisonment requires the plaintiff to be aware of the confinement or harmed by it. A: intentional, complete confinement is necessary but not sufficient. C: nominal damages still require awareness or harm. D: duration is irrelevant to liability; brief confinement can suffice.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-004",
+      "subject": "Torts",
+      "area": "Intentional torts — shopkeeper's privilege",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A store's security guard saw a customer slip a pair of earbuds into her coat pocket. As she walked past the registers, the guard politely asked her to accompany him to an office near the exit, where he held her for 15 minutes while reviewing video. The video showed that she had put the earbuds back on a different shelf before leaving the aisle. The customer sued the store for false imprisonment. What is the likely outcome?",
+      "choices": {
+        "A": "The customer prevails, because she had not actually taken any merchandise.",
+        "B": "The customer prevails, because the guard detained her before she left the store.",
+        "C": "The store prevails, because a merchant may detain any customer for up to one hour.",
+        "D": "The store prevails, because the guard reasonably suspected theft and detained her reasonably, in a reasonable manner, for a reasonable time."
+      },
+      "answer": "D",
+      "cite": "Restatement (Second) of Torts §120A",
+      "why": "D: the shopkeeper's privilege protects a detention based on reasonable belief, conducted reasonably and briefly, on or near the premises. A: the privilege applies even if the belief turns out to be mistaken. B: detention inside or near the premises is within the privilege. C: there is no fixed one-hour rule; the standard is reasonable time.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-005",
+      "subject": "Torts",
+      "area": "Intentional torts — private necessity",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "During a sudden, violent storm, a sailor moored his boat at a private dock without permission to avoid capsizing. The dock owner arrived and began untying the boat. The sailor stopped him. Waves then slammed the boat against the dock, causing $8,000 in damage to the dock. The sailor exercised reasonable care throughout. The dock owner sued the sailor. What is the likely result?",
+      "choices": {
+        "A": "The sailor is not liable, because private necessity is a complete defense.",
+        "B": "The sailor is liable for the $8,000, because private necessity does not excuse payment for actual damage caused.",
+        "C": "The sailor is liable for trespass and punitive damages, because he entered without permission.",
+        "D": "The sailor is not liable, because the dock owner's attempt to untie the boat was itself tortious."
+      },
+      "answer": "B",
+      "cite": "Vincent v. Lake Erie Transp. Co. (Minn. 1910); Restatement (Second) of Torts §263",
+      "why": "B: private necessity privileges the entry but the actor must pay for actual damage. A: complete defense is public necessity, not private. C: the entry was privileged, so no trespass or punitive damages. D: the owner's wrongful expulsion attempt would make him liable for harm to the boat but does not relieve the sailor of paying for dock damage.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-006",
+      "subject": "Torts",
+      "area": "Negligence — duty to unforeseeable plaintiff",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A delivery driver double-parked on a busy street and left the engine running while he made a delivery. A thief jumped in and sped off. Three blocks away, the thief swerved to avoid a pedestrian, jumped the curb, and struck a propane regulator on the side of a building. The resulting gas leak caused a flash fire that injured a tenant in an apartment two floors above. The jurisdiction follows the majority approach to duty. In the tenant's negligence action against the driver, the driver's best argument is that:",
+      "choices": {
+        "A": "The tenant was outside the zone of foreseeable danger created by leaving the truck running, so no duty was owed to her.",
+        "B": "The thief's criminal act is always a superseding cause.",
+        "C": "The driver's conduct was not an actual cause of the fire.",
+        "D": "The tenant assumed the risk by living in a building with propane service."
+      },
+      "answer": "A",
+      "cite": "Palsgraf v. Long Island R.R. (N.Y. 1928) (Cardozo, C.J.)",
+      "why": "A: under the majority Cardozo view, duty runs only to plaintiffs within the foreseeable zone of danger, and a tenant injured by a remote gas fire is the driver's strongest no-duty argument. B: criminal acts are not always superseding; theft of a running vehicle is arguably foreseeable. C: but-for causation is satisfied — no running truck, no theft and crash. D: living in a building with propane service is not a knowing, voluntary encounter with this risk.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-007",
+      "subject": "Torts",
+      "area": "Negligence — rescue doctrine",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A landscaper negligently left a riding mower running on a steep slope, and it began rolling toward a group of children. A passerby sprinted to stop it, tripped on a sprinkler head, and broke her ankle. The children were never touched. In a jurisdiction applying pure comparative negligence, the passerby sued the landscaper. The landscaper's best response is:",
+      "choices": {
+        "A": "The passerby cannot recover because she voluntarily assumed the risk of injury.",
+        "B": "The passerby cannot recover because the landscaper owed no duty to her, only to the children.",
+        "C": "The passerby cannot recover because she was not injured by the mower itself.",
+        "D": "Any recovery should be reduced to the extent the passerby's own carelessness in running contributed to her injury."
+      },
+      "answer": "D",
+      "cite": "Wagner v. International Ry. (N.Y. 1921); Restatement (Second) of Torts §445",
+      "why": "D: rescuers are foreseeable plaintiffs, but a rescuer's own negligence reduces recovery under comparative fault. A: rescue is not treated as voluntary assumption of risk that bars recovery. B: danger invites rescue, so a duty runs to the rescuer. C: foreseeable harms suffered in the rescue attempt are within the risk; the mower need not touch her.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-008",
+      "subject": "Torts",
+      "area": "Negligence per se — scope of statute",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state statute requires owners of swimming pools to enclose them with a fence at least five feet high 'to prevent young children from drowning.' A homeowner's pool had no fence. An adult guest, walking across the yard at night, tripped over an unlit garden hose next to the pool, fell on the concrete deck, and broke his hip. He never entered the water. In his negligence action, the guest seeks to rely on the statute. The court should rule that:",
+      "choices": {
+        "A": "The statute establishes negligence per se, because the homeowner violated it.",
+        "B": "The statute creates a presumption of negligence that the homeowner must rebut.",
+        "C": "The statute is inapplicable, because the guest is not in the protected class and his harm is not the type the statute was meant to prevent.",
+        "D": "The statute is inapplicable only because the guest was an adult."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Torts §286",
+      "why": "C: negligence per se requires both a plaintiff in the protected class and harm of the type the statute targets; neither is met. A: violation alone is insufficient. B: some states treat violations as evidence or a presumption, but only when the statute applies. D: incomplete; even an adult could not rely on it because a trip-and-fall is not drowning.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-009",
+      "subject": "Torts",
+      "area": "Negligence — res ipsa loquitur effect",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A shopper was struck by a ceiling tile that fell in a department store aisle. The store alone maintained the ceiling. The shopper offered no evidence of what caused the tile to fall. The store moved for a directed verdict at the close of the shopper's case. In a jurisdiction following the majority rule, the court should:",
+      "choices": {
+        "A": "Deny the motion, because res ipsa loquitur permits the jury to infer negligence.",
+        "B": "Grant the motion, because the shopper produced no direct evidence of negligence.",
+        "C": "Direct a verdict for the shopper, because res ipsa loquitur establishes negligence as a matter of law.",
+        "D": "Deny the motion only if the store fails to produce evidence of reasonable care."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Torts §328D; Byrne v. Boadle (Exch. 1863)",
+      "why": "A: res ipsa creates a permissible inference that takes the case to the jury. B: circumstantial evidence via res ipsa is sufficient to avoid a directed verdict. C: under the majority rule it does not compel a verdict for the plaintiff. D: the inference arises from the plaintiff's proof; it does not depend on the defense's evidence.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-010",
+      "subject": "Torts",
+      "area": "Premises liability — licensee",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A homeowner invited a friend over for dinner. The homeowner knew that the third step of her back-porch stairs was rotted and might give way, but she had not repaired it or mentioned it. The rot was not visible. The friend stepped on it, fell, and was injured. The jurisdiction retains the traditional categories of land entrants. Is the homeowner liable?",
+      "choices": {
+        "A": "No, because a social guest takes the premises as she finds them.",
+        "B": "Yes, because a host must warn a social guest of known dangerous conditions the guest is unlikely to discover.",
+        "C": "Yes, because a host must inspect the premises and make them reasonably safe for social guests.",
+        "D": "No, because the homeowner did not create the dangerous condition."
+      },
+      "answer": "B",
+      "cite": "Restatement (Second) of Torts §342",
+      "why": "B: social guests are licensees, owed a warning of known, concealed dangers. A: overstates it; licensees take premises as found except for known hidden dangers. C: the inspect-and-repair duty is owed to invitees, not licensees. D: creation is irrelevant; knowledge plus concealment triggers the duty.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-011",
+      "subject": "Torts",
+      "area": "Premises liability — attractive nuisance",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A construction company left a large pile of loose sand and an idle front-end loader, with the key in the ignition, on an unfenced lot next to an elementary school. The company knew children often played on the lot after school. A nine-year-old climbed into the loader, turned the key, and was injured when it lurched forward. The child's parents sued the company. Which fact would most help the company defend the claim?",
+      "choices": {
+        "A": "The child was a trespasser.",
+        "B": "The loader was not inherently dangerous when turned off.",
+        "C": "The company had posted a 'No Trespassing' sign on the lot.",
+        "D": "The child understood from prior experience that the loader could move and injure him if started."
+      },
+      "answer": "D",
+      "cite": "Restatement (Second) of Torts §339",
+      "why": "D: attractive-nuisance liability requires that the child, because of youth, not appreciate the risk; actual appreciation defeats the claim. A: the doctrine exists precisely to protect child trespassers. B: the condition (a startable machine with key in it) is what matters, and it posed unreasonable risk. C: a sign a nine-year-old may ignore does not eliminate foreseeable trespass or the duty.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-012",
+      "subject": "Torts",
+      "area": "Causation — alternative liability",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Two hunters, each acting negligently, fired shotguns toward a thicket at the same moment. A single pellet struck a hiker in the eye. The pellet could have come from either gun, and forensic testing cannot tell which. The hiker sued both hunters. Which statement best describes the burden of proof on causation?",
+      "choices": {
+        "A": "The hiker cannot recover, because she cannot prove by a preponderance which hunter caused her injury.",
+        "B": "Each hunter is liable for half of the damages, because each was 50% likely to have caused the injury.",
+        "C": "The burden shifts to each hunter to prove that his pellet did not cause the injury; a hunter who cannot do so is liable.",
+        "D": "The hunters are liable only if they were acting in concert under a common plan."
+      },
+      "answer": "C",
+      "cite": "Summers v. Tice (Cal. 1948); Restatement (Second) of Torts §433B(3)",
+      "why": "C: alternative liability shifts the burden of proving causation to the negligent defendants when one of them caused the harm. A: this is the rule that alternative liability displaces. B: liability is joint and several, not a probability split. D: concert of action is a separate theory; alternative liability requires no common plan.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-013",
+      "subject": "Torts",
+      "area": "Proximate cause — intervening medical negligence",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A driver negligently ran a red light and struck a cyclist, breaking her leg. At the hospital, a surgeon negligently set the fracture, leading to an infection and a second surgery. The cyclist sued the driver for all her injuries, including those from the second surgery. The driver argues that he is not responsible for the harm resulting from the surgeon's malpractice. How should the court rule?",
+      "choices": {
+        "A": "The driver is liable for the aggravation, because negligent medical treatment of an injury is a foreseeable intervening cause.",
+        "B": "The driver is not liable for the aggravation, because the surgeon's negligence was a superseding cause.",
+        "C": "The driver is liable for the aggravation only if the surgeon is judgment-proof.",
+        "D": "The driver is not liable for the aggravation, because it resulted from an independent tort."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Torts §457",
+      "why": "A: the original tortfeasor is liable for foreseeable aggravation from negligent medical care. B: ordinary medical malpractice is not superseding. C: the driver's liability is not contingent on the surgeon's solvency; the two may be jointly liable for the aggravation. D: a later independent tort does not break the chain when it is a foreseeable response to the original harm.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-014",
+      "subject": "Torts",
+      "area": "Comparative negligence — calculation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A pedestrian crossing mid-block while looking at her phone was hit by a speeding motorist. The jury found damages of $200,000 and assigned 60% of the fault to the pedestrian and 40% to the motorist. The jurisdiction applies pure comparative negligence. What judgment should be entered for the pedestrian?",
+      "choices": {
+        "A": "Nothing, because the pedestrian was more at fault than the motorist.",
+        "B": "$80,000.",
+        "C": "$120,000.",
+        "D": "$200,000, reduced by the jury's assessment of the pedestrian's failure to mitigate."
+      },
+      "answer": "B",
+      "cite": "Restatement (Third) of Torts: Apportionment of Liability §7; Li v. Yellow Cab Co. (Cal. 1975)",
+      "why": "B: pure comparative negligence reduces the award by the plaintiff's share: 40% of $200,000 = $80,000. A: states the modified (greater-than-50%) bar, not pure comparative. C: reduces by the defendant's share instead of the plaintiff's. D: confuses comparative fault with mitigation; nothing shows failure to mitigate.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-015",
+      "subject": "Torts",
+      "area": "Multiple defendants — joint and several liability",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Two factories independently discharged chemicals into a river, together killing all the fish in a hatchery downstream. The harm cannot reasonably be apportioned. The jury found the hatchery's damages to be $500,000 and assigned 70% fault to Factory A and 30% to Factory B. The jurisdiction retains traditional joint and several liability with contribution based on comparative fault. Factory A is insolvent. How much can the hatchery collect from Factory B?",
+      "choices": {
+        "A": "$150,000, its proportionate share.",
+        "B": "$250,000, a pro rata share.",
+        "C": "Nothing, because neither discharge alone would have killed all the fish.",
+        "D": "$500,000, subject to B's right of contribution against A."
+      },
+      "answer": "D",
+      "cite": "Restatement (Second) of Torts §§875, 879, 886A",
+      "why": "D: for an indivisible injury, each jointly and severally liable defendant can be made to pay the whole, leaving it to seek contribution. A: a proportionate-share limit applies only under several liability. B: pro rata allocation is an outdated contribution rule and does not limit the plaintiff. C: each discharge was a substantial factor in the combined harm.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-016",
+      "subject": "Torts",
+      "area": "Strict liability — abnormally dangerous activity",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A licensed fumigation company used a highly toxic gas to fumigate a warehouse, following every industry safety protocol. An unforeseeable wind shift carried some gas to an adjacent lot, where a parking attendant inhaled it and was seriously injured. Fumigation with this gas is rare and cannot be made safe even with reasonable care. The attendant sued the company. What result?",
+      "choices": {
+        "A": "The company prevails, because it exercised reasonable care.",
+        "B": "The company prevails, because the wind shift was an unforeseeable intervening force.",
+        "C": "The attendant prevails, because the harm resulted from the risk that makes the activity abnormally dangerous.",
+        "D": "The attendant prevails, but only on proof that the company violated a regulation."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Torts §§519, 520",
+      "why": "C: strict liability attaches to abnormally dangerous activities when the harm flows from the very risk (toxic gas escaping) that makes them abnormally dangerous. A: due care is no defense to strict liability. B: wind carrying gas is the characteristic risk, not a superseding cause. D: a regulatory violation is unnecessary.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-017",
+      "subject": "Torts",
+      "area": "Products liability — retailer strict liability",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A hardware store sold a sealed, factory-packaged space heater. Because of a flaw in the assembly line, the heater's thermostat wire was pinched, unlike the rest of the production run. The heater overheated and burned the buyer. The store could not have discovered the flaw without destroying the packaging. The buyer sued the store in strict products liability. What result?",
+      "choices": {
+        "A": "The buyer prevails, because a commercial seller of a product with a manufacturing defect is strictly liable even if it could not have discovered the defect.",
+        "B": "The store prevails, because it had no reasonable opportunity to inspect the sealed product.",
+        "C": "The store prevails, because only the manufacturer is liable for a manufacturing defect.",
+        "D": "The buyer prevails only if the store was negligent in selecting the manufacturer."
+      },
+      "answer": "A",
+      "cite": "Restatement (Second) of Torts §402A; Restatement (Third) of Torts: Products Liability §§1, 2(a)",
+      "why": "A: every commercial seller in the chain is strictly liable for a manufacturing defect; lack of opportunity to inspect is irrelevant (the store may seek indemnity). B: states a negligence defense, not a strict-liability one. C: strict liability extends to retailers and distributors. D: negligence need not be proven.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-018",
+      "subject": "Torts",
+      "area": "Products liability — design defect",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A consumer's hand was crushed when a household paper shredder pulled in her sleeve. The shredder worked exactly as designed. The consumer's expert testified that a narrower feed slot combined with an automatic-stop sensor, available at the time of manufacture, would have prevented the injury, added $4 to the cost, and did not impair function. The jurisdiction follows the Restatement (Third) of Torts: Products Liability. Which statement best describes the consumer's design-defect claim?",
+      "choices": {
+        "A": "It fails, because the shredder conformed to its intended design.",
+        "B": "It can succeed, because the evidence of a reasonable alternative design whose omission rendered the product not reasonably safe supports a risk-utility finding.",
+        "C": "It fails, because the risk of catching clothing is open and obvious.",
+        "D": "It succeeds automatically, because the product injured a user during ordinary use."
+      },
+      "answer": "B",
+      "cite": "Restatement (Third) of Torts: Products Liability §2(b)",
+      "why": "B: under the Third Restatement, a design is defective when a reasonable alternative design would have reduced foreseeable risk and its omission renders the product not reasonably safe. A: conformity to design defeats a manufacturing-defect claim, not a design claim. C: obviousness is one factor, not a bar under risk-utility. D: injury during ordinary use does not by itself establish defect.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-019",
+      "subject": "Torts",
+      "area": "Defamation — private figure, public concern",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A local newspaper reported that a private contractor had used substandard concrete on a public school renovation. The statement was false. The reporter relied on a single anonymous source and made no effort to check the contractor's inspection records, which were publicly available and would have shown the concrete met code. The reporter believed the story was true. The contractor sued for defamation and sought presumed damages without proof of actual injury. Under federal constitutional limits, which statement is correct?",
+      "choices": {
+        "A": "The contractor can recover presumed damages, because the report was libel.",
+        "B": "The contractor cannot recover at all, because the report concerned a matter of public concern.",
+        "C": "The contractor must prove actual malice to recover any damages.",
+        "D": "The contractor may recover for actual injury on proof of negligence, but presumed damages require actual malice."
+      },
+      "answer": "D",
+      "cite": "Gertz v. Robert Welch, Inc. (U.S. 1974); New York Times Co. v. Sullivan (U.S. 1964)",
+      "why": "D: a private figure suing on a matter of public concern needs at least negligence as to falsity for actual damages, and actual malice for presumed or punitive damages; the reporter's failure to check public records is negligence, not actual malice. A: common-law presumed damages are unavailable here without actual malice. B: public concern raises the fault standard but does not bar recovery. C: actual malice is required for all damages only for public officials and figures.",
+      "ref": "torts.md"
+    },
+    {
+      "id": "MBE-TORT-020",
+      "subject": "Torts",
+      "area": "Privacy torts — intrusion",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A landlord secretly installed a camera in the smoke detector of a tenant's bedroom. The tenant discovered it a week later. The landlord never viewed the footage and never shared it with anyone. In a jurisdiction recognizing the four common-law privacy torts, the tenant's strongest claim is:",
+      "choices": {
+        "A": "Public disclosure of private facts.",
+        "B": "False light.",
+        "C": "Intrusion upon seclusion.",
+        "D": "Appropriation of likeness."
+      },
+      "answer": "C",
+      "cite": "Restatement (Second) of Torts §652B",
+      "why": "C: intrusion is complete on a highly offensive intrusion into a private place; no publication or viewing is required. A: disclosure requires publicity. B: false light requires publicity of a false or misleading portrayal. D: appropriation requires use of identity for the defendant's benefit.",
+      "ref": "torts.md"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (229)
+## Skills (230)
 
 | Skill | What it does |
 |---|---|
@@ -30,6 +30,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-art-kompetenz-automatisierte/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-nutzung-quellencheck-brao/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Applicability`](skills/applicability-arttuan/) | Decide which EU regimes apply from the facts in the brief, and record the ruled-out ones with the fact… |
+| [`7 Wallet Solution Certification and Risk Management`](skills/arf-wallet-reqs-sourcelabbg/) | Use when reviewing Wallet Solution certification requirements, conformity assessment, CSA-based… |
 | [`Kompetenz fördern und Maßnahmen belegen`](skills/art-4-ki-kompetenz-schulungsprogramm/) | Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte… |
 | [`Software nach Artikel 6 einstufen`](skills/artikel-6-software-einstufen/) | Ordnet beliebige Software anhand der KI-Systemdefinition, des Produktpfads aus Artikel 6 Absatz 1 und… |
 | [`Ausnahmebegründung nach Artikel 6`](skills/ausnahmebegruendung-artikel-6/) | Prüft und formuliert die Anbieterbegründung einer Ausnahme nach Artikel 6 Absatz 3 und 4 einschließlich… |

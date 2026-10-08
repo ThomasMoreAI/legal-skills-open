@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 
-## Skills (199)
+## Skills (200)
 
 | Skill | What it does |
 |---|---|
@@ -148,6 +148,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Legal Memorandum`](skills/legal-memo/) | Drafts U.S. internal legal memoranda using IRAC structure to analyze issues, synthesize authority… |
 | [`Core competencies`](skills/legal-practice/) | Civil litigation, contract law, legal research methodology, rules of professional conduct, and legal… |
 | [`Core competencies`](skills/legal-research-cite-finder/) | Legal research expertise — auto-activates when locating cases, statutes, and procedural rules for… |
+| [`Legal Research & Citation Integrity`](skills/legal-research-cure-consulting-group/) | Legal research and citation verification, New York first. Use when a legal question needs controlling… |
 | [`Legal Research Summary`](skills/legal-research-summary/) | Synthesizes U.S. statutes, case law, and regulatory guidance into attorney-ready litigation research… |
 | [`Litigation Deadline Calendar`](skills/litigation-deadline-calendar-dave-marcus/) | Calendar litigation and arbitration deadlines from a scheduling order. Parses a PDF scheduling order… |
 | [`Litigation`](skills/litigation-judicialmind/) | Civil litigation and motion practice skill. Use when the user needs assistance with lawsuits, pleadings… |

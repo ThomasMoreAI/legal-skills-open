@@ -1,0 +1,314 @@
+{
+  "set": "nyle-cluster-a",
+  "title": "NYLE-style — Civil Practice, Evidence, Conflicts, Administrative Law",
+  "component": "nyle",
+  "jurisdiction": "NY",
+  "questions": [
+    {
+      "id": "NYLE-CP-001",
+      "subject": "New York Civil Practice and Procedure",
+      "area": "Service of process — CPLR 308(2)",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A plaintiff filed a summons and complaint in Supreme Court, Kings County. On June 1, a process server left the papers with the defendant's adult daughter, who lives with him, at his Brooklyn home. On June 3, the server mailed a copy to the defendant at that address in a properly marked envelope. Proof of service was filed with the clerk on June 10. By what date must the defendant appear?",
+      "choices": {
+        "A": "June 21",
+        "B": "July 1",
+        "C": "July 20",
+        "D": "July 10"
+      },
+      "answer": "C",
+      "cite": "CPLR 308(2); CPLR 320(a)",
+      "why": "C: service under CPLR 308(2) is complete 10 days after proof is filed (June 20), and a defendant not personally served has 30 days after service is complete to appear, which makes July 20. A counts 20 days from delivery, the rule for personal delivery. B counts 30 days from delivery. D counts 30 days from filing and ignores the 10-day completion period.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "NYLE-CP-002",
+      "subject": "New York Civil Practice and Procedure",
+      "area": "Personal jurisdiction — CPLR 302",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A Florida resident who has never visited or done business in New York wrote a blog post, from his home in Miami, falsely accusing a Manhattan restaurateur of serving spoiled food. The restaurateur lost significant business in New York and sued him for libel in Supreme Court, New York County, serving him in Florida. The blogger moves to dismiss under CPLR 3211(a)(8). How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, under CPLR 302(a)(3), because the tortious act outside New York caused injury within New York.",
+        "B": "Deny the motion, under CPLR 302(a)(2), because the post was read in New York, so the tort was committed there.",
+        "C": "Deny the motion, because due process allows jurisdiction over a defendant who aims a tort at a forum resident.",
+        "D": "Grant the motion, because CPLR 302(a)(2) and (a)(3) exclude defamation and the blogger transacted no business in New York."
+      },
+      "answer": "D",
+      "cite": "CPLR 302(a)(1)–(3)",
+      "why": "D: New York's long-arm statute expressly carves defamation out of both tort provisions, and with no business transacted in New York, 302(a)(1) does not apply. A and B ignore the defamation exclusion. C skips the statutory step: jurisdiction must be authorized by the long-arm statute before due process (Calder) is considered, and New York's statute is narrower than due process here.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "NYLE-CP-003",
+      "subject": "New York Civil Practice and Procedure",
+      "area": "Statute of limitations — CPLR 205(a)",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A plaintiff injured in a car collision timely commenced a negligence action two months before the three-year limitations period expired. The defendant raised improper service in his answer and moved for judgment within 60 days. The court dismissed the action because the defendant had never been validly served, so personal jurisdiction was not obtained. Four months after the dismissal, and after the limitations period had expired, the plaintiff filed a new action on the same claim and served the defendant properly. Is the new action timely?",
+      "choices": {
+        "A": "No, because CPLR 205(a) does not apply when the prior action was dismissed for failure to obtain personal jurisdiction over the defendant.",
+        "B": "Yes, because CPLR 205(a) gives six months to recommence after any dismissal not on the merits.",
+        "C": "Yes, because the limitations period was tolled while the first action was pending.",
+        "D": "Yes, because the new claim relates back to the filing of the first action under CPLR 203(f)."
+      },
+      "answer": "A",
+      "cite": "CPLR 205(a), 214(5), 203(f), 3211(e)",
+      "why": "A: CPLR 205(a) expressly excludes dismissals for voluntary discontinuance, failure to obtain personal jurisdiction, neglect to prosecute, and final judgment on the merits, so the new action is untimely under CPLR 214(5). B ignores the listed exclusions. C invents a general pendency toll. D misapplies CPLR 203(f), which governs amended pleadings within the same action, not a new action.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "NYLE-CP-004",
+      "subject": "New York Civil Practice and Procedure",
+      "area": "Notice of claim — GML 50-e/50-i",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "On March 1, a pedestrian tripped on a broken curb maintained by a New York town. She consulted a lawyer in late July, about 150 days later. No notice of claim has been served. The town's highway superintendent photographed the curb on March 2 after a resident complained. What should the lawyer do to preserve the claim?",
+      "choices": {
+        "A": "Serve a notice of claim now; a notice served within one year of the accident is timely.",
+        "B": "Promptly move for leave to serve a late notice of claim, and make the motion no later than one year and ninety days after the accident.",
+        "C": "File suit immediately; the notice-of-claim requirement is excused because the town had actual knowledge.",
+        "D": "Nothing can be done, because the 90-day notice period has expired and cannot be extended."
+      },
+      "answer": "B",
+      "cite": "GML 50-e(1), 50-e(5), 50-i(1); Matter of Newcomb v. Middle Country CSD (N.Y. 2016)",
+      "why": "B: the 90-day notice period has passed, but GML 50-e(5) allows the court to grant leave to serve late notice if the application is made within the limitations period of one year and 90 days. The town's actual knowledge, a reasonable excuse, and the absence of prejudice are the key factors. A invents a one-year notice rule. C is wrong because actual knowledge is a factor for leave to serve late notice, not a waiver of the requirement. D ignores 50-e(5).",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "NYLE-CP-005",
+      "subject": "New York Civil Practice and Procedure",
+      "area": "Appeals — CPLR 5701",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "In a commercial action in Supreme Court, the defendant moved on notice under CPLR 3211(a)(7) to dismiss the fraud cause of action, and the court denied the motion. May the defendant appeal now?",
+      "choices": {
+        "A": "No; only a final judgment is appealable, so the defendant must wait until the case ends.",
+        "B": "No, unless the Supreme Court certifies that the order involves a controlling question of law.",
+        "C": "Only by permission of the Court of Appeals.",
+        "D": "Yes, as of right to the Appellate Division, because the order was made on notice and involves some part of the merits or affects a substantial right."
+      },
+      "answer": "D",
+      "cite": "CPLR 5701(a)(2), 5513(a)",
+      "why": "D: CPLR 5701(a)(2) allows an appeal as of right from most nonfinal orders decided on a motion on notice that involve some part of the merits or affect a substantial right. The notice of appeal is due within 30 days after service of the order with notice of entry. A states the federal final-judgment rule. B describes the federal 28 U.S.C. §1292(b) certification process. C names the wrong court.",
+      "ref": "civil-procedure.md"
+    },
+    {
+      "id": "NYLE-EV-001",
+      "subject": "New York Evidence",
+      "area": "Expert testimony — Frye",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "In a Supreme Court personal injury trial, the plaintiff offers an expert who will testify, based on a newly developed brain-imaging technique, that the plaintiff suffered a traumatic brain injury. The technique has been published in two peer-reviewed journals and has a known error rate. At a hearing, however, the undisputed evidence shows that most neuroradiologists do not yet accept it as reliable. How should the court rule?",
+      "choices": {
+        "A": "Admit it, because it satisfies the reliability factors of testing, peer review, and error rate.",
+        "B": "Exclude it, because the technique is not generally accepted in the relevant scientific community.",
+        "C": "Admit it, because disputes about novel methods go to weight, not admissibility.",
+        "D": "Exclude it, because expert testimony on brain injury requires a treating physician."
+      },
+      "answer": "B",
+      "cite": "Frye v. United States (D.C. Cir. 1923); People v. Wesley (N.Y. 1994); Parker v. Mobil Oil Corp. (N.Y. 2006)",
+      "why": "B: New York follows Frye, so novel scientific evidence is admissible only if generally accepted in the relevant field, and the evidence shows it is not. A applies the federal Daubert/Rule 702 factors, which New York has not adopted. C misstates Frye, under which general acceptance is a threshold admissibility question. D invents a treating-physician requirement.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "NYLE-EV-002",
+      "subject": "New York Evidence",
+      "area": "Hearsay — admissions by employees",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A tenant fell on an icy walkway at an apartment complex and sued the owner in Supreme Court. At trial, she offers testimony that the next morning a porter employed by the owner, whose duties include salting the walkways, told her, 'I was supposed to salt that path last night but I skipped it.' The porter has no authority to speak for the owner. The owner objects. How should the court rule?",
+      "choices": {
+        "A": "Exclude the statement as hearsay, because the porter had no authority to speak for the owner.",
+        "B": "Admit it, because it concerns a matter within the scope of the porter's employment and was made while he was employed.",
+        "C": "Admit it as a declaration against the porter's pecuniary interest.",
+        "D": "Admit it as an excited utterance."
+      },
+      "answer": "A",
+      "cite": "Loschiavo v. Port Auth. of N.Y. & N.J. (N.Y. 1983); Kelly v. Diesel Constr. Div. of Carlin Constr. Co. (N.Y. 1974)",
+      "why": "A: in New York, an employee's statement binds the employer only if the employee had speaking authority, and scope of employment is not enough. B states the federal Rule 801(d)(2)(D) standard. C fails because the declarant must be unavailable for that exception, and the statement is not clearly against his financial interest. D fails because the statement was made the next morning, after reflection, with no startling event underway.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "NYLE-EV-003",
+      "subject": "New York Evidence",
+      "area": "Competency — Dead Man's Statute",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A man sued the executor of his late business partner's estate in Supreme Court to recover $80,000 he says he lent the partner in cash. No written record of the loan exists. At trial, the man offers to testify that the partner told him privately, 'I'll repay you the eighty thousand by year-end.' The executor objects. How should the court rule?",
+      "choices": {
+        "A": "Admit it as an admission of a party-opponent.",
+        "B": "Admit it, because the Dead Man's Statute applies only to actions arising from motor vehicle accidents.",
+        "C": "Exclude it, because an interested party may not testify on his own behalf against the executor about a personal communication with the decedent.",
+        "D": "Admit it, because the executor may cross-examine the man about the loan."
+      },
+      "answer": "C",
+      "cite": "CPLR 4519",
+      "why": "C: CPLR 4519 bars an interested party from testifying in his own behalf against the decedent's representative about personal transactions or communications with the decedent. A describes a hearsay route, but the bar in CPLR 4519 is on the witness's competency and applies regardless. B inverts the motor vehicle provision, which is an exception to the bar. D is wrong because cross-examination does not cure the incompetency; only the estate's own use of the testimony opens the door.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "NYLE-EV-004",
+      "subject": "New York Evidence",
+      "area": "Hearsay — dying declarations",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A worker was crushed at a construction site. Believing he was about to die, he told a coworker, 'The crane operator dropped the load without signaling.' He died two days later. In his estate's wrongful death action against the crane company in Supreme Court, the estate offers the coworker's testimony about the statement as a dying declaration. The company objects. How should the court rule on that ground?",
+      "choices": {
+        "A": "Admit it, because the declarant believed death was imminent and spoke about its cause.",
+        "B": "Admit it, because dying declarations are admissible in any case where the declarant has died.",
+        "C": "Admit it, because New York's residual hearsay exception covers reliable statements like this one.",
+        "D": "Exclude it as a dying declaration, because in New York that exception is limited to homicide prosecutions."
+      },
+      "answer": "D",
+      "cite": "People v. Nieves (N.Y. 1986); compare FRE 804(b)(2)",
+      "why": "D: New York's dying-declaration exception is confined to criminal homicide cases in which the declarant died, so it does not apply in this civil case (the estate must rely on another exception, such as excited utterance). A and B state the federal rule, which also covers civil cases. C is wrong because New York has no general residual exception.",
+      "ref": "evidence.md"
+    },
+    {
+      "id": "NYLE-CL-001",
+      "subject": "Conflict of Laws",
+      "area": "Torts — Neumeier rule 1",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Two college friends, both domiciled in New York, drove to Quebec in the driver's New York-registered car, which is insured in New York. In Quebec, the car skidded on ice and the passenger was hurt. Suppose Quebec law immunizes a gratuitous host driver from a guest's negligence claims. The passenger sues the driver in Supreme Court, Albany County. Which law governs the driver's immunity defense?",
+      "choices": {
+        "A": "New York law, because the parties share a New York domicile and the immunity rule allocates loss.",
+        "B": "Quebec law, because the accident occurred there.",
+        "C": "Quebec law, because host-guest immunity regulates conduct on Quebec roads.",
+        "D": "Whichever law the court finds better, because New York applies the better-law approach."
+      },
+      "answer": "A",
+      "cite": "Neumeier v. Kuehner (N.Y. 1972) (rule 1); Babcock v. Jackson (N.Y. 1963); Schultz v. Boy Scouts of Am. (N.Y. 1985)",
+      "why": "A: a guest-host immunity is a loss-allocating rule, and under the first Neumeier rule the law of the parties' common domicile governs, as in Babcock. B applies lex loci, which New York abandoned for this situation. C mischaracterizes the rule as conduct-regulating (rules of the road would be). D names Leflar's approach, which New York does not use.",
+      "ref": "conflict-of-laws.md"
+    },
+    {
+      "id": "NYLE-CL-002",
+      "subject": "Conflict of Laws",
+      "area": "Torts — conduct-regulating rules",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A roofer domiciled in New York, working for a New York contractor, fell from a scaffold while repairing a building in New Jersey owned by a New York corporation. He sued the owner in Supreme Court, Westchester County, under Labor Law §240(1), which imposes absolute liability on owners for elevation-related injuries. New Jersey imposes no comparable absolute liability. Which law governs the owner's liability for the fall?",
+      "choices": {
+        "A": "New York law, because all parties are New York domiciliaries and the first Neumeier rule applies.",
+        "B": "New York law, because refusing to apply Labor Law §240 would violate New York public policy.",
+        "C": "New Jersey law, because scaffold-safety statutes regulate conduct and the injury occurred in New Jersey.",
+        "D": "New Jersey law, because the Labor Law applies only to work performed by New York employers."
+      },
+      "answer": "C",
+      "cite": "Padula v. Lilarn Props. Corp. (N.Y. 1994); Cooney v. Osgood Mach. (N.Y. 1993)",
+      "why": "C: Padula held that the scaffold statutes are conduct-regulating, so the law of the place of the tort governs even when the parties share a New York domicile. A applies the Neumeier rules, which govern loss-allocating rules only. B misuses the narrow public-policy exception, which is a shield against foreign law and not a route to extend New York conduct rules abroad. D invents an employer-location test.",
+      "ref": "conflict-of-laws.md"
+    },
+    {
+      "id": "NYLE-CL-003",
+      "subject": "Conflict of Laws",
+      "area": "Borrowing statute — CPLR 202",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A seller that is incorporated and headquartered in State X, and not a New York resident, sued a buyer in New York five years after the buyer's alleged breach of a services contract. The seller felt the economic loss at its State X headquarters. State X has a four-year limitations period for contract claims, and New York's is six years. The buyer moves to dismiss as time-barred. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because New York's six-year period applies to any action brought in New York.",
+        "B": "Grant the motion, because the claim accrued in State X and the nonresident plaintiff must satisfy both limitations periods.",
+        "C": "Deny the motion, because statutes of limitations are procedural and the forum's period governs.",
+        "D": "Grant the motion only if the contract was signed in State X."
+      },
+      "answer": "B",
+      "cite": "CPLR 202; Global Fin. Corp. v. Triarc Corp. (N.Y. 1999)",
+      "why": "B: an economic-injury claim accrues where the plaintiff resides and sustains the loss (State X), and CPLR 202 requires a nonresident to meet the shorter of the two periods, so four years bars the claim. A and C ignore the borrowing statute. D uses the place of contracting instead of the Global Financial accrual test. If the seller were a New York resident, the six-year period alone would apply.",
+      "ref": "conflict-of-laws.md"
+    },
+    {
+      "id": "NYLE-CL-004",
+      "subject": "Conflict of Laws",
+      "area": "Contracts — GOL 5-1401",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A Texas supplier and a California manufacturer signed a $400,000 equipment-financing agreement providing that New York law governs. Neither party has offices in New York, and no part of the deal was negotiated or performed there. In litigation in a New York court, the manufacturer argues that the clause is unenforceable because the transaction has no reasonable relationship to New York. How should the court rule?",
+      "choices": {
+        "A": "Refuse to enforce the clause, because under Restatement (Second) §187 the chosen state must have a substantial relationship to the transaction.",
+        "B": "Apply center-of-gravity analysis to decide which state's law governs.",
+        "C": "Enforce the clause only if the manufacturer consented to jurisdiction in New York.",
+        "D": "Enforce the clause without any reasonable-relationship or conflicts inquiry, because the transaction is at least $250,000."
+      },
+      "answer": "D",
+      "cite": "GOL 5-1401(1); IRB-Brasil Resseguros v. Inepar Invs. (N.Y. 2012)",
+      "why": "D: GOL 5-1401 validates a New York choice-of-law clause in a transaction of at least $250,000 (outside the excluded categories) whether or not there is a reasonable relation to New York, and IRB-Brasil bars any further conflicts analysis. A states the general Restatement rule that the statute displaces. B describes the rule that applies when there is no clause. C confuses the choice-of-law statute (5-1401) with the forum statute (5-1402).",
+      "ref": "conflict-of-laws.md"
+    },
+    {
+      "id": "NYLE-AD-001",
+      "subject": "Administrative Law",
+      "area": "Article 78 — limitations and form of action",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "On January 10, a county civil service commission issued a final determination disqualifying an applicant from a promotion list, and the applicant received it that day. On July 15, the applicant filed an action in Supreme Court titled 'declaratory judgment,' seeking a declaration that the disqualification was arbitrary and capricious and an order restoring him to the list. The commission moves to dismiss as untimely. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because declaratory judgment actions have a six-year limitations period under CPLR 213(1).",
+        "B": "Deny the motion, because the four-month period does not begin until the applicant demands reconsideration.",
+        "C": "Grant the motion, because the claim could have been raised in an Article 78 proceeding and so is subject to the four-month limitations period, which has expired.",
+        "D": "Grant the motion, because challenges to civil service determinations must be brought within 30 days."
+      },
+      "answer": "C",
+      "cite": "CPLR 217(1), 7803(3); Solnick v. Whalen (N.Y. 1980)",
+      "why": "C: courts look to the substance of a claim, and a challenge to an individual administrative determination as arbitrary is classic Article 78 review, so the four-month period of CPLR 217(1), running from January 10, bars a July 15 filing. A elevates the label over the substance. B misstates when the period runs: it starts when the determination is final and binding, and demand is relevant only to mandamus to compel. D invents a 30-day period.",
+      "ref": "administrative-law.md"
+    },
+    {
+      "id": "NYLE-AD-002",
+      "subject": "Administrative Law",
+      "area": "Article 78 — transfer under CPLR 7804(g)",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "After a statutorily required evidentiary hearing, a state agency revoked a pharmacist's license. The pharmacist timely commenced an Article 78 proceeding in Supreme Court, arguing that the findings are not supported by substantial evidence. The agency answered and also raised an objection that the petition was served on the wrong party. What should Supreme Court do?",
+      "choices": {
+        "A": "Decide all issues, including substantial evidence, and enter judgment.",
+        "B": "Decide the service objection, which could end the proceeding, and if the proceeding survives, transfer it to the Appellate Division.",
+        "C": "Transfer the entire proceeding to the Appellate Division immediately without ruling on anything.",
+        "D": "Dismiss the proceeding, because licensing decisions are reviewable only by appeal to the agency head."
+      },
+      "answer": "B",
+      "cite": "CPLR 7804(g), 7803(4)",
+      "why": "B: when a substantial-evidence question is raised, Supreme Court must first decide objections that could terminate the proceeding and then transfer it to the Appellate Division. A ignores the mandatory transfer. C skips the required first step. D is wrong because an agency's final determination after a hearing is reviewable under Article 78.",
+      "ref": "administrative-law.md"
+    },
+    {
+      "id": "NYLE-AD-003",
+      "subject": "Administrative Law",
+      "area": "Article 78 — review of penalties",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A school district found, on substantial evidence, that a tenured custodian with a 20-year unblemished record left a supply closet unlocked once. It terminated his employment. In an Article 78 proceeding, what standard governs his challenge to the penalty?",
+      "choices": {
+        "A": "Whether the penalty is so disproportionate to the offense as to be shocking to one's sense of fairness.",
+        "B": "Whether the penalty is supported by substantial evidence.",
+        "C": "Whether the court, exercising its independent judgment, would have imposed the same penalty.",
+        "D": "Whether the penalty is authorized by statute; if so, the court may not review it."
+      },
+      "answer": "A",
+      "cite": "CPLR 7803(3); Matter of Pell v. Board of Educ. (N.Y. 1974)",
+      "why": "A: CPLR 7803(3) expressly allows review of the measure of a penalty, and Pell's 'shocking to one's sense of fairness' test controls; if that test is met, the usual remedy is to send the matter back to the agency to set a new penalty. B confuses review of the findings with review of the penalty. C would let the court substitute its own judgment, which is not permitted. D ignores the statute's express review of penalties.",
+      "ref": "administrative-law.md"
+    },
+    {
+      "id": "NYLE-AD-004",
+      "subject": "Administrative Law",
+      "area": "Freedom of Information Law",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A reporter submitted a FOIL request to a city agency for the final inspection reports on restaurants in one neighborhood. The agency denied the request in full, citing the exemption for inter-agency or intra-agency materials, and denied the reporter's timely administrative appeal. In an Article 78 proceeding, the court ordered disclosure, finding that the reports were final agency determinations and that the agency had no reasonable basis for its denial. What should the court do about the reporter's request for attorney's fees?",
+      "choices": {
+        "A": "Deny fees, because FOIL does not authorize attorney's fees.",
+        "B": "Award fees only if the agency acted in bad faith.",
+        "C": "Award fees in its discretion, but only if the agency missed the statutory response deadlines.",
+        "D": "Award reasonable attorney's fees and costs, because the reporter substantially prevailed and the agency had no reasonable basis for denying access."
+      },
+      "answer": "D",
+      "cite": "Public Officers Law §87(2)(g), §89(4)(c)",
+      "why": "D: under POL §89(4)(c), the court must award fees when the petitioner substantially prevails and the agency had no reasonable basis for denial, and final agency determinations are expressly excepted from the §87(2)(g) exemption. A ignores §89(4)(c). B invents a bad-faith requirement. C describes the separate, discretionary ground for fees based on missed deadlines.",
+      "ref": "administrative-law.md"
+    }
+  ]
+}

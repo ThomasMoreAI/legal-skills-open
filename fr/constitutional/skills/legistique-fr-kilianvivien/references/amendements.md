@@ -109,11 +109,13 @@ Ces formules viennent de la fiche 2.2.4 ; chaque assemblée publie un guide de r
   ARTICLE ADDITIONNEL APRÈS L'ARTICLE 12
 
   Après l'article 12, insérer l'article suivant :
-  « Après l'article L. 731-1-1 du code de l'éducation, il est inséré un article L. 731-1-2 ainsi rédigé :
-  « « Art. L. 731-1-2. – Les établissements d'enseignement supérieur privés publient chaque année … » ».
+  « Après l'article L. … du code de …, il est inséré un article L. … ainsi rédigé :
+  « « Art. L. … – … » ».
   ```
 
-  Les guillemets s'imbriquent : ceux de l'amendement, puis ceux de l'article inséré. Suivre la
+  Les guillemets s'imbriquent : ceux de l'amendement, puis ceux de l'article inséré. Le numéro de
+  l'article inséré dans le code se vérifie comme pour tout texte modificatif : un article intercalaire
+  occupe souvent déjà le numéro attendu (`modifications-insertions.md`, section 3). Suivre la
   présentation de l'outil de dépôt de l'assemblée et la garder constante dans tout l'amendement.
 - Désigner les textes comme dans une loi : pas de « susvisé » (une loi n'a pas de visas) ; intitulé
   complet à la première mention.
