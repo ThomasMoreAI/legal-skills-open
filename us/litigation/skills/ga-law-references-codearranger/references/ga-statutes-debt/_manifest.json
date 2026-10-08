@@ -1,0 +1,180 @@
+{
+  "corpus": "ga-statutes-debt",
+  "description": "Curated, topic-grouped O.C.G.A. sections for Georgia civil, consumer, and family practice. Built from open mirrors (FindLaw primary; Justia and ga.elaws.us as fallbacks). Official LexisNexis O.C.G.A. is paywalled and is NOT a target. Pulled by scripts/pull_georgia_statutes.py.",
+  "slug_note": "Directory keeps the legacy '-debt' suffix for path stability; scope is full civil + family practice.",
+  "sources": {
+    "findlaw": "https://codes.findlaw.com/ga/",
+    "justia": "https://law.justia.com/codes/georgia/ (403s automated fetch; fallback)",
+    "elaws": "https://ga.elaws.us/ocga/ (can lag current text; last resort)"
+  },
+  "topics": [
+    {
+      "file": "title-9-ch-11-civil-practice-act.md",
+      "title": "Civil Practice Act",
+      "cite": "O.C.G.A. Title 9, Ch. 11",
+      "findlaw_title_slug": "title-9-civil-practice",
+      "sections": [
+        "9-11-4", "9-11-4.1", "9-11-5", "9-11-7", "9-11-8", "9-11-10",
+        "9-11-11", "9-11-12", "9-11-13", "9-11-15", "9-11-26", "9-11-30",
+        "9-11-33", "9-11-34", "9-11-36", "9-11-37", "9-11-55", "9-11-56",
+        "9-11-69"
+      ],
+      "titles": {
+        "9-11-4": "Process",
+        "9-11-5": "Service and filing of pleadings and other papers",
+        "9-11-7": "Pleadings allowed; form of motions",
+        "9-11-8": "General rules of pleading",
+        "9-11-10": "Form of pleadings",
+        "9-11-11": "Signing of pleadings",
+        "9-11-12": "Defenses and objections",
+        "9-11-13": "Counterclaim and cross-claim",
+        "9-11-15": "Amended and supplemental pleadings",
+        "9-11-26": "General provisions governing discovery",
+        "9-11-33": "Interrogatories to parties",
+        "9-11-34": "Production of documents and things",
+        "9-11-36": "Requests for admission",
+        "9-11-37": "Failure to make discovery; sanctions",
+        "9-11-55": "Default judgment",
+        "9-11-56": "Summary judgment",
+        "9-11-69": "Process in aid of execution; post-judgment discovery"
+      }
+    },
+    {
+      "file": "title-9-ch-3-limitations.md",
+      "title": "Limitations of Actions",
+      "cite": "O.C.G.A. Title 9, Ch. 3",
+      "findlaw_title_slug": "title-9-civil-practice",
+      "sections": ["9-3-24", "9-3-25", "9-3-26", "9-3-33"],
+      "titles": {
+        "9-3-24": "Simple written contracts (6 years)",
+        "9-3-25": "Open accounts; implied contracts (4 years)",
+        "9-3-26": "Other actions on contracts not otherwise provided for",
+        "9-3-33": "Injuries to the person (2 years)"
+      }
+    },
+    {
+      "file": "title-24-evidence.md",
+      "title": "Evidence Code (Arts. 8 & 9)",
+      "cite": "O.C.G.A. Title 24",
+      "findlaw_title_slug": "title-24-evidence",
+      "sections": ["24-8-803", "24-9-901", "24-9-902"],
+      "titles": {
+        "24-8-803": "Hearsay exceptions; availability of declarant immaterial (business records, (6))",
+        "24-9-901": "Requirement of authentication or identification",
+        "24-9-902": "Self-authentication"
+      }
+    },
+    {
+      "file": "title-10-ch-1-fair-business-practices-act.md",
+      "title": "Fair Business Practices Act (FBPA)",
+      "cite": "O.C.G.A. Title 10, Ch. 1, Art. 15",
+      "findlaw_title_slug": "title-10-commerce-and-trade",
+      "sections": ["10-1-390", "10-1-393", "10-1-399"],
+      "titles": {
+        "10-1-390": "Short title; legislative intent (Fair Business Practices Act)",
+        "10-1-393": "Unfair or deceptive practices unlawful",
+        "10-1-399": "Civil remedies for violations"
+      }
+    },
+    {
+      "file": "title-7-ch-3-installment-loan-act.md",
+      "title": "Georgia Installment Loan Act",
+      "cite": "O.C.G.A. Title 7, Ch. 3",
+      "findlaw_title_slug": "title-7-banking-and-finance",
+      "sections": ["7-3-1", "7-3-11", "7-3-14", "7-3-50"],
+      "titles": {
+        "7-3-1": "Short title (Georgia Industrial Loan Act)",
+        "7-3-11": "License required",
+        "7-3-14": "Maximum interest and charges",
+        "7-3-50": "Penalties; civil liability; class actions"
+      }
+    },
+    {
+      "file": "title-18-ch-4-garnishment.md",
+      "title": "Garnishment",
+      "cite": "O.C.G.A. Title 18, Ch. 4",
+      "findlaw_title_slug": "title-18-debtor-and-creditor",
+      "sections": ["18-4-4", "18-4-5", "18-4-6", "18-4-15"],
+      "titles": {
+        "18-4-4": "Garnishable obligations; exemptions; amount subject to garnishment",
+        "18-4-5": "Continuing garnishment",
+        "18-4-6": "Wages exempt from garnishment",
+        "18-4-15": "Traverse of garnishee's answer; claims"
+      }
+    },
+    {
+      "file": "title-44-ch-7-landlord-tenant.md",
+      "title": "Landlord and Tenant",
+      "cite": "O.C.G.A. Title 44, Ch. 7",
+      "findlaw_title_slug": "title-44-property",
+      "sections": ["44-7-13", "44-7-14", "44-7-34", "44-7-50", "44-7-53", "44-7-55", "44-7-56"],
+      "titles": {
+        "44-7-13": "Duties of landlord as to repairs and improvements",
+        "44-7-34": "Security deposits; return; itemized statement",
+        "44-7-50": "Demand for possession; dispossessory proceedings",
+        "44-7-53": "Answer; trial",
+        "44-7-55": "Judgment; writ of possession; payment into court",
+        "44-7-56": "Appeals"
+      }
+    },
+    {
+      "file": "title-44-ch-13-exemptions.md",
+      "title": "Debtor's Exemptions",
+      "cite": "O.C.G.A. Title 44, Ch. 13",
+      "findlaw_title_slug": "title-44-property",
+      "sections": ["44-13-1", "44-13-100"],
+      "titles": {
+        "44-13-1": "Exemptions generally",
+        "44-13-100": "Bankruptcy exemptions; opt-out from federal exemptions"
+      }
+    },
+    {
+      "file": "title-19-domestic-relations.md",
+      "title": "Domestic Relations",
+      "cite": "O.C.G.A. Title 19 (Chs. 5, 6, 7, 9, 11, 13)",
+      "findlaw_title_slug": "title-19-domestic-relations",
+      "sections": ["19-5-3", "19-5-13", "19-6-1", "19-6-15", "19-7-1", "19-9-3", "19-11-3", "19-13-1", "19-13-3"],
+      "titles": {
+        "19-5-3": "Grounds for divorce",
+        "19-5-13": "Effect of total divorce",
+        "19-6-1": "Alimony; eligibility; factors",
+        "19-6-15": "Child support guidelines",
+        "19-7-1": "Parental power; custody of child",
+        "19-9-3": "Custody; best interests of the child",
+        "19-11-3": "Child support enforcement",
+        "19-13-1": "Family Violence Act; definitions",
+        "19-13-3": "Petition for protective order; ex parte relief"
+      }
+    },
+    {
+      "file": "title-15-courts.md",
+      "title": "Courts (Jurisdiction and Organization)",
+      "cite": "O.C.G.A. Title 15 (Chs. 6, 7, 10)",
+      "findlaw_title_slug": "title-15-courts",
+      "sections": ["15-6-1", "15-6-3", "15-6-8", "15-7-4", "15-10-2", "15-10-41"],
+      "titles": {
+        "15-6-1": "Judicial circuits",
+        "15-6-3": "Terms of superior court",
+        "15-6-8": "Powers of superior courts",
+        "15-7-4": "Jurisdiction and powers of state courts",
+        "15-10-2": "Jurisdiction of magistrate courts",
+        "15-10-41": "Appeals from magistrate court; de novo"
+      }
+    },
+    {
+      "file": "title-11-ucc.md",
+      "title": "Uniform Commercial Code (Georgia enactment)",
+      "cite": "O.C.G.A. Title 11",
+      "findlaw_title_slug": "title-11-commercial-code",
+      "sections": ["11-2-201", "11-2-725", "11-3-104", "11-3-302", "11-9-203", "11-9-607"],
+      "titles": {
+        "11-2-201": "Formal requirements; statute of frauds",
+        "11-2-725": "Statute of limitations in contracts for sale",
+        "11-3-104": "Negotiable instrument",
+        "11-3-302": "Holder in due course",
+        "11-9-203": "Attachment and enforceability of security interest",
+        "11-9-607": "Collection and enforcement by secured party"
+      }
+    }
+  ]
+}

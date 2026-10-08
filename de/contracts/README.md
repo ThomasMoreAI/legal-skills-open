@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 
-## Skills (695)
+## Skills (709)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Abmahnung Reagieren`](skills/abmahnung-reagieren/) | Für Abmahnung Reagieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Abnahme Testing`](skills/abnahme-testing/) | Für Abnahme Testing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Abschluss Check Vor Unterschrift`](skills/abschluss-check-vor-unterschrift/) | Für Abschluss Check vor Unterschrift: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/vertragsrecht:abtretung-vertragsuebernahme`](skills/abtretung-vertragsuebernahme-borghei/) | Prüfung und Gestaltung von Forderungsabtretung, Schuld- und Vertragsübernahme – Abtretung § 398 BGB… |
 | [`Adversarial Test AGB`](skills/adversarial-test-agb/) | Für Adversarial Test AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Nachtragsverwaltung`](skills/aenderungs-historie-agb-eskalations-marker/) | Für Nachtragsverwaltung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Änderungsmodus: Compliance-Dokumentation und Aktenvermerk`](skills/aenderungsmodus-compliance-dokumentation/) | Für Änderungsmodus: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -48,6 +49,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Agb Im Mietrecht Wohnraum Vs Gewerbe`](skills/agb-im-mietrecht-wohnraum-vs-gewerbe/) | Für AGB im Mietrecht Wohnraum Vs Gewerbe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Agb In Kapitalanlagen Effektenhandel`](skills/agb-in-kapitalanlagen-effektenhandel/) | Für AGB in Kapitalanlagen Effektenhandel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Indexierung`](skills/agb-indexierung/) | Für Indexierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/vertragsrecht:agb-kontrolle`](skills/agb-kontrolle-borghei/) | Inhaltskontrolle Allgemeiner Geschäftsbedingungen nach §§ 305–310 BGB – Einbeziehung (§ 305)… |
 | [`Konzernklausel`](skills/agb-konzernklausel-datenaustausch-haftung/) | Für Konzernklausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Lagerbedingungen`](skills/agb-lagerbedingungen-haftung-pflichten/) | Für Lagerbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Agb Im Leasingvertrag Fortwirkung`](skills/agb-leasingvertrag-fortwirkung-schiedsklausel/) | Für AGB im Leasingvertrag Fortwirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -84,6 +86,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Workflow: Anfängercoach Schuldrecht BT`](skills/anfangercoach-schuldrecht-bt/) | Für Workflow: Anfängercoach Schuldrecht BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anfechtung — Routing und Gesamtprüfung §§ 119 bis 124 BGB`](skills/anfechtung-routing/) | Für Anfechtung — Routing und Gesamtprüfung Paragrafen 119 bis 124 BGB: routet Rolle, Frist, Unterlagen… |
 | [`Auslegung vor Anfechtung — Prüfungsreihenfolge und Begründung`](skills/anfechtung-vor-auslegung/) | Für Auslegung vor Anfechtung — Prüfungsreihenfolge und Begründung: ordnet Norm, Beweislast und… |
+| [`/vertragsrecht:anfechtung-willenserklaerung`](skills/anfechtung-willenserklaerung-borghei/) | Prüfung und Erklärung der Anfechtung einer Willenserklärung – Inhalts- und Erklärungsirrtum sowie… |
 | [`Anfechtungsfolgen — §§ 142 und 122 BGB`](skills/anfechtungsfolgen-paragraphen-142-122/) | Für Anfechtungsfolgen — Paragrafen 142 und 122 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anfechtungsfolgen — §§ 142 und 122 BGB`](skills/anfechtungsfolgen-paragraphen-anspruchsaufbau/) | Für Anfechtungsfolgen — Paragrafen 142 und 122 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anfechtungsfrist, Anfechtungserklärung und Bestätigung — §§ 121 bis 124 und § 144 BGB`](skills/anfechtungsfrist-erklaerung-annahmefrist/) | Für Anfechtungsfrist, Anfechtungserklärung und Bestätigung — Paragrafen 121 bis 124 und Paragraf 144… |
@@ -335,6 +338,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente § 475c BGB`](skills/kaufrecht-dauerhafte-bereitstellung-digitaler-elemente-4/) | Für Kaufrecht: Dauerhafte Bereitstellung digitaler Elemente Paragraf 475c BGB: ordnet Norm, Beweislast… |
 | [`Kaufrecht: Gefahrübergang und Versendung`](skills/kaufrecht-gefahruebergang-und-versendung/) | Für Kaufrecht: Gefahrübergang und Versendung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gefahrübergang und Versendungskauf`](skills/kaufrecht-gefahruebergang-versendung/) | Prüft Leistungs- und Preisgefahr beim Kauf und Versendungskauf nach den Paragrafen 446 und 447 sowie 475… |
+| [`/vertragsrecht:kaufrecht-maengelhaftung`](skills/kaufrecht-maengelhaftung-borghei/) | Prüfung kaufrechtlicher Mängelrechte – Sachmangel § 434 BGB (subjektive, objektive und… |
 | [`Kaufrecht: Nacherfüllung, Rücktritt und Minderung`](skills/kaufrecht-nacherfuellung-ruecktritt-minderung/) | Für Kaufrecht: Nacherfüllung, Rücktritt und Minderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kaufrecht: Rechtsmangel § 435 BGB`](skills/kaufrecht-rechtsmangel-paragraph-435/) | Für Kaufrecht: Rechtsmangel Paragraf 435 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kaufrecht: Right to Repair und Nacherfüllung`](skills/kaufrecht-right-to-repair-und-nacherfuellung/) | Für Kaufrecht: Right to Repair und Nacherfüllung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -522,6 +526,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`NDA: Rueckgabe/Vernichtung`](skills/rueckgabe-vernichtung-nda-typen/) | Für NDA: Rückgabe/Vernichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Workflow: Fristen, Rücktritt und Kündigung`](skills/ruecktritt-kuendigung/) | Für Workflow: Fristen, Rücktritt und Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Workflow: Fristen, Rücktritt und Kündigung`](skills/ruecktritt-kuendigung-verhandlungsplan/) | Für Workflow: Fristen, Rücktritt und Kündigung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
+| [`/vertragsrecht:ruecktritt-schadensersatz`](skills/ruecktritt-schadensersatz-borghei/) | Prüfung von Rücktritt und Schadensersatz wegen Leistungsstörung – Schadensersatz statt der Leistung §§… |
 | [`SaaS AGB`](skills/saas-agb/) | Für SaaS AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`SaaS-/MSA-Prüfung`](skills/saas-msa-pruefung/) | Für SaaS-/MSA-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. |
 | [`Schadenspauschale 309`](skills/schadenspauschale-309/) | Für Schadenspauschale 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -549,6 +554,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`SfTf: Doppelschriftform-Aufhebung`](skills/sftf-doppelschriftform-aufhebung-spezial/) | Für SfTf: Doppelschriftform-Aufhebung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`SfTf: Formvorgaben Bauleiter`](skills/sftf-formvorgaben-bgb-interessen-checklisten/) | Für SfTf: Formvorgaben Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sheets Quellenkarte`](skills/sheets-quellenkarte/) | Für Sheets Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/vertragsrecht:sicherheiten-gestaltung`](skills/sicherheiten-gestaltung-borghei/) | Auswahl und Gestaltung von Kreditsicherheiten im Vertragsrecht – Bürgschaft §§ 765–778 BGB mit… |
 | [`SLA Service Credits`](skills/sla-service-credits/) | Für SLA Service Credits: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Social Media AGB`](skills/social-media-agb/) | Für Social Media AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`/it-recht:softwareerstellung-werkvertrag`](skills/softwareerstellung-werkvertrag-borghei/) | Prüfung von Verträgen über die Erstellung von Individualsoftware als Werkvertrag (§ 631 BGB)… |
@@ -567,6 +573,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Vertragsausfueller — Allgemein`](skills/start-chronologie-fristen/) | Für Vertragsausfüller — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie… |
 | [`Stellvertretung — Routing §§ 164 bis 181 BGB`](skills/stellvertretung-routing-paragraphen-164-181/) | Für Stellvertretung — Routing Paragrafen 164 bis 181 BGB: routet Rolle, Frist, Unterlagen und… |
 | [`Steürn Umsatzsteür`](skills/steuern-umsatzsteuer/) | Für Steuern Umsatzsteuer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
+| [`/vertragsrecht:stoerung-geschaeftsgrundlage`](skills/stoerung-geschaeftsgrundlage-borghei/) | Prüfung der Störung der Geschäftsgrundlage nach § 313 BGB – reales und hypothetisches Element… |
 | [`Strippen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/strippen-risikoampel-und-gegenargumente/) | Für Strippen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Stummer Upload AGB Dokumente`](skills/stummer-upload-agb-dokumente/) | Für Stummer Upload AGB Dokumente: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Subscription Abonnement`](skills/subscription-abonnement/) | Für Subscription Abonnement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -608,16 +615,19 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`VDuG Abhilfeklage AGB Schnittstelle`](skills/vdug-abhilfeklage-agb-schnittstelle/) | Für VDuG Abhilfeklage AGB Schnittstelle: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Verbraucherbesonderheiten 310 Abs. 3`](skills/verbraucherbesonderheiten-310-abs3/) | Für Verbraucherbesonderheiten 310 Abs. 3: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verbraucherschutz Schnellcheck`](skills/verbraucherschutz-schnellcheck/) | Für Verbraucherschutz Schnellcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/vertragsrecht:verbraucherwiderruf`](skills/verbraucherwiderruf-borghei/) | Prüfung und Gestaltung des Verbraucherwiderrufsrechts – Widerrufsrecht bei Fernabsatz und außerhalb von… |
 | [`Verbrauchsgüterkauf und Waren mit digitalen Elementen`](skills/verbrauchsgueterkauf-digitales/) | Prüft Verbrauchsgüterkäufe und Waren mit digitalen Elementen nach den Paragrafen 474 bis 477 BGB; trennt… |
 | [`Verfügbarkeit Wartungsfenster`](skills/verfuegbarkeit-wartungsfenster/) | Für Verfügbarkeit Wartungsfenster: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verfügung des Nichtberechtigten — § 185 BGB`](skills/verfuegung-nichtberechtigter-paragraph-185/) | Für Verfügung des Nichtberechtigten — Paragraf 185 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vergaberechtliche Vertragsbedingungen`](skills/vergaberechtliche-vertragsbedingungen/) | Für Vergaberechtliche Vertragsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/vertragsrecht:vergleich-abfindung`](skills/vergleich-abfindung-borghei/) | Gestaltung und Prüfung von Vergleichen und Abfindungsvereinbarungen – Vergleich § 779 BGB mit… |
 | [`Vergleich § 779 BGB`](skills/vergleich-paragraph-779/) | Für Vergleich Paragraf 779 BGB: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Verhandlungsstand in eine konsistente Unterschriftenfassung überführen`](skills/verhandlung-und-unterschriftenfassung-abschliessen/) | Verarbeitet konkrete Gegenangebote zu einer konsistenten B2B-Vertragsfassung und erstellt… |
 | [`Verhandlungs Playbook AGB`](skills/verhandlungs-playbook-agb/) | Für Verhandlungs Playbook AGB: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Workflow: Vergleich und Verhandlungsplan`](skills/verhandlungsplan-vertragsschluss/) | Für Workflow: Vergleich und Verhandlungsplan: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Verjährung BGB-BT Spezial`](skills/verjaehrung-bgb-bt-spezial/) | Für Verjährung BGB-BT Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verjährung — Grundschema §§ 194 bis 218 BGB`](skills/verjaehrung-grundschema-paragraphen-194-218/) | Für Verjährung — Grundschema Paragrafen 194 bis 218 BGB: ordnet Norm, Beweislast und Gegenargument… |
+| [`/vertragsrecht:verjaehrung-pruefung`](skills/verjaehrung-pruefung-borghei/) | Vollständige Verjährungsprüfung im Zivilrecht – Regelverjährung § 195 BGB, kenntnisabhängiger Beginn und… |
 | [`Verjaehrungsverkürzung`](skills/verjaehrungsverkuerzung/) | Für Verjährungsverkürzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Verkaufsbedingungen B2B`](skills/verkaufsbedingungen-b2b/) | Für Verkaufsbedingungen B2B: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Versicherung Avb`](skills/versicherung-avb/) | Für Versicherung Avb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -659,6 +669,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Vertragsschluss — Antrag und Annahme §§ 145 bis 156 BGB`](skills/vertragsschluss-antrag-annahme/) | Für Vertragsschluss — Antrag und Annahme Paragrafen 145 bis 156 BGB: erstellt Entwurf mit Antrag, Beweis… |
 | [`Verbindlichen Dokumentverbund bestimmen`](skills/vertragsstand-bestimmen/) | Ordnet Hauptvertrag, Anlagen, E-Mails und alternative Entwürfe zu einem eindeutig bestimmten Prüfstand… |
 | [`Vertragsstrafe 309`](skills/vertragsstrafe-309/) | Für Vertragsstrafe 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/vertragsrecht:vertragsstrafe`](skills/vertragsstrafe-borghei/) | Gestaltung und Prüfung von Vertragsstrafeklauseln nach §§ 339–345 BGB – Verwirkung § 339 BGB, Strafe für… |
 | [`Vertragsstrafe Hamburger Brauch`](skills/vertragsstrafe-hamburger-haftungsbegrenzung/) | Für Vertragsstrafe Hamburger Brauch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vertragstypen und Mischvertrag Router`](skills/vertragstypen-mischvertrag-router/) | Für Vertragstypen und Mischvertrag Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vertragstypen und Mischvertrag Router`](skills/vertragstypen-mischvertrag-werkvertrag/) | Für Vertragstypen und Mischvertrag Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -667,11 +678,13 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Vertreter ohne Vertretungsmacht — §§ 177 bis 179 BGB`](skills/vertreter-ohne-vertretungsmacht/) | Für Vertreter ohne Vertretungsmacht — Paragrafen 177 bis 179 BGB: ordnet Norm, Beweislast und… |
 | [`Vertreter ohne Vertretungsmacht — §§ 177 bis 179 BGB`](skills/vertreter-ohne-vertretungsmacht-paragraphen-177-179/) | Für Vertreter ohne Vertretungsmacht — Paragrafen 177 bis 179 BGB: ordnet Norm, Beweislast und… |
 | [`Vertriebsvertraege: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vertriebsvertraege-fristen-form-und-zustaendigkeit/) | Für Vertriebsverträge: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
+| [`/vertragsrecht:verzug-mahnung`](skills/verzug-mahnung-borghei/) | Prüfung von Schuldnerverzug und Mahnung – Verzugseintritt durch Mahnung § 286 Abs. 1 BGB… |
 | [`Vollmacht: Erteilung, Umfang und Erlöschen`](skills/vollmacht-erteilung-umfang-erloeschen/) | Prüft Erteilung, Form, Umfang, Widerruf und Erlöschen einer Vollmacht sowie den Schutz des… |
 | [`Vollmacht Vertretung`](skills/vollmacht-vertretung/) | Für Vollmacht Vertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vorkasse Abschlag Sicherheit`](skills/vorkasse-abschlag-sicherheit/) | Für Vorkasse Abschlag Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorkasse Abschlag Sicherheit`](skills/vorkasse-abschlag-wartung-maintenance-website/) | Für Vorkasse Abschlag Sicherheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorlagen: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/vorlagen-vertragsausfueller-vaf-altvertrag/) | Für Vorlagen: Fristen, Form, Zuständigkeit und Rechtsweg: ordnet Norm, Beweislast und Gegenargument… |
+| [`/vertragsrecht:vorvertragliche-phase`](skills/vorvertragliche-phase-borghei/) | Gestaltung und Haftungsprüfung der vorvertraglichen Phase – vorvertragliches Schuldverhältnis § 311 Abs.… |
 | [`Vertragsrecht: AGB-Recht`](skills/vr-agb-recht-grundzuege/) | Für Vertragsrecht: AGB-Recht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vertragsrecht: Leistungsstoerungen`](skills/vr-leistungsstoerungen-widerruf-fernabsatz/) | Für Vertragsrecht: Leistungsstörungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Wartung Maintenance`](skills/wartung-maintenance/) | Für Wartung Maintenance: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -679,6 +692,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Werk-Dienst-Abgrenzung: Erfolg vs. Tätigkeit`](skills/werk-dienst-abgrenzung-erfolg/) | Für Werk-Dienst-Abgrenzung: Erfolg vs. Tätigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Werkvertrag: Abnahme und Fälligkeit §§ 640 und 641 BGB`](skills/werkvertrag-abnahme-und-faelligkeit/) | Für Werkvertrag: Abnahme und Fälligkeit Paragrafen 640 und 641 BGB: ordnet Norm, Beweislast und… |
 | [`Werkvertrag Grundschema § 631 BGB`](skills/werkvertrag-grundschema-paragraph-631/) | Für Werkvertrag Grundschema Paragraf 631 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/vertragsrecht:werkvertrag-maengel`](skills/werkvertrag-maengel-borghei/) | Prüfung werkvertraglicher Mängelrechte und Beendigungsrechte nach §§ 631–650v BGB – Abnahme § 640 BGB… |
 | [`Werkvertrag Mängelrechte §§ 633-638 BGB`](skills/werkvertrag-maengelrechte/) | Für Werkvertrag Mängelrechte Paragrafen 633-638 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Werkvertrag Mängelrechte §§ 633-638 BGB`](skills/werkvertrag-maengelrechte-deliktsrecht/) | Für Werkvertrag Mängelrechte Paragrafen 633-638 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Widerruf im Fernabsatz- und Außergeschäftsraumvertrag`](skills/widerruf-fernabsatz/) | Für Widerruf im Fernabsatz- und Außergeschäftsraumvertrag: ordnet Norm, Beweislast und Gegenargument… |

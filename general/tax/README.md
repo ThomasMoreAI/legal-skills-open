@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): tax law: inc
 
 Jurisdiction: `general` · Practice: `tax` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Tax Treatment Lookup`](skills/research-tax-treatment-lookup-sboghossian/) | Use when a lawyer, tax adviser, or CFO needs a structured overview of how a specific transaction or… |
 | [`Transfer Pricing Documenter`](skills/transfer-pricing-documenter-rohasnagpal/) | Documents an intercompany transaction for transfer pricing purposes — functional analysis (functions… |
 
 ## Cold-start context

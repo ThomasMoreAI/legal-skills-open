@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-30",
+  "mode": "verbatim",
+  "source": "https://www.legislature.mi.gov/Laws/MCL",
+  "notes": "Pulled by scripts/pull_michigan_statutes.py. The Michigan Legislature publishes the Michigan Compiled Laws section by section as plain HTML at legislature.mi.gov/Laws/MCL?objectName=mcl-<act>-<sec> \u2014 no Cloudflare bot-fight gate, so stdlib urllib with a browser User-Agent retrieves it. Statute text lives inside <div class=\"sectionWrapper\"> (excerpt act-name header, an <h1 class=\"h4\"> catchline, <p> body, and an editorials History block). This is a curated, topic-grouped, BOUNDED corpus (one MD file per topic, 5-15 representative sections each) rather than a full enumeration of the MCL. Failed sections are recorded inline; a topic file becomes a well-formed pointer stub only if every section in it fails. A _file_is_stub regression guard prevents a failed run from clobbering committed verbatim content."
+}

@@ -9,7 +9,15 @@
   "practice": "commercial",
   "language": "tr",
   "skills": [
+    "skills/cold-start-interview-commercial-legal-zekaisuni",
+    "skills/customize-commercial-legal-zekaisuni",
     "skills/escalation-flagger-zekaisuni",
+    "skills/matter-workspace-zekaisuni",
+    "skills/nda-review-zekaisuni",
+    "skills/review-proposals-zekaisuni",
+    "skills/review-zekaisuni",
+    "skills/saas-msa-review-zekaisuni",
+    "skills/stakeholder-summary-zekaisuni",
     "skills/vendor-agreement-review-zekaisuni"
   ]
 }

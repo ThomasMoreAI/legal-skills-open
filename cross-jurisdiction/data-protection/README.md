@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill language: en
 
-## Skills (53)
+## Skills (58)
 
 | Skill | What it does |
 |---|---|
@@ -54,9 +54,14 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Privacy Policy Drafting`](skills/privacy-policy-drafting/) | Draft privacy-policy language and a review checklist tailored to a business model, data practices, and… |
 | [`Privacy Policy Generator`](skills/privacy-policy-generator/) | Gizlilik politikası şablonu, çerez politikası, veri işleme açıklamaları ve hak sahipleri. |
 | [`Privacy Policy`](skills/privacy-policy-mkurman/) | When the user needs to draft, review, or update a privacy policy for their product, or needs to… |
+| [`Cross-Border Data Transfer Assessment`](skills/prompt-pack-cross-border-data-transfer-assessment-sboghossian/) | Use when a privacy lawyer or compliance officer needs to assess the lawfulness of transferring personal… |
 | [`Regulatory Compliance Skill`](skills/regulatory-compliance-oimiragieo/) | Validate systems and processes against GDPR/CCPA privacy regulations, privacy-by-design principles… |
 | [`SaaS Legal Drafting Assistant`](skills/saas-legal-generator-briansunter/) | Create an attorney-review-ready SaaS legal drafting package from an evidence-based data and product… |
 | [`SafeAI ASEAN Data Protection — System Instructions`](skills/safeai-asean-data-protection/) | ASEAN data protection compliance engine — VN, SG, TH, MY, ID, PH regulatory frameworks. (v5.0.0) |
+| [`Client Data Retention — MENA Jurisdiction Rules`](skills/safety-client-data-retention-mena-rules-sboghossian/) | Use when configuring or reviewing data retention periods for client matter files, communications, and… |
+| [`Client Data Retention — MENA Rules`](skills/safety-compliance-client-data-retention-mena-rules-sboghossian/) | Use when configuring client data retention periods for a law firm operating in MENA, or advising on… |
+| [`Cross-Border Data Transfer — GCC ↔ EU Compliance`](skills/safety-compliance-cross-border-data-transfer-gcc-eu-sboghossian/) | Use when assessing or operationalizing the legality of personal data transfers between GCC member states… |
+| [`Cross-Border Data Transfer — GCC ↔ EU`](skills/safety-cross-border-data-transfer-gcc-eu-sboghossian/) | Use when assessing the legality of personal data transfers between GCC member states and the EU, or vice… |
 | [`Student Data Privacy`](skills/student-data-privacy-canhada-labs/) | Privacy engineering for K-12 and higher-ed student data under FERPA (US), LGPD-educational (BR), and… |
 | [`Use case triage`](skills/use-case-triage-bossmann007/) | Quickly determine whether a processing activity needs a PIA, a RIPD (Relatório de Impacto à Proteção de… |
 | [`Workplace Email Privacy`](skills/workplace-email-privacy/) | Implements email and internet monitoring compliance in the workplace per Barbulescu v Romania (ECHR… |

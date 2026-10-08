@@ -4,7 +4,7 @@ Insolvency and restructuring — proceedings, creditor rights, and reorganisatio
 
 Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 
-## Skills (747)
+## Skills (751)
 
 | Skill | What it does |
 |---|---|
@@ -52,6 +52,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Antrag beim Insolvenzgericht: Formulare, Anlagen, Vermögensverzeichnis, Forderungsverzeichnis, RSB-Antrag und Stundung.`](skills/antrag-insolvenzgericht/) | Für Antrag Insolvenzgericht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Antragspflicht: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/antragspflicht-15a-17-19/) | Für Antragspflicht: Dokumentenmatrix, Lückenliste und Nachforderung: erstellt Entwurf mit Antrag, Beweis… |
 | [`§ 15a InsO — Antragspflicht, Insolvenzverschleppung und § 15b InsO Zahlungsverbot`](skills/antragspflicht-15a-inso/) | Für Paragraf 15a InsO — Antragspflicht, Insolvenzverschleppung und Paragraf 15b InsO Zahlungsverbot… |
+| [`/insolvenzrecht:antragspflicht-15a-inso`](skills/antragspflicht-15a-inso-borghei/) | Prüfung der Insolvenzantragspflicht nach § 15a InsO bei juristischen Personen und Gesellschaften ohne… |
 | [`Antragspflicht: Schriftsatz-, Brief- und Memo-Bausteine im Insolvenz- und Sanierungsrecht: fachlich vertieftes Modul mit`](skills/antragspflicht-schriftsatz-brief-und-memo-bausteine/) | Für Antragspflicht Schriftsatz Brief und Memo Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Anweisungsfall: Deckungs- und Valutaverhältnis`](skills/anweisungsfall-deckungs-und-valutaverhaeltnis/) | Für Anweisungsfall: Deckungs- und Valutaverhältnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitsaufnahme, Jobwechsel und Mehrverdienst: pfändbarer Anteil, Motivation, Anzeige und Vergleichschancen.`](skills/arbeit-wechsel-und-mehrverdienst/) | Für Arbeit Wechsel und Mehrverdienst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -193,6 +194,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Formularcheck Insolvenzantrag: typische Fehler in Anlagen, Kreuzchen, Gläubigerliste und RSB-Antrag.`](skills/formularcheck-insolvenzantrag/) | Für Formularcheck Insolvenzantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Fortbestehensdokumentation mit insolvenzrechtlicher Tragfähigkeit`](skills/fortbestehensdokumentation-insolvenzrecht/) | Für Fortbestehensdokumentation mit insolvenzrechtlicher Tragfähigkeit: ordnet Akte, Belege und Lücken… |
 | [`Anschluss-Routing`](skills/fortbestehensprognose-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/insolvenzrecht:fortbestehensprognose`](skills/fortbestehensprognose-borghei/) | Positive Fortbestehensprognose nach § 19 Abs. 2 S. 1 InsO. Überwiegende Wahrscheinlichkeit der… |
 | [`Dokumentenintake`](skills/fortbestehensprognose-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/fortbestehensprognose-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Fortbestehensprognose: Erstprüfung und Mandatsziel`](skills/fortbestehensprognose-erstpruefung-und-mandatsziel/) | Für Fortbestehensprognose: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen… |
@@ -425,6 +427,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`Liqui fuer Bankgespraech`](skills/liqui-fuer-bankgespraech/) | Für Liqui für Bankgespräch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Zwölf-Monats-Liquidität`](skills/liquiditaet-12-monate/) | Für Zwölf-Monats-Liquidität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Liquiditaet: Zahlen, Schwellenwerte und Berechnung`](skills/liquiditaet-patronatserklaerung-interessen/) | Für Liquidität: Zahlen, Schwellenwerte und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
+| [`/insolvenzrecht:liquiditaetsplanung-13-wochen`](skills/liquiditaetsplanung-13-wochen-borghei/) | 13-Wochen-Liquiditätsplanung als Frühwarn-Instrument für Krisenunternehmen und Anker der… |
 | [`Anschluss-Routing`](skills/liquiditaetsplanung-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Chronologie und Belegmatrix Liquiditätsplanung`](skills/liquiditaetsplanung-chronologie-und-belegmatrix/) | Für Chronologie und Belegmatrix Liquiditätsplanung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Dokumentenintake`](skills/liquiditaetsplanung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
@@ -637,6 +640,7 @@ Jurisdiction: `de` · Practice: `bankruptcy` · Skill language: de
 | [`StaRUG: Beweislast, Darlegungslast und Substantiierung`](skills/starug-beweislast-stundung-red-zwoelf/) | Für StaRUG: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`StaRUG-Plan-Architektur`](skills/starug-plan-architektur/) | Für StaRUG-Plan-Architektur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Starug Quellenkarte`](skills/starug-quellenkarte/) | Für StaRUG Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/insolvenzrecht:starug-restrukturierungsplan`](skills/starug-restrukturierungsplan-borghei/) | Aufstellung und Annahme eines Restrukturierungsplans nach StaRUG. Anzeige § 31 StaRUG… |
 | [`StaRUG-Restrukturierungsplan im Detail: Planinhalt, Gruppenbildung, Cross-Class-Cram-Down nach § 26 StaRUG, gerichtliche`](skills/starug-spezial-restrukturierungsplan/) | Für StaRUG Spezial Restrukturierungsplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Stabilisierungsanordnung: Red-Team und Qualitätskontrolle`](skills/starug-stabilisierungsanordnung-vollstreckungsstopp/) | Für Stabilisierungsanordnung: Red-Team und Qualitätskontrolle: ordnet Norm, Beweislast und… |
 | [`StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/starug-tatbestand-beweis-und-belege/) | Für StaRUG: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |

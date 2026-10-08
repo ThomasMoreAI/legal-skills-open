@@ -1,0 +1,14 @@
+{
+  "name": "lb-finance",
+  "displayName": "Finance & Banking — LB",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for LB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "lb",
+  "practice": "finance",
+  "language": "en",
+  "skills": [
+    "skills/kb-banking-regulation-bdl-sboghossian"
+  ]
+}

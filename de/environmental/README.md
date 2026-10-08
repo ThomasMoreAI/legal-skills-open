@@ -4,12 +4,13 @@ Environmental law — permitting, compliance, liability, and remediation.
 
 Jurisdiction: `de` · Practice: `environmental` · Skill language: de
 
-## Skills (48)
+## Skills (51)
 
 | Skill | What it does |
 |---|---|
 | [`Abfallrecht und Circular Economy`](skills/abfall-circular-economy/) | Für Abfallrecht und Circular Economy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Artenschutz und Naturschutz in der Bauleitplanung`](skills/artenschutz-naturschutz-planung/) | Für Artenschutz und Naturschutz in der Bauleitplanung: ordnet Norm, Beweislast und Gegenargument… |
+| [`/umweltrecht:bimschg-genehmigungsverfahren`](skills/bimschg-genehmigungsverfahren-borghei/) | Vollprüfung des immissionsschutzrechtlichen Genehmigungsverfahrens – Genehmigungsbedürftigkeit nach 4.… |
 | [`Bimschg: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/bimschg-tatbestand-beweis-und-belege/) | Für Bimschg: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Bürgerversammlung — Protokoll-Audit`](skills/buergerversammlung-protokoll-audit/) | Für Bürgerversammlung — Protokoll-Audit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bussgeld, Sanktionen und Anhörung im Umweltrecht`](skills/bussgeld-emissionshandel-tehg-uwr/) | Für Bussgeld, Sanktionen und Anhörung im Umweltrecht: ordnet Norm, Beweislast und Gegenargument… |
@@ -26,6 +27,7 @@ Jurisdiction: `de` · Practice: `environmental` · Skill language: de
 | [`Kaltstart Umweltverbandsmandat`](skills/kaltstart-umweltverbandsmandat/) | Für Kaltstart Umweltverbandsmandat: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Klimaklagen und Verbandsklagen nach UmwRG`](skills/klimaklagen-verbandsklage-umwrg/) | Für Klimaklagen und Verbandsklagen nach UmwRG: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Umweltrecht-Kommandocenter`](skills/kommandocenter-4/) | Für Umweltrecht-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/umweltrecht:krwg-abfallrechtliche-pruefung`](skills/krwg-abfallrechtliche-pruefung-borghei/) | Abfallrechtliche Prüfung nach KrWG – Abfallbegriff § 3 (objektiv/subjektiv), Abfallhierarchie § 6… |
 | [`Naturschutz und Artenschutz`](skills/naturschutz-artenschutz/) | Für Naturschutz und Artenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Naturschutz: Schriftsatz-, Brief- und Memo-Bausteine`](skills/naturschutz-schriftsatz-brief-und-memo-bausteine/) | Für Naturschutz: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Bussgeld: Livequellen- und Rechtsprechungscheck`](skills/spezial-bussgeld-livequellen-und-rechtsprechungscheck/) | Für Bussgeld: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
@@ -47,6 +49,7 @@ Jurisdiction: `de` · Practice: `environmental` · Skill language: de
 | [`Juristischer Argumentationskern - Umweltschutzverband Verbandsklage`](skills/umweltschutzverband-verbandsklag-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Umweltschutzverband Verbandsklage ein juristisches Arbeitsprodukt tragfähig… |
 | [`Umweltschutzverband Verbandsklage - Allgemeiner Einstieg`](skills/umweltschutzverband-verbandsklage-kaltstart-triage/) | Für Umweltschutzverband Verbandsklage - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
 | [`Umwrg Anwendungsbereich Routen`](skills/umwrg-anwendungsbereich-routen/) | Für Umwrg Anwendungsbereich Routen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/umweltrecht:uvp-verfahrenspruefung`](skills/uvp-verfahrenspruefung-borghei/) | Prüfung der Umweltverträglichkeitsprüfung – UVP-Pflicht nach § 5 UVPG i. V. m. Anlage 1, Vorprüfung des… |
 | [`UwR: BImSchG-Genehmigung`](skills/uwr-bimschg-genehmigung-bauleiter/) | Für UwR: BImSchG-Genehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`UwR: BNatSchG-Eingriff`](skills/uwr-bundesnaturschutzgesetz-eingriff-co2/) | Für UwR: BNatSchG-Eingriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Umwelt: Immissionsschutz-Praxis`](skills/uwr-immissionsschutz-praxis/) | Für Umwelt: Immissionsschutz-Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

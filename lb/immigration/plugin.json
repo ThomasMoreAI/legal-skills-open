@@ -1,0 +1,14 @@
+{
+  "name": "lb-immigration",
+  "displayName": "Immigration — LB",
+  "version": "0.1.0",
+  "description": "Immigration skills for LB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "lb",
+  "practice": "immigration",
+  "language": "en",
+  "skills": [
+    "skills/kb-immigration-lb-sboghossian"
+  ]
+}

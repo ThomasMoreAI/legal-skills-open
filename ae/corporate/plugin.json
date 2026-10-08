@@ -1,0 +1,17 @@
+{
+  "name": "ae-corporate",
+  "displayName": "Corporate — AE",
+  "version": "0.1.0",
+  "description": "Corporate skills for AE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/draft-incorporation-package-adgm-sboghossian",
+    "skills/draft-incorporation-package-difc-sboghossian",
+    "skills/draft-incorporation-package-uae-freezone-sboghossian",
+    "skills/draft-incorporation-package-uae-mainland-sboghossian"
+  ]
+}

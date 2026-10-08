@@ -6,12 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `cross-jurisdiction` · Practice: `employment` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Handbook Drafter`](skills/handbook-drafter-rohasnagpal/) | Drafts coherent employee handbooks and workplace policies with clear ownership, procedures and legal… |
 | [`International Expansion Skill`](skills/international-expansion-bossmann007/) | Reference: implementation-planning framework for international hiring — EOR vs. entity decision framing… |
+| [`Cross-Border Employment Comparison`](skills/prompt-pack-cross-border-employment-comparison-sboghossian/) | Use when a company needs to compare employment law requirements across multiple jurisdictions for hiring… |
 
 ## Cold-start context
 

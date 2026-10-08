@@ -4,7 +4,7 @@ Intellectual property — patents, trademarks, copyright, designs, and trade sec
 
 Jurisdiction: `de` · Practice: `ip` · Skill language: de
 
-## Skills (681)
+## Skills (684)
 
 | Skill | What it does |
 |---|---|
@@ -357,6 +357,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Musiklizenzanalogie und Tarife`](skills/lizenzanalogie-musik-mandantenmemo/) | Für Musiklizenzanalogie und Tarife: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Lizenzanalogie und Unterlassungsvertrag im Datenbankrecht`](skills/lizenzanalogie-und-unterlassungsvertrag/) | Für Lizenzanalogie und Unterlassungsvertrag im Datenbankrecht: ordnet Norm, Beweislast und… |
 | [`Lizenzvertrag: Fristennotiz und nächster Schritt`](skills/lizenzvertrag-fristennotiz-und-naechster-schritt/) | Für Lizenzvertrag: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
+| [`/urheber-medienrecht:lizenzvertrag-urhg`](skills/lizenzvertrag-urhg-borghei/) | Entwurf und Review eines urheberrechtlichen Lizenzvertrags mit präziser Nutzungsrechtseinräumung nach §§… |
 | [`Lizenzvertraege für Urheberrechte Leistungsschutzrechte oder Marken verhandeln und gestalten`](skills/lizenzvertrag-verhandlung/) | Für Lizenzvertrag Verhandlung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Anwalts-Dashboard Lizenzvertragsersteller`](skills/lizenzvertragsersteller-einstieg-routing/) | Für Anwalts-Dashboard Lizenzvertragsersteller: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Juristischer Argumentationskern - Lizenzvertragsersteller`](skills/lizenzvertragsersteller-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Lizenzvertragsersteller ein juristisches Arbeitsprodukt tragfähig begründet… |
@@ -416,6 +417,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Modifizierte Unterlassungserklärung als Alternative zur strafbewehrten UE prüfen und formulieren`](skills/mod-erklaerung/) | Für Mod Erklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Modehaeuser: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/modehaeuser-uspto-wort-interessen-ttab/) | Für Modehäuser: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und… |
 | [`AI-Cover, Voice Model und Entstellung`](skills/moral-rights-musikwerk-melodie-nutzungsrechte/) | Für digitale Werkzeuge-Cover, Voice Model und Entstellung: ordnet Norm, Beweislast und Gegenargument… |
+| [`/urheber-medienrecht:mstv-medienrechtspruefung`](skills/mstv-medienrechtspruefung-borghei/) | Pflichtenprüfung für Diensteanbieter und journalistisch-redaktionelle Telemedien nach MStV (Impressum §… |
 | [`Datenbankrecht für Musik-, Film- und Bildarchive — Mediendatenbanken`](skills/musik-app-bei/) | Für Datenbankrecht für Musik-, Film- und Bildarchive — Mediendatenbanken: ordnet Norm, Beweislast und… |
 | [`Musikwerk, Melodie, Harmonie und Rhythmus`](skills/musikwerk-melodie-harmonie-rhythmus/) | Für Musikwerk, Melodie, Harmonie und Rhythmus: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Muster-Autorenvertrag: Red-Team-Prüfung`](skills/muster-autorenvertrag-red-team/) | Für Muster-Autorenvertrag: Red-Team-Prüfung: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
@@ -630,6 +632,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Urheberrecht DE/EU Kaltstart und Routing`](skills/urheberrecht-de-eu-kaltstart-triage/) | Für Urheberrecht DE/EU Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Urheberrechts-Compliance im Unternehmen`](skills/urheberrechtliche-compliance/) | Für Urheberrechts-Compliance im Unternehmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezial: Urheberrecht – Zahlen, Schwellen und Berechnung`](skills/urheberrechts-versand-interessen-streitwert/) | Für Spezial: Urheberrecht – Zahlen, Schwellen und Berechnung: ordnet Norm, Beweislast und Gegenargument… |
+| [`/urheber-medienrecht:urheberrechtsverletzung-abmahnung`](skills/urheberrechtsverletzung-abmahnung-borghei/) | Prüfung einer Urheberrechtsverletzung und Entwurf einer § 97a UrhG-konformen Abmahnung mit dreifacher… |
 | [`Urheberstrafrecht und Ermittlungen`](skills/urheberstrafrecht/) | Für Urheberstrafrecht und Ermittlungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Angemessene Vergütung und Bestseller`](skills/urhebervertragsrecht-verguetung/) | Für Angemessene Vergütung und Bestseller: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Urhg: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/urhg-dokumentenmatrix-und-lueckenliste/) | Für Urhg: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |

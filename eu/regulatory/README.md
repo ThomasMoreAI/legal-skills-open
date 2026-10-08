@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (230)
+## Skills (235)
 
 | Skill | What it does |
 |---|---|
@@ -62,6 +62,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Einführer-Pflichten (Importer) — Art. 23 KI-VO`](skills/einfuehrer-importer-pflichten-art-23/) | Für Einführer-Pflichten (Importer) — Art. 23 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Master-Workflow: KI-VO-Gesamtprüfung`](skills/entscheidungsbaum-gesamt-owi-verfahren/) | Für Master-Workflow: europäischer Technikregulierungsrahmen-Gesamtprüfung: ordnet Norm, Beweislast und… |
 | [`Europarecht: Vorlageverfahren Art. 267`](skills/er-vorlageverfahren-eur-kommissionsverfahren/) | Für Europarecht: Vorlageverfahren Art. 267: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/csrd:esrs-berichtspflicht`](skills/esrs-berichtspflicht-borghei/) | Bestimmung der Nachhaltigkeitsberichtspflicht nach CSRD-RL (EU) 2022/2464 und ihrer HGB-Umsetzung – wer… |
 | [`Fachanwalt Agrarrecht EU Agrarfoerderung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung `](skills/eu-agrarfoerderung/) | Für EU Agrarförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`EU AI Act — Compliance Advisor`](skills/eu-ai-act/) | EU AI Act (Regulation (EU) 2024/1689) compliance advisor — risk classification across all four tiers… |
 | [`EU AI Act Risk Classifier — Skill Instructions`](skills/eu-ai-act-classifier-marcoderoni/) | You are a senior EU AI Act compliance specialist. When activated, you classify any AI system described… |
@@ -79,6 +80,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`EU-Rechtsquellen, Charta und Vorlageweiche`](skills/eu-rechtsquellen-vorlageweiche/) | Für EU-Rechtsquellen, Charta und Vorlageweiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU Regulatory Router`](skills/eu-regulatory-router-builderced/) | Identify which EU regulations (AI Act, NIS2, DORA, GDPR) apply to your system based on sector, data… |
 | [`LegW: EU-Richtlinienumsetzung`](skills/eu-richtlinienumsetzung-spezial/) | Für LegW: EU-Richtlinienumsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/csrd:eu-taxonomie`](skills/eu-taxonomie-borghei/) | Einordnung von Wirtschaftstätigkeiten nach der Taxonomie-VO (EU) 2020/852 – Taxonomiefähigkeit und… |
 | [`EU transparency register`](skills/eu-transparency-register-nolpak14/) | Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the… |
 | [`EU: Petitionsausschuss`](skills/eur-anrufung-state-beihilfen-vergaben/) | Für EU: Petitionsausschuss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`EU: Vertragsverletzung Art. 258`](skills/eur-kommissionsverfahren-art-258-spezial/) | Für EU: Vertragsverletzung Art. 258: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -175,6 +177,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Marktüberwachung und Vorfallmeldung — Art. 72 bis 79 KI-VO`](skills/marktueberwachung-meldung-vorfaelle-art-72/) | Für Marktüberwachung und Vorfallmeldung — Art. 72 bis 79 europäischer Technikregulierungsrahmen: ordnet… |
 | [`Mechanik: Erstprüfung, Rollenklärung und Mandatsziel`](skills/mechanik-erstpruefung-rollenklaerung-mandatsziel/) | Für Mechanik: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Mechanik: Erstprüfung, Rollenklärung und Mandatsziel`](skills/mechanik-erstpruefung-und-mandatsziel/) | Für Mechanik: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
+| [`/csrd:nachhaltigkeitsbericht-pruefung`](skills/nachhaltigkeitsbericht-pruefung-borghei/) | Vorbereitung und Durchführung der externen Prüfung der Nachhaltigkeitsberichterstattung nach CSRD-RL… |
 | [`Nationales Verfahren und Effektivität`](skills/nationales-verfahren-vorlageverfahren-art/) | Für Nationales Verfahren und Effektivität: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kein Hochrisiko bestätigt — die End-to-End-Roadmap`](skills/nicht-hochrisiko-bestaetigt-end-to/) | Für Kein Hochrisiko bestätigt — die End-to-End-Roadmap: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kein Hochrisiko bestätigt — die End-to-End-Roadmap`](skills/nicht-hochrisiko-bestaetigt-end-to-end-roadmap/) | Für Kein Hochrisiko bestätigt — die End-to-End-Roadmap: ordnet Norm, Beweislast und Gegenargument… |
@@ -219,6 +222,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Strafverfolgung: KI und Beweisbewertung`](skills/strafverfolgung-beweisbewertung-ki-anhang-iii/) | Für Strafverfolgung: digitale Werkzeuge und Beweisbewertung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Strafverfolgung: KI und Beweisbewertung`](skills/strafverfolgung-beweisbewertung-territorialer/) | Für Strafverfolgung: digitale Werkzeuge und Beweisbewertung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Territorialer Anwendungsbereich — Art. 2 KI-VO`](skills/territorialer-anwendungsbereich-art-2/) | Für Territorialer Anwendungsbereich — Art. 2 europäischer Technikregulierungsrahmen: ordnet Norm… |
+| [`Tool — EUR-Lex (EU Official Legal Database)`](skills/tool-eur-lex-eu-sboghossian/) | Use when looking up EU primary and secondary law — treaties, regulations, directives, decisions, CJEU… |
 | [`Training generativer Modelle: TDM und Opt-out`](skills/training-generativer-modelle-tdm-opt-out/) | Für Training generativer Modelle: TDM und Opt-out: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Transparenz und synthetische Inhalte`](skills/transparenz-deepfake-synthetic-content-art-50/) | Prüft Chatbot-Hinweise, maschinenlesbare Anbieterkennzeichnung und Deepfake-Offenlegung getrennt.… |
 | [`Transparenzfreigabe dokumentieren`](skills/transparenzfreigabe-dokumentieren/) | Erstellt aus vorhandenen Prüfbefunden eine versions- und kanalbezogene Transparenzfreigabe mit konkreten… |
@@ -235,6 +239,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Vorrang: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/vorrang-dokumentenmatrix-und-lueckenliste/) | Für Vorrang: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Vorrang und unmittelbare Wirkung`](skills/vorrang-unmittelbare-wettbewerb-kartell/) | Für Vorrang und unmittelbare Wirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vorrang, unmittelbare Wirkung und effet utile in nationalen Fällen`](skills/vorrang-unmittelbare-wirkung-effet-utile/) | Für Vorrang, unmittelbare Wirkung und effet utile in nationalen Fällen: ordnet Norm, Beweislast und… |
+| [`/csrd:wesentlichkeitsanalyse-doppelt`](skills/wesentlichkeitsanalyse-doppelt-borghei/) | Durchführung der doppelten Wesentlichkeitsanalyse nach ESRS 1 §§ 25–53 – Impact Materiality… |
 | [`KI-Flaschenhälse, Big Tech und Wettbewerb`](skills/wettbewerb-ki-flaschenhaelse-big-tech/) | Für digitale Werkzeuge-Flaschenhälse, Big Tech und Wettbewerb: ordnet Norm, Beweislast und… |
 | [`Wirkung: Behörden-, Gerichts- oder Registerweg`](skills/wirkung-behoerden-gericht-und-registerweg/) | Für Wirkung: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Geltungsbeginn und Bestandssysteme`](skills/zeitlicher-geltungsbereich-uebergangsfristen/) | Ordnet den Anwendungsbeginn der Verordnung EU 2024/1689 nach dem Omnibus 2026 dem konkreten System zu.… |

@@ -4,10 +4,14 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `eu` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (14)
+## Skills (18)
 
 | Skill | What it does |
 |---|---|
+| [`/cyber-resilience-act:cra-anwendungsbereich`](skills/cra-anwendungsbereich-borghei/) | Prüfung, ob ein Produkt in den Anwendungsbereich des Cyber Resilience Act fällt – Produkt mit digitalen… |
+| [`/cyber-resilience-act:cra-meldepflichten`](skills/cra-meldepflichten-borghei/) | Steuerung der CRA-Meldepflichten nach Art. 14 VO (EU) 2024/2847 ab dem 11.09.2026 – Abgrenzung aktiv… |
+| [`/cyber-resilience-act:cra-produktanforderungen`](skills/cra-produktanforderungen-borghei/) | Bestimmung der grundlegenden Cybersicherheitsanforderungen nach Anhang I VO (EU) 2024/2847 –… |
+| [`/cyber-resilience-act:cra-schwachstellenmanagement`](skills/cra-schwachstellenmanagement-borghei/) | Aufbau und Prüfung des Schwachstellenmanagements nach Anhang I Teil II VO (EU) 2024/2847 – Politik zur… |
 | [`CRA — Secure by Design`](skills/cra-secure-by-design-arttuan/) | Cyber Resilience Act: decide whether you place a product on the market, then build the SBOM… |
 | [`DORA — Digital Operational Resilience Act Skill`](skills/dora/) | Expert DORA (Regulation (EU) 2022/2554 — Digital Operational Resilience Act) compliance advisor for EU… |
 | [`DORA Expert`](skills/dora-expert/) | DORA expert for EU financial entities. Deep knowledge of Digital Operational Resilience Act including 5… |

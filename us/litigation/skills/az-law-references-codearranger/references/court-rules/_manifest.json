@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-31",
+  "source": "courtrules.net (mirror); canonical azcourts.gov",
+  "mode": "verbatim",
+  "notes": "Pulled by scripts/pull_arizona_rules.py. Verbatim Ariz. R. Civ. P. + Ariz. R. Evid. + ARFLP + JCRCP text mirrored from courtrules.net (the official azcourts.gov / Arizona Court Rules library is Cloudflare-gated). Handles both one-level index sets and two-level section-page sets. Falls back to canonical-URL pointer stubs when the mirror lacks a set or is unreachable; the _file_is_stub guard preserves committed verbatim content."
+}

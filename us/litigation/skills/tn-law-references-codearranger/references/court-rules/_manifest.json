@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-05-28",
+  "source": "https://www.tncourts.gov/",
+  "notes": "Pulled by scripts/pull_tn_court_rules.py. Tennessee AOC publishes the statewide rule sets as Drupal HTML with one sub-page per rule. The puller walks each rule set's landing page, discovers sub-page URLs by path prefix, and extracts the rule body from the `field--name-field-rules-rule-content` div. County-by-county local rules are pointer stubs (no aggregated HTML index)."
+}

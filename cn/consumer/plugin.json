@@ -1,0 +1,18 @@
+{
+  "name": "cn-consumer",
+  "displayName": "Consumer Protection — CN",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/cold-start-interview-product-legal-zhou210712",
+    "skills/feature-risk-assessment-zhou210712",
+    "skills/is-this-a-problem-zhou210712",
+    "skills/launch-review-zhou210712",
+    "skills/marketing-claims-review-zhou210712"
+  ]
+}

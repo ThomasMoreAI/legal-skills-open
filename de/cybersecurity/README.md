@@ -4,7 +4,7 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (101)
+## Skills (109)
 
 | Skill | What it does |
 |---|---|
@@ -58,7 +58,11 @@ Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per ski
 | [`Klassifizierte Informationen`](skills/klassifizierte-informationen/) | Für Klassifizierte Informationen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kommunikation Presse Kunden`](skills/kommunikation-presse-kunden/) | Für Kommunikation Presse Kunden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Krisenuebung`](skills/krisenuebung-kritis-bsig-leitungserklaerung/) | Für Krisenübung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/kritis-resilienz:kritis-anwendungsbereich-registrierung`](skills/kritis-anwendungsbereich-registrierung-borghei/) | Anwendungsbereich und Registrierung nach dem KRITIS-Dachgesetz – zehn Sektoren § 4 Abs. 1 (Energie… |
 | [`Kritis Bsig Schnittstelle`](skills/kritis-bsig-schnittstelle/) | Für Kritis Bsig Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/kritis-resilienz:kritis-governance-haftung`](skills/kritis-governance-haftung-borghei/) | Geschäftsleiterpflichten und Haftung nach dem KRITIS-Dachgesetz – Umsetzungs- und Überwachungspflicht… |
+| [`/kritis-resilienz:kritis-resilienzpflichten`](skills/kritis-resilienzpflichten-borghei/) | Resilienzpflichten und Resilienzplan nach dem KRITIS-Dachgesetz – Risikoanalyse und Risikobewertung des… |
+| [`/kritis-resilienz:kritis-vorfallmeldung`](skills/kritis-vorfallmeldung-borghei/) | Vorfallmeldung nach § 18 KRITIS-Dachgesetz – Meldepflicht des Betreibers kritischer Anlagen gegenüber… |
 | [`Leitungserklärung Cyber Attestation`](skills/leitungserklaerung-cyber-attestation/) | Für Leitungserklärung Cyber Attestation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lieferanten Questionnaire`](skills/lieferanten-questionnaire/) | Für Lieferanten Questionnaire: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Lieferkette Supplier Security`](skills/lieferkette-supplier-logdaten-beschaeftigte/) | Für Lieferkette Supplier Security: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -68,14 +72,18 @@ Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per ski
 | [`Massnahmenplan 100 Tage`](skills/massnahmenplan-100-tage/) | Für Maßnahmenplan 100 Tage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Maßnahmenplan 100 Tage`](skills/massnahmenplan-tage-maturity-assessment/) | Für Maßnahmenplan 100 Tage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Maturity Assessment`](skills/maturity-assessment/) | Für Maturity Assessment: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/nis2:meldepflicht-24h`](skills/meldepflicht-24h-borghei/) | NIS2-Meldepflichten bei erheblichen Sicherheitsvorfällen – 24-Stunden-Frühwarnung… |
 | [`Messenger Collaboration Tool Check`](skills/messenger-collaboration-tool-check/) | Für Messenger Collaboration Tool Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`MFA Passkeys`](skills/mfa-passkeys/) | Für MFA Passkeys: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mobile Device Loss`](skills/mobile-device-ot-industrial-admin-offboarding/) | Für Mobile Device Loss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/nis2:nis2-anwendungsbereich`](skills/nis2-anwendungsbereich-borghei/) | Betroffenheitsprüfung und Registrierung nach NIS2 / neuem BSIG – wesentliche und wichtige Einrichtungen… |
 | [`NIS-2 Betroffenheitscheck`](skills/nis2-betroffenheitscheck/) | Für NIS-2 Betroffenheitscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`BYOD Policy`](skills/nis2-cybersecurity-compliance-byod-policy/) | Für BYOD Policy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Juristischer Argumentationskern - NIS2 Cybersecurity Compliance`](skills/nis2-cybersecurity-compliance-juristischer-argumentationskern/) | Schaltet sich ein, wenn in NIS2 Cybersecurity Compliance ein juristisches Arbeitsprodukt tragfähig… |
 | [`Cybersicherheitsauftrag bearbeiten`](skills/nis2-cybersecurity-compliance-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Redteam Qualitygate`](skills/nis2-cybersecurity-compliance-redteam-qualitygate/) | Für Redteam Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
+| [`/nis2:nis2-geschaeftsleitung-haftung`](skills/nis2-geschaeftsleitung-haftung-borghei/) | Leitungsverantwortung und Haftung nach NIS2 / neuem BSIG – Billigung, Überwachung und Schulungspflicht… |
+| [`/nis2:nis2-risikomanagement`](skills/nis2-risikomanagement-borghei/) | Aufbau der Risikomanagementmaßnahmen nach NIS2 / neuem BSIG – All-Hazards-Ansatz und die zehn… |
 | [`NIST Csf Mapping`](skills/nist-csf-mapping/) | Für NIST Csf Mapping: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Notfallkommunikation`](skills/notfallkommunikation/) | Für Notfallkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Notfallplan Und Bcm`](skills/notfallplan-bcm-open-source-patch-management/) | Für Notfallplan und Bcm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

@@ -1,0 +1,6 @@
+{
+  "version": "0.2.0",
+  "last_pulled": "2026-05-28",
+  "source": "https://law.justia.com/codes/tennessee/",
+  "notes": "Pulled by scripts/pull_tn_statutes.py. The Tennessee Code Annotated has no clean structured free official source (LexisNexis publishes the official code under copyright behind a JS container). Justia is the primary structured free mirror; FindLaw is a fallback. Both sit behind Cloudflare bot-fight mode and 403 against stdlib urllib's TLS fingerprint and many shared-egress IPs (incl. GitHub Actions runners). The puller uses curl_cffi with Chrome TLS impersonation when available — works from a residential or VPN-routed IP. Walks Chapter -> Part -> Section for chapters that are subdivided into Parts. Falls back to well-formed pointer stubs when fetch fails so the corpus retains its target shape. As of v0.2.0 all 25 chapters carry verbatim text (~2.6 MB across 1,496 sections)."
+}

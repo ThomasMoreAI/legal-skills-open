@@ -4,7 +4,7 @@ German energy law — EEG/KWKG remuneration, grid connection and access, network
 
 Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (68)
+## Skills (71)
 
 | Skill | What it does |
 |---|---|
@@ -38,10 +38,12 @@ Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see
 | [`Regelenergie und Systemdienstleistungen`](skills/bess-regelenergie-systemdienstleistung/) | Für Regelenergie und Systemdienstleistungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versicherung und Schadenfallmanagement`](skills/bess-versicherung-und-schadenfall/) | Für Versicherung und Schadenfallmanagement: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Wasser, AwSV, Boden und Havarie`](skills/bess-wasser-awsv-und-boden/) | Für Wasser, AwSV, Boden und Havarie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/energierecht:eeg-foerderpruefung`](skills/eeg-foerderpruefung-borghei/) | Prüfung der Anspruchsvoraussetzungen für Marktprämie und Einspeisevergütung nach EEG 2023 – Anlagenart… |
 | [`EEG, KWKG und Erzeugung erneuerbarer Energien`](skills/eeg-kwkg-erzeugung/) | Für EEG, KWKG und Erzeugung erneuerbarer Energien: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einfuehrung: Mandantenkommunikation und Entscheidungsvorlage`](skills/einfuehrung-energieprojekt-intake/) | Für Einführung: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
 | [`Energierecht: System einfuehrend`](skills/einfuehrung-system/) | Für Energierecht: System einführend: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`E-Mobilität und Wasserstoff`](skills/emobility-wasserstoff/) | Für E-Mobilität und Wasserstoff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/energierecht:energieeffizienzpflicht`](skills/energieeffizienzpflicht-borghei/) | Überblicksprüfung der Energieeffizienzpflichten für Unternehmen – EnMS-/UMS-Pflicht nach § 8 EnEfG ab… |
 | [`Energieprojekt-Intake mit Regulierungs-, Netz- und Förderweiche`](skills/energieprojekt-intake-und-regulierungsweiche/) | Für Energieprojekt-Intake mit Regulierungs-, Netz- und Förderweiche: ordnet Norm, Beweislast und… |
 | [`Energierecht — Allgemein`](skills/energierecht-anschluss/) | Für Energierecht — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dokumentenintake`](skills/energierecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
@@ -51,6 +53,7 @@ Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see
 | [`Rechtsquellen-Livecheck`](skills/energierecht-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Unterlagen und Lücken`](skills/energierecht-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Energie-Verträge — Strukturierung und Prüfung`](skills/energievertraege/) | Für Energie-Verträge — Strukturierung und Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/energierecht:enwg-netzanschluss`](skills/enwg-netzanschluss-borghei/) | Prüfung des Anschluss- und Versorgungsanspruchs nach §§ 17, 18 EnWG und des vorrangigen… |
 | [`Fusion: Bauleitplanung am Starnberger See`](skills/fusion-bauleitplanung-starnberger-see/) | Für Fusion: Bauleitplanung am Starnberger See: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fusion: Bürgerbeteiligung und politische Kommunikation`](skills/fusion-buergerbeteiligung-foerderung/) | Für Fusion: Bürgerbeteiligung und politische Kommunikation: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fusion: Förderung, Beihilfe und IP`](skills/fusion-foerderung-beihilfe/) | Für Fusion: Förderung, Beihilfe und IP: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

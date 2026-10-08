@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `us` · Practice: `general` · Skill language: en
 
-## Skills (24)
+## Skills (26)
 
 | Skill | What it does |
 |---|---|
@@ -26,8 +26,10 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`Legal Newsletter Summary`](skills/newsletter-summary/) | Produces concise, actionable U.S. legal newsletter summaries of recent developments organized by… |
 | [`Notary Public`](skills/notary-public/) | Licensed notary public specializing in document notarization, legal certification, and authentication.… |
 | [`Outline builder`](skills/outline-builder-bossmann007/) | Build or extend a course outline in your format, from class notes and casebook. Scaffolds — it does not… |
+| [`Bluebook Citation Format (US)`](skills/output-citation-format-bluebook-sboghossian/) | Use when formatting legal citations for a US-trained audience using the Bluebook system (Harvard… |
 | [`Legal Project Management Summary`](skills/project-management-summary/) | Produces U.S. legal project management summaries consolidating objectives, scope, timeline, budget… |
 | [`Research start`](skills/research-start-lawdroidai/) | Research roadmap for a legal issue — statutory starting points, case law areas, agency guidance… |
+| [`Bar Rule 1.6 — Confidentiality and AI Use`](skills/safety-bar-rule-1-6-confidentiality-ai-sboghossian/) | Use when assessing whether a lawyer's use of an AI tool complies with the professional duty of client… |
 | [`Statutory Interpretation Guide (US Law)`](skills/statutory-analysis/) | First-pass framework for reading, interpreting, and structuring statutory analysis of US federal, state… |
 | [`Tax Return Summary`](skills/tax-return-summary/) | Produces structured, citation-backed summaries of tax returns (Form 1040, schedules, W-2s, 1099s) for… |
 | [`US Counsel`](skills/us-counsel-rohasnagpal/) | Applies vCLO's United States jurisdiction layer to a US legal matter. Use whenever US federal, State… |

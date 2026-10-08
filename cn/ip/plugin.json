@@ -9,13 +9,23 @@
   "practice": "ip",
   "language": "zh",
   "skills": [
+    "skills/cease-desist-zhou210712",
     "skills/chinese-copyright-application",
     "skills/chinese-copyright-application-okooo5km",
+    "skills/clearance-zhou210712",
     "skills/copyright-docs",
+    "skills/fto-triage-zhou210712",
+    "skills/infringement-triage-zhou210712",
+    "skills/invention-intake-zhou210712",
+    "skills/ip-clause-review-zhou210712",
+    "skills/matter-workspace-ip-legal-zhou210712",
+    "skills/oss-review-zhou210712",
     "skills/paper-to-cn-patent",
     "skills/paper2patent",
     "skills/patent-architect",
+    "skills/portfolio-zhou210712",
     "skills/software-copyright",
+    "skills/takedown-zhou210712",
     "skills/trademark-assistant"
   ]
 }

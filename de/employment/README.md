@@ -4,7 +4,7 @@ Labour and employment — hiring, contracts, policies, termination, and workplac
 
 Jurisdiction: `de` · Practice: `employment` · Skill language: de
 
-## Skills (456)
+## Skills (474)
 
 | Skill | What it does |
 |---|---|
@@ -19,9 +19,11 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`09 Urteil Arbeitsgericht`](skills/09-urteil-arbeitsgericht/) | Für 09 Urteil Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`10 Entscheidungsvorschlag Arbeitsgericht`](skills/10-entscheidungsvorschlag-arbeitsgericht/) | Für 10 Entscheidungsvorschlag Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitgeber will Arbeitnehmer abmahnen oder Arbeitnehmer hat Abmahnung erhalten und will sie anfechten`](skills/abmahnung-arbeitsrecht/) | Für Abmahnung Arbeitsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/arbeitsrecht:abmahnung`](skills/abmahnung-borghei/) | Entwurf einer BAG-konformen Abmahnung im Arbeitsrecht – konkrete Schilderung der Pflichtverletzung… |
 | [`Abmahnung und Personalaktenentfernung prüfen`](skills/abmahnung-loeschung-personalakte-bag-2-azr-782-11/) | Für Abmahnung und Personalaktenentfernung prüfen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Äußere Form und Briefkopf prüfen`](skills/aeussere-form-und-briefkopf/) | Prüft bei einem vorhandenen deutschen Arbeitszeugnis Ausfertigung, Geschäftspapier, Datierung… |
 | [`Abhilfe und Vereinbarung gestalten`](skills/agg-abhilfe-und-vereinbarung-gestalten/) | Entwickelt konkrete Abhilfe, faire Auswahlregeln und eine eng gefasste Vergleichsvereinbarung im… |
+| [`/arbeitsrecht:agg-entschaedigung`](skills/agg-entschaedigung-borghei/) | Entschädigung und Schadensersatz wegen Benachteiligung nach § 15 AGG – Benachteiligungsverbot §§ 1, 3, 7… |
 | [`AGG-Fall zum nächsten Schreiben führen`](skills/agg-fall-zum-schreiben-fuehren/) | Führt einen konkreten Diskriminierungsvorgang nach dem AGG vom ersten Beleg zum Beschwerdebrief… |
 | [`AGG-Fristen sichern`](skills/agg-fristen-und-ansprueche-sichern/) | Prüft Ausschlussfristen und erstellt eine konkrete Anspruchsgeltendmachung nach dem AGG. Trennt… |
 | [`AGG-Schriftsatz erstellen`](skills/agg-klage-und-erwiderung-entwerfen/) | Erstellt eine AGG-Klage oder Erwiderung aus Anspruchsschreiben und Belegen. Prüft Rechtsweg… |
@@ -57,6 +59,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Abmahnung Entwurf Und Risiko`](skills/arbeitsvertrag-abmahnung-entwurf-englisch/) | Für Abmahnung Entwurf und Risiko: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Arbeitsvertrag Englisch Deutsch Bilingual`](skills/arbeitsvertrag-englisch-deutsch-bilingual/) | Für Arbeitsvertrag Englisch Deutsch Bilingual: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitsvertrag Founder Nahe Schlüsselrolle`](skills/arbeitsvertrag-founder-nahe-schluesselrolle/) | Für Arbeitsvertrag Founder Nahe Schlüsselrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/arbeitsrecht:arbeitsvertrag-gestaltung`](skills/arbeitsvertrag-gestaltung-borghei/) | Gestaltung und AGB-Kontrolle des Arbeitsvertrages – Anwendung der §§ 305–310 BGB im Arbeitsrecht mit der… |
 | [`Arbeitsvertrag Klauseln`](skills/arbeitsvertrag-klauseln-settlement/) | Für Arbeitsvertrag Klauseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Arbeitsvertrag Remote Hybrid Berlin`](skills/arbeitsvertrag-remote-hybrid-berlin/) | Für Arbeitsvertrag Remote Hybrid Berlin: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitsvertrag Standard Unbefristet`](skills/arbeitsvertrag-standard-unbefristet/) | Für Arbeitsvertrag Standard Unbefristet: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
@@ -70,6 +73,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Hochgeladenes Arbeitszeugnis einordnen und prüfen`](skills/arbeitszeugnis-analyse-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Output wählen`](skills/arbeitszeugnis-analyse-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Unterlagen und Lücken`](skills/arbeitszeugnis-analyse-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
+| [`/arbeitsrecht:arbeitszeugnis`](skills/arbeitszeugnis-borghei/) | Erteilung, Prüfung und Berichtigung des Arbeitszeugnisses – Anspruch auf einfaches und qualifiziertes… |
 | [`Codeworte: Compliance-Dokumentation und Aktenvermerk`](skills/arbeitszeugnis-codeworte-compliance-dokumentation-aktenv/) | Für Codeworte: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Deutscher: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/arbeitszeugnis-deutscher-tatbestandsmerkmale-beweisfrage/) | Für Deutscher: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und… |
 | [`Arbeitszeugnis erstellen`](skills/arbeitszeugnis-erstellen/) | Erstellt einfache, qualifizierte und Zwischenzeugnisse aus Personalunterlagen. Erfasst tatsächliche… |
@@ -85,6 +89,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Aufforderungsschreiben an den Arbeitgeber`](skills/aufforderungsschreiben-arbeitgeber/) | Für Aufforderungsschreiben an den Arbeitgeber: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berichtigung eines Arbeitszeugnisses verlangen`](skills/aufforderungsschreiben-berichtigung/) | Verfasst im vollständigen Arbeitnehmer-Prüfauftrag ein rechtlich abgestuftes Arbeitgeberschreiben zu… |
 | [`Begleitet Entwurf, Prüfung und Verhandlung eines Aufhebungsvertrags`](skills/aufhebungsvertrag/) | Aufhebungsvertrag: Prüft Schriftform, Beendigungsdatum, Abfindung, Freistellung, Urlaub, Zeugnis… |
+| [`/arbeitsrecht:aufhebungsvertrag`](skills/aufhebungsvertrag-borghei/) | Erstellung und Prüfung eines Aufhebungsvertrags inkl. Sperrzeit § 159 SGB III, Schriftform § 623 BGB und… |
 | [`Aufhebungsvertrag und faires Verhandeln prüfen`](skills/aufhebungsvertrag-faires-verhandeln-bag-6-azr-333-21/) | Prüft Aufhebungsverträge auf Schriftform, Anfechtung und Verletzung des Gebots fairen Verhandelns. |
 | [`Aufhebungsvertrag mit Sperrzeit-Vermeidung nach Paragraf 159 SGB III bei Eigeninitiative oder drohender Kündigung`](skills/aufhebungsvertrag-sperrzeit/) | Für Aufhebungsvertrag Sperrzeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Aufhebungsvertrag Sperrzeit Prognose: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu e`](skills/aufhebungsvertrag-sperrzeit-prognose/) | Für Aufhebungsvertrag Sperrzeit Prognose: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -103,6 +108,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Beendigungsgrund prüfen`](skills/beendigungsgrund-pruefen/) | Prüft Beendigungsdatum und Beendigungsformel eines Arbeitszeugnisses auf Tatsachenrichtigkeit… |
 | [`Befristungscompliance und Aktenführung: TzBfG Paragrafen 14–17, Schriftformzwang vor Dienstantritt, Sachgrundbefristung-`](skills/befristung-compliance-dokumentation-und-akte/) | Für Befristung Compliance Dokumentation und Akte: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Befristungskontrolle und Befristungsgestaltung nach TzBfG für Arbeitgeber und Arbeitnehmer`](skills/befristung-tzbfg/) | Für Befristungskontrolle und Befristungsgestaltung nach TzBfG für Arbeitgeber und Arbeitnehmer: prüft… |
+| [`/arbeitsrecht:befristungskontrolle`](skills/befristungskontrolle-borghei/) | Wirksamkeitskontrolle befristeter Arbeitsverträge nach dem TzBfG – Schriftformerfordernis § 14 Abs. 4… |
 | [`Fachanwalt Arbeitsrecht Bem Verfahren: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu `](skills/bem-verfahren/) | Für Bem Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Benefits Policy Jobticket Urban Sports`](skills/benefits-policy-jobticket-urban-sports/) | Für Benefits Policy Jobticket Urban Sports: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bereichs-Drift-Detektor (Schaufenster-Pattern)`](skills/bereichs-drift-detektor/) | Für Bereichs-Drift-Detektor (Schaufenster-Pattern): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -124,9 +130,11 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Betriebsrat Mitbestimmung`](skills/betriebsrat-mitbestimmung-beweislastumkehr/) | Für Betriebsrat Mitbestimmung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
 | [`Betriebsrat: Schwellenwerte für Größe, Zusammensetzung und Freistellungen Paragrafen 9 und 38 BetrVG, Wahlrecht Paragraf`](skills/betriebsrat-zahlen-schwellen-und-berechnung/) | Für Betriebsrat Zahlen Schwellen und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Betriebsratsanhoerung nach Paragraf 102 BetrVG vor jeder Kündigung`](skills/betriebsratsanhoerung/) | Für Betriebsratsanhörung nach Paragraf 102 BetrVG vor jeder Kündigung: ordnet Norm, Beweislast und… |
+| [`/arbeitsrecht:betriebsratsanhoerung`](skills/betriebsratsanhoerung-borghei/) | Ordnungsgemäße Anhörung des Betriebsrats vor jeder Kündigung nach § 102 BetrVG – Entwurf des… |
 | [`Fachanwalt Arbeitsrecht Betriebsratsbeschluss Heilung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Re`](skills/betriebsratsbeschluss-heilung/) | Für Betriebsratsbeschluss Heilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leiharbeitnehmer bei der Betriebsratswahl prüfen`](skills/betriebsratswahl-leiharbeit-wahlrecht-anfechtung/) | Für Leiharbeitnehmer bei der Betriebsratswahl prüfen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Unternehmen wird verkauft oder Betrieb geht auf neuen Inhaber über und Arbeitnehmer fragen nach Rechten oder Kündigungss`](skills/betriebsuebergang-613a-pruefen/) | Für Betriebsübergang 613a Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/arbeitsrecht:betriebsuebergang`](skills/betriebsuebergang-borghei/) | Betriebsübergang nach § 613a BGB – Tatbestand des Übergangs einer wirtschaftlichen Einheit durch… |
 | [`Späten Widerspruch beim Betriebsübergang prüfen`](skills/betriebsuebergang-widerspruch-paragraf-613a-bgb-spaetlau/) | Prüft einen späten Widerspruch gegen den Übergang des Arbeitsverhältnisses nach Paragraf 613a BGB. |
 | [`Betriebsvereinbarung Remote IT Benefits`](skills/betriebsvereinbarung-remote/) | Für Betriebsvereinbarung Remote IT Benefits: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Betriebsversammlung Und Kommunikation`](skills/betriebsversammlung-und-kommunikation/) | Für Betriebsversammlung und Kommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -180,6 +188,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung`](skills/entfristung-vergleichsverhandlung-checkliste/) | Für Entfristung Vergleichsverhandlung Checkliste: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Entgelt und Arbeitsbedingungen vergleichen`](skills/entgelt-und-arbeitsbedingungen-vergleichen/) | Vergleicht Entgelt, Arbeitszeit, Zulagen und Arbeitsbedingungen auf mögliche Benachteiligung. Bereinigt… |
 | [`Setzt BAG 23.10.2025 - 8 AZR 300/24 in einen arbeitsrechtlichen Prüffür Equal Pay, variable Vergütung, Vergleichsperson,`](skills/entgeltgleichheit-paarvergleich-agg-entgtranspg/) | Für Entgeltgleichheit Paarvergleich Agg Entgtranspg: entwickelt Ziel, Vergleich und Eskalation… |
+| [`/arbeitsrecht:entgelttransparenz`](skills/entgelttransparenz-borghei/) | Entgelttransparenz und Entgeltgleichheit im Übergang von nationalem zu europäischem Recht – geltendes… |
 | [`EntgTranspG Entgelttransparenzgesetz: Auskunftsanspruch Paragraf 10, Verfahren, Fristen, Verhandlungsstrategie bei Lohnl`](skills/entgtranspg-verhandlung-vergleich-und-eskalation/) | Für Entgtranspg Verhandlung Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Equal Pay bei Leiharbeit prüfen`](skills/equal-pay-leiharbeit-bag-5-azr-143-19-eugh-timepartner/) | Prüft Equal Pay in der Arbeitnehmerüberlassung anhand von Paragraf 8 AÜG, Tariföffnung… |
 | [`Erstgespräch und Mandatsannahme im Zeugnisrecht`](skills/erstgespraech-und-mandatsannahme/) | Für Erstgespräch und Mandatsannahme im Zeugnisrecht: ordnet Norm, Beweislast und Gegenargument… |
@@ -188,6 +197,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Startet die Planung einer Neueinstellung in einem weiteren Bundesland oder einem neuen Zielland — erhebt die relevanten `](skills/expansion-auftakt/) | Für Expansion Auftakt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Exportkontrolle Sanktionen`](skills/exportkontrolle-sanktionen/) | Für Exportkontrolle Sanktionen: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Externe Meldung BfJ`](skills/externe-meldung-externes-bfj-faq-mitarbeiter/) | Für Externe Meldung BfJ: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/hinweisgeberschutz:externe-meldung-offenlegung`](skills/externe-meldung-offenlegung-borghei/) | Externe Meldung und Offenlegung nach §§ 7, 19, 28, 32 HinSchG – Wahlrecht zwischen interner und externer… |
 | [`Externes BfJ Formular`](skills/externes-bfj-formular/) | Für Externes BfJ Formular: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit… |
 | [`Anschluss-Routing`](skills/fachanwalt-arbeitsrecht-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Aufhebungsvertrag mit Sperrzeit-Vermeidung`](skills/fachanwalt-arbeitsrecht-aufhebungsvertrag-sperrzeit/) | Für Aufhebungsvertrag mit Sperrzeit-Vermeidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -273,6 +283,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Unterlagen und Stammdaten prüfen`](skills/intake-und-stammdaten-pruefen/) | Ermittelt Zeugnisart, Stamm- und Verfahrensdaten einer Arbeitszeugnisprüfung oder verweigerten… |
 | [`Internal Investigation`](skills/internal-investigation/) | Für Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Implementierungsplanungs-Framework für internationale Einstellungen — Entscheidungsrahmen AÜG-Modell/EOR vs`](skills/internationale-expansion/) | Für Internationale Expansion: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
+| [`/hinweisgeberschutz:interne-meldung-bearbeitung`](skills/interne-meldung-bearbeitung-borghei/) | Bearbeitung einer eingegangenen internen Meldung durch die Meldestelle nach §§ 8, 13, 17, 18 HinSchG –… |
 | [`gemeinsames Framework für arbeitsrechtliche interne Untersuchungen vom Eingang einer Beschwerde bis zum abschließenden M`](skills/interne-untersuchung/) | Für Interne Untersuchung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Interne Untersuchung HR Light`](skills/interne-untersuchung-ip-rechte-krankmeldung/) | Für Interne Untersuchung HR Light: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`IP Rechte Software Und Erfindungen`](skills/ip-rechte-software-und-erfindungen/) | Für IP Rechte Software und Erfindungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -288,8 +299,10 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Einschreiben, Post und Zugang: warum Einwurf-/Übergabe-Einschreiben oft nicht genügt und wie man Beweis sauber führt.`](skills/kuendigung-per-einschreiben-risiken/) | Für Kündigung Per Einschreiben Risiken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Prüft den sicheren Zugang arbeitsrechtlicher Kündigungen nach Paragraf 623 BGB und Paragraf 130 BGB: Bote, Einwurf, Eins`](skills/kuendigung-zugang-beweiswerkstatt/) | Für Kündigung Zugang Beweiswerkstatt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast… |
 | [`Rechtliche Prüfung einer ordentlichen oder außerordentlichen Kündigung – KSchG (allgemeiner und besonderer Kündigungssch`](skills/kuendigungs-pruefung/) | Für Kündigungs Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`/arbeitsrecht:kuendigungs-pruefung`](skills/kuendigungs-pruefung-borghei/) | Rechtliche Vollprüfung einer ordentlichen oder außerordentlichen Kündigung im deutschen Arbeitsrecht –… |
 | [`Kündigungsschutzklage`](skills/kuendigungsschutzklage/) | Für Kündigungsschutzklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Kündigungsschutzklage nach Paragraf 4 KSchG mit Drei-Wochen-Frist ab Zugang der schriftlichen Kündigung`](skills/kuendigungsschutzklage-2/) | Für Kündigungsschutzklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
+| [`/arbeitsrecht:kuendigungsschutzklage`](skills/kuendigungsschutzklage-borghei/) | Erhebung und Führung der Kündigungsschutzklage – 3-Wochen-Frist § 4 KSchG ab Zugang der schriftlichen… |
 | [`Abfindung Kündigungsschutzklage: Faustformel halbes Bruttomonatsgehalt pro Beschäftigungsjahr`](skills/kueschk-abfindung-faustformel-und-spannweite/) | Für Kueschk Abfindung Faustformel und Spannweite: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Erklärung des Unterschieds zwischen dem punktuellen Feststellungsantrag nach Paragraf 4 Satz 1 KSchG und dem allgemeinen`](skills/kueschk-allgemeiner-und-besonderer-feststellungsantrag/) | Für Kueschk Allgemeiner und Besonderer Feststellungsantrag: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG`](skills/kueschk-annahmeverzug-loehne-anrechnung-zwischenverdienst/) | Für Annahmeverzugslohn nach Paragraf 615 BGB und Paragraf 11 KSchG: ordnet Norm, Beweislast und… |
@@ -331,7 +344,9 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Fachanwalt Arbeitsrecht Massenentlassung 17 KSchG: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechts`](skills/massenentlassung-17-kschg-2/) | Für Massenentlassung 17 Kschg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Massenentlassung: Anzeige, Konsultation, Agentur für Arbeit, Fehlerfolgen, neue Rechtsprechung und Rettungsstrategie.`](skills/massenentlassung-17-kschg-realitaetscheck/) | Für Massenentlassung 17 Kschg Realitätscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Massenentlassung und Anzeige prüfen`](skills/massenentlassung-anzeige-eugh-junk-bag-6-azr-155-21/) | Prüft Massenentlassungen nach dem aktuellen Stand 2026: Betrieb, Regelbelegschaft, Dreißigtagezeitraum… |
+| [`/arbeitsrecht:massenentlassungsanzeige`](skills/massenentlassungsanzeige-borghei/) | Massenentlassung nach §§ 17, 18 KSchG – Schwellenwerte § 17 Abs. 1 KSchG und Betriebsbegriff… |
 | [`Meldeprozess SLA`](skills/meldeprozess-sla/) | Für Meldeprozess SLA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/hinweisgeberschutz:meldestelle-einrichten`](skills/meldestelle-einrichten-borghei/) | Einrichtung einer HinSchG-konformen internen Meldestelle nach § 12 HinSchG – Auswahl Meldekanäle… |
 | [`Mindestlohn Arbeitszeit Erfassung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu eine`](skills/mindestlohn-arbeitszeit-erfassung/) | Für Mindestlohn Arbeitszeit Erfassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Minijob Werkstudent Praktikum Payroll`](skills/minijob-werkstudent-praktikum-payroll/) | Für Minijob Werkstudent Praktikum Payroll: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mitarbeiterhandbuch Startup`](skills/mitarbeiterhandbuch-startup/) | Für Mitarbeiterhandbuch Startup: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -384,6 +399,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Recruiting Interviewfragen No Go`](skills/recruiting-interviewfragen-no-go/) | Für Recruiting Interviewfragen No Go: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Probezeitkuendigung Fair Und Schnell`](skills/recruiting-probezeitkuendigung-fair/) | Für Probezeitkündigung Fair und Schnell: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Remote Work Policy`](skills/remote-work-policy/) | Für Remote Work Policy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/hinweisgeberschutz:repressalienschutz`](skills/repressalienschutz-borghei/) | Schutz hinweisgebender Personen vor Benachteiligung nach §§ 33, 36, 37 HinSchG – Verbot von… |
 | [`Finale Entscheidung als Volltext (Urteil Arbeitsgericht)`](skills/richter-arbeitsgericht-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Urteil Arbeitsgericht): ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Richter Arbeitsgericht`](skills/richter-arbeitsgericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Richter Arbeitsgericht ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Prozessuale Kniffe und Rechtsprechungsanker`](skills/richter-arbeitsgericht-prozessuale-kniffe-und-rechtsprechungsan/) | Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -402,6 +418,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Schwerbehinderung Agg`](skills/schwerbehinderung-agg-shared-resources-speak/) | Für Schwerbehinderung Agg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Shared Resources`](skills/shared-resources/) | Für Shared Resources: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Slack Teams Kommunikationsregeln`](skills/slack-teams-kommunikationsregeln/) | Für Slack Teams Kommunikationsregeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/arbeitsrecht:sozialauswahl`](skills/sozialauswahl-borghei/) | Durchführung und Angriff der Sozialauswahl bei betriebsbedingter Kündigung nach § 1 Abs. 3 KSchG –… |
 | [`Aktenzeichen: Red-Team und Qualitätskontrolle`](skills/spezial-aktenzeichen-red-team-und-qualitaetskontrolle/) | Für Aktenzeichen: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Freistellungsklausel: Sonderfall und Edge-Case-Prüfung`](skills/spezial-freistellungsklausel-sonderfall-und-edge-case/) | Für Freistellungsklausel: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Urlaub: Livequellen- und Rechtsprechungscheck`](skills/spezial-urlaub-livequellen-und-rechtsprechungscheck/) | Für Urlaub: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -426,6 +443,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Unwirksamkeit erkannt — Fristennotiz und nächster Schritt: sofortige Handlungsanleitung nach erkanntem Unwirksamkeitsgru`](skills/unwirksam-fristennotiz-und-naechster-schritt/) | Für Unwirksam Fristennotiz und Nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Urlaub Quellenkarte`](skills/urlaub-quellenkarte/) | Für Urlaub Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Urlaub und Urlaubsabgeltung zeitlich richtig prüfen`](skills/urlaub-und-abgeltung-verfall-verjaehrung/) | Für Urlaub und Urlaubsabgeltung zeitlich richtig prüfen: ordnet Norm, Beweislast und Gegenargument… |
+| [`/arbeitsrecht:urlaubsanspruch`](skills/urlaubsanspruch-borghei/) | Urlaubsansprüche nach dem BUrlG – Entstehung und Wartezeit §§ 1, 4 BUrlG, gesetzlicher Mindesturlaub § 3… |
 | [`Urlaubskalender Und BUrlG`](skills/urlaubskalender-und-burlg/) | Für Urlaubskalender und BUrlG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fachanwaltsblick Arbeitsrecht`](skills/v392-fachanwaltsblick-fachanwalt-arbeitsrecht/) | Schaltet den fachanwaltlichen Arbeitsrechtsblick für Kündigung, Befristung, Vergütung, Arbeitszeit… |
 | [`Praxisraster Arbeitsgericht`](skills/v392-praxisraster-richter-arbeitsgericht/) | Für Praxisraster Arbeitsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

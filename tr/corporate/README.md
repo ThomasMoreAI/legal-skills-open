@@ -4,11 +4,18 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `tr` · Practice: `corporate` · Skill language: tr
 
-## Skills (1)
+## Skills (8)
 
 | Skill | What it does |
 |---|---|
+| [`Board Minutes`](skills/board-minutes-zekaisuni/) | Türk şirketler hukuku için yönetim kurulu, müdürler kurulu, genel kurul ve komite toplantı… |
+| [`/closing-checklist`](skills/closing-checklist-zekaisuni/) | Türk M&A işlemleri için kapanış checklist'i oluşturur ve günceller. Pay devri, malvarlığı devri… |
 | [`Cold start interview`](skills/cold-start-interview-17/) | Türk şirketler hukuku için corporate-legal başlangıç mülakatı. Şirket profili, aktif modüller, M&A… |
+| [`/diligence-issue-extraction`](skills/diligence-issue-extraction-zekaisuni/) | Türk M&A due diligence belgelerini okur, VDR veya yerel klasördeki dokümanları Türk işlem kategorileri… |
+| [`/entity-compliance`](skills/entity-compliance-zekaisuni/) | Türk şirketler hukuku için tüzel kişi ve şirket kayıt takip skill'i. MERSİS, ticaret sicili, faaliyet… |
+| [`/integration-management`](skills/integration-management-zekaisuni/) | Kapanış sonrası (post-closing) M&A entegrasyon takibi — aşamalı iş planı, onay (consent) takibi, geniş… |
+| [`/material-contract-schedule`](skills/material-contract-schedule-zekaisuni/) | Önemli Sözleşmeler (Material Contracts) açıklama ekini (disclosure schedule) due diligence bulgularından… |
+| [`/written-consent`](skills/written-consent-zekaisuni/) | Türk şirketler hukuku için karar taslağı hazırlama skill'i. Komut adı geriye dönük uyumluluk için… |
 
 ## Cold-start context
 

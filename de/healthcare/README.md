@@ -4,7 +4,7 @@ Health-sector law — provider regulation, licensing, and patient-data complianc
 
 Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 
-## Skills (82)
+## Skills (85)
 
 | Skill | What it does |
 |---|---|
@@ -18,6 +18,7 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Apothekenrecht — Allgemein`](skills/apothekenrecht-kaltstart-triage/) | Für Apothekenrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Arzneimittelabgabe Verschreibungspflicht`](skills/arzneimittelabgabe-verschreibungspflicht/) | Für Arzneimittelabgabe Verschreibungspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arzneimittelprüfung Ausgangsstoffe Prüfprotokoll`](skills/arzneimittelpruefung-ausgangsstoffe-pruefprotokoll/) | Für Arzneimittelprüfung Ausgangsstoffe Prüfprotokoll: ordnet Norm, Beweislast und Gegenargument… |
+| [`/medizinrecht:arzthaftung-aufklaerungspflicht`](skills/arzthaftung-aufklaerungspflicht-borghei/) | Prüfung der ärztlichen Aufklärungspflicht und der daraus folgenden zivilrechtlichen Arzthaftung –… |
 | [`Dokumentation Aufbewahrung Beweislast`](skills/aufbewahrung-beweislast-dora-it/) | Für Dokumentation Aufbewahrung Beweislast: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Aufsicht Anhörung Ordnungswidrigkeit`](skills/aufsicht-anhoerung-ordnungswidrigkeit/) | Für Aufsicht Anhörung Ordnungswidrigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Begründung über Schwellenwert redigieren`](skills/begruendung-ueber-schwellenwert-redigieren/) | Für Begründung über Schwellenwert redigieren: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
@@ -62,11 +63,13 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Livecheck ApoG ApBetrO AMG`](skills/livecheck-apog-apbetro-amg/) | Für Livecheck ApoG ApBetrO AMG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Livequellen G-BA BMG Land prüfen`](skills/livequellen-g-ba-bmg-land-pruefen/) | Für Livequellen G-BA BMG Land prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate`](skills/mandat-triage-medizinrecht/) | Für Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate: routet Rolle, Frist, Unterlagen und… |
+| [`/medizinrecht:mbo-aerzte-pruefung`](skills/mbo-aerzte-pruefung-borghei/) | Berufsrechtliche Prüfung ärztlicher Pflichten nach der Musterberufsordnung MBO-Ä und der einschlägigen… |
 | [`MD-Prüfung Krankenhausabrechnung Prüfverfahrensvereinbarung`](skills/md-pruefung-krankenhausabrechnung-pruefverfahrensvereinb/) | Für MD-Prüfung Krankenhausabrechnung Prüfverfahrensvereinbarung: ordnet Norm, Beweislast und… |
 | [`Mindestmengen G-BA Qualitaetssicherung`](skills/mindestmengen-g-ba-qualitaetssicherung/) | Für Mindestmengen G-BA Qualitätssicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Notfallstufen und Sicherstellungszuschlaege`](skills/notfallstufen-sicherstellungszuschlaege/) | Für Notfallstufen und Sicherstellungszuschläge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Output Behördenbrief SOP Mandantenmemo`](skills/output-behoerdenbrief-sop-mandantenmemo/) | Für Output Behördenbrief SOP Mandantenmemo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Output Vorstandsvorlage Behördenbrief Klage`](skills/output-vorstandsvorlage-behoerdenbrief-klage/) | Für Output Vorstandsvorlage Behördenbrief Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
+| [`/medizinrecht:patientenrechte-akteneinsicht`](skills/patientenrechte-akteneinsicht-borghei/) | Anspruch des Patienten (und seiner Erben/Angehörigen) auf Einsicht in die Behandlungsakte nach § 630g… |
 | [`Patientenrechte Behandlungsvertrag Aufklaerung`](skills/patientenrechte-behandlungsvertrag-aufklaerung/) | Für Patientenrechte Behandlungsvertrag Aufklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Personaluntergrenzen Pflege PpUGV`](skills/personaluntergrenzen-pflege-ppugv/) | Für Personaluntergrenzen Pflege PpUGV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Pflegebudget Vereinbarung Nachweis Risiken`](skills/pflegebudget-vereinbarung/) | Für Pflegebudget Vereinbarung Nachweis Risiken: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -1,0 +1,25 @@
+ai-skills-german-law
+Copyright (c) 2026 Borghei (@borghei)
+
+Dual-licensed under Apache License 2.0 OR MIT License at your option.
+
+----------------------------------------------------------------------
+
+This project's structure, German legal conventions, and Gutachtenstil
+templates are informed by the public work of:
+
+  Klotzkette/claude-fuer-deutsches-recht
+  https://github.com/Klotzkette/claude-fuer-deutsches-recht
+  (Apache-2.0 OR MIT)
+
+This project is an independent, multi-provider, scope-narrowed
+successor implementation. No code is copied verbatim; the conceptual
+debt is acknowledged here.
+
+Primary statutory citations link to gesetze-im-internet.de
+(c) Bundesamt fuer Justiz; non-commercial reuse permitted.
+
+Case-law citations follow BGH/Beck convention. Where citations
+originate from model knowledge, they are marked
+[unverifiziert - pruefen] and must be verified in Beck-Online or
+juris before any client-facing use.

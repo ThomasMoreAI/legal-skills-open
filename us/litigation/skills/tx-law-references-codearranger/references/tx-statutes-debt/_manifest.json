@@ -1,0 +1,64 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-06-24",
+  "mode": "verbatim",
+  "source": "https://statutes.capitol.texas.gov/",
+  "puller": "scripts/pull_texas_statutes.py",
+  "notes": "Topic-grouped, BOUNDED corpus of verbatim Texas statute sections for civil + consumer-debt + family practice, fetched by scripts/pull_texas_statutes.py. The statutes.capitol.texas.gov viewer is a JavaScript single-page app; the verbatim per-chapter HTML it resolves to lives on the Legislature's file server at https://tcss.legis.texas.gov/resources/<CODE>/htm/<CODE>.<CHAPTER>.htm. The puller fetches each <CODE>.<CHAPTER> page once (cached), slices the HTML between section catchline anchors ('Sec. N.N.  TITLE.'), and writes each section's verbatim text under '## Tex. <Code> § N.N' headings. Code abbreviations: CP=Civil Practice & Remedies, FI=Finance, BC=Business & Commerce, PR=Property, FA=Family, GV=Government. Each topic file carries a single code; the chapter for each section is derived from the integer before the first dot. This is a representative set (the sections a drafter reaches for), not a full enumeration; Texas statutes are amended every regular and special legislative session, so verify currency before filing. A _file_is_stub guard keeps an offline run from clobbering committed text (pass --force to replace).",
+  "topics": [
+    {
+      "file": "CPRC-limitations.md",
+      "title": "Limitations periods",
+      "code": "CP",
+      "sections": ["16.003", "16.004", "16.051", "16.063", "16.065", "16.069"]
+    },
+    {
+      "file": "CPRC-fees-costs-judgments.md",
+      "title": "Attorney fees, costs, judgments, and unsworn declarations",
+      "code": "CP",
+      "sections": ["31.002", "34.001", "34.021", "37.009", "38.001", "38.002", "38.003", "38.004", "38.006", "132.001"]
+    },
+    {
+      "file": "CPRC-proportionate-responsibility.md",
+      "title": "Proportionate responsibility (modified comparative)",
+      "code": "CP",
+      "sections": ["33.001", "33.003", "33.012"]
+    },
+    {
+      "file": "finance-code-debt-collection.md",
+      "title": "Texas Debt Collection Act (Finance Code ch. 392)",
+      "code": "FI",
+      "sections": ["392.001", "392.101", "392.202", "392.301", "392.302", "392.303", "392.304", "392.307", "392.403", "392.404"]
+    },
+    {
+      "file": "dtpa-bus-com.md",
+      "title": "Deceptive Trade Practices–Consumer Protection Act (Bus. & Com. ch. 17)",
+      "code": "BC",
+      "sections": ["17.41", "17.45", "17.46", "17.50", "17.505", "17.555", "17.565"]
+    },
+    {
+      "file": "property-exemptions-eviction.md",
+      "title": "Eviction, homestead, and personal-property exemptions",
+      "code": "PR",
+      "sections": ["24.002", "24.005", "24.0061", "41.001", "41.002", "42.001", "42.002", "92.331"]
+    },
+    {
+      "file": "family-code.md",
+      "title": "Marriage, divorce, conservatorship, support, and maintenance",
+      "code": "FA",
+      "sections": ["2.401", "3.003", "6.001", "6.301", "6.702", "7.001", "153.131", "153.252", "154.125", "154.129", "8.051", "8.054"]
+    },
+    {
+      "file": "holidays-courts-govt-code.md",
+      "title": "Legal holidays and court organization",
+      "code": "GV",
+      "sections": ["662.003", "662.021", "27.031", "22.004"]
+    },
+    {
+      "file": "ucc-article9-bus-com.md",
+      "title": "Texas UCC Article 9 secured transactions",
+      "code": "BC",
+      "sections": ["9.109", "9.203", "9.317", "9.322", "9.609", "9.610"]
+    }
+  ]
+}

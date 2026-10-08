@@ -4,7 +4,7 @@ Insurance coverage and regulation — policies, claims, and insurer compliance.
 
 Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 
-## Skills (165)
+## Skills (168)
 
 | Skill | What it does |
 |---|---|
@@ -91,6 +91,7 @@ Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 | [`Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check`](skills/mandat-triage-versicherungsrecht/) | Für Mandat Triage Versicherungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Nachhaltigkeit bei Versicherungsprodukten`](skills/nachhaltigkeit-taxonomie-sfdr-versicherungsprodukt/) | Für Nachhaltigkeit bei Versicherungsprodukten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Obliegenheitsverletzung: Mandantenkommunikation und Entscheidungsvorlage`](skills/obliegenheitsverletzung-mandantenentscheidung/) | Für Obliegenheitsverletzung: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast… |
+| [`/versicherungsrecht:obliegenheitsverletzung-vvg`](skills/obliegenheitsverletzung-vvg-borghei/) | Prüfung der Rechtsfolgen einer vorvertraglichen Anzeigepflichtverletzung §§ 19–22 VVG (Rücktritt… |
 | [`Außergerichtliche Schlichtung über Versicherungs-Ombudsmann oder PKV-Ombudsmann als Alternative zur Klage`](skills/ombudsmann-gdv-schlichtung/) | Für Ombudsmann Gdv Schlichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`PKV: Kostenerstattung und medizinische Notwendigkeit`](skills/pkv-kostenerstattung-private/) | Für PKV: Kostenerstattung und medizinische Notwendigkeit: ordnet Norm, Beweislast und Gegenargument… |
 | [`Private: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/private-dokumentenmatrix-und-lueckenliste/) | Für Private: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -140,7 +141,9 @@ Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 | [`Ombudsmann, BaFin-Beschwerde oder Klage?`](skills/vers-ombudsmann-versicherungsbetrug/) | Für Ombudsmann, BaFin-Beschwerde oder Klage?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versicherung einschalten`](skills/versicherung-einschalten/) | Erstellt die Haftpflicht-Schadenanzeige und klärt Police, versichertes Unternehmen, Tätigkeit, Zeitraum… |
 | [`Verdacht Versicherungsbetrug und Kooperation mit Strafrecht`](skills/versicherungsbetrug-verdachtsfall-kooperation-strafrecht/) | Für Verdacht Versicherungsbetrug und Kooperation mit Strafrecht: ordnet Norm, Beweislast und… |
+| [`/versicherungsrecht:versicherungsfall-deckungspruefung`](skills/versicherungsfall-deckungspruefung-borghei/) | Dreistufige Deckungsprüfung im VVG – Versicherungsfall unter die AVB-Leistungsbeschreibung, kein… |
 | [`Versicherungsmaklerhaftung bei Deckungslücken`](skills/versicherungsmakler-haftung-deckungsluecke/) | Für Versicherungsmaklerhaftung bei Deckungslücken: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
+| [`/versicherungsrecht:versicherungsmaklerhaftung`](skills/versicherungsmaklerhaftung-borghei/) | Haftung des Versicherungsmaklers wegen Pflichtverletzung – Marktauswahl § 60 VVG, anlassbezogene… |
 | [`Versicherungsbedingungen als AGB prüfen`](skills/versicherungsprodukt-agb-betriebshaftpflicht/) | Für Versicherungsbedingungen als AGB prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versicherungsprozess-Versandmappe endfertigen`](skills/versicherungsprozess-versandmappe-endfertigen/) | Endfertigt Deckungs-, Leistungs-, Rücktritts-, Anfechtungs- und Regressschriftsätze im… |
 | [`Juristischer Argumentationskern - Versicherungsrecht`](skills/versicherungsrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Versicherungsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden… |

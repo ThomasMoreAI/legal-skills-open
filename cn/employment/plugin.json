@@ -9,10 +9,18 @@
   "practice": "employment",
   "language": "zh",
   "skills": [
+    "skills/cold-start-interview-employment-legal-zhou210712",
+    "skills/handbook-updates-zhou210712",
+    "skills/hiring-review-zhou210712",
     "skills/investigation-add-zhou210712",
     "skills/investigation-memo-zhou210712",
     "skills/labor-arbitration-agent",
     "skills/labor-compliance",
-    "skills/leave-tracker-zhou210712"
+    "skills/leave-tracker-zhou210712",
+    "skills/matter-workspace-employment-legal-zhou210712",
+    "skills/policy-drafting-zhou210712",
+    "skills/termination-review-zhou210712",
+    "skills/wage-hour-qa-zhou210712",
+    "skills/worker-classification-zhou210712"
   ]
 }

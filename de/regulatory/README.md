@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 
-## Skills (1019)
+## Skills (1029)
 
 | Skill | What it does |
 |---|---|
@@ -29,6 +29,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Agentur, Abnahme, Vergabe`](skills/agentur-abnahme-vergabe/) | Für Agentur, Abnahme, Vergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Cross-Compliance und GLOEZ-Praxis: Verpflichtungen, Kontrollen, Folgen Kuerzung Direktzahlungen, Widerspruch und Klage g`](skills/agrar-cross-compliance-glozez-praxis/) | Für Agrar Cross Compliance Glozez Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`GAP-Strategieplan Deutschland und EU-Förderung einfuehrend: Direktzahlungen Einkommensgrundstuetzung, Oeko-Regelungen EL`](skills/agrar-foerderung-gap-strategieplan/) | Für Agrar Förderung Gap Strategieplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/agrarrecht:agrar-grundstuecksverkehrsrecht`](skills/agrar-grundstuecksverkehrsrecht-borghei/) | Prüfung der Genehmigungspflicht eines Verkaufs landwirtschaftlicher Flächen nach GrdstVG, der… |
 | [`Spezialfall Jagdpachtstreit: Bundesjagdgesetz BJagdG, Landesjagdgesetze, Kuendigungsgruende, Wildschaden, Ausfuehrungspf`](skills/agrar-jagdpacht-streit-spezial/) | Für Agrar Jagdpacht Streit Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Typische Mandantenfragen Agrarrecht und Routing: Pacht, Hofuebergabe, Förderung, Genehmigungsverfahren, Anwohnerstreit, `](skills/agrar-mandantenfragen-typisch/) | Für Agrar Mandantenfragen Typisch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Paechterbetrieb: Verhältnis Verpaechter-Paechter, Höhepunkt 12 Jahre Landpachtvertrag, Vorkaufsrecht des Pae`](skills/agrar-paechterbetrieb-spezial/) | Für Agrar Pächterbetrieb Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -108,6 +109,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Außenhandel und Intrastat`](skills/aussenhandel-intrastat-battg/) | Für Außenhandel und Intrastat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Presse und Krise bei Exportkontroll- oder Sanktionsverstoss: Krisenmanagement`](skills/aussenwirtschaft-presse-krise/) | Für Presse und Krise bei Exportkontroll- oder Sanktionsverstoss: Krisenmanagement: ordnet Norm… |
 | [`Automatisierter Audit`](skills/automatisierter-audit-axe-lighthouse/) | Für Automatisierter Audit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/lieferkettengesetz:bafa-bericht-lksg`](skills/bafa-bericht-lksg-borghei/) | Erfüllung der Dokumentationspflicht (§ 10 LkSG) und Berichtspflicht (§ 12 LkSG) sowie Vorbereitung auf… |
 | [`Wirtschaftsprüfer: bankabschluss und regulatorik - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/bankabschluss-regulatorik/) | Für Bankabschluss Regulatorik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Barrierefreiheit Fehlerkatalog`](skills/barrierefreiheit-fehlerkatalog/) | Für Barrierefreiheit Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mandantenkommunikation`](skills/barrierefreiheit-web-ch-mandantenkommunikation-redteam-qualityga/) | Für Mandantenkommunikation: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
@@ -186,6 +188,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Anwälte: beschwerde bei rechtsanwaltskammer - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur`](skills/beschwerde-bei-rechtsanwaltskammer-rechtsprechungschec/) | Für Beschwerde bei Rechtsanwaltskammer Rechtsprechungschec: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwälte: beschwerde bei rechtsanwaltskammer - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/beschwerde-rechtsanwaltskammer-fakte/) | Für Beschwerde Rechtsanwaltskammer Fakte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Beschwerde bei der Bundesnetzagentur: Verbraucher, Unternehmen, Verband`](skills/beschwerde-verbraucher-unternehmen-verband/) | Für Beschwerde bei der Bundesnetzagentur: Verbraucher, Unternehmen, Verband: ordnet Norm, Beweislast und… |
+| [`/lieferkettengesetz:beschwerdeverfahren-lksg`](skills/beschwerdeverfahren-lksg-borghei/) | Einrichtung und Wirksamkeitsprüfung des Beschwerdeverfahrens nach § 8 LkSG – Verfahrensordnung… |
 | [`Bestaetigungsdokument und Freigabe`](skills/bestaetigungsdokument-freigabe/) | Für Bestätigungsdokument und Freigabe: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Wirtschaftsprüfer: bestätigungsvermerk risikofall - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur`](skills/bestaetigungsvermerk-risikofall-rechtsprechu/) | Für Bestätigungsvermerk Risikofall Rechtsprechu: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beteiligung — frühzeitig und förmlich`](skills/beteiligung-frueh-buergerversammlung/) | Für Beteiligung — frühzeitig und förmlich: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -474,6 +477,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Exit und fruehere Interessenvertretung`](skills/fruehere-interessenvertretung/) | Für Exit und frühere Interessenvertretung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fuhrpark, Telemetrie und Meldedaten`](skills/fuhrpark-telemetrie-datenschutz/) | Für Fuhrpark, Telemetrie und Meldedaten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beratung zum Sammelantrag GAP-Direktzahlungen nach der GAP-Reform 2023`](skills/gap-direktzahlungen-antrag/) | Für Beratung zum Sammelantrag GAP-Direktzahlungen nach der GAP-Reform 2023: erstellt Entwurf mit Antrag… |
+| [`/agrarrecht:gap-foerderantrag`](skills/gap-foerderantrag-borghei/) | Begleitung und Verteidigung des Sammelantrags GAP 2023–2027 – Direktzahlungen (Einkommensgrundstützung… |
 | [`Patentanwälte: gebuehren und kostentransparenz - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur`](skills/gebuehren-und-kostentransparenz-rechtsprechungsc/) | Für Gebühren und Kostentransparenz Rechtsprechungsc: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwälte: gebuehrenunterschreitung und pro bono - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/gebuehrenunterschreitung-und-pro-bono-kaltstart-und-fa/) | Für Gebührenunterschreitung und Pro Bono Kaltstart und Fa: routet Rolle, Frist, Unterlagen und… |
 | [`Anwälte: gebuehrenunterschreitung und pro bono - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan`](skills/gebuehrenunterschreitung-und-pro-bono-kammerantwort/) | Für Gebührenunterschreitung und Pro Bono Kammerantwort: ordnet Norm, Beweislast und Gegenargument… |
@@ -587,7 +591,9 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Steuerberater: ki in der steuerkanzlei - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle`](skills/ki-in-der-steuerkanzlei-organisationspflicht/) | Für Ki in der Steuerkanzlei Organisationspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`KI Incident-Management`](skills/ki-incident-management-art-73/) | Für digitale Werkzeuge Incident-Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ki inventar`](skills/ki-inventar-marketing-werbung-rote-linien/) | Für /ki-inventar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`/ki-governance:ki-monitoring-konzept`](skills/ki-monitoring-konzept-borghei/) | Konzept zur laufenden Überwachung eines produktiv eingesetzten KI-Systems – Performance-Metriken, Daten… |
 | [`KI-Output, anwaltliche Endkontrolle und Signatur`](skills/ki-output-endkontrolle-und-signatur/) | Für digitale Werkzeuge-Output, anwaltliche Endkontrolle und Signatur: prüft Ergebnis, Beweislast und… |
+| [`/ki-governance:ki-richtlinie-entwurf`](skills/ki-richtlinie-entwurf-borghei/) | Entwurf einer internen KI-Richtlinie / KI-Policy für Unternehmen und Kanzleien – Geltungsbereich… |
 | [`Anschluss-Routing`](skills/ki-richtlinie-kanzleien-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/ki-richtlinie-kanzleien-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/ki-richtlinie-kanzleien-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -598,6 +604,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Unterlagen und Lücken`](skills/ki-richtlinie-kanzleien-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Fristen- und Risikoampel`](skills/ki-richtlinie-kanzleien-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Kaltstart und Routing`](skills/ki-richtlinie-kanzleien-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`/ki-governance:ki-risikoassessment`](skills/ki-risikoassessment-borghei/) | Strukturierte KI-Risikobewertung pro KI-System – Identifikation, Risikoklassifizierung (KI-VO-Trigger +… |
 | [`Verbotene Praktiken gezielt prüfen`](skills/ki-rote-linien-art-5-pruefen/) | Prüft verbotene Systempraktiken anhand von Zweck, tatsächlicher Verwendung und Ausnahmen. Trennt… |
 | [`Anwälte: ki tool in der kanzlei - Organisationspflichten, Prävention, Team-Anweisung und Fristenkontrolle`](skills/ki-tool-in-der-kanzlei-organisationspflicht-und-praevent/) | Für Ki Tool in der Kanzlei Organisationspflicht und Prävention: ordnet Norm, Beweislast und… |
 | [`Anwälte: ki tool in der kanzlei - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen`](skills/ki-tool-legal-tech-mandatsgeheimnis/) | Für Ki Tool Legal Tech Mandatsgeheimnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -648,6 +655,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`LUCID Registrierung und Datenmeldung`](skills/lucid-verpackg-maschinen-ce/) | Für LUCID Registrierung und Datenmeldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Aufsichtsrechtlichen Gap-Tracker führen`](skills/luecken/) | Für Aufsichtsrechtlichen Gap-Tracker führen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Gap-Analyse für interne Richtlinien`](skills/luecken-aufzeiger/) | Für Gap-Analyse für interne Richtlinien: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
+| [`/agrarrecht:lwanpg-pruefung`](skills/lwanpg-pruefung-borghei/) | Prüfung und Durchsetzung von Auseinandersetzungsansprüchen ehemaliger LPG-Mitglieder bzw. ihrer Erben… |
 | [`Machinery: Compliance-Dokumentation und Aktenvermerk`](skills/machinery-compliance-dokumentation-und-akte/) | Für Machinery: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Mandat-Workspace-Verwaltung`](skills/mandat-arbeitsbereich-3/) | Für Mandat-Workspace-Verwaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Produktmandat-Workspace`](skills/mandat-arbeitsbereich-4/) | Für Produktmandat-Workspace: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -753,6 +761,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Polizeiverordnungen und Gefahrenabwehrsätze: Normadressat, Bestimmtheit, Verhältnismäßigkeit, Ermächtigungsgrundlage und`](skills/polizeiverordnung-gefahrenabwehrsatzung/) | Für Polizeiverordnung Gefahrenabwehrsatzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Polizeiverordnungen und Gefahrenabwehrsätze: Normadressat, Bestimmtheit, Verhältnismäßigkeit, Ermächtigungsgrundlage und`](skills/polizeiverordnung-und-gefahrenabwehrsatzung/) | Für Polizeiverordnung und Gefahrenabwehrsatzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Post: Arbeitsbedingungen Postmarkt Schnittstelle`](skills/post-arbeitsbedingungen-postmarkt-beschwerde/) | Für Post: Arbeitsbedingungen Postmarkt Schnittstelle: ordnet Norm, Beweislast und Gegenargument… |
+| [`/lieferkettengesetz:praeventions-abhilfemassnahmen`](skills/praeventions-abhilfemassnahmen-borghei/) | Ableitung und Priorisierung angemessener Präventionsmaßnahmen (§ 6 LkSG) und Abhilfemaßnahmen (§ 7 LkSG)… |
 | [`Preisangaben (PAngV 2022)`](skills/preisangaben/) | Für Preisangaben (PAngV 2022): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`ProdR: Produktrueckruf`](skills/prodr-produktrueckruf-leitfaden/) | Für ProdR: Produktrückruf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Produktbeobachtung Feldueberwachung`](skills/produktbeobachtung-feldueberwachung/) | Für Produktbeobachtung Feldüberwachung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -871,6 +880,7 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`Richtlinien-Skelett erzeugen`](skills/richtlinien-skelett-update-schatten/) | Für Richtlinien-Skelett erzeugen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Richtlinien-Update-Zyklus`](skills/richtlinien-update-zyklus/) | Für Richtlinien-Update-Zyklus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`KI-Richtlinien-Starter`](skills/richtlinien-vorlage/) | Für digitale Werkzeuge-Richtlinien-Starter: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/lieferkettengesetz:risikoanalyse-lksg`](skills/risikoanalyse-lksg-borghei/) | Risikoanalyse nach § 5 LkSG – Identifikation menschenrechtlicher und umweltbezogener Risiken im eigenen… |
 | [`Risikoklassen-Übersicht und Triage — KI-VO`](skills/risikoklassen-uebersicht-und-triage/) | Für Risikoklassen-Übersicht und Triage — europäischer Technikregulierungsrahmen: routet Rolle, Frist… |
 | [`Anschluss der Rulemap-Arbeit an die Legistik-Werkstatt`](skills/rmap-anschluss-an/) | Für Anschluss der Rulemap-Arbeit an die Legistik-Werkstatt: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anschluss der Rulemap-Arbeit an die Legistik-Werkstatt`](skills/rmap-anschluss-an-legw/) | Für Anschluss der Rulemap-Arbeit an die Legistik-Werkstatt: ordnet Norm, Beweislast und Gegenargument… |

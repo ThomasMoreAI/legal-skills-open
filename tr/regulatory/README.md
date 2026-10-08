@@ -4,11 +4,13 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `tr` · Practice: `regulatory` · Skill language: tr
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Gap Surfacer`](skills/gap-surfacer-zekaisuni/) | Reference skill: /regulatory-legal:gaps ve /regulatory-legal:comments için ortak tracker çerçevesi.… |
+| [`/use-case-triage (Yapay Zeka Kullanım Senaryosu Triyajı)`](skills/use-case-triage-ai-governance-legal-zekaisuni/) | Önerilen bir Yapay Zeka (AI) kullanım senaryosunu şirket politikasına ve envantere göre inceler… |
+| [`/vendor-ai-review (Tedarikçi AI / Copilot Sözleşme İncelemesi)`](skills/vendor-ai-review-zekaisuni/) | Tedarikçi sözleşmelerindeki Yapay Zeka (AI) kullanım şartlarını, model eğitimi izinlerini ve fikri… |
 
 ## Cold-start context
 

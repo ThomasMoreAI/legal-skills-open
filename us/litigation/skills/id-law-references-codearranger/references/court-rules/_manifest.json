@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "last_pulled": "2026-06-20",
+  "mode": "verbatim",
+  "source": "https://isc.idaho.gov/rules-procedure/",
+  "puller": "scripts/pull_idaho_rules.py",
+  "notes": "Verbatim, BOUNDED corpus of the Idaho court rules an Idaho civil-practice / family-law drafter actually cites, fetched by scripts/pull_idaho_rules.py from the Idaho Supreme Court per-rule print views (https://isc.idaho.gov/rules-procedure/print/<slug>/<rule>; the -new landing pages are JavaScript-rendered and are not usable for extraction). Each set file carries the verbatim rule text under '## Rule N. Title' headings. Widen a set by adding rule numbers to its 'rules' list. A rule whose print page is missing is skipped (not emitted as a gap); a set in which every rule fails is written as a pointer stub; a _file_is_stub guard preserves committed verbatim content on a failed run (pass --force to overwrite). I.R.E.F.S. (electronic filing/service) is referenced for filing mechanics but not snapshotted as a dedicated file.",
+  "targets": [
+    {
+      "set": "I.R.C.P.",
+      "name": "Idaho Rules of Civil Procedure",
+      "file": "IRCP-civil-procedure.md",
+      "slug": "ircp",
+      "url": "https://isc.idaho.gov/rules-procedure/ircp",
+      "rules": ["2", "2.2", "4", "5", "7", "8", "10", "11", "11.2", "12", "13", "15", "16", "26", "30", "33", "34", "36", "37", "54", "55", "56", "58", "59", "60"]
+    },
+    {
+      "set": "I.R.E.",
+      "name": "Idaho Rules of Evidence",
+      "file": "IRE-evidence.md",
+      "slug": "ire",
+      "url": "https://isc.idaho.gov/rules-procedure/ire",
+      "rules": ["401", "402", "403", "801", "802", "803", "804", "901", "902"]
+    },
+    {
+      "set": "I.R.F.L.P.",
+      "name": "Idaho Rules of Family Law Procedure",
+      "file": "IRFLP-family-law-procedure.md",
+      "slug": "irfl",
+      "url": "https://isc.idaho.gov/rules-procedure/irfl",
+      "rules": ["101", "120", "202", "208", "401", "501", "502", "503", "601", "801"]
+    },
+    {
+      "set": "I.A.R.",
+      "name": "Idaho Appellate Rules",
+      "file": "IAR-appellate.md",
+      "slug": "iar",
+      "url": "https://isc.idaho.gov/rules-procedure/iar",
+      "rules": ["11", "13", "14", "15", "17", "21", "35", "40", "41"]
+    },
+    {
+      "set": "I.R.E.F.S.",
+      "name": "Idaho Rules for Electronic Filing and Service",
+      "file": null,
+      "slug": "irefs",
+      "url": "https://isc.idaho.gov/rules-procedure/irefs"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ German transport, freight-forwarding and transport-infrastructure law — carrie
 
 Jurisdiction: `de` · Practice: `transportation` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (121)
+## Skills (127)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Verkehrs- und Infrastrukturrecht — Kommandocenter`](skills/autonomous-driving/) | Für Verkehrs- und Infrastrukturrecht — Kommandocenter: ordnet Norm, Beweislast und Gegenargument… |
 | [`Autonomous: Compliance-Dokumentation und Aktenvermerk`](skills/autonomous-driving-interessen-grossprojekt/) | Für Autonomous: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Autonomes Fahren: Strassenrecht`](skills/autonomous-driving-strassenrecht/) | Für Autonomes Fahren: Strassenrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`/transportrecht:cmr-grenzueberschreitender-transport`](skills/cmr-grenzueberschreitender-transport-borghei/) | Prüfung der Frachtführerhaftung im grenzüberschreitenden Straßengüterverkehr nach CMR –… |
 | [`CMR-Haftung des Frachtführers im internationalen Strassengueterverkehr prüfen`](skills/cmr-haftung/) | Für CMR-Haftung des Frachtführers im internationalen Strassengüterverkehr prüfen: ordnet Norm… |
 | [`CMR Haftung art 17 CMR`](skills/cmr-haftung-art-17-cmr/) | Für CMR Haftung art 17 CMR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Cotif: Schriftsatz-, Brief- und Memo-Bausteine`](skills/cotif-schriftsatz-brief-und-memo-bausteine/) | Für Cotif: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -47,6 +48,7 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Grossprojekt: Zahlen, Schwellenwerte und Berechnung`](skills/grossprojekt-zahlen-schwellen-und-berechnung/) | Für Grossprojekt: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Haager: Zahlen, Schwellenwerte und Berechnung`](skills/haager-zahlen-schwellen-und-berechnung/) | Für Haager: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`HGB: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/hgb-dokumentenmatrix-und-lueckenliste/) | Für HGB: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
+| [`/transportrecht:hgb-frachtfuehrerhaftung`](skills/hgb-frachtfuehrerhaftung-borghei/) | Prüfung der Frachtführerhaftung nach §§ 425 ff. HGB – Obhutshaftung, Haftungsausschlüsse §§ 426–427… |
 | [`Infrastruktur-Förderung`](skills/infrastruktur-foerderung-nachhaltige/) | Für Infrastruktur-Förderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Infrastruktur-Foerderung`](skills/infrastruktur-foerderung-uebersicht/) | Für Infrastruktur-Förderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Intake: Mandantenkommunikation und Entscheidungsvorlage`](skills/intake-mandantenkommunikation-entscheidungsvorlage/) | Für Intake: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
@@ -56,6 +58,7 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Ladeinfrastruktur: Behörden-, Gerichts- oder Registerweg`](skills/ladeinfrastruktur-behoerden-gericht-und-registerweg/) | Für Ladeinfrastruktur: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Ladungsschaden im Gueterverkehr prüfen und geltend machen: Nachweis, Schadensberechnung, Haftungslimits`](skills/ladungsschaden/) | Für Ladungsschaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Ladungsschaden art 23 CMR`](skills/ladungsschaden-art-23-cmr/) | Für Ladungsschaden art 23 CMR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`/transportrecht:lieferbedingungen-adsp`](skills/lieferbedingungen-adsp-borghei/) | Prüfung von Einbeziehung und Inhalt der Allgemeinen Deutschen Spediteurbedingungen (ADSp 2017) –… |
 | [`Lieferverzug im Gueterverkehr prüfen: Verspaetungsschaden, Haftungshoechstbetrag, Fristen`](skills/lieferverzug/) | Für Lieferverzug im Güterverkehr prüfen: Verspätungsschaden, Haftungshöchstbetrag, Fristen: ordnet Norm… |
 | [`Lieferzone Bussgeld Abgrenzen`](skills/lieferzone-bussgeld-abgrenzen/) | Für Lieferzone Bussgeld Abgrenzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Livecheck: Sonderfall und Edge-Case-Prüfung`](skills/livecheck-sonderfall-mobilitaetsprojekt/) | Für Livecheck: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -65,7 +68,9 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Mobilitätsprojekt-Intake mit Rechtsweg-, Förder- und Beteiligungsweiche`](skills/mobilitaetsprojekt-intake/) | Für Mobilitätsprojekt-Intake mit Rechtsweg-, Förder- und Beteiligungsweiche: ordnet Norm, Beweislast und… |
 | [`Mobilitaetsprojekt: Red-Team und Qualitätskontrolle`](skills/mobilitaetsprojekt-red-team-und-qualitaetskontrolle/) | Für Mobilitätsprojekt: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Montrealer: Verhandlung, Vergleich und Eskalation`](skills/montrealer-verhandlung-vergleich-und-eskalation/) | Für Montrealer: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
+| [`/verkehrsrecht:mpu-anordnung-pruefung`](skills/mpu-anordnung-pruefung-borghei/) | Rechtmäßigkeitsprüfung einer MPU-Anordnung der Fahrerlaubnisbehörde – Trigger §§ 11, 13, 14 FeV (Alkohol… |
 | [`Multimodaler Transport § 452 HGB`](skills/multimodaler-transport-paragraf-452-hgb/) | Für Multimodaler Transport Paragraf 452 HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`/verkehrsrecht:ordnungswidrigkeit-stvo`](skills/ordnungswidrigkeit-stvo-borghei/) | Prüfung eines Bußgeldbescheids wegen Verstoßes gegen die StVO – formelle Anforderungen § 66 OWiG… |
 | [`Paketdienst Haftung § 449 HGB`](skills/paketdienst-haftung-paragraf-449-hgb/) | Für Paketdienst Haftung Paragraf 449 HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Parkraum: Schriftsatz-, Brief- und Memo-Bausteine`](skills/parkraum-planfeststellung-strassenbahn/) | Für Parkraum: Schriftsatz-, Brief- und Memo-Bausteine: ordnet Norm, Beweislast und Gegenargument… |
 | [`Parkraumbewirtschaftung`](skills/parkraumbewirtschaftung/) | Für Parkraumbewirtschaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -92,6 +97,7 @@ Jurisdiction: `de` · Practice: `transportation` · Skill language varies per sk
 | [`Straßenverkehrsrecht StVO - Allgemeiner Einstieg`](skills/strassenverkehrsrecht-stvo-kaltstart-triage/) | Für Straßenverkehrsrecht StVO - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Bewohnerparken Behoerde Anschreiben`](skills/stv-068-bewohnerparken-behoerde-anschreiben/) | Für Bewohnerparken Behörde Anschreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Lieferzone Regel Pruefen`](skills/stv-071-lieferzone-regel-pruefen/) | Für Lieferzone Regel Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`/verkehrsrecht:stvg-haftungspruefung`](skills/stvg-haftungspruefung-borghei/) | Haftungsprüfung nach Verkehrsunfall – Halterhaftung § 7 StVG, Fahrerhaftung § 18 StVG, Quotelung § 17… |
 | [`Teilverlust, Packstückabgleich und Haftung`](skills/teilverlust-packstueckabgleich-haftungsdurchbrechung/) | Rekonstruiert verdeckte Teilverluste aus Packlisten, Wiegedaten, Umschlagscans und Ablieferbelegen und… |
 | [`Checkliste CMR-Frachtbrief: Pflichtangaben Art`](skills/trans-cmr-frachtbrief-checkliste/) | Für Checkliste CMR-Frachtbrief: Pflichtangaben Art: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Leitfaden HGB-Spedition §§ 453 ff`](skills/trans-hgb-spedition-leitfaden/) | Für Leitfaden HGB-Spedition Paragrafen 453 ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

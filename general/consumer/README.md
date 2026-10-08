@@ -4,12 +4,14 @@ Consumer complaints and claim letters — escalation steps and formal demand dra
 
 Jurisdiction: `general` · Practice: `consumer` · Skill language: fr
 
-## Skills (2)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
 | [`Consumer Pleading Drafter`](skills/consumer-pleading-drafter-rohasnagpal/) | Drafts the two sides of a consumer-forum pleading — the complaint (complainant side) or the… |
+| [`Knowledge Pack — Advertising & Marketing Law`](skills/kb-advertising-marketing-law-sboghossian/) | Use when advising on advertising, marketing, or promotional content compliance, including misleading… |
 | [`Complaint Letter Writer`](skills/legal-complaint-letter-writer-khalilbenaz/) | Rédige une lettre de réclamation formelle pour un litige consommateur, administratif ou professionnel.… |
+| [`Legal Jargon Simplifier (Public Tool)`](skills/public-tool-legal-jargon-simplifier-public-sboghossian/) | Use when a user pastes any legal text — a contract clause, statute excerpt, court ruling, consent form… |
 
 ## Cold-start context
 

@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (272)
+## Skills (287)
 
 | Skill | What it does |
 |---|---|
@@ -87,6 +87,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Continuous Privacy Compliance Monitoring`](skills/continuous-compliance/) | Guides continuous privacy compliance monitoring implementation including automated control testing… |
 | [`Contract Review`](skills/contract-review-guia-matthieu/) | Analyze and red-flag contracts systematically, identifying risks, unfavorable terms, and negotiation… |
 | [`Controller RoPA Creation`](skills/controller-ropa-creation/) | Creates GDPR Article 30(1) Records of Processing Activities (RoPA) for data controllers with all seven… |
+| [`Intake — Data Privacy Assessment`](skills/conversation-intake-data-privacy-assessment-sboghossian/) | Use when a user requests a data-privacy compliance assessment or gap analysis for their organization… |
 | [`Auditing Website Cookies and Trackers`](skills/cookie-audit/) | Comprehensive methodology for auditing website cookies and tracking technologies. Covers automated… |
 | [`Auditing Cookie Consent A/B Testing`](skills/cookie-consent-ab-audit/) | Methodology for auditing A/B testing of consent banners to ensure compliance with equal ease of… |
 | [`Automated Cookie Consent Validation`](skills/cookie-consent-testing/) | Automated cookie consent validation using Selenium and Playwright. Covers banner interaction testing… |
@@ -123,6 +124,8 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`DPIA Register Management`](skills/dpia-register-mgmt/) | Manages the organisational DPIA register tracking all Data Protection Impact Assessments across the… |
 | [`DPIA Risk Scoring Methodology`](skills/dpia-risk-scoring/) | Provides a structured risk scoring methodology for Data Protection Impact Assessments aligned with ENISA… |
 | [`DPIA Stakeholder Consultation`](skills/dpia-stakeholder-consult/) | Guides data subject and stakeholder consultation requirements during Data Protection Impact Assessments… |
+| [`Draft — Cookie Policy`](skills/draft-cookie-policy-sboghossian/) | Use when asked to draft a Cookie Policy for a website or application. Covers all five cookie categories… |
+| [`Privacy Policy`](skills/draft-privacy-policy-sboghossian/) | Use when drafting a public-facing privacy policy — the notice to users and data subjects explaining how… |
 | [`Processing Data Subject Access Requests`](skills/dsar-processing/) | Guides AI agents through the complete GDPR Data Subject Access Request (DSAR) workflow under Article 15… |
 | [`DSAR response`](skills/dsar-response-anthropics/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the… |
 | [`EdTech Privacy Assessment — Children's Data in Educational Technology`](skills/edtech-privacy-assessment/) | Assesses children's data protection in educational technology. Covers COPPA school exception under… |
@@ -203,6 +206,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`NIST Privacy Framework — IDENTIFY Function`](skills/nist-pf-identify/) | Implement the NIST Privacy Framework IDENTIFY function including ID.BE business environment, ID.DA data… |
 | [`NIST Privacy Framework — PROTECT Function`](skills/nist-pf-protect/) | Implement the NIST Privacy Framework PROTECT function covering PR.AC access control, PR.DS data… |
 | [`Implementing NIST Privacy Framework IDENTIFY Function`](skills/nist-privacy-identify/) | Guides implementation of the NIST Privacy Framework IDENTIFY function covering ID.BE business… |
+| [`Transactional — Privacy Impact Assessment (PIA / DPIA)`](skills/pa-workflow-transactional-pia-privacy-impact-assessment/) | Use when a transactional or privacy lawyer needs to conduct a Privacy Impact Assessment (PIA) or Data… |
 | [`Personal Data Classification Test — GDPR Art. 4(1)`](skills/personal-data-test/) | Classifies personal vs non-personal data per GDPR Art. 4(1) definition test with decision tree for… |
 | [`Pia generation`](skills/pia-generation/) | Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity… |
 | [`Privacy Impact Assessment for Large-Scale Monitoring`](skills/pia-large-scale-monitor/) | Conducts Privacy Impact Assessment for large-scale systematic monitoring under GDPR Article 35(3)(c).… |
@@ -230,8 +234,19 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Privacy-Preserving Record Linkage`](skills/privacy-record-linkage/) | Implement privacy-preserving record linkage across datasets using Bloom filter encoding, secure hash… |
 | [`Conducting Privacy Threshold Analysis`](skills/privacy-threshold-analysis/) | Guides the Privacy Threshold Analysis screening process to determine whether a full DPIA is required.… |
 | [`Processor RoPA Creation`](skills/processor-ropa-creation/) | Creates GDPR Article 30(2) Records of Processing Activities for data processors with all four mandatory… |
+| [`AI System Data Governance Framework`](skills/prompt-pack-ai-system-data-governance-framework-sboghossian/) | Use when drafting a data governance framework specifically for an organization's AI and machine learning… |
+| [`Cookie Policy`](skills/prompt-pack-cookie-policy-sboghossian/) | Use when a company needs to draft or update a Cookie Policy for its website or app, explaining the types… |
+| [`Data Breach Response Plan`](skills/prompt-pack-data-breach-response-plan-sboghossian/) | Use when a company needs to draft an internal Data Breach Response Plan covering incident detection and… |
+| [`Data Processing Agreement`](skills/prompt-pack-data-processing-agreement-sboghossian/) | Use when a data controller needs to formalise its relationship with a data processor under a Data… |
+| [`Data Retention Policy`](skills/prompt-pack-data-retention-policy-sboghossian/) | Use when a company needs to draft a Data Retention Policy specifying how long different categories of… |
+| [`Data Subject Access Request Procedure`](skills/prompt-pack-data-subject-access-request-procedure-sboghossian/) | Use when a company needs to draft an internal procedure for handling Data Subject Access Requests… |
+| [`Privacy Impact Assessment`](skills/prompt-pack-privacy-impact-assessment-sboghossian/) | Use when conducting a privacy impact assessment (PIA) or data protection impact assessment (DPIA) for a… |
+| [`Privacy Policy`](skills/prompt-pack-privacy-policy-sboghossian/) | Use when a lawyer or compliance officer needs to draft a comprehensive privacy policy for a company… |
+| [`Third-Party Data Sharing Agreement`](skills/prompt-pack-third-party-data-sharing-agreement-sboghossian/) | Use when a user needs to draft a data sharing agreement between two or more organizations that jointly… |
+| [`Vendor Data Protection Addendum`](skills/prompt-pack-vendor-data-protection-addendum-sboghossian/) | Use when a company needs to attach a data protection addendum (DPA) to a vendor or supplier agreement… |
 | [`Pseudonymised vs Anonymised Data Classification`](skills/pseudo-vs-anon-data/) | Classifies data as pseudonymised or anonymised using Recital 26 reasonably likely test, Breyer ruling… |
 | [`Assessing Pseudonymization and Re-Identification Risk`](skills/pseudonymization-risk/) | Assessment of pseudonymization techniques and re-identification risk. Covers tokenization, hashing… |
+| [`Privacy Policy Generator (Public Tool)`](skills/public-tool-privacy-policy-generator-public-sboghossian/) | Use when a business needs to generate a privacy policy, cookie policy, ROPA, or DPIA template through a… |
 | [`Purpose-Based Access Control (PBAC) Architecture`](skills/purpose-based-access/) | Design and implement Purpose-Based Access Control (PBAC) architecture including purpose ontology… |
 | [`Reg feed watcher`](skills/reg-feed-watcher-zekaisuni/) | Türkiye odaklı düzenleyici kaynakları kontrol eder, yeni gelişmeleri önem eşiğine göre sınıflandırır ve… |
 | [`Reg gap analysis`](skills/reg-gap-analysis-anthropics/) | Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a… |

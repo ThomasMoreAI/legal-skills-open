@@ -10,6 +10,7 @@
   "language": "en",
   "skills": [
     "skills/auth-packet-summary",
+    "skills/az-personal-injury-codearranger",
     "skills/case-viability-report",
     "skills/complaint-for-negligence",
     "skills/damages-calculator",
@@ -26,6 +27,9 @@
     "skills/med-mal-summary",
     "skills/medical-billing-analysis",
     "skills/medical-record-chronology",
+    "skills/mi-personal-injury-codearranger",
+    "skills/ny-personal-injury-codearranger",
+    "skills/oh-personal-injury-codearranger",
     "skills/pfs-analyzer",
     "skills/pi-demand-summary",
     "skills/pi-intake-form",
@@ -34,6 +38,8 @@
     "skills/release-of-claims",
     "skills/settlement-distribution",
     "skills/spoliation-letter",
-    "skills/summons-service-packet"
+    "skills/summons-service-packet",
+    "skills/tn-personal-injury-codearranger",
+    "skills/wa-personal-injury-codearranger"
   ]
 }

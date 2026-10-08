@@ -1,0 +1,25 @@
+{
+  "name": "tr-employment",
+  "displayName": "Employment & Labor — TR",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/cold-start-interview-employment-legal-zekaisuni",
+    "skills/customize-employment-legal-zekaisuni",
+    "skills/handbook-updates-zekaisuni",
+    "skills/hiring-review-zekaisuni",
+    "skills/internal-investigation-zekaisuni",
+    "skills/international-expansion-zekaisuni",
+    "skills/leave-tracker-zekaisuni",
+    "skills/log-leave-zekaisuni",
+    "skills/policy-drafting-zekaisuni",
+    "skills/termination-review-zekaisuni",
+    "skills/wage-hour-qa-zekaisuni",
+    "skills/worker-classification-zekaisuni"
+  ]
+}

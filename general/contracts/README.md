@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 
-## Skills (191)
+## Skills (260)
 
 | Skill | What it does |
 |---|---|
@@ -85,6 +85,8 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`合同版本对比助手-补充协议版（T817）`](skills/contract-version-compare-supplemental-agreement/) | 用于信托领域合同与法务中的合同版本对比助手-补充协议版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`Contracts and Business Law`](skills/contracts-and-business-law/) | Contracts, commercial law, and intellectual property essentials for founders, managers, and knowledge… |
 | [`Contract Query Enhancer`](skills/contracts-query-enhancer/) | Enhance contract search queries with contextual understanding, mapping natural language to contract… |
+| [`Intake — MSA (Master Services Agreement)`](skills/conversation-intake-msa-sboghossian/) | Use when a user wants to draft or negotiate a Master Services Agreement (MSA) and Claude must gather the… |
+| [`Intake — NDA`](skills/conversation-intake-nda-sboghossian/) | Use when a user wants to draft a non-disclosure agreement (NDA) or confidentiality agreement and Claude… |
 | [`Convert Contract to Markdown`](skills/convert-contract-to-markdown/) | Convert a contract PDF to clean markdown for clause extraction or LLM analysis. |
 | [`Cowork Contract Renewal Radar`](skills/cowork-contract-renewal-radar-onewave-ai/) | Sweep a contracts folder and extract every renewal date, auto-renew clause, notice window, and… |
 | [`/customize`](skills/customize-17/) | 商事合同业务领域配置的引导式定制——修改一项配置而无需重新运行完整的冷启动访谈。 调整风险姿态、上报联系人、审查指引立场、保密协议分类偏好、行文风格、… |
@@ -93,9 +95,27 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`doc-compare: Semantic Document Comparison`](skills/doc-compare/) | Semantic comparison between two document versions. Goes beyond text diff to explain what changed, why it… |
 | [`Word Doc Tracked Changes Skill`](skills/docx-tracked-changes/) | Produce properly-formatted tracked changes for a Word document. Use when asked to redline a document… |
 | [`Draft a Legal Document`](skills/draft-a-legal-document/) | Draft a legal document for you, like an NDA, a customer contract, an offer letter, a privacy policy… |
+| [`Draft — Commercial Agency Agreement`](skills/draft-agency-agreement-sboghossian/) | Use when asked to draft a commercial agency agreement appointing an agent to sell goods or services on a… |
+| [`Boilerplate Clauses Library`](skills/draft-boilerplate-clauses-sboghossian/) | Use when drafting or reviewing the standard end-of-contract "miscellaneous" or "general provisions"… |
+| [`Draft — Brokerage / Commercial Agency Agreement`](skills/draft-brokerage-agreement-sboghossian/) | Use when asked to draft a brokerage or commercial agency agreement under which a broker or intermediary… |
+| [`Draft — Consulting Agreement`](skills/draft-consulting-agreement-sboghossian/) | Use when asked to draft a consulting or consultancy agreement engaging an independent contractor… |
+| [`Contract Skeleton Builder`](skills/draft-contract-skeleton-builder-sboghossian/) | Use as the master structural template for drafting any commercial contract. All document-type draft… |
+| [`Definitions Builder`](skills/draft-definitions-builder-sboghossian/) | Use when building or auditing the Definitions section of any contract. Provides structural rules for… |
+| [`Distribution Agreement`](skills/draft-distribution-agreement-sboghossian/) | Use when drafting a distribution agreement appointing a distributor to sell and resell a supplier's… |
+| [`Franchise Agreement`](skills/draft-franchise-agreement-sboghossian/) | Use when drafting a franchise agreement granting a franchisee the right to operate a business under the… |
+| [`MSA Variants by Industry`](skills/draft-msa-extension-sboghossian/) | Use when a standard MSA needs to be tailored for a specific industry vertical or delivery model — SaaS… |
+| [`Master Services Agreement (MSA)`](skills/draft-msa-sboghossian/) | Use when drafting a Master Services Agreement under which the parties will execute one or more… |
 | [`NDA（保密协议）起草`](skills/draft-nda/) | 起草两方之间详细的保密协议（NDA），涵盖信息类型、管辖区及需法律审查的条款。适用于创建保密协议或为合作关系准备 NDA 的场景。 |
 | [`NDA (비밀유지계약서) 초안 작성`](skills/draft-nda-lucas-flatwhite/) | 정보 유형, 관할권, 법률 검토가 필요한 조항을 다루는 두 당사자 간 상세한 비밀유지계약서(NDA)를 초안 작성합니다. 기밀 유지 계약 작성 또는 파트너십을 위한 NDA 준비 시 사용하세요. |
+| [`Mutual NDA (Confidentiality Agreement)`](skills/draft-nda-mutual-sboghossian/) | Use when drafting a mutual NDA between two parties exploring a transaction or collaboration, where both… |
 | [`NDA (Non-Disclosure Agreement) Drafting`](skills/draft-nda-phuryn/) | Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction… |
+| [`Unilateral NDA (One-Way Confidentiality Agreement)`](skills/draft-nda-unilateral-sboghossian/) | Use when drafting a unilateral (one-way) NDA where only one party is the Discloser and the other is the… |
+| [`Recitals Builder (WHEREAS Clauses / Préambule / تمهيد)`](skills/draft-recitals-builder-sboghossian/) | Use when generating WHEREAS recital clauses (or civil-law préambule / تمهيد) for any contract. Provides… |
+| [`Reseller Agreement`](skills/draft-reseller-agreement-sboghossian/) | Use when drafting a reseller agreement for B2B SaaS, digital products, or technology goods — governing… |
+| [`Service Level Agreement (SLA)`](skills/draft-sla-sboghossian/) | Use when drafting a Service Level Agreement specifying measurable performance commitments, uptime… |
+| [`Draft — SOW Variants`](skills/draft-sow-extension-sboghossian/) | Use when drafting a variant of a standard Statement of Work — specifically a time-and-materials SOW, a… |
+| [`Statement of Work (SOW)`](skills/draft-sow-sboghossian/) | Use when drafting a Statement of Work — the project-specific order form that incorporates by reference… |
+| [`Terms of Service`](skills/draft-terms-of-service-sboghossian/) | Use when drafting Terms of Service, Terms of Use, or Terms and Conditions for a website, app, SaaS… |
 | [`US Employment Law Dashboard`](skills/employment-law-dashboard/) | Build a single-file HTML dashboard for any area of US employment law, modeled after the AI Employment… |
 | [`Engagement Letter Drafter`](skills/engagement-letter-drafter-rohasnagpal/) | Drafts a client engagement letter — scope of the retainer, fee arrangement, what is explicitly excluded… |
 | [`Escalation flagger`](skills/escalation-flagger-bossmann007/) | Route a contract issue to the right approver per the escalation matrix in… |
@@ -109,6 +129,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Freelancer Review — Independent Contractor Contract Analysis`](skills/freelancer-review/) | Reviews contracts from a freelancer's perspective across 14 evaluation lenses including… |
 | [`Generate DOCX Contract`](skills/generate-docx-contract/) | Generate an editable DOCX service agreement with parties, terms, and payment schedule. |
 | [`Generate NDA`](skills/generate-nda/) | Generate a non-disclosure agreement PDF with party names, effective date, and standard confidentiality terms. |
+| [`Bilingual AR-EN Mirror Clauses`](skills/heuristic-bilingual-ar-en-mirror-clauses-sboghossian/) | Use when drafting or reviewing bilingual Arabic-English legal documents across MENA jurisdictions.… |
 | [`Propósito`](skills/historial-adendas/) | Traza la evolución de cláusulas clave a través del contrato base y sus adendas |
 | [`Indemnity & Liability Analyst`](skills/indemnity-liability-analyst-rohasnagpal/) | Analyses the warranty, indemnity, exclusion, cap and insurance provisions in a contract as one… |
 | [`Ironclad`](skills/ironclad/) | Ironclad integration. Manage data, records, and automate workflows. Use when the user wants to interact… |
@@ -158,6 +179,13 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Open agreements`](skills/open-agreements/) | Navigate and use the OpenAgreements legal content library — source-cited practice guides, review… |
 | [`OpenContracts Guide`](skills/opencontracts-guide/) | Legal document annotation, versioning, and analysis platform |
 | [`Business Contract Review`](skills/ops-contract-review/) | Review business contracts for risk identification including liability clauses, IP ownership, termination… |
+| [`In-House — Clause Explainer for Commercial Team`](skills/pa-workflow-inhouse-commercial-team-clause-explainer-sboghossian/) | Use when an in-house lawyer needs to explain contract clauses to the commercial, sales, or business team… |
+| [`In-House — Contract Intake Routing`](skills/pa-workflow-inhouse-contract-intake-routing-sboghossian/) | Use when an in-house legal team needs to automatically triage and route incoming contracts to the… |
+| [`In-House — Cross-Functional Translation`](skills/pa-workflow-inhouse-cross-functional-translation-sboghossian/) | Use when an in-house lawyer needs to translate legal concepts, obligations, or risk assessments into the… |
+| [`Clause Library Check`](skills/pa-workflow-transactional-clause-library-check-sboghossian/) | Use when a transactional team needs to verify that a contract uses the firm's or client's preferred… |
+| [`Transactional Contract Redline — 20-Minute Workflow`](skills/pa-workflow-transactional-contract-redline-20min-sboghossian/) | Use when a transactional lawyer needs to perform a rapid first-pass redline review of a commercial… |
+| [`MSA Against Firm Playbook`](skills/pa-workflow-transactional-msa-against-firm-playbook-sboghossian/) | Use when a transactional lawyer needs to review an incoming Master Services Agreement (MSA) against the… |
+| [`Transactional NDA Triage — Red / Yellow / Green`](skills/pa-workflow-transactional-nda-triage-red-yellow-green/) | Use when a transactional lawyer or in-house team needs to rapidly triage an incoming NDA and assign a… |
 | [`PII Shield — Universal Legal Document Processor`](skills/pii-contract-analyze/) | Universal legal document processor with PII anonymization. Anonymize → Work → Deanonymize. Modes: MEMO… |
 | [`Plain English — Legalese to Plain Language Translator`](skills/plain-english-jeremylongshore/) | Translates every clause of a contract into plain language at an 8th-grade reading level and flags… |
 | [`Plan Contract Pushback`](skills/plan-contract-pushback/) | After reviewing a contract, plan exactly what to push back on. I sort the issues into must-haves… |
@@ -165,6 +193,32 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Software & POS System License Agreement`](skills/pos-license/) | Drafts Software and POS System License Agreements for proprietary software use between licensor and… |
 | [`Private Document Review`](skills/private-doc-review/) | Review a private document (contract, lease, NDA, vendor agreement, terms of service) and surface… |
 | [`Privilege Sentinel`](skills/privilege-sentinel/) | Pre-flight privilege and work-product check for legal AI prompts. Use when the user is about to send… |
+| [`Agency Agreement`](skills/prompt-pack-agency-agreement-sboghossian/) | Use when drafting a commercial agency agreement appointing an agent to solicit orders or sell… |
+| [`Consulting Agreement`](skills/prompt-pack-consulting-agreement-sboghossian/) | Use when a company needs to draft a consulting agreement engaging an individual or corporate consultant… |
+| [`Content License Agreement`](skills/prompt-pack-content-license-agreement-sboghossian/) | Use when a licensor needs to grant rights to use content (images, video, articles, music, software… |
+| [`Contract Negotiation Preparation`](skills/prompt-pack-contract-negotiation-preparation-sboghossian/) | Use when a lawyer or commercial team needs to prepare a structured negotiation brief from a contract… |
+| [`Contract Risk Matrix`](skills/prompt-pack-contract-risk-matrix-sboghossian/) | Use when a lawyer needs to review a contract and produce a structured risk matrix categorising each… |
+| [`Contract Summary for Executives`](skills/prompt-pack-contract-summary-for-executives-sboghossian/) | Use when a lawyer needs to summarise a contract for a non-lawyer executive in a one-page briefing… |
+| [`Distribution Agreement`](skills/prompt-pack-distribution-agreement-sboghossian/) | Use when drafting a distribution agreement appointing a distributor for the sale and distribution of… |
+| [`Franchise Agreement`](skills/prompt-pack-franchise-agreement-sboghossian/) | Use when drafting a franchise agreement granting a franchisee the right to operate a branded franchise… |
+| [`Full Contract Risk Review`](skills/prompt-pack-full-contract-risk-review-sboghossian/) | Use when reviewing a commercial contract to identify legal risks, unclear clauses, missing protections… |
+| [`Independent Contractor Agreement`](skills/prompt-pack-independent-contractor-agreement-sboghossian/) | Use when drafting an independent contractor agreement engaging a freelancer or service provider… |
+| [`Master Services Agreement`](skills/prompt-pack-master-services-agreement-sboghossian/) | Use when drafting a master services agreement (MSA) establishing a framework under which a service… |
+| [`Memorandum of Understanding`](skills/prompt-pack-memorandum-of-understanding-sboghossian/) | Use when drafting a memorandum of understanding (MOU) recording the intention of parties to collaborate… |
+| [`NDA Strength Check`](skills/prompt-pack-nda-strength-check-sboghossian/) | Use when reviewing an existing NDA (mutual or unilateral) to assess whether it adequately protects the… |
+| [`Research Collaboration Agreement`](skills/prompt-pack-research-collaboration-agreement-sboghossian/) | Use when two or more institutions or companies need to formalize a joint research arrangement, covering… |
+| [`Reseller Agreement`](skills/prompt-pack-reseller-agreement-sboghossian/) | Use when a vendor and a reseller need to formalize a distribution arrangement, covering authorized… |
+| [`SaaS Terms of Service`](skills/prompt-pack-saas-terms-of-service-sboghossian/) | Use when a SaaS company needs to draft terms of service governing customer access to its platform.… |
+| [`Service Agreement`](skills/prompt-pack-service-agreement-sboghossian/) | Use when drafting a bilateral services agreement between a service provider and client, covering scope… |
+| [`Software License Agreement`](skills/prompt-pack-software-license-agreement-sboghossian/) | Use when a software licensor needs to draft a license agreement granting a licensee rights to use… |
+| [`Standard NDA`](skills/prompt-pack-standard-nda-sboghossian/) | Use when parties evaluating a potential transaction or collaboration need a mutual non-disclosure… |
+| [`Technology Transfer Agreement`](skills/prompt-pack-technology-transfer-agreement-sboghossian/) | Use when a transferor is permanently or substantially transferring technology (patents, know-how, trade… |
+| [`Vendor Agreement Red Flag Scan`](skills/prompt-pack-vendor-agreement-red-flag-scan-sboghossian/) | Use when a user pastes or uploads a vendor agreement and needs a rapid structured analysis of the… |
+| [`Work for Hire Agreement`](skills/prompt-pack-work-for-hire-agreement-sboghossian/) | Use when a company needs to engage a freelancer, consultant, or contractor to create copyrightable works… |
+| [`Contract Redline (Public Tool)`](skills/public-tool-contract-redline-public-sboghossian/) | Use when a user uploads or pastes a short commercial contract (up to 3 pages in the free tier) and needs… |
+| [`Contract Summarizer (Public Tool)`](skills/public-tool-contract-summarizer-public-sboghossian/) | Use when a user pastes or uploads a contract and needs a structured plain-English breakdown… |
+| [`NDA Generator (Public Tool)`](skills/public-tool-nda-generator-public-sboghossian/) | Use when a user needs to generate a one-way or mutual NDA in approximately 60 seconds via a guided form… |
+| [`Terms of Service Generator (Public Tool)`](skills/public-tool-terms-generator-public-sboghossian/) | Use when a business needs to generate Terms of Service, an Acceptable Use Policy, and (for e-commerce) a… |
 | [`Read A Contract`](skills/read-a-contract/) | Get the standard clauses out of a contract or a whole folder of them without reading legalese yourself.… |
 | [`Input Modes`](skills/redline-emailer/) | Translates contract redlines into client-ready or opposing-counsel emails. Accepts three input modes… |
 | [`Redline Proposer`](skills/redline-proposer-rohasnagpal/) | Produces complete replacement wording for one problem clause or a short related group, from the… |
@@ -175,8 +229,21 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`/review`](skills/review-anthropics/) | Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies the agreement… |
 | [`/review`](skills/review-bossmann007/) | Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies the agreement… |
 | [`/review-contract -- Contract Review Against Playbook`](skills/review-contract/) | Review a contract against your organization's negotiation playbook — flag deviations, generate redlines… |
+| [`Contract Redline (Track Changes with Rationale)`](skills/review-contract-redline-sboghossian/) | Use when a lawyer or party needs a contract reviewed with proposed track-change-style edits and written… |
+| [`Cross-Reference Integrity Check`](skills/review-cross-reference-integrity-sboghossian/) | Use when a drafter or reviewer needs to verify that all internal cross-references in a contract are… |
+| [`Definitions Consistency Check`](skills/review-definitions-consistency-sboghossian/) | Use when a drafter or reviewer needs to verify that all defined terms in a contract are used… |
+| [`Governing Law and Forum Conflict Check`](skills/review-governing-law-conflict-sboghossian/) | Use when a contract's choice-of-law clause and forum-selection clause need to be reviewed for validity… |
+| [`Indemnification Balance Review`](skills/review-indemnification-balance-sboghossian/) | Use when reviewing a contract's indemnification clauses for balance, scope, procedural fairness, and… |
+| [`Liability Cap Reasonableness Review`](skills/review-liability-cap-reasonableness-sboghossian/) | Use when assessing whether a contract's liability cap is reasonable given the deal type, contract value… |
+| [`Missing-Clauses Detector`](skills/review-missing-clauses-sboghossian/) | Use when a contract needs a completeness check against the standard skeleton for its document type.… |
+| [`MSA Deep Review`](skills/review-msa-deep-review-sboghossian/) | Use when conducting a comprehensive review of a Master Services Agreement (MSA) or equivalent commercial… |
+| [`NDA Quick Check (5-Minute Review)`](skills/review-nda-quick-check-sboghossian/) | Use when a fast (5-minute) NDA review is needed to assess whether an NDA is safe to sign, needs… |
 | [`Review proposals`](skills/review-proposals-zhou210712/) | 审查并批准（或拒绝）来自审查指引监控代理的待处理更新建议，并将批准的变更 应用到业务领域配置中。当审查指引监控代理提出建议时使用，或当用户说… |
+| [`Risk Flagging (per Clause)`](skills/review-risk-flagging-sboghossian/) | Use when you need a structured, per-clause risk assessment of a contract. Categorizes each identified… |
 | [`Review SaaS Contract`](skills/review-saas-contract-jeffreytse/) | Use when reviewing a SaaS vendor or customer contract for legal and commercial risk |
+| [`Signature Block Validity Review`](skills/review-signature-block-validity-sboghossian/) | Use when verifying that a contract's signature pages and execution mechanics are legally valid before or… |
+| [`Arabic ↔ English Translation Quality Review`](skills/review-translation-quality-ar-en-sboghossian/) | Use when evaluating the legal fidelity of an Arabic-English or English-Arabic translation of a contract… |
+| [`Unusual / Atypical Terms Detector`](skills/review-unusual-terms-detector-sboghossian/) | Use when scanning a contract for clauses that deviate materially from market norms for that document… |
 | [`Risk Analysis — Clause-by-Clause Risk Scoring`](skills/risk-analysis-jeremylongshore/) | Performs deep clause-by-clause risk scoring across 10 categories with poison pill detection and… |
 | [`SaaS / 订阅协议审查`](skills/saas-msa-review-zhou210712/) | 参考：SaaS订阅协议审查，重点关注订阅交易中最关键的条款——自动续约机制、 价格调整、数据可迁移性、运行时间SLA以及再处理者权利。当 /commercial-legal:review 检测到SaaS或订阅协议时加载。 |
 | [`Services agreement`](skills/services-agreement/) | Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement… |
@@ -199,6 +266,8 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Venture financing`](skills/venture-financing/) | Draft and fill NVCA model documents — stock purchase agreement, certificate of incorporation, investors… |
 | [`Vibe Legal Server — Batch Contract Redlining`](skills/vibe-legal-batch-redliner/) | Use when you need to batch redline multiple contracts against a negotiation playbook, apply tracked… |
 | [`Darwin Legal Word Contract Formatting`](skills/word-contract-formatting/) | Apply Darwin Legal formatting conventions when drafting or generating any contract, agreement… |
+| [`Contract Redline in 20 Minutes`](skills/workflow-contract-redline-20min-sboghossian/) | Use when a user needs to review and redline a contract under time pressure, producing a structured… |
+| [`NDA Triage — Red / Yellow / Green`](skills/workflow-nda-triage-red-yellow-green-sboghossian/) | Use when an NDA needs a fast risk triage — producing a Green (sign as-is), Yellow (counter-redline with… |
 
 ## Cold-start context
 

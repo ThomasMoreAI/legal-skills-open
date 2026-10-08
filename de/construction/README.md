@@ -4,7 +4,7 @@ Construction law — building contracts, procurement, delay/defect claims, and d
 
 Jurisdiction: `de` · Practice: `construction` · Skill language: de
 
-## Skills (252)
+## Skills (255)
 
 | Skill | What it does |
 |---|---|
@@ -29,6 +29,7 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Bauangebote vergleichbar werten und Vergabeentscheidung vorbereiten`](skills/bauangebote-werten-und-vergabevorschlag-erstellen/) | Erstellt Preisspiegel und begründeten Vergabevorschlag aus Bauangeboten, festgelegten Kriterien und… |
 | [`Bauprojektbelege mit Buchhaltung und Bank abgleichen`](skills/baubuchhaltung-und-belege-abgleichen/) | Gleicht Rechnungen, Gutschriften, Buchungen, offene Posten und Bankbewegungen im Bauunternehmen ab und… |
 | [`Baubudget und erwartete Gesamtkosten fortschreiben`](skills/baubudget-und-kostenprognose-fortschreiben/) | Erstellt und aktualisiert Baubudget, Vergabestand und Kostenprognose mit Aufträgen, Nachträgen… |
+| [`/baurecht:baugenehmigungsverfahren`](skills/baugenehmigungsverfahren-borghei/) | Prüfung der Baugenehmigung: bauplanungsrechtliche Zulässigkeit (§§ 30–35 BauGB; faktisches Gebiet § 34… |
 | [`Baugrund, Altlasten Und Untersuchungsbedarf`](skills/baugrund-altlasten-untersuchungsbedarf/) | Für Baugrund, Altlasten und Untersuchungsbedarf: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bauordnungsrecht: Behörden-, Gerichts- oder Registerweg`](skills/bauordnungsrecht-behoerden-gericht-und-registerweg/) | Für Bauordnungsrecht: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bauprojekt zum belastbaren Arbeitsstand führen`](skills/bauprojekt-starten-und-arbeitsstand-fortfuehren/) | Startet und bearbeitet ein Bauprojekt für Bauherr, Projektentwickler, Bauleitung oder kaufmännisches… |
@@ -226,6 +227,7 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Ersteinordnung neuer Mandate im Bau- und Architektenrecht: Mangeltyp, Vertragsgrundlage`](skills/mandat-triage-bau-architektenrecht/) | Für Ersteinordnung neuer Mandate im Bau- und Architektenrecht: Mangeltyp, Vertragsgrundlage: routet… |
 | [`Mitzuverarbeitende Bausubstanz Im Bestand`](skills/mitzuverarbeitende-bausubstanz/) | Für Mitzuverarbeitende Bausubstanz im Bestand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Nachbarklage gegen eine Baugenehmigung prüfen`](skills/nachbarklage-baugenehmigung-frist-und-drittschutz/) | Für Nachbarklage gegen eine Baugenehmigung prüfen: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
+| [`/baurecht:nachbarrechtlicher-baustreit`](skills/nachbarrechtlicher-baustreit-borghei/) | Nachbarliche Abwehr gegen Bauvorhaben in beiden Spuren: öffentlich-rechtlich Drittanfechtung der… |
 | [`Nachtrag sachlich prüfen, rechnen und vollständig vereinbaren`](skills/nachtraege-pruefen-und-vereinbaren/) | Prüft Bauleistungsänderungen und Nachtragsangebote nach Ursache, Beauftragung, Mengen, Preis und Bauzeit… |
 | [`Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung`](skills/nachtragsmanagement-650b/) | Für Nachtragsmanagement 650b: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Nachunternehmerleistung und Sicherheiten nachvollziehbar steuern`](skills/nachunternehmer-und-sicherheiten-steuern/) | Erstellt einen nachunternehmerbezogenen Leistungs-, Nachweis- und Sicherheitenstand mit konkreter… |
@@ -255,6 +257,7 @@ Jurisdiction: `de` · Practice: `construction` · Skill language: de
 | [`Vertragstypen: Red-Team und Qualitätskontrolle`](skills/vertragstypen-red-team-und-qualitaetskontrolle/) | Für Vertragstypen: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
 | [`Bauzeitverzug und Kündigung nach VOB/B prüfen`](skills/vob-b-bauzeitverzug-kuendigung-pruefen/) | Prüft Bauzeitverzug, Behinderung, Vertragsfrist und Entziehung des Auftrags nach VOB/B, rekonstruiert… |
 | [`VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen`](skills/vob-schiedsgutachten-schlichtung/) | Für VOB/B-Schiedsgutachten und Schlichtung als Alternative zum Bauprozess nutzen: ordnet Norm… |
+| [`/baurecht:vob-werkvertrag-mangelpruefung`](skills/vob-werkvertrag-mangelpruefung-borghei/) | Mängelprüfung am Bauwerk: Vertragsregime klären (BGB-Werkvertrag §§ 631 ff., Bauvertrag §§ 650a ff.… |
 | [`Werkmaengel an Bauwerk nach BGB und VOB/B prüfen: Beschaffenheitsvereinbarung, Ist-Zustand, Ursache`](skills/werkmangel-pruefen/) | Für Werkmangel Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung`](skills/werkmangel-vob-bgb-pruefen/) | Für Werkmangel VOB BGB Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Werkvertrag: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/werkvertrag-dokumentenmatrix-und-lueckenliste/) | Für Werkvertrag: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken… |

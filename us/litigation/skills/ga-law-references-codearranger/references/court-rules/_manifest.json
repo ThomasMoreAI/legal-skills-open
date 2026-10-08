@@ -1,0 +1,59 @@
+{
+  "corpus": "ga-court-rules",
+  "description": "Georgia court-rule sets governing civil practice: the Uniform Superior, State, and Magistrate Court Rules plus the Supreme Court and Court of Appeals rules. Built from open sources (georgiacourts.gov dated-filename PDFs + appellate-court rule pages; courtrules.net HTML mirror as fallback). Pulled by scripts/pull_georgia_rules.py.",
+  "sources": {
+    "uniform_rules_landing": "https://georgiacourts.gov/",
+    "assets": "https://assets.georgiacourts.gov/ (dated-filename uniform-rule PDFs)",
+    "cscj": "https://cscj.georgiacourts.gov/",
+    "supreme": "https://www.gasupreme.us/rules/",
+    "appeals": "https://www.gaappeals.gov/court-rules/",
+    "html_mirror": "https://www.courtrules.net/georgia/ (per-rule pages at /ga-<court>/rule-N, dots->dashes e.g. rule-6-2; CAVEAT: this mirror interleaves an LLM-generated 'Plain-English Summary' that can contain fabricated rule text with the authoritative 'Rule Text' section — capture Rule Text ONLY)"
+  },
+  "targets": [
+    {
+      "file": "uniform-superior-court-rules.md",
+      "set": "USCR",
+      "name": "Uniform Superior Court Rules",
+      "pdf": "",
+      "pdf_page": "https://georgiacourts.gov/",
+      "html": "https://www.courtrules.net/georgia/ga-superior-court",
+      "rules": ["5", "6.1", "6.2", "6.3", "6.4", "24.2", "24.8", "36"]
+    },
+    {
+      "file": "uniform-state-court-rules.md",
+      "set": "USCR-State",
+      "name": "Uniform State Court Rules",
+      "pdf": "",
+      "pdf_page": "https://georgiacourts.gov/",
+      "html": "https://www.courtrules.net/georgia/ga-state-court",
+      "rules": ["5", "6.1", "6.2", "6.3", "6.4", "36"]
+    },
+    {
+      "file": "uniform-magistrate-court-rules.md",
+      "set": "UMCR",
+      "name": "Uniform Magistrate Court Rules",
+      "pdf": "",
+      "pdf_page": "https://georgiacourts.gov/",
+      "html": "https://www.courtrules.net/georgia/ga-magistrate-court",
+      "rules": ["1", "5", "6", "7", "8", "10"]
+    },
+    {
+      "file": "supreme-court-rules.md",
+      "set": "GSC",
+      "name": "Supreme Court of Georgia Rules",
+      "pdf": "",
+      "pdf_page": "https://www.gasupreme.us/rules/",
+      "html": "https://www.courtrules.net/georgia/ga-supreme-court",
+      "rules": ["22", "34", "40", "43"]
+    },
+    {
+      "file": "court-of-appeals-rules.md",
+      "set": "GCofA",
+      "name": "Court of Appeals of Georgia Rules",
+      "pdf": "",
+      "pdf_page": "https://www.gaappeals.gov/court-rules/",
+      "html": "https://www.courtrules.net/georgia/ga-court-of-appeals",
+      "rules": ["13", "23", "25", "31"]
+    }
+  ]
+}

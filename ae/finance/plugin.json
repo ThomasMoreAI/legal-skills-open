@@ -1,0 +1,18 @@
+{
+  "name": "ae-finance",
+  "displayName": "Finance & Banking — AE",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for AE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "finance",
+  "language": "en",
+  "skills": [
+    "skills/kb-banking-regulation-cbuae-sboghossian",
+    "skills/kb-crypto-adgm-sboghossian",
+    "skills/kb-crypto-vara-dubai-sboghossian",
+    "skills/kb-fintech-licensing-adgm-sboghossian",
+    "skills/kb-fintech-licensing-difc-sboghossian"
+  ]
+}

@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `cross-jurisdiction` · Practice: `ip` · Skill language: en
 
-## Skills (12)
+## Skills (13)
 
 | Skill | What it does |
 |---|---|
@@ -16,6 +16,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `ip` · Skill language: en
 | [`Invention intake`](skills/invention-intake-bossmann007/) | Invention disclosure first-pass screen — novidade, atividade inventiva, patenteabilidade (LPI art.… |
 | [`IP Portfolio Analyst`](skills/ip-portfolio-analyst-rohasnagpal/) | Audit an intellectual-property portfolio for ownership, protection, scope, deadlines, territorial… |
 | [`Jurisdiction Format: Patent Filing Compilation`](skills/jurisdiction-format/) | Compile patent application into jurisdiction-specific filing format. Use when user says "格式转换"… |
+| [`Knowledge Pack — IP Law in MENA`](skills/kb-ip-mena-sboghossian/) | Use when a matter involves trademark registration, patent filing, copyright protection, trade-secret… |
 | [`Madrid-Protokoll und Internationale Registrierung`](skills/madrid-protokoll-und-internationale-registrierung/) | Für Madrid-Protokoll und Internationale Registrierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Markenrecherche (Clearance)`](skills/markenrecherche/) | Für Markenrecherche (Clearance): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Patent Pipeline: From Invention to Filing`](skills/patent-pipeline/) | Full patent drafting pipeline from invention description to jurisdiction-formatted filing documents.… |

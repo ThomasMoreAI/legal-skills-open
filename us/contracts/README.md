@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `us` · Practice: `contracts` · Skill language: en
 
-## Skills (26)
+## Skills (27)
 
 | Skill | What it does |
 |---|---|
@@ -17,6 +17,7 @@ Jurisdiction: `us` · Practice: `contracts` · Skill language: en
 | [`CUAD Contract Review Skill`](skills/contract-review-cuad-everyone-needs-a-copilot/) | Contract review using CUAD risk categories. Use for systematic clause coverage across commercial… |
 | [`Contract Summarization`](skills/contract-summarization/) | Generates structured summaries of U.S. contracts capturing parties, business terms, legal provisions… |
 | [`Contractor Agreement Review`](skills/contractor-agreement-review/) | Review contractor/consulting agreements for misclassification, IP, liability, and termination issues.… |
+| [`No US-Style Boilerplate in Civil-Law Jurisdictions`](skills/heuristic-no-us-style-boilerplate-in-civil-law-jx-sboghossian/) | Use when drafting contracts or reviewing documents for civil-law jurisdictions (Lebanon, KSA, UAE… |
 | [`Independent Contractor Agreement`](skills/independent-contractor-agreement/) | Drafts a U.S. independent contractor agreement with misclassification guardrails, IP assignment… |
 | [`Legal Agreement Skill`](skills/legal-agreement/) | Business agreement generation for professional services. Use for contractor agreements, partnership… |
 | [`Legal Freelancer Skill`](skills/legal-freelancer-everyone-needs-a-copilot/) | Contractor-perspective contract review. Use to flag IP assignment traps, unlimited liability, missing… |

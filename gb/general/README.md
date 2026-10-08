@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `gb` · Practice: `general` · Skill language: en
 
-## Skills (17)
+## Skills (18)
 
 | Skill | What it does |
 |---|---|
@@ -18,6 +18,7 @@ Jurisdiction: `gb` · Practice: `general` · Skill language: en
 | [`UK Legal Research with Lex API`](skills/lex-uk-law/) | UK legal research using the Lex API. Use this skill whenever the user asks about UK law, legislation… |
 | [`/oscola-build-citation`](skills/oscola-build-citation-uk-agents/) | Construct an OSCOLA citation for a UK case, statute, or Hansard reference AFTER verifying the source… |
 | [`OSCOLA citation check`](skills/oscola-citation-brind0/) | Use when checking or correcting legal citations to OSCOLA in an essay, case note or seminar prep — when… |
+| [`OSCOLA Citation Format (UK / DIFC / ADGM)`](skills/output-citation-format-oscola-sboghossian/) | Use when formatting legal citations for a UK-trained audience, or for common-law jurisdictions that… |
 | [`/law-student-uk:session`](skills/session-uk-agents/) | Run a focused N-question study session on a subject — SQE1-style MCQ, essay, or flashcards. Tracks… |
 | [`/law-student-uk:socratic-drill`](skills/socratic-drill-uk-agents/) | Socratic drilling — it asks, you answer, it pushes back. Does NOT give you the answer until you've… |
 | [`/statute-amendments-trace`](skills/statute-amendments-trace-uk-agents/) | Trace the current state of a UK Act including in-force amendments AND any pending bills that would amend… |
