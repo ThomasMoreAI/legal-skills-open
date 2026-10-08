@@ -5,7 +5,7 @@ description: Genera contratos en derecho argentino para vender proyectos de auto
 author: aurelioagency
 author_url: https://github.com/aurelioagency/skills/tree/main/ai-automation-contracts
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ar
 practice: contracts

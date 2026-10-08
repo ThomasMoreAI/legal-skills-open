@@ -5,7 +5,7 @@ description: Source-locked Chinese litigation workflow covering litigation analy
 author: 384363367-dot
 author_url: https://github.com/384363367-dot/legal-os/tree/main/skills/legal-os-litigation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: litigation

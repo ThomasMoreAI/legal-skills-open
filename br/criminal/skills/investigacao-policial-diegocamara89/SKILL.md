@@ -6,7 +6,7 @@ description: Skill operacional para agentes de policia investigadores focada em 
 author: diegocamara89
 author_url: https://github.com/diegocamara89/ai-skills-hub/tree/main/all-skills/investigacao-policial
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: criminal
