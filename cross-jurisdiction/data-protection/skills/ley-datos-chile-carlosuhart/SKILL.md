@@ -1,11 +1,11 @@
 ---
 name: ley-datos-chile-carlosuhart
 title: Auditoría Ley 21.719 — Protección de Datos Personales (Chile)
-description: Audita un sitio web frente a los requisitos de la Ley 21.719 de Protección de Datos Personales (Chile). Detecta el sector del sitio automáticamente y aplica requisitos específicos. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados.
+description: 'Auditoría Ley 21.719 (Chile): detecta el sector y entrega informe con score, estado por artículo e issues priorizados. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/ley-datos-chile
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
@@ -282,7 +282,8 @@ Verificar que la política incluya explícitamente:
 - [ ] **f)** Derechos del titular: acceso, rectificación, cancelación, oposición, portabilidad,
      limitación y derecho a no ser objeto de decisiones basadas exclusivamente en
      tratamiento automatizado
-- [ ] **g)** Procedimiento para ejercer derechos y plazo de respuesta (15 días hábiles)
+- [ ] **g)** Procedimiento para ejercer derechos y plazo de respuesta (30 días corridos,
+     prorrogables una vez por 30; bloqueo temporal en 2 días hábiles — art. 11)
 - [ ] **h)** Transferencias internacionales (si aplica) y garantías adoptadas
 - [ ] **i)** Uso de cookies y tecnologías de rastreo
 - [ ] **j)** Contacto del Encargado de Protección de Datos / EPD (si aplica)
@@ -356,7 +357,9 @@ Peso: 15 pts
 oficial publicado no ha podido confirmarse directamente en esta versión del skill
 (la BCN no siempre es accesible). Las referencias de artículo para este bloque se
 omiten hasta verificación y se cita solo la ley en general. No afecta al contenido
-de los checklists.
+de los checklists. Excepción verificada el 2026-10-01: el plazo de respuesta está en
+el art. 11. Cuando la web de la BCN no carga, el texto oficial completo se obtiene con
+`https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=1209272` (JSON).
 
 La Ley 21.719 reconoce **siete derechos del titular**:
 1. Acceso
@@ -369,7 +372,11 @@ La Ley 21.719 reconoce **siete derechos del titular**:
 
 Verificar:
 - [ ] Existe un mecanismo explícito para ejercer derechos (email, formulario, dirección postal)
-- [ ] Se menciona el plazo de respuesta (15 días hábiles)
+- [ ] Se menciona el plazo de respuesta: 30 días corridos desde el ingreso de la solicitud,
+     prorrogables una sola vez por otros 30 días corridos, y 2 días hábiles para la solicitud
+     de bloqueo temporal (art. 11 de la Ley 19.628, texto modificado por la Ley 21.719).
+     No usar "15 días hábiles": ese plazo de la ley corresponde a impugnaciones y descargos
+     ante la Agencia, no a la respuesta del responsable al titular
 - [ ] Se mencionan los **siete** derechos, incluidos Portabilidad, Limitación y el
      derecho frente a decisiones automatizadas
 - [ ] Se indica qué información debe adjuntar el titular al hacer la solicitud
@@ -699,4 +706,4 @@ Siempre indicar este alcance en la sección de notas metodológicas del informe.
   de implementación (umbral de edad para menores, criterios EPD, adecuación de países
   terceros, mecanismos de certificación). Señalar esta contingencia en el informe cuando afecte a un bloque.
 - **APDP:** en proceso de constitución; el CPLT ejerce sus funciones durante la transición.
-- **Versión de esta skill:** 1.2.1 (2026-07-03). Cambios: crédito Zythos Media añadido al inicio de ejecución, plantilla Markdown y pie de página del .docx. Versión anterior: 1.2.0 (2026-06-28) — Paso 0 (stack tecnológico). Verificar actualizaciones cuando se publique el reglamento o cuando la APDP emita sus primeras instrucciones.
+- **Versión de esta skill:** 1.2.2 (2026-10-01). Cambios: plazo de respuesta a solicitudes de derechos corregido a 30 días corridos prorrogables por 30, y bloqueo temporal en 2 días hábiles (art. 11, verificado en el texto oficial de la BCN), en Bloques 3 y 6; endpoint JSON de la BCN para obtener el texto oficial. Versión anterior: 1.2.1 (2026-07-03) — crédito Zythos Media añadido al inicio de ejecución, plantilla Markdown y pie de página del .docx. Verificar actualizaciones cuando se publique el reglamento o cuando la APDP emita sus primeras instrucciones.

@@ -5,7 +5,7 @@ description: Wertet bei Betreuungsübernahme Kontoauszüge, Rechnungen und E-Mai
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/unterlagen-auswerten-abrechnung-anschreiben
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: family
@@ -170,9 +170,9 @@ Legen Sie den internen rechtlichen Vermerk und die Versandkontrolle außerhalb d
 
 ## 6. Beispiele
 
-### 6.1 Dreijahresübernahme Adelheid Pimpernell
+### 6.1 Dreijahresübernahme Adelheid Pfister
 
-Die Übungsakte „Betreuung Adelheid Pimpernell – Dreijahresabrechnung“ betrifft den Zeitraum 01.10.2023 bis 30.09.2026 und eine Übernahme am 01.10.2026. Beginnen Sie mit Konto- und Beleginventar, rekonstruieren Sie jedes Konto und prüfen Sie danach Verträge und private Abflüsse. Schreiben aus Oktober können frühere Vorgänge erklären. Behandeln Sie alle Personen und Unterlagen der Akte als fiktiv; übernehmen Sie keinerlei Versanddaten in einen echten Fall.
+Die Übungsakte „Betreuung Adelheid Pfister – Dreijahresabrechnung“ betrifft den Zeitraum 01.10.2023 bis 30.09.2026 und eine Übernahme am 01.10.2026. Beginnen Sie mit Konto- und Beleginventar, rekonstruieren Sie jedes Konto und prüfen Sie danach Verträge und private Abflüsse. Schreiben aus Oktober können frühere Vorgänge erklären. Behandeln Sie alle Personen und Unterlagen der Akte als fiktiv; übernehmen Sie keinerlei Versanddaten in einen echten Fall.
 
 ### 6.2 Gleicher Betrag, verschiedene Aussage
 

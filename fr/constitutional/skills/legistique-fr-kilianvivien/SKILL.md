@@ -6,7 +6,7 @@ description: 'Légistique française : rédige, corrige ou analyse des textes l�
 author: kilianvivien
 author_url: https://github.com/kilianvivien/skill-legistique-fr/tree/main/legistique-fr
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: fr
 practice: constitutional
@@ -264,7 +264,7 @@ modifier sans le casser. Chaque règle ci-dessous protège l'un de ces trois lec
 | L'utilisateur demande à la fois un avis et une correction | C, puis B si l'analyse ne conclut pas à abandonner ou à changer de niveau de norme |
 | L'utilisateur veut un **amendement** ou un sous-amendement (ou en fait relire un) | A ou B, avec `references/amendements.md` : chapeau, recevabilité, exposé sommaire |
 | L'utilisateur demande l'exposé des motifs, l'étude ou la fiche d'impact, ou « quelles consultations » | `references/procedure-et-documents.md`, en complément de A ou seul |
-| Question ponctuelle (comment formuler une abrogation, quel ordre pour les visas) | Répondre directement en s'appuyant sur les références |
+| Question ponctuelle (comment formuler une abrogation, quel ordre pour les visas, « donne-moi l'article à ajouter ») | Répondre directement et brièvement en s'appuyant sur les références, sans les sections des fonctions A, B ou C : la règle et sa fiche, la formule rédigée (numéros inconnus en blanc), ce qu'il faut vérifier avant de l'utiliser, et une ligne sur les références ajoutées |
 
 Dans toutes les fonctions, commencer par qualifier le texte, car presque toutes les règles en dépendent :
 
@@ -273,7 +273,11 @@ Dans toutes les fonctions, commencer par qualifier le texte, car presque toutes 
    Constitution pour le domaine de la loi, article 37 pour le règlement) et **énoncer l'hypothèse
    retenue** en tête de la réponse. Conséquences immédiates : une loi n'a ni visas ni article
    d'exécution ; un décret et un arrêté en ont ; les assemblées imposent « est ainsi rédigé » là où le
-   règlement écrit « est remplacé par les dispositions suivantes ».
+   règlement écrit « est remplacé par les dispositions suivantes ». Deux indices fixent le niveau d'un
+   décret sans que l'utilisateur le dise : un article de code en « R. » se crée et se modifie par
+   décret en Conseil d'Etat, un article en « D. » par décret simple (fiche 3.6.1) ; une contravention
+   ne peut être créée que par décret en Conseil d'Etat (fiche 5.6). Dans ces cas, écrire « Le Conseil
+   d'Etat (section …) entendu, » et le dire dans les hypothèses.
 2. **Texte autonome ou modificatif** : avant de créer un texte nouveau, chercher le support existant
    (code, loi ou décret traitant de la même matière) où insérer les règles (fiche 3.4.1). Un texte
    modificatif obéit à une grammaire propre, voir `references/modifications-insertions.md`.
@@ -319,7 +323,10 @@ rentables :
 - **Phrases courtes, une idée par alinéa**, énumérations en 1°, 2° puis a), b). Pas de « et/ou »,
   pas de « le ou les », pas de doubles négations, pas d'abréviations, sigles, parenthèses ou notes.
 - **Désigner par la fonction, pas par la personne** : « le ministre chargé de la santé » (sauf justice,
-  intérieur, défense, affaires étrangères), « l'autorité administrative » dans une loi.
+  intérieur, défense, affaires étrangères), « l'autorité administrative » dans une loi. Cette tournure
+  vaut pour le dispositif seulement : « Sur le rapport de » et l'article d'exécution portent le titre
+  officiel du ministre en fonction, que l'on laisse en blanc (« le ministre de … ») s'il n'est pas
+  donné.
 - **Mots à sens précis** : autorité / tutelle, conformité / compatibilité, suspendre / interrompre,
   dispositions (acte unilatéral) / stipulations (contrat, traité), « sous réserve » (prééminence) /
   « sans préjudice » (cumul) / « par dérogation » (exception ciblée). Le mot « notamment » est banni
@@ -339,6 +346,14 @@ rentables :
 - **Formules d'encadrement** : intitulé, visas, « Décrète : », article d'exécution, selon
   `references/formules-et-modeles.md`. Ne pas inventer un numéro NOR ni un numéro de texte : laisser
   « n° … du … ».
+- **Rédiger tout ce qui est demandé.** Une mesure dont un paramètre manque (classe de la
+  contravention, seuil, date) se rédige quand même, avec le seul paramètre entre crochets
+  (« contraventions de la [quatrième] classe ») et une ligne dans les points à arbitrer. Ne pas
+  retirer la mesure du dispositif ni mettre un article entier entre crochets : le rédacteur a besoin
+  d'un texte qu'il peut amender, pas d'une liste de questions. Cas type, « les contrevenants
+  pourront être sanctionnés » dans un projet de décret : rédiger une contravention (classe entre
+  crochets), viser l'article R. 610-1 du code pénal, passer en décret en Conseil d'Etat, et dire dans
+  les points à arbitrer qu'une amende administrative ou un délit relèverait de la loi.
 
 ### Étape 4 : livrer
 
@@ -450,7 +465,22 @@ en gras si l'utilisateur travaille en Markdown, sinon texte propre)
 ```
 
 Si le texte est long, on peut placer un renvoi numéroté « [3] » dans le texte corrigé à l'endroit de
-chaque commentaire. Ne jamais livrer les commentaires sans le texte corrigé, ni l'inverse.
+chaque commentaire, sauf si un fichier Word ou un texte à recopier est demandé (les renvois
+deviendraient des modifications). Ne jamais livrer les commentaires sans le texte corrigé, ni l'inverse.
+
+Le texte corrigé reste un texte utilisable. Quand une référence du projet n'a pas pu être vérifiée
+(pas d'accès à Légifrance), conserver la formule du rédacteur, la faire suivre de « [à vérifier] » et
+dire dans le commentaire ce qu'il faut contrôler (nombre d'alinéas, mots cités, existence de
+l'article) ; ne pas remplacer la disposition par des crochets vides. Quand l'accès existe, vérifier
+d'abord : une désignation d'alinéa fausse ou des mots cités inexacts sont les erreurs les plus graves
+d'un texte modificatif, et aucune lecture du seul projet ne les révèle.
+
+Si la vérification montre que le texte modifié n'est pas celui que le projet désigne (numéro, date
+ou intitulé faux), le dire en tête du diagnostic, au niveau Bloquant. Corriger alors tout ce qui ne
+dépend pas du texte modifié (encadrement, formules, langue, typographie), laisser telles quelles et
+marquées « [à vérifier] » les désignations d'articles, d'alinéas et de mots, et donner dans les
+questions la liste exacte de ce qu'il faut fournir. Le texte corrigé reste intégral : aucun passage
+n'est remplacé par une mention « à rédiger ».
 
 ## Fonction C : analyse d'un texte normatif
 
@@ -499,7 +529,8 @@ préalables de la légistique, **nécessité, niveau, portée**, dans cet ordre 
 Les constats se répondent d'une partie à l'autre (un délit créé par décret rend le texte inopportun en
 l'état) : dire le lien d'une ligne plutôt que répéter le constat.
 
-Chaque conclusion porte un **statut** : *Établi* (se lit dans le texte ou découle d'une fiche citée),
+Chaque conclusion porte un **statut**, constats numérotés, verdicts d'opportunité et appréciation de la
+qualité rédactionnelle compris : *Établi* (se lit dans le texte ou découle d'une fiche citée),
 *Vérifié* (texte en vigueur effectivement lu), *Risque* (appréciation dont le raisonnement est exposé),
 *À vérifier* (dépend d'un texte ou d'une jurisprudence non lus). Une conformité n'est jamais affirmée
 sans vérification : « aucun motif d'illégalité relevé dans les éléments examinés » n'est pas « conforme ».
@@ -520,24 +551,36 @@ recopier en confiance et ce qu'il doit contrôler :
 ## Références citées
 | Référence | Origine | Statut |
 |---|---|---|
-| code de la santé publique, article L. 5125-22 | ajoutée | vérifiée sur Légifrance (en vigueur depuis le …, navigateur) |
-| décret n° 2015-1689 du 17 décembre 2015 | demande | intitulé vérifié (JORF, recherche web) |
+| code de …, article L. … | ajoutée | vérifiée sur Légifrance : page de l'article lue (en vigueur depuis le …, navigateur) |
+| décret n° … du … | demande | intitulé inexact : Légifrance porte « … » (texte consolidé, recherche web) |
+| code de …, article R. … | demande | absent du code en vigueur (recherche sur Légifrance, navigateur) |
 | article R. … du code de … (article d'insertion) | ajoutée | laissée en blanc : à compléter |
-| code pénal, article R. 610-1 | ajoutée | non vérifiée : [à vérifier] |
+| code pénal, article R. 610-1 | ajoutée | citée par la fiche 5.6 du guide, non relue |
+| code de …, article L. … | ajoutée | non vérifiée : [à vérifier] |
 ```
 
+Les lignes ci-dessus montrent la forme, pas des références à reprendre : aucun numéro d'article ne se
+recopie depuis un exemple.
+
 - Une ligne par référence **ajoutée** (absente de la demande) et par référence **vérifiée** ; les
-  références de la demande reprises sans contrôle n'ont pas à y figurer.
+  références de la demande reprises sans contrôle n'ont pas à y figurer, sauf en fonction B quand le
+  projet relu en dépend (texte modifié, article cité) : les lister alors avec « non relue ». Les fiches
+  du guide citées à l'appui d'une règle de rédaction ne sont pas des références à lister.
 - Statut : « vérifiée » seulement après lecture effective sur Légifrance, avec la version lue et le mode
   d'accès ; « citée par la fiche … du guide » si elle vient des fichiers de la skill (le droit a pu
-  évoluer depuis) ; sinon « non vérifiée » ou « laissée en blanc ». Une référence connue de mémoire
-  n'est pas vérifiée, même si elle paraît certaine : jurisprudence, actes européens et articles voisins
-  du code sont les erreurs les plus fréquentes. Les articles de la Constitution n'ont pas à y figurer.
+  évoluer depuis) ; sinon « non vérifiée » ou « laissée en blanc ». Un extrait vu dans une liste de
+  résultats de recherche prouve qu'un article existe, pas ce qu'il dit : écrire alors « repérée
+  (résultat de recherche) », et réserver « vérifiée » à la page lue. Une référence connue de mémoire
+  n'est pas vérifiée, même si elle paraît certaine : les codes sont renumérotés (un numéro juste il y a
+  deux ans peut désigner aujourd'hui une autre règle), et jurisprudence, actes européens et articles
+  voisins du code sont les erreurs les plus fréquentes. Les articles de la Constitution n'ont pas à y
+  figurer.
 - Chaque référence « non vérifiée » porte aussi « [à vérifier] » dans le texte lui-même, pour que la
   marque survive au copier-coller du projet sans le tableau.
 - Si aucune référence n'a été ajoutée ni vérifiée, écrire une ligne : « Aucune référence ajoutée. »
 - Le script `scripts/lint_legistique.py --refs --source <demande>` liste les références du projet et
-  signale celles qui ne figurent pas dans la demande (voir « Contrôle automatique »).
+  signale celles qui ne figurent pas dans la demande (voir « Contrôle automatique »). C'est une passe
+  distincte : avec `--refs`, le script ne fait pas le contrôle des fautes.
 
 ## Livrables complémentaires
 
@@ -576,8 +619,12 @@ quand ils servent, sans les imposer :
   ultérieure »…) ;
 - **structure** (règles « structure-… ») : numérotation des articles, article d'exécution absent ou mal
   placé, entrée en vigueur après l'article d'exécution, visas ou article d'exécution dans une loi,
-  ordre des visas, « susvisé » fautif (code, loi, texte absent des visas, disposition insérée), même
-  article du texte modifié touché par plusieurs dispositions du projet.
+  ordre des visas, dernière ligne avant « Décrète : » ou « Arrête : » terminée par un point-virgule,
+  décret ou arrêté sans formule d'ouverture ni visas, « susvisé » fautif (code, loi, texte absent des
+  visas, disposition insérée), même article du texte modifié touché par plusieurs dispositions du
+  projet ;
+- **formules de modification** : mots cités sans deux-points (« les mots « … » »), « remplacés par
+  « … » » sans « les mots : », « il est ajouté les mots suivants ».
 
 Chaque constat donne la ligne, la fiche du guide et une gravité par défaut.
 
@@ -589,7 +636,9 @@ python3 <dossier de la skill>/scripts/lint_legistique.py projet.txt --refs --sou
 
 Un fichier `.md` (ou l'option `--markdown`) n'est contrôlé que dans ses blocs ```, à défaut dans ses
 lignes citées « > », à défaut hors titres et tableaux : on peut donc passer au script une réponse
-entière sans que les commentaires soient signalés.
+entière sans que les commentaires soient signalés, à condition que le projet y figure dans un bloc
+```. Une analyse (fonction C) n'en contient pas : passer au script le texte analysé, pas la réponse.
+Les trames d'exposé des motifs ou d'étude d'impact ne sont pas du dispositif : ne pas les contrôler.
 
 Enregistrer d'abord le texte (projet rédigé, ou texte à relire) dans un fichier temporaire, en texte
 brut. Le script ne signale que des **candidats** : il ignore déjà les mots cités du texte en vigueur
@@ -609,7 +658,7 @@ toujours par ces fiches de synthèse.
 |---|---|---|
 | `references/structure-et-plan.md` | Plans consacrés, ordre des rubriques, divisions, article, alinéas, énumérations, numérotation, insertion d'articles | Fonction A étape 2, fonction B point 2 |
 | `references/langue-et-style.md` | Temps et mode, phrases, vocabulaire à sens précis, mots proscrits, « notamment », locutions d'articulation, désignation des autorités, renvois, féminisation | Fonction A étape 3, fonction B point 6 |
-| `references/modifications-insertions.md` | Formules de modification, insertion, remplacement, suppression, abrogation ; techniques de présentation ; visas et « susvisé » ; renvois au droit positif | Tout texte modificatif |
+| `references/modifications-insertions.md` | Formules de modification, insertion, remplacement, suppression, abrogation ; ajout à une énumération ; techniques de présentation ; visas et « susvisé » ; renvois au droit positif ; extension outre-mer d'une modification de code (« compteur ») | Tout texte modificatif ; toute demande d'application outre-mer |
 | `references/formules-et-modeles.md` | Intitulé, squelettes complets de loi, ordonnance, décret, arrêté ; visas (quoi viser, ordre, rédaction) ; article d'exécution ; entrée en vigueur ; situations en cours ; abrogations ; renvois au règlement ; notice explicative | Fonction A étape 3, fonction B points 3 et 5 |
 | `references/typographie.md` | Règles typographiques du Journal officiel | Mise au propre finale, fonction B point 7 |
 | `references/grille-de-relecture.md` | Liste de contrôle ordonnée avec niveaux de gravité | Fonction B, et autocontrôle en fin de fonction A |
@@ -631,7 +680,8 @@ Le consulter seulement quand :
 - une question sort du champ des fiches de synthèse : détail d'une procédure d'élaboration (régime
   précis d'une consultation repérée dans `procedure-et-documents.md`, contreseings, signature,
   publication), application
-  outre-mer, Alsace-Moselle, Corse, lois de finances et de financement de la sécurité sociale, textes
+  outre-mer au-delà du « compteur » résumé dans `modifications-insertions.md` (compétences de chaque
+  collectivité, consultations, adaptations), Alsace-Moselle, Corse, lois de finances et de financement de la sécurité sociale, textes
   internationaux et européens, mesures individuelles et nominations ;
 - le texte relève d'un cas pratique du guide (partie 5 : services de l'Etat, organisme consultatif,
   établissement public, GIP, régime d'autorisation, sanctions, prélèvement fiscal, redevance, statuts
@@ -661,7 +711,9 @@ Méthode, pour ne pas saturer le contexte :
   seul ou omettre la précision. Chaque réponse se termine par la section « Références citées ».
 - Ne pas fabriquer de numéro NOR, de numéro de décret, de date de signature, de nom de ministre.
 - Ne pas trancher les questions de fond (seuils, montants, autorité compétente, sanctions) à la place
-  du rédacteur : proposer, marquer entre crochets, lister dans les points à arbitrer.
+  du rédacteur : proposer une rédaction complète, mettre entre crochets la seule valeur à arbitrer,
+  lister dans les points à arbitrer. La prudence porte sur les références et les choix de fond, pas
+  sur la rédaction : un projet réduit à des blancs et qualifié de « maquette » ne rend pas service.
 - Le guide distingue lois et règlements sur plusieurs formules ; quand la nature du texte est
   incertaine, donner la formule des deux régimes plutôt que d'en choisir une au hasard.
 - Un texte modificatif se rédige par rapport au texte **en vigueur** et consolidé ; si l'utilisateur ne

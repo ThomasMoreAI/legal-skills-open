@@ -5,7 +5,7 @@ description: Especialista en Derecho del Trabajo chileno, despidos (Art. 161 y 1
 author: elpabloultron
 author_url: https://github.com/elpabloultron/open-legal-chile/tree/main/.agents/skills/chilean-employment-legal
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cl
 practice: employment
@@ -38,10 +38,11 @@ viene de varias fuentes se cita con todas.
 * Jurisprudencia CS: `[CS - Rol N° <Número>-<Año>, Fecha: <D-M-A>]`
 
 ## 🛠️ Herramientas MCP Disponibles
-* `dt_search_doctrina`: Busca dictámenes vinculantes de la DT.
+* `dt_search_doctrina`: Busca dictámenes y doctrina laboral vinculante de la DT. Soporta análisis individual o en lote (`numero`/`numeros`/`article_id`), descarga de PDF oficial firmado con OCR forense sobre resoluciones escaneadas, conversión a Markdown canónico (`convertir_a_md_y_graficar=True`), ingesta en LegalGraphify y desglose de consideraciones doctrinarias por materia controvertida (`tema_relevante`).
 * `bcn_get_codigo`: Consulta artículos del Código del Trabajo.
 * `bcn_get_ley`: Consulta leyes laborales (21.643, 21.561, 20.607, 21.015, etc.).
 * `pjud_search_jurisprudencia`: Unificaciones de doctrina de la CS (Cuarta Sala).
+* `pjud_analizar_sentencia`: Desglose anatómico Art. 170 CPC de fallos laborales de la Corte Suprema o Apelaciones.
 * `export_brief_ojv`: Exporta escritos OJV (demanda laboral, finiquito).
 
 ---

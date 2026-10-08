@@ -1,11 +1,11 @@
 ---
 name: nfadp-carlosuhart
 title: nFADP / revDSG — Auditoría de Cumplimiento (Suiza)
-description: Audita un sitio web frente a la nueva Ley Federal de Protección de Datos Personales de Suiza (nFADP / revDSG — en vigor desde el 1 de septiembre de 2023). Detecta el sector automáticamente. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados con cuantificación de sanciones en CHF. Sub-skill del orquestador /privacidad — también invocable directamente.
+description: 'Auditoría nFADP/revDSG (Suiza, vigente desde el 1/9/2023): detecta el sector y entrega informe con score, estado por artículo, issues priorizados y sanciones en CHF. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/nfadp
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

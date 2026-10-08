@@ -1,11 +1,11 @@
 ---
 name: privacidad-carlosuhart
 title: Auditoría de Protección de Datos — Orquestador Multi-jurisdicción
-description: Orquestador multi-jurisdicción de auditorías de protección de datos personales. Detecta automáticamente la(s) ley(es) aplicables o acepta jurisdicciones explícitas via --ley. Ejecuta un único Paso 0 compartido y delega la auditoría a cada sub-skill. Produce informe consolidado con scores por jurisdicción e issues transversales unificados.
+description: 'Orquestador de auditorías de protección de datos en 8 jurisdicciones (RGPD, Ley 21.719, UK GDPR, LGPD, Ley 25.326, LFPDPPP, nFADP, CCPA/CPRA): detecta las leyes aplicables o acepta --ley, comparte el Paso 0 y entrega un informe consolidado con score por jurisdicción.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/privacidad
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

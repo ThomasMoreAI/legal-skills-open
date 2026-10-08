@@ -5,7 +5,7 @@ description: Search and look up official New Zealand Customs tariff classificati
 author: thecolab-ai
 author_url: https://github.com/thecolab-ai/.skills/tree/main/skills/customs-tariff-nz
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: nz
 practice: trade
@@ -35,6 +35,8 @@ python3 scripts/cli.py formula 2 --prefix --limit 20 --json
 ```
 
 Human-readable output is the default. Add `--json` to every data command for stable machine-readable output. `--limit` accepts 1–100, `--as-of` accepts `YYYY-MM-DD`, and every live request has a 10-second timeout.
+
+The CLI caches a fully validated archive in `.cache/` inside the skill for at most 12 hours. Cached results retain their original retrieval timestamp; an expired or damaged cache is refreshed. The first request validates every source row.
 
 ## Interpretation guardrails
 

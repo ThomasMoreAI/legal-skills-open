@@ -5,7 +5,7 @@ description: Decodifica un contrato de arrendamiento residencial a lenguaje clar
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/skills-i18n/es/lease-decoder
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: real-estate
@@ -85,3 +85,10 @@ Cierra el artefacto con esta línea, textual: *"Esta es una lectura en lenguaje 
 ## Basado en
 
 Práctica de revisión de contratos del lado del inquilino — triaje de cláusulas, cálculo del costo de salida, auditoría de condiciones del depósito.
+
+## Frases disparadoras de ejemplo
+
+- "¿Qué estoy firmando?"
+- "Explícame mi contrato de alquiler."
+- "¿Es normal este contrato de arrendamiento?"
+- "¿De verdad puede hacer esto mi casero?"

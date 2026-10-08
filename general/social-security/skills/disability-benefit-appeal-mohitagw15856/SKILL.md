@@ -5,7 +5,7 @@ description: Appeal a denied disability benefit (SSDI/SSI, PIP, DLA, ESA and sim
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/exports/openclaw/disability-benefit-appeal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: social-security
@@ -123,3 +123,9 @@ legal-aid solicitor for your benefit and country should review it.
 [[claim-denial-decoder]] and [[insurance-claim-appeal]] for private-insurance denials
 (different system); [[medical-records-request]] for the evidence; [[accommodation-request]]
 for the workplace side; [[spoon-planner]] for surviving the process.
+
+## Example Trigger Phrases
+
+- "My disability benefit was denied."
+- "Appeal my PIP/SSDI decision."
+- "How do I challenge a benefits decision?"
