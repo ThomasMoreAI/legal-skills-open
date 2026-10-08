@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 
-## Skills (667)
+## Skills (680)
 
 | Skill | What it does |
 |---|---|
@@ -142,6 +142,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Juristischer Argumentationskern - BGB Bt Prüfer`](skills/bgb-bt-pruefer-juristischer-argumentationskern/) | Schaltet sich ein, wenn in BGB Bt Prüfer ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`BGB BT Kommandocenter`](skills/bgb-bt-pruefer-kaltstart-triage/) | Für BGB BT Kommandocenter: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`BGB: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/bgb-business-einzelabrufe-sonderfall/) | Für BGB: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und Gegenargument… |
+| [`BGB: Mehrparteienkonflikt und Interessenmatrix`](skills/bgb-mehrparteien-konflikt-und-interessen-klotzkette/) | Für BGB: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bildungs Kurs AGB`](skills/bildungs-kurs-agb/) | Für Bildungs Kurs AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Blue Pencil Und Geltungserhaltende Reduktion`](skills/blue-pencil-board-agb-bonitaetspruefung-bonus/) | Für Blue Pencil und Geltungserhaltende Reduktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Board Brief AGB`](skills/board-brief-agb/) | Für Board Brief AGB: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
@@ -155,10 +156,12 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Bürgschaft Grundschema § 765 BGB`](skills/buergschaft-grundschema-paragraph-765/) | Für Bürgschaft Grundschema Paragraf 765 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bürgschaft: Form und Verbraucherbürge`](skills/buergschaft-verbraucherbuerge-grundschema/) | Für Bürgschaft: Form und Verbraucherbürge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bürgschaft, Verbraucherdarlehen und andere strenge Formen`](skills/buergschaft-verbraucherdarlehen-und-andere-strenge-formen/) | Für Bürgschaft, Verbraucherdarlehen und andere strenge Formen: ordnet Norm, Beweislast und… |
+| [`Business: Compliance-Dokumentation und Aktenvermerk`](skills/business-compliance-dokumentation-und-akte-klotzkette/) | Für Business: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Business Summary AGB`](skills/business-summary-agb/) | Für Business Summary AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Change Reqüst`](skills/change-request/) | Für Change Reqüst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Changes: Abschlussprodukt und Übergabe`](skills/changes-abschlussprodukt-und-uebergabe/) | Für Changes: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Changes: Beweislast, Darlegungslast und Substantiierung`](skills/changes-beweislast-docx-erkennen/) | Für Changes: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
+| [`Checklisten: Schriftsatz-, Brief- und Memo-Bausteine`](skills/checklisten-schriftsatz-brief-und-memo-bausteine-klotzkette/) | Für Checklisten: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Chirurgisch Quellenkarte`](skills/chirurgisch-quellenkarte/) | Für Chirurgisch Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Culpa in contrahendo — Vorvertragliche Pflichten §§ 280 und 311 BGB`](skills/cic-vorvertragliche-pflichten-schnittstelle/) | Für Culpa in contrahendo — Vorvertragliche Pflichten Paragrafen 280 und 311 BGB: ordnet Norm, Beweislast… |
 | [`Clause Redline Kommentar`](skills/clause-redline-kommentar/) | Für Clause Redline Kommentar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -226,6 +229,8 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Elektronische Form BeA QES Formfiktion`](skills/elektronische-form-bea-qes-formfiktion/) | Für Elektronische Form BeA QES Formfiktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Elektronische Form Paragraf 126a BGB — Qualifizierte elektronische Signatur`](skills/elektronische-paragraph-formerfordernisse/) | Für Elektronische Form Paragraf 126a BGB — Qualifizierte elektronische Signatur: ordnet Norm, Beweislast… |
 | [`Elektronischer Zugang und Plattformen — § 130 BGB digital`](skills/elektronischer-zugang-und-plattformen/) | Für Elektronischer Zugang und Plattformen — Paragraf 130 BGB digital: ordnet Norm, Beweislast und… |
+| [`Dokumentation: Verhandlung, Vergleich und Eskalation`](skills/empfangsbeduerftiger-international-klotzkette/) | Für Dokumentation: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument… |
+| [`Empfangsbeduerftiger: Internationaler Bezug und Schnittstellen`](skills/empfangsbeduerftiger-international-schnittstellen-klotzkette/) | Für Empfangsbeduerftiger: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und… |
 | [`Entgelt Nebenkosten Service Fees`](skills/entgelt-nebenkosten-service-fees/) | Für Entgelt Nebenkosten Service Fees: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/entwurf-tatbestand-beweis-und-belege/) | Für Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/entwurf-tatbestandsmerkmale-beweisfragen-beleglage/) | Für Entwurf: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -369,6 +374,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Lieferfrist Teillieferung`](skills/lieferfrist-teillieferung/) | Für Lieferfrist Teillieferung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Liquidated Damages`](skills/liquidated-damages/) | Für Liquidated Damages: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Workflow: Live-Quellen und Rechtsstand`](skills/live-quellen-rechtsstand/) | Für Workflow: Live-Quellen und Rechtsstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Live: Zahlen, Schwellenwerte und Berechnung`](skills/live-zahlen-schwellen-und-berechnung-klotzkette/) | Für Live: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Logistik Spedition AGB`](skills/logistik-spedition-agb/) | Für Logistik Spedition AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mängelrechte 309`](skills/maengelrechte-309/) | Für Mängelrechte 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mahngebuehren Und Zinsanpassung Agb`](skills/mahngebuehren-und-zinsanpassung-agb/) | Für Mahngebühren und Zinsanpassung AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -460,6 +466,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Produzentenhaftung und Verkehrssicherung`](skills/produzentenhaftung-und-verkehrssicherung/) | Für Produzentenhaftung und Verkehrssicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Produzentenhaftung und Verkehrssicherung`](skills/produzentenhaftung-verkehrssicherung/) | Für Produzentenhaftung und Verkehrssicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Prozessablauf: Mandantenkommunikation und Entscheidungsvorlage`](skills/prozessablauf-mandantenentscheidung/) | Für Prozessablauf: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und… |
+| [`Prozessordnungen: Behörden-, Gerichts- oder Registerweg`](skills/prozessordnungen-textform-verifikation-klotzkette/) | Für Prozessordnungen: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Strukturierten Prüfbericht ausgeben`](skills/pruefbericht-erstellen/) | Erstellt den nachvollziehbaren Themen- und Regelbericht mit wörtlichen Positionszählern, Quellen… |
 | [`Prüfung: Red-Team und Qualitätskontrolle`](skills/pruefung-red-team-und-qualitaetskontrolle/) | Für Prüfung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Playbook-Vorschläge prüfen und genehmigen`](skills/pruefungsvorschlaege/) | Für Playbook-Vorschläge prüfen und genehmigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -491,6 +498,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Risk Acceptance Memo`](skills/risk-acceptance-memo/) | Für Risk Acceptance Memo: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Rollout Mail Bestandskunden`](skills/rollout-mail-bestandskunden/) | Für Rollout Mail Bestandskunden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Rollout Monitoring AGB`](skills/rollout-monitoring-agb/) | Für Rollout Monitoring AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Routing: Zahlen, Schwellenwerte und Berechnung`](skills/routing-zahlen-schwellen-und-berechnung-klotzkette/) | Für Routing: Zahlen, Schwellenwerte und Berechnung: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Rueckfragen: Compliance-Dokumentation und Aktenvermerk`](skills/rueckfragen-compliance-dokumentation-und-akte/) | Für Rückfragen: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Fehlende Vertragsangaben klären und die Ausfüllung fortsetzen`](skills/rueckfrageninterview/) | Klärt fehlende oder widersprüchliche Angaben einer Vertragsvorlage anhand von Term Sheet, Korrespondenz… |
 | [`NDA: Rueckgabe/Vernichtung`](skills/rueckgabe-vernichtung-nda-typen/) | Für NDA: Rückgabe/Vernichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -503,6 +511,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Schadensrecht §§ 249-253 BGB`](skills/schadensrecht-paragraphen-249-253/) | Für Schadensrecht Paragrafen 249-253 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schiedsklausel prüfen und formulieren`](skills/schiedsklausel-pruefen-und-formulieren/) | Prüft und entwirft AGB-Schiedsvereinbarungen nach Parteistatus, Form, Verfahrensbelastung und… |
 | [`Schnittstelle BGB-AT, Methodenlehre und AGB §§ 305-310 BGB`](skills/schnittstelle-bgb-at-methodenlehre-agb/) | Für Schnittstelle BGB-AT, Methodenlehre und AGB Paragrafen 305-310 BGB: ordnet Norm, Beweislast und… |
+| [`Schriftform: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/schriftform-fristen-form-und-zustaendigkeit-klotzkette/) | Für Schriftform: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Schriftform Paragraf 126 BGB — Eigenhändige Unterschrift`](skills/schriftform-paragraph-126-bgb-eigenhaendige-unterschrift/) | Für Schriftform Paragraf 126 BGB — Eigenhändige Unterschrift: ordnet Norm, Beweislast und Gegenargument… |
 | [`Schriftform Textform`](skills/schriftform-textform/) | Für Schriftform Textform: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Schriftform und Textform im BGB — Allgemein`](skills/schriftform-textform-bgb-start-chronologie-fristen/) | Für Schriftform und Textform im BGB — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
@@ -588,6 +597,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Verhandlungsstand in eine konsistente Unterschriftenfassung überführen`](skills/verhandlung-und-unterschriftenfassung-abschliessen/) | Verarbeitet konkrete Gegenangebote zu einer konsistenten B2B-Vertragsfassung und erstellt… |
 | [`Verhandlungs Playbook AGB`](skills/verhandlungs-playbook-agb/) | Für Verhandlungs Playbook AGB: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Workflow: Vergleich und Verhandlungsplan`](skills/verhandlungsplan-vertragsschluss/) | Für Workflow: Vergleich und Verhandlungsplan: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
+| [`Verifikation: Compliance-Dokumentation und Aktenvermerk`](skills/verifikation-compliance-dokumentation-und-akte-klotzkette/) | Für Verifikation: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Verjährung BGB-BT Spezial`](skills/verjaehrung-bgb-bt-spezial/) | Für Verjährung BGB-BT Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verjährung — Grundschema §§ 194 bis 218 BGB`](skills/verjaehrung-grundschema-paragraphen-194-218/) | Für Verjährung — Grundschema Paragrafen 194 bis 218 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`/vertragsrecht:verjaehrung-pruefung`](skills/verjaehrung-pruefung-borghei/) | Vollständige Verjährungsprüfung im Zivilrecht – Regelverjährung § 195 BGB, kenntnisabhängiger Beginn und… |
@@ -660,6 +670,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Widerruf Umfeld AGB`](skills/widerruf-umfeld-agb/) | Für Widerruf Umfeld AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Willenserklärung — Tatbestand §§ 116 ff. BGB`](skills/willenserklaerung-tatbestand/) | Für Willenserklärung — Tatbestand Paragrafen 116 ff. BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Willenserklärung — Tatbestand §§ 116 ff. BGB`](skills/willenserklaerung-wucher-ausbeutung-zugang/) | Für Willenserklärung — Tatbestand Paragrafen 116 ff. BGB: ordnet Norm, Beweislast und Gegenargument… |
+| [`Willenserklaerung: Formular, Portal und Einreichungslogik`](skills/willenserklaerung-zivilrecht-zugang-klotzkette/) | Für Willenserklärung: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Wohnraummiete AGB`](skills/wohnraummiete-agb/) | Für Wohnraummiete AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Word: Zahlen, Schwellenwerte und Berechnung`](skills/word-zahlen-schwellen-und-berechnung/) | Für Word: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Anfängercoach Schuldrecht BT`](skills/workflow-anfangercoach-schuldrecht-bt/) | Für Anfängercoach Schuldrecht BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -672,6 +683,8 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Wucher und Ausbeutung — § 138 Abs. 2 BGB`](skills/wucher-und-ausbeutung-paragraph-138-2/) | Für Wucher und Ausbeutung — Paragraf 138 Abs. 2 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Zahlungsmittel Chargeback`](skills/zahlungsmittel-chargeback/) | Für Zahlungsmittel Chargeback: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zahlungsverzug Mahnkosten`](skills/zahlungsverzug-mahnkosten/) | Für Zahlungsverzug Mahnkosten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Zivilrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/zivilrecht-tatbestand-beweis-und-belege-klotzkette/) | Für Zivilrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB`](skills/zugang-empfangsbeduerftiger-formgerechter/) | Für Zugang empfangsbedürftiger Willenserklärungen Paragraf 130 BGB: ordnet Norm, Beweislast und… |
 | [`Zugang — § 130 BGB`](skills/zugang-paragraph-130/) | Für Zugang — Paragraf 130 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Zugang: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/zugang-risikoampel-und-gegenargumente-klotzkette/) | Für Zugang: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Zugangsvereitelung und Annahmeverweigerung`](skills/zugangsvereitelung-und-annahmeverweigerung/) | Für Zugangsvereitelung und Annahmeverweigerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

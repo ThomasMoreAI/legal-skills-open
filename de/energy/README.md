@@ -4,7 +4,7 @@ German energy law — EEG/KWKG remuneration, grid connection and access, network
 
 Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (70)
+## Skills (73)
 
 | Skill | What it does |
 |---|---|
@@ -62,6 +62,7 @@ Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see
 | [`Fusion: Sicherheitsnachweis und Störfalllogik`](skills/fusion-sicherheitsnachweis/) | Für Fusion: Sicherheitsnachweis und Störfalllogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fusion: Strahlenschutz und Neutronenaktivierung`](skills/fusion-strahlenschutz-neutronen-transrapid-anbindung-h2/) | Für Fusion: Strahlenschutz und Neutronenaktivierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fusion und Transrapid-Anschluss`](skills/fusion-transrapid-anbindung/) | Für Fusion und Transrapid-Anschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Industrie: Schriftsatz-, Brief- und Memo-Bausteine`](skills/industrie-schriftsatz-brief-und-memo-bausteine-klotzkette/) | Für Industrie: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Industriekunden — Sonderregelungen`](skills/industriekunden/) | Für Industriekunden — Sonderregelungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Infrastrukturprojekte und Planfeststellung`](skills/infrastrukturprojekte/) | Für Infrastrukturprojekte und Planfeststellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kommunale Stadtwerke, Vergabe und Beihilfe`](skills/kommunale-stadtwerke-vergabe-und-beihilfe/) | Für Kommunale Stadtwerke, Vergabe und Beihilfe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -71,10 +72,12 @@ Jurisdiction: `de` · Practice: `energy` · Skill language varies per skill (see
 | [`Netzanschluss: Formular, Portal und Einreichungslogik`](skills/netzanschluss-formular-portal-und-einreichung/) | Für Netzanschluss: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Projektfinanzierung Energie`](skills/projektfinanzierung/) | Für Projektfinanzierung Energie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Verfahren: Livequellen- und Rechtsprechungscheck`](skills/spezial-verfahren-livequellen-und-rechtsprechungscheck/) | Für Verfahren: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
+| [`Stadtwerke: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/stadtwerke-tatbestand-beweis-und-belege-klotzkette/) | Für Stadtwerke: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Energie-Transaktionen und Due Diligence`](skills/transaktionen-dd-2/) | Für Energie-Transaktionen und Due Diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verfahren — Behörden und Gerichte`](skills/verfahren-2/) | Für Verfahren — Behörden und Gerichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verfahren Quellenkarte`](skills/verfahren-quellenkarte/) | Für Verfahren Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Vertrieb: Behörden-, Gerichts- oder Registerweg`](skills/vertrieb-behoerden-gericht-und-registerweg/) | Für Vertrieb: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vertrieb und Marktrollen`](skills/vertrieb-marktrollen-waerme/) | Für Vertrieb und Marktrollen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Waerme: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/waerme-dokumentenmatrix-und-lueckenliste-klotzkette/) | Für Wärme: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Wärme, Quartier und Fernwärme`](skills/waerme-quartier/) | Für Wärme, Quartier und Fernwärme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wettbewerb und Beihilfen im Energierecht`](skills/wettbewerb/) | Für Wettbewerb und Beihilfen im Energierecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
