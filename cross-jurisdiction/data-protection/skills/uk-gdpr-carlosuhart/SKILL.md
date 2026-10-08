@@ -1,11 +1,11 @@
 ---
 name: uk-gdpr-carlosuhart
 title: UK GDPR + PECR — Auditoría de Cumplimiento
-description: Audita un sitio web frente al UK GDPR (Retained EU Law post-Brexit) y las PECR 2003 (Privacy and Electronic Communications Regulations). Detecta el sector automáticamente. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados con cuantificación de sanciones en GBP. Sub-skill del orquestador /privacidad — también invocable directamente.
+description: 'Auditoría UK GDPR y PECR 2003 (Reino Unido tras el Brexit): detecta el sector y entrega informe con score, estado por artículo, issues priorizados y sanciones en GBP. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/uk-gdpr
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

@@ -1,11 +1,11 @@
 ---
 name: icc-jeannesulzer
 title: ICC skill
-description: Research, drafting, and analysis involving the International Criminal Court (Rome Statute system). Enforces a verification-first methodology — every case-law, decision, filing, warrant, and statement citation is verified against an authoritative primary source (icc-cpi.int, legal-tools.org) in the current conversation before it appears in an output. Foundational texts (Rome Statute, Elements of Crimes, RPE, Regulations of the Court) may be cited from project knowledge when present. Use whenever the user is working with ICC case law, OTP statements, ASP documents, or ICC procedure.
+description: Research, drafting, and analysis involving the International Criminal Court (Rome Statute system). Enforces a verification-first methodology — every case-law, decision, filing, warrant, and statement citation is verified against an authoritative primary source (legal-tools.org, icc-cpi.int) in the current conversation before it appears in an output. Foundational texts (Rome Statute, Elements of Crimes, RPE, Regulations of the Court) may be cited from project knowledge when present. Use whenever the user is working with ICC case law, OTP statements, ASP documents, or ICC procedure.
 author: jeannesulzer
 author_url: https://github.com/jeannesulzer/international-criminal-tribunals-skills/tree/main/icc
 license: CC-BY-4.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: criminal
@@ -27,8 +27,8 @@ sources:
 
 For any case-specific document — judgment, decision, warrant, filing, OTP
 statement — **verify before citing**. Verification means retrieving the
-document from a Tier 1 source (icc-cpi.int, legal-tools.org, asp.icc-cpi.int)
-in the current conversation. The four foundational texts (Rome Statute,
+document from a Tier 1 source (the ICC Legal Tools Database at
+legal-tools.org, icc-cpi.int, asp.icc-cpi.int) in the current conversation. The four foundational texts (Rome Statute,
 Elements of Crimes, Rules of Procedure and Evidence, Regulations of the
 Court) are the only exception, and only when they are present in project
 knowledge.
@@ -65,10 +65,10 @@ form:
 2. **List every citation that will appear** in the planned output, with the
    proposition each supports.
 3. **Verify each citation.** Work the fallback ladder:
-   icc-cpi.int → legal-tools.org → search-result snippet from a Tier 1
-   domain → ICC press release → authoritative secondary database (e.g.
-   OUP ORIL) → ask the user. Stop at the first level that satisfies what
-   the claim needs.
+   legal-tools.org (the Legal Tools Database) → icc-cpi.int →
+   search-result snippet from a Tier 1 domain → ICC press release →
+   authoritative secondary database (e.g. OUP ORIL) → ask the user. Stop
+   at the first level that satisfies what the claim needs.
 4. **Match verification level to claim.** Three levels: **Existence**
    (document, number, date, chamber), **Content** (the document holds, in
    substance, what the output says it holds), **Paragraph** (the cited
@@ -136,5 +136,6 @@ skill.
 4. Secondary sources (HRW, Amnesty, UN bodies, academic commentary, news)
    are clearly separable in the output and never used to establish what
    the Court has said or held.
-5. icc-cpi.int 403s are structural, not failures. Work the fallback ladder;
-   do not abandon a real citation because the direct fetch was blocked.
+5. icc-cpi.int 403s are structural, not failures. Start retrieval at the
+   Legal Tools Database and work the fallback ladder; do not abandon a real
+   citation because a direct fetch was blocked.

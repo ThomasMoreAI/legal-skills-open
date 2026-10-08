@@ -5,7 +5,7 @@ description: Auditoría LegalTech, análisis de cumplimiento EU AI Act (Artícul
 author: borjamoskv
 author_url: https://github.com/borjamoskv/cortex-persist/tree/main/skills/c5-real-legaltech-analysis
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: contracts
@@ -13,6 +13,12 @@ language: es
 ---
 
 # Skill: C5-REAL LegalTech Analysis (Ω16 / Ω20 / Ω32)
+
+> **Directiva Declarativa (Orquestación en Árbol de Trabajo):**
+> - **Rol Asignado:** `auditor` (Auditor (Verificación Independiente, Linters de Silicio & Fail-Closed Gate))
+> - **Modo de Acceso a Worktree:** `audit-only` (audit-only (Lectura forense de diffs, linters, tests de estrés y cálculo de exergía; cero mutación de código))
+> - **Fase Causal:** `verification`
+> - **Contrato Handoff:** Recibe de `ejecutor` $\to$ Despacha a `operador`
 
 Proporciona el marco epistemológico para analizar y decodificar sistemas legales, startups LegalTech, contratos y contenido editorial jurídico a través del estándar C5-REAL.
 
@@ -337,3 +343,21 @@ Al evaluar o presentar métricas de financiación ante comités de inversión:
 2. **Infraestructura Criptográfica de Confianza (Capital de Alta Exergía):**
    - Rondas Seed de 2M$–3M$ y Series A de 15M$–20M$ tienen como objetivo establecer el **estándar técnico de facto** (estilo HashiCorp o Docker). 
    - No compite por el usuario final de Word; licencia el motor de auditoría y certificación AESIA a las propias aplicaciones de IA y a grandes corporaciones. Múltiplo de salida estándar: 25x–50x ARR.
+
+---
+
+## Módulo Forense: Auditoría de Contratos de Gobernanza de IA y Falsación de Guardrails Estocásticos (EU AI Act Arts. 26 / 71)
+
+Cuando se auditen herramientas de gobernanza, observabilidad o guardrails de IA en entornos corporativos:
+
+### 1. Auditoría de Deslinde de Responsabilidad (Deployer Liability Audit)
+* **Verificación de Cláusula de Idoneidad Regulatoria:** Contrastar si el proveedor comercial garantiza contractualmente la conformidad con los requisitos de Alto Riesgo (Anexo III, Arts. 9–15) o si traslada todo el riesgo al Desplegador mediante fórmulas tipo *"Customer assumes sole responsibility for compliance with all applicable AI laws"*.
+* **Evaluación del Cap de Indemnización:** Mapear el tope indemnizatorio contractual frente al régimen del Art. 71 EU AI Act (hasta 35M€ / 7% facturación). Todo cap acotado a *fees paid in the past 12 months* o *100 USD* debe calificarse como **Riesgo Crítico (L₄ - Compliance Retórico / Falso Isomorfismo)**.
+
+### 2. Test Matemático de Validez de Guardrail (Falsación de Diligencia Debida)
+Calcular la cota de fallo ineludible en función del volumen transaccional de la entidad:
+$$\mathbb{E}[\text{catástrofes anuales}] = N \times (\epsilon \cdot \delta)$$
+* Si $\mathbb{E}[\text{catástrofes}] \ge 1$, el sistema auditado es **probabilísticamente inviable para tareas con efectos jurídicos o mutación causal de datos**. Emitir dictamen de insuficiencia técnica frente a los estándares de supervisión humana (Art. 14) y robustez (Art. 15).
+
+### 3. Matriz Forense de Fuga de Telemetría (Zero-Cloud Invariant)
+Auditar si la solución requiere el envío de payloads, metadatos o embeddings a endpoints SaaS externos (LangSmith, Credo Cloud, Lakera API), evaluando el impacto conjunto bajo **GDPR (Capítulo V - Transferencias Internacionales)** y **EU AI Act Art. 10 (Gobernanza de Datos)**.

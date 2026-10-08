@@ -5,7 +5,7 @@ description: Especialista en Derecho Administrativo chileno, dictámenes e infor
 author: elpabloultron
 author_url: https://github.com/elpabloultron/open-legal-chile/tree/main/.agents/skills/chilean-administrative-legal
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cl
 practice: administrative
@@ -38,12 +38,12 @@ viene de varias fuentes se cita con todas.
 * Ley: `[BCN - Ley N° <Número>, Art. <Número>]`
 
 ## 🛠️ Herramientas MCP Disponibles
-* `cgr_search_jurisprudencia`: Busca dictámenes en jurisprudencia administrativa de la CGR.
+* `cgr_search_jurisprudencia`: Busca dictámenes en jurisprudencia administrativa de la CGR. Soporta análisis individual o en lote (`doc_id`/`doc_ids`), descarga de PDF oficial firmado (`descargar_formato='pdf'`), conversión a Markdown canónico (`convertir_a_md_y_graficar=True`), ingesta en el Knowledge Graph LegalGraphify y desglose/ranking de consideraciones por tema controvertido (`tema_relevante`).
 * `cgr_search_auditorias`: Busca en los 9.600+ informes de auditoría de la CGR.
-* `cmf_search_normativa`: NCG y circulares de la CMF.
-* `sii_search_circulares`: Circulares del Director del SII (2020-2026).
-* `dt_search_doctrina`: Doctrina laboral vinculante DT.
-* `sma_search_sancionatorios`: Procedimientos sancionatorios ambientales SNIFA.
+* `cmf_search_normativa`: NCG y circulares de la CMF (admite análisis integral, descarga y LegalGraphify).
+* `sii_search_circulares`: Circulares e instrucciones del Director del SII (admite análisis integral, descarga y LegalGraphify).
+* `dt_search_doctrina`: Doctrina laboral vinculante DT (admite análisis integral, OCR forense y LegalGraphify).
+* `sma_search_sancionatorios`: Procedimientos sancionatorios ambientales SNIFA (admite análisis integral y LegalGraphify).
 * `bcn_get_ley`: Texto oficial de leyes (19.886, 21.634, 19.880, etc.).
 
 ---

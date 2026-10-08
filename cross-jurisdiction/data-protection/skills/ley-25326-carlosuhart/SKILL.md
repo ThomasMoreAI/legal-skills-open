@@ -1,11 +1,11 @@
 ---
 name: ley-25326-carlosuhart
 title: Ley 25.326 — Auditoría de Cumplimiento (Argentina)
-description: Audita un sitio web frente a la Ley 25.326 de Protección de Datos Personales (Argentina). Detecta el sector automáticamente. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados con cuantificación de sanciones. Sub-skill del orquestador /privacidad — también invocable directamente.
+description: 'Auditoría Ley 25.326 (Argentina): detecta el sector y entrega informe con score, estado por artículo, issues priorizados y sanciones. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/ley-25326
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

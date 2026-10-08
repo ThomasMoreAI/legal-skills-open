@@ -1,11 +1,11 @@
 ---
 name: lfpdppp-carlosuhart
 title: LFPDPPP — Auditoría de Cumplimiento (México)
-description: Audita un sitio web frente a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP — México, 2010) y su Reglamento. Detecta el sector automáticamente. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados con cuantificación de sanciones. Sub-skill del orquestador /privacidad — también invocable directamente.
+description: 'Auditoría LFPDPPP y su Reglamento (México): detecta el sector y entrega informe con score, estado por artículo, issues priorizados y sanciones. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/lfpdppp
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

@@ -5,7 +5,7 @@ description: 'Use when researching an Australian tax question for a file note or
 author: ryanduguid
 author_url: https://github.com/ryanduguid/australian-accounting-skills/tree/main/.claude/skills/au-tax-research
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: au
 practice: tax
@@ -24,7 +24,7 @@ The question in the client's or requester's words, the established facts with th
 
 2. Read the operative law first. Open the provision on the Federal Register of Legislation in the compilation in force for the period, and record the compilation number and date. Read the definitions it relies on and any commencement, application or transitional provision. Note a later compilation or an uncommenced amendment; do not apply it to an earlier period.
 
-3. Add the Commissioner's view and the cases, each labelled by what it is. A public ruling binds the Commissioner for an entity it applies to that relies on it (TR 2006/10 paragraph 30). A practical compliance guideline states how the ATO will allocate compliance resources; it is not the law. A decision impact statement gives the ATO's response to a decision. An edited version of private advice binds nobody: taxpayers cannot rely on it and the Commissioner is not bound by it (PS LA 2008/4, "Taxpayer reliance on edited versions"), because it records advice given to someone else on other facts. A court or tribunal decision carries the weight of its court and turns on its facts, and a dissent is not the decision. Open each document's Legal Database page and record any withdrawal, addendum, draft status or "being reviewed" notice it shows.
+3. Add the Commissioner's view and the cases, each labelled by what it is. A public ruling binds the Commissioner for an entity it applies to that relies on it (TR 2006/10 paragraph 30). A practical compliance guideline states how the ATO will allocate compliance resources; it is not the law. A decision impact statement gives the ATO's response to a decision. An edited version of private advice binds nobody: taxpayers cannot rely on it and the Commissioner is not bound by it (PS LA 2008/4, "Taxpayer reliance on edited versions"), because it records advice given to someone else on other facts. A court or tribunal decision carries the weight of its court and turns on its facts, and a dissent is not the decision. For each decision, record its medium neutral citation in AGLC4 form with the paragraph relied on, and check its later history before relying on it: an appeal, a later decision that departs from it, or a decision impact statement. Open each document's Legal Database page and record any withdrawal, addendum, draft status or "being reviewed" notice it shows.
 
 4. Test currency for the period and for today. For each source record the version read, the date read and one label: `CONFIRMED` where both the version for the period and its status today were checked, or `SOURCE CURRENCY NOT CONFIRMED` otherwise. Never describe a source as current or latest without that check.
 

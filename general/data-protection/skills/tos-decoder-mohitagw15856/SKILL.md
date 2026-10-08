@@ -5,7 +5,7 @@ description: Decodifica unos términos de servicio o una política de privacidad
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/skills-i18n/es/tos-decoder
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -80,3 +80,9 @@ Termina el artefacto con, textualmente: *"Esta es una lectura en lenguaje claro,
 ## Basado en
 
 Práctica de revisión de contratos de consumo — triaje de cláusulas por impacto, lectura del alcance de licencias, análisis de cláusulas de disputa.
+
+## Frases disparadoras de ejemplo
+
+- "Explícame esta política de privacidad."
+- "¿Son malos estos términos de servicio?"
+- "¿Debo hacer clic en aceptar?"

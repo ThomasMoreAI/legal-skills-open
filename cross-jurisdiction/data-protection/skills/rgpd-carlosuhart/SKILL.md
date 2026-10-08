@@ -1,11 +1,11 @@
 ---
 name: rgpd-carlosuhart
 title: RGPD — Auditoría de Cumplimiento (Reglamento UE 2016/679)
-description: Audita un sitio web frente al Reglamento General de Protección de Datos (RGPD / GDPR — Reglamento UE 2016/679). Detecta el sector del sitio y el estado miembro objetivo de forma automática y aplica variaciones nacionales. Produce informe de cumplimiento con score, tabla de estado por artículo e issues priorizados con cuantificación de sanciones.
+description: 'Auditoría RGPD/GDPR (Reglamento UE 2016/679): detecta el sector y el estado miembro con sus variaciones nacionales y entrega informe con score, estado por artículo, issues priorizados y sanciones. Sub-skill de /privacidad, también invocable sola.'
 author: carlosuhart
 author_url: https://github.com/carlosuhart/seo-audit-skills/tree/main/skills/rgpd
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

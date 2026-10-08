@@ -5,7 +5,7 @@ description: Führt Kanzleiaufträge vom Posteingang über Fachprodukt und mensc
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-native-kanzlei/skills/ki-kanzlei-steuern
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -29,6 +29,8 @@ Die anwaltliche Verantwortung verbleibt bei der zuständigen Rechtsanwältin ode
 Der Auftrag für einen Entwurf umfasst die reversiblen internen Arbeiten, nicht automatisch Versand, Einreichung, Vergleichsabschluss, Anerkenntnis, Rechtsmittelverzicht oder produktive Buchung. Eine bereits erteilte Autorisierung wird übernommen und nicht erneut verlangt. Ist eine externe Handlung noch nicht beauftragt, bereite ihr Ergebnis mit Empfänger, Fassung und Anlagen so weit vor, dass darüber entschieden werden kann; interne Arbeit wird nicht wegen einer erst am Ende benötigten Versandfreigabe angehalten.
 
 ### 1.3. Auslöser, Abgrenzung und Nachbarskills
+
+Bei „Kanzlei neu aufbauen“ beginne mit [Kanzlei gründen und einrichten](../kanzlei-gruenden-einrichten/SKILL.md): Organisation, führende Systeme, erlaubte Konten, Probemandat und Vertretung. Bei einem Postfachstapel beginne mit [Posteingang zu Mandaten bearbeiten](../posteingang-mandate-zuordnen/SKILL.md): Originale, Zuordnung, Frist, konkretes Produkt und Fortsetzungsstand. Lade nur den benötigten Einstieg, nicht alle zwanzig Skills gleichzeitig. Bereits gespeicherte Gründungs- und Kontenangaben werden übernommen.
 
 Bei neuer Anfrage, laufendem Mandat, Fristauslöser, Rechnungsbestellung oder Mandatsende bestimmt dieser Skill das nächste Produkt und verbindet die zuständigen Fachskills. Ein Computerlauf beginnt ebenfalls hier, damit Postfacharbeit, Fristen und Sacharbeit denselben Aktenstand verwenden.
 
@@ -77,7 +79,7 @@ Schreibe intern einen Satz, der Aufgabe, Umfang und Abnahmekriterium verbindet: 
 
 Trenne drei Entscheidungsebenen: Der Nutzer bestimmt Ziel und zulässige externe Handlung, die juristische Bearbeitung den tragfähigen Weg, die technische Bearbeitung die Umsetzung. Eine Konvertierung darf nicht unbemerkt den Antrag verändern, eine Budgetgrenze nicht als Zustimmung zum Rechtsverlust gelesen werden, ein erfolgreicher Prüflauf kein juristisches Risiko erledigen.
 
-### 3.2. Die achtzehn Skills gezielt verbinden
+### 3.2. Die zwanzig Skills gezielt verbinden
 
 | Nr. | Skill | Auslöser erkennbar an | Konkreter Anschluss und Abnahme |
 |---|---|---|---|
@@ -99,8 +101,10 @@ Trenne drei Entscheidungsebenen: Der Nutzer bestimmt Ziel und zulässige externe
 | 16 | [Abrechnung und E-Rechnung](../abrechnung-e-rechnung/SKILL.md) | Eine Rechnung, Vorschussanforderung oder Schlussrechnung ist bestellt. | Gebührenrecht, Steuerrecht, Leistungsbeschreibung und Empfängerformat getrennt geprüft. |
 | 17 | [Zahlungen und Buchhaltung](../zahlungen-buchhaltung/SKILL.md) | Ein Kontoauszug, Vorschuss, Fremdgeld oder eine Erstattung ist eingegangen. | Vorschuss, Honorar, Fremdgeld, Auslagen und Saldo unterscheidbar; keine produktive Buchung. |
 | 18 | [Mandat abschließen](../mandat-abschliessen/SKILL.md) | Kündigung, Erfüllung, Rechtskraft oder Mandatswechsel ist eingetreten. | Ergebnis, Restpflichten, Herausgabe, Abrechnung und Aufbewahrung geregelt. |
+| 19 | [Kanzlei gründen und einrichten](../kanzlei-gruenden-einrichten/SKILL.md) | Neue Kanzlei oder Umstellung ihrer Arbeitsorganisation. | Führende Systeme, Zuständigkeiten, begrenzte Kontorechte und belegtes Probemandat. |
+| 20 | [Posteingang zu Mandaten bearbeiten](../posteingang-mandate-zuordnen/SKILL.md) | Mehrere Nachrichten, Anhänge oder Konten müssen zugeordnet werden. | Originale, eindeutige Mandatszuordnung, Fristübergabe und fortsetzbarer Eingangslauf. |
 
-Die Tabelle ist eine Routinghilfe, kein Achtzehn-Schritte-Zwang; die tatsächliche Reihenfolge bestimmen Phase und offene Gates aus dem Mandatslauf nach Abschnitt 3.14, nicht die Nummer in der Tabelle. Wird ein Schriftsatz nur an einen belegten Zahlungseingang angepasst, genügen Schriftsatz, Mandantenkommunikation und Zeitanschluss; kommt eine neue Gesellschaft hinzu, werden Annahme, Kollision und Honorarreichweite erneut relevant.
+Die Tabelle ist eine Auswahlhilfe, kein Zwanzig-Schritte-Zwang; die tatsächliche Reihenfolge bestimmen Phase und offene Gates aus dem Mandatslauf nach Abschnitt 3.14, nicht die Nummer in der Tabelle. Wird ein Schriftsatz nur an einen belegten Zahlungseingang angepasst, genügen Schriftsatz, Mandantenkommunikation und Zeitanschluss; kommt eine neue Gesellschaft hinzu, werden Annahme, Kollision und Honorarreichweite erneut relevant.
 
 ### 3.3. Welcher Skill zuerst
 

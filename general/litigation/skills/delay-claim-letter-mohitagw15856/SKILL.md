@@ -5,7 +5,7 @@ description: Draft a construction delay notice or delay claim letter with contra
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/exports/openclaw/delay-claim-letter
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
@@ -81,3 +81,11 @@ Include the line: *"This draft is not legal advice — route through your contra
 - [ ] Do not narrate delay against the calendar — tie it to critical-path activities or expect denial
 - [ ] Do not put a hard number in a notice letter — you'll be held to your worst early guess
 - [ ] Do not editorialise about the owner's competence — facts, clause, impact, relief, reservation; nothing else
+
+## Example Trigger Phrases
+
+- "Write a delay notice."
+- "Put the owner or GC on notice of delay."
+- "Draft a time extension request."
+- "Respond to weather."
+- "Paper a delay for a claim."
