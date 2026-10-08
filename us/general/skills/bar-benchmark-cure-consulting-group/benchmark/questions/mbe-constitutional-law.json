@@ -1,0 +1,368 @@
+{
+  "set": "mbe-constitutional-law",
+  "title": "MBE-style — Constitutional Law",
+  "component": "mbe",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MBE-CON-001",
+      "subject": "Constitutional Law",
+      "area": "Justiciability — taxpayer standing",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A federal statute appropriates funds to the Department of Energy for general research. The Secretary of Energy, using her discretion, spends part of those funds on conferences at which clergy are invited to deliver opening prayers. A federal taxpayer sues, claiming the expenditures violate the Establishment Clause. Does the taxpayer have standing?",
+      "choices": {
+        "A": "Yes, because taxpayers always have standing to raise Establishment Clause challenges.",
+        "B": "Yes, because the money came from a congressional appropriation.",
+        "C": "No, because the challenged expenditures result from executive discretion, not a specific congressional appropriation for the challenged purpose.",
+        "D": "No, because taxpayers never have standing to challenge federal spending."
+      },
+      "answer": "C",
+      "cite": "Flast v. Cohen (U.S. 1968); Hein v. Freedom From Religion Found. (U.S. 2007)",
+      "why": "C: the Flast exception is limited to congressional taxing-and-spending measures that themselves fund the challenged activity; discretionary executive spending falls outside it (Hein). A: overstates Flast. B: a general appropriation does not make the specific use congressional. D: Flast is a narrow exception to the general bar.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-002",
+      "subject": "Constitutional Law",
+      "area": "Justiciability — mootness exception",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state law requires independent candidates to file petitions 200 days before a general election. A candidate sued, but the election took place before the case was decided. She plans to run again in the next cycle under the same law. The state moves to dismiss as moot. The court should:",
+      "choices": {
+        "A": "Deny the motion, because the dispute is capable of repetition yet evading review.",
+        "B": "Grant the motion, because the election has already occurred.",
+        "C": "Grant the motion, because she can file a new suit before the next election.",
+        "D": "Deny the motion, because election-law cases are never moot."
+      },
+      "answer": "A",
+      "cite": "Moore v. Ogilvie (U.S. 1969); Storer v. Brown (U.S. 1974)",
+      "why": "A: election disputes are classic capable-of-repetition-yet-evading-review cases where the plaintiff is likely to face the same law again. B: ignores the exception. C: the timeline would again evade review. D: overstates; election cases can become moot absent a reasonable expectation of recurrence.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-003",
+      "subject": "Constitutional Law",
+      "area": "Federal powers — Commerce Clause, non-economic activity",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Congress enacts a statute making it a federal crime to carry a knife with a blade longer than four inches within 500 feet of a public playground. Congress made no findings and the statute has no jurisdictional element tying it to interstate commerce. A defendant charged under the statute challenges its constitutionality. The strongest argument that the statute is invalid is that:",
+      "choices": {
+        "A": "Knives are not instrumentalities of interstate commerce.",
+        "B": "Possessing a knife near a playground is non-economic activity whose aggregate effect on interstate commerce is too attenuated.",
+        "C": "Regulating public playgrounds is reserved to the states by the Tenth Amendment regardless of any commerce connection.",
+        "D": "Congress failed to make legislative findings, which the Commerce Clause requires."
+      },
+      "answer": "B",
+      "cite": "United States v. Lopez (U.S. 1995); United States v. Morrison (U.S. 2000)",
+      "why": "B: Lopez holds that non-economic, local possession offenses cannot be aggregated to show a substantial effect on commerce. A: true but beside the point; the question is the substantial-effects category. C: the Tenth Amendment adds nothing if a commerce power exists; it is not an independent bar. D: findings are helpful but not required (and did not save Morrison).",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-004",
+      "subject": "Constitutional Law",
+      "area": "Federal powers — spending conditions",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Congress conditions a state's receipt of 3% of its federal public-transit grants on the state's adopting a law requiring bus drivers to be tested for drug use. The condition is stated clearly in the statute. A state challenges the condition as beyond Congress's power. The condition is most likely:",
+      "choices": {
+        "A": "Invalid, because Congress cannot regulate state employees.",
+        "B": "Invalid, because it commandeers the state legislature.",
+        "C": "Valid, because Congress may directly regulate all public transit under the Commerce Clause.",
+        "D": "Valid, because it is unambiguous, related to the federal interest in the funded program, and not coercive."
+      },
+      "answer": "D",
+      "cite": "South Dakota v. Dole (U.S. 1987); NFIB v. Sebelius (U.S. 2012)",
+      "why": "D: a clear, germane, non-coercive condition on a modest share of federal funds is a valid use of the spending power. A: Congress may influence state policy through conditional funding. B: voluntary acceptance of funds is not commandeering. C: the question concerns the spending power; the answer does not rest on direct regulation.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-005",
+      "subject": "Constitutional Law",
+      "area": "Federalism — anti-commandeering",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A federal statute requires each state's chief law enforcement officer to conduct background checks on purchasers of certain body armor and report the results to a federal agency. A county sheriff refuses and sues. The statute is most likely:",
+      "choices": {
+        "A": "Unconstitutional, because Congress may not compel state executive officers to administer a federal regulatory program.",
+        "B": "Constitutional, because body armor sales affect interstate commerce.",
+        "C": "Constitutional, because the Supremacy Clause requires state officers to enforce federal law.",
+        "D": "Unconstitutional, because body armor regulation is reserved to the states."
+      },
+      "answer": "A",
+      "cite": "Printz v. United States (U.S. 1997); New York v. United States (U.S. 1992)",
+      "why": "A: Printz forbids conscripting state executive officers to implement federal programs. B: commerce power supports regulating sales directly, not commandeering. C: the Supremacy Clause binds state judges, not executive conscription. D: Congress may regulate the sales; the defect is the method.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-006",
+      "subject": "Constitutional Law",
+      "area": "Dormant Commerce Clause — market participant",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A state owns and operates a cement plant. It sells cement only to in-state buyers during shortages and, by statute, requires any in-state buyer to use the cement only in projects within the state. An out-of-state contractor challenges both the sales preference and the use restriction. Which is the most likely result?",
+      "choices": {
+        "A": "Both are valid under the market-participant exception.",
+        "B": "Both are invalid as facial discrimination against interstate commerce.",
+        "C": "The sales preference is valid, but the downstream use restriction is not protected by the market-participant exception.",
+        "D": "Both are valid because the state may regulate its own resources as it wishes."
+      },
+      "answer": "C",
+      "cite": "Reeves, Inc. v. Stake (U.S. 1980); South-Central Timber Dev. v. Wunnicke (U.S. 1984)",
+      "why": "C: a state selling its own product may prefer residents (Reeves), but conditions controlling downstream use are market regulation (South-Central Timber) subject to the anti-discrimination rule. A: the exception does not extend downstream. B: ignores the exception for the state's own sales. D: overstates the state's power beyond its participant role.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-007",
+      "subject": "Constitutional Law",
+      "area": "Article IV Privileges and Immunities",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state charges a $50 license fee to resident commercial fishers and a $2,500 fee to nonresidents. An out-of-state corporation that operates fishing boats sues under the Privileges and Immunities Clause of Article IV. The court should:",
+      "choices": {
+        "A": "Strike the fee, because commercial livelihood is a fundamental interest.",
+        "B": "Dismiss the claim, because corporations are not citizens protected by the Article IV Privileges and Immunities Clause.",
+        "C": "Uphold the fee, because fishing is a recreational activity.",
+        "D": "Strike the fee under strict scrutiny."
+      },
+      "answer": "B",
+      "cite": "U.S. Const. art. IV, §2; Paul v. Virginia (U.S. 1869); Toomer v. Witsell (U.S. 1948)",
+      "why": "B: Article IV P&I protects individual citizens, not corporations (they would sue under the dormant Commerce Clause). A: correct for an individual nonresident fisher, but the plaintiff is a corporation. C: commercial fishing is livelihood, not recreation. D: P&I uses substantial-reason review, not strict scrutiny, and does not apply here.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-008",
+      "subject": "Constitutional Law",
+      "area": "Preemption — conflict",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A federal regulation requires that certain medical-device labels contain only the warnings approved by the federal agency and forbids adding any other warning without agency approval. A state statute requires manufacturers to add a specific extra warning to the same labels. A manufacturer cannot comply with both. The state statute is:",
+      "choices": {
+        "A": "Valid, because health and safety is a traditional state concern.",
+        "B": "Valid, because federal regulations cannot preempt state statutes.",
+        "C": "Valid unless Congress expressly preempted state labeling laws.",
+        "D": "Preempted, because it is impossible to comply with both federal and state requirements."
+      },
+      "answer": "D",
+      "cite": "U.S. Const. art. VI; PLIVA, Inc. v. Mensing (U.S. 2011)",
+      "why": "D: impossibility conflict preemption displaces state law. A: the presumption against preemption yields to actual conflict. B: valid federal regulations have preemptive force. C: implied conflict preemption does not require express language.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-009",
+      "subject": "Constitutional Law",
+      "area": "Separation of powers — removal",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Congress creates a new federal agency headed by a single director with a five-year term who wields significant executive power, including rulemaking and enforcement. The statute permits the President to remove the director only for 'inefficiency, neglect of duty, or malfeasance.' The President fires the director for policy disagreement. The removal restriction is most likely:",
+      "choices": {
+        "A": "Unconstitutional, because a single-director agency wielding significant executive power must be removable at will.",
+        "B": "Constitutional, because Humphrey's Executor permits for-cause protection for agency heads.",
+        "C": "Constitutional, because Congress created the office and may set its terms.",
+        "D": "Unconstitutional, because only the Senate can remove principal officers."
+      },
+      "answer": "A",
+      "cite": "Seila Law LLC v. CFPB (U.S. 2020); Collins v. Yellen (U.S. 2021)",
+      "why": "A: Seila Law holds for-cause protection for a single director exercising significant executive power violates separation of powers. B: Seila Law refused to extend Humphrey's to single directors, and Trump v. Slaughter (2026) has since overruled Humphrey's altogether. C: Congress's creation of the office does not let it restrict presidential removal. D: removal is an executive, not Senate, power; impeachment is separate.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-010",
+      "subject": "Constitutional Law",
+      "area": "State action",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A private company that operates a large shopping mall bans leafleting on its property. A political activist handing out leaflets is removed and sues the company in federal court, alleging a violation of her rights under the First Amendment to the U.S. Constitution; she asserts no state-law claim. The mall is heavily regulated by the city and received a city tax abatement. The activist will most likely:",
+      "choices": {
+        "A": "Win, because the mall is the functional equivalent of a town square.",
+        "B": "Win, because the city's regulation and tax abatement make the mall a state actor.",
+        "C": "Lose, because operating a shopping mall is not a traditional, exclusive public function and regulation or subsidy alone does not create state action.",
+        "D": "Lose, because leafleting is not protected speech."
+      },
+      "answer": "C",
+      "cite": "Hudgens v. NLRB (U.S. 1976); Jackson v. Metropolitan Edison Co. (U.S. 1974); Rendell-Baker v. Kohn (U.S. 1982)",
+      "why": "C: malls are not company towns, and regulation or financial benefit does not convert private conduct into state action. A: Marsh applies to company towns; Hudgens rejected extending it to malls. B: regulation and subsidy are insufficient. D: leafleting is core protected expression; the problem is lack of state action. (Some state constitutions, e.g., California's, protect mall speech.)",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-011",
+      "subject": "Constitutional Law",
+      "area": "Procedural due process — public employment",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state university employs a groundskeeper under a civil-service statute providing that classified employees may be fired only for cause. The university fires him for alleged theft without telling him the charge or giving him any chance to respond, but offers a full evidentiary hearing two months later. He sues, claiming a due process violation. What result?",
+      "choices": {
+        "A": "He loses, because public employment is a privilege, not a right.",
+        "B": "He loses, because the post-termination hearing satisfies due process.",
+        "C": "He wins, because he was entitled to a full evidentiary hearing before termination.",
+        "D": "He wins, because he was entitled to pre-termination notice of the charges and an opportunity to respond."
+      },
+      "answer": "D",
+      "cite": "Cleveland Bd. of Educ. v. Loudermill (U.S. 1985); Mathews v. Eldridge (U.S. 1976)",
+      "why": "D: a for-cause employee has a property interest requiring pre-termination notice and a chance to respond, plus a full post-termination hearing. A: the right-privilege distinction is obsolete; for-cause status creates property. B: the post-termination hearing alone is insufficient. C: the pre-termination hearing need not be a full evidentiary one.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-012",
+      "subject": "Constitutional Law",
+      "area": "Substantive due process — post-Dobbs",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A state enacts a statute prohibiting most abortions after 12 weeks of pregnancy, with exceptions for medical emergencies. A physician challenges the law in federal court under the Due Process Clause of the Fourteenth Amendment. What standard of review will the court apply?",
+      "choices": {
+        "A": "Strict scrutiny, because the law burdens a fundamental right.",
+        "B": "Rational basis review, because there is no federal constitutional right to abortion.",
+        "C": "The undue-burden standard.",
+        "D": "Intermediate scrutiny, because the law classifies by sex."
+      },
+      "answer": "B",
+      "cite": "Dobbs v. Jackson Women's Health Org. (U.S. 2022)",
+      "why": "B: Dobbs overruled Roe and Casey; abortion regulations receive rational-basis review. A: Dobbs held abortion is not a fundamental federal right. C: Casey's undue-burden test was overruled. D: Dobbs held abortion regulation is not a sex-based classification triggering heightened scrutiny.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-013",
+      "subject": "Constitutional Law",
+      "area": "Equal protection — sex classification",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state statute permits women, but not men, to be admitted at age 16 to a state-run nursing apprenticeship program; men must wait until 18. The state defends the law as reflecting the historical predominance of women in nursing. A 16-year-old male applicant sues. Which statement best describes the case?",
+      "choices": {
+        "A": "The applicant must prove the law has no rational basis.",
+        "B": "The applicant must prove the legislature acted with animus.",
+        "C": "The state must show an exceedingly persuasive justification: that the classification substantially relates to an important governmental interest.",
+        "D": "The state must show the law is necessary to a compelling interest."
+      },
+      "answer": "C",
+      "cite": "United States v. Virginia (U.S. 1996); Mississippi Univ. for Women v. Hogan (U.S. 1982)",
+      "why": "C: sex classifications get intermediate scrutiny with an exceedingly persuasive justification, and the state bears the burden; perpetuating stereotypes fails. A: rational basis is the wrong tier. B: facial sex classification needs no proof of animus. D: strict scrutiny applies to race, not sex.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-014",
+      "subject": "Constitutional Law",
+      "area": "Equal protection — discriminatory purpose",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A city requires all firefighter applicants to pass a written test on fire science. The test is job-related, but Black applicants pass at a significantly lower rate than white applicants. There is no evidence the city adopted the test for a discriminatory reason. A rejected Black applicant sues under the Equal Protection Clause. The court will most likely:",
+      "choices": {
+        "A": "Uphold the test, because a facially neutral law with only disparate impact receives rational-basis review.",
+        "B": "Strike the test, because it has a racially disparate impact.",
+        "C": "Apply strict scrutiny, because the test burdens a racial minority.",
+        "D": "Apply intermediate scrutiny, because employment is an important interest."
+      },
+      "answer": "A",
+      "cite": "Washington v. Davis (U.S. 1976); Personnel Adm'r v. Feeney (U.S. 1979)",
+      "why": "A: equal protection requires discriminatory purpose; disparate impact alone triggers only rational basis, which a job-related test passes. B: impact without intent is insufficient under the Constitution (Title VII is different). C: strict scrutiny requires purposeful racial classification. D: employment is not a quasi-suspect class or fundamental right.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-015",
+      "subject": "Constitutional Law",
+      "area": "Free speech — content-based regulation",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A city ordinance permits residents to post temporary yard signs about upcoming elections for 60 days, but limits signs announcing religious or community events to 3 days. A church challenges the ordinance. The court should apply:",
+      "choices": {
+        "A": "Intermediate scrutiny, because the ordinance regulates the time and manner of signs.",
+        "B": "Rational basis, because signs are a form of conduct.",
+        "C": "The O'Brien test, because the ordinance regulates expressive conduct.",
+        "D": "Strict scrutiny, because the ordinance is content-based on its face."
+      },
+      "answer": "D",
+      "cite": "Reed v. Town of Gilbert (U.S. 2015)",
+      "why": "D: an ordinance that treats signs differently based on the message they convey is facially content-based and subject to strict scrutiny, regardless of benign motive. A: time/place/manner review applies only to content-neutral rules. B: signs are speech, not mere conduct. C: O'Brien applies to conduct regulations unrelated to content.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-016",
+      "subject": "Constitutional Law",
+      "area": "Free speech — nonpublic forum",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state prison allows outside groups to mail newsletters to inmates but bans newsletters from any group advocating the abolition of prisons, while allowing newsletters from groups advocating stricter sentencing. A prison-abolition group sues. The ban is most likely:",
+      "choices": {
+        "A": "Valid, because a prison is a nonpublic forum where restrictions need only be reasonable.",
+        "B": "Invalid, because even in a nonpublic forum, restrictions must be viewpoint-neutral.",
+        "C": "Valid, because inmates have no First Amendment rights.",
+        "D": "Invalid, because a prison mail system is a traditional public forum."
+      },
+      "answer": "B",
+      "cite": "Perry Educ. Ass'n v. Perry Local Educators' Ass'n (U.S. 1983); Rosenberger v. Rector (U.S. 1995)",
+      "why": "B: nonpublic-forum restrictions must be reasonable and viewpoint-neutral; banning one side of a debate is viewpoint discrimination. A: omits the viewpoint-neutrality requirement. C: inmates and senders retain First Amendment rights subject to penological-interest review. D: prison mail is not a traditional public forum.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-017",
+      "subject": "Constitutional Law",
+      "area": "Free speech — commercial speech",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A state bans all price advertising for prescription eyeglasses, citing an interest in preventing consumers from choosing low-quality products based on price. The ads at issue are truthful and concern lawful sales. An optician challenges the ban. The ban is most likely:",
+      "choices": {
+        "A": "Invalid, because the state cannot show the complete ban directly advances a substantial interest and is not more extensive than necessary.",
+        "B": "Valid, because commercial speech receives only rational-basis review.",
+        "C": "Valid, because the state may protect consumers from making poor purchasing decisions.",
+        "D": "Invalid, because commercial speech receives the same strict scrutiny as political speech."
+      },
+      "answer": "A",
+      "cite": "Central Hudson Gas & Elec. v. Public Serv. Comm'n (U.S. 1980); 44 Liquormart v. Rhode Island (U.S. 1996); Virginia Pharmacy Bd. (U.S. 1976)",
+      "why": "A: truthful, lawful commercial speech is protected by Central Hudson intermediate scrutiny, and paternalistic total bans fail its fit requirement. B: commercial speech gets intermediate, not rational-basis, review. C: keeping consumers ignorant is not a permissible means. D: commercial speech does not receive strict scrutiny.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-018",
+      "subject": "Constitutional Law",
+      "area": "Establishment Clause — history and tradition",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A county board has opened its meetings for 80 years with a prayer delivered by volunteer clergy from rotating local congregations. Attendees are not asked to participate, and the prayers do not denigrate other faiths. A resident sues under the Establishment Clause. Which analysis will the court most likely apply?",
+      "choices": {
+        "A": "The Lemon test: purpose, primary effect, and entanglement.",
+        "B": "The endorsement test: whether a reasonable observer would perceive government endorsement.",
+        "C": "Reference to historical practices and understandings, under which the practice is likely constitutional.",
+        "D": "Strict scrutiny, because the government is sponsoring religious speech."
+      },
+      "answer": "C",
+      "cite": "Kennedy v. Bremerton Sch. Dist. (U.S. 2022); Town of Greece v. Galloway (U.S. 2014); Marsh v. Chambers (U.S. 1983)",
+      "why": "C: Kennedy directs courts to historical practices and understandings; nondenominational-rotation legislative prayer without coercion fits the tradition (Town of Greece). A and B: Kennedy abandoned Lemon and its endorsement offshoot. D: strict scrutiny applies to denominational preferences, not traditional legislative prayer.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-019",
+      "subject": "Constitutional Law",
+      "area": "Free Exercise — general applicability",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "During a public-health emergency, a state limits in-home gatherings to three households, including in-home religious worship. The same order allows hair salons, retail stores, and movie theaters to operate at reduced capacity with more than three households present. A group holding in-home Bible studies challenges the limit. The court will most likely:",
+      "choices": {
+        "A": "Uphold the limit under Employment Division v. Smith, because it applies equally to religious and secular in-home gatherings.",
+        "B": "Uphold the limit, because public-health measures receive rational-basis review during emergencies.",
+        "C": "Strike the limit, because any burden on religion triggers strict scrutiny.",
+        "D": "Apply strict scrutiny, because the order treats comparable secular activities more favorably than religious exercise."
+      },
+      "answer": "D",
+      "cite": "Tandon v. Newsom (U.S. 2021); Fulton v. City of Philadelphia (U.S. 2021)",
+      "why": "D: under Tandon, a law is not generally applicable if it treats any comparable secular activity more favorably, judged by the risk posed, not the setting; strict scrutiny follows. A: Smith applies only to neutral, generally applicable laws. B: there is no emergency exception to Free Exercise scrutiny. C: incidental burdens from neutral, generally applicable laws get rational basis under Smith.",
+      "ref": "constitutional-law.md"
+    },
+    {
+      "id": "MBE-CON-020",
+      "subject": "Constitutional Law",
+      "area": "Takings — physical access regulation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A state regulation requires agricultural employers to allow union organizers onto their farms for up to three hours a day, 120 days a year. A grower challenges the regulation under the Takings Clause. The regulation is most likely:",
+      "choices": {
+        "A": "Not a taking, because it is temporary and intermittent and leaves the grower with economically viable use.",
+        "B": "A per se physical taking requiring just compensation, because it appropriates the right to exclude.",
+        "C": "A taking only if it fails the Penn Central balancing test.",
+        "D": "Not a taking, because it serves a legitimate public purpose."
+      },
+      "answer": "B",
+      "cite": "Cedar Point Nursery v. Hassid (U.S. 2021)",
+      "why": "B: Cedar Point holds a regulation granting third parties physical access appropriates the right to exclude and is a per se taking. A: intermittency goes to compensation, not to whether a taking occurred. C: Penn Central governs use restrictions, not physical appropriations. D: public purpose satisfies public use but does not excuse compensation.",
+      "ref": "constitutional-law.md"
+    }
+  ]
+}

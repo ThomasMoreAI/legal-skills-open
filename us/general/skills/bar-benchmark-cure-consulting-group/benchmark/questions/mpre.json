@@ -1,0 +1,548 @@
+{
+  "set": "mpre",
+  "title": "MPRE-style — Professional Responsibility",
+  "component": "mpre",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MPRE-001",
+      "subject": "Professional Responsibility",
+      "area": "Fees — contingent fee writing",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A lawyer agreed in a phone call to represent a pedestrian in a personal-injury claim for one-third of any recovery, with expenses deducted after the fee. The next day the lawyer emailed the client a summary of those terms; the client replied 'Sounds good,' but never signed anything. The case settled favorably and the lawyer took one-third. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "No, because the client accepted the terms in writing by email reply.",
+        "B": "Yes, because a contingent-fee agreement must be in a writing signed by the client.",
+        "C": "No, because one-third is a customary and reasonable personal-injury fee.",
+        "D": "Yes, because a contingent fee in a personal-injury matter requires court approval."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 1.5(c)",
+      "why": "B: 1.5(c) requires the contingent-fee agreement to be in a writing signed by the client, stating the method and expense treatment. A: an unsigned email reply is confirmation, not a signed writing. C: reasonableness under 1.5(a) does not cure the 1.5(c) formality. D: the Model Rules impose no court-approval requirement (NY Appellate Division schedules cap PI percentages but are not the MPRE rule).",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-002",
+      "subject": "Professional Responsibility",
+      "area": "Fees — domestic relations contingent fee",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Five years after a divorce decree, a mother has not received $40,000 in child support ordered in the decree. She hires a lawyer to collect the arrears for 25% of whatever is collected. Is the fee arrangement proper?",
+      "choices": {
+        "A": "No, because contingent fees are prohibited in all domestic relations matters.",
+        "B": "No, because child support belongs to the child and cannot fund a lawyer's fee.",
+        "C": "Yes, because a contingent fee to collect past-due support under an existing judgment is not contingent on securing a divorce or on the amount of support.",
+        "D": "Yes, but only if the family court approves the fee in advance."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 1.5(d)(1) & cmt. [6]",
+      "why": "C: 1.5(d)(1) bars fees contingent on securing a divorce or on the amount of alimony/support/property settlement; comment [6] says the rule does not preclude a contingent fee to recover post-judgment balances due. A: overstates the ban. B: no such rule. D: no prior court approval is required. (NY 1.5(d)(5) is broader — any fee contingent on the amount of maintenance or support, and a Part 1400 written retainer is required.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-003",
+      "subject": "Professional Responsibility",
+      "area": "Fees — division between lawyers",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Lawyer R, who does not handle medical-malpractice cases, refers a client to Lawyer S. R and S agree in a writing given to the client that R assumes joint responsibility for the representation and will receive 30% of the fee although S will do all the work. The client agrees in writing after being told each lawyer's share. The total fee is reasonable. Is the arrangement proper?",
+      "choices": {
+        "A": "No, because R's share is not proportional to the work R performs.",
+        "B": "No, because payment for a referral is prohibited.",
+        "C": "Yes, but only if R also performs some legal services on the matter.",
+        "D": "Yes, because R assumed joint responsibility and the client agreed in writing to the arrangement, including each lawyer's share."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 1.5(e)",
+      "why": "D: 1.5(e) allows division either in proportion to services or where each lawyer assumes joint responsibility, with client agreement (including shares) confirmed in writing and a reasonable total. A: proportionality is only one alternative. B: a division with joint responsibility is not a prohibited referral payment under 7.2(b). C: joint responsibility substitutes for work performed. (NY 1.5(g) is substantively the same.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-004",
+      "subject": "Professional Responsibility",
+      "area": "Professional independence — fee sharing",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A solo practitioner hires a digital-marketing company to generate leads. The contract pays the company 10% of the fees the lawyer collects on any case that originated from its campaigns. The company never gives legal advice. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "Yes, because the lawyer is sharing legal fees with a nonlawyer and paying for recommendations.",
+        "B": "No, because the company does not engage in the practice of law.",
+        "C": "No, as long as each client is informed of the arrangement.",
+        "D": "No, because payment to a marketing company is a reasonable cost of advertising."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rules 5.4(a), 7.2(b)",
+      "why": "A: a percentage of legal fees paid to a nonlawyer is fee-sharing barred by 5.4(a) and a payment for recommendations barred by 7.2(b). B: 5.4 applies whether or not the nonlawyer practices law. C: client consent does not cure 5.4. D: advertising costs must be paid on a basis not tied to fees earned from particular clients. (Same in NY 5.4 and 7.2.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-005",
+      "subject": "Professional Responsibility",
+      "area": "Confidentiality — death or bodily harm",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "During a meeting, a client charged with fraud tells his lawyer that tomorrow he intends to seriously injure a cooperating witness. The lawyer believes him. What may the lawyer do?",
+      "choices": {
+        "A": "The lawyer must disclose the threat to the police.",
+        "B": "The lawyer may reveal the information to the extent reasonably necessary to prevent reasonably certain death or substantial bodily harm.",
+        "C": "The lawyer may not reveal the information because it is privileged.",
+        "D": "The lawyer may reveal the information only after withdrawing from the representation."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 1.6(b)(1)",
+      "why": "B: 1.6(b)(1) permits disclosure reasonably necessary to prevent reasonably certain death or substantial bodily harm. A: disclosure is permissive, not mandatory, under the Model Rules. C: privilege does not limit the ethical exception, and statements of future crimes are not protected by it. D: no withdrawal precondition exists. (NY 1.6(b)(1) is the same; NY 1.6(b)(2) also permits disclosure to prevent any client crime.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-006",
+      "subject": "Professional Responsibility",
+      "area": "Confidentiality — financial fraud using lawyer's services",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A lawyer prepared offering documents for a client's private placement. After the closing, the lawyer learns the client inserted fabricated revenue figures into the documents and is about to sell a second tranche to new investors using the same documents. The client refuses to stop. Which statement is correct under the Model Rules?",
+      "choices": {
+        "A": "The lawyer may disclose information to the extent reasonably necessary to prevent the fraud and to prevent or mitigate the investors' losses, because the client used the lawyer's services.",
+        "B": "The lawyer must report the fraud to the SEC, because the Model Rules make disclosure of an ongoing client fraud mandatory.",
+        "C": "The lawyer may not disclose because the fraud relates to a completed transaction.",
+        "D": "The lawyer may withdraw but may not disclose anything, including by disaffirming the documents."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rules 1.6(b)(2)-(3), 1.16(a)(1), 4.1(b) & 1.2(d) cmts.",
+      "why": "A: 1.6(b)(2)-(3) permit disclosure to prevent, mitigate, or rectify substantial financial injury from a client crime/fraud in which the lawyer's services were used. B: 1.6 is permissive and imposes no duty to report to a regulator (4.1(b) requires disclosure of a material fact to a third person only when disclosure is necessary to avoid assisting the client's fraud and 1.6 permits it; withdrawal and disaffirmance ordinarily avoid assisting, and nothing mandates a report to the SEC — SEC Part 205 is outside the Model Rules). C: the second tranche is prospective, and (b)(3) reaches completed frauds too. D: a lawyer may give notice of withdrawal and disaffirm documents (1.2 cmt. [10]); the Rules do not bar it. (NY 1.6(b) lacks the financial-injury exceptions but permits disclosure to prevent a client crime and to withdraw an opinion or representation still being relied on.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-007",
+      "subject": "Professional Responsibility",
+      "area": "Candor — client perjury in civil trial",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In a civil trial, a lawyer's client testified on direct examination that she never received a warning letter. During a break, before closing arguments, she admits to the lawyer that she did receive it. What must the lawyer do?",
+      "choices": {
+        "A": "Nothing, because the admission is a confidential communication protected by Rule 1.6.",
+        "B": "Withdraw from the representation without disclosing the reason.",
+        "C": "Argue the testimony in closing but not repeat it.",
+        "D": "Remonstrate with the client and, if she will not correct the testimony, take reasonable remedial measures including disclosure to the tribunal."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 3.3(a)(3), (c) & cmt. [10]",
+      "why": "D: when a lawyer learns the client offered material false evidence, 3.3(a)(3) requires reasonable remedial measures — remonstrate, then disclose to the tribunal if necessary — even if 1.6 would otherwise protect the information (3.3(c)). A: 3.3 overrides 1.6. B: withdrawal alone does not undo the false evidence and may not be permitted. C: relying on the testimony in argument would further the fraud on the court. (Same in NY 3.3.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-008",
+      "subject": "Professional Responsibility",
+      "area": "Candor — adverse legal authority",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Opposing counsel's brief omits several authorities. Which authority MUST the lawyer disclose to the court?",
+      "choices": {
+        "A": "A persuasive decision of another state's supreme court directly adverse to the lawyer's position.",
+        "B": "A trial-court decision in the same jurisdiction that is factually similar and adverse.",
+        "C": "A decision of the jurisdiction's highest court, known to the lawyer, that is directly adverse to the client's position.",
+        "D": "A law review article criticizing the lawyer's argument."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 3.3(a)(2)",
+      "why": "C: 3.3(a)(2) requires disclosure of legal authority in the controlling jurisdiction known to be directly adverse and not disclosed by opposing counsel. A: out-of-state authority is not controlling. B: a trial-court decision does not bind other courts, so it is not controlling authority (disclosure is permitted, not required). D: secondary sources are not legal authority subject to the rule.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-009",
+      "subject": "Professional Responsibility",
+      "area": "Communications — represented organization, former employee",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A plaintiff's lawyer is suing a manufacturer, which is represented by counsel. Without contacting the manufacturer's counsel, the lawyer interviews the manufacturer's former plant manager, who left the company last year and has no lawyer. The lawyer does not ask about the manager's conversations with company counsel. Was the interview proper?",
+      "choices": {
+        "A": "No, because the former manager's acts while employed may be imputed to the manufacturer.",
+        "B": "Yes, because a former constituent is not a represented person under Rule 4.2, provided the lawyer does not seek privileged information.",
+        "C": "No, because consent of the manufacturer's counsel is required to contact any current or former employee.",
+        "D": "Yes, but only because the manager initiated the contact."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 4.2 cmt. [7]; Rule 4.4(a)",
+      "why": "B: comment [7] states consent of the organization's lawyer is not required to communicate with a former constituent; the lawyer must not use methods that violate the organization's legal rights such as privilege. A: imputation of acts matters only for current constituents. C: overstates 4.2. D: who initiates is irrelevant under 4.2. (NY 4.2 is similar; NY 4.2(b) additionally permits a lawyer to script a client's direct communication with a represented person on advance notice to that person's counsel.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-010",
+      "subject": "Professional Responsibility",
+      "area": "Technology — generative AI billing",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A lawyer billing hourly uses a generative-AI tool to produce a first draft of a discovery response. Drafting, prompting, and reviewing the output took 1 hour; the same task without the tool would have taken 5 hours. The client did not agree to any special billing arrangement. How may the lawyer bill for the task?",
+      "choices": {
+        "A": "5 hours, because the value of the work product is the same.",
+        "B": "5 hours, if the lawyer discloses the tool's use on the invoice.",
+        "C": "1 hour — the time actually spent, including prompting and reviewing the output.",
+        "D": "Nothing, because work produced by software is not legal services."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 1.5(a); ABA Formal Op. 512 (2024)",
+      "why": "C: Formal Op. 512 says a lawyer billing hourly must bill actual time spent (including input and review) and may not bill for time saved by the tool. A and B: billing unworked hours is an unreasonable fee under 1.5(a), disclosure or not. D: the lawyer's prompting and review are compensable legal work.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-011",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — suing a current client on unrelated matter",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A firm represents a bank in routine loan documentation. A new client asks the firm to sue the bank for negligence in an unrelated personal-injury matter arising from a fall in a bank branch. What is required before the firm may take the new matter?",
+      "choices": {
+        "A": "Nothing, because the matters are unrelated.",
+        "B": "The firm may never be adverse to a current client.",
+        "C": "Only the bank's informed consent, because the bank is the existing client.",
+        "D": "A reasonable belief that the firm can competently and diligently represent both, and informed consent, confirmed in writing, from both the bank and the new client."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 1.7(a)(1), (b)",
+      "why": "D: suing a current client, even on an unrelated matter, is direct adversity under 1.7(a)(1); it is consentable with a reasonable belief and informed consent confirmed in writing from each affected client. A: unrelatedness does not avoid direct adversity. B: the conflict is consentable. C: both clients' consent is required.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-012",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — nonconsentable conflict",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Two business partners, now in a dispute over dissolution, each file claims against the other in the same lawsuit. Both ask the same lawyer, whom they trust, to represent them both and both sign informed-consent forms. May the lawyer represent both?",
+      "choices": {
+        "A": "No, because the representation involves asserting a claim by one client against another client in the same litigation.",
+        "B": "Yes, because both gave informed consent confirmed in writing.",
+        "C": "Yes, if the lawyer reasonably believes she can be impartial.",
+        "D": "Yes, if a court approves the joint representation."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rule 1.7(b)(3)",
+      "why": "A: 1.7(b)(3) makes a claim by one client against another in the same litigation nonconsentable. B and C: consent and reasonable belief cannot cure a (b)(3) conflict. D: no court-approval exception exists.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-013",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — gifts from clients",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A longtime client, unrelated to the lawyer, asks the lawyer to draft a new will that includes a $50,000 bequest to the lawyer in gratitude for years of service. What is the lawyer's proper course?",
+      "choices": {
+        "A": "Draft the will, because the gift is the client's idea.",
+        "B": "Draft the will if the client gives informed consent in a signed writing.",
+        "C": "Decline to prepare the instrument with the bequest; the client may make the gift through a will prepared by an independent lawyer.",
+        "D": "Decline, because a lawyer may never receive a testamentary gift from a client."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 1.8(c) & cmt. [7]",
+      "why": "C: 1.8(c) bars a lawyer from preparing an instrument giving the lawyer a substantial gift unless related; the client may use independent counsel. A and B: client initiative or consent does not cure 1.8(c). D: the rule does not forbid receiving the gift itself.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-014",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — financial assistance",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A lawyer represents an unemployed plaintiff on a contingent fee in a pending wrongful-termination suit. The plaintiff cannot make rent, and the lawyer lends him $3,000 for rent, repayable from any recovery. The lawyer is not representing him pro bono. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "No, because the loan must be repaid.",
+        "B": "Yes, because a lawyer may not provide financial assistance for living expenses to a client in pending litigation.",
+        "C": "No, because the humanitarian exception covers indigent clients.",
+        "D": "No, because advancing expenses repayable from the recovery is expressly allowed."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 1.8(e)",
+      "why": "B: 1.8(e) allows only court costs and litigation expenses (repayment contingent), payment of those for indigent clients, and modest humanitarian gifts to indigent clients represented pro bono. A: a loan is still financial assistance. C: the humanitarian exception applies only to pro bono representation, and to gifts, not loans. D: the contingent-repayment provision covers litigation expenses, not rent.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-015",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — settling a malpractice claim",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A former client tells a lawyer she believes the lawyer missed a filing deadline. The lawyer offers her $20,000 to release all claims and she accepts. She has no other lawyer. Before the release is signed, what must the lawyer do?",
+      "choices": {
+        "A": "Nothing more, because she is a former client.",
+        "B": "Obtain her informed consent confirmed in writing.",
+        "C": "Have the release approved by a court.",
+        "D": "Advise her in writing of the desirability of seeking independent legal counsel and give her a reasonable opportunity to do so."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 1.8(h)(2)",
+      "why": "D: 1.8(h)(2) permits settling a malpractice claim with an unrepresented client or former client only after written advice to seek independent counsel and a reasonable opportunity to do so. A: the rule expressly covers former clients. B: confirmed-in-writing consent is the 1.7 formula, not 1.8(h)(2). C: no court approval required.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-016",
+      "subject": "Professional Responsibility",
+      "area": "Conflicts — lateral hire screening",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "At Firm 1, Lawyer L negotiated a supply contract for Seller. L moved to Firm 2, which now represents Buyer in suing Seller for breach of that contract. L acquired Seller's confidential information. Firm 2 promptly screened L from the matter, apportioned L no part of the fee, and sent Seller written notice describing the screen. Seller objects. Under the Model Rules, may Firm 2 continue?",
+      "choices": {
+        "A": "Yes, because the screen, fee exclusion, and written notice prevent imputation of L's conflict.",
+        "B": "No, because L's conflict is imputed to every lawyer in Firm 2 regardless of screening.",
+        "C": "No, because Seller did not give informed consent confirmed in writing.",
+        "D": "Yes, but only if L did not bill any time to Seller at Firm 1."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rules 1.9(a), 1.10(a)(2)",
+      "why": "A: L is personally disqualified under 1.9(a), but 1.10(a)(2) avoids imputation of a lateral's former-client conflict through timely screening, no fee share, and written notice. B: states the pre-2009 rule. C: consent is unnecessary when 1.10(a)(2) is satisfied. D: irrelevant. (NY 1.10(c), amended eff. 2025, also allows screening but not in litigation where the lateral substantially directed the matter or had day-to-day responsibility for it.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-017",
+      "subject": "Professional Responsibility",
+      "area": "Former government lawyers",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "As an agency attorney, Lawyer G personally and substantially handled an enforcement action against a chemical plant. G joined a private firm, and the plant now asks the firm to defend it in that same enforcement action. The agency has not consented. What is required for the firm to take the matter?",
+      "choices": {
+        "A": "The firm may not take the matter under any circumstances.",
+        "B": "G must be timely screened and apportioned no part of the fee, and written notice must be promptly given to the agency.",
+        "C": "G may work on the matter if G uses no confidential government information.",
+        "D": "The plant must give informed consent confirmed in writing."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 1.11(a)-(b)",
+      "why": "B: G is barred under 1.11(a) absent agency consent, but 1.11(b) lets the firm proceed with a timely screen, no fee share, and written notice to the agency. A: 1.11(b) permits screening. C: G's personal and substantial participation bars G regardless. D: the plant's consent is not the operative consent.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-018",
+      "subject": "Professional Responsibility",
+      "area": "Former judges and law clerks",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A judicial law clerk is helping draft an opinion in a pending case. The clerk receives an interview offer from a law firm representing a party in that case. May the clerk interview with the firm?",
+      "choices": {
+        "A": "No, until the case is finally resolved.",
+        "B": "Yes, without restriction, because clerks are not judges.",
+        "C": "Yes, if the firm screens the clerk after hiring.",
+        "D": "Yes, after notifying the judge."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 1.12(b)",
+      "why": "D: 1.12(b) lets a law clerk negotiate employment with a party or lawyer involved in a matter in which the clerk is participating personally and substantially, but only after notifying the judge. A: no absolute bar. B: the notice requirement applies. C: screening addresses the firm's imputation after hiring, not the clerk's negotiation.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-019",
+      "subject": "Professional Responsibility",
+      "area": "Organization as client",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In-house counsel at a company learns that the vice president of sales is booking fictitious sales to meet targets, a practice reasonably likely to cause substantial injury to the company if it continues. The VP refuses to stop. What does the Model Rules require of counsel?",
+      "choices": {
+        "A": "Counsel must immediately report the conduct to government regulators.",
+        "B": "Counsel must resign.",
+        "C": "Counsel must refer the matter to higher authority in the company, including, if warranted by the circumstances, the highest authority that can act.",
+        "D": "Counsel may do nothing further because the VP is counsel's supervisor."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 1.13(b)-(c)",
+      "why": "C: 1.13(b) requires reporting up to higher authority, including the board if warranted, unless not in the organization's best interest. A: reporting out under 1.13(c) is permissive and only after the highest authority fails to act. B: resignation is not required. D: the duty runs to the organization, not the officer.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-020",
+      "subject": "Professional Responsibility",
+      "area": "Safekeeping property — disputed funds",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A $100,000 settlement check is deposited in the lawyer's trust account. Under the fee agreement the lawyer claims $33,000; the client says the fee should be $25,000. There are no other claims to the funds. What must the lawyer do?",
+      "choices": {
+        "A": "Promptly distribute $67,000 to the client, take $25,000 as the undisputed fee, and hold $8,000 in trust until the dispute is resolved.",
+        "B": "Hold the entire $100,000 in trust until the fee dispute is resolved.",
+        "C": "Take $33,000 because the fee agreement controls, and pay the client the balance.",
+        "D": "Pay $75,000 to the client and hold $25,000 in trust."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rule 1.15(d)-(e)",
+      "why": "A: undisputed portions must be promptly distributed; only the disputed $8,000 stays in trust (1.15(e)). B: holding undisputed funds hostage violates the prompt-delivery duty. C: the lawyer may not take disputed funds. D: the lawyer's undisputed $25,000 need not remain in trust, and the client is owed $67,000 now, not $75,000. (NY 1.15 likewise requires disputed funds be held; NY also requires 7-year records and no cash withdrawals.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-021",
+      "subject": "Professional Responsibility",
+      "area": "Termination of representation",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Midway through a lawsuit, the client fires her lawyer. Local court rules require leave of court for counsel of record to withdraw, and the judge denies the motion because trial is in one week. What must the lawyer do?",
+      "choices": {
+        "A": "Stop work immediately because a discharged lawyer must withdraw.",
+        "B": "Continue the representation as ordered, because the tribunal denied permission to withdraw.",
+        "C": "Continue only if the client agrees to pay for trial in advance.",
+        "D": "Appeal the denial and refuse to appear until the appeal is decided."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 1.16(a)(3), (c)",
+      "why": "B: discharge makes withdrawal mandatory under 1.16(a)(3), but under 1.16(c) a lawyer must continue when ordered by a tribunal despite good cause. A: ignores 1.16(c). C: cannot condition compliance with a court order on payment. D: refusing to appear violates the order and 3.4(c).",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-022",
+      "subject": "Professional Responsibility",
+      "area": "Fairness to opposing party — payments to witnesses",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "In preparing for trial, a lawyer makes four payments. Which payment subjects the lawyer to discipline?",
+      "choices": {
+        "A": "Reimbursing a fact witness's reasonable travel expenses to attend trial.",
+        "B": "Paying a fact witness reasonable compensation for wages lost while attending a deposition.",
+        "C": "Paying an expert witness a fee that increases if the client prevails.",
+        "D": "Paying an expert witness a reasonable hourly rate for preparation and testimony."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 3.4(b) & cmt. [3]",
+      "why": "C: comment [3] to 3.4 bars paying an expert a contingent fee. A and B: reasonable expenses and compensation for lost time are permitted for fact witnesses. D: reasonable non-contingent expert fees are proper.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-023",
+      "subject": "Professional Responsibility",
+      "area": "Special responsibilities of prosecutors",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Before trial in a robbery case, the prosecutor obtains a statement from a bystander that the robber 'might have been taller' than the defendant. The prosecutor believes the statement is too weak to affect the outcome and therefore not material under Brady v. Maryland. Must the prosecutor disclose it?",
+      "choices": {
+        "A": "No, because disclosure is required only for evidence material to guilt.",
+        "B": "No, unless the defense makes a specific request.",
+        "C": "Yes, but only after the defense rests.",
+        "D": "Yes, because a prosecutor must make timely disclosure of all evidence that tends to negate guilt, without regard to materiality."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 3.8(d); ABA Formal Op. 09-454",
+      "why": "D: 3.8(d) requires timely disclosure of all evidence or information known to the prosecutor that tends to negate guilt or mitigate the offense; Formal Op. 09-454 reads it as broader than Brady, with no materiality threshold. A: states the constitutional, not ethical, standard. B: no request requirement. C: disclosure must be timely, i.e., in time for effective use.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-024",
+      "subject": "Professional Responsibility",
+      "area": "Multijurisdictional practice",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A lawyer admitted only in State A represents a client in a lawsuit pending in State A. The lawyer travels to State B for two weeks to take depositions of witnesses who live there. Is the lawyer engaged in unauthorized practice in State B?",
+      "choices": {
+        "A": "No, because the services are temporary and reasonably related to a proceeding pending in a jurisdiction where the lawyer is admitted.",
+        "B": "Yes, unless the lawyer associates with a State B lawyer.",
+        "C": "Yes, because depositions are the practice of law in State B.",
+        "D": "No, but only if the lawyer is admitted pro hac vice in State B."
+      },
+      "answer": "A",
+      "cite": "ABA Model Rule 5.5(c)(2)",
+      "why": "A: 5.5(c)(2) permits temporary services reasonably related to a pending proceeding in a jurisdiction where the lawyer is authorized to appear. B: association with local counsel is a separate safe harbor (5.5(c)(1)), not a requirement. C: 5.5(c) expressly authorizes it. D: no State B proceeding exists in which to seek pro hac vice admission.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-025",
+      "subject": "Professional Responsibility",
+      "area": "Solicitation",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Which of the following live telephone calls, made by a lawyer seeking new business for pecuniary gain, is permitted under the Model Rules?",
+      "choices": {
+        "A": "A call to a man hospitalized after a car accident reported in the news.",
+        "B": "A call to a homeowner whose house was damaged in yesterday's flood.",
+        "C": "A call to the general counsel of a company that routinely retains outside counsel for commercial litigation.",
+        "D": "A call to a small-business owner who previously told the lawyer not to contact her again."
+      },
+      "answer": "C",
+      "cite": "ABA Model Rule 7.3(b)-(c)",
+      "why": "C: 7.3(b)(3) exempts live contact with a person who routinely uses for business purposes the type of legal services offered. A and B: live person-to-person solicitation of strangers is barred. D: 7.3(c)(1) bars solicitation of anyone who has made known a desire not to be solicited. (NY 7.3(a) permits live contact only with close friends, relatives, former or existing clients, and NY 7.3(e) adds a 30-day personal-injury moratorium.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-026",
+      "subject": "Professional Responsibility",
+      "area": "Advertising — giving value for recommendations",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "After a friend refers a new client, a lawyer sends the friend a $25 coffee-shop gift card with a thank-you note. The friend was not promised anything in advance, and the lawyer does not give gifts for referrals as a practice. Is the lawyer subject to discipline?",
+      "choices": {
+        "A": "Yes, because a lawyer may not give anything of value for a recommendation.",
+        "B": "No, because a nominal gift given as a token of appreciation and not expected as payment is permitted.",
+        "C": "Yes, unless the client consented to the gift.",
+        "D": "No, because the friend is not a lawyer."
+      },
+      "answer": "B",
+      "cite": "ABA Model Rule 7.2(b)(5) & cmt. [4]",
+      "why": "B: 7.2(b)(5) allows nominal gifts given as an expression of appreciation that are neither intended nor reasonably expected as payment for a recommendation. A: ignores the nominal-gift exception. C: client consent is irrelevant. D: status as a nonlawyer is not the test.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-027",
+      "subject": "Professional Responsibility",
+      "area": "Reporting professional misconduct",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "Lawyer A represents Lawyer B in defending a malpractice suit. In confidence, B tells A that B once converted a client's escrow funds, later replaced them. Must A report B to disciplinary authorities?",
+      "choices": {
+        "A": "Yes, because conversion of client funds raises a substantial question about honesty.",
+        "B": "Yes, but only if the funds were never replaced.",
+        "C": "No, because the misconduct occurred in the past.",
+        "D": "No, because the information is protected by Rule 1.6."
+      },
+      "answer": "D",
+      "cite": "ABA Model Rule 8.3(c)",
+      "why": "D: 8.3(c) excuses reporting of information otherwise protected by 1.6; B's confidences to A are protected. A: would be right if A learned it outside the representation. B: repayment does not affect the duty. C: past misconduct is reportable when the duty applies. (NY 8.3(c) likewise exempts confidential information.)",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-028",
+      "subject": "Judicial Conduct",
+      "area": "Judicial conduct — disqualification and remittal",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A judge realizes that the individual defendant in a civil case is a former neighbor toward whom she holds a strong personal dislike, arising from a property-line dispute, that she believes would affect her judgment. Both parties, informed of the reason, say they want her to keep the case. What must the judge do?",
+      "choices": {
+        "A": "Disqualify herself, because disqualification for personal bias cannot be remitted.",
+        "B": "Continue if both parties and lawyers agree on the record, outside her presence.",
+        "C": "Continue, because the neighborhood dispute is unrelated to the subject of the lawsuit.",
+        "D": "Continue, but disclose the relationship in her written decision."
+      },
+      "answer": "A",
+      "cite": "ABA Model Code of Judicial Conduct Rules 2.11(A)(1), 2.11(C)",
+      "why": "A: 2.11(C) allows remittal of disqualification for any reason other than personal bias or prejudice under 2.11(A)(1). B: correct procedure for remittable grounds only. C: 2.11(A)(1) bias concerning a party disqualifies regardless of its source. D: disclosure does not cure bias.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-029",
+      "subject": "Judicial Conduct",
+      "area": "Judicial conduct — fundraising",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A trial judge serves on the board of a nonprofit literacy charity. The judge personally emails twenty local lawyers asking them to buy tickets to the charity's gala. Is the judge's conduct proper?",
+      "choices": {
+        "A": "Yes, because the charity is not a political organization.",
+        "B": "No, because a judge may personally solicit contributions only from family members and judges over whom the judge has no supervisory or appellate authority.",
+        "C": "Yes, if none of the lawyers currently has a case before the judge.",
+        "D": "No, because a judge may not serve on the board of any nonprofit organization."
+      },
+      "answer": "B",
+      "cite": "ABA Model Code of Judicial Conduct Rule 3.7(A)(2)",
+      "why": "B: 3.7(A)(2) limits personal solicitation to family members and judges not under the judge's supervisory or appellate authority. A: nonpolitical purpose does not lift the limit. C: the limit applies regardless of pending cases. D: 3.7 permits board service for nonprofit organizations.",
+      "ref": "professional-responsibility.md"
+    },
+    {
+      "id": "MPRE-030",
+      "subject": "Judicial Conduct",
+      "area": "Judicial conduct — ex parte communications",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A judge presiding over a bench trial involving an unusual cryptocurrency statute calls a law professor, an expert on the statute who has no connection to the case, and discusses how the statute should be interpreted. The judge does not tell the parties. Is the judge's conduct proper?",
+      "choices": {
+        "A": "Yes, because the professor is disinterested.",
+        "B": "Yes, because judges may consult anyone about questions of law.",
+        "C": "No, because a judge may obtain a disinterested expert's advice on the law only with advance notice to the parties of the person consulted and the subject, and an opportunity to respond.",
+        "D": "No, because a judge may never obtain advice from anyone outside the court."
+      },
+      "answer": "C",
+      "cite": "ABA Model Code of Judicial Conduct Rule 2.9(A)(2)",
+      "why": "C: 2.9(A)(2) permits advice from a disinterested legal expert only with notice to the parties of the person and substance and a reasonable opportunity to object and respond. A and B: omit the notice requirement. D: overstates the rule.",
+      "ref": "professional-responsibility.md"
+    }
+  ]
+}

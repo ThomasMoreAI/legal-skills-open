@@ -4,10 +4,11 @@ Government Contracts & Procurement practice.
 
 Jurisdiction: `eu` · Practice: `government-contracts` · Skill language: de
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`User Input`](skills/arckit-eu-cloud-sovereignty-tractorjuice/) | [COMMUNITY] Assess EU Cloud Sovereignty Framework (v1.2.1) posture for cloud procurement — score the… |
 | [`Auftragswert und EU-Schwelle`](skills/eu-schwelle-vergabeordnung-richtlinie-2014-24/) | Berechnet den vergaberechtlichen Auftragswert und prüft Schwellenwert, Losbildung und unzulässige Aufteilung. |
 
 ## Cold-start context

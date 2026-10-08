@@ -4,7 +4,7 @@ U.S. federal government contracting — GSA Schedule and FAR-compliant subcontra
 
 Jurisdiction: `us` · Practice: `government-contracts` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (17)
+## Skills (18)
 
 | Skill | What it does |
 |---|---|
@@ -19,6 +19,7 @@ Jurisdiction: `us` · Practice: `government-contracts` · Skill language varies 
 | [`OCI Mitigation Plan`](skills/oci-mitigation-plan/) | Drafts FAR 9.5-compliant Organizational Conflict of Interest mitigation plans for federal government… |
 | [`Past Performance Questionnaire`](skills/past-performance-questionnaire/) | Drafts a Past Performance Questionnaire for evaluating legal service providers or contractors in… |
 | [`Notice of Intent to Protest Award`](skills/protest-notice/) | Drafts a formal Notice of Intent to Protest Award for federal contracts under FAR 33.103, 33.104, and 4… |
+| [`Public Sector Contracting`](skills/public-sector-contracting-cure-consulting-group/) | Reviews government contract terms: liability, IP, termination, non-appropriation, insurance. Use when… |
 | [`Request for Equitable Adjustment (REA)`](skills/rea-request/) | Drafts a Request for Equitable Adjustment (REA) for U.S. federal government contracts under FAR… |
 | [`RFP Response`](skills/rfp-response/) | Drafts evaluation-ready U.S. federal RFP responses across all standard proposal volumes (cover letter… |
 | [`SAM.gov Representations and Certifications`](skills/sam-reps-certs/) | Drafts Representations and Certifications documents for SAM.gov federal contractor registration. Use… |

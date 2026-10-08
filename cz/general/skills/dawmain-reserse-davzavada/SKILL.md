@@ -5,11 +5,11 @@ description: 'Conduct Czech and EU legal research through the Dawmain MCP connec
 author: davzavada
 author_url: https://github.com/davzavada/dawmain/tree/main/skills/dawmain-reserse
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cz
 practice: general
-language: cs
+language: en
 ---
 
 # Rešerše přes Dawmain

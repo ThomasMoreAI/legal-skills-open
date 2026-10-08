@@ -1,0 +1,49 @@
+{
+  "set": "mee-cluster-c",
+  "title": "MEE-style — Torts",
+  "component": "mee",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MEE-TORT-001",
+      "subject": "Torts",
+      "area": "Products liability; rescue doctrine; comparative fault; joint and several liability",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "ManuCo designs and manufactures the VoltRide electric scooter, powered by a lithium-ion battery pack. ManuCo's engineers recommended adding a thermal-cutoff circuit, which costs $3 per unit, is used by most competitors, and would stop the battery from charging if it overheats. ManuCo declined to add it to keep its retail price below competitors'. The VoltRide owner's manual says on page 34: 'Use only the supplied charger. Other chargers may cause fire.' Nothing on the scooter, battery, or charging port carries a warning.\n\nPat bought a VoltRide from ShopCo, a national retailer, in its sealed box. Months later, after losing the original charger, Pat bought an inexpensive universal charger online and charged the scooter overnight in her attached garage. The battery overheated, burst into flames, and set the garage on fire. Pat, asleep in a room over the garage, was overcome by smoke. Her neighbor Nate saw the flames, ran inside, and carried Pat out. Both suffered burns.\n\nAt trial, experts agree that (i) the universal charger lacked the overcharge protection built into the supplied charger, and (ii) a thermal-cutoff circuit would have prevented the fire regardless of which charger was used. The jurisdiction has adopted the Restatement (Third) of Torts: Products Liability, pure comparative fault, and traditional joint and several liability.\n\n1. On what theories of defect can Pat recover from ManuCo in strict products liability? Discuss.\n2. Is ShopCo liable to Pat? Discuss.\n3. Can Nate recover from ManuCo? Discuss.\n4. How does Pat's use of the universal charger affect her recovery, and how is liability allocated between ManuCo and ShopCo? Discuss.",
+      "rubric": [
+        {
+          "point": "Design defect: under Rest. 3d §2(b), a reasonable alternative design (the $3 thermal cutoff, used by competitors and recommended internally) would have reduced a foreseeable fire risk, and its omission makes the scooter not reasonably safe; the risk-utility factors favor Pat.",
+          "weight": 2
+        },
+        {
+          "point": "Warning defect: a single warning buried on page 34 of the manual, with nothing on the product or charging port, is likely inadequate given the severity of the fire risk and the foreseeability of lost or replaced chargers (§2(c)); warnings do not cure a design defect a reasonable alternative design would fix.",
+          "weight": 1.5
+        },
+        {
+          "point": "Causation and misuse: the expert testimony that the cutoff would have prevented the fire regardless of charger establishes actual and proximate cause; using a replacement charger is foreseeable misuse, not a superseding cause.",
+          "weight": 1
+        },
+        {
+          "point": "ShopCo: as a commercial seller in the distribution chain, it is strictly liable for the defective product even though it sold it in a sealed box and could not inspect it; it may seek indemnity from ManuCo.",
+          "weight": 1.5
+        },
+        {
+          "point": "Nate: rescuers are foreseeable plaintiffs ('danger invites rescue'), and strict products liability extends to foreseeable non-user bystanders; his injuries are within the risk; any carelessness of his own reduces his recovery comparatively.",
+          "weight": 1.5
+        },
+        {
+          "point": "Pat's conduct: under pure comparative fault, her disregard of the manual warning (if found unreasonable) reduces her damages by her share but does not bar recovery; foreseeable misuse is apportioned, not a complete defense (Rest. 3d Products §17; Rest. 3d Apportionment §7).",
+          "weight": 1.5
+        },
+        {
+          "point": "Allocation: ManuCo and ShopCo are jointly and severally liable to Pat and Nate for the indivisible injury; as between them, the innocent retailer ShopCo is entitled to full indemnity from the manufacturer ManuCo.",
+          "weight": 1
+        }
+      ],
+      "model_answer": "1. Design and warning defects. Under Rest. 3d §2(b), a design is defective when a reasonable alternative design would have reduced foreseeable risks and its omission makes the product not reasonably safe. The $3 thermal cutoff was feasible, standard among competitors, and recommended by ManuCo's own engineers, and it would have prevented a catastrophic fire. Risk-utility strongly favors Pat. The warning is also likely inadequate under §2(c): one sentence on page 34, with nothing on the scooter or port, does not reasonably convey a fire risk given that lost and replaced chargers are foreseeable. In any event, a warning does not excuse a design defect that a reasonable alternative design would have eliminated. Causation is met: experts agree the cutoff would have prevented the fire with any charger, so the replacement charger was a foreseeable misuse, not a superseding cause.\n\n2. ShopCo. Every commercial seller in the chain of distribution is strictly liable for a defective product it sells (Rest. 3d §1). That ShopCo sold the scooter sealed and could not inspect it is no defense. ShopCo is liable to Pat.\n\n3. Nate. Danger invites rescue: a rescuer is a foreseeable plaintiff (Wagner v. International Ry.), and strict products liability extends to foreseeable bystanders harmed by a defect. Burns suffered while pulling Pat from a fire caused by the defect are within the risk. Nate recovers from ManuCo (and ShopCo), reduced only by any unreasonable conduct of his own.\n\n4. Comparative fault and allocation. Under pure comparative fault, if the factfinder deems Pat's use of an unapproved charger despite the manual warning unreasonable, her damages are reduced by her percentage of fault. It is not a complete bar: pure comparative fault never bars recovery, and because the misuse was foreseeable it neither negates the defect nor supersedes causation (Rest. 3d Products §17). ManuCo and ShopCo are jointly and severally liable for the indivisible harm, so Pat and Nate may collect the full judgment from either one. As between the two, ShopCo, a non-negligent retailer, is entitled to full indemnity from ManuCo.",
+      "cite": "Restatement (Third) of Torts: Products Liability §§1, 2, 17; Restatement (Third) of Torts: Apportionment of Liability §§7, 10, 22; Wagner v. International Ry. (N.Y. 1921)",
+      "ref": "torts.md"
+    }
+  ]
+}

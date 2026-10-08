@@ -4,11 +4,12 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `br` · Practice: `contracts` · Skill language: pt
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Redator de Contratos e Propostas — Brasil`](skills/contract-and-proposal-writer-ricardonevesbraga/) | Gerador de contratos e propostas comerciais para o mercado brasileiro. Contratos de prestação de… |
+| [`Contrato de Prestação de Serviços Criativos`](skills/contrato-de-prestacao-de-servicos-criativos-tiagopgr/) | Criar contratos de prestação de serviços para projetos de design e branding — com escopo definido… |
 
 ## Cold-start context
 

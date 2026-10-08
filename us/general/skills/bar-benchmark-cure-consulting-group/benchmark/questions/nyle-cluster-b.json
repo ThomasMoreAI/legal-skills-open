@@ -1,0 +1,260 @@
+{
+  "set": "nyle-cluster-b",
+  "title": "NYLE-style — Contracts, Real Property, Business Relationships",
+  "component": "nyle",
+  "jurisdiction": "NY",
+  "questions": [
+    {
+      "id": "NYLE-K-001",
+      "subject": "Contracts",
+      "area": "Statute of frauds — lifetime agreements",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "The owner of a Buffalo manufacturing company orally promised his plant manager that, if she declined a competing offer, she would have a job with the company 'for as long as you live.' She declined the offer. Three years later the company fired her without cause, and she sued for breach in New York Supreme Court. The company moved to dismiss under the statute of frauds. How should the court rule?",
+      "choices": {
+        "A": "Deny the motion, because the agreement could be fully performed within one year if the manager died.",
+        "B": "Deny the motion, because the manager's three years of service were part performance that takes the agreement out of the statute.",
+        "C": "Grant the motion, because New York's statute of frauds expressly requires a writing for an agreement whose performance is not to be completed before the end of a lifetime.",
+        "D": "Deny the motion, because employment agreements are not within New York's statute of frauds."
+      },
+      "answer": "C",
+      "cite": "N.Y. Gen. Oblig. Law §5-701(a)(1)",
+      "why": "C: GOL 5-701(a)(1) covers agreements 'not to be completed before the end of a lifetime,' so an oral lifetime-employment promise is unenforceable in NY. A is the common-law/MBE rule NY's statute overrides. B fails because the Court of Appeals has not adopted a part-performance exception to 5-701 (Messner Vetere Berger McNamee Schmetterer Euro RSCG Inc. v. Aegis Group (N.Y. 1999), n.1: the doctrine is grounded in 5-703), and the service is not unequivocally referable to a lifetime promise in any event. D is wrong because employment agreements within 5-701's terms need a writing.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "NYLE-K-002",
+      "subject": "Contracts",
+      "area": "Statute of frauds — finder's fees",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A retired executive, who holds no broker's or attorney's license, introduced a private-equity fund to the owner of a Long Island distribution business. The owner orally promised the executive 2% of the purchase price if a sale closed. The fund bought the business for $30 million. The owner refused to pay. The executive sued, pleading breach of contract and, alternatively, quantum meruit for the reasonable value of his services. What result?",
+      "choices": {
+        "A": "Both claims fail, because New York requires a signed writing for compensation for negotiating the sale of a business, and the requirement extends to claims implied in fact or in law.",
+        "B": "The contract claim fails, but the executive may recover the reasonable value of his services in quantum meruit.",
+        "C": "Both claims succeed, because the executive fully performed by producing a buyer.",
+        "D": "Both claims succeed, because New York's writing requirement for finder's fees applies only to real estate transactions."
+      },
+      "answer": "A",
+      "cite": "N.Y. Gen. Oblig. Law §5-701(a)(10)",
+      "why": "A: 5-701(a)(10) requires a signed writing for compensation for negotiating the sale of a business or business opportunity and expressly applies to contracts implied in fact or in law; the licensed-broker/attorney/auctioneer exemption does not apply. B ignores the implied-contract language. C fails because full performance does not avoid (a)(10). D misreads the statute, which covers businesses and majority stock interests.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "NYLE-K-003",
+      "subject": "Contracts",
+      "area": "Consideration — written modification",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A Rochester hospital contracted with a cleaning company for one year of janitorial services at $20,000 per month. Four months in, with no change in scope and no unforeseen difficulty, the company asked for $23,000 per month. The hospital's authorized administrator signed a letter agreeing to the higher rate for the rest of the term; the company did not sign it. After paying the higher rate for two months, the hospital resumed paying $20,000 and argued that its promise lacked consideration. Is the hospital bound by the higher rate?",
+      "choices": {
+        "A": "No, because the company was already obligated to perform the same services, so the modification lacked consideration.",
+        "B": "No, because a modification without new consideration is enforceable only when unanticipated circumstances arise.",
+        "C": "No, because a modification is binding without consideration only if both parties sign it.",
+        "D": "Yes, because a written modification signed by the party against whom it is enforced is not invalid for lack of consideration."
+      },
+      "answer": "D",
+      "cite": "N.Y. Gen. Oblig. Law §5-1103",
+      "why": "D: GOL 5-1103 makes a written agreement changing a contract obligation enforceable without consideration if signed by the party against whom enforcement is sought (the hospital). A is the common-law pre-existing duty rule the statute overrides for signed writings. B is the Restatement §89 exception, unnecessary here. C misstates the signature requirement.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "NYLE-K-004",
+      "subject": "Contracts",
+      "area": "No-oral-modification clauses",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A Manhattan commercial lease provided that it 'cannot be changed orally.' During a downturn the landlord's managing agent orally agreed with the tenant to reduce the monthly rent from $15,000 to $12,000 for March, April, and May, in exchange for the tenant's paying each of those months' rent on the 1st rather than the 15th as the lease allowed. The tenant paid $12,000 on the 1st of each of those months, and the landlord accepted the payments without objection. In June the landlord sued for the $9,000 difference. What result?",
+      "choices": {
+        "A": "The landlord recovers, because the lease's no-oral-modification clause makes any oral change ineffective.",
+        "B": "The tenant prevails, because the oral modification was fully performed for those months, and the statute barring oral changes reaches only executory oral agreements.",
+        "C": "The landlord recovers, because the rent reduction was unsupported by consideration.",
+        "D": "The tenant prevails, because no-oral-modification clauses are unenforceable in New York."
+      },
+      "answer": "B",
+      "cite": "N.Y. Gen. Oblig. Law §15-301(1); Rose v. Spa Realty Associates (N.Y. 1977)",
+      "why": "B: GOL 15-301(1) invalidates only an executory oral agreement to change a writing with a NOM clause; an oral modification that has been fully performed (payment tendered and accepted for those months) is effective. A overstates 15-301. C fails because early payment was bargained-for consideration. D is the common-law rule; NY enforces NOM clauses by statute.",
+      "ref": "contracts.md"
+    },
+    {
+      "id": "NYLE-RP-001",
+      "subject": "Real Property",
+      "area": "Recording act — race-notice",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "An owner of a Westchester parcel sold it to a first buyer, who did not record. Two months later the owner sold the same parcel to a second buyer, who paid full value in good faith with no notice of the first sale. Before the second buyer recorded, the first buyer recorded. Who has title?",
+      "choices": {
+        "A": "The second buyer, because she paid value in good faith without notice of the prior deed.",
+        "B": "The first buyer, because New York's recording act protects a later good-faith purchaser only if that purchaser's conveyance is first duly recorded.",
+        "C": "The second buyer, because the first deed was unrecorded when she purchased.",
+        "D": "The first buyer, because in New York the first grantee in time prevails regardless of recording."
+      },
+      "answer": "B",
+      "cite": "N.Y. Real Prop. Law §291",
+      "why": "B: RPL 291 is a race-notice statute; the second buyer lost the race to record. A states a pure notice rule. C misreads when the statute tests recording. D gives the right winner on a wrong rule; first-in-time prevails only because the later buyer failed to qualify.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "NYLE-RP-002",
+      "subject": "Real Property",
+      "area": "Adverse possession — 2008 amendments",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "In 2012 a Nassau County homeowner planted a row of hedges about eight feet onto her neighbor's side of their boundary. Since then she has mowed and maintained the strip between the hedges and the true line. She has always known from her survey that the strip belongs to the neighbor. In 2025 she brought an action to quiet title to the strip by adverse possession. What result?",
+      "choices": {
+        "A": "She prevails, because her possession was open, notorious, continuous, and exclusive for more than 10 years.",
+        "B": "She prevails, because knowledge that land belongs to another does not defeat the hostility element.",
+        "C": "She prevails only if she paid the property taxes on the strip.",
+        "D": "She loses, because plantings and lawn mowing across the boundary are deemed permissive and non-adverse, and she lacked a claim of right."
+      },
+      "answer": "D",
+      "cite": "N.Y. RPAPL §§501(3), 543",
+      "why": "D: for claims ripening after the 2008 amendments, RPAPL 543 deems hedges/plantings and mowing across a boundary permissive and non-adverse, and RPAPL 501 requires a claim of right (a reasonable basis to believe the land is hers), which her known survey defeats. A ignores the statutory limits. B states the pre-2008 rule of Walling v. Przybylo (N.Y. 2006). C invents a tax-payment element.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "NYLE-RP-003",
+      "subject": "Real Property",
+      "area": "Residential security deposits",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A landlord of a non-rent-regulated Albany apartment required a tenant to pay a security deposit equal to two months' rent. When the tenant moved out, the landlord mailed her an itemized statement of deductions for wall damage, with a check for the balance, 25 days after she vacated. The tenant sued for the entire deposit. What result?",
+      "choices": {
+        "A": "The tenant recovers the full deposit, because the landlord failed to provide the itemized statement and balance within 14 days after she vacated and so forfeited the right to retain any portion.",
+        "B": "The landlord may keep the deductions, because it provided an itemized statement within 30 days.",
+        "C": "The landlord may keep the deductions, because the damage exceeded ordinary wear and tear.",
+        "D": "The landlord may keep the deductions, because a deposit greater than one month's rent is permitted when the tenant agrees to it in the lease."
+      },
+      "answer": "A",
+      "cite": "N.Y. Gen. Oblig. Law §7-108(1-a)",
+      "why": "A: GOL 7-108(1-a) (HSTPA 2019) caps deposits at one month's rent and requires the itemized statement and balance within 14 days of vacatur on pain of forfeiting any right to retain any portion. B uses a period that does not apply in NY. C ignores the forfeiture. D is wrong because the cap is not waivable by lease.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "NYLE-RP-004",
+      "subject": "Real Property",
+      "area": "Land-sale contracts — risk of loss",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A seller and a buyer signed a contract for the sale of a Saratoga Springs house; the buyer paid a $50,000 down payment. The contract is silent on risk of loss. Before closing, while the seller still had possession and title, a fire not caused by either party destroyed most of the house. The seller demanded that the buyer close at the full price. What are the buyer's rights?",
+      "choices": {
+        "A": "The buyer must close at the full price, because under equitable conversion the risk passed to her when the contract was signed.",
+        "B": "The buyer must close, but with an abatement of the price equal to the loss.",
+        "C": "The buyer may refuse to close and recover her down payment, because the risk stays with the seller until title or possession passes and a material part of the house was destroyed.",
+        "D": "The buyer must close but receives the seller's insurance proceeds."
+      },
+      "answer": "C",
+      "cite": "N.Y. Gen. Oblig. Law §5-1311 (Uniform Vendor and Purchaser Risk Act)",
+      "why": "C: under GOL 5-1311, when neither legal title nor possession has passed and a material part is destroyed without the buyer's fault, the seller cannot enforce and the buyer recovers her payments. A is the common-law majority rule NY rejected. B is the remedy for an immaterial loss only. D is the common-law insurance-credit softening, not NY's statute.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "NYLE-RP-005",
+      "subject": "Real Property",
+      "area": "Foreclosure — deficiency judgments",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A bank obtained a judgment of foreclosure on a Queens property securing a $500,000 debt. At the foreclosure sale the property sold for $300,000; the court later found its fair market value at the time of sale was $400,000. Sixty days after the deed was delivered to the purchaser, the bank moved for a deficiency judgment. What is the maximum deficiency the court may award?",
+      "choices": {
+        "A": "$200,000.",
+        "B": "Nothing, because New York prohibits deficiency judgments after judicial foreclosure.",
+        "C": "Nothing, because the motion was not made within 30 days after the sale.",
+        "D": "$100,000."
+      },
+      "answer": "D",
+      "cite": "N.Y. RPAPL §1371",
+      "why": "D: under RPAPL 1371 a deficiency motion must be made within 90 days after the sale is consummated by delivery of the deed (60 days is timely), and the deficiency is the debt minus the higher of the sale price or fair market value ($500,000 − $400,000). A uses the sale price alone. B misstates NY law. C uses the wrong period.",
+      "ref": "real-property.md"
+    },
+    {
+      "id": "NYLE-BR-001",
+      "subject": "Business Relationships",
+      "area": "Shareholder liability for wages",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "A privately held New York corporation, whose shares are not listed on any exchange or quoted over the counter, failed to pay a salesman his last three months of wages and then became insolvent. The salesman sued the corporation, obtained a judgment, and had an execution returned unsatisfied. Which statement best describes his rights against shareholders?",
+      "choices": {
+        "A": "He may recover from the ten largest shareholders, jointly and severally, if he gave them written notice within 180 days after his services ended and sues within 90 days after the execution was returned unsatisfied.",
+        "B": "He may recover from shareholders only by piercing the corporate veil.",
+        "C": "He may recover from all shareholders in proportion to their holdings.",
+        "D": "He may recover only from the directors who approved the corporation's budget."
+      },
+      "answer": "A",
+      "cite": "N.Y. Bus. Corp. Law §630",
+      "why": "A: BCL 630 makes the ten largest shareholders of a non-public corporation jointly and severally liable for unpaid wages, subject to the 180-day notice and 90-days-after-unsatisfied-execution deadlines. B ignores the statutory liability, which requires no veil piercing. C misstates who is liable and how. D confuses BCL 630 with director liability provisions such as BCL 719.",
+      "ref": "business-associations.md"
+    },
+    {
+      "id": "NYLE-BR-002",
+      "subject": "Business Relationships",
+      "area": "Derivative suits — demand futility",
+      "type": "mcq",
+      "difficulty": "analysis",
+      "q": "A shareholder of a New York corporation filed a derivative action challenging the board's $80 million acquisition of a start-up. She made no pre-suit demand. The complaint alleges with particularity that only 2 of the 9 directors had any interest in the start-up, but that the full board approved the acquisition at a 20-minute meeting without receiving any valuation, financial statements, or advice, and without asking any questions. The directors moved to dismiss for failure to make a demand. How should the court rule?",
+      "choices": {
+        "A": "Grant the motion, because New York requires a written demand on the board in every derivative action.",
+        "B": "Grant the motion, because demand is excused only when a majority of the board is interested in the transaction.",
+        "C": "Deny the motion, because the complaint alleges with particularity that the directors failed to inform themselves to a degree reasonably necessary about the transaction.",
+        "D": "Deny the motion, because demand is always futile when the directors are named as defendants."
+      },
+      "answer": "C",
+      "cite": "N.Y. Bus. Corp. Law §626(c); Marx v. Akers (N.Y. 1996)",
+      "why": "C: under Marx v. Akers, demand is excused if the complaint particularizes (1) a majority interested, (2) failure to be reasonably informed, or (3) a transaction so egregious it could not be sound business judgment; prong two is pleaded. A states the MBCA universal-demand rule NY has not adopted. B ignores prongs two and three. D is a theory Marx expressly rejected.",
+      "ref": "business-associations.md"
+    },
+    {
+      "id": "NYLE-BR-003",
+      "subject": "Business Relationships",
+      "area": "Judicial dissolution — oppression",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "Three founders each held one-third of the shares of a Brooklyn restaurant corporation whose shares are not traded on any market. As all understood when they invested, each worked full time in the business and profits were distributed as salaries. After a dispute, the other two founders fired the third from his job, cut off his salary, and continued paying themselves. He petitioned for dissolution. Which statement is most accurate?",
+      "choices": {
+        "A": "The petition fails, because only holders of at least half the voting shares may seek judicial dissolution.",
+        "B": "The court may order dissolution for oppressive conduct that defeated his reasonable expectations, and the corporation or the other shareholders may avoid dissolution by electing to buy his shares at fair value without a minority discount.",
+        "C": "The petition fails, because terminating an at-will employee cannot constitute oppression of a shareholder.",
+        "D": "The court may order dissolution, and if the others elect to buy his shares, the price must be discounted to reflect his minority position."
+      },
+      "answer": "B",
+      "cite": "N.Y. Bus. Corp. Law §§1104-a, 1118; Matter of Kemp & Beatley (N.Y. 1984); Matter of Friedman v. Beway Realty Corp. (N.Y. 1995)",
+      "why": "B: a 20%+ holder of a non-traded corporation may petition under BCL 1104-a; oppression means defeating the minority's objectively reasonable expectations (employment and de facto dividends), and BCL 1118 allows a fair-value buyout with no minority discount. A states the BCL 1104 deadlock threshold. C ignores Kemp & Beatley. D contradicts Beway.",
+      "ref": "business-associations.md"
+    },
+    {
+      "id": "NYLE-BR-004",
+      "subject": "Business Relationships",
+      "area": "LLC publication requirement",
+      "type": "mcq",
+      "difficulty": "remember",
+      "q": "Two members formed a New York limited liability company by filing articles of organization in 2023. They never published notice of the formation or filed a certificate of publication. In 2025 a supplier with an unpaid $40,000 invoice sued the members personally, arguing that the failure to publish stripped them of limited liability. What result?",
+      "choices": {
+        "A": "The supplier prevails, because an LLC that fails to publish is treated as a general partnership.",
+        "B": "The supplier prevails, because the LLC never came into existence.",
+        "C": "The supplier prevails as to debts incurred after the 120-day publication period expired.",
+        "D": "The members prevail, because failure to publish suspends the LLC's authority to carry on business but does not remove the members' limited liability."
+      },
+      "answer": "D",
+      "cite": "N.Y. Ltd. Liab. Co. Law §§206, 609",
+      "why": "D: LLCL 206 requires publication within 120 days, and the sanction for noncompliance is suspension of the LLC's authority to carry on business (curable by later publication); it does not affect members' limited liability under LLCL 609 or the validity of contracts. A, B, and C each impose a sanction the statute does not.",
+      "ref": "business-associations.md"
+    },
+    {
+      "id": "NYLE-BR-005",
+      "subject": "Business Relationships",
+      "area": "Interested director transactions",
+      "type": "mcq",
+      "difficulty": "application",
+      "q": "A director of a New York corporation owns 40% of a packaging supplier. At a meeting of the corporation's five-member board, the director fully disclosed her interest, and the board approved a three-year supply contract with the supplier by a vote of 4 to 1; the three other directors who voted yes had no interest, and the interested director also voted yes. A shareholder sued to void the contract, without alleging that it was unfair. What result?",
+      "choices": {
+        "A": "The contract stands, because the material facts were disclosed and it was approved by a vote sufficient without counting the interested director's vote.",
+        "B": "The contract is voidable, because the interested director voted on it.",
+        "C": "The contract is voidable unless the shareholders ratify it.",
+        "D": "The contract is void, because a director may not have a financial interest in a corporate counterparty."
+      },
+      "answer": "A",
+      "cite": "N.Y. Bus. Corp. Law §713(a)(1)",
+      "why": "A: under BCL 713(a)(1), an interested-director transaction is not void or voidable because of the interest if disclosed to the board and approved by a vote sufficient without the interested director's vote (the three disinterested yes votes are a majority of the five directors present); fairness then need not be proven. B ignores that her vote was not necessary. C treats shareholder approval as the only safe harbor. D overstates the rule.",
+      "ref": "business-associations.md"
+    }
+  ]
+}

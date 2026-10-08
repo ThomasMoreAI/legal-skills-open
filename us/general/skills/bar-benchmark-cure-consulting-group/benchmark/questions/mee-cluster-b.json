@@ -1,0 +1,90 @@
+{
+  "set": "mee-cluster-b",
+  "title": "MEE-style — Business Associations, Secured Transactions",
+  "component": "mee",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MEE-BA-001",
+      "subject": "Business Associations",
+      "area": "Promoters; director conflicts; derivative demand; appraisal",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Ana, Ben, and Cho agreed to open a craft brewery. In January, before any corporation existed, Ana signed a five-year lease for a warehouse as 'Ana, on behalf of Harbor Brewing, Inc., a corporation to be formed.' The landlord knew the corporation had not yet been formed. In February the three filed articles of incorporation for Harbor Brewing, Inc. in a state that has adopted the Model Business Corporation Act. The corporation moved into the warehouse and paid rent for eight months, then stopped paying and vacated. The landlord has sued Ana and the corporation.\n\nHarbor's five-member board includes Ben. Ben secretly owns 90% of a company that sold Harbor a bottling line for $900,000. Comparable lines sell for about $600,000. Ben told the board only that the seller was 'a reputable vendor I know.' The board approved the purchase 4-0, with Ben abstaining. Dana, who owns 3% of Harbor's shares and has owned them since the corporation was formed, filed a derivative action against Ben the same day she learned of the transaction. She made no demand on the board, alleging that demand would be futile because the directors 'are all Ben's friends.'\n\nLast month, the board approved and shareholders voted 70% in favor of merging Harbor into a regional brewer for cash. Harbor's shares are not publicly traded. Eli, a shareholder, voted against the merger after giving Harbor written notice before the vote that he intended to demand payment for his shares.\n\n1. Are Ana and Harbor Brewing, Inc. liable on the lease? Explain.\n2. Did Ben breach a duty to Harbor, and is the bottling-line transaction protected? Explain.\n3. Should Dana's derivative action be dismissed? Explain.\n4. What are Eli's rights with respect to the merger? Explain.",
+      "rubric": [
+        {
+          "point": "Ana as promoter is personally liable on the pre-incorporation lease; landlord's knowledge that the corporation did not exist does not relieve her absent agreement to look only to the corporation; she remains liable after adoption unless a novation",
+          "weight": 2
+        },
+        {
+          "point": "Harbor became liable by implied adoption (occupying the warehouse and paying rent with knowledge of the lease), not by ratification relating back",
+          "weight": 1
+        },
+        {
+          "point": "Ben had a conflicting interest (director transaction); duty of loyalty; safe harbor requires disclosure of the existence and nature of the conflict and material facts before qualified-director approval; Ben's vague statement is not disclosure",
+          "weight": 2
+        },
+        {
+          "point": "Without a safe harbor, Ben must prove the transaction fair to the corporation; a $300,000 overpayment is not fair; remedy is rescission or disgorgement/damages",
+          "weight": 1
+        },
+        {
+          "point": "MBCA universal demand: written demand required and 90 days must pass unless demand rejected earlier or irreparable injury; futility is not an exception; Dana's suit should be dismissed (or stayed) for failure to make demand",
+          "weight": 2
+        },
+        {
+          "point": "Dana otherwise has standing: contemporaneous ownership and fair and adequate representation",
+          "weight": 1
+        },
+        {
+          "point": "Eli has appraisal rights in a merger; shares are not publicly traded so no market-out; he gave notice of intent before the vote and did not vote in favor; must follow the payment-demand procedure and receives fair value (no minority/marketability discount under MBCA) in cash; appraisal generally exclusive after shareholder approval (MBCA 13.40(b) exceptions: action not authorized/approved per the statute, articles, bylaws, or board resolution; procured by fraud, material misrepresentation, or misleading omission; interested transaction not approved as a director's conflicting-interest transaction; non-unanimous written consent without timely notice to the challenger)",
+          "weight": 1
+        }
+      ],
+      "model_answer": "1. Lease. A promoter who signs a contract for a corporation not yet formed is personally liable unless the other party agreed to look only to the corporation. Signing 'on behalf of' a corporation 'to be formed,' even with the landlord's knowledge, is not such an agreement. Ana is liable. Harbor could not ratify a contract made before it existed, but it impliedly adopted the lease by occupying the premises and paying rent, so it is liable too. Adoption does not release Ana; only a novation would.\n\n2. Ben. Selling Harbor equipment through a company he 90% owns is a director's conflicting-interest transaction. It is protected only if, after disclosure of the conflict and material facts, qualified directors or qualified shares approve it, or if it is fair to the corporation (MBCA 8.61). Calling the seller 'a reputable vendor I know' disclosed neither his ownership nor the price gap, so board approval gives no safe harbor even though he abstained. Ben must prove fairness, and paying $900,000 for a $600,000 line is unfair. He breached his duty of loyalty; Harbor may rescind or recover the overpayment.\n\n3. Derivative suit. Dana has standing: she has owned shares since formation and can fairly represent the corporation. But the MBCA requires universal demand: a written demand, then 90 days unless the board rejects it sooner or irreparable injury would result (7.42). Futility is no excuse, and a conclusory 'friends' allegation would fail even a futility test. The action should be dismissed or stayed.\n\n4. Eli. A shareholder entitled to vote on a merger has appraisal rights. The market-out exception does not apply because Harbor's shares are not publicly traded. Eli preserved his rights by giving written notice of intent before the vote and not voting in favor; he must then demand payment and deposit his shares as the appraisal notice directs. He receives fair value immediately before the merger, without marketability or minority discounts. Once shareholders approve, appraisal is generally his exclusive remedy; he may still challenge the merger if it was not authorized and approved as the statute and governing documents require, was procured by fraud, material misrepresentation, or a misleading omission, was an interested transaction not approved as a director's conflicting-interest transaction would be, or was approved by non-unanimous written consent without timely notice to him (13.40(b)). Nothing in the facts suggests any of these.",
+      "cite": "MBCA §§2.04, 7.41, 7.42, 8.60–8.63, 13.02, 13.21, 13.40; Restatement (Third) of Agency §§4.01, 6.04",
+      "ref": "business-associations.md"
+    },
+    {
+      "id": "MEE-ST-001",
+      "subject": "Secured Transactions",
+      "area": "Perfection; PMSI priority; buyers in ordinary course; default",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Kiln Co. is a Delaware limited liability company whose only office and all of its operations are in Ohio. Kiln makes and sells ceramic tiles. In March, Kiln borrowed $1 million from First Bank and signed a security agreement granting First Bank a security interest in 'all equipment and inventory, now owned or hereafter acquired.' First Bank filed a financing statement in Ohio only.\n\nOn June 1, Kiln bought a new kiln (to be used in manufacturing) from Furnace Corp. on credit, signing a security agreement granting Furnace Corp. a security interest in the kiln to secure its price. The kiln was delivered on June 1. Furnace Corp. filed a financing statement in Delaware on June 15.\n\nIn July, Kiln sold 5,000 tiles from its inventory to Tile Mart, a retailer, which paid the regular price. Tile Mart's owner knew that First Bank financed Kiln's inventory.\n\nKiln defaulted on the First Bank loan in October. At 2:00 a.m., First Bank's repossession agent cut a padlock on Kiln's fenced lot, over the objection of Kiln's night manager, and removed a forklift. Two days later First Bank sold the forklift to one of its own officers in a private sale, without notifying Kiln.\n\n1. Is First Bank's security interest perfected? Explain.\n2. As between First Bank and Furnace Corp., who has priority in the kiln? Explain.\n3. Does Tile Mart take the tiles free of First Bank's security interest? Explain.\n4. Did First Bank act properly in repossessing and selling the forklift, and what are the consequences? Explain.",
+      "rubric": [
+        {
+          "point": "Attachment: value, rights in collateral, authenticated security agreement reasonably describing collateral by UCC type; after-acquired clause effective",
+          "weight": 1
+        },
+        {
+          "point": "Perfection governed by law of debtor's location; a registered organization (LLC) is located in its state of organization (Delaware), not where it operates; Ohio filing is ineffective, so First Bank is unperfected",
+          "weight": 2
+        },
+        {
+          "point": "Furnace Corp. holds a PMSI in equipment; it filed in the correct state (Delaware) within 20 days after Kiln received the kiln, so it has PMSI priority under 9-324(a); in any event it is the only perfected party and beats unperfected First Bank under 9-322(a)(2)",
+          "weight": 2
+        },
+        {
+          "point": "Tile Mart is a buyer in ordinary course (good faith, regular price, from a seller in the business of selling tiles) and takes free of a security interest created by its seller even if perfected and even though it knew of it; knowledge that the sale violates the security agreement would differ",
+          "weight": 2
+        },
+        {
+          "point": "Self-help repossession is permitted only without breach of the peace; cutting a lock over the contemporaneous objection of the debtor's employee is a breach of the peace, and the secured party is liable for its agent's conduct",
+          "weight": 1
+        },
+        {
+          "point": "Disposition must be commercially reasonable with reasonable authenticated notice to the debtor (10 days safe harbor in non-consumer transactions); secured party may not buy at a private sale unless collateral is of a kind customarily sold on a recognized market; forklift is not",
+          "weight": 1
+        },
+        {
+          "point": "Consequences: liability for actual damages (9-625) and tort damages for wrongful repossession; in a non-consumer transaction the deficiency is limited by the rebuttable-presumption rule (9-626)",
+          "weight": 1
+        }
+      ],
+      "model_answer": "1. First Bank. The interest attached: value, Kiln's rights in the collateral, and a signed security agreement describing collateral by UCC type, with an effective after-acquired clause. Perfection by filing is governed by the law of the debtor's location, and an LLC, as a registered organization, is located in its state of organization, Delaware, wherever it operates (9-301, 9-307(e)). First Bank filed only in Ohio, so its interest is attached but unperfected.\n\n2. The kiln. The kiln is equipment, and Furnace Corp. retained a security interest to secure its price, a purchase-money security interest (9-103). Furnace filed in the correct state on June 15, within 20 days after Kiln received the kiln. A PMSI in non-inventory goods perfected within 20 days after the debtor receives possession has priority over conflicting interests (9-324(a)); no notice to earlier filers is needed for equipment. Independently, a perfected interest beats an unperfected one (9-322(a)(2)). Furnace Corp. has priority.\n\n3. Tile Mart. A buyer in ordinary course takes free of a security interest created by its seller, even if perfected and known to the buyer (9-320(a)). Tile Mart bought in good faith, from a seller in the business of selling tiles, at the regular price. Knowing that First Bank financed the inventory is not knowing that the sale violated the security agreement. Tile Mart takes free; First Bank's interest continues in the proceeds.\n\n4. Forklift. Self-help repossession is allowed only without breach of the peace (9-609). Cutting a lock at night over the manager's objection is a breach, and First Bank is liable for its agent. The sale was also defective: it required reasonable authenticated notice to Kiln (10 days is a safe harbor, 9-612), commercial reasonableness (9-610(b)), and a secured party may buy at a private sale only collateral customarily sold on a recognized market (9-610(c)), which a used forklift is not. Kiln may recover damages under 9-625, and under 9-626's rebuttable-presumption rule First Bank gets a deficiency only if it proves a compliant sale would have yielded less than the debt.",
+      "cite": "UCC 9-103, 9-203, 9-301, 9-307(e), 9-317, 9-320(a), 9-322(a), 9-324(a), 9-609, 9-610, 9-611, 9-612, 9-625, 9-626",
+      "ref": "secured-transactions.md"
+    }
+  ]
+}

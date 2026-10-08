@@ -1,0 +1,82 @@
+{
+  "set": "mee-cluster-d",
+  "title": "MEE-style — Family Law, Trusts & Estates",
+  "component": "mee",
+  "jurisdiction": "multistate",
+  "questions": [
+    {
+      "id": "MEE-FAM-001",
+      "subject": "Family Law",
+      "area": "Premarital agreements; UCCJEA; property division",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Hal and Wendy married in State A twelve years ago. The day before the wedding, Hal's lawyer handed Wendy a premarital agreement in which each spouse waived all rights to spousal support; Hal disclosed nothing about his finances, and Wendy, then a 23-year-old graduate student earning $18,000, did not have a lawyer and did not waive disclosure. Hal then owned a small software company worth $200,000; during the marriage he worked 60-hour weeks building it, and it is now worth $3 million. Wendy left the workforce to raise their daughter, now 10. Four months ago Wendy moved with the daughter to State B. Last week Hal filed for divorce and custody in State A, where he still lives. Wendy has filed a custody petition in State B. State A has adopted the Uniform Premarital Agreement Act and the UCCJEA and follows equitable distribution. (1) Is the spousal-support waiver enforceable? (2) Which state has jurisdiction to make the initial custody determination? (3) How should the court classify the software company for property division?",
+      "rubric": [
+        {
+          "point": "States UPAA standard: unenforceable if involuntary, OR unconscionable when executed AND no fair and reasonable disclosure, no voluntary written waiver of disclosure, and no adequate knowledge",
+          "weight": 2
+        },
+        {
+          "point": "Applies: no disclosure, no waiver, no independent counsel, presented the day before wedding with large disparity — likely unconscionable when executed; notes timing/no-counsel bear on voluntariness but are not dispositive",
+          "weight": 2
+        },
+        {
+          "point": "Notes UPAA 6(b): even if valid, court may order support to the extent necessary to avoid Wendy's eligibility for public assistance",
+          "weight": 1
+        },
+        {
+          "point": "UCCJEA home state = state where child lived with a parent for 6 consecutive months before commencement, or within 6 months before if a parent still lives there",
+          "weight": 1
+        },
+        {
+          "point": "Applies: child in State B only 4 months; State A was home state within 6 months and Hal remains — State A has home-state jurisdiction; State B lacks it and should defer (temporary emergency jurisdiction only if emergency)",
+          "weight": 2
+        },
+        {
+          "point": "Company: premarital value ($200,000) is separate; appreciation due to Hal's marital efforts is active appreciation and marital; passive/market portion separate; tracing burden on Hal",
+          "weight": 2
+        }
+      ],
+      "model_answer": "(1) Under the UPAA, a premarital agreement is unenforceable if the challenger proves she did not sign voluntarily, or that it was unconscionable when executed and, before execution, she was not given fair and reasonable disclosure, did not voluntarily waive disclosure in writing, and did not have adequate knowledge of the other's property. Hal disclosed nothing, Wendy waived nothing, and nothing suggests she otherwise knew his finances. A total mutual support waiver between a business owner and a student earning $18,000, presented the day before the wedding without counsel, is likely unconscionable at execution. Late presentation and lack of counsel also support an involuntariness argument, though courts treat them as factors rather than dispositive. The waiver is likely unenforceable. Even if it were valid, UPAA §6(b) lets the court require support to the extent needed to keep Wendy off public assistance. (2) Under the UCCJEA, the home state has priority for initial custody jurisdiction. The home state is where the child lived with a parent for six consecutive months immediately before commencement, or was the home state within six months before commencement while a parent continues to live there. The daughter has been in State B only four months; State A was her home state within the prior six months, and Hal still lives there. State A has home-state jurisdiction. State B has no home-state or significant-connection jurisdiction while a home state exists, and it should stay its proceeding and communicate with State A. It could act only on temporary emergency jurisdiction, and no emergency is alleged. (3) In an equitable distribution state, property owned before marriage is separate. Appreciation during marriage is marital to the extent it results from marital funds or either spouse's efforts (active appreciation); passive market appreciation stays separate. The $200,000 premarital value is Hal's separate property. Most of the $2.8 million increase came from Hal's 60-hour weeks during the marriage, so it is marital and subject to equitable division, with Wendy's homemaking contributions weighed. Hal bears the burden of tracing any passive component.",
+      "cite": "Uniform Premarital Agreement Act §6; UCCJEA §§102(7), 201, 204, 206; majority dual-classification equitable distribution (separate vs. marital; active vs. passive appreciation)",
+      "ref": "family-law.md"
+    },
+    {
+      "id": "MEE-TE-001",
+      "subject": "Trusts and Estates",
+      "area": "Anti-lapse; ademption; partial revocation; prudent investor",
+      "type": "essay",
+      "difficulty": "analysis",
+      "q": "Tess validly executed a will providing: Article 1, 'my 500 shares of Acme Corp. stock to my brother Ben'; Article 2, '$20,000 to my friend Fay'; Article 3, 'the residue to my daughter Dana.' Ben died last year, survived by his son Sam. Two years before her death, Tess sold her Acme shares and used the proceeds to buy Beta Corp. shares, which she held at death. Shortly before her death, Tess drew a line through Article 2 and wrote 'cancelled — T.' in the margin; no one witnessed this. Tess also created a valid irrevocable trust naming Trustco as trustee for Dana; Trustco has kept 90% of the trust's $2 million in a single tech stock that has since lost half its value, and it has no strategy or reason for the concentration. The jurisdiction has adopted the Uniform Probate Code and the Uniform Prudent Investor Act. (1) Who, if anyone, takes under Article 1? (2) What is the effect of Tess's marking of Article 2? (3) Is Trustco liable for the trust's losses?",
+      "rubric": [
+        {
+          "point": "Lapse: Ben predeceased, so the gift lapses absent anti-lapse; UPC 2-603 covers devisees who are grandparents, descendants of grandparents, or stepchildren — brother qualifies; Sam substitutes",
+          "weight": 2
+        },
+        {
+          "point": "Ademption: specific gift of Acme shares not in estate; identity theory would adeem; UPC 2-606(a)(5) replacement-property rule reaches only real or tangible personal property, so it does not carry the gift to the Beta shares; but 2-606(a)(6) gives a pecuniary devise equal to the Acme shares' value at sale if ademption is shown inconsistent with Tess's plan or intent (reinvestment of the proceeds is evidence)",
+          "weight": 2
+        },
+        {
+          "point": "UPC 2-507: revocation by physical act includes cancellation, and partial revocation is permitted; cancellation need not touch the words under UPC; requires intent to revoke",
+          "weight": 2
+        },
+        {
+          "point": "Result: Article 2 revoked if done with intent (the note shows intent); $20,000 falls into the residue for Dana; no witnesses needed for physical-act revocation",
+          "weight": 1
+        },
+        {
+          "point": "UPIA: prudent investor standard — portfolio as a whole, duty to diversify unless special circumstances; judged at time of decision, not hindsight",
+          "weight": 2
+        },
+        {
+          "point": "Applies: 90% concentration with no reason breaches duty to diversify; Trustco surcharged for losses caused by the breach (restore to what a prudent portfolio would have produced)",
+          "weight": 1
+        }
+      ],
+      "model_answer": "(1) A devise lapses if the devisee predeceases the testator. The UPC anti-lapse statute (2-603) substitutes the surviving descendants of a devisee who is the testator's grandparent, a descendant of a grandparent, or a stepchild. A brother is a descendant of Tess's grandparents, so Sam stands in Ben's place, and the will has no survivorship condition. The Acme gift is specific, and Tess no longer owned Acme at death. Under the traditional identity theory the gift would adeem and Sam would take nothing. UPC 2-606 softens ademption, but its replacement-property rule (2-606(a)(5)) applies only to real property or tangible personal property acquired to replace specifically devised real or tangible personal property; stock is intangible, so Sam does not take the Beta shares themselves (and 2-605 covers only changes in the same securities, such as splits or mergers, not a sale and reinvestment). Under the catch-all in 2-606(a)(6), however, Sam takes a pecuniary devise equal to the value of the Acme shares at the date Tess sold them, to the extent it is established that ademption would be inconsistent with her manifested plan of distribution or that she did not intend ademption. Her reinvestment of the proceeds in Beta shares is evidence she did not intend to abandon the gift. If Sam carries that burden he takes a cash amount equal to the Acme shares' sale value (from the estate, with the Beta shares passing in the residue to Dana); if not, the gift adeems. (2) Under UPC 2-507, a will or any part of it is revoked by a revocatory act, including cancellation, done with intent to revoke. The UPC permits partial revocation by physical act, and cancellation need not touch the words. Tess's line through Article 2, with 'cancelled — T.', shows intent to revoke that article. Physical-act revocation requires no witnesses. Article 2 is revoked, and the $20,000 stays in the residue for Dana. (Some non-UPC states bar partial revocation by act because it would increase another gift without will formalities.) (3) Under the UPIA a trustee must invest as a prudent investor would, considering the portfolio as a whole and its risk and return, and must diversify unless it reasonably determines that special circumstances make it prudent not to. Compliance is judged by the facts at the time of the decision, not by hindsight. Holding 90% in one stock with no strategy or reason breaches the duty to diversify, and the loss is the kind diversification guards against. Trustco is liable (surcharged) for the losses caused by the breach, measured as the difference between the trust's value and what a properly diversified portfolio would have produced. It may also face removal.",
+      "cite": "UPC §§2-603, 2-605, 2-606(a)(5)-(6), 2-507; Uniform Prudent Investor Act §§2, 3",
+      "ref": "trusts-estates.md"
+    }
+  ]
+}

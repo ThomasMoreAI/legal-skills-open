@@ -48,6 +48,23 @@ demande n'appelle pas.
   version lue.
 - Quelques consultations par réponse suffisent. Si une référence reste introuvable ou ambiguë, ne pas
   deviner : la laisser en blanc et la mettre dans les points à arbitrer.
+- Ouvrir la page de l'article quand on en cite les mots ou qu'on en compte les alinéas. L'extrait
+  affiché dans la liste des résultats suffit pour constater qu'un article existe et qu'il est en
+  vigueur ; le noter alors « repérée (résultat de recherche) », pas « vérifiée ».
+- Un article introuvable dans le code en vigueur a pu exister : la recherche le fait parfois
+  apparaître dans la version initiale d'un décret de codification. Écrire « absent du code en
+  vigueur », pas « n'a jamais existé », et chercher le dernier article de la série.
+- Avant d'insérer un article « après l'article X », chercher X-1, X-2 : le numéro voulu est souvent
+  déjà pris par un article intercalaire.
+- Versions divergentes (la liste de résultats annonce une version récente, la page ouverte en montre
+  une autre) : relever les deux dates, rouvrir la page de l'article depuis le sommaire du code, et si
+  l'écart demeure, donner les deux constats et classer la référence « à vérifier ».
+- Relever le préfixe exact de l'article : « R. » (décret en Conseil d'Etat), « R*. » (décret en
+  Conseil d'Etat délibéré en conseil des ministres), « D. » (décret simple). Un projet qui cite
+  « R. 423-… » pour un article « R*. » se trompe aussi sur le niveau du texte qui peut le modifier ou
+  y déroger.
+- Les numéros changent : une section entière peut avoir été réécrite quelques mois plus tôt. Un numéro
+  retenu de mémoire, même exact à une date passée, se vérifie comme les autres.
 - Copier les mots cités à l'identique, espaces, apostrophes et majuscules comprises. Un outil de lecture
   web qui résume la page n'est pas fiable pour une citation exacte : lui demander le passage mot pour
   mot, et en l'absence de texte intégral, signaler la citation comme « à confirmer ».
@@ -78,10 +95,13 @@ en précisant dans la colonne « Statut » le résultat, la version lue et le mo
 ## Références citées
 | Référence | Origine | Statut |
 |---|---|---|
-| article L. 123-4 du code de … | demande | vérifiée : en vigueur, deuxième alinéa cité à l'identique (version en vigueur depuis le 25/08/2021, navigateur) |
-| décret n° 2015-1689 du 17 décembre 2015 | ajoutée | vérifiée : intitulé exact repris dans les visas (JORF, recherche web) |
-| article R. 5221-50 du code du travail | demande | **inexistant** : le chapitre s'arrête à R. 5221-48 (navigateur) |
+| article L. … du code de … | demande | vérifiée : en vigueur, deuxième alinéa cité à l'identique (version en vigueur depuis le …, navigateur) |
+| décret n° … du … | ajoutée | vérifiée : intitulé exact repris dans les visas (JORF, recherche web) |
+| article R. … du code de … | demande | **absent du code en vigueur** : la série s'arrête à R. … (navigateur) |
+| article R. … du code de … | ajoutée | repérée : en vigueur (résultat de recherche, navigateur) |
 ```
+
+Ces lignes montrent la forme ; aucun numéro ne se reprend d'un exemple.
 
 Un constat de vérification qui change le texte (alinéa inexistant, mots cités introuvables, article
 abrogé) figure aussi, au niveau Bloquant, dans le tableau des commentaires.

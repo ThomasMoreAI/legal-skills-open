@@ -6,7 +6,7 @@ description: 'Légistique française : rédige, corrige ou analyse des textes l�
 author: kilianvivien
 author_url: https://github.com/kilianvivien/skill-legistique-fr/tree/main/legistique-fr
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: constitutional

@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): consumer pro
 
 Jurisdiction: `at` · Practice: `consumer` · Skill language: de, en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`User Input`](skills/arckit-at-barrierefreiheit-tractorjuice/) | [COMMUNITY] Assess Austrian digital accessibility obligations — applicability across BaFG (European… |
 | [`/recht verbraucher — Verbraucherschutzrecht (Advisory)`](skills/recht-verbraucher-momarcode1/) | Austrian consumer protection law — Gewaehrleistung (§§922ff ABGB, §9 KSchG), warranty vs guarantee… |
 | [`/recht verbraucher-verfahren — Verbraucherschutz-Verfahren (Procedural)`](skills/recht-verbraucher-verfahren-momarcode1/) | Austrian consumer protection procedure — enforcing Gewaehrleistung claims (Maengelruege, Fristsetzung… |
 

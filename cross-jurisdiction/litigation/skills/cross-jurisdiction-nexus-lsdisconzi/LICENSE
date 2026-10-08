@@ -1,0 +1,8 @@
+{
+  "name": "craudio",
+  "version": "2.0.0",
+  "description": "Case-agnostic cross-jurisdictional civil litigation plugin for Claude Code — cold-start interview, ontology governance, evidence-to-norms pipeline, and multi-jurisdiction pack system for aviation, consumer, criminal, and human-rights practice areas.",
+  "author": {"name": "Craudio P Advogados"},
+  "license": "Apache-2.0",
+  "keywords": ["litigation", "cross-jurisdiction", "legal-ai", "evidence", "ontology", "international-law", "brazil", "chile", "civil-law", "pack-system"]
+}

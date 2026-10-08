@@ -9,6 +9,8 @@
   "practice": "data-protection",
   "language": "en",
   "skills": [
+    "skills/arckit-ca-ocap-tractorjuice",
+    "skills/arckit-ca-pia-tractorjuice",
     "skills/canada-pipeda"
   ]
 }

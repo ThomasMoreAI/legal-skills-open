@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "eudi",
+  "displayName": "EUDI Knowledge",
+  "version": "3.0.2",
+  "description": "EUDI Wallet / eIDAS2 specification knowledge base: ARF, OpenID4VP, OpenID4VCI, HAIP, SD-JWT VC, ISO mdoc, W3C VCDM and Digital Credentials API, split into individually loadable skills.",
+  "author": {
+    "name": "Sourcelab",
+    "url": "https://github.com/sourcelabbg"
+  },
+  "homepage": "https://github.com/sourcelabbg/eudi-knowledge",
+  "repository": "https://github.com/sourcelabbg/eudi-knowledge",
+  "license": "MIT",
+  "keywords": [
+    "eudi",
+    "eidas2",
+    "arf",
+    "openid4vp",
+    "openid4vci",
+    "sd-jwt-vc",
+    "mdoc",
+    "verifiable-credentials",
+    "digital-identity"
+  ],
+  "skills": "./skills"
+}

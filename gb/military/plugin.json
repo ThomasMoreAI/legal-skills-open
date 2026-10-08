@@ -1,0 +1,14 @@
+{
+  "name": "gb-military",
+  "displayName": "Military & Defence Law — GB",
+  "version": "0.1.0",
+  "description": "Military & Defence Law skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "military",
+  "language": "en",
+  "skills": [
+    "skills/arckit-jsp-936-tractorjuice"
+  ]
+}

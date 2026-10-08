@@ -1,0 +1,15 @@
+{
+  "name": "nl-government-contracts",
+  "displayName": "Government Contracts & Procurement — NL",
+  "version": "0.1.0",
+  "description": "Government Contracts & Procurement skills for NL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "nl",
+  "practice": "government-contracts",
+  "language": "en",
+  "skills": [
+    "skills/arckit-nl-cloud-tractorjuice",
+    "skills/arckit-nl-exit-tractorjuice"
+  ]
+}

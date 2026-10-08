@@ -15,11 +15,17 @@ Usage :
     cat projet.txt | python3 lint_legistique.py -    # lecture sur l'entrée standard
 
 Deux familles de contrôles :
-- ligne à ligne (langue, présentation, formules proscrites) ;
+- ligne à ligne (langue, présentation, formules proscrites, formules de modification mal annoncées :
+  « les mots « … » » sans deux-points, « remplacés par « … » », « il est ajouté les mots suivants ») ;
 - structure du texte entier (règles « structure-… ») : numérotation des articles, article d'exécution
   absent ou mal placé, entrée en vigueur après l'article d'exécution, visas ou article d'exécution dans
-  une loi, ordre des visas, « susvisé » (code, loi, texte absent des visas, disposition insérée), même
-  article du texte modifié touché par plusieurs dispositions du projet.
+  une loi, ordre des visas, dernière ligne avant « Décrète : » terminée par un point-virgule, décret ou
+  arrêté sans formule d'ouverture ni visas, « susvisé » (code, loi, texte absent des visas, disposition
+  insérée), même article du texte modifié touché par plusieurs dispositions du projet.
+
+Sont admis comme article final : l'article d'exécution, l'article « responsables de l'application » d'une
+ordonnance, et « Le présent arrêté sera publié… » pour un arrêté signé par le ministre. Un extrait sans
+formule d'ouverture peut commencer à un autre article que le premier.
 
 Le script ne fait que signaler des candidats : chaque constat se relit dans son contexte avant d'être
 retenu. Il ne regarde pas :
@@ -46,6 +52,13 @@ RULES = [
      "date d'entrée en vigueur laissée à un autre texte sans borne", "3.8.1", "B", {}),
     ("abroge-et-remplace", r"\babrogée?s? et remplacée?s?\b",
      "écrire « est remplacé par les dispositions suivantes » (règlement) ou « est ainsi rédigé » (loi)", "3.4.1", "R", {}),
+    ("mots-sans-deux-points",
+     r"\b(?:les mots|le mot|la phrase|les phrases|la référence|les références|le taux|le nombre|le montant)\s+«",
+     "passage cité sans deux-points : « les mots : « … » »", "3.4.1", "R", {}),
+    ("remplace-sans-annonce", r"\bremplacée?s? par\s+«",
+     "annoncer le texte de remplacement : « sont remplacés par les mots : « … » »", "3.4.1", "R", {}),
+    ("ajoute-mots-suivants", r"\bil est ajouté (?:les mots|le mot|la phrase)(?: suivante?s?)?\b",
+     "écrire « est complété par les mots : « … » » ou « sont insérés les mots : « … » »", "3.4.1", "R", {}),
     ("redige-ainsi", r"\b(?:rédigée?s? ainsi qu'il suit|ainsi conçue?s?)\b",
      "formule proscrite : « ainsi rédigé »", "3.4.1", "R", {}),
     ("renvoi-relatif", r"\b(?:alinéa|article|paragraphe)s? (?:précédent|suivant)e?s?\b",
@@ -108,7 +121,7 @@ RULES = [
      "annexe typo", "R", {}),
     ("pour-cent", r"\b(?:p\. ?cent|pour cent)\b", "écrire « % »", "annexe typo", "S", {}),
     ("milliers-point", r"\b\d{1,3}\.\d{3}\b", "séparateur de milliers : espace insécable, pas de point", "annexe typo", "S", {}),
-    ("parentheses", r"\((?!le reste sans changement\))(?!section )(?![^()]*https?:)[^()\n]{1,120}\)",
+    ("parentheses", r"\((?!le reste sans changement\))(?!section )(?!n° )(?![^()]*https?:)[^()\n]{1,120}\)",
      "parenthèse dans le dispositif : l'intégrer à la phrase ou la supprimer", "3.3.1", "R", {}),
     ("sigle", r"\b[A-Z][A-Z0-9]{1,}(?:-[A-Z0-9]+)*\b",
      "sigle : désigner l'organisme en toutes lettres (tolérés dans la notice)", "3.3.1", "R", {"sigle": True}),
@@ -125,7 +138,13 @@ NOT_SIGLES = {
     "NOR", "LO", "TITRE", "CHAPITRE", "SECTION", "LIVRE", "PARTIE", "DISPOSITIONS", "GÉNÉRALES",
     "GENERALES", "FINALES", "TRANSITOIRES", "PÉNALES", "PENALES", "DIVERSES", "ANNEXE", "PREMIER",
     "PRELIMINAIRE", "PRÉLIMINAIRE", "UNIQUE", "RF", "ER",
+    # en-têtes d'amendement et de documents d'accompagnement
+    "PROJET", "PROPOSITION", "DE", "LOI", "AMENDEMENT", "SOUS-AMENDEMENT", "ARTICLE", "ADDITIONNEL", "AVANT",
+    "SOMMAIRE", "DES", "MOTIFS", "IMPACT", "RAPPORT", "APRES", "EXPOSE",
 }
+# Dans l'exposé sommaire d'un amendement, prose explicative : pas de contrôle du temps ni du style.
+EXPOSE_IGNORE = {"doit", "futur", "renfort", "parentheses", "notamment", "et-notamment", "concerne", "passe-partout",
+                 "sigle", "non-normatif", "renvoi-relatif"}
 # Mots en -ra / -ront qui ne sont pas des futurs.
 FUTUR_EXCLUS = {
     "front", "affront", "opéra", "caméra", "choléra", "extra", "ultra", "intra", "contra", "mantra", "cobra",
@@ -182,11 +201,18 @@ def lint(text):
     amendement = bool(AMENDEMENT.search(text))
     lines = text.split("\n")
     offset = 0
+    expose = False  # l'exposé sommaire d'un amendement explique : il n'est pas du dispositif
     for lineno, line in enumerate(lines, 1):
         stripped = line.strip()
+        if re.match(r"^EXPOSÉ (?:SOMMAIRE|DES MOTIFS)\b", stripped):
+            expose = True
+        elif re.match(r"^(?:AMENDEMENT|SOUS-AMENDEMENT|PROJET DE LOI|PROPOSITION DE LOI|ARTICLE)\b", stripped):
+            expose = False
         is_visa = bool(re.match(r"^[«\s]*Vu\b", stripped))
         is_heading = bool(stripped) and stripped == stripped.upper() and len(stripped) > 3
         for rid, pattern, message, fiche, grav, opts in RULES:
+            if expose and rid in EXPOSE_IGNORE:
+                continue
             if opts.get("skip_visas") and is_visa:
                 continue
             if opts.get("skip_notice") and NOTICE.match(stripped):
@@ -208,7 +234,7 @@ def lint(text):
                         continue
                     if re.match(r"^[LRDA]\d|^LO$", word):
                         continue
-                if rid == "alinea-chiffre" and amendement and CHAPEAU.search(line):
+                if rid in ("alinea-chiffre", "renvoi-relatif") and amendement and CHAPEAU.search(line):
                     continue
                 if rid == "duree-chiffres" and int(m.group("n")) >= 100:
                     continue
@@ -234,9 +260,13 @@ def lint(text):
 
 # --- Contrôles de structure (sur l'ensemble du texte, pas ligne à ligne) ---
 
-ARTICLE_HEAD = re.compile(r"^\s*Article (?P<num>\d+)(?P<er>er)?(?: (?P<suffixe>bis|ter|quater))?\s*$|^\s*Article unique\s*$")
+ARTICLE_HEAD = re.compile(r"^\s*Article (?P<num>\d+)(?P<er>er)?(?: (?P<suffixe>bis|ter|quater))?(?:\s*\[\d+\])*\s*$"
+                          r"|^\s*Article unique(?:\s*\[\d+\])*\s*$")
 OPENING = re.compile(r"^\s*(?:Décrète|Arrête|Arrêtent|Ordonne)\s*:\s*$", re.M)
-EXECUTION = re.compile(r"\b(?:est|sont) chargée?s?,?(?: chacun en ce qui (?:le|la) concerne,)? de l'exécution\b")
+EXECUTION = re.compile(r"\b(?:est|sont) chargée?s?,?(?: chacun en ce qui (?:le|la) concerne,)? de l'exécution\b"
+                       r"|\b(?:est|sont) responsables?,?(?: chacun en ce qui (?:le|la) concerne,)? de l'application\b"
+                       r"|\bLe présent arrêté sera publié\b")
+INTITULE = re.compile(r"^\s*(?:Décret|Arrêté|Ordonnance)\b[^\n]*\b(?:relatif|relative|portant|fixant|modifiant|pris)\b", re.M)
 EN_VIGUEUR = re.compile(r"\b(?:entre|entrent|entrera|entreront) en vigueur\b|\bprend(?:nent|ra|ront)? effet\b")
 OPERATION = re.compile(
     r"\b(?:est|sont) (?:ainsi (?:modifiée?s?|rédigée?s?)|abrogée?s?|remplacée?s?|complétée?s?|supprimée?s?|"
@@ -331,6 +361,8 @@ def structure(text):
 
     # 1. Numérotation des articles du projet
     attendu = 1
+    if not reglementaire and not loi and articles and articles[0]["m"].group("num"):
+        attendu = int(articles[0]["m"].group("num"))  # extrait sans formule d'ouverture
     for a in articles:
         m = a["m"]
         if m.group("num") is None:  # Article unique
@@ -375,6 +407,20 @@ def structure(text):
             findings.append(finding(a["index"] + 1, "structure-loi-execution", a["label"], a["label"],
                                     "une loi n'a pas d'article d'exécution (la formule est ajoutée à la "
                                     "promulgation)", "3.1.5", "R"))
+
+    # 2 bis. Formule d'ouverture, ponctuation de la dernière ligne avant « Décrète : »
+    if reglementaire:
+        before = text[:OPENING.search(text).start()].split("\n")
+        last = max((i for i, l in enumerate(before) if l.strip()), default=None)
+        if last is not None and before[last].rstrip().endswith(";"):
+            findings.append(finding(last + 1, "structure-visa-final", ";", before[last].strip()[-70:],
+                                    "la dernière ligne avant « Décrète : » ou « Arrête : » se termine par une "
+                                    "virgule, les précédentes par un point-virgule", "3.1.5", "S"))
+    elif not loi and articles and INTITULE.search(text) and not re.search(r"^\s*Vu\b", text, re.M):
+        m = INTITULE.search(text)
+        findings.append(finding(text[:m.start()].count("\n") + 1, "structure-ouverture-absente", "", m.group(0),
+                                "décret, arrêté ou ordonnance sans formule d'ouverture, visas ni « Décrète : », "
+                                "« Arrête : » ou « Ordonne : »", "3.1.5", "R"))
 
     # 3. Visas : présence dans une loi, ordre
     visa_lines = []
@@ -595,6 +641,10 @@ def main():
     args = ap.parse_args()
     text = sys.stdin.read() if args.fichier == "-" else open(args.fichier, encoding="utf-8").read()
     if args.markdown or args.fichier.lower().endswith(".md"):
+        if text.count("```") < 2 and not re.search(r"^\s*>", text, re.M):
+            print("Avertissement : ni bloc ``` ni ligne citée « > » ; tout le texte hors titres et tableaux est "
+                  "contrôlé comme un projet. Pour une analyse (fonction C), passer le texte analysé, pas la réponse.",
+                  file=sys.stderr)
         text = markdown_lintable(text)
 
     if args.refs:

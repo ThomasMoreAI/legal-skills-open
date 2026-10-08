@@ -1,0 +1,14 @@
+{
+  "name": "jp-consumer",
+  "displayName": "Consumer Protection — JP",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for JP (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "jp",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/jis-accessibility-beshkenadze"
+  ]
+}
