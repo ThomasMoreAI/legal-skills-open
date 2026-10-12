@@ -3,7 +3,7 @@ name: document-approval-tracker-scott-margetts
 title: Document Approval Tracker
 description: 'Approval cascade definition and tracking for multi-stakeholder document workflows. Internal review sequences, client approval workflows, regulatory review, overdue chasing with escalation logic, version control coordination, and cross-jurisdiction document dependencies. Use when defining who reviews a document and in what order, tracking where a document is stuck in the approval chain, chasing an overdue reviewer, preventing reviewers working on superseded drafts, or mapping dependencies between documents across jurisdictions. Trigger on: ''who needs to approve this'', ''document approval'', ''review sequence'', ''stuck in review'', ''overdue approval'', ''who has the document'', ''version control'', ''wrong version'', ''document dependency'', ''NL SPA waiting on German opinion'', ''approval cascade'', ''review chain'', ''document circulation'', ''chasing the partner'', ''client approval process'', ''where is the document''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/document-approval-tracker-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/document-approval-tracker
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

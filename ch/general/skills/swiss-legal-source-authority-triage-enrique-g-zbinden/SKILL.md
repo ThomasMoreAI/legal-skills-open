@@ -3,7 +3,7 @@ name: swiss-legal-source-authority-triage-enrique-g-zbinden
 title: Swiss Legal Source & Authority Triage
 description: Swiss legal source and authority triage. Use when a user asks a Swiss legal, regulatory, compliance, contract, employment, corporate, litigation, IP, tax, privacy, public-law, fintech, register, or cantonal-law question; when Swiss law may apply; or when an AI legal answer needs source routing across federal, cantonal, communal, regulator, register, contractual, professional, soft-law, multilingual, or open-data layers.
 author: Enrique G. Zbinden
-author_url: https://lawve.ai/en/skills/swiss-legal-source-authority-triage-enrique-g-zbinden
+author_url: https://lawve.ai/@enrique-g-zbinden/skill/swiss-legal-source-and-authority-triage
 license: MIT
 version: 0.1.0
 execution_mode: open

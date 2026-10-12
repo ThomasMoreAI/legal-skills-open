@@ -3,7 +3,7 @@ name: collaboration-platform-advisor-scott-margetts
 title: Collaboration Platform Advisor
 description: 'Collaboration platform configuration methodology for legal matter sites. Site architecture, workflow identification, dashboard design, data quality governance, and user adoption for SharePoint, Teams, and equivalent platforms. M365 is the reference implementation — outputs are platform-agnostic enough to brief IT or build simple automations without becoming a Power Automate manual. Use when setting up a matter site, identifying workflows to automate, designing reporting dashboards, managing platform data quality, or driving user adoption. Trigger on: ''set up the matter site'', ''configure SharePoint'', ''build a dashboard'', ''what should we automate'', ''brief IT on this workflow'', ''nobody is using the platform'', ''data quality is poor'', ''set up Teams channel'', ''matter site structure'', ''alerts and notifications'', ''user training'', ''platform governance'', ''status dashboard'', ''what workflows can we automate'', ''matter site template''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/collaboration-platform-advisor-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/collaboration-platform-advisor
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

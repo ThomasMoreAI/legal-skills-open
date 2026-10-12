@@ -5,7 +5,7 @@ description: 'Calendar litigation and arbitration deadlines from a scheduling or
 
   Use this skill whenever the user mentions: litigation deadlines, scheduling order, case management order, deadline calendaring, discovery deadlines, trial preparation deadlines, arbitration scheduling, or anything related to computing or tracking court or arbitration deadlines. Also trigger when the user uploads a PDF that appears to be a court scheduling order or arbitration scheduling order.'
 author: Dave Marcus
-author_url: https://lawve.ai/en/skills/litigation-deadline-calendar-dave-marcus
+author_url: https://lawve.ai/@dave-marcus/skill/litigation-deadline-calendar
 license: MIT
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: outside-counsel-billing-and-performance-reviewer-carl-ditzler
 title: Outside Counsel Billing & Performance Reviewer
 description: Reviews outside counsel invoices and related billing data for an in-house legal department, including LEDES or e-billing exports, OCGs, approved rates, discounts, budgets, AFAs, and staffing rules. Starts with internal comparisons before bringing in external data. Produces invoice review findings, MBR/QBR scorecards, dispute logs, and management reports. For demonstration purposes only and not professional advice.
 author: Carl Ditzler
-author_url: https://lawve.ai/en/skills/outside-counsel-billing-and-performance-reviewer-carl-ditzler
+author_url: https://lawve.ai/@carl-ditzler/skill/outside-counsel-billing-and-performance-reviewer
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

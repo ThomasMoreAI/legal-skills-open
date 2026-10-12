@@ -4,7 +4,7 @@ title: Azerbaijan + EU Website Privacy Compliance Audit
 description: 'Audits a website for compliance with Azerbaijan''s Law on Personal Data No. 998-IIIQ and, where applicable, EU GDPR plus ePrivacy/cookie consent rules. Inventories the privacy documents present (privacy policy, cookie policy, cookie banner, consent flow, controller and DPO contact, data subject rights channel, cross-border transfer disclosures, AZ operator-registration references) and scores each against the applicable statutory requirements. Produces a dual-layer report: a plain-language traffic-light summary for business owners plus a clause-by-clause findings table with article-level citations for lawyers. Assessment-only — no drafting. Use whenever the user shares a URL or privacy/cookie policy text for an AZ-based or AZ-targeted site; also when the user mentions an .az domain, Law 998, the AZ State Register, ePrivacy, an Art. 27 EU representative, or asks "is my site GDPR compliant", "do I need to register as an operator in Azerbaijan", or "is our cookie banner lawful"
   — even without the word "audit".'
 author: Mirza Chiragov
-author_url: https://lawve.ai/en/skills/azerbaijan-eu-website-privacy-compliance-audit-mirza-chiragov
+author_url: https://lawve.ai/@mirza-chiragov/skill/az-eu-website-privacy-audit
 license: CC-BY-4.0
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: timeline-generator-scott-margetts
 title: Timeline Generator
 description: 'Build dependency network and critical path from a matter plan. Produce an interactive Gantt, flag near-critical tasks, and run what-if cascade scenarios when delays occur — showing programme impact and drafting communications. Produces filtered workstream or jurisdiction views for local counsel. Trigger on: ''build a timeline'', ''Gantt chart'', ''critical path'', ''what if X is delayed'', ''what moves if'', ''schedule impact'', ''how does this affect the programme'', ''when do we finish'', ''can we still close on time'', ''if we miss this deadline'', ''run a what-if'', ''visualise the plan'', ''Germany timeline'', ''what does the Employment workstream look like'', ''timeline for local counsel'', ''just show me the [workstream] tasks''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/timeline-generator-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/timeline-generator
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

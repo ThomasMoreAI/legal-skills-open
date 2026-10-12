@@ -3,7 +3,7 @@ name: billing-cycle-manager-scott-margetts
 title: Billing Cycle Manager
 description: 'Operational billing execution for legal matters. Monthly bill prep and billing instructions, LC invoice review and disbursement treatment, client billing query responses, cashflow modelling (LC payment obligations vs client receipts), and leverage and burn analysis (staffing mix, predicted total cost, margin trajectory). Trigger on: ''prepare the bill'', ''billing instruction'', ''end of month billing'', ''LC invoice'', ''local counsel invoice'', ''pass through as disbursement'', ''client querying the invoice'', ''billing dispute'', ''cashflow gap'', ''when will we get paid'', ''LC payment due'', ''leverage analysis'', ''staffing mix'', ''predicted total cost'', ''burn rate by grade'', ''are we on track'', ''what will this matter cost''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/billing-cycle-manager-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/billing-cycle-manager
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

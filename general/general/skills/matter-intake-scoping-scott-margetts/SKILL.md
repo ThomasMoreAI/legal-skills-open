@@ -3,7 +3,7 @@ name: matter-intake-scoping-scott-margetts
 title: Matter Intake and Scoping
 description: 'Matter scoping across the full pre-execution arc — organise client data into a structured brief, capture the agreed baseline, or reconstruct scope mid-flight. Use when making sense of client information before a proposal, scoping a new matter, running a kickoff, defining scope, mapping stakeholders, or inheriting a matter mid-flight. Trigger on: ''make sense of this'', ''structure this for the proposal'', ''scope this matter'', ''new matter'', ''kickoff'', ''what are we doing'', ''who are the stakeholders'', ''what does success look like'', ''matter setup'', ''intake'', ''I''ve inherited this matter'', ''organise this client data''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/matter-intake-scoping-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/matter-intake-scoping
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: scope-change-controller-scott-margetts
 title: Scope Change Controller
 description: 'Scope management for legal matters — baseline capture, in-flight change control, OOS documentation, and scope retrospective. Use when asked to review scoping assumptions, assess whether work is in or out of scope, draft a scope change notice, track scope changes, prepare an OOS justification, run an OOS report, prepare a scope call agenda, or review what changed on a matter. Trigger on: ''scope change'', ''out of scope'', ''OOS'', ''scope creep'', ''is this in scope'', ''the client wants us to also'', ''additional work'', ''scope review'', ''what changed from the original scope'', ''we need to revisit the quote'', ''the budget assumed'', ''OOS report'', ''scope call with the client'', ''run a scope report''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/scope-change-controller-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/scope-change-controller
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

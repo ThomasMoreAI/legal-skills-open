@@ -25,7 +25,7 @@ description: 'Drafts a customized Customer Agreement starting from the Y Combina
 
   SaaS contracting, even if they don''t mention YC specifically.'
 author: Victor Wang
-author_url: https://lawve.ai/en/skills/victor-wang-yc-saas-drafter
+author_url: https://lawve.ai/@victor-wang/skill/yc-saas-drafter
 license: MIT
 version: 0.1.0
 execution_mode: open

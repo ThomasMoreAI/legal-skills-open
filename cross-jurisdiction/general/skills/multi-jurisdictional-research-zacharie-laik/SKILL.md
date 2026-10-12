@@ -3,7 +3,7 @@ name: multi-jurisdictional-research-zacharie-laik
 title: Multi-Jurisdictional Legal Research & Risk Assessment
 description: Conducts multi-jurisdictional legal research and risk assessment across 50+ countries using the Legal Data Hunter MCP, producing cited comparative analyses of case law, legislation, and doctrine.
 author: Zacharie Laïk
-author_url: https://lawve.ai/en/skills/multi-jurisdictional-research-zacharie-laik
+author_url: https://lawve.ai/@zacharie-laik/skill/multi-jurisdictional-research
 license: MIT
 version: 0.1.0
 execution_mode: open

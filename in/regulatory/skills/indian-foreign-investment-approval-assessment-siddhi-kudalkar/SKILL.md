@@ -3,7 +3,7 @@ name: indian-foreign-investment-approval-assessment-siddhi-kudalkar
 title: India FDI Approval Assessment
 description: Assess whether Government of India approval is required for foreign investment in an Indian company under Foreign Exchange Management Act, 1999 and the Non-Debt Instruments Rules, 2019. The skill systematically gathers transaction details, evaluates sectoral entry routes and caps, assesses land border country restrictions under applicable laws, and delivers a preliminary compliance note. Produces clear guidance on whether the investment falls within Automatic Route or requires Government approval.
 author: Siddhi Kudalkar
-author_url: https://lawve.ai/en/skills/indian-foreign-investment-approval-assessment-siddhi-kudalkar
+author_url: https://lawve.ai/@siddhi-kudalkar/skill/indian-foreign-investment-approval-assessment
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

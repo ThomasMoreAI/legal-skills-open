@@ -3,7 +3,7 @@ name: jurisrank-argentine-supreme-court-analysis-adrian-lerer
 title: JurisRank — Argentine Jurisprudential Authority Analysis
 description: 'Argentine Supreme Court citation network analysis using JurisRank — a peer-reviewed PageRank algorithm with temporal decay for measuring jurisprudential authority. Ranks precedents by citation influence, traces doctrinal evolution, and detects constitutional drift. Published methodology: JCLLT (DOI: 10.47852/bonviewJCLLT62027951). Activate with: which cases to cite, rank precedents, case authority, doctrinal evolution, Argentine Supreme Court, CSJN jurisprudence, citation network, leading case, legal research Argentina.'
 author: Adrián Lerer
-author_url: https://lawve.ai/en/skills/jurisrank-argentine-supreme-court-analysis-adrian-lerer
+author_url: https://lawve.ai/@adrian-lerer/skill/argentine-supreme-court-analysis
 license: CC-BY-4.0
 version: 0.1.0
 execution_mode: open

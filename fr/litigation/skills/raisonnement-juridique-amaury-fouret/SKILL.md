@@ -3,7 +3,7 @@ name: raisonnement-juridique-amaury-fouret
 title: Raisonnement Juridique - Méthodologie du Magistrat Civil
 description: Modélise le raisonnement juridique d'un magistrat français pour l'analyse de dossiers civils. Utiliser ce skill pour analyser un litige et identifier les questions juridiques, construire un raisonnement juridique structuré (syllogisme), rédiger une motivation de jugement civil, rechercher la jurisprudence et les textes applicables via Judilibre et Légifrance, qualifier juridiquement des faits et actes, distinguer prétentions, moyens et arguments. Basé sur les Fiches méthodologiques de rédaction du jugement civil (ENM/Cour de cassation, 2023).
 author: Amaury Fouret
-author_url: https://lawve.ai/en/skills/raisonnement-juridique-amaury-fouret
+author_url: https://lawve.ai/@amaury-fouret/skill/raisonnement-juridique
 license: MIT
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: matter-plan-builder-scott-margetts
 title: Matter Plan Builder
 description: 'Convert agreed scope into a structured matter plan — phases, workstreams, milestones, dependencies, owner assignments, and matter setup decisions. Use when planning a new matter, running a kickoff, building a workstream plan, structuring phases, setting up task codes, or producing a plan to drive status reporting. Trigger on: ''build a plan'', ''matter plan'', ''project plan'', ''what are the phases'', ''workstream plan'', ''how do we sequence this'', ''who owns what'', ''task codes'', ''matter setup'', ''workstream plan'', ''matter plan'', ''rolling wave'', ''plan the next phase'', ''what comes first'', ''kickoff agenda''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/matter-plan-builder-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/matter-plan-builder
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

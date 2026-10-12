@@ -4,7 +4,7 @@ title: Legal Design Assessment
 description: 'Audits a legal document against legal design principles. Scores the document on six pillars: language patterns (bureaucratese, archaisms, passive voice, nominalization), readability (Flesch Reading Ease and language-specific equivalents), structure and navigation, hidden conditions (material obligations buried away from their headings), statutory duplication (restating the law instead of citing it), and visual hierarchy where layout is available. Assessment-only; does not rewrite the document. Works on English, French, and German documents, inferring the applicable jurisdiction from the document''s language and textual signals: governing-law clause, statute citations, party addresses. Use when a user shares a legal document (contract, NDA, T&C, privacy policy, internal policy) asking how good the drafting is from a legal design perspective, whether it is readable, whether it contains buried clauses or restates the law, or how it scores on Flesch / LIX / Amstad / Kandel-Moles
   readability metrics.'
 author: Mirza Chiragov
-author_url: https://lawve.ai/en/skills/legal-design-assessment-mirza-chiragov
+author_url: https://lawve.ai/@mirza-chiragov/skill/legal-design-assessment
 license: CC-BY-4.0
 version: 0.1.0
 execution_mode: open

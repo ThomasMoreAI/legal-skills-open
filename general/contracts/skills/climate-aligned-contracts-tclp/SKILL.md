@@ -3,7 +3,7 @@ name: climate-aligned-contracts-tclp
 title: Climate Aligned Contracts
 description: 'Draft, adapt, and review contracts and clauses aligned with The Chancery Lane Project''s methodology for reducing carbon emissions through legal agreements. Use when Claude needs to: (1) Draft new climate-aligned clauses (e.g., net zero commitments, carbon accounting, supply chain decarbonization), (2) Adapt or modify existing contracts to incorporate climate objectives, (3) Review and analyze clauses for alignment with climate goals and decarbonization strategies, (4) Provide guidance on The Chancery Lane Project''s house style and drafting methodology for climate-conscious legal work.'
 author: Felix Cohen
-author_url: https://lawve.ai/en/skills/climate-aligned-contracts-tclp
+author_url: https://lawve.ai/@the-chancery-lane-project/skill/climate-aligned-contracts
 license: MIT
 version: 0.1.0
 execution_mode: open

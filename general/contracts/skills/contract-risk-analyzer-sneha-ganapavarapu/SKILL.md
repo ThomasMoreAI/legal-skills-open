@@ -3,7 +3,7 @@ name: contract-risk-analyzer-sneha-ganapavarapu
 title: Contract Risk Analyzer
 description: Analyses contracts for risk across five critical clauses (Limitation of Liability, Indemnities, IP Ownership, Data Protection, Termination). Built for founders with no legal background. Flags red flags, explains risks in plain language, and provides negotiation guidance.
 author: Sneha Ganapavarapu
-author_url: https://lawve.ai/en/skills/contract-risk-analyzer-sneha-ganapavarapu
+author_url: https://lawve.ai/@sneha-ganapavarapu/skill/contract-risk-analyzer
 license: CC-BY-4.0
 version: 0.1.0
 execution_mode: open

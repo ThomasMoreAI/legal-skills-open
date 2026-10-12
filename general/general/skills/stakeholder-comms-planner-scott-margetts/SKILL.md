@@ -3,7 +3,7 @@ name: stakeholder-comms-planner-scott-margetts
 title: Stakeholder Comms Planner
 description: 'Stakeholder mapping, communication plan design, reporting hierarchy, and mid-matter comms updates. Use when setting up a new matter and needing to identify who needs what information, designing the communication rhythm, building reporting structures for multi-jurisdiction programmes, or updating the comms plan when the stakeholder landscape changes. Trigger on: ''stakeholder map'', ''who needs to be kept informed'', ''communication plan'', ''reporting structure'', ''who do we report to'', ''how often do we meet'', ''client wants more updates'', ''new contact on the client side'', ''build the comms plan'', ''reporting hierarchy'', ''HQ vs regions'', ''who is the decision maker'', ''comms rhythm'', ''meeting cadence'', ''status call schedule''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/stakeholder-comms-planner-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/stakeholder-comms-planner
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

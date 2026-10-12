@@ -3,7 +3,7 @@ name: ai-governance-reviewer-carl-ditzler
 title: AI Governance Reviewer Skill
 description: Use this skill when the user wants an AI governance, legal-risk, privacy, compliance, procurement, or vendor-risk review of an internal AI use case, an AI product feature, an LLM workflow, or a third-party AI vendor. The skill asks intake and clarifying questions first when facts or evidence are missing, identifies required documentation and missing evidence, maps the use case to AI governance frameworks and applicable legal domains, and produces a preliminary or final governance review with scorecards, findings, owners, remediation actions, and follow-up questions.
 author: Carl Ditzler
-author_url: https://lawve.ai/en/skills/ai-governance-reviewer-carl-ditzler
+author_url: https://lawve.ai/@carl-ditzler/skill/ai-governance-reviewer
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

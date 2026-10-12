@@ -3,7 +3,7 @@ name: continuous-improvement-engine-scott-margetts
 title: Continuous Improvement Engine
 description: 'Capture, structure, and recycle lessons from active and closed legal matters. Three modes: in-flight capture (triggered by scope changes, risk events, status updates — highest value), mid-matter review (phase gates or quarterly), and matter close retrospective (full structured findings). Lessons are formatted for immediate reuse, not filed and forgotten. Use when a risk materialises, a scope change lands, a phase completes, or a matter closes and you want to convert what happened into something useful for the next matter. Trigger on: ''capture a lesson'', ''what did we learn'', ''matter close'', ''retrospective'', ''lessons learned'', ''what went wrong'', ''what worked'', ''phase gate review'', ''debrief'', ''extract the learning'', ''close the matter'', ''what should we do differently'', ''pattern from this matter'', ''improve the next one''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/continuous-improvement-engine-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/continuous-improvement-engine
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

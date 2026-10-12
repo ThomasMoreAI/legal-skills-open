@@ -3,7 +3,7 @@ name: resource-planner-scott-margetts
 title: Resource Planner
 description: 'Team structure, gearing analysis, continuity planning, and competing demand management for legal matters. Use when setting up a matter team, reviewing whether work is being done at the right grade, planning cover for an unavailable team member, or managing a resource conflict across matters. Trigger on: ''who should be on this matter'', ''team structure'', ''gearing'', ''right people at the right level'', ''partner is doing associate work'', ''cover for maternity leave'', ''who has capacity'', ''team member leaving'', ''over-allocated'', ''staffing conflict'', ''pinch point'', ''capacity problem'', ''how do we resource this'', ''team too senior'', ''team too junior''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/resource-planner-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/resource-planner
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: legal-document-drafting-formatting-alessandro-dardano
 title: In-House Counsel Document Format — Multi-Track House Style
 description: "Produces properly-formatted legal documents in Word (.docx). The user  provides the substantive content (instructions, attached files, project  knowledge); the skill handles document architecture and formatting.\n* No precedent or template required * Seven document families: agreements, corporate documents, litigation, \n  memos, employment, policies, correspondence\n* Jurisdiction-agnostic — works across any legal system the user specifies * Multi-Chain numbering, defined-terms convention, structured recitals, \n  atomic signature blocks\n* Also reformats existing .docx to a consistent house style * Works in Claude.ai, Cowork, and Claude for Word"
 author: Alessandro Dardano
-author_url: https://lawve.ai/en/skills/legal-document-drafting-formatting-alessandro-dardano
+author_url: https://lawve.ai/@alessandro-dardano/skill/legal-document-drafting
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

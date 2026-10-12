@@ -3,7 +3,7 @@ name: local-counsel-manager-scott-margetts
 title: Local Counsel Manager
 description: 'End-to-end external local counsel lifecycle management for multi-jurisdiction legal matters. LC selection criteria and capability assessment, engagement setup and instruction design, performance monitoring and check-in cadence, scope enforcement, and relationship escalation. Use when selecting local counsel for a jurisdiction, designing LC instructions, managing the LC check-in rhythm, enforcing scope boundaries when LC signals overreach, or escalating a performance or relationship issue beyond the matter team. Trigger on: ''which LC should we use'', ''LC instruction'', ''brief the local counsel'', ''LC hasn''t responded'', ''LC is going off scope'', ''LC scope dispute'', ''confirm scope with LC'', ''LC check-in'', ''LC is slow'', ''monitor the LC network'', ''LC engagement letter'', ''LC selection'', ''what should we tell the local counsel'', ''LC onboarding'', ''LC performance issue'', ''LC relationship problem''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/local-counsel-manager-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/local-counsel-manager
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

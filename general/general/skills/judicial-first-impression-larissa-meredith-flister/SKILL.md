@@ -3,7 +3,7 @@ name: judicial-first-impression-larissa-meredith-flister
 title: 'Judicial First Impression: Cold-Read Assessment'
 description: 'Assesses a legal argument, submission, or piece of structured reasoning from the perspective of a judge reading it cold under time pressure. Produces a structured seven-part assessment: what the case appears to be about, immediate points of confusion, what feels strong, what feels weak, what is assumed but unproved, a provisional confidence level (low/medium/high), and what would be needed to persuade. The skill does not rewrite, improve, or attack the argument — it tells you how it actually lands on a sceptical, experienced reader with no prior context. Works on skeleton arguments, witness statements, letters before action, position statements, academic articles, and non-legal structured reasoning.'
 author: Larissa Meredith-Flister
-author_url: https://lawve.ai/en/skills/judicial-first-impression-larissa-meredith-flister
+author_url: https://lawve.ai/@larissa-meredith-flister/skill/judicial-first-impression
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

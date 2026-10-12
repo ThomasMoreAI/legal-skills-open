@@ -3,7 +3,7 @@ name: new-designation-screening-test-amir-fadavi
 title: New Designation Screening Test Generator
 description: Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists plus deliberate variations of those names — to validate that a sanctions screening system catches fresh designations and is tuned to the right fuzziness threshold. Use this whenever the user asks for sanctions list update test data, screening regression test data, screening QA, fuzzy match calibration, or wants to verify their screening lists are current. Trigger even if the user doesn't say 'screening' explicitly — phrases like 'test my sanctions list', 'check our SDN coverage', 'is my list up to date', or 'build me a regression set from the latest designations' should also invoke this skill.
 author: Amir Fadavi
-author_url: https://lawve.ai/en/skills/new-designation-screening-test-amir-fadavi
+author_url: https://lawve.ai/@amir-fadavi/skill/new-sanctions-designation-screening-test
 license: MIT
 version: 0.1.0
 execution_mode: open

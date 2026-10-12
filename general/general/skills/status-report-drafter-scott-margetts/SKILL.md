@@ -3,7 +3,7 @@ name: status-report-drafter-scott-margetts
 title: Status Report Drafter
 description: Draft matter status reports from emails, call notes, and updates. Internal and client-facing formats, RAG logic, variance commentary, escalation flags. Use when asked to draft a status report, write a project update, summarise matter progress, prepare a client report, create a weekly or monthly update, convert emails into a status summary, or produce any kind of matter reporting. Also triggers when the user pastes email threads and asks what the status is, or needs to turn internal updates into client-facing reports.
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/status-report-drafter-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/status-report-drafter
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

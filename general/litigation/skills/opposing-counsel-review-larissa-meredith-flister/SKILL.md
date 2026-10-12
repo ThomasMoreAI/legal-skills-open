@@ -3,7 +3,7 @@ name: opposing-counsel-review-larissa-meredith-flister
 title: 'Opposing Counsel: Adversarial Argument Analysis'
 description: "Act as experienced opposing counsel to attack, undermine, and expose weaknesses in a legal argument, submission, witness statement, or structured reasoning.\nProduces a six-part adversarial analysis:  1. A core theory of attack identifying the single most effective way to defeat the argument;  2. A reconstructed version of the opposing argument stripped of rhetoric to expose its fragility;  3. Primary lines of attack grouped by category (legal misstatement, evidential gaps, causation failures, internal inconsistency, over-reliance on assertion, procedural weakness);  4. An \"if I were the judge\" section showing how a sceptical tribunal would dismantle the argument;  5. Surgical strikes - 3 to 5 high-impact points ready for oral submissions; and  6. An analysis of what the argument is trying to hide. \nWritten in formal, adversarial British English for a legally trained audience."
 author: Larissa Meredith-Flister
-author_url: https://lawve.ai/en/skills/opposing-counsel-review-larissa-meredith-flister
+author_url: https://lawve.ai/@larissa-meredith-flister/skill/opposing-counsel-review
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

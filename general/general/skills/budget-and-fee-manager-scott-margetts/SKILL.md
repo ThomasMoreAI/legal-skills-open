@@ -3,7 +3,7 @@ name: budget-and-fee-manager-scott-margetts
 title: Budget and Fee Manager
 description: 'Matter budgeting and ongoing WIP/variance monitoring. Build phase-based fee estimates at matter setup, run bottom-up budgets by jurisdiction or workstream, calculate contingency, and structure AFA arrangements (fixed fee, capped fee, phased fixed fees). Ongoing monitoring: WIP tracking against budget, proportionality assessment (spend vs progress), variance commentary with root cause analysis, forecast-to-complete, realisation monitoring, write-off analysis. Trigger on: ''build a budget'', ''fee estimate'', ''what will this cost'', ''WIP review'', ''budget vs actual'', ''how are we tracking against budget'', ''we''re over budget'', ''realisation is poor'', ''what''s our ETC'', ''budget for the German workstream'', ''model the financial impact of this scope change'', ''draft a fee adjustment'', ''write-off analysis'', ''how much contingency'', ''AFA structure'', ''fixed fee estimate'', ''budget update'', ''forecast to complete''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/budget-and-fee-manager-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/budget-and-fee-manager
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

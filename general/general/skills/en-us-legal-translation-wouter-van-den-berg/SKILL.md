@@ -3,7 +3,7 @@ name: en-us-legal-translation-wouter-van-den-berg
 title: Legal Document Translation Skill
 description: 'Translate legal documents from any language into English while preserving .docx formatting and translating track changes and headers/footers. Use this skill whenever the user asks to translate a legal document, contract, deed, agreement, or any formal legal text into English. Also trigger when the user mentions translating .docx files that contain legal content, or asks for a "format-preserving translation" of a legal document. This skill covers all legal domains: finance, M&A, corporate, IP, real estate, regulatory, consumer, taxes, litigation, SaaS and more. Even if the user just says "translate this contract" or "translate this into English", use this skill if the document is legal in nature.'
 author: Wouter van den Berg - wouter@monteclima.com - linkedin.com/in/wjvandenberg
-author_url: https://lawve.ai/en/skills/en-us-legal-translation-wouter-van-den-berg
+author_url: https://lawve.ai/@wouter-van-den-berg/skill/en-us-legal-translation
 license: MIT
 version: 0.1.0
 execution_mode: open

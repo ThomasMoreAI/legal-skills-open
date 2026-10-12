@@ -3,7 +3,7 @@ name: meeting-briefing-anthropic
 title: Meeting Briefing Skill
 description: Prepare structured briefings for meetings with legal relevance and track resulting action items. Use when preparing for contract negotiations, board meetings, compliance reviews, or any meeting where legal context, background research, or action tracking is needed.
 author: Anthropic
-author_url: https://lawve.ai/en/skills/meeting-briefing-anthropic
+author_url: https://lawve.ai/@anthropic/skill/meeting-briefing-preparator
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open

@@ -3,7 +3,7 @@ name: risk-and-issues-manager-scott-margetts
 title: Risk and Issues Manager
 description: 'RAID log methodology with decision extraction from emails and meeting notes. Use when asked to identify risks, log assumptions, track issues, extract decisions from correspondence, create or update a RAID log, escalate a risk to an issue, assess project risks, validate or challenge assumptions, or capture scope-relevant decisions. Also triggers when the user pastes email chains and asks what decisions were made, or needs to find buried decisions and untested assumptions in correspondence. Trigger on: ''risk report'', ''RAID log'', ''what are the risks'', ''what decisions were made'', ''update the risk register'', ''what assumptions are we making'', ''what could go wrong'', ''flag any issues'', ''extract decisions from these emails''.'
 author: Scott Margetts
-author_url: https://lawve.ai/en/skills/risk-and-issues-manager-scott-margetts
+author_url: https://lawve.ai/@scott-margetts/skill/risk-and-issues-manager
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open
