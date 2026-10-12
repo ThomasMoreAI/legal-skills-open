@@ -9,7 +9,6 @@ Jurisdiction: `gb` · Practice: `litigation` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`BAILII case downloader`](skills/bailii-case-download-ciaransaunders/) | Search BAILII (www.bailii.org) for a UK or Irish case and download the full judgment as a clean PDF. Use… |
-| [`BAILII Case Law Research`](skills/bailii-case-law/) | Search BAILII for UK case law and retrieve full judgment text. Use when someone asks to find a case… |
 | [`/brief-section-drafter`](skills/brief-section-drafter-uk-agents/) | Draft a skeleton argument or written submissions section in house style, consistent with the case theory… |
 | [`/claim-chart`](skills/claim-chart-uk-agents/) | Build or review an element chart — a patent claim chart (infringement, invalidity, or review) or a civil… |
 | [`/customize`](skills/customize-litigation-legal-uk-uk-agents/) | Guided customisation of your litigation practice profile — change one thing without re-running the whole… |

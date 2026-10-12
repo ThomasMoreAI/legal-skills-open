@@ -86,7 +86,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Annahmefrist Leistungsfrist 308`](skills/annahmefrist-leistungsfrist-308/) | Für Annahmefrist Leistungsfrist 308: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Annahmefrist und verspätete Annahme — §§ 147 bis 149 BGB`](skills/annahmefrist-verspaetung-paragraphen-147-149/) | Für Annahmefrist und verspätete Annahme — Paragrafen 147 bis 149 BGB: prüft Frist, Form, Zuständigkeit… |
 | [`Kanzleiprofil anpassen`](skills/anpassen-3/) | Für Kanzleiprofil anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`Fachanwalt — Mandantenvertretung (Anspruchsdurchsetzung)`](skills/anspruch/) | Dieser Skill wird verwendet wenn der Nutzer "Anspruch vorbereiten", "Brief schreiben", "Schreiben… |
 | [`Anspruchsaufbau im Zivilrecht — BGB Allgemeiner Teil`](skills/anspruchsaufbau-zivilrecht-bgb-at/) | Für Anspruchsaufbau im Zivilrecht — BGB Allgemeiner Teil: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anspruchsformulierungen bei Formverstoß`](skills/anspruchsformulierungen-formverstoss/) | Für Anspruchsformulierungen bei Formverstoß: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Workflow: Anspruchslandkarte BGB BT`](skills/anspruchslandkarte-vertragstypen/) | Für Workflow: Anspruchslandkarte BGB BT: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -611,7 +610,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Vert: Vertragsschluss Bauleiter`](skills/vert-vertragsschluss-vertragspruefung/) | Für Vert: Vertragsschluss Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Verteidigungsstrategie bei Formangriff`](skills/verteidigungsstrategie-bei-formangriff/) | Für Verteidigungsstrategie bei Formangriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verträge: Formular, Portal und Einreichungslogik`](skills/vertraege-formular-portal-und-einreichung/) | Für Verträge: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
-| [`Fachanwalt — Vertragsgestaltung mit iterativem Prüfgremium`](skills/vertrag/) | Dieser Skill wird verwendet wenn der Nutzer "Vertrag erstellen", "Vertrag entwerfen", "Vertrag prüfen"… |
 | [`Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen`](skills/vertrag-vom-auftrag-bis-zur-endfassung-erstellen/) | Erstellt einen deutschen B2B-Vertrag für ein mittelständisches Einzelgeschäft aus Auftrag, Angebot und… |
 | [`Vertragsänderung durch Zustimmung prüfen`](skills/vertragsaenderung-durch-zustimmung-pruefen/) | Prüft, ob AGB-Änderungen durch ausdrückliche Zustimmung, Schweigen oder Weiternutzung wirksam vereinbart… |
 | [`Anschluss-Routing`](skills/vertragsausfueller-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |

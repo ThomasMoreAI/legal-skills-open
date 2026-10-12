@@ -4,7 +4,7 @@ title: Plain-Precedent Retrieval Agent
 description: Surface the controlling case law for a specific legal question in a specific jurisdiction, so a human can judge whether a claim survives — standing precedent, the "ongoing violation" standard, ripeness, notice-sufficiency, deference doctrine, and the like. Use this skill whenever the user wants to know "what's the controlling law in the [N]th Circuit on X," "find the precedent on standing for citizen suits," "is Chevron still good law," "what cases govern whether a violation is ongoing," or needs the legal landscape for a question before deciding anything. Reports the controlling authority with currency and jurisdiction noted; never concludes that a case is safe to file or will win.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/precedent-retrieval
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

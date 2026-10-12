@@ -8,7 +8,6 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`NY Bar Benchmark`](skills/bar-benchmark-cure-consulting-group/) | Scores legal competency on a NY bar-style bank (MBE, NYLE, MPRE, MEE essays). Use when baselining a… |
 | [`$law-student:bar-prep-questions`](skills/bar-prep-questions-alexchlou/) | Bar prep questions — MBE or essay, targeted at your weak subjects and bar jurisdiction. Tracks misses… |
 | [`Billing & Operations`](skills/billing-operations-judicialmind/) | Legal billing and law firm operations skill for time tracking, invoicing, and financial management. Use… |
 | [`Legal Billing Summary`](skills/billing-summary/) | Produces privilege-safe U.S. corporate legal billing summaries from time and expense data. Converts… |
@@ -23,10 +22,8 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`/cold-start-interview`](skills/cold-start-interview-lawdroidai/) | Managing attorney's one-time office setup — practice areas, funding sources and eligibility guidelines… |
 | [`Law Standards`](skills/law-standards-sencersoylu/) | Standards and conventions for legal scholarship — law review articles, empirical legal studies… |
 | [`Legal Billing`](skills/legal-billing-canhada-labs/) | Legal billing and time-tracking discipline for law firms and legal departments. Covers billable vs.… |
-| [`Legal Doctrine — Rules, NY Distinctions, Traps`](skills/legal-doctrine-cure-consulting-group/) | Black-letter law and NY practice references with bar-exam traps. Use when analyzing a legal issue… |
 | [`Legal Research`](skills/legal-research-judicialmind/) | Legal research and case law analysis skill. Use when the user needs to find case law, analyze statutes… |
 | [`Legal Newsletter Summary`](skills/newsletter-summary/) | Produces concise, actionable U.S. legal newsletter summaries of recent developments organized by… |
-| [`Notary Public`](skills/notary-public/) | Licensed notary public specializing in document notarization, legal certification, and authentication.… |
 | [`Outline builder`](skills/outline-builder-bossmann007/) | Build or extend a course outline in your format, from class notes and casebook. Scaffolds — it does not… |
 | [`Bluebook Citation Format (US)`](skills/output-citation-format-bluebook-sboghossian/) | Use when formatting legal citations for a US-trained audience using the Bluebook system (Harvard… |
 | [`Legal Project Management Summary`](skills/project-management-summary/) | Produces U.S. legal project management summaries consolidating objectives, scope, timeline, budget… |

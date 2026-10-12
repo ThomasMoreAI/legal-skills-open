@@ -8,7 +8,6 @@ Jurisdiction: `tr` · Practice: `ip` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`IP Trademark Search`](skills/ip-trademark-search/) | Marka/patent araştırması, TürkPatent sorgusu, Nice sınıflandırması ve benzerlik analizi. |
 | [`/takedown`](skills/takedown-zekaisuni/) | Draft a FSEK Ek Madde 4 / 5651 sayılı Kanun Uyar-Kaldır İhtarnamesi, triage one you received, or draft a… |
 
 ## Cold-start context

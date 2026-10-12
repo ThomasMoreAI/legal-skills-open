@@ -13,7 +13,6 @@ Jurisdiction: `fr` · Practice: `general` · Skill language: fr
 | [`Contrôler le livrable`](skills/controler-livrable-gauthier-huguenin/) | Effectuer une revue contradictoire et traçable d'un projet de courrier, note, consultation ou trame… |
 | [`Calculer une date limite et connaître les jours fériés`](skills/delais-jours-feries-fr-originlabs-app/) | Calculer une date limite et connaître les jours fériés. Méthode professionnelle française, avec ses… |
 | [`Notariat France`](skills/fr-notariat-builderced/) | Navigate French notarial acts — fee calculation (emoluments), succession, donation, SCI creation… |
-| [`Humanizer Juridique : Supprimer les Traces d'Écriture IA dans les Textes de Droit Français`](skills/humaniseur-juridique-gary-haas/) | Les LLM écrivent du juridique qui ressemble à du juridique sans en être. Formules creuses, attributions… |
 | [`Justinian — French Bar Prep (CRFPA)`](skills/justinian-bar-exam-prep-fr-crfpa-sboghossian/) | Use when a user is preparing for the French bar admission exam — the CRFPA (Centre Régional de Formation… |
 | [`Discipline de citation juridique`](skills/legal-citations-allcolor/) | Discipline de citation juridique systématique — jamais d'affirmation de droit sans source exacte… |
 | [`Legal Docs FR`](skills/legal-docs-fr-kernel8901/) | Générateur de documents juridiques français pour freelances/micro-entrepreneurs. Génère des CGV… |

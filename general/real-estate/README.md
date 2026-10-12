@@ -17,7 +17,6 @@ Jurisdiction: `general` · Practice: `real-estate` · Skill language: en
 | [`Residential Lease (Tenancy Agreement)`](skills/draft-residential-lease-sboghossian/) | Use when drafting a residential lease (tenancy agreement / rental contract) for a dwelling unit. Covers… |
 | [`Sublease Agreement`](skills/draft-sublease-sboghossian/) | Use when drafting a sublease agreement where an original tenant (Sublessor) sub-lets all or part of a… |
 | [`Extract Property Deed Data`](skills/extract-property-deed-data/) | Extract property ownership, legal descriptions, encumbrances, and recording details from property deeds… |
-| [`Commercial Lease Abstraction`](skills/lease-abstraction/) | Extract a structured abstract from a commercial lease PDF — tenant/landlord identification, premises… |
 | [`Decodificador de Contratos de Arrendamiento`](skills/lease-decoder-mohitagw15856/) | Decodifica un contrato de arrendamiento residencial a lenguaje claro y clasifica las cláusulas que… |
 | [`Notice of Property Entry`](skills/notice-of-entry/) | Drafts contract-compliant Notice of Property Entry letters that satisfy Access Agreement advance-notice… |
 | [`Office Lease Agreement`](skills/office-lease/) | Drafts commercial office lease agreements with rent schedules, expense allocations, maintenance splits… |

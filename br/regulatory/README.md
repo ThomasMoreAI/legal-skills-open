@@ -20,7 +20,6 @@ Jurisdiction: `br` · Practice: `regulatory` · Skill language varies per skill 
 | [`Relatório de Contingência Jurídica`](skills/contingencia-report-autodevx/) | Gera relatórios estruturados de contingência jurídica para uso em balanços, auditoria e compliance. Use… |
 | [`Crypto-Asset Classification Triage`](skills/crypto-asset-triage-bossmann007/) | Triage de ativo virtual — Lei 14.478/2022 (Marco Legal dos Criptoativos), VASP (prestadora de serviços)… |
 | [`Launch review`](skills/launch-review-bossmann007/) | Full launch review against your framework and risk calibration. Use when the user says "review this… |
-| [`legal-compliance-check — Verificação de Conformidade`](skills/legal-compliance-check/) | Executar uma verificação de conformidade em uma ação proposta, funcionalidade de produto ou iniciativa… |
 | [`MATRIZ-ADERENCIA-TESE — Julgamento sobre dado real, nunca sobre memória`](skills/matriz-aderencia-tese-sbroggioadv/) | MATRIZ-ADERENCIA-TESE — Camada C4 do prisma-julgador-os. Julgamento LLM sobre dado real: cruza a tese da… |
 | [`Payment Institution Compliance Review`](skills/payment-institution-compliance-bossmann007/) | Análise de conformidade — Lei 12.865/2013 (instituição de pagamento e arranjo de pagamento), Resoluções… |
 | [`Reg feed watcher`](skills/reg-feed-watcher-bossmann007/) | Check regulatory feeds now and report what's new since the last check, filtered by your materiality… |

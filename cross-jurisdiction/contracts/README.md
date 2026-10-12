@@ -35,7 +35,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: d
 | [`Red-Team Qualitygate`](skills/common-law-kompass-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Compliance Calendar`](skills/compliance-calendar-danielmc09/) | [JURISDICTION] Deriva del pack de la jurisdiccion el calendario de obligaciones recurrentes y los… |
 | [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-aashutosh396/) | Use when drafting a freelance contract, client proposal, SOW, NDA, or MSA — generates jurisdiction-aware… |
-| [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-borghei/) | Generate business documents — contracts, proposals, SOWs, NDAs, MSAs — with jurisdiction-aware clauses… |
 | [`Contract Formation und Consideration`](skills/contract-formation-false-friends-governing/) | Für Contract Formation und Consideration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Design Joint Development Agreement`](skills/design-joint-development-agreement-jeffreytse/) | Use when two parties have an unresolved dispute over an underlying claim, ownership, or title question… |
 | [`Design Vendor Agreement Template`](skills/design-vendor-agreement-template-jeffreytse/) | Use when creating a reusable vendor agreement template that covers SLAs, liability, data handling… |

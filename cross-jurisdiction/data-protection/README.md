@@ -18,7 +18,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Children's Data Minimisation and Retention Limits`](skills/children-data-minimization/) | Implements strict data minimization and retention limits for children's personal data under GDPR Art.… |
 | [`Children's Profiling Restrictions`](skills/children-profiling-limits/) | Implements profiling restrictions for children under GDPR Recital 71, Article 22, UK AADC Standard 12… |
 | [`/clasificar-datos — Clasificador Legal de Datos`](skills/clasificar-datos-joselito412/) | Clasifica un campo, tabla o flujo de datos según su nivel de sensibilidad legal (público, personal… |
-| [`Compliance Architect`](skills/compliance-architect-cure-consulting-group/) | Designs HIPAA, COPPA, GDPR, CCPA, and PCI compliance: consent, audit trails, data classification. Use… |
 | [`Compliance Checker`](skills/compliance-checker-onewave-ai/) | Audits a codebase or business process for regulatory compliance across GDPR, HIPAA, SOC2, CCPA, and… |
 | [`Managing Conflicting Privacy Requirements`](skills/conflicting-laws-mgmt/) | Guides managing conflicting privacy requirements across jurisdictions. Covers data localisation vs… |
 | [`Evaluating Consent Management Platforms`](skills/consent-platform-eval/) | Framework for evaluating and selecting Consent Management Platforms (CMPs). Covers TCF v2.2… |
@@ -45,7 +44,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`KVKK & GDPR Compliance Patterns`](skills/kvkk-compliance/) | KVKK and GDPR compliance patterns - consent management, right to erasure, breach notification, audit… |
 | [`Legal Document Generation & Compliance`](skills/legal/) | Legal document generation and compliance guidance for indie Apple developers. Covers privacy policies… |
 | [`Use this skill when`](skills/legal-advisor-rmyndharis/) | Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts… |
-| [`Legal Compliance Agent`](skills/legal-compliance-agent/) | Generate legally compliant privacy policies, terms of service, HIPAA documentation, and compliance pages… |
 | [`Legal Compliance Skill`](skills/legal-compliance-everyone-needs-a-copilot/) | Multi-framework compliance gap analysis. Use for GDPR, CCPA, ADA or WCAG, PCI-DSS, SOC 2, HIPAA… |
 | [`Ley 25.326 — Auditoría de Cumplimiento (Argentina)`](skills/ley-25326-carlosuhart/) | Audita un sitio web frente a la Ley 25.326 de Protección de Datos Personales (Argentina). Detecta el… |
 | [`Auditoría Ley 21.719 — Protección de Datos Personales (Chile)`](skills/ley-datos-chile-carlosuhart/) | Audita un sitio web frente a los requisitos de la Ley 21.719 de Protección de Datos Personales (Chile).… |
@@ -60,18 +58,14 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Auditoría de Protección de Datos — Orquestador Multi-jurisdicción`](skills/privacidad-carlosuhart/) | Orquestador multi-jurisdicción de auditorías de protección de datos personales. Detecta automáticamente… |
 | [`/privacy-check — Auditoría de Privacidad de Software`](skills/privacy-check-joselito412/) | Audita un feature, endpoint de API, esquema de base de datos o flujo de integración para detectar… |
 | [`Key principles`](skills/privacy-compliance/) | Use this skill when implementing GDPR or CCPA compliance, designing consent management, conducting… |
-| [`Privacy Compliance Navigator`](skills/privacy-compliance-borghei/) | Multi-regulation privacy compliance navigator. Use for GDPR, CCPA, LGPD, POPIA, PIPEDA, PDPA, Privacy… |
-| [`Privacy Compliance Agent Skill`](skills/privacy-compliance-jpeetz/) | Comprehensive global privacy compliance agent skill covering GDPR, CCPA/CPRA, HIPAA Privacy Rule, EU AI… |
 | [`Privacy Policy Generator`](skills/privacy-generator/) | Generates comprehensive privacy policies by scanning websites for data collection signals including… |
 | [`Privacy Law Change Monitoring and Impact Assessment`](skills/privacy-law-monitoring/) | Guides privacy law change monitoring and impact assessment for multi-jurisdiction organisations. Covers… |
 | [`Privacy Law Updates`](skills/privacy-law-updates/) | Generates structured privacy and data protection law briefings across US, EU, UK, and other… |
 | [`Privacy Policy & Legal Document Generator`](skills/privacy-policy/) | Generate privacy policies, terms of service, and EULAs for Apple platform apps. Detects data collection… |
 | [`Privacy Policy Drafter`](skills/privacy-policy-drafter-rohasnagpal/) | Draft and audit external privacy policies, collection notices, employee notices, child-facing notices… |
 | [`Privacy Policy Drafting`](skills/privacy-policy-drafting/) | Draft privacy-policy language and a review checklist tailored to a business model, data practices, and… |
-| [`Privacy Policy Generator`](skills/privacy-policy-generator/) | Gizlilik politikası şablonu, çerez politikası, veri işleme açıklamaları ve hak sahipleri. |
 | [`Privacy Policy`](skills/privacy-policy-mkurman/) | When the user needs to draft, review, or update a privacy policy for their product, or needs to… |
 | [`Cross-Border Data Transfer Assessment`](skills/prompt-pack-cross-border-data-transfer-assessment-sboghossian/) | Use when a privacy lawyer or compliance officer needs to assess the lawfulness of transferring personal… |
-| [`Regulatory Compliance Skill`](skills/regulatory-compliance-oimiragieo/) | Validate systems and processes against GDPR/CCPA privacy regulations, privacy-by-design principles… |
 | [`RGPD — Auditoría de Cumplimiento (Reglamento UE 2016/679)`](skills/rgpd-carlosuhart/) | Audita un sitio web frente al Reglamento General de Protección de Datos (RGPD / GDPR — Reglamento UE… |
 | [`SaaS Legal Drafting Assistant`](skills/saas-legal-generator-briansunter/) | Create an attorney-review-ready SaaS legal drafting package from an evidence-based data and product… |
 | [`SafeAI ASEAN Data Protection — System Instructions`](skills/safeai-asean-data-protection/) | ASEAN data protection compliance engine — VN, SG, TH, MY, ID, PH regulatory frameworks. (v5.0.0) |

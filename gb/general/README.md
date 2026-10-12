@@ -31,7 +31,6 @@ Jurisdiction: `gb` · Practice: `general` · Skill language: en
 | [`/law-student-uk:study-plan`](skills/study-plan-uk-agents/) | Build or update a long-term SQE or exam prep study plan — phases, subjects weighted by weakness, daily… |
 | [`UK & Commonwealth Law`](skills/uk-commonwealth-judicialmind/) | UK and Commonwealth law skill for English law and common law jurisdictions. Use when the user needs… |
 | [`UK Legislation API (legislation.gov.uk)`](skills/uk-legislation-api/) | Access UK laws and statutory instruments via the Legislation.gov.uk API |
-| [`Erskine May API`](skills/uk-parliament-erskine-may/) | Search and retrieve Erskine May — *A Treatise on the Law, Privileges, Proceedings and Usage of… |
 
 ## Cold-start context
 

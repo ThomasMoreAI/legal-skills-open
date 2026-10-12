@@ -8,4 +8,3 @@ Plugin `gb-military`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`ArcKit: JSP 936 AI Assurance Documentation Generator`](skills/arckit-jsp-936-tractorjuice/) | Generate MOD JSP 936 AI assurance documentation for defence AI/ML systems |

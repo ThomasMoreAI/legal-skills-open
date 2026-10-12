@@ -11,7 +11,6 @@ Plugin `es-contracts`. Skills live under `skills/<slug>/SKILL.md`.
 | [`BOE CLI — Guía de M&A para Agentes IA`](skills/boe-cli-zepelinmad/) | BOE CLI skill para M&A en España. Guía completa para que un agente AI consulte legislación española… |
 | [`/calendario`](skills/calendario-betobetico/) | Calendario fiscal — genera el calendario de obligaciones tributarias por tipo de entidad y obligaciones… |
 | [`Propósito`](skills/clausulas-betobetico/) | Revisa cláusulas de propiedad intelectual e industrial en contratos verificando cesión, alcance y… |
-| [`Vivienda --- Comunidad de propietarios`](skills/comunidad-propietarios-jaimebs2/) | Use when the user asks about homeowner associations (comunidad de propietarios) in Spain: the Horizontal… |
 | [`/consulta`](skills/consulta-consumo-betobetico/) | Consulta rápida de consumo — evaluación rápida de riesgo para preguntas tipo "¿podemos hacer esto?" en… |
 | [`/consulta`](skills/consulta-fiscal-4044-betobetico/) | Consulta tributaria rápida — responde preguntas fiscales con referencia a legislación vigente y… |
 | [`Propósito`](skills/consulta-laboral-betobetico/) | Responde consultas rápidas de derecho laboral con referencia a artículos del ET y convenio colectivo |

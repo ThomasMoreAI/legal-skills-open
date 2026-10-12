@@ -8,4 +8,3 @@ Plugin `at-government-contracts`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-at-bvergg-tractorjuice/) | [COMMUNITY] Generate Austrian public procurement documentation aligned with Bundesvergabegesetz 2018… |

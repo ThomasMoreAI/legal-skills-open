@@ -8,4 +8,3 @@ Plugin `ca-regulatory`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`User Request`](skills/arckit-ca-fitaa-tractorjuice/) | [COMMUNITY] Generate a Canada FITAA (Foreign Influence Transparency and Accountability Act, Bill C-70… |

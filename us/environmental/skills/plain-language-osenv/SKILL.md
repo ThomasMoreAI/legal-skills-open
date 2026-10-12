@@ -4,7 +4,7 @@ title: Plain-Language Agent
 description: Translate a legal pathway, instrument, or doctrine into plain terms a non-lawyer can actually act on — a community group, a county commission, an organizer, a concerned resident. Use this skill whenever the user wants a legal concept explained for a lay audience, asks "what does this mean for us," "explain standing in plain English," "how would a community group actually use a state environmental rights act," or needs an instrument or process made legible without jargon. Especially apt for state environmental-rights-act pathways and citizen-suit mechanics. Explains and clarifies; never gives legal advice, predicts outcomes, or tells the reader they have a case.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/plain-language
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

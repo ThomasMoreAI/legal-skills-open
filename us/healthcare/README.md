@@ -23,7 +23,6 @@ Jurisdiction: `us` · Practice: `healthcare` · Skill language: en
 | [`HIPAA Breach Notification Rule — 45 CFR §164.400-414`](skills/hipaa-breach-notify/) | Implements HIPAA breach notification requirements under 45 CFR §164.400-414. Covers individual… |
 | [`HIPAA Compliance`](skills/hipaa-compliance/) | HIPAA compliance - PHI protection, technical/administrative/physical safeguards, minimum necessary… |
 | [`HIPAA Compliance Auditor`](skills/hipaa-compliance-auditor-fdu-ins/) | Automatically detect and de-identify PII (Personal Identifiable Information) and PHI (Protected Health… |
-| [`HIPAA Compliance Check Skill`](skills/hipaa-compliance-check/) | Use when performing hipaa compliance check — hIPAA compliance review covering PHI handling, encryption… |
 | [`HIPAA Compliance Skill`](skills/hipaa-compliance-sushegaad/) | Expert HIPAA compliance assistant for healthcare and software contexts. Use this skill whenever the user… |
 | [`HIPAA — Health Insurance Portability and Accountability Act`](skills/hipaa-en-skills-mauriciodelrio/) | Use this skill when the software processes, stores, or transmits Protected Health Information (PHI).… |
 | [`HIPAA — Health Insurance Portability and Accountability Act`](skills/hipaa-es-skills-mauriciodelrio/) | Usa este skill cuando el software procese, almacene o transmita información de salud protegida (PHI).… |

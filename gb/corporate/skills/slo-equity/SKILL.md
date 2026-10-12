@@ -4,7 +4,7 @@ title: /slo-equity — UK equity advisor + cofounder-split / vesting / cap-table
 description: 'Use this skill when a UK seed-stage founder needs first-cut equity artifacts (cofounder split rationale, vesting schedule with 4-year/1-year-cliff, cap-table snapshot), needs a vesting agreement / option grant translated to plain English, needs to triage whether a lawyer + accountant are required for an equity matter, or needs to prepare for an equity-related professional call. Same four-mode advisor pattern as `/slo-legal` and `/slo-accounting`: `draft`, `translate`, `triage`, `prepare`. Hard-blocks `draft` for regulated / >£5k / counterparty-with-lawyer / GDPR matters. Cites HMRC VCM index for SEIS / EIS qualifying-rights checks. Routes preferential-rights matters to lawyer; tax matters to accountant; complex cap-table changes to lawyer + accountant.'
 author: kerberosmansour
 author_url: https://github.com/kerberosmansour/SunLitOrchestra/tree/main/skills/slo-equity
-license: Apache-2.0
+license: MIT
 version: 0.1.2
 execution_mode: open
 jurisdiction: gb

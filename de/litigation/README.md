@@ -54,7 +54,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`765a Fehlerkatalog`](skills/765a-fehlerkatalog/) | Für 765a Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`802L: Verhandlung, Vergleich und Eskalation`](skills/802l-verhandlung-vergleich-und-eskalation/) | Für 802L: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`/verbandsklage-vdug:abhilfeklage-vdug`](skills/abhilfeklage-vdug-borghei/) | Abhilfeklage nach §§ 14 ff. VDuG – Leistung an die betroffenen Verbraucher oder Zahlung eines… |
-| [`Gegenanwalt — Fachanwalt (Verteidigung & Anspruchsabwehr)`](skills/abwehr/) | Dieser Skill wird verwendet wenn der Nutzer "Gegenseite simulieren", "Gegenanwalt", "Schreiben… |
 | [`Schuldnerabwehr in der Zwangsvollstreckung`](skills/abwehr-schuldner/) | Für Schuldnerabwehr in der Zwangsvollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Akten: Mandantenkommunikation und Entscheidungsvorlage`](skills/akten-mandantenkommunikation-entscheidungsvorlage/) | Für Akten: Mandantenkommunikation und Entscheidungsvorlage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Aktenauszug erstellen`](skills/aktenauszug-erstellen/) | Für Aktenauszug Erstellen — Hauptworkflow: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |

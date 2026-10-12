@@ -80,5 +80,4 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`SWIFT Customer Security Programme (CSP) — CSCF v2026`](skills/swift-csp/) | Expert SWIFT Customer Security Programme (CSP) advisor covering the Customer Security Controls Framework… |
 | [`Template — Firm AI Use Policy`](skills/template-firm-ai-policy-sboghossian/) | Use when a law firm needs a ready-to-adopt AI use policy governing how associates, paralegals, and staff… |
 | [`TPRM Issue Summarization`](skills/tprm-issue-summarization/) | Summarize Third-Party Risk Management issues including vendor risk exposure, assessment gaps… |
-| [`Transaction screening workflow (concepts)`](skills/transaction-screening-workflow-concepts/) | Educational map of transaction-centric compliance screening—transfer as the atomic unit, deposit vs… |
 | [`Use case triage`](skills/use-case-triage-anthropics/) | Classify a proposed AI use case against your registry — approved, conditional, or not approved — and… |

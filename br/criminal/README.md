@@ -9,7 +9,6 @@ Jurisdiction: `br` · Practice: `criminal` · Skill language: pt
 | Skill | What it does |
 |---|---|
 | [`ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA`](skills/advogado-criminal-henryalouf/) | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal… |
-| [`Assessor Judicial — Processo Penal`](skills/analise-processo-penal/) | Assessoria judicial completa para processos penais. Use esta skill sempre que o usuario pedir para… |
 | [`Investigacao Policial — Skill Operacional para Agentes`](skills/investigacao-policial-diegocamara89/) | Skill operacional para agentes de policia investigadores focada em producao de provas, estabelecimento… |
 | [`O que esta skill faz`](skills/juris-tjro-franklinbaldo/) | Consulta a jurisprudencia do Tribunal de Justica de Rondonia (TJRO) pelo sistema JURIS — acordaos… |
 | [`Relatório Final de Inquérito Policial`](skills/relatorio-final-ip-andrevictor23-tech/) | Redige o relatório final de inquérito policial no padrão real da Delegacia de Alta Floresta/MT e do… |

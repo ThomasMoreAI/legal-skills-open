@@ -14,7 +14,6 @@ Jurisdiction: `eu` · Practice: `employment` · Skill language: de
 | [`/entgelttransparenz-eu:entgelttransparenz-umsetzungsstand`](skills/entgelttransparenz-umsetzungsstand-borghei/) | Umsetzungsstand und unmittelbare Wirkung der Entgelttransparenzrichtlinie – Umsetzungsfrist des Art. 34… |
 | [`EU Richtlinie Abgleich`](skills/eu-richtlinie-abgleich/) | Für EU Richtlinie Abgleich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Workplace Investigation Report`](skills/prompt-pack-workplace-investigation-report-sboghossian/) | Use when an HR, legal, or compliance investigator needs to draft the formal report documenting the… |
-| [`Whistleblower Compliance Skill`](skills/whistleblower-compliance-borghei/) | Audit whistleblower systems and draft compliant reporting policies. Use when assessing or building… |
 
 ## Cold-start context
 

@@ -19,7 +19,6 @@ Jurisdiction: `br` · Practice: `contracts` · Skill language: pt
 | [`Cláusulas contratuais de fornecedor de IA`](skills/clausulas-contratuais-de-fornecedor-de-ia-sbroggioadv/) | Gera checklist de cláusulas mínimas e lacunas de contrato com fornecedor de IA, combinando o núcleo de… |
 | [`Redator de Contratos e Propostas — Brasil`](skills/contract-and-proposal-writer-ricardonevesbraga/) | Gerador de contratos e propostas comerciais para o mercado brasileiro. Contratos de prestação de… |
 | [`Contract Template Freelancer`](skills/contract-template-freelancer-diegojcn/) | Contract Template Freelancer — Skill especializada em elaborar, revisar e gerenciar contratos para… |
-| [`Contrato de Prestação de Serviços Criativos`](skills/contrato-de-prestacao-de-servicos-criativos-tiagopgr/) | Criar contratos de prestação de serviços para projetos de design e branding — com escopo definido… |
 | [`Revisão de Contrato por Playbook`](skills/contrato-playbook-autodevx/) | Revisa minutas de contrato linha a linha contra um playbook de posições jurídicas, identificando… |
 | [`Contrato e rede credenciada`](skills/contrato-rede-credenciada-saude-sbroggioadv/) | Estrutura a disputa sobre rede credenciada — descredenciamento e substituição de hospital (dever de… |
 | [`Revisão de Contratos — Framework BR`](skills/contrato-review-autodevx/) | Analisa contratos brasileiros identificando cláusulas problemáticas, riscos jurídicos e oportunidades de… |
@@ -39,7 +38,6 @@ Jurisdiction: `br` · Practice: `contracts` · Skill language: pt
 | [`Legal Contract Drafting — nenhuma cláusula sem origem`](skills/legal-contract-drafting-joaoguirunas/) | Método de redação e revisão de contratos, aditivos, distratos, termos e NDAs a partir de modelo da… |
 | [`Legal Research — fonte primária, artigo e data, ou não é achado`](skills/legal-research-joaoguirunas/) | Método de pesquisa jurídica com fonte primária — hierarquia de fontes, citação padrão com artigo e data… |
 | [`Skill de Avaliação de Risco Jurídico`](skills/legal-risk-assessment-bossmann007/) | Avalia e classifica riscos jurídicos usando framework de severidade x probabilidade com critérios de… |
-| [`legal-risk-assessment — Avaliação de Risco Jurídico`](skills/legal-risk-assessment-evolution-foundation/) | Avaliar e classificar riscos jurídicos usando um framework de severidade por probabilidade com critérios… |
 | [`Skill de Briefing de Reunião`](skills/meeting-briefing-bossmann007/) | Prepara briefings estruturados para reuniões com relevância jurídica e acompanha os itens de ação… |
 | [`Nota fundamentada de recusa e encaminhamento`](skills/nota-fundamentada-de-recusa-e-encaminhamento-sbroggioadv/) | Produz o entregável probatório da qualificação negativa com dispositivo legal, razão concreta e caminho… |
 | [`parecer-consultivo — o parecer que a autoridade usa para decidir`](skills/parecer-consultivo-sbroggioadv/) | O parecer da procuradoria do Estado, com a LINDB como espinha dorsal — arts. 20 a 30 verbatim no anexo… |

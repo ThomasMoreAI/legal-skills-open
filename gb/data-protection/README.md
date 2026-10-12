@@ -8,7 +8,6 @@ Jurisdiction: `gb` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-dpia-tractorjuice/) | Generate Data Protection Impact Assessment (DPIA) for UK GDPR Article 35 compliance |
 | [`/dpa-review`](skills/dpa-review-uk-agents/) | Review a Data Processing Agreement against your UK GDPR Art.28 DPA playbook — auto-detects whether… |
 | [`/dpia-generation`](skills/dpia-generation-uk-agents/) | Generate a Data Protection Impact Assessment (DPIA) under UK GDPR Art.35 in house format for a new… |
 | [`/legal-clinic-uk:draft`](skills/draft-uk-agents/) | First draft of a common UK clinic document — practice-area templates (ET1 claim narratives, housing… |

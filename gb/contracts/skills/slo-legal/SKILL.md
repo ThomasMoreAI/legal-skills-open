@@ -4,7 +4,7 @@ title: /slo-legal — UK legal advisor + first-cut document drafter
 description: 'Use this skill when a UK seed-stage founder needs first-cut legal documents (NDA, contractor SOW, IP assignment, T&Cs), needs a legal document received from a counterparty translated to plain English, needs to triage whether a matter requires a lawyer, or needs to prepare for a lawyer call. Operates as an advisor with four modes: `draft`, `translate`, `triage`, `prepare`. Hard-blocks `draft` for regulated domains, deal value > £5,000, counterparty with a lawyer (or being asked to sign their paper), and ALL GDPR-related documents — routing those situations to `triage` instead. UK only in v1; non-UK jurisdictions emit an explicit "v1 supports UK only" error rather than degrading silently. Cites onenda.org (CC BY-ND 4.0, verbatim render) for NDA work and JPP Law fixed-fee public pricing for ROI provenance.'
 author: kerberosmansour
 author_url: https://github.com/kerberosmansour/SunLitOrchestra/tree/main/skills/slo-legal
-license: Apache-2.0
+license: MIT
 version: 0.1.2
 execution_mode: open
 jurisdiction: gb

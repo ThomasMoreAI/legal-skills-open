@@ -4,7 +4,7 @@ title: safe
 description: Draft and fill Y Combinator SAFE contract templates — valuation cap, discount, MFN, pro rata side letter. Standard startup fundraising documents for convertible equity. Produces signable DOCX files. Use when user says "SAFE," "simple agreement for future equity," "YC SAFE," "valuation cap," "seed round documents," or "fundraising paperwork." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/safe
-license: MIT
+license: Apache-2.0
 version: 0.1.2
 execution_mode: open
 jurisdiction: general

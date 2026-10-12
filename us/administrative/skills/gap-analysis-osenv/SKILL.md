@@ -4,7 +4,7 @@ title: Gap Analysis Agent
 description: Read a statute or regulation and identify where an agency has failed to perform a mandatory, deadline-bound duty. Use this skill whenever the user wants to find actionable agency failures, audit a statute for missed deadlines, build the factual basis for a deadline suit or unreasonable-delay suit, or check whether a "shall by [date]" obligation has gone unmet. Trigger this even when the user only says things like "has the agency done what the law requires," "find the gaps in this statute," "what deadlines did EPA miss," or describes a regulatory program they think is behind schedule. Produces a structured findings table, never a decision to sue.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/gap-analysis
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

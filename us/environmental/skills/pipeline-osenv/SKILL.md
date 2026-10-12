@@ -4,7 +4,7 @@ title: Pipeline Conductor
 description: The conductor. Use this skill when a user wants the whole OSED process run end-to-end on an environmental concern — "take my situation through the whole process," "run the full pipeline and put together the package," "do all the steps," "I described the problem, now build the package for my attorney." It runs intake → Gap Analysis → Drafting ↔ Precedent Retrieval → Plain-Language, carries each artifact into the next, and assembles a single flagged DRAFT case package with a consolidated attorney checklist. It automates the handoffs only — it never resolves a judgment call, never decides the merits, and always stops at a licensed attorney.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/pipeline
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

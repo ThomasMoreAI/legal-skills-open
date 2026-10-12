@@ -4,7 +4,7 @@ title: Employment contract
 description: Draft and fill employment contract templates — offer letter, employment agreement, IP/inventions assignment (PIIA), and confidentiality acknowledgement — producing signable DOCX files from OpenAgreements standard forms for hiring employees. Use when the user says "employment contract," "employment agreement," "offer letter," "PIIA," "IP assignment," "hire someone," "new hire paperwork," or "onboarding paperwork." To explain non-compete or restrictive-covenant law rather than draft a document, see the non-compete-contract-explainer skill. Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/employment-contract
-license: MIT
+license: Apache-2.0
 version: 0.1.2
 execution_mode: open
 jurisdiction: general

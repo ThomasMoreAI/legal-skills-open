@@ -8,13 +8,11 @@ Jurisdiction: `us` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-us-privacy-pia-tractorjuice/) | [COMMUNITY] Generate a Privacy Impact Assessment under E-Government Act §208 and OMB M-03-22 for a US… |
 | [`Data Breach Notification Letter`](skills/breach-notification/) | Drafts legally compliant data breach notification letters to affected consumers under multi-state and… |
 | [`BYOD Policy`](skills/byod-policy/) | Drafts a Bring Your Own Device (BYOD) policy for U.S. employers governing personal device access to… |
 | [`CCPA/CPRA Compliance Advisor`](skills/ccpa/) | California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA) compliance advisor… |
 | [`CCPA/CPRA Compliance`](skills/ccpa-cpra-compliance/) | Complete CCPA/CPRA compliance implementation covering California Civil Code §1798.100-199. Includes… |
 | [`CCPA/CPRA — California Consumer Privacy Act & Privacy Rights Act`](skills/ccpa-cpra-mauriciodelrio/) | Use this skill when developing software that collects, stores, or processes personal information from… |
-| [`CCPA/CPRA Privacy Expert`](skills/ccpa-cpra-privacy-expert/) | CCPA and CPRA California privacy compliance. Use for CCPA/CPRA readiness assessments, personal… |
 | [`CCPA/CPRA Privacy Policy`](skills/ccpa-policy/) | Drafts a CCPA/CPRA-compliant privacy policy covering all required statutory disclosures under Cal. Civil… |
 | [`CCPA/CPRA Right to Delete`](skills/ccpa-right-to-delete/) | Implements CCPA Section 1798.105 right to delete and CPRA amendments including service provider… |
 | [`Colorado Privacy Act (CPA) Compliance`](skills/colorado-cpa-compliance/) | Colorado Privacy Act (CPA) compliance implementation. Covers universal opt-out mechanism required since… |

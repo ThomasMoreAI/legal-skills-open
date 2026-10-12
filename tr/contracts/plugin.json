@@ -9,8 +9,5 @@
   "practice": "contracts",
   "language": "tr",
   "skills": [
-    "skills/contract-analyzer",
-    "skills/nda-drafter",
-    "skills/terms-of-service-generator"
   ]
 }

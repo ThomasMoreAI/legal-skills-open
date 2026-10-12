@@ -8,7 +8,6 @@ Jurisdiction: `tr` · Practice: `general` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`Legal Researcher`](skills/legal-researcher/) | Hukuki araştırma, içtihat tarama, mevzuat takibi, Yargıtay kararları ve hukuki makale yazımı. |
 
 ## Cold-start context
 

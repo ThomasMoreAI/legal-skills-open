@@ -8,7 +8,6 @@ Plugin `us-consumer`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`ADA Compliance`](skills/ada-compliance-beshkenadze/) | Use when reviewing accessibility of websites, apps, or facilities, conducting WCAG audits, preparing for… |
 | [`Arizona Consumer-Debt Defense`](skills/az-consumer-debt-codearranger/) | Use when defending an Arizona consumer against a debt-collection lawsuit (typically by debt buyer or… |
 | [`California Consumer-Debt Defense`](skills/ca-consumer-debt-codearranger/) | Use this skill for California consumer-debt defense — debt-buyer suits, original-creditor collection… |
 | [`Colorado Consumer-Debt Defense`](skills/co-consumer-debt-codearranger/) | Use when defending a Colorado consumer-debt case — debt-buyer suits, collection actions. Covers **FDCPA… |

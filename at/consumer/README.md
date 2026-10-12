@@ -10,7 +10,6 @@ Jurisdiction: `at` · Practice: `consumer` · Skill language: de, en
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-at-barrierefreiheit-tractorjuice/) | [COMMUNITY] Assess Austrian digital accessibility obligations — applicability across BaFG (European… |
 | [`/recht verbraucher — Verbraucherschutzrecht (Advisory)`](skills/recht-verbraucher-momarcode1/) | Austrian consumer protection law — Gewaehrleistung (§§922ff ABGB, §9 KSchG), warranty vs guarantee… |
 | [`/recht verbraucher-verfahren — Verbraucherschutz-Verfahren (Procedural)`](skills/recht-verbraucher-verfahren-momarcode1/) | Austrian consumer protection procedure — enforcing Gewaehrleistung claims (Maengelruege, Fristsetzung… |
 

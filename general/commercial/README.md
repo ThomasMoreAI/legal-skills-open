@@ -29,6 +29,5 @@ Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 | [`/review-proposals`](skills/review-proposals-anthropics/) | Review and approve (or reject) pending playbook update proposals from the playbook-monitor agent and… |
 | [`SaaS License Agreement`](skills/saas-license-agreement/) | Drafts SaaS License Agreements for cloud-based software subscriptions covering access-based licensing… |
 | [`SaaS / Subscription Agreement Review`](skills/saas-msa-review-anthropics/) | Reference: review of SaaS subscription agreements with attention to the terms that matter most in… |
-| [`Tech Contract Negotiation Skill`](skills/tech-contract-negotiation-borghei/) | Negotiation frameworks for technology services agreements, B2B contracts, and professional services… |
 | [`Template Synthesizer Skill`](skills/template-synthesizer/) | Guides the full lifecycle of drafting any commercial contract — from context elicitation and model… |
 | [`Vendor Agreement Review`](skills/vendor-agreement-review-anthropics/) | Reference: review of an inbound vendor agreement against the team playbook in… |

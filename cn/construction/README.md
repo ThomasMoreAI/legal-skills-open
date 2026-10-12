@@ -8,7 +8,6 @@ Jurisdiction: `cn` · Practice: `construction` · Skill language: zh
 
 | Skill | What it does |
 |---|---|
-| [`建设工程商事调解知识图谱`](skills/construction-mediation-kg/) | 建设工程商事调解知识图谱专家技能。基于《人民调解法》《仲裁法》《民事诉讼法》，提供建设工程纠纷分析、商事调解策略、调解流程设计、利益方识别、争议焦点梳理、BATNA/WATNA评估、调解协议起草等全流程服务。 |
 
 ## Cold-start context
 

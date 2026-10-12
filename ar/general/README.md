@@ -14,7 +14,6 @@ Jurisdiction: `ar` · Practice: `general` · Skill language: en
 | [`Elaboración de Concepto Jurídico — Argentina`](skills/elaboracion-concepto-juridico-argentina-orwel/) | Elabora conceptos jurídicos, memos y consultas formales sobre derecho argentino. Usar cuando el usuario… |
 | [`Procedimiento de Generación de Dictamen Institucional ('generar-dictamen')`](skills/generar-dictamen-tomimastro069/) | Trigger: '/generar-dictamen', 'generar dictamen', 'redactar dictamen'. Genera un dictamen de evaluación… |
 | [`Investigación Jurídica — Argentina`](skills/investigacion-juridica-argentina-orwel/) | Guía y ejecuta investigación jurídica sobre derecho argentino. Usar cuando el usuario necesite… |
-| [`ley-ar — Argentine Legal Database Search`](skills/ley-ar/) | Search Argentine legal databases (SAIJ, JUBA, CSJN, JUSCABA) for jurisprudence, legislation, case… |
 
 ## Cold-start context
 

@@ -8,4 +8,3 @@ Plugin `gb-life-sciences`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-uk-mdr-classification-tractorjuice/) | [COMMUNITY] Determine medical-device classification for software-as-medical-device (SaMD) or… |

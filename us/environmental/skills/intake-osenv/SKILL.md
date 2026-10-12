@@ -4,7 +4,7 @@ title: Intake Agent
 description: The front door. Use this skill when a non-lawyer describes an environmental problem or situation in everyday terms and does not yet know which law, agency, or instrument applies — "the creek by us smells bad and the county keeps approving permits," "our air is bad near the refinery, what can we do," "who do we even complain to about a pipeline," "is there anything we can do about the landfill." It diagnoses the likely legal pathways and routes the user to the right next step. It never tells the user they have a case, never says a named party broke the law, never predicts outcomes — it identifies candidate pathways and hands off.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/intake
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

@@ -30,7 +30,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-art-kompetenz-automatisierte/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-nutzung-quellencheck-brao/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Applicability`](skills/applicability-arttuan/) | Decide which EU regimes apply from the facts in the brief, and record the ruled-out ones with the fact… |
-| [`7 Wallet Solution Certification and Risk Management`](skills/arf-wallet-reqs-sourcelabbg/) | Use when reviewing Wallet Solution certification requirements, conformity assessment, CSA-based… |
 | [`Kompetenz fördern und Maßnahmen belegen`](skills/art-4-ki-kompetenz-schulungsprogramm/) | Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte… |
 | [`Software nach Artikel 6 einstufen`](skills/artikel-6-software-einstufen/) | Ordnet beliebige Software anhand der KI-Systemdefinition, des Produktpfads aus Artikel 6 Absatz 1 und… |
 | [`Ausnahmebegründung nach Artikel 6`](skills/ausnahmebegruendung-artikel-6/) | Prüft und formuliert die Anbieterbegründung einer Ausnahme nach Artikel 6 Absatz 3 und 4 einschließlich… |
@@ -58,7 +57,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Deepfake Offenlegung`](skills/deepfake-offenlegung/) | Prüft künstlich erzeugte oder manipulierte Bilder, Audio und Video auf Deepfake-Eigenschaft und entwirft… |
 | [`Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/denkfehler-fristen-form-und-zustaendigkeit/) | Für Denkfehler: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Deploy Enterprise AI Governance Hub`](skills/deploy-enterprise-ai-governance-hub-frootai/) | Deploy Enterprise AI Governance Hub — AI system registry, EU AI Act risk classification, model lifecycle… |
-| [`DORA Compliance Expert`](skills/dora-compliance-expert-borghei/) | DORA (EU 2022/2554) digital operational resilience compliance for financial entities, covering all 5… |
 | [`Drafting: Internationaler Bezug und Schnittstellen`](skills/drafting-internationaler-bezug-und-schnittstellen/) | Für Drafting: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Einführer-Pflichten (Importer) — Art. 23 KI-VO`](skills/einfuehrer-importer-eu-datenbank-fallfremde/) | Für Einführer-Pflichten (Importer) — Art. 23 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Einführer-Pflichten (Importer) — Art. 23 KI-VO`](skills/einfuehrer-importer-pflichten-art-23/) | Für Einführer-Pflichten (Importer) — Art. 23 europäischer Technikregulierungsrahmen: ordnet Norm… |
@@ -76,7 +74,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`EU AI Act`](skills/eu-ai-act-rashadansari/) | Reference knowledge on the EU AI Act (Regulation (EU) 2024/1689): risk tiers, obligations, compliance… |
 | [`Key questions (ask first)`](skills/eu-ai-act-specialist-aashutosh396/) | Use during AI system intake review, conformity assessment planning, or scoping deployer/provider… |
 | [`EU AI Act Compliance Specialist`](skills/eu-ai-act-specialist-alirezarezvani/) | EU AI Act (Regulation (EU) 2024/1689) operational compliance for compliance teams. Three Article-level… |
-| [`EU AI Act Compliance Specialist`](skills/eu-ai-act-specialist-borghei/) | EU AI Act (Regulation EU 2024/1689) compliance specialist. Use for AI system risk classification… |
 | [`EU AI Act Triage EN - fast classification under Regulation (EU) 2024/1689`](skills/eu-ai-act-triage-en-matematicsolutions/) | Fast triage of a system under the EU AI Act (Regulation (EU) 2024/1689) - 20-40 minutes through a chain… |
 | [`EU-Datenbank-Registrierung — Art. 49 und 71 KI-VO`](skills/eu-datenbank-registrierung-art-49-und-71/) | Für EU-Datenbank-Registrierung — Art. 49 und 71 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`EU-Rechtsquellen, Charta und Vorlageweiche`](skills/eu-rechtsquellen-vorlageweiche/) | Für EU-Rechtsquellen, Charta und Vorlageweiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

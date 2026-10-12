@@ -4,7 +4,7 @@ title: Public Company Registries — 11 Countries
 description: Look up official company data from European public registries across 11 countries/regions (CZ, SK, PL, DE, UK, NL, RO, HR, SE + EU-level + ESG). Covers company registration, ownership, financial filings, VAT status, ESG data. Use when the user asks to "look up a company", "check registry", "find company info", "look up IČO/KRS/LEI/CRN", "company due diligence", "check VAT status", "find ownership structure", or needs official data from European registries. Reads tracked companies from data/companies.json. Some lookups use Python scripts (stdlib), some fall back to Apify actors for scraping-based registries.
 author: chocholous
 author_url: https://github.com/chocholous/awesome-skills-sim/tree/main/skills/apify-financial-services/skills/apify-public-registries
-license: MIT
+license: Apache-2.0
 version: 0.1.0
 execution_mode: open
 jurisdiction: cross-jurisdiction

@@ -29,12 +29,10 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`/datenwirtschaftsrecht:data-act-nutzerdatenzugang`](skills/data-act-nutzerdatenzugang-borghei/) | Zugangsanspruch des Nutzers nach der EU-Datenverordnung – Konzeptionspflicht Art. 3 Abs. 1 und… |
 | [`/datenwirtschaftsrecht:data-act-vertragsklauseln`](skills/data-act-vertragsklauseln-borghei/) | Vertragsgestaltung und Klauselkontrolle nach der EU-Datenverordnung – Bedingungen der Bereitstellung an… |
 | [`Data Breach`](skills/data-breach-capazme/) | Gestione data breach GDPR con valutazione rischio, notifica al Garante entro 72h e stima sanzioni. Usa… |
-| [`Data Breach Response`](skills/data-breach-response-borghei/) | Data breach incident response with ENISA severity scoring, notification timelines, and compliance… |
 | [`Data policy`](skills/data-policy-ericrisco/) | Use when building internal data-governance machinery: a retention schedule (period, lawful basis, expiry… |
 | [`/datenwirtschaftsrecht:datenzugang-oeffentliche-stellen`](skills/datenzugang-oeffentliche-stellen-borghei/) | Datenzugang öffentlicher Stellen und Datenintermediäre – Bereitstellungspflicht wegen außergewöhnlicher… |
 | [`Design Data Retention`](skills/design-data-retention-jeffreytse/) | Use when establishing or reviewing a data retention and deletion policy for personal or business data |
 | [`Design GDPR Compliance Program`](skills/design-gdpr-compliance-program-jeffreytse/) | Use when designing or auditing a GDPR compliance program for an organization that processes personal… |
-| [`DPIA Assessment`](skills/dpia-assessment-borghei/) | GDPR Art. 35 Data Protection Impact Assessment with threshold checking, risk registers, and EDPB… |
 | [`DPIA Documenter`](skills/dpia-documenter-rohasnagpal/) | Screen, conduct, and document data-protection or privacy impact assessments for new or changed… |
 | [`Data Processing Agreement (GDPR — Article 28)`](skills/draft-dpa-gdpr-sboghossian/) | Use when drafting a Data Processing Agreement (DPA) compliant with GDPR Article 28. Covers all mandatory… |
 | [`EU AI Act Compliance Audit`](skills/eu-ai-act-audit-aios-labs/) | Perform a full codebase audit for EU AI Act (Regulation 2024/1689) compliance. This skill scans the… |
@@ -43,7 +41,6 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`Gap normativo privacy`](skills/gap-normativo-privacy-pixari/) | Gap analysis tra documentazione interna (informativa, registro, policy) e requisiti richiesti… |
 | [`GDPR Skill`](skills/gdpr/) | Use when the user asks about GDPR — lawful bases for processing, data subject rights (DSRs), Records of… |
 | [`GDPR Audit Prep — Forcing Questions`](skills/gdpr-audit-prep-aashutosh396/) | Use before an annual internal GDPR review, post-breach audit, DPA-investigation readiness, or… |
-| [`GDPR Audit Prep`](skills/gdpr-audit-prep-borghei/) | GDPR audit-prep playbook: sprint to prepare for a supervisory authority inquiry, DPA audit, or internal… |
 | [`GDPR Breach 72h EN - personal data breach response (Art. 33-34)`](skills/gdpr-breach-72h-en-matematicsolutions/) | Personal data breach response assistant grounded in GDPR Art. 33-34, EDPB Guidelines 9/2022 on breach… |
 | [`GDPR Breach Notification`](skills/gdpr-breach-notification-open-legal-products/) | Run the personal data breach decision tree under GDPR Articles 33-34 and EDPB Guidelines 9/2022… |
 | [`GDPR Compliance Skill`](skills/gdpr-compliance-sushegaad/) | Expert GDPR compliance assistant covering all four core workflows: (1) auditing code and systems for… |
@@ -67,7 +64,6 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`Italian mandatory online legal texts`](skills/legal-it/) | Use when writing, reviewing, or fixing legally required texts for an Italian website, webshop, app, or… |
 | [`Monitoraggio informativa`](skills/monitoraggio-informativa-pixari/) | Revisione periodica informativa privacy / policy interne: completezza art. 13-14, coerenza con… |
 | [`Performing Transfer Impact Assessment`](skills/performing-transfer-impact-assessment-mukul975/) | Guides the post-Schrems II Transfer Impact Assessment process following EDPB Recommendations 01/2020… |
-| [`Privacy Notice Generator`](skills/privacy-notice-generator-borghei/) | Draft GDPR-compliant privacy notices for EU/EEA jurisdictions. Supports 6 notice types, 9 jurisdictions… |
 | [`Third-party vendor and integration review (GDPR / ePrivacy)`](skills/privacy-vendor-review-clemensjl/) | Use when a third-party service, SDK, script, API or dependency is about to be added to a product, when… |
 | [`GDPR Readiness Review`](skills/review-gdpr-readiness-sboghossian/) | Use when an organization needs a structured GDPR readiness review across the 10 core compliance areas… |
 | [`Revisione DPA (art. 28 GDPR)`](skills/revisione-dpa-pixari/) | Revisione contratto di nomina responsabile (art. 28 GDPR) term-by-term: istruzioni, sub-responsabile… |

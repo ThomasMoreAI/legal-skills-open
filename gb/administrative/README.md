@@ -8,4 +8,3 @@ Plugin `gb-administrative`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-atrs-tractorjuice/) | Generate Algorithmic Transparency Recording Standard (ATRS) record for AI/algorithmic tools |

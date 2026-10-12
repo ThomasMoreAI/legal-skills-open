@@ -84,7 +84,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall`](skills/bussgeldverteidigung-art-83/) | Für Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Drittstaatliches Herausgabeverlangen datenschutzrechtlich prüfen`](skills/cloud-act-vs-dsgvo-art-48-dsgvo/) | Prüft Herausgabeverlangen einer Drittstaatsbehörde an Anbieter oder Konzerngesellschaften. |
 | [`Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk`](skills/compliance-dokumentation-und-akte/) | Für Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken… |
-| [`Compliance: $ARGUMENTS`](skills/compliance-felix-hempel/) | DSGVO + Legal Compliance-Check. Datenschutz, Impressum, Cookie-Consent, Tracking, Drittanbieter-Dienste… |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-datentransfer-eu-erforderlichkeit/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-vs-43e-dienstleister/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack`](skills/cyber-vorfall-sofortmassnahmen/) | Für Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack: ordnet Norm, Beweislast und Gegenargument… |
@@ -291,7 +290,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Vertragspruefung: Fristennotiz und nächster Schritt`](skills/fristennotiz-naechster-vorpruefung/) | Für Vertragsprüfung: Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Fristverlängerung gegenüber Aufsicht`](skills/fristverlaengerung-behoerde-ohne-nachteile/) | Für Fristverlängerung gegenüber Aufsicht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Funktionsuebertragung versus Auftragsverarbeitung`](skills/funktionsuebertragung-vs-auftragsverarbeitung/) | Für Funktionsübertragung versus Auftragsverarbeitung: ordnet Norm, Beweislast und Gegenargument… |
-| [`GDPR/DSGVO Expert`](skills/gdpr-dsgvo-expert/) | GDPR and German DSGVO compliance. Use for GDPR compliance assessments, privacy audits, scanning… |
 | [`GDPR / DSGVO Expert`](skills/gdpr-dsgvo-expert-aashutosh396/) | Use when running a GDPR or German DSGVO/BDSG privacy assessment — scanning code for privacy risks… |
 | [`Senior GDPR/DSGVO Expert and Auditor`](skills/gdpr-dsgvo-expert-ovachiever/) | Senior GDPR/DSGVO expert and internal/external auditor for data protection compliance. Provides EU GDPR… |
 | [`Generator Fehlerkatalog`](skills/generator-fehlerkatalog/) | Für Generator Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

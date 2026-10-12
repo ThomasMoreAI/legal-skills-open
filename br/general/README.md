@@ -25,11 +25,8 @@ Jurisdiction: `br` · Practice: `general` · Skill language: pt
 | [`Guia de Estudos — Concurso de Cartório`](skills/guia-cartorio-andrevictor23-tech/) | Produz o guia semanal de estudos para concurso de cartório com as novidades notariais e registrais dos… |
 | [`IDENTIFICAR-ÓRGÃO-JULGADOR — Camada C1 · quem vai julgar`](skills/identificar-orgao-julgador-sbroggioadv/) | IDENTIFICAR-ÓRGÃO-JULGADOR — resolve QUEM vai julgar a peça, pelo cenário de distribuição (CPC arts.… |
 | [`Irac practice`](skills/irac-practice-bossmann007/) | Corrige uma peça/parecer no método IRAC (ou estrutura equivalente) quanto a estrutura, identificação de… |
-| [`Monitoramento Judicial Proativo`](skills/judicial-monitoring-adrianotomasoni/) | Detecta eventos judiciais relevantes para operações de seguro garantia e crédito, classifica por níveis… |
 | [`/legal-response -- Gerar Resposta a partir de Templates`](skills/legal-response-bossmann007/) | Gera resposta a uma dúvida jurídica recorrente usando templates configurados, com checagem embutida de… |
-| [`legal-response — Gerar Resposta a partir de Templates`](skills/legal-response-evolution-foundation/) | Gerar uma resposta a uma consulta jurídica comum usando templates configurados, com verificações de… |
 | [`Mediação e conciliação notarial`](skills/mediacao-e-conciliacao-notarial-sbroggioadv/) | Conduz mediação e conciliação em serventia autorizada conforme o art. 7º-A da Lei 8.935/1994 e os arts.… |
-| [`Persecução Patrimonial de Criptoativos — Brasil`](skills/persecucao-patrimonial-twalkingse/) | Orienta estratégias jurídicas e técnicas para localização, apreensão, custódia e alienação de… |
 | [`pjecalc-processamento — Extração, Validação e HITL`](skills/pjecalc-processamento-bragabarreto/) | > Autoridade arquitetural: pjecalc-transformacao. Esta skill documenta a implementação > real das Fases… |
 | [`Qualificação notarial transversal`](skills/qualificacao-notarial-transversal-sbroggioadv/) | Checklist transversal de qualificação humana para atos notariais: capacidade, legitimidade, licitude… |
 | [`Recusa e nota de exigências por UF`](skills/recusa-e-nota-de-exigencias-por-uf-sbroggioadv/) | Resolve a qualificação negativa conforme a UF, preservando quatro regimes de forma, três verbos… |

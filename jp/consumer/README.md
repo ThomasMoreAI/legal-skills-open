@@ -8,4 +8,3 @@ Plugin `jp-consumer`. Skills live under `skills/<slug>/SKILL.md`.
 
 | Skill | What it does |
 |---|---|
-| [`JIS X 8341-3 Accessibility`](skills/jis-accessibility-beshkenadze/) | Use when auditing websites for Japanese accessibility compliance, checking JIS X 8341-3 conformance, or… |

@@ -11,12 +11,9 @@ Jurisdiction: `cn` · Practice: `regulatory` · Skill language: zh
 | [`广告合规审核`](skills/ad-compliance-review/) | 广告合规审核技能，用于审核广告素材是否符合中国广告法及相关法规。适用场景：(1) 用户提交广告文案、广告素材要求合规审核时；(2) 用户提到"广告审核""广告合规""广告法审查"等关键词时；(3)… |
 | [`/ai-inventory`](skills/ai-inventory-zhou210712/) | 按系统逐一定义AI角色、风险等级和监管义务——判定每个系统是 AI服务提供者还是使用者，分配风险层级，并映射至中国AI法规 的义务要求。适用于建立AI系统清单、进行年度AI审计、或新法 规要求重新分类时。 |
 | [`/aia-generation`](skills/aia-generation-zhou210712/) | 为AI系统或模型生成风险定级和合规概要评估——涵盖数据、公平性、 透明度、安全性和监管注册表。在用例分类为"附条件-高"后使用， 产品或工程团队提出"我们需要做AI影响评估"时使用，或定期重新… |
-| [`/asset-review：资产管理审计`](skills/asset-review/) | 经济责任审计中的资产管理审计。审查国有资产保值增值、资产处置合规性、 对外投资收益、产权变动等。 |
 | [`/cold-start-interview`](skills/cold-start-interview-ai-governance-legal-zhou210712/) | 首次运行访谈以建立AI治理实践配置：适用法规、 AI系统清单、红线、审批工作流和输出偏好。 在插件首次安装时自动运行。使用 --redo 可重新运行。 |
-| [`/compliance-review：廉政合规审查`](skills/compliance-review-jack4world/) | 经济责任审计中的廉政合规审查。审查被审计领导干部廉洁从政/从业情况， 识别利益冲突、违规违纪线索、个人事项报告等。 |
 | [`预包装食品标签合规审核`](skills/food-label-review/) | 预包装食品标签合规审核技能，用于审核食品标签是否符合 GB 7718（预包装食品标签通则）和 GB 28050（预包装食品营养标签通则）。适用场景：(1)… |
 | [`差距呈现`](skills/gap-surfacer-zhou210712/) | 参考资料：支持 /regulatory-legal:gaps 和 /regulatory-legal:comments 的共享差距和意见征集跟踪框架。跟踪未关闭的政策差距及其整改状态， 从… |
-| [`Legal Compliance Search Skill`](skills/legal-compliance-search/) | This skill should be used when the user wants to "search compliance regulations", "check legal… |
 | [`/matter-workspace`](skills/matter-workspace-regulatory-legal-zhou210712/) | 管理事务工作区——创建、列表、切换、关闭或解除活跃事务（实践层面）。适用于多客户/多事务工作场景，需要将一项委托的上下文与另一项隔离开，或实质技能需要知道它在哪个事务中工作时。 |
 | [`/policy-diff`](skills/policy-diff-zhou210712/) | 将特定法规变化与已索引的政策库进行差异分析。适用于法规发生变化，你需要知道它触及了哪些政策以及差距是什么；用户说"把这个法规与我们的政策做差异分析"、"这影响了哪些政策"、"差距分析"；或… |
 | [`/policy-monitor`](skills/policy-monitor-ai-governance-legal-zhou210712/) | 保持AI使用政策与当前实践一致。两种模式：每周扫描已保存的AI 评估和分类结果以发现政策漂移；或对提议的新实践进行直接查询。 适用于用户询问"我们的AI政策是否覆盖了这一点"、"我们想… |

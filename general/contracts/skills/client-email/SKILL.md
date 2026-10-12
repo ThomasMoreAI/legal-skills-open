@@ -4,7 +4,7 @@ title: 'Client email'
 description: Draft client-facing emails for legal services — cover notes for contract deliverables, redline summaries, deal status updates, and follow-ups. Use when composing or revising outbound emails to clients about legal work product. Triggers on "draft reply," "email to client," "cover note," "write back to," or any outbound email accompanying a legal deliverable.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/client-workflows/client-email
-license: MIT
+license: Apache-2.0
 version: 0.1.1
 execution_mode: open
 jurisdiction: general

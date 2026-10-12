@@ -106,7 +106,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Data Lineage Tracking`](skills/data-lineage-tracking/) | Implements data lineage tracking for privacy compliance including origin tracking, transformation… |
 | [`Implementing Data Localization Requirements`](skills/data-localization/) | Guides compliance with country-specific data localization requirements across key jurisdictions… |
 | [`Executing Data Portability Requests`](skills/data-portability/) | Executes GDPR Article 20 data portability requests, covering machine-readable format requirements (JSON… |
-| [`Critical rules`](skills/data-privacy/) | Ensure data privacy compliance covering GDPR obligations, user consent management, data retention… |
 | [`GDPR Data Processing Addendum (DPA)`](skills/data-processing-addendum/) | Drafts a GDPR Article 28-compliant Data Processing Addendum (DPA) between data controllers and… |
 | [`Delaware Personal Data Privacy Act (DPPA)`](skills/delaware-dppa/) | Delaware Personal Data Privacy Act (DPPA) compliance implementation. Covers consumer rights (access… |
 | [`Designing Federated Learning Architecture`](skills/designing-federated-learning-architecture/) | Architecture guide for GDPR-compliant federated learning systems. Covers horizontal and vertical FL… |
@@ -188,7 +187,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Intellectual Property Analysis`](skills/law-ip-asgard-ai-platform/) | Analyze intellectual property rights across patents, trademarks, copyrights, and trade secrets. Use this… |
 | [`Implementing Lawful Basis Assessment`](skills/lawful-basis-assessment/) | Guides determination of the correct lawful basis under GDPR Article 6(1)(a)-(f) for each processing… |
 | [`Legal advisor`](skills/legal-advisor-v2/) | legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of… |
-| [`Privacy & Terms Generator`](skills/legal-docs/) | Generate jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products, apps, and digital… |
 | [`Légal & gouvernance — ne jamais l'oublier, ne jamais trancher seul`](skills/legal-governance-jean-paul15/) | Dimension légale et gouvernance du développement — licences du projet et des dépendances, données… |
 | [`Assessing Legitimate Interest vs Consent`](skills/legit-interest-vs-consent/) | Decision framework for choosing between consent and legitimate interest as the lawful basis for… |
 | [`Performing Legitimate Interest Assessment`](skills/legitimate-interest-lia/) | Guides the three-part Legitimate Interest Assessment (LIA) required under GDPR Article 6(1)(f): purpose… |

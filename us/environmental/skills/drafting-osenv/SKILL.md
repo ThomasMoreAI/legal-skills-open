@@ -4,7 +4,7 @@ title: Drafting Agent
 description: Draft the formal legal instrument itself — a Clean Water Act §505 (or other citizen-suit) Notice of Intent to Sue, an administrative rulemaking petition, a deadline complaint, or a consent-decree settlement scaffold. Use this skill whenever the user wants to produce, fill in, or revise one of these instruments, or says things like "draft the notice," "write the petition," "put together the 60-day letter," "we need a complaint for the missed deadline," or "scaffold a settlement." Works from a completed Gap Analysis when one exists. Produces a clearly-marked DRAFT with judgment-call fields flagged for attorney review — never a filing-ready or signed document.
 author: osenv
 author_url: https://github.com/osenv/osed/tree/main/skills/drafting
-license: CC-BY-4.0
+license: MIT
 version: 0.1.0
 execution_mode: open
 jurisdiction: us

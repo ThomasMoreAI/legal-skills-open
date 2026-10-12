@@ -13,7 +13,6 @@ Jurisdiction: `br` · Practice: `healthcare` · Skill language: pt
 | [`RELATÓRIO DE ANÁLISE DE ERRO MÉDICO`](skills/analisador-erro-medico-georgemarmelstein/) | Use when analyzing medical cases for malpractice identification, evaluating physician conduct, assessing… |
 | [`/health-medical-legal:clinic-privacy-implementation`](skills/clinic-privacy-implementation-bossmann007/) | Estruturação de Plano de Privacidade e Proteção de Dados Pessoais em saúde para clínica/hospital. Sob… |
 | [`/health-medical-legal:cold-start-interview`](skills/cold-start-interview-health-medical-legal-bossmann007/) | Entrevista de primeira execução que escreve… |
-| [`Controle Regulatório RDC e SUVISA`](skills/controle-regulatorio-rdc-e-suvisa-tiagopgr/) | Criar um sistema de controle dos itens obrigatórios exigidos pela RDC (Resolução da Diretoria Colegiada… |
 | [`/health-medical-legal:health-plan-denial`](skills/health-plan-denial-bossmann007/) | Triagem de negativa de operadora de plano de saúde. Análise de cobertura, rol ANS, cancelamento… |
 | [`/health-medical-legal:medical-liability-defense`](skills/medical-liability-defense/) | Triagem de ação por erro médico e estruturação de defesa. Análise de obrigação de meio vs. resultado… |
 

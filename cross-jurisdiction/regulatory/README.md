@@ -10,7 +10,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 |---|---|
 | [`AI Act and Regulatory Compliance Doc Skill`](skills/15-ai-act-and-regulatory-compliance-doc-peterbamuhigire/) | Use when classifying AI features against applicable regulatory regimes and mapping obligations… |
 | [`AI Agent Regulator Overlap Mapping Skill`](skills/27-ai-agent-regulator-overlap-mapping-peterbamuhigire/) | Use when crosswalking AI-agent controls and evidence across two or more regulatory or assurance regimes… |
-| [`Legal Compliance Checker`](skills/agency-legal-compliance-checker-2/) | Expert legal and compliance specialist ensuring business operations, data handling, and content creation… |
 | [`Accessibility Compliance Specialist IA`](skills/agent-accessibility-compliance-ziri22/) | Accessibility Compliance Specialist IA — Expert en conformité accessibilité (ADA, Section 508, RGAA, EN… |
 | [`EU AI Act (Regulation (EU) 2024/1689)`](skills/ai-regulatory-mapper/) | Current AI regulatory landscape — EU AI Act, FINRA, FDA, US state AI laws — and client-system exposure mapping |
 | [`Anti-Satellite-Test-Ban und Orbital-Debris-Pledge`](skills/anti-satellite-test-ban-und-orbital-debris-pledge/) | Für Anti-Satellite-Test-Ban und Orbital-Debris-Pledge: ordnet Norm, Beweislast und Gegenargument… |
@@ -19,7 +18,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`CCPA/CPRA — California Consumer Privacy Act & Privacy Rights Act`](skills/ccpa-cpra-es-skills-mauriciodelrio/) | Usa este skill cuando desarrolles software que recolecte, almacene o procese información personal de… |
 | [`Clause`](skills/clause/) | Reviewing legal documents for Terms of Service, Privacy Policy, and Tokushoho compliance. Detects clause… |
 | [`Commercial LEO Destinations - ISS-Nachfolge`](skills/commercial-leo-destinations-iss-nachfolge/) | Für Commercial LEO Destinations - ISS-Nachfolge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Compliance Auditor Skill`](skills/compliance-auditor-belokonm/) | Specialized auditor for SOC2, HIPAA, GDPR, and regulatory compliance frameworks across industries |
 | [`Compliance Check`](skills/compliance-check-nordic-ai/) | Regulatory and legal compliance audit. Discovers which frameworks apply based on jurisdiction, industry… |
 | [`Compliance Mapping Specialist`](skills/compliance-mapping-community-access/) | Map findings to Section 508, EN 301 549, EAA, ADA, AODA; build a VPAT. |
 | [`Compliance OS — Meta-Orchestrator`](skills/compliance-os-alirezarezvani/) | Compliance OS — meta-orchestrator that lets compliance teams CONFIGURE which frameworks apply, COMPUTE… |
@@ -33,7 +31,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Weltraumrecht: Haftungsübereinkommen: Absoluter Bodenschaden und Verschuldenshaftung im All`](skills/haftungsuebereinkommen-absoluter-bodenschaden-und-vers/) | Für Haftungsübereinkommen Absoluter Bodenschaden und Vers: ordnet Norm, Beweislast und Gegenargument… |
 | [`Cultural Heritage Protection Legal Summary`](skills/heritage-protection-summary/) | Generates structured legal briefings on cultural heritage protection developments. Synthesizes judicial… |
 | [`Core competencies`](skills/high-risk-classification-alexclowe/) | Auto-detect EU AI Act Annex III categories and US-state high-risk equivalents for any described AI system |
-| [`Regulatory Compliance Assessment Report`](skills/legal-compliance/) | Ensure business operations comply with GDPR, CCPA, HIPAA, SOX, PCI-DSS and other regulations across… |
 | [`Weltraumrecht: Lunar Base Governance: Safety Zones und Interoperabilität`](skills/lunar-base-governance-safety-zones-und-interoperabilit/) | Für Weltraumrecht: Lunar Base Governance: Safety Zones und Interoperabilität: ordnet Norm, Beweislast… |
 | [`Lunar Heritage und Schutz historischer Mondlandestellen`](skills/lunar-heritage-quantenkommunikation-via/) | Für Lunar Heritage und Schutz historischer Mondlandestellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Weltraumrecht: Mondvertrag: Ressourcen-Governance und politische Akzeptanz`](skills/mondvertrag-ressourcen/) | Für Weltraumrecht: Mondvertrag: Ressourcen-Governance und politische Akzeptanz: ordnet Norm, Beweislast… |

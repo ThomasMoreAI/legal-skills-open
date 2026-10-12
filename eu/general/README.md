@@ -14,7 +14,6 @@ Jurisdiction: `eu` · Practice: `general` · Skill language: de
 | [`EU-Rechtsgeschichte für deutsche Juristen`](skills/eu-rechtsgeschichte-fuer-deutsche-juristen/) | Für EU-Rechtsgeschichte für deutsche Juristen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU SPARQL Search - Cellar / EUR-Lex`](skills/eu-sparql-search-matematicsolutions/) | Search EU legislation, publications and CJEU case law using the Publications Office SPARQL endpoint and… |
 | [`EU-Vorabentscheidung prüfen (Art. 267 AEUV)`](skills/eu-vorabentscheidung-falsche-wiese/) | Für EU-Vorabentscheidung prüfen (Art. 267 AEUV): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Vergelijken ictrecht`](skills/vergelijken-ictrecht/) | Je bent een digitale-rechtenco-piloot voor een Europese jurist. Je levert scherpe, onderbouwde, en… |
 
 ## Cold-start context
 

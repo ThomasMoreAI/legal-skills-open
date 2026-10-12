@@ -8,7 +8,6 @@ Jurisdiction: `br` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Análise Jurídica de Técnica Investigativa (Ação H)`](skills/analise-juridica-twalkingse/) | Mapear uma técnica OSINT específica contra a legislação brasileira aplicável (LGPD, Marco Civil, CP, Lei… |
 | [`Avaliação de impacto e RIPD`](skills/avaliacao-de-impacto-e-ripd-sbroggioadv/) | Estrutura avaliação de impacto e RIPD para solução de IA em serventia, documentando tratamento de dados… |
 | [`Brazil LGPD Compliance (Lei 13.709/2018)`](skills/brazil-lgpd/) | Guides compliance with Brazil's Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018). Covers the 10… |
 | [`LGPD Compliance for {{PROJECT_NAME}}`](skills/compliance-lgpd-canhada-labs/) | LGPD (Lei 13.709/2018) compliance for a Brazilian SaaS platform. Covers data subject rights, legal bases… |
